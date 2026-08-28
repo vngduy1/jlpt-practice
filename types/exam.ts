@@ -1,23 +1,26 @@
 export const JLPT_QUESTION_TYPES = [
-  'KANJI_READING',
-  'VOCABULARY',
-  'SYNONYM',
-  'WORD_USAGE',
-  'GRAMMAR',
-  'SENTENCE_ORDER',
-  'CLOZE',
-  'READING',
-  'INFORMATION_SEARCH',
+  "KANJI_READING",
+  "VOCABULARY",
+  "SYNONYM",
+  "WORD_USAGE",
+  "GRAMMAR",
+  "SENTENCE_ORDER",
+  "CLOZE",
+  "READING",
+  "INFORMATION_SEARCH",
 ] as const;
 
 export type JlptQuestionType = (typeof JLPT_QUESTION_TYPES)[number];
-export type JlptLevel = 'N1' | 'N2' | 'N3' | 'N4' | 'N5';
+export type JlptLevel = "N1" | "N2" | "N3" | "N4" | "N5";
 export type JlptExamMonth = 7 | 12;
-export type PassageQuestionType = 'CLOZE' | 'READING' | 'INFORMATION_SEARCH';
+export type PassageQuestionType = "CLOZE" | "READING" | "INFORMATION_SEARCH";
 export type StandaloneQuestionType = Exclude<
   JlptQuestionType,
-  'SENTENCE_ORDER' | PassageQuestionType
+  "SENTENCE_ORDER" | PassageQuestionType
 >;
+
+export type ExamStatus = "draft" | "approved";
+export type PassageLayout = "horizontal" | "vertical";
 
 export interface Reviewable {
   /** True when the imported PDF text, layout, or answer needs manual verification. */
@@ -58,7 +61,7 @@ export interface SentenceFragment {
   text: string;
 }
 
-export interface SentenceOrderQuestion extends QuestionMetadata<'SENTENCE_ORDER'> {
+export interface SentenceOrderQuestion extends QuestionMetadata<"SENTENCE_ORDER"> {
   sentenceBefore: string;
   sentenceAfter: string;
   fragments: SentenceFragment[];
@@ -79,18 +82,17 @@ export interface PassageQuestionSet<
   id: string;
   type: TType;
   passageId: string;
-  /**
-   * Shared source text is stored once here. Child questions must not copy it.
-   * For information-search items, this can contain the extracted notice or table.
-   */
   passage: string;
+
+  layout?: PassageLayout;
+
   questions: PassageQuestion<TType>[];
 }
 
-export type ClozeQuestionGroup = PassageQuestionSet<'CLOZE'>;
-export type ReadingQuestionGroup = PassageQuestionSet<'READING'>;
+export type ClozeQuestionGroup = PassageQuestionSet<"CLOZE">;
+export type ReadingQuestionGroup = PassageQuestionSet<"READING">;
 export type InformationSearchQuestionGroup =
-  PassageQuestionSet<'INFORMATION_SEARCH'>;
+  PassageQuestionSet<"INFORMATION_SEARCH">;
 
 export type PassageQuestionGroup =
   | ClozeQuestionGroup
@@ -116,12 +118,14 @@ export interface Exam {
   year: number;
   month: JlptExamMonth;
   title: string;
+  /** Current lifecycle state of the exam data. */
+  status: ExamStatus;
   description: string;
   /** Expected total; draft JSON may contain fewer imported questions. */
   questionCount: number;
   sections: ExamSection[];
 }
 
-export interface ExamSummary extends Omit<Exam, 'sections'> {
+export interface ExamSummary extends Omit<Exam, "sections"> {
   loadedQuestionCount: number;
 }
