@@ -1,30 +1,31 @@
 import type { ExamQuestion } from '@/types/exam';
 
 export interface AnswerCheckResult {
-  questionId: string;
-  selectedOptionId: string;
-  correctOptionId: string;
+  questionId: number;
+  selectedAnswer: number;
+  correctAnswer: number;
   isCorrect: boolean;
 }
 
 export function checkAnswer(
   question: ExamQuestion,
-  selectedOptionId: string,
+  selectedAnswer: number,
 ): AnswerCheckResult {
-  const optionExists = question.options.some(
-    (option) => option.id === selectedOptionId,
-  );
+  const answerIds =
+    question.type === 'SENTENCE_ORDER'
+      ? question.fragments.map((fragment) => fragment.id)
+      : question.choices.map((choice) => choice.id);
 
-  if (!optionExists) {
+  if (!answerIds.includes(selectedAnswer)) {
     throw new RangeError(
-      `Option "${selectedOptionId}" does not exist for question "${question.id}".`,
+      `Answer "${selectedAnswer}" does not exist for question "${question.id}".`,
     );
   }
 
   return {
     questionId: question.id,
-    selectedOptionId,
-    correctOptionId: question.correctOptionId,
-    isCorrect: selectedOptionId === question.correctOptionId,
+    selectedAnswer,
+    correctAnswer: question.correctAnswer,
+    isCorrect: selectedAnswer === question.correctAnswer,
   };
 }

@@ -1,12 +1,22 @@
 import n1December2024 from '@/data/exams/n1/2024-12.json';
-import type { Exam, ExamSummary } from '@/types/exam';
+import type { Exam, ExamSectionItem, ExamSummary } from '@/types/exam';
 
 const examRegistry: Exam[] = [n1December2024 as Exam];
 
+function countQuestions(items: ExamSectionItem[]): number {
+  return items.reduce(
+    (total, item) => total + ('questions' in item ? item.questions.length : 1),
+    0,
+  );
+}
+
 export function listExamSummaries(): ExamSummary[] {
-  return examRegistry.map(({ questions, ...exam }) => ({
+  return examRegistry.map(({ sections, ...exam }) => ({
     ...exam,
-    loadedQuestionCount: questions.length,
+    loadedQuestionCount: sections.reduce(
+      (total, section) => total + countQuestions(section.items),
+      0,
+    ),
   }));
 }
 

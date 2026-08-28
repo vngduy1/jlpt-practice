@@ -9,9 +9,8 @@ interface ExamCardProps {
 }
 
 export function ExamCard({ exam }: ExamCardProps) {
-  const totalQuestions = exam.questionRange.end - exam.questionRange.start + 1;
   const progress = Math.round(
-    (exam.loadedQuestionCount / totalQuestions) * 100,
+    (exam.loadedQuestionCount / exam.questionCount) * 100,
   );
 
   return (
@@ -43,9 +42,7 @@ export function ExamCard({ exam }: ExamCardProps) {
           <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <ListChecks className="size-3.5" aria-hidden="true" /> Questions
           </dt>
-          <dd className="mt-1 font-semibold">
-            {exam.questionRange.start}–{exam.questionRange.end}
-          </dd>
+          <dd className="mt-1 font-semibold">1–{exam.questionCount}</dd>
         </div>
       </dl>
 
