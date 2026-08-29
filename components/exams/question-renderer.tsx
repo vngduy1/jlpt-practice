@@ -19,6 +19,29 @@ interface QuestionRendererProps {
   onCheck: () => void;
 }
 
+function renderQuestionText(question: string, target?: string) {
+  if (!target || !question.includes(target)) {
+    return question;
+  }
+
+  const index = question.indexOf(target);
+
+  const before = question.slice(0, index);
+  const after = question.slice(index + target.length);
+
+  return (
+    <>
+      {before}
+
+      <span className="font-semibold underline decoration-2 underline-offset-4">
+        {target}
+      </span>
+
+      {after}
+    </>
+  );
+}
+
 export function QuestionRenderer({
   item,
   mode,
@@ -95,7 +118,12 @@ export function QuestionRenderer({
           {/* Question */}
 
           {question.question && (
-            <p className="text-lg leading-8">{question.question}</p>
+            <p className="text-lg leading-8">
+              {renderQuestionText(
+                question.question,
+                "target" in question ? question.target : undefined,
+              )}
+            </p>
           )}
 
           {/* Choices */}

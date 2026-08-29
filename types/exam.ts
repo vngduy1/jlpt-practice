@@ -43,8 +43,15 @@ interface QuestionMetadata<TType extends JlptQuestionType> extends Reviewable {
 
 interface MultipleChoiceFields {
   question: string;
+
+  /**
+   * Từ hoặc cụm từ cần được nhấn mạnh trong câu hỏi.
+   * Ví dụ 問題1 漢字読み hoặc 問題3 同義語.
+   */
+  target?: string;
+
   choices: QuestionChoice[];
-  /** References QuestionChoice.id rather than the array index. */
+
   correctAnswer: number;
 }
 

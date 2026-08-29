@@ -1,9 +1,18 @@
-import n1December2024 from "@/data/exams/n1/2024-12.json";
-import n1July2023 from "@/data/exams/n1/2023-07.json";
+import { n1Exams } from "@/lib/exams/n1";
+import { n2Exams } from "@/lib/exams/n2";
+import { n3Exams } from "@/lib/exams/n3";
+import { n4Exams } from "@/lib/exams/n4";
+import { n5Exams } from "@/lib/exams/n5";
 
 import type { Exam, ExamSectionItem, ExamSummary } from "@/types/exam";
 
-const examRegistry: Exam[] = [n1December2024 as Exam, n1July2023 as Exam];
+const examRegistry: Exam[] = [
+  ...n1Exams,
+  ...n2Exams,
+  ...n3Exams,
+  ...n4Exams,
+  ...n5Exams,
+];
 
 function countQuestions(items?: ExamSectionItem[]): number {
   if (!Array.isArray(items)) {
@@ -11,7 +20,8 @@ function countQuestions(items?: ExamSectionItem[]): number {
   }
 
   return items.reduce(
-    (total, item) => total + ("questions" in item ? item.questions.length : 1),
+    (total, item) =>
+      total + ("questions" in item ? item.questions.length : 1),
     0,
   );
 }

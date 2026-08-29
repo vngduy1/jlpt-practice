@@ -17,23 +17,12 @@
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "佐藤選手がゴールを決めたとき、観客は絶叫した。",
+          "target": "絶叫",
           "choices": [
-            {
-              "id": 1,
-              "text": "せっきょう"
-            },
-            {
-              "id": 2,
-              "text": "ぜっきょう"
-            },
-            {
-              "id": 3,
-              "text": "ぜっきゅう"
-            },
-            {
-              "id": 4,
-              "text": "せっきゅう"
-            }
+            { "id": 1, "text": "せっきょう" },
+            { "id": 2, "text": "ぜっきょう" },
+            { "id": 3, "text": "ぜっきゅう" },
+            { "id": 4, "text": "せっきゅう" }
           ],
           "correctAnswer": 2,
           "explanation": null,
@@ -44,50 +33,28 @@
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "背後から物音が聞こえた。",
+          "target": "背後",
           "choices": [
-            {
-              "id": 1,
-              "text": "はいご"
-            },
-            {
-              "id": 2,
-              "text": "はいご"
-            },
-            {
-              "id": 3,
-              "text": "せいご"
-            },
-            {
-              "id": 4,
-              "text": "せいご"
-            }
+            { "id": 1, "text": "はいご" },
+            { "id": 2, "text": "はいご" },
+            { "id": 3, "text": "せいご" },
+            { "id": 4, "text": "せいご" }
           ],
           "correctAnswer": 1,
           "explanation": null,
-          "needsReview": false
+          "needsReview": true
         },
         {
           "id": 3,
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "将来の抱負を述べる。",
+          "target": "抱負",
           "choices": [
-            {
-              "id": 1,
-              "text": "ほうふ"
-            },
-            {
-              "id": 2,
-              "text": "ほうぶ"
-            },
-            {
-              "id": 3,
-              "text": "ほふ"
-            },
-            {
-              "id": 4,
-              "text": "ほぶ"
-            }
+            { "id": 1, "text": "ほうふ" },
+            { "id": 2, "text": "ほうぶ" },
+            { "id": 3, "text": "ほふ" },
+            { "id": 4, "text": "ほぶ" }
           ],
           "correctAnswer": 1,
           "explanation": null,
@@ -98,23 +65,12 @@
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "人を侮ってはいけない。",
+          "target": "侮って",
           "choices": [
-            {
-              "id": 1,
-              "text": "からかって"
-            },
-            {
-              "id": 2,
-              "text": "ののしって"
-            },
-            {
-              "id": 3,
-              "text": "あなどって"
-            },
-            {
-              "id": 4,
-              "text": "うらぎって"
-            }
+            { "id": 1, "text": "からかって" },
+            { "id": 2, "text": "ののしって" },
+            { "id": 3, "text": "あなどって" },
+            { "id": 4, "text": "うらぎって" }
           ],
           "correctAnswer": 3,
           "explanation": null,
@@ -125,23 +81,12 @@
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "相手がわかるように、筋道を立てて説明した。",
+          "target": "筋道",
           "choices": [
-            {
-              "id": 1,
-              "text": "きんどう"
-            },
-            {
-              "id": 2,
-              "text": "すじどう"
-            },
-            {
-              "id": 3,
-              "text": "きんみち"
-            },
-            {
-              "id": 4,
-              "text": "すじみち"
-            }
+            { "id": 1, "text": "きんどう" },
+            { "id": 2, "text": "すじどう" },
+            { "id": 3, "text": "きんみち" },
+            { "id": 4, "text": "すじみち" }
           ],
           "correctAnswer": 4,
           "explanation": null,
@@ -152,23 +97,12 @@
           "mondai": 1,
           "type": "KANJI_READING",
           "question": "その小説の主人公は、奔放な性格をしている。",
+          "target": "奔放",
           "choices": [
-            {
-              "id": 1,
-              "text": "はんぽう"
-            },
-            {
-              "id": 2,
-              "text": "ぽんぽう"
-            },
-            {
-              "id": 3,
-              "text": "ほんぽう"
-            },
-            {
-              "id": 4,
-              "text": "ぱんぽう"
-            }
+            { "id": 1, "text": "はんぽう" },
+            { "id": 2, "text": "ぽんぽう" },
+            { "id": 3, "text": "ほんぽう" },
+            { "id": 4, "text": "ぱんぽう" }
           ],
           "correctAnswer": 3,
           "explanation": null,
@@ -380,6 +314,7 @@
           "mondai": 3,
           "type": "SYNONYM",
           "question": "社長は小林部長の手腕を高く評価しているようだ。",
+          "target": "手腕",
           "choices": [
             {
               "id": 1,
@@ -400,13 +335,14 @@
           ],
           "correctAnswer": 2,
           "explanation": null,
-          "needsReview": false
+          "needsReview": true
         },
         {
           "id": 15,
           "mondai": 3,
           "type": "SYNONYM",
           "question": "時間をロスしてしまった。",
+          "target": "ロス",
           "choices": [
             {
               "id": 1,
@@ -427,13 +363,14 @@
           ],
           "correctAnswer": 2,
           "explanation": null,
-          "needsReview": false
+          "needsReview": true
         },
         {
           "id": 16,
           "mondai": 3,
           "type": "SYNONYM",
           "question": "確認がおろそかになっていた。",
+          "target": "おろそか",
           "choices": [
             {
               "id": 1,
@@ -454,13 +391,14 @@
           ],
           "correctAnswer": 4,
           "explanation": null,
-          "needsReview": false
+          "needsReview": true
         },
         {
           "id": 17,
           "mondai": 3,
           "type": "SYNONYM",
           "question": "私たちのチームの目下の目標は、市の大会で優勝することだ。",
+          "target": "目下",
           "choices": [
             {
               "id": 1,
@@ -488,6 +426,7 @@
           "mondai": 3,
           "type": "SYNONYM",
           "question": "経費を考慮したうえで、古いアパートの改修工事を請け負うことにした。",
+          "target": "請け負う",
           "choices": [
             {
               "id": 1,
@@ -515,6 +454,7 @@
           "mondai": 3,
           "type": "SYNONYM",
           "question": "先生に本を進呈しました。",
+          "target": "進呈",
           "choices": [
             {
               "id": 1,
