@@ -5,7 +5,6 @@ import { getExamById } from "@/lib/exams/registry";
 
 import type { ExamSectionItem } from "@/types/exam";
 import type { RunnerQuestion } from "@/types/exam-runner";
-import Link from "next/link";
 import { Home } from "lucide-react";
 
 interface ExamPageProps {
@@ -76,13 +75,13 @@ export default async function ExamPage({ params }: ExamPageProps) {
               </p>
             </div>
 
-            <Link
+            <a
               href="/"
               className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground"
             >
               <Home className="size-4" />
               ホーム
-            </Link>
+            </a>
           </div>
         </header>
 

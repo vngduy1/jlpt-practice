@@ -1,5 +1,4 @@
 import { ArrowRight, CalendarDays, Clock3, FileText } from "lucide-react";
-import Link from "next/link";
 
 import type { ExamSummary } from "@/types/exam";
 
@@ -69,13 +68,12 @@ export function ExamCard({ exam }: ExamCardProps) {
 
         <div className="mt-auto pt-6">
           {isReady ? (
-            <Link
+            <a
               href={`/exams/${exam.id}`}
               className="flex min-h-11 w-full items-center justify-between rounded-lg bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
             >
               模擬試験を開始
-              <ArrowRight className="size-4" aria-hidden="true" />
-            </Link>
+            </a>
           ) : (
             <button
               type="button"
