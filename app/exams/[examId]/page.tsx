@@ -75,6 +75,7 @@ export default async function ExamPage({ params }: ExamPageProps) {
               </p>
             </div>
 
+            {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
             <a
               href="/"
               className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground"

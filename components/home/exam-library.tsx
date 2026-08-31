@@ -52,7 +52,7 @@ export function ExamLibrary({
           </p>
         </div>
 
-        {/* {!isOriginal && filteredExams.length > 3 && (
+        {!isOriginal && filteredExams.length > 3 && (
           <button
             type="button"
             className="hidden items-center gap-1 text-sm font-medium text-primary hover:underline sm:flex"
@@ -60,7 +60,7 @@ export function ExamLibrary({
             すべて見る
             <ChevronRight className="size-4" />
           </button>
-        )} */}
+        )}
       </div>
 
       {filteredExams.length > 0 ? (

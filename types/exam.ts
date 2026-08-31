@@ -128,7 +128,9 @@ export interface Exam {
   year: number;
   month: number;
   title: string;
+  questionCount: number;
   durationMinutes: number;
+
   sections: ExamSection[];
 }
 

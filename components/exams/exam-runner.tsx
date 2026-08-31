@@ -66,6 +66,8 @@ export function ExamRunner({
         if (prev <= 1) {
           window.clearInterval(timer);
 
+          setSubmitted(true);
+
           return 0;
         }
 
@@ -79,23 +81,17 @@ export function ExamRunner({
   }, [submitted]);
 
   /*
-   * Auto submit
-   */
-  useEffect(() => {
-    if (remainingSeconds === 0 && !submitted) {
-      setSubmitted(true);
-    }
-  }, [remainingSeconds, submitted]);
-
-  /*
    * Result
    */
   const result = useMemo<ExamResultData>(() => {
-    let correctCount = 0;
-    let incorrectCount = 0;
-    let unanswered = 0;
+    const initialResult = {
+      correctCount: 0,
+      incorrectCount: 0,
+      unanswered: 0,
+      details: [] as ExamResultData["details"],
+    };
 
-    const details = questions.map((item, index) => {
+    const calculated = questions.reduce((acc, item, index) => {
       const question = item.question;
 
       const userAnswer = answers[question.id];
@@ -103,31 +99,44 @@ export function ExamRunner({
       const correct =
         userAnswer !== undefined && userAnswer === question.correctAnswer;
 
-      if (userAnswer === undefined) {
-        unanswered += 1;
-      } else if (correct) {
-        correctCount += 1;
-      } else {
-        incorrectCount += 1;
-      }
-
-      return {
+      const nextDetail = {
         index,
         question,
         userAnswer,
         correct,
       };
-    });
+
+      if (userAnswer === undefined) {
+        return {
+          ...acc,
+          unanswered: acc.unanswered + 1,
+          details: [...acc.details, nextDetail],
+        };
+      }
+
+      if (correct) {
+        return {
+          ...acc,
+          correctCount: acc.correctCount + 1,
+          details: [...acc.details, nextDetail],
+        };
+      }
+
+      return {
+        ...acc,
+        incorrectCount: acc.incorrectCount + 1,
+        details: [...acc.details, nextDetail],
+      };
+    }, initialResult);
 
     const percentage =
-      questions.length > 0 ? (correctCount / questions.length) * 100 : 0;
+      questions.length > 0
+        ? (calculated.correctCount / questions.length) * 100
+        : 0;
 
     return {
-      correctCount,
-      incorrectCount,
-      unanswered,
+      ...calculated,
       percentage,
-      details,
     };
   }, [answers, questions]);
 
@@ -230,6 +239,26 @@ export function ExamRunner({
       behavior: "smooth",
     });
   }
+
+  // function restartExam() {
+  //   const confirmed = window.confirm(
+  //     "現在の回答をすべて削除して、最初からやり直しますか？",
+  //   );
+
+  //   if (!confirmed) {
+  //     return;
+  //   }
+
+  //   setCurrentIndex(0);
+  //   setAnswers({});
+  //   setCheckedQuestions({});
+  //   setSubmitted(false);
+
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // }
 
   if (submitted) {
     return (
