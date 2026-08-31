@@ -1,8 +1,14 @@
 import { HomePage } from "@/components/home/home-page";
-import { listExamSummaries } from "@/lib/exams/registry";
+import {
+  listJlptExamSummaries,
+  listOriginalExamSummaries,
+} from "@/lib/exams/registry";
 
 export default function Home() {
-  const exams = listExamSummaries();
+  const officialExams = listJlptExamSummaries();
+  const originalExams = listOriginalExamSummaries();
 
-  return <HomePage exams={exams} />;
+  return (
+    <HomePage officialExams={officialExams} originalExams={originalExams} />
+  );
 }

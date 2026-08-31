@@ -1,0 +1,1770 @@
+{
+  "id": "n1-original-03",
+  "source": "ORIGINAL",
+  "level": "N1",
+  "year": 2026,
+  "month": 12,
+  "title": "JLPT N1 オリジナル模擬試験 03",
+  "status": "approved",
+  "description": "JLPT N1対策のために新規作成したオリジナル模擬試験 03。文字・語彙、文法、読解の全60問。",
+  "questionCount": 60,
+  "durationMinutes": 110,
+  "sections": [
+    {
+      "id": "vocabulary",
+      "title": "文字・語彙",
+      "items": [
+        {
+          "id": 1,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "議論が紛糾し、予定時刻を大幅に超えた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ふんしゅう"
+            },
+            {
+              "id": 2,
+              "text": "ふんきゅう"
+            },
+            {
+              "id": 3,
+              "text": "ぶんきゅう"
+            },
+            {
+              "id": 4,
+              "text": "ふんきょう"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "紛糾"
+        },
+        {
+          "id": 2,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "その制度は小規模事業者に過度な負担を強いる。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "こわいる"
+            },
+            {
+              "id": 2,
+              "text": "しめいる"
+            },
+            {
+              "id": 3,
+              "text": "しいる"
+            },
+            {
+              "id": 4,
+              "text": "つよいる"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "強いる"
+        },
+        {
+          "id": 3,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "彼は慣例に拘泥せず、手順を全面的に見直した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "くでい"
+            },
+            {
+              "id": 2,
+              "text": "くたい"
+            },
+            {
+              "id": 3,
+              "text": "こうたい"
+            },
+            {
+              "id": 4,
+              "text": "こうでい"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "拘泥"
+        },
+        {
+          "id": 4,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "不祥事を受け、組織の自浄作用が問われている。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "じせい"
+            },
+            {
+              "id": 2,
+              "text": "じそう"
+            },
+            {
+              "id": 3,
+              "text": "じじょう"
+            },
+            {
+              "id": 4,
+              "text": "じしょう"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "自浄"
+        },
+        {
+          "id": 5,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "調査結果は仮説を覆すに足るものだった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ひるがえす"
+            },
+            {
+              "id": 2,
+              "text": "くりかえす"
+            },
+            {
+              "id": 3,
+              "text": "くつがえす"
+            },
+            {
+              "id": 4,
+              "text": "おおす"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "覆す"
+        },
+        {
+          "id": 6,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "一部の成功例をすべてに当てはめる議論は（　）を欠く。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "妥当性"
+            },
+            {
+              "id": 2,
+              "text": "透明性"
+            },
+            {
+              "id": 3,
+              "text": "即効性"
+            },
+            {
+              "id": 4,
+              "text": "効率性"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 7,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "担当者は批判に対して終始（　）な態度を崩さなかった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "漠然"
+            },
+            {
+              "id": 2,
+              "text": "歴然"
+            },
+            {
+              "id": 3,
+              "text": "毅然"
+            },
+            {
+              "id": 4,
+              "text": "騒然"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 8,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "研究費の削減で計画の変更を（　）なくされた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "余儀"
+            },
+            {
+              "id": 2,
+              "text": "猶予"
+            },
+            {
+              "id": 3,
+              "text": "余念"
+            },
+            {
+              "id": 4,
+              "text": "余裕"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 9,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "両者の説明は細部で（　）しており、事実確認が必要だ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "入り組んで"
+            },
+            {
+              "id": 2,
+              "text": "行き届いて"
+            },
+            {
+              "id": 3,
+              "text": "食い違って"
+            },
+            {
+              "id": 4,
+              "text": "立ち入って"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 10,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "新製品への期待が先行し、課題が（　）されている。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "軽視"
+            },
+            {
+              "id": 2,
+              "text": "排除"
+            },
+            {
+              "id": 3,
+              "text": "省略"
+            },
+            {
+              "id": 4,
+              "text": "軽減"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 11,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "担当者の説明は釈然としない。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "聞き取りにくい"
+            },
+            {
+              "id": 2,
+              "text": "納得できない"
+            },
+            {
+              "id": 3,
+              "text": "要領を得ない"
+            },
+            {
+              "id": 4,
+              "text": "根拠が乏しい"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "釈然としない"
+        },
+        {
+          "id": 12,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "彼女は批判をものともせず研究を続けた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "十分に理解せず"
+            },
+            {
+              "id": 2,
+              "text": "あえて反論せず"
+            },
+            {
+              "id": 3,
+              "text": "全く気づかず"
+            },
+            {
+              "id": 4,
+              "text": "少しも恐れず"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "ものともせず"
+        },
+        {
+          "id": 13,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "今回の措置は暫定的なものだ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "対象を限定した"
+            },
+            {
+              "id": 2,
+              "text": "急いで決めた"
+            },
+            {
+              "id": 3,
+              "text": "状況に応じて変化する"
+            },
+            {
+              "id": 4,
+              "text": "正式決定までの一時的な"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "暫定的"
+        },
+        {
+          "id": 14,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "予算案は大幅な修正を余儀なくされた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "予定どおり行われた"
+            },
+            {
+              "id": 2,
+              "text": "やむを得ずすることになった"
+            },
+            {
+              "id": 3,
+              "text": "当然するべきだと判断された"
+            },
+            {
+              "id": 4,
+              "text": "強く勧められた"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "余儀なくされた"
+        },
+        {
+          "id": 15,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "その指摘は問題の本質を突いている。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "隠れた原因を暴いている"
+            },
+            {
+              "id": 2,
+              "text": "議論の前提を否定している"
+            },
+            {
+              "id": 3,
+              "text": "最も重要な点を捉えている"
+            },
+            {
+              "id": 4,
+              "text": "欠点を厳しく責めている"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "本質を突いている"
+        },
+        {
+          "id": 16,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "打診する",
+          "choices": [
+            {
+              "id": 1,
+              "text": "故障した機械を何度も打診した。"
+            },
+            {
+              "id": 2,
+              "text": "共同研究に参加する意思があるか、先方に打診した。"
+            },
+            {
+              "id": 3,
+              "text": "患者の背中を軽く打診して励ました。"
+            },
+            {
+              "id": 4,
+              "text": "計画の問題点を報告書で打診した。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "打診する"
+        },
+        {
+          "id": 17,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "取り沙汰する",
+          "choices": [
+            {
+              "id": 1,
+              "text": "砂を取り沙汰して異物を除いた。"
+            },
+            {
+              "id": 2,
+              "text": "意見を取り沙汰して一つにまとめた。"
+            },
+            {
+              "id": 3,
+              "text": "不要な資料を取り沙汰して処分した。"
+            },
+            {
+              "id": 4,
+              "text": "後任候補として複数の名前が取り沙汰されている。"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "取り沙汰する"
+        },
+        {
+          "id": 18,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "見落とす",
+          "choices": [
+            {
+              "id": 1,
+              "text": "相手の実力を見落として高く評価した。"
+            },
+            {
+              "id": 2,
+              "text": "計画を見落として実施を断念した。"
+            },
+            {
+              "id": 3,
+              "text": "景色を見落として谷へ下りた。"
+            },
+            {
+              "id": 4,
+              "text": "集計表の小さな注記を見落としていた。"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "見落とす"
+        },
+        {
+          "id": 19,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "持ち越す",
+          "choices": [
+            {
+              "id": 1,
+              "text": "荷物を隣室へ持ち越して整理した。"
+            },
+            {
+              "id": 2,
+              "text": "結論が出ず、審議は次回に持ち越された。"
+            },
+            {
+              "id": 3,
+              "text": "予算を持ち越して全額使い切った。"
+            },
+            {
+              "id": 4,
+              "text": "問題を担当者へ持ち越して任命した。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "持ち越す"
+        },
+        {
+          "id": 20,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "見込む",
+          "choices": [
+            {
+              "id": 1,
+              "text": "窓から中を見込んで声をかけた。"
+            },
+            {
+              "id": 2,
+              "text": "原材料費の上昇を見込んで価格を設定した。"
+            },
+            {
+              "id": 3,
+              "text": "資料を見込むと結論が書いてある。"
+            },
+            {
+              "id": 4,
+              "text": "駅で友人を見込んで手を振った。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "見込む"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "文法",
+      "items": [
+        {
+          "id": 21,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "新技術は便利である（　）、使い方を誤れば監視を強める道具にもなる。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "反面"
+            },
+            {
+              "id": 2,
+              "text": "始末で"
+            },
+            {
+              "id": 3,
+              "text": "そばから"
+            },
+            {
+              "id": 4,
+              "text": "なりに"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 22,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "経営者（　）、短期の利益だけでなく雇用への影響も考えるべきだ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "たるや"
+            },
+            {
+              "id": 2,
+              "text": "たるもの"
+            },
+            {
+              "id": 3,
+              "text": "にしては"
+            },
+            {
+              "id": 4,
+              "text": "としたところで"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 23,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "詳細な記録が残っていない以上、当時の判断を一方的に責める（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "にかたくない"
+            },
+            {
+              "id": 2,
+              "text": "にたえない"
+            },
+            {
+              "id": 3,
+              "text": "に越したことはない"
+            },
+            {
+              "id": 4,
+              "text": "にはあたらない"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 24,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "彼女は現場経験が豊富な（　）、制度の弱点を的確に見抜いた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "にひきかえ"
+            },
+            {
+              "id": 2,
+              "text": "までして"
+            },
+            {
+              "id": 3,
+              "text": "だけあって"
+            },
+            {
+              "id": 4,
+              "text": "ばかりに"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 25,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "新規契約の増加（　）、問い合わせ件数も急増した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "に伴って"
+            },
+            {
+              "id": 2,
+              "text": "をものともせず"
+            },
+            {
+              "id": 3,
+              "text": "に至って"
+            },
+            {
+              "id": 4,
+              "text": "にひきかえ"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 26,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "一度公表した方針を、根拠も示さず変更する（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "には及ばない"
+            },
+            {
+              "id": 2,
+              "text": "べくもない"
+            },
+            {
+              "id": 3,
+              "text": "ものではないか"
+            },
+            {
+              "id": 4,
+              "text": "わけにはいかない"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 27,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "彼の提案は現実離れしているように見えるが、検討する価値がない（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "に相違ない"
+            },
+            {
+              "id": 2,
+              "text": "には違いないか"
+            },
+            {
+              "id": 3,
+              "text": "とはかぎらない"
+            },
+            {
+              "id": 4,
+              "text": "ともかぎった"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 28,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "参加者は年齢（　）、共通の課題について活発に意見を交わした。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "に即して"
+            },
+            {
+              "id": 2,
+              "text": "にかかわり"
+            },
+            {
+              "id": 3,
+              "text": "を限りに"
+            },
+            {
+              "id": 4,
+              "text": "を問わず"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 29,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "十分な説明もないまま負担だけを求められては、住民が反発するのも（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ばかりだ"
+            },
+            {
+              "id": 2,
+              "text": "ものだ"
+            },
+            {
+              "id": 3,
+              "text": "までだ"
+            },
+            {
+              "id": 4,
+              "text": "もっともだ"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 30,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "担当者は謝罪する（　）、質問にも一切答えなかった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "にもまして"
+            },
+            {
+              "id": 2,
+              "text": "どころか"
+            },
+            {
+              "id": 3,
+              "text": "ばかりに"
+            },
+            {
+              "id": 4,
+              "text": "に限らず"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 31,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "責任者は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "否定してしまった"
+            },
+            {
+              "id": 2,
+              "text": "部下の報告を"
+            },
+            {
+              "id": 3,
+              "text": "事実を確認する"
+            },
+            {
+              "id": 4,
+              "text": "こともなく"
+            }
+          ],
+          "correctOrder": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "starPosition": 2,
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 32,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "この問題は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "決してない"
+            },
+            {
+              "id": 2,
+              "text": "片づけられるほど"
+            },
+            {
+              "id": 3,
+              "text": "単なる資金不足で"
+            },
+            {
+              "id": 4,
+              "text": "単純なものでは"
+            }
+          ],
+          "correctOrder": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "starPosition": 3,
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 33,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "会議では、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "審議を次回に"
+            },
+            {
+              "id": 2,
+              "text": "情報が足りないとして"
+            },
+            {
+              "id": 3,
+              "text": "結論を出すには"
+            },
+            {
+              "id": 4,
+              "text": "持ち越すことになった"
+            }
+          ],
+          "correctOrder": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "starPosition": 3,
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 34,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "彼女は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "自ら立てた計画を"
+            },
+            {
+              "id": 2,
+              "text": "ものともせず"
+            },
+            {
+              "id": 3,
+              "text": "最後まで貫いた"
+            },
+            {
+              "id": 4,
+              "text": "周囲の反対を"
+            }
+          ],
+          "correctOrder": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "starPosition": 2,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 35,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "制度の意義を",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "具体的な事例に"
+            },
+            {
+              "id": 2,
+              "text": "理解してもらうには"
+            },
+            {
+              "id": 3,
+              "text": "即して説明するのが"
+            },
+            {
+              "id": 4,
+              "text": "最も効果的だ"
+            }
+          ],
+          "correctOrder": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "starPosition": 2,
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": "n1-original-03-grammar-07-01",
+          "type": "CLOZE",
+          "passageId": "n1-original-03-grammar-07-01",
+          "passage": "便利な道具が時間を節約するとは限らない。新しい連絡手段が増える（36）、返信すべき窓口も増え、確認に費やす時間がかえって長くなることがある。問題は道具の数ではなく、それぞれを何のために使うかが共有されていないことだ。緊急の連絡と記録に残すべき相談が同じ場所に流れ込めば、重要度を判断しにくい（37）。そこで、道具を追加する前に、既存の連絡経路を整理する必要がある。どの情報をどこに置くかが明確で（38）、受け手は内容そのものに注意を向けられる。効率化とは作業を速くすること（39）、不要な判断を減らすことでもある。導入した機能の多さを成果とみなす（40）、実際に減った負担を確かめるべきだ。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 36,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（36）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "を皮切りに"
+                },
+                {
+                  "id": 2,
+                  "text": "にひきかえ"
+                },
+                {
+                  "id": 3,
+                  "text": "を限りに"
+                },
+                {
+                  "id": 4,
+                  "text": "につれて"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 37,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（37）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "にすぎない"
+                },
+                {
+                  "id": 2,
+                  "text": "ことだろうか"
+                },
+                {
+                  "id": 3,
+                  "text": "からだ"
+                },
+                {
+                  "id": 4,
+                  "text": "からではない"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 38,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（38）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "あってこそ"
+                },
+                {
+                  "id": 2,
+                  "text": "あるにしては"
+                },
+                {
+                  "id": 3,
+                  "text": "あっても"
+                },
+                {
+                  "id": 4,
+                  "text": "あるばかりに"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 39,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（39）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "としても"
+                },
+                {
+                  "id": 2,
+                  "text": "どころか"
+                },
+                {
+                  "id": 3,
+                  "text": "にかかわらず"
+                },
+                {
+                  "id": 4,
+                  "text": "だけでなく"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 40,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（40）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "とあって"
+                },
+                {
+                  "id": 2,
+                  "text": "にほかならず"
+                },
+                {
+                  "id": 3,
+                  "text": "のではなく"
+                },
+                {
+                  "id": 4,
+                  "text": "からといって"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "読解",
+      "items": [
+        {
+          "id": "n1-original-03-reading-08-01",
+          "type": "READING",
+          "passageId": "n1-original-03-reading-08-01",
+          "passage": "オンラインでの推薦は、膨大な選択肢から関心に合うものを見つける助けになる。一方、過去に選んだものと似た候補ばかりが示されれば、好みは固定された性質のように扱われる。しかし人の関心は、偶然の出会いや生活の変化によって広がる。推薦の精度を、クリックする確率だけで測ると、未知のものに触れる機会の価値を捉えられない。予測の正確さと、予測から外れる発見の余地をどう両立するかが課題だ。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 41,
+              "mondai": 8,
+              "type": "READING",
+              "question": "本文の主張として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "推薦には好みに合う精度と未知の対象に出会う余地の両方が必要だ。"
+                },
+                {
+                  "id": 2,
+                  "text": "推薦は利用者の好みを必ず狭めるため廃止すべきだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "人の関心は生活環境が変わってもほとんど変化しない。"
+                },
+                {
+                  "id": 4,
+                  "text": "未知の商品は関心に合わないので表示する必要がない。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 42,
+              "mondai": 8,
+              "type": "READING",
+              "question": "筆者がこのように考える理由として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "クリック率が高い推薦ほど多様な発見を生む。"
+                },
+                {
+                  "id": 2,
+                  "text": "推薦精度を上げれば偶然の出会いも自動的に増える。"
+                },
+                {
+                  "id": 3,
+                  "text": "過去の行動だけを基にすると、変化し得る関心を固定的に扱ってしまうからだ。"
+                },
+                {
+                  "id": 4,
+                  "text": "未知の商品は関心に合わないので表示する必要がない。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 43,
+              "mondai": 8,
+              "type": "READING",
+              "question": "本文から導けることとして最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "推薦は利用者の好みを必ず狭めるため廃止すべきだ。"
+                },
+                {
+                  "id": 2,
+                  "text": "人の関心は生活環境が変わってもほとんど変化しない。"
+                },
+                {
+                  "id": 3,
+                  "text": "推薦精度を上げれば偶然の出会いも自動的に増える。"
+                },
+                {
+                  "id": 4,
+                  "text": "クリック率だけの評価は推薦が関心を広げる効果を見落とし得る。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-03-reading-09-01",
+          "type": "READING",
+          "passageId": "n1-original-03-reading-09-01",
+          "passage": "仕事の引き継ぎでは、手順書を詳しくすれば十分だと思われがちだ。だが熟練者は、状況の小さな違いを見て手順を調整している。その判断基準は、本人にも言語化されていないことがある。そこで、完成した手順だけでなく、例外に出会ったとき何を見てどう迷ったかを記録することが重要になる。知識を移すとは、答えを渡すことではなく、答えを選ぶための観点を共有することでもある。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 44,
+              "mondai": 9,
+              "type": "READING",
+              "question": "本文の主張として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "後任者は前任者と同じ答えだけを選べばよい。"
+                },
+                {
+                  "id": 2,
+                  "text": "手順書を十分長くすれば例外もすべて予測できる。"
+                },
+                {
+                  "id": 3,
+                  "text": "引き継ぎでは手順に加え、状況判断の観点も共有する必要がある。"
+                },
+                {
+                  "id": 4,
+                  "text": "熟練者の判断は言葉にできないので継承を諦めるべきだ。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 45,
+              "mondai": 9,
+              "type": "READING",
+              "question": "筆者がこのように考える理由として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "引き継ぎでは完成した結果だけを保存すれば十分だ。"
+                },
+                {
+                  "id": 2,
+                  "text": "熟練者の対応には手順書に表れにくい暗黙の判断が含まれるからだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "後任者は前任者と同じ答えだけを選べばよい。"
+                },
+                {
+                  "id": 4,
+                  "text": "例外対応は記録せず経験によってのみ学ぶべきだ。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 46,
+              "mondai": 9,
+              "type": "READING",
+              "question": "本文から導けることとして最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "熟練者の判断は言葉にできないので継承を諦めるべきだ。"
+                },
+                {
+                  "id": 2,
+                  "text": "例外時の迷いを記録することは後任者の応用力を支える。"
+                },
+                {
+                  "id": 3,
+                  "text": "引き継ぎでは完成した結果だけを保存すれば十分だ。"
+                },
+                {
+                  "id": 4,
+                  "text": "手順書を十分長くすれば例外もすべて予測できる。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-03-reading-10-01",
+          "type": "READING",
+          "passageId": "n1-original-03-reading-10-01",
+          "passage": "統計の平均値は全体の傾向を一つの数字で示せるが、集団内の違いを消してしまう。平均所得が上がっても、一部の高所得者の増加によるなら、多くの人の生活は変わっていないかもしれない。だから平均を使うなというのではない。中央値や分布と併せて見ることで、平均が何を代表しているかを確かめるべきだ。数字の客観性とは、数字が自動的に正しい結論を与えることではなく、算出過程を他者が検討できることにある。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 47,
+              "mondai": 10,
+              "type": "READING",
+              "question": "本文の主張として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "高所得者が増えれば全員の生活水準が向上する。"
+                },
+                {
+                  "id": 2,
+                  "text": "平均値は集団の実態を示さないので統計から除くべきだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "平均値の限界を理解し、分布など他の情報と合わせて解釈すべきだ。"
+                },
+                {
+                  "id": 4,
+                  "text": "中央値は常に平均値より正確な結論を与える。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 48,
+              "mondai": 10,
+              "type": "READING",
+              "question": "筆者がこのように考える理由として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "客観的な数字は算出方法を確認する必要がない。"
+                },
+                {
+                  "id": 2,
+                  "text": "一部の大きな変化によって平均が多数の実態から離れることがあるからだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "高所得者が増えれば全員の生活水準が向上する。"
+                },
+                {
+                  "id": 4,
+                  "text": "分布を示せば数字の解釈は一つに定まる。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 49,
+              "mondai": 10,
+              "type": "READING",
+              "question": "本文から導けることとして最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "中央値は常に平均値より正確な結論を与える。"
+                },
+                {
+                  "id": 2,
+                  "text": "分布を示せば数字の解釈は一つに定まる。"
+                },
+                {
+                  "id": 3,
+                  "text": "平均所得の上昇だけでは生活改善が広く生じたとは断定できない。"
+                },
+                {
+                  "id": 4,
+                  "text": "平均値は集団の実態を示さないので統計から除くべきだ。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-03-reading-11-01",
+          "type": "READING",
+          "passageId": "n1-original-03-reading-11-01",
+          "passage": "【文章A】紙の本には、読み進んだ位置や全体の厚みを身体感覚で把握できる利点がある。理解を支える手がかりは文字情報だけではない。\n\n【文章B】電子書籍では検索や文字拡大が容易で、必要な箇所へ素早く移動できる。媒体の優劣を一般化せず、読む目的や利用者の条件に応じて選ぶべきだ。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 50,
+              "mondai": 11,
+              "type": "READING",
+              "question": "文章Aと文章Bに共通する考えとして最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "Bは全ての読者に電子書籍が優れていると主張する。"
+                },
+                {
+                  "id": 2,
+                  "text": "両者とも、読書体験は文章内容以外の媒体特性にも左右されるとみている。"
+                },
+                {
+                  "id": 3,
+                  "text": "Aは検索機能が紙の最大の利点だと述べる。"
+                },
+                {
+                  "id": 4,
+                  "text": "両者とも電子書籍は理解を妨げると考える。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 51,
+              "mondai": 11,
+              "type": "READING",
+              "question": "文章Aが特に重視している点はどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "Bは紙の本を廃止すべきだと述べる。"
+                },
+                {
+                  "id": 2,
+                  "text": "Aは文字情報だけが理解を支えると考える。"
+                },
+                {
+                  "id": 3,
+                  "text": "Aは本の物理的構造が内容の位置づけを助ける点を重視する。"
+                },
+                {
+                  "id": 4,
+                  "text": "Bは全ての読者に電子書籍が優れていると主張する。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 52,
+              "mondai": 11,
+              "type": "READING",
+              "question": "文章Bが特に重視している点はどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "Bは目的や利用条件に応じて媒体を選択すべきだと述べる。"
+                },
+                {
+                  "id": 2,
+                  "text": "Aは検索機能が紙の最大の利点だと述べる。"
+                },
+                {
+                  "id": 3,
+                  "text": "Bは紙の本を廃止すべきだと述べる。"
+                },
+                {
+                  "id": 4,
+                  "text": "両者とも電子書籍は理解を妨げると考える。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-03-reading-12-01",
+          "type": "READING",
+          "passageId": "n1-original-03-reading-12-01",
+          "passage": "創造的な仕事では、自由な発想が重要だと言われる。だが制約がないほど発想が豊かになるとは限らない。対象も目的も定まらなければ、何を試すかを選ぶだけで力を使い果たす。一方、締切や材料など適度な制約があると、その範囲で意外な組み合わせを探す焦点が生まれる。ただし制約が厳しすぎれば既存の方法を繰り返すしかない。創造性を支えるのは、制約の有無ではなく、探索を促す程度に制約を設計することである。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 53,
+              "mondai": 12,
+              "type": "READING",
+              "question": "本文の主張として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "創造性には探索の焦点となる適度な制約が有効な場合がある。"
+                },
+                {
+                  "id": 2,
+                  "text": "締切が短いほど必ず独創的な成果が生まれる。"
+                },
+                {
+                  "id": 3,
+                  "text": "創造性を高めるには目的を一切定めないほうがよい。"
+                },
+                {
+                  "id": 4,
+                  "text": "材料の制約はどのような場合でも発想を妨げる。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 54,
+              "mondai": 12,
+              "type": "READING",
+              "question": "筆者がこのように考える理由として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "材料の制約はどのような場合でも発想を妨げる。"
+                },
+                {
+                  "id": 2,
+                  "text": "無制約では選択範囲が広すぎ、試す方向を定めにくくなるからだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "自由な発想と制約は両立しない。"
+                },
+                {
+                  "id": 4,
+                  "text": "既存の方法を禁止すれば制約は不要になる。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 55,
+              "mondai": 12,
+              "type": "READING",
+              "question": "本文から導けることとして最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "創造性を高めるには目的を一切定めないほうがよい。"
+                },
+                {
+                  "id": 2,
+                  "text": "制約を強めるだけでは既存の発想から抜け出せなくなる可能性がある。"
+                },
+                {
+                  "id": 3,
+                  "text": "締切が短いほど必ず独創的な成果が生まれる。"
+                },
+                {
+                  "id": 4,
+                  "text": "自由な発想と制約は両立しない。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 56,
+              "mondai": 12,
+              "type": "READING",
+              "question": "この問題に対する筆者の立場として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "創造性を高めるには目的を一切定めないほうがよい。"
+                },
+                {
+                  "id": 2,
+                  "text": "材料の制約はどのような場合でも発想を妨げる。"
+                },
+                {
+                  "id": 3,
+                  "text": "既存の方法を禁止すれば制約は不要になる。"
+                },
+                {
+                  "id": 4,
+                  "text": "自由と制約を対立させず、制約の程度を設計すべきだと考えている。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-03-information-search-13-01",
+          "type": "INFORMATION_SEARCH",
+          "passageId": "n1-original-03-information-search-13-01",
+          "passage": "共同アトリエ利用案内\n一般室：平日9–21時 1時間800円／休日9–18時 1時間1,000円。定員8人。\n防音室：毎日10–20時 1時間1,500円。定員5人。楽器可。\n撮影室：火–日11–19時 1時間2,000円。定員6人。照明一式込み。\n登録団体は各料金20%引き。ただし土日祝の一般室は割引なし。予約は利用日の30日前から前日17時まで。3時間以上の連続利用は料金からさらに500円引き。飲食は一般室のみ可。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 57,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "登録団体が土曜日に一般室を3時間使う料金はいくらか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "2,500円"
+                },
+                {
+                  "id": 2,
+                  "text": "1,900円"
+                },
+                {
+                  "id": 3,
+                  "text": "3,000円"
+                },
+                {
+                  "id": 4,
+                  "text": "2,400円"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 58,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "6人で楽器を演奏したい団体が利用できる部屋はどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "利用できる部屋はない"
+                },
+                {
+                  "id": 2,
+                  "text": "防音室のみ"
+                },
+                {
+                  "id": 3,
+                  "text": "一般室のみ"
+                },
+                {
+                  "id": 4,
+                  "text": "一般室と防音室"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 59,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "登録団体が水曜日に撮影室を2時間使う料金はいくらか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "3,200円"
+                },
+                {
+                  "id": 2,
+                  "text": "3,500円"
+                },
+                {
+                  "id": 3,
+                  "text": "4,000円"
+                },
+                {
+                  "id": 4,
+                  "text": "2,700円"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 60,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "規定上可能な利用はどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "日曜19時から防音室を1時間使う。"
+                },
+                {
+                  "id": 2,
+                  "text": "休日の一般室で10人が会食する。"
+                },
+                {
+                  "id": 3,
+                  "text": "当日朝に午後の一般室を予約する。"
+                },
+                {
+                  "id": 4,
+                  "text": "月曜12時に撮影室を使う。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1797 @@
+{
+  "id": "n1-original-02",
+  "source": "ORIGINAL",
+  "level": "N1",
+  "year": 2026,
+  "month": 12,
+  "title": "JLPT N1 オリジナル模擬試験 02",
+  "status": "approved",
+  "description": "JLPT N1対策のために新規作成したオリジナル模擬試験 02。文字・語彙、文法、読解の全60問。",
+  "questionCount": 60,
+  "durationMinutes": 110,
+  "sections": [
+    {
+      "id": "vocabulary",
+      "title": "文字・語彙",
+      "items": [
+        {
+          "id": 1,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "審議会は規制の妥当性を改めて吟味した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ぎんみ"
+            },
+            {
+              "id": 2,
+              "text": "ぎんまい"
+            },
+            {
+              "id": 3,
+              "text": "ごんみ"
+            },
+            {
+              "id": 4,
+              "text": "きんみ"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false,
+          "target": "吟味"
+        },
+        {
+          "id": 2,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "新たな証言によって疑惑の全容が露呈した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ろてん"
+            },
+            {
+              "id": 2,
+              "text": "ろじょう"
+            },
+            {
+              "id": 3,
+              "text": "ろてい"
+            },
+            {
+              "id": 4,
+              "text": "ろうてい"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "露呈"
+        },
+        {
+          "id": 3,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "市場の急変に企業は迅速な対応を迫られた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "しんそく"
+            },
+            {
+              "id": 2,
+              "text": "じんぞく"
+            },
+            {
+              "id": 3,
+              "text": "じんそく"
+            },
+            {
+              "id": 4,
+              "text": "じゅんそく"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "迅速"
+        },
+        {
+          "id": 4,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "論文では先行研究の限界が克明に描かれている。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "かつみょう"
+            },
+            {
+              "id": 2,
+              "text": "こくめい"
+            },
+            {
+              "id": 3,
+              "text": "こくみょう"
+            },
+            {
+              "id": 4,
+              "text": "かつめい"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "克明"
+        },
+        {
+          "id": 5,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "長引く交渉に担当者の疲労は甚だしいものだった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "おびただしい"
+            },
+            {
+              "id": 2,
+              "text": "すさまじい"
+            },
+            {
+              "id": 3,
+              "text": "はなはだしい"
+            },
+            {
+              "id": 4,
+              "text": "いちじるしい"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "甚だしい"
+        },
+        {
+          "id": 6,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "交渉の長期化で双方の主張の隔たりが一層（　）になった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "緻密"
+            },
+            {
+              "id": 2,
+              "text": "顕著"
+            },
+            {
+              "id": 3,
+              "text": "簡潔"
+            },
+            {
+              "id": 4,
+              "text": "堅実"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 7,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "証拠が不十分な段階で結論を出すのは（　）だ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "性急さ"
+            },
+            {
+              "id": 2,
+              "text": "軽快"
+            },
+            {
+              "id": 3,
+              "text": "簡便"
+            },
+            {
+              "id": 4,
+              "text": "早計"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 8,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "新制度は現場の実情と大きく（　）している。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "乖離"
+            },
+            {
+              "id": 2,
+              "text": "推移"
+            },
+            {
+              "id": 3,
+              "text": "介在"
+            },
+            {
+              "id": 4,
+              "text": "波及"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 9,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "批判を恐れて問題を（　）にする姿勢こそ改めるべきだ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "あべこべ"
+            },
+            {
+              "id": 2,
+              "text": "まばら"
+            },
+            {
+              "id": 3,
+              "text": "おろそか"
+            },
+            {
+              "id": 4,
+              "text": "うやむや"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 10,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "部門間の利害を（　）し、全社的な方針をまとめた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "調整"
+            },
+            {
+              "id": 2,
+              "text": "調合"
+            },
+            {
+              "id": 3,
+              "text": "調停"
+            },
+            {
+              "id": 4,
+              "text": "調達"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 11,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "委員長は反対意見を一蹴した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "問題にせず退けた"
+            },
+            {
+              "id": 2,
+              "text": "一部だけ採用した"
+            },
+            {
+              "id": 3,
+              "text": "慎重に検討した"
+            },
+            {
+              "id": 4,
+              "text": "公に紹介した"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false,
+          "target": "一蹴した"
+        },
+        {
+          "id": 12,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "その説明では疑問が払拭されなかった。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "すっかり消えなかった"
+            },
+            {
+              "id": 2,
+              "text": "明確に整理されなかった"
+            },
+            {
+              "id": 3,
+              "text": "新たに生じなかった"
+            },
+            {
+              "id": 4,
+              "text": "公に認められなかった"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false,
+          "target": "払拭されなかった"
+        },
+        {
+          "id": 13,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "計画の見通しは極めて不透明だ。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "先行きがはっきりしない"
+            },
+            {
+              "id": 2,
+              "text": "内容が公開されていない"
+            },
+            {
+              "id": 3,
+              "text": "手続きが公正でない"
+            },
+            {
+              "id": 4,
+              "text": "根拠が全く存在しない"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false,
+          "target": "不透明"
+        },
+        {
+          "id": 14,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "彼の発言は的を射ていた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "相手を厳しく非難していた"
+            },
+            {
+              "id": 2,
+              "text": "予想外の結果を招いた"
+            },
+            {
+              "id": 3,
+              "text": "要点を正確に捉えていた"
+            },
+            {
+              "id": 4,
+              "text": "表現が非常に簡潔だった"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "的を射ていた"
+        },
+        {
+          "id": 15,
+          "mondai": 3,
+          "type": "SYNONYM",
+          "question": "交渉は土壇場で決裂した。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "最後の局面で"
+            },
+            {
+              "id": 2,
+              "text": "双方の合意により"
+            },
+            {
+              "id": 3,
+              "text": "非公開の場で"
+            },
+            {
+              "id": 4,
+              "text": "予想より早く"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false,
+          "target": "土壇場で"
+        },
+        {
+          "id": 16,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "踏襲する",
+          "choices": [
+            {
+              "id": 1,
+              "text": "古い設備を踏襲して新型に交換した。"
+            },
+            {
+              "id": 2,
+              "text": "前任者の方針を踏襲しつつ、運用だけを改善した。"
+            },
+            {
+              "id": 3,
+              "text": "提案を踏襲して細部まで調査した。"
+            },
+            {
+              "id": 4,
+              "text": "足元の線を踏襲して向こう側へ渡った。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "踏襲する"
+        },
+        {
+          "id": 17,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "見据える",
+          "choices": [
+            {
+              "id": 1,
+              "text": "双眼鏡で遠くの鳥を見据えて数えた。"
+            },
+            {
+              "id": 2,
+              "text": "十年後の人口構成を見据えて、施設の規模を決めた。"
+            },
+            {
+              "id": 3,
+              "text": "資料を見据えたら誤字が見つかった。"
+            },
+            {
+              "id": 4,
+              "text": "相手の話を見据えながら議事録を取った。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "見据える"
+        },
+        {
+          "id": 18,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "滞る",
+          "choices": [
+            {
+              "id": 1,
+              "text": "朝の道路が車で滞って動けない。"
+            },
+            {
+              "id": 2,
+              "text": "机の上に書類が滞って山になった。"
+            },
+            {
+              "id": 3,
+              "text": "決裁者が不在で、支払い手続きが滞っている。"
+            },
+            {
+              "id": 4,
+              "text": "雨水が川へ滞って勢いよく流れた。"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false,
+          "target": "滞る"
+        },
+        {
+          "id": 19,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "覆る",
+          "choices": [
+            {
+              "id": 1,
+              "text": "容器の水が床に覆った。"
+            },
+            {
+              "id": 2,
+              "text": "机の上の資料が布で覆った。"
+            },
+            {
+              "id": 3,
+              "text": "会議の日程が翌週に覆った。"
+            },
+            {
+              "id": 4,
+              "text": "再調査の結果、従来の定説が覆った。"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false,
+          "target": "覆る"
+        },
+        {
+          "id": 20,
+          "mondai": 4,
+          "type": "WORD_USAGE",
+          "question": "差し控える",
+          "choices": [
+            {
+              "id": 1,
+              "text": "冷えた料理を客に差し控えた。"
+            },
+            {
+              "id": 2,
+              "text": "調査中のため、詳細な発言は差し控えます。"
+            },
+            {
+              "id": 3,
+              "text": "棚から本を一冊差し控えて読んだ。"
+            },
+            {
+              "id": 4,
+              "text": "予定表に会議の日時を差し控えた。"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false,
+          "target": "差し控える"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "文法",
+      "items": [
+        {
+          "id": 21,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "制度を変えたところで、運用する側の意識が変わらない（　）、問題は解決しない。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "かと思えば"
+            },
+            {
+              "id": 2,
+              "text": "とあって"
+            },
+            {
+              "id": 3,
+              "text": "かぎり"
+            },
+            {
+              "id": 4,
+              "text": "ものなら"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 22,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "この程度の遅れは、長期計画全体から見れば誤差の範囲（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "にかたくない"
+            },
+            {
+              "id": 2,
+              "text": "にほかならない"
+            },
+            {
+              "id": 3,
+              "text": "にすぎない"
+            },
+            {
+              "id": 4,
+              "text": "にたえない"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 23,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "関係者の同意（　）、個人情報を第三者に提供することはできない。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "なしには"
+            },
+            {
+              "id": 2,
+              "text": "をよそに"
+            },
+            {
+              "id": 3,
+              "text": "ともなく"
+            },
+            {
+              "id": 4,
+              "text": "ながらに"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 24,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "彼は会議で発言こそしなかった（　）、資料には鋭い指摘を書き込んでいた。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "ところを"
+            },
+            {
+              "id": 2,
+              "text": "ばかりか"
+            },
+            {
+              "id": 3,
+              "text": "そばから"
+            },
+            {
+              "id": 4,
+              "text": "ものの"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 25,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "事実関係を確認（　）、憶測だけで責任を論じるべきではない。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "してからでなければ"
+            },
+            {
+              "id": 2,
+              "text": "するなり"
+            },
+            {
+              "id": 3,
+              "text": "するにもまして"
+            },
+            {
+              "id": 4,
+              "text": "したところで"
+            }
+          ],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 26,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "災害時（　）、平常時から情報伝達の経路を決めておく必要がある。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "に先立っても"
+            },
+            {
+              "id": 2,
+              "text": "に即しては"
+            },
+            {
+              "id": 3,
+              "text": "を皮切りに"
+            },
+            {
+              "id": 4,
+              "text": "に備えて"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 27,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "成果が上がらないのは努力不足というより、目標設定そのものに無理があるから（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "にたえない"
+            },
+            {
+              "id": 2,
+              "text": "にはあたらない"
+            },
+            {
+              "id": 3,
+              "text": "にかかわらない"
+            },
+            {
+              "id": 4,
+              "text": "にほかならない"
+            }
+          ],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 28,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "多少の批判を受けた（　）、必要な改革を撤回するわけにはいかない。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "が最後"
+            },
+            {
+              "id": 2,
+              "text": "かと思えば"
+            },
+            {
+              "id": 3,
+              "text": "からといって"
+            },
+            {
+              "id": 4,
+              "text": "とあって"
+            }
+          ],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 29,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "この作家の文章は、簡潔であり（　）深い余韻を残す。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "かたがた"
+            },
+            {
+              "id": 2,
+              "text": "ながら"
+            },
+            {
+              "id": 3,
+              "text": "がてら"
+            },
+            {
+              "id": 4,
+              "text": "なりに"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 30,
+          "mondai": 5,
+          "type": "GRAMMAR",
+          "question": "責任者が不在では、現場が判断に迷うのも無理（　）。",
+          "choices": [
+            {
+              "id": 1,
+              "text": "に違いない"
+            },
+            {
+              "id": 2,
+              "text": "もない"
+            },
+            {
+              "id": 3,
+              "text": "ではない"
+            },
+            {
+              "id": 4,
+              "text": "に及ばない"
+            }
+          ],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 31,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "この制度は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "手続きを複雑にし"
+            },
+            {
+              "id": 2,
+              "text": "利用者の負担を"
+            },
+            {
+              "id": 3,
+              "text": "かえって増やしている"
+            },
+            {
+              "id": 4,
+              "text": "減らすどころか"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "starPosition": 3,
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 32,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "彼の説明は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "抽象的だった"
+            },
+            {
+              "id": 2,
+              "text": "理解するのが"
+            },
+            {
+              "id": 3,
+              "text": "専門家でさえ"
+            },
+            {
+              "id": 4,
+              "text": "困難なほど"
+            }
+          ],
+          "correctOrder": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "starPosition": 2,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 33,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "十分な検証を",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "言わざるを得ない"
+            },
+            {
+              "id": 2,
+              "text": "拙速と"
+            },
+            {
+              "id": 3,
+              "text": "経ないまま"
+            },
+            {
+              "id": 4,
+              "text": "全国に導入するとは"
+            }
+          ],
+          "correctOrder": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "starPosition": 3,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 34,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "現場の協力",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "これほど大規模な"
+            },
+            {
+              "id": 2,
+              "text": "調査を完遂することは"
+            },
+            {
+              "id": 3,
+              "text": "なくして"
+            },
+            {
+              "id": 4,
+              "text": "できなかった"
+            }
+          ],
+          "correctOrder": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "starPosition": 2,
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 35,
+          "mondai": 6,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "新方針は、",
+          "sentenceAfter": "。",
+          "fragments": [
+            {
+              "id": 1,
+              "text": "残すおそれがある"
+            },
+            {
+              "id": 2,
+              "text": "短期的な効果こそ"
+            },
+            {
+              "id": 3,
+              "text": "長期的には課題を"
+            },
+            {
+              "id": 4,
+              "text": "期待できるものの"
+            }
+          ],
+          "correctOrder": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "starPosition": 3,
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": "n1-original-02-grammar-07-01",
+          "type": "CLOZE",
+          "passageId": "n1-original-02-grammar-07-01",
+          "passage": "組織で失敗が起きたとき、原因を個人の注意不足だけに求める説明は分かりやすい。（36）、その説明で検討を終えれば、同じ失敗を防ぐ機会を失う。人の注意力には限界があり、忙しさや情報の示し方によって判断は左右される（37）。必要なのは、誰が間違えたかを確定すること（38）、間違いが重大な結果につながるまでに、なぜ複数の防御策が機能しなかったかを調べることだ。これは責任を曖昧にする議論ではない。個人の行為を検証し（39）、その行為を誘発した条件にも目を向けるのである。失敗を罰するだけの組織では報告が遅れる（40）、失敗から学ぶ組織では小さな異常が共有される。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 36,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（36）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "たとえば"
+                },
+                {
+                  "id": 2,
+                  "text": "しかし"
+                },
+                {
+                  "id": 3,
+                  "text": "したがって"
+                },
+                {
+                  "id": 4,
+                  "text": "つまり"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 37,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（37）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "わけがない"
+                },
+                {
+                  "id": 2,
+                  "text": "ことになる"
+                },
+                {
+                  "id": 3,
+                  "text": "にすぎない"
+                },
+                {
+                  "id": 4,
+                  "text": "ものだ"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 38,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（38）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "ではなく"
+                },
+                {
+                  "id": 2,
+                  "text": "に反して"
+                },
+                {
+                  "id": 3,
+                  "text": "にひきかえ"
+                },
+                {
+                  "id": 4,
+                  "text": "を問わず"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 39,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（39）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "ながらもなく"
+                },
+                {
+                  "id": 2,
+                  "text": "がてらに"
+                },
+                {
+                  "id": 3,
+                  "text": "次第"
+                },
+                {
+                  "id": 4,
+                  "text": "つつ"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 40,
+              "mondai": 7,
+              "type": "CLOZE",
+              "question": "（40）",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "のみならず"
+                },
+                {
+                  "id": 2,
+                  "text": "一方"
+                },
+                {
+                  "id": 3,
+                  "text": "うえに"
+                },
+                {
+                  "id": 4,
+                  "text": "ところで"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "読解",
+      "items": [
+        {
+          "id": "n1-original-02-reading-08-01",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-08-01",
+          "passage": "業務を改善するために数値目標を置くと、何を優先すべきかが明確になる。ところが、測定される項目がそのまま仕事の目的だと受け取られると、数字に表れない作業が軽視される。相談に時間をかけた結果、苦情を未然に防いでも、その成果は「処理件数」には現れない。一方、複雑な案件を避ければ件数だけは増やせる。指標が行動を導く以上、導入後には数字が伸びた理由まで確かめなければならない。数値の改善が利用者の利益と結びつかなければ、測定方法そのものを見直す必要もある。指標は成果の代用品であって、成果そのものではないのである。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 41,
+              "mondai": 8,
+              "type": "READING",
+              "question": "筆者が指標の導入後に確認すべきだと考えていることは何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "複雑な案件の処理件数が単純な案件より多くなったかどうか。"
+                },
+                {
+                  "id": 2,
+                  "text": "担当者が目標値を正確に記憶して業務を行っているかどうか。"
+                },
+                {
+                  "id": 3,
+                  "text": "数値の変化が本来の目的に沿った行動によって生じたかどうか。"
+                },
+                {
+                  "id": 4,
+                  "text": "数値化できない作業を評価対象から外す基準が統一されたかどうか。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-08-02",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-08-02",
+          "passage": "過去の出来事について二人の記憶が食い違うと、どちらかが誤っていると考えがちだ。しかし人は出来事の全体を同じ密度で覚えているわけではない。関心を向けた対象が違えば、保持される細部も異なる。さらに、後から聞いた説明が、元の記憶の一部として組み込まれることもある。だから証言の不一致は、単に信頼性の低さを示すのではなく、各人が何に注意し、後にどんな情報に触れたかを調べる手がかりにもなる。記録と照合するときも、一致した部分だけでなく、ずれがどの時点で生まれたかを見る必要がある。不一致を消すより、その生じ方を検討することが重要だ。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 42,
+              "mondai": 8,
+              "type": "READING",
+              "question": "証言の不一致を筆者はどのように捉えているか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "記憶が形成された条件を探るための情報になり得る。"
+                },
+                {
+                  "id": 2,
+                  "text": "後から得た説明だけを事実として採用する根拠になる。"
+                },
+                {
+                  "id": 3,
+                  "text": "正確な証言を一つに決める前に除外すべき誤差である。"
+                },
+                {
+                  "id": 4,
+                  "text": "当事者が出来事に関心を持っていなかった証拠である。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-08-03",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-08-03",
+          "passage": "駅前広場を整備するとき、通行量を基準に動線を設計するのは合理的である。だが、人が滞らず移動できることだけを追求すると、待ち合わせや休憩の場所が失われる。ベンチに座る人は、交通の面から見れば流れを止める存在かもしれない。しかし、そこで交わされる短い会話や、子どもを見守る視線は、地域の安心感を支えている。滞在者がいることで夜間にも人の目が生まれ、通行者の安心につながる場合さえある。移動の効率と滞在の価値は単純な反対関係ではない。用途の異なる場所をどう接続するかによって、通りやすさを保ちながら立ち止まれる広場も作れる。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 43,
+              "mondai": 8,
+              "type": "READING",
+              "question": "筆者が駅前広場の設計で重視していることは何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "通行量が多い場所からベンチを段階的に撤去すること。"
+                },
+                {
+                  "id": 2,
+                  "text": "利用目的ごとに広場を完全に分離して管理すること。"
+                },
+                {
+                  "id": 3,
+                  "text": "広場で生じる交流を通行の効率より常に優先すること。"
+                },
+                {
+                  "id": 4,
+                  "text": "移動と滞在を両立させる空間の配置を考えること。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-09-01",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-09-01",
+          "passage": "動画や音楽の推薦機能は、過去の利用履歴から好みに近い候補を示してくれる。選択肢が膨大なサービスでは、この絞り込みがなければ、利用者は探すだけで疲れてしまうだろう。とはいえ、推薦の精度を「示した候補が選ばれた割合」だけで評価するのは十分ではない。似たものを並べ続ければ、その割合は上げやすいからだ。\n\n人の関心は、すでに好きなものの周辺だけで育つわけではない。偶然見た作品や、友人に勧められた未知の分野が、後の好みを変えることもある。ところが履歴に基づく推薦は、変化する前の関心を根拠に次の候補を狭める。その結果、利用者が選んだから推薦されたのか、推薦されたから選んだのかが分かりにくくなる。\n\n推薦機能に必要なのは、予測を外さないことだけではない。普段の選択から少し離れた候補を、なぜ示したのか分かる形で混ぜることも重要だ。もっとも、意外な候補を増やせばよいのではなく、既知の候補との割合や提示方法を利用者が調整できることが望ましい。利用者がそれを選ばない自由を保ちながら、関心が変化する入口を用意するのである。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 44,
+              "mondai": 9,
+              "type": "READING",
+              "question": "筆者が、候補が選ばれた割合だけでは推薦機能を十分に評価できないとする理由は何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "選択肢を絞る機能は、作品を探す負担をほとんど減らさないから。"
+                },
+                {
+                  "id": 2,
+                  "text": "利用者は推薦理由を理解すると、候補を選ばなくなる傾向があるから。"
+                },
+                {
+                  "id": 3,
+                  "text": "友人による推薦とサービスによる推薦を履歴上で区別できないから。"
+                },
+                {
+                  "id": 4,
+                  "text": "既存の嗜好に似た候補へ偏らせても数値を高められ、関心の広がりを捉えられないから。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 45,
+              "mondai": 9,
+              "type": "READING",
+              "question": "「利用者が選んだから推薦されたのか、推薦されたから選んだのかが分かりにくくなる」とはどういうことか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "利用者自身も、過去にどの作品を選んだのかを正確に思い出せないということ。"
+                },
+                {
+                  "id": 2,
+                  "text": "推薦が過去の好みを反映すると同時に、その後の好みの形成にも影響するということ。"
+                },
+                {
+                  "id": 3,
+                  "text": "サービス側が利用履歴と友人関係のどちらを用いたか公開していないということ。"
+                },
+                {
+                  "id": 4,
+                  "text": "推薦された候補と利用者が自分で検索した候補が画面上で区別されないということ。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-09-02",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-09-02",
+          "passage": "企業が不祥事を起こしたとき、早い謝罪は重要だと言われる。情報が少ない段階でも責任者が姿勢を示せば、問題を軽視していないことは伝わる。ところが、信頼を急いで回復しようとして「二度と起こさない」と約束すると、別の危険が生じる。原因が特定されていないのに、実効性のある対策を確定することはできないからだ。\n\nここで、謝罪と説明を完成した一回の行為だと考えないほうがよい。最初の段階では、確認できた事実、まだ判断できない点、次に何をいつまでに調べるかを分けて示す。その後、調査の進展に応じて説明を更新し、当初の見通しと違った点も明らかにする。説明の変更は一貫性の欠如に見えるかもしれないが、根拠が増えたための修正なら、むしろ誠実さの表れである。\n\nこうした更新は、情報を小出しにして批判をかわすこととは異なる。各段階で判断の根拠と次の確認事項を示すからこそ、外部の人も調査が進んでいるかを確かめられる。問題なのは、言葉を変えることではなく、なぜ変えたかが追跡できないことだ。謝罪の信頼性は、最初の表現の強さより、事実に応じて説明と行動を更新できるかによって支えられる。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 46,
+              "mondai": 9,
+              "type": "READING",
+              "question": "筆者が、原因の特定前に「二度と起こさない」と約束することを問題視するのはなぜか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "根拠のない約束が表面的な対策を招き、後の不信につながり得るから。"
+                },
+                {
+                  "id": 2,
+                  "text": "再発防止を約束すると企業が法的責任を全面的に認めることになるから。"
+                },
+                {
+                  "id": 3,
+                  "text": "責任者が早く謝罪すると調査担当者が原因を公開できなくなるから。"
+                },
+                {
+                  "id": 4,
+                  "text": "初期段階では問題を軽視している印象を与えるほうが調査しやすいから。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 47,
+              "mondai": 9,
+              "type": "READING",
+              "question": "説明の変更について、筆者の考えに合うものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "変更の回数を減らすため、全ての調査が終わるまで説明を控えるべきだ。"
+                },
+                {
+                  "id": 2,
+                  "text": "新しい根拠と修正理由が示されるなら、説明を改めることは信頼を支え得る。"
+                },
+                {
+                  "id": 3,
+                  "text": "当初の見通しが外れた場合は、更新より先に責任者を交代させる必要がある。"
+                },
+                {
+                  "id": 4,
+                  "text": "最初の説明と異なる内容は、調査が進んでも公表しないほうが一貫している。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-10-01",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-10-01",
+          "passage": "科学の説明では、複雑な現象を理解するためにモデルが使われる。気候の変化を計算するモデル、感染症の広がりを予測するモデル、経済政策の影響を見積もるモデルなどである。モデルは現実の一部を取り出し、要素の関係を明確にする。現実をそのまま小さく複製したものではない。\n\nところが、予測値だけが報道されると、この区別は忘れられやすい。例えば「来月の感染者は一万人になる」という数字が示されたとき、それが現在の接触頻度や対策が続くという前提の下での結果なのか、最も可能性の高い一点なのかによって意味は異なる。前提を伴わない数字は断定的に見える一方、判断に必要な条件を隠してしまう。\n\nだからといって、予測が外れたらモデルは役に立たない、と結論づけるのも早い。予測を見た人々が行動を変え、その結果として感染が減ることもある。この場合、数字が外れたことは、モデルの失敗というより、予測が現実に介入した結果かもしれない。また、複数のモデルが異なる値を示すとき、その差は単なる誤差ではなく、どの要因を重く見ているかの違いを表していることがある。\n\nモデルの価値は、未来を一つの数字で言い当てる能力だけにあるのではない。条件を変えたとき結果がどう動くかを比べることで、どの前提に判断が依存しているかを見えるようにする点にもある。例えば三つの対策案について、それぞれの結果の幅を比較すれば、最も良い値を持つ案ではなく、前提が多少変わっても深刻な結果になりにくい案を選べる。ここでは予測は答えではなく、選択の弱点を調べる道具として働く。\n\n不確実性を示すと、人々を混乱させるという懸念もある。確かに、専門的な条件を全て並べれば理解しにくい。しかし不確実性を隠して単一の数字だけを示せば、外れたときに科学全体への不信を招く。必要なのは、細部を省かないことではなく、結論を左右する主要な前提と、結果が取り得る幅を伝えることだ。モデルを信頼するとは、その数字を無条件に受け入れることではない。何が仮定され、どこまでなら判断に使えるかを共有したうえで、現実の変化に応じて更新していくことなのである。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 48,
+              "mondai": 10,
+              "type": "READING",
+              "question": "感染者数の予測が外れた例を筆者が挙げた目的は何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "予測と人々の行動が相互に影響するため、的中だけではモデルを評価できないと示すため。"
+                },
+                {
+                  "id": 2,
+                  "text": "複数のモデルの値を平均すれば現実に近づくと主張するため。"
+                },
+                {
+                  "id": 3,
+                  "text": "予測を公表すると人々が常に適切な対策を取ることを説明するため。"
+                },
+                {
+                  "id": 4,
+                  "text": "感染症のモデルは経済や気候のモデルより前提の数が少ないと示すため。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 49,
+              "mondai": 10,
+              "type": "READING",
+              "question": "筆者によると、複数のモデルが異なる結果を示すことにはどのような意味があるか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "計算誤差の大きいモデルを数値だけで除外できるようになる。"
+                },
+                {
+                  "id": 2,
+                  "text": "結果を一つに絞らず全て同じ重みで採用する根拠になる。"
+                },
+                {
+                  "id": 3,
+                  "text": "現象を左右する要因についての見方の違いを検討する材料になる。"
+                },
+                {
+                  "id": 4,
+                  "text": "どのモデルも現実を説明できないことが明らかになる。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 50,
+              "mondai": 10,
+              "type": "READING",
+              "question": "モデルの利用について、筆者が最も言いたいことは何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "モデルは未来の的中より現象の説明に限って利用するのが望ましい。"
+                },
+                {
+                  "id": 2,
+                  "text": "専門的な前提を全て理解できる人だけがモデルを政策判断に使うべきだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "前提と適用範囲を明示し、条件ごとの結果を意思決定の点検に用いるべきだ。"
+                },
+                {
+                  "id": 4,
+                  "text": "予測値への不信を避けるため、最も確率の高い数字だけを公表すべきだ。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-11-01",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-11-01",
+          "passage": "【文章A】\n在宅勤務では仕事ぶりが見えにくいため、成果で評価すべきだと言われる。この考え方は、席にいる時間を働いた証拠とみなす慣行を改める点で有効である。目標と期限を明確にし、完成した仕事を基準にすれば、働く場所や時間が違っても比較しやすい。さらに、業務の目的が曖昧なまま指示だけを重ねていた管理の問題も表面化する。\n\nただし、成果を数値化する際には、職種ごとの性質を反映させなければならない。研究や企画のように結果が出るまで時間がかかる仕事を、短期の件数で測るのは適切でない。それでも、何を目指し、どの段階まで進んだかを共有することはできる。成果評価の目的は全てを同じ数字にすることではなく、勤務場所ではなく仕事の進展について対話できるようにすることだ。\n\n【文章B】\n在宅勤務の評価を個人の成果中心に変えると、別の見えにくさが生まれる。職場の仕事は、一人で完結するものばかりではない。経験の浅い同僚の相談に乗る、問題を早めに知らせる、他部署の調整を引き受けるといった行為は、本人の成果物には残らなくても、チーム全体の失敗を減らしている。個人の件数だけを競わせれば、こうした協力を避けるほうが有利になりかねない。短期には件数が増えても、問題発見が遅れれば組織全体の成果は下がる。\n\n必要なのは、出社時間の監視に戻ることではない。個人が作ったものに加え、他者の仕事を可能にした貢献を記録し、チーム自身が振り返る仕組みである。成果という概念を狭く定義したまま測定を精密にするより、誰のどの行為が共同作業を支えたかを言葉で確かめるほうが、公平な評価に近づく。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 51,
+              "mondai": 11,
+              "type": "READING",
+              "question": "文章Aと文章Bに共通する考えは何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "在宅勤務では職種間の違いよりチーム内の貢献を優先して評価すべきだ。"
+                },
+                {
+                  "id": 2,
+                  "text": "個人の成果を明確にすれば、協力行動も自動的に評価へ反映される。"
+                },
+                {
+                  "id": 3,
+                  "text": "勤務場所や在席時間に頼らず仕事を評価する必要があるが、単純な件数化では不十分だ。"
+                },
+                {
+                  "id": 4,
+                  "text": "評価の公平性を保つには全社員が同じ時間帯に働く必要がある。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 52,
+              "mondai": 11,
+              "type": "READING",
+              "question": "成果評価について、文章Aには当てはまるが文章Bには当てはまらない考えはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "業務の段階的な進み具合を共有することが、管理方法の改善につながる。"
+                },
+                {
+                  "id": 2,
+                  "text": "成果を狭く定義すると協力を避ける動機が生まれる。"
+                },
+                {
+                  "id": 3,
+                  "text": "個人の産出物だけでは共同作業への支援が評価から漏れる。"
+                },
+                {
+                  "id": 4,
+                  "text": "同僚への相談対応をチームで振り返り、貢献として記録する必要がある。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 53,
+              "mondai": 11,
+              "type": "READING",
+              "question": "文章Bが文章Aの議論に加えて指摘している問題は何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "個人単位の成果を重視すると、他者を支える行為が見えにくくなること。"
+                },
+                {
+                  "id": 2,
+                  "text": "成果が出るまでの期間は職種によって異なり、短期比較が難しいこと。"
+                },
+                {
+                  "id": 3,
+                  "text": "勤務時間を評価基準から外すと、完成した仕事も比較できなくなること。"
+                },
+                {
+                  "id": 4,
+                  "text": "仕事の目的が曖昧な職場では、進捗を上司と共有できないこと。"
+                }
+              ],
+              "correctAnswer": 1,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-reading-12-01",
+          "type": "READING",
+          "passageId": "n1-original-02-reading-12-01",
+          "passage": "古い建物を保存する議論では、「建てられた当時の姿をどこまで残すか」が中心になりやすい。材料を交換し、内部の用途を変えれば、本物ではなくなるという考え方である。確かに、歴史的な痕跡を無計画に消してしまえば、後から調べることはできない。保存には、変化を抑える判断が必要である。\n\nしかし、建物は展示ケースの中の道具とは違い、長い間、人に使われながら存在してきた。屋根は修理され、部屋は家族構成や仕事に合わせて変えられる。ある一時点だけを「本来の姿」として固定すると、それ以前や以後に重ねられた生活の歴史が見えなくなる。変化してきたこと自体が、その建物の特徴である場合も少なくない。\n\n例えば、地方の古い商家を公開施設にする計画で、後世に付け加えられた台所を撤去し、創建時の間取りへ戻す案が出たとする。建築史の観点からは筋が通っている。だが、その台所が戦後に店を支えた家族の生活を物語っているなら、撤去は別の時代の記憶を消すことになる。どの時代を選ぶかは、純粋に技術的な判断ではない。何を地域の歴史として語りたいかという価値判断を含んでいる。\n\n一方、現在の利用を優先しすぎる危険もある。集客のために外観だけを残し、内部をどこにでもある商業施設へ変えれば、建物固有の空間は失われる。「活用しているから保存だ」という説明だけでは、変更の限界を定められない。重要なのは、変更を避けることではなく、どの価値を守るための変更かを説明できることだ。新しい用途に必要な設備を入れる場合も、後から元に戻せる方法を選び、変更箇所を記録すれば、将来の再検討が可能になる。\n\n保存と活用は、過去を守る側と現在を優先する側の単純な対立ではない。建物が持つ複数の時代の痕跡を調べ、現在の地域が必要とする役割と照らし合わせ、その選択を公開する過程である。完全に変えないことも、自由に作り替えることも、判断を避けている点では似ている。残すものと変えるものを選び、その理由を次の世代が問い直せる形で渡すことこそ、建物を生きた歴史として保存することになる。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 54,
+              "mondai": 12,
+              "type": "READING",
+              "question": "筆者が後世に付け加えられた台所の例を挙げたのはなぜか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "公開施設では住民の記憶だけを基準に改修すべきだと主張するため。"
+                },
+                {
+                  "id": 2,
+                  "text": "創建時への復元も、どの時代を重視するかという選択を伴うと示すため。"
+                },
+                {
+                  "id": 3,
+                  "text": "建物の用途を変える際には台所を必ず残す必要があると説明するため。"
+                },
+                {
+                  "id": 4,
+                  "text": "戦後の生活設備は建築史上の価値が創建部分より高いと示すため。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 55,
+              "mondai": 12,
+              "type": "READING",
+              "question": "「活用しているから保存だ」という説明の問題点は何か。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "新しい設備は後から元に戻す方法では設置できないこと。"
+                },
+                {
+                  "id": 2,
+                  "text": "商業利用による収入がなければ、修理記録を残せなくなること。"
+                },
+                {
+                  "id": 3,
+                  "text": "公開施設として利用すると、創建時の材料を交換しなければならないこと。"
+                },
+                {
+                  "id": 4,
+                  "text": "現在の利用を理由にすれば、建物固有の価値を損なう変更まで正当化され得ること。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 56,
+              "mondai": 12,
+              "type": "READING",
+              "question": "保存における記録と公開には、どのような役割があるか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "地域住民の意見を一つにまとめ、建物の意味を固定する。"
+                },
+                {
+                  "id": 2,
+                  "text": "改修を担当した専門家の技術的責任を確定し、変更を禁止する。"
+                },
+                {
+                  "id": 3,
+                  "text": "創建時以外の痕跡を資料に移し、建物から撤去できるようにする。"
+                },
+                {
+                  "id": 4,
+                  "text": "現在の選択を将来の人が検証し、別の判断をする可能性を残す。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 57,
+              "mondai": 12,
+              "type": "READING",
+              "question": "建物の保存について、筆者の主張として最も適切なものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "真正性を守るには創建時の状態を基準とし、後世の付加部分は記録後に除くべきだ。"
+                },
+                {
+                  "id": 2,
+                  "text": "複数の時代の価値と現在の必要を検討し、変更の理由を再検討可能な形で継承すべきだ。"
+                },
+                {
+                  "id": 3,
+                  "text": "歴史的建物は変化してきたのだから、現在の用途に合わせて自由に改修してよい。"
+                },
+                {
+                  "id": 4,
+                  "text": "保存方針の対立を避けるため、技術的な可逆性だけで改修内容を決めるべきだ。"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "id": "n1-original-02-information-search-13-01",
+          "type": "INFORMATION_SEARCH",
+          "passageId": "n1-original-02-information-search-13-01",
+          "passage": "東都学術交流センター　2026年度研究活動支援\n\n【支援区分】\nA 若手国内発表：申請時39歳以下。国内学会で申請者本人が発表すること。対象は登録料・交通費、上限50,000円。年度2回まで。\nB 国際発表：年齢不問。海外またはオンラインの国際学会で本人が発表すること。対象は登録料・交通費・宿泊費。現地参加は上限180,000円、オンライン参加は登録料のみ上限40,000円。年度1回。\nC 共同予備調査：所属の異なる2機関以上の研究者で行う調査。代表者が申請。対象は交通費・資料費、上限120,000円。年度1回。\nD 公開成果発信：研究成果を一般向けに紹介する催し。対象は会場費・配信費・印刷費、上限80,000円。年齢不問。年度1回。\n\n【共通条件】\n・実施日の45日前17時までに、申請書、実施計画、費用見積書を提出する。A・Bは発表採択通知も必要。ただし締切時点で審査中の場合、申請書にその旨を記し、実施日の20日前までに追加提出できる。\n・同一年度に申請できるのは合計3件まで。ただしBとCを同じ年度に利用することはできない。\n・大学内の別制度から同じ費目の助成を受ける場合、その費目は本制度の対象外。異なる費目なら併用可。\n・採択後、費目間で20%を超えて金額を移す場合は事前承認が必要。総額の増額は認めない。\n・終了後30日以内に報告書と領収書を提出する。年度末に実施する場合も最終期限は2027年3月25日。",
+          "needsReview": false,
+          "questions": [
+            {
+              "id": 58,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "37歳の研究者が、今年すでにAを2回利用し、海外学会で発表する予定である。同年度にCは利用していない。申請できる区分はどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "Aのみ"
+                },
+                {
+                  "id": 2,
+                  "text": "Bのみ"
+                },
+                {
+                  "id": 3,
+                  "text": "BまたはC"
+                },
+                {
+                  "id": 4,
+                  "text": "AまたはB"
+                }
+              ],
+              "correctAnswer": 2,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 59,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "オンライン国際学会で発表する研究者が、大学の別制度から登録料の助成を受ける。本制度Bについて正しいものはどれか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "登録料の代わりに、オンライン参加でも交通費を対象として申請できる。"
+                },
+                {
+                  "id": 2,
+                  "text": "同じ費目の併用はできないが、見積書を省略すればBへ申請できる。"
+                },
+                {
+                  "id": 3,
+                  "text": "登録料以外の費目はオンライン参加では対象にならないため、Bから支給できる費用はない。"
+                },
+                {
+                  "id": 4,
+                  "text": "別制度と併用しても、Bから登録料を上限40,000円まで受け取れる。"
+                }
+              ],
+              "correctAnswer": 3,
+              "explanation": null,
+              "needsReview": false
+            },
+            {
+              "id": 60,
+              "mondai": 13,
+              "type": "INFORMATION_SEARCH",
+              "question": "2027年3月10日にDの催しを実施し、終了後30日目に報告書を提出する予定である。この予定は規定に合うか。",
+              "choices": [
+                {
+                  "id": 1,
+                  "text": "Dだけは年度末の最終期限が適用されないため、規定に合う。"
+                },
+                {
+                  "id": 2,
+                  "text": "終了後30日以内なので、4月9日までなら規定に合う。"
+                },
+                {
+                  "id": 3,
+                  "text": "年度末実施では終了後15日以内となるため、3月25日までに出せばよい。"
+                },
+                {
+                  "id": 4,
+                  "text": "3月25日の最終期限を過ぎるため、終了後30日以内でも規定に合わない。"
+                }
+              ],
+              "correctAnswer": 4,
+              "explanation": null,
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

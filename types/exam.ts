@@ -119,17 +119,16 @@ export interface ExamSection {
   items: ExamSectionItem[];
 }
 
+export type ExamSource = "JLPT" | "ORIGINAL";
+
 export interface Exam {
   id: string;
-  level: JlptLevel;
+  source: ExamSource;
+  level: string;
   year: number;
-  month: JlptExamMonth;
+  month: number;
   title: string;
-  /** Current lifecycle state of the exam data. */
-  status: ExamStatus;
-  description: string;
-  /** Expected total; draft JSON may contain fewer imported questions. */
-  questionCount: number;
+  durationMinutes: number;
   sections: ExamSection[];
 }
 
