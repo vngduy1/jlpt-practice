@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import { FeLessonContent } from "@/components/fe/fe-lesson-content";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
-import { getFeLesson } from "@/lib/fe/registry";
+import { getFeLesson } from "@/lib/fe/utils";
 
 interface FeLessonPageProps {
   params: Promise<{ lessonId: string }>;

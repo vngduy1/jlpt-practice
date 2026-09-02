@@ -1,0 +1,36 @@
+{
+  "id": "basic-theory",
+  "order": 1,
+  "titleJa": "基礎理論",
+  "titleVi": "Lý thuyết cơ bản",
+  "chapters": [
+    {
+      "id": "discrete-mathematics",
+      "order": 1,
+      "titleJa": "離散数学",
+      "titleVi": "Toán rời rạc",
+      "file": "01-discrete-mathematics.json"
+    },
+    {
+      "id": "applied-mathematics",
+      "order": 2,
+      "titleJa": "応用数学",
+      "titleVi": "Toán ứng dụng",
+      "file": "02-applied-mathematics.json"
+    },
+    {
+      "id": "information-theory",
+      "order": 3,
+      "titleJa": "情報理論",
+      "titleVi": "Lý thuyết thông tin",
+      "file": "03-information-theory.json"
+    },
+    {
+      "id": "communication-theory",
+      "order": 4,
+      "titleJa": "通信理論",
+      "titleVi": "Lý thuyết truyền thông",
+      "file": "04-communication-theory.json"
+    }
+  ]
+}

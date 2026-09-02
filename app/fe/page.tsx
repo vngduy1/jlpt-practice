@@ -2,7 +2,7 @@ import { Cpu, LibraryBig } from "lucide-react";
 
 import { FeCategoryCard } from "@/components/fe/fe-category-card";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
-import { getFeCategoryIndex, listFeCategorySummaries } from "@/lib/fe/registry";
+import { getFeCategoryIndex, listFeCategorySummaries } from "@/lib/fe/utils";
 
 export const metadata = {
   title: "基本情報技術者試験 | FE Theory",
@@ -46,8 +46,8 @@ export default function FeHomePage() {
                 科目ごとに基礎概念を整理し、試験に必要な技術用語と考え方を学びます。
               </p>
               <p>
-                Học các khái niệm và thuật ngữ kỹ thuật cốt lõi theo từng chủ
-                đề của kỳ thi FE.
+                Học các khái niệm và thuật ngữ kỹ thuật cốt lõi theo từng chủ đề
+                của kỳ thi FE.
               </p>
             </div>
           </div>
@@ -65,7 +65,9 @@ export default function FeHomePage() {
               理論を選ぶ
             </h2>
           </div>
-          <p className="text-sm text-muted-foreground">{categories.length}カテゴリー</p>
+          <p className="text-sm text-muted-foreground">
+            {categories.length}カテゴリー
+          </p>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">

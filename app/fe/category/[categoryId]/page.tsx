@@ -1,84 +1,118 @@
-import type { Metadata } from "next";
-import { ArrowLeft, Layers3 } from "lucide-react";
+import { ArrowRight, BookOpen } from "lucide-react";
 import { notFound } from "next/navigation";
 
-import { FeChapterSection } from "@/components/fe/fe-chapter-section";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
-import { getFeCategory } from "@/lib/fe/registry";
+import { getFeCategory } from "@/lib/fe/utils";
 
-interface FeCategoryPageProps {
-  params: Promise<{ categoryId: string }>;
+interface PageProps {
+  params: Promise<{
+    categoryId: string;
+  }>;
 }
 
-export async function generateMetadata({
-  params,
-}: FeCategoryPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps) {
   const { categoryId } = await params;
   const category = getFeCategory(categoryId);
 
-  if (!category) return { title: "カテゴリーが見つかりません" };
-
-  const description = `${category.titleJa}・${category.titleVi}のFE理論レッスン。`;
+  if (!category) {
+    return {
+      title: "カテゴリーが見つかりません | FE Theory",
+    };
+  }
 
   return {
     title: `${category.titleJa} | FE Theory`,
-    description,
-    openGraph: { title: category.titleJa, description, images: [] },
-    twitter: { title: category.titleJa, description, images: [] },
+    description: `${category.titleJa}（${category.titleVi}）の学習分野一覧`,
   };
 }
 
-export default async function FeCategoryPage({ params }: FeCategoryPageProps) {
+export default async function FeCategoryPage({ params }: PageProps) {
   const { categoryId } = await params;
+
   const category = getFeCategory(categoryId);
 
-  if (!category) notFound();
+  if (!category) {
+    notFound();
+  }
 
   const chapters = [...category.chapters].sort((a, b) => a.order - b.order);
-  const lessonCount = chapters.reduce(
-    (count, chapter) => count + chapter.lessons.length,
-    0,
-  );
 
   return (
     <main className="min-h-screen bg-background text-foreground">
       <FeSiteHeader />
 
       <section className="border-b border-border/70 bg-hero">
-        <div className="mx-auto max-w-5xl px-5 py-10 sm:px-8 sm:py-14">
-          {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+        <div className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-12">
+          {/* oxlint-disable-next-line next/no-html-link-for-pages */}
           <a
             href="/fe"
-            className="inline-flex min-h-10 items-center gap-2 text-sm font-semibold text-muted-foreground hover:text-primary"
+            className="inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
-            <ArrowLeft className="size-4" aria-hidden="true" />
-            カテゴリー一覧
+            ← カテゴリー一覧
           </a>
 
-          <div className="mt-7 flex items-start gap-4">
-            <span className="grid size-11 shrink-0 place-items-center rounded-lg bg-secondary text-secondary-foreground">
-              <Layers3 className="size-5" aria-hidden="true" />
-            </span>
-            <div>
-              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                {category.titleJa}
-              </h1>
-              <p className="mt-2 text-lg text-muted-foreground">
-                {category.titleVi}
-              </p>
-              <p className="mt-4 text-sm font-medium text-muted-foreground">
-                {chapters.length}章・{lessonCount}レッスン
-              </p>
+          <div className="mt-7">
+            <div className="flex items-center gap-2 text-sm font-semibold text-primary">
+              <BookOpen className="size-4" aria-hidden="true" />
+              学習カテゴリー
             </div>
+
+            <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+              {category.titleJa}
+            </h1>
+
+            <p className="mt-2 text-base text-muted-foreground sm:text-lg">
+              {category.titleVi}
+            </p>
           </div>
         </div>
       </section>
 
-      <div className="mx-auto grid max-w-5xl gap-5 px-5 py-8 sm:px-8 sm:py-12">
-        {chapters.map((chapter, index) => (
-          <FeChapterSection key={chapter.id} chapter={chapter} number={index + 1} />
-        ))}
-      </div>
+      <section className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
+        <div className="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <p className="text-sm font-semibold text-primary">学習分野</p>
+
+            <h2 className="mt-1 text-2xl font-bold">分野を選ぶ</h2>
+          </div>
+
+          <p className="text-sm text-muted-foreground">{chapters.length}分野</p>
+        </div>
+
+        <div className="grid gap-4 md:grid-cols-2">
+          {chapters.map((chapter) => (
+            /* oxlint-disable-next-line next/no-html-link-for-pages */
+            <a
+              key={chapter.id}
+              href={`/fe/category/${category.id}/${chapter.id}`}
+              className="group rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary text-sm font-bold text-primary-foreground">
+                  {String(chapter.order).padStart(2, "0")}
+                </div>
+
+                <div className="min-w-0 flex-1">
+                  <h3 className="text-xl font-bold">{chapter.titleJa}</h3>
+
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {chapter.titleVi}
+                  </p>
+
+                  <p className="mt-4 text-sm font-medium text-muted-foreground">
+                    {chapter.lessons.length} レッスン
+                  </p>
+                </div>
+
+                <ArrowRight
+                  className="mt-1 size-5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary"
+                  aria-hidden="true"
+                />
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

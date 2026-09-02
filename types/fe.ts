@@ -53,16 +53,49 @@ export interface FeLesson {
   tags: string[];
 }
 
+/**
+ * index.json 内の chapter 参照情報
+ */
+export interface FeChapterReference {
+  id: string;
+  order: number;
+  titleJa: string;
+  titleVi: string;
+  file: string;
+}
+
+/**
+ * 例:
+ * data/fe/theory/01-basic-theory/index.json
+ */
+export interface FeCategoryManifest {
+  id: string;
+  order: number;
+  titleJa: string;
+  titleVi: string;
+  chapters: FeChapterReference[];
+}
+
+/**
+ * 実際の chapter JSON
+ * 例:
+ * 01-discrete-mathematics.json
+ */
 export interface FeChapter {
   id: string;
   order: number;
   titleJa: string;
   titleVi: string;
+  syllabus?: string;
   lessons: FeLesson[];
 }
 
+/**
+ * registry.ts で manifest + chapter JSON を結合した後の形
+ */
 export interface FeCategory {
   id: string;
+  order: number;
   titleJa: string;
   titleVi: string;
   chapters: FeChapter[];

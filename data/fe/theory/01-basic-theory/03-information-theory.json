@@ -1,0 +1,1811 @@
+{
+  "id": "information-theory",
+  "order": 3,
+  "titleJa": "情報に関する理論",
+  "titleVi": "Lý thuyết về thông tin",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "coding-and-huffman-coding",
+      "order": 1,
+      "titleJa": "通信路符号化とハフマン符号",
+      "titleVi": "Mã hóa kênh truyền và mã Huffman",
+      "importance": "high",
+      "summaryJa": "通信時の誤りに備える通信路符号化と、出現頻度を利用してデータを効率よく圧縮するハフマン符号について、目的と仕組みの違いを理解する。",
+      "summaryVi": "Tìm hiểu mã hóa kênh truyền dùng để đối phó với lỗi khi truyền dữ liệu và mã Huffman dùng tần suất xuất hiện để nén dữ liệu hiệu quả, đồng thời phân biệt rõ mục đích và cơ chế của hai phương pháp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "通信路符号化",
+          "vi": "Mã hóa kênh truyền"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信路符号化は、データを通信路で送るときに発生する可能性のある誤りに備えるための符号化である。元のデータに検査用の情報を付加し、受信側で誤りを検出したり、方式によっては訂正したりできるようにする。",
+          "vi": "通信路符号化 (mã hóa kênh truyền) là kỹ thuật mã hóa nhằm đối phó với lỗi có thể xảy ra khi dữ liệu được truyền qua kênh truyền. Thông tin kiểm tra được bổ sung vào dữ liệu gốc để phía nhận có thể phát hiện lỗi và, tùy phương pháp, có thể sửa lỗi."
+        },
+        {
+          "type": "point",
+          "ja": "目的はデータを小さくすることではなく、通信の信頼性を高めることである。そのため、誤り検出・誤り訂正のための冗長な情報を付加する。",
+          "vi": "Mục đích không phải làm dữ liệu nhỏ hơn mà là tăng độ tin cậy khi truyền. Vì vậy dữ liệu được bổ sung thông tin dư thừa phục vụ phát hiện hoặc sửa lỗi."
+        },
+        {
+          "type": "heading",
+          "ja": "ハフマン符号",
+          "vi": "Mã Huffman"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハフマン符号は、記号の出現頻度に応じて異なる長さのビット列を割り当てる可変長符号である。出現頻度が高い記号には短い符号、低い記号には長い符号を割り当てることで、データ全体の符号長を小さくする。",
+          "vi": "ハフマン符号 (mã Huffman) là mã có độ dài thay đổi, trong đó chuỗi bit có độ dài khác nhau được gán theo tần suất xuất hiện của ký hiệu. Ký hiệu xuất hiện nhiều được gán mã ngắn, ký hiệu xuất hiện ít được gán mã dài, nhờ đó giảm tổng số bit cần dùng."
+        },
+        {
+          "type": "point",
+          "ja": "ハフマン符号は、出現頻度の低い記号から順にまとめて木を構成し、各枝に0と1を割り当てることで符号を作る。頻度が高い記号ほど根に近くなり、短い符号になりやすい。",
+          "vi": "Mã Huffman được xây dựng bằng cách lần lượt ghép các ký hiệu có tần suất thấp để tạo thành cây, sau đó gán 0 và 1 cho các nhánh. Ký hiệu có tần suất cao thường nằm gần gốc hơn nên nhận mã ngắn hơn."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、Aの出現頻度が高く、BやCの出現頻度が低い場合、Aには「0」、Bには「10」、Cには「11」のように、頻度の高い記号へ短い符号を割り当てることができる。",
+          "vi": "Ví dụ, nếu A xuất hiện thường xuyên còn B và C ít xuất hiện hơn, có thể gán A = “0”, B = “10”, C = “11”, tức là ký hiệu có tần suất cao nhận mã ngắn hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "通信路符号化とハフマン符号は目的が異なる。通信路符号化は誤りへの耐性を高めるために冗長性を加えるのに対し、ハフマン符号は出現頻度を利用して符号量を減らす可逆圧縮のための符号化である。",
+          "vi": "Không được nhầm mục đích của hai khái niệm. 通信路符号化 thêm thông tin dư thừa để tăng khả năng chống lỗi, trong khi ハフマン符号 tận dụng tần suất xuất hiện để giảm lượng mã và thực hiện nén không mất dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "通信路符号化",
+          "reading": "つうしんろふごうか",
+          "english": "Channel Coding",
+          "vi": "mã hóa kênh truyền",
+          "definitionJa": "通信路で生じる誤りを検出・訂正できるように、データへ冗長な情報を付加して符号化する技術。",
+          "definitionVi": "Kỹ thuật mã hóa bổ sung thông tin dư thừa vào dữ liệu để có thể phát hiện và, tùy phương pháp, sửa lỗi phát sinh trên kênh truyền."
+        },
+        {
+          "term": "ハフマン符号",
+          "reading": "ハフマンふごう",
+          "english": "Huffman Coding",
+          "vi": "mã Huffman",
+          "definitionJa": "記号の出現頻度に基づき、頻度の高い記号には短い符号、低い記号には長い符号を割り当てる可変長符号。",
+          "definitionVi": "Mã có độ dài thay đổi, gán mã ngắn cho ký hiệu xuất hiện thường xuyên và mã dài cho ký hiệu ít xuất hiện dựa trên tần suất xuất hiện."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "coding",
+        "channel-coding",
+        "data-compression"
+      ]
+    },
+    {
+      "id": "japanese-character-codes",
+      "order": 2,
+      "titleJa": "文字コードの基礎",
+      "titleVi": "Cơ bản về mã ký tự",
+      "importance": "high",
+      "summaryJa": "ASCIIコードを基礎として、EUC、JISコード、シフトJISコードの特徴と違いを理解する。文字をコンピュータ内部で数値として表現する仕組みと、日本語を扱うために発展した代表的な文字コードを整理する。",
+      "summaryVi": "Tìm hiểu ASCII cùng các mã ký tự EUC, JIS và Shift JIS. Trọng tâm là cơ chế biểu diễn ký tự bằng giá trị số trong máy tính và đặc điểm của các hệ mã được sử dụng để xử lý tiếng Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "文字コードとは",
+          "vi": "Mã ký tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータは文字そのものを直接扱うのではなく、文字に対応する数値を使って処理する。文字コードは、文字と数値の対応関係を定めたものである。異なる文字コードでデータを解釈すると、文字化けが発生することがある。",
+          "vi": "Máy tính không trực tiếp xử lý bản thân ký tự mà xử lý các giá trị số tương ứng với ký tự. Mã ký tự quy định quan hệ giữa ký tự và giá trị số. Nếu dữ liệu được giải mã bằng một hệ mã khác với hệ mã ban đầu, hiện tượng lỗi hiển thị ký tự (文字化け) có thể xảy ra."
+        },
+        {
+          "type": "heading",
+          "ja": "ASCIIコード",
+          "vi": "Mã ASCII"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ASCIIコードは、英字、数字、記号、制御文字などを表すための代表的な文字コードである。標準ASCIIは7ビットで128種類の値を表し、例えば大文字の「A」は10進数の65に対応する。",
+          "vi": "ASCII là mã ký tự tiêu biểu dùng để biểu diễn chữ cái Latin, chữ số, ký hiệu và các ký tự điều khiển. ASCII chuẩn sử dụng 7 bit để biểu diễn 128 giá trị; ví dụ chữ hoa “A” tương ứng với số thập phân 65."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、ASCIIは7ビットで128種類を表現できることを覚えておく。2^7＝128である。",
+          "vi": "Trong FE, cần nhớ ASCII chuẩn dùng 7 bit nên có thể biểu diễn 128 giá trị: 2^7 = 128."
+        },
+        {
+          "type": "heading",
+          "ja": "日本語を扱う文字コード",
+          "vi": "Các mã ký tự dùng cho tiếng Nhật"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ASCIIだけでは漢字やひらがななどの日本語を十分に表現できない。そのため、日本語を扱うための文字コードとしてJISコード、EUC、シフトJISコードなどが利用されてきた。",
+          "vi": "Chỉ ASCII không đủ để biểu diễn các ký tự tiếng Nhật như kanji và hiragana. Vì vậy, các hệ mã như JIS, EUC và Shift JIS đã được sử dụng để xử lý tiếng Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "JISコードは日本産業規格（JIS）に基づく文字コードである。EUCはUNIX系環境で広く利用されてきた文字コード体系であり、日本語ではEUC-JPが代表的である。シフトJISコードはASCIIとの共存を考慮して日本語を扱えるようにした文字コードで、国内のパソコン環境などで広く利用されてきた。",
+          "vi": "JIS code dựa trên tiêu chuẩn công nghiệp Nhật Bản (JIS). EUC là hệ mã từng được sử dụng rộng rãi trong môi trường UNIX, trong đó EUC-JP là dạng tiêu biểu cho tiếng Nhật. Shift JIS được thiết kế để xử lý tiếng Nhật đồng thời có thể cùng tồn tại với ASCII và từng được sử dụng rộng rãi trên các hệ thống máy tính cá nhân tại Nhật."
+        },
+        {
+          "type": "warning",
+          "ja": "ASCII、EUC、JISコード、シフトJISコードは同じものではない。特に、EUCは文字コード体系の名称であり、日本語を扱う場合にはEUC-JPが代表的である。また、文字コードが異なるデータを誤った方式で解釈すると文字化けの原因になる。",
+          "vi": "ASCII, EUC, JIS và Shift JIS không phải cùng một hệ mã. Đặc biệt, EUC là tên của một họ mã ký tự, còn EUC-JP là dạng tiêu biểu dùng cho tiếng Nhật. Việc giải mã dữ liệu bằng sai hệ mã là một nguyên nhân phổ biến gây 文字化け."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ASCIIコード",
+          "reading": "アスキーコード",
+          "english": "ASCII Code",
+          "vi": "mã ASCII",
+          "definitionJa": "英字、数字、記号、制御文字などを数値に対応付ける文字コード。標準ASCIIは7ビットで128種類の値を表現する。",
+          "definitionVi": "Mã ký tự ánh xạ chữ cái Latin, chữ số, ký hiệu và ký tự điều khiển sang các giá trị số. ASCII chuẩn sử dụng 7 bit và biểu diễn được 128 giá trị."
+        },
+        {
+          "term": "EUC",
+          "reading": "イーユーシー",
+          "english": "Extended UNIX Code",
+          "vi": "mã EUC",
+          "definitionJa": "UNIX系システムで多言語の文字を扱うために利用されてきた文字コード体系。日本語用としてEUC-JPが広く使われた。",
+          "definitionVi": "Hệ mã ký tự từng được sử dụng trong các hệ thống UNIX để xử lý nhiều loại ký tự. Đối với tiếng Nhật, EUC-JP từng được sử dụng rộng rãi."
+        },
+        {
+          "term": "JISコード",
+          "reading": "ジスコード",
+          "english": "JIS Code",
+          "vi": "mã JIS",
+          "definitionJa": "日本産業規格（JIS）に基づいて日本語の文字などを扱うための文字コード。",
+          "definitionVi": "Mã ký tự dựa trên tiêu chuẩn JIS của Nhật Bản, được dùng để biểu diễn các ký tự tiếng Nhật và các ký tự liên quan."
+        },
+        {
+          "term": "シフトJISコード",
+          "reading": "シフトジスコード",
+          "english": "Shift JIS Code",
+          "vi": "mã Shift JIS",
+          "definitionJa": "ASCIIとの共存を考慮しながら、日本語の漢字、ひらがな、カタカナなどを表現できるようにした文字コード。",
+          "definitionVi": "Mã ký tự được thiết kế để biểu diễn kanji, hiragana, katakana và các ký tự tiếng Nhật trong khi vẫn xét đến khả năng cùng tồn tại với ASCII."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "character-code",
+        "ascii",
+        "japanese-encoding"
+      ]
+    },
+    {
+      "id": "unicode-and-logical-reasoning",
+      "order": 3,
+      "titleJa": "Unicode・UCSと論理的推論",
+      "titleVi": "Unicode, UCS và suy luận logic",
+      "importance": "high",
+      "summaryJa": "UnicodeとUCSによる文字の統一的な表現と、述語論理・演繹推論による論理的な表現と推論の基本を理解する。",
+      "summaryVi": "Tìm hiểu cách Unicode và UCS biểu diễn ký tự một cách thống nhất, đồng thời nắm các kiến thức cơ bản về logic vị từ và suy luận diễn dịch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UnicodeとUCS",
+          "vi": "Unicode và UCS"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Unicodeは、世界中のさまざまな文字や記号を統一的に扱うための文字コード規格である。文字ごとに一意のコードポイントを割り当てることで、異なる言語の文字を共通の体系で扱えるようにする。",
+          "vi": "Unicode là tiêu chuẩn mã ký tự nhằm xử lý thống nhất các ký tự và ký hiệu của nhiều ngôn ngữ trên thế giới. Mỗi ký tự được gán một code point duy nhất, nhờ đó các ngôn ngữ khác nhau có thể được xử lý trong cùng một hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "Unicodeのコードポイントを実際のバイト列として表現する方式にはUTF-8やUTF-16などがある。UnicodeそのものとUTF-8を同一のものとして覚えないことが重要である。",
+          "vi": "Các cách biểu diễn code point Unicode thành chuỗi byte thực tế gồm UTF-8, UTF-16... Cần nhớ Unicode và UTF-8 không phải là cùng một khái niệm."
+        },
+        {
+          "type": "paragraph",
+          "ja": "UCSはUniversal Character Setの略で、ISO/IEC 10646で規定される汎用文字集合である。UnicodeとISO/IEC 10646は文字の符号位置について整合が図られており、世界中の文字を共通の体系で扱うための基盤となっている。",
+          "vi": "UCS là viết tắt của Universal Character Set, tập ký tự phổ quát được quy định bởi ISO/IEC 10646. Unicode và ISO/IEC 10646 được đồng bộ về các vị trí mã ký tự, tạo nền tảng để xử lý ký tự trên toàn thế giới trong một hệ thống chung."
+        },
+        {
+          "type": "warning",
+          "ja": "UCSは文字集合、UTF-8やUTF-16はUnicodeの符号位置をバイト列へ符号化する代表的な方式である。これらの役割を混同しない。",
+          "vi": "UCS là tập ký tự, còn UTF-8 và UTF-16 là các cách tiêu biểu để mã hóa vị trí mã Unicode thành chuỗi byte. Không nên nhầm vai trò của các khái niệm này."
+        },
+        {
+          "type": "heading",
+          "ja": "述語論理",
+          "vi": "Logic vị từ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "述語論理は、対象の性質や対象間の関係を、述語、変数、量化記号などを用いて表現する論理体系である。命題論理よりも詳細な関係を記述できる。",
+          "vi": "Logic vị từ là hệ thống logic biểu diễn thuộc tính của đối tượng và quan hệ giữa các đối tượng bằng vị từ, biến, lượng từ... Nó có thể mô tả các quan hệ chi tiết hơn logic mệnh đề."
+        },
+        {
+          "type": "example",
+          "ja": "例えば「すべての人は有限の寿命をもつ」という内容は、「すべて」を表す全称量化を用いて表現できる。述語論理では、このように対象とその性質を分けて考える。",
+          "vi": "Ví dụ, nội dung “mọi người đều có tuổi thọ hữu hạn” có thể được biểu diễn bằng lượng từ toàn thể mang nghĩa “mọi”. Trong logic vị từ, đối tượng và thuộc tính của đối tượng được tách ra để biểu diễn."
+        },
+        {
+          "type": "heading",
+          "ja": "演繹推論",
+          "vi": "Suy luận diễn dịch"
+        },
+        {
+          "type": "paragraph",
+          "ja": "演繹推論は、一般的な規則や前提から、個別の事例について論理的な結論を導く推論方法である。前提が正しく、推論の形式も妥当であれば、導かれる結論も正しい。",
+          "vi": "Suy luận diễn dịch là phương pháp đi từ quy tắc hoặc tiền đề tổng quát đến kết luận logic cho một trường hợp cụ thể. Nếu các tiền đề đúng và hình thức suy luận hợp lệ thì kết luận thu được cũng đúng."
+        },
+        {
+          "type": "example",
+          "ja": "「すべての人間は死ぬ」「Aは人間である」という前提から、「Aは死ぬ」と結論するのが演繹推論の例である。",
+          "vi": "Ví dụ của suy luận diễn dịch: từ hai tiền đề “mọi người đều chết” và “A là người”, có thể suy ra kết luận “A sẽ chết”."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、演繹推論が「一般的な前提から個別の結論へ進む」推論であることを押さえる。個別の事例から一般的な規則を導く帰納推論とは方向が異なる。",
+          "vi": "Trong FE, cần nhớ 演繹推論 đi từ tiền đề tổng quát đến kết luận cụ thể. Hướng suy luận này khác với 帰納推論, vốn đi từ các trường hợp cụ thể để hình thành kết luận tổng quát."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Unicode",
+          "reading": "ユニコード",
+          "english": "Unicode",
+          "vi": "Unicode",
+          "definitionJa": "世界中の文字や記号を統一的に扱うために、それぞれの文字へコードポイントを割り当てる文字コード規格。",
+          "definitionVi": "Tiêu chuẩn mã ký tự gán code point cho các ký tự và ký hiệu nhằm xử lý thống nhất các hệ chữ trên thế giới."
+        },
+        {
+          "term": "UCS",
+          "reading": "ユーシーエス",
+          "english": "Universal Character Set",
+          "vi": "tập ký tự phổ quát",
+          "definitionJa": "ISO/IEC 10646で規定される、世界中の文字を統一的に扱うための汎用的な文字集合。",
+          "definitionVi": "Tập ký tự phổ quát được quy định trong ISO/IEC 10646 nhằm xử lý thống nhất các ký tự trên thế giới."
+        },
+        {
+          "term": "述語論理",
+          "reading": "じゅつごろんり",
+          "english": "Predicate Logic",
+          "vi": "logic vị từ",
+          "definitionJa": "述語、変数、量化記号などを用いて、対象の性質や対象間の関係を表現する論理体系。",
+          "definitionVi": "Hệ thống logic sử dụng vị từ, biến và lượng từ để biểu diễn thuộc tính của đối tượng cũng như quan hệ giữa các đối tượng."
+        },
+        {
+          "term": "演繹推論",
+          "reading": "えんえきすいろん",
+          "english": "Deductive Reasoning",
+          "vi": "suy luận diễn dịch",
+          "definitionJa": "一般的な規則や前提を個別の事例に適用し、論理的に結論を導く推論方法。",
+          "definitionVi": "Phương pháp suy luận áp dụng quy tắc hoặc tiền đề tổng quát cho trường hợp cụ thể để rút ra kết luận logic."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "character-code",
+        "unicode",
+        "logic",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "formal-language-and-automata",
+      "order": 4,
+      "titleJa": "帰納推論・形式言語とオートマトン",
+      "titleVi": "Suy luận quy nạp, ngôn ngữ hình thức và automaton",
+      "importance": "high",
+      "summaryJa": "帰納推論の考え方と、形式言語、逆ポーランド表記法、有限オートマトンの基本を理解し、論理的推論と形式的な情報表現の違いを整理する。",
+      "summaryVi": "Tìm hiểu suy luận quy nạp cùng các kiến thức cơ bản về ngôn ngữ hình thức, ký pháp Ba Lan ngược và automaton hữu hạn; đồng thời phân biệt suy luận logic với cách biểu diễn và xử lý thông tin theo quy tắc hình thức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "帰納推論",
+          "vi": "Suy luận quy nạp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "帰納推論は、複数の具体的な観察や事例から共通する特徴を見つけ、一般的な規則や結論を導く推論方法である。個別の事例から一般化するため、得られた結論が常に真であるとは限らない。",
+          "vi": "帰納推論 là phương pháp suy luận tìm đặc điểm chung từ nhiều quan sát hoặc trường hợp cụ thể rồi khái quát thành quy luật hay kết luận chung. Vì đi từ các trường hợp riêng lẻ đến khái quát nên kết luận không nhất thiết luôn đúng tuyệt đối."
+        },
+        {
+          "type": "warning",
+          "ja": "演繹推論は一般的な前提から個別の結論を導くのに対し、帰納推論は個別の事例から一般的な結論を導く。FEではこの推論方向の違いを区別する。",
+          "vi": "演繹推論 đi từ tiền đề tổng quát đến kết luận cụ thể, còn 帰納推論 đi từ nhiều trường hợp cụ thể đến kết luận tổng quát. Trong FE cần phân biệt rõ hướng suy luận này."
+        },
+        {
+          "type": "heading",
+          "ja": "形式言語",
+          "vi": "Ngôn ngữ hình thức"
+        },
+        {
+          "type": "paragraph",
+          "ja": "形式言語は、使用できる記号と、それらをどのように並べれば正しい表現になるかを形式的な規則によって定めた言語である。プログラミング言語や数式など、コンピュータが曖昧さなく処理する必要がある場面で重要となる。",
+          "vi": "形式言語 là ngôn ngữ trong đó tập ký hiệu được phép sử dụng và cách kết hợp chúng thành biểu thức hợp lệ được xác định bằng các quy tắc hình thức. Khái niệm này quan trọng trong ngôn ngữ lập trình, biểu thức toán học và những trường hợp máy tính cần xử lý thông tin không mơ hồ."
+        },
+        {
+          "type": "point",
+          "ja": "自然言語には文脈による曖昧さがあるが、形式言語では構文規則を明確に定義することで、機械的な解析や処理を可能にする。",
+          "vi": "Ngôn ngữ tự nhiên có thể mơ hồ tùy ngữ cảnh, trong khi ngôn ngữ hình thức định nghĩa rõ quy tắc cú pháp để máy tính có thể phân tích và xử lý một cách cơ học."
+        },
+        {
+          "type": "heading",
+          "ja": "逆ポーランド表記法",
+          "vi": "Ký pháp Ba Lan ngược"
+        },
+        {
+          "type": "paragraph",
+          "ja": "逆ポーランド表記法は、演算子を被演算子の後ろに置く式の表記法である。演算の優先順位を括弧に頼らず表現でき、スタックを利用して効率よく計算できる。",
+          "vi": "逆ポーランド表記法 là cách viết biểu thức đặt toán tử sau các toán hạng. Nó có thể biểu diễn thứ tự phép tính mà không cần dựa vào dấu ngoặc và rất phù hợp để tính toán bằng stack."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、中置表記の「3＋4×5」は、逆ポーランド表記法では「3 4 5 × ＋」となる。スタックでは4と5を取り出して乗算し、その結果と3を加算する。",
+          "vi": "Ví dụ, biểu thức trung tố “3 + 4 × 5” được viết theo ký pháp Ba Lan ngược là “3 4 5 × +”. Khi dùng stack, lấy 4 và 5 ra để nhân trước, sau đó cộng kết quả với 3."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、逆ポーランド表記法とスタックの組合せが重要である。左から読み、値をスタックへ積み、演算子が現れたら必要な値を取り出して計算する。",
+          "vi": "Trong FE, mối quan hệ giữa ký pháp Ba Lan ngược và stack là điểm quan trọng. Đọc từ trái sang phải, đưa giá trị vào stack; khi gặp toán tử thì lấy các toán hạng cần thiết ra để tính."
+        },
+        {
+          "type": "heading",
+          "ja": "有限オートマトン",
+          "vi": "Automaton hữu hạn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "有限オートマトンは、有限個の状態と状態遷移規則をもち、入力された記号列に応じて状態を変化させる計算モデルである。入力を順番に処理し、最終的に受理状態へ到達したかどうかによって、その文字列を受理するかを判定できる。",
+          "vi": "有限オートマトン là mô hình tính toán gồm một số hữu hạn trạng thái và các quy tắc chuyển trạng thái. Mô hình thay đổi trạng thái theo từng ký hiệu đầu vào và có thể quyết định chấp nhận chuỗi dựa trên trạng thái cuối cùng."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、「0が偶数個含まれる文字列」を受理する場合、「0が偶数個の状態」と「0が奇数個の状態」の二つを用意し、0を読むたびに二つの状態を切り替えることで判定できる。",
+          "vi": "Ví dụ, để chấp nhận các chuỗi chứa số lượng ký tự 0 là số chẵn, có thể dùng hai trạng thái: “số lượng 0 chẵn” và “số lượng 0 lẻ”, rồi chuyển qua lại giữa hai trạng thái mỗi khi đọc một ký tự 0."
+        },
+        {
+          "type": "point",
+          "ja": "有限オートマトンでは「状態」「入力」「状態遷移」「初期状態」「受理状態」の関係を理解することが重要である。",
+          "vi": "Với automaton hữu hạn, cần hiểu quan hệ giữa trạng thái (状態), đầu vào (入力), chuyển trạng thái (状態遷移), trạng thái ban đầu (初期状態) và trạng thái chấp nhận (受理状態)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "帰納推論",
+          "reading": "きのうすいろん",
+          "english": "Inductive Reasoning",
+          "vi": "suy luận quy nạp",
+          "definitionJa": "複数の具体的な観察や事例から共通点を見いだし、一般的な規則や結論を導く推論方法。",
+          "definitionVi": "Phương pháp suy luận tìm điểm chung từ nhiều quan sát hoặc trường hợp cụ thể để hình thành quy luật hay kết luận tổng quát."
+        },
+        {
+          "term": "形式言語",
+          "reading": "けいしきげんご",
+          "english": "Formal Language",
+          "vi": "ngôn ngữ hình thức",
+          "definitionJa": "使用する記号と、その記号列を構成するための規則が形式的かつ明確に定義された言語。",
+          "definitionVi": "Ngôn ngữ có tập ký hiệu và các quy tắc cấu thành chuỗi ký hiệu được định nghĩa rõ ràng theo hình thức."
+        },
+        {
+          "term": "逆ポーランド表記法",
+          "reading": "ぎゃくポーランドひょうきほう",
+          "english": "Reverse Polish Notation",
+          "vi": "ký pháp Ba Lan ngược",
+          "definitionJa": "演算子を被演算子の後ろに配置する式の表記法。括弧を使わずに演算順序を一意に表現できる。",
+          "definitionVi": "Cách biểu diễn biểu thức đặt toán tử sau toán hạng, cho phép xác định duy nhất thứ tự tính toán mà không cần dấu ngoặc."
+        },
+        {
+          "term": "有限オートマトン",
+          "reading": "ゆうげんオートマトン",
+          "english": "Finite Automaton",
+          "vi": "automaton hữu hạn",
+          "definitionJa": "有限個の状態と状態遷移規則をもち、入力記号に応じて状態を変化させ、文字列を受理するかどうかを判定する計算モデル。",
+          "definitionVi": "Mô hình tính toán có hữu hạn trạng thái và quy tắc chuyển trạng thái, thay đổi trạng thái theo ký hiệu đầu vào để quyết định có chấp nhận chuỗi hay không."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "reasoning",
+        "formal-language",
+        "reverse-polish-notation",
+        "automata"
+      ]
+    },
+    {
+      "id": "time-complexity-and-expert-systems",
+      "order": 5,
+      "titleJa": "時間計算量とエキスパートシステム",
+      "titleVi": "Độ phức tạp thời gian và hệ chuyên gia",
+      "importance": "high",
+      "summaryJa": "アルゴリズムの効率を評価する時間計算量と、専門知識を利用して推論を行うエキスパートシステムの基本構成を理解する。特に、知識ベースと推論エンジンの役割を区別する。",
+      "summaryVi": "Tìm hiểu độ phức tạp thời gian dùng để đánh giá hiệu quả của thuật toán và cấu trúc cơ bản của hệ chuyên gia sử dụng tri thức chuyên môn để suy luận. Đặc biệt cần phân biệt vai trò của cơ sở tri thức và bộ máy suy luận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "時間計算量",
+          "vi": "Độ phức tạp thời gian"
+        },
+        {
+          "type": "paragraph",
+          "ja": "時間計算量は、入力データの大きさに応じてアルゴリズムの処理量がどのように増えるかを表す尺度である。実際の実行秒数ではなく、入力サイズをnとしたときの処理量の増え方に着目し、O記法を用いて表すことが多い。",
+          "vi": "時間計算量 là thước đo cho biết khối lượng xử lý của thuật toán tăng như thế nào khi kích thước dữ liệu đầu vào tăng. Thay vì biểu diễn số giây chạy thực tế, nó tập trung vào tốc độ tăng của lượng xử lý theo kích thước đầu vào n và thường được biểu diễn bằng ký hiệu Big O."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、n個のデータを先頭から順番に調べる線形探索では、最悪の場合はn個すべてを調べるため、時間計算量はO(n)となる。",
+          "vi": "Ví dụ, với tìm kiếm tuyến tính trên n phần tử, trong trường hợp xấu nhất phải kiểm tra toàn bộ n phần tử nên độ phức tạp thời gian là O(n)."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、O(1)、O(log n)、O(n)、O(n log n)、O(n²)などの代表的な時間計算量について、入力サイズが大きくなったときの増加傾向を比較できるようにすることが重要である。",
+          "vi": "Trong FE, cần có khả năng so sánh xu hướng tăng khi kích thước đầu vào lớn dần đối với các độ phức tạp tiêu biểu như O(1), O(log n), O(n), O(n log n) và O(n²)."
+        },
+        {
+          "type": "warning",
+          "ja": "時間計算量は、特定のコンピュータで何秒かかるかを直接表すものではない。アルゴリズムの処理量が入力サイズに対してどのように増えるかを評価する考え方である。",
+          "vi": "Độ phức tạp thời gian không trực tiếp cho biết thuật toán chạy bao nhiêu giây trên một máy tính cụ thể. Đây là cách đánh giá lượng xử lý tăng như thế nào theo kích thước đầu vào."
+        },
+        {
+          "type": "heading",
+          "ja": "エキスパートシステム",
+          "vi": "Hệ chuyên gia"
+        },
+        {
+          "type": "paragraph",
+          "ja": "エキスパートシステムは、特定分野の専門家がもつ知識や経験をコンピュータ上で利用し、問題解決や判断を支援するシステムである。代表的な構成要素として、専門知識を保持する知識ベースと、その知識を利用して結論を導く推論エンジンがある。",
+          "vi": "エキスパートシステム là hệ thống sử dụng tri thức và kinh nghiệm của chuyên gia trong một lĩnh vực cụ thể trên máy tính để hỗ trợ giải quyết vấn đề hoặc đưa ra quyết định. Hai thành phần tiêu biểu là cơ sở tri thức lưu giữ kiến thức chuyên môn và bộ máy suy luận sử dụng kiến thức đó để đưa ra kết luận."
+        },
+        {
+          "type": "heading",
+          "ja": "知識ベースと推論エンジン",
+          "vi": "Cơ sở tri thức và bộ máy suy luận"
+        },
+        {
+          "type": "paragraph",
+          "ja": "知識ベースは、対象分野に関する事実や規則などの知識を蓄積する部分である。推論エンジンは、その知識を参照し、与えられた事実や条件に規則を適用して、新しい結論を導き出す部分である。",
+          "vi": "知識ベース là phần lưu trữ các tri thức như sự kiện và quy tắc liên quan đến lĩnh vực cần xử lý. 推論エンジン là phần tham chiếu các tri thức đó, áp dụng quy tắc vào dữ kiện hoặc điều kiện được cung cấp để suy ra kết luận mới."
+        },
+        {
+          "type": "example",
+          "ja": "例えば診断支援システムでは、「ある症状と検査結果がそろった場合は特定の病気の可能性がある」といった規則を知識ベースに保持し、入力された症状や検査結果に対して推論エンジンが規則を適用して候補を導く。",
+          "vi": "Ví dụ trong hệ thống hỗ trợ chẩn đoán, cơ sở tri thức có thể lưu quy tắc như “nếu có một nhóm triệu chứng và kết quả xét nghiệm nhất định thì có khả năng mắc bệnh X”. Bộ máy suy luận áp dụng các quy tắc đó vào dữ liệu được nhập để đưa ra các khả năng phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「知識ベース＝知識を蓄積する部分」「推論エンジン＝知識を利用して推論する部分」と役割を分けて覚える。",
+          "vi": "Trong FE, nên nhớ theo cặp: “知識ベース = nơi lưu tri thức”, còn “推論エンジン = bộ phận sử dụng tri thức để suy luận”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "時間計算量",
+          "reading": "じかんけいさんりょう",
+          "english": "Time Complexity",
+          "vi": "độ phức tạp thời gian",
+          "definitionJa": "入力サイズの増加に応じて、アルゴリズムの処理量がどのように増えるかを表す尺度。",
+          "definitionVi": "Thước đo biểu diễn lượng xử lý của thuật toán tăng như thế nào khi kích thước dữ liệu đầu vào tăng."
+        },
+        {
+          "term": "エキスパートシステム",
+          "reading": "エキスパートシステム",
+          "english": "Expert System",
+          "vi": "hệ chuyên gia",
+          "definitionJa": "特定分野の専門知識を利用し、推論によって問題解決や意思決定を支援するシステム。",
+          "definitionVi": "Hệ thống sử dụng tri thức chuyên môn của một lĩnh vực và thực hiện suy luận để hỗ trợ giải quyết vấn đề hoặc ra quyết định."
+        },
+        {
+          "term": "知識ベース",
+          "reading": "ちしきベース",
+          "english": "Knowledge Base",
+          "vi": "cơ sở tri thức",
+          "definitionJa": "エキスパートシステムなどで利用する事実、規則、専門知識を蓄積した部分。",
+          "definitionVi": "Bộ phận lưu trữ các sự kiện, quy tắc và tri thức chuyên môn được sử dụng trong hệ chuyên gia."
+        },
+        {
+          "term": "推論エンジン",
+          "reading": "すいろんエンジン",
+          "english": "Inference Engine",
+          "vi": "bộ máy suy luận",
+          "definitionJa": "知識ベースに格納された知識や規則を適用し、与えられた情報から結論を導く処理機構。",
+          "definitionVi": "Cơ chế xử lý áp dụng tri thức và quy tắc trong cơ sở tri thức để suy ra kết luận từ thông tin được cung cấp."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "time-complexity",
+        "artificial-intelligence",
+        "expert-system",
+        "knowledge-base"
+      ]
+    },
+    {
+      "id": "machine-learning-fundamentals",
+      "order": 6,
+      "titleJa": "機械学習の基礎と学習方式",
+      "titleVi": "Cơ bản về Machine Learning và các phương pháp học",
+      "importance": "high",
+      "summaryJa": "機械学習の基本的な考え方と汎化の意味を理解し、教師あり学習と教師なし学習の目的・利用するデータ・代表的なタスクの違いを整理する。",
+      "summaryVi": "Tìm hiểu tư tưởng cơ bản của Machine Learning và ý nghĩa của khả năng khái quát hóa, đồng thời phân biệt học có giám sát và học không giám sát dựa trên mục đích, dữ liệu sử dụng và các bài toán tiêu biểu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "機械学習と汎化",
+          "vi": "Machine Learning và khái quát hóa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機械学習は、コンピュータがデータから規則性やパターンを学習し、その結果を予測や分類などに利用する技術である。あらかじめすべての判断規則を人間がプログラムするのではなく、データをもとにモデルを構築する点が特徴である。",
+          "vi": "機械学習 (Machine Learning) là kỹ thuật cho phép máy tính học các quy luật và mẫu từ dữ liệu rồi sử dụng kết quả đó cho dự đoán, phân loại và các nhiệm vụ khác. Điểm đặc trưng là mô hình được xây dựng từ dữ liệu thay vì con người phải lập trình trước toàn bộ quy tắc phán đoán."
+        },
+        {
+          "type": "paragraph",
+          "ja": "汎化とは、学習に使用したデータだけでなく、学習時には見ていない新しいデータに対しても適切な予測や判断ができることである。機械学習では、学習データを単に記憶することではなく、データに共通する規則性を捉えて汎化できるモデルを作ることが重要である。",
+          "vi": "汎化 (khái quát hóa) là khả năng mô hình đưa ra dự đoán hoặc phán đoán phù hợp không chỉ với dữ liệu đã dùng để học mà cả với dữ liệu mới chưa từng thấy trong quá trình huấn luyện. Trong Machine Learning, mục tiêu không phải đơn thuần ghi nhớ dữ liệu học mà là nắm được quy luật chung để có thể áp dụng cho dữ liệu mới."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「学習データに対してよい結果を出すこと」と「未知のデータに対してよい結果を出すこと」を区別する。後者に関係する重要な概念が汎化である。",
+          "vi": "Trong FE, cần phân biệt “cho kết quả tốt với dữ liệu đã học” và “cho kết quả tốt với dữ liệu chưa biết”. Khái niệm quan trọng liên quan đến trường hợp thứ hai chính là 汎化."
+        },
+        {
+          "type": "heading",
+          "ja": "教師あり学習",
+          "vi": "Học có giám sát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "教師あり学習は、入力データと、それに対応する正解となるラベルや目的値の組を使ってモデルを学習させる方法である。代表的なタスクには分類と回帰がある。",
+          "vi": "教師あり学習 (học có giám sát) là phương pháp huấn luyện mô hình bằng các cặp gồm dữ liệu đầu vào và nhãn hoặc giá trị mục tiêu tương ứng được xem là đáp án đúng. Hai dạng bài toán tiêu biểu là phân loại và hồi quy."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、過去の住宅データから価格を予測する処理は回帰、メールを「スパム」「非スパム」に分ける処理は分類の例である。どちらも学習時には正解となる値やラベルを利用する。",
+          "vi": "Ví dụ, dự đoán giá nhà từ dữ liệu nhà ở trong quá khứ là bài toán hồi quy; chia email thành “spam” và “không spam” là bài toán phân loại. Trong cả hai trường hợp, quá trình học đều sử dụng giá trị hoặc nhãn đúng."
+        },
+        {
+          "type": "heading",
+          "ja": "教師なし学習",
+          "vi": "Học không giám sát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "教師なし学習は、正解ラベルが付与されていないデータから、データに潜む構造や特徴を見つける学習方法である。代表的な処理として、似たデータをグループ化するクラスタリングや、多数の特徴をより少ない特徴へまとめる次元削減がある。",
+          "vi": "教師なし学習 (học không giám sát) là phương pháp tìm cấu trúc hoặc đặc trưng tiềm ẩn từ dữ liệu không có nhãn đáp án. Các xử lý tiêu biểu gồm clustering để nhóm những dữ liệu tương tự và giảm chiều để biểu diễn nhiều đặc trưng bằng số lượng đặc trưng ít hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "教師あり学習と教師なし学習を区別するときは、単に人間が操作するかどうかではなく、学習時に正解となるラベルや目的値が与えられているかに注目する。",
+          "vi": "Khi phân biệt học có giám sát và học không giám sát, không nên hiểu theo nghĩa có hay không có con người trực tiếp điều khiển. Điểm cần xem là trong quá trình học có dữ liệu nhãn hoặc giá trị mục tiêu đóng vai trò đáp án đúng hay không."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、教師あり学習は「正解あり → 分類・回帰」、教師なし学習は「正解ラベルなし → クラスタリング・次元削減」と整理すると区別しやすい。",
+          "vi": "Trong FE có thể ghi nhớ: 教師あり学習 = “có đáp án → phân loại, hồi quy”; 教師なし学習 = “không có nhãn đáp án → clustering, giảm chiều”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "汎化",
+          "reading": "はんか",
+          "english": "Generalization",
+          "vi": "khái quát hóa",
+          "definitionJa": "学習したデータだけでなく、未知のデータに対しても適切な予測や判断を行えるようにすること。",
+          "definitionVi": "Khả năng áp dụng những quy luật đã học để đưa ra dự đoán hoặc phán đoán phù hợp đối với cả dữ liệu mới chưa xuất hiện trong quá trình học."
+        },
+        {
+          "term": "機械学習",
+          "reading": "きかいがくしゅう",
+          "english": "Machine Learning",
+          "vi": "học máy",
+          "definitionJa": "コンピュータがデータから規則性やパターンを学習し、予測、分類、判断などに利用する技術。",
+          "definitionVi": "Kỹ thuật cho phép máy tính học quy luật hoặc mẫu từ dữ liệu và sử dụng chúng cho dự đoán, phân loại hoặc phán đoán."
+        },
+        {
+          "term": "教師あり学習",
+          "reading": "きょうしありがくしゅう",
+          "english": "Supervised Learning",
+          "vi": "học có giám sát",
+          "definitionJa": "入力データと正解となるラベルや目的値の組を用いて、入力と出力の関係を学習する機械学習の方法。",
+          "definitionVi": "Phương pháp Machine Learning sử dụng các cặp dữ liệu đầu vào và nhãn hoặc giá trị mục tiêu đúng để học mối quan hệ giữa đầu vào và đầu ra."
+        },
+        {
+          "term": "教師なし学習",
+          "reading": "きょうしなしがくしゅう",
+          "english": "Unsupervised Learning",
+          "vi": "học không giám sát",
+          "definitionJa": "正解ラベルが付与されていないデータから、データの構造、特徴、グループなどを見つける機械学習の方法。",
+          "definitionVi": "Phương pháp Machine Learning tìm cấu trúc, đặc trưng hoặc các nhóm trong dữ liệu không được gắn nhãn đáp án."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "generalization",
+        "supervised-learning",
+        "unsupervised-learning"
+      ]
+    },
+    {
+      "id": "machine-learning-methods",
+      "order": 7,
+      "titleJa": "機械学習の代表的な手法",
+      "titleVi": "Các phương pháp Machine Learning tiêu biểu",
+      "importance": "high",
+      "summaryJa": "強化学習の基本的な考え方と、教師あり学習で用いられる線形回帰、ロジスティック回帰、決定木の特徴を理解し、それぞれがどのような問題に適しているかを整理する。",
+      "summaryVi": "Tìm hiểu nguyên lý cơ bản của học tăng cường và đặc điểm của hồi quy tuyến tính, hồi quy logistic, cây quyết định; đồng thời phân biệt loại bài toán phù hợp với từng phương pháp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "強化学習",
+          "vi": "Học tăng cường"
+        },
+        {
+          "type": "paragraph",
+          "ja": "強化学習は、エージェントが環境の中で行動し、その結果として得られる報酬を手掛かりに、よりよい行動の選び方を学習する方法である。教師あり学習のように各入力に対する正解ラベルが直接与えられるのではなく、行動の結果として得られる報酬を利用して学習を進める。",
+          "vi": "強化学習 (học tăng cường) là phương pháp trong đó agent thực hiện hành động trong môi trường và học cách lựa chọn hành động tốt hơn dựa trên phần thưởng nhận được. Khác với học có giám sát, đáp án đúng cho từng đầu vào không được cung cấp trực tiếp; quá trình học dựa trên phần thưởng thu được từ kết quả của hành động."
+        },
+        {
+          "type": "point",
+          "ja": "強化学習では、エージェント、環境、行動、報酬という関係を押さえる。また、目先の報酬だけを選ぶのではなく、未知の行動を試す探索と、既に有効だと分かっている行動を選ぶ活用のバランスも重要である。",
+          "vi": "Với học tăng cường, cần nắm quan hệ giữa agent (エージェント), môi trường (環境), hành động (行動) và phần thưởng (報酬). Ngoài ra còn phải cân bằng giữa exploration (探索) — thử hành động chưa biết — và exploitation (活用) — sử dụng hành động đã biết là hiệu quả."
+        },
+        {
+          "type": "heading",
+          "ja": "線形回帰",
+          "vi": "Hồi quy tuyến tính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "線形回帰は、説明変数と目的変数の関係を直線または線形な式で表し、連続的な数値を予測するための手法である。データに適合する直線などを求め、新しい入力に対する値の予測に利用する。",
+          "vi": "線形回帰 (hồi quy tuyến tính) là phương pháp biểu diễn quan hệ giữa biến giải thích và biến mục tiêu bằng đường thẳng hoặc biểu thức tuyến tính, chủ yếu dùng để dự đoán giá trị số liên tục. Mô hình tìm quan hệ tuyến tính phù hợp với dữ liệu rồi dùng quan hệ đó để dự đoán giá trị mới."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、勉強時間xと試験得点yの関係を y=ax+b のような式で近似し、勉強時間から得点を予測することが線形回帰の例である。",
+          "vi": "Ví dụ, có thể xấp xỉ quan hệ giữa thời gian học x và điểm thi y bằng biểu thức như y = ax + b, rồi dự đoán điểm thi từ thời gian học."
+        },
+        {
+          "type": "heading",
+          "ja": "ロジスティック回帰",
+          "vi": "Hồi quy logistic"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ロジスティック回帰は、入力された特徴量から、あるクラスに属する確率を推定するために用いられる手法である。代表的には二値分類に利用され、シグモイド関数によって出力を0から1の範囲に変換し、その値を確率として扱う。",
+          "vi": "ロジスティック回帰 (hồi quy logistic) là phương pháp dùng các đặc trưng đầu vào để ước lượng xác suất một dữ liệu thuộc về một lớp. Nó thường được dùng cho phân loại nhị phân và sử dụng hàm sigmoid để đưa đầu ra về khoảng từ 0 đến 1, từ đó có thể diễn giải như xác suất."
+        },
+        {
+          "type": "warning",
+          "ja": "名前に「回帰」とあるが、ロジスティック回帰は代表的には分類問題に利用される。線形回帰は連続値の予測、ロジスティック回帰はクラスに属する確率の推定や分類、と区別するとよい。",
+          "vi": "Mặc dù tên có chữ “hồi quy”, logistic regression thường được sử dụng cho bài toán phân loại. Có thể phân biệt: hồi quy tuyến tính chủ yếu dự đoán giá trị liên tục, còn hồi quy logistic ước lượng xác suất thuộc lớp và dùng cho phân loại."
+        },
+        {
+          "type": "heading",
+          "ja": "決定木",
+          "vi": "Cây quyết định"
+        },
+        {
+          "type": "paragraph",
+          "ja": "決定木は、データの特徴に対する条件を順番に適用してデータを分岐させ、予測や分類を行うモデルである。木の根から条件に従って枝をたどり、最終的に到達した葉で判断結果を得る。",
+          "vi": "決定木 (cây quyết định) là mô hình lần lượt áp dụng các điều kiện lên đặc trưng của dữ liệu để phân nhánh và thực hiện dự đoán hoặc phân loại. Bắt đầu từ nút gốc, dữ liệu đi theo các nhánh dựa trên điều kiện và kết quả cuối cùng được xác định tại nút lá."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、「年齢が30歳以上か」「購入履歴があるか」のような条件で顧客を順番に分岐させ、最終的に商品を購入する可能性を分類するといった使い方ができる。",
+          "vi": "Ví dụ, có thể lần lượt phân nhánh khách hàng theo các điều kiện như “từ 30 tuổi trở lên hay không” và “đã từng mua hàng hay chưa”, sau đó phân loại khả năng khách hàng sẽ mua sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、線形回帰＝連続値の予測、ロジスティック回帰＝主に分類、決定木＝条件による分岐、強化学習＝報酬を基に行動を学習、と特徴を対応付けて覚えると整理しやすい。",
+          "vi": "Trong FE, có thể ghi nhớ theo cặp đặc trưng: 線形回帰 = dự đoán giá trị liên tục; ロジスティック回帰 = chủ yếu phân loại; 決定木 = phân nhánh theo điều kiện; 強化学習 = học hành động dựa trên phần thưởng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "強化学習",
+          "reading": "きょうかがくしゅう",
+          "english": "Reinforcement Learning",
+          "vi": "học tăng cường",
+          "definitionJa": "エージェントが環境内で行動し、その結果として得られる報酬を基に、よりよい行動の選択方法を学習する手法。",
+          "definitionVi": "Phương pháp trong đó agent hành động trong môi trường và học cách lựa chọn hành động tốt hơn dựa trên phần thưởng nhận được."
+        },
+        {
+          "term": "線形回帰",
+          "reading": "せんけいかいき",
+          "english": "Linear Regression",
+          "vi": "hồi quy tuyến tính",
+          "definitionJa": "説明変数と目的変数の関係を線形な式でモデル化し、主に連続的な数値を予測する手法。",
+          "definitionVi": "Phương pháp mô hình hóa quan hệ giữa biến giải thích và biến mục tiêu bằng biểu thức tuyến tính, chủ yếu để dự đoán giá trị liên tục."
+        },
+        {
+          "term": "ロジスティック回帰",
+          "reading": "ロジスティックかいき",
+          "english": "Logistic Regression",
+          "vi": "hồi quy logistic",
+          "definitionJa": "特徴量からクラスに属する確率を推定し、代表的には二値分類に利用される統計的・機械学習的手法。",
+          "definitionVi": "Phương pháp thống kê và Machine Learning ước lượng xác suất dữ liệu thuộc một lớp, thường được sử dụng cho phân loại nhị phân."
+        },
+        {
+          "term": "決定木",
+          "reading": "けっていぎ",
+          "english": "Decision Tree",
+          "vi": "cây quyết định",
+          "definitionJa": "特徴に対する条件によってデータを木構造で順次分岐させ、分類や予測を行うモデル。",
+          "definitionVi": "Mô hình phân nhánh dữ liệu theo cấu trúc cây dựa trên các điều kiện của đặc trưng để thực hiện phân loại hoặc dự đoán."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "reinforcement-learning",
+        "regression",
+        "classification",
+        "decision-tree"
+      ]
+    },
+    {
+      "id": "machine-learning-models-and-training-data",
+      "order": 8,
+      "titleJa": "機械学習モデルと学習データ",
+      "titleVi": "Các mô hình Machine Learning và dữ liệu huấn luyện",
+      "importance": "high",
+      "summaryJa": "ランダムフォレスト、サポートベクターマシン、主成分分析の基本的な仕組みと、機械学習モデルを構築するために用いる学習データの役割を理解する。",
+      "summaryVi": "Tìm hiểu cơ chế cơ bản của Random Forest, Support Vector Machine, Principal Component Analysis và vai trò của dữ liệu huấn luyện trong quá trình xây dựng mô hình Machine Learning.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ランダムフォレスト",
+          "vi": "Random Forest"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ランダムフォレストは、複数の決定木を組み合わせて予測を行うアンサンブル学習の手法である。学習データや使用する特徴量にランダム性を持たせて複数の決定木を作り、それぞれの予測結果を統合して最終的な予測を得る。",
+          "vi": "ランダムフォレスト (Random Forest) là phương pháp ensemble kết hợp nhiều cây quyết định để đưa ra dự đoán. Nhiều cây được xây dựng bằng cách đưa tính ngẫu nhiên vào dữ liệu huấn luyện và các đặc trưng được sử dụng, sau đó kết hợp kết quả của các cây để tạo ra dự đoán cuối cùng."
+        },
+        {
+          "type": "point",
+          "ja": "分類では複数の決定木による多数決、回帰では予測値の平均などによって結果を統合する。単一の決定木だけを使う場合に比べ、過学習を抑えて汎化性能を高める効果が期待できる。",
+          "vi": "Trong bài toán phân loại, kết quả thường được tổng hợp bằng bỏ phiếu đa số giữa các cây; trong hồi quy có thể dùng trung bình các giá trị dự đoán. So với chỉ dùng một cây quyết định, Random Forest thường giúp giảm overfitting và cải thiện khả năng khái quát hóa."
+        },
+        {
+          "type": "heading",
+          "ja": "サポートベクターマシン",
+          "vi": "Support Vector Machine"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サポートベクターマシンは、代表的には分類に利用される機械学習手法である。異なるクラスのデータを分離する境界を求めるとき、境界に近いデータ点であるサポートベクターを基準として、クラス間のマージンができるだけ大きくなるような境界を求める。",
+          "vi": "サポートベクターマシン (SVM) là phương pháp Machine Learning thường được sử dụng cho phân loại. Khi tìm ranh giới phân chia các lớp, SVM dựa vào những điểm dữ liệu gần ranh giới gọi là support vector và tìm ranh giới sao cho margin giữa các lớp lớn nhất có thể."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「サポートベクター」と「マージン」を関連付けて覚える。サポートベクターは分類境界の決定に強く影響するデータ点であり、SVMはマージンを大きくする境界を求めることが基本的な考え方である。",
+          "vi": "Trong FE, nên ghi nhớ SVM cùng hai từ khóa “support vector” và “margin”. Support vector là các điểm dữ liệu có ảnh hưởng lớn đến việc xác định ranh giới phân loại, còn ý tưởng cơ bản của SVM là tìm ranh giới làm margin lớn."
+        },
+        {
+          "type": "heading",
+          "ja": "主成分分析",
+          "vi": "Phân tích thành phần chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主成分分析は、多数の変数をもつデータから、元の情報をできるだけ保持しながら、より少数の新しい変数である主成分を作る次元削減の手法である。データの分散が大きい方向を主成分として求め、重要な情報を少ない次元にまとめる。",
+          "vi": "主成分分析 (PCA) là phương pháp giảm chiều, tạo ra một số ít biến mới gọi là thành phần chính từ dữ liệu có nhiều biến trong khi cố gắng giữ lại càng nhiều thông tin của dữ liệu gốc càng tốt. PCA tìm các hướng có phương sai lớn và dùng chúng để biểu diễn thông tin quan trọng trong số chiều ít hơn."
+        },
+        {
+          "type": "point",
+          "ja": "主成分分析は、教師なし学習で利用される代表的な次元削減手法の一つである。変数を単純に削除するのではなく、元の変数から新しい主成分を作る点を押さえる。",
+          "vi": "PCA là một phương pháp giảm chiều tiêu biểu thường được xếp vào học không giám sát. Điểm cần nhớ là PCA không chỉ đơn giản xóa bớt biến mà tạo ra các thành phần chính mới từ các biến ban đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "学習データ",
+          "vi": "Dữ liệu huấn luyện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "学習データは、機械学習モデルに規則性やパターンを学習させるために使用するデータであり、訓練データとも呼ばれる。モデルのパラメータは、このデータを用いた学習によって調整される。",
+          "vi": "学習データ là dữ liệu được sử dụng để mô hình Machine Learning học các quy luật và mẫu, còn được gọi là training data. Các tham số của mô hình được điều chỉnh thông qua quá trình học trên dữ liệu này."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、画像分類モデルでは、画像とそれに対応するラベルを学習データとして与えることで、モデルは画像の特徴とラベルの関係を学習する。",
+          "vi": "Ví dụ, với mô hình phân loại hình ảnh, các hình ảnh cùng nhãn tương ứng được cung cấp làm dữ liệu huấn luyện để mô hình học quan hệ giữa đặc trưng hình ảnh và nhãn."
+        },
+        {
+          "type": "warning",
+          "ja": "学習データはモデルを学習させるためのデータであり、モデルの性能を公平に確認するためのデータとは役割が異なる。FEでは、学習用と評価用のデータを分けて考えることが重要である。",
+          "vi": "Dữ liệu huấn luyện được dùng để mô hình học, nên có vai trò khác với dữ liệu dùng để đánh giá khách quan hiệu năng của mô hình. Trong FE, cần phân biệt dữ liệu dùng để học và dữ liệu dùng để đánh giá."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ランダムフォレスト",
+          "reading": "ランダムフォレスト",
+          "english": "Random Forest",
+          "vi": "rừng ngẫu nhiên",
+          "definitionJa": "ランダム性を取り入れて作成した複数の決定木の予測結果を統合するアンサンブル学習の手法。",
+          "definitionVi": "Phương pháp ensemble kết hợp kết quả dự đoán của nhiều cây quyết định được xây dựng với yếu tố ngẫu nhiên."
+        },
+        {
+          "term": "サポートベクターマシン",
+          "reading": "サポートベクターマシン",
+          "english": "Support Vector Machine",
+          "vi": "máy vector hỗ trợ",
+          "definitionJa": "サポートベクターを基準として、クラス間のマージンを大きくする分類境界を求める代表的な機械学習手法。",
+          "definitionVi": "Phương pháp Machine Learning tiêu biểu sử dụng các support vector để tìm ranh giới phân loại sao cho margin giữa các lớp lớn."
+        },
+        {
+          "term": "主成分分析",
+          "reading": "しゅせいぶんぶんせき",
+          "english": "Principal Component Analysis",
+          "vi": "phân tích thành phần chính",
+          "definitionJa": "多変量データの情報をできるだけ保持しながら、新しい少数の主成分にまとめる代表的な次元削減手法。",
+          "definitionVi": "Phương pháp giảm chiều tiêu biểu chuyển dữ liệu nhiều biến thành một số ít thành phần chính mới trong khi cố gắng giữ lại thông tin quan trọng."
+        },
+        {
+          "term": "学習データ",
+          "reading": "がくしゅうデータ",
+          "english": "Training Data",
+          "vi": "dữ liệu huấn luyện",
+          "definitionJa": "機械学習モデルに規則性やパターンを学習させ、モデルのパラメータを調整するために使用するデータ。",
+          "definitionVi": "Dữ liệu được sử dụng để mô hình Machine Learning học quy luật, mẫu và điều chỉnh các tham số của mô hình."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "random-forest",
+        "support-vector-machine",
+        "principal-component-analysis",
+        "training-data"
+      ]
+    },
+    {
+      "id": "model-validation-and-generalization",
+      "order": 9,
+      "titleJa": "モデルの検証と汎化性能",
+      "titleVi": "Đánh giá mô hình và khả năng khái quát hóa",
+      "importance": "high",
+      "summaryJa": "機械学習における検証データとテストデータの役割を区別し、未知のデータに対する性能を表す汎化性能と、それを低下させる過学習について理解する。",
+      "summaryVi": "Phân biệt vai trò của validation data và test data trong Machine Learning, đồng thời tìm hiểu khả năng khái quát hóa trên dữ liệu chưa biết và hiện tượng overfitting làm suy giảm khả năng này.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "検証データとテストデータ",
+          "vi": "Validation data và test data"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機械学習では、モデルを作るための学習データとは別に、モデルの調整や評価のためのデータを用意する。検証データは、学習途中のモデルを評価し、ハイパーパラメータの調整やモデルの選択などに利用するデータである。一方、テストデータは、学習や調整が完了したモデルの最終的な性能を評価するために使用する。",
+          "vi": "Trong Machine Learning, ngoài dữ liệu huấn luyện dùng để xây dựng mô hình còn có dữ liệu dành cho điều chỉnh và đánh giá. 検証データ (validation data) được dùng trong quá trình phát triển để đánh giá mô hình, điều chỉnh hyperparameter hoặc lựa chọn mô hình. Ngược lại, テストデータ (test data) được dùng để đánh giá hiệu năng cuối cùng sau khi việc huấn luyện và điều chỉnh đã hoàn tất."
+        },
+        {
+          "type": "point",
+          "ja": "基本的な役割は、「学習データ＝モデルを学習させる」「検証データ＝モデルの調整・選択に使う」「テストデータ＝完成したモデルを最終評価する」と整理できる。",
+          "vi": "Có thể ghi nhớ vai trò cơ bản như sau: 学習データ = huấn luyện mô hình; 検証データ = điều chỉnh/lựa chọn mô hình; テストデータ = đánh giá cuối cùng mô hình đã hoàn thiện."
+        },
+        {
+          "type": "warning",
+          "ja": "テストデータを使って繰り返しモデルを調整すると、テストデータに対しても間接的に適合してしまい、公平な最終評価ができなくなる。テストデータは原則としてモデルの最終評価まで分離しておく。",
+          "vi": "Nếu liên tục điều chỉnh mô hình dựa trên test data, mô hình có thể gián tiếp thích nghi với chính tập test và kết quả đánh giá cuối cùng không còn khách quan. Vì vậy về nguyên tắc, test data cần được giữ riêng cho bước đánh giá cuối cùng."
+        },
+        {
+          "type": "heading",
+          "ja": "汎化性能",
+          "vi": "Khả năng khái quát hóa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "汎化性能とは、学習に使用していない未知のデータに対して、モデルがどの程度適切な予測や分類を行えるかを表す性能である。機械学習では、学習データだけに対する精度ではなく、未知のデータでも高い性能を発揮できることが重要である。",
+          "vi": "汎化性能 là khả năng mô hình đưa ra dự đoán hoặc phân loại chính xác đối với dữ liệu mới không được sử dụng trong quá trình huấn luyện. Trong Machine Learning, điều quan trọng không chỉ là đạt độ chính xác cao trên training data mà còn phải hoạt động tốt trên dữ liệu chưa biết."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、学習データでは99%の正解率を示す画像分類モデルでも、未知の画像では70%しか正解できない場合、学習データへの適合度は高くても、汎化性能が十分に高いとはいえない。",
+          "vi": "Ví dụ, một mô hình phân loại ảnh đạt độ chính xác 99% trên training data nhưng chỉ đạt 70% trên các ảnh chưa từng thấy thì dù rất phù hợp với dữ liệu huấn luyện, khả năng khái quát hóa vẫn chưa tốt."
+        },
+        {
+          "type": "heading",
+          "ja": "過学習",
+          "vi": "Overfitting"
+        },
+        {
+          "type": "paragraph",
+          "ja": "過学習は、モデルが学習データに過度に適合し、学習データに含まれる細かな特徴やノイズまで学習してしまうことで、未知のデータに対する性能が低下する現象である。学習データでの性能が高くても、検証データやテストデータで性能が大きく低下する場合は、過学習が疑われる。",
+          "vi": "過学習 (overfitting) là hiện tượng mô hình thích nghi quá mức với training data, thậm chí học cả những đặc điểm nhỏ hoặc nhiễu riêng của tập dữ liệu đó, khiến hiệu năng trên dữ liệu mới giảm. Nếu mô hình hoạt động rất tốt trên training data nhưng giảm mạnh trên validation data hoặc test data thì có thể đang xảy ra overfitting."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「学習データでは高性能だが、未知データでは性能が低い」という状態と過学習を結び付けて覚える。過学習は汎化性能を低下させる。",
+          "vi": "Trong FE, nên liên hệ overfitting với trạng thái “hiệu năng cao trên dữ liệu huấn luyện nhưng thấp trên dữ liệu chưa biết”. Overfitting làm giảm 汎化性能."
+        },
+        {
+          "type": "warning",
+          "ja": "汎化と汎化性能は関連するが同じ表現ではない。汎化は未知データにも適用できる性質・考え方を指し、汎化性能はその能力がどの程度あるかというモデルの性能に着目した用語である。",
+          "vi": "汎化 và 汎化性能 có liên quan nhưng không hoàn toàn đồng nghĩa. 汎化 nói đến khả năng/khái niệm áp dụng những gì đã học cho dữ liệu mới, còn 汎化性能 nhấn mạnh mức độ mô hình thực hiện được điều đó tốt đến đâu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "検証データ",
+          "reading": "けんしょうデータ",
+          "english": "Validation Data",
+          "vi": "dữ liệu xác thực",
+          "definitionJa": "機械学習において、学習途中のモデルの性能を確認し、ハイパーパラメータの調整やモデル選択などに利用するデータ。",
+          "definitionVi": "Dữ liệu được sử dụng trong quá trình phát triển mô hình để đánh giá hiệu năng, điều chỉnh hyperparameter hoặc lựa chọn mô hình."
+        },
+        {
+          "term": "テストデータ",
+          "reading": "テストデータ",
+          "english": "Test Data",
+          "vi": "dữ liệu kiểm thử",
+          "definitionJa": "学習やモデル調整に直接使用せず、完成したモデルの未知データに対する性能を最終的に評価するためのデータ。",
+          "definitionVi": "Dữ liệu không được dùng trực tiếp để huấn luyện hay điều chỉnh mô hình, mà được dùng để đánh giá cuối cùng hiệu năng của mô hình trên dữ liệu chưa biết."
+        },
+        {
+          "term": "汎化性能",
+          "reading": "はんかせいのう",
+          "english": "Generalization Performance",
+          "vi": "khả năng khái quát hóa",
+          "definitionJa": "学習に使用していない未知のデータに対して、モデルが適切な予測や判断を行える程度を表す性能。",
+          "definitionVi": "Mức độ mô hình có thể dự đoán hoặc đưa ra phán đoán phù hợp đối với dữ liệu mới không được sử dụng trong quá trình huấn luyện."
+        },
+        {
+          "term": "過学習",
+          "reading": "かがくしゅう",
+          "english": "Overfitting",
+          "vi": "quá khớp",
+          "definitionJa": "モデルが学習データに過度に適合し、学習データでは高い性能を示す一方、未知のデータに対する性能が低下する現象。",
+          "definitionVi": "Hiện tượng mô hình thích nghi quá mức với dữ liệu huấn luyện, đạt hiệu năng cao trên dữ liệu đó nhưng giảm hiệu năng đối với dữ liệu mới."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "validation-data",
+        "test-data",
+        "generalization",
+        "overfitting"
+      ]
+    },
+    {
+      "id": "model-evaluation-and-deep-learning",
+      "order": 10,
+      "titleJa": "モデル評価とディープラーニング",
+      "titleVi": "Đánh giá mô hình và Deep Learning",
+      "importance": "high",
+      "summaryJa": "機械学習モデルの性能を評価する交差検証とホールドアウト検証、二値分類モデルを評価するROC曲線、および多層ニューラルネットワークを用いるディープラーニングの基本を理解する。",
+      "summaryVi": "Tìm hiểu cross-validation và holdout validation dùng để đánh giá mô hình Machine Learning, đường cong ROC dùng để đánh giá mô hình phân loại nhị phân, cùng kiến thức cơ bản về Deep Learning sử dụng mạng nơ-ron nhiều lớp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "交差検証",
+          "vi": "Cross-validation"
+        },
+        {
+          "type": "paragraph",
+          "ja": "交差検証は、データを複数の部分に分け、学習に使う部分と評価に使う部分を入れ替えながら複数回評価する方法である。一度だけデータを分割する方法よりも、特定の分割結果に評価が左右されにくく、モデルの汎化性能を確認するために利用される。",
+          "vi": "交差検証 (cross-validation) là phương pháp chia dữ liệu thành nhiều phần rồi đánh giá nhiều lần bằng cách luân phiên phần dùng để huấn luyện và phần dùng để đánh giá. So với việc chỉ chia dữ liệu một lần, kết quả ít phụ thuộc vào một cách chia cụ thể và giúp đánh giá khả năng khái quát hóa của mô hình."
+        },
+        {
+          "type": "example",
+          "ja": "代表的なk分割交差検証では、データをk個の部分に分け、そのうち1個を評価用、残りのk－1個を学習用としてモデルを評価する。評価用の部分を順番に入れ替えてk回評価し、その結果を平均する。",
+          "vi": "Trong k-fold cross-validation, dữ liệu được chia thành k phần. Mỗi lần dùng 1 phần để đánh giá và k−1 phần còn lại để huấn luyện. Quá trình được lặp lại k lần sao cho mỗi phần đều từng được dùng để đánh giá, sau đó tổng hợp các kết quả."
+        },
+        {
+          "type": "heading",
+          "ja": "ホールドアウト検証",
+          "vi": "Holdout validation"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ホールドアウト検証は、用意したデータを学習用と評価用などにあらかじめ分割し、それぞれの役割を固定してモデルを評価する方法である。交差検証と比べて処理が単純で計算量も少ないが、評価結果がデータの分け方に影響されやすい。",
+          "vi": "ホールドアウト検証 (holdout validation) là phương pháp chia trước dữ liệu thành các tập như tập huấn luyện và tập đánh giá rồi giữ cố định vai trò của chúng để đánh giá mô hình. Phương pháp này đơn giản và ít tốn tính toán hơn cross-validation, nhưng kết quả dễ bị ảnh hưởng bởi cách chia dữ liệu."
+        },
+        {
+          "type": "warning",
+          "ja": "交差検証では複数回データの役割を入れ替えて評価するのに対し、ホールドアウト検証では基本的に一度分割したデータを用いる。この違いはFEで区別しておきたい。",
+          "vi": "Cross-validation đánh giá nhiều lần bằng cách thay đổi phần dữ liệu giữ vai trò đánh giá, còn holdout validation về cơ bản sử dụng một lần phân chia dữ liệu. Đây là điểm cần phân biệt trong FE."
+        },
+        {
+          "type": "heading",
+          "ja": "ROC曲線",
+          "vi": "Đường cong ROC"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ROC曲線は、二値分類モデルの判定しきい値を変化させたときの真陽性率と偽陽性率の関係を表すグラフである。横軸に偽陽性率（FPR）、縦軸に真陽性率（TPR）を取り、しきい値によって分類性能がどのように変化するかを確認する。",
+          "vi": "ROC曲線 là đồ thị biểu diễn quan hệ giữa tỷ lệ dương tính thật và tỷ lệ dương tính giả khi thay đổi ngưỡng quyết định của mô hình phân loại nhị phân. Trục ngang là FPR (False Positive Rate), trục dọc là TPR (True Positive Rate), qua đó có thể quan sát hiệu năng phân loại thay đổi theo ngưỡng."
+        },
+        {
+          "type": "point",
+          "ja": "ROC曲線は左上に近いほど、偽陽性率を低く保ちながら真陽性率を高くできていることを示す。曲線下面積であるAUCも分類性能を比較する代表的な指標であり、一般にAUCが大きいほど識別性能が高い。",
+          "vi": "Đường ROC càng gần góc trên bên trái thì mô hình càng có khả năng giữ FPR thấp trong khi đạt TPR cao. AUC, tức diện tích dưới đường ROC, cũng là chỉ số thường dùng để so sánh khả năng phân biệt; nhìn chung AUC càng lớn thì khả năng phân biệt càng tốt."
+        },
+        {
+          "type": "warning",
+          "ja": "ROC曲線の横軸は偽陽性率、縦軸は真陽性率である。軸を逆に覚えないように注意する。",
+          "vi": "Trục ngang của ROC là tỷ lệ dương tính giả (FPR), còn trục dọc là tỷ lệ dương tính thật (TPR). Đây là điểm dễ nhầm cần ghi nhớ."
+        },
+        {
+          "type": "heading",
+          "ja": "ディープラーニング",
+          "vi": "Deep Learning"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ディープラーニングは、多数の層をもつニューラルネットワークを利用して、データから特徴やパターンを学習する機械学習の手法である。画像、音声、自然言語などの複雑なデータを扱う分野で広く利用されている。",
+          "vi": "ディープラーニング (Deep Learning) là phương pháp Machine Learning sử dụng mạng nơ-ron gồm nhiều lớp để học đặc trưng và mẫu từ dữ liệu. Nó được sử dụng rộng rãi trong các lĩnh vực xử lý dữ liệu phức tạp như hình ảnh, âm thanh và ngôn ngữ tự nhiên."
+        },
+        {
+          "type": "point",
+          "ja": "従来の機械学習では人が特徴量を設計する場合が多いのに対し、ディープラーニングでは多層ニューラルネットワークによってデータから有用な特徴表現を段階的に学習できることが大きな特徴である。",
+          "vi": "Trong nhiều phương pháp Machine Learning truyền thống, con người thường phải thiết kế đặc trưng. Một đặc điểm quan trọng của Deep Learning là mạng nơ-ron nhiều lớp có thể học dần các biểu diễn đặc trưng hữu ích trực tiếp từ dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "交差検証",
+          "reading": "こうさけんしょう",
+          "english": "Cross-Validation",
+          "vi": "kiểm định chéo",
+          "definitionJa": "データを複数の部分に分割し、学習用と評価用の役割を入れ替えながら複数回モデルを評価する方法。",
+          "definitionVi": "Phương pháp chia dữ liệu thành nhiều phần và đánh giá mô hình nhiều lần bằng cách luân phiên các phần dùng cho huấn luyện và đánh giá."
+        },
+        {
+          "term": "ホールドアウト検証",
+          "reading": "ホールドアウトけんしょう",
+          "english": "Holdout Validation",
+          "vi": "kiểm định holdout",
+          "definitionJa": "データを学習用と評価用などに分割し、分割したデータの役割を固定してモデルの性能を評価する方法。",
+          "definitionVi": "Phương pháp chia dữ liệu thành tập huấn luyện và tập đánh giá, sau đó giữ cố định cách chia này để đánh giá hiệu năng mô hình."
+        },
+        {
+          "term": "ROC曲線",
+          "reading": "アールオーシーきょくせん",
+          "english": "Receiver Operating Characteristic Curve",
+          "vi": "đường cong ROC",
+          "definitionJa": "二値分類のしきい値を変化させたときの偽陽性率を横軸、真陽性率を縦軸として、分類性能を表す曲線。",
+          "definitionVi": "Đường cong đánh giá mô hình phân loại nhị phân bằng cách biểu diễn FPR trên trục ngang và TPR trên trục dọc khi thay đổi ngưỡng phân loại."
+        },
+        {
+          "term": "ディープラーニング",
+          "reading": "ディープラーニング",
+          "english": "Deep Learning",
+          "vi": "học sâu",
+          "definitionJa": "多数の層をもつニューラルネットワークを用いて、データから特徴やパターンを学習する機械学習の手法。",
+          "definitionVi": "Phương pháp Machine Learning sử dụng mạng nơ-ron nhiều lớp để học các đặc trưng và mẫu từ dữ liệu."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "model-evaluation",
+        "cross-validation",
+        "roc-curve",
+        "deep-learning"
+      ]
+    },
+    {
+      "id": "neural-networks-and-backpropagation",
+      "order": 11,
+      "titleJa": "ニューラルネットワークと学習",
+      "titleVi": "Mạng nơ-ron và quá trình học",
+      "importance": "high",
+      "summaryJa": "ニューラルネットワークと多層パーセプトロンの基本構造を理解し、バックプロパゲーションによる重みの学習と、深いネットワークで発生し得る勾配消失問題の関係を整理する。",
+      "summaryVi": "Tìm hiểu cấu trúc cơ bản của mạng nơ-ron và perceptron đa tầng, cơ chế học trọng số bằng backpropagation và mối liên hệ với vấn đề tiêu biến gradient có thể xảy ra trong mạng sâu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ニューラルネットワーク",
+          "vi": "Mạng nơ-ron"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ニューラルネットワークは、生物の神経回路を参考にした計算モデルであり、多数のニューロンに相当する処理単位を接続して情報を処理する。各接続には重みがあり、入力に重みを掛けて得られた値などを基に各ニューロンの出力を計算する。",
+          "vi": "ニューラルネットワーク (mạng nơ-ron) là mô hình tính toán lấy cảm hứng từ mạng thần kinh sinh học, xử lý thông tin bằng nhiều đơn vị tương ứng với neuron được kết nối với nhau. Mỗi kết nối có trọng số và đầu ra của neuron được tính dựa trên các giá trị đầu vào đã được nhân với trọng số cùng các xử lý liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "ニューラルネットワークでは、入力をそのまま記憶するのではなく、学習によって接続の重みなどを調整し、入力と目的とする出力の関係を表現できるようにする。",
+          "vi": "Trong mạng nơ-ron, mô hình không đơn thuần ghi nhớ đầu vào mà điều chỉnh các trọng số kết nối thông qua quá trình học để biểu diễn được quan hệ giữa đầu vào và đầu ra mong muốn."
+        },
+        {
+          "type": "heading",
+          "ja": "多層パーセプトロン",
+          "vi": "Perceptron đa tầng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多層パーセプトロンは、入力層、1層以上の中間層（隠れ層）、出力層から構成される代表的なニューラルネットワークである。複数の層を通して情報を変換することで、単純な線形モデルでは表現できない複雑な関係を学習できる。",
+          "vi": "多層パーセプトロン (Multilayer Perceptron: MLP) là một dạng mạng nơ-ron tiêu biểu gồm lớp đầu vào, một hoặc nhiều lớp trung gian (lớp ẩn) và lớp đầu ra. Bằng cách biến đổi thông tin qua nhiều lớp, mô hình có thể học những quan hệ phức tạp mà mô hình tuyến tính đơn giản không thể biểu diễn."
+        },
+        {
+          "type": "point",
+          "ja": "基本構造は「入力層 → 中間層（隠れ層） → 出力層」である。中間層をもつことで、より複雑な特徴や非線形な関係を表現できる。",
+          "vi": "Cấu trúc cơ bản là “lớp đầu vào → lớp trung gian (lớp ẩn) → lớp đầu ra”. Nhờ có lớp ẩn, mạng có thể biểu diễn các đặc trưng và quan hệ phi tuyến phức tạp hơn."
+        },
+        {
+          "type": "heading",
+          "ja": "バックプロパゲーション",
+          "vi": "Lan truyền ngược"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バックプロパゲーションは、ニューラルネットワークの出力と正解との誤差を基に、その誤差に対する各重みの影響を出力側から入力側へ逆向きに計算していく方法である。得られた勾配を利用して重みを更新し、誤差が小さくなるように学習を進める。",
+          "vi": "バックプロパゲーション (backpropagation) là phương pháp dựa trên sai số giữa đầu ra của mạng và giá trị mục tiêu, sau đó tính ngược từ phía đầu ra về phía đầu vào mức độ ảnh hưởng của từng trọng số đến sai số. Gradient thu được được sử dụng để cập nhật trọng số theo hướng làm giảm sai số."
+        },
+        {
+          "type": "point",
+          "ja": "大まかな流れは「順方向に出力を計算する → 誤差を求める → 誤差に関する勾配を後ろから伝える → 重みを更新する」である。",
+          "vi": "Luồng cơ bản có thể nhớ là: “tính đầu ra theo chiều thuận → tính sai số → truyền gradient của sai số ngược trở lại → cập nhật trọng số”."
+        },
+        {
+          "type": "warning",
+          "ja": "バックプロパゲーションは、単に誤差の値そのものを各層へ配る処理ではない。連鎖律を用いて、誤差に対する各重みの勾配を効率的に計算する仕組みである。",
+          "vi": "Backpropagation không đơn giản là phân phối trực tiếp giá trị sai số cho từng lớp. Nó sử dụng quy tắc dây chuyền để tính hiệu quả gradient của sai số đối với từng trọng số."
+        },
+        {
+          "type": "heading",
+          "ja": "勾配消失問題",
+          "vi": "Vấn đề tiêu biến gradient"
+        },
+        {
+          "type": "paragraph",
+          "ja": "勾配消失問題は、深いニューラルネットワークでバックプロパゲーションを行う際、入力側へさかのぼるにつれて勾配が非常に小さくなり、前方の層の重みがほとんど更新されなくなる問題である。その結果、ネットワークの学習が進みにくくなる。",
+          "vi": "勾配消失問題 (vanishing gradient problem) là hiện tượng trong mạng nơ-ron sâu khi thực hiện backpropagation, gradient trở nên rất nhỏ khi truyền ngược về các lớp gần đầu vào. Vì vậy trọng số ở các lớp phía trước gần như không được cập nhật và quá trình học trở nên khó khăn."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、微分値が1よりかなり小さい活性化関数を多数の層で通る場合、バックプロパゲーションではそれらの値が繰り返し掛け合わされるため、入力層に近づくほど勾配が極端に小さくなることがある。",
+          "vi": "Ví dụ, nếu gradient phải đi qua nhiều lớp có đạo hàm nhỏ hơn 1 đáng kể, trong quá trình backpropagation các giá trị nhỏ này được nhân lặp lại với nhau, khiến gradient có thể trở nên cực kỳ nhỏ khi tiến về các lớp gần đầu vào."
+        },
+        {
+          "type": "point",
+          "ja": "勾配消失への代表的な対策には、ReLUなどの活性化関数の利用や、適切な重みの初期化、ネットワーク構造の工夫などがある。FEではまず「勾配が小さくなる → 前方の層の重みが更新されにくい → 学習が進みにくい」という関係を理解する。",
+          "vi": "Các biện pháp tiêu biểu đối với vanishing gradient gồm sử dụng hàm kích hoạt như ReLU, khởi tạo trọng số thích hợp và cải tiến cấu trúc mạng. Ở mức FE, trước hết cần hiểu quan hệ: “gradient nhỏ dần → trọng số ở các lớp phía trước khó được cập nhật → việc học trở nên khó khăn”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ニューラルネットワーク",
+          "reading": "ニューラルネットワーク",
+          "english": "Neural Network",
+          "vi": "mạng nơ-ron",
+          "definitionJa": "多数のニューロンに相当する処理単位を接続し、接続の重みなどを学習によって調整して情報を処理する計算モデル。",
+          "definitionVi": "Mô hình tính toán gồm nhiều đơn vị tương ứng với neuron được kết nối với nhau và xử lý thông tin bằng cách điều chỉnh các trọng số kết nối thông qua quá trình học."
+        },
+        {
+          "term": "多層パーセプトロン",
+          "reading": "たそうパーセプトロン",
+          "english": "Multilayer Perceptron",
+          "vi": "perceptron đa tầng",
+          "definitionJa": "入力層、中間層（隠れ層）、出力層から構成される、多層構造をもつ代表的なニューラルネットワーク。",
+          "definitionVi": "Một dạng mạng nơ-ron nhiều tầng tiêu biểu gồm lớp đầu vào, một hoặc nhiều lớp ẩn và lớp đầu ra."
+        },
+        {
+          "term": "バックプロパゲーション",
+          "reading": "バックプロパゲーション",
+          "english": "Backpropagation",
+          "vi": "lan truyền ngược",
+          "definitionJa": "ニューラルネットワークの誤差に関する勾配を出力側から入力側へ効率的に計算し、重みの学習に利用する方法。",
+          "definitionVi": "Phương pháp tính hiệu quả gradient của sai số từ phía đầu ra ngược về phía đầu vào để sử dụng trong việc học và cập nhật trọng số của mạng nơ-ron."
+        },
+        {
+          "term": "勾配消失問題",
+          "reading": "こうばいしょうしつもんだい",
+          "english": "Vanishing Gradient Problem",
+          "vi": "vấn đề tiêu biến gradient",
+          "definitionJa": "深いニューラルネットワークで勾配が入力側へ伝わるにつれて非常に小さくなり、前方の層の重みが更新されにくくなる問題。",
+          "definitionVi": "Vấn đề trong mạng nơ-ron sâu khi gradient trở nên rất nhỏ trong quá trình truyền ngược về phía đầu vào, khiến trọng số ở các lớp phía trước khó được cập nhật."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "neural-network",
+        "multilayer-perceptron",
+        "backpropagation",
+        "vanishing-gradient"
+      ]
+    },
+    {
+      "id": "neural-network-training-techniques",
+      "order": 12,
+      "titleJa": "ニューラルネットワークの学習技術",
+      "titleVi": "Các kỹ thuật huấn luyện mạng nơ-ron",
+      "importance": "high",
+      "summaryJa": "ニューラルネットワークに非線形性を与える活性化関数と、既存の学習済み知識を活用する事前学習、ファインチューニング、転移学習の基本的な考え方と違いを理解する。",
+      "summaryVi": "Tìm hiểu vai trò của hàm kích hoạt trong việc tạo tính phi tuyến cho mạng nơ-ron, đồng thời phân biệt pre-training, fine-tuning và transfer learning trong việc tận dụng kiến thức đã học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "活性化関数",
+          "vi": "Hàm kích hoạt"
+        },
+        {
+          "type": "paragraph",
+          "ja": "活性化関数は、ニューラルネットワークの各ニューロンで計算された値を変換し、次の層へ渡す出力を決める関数である。非線形な活性化関数を用いることで、ネットワークは単純な直線関係だけでは表現できない複雑なパターンを学習できる。",
+          "vi": "活性化関数 (hàm kích hoạt) là hàm biến đổi giá trị được tính tại mỗi neuron để xác định đầu ra truyền sang lớp tiếp theo. Việc sử dụng hàm kích hoạt phi tuyến giúp mạng học được những mẫu phức tạp mà chỉ các quan hệ tuyến tính đơn giản không thể biểu diễn."
+        },
+        {
+          "type": "point",
+          "ja": "代表的な活性化関数にはシグモイド関数やReLUがある。特にReLUは、入力が正ならその値を出力し、負なら0を出力する単純な関数で、深いニューラルネットワークでも広く利用される。",
+          "vi": "Các hàm kích hoạt tiêu biểu gồm sigmoid và ReLU. ReLU là hàm đơn giản: nếu đầu vào dương thì giữ nguyên giá trị, còn nếu âm thì cho đầu ra bằng 0; nó được sử dụng rộng rãi trong các mạng nơ-ron sâu."
+        },
+        {
+          "type": "warning",
+          "ja": "活性化関数の重要な役割の一つは、ネットワークに非線形性を導入することである。多くの層を重ねても、各層が線形変換だけで構成されていれば、ネットワーク全体も実質的には一つの線形変換として表せる。",
+          "vi": "Một vai trò quan trọng của hàm kích hoạt là đưa tính phi tuyến vào mạng. Nếu các lớp chỉ thực hiện biến đổi tuyến tính thì dù xếp nhiều lớp, toàn bộ mạng về bản chất vẫn có thể biểu diễn như một phép biến đổi tuyến tính."
+        },
+        {
+          "type": "heading",
+          "ja": "事前学習",
+          "vi": "Pre-training"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事前学習は、特定の最終タスクに適用する前に、大量のデータなどを用いてモデルに汎用的な特徴や知識を学習させることである。事前学習済みモデルを利用することで、個別のタスクを最初から学習する場合に比べて、必要なデータや学習時間を削減できる場合がある。",
+          "vi": "事前学習 (pre-training) là quá trình cho mô hình học trước các đặc trưng hoặc kiến thức mang tính tổng quát, thường bằng lượng dữ liệu lớn, trước khi áp dụng vào nhiệm vụ cuối cùng cụ thể. Việc sử dụng mô hình đã pre-train có thể giúp giảm dữ liệu và thời gian cần thiết so với huấn luyện một nhiệm vụ hoàn toàn từ đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "ファインチューニング",
+          "vi": "Fine-tuning"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ファインチューニングは、学習済みモデルを出発点として、目的とするタスクのデータを用いて追加学習し、モデルのパラメータをそのタスクに適するよう調整する方法である。すでに獲得した知識を利用できるため、モデルを一から学習するより効率的な場合がある。",
+          "vi": "ファインチューニング (fine-tuning) là phương pháp lấy một mô hình đã được huấn luyện làm điểm xuất phát, sau đó tiếp tục huấn luyện bằng dữ liệu của nhiệm vụ mục tiêu để điều chỉnh các tham số cho phù hợp với nhiệm vụ đó. Nhờ tận dụng kiến thức đã có, phương pháp này thường hiệu quả hơn so với huấn luyện từ đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "転移学習",
+          "vi": "Transfer learning"
+        },
+        {
+          "type": "paragraph",
+          "ja": "転移学習は、あるタスクやデータで学習したモデルの知識を、別の関連するタスクの学習に活用する考え方である。新しいタスクで利用できる学習データが少ない場合でも、既存モデルが獲得した特徴を利用することで効率よく学習できる場合がある。",
+          "vi": "転移学習 (transfer learning) là cách tiếp cận tận dụng kiến thức mà mô hình đã học từ một nhiệm vụ hoặc dữ liệu trước đó cho một nhiệm vụ khác có liên quan. Ngay cả khi nhiệm vụ mới có ít dữ liệu huấn luyện, các đặc trưng mà mô hình cũ đã học vẫn có thể giúp quá trình học hiệu quả hơn."
+        },
+        {
+          "type": "point",
+          "ja": "関係を整理すると、事前学習は「先に広い知識を学ぶこと」、転移学習は「学んだ知識を別の課題に活用する考え方」、ファインチューニングは「学習済みモデルを目的の課題に合わせて追加学習・調整する方法」と捉えると区別しやすい。",
+          "vi": "Có thể phân biệt như sau: 事前学習 là “học trước kiến thức tổng quát”; 転移学習 là “tận dụng kiến thức đã học cho một nhiệm vụ khác”; ファインチューニング là “tiếp tục huấn luyện và điều chỉnh mô hình đã học cho phù hợp với nhiệm vụ mục tiêu”."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、大量の一般画像で事前学習した画像認識モデルの特徴抽出能力を利用し、少量の犬と猫の画像を使って分類モデルを学習する場合は転移学習の例である。その際、学習済みモデルのパラメータを目的の分類に合わせて追加調整する処理はファインチューニングに当たる。",
+          "vi": "Ví dụ, sử dụng khả năng trích xuất đặc trưng của một mô hình nhận dạng ảnh đã được pre-train trên lượng lớn ảnh tổng quát, rồi dùng một lượng nhỏ ảnh chó và mèo để xây dựng mô hình phân loại là một ví dụ về transfer learning. Nếu tiếp tục điều chỉnh các tham số của mô hình đã học để phù hợp với bài toán phân loại chó/mèo thì đó là fine-tuning."
+        },
+        {
+          "type": "warning",
+          "ja": "転移学習とファインチューニングは関連が深いが、同じ意味ではない。転移学習は既存の知識を別の課題に利用する広い考え方であり、ファインチューニングは学習済みモデルを追加学習して調整する具体的な方法である。",
+          "vi": "Transfer learning và fine-tuning có quan hệ chặt chẽ nhưng không đồng nghĩa. Transfer learning là khái niệm rộng về việc sử dụng kiến thức đã học cho nhiệm vụ khác, còn fine-tuning là một phương pháp cụ thể trong đó mô hình đã huấn luyện được tiếp tục học để điều chỉnh cho nhiệm vụ mục tiêu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "活性化関数",
+          "reading": "かっせいかかんすう",
+          "english": "Activation Function",
+          "vi": "hàm kích hoạt",
+          "definitionJa": "ニューラルネットワークのニューロンで計算された値を変換し、そのニューロンの出力を決定する関数。",
+          "definitionVi": "Hàm biến đổi giá trị được tính tại một neuron để xác định đầu ra của neuron đó."
+        },
+        {
+          "term": "事前学習",
+          "reading": "じぜんがくしゅう",
+          "english": "Pre-training",
+          "vi": "huấn luyện trước",
+          "definitionJa": "目的とするタスクに適用する前に、データを用いてモデルに汎用的な特徴や知識をあらかじめ学習させること。",
+          "definitionVi": "Quá trình cho mô hình học trước các đặc trưng hoặc kiến thức tổng quát trước khi áp dụng vào nhiệm vụ mục tiêu."
+        },
+        {
+          "term": "ファインチューニング",
+          "reading": "ファインチューニング",
+          "english": "Fine-tuning",
+          "vi": "tinh chỉnh mô hình",
+          "definitionJa": "学習済みモデルに目的タスクのデータを用いて追加学習を行い、パラメータをそのタスクに適するよう調整する方法。",
+          "definitionVi": "Phương pháp tiếp tục huấn luyện một mô hình đã học bằng dữ liệu của nhiệm vụ mục tiêu để điều chỉnh các tham số cho phù hợp."
+        },
+        {
+          "term": "転移学習",
+          "reading": "てんいがくしゅう",
+          "english": "Transfer Learning",
+          "vi": "học chuyển giao",
+          "definitionJa": "あるタスクやデータで学習した知識を、別の関連するタスクの学習に活用する機械学習の方法。",
+          "definitionVi": "Phương pháp Machine Learning tận dụng kiến thức đã học từ một nhiệm vụ hoặc tập dữ liệu cho một nhiệm vụ khác có liên quan."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "neural-network",
+        "activation-function",
+        "pre-training",
+        "fine-tuning",
+        "transfer-learning"
+      ]
+    },
+    {
+      "id": "neural-network-models-and-generative-ai",
+      "order": 13,
+      "titleJa": "ニューラルネットワークのモデルと生成モデル",
+      "titleVi": "Các mô hình mạng nơ-ron và mô hình sinh",
+      "importance": "high",
+      "summaryJa": "画像処理に適した畳み込みニューラルネットワーク、系列データを扱うリカレントニューラルネットワーク、データを新たに生成する生成モデル、生成器と識別器を競わせて学習する敵対的生成ネットワークの基本を理解する。",
+      "summaryVi": "Tìm hiểu các mô hình mạng nơ-ron tiêu biểu gồm mạng nơ-ron tích chập dùng cho dữ liệu như hình ảnh, mạng nơ-ron hồi quy dùng cho dữ liệu chuỗi, mô hình sinh tạo dữ liệu mới và GAN học thông qua sự cạnh tranh giữa bộ sinh và bộ phân biệt.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "畳み込みニューラルネットワーク",
+          "vi": "Mạng nơ-ron tích chập"
+        },
+        {
+          "type": "paragraph",
+          "ja": "畳み込みニューラルネットワークは、画像などの空間的な特徴をもつデータの処理に適したニューラルネットワークである。フィルタを入力データ上で移動させながら畳み込み演算を行い、輪郭や形などの局所的な特徴を抽出する。",
+          "vi": "畳み込みニューラルネットワーク (CNN) là mạng nơ-ron phù hợp với việc xử lý dữ liệu có đặc trưng không gian như hình ảnh. Mạng thực hiện phép tích chập bằng cách di chuyển các bộ lọc trên dữ liệu đầu vào để trích xuất các đặc trưng cục bộ như đường viền và hình dạng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、CNNは画像認識などに適しており、「畳み込みによって特徴を抽出する」という点を押さえる。",
+          "vi": "Trong FE, cần nhớ CNN phù hợp với các bài toán như nhận dạng hình ảnh và đặc điểm quan trọng là sử dụng phép tích chập để trích xuất đặc trưng."
+        },
+        {
+          "type": "heading",
+          "ja": "リカレントニューラルネットワーク",
+          "vi": "Mạng nơ-ron hồi quy"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リカレントニューラルネットワークは、時系列や文章など、順序に意味がある系列データを扱うためのニューラルネットワークである。過去の処理結果に関する情報を後続の処理に利用する構造をもち、系列の前後関係を考慮できる。",
+          "vi": "リカレントニューラルネットワーク (RNN) là mạng nơ-ron dùng để xử lý dữ liệu chuỗi mà thứ tự có ý nghĩa, chẳng hạn như dữ liệu thời gian hoặc văn bản. Mạng có cấu trúc cho phép sử dụng thông tin từ các bước xử lý trước cho các bước sau, nhờ đó có thể xét đến quan hệ trước sau trong chuỗi."
+        },
+        {
+          "type": "point",
+          "ja": "CNNは画像などの空間的な特徴の抽出に適し、RNNは時系列や文章などの系列的な関係の処理に適する、という違いを整理しておく。",
+          "vi": "Cần phân biệt: CNN thích hợp để trích xuất đặc trưng không gian như trong hình ảnh, còn RNN thích hợp để xử lý quan hệ theo chuỗi như dữ liệu thời gian hoặc văn bản."
+        },
+        {
+          "type": "heading",
+          "ja": "生成モデル",
+          "vi": "Mô hình sinh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "生成モデルは、学習データの特徴や分布を学習し、それを基に新しいデータを生成するモデルである。画像や文章など、学習したデータと似た性質をもつ新たなデータの生成に利用される。",
+          "vi": "生成モデル (mô hình sinh) là mô hình học các đặc trưng hoặc phân bố của dữ liệu huấn luyện rồi dựa vào đó tạo ra dữ liệu mới. Nó có thể được sử dụng để sinh hình ảnh, văn bản và các loại dữ liệu mới có đặc tính tương tự dữ liệu đã học."
+        },
+        {
+          "type": "heading",
+          "ja": "敵対的生成ネットワーク",
+          "vi": "Mạng sinh đối kháng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "敵対的生成ネットワークは生成モデルの一種であり、生成器と識別器という二つのニューラルネットワークを競わせながら学習する。生成器は本物に近いデータを生成しようとし、識別器は入力されたデータが実データか生成データかを見分けようとする。",
+          "vi": "敵対的生成ネットワーク (GAN) là một loại mô hình sinh gồm hai mạng nơ-ron được huấn luyện theo cơ chế đối kháng: bộ sinh (generator) cố gắng tạo dữ liệu giống dữ liệu thật, còn bộ phân biệt (discriminator) cố gắng xác định dữ liệu đầu vào là dữ liệu thật hay dữ liệu do bộ sinh tạo ra."
+        },
+        {
+          "type": "point",
+          "ja": "GANでは、「生成器は識別器をだませるデータを作ろうとする」「識別器は本物と生成物を正しく見分けようとする」という競争を通して学習が進む。",
+          "vi": "Trong GAN, quá trình học diễn ra thông qua sự cạnh tranh: generator cố tạo dữ liệu có thể đánh lừa discriminator, còn discriminator cố phân biệt chính xác dữ liệu thật và dữ liệu được tạo ra."
+        },
+        {
+          "type": "warning",
+          "ja": "生成モデルとGANを同じ意味として覚えない。生成モデルは新しいデータを生成するモデルの総称であり、GANはその実現方法の一つである。",
+          "vi": "Không được hiểu 生成モデル và GAN là cùng một khái niệm. 生成モデル là khái niệm rộng chỉ các mô hình tạo dữ liệu mới, còn GAN là một phương pháp cụ thể thuộc nhóm mô hình sinh."
+        },
+        {
+          "type": "example",
+          "ja": "FEでは、「画像の特徴抽出 → CNN」「時系列や系列データ → RNN」「新しいデータの生成 → 生成モデル」「生成器と識別器を競わせる → GAN」という対応で整理すると区別しやすい。",
+          "vi": "Khi học FE có thể phân biệt nhanh theo cặp: “trích xuất đặc trưng ảnh → CNN”, “dữ liệu thời gian/chuỗi → RNN”, “tạo dữ liệu mới → mô hình sinh”, “generator cạnh tranh với discriminator → GAN”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "畳み込みニューラルネットワーク",
+          "reading": "たたみこみニューラルネットワーク",
+          "english": "Convolutional Neural Network",
+          "vi": "mạng nơ-ron tích chập",
+          "definitionJa": "畳み込み演算を用いて画像などから局所的な特徴を抽出することに適したニューラルネットワーク。",
+          "definitionVi": "Mạng nơ-ron sử dụng phép tích chập để trích xuất các đặc trưng cục bộ từ dữ liệu như hình ảnh."
+        },
+        {
+          "term": "リカレントニューラルネットワーク",
+          "reading": "リカレントニューラルネットワーク",
+          "english": "Recurrent Neural Network",
+          "vi": "mạng nơ-ron hồi quy",
+          "definitionJa": "過去の処理に関する情報を後続の処理に利用でき、時系列や文章などの系列データを扱うことに適したニューラルネットワーク。",
+          "definitionVi": "Mạng nơ-ron có thể sử dụng thông tin từ các bước xử lý trước cho các bước tiếp theo, phù hợp với dữ liệu chuỗi như dữ liệu thời gian và văn bản."
+        },
+        {
+          "term": "生成モデル",
+          "reading": "せいせいモデル",
+          "english": "Generative Model",
+          "vi": "mô hình sinh",
+          "definitionJa": "学習データの特徴や分布を学習し、それを基に新しいデータを生成するモデル。",
+          "definitionVi": "Mô hình học đặc trưng hoặc phân bố của dữ liệu huấn luyện và dựa vào đó tạo ra dữ liệu mới."
+        },
+        {
+          "term": "敵対的生成ネットワーク",
+          "reading": "てきたいてきせいせいネットワーク",
+          "english": "Generative Adversarial Network",
+          "vi": "mạng sinh đối kháng",
+          "definitionJa": "生成器と識別器を互いに競わせて学習させることで、実データに近いデータの生成を目指す生成モデルの一種。",
+          "definitionVi": "Một loại mô hình sinh huấn luyện generator và discriminator theo cơ chế đối kháng nhằm tạo ra dữ liệu gần giống dữ liệu thật."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "machine-learning",
+        "deep-learning",
+        "cnn",
+        "rnn",
+        "generative-model",
+        "gan"
+      ]
+    },
+    {
+      "id": "foundation-and-language-models",
+      "order": 14,
+      "titleJa": "基盤モデルと生成AIのモデル",
+      "titleVi": "Mô hình nền tảng và các mô hình AI tạo sinh",
+      "importance": "high",
+      "summaryJa": "基盤モデル、拡散モデル、言語モデル、大規模言語モデルの基本的な役割と関係を理解する。特に、広範なタスクへ適応できる基盤モデル、生成に利用される拡散モデル、言語を扱う言語モデルと大規模言語モデルの違いを整理する。",
+      "summaryVi": "Tìm hiểu vai trò và mối quan hệ giữa foundation model, diffusion model, language model và large language model. Trọng tâm là phân biệt mô hình nền tảng có khả năng thích ứng với nhiều nhiệm vụ, mô hình khuếch tán dùng cho sinh dữ liệu, và các mô hình xử lý ngôn ngữ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "基盤モデル",
+          "vi": "Mô hình nền tảng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "基盤モデルは、大規模かつ多様なデータで学習され、さまざまな下流タスクに適応して利用できるAIモデルである。一つの特定用途だけを目的として学習するのではなく、事前学習で広範な知識や特徴を獲得し、必要に応じてファインチューニングなどを行って個別の用途に適応させる。",
+          "vi": "基盤モデル (foundation model) là mô hình AI được huấn luyện trên lượng dữ liệu lớn và đa dạng, sau đó có thể thích ứng với nhiều nhiệm vụ phía sau. Thay vì chỉ được huấn luyện cho một mục đích duy nhất, mô hình học trước kiến thức và đặc trưng tổng quát rồi có thể được điều chỉnh bằng fine-tuning hoặc các phương pháp khác cho từng mục đích cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「大規模なデータで事前学習され、多様な用途へ適応できるモデル」という特徴を押さえる。基盤モデルは必ずしも言語だけを扱うモデルではない。",
+          "vi": "Trong FE, cần nhớ đặc điểm: “được pre-train trên dữ liệu quy mô lớn và có thể thích ứng với nhiều mục đích”. Foundation model không nhất thiết chỉ là mô hình xử lý ngôn ngữ."
+        },
+        {
+          "type": "heading",
+          "ja": "拡散モデル",
+          "vi": "Mô hình khuếch tán"
+        },
+        {
+          "type": "paragraph",
+          "ja": "拡散モデルは生成モデルの一種であり、学習データに段階的にノイズを加える過程と、そのノイズを取り除いてデータを復元する過程を利用して学習する。生成時には、ランダムなノイズから段階的にノイズを除去することで、学習データの特徴をもつ新しいデータを生成する。",
+          "vi": "拡散モデル (diffusion model) là một loại mô hình sinh. Trong quá trình học, mô hình sử dụng quá trình từng bước thêm nhiễu vào dữ liệu và học quá trình ngược lại để loại bỏ nhiễu, khôi phục dữ liệu. Khi sinh dữ liệu, mô hình bắt đầu từ nhiễu ngẫu nhiên rồi khử nhiễu dần để tạo dữ liệu mới mang đặc trưng của dữ liệu đã học."
+        },
+        {
+          "type": "example",
+          "ja": "画像生成では、最初はランダムノイズに近い状態から始め、学習したモデルによって少しずつノイズを除去し、最終的に意味のある画像へ変換していく。",
+          "vi": "Trong sinh ảnh, quá trình có thể bắt đầu từ trạng thái gần như nhiễu ngẫu nhiên, sau đó mô hình đã học loại bỏ nhiễu từng bước cho đến khi tạo thành một hình ảnh có ý nghĩa."
+        },
+        {
+          "type": "warning",
+          "ja": "AIにおける拡散モデルの「拡散」は、SNS上で情報が広がることなどをモデル化するという意味ではない。生成AIでは、データへのノイズ付加と、その逆過程であるノイズ除去を利用する生成モデルとして理解する。",
+          "vi": "Trong AI, “khuếch tán” của diffusion model không có nghĩa là mô hình hóa việc thông tin lan truyền trên mạng xã hội. Trong Generative AI, cần hiểu đây là mô hình sinh dựa trên quá trình thêm nhiễu vào dữ liệu và quá trình ngược để loại bỏ nhiễu."
+        },
+        {
+          "type": "heading",
+          "ja": "言語モデル",
+          "vi": "Mô hình ngôn ngữ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "言語モデルは、単語やトークンなどの系列に対して確率的な関係をモデル化し、文脈に基づいて次の要素を予測するなど、言語を扱うためのモデルである。文章生成、入力補完、翻訳などの自然言語処理に利用される。",
+          "vi": "言語モデル (language model) là mô hình biểu diễn các quan hệ xác suất trong chuỗi từ hoặc token, chẳng hạn dự đoán phần tử tiếp theo dựa trên ngữ cảnh. Nó được sử dụng trong các tác vụ xử lý ngôn ngữ tự nhiên như sinh văn bản, hoàn thành văn bản và dịch máy."
+        },
+        {
+          "type": "point",
+          "ja": "言語モデルの基本的な考え方は、文脈から単語やトークンの出現確率を扱うことである。必ずしもすべての言語モデルが大規模言語モデルであるとは限らない。",
+          "vi": "Ý tưởng cơ bản của language model là xử lý xác suất xuất hiện của từ hoặc token dựa trên ngữ cảnh. Không phải mọi language model đều là large language model."
+        },
+        {
+          "type": "heading",
+          "ja": "大規模言語モデル",
+          "vi": "Mô hình ngôn ngữ lớn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "大規模言語モデルは、大量のテキストデータなどを用いて学習された大規模な言語モデルであり、LLMとも呼ばれる。多数のパラメータをもち、文章生成、要約、翻訳、質問応答など、さまざまな言語タスクに利用できる。",
+          "vi": "大規模言語モデル (Large Language Model: LLM) là mô hình ngôn ngữ quy mô lớn được huấn luyện bằng lượng lớn dữ liệu văn bản và các dữ liệu liên quan. Mô hình có số lượng tham số lớn và có thể được sử dụng cho nhiều tác vụ ngôn ngữ như sinh văn bản, tóm tắt, dịch và hỏi đáp."
+        },
+        {
+          "type": "point",
+          "ja": "関係を整理すると、「言語モデル」は言語を扱うモデルの広い概念であり、「大規模言語モデル」はその中でも大規模なデータとモデル規模で学習されたものを指す。一方、「基盤モデル」は言語に限定されず、多様な下流タスクへ適応可能なモデルという、より広い観点の概念である。",
+          "vi": "Có thể phân biệt như sau: 言語モデル là khái niệm rộng về mô hình xử lý ngôn ngữ; 大規模言語モデル là language model được huấn luyện ở quy mô dữ liệu và mô hình lớn. Trong khi đó, 基盤モデル là khái niệm rộng hơn theo góc nhìn khả năng thích ứng với nhiều nhiệm vụ và không giới hạn ở ngôn ngữ."
+        },
+        {
+          "type": "example",
+          "ja": "FEでは、「多様なタスクへの基盤 → 基盤モデル」「ノイズ除去を利用した生成 → 拡散モデル」「言語の系列をモデル化 → 言語モデル」「大規模に学習された言語モデル → LLM」と整理すると区別しやすい。",
+          "vi": "Khi học FE có thể nhớ: “nền tảng cho nhiều nhiệm vụ → foundation model”, “sinh dữ liệu thông qua quá trình khử nhiễu → diffusion model”, “mô hình hóa chuỗi ngôn ngữ → language model”, “language model được huấn luyện ở quy mô lớn → LLM”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "基盤モデル",
+          "reading": "きばんモデル",
+          "english": "Foundation Model",
+          "vi": "mô hình nền tảng",
+          "definitionJa": "大規模かつ多様なデータで事前学習され、さまざまな下流タスクへ適応して利用できるAIモデル。",
+          "definitionVi": "Mô hình AI được pre-train trên dữ liệu quy mô lớn và đa dạng, có thể thích ứng để sử dụng cho nhiều nhiệm vụ phía sau."
+        },
+        {
+          "term": "拡散モデル",
+          "reading": "かくさんモデル",
+          "english": "Diffusion Model",
+          "vi": "mô hình khuếch tán",
+          "definitionJa": "データへのノイズ付加と、その逆過程であるノイズ除去を学習し、ノイズから新しいデータを生成する生成モデルの一種。",
+          "definitionVi": "Một loại mô hình sinh học quá trình thêm nhiễu và quá trình ngược để loại bỏ nhiễu, từ đó có thể tạo dữ liệu mới bắt đầu từ nhiễu."
+        },
+        {
+          "term": "言語モデル",
+          "reading": "げんごモデル",
+          "english": "Language Model",
+          "vi": "mô hình ngôn ngữ",
+          "definitionJa": "単語やトークンなどの系列の確率的な関係をモデル化し、予測や文章生成などに利用するモデル。",
+          "definitionVi": "Mô hình biểu diễn quan hệ xác suất của chuỗi từ hoặc token, được sử dụng cho dự đoán, sinh văn bản và các tác vụ ngôn ngữ khác."
+        },
+        {
+          "term": "大規模言語モデル",
+          "reading": "だいきぼげんごモデル",
+          "english": "Large Language Model",
+          "vi": "mô hình ngôn ngữ lớn",
+          "definitionJa": "大量のデータと多数のパラメータを用いて学習され、多様な言語処理タスクに利用できる大規模な言語モデル。LLMとも呼ばれる。",
+          "definitionVi": "Mô hình ngôn ngữ quy mô lớn được huấn luyện với lượng dữ liệu lớn và nhiều tham số, có khả năng thực hiện nhiều tác vụ xử lý ngôn ngữ; còn gọi là LLM."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "artificial-intelligence",
+        "foundation-model",
+        "generative-ai",
+        "diffusion-model",
+        "language-model",
+        "llm"
+      ]
+    },
+    {
+      "id": "self-supervised-learning-and-program-translation",
+      "order": 15,
+      "titleJa": "AIの学習技術とプログラム変換",
+      "titleVi": "Kỹ thuật học AI và chuyển đổi chương trình",
+      "importance": "medium",
+      "summaryJa": "自己教師あり学習とプロンプトエンジニアリングの基本を理解するとともに、プログラムの変換過程で用いられる中間言語と目的プログラムの役割を整理する。",
+      "summaryVi": "Tìm hiểu kiến thức cơ bản về self-supervised learning và prompt engineering, đồng thời nắm vai trò của ngôn ngữ trung gian và chương trình đích trong quá trình chuyển đổi chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自己教師あり学習",
+          "vi": "Học tự giám sát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自己教師あり学習は、ラベル付けされていないデータそのものから学習に必要な正解や予測対象を作り出して学習する方法である。人手で大量のラベルを用意しなくても、大量のテキスト、画像、音声などを学習に利用できる。",
+          "vi": "自己教師あり学習 (self-supervised learning) là phương pháp tạo ra mục tiêu dự đoán hoặc tín hiệu giám sát từ chính dữ liệu chưa được gắn nhãn để tiến hành học. Nhờ đó có thể tận dụng lượng lớn văn bản, hình ảnh hoặc âm thanh mà không cần con người gắn nhãn thủ công cho toàn bộ dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、文章の一部を隠して、その部分を周囲の文脈から予測させる学習では、元の文章自体から正解を作ることができる。このため、人手で正解ラベルを付けなくても学習データを構成できる。",
+          "vi": "Ví dụ, có thể che một phần của câu rồi yêu cầu mô hình dự đoán phần bị che dựa trên ngữ cảnh. Đáp án được tạo từ chính câu ban đầu nên có thể xây dựng dữ liệu học mà không cần con người gắn nhãn đáp án."
+        },
+        {
+          "type": "warning",
+          "ja": "自己教師あり学習は教師なし学習と完全に同じではない。自己教師あり学習では、入力データ自身から擬似的な教師信号を作り、それを使って予測問題を学習する点が特徴である。",
+          "vi": "自己教師あり学習 không hoàn toàn đồng nghĩa với 教師なし学習 (học không giám sát). Điểm đặc trưng của self-supervised learning là tự tạo tín hiệu giám sát từ chính dữ liệu đầu vào rồi học một bài toán dự đoán dựa trên tín hiệu đó."
+        },
+        {
+          "type": "heading",
+          "ja": "プロンプトエンジニアリング",
+          "vi": "Kỹ thuật thiết kế prompt"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロンプトエンジニアリングは、生成AIなどのモデルから目的に合った出力を得るために、入力する指示や質問の内容・構造・条件などを設計する技術である。目的、前提条件、出力形式などを明確にすることで、期待する回答を得やすくする。",
+          "vi": "プロンプトエンジニアリング (prompt engineering) là kỹ thuật thiết kế nội dung, cấu trúc và điều kiện của chỉ thị hoặc câu hỏi đưa vào mô hình như Generative AI nhằm thu được đầu ra phù hợp với mục đích. Việc nêu rõ mục tiêu, điều kiện và định dạng đầu ra giúp mô hình dễ tạo câu trả lời mong muốn hơn."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、「ネットワークについて説明して」だけでなく、「基本情報技術者試験の学習者向けに、LANとWANの違いを表で説明して」のように、対象、内容、出力形式を具体化すると目的に合った回答を得やすくなる。",
+          "vi": "Ví dụ, thay vì chỉ yêu cầu “hãy giải thích về mạng”, có thể chỉ rõ “hãy giải thích sự khác nhau giữa LAN và WAN bằng bảng dành cho người học FE”. Việc xác định đối tượng, nội dung và định dạng giúp tăng khả năng nhận được câu trả lời phù hợp."
+        },
+        {
+          "type": "heading",
+          "ja": "中間言語",
+          "vi": "Ngôn ngữ trung gian"
+        },
+        {
+          "type": "paragraph",
+          "ja": "中間言語は、ソースプログラムを最終的な機械語などへ変換する途中で用いられる中間的な表現である。コンパイラなどがソースコードを中間表現へ変換し、その後に対象環境向けのコードへ変換することで、最適化や移植性の向上などに役立てることができる。",
+          "vi": "中間言語 (intermediate language) là dạng biểu diễn trung gian được sử dụng trong quá trình chuyển chương trình nguồn thành dạng cuối cùng như mã máy. Compiler có thể chuyển source code sang biểu diễn trung gian rồi tiếp tục chuyển sang mã phù hợp với môi trường đích, qua đó hỗ trợ tối ưu hóa và nâng cao tính khả chuyển."
+        },
+        {
+          "type": "example",
+          "ja": "Javaでは、Javaのソースコードをコンパイルするとバイトコードが生成され、Java仮想マシン（JVM）がそれを実行する。このバイトコードは中間的なコードとして機能する。",
+          "vi": "Trong Java, source code Java được biên dịch thành bytecode và Java Virtual Machine (JVM) thực thi bytecode đó. Bytecode đóng vai trò là một dạng mã trung gian."
+        },
+        {
+          "type": "heading",
+          "ja": "目的プログラム",
+          "vi": "Chương trình đích"
+        },
+        {
+          "type": "paragraph",
+          "ja": "目的プログラムは、コンパイラやアセンブラなどによって原始プログラムから変換されて得られるプログラムである。一般に機械語などの目的コードから構成されるが、そのまま単独で実行できるとは限らず、必要に応じてリンカによる結合などを経て実行可能なプログラムとなる。",
+          "vi": "目的プログラム (object program) là chương trình thu được sau khi compiler hoặc assembler chuyển đổi từ chương trình nguồn. Nó thường gồm object code như mã máy, nhưng không nhất thiết có thể chạy trực tiếp; tùy trường hợp còn cần linker liên kết với các module hoặc thư viện khác để tạo chương trình thực thi."
+        },
+        {
+          "type": "warning",
+          "ja": "目的プログラムを必ず「そのまま実行できる実行ファイル」と考えない。コンパイルによって生成された目的プログラムが、リンク処理を経て実行可能プログラムになる場合がある。",
+          "vi": "Không nên hiểu 目的プログラム lúc nào cũng là “file thực thi có thể chạy ngay”. Chương trình đích được tạo bởi quá trình biên dịch có thể còn phải trải qua bước liên kết (link) trước khi trở thành chương trình thực thi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、プログラム変換の関係を「原始プログラム（ソース）→ コンパイラなどによる変換 → 中間言語や目的プログラム → 必要に応じてリンク → 実行可能プログラム」のように整理すると理解しやすい。",
+          "vi": "Khi học FE, có thể hình dung luồng chuyển đổi chương trình theo dạng: “chương trình nguồn (source) → compiler và các công cụ chuyển đổi → ngôn ngữ trung gian hoặc chương trình đích → liên kết nếu cần → chương trình thực thi”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自己教師あり学習",
+          "reading": "じこきょうしありがくしゅう",
+          "english": "Self-Supervised Learning",
+          "vi": "học tự giám sát",
+          "definitionJa": "ラベル付けされていない入力データ自身から学習用の教師信号を作り、それを利用して学習する機械学習の方法。",
+          "definitionVi": "Phương pháp Machine Learning tự tạo tín hiệu giám sát từ chính dữ liệu đầu vào chưa được gắn nhãn rồi sử dụng tín hiệu đó để học."
+        },
+        {
+          "term": "プロンプトエンジニアリング",
+          "reading": "プロンプトエンジニアリング",
+          "english": "Prompt Engineering",
+          "vi": "kỹ thuật thiết kế prompt",
+          "definitionJa": "生成AIなどから目的に合った出力を得るために、入力する指示や質問の内容、構造、条件などを設計する技術。",
+          "definitionVi": "Kỹ thuật thiết kế nội dung, cấu trúc và điều kiện của prompt nhằm thu được đầu ra phù hợp với mục đích từ các mô hình như Generative AI."
+        },
+        {
+          "term": "中間言語",
+          "reading": "ちゅうかんげんご",
+          "english": "Intermediate Language",
+          "vi": "ngôn ngữ trung gian",
+          "definitionJa": "ソースプログラムを最終的なコードへ変換する途中で用いられる中間的な表現。",
+          "definitionVi": "Dạng biểu diễn trung gian được sử dụng trong quá trình chuyển chương trình nguồn thành mã đích cuối cùng."
+        },
+        {
+          "term": "目的プログラム",
+          "reading": "もくてきプログラム",
+          "english": "Object Program",
+          "vi": "chương trình đích",
+          "definitionJa": "コンパイラやアセンブラなどによって原始プログラムから変換されて得られるプログラム。",
+          "definitionVi": "Chương trình thu được sau khi chương trình nguồn được compiler, assembler hoặc công cụ tương ứng chuyển đổi."
+        }
+      ],
+      "tags": [
+        "information-theory",
+        "artificial-intelligence",
+        "self-supervised-learning",
+        "prompt-engineering",
+        "compiler",
+        "intermediate-language",
+        "object-program"
+      ]
+    },
+    {
+      "id": "formal-language-and-programming-paradigms",
+      "order": 16,
+      "titleJa": "形式言語とプログラミング言語の基本概念",
+      "titleVi": "Ngôn ngữ hình thức và các khái niệm cơ bản về ngôn ngữ lập trình",
+      "importance": "medium",
+      "summaryJa": "形式言語とオートマトンの基本的な関係、および手続型言語とオブジェクト指向言語の特徴を理解する。形式言語は規則に基づいて文字列を定義する考え方であり、オートマトンは文字列を状態遷移によって処理する計算モデルである。また、プログラムの記述方法として、処理手順を中心とする手続型と、データと操作をオブジェクトとしてまとめるオブジェクト指向の違いを整理する。",
+      "summaryVi": "Tìm hiểu mối quan hệ cơ bản giữa ngôn ngữ hình thức và automaton, đồng thời phân biệt đặc điểm của ngôn ngữ thủ tục và ngôn ngữ hướng đối tượng. Ngôn ngữ hình thức định nghĩa các chuỗi theo những quy tắc xác định, còn automaton là mô hình tính toán xử lý chuỗi thông qua sự chuyển trạng thái. Trong lập trình, ngôn ngữ thủ tục tập trung vào trình tự xử lý, trong khi ngôn ngữ hướng đối tượng tổ chức dữ liệu và thao tác thành các đối tượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "形式言語とオートマトン",
+          "vi": "Ngôn ngữ hình thức và automaton"
+        },
+        {
+          "type": "paragraph",
+          "ja": "形式言語は、使用できる記号と文法などの規則によって厳密に定義される言語である。自然言語とは異なり、構文を形式的に扱えるため、プログラミング言語の構文解析や計算理論などの基礎となる。",
+          "vi": "形式言語 (formal language) là ngôn ngữ được định nghĩa chặt chẽ bằng tập ký hiệu và các quy tắc như văn phạm. Khác với ngôn ngữ tự nhiên, cú pháp của nó có thể được xử lý một cách hình thức, vì vậy đây là cơ sở của phân tích cú pháp ngôn ngữ lập trình và lý thuyết tính toán."
+        },
+        {
+          "type": "paragraph",
+          "ja": "オートマトンは、入力を受け取り、現在の状態と入力に応じて状態を遷移させる抽象的な計算モデルである。形式言語との関係では、与えられた文字列が特定の言語に属するかどうかを判定するモデルとして考えることができる。",
+          "vi": "オートマトン (automaton) là mô hình tính toán trừu tượng nhận đầu vào và chuyển trạng thái dựa trên trạng thái hiện tại cùng dữ liệu đầu vào. Trong mối quan hệ với formal language, automaton có thể được dùng để xác định một chuỗi cho trước có thuộc một ngôn ngữ nhất định hay không."
+        },
+        {
+          "type": "example",
+          "ja": "有限オートマトンでは、有限個の状態と状態遷移規則を用いて入力文字列を順番に読み取り、最後に到達した状態などによって文字列を受理するかどうかを判定する。",
+          "vi": "Với finite automaton, hệ thống sử dụng một số hữu hạn trạng thái và các quy tắc chuyển trạng thái để đọc lần lượt chuỗi đầu vào, sau đó dựa vào trạng thái đạt được để xác định chuỗi có được chấp nhận hay không."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「形式言語＝規則によって定義された文字列の集合」「オートマトン＝状態遷移によって入力を処理するモデル」という対応を押さえると理解しやすい。",
+          "vi": "Trong FE, nên ghi nhớ mối quan hệ: 「形式言語 = tập hợp các chuỗi được xác định bởi quy tắc」 và 「オートマトン = mô hình xử lý đầu vào bằng chuyển trạng thái」."
+        },
+        {
+          "type": "heading",
+          "ja": "手続型言語",
+          "vi": "Ngôn ngữ thủ tục"
+        },
+        {
+          "type": "paragraph",
+          "ja": "手続型言語は、目的の処理を実現するための手順を、命令や手続きの流れとして記述するプログラミング言語である。変数への代入、条件分岐、繰返し、関数や手続きの呼出しなどを組み合わせ、処理の順序を明確に記述する。",
+          "vi": "手続型言語 (procedural language) là ngôn ngữ lập trình mô tả các bước cần thực hiện dưới dạng luồng lệnh và thủ tục. Chương trình kết hợp các thao tác như gán biến, rẽ nhánh điều kiện, lặp và gọi hàm hoặc thủ tục để thể hiện rõ trình tự xử lý."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、入力値を読み込み、条件を判定し、必要な計算を行って結果を出力するという一連の処理を順序立てて記述する。Cなどは手続型の考え方を理解する代表的な言語である。",
+          "vi": "Ví dụ, chương trình có thể được mô tả theo trình tự: đọc dữ liệu đầu vào → kiểm tra điều kiện → thực hiện phép tính cần thiết → xuất kết quả. C là một ngôn ngữ tiêu biểu để hiểu cách tiếp cận lập trình thủ tục."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向言語",
+          "vi": "Ngôn ngữ hướng đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向言語は、データとそのデータに対する操作をオブジェクトという単位で捉えてプログラムを構成する言語である。一般に、クラスを設計し、そのクラスを基に具体的なオブジェクトであるインスタンスを生成して処理を行う。",
+          "vi": "オブジェクト指向言語 (object-oriented language) là ngôn ngữ tổ chức chương trình dựa trên các đối tượng, trong đó dữ liệu và các thao tác liên quan đến dữ liệu được xem xét cùng nhau. Thông thường, lập trình viên định nghĩa class rồi tạo các instance cụ thể từ class để thực hiện xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "手続型では「どのような手順で処理するか」に重点を置くのに対し、オブジェクト指向では「どのオブジェクトがどのデータと操作を持つか」という単位でシステムを構成する。この違いを区別して覚えることが重要である。",
+          "vi": "Lập trình thủ tục tập trung vào “xử lý theo những bước nào”, còn lập trình hướng đối tượng tổ chức hệ thống theo “đối tượng nào sở hữu dữ liệu và thao tác nào”. Đây là điểm khác biệt quan trọng cần phân biệt."
+        },
+        {
+          "type": "warning",
+          "ja": "形式言語と手続型言語・オブジェクト指向言語は分類の観点が異なる。形式言語は記号列と規則を形式的に扱う概念であり、手続型やオブジェクト指向は主にプログラムをどのような考え方で構成するかを表す。",
+          "vi": "形式言語 và các khái niệm 手続型言語・オブジェクト指向言語 không nằm trên cùng một tiêu chí phân loại. Formal language là khái niệm xử lý chuỗi ký hiệu và quy tắc một cách hình thức, còn procedural và object-oriented chủ yếu mô tả cách tổ chức chương trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "形式言語",
+          "reading": "けいしきげんご",
+          "english": "Formal Language",
+          "vi": "ngôn ngữ hình thức",
+          "definitionJa": "有限個の記号からなる文字列について、文法などの形式的な規則によって定義される言語。",
+          "definitionVi": "Ngôn ngữ được định nghĩa bằng các quy tắc hình thức như văn phạm đối với các chuỗi được tạo từ một tập hữu hạn ký hiệu."
+        },
+        {
+          "term": "オートマトン",
+          "reading": "オートマトン",
+          "english": "Automaton",
+          "vi": "automaton; máy trạng thái trừu tượng",
+          "definitionJa": "入力と現在の状態に応じて状態を遷移させ、入力を処理する抽象的な計算モデル。",
+          "definitionVi": "Mô hình tính toán trừu tượng xử lý đầu vào bằng cách chuyển trạng thái dựa trên đầu vào và trạng thái hiện tại."
+        },
+        {
+          "term": "手続型言語",
+          "reading": "てつづきがたげんご",
+          "english": "Procedural Language",
+          "vi": "ngôn ngữ thủ tục",
+          "definitionJa": "処理の手順や命令の実行順序を中心としてプログラムを記述するプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình mô tả chương trình chủ yếu dựa trên các bước xử lý và thứ tự thực hiện các lệnh."
+        },
+        {
+          "term": "オブジェクト指向言語",
+          "reading": "オブジェクトしこうげんご",
+          "english": "Object-Oriented Language",
+          "vi": "ngôn ngữ hướng đối tượng",
+          "definitionJa": "データとそのデータに対する操作をオブジェクトとして捉え、それらを組み合わせてプログラムを構成する言語。",
+          "definitionVi": "Ngôn ngữ tổ chức chương trình bằng các đối tượng, trong đó dữ liệu và các thao tác đối với dữ liệu được kết hợp và quản lý theo đơn vị đối tượng."
+        }
+      ],
+      "tags": [
+        "formal-language",
+        "automaton",
+        "procedural-programming",
+        "object-oriented-programming",
+        "programming-language"
+      ]
+    }
+  ]
+}

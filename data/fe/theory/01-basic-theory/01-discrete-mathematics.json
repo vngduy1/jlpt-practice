@@ -1,0 +1,449 @@
+{
+  "id": "discrete-mathematics",
+  "order": 1,
+  "titleJa": "離散数学",
+  "titleVi": "Toán rời rạc",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "radix-and-number-systems",
+      "order": 1,
+      "titleJa": "基数と進数",
+      "titleVi": "Cơ số và hệ đếm",
+      "importance": "high",
+      "summaryJa": "基数は、位取り記数法で使用する数字の種類数を表す。2進数・10進数・16進数の表現と、各桁の重みを理解することがFEの基礎となる。",
+      "summaryVi": "Cơ số cho biết số lượng ký hiệu dùng trong một hệ đếm theo vị trí. Với FE, cần hiểu cách biểu diễn số nhị phân, thập phân, thập lục phân và trọng số của từng chữ số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "基数とは",
+          "vi": "Cơ số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "基数とは、位取り記数法で一つの桁に使える数字の種類数である。基数がnなら、各桁はnの整数乗の重みをもち、桁の値と重みの積を合計して数値を表す。",
+          "vi": "基数 (cơ số) là số lượng chữ số có thể dùng tại một vị trí trong hệ đếm theo vị trí. Với cơ số n, mỗi vị trí có trọng số là một lũy thừa nguyên của n; giá trị số được tạo bằng cách cộng các tích giữa chữ số và trọng số tương ứng."
+        },
+        {
+          "type": "point",
+          "ja": "2進数は0と1、10進数は0〜9、16進数は0〜9とA〜Fを使う。16進数1桁は2進数4桁に対応するので、2進数との相互変換がしやすい。",
+          "vi": "Hệ nhị phân dùng 0 và 1, hệ thập phân dùng 0–9, hệ thập lục phân dùng 0–9 và A–F. Một chữ số hệ 16 tương ứng đúng 4 bit nhị phân nên việc chuyển đổi giữa hệ 2 và hệ 16 rất thuận tiện."
+        },
+        {
+          "type": "example",
+          "ja": "例：2進数1011は、1×2^3＋0×2^2＋1×2^1＋1×2^0＝11なので、10進数では11である。",
+          "vi": "Ví dụ: 1011 ở hệ 2 có giá trị 1×2^3 + 0×2^2 + 1×2^1 + 1×2^0 = 11, nên bằng 11 ở hệ 10."
+        },
+        {
+          "type": "warning",
+          "ja": "基数変換では、数字の並びだけを見ない。各桁の重みが基数によって変わることを意識する。",
+          "vi": "Khi đổi cơ số, không chỉ nhìn chuỗi chữ số. Hãy luôn nhớ trọng số của từng vị trí thay đổi theo cơ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "基数",
+          "reading": "きすう",
+          "english": "Radix (Base)",
+          "vi": "cơ số",
+          "definitionJa": "位取り記数法で、一つの桁に使用できる数字の種類数を表す値。",
+          "definitionVi": "Giá trị biểu thị số lượng chữ số có thể sử dụng tại một vị trí trong hệ đếm theo vị trí."
+        }
+      ],
+      "tags": ["discrete-mathematics", "number-representation", "radix"]
+    },
+    {
+      "id": "twos-complement",
+      "order": 2,
+      "titleJa": "2の補数と負数の表現",
+      "titleVi": "Số bù 2 và biểu diễn số âm",
+      "importance": "high",
+      "summaryJa": "2の補数は、2進数で負の整数を表す代表的な方法である。正の値のビットを反転し、1を加える操作を理解する。",
+      "summaryVi": "Số bù 2 là cách phổ biến để biểu diễn số nguyên âm bằng nhị phân. Cần nắm chắc thao tác đảo toàn bộ bit rồi cộng 1.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "2の補数とは",
+          "vi": "Số bù 2 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "2の補数は、固定されたビット数の2進数で負の整数を表現する方法である。加算回路を利用して正負の整数を同じ考え方で計算しやすいことが大きな利点である。",
+          "vi": "2の補数 là phương pháp biểu diễn số nguyên âm bằng một số bit nhị phân cố định. Ưu điểm lớn là giúp phần cứng thực hiện phép tính với số dương và số âm thuận tiện bằng cùng cơ chế cộng nhị phân."
+        },
+        {
+          "type": "point",
+          "ja": "正の整数から対応する負の値を求める基本手順は「全ビットを反転する → 1を加える」である。同じビット数のまま操作することが重要である。",
+          "vi": "Quy tắc cơ bản để lấy biểu diễn của số âm từ số dương là: đảo tất cả bit → cộng 1. Phải giữ nguyên số lượng bit trong suốt quá trình."
+        },
+        {
+          "type": "example",
+          "ja": "例：8ビットで+5は00000101。全ビットを反転すると11111010、さらに1を加えると11111011となる。したがって11111011が8ビットの2の補数表現における-5である。",
+          "vi": "Ví dụ: với 8 bit, +5 là 00000101. Đảo tất cả bit được 11111010, cộng thêm 1 được 11111011. Vì vậy 11111011 là biểu diễn -5 theo số bù 2 trong 8 bit."
+        },
+        {
+          "type": "point",
+          "ja": "nビットの2の補数表現で表せる整数の範囲は、-2^(n-1)から2^(n-1)-1までである。8ビットなら-128〜127となる。",
+          "vi": "Với biểu diễn bù 2 n bit, phạm vi số nguyên là từ -2^(n-1) đến 2^(n-1)-1. Với 8 bit, phạm vi là -128 đến 127."
+        },
+        {
+          "type": "warning",
+          "ja": "単に最上位ビットを1にするだけでは負数の2の補数表現にはならない。また、ビット反転だけで終わらず、必ず1を加える。",
+          "vi": "Chỉ đổi bit cao nhất thành 1 không tạo ra biểu diễn bù 2 đúng. Sau khi đảo bit, bắt buộc phải cộng thêm 1."
+        }
+      ],
+      "terms": [
+        {
+          "term": "2の補数",
+          "reading": "にのほすう",
+          "english": "Two's Complement",
+          "vi": "số bù 2",
+          "definitionJa": "固定ビット長の2進数で負の整数を表すために用いる補数表現。ある値の符号を反転した値は、全ビットを反転して1を加えることで求められる。",
+          "definitionVi": "Cách biểu diễn bù dùng để biểu diễn số nguyên âm với độ dài bit cố định. Giá trị đổi dấu được tạo bằng cách đảo toàn bộ bit rồi cộng 1."
+        }
+      ],
+      "tags": [
+        "discrete-mathematics",
+        "number-representation",
+        "binary",
+        "signed-integer"
+      ]
+    },
+    {
+      "id": "fixed-point-number",
+      "order": 3,
+      "titleJa": "固定小数点数",
+      "titleVi": "Số dấu phẩy cố định",
+      "importance": "medium",
+      "summaryJa": "固定小数点数は、小数点の位置をあらかじめ固定して数値を表す方式である。ビット配分によって表現範囲と刻み幅が決まる。",
+      "summaryVi": "Số dấu phẩy cố định là cách biểu diễn trong đó vị trí dấu chấm được xác định trước. Cách phân bổ bit quyết định phạm vi biểu diễn và độ nhỏ của bước giá trị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "固定小数点数の考え方",
+          "vi": "Cách hiểu số dấu phẩy cố định"
+        },
+        {
+          "type": "paragraph",
+          "ja": "固定小数点数は、ビット列のどこに小数点があるかをあらかじめ決めておき、その位置を変えずに数値を解釈する方式である。整数部と小数部に割り当てるビット数を固定するため、扱える範囲と精度も決まる。",
+          "vi": "固定小数点数 là cách biểu diễn quy định trước dấu chấm nhị phân nằm ở đâu trong chuỗi bit và luôn diễn giải số theo vị trí đó. Vì số bit dành cho phần nguyên và phần lẻ được cố định, phạm vi và độ chính xác cũng được xác định trước."
+        },
+        {
+          "type": "point",
+          "ja": "小数部のビットが多いほど細かな値を表せるが、その分、同じ総ビット数では整数部に使えるビットが減り、表現できる大きな値の範囲は狭くなる。",
+          "vi": "Càng dành nhiều bit cho phần lẻ thì biểu diễn được giá trị càng mịn, nhưng với cùng tổng số bit, số bit dành cho phần nguyên giảm nên phạm vi giá trị lớn có thể biểu diễn sẽ hẹp hơn."
+        },
+        {
+          "type": "example",
+          "ja": "例：8ビットを整数部4ビット・小数部4ビットとして扱うとする。0011.1000は、3＋1/2＝3.5を表す。",
+          "vi": "Ví dụ: giả sử 8 bit được chia thành 4 bit phần nguyên và 4 bit phần lẻ. Khi đó 0011.1000 biểu diễn 3 + 1/2 = 3,5."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、固定された小数点位置から各ビットの重みを読み取り、表現できる範囲や最小の刻みを求める考え方を押さえる。",
+          "vi": "Trong FE, cần biết đọc trọng số của từng bit từ vị trí dấu chấm cố định, từ đó xác định phạm vi biểu diễn và bước giá trị nhỏ nhất."
+        },
+        {
+          "type": "warning",
+          "ja": "固定小数点数と浮動小数点数を混同しない。固定小数点数では小数点位置が固定されるが、浮動小数点数では指数を使って小数点位置を実質的に移動させる。",
+          "vi": "Không nhầm số dấu phẩy cố định với số dấu phẩy động. Ở fixed-point, vị trí dấu chấm được cố định; ở floating-point, phần số mũ làm cho vị trí dấu chấm thay đổi về mặt giá trị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "固定小数点数",
+          "reading": "こていしょうすうてんすう",
+          "english": "Fixed-point Number",
+          "vi": "số dấu phẩy cố định",
+          "definitionJa": "小数点の位置をあらかじめ固定して数値を表現する方式。",
+          "definitionVi": "Phương pháp biểu diễn số với vị trí dấu chấm được quy định cố định từ trước."
+        }
+      ],
+      "tags": ["discrete-mathematics", "number-representation", "fixed-point"]
+    },
+    {
+      "id": "floating-point-number",
+      "order": 4,
+      "titleJa": "浮動小数点数",
+      "titleVi": "Số dấu phẩy động",
+      "importance": "high",
+      "summaryJa": "浮動小数点数は、数値を仮数と指数に分けて表し、広い範囲の実数を限られたビット数で扱う方式である。単精度・倍精度、仮数部・指数部の役割を理解する。",
+      "summaryVi": "Số dấu phẩy động biểu diễn một giá trị bằng phần định trị và số mũ, nhờ đó xử lý được phạm vi số thực rộng với số bit hữu hạn. Cần hiểu vai trò của độ chính xác đơn/kép, phần định trị và phần số mũ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "浮動小数点数の仕組み",
+          "vi": "Cơ chế của số dấu phẩy động"
+        },
+        {
+          "type": "paragraph",
+          "ja": "浮動小数点数は、数値をおおむね「符号・指数・仮数」に分けて表現する。指数を変えることで非常に大きい値から非常に小さい値まで扱いやすくする。",
+          "vi": "Số dấu phẩy động thường chia giá trị thành ba phần: dấu, số mũ và phần định trị. Việc thay đổi số mũ giúp biểu diễn thuận tiện từ các số rất lớn đến các số rất nhỏ."
+        },
+        {
+          "type": "point",
+          "ja": "仮数部は有効数字を保持し、値の細かさや精度に強く関係する。指数部は基数の何乗を掛けるかを表し、主に表現できる数値の大きさの範囲に関係する。",
+          "vi": "仮数部 giữ các chữ số có nghĩa và ảnh hưởng mạnh đến độ chính xác. 指数部 biểu thị lũy thừa của cơ số cần nhân vào, chủ yếu quyết định phạm vi độ lớn của số có thể biểu diễn."
+        },
+        {
+          "type": "point",
+          "ja": "一般的な浮動小数点表現では、単精度は32ビット、倍精度は64ビットで扱われる。倍精度はより多くのビットを使うため、通常は単精度より高い精度と広い表現能力をもつ。",
+          "vi": "Trong cách biểu diễn floating-point phổ biến, độ chính xác đơn dùng 32 bit và độ chính xác kép dùng 64 bit. Do dùng nhiều bit hơn, double precision thường có độ chính xác cao hơn và khả năng biểu diễn rộng hơn single precision."
+        },
+        {
+          "type": "example",
+          "ja": "考え方の例：2進数の1.101×2^3では、1.101が有効数字を表す部分、3が指数に当たる。指数を変えると数値全体の大きさが変化する。",
+          "vi": "Ví dụ về cách hiểu: trong 1.101 × 2^3 ở hệ nhị phân, 1.101 là phần thể hiện các chữ số có nghĩa, còn 3 là số mũ. Thay đổi số mũ sẽ làm thay đổi độ lớn của toàn bộ giá trị."
+        },
+        {
+          "type": "warning",
+          "ja": "浮動小数点数は実数を無限の精度で表せるわけではない。仮数部の桁数が有限なので、表現できない下位桁は丸められ、計算誤差の原因になる。",
+          "vi": "Floating-point không thể biểu diễn số thực với độ chính xác vô hạn. Vì số chữ số của phần định trị là hữu hạn, các chữ số thấp không thể chứa hết sẽ bị làm tròn và có thể gây sai số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "単精度浮動小数点数",
+          "reading": "たんせいどうきしょうすうてんすう",
+          "english": "Single-precision Floating-point Number",
+          "vi": "số dấu phẩy động độ chính xác đơn",
+          "definitionJa": "一般に32ビットで表現される浮動小数点数。倍精度より使用ビット数が少なく、必要な記憶容量も小さい。",
+          "definitionVi": "Số dấu phẩy động thường được biểu diễn bằng 32 bit. Nó dùng ít bit và ít bộ nhớ hơn so với độ chính xác kép."
+        },
+        {
+          "term": "倍精度浮動小数点数",
+          "reading": "ばいせいどうきしょうすうてんすう",
+          "english": "Double-precision Floating-point Number",
+          "vi": "số dấu phẩy động độ chính xác kép",
+          "definitionJa": "一般に64ビットで表現される浮動小数点数。単精度より多くの有効桁を保持でき、通常は高い精度で計算できる。",
+          "definitionVi": "Số dấu phẩy động thường được biểu diễn bằng 64 bit. Nó giữ được nhiều chữ số có nghĩa hơn single precision và thường cho độ chính xác tính toán cao hơn."
+        },
+        {
+          "term": "仮数部",
+          "reading": "かすうぶ",
+          "english": "Significand (Mantissa)",
+          "vi": "phần định trị",
+          "definitionJa": "浮動小数点表現で有効数字を保持する部分。保持できる桁数が計算精度に大きく影響する。",
+          "definitionVi": "Phần giữ các chữ số có nghĩa trong biểu diễn dấu phẩy động. Số lượng chữ số có thể giữ ảnh hưởng lớn đến độ chính xác tính toán."
+        },
+        {
+          "term": "指数部",
+          "reading": "しすうぶ",
+          "english": "Exponent",
+          "vi": "phần số mũ",
+          "definitionJa": "浮動小数点表現で、基数を何乗するかを示す部分。主に表現できる数値の大きさの範囲を決める。",
+          "definitionVi": "Phần biểu thị cơ số được nâng lên lũy thừa bao nhiêu trong biểu diễn dấu phẩy động. Nó chủ yếu quyết định phạm vi độ lớn của giá trị có thể biểu diễn."
+        }
+      ],
+      "tags": [
+        "discrete-mathematics",
+        "number-representation",
+        "floating-point"
+      ]
+    },
+    {
+      "id": "decimal-encoding",
+      "order": 5,
+      "titleJa": "10進数の内部表現",
+      "titleVi": "Biểu diễn số thập phân trong máy tính",
+      "importance": "medium",
+      "summaryJa": "BCDは10進数の各桁を4ビットずつ2進数で符号化する。パック10進数は10進数字を4ビット単位で詰めて格納し、10進数を効率よく扱う。",
+      "summaryVi": "BCD mã hóa từng chữ số thập phân bằng 4 bit. Packed decimal đóng gói các chữ số thập phân theo từng nhóm 4 bit để lưu và xử lý dữ liệu thập phân hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BCD",
+          "vi": "BCD"
+        },
+        {
+          "type": "paragraph",
+          "ja": "BCDでは、10進数の各桁を独立に4ビットの2進数へ変換する。数値全体を通常の2進数へ変換する方式とは異なる。",
+          "vi": "Trong BCD, từng chữ số thập phân được chuyển độc lập thành 4 bit nhị phân. Cách này khác với việc chuyển toàn bộ giá trị thập phân thành một số nhị phân thông thường."
+        },
+        {
+          "type": "example",
+          "ja": "例：10進数59は、5を0101、9を1001として表すので、BCDでは0101 1001となる。59そのものを通常の2進数に変換した値とは区別する。",
+          "vi": "Ví dụ: số thập phân 59 được mã hóa bằng 5 → 0101 và 9 → 1001, nên BCD là 0101 1001. Không được nhầm với kết quả chuyển toàn bộ số 59 sang nhị phân thông thường."
+        },
+        {
+          "type": "heading",
+          "ja": "パック10進数",
+          "vi": "Packed decimal"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パック10進数では、10進数字1桁を4ビットで表し、1バイトに原則として2桁を詰めて格納する。符号付きの場合は、末尾の4ビットを符号情報に使用する方式が一般的である。",
+          "vi": "Trong packed decimal, mỗi chữ số thập phân chiếm 4 bit, vì vậy về nguyên tắc một byte chứa được hai chữ số. Với số có dấu, cách phổ biến là dùng 4 bit cuối để lưu thông tin dấu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、BCDが「各10進桁を個別に4ビット化する」ことと、パック10進数が「4ビット単位で数字を詰める」ことを区別して覚える。",
+          "vi": "Trong FE, cần phân biệt: BCD mã hóa từng chữ số thập phân riêng bằng 4 bit, còn packed decimal sắp các chữ số đó sát nhau theo đơn vị 4 bit để lưu trữ."
+        },
+        {
+          "type": "warning",
+          "ja": "BCDの0101 1001を、通常の2進整数1011001と同じ意味だと考えない。BCDでは4ビットごとに1桁の10進数字として読む。",
+          "vi": "Không đọc BCD 0101 1001 như một số nguyên nhị phân thông thường. Với BCD, phải tách mỗi 4 bit và đọc chúng như từng chữ số thập phân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BCD",
+          "reading": "ビーシーディー",
+          "english": "Binary Coded Decimal",
+          "vi": "mã thập phân mã hóa bằng nhị phân",
+          "definitionJa": "10進数の各桁を、それぞれ4ビットの2進数で符号化する表現方式。",
+          "definitionVi": "Phương pháp biểu diễn trong đó từng chữ số thập phân được mã hóa riêng bằng 4 bit nhị phân."
+        },
+        {
+          "term": "パック10進数",
+          "reading": "パックじっしんすう",
+          "english": "Packed Decimal",
+          "vi": "số thập phân đóng gói",
+          "definitionJa": "10進数字を4ビット単位で連続して格納し、1バイトに原則2桁を収める10進数表現。",
+          "definitionVi": "Cách biểu diễn số thập phân bằng cách lưu liên tiếp từng chữ số theo đơn vị 4 bit, về nguyên tắc cho phép chứa hai chữ số trong một byte."
+        }
+      ],
+      "tags": [
+        "discrete-mathematics",
+        "number-representation",
+        "decimal-encoding"
+      ]
+    },
+    {
+      "id": "shift-operation",
+      "order": 6,
+      "titleJa": "シフト演算",
+      "titleVi": "Phép dịch bit",
+      "importance": "high",
+      "summaryJa": "シフト演算はビット列を左右へ移動させる演算である。論理シフトと算術シフトでは、空いたビットや符号の扱いが異なる。",
+      "summaryVi": "Phép dịch bit di chuyển chuỗi bit sang trái hoặc phải. Logical shift và arithmetic shift khác nhau ở cách xử lý các bit trống và dấu của số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "論理シフト",
+          "vi": "Logical shift"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理シフトは、ビット列を左または右へ移動し、空いた位置を0で埋める。符号付き整数の符号を維持することは目的としない。",
+          "vi": "論理シフト dịch chuỗi bit sang trái hoặc phải và điền 0 vào các vị trí trống. Mục đích của nó không phải là bảo toàn dấu của số nguyên có dấu."
+        },
+        {
+          "type": "example",
+          "ja": "例：8ビットの00101100を論理右シフトすると、1ビットなら00010110となる。右端からはみ出したビットは失われ、左端には0が入る。",
+          "vi": "Ví dụ: dịch logic sang phải 1 bit cho 00101100 (8 bit) được 00010110. Bit tràn ra bên phải bị mất và bên trái được điền 0."
+        },
+        {
+          "type": "heading",
+          "ja": "算術シフト",
+          "vi": "Arithmetic shift"
+        },
+        {
+          "type": "paragraph",
+          "ja": "算術シフトは符号付き整数を意識したシフトである。特に算術右シフトでは、通常、最上位の符号を保つように空いた上位ビットを元の符号ビットで埋める。",
+          "vi": "算術シフト là phép dịch có xét đến số nguyên có dấu. Đặc biệt khi dịch số học sang phải, các bit trống phía trên thường được điền bằng bit dấu ban đầu để giữ dấu của số."
+        },
+        {
+          "type": "point",
+          "ja": "オーバーフローなどが起きない範囲では、左にnビット移動する操作は2^n倍に対応する。符号付き整数の算術右シフトは2^nで割る操作に対応する考え方で使われる。",
+          "vi": "Nếu không xảy ra tràn, dịch trái n bit tương ứng với nhân 2^n. Với số nguyên có dấu, dịch số học sang phải được dùng theo ý tưởng tương ứng với chia cho 2^n."
+        },
+        {
+          "type": "warning",
+          "ja": "論理右シフトと算術右シフトの違いは重要である。論理右シフトは左側を0で埋めるが、算術右シフトは符号を維持するため符号ビットを用いて埋める。",
+          "vi": "Sự khác nhau giữa dịch logic phải và dịch số học phải rất quan trọng: logical right shift điền 0 bên trái, còn arithmetic right shift dùng bit dấu để giữ dấu của số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "論理シフト",
+          "reading": "ろんりシフト",
+          "english": "Logical Shift",
+          "vi": "dịch logic",
+          "definitionJa": "ビット列を左右に移動し、空いたビット位置を0で埋めるシフト演算。",
+          "definitionVi": "Phép dịch chuỗi bit sang trái hoặc phải và điền 0 vào các vị trí bit bị trống."
+        },
+        {
+          "term": "算術シフト",
+          "reading": "さんじゅつシフト",
+          "english": "Arithmetic Shift",
+          "vi": "dịch số học",
+          "definitionJa": "符号付き整数の符号を考慮して行うシフト演算。算術右シフトでは通常、符号を維持するように上位ビットを補う。",
+          "definitionVi": "Phép dịch bit có xét đến dấu của số nguyên có dấu. Khi dịch số học sang phải, các bit phía trên thường được điền để duy trì dấu."
+        }
+      ],
+      "tags": ["discrete-mathematics", "bit-operation", "shift"]
+    },
+    {
+      "id": "calculation-error",
+      "order": 7,
+      "titleJa": "計算誤差",
+      "titleVi": "Sai số tính toán",
+      "importance": "high",
+      "summaryJa": "有限桁の浮動小数点演算では、桁落ちや情報落ちが発生する。発生条件の違いを理解し、どちらの現象かを判別できることが重要である。",
+      "summaryVi": "Trong phép tính floating-point với số chữ số hữu hạn có thể xảy ra 桁落ち và 情報落ち. Điều quan trọng là hiểu điều kiện phát sinh để phân biệt chính xác hai hiện tượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "桁落ち",
+          "vi": "桁落ち – mất chữ số có nghĩa do triệt tiêu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "桁落ちは、絶対値がほぼ等しい数どうしを減算したときなどに、上位の有効数字が打ち消し合い、結果として有効桁数が大きく減る現象である。",
+          "vi": "桁落ち xảy ra chẳng hạn khi trừ hai số có trị tuyệt đối gần bằng nhau: các chữ số có nghĩa ở phần cao bị triệt tiêu, làm số chữ số có nghĩa còn lại giảm mạnh."
+        },
+        {
+          "type": "example",
+          "ja": "考え方の例：1.234567と1.234566の差を求めると、多くの上位桁が打ち消し合う。元の値に丸め誤差が含まれている場合、その誤差の影響が結果に対して相対的に大きくなる。",
+          "vi": "Ví dụ về cách hiểu: khi tính hiệu giữa 1,234567 và 1,234566, nhiều chữ số phía trước bị triệt tiêu. Nếu hai giá trị ban đầu đã chứa sai số làm tròn, ảnh hưởng tương đối của sai số đó lên kết quả sẽ trở nên lớn."
+        },
+        {
+          "type": "heading",
+          "ja": "情報落ち",
+          "vi": "情報落ち – mất phần thông tin nhỏ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報落ちは、絶対値が大きく異なる浮動小数点数を加減算するとき、小さい方の数の有効桁の一部または全部が表現範囲から押し出され、結果に反映されなくなる現象である。",
+          "vi": "情報落ち xảy ra khi cộng hoặc trừ các số floating-point có trị tuyệt đối chênh lệch rất lớn: một phần hoặc toàn bộ chữ số có nghĩa của số nhỏ bị đẩy ra ngoài phạm vi có thể giữ và không còn ảnh hưởng đến kết quả."
+        },
+        {
+          "type": "example",
+          "ja": "例：保持できる有効桁数が限られている環境では、非常に大きい数に極端に小さい数を加えても、加えた小さい値が結果に現れないことがある。",
+          "vi": "Ví dụ: trong môi trường chỉ giữ được số chữ số có nghĩa hữu hạn, khi cộng một số cực nhỏ vào một số rất lớn, giá trị nhỏ đó có thể không xuất hiện trong kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "多数の浮動小数点数を合計するとき、情報落ちを抑える基本的な考え方の一つは、絶対値の小さい値から先に加算することである。",
+          "vi": "Khi cộng nhiều số floating-point, một cách cơ bản để giảm 情報落ち là cộng các giá trị có trị tuyệt đối nhỏ trước."
+        },
+        {
+          "type": "warning",
+          "ja": "FEでは原因を区別する。桁落ちは「近い値の差で有効桁が失われる」、情報落ちは「大きさが大きく異なる値の加減算で小さい方の情報が失われる」と整理する。",
+          "vi": "Trong FE cần phân biệt nguyên nhân: 桁落ち là mất chữ số có nghĩa khi lấy hiệu các giá trị gần nhau; 情報落ち là mất thông tin của số nhỏ khi cộng/trừ các giá trị có độ lớn chênh lệch nhiều."
+        }
+      ],
+      "terms": [
+        {
+          "term": "桁落ち",
+          "reading": "けたおち",
+          "english": "Cancellation",
+          "vi": "mất chữ số có nghĩa do triệt tiêu",
+          "definitionJa": "絶対値がほぼ等しい数の減算などで上位の有効数字が打ち消され、結果の有効桁数が大きく減少する現象。",
+          "definitionVi": "Hiện tượng các chữ số có nghĩa ở phần cao bị triệt tiêu khi trừ các số có trị tuyệt đối gần bằng nhau, khiến số chữ số có nghĩa của kết quả giảm mạnh."
+        },
+        {
+          "term": "情報落ち",
+          "reading": "じょうほうおち",
+          "english": "Absorption (Loss of Trailing Digits)",
+          "vi": "mất thông tin của số nhỏ",
+          "definitionJa": "絶対値が大きく異なる浮動小数点数の加減算で、小さい方の有効桁の一部または全部が失われる現象。",
+          "definitionVi": "Hiện tượng một phần hoặc toàn bộ chữ số có nghĩa của số nhỏ bị mất khi cộng hoặc trừ các số floating-point có trị tuyệt đối chênh lệch rất lớn."
+        }
+      ],
+      "tags": ["discrete-mathematics", "floating-point", "numerical-error"]
+    }
+  ]
+}

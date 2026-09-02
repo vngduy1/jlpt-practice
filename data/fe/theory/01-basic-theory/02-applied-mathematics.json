@@ -1,0 +1,1027 @@
+{
+  "id": "applied-mathematics",
+  "order": 2,
+  "titleJa": "応用数学",
+  "titleVi": "Toán ứng dụng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "probability-basics",
+      "order": 1,
+      "titleJa": "確率の基本",
+      "titleVi": "Cơ bản về xác suất",
+      "importance": "high",
+      "summaryJa": "階乗、確率の加法・乗法、同時確率、条件付き確率、ベイズの定理をまとめて学ぶ。確率問題では、事象の関係を見極めて適切な式を選ぶことが重要である。",
+      "summaryVi": "Học chung về giai thừa, quy tắc cộng và nhân xác suất, xác suất đồng thời, xác suất có điều kiện và định lý Bayes. Khi giải bài FE, điều quan trọng là xác định đúng quan hệ giữa các biến cố trước khi chọn công thức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "確率計算の基本",
+          "vi": "Nền tảng tính xác suất"
+        },
+        {
+          "type": "paragraph",
+          "ja": "確率では、まず全事象と求めたい事象を整理する。互いに排反な事象の「AまたはB」は確率を加え、独立な事象の「AかつB」は確率を掛けるのが基本である。一般の場合は条件付き確率を用いて関係を表す。",
+          "vi": "Trong xác suất, trước hết cần xác định không gian mẫu và biến cố cần tìm. Với các biến cố loại trừ nhau, xác suất “A hoặc B” được cộng; với các biến cố độc lập, xác suất “A và B” được nhân. Trường hợp tổng quát dùng xác suất có điều kiện để biểu diễn mối quan hệ."
+        },
+        {
+          "type": "point",
+          "ja": "加法定理の一般形は P(A∪B)=P(A)+P(B)-P(A∩B)。AとBが排反なら P(A∩B)=0 なので単純な加算になる。",
+          "vi": "Công thức cộng tổng quát là P(A∪B)=P(A)+P(B)-P(A∩B). Nếu A và B loại trừ nhau thì P(A∩B)=0, nên chỉ cần cộng hai xác suất."
+        },
+        {
+          "type": "point",
+          "ja": "乗法定理は P(A∩B)=P(A)P(B|A)。AとBが独立なら P(B|A)=P(B) なので P(A∩B)=P(A)P(B) となる。",
+          "vi": "Quy tắc nhân là P(A∩B)=P(A)P(B|A). Nếu A và B độc lập thì P(B|A)=P(B), nên P(A∩B)=P(A)P(B)."
+        },
+        {
+          "type": "example",
+          "ja": "公平なサイコロを2回振り、両方とも6が出る確率は (1/6)×(1/6)=1/36 である。",
+          "vi": "Tung một xúc xắc công bằng hai lần, xác suất cả hai lần đều ra 6 là (1/6)×(1/6)=1/36."
+        },
+        {
+          "type": "point",
+          "ja": "ベイズの定理は P(A|B)=P(B|A)P(A)/P(B)。原因Aを、観測結果Bから逆向きに推定するときに使う。",
+          "vi": "Định lý Bayes: P(A|B)=P(B|A)P(A)/P(B). Nó được dùng để suy ngược xác suất của nguyên nhân A từ kết quả quan sát B."
+        },
+        {
+          "type": "warning",
+          "ja": "「排反」と「独立」は別の概念である。排反は同時に起こらないこと、独立は一方の発生が他方の確率に影響しないことを意味する。",
+          "vi": "Không nhầm “loại trừ nhau” với “độc lập”. Loại trừ nhau nghĩa là không thể xảy ra đồng thời; độc lập nghĩa là việc một biến cố xảy ra không làm thay đổi xác suất của biến cố kia."
+        }
+      ],
+      "terms": [
+        {
+          "term": "階乗",
+          "reading": "かいじょう",
+          "english": "Factorial",
+          "vi": "giai thừa",
+          "definitionJa": "自然数nについて、1からnまでの整数をすべて掛けた値。n! と表す。",
+          "definitionVi": "Với số tự nhiên n, là tích của tất cả các số nguyên từ 1 đến n, ký hiệu n!."
+        },
+        {
+          "term": "加法定理",
+          "reading": "かほうていり",
+          "english": "Addition Rule of Probability",
+          "vi": "quy tắc cộng xác suất",
+          "definitionJa": "複数の事象の和事象の確率を求める法則。重なりがある場合は共通部分を差し引く。",
+          "definitionVi": "Quy tắc tính xác suất của hợp các biến cố; nếu các biến cố có phần giao nhau thì phải trừ phần giao."
+        },
+        {
+          "term": "乗法定理",
+          "reading": "じょうほうていり",
+          "english": "Multiplication Rule of Probability",
+          "vi": "quy tắc nhân xác suất",
+          "definitionJa": "複数の事象が同時に起こる確率を、条件付き確率を用いて求める法則。",
+          "definitionVi": "Quy tắc tính xác suất nhiều biến cố xảy ra đồng thời bằng xác suất có điều kiện."
+        },
+        {
+          "term": "同時確率",
+          "reading": "どうじかくりつ",
+          "english": "Joint Probability",
+          "vi": "xác suất đồng thời",
+          "definitionJa": "二つ以上の事象が同時に起こる確率。",
+          "definitionVi": "Xác suất hai hoặc nhiều biến cố xảy ra đồng thời."
+        },
+        {
+          "term": "条件付き確率",
+          "reading": "じょうけんつきかくりつ",
+          "english": "Conditional Probability",
+          "vi": "xác suất có điều kiện",
+          "definitionJa": "事象Aが起きたという条件の下で事象Bが起こる確率。P(B|A) と表す。",
+          "definitionVi": "Xác suất biến cố B xảy ra với điều kiện biến cố A đã xảy ra, ký hiệu P(B|A)."
+        },
+        {
+          "term": "ベイズの定理",
+          "reading": "ベイズのていり",
+          "english": "Bayes' Theorem",
+          "vi": "định lý Bayes",
+          "definitionJa": "条件付き確率の関係から、観測された結果を基に原因側の確率を更新する定理。",
+          "definitionVi": "Định lý dùng quan hệ xác suất có điều kiện để cập nhật xác suất của nguyên nhân dựa trên kết quả quan sát."
+        }
+      ],
+      "tags": ["applied-mathematics", "probability"]
+    },
+    {
+      "id": "probability-distributions",
+      "order": 2,
+      "titleJa": "確率分布",
+      "titleVi": "Phân phối xác suất",
+      "importance": "high",
+      "summaryJa": "代表的な確率分布の特徴と、どのような現象をモデル化するかを理解する。",
+      "summaryVi": "Hiểu đặc điểm của các phân phối xác suất tiêu biểu và loại hiện tượng mà mỗi phân phối dùng để mô hình hóa.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "確率分布は、確率変数がどの値をどの程度の確率で取るかを表す。FEでは、分布名と典型的な利用場面を対応付けて覚えることが重要である。",
+          "vi": "Phân phối xác suất biểu diễn một biến ngẫu nhiên nhận các giá trị với xác suất như thế nào. Trong FE, cần liên kết tên phân phối với tình huống điển hình mà nó mô hình hóa."
+        },
+        {
+          "type": "point",
+          "ja": "ベルヌーイ分布は1回の成功・失敗、二項分布は独立なベルヌーイ試行をn回行ったときの成功回数を表す。",
+          "vi": "Phân phối Bernoulli mô tả một phép thử thành công/thất bại; phân phối nhị thức mô tả số lần thành công trong n phép thử Bernoulli độc lập."
+        },
+        {
+          "type": "point",
+          "ja": "ポアソン分布は一定時間・領域内の発生回数、指数分布は次の発生までの待ち時間をモデル化する代表的な分布である。",
+          "vi": "Phân phối Poisson thường mô hình hóa số lần xảy ra trong một khoảng thời gian/khu vực; phân phối mũ thường mô hình hóa thời gian chờ đến lần xảy ra tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "正規分布は平均を中心とする左右対称の釣鐘形分布。対数正規分布は、値の対数を取ると正規分布になる正の値の分布である。",
+          "vi": "Phân phối chuẩn có dạng chuông đối xứng quanh trung bình. Phân phối log-chuẩn là phân phối của đại lượng dương mà log của nó tuân theo phân phối chuẩn."
+        },
+        {
+          "type": "example",
+          "ja": "平均して1時間に4件の障害が独立に発生すると仮定すると、1時間の発生件数はポアソン分布でモデル化できる。",
+          "vi": "Nếu giả sử trung bình có 4 sự cố mỗi giờ và các sự cố xảy ra độc lập, số sự cố trong một giờ có thể được mô hình hóa bằng phân phối Poisson."
+        },
+        {
+          "type": "warning",
+          "ja": "ポアソン分布の「回数」と指数分布の「待ち時間」を取り違えない。",
+          "vi": "Không nhầm Poisson (số lần xảy ra) với phân phối mũ (thời gian chờ)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ポアソン分布",
+          "reading": "ポアソンぶんぷ",
+          "english": "Poisson Distribution",
+          "vi": "phân phối Poisson",
+          "definitionJa": "一定期間や領域内で、独立に発生する事象の回数を表す離散確率分布。",
+          "definitionVi": "Phân phối rời rạc biểu diễn số lần một biến cố độc lập xảy ra trong một khoảng thời gian hoặc khu vực."
+        },
+        {
+          "term": "ベルヌーイ分布",
+          "reading": "ベルヌーイぶんぷ",
+          "english": "Bernoulli Distribution",
+          "vi": "phân phối Bernoulli",
+          "definitionJa": "成功・失敗のように二つの結果だけを取る1回の試行を表す確率分布。",
+          "definitionVi": "Phân phối xác suất cho một phép thử chỉ có hai kết quả, chẳng hạn thành công hoặc thất bại."
+        },
+        {
+          "term": "二項分布",
+          "reading": "にこうぶんぷ",
+          "english": "Binomial Distribution",
+          "vi": "phân phối nhị thức",
+          "definitionJa": "成功確率が一定の独立な試行をn回行ったときの成功回数を表す分布。",
+          "definitionVi": "Phân phối biểu diễn số lần thành công trong n phép thử độc lập có xác suất thành công không đổi."
+        },
+        {
+          "term": "正規分布",
+          "reading": "せいきぶんぷ",
+          "english": "Normal Distribution",
+          "vi": "phân phối chuẩn",
+          "definitionJa": "平均を中心に左右対称な釣鐘形をもつ連続確率分布。",
+          "definitionVi": "Phân phối xác suất liên tục dạng chuông, đối xứng quanh giá trị trung bình."
+        },
+        {
+          "term": "指数分布",
+          "reading": "しすうぶんぷ",
+          "english": "Exponential Distribution",
+          "vi": "phân phối mũ",
+          "definitionJa": "一定の発生率をもつ事象について、次の発生までの時間を表す連続確率分布。",
+          "definitionVi": "Phân phối liên tục mô tả thời gian chờ đến lần xảy ra tiếp theo của một biến cố có tốc độ xảy ra không đổi."
+        },
+        {
+          "term": "対数正規分布",
+          "reading": "たいすうせいきぶんぷ",
+          "english": "Log-normal Distribution",
+          "vi": "phân phối log-chuẩn",
+          "definitionJa": "確率変数の対数が正規分布に従う、0より大きい値を取る連続確率分布。",
+          "definitionVi": "Phân phối liên tục nhận giá trị dương, trong đó log của biến ngẫu nhiên tuân theo phân phối chuẩn."
+        }
+      ],
+      "tags": ["applied-mathematics", "probability", "distribution"]
+    },
+    {
+      "id": "descriptive-statistics",
+      "order": 3,
+      "titleJa": "記述統計",
+      "titleVi": "Thống kê mô tả",
+      "importance": "high",
+      "summaryJa": "代表値と散らばり、分布形状を示す基本的な統計量を理解する。",
+      "summaryVi": "Hiểu các đại lượng thống kê cơ bản mô tả xu hướng trung tâm, độ phân tán và hình dạng phân phối.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "代表値とばらつき",
+          "vi": "Giá trị đại diện và độ phân tán"
+        },
+        {
+          "type": "paragraph",
+          "ja": "平均値・中央値・最頻値はデータの中心を表す代表値である。分散と標準偏差は、データが平均からどの程度散らばっているかを表す。",
+          "vi": "Trung bình, trung vị và mốt là các giá trị đại diện cho trung tâm dữ liệu. Phương sai và độ lệch chuẩn biểu diễn mức độ dữ liệu phân tán quanh trung bình."
+        },
+        {
+          "type": "example",
+          "ja": "データ {1,2,2,3,12} では平均値は4、中央値は2、最頻値は2である。極端な値12の影響で平均値は大きくなる。",
+          "vi": "Với dữ liệu {1,2,2,3,12}, trung bình là 4, trung vị là 2 và mốt là 2. Giá trị cực đoan 12 làm trung bình tăng đáng kể."
+        },
+        {
+          "type": "point",
+          "ja": "分散は平均との差を二乗して平均した量、標準偏差は分散の平方根である。標準偏差は元データと同じ単位で解釈できる。",
+          "vi": "Phương sai là trung bình của bình phương độ lệch so với trung bình; độ lệch chuẩn là căn bậc hai của phương sai. Độ lệch chuẩn có cùng đơn vị với dữ liệu gốc."
+        },
+        {
+          "type": "point",
+          "ja": "歪度は分布の左右非対称性、尖度は分布の裾の重さや極端値の出やすさに関係する形状指標である。",
+          "vi": "Skewness biểu diễn mức bất đối xứng của phân phối; kurtosis liên quan đến độ nặng của đuôi và xu hướng xuất hiện giá trị cực đoan."
+        },
+        {
+          "type": "warning",
+          "ja": "相関係数と違い、標準偏差・分散は一つの変数の散らばりを表す。",
+          "vi": "Khác với hệ số tương quan, độ lệch chuẩn và phương sai mô tả độ phân tán của một biến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "中央値",
+          "reading": "ちゅうおうち",
+          "english": "Median",
+          "vi": "trung vị",
+          "definitionJa": "データを順に並べたとき中央に位置する値。個数が偶数なら中央2値の平均を用いる。",
+          "definitionVi": "Giá trị nằm ở giữa khi sắp dữ liệu theo thứ tự; nếu số phần tử chẵn thì lấy trung bình của hai giá trị giữa."
+        },
+        {
+          "term": "最頻値",
+          "reading": "さいひんち",
+          "english": "Mode",
+          "vi": "mốt",
+          "definitionJa": "データ中で最も多く出現する値。",
+          "definitionVi": "Giá trị xuất hiện với tần suất cao nhất trong dữ liệu."
+        },
+        {
+          "term": "平均値",
+          "reading": "へいきんち",
+          "english": "Mean",
+          "vi": "giá trị trung bình",
+          "definitionJa": "数値の合計を個数で割って得る代表値。",
+          "definitionVi": "Giá trị đại diện bằng tổng các số chia cho số lượng phần tử."
+        },
+        {
+          "term": "標準偏差",
+          "reading": "ひょうじゅんへんさ",
+          "english": "Standard Deviation",
+          "vi": "độ lệch chuẩn",
+          "definitionJa": "分散の平方根で、データの散らばりの大きさを元データと同じ単位で示す。",
+          "definitionVi": "Căn bậc hai của phương sai, biểu diễn độ phân tán bằng cùng đơn vị với dữ liệu gốc."
+        },
+        {
+          "term": "分散",
+          "reading": "ぶんさん",
+          "english": "Variance",
+          "vi": "phương sai",
+          "definitionJa": "各データと平均値との差を二乗し、その平均を取った散らばりの指標。",
+          "definitionVi": "Chỉ số độ phân tán được tính từ trung bình của bình phương độ lệch giữa từng giá trị và giá trị trung bình."
+        },
+        {
+          "term": "歪度",
+          "reading": "わいど",
+          "english": "Skewness",
+          "vi": "độ lệch/skewness",
+          "definitionJa": "確率分布やデータ分布の左右の非対称性を表す指標。",
+          "definitionVi": "Chỉ số biểu diễn mức độ bất đối xứng trái-phải của phân phối."
+        },
+        {
+          "term": "尖度",
+          "reading": "せんど",
+          "english": "Kurtosis",
+          "vi": "độ nhọn/kurtosis",
+          "definitionJa": "分布の裾の重さや極端値の出やすさに関係する分布形状の指標。",
+          "definitionVi": "Chỉ số hình dạng phân phối liên quan đến độ nặng của đuôi và khả năng xuất hiện giá trị cực đoan."
+        }
+      ],
+      "tags": ["applied-mathematics", "statistics", "descriptive-statistics"]
+    },
+    {
+      "id": "correlation-and-regression",
+      "order": 4,
+      "titleJa": "相関・回帰と多変量解析",
+      "titleVi": "Tương quan, hồi quy và phân tích đa biến",
+      "importance": "medium",
+      "summaryJa": "変数間の関係を調べる相関・回帰と、複数変数を扱う代表的な分析手法を理解する。",
+      "summaryVi": "Hiểu tương quan, hồi quy để khảo sát mối quan hệ giữa các biến và các phương pháp phân tích đa biến tiêu biểu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "相関は二つの変数が一緒に変化する傾向を示し、回帰は説明変数から目的変数を説明・予測するモデルを作る。",
+          "vi": "Tương quan cho biết xu hướng hai biến thay đổi cùng nhau; hồi quy xây dựng mô hình dùng biến giải thích để mô tả hoặc dự đoán biến mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "相関係数は通常 -1〜1 の範囲を取り、符号が関係の方向、絶対値が線形関係の強さを示す。",
+          "vi": "Hệ số tương quan thường nằm trong khoảng -1 đến 1; dấu biểu thị chiều quan hệ, còn trị tuyệt đối biểu thị độ mạnh của quan hệ tuyến tính."
+        },
+        {
+          "type": "warning",
+          "ja": "相関が強くても因果関係があるとは限らない。第三の変数によって見かけ上の関係が生じる擬似相関に注意する。",
+          "vi": "Tương quan mạnh không đồng nghĩa với quan hệ nhân quả. Cần chú ý tương quan giả do một biến thứ ba tạo ra."
+        },
+        {
+          "type": "point",
+          "ja": "主成分分析は多くの変数を、分散をできるだけ保ちながら少数の主成分へまとめる。因子分析は観測変数の背後にある共通因子を推定する。",
+          "vi": "PCA gom nhiều biến thành một số ít thành phần chính trong khi cố giữ nhiều phương sai nhất có thể. Factor analysis ước lượng các nhân tố tiềm ẩn đứng sau các biến quan sát."
+        },
+        {
+          "type": "example",
+          "ja": "家賃を目的変数、広さ・駅からの距離・築年数を説明変数として回帰モデルを作る、という考え方が回帰分析の典型例である。",
+          "vi": "Ví dụ điển hình của hồi quy: dùng tiền thuê nhà làm biến mục tiêu, còn diện tích, khoảng cách đến ga và tuổi tòa nhà làm các biến giải thích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "相関係数",
+          "reading": "そうかんけいすう",
+          "english": "Correlation Coefficient",
+          "vi": "hệ số tương quan",
+          "definitionJa": "二つの変数の線形的な関係の方向と強さを表す指標。",
+          "definitionVi": "Chỉ số biểu diễn chiều và độ mạnh của mối quan hệ tuyến tính giữa hai biến."
+        },
+        {
+          "term": "回帰分析",
+          "reading": "かいきぶんせき",
+          "english": "Regression Analysis",
+          "vi": "phân tích hồi quy",
+          "definitionJa": "説明変数と目的変数の関係をモデル化し、説明や予測に用いる統計手法。",
+          "definitionVi": "Phương pháp thống kê mô hình hóa quan hệ giữa biến giải thích và biến mục tiêu để giải thích hoặc dự đoán."
+        },
+        {
+          "term": "相関分析",
+          "reading": "そうかんぶんせき",
+          "english": "Correlation Analysis",
+          "vi": "phân tích tương quan",
+          "definitionJa": "変数間の関連の方向や強さを調べる分析。",
+          "definitionVi": "Phân tích mức độ và chiều liên hệ giữa các biến."
+        },
+        {
+          "term": "主成分分析",
+          "reading": "しゅせいぶんぶんせき",
+          "english": "Principal Component Analysis",
+          "vi": "phân tích thành phần chính",
+          "definitionJa": "多数の相関した変数を、情報をできるだけ保つ少数の主成分へ変換する次元削減手法。",
+          "definitionVi": "Phương pháp giảm chiều biến nhiều biến tương quan thành một số ít thành phần chính, cố giữ tối đa thông tin."
+        },
+        {
+          "term": "因子分析",
+          "reading": "いんしぶんせき",
+          "english": "Factor Analysis",
+          "vi": "phân tích nhân tố",
+          "definitionJa": "観測された複数変数の背後にある共通の潜在因子を推定する手法。",
+          "definitionVi": "Phương pháp ước lượng các nhân tố tiềm ẩn chung đứng sau nhiều biến quan sát."
+        },
+        {
+          "term": "相関と因果",
+          "reading": "そうかんといんが",
+          "english": "Correlation and Causation",
+          "vi": "tương quan và nhân quả",
+          "definitionJa": "変数が共に変化する相関と、一方が他方の原因となる因果関係を区別する考え方。",
+          "definitionVi": "Khái niệm phân biệt tương quan (cùng biến đổi) với quan hệ nhân quả (một biến gây ra biến kia)."
+        },
+        {
+          "term": "擬似相関",
+          "reading": "ぎじそうかん",
+          "english": "Spurious Correlation",
+          "vi": "tương quan giả",
+          "definitionJa": "直接の因果関係がないのに、第三の要因などで見かけ上の相関が現れること。",
+          "definitionVi": "Hiện tượng trông như có tương quan dù không có quan hệ nhân quả trực tiếp, thường do yếu tố thứ ba."
+        },
+        {
+          "term": "説明変数",
+          "reading": "せつめいへんすう",
+          "english": "Explanatory Variable",
+          "vi": "biến giải thích",
+          "definitionJa": "回帰などで、目的変数を説明・予測する側の変数。",
+          "definitionVi": "Biến được dùng để giải thích hoặc dự đoán biến mục tiêu trong hồi quy."
+        },
+        {
+          "term": "目的変数",
+          "reading": "もくてきへんすう",
+          "english": "Response Variable",
+          "vi": "biến mục tiêu",
+          "definitionJa": "回帰などで、説明または予測の対象となる変数。",
+          "definitionVi": "Biến cần được giải thích hoặc dự đoán trong mô hình hồi quy."
+        },
+        {
+          "term": "尺度",
+          "reading": "しゃくど",
+          "english": "Scale of Measurement",
+          "vi": "thang đo",
+          "definitionJa": "データの性質を名義・順序・間隔・比例などに分類する測定上の基準。",
+          "definitionVi": "Tiêu chuẩn phân loại tính chất dữ liệu thành các thang đo như định danh, thứ bậc, khoảng và tỷ lệ."
+        }
+      ],
+      "tags": ["applied-mathematics", "statistics", "correlation", "regression"]
+    },
+    {
+      "id": "statistical-inference",
+      "order": 5,
+      "titleJa": "統計的推定と仮説検定",
+      "titleVi": "Suy luận thống kê và kiểm định giả thuyết",
+      "importance": "medium",
+      "summaryJa": "標本から母集団を推定する考え方と、仮説検定における有意水準・誤り・検出力を整理する。",
+      "summaryVi": "Hệ thống hóa cách suy luận về tổng thể từ mẫu và các khái niệm mức ý nghĩa, sai lầm và power trong kiểm định giả thuyết.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "統計的推測では、標本データから母集団の未知の性質を推定したり、仮説がデータと整合するかを検定したりする。",
+          "vi": "Trong suy luận thống kê, dữ liệu mẫu được dùng để ước lượng đặc tính chưa biết của tổng thể hoặc kiểm tra một giả thuyết có phù hợp với dữ liệu hay không."
+        },
+        {
+          "type": "point",
+          "ja": "尤度は、観測データを固定して、パラメータの値ごとにそのデータがどれほど起こりやすいかを見る考え方である。最尤推定では尤度が最大になるパラメータを選ぶ。",
+          "vi": "Likelihood xem dữ liệu quan sát là cố định và đánh giá dữ liệu đó có khả năng xuất hiện đến mức nào với từng giá trị tham số. MLE chọn tham số làm likelihood lớn nhất."
+        },
+        {
+          "type": "point",
+          "ja": "有意水準αは、第1種の誤りを許容する上限として検定前に設定する基準。p値そのものとは異なる。",
+          "vi": "Mức ý nghĩa α là ngưỡng đặt trước cho xác suất chấp nhận sai lầm loại I. Nó không phải là p-value."
+        },
+        {
+          "type": "point",
+          "ja": "第1種の誤りは正しい帰無仮説を棄却する誤り、第2種の誤りは誤った帰無仮説を棄却できない誤り。検出力は 1-β で表される。",
+          "vi": "Sai lầm loại I là bác bỏ giả thuyết không khi nó đúng; sai lầm loại II là không bác bỏ giả thuyết không khi nó sai. Power của kiểm định là 1-β."
+        },
+        {
+          "type": "warning",
+          "ja": "仮説検定では通常、「帰無仮説を採択して真と証明した」とは言わず、「棄却できない」と表現する。",
+          "vi": "Trong kiểm định giả thuyết, thường không nói “chấp nhận và chứng minh H0 đúng”, mà nói “không đủ bằng chứng để bác bỏ H0”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "推定",
+          "reading": "すいてい",
+          "english": "Estimation",
+          "vi": "ước lượng",
+          "definitionJa": "標本から母集団の未知のパラメータを推測する統計的手法。",
+          "definitionVi": "Phương pháp thống kê dùng mẫu để suy ra tham số chưa biết của tổng thể."
+        },
+        {
+          "term": "尤度",
+          "reading": "ゆうど",
+          "english": "Likelihood",
+          "vi": "hàm hợp lý/likelihood",
+          "definitionJa": "観測データを固定したとき、パラメータの値に応じてデータの起こりやすさを評価する量。",
+          "definitionVi": "Đại lượng đánh giá mức độ dữ liệu quan sát có thể xuất hiện ứng với từng giá trị tham số."
+        },
+        {
+          "term": "最尤推定",
+          "reading": "さいゆうすいてい",
+          "english": "Maximum Likelihood Estimation",
+          "vi": "ước lượng hợp lý cực đại",
+          "definitionJa": "観測データに対する尤度が最大になるようにモデルのパラメータを推定する方法。",
+          "definitionVi": "Phương pháp ước lượng tham số mô hình sao cho likelihood của dữ liệu quan sát đạt cực đại."
+        },
+        {
+          "term": "仮説検定",
+          "reading": "かせつけんてい",
+          "english": "Hypothesis Testing",
+          "vi": "kiểm định giả thuyết",
+          "definitionJa": "標本データを用いて帰無仮説を棄却できるかを統計的に判断する手法。",
+          "definitionVi": "Phương pháp dùng dữ liệu mẫu để quyết định có thể bác bỏ giả thuyết không hay không."
+        },
+        {
+          "term": "有意水準",
+          "reading": "ゆういすいじゅん",
+          "english": "Significance Level",
+          "vi": "mức ý nghĩa",
+          "definitionJa": "第1種の誤りを許容する確率の上限として、検定前に設定する値α。",
+          "definitionVi": "Giá trị α đặt trước kiểm định, biểu thị mức xác suất tối đa chấp nhận cho sai lầm loại I."
+        },
+        {
+          "term": "棄却域",
+          "reading": "ききゃくいき",
+          "english": "Rejection Region",
+          "vi": "miền bác bỏ",
+          "definitionJa": "検定統計量が入ったときに帰無仮説を棄却する値の範囲。",
+          "definitionVi": "Miền giá trị của thống kê kiểm định mà khi rơi vào đó, giả thuyết không (H0) sẽ bị bác bỏ."
+        },
+        {
+          "term": "第1種の誤り",
+          "reading": "だいいちしゅのあやまり",
+          "english": "Type I Error",
+          "vi": "sai lầm loại I",
+          "definitionJa": "実際には正しい帰無仮説を誤って棄却すること。",
+          "definitionVi": "Bác bỏ nhầm giả thuyết không trong khi nó thực sự đúng."
+        },
+        {
+          "term": "第2種の誤り",
+          "reading": "だいにしゅのあやまり",
+          "english": "Type II Error",
+          "vi": "sai lầm loại II",
+          "definitionJa": "実際には誤っている帰無仮説を棄却できないこと。",
+          "definitionVi": "Không bác bỏ giả thuyết không trong khi nó thực sự sai."
+        },
+        {
+          "term": "検出力",
+          "reading": "けんしゅつりょく",
+          "english": "Statistical Power",
+          "vi": "lực kiểm định",
+          "definitionJa": "帰無仮説が誤っているときに正しく棄却できる確率。通常1-βで表す。",
+          "definitionVi": "Xác suất bác bỏ đúng giả thuyết không khi nó sai, thường biểu diễn bằng 1-β."
+        }
+      ],
+      "tags": ["applied-mathematics", "statistics", "hypothesis-testing"]
+    },
+    {
+      "id": "linear-algebra",
+      "order": 6,
+      "titleJa": "線形代数",
+      "titleVi": "Đại số tuyến tính",
+      "importance": "medium",
+      "summaryJa": "スカラ、ベクトル、行列と基本的な行列操作、固有値・固有ベクトルの関係を理解する。",
+      "summaryVi": "Hiểu scalar, vector, ma trận, các phép toán ma trận cơ bản và mối quan hệ giữa trị riêng và vector riêng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "線形代数は、ベクトルと行列を使って複数の量や一次関係を扱う数学である。コンピュータグラフィックス、データ解析、機械学習などの基礎にもなる。",
+          "vi": "Đại số tuyến tính dùng vector và ma trận để xử lý nhiều đại lượng và các quan hệ tuyến tính. Đây cũng là nền tảng cho đồ họa máy tính, phân tích dữ liệu và học máy."
+        },
+        {
+          "type": "point",
+          "ja": "スカラは一つの数値、ベクトルは複数成分を並べた量、行列は数値を行と列に配置したものとして整理する。",
+          "vi": "Có thể hiểu scalar là một giá trị, vector là một dãy nhiều thành phần, và ma trận là các giá trị sắp theo hàng và cột."
+        },
+        {
+          "type": "point",
+          "ja": "単位行列Iは AI=IA=A を満たす。逆行列A^-1が存在すれば AA^-1=A^-1A=I。",
+          "vi": "Ma trận đơn vị I thỏa AI=IA=A. Nếu ma trận nghịch đảo A^-1 tồn tại thì AA^-1=A^-1A=I."
+        },
+        {
+          "type": "example",
+          "ja": "A=[[1,2],[3,4]] の転置行列 A^T は [[1,3],[2,4]] である。",
+          "vi": "Với A=[[1,2],[3,4]], ma trận chuyển vị A^T là [[1,3],[2,4]]."
+        },
+        {
+          "type": "point",
+          "ja": "固有ベクトルvと固有値λは Av=λv を満たす。変換後も方向が変わらず、倍率だけがλになるベクトルが固有ベクトルである。",
+          "vi": "Vector riêng v và trị riêng λ thỏa Av=λv. Vector riêng giữ nguyên hướng sau phép biến đổi và chỉ thay đổi độ lớn theo hệ số λ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "線形代数",
+          "reading": "せんけいだいすう",
+          "english": "Linear Algebra",
+          "vi": "đại số tuyến tính",
+          "definitionJa": "ベクトル、行列、線形写像などを扱う数学の分野。",
+          "definitionVi": "Lĩnh vực toán học nghiên cứu vector, ma trận, ánh xạ tuyến tính và các khái niệm liên quan."
+        },
+        {
+          "term": "スカラ",
+          "reading": "スカラ",
+          "english": "Scalar",
+          "vi": "đại lượng vô hướng",
+          "definitionJa": "ベクトルや行列と区別される単一の数値。",
+          "definitionVi": "Một giá trị số đơn lẻ, được phân biệt với vector và ma trận."
+        },
+        {
+          "term": "ベクトル",
+          "reading": "ベクトル",
+          "english": "Vector",
+          "vi": "vector",
+          "definitionJa": "複数の成分を持つ量で、線形代数では数の並びとして扱う。",
+          "definitionVi": "Đại lượng gồm nhiều thành phần, được xử lý như một dãy số trong đại số tuyến tính."
+        },
+        {
+          "term": "固有値",
+          "reading": "こゆうち",
+          "english": "Eigenvalue",
+          "vi": "trị riêng",
+          "definitionJa": "行列Aと非零ベクトルvに対し Av=λv を満たすスカラλ。",
+          "definitionVi": "Scalar λ thỏa Av=λv với ma trận A và vector khác 0 v."
+        },
+        {
+          "term": "固有ベクトル",
+          "reading": "こゆうベクトル",
+          "english": "Eigenvector",
+          "vi": "vector riêng",
+          "definitionJa": "行列Aによる変換で方向が変わらず、Av=λvを満たす非零ベクトル。",
+          "definitionVi": "Vector khác 0 không đổi hướng dưới biến đổi bởi A và thỏa Av=λv."
+        },
+        {
+          "term": "行列",
+          "reading": "ぎょうれつ",
+          "english": "Matrix",
+          "vi": "ma trận",
+          "definitionJa": "数や記号を行と列に長方形状に並べたもの。",
+          "definitionVi": "Cấu trúc sắp các số hoặc ký hiệu thành các hàng và cột."
+        },
+        {
+          "term": "逆行列",
+          "reading": "ぎゃくぎょうれつ",
+          "english": "Inverse Matrix",
+          "vi": "ma trận nghịch đảo",
+          "definitionJa": "正方行列Aに対して AA^-1=A^-1A=I を満たす行列A^-1。",
+          "definitionVi": "Ma trận A^-1 thỏa AA^-1=A^-1A=I với ma trận vuông A."
+        },
+        {
+          "term": "単位行列",
+          "reading": "たんいぎょうれつ",
+          "english": "Identity Matrix",
+          "vi": "ma trận đơn vị",
+          "definitionJa": "主対角成分が1、それ以外が0で、行列積の単位元となる正方行列。",
+          "definitionVi": "Ma trận vuông có đường chéo chính bằng 1, các phần tử khác bằng 0, đóng vai trò phần tử đơn vị của phép nhân ma trận."
+        },
+        {
+          "term": "転置行列",
+          "reading": "てんちぎょうれつ",
+          "english": "Transpose Matrix",
+          "vi": "ma trận chuyển vị",
+          "definitionJa": "元の行列の行と列を入れ替えて得られる行列。",
+          "definitionVi": "Ma trận thu được bằng cách hoán đổi hàng và cột của ma trận ban đầu."
+        }
+      ],
+      "tags": ["applied-mathematics", "linear-algebra", "matrix"]
+    },
+    {
+      "id": "sequences",
+      "order": 7,
+      "titleJa": "数列",
+      "titleVi": "Dãy số",
+      "importance": "medium",
+      "summaryJa": "等差数列、等比数列、フィボナッチ数列の規則を理解し、次項や一般項を求める基本を押さえる。",
+      "summaryVi": "Hiểu quy luật của cấp số cộng, cấp số nhân và dãy Fibonacci, đồng thời nắm cách tìm số hạng tiếp theo hoặc số hạng tổng quát.",
+      "content": [
+        {
+          "type": "point",
+          "ja": "等差数列は差が一定。一般項は a_n=a_1+(n-1)d。",
+          "vi": "Cấp số cộng có công sai không đổi. Số hạng tổng quát: a_n=a_1+(n-1)d."
+        },
+        {
+          "type": "point",
+          "ja": "等比数列は比が一定。一般項は a_n=a_1 r^(n-1)。",
+          "vi": "Cấp số nhân có công bội không đổi. Số hạng tổng quát: a_n=a_1 r^(n-1)."
+        },
+        {
+          "type": "example",
+          "ja": "2,6,18,54,... は公比3の等比数列なので次の項は162。",
+          "vi": "2,6,18,54,... là cấp số nhân có công bội 3 nên số tiếp theo là 162."
+        },
+        {
+          "type": "point",
+          "ja": "フィボナッチ数列は F_n=F_(n-1)+F_(n-2) のように直前2項の和で次項を定義する。",
+          "vi": "Dãy Fibonacci định nghĩa số hạng tiếp theo bằng tổng hai số hạng ngay trước: F_n=F_(n-1)+F_(n-2)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "等差数列",
+          "reading": "とうさすうれつ",
+          "english": "Arithmetic Sequence",
+          "vi": "cấp số cộng",
+          "definitionJa": "隣り合う項の差が一定である数列。",
+          "definitionVi": "Dãy số trong đó hiệu giữa hai số hạng liên tiếp là hằng số."
+        },
+        {
+          "term": "等比数列",
+          "reading": "とうひすうれつ",
+          "english": "Geometric Sequence",
+          "vi": "cấp số nhân",
+          "definitionJa": "各項を前の項で割った比が一定である数列。",
+          "definitionVi": "Dãy số trong đó tỷ số giữa hai số hạng liên tiếp là hằng số."
+        },
+        {
+          "term": "フィボナッチ数列",
+          "reading": "フィボナッチすうれつ",
+          "english": "Fibonacci Sequence",
+          "vi": "dãy Fibonacci",
+          "definitionJa": "各項が直前の二つの項の和で定義される数列。",
+          "definitionVi": "Dãy số trong đó mỗi số hạng được tạo bởi tổng của hai số hạng liền trước."
+        }
+      ],
+      "tags": ["applied-mathematics", "sequence"]
+    },
+    {
+      "id": "functions-and-calculus",
+      "order": 8,
+      "titleJa": "関数・因数分解・微積分",
+      "titleVi": "Hàm số, phân tích nhân tử và vi tích phân",
+      "importance": "medium",
+      "summaryJa": "三角関数、因数分解、微分、積分の基本的な意味と計算の考え方を理解する。",
+      "summaryVi": "Hiểu ý nghĩa và tư duy tính toán cơ bản của hàm lượng giác, phân tích nhân tử, vi phân và tích phân.",
+      "content": [
+        {
+          "type": "point",
+          "ja": "三角関数の基本は sin、cos、tan。直角三角形では角度と辺の比を結び付ける。",
+          "vi": "Ba hàm lượng giác cơ bản là sin, cos và tan; trong tam giác vuông chúng liên hệ góc với tỷ lệ các cạnh."
+        },
+        {
+          "type": "example",
+          "ja": "x^2-5x+6=(x-2)(x-3)。因数分解すると方程式 x^2-5x+6=0 の解が x=2,3 と分かる。",
+          "vi": "x^2-5x+6=(x-2)(x-3). Sau khi phân tích nhân tử, phương trình x^2-5x+6=0 có nghiệm x=2 và 3."
+        },
+        {
+          "type": "point",
+          "ja": "微分は瞬間的な変化率や接線の傾きを求める操作。積分は変化を積み上げて面積や総量を求める操作として理解する。",
+          "vi": "Vi phân tìm tốc độ thay đổi tức thời hoặc độ dốc tiếp tuyến. Tích phân cộng dồn sự thay đổi để tìm diện tích hoặc tổng lượng."
+        },
+        {
+          "type": "example",
+          "ja": "f(x)=x^2 なら f'(x)=2x。x=3での接線の傾きは6。",
+          "vi": "Nếu f(x)=x^2 thì f'(x)=2x. Tại x=3, độ dốc tiếp tuyến bằng 6."
+        }
+      ],
+      "terms": [
+        {
+          "term": "三角関数",
+          "reading": "さんかくかんすう",
+          "english": "Trigonometric Functions",
+          "vi": "hàm lượng giác",
+          "definitionJa": "角度と辺の比を関係付ける関数で、代表的なものにsin、cos、tanがある。",
+          "definitionVi": "Các hàm liên hệ góc với tỷ lệ các cạnh, tiêu biểu là sin, cos và tan."
+        },
+        {
+          "term": "因数分解",
+          "reading": "いんすうぶんかい",
+          "english": "Factorization",
+          "vi": "phân tích nhân tử",
+          "definitionJa": "数や多項式を複数の因数の積の形に変形すること。",
+          "definitionVi": "Biến đổi một số hoặc đa thức thành tích của các nhân tử."
+        },
+        {
+          "term": "微分",
+          "reading": "びぶん",
+          "english": "Differentiation",
+          "vi": "vi phân/đạo hàm",
+          "definitionJa": "関数のある点での変化率や接線の傾きを求める操作。",
+          "definitionVi": "Phép toán tìm tốc độ thay đổi hoặc độ dốc tiếp tuyến của hàm tại một điểm."
+        },
+        {
+          "term": "積分",
+          "reading": "せきぶん",
+          "english": "Integration",
+          "vi": "tích phân",
+          "definitionJa": "微小な量を積み上げて面積や総量を求める数学的操作。",
+          "definitionVi": "Phép toán cộng dồn các lượng vi phân để tìm diện tích hoặc tổng lượng."
+        }
+      ],
+      "tags": ["applied-mathematics", "functions", "calculus"]
+    },
+    {
+      "id": "numerical-methods-and-errors",
+      "order": 9,
+      "titleJa": "数値計算と誤差",
+      "titleVi": "Tính toán số và sai số",
+      "importance": "high",
+      "summaryJa": "ニュートン法による近似解の求め方と、絶対誤差・相対誤差・丸め誤差・打切り誤差を区別する。",
+      "summaryVi": "Hiểu cách Newton tìm nghiệm gần đúng và phân biệt sai số tuyệt đối, tương đối, làm tròn và cắt cụt.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの数値計算では、真の値を厳密に扱えず近似を使う場合がある。そのため、誤差の種類と原因を区別することが重要である。",
+          "vi": "Trong tính toán số trên máy tính, nhiều trường hợp không thể giữ giá trị chính xác và phải dùng xấp xỉ. Vì vậy cần phân biệt các loại sai số và nguyên nhân của chúng."
+        },
+        {
+          "type": "point",
+          "ja": "ニュートン法では x_(n+1)=x_n-f(x_n)/f'(x_n) を繰り返して方程式 f(x)=0 の根へ近づける。",
+          "vi": "Phương pháp Newton lặp công thức x_(n+1)=x_n-f(x_n)/f'(x_n) để tiến gần nghiệm của f(x)=0."
+        },
+        {
+          "type": "example",
+          "ja": "f(x)=x^2-2、初期値x_0=1.5なら、x_1=1.5-(1.5^2-2)/(2×1.5)=1.416666... となり、√2に近づく。",
+          "vi": "Với f(x)=x^2-2 và x_0=1,5, ta có x_1=1,5-(1,5^2-2)/(2×1,5)=1,416666..., tiến gần √2."
+        },
+        {
+          "type": "point",
+          "ja": "絶対誤差は |近似値-真値|、相対誤差は絶対誤差を |真値| で割ったもの。",
+          "vi": "Sai số tuyệt đối là |giá trị xấp xỉ - giá trị thật|; sai số tương đối là sai số tuyệt đối chia cho |giá trị thật|."
+        },
+        {
+          "type": "warning",
+          "ja": "丸め誤差は有限桁へ丸めることで生じる。打切り誤差は、本来無限に続く計算過程や級数などを有限の段階で打ち切ることで生じる。",
+          "vi": "Sai số làm tròn sinh ra khi làm tròn về số chữ số hữu hạn. Sai số cắt cụt sinh ra khi dừng một quá trình vốn cần vô hạn bước hoặc chuỗi vô hạn ở một số bước hữu hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ニュートン法",
+          "reading": "ニュートンほう",
+          "english": "Newton's Method",
+          "vi": "phương pháp Newton",
+          "definitionJa": "関数の接線を利用し、反復計算によって方程式の根を近似する数値解法。",
+          "definitionVi": "Phương pháp số dùng tiếp tuyến và phép lặp để xấp xỉ nghiệm của phương trình."
+        },
+        {
+          "term": "絶対誤差",
+          "reading": "ぜったいごさ",
+          "english": "Absolute Error",
+          "vi": "sai số tuyệt đối",
+          "definitionJa": "近似値と真値との差の絶対値。",
+          "definitionVi": "Trị tuyệt đối của hiệu giữa giá trị xấp xỉ và giá trị thật."
+        },
+        {
+          "term": "相対誤差",
+          "reading": "そうたいごさ",
+          "english": "Relative Error",
+          "vi": "sai số tương đối",
+          "definitionJa": "絶対誤差を真値の絶対値で割った比。",
+          "definitionVi": "Tỷ lệ giữa sai số tuyệt đối và trị tuyệt đối của giá trị thật."
+        },
+        {
+          "term": "丸め誤差",
+          "reading": "まるめごさ",
+          "english": "Rounding Error",
+          "vi": "sai số làm tròn",
+          "definitionJa": "有限桁で数を表現するために丸めることで生じる誤差。",
+          "definitionVi": "Sai số phát sinh do làm tròn số để biểu diễn bằng số chữ số hữu hạn."
+        },
+        {
+          "term": "打切り誤差",
+          "reading": "うちきりごさ",
+          "english": "Truncation Error",
+          "vi": "sai số cắt cụt",
+          "definitionJa": "無限級数や反復など本来続く計算を有限の段階で打ち切って近似することで生じる誤差。",
+          "definitionVi": "Sai số phát sinh khi cắt một quá trình tính toán, chuỗi vô hạn hoặc phép lặp ở một số bước hữu hạn để xấp xỉ."
+        }
+      ],
+      "tags": ["applied-mathematics", "numerical-analysis", "error"]
+    },
+    {
+      "id": "graph-theory",
+      "order": 10,
+      "titleJa": "グラフ理論",
+      "titleVi": "Lý thuyết đồ thị",
+      "importance": "medium",
+      "summaryJa": "頂点と辺で関係を表現するグラフの基本と、有向グラフ・無向グラフの違いを理解する。",
+      "summaryVi": "Hiểu nền tảng của đồ thị dùng đỉnh và cạnh để biểu diễn quan hệ, đồng thời phân biệt đồ thị có hướng và vô hướng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "グラフ理論では、対象を頂点、対象間の関係を辺としてモデル化する。ネットワークや経路、依存関係などの表現に使われる。",
+          "vi": "Trong lý thuyết đồ thị, đối tượng được biểu diễn bằng đỉnh và quan hệ giữa các đối tượng bằng cạnh. Nó dùng để mô hình hóa mạng, đường đi và quan hệ phụ thuộc."
+        },
+        {
+          "type": "point",
+          "ja": "有向グラフでは辺に向きがあり、A→BとB→Aは別の関係。無向グラフでは辺に向きがない。",
+          "vi": "Trong đồ thị có hướng, cạnh có chiều nên A→B và B→A là hai quan hệ khác nhau. Trong đồ thị vô hướng, cạnh không có chiều."
+        },
+        {
+          "type": "example",
+          "ja": "SNSの「フォロー」は一方向なので有向グラフ、相互的な「友達」関係は無向グラフで表しやすい。",
+          "vi": "Quan hệ “follow” trên mạng xã hội là một chiều nên phù hợp với đồ thị có hướng; quan hệ “bạn bè” tương hỗ phù hợp với đồ thị vô hướng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グラフ理論",
+          "reading": "グラフりろん",
+          "english": "Graph Theory",
+          "vi": "lý thuyết đồ thị",
+          "definitionJa": "頂点と辺からなる構造を用いて対象間の関係を扱う数学分野。",
+          "definitionVi": "Lĩnh vực toán học dùng cấu trúc gồm đỉnh và cạnh để mô tả quan hệ giữa các đối tượng."
+        },
+        {
+          "term": "有向グラフ",
+          "reading": "ゆうこうグラフ",
+          "english": "Directed Graph",
+          "vi": "đồ thị có hướng",
+          "definitionJa": "各辺に向きが定められているグラフ。",
+          "definitionVi": "Đồ thị trong đó mỗi cạnh có một hướng xác định."
+        },
+        {
+          "term": "無向グラフ",
+          "reading": "むこうグラフ",
+          "english": "Undirected Graph",
+          "vi": "đồ thị vô hướng",
+          "definitionJa": "辺に方向が定められていないグラフ。",
+          "definitionVi": "Đồ thị trong đó các cạnh không có hướng."
+        }
+      ],
+      "tags": ["applied-mathematics", "graph-theory"]
+    },
+    {
+      "id": "queueing-theory",
+      "order": 11,
+      "titleJa": "待ち行列理論",
+      "titleVi": "Lý thuyết hàng đợi",
+      "importance": "high",
+      "summaryJa": "到着とサービスの関係から、システムの混雑や待ち時間を分析する基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản dùng quan hệ giữa lượt đến và phục vụ để phân tích mức tải và thời gian chờ của hệ thống.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "待ち行列モデルは、要求が到着し、サービス設備で処理され、必要なら待つという流れを数理的に表す。サーバや窓口の性能評価に使われる。",
+          "vi": "Mô hình hàng đợi biểu diễn bằng toán học quá trình yêu cầu đến, được phục vụ và phải chờ nếu cần. Nó được dùng để đánh giá hiệu năng server hoặc quầy phục vụ."
+        },
+        {
+          "type": "point",
+          "ja": "平均到着率λは単位時間当たりの平均到着件数、平均サービス率μは単位時間当たりに1台のサービス設備が処理できる平均件数として表す。",
+          "vi": "Tốc độ đến trung bình λ là số lượt đến trung bình trên một đơn vị thời gian; tốc độ phục vụ trung bình μ là số lượt trung bình một bộ phục vụ có thể xử lý trên một đơn vị thời gian."
+        },
+        {
+          "type": "example",
+          "ja": "平均到着率が6件/分、平均サービス率が10件/分なら、1台のサービス設備の利用率は ρ=λ/μ=0.6 と考えられる。",
+          "vi": "Nếu tốc độ đến trung bình là 6 yêu cầu/phút và tốc độ phục vụ là 10 yêu cầu/phút, mức sử dụng của một server là ρ=λ/μ=0,6."
+        },
+        {
+          "type": "warning",
+          "ja": "待ち時間はサービス開始までの時間、サービス時間は実際の処理に要する時間であり、同じではない。",
+          "vi": "Thời gian chờ là thời gian đến khi bắt đầu được phục vụ; thời gian phục vụ là thời gian thực tế cần để xử lý. Hai khái niệm này khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "待ち行列モデル",
+          "reading": "まちぎょうれつモデル",
+          "english": "Queueing Model",
+          "vi": "mô hình hàng đợi",
+          "definitionJa": "要求の到着、待ち、サービス処理を数学的に表現するモデル。",
+          "definitionVi": "Mô hình toán học biểu diễn quá trình yêu cầu đến, chờ và được phục vụ."
+        },
+        {
+          "term": "サービス時間",
+          "reading": "サービスじかん",
+          "english": "Service Time",
+          "vi": "thời gian phục vụ",
+          "definitionJa": "一つの要求を実際に処理するために要する時間。",
+          "definitionVi": "Thời gian thực tế cần để xử lý một yêu cầu."
+        },
+        {
+          "term": "待ち時間",
+          "reading": "まちじかん",
+          "english": "Waiting Time",
+          "vi": "thời gian chờ",
+          "definitionJa": "要求が到着してからサービスが開始されるまでに待つ時間。",
+          "definitionVi": "Thời gian từ khi yêu cầu đến cho đến khi bắt đầu được phục vụ."
+        },
+        {
+          "term": "到着時間",
+          "reading": "とうちゃくじかん",
+          "english": "Arrival Time",
+          "vi": "thời điểm/thời gian đến",
+          "definitionJa": "待ち行列に要求や顧客が到着する時刻または到着に関する時間情報。",
+          "definitionVi": "Thời điểm hoặc thông tin thời gian mà yêu cầu/khách hàng đến hệ thống hàng đợi."
+        },
+        {
+          "term": "平均到着率",
+          "reading": "へいきんとうちゃくりつ",
+          "english": "Average Arrival Rate",
+          "vi": "tốc độ đến trung bình",
+          "definitionJa": "単位時間当たりに到着する要求の平均件数。一般にλで表す。",
+          "definitionVi": "Số yêu cầu đến trung bình trên một đơn vị thời gian, thường ký hiệu λ."
+        },
+        {
+          "term": "平均サービス率",
+          "reading": "へいきんサービスりつ",
+          "english": "Average Service Rate",
+          "vi": "tốc độ phục vụ trung bình",
+          "definitionJa": "単位時間当たりにサービス設備が処理できる平均件数。一般にμで表す。",
+          "definitionVi": "Số yêu cầu trung bình một bộ phục vụ xử lý được trong một đơn vị thời gian, thường ký hiệu μ."
+        }
+      ],
+      "tags": ["applied-mathematics", "queueing-theory", "performance"]
+    },
+    {
+      "id": "optimization",
+      "order": 12,
+      "titleJa": "最適化",
+      "titleVi": "Tối ưu hóa",
+      "importance": "medium",
+      "summaryJa": "制約の下で最良の解を求める最適化問題と、部分問題の結果を再利用する動的計画法の考え方を学ぶ。",
+      "summaryVi": "Học bài toán tối ưu tìm phương án tốt nhất dưới các ràng buộc và tư duy quy hoạch động tái sử dụng kết quả của các bài toán con.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "最適化問題では、目的関数を最大化・最小化する変数の値を、与えられた制約の範囲内で求める。",
+          "vi": "Trong bài toán tối ưu, ta tìm giá trị biến làm cực đại hoặc cực tiểu hàm mục tiêu trong phạm vi các ràng buộc cho trước."
+        },
+        {
+          "type": "point",
+          "ja": "動的計画法は、重複する部分問題を一度だけ解き、その結果を保存して再利用することで計算量を減らす考え方である。",
+          "vi": "Quy hoạch động giảm lượng tính toán bằng cách chỉ giải mỗi bài toán con lặp lại một lần, lưu kết quả và tái sử dụng."
+        },
+        {
+          "type": "example",
+          "ja": "フィボナッチ数列を単純再帰で求めると同じ値を何度も計算するが、動的計画法では計算済みの値を保存して再利用できる。",
+          "vi": "Khi tính Fibonacci bằng đệ quy đơn giản, cùng một giá trị bị tính lại nhiều lần; với quy hoạch động, các kết quả đã tính được lưu và tái sử dụng."
+        },
+        {
+          "type": "warning",
+          "ja": "動的計画法は「動的にプログラムを書く」という意味ではなく、部分問題の最適解を利用して全体問題を解く最適化の考え方である。",
+          "vi": "Dynamic Programming không có nghĩa là “lập trình động”; đây là tư duy tối ưu dùng nghiệm của các bài toán con để giải bài toán tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "最適化問題",
+          "reading": "さいてきかもんだい",
+          "english": "Optimization Problem",
+          "vi": "bài toán tối ưu",
+          "definitionJa": "制約条件の下で目的関数を最大化または最小化する解を求める問題。",
+          "definitionVi": "Bài toán tìm nghiệm làm cực đại hoặc cực tiểu hàm mục tiêu dưới các ràng buộc."
+        },
+        {
+          "term": "動的計画法",
+          "reading": "どうてきけいかくほう",
+          "english": "Dynamic Programming",
+          "vi": "quy hoạch động",
+          "definitionJa": "問題を重複する部分問題に分け、計算結果を保存・再利用して効率的に解く手法。",
+          "definitionVi": "Phương pháp chia bài toán thành các bài toán con lặp lại, lưu và tái sử dụng kết quả để giải hiệu quả."
+        }
+      ],
+      "tags": ["applied-mathematics", "optimization", "dynamic-programming"]
+    }
+  ]
+}
