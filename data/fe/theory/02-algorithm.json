@@ -1,0 +1,110 @@
+{
+  "id": "algorithm",
+  "titleJa": "アルゴリズム",
+  "titleVi": "Thuật toán",
+  "chapters": [
+    {
+      "id": "algorithm-basic",
+      "order": 1,
+      "titleJa": "アルゴリズムの基礎",
+      "titleVi": "Cơ bản về thuật toán",
+      "lessons": [
+        {
+          "id": "algorithm-definition",
+          "order": 1,
+          "titleJa": "アルゴリズムとは",
+          "titleVi": "Thuật toán là gì?",
+          "importance": "high",
+          "summaryJa": "問題を解くための明確な処理手順を学びます。",
+          "summaryVi": "Tìm hiểu trình tự xử lý rõ ràng để giải quyết một vấn đề.",
+          "content": [
+            {
+              "type": "paragraph",
+              "ja": "アルゴリズムは、入力から目的の出力を得るための有限の手順です。同じ問題でも、手順によって処理時間や必要な記憶容量が変わります。",
+              "vi": "Thuật toán là một chuỗi bước hữu hạn để tạo ra đầu ra mong muốn từ đầu vào. Với cùng một bài toán, thời gian và bộ nhớ cần thiết có thể thay đổi tùy theo cách xử lý."
+            },
+            {
+              "type": "point",
+              "ja": "手順は曖昧さがなく、いつか終了しなければなりません。",
+              "vi": "Các bước phải rõ ràng và thuật toán phải kết thúc sau một số hữu hạn bước."
+            },
+            {
+              "type": "example",
+              "ja": "配列の最大値を探す場合、先頭の値を候補とし、残りを順番に比較します。",
+              "vi": "Để tìm giá trị lớn nhất trong mảng, lấy phần tử đầu làm ứng viên rồi lần lượt so sánh với các phần tử còn lại."
+            }
+          ],
+          "terms": [
+            {
+              "term": "アルゴリズム",
+              "reading": "アルゴリズム",
+              "english": "algorithm",
+              "vi": "thuật toán",
+              "definitionJa": "問題を解決するために定めた有限の処理手順。",
+              "definitionVi": "Chuỗi bước hữu hạn được xác định để giải quyết một vấn đề."
+            }
+          ],
+          "tags": ["algorithm", "procedure", "basic"]
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "order": 2,
+      "titleJa": "データ構造",
+      "titleVi": "Cấu trúc dữ liệu",
+      "lessons": [
+        {
+          "id": "stack-and-queue",
+          "order": 1,
+          "titleJa": "スタックとキュー",
+          "titleVi": "Ngăn xếp và hàng đợi",
+          "importance": "high",
+          "summaryJa": "データを取り出す順序が異なる二つの基本構造を比較します。",
+          "summaryVi": "So sánh hai cấu trúc cơ bản có thứ tự lấy dữ liệu khác nhau.",
+          "content": [
+            {
+              "type": "heading",
+              "ja": "取り出す順序",
+              "vi": "Thứ tự lấy dữ liệu"
+            },
+            {
+              "type": "paragraph",
+              "ja": "スタックは最後に追加したデータを最初に取り出し、キューは最初に追加したデータを最初に取り出します。",
+              "vi": "Ngăn xếp lấy phần tử được thêm sau cùng ra trước, trong khi hàng đợi lấy phần tử được thêm đầu tiên ra trước."
+            },
+            {
+              "type": "point",
+              "ja": "スタックはLIFO、キューはFIFOと覚えます。",
+              "vi": "Hãy nhớ: ngăn xếp là LIFO, hàng đợi là FIFO."
+            },
+            {
+              "type": "warning",
+              "ja": "追加と取出しを行う位置を混同しないようにしましょう。",
+              "vi": "Không nhầm lẫn vị trí thêm và lấy phần tử của từng cấu trúc."
+            }
+          ],
+          "terms": [
+            {
+              "term": "スタック",
+              "reading": "スタック",
+              "english": "stack",
+              "vi": "ngăn xếp",
+              "definitionJa": "後から追加したデータを先に取り出すデータ構造。",
+              "definitionVi": "Cấu trúc dữ liệu lấy phần tử được thêm sau ra trước."
+            },
+            {
+              "term": "キュー",
+              "reading": "キュー",
+              "english": "queue",
+              "vi": "hàng đợi",
+              "definitionJa": "先に追加したデータを先に取り出すデータ構造。",
+              "definitionVi": "Cấu trúc dữ liệu lấy phần tử được thêm trước ra trước."
+            }
+          ],
+          "tags": ["stack", "queue", "data-structure"]
+        }
+      ]
+    }
+  ]
+}

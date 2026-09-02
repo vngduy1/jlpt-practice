@@ -36,10 +36,14 @@ export function HomeHeader({
           </div>
         </div>
 
-        <nav
-          className="hidden items-center gap-1 sm:flex"
-          aria-label="JLPT levels"
-        >
+        <nav className="hidden items-center gap-1 sm:flex" aria-label="JLPT levels">
+          {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+          <a
+            href="/fe"
+            className="mr-2 rounded-md border border-border bg-card px-3 py-2 text-sm font-semibold text-primary transition-colors hover:bg-secondary"
+          >
+            基本情報
+          </a>
           {jlptLevels.map((level) => {
             const active = level === selectedLevel;
 
@@ -63,7 +67,14 @@ export function HomeHeader({
 
       {/* Mobile */}
       <div className="border-t border-border/60 px-5 py-2 sm:hidden">
-        <div className="flex gap-2 overflow-x-auto">
+        <div className="flex gap-2 overflow-x-auto pb-0.5">
+          {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+          <a
+            href="/fe"
+            className="inline-flex min-h-10 shrink-0 items-center rounded-md border border-primary/30 bg-secondary px-4 text-sm font-semibold text-primary"
+          >
+            基本情報
+          </a>
           {jlptLevels.map((level) => {
             const active = level === selectedLevel;
 

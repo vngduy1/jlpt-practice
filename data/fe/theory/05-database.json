@@ -1,0 +1,155 @@
+{
+  "id": "database",
+  "titleJa": "データベース",
+  "titleVi": "Cơ sở dữ liệu",
+  "chapters": [
+    {
+      "id": "database-basic",
+      "order": 1,
+      "titleJa": "データベースの基礎",
+      "titleVi": "Cơ bản về cơ sở dữ liệu",
+      "lessons": [
+        {
+          "id": "database-definition",
+          "order": 1,
+          "titleJa": "データベースとは",
+          "titleVi": "Database là gì?",
+          "importance": "high",
+          "summaryJa": "一定の規則で整理されたデータを効率的に扱う仕組みを学びます。",
+          "summaryVi": "Tìm hiểu cách quản lý hiệu quả dữ liệu được tổ chức theo các quy tắc nhất định.",
+          "content": [
+            {
+              "type": "paragraph",
+              "ja": "データベースを利用すると、大量のデータを一元的に保存、検索、更新できます。複数の利用者が同じ情報を安全に共有するための基盤にもなります。",
+              "vi": "Cơ sở dữ liệu cho phép lưu trữ, tìm kiếm và cập nhật tập trung một lượng lớn dữ liệu. Đây cũng là nền tảng để nhiều người dùng chia sẻ thông tin an toàn."
+            },
+            {
+              "type": "point",
+              "ja": "重複を抑え、データの整合性を保ちやすくします。",
+              "vi": "Giúp giảm trùng lặp và duy trì tính nhất quán của dữ liệu."
+            },
+            {
+              "type": "example",
+              "ja": "顧客情報を一つのデータベースで管理すると、住所変更を複数のファイルへ反映する必要がありません。",
+              "vi": "Khi quản lý thông tin khách hàng trong một cơ sở dữ liệu, không cần cập nhật địa chỉ trong nhiều tệp riêng biệt."
+            }
+          ],
+          "terms": [
+            {
+              "term": "データベース",
+              "reading": "データベース",
+              "english": "database",
+              "vi": "cơ sở dữ liệu",
+              "definitionJa": "一定の形式で整理されたデータの集合。",
+              "definitionVi": "Tập hợp dữ liệu được tổ chức theo một hình thức nhất định."
+            }
+          ],
+          "tags": ["database", "data", "basic"]
+        },
+        {
+          "id": "dbms-role",
+          "order": 2,
+          "titleJa": "DBMSの役割",
+          "titleVi": "Vai trò của DBMS",
+          "importance": "high",
+          "summaryJa": "データベースを管理するソフトウェアの主要機能を確認します。",
+          "summaryVi": "Ôn tập các chức năng chính của phần mềm quản trị cơ sở dữ liệu.",
+          "content": [
+            {
+              "type": "heading",
+              "ja": "一貫したデータ管理",
+              "vi": "Quản lý dữ liệu nhất quán"
+            },
+            {
+              "type": "paragraph",
+              "ja": "DBMSは、データの定義、検索、更新、アクセス制御、障害からの回復などを担当します。アプリケーションは保存方法の詳細を意識せずデータを利用できます。",
+              "vi": "DBMS đảm nhiệm định nghĩa, tìm kiếm, cập nhật, kiểm soát truy cập và khôi phục dữ liệu. Ứng dụng có thể sử dụng dữ liệu mà không cần biết chi tiết cách lưu trữ."
+            },
+            {
+              "type": "warning",
+              "ja": "同時更新では、処理の順序によって結果が変わらないよう排他制御が必要です。",
+              "vi": "Khi cập nhật đồng thời, cần điều khiển loại trừ để kết quả không thay đổi do thứ tự xử lý."
+            }
+          ],
+          "terms": [
+            {
+              "term": "DBMS",
+              "reading": "ディービーエムエス",
+              "english": "Database Management System",
+              "vi": "hệ quản trị cơ sở dữ liệu",
+              "definitionJa": "データベースを定義・操作・保護するためのソフトウェア。",
+              "definitionVi": "Phần mềm dùng để định nghĩa, thao tác và bảo vệ cơ sở dữ liệu."
+            },
+            {
+              "term": "排他制御",
+              "reading": "はいたせいぎょ",
+              "english": "exclusive control",
+              "vi": "điều khiển loại trừ",
+              "definitionJa": "複数の処理が同じデータを同時に変更して矛盾することを防ぐ制御。",
+              "definitionVi": "Cơ chế ngăn nhiều tiến trình sửa cùng dữ liệu đồng thời và tạo ra mâu thuẫn."
+            }
+          ],
+          "tags": ["dbms", "concurrency", "control"]
+        }
+      ]
+    },
+    {
+      "id": "relational-database",
+      "order": 2,
+      "titleJa": "関係データベース",
+      "titleVi": "Cơ sở dữ liệu quan hệ",
+      "lessons": [
+        {
+          "id": "primary-and-foreign-keys",
+          "order": 1,
+          "titleJa": "主キーと外部キー",
+          "titleVi": "Khóa chính và khóa ngoại",
+          "importance": "high",
+          "summaryJa": "表の行を識別し、表同士を関連付けるキーを学びます。",
+          "summaryVi": "Tìm hiểu các khóa dùng để xác định hàng và liên kết các bảng.",
+          "content": [
+            {
+              "type": "paragraph",
+              "ja": "主キーは表の各行を一意に識別します。外部キーは別の表の主キーを参照し、表同士の関係を表します。",
+              "vi": "Khóa chính xác định duy nhất từng hàng trong bảng. Khóa ngoại tham chiếu khóa chính của bảng khác để biểu diễn mối quan hệ giữa các bảng."
+            },
+            {
+              "type": "point",
+              "ja": "主キーの値は重複せず、NULLにできません。",
+              "vi": "Giá trị khóa chính không được trùng lặp và không thể là NULL."
+            },
+            {
+              "type": "example",
+              "ja": "注文表の顧客IDを顧客表の主キーへ結び付けると、注文した顧客を参照できます。",
+              "vi": "Liên kết mã khách hàng trong bảng đơn hàng với khóa chính của bảng khách hàng cho phép xác định người đã đặt hàng."
+            },
+            {
+              "type": "warning",
+              "ja": "外部キーが参照先に存在しない値を持つと、参照整合性が失われます。",
+              "vi": "Nếu khóa ngoại chứa giá trị không tồn tại ở bảng được tham chiếu, tính toàn vẹn tham chiếu sẽ bị phá vỡ."
+            }
+          ],
+          "terms": [
+            {
+              "term": "主キー",
+              "reading": "しゅキー",
+              "english": "primary key",
+              "vi": "khóa chính",
+              "definitionJa": "表の各行を一意に識別するための列または列の組合せ。",
+              "definitionVi": "Cột hoặc tổ hợp cột dùng để xác định duy nhất từng hàng trong bảng."
+            },
+            {
+              "term": "外部キー",
+              "reading": "がいぶキー",
+              "english": "foreign key",
+              "vi": "khóa ngoại",
+              "definitionJa": "別の表の主キーを参照して表同士を関連付ける列。",
+              "definitionVi": "Cột tham chiếu khóa chính của bảng khác để liên kết các bảng."
+            }
+          ],
+          "tags": ["primary-key", "foreign-key", "relational"]
+        }
+      ]
+    }
+  ]
+}
