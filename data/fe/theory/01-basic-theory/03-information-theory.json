@@ -1335,7 +1335,7 @@
       "titleVi": "Các mô hình mạng nơ-ron và mô hình sinh",
       "importance": "high",
       "summaryJa": "画像処理に適した畳み込みニューラルネットワーク、系列データを扱うリカレントニューラルネットワーク、データを新たに生成する生成モデル、生成器と識別器を競わせて学習する敵対的生成ネットワークの基本を理解する。",
-      "summaryVi": "Tìm hiểu các mô hình mạng nơ-ron tiêu biểu gồm mạng nơ-ron tích chập dùng cho dữ liệu như hình ảnh, mạng nơ-ron hồi quy dùng cho dữ liệu chuỗi, mô hình sinh tạo dữ liệu mới và GAN học thông qua sự cạnh tranh giữa bộ sinh và bộ phân biệt.",
+      "summaryVi": "Tìm hiểu các mô hình mạng nơ-ron tiêu biểu gồm mạng nơ-ron tích chập dùng cho dữ liệu như hình ảnh, mạng nơ-ron hồi tiếp dùng cho dữ liệu chuỗi, mô hình sinh tạo dữ liệu mới và GAN học thông qua sự cạnh tranh giữa bộ sinh và bộ phân biệt.",
       "content": [
         {
           "type": "heading",
@@ -1355,7 +1355,7 @@
         {
           "type": "heading",
           "ja": "リカレントニューラルネットワーク",
-          "vi": "Mạng nơ-ron hồi quy"
+          "vi": "Mạng nơ-ron hồi tiếp"
         },
         {
           "type": "paragraph",
@@ -1416,7 +1416,7 @@
           "term": "リカレントニューラルネットワーク",
           "reading": "リカレントニューラルネットワーク",
           "english": "Recurrent Neural Network",
-          "vi": "mạng nơ-ron hồi quy",
+          "vi": "mạng nơ-ron hồi tiếp",
           "definitionJa": "過去の処理に関する情報を後続の処理に利用でき、時系列や文章などの系列データを扱うことに適したニューラルネットワーク。",
           "definitionVi": "Mạng nơ-ron có thể sử dụng thông tin từ các bước xử lý trước cho các bước tiếp theo, phù hợp với dữ liệu chuỗi như dữ liệu thời gian và văn bản."
         },
@@ -1464,7 +1464,7 @@
         {
           "type": "paragraph",
           "ja": "基盤モデルは、大規模かつ多様なデータで学習され、さまざまな下流タスクに適応して利用できるAIモデルである。一つの特定用途だけを目的として学習するのではなく、事前学習で広範な知識や特徴を獲得し、必要に応じてファインチューニングなどを行って個別の用途に適応させる。",
-          "vi": "基盤モデル (foundation model) là mô hình AI được huấn luyện trên lượng dữ liệu lớn và đa dạng, sau đó có thể thích ứng với nhiều nhiệm vụ phía sau. Thay vì chỉ được huấn luyện cho một mục đích duy nhất, mô hình học trước kiến thức và đặc trưng tổng quát rồi có thể được điều chỉnh bằng fine-tuning hoặc các phương pháp khác cho từng mục đích cụ thể."
+          "vi": "基盤モデル (foundation model) là mô hình AI được huấn luyện trên lượng dữ liệu lớn và đa dạng, sau đó có thể thích ứng với nhiều tác vụ hạ nguồn. Thay vì chỉ được huấn luyện cho một mục đích duy nhất, mô hình học trước kiến thức và đặc trưng tổng quát rồi có thể được điều chỉnh bằng fine-tuning hoặc các phương pháp khác cho từng mục đích cụ thể."
         },
         {
           "type": "point",
@@ -1534,7 +1534,7 @@
           "english": "Foundation Model",
           "vi": "mô hình nền tảng",
           "definitionJa": "大規模かつ多様なデータで事前学習され、さまざまな下流タスクへ適応して利用できるAIモデル。",
-          "definitionVi": "Mô hình AI được pre-train trên dữ liệu quy mô lớn và đa dạng, có thể thích ứng để sử dụng cho nhiều nhiệm vụ phía sau."
+          "definitionVi": "Mô hình AI được pre-train trên dữ liệu quy mô lớn và đa dạng, có thể thích ứng để sử dụng cho nhiều tác vụ hạ nguồn."
         },
         {
           "term": "拡散モデル",
@@ -1542,7 +1542,7 @@
           "english": "Diffusion Model",
           "vi": "mô hình khuếch tán",
           "definitionJa": "データへのノイズ付加と、その逆過程であるノイズ除去を学習し、ノイズから新しいデータを生成する生成モデルの一種。",
-          "definitionVi": "Một loại mô hình sinh học quá trình thêm nhiễu và quá trình ngược để loại bỏ nhiễu, từ đó có thể tạo dữ liệu mới bắt đầu từ nhiễu."
+          "definitionVi": "Một loại mô hình sinh được huấn luyện để học quá trình thêm nhiễu và quá trình ngược nhằm loại bỏ nhiễu, từ đó có thể tạo dữ liệu mới bắt đầu từ nhiễu."
         },
         {
           "term": "言語モデル",

@@ -1,0 +1,591 @@
+{
+  "id": "measurement-and-control-theory",
+  "order": 5,
+  "titleJa": "計測・制御に関する理論",
+  "titleVi": "Lý thuyết về đo lường và điều khiển",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "filtering-and-da-conversion",
+      "order": 1,
+      "titleJa": "フィルタリングとD/A変換",
+      "titleVi": "Lọc dữ liệu và chuyển đổi D/A",
+      "importance": "high",
+      "summaryJa": "計測・制御で扱う信号処理の基礎として、必要な情報を取り出すフィルタリングと、デジタル信号をアナログ信号へ変換するD/A変換の役割を理解する。",
+      "summaryVi": "Tìm hiểu hai kiến thức cơ bản trong xử lý tín hiệu phục vụ đo lường và điều khiển: Filtering để chọn hoặc loại bỏ thành phần tín hiệu theo điều kiện, và chuyển đổi D/A để biến tín hiệu số thành tín hiệu tương tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フィルタリング",
+          "vi": "Lọc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フィルタリングは、データや信号から特定の条件に合う成分を取り出したり、不要な成分を除去したりする処理である。計測や信号処理では、必要な信号を残し、雑音などの不要な成分を抑えるために利用される。",
+          "vi": "Filtering là quá trình lấy ra các thành phần phù hợp với điều kiện nhất định hoặc loại bỏ các thành phần không cần thiết khỏi dữ liệu hay tín hiệu. Trong đo lường và xử lý tín hiệu, nó được dùng để giữ lại tín hiệu cần thiết và giảm các thành phần không mong muốn như nhiễu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、フィルタの種類によって「どの周波数成分を通し、どの周波数成分を除去するか」を判断する問題があるため、通過させる成分と遮断する成分を区別することが重要である。",
+          "vi": "Trong FE, cần chú ý bộ lọc cho thành phần tần số nào đi qua và loại bỏ thành phần nào. Vì vậy phải phân biệt rõ dải tần được truyền qua và dải tần bị chặn."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、計測した信号に不要な高周波ノイズが含まれている場合、必要な低周波成分を残しながら高周波成分を抑えるフィルタを利用できる。",
+          "vi": "Ví dụ, nếu tín hiệu đo chứa nhiễu tần số cao không cần thiết, có thể dùng bộ lọc để giữ thành phần tần số thấp cần thiết đồng thời giảm thành phần tần số cao."
+        },
+        {
+          "type": "heading",
+          "ja": "D/A変換",
+          "vi": "Chuyển đổi D/A"
+        },
+        {
+          "type": "paragraph",
+          "ja": "D/A変換は、デジタル値を対応するアナログ信号に変換する処理である。コンピュータ内部で扱うデジタルデータを、電圧や音声などの連続的な物理量として出力するときに利用される。",
+          "vi": "Chuyển đổi D/A là quá trình biến một giá trị số thành tín hiệu tương tự tương ứng. Nó được sử dụng khi cần xuất dữ liệu số bên trong máy tính thành đại lượng vật lý liên tục như điện áp hoặc âm thanh."
+        },
+        {
+          "type": "example",
+          "ja": "デジタル音声データをスピーカから音として出力する場合、D/A変換によってデジタル値をアナログ信号に変換し、その信号を利用して音を再生する。",
+          "vi": "Khi phát dữ liệu âm thanh số qua loa, chuyển đổi D/A biến các giá trị số thành tín hiệu tương tự, sau đó tín hiệu này được dùng để tái tạo âm thanh."
+        },
+        {
+          "type": "warning",
+          "ja": "D/A変換はデジタルからアナログへの変換である。逆方向のアナログからデジタルへの変換と混同しないこと。",
+          "vi": "D/A là chuyển đổi từ digital sang analog. Không nhầm với quá trình chuyển đổi theo chiều ngược lại từ analog sang digital."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フィルタリング",
+          "reading": "フィルタリング",
+          "english": "Filtering",
+          "vi": "lọc",
+          "definitionJa": "データや信号から特定の条件に合う成分を取り出したり、不要な成分を除去したりする処理。",
+          "definitionVi": "Quá trình lấy ra các thành phần thỏa mãn điều kiện nhất định hoặc loại bỏ các thành phần không cần thiết khỏi dữ liệu hay tín hiệu."
+        },
+        {
+          "term": "D/A変換",
+          "reading": "ディーエーへんかん",
+          "english": "Digital-to-Analog Conversion",
+          "vi": "chuyển đổi số sang tương tự",
+          "definitionJa": "デジタル値を、それに対応する連続的なアナログ信号へ変換する処理。",
+          "definitionVi": "Quá trình chuyển đổi giá trị số thành tín hiệu tương tự liên tục tương ứng."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "filtering",
+        "signal-processing",
+        "digital-to-analog",
+        "da-conversion"
+      ]
+    },
+    {
+      "id": "ad-conversion-and-control-systems",
+      "order": 2,
+      "titleJa": "A/D変換と制御システムの基礎",
+      "titleVi": "Chuyển đổi A/D và cơ sở hệ thống điều khiển",
+      "importance": "high",
+      "summaryJa": "アナログ信号をデジタルデータとして扱うためのA/D変換と、リアルタイム処理や制御システムに関する基本概念を理解する。特に、オープンループ制御の特徴と、システムの応答特性を区別して理解する。",
+      "summaryVi": "Tìm hiểu chuyển đổi A/D dùng để xử lý tín hiệu tương tự dưới dạng dữ liệu số, cùng các khái niệm cơ bản về xử lý thời gian thực và hệ thống điều khiển. Đặc biệt cần phân biệt đặc điểm của điều khiển vòng hở và đặc tính đáp ứng của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "A/D変換",
+          "vi": "Chuyển đổi A/D"
+        },
+        {
+          "type": "paragraph",
+          "ja": "A/D変換は、連続的に変化するアナログ信号を、コンピュータで処理できるデジタルデータへ変換する処理である。一般に、アナログ信号を一定の時間間隔で取り出す標本化、その値を段階的な数値に対応させる量子化、数値をデジタルデータとして表す符号化という流れで変換する。",
+          "vi": "Chuyển đổi A/D là quá trình biến tín hiệu tương tự thay đổi liên tục thành dữ liệu số mà máy tính có thể xử lý. Quá trình này thường gồm lấy mẫu tín hiệu theo những khoảng thời gian nhất định, lượng tử hóa giá trị thành các mức rời rạc và mã hóa chúng thành dữ liệu số."
+        },
+        {
+          "type": "point",
+          "ja": "A/D変換はアナログからデジタルへの変換、D/A変換はデジタルからアナログへの変換であり、変換方向を混同しないことが重要である。",
+          "vi": "A/D chuyển từ analog sang digital, còn D/A chuyển từ digital sang analog. Trong FE cần đặc biệt chú ý không nhầm chiều chuyển đổi."
+        },
+        {
+          "type": "heading",
+          "ja": "リアルタイムOS",
+          "vi": "Hệ điều hành thời gian thực"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リアルタイムOSは、要求された処理を定められた時間内に完了させることを重視するオペレーティングシステムである。機器制御など、処理結果だけでなく処理を完了する時刻にも制約があるシステムで利用される。",
+          "vi": "Hệ điều hành thời gian thực là hệ điều hành chú trọng việc hoàn thành tác vụ trong thời hạn quy định. Nó được sử dụng trong các hệ thống như điều khiển thiết bị, nơi không chỉ kết quả mà cả thời điểm hoàn thành xử lý cũng rất quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "リアルタイム処理では、単に処理速度が速いことではなく、要求された時間制約を満たすことが重要である。",
+          "vi": "Trong xử lý thời gian thực, điều quan trọng không đơn thuần là xử lý thật nhanh mà là đáp ứng được giới hạn thời gian đã quy định."
+        },
+        {
+          "type": "heading",
+          "ja": "オープンループ",
+          "vi": "Vòng hở"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オープンループは、制御結果を入力側へフィードバックせずに制御する方式である。入力に基づいて出力を決めるが、実際の出力結果を確認して制御量を修正する仕組みを持たない。そのため構成は比較的単純だが、外乱や環境変化に応じた補正は難しい。",
+          "vi": "Vòng hở là phương thức điều khiển không phản hồi kết quả đầu ra về phía đầu vào. Hệ thống quyết định đầu ra dựa trên đầu vào nhưng không kiểm tra kết quả thực tế để điều chỉnh lượng điều khiển. Vì vậy cấu trúc tương đối đơn giản nhưng khó tự hiệu chỉnh khi môi trường hoặc điều kiện bên ngoài thay đổi."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、設定された時間だけ加熱する装置が、実際の温度を測定せずに時間だけで停止する場合は、オープンループ制御の例と考えられる。",
+          "vi": "Ví dụ, một thiết bị chỉ gia nhiệt trong khoảng thời gian đã đặt rồi dừng mà không đo nhiệt độ thực tế là một ví dụ của điều khiển vòng hở."
+        },
+        {
+          "type": "heading",
+          "ja": "応答特性",
+          "vi": "Đặc tính đáp ứng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "応答特性は、システムや装置に入力を与えたとき、出力がどのように変化するかを表す特性である。制御システムでは、入力の変化に対する出力の速さ、安定性、変化の仕方などを評価するために用いられる。",
+          "vi": "Đặc tính đáp ứng biểu thị cách đầu ra của hệ thống hoặc thiết bị thay đổi khi có đầu vào. Trong hệ thống điều khiển, nó được dùng để đánh giá tốc độ phản ứng, độ ổn định và cách đầu ra thay đổi trước sự thay đổi của đầu vào."
+        },
+        {
+          "type": "point",
+          "ja": "オープンループは「制御の方式」、応答特性は「入力に対してシステムがどのように反応するかを表す特性」であり、同じ概念ではない。",
+          "vi": "Open loop là một phương thức điều khiển, còn response characteristic là đặc tính thể hiện hệ thống phản ứng như thế nào trước đầu vào. Đây là hai khái niệm khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "A/D変換",
+          "reading": "エーディーへんかん",
+          "english": "Analog-to-Digital Conversion",
+          "vi": "chuyển đổi tương tự sang số",
+          "definitionJa": "連続的なアナログ信号を、コンピュータなどで処理できる離散的なデジタルデータへ変換する処理。",
+          "definitionVi": "Quá trình chuyển đổi tín hiệu tương tự liên tục thành dữ liệu số rời rạc có thể được máy tính và thiết bị số xử lý."
+        },
+        {
+          "term": "リアルタイムOS",
+          "reading": "リアルタイムオーエス",
+          "english": "Real-Time Operating System",
+          "vi": "hệ điều hành thời gian thực",
+          "definitionJa": "要求された処理を定められた時間内に完了させることを重視したオペレーティングシステム。",
+          "definitionVi": "Hệ điều hành được thiết kế với trọng tâm là hoàn thành các tác vụ được yêu cầu trong thời hạn xác định."
+        },
+        {
+          "term": "オープンループ",
+          "reading": "オープンループ",
+          "english": "Open Loop",
+          "vi": "vòng hở",
+          "definitionJa": "制御結果を入力側へフィードバックせず、入力に基づいて出力を決定する制御方式。",
+          "definitionVi": "Phương thức điều khiển xác định đầu ra dựa trên đầu vào mà không phản hồi kết quả điều khiển về phía đầu vào."
+        },
+        {
+          "term": "応答特性",
+          "reading": "おうとうとくせい",
+          "english": "Response Characteristic",
+          "vi": "đặc tính đáp ứng",
+          "definitionJa": "システムや装置に入力を与えたときに、出力がどのように変化するかを表す特性。",
+          "definitionVi": "Đặc tính biểu thị cách đầu ra của hệ thống hoặc thiết bị thay đổi khi nhận một đầu vào."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "ad-conversion",
+        "real-time-os",
+        "control-system",
+        "open-loop",
+        "response-characteristic"
+      ]
+    },
+    {
+      "id": "control-stability-sensors-and-actuators",
+      "order": 3,
+      "titleJa": "制御安定性とセンサー・アクチュエーター",
+      "titleVi": "Độ ổn định điều khiển, cảm biến và cơ cấu chấp hành",
+      "importance": "high",
+      "summaryJa": "制御システムにおける安定性と、外部の状態を検出するセンサー、制御結果を物理的な動作に変換するアクチュエーターについて理解する。また、センサーの一種である光学センサーの役割と特徴を学ぶ。",
+      "summaryVi": "Tìm hiểu độ ổn định trong hệ thống điều khiển, cảm biến dùng để phát hiện trạng thái bên ngoài và cơ cấu chấp hành dùng để biến tín hiệu điều khiển thành chuyển động vật lý. Đồng thời học vai trò và đặc điểm của cảm biến quang học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "制御システムの基本構成",
+          "vi": "Cấu trúc cơ bản của hệ thống điều khiển"
+        },
+        {
+          "type": "paragraph",
+          "ja": "制御システムでは、センサーによって対象や周囲の状態を検出し、その情報を基に制御を行い、アクチュエーターによって実際の動作を発生させる。制御安定性は、この一連の制御が外乱や内部状態の変化を受けても安定して行われるかを考えるための重要な概念である。",
+          "vi": "Trong hệ thống điều khiển, cảm biến phát hiện trạng thái của đối tượng hoặc môi trường, hệ thống thực hiện điều khiển dựa trên thông tin đó và cơ cấu chấp hành tạo ra hành động thực tế. Độ ổn định điều khiển là khái niệm quan trọng để đánh giá liệu quá trình này có duy trì hoạt động ổn định khi chịu tác động bên ngoài hoặc thay đổi trạng thái bên trong hay không."
+        },
+        {
+          "type": "heading",
+          "ja": "制御安定性",
+          "vi": "Độ ổn định điều khiển"
+        },
+        {
+          "type": "paragraph",
+          "ja": "制御安定性は、制御系が外乱や内部状態の変化を受けた場合でも、出力が発散せず、目標とする状態へ適切に収束または維持できる性質を表す。制御系の設計では、目標値への応答だけでなく、安定した状態を保てるかどうかが重要となる。",
+          "vi": "Độ ổn định điều khiển biểu thị khả năng của hệ thống điều khiển không bị mất kiểm soát khi chịu nhiễu hoặc thay đổi trạng thái bên trong, đồng thời có thể hội tụ về hoặc duy trì trạng thái mục tiêu một cách thích hợp. Khi thiết kế hệ thống điều khiển, không chỉ khả năng đáp ứng mục tiêu mà cả khả năng duy trì trạng thái ổn định đều rất quan trọng."
+        },
+        {
+          "type": "heading",
+          "ja": "センサーとアクチュエーター",
+          "vi": "Cảm biến và cơ cấu chấp hành"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサーは温度、光、圧力などの物理量や環境の状態を検出し、処理可能な信号へ変換する。一方、アクチュエーターは制御信号を受け取り、モータの回転や機構の移動などの物理的な動作へ変換する。",
+          "vi": "Cảm biến phát hiện các đại lượng vật lý hoặc trạng thái môi trường như nhiệt độ, ánh sáng và áp suất rồi chuyển chúng thành tín hiệu có thể xử lý. Ngược lại, cơ cấu chấp hành nhận tín hiệu điều khiển và biến nó thành hành động vật lý như quay động cơ hoặc di chuyển cơ cấu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、センサーは「検出する側」、アクチュエーターは「動作させる側」と区別すると理解しやすい。",
+          "vi": "Trong FE, có thể ghi nhớ đơn giản: sensor là phía \"phát hiện\", còn actuator là phía \"tạo hành động\"."
+        },
+        {
+          "type": "heading",
+          "ja": "光学センサー",
+          "vi": "Cảm biến quang học"
+        },
+        {
+          "type": "paragraph",
+          "ja": "光学センサーはセンサーの一種であり、光を利用して対象物や周囲の状態を検出する。光の強さ、色、反射などを利用でき、カメラ、スキャナ、物体検出、位置検出など様々な用途で使用される。",
+          "vi": "Cảm biến quang học là một loại cảm biến sử dụng ánh sáng để phát hiện vật thể hoặc trạng thái môi trường. Nó có thể sử dụng cường độ ánh sáng, màu sắc hoặc ánh sáng phản xạ và được ứng dụng trong camera, máy quét, phát hiện vật thể, xác định vị trí và nhiều lĩnh vực khác."
+        },
+        {
+          "type": "point",
+          "ja": "関係を整理すると、「センサー」が上位概念であり、「光学センサー」は光を利用するセンサーの一種である。",
+          "vi": "Về quan hệ khái niệm, \"sensor\" là khái niệm tổng quát, còn \"optical sensor\" là một loại sensor sử dụng ánh sáng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "制御安定性",
+          "reading": "せいぎょあんていせい",
+          "english": "Control Stability",
+          "vi": "độ ổn định điều khiển",
+          "definitionJa": "制御系が外乱や内部状態の変化を受けても、出力が発散せず、目標とする状態へ適切に収束または維持できる性質。",
+          "definitionVi": "Tính chất cho biết hệ thống điều khiển có thể duy trì hoặc hội tụ thích hợp về trạng thái mục tiêu mà không bị mất ổn định khi chịu nhiễu hoặc thay đổi bên trong."
+        },
+        {
+          "term": "センサー",
+          "reading": "センサー",
+          "english": "Sensor",
+          "vi": "cảm biến",
+          "definitionJa": "温度、光、圧力などの物理量や外部環境の状態を検出し、処理可能な信号に変換する装置。",
+          "definitionVi": "Thiết bị phát hiện các đại lượng vật lý hoặc trạng thái môi trường như nhiệt độ, ánh sáng và áp suất rồi chuyển chúng thành tín hiệu có thể xử lý."
+        },
+        {
+          "term": "アクチュエーター",
+          "reading": "アクチュエーター",
+          "english": "Actuator",
+          "vi": "cơ cấu chấp hành",
+          "definitionJa": "制御信号を受け取り、電気、空気圧、油圧などのエネルギーを利用して機械的な動作を発生させる装置。",
+          "definitionVi": "Thiết bị nhận tín hiệu điều khiển và sử dụng năng lượng như điện, khí nén hoặc thủy lực để tạo ra chuyển động cơ học."
+        },
+        {
+          "term": "光学センサー",
+          "reading": "こうがくセンサー",
+          "english": "Optical Sensor",
+          "vi": "cảm biến quang học",
+          "definitionJa": "光の強さ、色、反射などの性質を利用して、対象物や周囲の状態を検出するセンサー。",
+          "definitionVi": "Loại cảm biến sử dụng các đặc tính của ánh sáng như cường độ, màu sắc hoặc phản xạ để phát hiện vật thể hoặc trạng thái môi trường."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "control-stability",
+        "sensor",
+        "actuator",
+        "optical-sensor"
+      ]
+    },
+    {
+      "id": "infrared-magnetic-acceleration-and-gyro-sensors",
+      "order": 4,
+      "titleJa": "各種センサーと検出対象",
+      "titleVi": "Các loại cảm biến và đối tượng đo",
+      "importance": "high",
+      "summaryJa": "赤外線、磁気、加速度、回転や角速度など、異なる物理量を検出する各種センサーの特徴と用途を理解する。",
+      "summaryVi": "Tìm hiểu đặc điểm và ứng dụng của các loại cảm biến dùng để phát hiện những đại lượng vật lý khác nhau như tia hồng ngoại, từ trường, gia tốc, chuyển động quay và vận tốc góc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "センサーの種類と検出対象",
+          "vi": "Các loại cảm biến và đối tượng phát hiện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサーには、検出する物理量に応じて様々な種類がある。赤外線センサーは赤外線、磁気センサーは磁場、加速度センサーは加速度、ジャイロセンサーは回転や角速度を検出する。それぞれの検出対象と代表的な用途を対応させて理解することが重要である。",
+          "vi": "Cảm biến có nhiều loại khác nhau tùy theo đại lượng vật lý cần phát hiện. Cảm biến hồng ngoại phát hiện tia hồng ngoại, cảm biến từ phát hiện từ trường, cảm biến gia tốc đo gia tốc, còn cảm biến con quay hồi chuyển đo chuyển động quay hoặc vận tốc góc. Điều quan trọng là phải liên hệ đúng từng cảm biến với đối tượng đo và ứng dụng tiêu biểu của nó."
+        },
+        {
+          "type": "heading",
+          "ja": "赤外線センサーと磁気センサー",
+          "vi": "Cảm biến hồng ngoại và cảm biến từ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "赤外線センサーは物体から放射される赤外線などを検出し、人や物体の検知、温度に関する測定などに利用される。磁気センサーは磁場を検出し、方位の検出や位置の検出などに利用される。",
+          "vi": "Cảm biến hồng ngoại phát hiện tia hồng ngoại, chẳng hạn tia phát ra từ vật thể, và được sử dụng để phát hiện người, vật thể hoặc thực hiện các phép đo liên quan đến nhiệt độ. Cảm biến từ phát hiện từ trường và được sử dụng để xác định phương hướng hoặc vị trí."
+        },
+        {
+          "type": "heading",
+          "ja": "加速度センサーとジャイロセンサー",
+          "vi": "Cảm biến gia tốc và cảm biến con quay hồi chuyển"
+        },
+        {
+          "type": "paragraph",
+          "ja": "加速度センサーは物体の加速度を測定し、端末の動きや傾きなどの検出に利用される。ジャイロセンサーは物体の回転や角速度を測定し、姿勢や向きの変化を把握するために利用される。スマートフォンやドローンなどでは、両者を組み合わせてより正確に動きや姿勢を検出することがある。",
+          "vi": "Cảm biến gia tốc đo gia tốc của vật thể và được dùng để phát hiện chuyển động hoặc độ nghiêng của thiết bị. Cảm biến con quay hồi chuyển đo chuyển động quay hoặc vận tốc góc, giúp xác định sự thay đổi tư thế và hướng. Trong các thiết bị như điện thoại thông minh và drone, hai loại cảm biến này có thể được kết hợp để phát hiện chuyển động và tư thế chính xác hơn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、赤外線＝赤外線の検出、磁気＝磁場、加速度＝速度の変化、ジャイロ＝回転・角速度という対応を整理して覚える。",
+          "vi": "Trong FE, nên ghi nhớ theo cặp: hồng ngoại = phát hiện tia hồng ngoại, từ = từ trường, gia tốc = sự thay đổi vận tốc, gyro = chuyển động quay/vận tốc góc."
+        },
+        {
+          "type": "warning",
+          "ja": "加速度センサーとジャイロセンサーは混同しやすい。加速度センサーは主に直線的な加速度や重力による傾きの検出に使われ、ジャイロセンサーは回転運動や角速度の検出に使われる。",
+          "vi": "Cảm biến gia tốc và cảm biến gyro rất dễ bị nhầm. Cảm biến gia tốc chủ yếu phát hiện gia tốc tuyến tính hoặc độ nghiêng dựa trên trọng lực, trong khi cảm biến gyro dùng để phát hiện chuyển động quay và vận tốc góc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "赤外線センサー",
+          "reading": "せきがいせんセンサー",
+          "english": "Infrared Sensor",
+          "vi": "cảm biến hồng ngoại",
+          "definitionJa": "赤外線を検出し、人や物体の検知、温度に関する測定などに利用されるセンサー。",
+          "definitionVi": "Cảm biến phát hiện tia hồng ngoại, được sử dụng để phát hiện người, vật thể hoặc thực hiện các phép đo liên quan đến nhiệt độ."
+        },
+        {
+          "term": "磁気センサー",
+          "reading": "じきセンサー",
+          "english": "Magnetic Sensor",
+          "vi": "cảm biến từ",
+          "definitionJa": "周囲の磁場を検出し、その情報を電気信号として出力するセンサー。方位や位置の検出などに利用される。",
+          "definitionVi": "Cảm biến phát hiện từ trường xung quanh và chuyển thông tin đó thành tín hiệu điện, thường được sử dụng để xác định phương hướng hoặc vị trí."
+        },
+        {
+          "term": "加速度センサー",
+          "reading": "かそくどセンサー",
+          "english": "Accelerometer",
+          "vi": "cảm biến gia tốc",
+          "definitionJa": "物体に生じる加速度を測定するセンサー。機器の動きや傾きの検出などに利用される。",
+          "definitionVi": "Cảm biến đo gia tốc tác động lên vật thể, được sử dụng để phát hiện chuyển động hoặc độ nghiêng của thiết bị."
+        },
+        {
+          "term": "ジャイロセンサー",
+          "reading": "ジャイロセンサー",
+          "english": "Gyro Sensor",
+          "vi": "cảm biến con quay hồi chuyển",
+          "definitionJa": "物体の回転や角速度を検出するセンサー。機器の姿勢や向きの変化を把握するために利用される。",
+          "definitionVi": "Cảm biến phát hiện chuyển động quay hoặc vận tốc góc của vật thể, được sử dụng để xác định sự thay đổi tư thế và hướng của thiết bị."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "sensor",
+        "infrared-sensor",
+        "magnetic-sensor",
+        "accelerometer",
+        "gyro-sensor"
+      ]
+    },
+    {
+      "id": "ultrasonic-temperature-humidity-and-pressure-sensors",
+      "order": 5,
+      "titleJa": "距離・環境計測に用いるセンサー",
+      "titleVi": "Cảm biến đo khoảng cách và môi trường",
+      "importance": "high",
+      "summaryJa": "超音波を利用して距離などを測定するセンサーと、温度、湿度、圧力を検出する代表的なセンサーについて、それぞれの測定対象、基本原理、代表的な用途を理解する。",
+      "summaryVi": "Tìm hiểu cảm biến siêu âm dùng để đo khoảng cách và các cảm biến tiêu biểu dùng để đo nhiệt độ, độ ẩm và áp suất, bao gồm đối tượng đo, nguyên lý cơ bản và các ứng dụng điển hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "距離や環境状態を測定するセンサー",
+          "vi": "Cảm biến đo khoảng cách và trạng thái môi trường"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサーは、目的に応じて異なる物理量を測定する。超音波センサーは超音波の反射を利用して物体までの距離などを測定し、温度センサー、湿度センサー、圧力センサーはそれぞれ温度、湿度、圧力を測定する。FEでは、各センサーが何を測定するのかを正確に対応させることが重要である。",
+          "vi": "Tùy theo mục đích, cảm biến sẽ đo các đại lượng vật lý khác nhau. Cảm biến siêu âm sử dụng sự phản xạ của sóng siêu âm để đo khoảng cách tới vật thể, còn cảm biến nhiệt độ, độ ẩm và áp suất lần lượt đo nhiệt độ, độ ẩm và áp suất. Trong FE, điều quan trọng là phải xác định chính xác mỗi loại cảm biến dùng để đo đại lượng nào."
+        },
+        {
+          "type": "heading",
+          "ja": "超音波センサー",
+          "vi": "Cảm biến siêu âm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "超音波センサーは、人間の可聴域を超える高い周波数の音波を発信し、物体で反射して戻るまでの時間などを利用して距離を測定する。障害物検知、駐車支援、ロボットの周辺認識などに利用される。",
+          "vi": "Cảm biến siêu âm phát ra sóng âm có tần số cao hơn phạm vi nghe của con người và đo khoảng cách dựa trên thời gian sóng phản xạ từ vật thể quay trở lại. Nó được sử dụng trong phát hiện chướng ngại vật, hỗ trợ đỗ xe và nhận biết môi trường xung quanh của robot."
+        },
+        {
+          "type": "heading",
+          "ja": "温度・湿度・圧力の測定",
+          "vi": "Đo nhiệt độ, độ ẩm và áp suất"
+        },
+        {
+          "type": "paragraph",
+          "ja": "温度センサーは温度を、湿度センサーは空気中の水分量に関係する湿度を、圧力センサーは気体や液体などから受ける圧力を測定する。これらは環境監視、空調設備、工業設備、自動車、医療機器など様々なシステムで利用される。",
+          "vi": "Cảm biến nhiệt độ đo nhiệt độ, cảm biến độ ẩm đo độ ẩm liên quan đến lượng hơi nước trong không khí, còn cảm biến áp suất đo áp suất của khí hoặc chất lỏng. Chúng được sử dụng trong nhiều hệ thống như giám sát môi trường, điều hòa không khí, thiết bị công nghiệp, ô tô và thiết bị y tế."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「超音波センサー＝反射を利用した距離測定」「温度センサー＝温度」「湿度センサー＝湿度」「圧力センサー＝圧力」という対応をまず整理して覚える。",
+          "vi": "Trong FE, trước tiên nên ghi nhớ: cảm biến siêu âm = đo khoảng cách bằng phản xạ; cảm biến nhiệt độ = nhiệt độ; cảm biến độ ẩm = độ ẩm; cảm biến áp suất = áp suất."
+        },
+        {
+          "type": "warning",
+          "ja": "超音波センサーは音波を利用するため、光を利用する光学センサーや赤外線を検出する赤外線センサーとは検出原理が異なる。",
+          "vi": "Cảm biến siêu âm sử dụng sóng âm nên có nguyên lý phát hiện khác với cảm biến quang học sử dụng ánh sáng và cảm biến hồng ngoại phát hiện tia hồng ngoại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "超音波センサー",
+          "reading": "ちょうおんぱセンサー",
+          "english": "Ultrasonic Sensor",
+          "vi": "cảm biến siêu âm",
+          "definitionJa": "超音波を発信し、物体からの反射波を受信することで、物体までの距離や存在を検出するセンサー。",
+          "definitionVi": "Cảm biến phát sóng siêu âm và nhận sóng phản xạ từ vật thể để phát hiện sự tồn tại hoặc đo khoảng cách tới vật thể."
+        },
+        {
+          "term": "温度センサー",
+          "reading": "おんどセンサー",
+          "english": "Temperature Sensor",
+          "vi": "cảm biến nhiệt độ",
+          "definitionJa": "対象物や周囲の温度を測定し、その値を電気信号などに変換して出力するセンサー。",
+          "definitionVi": "Cảm biến đo nhiệt độ của vật thể hoặc môi trường xung quanh và chuyển giá trị đo được thành tín hiệu điện hoặc dạng tín hiệu có thể xử lý."
+        },
+        {
+          "term": "湿度センサー",
+          "reading": "しつどセンサー",
+          "english": "Humidity Sensor",
+          "vi": "cảm biến độ ẩm",
+          "definitionJa": "空気中の水分量に関係する湿度を測定し、その値を信号として出力するセンサー。",
+          "definitionVi": "Cảm biến đo độ ẩm liên quan đến lượng hơi nước trong không khí và xuất giá trị đó dưới dạng tín hiệu."
+        },
+        {
+          "term": "圧力センサー",
+          "reading": "あつりょくセンサー",
+          "english": "Pressure Sensor",
+          "vi": "cảm biến áp suất",
+          "definitionJa": "気体や液体などから受ける圧力を検出し、その大きさを電気信号などに変換するセンサー。",
+          "definitionVi": "Cảm biến phát hiện áp suất của khí hoặc chất lỏng và chuyển độ lớn của áp suất thành tín hiệu điện hoặc dạng tín hiệu có thể xử lý."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "sensor",
+        "ultrasonic-sensor",
+        "temperature-sensor",
+        "humidity-sensor",
+        "pressure-sensor"
+      ]
+    },
+    {
+      "id": "measurement-elements-and-actuators",
+      "order": 6,
+      "titleJa": "計測素子と駆動装置",
+      "titleVi": "Phần tử đo lường và thiết bị chấp hành",
+      "importance": "high",
+      "summaryJa": "力や温度、磁気を検出する代表的な計測素子と、電気・油圧・空気圧を利用して機械的な動作を生み出す代表的な駆動装置について理解する。",
+      "summaryVi": "Tìm hiểu các phần tử đo lường tiêu biểu dùng để phát hiện lực, nhiệt độ và từ trường, đồng thời phân biệt các thiết bị chấp hành tạo chuyển động cơ học bằng điện, thủy lực và khí nén.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "計測に用いる素子",
+          "vi": "Các phần tử dùng trong đo lường"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ひずみゲージ、サーミスタ、ホール素子は、それぞれ異なる物理量を電気的な変化として検出するために利用される。ひずみゲージは物体の変形、サーミスタは温度、ホール素子は磁界を検出する。FEでは、それぞれが何を検出する素子なのかを区別することが重要である。",
+          "vi": "Strain gauge, thermistor và phần tử Hall được sử dụng để phát hiện các đại lượng vật lý khác nhau dưới dạng biến đổi điện. Strain gauge phát hiện biến dạng của vật thể, thermistor phát hiện nhiệt độ và phần tử Hall phát hiện từ trường. Trong FE, cần phân biệt chính xác mỗi phần tử dùng để phát hiện đại lượng nào."
+        },
+        {
+          "type": "point",
+          "ja": "ひずみゲージは変形による電気抵抗の変化、サーミスタは温度による電気抵抗の変化、ホール素子は磁界によって生じるホール電圧を利用する。",
+          "vi": "Strain gauge sử dụng sự thay đổi điện trở do biến dạng, thermistor sử dụng sự thay đổi điện trở theo nhiệt độ, còn phần tử Hall sử dụng điện áp Hall sinh ra dưới tác dụng của từ trường."
+        },
+        {
+          "type": "heading",
+          "ja": "機械的な動作を生み出す駆動装置",
+          "vi": "Thiết bị tạo chuyển động cơ học"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モーター、油圧シリンダ、空気圧シリンダは、エネルギーを機械的な動作に変換する代表的な装置である。モーターは主に電気エネルギーを回転運動に変換し、油圧シリンダと空気圧シリンダは、それぞれ液体と圧縮空気の圧力を利用して主に直線運動を発生させる。",
+          "vi": "Motor, xi lanh thủy lực và xi lanh khí nén là những thiết bị tiêu biểu biến đổi năng lượng thành chuyển động cơ học. Motor chủ yếu biến điện năng thành chuyển động quay, trong khi xi lanh thủy lực và xi lanh khí nén sử dụng áp suất của chất lỏng và khí nén để tạo ra chủ yếu là chuyển động tịnh tiến."
+        },
+        {
+          "type": "point",
+          "ja": "駆動源で整理すると、モーター＝電気、油圧シリンダ＝液体の圧力、空気圧シリンダ＝圧縮空気である。",
+          "vi": "Nếu phân loại theo nguồn dẫn động: motor = điện, xi lanh thủy lực = áp suất chất lỏng, xi lanh khí nén = khí nén."
+        },
+        {
+          "type": "warning",
+          "ja": "油圧シリンダと空気圧シリンダはどちらも直線運動に利用されるが、作動媒体が異なる。油圧は液体を利用し、大きな力を得やすい。空気圧は圧縮空気を利用する。",
+          "vi": "Xi lanh thủy lực và xi lanh khí nén đều có thể tạo chuyển động tịnh tiến nhưng môi chất hoạt động khác nhau. Thủy lực sử dụng chất lỏng và dễ tạo lực lớn, còn khí nén sử dụng không khí nén."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ひずみゲージ",
+          "reading": "ひずみゲージ",
+          "english": "Strain Gauge",
+          "vi": "cảm biến biến dạng",
+          "definitionJa": "物体に力が加わったときに生じる変形（ひずみ）を、電気抵抗の変化などを利用して測定する素子。",
+          "definitionVi": "Phần tử đo biến dạng của vật thể khi chịu lực, thường dựa trên sự thay đổi điện trở."
+        },
+        {
+          "term": "サーミスタ",
+          "reading": "サーミスタ",
+          "english": "Thermistor",
+          "vi": "điện trở nhiệt",
+          "definitionJa": "温度によって電気抵抗が大きく変化する性質を利用し、温度の検出や制御に用いられる半導体素子。",
+          "definitionVi": "Phần tử bán dẫn có điện trở thay đổi đáng kể theo nhiệt độ, được sử dụng để phát hiện và điều khiển nhiệt độ."
+        },
+        {
+          "term": "ホール素子",
+          "reading": "ホールそし",
+          "english": "Hall Element",
+          "vi": "phần tử Hall",
+          "definitionJa": "電流が流れる導体や半導体に磁界を加えたときに生じるホール電圧を利用して、磁界を検出する素子。",
+          "definitionVi": "Phần tử phát hiện từ trường dựa trên điện áp Hall sinh ra khi từ trường tác động lên vật dẫn hoặc chất bán dẫn có dòng điện chạy qua."
+        },
+        {
+          "term": "モーター",
+          "reading": "モーター",
+          "english": "Motor",
+          "vi": "động cơ điện",
+          "definitionJa": "主に電気エネルギーを機械的な回転運動に変換し、機械や装置を駆動するために用いられる装置。",
+          "definitionVi": "Thiết bị chủ yếu biến đổi điện năng thành chuyển động quay cơ học để dẫn động máy móc và thiết bị."
+        },
+        {
+          "term": "油圧シリンダ",
+          "reading": "ゆあつシリンダ",
+          "english": "Hydraulic Cylinder",
+          "vi": "xi lanh thủy lực",
+          "definitionJa": "油などの液体の圧力を利用してピストンを動かし、主に直線的な力や運動を発生させる装置。",
+          "definitionVi": "Thiết bị sử dụng áp suất của chất lỏng như dầu để di chuyển piston và tạo lực hoặc chuyển động tịnh tiến."
+        },
+        {
+          "term": "空気圧シリンダ",
+          "reading": "くうきあつシリンダ",
+          "english": "Pneumatic Cylinder",
+          "vi": "xi lanh khí nén",
+          "definitionJa": "圧縮空気の圧力を利用してピストンを動かし、主に直線的な力や運動を発生させる装置。",
+          "definitionVi": "Thiết bị sử dụng áp suất của khí nén để di chuyển piston và tạo lực hoặc chuyển động tịnh tiến."
+        }
+      ],
+      "tags": [
+        "measurement-control-theory",
+        "strain-gauge",
+        "thermistor",
+        "hall-element",
+        "motor",
+        "hydraulic-cylinder",
+        "pneumatic-cylinder"
+      ]
+    }
+  ]
+}

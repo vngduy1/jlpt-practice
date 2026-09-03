@@ -555,8 +555,8 @@
         },
         {
           "type": "point",
-          "ja": "固有ベクトルvと固有値λは Av=λv を満たす。変換後も方向が変わらず、倍率だけがλになるベクトルが固有ベクトルである。",
-          "vi": "Vector riêng v và trị riêng λ thỏa Av=λv. Vector riêng giữ nguyên hướng sau phép biến đổi và chỉ thay đổi độ lớn theo hệ số λ."
+          "ja": "固有ベクトルvと固有値λは Av=λv を満たす。変換後のベクトルが元のベクトルと同一直線上にあり、λ倍になる非零ベクトルが固有ベクトルである。",
+          "vi": "Vector riêng v và trị riêng λ thỏa Av=λv. Vector riêng là vector khác 0 mà sau phép biến đổi, vector kết quả vẫn nằm trên cùng một đường thẳng với vector ban đầu và bằng λ lần vector đó."
         }
       ],
       "terms": [
@@ -597,8 +597,8 @@
           "reading": "こゆうベクトル",
           "english": "Eigenvector",
           "vi": "vector riêng",
-          "definitionJa": "行列Aによる変換で方向が変わらず、Av=λvを満たす非零ベクトル。",
-          "definitionVi": "Vector khác 0 không đổi hướng dưới biến đổi bởi A và thỏa Av=λv."
+          "definitionJa": "行列Aによる変換後も元のベクトルと同一直線上にあり、Av=λvを満たす非零ベクトル。",
+          "definitionVi": "Vector khác 0 thỏa Av=λv, nên sau phép biến đổi bởi A, vector kết quả vẫn nằm trên cùng một đường thẳng với vector ban đầu."
         },
         {
           "term": "行列",
@@ -697,10 +697,10 @@
       "id": "functions-and-calculus",
       "order": 8,
       "titleJa": "関数・因数分解・微積分",
-      "titleVi": "Hàm số, phân tích nhân tử và vi tích phân",
+      "titleVi": "Hàm số, phân tích nhân tử, đạo hàm và tích phân",
       "importance": "medium",
       "summaryJa": "三角関数、因数分解、微分、積分の基本的な意味と計算の考え方を理解する。",
-      "summaryVi": "Hiểu ý nghĩa và tư duy tính toán cơ bản của hàm lượng giác, phân tích nhân tử, vi phân và tích phân.",
+      "summaryVi": "Hiểu ý nghĩa và cách tính cơ bản của hàm lượng giác, phân tích nhân tử, đạo hàm và tích phân.",
       "content": [
         {
           "type": "point",
@@ -715,7 +715,7 @@
         {
           "type": "point",
           "ja": "微分は瞬間的な変化率や接線の傾きを求める操作。積分は変化を積み上げて面積や総量を求める操作として理解する。",
-          "vi": "Vi phân tìm tốc độ thay đổi tức thời hoặc độ dốc tiếp tuyến. Tích phân cộng dồn sự thay đổi để tìm diện tích hoặc tổng lượng."
+          "vi": "Đạo hàm cho biết tốc độ thay đổi tức thời hoặc độ dốc của tiếp tuyến. Tích phân cộng dồn các đại lượng vi phân để tìm diện tích hoặc tổng lượng."
         },
         {
           "type": "example",
@@ -744,7 +744,7 @@
           "term": "微分",
           "reading": "びぶん",
           "english": "Differentiation",
-          "vi": "vi phân/đạo hàm",
+          "vi": "đạo hàm",
           "definitionJa": "関数のある点での変化率や接線の傾きを求める操作。",
           "definitionVi": "Phép toán tìm tốc độ thay đổi hoặc độ dốc tiếp tuyến của hàm tại một điểm."
         },
@@ -999,8 +999,8 @@
         },
         {
           "type": "warning",
-          "ja": "動的計画法は「動的にプログラムを書く」という意味ではなく、部分問題の最適解を利用して全体問題を解く最適化の考え方である。",
-          "vi": "Dynamic Programming không có nghĩa là “lập trình động”; đây là tư duy tối ưu dùng nghiệm của các bài toán con để giải bài toán tổng thể."
+          "ja": "動的計画法は「動的にプログラムを書く」という意味ではなく、部分問題の解を保存・再利用して全体問題を効率よく解く考え方である。",
+          "vi": "Dynamic Programming không có nghĩa là “lập trình động”; đây là phương pháp lưu và tái sử dụng lời giải của các bài toán con để giải bài toán tổng thể một cách hiệu quả."
         }
       ],
       "terms": [

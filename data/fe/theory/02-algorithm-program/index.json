@@ -1,0 +1,29 @@
+{
+  "id": "algorithms-and-programming",
+  "order": 2,
+  "titleJa": "アルゴリズムとプログラミング",
+  "titleVi": "Thuật toán và lập trình",
+  "chapters": [
+    {
+      "id": "data-structures",
+      "order": 1,
+      "titleJa": "データ構造",
+      "titleVi": "Cấu trúc dữ liệu",
+      "file": "01-data-structures.json"
+    },
+    {
+      "id": "algorithms",
+      "order": 2,
+      "titleJa": "アルゴリズム",
+      "titleVi": "Thuật toán",
+      "file": "02-algorithms.json"
+    },
+    {
+      "id": "programming",
+      "order": 3,
+      "titleJa": "プログラミング",
+      "titleVi": "Lập trình",
+      "file": "03-programming.json"
+    }
+  ]
+}

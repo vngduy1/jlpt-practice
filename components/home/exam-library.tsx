@@ -1,4 +1,7 @@
-import { ChevronRight } from "lucide-react";
+"use client";
+
+import { useState } from "react";
+import { ChevronDown, ChevronRight, ChevronUp } from "lucide-react";
 
 import { ExamCard } from "@/components/exams/exam-card";
 
@@ -17,6 +20,8 @@ export function ExamLibrary({
   selectedLevel,
   variant = "official",
 }: ExamLibraryProps) {
+  const [showAll, setShowAll] = useState(false);
+
   const filteredExams = exams
     .filter((exam) => exam.level === selectedLevel)
     .sort((a, b) => {
@@ -64,11 +69,52 @@ export function ExamLibrary({
       </div>
 
       {filteredExams.length > 0 ? (
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredExams.map((exam) => (
-            <ExamCard key={exam.id} exam={exam} />
-          ))}
-        </div>
+        <>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredExams.map((exam, index) => {
+              let visibilityClass = "";
+
+              if (isOriginal && !showAll) {
+                if (index >= 6) {
+                  // Desktop/tablet/mobile đều ẩn từ đề thứ 7
+                  visibilityClass = "hidden";
+                } else if (index >= 4) {
+                  // Mobile chỉ hiện 4 đề
+                  // sm trở lên hiện thêm đề 5 và 6
+                  visibilityClass = "hidden sm:block";
+                }
+              }
+
+              return (
+                <div key={exam.id} className={visibilityClass}>
+                  <ExamCard exam={exam} />
+                </div>
+              );
+            })}
+          </div>
+
+          {isOriginal && filteredExams.length > 4 && (
+            <div className="mt-8 flex justify-center">
+              <button
+                type="button"
+                onClick={() => setShowAll((current) => !current)}
+                className="inline-flex min-h-11 items-center gap-2 rounded-lg border border-border bg-background px-5 text-sm font-semibold text-foreground transition-colors hover:border-primary/40 hover:bg-secondary hover:text-primary"
+              >
+                {showAll ? (
+                  <>
+                    閉じる
+                    <ChevronUp className="size-4" aria-hidden="true" />
+                  </>
+                ) : (
+                  <>
+                    もっと見る
+                    <ChevronDown className="size-4" aria-hidden="true" />
+                  </>
+                )}
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="rounded-xl border border-dashed border-border px-6 py-16 text-center">
           <p className="font-semibold">

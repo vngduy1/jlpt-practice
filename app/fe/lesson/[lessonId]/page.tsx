@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { ArrowLeft, BookMarked } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookMarked } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { FeLessonContent } from "@/components/fe/fe-lesson-content";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
-import { getFeLesson } from "@/lib/fe/utils";
+import { getFeLesson, getFeLessonNavigation } from "@/lib/fe/utils";
 
 interface FeLessonPageProps {
   params: Promise<{ lessonId: string }>;
@@ -36,6 +36,7 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
   if (!record) notFound();
 
   const { category, chapter, lesson } = record;
+  const { previous, next } = getFeLessonNavigation(lessonId);
 
   return (
     <main className="min-h-screen bg-background text-foreground">
@@ -73,6 +74,79 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
         <div className="mt-6">
           <FeLessonContent lesson={lesson} />
         </div>
+
+        <nav
+          className="mt-12 border-t border-border pt-6"
+          aria-label="Lesson navigation"
+        >
+          <div className="grid gap-4 sm:grid-cols-2">
+            {previous ? (
+              <>
+                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+                <a
+                  href={`/fe/lesson/${encodeURIComponent(previous.lesson.id)}`}
+                  className="group rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-muted/40"
+                >
+                  <p className="flex items-center gap-2 text-sm font-semibold text-muted-foreground group-hover:text-primary">
+                    <ArrowLeft className="size-4" aria-hidden="true" />
+                    前の項目
+                  </p>
+
+                  <p className="mt-3 font-bold text-foreground">
+                    {previous.lesson.titleJa}
+                  </p>
+
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {previous.lesson.titleVi}
+                  </p>
+                </a>
+              </>
+            ) : (
+              <div />
+            )}
+
+            {next ? (
+              <>
+                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+                <a
+                  href={`/fe/lesson/${encodeURIComponent(next.lesson.id)}`}
+                  className="group rounded-xl border border-border bg-card p-5 text-left transition-colors hover:border-primary/40 hover:bg-muted/40 sm:text-right"
+                >
+                  <p className="flex items-center gap-2 text-sm font-semibold text-muted-foreground group-hover:text-primary sm:justify-end">
+                    次の項目
+                    <ArrowRight className="size-4" aria-hidden="true" />
+                  </p>
+
+                  <p className="mt-3 font-bold text-foreground">
+                    {next.lesson.titleJa}
+                  </p>
+
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {next.lesson.titleVi}
+                  </p>
+                </a>
+              </>
+            ) : (
+              <>
+                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
+                <a
+                  href={`/fe/category/${encodeURIComponent(category.id)}`}
+                  className="group rounded-xl border border-border bg-card p-5 text-left transition-colors hover:border-primary/40 hover:bg-muted/40 sm:text-right"
+                >
+                  <p className="text-sm font-semibold text-muted-foreground group-hover:text-primary">
+                    学習完了
+                  </p>
+
+                  <p className="mt-3 font-bold text-foreground">一覧に戻る</p>
+
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    Quay lại danh sách
+                  </p>
+                </a>
+              </>
+            )}
+          </div>
+        </nav>
       </div>
     </main>
   );

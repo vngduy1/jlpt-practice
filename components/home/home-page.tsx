@@ -8,11 +8,12 @@ import {
 } from "@/components/home/exam-section-switch";
 import { ExamLibrary } from "@/components/home/exam-library";
 import { HeroSection } from "@/components/home/hero-section";
-import { HomeHeader } from "@/components/home/home-header";
+import { HomeFooter } from "@/components/home/home-footer";
 import { ListeningLibrary } from "@/components/home/listening-library";
-import type { ListeningExamSummary } from "@/types/listening-exam";
+import { SiteHeader } from "@/components/site/site-header";
 
 import type { ExamSummary, JlptLevel } from "@/types/exam";
+import type { ListeningExamSummary } from "@/types/listening-exam";
 
 interface HomePageProps {
   officialExams: ExamSummary[];
@@ -26,13 +27,15 @@ export function HomePage({
   listeningExams,
 }: HomePageProps) {
   const [selectedLevel, setSelectedLevel] = useState<JlptLevel>("N1");
-
   const [selectedSection, setSelectedSection] =
     useState<PracticeSection>("language");
 
+  const isLanguageSection = selectedSection === "language";
+
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <HomeHeader
+      <SiteHeader
+        section="jlpt"
         selectedLevel={selectedLevel}
         onLevelChange={setSelectedLevel}
       />
@@ -44,7 +47,7 @@ export function HomePage({
         onChange={setSelectedSection}
       />
 
-      {selectedSection === "language" ? (
+      {isLanguageSection ? (
         <>
           <ExamLibrary
             exams={officialExams}
@@ -67,12 +70,7 @@ export function HomePage({
         />
       )}
 
-      <footer className="mt-8 border-t border-border/70">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-7 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-8">
-          <p>JLPT Practice</p>
-          <p>日本語能力試験の学習をサポートします。</p>
-        </div>
-      </footer>
+      <HomeFooter />
     </main>
   );
 }

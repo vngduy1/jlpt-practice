@@ -1,6 +1,6 @@
 export type FeImportance = "high" | "medium" | "low";
 
-export type FeCategoryIcon = "binary" | "workflow" | "database";
+export type FeCategoryIcon = "binary" | "algorithm" | "database";
 
 export interface FeCategoryReference {
   id: string;

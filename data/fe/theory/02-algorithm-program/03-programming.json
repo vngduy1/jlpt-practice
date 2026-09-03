@@ -1,0 +1,2391 @@
+{
+  "id": "programming",
+  "order": 3,
+  "titleJa": "プログラミング",
+  "titleVi": "Lập trình",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "programming-basics",
+      "order": 1,
+      "titleJa": "プログラミング",
+      "titleVi": "Lập trình",
+      "importance": "high",
+      "summaryJa": "コンピュータに処理を実行させるためのプログラミングについて、プログラム、プログラミング言語、コーディングとの関係を理解する。",
+      "summaryVi": "Tìm hiểu về lập trình để yêu cầu máy tính thực hiện các xử lý, đồng thời hiểu mối quan hệ giữa chương trình, ngôn ngữ lập trình và coding.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プログラミングとは",
+          "vi": "Lập trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミング（Programming）とは、コンピュータに特定の処理を実行させるために、処理の手順や命令をプログラミング言語を用いて記述することである。記述された一連の命令をプログラムという。",
+          "vi": "Lập trình (Programming) là việc sử dụng ngôn ngữ lập trình để mô tả các bước xử lý và lệnh nhằm yêu cầu máy tính thực hiện một công việc cụ thể. Tập hợp các lệnh được viết ra được gọi là chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラミングの目的",
+          "vi": "Mục đích của lập trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングでは、目的とする処理をどのような手順で実現するかを考え、それをコンピュータが処理できる形で記述する。計算処理、データ処理、Webアプリケーションなど、様々なシステムやソフトウェアの実現に利用される。",
+          "vi": "Trong lập trình, người lập trình xác định các bước cần thiết để thực hiện một xử lý mong muốn rồi mô tả chúng dưới dạng mà máy tính có thể xử lý. Lập trình được sử dụng để xây dựng nhiều loại hệ thống và phần mềm như xử lý tính toán, xử lý dữ liệu và ứng dụng Web."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラミング言語",
+          "vi": "Ngôn ngữ lập trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータに処理内容を指示するためには、一定の文法や規則を持つプログラミング言語を使用する。代表的なプログラミング言語には、C、Java、Pythonなどがある。",
+          "vi": "Để chỉ thị nội dung xử lý cho máy tính, người ta sử dụng ngôn ngữ lập trình có các quy tắc và cú pháp nhất định. Một số ngôn ngữ lập trình tiêu biểu là C, Java và Python."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラミングとコーディング",
+          "vi": "Programming và coding"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コーディングは、設計された処理内容をプログラミング言語で実際に記述する作業を指す。プログラミングは、問題の分析、処理手順の検討、コーディング、テストなどを含む、より広い意味で使われることがある。",
+          "vi": "Coding là công việc thực tế viết nội dung xử lý đã được thiết kế bằng ngôn ngữ lập trình. Programming có thể được dùng với nghĩa rộng hơn, bao gồm phân tích vấn đề, xem xét trình tự xử lý, coding và kiểm thử."
+        },
+        {
+          "type": "point",
+          "ja": "「プログラム」はコンピュータに実行させる命令の集まり、「プログラミング」はそのプログラムを作成するための活動である。",
+          "vi": "Cần phân biệt: 'program' là tập hợp các lệnh để máy tính thực hiện, còn 'programming' là hoạt động tạo ra chương trình đó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プログラミング",
+          "reading": "ぷろぐらみんぐ",
+          "english": "Programming",
+          "vi": "lập trình",
+          "definitionJa": "コンピュータに処理を実行させるための手順や命令をプログラミング言語で記述すること。",
+          "definitionVi": "Việc mô tả các bước và lệnh bằng ngôn ngữ lập trình để máy tính thực hiện xử lý."
+        },
+        {
+          "term": "プログラム",
+          "reading": "ぷろぐらむ",
+          "english": "Program",
+          "vi": "chương trình",
+          "definitionJa": "コンピュータに特定の処理を実行させるために記述された一連の命令。",
+          "definitionVi": "Tập hợp các lệnh được viết để máy tính thực hiện một xử lý cụ thể."
+        },
+        {
+          "term": "プログラミング言語",
+          "reading": "ぷろぐらみんぐげんご",
+          "english": "Programming Language",
+          "vi": "ngôn ngữ lập trình",
+          "definitionJa": "コンピュータに処理内容を指示するために使用する、文法や規則を持つ人工言語。",
+          "definitionVi": "Ngôn ngữ nhân tạo có cú pháp và quy tắc dùng để chỉ thị nội dung xử lý cho máy tính."
+        },
+        {
+          "term": "コーディング",
+          "reading": "こーでぃんぐ",
+          "english": "Coding",
+          "vi": "viết mã",
+          "definitionJa": "設計された処理内容をプログラミング言語を用いてソースコードとして記述する作業。",
+          "definitionVi": "Công việc viết nội dung xử lý đã thiết kế thành mã nguồn bằng ngôn ngữ lập trình."
+        }
+      ],
+      "tags": ["programming", "program", "programming-language", "coding"]
+    },
+    {
+      "id": "naming-convention",
+      "order": 3,
+      "titleJa": "命名規則",
+      "titleVi": "Quy tắc đặt tên",
+      "importance": "high",
+      "summaryJa": "プログラムやデータベースの要素に名前を付ける際の命名規則について、目的と代表的な命名スタイルを理解する。",
+      "summaryVi": "Tìm hiểu quy tắc đặt tên cho các thành phần trong chương trình và cơ sở dữ liệu, mục đích của chúng và các kiểu đặt tên phổ biến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命名規則とは",
+          "vi": "Quy tắc đặt tên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命名規則（Naming Convention）とは、プログラムやデータベース内の変数、関数、クラス、テーブルなどに名前を付ける際のルールである。一定の規則に従って名前を付けることで、コードやデータの可読性や整合性を高めることができる。",
+          "vi": "Quy tắc đặt tên (Naming Convention) là các quy tắc được sử dụng khi đặt tên cho biến, hàm, lớp, bảng và các thành phần khác trong chương trình hoặc cơ sở dữ liệu. Việc đặt tên theo một quy tắc thống nhất giúp nâng cao tính dễ đọc và tính nhất quán của code và dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "代表的な命名スタイル",
+          "vi": "Các kiểu đặt tên phổ biến"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的な命名スタイルには、単語をアンダースコアで区切るsnake_caseや、複数の単語をつなぎ、各単語の先頭文字を大文字にするPascalCaseなどがある。また、先頭の単語を小文字で始め、それ以降の単語の先頭を大文字にするcamelCaseも広く利用されている。",
+          "vi": "Các kiểu đặt tên phổ biến gồm snake_case, trong đó các từ được nối bằng dấu gạch dưới; PascalCase, trong đó chữ cái đầu của mỗi từ được viết hoa; và camelCase, trong đó từ đầu tiên viết thường còn chữ cái đầu của các từ tiếp theo được viết hoa."
+        },
+        {
+          "type": "heading",
+          "ja": "命名規則を統一する利点",
+          "vi": "Lợi ích của việc thống nhất quy tắc đặt tên"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命名規則を統一することで、変数や関数などの役割を理解しやすくなり、複数人での開発や保守を効率的に行える。また、コードレビューやバグの発見、修正も容易になる。",
+          "vi": "Thống nhất quy tắc đặt tên giúp dễ hiểu vai trò của biến, hàm và các thành phần khác, từ đó nâng cao hiệu quả phát triển và bảo trì khi làm việc theo nhóm. Việc review code, phát hiện và sửa lỗi cũng trở nên dễ dàng hơn."
+        },
+        {
+          "type": "point",
+          "ja": "命名規則は、名前そのものを統一するのではなく、「名前の付け方」を統一するためのルールである。",
+          "vi": "Quy tắc đặt tên không phải là thống nhất chính các tên được sử dụng, mà là thống nhất cách đặt tên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命名規則",
+          "reading": "めいめいきそく",
+          "english": "Naming Convention",
+          "vi": "quy tắc đặt tên",
+          "definitionJa": "変数や関数などの名前の付け方を統一するための規則。",
+          "definitionVi": "Quy tắc dùng để thống nhất cách đặt tên biến, hàm và các thành phần khác."
+        },
+        {
+          "term": "snake_case",
+          "reading": "すねーくけーす",
+          "english": "snake_case",
+          "vi": "kiểu snake_case",
+          "definitionJa": "複数の単語をアンダースコアで区切って表す命名形式。",
+          "definitionVi": "Kiểu đặt tên phân tách nhiều từ bằng dấu gạch dưới."
+        },
+        {
+          "term": "camelCase",
+          "reading": "きゃめるけーす",
+          "english": "camelCase",
+          "vi": "kiểu camelCase",
+          "definitionJa": "先頭の単語を小文字で始め、以降の単語の先頭文字を大文字にしてつなぐ命名形式。",
+          "definitionVi": "Kiểu đặt tên bắt đầu từ đầu tiên bằng chữ thường và viết hoa chữ cái đầu của các từ tiếp theo."
+        },
+        {
+          "term": "PascalCase",
+          "reading": "ぱすかるけーす",
+          "english": "PascalCase",
+          "vi": "kiểu PascalCase",
+          "definitionJa": "各単語の先頭文字を大文字にしてつなぐ命名形式。",
+          "definitionVi": "Kiểu đặt tên viết hoa chữ cái đầu của mỗi từ rồi nối các từ lại với nhau."
+        }
+      ],
+      "tags": [
+        "programming",
+        "naming-convention",
+        "snake-case",
+        "camel-case",
+        "pascal-case"
+      ]
+    },
+    {
+      "id": "disallow-directive",
+      "order": 4,
+      "titleJa": "使用禁止命令",
+      "titleVi": "Lệnh bị cấm sử dụng",
+      "importance": "medium",
+      "summaryJa": "コーディング標準で使用を禁止する命令や機能について、その目的と、禁止事項を定めることで安全性や保守性を高める考え方を理解する。",
+      "summaryVi": "Tìm hiểu các lệnh hoặc chức năng bị cấm sử dụng theo tiêu chuẩn coding và mục đích nâng cao độ an toàn, khả năng bảo trì bằng cách quy định những thành phần không được dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "使用禁止命令とは",
+          "vi": "Lệnh bị cấm sử dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "使用禁止命令とは、コーディング標準において、プログラム中で使用しないよう定められた命令や機能である。誤りを起こしやすい命令、動作が処理系に依存する機能、安全性や可読性を損なう書き方などを禁止対象として定めることがある。",
+          "vi": "Lệnh bị cấm sử dụng là lệnh hoặc chức năng được tiêu chuẩn coding quy định không được dùng trong chương trình. Những lệnh dễ gây lỗi, chức năng phụ thuộc vào môi trường xử lý hoặc cách viết làm giảm độ an toàn và khả năng đọc có thể được đưa vào danh sách cấm."
+        },
+        {
+          "type": "heading",
+          "ja": "使用禁止命令の目的",
+          "vi": "Mục đích"
+        },
+        {
+          "type": "paragraph",
+          "ja": "使用禁止命令をコーディング標準で定めることで、バグやセキュリティ上の問題を招きやすい記述を避け、プログラムの安全性、移植性、可読性、保守性を高める。禁止対象は、使用する言語や開発組織の標準によって異なる。",
+          "vi": "Việc quy định các lệnh bị cấm trong tiêu chuẩn coding giúp tránh những cách viết dễ gây lỗi hoặc vấn đề bảo mật, qua đó nâng cao độ an toàn, tính khả chuyển, khả năng đọc và bảo trì. Thành phần bị cấm phụ thuộc vào ngôn ngữ và tiêu chuẩn của tổ chức phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "使用禁止命令はアクセス制御の命令ではなく、コーディング標準で使用しないと定めた命令や機能である。",
+          "vi": "Lệnh bị cấm sử dụng không phải là lệnh kiểm soát truy cập; đó là lệnh hoặc chức năng mà tiêu chuẩn coding quy định không được dùng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "使用禁止命令",
+          "reading": "しようきんしめいれい",
+          "english": "Prohibited Statement",
+          "vi": "lệnh bị cấm sử dụng",
+          "definitionJa": "コーディング標準によって、プログラム中で使用しないよう定められた命令や機能。",
+          "definitionVi": "Lệnh hoặc chức năng được tiêu chuẩn coding quy định không được sử dụng trong chương trình."
+        }
+      ],
+      "tags": ["programming", "disallow-directive", "coding-standards"]
+    },
+    {
+      "id": "program-quality-improvement",
+      "order": 5,
+      "titleJa": "プログラムの機能適合性・性能効率性・使用性・保守性の向上",
+      "titleVi": "Nâng cao tính phù hợp chức năng, hiệu quả hiệu năng, khả năng sử dụng và khả năng bảo trì",
+      "importance": "high",
+      "summaryJa": "プログラム品質を評価する重要な観点である機能適合性、性能効率性、使用性、保守性について、それぞれの意味と改善の目的を理解する。",
+      "summaryVi": "Tìm hiểu tính phù hợp chức năng, hiệu quả hiệu năng, khả năng sử dụng và khả năng bảo trì — những khía cạnh quan trọng để đánh giá và cải thiện chất lượng chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プログラム品質の向上",
+          "vi": "Nâng cao chất lượng chương trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発では、要求された機能を実現するだけでなく、性能、使いやすさ、修正のしやすさなどを考慮してプログラムの品質を高めることが重要である。その代表的な観点として、機能適合性、性能効率性、使用性、保守性がある。",
+          "vi": "Trong phát triển phần mềm, ngoài việc thực hiện đúng các chức năng được yêu cầu, còn cần nâng cao chất lượng chương trình bằng cách xem xét hiệu năng, mức độ dễ sử dụng và khả năng sửa đổi. Các khía cạnh tiêu biểu gồm tính phù hợp chức năng, hiệu quả hiệu năng, khả năng sử dụng và khả năng bảo trì."
+        },
+        {
+          "type": "heading",
+          "ja": "機能適合性",
+          "vi": "Tính phù hợp chức năng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機能適合性は、利用者やシステムから要求された機能を、プログラムが適切かつ正確に実現しているかを示す。",
+          "vi": "Tính phù hợp chức năng thể hiện chương trình có thực hiện thích hợp và chính xác các chức năng mà người dùng hoặc hệ thống yêu cầu hay không."
+        },
+        {
+          "type": "heading",
+          "ja": "性能効率性",
+          "vi": "Hiệu quả hiệu năng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "性能効率性は、処理時間、メモリ、CPUなどの資源を適切に使用しながら、必要な性能を実現できるかを示す。",
+          "vi": "Hiệu quả hiệu năng thể hiện chương trình có đạt được hiệu năng cần thiết trong khi sử dụng hợp lý các tài nguyên như thời gian xử lý, bộ nhớ và CPU hay không."
+        },
+        {
+          "type": "heading",
+          "ja": "使用性と保守性",
+          "vi": "Khả năng sử dụng và khả năng bảo trì"
+        },
+        {
+          "type": "paragraph",
+          "ja": "使用性は、利用者がプログラムを理解し、操作しやすいかを示す。保守性は、障害の修正や機能追加、仕様変更などを容易に行えるかを示す。これらを改善することで、利用者の満足度向上や長期的な運用コストの削減につながる。",
+          "vi": "Khả năng sử dụng thể hiện người dùng có thể hiểu và thao tác chương trình dễ dàng hay không. Khả năng bảo trì thể hiện mức độ dễ dàng khi sửa lỗi, bổ sung chức năng hoặc thay đổi đặc tả. Cải thiện các yếu tố này giúp tăng mức độ hài lòng của người dùng và giảm chi phí vận hành lâu dài."
+        },
+        {
+          "type": "point",
+          "ja": "機能適合性＝要求された機能、性能効率性＝性能と資源、使用性＝使いやすさ、保守性＝修正・変更のしやすさ、と整理する。",
+          "vi": "Có thể ghi nhớ: tính phù hợp chức năng = chức năng được yêu cầu; hiệu quả hiệu năng = hiệu năng và tài nguyên; khả năng sử dụng = dễ sử dụng; khả năng bảo trì = dễ sửa đổi và thay đổi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "機能適合性",
+          "reading": "きのうてきごうせい",
+          "english": "Functional Suitability",
+          "vi": "tính phù hợp chức năng",
+          "definitionJa": "要求された機能を適切に実現できているかを表す品質特性。",
+          "definitionVi": "Đặc tính chất lượng thể hiện mức độ thực hiện phù hợp các chức năng được yêu cầu."
+        },
+        {
+          "term": "性能効率性",
+          "reading": "せいのうこうりつせい",
+          "english": "Performance Efficiency",
+          "vi": "hiệu quả hiệu năng",
+          "definitionJa": "使用する資源に対して適切な性能を実現できているかを表す品質特性。",
+          "definitionVi": "Đặc tính chất lượng thể hiện khả năng đạt hiệu năng phù hợp so với tài nguyên được sử dụng."
+        },
+        {
+          "term": "使用性",
+          "reading": "しようせい",
+          "english": "Usability",
+          "vi": "khả năng sử dụng",
+          "definitionJa": "利用者にとって理解や操作がしやすいかを表す品質特性。",
+          "definitionVi": "Đặc tính chất lượng thể hiện mức độ dễ hiểu và dễ thao tác đối với người dùng."
+        },
+        {
+          "term": "保守性",
+          "reading": "ほしゅせい",
+          "english": "Maintainability",
+          "vi": "khả năng bảo trì",
+          "definitionJa": "プログラムの修正や変更を容易に行えるかを表す品質特性。",
+          "definitionVi": "Đặc tính chất lượng thể hiện mức độ dễ dàng sửa đổi hoặc thay đổi chương trình."
+        }
+      ],
+      "tags": [
+        "programming",
+        "software-quality",
+        "functional-suitability",
+        "performance-efficiency",
+        "usability",
+        "maintainability"
+      ]
+    },
+    {
+      "id": "module-decomposition",
+      "order": 6,
+      "titleJa": "モジュール分割",
+      "titleVi": "Phân chia mô-đun",
+      "importance": "high",
+      "summaryJa": "大きなプログラムを機能ごとの小さなモジュールに分割する考え方と、その利点を理解する。",
+      "summaryVi": "Tìm hiểu phương pháp chia một chương trình lớn thành các mô-đun nhỏ theo chức năng và những lợi ích của việc phân chia mô-đun.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モジュール分割とは",
+          "vi": "Phân chia mô-đun là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モジュール分割（Module Decomposition）とは、大きなプログラムを機能や役割ごとの小さな単位であるモジュールに分割することである。各モジュールに明確な役割を持たせることで、プログラム全体の構造を整理できる。",
+          "vi": "Phân chia mô-đun (Module Decomposition) là việc chia một chương trình lớn thành các đơn vị nhỏ gọi là mô-đun theo từng chức năng hoặc vai trò. Việc quy định vai trò rõ ràng cho từng mô-đun giúp tổ chức cấu trúc tổng thể của chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "モジュール分割の利点",
+          "vi": "Lợi ích của phân chia mô-đun"
+        },
+        {
+          "type": "paragraph",
+          "ja": "適切にモジュールを分割することで、プログラムの可読性や保守性が向上する。また、特定の機能を独立して開発、テスト、修正できるため、開発作業を効率化できる。",
+          "vi": "Việc phân chia mô-đun hợp lý giúp nâng cao tính dễ đọc và khả năng bảo trì của chương trình. Ngoài ra, từng chức năng có thể được phát triển, kiểm thử và sửa đổi độc lập, nhờ đó nâng cao hiệu quả phát triển."
+        },
+        {
+          "type": "heading",
+          "ja": "再利用性",
+          "vi": "Khả năng tái sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "汎用的な処理を独立したモジュールとして作成することで、同じ機能を別のプログラムや別の部分から再利用できる。これにより、同じ処理を何度も作成する必要がなくなる。",
+          "vi": "Khi các xử lý có tính dùng chung được tạo thành mô-đun độc lập, cùng một chức năng có thể được tái sử dụng ở chương trình hoặc phần khác. Nhờ đó không cần viết lại cùng một xử lý nhiều lần."
+        },
+        {
+          "type": "point",
+          "ja": "モジュール分割の主な利点は、可読性、保守性、再利用性、テストのしやすさを向上させることである。",
+          "vi": "Lợi ích chính của phân chia mô-đun là nâng cao tính dễ đọc, khả năng bảo trì, khả năng tái sử dụng và khả năng kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モジュール分割",
+          "reading": "もじゅーるぶんかつ",
+          "english": "Module Decomposition",
+          "vi": "phân chia mô-đun",
+          "definitionJa": "大きなプログラムを機能や役割ごとの小さなモジュールに分割すること。",
+          "definitionVi": "Việc chia một chương trình lớn thành các mô-đun nhỏ theo chức năng hoặc vai trò."
+        },
+        {
+          "term": "モジュール",
+          "reading": "もじゅーる",
+          "english": "Module",
+          "vi": "mô-đun",
+          "definitionJa": "特定の機能や役割を担当する、プログラムを構成する単位。",
+          "definitionVi": "Đơn vị cấu thành chương trình đảm nhiệm một chức năng hoặc vai trò cụ thể."
+        },
+        {
+          "term": "再利用性",
+          "reading": "さいりようせい",
+          "english": "Reusability",
+          "vi": "khả năng tái sử dụng",
+          "definitionJa": "作成したプログラム部品を他の処理やシステムでも利用できる性質。",
+          "definitionVi": "Tính chất cho phép các thành phần chương trình đã tạo được sử dụng lại trong xử lý hoặc hệ thống khác."
+        }
+      ],
+      "tags": [
+        "programming",
+        "module",
+        "module-decomposition",
+        "maintainability",
+        "reusability"
+      ]
+    },
+    {
+      "id": "module-independence",
+      "order": 7,
+      "titleJa": "モジュール独立性",
+      "titleVi": "Tính độc lập của mô-đun",
+      "importance": "high",
+      "summaryJa": "モジュール独立性の意味と、モジュール間の依存関係を小さくすることで得られる保守性や再利用性の向上について理解する。",
+      "summaryVi": "Tìm hiểu tính độc lập của mô-đun và cách giảm sự phụ thuộc giữa các mô-đun giúp nâng cao khả năng bảo trì và tái sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モジュール独立性とは",
+          "vi": "Tính độc lập của mô-đun là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モジュール独立性（Module Independence）とは、ソフトウェアを構成する各モジュールが、他のモジュールにできるだけ依存せずに機能できる度合いを表す。モジュールの独立性を高めることは、プログラムの設計において重要である。",
+          "vi": "Tính độc lập của mô-đun (Module Independence) biểu thị mức độ mà mỗi mô-đun cấu thành phần mềm có thể hoạt động mà ít phụ thuộc nhất có thể vào các mô-đun khác. Nâng cao tính độc lập của mô-đun là một yếu tố quan trọng trong thiết kế chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "モジュール間の依存関係",
+          "vi": "Quan hệ phụ thuộc giữa các mô-đun"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モジュール間の依存関係が強いと、一つのモジュールを変更したときに他のモジュールにも影響が及びやすくなる。反対に、必要な情報だけを明確なインタフェースを通して受け渡すように設計することで、モジュール間の依存関係を小さくできる。",
+          "vi": "Nếu sự phụ thuộc giữa các mô-đun quá mạnh, việc thay đổi một mô-đun có thể dễ dàng ảnh hưởng đến các mô-đun khác. Ngược lại, nếu thiết kế để chỉ trao đổi thông tin cần thiết thông qua interface rõ ràng thì có thể giảm sự phụ thuộc giữa các mô-đun."
+        },
+        {
+          "type": "heading",
+          "ja": "独立性を高める利点",
+          "vi": "Lợi ích của việc nâng cao tính độc lập"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モジュール独立性が高いと、あるモジュールを変更しても他の部分への影響を小さくできる。そのため、保守、テスト、デバッグが容易になり、モジュールの再利用もしやすくなる。",
+          "vi": "Khi tính độc lập của mô-đun cao, việc thay đổi một mô-đun ít ảnh hưởng đến các phần khác. Vì vậy, việc bảo trì, kiểm thử và debug trở nên dễ dàng hơn, đồng thời mô-đun cũng dễ được tái sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "モジュール独立性を高める基本は、モジュール間の依存関係を小さくし、それぞれのモジュールの役割を明確にすることである。",
+          "vi": "Điểm quan trọng: để tăng tính độc lập của mô-đun, cần giảm sự phụ thuộc giữa các mô-đun và làm rõ trách nhiệm của từng mô-đun."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モジュール独立性",
+          "reading": "もじゅーるどくりつせい",
+          "english": "Module Independence",
+          "vi": "tính độc lập của mô-đun",
+          "definitionJa": "各モジュールが他のモジュールに依存せずに機能できる度合い。",
+          "definitionVi": "Mức độ mà mỗi mô-đun có thể hoạt động mà không phụ thuộc vào các mô-đun khác."
+        },
+        {
+          "term": "依存関係",
+          "reading": "いぞんかんけい",
+          "english": "Dependency",
+          "vi": "quan hệ phụ thuộc",
+          "definitionJa": "あるモジュールの処理や変更が、別のモジュールに影響する関係。",
+          "definitionVi": "Quan hệ trong đó xử lý hoặc thay đổi của một mô-đun ảnh hưởng đến mô-đun khác."
+        },
+        {
+          "term": "インタフェース",
+          "reading": "いんたふぇーす",
+          "english": "Interface",
+          "vi": "giao diện kết nối",
+          "definitionJa": "モジュール間で情報を受け渡すための接点や規約。",
+          "definitionVi": "Điểm kết nối hoặc quy tắc dùng để trao đổi thông tin giữa các mô-đun."
+        }
+      ],
+      "tags": [
+        "programming",
+        "module-independence",
+        "module",
+        "dependency",
+        "interface"
+      ]
+    },
+    {
+      "id": "main-routine",
+      "order": 8,
+      "titleJa": "メインルーチン",
+      "titleVi": "Chương trình chính",
+      "importance": "high",
+      "summaryJa": "プログラム全体の実行を制御する中心的な処理であるメインルーチンの役割を理解する。",
+      "summaryVi": "Tìm hiểu vai trò của main routine, phần xử lý trung tâm điều khiển quá trình thực thi của toàn bộ chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メインルーチンとは",
+          "vi": "Main routine là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メインルーチン（Main Routine）とは、プログラム全体の実行を制御する中心的なルーチンである。プログラムの開始時に実行され、必要に応じて他のルーチンや関数を呼び出しながら処理を進める。",
+          "vi": "Main routine là routine trung tâm điều khiển quá trình thực thi của toàn bộ chương trình. Nó được thực thi khi chương trình bắt đầu và tiến hành xử lý bằng cách gọi các routine hoặc hàm khác khi cần."
+        },
+        {
+          "type": "heading",
+          "ja": "メインルーチンの役割",
+          "vi": "Vai trò của main routine"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メインルーチンでは、処理の順序を制御したり、必要なデータを管理したり、サブルーチンを呼び出したりする。これにより、プログラム全体の処理の流れを管理できる。",
+          "vi": "Main routine điều khiển thứ tự xử lý, quản lý dữ liệu cần thiết và gọi các subroutine. Nhờ đó có thể quản lý luồng xử lý của toàn bộ chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラムの開始点",
+          "vi": "Điểm bắt đầu của chương trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミング言語によって形式は異なるが、プログラムの実行を開始するための入口が定められている場合がある。例えば、C言語ではmain関数がプログラムのエントリーポイントとして機能する。",
+          "vi": "Hình thức khác nhau tùy ngôn ngữ lập trình, nhưng chương trình thường có một điểm vào để bắt đầu thực thi. Ví dụ, trong C, hàm main đóng vai trò là entry point của chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "メインルーチンはプログラム全体の流れを制御し、必要に応じてサブルーチンなどを呼び出す。",
+          "vi": "Main routine điều khiển luồng tổng thể của chương trình và gọi các subroutine khi cần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メインルーチン",
+          "reading": "めいんるーちん",
+          "english": "Main Routine",
+          "vi": "chương trình chính",
+          "definitionJa": "プログラム全体の実行を制御する中心的なルーチン。",
+          "definitionVi": "Routine trung tâm điều khiển quá trình thực thi của toàn bộ chương trình."
+        },
+        {
+          "term": "エントリーポイント",
+          "reading": "えんとりーぽいんと",
+          "english": "Entry Point",
+          "vi": "điểm vào chương trình",
+          "definitionJa": "プログラムの実行が開始される位置。",
+          "definitionVi": "Vị trí mà việc thực thi chương trình bắt đầu."
+        }
+      ],
+      "tags": ["programming", "main-routine", "entry-point"]
+    },
+    {
+      "id": "subroutine",
+      "order": 9,
+      "titleJa": "サブルーチン",
+      "titleVi": "Chương trình con",
+      "importance": "high",
+      "summaryJa": "特定の処理をまとめ、必要なときに呼び出して利用するサブルーチンの仕組みと利点を理解する。",
+      "summaryVi": "Tìm hiểu cơ chế và lợi ích của subroutine, phần chương trình tập hợp một xử lý cụ thể và được gọi khi cần.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サブルーチンとは",
+          "vi": "Subroutine là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サブルーチン（Subroutine）とは、プログラム内の特定の処理をひとまとまりにしたものである。必要なときにメインルーチンなどから呼び出して実行することができる。",
+          "vi": "Subroutine là một phần chương trình tập hợp một xử lý cụ thể thành một đơn vị. Khi cần, nó có thể được gọi từ main routine hoặc các phần khác để thực thi."
+        },
+        {
+          "type": "heading",
+          "ja": "サブルーチンの利点",
+          "vi": "Lợi ích của subroutine"
+        },
+        {
+          "type": "paragraph",
+          "ja": "同じ処理を複数の場所で必要とする場合、その処理をサブルーチンとして定義しておけば、必要な場所から呼び出すだけで利用できる。同じコードを繰り返し記述する必要がなくなり、プログラムを簡潔にできる。",
+          "vi": "Khi cùng một xử lý được sử dụng ở nhiều nơi, có thể định nghĩa nó thành subroutine và chỉ cần gọi khi cần. Nhờ đó không phải viết lặp lại cùng một đoạn code và chương trình trở nên gọn hơn."
+        },
+        {
+          "type": "heading",
+          "ja": "保守性と再利用性",
+          "vi": "Khả năng bảo trì và tái sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "共通処理をサブルーチンとしてまとめることで、処理内容を変更する場合も一か所を修正すればよく、保守性が向上する。また、汎用的なサブルーチンは他のプログラムでも再利用できる。",
+          "vi": "Khi gom xử lý dùng chung thành subroutine, nếu cần thay đổi xử lý thì chỉ cần sửa tại một nơi, giúp nâng cao khả năng bảo trì. Các subroutine có tính dùng chung cũng có thể được tái sử dụng trong chương trình khác."
+        },
+        {
+          "type": "point",
+          "ja": "サブルーチンを利用すると、処理の重複を減らし、プログラムの保守性と再利用性を高めることができる。",
+          "vi": "Sử dụng subroutine giúp giảm xử lý trùng lặp và nâng cao khả năng bảo trì cũng như tái sử dụng của chương trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サブルーチン",
+          "reading": "さぶるーちん",
+          "english": "Subroutine",
+          "vi": "chương trình con",
+          "definitionJa": "特定の処理をまとめ、必要なときに呼び出して実行するプログラムの一部分。",
+          "definitionVi": "Một phần của chương trình tập hợp một xử lý cụ thể và được gọi để thực thi khi cần."
+        }
+      ],
+      "tags": ["programming", "subroutine", "reusability", "maintainability"]
+    },
+    {
+      "id": "integer-type",
+      "order": 10,
+      "titleJa": "整数型",
+      "titleVi": "Kiểu số nguyên",
+      "importance": "high",
+      "summaryJa": "小数部を持たない整数を扱う整数型について、その用途とデータ型による表現範囲の違いを理解する。",
+      "summaryVi": "Tìm hiểu kiểu số nguyên dùng để biểu diễn các số không có phần thập phân, mục đích sử dụng và sự khác nhau về phạm vi biểu diễn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "整数型とは",
+          "vi": "Kiểu số nguyên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "整数型（Integer Type）とは、小数部を持たない整数を扱うためのデータ型である。個数、回数、番号など、整数で表現できる値をプログラム内で扱うために使用される。",
+          "vi": "Kiểu số nguyên (Integer Type) là kiểu dữ liệu dùng để xử lý các số nguyên không có phần thập phân. Nó được sử dụng cho các giá trị có thể biểu diễn bằng số nguyên như số lượng, số lần hoặc số thứ tự."
+        },
+        {
+          "type": "heading",
+          "ja": "整数型と演算",
+          "vi": "Kiểu số nguyên và phép tính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "整数型の値に対しては、加算、減算、乗算などの基本的な算術演算を行うことができる。プログラムでは、繰返し回数の管理や配列の添字などにも整数型が利用される。",
+          "vi": "Có thể thực hiện các phép toán số học cơ bản như cộng, trừ và nhân với các giá trị kiểu số nguyên. Trong chương trình, kiểu số nguyên còn được dùng để quản lý số lần lặp hoặc chỉ số của mảng."
+        },
+        {
+          "type": "heading",
+          "ja": "表現できる値の範囲",
+          "vi": "Phạm vi giá trị có thể biểu diễn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "整数型で表現できる値の範囲は、使用するビット数や符号の有無によって異なる。限られたビット数で表現できる範囲を超えた値を扱うと、オーバーフローが発生する場合がある。",
+          "vi": "Phạm vi giá trị mà kiểu số nguyên có thể biểu diễn phụ thuộc vào số bit được sử dụng và việc có dấu hay không. Nếu xử lý giá trị vượt quá phạm vi biểu diễn của số bit giới hạn, có thể xảy ra overflow."
+        },
+        {
+          "type": "point",
+          "ja": "整数型は小数部を持たない値を扱う。表現できる範囲はビット数や符号の有無によって決まる。",
+          "vi": "Kiểu số nguyên dùng cho giá trị không có phần thập phân. Phạm vi biểu diễn phụ thuộc vào số bit và việc kiểu dữ liệu có dấu hay không."
+        }
+      ],
+      "terms": [
+        {
+          "term": "整数型",
+          "reading": "せいすうがた",
+          "english": "Integer Type",
+          "vi": "kiểu số nguyên",
+          "definitionJa": "小数部を持たない整数を扱うためのデータ型。",
+          "definitionVi": "Kiểu dữ liệu dùng để xử lý các số nguyên không có phần thập phân."
+        },
+        {
+          "term": "オーバーフロー",
+          "reading": "おーばーふろー",
+          "english": "Overflow",
+          "vi": "tràn số",
+          "definitionJa": "データ型で表現できる値の範囲を超えること。",
+          "definitionVi": "Hiện tượng giá trị vượt quá phạm vi mà kiểu dữ liệu có thể biểu diễn."
+        }
+      ],
+      "tags": ["programming", "data-type", "integer", "overflow"]
+    },
+    {
+      "id": "real-number-type",
+      "order": 11,
+      "titleJa": "実数型",
+      "titleVi": "Kiểu số thực",
+      "importance": "high",
+      "summaryJa": "整数だけでなく小数を含む数値を扱う実数型について、その用途と浮動小数点数による表現を理解する。",
+      "summaryVi": "Tìm hiểu kiểu số thực dùng để xử lý các giá trị số có phần thập phân và cách biểu diễn chúng bằng số dấu phẩy động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "実数型とは",
+          "vi": "Kiểu số thực là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実数型（Real Number Type）とは、整数だけでなく小数を含む数値を扱うためのデータ型である。温度、距離、割合など、小数部分を必要とする値をプログラム内で表現するときに使用される。",
+          "vi": "Kiểu số thực (Real Number Type) là kiểu dữ liệu dùng để xử lý không chỉ số nguyên mà cả các giá trị có phần thập phân. Nó được sử dụng để biểu diễn các giá trị như nhiệt độ, khoảng cách và tỷ lệ."
+        },
+        {
+          "type": "heading",
+          "ja": "浮動小数点数",
+          "vi": "Số dấu phẩy động"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多くのプログラミング言語では、実数を浮動小数点数として表現する。浮動小数点数では、非常に大きな値や小さな値まで幅広く表現できる一方、有限のビット数で表現するため、値によっては誤差が生じることがある。",
+          "vi": "Trong nhiều ngôn ngữ lập trình, số thực được biểu diễn dưới dạng số dấu phẩy động. Cách biểu diễn này cho phép xử lý phạm vi giá trị rất lớn hoặc rất nhỏ, nhưng do sử dụng số bit hữu hạn nên một số giá trị có thể phát sinh sai số."
+        },
+        {
+          "type": "heading",
+          "ja": "実数型の利用",
+          "vi": "Ứng dụng của kiểu số thực"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実数型は、科学技術計算、測定値の処理、シミュレーションなど、小数を含む計算が必要な場面で広く利用される。整数型とは異なり、小数部分を扱えることが大きな特徴である。",
+          "vi": "Kiểu số thực được sử dụng rộng rãi trong tính toán khoa học kỹ thuật, xử lý giá trị đo và mô phỏng, nơi cần thực hiện các phép tính có phần thập phân. Điểm khác biệt lớn so với kiểu số nguyên là khả năng xử lý phần thập phân."
+        },
+        {
+          "type": "point",
+          "ja": "実数型は小数を含む数値を扱える。多くの場合は浮動小数点数として表現され、計算時に誤差が生じる場合がある。",
+          "vi": "Kiểu số thực có thể xử lý giá trị có phần thập phân. Thông thường nó được biểu diễn bằng số dấu phẩy động và có thể phát sinh sai số khi tính toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実数型",
+          "reading": "じっすうがた",
+          "english": "Real Number Type",
+          "vi": "kiểu số thực",
+          "definitionJa": "整数や小数を含む数値を扱うためのデータ型。",
+          "definitionVi": "Kiểu dữ liệu dùng để xử lý các giá trị số bao gồm cả số nguyên và số thập phân."
+        },
+        {
+          "term": "浮動小数点数",
+          "reading": "ふどうしょうすうてんすう",
+          "english": "Floating-Point Number",
+          "vi": "số dấu phẩy động",
+          "definitionJa": "実数をコンピュータ上で近似的に表現するための数値表現方式。",
+          "definitionVi": "Phương pháp biểu diễn gần đúng số thực trên máy tính."
+        }
+      ],
+      "tags": ["programming", "data-type", "real-number", "floating-point"]
+    },
+    {
+      "id": "logical-type",
+      "order": 12,
+      "titleJa": "論理型",
+      "titleVi": "Kiểu logic",
+      "importance": "high",
+      "summaryJa": "真と偽の二つの状態を表現し、条件判定やフラグに利用される論理型について理解する。",
+      "summaryVi": "Tìm hiểu kiểu logic biểu diễn hai trạng thái đúng và sai, được sử dụng trong điều kiện và cờ trạng thái.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "論理型とは",
+          "vi": "Kiểu logic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理型（Logical Type）とは、真（true）と偽（false）の二つの状態を表すためのデータ型である。プログラムにおける条件判定や、ある状態が成立しているかどうかを表すために使用される。",
+          "vi": "Kiểu logic (Logical Type) là kiểu dữ liệu biểu diễn hai trạng thái đúng (true) và sai (false). Nó được sử dụng để đánh giá điều kiện hoặc biểu diễn việc một trạng thái nào đó có đang được thỏa mãn hay không."
+        },
+        {
+          "type": "heading",
+          "ja": "条件判定での利用",
+          "vi": "Sử dụng trong đánh giá điều kiện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、ユーザーがログインしているかどうかを論理型で表す場合、ログインしていればtrue、していなければfalseとすることができる。この値を条件分岐に利用することで、状態に応じた処理を実行できる。",
+          "vi": "Ví dụ, khi biểu diễn trạng thái đăng nhập của người dùng bằng kiểu logic, có thể dùng true nếu đã đăng nhập và false nếu chưa đăng nhập. Giá trị này có thể được sử dụng trong câu lệnh rẽ nhánh để thực hiện xử lý phù hợp với trạng thái."
+        },
+        {
+          "type": "heading",
+          "ja": "フラグとしての利用",
+          "vi": "Sử dụng làm cờ trạng thái"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理型の値は、処理済みかどうか、エラーが発生したかどうかなどを表すフラグとしても利用される。二つの状態を明確に表現できるため、プログラムの条件処理を簡潔に記述できる。",
+          "vi": "Giá trị logic cũng được sử dụng làm cờ để biểu diễn các trạng thái như đã xử lý hay chưa hoặc có xảy ra lỗi hay không. Vì có thể biểu diễn rõ ràng hai trạng thái nên giúp viết các xử lý điều kiện ngắn gọn hơn."
+        },
+        {
+          "type": "point",
+          "ja": "論理型はtrueとfalseの二つの値を扱い、条件判定や状態を表すフラグに利用される。",
+          "vi": "Kiểu logic xử lý hai giá trị true và false, chủ yếu được dùng cho điều kiện và cờ biểu diễn trạng thái."
+        }
+      ],
+      "terms": [
+        {
+          "term": "論理型",
+          "reading": "ろんりがた",
+          "english": "Logical Type",
+          "vi": "kiểu logic",
+          "definitionJa": "真と偽の二つの状態を表すデータ型。",
+          "definitionVi": "Kiểu dữ liệu biểu diễn hai trạng thái đúng và sai."
+        },
+        {
+          "term": "フラグ",
+          "reading": "ふらぐ",
+          "english": "Flag",
+          "vi": "cờ trạng thái",
+          "definitionJa": "ある状態が成立しているかどうかを示すための値。",
+          "definitionVi": "Giá trị dùng để biểu thị một trạng thái có đang được thỏa mãn hay không."
+        }
+      ],
+      "tags": ["programming", "data-type", "logical-type", "boolean", "flag"]
+    },
+    {
+      "id": "character-type",
+      "order": 13,
+      "titleJa": "文字型",
+      "titleVi": "Kiểu ký tự",
+      "importance": "high",
+      "summaryJa": "一つの文字を扱うための文字型と、文字列型との違いを理解する。",
+      "summaryVi": "Tìm hiểu kiểu ký tự dùng để biểu diễn một ký tự và phân biệt nó với kiểu chuỗi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "文字型とは",
+          "vi": "Kiểu ký tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字型（Character Type）とは、一つの文字を扱うためのデータ型である。アルファベット、数字、記号などの文字を一文字単位で格納するときに使用される。",
+          "vi": "Kiểu ký tự (Character Type) là kiểu dữ liệu dùng để xử lý một ký tự. Nó được sử dụng để lưu một ký tự như chữ cái, chữ số hoặc ký hiệu."
+        },
+        {
+          "type": "heading",
+          "ja": "文字の表現",
+          "vi": "Biểu diễn ký tự"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータ内部では、文字は文字コードによって数値として表現される。代表的な文字コードにはASCIIやUnicodeなどがあり、文字と数値の対応関係を定めている。",
+          "vi": "Bên trong máy tính, ký tự được biểu diễn dưới dạng giá trị số thông qua mã ký tự. ASCII và Unicode là những hệ thống mã ký tự tiêu biểu, quy định quan hệ tương ứng giữa ký tự và giá trị số."
+        },
+        {
+          "type": "heading",
+          "ja": "文字型と文字列型",
+          "vi": "Kiểu ký tự và kiểu chuỗi"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字型が基本的に一つの文字を扱うのに対し、文字列型は複数の文字を連続して扱うために使用される。この違いは、プログラミングにおける基本的なデータ型の理解として重要である。",
+          "vi": "Trong khi kiểu ký tự về cơ bản xử lý một ký tự, kiểu chuỗi được sử dụng để xử lý nhiều ký tự liên tiếp. Phân biệt hai kiểu này là kiến thức cơ bản quan trọng về kiểu dữ liệu trong lập trình."
+        },
+        {
+          "type": "point",
+          "ja": "文字型は基本的に一文字を扱う。複数の文字の集まりを扱うものは文字列型である。",
+          "vi": "Kiểu ký tự về cơ bản xử lý một ký tự; tập hợp nhiều ký tự được xử lý bằng kiểu chuỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文字型",
+          "reading": "もじがた",
+          "english": "Character Type",
+          "vi": "kiểu ký tự",
+          "definitionJa": "一つの文字を扱うためのデータ型。",
+          "definitionVi": "Kiểu dữ liệu dùng để xử lý một ký tự."
+        },
+        {
+          "term": "文字コード",
+          "reading": "もじこーど",
+          "english": "Character Code",
+          "vi": "mã ký tự",
+          "definitionJa": "文字とコンピュータ内部の数値を対応付けるための規則。",
+          "definitionVi": "Quy tắc ánh xạ ký tự với giá trị số bên trong máy tính."
+        }
+      ],
+      "tags": ["programming", "data-type", "character", "character-code"]
+    },
+    {
+      "id": "string-type",
+      "order": 14,
+      "titleJa": "文字列型",
+      "titleVi": "Kiểu chuỗi",
+      "importance": "high",
+      "summaryJa": "複数の文字を連続したデータとして扱う文字列型と、その基本的な操作について理解する。",
+      "summaryVi": "Tìm hiểu kiểu chuỗi dùng để xử lý nhiều ký tự liên tiếp và các thao tác cơ bản với chuỗi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "文字列型とは",
+          "vi": "Kiểu chuỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字列型（String Type）とは、複数の文字を連続した一つのデータとして扱うためのデータ型である。名前、住所、文章などのテキストデータをプログラム内で扱うときに使用される。",
+          "vi": "Kiểu chuỗi (String Type) là kiểu dữ liệu dùng để xử lý nhiều ký tự liên tiếp như một dữ liệu duy nhất. Nó được sử dụng cho dữ liệu văn bản như tên, địa chỉ hoặc câu văn."
+        },
+        {
+          "type": "heading",
+          "ja": "文字列の操作",
+          "vi": "Thao tác với chuỗi"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字列に対しては、複数の文字列をつなぐ結合、必要な部分を取り出す部分文字列の取得、特定の文字列を探す検索など、さまざまな操作を行うことができる。",
+          "vi": "Có thể thực hiện nhiều thao tác với chuỗi như nối nhiều chuỗi với nhau, lấy một phần của chuỗi hoặc tìm kiếm một chuỗi cụ thể."
+        },
+        {
+          "type": "heading",
+          "ja": "文字列型の利用",
+          "vi": "Ứng dụng của kiểu chuỗi"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字列型は、Webサイトのユーザー名やメッセージ、データベースに保存する名称など、さまざまなテキスト情報の処理に利用される。多くのプログラミング言語では、文字列を扱うための機能が用意されている。",
+          "vi": "Kiểu chuỗi được sử dụng để xử lý nhiều loại thông tin văn bản như tên người dùng và tin nhắn trên website hoặc tên được lưu trong cơ sở dữ liệu. Nhiều ngôn ngữ lập trình cung cấp sẵn các chức năng để xử lý chuỗi."
+        },
+        {
+          "type": "point",
+          "ja": "文字列型は複数の文字の集まりを扱うデータ型であり、結合、検索、部分文字列の取得などの操作が行われる。",
+          "vi": "Kiểu chuỗi xử lý một tập hợp nhiều ký tự và hỗ trợ các thao tác như nối, tìm kiếm và lấy chuỗi con."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文字列型",
+          "reading": "もじれつがた",
+          "english": "String Type",
+          "vi": "kiểu chuỗi",
+          "definitionJa": "複数の文字を連続したデータとして扱うためのデータ型。",
+          "definitionVi": "Kiểu dữ liệu dùng để xử lý nhiều ký tự liên tiếp."
+        },
+        {
+          "term": "文字列",
+          "reading": "もじれつ",
+          "english": "String",
+          "vi": "chuỗi ký tự",
+          "definitionJa": "複数の文字を順番に並べたもの。",
+          "definitionVi": "Một dãy gồm nhiều ký tự được sắp xếp theo thứ tự."
+        }
+      ],
+      "tags": ["programming", "data-type", "string", "character"]
+    },
+    {
+      "id": "abstract-data-type",
+      "order": 15,
+      "titleJa": "抽象データ型",
+      "titleVi": "Kiểu dữ liệu trừu tượng",
+      "importance": "high",
+      "summaryJa": "データの具体的な実装方法ではなく、データの構造とそれに対して行える操作を定義する抽象データ型について理解する。",
+      "summaryVi": "Tìm hiểu kiểu dữ liệu trừu tượng, trong đó cấu trúc dữ liệu và các thao tác có thể thực hiện được định nghĩa độc lập với cách triển khai cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "抽象データ型とは",
+          "vi": "Kiểu dữ liệu trừu tượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "抽象データ型（Abstract Data Type：ADT）とは、データの具体的な実装方法とは独立して、データの構造やそれに対して行える操作を定義する概念である。データを内部でどのように保持するかではなく、どのような操作が可能であるかに着目する。",
+          "vi": "Kiểu dữ liệu trừu tượng (Abstract Data Type: ADT) là khái niệm định nghĩa cấu trúc dữ liệu và các thao tác có thể thực hiện trên dữ liệu một cách độc lập với cách triển khai cụ thể. Nó tập trung vào những thao tác có thể thực hiện thay vì cách dữ liệu được lưu trữ bên trong."
+        },
+        {
+          "type": "heading",
+          "ja": "代表的な抽象データ型",
+          "vi": "Các kiểu dữ liệu trừu tượng tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的な抽象データ型には、スタックやキューなどがある。例えば、スタックではデータの追加を行うプッシュと、データを取り出すポップなどの操作が定義される。内部で配列を使うかリストを使うかといった実装方法は、抽象データ型そのものとは分離して考えることができる。",
+          "vi": "Các kiểu dữ liệu trừu tượng tiêu biểu gồm stack và queue. Ví dụ, stack định nghĩa các thao tác như push để thêm dữ liệu và pop để lấy dữ liệu ra. Việc triển khai bên trong bằng mảng hay danh sách có thể được xem xét riêng với bản thân kiểu dữ liệu trừu tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "抽象化の利点",
+          "vi": "Lợi ích của tính trừu tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実装の詳細を隠すことで、利用者はデータが持つ性質や操作に集中できる。また、内部の実装を変更しても、外部から利用する操作が同じであれば影響を小さくできるため、保守性や再利用性の向上にもつながる。",
+          "vi": "Bằng cách che giấu chi tiết triển khai, người sử dụng có thể tập trung vào đặc tính và thao tác của dữ liệu. Ngoài ra, ngay cả khi cách triển khai bên trong thay đổi, ảnh hưởng ra bên ngoài có thể được hạn chế nếu các thao tác cung cấp vẫn giữ nguyên, từ đó cải thiện khả năng bảo trì và tái sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "抽象データ型では「どのように実装するか」ではなく「どのようなデータと操作を提供するか」を定義する。スタックやキューが代表例である。",
+          "vi": "Kiểu dữ liệu trừu tượng định nghĩa \"dữ liệu và thao tác nào được cung cấp\" thay vì \"triển khai như thế nào\". Stack và queue là các ví dụ tiêu biểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "抽象データ型",
+          "reading": "ちゅうしょうでーたがた",
+          "english": "Abstract Data Type",
+          "vi": "kiểu dữ liệu trừu tượng",
+          "definitionJa": "データの具体的な実装方法から独立して、データの構造や操作を定義する概念。",
+          "definitionVi": "Khái niệm định nghĩa cấu trúc và thao tác của dữ liệu độc lập với phương pháp triển khai cụ thể."
+        }
+      ],
+      "tags": ["programming", "data-type", "abstract-data-type", "adt"]
+    },
+    {
+      "id": "structured-type",
+      "order": 16,
+      "titleJa": "構造型",
+      "titleVi": "Kiểu cấu trúc",
+      "importance": "high",
+      "summaryJa": "異なる種類のデータを一つのまとまりとして扱うための構造型について、その特徴と用途を理解する。",
+      "summaryVi": "Tìm hiểu kiểu cấu trúc dùng để tổ chức và quản lý nhiều loại dữ liệu khác nhau như một đơn vị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "構造型とは",
+          "vi": "Kiểu cấu trúc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "構造型（Structured Type）とは、複数のデータを特定の形式でまとめて扱うためのデータ型である。異なる種類のデータを一つのまとまりとして管理できる。",
+          "vi": "Kiểu cấu trúc (Structured Type) là kiểu dữ liệu dùng để tập hợp nhiều dữ liệu theo một cấu trúc nhất định. Nó cho phép quản lý nhiều loại dữ liệu khác nhau như một đơn vị."
+        },
+        {
+          "type": "heading",
+          "ja": "構造型の例",
+          "vi": "Ví dụ về kiểu cấu trúc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、人を表すデータとして名前、年齢、住所を一つの構造としてまとめることができる。それぞれ異なる種類のデータであっても、関連する情報として一括して扱えるため、複雑なデータを整理しやすくなる。",
+          "vi": "Ví dụ, dữ liệu về một người có thể được tập hợp thành một cấu trúc gồm tên, tuổi và địa chỉ. Mặc dù các dữ liệu có thể thuộc những kiểu khác nhau, chúng vẫn có thể được xử lý chung như những thông tin có liên quan."
+        },
+        {
+          "type": "heading",
+          "ja": "構造型の利点",
+          "vi": "Lợi ích của kiểu cấu trúc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "関連する複数の情報を一つにまとめることで、データの意味や関係が分かりやすくなり、プログラムの可読性や保守性が向上する。複雑なデータを意味のある単位で管理するために重要な考え方である。",
+          "vi": "Việc tập hợp nhiều thông tin liên quan giúp quan hệ và ý nghĩa của dữ liệu trở nên rõ ràng hơn, từ đó cải thiện khả năng đọc và bảo trì chương trình. Đây là một khái niệm quan trọng để quản lý dữ liệu phức tạp theo các đơn vị có ý nghĩa."
+        },
+        {
+          "type": "point",
+          "ja": "構造型では、異なる種類のデータを一つのまとまりとして管理できる。",
+          "vi": "Kiểu cấu trúc cho phép quản lý nhiều loại dữ liệu khác nhau như một đơn vị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "構造型",
+          "reading": "こうぞうがた",
+          "english": "Structured Type",
+          "vi": "kiểu cấu trúc",
+          "definitionJa": "複数のデータを特定の構造にまとめて扱うためのデータ型。",
+          "definitionVi": "Kiểu dữ liệu dùng để tập hợp và xử lý nhiều dữ liệu theo một cấu trúc nhất định."
+        }
+      ],
+      "tags": ["programming", "data-type", "structured-type"]
+    },
+    {
+      "id": "assignment",
+      "order": 17,
+      "titleJa": "代入",
+      "titleVi": "Phép gán",
+      "importance": "high",
+      "summaryJa": "値を変数に記憶させる基本操作である代入について、その役割とプログラムでの使い方を理解する。",
+      "summaryVi": "Tìm hiểu phép gán, thao tác cơ bản dùng để lưu một giá trị vào biến trong chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "代入とは",
+          "vi": "Phép gán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代入（Assignment）とは、プログラミングにおいて値を変数に記憶させる操作である。変数に数値や文字列などの値を設定することで、その値を後の処理から利用できるようになる。",
+          "vi": "Phép gán (Assignment) là thao tác lưu một giá trị vào biến trong lập trình. Khi gán một giá trị như số hoặc chuỗi cho biến, giá trị đó có thể được sử dụng trong các xử lý tiếp theo."
+        },
+        {
+          "type": "heading",
+          "ja": "代入の例",
+          "vi": "Ví dụ về phép gán"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば「x = 5」と記述した場合、変数xに値5を代入することを表す。その後の処理では、xを使用することで記憶された値5を参照できる。",
+          "vi": "Ví dụ, khi viết \"x = 5\", giá trị 5 được gán cho biến x. Trong các xử lý tiếp theo, có thể sử dụng x để tham chiếu đến giá trị 5 đã được lưu."
+        },
+        {
+          "type": "heading",
+          "ja": "代入と等号",
+          "vi": "Phép gán và dấu bằng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多くのプログラミング言語では「=」が代入演算子として使用されるが、数学の等号とは意味が異なる。代入では、右辺の値や式を評価し、その結果を左辺の変数に格納する。",
+          "vi": "Trong nhiều ngôn ngữ lập trình, dấu \"=\" được sử dụng làm toán tử gán nhưng có ý nghĩa khác với dấu bằng trong toán học. Trong phép gán, giá trị hoặc biểu thức ở vế phải được tính trước rồi kết quả được lưu vào biến ở vế trái."
+        },
+        {
+          "type": "point",
+          "ja": "代入は値を変数に記憶させる操作である。「=」を使う言語では、数学の等号との違いに注意する。",
+          "vi": "Phép gán là thao tác lưu giá trị vào biến. Với các ngôn ngữ sử dụng \"=\", cần phân biệt nó với dấu bằng trong toán học."
+        }
+      ],
+      "terms": [
+        {
+          "term": "代入",
+          "reading": "だいにゅう",
+          "english": "Assignment",
+          "vi": "phép gán",
+          "definitionJa": "値や式の結果を変数に格納する操作。",
+          "definitionVi": "Thao tác lưu một giá trị hoặc kết quả của biểu thức vào biến."
+        },
+        {
+          "term": "代入演算子",
+          "reading": "だいにゅうえんざんし",
+          "english": "Assignment Operator",
+          "vi": "toán tử gán",
+          "definitionJa": "値を変数に代入するために使用する演算子。",
+          "definitionVi": "Toán tử được sử dụng để gán giá trị cho biến."
+        }
+      ],
+      "tags": ["programming", "assignment", "variable", "operator"]
+    },
+    {
+      "id": "arithmetic-operation",
+      "order": 18,
+      "titleJa": "算術演算",
+      "titleVi": "Phép toán số học",
+      "importance": "high",
+      "summaryJa": "加算、減算、乗算、除算など、数値に対して行う基本的な算術演算について理解する。",
+      "summaryVi": "Tìm hiểu các phép toán số học cơ bản được thực hiện trên dữ liệu số như cộng, trừ, nhân và chia.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "算術演算とは",
+          "vi": "Phép toán số học là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "算術演算（Arithmetic Operation）とは、数値に対して行う基本的な計算である。代表的なものとして、加算、減算、乗算、除算がある。",
+          "vi": "Phép toán số học (Arithmetic Operation) là các phép tính cơ bản thực hiện trên giá trị số. Những phép toán tiêu biểu gồm cộng, trừ, nhân và chia."
+        },
+        {
+          "type": "heading",
+          "ja": "四則演算",
+          "vi": "Bốn phép tính cơ bản"
+        },
+        {
+          "type": "paragraph",
+          "ja": "加算は二つの値を足し合わせる演算、減算はある値から別の値を引く演算、乗算は値を掛け合わせる演算、除算はある値を別の値で割る演算である。これらをまとめて四則演算という。",
+          "vi": "Phép cộng dùng để cộng hai giá trị, phép trừ lấy một giá trị trừ đi giá trị khác, phép nhân nhân các giá trị với nhau và phép chia chia một giá trị cho giá trị khác. Bốn phép này được gọi chung là bốn phép tính cơ bản."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラムでの算術演算",
+          "vi": "Phép toán số học trong chương trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングでは、一般に「+」「-」「*」「/」などの算術演算子を使用して計算を記述する。複数の演算を組み合わせる場合には演算子の優先順位があり、必要に応じて括弧を使用して計算順序を明確にする。",
+          "vi": "Trong lập trình, các toán tử số học như \"+\", \"-\", \"*\" và \"/\" thường được sử dụng để mô tả phép tính. Khi kết hợp nhiều phép toán, cần chú ý đến thứ tự ưu tiên của toán tử và có thể sử dụng dấu ngoặc để xác định rõ thứ tự tính."
+        },
+        {
+          "type": "point",
+          "ja": "算術演算の基本は加算・減算・乗算・除算である。プログラムでは演算子の優先順位にも注意する。",
+          "vi": "Các phép toán số học cơ bản là cộng, trừ, nhân và chia. Trong chương trình cũng cần chú ý đến thứ tự ưu tiên của toán tử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "算術演算",
+          "reading": "さんじゅつえんざん",
+          "english": "Arithmetic Operation",
+          "vi": "phép toán số học",
+          "definitionJa": "数値に対して加算、減算、乗算、除算などを行う演算。",
+          "definitionVi": "Phép toán thực hiện cộng, trừ, nhân, chia và các tính toán khác trên giá trị số."
+        },
+        {
+          "term": "四則演算",
+          "reading": "しそくえんざん",
+          "english": "Four Arithmetic Operations",
+          "vi": "bốn phép tính cơ bản",
+          "definitionJa": "加算、減算、乗算、除算の四つの基本的な算術演算。",
+          "definitionVi": "Bốn phép toán số học cơ bản gồm cộng, trừ, nhân và chia."
+        }
+      ],
+      "tags": ["programming", "arithmetic", "operation", "operator"]
+    },
+    {
+      "id": "comparison-operation",
+      "order": 19,
+      "titleJa": "比較演算",
+      "titleVi": "Phép toán so sánh",
+      "importance": "high",
+      "summaryJa": "二つの値を比較して真偽値を得る比較演算と、条件分岐やループで使用される代表的な比較演算子を理解する。",
+      "summaryVi": "Tìm hiểu phép toán so sánh dùng để so sánh hai giá trị và trả về giá trị đúng hoặc sai, cùng các toán tử so sánh thường dùng trong rẽ nhánh và vòng lặp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "比較演算とは",
+          "vi": "Phép toán so sánh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較演算（Comparison Operation）とは、二つの値や変数を比較し、その結果を真または偽として得る演算である。プログラミングでは、条件分岐やループ処理など、条件に応じて処理を制御するときに利用される。",
+          "vi": "Phép toán so sánh (Comparison Operation) là phép toán so sánh hai giá trị hoặc biến và trả về kết quả đúng hoặc sai. Trong lập trình, nó được sử dụng để điều khiển xử lý theo điều kiện, chẳng hạn trong rẽ nhánh và vòng lặp."
+        },
+        {
+          "type": "heading",
+          "ja": "代表的な比較演算子",
+          "vi": "Các toán tử so sánh tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的な比較演算子には、「==」（等しい）、「!=」（等しくない）、「>」（より大きい）、「<」（より小さい）、「>=」（以上）、「<=」（以下）などがある。例えば「A > B」は、AがBより大きい場合に真となる。",
+          "vi": "Các toán tử so sánh tiêu biểu gồm \"==\" (bằng), \"!=\" (khác), \">\" (lớn hơn), \"<\" (nhỏ hơn), \">=\" (lớn hơn hoặc bằng) và \"<=\" (nhỏ hơn hoặc bằng). Ví dụ, \"A > B\" trả về đúng nếu A lớn hơn B."
+        },
+        {
+          "type": "heading",
+          "ja": "条件判定での利用",
+          "vi": "Sử dụng trong đánh giá điều kiện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較演算の結果は真偽値となるため、その結果に基づいて特定の処理を実行するかどうかを判断できる。このため、プログラムの流れを制御するための基本的な演算として広く利用される。",
+          "vi": "Do kết quả của phép so sánh là giá trị đúng hoặc sai, chương trình có thể dựa vào đó để quyết định có thực hiện một xử lý nhất định hay không. Vì vậy, đây là phép toán cơ bản để điều khiển luồng chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "比較演算は二つの値を比較して真または偽を返す。「==」「!=」「>」「<」「>=」「<=」などの比較演算子を覚える。",
+          "vi": "Phép so sánh so sánh hai giá trị và trả về đúng hoặc sai. Cần nhớ các toán tử như ==, !=, >, <, >= và <=."
+        }
+      ],
+      "terms": [
+        {
+          "term": "比較演算",
+          "reading": "ひかくえんざん",
+          "english": "Comparison Operation",
+          "vi": "phép toán so sánh",
+          "definitionJa": "二つの値を比較し、その結果を真偽値として得る演算。",
+          "definitionVi": "Phép toán so sánh hai giá trị và trả về kết quả đúng hoặc sai."
+        },
+        {
+          "term": "比較演算子",
+          "reading": "ひかくえんざんし",
+          "english": "Comparison Operator",
+          "vi": "toán tử so sánh",
+          "definitionJa": "値の大小や等しさなどを比較するための演算子。",
+          "definitionVi": "Toán tử dùng để so sánh độ lớn hoặc sự bằng nhau giữa các giá trị."
+        }
+      ],
+      "tags": ["programming", "comparison", "operator", "condition"]
+    },
+    {
+      "id": "logical-operation",
+      "order": 20,
+      "titleJa": "論理演算",
+      "titleVi": "Phép toán logic",
+      "importance": "high",
+      "summaryJa": "真偽値に対してAND、OR、NOTなどを適用する論理演算について、それぞれの基本的な動作を理解する。",
+      "summaryVi": "Tìm hiểu các phép toán logic AND, OR và NOT được thực hiện trên các giá trị đúng/sai và cách hoạt động cơ bản của chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "論理演算とは",
+          "vi": "Phép toán logic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理演算（Logical Operation）とは、真（True）または偽（False）の真偽値に対して行う演算である。プログラミングでは、複数の条件を組み合わせたり、条件を反転したりするときに利用される。",
+          "vi": "Phép toán logic (Logical Operation) là phép toán thực hiện trên các giá trị đúng (True) hoặc sai (False). Trong lập trình, nó được sử dụng để kết hợp nhiều điều kiện hoặc đảo ngược một điều kiện."
+        },
+        {
+          "type": "heading",
+          "ja": "AND・OR・NOT",
+          "vi": "AND, OR và NOT"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AND演算は両方の条件が真の場合だけ真となる。OR演算は少なくとも一方の条件が真であれば真となる。NOT演算は真を偽に、偽を真に反転させる。",
+          "vi": "Phép AND chỉ trả về đúng khi cả hai điều kiện đều đúng. Phép OR trả về đúng nếu ít nhất một điều kiện đúng. Phép NOT đảo giá trị đúng thành sai và sai thành đúng."
+        },
+        {
+          "type": "heading",
+          "ja": "プログラムでの利用",
+          "vi": "Ứng dụng trong chương trình"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理演算は条件分岐やループなどで頻繁に使用される。複数の条件を組み合わせることで、より複雑な条件を表現し、プログラムの判断や処理を制御することができる。",
+          "vi": "Phép toán logic thường được sử dụng trong rẽ nhánh và vòng lặp. Bằng cách kết hợp nhiều điều kiện, chương trình có thể biểu diễn các điều kiện phức tạp hơn và kiểm soát quá trình xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "ANDは「両方が真」、ORは「少なくとも一方が真」、NOTは「真偽を反転」と覚える。",
+          "vi": "Hãy nhớ: AND = cả hai đều đúng, OR = ít nhất một bên đúng, NOT = đảo ngược đúng/sai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "論理演算",
+          "reading": "ろんりえんざん",
+          "english": "Logical Operation",
+          "vi": "phép toán logic",
+          "definitionJa": "真偽値に対してAND、OR、NOTなどを行う演算。",
+          "definitionVi": "Phép toán thực hiện AND, OR, NOT và các thao tác tương tự trên giá trị logic."
+        },
+        {
+          "term": "真偽値",
+          "reading": "しんぎち",
+          "english": "Boolean Value",
+          "vi": "giá trị logic",
+          "definitionJa": "真または偽のいずれかを表す値。",
+          "definitionVi": "Giá trị biểu diễn một trong hai trạng thái đúng hoặc sai."
+        }
+      ],
+      "tags": ["programming", "logical-operation", "and", "or", "not"]
+    },
+    {
+      "id": "bitwise-operation",
+      "order": 21,
+      "titleJa": "ビット演算",
+      "titleVi": "Phép toán bit",
+      "importance": "high",
+      "summaryJa": "2進数の各ビットに対して直接処理を行うビット演算と、AND、OR、NOT、XOR、シフトなどの基本操作を理解する。",
+      "summaryVi": "Tìm hiểu phép toán bit tác động trực tiếp lên từng bit của dữ liệu nhị phân và các thao tác cơ bản như AND, OR, NOT, XOR và dịch bit.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ビット演算とは",
+          "vi": "Phép toán bit là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビット演算（Bitwise Operation）とは、データを2進数として扱い、それぞれのビット（0または1）に対して直接操作を行う演算である。データの特定のビットだけを操作したい場合などに利用される。",
+          "vi": "Phép toán bit (Bitwise Operation) là phép toán xử lý dữ liệu dưới dạng nhị phân và thao tác trực tiếp trên từng bit 0 hoặc 1. Nó được sử dụng khi cần xử lý riêng các bit cụ thể của dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "基本的なビット演算",
+          "vi": "Các phép toán bit cơ bản"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的なビット演算にはAND、OR、NOT、XORなどがある。ANDでは対応する両方のビットが1の場合だけ1となり、ORでは少なくとも一方が1であれば1となる。XORでは二つのビットが異なる場合に1となる。",
+          "vi": "Các phép toán bit tiêu biểu gồm AND, OR, NOT và XOR. Với AND, kết quả là 1 chỉ khi cả hai bit tương ứng đều là 1. Với OR, kết quả là 1 nếu ít nhất một bit là 1. Với XOR, kết quả là 1 khi hai bit khác nhau."
+        },
+        {
+          "type": "heading",
+          "ja": "シフト演算",
+          "vi": "Phép dịch bit"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビット列を左または右へ移動させる操作をシフト演算という。ビット演算やシフト演算は、ビットマスク、フラグの設定、高速なデータ処理などで利用される。",
+          "vi": "Thao tác di chuyển dãy bit sang trái hoặc phải được gọi là phép dịch bit. Phép toán bit và dịch bit được sử dụng trong bit mask, thiết lập cờ trạng thái và xử lý dữ liệu hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "ビット演算は0と1の各ビットを直接操作する。論理演算と似たAND・OR・NOTなどがあるが、真偽値ではなくビット単位で処理する点が重要である。",
+          "vi": "Phép toán bit thao tác trực tiếp trên từng bit 0 và 1. Tuy có AND, OR, NOT giống phép toán logic, điểm quan trọng là chúng xử lý từng bit chứ không phải toàn bộ giá trị đúng/sai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビット演算",
+          "reading": "びっとえんざん",
+          "english": "Bitwise Operation",
+          "vi": "phép toán bit",
+          "definitionJa": "2進数の各ビットに対して直接操作を行う演算。",
+          "definitionVi": "Phép toán tác động trực tiếp lên từng bit của dữ liệu nhị phân."
+        },
+        {
+          "term": "シフト演算",
+          "reading": "しふとえんざん",
+          "english": "Shift Operation",
+          "vi": "phép dịch bit",
+          "definitionJa": "ビット列を左または右へ移動させる演算。",
+          "definitionVi": "Phép toán dịch một dãy bit sang trái hoặc sang phải."
+        }
+      ],
+      "tags": ["programming", "bitwise-operation", "bit", "binary", "shift"]
+    },
+    {
+      "id": "selection-processing",
+      "order": 22,
+      "titleJa": "選択処理",
+      "titleVi": "Xử lý lựa chọn",
+      "importance": "high",
+      "summaryJa": "条件の真偽によって実行する処理を選択する選択処理と、if文やswitch文などの代表的な実現方法を理解する。",
+      "summaryVi": "Tìm hiểu xử lý lựa chọn, trong đó chương trình chọn xử lý cần thực hiện dựa trên điều kiện, cùng các cấu trúc tiêu biểu như if và switch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "選択処理とは",
+          "vi": "Xử lý lựa chọn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "選択処理（Selection Processing）とは、特定の条件に応じて実行する処理を選択する制御構造である。例えば、条件が真の場合は処理A、偽の場合は処理Bを実行するといった制御を行う。",
+          "vi": "Xử lý lựa chọn (Selection Processing) là cấu trúc điều khiển lựa chọn xử lý cần thực hiện dựa trên một điều kiện nhất định. Ví dụ, nếu điều kiện đúng thì thực hiện xử lý A, còn nếu sai thì thực hiện xử lý B."
+        },
+        {
+          "type": "heading",
+          "ja": "if文",
+          "vi": "Câu lệnh if"
+        },
+        {
+          "type": "paragraph",
+          "ja": "if文は、条件の真偽によって処理を分岐させる代表的な方法である。例えば、「晴れていれば公園へ行く、雨であれば家にいる」のように、条件によって異なる処理を実行できる。",
+          "vi": "Câu lệnh if là phương pháp tiêu biểu để phân nhánh xử lý dựa trên việc điều kiện đúng hay sai. Ví dụ, có thể thực hiện xử lý khác nhau như \"nếu trời nắng thì đi công viên, nếu trời mưa thì ở nhà\"."
+        },
+        {
+          "type": "heading",
+          "ja": "switch文",
+          "vi": "Câu lệnh switch"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の候補から値に応じて処理を選択する場合には、switch文などが使用される。多数の条件を整理して記述できるため、状況に応じた処理を分かりやすく表現できる。",
+          "vi": "Khi cần lựa chọn một xử lý dựa trên một giá trị trong nhiều trường hợp, có thể sử dụng câu lệnh switch. Cấu trúc này giúp tổ chức nhiều trường hợp một cách rõ ràng."
+        },
+        {
+          "type": "point",
+          "ja": "選択処理は条件によって実行する処理を切り替える。代表的なものはif文やswitch文である。",
+          "vi": "Xử lý lựa chọn thay đổi xử lý được thực hiện tùy theo điều kiện. Các cấu trúc tiêu biểu là if và switch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "選択処理",
+          "reading": "せんたくしょり",
+          "english": "Selection Processing",
+          "vi": "xử lý lựa chọn",
+          "definitionJa": "条件に応じて実行する処理を選択する制御構造。",
+          "definitionVi": "Cấu trúc điều khiển lựa chọn xử lý cần thực hiện dựa trên điều kiện."
+        },
+        {
+          "term": "条件分岐",
+          "reading": "じょうけんぶんき",
+          "english": "Conditional Branch",
+          "vi": "rẽ nhánh có điều kiện",
+          "definitionJa": "条件の真偽や値によって処理の流れを分岐させること。",
+          "definitionVi": "Việc phân nhánh luồng xử lý dựa trên giá trị hoặc kết quả đúng/sai của điều kiện."
+        }
+      ],
+      "tags": [
+        "programming",
+        "selection-processing",
+        "conditional-branch",
+        "if",
+        "switch"
+      ]
+    },
+    {
+      "id": "repetitive-processing",
+      "order": 23,
+      "titleJa": "繰返し処理",
+      "titleVi": "Xử lý lặp",
+      "importance": "high",
+      "summaryJa": "同じ処理を繰り返し実行する繰返し処理と、ループを利用した効率的なプログラム制御について理解する。",
+      "summaryVi": "Tìm hiểu xử lý lặp dùng để thực hiện cùng một thao tác nhiều lần và cách sử dụng vòng lặp để điều khiển chương trình hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "繰返し処理とは",
+          "vi": "Xử lý lặp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "繰返し処理（Repetitive Processing）とは、プログラムやアルゴリズムにおいて同じ操作を何度も実行するための処理である。例えば、リストの各要素に対して同じ計算を行う場合などに利用される。",
+          "vi": "Xử lý lặp (Repetitive Processing) là phương pháp thực hiện cùng một thao tác nhiều lần trong chương trình hoặc thuật toán. Ví dụ, nó được sử dụng khi cần thực hiện cùng một phép tính cho từng phần tử trong danh sách."
+        },
+        {
+          "type": "heading",
+          "ja": "ループ",
+          "vi": "Vòng lặp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "同じ処理を繰り返すために用いられる制御構造をループという。一定の回数だけ処理を繰り返したり、特定の条件を満たしている間だけ処理を続けたりすることができる。",
+          "vi": "Cấu trúc điều khiển dùng để lặp lại cùng một xử lý được gọi là vòng lặp. Có thể lặp một số lần xác định hoặc tiếp tục xử lý trong khi một điều kiện nhất định vẫn được thỏa mãn."
+        },
+        {
+          "type": "heading",
+          "ja": "繰返し処理の利用",
+          "vi": "Ứng dụng của xử lý lặp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、購入した商品の合計金額を求める場合、各商品の価格を順番に加算する処理を繰り返すことで計算できる。繰返し処理は、条件分岐や入出力処理などと組み合わせて利用されることも多い。",
+          "vi": "Ví dụ, để tính tổng giá trị của các sản phẩm đã mua, có thể lặp lại thao tác cộng lần lượt giá của từng sản phẩm. Xử lý lặp cũng thường được kết hợp với rẽ nhánh điều kiện và xử lý nhập/xuất."
+        },
+        {
+          "type": "point",
+          "ja": "繰返し処理は同じ処理を何度も実行するための基本的な制御構造である。回数や条件に応じてループを制御する。",
+          "vi": "Xử lý lặp là cấu trúc điều khiển cơ bản để thực hiện cùng một xử lý nhiều lần. Vòng lặp được điều khiển dựa trên số lần hoặc điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "繰返し処理",
+          "reading": "くりかえししょり",
+          "english": "Repetitive Processing",
+          "vi": "xử lý lặp",
+          "definitionJa": "同じ処理を一定回数または条件に応じて繰り返し実行する処理。",
+          "definitionVi": "Xử lý thực hiện lặp lại cùng một thao tác theo số lần hoặc điều kiện nhất định."
+        },
+        {
+          "term": "ループ",
+          "reading": "るーぷ",
+          "english": "Loop",
+          "vi": "vòng lặp",
+          "definitionJa": "同じ処理を繰り返して実行するための制御構造。",
+          "definitionVi": "Cấu trúc điều khiển dùng để thực hiện lặp lại một xử lý."
+        }
+      ],
+      "tags": [
+        "programming",
+        "repetitive-processing",
+        "loop",
+        "control-structure"
+      ]
+    },
+    {
+      "id": "argument",
+      "order": 24,
+      "titleJa": "引数",
+      "titleVi": "Đối số",
+      "importance": "high",
+      "summaryJa": "関数やメソッドに処理に必要なデータを渡す引数の役割と、引数を利用した処理の再利用について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của đối số trong việc truyền dữ liệu cần thiết cho hàm hoặc phương thức và cách sử dụng đối số để tái sử dụng xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "引数とは",
+          "vi": "Đối số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "引数（Argument）とは、プログラムにおいて関数やメソッドに渡すデータのことである。関数が特定の処理を行うために必要となる情報を、呼び出し側から渡す役割を持つ。",
+          "vi": "Đối số (Argument) là dữ liệu được truyền cho một hàm hoặc phương thức trong chương trình. Nó có vai trò cung cấp từ phía gọi hàm những thông tin cần thiết để hàm thực hiện một xử lý nhất định."
+        },
+        {
+          "type": "heading",
+          "ja": "引数の例",
+          "vi": "Ví dụ về đối số"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、二つの数値を加算する関数では、計算対象となる二つの数値を引数として渡すことができる。引数として渡せるデータには、数値だけでなく、文字列やその他のデータ型もある。",
+          "vi": "Ví dụ, với một hàm cộng hai số, hai giá trị cần tính có thể được truyền vào dưới dạng đối số. Đối số không chỉ có thể là số mà còn có thể là chuỗi và các kiểu dữ liệu khác."
+        },
+        {
+          "type": "heading",
+          "ja": "引数を使う利点",
+          "vi": "Lợi ích của việc sử dụng đối số"
+        },
+        {
+          "type": "paragraph",
+          "ja": "引数を利用すると、同じ関数に異なるデータを渡して処理できるため、一つの関数を様々な条件で再利用できる。これにより、コードの重複を減らし、可読性や保守性を高めることができる。",
+          "vi": "Khi sử dụng đối số, có thể truyền các dữ liệu khác nhau vào cùng một hàm, nhờ đó một hàm có thể được tái sử dụng trong nhiều trường hợp. Điều này giúp giảm mã trùng lặp và cải thiện khả năng đọc cũng như bảo trì."
+        },
+        {
+          "type": "point",
+          "ja": "引数は関数やメソッドへ渡すデータである。関数を呼び出す側から、処理に必要な情報を与える。",
+          "vi": "Đối số là dữ liệu được truyền vào hàm hoặc phương thức. Nó cung cấp thông tin cần thiết từ phía gọi hàm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "引数",
+          "reading": "ひきすう",
+          "english": "Argument",
+          "vi": "đối số",
+          "definitionJa": "関数やメソッドを呼び出すときに渡すデータ。",
+          "definitionVi": "Dữ liệu được truyền vào khi gọi một hàm hoặc phương thức."
+        }
+      ],
+      "tags": ["programming", "argument", "function", "method"]
+    },
+    {
+      "id": "return-value",
+      "order": 25,
+      "titleJa": "戻り値",
+      "titleVi": "Giá trị trả về",
+      "importance": "high",
+      "summaryJa": "関数が処理結果として呼び出し元へ返す戻り値の役割と、戻り値を利用したプログラム処理について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của giá trị trả về mà hàm gửi lại cho nơi gọi sau khi xử lý và cách sử dụng giá trị đó trong chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "戻り値とは",
+          "vi": "Giá trị trả về là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "戻り値（Return Value）とは、関数が処理を実行した後に呼び出し元へ返す情報のことである。関数で計算や処理を行った結果を、プログラムの別の部分で利用するために使用される。",
+          "vi": "Giá trị trả về (Return Value) là thông tin mà hàm trả lại cho nơi gọi sau khi thực hiện xử lý. Nó được sử dụng để kết quả tính toán hoặc xử lý của hàm có thể được dùng ở phần khác của chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "戻り値の利用",
+          "vi": "Sử dụng giá trị trả về"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、二つの数値を加算する関数では、計算結果を戻り値として呼び出し元へ返すことができる。呼び出し元はその戻り値を変数に代入したり、別の計算に使用したりすることができる。",
+          "vi": "Ví dụ, một hàm cộng hai số có thể trả kết quả tính toán về nơi gọi dưới dạng giá trị trả về. Nơi gọi có thể gán giá trị này cho một biến hoặc sử dụng nó trong phép tính khác."
+        },
+        {
+          "type": "heading",
+          "ja": "様々な戻り値",
+          "vi": "Các loại giá trị trả về"
+        },
+        {
+          "type": "paragraph",
+          "ja": "戻り値は数値だけとは限らず、文字列や真偽値など、関数の目的やデータ型に応じて様々な形式を取ることができる。戻り値を適切に利用することで、処理を機能ごとに分割しやすくなる。",
+          "vi": "Giá trị trả về không chỉ giới hạn ở số mà có thể là chuỗi, giá trị logic hoặc nhiều dạng khác tùy theo mục đích và kiểu dữ liệu của hàm. Việc sử dụng giá trị trả về thích hợp giúp chia chương trình thành các chức năng rõ ràng hơn."
+        },
+        {
+          "type": "point",
+          "ja": "引数は「関数へ渡す値」、戻り値は「関数から返される値」である。この違いを区別する。",
+          "vi": "Cần phân biệt: đối số là \"giá trị truyền vào hàm\", còn giá trị trả về là \"giá trị được hàm trả lại\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "戻り値",
+          "reading": "もどりち",
+          "english": "Return Value",
+          "vi": "giá trị trả về",
+          "definitionJa": "関数やメソッドが処理結果として呼び出し元へ返す値。",
+          "definitionVi": "Giá trị mà hàm hoặc phương thức trả về cho nơi gọi sau khi xử lý."
+        }
+      ],
+      "tags": ["programming", "return-value", "function"]
+    },
+    {
+      "id": "local-variable",
+      "order": 26,
+      "titleJa": "局所変数",
+      "titleVi": "Biến cục bộ",
+      "importance": "high",
+      "summaryJa": "特定のブロックや関数の内部だけで使用できる局所変数と、その有効範囲であるスコープについて理解する。",
+      "summaryVi": "Tìm hiểu biến cục bộ chỉ có thể được sử dụng bên trong một khối hoặc hàm nhất định và phạm vi hiệu lực (scope) của biến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "局所変数とは",
+          "vi": "Biến cục bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "局所変数（Local Variable）とは、プログラム内の特定のブロックや関数の中だけで使用できる変数である。定義された範囲を超えると、通常はその変数へアクセスすることができない。",
+          "vi": "Biến cục bộ (Local Variable) là biến chỉ có thể được sử dụng bên trong một khối hoặc hàm nhất định của chương trình. Thông thường không thể truy cập biến đó từ bên ngoài phạm vi nơi nó được định nghĩa."
+        },
+        {
+          "type": "heading",
+          "ja": "スコープ",
+          "vi": "Phạm vi (scope)"
+        },
+        {
+          "type": "paragraph",
+          "ja": "変数を参照できる範囲をスコープという。局所変数はスコープが限定されているため、他の処理から意図せず値を変更されることを防ぎやすく、プログラムの独立性や可読性を高めることができる。",
+          "vi": "Phạm vi mà một biến có thể được tham chiếu được gọi là scope. Vì biến cục bộ có phạm vi giới hạn nên có thể hạn chế việc giá trị bị thay đổi ngoài ý muốn từ các xử lý khác, giúp tăng tính độc lập và khả năng đọc của chương trình."
+        },
+        {
+          "type": "heading",
+          "ja": "局所変数の利用",
+          "vi": "Sử dụng biến cục bộ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、関数内で計算にだけ使用する一時的な値は局所変数として定義できる。必要な処理が終了すると不要になるため、局所変数を適切に利用することでメモリを効率的に扱いやすくなる。",
+          "vi": "Ví dụ, một giá trị tạm thời chỉ dùng cho phép tính bên trong hàm có thể được định nghĩa là biến cục bộ. Vì nó không còn cần thiết sau khi xử lý kết thúc, việc sử dụng biến cục bộ thích hợp giúp quản lý bộ nhớ hiệu quả hơn."
+        },
+        {
+          "type": "point",
+          "ja": "局所変数は定義されたブロックや関数内で有効な変数である。変数を参照できる範囲をスコープという。",
+          "vi": "Biến cục bộ chỉ có hiệu lực trong khối hoặc hàm nơi nó được định nghĩa. Phạm vi mà biến có thể được truy cập được gọi là scope."
+        }
+      ],
+      "terms": [
+        {
+          "term": "局所変数",
+          "reading": "きょくしょへんすう",
+          "english": "Local Variable",
+          "vi": "biến cục bộ",
+          "definitionJa": "特定のブロックや関数など、限定された範囲内で使用できる変数。",
+          "definitionVi": "Biến chỉ có thể được sử dụng trong một phạm vi giới hạn như một khối hoặc hàm."
+        },
+        {
+          "term": "スコープ",
+          "reading": "すこーぷ",
+          "english": "Scope",
+          "vi": "phạm vi",
+          "definitionJa": "変数や関数などを参照できる有効範囲。",
+          "definitionVi": "Phạm vi mà biến, hàm hoặc thành phần khác có thể được tham chiếu."
+        }
+      ],
+      "tags": ["programming", "local-variable", "variable", "scope"]
+    },
+    {
+      "id": "object-oriented-programming",
+      "order": 27,
+      "titleJa": "オブジェクト指向プログラミング",
+      "titleVi": "Lập trình hướng đối tượng",
+      "importance": "high",
+      "summaryJa": "データと機能をオブジェクトとしてまとめて扱うオブジェクト指向プログラミングの基本的な考え方と、その利点について理解する。",
+      "summaryVi": "Tìm hiểu tư tưởng cơ bản của lập trình hướng đối tượng, trong đó dữ liệu và chức năng được tổ chức thành các đối tượng, cùng những lợi ích của phương pháp này.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向プログラミングとは",
+          "vi": "Lập trình hướng đối tượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向プログラミング（Object-Oriented Programming）とは、現実世界の物や概念を「オブジェクト」として捉え、データとそれを操作する機能を一つにまとめてプログラムを構成する考え方である。",
+          "vi": "Lập trình hướng đối tượng (Object-Oriented Programming) là cách xây dựng chương trình bằng cách xem các sự vật hoặc khái niệm trong thế giới thực như những \"đối tượng\", đồng thời kết hợp dữ liệu và các chức năng xử lý dữ liệu đó thành một đơn vị."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクトの例",
+          "vi": "Ví dụ về đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、車をオブジェクトとして考えると、「色」や「モデル」などをデータとして持ち、「走る」「止まる」などを機能として持たせることができる。このように、対象の状態と振る舞いをまとめて表現する。",
+          "vi": "Ví dụ, nếu coi một chiếc xe là một đối tượng, nó có thể có dữ liệu như \"màu sắc\", \"mẫu xe\" và các chức năng như \"chạy\", \"dừng\". Theo cách này, trạng thái và hành vi của một đối tượng được biểu diễn cùng nhau."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向の利点",
+          "vi": "Lợi ích của hướng đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向では、機能をオブジェクト単位で整理できるため、再利用性や柔軟性が高まり、プログラムの保守や拡張が容易になる。また、継承やポリモーフィズムなどを利用することで、複雑なシステムを整理して管理しやすくなる。",
+          "vi": "Trong lập trình hướng đối tượng, các chức năng có thể được tổ chức theo từng đối tượng, giúp tăng khả năng tái sử dụng và tính linh hoạt, đồng thời giúp chương trình dễ bảo trì và mở rộng hơn. Các cơ chế như kế thừa và đa hình cũng giúp quản lý những hệ thống phức tạp dễ dàng hơn."
+        },
+        {
+          "type": "point",
+          "ja": "オブジェクトは、データ（属性）とそのデータを操作する機能（振る舞い）をまとめたものである。",
+          "vi": "Đối tượng là một đơn vị kết hợp dữ liệu (thuộc tính) và chức năng xử lý dữ liệu đó (hành vi)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オブジェクト指向プログラミング",
+          "reading": "おぶじぇくとしこうぷろぐらみんぐ",
+          "english": "Object-Oriented Programming",
+          "vi": "lập trình hướng đối tượng",
+          "definitionJa": "データと機能をオブジェクトとしてまとめてプログラムを構成する考え方。",
+          "definitionVi": "Phương pháp xây dựng chương trình bằng cách tổ chức dữ liệu và chức năng thành các đối tượng."
+        },
+        {
+          "term": "オブジェクト",
+          "reading": "おぶじぇくと",
+          "english": "Object",
+          "vi": "đối tượng",
+          "definitionJa": "データと、そのデータに対する操作をまとめたもの。",
+          "definitionVi": "Một đơn vị kết hợp dữ liệu và các thao tác đối với dữ liệu đó."
+        }
+      ],
+      "tags": ["programming", "object-oriented-programming", "oop", "object"]
+    },
+    {
+      "id": "constructor",
+      "order": 28,
+      "titleJa": "コンストラクタ",
+      "titleVi": "Hàm khởi tạo",
+      "importance": "high",
+      "summaryJa": "オブジェクトを生成するときに呼び出され、必要な初期設定を行うコンストラクタの役割について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của constructor được gọi khi tạo đối tượng và dùng để thực hiện các thiết lập ban đầu cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンストラクタとは",
+          "vi": "Constructor là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンストラクタ（Constructor）とは、オブジェクト指向プログラミングにおいて、クラスからオブジェクトを生成する際に呼び出される特別なメソッドである。主に、オブジェクトが初期化されるタイミングで必要なプロパティや値を設定するために使用される。",
+          "vi": "Constructor (hàm khởi tạo) là một phương thức đặc biệt được gọi khi tạo đối tượng từ một lớp trong lập trình hướng đối tượng. Nó chủ yếu được sử dụng để thiết lập các thuộc tính và giá trị cần thiết khi đối tượng được khởi tạo."
+        },
+        {
+          "type": "heading",
+          "ja": "初期化",
+          "vi": "Khởi tạo"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、車を表すクラスでは、オブジェクトを生成するときにコンストラクタを使って車の色やモデルなどの初期値を設定できる。これにより、生成されたオブジェクトを最初から適切な状態にすることができる。",
+          "vi": "Ví dụ, với một lớp biểu diễn xe ô tô, khi tạo đối tượng có thể sử dụng constructor để thiết lập các giá trị ban đầu như màu sắc hoặc mẫu xe. Nhờ đó, đối tượng vừa được tạo có thể ở trạng thái thích hợp ngay từ đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "コンストラクタの特徴",
+          "vi": "Đặc điểm của constructor"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンストラクタの具体的な記述方法はプログラミング言語によって異なるが、オブジェクト生成時の初期化を一か所にまとめられるため、プログラムを整理しやすく、保守性を高めることができる。",
+          "vi": "Cách viết constructor cụ thể khác nhau tùy ngôn ngữ lập trình, nhưng vì có thể tập trung việc khởi tạo đối tượng tại một nơi nên chương trình dễ tổ chức và bảo trì hơn."
+        },
+        {
+          "type": "point",
+          "ja": "コンストラクタは、オブジェクト生成時に初期化処理を行うための特別なメソッドである。",
+          "vi": "Constructor là phương thức đặc biệt dùng để thực hiện xử lý khởi tạo khi một đối tượng được tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンストラクタ",
+          "reading": "こんすとらくた",
+          "english": "Constructor",
+          "vi": "hàm khởi tạo",
+          "definitionJa": "オブジェクトを生成するときに呼び出され、初期化を行うための特別なメソッド。",
+          "definitionVi": "Phương thức đặc biệt được gọi khi tạo đối tượng để thực hiện việc khởi tạo."
+        }
+      ],
+      "tags": [
+        "programming",
+        "object-oriented-programming",
+        "constructor",
+        "initialization"
+      ]
+    },
+    {
+      "id": "member-variable",
+      "order": 29,
+      "titleJa": "メンバ変数",
+      "titleVi": "Biến thành viên",
+      "importance": "high",
+      "summaryJa": "クラスに属し、オブジェクトの状態や属性を保持するメンバ変数の役割について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của biến thành viên thuộc về lớp và dùng để lưu giữ trạng thái hoặc thuộc tính của đối tượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メンバ変数とは",
+          "vi": "Biến thành viên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メンバ変数（Member Variable）とは、クラスに属する変数であり、オブジェクトの状態や属性を保持するために使用される。",
+          "vi": "Biến thành viên (Member Variable) là biến thuộc về một lớp và được sử dụng để lưu giữ trạng thái hoặc thuộc tính của đối tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "メンバ変数の例",
+          "vi": "Ví dụ về biến thành viên"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、「車」というクラスでは、「色」や「速度」などをメンバ変数として定義できる。それぞれの車のオブジェクトは、これらのメンバ変数に異なる値を保持することで、個別の状態を表現できる。",
+          "vi": "Ví dụ, trong lớp \"Xe\", có thể định nghĩa \"màu sắc\" và \"tốc độ\" làm các biến thành viên. Mỗi đối tượng xe có thể lưu các giá trị khác nhau trong những biến này để biểu diễn trạng thái riêng của mình."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向における役割",
+          "vi": "Vai trò trong lập trình hướng đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メンバ変数はオブジェクトのデータを表す重要な要素であり、メソッドから参照したり変更したりできる。また、アクセス方法を適切に制御することで、データの隠蔽やカプセル化にもつながる。",
+          "vi": "Biến thành viên là thành phần quan trọng biểu diễn dữ liệu của đối tượng và có thể được các phương thức tham chiếu hoặc thay đổi. Việc kiểm soát cách truy cập thích hợp cũng góp phần vào che giấu dữ liệu và đóng gói."
+        },
+        {
+          "type": "point",
+          "ja": "メンバ変数はクラスに属する変数であり、各オブジェクトの状態や属性を保持する。",
+          "vi": "Biến thành viên là biến thuộc về lớp, dùng để lưu trạng thái hoặc thuộc tính của từng đối tượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メンバ変数",
+          "reading": "めんばへんすう",
+          "english": "Member Variable",
+          "vi": "biến thành viên",
+          "definitionJa": "クラスに属し、オブジェクトの状態や属性を保持する変数。",
+          "definitionVi": "Biến thuộc về lớp và lưu giữ trạng thái hoặc thuộc tính của đối tượng."
+        }
+      ],
+      "tags": [
+        "programming",
+        "object-oriented-programming",
+        "member-variable",
+        "class",
+        "object"
+      ]
+    },
+    {
+      "id": "override",
+      "order": 30,
+      "titleJa": "オーバーライド",
+      "titleVi": "Ghi đè",
+      "importance": "high",
+      "summaryJa": "親クラスで定義されたメソッドを子クラスで再定義するオーバーライドの仕組みと、その目的について理解する。",
+      "summaryVi": "Tìm hiểu cơ chế override, trong đó phương thức được định nghĩa ở lớp cha được định nghĩa lại trong lớp con, cùng mục đích của cơ chế này.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オーバーライドとは",
+          "vi": "Override là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オーバーライド（Override）とは、スーパークラス（親クラス）で定義されたメソッドを、サブクラス（子クラス）で再定義することである。これにより、親クラスの基本的な構造を利用しながら、子クラス固有の処理を実装できる。",
+          "vi": "Override (ghi đè) là việc định nghĩa lại trong lớp con (subclass) một phương thức đã được định nghĩa ở lớp cha (superclass). Nhờ đó có thể sử dụng cấu trúc cơ bản của lớp cha đồng thời triển khai xử lý riêng cho lớp con."
+        },
+        {
+          "type": "heading",
+          "ja": "オーバーライドの例",
+          "vi": "Ví dụ về override"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、動物を表す親クラスに「鳴く」というメソッドがある場合、犬のサブクラスではそのメソッドをオーバーライドして「ワンワン」と鳴く処理を定義できる。このように、同じメソッドでもオブジェクトの種類に応じて異なる動作を実現できる。",
+          "vi": "Ví dụ, nếu lớp cha biểu diễn động vật có phương thức \"kêu\", lớp con biểu diễn chó có thể ghi đè phương thức đó để định nghĩa hành vi kêu \"gâu gâu\". Nhờ vậy, cùng một phương thức có thể thực hiện hành vi khác nhau tùy loại đối tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "オーバーライドの利点",
+          "vi": "Lợi ích của override"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オーバーライドを利用することで、既存のクラスの仕組みを再利用しながら、必要な部分だけを変更できる。そのため、プログラムの柔軟性や再利用性を高めることができる。",
+          "vi": "Sử dụng override cho phép tái sử dụng cơ chế của lớp hiện có và chỉ thay đổi những phần cần thiết. Vì vậy, nó giúp tăng tính linh hoạt và khả năng tái sử dụng của chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "オーバーライドは、親クラスのメソッドを子クラスで再定義することである。オーバーロードとは異なるため区別する。",
+          "vi": "Override là định nghĩa lại phương thức của lớp cha trong lớp con. Cần phân biệt với overload (nạp chồng)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オーバーライド",
+          "reading": "おーばーらいど",
+          "english": "Override",
+          "vi": "ghi đè",
+          "definitionJa": "親クラスで定義されたメソッドを子クラスで再定義すること。",
+          "definitionVi": "Việc định nghĩa lại trong lớp con một phương thức đã được định nghĩa ở lớp cha."
+        },
+        {
+          "term": "スーパークラス",
+          "reading": "すーぱーくらす",
+          "english": "Superclass",
+          "vi": "lớp cha",
+          "definitionJa": "継承関係において、他のクラスに機能や属性を継承させる側のクラス。",
+          "definitionVi": "Lớp cung cấp thuộc tính và chức năng cho lớp khác thông qua quan hệ kế thừa."
+        },
+        {
+          "term": "サブクラス",
+          "reading": "さぶくらす",
+          "english": "Subclass",
+          "vi": "lớp con",
+          "definitionJa": "継承関係において、親クラスの機能や属性を引き継ぐクラス。",
+          "definitionVi": "Lớp kế thừa thuộc tính và chức năng từ lớp cha."
+        }
+      ],
+      "tags": [
+        "programming",
+        "object-oriented-programming",
+        "override",
+        "inheritance",
+        "polymorphism"
+      ]
+    },
+    {
+      "id": "overload",
+      "order": 31,
+      "titleJa": "オーバーロード",
+      "titleVi": "Nạp chồng",
+      "importance": "high",
+      "summaryJa": "同じ名前の関数やメソッドを、引数の型や数を変えて複数定義するオーバーロードの仕組みについて理解する。",
+      "summaryVi": "Tìm hiểu cơ chế overload, cho phép định nghĩa nhiều hàm hoặc phương thức cùng tên nhưng khác kiểu hoặc số lượng tham số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オーバーロードとは",
+          "vi": "Overload là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オーバーロード（Overload）とは、プログラミングにおいて、同じ名前の関数やメソッドを異なる引数の型や数で複数定義することである。呼び出し時に与えられた引数に応じて、適切な処理が選択される。",
+          "vi": "Overload (nạp chồng) là việc định nghĩa nhiều hàm hoặc phương thức có cùng tên nhưng khác kiểu hoặc số lượng tham số. Khi gọi, xử lý phù hợp sẽ được lựa chọn dựa trên các tham số được truyền vào."
+        },
+        {
+          "type": "heading",
+          "ja": "オーバーロードの例",
+          "vi": "Ví dụ về overload"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、「足す」という同じ名前のメソッドについて、整数を二つ受け取るものと、小数を二つ受け取るものをそれぞれ定義することができる。利用する側は同じ名前で呼び出し、引数の型などに応じて適切な処理を利用できる。",
+          "vi": "Ví dụ, với cùng một phương thức tên là \"cộng\", có thể định nghĩa một phiên bản nhận hai số nguyên và một phiên bản nhận hai số thực. Người sử dụng vẫn gọi cùng một tên, còn xử lý phù hợp được chọn tùy theo kiểu tham số."
+        },
+        {
+          "type": "heading",
+          "ja": "オーバーライドとの違い",
+          "vi": "Khác biệt với override"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オーバーロードは、同じ名前で引数の異なる関数やメソッドを複数定義する仕組みである。一方、オーバーライドは、親クラスで定義されたメソッドを子クラスで再定義することである。",
+          "vi": "Overload là cơ chế định nghĩa nhiều hàm hoặc phương thức cùng tên nhưng khác tham số. Trong khi đó, override là việc lớp con định nghĩa lại phương thức đã được định nghĩa ở lớp cha."
+        },
+        {
+          "type": "point",
+          "ja": "オーバーロードは「同じ名前・異なる引数」、オーバーライドは「親クラスのメソッドを子クラスで再定義」と覚える。",
+          "vi": "Hãy nhớ: overload = \"cùng tên, khác tham số\"; override = \"lớp con định nghĩa lại phương thức của lớp cha\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オーバーロード",
+          "reading": "おーばーろーど",
+          "english": "Overload",
+          "vi": "nạp chồng",
+          "definitionJa": "同じ名前の関数やメソッドを、異なる引数の型や数で複数定義すること。",
+          "definitionVi": "Định nghĩa nhiều hàm hoặc phương thức cùng tên nhưng khác kiểu hoặc số lượng tham số."
+        }
+      ],
+      "tags": [
+        "programming",
+        "object-oriented-programming",
+        "overload",
+        "method"
+      ]
+    },
+    {
+      "id": "web-programming",
+      "order": 32,
+      "titleJa": "Webプログラミング",
+      "titleVi": "Lập trình Web",
+      "importance": "high",
+      "summaryJa": "WebサイトやWebアプリケーションを構築するWebプログラミングと、フロントエンド・バックエンドの基本的な役割について理解する。",
+      "summaryVi": "Tìm hiểu lập trình Web để xây dựng website và ứng dụng Web, cùng vai trò cơ bản của frontend và backend.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Webプログラミングとは",
+          "vi": "Lập trình Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webプログラミング（Web Programming）とは、インターネット上で動作するWebサイトやWebアプリケーションを構築するための技術や手法である。一般に、ユーザーが操作するフロントエンドと、データ処理や管理を行うバックエンドに分けて考えることができる。",
+          "vi": "Lập trình Web (Web Programming) là các kỹ thuật và phương pháp dùng để xây dựng website và ứng dụng Web hoạt động trên Internet. Thông thường có thể chia thành frontend, nơi người dùng thao tác, và backend, nơi thực hiện xử lý và quản lý dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "フロントエンド",
+          "vi": "Frontend"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フロントエンドは、Webブラウザ上でユーザーに表示され、ユーザーが直接操作する部分である。HTMLでページの構造を作り、CSSで表示を整え、JavaScriptなどを使って動的な処理を実現する。",
+          "vi": "Frontend là phần được hiển thị trên trình duyệt Web và được người dùng trực tiếp thao tác. HTML tạo cấu trúc trang, CSS điều chỉnh cách hiển thị, còn JavaScript và các công nghệ tương tự được dùng để thực hiện các xử lý động."
+        },
+        {
+          "type": "heading",
+          "ja": "バックエンド",
+          "vi": "Backend"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バックエンドはサーバ側で動作し、ユーザーからの要求に応じて処理を行ったり、データベースの情報を取得・更新したりする。Webアプリケーションでは、フロントエンドとバックエンドが連携してサービスを提供する。",
+          "vi": "Backend hoạt động ở phía máy chủ, thực hiện xử lý theo yêu cầu của người dùng và truy xuất hoặc cập nhật thông tin trong cơ sở dữ liệu. Trong ứng dụng Web, frontend và backend phối hợp với nhau để cung cấp dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "フロントエンドは主にユーザー側の表示・操作、バックエンドは主にサーバ側の処理・データ管理を担当する。",
+          "vi": "Frontend chủ yếu phụ trách hiển thị và thao tác phía người dùng; backend chủ yếu phụ trách xử lý phía máy chủ và quản lý dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Webプログラミング",
+          "reading": "うぇぶぷろぐらみんぐ",
+          "english": "Web Programming",
+          "vi": "lập trình Web",
+          "definitionJa": "WebサイトやWebアプリケーションを構築するためのプログラミング技術。",
+          "definitionVi": "Kỹ thuật lập trình dùng để xây dựng website và ứng dụng Web."
+        },
+        {
+          "term": "フロントエンド",
+          "reading": "ふろんとえんど",
+          "english": "Front End",
+          "vi": "frontend",
+          "definitionJa": "ユーザーがWebブラウザなどを通して直接操作する側。",
+          "definitionVi": "Phần mà người dùng trực tiếp nhìn thấy và thao tác thông qua trình duyệt Web."
+        },
+        {
+          "term": "バックエンド",
+          "reading": "ばっくえんど",
+          "english": "Back End",
+          "vi": "backend",
+          "definitionJa": "サーバ側でデータ処理やデータ管理などを行う部分。",
+          "definitionVi": "Phần phía máy chủ thực hiện xử lý và quản lý dữ liệu."
+        }
+      ],
+      "tags": ["programming", "web-programming", "frontend", "backend"]
+    },
+    {
+      "id": "server-side-programming",
+      "order": 33,
+      "titleJa": "サーバサイドプログラミング",
+      "titleVi": "Lập trình phía máy chủ",
+      "importance": "high",
+      "summaryJa": "Webアプリケーションにおいてサーバ側で実行され、要求の処理やデータベースとの連携を行うサーバサイドプログラミングについて理解する。",
+      "summaryVi": "Tìm hiểu lập trình phía máy chủ, nơi chương trình chạy trên server để xử lý yêu cầu và làm việc với cơ sở dữ liệu trong ứng dụng Web.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サーバサイドプログラミングとは",
+          "vi": "Lập trình phía máy chủ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバサイドプログラミング（Server-Side Programming）とは、Webアプリケーションにおいてサーバ上で実行されるプログラムを作成することである。ユーザーからのリクエストを受け取り、必要な処理を行って結果をクライアントへ返す役割を持つ。",
+          "vi": "Lập trình phía máy chủ (Server-Side Programming) là việc tạo các chương trình chạy trên server trong ứng dụng Web. Nó nhận yêu cầu từ người dùng, thực hiện xử lý cần thiết và trả kết quả về phía client."
+        },
+        {
+          "type": "heading",
+          "ja": "データベースとの連携",
+          "vi": "Liên kết với cơ sở dữ liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバサイドでは、データベースから情報を取得したり、登録・更新・削除したりする処理が行われる。これにより、ユーザーごとに異なる情報を表示するなど、動的なWebページを生成できる。",
+          "vi": "Ở phía server, chương trình có thể lấy thông tin từ cơ sở dữ liệu hoặc thực hiện đăng ký, cập nhật và xóa dữ liệu. Nhờ đó có thể tạo các trang Web động, chẳng hạn hiển thị thông tin khác nhau cho từng người dùng."
+        },
+        {
+          "type": "heading",
+          "ja": "利用される言語",
+          "vi": "Các ngôn ngữ được sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバサイドプログラミングには、PHP、Python、Rubyなど様々なプログラミング言語が利用される。Webサービスでは、データ処理や認証などの重要な処理をサーバ側で行う。",
+          "vi": "Nhiều ngôn ngữ như PHP, Python và Ruby được sử dụng cho lập trình phía máy chủ. Trong dịch vụ Web, các xử lý quan trọng như xử lý dữ liệu và xác thực thường được thực hiện phía server."
+        },
+        {
+          "type": "point",
+          "ja": "サーバサイドは、ユーザーのリクエストを処理し、必要に応じてデータベースと連携して結果を返す。",
+          "vi": "Server-side xử lý yêu cầu của người dùng, làm việc với cơ sở dữ liệu khi cần và trả về kết quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サーバサイドプログラミング",
+          "reading": "さーばさいどぷろぐらみんぐ",
+          "english": "Server-Side Programming",
+          "vi": "lập trình phía máy chủ",
+          "definitionJa": "Webアプリケーションにおいて、サーバ上で実行される処理を作成するプログラミング。",
+          "definitionVi": "Lập trình các xử lý được thực thi trên máy chủ trong ứng dụng Web."
+        }
+      ],
+      "tags": [
+        "programming",
+        "web-programming",
+        "server-side",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "rich-client",
+      "order": 34,
+      "titleJa": "リッチクライアント",
+      "titleVi": "Rich Client",
+      "importance": "medium",
+      "summaryJa": "クライアント側で多くの処理を行い、豊富なユーザーインタフェースや高い操作性を提供するリッチクライアントについて理解する。",
+      "summaryVi": "Tìm hiểu Rich Client, ứng dụng thực hiện nhiều xử lý ở phía client và cung cấp giao diện phong phú cùng khả năng tương tác cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リッチクライアントとは",
+          "vi": "Rich Client là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リッチクライアント（Rich Client）とは、ユーザーの端末上で動作し、多くの処理をクライアント側で行うことで、豊富なユーザーインタフェースや高い操作性を提供するアプリケーションである。",
+          "vi": "Rich Client là ứng dụng chạy trên thiết bị của người dùng và thực hiện nhiều xử lý ở phía client, nhờ đó cung cấp giao diện người dùng phong phú và khả năng thao tác cao."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リッチクライアントは、サーバから必要なデータを受け取り、表示や一部の処理をローカル環境で実行できる。そのため、画面を動的に変化させたり、ユーザーの操作に素早く反応したりすることができる。",
+          "vi": "Rich Client nhận dữ liệu cần thiết từ server và có thể thực hiện việc hiển thị cũng như một phần xử lý ngay trên môi trường cục bộ. Vì vậy, giao diện có thể thay đổi động và phản hồi nhanh với thao tác của người dùng."
+        },
+        {
+          "type": "heading",
+          "ja": "利用例",
+          "vi": "Ví dụ sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デスクトップアプリケーションや、一部の高機能なWebアプリケーションなどがリッチクライアントの例として挙げられる。オンラインとオフラインの両方で利用できるものもあり、ネットワークの状況に応じて柔軟に動作できる。",
+          "vi": "Ứng dụng desktop và một số ứng dụng Web có chức năng cao là những ví dụ về Rich Client. Một số có thể hoạt động cả online lẫn offline, cho phép vận hành linh hoạt tùy theo tình trạng kết nối mạng."
+        },
+        {
+          "type": "point",
+          "ja": "リッチクライアントは、クライアント側でも多くの処理を行うことで、高い操作性や豊富なユーザーインタフェースを実現する。",
+          "vi": "Rich Client thực hiện nhiều xử lý ở phía client để cung cấp khả năng thao tác cao và giao diện người dùng phong phú."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リッチクライアント",
+          "reading": "りっちくらいあんと",
+          "english": "Rich Client",
+          "vi": "Rich Client",
+          "definitionJa": "クライアント側で多くの処理を行い、豊富なユーザーインタフェースや高い操作性を提供するアプリケーション。",
+          "definitionVi": "Ứng dụng thực hiện nhiều xử lý ở phía client và cung cấp giao diện phong phú cùng khả năng thao tác cao."
+        }
+      ],
+      "tags": ["programming", "web-programming", "rich-client", "client"]
+    },
+    {
+      "id": "ajax",
+      "order": 35,
+      "titleJa": "Ajax",
+      "titleVi": "Ajax",
+      "importance": "high",
+      "summaryJa": "WebブラウザとWebサーバの間で非同期通信を行い、Webページ全体を再読み込みせずに必要な部分だけを更新するAjaxについて理解する。",
+      "summaryVi": "Tìm hiểu Ajax, kỹ thuật giao tiếp bất đồng bộ giữa trình duyệt Web và Web server, cho phép chỉ cập nhật phần cần thiết mà không phải tải lại toàn bộ trang.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Ajaxとは",
+          "vi": "Ajax là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Ajax（Asynchronous JavaScript and XML）とは、WebブラウザとWebサーバの間で非同期通信を行い、Webページ全体を再読み込みすることなく、必要な部分だけを更新するための技術である。",
+          "vi": "Ajax (Asynchronous JavaScript and XML) là kỹ thuật thực hiện giao tiếp bất đồng bộ giữa trình duyệt Web và Web server, cho phép cập nhật riêng phần cần thiết mà không phải tải lại toàn bộ trang Web."
+        },
+        {
+          "type": "heading",
+          "ja": "非同期通信",
+          "vi": "Giao tiếp bất đồng bộ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "非同期通信では、サーバからの応答を待っている間も、ユーザーはWebページ上で別の操作を続けることができる。サーバからデータを受信すると、必要な部分だけを更新できるため、操作性を向上させることができる。",
+          "vi": "Trong giao tiếp bất đồng bộ, người dùng vẫn có thể tiếp tục các thao tác khác trên trang Web trong khi chờ phản hồi từ server. Khi nhận được dữ liệu, chỉ phần cần thiết được cập nhật, nhờ đó cải thiện khả năng thao tác."
+        },
+        {
+          "type": "heading",
+          "ja": "Ajaxの利用例",
+          "vi": "Ví dụ sử dụng Ajax"
+        },
+        {
+          "type": "paragraph",
+          "ja": "チャットアプリケーションや地図サービスなどで利用される。例えば、地図を移動したときにページ全体を読み込み直さず、必要な地図データだけを取得して画面を更新する処理などが代表的な例である。",
+          "vi": "Ajax được sử dụng trong các ứng dụng chat, dịch vụ bản đồ và nhiều ứng dụng Web khác. Ví dụ, khi di chuyển bản đồ, hệ thống chỉ lấy dữ liệu bản đồ cần thiết và cập nhật màn hình thay vì tải lại toàn bộ trang."
+        },
+        {
+          "type": "point",
+          "ja": "Ajaxの重要ポイントは「非同期通信」と「ページ全体を再読み込みせずに必要な部分だけを更新する」ことである。",
+          "vi": "Điểm quan trọng của Ajax là \"giao tiếp bất đồng bộ\" và \"chỉ cập nhật phần cần thiết mà không tải lại toàn bộ trang\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Ajax",
+          "reading": "あじゃっくす、えいじゃっくす",
+          "english": "Asynchronous JavaScript and XML",
+          "vi": "Ajax",
+          "definitionJa": "WebブラウザとWebサーバの間で非同期通信を行い、ページの一部を動的に更新する技術。",
+          "definitionVi": "Kỹ thuật giao tiếp bất đồng bộ giữa trình duyệt và Web server để cập nhật động một phần của trang."
+        }
+      ],
+      "tags": ["programming", "web-programming", "ajax", "asynchronous"]
+    },
+    {
+      "id": "apache",
+      "order": 36,
+      "titleJa": "Apache",
+      "titleVi": "Apache",
+      "importance": "medium",
+      "summaryJa": "Webサイトのコンテンツをクライアントに提供する代表的なオープンソースのWebサーバソフトウェアであるApacheについて理解する。",
+      "summaryVi": "Tìm hiểu Apache, một phần mềm Web server mã nguồn mở tiêu biểu dùng để cung cấp nội dung Web cho client.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Apacheとは",
+          "vi": "Apache là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Apacheは、WebサイトやWebアプリケーションのコンテンツをクライアントに提供するために使用される代表的なWebサーバソフトウェアである。オープンソースとして提供されており、様々な環境で利用されている。",
+          "vi": "Apache là một phần mềm Web server tiêu biểu được sử dụng để cung cấp nội dung của website và ứng dụng Web cho client. Đây là phần mềm mã nguồn mở và được sử dụng trong nhiều môi trường khác nhau."
+        },
+        {
+          "type": "heading",
+          "ja": "Webサーバの役割",
+          "vi": "Vai trò của Web server"
+        },
+        {
+          "type": "paragraph",
+          "ja": "WebブラウザなどのクライアントからHTTPなどによるリクエストを受け取り、要求されたWebページなどのコンテンツを返す。これにより、ユーザーはネットワークを通してWebサイトを閲覧できる。",
+          "vi": "Web server nhận request từ client như trình duyệt Web thông qua HTTP và trả về nội dung được yêu cầu như trang Web. Nhờ đó, người dùng có thể truy cập website thông qua mạng."
+        },
+        {
+          "type": "heading",
+          "ja": "他の技術との連携",
+          "vi": "Kết hợp với các công nghệ khác"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Apacheは、PHPなどのサーバサイド技術やデータベースと組み合わせて利用されることがあり、動的なWebアプリケーションを構築するためのWebサーバとして使用される。",
+          "vi": "Apache có thể được sử dụng kết hợp với các công nghệ server-side như PHP và cơ sở dữ liệu để làm Web server cho các ứng dụng Web động."
+        },
+        {
+          "type": "point",
+          "ja": "Apacheはプログラミング言語ではなく、クライアントからの要求を受けてWebコンテンツを提供するWebサーバソフトウェアである。",
+          "vi": "Apache không phải là ngôn ngữ lập trình mà là phần mềm Web server nhận yêu cầu từ client và cung cấp nội dung Web."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Apache",
+          "reading": "あぱっち",
+          "english": "Apache HTTP Server",
+          "vi": "Apache",
+          "definitionJa": "Webコンテンツをクライアントに提供する代表的なオープンソースのWebサーバソフトウェア。",
+          "definitionVi": "Phần mềm Web server mã nguồn mở tiêu biểu dùng để cung cấp nội dung Web cho client."
+        }
+      ],
+      "tags": ["programming", "web-programming", "apache", "web-server"]
+    },
+    {
+      "id": "front-end-framework",
+      "order": 37,
+      "titleJa": "フロントエンドフレームワーク",
+      "titleVi": "Framework Frontend",
+      "importance": "medium",
+      "summaryJa": "WebサイトやWebアプリケーションのユーザーインタフェースを効率よく構築するためのフロントエンドフレームワークについて理解する。",
+      "summaryVi": "Tìm hiểu framework frontend dùng để xây dựng giao diện người dùng của website và ứng dụng Web một cách hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フロントエンドフレームワークとは",
+          "vi": "Framework Frontend là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フロントエンドフレームワークは、WebサイトやWebアプリケーションのユーザーインタフェースを効率よく構築するためのソフトウェアのひな型である。共通する機能や仕組みを利用することで、開発者は一からすべてを実装する必要がなくなる。",
+          "vi": "Framework frontend là bộ khung phần mềm dùng để xây dựng giao diện người dùng của website và ứng dụng Web một cách hiệu quả. Nhờ sử dụng các chức năng và cơ chế có sẵn, lập trình viên không cần xây dựng mọi thứ từ đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "主な特徴",
+          "vi": "Đặc điểm chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フロントエンドフレームワークを利用すると、画面を部品単位で構築したり、ユーザーの操作に応じて表示内容を動的に変更したりしやすくなる。また、共通の仕組みを利用することで、開発の効率化や保守性の向上にもつながる。",
+          "vi": "Khi sử dụng framework frontend, việc xây dựng giao diện theo từng thành phần và thay đổi nội dung hiển thị động theo thao tác của người dùng trở nên dễ dàng hơn. Việc dùng chung các cơ chế có sẵn cũng giúp tăng hiệu quả phát triển và khả năng bảo trì."
+        },
+        {
+          "type": "heading",
+          "ja": "代表例",
+          "vi": "Ví dụ tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的なフロントエンド技術としてReactやVue.jsなどがある。これらを利用することで、インタラクティブなユーザーインタフェースを効率よく構築できる。",
+          "vi": "Các công nghệ frontend tiêu biểu gồm React và Vue.js. Chúng giúp xây dựng giao diện người dùng có tính tương tác một cách hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "フレームワークは、開発に必要な共通の仕組みを提供する「ひな型」であり、開発効率や保守性の向上に役立つ。",
+          "vi": "Framework là một \"bộ khung\" cung cấp các cơ chế chung cần thiết cho phát triển, giúp tăng hiệu quả phát triển và khả năng bảo trì."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フロントエンドフレームワーク",
+          "reading": "ふろんとえんどふれーむわーく",
+          "english": "Front-End Framework",
+          "vi": "framework frontend",
+          "definitionJa": "Webアプリケーションのユーザーインタフェースを効率よく構築するためのソフトウェアのひな型。",
+          "definitionVi": "Bộ khung phần mềm dùng để xây dựng giao diện người dùng của ứng dụng Web một cách hiệu quả."
+        }
+      ],
+      "tags": ["programming", "web-programming", "frontend", "framework"]
+    }
+  ]
+}

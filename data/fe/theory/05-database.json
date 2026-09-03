@@ -13,7 +13,7 @@
           "id": "database-definition",
           "order": 1,
           "titleJa": "データベースとは",
-          "titleVi": "Database là gì?",
+          "titleVi": "Cơ sở dữ liệu là gì?",
           "importance": "high",
           "summaryJa": "一定の規則で整理されたデータを効率的に扱う仕組みを学びます。",
           "summaryVi": "Tìm hiểu cách quản lý hiệu quả dữ liệu được tổ chức theo các quy tắc nhất định.",
@@ -67,8 +67,8 @@
             },
             {
               "type": "warning",
-              "ja": "同時更新では、処理の順序によって結果が変わらないよう排他制御が必要です。",
-              "vi": "Khi cập nhật đồng thời, cần điều khiển loại trừ để kết quả không thay đổi do thứ tự xử lý."
+              "ja": "同じデータを複数の処理が更新するときは、更新の競合による矛盾を防ぐために排他制御が必要です。",
+              "vi": "Khi nhiều tiến trình cập nhật cùng một dữ liệu, cần điều khiển loại trừ để ngăn xung đột cập nhật gây ra dữ liệu không nhất quán."
             }
           ],
           "terms": [

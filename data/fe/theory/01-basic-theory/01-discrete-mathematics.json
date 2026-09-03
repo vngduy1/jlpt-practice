@@ -406,8 +406,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "情報落ちは、絶対値が大きく異なる浮動小数点数を加減算するとき、小さい方の数の有効桁の一部または全部が表現範囲から押し出され、結果に反映されなくなる現象である。",
-          "vi": "情報落ち xảy ra khi cộng hoặc trừ các số floating-point có trị tuyệt đối chênh lệch rất lớn: một phần hoặc toàn bộ chữ số có nghĩa của số nhỏ bị đẩy ra ngoài phạm vi có thể giữ và không còn ảnh hưởng đến kết quả."
+          "ja": "情報落ちは、絶対値が大きく異なる浮動小数点数を加減算するとき、小さい方の数の有効桁の一部または全部が仮数部で保持できる桁の範囲から押し出され、結果に反映されなくなる現象である。",
+          "vi": "情報落ち xảy ra khi cộng hoặc trừ các số floating-point có trị tuyệt đối chênh lệch rất lớn: một phần hoặc toàn bộ chữ số có nghĩa của số nhỏ bị đẩy ra ngoài phạm vi chữ số mà phần định trị có thể giữ và không còn ảnh hưởng đến kết quả."
         },
         {
           "type": "example",

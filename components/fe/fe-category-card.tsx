@@ -10,7 +10,7 @@ import type { FeCategoryIcon, FeCategorySummary } from "@/types/fe";
 
 const categoryIcons: Record<FeCategoryIcon, LucideIcon> = {
   binary: Binary,
-  workflow: Workflow,
+  algorithm: Workflow,
   database: Database,
 };
 
@@ -19,7 +19,8 @@ interface FeCategoryCardProps {
 }
 
 export function FeCategoryCard({ category }: FeCategoryCardProps) {
-  const Icon = category.icon ? categoryIcons[category.icon] : BookFallback;
+  const Icon =
+    (category.icon ? categoryIcons[category.icon] : undefined) ?? BookFallback;
 
   return (
     // oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment.

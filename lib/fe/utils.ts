@@ -88,3 +88,54 @@ export function getFeLesson(lessonId: string): FeLessonRecord | undefined {
 
   return undefined;
 }
+
+export interface FeLessonNavigationRecord {
+  previous?: FeLessonRecord;
+  next?: FeLessonRecord;
+}
+
+export function getFeLessonNavigation(
+  lessonId: string,
+): FeLessonNavigationRecord {
+  const orderedLessons: FeLessonRecord[] = [];
+
+  const sortedCategories = [...feTheoryCategories].sort(
+    (a, b) => a.order - b.order,
+  );
+
+  for (const category of sortedCategories) {
+    const sortedChapters = [...category.chapters].sort(
+      (a, b) => a.order - b.order,
+    );
+
+    for (const chapter of sortedChapters) {
+      const sortedLessons = [...chapter.lessons].sort(
+        (a, b) => a.order - b.order,
+      );
+
+      for (const lesson of sortedLessons) {
+        orderedLessons.push({
+          category,
+          chapter,
+          lesson,
+        });
+      }
+    }
+  }
+
+  const currentIndex = orderedLessons.findIndex(
+    (record) => record.lesson.id === lessonId,
+  );
+
+  if (currentIndex === -1) {
+    return {};
+  }
+
+  return {
+    previous: currentIndex > 0 ? orderedLessons[currentIndex - 1] : undefined,
+    next:
+      currentIndex < orderedLessons.length - 1
+        ? orderedLessons[currentIndex + 1]
+        : undefined,
+  };
+}

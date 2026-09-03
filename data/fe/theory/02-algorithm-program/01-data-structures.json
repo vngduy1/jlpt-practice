@@ -1,0 +1,894 @@
+{
+  "id": "data-structures",
+  "order": 1,
+  "titleJa": "データ構造",
+  "titleVi": "Cấu trúc dữ liệu",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "lists-and-arrays",
+      "order": 1,
+      "titleJa": "リストと配列の基本",
+      "titleVi": "Cơ bản về List và Array",
+      "importance": "high",
+      "summaryJa": "代表的なデータ構造であるリストと配列の特徴を理解し、線形リストと単方向リストの構造やアクセス方法を学ぶ。特に、配列の添字による直接アクセスと、単方向リストのポインタをたどるアクセスの違いを整理する。",
+      "summaryVi": "Tìm hiểu đặc điểm của List và Array là những cấu trúc dữ liệu cơ bản, đồng thời học cấu trúc và cách truy cập của linear list và singly linked list. Trọng tâm là phân biệt truy cập trực tiếp bằng chỉ số của mảng với việc lần theo liên kết trong danh sách liên kết đơn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リストと配列",
+          "vi": "List và Array"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リストと配列は、複数のデータをまとめて扱うための代表的なデータ構造である。どちらも複数の要素を管理するために利用されるが、データの配置方法や要素へのアクセス方法に違いがある。",
+          "vi": "List và Array là hai cấu trúc dữ liệu tiêu biểu dùng để quản lý nhiều phần tử cùng nhau. Cả hai đều dùng để quản lý tập hợp dữ liệu, nhưng khác nhau về cách bố trí dữ liệu và cách truy cập từng phần tử."
+        },
+        {
+          "type": "heading",
+          "ja": "リスト",
+          "vi": "List"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リストは、複数の要素を一定の順序で管理するデータ構造である。要素の追加、削除、検索などの処理に利用され、具体的な実装方法として連結リストなどがある。",
+          "vi": "List là cấu trúc dữ liệu quản lý nhiều phần tử theo một thứ tự nhất định. Nó được sử dụng cho các thao tác như thêm, xóa và tìm kiếm phần tử; một cách triển khai tiêu biểu là linked list."
+        },
+        {
+          "type": "heading",
+          "ja": "配列",
+          "vi": "Mảng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "配列は、複数の要素を連続した領域に並べ、各要素を添字（インデックス）によって指定できるデータ構造である。要素の位置が分かっていれば、添字を使って目的の要素へ直接アクセスできる。",
+          "vi": "Array là cấu trúc dữ liệu sắp xếp nhiều phần tử trong vùng lưu trữ liên tiếp và xác định từng phần tử bằng chỉ số (index). Nếu biết vị trí của phần tử, có thể truy cập trực tiếp bằng chỉ số."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、配列Aの3番目の要素を参照する場合、添字を指定してその位置の要素を直接取り出すことができる。",
+          "vi": "Ví dụ, khi cần lấy phần tử thứ ba của mảng A, có thể chỉ định index tương ứng để truy cập trực tiếp phần tử ở vị trí đó."
+        },
+        {
+          "type": "heading",
+          "ja": "線形リスト",
+          "vi": "Danh sách tuyến tính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "線形リストは、要素が一列の順序関係をもつリスト構造である。各要素には前後関係があり、先頭から末尾まで一定の順序で要素を並べて扱う。",
+          "vi": "Linear list là cấu trúc danh sách trong đó các phần tử có quan hệ thứ tự theo một chuỗi tuyến tính. Các phần tử có quan hệ trước–sau và được xử lý theo thứ tự từ đầu đến cuối."
+        },
+        {
+          "type": "heading",
+          "ja": "単方向リスト",
+          "vi": "Danh sách liên kết đơn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "単方向リストは、各要素がデータと次の要素への参照（ポインタ）をもち、一方向に要素を連結したリストである。先頭要素から次の要素への参照を順番にたどることで、目的の要素へアクセスする。",
+          "vi": "Singly linked list là danh sách trong đó mỗi phần tử chứa dữ liệu và tham chiếu (pointer) đến phần tử kế tiếp, tạo thành liên kết theo một chiều. Muốn truy cập một phần tử, phải lần lượt đi từ phần tử đầu theo các liên kết tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "単方向リストでは、要素の挿入や削除は参照先を変更することで行える。一方、任意の位置へ配列のように直接アクセスすることはできず、基本的には先頭から順にたどる必要がある。",
+          "vi": "Trong singly linked list, có thể chèn hoặc xóa phần tử bằng cách thay đổi các liên kết. Tuy nhiên không thể truy cập trực tiếp một vị trí tùy ý như Array mà về cơ bản phải lần từ đầu danh sách."
+        },
+        {
+          "type": "warning",
+          "ja": "配列と単方向リストのアクセス方法を混同しない。配列は添字による直接アクセスが可能だが、単方向リストはポインタを先頭から順にたどってアクセスする。",
+          "vi": "Không nhầm cách truy cập của Array và singly linked list. Array cho phép truy cập trực tiếp bằng index, còn singly linked list phải lần theo pointer từ đầu danh sách."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「配列＝添字で直接アクセス」「単方向リスト＝次要素へのポインタをたどる」という対応を覚えるとよい。",
+          "vi": "Trong FE, nên nhớ: “Array = truy cập trực tiếp bằng index”, “singly linked list = lần theo pointer đến phần tử kế tiếp”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスト",
+          "reading": "リスト",
+          "english": "List",
+          "vi": "danh sách",
+          "definitionJa": "複数の要素を一定の順序で管理し、追加、削除、検索などの操作を行うためのデータ構造。",
+          "definitionVi": "Cấu trúc dữ liệu quản lý nhiều phần tử theo một thứ tự nhất định và hỗ trợ các thao tác như thêm, xóa và tìm kiếm."
+        },
+        {
+          "term": "配列",
+          "reading": "はいれつ",
+          "english": "Array",
+          "vi": "mảng",
+          "definitionJa": "複数の要素を並べて保持し、添字を指定することで各要素へ直接アクセスできるデータ構造。",
+          "definitionVi": "Cấu trúc dữ liệu lưu nhiều phần tử theo thứ tự và cho phép truy cập trực tiếp từng phần tử bằng chỉ số."
+        },
+        {
+          "term": "線形リスト",
+          "reading": "せんけいリスト",
+          "english": "Linear List",
+          "vi": "danh sách tuyến tính",
+          "definitionJa": "要素が一列の順序関係をもち、先頭から末尾まで線形に並ぶリスト構造。",
+          "definitionVi": "Cấu trúc danh sách trong đó các phần tử có quan hệ thứ tự tuyến tính từ đầu đến cuối."
+        },
+        {
+          "term": "単方向リスト",
+          "reading": "たんほうこうリスト",
+          "english": "Singly Linked List",
+          "vi": "danh sách liên kết đơn",
+          "definitionJa": "各要素が次の要素への参照をもち、一方向に連結されたリスト構造。",
+          "definitionVi": "Cấu trúc danh sách liên kết trong đó mỗi phần tử giữ tham chiếu đến phần tử kế tiếp theo một chiều."
+        }
+      ],
+      "tags": ["data-structures", "list", "array", "linear-list", "linked-list"]
+    },
+    {
+      "id": "linked-lists-stack-and-queue",
+      "order": 2,
+      "titleJa": "双方向リスト・環状リスト・スタック・キュー",
+      "titleVi": "Danh sách liên kết đôi, danh sách vòng, Stack và Queue",
+      "importance": "high",
+      "summaryJa": "双方向リストと環状リストの構造を理解し、スタックのLIFOとキューのFIFOという基本的なデータ処理方式を学ぶ。それぞれのデータ構造における要素の参照方法や取り出し順序の違いを整理する。",
+      "summaryVi": "Tìm hiểu cấu trúc của danh sách liên kết đôi và danh sách vòng, đồng thời nắm vững hai phương thức xử lý dữ liệu cơ bản: LIFO của Stack và FIFO của Queue. Phân biệt cách liên kết phần tử và thứ tự lấy dữ liệu của từng cấu trúc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "双方向リスト",
+          "vi": "Danh sách liên kết đôi"
+        },
+        {
+          "type": "paragraph",
+          "ja": "双方向リストは、各要素が前の要素と次の要素の両方への参照（ポインタ）をもつリスト構造である。そのため、先頭から末尾へ進むだけでなく、末尾から先頭へ逆方向にたどることもできる。",
+          "vi": "Doubly linked list là cấu trúc danh sách trong đó mỗi phần tử có tham chiếu (pointer) đến cả phần tử trước và phần tử sau. Vì vậy, ngoài việc đi từ đầu đến cuối, còn có thể duyệt ngược từ cuối về đầu."
+        },
+        {
+          "type": "point",
+          "ja": "単方向リストが次の要素への参照だけをもつのに対し、双方向リストは前後両方の要素への参照をもつ。",
+          "vi": "Singly linked list chỉ giữ tham chiếu đến phần tử tiếp theo, trong khi doubly linked list giữ tham chiếu đến cả phần tử trước và phần tử sau."
+        },
+        {
+          "type": "heading",
+          "ja": "環状リスト",
+          "vi": "Danh sách vòng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "環状リストは、最後の要素が最初の要素へ接続され、要素が環状につながったリスト構造である。終端がなく、要素を繰り返し順番に処理する場合に適している。",
+          "vi": "Circular list là cấu trúc danh sách trong đó phần tử cuối được nối với phần tử đầu, tạo thành một vòng khép kín. Do không có điểm kết thúc cố định, cấu trúc này phù hợp với các xử lý cần lặp tuần tự qua các phần tử."
+        },
+        {
+          "type": "example",
+          "ja": "タスクを順番に繰り返し処理するスケジューリングや、曲の最後まで再生した後に最初の曲へ戻る音楽プレイヤーなどに利用できる。",
+          "vi": "Có thể sử dụng cho việc lập lịch xử lý các tác vụ tuần tự lặp lại hoặc trình phát nhạc quay về bài đầu tiên sau khi phát hết bài cuối."
+        },
+        {
+          "type": "heading",
+          "ja": "スタック",
+          "vi": "Stack"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スタックは、最後に格納したデータを最初に取り出すLIFO（Last In First Out：後入れ先出し）方式のデータ構造である。本を積み重ねた場合に、一番上に置いた本から順に取り出すイメージで理解できる。",
+          "vi": "Stack là cấu trúc dữ liệu hoạt động theo nguyên tắc LIFO (Last In First Out – vào sau ra trước). Có thể hình dung như một chồng sách: cuốn được đặt lên trên cùng sau cùng sẽ được lấy ra trước."
+        },
+        {
+          "type": "point",
+          "ja": "スタックへのデータの追加をPUSH、データの取り出しをPOPという。",
+          "vi": "Thao tác thêm dữ liệu vào Stack được gọi là PUSH, còn thao tác lấy dữ liệu ra được gọi là POP."
+        },
+        {
+          "type": "example",
+          "ja": "関数の呼出しや戻り先の管理、処理を直前の状態へ戻すバックトラッキングなどでスタックが利用される。",
+          "vi": "Stack được sử dụng để quản lý lời gọi hàm và địa chỉ quay về, cũng như trong các xử lý backtracking để quay lại trạng thái trước đó."
+        },
+        {
+          "type": "heading",
+          "ja": "キュー",
+          "vi": "Queue"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キューは、最初に格納したデータを最初に取り出すFIFO（First In First Out：先入れ先出し）方式のデータ構造である。先に並んだ人から順番に処理される行列と同じ考え方である。",
+          "vi": "Queue là cấu trúc dữ liệu hoạt động theo nguyên tắc FIFO (First In First Out – vào trước ra trước). Có thể hình dung như một hàng người chờ, người đến trước sẽ được xử lý trước."
+        },
+        {
+          "type": "point",
+          "ja": "キューでは、データを末尾に追加する操作をエンキュー（enqueue）、先頭から取り出す操作をデキュー（dequeue）という。",
+          "vi": "Trong Queue, thao tác thêm dữ liệu vào cuối hàng đợi gọi là enqueue, còn thao tác lấy dữ liệu từ đầu hàng đợi gọi là dequeue."
+        },
+        {
+          "type": "example",
+          "ja": "複数のタスクを到着順に処理する場合や、データの送受信、印刷待ちジョブの管理などにキューが利用される。",
+          "vi": "Queue được sử dụng khi xử lý nhiều tác vụ theo thứ tự đến, truyền nhận dữ liệu hoặc quản lý các job đang chờ in."
+        },
+        {
+          "type": "warning",
+          "ja": "スタックとキューの取り出し順序を混同しない。スタックはLIFO（後入れ先出し）、キューはFIFO（先入れ先出し）である。",
+          "vi": "Không nhầm thứ tự lấy dữ liệu của Stack và Queue. Stack là LIFO (vào sau ra trước), còn Queue là FIFO (vào trước ra trước)."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、「スタック＝LIFO＝PUSH/POP」「キュー＝FIFO＝enqueue/dequeue」の対応が重要である。",
+          "vi": "Trong FE, cần đặc biệt nhớ: “Stack = LIFO = PUSH/POP” và “Queue = FIFO = enqueue/dequeue”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "双方向リスト",
+          "reading": "そうほうこうリスト",
+          "english": "Doubly Linked List",
+          "vi": "danh sách liên kết đôi",
+          "definitionJa": "各要素が前の要素と次の要素の両方への参照をもち、双方向にたどることができるリスト構造。",
+          "definitionVi": "Cấu trúc danh sách trong đó mỗi phần tử có tham chiếu đến cả phần tử trước và phần tử sau, cho phép duyệt theo hai chiều."
+        },
+        {
+          "term": "環状リスト",
+          "reading": "かんじょうリスト",
+          "english": "Circular List",
+          "vi": "danh sách vòng",
+          "definitionJa": "最後の要素が最初の要素に接続され、全体が環状につながったリスト構造。",
+          "definitionVi": "Cấu trúc danh sách trong đó phần tử cuối liên kết với phần tử đầu, tạo thành một vòng khép kín."
+        },
+        {
+          "term": "スタック",
+          "reading": "スタック",
+          "english": "Stack",
+          "vi": "ngăn xếp",
+          "definitionJa": "最後に格納したデータを最初に取り出すLIFO方式のデータ構造。",
+          "definitionVi": "Cấu trúc dữ liệu theo nguyên tắc LIFO, dữ liệu được đưa vào sau cùng sẽ được lấy ra đầu tiên."
+        },
+        {
+          "term": "キュー",
+          "reading": "キュー",
+          "english": "Queue",
+          "vi": "hàng đợi",
+          "definitionJa": "最初に格納したデータを最初に取り出すFIFO方式のデータ構造。",
+          "definitionVi": "Cấu trúc dữ liệu theo nguyên tắc FIFO, dữ liệu được đưa vào đầu tiên sẽ được lấy ra đầu tiên."
+        }
+      ],
+      "tags": [
+        "data-structures",
+        "linked-list",
+        "doubly-linked-list",
+        "circular-list",
+        "stack",
+        "queue",
+        "lifo",
+        "fifo"
+      ]
+    },
+    {
+      "id": "stack-operations-and-tree-structure",
+      "order": 3,
+      "titleJa": "スタック操作と木構造",
+      "titleVi": "Thao tác Stack và cấu trúc cây",
+      "importance": "high",
+      "summaryJa": "スタックにおけるプッシュとポップの基本操作、およびデータを階層的に表現する木構造について理解する。また、rootという用語について確認する。",
+      "summaryVi": "Tìm hiểu hai thao tác cơ bản của Stack là Push và Pop, cùng với cấu trúc cây dùng để biểu diễn dữ liệu theo dạng phân cấp. Đồng thời tìm hiểu thuật ngữ root.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プッシュ",
+          "vi": "Push"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プッシュ（push）は、スタックにデータを追加する操作である。スタックでは新しいデータを一番上に追加し、最後に追加されたデータが最初に取り出される。",
+          "vi": "Push là thao tác thêm dữ liệu vào Stack. Dữ liệu mới được thêm vào đỉnh Stack và dữ liệu được thêm sau cùng sẽ được lấy ra đầu tiên."
+        },
+        {
+          "type": "heading",
+          "ja": "ポップ",
+          "vi": "Pop"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ポップ（pop）は、スタックの最上部にあるデータを取り出す操作である。プッシュによって追加されたデータは、追加された順序とは逆の順序でポップされる。",
+          "vi": "Pop là thao tác lấy dữ liệu ở đỉnh Stack ra. Dữ liệu được thêm bằng Push sẽ được Pop theo thứ tự ngược với thứ tự đã thêm."
+        },
+        {
+          "type": "example",
+          "ja": "A、B、Cの順にプッシュした場合、ポップするとC、B、Aの順に取り出される。",
+          "vi": "Nếu Push lần lượt A, B, C thì khi Pop, dữ liệu sẽ được lấy ra theo thứ tự C, B, A."
+        },
+        {
+          "type": "point",
+          "ja": "スタックでは、データを追加する操作がプッシュ、最上部のデータを取り出す操作がポップである。",
+          "vi": "Trong Stack, thao tác thêm dữ liệu là Push và thao tác lấy dữ liệu trên đỉnh ra là Pop."
+        },
+        {
+          "type": "heading",
+          "ja": "木構造",
+          "vi": "Cấu trúc cây"
+        },
+        {
+          "type": "paragraph",
+          "ja": "木構造は、データを階層的に整理するためのデータ構造である。親子関係をもつノード（節）から構成され、根と呼ばれる頂点から枝分かれする形をとる。",
+          "vi": "Cấu trúc cây là cấu trúc dữ liệu dùng để tổ chức dữ liệu theo dạng phân cấp. Nó gồm các node có quan hệ cha-con và phân nhánh từ đỉnh được gọi là root."
+        },
+        {
+          "type": "example",
+          "ja": "組織図やファイルシステムなどは、木構造で表現できる代表的な例である。",
+          "vi": "Sơ đồ tổ chức và hệ thống tệp là những ví dụ tiêu biểu có thể được biểu diễn bằng cấu trúc cây."
+        },
+        {
+          "type": "point",
+          "ja": "木構造には、二分木や平衡木などの種類があり、データの検索、挿入、削除などに利用される。",
+          "vi": "Cấu trúc cây có các loại như cây nhị phân và cây cân bằng, được sử dụng trong tìm kiếm, chèn và xóa dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "根",
+          "vi": "Root"
+        },
+        {
+          "type": "paragraph",
+          "ja": "木構造における根（root）は、親ノードを持たない最上位のノードであり、木の走査を始める基点となる。根以外の各ノードは、親ノードを一つ持つ。",
+          "vi": "Trong cấu trúc cây, gốc (root) là node cao nhất không có node cha và là điểm bắt đầu khi duyệt cây. Mỗi node khác gốc có một node cha."
+        },
+        {
+          "type": "warning",
+          "ja": "木構造の根（root node）と、LinuxやUnix系システムの最高権限アカウントであるrootは、同じ語を使うが別の概念である。",
+          "vi": "Root node trong cấu trúc cây và tài khoản root có quyền cao nhất trong Linux/Unix dùng cùng một từ nhưng là hai khái niệm khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、スタックについて「PUSH＝追加」「POP＝取り出し」「LIFO＝後入れ先出し」の関係を確実に覚える。",
+          "vi": "Trong FE, cần nhớ chắc quan hệ: “PUSH = thêm”, “POP = lấy ra”, “LIFO = vào sau ra trước”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プッシュ",
+          "reading": "プッシュ",
+          "english": "Push",
+          "vi": "thao tác Push",
+          "definitionJa": "スタックにデータを追加する操作。",
+          "definitionVi": "Thao tác thêm dữ liệu vào Stack."
+        },
+        {
+          "term": "ポップ",
+          "reading": "ポップ",
+          "english": "Pop",
+          "vi": "thao tác Pop",
+          "definitionJa": "スタックの最上部にあるデータを取り出す操作。",
+          "definitionVi": "Thao tác lấy dữ liệu ở đỉnh Stack ra."
+        },
+        {
+          "term": "木構造",
+          "reading": "きこうぞう",
+          "english": "Tree Structure",
+          "vi": "cấu trúc cây",
+          "definitionJa": "親子関係をもつノードを用いて、データを階層的に表現するデータ構造。",
+          "definitionVi": "Cấu trúc dữ liệu biểu diễn dữ liệu theo dạng phân cấp bằng các node có quan hệ cha-con."
+        },
+        {
+          "term": "根",
+          "reading": "ね",
+          "english": "Root",
+          "vi": "root",
+          "definitionJa": "木構造において親ノードを持たない最上位のノード。",
+          "definitionVi": "Node cao nhất trong cấu trúc cây, không có node cha."
+        }
+      ],
+      "tags": ["data-structures", "stack", "push", "pop", "tree", "root"]
+    },
+    {
+      "id": "tree-nodes-and-binary-trees",
+      "order": 4,
+      "titleJa": "葉・枝と2分木",
+      "titleVi": "Lá, nhánh và cây nhị phân",
+      "importance": "high",
+      "summaryJa": "木構造を構成する葉と枝の役割、および各ノードが最大2つの子ノードを持つ2分木と完全2分木の特徴を理解する。",
+      "summaryVi": "Tìm hiểu vai trò của lá và nhánh trong cấu trúc cây, đồng thời nắm được đặc điểm của cây nhị phân và cây nhị phân hoàn chỉnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "葉",
+          "vi": "Lá"
+        },
+        {
+          "type": "paragraph",
+          "ja": "葉（leaf）は、木構造において子ノードを持たない終端ノードである。木構造ではデータを階層的に扱い、葉はそれぞれの経路の終端として機能する。",
+          "vi": "Lá (leaf) là node cuối trong cấu trúc cây và không có node con. Trong cấu trúc cây phân cấp, mỗi lá là điểm kết thúc của một đường đi."
+        },
+        {
+          "type": "example",
+          "ja": "ファイルシステムを木構造で表した場合、ディレクトリを親ノード、各ファイルを葉として考えることができる。",
+          "vi": "Khi biểu diễn hệ thống tệp bằng cấu trúc cây, có thể xem thư mục là node cha và các tệp là lá."
+        },
+        {
+          "type": "point",
+          "ja": "葉は子ノードを持たない終端ノードである。",
+          "vi": "Lá là node cuối và không có node con."
+        },
+        {
+          "type": "heading",
+          "ja": "枝",
+          "vi": "Nhánh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "枝（branch）は、木構造においてノード同士を結ぶ部分を指す。親ノードと子ノードの関係や、木構造内の経路を表すために用いられる。",
+          "vi": "Nhánh (branch) là phần nối các node với nhau trong cấu trúc cây. Nó được dùng để biểu diễn quan hệ giữa node cha và node con cũng như đường đi trong cây."
+        },
+        {
+          "type": "point",
+          "ja": "木構造では、ノードがデータや要素を表し、枝がノード間の関係を表す。",
+          "vi": "Trong cấu trúc cây, node biểu diễn dữ liệu hoặc phần tử, còn nhánh biểu diễn mối quan hệ giữa các node."
+        },
+        {
+          "type": "heading",
+          "ja": "2分木",
+          "vi": "Cây nhị phân"
+        },
+        {
+          "type": "paragraph",
+          "ja": "2分木（binary tree）は、各ノードが最大2つの子ノードを持つ木構造である。各ノードはデータを保持し、親ノードと子ノードの関係によって階層的な構造を形成する。",
+          "vi": "Cây nhị phân (binary tree) là cấu trúc cây mà mỗi node có tối đa hai node con. Mỗi node giữ dữ liệu và tạo thành cấu trúc phân cấp thông qua quan hệ cha-con."
+        },
+        {
+          "type": "paragraph",
+          "ja": "2分木は、データを効率的に格納したり検索したりするために、さまざまなアルゴリズムで利用される。",
+          "vi": "Cây nhị phân được sử dụng trong nhiều thuật toán nhằm lưu trữ và tìm kiếm dữ liệu hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "2分木では、一つのノードが持つことのできる子ノードは最大2つである。",
+          "vi": "Trong cây nhị phân, một node có thể có tối đa 2 node con."
+        },
+        {
+          "type": "heading",
+          "ja": "完全2分木",
+          "vi": "Cây nhị phân hoàn chỉnh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "完全2分木（complete binary tree）は、最後のレベルを除くすべてのレベルがノードで満たされ、最後のレベルではノードが左側から順に配置される2分木である。",
+          "vi": "Cây nhị phân hoàn chỉnh (complete binary tree) là cây nhị phân mà tất cả các tầng trừ tầng cuối đều được lấp đầy, còn các node ở tầng cuối được bố trí lần lượt từ bên trái."
+        },
+        {
+          "type": "point",
+          "ja": "完全2分木はヒープなどのデータ構造で利用される重要な木構造である。",
+          "vi": "Cây nhị phân hoàn chỉnh là cấu trúc cây quan trọng được sử dụng trong các cấu trúc dữ liệu như heap."
+        }
+      ],
+      "terms": [
+        {
+          "term": "葉",
+          "reading": "は",
+          "english": "Leaf",
+          "vi": "lá",
+          "definitionJa": "木構造において子ノードを持たない終端のノード。",
+          "definitionVi": "Node cuối trong cấu trúc cây, không có node con."
+        },
+        {
+          "term": "枝",
+          "reading": "えだ",
+          "english": "Branch",
+          "vi": "nhánh",
+          "definitionJa": "木構造においてノード同士を結び、その関係や経路を表す部分。",
+          "definitionVi": "Phần nối các node trong cấu trúc cây, biểu diễn quan hệ hoặc đường đi giữa chúng."
+        },
+        {
+          "term": "2分木",
+          "reading": "にぶんき",
+          "english": "Binary Tree",
+          "vi": "cây nhị phân",
+          "definitionJa": "各ノードが最大2つの子ノードを持つ木構造。",
+          "definitionVi": "Cấu trúc cây mà mỗi node có tối đa hai node con."
+        },
+        {
+          "term": "完全2分木",
+          "reading": "かんぜんにぶんぎ",
+          "english": "Complete Binary Tree",
+          "vi": "cây nhị phân hoàn chỉnh",
+          "definitionJa": "最後のレベルを除いて各レベルが満たされ、最後のレベルのノードが左側から配置される2分木。",
+          "definitionVi": "Cây nhị phân có các tầng ngoài tầng cuối được lấp đầy và các node ở tầng cuối được bố trí từ trái sang phải."
+        }
+      ],
+      "tags": [
+        "data-structures",
+        "tree",
+        "leaf",
+        "branch",
+        "binary-tree",
+        "complete-binary-tree"
+      ]
+    },
+    {
+      "id": "tree-types",
+      "order": 5,
+      "titleJa": "バランス木・順序木・多分木・探索木",
+      "titleVi": "Cây cân bằng, cây có thứ tự, cây đa nhánh và cây tìm kiếm",
+      "importance": "high",
+      "summaryJa": "木構造の代表的な種類であるバランス木、順序木、多分木、探索木について、それぞれの構造と用途の違いを理解する。",
+      "summaryVi": "Tìm hiểu các loại cấu trúc cây tiêu biểu gồm cây cân bằng, cây có thứ tự, cây đa nhánh và cây tìm kiếm, đồng thời phân biệt cấu trúc và mục đích sử dụng của chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バランス木",
+          "vi": "Cây cân bằng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バランス木（balanced tree）は、木の高さが極端に偏らないように一定の条件を保つ木構造である。主に二分探索木で用いられ、木の高さを抑えることで、データの検索、挿入、削除を効率よく行うことができる。",
+          "vi": "Cây cân bằng (balanced tree) là cấu trúc cây duy trì các điều kiện nhất định để chiều cao của cây không bị lệch quá mức. Nó thường được sử dụng với cây tìm kiếm nhị phân và giúp thực hiện tìm kiếm, chèn và xóa dữ liệu hiệu quả bằng cách hạn chế chiều cao của cây."
+        },
+        {
+          "type": "example",
+          "ja": "AVL木や赤黒木は代表的なバランス木であり、データの挿入や削除によって木が偏った場合に構造を調整する。",
+          "vi": "Cây AVL và cây đỏ-đen là những cây cân bằng tiêu biểu. Khi việc chèn hoặc xóa dữ liệu làm cây bị lệch, cấu trúc của cây sẽ được điều chỉnh."
+        },
+        {
+          "type": "point",
+          "ja": "バランス木は木の高さを抑えることで、検索・挿入・削除の効率低下を防ぐ。",
+          "vi": "Cây cân bằng hạn chế chiều cao của cây để tránh làm giảm hiệu suất tìm kiếm, chèn và xóa."
+        },
+        {
+          "type": "heading",
+          "ja": "順序木",
+          "vi": "Cây có thứ tự"
+        },
+        {
+          "type": "paragraph",
+          "ja": "順序木（ordered tree）は、各ノードの子ノードに順序が定められている木構造である。通常の木では子ノードの並び順を区別しない場合があるが、順序木では子ノードの位置や順番に意味がある。",
+          "vi": "Cây có thứ tự (ordered tree) là cấu trúc cây trong đó thứ tự của các node con được xác định. Trong cây thông thường có thể không phân biệt thứ tự các node con, nhưng trong cây có thứ tự, vị trí và thứ tự của chúng có ý nghĩa."
+        },
+        {
+          "type": "example",
+          "ja": "HTMLのDOMツリーでは、要素の並び順が文書の構造や表示に影響するため、子ノードの順序が重要になる。",
+          "vi": "Trong cây DOM của HTML, thứ tự các phần tử ảnh hưởng đến cấu trúc và cách hiển thị tài liệu, vì vậy thứ tự của các node con rất quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "順序木では、同じ子ノードを持っていても、その並び順が異なれば異なる木として扱われる。",
+          "vi": "Trong cây có thứ tự, ngay cả khi có cùng các node con, nếu thứ tự của chúng khác nhau thì cây cũng được xem là khác nhau."
+        },
+        {
+          "type": "heading",
+          "ja": "多分木",
+          "vi": "Cây đa nhánh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多分木（N-ary tree）は、一つのノードが複数の子ノードを持つことができる木構造である。二分木では一つのノードが持てる子ノードは最大2つであるが、多分木ではより多くの子ノードを持つことができる。",
+          "vi": "Cây đa nhánh (N-ary tree) là cấu trúc cây trong đó một node có thể có nhiều node con. Trong khi cây nhị phân giới hạn tối đa hai node con cho mỗi node, cây đa nhánh có thể có nhiều node con hơn."
+        },
+        {
+          "type": "example",
+          "ja": "ファイルシステムのディレクトリ構造では、一つのディレクトリの下に複数のファイルやサブディレクトリを配置できるため、多分木として表現できる。",
+          "vi": "Trong cấu trúc thư mục của hệ thống tệp, một thư mục có thể chứa nhiều tệp và thư mục con, vì vậy có thể biểu diễn bằng cây đa nhánh."
+        },
+        {
+          "type": "point",
+          "ja": "二分木は子ノードが最大2つであるのに対し、多分木では一つのノードが複数の子ノードを持つことができる。",
+          "vi": "Cây nhị phân có tối đa 2 node con, trong khi cây đa nhánh cho phép một node có nhiều node con."
+        },
+        {
+          "type": "heading",
+          "ja": "探索木",
+          "vi": "Cây tìm kiếm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "探索木（search tree）は、データを効率よく探索できるように、一定の規則に従ってデータを配置する木構造である。代表例である二分探索木では、各ノードについて、左部分木にはそのノードより小さい値、右部分木にはそのノードより大きい値を配置する。",
+          "vi": "Cây tìm kiếm (search tree) là cấu trúc cây sắp xếp dữ liệu theo một quy tắc nhất định để có thể tìm kiếm hiệu quả. Trong cây tìm kiếm nhị phân tiêu biểu, các giá trị nhỏ hơn một node được đặt ở cây con bên trái và các giá trị lớn hơn được đặt ở cây con bên phải."
+        },
+        {
+          "type": "point",
+          "ja": "探索木では、データを一定の規則で配置することで、目的のデータを効率よく探索できる。",
+          "vi": "Trong cây tìm kiếm, dữ liệu được bố trí theo quy tắc nhất định để có thể tìm kiếm dữ liệu cần thiết một cách hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バランス木",
+          "reading": "ばらんすき",
+          "english": "Balanced Tree",
+          "vi": "cây cân bằng",
+          "definitionJa": "木の高さが極端に偏らないように構造を保つ木。",
+          "definitionVi": "Cây duy trì cấu trúc để chiều cao không bị lệch quá mức."
+        },
+        {
+          "term": "順序木",
+          "reading": "じゅんじょぎ",
+          "english": "Ordered Tree",
+          "vi": "cây có thứ tự",
+          "definitionJa": "各ノードの子ノードの順序が定められている木。",
+          "definitionVi": "Cây trong đó thứ tự của các node con được xác định."
+        },
+        {
+          "term": "多分木",
+          "reading": "たぶんき",
+          "english": "N-ary Tree",
+          "vi": "cây đa nhánh",
+          "definitionJa": "一つのノードが複数の子ノードを持つことができる木。",
+          "definitionVi": "Cây trong đó một node có thể có nhiều node con."
+        },
+        {
+          "term": "探索木",
+          "reading": "たんさくぎ",
+          "english": "Search Tree",
+          "vi": "cây tìm kiếm",
+          "definitionJa": "データを効率よく探索できるように一定の規則でデータを配置した木。",
+          "definitionVi": "Cây bố trí dữ liệu theo quy tắc nhất định để tìm kiếm hiệu quả."
+        }
+      ],
+      "tags": [
+        "data-structures",
+        "tree",
+        "balanced-tree",
+        "ordered-tree",
+        "n-ary-tree",
+        "search-tree"
+      ]
+    },
+    {
+      "id": "search-trees-and-depth-first-search",
+      "order": 6,
+      "titleJa": "2分探索木・B木・AVL木・深さ優先探索",
+      "titleVi": "Cây tìm kiếm nhị phân, cây B, cây AVL và tìm kiếm theo chiều sâu",
+      "importance": "high",
+      "summaryJa": "探索に用いられる代表的な木構造である2分探索木、B木、AVL木と、木やグラフを探索する基本手法である深さ優先探索について理解する。",
+      "summaryVi": "Tìm hiểu cây tìm kiếm nhị phân, cây B và cây AVL là những cấu trúc cây tiêu biểu dùng cho tìm kiếm, cùng với tìm kiếm theo chiều sâu là một phương pháp cơ bản để duyệt cây và đồ thị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "2分探索木",
+          "vi": "Cây tìm kiếm nhị phân"
+        },
+        {
+          "type": "paragraph",
+          "ja": "2分探索木（Binary Search Tree）は、各ノードについて、左部分木にそのノードより小さいキー、右部分木にそのノードより大きいキーを配置する木構造である。この規則を利用することで、目的のキーとノードのキーを比較しながら探索範囲を絞り込むことができる。",
+          "vi": "Cây tìm kiếm nhị phân (Binary Search Tree) là cấu trúc cây trong đó, đối với mỗi node, các khóa nhỏ hơn node đó được đặt ở cây con bên trái và các khóa lớn hơn được đặt ở cây con bên phải. Nhờ quy tắc này, có thể thu hẹp phạm vi tìm kiếm bằng cách so sánh khóa cần tìm với khóa của từng node."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、キー50を持つノードに対して30を探索する場合、30は50より小さいため左部分木を探索する。この比較を繰り返して目的のデータを探す。",
+          "vi": "Ví dụ, khi tìm khóa 30 tại node có khóa 50, vì 30 nhỏ hơn 50 nên tiếp tục tìm trong cây con bên trái. Quá trình so sánh này được lặp lại cho đến khi tìm thấy dữ liệu cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "2分探索木の探索時間は、木が適切に分散していれば平均的にO(log n)であるが、木が一方向に偏ると最悪の場合O(n)になる。",
+          "vi": "Thời gian tìm kiếm của cây tìm kiếm nhị phân trung bình là O(log n) nếu cây được phân bố hợp lý, nhưng nếu cây bị lệch về một phía thì trường hợp xấu nhất có thể là O(n)."
+        },
+        {
+          "type": "heading",
+          "ja": "B木",
+          "vi": "Cây B"
+        },
+        {
+          "type": "paragraph",
+          "ja": "B木（B-tree）は、一つのノードに複数のキーと複数の子ノードを持たせることができる平衡多分木である。木の高さを低く保ちながら大量のデータを管理できるため、外部記憶装置へのアクセス回数を減らすことができる。",
+          "vi": "Cây B (B-tree) là một cây đa nhánh cân bằng, trong đó một node có thể chứa nhiều khóa và có nhiều node con. Do có thể quản lý lượng lớn dữ liệu trong khi giữ chiều cao của cây thấp, nó giúp giảm số lần truy cập vào bộ nhớ ngoài."
+        },
+        {
+          "type": "example",
+          "ja": "B木はデータベースのインデックスやファイルシステムなど、大量のデータを扱う場面で利用される。",
+          "vi": "Cây B được sử dụng trong các trường hợp xử lý lượng dữ liệu lớn, chẳng hạn như chỉ mục của cơ sở dữ liệu và hệ thống tệp."
+        },
+        {
+          "type": "point",
+          "ja": "B木は一つのノードに複数のキーを格納できる平衡多分木であり、ディスクなどの外部記憶装置を利用するシステムに適している。",
+          "vi": "Cây B là cây đa nhánh cân bằng có thể lưu nhiều khóa trong một node và phù hợp với các hệ thống sử dụng bộ nhớ ngoài như đĩa."
+        },
+        {
+          "type": "heading",
+          "ja": "AVL木",
+          "vi": "Cây AVL"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AVL木（AVL Tree）は、左右の部分木の高さの差が1以下になるように保たれる平衡2分探索木である。データの挿入や削除によってバランスが崩れた場合は、回転操作によって木の構造を調整する。",
+          "vi": "Cây AVL (AVL Tree) là một cây tìm kiếm nhị phân cân bằng, trong đó chênh lệch chiều cao giữa cây con bên trái và bên phải được giữ không quá 1. Khi việc chèn hoặc xóa dữ liệu làm mất cân bằng, cấu trúc cây được điều chỉnh bằng phép xoay."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、ノードを追加した結果、一方の部分木だけが深くなった場合、単回転や二重回転を行って木の高さのバランスを回復する。",
+          "vi": "Ví dụ, nếu sau khi thêm một node mà chỉ một phía của cây trở nên quá sâu, phép xoay đơn hoặc xoay kép được thực hiện để khôi phục sự cân bằng về chiều cao."
+        },
+        {
+          "type": "point",
+          "ja": "AVL木では木の高さがO(log n)に保たれるため、探索を最悪の場合でもO(log n)で行うことができる。",
+          "vi": "Do chiều cao của cây AVL được duy trì ở O(log n), việc tìm kiếm có thể được thực hiện trong O(log n) ngay cả trong trường hợp xấu nhất."
+        },
+        {
+          "type": "heading",
+          "ja": "深さ優先探索",
+          "vi": "Tìm kiếm theo chiều sâu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "深さ優先探索（Depth-First Search：DFS）は、木やグラフを探索する際に、一つの経路を可能な限り深く進み、行き止まりになったら直前の分岐点まで戻って別の経路を探索する方法である。",
+          "vi": "Tìm kiếm theo chiều sâu (Depth-First Search: DFS) là phương pháp duyệt cây hoặc đồ thị bằng cách đi sâu nhất có thể theo một đường đi, sau đó khi gặp ngõ cụt thì quay lại điểm phân nhánh trước đó để tiếp tục duyệt đường khác."
+        },
+        {
+          "type": "example",
+          "ja": "迷路を探索する場合、一つの道を行けるところまで進み、行き止まりになったら戻って別の道を試す方法は、深さ優先探索の考え方に相当する。",
+          "vi": "Khi tìm đường trong mê cung, việc đi theo một con đường đến khi không thể đi tiếp, sau đó quay lại và thử đường khác chính là cách suy nghĩ của tìm kiếm theo chiều sâu."
+        },
+        {
+          "type": "point",
+          "ja": "深さ優先探索はスタックを利用して実現できる。再帰呼出しを用いる場合も、内部ではコールスタックが利用される。",
+          "vi": "Tìm kiếm theo chiều sâu có thể được thực hiện bằng stack. Khi sử dụng lời gọi đệ quy, call stack cũng được sử dụng ở bên trong."
+        }
+      ],
+      "terms": [
+        {
+          "term": "2分探索木",
+          "reading": "にぶんたんさくぎ",
+          "english": "Binary Search Tree",
+          "vi": "cây tìm kiếm nhị phân",
+          "definitionJa": "左部分木に小さいキー、右部分木に大きいキーを配置する2分木。",
+          "definitionVi": "Cây nhị phân đặt các khóa nhỏ hơn ở cây con trái và các khóa lớn hơn ở cây con phải."
+        },
+        {
+          "term": "B木",
+          "reading": "びーき",
+          "english": "B-tree",
+          "vi": "cây B",
+          "definitionJa": "一つのノードに複数のキーと子ノードを持つことができる平衡多分木。",
+          "definitionVi": "Cây đa nhánh cân bằng trong đó một node có thể chứa nhiều khóa và nhiều node con."
+        },
+        {
+          "term": "AVL木",
+          "reading": "えーぶいえるき",
+          "english": "AVL Tree",
+          "vi": "cây AVL",
+          "definitionJa": "左右の部分木の高さの差を1以下に保つ平衡2分探索木。",
+          "definitionVi": "Cây tìm kiếm nhị phân cân bằng giữ chênh lệch chiều cao giữa hai cây con không quá 1."
+        },
+        {
+          "term": "深さ優先探索",
+          "reading": "ふかさゆうせんたんさく",
+          "english": "Depth-First Search",
+          "vi": "tìm kiếm theo chiều sâu",
+          "definitionJa": "一つの経路を可能な限り深く探索し、行き止まりになると戻って別の経路を探索する方法。",
+          "definitionVi": "Phương pháp đi sâu nhất có thể theo một đường đi rồi quay lại để duyệt đường khác khi gặp ngõ cụt."
+        }
+      ],
+      "tags": [
+        "data-structures",
+        "binary-search-tree",
+        "b-tree",
+        "avl-tree",
+        "depth-first-search",
+        "tree-search"
+      ]
+    },
+    {
+      "id": "tree-traversal-and-breadth-first-search",
+      "order": 7,
+      "titleJa": "幅優先探索と木の走査",
+      "titleVi": "Tìm kiếm theo chiều rộng và duyệt cây",
+      "importance": "high",
+      "summaryJa": "幅優先探索の仕組みと、木構造を走査する代表的な方法である先行順・中間順・後行順について理解する。",
+      "summaryVi": "Tìm hiểu cơ chế của tìm kiếm theo chiều rộng và ba phương pháp duyệt cây tiêu biểu: thứ tự trước, thứ tự giữa và thứ tự sau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "幅優先探索",
+          "vi": "Tìm kiếm theo chiều rộng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "幅優先探索（Breadth-First Search：BFS）は、木やグラフを探索する際に、現在のノードに隣接するノードを先に調べ、その後で次の階層へ進む探索方法である。探索予定のノードをキューに格納し、先に追加されたノードから順番に処理する。",
+          "vi": "Tìm kiếm theo chiều rộng (Breadth-First Search: BFS) là phương pháp duyệt cây hoặc đồ thị bằng cách kiểm tra trước các node liền kề với node hiện tại, sau đó mới chuyển sang tầng tiếp theo. Các node chờ được duyệt được lưu trong queue và xử lý theo thứ tự được thêm vào."
+        },
+        {
+          "type": "example",
+          "ja": "重みのないグラフで二つのノード間の最短経路を求める場合、幅優先探索を利用することで、始点から近いノードから順番に探索できる。",
+          "vi": "Khi tìm đường đi ngắn nhất giữa hai node trong đồ thị không có trọng số, BFS cho phép duyệt lần lượt từ những node gần điểm bắt đầu nhất."
+        },
+        {
+          "type": "point",
+          "ja": "幅優先探索はキュー（FIFO）を利用する。深さ優先探索がスタックを利用することとの違いを覚える。",
+          "vi": "BFS sử dụng queue (FIFO). Cần phân biệt với DFS sử dụng stack."
+        },
+        {
+          "type": "heading",
+          "ja": "先行順",
+          "vi": "Duyệt thứ tự trước"
+        },
+        {
+          "type": "paragraph",
+          "ja": "先行順（Preorder Traversal）は、2分木を「根 → 左部分木 → 右部分木」の順に走査する方法である。各部分木についても同じ順序を再帰的に適用する。",
+          "vi": "Duyệt thứ tự trước (Preorder Traversal) là phương pháp duyệt cây nhị phân theo thứ tự \"gốc → cây con trái → cây con phải\". Quy tắc tương tự được áp dụng đệ quy cho từng cây con."
+        },
+        {
+          "type": "example",
+          "ja": "根がA、左の子がB、右の子がCの場合、先行順では A → B → C の順に訪問する。",
+          "vi": "Nếu A là node gốc, B là node con trái và C là node con phải, thứ tự duyệt trước là A → B → C."
+        },
+        {
+          "type": "point",
+          "ja": "先行順：根 → 左 → 右。",
+          "vi": "Preorder: Gốc → Trái → Phải."
+        },
+        {
+          "type": "heading",
+          "ja": "中間順",
+          "vi": "Duyệt thứ tự giữa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "中間順（Inorder Traversal）は、2分木を「左部分木 → 根 → 右部分木」の順に走査する方法である。2分探索木を中間順で走査すると、キーを昇順に取り出すことができる。",
+          "vi": "Duyệt thứ tự giữa (Inorder Traversal) là phương pháp duyệt cây nhị phân theo thứ tự \"cây con trái → gốc → cây con phải\". Khi duyệt cây tìm kiếm nhị phân theo thứ tự giữa, có thể lấy các khóa theo thứ tự tăng dần."
+        },
+        {
+          "type": "example",
+          "ja": "根がB、左の子がA、右の子がCの場合、中間順では A → B → C の順に訪問する。",
+          "vi": "Nếu B là node gốc, A là node con trái và C là node con phải, thứ tự duyệt giữa là A → B → C."
+        },
+        {
+          "type": "point",
+          "ja": "中間順：左 → 根 → 右。2分探索木では昇順にデータを取り出せる。",
+          "vi": "Inorder: Trái → Gốc → Phải. Với cây tìm kiếm nhị phân, kết quả được lấy theo thứ tự tăng dần."
+        },
+        {
+          "type": "heading",
+          "ja": "後行順",
+          "vi": "Duyệt thứ tự sau"
+        },
+        {
+          "type": "paragraph",
+          "ja": "後行順（Postorder Traversal）は、2分木を「左部分木 → 右部分木 → 根」の順に走査する方法である。子ノードを先に処理してから親ノードを処理する。",
+          "vi": "Duyệt thứ tự sau (Postorder Traversal) là phương pháp duyệt cây nhị phân theo thứ tự \"cây con trái → cây con phải → gốc\". Các node con được xử lý trước node cha."
+        },
+        {
+          "type": "example",
+          "ja": "根がA、左の子がB、右の子がCの場合、後行順では B → C → A の順に訪問する。",
+          "vi": "Nếu A là node gốc, B là node con trái và C là node con phải, thứ tự duyệt sau là B → C → A."
+        },
+        {
+          "type": "point",
+          "ja": "後行順：左 → 右 → 根。数式を構文木で表した場合、後行順で走査すると逆ポーランド記法（後置記法）に対応する。",
+          "vi": "Postorder: Trái → Phải → Gốc. Khi biểu diễn biểu thức bằng cây cú pháp, duyệt postorder tương ứng với ký pháp hậu tố (Reverse Polish Notation)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "幅優先探索",
+          "reading": "はばゆうせんたんさく",
+          "english": "Breadth-First Search",
+          "vi": "tìm kiếm theo chiều rộng",
+          "definitionJa": "開始ノードに近いノードから、階層ごとに順番に探索する方法。",
+          "definitionVi": "Phương pháp tìm kiếm lần lượt theo từng tầng, bắt đầu từ các node gần node xuất phát."
+        },
+        {
+          "term": "先行順",
+          "reading": "せんこうじゅん",
+          "english": "Preorder Traversal",
+          "vi": "duyệt thứ tự trước",
+          "definitionJa": "根、左部分木、右部分木の順に木を走査する方法。",
+          "definitionVi": "Phương pháp duyệt cây theo thứ tự gốc, trái, phải."
+        },
+        {
+          "term": "中間順",
+          "reading": "ちゅうかんじゅん",
+          "english": "Inorder Traversal",
+          "vi": "duyệt thứ tự giữa",
+          "definitionJa": "左部分木、根、右部分木の順に木を走査する方法。",
+          "definitionVi": "Phương pháp duyệt cây theo thứ tự trái, gốc, phải."
+        },
+        {
+          "term": "後行順",
+          "reading": "こうこうじゅん",
+          "english": "Postorder Traversal",
+          "vi": "duyệt thứ tự sau",
+          "definitionJa": "左部分木、右部分木、根の順に木を走査する方法。",
+          "definitionVi": "Phương pháp duyệt cây theo thứ tự trái, phải, gốc."
+        }
+      ],
+      "tags": [
+        "data-structures",
+        "breadth-first-search",
+        "bfs",
+        "tree-traversal",
+        "preorder",
+        "inorder",
+        "postorder"
+      ]
+    }
+  ]
+}

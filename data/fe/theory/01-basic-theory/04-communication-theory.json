@@ -1,0 +1,715 @@
+{
+  "id": "communication-theory",
+  "order": 4,
+  "titleJa": "通信に関する理論",
+  "titleVi": "Lý thuyết về truyền thông",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "communication-direction",
+      "order": 1,
+      "titleJa": "通信方向と通信方式",
+      "titleVi": "Hướng truyền và phương thức truyền thông",
+      "importance": "high",
+      "summaryJa": "データ通信における情報の流れる方向について、単方向と半二重の違いを理解する。単方向は一方向にだけ情報を送る方式であり、半二重は双方向に通信できるが、同時には送受信できない方式である。",
+      "summaryVi": "Tìm hiểu hướng truyền thông tin trong truyền dữ liệu và phân biệt 単方向 với 半二重. 単方向 chỉ cho phép truyền thông tin theo một hướng, còn 半二重 cho phép truyền theo cả hai hướng nhưng không thể gửi và nhận đồng thời.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "単方向",
+          "vi": "Truyền một chiều"
+        },
+        {
+          "type": "paragraph",
+          "ja": "単方向は、情報を一方向にだけ送る通信方式である。送信側と受信側の役割が決まっており、受信側から送信側へ同じ通信路を使って情報を送り返すことはできない。",
+          "vi": "単方向 là phương thức truyền thông trong đó thông tin chỉ được truyền theo một hướng. Vai trò bên gửi và bên nhận được xác định rõ, bên nhận không thể sử dụng cùng kênh truyền để gửi thông tin ngược lại cho bên gửi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「一方向にのみ通信する」という特徴を押さえる。双方向通信が必要な半二重や全二重とは区別する。",
+          "vi": "Trong FE, điểm quan trọng nhất là nhớ rằng dữ liệu chỉ truyền theo một hướng. Cần phân biệt với 半二重 và 全二重 là các phương thức cho phép truyền hai chiều."
+        },
+        {
+          "type": "heading",
+          "ja": "半二重",
+          "vi": "Truyền bán song công"
+        },
+        {
+          "type": "paragraph",
+          "ja": "半二重は、双方が送信と受信を行えるが、同時に送受信することはできない通信方式である。一方が送信している間、もう一方は受信側となり、通信方向を交互に切り替えて情報をやり取りする。",
+          "vi": "半二重 là phương thức trong đó cả hai phía đều có thể gửi và nhận, nhưng không thể gửi và nhận đồng thời. Khi một phía đang gửi thì phía còn lại nhận, sau đó hai phía có thể đổi hướng truyền cho nhau."
+        },
+        {
+          "type": "example",
+          "ja": "トランシーバのように、一方が話している間はもう一方が聞き、交互に通信する方式は半二重のイメージとして理解しやすい。",
+          "vi": "Có thể hình dung 半二重 giống bộ đàm: khi một người đang nói thì người kia nghe, sau đó hai bên đổi lượt cho nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "半二重と全二重を混同しない。半二重は双方向通信が可能だが同時送受信はできない。全二重では双方が同時に送受信できる。",
+          "vi": "Không nhầm 半二重 với 全二重. 半二重 cho phép truyền hai chiều nhưng không đồng thời; 全二重 cho phép hai phía gửi và nhận cùng lúc."
+        },
+        {
+          "type": "point",
+          "ja": "覚え方：単方向＝一方向だけ、半二重＝双方向だが交互、全二重＝双方向かつ同時。",
+          "vi": "Cách nhớ: 単方向 = chỉ một hướng; 半二重 = hai hướng nhưng luân phiên; 全二重 = hai hướng và đồng thời."
+        }
+      ],
+      "terms": [
+        {
+          "term": "単方向",
+          "reading": "たんほうこう",
+          "english": "Simplex Communication",
+          "vi": "truyền thông một chiều",
+          "definitionJa": "送信側から受信側への一方向にだけ情報を伝送する通信方式。",
+          "definitionVi": "Phương thức truyền thông trong đó thông tin chỉ được truyền theo một hướng từ bên gửi đến bên nhận."
+        },
+        {
+          "term": "半二重",
+          "reading": "はんにじゅう",
+          "english": "Half-Duplex Communication",
+          "vi": "truyền thông bán song công",
+          "definitionJa": "双方が送受信できるが、同時には送信と受信を行えず、通信方向を交互に切り替える方式。",
+          "definitionVi": "Phương thức cho phép cả hai phía gửi và nhận nhưng không đồng thời; hướng truyền phải được luân phiên chuyển đổi."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "communication-direction",
+        "simplex",
+        "half-duplex"
+      ]
+    },
+    {
+      "id": "full-duplex-and-modulation",
+      "order": 2,
+      "titleJa": "全二重通信と変調方式",
+      "titleVi": "Truyền song công và các phương thức điều chế",
+      "importance": "high",
+      "summaryJa": "全二重通信の特徴と、アナログ変調の基本であるAM・FM・PMを理解する。全二重では双方が同時に送受信できる。AM・FM・PMは、搬送波の振幅・周波数・位相のいずれを変化させるかによって区別される。",
+      "summaryVi": "Tìm hiểu đặc điểm của truyền thông song công toàn phần và ba phương thức điều chế cơ bản AM, FM, PM. 全二重 cho phép hai phía gửi và nhận đồng thời. AM, FM và PM được phân biệt dựa trên đại lượng của sóng mang được thay đổi: biên độ, tần số hay pha.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "全二重",
+          "vi": "Truyền song công toàn phần"
+        },
+        {
+          "type": "paragraph",
+          "ja": "全二重は、通信する双方が同時に送信と受信を行える通信方式である。一方が送信している間も、もう一方からの情報を受信できるため、双方向でリアルタイムに情報をやり取りする通信に適している。",
+          "vi": "全二重 là phương thức truyền thông trong đó hai phía có thể gửi và nhận dữ liệu cùng lúc. Ngay cả khi một phía đang gửi, phía đó vẫn có thể nhận thông tin từ phía còn lại, vì vậy phương thức này phù hợp với truyền thông hai chiều theo thời gian thực."
+        },
+        {
+          "type": "point",
+          "ja": "通信方向は、単方向・半二重・全二重を区別して覚える。単方向は一方向のみ、半二重は双方向だが同時送受信不可、全二重は双方向かつ同時送受信可能である。",
+          "vi": "Cần phân biệt ba kiểu hướng truyền: 単方向 chỉ truyền một chiều; 半二重 truyền được hai chiều nhưng không đồng thời; 全二重 truyền hai chiều và có thể gửi nhận đồng thời."
+        },
+        {
+          "type": "heading",
+          "ja": "AM・FM・PM",
+          "vi": "Điều chế AM, FM và PM"
+        },
+        {
+          "type": "paragraph",
+          "ja": "変調では、情報を伝送するために搬送波の性質を情報信号に応じて変化させる。AM・FM・PMの基本的な違いは、搬送波のどの要素を変化させるかにある。",
+          "vi": "Trong điều chế, một đặc tính của sóng mang (搬送波) được thay đổi theo tín hiệu thông tin để truyền dữ liệu. Điểm khác nhau cơ bản giữa AM, FM và PM nằm ở đặc tính nào của sóng mang được thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "AMは振幅、FMは周波数、PMは位相を変化させる。この対応関係はFEで最も重要なポイントの一つである。",
+          "vi": "AM thay đổi biên độ, FM thay đổi tần số, PM thay đổi pha. Đây là mối quan hệ quan trọng cần ghi nhớ khi học FE."
+        },
+        {
+          "type": "heading",
+          "ja": "AM",
+          "vi": "Điều chế biên độ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AM（Amplitude Modulation）は、情報信号に応じて搬送波の振幅を変化させる方式である。周波数や位相ではなく、波の大きさに相当する振幅を変えることが特徴である。",
+          "vi": "AM (Amplitude Modulation) là phương thức thay đổi biên độ của sóng mang theo tín hiệu thông tin. Đặc trưng của AM là thay đổi độ lớn của sóng, tức biên độ, chứ không phải tần số hay pha."
+        },
+        {
+          "type": "heading",
+          "ja": "FM",
+          "vi": "Điều chế tần số"
+        },
+        {
+          "type": "paragraph",
+          "ja": "FM（Frequency Modulation）は、情報信号に応じて搬送波の周波数を変化させる方式である。AMとは異なり、基本的には振幅ではなく周波数の変化によって情報を表現する。",
+          "vi": "FM (Frequency Modulation) là phương thức thay đổi tần số của sóng mang theo tín hiệu thông tin. Khác với AM, thông tin được biểu diễn bằng sự thay đổi tần số thay vì thay đổi biên độ."
+        },
+        {
+          "type": "heading",
+          "ja": "PM",
+          "vi": "Điều chế pha"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PM（Phase Modulation）は、情報信号に応じて搬送波の位相を変化させる方式である。位相とは波の周期上の位置を表すものであり、その変化を利用して情報を伝える。",
+          "vi": "PM (Phase Modulation) là phương thức thay đổi pha của sóng mang theo tín hiệu thông tin. Pha biểu thị vị trí của sóng trong một chu kỳ, và PM sử dụng sự thay đổi này để truyền thông tin."
+        },
+        {
+          "type": "example",
+          "ja": "覚え方：AM＝Amplitude＝振幅、FM＝Frequency＝周波数、PM＝Phase＝位相。",
+          "vi": "Cách nhớ: AM = Amplitude = biên độ (振幅), FM = Frequency = tần số (周波数), PM = Phase = pha (位相)."
+        },
+        {
+          "type": "warning",
+          "ja": "AM・FM・PMでは、変化させる量を取り違えないことが重要である。特にFMのFはFrequency（周波数）、PMのPはPhase（位相）を表す。",
+          "vi": "Điểm dễ nhầm là đại lượng được thay đổi trong AM, FM và PM. Đặc biệt, F trong FM là Frequency (周波数), còn P trong PM là Phase (位相)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "全二重",
+          "reading": "ぜんにじゅう",
+          "english": "Full-Duplex Communication",
+          "vi": "truyền thông song công toàn phần",
+          "definitionJa": "通信する双方が同時に送信と受信を行うことができる通信方式。",
+          "definitionVi": "Phương thức truyền thông cho phép cả hai phía gửi và nhận dữ liệu đồng thời."
+        },
+        {
+          "term": "AM",
+          "reading": "エーエム",
+          "english": "Amplitude Modulation",
+          "vi": "điều chế biên độ",
+          "definitionJa": "情報信号に応じて搬送波の振幅を変化させる変調方式。",
+          "definitionVi": "Phương thức điều chế thay đổi biên độ của sóng mang theo tín hiệu thông tin."
+        },
+        {
+          "term": "FM",
+          "reading": "エフエム",
+          "english": "Frequency Modulation",
+          "vi": "điều chế tần số",
+          "definitionJa": "情報信号に応じて搬送波の周波数を変化させる変調方式。",
+          "definitionVi": "Phương thức điều chế thay đổi tần số của sóng mang theo tín hiệu thông tin."
+        },
+        {
+          "term": "PM",
+          "reading": "ピーエム",
+          "english": "Phase Modulation",
+          "vi": "điều chế pha",
+          "definitionJa": "情報信号に応じて搬送波の位相を変化させる変調方式。",
+          "definitionVi": "Phương thức điều chế thay đổi pha của sóng mang theo tín hiệu thông tin."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "full-duplex",
+        "modulation",
+        "am",
+        "fm",
+        "pm"
+      ]
+    },
+    {
+      "id": "digital-conversion-multiplexing-and-error-detection",
+      "order": 3,
+      "titleJa": "PCM・多重化・誤り検出",
+      "titleVi": "PCM, ghép kênh và phát hiện lỗi",
+      "importance": "high",
+      "summaryJa": "通信で用いられるPCM、FDM、TDM、CRCの基本的な仕組みを理解する。PCMはアナログ信号をデジタル化する方式、FDMとTDMは一つの伝送路を複数の信号で共有する多重化方式、CRCは伝送データの誤りを検出する方式である。",
+      "summaryVi": "Tìm hiểu cơ chế cơ bản của PCM, FDM, TDM và CRC trong truyền thông. PCM dùng để số hóa tín hiệu analog; FDM và TDM là các phương thức ghép kênh cho phép nhiều tín hiệu dùng chung một đường truyền; CRC dùng để phát hiện lỗi trong dữ liệu truyền.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PCM",
+          "vi": "Điều chế mã xung PCM"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PCM（Pulse Code Modulation）は、音声などのアナログ信号をデジタルデータとして表現するための方式である。連続的なアナログ信号を一定の時間間隔で取り出し、その値を段階的な数値に対応させ、2進数などの符号として表現する。",
+          "vi": "PCM (Pulse Code Modulation) là phương thức biểu diễn tín hiệu analog như âm thanh dưới dạng dữ liệu số. Tín hiệu analog liên tục được lấy giá trị theo các khoảng thời gian nhất định, sau đó giá trị được đưa về các mức rời rạc và biểu diễn bằng mã số như số nhị phân."
+        },
+        {
+          "type": "point",
+          "ja": "PCMの基本的な流れは「標本化（サンプリング）→量子化→符号化」である。この順序はFEで重要である。",
+          "vi": "Quy trình cơ bản của PCM là 「標本化 (lấy mẫu) → 量子化 (lượng tử hóa) → 符号化 (mã hóa)」. Đây là thứ tự quan trọng cần nhớ trong FE."
+        },
+        {
+          "type": "example",
+          "ja": "音声をPCMでデジタル化する場合、一定時間ごとに信号の値を測定し、その値を最も近い量子化レベルに対応させ、最後にビット列として表現する。",
+          "vi": "Khi số hóa âm thanh bằng PCM, hệ thống đo giá trị tín hiệu theo từng khoảng thời gian, đưa giá trị đó về mức lượng tử gần nhất rồi cuối cùng biểu diễn thành chuỗi bit."
+        },
+        {
+          "type": "heading",
+          "ja": "FDMとTDM",
+          "vi": "Ghép kênh FDM và TDM"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多重化は、一つの伝送路を複数の信号で共有して通信効率を高めるための技術である。FDMは周波数を分割し、TDMは時間を分割することで、複数の信号を同じ伝送路で扱う。",
+          "vi": "Ghép kênh là kỹ thuật cho phép nhiều tín hiệu dùng chung một đường truyền nhằm nâng cao hiệu quả truyền thông. FDM chia tài nguyên theo tần số, còn TDM chia theo thời gian để truyền nhiều tín hiệu trên cùng một đường truyền."
+        },
+        {
+          "type": "point",
+          "ja": "FDM＝周波数を分ける、TDM＝時間を分ける、という違いを明確に覚える。",
+          "vi": "Cần nhớ rõ: FDM = chia theo tần số, TDM = chia theo thời gian."
+        },
+        {
+          "type": "heading",
+          "ja": "FDM",
+          "vi": "Ghép kênh phân chia theo tần số"
+        },
+        {
+          "type": "paragraph",
+          "ja": "FDM（Frequency Division Multiplexing）は、利用可能な周波数帯域を複数に分割し、それぞれに異なる信号を割り当てて同時に伝送する方式である。各信号が異なる周波数帯域を使用することで、一つの伝送路を複数の通信で共有できる。",
+          "vi": "FDM (Frequency Division Multiplexing) chia dải tần khả dụng thành nhiều phần và gán mỗi tín hiệu vào một dải tần khác nhau để truyền đồng thời. Nhờ các tín hiệu sử dụng những vùng tần số riêng, nhiều kênh truyền có thể dùng chung một đường truyền."
+        },
+        {
+          "type": "heading",
+          "ja": "TDM",
+          "vi": "Ghép kênh phân chia theo thời gian"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TDM（Time Division Multiplexing）は、伝送時間を複数の時間枠に分割し、それぞれの信号に順番に時間枠を割り当てる方式である。各信号は割り当てられた時間にデータを送ることで、一つの伝送路を共有する。",
+          "vi": "TDM (Time Division Multiplexing) chia thời gian truyền thành nhiều khe thời gian và lần lượt phân bổ các khe này cho từng tín hiệu. Mỗi tín hiệu gửi dữ liệu trong khoảng thời gian được cấp, nhờ đó nhiều tín hiệu có thể dùng chung một đường truyền."
+        },
+        {
+          "type": "example",
+          "ja": "FDMではA・B・Cの通信に異なる周波数帯を同時に割り当てる。一方、TDMではA→B→C→A…のように時間を区切って順番に伝送するイメージで考えると分かりやすい。",
+          "vi": "Có thể hình dung FDM là A, B, C được cấp các dải tần khác nhau và truyền đồng thời; còn TDM là chia thời gian và lần lượt truyền theo kiểu A → B → C → A…"
+        },
+        {
+          "type": "heading",
+          "ja": "CRC",
+          "vi": "Kiểm tra dư thừa tuần hoàn CRC"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CRC（Cyclic Redundancy Check）は、データの伝送や保存で発生した誤りを検出するための方式である。送信側ではデータを所定の生成多項式に基づいて計算し、その結果から得られる検査用の値をデータに付加する。受信側では同じ規則で検査し、誤りの有無を判断する。",
+          "vi": "CRC (Cyclic Redundancy Check) là phương thức dùng để phát hiện lỗi xảy ra khi truyền hoặc lưu trữ dữ liệu. Phía gửi thực hiện phép tính dựa trên đa thức sinh đã quy định và thêm giá trị kiểm tra thu được vào dữ liệu. Phía nhận kiểm tra lại theo cùng quy tắc để xác định dữ liệu có lỗi hay không."
+        },
+        {
+          "type": "point",
+          "ja": "CRCの目的は基本的に誤りの「検出」であり、CRC値だけを使って誤りを訂正する方式ではない。",
+          "vi": "Mục đích cơ bản của CRC là “phát hiện” lỗi. Chỉ riêng giá trị CRC không phải là cơ chế dùng để sửa lỗi."
+        },
+        {
+          "type": "warning",
+          "ja": "FDMとFMを混同しない。FDMは複数の信号を周波数帯域に分ける多重化方式であり、FMは搬送波の周波数を変化させる変調方式である。",
+          "vi": "Không nhầm FDM với FM. FDM là phương thức ghép kênh bằng cách chia dải tần cho nhiều tín hiệu, còn FM là phương thức điều chế bằng cách thay đổi tần số của sóng mang."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PCM",
+          "reading": "ピーシーエム",
+          "english": "Pulse Code Modulation",
+          "vi": "điều chế mã xung",
+          "definitionJa": "アナログ信号を標本化・量子化・符号化してデジタルデータとして表現する方式。",
+          "definitionVi": "Phương thức biểu diễn tín hiệu analog thành dữ liệu số thông qua lấy mẫu, lượng tử hóa và mã hóa."
+        },
+        {
+          "term": "FDM",
+          "reading": "エフディーエム",
+          "english": "Frequency Division Multiplexing",
+          "vi": "ghép kênh phân chia theo tần số",
+          "definitionJa": "周波数帯域を複数に分割し、異なる信号をそれぞれの帯域に割り当てて多重化する方式。",
+          "definitionVi": "Phương thức ghép kênh chia dải tần thành nhiều phần và gán các tín hiệu khác nhau vào từng dải tần."
+        },
+        {
+          "term": "TDM",
+          "reading": "ティーディーエム",
+          "english": "Time Division Multiplexing",
+          "vi": "ghép kênh phân chia theo thời gian",
+          "definitionJa": "伝送時間を複数の時間枠に分割し、各信号に時間枠を割り当てて多重化する方式。",
+          "definitionVi": "Phương thức ghép kênh chia thời gian truyền thành các khe thời gian và phân bổ chúng cho từng tín hiệu."
+        },
+        {
+          "term": "CRC",
+          "reading": "シーアールシー",
+          "english": "Cyclic Redundancy Check",
+          "vi": "kiểm tra dư thừa tuần hoàn",
+          "definitionJa": "生成多項式を用いた計算によって検査値を求め、データの伝送や保存時に生じた誤りを検出する方式。",
+          "definitionVi": "Phương thức tính giá trị kiểm tra dựa trên đa thức sinh để phát hiện lỗi phát sinh trong quá trình truyền hoặc lưu trữ dữ liệu."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "pcm",
+        "multiplexing",
+        "fdm",
+        "tdm",
+        "error-detection",
+        "crc"
+      ]
+    },
+    {
+      "id": "error-detection-and-correction",
+      "order": 4,
+      "titleJa": "誤り検出と誤り訂正",
+      "titleVi": "Phát hiện và sửa lỗi dữ liệu",
+      "importance": "high",
+      "summaryJa": "通信やデータ保存で発生する誤りに対して、ハミング符号、パリティチェック、ECC、チェックサムがどのように誤りを検出・訂正するかを理解する。特に、誤りを検出するだけの方式と、誤りを訂正できる方式の違いが重要である。",
+      "summaryVi": "Tìm hiểu cách Hamming Code, Parity Check, ECC và Checksum xử lý lỗi phát sinh trong quá trình truyền hoặc lưu trữ dữ liệu. Đặc biệt cần phân biệt phương thức chỉ phát hiện lỗi với phương thức có khả năng sửa lỗi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "誤り検出と誤り訂正",
+          "vi": "Phát hiện lỗi và sửa lỗi"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信やデータ保存では、ノイズや障害などによってデータの一部が変化することがある。そのため、元のデータに検査用の情報を付加し、受信側や読出し側で誤りを検出する仕組みが利用される。方式によっては、誤りを検出するだけでなく、その位置を特定して訂正することもできる。",
+          "vi": "Trong truyền thông và lưu trữ dữ liệu, một phần dữ liệu có thể bị thay đổi do nhiễu hoặc sự cố. Vì vậy, thông tin kiểm tra được bổ sung vào dữ liệu gốc để phía nhận hoặc phía đọc có thể phát hiện lỗi. Một số phương thức không chỉ phát hiện mà còn có thể xác định vị trí và sửa lỗi."
+        },
+        {
+          "type": "heading",
+          "ja": "ハミング符号",
+          "vi": "Mã Hamming"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハミング符号は、データ中の特定の位置に検査用のビットを配置し、その組合せから誤りの位置を特定する誤り訂正符号である。基本的なハミング符号では、1ビットの誤りを訂正することができる。",
+          "vi": "Mã Hamming là mã sửa lỗi đặt các bit kiểm tra tại những vị trí xác định trong dữ liệu và sử dụng tổ hợp kết quả kiểm tra để xác định vị trí lỗi. Với mã Hamming cơ bản, có thể sửa lỗi 1 bit."
+        },
+        {
+          "type": "point",
+          "ja": "ハミング符号は、単に誤りの有無を確認するだけでなく、誤ったビットの位置を特定して訂正できる点が重要である。",
+          "vi": "Điểm quan trọng của mã Hamming là không chỉ xác định có lỗi hay không mà còn có thể xác định vị trí bit sai và sửa nó."
+        },
+        {
+          "type": "heading",
+          "ja": "パリティチェック",
+          "vi": "Kiểm tra chẵn lẻ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パリティチェックは、データにパリティビットを付加して誤りを検出する方式である。偶数パリティでは1の個数が偶数になるように、奇数パリティでは1の個数が奇数になるようにパリティビットを設定する。",
+          "vi": "Parity Check là phương thức thêm bit chẵn lẻ vào dữ liệu để phát hiện lỗi. Với parity chẵn, bit parity được đặt sao cho tổng số bit 1 là số chẵn; với parity lẻ, tổng số bit 1 được đặt thành số lẻ."
+        },
+        {
+          "type": "example",
+          "ja": "偶数パリティでデータ部分の1の個数が3個なら、全体の1の個数を偶数にするため、パリティビットを1にする。",
+          "vi": "Với parity chẵn, nếu phần dữ liệu có 3 bit 1 thì bit parity được đặt thành 1 để tổng số bit 1 trở thành số chẵn."
+        },
+        {
+          "type": "warning",
+          "ja": "単純なパリティチェックでは、偶数個のビットが反転すると誤りを検出できない場合がある。また、通常は誤りの位置を特定して訂正することはできない。",
+          "vi": "Với kiểm tra parity đơn giản, nếu một số chẵn bit bị đảo thì có trường hợp không phát hiện được lỗi. Ngoài ra, phương thức này thông thường không xác định được vị trí lỗi để sửa."
+        },
+        {
+          "type": "heading",
+          "ja": "ECC",
+          "vi": "Mã sửa lỗi ECC"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ECC（Error Correction Code）は、データに冗長な情報を付加し、保存や伝送の際に発生した誤りを検出・訂正するための符号の総称である。メモリやストレージなど、高い信頼性が必要なシステムで利用される。",
+          "vi": "ECC (Error Correction Code) là tên gọi chung cho các mã bổ sung thông tin dư thừa vào dữ liệu để phát hiện và sửa lỗi phát sinh khi lưu trữ hoặc truyền dữ liệu. ECC được sử dụng trong bộ nhớ, thiết bị lưu trữ và các hệ thống yêu cầu độ tin cậy cao."
+        },
+        {
+          "type": "point",
+          "ja": "ECCは誤り訂正符号の総称であり、ハミング符号はECCを実現する代表的な方式の一つとして理解するとよい。",
+          "vi": "ECC là khái niệm chung về mã sửa lỗi; có thể hiểu mã Hamming là một trong những phương thức tiêu biểu để thực hiện ECC."
+        },
+        {
+          "type": "heading",
+          "ja": "チェックサム",
+          "vi": "Checksum"
+        },
+        {
+          "type": "paragraph",
+          "ja": "チェックサムは、データから一定の規則で検査値を計算し、その値を利用してデータの誤りを検出する方式である。送信側で求めたチェックサムと、受信側で同じデータから求めた値を比較することで、データが変化していないかを確認する。",
+          "vi": "Checksum là phương thức tính một giá trị kiểm tra từ dữ liệu theo quy tắc nhất định để phát hiện lỗi. Bằng cách so sánh checksum được tính ở phía gửi với giá trị tính lại từ dữ liệu nhận được, hệ thống có thể kiểm tra dữ liệu có bị thay đổi hay không."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「パリティチェック・チェックサム＝主に誤り検出」「ハミング符号・ECC＝誤り訂正が可能」という基本的な役割の違いを整理して覚える。",
+          "vi": "Trong FE nên phân biệt vai trò cơ bản: “Parity Check và Checksum = chủ yếu phát hiện lỗi”, còn “Hamming Code và ECC = có khả năng sửa lỗi”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハミング符号",
+          "reading": "ハミングふごう",
+          "english": "Hamming Code",
+          "vi": "mã Hamming",
+          "definitionJa": "検査用の冗長ビットを付加し、誤りの位置を特定して訂正できる誤り訂正符号。",
+          "definitionVi": "Mã sửa lỗi bổ sung các bit dư thừa để xác định vị trí lỗi và thực hiện sửa lỗi."
+        },
+        {
+          "term": "パリティチェック",
+          "reading": "パリティチェック",
+          "english": "Parity Check",
+          "vi": "kiểm tra chẵn lẻ",
+          "definitionJa": "ビット列中の1の個数が偶数または奇数になるようにパリティビットを付加し、誤りを検出する方式。",
+          "definitionVi": "Phương thức thêm bit parity để tổng số bit 1 trở thành số chẵn hoặc số lẻ, qua đó phát hiện lỗi dữ liệu."
+        },
+        {
+          "term": "ECC",
+          "reading": "イーシーシー",
+          "english": "Error Correction Code",
+          "vi": "mã sửa lỗi",
+          "definitionJa": "冗長な情報を付加することで、データに発生した誤りを検出し、訂正するための符号。",
+          "definitionVi": "Mã bổ sung thông tin dư thừa để phát hiện và sửa lỗi xảy ra trong dữ liệu."
+        },
+        {
+          "term": "チェックサム",
+          "reading": "チェックサム",
+          "english": "Checksum",
+          "vi": "tổng kiểm tra",
+          "definitionJa": "データから一定の規則で検査値を計算し、その値を比較することでデータの誤りを検出する方式。",
+          "definitionVi": "Phương thức tính giá trị kiểm tra từ dữ liệu theo quy tắc nhất định và so sánh giá trị đó để phát hiện lỗi."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "error-detection",
+        "error-correction",
+        "hamming-code",
+        "parity-check",
+        "ecc",
+        "checksum"
+      ]
+    },
+    {
+      "id": "data-synchronization",
+      "order": 5,
+      "titleJa": "データ通信の同期方式",
+      "titleVi": "Các phương thức đồng bộ trong truyền dữ liệu",
+      "importance": "high",
+      "summaryJa": "デジタル通信で送信側と受信側のタイミングを合わせるための同期方式について学ぶ。ビット同期、キャラクター同期、フラグ同期、調歩同期の基本的な役割と違いを理解する。",
+      "summaryVi": "Tìm hiểu các phương thức đồng bộ dùng để phối hợp thời điểm xử lý giữa phía gửi và phía nhận trong truyền thông số. Trọng tâm là vai trò và sự khác nhau cơ bản giữa đồng bộ bit, đồng bộ ký tự, đồng bộ bằng cờ và đồng bộ start-stop.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "通信における同期",
+          "vi": "Đồng bộ trong truyền thông"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタル通信では、受信側が送られてきたビットやデータ単位の境界を正しく認識する必要がある。そのため、送信側と受信側のタイミングやデータの区切りを合わせる同期の仕組みが用いられる。",
+          "vi": "Trong truyền thông số, phía nhận cần nhận biết chính xác ranh giới của các bit và đơn vị dữ liệu được truyền tới. Vì vậy, các cơ chế đồng bộ được sử dụng để thống nhất thời điểm xử lý và ranh giới dữ liệu giữa phía gửi và phía nhận."
+        },
+        {
+          "type": "heading",
+          "ja": "ビット同期",
+          "vi": "Đồng bộ bit"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビット同期は、受信側が各ビットのタイミングや境界を正しく識別するための同期である。ビットの区切りを正しく認識することで、0と1からなるデータを正確に受信できる。",
+          "vi": "Đồng bộ bit giúp phía nhận xác định chính xác thời điểm và ranh giới của từng bit. Khi xác định đúng vị trí phân cách giữa các bit, phía nhận có thể tiếp nhận chính xác dữ liệu gồm các bit 0 và 1."
+        },
+        {
+          "type": "point",
+          "ja": "ビット同期では「どこまでが一つのビットか」を受信側が正しく判断できることが重要である。",
+          "vi": "Điểm quan trọng của đồng bộ bit là phía nhận phải xác định chính xác phạm vi của từng bit."
+        },
+        {
+          "type": "heading",
+          "ja": "キャラクター同期",
+          "vi": "Đồng bộ ký tự"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キャラクター同期は、連続して送られるビット列の中から文字やデータ単位の区切りを識別するための同期方式である。受信側が文字の開始位置と終了位置を認識できるようにする。",
+          "vi": "Đồng bộ ký tự là phương thức giúp xác định ranh giới của ký tự hoặc đơn vị dữ liệu trong chuỗi bit được truyền liên tục. Nhờ đó phía nhận có thể nhận biết vị trí bắt đầu và kết thúc của từng ký tự."
+        },
+        {
+          "type": "heading",
+          "ja": "フラグ同期",
+          "vi": "Đồng bộ bằng cờ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フラグ同期は、特定のビットパターンであるフラグをデータの区切りとして利用する同期方式である。受信側はフラグを検出することで、フレームなどのデータ単位の開始や終了を認識する。",
+          "vi": "Đồng bộ bằng cờ sử dụng một mẫu bit đặc biệt gọi là flag để đánh dấu ranh giới dữ liệu. Khi phát hiện flag, phía nhận có thể xác định điểm bắt đầu hoặc kết thúc của một đơn vị dữ liệu như frame."
+        },
+        {
+          "type": "point",
+          "ja": "フラグ同期では、フラグとして使用する特定のビットパターンと実際のデータを区別する仕組みが必要になる。",
+          "vi": "Trong đồng bộ bằng cờ, cần có cơ chế phân biệt mẫu bit được dùng làm flag với cùng mẫu bit nếu nó xuất hiện trong dữ liệu thực tế."
+        },
+        {
+          "type": "heading",
+          "ja": "調歩同期",
+          "vi": "Đồng bộ start-stop"
+        },
+        {
+          "type": "paragraph",
+          "ja": "調歩同期は、文字などのデータ単位ごとにスタートビットとストップビットを付加して送信する方式である。送信側と受信側が常に共通のクロックで同期し続ける必要がなく、データが送られるたびに受信側がスタートビットを基準としてタイミングを合わせる。",
+          "vi": "Đồng bộ start-stop là phương thức thêm bit start và bit stop vào từng đơn vị dữ liệu như ký tự trước khi truyền. Hai phía không cần duy trì đồng bộ bằng một clock chung liên tục; mỗi khi có dữ liệu, phía nhận căn thời điểm dựa trên bit start."
+        },
+        {
+          "type": "example",
+          "ja": "調歩同期では、一般に「スタートビット → データビット → 必要に応じてパリティビット → ストップビット」という単位で送信する。",
+          "vi": "Trong đồng bộ start-stop, dữ liệu thường được truyền theo đơn vị: “bit start → các bit dữ liệu → bit parity nếu cần → bit stop”."
+        },
+        {
+          "type": "warning",
+          "ja": "ビット同期はビットのタイミングを合わせる考え方であり、調歩同期はデータ単位ごとにスタートビットとストップビットを用いる方式である。両者を同じ意味として覚えないこと。",
+          "vi": "Đồng bộ bit là khái niệm xác định thời điểm và ranh giới của từng bit, còn đồng bộ start-stop là phương thức dùng bit start và bit stop cho từng đơn vị dữ liệu. Không nên ghi nhớ hai khái niệm này là một."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビット同期",
+          "reading": "ビットどうき",
+          "english": "Bit Synchronization",
+          "vi": "đồng bộ bit",
+          "definitionJa": "受信側が送信された各ビットのタイミングや境界を正しく識別するための同期。",
+          "definitionVi": "Cơ chế đồng bộ giúp phía nhận xác định chính xác thời điểm và ranh giới của từng bit được truyền."
+        },
+        {
+          "term": "キャラクター同期",
+          "reading": "キャラクターどうき",
+          "english": "Character Synchronization",
+          "vi": "đồng bộ ký tự",
+          "definitionJa": "連続するビット列から文字などのデータ単位の区切りを受信側が識別するための同期方式。",
+          "definitionVi": "Phương thức đồng bộ giúp phía nhận xác định ranh giới của các đơn vị dữ liệu như ký tự trong một chuỗi bit liên tục."
+        },
+        {
+          "term": "フラグ同期",
+          "reading": "フラグどうき",
+          "english": "Flag Synchronization",
+          "vi": "đồng bộ bằng cờ",
+          "definitionJa": "特定のビットパターンであるフラグを用いて、データ単位の開始や終了を識別する同期方式。",
+          "definitionVi": "Phương thức đồng bộ sử dụng một mẫu bit đặc biệt gọi là flag để xác định điểm bắt đầu hoặc kết thúc của đơn vị dữ liệu."
+        },
+        {
+          "term": "調歩同期",
+          "reading": "ちょうほどうき",
+          "english": "Start-Stop Synchronization",
+          "vi": "đồng bộ start-stop",
+          "definitionJa": "データ単位ごとにスタートビットとストップビットを付加し、それらを基準として送受信のタイミングを合わせる方式。",
+          "definitionVi": "Phương thức thêm bit start và bit stop vào từng đơn vị dữ liệu và sử dụng chúng làm mốc để đồng bộ thời điểm gửi nhận."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "synchronization",
+        "bit-synchronization",
+        "character-synchronization",
+        "flag-synchronization",
+        "start-stop-synchronization"
+      ]
+    },
+    {
+      "id": "transmission-synchronization",
+      "order": 6,
+      "titleJa": "伝送における同期と制御ビット",
+      "titleVi": "Đồng bộ và bit điều khiển trong truyền dữ liệu",
+      "importance": "high",
+      "summaryJa": "データ伝送における同期のための基本要素として、スタートビット、ストップワードビット、SYN同期、フレーム同期の役割を理解する。受信側がデータの開始・終了やデータ単位の境界を正しく認識する仕組みを整理する。",
+      "summaryVi": "Tìm hiểu vai trò của Start Bit, Stop Word Bit, đồng bộ SYN và đồng bộ frame trong truyền dữ liệu. Trọng tâm là cách phía nhận xác định chính xác điểm bắt đầu, kết thúc và ranh giới của các đơn vị dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データの区切りと同期",
+          "vi": "Ranh giới dữ liệu và đồng bộ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データ通信では、受信側が送られてきたデータの開始位置や終了位置、データ単位の境界を正しく認識する必要がある。そのため、スタートビットなどの制御情報や、特定の同期用パターンを利用して送信側と受信側のタイミングを合わせる。",
+          "vi": "Trong truyền dữ liệu, phía nhận cần xác định chính xác vị trí bắt đầu, kết thúc và ranh giới của từng đơn vị dữ liệu. Vì vậy, các thông tin điều khiển như Start Bit hoặc các mẫu đồng bộ đặc biệt được sử dụng để phối hợp phía gửi và phía nhận."
+        },
+        {
+          "type": "heading",
+          "ja": "スタートビット",
+          "vi": "Start Bit"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スタートビットは、調歩同期などでデータ単位の送信開始を受信側に知らせるために付加されるビットである。受信側はスタートビットを検出すると、それを基準として後続するデータビットを読み取る。",
+          "vi": "Start Bit là bit được thêm vào trong các phương thức như đồng bộ start-stop để báo cho phía nhận biết một đơn vị dữ liệu bắt đầu được truyền. Khi phát hiện Start Bit, phía nhận dùng nó làm mốc để đọc các bit dữ liệu tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "調歩同期では、スタートビットがデータ単位の開始を示し、受信側がデータを読み取るタイミングを決める基準となる。",
+          "vi": "Trong đồng bộ start-stop, Start Bit đánh dấu điểm bắt đầu của đơn vị dữ liệu và là mốc để phía nhận xác định thời điểm đọc dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "ストップワードビット",
+          "vi": "Stop Word Bit"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ストップワードビットは、データ単位の終了側に置かれ、受信側がデータの終わりを認識するために利用される制御ビットとして扱われる。スタート側の制御ビットと組み合わせることで、データ単位の境界を明確にする。",
+          "vi": "Stop Word Bit được đặt ở phía cuối của một đơn vị dữ liệu và được dùng như bit điều khiển giúp phía nhận nhận biết điểm kết thúc dữ liệu. Khi kết hợp với bit điều khiển ở phía bắt đầu, ranh giới của đơn vị dữ liệu được xác định rõ ràng."
+        },
+        {
+          "type": "warning",
+          "ja": "画像中のストップワードビットの説明には、不要な情報を無視するためのビットであるという記述があるが、この説明は通信同期の文脈とは整合しないため注意する。",
+          "vi": "Phần mô tả Stop Word Bit trong ảnh cho rằng đây là bit dùng để bỏ qua thông tin không cần thiết, nhưng cách giải thích này không phù hợp với ngữ cảnh đồng bộ truyền thông, vì vậy cần thận trọng."
+        },
+        {
+          "type": "heading",
+          "ja": "SYN同期",
+          "vi": "Đồng bộ SYN"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SYN同期は、同期用の特定のパターンや同期文字を利用して、受信側が連続するデータの区切りやタイミングを認識するための同期方式として扱われる。同期情報を検出した後、受信側は後続するデータを所定の単位で読み取る。",
+          "vi": "Đồng bộ SYN sử dụng mẫu hoặc ký tự đồng bộ đặc biệt để giúp phía nhận xác định thời điểm và ranh giới trong luồng dữ liệu liên tục. Sau khi phát hiện thông tin đồng bộ, phía nhận đọc phần dữ liệu tiếp theo theo đơn vị quy định."
+        },
+        {
+          "type": "warning",
+          "ja": "ここでいうSYN同期を、TCPのコネクション確立で使用するSYNフラグと混同しないこと。画像中のSYN、SYN-ACK、ACKによる説明はTCPの3ウェイハンドシェイクの説明であり、通信データの同期方式とは別の概念である。",
+          "vi": "Không nhầm SYN synchronization ở đây với cờ SYN dùng khi thiết lập kết nối TCP. Phần SYN → SYN-ACK → ACK trong ảnh mô tả TCP three-way handshake, là một khái niệm khác với phương thức đồng bộ dữ liệu truyền."
+        },
+        {
+          "type": "heading",
+          "ja": "フレーム同期",
+          "vi": "Đồng bộ frame"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フレーム同期は、受信したビット列の中からフレームの境界を識別し、各フレームを正しい単位として取り出すための同期である。受信側がフレームの開始位置を正しく認識することで、フレーム単位のデータを適切に処理できる。",
+          "vi": "Đồng bộ frame là cơ chế xác định ranh giới frame trong chuỗi bit nhận được để tách dữ liệu thành đúng từng frame. Khi phía nhận xác định chính xác vị trí bắt đầu frame, dữ liệu có thể được xử lý đúng theo từng đơn vị frame."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、ビット単位の同期、文字やデータ単位の同期、フレーム単位の同期というように、何の境界を認識するための同期なのかを区別して考えることが重要である。",
+          "vi": "Trong FE, cần phân biệt đối tượng cần đồng bộ: đồng bộ ở mức bit, mức ký tự/đơn vị dữ liệu hay mức frame."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スタートビット",
+          "reading": "スタートビット",
+          "english": "Start Bit",
+          "vi": "bit bắt đầu",
+          "definitionJa": "調歩同期などで、データ単位の送信開始を受信側に知らせるために付加されるビット。",
+          "definitionVi": "Bit được thêm vào trong các phương thức như đồng bộ start-stop để báo cho phía nhận biết thời điểm bắt đầu của một đơn vị dữ liệu."
+        },
+        {
+          "term": "ストップワードビット",
+          "reading": "ストップワードビット",
+          "english": "Stop Word Bit",
+          "vi": "bit kết thúc từ dữ liệu",
+          "definitionJa": "データ単位の終了を受信側が認識するために、その終了側に置かれる制御ビットとして扱われる。",
+          "definitionVi": "Bit điều khiển được đặt ở cuối đơn vị dữ liệu để phía nhận nhận biết điểm kết thúc của đơn vị đó."
+        },
+        {
+          "term": "SYN同期",
+          "reading": "シンどうき",
+          "english": "SYN Synchronization",
+          "vi": "đồng bộ SYN",
+          "definitionJa": "同期用のパターンや同期文字を利用して、受信側が連続するデータの区切りやタイミングを認識する同期方式。",
+          "definitionVi": "Phương thức sử dụng mẫu hoặc ký tự đồng bộ để phía nhận xác định thời điểm và ranh giới trong luồng dữ liệu liên tục."
+        },
+        {
+          "term": "フレーム同期",
+          "reading": "フレームどうき",
+          "english": "Frame Synchronization",
+          "vi": "đồng bộ frame",
+          "definitionJa": "受信したビット列からフレームの境界を識別し、データを正しいフレーム単位で取り出すための同期。",
+          "definitionVi": "Cơ chế xác định ranh giới frame trong chuỗi bit nhận được để tách và xử lý dữ liệu theo đúng từng frame."
+        }
+      ],
+      "tags": [
+        "communication-theory",
+        "synchronization",
+        "start-bit",
+        "syn-synchronization",
+        "frame-synchronization"
+      ]
+    }
+  ]
+}

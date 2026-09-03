@@ -1,0 +1,829 @@
+{
+  "id": "algorithms",
+  "order": 2,
+  "titleJa": "アルゴリズム",
+  "titleVi": "Thuật toán",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "flowchart-and-basic-sorting",
+      "order": 1,
+      "titleJa": "流れ図と基本的なソート",
+      "titleVi": "Lưu đồ và các thuật toán sắp xếp cơ bản",
+      "importance": "high",
+      "summaryJa": "アルゴリズムを図で表現する流れ図の基本と、代表的なソートアルゴリズムである選択ソート、バブルソート、マージソートの仕組みと特徴を理解する。",
+      "summaryVi": "Tìm hiểu kiến thức cơ bản về lưu đồ dùng để biểu diễn thuật toán và cơ chế, đặc điểm của các thuật toán sắp xếp tiêu biểu gồm selection sort, bubble sort và merge sort.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流れ図",
+          "vi": "Lưu đồ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "流れ図（フローチャート）は、処理やアルゴリズムの手順を図で表現したものである。処理の流れや条件による分岐、繰返しなどを視覚的に表すことができ、プログラムや業務手順を整理するときに利用される。",
+          "vi": "Lưu đồ (flowchart) là sơ đồ biểu diễn các bước xử lý hoặc trình tự của một thuật toán. Nó cho phép thể hiện trực quan luồng xử lý, rẽ nhánh theo điều kiện và các thao tác lặp, vì vậy thường được sử dụng khi tổ chức chương trình hoặc quy trình nghiệp vụ."
+        },
+        {
+          "type": "point",
+          "ja": "流れ図では、端子、処理、判断、データ、流れ線などの記号を使って処理の流れを表す。",
+          "vi": "Trong lưu đồ, các ký hiệu như bắt đầu/kết thúc, xử lý, điều kiện, dữ liệu và đường luồng được sử dụng để biểu diễn quá trình xử lý."
+        },
+        {
+          "type": "example",
+          "ja": "条件によって処理Aまたは処理Bを実行する場合は、判断を表す記号から二つの経路に分岐させて表現する。",
+          "vi": "Ví dụ, nếu tùy theo điều kiện mà thực hiện xử lý A hoặc xử lý B, lưu đồ sẽ dùng ký hiệu điều kiện và chia thành hai nhánh xử lý."
+        },
+        {
+          "type": "heading",
+          "ja": "選択ソート",
+          "vi": "Sắp xếp chọn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "選択ソート（Selection Sort）は、未整列部分から最小値または最大値を探し、それを未整列部分の先頭の要素と交換する操作を繰り返すソートアルゴリズムである。操作を繰り返すたびに、整列済みの範囲が一つずつ広がっていく。",
+          "vi": "Sắp xếp chọn (Selection Sort) là thuật toán tìm phần tử nhỏ nhất hoặc lớn nhất trong vùng chưa được sắp xếp rồi đổi chỗ nó với phần tử đầu tiên của vùng đó. Sau mỗi lần thực hiện, vùng đã được sắp xếp tăng thêm một phần tử."
+        },
+        {
+          "type": "example",
+          "ja": "配列［3, 1, 4, 2］を昇順に並べる場合、まず最小値1を選び、先頭の3と交換して［1, 3, 4, 2］とする。次に残りの部分から最小値2を選び、3と交換する。",
+          "vi": "Ví dụ, khi sắp xếp mảng [3, 1, 4, 2] theo thứ tự tăng dần, trước tiên chọn giá trị nhỏ nhất là 1 và đổi chỗ với 3 để được [1, 3, 4, 2]. Sau đó chọn 2 là giá trị nhỏ nhất trong phần còn lại và đổi chỗ với 3."
+        },
+        {
+          "type": "point",
+          "ja": "選択ソートは実装が単純であるが、平均・最悪の場合ともに比較回数はO(n²)となる。",
+          "vi": "Selection Sort đơn giản để triển khai nhưng số phép so sánh ở cả trường hợp trung bình và xấu nhất đều có độ phức tạp O(n²)."
+        },
+        {
+          "type": "heading",
+          "ja": "バブルソート",
+          "vi": "Sắp xếp nổi bọt"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バブルソート（Bubble Sort）は、隣り合う要素を比較し、順序が逆であれば交換する操作を繰り返すソートアルゴリズムである。昇順に並べる場合、一方向に比較を繰り返すことで、大きな値が配列の端へ順次移動していく。",
+          "vi": "Sắp xếp nổi bọt (Bubble Sort) là thuật toán liên tục so sánh hai phần tử liền kề và đổi chỗ nếu chúng đang ở sai thứ tự. Khi sắp xếp tăng dần, việc lặp lại các phép so sánh theo một hướng sẽ làm các giá trị lớn dần di chuyển về cuối mảng."
+        },
+        {
+          "type": "example",
+          "ja": "［3, 1, 4, 2］では、3と1を比較して交換し、次に3と4を比較し、さらに4と2を比較して交換する。この一巡によって大きな値4が末尾へ移動する。",
+          "vi": "Với [3, 1, 4, 2], đầu tiên so sánh 3 và 1 rồi đổi chỗ, tiếp theo so sánh 3 và 4, sau đó so sánh 4 và 2 rồi đổi chỗ. Sau một lượt, giá trị lớn 4 sẽ được đưa về cuối."
+        },
+        {
+          "type": "point",
+          "ja": "バブルソートは隣接する要素を比較・交換する。基本的な時間計算量はO(n²)である。",
+          "vi": "Bubble Sort so sánh và đổi chỗ các phần tử liền kề. Độ phức tạp thời gian cơ bản là O(n²)."
+        },
+        {
+          "type": "heading",
+          "ja": "マージソート",
+          "vi": "Sắp xếp trộn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マージソート（Merge Sort）は、データ列を分割し、それぞれを整列した後で併合する分割統治法に基づくソートアルゴリズムである。データを繰り返し分割して小さな単位にし、それらを順序を保ちながら併合していく。",
+          "vi": "Sắp xếp trộn (Merge Sort) là thuật toán sắp xếp dựa trên phương pháp chia để trị: chia dãy dữ liệu thành các phần nhỏ, sắp xếp từng phần rồi trộn chúng lại. Dữ liệu được chia liên tục thành các đơn vị nhỏ và sau đó được hợp nhất lại trong khi vẫn duy trì đúng thứ tự."
+        },
+        {
+          "type": "example",
+          "ja": "［4, 1, 3, 2］を［4, 1］と［3, 2］に分割し、さらに一要素ずつに分割する。その後、［1, 4］と［2, 3］に併合し、最後に［1, 2, 3, 4］へ併合する。",
+          "vi": "Ví dụ, [4, 1, 3, 2] được chia thành [4, 1] và [3, 2], sau đó tiếp tục chia thành từng phần tử. Tiếp theo chúng được trộn thành [1, 4] và [2, 3], cuối cùng hợp nhất thành [1, 2, 3, 4]."
+        },
+        {
+          "type": "point",
+          "ja": "マージソートの時間計算量は最悪の場合でもO(n log n)である。一方、併合処理のための追加領域が必要になる。",
+          "vi": "Merge Sort có độ phức tạp thời gian O(n log n) ngay cả trong trường hợp xấu nhất. Tuy nhiên, thuật toán cần thêm vùng nhớ để thực hiện quá trình trộn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、選択ソート・バブルソート・マージソートについて、どのように要素が移動するかと時間計算量の違いを区別できるようにする。",
+          "vi": "Trong FE, cần phân biệt cách các phần tử được di chuyển và sự khác nhau về độ phức tạp thời gian giữa Selection Sort, Bubble Sort và Merge Sort."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流れ図",
+          "reading": "ながれず",
+          "english": "Flowchart",
+          "vi": "lưu đồ",
+          "definitionJa": "処理やアルゴリズムの手順を記号と線を用いて図で表したもの。",
+          "definitionVi": "Sơ đồ biểu diễn trình tự xử lý hoặc thuật toán bằng các ký hiệu và đường nối."
+        },
+        {
+          "term": "選択ソート",
+          "reading": "せんたくそーと",
+          "english": "Selection Sort",
+          "vi": "sắp xếp chọn",
+          "definitionJa": "未整列部分から最小値または最大値を選び、所定の位置へ移動する操作を繰り返すソート方法。",
+          "definitionVi": "Phương pháp sắp xếp bằng cách liên tục chọn giá trị nhỏ nhất hoặc lớn nhất từ vùng chưa sắp xếp và đưa nó về vị trí thích hợp."
+        },
+        {
+          "term": "バブルソート",
+          "reading": "ばぶるそーと",
+          "english": "Bubble Sort",
+          "vi": "sắp xếp nổi bọt",
+          "definitionJa": "隣接する要素を比較し、必要に応じて交換する操作を繰り返すソート方法。",
+          "definitionVi": "Phương pháp sắp xếp bằng cách liên tục so sánh các phần tử liền kề và đổi chỗ khi cần thiết."
+        },
+        {
+          "term": "マージソート",
+          "reading": "まーじそーと",
+          "english": "Merge Sort",
+          "vi": "sắp xếp trộn",
+          "definitionJa": "データを分割し、整列された部分列を順次併合するソート方法。",
+          "definitionVi": "Phương pháp sắp xếp bằng cách chia dữ liệu rồi lần lượt trộn các dãy con đã được sắp xếp."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "flowchart",
+        "sorting",
+        "selection-sort",
+        "bubble-sort",
+        "merge-sort"
+      ]
+    },
+    {
+      "id": "advanced-sorting-algorithms",
+      "order": 2,
+      "titleJa": "挿入ソートと高速なソート",
+      "titleVi": "Sắp xếp chèn và các thuật toán sắp xếp hiệu quả",
+      "importance": "high",
+      "summaryJa": "代表的なソートアルゴリズムである挿入ソート、シェルソート、クイックソート、ヒープソートについて、基本的な仕組みと特徴を理解する。",
+      "summaryVi": "Tìm hiểu cơ chế cơ bản và đặc điểm của các thuật toán sắp xếp tiêu biểu gồm Insertion Sort, Shell Sort, Quick Sort và Heap Sort.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "挿入ソート",
+          "vi": "Sắp xếp chèn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "挿入ソート（Insertion Sort）は、未整列の要素を一つずつ取り出し、既に整列されている部分の適切な位置に挿入していくソートアルゴリズムである。先頭の要素を整列済みと考え、次の要素から順番に正しい位置へ挿入することで、整列済みの範囲を広げていく。",
+          "vi": "Sắp xếp chèn (Insertion Sort) là thuật toán lần lượt lấy từng phần tử chưa được sắp xếp và chèn nó vào vị trí thích hợp trong phần đã được sắp xếp. Phần tử đầu tiên được xem là đã sắp xếp, sau đó từng phần tử tiếp theo được chèn vào đúng vị trí để mở rộng dần vùng đã sắp xếp."
+        },
+        {
+          "type": "example",
+          "ja": "［3, 1, 4, 2］を昇順に整列する場合、まず3を整列済みとし、1を3の前に挿入して［1, 3, 4, 2］とする。次に4を適切な位置に置き、最後に2を1と3の間に挿入して［1, 2, 3, 4］とする。",
+          "vi": "Ví dụ, khi sắp xếp [3, 1, 4, 2] theo thứ tự tăng dần, trước tiên coi 3 là phần đã sắp xếp, sau đó chèn 1 vào trước 3 để được [1, 3, 4, 2]. Tiếp theo đặt 4 vào vị trí thích hợp và cuối cùng chèn 2 vào giữa 1 và 3 để được [1, 2, 3, 4]."
+        },
+        {
+          "type": "point",
+          "ja": "挿入ソートは、データ数が少ない場合や、あらかじめほぼ整列されているデータに対して効率がよい。平均・最悪時間計算量はO(n²)である。",
+          "vi": "Insertion Sort hoạt động hiệu quả khi số lượng dữ liệu nhỏ hoặc dữ liệu ban đầu gần như đã được sắp xếp. Độ phức tạp thời gian trung bình và trường hợp xấu nhất là O(n²)."
+        },
+        {
+          "type": "heading",
+          "ja": "シェルソート",
+          "vi": "Sắp xếp Shell"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シェルソート（Shell Sort）は、挿入ソートを改良したソートアルゴリズムである。一定の間隔（ギャップ）ごとに離れた要素をグループ化して整列し、その間隔を段階的に小さくしながら整列を繰り返す。最後に間隔を1として挿入ソートを行う。",
+          "vi": "Shell Sort là thuật toán cải tiến từ Insertion Sort. Các phần tử cách nhau một khoảng nhất định (gap) được nhóm lại và sắp xếp, sau đó khoảng cách này được giảm dần. Cuối cùng, thuật toán thực hiện sắp xếp với khoảng cách bằng 1 giống như Insertion Sort."
+        },
+        {
+          "type": "point",
+          "ja": "離れた位置にある要素を先に移動させて全体をおおまかに整列してから挿入ソートを行うため、通常の挿入ソートより効率を高めることができる。",
+          "vi": "Do các phần tử ở xa nhau được di chuyển trước để toàn bộ dữ liệu trở nên gần với trạng thái đã sắp xếp rồi mới thực hiện Insertion Sort, Shell Sort có thể hiệu quả hơn Insertion Sort thông thường."
+        },
+        {
+          "type": "heading",
+          "ja": "クイックソート",
+          "vi": "Sắp xếp nhanh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クイックソート（Quick Sort）は、基準となる値（ピボット）を選び、ピボットより小さい要素と大きい要素にデータを分割し、それぞれの部分に対して同じ処理を再帰的に行うソートアルゴリズムである。分割統治法を利用する代表的なアルゴリズムである。",
+          "vi": "Quick Sort là thuật toán chọn một giá trị làm mốc (pivot), chia dữ liệu thành các phần tử nhỏ hơn và lớn hơn pivot, rồi tiếp tục thực hiện cùng quá trình một cách đệ quy trên từng phần. Đây là thuật toán tiêu biểu sử dụng phương pháp chia để trị."
+        },
+        {
+          "type": "example",
+          "ja": "例えば5をピボットとした場合、5より小さい要素を一方に、5より大きい要素をもう一方に分ける。その後、それぞれの部分でもピボットを選んで同じ処理を繰り返す。",
+          "vi": "Ví dụ, nếu chọn 5 làm pivot, các phần tử nhỏ hơn 5 được đưa về một phía và các phần tử lớn hơn 5 về phía còn lại. Sau đó tiếp tục chọn pivot và thực hiện tương tự trên từng phần."
+        },
+        {
+          "type": "point",
+          "ja": "クイックソートの平均時間計算量はO(n log n)であるが、分割が極端に偏る場合には最悪O(n²)となる。",
+          "vi": "Độ phức tạp thời gian trung bình của Quick Sort là O(n log n), nhưng nếu việc phân chia bị lệch nghiêm trọng thì trường hợp xấu nhất có thể là O(n²)."
+        },
+        {
+          "type": "heading",
+          "ja": "ヒープソート",
+          "vi": "Sắp xếp vun đống"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ヒープソート（Heap Sort）は、データをヒープと呼ばれる木構造として構成し、最大値または最小値を順番に取り出して整列するアルゴリズムである。最大ヒープを利用する場合、根にある最大値を取り出し、残った要素から再びヒープを構成する操作を繰り返す。",
+          "vi": "Heap Sort là thuật toán tổ chức dữ liệu thành cấu trúc cây gọi là heap rồi lần lượt lấy ra giá trị lớn nhất hoặc nhỏ nhất để sắp xếp. Khi sử dụng max heap, giá trị lớn nhất ở gốc được lấy ra, sau đó heap được xây dựng lại từ các phần tử còn lại và quá trình này được lặp lại."
+        },
+        {
+          "type": "point",
+          "ja": "ヒープソートの時間計算量は平均・最悪の場合ともにO(n log n)であり、入力データの並び方による性能の悪化が比較的小さい。",
+          "vi": "Heap Sort có độ phức tạp thời gian O(n log n) ở cả trường hợp trung bình và xấu nhất, nên hiệu năng ít bị suy giảm do thứ tự ban đầu của dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、挿入ソートは「整列済み部分の適切な位置へ挿入」、シェルソートは「間隔を空けて整列」、クイックソートは「ピボットによる分割」、ヒープソートは「ヒープから最大値・最小値を取り出す」という特徴を区別することが重要である。",
+          "vi": "Trong FE, cần phân biệt: Insertion Sort là 'chèn vào vị trí thích hợp trong phần đã sắp xếp', Shell Sort là 'sắp xếp theo khoảng cách', Quick Sort là 'phân chia dựa trên pivot', còn Heap Sort là 'lấy giá trị lớn nhất/nhỏ nhất từ heap'."
+        }
+      ],
+      "terms": [
+        {
+          "term": "挿入ソート",
+          "reading": "そうにゅうそーと",
+          "english": "Insertion Sort",
+          "vi": "sắp xếp chèn",
+          "definitionJa": "未整列の要素を、整列済み部分の適切な位置へ順次挿入するソート方法。",
+          "definitionVi": "Phương pháp sắp xếp bằng cách lần lượt chèn các phần tử chưa sắp xếp vào vị trí thích hợp trong phần đã sắp xếp."
+        },
+        {
+          "term": "シェルソート",
+          "reading": "しぇるそーと",
+          "english": "Shell Sort",
+          "vi": "sắp xếp Shell",
+          "definitionJa": "一定間隔の要素を整列し、その間隔を徐々に小さくしていくソート方法。",
+          "definitionVi": "Phương pháp sắp xếp các phần tử theo một khoảng cách nhất định rồi giảm dần khoảng cách đó."
+        },
+        {
+          "term": "クイックソート",
+          "reading": "くいっくそーと",
+          "english": "Quick Sort",
+          "vi": "sắp xếp nhanh",
+          "definitionJa": "ピボットを基準にデータを分割し、それぞれを再帰的に整列するソート方法。",
+          "definitionVi": "Phương pháp sắp xếp bằng cách chia dữ liệu dựa trên pivot rồi sắp xếp đệ quy từng phần."
+        },
+        {
+          "term": "ヒープソート",
+          "reading": "ひーぷそーと",
+          "english": "Heap Sort",
+          "vi": "sắp xếp vun đống",
+          "definitionJa": "ヒープ構造を利用して最大値または最小値を順次取り出すソート方法。",
+          "definitionVi": "Phương pháp sắp xếp sử dụng cấu trúc heap để lần lượt lấy ra giá trị lớn nhất hoặc nhỏ nhất."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "sorting",
+        "insertion-sort",
+        "shell-sort",
+        "quick-sort",
+        "heap-sort"
+      ]
+    },
+    {
+      "id": "search-and-recursive-algorithms",
+      "order": 3,
+      "titleJa": "探索法と再帰的アルゴリズム",
+      "titleVi": "Thuật toán tìm kiếm và đệ quy",
+      "importance": "high",
+      "summaryJa": "代表的な探索アルゴリズムである線形探索法、2分探索法、ハッシュ表探索法の仕組みと特徴、および再帰的アルゴリズムの基本的な考え方を理解する。",
+      "summaryVi": "Tìm hiểu cơ chế và đặc điểm của các thuật toán tìm kiếm tiêu biểu gồm tìm kiếm tuyến tính, tìm kiếm nhị phân, tìm kiếm bằng bảng băm, đồng thời nắm được tư duy cơ bản của thuật toán đệ quy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "線形探索法",
+          "vi": "Tìm kiếm tuyến tính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "線形探索法（Linear Search）は、データ列の先頭から順番に要素を調べ、目的の値と一致するかを一つずつ比較する探索方法である。データが整列されていなくても利用でき、仕組みが単純で実装しやすい。",
+          "vi": "Tìm kiếm tuyến tính (Linear Search) là phương pháp lần lượt kiểm tra từng phần tử từ đầu dãy dữ liệu và so sánh với giá trị cần tìm. Phương pháp này có thể sử dụng ngay cả khi dữ liệu chưa được sắp xếp, đồng thời có cơ chế đơn giản và dễ triển khai."
+        },
+        {
+          "type": "example",
+          "ja": "［8, 3, 6, 2, 9］から2を探す場合、8、3、6、2の順に比較し、4回目の比較で目的の値を発見する。",
+          "vi": "Ví dụ, khi tìm giá trị 2 trong [8, 3, 6, 2, 9], lần lượt so sánh với 8, 3, 6 và 2. Giá trị cần tìm được phát hiện ở lần so sánh thứ 4."
+        },
+        {
+          "type": "point",
+          "ja": "線形探索法では、最悪の場合は全ての要素を調べる必要があるため、時間計算量はO(n)である。",
+          "vi": "Trong trường hợp xấu nhất, Linear Search phải kiểm tra toàn bộ phần tử nên có độ phức tạp thời gian O(n)."
+        },
+        {
+          "type": "heading",
+          "ja": "2分探索法",
+          "vi": "Tìm kiếm nhị phân"
+        },
+        {
+          "type": "paragraph",
+          "ja": "2分探索法（Binary Search）は、整列済みのデータを対象として、探索範囲の中央の要素と目的の値を比較し、探索範囲を半分ずつ絞り込んでいく方法である。中央の値より目的の値が小さければ左側、大きければ右側を次の探索対象とする。",
+          "vi": "Tìm kiếm nhị phân (Binary Search) là phương pháp áp dụng cho dữ liệu đã được sắp xếp. Thuật toán so sánh giá trị cần tìm với phần tử ở giữa và thu hẹp phạm vi tìm kiếm xuống còn một nửa. Nếu giá trị cần tìm nhỏ hơn phần tử giữa thì tiếp tục tìm bên trái, nếu lớn hơn thì tìm bên phải."
+        },
+        {
+          "type": "example",
+          "ja": "昇順に並んだ［1, 3, 5, 7, 9, 11, 13］から11を探す場合、まず中央の7と比較する。11は7より大きいため右半分に絞り込み、次に11と比較して発見する。",
+          "vi": "Ví dụ, khi tìm 11 trong dãy đã sắp xếp [1, 3, 5, 7, 9, 11, 13], trước tiên so sánh với giá trị giữa là 7. Vì 11 lớn hơn 7 nên chỉ tìm ở nửa bên phải, sau đó so sánh với 11 và tìm thấy kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "2分探索法を利用するためには、原則として探索対象のデータがあらかじめ整列されている必要がある。時間計算量はO(log n)である。",
+          "vi": "Để sử dụng Binary Search, về nguyên tắc dữ liệu cần tìm phải được sắp xếp trước. Độ phức tạp thời gian là O(log n)."
+        },
+        {
+          "type": "heading",
+          "ja": "ハッシュ表探索法",
+          "vi": "Tìm kiếm bằng bảng băm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハッシュ表探索法（Hash Table Search Method）は、キーにハッシュ関数を適用して得られた値を基に格納位置を決定し、その位置を利用してデータを探索する方法である。適切なハッシュ関数と十分な表領域を用いることで、高速な検索が可能になる。",
+          "vi": "Tìm kiếm bằng bảng băm (Hash Table Search Method) là phương pháp áp dụng hàm băm lên khóa để xác định vị trí lưu trữ và sử dụng vị trí đó để tìm dữ liệu. Với hàm băm thích hợp và vùng bảng đủ lớn, việc tìm kiếm có thể được thực hiện rất nhanh."
+        },
+        {
+          "type": "example",
+          "ja": "社員番号をキーとしてハッシュ関数で格納位置を求め、その位置に社員情報を保存しておけば、社員番号から対応する情報を効率よく検索できる。",
+          "vi": "Ví dụ, nếu sử dụng mã nhân viên làm khóa, tính vị trí lưu bằng hàm băm rồi lưu thông tin nhân viên tại đó, ta có thể tìm thông tin tương ứng một cách hiệu quả từ mã nhân viên."
+        },
+        {
+          "type": "point",
+          "ja": "異なるキーから同じハッシュ値が得られることを衝突（シノニム）という。衝突が発生した場合には、チェイン法やオープンアドレス法などで処理する。",
+          "vi": "Hiện tượng các khóa khác nhau tạo ra cùng một giá trị băm được gọi là xung đột (collision/synonym). Khi xảy ra xung đột, có thể xử lý bằng phương pháp chaining hoặc open addressing."
+        },
+        {
+          "type": "point",
+          "ja": "ハッシュ表では、適切に設計されていれば探索・挿入・削除を平均O(1)で行うことができる。",
+          "vi": "Nếu bảng băm được thiết kế phù hợp, thao tác tìm kiếm, chèn và xóa có thể thực hiện với độ phức tạp trung bình O(1)."
+        },
+        {
+          "type": "heading",
+          "ja": "再帰的アルゴリズム",
+          "vi": "Thuật toán đệ quy"
+        },
+        {
+          "type": "paragraph",
+          "ja": "再帰的アルゴリズム（Recursive Algorithm）は、ある処理の中から同じ処理自身を呼び出すことで問題を解決するアルゴリズムである。大きな問題を同じ性質を持つより小さな問題に分解し、基本となる条件に到達するまで処理を繰り返す。",
+          "vi": "Thuật toán đệ quy (Recursive Algorithm) là thuật toán giải quyết vấn đề bằng cách gọi lại chính xử lý đó từ bên trong nó. Một vấn đề lớn được chia thành các vấn đề nhỏ hơn có cùng tính chất và quá trình được lặp lại cho đến khi đạt điều kiện cơ sở."
+        },
+        {
+          "type": "example",
+          "ja": "階乗n!は、n!＝n×(n－1)!として再帰的に定義できる。例えば、4!＝4×3!、3!＝3×2!というように処理を続け、1!に到達したところで結果を順に戻していく。",
+          "vi": "Ví dụ, giai thừa n! có thể được định nghĩa đệ quy là n! = n × (n−1)!. Chẳng hạn 4! = 4 × 3!, 3! = 3 × 2!, tiếp tục cho đến 1!, sau đó lần lượt trả kết quả ngược trở lại."
+        },
+        {
+          "type": "point",
+          "ja": "再帰処理では、再帰を終了するための条件（基底条件）が必要である。終了条件がない場合、再帰呼出しが続き、スタック領域を使い切る可能性がある。",
+          "vi": "Xử lý đệ quy cần có điều kiện kết thúc (base case). Nếu không có điều kiện kết thúc, lời gọi đệ quy sẽ tiếp tục và có thể làm cạn kiệt vùng nhớ stack."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、線形探索は「先頭から順に探索」、2分探索は「整列済みデータを半分ずつ探索」、ハッシュ表探索は「ハッシュ関数で格納位置を求める」、再帰は「処理自身を呼び出す」と区別することが重要である。",
+          "vi": "Trong FE, cần phân biệt: Linear Search là 'tìm lần lượt từ đầu', Binary Search là 'chia đôi phạm vi trên dữ liệu đã sắp xếp', Hash Search là 'xác định vị trí bằng hàm băm', còn đệ quy là 'xử lý tự gọi lại chính nó'."
+        }
+      ],
+      "terms": [
+        {
+          "term": "線形探索法",
+          "reading": "せんけいたんさくほう",
+          "english": "Linear Search",
+          "vi": "tìm kiếm tuyến tính",
+          "definitionJa": "データを先頭から順番に比較して目的の値を探す方法。",
+          "definitionVi": "Phương pháp tìm giá trị bằng cách lần lượt so sánh dữ liệu từ đầu."
+        },
+        {
+          "term": "2分探索法",
+          "reading": "にぶんたんさくほう",
+          "english": "Binary Search Method",
+          "vi": "tìm kiếm nhị phân",
+          "definitionJa": "整列済みデータの探索範囲を半分ずつ絞り込んで目的の値を探す方法。",
+          "definitionVi": "Phương pháp tìm kiếm bằng cách liên tục thu hẹp một nửa phạm vi trên dữ liệu đã sắp xếp."
+        },
+        {
+          "term": "ハッシュ表探索法",
+          "reading": "はっしゅひょうたんさくほう",
+          "english": "Hash Table Search Method",
+          "vi": "tìm kiếm bằng bảng băm",
+          "definitionJa": "ハッシュ関数によってキーから格納位置を求め、データを探索する方法。",
+          "definitionVi": "Phương pháp sử dụng hàm băm để xác định vị trí lưu trữ từ khóa và tìm dữ liệu."
+        },
+        {
+          "term": "再帰的アルゴリズム",
+          "reading": "さいきてきあるごりずむ",
+          "english": "Recursive Algorithm",
+          "vi": "thuật toán đệ quy",
+          "definitionJa": "処理の中から同じ処理自身を呼び出して問題を解くアルゴリズム。",
+          "definitionVi": "Thuật toán giải quyết vấn đề bằng cách gọi lại chính nó trong quá trình xử lý."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "search",
+        "linear-search",
+        "binary-search",
+        "hash-table",
+        "recursion"
+      ]
+    },
+    {
+      "id": "graph-search-and-shortest-path",
+      "order": 4,
+      "titleJa": "グラフ探索と最短経路",
+      "titleVi": "Tìm kiếm trên đồ thị và đường đi ngắn nhất",
+      "importance": "high",
+      "summaryJa": "グラフや木構造を探索する代表的な手法である深さ優先探索と幅優先探索、および最短経路探索とダイクストラ法の基本的な仕組みと特徴を理解する。",
+      "summaryVi": "Tìm hiểu cơ chế và đặc điểm cơ bản của tìm kiếm theo chiều sâu, tìm kiếm theo chiều rộng, bài toán tìm đường đi ngắn nhất và thuật toán Dijkstra.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "深さ優先探索",
+          "vi": "Tìm kiếm theo chiều sâu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "深さ優先探索（Depth-First Search：DFS）は、グラフや木構造において、一つの経路を可能な限り深く探索し、行き止まりに達したら戻って別の経路を探索する方法である。未訪問の隣接ノードを順にたどり、探索できるノードがなくなったところで直前のノードへ戻る。",
+          "vi": "Tìm kiếm theo chiều sâu (Depth-First Search: DFS) là phương pháp đi sâu nhất có thể theo một đường trong đồ thị hoặc cây. Khi không thể đi tiếp, thuật toán quay lại và thử một đường khác. Các nút kề chưa được thăm được duyệt liên tục cho đến khi không còn nút nào để đi tiếp."
+        },
+        {
+          "type": "point",
+          "ja": "深さ優先探索は、スタックまたは再帰処理を利用して実装できる。",
+          "vi": "DFS có thể được triển khai bằng stack hoặc bằng xử lý đệ quy."
+        },
+        {
+          "type": "example",
+          "ja": "迷路を探索する場合、一つの道を行けるところまで進み、行き止まりになったら直前の分岐点まで戻って別の道を試す方法が深さ優先探索に相当する。",
+          "vi": "Ví dụ khi giải mê cung, ta đi theo một đường xa nhất có thể. Nếu gặp ngõ cụt thì quay lại điểm rẽ trước đó và thử đường khác. Đây là cách hoạt động của DFS."
+        },
+        {
+          "type": "heading",
+          "ja": "幅優先探索",
+          "vi": "Tìm kiếm theo chiều rộng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "幅優先探索（Breadth-First Search：BFS）は、開始ノードに近いノードから順番に探索し、同じ深さのノードを調べた後で次の深さへ進む探索方法である。探索予定のノードをキューに格納し、先に登録されたノードから順に処理していく。",
+          "vi": "Tìm kiếm theo chiều rộng (Breadth-First Search: BFS) là phương pháp tìm kiếm lần lượt từ các nút gần nút bắt đầu nhất. Sau khi duyệt các nút ở cùng một mức, thuật toán mới chuyển sang mức tiếp theo. Các nút chờ duyệt được lưu trong queue và xử lý theo thứ tự được đưa vào."
+        },
+        {
+          "type": "point",
+          "ja": "幅優先探索ではキューを利用する。辺に重みがないグラフでは、開始点から各ノードまでの最短経路を求めることができる。",
+          "vi": "BFS sử dụng queue. Trong đồ thị không có trọng số, BFS có thể tìm đường đi ngắn nhất từ điểm bắt đầu đến các nút khác."
+        },
+        {
+          "type": "example",
+          "ja": "開始ノードAからB、Cが隣接している場合、まずBとCを探索し、その後でBやCから接続されている次の階層のノードを探索する。",
+          "vi": "Ví dụ, nếu B và C kề với nút bắt đầu A, BFS sẽ duyệt B và C trước, sau đó mới duyệt các nút ở tầng tiếp theo được nối từ B và C."
+        },
+        {
+          "type": "heading",
+          "ja": "最短経路探索",
+          "vi": "Tìm đường đi ngắn nhất"
+        },
+        {
+          "type": "paragraph",
+          "ja": "最短経路探索（Shortest Path Search）は、グラフ上のある地点から別の地点までの経路のうち、距離や時間、コストなどが最小となる経路を求める処理である。交通ネットワーク、通信ネットワーク、経路案内などで利用される。",
+          "vi": "Tìm đường đi ngắn nhất (Shortest Path Search) là quá trình tìm đường có tổng khoảng cách, thời gian hoặc chi phí nhỏ nhất giữa các điểm trên đồ thị. Nó được sử dụng trong mạng giao thông, mạng truyền thông và các hệ thống chỉ đường."
+        },
+        {
+          "type": "point",
+          "ja": "最短経路では、辺に設定された距離・時間・料金などを重みとして扱い、その合計が最小となる経路を求める。",
+          "vi": "Trong bài toán đường đi ngắn nhất, khoảng cách, thời gian hoặc chi phí của các cạnh có thể được xem là trọng số và mục tiêu là tìm đường có tổng trọng số nhỏ nhất."
+        },
+        {
+          "type": "heading",
+          "ja": "ダイクストラ法",
+          "vi": "Thuật toán Dijkstra"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ダイクストラ法（Dijkstra's Algorithm）は、始点から各頂点までの最短経路を求める代表的なアルゴリズムである。始点の距離を0とし、その他の頂点の距離を未確定として、現在最も距離が小さい頂点を順に確定しながら、隣接する頂点までの距離を更新していく。",
+          "vi": "Thuật toán Dijkstra là thuật toán tiêu biểu để tìm đường đi ngắn nhất từ một đỉnh bắt đầu đến các đỉnh khác. Khoảng cách của đỉnh bắt đầu được đặt bằng 0, sau đó thuật toán lần lượt xác định đỉnh có khoảng cách nhỏ nhất hiện tại và cập nhật khoảng cách đến các đỉnh kề."
+        },
+        {
+          "type": "example",
+          "ja": "始点AからBまでの距離が4、AからCまでが2、CからBまでが1の場合、AからBへ直接進む距離4より、A→C→Bの距離3の方が短いため、Bまでの最短距離は3となる。",
+          "vi": "Ví dụ, nếu A→B có trọng số 4, A→C là 2 và C→B là 1, thì đường A→C→B có tổng trọng số 3, nhỏ hơn đường trực tiếp A→B là 4. Vì vậy khoảng cách ngắn nhất đến B là 3."
+        },
+        {
+          "type": "point",
+          "ja": "基本的なダイクストラ法は、負の重みを持つ辺が存在するグラフには適用できない。",
+          "vi": "Thuật toán Dijkstra cơ bản không áp dụng được cho đồ thị có cạnh mang trọng số âm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、深さ優先探索は「深く進んでから戻る・スタック」、幅優先探索は「近いノードから順に探索・キュー」、ダイクストラ法は「最短距離が確定できる頂点から順に処理する」という違いを押さえることが重要である。",
+          "vi": "Trong FE, cần nhớ: DFS là 'đi sâu rồi quay lại, dùng stack'; BFS là 'duyệt các nút gần trước, dùng queue'; Dijkstra là 'lần lượt xử lý các đỉnh có thể xác định được khoảng cách ngắn nhất'."
+        }
+      ],
+      "terms": [
+        {
+          "term": "深さ優先探索",
+          "reading": "ふかさゆうせんたんさく",
+          "english": "Depth-First Search",
+          "vi": "tìm kiếm theo chiều sâu",
+          "definitionJa": "一つの経路を可能な限り深く探索し、行き止まりになったら戻って別の経路を探索する方法。",
+          "definitionVi": "Phương pháp đi sâu nhất có thể theo một đường, sau đó quay lại để tìm đường khác khi gặp ngõ cụt."
+        },
+        {
+          "term": "幅優先探索",
+          "reading": "はばゆうせんたんさく",
+          "english": "Breadth-First Search",
+          "vi": "tìm kiếm theo chiều rộng",
+          "definitionJa": "開始点に近いノードから階層ごとに順番に探索する方法。",
+          "definitionVi": "Phương pháp tìm kiếm lần lượt theo từng tầng, bắt đầu từ các nút gần điểm xuất phát."
+        },
+        {
+          "term": "最短経路探索",
+          "reading": "さいたんけいろたんさく",
+          "english": "Shortest Path Search",
+          "vi": "tìm đường đi ngắn nhất",
+          "definitionJa": "二つの地点間で距離やコストなどが最小となる経路を求める処理。",
+          "definitionVi": "Quá trình tìm đường có khoảng cách hoặc chi phí nhỏ nhất giữa các điểm."
+        },
+        {
+          "term": "ダイクストラ法",
+          "reading": "だいくすとらほう",
+          "english": "Dijkstra's Algorithm",
+          "vi": "thuật toán Dijkstra",
+          "definitionJa": "負の重みを持たないグラフで、始点から各頂点への最短経路を求めるアルゴリズム。",
+          "definitionVi": "Thuật toán tìm đường đi ngắn nhất từ một đỉnh bắt đầu đến các đỉnh khác trong đồ thị không có trọng số âm."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "graph-search",
+        "dfs",
+        "bfs",
+        "shortest-path",
+        "dijkstra"
+      ]
+    },
+    {
+      "id": "bellman-ford-algorithm",
+      "order": 5,
+      "titleJa": "ベルマンフォード法",
+      "titleVi": "Thuật toán Bellman-Ford",
+      "importance": "high",
+      "summaryJa": "負の重みを持つ辺を含むグラフに適用できるベルマンフォード法について、辺の緩和を繰り返す仕組みと負閉路の検出方法を理解する。",
+      "summaryVi": "Tìm hiểu thuật toán Bellman-Ford có thể áp dụng cho đồ thị chứa cạnh trọng số âm, bao gồm cơ chế lặp việc cập nhật khoảng cách và cách phát hiện chu trình âm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベルマンフォード法",
+          "vi": "Thuật toán Bellman-Ford"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ベルマンフォード法（Bellman-Ford Algorithm）は、単一の始点から他の頂点までの最短経路を求めるアルゴリズムである。ダイクストラ法とは異なり、負の重みを持つ辺が存在するグラフにも適用できる。ただし、始点から到達可能な負閉路がある場合、最短経路は定まらない。",
+          "vi": "Bellman-Ford là thuật toán tìm đường đi ngắn nhất từ một đỉnh bắt đầu đến các đỉnh khác. Khác với Dijkstra, thuật toán này có thể áp dụng cho đồ thị có cạnh mang trọng số âm. Tuy nhiên, nếu có chu trình âm có thể đi tới từ đỉnh bắt đầu thì đường đi ngắn nhất không xác định."
+        },
+        {
+          "type": "point",
+          "ja": "始点の距離を0、その他の頂点を未確定として初期化し、すべての辺について、より短い経路が見つかれば距離を更新する。この処理を頂点数−1回まで繰り返す。",
+          "vi": "Khoảng cách của đỉnh bắt đầu được đặt bằng 0, các đỉnh khác ở trạng thái chưa xác định. Sau đó kiểm tra tất cả các cạnh và cập nhật khoảng cách nếu tìm thấy đường ngắn hơn. Quá trình này được lặp tối đa số đỉnh − 1 lần."
+        },
+        {
+          "type": "heading",
+          "ja": "負の重み",
+          "vi": "Trọng số âm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ベルマンフォード法の重要な特徴は、負の重みを持つ辺を扱えることである。到達可能な負閉路がなければ、コストの減少などを負の値で表現するグラフでも最短経路を計算できる。",
+          "vi": "Đặc điểm quan trọng của Bellman-Ford là có thể xử lý cạnh có trọng số âm. Nếu không có chu trình âm có thể đi tới, thuật toán vẫn có thể tìm đường đi ngắn nhất trong đồ thị biểu diễn việc giảm chi phí bằng giá trị âm."
+        },
+        {
+          "type": "heading",
+          "ja": "負閉路の検出",
+          "vi": "Phát hiện chu trình âm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "頂点数−1回の更新を行った後でも、さらに距離を小さくできる辺が存在する場合、始点から到達可能な負閉路が存在すると判断できる。負閉路を繰り返し通ると経路のコストを際限なく小さくできるため、通常の意味での最短経路を定めることができない。",
+          "vi": "Nếu sau số đỉnh − 1 lần cập nhật mà vẫn còn cạnh có thể làm khoảng cách nhỏ hơn, có thể xác định rằng tồn tại chu trình âm có thể đi tới từ đỉnh bắt đầu. Vì đi qua chu trình này nhiều lần có thể làm tổng chi phí giảm không giới hạn nên không thể xác định đường đi ngắn nhất theo nghĩa thông thường."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、ダイクストラ法は負の重みを扱えないのに対し、ベルマンフォード法は負の重みを扱え、負閉路も検出できるという違いが重要である。到達可能な負閉路がある場合、最短経路は定まらない。",
+          "vi": "Trong FE, điểm cần nhớ là Dijkstra không xử lý được trọng số âm, trong khi Bellman-Ford có thể xử lý trọng số âm và còn có thể phát hiện chu trình âm. Nếu có chu trình âm có thể đi tới thì đường đi ngắn nhất không xác định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベルマンフォード法",
+          "reading": "べるまんふぉーどほう",
+          "english": "Bellman-Ford Algorithm",
+          "vi": "thuật toán Bellman-Ford",
+          "definitionJa": "到達可能な負閉路がない場合に、負の重みを持つ辺を含むグラフでも単一始点からの最短経路を求められ、負閉路も検出できるアルゴリズム。",
+          "definitionVi": "Thuật toán tìm đường đi ngắn nhất từ một đỉnh bắt đầu trong đồ thị có cạnh trọng số âm khi không có chu trình âm có thể đi tới từ đỉnh đó, đồng thời có thể phát hiện chu trình âm."
+        },
+        {
+          "term": "負閉路",
+          "reading": "ふへいろ",
+          "english": "Negative Cycle",
+          "vi": "chu trình âm",
+          "definitionJa": "辺の重みの合計が負になる閉路。",
+          "definitionVi": "Chu trình có tổng trọng số của các cạnh là số âm."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "graph",
+        "shortest-path",
+        "bellman-ford",
+        "negative-weight"
+      ]
+    },
+    {
+      "id": "semantic-and-language-analysis",
+      "order": 7,
+      "titleJa": "意味解析と自然言語処理",
+      "titleVi": "Phân tích ngữ nghĩa và xử lý ngôn ngữ tự nhiên",
+      "importance": "medium",
+      "summaryJa": "意味解析、文脈解析、係り受け解析、n-gramについて、それぞれが言語データの何を解析する技術なのか、その違いと基本的な仕組みを理解する。",
+      "summaryVi": "Tìm hiểu phân tích ngữ nghĩa, phân tích ngữ cảnh, phân tích quan hệ phụ thuộc và n-gram, đồng thời phân biệt đối tượng và cơ chế xử lý cơ bản của từng kỹ thuật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "意味解析",
+          "vi": "Phân tích ngữ nghĩa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "意味解析（Semantic Analysis）は、文や語句が表す意味を解析する処理である。単に単語や文の構造を調べるだけではなく、語の意味や文全体が何を表しているのかを判断する。",
+          "vi": "Phân tích ngữ nghĩa (Semantic Analysis) là quá trình phân tích ý nghĩa mà câu hoặc cụm từ biểu đạt. Nó không chỉ xem xét từ và cấu trúc câu mà còn xác định ý nghĩa của từ và nội dung mà toàn bộ câu muốn truyền đạt."
+        },
+        {
+          "type": "point",
+          "ja": "自然言語処理では、単語の多義性や文の構造などを考慮して意味を判断する。検索エンジン、機械翻訳、質問応答などに利用される。",
+          "vi": "Trong xử lý ngôn ngữ tự nhiên, ý nghĩa được xác định bằng cách xem xét nhiều yếu tố như tính đa nghĩa của từ và cấu trúc câu. Kỹ thuật này được sử dụng trong công cụ tìm kiếm, dịch máy và hệ thống hỏi đáp."
+        },
+        {
+          "type": "heading",
+          "ja": "文脈解析",
+          "vi": "Phân tích ngữ cảnh"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文脈解析（Context Analysis）は、ある単語や文だけを見るのではなく、その前後の文章や周囲の情報を考慮して意味を判断する処理である。同じ単語でも文脈によって意味が異なる場合があるため、自然言語を正しく理解するために重要である。",
+          "vi": "Phân tích ngữ cảnh (Context Analysis) là quá trình xác định ý nghĩa bằng cách xem xét không chỉ một từ hay một câu riêng lẻ mà cả các câu trước sau và thông tin xung quanh. Do cùng một từ có thể mang ý nghĩa khác nhau tùy ngữ cảnh, kỹ thuật này rất quan trọng để hiểu chính xác ngôn ngữ tự nhiên."
+        },
+        {
+          "type": "point",
+          "ja": "文脈解析では、前後の情報を利用することで、単語の意味や発言者の意図などをより適切に判断できる。",
+          "vi": "Phân tích ngữ cảnh sử dụng thông tin trước và sau để xác định chính xác hơn ý nghĩa của từ cũng như ý định của người nói."
+        },
+        {
+          "type": "heading",
+          "ja": "係り受け解析",
+          "vi": "Phân tích quan hệ phụ thuộc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "係り受け解析（Dependency Parsing）は、文の中で、どの語や文節がどの語や文節に係っているかという関係を解析する処理である。文の構造や語同士の関係を把握するために用いられる。",
+          "vi": "Phân tích quan hệ phụ thuộc (Dependency Parsing) là quá trình xác định từ hoặc cụm từ nào trong câu phụ thuộc hay liên hệ với từ hoặc cụm từ nào khác. Nó được sử dụng để nắm bắt cấu trúc câu và mối quan hệ giữa các thành phần."
+        },
+        {
+          "type": "example",
+          "ja": "例えば「犬が公園で遊んでいる」という文では、「犬が」や「公園で」が「遊んでいる」に係るという関係を解析する。",
+          "vi": "Ví dụ, trong câu 「犬が公園で遊んでいる」, có thể phân tích rằng 「犬が」 và 「公園で」 có quan hệ phụ thuộc với 「遊んでいる」."
+        },
+        {
+          "type": "heading",
+          "ja": "n-gram",
+          "vi": "n-gram"
+        },
+        {
+          "type": "paragraph",
+          "ja": "n-gramは、文章や文字列を連続するn個の文字や単語の単位に分割する手法である。nが1の場合をuni-gram、2の場合をbi-gram、3の場合をtri-gramという。",
+          "vi": "n-gram là phương pháp chia văn bản hoặc chuỗi thành các nhóm gồm n ký tự hoặc n từ liên tiếp. Khi n = 1 gọi là uni-gram, n = 2 là bi-gram và n = 3 là tri-gram."
+        },
+        {
+          "type": "example",
+          "ja": "例えば「私は猫が好きです」を単語単位で「私／は／猫／が／好き／です」と分割して2-gramにすると、「私／は」「は／猫」「猫／が」「が／好き」「好き／です」のように、隣接する二つの単語の組として扱う。",
+          "vi": "Ví dụ, nếu tách 「私は猫が好きです」 thành các đơn vị từ 「私／は／猫／が／好き／です」 rồi tạo 2-gram, ta được các cặp từ liền nhau như 「私／は」, 「は／猫」, 「猫／が」, 「が／好き」 và 「好き／です」."
+        },
+        {
+          "type": "point",
+          "ja": "n-gramは、文字列検索、自然言語処理、入力予測などで利用される。文字単位のn-gramと単語単位のn-gramがあることを押さえる。",
+          "vi": "n-gram được sử dụng trong tìm kiếm chuỗi, xử lý ngôn ngữ tự nhiên và dự đoán đầu vào. Cần nhớ rằng n-gram có thể được tạo theo đơn vị ký tự hoặc đơn vị từ."
+        },
+        {
+          "type": "point",
+          "ja": "形態素解析は語を分割して品詞などを調べ、構文解析・係り受け解析は文の構造や語の関係を調べ、意味解析・文脈解析はその意味を理解するための処理である。",
+          "vi": "Cần phân biệt: phân tích hình thái tách câu thành các đơn vị từ và xác định từ loại; phân tích cú pháp và quan hệ phụ thuộc xem xét cấu trúc câu và quan hệ giữa các thành phần; còn phân tích ngữ nghĩa và ngữ cảnh hướng tới việc hiểu ý nghĩa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "意味解析",
+          "reading": "いみかいせき",
+          "english": "Semantic Analysis",
+          "vi": "phân tích ngữ nghĩa",
+          "definitionJa": "文や語句が表す意味を解析する処理。",
+          "definitionVi": "Quá trình phân tích ý nghĩa được biểu đạt bởi câu hoặc cụm từ."
+        },
+        {
+          "term": "文脈解析",
+          "reading": "ぶんみゃくかいせき",
+          "english": "Context Analysis",
+          "vi": "phân tích ngữ cảnh",
+          "definitionJa": "前後の文章や周囲の情報を考慮して、語や文の意味を解析する処理。",
+          "definitionVi": "Quá trình phân tích ý nghĩa của từ hoặc câu dựa trên thông tin và văn bản xung quanh."
+        },
+        {
+          "term": "係り受け解析",
+          "reading": "かかりうけかいせき",
+          "english": "Dependency Parsing",
+          "vi": "phân tích quan hệ phụ thuộc",
+          "definitionJa": "文中の語や文節の係り受け関係を解析する処理。",
+          "definitionVi": "Quá trình phân tích quan hệ phụ thuộc giữa các từ hoặc cụm từ trong câu."
+        },
+        {
+          "term": "n-gram",
+          "reading": "えぬぐらむ",
+          "english": "n-gram",
+          "vi": "n-gram",
+          "definitionJa": "文字列や文章を連続するn個の文字または単語の単位に分割する手法。",
+          "definitionVi": "Phương pháp chia chuỗi hoặc văn bản thành các nhóm gồm n ký tự hoặc n từ liên tiếp."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "natural-language-processing",
+        "semantic-analysis",
+        "context-analysis",
+        "dependency-parsing",
+        "n-gram"
+      ]
+    },
+    {
+      "id": "textual-similarity",
+      "order": 8,
+      "titleJa": "文章間類似度",
+      "titleVi": "Độ tương đồng giữa các văn bản",
+      "importance": "medium",
+      "summaryJa": "二つの文章がどの程度似ているかを数値で表す文章間類似度について、基本的な考え方と代表的な類似度指標を理解する。",
+      "summaryVi": "Tìm hiểu độ tương đồng giữa hai văn bản, cách biểu diễn mức độ giống nhau bằng giá trị số và các chỉ số tương đồng tiêu biểu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "文章間類似度",
+          "vi": "Độ tương đồng giữa các văn bản"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文章間類似度（Textual Similarity）は、二つの文章がどの程度似ているかを数値で表す指標である。文章に含まれる単語や特徴などを利用して比較し、内容や表現の類似性を評価する。",
+          "vi": "Độ tương đồng giữa các văn bản (Textual Similarity) là chỉ số biểu diễn bằng số mức độ giống nhau giữa hai văn bản. Các từ và đặc trưng có trong văn bản được sử dụng để so sánh và đánh giá sự tương đồng về nội dung hoặc cách biểu đạt."
+        },
+        {
+          "type": "heading",
+          "ja": "利用例",
+          "vi": "Ví dụ ứng dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文章間類似度は、自然言語処理における文章分類、情報検索、類似文書の検索などに利用される。例えば、検索エンジンでは、入力された検索語や文章と各文書との類似性を評価し、関連性の高い情報を探すために利用できる。",
+          "vi": "Độ tương đồng văn bản được sử dụng trong xử lý ngôn ngữ tự nhiên như phân loại văn bản, truy xuất thông tin và tìm kiếm tài liệu tương tự. Ví dụ, công cụ tìm kiếm có thể đánh giá mức độ tương đồng giữa truy vấn hoặc văn bản đầu vào với các tài liệu để tìm thông tin có liên quan cao."
+        },
+        {
+          "type": "heading",
+          "ja": "代表的な類似度",
+          "vi": "Các chỉ số tương đồng tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文章やデータの類似性を数値化する方法として、コサイン類似度やJaccard係数などがある。コサイン類似度はベクトル化したデータの向きの近さを利用し、Jaccard係数は二つの集合に共通する要素の割合を利用して類似性を求める。",
+          "vi": "Các phương pháp số hóa mức độ tương đồng của văn bản hoặc dữ liệu gồm cosine similarity và hệ số Jaccard. Cosine similarity đánh giá độ gần nhau về hướng của các vector, còn hệ số Jaccard dựa trên tỷ lệ các phần tử chung giữa hai tập hợp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、類似度は「どの程度似ているか」を数値化した指標であることと、コサイン類似度やJaccard係数などの代表的な方法を押さえる。",
+          "vi": "Trong FE, cần nhớ similarity là chỉ số số hóa 'mức độ giống nhau', cùng các phương pháp tiêu biểu như cosine similarity và hệ số Jaccard."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文章間類似度",
+          "reading": "ぶんしょうかんるいじど",
+          "english": "Textual Similarity",
+          "vi": "độ tương đồng giữa các văn bản",
+          "definitionJa": "二つの文章がどの程度似ているかを数値で表した指標。",
+          "definitionVi": "Chỉ số biểu diễn bằng số mức độ giống nhau giữa hai văn bản."
+        },
+        {
+          "term": "コサイン類似度",
+          "reading": "こさいんるいじど",
+          "english": "Cosine Similarity",
+          "vi": "độ tương đồng cosine",
+          "definitionJa": "二つのベクトルが示す方向の近さを基に類似度を求める方法。",
+          "definitionVi": "Phương pháp tính độ tương đồng dựa trên độ gần nhau về hướng của hai vector."
+        },
+        {
+          "term": "Jaccard係数",
+          "reading": "じゃっかーどけいすう",
+          "english": "Jaccard Index",
+          "vi": "hệ số Jaccard",
+          "definitionJa": "二つの集合の和集合に対する共通部分の割合によって類似度を表す指標。",
+          "definitionVi": "Chỉ số biểu diễn độ tương đồng bằng tỷ lệ giữa phần giao và phần hợp của hai tập hợp."
+        }
+      ],
+      "tags": [
+        "algorithms",
+        "textual-similarity",
+        "cosine-similarity",
+        "jaccard-index",
+        "natural-language-processing"
+      ]
+    }
+  ]
+}
