@@ -11,6 +11,8 @@ import algorithmProgramIndexJson from "@/data/fe/theory/02-algorithm-program/ind
 import dataStructuresJson from "@/data/fe/theory/02-algorithm-program/01-data-structures.json";
 import algorithmsJson from "@/data/fe/theory/02-algorithm-program/02-algorithms.json";
 import programmingJson from "@/data/fe/theory/02-algorithm-program/03-programming.json";
+import programmingLanguages from "@/data/fe/theory/02-algorithm-program/04-programming-languages.json";
+import otherLanguages from "@/data/fe/theory/02-algorithm-program/05-other-languages.json";
 
 import type {
   FeCategory,
@@ -49,6 +51,8 @@ const algorithmProgramCategory: FeCategory = {
     dataStructuresJson as FeChapter,
     algorithmsJson as FeChapter,
     programmingJson as FeChapter,
+    programmingLanguages as FeChapter,
+    otherLanguages as FeChapter,
   ],
 };
 

@@ -1,0 +1,1888 @@
+{
+  "id": "other-languages",
+  "order": 5,
+  "titleJa": "その他の言語",
+  "titleVi": "Các ngôn ngữ khác",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "markup-language",
+      "order": 1,
+      "titleJa": "マークアップ言語",
+      "titleVi": "Ngôn ngữ đánh dấu",
+      "importance": "high",
+      "summaryJa": "タグなどの記号を使って文書の構造や表現を記述するマークアップ言語について理解する。",
+      "summaryVi": "Tìm hiểu ngôn ngữ đánh dấu, sử dụng các ký hiệu như thẻ để mô tả cấu trúc và cách trình bày của tài liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マークアップ言語とは",
+          "vi": "Ngôn ngữ đánh dấu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マークアップ言語は、文書の構造や表現を記述するための特別な形式の言語である。主にWebページの作成などで使用され、HTMLが代表例である。",
+          "vi": "Ngôn ngữ đánh dấu là loại ngôn ngữ dùng để mô tả cấu trúc và cách trình bày của tài liệu. Nó được sử dụng phổ biến trong việc tạo trang Web, với HTML là một ví dụ tiêu biểu."
+        },
+        {
+          "type": "heading",
+          "ja": "タグによる記述",
+          "vi": "Mô tả bằng thẻ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "タグと呼ばれる特定の記号を使って、テキストや画像などのコンテンツを整理し、ブラウザなどが正しく表示できるように構造を指定する。",
+          "vi": "Các ký hiệu đặc biệt gọi là thẻ (tag) được sử dụng để tổ chức nội dung như văn bản và hình ảnh, đồng thời chỉ định cấu trúc để trình duyệt có thể hiển thị chính xác."
+        },
+        {
+          "type": "example",
+          "ja": "HTMLでは、段落に<p>、見出しに<h1>などのタグを使用する。",
+          "vi": "Trong HTML, thẻ <p> được dùng cho đoạn văn và <h1> được dùng cho tiêu đề."
+        },
+        {
+          "type": "point",
+          "ja": "マークアップ言語はプログラムの処理手順を記述する言語ではなく、文書の構造や意味をタグなどで記述するための言語である。",
+          "vi": "Ngôn ngữ đánh dấu không dùng để mô tả trình tự xử lý của chương trình mà chủ yếu dùng các thẻ để mô tả cấu trúc và ý nghĩa của tài liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マークアップ言語",
+          "reading": "まーくあっぷげんご",
+          "english": "Markup Language",
+          "vi": "Ngôn ngữ đánh dấu",
+          "definitionJa": "タグなどの記号を用いて文書の構造や表現を記述するための言語。",
+          "definitionVi": "Ngôn ngữ sử dụng các ký hiệu như thẻ để mô tả cấu trúc và cách trình bày của tài liệu."
+        }
+      ],
+      "tags": ["markup-language", "html", "web"]
+    },
+    {
+      "id": "html",
+      "order": 2,
+      "titleJa": "HTML",
+      "titleVi": "HTML",
+      "importance": "high",
+      "summaryJa": "Webページの構造を記述するための標準的なマークアップ言語であるHTMLについて理解する。",
+      "summaryVi": "Tìm hiểu HTML, ngôn ngữ đánh dấu tiêu chuẩn dùng để mô tả cấu trúc của trang Web.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "HTMLとは",
+          "vi": "HTML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTML（HyperText Markup Language）は、Webページを作成するための標準的なマークアップ言語である。テキスト、画像、リンクなどの情報を構造的に記述するために使用される。",
+          "vi": "HTML (HyperText Markup Language) là ngôn ngữ đánh dấu tiêu chuẩn dùng để tạo trang Web. Nó được sử dụng để mô tả có cấu trúc các thông tin như văn bản, hình ảnh và liên kết."
+        },
+        {
+          "type": "heading",
+          "ja": "HTMLの要素",
+          "vi": "Phần tử HTML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTMLは要素を基本単位として構成され、多くの要素はタグを使って記述される。これにより、見出し、段落、リストなどの文書構造を表現できる。",
+          "vi": "HTML được cấu thành từ các phần tử (element) làm đơn vị cơ bản, và nhiều phần tử được mô tả bằng thẻ. Nhờ đó có thể biểu diễn cấu trúc tài liệu như tiêu đề, đoạn văn và danh sách."
+        },
+        {
+          "type": "heading",
+          "ja": "CSS・JavaScriptとの関係",
+          "vi": "Quan hệ với CSS và JavaScript"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTMLは、スタイルを指定するCSSや動的な処理を行うJavaScriptと組み合わせて使用されることで、より豊かなWebページを構築できる。",
+          "vi": "HTML thường được kết hợp với CSS để định dạng giao diện và JavaScript để thực hiện các xử lý động, từ đó tạo ra các trang Web phong phú hơn."
+        },
+        {
+          "type": "point",
+          "ja": "HTMLはWebページの構造を記述するマークアップ言語であり、CSSは見た目、JavaScriptは動的な処理を主に担当する。",
+          "vi": "HTML chủ yếu mô tả cấu trúc trang Web, CSS phụ trách giao diện và JavaScript phụ trách các xử lý động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HTML",
+          "reading": "えいちてぃーえむえる",
+          "english": "HyperText Markup Language",
+          "vi": "Ngôn ngữ đánh dấu siêu văn bản",
+          "definitionJa": "Webページの構造を記述するために使用される標準的なマークアップ言語。",
+          "definitionVi": "Ngôn ngữ đánh dấu tiêu chuẩn được sử dụng để mô tả cấu trúc của trang Web."
+        }
+      ],
+      "tags": ["html", "markup-language", "web"]
+    },
+    {
+      "id": "opening-tag",
+      "order": 3,
+      "titleJa": "開始タグ",
+      "titleVi": "Thẻ mở",
+      "importance": "high",
+      "summaryJa": "HTMLやXMLなどで要素の始まりを示す開始タグの役割について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của thẻ mở, ký hiệu cho biết vị trí bắt đầu của một phần tử trong HTML, XML và các ngôn ngữ đánh dấu khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "開始タグとは",
+          "vi": "Thẻ mở là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "開始タグは、HTMLやXMLなどのマークアップ言語において、要素の始まりを示すための記号である。",
+          "vi": "Thẻ mở là ký hiệu dùng để chỉ vị trí bắt đầu của một phần tử trong các ngôn ngữ đánh dấu như HTML và XML."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、<p>文章</p>では、<p>が開始タグであり、段落要素の開始を示す。",
+          "vi": "Ví dụ, trong <p>văn bản</p>, <p> là thẻ mở và cho biết vị trí bắt đầu của phần tử đoạn văn."
+        },
+        {
+          "type": "heading",
+          "ja": "終了タグとの関係",
+          "vi": "Quan hệ với thẻ đóng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "開始タグと対応する終了タグを組み合わせることで、要素の範囲を明確にする。ブラウザはこの構造を解析して内容を適切に表示する。",
+          "vi": "Kết hợp thẻ mở với thẻ đóng tương ứng giúp xác định rõ phạm vi của phần tử. Trình duyệt phân tích cấu trúc này để hiển thị nội dung phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "開始タグは要素の開始位置を示し、一般に対応する終了タグと組み合わせて要素の範囲を表す。",
+          "vi": "Thẻ mở cho biết vị trí bắt đầu của phần tử và thường kết hợp với thẻ đóng tương ứng để xác định phạm vi của phần tử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "開始タグ",
+          "reading": "かいしたぐ",
+          "english": "Opening Tag",
+          "vi": "Thẻ mở",
+          "definitionJa": "HTMLやXMLなどで要素の始まりを示すタグ。",
+          "definitionVi": "Thẻ biểu thị vị trí bắt đầu của một phần tử trong HTML, XML và các ngôn ngữ đánh dấu tương tự."
+        }
+      ],
+      "tags": ["html", "tag", "opening-tag"]
+    },
+    {
+      "id": "closing-tag",
+      "order": 4,
+      "titleJa": "終了タグ",
+      "titleVi": "Thẻ đóng",
+      "importance": "high",
+      "summaryJa": "HTMLやXMLなどで要素の終了位置を示す終了タグの役割について理解する。",
+      "summaryVi": "Tìm hiểu vai trò của thẻ đóng, ký hiệu cho biết vị trí kết thúc của một phần tử trong HTML, XML và các ngôn ngữ đánh dấu khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "終了タグとは",
+          "vi": "Thẻ đóng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "終了タグは、HTMLやXMLなどのマークアップ言語において、要素の終了を示すために使用されるタグである。開始タグと組み合わせて要素の範囲を表す。",
+          "vi": "Thẻ đóng là thẻ dùng để biểu thị vị trí kết thúc của một phần tử trong các ngôn ngữ đánh dấu như HTML và XML. Nó kết hợp với thẻ mở để xác định phạm vi của phần tử."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、<p>文章</p>では、</p>が終了タグであり、段落要素の終了を示す。",
+          "vi": "Ví dụ, trong <p>văn bản</p>, </p> là thẻ đóng và biểu thị vị trí kết thúc của phần tử đoạn văn."
+        },
+        {
+          "type": "heading",
+          "ja": "正しいタグの対応",
+          "vi": "Ghép thẻ đúng cách"
+        },
+        {
+          "type": "paragraph",
+          "ja": "開始タグと終了タグを正しく対応させることは、文書構造を正しく表現するために重要である。対応が不適切な場合、表示崩れや意図しない結果につながることがある。",
+          "vi": "Ghép chính xác thẻ mở và thẻ đóng là điều quan trọng để biểu diễn đúng cấu trúc tài liệu. Nếu các thẻ không tương ứng đúng, có thể dẫn đến hiển thị sai hoặc kết quả ngoài ý muốn."
+        },
+        {
+          "type": "point",
+          "ja": "終了タグは要素の終了位置を示す。例えば、<p>に対応する終了タグは</p>である。",
+          "vi": "Thẻ đóng biểu thị vị trí kết thúc của phần tử. Ví dụ, thẻ đóng tương ứng với <p> là </p>."
+        }
+      ],
+      "terms": [
+        {
+          "term": "終了タグ",
+          "reading": "しゅうりょうたぐ",
+          "english": "Closing Tag",
+          "vi": "Thẻ đóng",
+          "definitionJa": "HTMLやXMLなどで要素の終了を示すタグ。",
+          "definitionVi": "Thẻ biểu thị vị trí kết thúc của một phần tử trong HTML, XML và các ngôn ngữ đánh dấu tương tự."
+        }
+      ],
+      "tags": ["html", "tag", "closing-tag"]
+    },
+    {
+      "id": "dtd",
+      "order": 5,
+      "titleJa": "DTD",
+      "titleVi": "Định nghĩa kiểu tài liệu",
+      "importance": "high",
+      "summaryJa": "XMLやSGML文書で使用できる要素や属性、文書構造を定義するDTDについて理解する。",
+      "summaryVi": "Tìm hiểu DTD, cơ chế dùng để định nghĩa các phần tử, thuộc tính và cấu trúc hợp lệ của tài liệu XML hoặc SGML.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DTDとは",
+          "vi": "DTD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DTD（Document Type Definition）は、XMLやSGML文書において、使用できる要素や属性、要素の並び方などの文書構造を定義するための仕組みである。",
+          "vi": "DTD (Document Type Definition) là cơ chế dùng để định nghĩa cấu trúc tài liệu XML hoặc SGML, chẳng hạn các phần tử, thuộc tính được phép sử dụng và cách các phần tử có thể được sắp xếp."
+        },
+        {
+          "type": "heading",
+          "ja": "文書構造の定義",
+          "vi": "Định nghĩa cấu trúc tài liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DTDを利用すると、文書にどの要素を含めることができるか、各要素にどの属性を指定できるか、要素をどのような順序や階層で配置するかを定義できる。",
+          "vi": "Sử dụng DTD cho phép quy định tài liệu có thể chứa những phần tử nào, mỗi phần tử có thể có thuộc tính gì và các phần tử phải được sắp xếp theo thứ tự hay cấu trúc phân cấp nào."
+        },
+        {
+          "type": "heading",
+          "ja": "DTDの目的",
+          "vi": "Mục đích của DTD"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文書が定義された構造に従っているかを確認することで、文書の整合性を保ちやすくなる。また、共通の構造を利用することで、異なるシステム間でデータを交換しやすくなる。",
+          "vi": "Bằng cách kiểm tra tài liệu có tuân theo cấu trúc đã định nghĩa hay không, có thể duy trì tính nhất quán của tài liệu. Việc sử dụng chung một cấu trúc cũng giúp trao đổi dữ liệu giữa các hệ thống khác nhau dễ dàng hơn."
+        },
+        {
+          "type": "point",
+          "ja": "DTDは文書そのものではなく、XMLやSGML文書の要素・属性・構造を定義するための規則である。",
+          "vi": "DTD không phải bản thân tài liệu mà là tập quy tắc định nghĩa phần tử, thuộc tính và cấu trúc của tài liệu XML hoặc SGML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DTD",
+          "reading": "でぃーてぃーでぃー",
+          "english": "Document Type Definition",
+          "vi": "định nghĩa kiểu tài liệu",
+          "definitionJa": "XMLやSGML文書で使用できる要素や属性、文書構造を定義するための仕組み。",
+          "definitionVi": "Cơ chế định nghĩa các phần tử, thuộc tính và cấu trúc được phép sử dụng trong tài liệu XML hoặc SGML."
+        }
+      ],
+      "tags": ["markup-language", "dtd", "xml", "sgml"]
+    },
+    {
+      "id": "sgml",
+      "order": 6,
+      "titleJa": "SGML",
+      "titleVi": "SGML",
+      "importance": "medium",
+      "summaryJa": "文書の構造や意味を記述するための汎用的なマークアップ言語であり、HTMLやXMLの基礎となったSGMLについて理解する。",
+      "summaryVi": "Tìm hiểu SGML, ngôn ngữ đánh dấu tổng quát dùng để mô tả cấu trúc và ý nghĩa của tài liệu, đồng thời là nền tảng lịch sử của HTML và XML.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SGMLとは",
+          "vi": "SGML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SGML（Standard Generalized Markup Language）は、文書の構造や意味を記述するための汎用的なマークアップ言語である。",
+          "vi": "SGML (Standard Generalized Markup Language) là ngôn ngữ đánh dấu tổng quát dùng để mô tả cấu trúc và ý nghĩa của tài liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "構造化された文書",
+          "vi": "Tài liệu có cấu trúc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SGMLでは、見出し、段落、表などの文書要素をマークアップによって区別し、文書の構造を明確に表現できる。表示方法そのものよりも、文書が持つ構造や意味を記述することを重視する。",
+          "vi": "Trong SGML, các thành phần như tiêu đề, đoạn văn và bảng có thể được phân biệt bằng markup để biểu diễn rõ cấu trúc tài liệu. SGML chú trọng mô tả cấu trúc và ý nghĩa hơn là cách hiển thị cụ thể."
+        },
+        {
+          "type": "heading",
+          "ja": "HTML・XMLとの関係",
+          "vi": "Quan hệ với HTML và XML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SGMLは、HTMLの基礎となった規格であり、XMLもSGMLの考え方を基に簡略化して設計されたマークアップ言語である。",
+          "vi": "SGML là tiêu chuẩn làm nền tảng cho HTML; XML cũng được thiết kế dựa trên tư tưởng của SGML nhưng được đơn giản hóa."
+        },
+        {
+          "type": "point",
+          "ja": "SGMLは汎用的なマークアップ言語であり、HTMLやXMLにつながる重要な基礎技術である。",
+          "vi": "SGML là ngôn ngữ đánh dấu tổng quát và là nền tảng quan trọng dẫn đến HTML và XML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SGML",
+          "reading": "えすじーえむえる",
+          "english": "Standard Generalized Markup Language",
+          "vi": "ngôn ngữ đánh dấu tổng quát chuẩn",
+          "definitionJa": "文書の構造や意味を記述するための汎用的なマークアップ言語。",
+          "definitionVi": "Ngôn ngữ đánh dấu tổng quát dùng để mô tả cấu trúc và ý nghĩa của tài liệu."
+        }
+      ],
+      "tags": ["markup-language", "sgml", "html", "xml"]
+    },
+    {
+      "id": "xml",
+      "order": 7,
+      "titleJa": "XML",
+      "titleVi": "XML",
+      "importance": "high",
+      "summaryJa": "データの構造や意味をタグによって表現し、システム間のデータ交換などに利用されるXMLについて理解する。",
+      "summaryVi": "Tìm hiểu XML, ngôn ngữ đánh dấu dùng thẻ để biểu diễn cấu trúc và ý nghĩa dữ liệu, thường được sử dụng trong trao đổi dữ liệu giữa các hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XMLとは",
+          "vi": "XML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XML（Extensible Markup Language）は、データの構造や意味をタグを使って記述するためのマークアップ言語である。利用目的に応じて独自のタグを定義できることが特徴である。",
+          "vi": "XML (Extensible Markup Language) là ngôn ngữ đánh dấu dùng các thẻ để mô tả cấu trúc và ý nghĩa của dữ liệu. Một đặc điểm quan trọng là có thể định nghĩa các thẻ riêng tùy theo mục đích sử dụng."
+        },
+        {
+          "type": "heading",
+          "ja": "XMLの特徴",
+          "vi": "Đặc điểm của XML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XMLでは、タグ名によってデータの意味を明確にできるため、人間にもプログラムにも比較的理解しやすい形式でデータを表現できる。",
+          "vi": "Trong XML, tên thẻ có thể thể hiện rõ ý nghĩa của dữ liệu, vì vậy dữ liệu có thể được biểu diễn theo định dạng tương đối dễ hiểu đối với cả con người và chương trình."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、書籍データでは<title>や<author>などのタグを定義し、それぞれ書名や著者名を表すことができる。",
+          "vi": "Ví dụ, với dữ liệu sách có thể định nghĩa các thẻ như <title> và <author> để biểu diễn tên sách và tên tác giả."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XMLは、異なるシステム間のデータ交換、設定ファイル、Webサービスなどで利用されてきた。データを構造化して表現できることが大きな特徴である。",
+          "vi": "XML được sử dụng trong trao đổi dữ liệu giữa các hệ thống khác nhau, file cấu hình và Web service. Khả năng biểu diễn dữ liệu có cấu trúc là một đặc điểm quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "HTMLは主にWeb文書を表現するためのタグが定められているのに対し、XMLでは用途に応じてタグを定義できる。",
+          "vi": "Trong khi HTML có các thẻ được quy định chủ yếu để biểu diễn tài liệu Web, XML cho phép định nghĩa thẻ phù hợp với mục đích sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XML",
+          "reading": "えっくすえむえる",
+          "english": "Extensible Markup Language",
+          "vi": "ngôn ngữ đánh dấu mở rộng",
+          "definitionJa": "データの構造や意味を独自に定義したタグで記述できるマークアップ言語。",
+          "definitionVi": "Ngôn ngữ đánh dấu cho phép mô tả cấu trúc và ý nghĩa dữ liệu bằng các thẻ có thể tự định nghĩa."
+        }
+      ],
+      "tags": ["markup-language", "xml", "structured-data", "data-exchange"]
+    },
+    {
+      "id": "dom",
+      "order": 8,
+      "titleJa": "DOM",
+      "titleVi": "Mô hình đối tượng tài liệu",
+      "importance": "high",
+      "summaryJa": "HTMLやXML文書を木構造として表現し、プログラムから各要素を参照・変更するためのDOMについて理解する。",
+      "summaryVi": "Tìm hiểu DOM, mô hình biểu diễn tài liệu HTML hoặc XML dưới dạng cây để chương trình có thể truy cập và thay đổi từng phần tử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DOMとは",
+          "vi": "DOM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DOM（Document Object Model）は、HTMLやXML文書をプログラムから操作するために、文書をオブジェクトの木構造として表現する仕組みである。",
+          "vi": "DOM (Document Object Model) là cơ chế biểu diễn tài liệu HTML hoặc XML dưới dạng cây các đối tượng để chương trình có thể thao tác với tài liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "木構造としての表現",
+          "vi": "Biểu diễn dưới dạng cây"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTML文書の各要素はノードとして表現され、親子関係を持つ木構造を形成する。これにより、プログラムから特定の要素を検索したり、その内容や属性を変更したりできる。",
+          "vi": "Mỗi phần tử trong tài liệu HTML được biểu diễn như một node và tạo thành cấu trúc cây có quan hệ cha-con. Nhờ đó, chương trình có thể tìm một phần tử cụ thể hoặc thay đổi nội dung và thuộc tính của nó."
+        },
+        {
+          "type": "heading",
+          "ja": "JavaScriptによる操作",
+          "vi": "Thao tác bằng JavaScript"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webページでは、JavaScriptからDOMを操作することで、表示されている文字を変更したり、要素を追加・削除したりできる。これにより、ユーザー操作に応じて画面を動的に変更できる。",
+          "vi": "Trên trang Web, JavaScript có thể thao tác DOM để thay đổi nội dung hiển thị hoặc thêm, xóa phần tử. Nhờ đó, giao diện có thể được thay đổi động theo thao tác của người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "DOMはHTMLやXMLそのものではなく、それらの文書をプログラムから操作するためのオブジェクトモデルである。",
+          "vi": "DOM không phải là HTML hay XML, mà là mô hình đối tượng dùng để chương trình thao tác với các tài liệu đó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DOM",
+          "reading": "どむ",
+          "english": "Document Object Model",
+          "vi": "mô hình đối tượng tài liệu",
+          "definitionJa": "HTMLやXML文書を木構造として表現し、プログラムから要素を参照・変更できるようにする仕組み。",
+          "definitionVi": "Cơ chế biểu diễn tài liệu HTML hoặc XML dưới dạng cây, cho phép chương trình truy cập và thay đổi các phần tử."
+        }
+      ],
+      "tags": ["markup-language", "dom", "html", "xml", "javascript"]
+    },
+    {
+      "id": "soap",
+      "order": 9,
+      "titleJa": "SOAP",
+      "titleVi": "SOAP",
+      "importance": "high",
+      "summaryJa": "XML形式のメッセージを利用して、異なるシステム間で情報を交換するためのSOAPについて理解する。",
+      "summaryVi": "Tìm hiểu SOAP, giao thức sử dụng thông điệp dạng XML để trao đổi thông tin giữa các hệ thống khác nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SOAPとは",
+          "vi": "SOAP là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SOAP（Simple Object Access Protocol）は、異なるシステム間で情報を交換するためのプロトコルである。主にWebサービスで利用され、XML形式でメッセージを記述する。",
+          "vi": "SOAP (Simple Object Access Protocol) là giao thức dùng để trao đổi thông tin giữa các hệ thống khác nhau. Nó chủ yếu được sử dụng trong Web service và mô tả thông điệp bằng XML."
+        },
+        {
+          "type": "heading",
+          "ja": "XMLによるメッセージ交換",
+          "vi": "Trao đổi thông điệp bằng XML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SOAPでは、要求や応答などのメッセージをXMLで構造化して送受信する。XMLを利用するため、使用するプログラミング言語やOSが異なるシステム同士でもデータを交換しやすい。",
+          "vi": "Trong SOAP, các thông điệp như request và response được cấu trúc bằng XML để gửi và nhận. Nhờ sử dụng XML, các hệ thống dùng ngôn ngữ lập trình hoặc hệ điều hành khác nhau vẫn có thể trao đổi dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "通信",
+          "vi": "Truyền thông"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SOAPメッセージはHTTPなどの通信プロトコルを利用して送受信できる。企業間システムやWebサービスなど、異なる環境を連携させる用途で利用される。",
+          "vi": "Thông điệp SOAP có thể được gửi và nhận thông qua các giao thức truyền thông như HTTP. SOAP được sử dụng để liên kết Web service và các hệ thống doanh nghiệp hoạt động trong những môi trường khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "SOAPではXML形式のメッセージを交換する。SOAPとXML、HTTPの関係を区別して覚えることが重要である。",
+          "vi": "SOAP trao đổi thông điệp ở dạng XML. Cần phân biệt rõ vai trò của SOAP, XML và HTTP."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SOAP",
+          "reading": "そーぷ",
+          "english": "Simple Object Access Protocol",
+          "vi": "giao thức trao đổi thông điệp giữa các hệ thống",
+          "definitionJa": "XML形式のメッセージを利用して、異なるシステム間で情報を交換するためのプロトコル。",
+          "definitionVi": "Giao thức sử dụng thông điệp dạng XML để trao đổi thông tin giữa các hệ thống khác nhau."
+        }
+      ],
+      "tags": ["soap", "xml", "web-service", "protocol"]
+    },
+    {
+      "id": "svg",
+      "order": 10,
+      "titleJa": "SVG",
+      "titleVi": "Đồ họa vector SVG",
+      "importance": "medium",
+      "summaryJa": "XMLを基にしたベクタ形式の画像フォーマットであり、拡大・縮小しても画質が劣化しにくいSVGについて理解する。",
+      "summaryVi": "Tìm hiểu SVG, định dạng hình ảnh vector dựa trên XML có thể phóng to hoặc thu nhỏ mà không làm giảm đáng kể chất lượng hình ảnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SVGとは",
+          "vi": "SVG là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SVG（Scalable Vector Graphics）は、主にWebで利用されるベクタ形式の画像フォーマットである。図形をピクセルの集合ではなく、座標や数式などによって表現する。",
+          "vi": "SVG (Scalable Vector Graphics) là định dạng hình ảnh vector chủ yếu được sử dụng trên Web. Hình ảnh được biểu diễn bằng tọa độ, hình học và các thông tin vector thay vì tập hợp các pixel."
+        },
+        {
+          "type": "heading",
+          "ja": "拡大・縮小に強い",
+          "vi": "Không bị giảm chất lượng khi phóng to, thu nhỏ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SVGはベクタ形式であるため、画像を拡大・縮小しても画質が劣化しにくい。このため、ロゴ、アイコン、図表など、様々なサイズで表示する画像に適している。",
+          "vi": "Do SVG là định dạng vector nên hình ảnh hầu như không bị giảm chất lượng khi phóng to hoặc thu nhỏ. Vì vậy, nó phù hợp với logo, icon, biểu đồ và các hình ảnh cần hiển thị ở nhiều kích thước."
+        },
+        {
+          "type": "heading",
+          "ja": "XMLとの関係",
+          "vi": "Quan hệ với XML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SVGはXMLを基にしたテキスト形式で記述される。そのため、CSSでスタイルを変更したり、JavaScriptから要素を操作してアニメーションなどを実現したりできる。",
+          "vi": "SVG được mô tả dưới dạng văn bản dựa trên XML. Vì vậy, có thể thay đổi kiểu hiển thị bằng CSS hoặc dùng JavaScript để thao tác các phần tử và tạo animation."
+        },
+        {
+          "type": "point",
+          "ja": "SVGはベクタ形式であるため、拡大・縮小しても画質が劣化しにくい。",
+          "vi": "Điểm quan trọng của SVG là định dạng vector nên có thể phóng to, thu nhỏ mà chất lượng hình ảnh ít bị suy giảm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SVG",
+          "reading": "えすぶいじー",
+          "english": "Scalable Vector Graphics",
+          "vi": "đồ họa vector có khả năng co giãn",
+          "definitionJa": "XMLを基に記述されるベクタ形式の画像フォーマット。",
+          "definitionVi": "Định dạng hình ảnh vector được mô tả dựa trên XML."
+        }
+      ],
+      "tags": ["svg", "xml", "vector", "web"]
+    },
+    {
+      "id": "sax",
+      "order": 11,
+      "titleJa": "SAX",
+      "titleVi": "SAX",
+      "importance": "high",
+      "summaryJa": "XML文書を先頭から順番に読み込み、イベント駆動方式で処理するSAXについて理解する。",
+      "summaryVi": "Tìm hiểu SAX, giao diện xử lý XML theo thứ tự từ đầu tài liệu bằng cơ chế hướng sự kiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SAXとは",
+          "vi": "SAX là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SAX（Simple API for XML）は、XML文書を処理するためのAPIの一つである。XML文書を先頭から順番に読み込み、要素の開始や終了などのイベントが発生するたびに処理を行う。",
+          "vi": "SAX (Simple API for XML) là một API dùng để xử lý tài liệu XML. Nó đọc tài liệu XML tuần tự từ đầu và thực hiện xử lý khi xảy ra các sự kiện như bắt đầu hoặc kết thúc một phần tử."
+        },
+        {
+          "type": "heading",
+          "ja": "イベント駆動方式",
+          "vi": "Cơ chế hướng sự kiện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SAXでは、開始タグ、文字データ、終了タグなどを読み込んだタイミングでイベントが発生し、それに対応する処理を実行する。この方式をイベント駆動方式という。",
+          "vi": "Trong SAX, sự kiện phát sinh khi đọc được thẻ bắt đầu, dữ liệu văn bản, thẻ kết thúc... và chương trình thực hiện xử lý tương ứng. Cách xử lý này được gọi là hướng sự kiện."
+        },
+        {
+          "type": "heading",
+          "ja": "メモリ使用量",
+          "vi": "Mức sử dụng bộ nhớ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XML文書全体を一度にメモリへ展開する必要がないため、メモリ使用量を抑えやすい。このため、大きなXML文書を順番に読み取って処理する場合に適している。",
+          "vi": "Do không cần nạp toàn bộ tài liệu XML vào bộ nhớ cùng lúc, SAX có thể giảm lượng bộ nhớ sử dụng. Vì vậy, nó phù hợp để xử lý tuần tự các tài liệu XML lớn."
+        },
+        {
+          "type": "point",
+          "ja": "SAXはXMLを先頭から逐次的に読み込むイベント駆動方式である。文書全体を木構造として保持するDOMとの違いが重要である。",
+          "vi": "SAX đọc XML tuần tự từ đầu theo cơ chế hướng sự kiện. Điểm rất quan trọng là phân biệt với DOM, vốn giữ tài liệu dưới dạng cấu trúc cây."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SAX",
+          "reading": "さくす",
+          "english": "Simple API for XML",
+          "vi": "API xử lý XML tuần tự",
+          "definitionJa": "XML文書を先頭から順番に読み込み、イベント駆動方式で処理するAPI。",
+          "definitionVi": "API đọc tài liệu XML tuần tự từ đầu và xử lý theo cơ chế hướng sự kiện."
+        }
+      ],
+      "tags": ["sax", "xml", "api", "event-driven"]
+    },
+    {
+      "id": "xml-schema",
+      "order": 12,
+      "titleJa": "XML Schema",
+      "titleVi": "Lược đồ XML",
+      "importance": "high",
+      "summaryJa": "XML文書の要素、属性、データ型などの構造を定義するXML Schemaについて理解する。",
+      "summaryVi": "Tìm hiểu XML Schema, cơ chế định nghĩa cấu trúc như phần tử, thuộc tính và kiểu dữ liệu của tài liệu XML.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XML Schemaとは",
+          "vi": "XML Schema là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XML Schemaは、XML文書の構造や内容に関する規則を定義するための仕組みである。XML文書で使用する要素や属性、そのデータ型などを定義できる。",
+          "vi": "XML Schema là cơ chế dùng để định nghĩa các quy tắc về cấu trúc và nội dung của tài liệu XML. Nó có thể quy định phần tử, thuộc tính và kiểu dữ liệu được sử dụng trong tài liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "データ型の定義",
+          "vi": "Định nghĩa kiểu dữ liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XML Schemaでは、文字列、数値、日付など、要素や属性がどのようなデータを持つかを細かく定義できる。これにより、不正な形式のデータを検出しやすくなる。",
+          "vi": "XML Schema có thể định nghĩa chi tiết kiểu dữ liệu mà phần tử hoặc thuộc tính được phép chứa, chẳng hạn chuỗi, số hoặc ngày tháng. Nhờ đó có thể dễ dàng phát hiện dữ liệu không đúng định dạng."
+        },
+        {
+          "type": "heading",
+          "ja": "DTDとの違い",
+          "vi": "Khác với DTD"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DTDもXML文書の構造を定義できるが、XML Schemaではデータ型などをより詳細に定義できる。また、XML Schema自体もXML形式で記述される。",
+          "vi": "DTD cũng có thể định nghĩa cấu trúc tài liệu XML, nhưng XML Schema cho phép định nghĩa chi tiết hơn, đặc biệt là kiểu dữ liệu. Bản thân XML Schema cũng được viết theo cú pháp XML."
+        },
+        {
+          "type": "point",
+          "ja": "試験では、XML SchemaはXML文書の構造だけでなく、データ型も定義できる点を押さえる。",
+          "vi": "Khi thi FE, cần nhớ rằng XML Schema không chỉ định nghĩa cấu trúc tài liệu XML mà còn có thể định nghĩa kiểu dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XML Schema",
+          "reading": "えっくすえむえるすきーま",
+          "english": "XML Schema",
+          "vi": "lược đồ XML",
+          "definitionJa": "XML文書の要素、属性、データ型などを定義するための仕組み。",
+          "definitionVi": "Cơ chế định nghĩa các phần tử, thuộc tính, kiểu dữ liệu và cấu trúc của tài liệu XML."
+        }
+      ],
+      "tags": ["xml", "xml-schema", "schema", "data-type"]
+    },
+    {
+      "id": "xhtml-basic",
+      "order": 13,
+      "titleJa": "XHTML Basic",
+      "titleVi": "XHTML Basic",
+      "importance": "medium",
+      "summaryJa": "携帯端末や小型デバイスなど、機能や資源が制限された環境向けに簡略化されたXHTML Basicについて理解する。",
+      "summaryVi": "Tìm hiểu XHTML Basic, phiên bản XHTML được đơn giản hóa để phù hợp với thiết bị di động và các thiết bị có tài nguyên hạn chế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XHTML Basicとは",
+          "vi": "XHTML Basic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XHTML Basicは、XHTMLを基にしながら、携帯電話や小型デバイスなどで利用しやすいように機能を限定したマークアップ言語である。",
+          "vi": "XHTML Basic là ngôn ngữ đánh dấu dựa trên XHTML nhưng được giới hạn chức năng để dễ sử dụng trên điện thoại di động và các thiết bị nhỏ."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複雑な機能を省き、軽量で処理しやすい構成になっている。そのため、処理能力や画面サイズが限られる端末でもWebコンテンツを表示しやすい。",
+          "vi": "Nó loại bỏ các chức năng phức tạp để trở nên nhẹ và dễ xử lý hơn. Nhờ vậy, Web content có thể hiển thị dễ dàng hơn trên các thiết bị có năng lực xử lý hoặc kích thước màn hình hạn chế."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "携帯端末向けのWebコンテンツなどで利用されることを想定して設計されている。標準化された簡潔な構造を利用することで、異なる端末間での互換性を高めることができる。",
+          "vi": "XHTML Basic được thiết kế chủ yếu cho nội dung Web trên thiết bị di động. Việc sử dụng cấu trúc đơn giản và chuẩn hóa giúp tăng khả năng tương thích giữa các thiết bị khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "XHTML Basicは、XHTMLを軽量化し、携帯端末などの制約のある環境で利用しやすくした仕様である。",
+          "vi": "XHTML Basic là phiên bản XHTML được làm nhẹ để phù hợp với các môi trường hạn chế như thiết bị di động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XHTML Basic",
+          "reading": "えっくすえいちてぃーえむえるべーしっく",
+          "english": "XHTML Basic",
+          "vi": "XHTML Basic",
+          "definitionJa": "携帯端末などの制約のある環境向けに、XHTMLの機能を簡略化した仕様。",
+          "definitionVi": "Đặc tả XHTML được đơn giản hóa cho các môi trường hạn chế như thiết bị di động."
+        }
+      ],
+      "tags": ["xhtml", "markup-language", "mobile"]
+    },
+    {
+      "id": "xhtml-modularization",
+      "order": 14,
+      "titleJa": "XHTML Modularization",
+      "titleVi": "Mô-đun hóa XHTML",
+      "importance": "medium",
+      "summaryJa": "XHTMLの機能を複数のモジュールに分割し、必要な機能を組み合わせて利用できるXHTML Modularizationについて理解する。",
+      "summaryVi": "Tìm hiểu XHTML Modularization, cơ chế chia XHTML thành nhiều module để có thể kết hợp các chức năng cần thiết tùy mục đích.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XHTML Modularizationとは",
+          "vi": "XHTML Modularization là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XHTML Modularizationは、XHTMLの機能を複数のモジュールに分割し、必要な機能だけを組み合わせて利用できるようにするための仕組みである。",
+          "vi": "XHTML Modularization là cơ chế chia các chức năng của XHTML thành nhiều module và cho phép kết hợp chỉ những chức năng cần thiết."
+        },
+        {
+          "type": "heading",
+          "ja": "モジュール化の利点",
+          "vi": "Lợi ích của mô-đun hóa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用する端末や目的に応じて必要なモジュールを選択できるため、不要な機能を省きつつ、柔軟に文書仕様を構成できる。",
+          "vi": "Có thể lựa chọn các module cần thiết tùy theo thiết bị hoặc mục đích sử dụng, nhờ đó loại bỏ chức năng không cần thiết và xây dựng đặc tả tài liệu linh hoạt hơn."
+        },
+        {
+          "type": "heading",
+          "ja": "利用場面",
+          "vi": "Trường hợp sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なる機能を持つ端末や環境に対応する場合に、必要なXHTML機能を組み合わせることで、互換性や再利用性を高めることができる。",
+          "vi": "Khi cần hỗ trợ các thiết bị hoặc môi trường có khả năng khác nhau, có thể kết hợp các chức năng XHTML cần thiết để tăng tính tương thích và khả năng tái sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "XHTML Modularizationは、XHTMLの機能を部品化して必要なものだけを組み合わせる考え方である。",
+          "vi": "XHTML Modularization là cách chia chức năng XHTML thành các phần riêng và chỉ kết hợp những phần cần thiết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XHTML Modularization",
+          "reading": "えっくすえいちてぃーえむえるもじゅらりぜーしょん",
+          "english": "XHTML Modularization",
+          "vi": "mô-đun hóa XHTML",
+          "definitionJa": "XHTMLの機能を複数のモジュールに分割し、必要に応じて組み合わせられるようにする仕組み。",
+          "definitionVi": "Cơ chế chia các chức năng XHTML thành nhiều module và cho phép kết hợp chúng theo nhu cầu."
+        }
+      ],
+      "tags": ["xhtml", "modularization", "markup-language"]
+    },
+    {
+      "id": "css",
+      "order": 15,
+      "titleJa": "CSS",
+      "titleVi": "CSS",
+      "importance": "high",
+      "summaryJa": "HTMLなどで記述された文書の色、フォント、配置などの表示スタイルを指定するCSSについて理解する。",
+      "summaryVi": "Tìm hiểu CSS, ngôn ngữ dùng để quy định cách hiển thị như màu sắc, font và bố cục cho tài liệu HTML.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CSSとは",
+          "vi": "CSS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CSS（Cascading Style Sheets）は、HTMLなどで作成された文書の見た目を指定するためのスタイルシート言語である。色、フォント、サイズ、配置などを設定できる。",
+          "vi": "CSS (Cascading Style Sheets) là ngôn ngữ stylesheet dùng để quy định hình thức hiển thị của tài liệu như HTML. Có thể thiết lập màu sắc, font, kích thước và bố cục."
+        },
+        {
+          "type": "heading",
+          "ja": "HTMLとの役割分担",
+          "vi": "Phân chia vai trò với HTML"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTMLが文書の構造や意味を表すのに対し、CSSはその表示方法を担当する。構造と見た目を分離することで、複数ページに共通のデザインを適用しやすくなる。",
+          "vi": "HTML biểu diễn cấu trúc và ý nghĩa của tài liệu, còn CSS phụ trách cách hiển thị. Tách cấu trúc và giao diện giúp dễ áp dụng cùng một thiết kế cho nhiều trang."
+        },
+        {
+          "type": "heading",
+          "ja": "カスケード",
+          "vi": "Cơ chế cascading"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のスタイル指定が同じ要素に適用される場合には、優先順位などの規則によって最終的に使用するスタイルが決定される。この仕組みがCascadingという名称の由来である。",
+          "vi": "Khi nhiều quy tắc style cùng áp dụng cho một phần tử, style cuối cùng được quyết định theo các quy tắc ưu tiên. Đây là cơ chế tạo nên tên gọi Cascading."
+        },
+        {
+          "type": "point",
+          "ja": "HTMLは構造、CSSは見た目を担当する。この役割の違いを明確にする。",
+          "vi": "Cần nhớ rõ: HTML phụ trách cấu trúc, còn CSS phụ trách giao diện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CSS",
+          "reading": "しーえすえす",
+          "english": "Cascading Style Sheets",
+          "vi": "bảng định kiểu xếp tầng",
+          "definitionJa": "HTMLなどの文書に対して、色、フォント、配置などの表示スタイルを指定するための言語。",
+          "definitionVi": "Ngôn ngữ dùng để định nghĩa kiểu hiển thị như màu sắc, font và bố cục cho tài liệu HTML."
+        }
+      ],
+      "tags": ["css", "stylesheet", "html", "web"]
+    },
+    {
+      "id": "xsl",
+      "order": 16,
+      "titleJa": "XSL",
+      "titleVi": "XSL",
+      "importance": "high",
+      "summaryJa": "XML文書の変換や表示方法を指定するためのXSLについて理解する。",
+      "summaryVi": "Tìm hiểu XSL, ngôn ngữ dùng để quy định cách chuyển đổi và trình bày tài liệu XML.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XSLとは",
+          "vi": "XSL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XSL（Extensible Stylesheet Language）は、XML文書の変換や表示方法を指定するための技術群である。XMLデータを別の形式へ変換したり、表示用の情報を定義したりするために利用される。",
+          "vi": "XSL (Extensible Stylesheet Language) là nhóm công nghệ dùng để quy định việc chuyển đổi và trình bày tài liệu XML. Nó có thể được sử dụng để chuyển XML sang định dạng khác hoặc định nghĩa cách hiển thị dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "XSLT",
+          "vi": "XSLT"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XSLTは、XML文書をHTMLや別のXML文書など、他の形式へ変換するために利用される。",
+          "vi": "XSLT được sử dụng để chuyển đổi tài liệu XML sang HTML, một tài liệu XML khác hoặc các định dạng khác."
+        },
+        {
+          "type": "heading",
+          "ja": "XPath",
+          "vi": "XPath"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XPathは、XML文書の中から特定の要素や属性を選択するための仕組みである。XSLTでは、変換対象となる要素を指定するためにXPathが利用される。",
+          "vi": "XPath là cơ chế dùng để chọn các phần tử hoặc thuộc tính cụ thể trong tài liệu XML. Trong XSLT, XPath được sử dụng để xác định phần tử cần chuyển đổi."
+        },
+        {
+          "type": "point",
+          "ja": "XSLでは、XSLTがXMLの変換、XPathがXML文書内の要素選択に利用される。",
+          "vi": "Trong XSL, XSLT dùng để chuyển đổi XML, còn XPath dùng để chọn phần tử trong tài liệu XML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XSL",
+          "reading": "えっくすえすえる",
+          "english": "Extensible Stylesheet Language",
+          "vi": "ngôn ngữ stylesheet mở rộng",
+          "definitionJa": "XML文書の変換や表示方法を指定するための技術群。",
+          "definitionVi": "Nhóm công nghệ dùng để quy định việc chuyển đổi và trình bày tài liệu XML."
+        }
+      ],
+      "tags": ["xsl", "xml", "xslt", "xpath"]
+    },
+    {
+      "id": "class-diagram",
+      "order": 17,
+      "titleJa": "クラス図",
+      "titleVi": "Biểu đồ lớp",
+      "importance": "high",
+      "summaryJa": "オブジェクト指向設計において、クラスの構造やクラス間の関係を表現するクラス図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ lớp, dùng trong thiết kế hướng đối tượng để biểu diễn cấu trúc của các lớp và mối quan hệ giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラス図とは",
+          "vi": "Biểu đồ lớp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラス図（Class Diagram）は、オブジェクト指向設計において、システム内のクラスとそれらの関係を視覚的に表現する図である。",
+          "vi": "Biểu đồ lớp (Class Diagram) là sơ đồ dùng trong thiết kế hướng đối tượng để biểu diễn trực quan các lớp trong hệ thống và mối quan hệ giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "クラスの構造",
+          "vi": "Cấu trúc của lớp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラス図では、クラス名だけでなく、属性や操作（メソッド）などを記述できる。これにより、各クラスがどのようなデータと機能を持つのかを整理できる。",
+          "vi": "Trong biểu đồ lớp, ngoài tên lớp còn có thể mô tả thuộc tính và thao tác (method). Nhờ đó có thể tổ chức rõ mỗi lớp có dữ liệu và chức năng gì."
+        },
+        {
+          "type": "heading",
+          "ja": "クラス間の関係",
+          "vi": "Quan hệ giữa các lớp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "関連、継承などの関係を図として表すことで、システム全体の構造を把握しやすくなる。特に設計段階で、クラス同士がどのように関係するかを明確にするために利用される。",
+          "vi": "Bằng cách biểu diễn các quan hệ như association và inheritance, cấu trúc toàn hệ thống trở nên dễ hiểu hơn. Biểu đồ lớp đặc biệt hữu ích ở giai đoạn thiết kế để làm rõ cách các lớp liên hệ với nhau."
+        },
+        {
+          "type": "point",
+          "ja": "クラス図はクラスの属性・操作と、クラス間の関連や継承などを表す。",
+          "vi": "Biểu đồ lớp thể hiện thuộc tính, phương thức của lớp và các quan hệ như liên kết, kế thừa giữa các lớp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラス図",
+          "reading": "くらすず",
+          "english": "Class Diagram",
+          "vi": "biểu đồ lớp",
+          "definitionJa": "クラスの構造やクラス間の関係を視覚的に表現する図。",
+          "definitionVi": "Sơ đồ biểu diễn trực quan cấu trúc của các lớp và mối quan hệ giữa chúng."
+        }
+      ],
+      "tags": ["uml", "class-diagram", "object-oriented-design"]
+    },
+    {
+      "id": "object-diagram",
+      "order": 18,
+      "titleJa": "オブジェクト図",
+      "titleVi": "Biểu đồ đối tượng",
+      "importance": "medium",
+      "summaryJa": "特定の時点におけるオブジェクトの状態やオブジェクト間の関係を表現するオブジェクト図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ đối tượng, dùng để biểu diễn trạng thái của các object và mối quan hệ giữa chúng tại một thời điểm cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オブジェクト図とは",
+          "vi": "Biểu đồ đối tượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト図（Object Diagram）は、システム内に存在するオブジェクトと、それらの関係を特定の時点で表現する図である。",
+          "vi": "Biểu đồ đối tượng (Object Diagram) là sơ đồ biểu diễn các object đang tồn tại trong hệ thống và mối quan hệ giữa chúng tại một thời điểm nhất định."
+        },
+        {
+          "type": "heading",
+          "ja": "クラス図との違い",
+          "vi": "Khác với biểu đồ lớp"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラス図がクラスという設計上の型や関係を表すのに対し、オブジェクト図はそのクラスから生成された具体的なインスタンスと、その時点での属性値や関係を表す。",
+          "vi": "Biểu đồ lớp thể hiện kiểu lớp và quan hệ ở mức thiết kế, còn biểu đồ đối tượng thể hiện các instance cụ thể được tạo từ lớp cùng giá trị thuộc tính và quan hệ tại một thời điểm."
+        },
+        {
+          "type": "heading",
+          "ja": "利用目的",
+          "vi": "Mục đích sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実際のオブジェクトの状態を具体的に示すことで、クラス図だけでは分かりにくいシステムの状態や構造を確認することができる。",
+          "vi": "Việc thể hiện trạng thái cụ thể của các object giúp kiểm tra cấu trúc và tình trạng của hệ thống mà đôi khi chỉ nhìn biểu đồ lớp sẽ khó hình dung."
+        },
+        {
+          "type": "point",
+          "ja": "クラス図は「型」、オブジェクト図は「ある時点の具体的なインスタンス」を表す。",
+          "vi": "Biểu đồ lớp biểu diễn \"kiểu\", còn biểu đồ đối tượng biểu diễn \"các instance cụ thể tại một thời điểm\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オブジェクト図",
+          "reading": "おぶじぇくとず",
+          "english": "Object Diagram",
+          "vi": "biểu đồ đối tượng",
+          "definitionJa": "特定の時点におけるオブジェクトと、その属性値やオブジェクト間の関係を表す図。",
+          "definitionVi": "Sơ đồ biểu diễn các object, giá trị thuộc tính và mối quan hệ giữa chúng tại một thời điểm cụ thể."
+        }
+      ],
+      "tags": ["uml", "object-diagram", "object"]
+    },
+    {
+      "id": "component-diagram",
+      "order": 19,
+      "titleJa": "コンポーネント図",
+      "titleVi": "Biểu đồ thành phần",
+      "importance": "high",
+      "summaryJa": "ソフトウェアを構成するコンポーネントと、それらの依存関係やインタフェースを表現するコンポーネント図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ thành phần, dùng để biểu diễn các component của phần mềm cùng quan hệ phụ thuộc và interface giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンポーネント図とは",
+          "vi": "Biểu đồ thành phần là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンポーネント図（Component Diagram）は、ソフトウェアシステムを構成するコンポーネントと、それらの関係や依存関係を視覚的に表現する図である。",
+          "vi": "Biểu đồ thành phần (Component Diagram) là sơ đồ biểu diễn trực quan các component tạo nên hệ thống phần mềm cùng các quan hệ và phụ thuộc giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "コンポーネント",
+          "vi": "Component"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンポーネントには、ソフトウェアのモジュール、ライブラリ、サービスなどが含まれる。各コンポーネントがどの機能を担当し、どのようなインタフェースで接続されるかを示すことができる。",
+          "vi": "Component có thể là module phần mềm, thư viện hoặc service. Biểu đồ có thể cho biết mỗi component đảm nhiệm chức năng gì và kết nối với component khác thông qua interface nào."
+        },
+        {
+          "type": "heading",
+          "ja": "設計での利用",
+          "vi": "Sử dụng trong thiết kế"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム全体を部品単位で把握しやすくなるため、大規模システムの構造を整理したり、変更や拡張による影響範囲を検討したりする際に役立つ。",
+          "vi": "Do giúp nhìn hệ thống theo từng thành phần, biểu đồ này hữu ích khi tổ chức cấu trúc hệ thống lớn hoặc xem xét phạm vi ảnh hưởng khi thay đổi và mở rộng."
+        },
+        {
+          "type": "point",
+          "ja": "コンポーネント図は、ソフトウェアの部品と、それらの依存関係やインタフェースを表す。",
+          "vi": "Biểu đồ thành phần thể hiện các thành phần phần mềm cùng quan hệ phụ thuộc và interface giữa chúng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンポーネント図",
+          "reading": "こんぽーねんとず",
+          "english": "Component Diagram",
+          "vi": "biểu đồ thành phần",
+          "definitionJa": "ソフトウェアを構成するコンポーネントと、その依存関係やインタフェースを表現する図。",
+          "definitionVi": "Sơ đồ biểu diễn các component của phần mềm cùng quan hệ phụ thuộc và interface giữa chúng."
+        }
+      ],
+      "tags": ["uml", "component-diagram", "component", "software-design"]
+    },
+    {
+      "id": "package-diagram",
+      "order": 20,
+      "titleJa": "パッケージ図",
+      "titleVi": "Biểu đồ package",
+      "importance": "medium",
+      "summaryJa": "クラスやコンポーネントなどをパッケージとしてまとめ、その構造や依存関係を表現するパッケージ図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ package, dùng để nhóm các class hoặc component thành package và biểu diễn cấu trúc cùng quan hệ phụ thuộc giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パッケージ図とは",
+          "vi": "Biểu đồ package là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パッケージ図（Package Diagram）は、システム内のクラスやコンポーネントなどをパッケージとしてまとめ、それらの関係を表現する図である。",
+          "vi": "Biểu đồ package (Package Diagram) là sơ đồ nhóm các class, component và các phần tử khác trong hệ thống thành package rồi biểu diễn quan hệ giữa các package đó."
+        },
+        {
+          "type": "heading",
+          "ja": "パッケージによる整理",
+          "vi": "Tổ chức bằng package"
+        },
+        {
+          "type": "paragraph",
+          "ja": "関連する要素を一つのパッケージにまとめることで、大規模なシステムでも構造を整理しやすくなる。機能や責務ごとに分割することで、全体の構成を把握しやすくなる。",
+          "vi": "Bằng cách gom các phần tử liên quan vào cùng một package, cấu trúc của hệ thống lớn trở nên dễ tổ chức hơn. Việc chia theo chức năng hoặc trách nhiệm giúp dễ nắm bắt cấu trúc tổng thể."
+        },
+        {
+          "type": "heading",
+          "ja": "依存関係",
+          "vi": "Quan hệ phụ thuộc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パッケージ同士の依存関係を示すことで、あるパッケージの変更が他の部分にどのような影響を与える可能性があるかを確認できる。",
+          "vi": "Bằng cách biểu diễn quan hệ phụ thuộc giữa các package, có thể xác định thay đổi trong một package có khả năng ảnh hưởng đến phần nào khác của hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "パッケージ図は、関連する要素をパッケージ単位で整理し、パッケージ間の関係を表す。",
+          "vi": "Biểu đồ package tổ chức các phần tử liên quan theo từng package và biểu diễn quan hệ giữa các package."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パッケージ図",
+          "reading": "ぱっけーじず",
+          "english": "Package Diagram",
+          "vi": "biểu đồ package",
+          "definitionJa": "クラスやコンポーネントなどをパッケージにまとめ、その構造や依存関係を表現する図。",
+          "definitionVi": "Sơ đồ nhóm các class, component và phần tử liên quan thành package rồi biểu diễn cấu trúc và quan hệ phụ thuộc."
+        }
+      ],
+      "tags": ["uml", "package-diagram", "package", "software-design"]
+    },
+    {
+      "id": "deployment-diagram",
+      "order": 21,
+      "titleJa": "配置図",
+      "titleVi": "Biểu đồ triển khai",
+      "importance": "high",
+      "summaryJa": "システムを構成するハードウェアやソフトウェアなどの配置関係を表現する配置図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ triển khai, dùng để biểu diễn cách bố trí các thành phần phần cứng và phần mềm của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "配置図とは",
+          "vi": "Biểu đồ triển khai là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "配置図（Deployment Diagram）は、システムを構成するハードウェアやソフトウェアなどが、どのように配置されているかを視覚的に表現する図である。",
+          "vi": "Biểu đồ triển khai (Deployment Diagram) là sơ đồ biểu diễn trực quan cách các thành phần phần cứng và phần mềm của hệ thống được bố trí."
+        },
+        {
+          "type": "heading",
+          "ja": "システム構成の表現",
+          "vi": "Biểu diễn cấu hình hệ thống"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバや端末などのノードと、その上に配置されるソフトウェアなどの関係を示すことで、システムの物理的な構成を把握しやすくなる。",
+          "vi": "Bằng cách thể hiện các node như server, thiết bị đầu cuối và phần mềm được triển khai trên chúng, có thể dễ dàng nắm được cấu hình vật lý của hệ thống."
+        },
+        {
+          "type": "heading",
+          "ja": "利用目的",
+          "vi": "Mục đích sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム設計において、どの機器にどのソフトウェアを配置するかを明確にするために利用される。システム全体の構成や通信関係を確認する際にも役立つ。",
+          "vi": "Trong thiết kế hệ thống, biểu đồ này được dùng để làm rõ phần mềm nào được triển khai trên thiết bị nào. Nó cũng hữu ích khi kiểm tra cấu hình tổng thể và quan hệ kết nối của hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "配置図は、システムの物理的な配置や構成を表すUMLの図である。",
+          "vi": "Biểu đồ triển khai là biểu đồ UML thể hiện cách bố trí và cấu hình vật lý của hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "配置図",
+          "reading": "はいちず",
+          "english": "Deployment Diagram",
+          "vi": "biểu đồ triển khai",
+          "definitionJa": "システムを構成するノードやソフトウェアなどの物理的な配置関係を表す図。",
+          "definitionVi": "Sơ đồ thể hiện quan hệ triển khai vật lý giữa các node, phần mềm và các thành phần của hệ thống."
+        }
+      ],
+      "tags": ["uml", "deployment-diagram", "system-design"]
+    },
+    {
+      "id": "composite-structure-diagram",
+      "order": 22,
+      "titleJa": "コンポジット構造図",
+      "titleVi": "Biểu đồ cấu trúc tổng hợp",
+      "importance": "medium",
+      "summaryJa": "クラスやコンポーネントなどの内部構造と、それらを構成する要素間の関係を表現するコンポジット構造図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ cấu trúc tổng hợp, dùng để biểu diễn cấu trúc bên trong của class hoặc component và quan hệ giữa các thành phần cấu tạo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンポジット構造図とは",
+          "vi": "Biểu đồ cấu trúc tổng hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンポジット構造図（Composite Structure Diagram）は、システムやクラスなどの内部を構成する複数の要素と、それらの関係を視覚的に表現するUMLの図である。",
+          "vi": "Biểu đồ cấu trúc tổng hợp (Composite Structure Diagram) là biểu đồ UML thể hiện trực quan nhiều thành phần tạo nên cấu trúc bên trong của hệ thống hoặc class và mối quan hệ giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "内部構造",
+          "vi": "Cấu trúc bên trong"
+        },
+        {
+          "type": "paragraph",
+          "ja": "一つの要素の内部がどのような部品から構成され、それらがどのように協調して機能するかを表すことができる。これにより、外部から見ただけでは分からない内部構造を把握しやすくなる。",
+          "vi": "Biểu đồ có thể thể hiện một phần tử được cấu thành từ những bộ phận nào và các bộ phận đó phối hợp với nhau ra sao, giúp hiểu được cấu trúc bên trong mà chỉ nhìn từ bên ngoài khó nhận biết."
+        },
+        {
+          "type": "heading",
+          "ja": "利用目的",
+          "vi": "Mục đích sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複雑なクラスやコンポーネントの内部構造を分析・設計する際に利用され、各要素の役割や接続関係を明確にすることができる。",
+          "vi": "Biểu đồ được sử dụng khi phân tích và thiết kế cấu trúc bên trong của class hoặc component phức tạp, giúp làm rõ vai trò và quan hệ kết nối của từng thành phần."
+        },
+        {
+          "type": "point",
+          "ja": "コンポジット構造図は、要素の内部構造と、内部の部品同士の関係を表す。",
+          "vi": "Biểu đồ cấu trúc tổng hợp thể hiện cấu trúc bên trong của một phần tử và quan hệ giữa các bộ phận bên trong."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンポジット構造図",
+          "reading": "こんぽじっとこうぞうず",
+          "english": "Composite Structure Diagram",
+          "vi": "biểu đồ cấu trúc tổng hợp",
+          "definitionJa": "クラスなどの内部構造と、それを構成する要素間の関係を表現する図。",
+          "definitionVi": "Sơ đồ biểu diễn cấu trúc bên trong của class hoặc thành phần và quan hệ giữa các phần tử cấu tạo nên nó."
+        }
+      ],
+      "tags": ["uml", "composite-structure-diagram", "structure"]
+    },
+    {
+      "id": "activity-diagram",
+      "order": 23,
+      "titleJa": "アクティビティ図",
+      "titleVi": "Biểu đồ hoạt động",
+      "importance": "high",
+      "summaryJa": "業務や処理の流れをアクティビティと遷移によって表現するアクティビティ図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ hoạt động, dùng để biểu diễn luồng nghiệp vụ hoặc xử lý thông qua các activity và luồng chuyển tiếp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクティビティ図とは",
+          "vi": "Biểu đồ hoạt động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アクティビティ図（Activity Diagram）は、業務やシステムにおける一連の処理の流れを視覚的に表現するUMLの図である。",
+          "vi": "Biểu đồ hoạt động (Activity Diagram) là biểu đồ UML dùng để biểu diễn trực quan luồng của một chuỗi xử lý trong nghiệp vụ hoặc hệ thống."
+        },
+        {
+          "type": "heading",
+          "ja": "処理の流れ",
+          "vi": "Luồng xử lý"
+        },
+        {
+          "type": "paragraph",
+          "ja": "処理の各ステップをアクティビティとして表し、それらの間を遷移で結ぶ。条件による分岐や複数の処理を同時に行う並行処理なども表現できる。",
+          "vi": "Mỗi bước xử lý được biểu diễn dưới dạng activity và được nối với nhau bằng các luồng chuyển tiếp. Biểu đồ cũng có thể thể hiện rẽ nhánh theo điều kiện và xử lý song song."
+        },
+        {
+          "type": "heading",
+          "ja": "利用例",
+          "vi": "Ví dụ sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品の注文から配送までの業務フローなどを表現することで、処理の順序、判断箇所、並行して実行できる処理などを明確にできる。",
+          "vi": "Ví dụ, khi biểu diễn quy trình từ đặt hàng đến giao hàng, có thể làm rõ thứ tự xử lý, các điểm quyết định và những xử lý có thể thực hiện song song."
+        },
+        {
+          "type": "point",
+          "ja": "アクティビティ図は、処理や業務の流れ、分岐、並行処理などを表現する。",
+          "vi": "Biểu đồ hoạt động thể hiện luồng xử lý/nghiệp vụ, rẽ nhánh và xử lý song song."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクティビティ図",
+          "reading": "あくてぃびてぃず",
+          "english": "Activity Diagram",
+          "vi": "biểu đồ hoạt động",
+          "definitionJa": "業務や処理の流れをアクティビティと遷移によって表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML thể hiện luồng nghiệp vụ hoặc xử lý bằng các activity và luồng chuyển tiếp."
+        }
+      ],
+      "tags": ["uml", "activity-diagram", "workflow"]
+    },
+    {
+      "id": "state-machine-diagram",
+      "order": 24,
+      "titleJa": "ステートマシン図",
+      "titleVi": "Biểu đồ máy trạng thái",
+      "importance": "high",
+      "summaryJa": "オブジェクトやシステムの状態と、イベントなどによる状態遷移を表現するステートマシン図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ máy trạng thái, dùng để biểu diễn các trạng thái của object hoặc hệ thống và sự chuyển đổi giữa các trạng thái.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ステートマシン図とは",
+          "vi": "Biểu đồ máy trạng thái là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ステートマシン図（State Machine Diagram）は、オブジェクトやシステムが持つ状態（ステート）と、それに伴う状態遷移（トランジション）を表現するUMLの図である。",
+          "vi": "Biểu đồ máy trạng thái (State Machine Diagram) là biểu đồ UML thể hiện các trạng thái (state) của object hoặc hệ thống và sự chuyển trạng thái (transition) giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "状態と遷移",
+          "vi": "Trạng thái và chuyển trạng thái"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムはイベントや条件によってある状態から別の状態へ遷移する。ステートマシン図では、この状態と遷移の関係を視覚的に整理する。",
+          "vi": "Hệ thống chuyển từ trạng thái này sang trạng thái khác tùy theo sự kiện hoặc điều kiện. Biểu đồ máy trạng thái giúp tổ chức trực quan quan hệ giữa trạng thái và sự chuyển đổi đó."
+        },
+        {
+          "type": "heading",
+          "ja": "具体例",
+          "vi": "Ví dụ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、スイッチには「オン」と「オフ」の状態があり、スイッチ操作というイベントによって「オン」から「オフ」、「オフ」から「オン」へ遷移する。このような動作を図として表現できる。",
+          "vi": "Ví dụ, công tắc có trạng thái \"ON\" và \"OFF\". Khi xảy ra sự kiện thao tác công tắc, trạng thái có thể chuyển từ ON sang OFF hoặc từ OFF sang ON."
+        },
+        {
+          "type": "point",
+          "ja": "ステートマシン図では、「状態」と「状態遷移」の関係を表す。",
+          "vi": "Biểu đồ máy trạng thái tập trung vào \"trạng thái\" và \"sự chuyển trạng thái\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステートマシン図",
+          "reading": "すてーとましんず",
+          "english": "State Machine Diagram",
+          "vi": "biểu đồ máy trạng thái",
+          "definitionJa": "システムやオブジェクトの状態と、それらの間の遷移を表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML thể hiện các trạng thái của hệ thống hoặc object và sự chuyển đổi giữa các trạng thái."
+        },
+        {
+          "term": "遷移",
+          "reading": "せんい",
+          "english": "Transition",
+          "vi": "chuyển trạng thái",
+          "definitionJa": "ある状態から別の状態へ移ること。",
+          "definitionVi": "Sự chuyển từ một trạng thái sang trạng thái khác."
+        }
+      ],
+      "tags": ["uml", "state-machine-diagram", "state", "transition"]
+    },
+    {
+      "id": "sequence-diagram",
+      "order": 25,
+      "titleJa": "シーケンス図",
+      "titleVi": "Biểu đồ tuần tự",
+      "importance": "high",
+      "summaryJa": "オブジェクト間のメッセージのやり取りを時間の流れに沿って表現するシーケンス図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ tuần tự, dùng để biểu diễn sự trao đổi thông điệp giữa các đối tượng theo trình tự thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シーケンス図とは",
+          "vi": "Biểu đồ tuần tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シーケンス図（Sequence Diagram）は、システムの動作を時間の流れに沿って視覚的に表現するUMLの図である。オブジェクト間でどのようなメッセージが、どの順番でやり取りされるかを表す。",
+          "vi": "Biểu đồ tuần tự (Sequence Diagram) là biểu đồ UML thể hiện trực quan hoạt động của hệ thống theo dòng thời gian. Nó cho biết các thông điệp được trao đổi giữa các đối tượng theo thứ tự nào."
+        },
+        {
+          "type": "heading",
+          "ja": "時間の流れ",
+          "vi": "Dòng thời gian"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シーケンス図では、時間は基本的に上から下へ進む。各オブジェクト間のメッセージを順番に記述することで、一連の処理がどのように進むかを確認できる。",
+          "vi": "Trong biểu đồ tuần tự, thời gian về cơ bản tiến từ trên xuống dưới. Bằng cách biểu diễn lần lượt các thông điệp giữa các đối tượng, có thể theo dõi quá trình xử lý diễn ra như thế nào."
+        },
+        {
+          "type": "heading",
+          "ja": "利用例",
+          "vi": "Ví dụ sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、オンラインショッピングでは、ユーザーが商品を選択した後、その情報がサーバに送信され、在庫確認や注文処理が行われる。この一連のやり取りをシーケンス図で表現できる。",
+          "vi": "Ví dụ, trong mua sắm trực tuyến, sau khi người dùng chọn sản phẩm, thông tin được gửi tới server rồi thực hiện kiểm tra tồn kho và xử lý đơn hàng. Chuỗi tương tác này có thể được biểu diễn bằng biểu đồ tuần tự."
+        },
+        {
+          "type": "point",
+          "ja": "シーケンス図は、オブジェクト間のメッセージのやり取りを時間順に表す。",
+          "vi": "Biểu đồ tuần tự thể hiện việc trao đổi thông điệp giữa các đối tượng theo thứ tự thời gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シーケンス図",
+          "reading": "しーけんすず",
+          "english": "Sequence Diagram",
+          "vi": "biểu đồ tuần tự",
+          "definitionJa": "オブジェクト間のメッセージのやり取りを時間の流れに沿って表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML thể hiện sự trao đổi thông điệp giữa các đối tượng theo dòng thời gian."
+        }
+      ],
+      "tags": ["uml", "sequence-diagram", "interaction"]
+    },
+    {
+      "id": "communication-diagram",
+      "order": 26,
+      "titleJa": "コミュニケーション図",
+      "titleVi": "Biểu đồ giao tiếp",
+      "importance": "medium",
+      "summaryJa": "オブジェクト間の関係とメッセージのやり取りを表現するコミュニケーション図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ giao tiếp, dùng để thể hiện quan hệ giữa các đối tượng và các thông điệp được trao đổi giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コミュニケーション図とは",
+          "vi": "Biểu đồ giao tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コミュニケーション図（Communication Diagram）は、オブジェクト指向設計において、システム内のオブジェクト間の関係とメッセージのやり取りを視覚的に表現するUMLの図である。",
+          "vi": "Biểu đồ giao tiếp (Communication Diagram) là biểu đồ UML trong thiết kế hướng đối tượng, dùng để biểu diễn trực quan quan hệ giữa các đối tượng trong hệ thống và các thông điệp trao đổi giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクト間の関係",
+          "vi": "Quan hệ giữa các đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト同士の接続関係と、その間で送受信されるメッセージを示すことで、複数のオブジェクトがどのように協調して処理を実行するかを把握できる。",
+          "vi": "Bằng cách thể hiện quan hệ kết nối giữa các đối tượng và thông điệp được gửi nhận giữa chúng, có thể hiểu cách nhiều đối tượng phối hợp để thực hiện xử lý."
+        },
+        {
+          "type": "heading",
+          "ja": "シーケンス図との違い",
+          "vi": "Khác với biểu đồ tuần tự"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シーケンス図がメッセージの時間的な順序を重視するのに対し、コミュニケーション図はオブジェクト同士の構造的な関係を重視する。",
+          "vi": "Trong khi biểu đồ tuần tự nhấn mạnh thứ tự thời gian của các thông điệp, biểu đồ giao tiếp nhấn mạnh hơn vào quan hệ cấu trúc giữa các đối tượng."
+        },
+        {
+          "type": "point",
+          "ja": "コミュニケーション図では、オブジェクト間の関係とメッセージのやり取りに注目する。",
+          "vi": "Biểu đồ giao tiếp tập trung vào quan hệ giữa các đối tượng và việc trao đổi thông điệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーション図",
+          "reading": "こみゅにけーしょんず",
+          "english": "Communication Diagram",
+          "vi": "biểu đồ giao tiếp",
+          "definitionJa": "オブジェクト間の関係とメッセージのやり取りを表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML thể hiện quan hệ và sự trao đổi thông điệp giữa các đối tượng."
+        }
+      ],
+      "tags": ["uml", "communication-diagram", "interaction"]
+    },
+    {
+      "id": "interaction-overview-diagram",
+      "order": 27,
+      "titleJa": "相互作用概要図",
+      "titleVi": "Biểu đồ tổng quan tương tác",
+      "importance": "medium",
+      "summaryJa": "複数の相互作用を組み合わせ、システム全体の処理の流れを表現する相互作用概要図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ tổng quan tương tác, dùng để kết hợp nhiều tương tác và biểu diễn luồng xử lý tổng thể của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "相互作用概要図とは",
+          "vi": "Biểu đồ tổng quan tương tác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "相互作用概要図（Interaction Overview Diagram）は、システム内の複数の相互作用を組み合わせ、それらの処理の流れを視覚的に表現するUMLの図である。",
+          "vi": "Biểu đồ tổng quan tương tác (Interaction Overview Diagram) là biểu đồ UML kết hợp nhiều tương tác trong hệ thống và biểu diễn trực quan luồng xử lý giữa chúng."
+        },
+        {
+          "type": "heading",
+          "ja": "全体の流れ",
+          "vi": "Luồng xử lý tổng thể"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロセスやシナリオにおける複数の相互作用を一つの流れとして整理することで、システム全体の動きを把握しやすくする。",
+          "vi": "Bằng cách tổ chức nhiều tương tác trong một quy trình hoặc kịch bản thành một luồng thống nhất, biểu đồ giúp dễ dàng nắm bắt hoạt động tổng thể của hệ thống."
+        },
+        {
+          "type": "heading",
+          "ja": "利用例",
+          "vi": "Ví dụ sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、オンラインショッピングでは、商品の選択、カートへの追加、購入手続きなどの一連の相互作用をまとめて表現することで、システム全体の処理を理解しやすくできる。",
+          "vi": "Ví dụ, trong hệ thống mua sắm trực tuyến, có thể tổng hợp các tương tác như chọn sản phẩm, thêm vào giỏ hàng và thực hiện mua hàng để dễ hiểu toàn bộ quá trình xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "相互作用概要図は、複数の相互作用をまとめて全体の処理の流れを表す。",
+          "vi": "Biểu đồ tổng quan tương tác kết hợp nhiều tương tác để thể hiện luồng xử lý tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "相互作用概要図",
+          "reading": "そうごさようがいようず",
+          "english": "Interaction Overview Diagram",
+          "vi": "biểu đồ tổng quan tương tác",
+          "definitionJa": "複数の相互作用を組み合わせ、その実行の流れを表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML kết hợp nhiều tương tác và thể hiện luồng thực hiện của chúng."
+        }
+      ],
+      "tags": ["uml", "interaction-overview-diagram", "interaction"]
+    },
+    {
+      "id": "timing-diagram",
+      "order": 28,
+      "titleJa": "タイミング図",
+      "titleVi": "Biểu đồ thời gian",
+      "importance": "medium",
+      "summaryJa": "時間の経過に伴うオブジェクトや信号の状態変化を表現するタイミング図について理解する。",
+      "summaryVi": "Tìm hiểu biểu đồ thời gian, dùng để biểu diễn sự thay đổi trạng thái của đối tượng hoặc tín hiệu theo thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "タイミング図とは",
+          "vi": "Biểu đồ thời gian là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "タイミング図（Timing Diagram）は、システムや回路の時間的な挙動を視覚的に表現するUMLの図である。時間の経過に伴って状態や値がどのように変化するかを示す。",
+          "vi": "Biểu đồ thời gian (Timing Diagram) là biểu đồ UML thể hiện trực quan hành vi của hệ thống hoặc mạch theo thời gian. Nó cho biết trạng thái hoặc giá trị thay đổi như thế nào khi thời gian trôi qua."
+        },
+        {
+          "type": "heading",
+          "ja": "時間と状態の変化",
+          "vi": "Thời gian và thay đổi trạng thái"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特にデジタル回路やリアルタイムシステムなどで、信号やオブジェクトの状態がどのタイミングで変化するかを確認するために利用される。",
+          "vi": "Đặc biệt trong mạch số hoặc hệ thống thời gian thực, biểu đồ được sử dụng để kiểm tra tín hiệu hoặc trạng thái của đối tượng thay đổi vào thời điểm nào."
+        },
+        {
+          "type": "heading",
+          "ja": "利用目的",
+          "vi": "Mục đích sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信におけるデータ送信のタイミングや応答の遅延など、時間が重要となる処理を分析する際に役立つ。各信号の立ち上がりや立ち下がりの瞬間、並びにその間隔を確認することができる。",
+          "vi": "Biểu đồ hữu ích khi phân tích các xử lý mà thời gian là yếu tố quan trọng, chẳng hạn thời điểm truyền dữ liệu hoặc độ trễ phản hồi. Có thể kiểm tra thời điểm tín hiệu tăng, giảm và khoảng thời gian giữa chúng."
+        },
+        {
+          "type": "point",
+          "ja": "タイミング図は、時間の経過に伴う状態や値の変化を表現する。",
+          "vi": "Biểu đồ thời gian thể hiện sự thay đổi trạng thái hoặc giá trị theo thời gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "タイミング図",
+          "reading": "たいみんぐず",
+          "english": "Timing Diagram",
+          "vi": "biểu đồ thời gian",
+          "definitionJa": "時間の経過に伴う状態や値の変化を表現するUMLの図。",
+          "definitionVi": "Biểu đồ UML thể hiện sự thay đổi trạng thái hoặc giá trị theo thời gian."
+        }
+      ],
+      "tags": ["uml", "timing-diagram", "time"]
+    },
+    {
+      "id": "operation",
+      "order": 29,
+      "titleJa": "操作",
+      "titleVi": "Thao tác",
+      "importance": "medium",
+      "summaryJa": "コンピュータやデジタルデバイスで特定の機能やタスクを実行するための操作について理解する。",
+      "summaryVi": "Tìm hiểu thao tác dùng để thực hiện một chức năng hoặc tác vụ cụ thể trên máy tính và thiết bị số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "操作とは",
+          "vi": "Thao tác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "操作（Operation）は、コンピュータやデジタルデバイスで、特定の機能やタスクを実行するための行為や手続きを指す。",
+          "vi": "Thao tác (Operation) là hành động hoặc thủ tục được thực hiện để sử dụng một chức năng hay thực hiện một tác vụ cụ thể trên máy tính hoặc thiết bị số."
+        },
+        {
+          "type": "heading",
+          "ja": "具体例",
+          "vi": "Ví dụ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、マウスを使ってファイルを選択したり、コピーしたりする行為は操作の一例である。クリック、タップ、ドラッグなどによってコンピュータへ指示を与えることも操作に含まれる。",
+          "vi": "Ví dụ, dùng chuột để chọn hoặc sao chép tệp là một dạng thao tác. Việc đưa lệnh cho máy tính bằng click, chạm hoặc kéo thả cũng thuộc thao tác."
+        },
+        {
+          "type": "heading",
+          "ja": "インターフェースとの関係",
+          "vi": "Quan hệ với giao diện"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多くの操作はソフトウェアのユーザーインターフェースを通じて行われる。適切な操作によって、ユーザーは情報の作成、編集、管理などを行うことができる。",
+          "vi": "Nhiều thao tác được thực hiện thông qua giao diện người dùng của phần mềm. Thông qua các thao tác phù hợp, người dùng có thể tạo, chỉnh sửa và quản lý thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "操作は、ユーザーがコンピュータやシステムに対して行う具体的な行為や手続きを表す。",
+          "vi": "操作 chỉ hành động hoặc thủ tục cụ thể mà người dùng thực hiện đối với máy tính hoặc hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "操作",
+          "reading": "そうさ",
+          "english": "Operation",
+          "vi": "thao tác",
+          "definitionJa": "コンピュータや機器に対して、特定の処理を行わせるための行為や手続き。",
+          "definitionVi": "Hành động hoặc thủ tục nhằm yêu cầu máy tính hay thiết bị thực hiện một xử lý cụ thể."
+        }
+      ],
+      "tags": ["operation", "interface", "computer"]
+    },
+    {
+      "id": "attribute",
+      "order": 30,
+      "titleJa": "属性",
+      "titleVi": "Thuộc tính",
+      "importance": "high",
+      "summaryJa": "データやオブジェクトが持つ特性や特徴を表す属性について理解する。",
+      "summaryVi": "Tìm hiểu thuộc tính, dùng để biểu diễn đặc điểm hoặc tính chất của dữ liệu và đối tượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "属性とは",
+          "vi": "Thuộc tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "属性（Attribute）は、特定のデータやオブジェクトが持つ特性や特徴を表すものである。データベースやオブジェクト指向など、さまざまな分野で使用される。",
+          "vi": "Thuộc tính (Attribute) biểu thị đặc điểm hoặc tính chất mà một dữ liệu hay đối tượng cụ thể sở hữu. Khái niệm này được sử dụng trong nhiều lĩnh vực như cơ sở dữ liệu và lập trình hướng đối tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "データベースでの属性",
+          "vi": "Thuộc tính trong cơ sở dữ liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、顧客情報を扱う場合、「名前」「年齢」「住所」などが属性となる。これらの属性を用いて、顧客に関する情報を構造的に整理することができる。",
+          "vi": "Ví dụ, khi quản lý thông tin khách hàng, \"tên\", \"tuổi\", \"địa chỉ\" có thể là các thuộc tính. Nhờ đó, thông tin về khách hàng được tổ chức có cấu trúc."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向での属性",
+          "vi": "Thuộc tính trong hướng đối tượng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向では、クラスやオブジェクトが持つ性質を属性として表す。例えば、「車」というオブジェクトに「色」や「サイズ」などの属性を持たせることができる。",
+          "vi": "Trong hướng đối tượng, các đặc điểm của class hoặc object được biểu diễn bằng thuộc tính. Ví dụ, object \"xe\" có thể có các thuộc tính như \"màu sắc\" và \"kích thước\"."
+        },
+        {
+          "type": "point",
+          "ja": "属性は、データやオブジェクトが持つ性質・特徴を表す。",
+          "vi": "Thuộc tính biểu thị tính chất hoặc đặc điểm của dữ liệu hay đối tượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "属性",
+          "reading": "ぞくせい",
+          "english": "Attribute",
+          "vi": "thuộc tính",
+          "definitionJa": "データやオブジェクトが持つ性質や特徴を表す情報。",
+          "definitionVi": "Thông tin biểu thị tính chất hoặc đặc điểm của dữ liệu hay đối tượng."
+        }
+      ],
+      "tags": ["attribute", "database", "object-oriented"]
+    },
+    {
+      "id": "role-name",
+      "order": 31,
+      "titleJa": "ロール名",
+      "titleVi": "Tên vai trò",
+      "importance": "medium",
+      "summaryJa": "システムやアプリケーションにおいて利用者などの役割を表すロール名について理解する。",
+      "summaryVi": "Tìm hiểu tên vai trò, dùng để biểu thị vai trò của người dùng hoặc thành phần trong hệ thống và ứng dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロール名とは",
+          "vi": "Tên vai trò là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ロール名（Role Name）は、システムやアプリケーションにおける役割を示す名称である。役割ごとに利用できる機能や権限などを区別する際に用いられる。",
+          "vi": "Tên vai trò (Role Name) là tên biểu thị vai trò trong hệ thống hoặc ứng dụng. Nó được sử dụng để phân biệt chức năng hoặc quyền hạn tương ứng với từng vai trò."
+        },
+        {
+          "type": "heading",
+          "ja": "具体例",
+          "vi": "Ví dụ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、企業の情報システムでは「管理者」「ユーザー」などのロール名を設定し、それぞれに異なる権限や利用可能な機能を割り当てることができる。",
+          "vi": "Ví dụ, trong hệ thống thông tin doanh nghiệp có thể thiết lập các vai trò như \"quản trị viên\" và \"người dùng\", sau đó gán quyền hạn và chức năng khác nhau cho từng vai trò."
+        },
+        {
+          "type": "heading",
+          "ja": "アクセス管理",
+          "vi": "Quản lý truy cập"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ロール名によって利用者の役割を明確にすることで、適切なアクセス管理を行いやすくなり、情報漏えいや操作ミスを防ぐことにもつながる。",
+          "vi": "Việc xác định rõ vai trò bằng tên vai trò giúp quản lý truy cập phù hợp hơn, đồng thời góp phần ngăn ngừa rò rỉ thông tin và thao tác nhầm."
+        },
+        {
+          "type": "point",
+          "ja": "ロール名は、システム内での役割を識別するための名称である。",
+          "vi": "Tên vai trò là tên dùng để xác định vai trò trong hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロール名",
+          "reading": "ろーるめい",
+          "english": "Role Name",
+          "vi": "tên vai trò",
+          "definitionJa": "システムなどにおける利用者や要素の役割を識別するための名称。",
+          "definitionVi": "Tên dùng để xác định vai trò của người dùng hoặc thành phần trong hệ thống."
+        }
+      ],
+      "tags": ["role", "role-name", "access-control"]
+    },
+    {
+      "id": "json",
+      "order": 32,
+      "titleJa": "JSON",
+      "titleVi": "JSON",
+      "importance": "high",
+      "summaryJa": "データを簡潔なテキスト形式で表現し、システム間のデータ交換などに利用されるJSONについて理解する。",
+      "summaryVi": "Tìm hiểu JSON, định dạng văn bản gọn nhẹ được sử dụng rộng rãi để biểu diễn và trao đổi dữ liệu giữa các hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JSONとは",
+          "vi": "JSON là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "JSON（JavaScript Object Notation）は、データを簡潔に表現するためのテキスト形式である。人間が読み書きしやすく、プログラムからも扱いやすいため、Webアプリケーションなどで広く利用されている。",
+          "vi": "JSON (JavaScript Object Notation) là định dạng văn bản dùng để biểu diễn dữ liệu một cách ngắn gọn. Nó dễ đọc đối với con người và dễ xử lý bằng chương trình nên được sử dụng rộng rãi trong các ứng dụng Web."
+        },
+        {
+          "type": "heading",
+          "ja": "データ交換",
+          "vi": "Trao đổi dữ liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "JSONは、WebサービスやAPIなどでシステム間のデータを交換する際によく利用される。文字列、数値、真偽値、配列、オブジェクトなどを組み合わせてデータを構造化できる。",
+          "vi": "JSON thường được sử dụng để trao đổi dữ liệu giữa các hệ thống thông qua Web service hoặc API. Dữ liệu có thể được cấu trúc bằng cách kết hợp chuỗi, số, giá trị Boolean, mảng và object."
+        },
+        {
+          "type": "heading",
+          "ja": "具体例",
+          "vi": "Ví dụ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、Webサービスから天気情報を取得する場合、気温、湿度、天気などの情報をJSON形式で受け取ることができる。",
+          "vi": "Ví dụ, khi lấy thông tin thời tiết từ một Web service, các dữ liệu như nhiệt độ, độ ẩm và thời tiết có thể được nhận dưới định dạng JSON."
+        },
+        {
+          "type": "point",
+          "ja": "JSONは、人にもプログラムにも扱いやすく、APIなどのデータ交換で広く利用される。",
+          "vi": "JSON dễ xử lý đối với cả con người và chương trình, và được sử dụng rộng rãi để trao đổi dữ liệu qua API."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JSON",
+          "reading": "じぇいそん",
+          "english": "JavaScript Object Notation",
+          "vi": "định dạng JSON",
+          "definitionJa": "データを構造化して表現するための軽量なテキスト形式。",
+          "definitionVi": "Định dạng văn bản nhẹ dùng để biểu diễn dữ liệu có cấu trúc."
+        }
+      ],
+      "tags": ["json", "data-format", "api"]
+    },
+    {
+      "id": "yaml",
+      "order": 33,
+      "titleJa": "YAML",
+      "titleVi": "YAML",
+      "importance": "medium",
+      "summaryJa": "人間が読み書きしやすいデータ記述形式であり、設定ファイルなどで広く利用されるYAMLについて理解する。",
+      "summaryVi": "Tìm hiểu YAML, định dạng mô tả dữ liệu dễ đọc đối với con người và được sử dụng rộng rãi trong các tệp cấu hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "YAMLとは",
+          "vi": "YAML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "YAML（YAML Ain't Markup Language）は、人間が読み書きしやすいように設計されたデータ記述形式である。主に設定ファイルやデータのシリアライズなどに利用される。",
+          "vi": "YAML (YAML Ain't Markup Language) là định dạng mô tả dữ liệu được thiết kế để con người dễ đọc và viết. Nó chủ yếu được sử dụng cho tệp cấu hình và tuần tự hóa dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "インデントによる階層構造",
+          "vi": "Cấu trúc phân cấp bằng thụt lề"
+        },
+        {
+          "type": "paragraph",
+          "ja": "YAMLではインデントを利用してデータの階層構造を表現する。記述が比較的簡潔であるため、複雑な設定情報でも視認性を高く保つことができる。",
+          "vi": "YAML sử dụng thụt lề để biểu diễn cấu trúc phân cấp của dữ liệu. Cách viết tương đối ngắn gọn giúp duy trì khả năng đọc tốt ngay cả với thông tin cấu hình phức tạp."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムや各種ツールの設定ファイルとして広く利用されている。開発者や運用者が設定内容を確認・変更しやすいことが特徴である。",
+          "vi": "YAML được sử dụng rộng rãi cho tệp cấu hình của chương trình và nhiều công cụ khác nhau. Ưu điểm là giúp lập trình viên và người vận hành dễ dàng kiểm tra và thay đổi cấu hình."
+        },
+        {
+          "type": "point",
+          "ja": "YAMLはインデントで階層構造を表し、設定ファイルなどでよく利用される。",
+          "vi": "YAML biểu diễn cấu trúc phân cấp bằng thụt lề và thường được dùng cho tệp cấu hình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "YAML",
+          "reading": "やむる",
+          "english": "YAML Ain't Markup Language",
+          "vi": "định dạng YAML",
+          "definitionJa": "人間が読み書きしやすいように設計されたデータ記述形式。",
+          "definitionVi": "Định dạng mô tả dữ liệu được thiết kế để con người dễ đọc và viết."
+        }
+      ],
+      "tags": ["yaml", "data-format", "configuration"]
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "id": "programming-languages",
+  "order": 4,
+  "titleJa": "プログラム言語",
+  "titleVi": "Ngôn ngữ lập trình",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "procedural-language",
+      "order": 1,
+      "titleJa": "手続型言語",
+      "titleVi": "Ngôn ngữ lập trình thủ tục",
+      "importance": "high",
+      "summaryJa": "処理の手順や処理順序を順番に記述する手続型言語の特徴について理解する。",
+      "summaryVi": "Tìm hiểu đặc điểm của ngôn ngữ lập trình thủ tục, trong đó các bước và thứ tự xử lý được mô tả tuần tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "手続型言語とは",
+          "vi": "Ngôn ngữ lập trình thủ tục là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "手続型言語（Procedural Language）とは、コンピュータに実行させる処理を手続きとして記述し、定められた順序に従って処理を進めるプログラミング言語である。",
+          "vi": "Ngôn ngữ lập trình thủ tục (Procedural Language) là ngôn ngữ mô tả các xử lý cần máy tính thực hiện dưới dạng các thủ tục và tiến hành xử lý theo một thứ tự xác định."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムは一連の手順や処理を順番に実行する構造を持つ。変数や関数などを利用して処理を分割・整理することができ、アルゴリズムの処理手順を比較的明確に表現できる。",
+          "vi": "Chương trình có cấu trúc thực hiện một chuỗi các bước xử lý theo thứ tự. Có thể sử dụng biến và hàm để chia nhỏ, tổ chức xử lý, nhờ đó biểu diễn khá rõ ràng trình tự của thuật toán."
+        },
+        {
+          "type": "heading",
+          "ja": "代表的な言語",
+          "vi": "Ngôn ngữ tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C言語やPascalなどが代表的な手続型言語である。処理の流れを順番に記述するため、プログラムの動作を追いやすいという特徴がある。",
+          "vi": "C và Pascal là những ngôn ngữ lập trình thủ tục tiêu biểu. Do luồng xử lý được mô tả theo thứ tự nên tương đối dễ theo dõi hoạt động của chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "手続型言語では、「何をどの順番で実行するか」という処理手順を記述することが基本となる。",
+          "vi": "Điểm cơ bản của ngôn ngữ thủ tục là mô tả \"thực hiện việc gì và theo thứ tự nào\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "手続型言語",
+          "reading": "てつづきがたげんご",
+          "english": "Procedural Language",
+          "vi": "ngôn ngữ lập trình thủ tục",
+          "definitionJa": "処理の手順を順番に記述して実行するプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình mô tả và thực hiện các bước xử lý theo thứ tự."
+        }
+      ],
+      "tags": ["programming-language", "procedural-language"]
+    },
+    {
+      "id": "object-oriented-language",
+      "order": 2,
+      "titleJa": "オブジェクト指向言語",
+      "titleVi": "Ngôn ngữ hướng đối tượng",
+      "importance": "high",
+      "summaryJa": "データとそれに対する操作をオブジェクトとしてまとめて扱うオブジェクト指向言語について理解する。",
+      "summaryVi": "Tìm hiểu ngôn ngữ hướng đối tượng, trong đó dữ liệu và các thao tác liên quan được tổ chức thành các object.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オブジェクト指向言語とは",
+          "vi": "Ngôn ngữ hướng đối tượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向言語（Object-Oriented Language）とは、「オブジェクト」という概念を中心に設計されたプログラミング言語である。オブジェクトは、データとそのデータに対する操作を一つにまとめたものとして扱われる。",
+          "vi": "Ngôn ngữ hướng đối tượng (Object-Oriented Language) là ngôn ngữ lập trình được thiết kế xoay quanh khái niệm \"object\". Một object tập hợp dữ liệu và các thao tác liên quan đến dữ liệu đó thành một đơn vị."
+        },
+        {
+          "type": "heading",
+          "ja": "オブジェクトの例",
+          "vi": "Ví dụ về object"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、動物をオブジェクトとして表す場合、名前や年齢、鳴き声などをデータとして持ち、移動する、鳴くといった操作を持たせることができる。",
+          "vi": "Ví dụ, khi biểu diễn một con vật dưới dạng object, nó có thể chứa dữ liệu như tên, tuổi, tiếng kêu và các thao tác như di chuyển hoặc kêu."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向を利用することで、プログラムの部品を再利用しやすくなり、複雑なシステムを整理して構築しやすくなる。代表的なオブジェクト指向言語にはJavaやC++などがある。",
+          "vi": "Sử dụng hướng đối tượng giúp các thành phần chương trình dễ tái sử dụng và giúp tổ chức, xây dựng các hệ thống phức tạp dễ dàng hơn. Java và C++ là những ngôn ngữ hướng đối tượng tiêu biểu."
+        },
+        {
+          "type": "point",
+          "ja": "オブジェクト指向では、関連する「データ」と「操作」をオブジェクトとしてまとめて扱う。",
+          "vi": "Trong hướng đối tượng, \"dữ liệu\" và \"thao tác\" liên quan được gom lại và xử lý dưới dạng object."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オブジェクト指向言語",
+          "reading": "おぶじぇくとしこうげんご",
+          "english": "Object-Oriented Language",
+          "vi": "ngôn ngữ hướng đối tượng",
+          "definitionJa": "データとそのデータに対する操作をオブジェクトとしてまとめて扱うプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình tổ chức dữ liệu và các thao tác liên quan thành các object."
+        }
+      ],
+      "tags": ["programming-language", "object-oriented"]
+    },
+    {
+      "id": "scripting-language",
+      "order": 3,
+      "titleJa": "スクリプト言語",
+      "titleVi": "Ngôn ngữ script",
+      "importance": "high",
+      "summaryJa": "主にプログラムの制御や自動化などに利用されるスクリプト言語の特徴について理解する。",
+      "summaryVi": "Tìm hiểu đặc điểm của ngôn ngữ script, thường được sử dụng để điều khiển chương trình và tự động hóa xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スクリプト言語とは",
+          "vi": "Ngôn ngữ script là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スクリプト言語（Scripting Language）とは、主に処理の自動化やプログラムの制御などに利用されるプログラミング言語である。一般に、インタプリタによって逐次解釈しながら実行されるものが多い。",
+          "vi": "Ngôn ngữ script (Scripting Language) là ngôn ngữ lập trình chủ yếu được sử dụng để tự động hóa xử lý hoặc điều khiển chương trình. Nhiều ngôn ngữ loại này thường được interpreter diễn giải và thực thi tuần tự."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較的簡潔にプログラムを記述でき、開発や修正を素早く行いやすいという特徴がある。Web開発やシステム管理、自動処理など様々な用途で利用される。",
+          "vi": "Ngôn ngữ script thường cho phép viết chương trình tương đối ngắn gọn, giúp phát triển và chỉnh sửa nhanh. Chúng được sử dụng trong nhiều lĩnh vực như phát triển Web, quản trị hệ thống và tự động hóa."
+        },
+        {
+          "type": "heading",
+          "ja": "代表例",
+          "vi": "Ví dụ tiêu biểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "JavaScript、Python、Rubyなどがスクリプト言語として利用される。例えば、Webブラウザ上ではJavaScriptを利用して、ユーザーの操作に応じてHTMLの表示内容を動的に変更することができる。",
+          "vi": "JavaScript, Python và Ruby được sử dụng như các ngôn ngữ script. Ví dụ, JavaScript có thể thay đổi động nội dung HTML trên trình duyệt Web theo thao tác của người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "スクリプト言語は、自動化やWeb処理などで広く利用され、比較的簡潔に処理を記述できる。",
+          "vi": "Ngôn ngữ script được sử dụng rộng rãi trong tự động hóa và xử lý Web, đồng thời cho phép mô tả xử lý tương đối ngắn gọn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スクリプト言語",
+          "reading": "すくりぷとげんご",
+          "english": "Scripting Language",
+          "vi": "ngôn ngữ script",
+          "definitionJa": "主に処理の自動化やプログラムの制御などに利用されるプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình chủ yếu được sử dụng để tự động hóa xử lý hoặc điều khiển chương trình."
+        }
+      ],
+      "tags": ["programming-language", "scripting-language", "interpreter"]
+    },
+    {
+      "id": "fortran",
+      "order": 4,
+      "titleJa": "Fortran",
+      "titleVi": "Fortran",
+      "importance": "medium",
+      "summaryJa": "科学技術計算や数値計算を主な用途として発展してきたプログラミング言語Fortranについて理解する。",
+      "summaryVi": "Tìm hiểu Fortran, ngôn ngữ lập trình phát triển chủ yếu cho tính toán khoa học kỹ thuật và tính toán số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Fortranとは",
+          "vi": "Fortran là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Fortranは、科学技術計算に適したプログラミング言語であり、1950年代に開発された。特に数値計算や科学技術分野で長く利用されている。",
+          "vi": "Fortran là ngôn ngữ lập trình phù hợp với tính toán khoa học kỹ thuật, được phát triển vào thập niên 1950. Nó đã được sử dụng lâu dài, đặc biệt trong tính toán số và các lĩnh vực khoa học kỹ thuật."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "数値計算を効率よく記述・実行できることが大きな特徴である。行列計算やシミュレーションなど、大量の数値を扱う処理に適している。",
+          "vi": "Đặc điểm lớn của Fortran là khả năng mô tả và thực hiện tính toán số hiệu quả. Nó phù hợp với các xử lý lượng lớn dữ liệu số như tính toán ma trận và mô phỏng."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "科学技術計算、気象計算、シミュレーションなどの分野で利用されており、現在でもスーパーコンピュータを利用する大規模な科学技術計算などで使用されている。",
+          "vi": "Fortran được sử dụng trong tính toán khoa học kỹ thuật, tính toán khí tượng, mô phỏng và các lĩnh vực tương tự. Hiện nay nó vẫn được sử dụng cho nhiều bài toán khoa học quy mô lớn trên siêu máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "Fortranは、特に科学技術計算や数値計算に適した歴史の長いプログラミング言語である。",
+          "vi": "Fortran là ngôn ngữ lập trình có lịch sử lâu đời, đặc biệt phù hợp với tính toán khoa học kỹ thuật và tính toán số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Fortran",
+          "reading": "ふぉーとらん",
+          "english": "Fortran",
+          "vi": "Fortran",
+          "definitionJa": "科学技術計算や数値計算に適したプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình phù hợp với tính toán khoa học kỹ thuật và tính toán số."
+        }
+      ],
+      "tags": ["programming-language", "fortran", "scientific-computing"]
+    },
+    {
+      "id": "cobol",
+      "order": 5,
+      "titleJa": "COBOL",
+      "titleVi": "COBOL",
+      "importance": "medium",
+      "summaryJa": "事務処理や業務システムで広く利用されてきたプログラミング言語COBOLについて理解する。",
+      "summaryVi": "Tìm hiểu COBOL, ngôn ngữ lập trình được sử dụng rộng rãi trong xử lý nghiệp vụ và các hệ thống doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "COBOLとは",
+          "vi": "COBOL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "COBOL（Common Business-Oriented Language）は、ビジネス向けの事務処理を主な目的として開発されたプログラミング言語である。1959年に開発され、企業の基幹システムなどで長く利用されてきた。",
+          "vi": "COBOL (Common Business-Oriented Language) là ngôn ngữ lập trình được phát triển chủ yếu cho các nghiệp vụ kinh doanh. Nó được phát triển vào năm 1959 và đã được sử dụng lâu dài trong các hệ thống cốt lõi của doanh nghiệp."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "大量のデータを扱う事務処理に適しており、金融機関や公共機関などの業務システムでも利用されている。また、英語に近い比較的読みやすい構文を持つことも特徴である。",
+          "vi": "COBOL phù hợp với xử lý nghiệp vụ có lượng dữ liệu lớn và được sử dụng trong các hệ thống của tổ chức tài chính, cơ quan công cộng. Một đặc điểm khác là cú pháp tương đối dễ đọc và gần với tiếng Anh."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "金融、会計、給与計算など、大量の業務データを正確に処理する必要がある分野で利用されている。既存の大規模な業務システムでも現在まで使われている例がある。",
+          "vi": "COBOL được sử dụng trong các lĩnh vực cần xử lý chính xác lượng lớn dữ liệu nghiệp vụ như tài chính, kế toán và tính lương. Nhiều hệ thống nghiệp vụ quy mô lớn hiện vẫn sử dụng COBOL."
+        },
+        {
+          "type": "point",
+          "ja": "COBOLは、企業の事務処理や基幹業務システムで利用されてきた言語である。",
+          "vi": "COBOL là ngôn ngữ được sử dụng lâu đời trong xử lý nghiệp vụ và các hệ thống cốt lõi của doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COBOL",
+          "reading": "こぼる",
+          "english": "Common Business-Oriented Language",
+          "vi": "COBOL",
+          "definitionJa": "主に事務処理や業務システム向けに開発されたプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình được phát triển chủ yếu cho xử lý nghiệp vụ và hệ thống doanh nghiệp."
+        }
+      ],
+      "tags": ["programming-language", "cobol", "business-processing"]
+    },
+    {
+      "id": "pascal",
+      "order": 6,
+      "titleJa": "Pascal",
+      "titleVi": "Pascal",
+      "importance": "medium",
+      "summaryJa": "構造化プログラミングやプログラミング教育で利用されてきたPascalについて理解する。",
+      "summaryVi": "Tìm hiểu Pascal, ngôn ngữ được sử dụng trong lập trình có cấu trúc và giáo dục lập trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Pascalとは",
+          "vi": "Pascal là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Pascalは、1970年代にニクラウス・ヴィルトによって開発されたプログラミング言語である。構造化プログラミングを重視して設計され、プログラミング教育でも広く利用されてきた。",
+          "vi": "Pascal là ngôn ngữ lập trình được Niklaus Wirth phát triển vào thập niên 1970. Nó được thiết kế chú trọng lập trình có cấu trúc và từng được sử dụng rộng rãi trong giáo dục lập trình."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "構文が比較的明確で、変数やデータ型、手続きなどを明示的に記述する。プログラムの構造を整理しやすく、可読性の高いプログラムを作成しやすい。",
+          "vi": "Pascal có cú pháp tương đối rõ ràng, cho phép mô tả tường minh biến, kiểu dữ liệu và thủ tục. Nhờ đó cấu trúc chương trình dễ tổ chức và mã nguồn dễ đọc."
+        },
+        {
+          "type": "heading",
+          "ja": "教育での利用",
+          "vi": "Ứng dụng trong giáo dục"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの構造やアルゴリズムの基本を学習するための言語として利用されてきた。構造化プログラミングの考え方を理解する上でも重要な言語である。",
+          "vi": "Pascal từng được sử dụng để học cấu trúc chương trình và các kiến thức cơ bản về thuật toán. Đây cũng là ngôn ngữ hữu ích để hiểu tư duy lập trình có cấu trúc."
+        },
+        {
+          "type": "point",
+          "ja": "Pascalは、構造化プログラミングを重視し、プログラミング教育にも広く利用されてきた。",
+          "vi": "Pascal chú trọng lập trình có cấu trúc và từng được sử dụng rộng rãi trong giáo dục lập trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Pascal",
+          "reading": "ぱすかる",
+          "english": "Pascal",
+          "vi": "Pascal",
+          "definitionJa": "構造化プログラミングを重視して設計され、教育にも利用されてきたプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình chú trọng lập trình có cấu trúc và từng được sử dụng nhiều trong giáo dục."
+        }
+      ],
+      "tags": ["programming-language", "pascal", "structured-programming"]
+    },
+    {
+      "id": "basic",
+      "order": 7,
+      "titleJa": "BASIC",
+      "titleVi": "BASIC",
+      "importance": "medium",
+      "summaryJa": "初心者でも学習しやすいように設計されたプログラミング言語BASICについて理解する。",
+      "summaryVi": "Tìm hiểu BASIC, ngôn ngữ lập trình được thiết kế để người mới bắt đầu dễ học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BASICとは",
+          "vi": "BASIC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "BASICは、初心者でもプログラミングを学びやすいように設計されたプログラミング言語である。1960年代に登場し、特に教育用途やパーソナルコンピュータで広く利用された。",
+          "vi": "BASIC là ngôn ngữ lập trình được thiết kế để người mới bắt đầu có thể học lập trình dễ dàng. Nó xuất hiện vào thập niên 1960 và từng được sử dụng rộng rãi trong giáo dục và máy tính cá nhân."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較的簡単な構文を持ち、プログラムを理解しやすいことが特徴である。初心者がプログラミングの基本的な考え方を学習するための言語として普及した。",
+          "vi": "BASIC có đặc điểm là cú pháp tương đối đơn giản và chương trình dễ hiểu. Nó trở nên phổ biến như một ngôn ngữ giúp người mới học các khái niệm cơ bản của lập trình."
+        },
+        {
+          "type": "heading",
+          "ja": "発展",
+          "vi": "Sự phát triển"
+        },
+        {
+          "type": "paragraph",
+          "ja": "BASICからは多くの派生言語が生まれている。代表的なものとしてVisual Basicなどがあり、BASICの考え方を受け継ぎながら様々な用途で利用されてきた。",
+          "vi": "Nhiều ngôn ngữ phái sinh đã được phát triển từ BASIC. Một ví dụ tiêu biểu là Visual Basic, kế thừa các ý tưởng của BASIC và được sử dụng cho nhiều mục đích khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "BASICは、初心者がプログラミングを学びやすいように設計された言語である。",
+          "vi": "BASIC được thiết kế với mục tiêu giúp người mới bắt đầu dễ học lập trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BASIC",
+          "reading": "べーしっく",
+          "english": "BASIC",
+          "vi": "BASIC",
+          "definitionJa": "初心者がプログラミングを学びやすいように設計されたプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình được thiết kế để người mới bắt đầu dễ học lập trình."
+        }
+      ],
+      "tags": ["programming-language", "basic", "education"]
+    },
+    {
+      "id": "c-language",
+      "order": 8,
+      "titleJa": "C",
+      "titleVi": "Ngôn ngữ C",
+      "importance": "high",
+      "summaryJa": "システムソフトウェアなど幅広い分野で利用される汎用プログラミング言語Cについて理解する。",
+      "summaryVi": "Tìm hiểu C, ngôn ngữ lập trình đa dụng được sử dụng rộng rãi trong phần mềm hệ thống và nhiều lĩnh vực khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "C言語とは",
+          "vi": "Ngôn ngữ C là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C言語は、コンピュータプログラミングで広く利用されている汎用プログラミング言語である。システムソフトウェアからアプリケーションまで幅広い分野で利用されている。",
+          "vi": "C là một ngôn ngữ lập trình đa dụng được sử dụng rộng rãi. Nó được sử dụng trong nhiều lĩnh vực, từ phần mềm hệ thống đến các chương trình ứng dụng."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C言語は、高い実行効率と柔軟性を持ち、ハードウェアに近い低レベルの処理も記述できる。そのため、OSや組込みシステムなど、コンピュータ資源を細かく制御する必要がある分野でも利用されている。",
+          "vi": "C có hiệu suất thực thi cao và tính linh hoạt, đồng thời có thể mô tả các xử lý cấp thấp gần với phần cứng. Vì vậy, nó được sử dụng trong những lĩnh vực cần kiểm soát tài nguyên máy tính chi tiết như hệ điều hành và hệ thống nhúng."
+        },
+        {
+          "type": "heading",
+          "ja": "他の言語との関係",
+          "vi": "Quan hệ với các ngôn ngữ khác"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C言語の構文や考え方は、その後に登場した多くのプログラミング言語に影響を与えている。C言語を学ぶことで、プログラムの動作やコンピュータの仕組みに対する理解を深めることができる。",
+          "vi": "Cú pháp và tư tưởng của C đã ảnh hưởng đến nhiều ngôn ngữ lập trình xuất hiện sau này. Việc học C cũng giúp hiểu sâu hơn về hoạt động của chương trình và cơ chế của máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "C言語は、高速性と柔軟性を持ち、OSや組込みシステムなどでも利用される汎用プログラミング言語である。",
+          "vi": "C là ngôn ngữ lập trình đa dụng có tốc độ cao và tính linh hoạt, được sử dụng cả trong hệ điều hành và hệ thống nhúng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "C",
+          "reading": "しー",
+          "english": "C Programming Language",
+          "vi": "ngôn ngữ C",
+          "definitionJa": "高い実行効率と柔軟性を持ち、システム開発などで広く利用されるプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình có hiệu suất cao và linh hoạt, được sử dụng rộng rãi trong phát triển hệ thống."
+        }
+      ],
+      "tags": ["programming-language", "c", "system-programming"]
+    },
+    {
+      "id": "r",
+      "order": 9,
+      "titleJa": "R",
+      "titleVi": "R",
+      "importance": "high",
+      "summaryJa": "統計解析やデータ分析に特化したプログラミング言語Rについて理解する。",
+      "summaryVi": "Tìm hiểu R, ngôn ngữ lập trình chuyên về phân tích thống kê và dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Rとは",
+          "vi": "R là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Rは、統計解析やデータ分析に特化したプログラミング言語である。データの処理や視覚化を効率的に行うための機能が豊富で、多くの統計手法を簡単に適用できる。",
+          "vi": "R là ngôn ngữ lập trình chuyên về phân tích thống kê và dữ liệu. Nó cung cấp nhiều chức năng để xử lý và trực quan hóa dữ liệu hiệu quả, đồng thời cho phép áp dụng nhiều phương pháp thống kê một cách dễ dàng."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Rには統計解析やグラフ作成のための多数のパッケージが用意されている。数値データをグラフとして表示することで、データの傾向や特徴を視覚的に把握することができる。",
+          "vi": "R có nhiều package phục vụ phân tích thống kê và tạo biểu đồ. Bằng cách biểu diễn dữ liệu số dưới dạng biểu đồ, người dùng có thể trực quan nắm bắt xu hướng và đặc điểm của dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "統計解析、データマイニング、機械学習などの分野で利用されており、統計学者やデータサイエンティストにも広く使われている。",
+          "vi": "R được sử dụng trong các lĩnh vực như phân tích thống kê, khai phá dữ liệu và machine learning, đồng thời được sử dụng rộng rãi bởi các nhà thống kê và nhà khoa học dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "Rは、統計解析やデータ分析、データの可視化に適したプログラミング言語である。",
+          "vi": "R là ngôn ngữ lập trình phù hợp với phân tích thống kê, phân tích dữ liệu và trực quan hóa dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "R",
+          "reading": "あーる",
+          "english": "R",
+          "vi": "R",
+          "definitionJa": "統計解析やデータ分析、可視化などに広く利用されるプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình được sử dụng rộng rãi cho phân tích thống kê, dữ liệu và trực quan hóa."
+        }
+      ],
+      "tags": ["programming-language", "r", "statistics", "data-analysis"]
+    },
+    {
+      "id": "java",
+      "order": 10,
+      "titleJa": "Java",
+      "titleVi": "Java",
+      "importance": "high",
+      "summaryJa": "プラットフォームに依存せず動作できるオブジェクト指向プログラミング言語Javaについて理解する。",
+      "summaryVi": "Tìm hiểu Java, ngôn ngữ lập trình hướng đối tượng có khả năng hoạt động trên nhiều nền tảng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Javaとは",
+          "vi": "Java là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Javaは、オラクル社によって提供されているプログラミング言語であり、様々なアプリケーションの開発に利用されている。オブジェクト指向プログラミングを採用している。",
+          "vi": "Java là ngôn ngữ lập trình được Oracle cung cấp và được sử dụng để phát triển nhiều loại ứng dụng. Java áp dụng phương pháp lập trình hướng đối tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "Write Once, Run Anywhere",
+          "vi": "Write Once, Run Anywhere"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Javaの代表的な特徴として「Write Once, Run Anywhere」がある。一度作成したプログラムを、異なるプラットフォームでも動作させることができるという考え方である。",
+          "vi": "Một đặc điểm tiêu biểu của Java là “Write Once, Run Anywhere”. Đây là tư tưởng cho phép chương trình đã viết một lần có thể chạy trên nhiều nền tảng khác nhau."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webアプリケーションや企業向けの大規模システムなど、幅広い分野で利用されている。また、豊富なライブラリやフレームワークが提供されている。",
+          "vi": "Java được sử dụng trong nhiều lĩnh vực như ứng dụng Web và các hệ thống doanh nghiệp quy mô lớn. Java cũng có hệ sinh thái thư viện và framework phong phú."
+        },
+        {
+          "type": "point",
+          "ja": "Javaはオブジェクト指向言語であり、異なるプラットフォーム上でも動作させやすいことが大きな特徴である。",
+          "vi": "Java là ngôn ngữ hướng đối tượng với đặc điểm quan trọng là chương trình có thể dễ dàng hoạt động trên nhiều nền tảng khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Java",
+          "reading": "じゃば",
+          "english": "Java",
+          "vi": "Java",
+          "definitionJa": "プラットフォームへの依存を抑えて様々な環境で利用できるオブジェクト指向プログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình hướng đối tượng có tính độc lập nền tảng cao và có thể sử dụng trong nhiều môi trường."
+        }
+      ],
+      "tags": [
+        "programming-language",
+        "java",
+        "object-oriented",
+        "cross-platform"
+      ]
+    },
+    {
+      "id": "cpp",
+      "order": 11,
+      "titleJa": "C++",
+      "titleVi": "C++",
+      "importance": "high",
+      "summaryJa": "C言語を基に発展し、オブジェクト指向プログラミングにも対応したC++について理解する。",
+      "summaryVi": "Tìm hiểu C++, ngôn ngữ phát triển dựa trên C và hỗ trợ lập trình hướng đối tượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "C++とは",
+          "vi": "C++ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C++は、C言語を基にして開発されたプログラミング言語である。C言語の特徴を受け継ぎながら、オブジェクト指向プログラミングなどの機能が追加されている。",
+          "vi": "C++ là ngôn ngữ lập trình được phát triển dựa trên C. Nó kế thừa các đặc điểm của C đồng thời bổ sung các chức năng như lập trình hướng đối tượng."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "C++は高速な処理性能を持ち、クラスやオブジェクトなどを利用して複雑なプログラムを構造化することができる。また、豊富なライブラリを利用することで様々な機能を実装できる。",
+          "vi": "C++ có hiệu năng xử lý cao và cho phép cấu trúc hóa các chương trình phức tạp bằng class, object và các cơ chế khác. Ngoài ra, nhiều chức năng có thể được triển khai thông qua các thư viện phong phú."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ゲーム開発や大規模なシステムプログラムなど、高い処理性能が求められる分野で広く利用されている。",
+          "vi": "C++ được sử dụng rộng rãi trong những lĩnh vực yêu cầu hiệu năng xử lý cao như phát triển game và các chương trình hệ thống quy mô lớn."
+        },
+        {
+          "type": "point",
+          "ja": "C++はC言語を基に発展し、オブジェクト指向などの機能を備えた高速なプログラミング言語である。",
+          "vi": "C++ phát triển từ C, có hiệu năng cao và hỗ trợ các chức năng như lập trình hướng đối tượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "C++",
+          "reading": "しーぷらすぷらす",
+          "english": "C Plus Plus",
+          "vi": "C++",
+          "definitionJa": "C言語を基に発展し、オブジェクト指向などの機能を備えたプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình phát triển từ C và hỗ trợ các chức năng như lập trình hướng đối tượng."
+        }
+      ],
+      "tags": ["programming-language", "cpp", "object-oriented"]
+    },
+    {
+      "id": "julia",
+      "order": 12,
+      "titleJa": "Julia",
+      "titleVi": "Julia",
+      "importance": "medium",
+      "summaryJa": "高速な数値計算や科学技術計算、データ分析などに利用されるプログラミング言語Juliaについて理解する。",
+      "summaryVi": "Tìm hiểu Julia, ngôn ngữ lập trình được sử dụng cho tính toán số tốc độ cao, tính toán khoa học và phân tích dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Juliaとは",
+          "vi": "Julia là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Juliaは、高速な数値計算を目的としたプログラミング言語である。特に科学技術計算やデータ分析などの分野に適している。",
+          "vi": "Julia là ngôn ngữ lập trình được thiết kế cho tính toán số tốc độ cao. Nó đặc biệt phù hợp với tính toán khoa học kỹ thuật và phân tích dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複雑な数値計算を高速に実行できる性能を持ちながら、比較的直感的に記述できることが特徴である。数学関数やライブラリも豊富に用意されている。",
+          "vi": "Julia có khả năng thực hiện các phép tính số phức tạp với tốc độ cao, đồng thời có cú pháp tương đối trực quan. Nó cũng cung cấp nhiều hàm toán học và thư viện."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "数値解析、科学技術計算、データ分析、機械学習などの分野で利用されている。また、他の言語と組み合わせて利用することもできる。",
+          "vi": "Julia được sử dụng trong phân tích số, tính toán khoa học kỹ thuật, phân tích dữ liệu và machine learning. Nó cũng có thể được sử dụng kết hợp với các ngôn ngữ khác."
+        },
+        {
+          "type": "point",
+          "ja": "Juliaは、高速な数値計算を得意とし、科学技術計算やデータ分析などに適したプログラミング言語である。",
+          "vi": "Julia mạnh về tính toán số tốc độ cao và phù hợp với tính toán khoa học kỹ thuật cũng như phân tích dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Julia",
+          "reading": "じゅりあ",
+          "english": "Julia",
+          "vi": "Julia",
+          "definitionJa": "高速な数値計算や科学技術計算、データ分析などに適したプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình phù hợp với tính toán số tốc độ cao, tính toán khoa học và phân tích dữ liệu."
+        }
+      ],
+      "tags": [
+        "programming-language",
+        "julia",
+        "numerical-computing",
+        "data-analysis"
+      ]
+    },
+    {
+      "id": "go",
+      "order": 13,
+      "titleJa": "Go",
+      "titleVi": "Go",
+      "importance": "high",
+      "summaryJa": "シンプルな構文、高速な実行性能、並行処理を特徴とするプログラミング言語Goについて理解する。",
+      "summaryVi": "Tìm hiểu Go, ngôn ngữ lập trình có cú pháp đơn giản, tốc độ thực thi cao và mạnh về xử lý đồng thời.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Goとは",
+          "vi": "Go là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Goは、Googleが開発したプログラミング言語である。シンプルな構文と高い実行速度を特徴とし、効率的なプログラムを作成することができる。",
+          "vi": "Go là ngôn ngữ lập trình do Google phát triển. Nó có đặc điểm là cú pháp đơn giản và tốc độ thực thi cao, cho phép xây dựng các chương trình hiệu quả."
+        },
+        {
+          "type": "heading",
+          "ja": "並行処理",
+          "vi": "Xử lý đồng thời"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Goは並行処理を得意としており、複数の処理を効率よく同時に実行できる。この特徴から、ネットワーク関連のアプリケーションやWebサーバ、マイクロサービスなどの開発に適している。",
+          "vi": "Go mạnh về xử lý đồng thời, cho phép thực hiện hiệu quả nhiều tác vụ cùng lúc. Nhờ đặc điểm này, Go phù hợp với phát triển ứng dụng mạng, Web server và microservice."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webサーバやマイクロサービスなどのバックエンド開発で広く利用されている。また、ビルドが高速で、大規模なプロジェクトでも保守しやすいという特徴がある。",
+          "vi": "Go được sử dụng rộng rãi trong phát triển backend như Web server và microservice. Ngoài ra, tốc độ build nhanh và khả năng bảo trì tốt cũng phù hợp với các dự án quy mô lớn."
+        },
+        {
+          "type": "point",
+          "ja": "Goは、シンプルな構文、高速な実行性能、並行処理のしやすさを特徴とする。",
+          "vi": "Go nổi bật với cú pháp đơn giản, tốc độ thực thi cao và khả năng xử lý đồng thời."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Go",
+          "reading": "ごー",
+          "english": "Go",
+          "vi": "Go",
+          "definitionJa": "Googleが開発した、シンプルな構文と高速な実行性能、並行処理を特徴とするプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình do Google phát triển, nổi bật với cú pháp đơn giản, hiệu năng cao và xử lý đồng thời."
+        }
+      ],
+      "tags": ["programming-language", "go", "concurrency", "backend"]
+    },
+    {
+      "id": "ecmascript",
+      "order": 14,
+      "titleJa": "ECMAScript",
+      "titleVi": "ECMAScript",
+      "importance": "high",
+      "summaryJa": "JavaScriptの基礎となる標準仕様であるECMAScriptについて理解する。",
+      "summaryVi": "Tìm hiểu ECMAScript, đặc tả tiêu chuẩn làm nền tảng cho JavaScript.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ECMAScriptとは",
+          "vi": "ECMAScript là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ECMAScriptは、プログラミング言語の仕様を定めた標準であり、特にWebブラウザ上で利用されるJavaScriptの基礎となっている。",
+          "vi": "ECMAScript là một tiêu chuẩn quy định đặc tả của ngôn ngữ lập trình và đặc biệt là nền tảng của JavaScript được sử dụng trên trình duyệt Web."
+        },
+        {
+          "type": "heading",
+          "ja": "JavaScriptとの関係",
+          "vi": "Quan hệ với JavaScript"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ECMAScriptでは、言語の構文や機能などのルールが定められており、JavaScriptはこの仕様に基づいて実装されている。",
+          "vi": "ECMAScript quy định các quy tắc về cú pháp và chức năng của ngôn ngữ. JavaScript được triển khai dựa trên đặc tả này."
+        },
+        {
+          "type": "heading",
+          "ja": "仕様の発展",
+          "vi": "Sự phát triển của đặc tả"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ECMAScriptは継続的に更新されており、新しい機能や改善が追加されている。例えば、ECMAScript 2015（ES6）では、アロー関数やクラスなどの機能が導入された。",
+          "vi": "ECMAScript liên tục được cập nhật với các chức năng và cải tiến mới. Ví dụ, ECMAScript 2015 (ES6) đã giới thiệu các tính năng như arrow function và class."
+        },
+        {
+          "type": "point",
+          "ja": "ECMAScriptはJavaScriptそのものではなく、JavaScriptなどが基づく標準仕様である。",
+          "vi": "ECMAScript không phải chính JavaScript mà là đặc tả tiêu chuẩn làm nền tảng cho JavaScript."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ECMAScript",
+          "reading": "えくますくりぷと",
+          "english": "ECMAScript",
+          "vi": "ECMAScript",
+          "definitionJa": "JavaScriptなどの基礎となるプログラミング言語の標準仕様。",
+          "definitionVi": "Đặc tả tiêu chuẩn của ngôn ngữ lập trình, làm nền tảng cho JavaScript."
+        }
+      ],
+      "tags": ["programming-language", "ecmascript", "javascript", "standard"]
+    },
+    {
+      "id": "perl",
+      "order": 15,
+      "titleJa": "Perl",
+      "titleVi": "Perl",
+      "importance": "medium",
+      "summaryJa": "テキスト処理やシステム管理に強く、正規表現を利用した文字列処理を得意とするPerlについて理解する。",
+      "summaryVi": "Tìm hiểu Perl, ngôn ngữ mạnh về xử lý văn bản, quản trị hệ thống và xử lý chuỗi bằng biểu thức chính quy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Perlとは",
+          "vi": "Perl là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Perlは、テキスト処理やシステム管理に強みを持つプログラミング言語である。多様なデータ形式を扱うことができ、特に文字列処理を簡潔に記述できる。",
+          "vi": "Perl là ngôn ngữ lập trình mạnh về xử lý văn bản và quản trị hệ thống. Nó có khả năng xử lý nhiều định dạng dữ liệu và đặc biệt cho phép viết các thao tác xử lý chuỗi một cách ngắn gọn."
+        },
+        {
+          "type": "heading",
+          "ja": "正規表現",
+          "vi": "Biểu thức chính quy"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Perlは強力な正規表現の機能を持ち、特定の文字列パターンの検索や置換を効率的に行うことができる。",
+          "vi": "Perl có chức năng biểu thức chính quy mạnh mẽ, cho phép tìm kiếm và thay thế các mẫu chuỗi cụ thể một cách hiệu quả."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム管理、テキスト処理、Web開発などで利用されてきた。特にWebでは、CGIプログラミングで広く利用されてきた歴史がある。",
+          "vi": "Perl từng được sử dụng trong quản trị hệ thống, xử lý văn bản và phát triển Web. Đặc biệt, nó có lịch sử được sử dụng rộng rãi trong lập trình CGI."
+        },
+        {
+          "type": "point",
+          "ja": "Perlは、文字列処理と正規表現を得意とするスクリプト言語である。",
+          "vi": "Perl là ngôn ngữ script nổi bật về xử lý chuỗi và biểu thức chính quy."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Perl",
+          "reading": "ぱーる",
+          "english": "Perl",
+          "vi": "Perl",
+          "definitionJa": "テキスト処理やシステム管理、正規表現による文字列処理などに強みを持つプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình mạnh về xử lý văn bản, quản trị hệ thống và xử lý chuỗi bằng biểu thức chính quy."
+        }
+      ],
+      "tags": [
+        "programming-language",
+        "perl",
+        "scripting",
+        "regular-expression"
+      ]
+    },
+    {
+      "id": "php",
+      "order": 16,
+      "titleJa": "PHP",
+      "titleVi": "PHP",
+      "importance": "high",
+      "summaryJa": "動的なWebページの生成などに利用されるサーバサイドスクリプト言語PHPについて理解する。",
+      "summaryVi": "Tìm hiểu PHP, ngôn ngữ script phía server được sử dụng để tạo các trang Web động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PHPとは",
+          "vi": "PHP là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PHPは、主にWeb開発で利用されるサーバサイドのスクリプト言語である。サーバ上でプログラムを実行し、処理結果をWebブラウザへ返すことができる。",
+          "vi": "PHP là ngôn ngữ script phía server được sử dụng chủ yếu trong phát triển Web. Chương trình được thực thi trên server và kết quả xử lý có thể được trả về trình duyệt Web."
+        },
+        {
+          "type": "heading",
+          "ja": "動的なWebページ",
+          "vi": "Trang Web động"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PHPはHTMLと組み合わせて利用されることが多く、ユーザーが入力した情報を処理したり、データベースから取得した情報を基に動的なWebページを生成したりすることができる。",
+          "vi": "PHP thường được sử dụng kết hợp với HTML. Nó có thể xử lý thông tin người dùng nhập và tạo trang Web động dựa trên dữ liệu lấy từ cơ sở dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "データベースとの連携",
+          "vi": "Kết nối cơ sở dữ liệu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PHPは様々なデータベースと連携でき、Webアプリケーションのバックエンド開発で広く利用されている。また、LaravelなどのフレームワークやWordPressなどのCMSでも利用されている。",
+          "vi": "PHP có thể kết nối với nhiều hệ quản trị cơ sở dữ liệu và được sử dụng rộng rãi trong phát triển backend Web. PHP cũng được sử dụng trong framework như Laravel và CMS như WordPress."
+        },
+        {
+          "type": "point",
+          "ja": "PHPは、Webサーバ上で実行され、動的なWebページを生成するために広く利用されるサーバサイドスクリプト言語である。",
+          "vi": "PHP là ngôn ngữ script phía server, được thực thi trên Web server và sử dụng rộng rãi để tạo các trang Web động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PHP",
+          "reading": "ぴーえいちぴー",
+          "english": "PHP",
+          "vi": "PHP",
+          "definitionJa": "主に動的なWebページやWebアプリケーションの開発に利用されるサーバサイドスクリプト言語。",
+          "definitionVi": "Ngôn ngữ script phía server chủ yếu được sử dụng để phát triển trang Web động và ứng dụng Web."
+        }
+      ],
+      "tags": ["programming-language", "php", "server-side", "web"]
+    },
+    {
+      "id": "python",
+      "order": 17,
+      "titleJa": "Python",
+      "titleVi": "Python",
+      "importance": "high",
+      "summaryJa": "簡潔で読みやすい文法を持ち、データ分析、Web開発、自動化、AIなど幅広い分野で利用されるPythonについて理解する。",
+      "summaryVi": "Tìm hiểu Python, ngôn ngữ có cú pháp ngắn gọn, dễ đọc và được sử dụng rộng rãi trong phân tích dữ liệu, phát triển Web, tự động hóa và AI.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Pythonとは",
+          "vi": "Python là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Pythonは、高水準プログラミング言語の一つであり、簡潔で読みやすい文法を特徴とする。比較的プログラムを書きやすいため、初心者にも広く利用されている。",
+          "vi": "Python là một ngôn ngữ lập trình bậc cao, nổi bật với cú pháp ngắn gọn và dễ đọc. Do tương đối dễ viết chương trình nên Python cũng được sử dụng rộng rãi bởi người mới học."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Pythonは、データ分析、Web開発、自動化スクリプト、AIなど多岐にわたる分野で利用されている。",
+          "vi": "Python được sử dụng trong nhiều lĩnh vực như phân tích dữ liệu, phát triển Web, script tự động hóa và AI."
+        },
+        {
+          "type": "heading",
+          "ja": "豊富なライブラリ",
+          "vi": "Hệ thống thư viện phong phú"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Pythonには多くのライブラリやフレームワークが用意されている。例えば、データ分析ではPandas、機械学習ではTensorFlowやscikit-learnなどが利用されている。",
+          "vi": "Python có nhiều thư viện và framework. Ví dụ, Pandas được sử dụng trong phân tích dữ liệu, còn TensorFlow và scikit-learn được sử dụng trong học máy."
+        },
+        {
+          "type": "point",
+          "ja": "Pythonは、簡潔で読みやすい文法と豊富なライブラリを持ち、データ分析やAIなど幅広い分野で利用される。",
+          "vi": "Python có cú pháp ngắn gọn, dễ đọc, hệ thống thư viện phong phú và được sử dụng trong nhiều lĩnh vực như phân tích dữ liệu và AI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Python",
+          "reading": "ぱいそん",
+          "english": "Python",
+          "vi": "Python",
+          "definitionJa": "簡潔で読みやすい文法を持ち、データ分析、Web開発、AIなど幅広い分野で利用される高水準プログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình bậc cao có cú pháp ngắn gọn, dễ đọc và được sử dụng rộng rãi trong phân tích dữ liệu, phát triển Web và AI."
+        }
+      ],
+      "tags": ["programming-language", "python", "data-analysis", "ai"]
+    },
+    {
+      "id": "ruby",
+      "order": 18,
+      "titleJa": "Ruby",
+      "titleVi": "Ruby",
+      "importance": "medium",
+      "summaryJa": "まつもとゆきひろ氏によって開発され、簡潔で読みやすい文法を特徴とするオブジェクト指向プログラミング言語Rubyについて理解する。",
+      "summaryVi": "Tìm hiểu Ruby, ngôn ngữ lập trình hướng đối tượng do Yukihiro Matsumoto phát triển, nổi bật với cú pháp đơn giản và dễ đọc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Rubyとは",
+          "vi": "Ruby là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Rubyは、1995年にまつもとゆきひろ氏によって開発されたオブジェクト指向プログラミング言語である。シンプルで読みやすい文法を特徴とする。",
+          "vi": "Ruby là ngôn ngữ lập trình hướng đối tượng do Yukihiro Matsumoto phát triển vào năm 1995. Ngôn ngữ này nổi bật với cú pháp đơn giản và dễ đọc."
+        },
+        {
+          "type": "heading",
+          "ja": "Ruby on Rails",
+          "vi": "Ruby on Rails"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Rubyは、特にWebアプリケーション開発で利用されており、Ruby on RailsというWebアプリケーションフレームワークが有名である。",
+          "vi": "Ruby đặc biệt được sử dụng trong phát triển ứng dụng Web. Ruby on Rails là một framework Web nổi tiếng sử dụng Ruby."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Rubyは直感的なコードを記述しやすく、豊富なライブラリやコミュニティを持つ。Webサイト構築や自動化スクリプトなど、さまざまな用途で利用されている。",
+          "vi": "Ruby cho phép viết code trực quan, đồng thời có hệ thống thư viện và cộng đồng phong phú. Nó được sử dụng trong nhiều mục đích như xây dựng website và script tự động hóa."
+        },
+        {
+          "type": "point",
+          "ja": "Rubyはオブジェクト指向言語であり、Web開発ではRuby on Railsが代表的なフレームワークである。",
+          "vi": "Ruby là ngôn ngữ hướng đối tượng; trong phát triển Web, Ruby on Rails là framework tiêu biểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Ruby",
+          "reading": "るびー",
+          "english": "Ruby",
+          "vi": "Ruby",
+          "definitionJa": "まつもとゆきひろ氏によって開発された、簡潔で読みやすい文法を特徴とするオブジェクト指向プログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình hướng đối tượng do Yukihiro Matsumoto phát triển, có đặc điểm là cú pháp ngắn gọn và dễ đọc."
+        }
+      ],
+      "tags": ["programming-language", "ruby", "object-oriented", "web"]
+    },
+    {
+      "id": "common-language-infrastructure",
+      "order": 19,
+      "titleJa": "共通言語基盤",
+      "titleVi": "Hạ tầng ngôn ngữ chung",
+      "importance": "high",
+      "summaryJa": "異なるプログラミング言語で作成されたソフトウェアを共通の実行環境で動作させるための共通言語基盤について理解する。",
+      "summaryVi": "Tìm hiểu Common Language Infrastructure, nền tảng cho phép phần mềm viết bằng các ngôn ngữ lập trình khác nhau hoạt động trong một môi trường thực thi chung.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "共通言語基盤とは",
+          "vi": "Hạ tầng ngôn ngữ chung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "共通言語基盤は、異なるプログラミング言語で書かれたソフトウェアを統一的に実行するための基盤である。",
+          "vi": "Hạ tầng ngôn ngữ chung là nền tảng cho phép phần mềm được viết bằng các ngôn ngữ lập trình khác nhau được thực thi trong một môi trường thống nhất."
+        },
+        {
+          "type": "heading",
+          "ja": "異なる言語間の連携",
+          "vi": "Liên kết giữa các ngôn ngữ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "共通言語基盤を利用することで、各プログラミング言語の特徴を活かしながら、異なる言語で作成されたプログラム同士の相互運用が可能になる。",
+          "vi": "Nhờ sử dụng hạ tầng ngôn ngữ chung, có thể tận dụng đặc điểm của từng ngôn ngữ đồng thời cho phép các chương trình viết bằng những ngôn ngữ khác nhau tương tác với nhau."
+        },
+        {
+          "type": "heading",
+          "ja": ".NETとの関係",
+          "vi": "Quan hệ với .NET"
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、C#やVB.NETなどで書かれたコードは、共通の基盤を介して同じ環境で動作させることができる。また、セキュリティやメモリ管理などの共通機能を利用できる。",
+          "vi": "Ví dụ, code viết bằng C# hoặc VB.NET có thể hoạt động trong cùng một môi trường thông qua nền tảng chung. Ngoài ra, các chức năng chung như bảo mật và quản lý bộ nhớ cũng có thể được sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "共通言語基盤は、異なるプログラミング言語間の相互運用を可能にするための共通の実行基盤である。",
+          "vi": "Hạ tầng ngôn ngữ chung là nền tảng thực thi chung giúp các ngôn ngữ lập trình khác nhau có khả năng tương tác với nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "共通言語基盤",
+          "reading": "きょうつうげんごきばん",
+          "english": "Common Language Infrastructure",
+          "vi": "Hạ tầng ngôn ngữ chung",
+          "definitionJa": "異なるプログラミング言語で作成されたソフトウェアを共通の環境で実行し、言語間の相互運用を可能にするための基盤。",
+          "definitionVi": "Nền tảng cho phép phần mềm viết bằng các ngôn ngữ lập trình khác nhau chạy trong môi trường chung và tương tác với nhau."
+        }
+      ],
+      "tags": ["programming-language", "cli", "dotnet", "interoperability"]
+    }
+  ]
+}
