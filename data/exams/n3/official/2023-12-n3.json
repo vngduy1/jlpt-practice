@@ -1374,25 +1374,16 @@
           "id": 49,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "私は歌手の石川あかりが大好きだ。彼女 ____ ★ ____ ____ いないと思う。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "声がきれいな"
-            },
-            {
-              "id": 2,
-              "text": "は"
-            },
-            {
-              "id": 3,
-              "text": "歌手"
-            },
-            {
-              "id": 4,
-              "text": "ほど"
-            }
+          "sentenceBefore": "私は歌手の石川あかりが大好きだ。彼女",
+          "sentenceAfter": "いないと思う。",
+          "fragments": [
+            { "id": 1, "text": "声がきれいな" },
+            { "id": 2, "text": "は" },
+            { "id": 3, "text": "歌手" },
+            { "id": 4, "text": "ほど" }
           ],
+          "correctOrder": [4, 1, 3, 2],
+          "starPosition": 2,
           "correctAnswer": 1,
           "explanation": null,
           "needsReview": false
@@ -1401,25 +1392,16 @@
           "id": 50,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "最近は野菜や魚などの食料品も ____ ____ ★ ____ ニュースで知った。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "人が"
-            },
-            {
-              "id": 2,
-              "text": "増えてきている"
-            },
-            {
-              "id": 3,
-              "text": "インターネットで買う"
-            },
-            {
-              "id": 4,
-              "text": "ということを"
-            }
+          "sentenceBefore": "最近は野菜や魚などの食料品も",
+          "sentenceAfter": "ニュースで知った。",
+          "fragments": [
+            { "id": 1, "text": "人が" },
+            { "id": 2, "text": "増えてきている" },
+            { "id": 3, "text": "インターネットで買う" },
+            { "id": 4, "text": "ということを" }
           ],
+          "correctOrder": [3, 1, 2, 4],
+          "starPosition": 3,
           "correctAnswer": 2,
           "explanation": null,
           "needsReview": false
@@ -1428,25 +1410,16 @@
           "id": 51,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "（大学で）中山「林先輩、ゼミの発表で使う資料を作ったんですが、____ ____ ★ ____ でしょうか。」林「いいですよ。」",
-          "choices": [
-            {
-              "id": 1,
-              "text": "もらえない"
-            },
-            {
-              "id": 2,
-              "text": "ところがあるので"
-            },
-            {
-              "id": 3,
-              "text": "一度チェックして"
-            },
-            {
-              "id": 4,
-              "text": "自信がない"
-            }
+          "sentenceBefore": "（大学で）中山「林先輩、ゼミの発表で使う資料を作ったんですが、",
+          "sentenceAfter": "でしょうか。」林「いいですよ。」",
+          "fragments": [
+            { "id": 1, "text": "もらえない" },
+            { "id": 2, "text": "ところがあるので" },
+            { "id": 3, "text": "一度チェックして" },
+            { "id": 4, "text": "自信がない" }
           ],
+          "correctOrder": [4, 2, 3, 1],
+          "starPosition": 3,
           "correctAnswer": 3,
           "explanation": null,
           "needsReview": false
@@ -1455,25 +1428,16 @@
           "id": 52,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "今朝は急いでいたから、____ ____ ★ ____ しまった。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "玄関の電気を消すのを"
-            },
-            {
-              "id": 2,
-              "text": "きて"
-            },
-            {
-              "id": 3,
-              "text": "家を出て"
-            },
-            {
-              "id": 4,
-              "text": "忘れて"
-            }
+          "sentenceBefore": "今朝は急いでいたから、",
+          "sentenceAfter": "しまった。",
+          "fragments": [
+            { "id": 1, "text": "玄関の電気を消すのを" },
+            { "id": 2, "text": "きて" },
+            { "id": 3, "text": "家を出て" },
+            { "id": 4, "text": "忘れて" }
           ],
+          "correctOrder": [1, 4, 3, 2],
+          "starPosition": 3,
           "correctAnswer": 3,
           "explanation": null,
           "needsReview": false
@@ -1482,25 +1446,16 @@
           "id": 53,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "読書が趣味の友人は、いつどんな本を読んだかを ____ ____ ★ ____ そうだ。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "必ずノートに記録する"
-            },
-            {
-              "id": 2,
-              "text": "忘れない"
-            },
-            {
-              "id": 3,
-              "text": "ように"
-            },
-            {
-              "id": 4,
-              "text": "ことにしている"
-            }
+          "sentenceBefore": "読書が趣味の友人は、いつどんな本を読んだかを",
+          "sentenceAfter": "そうだ。",
+          "fragments": [
+            { "id": 1, "text": "必ずノートに記録する" },
+            { "id": 2, "text": "忘れない" },
+            { "id": 3, "text": "ように" },
+            { "id": 4, "text": "ことにしている" }
           ],
+          "correctOrder": [2, 3, 1, 4],
+          "starPosition": 3,
           "correctAnswer": 1,
           "explanation": null,
           "needsReview": false

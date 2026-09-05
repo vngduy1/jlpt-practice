@@ -1374,52 +1374,34 @@
           "id": 49,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "パソコンや携帯電話の ____ ____ ★ ____ 原因で、頭が痛くなることもあるそうだ。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "が"
-            },
-            {
-              "id": 2,
-              "text": "による"
-            },
-            {
-              "id": 3,
-              "text": "見すぎ"
-            },
-            {
-              "id": 4,
-              "text": "目の疲れ"
-            }
+          "sentenceBefore": "パソコンや携帯電話の",
+          "sentenceAfter": "原因で、頭が痛くなることもあるそうだ。",
+          "fragments": [
+            { "id": 1, "text": "が" },
+            { "id": 2, "text": "による" },
+            { "id": 3, "text": "見すぎ" },
+            { "id": 4, "text": "目の疲れ" }
           ],
-          "correctAnswer": 2,
+          "correctOrder": [3, 2, 4, 1],
+          "starPosition": 3,
+          "correctAnswer": 4,
           "explanation": null,
-          "needsReview": false
+          "needsReview": true
         },
         {
           "id": 50,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "私は子供のとき、ピアノを習っていたが、3年でやめてしまった。何回 ____ ____ ★ ____ 嫌になってしまったのだ。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "上手に弾けない"
-            },
-            {
-              "id": 2,
-              "text": "練習しても"
-            },
-            {
-              "id": 3,
-              "text": "なかなか"
-            },
-            {
-              "id": 4,
-              "text": "曲があって"
-            }
+          "sentenceBefore": "私は子供のとき、ピアノを習っていたが、3年でやめてしまった。何回",
+          "sentenceAfter": "嫌になってしまったのだ。",
+          "fragments": [
+            { "id": 1, "text": "上手に弾けない" },
+            { "id": 2, "text": "練習しても" },
+            { "id": 3, "text": "なかなか" },
+            { "id": 4, "text": "曲があって" }
           ],
+          "correctOrder": [2, 3, 1, 4],
+          "starPosition": 3,
           "correctAnswer": 1,
           "explanation": null,
           "needsReview": false
@@ -1428,25 +1410,16 @@
           "id": 51,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "失敗をすることは誰にでもある。大切な ____ ____ ★ ____ 考えて、同じ失敗を繰り返さないようにすることだ。",
-          "choices": [
-            {
-              "id": 1,
-              "text": "失敗をしてしまった"
-            },
-            {
-              "id": 2,
-              "text": "どうして"
-            },
-            {
-              "id": 3,
-              "text": "のか"
-            },
-            {
-              "id": 4,
-              "text": "のは"
-            }
+          "sentenceBefore": "失敗をすることは誰にでもある。大切な",
+          "sentenceAfter": "考えて、同じ失敗を繰り返さないようにすることだ。",
+          "fragments": [
+            { "id": 1, "text": "失敗をしてしまった" },
+            { "id": 2, "text": "どうして" },
+            { "id": 3, "text": "のか" },
+            { "id": 4, "text": "のは" }
           ],
+          "correctOrder": [4, 2, 1, 3],
+          "starPosition": 3,
           "correctAnswer": 1,
           "explanation": null,
           "needsReview": false
@@ -1455,25 +1428,16 @@
           "id": 52,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "（教室で）\n南「西川さんの誕生日に、何かプレゼントをあげない？」\n森「いいね。スポーツが好きだと言っていた ____ ____ ★ ____ ？」",
-          "choices": [
-            {
-              "id": 1,
-              "text": "いいんじゃない"
-            },
-            {
-              "id": 2,
-              "text": "から"
-            },
-            {
-              "id": 3,
-              "text": "とか"
-            },
-            {
-              "id": 4,
-              "text": "タオル"
-            }
+          "sentenceBefore": "（教室で）\n南「西川さんの誕生日に、何かプレゼントをあげない？」\n森「いいね。スポーツが好きだと言っていた",
+          "sentenceAfter": "？」",
+          "fragments": [
+            { "id": 1, "text": "いいんじゃない" },
+            { "id": 2, "text": "から" },
+            { "id": 3, "text": "とか" },
+            { "id": 4, "text": "タオル" }
           ],
+          "correctOrder": [2, 4, 3, 1],
+          "starPosition": 3,
           "correctAnswer": 3,
           "explanation": null,
           "needsReview": false
@@ -1482,25 +1446,16 @@
           "id": 53,
           "mondai": 7,
           "type": "SENTENCE_ORDER",
-          "question": "（講演会で）\n司会者「本日は、鳥の ____ ____ ★ ____ 見ることができる様々な鳥について、お話をしていただきます。」",
-          "choices": [
-            {
-              "id": 1,
-              "text": "専門家で"
-            },
-            {
-              "id": 2,
-              "text": "都会で"
-            },
-            {
-              "id": 3,
-              "text": "いらっしゃる"
-            },
-            {
-              "id": 4,
-              "text": "花子先生に"
-            }
+          "sentenceBefore": "（講演会で）\n司会者「本日は、鳥の",
+          "sentenceAfter": "見ることができる様々な鳥について、お話をしていただきます。」",
+          "fragments": [
+            { "id": 1, "text": "専門家で" },
+            { "id": 2, "text": "都会で" },
+            { "id": 3, "text": "いらっしゃる" },
+            { "id": 4, "text": "花子先生に" }
           ],
+          "correctOrder": [1, 3, 4, 2],
+          "starPosition": 3,
           "correctAnswer": 4,
           "explanation": null,
           "needsReview": false
