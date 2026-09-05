@@ -1,0 +1,606 @@
+{
+  "id": "bus",
+  "order": 3,
+  "titleJa": "バス",
+  "titleVi": "Bus",
+  "lessons": [
+    {
+      "id": "bus",
+      "order": 1,
+      "titleJa": "バス",
+      "titleVi": "Bus",
+      "importance": "high",
+      "summaryJa": "CPU、メモリ、周辺機器などの間でデータや信号をやり取りするための共通伝送路であるバスについて理解する。",
+      "summaryVi": "Tìm hiểu bus, đường truyền chung dùng để trao đổi dữ liệu và tín hiệu giữa CPU, bộ nhớ và các thiết bị ngoại vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バスとは",
+          "vi": "Bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バス（Bus）は、コンピュータ内部でCPU、メモリ、周辺機器などの間にデータや制御信号を伝送するための共通の通信路である。",
+          "vi": "Bus là đường truyền chung bên trong máy tính, dùng để truyền dữ liệu và tín hiệu điều khiển giữa CPU, bộ nhớ và các thiết bị ngoại vi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的なものとして、データを運ぶデータバス、アクセス先を指定するアドレスバス、読込みや書込みなどの制御信号を運ぶコントロールバスがある。",
+          "vi": "Các bus tiêu biểu gồm data bus truyền dữ liệu, address bus chỉ định địa chỉ truy cập và control bus truyền các tín hiệu điều khiển như đọc/ghi."
+        },
+        {
+          "type": "point",
+          "ja": "基本は「データバス・アドレスバス・コントロールバス」の3種類を区別する。",
+          "vi": "Cần phân biệt 3 loại cơ bản: data bus, address bus và control bus."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バス",
+          "reading": "ばす",
+          "english": "Bus",
+          "vi": "bus",
+          "definitionJa": "CPU、メモリ、周辺機器などの間でデータや信号を伝送する共通の通信路。",
+          "definitionVi": "Đường truyền chung dùng để trao đổi dữ liệu và tín hiệu giữa CPU, bộ nhớ và thiết bị ngoại vi."
+        }
+      ],
+      "tags": ["bus", "computer-architecture", "data-transfer"]
+    },
+    {
+      "id": "internal-bus",
+      "order": 2,
+      "titleJa": "内部バス",
+      "titleVi": "Bus nội bộ",
+      "importance": "high",
+      "summaryJa": "コンピュータ内部のCPU、メモリ、周辺回路などを接続する内部バスについて理解する。",
+      "summaryVi": "Tìm hiểu bus nội bộ dùng để kết nối CPU, bộ nhớ và các mạch bên trong máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部バスとは",
+          "vi": "Bus nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部バス（Internal Bus）は、コンピュータ内部のCPU、メモリ、各種回路などの間でデータや信号をやり取りするための通信路である。",
+          "vi": "Internal Bus là đường truyền dùng để trao đổi dữ liệu và tín hiệu giữa CPU, bộ nhớ và các mạch bên trong máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部バスの幅や転送速度は、CPUとメモリ間などのデータ転送性能に直接影響する。",
+          "vi": "Độ rộng và tốc độ của bus nội bộ ảnh hưởng trực tiếp đến hiệu năng truyền dữ liệu giữa CPU và bộ nhớ."
+        },
+        {
+          "type": "point",
+          "ja": "内部バスはコンピュータ内部の構成要素を接続する。",
+          "vi": "Bus nội bộ kết nối các thành phần bên trong máy tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部バス",
+          "reading": "ないぶばす",
+          "english": "Internal Bus",
+          "vi": "bus nội bộ",
+          "definitionJa": "コンピュータ内部のCPU、メモリ、各種回路などを接続するバス。",
+          "definitionVi": "Bus dùng để kết nối CPU, bộ nhớ và các thành phần bên trong máy tính."
+        }
+      ],
+      "tags": ["bus", "internal-bus", "computer-architecture"]
+    },
+    {
+      "id": "external-bus",
+      "order": 3,
+      "titleJa": "外部バス",
+      "titleVi": "Bus ngoài",
+      "importance": "high",
+      "summaryJa": "コンピュータ本体と外部デバイスを接続してデータをやり取りする外部バスについて理解する。",
+      "summaryVi": "Tìm hiểu bus ngoài dùng để kết nối máy tính với các thiết bị bên ngoài.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "外部バスとは",
+          "vi": "Bus ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "外部バス（External Bus）は、コンピュータ本体と外部の周辺機器などを接続してデータをやり取りするための通信路である。",
+          "vi": "External Bus là đường truyền dùng để kết nối máy tính với các thiết bị ngoại vi bên ngoài và trao đổi dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表例としてUSBなどがあり、さまざまな外部デバイスを接続するために利用される。",
+          "vi": "Một ví dụ tiêu biểu là USB, được sử dụng để kết nối nhiều loại thiết bị bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "内部バスは内部部品、外部バスは外部機器との接続に利用される。",
+          "vi": "Bus nội bộ kết nối linh kiện bên trong; bus ngoài kết nối thiết bị bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "外部バス",
+          "reading": "がいぶばす",
+          "english": "External Bus",
+          "vi": "bus ngoài",
+          "definitionJa": "コンピュータと外部デバイスとの間でデータをやり取りするためのバス。",
+          "definitionVi": "Bus dùng để trao đổi dữ liệu giữa máy tính và thiết bị bên ngoài."
+        }
+      ],
+      "tags": ["bus", "external-bus", "peripheral"]
+    },
+    {
+      "id": "expansion-bus",
+      "order": 4,
+      "titleJa": "拡張バス",
+      "titleVi": "Bus mở rộng",
+      "importance": "high",
+      "summaryJa": "拡張カードなどのハードウェアをコンピュータへ追加するために利用される拡張バスについて理解する。",
+      "summaryVi": "Tìm hiểu bus mở rộng dùng để thêm các phần cứng như card mở rộng vào máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "拡張バスとは",
+          "vi": "Bus mở rộng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "拡張バス（Expansion Bus）は、マザーボードにグラフィックカードやネットワークカードなどの拡張機器を接続するために利用されるバスである。",
+          "vi": "Expansion Bus là bus dùng để kết nối các thiết bị mở rộng như card đồ họa hoặc card mạng với bo mạch chủ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "拡張バスを利用することで、コンピュータへ新しい機能を追加したり性能を向上させたりできる。",
+          "vi": "Bus mở rộng cho phép bổ sung chức năng mới hoặc nâng cao hiệu năng của máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "PCIやPCI Expressなどは拡張バスの代表例である。",
+          "vi": "PCI và PCI Express là các ví dụ điển hình của bus mở rộng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "拡張バス",
+          "reading": "かくちょうばす",
+          "english": "Expansion Bus",
+          "vi": "bus mở rộng",
+          "definitionJa": "拡張カードなどの機器をコンピュータへ追加するためのバス。",
+          "definitionVi": "Bus dùng để gắn thêm các thiết bị mở rộng vào máy tính."
+        }
+      ],
+      "tags": ["bus", "expansion-bus", "hardware"]
+    },
+    {
+      "id": "address-bus",
+      "order": 5,
+      "titleJa": "アドレスバス",
+      "titleVi": "Bus địa chỉ",
+      "importance": "high",
+      "summaryJa": "CPUがアクセスするメモリやデバイスの位置を指定するためのアドレスバスについて理解する。",
+      "summaryVi": "Tìm hiểu address bus, bus dùng để chỉ định vị trí bộ nhớ hoặc thiết bị mà CPU cần truy cập.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アドレスバスとは",
+          "vi": "Address bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アドレスバス（Address Bus）は、CPUがメモリや入出力装置のどの位置へアクセスするかを指定するためのアドレス情報を伝えるバスである。",
+          "vi": "Address Bus là bus truyền thông tin địa chỉ để CPU xác định vị trí bộ nhớ hoặc thiết bị I/O cần truy cập."
+        },
+        {
+          "type": "paragraph",
+          "ja": "アドレスバスの幅がnビットの場合、基本的には2のn乗個の異なるアドレスを表現できる。",
+          "vi": "Nếu address bus rộng n bit thì về cơ bản có thể biểu diễn 2^n địa chỉ khác nhau."
+        },
+        {
+          "type": "example",
+          "ja": "32ビットのアドレスバスでは、2の32乗個のアドレスを表現できる。",
+          "vi": "Address bus 32 bit có thể biểu diễn 2^32 địa chỉ."
+        },
+        {
+          "type": "point",
+          "ja": "アドレスバス幅は、直接指定できるアドレス空間の大きさに関係する。",
+          "vi": "Độ rộng address bus liên quan đến kích thước không gian địa chỉ có thể chỉ định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アドレスバス",
+          "reading": "あどれすばす",
+          "english": "Address Bus",
+          "vi": "bus địa chỉ",
+          "definitionJa": "CPUがアクセスするメモリやデバイスのアドレスを伝えるバス。",
+          "definitionVi": "Bus truyền địa chỉ của bộ nhớ hoặc thiết bị mà CPU cần truy cập."
+        }
+      ],
+      "tags": ["bus", "address-bus", "memory"]
+    },
+    {
+      "id": "data-bus",
+      "order": 6,
+      "titleJa": "データバス",
+      "titleVi": "Bus dữ liệu",
+      "importance": "high",
+      "summaryJa": "CPU、メモリ、周辺装置の間で実際のデータを伝送するデータバスについて理解する。",
+      "summaryVi": "Tìm hiểu data bus, bus truyền dữ liệu thực tế giữa CPU, bộ nhớ và thiết bị ngoại vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データバスとは",
+          "vi": "Data bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データバス（Data Bus）は、CPU、メモリ、周辺装置などの間で実際のデータを転送するためのバスである。",
+          "vi": "Data Bus là bus dùng để truyền dữ liệu thực tế giữa CPU, bộ nhớ và các thiết bị ngoại vi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "データバスの幅が大きいほど、一度に転送できるデータ量を増やすことができる。",
+          "vi": "Data bus càng rộng thì lượng dữ liệu có thể truyền trong một lần càng lớn."
+        },
+        {
+          "type": "example",
+          "ja": "32ビットのデータバスでは、一度に32ビットのデータを転送できる。",
+          "vi": "Data bus 32 bit có thể truyền 32 bit dữ liệu trong một lần."
+        },
+        {
+          "type": "point",
+          "ja": "アドレスバスは「どこ」、データバスは「何を」を伝える。",
+          "vi": "Address bus cho biết 'ở đâu'; data bus truyền 'dữ liệu gì'."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データバス",
+          "reading": "でーたばす",
+          "english": "Data Bus",
+          "vi": "bus dữ liệu",
+          "definitionJa": "CPU、メモリ、周辺装置などの間でデータそのものを伝送するバス。",
+          "definitionVi": "Bus truyền dữ liệu thực tế giữa CPU, bộ nhớ và thiết bị ngoại vi."
+        }
+      ],
+      "tags": ["bus", "data-bus", "data-transfer"]
+    },
+    {
+      "id": "control-bus",
+      "order": 7,
+      "titleJa": "コントロールバス",
+      "titleVi": "Bus điều khiển",
+      "importance": "high",
+      "summaryJa": "読込み、書込み、割込みなど、コンピュータ各部の動作を制御する信号を伝えるコントロールバスについて理解する。",
+      "summaryVi": "Tìm hiểu control bus, bus truyền các tín hiệu điều khiển như đọc, ghi và ngắt.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コントロールバスとは",
+          "vi": "Control bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コントロールバス（Control Bus）は、CPUとメモリや周辺装置との間で、読込み、書込み、割込みなどの制御信号を伝えるためのバスである。",
+          "vi": "Control Bus là bus truyền tín hiệu điều khiển như đọc, ghi và ngắt giữa CPU với bộ nhớ hoặc thiết bị ngoại vi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "データバスやアドレスバスと連携し、データ転送のタイミングや方向などを制御する。",
+          "vi": "Nó phối hợp với data bus và address bus để điều khiển thời điểm và hướng truyền dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "コントロールバスは「どの操作を行うか」を示す信号を伝える。",
+          "vi": "Control bus truyền tín hiệu cho biết 'thực hiện thao tác gì'."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コントロールバス",
+          "reading": "こんとろーるばす",
+          "english": "Control Bus",
+          "vi": "bus điều khiển",
+          "definitionJa": "読込みや書込みなどの各種制御信号を伝送するバス。",
+          "definitionVi": "Bus truyền các tín hiệu điều khiển như đọc và ghi."
+        }
+      ],
+      "tags": ["bus", "control-bus", "control-signal"]
+    },
+    {
+      "id": "system-bus",
+      "order": 8,
+      "titleJa": "システムバス",
+      "titleVi": "Bus hệ thống",
+      "importance": "high",
+      "summaryJa": "CPU、主記憶、周辺機器などを接続し、一般にデータバス、アドレスバス、コントロールバスから構成されるシステムバスについて理解する。",
+      "summaryVi": "Tìm hiểu system bus, bus kết nối CPU, bộ nhớ chính và thiết bị, thường gồm data bus, address bus và control bus.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムバスとは",
+          "vi": "System bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムバス（System Bus）は、CPU、主記憶、周辺装置などの主要な構成要素を接続するためのバスである。",
+          "vi": "System Bus là bus dùng để kết nối các thành phần chính như CPU, bộ nhớ chính và thiết bị ngoại vi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般に、データバス、アドレスバス、コントロールバスの三つから構成される。",
+          "vi": "Thông thường system bus gồm ba phần: data bus, address bus và control bus."
+        },
+        {
+          "type": "point",
+          "ja": "システムバス = データバス + アドレスバス + コントロールバス。",
+          "vi": "System bus = data bus + address bus + control bus."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムバス",
+          "reading": "しすてむばす",
+          "english": "System Bus",
+          "vi": "bus hệ thống",
+          "definitionJa": "CPU、主記憶、周辺装置などを接続する主要なバス。",
+          "definitionVi": "Bus chính dùng để kết nối CPU, bộ nhớ chính và thiết bị ngoại vi."
+        }
+      ],
+      "tags": ["bus", "system-bus", "computer-architecture"]
+    },
+    {
+      "id": "memory-bus",
+      "order": 9,
+      "titleJa": "メモリバス",
+      "titleVi": "Bus bộ nhớ",
+      "importance": "high",
+      "summaryJa": "CPUと主記憶の間でデータ、アドレス、制御信号をやり取りするメモリバスについて理解する。",
+      "summaryVi": "Tìm hiểu memory bus, bus dùng để truyền dữ liệu, địa chỉ và tín hiệu điều khiển giữa CPU và bộ nhớ chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メモリバスとは",
+          "vi": "Memory bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メモリバス（Memory Bus）は、CPUと主記憶との間でデータやアドレス、制御信号をやり取りするための通信路である。",
+          "vi": "Memory Bus là đường truyền dùng để trao đổi dữ liệu, địa chỉ và tín hiệu điều khiển giữa CPU và bộ nhớ chính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "メモリバスの幅や動作速度は、CPUとメモリ間の転送性能に大きな影響を与える。",
+          "vi": "Độ rộng và tốc độ của memory bus ảnh hưởng lớn đến hiệu năng truyền dữ liệu giữa CPU và bộ nhớ."
+        },
+        {
+          "type": "point",
+          "ja": "メモリバスの帯域幅が大きいほど、CPUとメモリ間で多くのデータを転送できる。",
+          "vi": "Băng thông memory bus càng lớn thì lượng dữ liệu truyền giữa CPU và RAM càng nhiều."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メモリバス",
+          "reading": "めもりばす",
+          "english": "Memory Bus",
+          "vi": "bus bộ nhớ",
+          "definitionJa": "CPUと主記憶との間でデータや信号をやり取りするためのバス。",
+          "definitionVi": "Bus truyền dữ liệu và tín hiệu giữa CPU và bộ nhớ chính."
+        }
+      ],
+      "tags": ["bus", "memory-bus", "memory"]
+    },
+    {
+      "id": "input-output-bus",
+      "order": 10,
+      "titleJa": "入出力バス",
+      "titleVi": "Bus vào/ra",
+      "importance": "high",
+      "summaryJa": "CPUやシステムと各種入出力装置との間でデータをやり取りする入出力バスについて理解する。",
+      "summaryVi": "Tìm hiểu I/O bus, bus dùng để trao đổi dữ liệu giữa hệ thống và các thiết bị vào/ra.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "入出力バスとは",
+          "vi": "Bus vào/ra là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入出力バス（Input/Output Bus）は、CPUやシステムとプリンタ、ストレージ、キーボードなどの入出力装置との間でデータをやり取りするためのバスである。",
+          "vi": "Input/Output Bus là bus dùng để trao đổi dữ liệu giữa hệ thống với các thiết bị I/O như máy in, thiết bị lưu trữ và bàn phím."
+        },
+        {
+          "type": "paragraph",
+          "ja": "接続方式やバス幅、転送速度などによって、入出力装置とのデータ交換性能が変化する。",
+          "vi": "Hiệu năng trao đổi dữ liệu với thiết bị I/O phụ thuộc vào chuẩn kết nối, độ rộng bus và tốc độ truyền."
+        },
+        {
+          "type": "point",
+          "ja": "入出力バスはCPU・システムと周辺機器との接続に利用される。",
+          "vi": "I/O bus dùng để kết nối CPU hoặc hệ thống với thiết bị ngoại vi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "入出力バス",
+          "reading": "にゅうしゅつりょくばす",
+          "english": "Input/Output Bus",
+          "vi": "bus vào/ra",
+          "definitionJa": "コンピュータと入出力装置との間でデータをやり取りするバス。",
+          "definitionVi": "Bus dùng để trao đổi dữ liệu giữa máy tính và thiết bị vào/ra."
+        }
+      ],
+      "tags": ["bus", "io-bus", "peripheral"]
+    },
+    {
+      "id": "pci",
+      "order": 11,
+      "titleJa": "PCI",
+      "titleVi": "Bus PCI",
+      "importance": "high",
+      "summaryJa": "周辺機器をマザーボードへ接続するために利用される拡張バス規格PCIについて理解する。",
+      "summaryVi": "Tìm hiểu PCI, chuẩn bus mở rộng dùng để kết nối thiết bị ngoại vi với bo mạch chủ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PCIとは",
+          "vi": "PCI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "PCI（Peripheral Component Interconnect）は、グラフィックカードやネットワークカードなどの周辺機器をマザーボードへ接続するために利用されてきた拡張バス規格である。",
+          "vi": "PCI (Peripheral Component Interconnect) là chuẩn bus mở rộng từng được sử dụng rộng rãi để kết nối card đồ họa, card mạng và các thiết bị khác với bo mạch chủ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "現在のPCでは、より高速なPCI Express（PCIe）が主流となっている。",
+          "vi": "Trong các máy tính hiện đại, PCI Express (PCIe) có tốc độ cao hơn đã trở thành chuẩn phổ biến."
+        },
+        {
+          "type": "point",
+          "ja": "PCIの後継としてPCI Express（PCIe）が広く利用されている。",
+          "vi": "PCI Express (PCIe) là chuẩn kế nhiệm PCI và hiện được dùng rộng rãi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PCI",
+          "reading": "ぴーしーあい",
+          "english": "Peripheral Component Interconnect",
+          "vi": "chuẩn bus PCI",
+          "definitionJa": "周辺機器をマザーボードへ接続するための拡張バス規格。",
+          "definitionVi": "Chuẩn bus mở rộng dùng để kết nối thiết bị ngoại vi với bo mạch chủ."
+        }
+      ],
+      "tags": ["bus", "pci", "expansion-bus"]
+    },
+    {
+      "id": "serial-bus",
+      "order": 12,
+      "titleJa": "シリアルバス",
+      "titleVi": "Bus nối tiếp",
+      "importance": "high",
+      "summaryJa": "少数の信号線を使ってビットを順番に送信するシリアルバスについて理解する。",
+      "summaryVi": "Tìm hiểu serial bus, phương thức truyền các bit theo thứ tự qua số lượng đường tín hiệu ít.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シリアルバスとは",
+          "vi": "Bus nối tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シリアルバス（Serial Bus）は、データの各ビットを時間的に順番に送信する方式のバスである。",
+          "vi": "Serial Bus là bus truyền từng bit dữ liệu theo thứ tự thời gian."
+        },
+        {
+          "type": "paragraph",
+          "ja": "必要な信号線が少なく、配線が簡単で長距離や高速通信にも適しているため、USBやPCI Expressなど多くの現代的な規格で利用されている。",
+          "vi": "Do cần ít đường tín hiệu, việc đi dây đơn giản và phù hợp cho truyền tốc độ cao hoặc khoảng cách dài, nên được dùng trong USB, PCI Express và nhiều chuẩn hiện đại."
+        },
+        {
+          "type": "point",
+          "ja": "シリアルはビットを順番に送る。パラレルは複数ビットを同時に送る。",
+          "vi": "Serial truyền bit lần lượt; parallel truyền nhiều bit đồng thời."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シリアルバス",
+          "reading": "しりあるばす",
+          "english": "Serial Bus",
+          "vi": "bus nối tiếp",
+          "definitionJa": "データのビットを時間的に順番に伝送するバス。",
+          "definitionVi": "Bus truyền các bit dữ liệu lần lượt theo thời gian."
+        }
+      ],
+      "tags": ["bus", "serial-bus", "data-transfer"]
+    },
+    {
+      "id": "parallel-bus",
+      "order": 13,
+      "titleJa": "パラレルバス",
+      "titleVi": "Bus song song",
+      "importance": "high",
+      "summaryJa": "複数の信号線を利用して複数ビットのデータを同時に伝送するパラレルバスについて理解する。",
+      "summaryVi": "Tìm hiểu parallel bus, bus dùng nhiều đường tín hiệu để truyền đồng thời nhiều bit dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パラレルバスとは",
+          "vi": "Bus song song là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パラレルバス（Parallel Bus）は、複数の信号線を用いて複数ビットのデータを同時に転送する方式のバスである。",
+          "vi": "Parallel Bus là bus dùng nhiều đường tín hiệu để truyền nhiều bit dữ liệu cùng một lúc."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一度に多くのデータを送信できるが、信号線が多くなり、配線の複雑化や信号間のタイミングずれなどが問題となることがある。",
+          "vi": "Nó có thể truyền nhiều dữ liệu trong một lần, nhưng cần nhiều dây hơn và có thể gặp vấn đề về độ phức tạp của đường dây hoặc lệch thời gian giữa các tín hiệu."
+        },
+        {
+          "type": "point",
+          "ja": "パラレルバスは一度に複数ビットを送信する。",
+          "vi": "Parallel bus truyền nhiều bit trong cùng một thời điểm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パラレルバス",
+          "reading": "ぱられるばす",
+          "english": "Parallel Bus",
+          "vi": "bus song song",
+          "definitionJa": "複数の信号線を利用して複数ビットを同時に伝送するバス。",
+          "definitionVi": "Bus sử dụng nhiều đường tín hiệu để truyền nhiều bit đồng thời."
+        }
+      ],
+      "tags": ["bus", "parallel-bus", "data-transfer"]
+    },
+    {
+      "id": "bus-access-mode",
+      "order": 14,
+      "titleJa": "バスのアクセスモード",
+      "titleVi": "Chế độ truy cập bus",
+      "importance": "high",
+      "summaryJa": "バスを通じてデータを送受信する際のアクセス方式であるバスのアクセスモードについて理解する。",
+      "summaryVi": "Tìm hiểu chế độ truy cập bus, cách dữ liệu được truyền qua bus giữa bộ nhớ và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バスのアクセスモードとは",
+          "vi": "Chế độ truy cập bus là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バスのアクセスモード（Bus Access Mode）は、コンピュータがバスを利用してメモリや周辺装置とデータをやり取りする際の伝送方式を表す。",
+          "vi": "Bus Access Mode biểu thị phương thức máy tính sử dụng bus để trao đổi dữ liệu với bộ nhớ hoặc thiết bị ngoại vi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "シリアル方式ではデータを1ビットずつ順番に送り、パラレル方式では複数のビットを同時に送る。",
+          "vi": "Ở phương thức serial, dữ liệu được truyền từng bit; ở phương thức parallel, nhiều bit được truyền đồng thời."
+        },
+        {
+          "type": "point",
+          "ja": "バス方式を比較するときは、転送速度だけでなく、信号線数、距離、配線の複雑さなども考慮する。",
+          "vi": "Khi so sánh các phương thức bus, cần xét không chỉ tốc độ mà còn số đường tín hiệu, khoảng cách và độ phức tạp của kết nối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バスのアクセスモード",
+          "reading": "ばすのあくせすもーど",
+          "english": "Bus Access Mode",
+          "vi": "chế độ truy cập bus",
+          "definitionJa": "バスを利用してデータを送受信する際のアクセス・伝送方式。",
+          "definitionVi": "Phương thức truy cập và truyền dữ liệu thông qua bus."
+        }
+      ],
+      "tags": ["bus", "bus-access", "serial", "parallel"]
+    }
+  ]
+}

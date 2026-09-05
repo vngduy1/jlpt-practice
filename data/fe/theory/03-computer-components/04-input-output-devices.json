@@ -1,0 +1,1016 @@
+{
+  "id": "input-output-devices",
+  "order": 4,
+  "titleJa": "入出力デバイス",
+  "titleVi": "Thiết bị vào/ra",
+  "lessons": [
+    {
+      "id": "usb",
+      "order": 1,
+      "titleJa": "USB",
+      "titleVi": "USB",
+      "importance": "high",
+      "summaryJa": "コンピュータと周辺機器を接続し、データ転送や電力供給を行う標準的なインタフェースであるUSBについて理解する。",
+      "summaryVi": "Tìm hiểu USB, giao diện tiêu chuẩn dùng để kết nối máy tính với thiết bị ngoại vi, truyền dữ liệu và cấp nguồn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "USBとは",
+          "vi": "USB là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "USB（Universal Serial Bus）は、コンピュータとキーボード、マウス、プリンタ、ストレージなどの周辺機器を接続するための標準的なインタフェースである。",
+          "vi": "USB (Universal Serial Bus) là giao diện tiêu chuẩn dùng để kết nối máy tính với bàn phím, chuột, máy in, thiết bị lưu trữ và nhiều thiết bị ngoại vi khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの送受信だけでなく、接続した機器へ電力を供給することもできる。複数の規格があり、世代によって転送速度や給電能力が異なる。",
+          "vi": "USB không chỉ truyền dữ liệu mà còn có thể cấp điện cho thiết bị. Có nhiều phiên bản với tốc độ truyền và khả năng cấp nguồn khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "USBはデータ転送と電力供給の両方に利用できる。",
+          "vi": "USB có thể dùng cho cả truyền dữ liệu và cấp nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "USB",
+          "reading": "ゆーえすびー",
+          "english": "Universal Serial Bus",
+          "vi": "bus nối tiếp đa dụng",
+          "definitionJa": "コンピュータと各種周辺機器を接続するための標準的なシリアルインタフェース。",
+          "definitionVi": "Giao diện nối tiếp tiêu chuẩn để kết nối máy tính với các thiết bị ngoại vi."
+        }
+      ],
+      "tags": ["input-output", "interface", "usb"]
+    },
+    {
+      "id": "thunderbolt",
+      "order": 2,
+      "titleJa": "Thunderbolt",
+      "titleVi": "Thunderbolt",
+      "importance": "medium",
+      "summaryJa": "高速なデータ転送や映像・音声の伝送に利用されるThunderboltについて理解する。",
+      "summaryVi": "Tìm hiểu Thunderbolt, giao diện tốc độ cao dùng để truyền dữ liệu, hình ảnh và âm thanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Thunderboltとは",
+          "vi": "Thunderbolt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Thunderboltは、コンピュータと外部ストレージやディスプレイなどを高速に接続するための入出力インタフェースである。",
+          "vi": "Thunderbolt là giao diện vào/ra tốc độ cao dùng để kết nối máy tính với thiết bị lưu trữ ngoài, màn hình và các thiết bị khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "高速なデータ転送に加えて映像や音声も扱うことができ、複数のデバイスを連続して接続するデイジーチェーンにも対応する。",
+          "vi": "Ngoài truyền dữ liệu tốc độ cao, Thunderbolt còn có thể truyền hình ảnh và âm thanh, đồng thời hỗ trợ kết nối nhiều thiết bị theo chuỗi."
+        },
+        {
+          "type": "point",
+          "ja": "Thunderboltは高速転送と映像・音声伝送、デイジーチェーン接続が特徴である。",
+          "vi": "Thunderbolt nổi bật với tốc độ cao, truyền hình/âm thanh và hỗ trợ daisy chain."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Thunderbolt",
+          "reading": "さんだーぼると",
+          "english": "Thunderbolt",
+          "vi": "Thunderbolt",
+          "definitionJa": "高速なデータ転送や映像・音声の伝送に対応した入出力インタフェース。",
+          "definitionVi": "Giao diện vào/ra tốc độ cao hỗ trợ truyền dữ liệu, hình ảnh và âm thanh."
+        }
+      ],
+      "tags": ["input-output", "interface", "thunderbolt"]
+    },
+    {
+      "id": "rs-232c",
+      "order": 3,
+      "titleJa": "RS-232C",
+      "titleVi": "RS-232C",
+      "importance": "high",
+      "summaryJa": "コンピュータと通信機器や周辺機器をシリアル通信で接続するRS-232Cについて理解する。",
+      "summaryVi": "Tìm hiểu RS-232C, chuẩn giao tiếp nối tiếp dùng để kết nối máy tính với thiết bị truyền thông và thiết bị ngoại vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RS-232Cとは",
+          "vi": "RS-232C là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "RS-232Cは、コンピュータとモデムやプリンタなどの機器間でデータをやり取りするために利用されてきたシリアル通信インタフェースである。",
+          "vi": "RS-232C là giao diện truyền thông nối tiếp từng được sử dụng rộng rãi để trao đổi dữ liệu giữa máy tính với modem, máy in và các thiết bị khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを1ビットずつ連続して送信する方式であり、古くから多くの通信機器や制御機器で利用されている。",
+          "vi": "Dữ liệu được truyền tuần tự từng bit và chuẩn này đã được sử dụng lâu đời trong nhiều thiết bị truyền thông và thiết bị điều khiển."
+        },
+        {
+          "type": "point",
+          "ja": "RS-232Cは代表的なシリアル通信規格である。",
+          "vi": "RS-232C là một chuẩn truyền thông nối tiếp tiêu biểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RS-232C",
+          "reading": "あーるえすにーさんにーしー",
+          "english": "RS-232C",
+          "vi": "chuẩn RS-232C",
+          "definitionJa": "コンピュータと通信機器などを接続するためのシリアル通信規格。",
+          "definitionVi": "Chuẩn truyền thông nối tiếp dùng để kết nối máy tính với các thiết bị truyền thông."
+        }
+      ],
+      "tags": ["input-output", "serial", "rs-232c"]
+    },
+    {
+      "id": "hdmi",
+      "order": 4,
+      "titleJa": "HDMI",
+      "titleVi": "HDMI",
+      "importance": "high",
+      "summaryJa": "デジタル映像と音声を1本のケーブルで伝送するHDMIについて理解する。",
+      "summaryVi": "Tìm hiểu HDMI, giao diện truyền hình ảnh và âm thanh kỹ thuật số qua một cáp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "HDMIとは",
+          "vi": "HDMI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HDMI（High-Definition Multimedia Interface）は、高解像度のデジタル映像と音声を1本のケーブルで伝送するためのインタフェースである。",
+          "vi": "HDMI (High-Definition Multimedia Interface) là giao diện truyền hình ảnh kỹ thuật số độ phân giải cao và âm thanh qua một sợi cáp."
+        },
+        {
+          "type": "paragraph",
+          "ja": "テレビ、パソコン、ゲーム機などで広く利用され、高解像度の映像信号にも対応している。",
+          "vi": "HDMI được sử dụng rộng rãi trên TV, máy tính và máy chơi game, đồng thời hỗ trợ tín hiệu hình ảnh độ phân giải cao."
+        },
+        {
+          "type": "point",
+          "ja": "HDMIは映像と音声をデジタルで同時に伝送できる。",
+          "vi": "HDMI có thể truyền đồng thời hình ảnh và âm thanh kỹ thuật số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HDMI",
+          "reading": "えいちでぃーえむあい",
+          "english": "High-Definition Multimedia Interface",
+          "vi": "giao diện đa phương tiện độ nét cao",
+          "definitionJa": "映像と音声をデジタル方式で同時に伝送するインタフェース。",
+          "definitionVi": "Giao diện truyền đồng thời hình ảnh và âm thanh kỹ thuật số."
+        }
+      ],
+      "tags": ["input-output", "interface", "hdmi"]
+    },
+    {
+      "id": "displayport",
+      "order": 5,
+      "titleJa": "DisplayPort",
+      "titleVi": "DisplayPort",
+      "importance": "high",
+      "summaryJa": "高解像度のデジタル映像や音声を伝送するDisplayPortについて理解する。",
+      "summaryVi": "Tìm hiểu DisplayPort, giao diện truyền hình ảnh và âm thanh kỹ thuật số độ phân giải cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DisplayPortとは",
+          "vi": "DisplayPort là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DisplayPortは、主にコンピュータとディスプレイを接続し、デジタル映像や音声を伝送するためのインタフェースである。",
+          "vi": "DisplayPort là giao diện chủ yếu dùng để kết nối máy tính với màn hình và truyền hình ảnh, âm thanh kỹ thuật số."
+        },
+        {
+          "type": "paragraph",
+          "ja": "高解像度や高リフレッシュレートに対応し、複数ディスプレイを利用する構成にも対応できる。",
+          "vi": "DisplayPort hỗ trợ độ phân giải và tần số quét cao, đồng thời có thể được sử dụng trong cấu hình nhiều màn hình."
+        },
+        {
+          "type": "point",
+          "ja": "DisplayPortはPCとディスプレイの接続で広く利用されるデジタルインタフェースである。",
+          "vi": "DisplayPort là giao diện kỹ thuật số được sử dụng rộng rãi để kết nối PC với màn hình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DisplayPort",
+          "reading": "でぃすぷれいぽーと",
+          "english": "DisplayPort",
+          "vi": "DisplayPort",
+          "definitionJa": "高解像度の映像や音声をデジタルで伝送するためのインタフェース。",
+          "definitionVi": "Giao diện truyền hình ảnh và âm thanh kỹ thuật số độ phân giải cao."
+        }
+      ],
+      "tags": ["input-output", "display", "displayport"]
+    },
+    {
+      "id": "serial-ata",
+      "order": 6,
+      "titleJa": "シリアルATA",
+      "titleVi": "Serial ATA",
+      "importance": "high",
+      "summaryJa": "HDDやSSDなどのストレージをコンピュータへ接続するシリアルATAについて理解する。",
+      "summaryVi": "Tìm hiểu Serial ATA, giao diện dùng để kết nối HDD và SSD với máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シリアルATAとは",
+          "vi": "Serial ATA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シリアルATA（Serial ATA）は、HDDやSSDなどのストレージ装置をマザーボードへ接続するためのシリアルインタフェースである。",
+          "vi": "Serial ATA là giao diện nối tiếp dùng để kết nối các thiết bị lưu trữ như HDD và SSD với bo mạch chủ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "従来のパラレルATAと比較して配線を簡素化でき、信号の干渉を抑えながら高速なデータ転送を行える。",
+          "vi": "So với Parallel ATA trước đây, Serial ATA có dây nối đơn giản hơn, giảm nhiễu tín hiệu và hỗ trợ truyền dữ liệu tốc độ cao."
+        },
+        {
+          "type": "point",
+          "ja": "シリアルATAは主にHDDやSSDの接続に利用される。",
+          "vi": "Serial ATA chủ yếu dùng để kết nối HDD và SSD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シリアルATA",
+          "reading": "しりあるえーてぃーえー",
+          "english": "Serial ATA",
+          "vi": "Serial ATA",
+          "definitionJa": "主にHDDやSSDを接続するためのシリアルインタフェース。",
+          "definitionVi": "Giao diện nối tiếp chủ yếu dùng để kết nối HDD và SSD."
+        }
+      ],
+      "tags": ["input-output", "storage", "sata"]
+    },
+    {
+      "id": "bluetooth",
+      "order": 7,
+      "titleJa": "Bluetooth",
+      "titleVi": "Bluetooth",
+      "importance": "high",
+      "summaryJa": "近距離で電子機器同士を無線接続するBluetoothについて理解する。",
+      "summaryVi": "Tìm hiểu Bluetooth, công nghệ không dây dùng để kết nối các thiết bị điện tử ở khoảng cách ngắn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Bluetoothとは",
+          "vi": "Bluetooth là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Bluetoothは、スマートフォン、ヘッドフォン、パソコンなどの機器同士を近距離で無線接続するための通信技術である。",
+          "vi": "Bluetooth là công nghệ truyền thông không dây dùng để kết nối điện thoại, tai nghe, máy tính và các thiết bị khác trong phạm vi ngắn."
+        },
+        {
+          "type": "paragraph",
+          "ja": "機器同士をペアリングすることで接続し、データや音声などを無線でやり取りできる。",
+          "vi": "Các thiết bị được kết nối thông qua pairing và có thể trao đổi dữ liệu hoặc âm thanh không dây."
+        },
+        {
+          "type": "point",
+          "ja": "Bluetoothは近距離無線通信であり、周辺機器の接続に広く利用される。",
+          "vi": "Bluetooth là công nghệ không dây tầm ngắn, được dùng rộng rãi cho thiết bị ngoại vi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Bluetooth",
+          "reading": "ぶるーとぅーす",
+          "english": "Bluetooth",
+          "vi": "Bluetooth",
+          "definitionJa": "電子機器同士を近距離で無線接続するための通信技術。",
+          "definitionVi": "Công nghệ truyền thông không dây để kết nối các thiết bị ở khoảng cách ngắn."
+        }
+      ],
+      "tags": ["input-output", "wireless", "bluetooth"]
+    },
+    {
+      "id": "ble",
+      "order": 8,
+      "titleJa": "BLE",
+      "titleVi": "Bluetooth năng lượng thấp",
+      "importance": "high",
+      "summaryJa": "低消費電力で近距離無線通信を行うBluetooth Low Energyについて理解する。",
+      "summaryVi": "Tìm hiểu Bluetooth Low Energy, công nghệ Bluetooth tối ưu cho truyền thông không dây tiêu thụ ít điện năng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BLEとは",
+          "vi": "BLE là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "BLE（Bluetooth Low Energy）は、低消費電力で近距離無線通信を行うBluetoothの技術である。",
+          "vi": "BLE (Bluetooth Low Energy) là công nghệ Bluetooth dành cho truyền thông không dây tầm ngắn với mức tiêu thụ điện thấp."
+        },
+        {
+          "type": "paragraph",
+          "ja": "IoT機器やウェアラブル機器など、バッテリーを長時間使用する必要がある機器に適している。",
+          "vi": "BLE phù hợp với thiết bị IoT và wearable cần thời lượng pin dài."
+        },
+        {
+          "type": "point",
+          "ja": "BLEの重要な特徴は低消費電力である。",
+          "vi": "Đặc điểm quan trọng nhất của BLE là tiêu thụ điện năng thấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BLE",
+          "reading": "びーえるいー",
+          "english": "Bluetooth Low Energy",
+          "vi": "Bluetooth năng lượng thấp",
+          "definitionJa": "Bluetoothを利用した低消費電力の近距離無線通信技術。",
+          "definitionVi": "Công nghệ Bluetooth tầm ngắn có mức tiêu thụ điện năng thấp."
+        }
+      ],
+      "tags": ["input-output", "wireless", "bluetooth", "ble"]
+    },
+    {
+      "id": "zigbee",
+      "order": 9,
+      "titleJa": "ZigBee",
+      "titleVi": "ZigBee",
+      "importance": "high",
+      "summaryJa": "低消費電力で多数のIoT機器を接続する用途に適したZigBeeについて理解する。",
+      "summaryVi": "Tìm hiểu ZigBee, chuẩn truyền thông không dây tiêu thụ ít điện năng, phù hợp với mạng gồm nhiều thiết bị IoT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ZigBeeとは",
+          "vi": "ZigBee là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ZigBeeは、低消費電力かつ短距離の無線通信を目的とした技術で、センサや家電製品などのIoT機器で利用される。",
+          "vi": "ZigBee là công nghệ truyền thông không dây tầm ngắn, tiêu thụ ít điện năng, thường được sử dụng cho cảm biến, thiết bị gia dụng và IoT."
+        },
+        {
+          "type": "paragraph",
+          "ja": "多数の機器を接続したネットワークを構成できるため、スマートホームなどで活用される。",
+          "vi": "Do có thể xây dựng mạng gồm nhiều thiết bị, ZigBee được ứng dụng trong smart home và các hệ thống IoT."
+        },
+        {
+          "type": "point",
+          "ja": "ZigBeeは低消費電力で、多数のIoT機器によるネットワーク構築に適している。",
+          "vi": "ZigBee tiêu thụ ít điện và phù hợp để xây dựng mạng có nhiều thiết bị IoT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ZigBee",
+          "reading": "じぐびー",
+          "english": "ZigBee",
+          "vi": "ZigBee",
+          "definitionJa": "低消費電力の短距離無線通信規格で、IoT機器などに利用される。",
+          "definitionVi": "Chuẩn truyền thông không dây tầm ngắn, tiêu thụ thấp, thường dùng cho IoT."
+        }
+      ],
+      "tags": ["input-output", "wireless", "zigbee", "iot"]
+    },
+    {
+      "id": "irda",
+      "order": 10,
+      "titleJa": "IrDA",
+      "titleVi": "IrDA",
+      "importance": "medium",
+      "summaryJa": "赤外線を利用して近距離でデータ通信を行うIrDAについて理解する。",
+      "summaryVi": "Tìm hiểu IrDA, chuẩn truyền dữ liệu tầm ngắn sử dụng tia hồng ngoại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IrDAとは",
+          "vi": "IrDA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IrDA（Infrared Data Association）は、赤外線を利用して機器同士で近距離データ通信を行うための規格である。",
+          "vi": "IrDA (Infrared Data Association) là chuẩn truyền thông dữ liệu tầm ngắn giữa các thiết bị bằng tia hồng ngoại."
+        },
+        {
+          "type": "paragraph",
+          "ja": "機器を非接触で接続でき、周囲の無線通信からの影響を比較的受けにくい特徴がある。",
+          "vi": "Thiết bị có thể giao tiếp không tiếp xúc và tương đối ít bị ảnh hưởng bởi các hệ thống vô tuyến xung quanh."
+        },
+        {
+          "type": "point",
+          "ja": "IrDAは赤外線による近距離通信である。",
+          "vi": "IrDA là truyền thông tầm ngắn bằng tia hồng ngoại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IrDA",
+          "reading": "あいあーるでぃーえい",
+          "english": "Infrared Data Association",
+          "vi": "chuẩn truyền thông hồng ngoại IrDA",
+          "definitionJa": "赤外線を利用して近距離でデータを通信するための規格。",
+          "definitionVi": "Chuẩn truyền dữ liệu tầm ngắn bằng tia hồng ngoại."
+        }
+      ],
+      "tags": ["input-output", "wireless", "infrared", "irda"]
+    },
+    {
+      "id": "nfc",
+      "order": 11,
+      "titleJa": "NFC",
+      "titleVi": "Giao tiếp trường gần",
+      "importance": "high",
+      "summaryJa": "数センチ程度の近距離でデータ通信を行うNFCについて理解する。",
+      "summaryVi": "Tìm hiểu NFC, công nghệ truyền thông không dây ở khoảng cách rất gần.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "NFCとは",
+          "vi": "NFC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "NFC（Near Field Communication）は、数センチ程度の非常に近い距離で機器同士が無線通信するための技術である。",
+          "vi": "NFC (Near Field Communication) là công nghệ cho phép các thiết bị giao tiếp không dây trong phạm vi rất gần, khoảng vài centimet."
+        },
+        {
+          "type": "paragraph",
+          "ja": "スマートフォンによる電子決済や交通系ICカードなどで利用され、端末をかざすことで簡単に通信できる。",
+          "vi": "NFC được sử dụng trong thanh toán bằng điện thoại, thẻ giao thông IC và các ứng dụng chỉ cần đưa thiết bị lại gần nhau."
+        },
+        {
+          "type": "point",
+          "ja": "NFCは数センチ程度の非常に短い距離で利用する無線通信である。",
+          "vi": "NFC hoạt động ở khoảng cách rất ngắn, chỉ vài centimet."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NFC",
+          "reading": "えぬえふしー",
+          "english": "Near Field Communication",
+          "vi": "giao tiếp trường gần",
+          "definitionJa": "数センチ程度の近距離でデータを送受信する無線通信技術。",
+          "definitionVi": "Công nghệ truyền thông không dây để trao đổi dữ liệu ở khoảng cách vài centimet."
+        }
+      ],
+      "tags": ["input-output", "wireless", "nfc"]
+    },
+    {
+      "id": "serial-data-transmission-method",
+      "order": 12,
+      "titleJa": "シリアルデータ転送方式",
+      "titleVi": "Phương thức truyền dữ liệu nối tiếp",
+      "importance": "high",
+      "summaryJa": "データを1ビットずつ順番に転送するシリアルデータ転送方式について理解する。",
+      "summaryVi": "Tìm hiểu phương thức truyền nối tiếp, trong đó dữ liệu được truyền từng bit theo thứ tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シリアルデータ転送方式とは",
+          "vi": "Truyền dữ liệu nối tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シリアルデータ転送方式（Serial Data Transmission Method）は、データを1ビットずつ順番に転送する方式である。",
+          "vi": "Serial Data Transmission Method là phương thức truyền dữ liệu lần lượt từng bit."
+        },
+        {
+          "type": "paragraph",
+          "ja": "使用する信号線を少なくでき、配線を簡素化しやすい。USBやRS-232Cなどが代表例である。",
+          "vi": "Phương thức này cần ít đường tín hiệu và giúp đơn giản hóa dây nối. USB và RS-232C là các ví dụ tiêu biểu."
+        },
+        {
+          "type": "point",
+          "ja": "シリアル転送は1ビットずつ順番に送信する。",
+          "vi": "Truyền nối tiếp gửi dữ liệu từng bit theo thứ tự."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シリアルデータ転送方式",
+          "reading": "しりあるでーたてんそうほうしき",
+          "english": "Serial Data Transmission Method",
+          "vi": "phương thức truyền dữ liệu nối tiếp",
+          "definitionJa": "データを1ビットずつ順番に転送する方式。",
+          "definitionVi": "Phương thức truyền dữ liệu từng bit theo thứ tự."
+        }
+      ],
+      "tags": ["input-output", "serial", "data-transfer"]
+    },
+    {
+      "id": "parallel-data-transfer-method",
+      "order": 13,
+      "titleJa": "パラレルデータ転送方式",
+      "titleVi": "Phương thức truyền dữ liệu song song",
+      "importance": "high",
+      "summaryJa": "複数ビットを複数の信号線で同時に転送するパラレルデータ転送方式について理解する。",
+      "summaryVi": "Tìm hiểu truyền dữ liệu song song, phương thức truyền nhiều bit đồng thời qua nhiều đường tín hiệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パラレルデータ転送方式とは",
+          "vi": "Truyền dữ liệu song song là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パラレルデータ転送方式（Parallel Data Transfer Method）は、複数のデータビットを別々の信号線を使って同時に転送する方式である。",
+          "vi": "Parallel Data Transfer Method là phương thức sử dụng nhiều đường tín hiệu để truyền đồng thời nhiều bit dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一度に複数ビットを送ることができる一方、配線が複雑になり、距離が長くなると信号のずれなどが問題になることがある。",
+          "vi": "Nó có thể truyền nhiều bit cùng lúc, nhưng dây nối phức tạp và khi khoảng cách tăng có thể phát sinh vấn đề lệch tín hiệu."
+        },
+        {
+          "type": "point",
+          "ja": "シリアルは順番、パラレルは同時に複数ビットを転送する。",
+          "vi": "Serial truyền lần lượt; parallel truyền nhiều bit cùng lúc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パラレルデータ転送方式",
+          "reading": "ぱられるでーたてんそうほうしき",
+          "english": "Parallel Data Transfer Method",
+          "vi": "phương thức truyền dữ liệu song song",
+          "definitionJa": "複数の信号線を使い、複数ビットを同時に転送する方式。",
+          "definitionVi": "Phương thức dùng nhiều đường tín hiệu để truyền nhiều bit đồng thời."
+        }
+      ],
+      "tags": ["input-output", "parallel", "data-transfer"]
+    },
+    {
+      "id": "analog",
+      "order": 14,
+      "titleJa": "アナログ",
+      "titleVi": "Analog",
+      "importance": "high",
+      "summaryJa": "連続的に変化する値によって情報を表現するアナログ方式について理解する。",
+      "summaryVi": "Tìm hiểu analog, phương thức biểu diễn thông tin bằng các giá trị biến đổi liên tục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アナログとは",
+          "vi": "Analog là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アナログ（Analog）は、電圧や音などの連続的に変化する値をそのまま利用して情報を表現する方式である。",
+          "vi": "Analog là phương thức biểu diễn thông tin bằng các đại lượng biến đổi liên tục như điện áp hoặc âm thanh."
+        },
+        {
+          "type": "paragraph",
+          "ja": "自然界の信号を滑らかに表現できる一方で、ノイズや信号劣化の影響を受けやすい。",
+          "vi": "Analog có thể biểu diễn tín hiệu tự nhiên một cách liên tục nhưng dễ bị ảnh hưởng bởi nhiễu và suy hao."
+        },
+        {
+          "type": "point",
+          "ja": "アナログは連続値、デジタルは離散値で情報を表現する。",
+          "vi": "Analog biểu diễn bằng giá trị liên tục; digital bằng giá trị rời rạc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アナログ",
+          "reading": "あなろぐ",
+          "english": "Analog",
+          "vi": "tương tự",
+          "definitionJa": "連続的に変化する値を用いて情報を表現する方式。",
+          "definitionVi": "Phương thức biểu diễn thông tin bằng các giá trị biến đổi liên tục."
+        }
+      ],
+      "tags": ["input-output", "signal", "analog"]
+    },
+    {
+      "id": "digital",
+      "order": 15,
+      "titleJa": "デジタル",
+      "titleVi": "Digital",
+      "importance": "high",
+      "summaryJa": "0と1などの離散的な値を用いて情報を表現するデジタル方式について理解する。",
+      "summaryVi": "Tìm hiểu digital, phương thức biểu diễn thông tin bằng các giá trị rời rạc như 0 và 1.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルとは",
+          "vi": "Digital là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタル（Digital）は、情報を0と1などの離散的な値として表現する方式である。",
+          "vi": "Digital là phương thức biểu diễn thông tin bằng các giá trị rời rạc như 0 và 1."
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータでは、音声、映像、文字などのさまざまな情報をデジタルデータとして扱う。",
+          "vi": "Máy tính xử lý nhiều dạng thông tin như âm thanh, hình ảnh và văn bản dưới dạng dữ liệu số."
+        },
+        {
+          "type": "point",
+          "ja": "デジタル信号はアナログ信号と比較してノイズの影響を受けにくく、複製や処理を行いやすい。",
+          "vi": "Tín hiệu số ít bị ảnh hưởng bởi nhiễu hơn analog và thuận tiện cho sao chép, xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタル",
+          "reading": "でじたる",
+          "english": "Digital",
+          "vi": "kỹ thuật số",
+          "definitionJa": "情報を0と1などの離散的な値によって表現する方式。",
+          "definitionVi": "Phương thức biểu diễn thông tin bằng các giá trị rời rạc như 0 và 1."
+        }
+      ],
+      "tags": ["input-output", "signal", "digital"]
+    },
+    {
+      "id": "star-connection",
+      "order": 16,
+      "titleJa": "スター接続",
+      "titleVi": "Kết nối hình sao",
+      "importance": "high",
+      "summaryJa": "複数の機器を中央のハブやスイッチへ接続するスター接続について理解する。",
+      "summaryVi": "Tìm hiểu kết nối hình sao, trong đó nhiều thiết bị được kết nối tới một hub hoặc switch trung tâm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スター接続とは",
+          "vi": "Kết nối hình sao là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スター接続（Star Connection）は、複数の機器を中央に配置したハブやスイッチへ個別に接続する方式である。",
+          "vi": "Star Connection là phương thức trong đó các thiết bị được kết nối riêng lẻ tới hub hoặc switch trung tâm."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一つの端末が故障しても他の端末へ影響しにくく、管理しやすい。一方、中央装置が故障すると全体に影響する可能性がある。",
+          "vi": "Nếu một thiết bị đầu cuối bị lỗi, các thiết bị khác thường không bị ảnh hưởng. Tuy nhiên nếu thiết bị trung tâm bị lỗi, toàn hệ thống có thể bị ảnh hưởng."
+        },
+        {
+          "type": "point",
+          "ja": "スター接続では、中央のハブやスイッチが重要な役割を持つ。",
+          "vi": "Trong kết nối hình sao, hub hoặc switch trung tâm đóng vai trò quan trọng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スター接続",
+          "reading": "すたーせつぞく",
+          "english": "Star Connection",
+          "vi": "kết nối hình sao",
+          "definitionJa": "複数の機器を中央装置へ放射状に接続する方式。",
+          "definitionVi": "Phương thức kết nối nhiều thiết bị theo dạng tỏa ra từ một thiết bị trung tâm."
+        }
+      ],
+      "tags": ["input-output", "connection", "star"]
+    },
+    {
+      "id": "cascade-connection",
+      "order": 17,
+      "titleJa": "カスケード接続",
+      "titleVi": "Kết nối cascade",
+      "importance": "medium",
+      "summaryJa": "複数の機器を段階的または直列に接続して接続数を拡張するカスケード接続について理解する。",
+      "summaryVi": "Tìm hiểu kết nối cascade, phương thức nối các thiết bị theo tầng hoặc chuỗi để mở rộng hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "カスケード接続とは",
+          "vi": "Kết nối cascade là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "カスケード接続（Cascade Connection）は、複数の機器を段階的に接続し、一つの機器の先にさらに別の機器を接続していく方式である。",
+          "vi": "Cascade Connection là phương thức kết nối theo tầng, trong đó một thiết bị được nối tiếp tới thiết bị khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハブやスイッチなどをさらに接続することで、接続可能な端末数やネットワークの範囲を拡張できる。",
+          "vi": "Bằng cách nối thêm hub hoặc switch, có thể mở rộng số lượng thiết bị và phạm vi của mạng."
+        },
+        {
+          "type": "point",
+          "ja": "カスケード接続は、機器を段階的につないでシステムを拡張する。",
+          "vi": "Cascade mở rộng hệ thống bằng cách kết nối thiết bị theo từng tầng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カスケード接続",
+          "reading": "かすけーどせつぞく",
+          "english": "Cascade Connection",
+          "vi": "kết nối cascade",
+          "definitionJa": "複数の機器を段階的に接続して構成を拡張する方式。",
+          "definitionVi": "Phương thức mở rộng hệ thống bằng cách kết nối nhiều thiết bị theo từng tầng."
+        }
+      ],
+      "tags": ["input-output", "connection", "cascade"]
+    },
+    {
+      "id": "hub",
+      "order": 18,
+      "titleJa": "ハブ",
+      "titleVi": "Hub",
+      "importance": "high",
+      "summaryJa": "ネットワーク上で複数の機器を接続するために利用されるハブについて理解する。",
+      "summaryVi": "Tìm hiểu hub, thiết bị dùng để kết nối nhiều thiết bị trong mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハブとは",
+          "vi": "Hub là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハブ（Hub）は、ネットワークにおいて複数のコンピュータや機器を接続するための装置である。",
+          "vi": "Hub là thiết bị dùng để kết nối nhiều máy tính hoặc thiết bị trong mạng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "受信したデータを接続されている複数のポートへ転送することで、機器間の通信を可能にする。",
+          "vi": "Hub chuyển tiếp dữ liệu nhận được tới các cổng kết nối, nhờ đó cho phép các thiết bị giao tiếp với nhau."
+        },
+        {
+          "type": "point",
+          "ja": "一般的なハブは受信データを他のポートへ転送するため、スイッチより効率が低い場合がある。",
+          "vi": "Hub thông thường chuyển dữ liệu tới các cổng khác nên có thể kém hiệu quả hơn switch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハブ",
+          "reading": "はぶ",
+          "english": "Hub",
+          "vi": "hub",
+          "definitionJa": "ネットワーク上で複数の機器を接続するための装置。",
+          "definitionVi": "Thiết bị dùng để kết nối nhiều thiết bị trong mạng."
+        }
+      ],
+      "tags": ["input-output", "network", "hub"]
+    },
+    {
+      "id": "daisy-chain-connection",
+      "order": 19,
+      "titleJa": "デイジーチェーン接続",
+      "titleVi": "Kết nối chuỗi Daisy Chain",
+      "importance": "medium",
+      "summaryJa": "複数のデバイスを順番に連結して接続するデイジーチェーン接続について理解する。",
+      "summaryVi": "Tìm hiểu Daisy Chain, phương thức kết nối nhiều thiết bị nối tiếp nhau theo chuỗi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デイジーチェーン接続とは",
+          "vi": "Kết nối Daisy Chain là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デイジーチェーン接続（Daisy Chain Connection）は、複数のデバイスを順番に連結し、あるデバイスから次のデバイスへデータを中継していく接続方式である。",
+          "vi": "Daisy Chain Connection là phương thức kết nối nhiều thiết bị theo chuỗi, trong đó dữ liệu được chuyển tiếp từ thiết bị này sang thiết bị tiếp theo."
+        },
+        {
+          "type": "paragraph",
+          "ja": "配線を簡潔にし、必要な接続ポート数を減らせる利点がある。一方、途中の機器や接続に障害が発生すると、その先の機器に影響が及ぶ可能性がある。",
+          "vi": "Phương thức này giúp đơn giản hóa dây nối và giảm số cổng cần thiết. Tuy nhiên, nếu một thiết bị hoặc kết nối ở giữa gặp sự cố, các thiết bị phía sau có thể bị ảnh hưởng."
+        },
+        {
+          "type": "point",
+          "ja": "デイジーチェーン接続では、複数の機器を数珠つなぎのように順番に接続する。",
+          "vi": "Daisy Chain kết nối nhiều thiết bị nối tiếp nhau thành một chuỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デイジーチェーン接続",
+          "reading": "でいじーちぇーんせつぞく",
+          "english": "Daisy Chain Connection",
+          "vi": "kết nối chuỗi Daisy Chain",
+          "definitionJa": "複数のデバイスを順番に連結し、データを次の機器へ中継する接続方式。",
+          "definitionVi": "Phương thức kết nối nhiều thiết bị theo chuỗi và chuyển tiếp dữ liệu từ thiết bị này sang thiết bị khác."
+        }
+      ],
+      "tags": ["input-output", "connection", "daisy-chain"]
+    },
+    {
+      "id": "terminator",
+      "order": 20,
+      "titleJa": "ターミネーター",
+      "titleVi": "Bộ kết cuối",
+      "importance": "high",
+      "summaryJa": "信号の反射を防ぐため、伝送路の終端に取り付けるターミネーターについて理解する。",
+      "summaryVi": "Tìm hiểu terminator, thiết bị được đặt ở cuối đường truyền để ngăn phản xạ tín hiệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ターミネーターとは",
+          "vi": "Terminator là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ターミネーター（Terminator）は、バスや通信ケーブルなどの伝送路の終端に取り付け、信号を適切に終端するための装置または回路である。",
+          "vi": "Terminator là thiết bị hoặc mạch được lắp ở cuối bus hoặc cáp truyền thông để kết thúc tín hiệu đúng cách."
+        },
+        {
+          "type": "paragraph",
+          "ja": "伝送路の終端で信号が反射すると通信エラーの原因になるため、ターミネーターによって信号の反射や干渉を抑える。",
+          "vi": "Nếu tín hiệu bị phản xạ ở cuối đường truyền, lỗi truyền thông có thể xảy ra. Terminator giúp hạn chế phản xạ và nhiễu tín hiệu."
+        },
+        {
+          "type": "point",
+          "ja": "ターミネーターの主な目的は、伝送路の終端で起こる信号の反射を防ぐことである。",
+          "vi": "Mục đích chính của terminator là ngăn phản xạ tín hiệu ở cuối đường truyền."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ターミネーター",
+          "reading": "たーみねーたー",
+          "english": "Terminator",
+          "vi": "bộ kết cuối",
+          "definitionJa": "通信路の終端に設置し、信号の反射を防止するための装置や回路。",
+          "definitionVi": "Thiết bị hoặc mạch đặt ở cuối đường truyền để ngăn phản xạ tín hiệu."
+        }
+      ],
+      "tags": ["input-output", "bus", "terminator"]
+    },
+    {
+      "id": "tree-connection",
+      "order": 21,
+      "titleJa": "ツリー接続",
+      "titleVi": "Kết nối hình cây",
+      "importance": "medium",
+      "summaryJa": "親ノードから複数の子ノードへ枝分かれする階層型のツリー接続について理解する。",
+      "summaryVi": "Tìm hiểu kết nối hình cây, cấu trúc phân cấp trong đó một nút cha phân nhánh thành nhiều nút con.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ツリー接続とは",
+          "vi": "Kết nối hình cây là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ツリー接続（Tree Connection）は、中心となる親ノードから複数の子ノードへ枝分かれし、さらにその下へ機器を接続していく階層型の接続方式である。",
+          "vi": "Tree Connection là kiểu kết nối phân cấp, trong đó từ một nút cha trung tâm phân nhánh thành nhiều nút con và tiếp tục mở rộng xuống các tầng dưới."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークやデータ構造などで利用され、階層ごとに機器や情報を整理しやすい。一部のノードに障害が発生しても、影響範囲をその枝に限定しやすい。",
+          "vi": "Cấu trúc này được dùng trong mạng và cấu trúc dữ liệu, giúp tổ chức thiết bị hoặc thông tin theo tầng. Khi một nút gặp lỗi, phạm vi ảnh hưởng thường có thể giới hạn trong nhánh đó."
+        },
+        {
+          "type": "point",
+          "ja": "ツリー接続は、親子関係を持つ階層構造で接続する方式である。",
+          "vi": "Tree Connection là kiểu kết nối theo cấu trúc phân cấp cha-con."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ツリー接続",
+          "reading": "つりーせつぞく",
+          "english": "Tree Connection",
+          "vi": "kết nối hình cây",
+          "definitionJa": "親ノードから子ノードへ枝分かれする階層型の接続方式。",
+          "definitionVi": "Phương thức kết nối phân cấp, trong đó nút cha phân nhánh thành các nút con."
+        }
+      ],
+      "tags": ["input-output", "connection", "tree"]
+    },
+    {
+      "id": "program-control-method",
+      "order": 22,
+      "titleJa": "プログラム制御方式",
+      "titleVi": "Phương thức điều khiển bằng chương trình",
+      "importance": "high",
+      "summaryJa": "CPUがプログラムを実行しながら入出力装置を直接制御するプログラム制御方式について理解する。",
+      "summaryVi": "Tìm hiểu phương thức điều khiển bằng chương trình, trong đó CPU trực tiếp điều khiển thiết bị I/O khi thực thi chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プログラム制御方式とは",
+          "vi": "Phương thức điều khiển bằng chương trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラム制御方式（Program Control Method）は、CPUがプログラムの命令に従って入出力装置の状態を確認し、データの入出力を直接制御する方式である。",
+          "vi": "Program Control Method là phương thức trong đó CPU thực hiện các lệnh của chương trình, kiểm tra trạng thái thiết bị I/O và trực tiếp điều khiển việc nhập xuất dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUが入出力処理にも関与するため仕組みは比較的単純であるが、入出力処理を待つ間もCPU時間を消費しやすい。",
+          "vi": "Cơ chế tương đối đơn giản vì CPU trực tiếp tham gia xử lý I/O, nhưng CPU có thể phải tiêu tốn thời gian chờ thiết bị nhập xuất."
+        },
+        {
+          "type": "point",
+          "ja": "プログラム制御方式では、CPU自身が入出力処理を直接管理する。",
+          "vi": "Trong phương thức điều khiển bằng chương trình, chính CPU trực tiếp quản lý I/O."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プログラム制御方式",
+          "reading": "ぷろぐらむせいぎょほうしき",
+          "english": "Program Control Method",
+          "vi": "phương thức điều khiển bằng chương trình",
+          "definitionJa": "CPUがプログラムの命令に従い、入出力装置を直接制御する方式。",
+          "definitionVi": "Phương thức CPU trực tiếp điều khiển thiết bị I/O theo lệnh chương trình."
+        }
+      ],
+      "tags": ["input-output", "io-control", "program-control"]
+    },
+    {
+      "id": "dma-method",
+      "order": 23,
+      "titleJa": "DMA方式",
+      "titleVi": "Phương thức DMA",
+      "importance": "high",
+      "summaryJa": "CPUを介さずに入出力装置と主記憶の間で直接データを転送するDMA方式について理解する。",
+      "summaryVi": "Tìm hiểu DMA, phương thức cho phép truyền dữ liệu trực tiếp giữa thiết bị I/O và bộ nhớ chính mà không cần CPU xử lý từng dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DMA方式とは",
+          "vi": "DMA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DMA（Direct Memory Access）方式は、入出力装置と主記憶との間で、CPUを介さずにデータを直接転送する方式である。",
+          "vi": "DMA (Direct Memory Access) là phương thức cho phép truyền dữ liệu trực tiếp giữa thiết bị I/O và bộ nhớ chính mà không phải đi qua CPU trong từng lần truyền."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUは転送の開始などを指示した後、データ転送そのものをDMAコントローラに任せることができるため、その間に別の処理を実行できる。",
+          "vi": "Sau khi CPU chỉ thị bắt đầu truyền, việc truyền dữ liệu được giao cho bộ điều khiển DMA, vì vậy CPU có thể thực hiện công việc khác trong thời gian đó."
+        },
+        {
+          "type": "point",
+          "ja": "DMA方式のポイントは「CPUを介さず、入出力装置と主記憶の間で直接転送する」ことである。",
+          "vi": "Điểm quan trọng của DMA là dữ liệu được truyền trực tiếp giữa thiết bị I/O và bộ nhớ chính mà không qua CPU."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DMA方式",
+          "reading": "でぃーえむえーほうしき",
+          "english": "Direct Memory Access",
+          "vi": "phương thức truy cập bộ nhớ trực tiếp",
+          "definitionJa": "CPUを介さず、入出力装置と主記憶の間で直接データを転送する方式。",
+          "definitionVi": "Phương thức truyền dữ liệu trực tiếp giữa thiết bị I/O và bộ nhớ chính mà không qua CPU."
+        }
+      ],
+      "tags": ["input-output", "dma", "memory", "io-control"]
+    },
+    {
+      "id": "channel-control-method",
+      "order": 24,
+      "titleJa": "チャネル制御方式",
+      "titleVi": "Phương thức điều khiển kênh",
+      "importance": "high",
+      "summaryJa": "入出力専用の制御装置であるチャネルに入出力処理を任せ、CPUの負荷を軽減するチャネル制御方式について理解する。",
+      "summaryVi": "Tìm hiểu phương thức điều khiển kênh, trong đó một bộ điều khiển I/O chuyên dụng đảm nhiệm xử lý vào/ra để giảm tải cho CPU.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "チャネル制御方式とは",
+          "vi": "Phương thức điều khiển kênh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "チャネル制御方式（Channel Control Method）は、入出力処理を専門に担当するチャネルと呼ばれる装置に、複数の入出力装置の制御を任せる方式である。",
+          "vi": "Channel Control Method là phương thức giao việc điều khiển nhiều thiết bị I/O cho một bộ phận chuyên trách gọi là channel."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUは入出力処理の詳細をチャネルへ任せることができるため、CPU自身は演算などの別の処理に集中できる。特に多数の入出力装置を扱うシステムで有効である。",
+          "vi": "CPU có thể giao chi tiết xử lý I/O cho channel và tập trung vào các công việc khác như tính toán. Phương thức này đặc biệt hữu ích trong hệ thống có nhiều thiết bị I/O."
+        },
+        {
+          "type": "point",
+          "ja": "DMAは主にデータ転送をCPUから切り離し、チャネル制御方式は入出力処理全体をより独立して制御する。",
+          "vi": "DMA chủ yếu tách việc truyền dữ liệu khỏi CPU; channel control có thể đảm nhiệm việc điều khiển I/O ở mức độc lập hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "チャネル制御方式",
+          "reading": "ちゃねるせいぎょほうしき",
+          "english": "Channel Control Method",
+          "vi": "phương thức điều khiển kênh",
+          "definitionJa": "入出力専用のチャネルに入出力処理を担当させ、CPUの負荷を軽減する方式。",
+          "definitionVi": "Phương thức giao xử lý I/O cho một channel chuyên dụng nhằm giảm tải cho CPU."
+        }
+      ],
+      "tags": ["input-output", "channel-control", "io-control"]
+    }
+  ]
+}

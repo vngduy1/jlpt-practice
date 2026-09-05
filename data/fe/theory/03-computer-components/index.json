@@ -1,0 +1,43 @@
+{
+  "id": "computer-components",
+  "order": 3,
+  "titleJa": "コンピュータ構成要素",
+  "titleVi": "Các thành phần cấu tạo máy tính",
+  "chapters": [
+    {
+      "id": "processor",
+      "order": 1,
+      "titleJa": "プロセッサ",
+      "titleVi": "Bộ xử lý",
+      "file": "01-processor.json"
+    },
+    {
+      "id": "memory",
+      "order": 2,
+      "titleJa": "メモリ",
+      "titleVi": "Bộ nhớ",
+      "file": "02-memory.json"
+    },
+    {
+      "id": "bus",
+      "order": 3,
+      "titleJa": "バス",
+      "titleVi": "Bus",
+      "file": "03-bus.json"
+    },
+    {
+      "id": "input-output-devices",
+      "order": 4,
+      "titleJa": "入出力デバイス",
+      "titleVi": "Thiết bị vào/ra",
+      "file": "04-input-output-devices.json"
+    },
+    {
+      "id": "input-output-equipment",
+      "order": 5,
+      "titleJa": "入出力装置",
+      "titleVi": "Thiết bị nhập xuất",
+      "file": "05-input-output-equipment.json"
+    }
+  ]
+}

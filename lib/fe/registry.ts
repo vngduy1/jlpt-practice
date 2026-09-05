@@ -14,6 +14,13 @@ import programmingJson from "@/data/fe/theory/02-algorithm-program/03-programmin
 import programmingLanguages from "@/data/fe/theory/02-algorithm-program/04-programming-languages.json";
 import otherLanguages from "@/data/fe/theory/02-algorithm-program/05-other-languages.json";
 
+import computerComponentsIndexJson from "@/data/fe/theory/03-computer-components/index.json";
+import processorJson from "@/data/fe/theory/03-computer-components/01-processor.json";
+import memoryJson from "@/data/fe/theory/03-computer-components/02-memory.json";
+import busJson from "@/data/fe/theory/03-computer-components/03-bus.json";
+import inputOutputDevicesJson from "@/data/fe/theory/03-computer-components/04-input-output-devices.json";
+import inputOutputEquipmentJson from "@/data/fe/theory/03-computer-components/05-input-output-equipment.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -56,7 +63,24 @@ const algorithmProgramCategory: FeCategory = {
   ],
 };
 
+const computerComponentsManifest = computerComponentsIndexJson as FeCategoryManifest;
+
+const computerComponentsCategory: FeCategory = {
+  id: computerComponentsManifest.id,
+  order: computerComponentsManifest.order,
+  titleJa: computerComponentsManifest.titleJa,
+  titleVi: computerComponentsManifest.titleVi,
+  chapters: [
+    processorJson as FeChapter,
+    memoryJson as FeChapter,
+    busJson as FeChapter,
+    inputOutputDevicesJson as FeChapter,
+    inputOutputEquipmentJson as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
+  computerComponentsCategory,
 ];

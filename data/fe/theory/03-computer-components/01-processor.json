@@ -1,0 +1,2927 @@
+{
+  "id": "processor",
+  "order": 1,
+  "titleJa": "プロセッサ",
+  "titleVi": "Bộ xử lý",
+  "lessons": [
+    {
+      "id": "personal-computer",
+      "order": 1,
+      "titleJa": "パーソナルコンピュータ",
+      "titleVi": "Máy tính cá nhân",
+      "importance": "high",
+      "summaryJa": "個人が利用することを目的として設計されたコンピュータであるパーソナルコンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu máy tính cá nhân, loại máy tính được thiết kế chủ yếu để một cá nhân sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パーソナルコンピュータとは",
+          "vi": "Máy tính cá nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パーソナルコンピュータ（Personal Computer）は、主に個人が使用することを目的として設計されたコンピュータである。一般に「PC」や「パソコン」と呼ばれる。",
+          "vi": "Máy tính cá nhân (Personal Computer) là loại máy tính được thiết kế chủ yếu cho một người sử dụng. Nó thường được gọi là \"PC\" hoặc \"パソコン\" trong tiếng Nhật."
+        },
+        {
+          "type": "heading",
+          "ja": "主な種類",
+          "vi": "Các loại chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パーソナルコンピュータには、机の上に設置して利用するデスクトップ型や、持ち運びが可能なノート型などがある。",
+          "vi": "Máy tính cá nhân có nhiều dạng, chẳng hạn máy tính để bàn dùng cố định trên bàn và máy tính xách tay có thể mang theo."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "文書作成、表計算、インターネット利用、ゲーム、画像編集など、家庭やオフィスにおける幅広い用途で利用されている。",
+          "vi": "Máy tính cá nhân được sử dụng rộng rãi trong gia đình và văn phòng cho các công việc như soạn thảo văn bản, bảng tính, Internet, game và chỉnh sửa hình ảnh."
+        },
+        {
+          "type": "point",
+          "ja": "パーソナルコンピュータは、個人利用を主な目的とする汎用的なコンピュータである。",
+          "vi": "Máy tính cá nhân là máy tính đa dụng chủ yếu dành cho người dùng cá nhân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パーソナルコンピュータ",
+          "reading": "ぱーそなるこんぴゅーた",
+          "english": "Personal Computer",
+          "vi": "máy tính cá nhân",
+          "definitionJa": "主に個人が利用することを目的として設計された汎用的なコンピュータ。",
+          "definitionVi": "Máy tính đa dụng được thiết kế chủ yếu để một cá nhân sử dụng."
+        }
+      ],
+      "tags": ["computer-components", "processor", "personal-computer", "pc"]
+    },
+    {
+      "id": "workstation",
+      "order": 2,
+      "titleJa": "ワークステーション",
+      "titleVi": "Máy trạm",
+      "importance": "high",
+      "summaryJa": "科学技術計算や設計、画像処理などの専門的な作業向けに高い処理性能を備えたワークステーションについて理解する。",
+      "summaryVi": "Tìm hiểu workstation, loại máy tính có hiệu năng cao dành cho các công việc chuyên môn như tính toán kỹ thuật, thiết kế và xử lý đồ họa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークステーションとは",
+          "vi": "Workstation là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ワークステーション（Workstation）は、一般的なパーソナルコンピュータよりも高い処理性能を持ち、専門的な業務を行うために設計されたコンピュータである。",
+          "vi": "Workstation là loại máy tính được thiết kế cho công việc chuyên môn và thường có hiệu năng xử lý cao hơn máy tính cá nhân thông thường."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "大容量のメモリ、高性能なプロセッサやグラフィックス機能などを備えることが多く、高負荷な処理を効率的に実行できる。",
+          "vi": "Workstation thường được trang bị bộ nhớ lớn, bộ xử lý hiệu năng cao và khả năng xử lý đồ họa mạnh, giúp thực hiện hiệu quả các tác vụ nặng."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CAD、3Dグラフィックス、科学技術計算、設計、エンジニアリングなど、高い計算能力を必要とする分野で利用される。",
+          "vi": "Workstation được sử dụng trong các lĩnh vực cần năng lực tính toán cao như CAD, đồ họa 3D, tính toán khoa học kỹ thuật, thiết kế và kỹ thuật."
+        },
+        {
+          "type": "point",
+          "ja": "ワークステーションは、一般的なPCより高性能で、専門的な処理に適したコンピュータである。",
+          "vi": "Workstation có hiệu năng cao hơn PC thông thường và phù hợp với các công việc chuyên môn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークステーション",
+          "reading": "わーくすてーしょん",
+          "english": "Workstation",
+          "vi": "máy trạm",
+          "definitionJa": "科学技術計算や設計などの専門的な処理向けに、高い処理性能を備えたコンピュータ。",
+          "definitionVi": "Máy tính hiệu năng cao dành cho các công việc chuyên môn như tính toán kỹ thuật và thiết kế."
+        }
+      ],
+      "tags": ["computer-components", "processor", "workstation"]
+    },
+    {
+      "id": "supercomputer",
+      "order": 3,
+      "titleJa": "スーパーコンピュータ",
+      "titleVi": "Siêu máy tính",
+      "importance": "high",
+      "summaryJa": "多数のプロセッサを利用して非常に大規模な計算を高速に処理するスーパーコンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu siêu máy tính, hệ thống sử dụng số lượng lớn bộ xử lý để thực hiện các phép tính quy mô rất lớn với tốc độ cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スーパーコンピュータとは",
+          "vi": "Siêu máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スーパーコンピュータ（Supercomputer）は、非常に高い計算能力を持つコンピュータであり、多数のプロセッサを利用して大量のデータや複雑な計算を高速に処理する。",
+          "vi": "Siêu máy tính (Supercomputer) là máy tính có năng lực tính toán cực cao, sử dụng nhiều bộ xử lý để xử lý nhanh lượng dữ liệu lớn và các phép tính phức tạp."
+        },
+        {
+          "type": "heading",
+          "ja": "並列処理",
+          "vi": "Xử lý song song"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多数のプロセッサを同時に動作させる並列処理によって、大規模な計算を短時間で実行できる。",
+          "vi": "Bằng cách sử dụng xử lý song song, trong đó nhiều bộ xử lý hoạt động đồng thời, siêu máy tính có thể thực hiện các phép tính quy mô lớn trong thời gian ngắn."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "気象予測、宇宙シミュレーション、医療研究、材料科学など、非常に大きな計算量を必要とする分野で利用される。",
+          "vi": "Siêu máy tính được sử dụng trong các lĩnh vực cần khối lượng tính toán rất lớn như dự báo thời tiết, mô phỏng vũ trụ, nghiên cứu y học và khoa học vật liệu."
+        },
+        {
+          "type": "point",
+          "ja": "スーパーコンピュータは、多数のプロセッサによる並列処理で大規模計算を高速化する。",
+          "vi": "Siêu máy tính tăng tốc các phép tính quy mô lớn bằng xử lý song song với nhiều bộ xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパーコンピュータ",
+          "reading": "すーぱーこんぴゅーた",
+          "english": "Supercomputer",
+          "vi": "siêu máy tính",
+          "definitionJa": "多数のプロセッサを利用して大規模な計算を高速に処理する、非常に高性能なコンピュータ。",
+          "definitionVi": "Máy tính hiệu năng cực cao sử dụng nhiều bộ xử lý để thực hiện nhanh các phép tính quy mô lớn."
+        }
+      ],
+      "tags": [
+        "computer-components",
+        "processor",
+        "supercomputer",
+        "parallel-processing"
+      ]
+    },
+    {
+      "id": "desktop-pc",
+      "order": 4,
+      "titleJa": "デスクトップPC",
+      "titleVi": "Máy tính để bàn",
+      "importance": "medium",
+      "summaryJa": "机などの一定の場所に設置して利用するパーソナルコンピュータであるデスクトップPCについて理解する。",
+      "summaryVi": "Tìm hiểu desktop PC, loại máy tính cá nhân thường được đặt cố định trên bàn hoặc tại một vị trí cụ thể để sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デスクトップPCとは",
+          "vi": "Máy tính để bàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デスクトップPC（Desktop PC）は、主に机などの一定の場所に設置して使用することを目的としたパーソナルコンピュータである。",
+          "vi": "Desktop PC là máy tính cá nhân được thiết kế chủ yếu để đặt và sử dụng cố định tại một vị trí như trên bàn."
+        },
+        {
+          "type": "heading",
+          "ja": "構成",
+          "vi": "Cấu tạo"
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般に、本体にディスプレイ、キーボード、マウスなどの周辺機器を接続して使用する。ノートPCと比べて部品の交換や増設を行いやすい。",
+          "vi": "Thông thường, máy được sử dụng bằng cách kết nối thân máy với các thiết bị ngoại vi như màn hình, bàn phím và chuột. So với laptop, việc thay thế hoặc nâng cấp linh kiện thường dễ hơn."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "同価格帯のノートPCと比べて高い性能や拡張性を確保しやすく、ビジネス、ゲーム、画像編集など幅広い用途で利用されている。",
+          "vi": "So với laptop ở cùng tầm giá, desktop thường dễ đạt hiệu năng và khả năng mở rộng cao hơn, nên được dùng rộng rãi cho công việc, game và chỉnh sửa hình ảnh."
+        },
+        {
+          "type": "point",
+          "ja": "デスクトップPCは持ち運びよりも性能・拡張性を重視した、据置型のパーソナルコンピュータである。",
+          "vi": "Desktop PC là máy tính cá nhân dạng cố định, ưu tiên hiệu năng và khả năng mở rộng hơn tính di động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デスクトップPC",
+          "reading": "ですくとっぷぴーしー",
+          "english": "Desktop PC",
+          "vi": "máy tính để bàn",
+          "definitionJa": "机などの一定の場所に設置して使用することを目的としたパーソナルコンピュータ。",
+          "definitionVi": "Máy tính cá nhân được thiết kế chủ yếu để sử dụng cố định tại một vị trí như trên bàn."
+        }
+      ],
+      "tags": [
+        "computer-components",
+        "processor",
+        "desktop-pc",
+        "personal-computer"
+      ]
+    },
+    {
+      "id": "notebook-pc",
+      "order": 5,
+      "titleJa": "ノートPC",
+      "titleVi": "Máy tính xách tay",
+      "importance": "high",
+      "summaryJa": "持ち運びが容易で、ディスプレイやキーボードなどが一体化されたノートPCについて理解する。",
+      "summaryVi": "Tìm hiểu notebook PC, loại máy tính có tính di động cao với màn hình, bàn phím và các thành phần chính được tích hợp trong một thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ノートPCとは",
+          "vi": "Notebook PC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ノートPC（Notebook PC）は、持ち運びが容易な形状のパーソナルコンピュータである。一般に、ディスプレイ、キーボード、タッチパッドなどが一体化されている。",
+          "vi": "Notebook PC là máy tính cá nhân được thiết kế để dễ dàng mang theo. Thông thường màn hình, bàn phím và touchpad được tích hợp thành một thiết bị."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部にバッテリを搭載しているため、電源がない場所でも一定時間使用できる。デスクトップPCと比べて設置スペースを取らず、外出先でも利用しやすい。",
+          "vi": "Do có pin tích hợp, notebook PC có thể hoạt động trong một khoảng thời gian ngay cả khi không có nguồn điện. So với desktop PC, nó chiếm ít không gian hơn và thuận tiện khi sử dụng bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "ノートPCの重要な特徴は、携帯性と省スペース性である。",
+          "vi": "Đặc điểm quan trọng của notebook PC là tính di động và tiết kiệm không gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ノートPC",
+          "reading": "のーとぴーしー",
+          "english": "Notebook PC",
+          "vi": "máy tính xách tay",
+          "definitionJa": "ディスプレイやキーボードなどを一体化し、持ち運びやすくしたパーソナルコンピュータ。",
+          "definitionVi": "Máy tính cá nhân tích hợp màn hình, bàn phím và các thành phần khác để thuận tiện mang theo."
+        }
+      ],
+      "tags": ["computer-components", "processor", "notebook-pc"]
+    },
+    {
+      "id": "server",
+      "order": 6,
+      "titleJa": "サーバ",
+      "titleVi": "Máy chủ",
+      "importance": "high",
+      "summaryJa": "ネットワークを通じて他のコンピュータや端末にサービスやデータを提供するサーバについて理解する。",
+      "summaryVi": "Tìm hiểu server, máy tính cung cấp dịch vụ hoặc dữ liệu cho các máy tính và thiết bị khác qua mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サーバとは",
+          "vi": "Server là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバ（Server）は、ネットワーク上の他のコンピュータやデバイスからの要求に応じて、サービスやデータを提供するコンピュータである。",
+          "vi": "Server là máy tính cung cấp dịch vụ hoặc dữ liệu theo yêu cầu của các máy tính và thiết bị khác trên mạng."
+        },
+        {
+          "type": "heading",
+          "ja": "主な種類",
+          "vi": "Các loại chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的なものには、Webページを提供するWebサーバ、ファイルを保存・共有するファイルサーバ、データベースを管理するデータベースサーバなどがある。",
+          "vi": "Các loại tiêu biểu gồm Web server cung cấp trang Web, file server lưu trữ và chia sẻ tệp, và database server quản lý cơ sở dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "サーバは、ネットワーク上のクライアントからの要求に応じてサービスを提供する。",
+          "vi": "Server cung cấp dịch vụ để đáp ứng yêu cầu từ client trên mạng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サーバ",
+          "reading": "さーば",
+          "english": "Server",
+          "vi": "máy chủ",
+          "definitionJa": "ネットワークを通じて他のコンピュータにサービスやデータを提供するコンピュータ。",
+          "definitionVi": "Máy tính cung cấp dịch vụ hoặc dữ liệu cho các máy tính khác thông qua mạng."
+        }
+      ],
+      "tags": ["computer-components", "processor", "server"]
+    },
+    {
+      "id": "mobile-device",
+      "order": 7,
+      "titleJa": "携帯端末",
+      "titleVi": "Thiết bị di động",
+      "importance": "medium",
+      "summaryJa": "スマートフォンやタブレット端末など、持ち運び可能な携帯端末について理解する。",
+      "summaryVi": "Tìm hiểu các thiết bị di động như smartphone và tablet.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "携帯端末とは",
+          "vi": "Thiết bị di động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "携帯端末（Mobile Device）は、持ち運び可能なデジタルデバイスであり、スマートフォンやタブレット端末などが代表例である。",
+          "vi": "Thiết bị di động là thiết bị kỹ thuật số có thể mang theo, tiêu biểu như smartphone và tablet."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信機能を備え、インターネットへの接続やアプリの利用が可能である。スマートフォンでは電話、メール、SNS、動画視聴など、多様な用途に利用できる。",
+          "vi": "Thiết bị di động có chức năng truyền thông, có thể kết nối Internet và sử dụng ứng dụng. Smartphone có thể được dùng để gọi điện, gửi email, dùng SNS, xem video và nhiều mục đích khác."
+        },
+        {
+          "type": "point",
+          "ja": "携帯端末の代表例はスマートフォンとタブレット端末である。",
+          "vi": "Smartphone và tablet là những ví dụ điển hình của thiết bị di động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "携帯端末",
+          "reading": "けいたいたんまつ",
+          "english": "Mobile Device",
+          "vi": "thiết bị di động",
+          "definitionJa": "持ち運んで利用できるスマートフォンやタブレットなどのデジタル端末。",
+          "definitionVi": "Thiết bị kỹ thuật số có thể mang theo như smartphone hoặc tablet."
+        }
+      ],
+      "tags": ["computer-components", "processor", "mobile-device"]
+    },
+    {
+      "id": "single-board-computer",
+      "order": 8,
+      "titleJa": "シングルボードコンピュータ",
+      "titleVi": "Máy tính bo mạch đơn",
+      "importance": "high",
+      "summaryJa": "CPU、メモリ、入出力機能などを一枚の基板上に集約したシングルボードコンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu máy tính bo mạch đơn, trong đó CPU, bộ nhớ và chức năng vào/ra được tích hợp trên một bo mạch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シングルボードコンピュータとは",
+          "vi": "Máy tính bo mạch đơn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シングルボードコンピュータ（Single Board Computer）は、コンピュータの主要な構成要素を一枚の基板上に集約したコンピュータである。",
+          "vi": "Single Board Computer là máy tính có các thành phần chính được tích hợp trên một bo mạch duy nhất."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般に、プロセッサ、メモリ、ストレージや入出力ポートなどを備えている。代表例としてRaspberry Piがある。",
+          "vi": "Thông thường nó có bộ xử lý, bộ nhớ, bộ lưu trữ và các cổng vào/ra. Raspberry Pi là một ví dụ tiêu biểu."
+        },
+        {
+          "type": "point",
+          "ja": "一枚の基板上に主要なコンピュータ機能を集約している点が特徴である。",
+          "vi": "Đặc điểm chính là các chức năng quan trọng của máy tính được tập trung trên một bo mạch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シングルボードコンピュータ",
+          "reading": "しんぐるぼーどこんぴゅーた",
+          "english": "Single Board Computer",
+          "vi": "máy tính bo mạch đơn",
+          "definitionJa": "主要なコンピュータ部品を一枚の基板上に集約したコンピュータ。",
+          "definitionVi": "Máy tính tích hợp các thành phần chính trên một bo mạch duy nhất."
+        }
+      ],
+      "tags": ["computer-components", "processor", "single-board-computer"]
+    },
+    {
+      "id": "general-purpose-computer",
+      "order": 9,
+      "titleJa": "汎用コンピュータ",
+      "titleVi": "Máy tính đa dụng",
+      "importance": "high",
+      "summaryJa": "特定の用途に限定されず、さまざまな処理に利用できる汎用コンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu máy tính đa dụng, loại máy tính có thể thực hiện nhiều loại công việc khác nhau thay vì chỉ phục vụ một mục đích cố định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "汎用コンピュータとは",
+          "vi": "Máy tính đa dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "汎用コンピュータ（General Purpose Computer）は、特定の用途だけに限定されず、文書処理、表計算、プログラミングなど多様な処理を行えるコンピュータである。",
+          "vi": "Máy tính đa dụng là máy tính không bị giới hạn ở một mục đích cụ thể và có thể thực hiện nhiều công việc như xử lý văn bản, bảng tính và lập trình."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアや設定を変更することで、異なる目的に利用できる柔軟性を持つ。デスクトップPCやノートPCなどが代表例である。",
+          "vi": "Nó có tính linh hoạt cao vì có thể phục vụ các mục đích khác nhau bằng cách thay đổi phần mềm hoặc cấu hình. Desktop PC và notebook PC là những ví dụ điển hình."
+        },
+        {
+          "type": "point",
+          "ja": "汎用コンピュータは、ソフトウェアを変えることで多様な用途に対応できる。",
+          "vi": "Máy tính đa dụng có thể phục vụ nhiều mục đích bằng cách thay đổi phần mềm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "汎用コンピュータ",
+          "reading": "はんようこんぴゅーた",
+          "english": "General Purpose Computer",
+          "vi": "máy tính đa dụng",
+          "definitionJa": "特定用途に限定されず、さまざまな処理に利用できるコンピュータ。",
+          "definitionVi": "Máy tính có thể sử dụng cho nhiều loại công việc mà không bị giới hạn vào một mục đích cụ thể."
+        }
+      ],
+      "tags": ["computer-components", "processor", "general-purpose-computer"]
+    },
+    {
+      "id": "control-computer",
+      "order": 10,
+      "titleJa": "制御用コンピュータ",
+      "titleVi": "Máy tính điều khiển",
+      "importance": "high",
+      "summaryJa": "機械やシステムの動作を監視・制御するために使用される制御用コンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu máy tính điều khiển, loại máy tính dùng để giám sát và điều khiển hoạt động của máy móc hoặc hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "制御用コンピュータとは",
+          "vi": "Máy tính điều khiển là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "制御用コンピュータ（Control Computer）は、各種の機械やシステムを制御することを目的とした専用のコンピュータである。",
+          "vi": "Control Computer là máy tính chuyên dụng được sử dụng nhằm điều khiển các loại máy móc và hệ thống."
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサーなどから情報を受け取り、その情報に基づいて機械の動作を調整する。自動車のエンジン管理、産業用ロボット、製造ラインなどで利用される。",
+          "vi": "Nó nhận thông tin từ cảm biến và điều chỉnh hoạt động của máy móc dựa trên thông tin đó. Nó được sử dụng trong quản lý động cơ ô tô, robot công nghiệp và dây chuyền sản xuất."
+        },
+        {
+          "type": "point",
+          "ja": "制御用コンピュータは、機械やシステムの制御を目的としたコンピュータである。",
+          "vi": "Máy tính điều khiển được thiết kế với mục đích điều khiển máy móc hoặc hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "制御用コンピュータ",
+          "reading": "せいぎょようこんぴゅーた",
+          "english": "Control Computer",
+          "vi": "máy tính điều khiển",
+          "definitionJa": "機械やシステムの動作を制御するために使用されるコンピュータ。",
+          "definitionVi": "Máy tính được sử dụng để điều khiển hoạt động của máy móc hoặc hệ thống."
+        }
+      ],
+      "tags": ["computer-components", "processor", "control-computer"]
+    },
+    {
+      "id": "microcomputer",
+      "order": 11,
+      "titleJa": "マイクロコンピュータ",
+      "titleVi": "Máy vi tính",
+      "importance": "high",
+      "summaryJa": "マイクロプロセッサを中心に構成される小型コンピュータであるマイクロコンピュータについて理解する。",
+      "summaryVi": "Tìm hiểu microcomputer, loại máy tính nhỏ được xây dựng chủ yếu dựa trên bộ vi xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイクロコンピュータとは",
+          "vi": "Microcomputer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マイクロコンピュータ（Microcomputer）は、マイクロプロセッサをCPUとして使用する小型のコンピュータである。",
+          "vi": "Microcomputer là loại máy tính nhỏ sử dụng microprocessor làm CPU."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPU、メモリ、入出力装置などから構成され、パーソナルコンピュータや各種の組込み機器などに広く利用されている。",
+          "vi": "Nó được cấu thành từ CPU, bộ nhớ, thiết bị vào/ra và được sử dụng rộng rãi trong máy tính cá nhân cũng như nhiều thiết bị nhúng."
+        },
+        {
+          "type": "point",
+          "ja": "マイクロコンピュータは、マイクロプロセッサを中心に構成された小型コンピュータである。",
+          "vi": "Microcomputer là máy tính nhỏ được cấu thành chủ yếu quanh một bộ vi xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイクロコンピュータ",
+          "reading": "まいくろこんぴゅーた",
+          "english": "Microcomputer",
+          "vi": "máy vi tính",
+          "definitionJa": "マイクロプロセッサをCPUとして使用する小型のコンピュータ。",
+          "definitionVi": "Máy tính nhỏ sử dụng bộ vi xử lý làm CPU."
+        }
+      ],
+      "tags": ["computer-components", "processor", "microcomputer"]
+    },
+    {
+      "id": "five-major-components",
+      "order": 12,
+      "titleJa": "コンピュータの五大装置",
+      "titleVi": "Năm bộ phận chính của máy tính",
+      "importance": "high",
+      "summaryJa": "コンピュータを構成する演算装置、制御装置、記憶装置、入力装置、出力装置の五大装置について理解する。",
+      "summaryVi": "Tìm hiểu năm bộ phận cơ bản cấu thành máy tính: bộ phận tính toán, điều khiển, bộ nhớ, thiết bị nhập và thiết bị xuất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンピュータの五大装置とは",
+          "vi": "Năm bộ phận chính của máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの五大装置とは、演算装置、制御装置、記憶装置、入力装置、出力装置の五つを指す。",
+          "vi": "Năm bộ phận chính của máy tính gồm bộ phận tính toán, bộ phận điều khiển, bộ nhớ, thiết bị nhập và thiết bị xuất."
+        },
+        {
+          "type": "heading",
+          "ja": "各装置の役割",
+          "vi": "Vai trò của từng bộ phận"
+        },
+        {
+          "type": "paragraph",
+          "ja": "演算装置は計算やデータ処理を行い、制御装置は各装置の動作を制御する。記憶装置はデータやプログラムを記憶し、入力装置は情報をコンピュータに入力し、出力装置は処理結果を外部に出力する。",
+          "vi": "Bộ phận tính toán thực hiện phép tính và xử lý dữ liệu; bộ phận điều khiển kiểm soát hoạt động của các bộ phận; bộ nhớ lưu dữ liệu và chương trình; thiết bị nhập đưa thông tin vào máy tính; thiết bị xuất đưa kết quả xử lý ra ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "五大装置は「演算・制御・記憶・入力・出力」の五つである。",
+          "vi": "Cần nhớ 5 bộ phận: tính toán – điều khiển – bộ nhớ – nhập – xuất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンピュータの五大装置",
+          "reading": "こんぴゅーたのごだいそうち",
+          "english": "Five Major Components of a Computer",
+          "vi": "năm bộ phận chính của máy tính",
+          "definitionJa": "演算装置、制御装置、記憶装置、入力装置、出力装置の五つの基本装置。",
+          "definitionVi": "Năm bộ phận cơ bản gồm tính toán, điều khiển, bộ nhớ, nhập và xuất."
+        }
+      ],
+      "tags": ["computer-components", "processor", "five-major-components"]
+    },
+    {
+      "id": "cpu",
+      "order": 13,
+      "titleJa": "CPU",
+      "titleVi": "Bộ xử lý trung tâm",
+      "importance": "high",
+      "summaryJa": "命令を解釈・実行し、コンピュータの演算や制御を担うCPUについて理解する。",
+      "summaryVi": "Tìm hiểu CPU, bộ phận chịu trách nhiệm giải mã và thực thi lệnh, thực hiện tính toán và điều khiển hoạt động của máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CPUとは",
+          "vi": "CPU là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPU（Central Processing Unit）は、コンピュータの主要な演算処理を行う装置であり、一般に「プロセッサ」とも呼ばれる。",
+          "vi": "CPU (Central Processing Unit) là bộ phận thực hiện các xử lý tính toán chính của máy tính và thường được gọi là processor."
+        },
+        {
+          "type": "heading",
+          "ja": "主な役割",
+          "vi": "Vai trò chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの命令を解釈して実行し、算術演算やデータ処理を行うとともに、他の装置と連携してコンピュータ全体の動作を制御する。",
+          "vi": "CPU giải mã và thực thi các lệnh của chương trình, thực hiện phép tính và xử lý dữ liệu, đồng thời phối hợp với các bộ phận khác để điều khiển hoạt động toàn hệ thống."
+        },
+        {
+          "type": "heading",
+          "ja": "性能",
+          "vi": "Hiệu năng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUの性能は、クロック周波数、コア数、キャッシュメモリなどの要素に影響される。マルチコアプロセッサでは複数の処理を並行して実行できる。",
+          "vi": "Hiệu năng CPU chịu ảnh hưởng bởi các yếu tố như xung nhịp, số lõi và bộ nhớ cache. CPU đa lõi có thể thực hiện nhiều xử lý song song."
+        },
+        {
+          "type": "point",
+          "ja": "CPUは命令の解釈・実行、演算、コンピュータ全体の制御を担う。",
+          "vi": "CPU đảm nhiệm giải mã/thực thi lệnh, tính toán và điều khiển hoạt động của máy tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CPU",
+          "reading": "しーぴーゆー",
+          "english": "Central Processing Unit",
+          "vi": "bộ xử lý trung tâm",
+          "definitionJa": "プログラムの命令を解釈・実行し、演算や制御を行うコンピュータの主要装置。",
+          "definitionVi": "Bộ phận chính của máy tính có nhiệm vụ giải mã và thực thi lệnh, tính toán và điều khiển."
+        }
+      ],
+      "tags": ["computer-components", "processor", "cpu"]
+    },
+    {
+      "id": "gpu",
+      "order": 14,
+      "titleJa": "GPU",
+      "titleVi": "Bộ xử lý đồ họa",
+      "importance": "high",
+      "summaryJa": "画像処理や大量の並列計算を得意とするGPUについて理解する。",
+      "summaryVi": "Tìm hiểu GPU, bộ xử lý chuyên về đồ họa và các phép tính song song với lượng dữ liệu lớn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "GPUとは",
+          "vi": "GPU là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "GPU（Graphics Processing Unit）は、画像や映像の処理を高速に行うことを目的としたプロセッサである。",
+          "vi": "GPU (Graphics Processing Unit) là bộ xử lý được thiết kế để thực hiện nhanh các công việc xử lý hình ảnh và video."
+        },
+        {
+          "type": "heading",
+          "ja": "CPUとの違い",
+          "vi": "Khác biệt với CPU"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUが汎用的な処理を得意とするのに対し、GPUは多数のデータに対して同じような計算を並列に行う処理を得意とする。",
+          "vi": "Trong khi CPU mạnh về xử lý đa dụng, GPU đặc biệt phù hợp với việc thực hiện song song cùng loại phép tính trên một lượng lớn dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "主な用途",
+          "vi": "Ứng dụng chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "3Dグラフィックス、動画処理だけでなく、機械学習やディープラーニングなど、大量の並列計算を必要とする処理にも利用される。",
+          "vi": "GPU không chỉ được sử dụng cho đồ họa 3D và xử lý video mà còn cho machine learning, deep learning và những tác vụ cần lượng lớn phép tính song song."
+        },
+        {
+          "type": "point",
+          "ja": "CPUは汎用処理、GPUは大量の並列処理を得意とする。",
+          "vi": "Điểm cần nhớ: CPU mạnh về xử lý đa dụng, còn GPU mạnh về xử lý song song quy mô lớn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "GPU",
+          "reading": "じーぴーゆー",
+          "english": "Graphics Processing Unit",
+          "vi": "bộ xử lý đồ họa",
+          "definitionJa": "画像処理や大量の並列計算を高速に実行するためのプロセッサ。",
+          "definitionVi": "Bộ xử lý dùng để thực hiện nhanh xử lý đồ họa và lượng lớn phép tính song song."
+        }
+      ],
+      "tags": ["computer-components", "processor", "gpu", "parallel-processing"]
+    },
+    {
+      "id": "risc",
+      "order": 15,
+      "titleJa": "RISC",
+      "titleVi": "Kiến trúc RISC",
+      "importance": "high",
+      "summaryJa": "命令セットを簡素化し、単純な命令を高速に実行することを重視したRISCについて理解する。",
+      "summaryVi": "Tìm hiểu RISC, kiến trúc chú trọng đơn giản hóa tập lệnh để thực thi nhanh các lệnh cơ bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RISCとは",
+          "vi": "RISC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "RISC（Reduced Instruction Set Computer）は、命令セットをできるだけ簡素化し、単純な命令を高速に実行することを重視したプロセッサアーキテクチャである。",
+          "vi": "RISC (Reduced Instruction Set Computer) là kiến trúc bộ xử lý đơn giản hóa tập lệnh và chú trọng thực thi nhanh các lệnh cơ bản."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令の種類を比較的少なくし、各命令の処理を単純にすることで、パイプライン処理などを効率よく行いやすい。",
+          "vi": "RISC sử dụng số loại lệnh tương đối ít và đơn giản hóa cách xử lý từng lệnh, nhờ đó thuận lợi cho các kỹ thuật như pipeline."
+        },
+        {
+          "type": "point",
+          "ja": "RISCは、単純な命令を高速に処理する設計思想を持つ。CISCとの違いを押さえる。",
+          "vi": "RISC nhấn mạnh các lệnh đơn giản và thực thi nhanh. Cần phân biệt với CISC."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RISC",
+          "reading": "りすく",
+          "english": "Reduced Instruction Set Computer",
+          "vi": "máy tính tập lệnh rút gọn",
+          "definitionJa": "命令セットを簡素化し、単純な命令を高速に実行することを重視したプロセッサアーキテクチャ。",
+          "definitionVi": "Kiến trúc bộ xử lý đơn giản hóa tập lệnh và ưu tiên thực thi nhanh các lệnh cơ bản."
+        }
+      ],
+      "tags": ["processor", "architecture", "risc"]
+    },
+    {
+      "id": "cisc",
+      "order": 16,
+      "titleJa": "CISC",
+      "titleVi": "Kiến trúc CISC",
+      "importance": "high",
+      "summaryJa": "複雑で多機能な命令を持ち、一つの命令で複数の処理を実行できるCISCについて理解する。",
+      "summaryVi": "Tìm hiểu CISC, kiến trúc có tập lệnh phức tạp và đa chức năng, cho phép một lệnh thực hiện nhiều xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CISCとは",
+          "vi": "CISC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CISC（Complex Instruction Set Computer）は、多数の複雑な命令を備え、一つの命令で複数の処理を実行できるプロセッサアーキテクチャである。",
+          "vi": "CISC (Complex Instruction Set Computer) là kiến trúc bộ xử lý có nhiều lệnh phức tạp, trong đó một lệnh có thể thực hiện nhiều xử lý."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "高度な命令を利用できるため、プログラムの命令数を減らしやすい一方、命令の処理やハードウェア構成は複雑になりやすい。",
+          "vi": "Do có thể sử dụng các lệnh phức tạp, CISC có thể giảm số lệnh trong chương trình, nhưng việc xử lý lệnh và cấu trúc phần cứng thường phức tạp hơn."
+        },
+        {
+          "type": "point",
+          "ja": "RISCは命令を単純化するのに対し、CISCは一つの命令に多くの機能を持たせる考え方である。",
+          "vi": "RISC đơn giản hóa lệnh, còn CISC đưa nhiều chức năng vào một lệnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CISC",
+          "reading": "しすく",
+          "english": "Complex Instruction Set Computer",
+          "vi": "máy tính tập lệnh phức tạp",
+          "definitionJa": "複雑で多機能な命令セットを持ち、一つの命令で複数の処理を実行できるプロセッサアーキテクチャ。",
+          "definitionVi": "Kiến trúc bộ xử lý có tập lệnh phức tạp và cho phép một lệnh thực hiện nhiều xử lý."
+        }
+      ],
+      "tags": ["processor", "architecture", "cisc"]
+    },
+    {
+      "id": "wired-logic-control",
+      "order": 17,
+      "titleJa": "ワイヤドロジック制御方式",
+      "titleVi": "Phương thức điều khiển logic nối cứng",
+      "importance": "high",
+      "summaryJa": "論理回路をハードウェアとして直接構成して制御信号を生成するワイヤドロジック制御方式について理解する。",
+      "summaryVi": "Tìm hiểu phương thức điều khiển logic nối cứng, trong đó tín hiệu điều khiển được tạo trực tiếp bằng các mạch logic phần cứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワイヤドロジック制御方式とは",
+          "vi": "Điều khiển logic nối cứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ワイヤドロジック制御方式は、命令の実行に必要な制御信号を、論理回路を直接組み合わせて生成する方式である。",
+          "vi": "Phương thức điều khiển logic nối cứng tạo trực tiếp các tín hiệu điều khiển cần thiết để thực thi lệnh bằng cách kết hợp các mạch logic."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "専用回路で制御するため高速に動作しやすい。一方で、命令体系を変更する場合には回路設計そのものを変更する必要があり、柔軟性は低い。",
+          "vi": "Do sử dụng mạch chuyên dụng nên tốc độ xử lý cao, nhưng khi thay đổi tập lệnh thường phải thay đổi cả thiết kế mạch nên tính linh hoạt thấp."
+        },
+        {
+          "type": "point",
+          "ja": "ワイヤドロジック制御方式は高速だが変更しにくく、マイクロプログラム制御方式は比較的柔軟である。",
+          "vi": "Điều khiển nối cứng nhanh nhưng khó thay đổi; điều khiển vi chương trình linh hoạt hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワイヤドロジック制御方式",
+          "reading": "わいやどろじっくせいぎょほうしき",
+          "english": "Wired Logic Control Method",
+          "vi": "phương thức điều khiển logic nối cứng",
+          "definitionJa": "論理回路を直接構成して、プロセッサの制御信号を生成する方式。",
+          "definitionVi": "Phương thức tạo tín hiệu điều khiển của bộ xử lý bằng các mạch logic được nối trực tiếp."
+        }
+      ],
+      "tags": ["processor", "control-unit", "wired-logic"]
+    },
+    {
+      "id": "microprogram-control",
+      "order": 18,
+      "titleJa": "マイクロプログラム制御方式",
+      "titleVi": "Phương thức điều khiển vi chương trình",
+      "importance": "high",
+      "summaryJa": "命令を複数のマイクロ命令に分解し、マイクロプログラムによってプロセッサを制御する方式について理解する。",
+      "summaryVi": "Tìm hiểu phương thức điều khiển vi chương trình, trong đó lệnh được chia thành các vi lệnh và bộ xử lý được điều khiển bởi microprogram.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイクロプログラム制御方式とは",
+          "vi": "Điều khiển vi chương trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マイクロプログラム制御方式は、機械語命令をより細かなマイクロ命令に分解し、それらを順番に実行してプロセッサを制御する方式である。",
+          "vi": "Phương thức điều khiển vi chương trình chia lệnh máy thành các vi lệnh nhỏ hơn và thực thi tuần tự chúng để điều khiển bộ xử lý."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マイクロプログラムを変更することで命令の追加や変更に対応しやすいため、ワイヤドロジック制御方式より柔軟性が高い。",
+          "vi": "Do có thể thay đổi microprogram để bổ sung hoặc sửa lệnh, phương thức này linh hoạt hơn điều khiển logic nối cứng."
+        },
+        {
+          "type": "point",
+          "ja": "マイクロプログラム制御方式は、複雑な命令をマイクロ命令の組合せとして実現する。",
+          "vi": "Điều khiển vi chương trình thực hiện các lệnh phức tạp bằng tổ hợp các vi lệnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイクロプログラム制御方式",
+          "reading": "まいくろぷろぐらむせいぎょほうしき",
+          "english": "Microprogram Control Method",
+          "vi": "phương thức điều khiển vi chương trình",
+          "definitionJa": "命令を複数のマイクロ命令に分解し、マイクロプログラムによって制御する方式。",
+          "definitionVi": "Phương thức chia lệnh thành nhiều vi lệnh và điều khiển bộ xử lý bằng microprogram."
+        }
+      ],
+      "tags": ["processor", "control-unit", "microprogram"]
+    },
+    {
+      "id": "register",
+      "order": 19,
+      "titleJa": "レジスタ",
+      "titleVi": "Thanh ghi",
+      "importance": "high",
+      "summaryJa": "CPU内部でデータや命令を一時的に保持する高速な記憶装置であるレジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi, bộ nhớ tốc độ cao bên trong CPU dùng để lưu tạm dữ liệu và lệnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レジスタとは",
+          "vi": "Thanh ghi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "レジスタ（Register）は、CPU内部にある非常に高速な記憶領域であり、演算に使用するデータや命令、アドレスなどを一時的に保持する。",
+          "vi": "Thanh ghi là vùng nhớ tốc độ rất cao bên trong CPU, dùng để tạm giữ dữ liệu, lệnh hoặc địa chỉ cần cho quá trình xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "レジスタは容量は小さいが非常に高速であり、CPUが頻繁に利用する情報を保持する。",
+          "vi": "Thanh ghi có dung lượng nhỏ nhưng rất nhanh và giữ các thông tin CPU thường xuyên sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レジスタ",
+          "reading": "れじすた",
+          "english": "Register",
+          "vi": "thanh ghi",
+          "definitionJa": "CPU内部でデータや命令などを一時的に保持する高速な記憶領域。",
+          "definitionVi": "Vùng nhớ tốc độ cao bên trong CPU dùng để tạm lưu dữ liệu, lệnh và các thông tin xử lý."
+        }
+      ],
+      "tags": ["processor", "register", "cpu"]
+    },
+    {
+      "id": "accumulator",
+      "order": 20,
+      "titleJa": "アキュムレータ",
+      "titleVi": "Thanh ghi tích lũy",
+      "importance": "high",
+      "summaryJa": "演算の途中結果などを一時的に保持するアキュムレータについて理解する。",
+      "summaryVi": "Tìm hiểu accumulator, thanh ghi dùng để tạm giữ kết quả trung gian của phép tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アキュムレータとは",
+          "vi": "Accumulator là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アキュムレータ（Accumulator）は、算術演算や論理演算の途中結果などを一時的に保持するためのレジスタである。",
+          "vi": "Accumulator là thanh ghi dùng để tạm lưu kết quả trung gian của các phép toán số học hoặc logic."
+        },
+        {
+          "type": "point",
+          "ja": "演算結果を一時保存し、次の演算に利用するためのレジスタである。",
+          "vi": "Đây là thanh ghi tạm giữ kết quả phép tính để tiếp tục sử dụng ở bước xử lý sau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アキュムレータ",
+          "reading": "あきゅむれーた",
+          "english": "Accumulator",
+          "vi": "thanh ghi tích lũy",
+          "definitionJa": "演算の途中結果などを一時的に保持するためのレジスタ。",
+          "definitionVi": "Thanh ghi dùng để tạm lưu kết quả trung gian của phép tính."
+        }
+      ],
+      "tags": ["processor", "register", "accumulator"]
+    },
+    {
+      "id": "complementary-arithmetic",
+      "order": 21,
+      "titleJa": "補数器",
+      "titleVi": "Mạch tạo số bù",
+      "importance": "high",
+      "summaryJa": "補数を利用して減算などの演算を効率よく実現する補数器について理解する。",
+      "summaryVi": "Tìm hiểu mạch tạo số bù, được sử dụng để thực hiện hiệu quả các phép toán như phép trừ bằng số bù.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "補数器とは",
+          "vi": "Mạch tạo số bù là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "補数器は、数値の補数を生成し、減算を加算として処理するなど、演算を効率化するために利用される回路である。",
+          "vi": "Mạch tạo số bù tạo ra số bù của một giá trị và được sử dụng để tối ưu phép tính, chẳng hạn chuyển phép trừ thành phép cộng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "2進数では2の補数が負数の表現や加減算に広く利用される。",
+          "vi": "Trong hệ nhị phân, bù 2 được sử dụng phổ biến để biểu diễn số âm và thực hiện phép cộng/trừ."
+        },
+        {
+          "type": "point",
+          "ja": "2の補数を利用すると、減算を加算回路で処理しやすくなる。",
+          "vi": "Sử dụng bù 2 giúp thực hiện phép trừ bằng mạch cộng thuận tiện hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "補数器",
+          "reading": "ほすうき",
+          "english": "Complementary Arithmetic",
+          "vi": "mạch tạo số bù",
+          "definitionJa": "補数を生成し、負数の表現や加減算を効率よく行うために利用される回路。",
+          "definitionVi": "Mạch tạo số bù để biểu diễn số âm và thực hiện phép cộng, trừ hiệu quả."
+        }
+      ],
+      "tags": ["processor", "arithmetic", "complement"]
+    },
+    {
+      "id": "instruction-address-register",
+      "order": 22,
+      "titleJa": "命令アドレスレジスタ",
+      "titleVi": "Thanh ghi địa chỉ lệnh",
+      "importance": "high",
+      "summaryJa": "次に実行する命令のアドレスを保持する命令アドレスレジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi địa chỉ lệnh, nơi lưu địa chỉ của lệnh sẽ được thực thi tiếp theo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命令アドレスレジスタとは",
+          "vi": "Thanh ghi địa chỉ lệnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令アドレスレジスタ（Instruction Address Register）は、CPUが次に実行する命令が格納されているメモリアドレスを保持するレジスタである。",
+          "vi": "Instruction Address Register là thanh ghi lưu địa chỉ bộ nhớ của lệnh mà CPU sẽ thực thi tiếp theo."
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令を読み出すたびに値が更新され、プログラムを順番に実行するために利用される。命令カウンタやプログラムカウンタと呼ばれる場合もある。",
+          "vi": "Giá trị của nó được cập nhật khi đọc lệnh và được dùng để thực thi chương trình theo thứ tự. Nó cũng có thể được gọi là instruction counter hoặc program counter."
+        },
+        {
+          "type": "point",
+          "ja": "命令アドレスレジスタは「次に実行する命令の場所」を保持する。",
+          "vi": "Thanh ghi địa chỉ lệnh lưu \"vị trí của lệnh tiếp theo\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命令アドレスレジスタ",
+          "reading": "めいれいあどれすれじすた",
+          "english": "Instruction Address Register",
+          "vi": "thanh ghi địa chỉ lệnh",
+          "definitionJa": "次に実行する命令のメモリアドレスを保持するレジスタ。",
+          "definitionVi": "Thanh ghi lưu địa chỉ bộ nhớ của lệnh sẽ được thực thi tiếp theo."
+        }
+      ],
+      "tags": ["processor", "register", "instruction-address"]
+    },
+    {
+      "id": "instruction-register",
+      "order": 23,
+      "titleJa": "命令レジスタ",
+      "titleVi": "Thanh ghi lệnh",
+      "importance": "high",
+      "summaryJa": "現在実行する命令を一時的に保持する命令レジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi lệnh, nơi tạm giữ lệnh đang được CPU xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命令レジスタとは",
+          "vi": "Thanh ghi lệnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令レジスタ（Instruction Register）は、メモリから読み出された現在実行対象の命令を一時的に保持するレジスタである。",
+          "vi": "Instruction Register là thanh ghi tạm giữ lệnh hiện đang được xử lý sau khi lệnh được đọc từ bộ nhớ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令レジスタに格納された命令はデコーダによって解読され、その内容に応じた処理が実行される。",
+          "vi": "Lệnh được lưu trong thanh ghi lệnh sẽ được decoder giải mã, sau đó CPU thực hiện xử lý tương ứng."
+        },
+        {
+          "type": "point",
+          "ja": "命令アドレスレジスタは命令の「場所」、命令レジスタは命令そのものを保持する。",
+          "vi": "Thanh ghi địa chỉ lệnh giữ \"địa chỉ\", còn thanh ghi lệnh giữ chính lệnh đó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命令レジスタ",
+          "reading": "めいれいれじすた",
+          "english": "Instruction Register",
+          "vi": "thanh ghi lệnh",
+          "definitionJa": "現在実行する命令を一時的に保持するCPU内部のレジスタ。",
+          "definitionVi": "Thanh ghi trong CPU tạm giữ lệnh hiện đang được thực thi."
+        }
+      ],
+      "tags": ["processor", "register", "instruction-register"]
+    },
+    {
+      "id": "decoder",
+      "order": 24,
+      "titleJa": "デコーダ",
+      "titleVi": "Bộ giải mã",
+      "importance": "high",
+      "summaryJa": "命令の内容を解読し、必要な処理を行うための制御信号を生成するデコーダについて理解する。",
+      "summaryVi": "Tìm hiểu decoder, bộ phận giải mã lệnh và tạo tín hiệu điều khiển cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デコーダとは",
+          "vi": "Decoder là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デコーダ（Decoder）は、入力された符号や命令を解読し、その内容に対応する信号を生成する回路である。",
+          "vi": "Decoder là mạch giải mã mã hoặc lệnh đầu vào rồi tạo ra tín hiệu tương ứng với nội dung đã giải mã."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUでは、命令レジスタに格納された命令を解読し、演算装置やレジスタなどに必要な制御信号を与える。",
+          "vi": "Trong CPU, decoder giải mã lệnh nằm trong thanh ghi lệnh và gửi tín hiệu điều khiển cần thiết tới ALU, thanh ghi và các bộ phận khác."
+        },
+        {
+          "type": "point",
+          "ja": "デコーダは、命令を解読して実行に必要な制御信号へ変換する。",
+          "vi": "Decoder giải mã lệnh và chuyển nó thành các tín hiệu điều khiển cần thiết để thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デコーダ",
+          "reading": "でこーだ",
+          "english": "Decoder",
+          "vi": "bộ giải mã",
+          "definitionJa": "入力された命令や符号を解読し、対応する制御信号を生成する回路。",
+          "definitionVi": "Mạch giải mã lệnh hoặc mã đầu vào và tạo tín hiệu điều khiển tương ứng."
+        }
+      ],
+      "tags": ["processor", "decoder", "control-unit"]
+    },
+    {
+      "id": "general-purpose-register",
+      "order": 25,
+      "titleJa": "汎用レジスタ",
+      "titleVi": "Thanh ghi đa dụng",
+      "importance": "high",
+      "summaryJa": "特定の役割に限定されず、演算やデータ処理など多目的に利用される汎用レジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi đa dụng, được sử dụng cho nhiều mục đích như tính toán và xử lý dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "汎用レジスタとは",
+          "vi": "Thanh ghi đa dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "汎用レジスタ（General-Purpose Register）は、特定の役割に限定されず、演算対象の値や一時的なデータなどを保持するために幅広く利用されるレジスタである。",
+          "vi": "Thanh ghi đa dụng là thanh ghi không bị giới hạn vào một chức năng duy nhất và có thể giữ toán hạng hoặc dữ liệu tạm thời cho nhiều loại xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "汎用レジスタは、算術演算、論理演算、データ移動など様々な処理で利用される。",
+          "vi": "Thanh ghi đa dụng được dùng trong phép toán số học, logic, di chuyển dữ liệu và nhiều xử lý khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "汎用レジスタ",
+          "reading": "はんようれじすた",
+          "english": "General-Purpose Register",
+          "vi": "thanh ghi đa dụng",
+          "definitionJa": "演算やデータ処理など、様々な目的で一時的な値を保持するためのレジスタ。",
+          "definitionVi": "Thanh ghi dùng để tạm giữ dữ liệu cho nhiều mục đích như tính toán và xử lý dữ liệu."
+        }
+      ],
+      "tags": ["processor", "register", "general-purpose-register"]
+    },
+    {
+      "id": "index-register",
+      "order": 26,
+      "titleJa": "インデックスレジスタ",
+      "titleVi": "Thanh ghi chỉ số",
+      "importance": "high",
+      "summaryJa": "基準となるアドレスに加算して実効アドレスを求めるために利用されるインデックスレジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi chỉ số, được cộng với địa chỉ cơ sở để xác định địa chỉ hiệu dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インデックスレジスタとは",
+          "vi": "Thanh ghi chỉ số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インデックスレジスタ（Index Register）は、メモリアドレスを計算する際に、基準となるアドレスへ加える値を保持するレジスタである。",
+          "vi": "Thanh ghi chỉ số giữ một giá trị được cộng vào địa chỉ cơ sở khi tính địa chỉ bộ nhớ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "配列などの連続したデータへ順番にアクセスする処理で利用すると、効率よく実効アドレスを求めることができる。",
+          "vi": "Nó đặc biệt hữu ích khi truy cập tuần tự các dữ liệu liên tiếp như phần tử của mảng."
+        },
+        {
+          "type": "point",
+          "ja": "インデックスレジスタは、配列要素などの位置を指定するためのオフセットとして利用される。",
+          "vi": "Thanh ghi chỉ số thường đóng vai trò offset để xác định vị trí phần tử như trong mảng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インデックスレジスタ",
+          "reading": "いんでっくすれじすた",
+          "english": "Index Register",
+          "vi": "thanh ghi chỉ số",
+          "definitionJa": "実効アドレスを求めるために、基準アドレスへ加える値を保持するレジスタ。",
+          "definitionVi": "Thanh ghi giữ giá trị được cộng vào địa chỉ cơ sở để tính địa chỉ hiệu dụng."
+        }
+      ],
+      "tags": ["processor", "register", "index-register"]
+    },
+    {
+      "id": "base-register",
+      "order": 27,
+      "titleJa": "ベースレジスタ",
+      "titleVi": "Thanh ghi cơ sở",
+      "importance": "high",
+      "summaryJa": "メモリ領域の基準となる開始アドレスを保持するベースレジスタについて理解する。",
+      "summaryVi": "Tìm hiểu thanh ghi cơ sở, nơi lưu địa chỉ bắt đầu dùng làm cơ sở của một vùng nhớ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベースレジスタとは",
+          "vi": "Thanh ghi cơ sở là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ベースレジスタ（Base Register）は、あるメモリ領域の基準となる開始アドレスを保持するレジスタである。",
+          "vi": "Thanh ghi cơ sở lưu địa chỉ bắt đầu dùng làm mốc cho một vùng bộ nhớ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令で指定された変位量などをベースレジスタの値に加えることで、実際にアクセスするメモリアドレスを求めることができる。",
+          "vi": "Bằng cách cộng displacement được chỉ định trong lệnh vào giá trị của base register, có thể xác định địa chỉ bộ nhớ thực tế cần truy cập."
+        },
+        {
+          "type": "point",
+          "ja": "ベースレジスタは「基準アドレス」を保持する。",
+          "vi": "Base register giữ \"địa chỉ cơ sở\"."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベースレジスタ",
+          "reading": "べーすれじすた",
+          "english": "Base Register",
+          "vi": "thanh ghi cơ sở",
+          "definitionJa": "メモリアドレス計算の基準となる開始アドレスを保持するレジスタ。",
+          "definitionVi": "Thanh ghi lưu địa chỉ bắt đầu dùng làm cơ sở khi tính địa chỉ bộ nhớ."
+        }
+      ],
+      "tags": ["processor", "register", "base-register"]
+    },
+    {
+      "id": "stack-pointer",
+      "order": 28,
+      "titleJa": "スタックポインタ",
+      "titleVi": "Con trỏ ngăn xếp",
+      "importance": "high",
+      "summaryJa": "スタックの現在の先頭位置を示すスタックポインタについて理解する。",
+      "summaryVi": "Tìm hiểu stack pointer, thanh ghi chỉ vị trí đỉnh hiện tại của stack.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スタックポインタとは",
+          "vi": "Stack pointer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スタックポインタ（Stack Pointer）は、メモリ上に確保されたスタック領域の現在の先頭位置を示すためのレジスタである。",
+          "vi": "Stack pointer là thanh ghi chỉ vị trí đỉnh hiện tại của vùng stack trong bộ nhớ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "関数呼出し時の戻りアドレスや局所変数などをスタックへ保存すると、スタックポインタの値が更新される。",
+          "vi": "Khi địa chỉ trả về hoặc biến cục bộ được lưu vào stack lúc gọi hàm, giá trị stack pointer sẽ được cập nhật."
+        },
+        {
+          "type": "point",
+          "ja": "スタックポインタは、スタックの最上部を指し示す。",
+          "vi": "Stack pointer chỉ đỉnh của stack."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スタックポインタ",
+          "reading": "すたっくぽいんた",
+          "english": "Stack Pointer",
+          "vi": "con trỏ ngăn xếp",
+          "definitionJa": "メモリ上のスタック領域の現在の先頭位置を示すレジスタ。",
+          "definitionVi": "Thanh ghi chỉ vị trí đỉnh hiện tại của vùng stack trong bộ nhớ."
+        }
+      ],
+      "tags": ["processor", "register", "stack-pointer"]
+    },
+    {
+      "id": "sequential-circuit",
+      "order": 29,
+      "titleJa": "順序回路",
+      "titleVi": "Mạch tuần tự",
+      "importance": "high",
+      "summaryJa": "現在の入力だけでなく過去の状態にも基づいて出力が決まる順序回路について理解する。",
+      "summaryVi": "Tìm hiểu mạch tuần tự, trong đó đầu ra phụ thuộc không chỉ vào đầu vào hiện tại mà còn vào trạng thái trước đó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "順序回路とは",
+          "vi": "Mạch tuần tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "順序回路（Sequential Circuit）は、現在の入力だけでなく、それまでの状態にも基づいて出力が決定される論理回路である。",
+          "vi": "Mạch tuần tự là mạch logic có đầu ra được quyết định bởi cả đầu vào hiện tại và trạng thái trước đó."
+        },
+        {
+          "type": "paragraph",
+          "ja": "フリップフロップなどの記憶機能を持つ回路を利用し、CPU、レジスタ、カウンタなどで広く使われる。",
+          "vi": "Mạch tuần tự sử dụng các phần tử nhớ như flip-flop và được dùng rộng rãi trong CPU, thanh ghi và bộ đếm."
+        },
+        {
+          "type": "point",
+          "ja": "順序回路は過去の状態を保持する。組合せ回路は現在の入力だけで出力が決まる。",
+          "vi": "Mạch tuần tự có nhớ trạng thái trước; mạch tổ hợp chỉ phụ thuộc đầu vào hiện tại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "順序回路",
+          "reading": "じゅんじょかいろ",
+          "english": "Sequential Circuit",
+          "vi": "mạch tuần tự",
+          "definitionJa": "現在の入力と過去の状態に基づいて出力が決まる論理回路。",
+          "definitionVi": "Mạch logic có đầu ra phụ thuộc vào đầu vào hiện tại và trạng thái trước đó."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "sequential-circuit"]
+    },
+    {
+      "id": "combinational-circuit",
+      "order": 30,
+      "titleJa": "組合せ回路",
+      "titleVi": "Mạch tổ hợp",
+      "importance": "high",
+      "summaryJa": "現在の入力の組合せだけによって出力が決まる組合せ回路について理解する。",
+      "summaryVi": "Tìm hiểu mạch tổ hợp, trong đó đầu ra chỉ được quyết định bởi tổ hợp đầu vào hiện tại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "組合せ回路とは",
+          "vi": "Mạch tổ hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組合せ回路（Combination Circuit）は、現在与えられている入力信号の組合せだけによって出力が決定される論理回路である。",
+          "vi": "Mạch tổ hợp là mạch logic có đầu ra chỉ phụ thuộc vào tổ hợp các tín hiệu đầu vào hiện tại."
+        },
+        {
+          "type": "paragraph",
+          "ja": "AND、OR、NOTなどの論理ゲートを組み合わせて構成され、加算器やデコーダなどにも利用される。",
+          "vi": "Mạch được tạo từ các cổng logic như AND, OR, NOT và được dùng trong bộ cộng, decoder cùng nhiều mạch khác."
+        },
+        {
+          "type": "point",
+          "ja": "組合せ回路には状態を記憶する機能がなく、同じ入力には常に同じ出力を返す。",
+          "vi": "Mạch tổ hợp không lưu trạng thái; cùng một đầu vào luôn tạo cùng một đầu ra."
+        }
+      ],
+      "terms": [
+        {
+          "term": "組合せ回路",
+          "reading": "くみあわせかいろ",
+          "english": "Combination Circuit",
+          "vi": "mạch tổ hợp",
+          "definitionJa": "現在の入力信号の組合せだけで出力が決定される論理回路。",
+          "definitionVi": "Mạch logic có đầu ra chỉ được quyết định bởi tổ hợp đầu vào hiện tại."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "combinational-circuit"]
+    },
+    {
+      "id": "or-circuit",
+      "order": 31,
+      "titleJa": "OR回路",
+      "titleVi": "Mạch OR",
+      "importance": "high",
+      "summaryJa": "いずれかの入力が1であれば出力が1になるOR回路について理解する。",
+      "summaryVi": "Tìm hiểu mạch OR, cho đầu ra 1 khi ít nhất một đầu vào bằng 1.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OR回路とは",
+          "vi": "Mạch OR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "OR回路は、複数の入力のうち少なくとも一つが1の場合に出力が1となる論理回路である。",
+          "vi": "Mạch OR là mạch logic cho đầu ra bằng 1 khi ít nhất một trong các đầu vào bằng 1."
+        },
+        {
+          "type": "example",
+          "ja": "A=0、B=1の場合、A OR Bの出力は1になる。",
+          "vi": "Nếu A=0 và B=1 thì đầu ra A OR B bằng 1."
+        },
+        {
+          "type": "point",
+          "ja": "ORは「どれか一つでも1なら1」と覚える。",
+          "vi": "OR: chỉ cần ít nhất một đầu vào là 1 thì đầu ra là 1."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OR回路",
+          "reading": "おあかいろ",
+          "english": "OR Circuit",
+          "vi": "mạch OR",
+          "definitionJa": "入力のうち一つ以上が1であれば、出力が1となる論理回路。",
+          "definitionVi": "Mạch logic cho đầu ra 1 nếu ít nhất một đầu vào bằng 1."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "or"]
+    },
+    {
+      "id": "and-circuit",
+      "order": 32,
+      "titleJa": "AND回路",
+      "titleVi": "Mạch AND",
+      "importance": "high",
+      "summaryJa": "すべての入力が1の場合にのみ出力が1になるAND回路について理解する。",
+      "summaryVi": "Tìm hiểu mạch AND, chỉ cho đầu ra 1 khi tất cả đầu vào đều bằng 1.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AND回路とは",
+          "vi": "Mạch AND là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AND回路は、すべての入力が1の場合にのみ出力が1となる論理回路である。",
+          "vi": "Mạch AND là mạch logic chỉ cho đầu ra bằng 1 khi tất cả đầu vào đều bằng 1."
+        },
+        {
+          "type": "example",
+          "ja": "A=1、B=1の場合だけ、A AND Bの出力は1になる。",
+          "vi": "Chỉ khi A=1 và B=1 thì đầu ra A AND B mới bằng 1."
+        },
+        {
+          "type": "point",
+          "ja": "ANDは「全部が1なら1」と覚える。",
+          "vi": "AND: tất cả đầu vào phải là 1 thì đầu ra mới là 1."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AND回路",
+          "reading": "あんどかいろ",
+          "english": "AND Circuit",
+          "vi": "mạch AND",
+          "definitionJa": "すべての入力が1の場合にのみ出力が1となる論理回路。",
+          "definitionVi": "Mạch logic chỉ cho đầu ra 1 khi tất cả đầu vào đều bằng 1."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "and"]
+    },
+    {
+      "id": "not-circuit",
+      "order": 33,
+      "titleJa": "NOT回路",
+      "titleVi": "Mạch NOT",
+      "importance": "high",
+      "summaryJa": "入力信号を反転して出力するNOT回路について理解する。",
+      "summaryVi": "Tìm hiểu mạch NOT, mạch đảo giá trị của tín hiệu đầu vào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "NOT回路とは",
+          "vi": "Mạch NOT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "NOT回路は、一つの入力を反転して出力する論理回路である。入力が1なら出力は0、入力が0なら出力は1となる。",
+          "vi": "Mạch NOT là mạch logic đảo một đầu vào. Nếu đầu vào là 1 thì đầu ra là 0; nếu đầu vào là 0 thì đầu ra là 1."
+        },
+        {
+          "type": "point",
+          "ja": "NOT回路は入力を反転するため、インバータとも呼ばれる。",
+          "vi": "Mạch NOT đảo tín hiệu đầu vào nên còn được gọi là inverter."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NOT回路",
+          "reading": "のっとかいろ",
+          "english": "NOT Gate",
+          "vi": "mạch NOT",
+          "definitionJa": "入力信号の0と1を反転して出力する論理回路。",
+          "definitionVi": "Mạch logic đảo giá trị 0 và 1 của tín hiệu đầu vào."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "not"]
+    },
+    {
+      "id": "nand-circuit",
+      "order": 34,
+      "titleJa": "NAND回路",
+      "titleVi": "Mạch NAND",
+      "importance": "high",
+      "summaryJa": "AND回路の出力を反転したNAND回路と、その万能性について理解する。",
+      "summaryVi": "Tìm hiểu mạch NAND, mạch đảo đầu ra của AND và có khả năng tạo nên các mạch logic khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "NAND回路とは",
+          "vi": "Mạch NAND là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "NAND回路は、AND回路の出力をNOT回路で反転した論理回路である。すべての入力が1の場合だけ出力が0となり、それ以外では出力が1となる。",
+          "vi": "Mạch NAND là mạch logic đảo đầu ra của mạch AND. Chỉ khi tất cả đầu vào bằng 1 thì đầu ra bằng 0; các trường hợp khác đầu ra bằng 1."
+        },
+        {
+          "type": "heading",
+          "ja": "万能ゲート",
+          "vi": "Cổng logic phổ dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "NAND回路だけを組み合わせてもNOT、AND、ORなどの論理回路を構成できるため、基本的な万能ゲートとして利用される。",
+          "vi": "Chỉ bằng cách kết hợp các cổng NAND cũng có thể tạo ra NOT, AND, OR và các mạch logic khác, nên NAND được xem là một cổng logic phổ dụng."
+        },
+        {
+          "type": "point",
+          "ja": "NANDはANDの否定であり、すべての入力が1のときだけ出力が0になる。",
+          "vi": "NAND là phủ định của AND: chỉ khi tất cả đầu vào bằng 1 thì đầu ra mới bằng 0."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NAND回路",
+          "reading": "なんどかいろ",
+          "english": "NAND Circuit",
+          "vi": "mạch NAND",
+          "definitionJa": "AND回路の出力を反転した論理回路で、すべての入力が1のときだけ出力が0となる。",
+          "definitionVi": "Mạch logic đảo đầu ra của AND; chỉ cho đầu ra 0 khi tất cả đầu vào đều bằng 1."
+        }
+      ],
+      "tags": ["processor", "logic-circuit", "nand"]
+    },
+    {
+      "id": "instruction-execution-sequence",
+      "order": 35,
+      "titleJa": "命令の実行手順",
+      "titleVi": "Trình tự thực thi lệnh",
+      "importance": "high",
+      "summaryJa": "CPUが命令を取り出し、解読し、必要なデータを取得して実行する一連の手順について理解する。",
+      "summaryVi": "Tìm hiểu chu trình CPU lấy lệnh, giải mã, lấy dữ liệu cần thiết và thực thi lệnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命令の実行手順とは",
+          "vi": "Trình tự thực thi lệnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令の実行手順（Instruction Execution Sequence）は、CPUがプログラム中の命令を順番に処理するための一連の手順である。",
+          "vi": "Instruction Execution Sequence là chuỗi các bước CPU thực hiện để xử lý tuần tự các lệnh trong chương trình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "基本的には、命令の取出し、命令の解読、必要なデータの取出し、命令の実行という流れで処理される。",
+          "vi": "Về cơ bản, quá trình gồm lấy lệnh, giải mã lệnh, lấy dữ liệu cần thiết và thực thi lệnh."
+        },
+        {
+          "type": "point",
+          "ja": "基本的な流れは「命令取出し → 命令解読 → データ取出し → 実行」である。",
+          "vi": "Luồng cơ bản: lấy lệnh → giải mã → lấy dữ liệu → thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命令の実行手順",
+          "reading": "めいれいのじっこうてじゅん",
+          "english": "Instruction Execution Sequence",
+          "vi": "trình tự thực thi lệnh",
+          "definitionJa": "CPUが命令を取り出して解読し、必要なデータを取得して実行する一連の処理。",
+          "definitionVi": "Chuỗi xử lý trong đó CPU lấy lệnh, giải mã, lấy dữ liệu cần thiết và thực thi."
+        }
+      ],
+      "tags": ["processor", "instruction", "execution-cycle"]
+    },
+    {
+      "id": "address-modification",
+      "order": 36,
+      "titleJa": "アドレス修飾",
+      "titleVi": "Điều chỉnh địa chỉ",
+      "importance": "high",
+      "summaryJa": "基準アドレスなどに別の値を加えて実効アドレスを求めるアドレス修飾について理解する。",
+      "summaryVi": "Tìm hiểu kỹ thuật điều chỉnh địa chỉ bằng cách kết hợp địa chỉ cơ sở với các giá trị khác để xác định địa chỉ hiệu dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アドレス修飾とは",
+          "vi": "Điều chỉnh địa chỉ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アドレス修飾（Address Modification）は、命令で指定されたアドレスに、インデックスレジスタやベースレジスタなどの値を加えて実際にアクセスするアドレスを求める方法である。",
+          "vi": "Address Modification là phương pháp tính địa chỉ truy cập thực tế bằng cách kết hợp địa chỉ trong lệnh với giá trị của thanh ghi chỉ số, thanh ghi cơ sở hoặc các giá trị khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "配列などのデータへ効率よくアクセスしたり、プログラムを異なるメモリ位置へ配置したりする場合に役立つ。",
+          "vi": "Nó hữu ích khi truy cập hiệu quả các cấu trúc như mảng hoặc khi chương trình được đặt ở các vị trí bộ nhớ khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "アドレス修飾では、基準となるアドレスに別の値を加えて実効アドレスを求める。",
+          "vi": "Điều chỉnh địa chỉ tính địa chỉ hiệu dụng từ địa chỉ cơ sở cộng thêm một giá trị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アドレス修飾",
+          "reading": "あどれすしゅうしょく",
+          "english": "Address Modification",
+          "vi": "điều chỉnh địa chỉ",
+          "definitionJa": "命令のアドレスにレジスタなどの値を加え、実効アドレスを求める仕組み。",
+          "definitionVi": "Cơ chế kết hợp địa chỉ trong lệnh với giá trị thanh ghi để tính địa chỉ hiệu dụng."
+        }
+      ],
+      "tags": ["processor", "addressing", "address-modification"]
+    },
+    {
+      "id": "arithmetic-operation-instruction",
+      "order": 37,
+      "titleJa": "算術演算命令",
+      "titleVi": "Lệnh phép toán số học",
+      "importance": "high",
+      "summaryJa": "加算、減算、乗算、除算などの数値計算を行う算術演算命令について理解する。",
+      "summaryVi": "Tìm hiểu các lệnh số học dùng để thực hiện cộng, trừ, nhân, chia.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "算術演算命令とは",
+          "vi": "Lệnh số học là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "算術演算命令（Arithmetic Operation Instruction）は、数値に対して加算、減算、乗算、除算などの算術計算を行うための命令である。",
+          "vi": "Arithmetic Operation Instruction là lệnh dùng để thực hiện các phép tính số học như cộng, trừ, nhân và chia."
+        },
+        {
+          "type": "point",
+          "ja": "算術演算命令は数値計算を行うための基本命令である。",
+          "vi": "Lệnh số học là nhóm lệnh cơ bản để xử lý tính toán số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "算術演算命令",
+          "reading": "さんじゅつえんざんめいれい",
+          "english": "Arithmetic Operation Instruction",
+          "vi": "lệnh phép toán số học",
+          "definitionJa": "加算、減算、乗算、除算などの数値演算を行う命令。",
+          "definitionVi": "Lệnh thực hiện các phép toán số như cộng, trừ, nhân và chia."
+        }
+      ],
+      "tags": ["processor", "instruction", "arithmetic"]
+    },
+    {
+      "id": "logical-operation-instruction",
+      "order": 38,
+      "titleJa": "論理演算命令",
+      "titleVi": "Lệnh phép toán logic",
+      "importance": "high",
+      "summaryJa": "AND、OR、NOTなどの論理演算を実行する論理演算命令について理解する。",
+      "summaryVi": "Tìm hiểu các lệnh logic dùng để thực hiện AND, OR, NOT và các phép toán logic khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "論理演算命令とは",
+          "vi": "Lệnh logic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理演算命令（Logical Operation Instruction）は、AND、OR、NOTなどの論理演算を実行するための命令である。",
+          "vi": "Logical Operation Instruction là các lệnh dùng để thực hiện các phép toán logic như AND, OR và NOT."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビット単位の処理や条件判定など、プログラムやプロセッサ内部のさまざまな処理に利用される。",
+          "vi": "Chúng được sử dụng trong xử lý theo bit, kiểm tra điều kiện và nhiều xử lý khác bên trong chương trình và bộ xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "論理演算命令は真偽値やビットパターンを扱う。",
+          "vi": "Lệnh logic xử lý giá trị Boolean hoặc mẫu bit."
+        }
+      ],
+      "terms": [
+        {
+          "term": "論理演算命令",
+          "reading": "ろんりえんざんめいれい",
+          "english": "Logical Operation Instruction",
+          "vi": "lệnh phép toán logic",
+          "definitionJa": "AND、OR、NOTなどの論理演算を行う命令。",
+          "definitionVi": "Lệnh thực hiện các phép toán logic như AND, OR và NOT."
+        }
+      ],
+      "tags": ["processor", "instruction", "logical-operation"]
+    },
+    {
+      "id": "transfer-instruction",
+      "order": 39,
+      "titleJa": "転送命令",
+      "titleVi": "Lệnh truyền dữ liệu",
+      "importance": "high",
+      "summaryJa": "レジスタやメモリなどの間でデータを移動する転送命令について理解する。",
+      "summaryVi": "Tìm hiểu lệnh truyền dữ liệu dùng để di chuyển dữ liệu giữa thanh ghi, bộ nhớ và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "転送命令とは",
+          "vi": "Lệnh truyền dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "転送命令（Transfer Instruction）は、データをメモリ、レジスタ、入出力装置などの間で移動するための命令である。",
+          "vi": "Transfer Instruction là lệnh di chuyển dữ liệu giữa bộ nhớ, thanh ghi và thiết bị vào/ra."
+        },
+        {
+          "type": "point",
+          "ja": "転送命令はデータそのものを計算するのではなく、保存場所を移動する。",
+          "vi": "Lệnh truyền không tính toán dữ liệu mà chuyển dữ liệu từ vị trí này sang vị trí khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "転送命令",
+          "reading": "てんそうめいれい",
+          "english": "Transfer Instruction",
+          "vi": "lệnh truyền dữ liệu",
+          "definitionJa": "レジスタやメモリなどの間でデータを移動する命令。",
+          "definitionVi": "Lệnh dùng để di chuyển dữ liệu giữa thanh ghi, bộ nhớ và các vị trí khác."
+        }
+      ],
+      "tags": ["processor", "instruction", "data-transfer"]
+    },
+    {
+      "id": "comparison-instruction",
+      "order": 40,
+      "titleJa": "比較命令",
+      "titleVi": "Lệnh so sánh",
+      "importance": "high",
+      "summaryJa": "二つの値を比較し、その結果を条件分岐などに利用する比較命令について理解する。",
+      "summaryVi": "Tìm hiểu lệnh so sánh dùng để so sánh hai giá trị và sử dụng kết quả cho các xử lý như rẽ nhánh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "比較命令とは",
+          "vi": "Lệnh so sánh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較命令（Comparison Instruction）は、二つの値の大小や一致・不一致などを比較するための命令である。",
+          "vi": "Comparison Instruction là lệnh dùng để so sánh hai giá trị về lớn nhỏ, bằng nhau hoặc khác nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "比較結果は条件分岐の判断などに利用され、プログラムの処理の流れを制御する。",
+          "vi": "Kết quả so sánh thường được dùng để quyết định rẽ nhánh và điều khiển luồng chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "比較命令の結果は、分岐命令と組み合わせて利用されることが多い。",
+          "vi": "Kết quả của lệnh so sánh thường được sử dụng cùng lệnh rẽ nhánh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "比較命令",
+          "reading": "ひかくめいれい",
+          "english": "Comparison Instruction",
+          "vi": "lệnh so sánh",
+          "definitionJa": "二つの値を比較して、その結果を後続の処理に利用する命令。",
+          "definitionVi": "Lệnh so sánh hai giá trị và sử dụng kết quả cho xử lý tiếp theo."
+        }
+      ],
+      "tags": ["processor", "instruction", "comparison"]
+    },
+    {
+      "id": "branch-instruction",
+      "order": 41,
+      "titleJa": "分岐命令",
+      "titleVi": "Lệnh rẽ nhánh",
+      "importance": "high",
+      "summaryJa": "条件に応じて次に実行する命令の位置を変更する分岐命令について理解する。",
+      "summaryVi": "Tìm hiểu lệnh rẽ nhánh, dùng để thay đổi vị trí lệnh tiếp theo tùy theo điều kiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "分岐命令とは",
+          "vi": "Lệnh rẽ nhánh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "分岐命令（Branch Instruction）は、条件などに応じて通常の順次実行を変更し、別の位置にある命令へ処理を移すための命令である。",
+          "vi": "Branch Instruction là lệnh thay đổi luồng thực thi tuần tự và chuyển sang một lệnh ở vị trí khác dựa trên điều kiện."
+        },
+        {
+          "type": "point",
+          "ja": "条件分岐はif文やループなどを実現する基礎となる。",
+          "vi": "Rẽ nhánh có điều kiện là cơ sở để thực hiện if và vòng lặp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "分岐命令",
+          "reading": "ぶんきめいれい",
+          "english": "Branch Instruction",
+          "vi": "lệnh rẽ nhánh",
+          "definitionJa": "条件などに応じて、次に実行する命令の位置を変更する命令。",
+          "definitionVi": "Lệnh thay đổi vị trí lệnh sẽ được thực thi tiếp theo dựa trên điều kiện."
+        }
+      ],
+      "tags": ["processor", "instruction", "branch"]
+    },
+    {
+      "id": "shift-instruction",
+      "order": 42,
+      "titleJa": "シフト命令",
+      "titleVi": "Lệnh dịch bit",
+      "importance": "high",
+      "summaryJa": "ビット列を左または右に移動させるシフト命令について理解する。",
+      "summaryVi": "Tìm hiểu lệnh dịch bit dùng để dịch chuỗi bit sang trái hoặc sang phải.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シフト命令とは",
+          "vi": "Lệnh dịch bit là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シフト命令（Shift Instruction）は、2進数のビット列を左または右へ移動させる命令である。",
+          "vi": "Shift Instruction là lệnh dịch chuỗi bit nhị phân sang trái hoặc sang phải."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般に、1ビット左へシフトすると2倍、右へシフトすると2分の1に相当する処理として利用できる場合がある。",
+          "vi": "Trong nhiều trường hợp, dịch trái một bit tương ứng với nhân 2, còn dịch phải một bit tương ứng với chia 2."
+        },
+        {
+          "type": "point",
+          "ja": "左シフトは2倍、右シフトは1/2という関係を基本として覚える。",
+          "vi": "Cần nhớ cơ bản: dịch trái ×2, dịch phải ÷2."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シフト命令",
+          "reading": "しふとめいれい",
+          "english": "Shift Instruction",
+          "vi": "lệnh dịch bit",
+          "definitionJa": "ビット列を左または右方向へ移動させる命令。",
+          "definitionVi": "Lệnh dịch chuỗi bit sang trái hoặc phải."
+        }
+      ],
+      "tags": ["processor", "instruction", "shift"]
+    },
+    {
+      "id": "input-output-instruction",
+      "order": 43,
+      "titleJa": "入出力命令",
+      "titleVi": "Lệnh vào/ra",
+      "importance": "high",
+      "summaryJa": "CPUと外部の入出力装置との間でデータをやり取りする入出力命令について理解する。",
+      "summaryVi": "Tìm hiểu lệnh vào/ra dùng để trao đổi dữ liệu giữa CPU và các thiết bị ngoại vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "入出力命令とは",
+          "vi": "Lệnh vào/ra là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入出力命令（Input/Output Instruction）は、CPUがキーボード、ディスプレイなどの外部装置とデータをやり取りするための命令である。",
+          "vi": "Input/Output Instruction là lệnh CPU dùng để trao đổi dữ liệu với các thiết bị bên ngoài như bàn phím và màn hình."
+        },
+        {
+          "type": "point",
+          "ja": "入力は外部からCPU側へ、出力はCPU側から外部装置へデータを送る。",
+          "vi": "Input đưa dữ liệu từ bên ngoài vào hệ thống; output đưa dữ liệu từ hệ thống ra thiết bị bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "入出力命令",
+          "reading": "にゅうしゅつりょくめいれい",
+          "english": "Input/Output Instruction",
+          "vi": "lệnh vào/ra",
+          "definitionJa": "CPUと外部の入出力装置との間でデータをやり取りするための命令。",
+          "definitionVi": "Lệnh trao đổi dữ liệu giữa CPU và thiết bị vào/ra."
+        }
+      ],
+      "tags": ["processor", "instruction", "io"]
+    },
+    {
+      "id": "internal-interrupt",
+      "order": 44,
+      "titleJa": "内部割込み",
+      "titleVi": "Ngắt nội bộ",
+      "importance": "high",
+      "summaryJa": "プログラム実行中にCPU内部の要因によって発生する内部割込みについて理解する。",
+      "summaryVi": "Tìm hiểu ngắt nội bộ, loại ngắt phát sinh do nguyên nhân bên trong CPU trong quá trình thực thi chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部割込みとは",
+          "vi": "Ngắt nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部割込み（Internal Interrupt）は、プログラムの実行に伴ってCPU内部で発生する割込みである。",
+          "vi": "Internal Interrupt là ngắt phát sinh bên trong CPU trong quá trình thực thi chương trình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "演算例外やプログラム例外などが発生した場合、現在の処理を一時中断して例外処理などへ移行する。",
+          "vi": "Khi xảy ra ngoại lệ tính toán hoặc ngoại lệ chương trình, CPU tạm dừng xử lý hiện tại và chuyển sang xử lý ngoại lệ."
+        },
+        {
+          "type": "point",
+          "ja": "内部割込みはCPU内部・プログラム実行に起因する。",
+          "vi": "Ngắt nội bộ bắt nguồn từ bên trong CPU hoặc quá trình thực thi chương trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部割込み",
+          "reading": "ないぶわりこみ",
+          "english": "Internal Interrupt",
+          "vi": "ngắt nội bộ",
+          "definitionJa": "CPU内部やプログラム実行上の要因によって発生する割込み。",
+          "definitionVi": "Ngắt phát sinh do nguyên nhân nội bộ CPU hoặc quá trình thực thi chương trình."
+        }
+      ],
+      "tags": ["processor", "interrupt", "internal-interrupt"]
+    },
+    {
+      "id": "external-interrupt",
+      "order": 45,
+      "titleJa": "外部割込み",
+      "titleVi": "Ngắt bên ngoài",
+      "importance": "high",
+      "summaryJa": "外部装置などからの信号によって発生する外部割込みについて理解する。",
+      "summaryVi": "Tìm hiểu ngắt ngoài, phát sinh từ tín hiệu của thiết bị hoặc sự kiện bên ngoài CPU.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "外部割込みとは",
+          "vi": "Ngắt bên ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "外部割込み（External Interrupt）は、キーボードやマウス、タイマなど、CPU外部からの信号によって発生する割込みである。",
+          "vi": "External Interrupt là ngắt phát sinh bởi tín hiệu từ bên ngoài CPU, chẳng hạn bàn phím, chuột hoặc timer."
+        },
+        {
+          "type": "point",
+          "ja": "内部割込みは内部要因、外部割込みは外部装置などの要因で発生する。",
+          "vi": "Ngắt nội bộ do nguyên nhân bên trong; ngắt ngoài do thiết bị hoặc tín hiệu bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "外部割込み",
+          "reading": "がいぶわりこみ",
+          "english": "External Interrupt",
+          "vi": "ngắt bên ngoài",
+          "definitionJa": "外部装置などからの信号によって発生する割込み。",
+          "definitionVi": "Ngắt phát sinh do tín hiệu từ thiết bị hoặc sự kiện bên ngoài CPU."
+        }
+      ],
+      "tags": ["processor", "interrupt", "external-interrupt"]
+    },
+    {
+      "id": "svc-interrupt",
+      "order": 46,
+      "titleJa": "SVC割込み",
+      "titleVi": "Ngắt SVC",
+      "importance": "high",
+      "summaryJa": "アプリケーションがOSのサービスを呼び出すために意図的に発生させるSVC割込みについて理解する。",
+      "summaryVi": "Tìm hiểu ngắt SVC, loại ngắt được chương trình chủ động tạo ra để gọi dịch vụ của hệ điều hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SVC割込みとは",
+          "vi": "Ngắt SVC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SVC割込み（Supervisor Call Interrupt）は、アプリケーションプログラムがOSの機能やサービスを利用するために意図的に発生させる割込みである。",
+          "vi": "SVC Interrupt là ngắt mà chương trình ứng dụng chủ động tạo ra để yêu cầu chức năng hoặc dịch vụ từ hệ điều hành."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ファイル操作など、OSが管理する機能をアプリケーションから利用する際に用いられる。",
+          "vi": "Nó được sử dụng khi ứng dụng cần sử dụng chức năng do OS quản lý, chẳng hạn thao tác tệp."
+        },
+        {
+          "type": "point",
+          "ja": "SVC割込みは、プログラムからOSへサービスを要求するための割込みである。",
+          "vi": "Ngắt SVC được dùng để chương trình yêu cầu dịch vụ từ hệ điều hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SVC割込み",
+          "reading": "えすぶいしーわりこみ",
+          "english": "Supervisor Call Interrupt",
+          "vi": "ngắt SVC",
+          "definitionJa": "アプリケーションからOSのサービスを呼び出すために発生させる割込み。",
+          "definitionVi": "Ngắt được tạo để ứng dụng gọi dịch vụ của hệ điều hành."
+        }
+      ],
+      "tags": ["processor", "interrupt", "svc"]
+    },
+    {
+      "id": "io-interrupt",
+      "order": 47,
+      "titleJa": "入出力割込み",
+      "titleVi": "Ngắt vào/ra",
+      "importance": "high",
+      "summaryJa": "入出力装置からの通知によってCPUの処理を一時中断する入出力割込みについて理解する。",
+      "summaryVi": "Tìm hiểu ngắt vào/ra, trong đó thiết bị I/O gửi thông báo khiến CPU tạm dừng xử lý hiện tại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "入出力割込みとは",
+          "vi": "Ngắt vào/ra là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入出力割込み（Input/Output Interrupt）は、入出力装置から処理完了などの通知を受けた際にCPUへ発生する割込みである。",
+          "vi": "Input/Output Interrupt là ngắt gửi tới CPU khi thiết bị I/O thông báo hoàn thành xử lý hoặc có sự kiện cần xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUが入出力処理の完了を常に監視する必要がなくなり、他の処理を実行できるため効率が向上する。",
+          "vi": "CPU không cần liên tục kiểm tra trạng thái thiết bị và có thể xử lý công việc khác trong thời gian chờ, giúp tăng hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "入出力割込みを利用すると、CPUはI/O完了を待ち続ける必要がない。",
+          "vi": "Nhờ ngắt I/O, CPU không phải liên tục chờ thiết bị vào/ra hoàn tất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "入出力割込み",
+          "reading": "にゅうしゅつりょくわりこみ",
+          "english": "Input/Output Interrupt",
+          "vi": "ngắt vào/ra",
+          "definitionJa": "入出力装置からの通知によって発生する割込み。",
+          "definitionVi": "Ngắt phát sinh từ thông báo của thiết bị vào/ra."
+        }
+      ],
+      "tags": ["processor", "interrupt", "io-interrupt"]
+    },
+    {
+      "id": "clock-frequency",
+      "order": 48,
+      "titleJa": "クロック周波数",
+      "titleVi": "Tần số xung nhịp",
+      "importance": "high",
+      "summaryJa": "CPUが1秒間に動作するクロックサイクル数を表すクロック周波数について理解する。",
+      "summaryVi": "Tìm hiểu tần số xung nhịp, biểu thị số chu kỳ clock CPU thực hiện trong một giây.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クロック周波数とは",
+          "vi": "Tần số xung nhịp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クロック周波数（Clock Frequency）は、プロセッサの動作を同期させるクロックが1秒間に何回発生するかを示す値であり、Hzで表される。",
+          "vi": "Clock Frequency biểu thị số lần tín hiệu clock dùng để đồng bộ bộ xử lý xuất hiện trong một giây, đơn vị là Hz."
+        },
+        {
+          "type": "example",
+          "ja": "1GHzは、1秒間に10億回のクロックを意味する。",
+          "vi": "1 GHz tương đương 1 tỷ chu kỳ clock mỗi giây."
+        },
+        {
+          "type": "point",
+          "ja": "クロック周波数が高いほど必ず性能が高いわけではなく、CPIやアーキテクチャなども関係する。",
+          "vi": "Xung nhịp cao hơn không đồng nghĩa chắc chắn CPU nhanh hơn; CPI và kiến trúc cũng rất quan trọng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クロック周波数",
+          "reading": "くろっくしゅうはすう",
+          "english": "Clock Frequency",
+          "vi": "tần số xung nhịp",
+          "definitionJa": "プロセッサのクロックが1秒間に発生する回数を表す値。",
+          "definitionVi": "Số chu kỳ clock của bộ xử lý trong một giây."
+        }
+      ],
+      "tags": ["processor", "performance", "clock-frequency"]
+    },
+    {
+      "id": "cpi",
+      "order": 49,
+      "titleJa": "CPI",
+      "titleVi": "Số chu kỳ trên mỗi lệnh",
+      "importance": "high",
+      "summaryJa": "1命令を実行するために平均何クロックサイクル必要かを表すCPIについて理解する。",
+      "summaryVi": "Tìm hiểu CPI, số chu kỳ clock trung bình cần để thực hiện một lệnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CPIとは",
+          "vi": "CPI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPI（Cycles Per Instruction）は、1命令を実行するために平均して必要となるクロックサイクル数を表す指標である。",
+          "vi": "CPI (Cycles Per Instruction) là số chu kỳ clock trung bình cần thiết để thực thi một lệnh."
+        },
+        {
+          "type": "point",
+          "ja": "同じ条件なら、CPIが小さいほど1命令当たりの処理効率が高い。",
+          "vi": "Trong cùng điều kiện, CPI càng thấp thì hiệu quả xử lý trên mỗi lệnh càng cao."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CPI",
+          "reading": "しーぴーあい",
+          "english": "Cycles Per Instruction",
+          "vi": "số chu kỳ trên mỗi lệnh",
+          "definitionJa": "1命令を実行するために必要な平均クロックサイクル数。",
+          "definitionVi": "Số chu kỳ clock trung bình cần để thực hiện một lệnh."
+        }
+      ],
+      "tags": ["processor", "performance", "cpi"]
+    },
+    {
+      "id": "mips",
+      "order": 50,
+      "titleJa": "MIPS",
+      "titleVi": "Triệu lệnh mỗi giây",
+      "importance": "high",
+      "summaryJa": "1秒間に何百万命令を実行できるかを表すMIPSについて理解する。",
+      "summaryVi": "Tìm hiểu MIPS, chỉ số biểu thị số triệu lệnh bộ xử lý có thể thực hiện trong một giây.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MIPSとは",
+          "vi": "MIPS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MIPS（Million Instructions Per Second）は、プロセッサが1秒間に実行できる命令数を100万命令単位で表した性能指標である。",
+          "vi": "MIPS (Million Instructions Per Second) là chỉ số hiệu năng biểu thị số triệu lệnh CPU có thể thực thi trong một giây."
+        },
+        {
+          "type": "point",
+          "ja": "MIPSは高いほど多くの命令を処理できるが、異なる命令セット間では単純比較できない。",
+          "vi": "MIPS cao nghĩa là xử lý được nhiều lệnh hơn, nhưng không nên dùng đơn độc để so sánh các kiến trúc có tập lệnh khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MIPS",
+          "reading": "みっぷす",
+          "english": "Million Instructions Per Second",
+          "vi": "triệu lệnh mỗi giây",
+          "definitionJa": "1秒間に実行できる命令数を100万命令単位で表した性能指標。",
+          "definitionVi": "Chỉ số biểu thị số triệu lệnh được thực thi mỗi giây."
+        }
+      ],
+      "tags": ["processor", "performance", "mips"]
+    },
+    {
+      "id": "flops",
+      "order": 51,
+      "titleJa": "FLOPS",
+      "titleVi": "Số phép toán dấu phẩy động mỗi giây",
+      "importance": "high",
+      "summaryJa": "1秒間に実行できる浮動小数点演算の回数を表すFLOPSについて理解する。",
+      "summaryVi": "Tìm hiểu FLOPS, chỉ số biểu thị số phép toán dấu phẩy động có thể thực hiện trong một giây.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FLOPSとは",
+          "vi": "FLOPS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "FLOPS（Floating Point Operations Per Second）は、1秒間に実行できる浮動小数点演算の回数を表す性能指標である。",
+          "vi": "FLOPS (Floating Point Operations Per Second) là chỉ số hiệu năng thể hiện số phép toán dấu phẩy động có thể thực hiện mỗi giây."
+        },
+        {
+          "type": "paragraph",
+          "ja": "科学技術計算、シミュレーション、AIなど、数値計算性能が重要な分野で広く利用される。",
+          "vi": "FLOPS được dùng rộng rãi khi đánh giá tính toán khoa học, mô phỏng, AI và các lĩnh vực cần năng lực tính toán số cao."
+        },
+        {
+          "type": "point",
+          "ja": "MIPSは命令数、FLOPSは浮動小数点演算数を基準とする。",
+          "vi": "MIPS đo số lệnh; FLOPS đo số phép toán dấu phẩy động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FLOPS",
+          "reading": "ふろっぷす",
+          "english": "Floating Point Operations Per Second",
+          "vi": "số phép toán dấu phẩy động mỗi giây",
+          "definitionJa": "1秒間に処理できる浮動小数点演算の回数を表す性能指標。",
+          "definitionVi": "Chỉ số biểu thị số phép toán dấu phẩy động xử lý được trong một giây."
+        }
+      ],
+      "tags": ["processor", "performance", "flops"]
+    },
+    {
+      "id": "instruction-mix",
+      "order": 52,
+      "titleJa": "命令ミックス",
+      "titleVi": "Hỗn hợp lệnh",
+      "importance": "high",
+      "summaryJa": "プログラム中で実行される命令の種類とその出現割合を示す命令ミックスについて理解する。",
+      "summaryVi": "Tìm hiểu instruction mix, biểu thị các loại lệnh được thực hiện trong chương trình và tỷ lệ xuất hiện của chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命令ミックスとは",
+          "vi": "Instruction Mix là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令ミックス（Instruction Mix）は、プログラムで実行される算術演算、論理演算、転送などの各種命令が、どの程度の割合で出現するかを表したものである。",
+          "vi": "Instruction Mix biểu thị tỷ lệ xuất hiện của từng loại lệnh như số học, logic và truyền dữ liệu trong chương trình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUの平均CPIや実行時間などを評価する際には、各命令のCPIだけでなく命令ミックスも考慮する必要がある。",
+          "vi": "Khi đánh giá CPI trung bình hoặc thời gian thực thi, cần xét cả CPI của từng loại lệnh và tỷ lệ của chúng trong instruction mix."
+        },
+        {
+          "type": "point",
+          "ja": "性能評価では「どの命令をどれだけ実行するか」も重要である。",
+          "vi": "Khi đánh giá hiệu năng, không chỉ tốc độ từng lệnh mà tỷ lệ các loại lệnh cũng quan trọng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命令ミックス",
+          "reading": "めいれいみっくす",
+          "english": "Instruction Mix",
+          "vi": "hỗn hợp lệnh",
+          "definitionJa": "プログラムで実行される各種類の命令の出現割合。",
+          "definitionVi": "Tỷ lệ xuất hiện của các loại lệnh khác nhau trong chương trình."
+        }
+      ],
+      "tags": ["processor", "performance", "instruction-mix"]
+    },
+    {
+      "id": "pipeline",
+      "order": 53,
+      "titleJa": "パイプライン",
+      "titleVi": "Đường ống xử lý",
+      "importance": "high",
+      "summaryJa": "命令処理を複数の段階に分け、複数の命令を並行して処理するパイプラインについて理解する。",
+      "summaryVi": "Tìm hiểu pipeline, kỹ thuật chia việc xử lý lệnh thành nhiều giai đoạn để xử lý chồng lấp nhiều lệnh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パイプラインとは",
+          "vi": "Pipeline là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パイプライン（Pipeline）は、命令処理を複数の段階に分割し、それぞれの段階で異なる命令を並行して処理することで、処理効率を高める方式である。",
+          "vi": "Pipeline là kỹ thuật chia việc xử lý lệnh thành nhiều giai đoạn và cho phép các giai đoạn xử lý những lệnh khác nhau đồng thời."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、命令取出し、解読、実行などを別々の段階として処理し、前の命令が次の段階へ進んだら次の命令の取出しを開始する。",
+          "vi": "Ví dụ, lấy lệnh, giải mã và thực thi được chia thành các giai đoạn; khi lệnh trước chuyển sang giai đoạn tiếp theo, lệnh sau có thể bắt đầu được lấy."
+        },
+        {
+          "type": "point",
+          "ja": "パイプラインは1命令を短くするのではなく、複数命令を重ねて処理してスループットを高める。",
+          "vi": "Pipeline chủ yếu tăng throughput bằng cách xử lý chồng lấp nhiều lệnh, không đơn giản là làm một lệnh nhanh hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パイプライン",
+          "reading": "ぱいぷらいん",
+          "english": "Pipeline",
+          "vi": "đường ống xử lý",
+          "definitionJa": "命令処理を複数段階に分け、複数の命令を並行して処理する方式。",
+          "definitionVi": "Kỹ thuật chia xử lý lệnh thành nhiều giai đoạn và xử lý chồng lấp nhiều lệnh."
+        }
+      ],
+      "tags": ["processor", "pipeline", "performance"]
+    },
+    {
+      "id": "super-pipeline",
+      "order": 54,
+      "titleJa": "スーパーパイプライン",
+      "titleVi": "Siêu đường ống",
+      "importance": "high",
+      "summaryJa": "パイプラインの各処理段階をさらに細分化し、高いクロック周波数で命令処理を行うスーパーパイプラインについて理解する。",
+      "summaryVi": "Tìm hiểu super pipeline, kỹ thuật chia các giai đoạn pipeline thành nhiều bước nhỏ hơn để nâng cao khả năng xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スーパーパイプラインとは",
+          "vi": "Super pipeline là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スーパーパイプライン（Super Pipeline）は、通常のパイプラインの各処理段階をさらに細かく分割し、より短いクロック周期で処理を進める方式である。",
+          "vi": "Super Pipeline là kỹ thuật chia nhỏ hơn nữa các giai đoạn của pipeline thông thường để có thể xử lý với chu kỳ clock ngắn hơn."
+        },
+        {
+          "type": "heading",
+          "ja": "パイプラインとの違い",
+          "vi": "Khác biệt với pipeline"
+        },
+        {
+          "type": "paragraph",
+          "ja": "段数を増やして各段階の処理を単純化することで、クロック周波数を高め、単位時間当たりに処理できる命令数の向上を図る。",
+          "vi": "Bằng cách tăng số tầng và giảm lượng xử lý trong từng tầng, có thể tăng tần số clock và cải thiện số lệnh xử lý được trong một đơn vị thời gian."
+        },
+        {
+          "type": "point",
+          "ja": "スーパーパイプラインは、パイプラインをさらに細分化して高速化する方式である。",
+          "vi": "Super pipeline là pipeline được chia thành nhiều tầng nhỏ hơn để tăng tốc xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパーパイプライン",
+          "reading": "すーぱーぱいぷらいん",
+          "english": "Super Pipeline",
+          "vi": "siêu đường ống",
+          "definitionJa": "パイプラインの各段階をさらに細分化して、より高速な処理を実現する方式。",
+          "definitionVi": "Kỹ thuật chia nhỏ hơn các giai đoạn pipeline để đạt tốc độ xử lý cao hơn."
+        }
+      ],
+      "tags": ["processor", "pipeline", "super-pipeline"]
+    },
+    {
+      "id": "superscalar",
+      "order": 55,
+      "titleJa": "スーパースカラ",
+      "titleVi": "Kiến trúc superscalar",
+      "importance": "high",
+      "summaryJa": "複数の命令を同一クロックサイクル内で並列に実行するスーパースカラ方式について理解する。",
+      "summaryVi": "Tìm hiểu kiến trúc superscalar, cho phép thực thi song song nhiều lệnh trong cùng một chu kỳ xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スーパースカラとは",
+          "vi": "Superscalar là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スーパースカラ（Superscalar）は、複数の命令実行ユニットを利用し、同一のクロックサイクル内で複数の命令を並列に実行するプロセッサ方式である。",
+          "vi": "Superscalar là kiến trúc bộ xử lý sử dụng nhiều đơn vị thực thi để xử lý đồng thời nhiều lệnh trong cùng một chu kỳ clock."
+        },
+        {
+          "type": "paragraph",
+          "ja": "命令の依存関係を確認しながら、同時実行可能な命令を複数の実行ユニットへ割り当てることで、処理能力を高める。",
+          "vi": "Bộ xử lý kiểm tra quan hệ phụ thuộc giữa các lệnh và phân phối những lệnh có thể thực thi đồng thời cho nhiều đơn vị xử lý để tăng hiệu năng."
+        },
+        {
+          "type": "point",
+          "ja": "スーパースカラは、一つのクロックで複数の命令を実行することを目指す。",
+          "vi": "Superscalar hướng tới việc thực thi nhiều lệnh trong một chu kỳ clock."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパースカラ",
+          "reading": "すーぱーすから",
+          "english": "Superscalar",
+          "vi": "kiến trúc superscalar",
+          "definitionJa": "複数の実行ユニットを用いて、複数命令を同時に実行するプロセッサ方式。",
+          "definitionVi": "Kiến trúc bộ xử lý dùng nhiều đơn vị thực thi để xử lý đồng thời nhiều lệnh."
+        }
+      ],
+      "tags": ["processor", "parallel-processing", "superscalar"]
+    },
+    {
+      "id": "vliw",
+      "order": 56,
+      "titleJa": "VLIW",
+      "titleVi": "Kiến trúc VLIW",
+      "importance": "high",
+      "summaryJa": "複数の処理を一つの長い命令語にまとめ、複数の実行ユニットで並列実行するVLIWについて理解する。",
+      "summaryVi": "Tìm hiểu VLIW, kiến trúc gom nhiều thao tác vào một từ lệnh rất dài để thực thi song song trên nhiều đơn vị xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VLIWとは",
+          "vi": "VLIW là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "VLIW（Very Long Instruction Word）は、一つの長い命令語の中に複数の操作をまとめ、複数の演算器で同時に実行する方式である。",
+          "vi": "VLIW (Very Long Instruction Word) là kiến trúc đóng gói nhiều thao tác vào một lệnh dài và thực thi đồng thời chúng trên nhiều đơn vị tính toán."
+        },
+        {
+          "type": "paragraph",
+          "ja": "どの命令を並列に実行するかは、主にコンパイラがあらかじめ決定する。これにより、プロセッサ側の命令スケジューリング処理を簡素化できる。",
+          "vi": "Việc xác định các lệnh nào có thể chạy song song chủ yếu do compiler thực hiện trước, nhờ đó giảm độ phức tạp của việc lập lịch lệnh trong processor."
+        },
+        {
+          "type": "point",
+          "ja": "スーパースカラは主にCPUが並列実行を判断するのに対し、VLIWではコンパイラが並列実行可能な命令をまとめる。",
+          "vi": "Superscalar chủ yếu để CPU quyết định thực thi song song; VLIW chủ yếu để compiler sắp xếp các lệnh song song trước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VLIW",
+          "reading": "ぶいえるあいだぶりゅー",
+          "english": "Very Long Instruction Word",
+          "vi": "từ lệnh rất dài",
+          "definitionJa": "複数の処理を一つの長い命令語にまとめ、並列に実行する方式。",
+          "definitionVi": "Kiến trúc gom nhiều thao tác vào một từ lệnh dài để thực thi song song."
+        }
+      ],
+      "tags": ["processor", "architecture", "vliw"]
+    },
+    {
+      "id": "single-core-processor",
+      "order": 57,
+      "titleJa": "シングルコアプロセッサ",
+      "titleVi": "Bộ xử lý đơn lõi",
+      "importance": "medium",
+      "summaryJa": "一つのCPUコアを持つシングルコアプロセッサについて理解する。",
+      "summaryVi": "Tìm hiểu bộ xử lý đơn lõi, CPU chỉ có một lõi xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シングルコアプロセッサとは",
+          "vi": "Bộ xử lý đơn lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シングルコアプロセッサ（Single Core Processor）は、一つのプロセッサコアだけを持つCPUである。",
+          "vi": "Single Core Processor là CPU chỉ có một lõi xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "基本的には一つのコアが命令を順番に処理するため、複数の重い処理を同時に行う場合には性能上の制約が生じやすい。",
+          "vi": "Vì chỉ có một lõi xử lý lệnh, hiệu năng có thể bị hạn chế khi cần xử lý đồng thời nhiều tác vụ nặng."
+        },
+        {
+          "type": "point",
+          "ja": "シングルコアは1コア、マルチコアは複数コアを持つ。",
+          "vi": "Single-core có 1 lõi; multi-core có nhiều lõi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シングルコアプロセッサ",
+          "reading": "しんぐるこあぷろせっさ",
+          "english": "Single Core Processor",
+          "vi": "bộ xử lý đơn lõi",
+          "definitionJa": "一つの処理コアだけを持つプロセッサ。",
+          "definitionVi": "Bộ xử lý chỉ có một lõi tính toán."
+        }
+      ],
+      "tags": ["processor", "cpu-core", "single-core"]
+    },
+    {
+      "id": "multi-core-processor",
+      "order": 58,
+      "titleJa": "マルチコアプロセッサ",
+      "titleVi": "Bộ xử lý đa lõi",
+      "importance": "high",
+      "summaryJa": "一つのCPUチップに複数のプロセッサコアを搭載したマルチコアプロセッサについて理解する。",
+      "summaryVi": "Tìm hiểu bộ xử lý đa lõi, trong đó một chip CPU chứa nhiều lõi xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マルチコアプロセッサとは",
+          "vi": "Bộ xử lý đa lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マルチコアプロセッサ（Multi-core Processor）は、一つのCPUチップ上に複数のプロセッサコアを搭載したプロセッサである。",
+          "vi": "Multi-core Processor là bộ xử lý có nhiều lõi CPU được tích hợp trên cùng một chip."
+        },
+        {
+          "type": "paragraph",
+          "ja": "各コアが異なる処理を並行して実行できるため、マルチタスクや並列処理において高い性能を発揮できる。",
+          "vi": "Mỗi lõi có thể thực hiện tác vụ khác nhau song song, vì vậy rất hiệu quả cho đa nhiệm và xử lý song song."
+        },
+        {
+          "type": "point",
+          "ja": "コア数を増やしても、並列化できない処理はそのまま高速化できるわけではない。",
+          "vi": "Tăng số lõi không có nghĩa mọi chương trình đều tăng tốc nếu phần xử lý không thể song song hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マルチコアプロセッサ",
+          "reading": "まるちこあぷろせっさ",
+          "english": "Multi-core Processor",
+          "vi": "bộ xử lý đa lõi",
+          "definitionJa": "一つのCPUチップに複数の処理コアを搭載したプロセッサ。",
+          "definitionVi": "Bộ xử lý tích hợp nhiều lõi xử lý trên cùng một chip CPU."
+        }
+      ],
+      "tags": ["processor", "cpu-core", "multi-core"]
+    },
+    {
+      "id": "sisd",
+      "order": 59,
+      "titleJa": "SISD",
+      "titleVi": "Một lệnh - một dữ liệu",
+      "importance": "high",
+      "summaryJa": "一つの命令ストリームで一つのデータストリームを処理するSISDについて理解する。",
+      "summaryVi": "Tìm hiểu SISD, kiến trúc một luồng lệnh xử lý một luồng dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SISDとは",
+          "vi": "SISD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SISD（Single Instruction Single Data）は、一つの命令ストリームによって一つのデータストリームを処理するコンピュータアーキテクチャである。",
+          "vi": "SISD (Single Instruction Single Data) là kiến trúc trong đó một luồng lệnh xử lý một luồng dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "古典的な逐次処理型コンピュータが代表例であり、基本的に一つの処理を順番に実行する。",
+          "vi": "Đây là mô hình điển hình của máy tính xử lý tuần tự cổ điển, thực hiện từng xử lý theo thứ tự."
+        },
+        {
+          "type": "point",
+          "ja": "SISD = Single Instruction + Single Data。",
+          "vi": "SISD = một luồng lệnh + một luồng dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SISD",
+          "reading": "しすど",
+          "english": "Single Instruction Single Data",
+          "vi": "một lệnh - một dữ liệu",
+          "definitionJa": "一つの命令ストリームで一つのデータストリームを処理する方式。",
+          "definitionVi": "Kiến trúc một luồng lệnh xử lý một luồng dữ liệu."
+        }
+      ],
+      "tags": ["processor", "flynn-classification", "sisd"]
+    },
+    {
+      "id": "simd",
+      "order": 60,
+      "titleJa": "SIMD",
+      "titleVi": "Một lệnh - nhiều dữ liệu",
+      "importance": "high",
+      "summaryJa": "同一の命令を複数のデータに対して同時に適用するSIMDについて理解する。",
+      "summaryVi": "Tìm hiểu SIMD, kỹ thuật áp dụng cùng một lệnh cho nhiều dữ liệu đồng thời.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SIMDとは",
+          "vi": "SIMD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SIMD（Single Instruction Multiple Data）は、一つの命令を複数のデータに対して同時に実行する方式である。",
+          "vi": "SIMD (Single Instruction Multiple Data) là kiến trúc thực hiện cùng một lệnh đồng thời trên nhiều dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "画像処理や音声処理、数値計算など、同じ処理を大量のデータへ適用する場合に高い効果を発揮する。",
+          "vi": "SIMD đặc biệt hiệu quả trong xử lý ảnh, âm thanh và tính toán số, nơi cùng một phép xử lý được áp dụng cho lượng lớn dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "SIMDは「同じ命令を多数のデータへ同時適用」する方式である。",
+          "vi": "SIMD = cùng một lệnh được áp dụng đồng thời lên nhiều dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SIMD",
+          "reading": "しむど",
+          "english": "Single Instruction Multiple Data",
+          "vi": "một lệnh - nhiều dữ liệu",
+          "definitionJa": "一つの命令で複数のデータを同時に処理する方式。",
+          "definitionVi": "Kiến trúc một lệnh xử lý đồng thời nhiều dữ liệu."
+        }
+      ],
+      "tags": ["processor", "parallel-processing", "simd"]
+    },
+    {
+      "id": "misd",
+      "order": 61,
+      "titleJa": "MISD",
+      "titleVi": "Nhiều lệnh - một dữ liệu",
+      "importance": "medium",
+      "summaryJa": "複数の命令ストリームが一つのデータストリームを処理するMISDについて理解する。",
+      "summaryVi": "Tìm hiểu MISD, kiến trúc nhiều luồng lệnh xử lý cùng một luồng dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MISDとは",
+          "vi": "MISD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MISD（Multiple Instruction Single Data）は、複数の異なる命令ストリームが一つのデータストリームに対して処理を行う方式である。",
+          "vi": "MISD (Multiple Instruction Single Data) là kiến trúc trong đó nhiều luồng lệnh khác nhau xử lý cùng một luồng dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "実用例は比較的少なく、一般的なコンピュータではあまり採用されていない。",
+          "vi": "Mô hình này ít gặp trong thực tế và không phổ biến trong máy tính thông thường."
+        },
+        {
+          "type": "point",
+          "ja": "MISD = Multiple Instruction + Single Data。",
+          "vi": "MISD = nhiều luồng lệnh + một luồng dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MISD",
+          "reading": "みすど",
+          "english": "Multiple Instruction Single Data",
+          "vi": "nhiều lệnh - một dữ liệu",
+          "definitionJa": "複数の命令ストリームが一つのデータストリームを処理する方式。",
+          "definitionVi": "Kiến trúc nhiều luồng lệnh xử lý một luồng dữ liệu."
+        }
+      ],
+      "tags": ["processor", "flynn-classification", "misd"]
+    },
+    {
+      "id": "mimd",
+      "order": 62,
+      "titleJa": "MIMD",
+      "titleVi": "Nhiều lệnh - nhiều dữ liệu",
+      "importance": "high",
+      "summaryJa": "複数の命令ストリームが複数の異なるデータを並列に処理するMIMDについて理解する。",
+      "summaryVi": "Tìm hiểu MIMD, kiến trúc nhiều luồng lệnh xử lý song song nhiều luồng dữ liệu khác nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MIMDとは",
+          "vi": "MIMD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MIMD（Multiple Instruction Multiple Data）は、複数のプロセッサがそれぞれ異なる命令を実行し、異なるデータを処理する方式である。",
+          "vi": "MIMD (Multiple Instruction Multiple Data) là kiến trúc trong đó nhiều bộ xử lý thực thi các lệnh khác nhau trên những dữ liệu khác nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "マルチコアプロセッサやマルチプロセッサシステムなどで利用され、複数の独立したタスクを同時に実行することができる。",
+          "vi": "MIMD được sử dụng trong hệ thống đa lõi và đa bộ xử lý, cho phép nhiều tác vụ độc lập chạy đồng thời."
+        },
+        {
+          "type": "point",
+          "ja": "MIMD = Multiple Instruction + Multiple Data。",
+          "vi": "MIMD = nhiều luồng lệnh + nhiều luồng dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MIMD",
+          "reading": "みむど",
+          "english": "Multiple Instruction Multiple Data",
+          "vi": "nhiều lệnh - nhiều dữ liệu",
+          "definitionJa": "複数の命令ストリームで複数のデータストリームを並列に処理する方式。",
+          "definitionVi": "Kiến trúc nhiều luồng lệnh xử lý song song nhiều luồng dữ liệu."
+        }
+      ],
+      "tags": ["processor", "parallel-processing", "mimd"]
+    },
+    {
+      "id": "loosely-coupled-multiprocessor-system",
+      "order": 63,
+      "titleJa": "疎結合マルチプロセッサシステム",
+      "titleVi": "Hệ thống đa xử lý liên kết lỏng",
+      "importance": "high",
+      "summaryJa": "各プロセッサが独立したメモリなどを持ち、通信によって協調する疎結合マルチプロセッサシステムについて理解する。",
+      "summaryVi": "Tìm hiểu hệ thống đa xử lý liên kết lỏng, nơi các bộ xử lý hoạt động tương đối độc lập và phối hợp thông qua truyền thông.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "疎結合マルチプロセッサシステムとは",
+          "vi": "Hệ thống đa xử lý liên kết lỏng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "疎結合マルチプロセッサシステム（Loosely Coupled Multiprocessor System）は、複数のプロセッサが比較的独立して動作し、通信機構を通じて互いに情報を交換するシステムである。",
+          "vi": "Loosely Coupled Multiprocessor System là hệ thống trong đó nhiều bộ xử lý hoạt động tương đối độc lập và trao đổi thông tin thông qua cơ chế truyền thông."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一部のプロセッサに障害が発生しても他へ影響しにくく、拡張性や耐障害性を高めやすい。",
+          "vi": "Khi một bộ xử lý gặp lỗi, các bộ xử lý khác ít bị ảnh hưởng hơn, vì vậy hệ thống có khả năng mở rộng và chịu lỗi tốt."
+        },
+        {
+          "type": "point",
+          "ja": "疎結合は独立性が高く、拡張しやすいが、プロセッサ間通信の遅延が大きくなりやすい。",
+          "vi": "Liên kết lỏng có tính độc lập và khả năng mở rộng cao, nhưng giao tiếp giữa các processor thường chậm hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "疎結合マルチプロセッサシステム",
+          "reading": "そけつごうまるちぷろせっさしすてむ",
+          "english": "Loosely Coupled Multiprocessor System",
+          "vi": "hệ thống đa xử lý liên kết lỏng",
+          "definitionJa": "複数のプロセッサが比較的独立して動作し、通信によって協調するマルチプロセッサシステム。",
+          "definitionVi": "Hệ thống đa xử lý trong đó các bộ xử lý hoạt động tương đối độc lập và phối hợp qua truyền thông."
+        }
+      ],
+      "tags": ["processor", "multiprocessor", "loosely-coupled"]
+    },
+    {
+      "id": "tightly-coupled-multiprocessor-system",
+      "order": 64,
+      "titleJa": "密結合マルチプロセッサシステム",
+      "titleVi": "Hệ thống đa xử lý liên kết chặt",
+      "importance": "high",
+      "summaryJa": "複数のプロセッサがメモリなどの資源を共有して高速に連携する密結合マルチプロセッサシステムについて理解する。",
+      "summaryVi": "Tìm hiểu hệ thống đa xử lý liên kết chặt, nơi nhiều bộ xử lý chia sẻ tài nguyên như bộ nhớ và phối hợp với tốc độ cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "密結合マルチプロセッサシステムとは",
+          "vi": "Hệ thống đa xử lý liên kết chặt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "密結合マルチプロセッサシステム（Tightly Coupled Multiprocessor System）は、複数のプロセッサが共通のメモリなどを共有し、高速にデータをやり取りしながら処理するシステムである。",
+          "vi": "Tightly Coupled Multiprocessor System là hệ thống trong đó nhiều processor chia sẻ bộ nhớ chung và trao đổi dữ liệu với tốc độ cao."
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロセッサ間の連携が高速であるため、高い並列処理性能を得やすい。",
+          "vi": "Do giao tiếp giữa các processor nhanh, hệ thống có thể đạt hiệu năng xử lý song song cao."
+        },
+        {
+          "type": "point",
+          "ja": "密結合は資源共有と高速連携が特徴で、疎結合よりプロセッサ同士の依存度が高い。",
+          "vi": "Liên kết chặt đặc trưng bởi chia sẻ tài nguyên và giao tiếp nhanh, nhưng mức phụ thuộc giữa các processor cao hơn liên kết lỏng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "密結合マルチプロセッサシステム",
+          "reading": "みつけつごうまるちぷろせっさしすてむ",
+          "english": "Tightly Coupled Multiprocessor System",
+          "vi": "hệ thống đa xử lý liên kết chặt",
+          "definitionJa": "複数のプロセッサが共通資源を共有し、高速に協調して処理するマルチプロセッサシステム。",
+          "definitionVi": "Hệ thống đa xử lý trong đó nhiều processor chia sẻ tài nguyên chung và phối hợp với tốc độ cao."
+        }
+      ],
+      "tags": ["processor", "multiprocessor", "tightly-coupled"]
+    },
+    {
+      "id": "amdahls-law",
+      "order": 65,
+      "titleJa": "アムダールの法則",
+      "titleVi": "Định luật Amdahl",
+      "importance": "high",
+      "summaryJa": "並列化による性能向上が、並列化できない処理部分によって制限されることを示すアムダールの法則について理解する。",
+      "summaryVi": "Tìm hiểu định luật Amdahl, cho thấy mức tăng tốc do song song hóa bị giới hạn bởi phần xử lý không thể song song.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アムダールの法則とは",
+          "vi": "Định luật Amdahl là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アムダールの法則（Amdahl's Law）は、システムの一部を高速化した場合でも、全体の性能向上は高速化できない部分によって制限されることを示す法則である。",
+          "vi": "Amdahl's Law chỉ ra rằng ngay cả khi một phần hệ thống được tăng tốc, mức tăng hiệu năng tổng thể vẫn bị giới hạn bởi phần không thể tăng tốc."
+        },
+        {
+          "type": "paragraph",
+          "ja": "特に並列処理では、プログラム中の並列化できない部分の割合が大きいほど、プロセッサ数を増やしても得られる高速化には限界がある。",
+          "vi": "Đặc biệt trong xử lý song song, phần chương trình không thể song song hóa càng lớn thì việc tăng số processor càng sớm đạt giới hạn."
+        },
+        {
+          "type": "point",
+          "ja": "並列化できない部分が残る限り、プロセッサを無限に増やしても性能向上には上限がある。",
+          "vi": "Chừng nào còn phần không thể song song hóa, việc tăng vô hạn số processor vẫn có giới hạn về tăng tốc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アムダールの法則",
+          "reading": "あむだーるのほうそく",
+          "english": "Amdahl's Law",
+          "vi": "định luật Amdahl",
+          "definitionJa": "システム全体の高速化が、高速化できない処理部分によって制限されることを示す法則。",
+          "definitionVi": "Định luật cho thấy tốc độ tăng tổng thể bị giới hạn bởi phần xử lý không thể tăng tốc."
+        }
+      ],
+      "tags": ["processor", "parallel-processing", "amdahls-law"]
+    },
+    {
+      "id": "synchronization",
+      "order": 66,
+      "titleJa": "同期",
+      "titleVi": "Đồng bộ",
+      "importance": "high",
+      "summaryJa": "複数の処理やデータ更新のタイミングを合わせ、整合性を保つ同期について理解する。",
+      "summaryVi": "Tìm hiểu đồng bộ, kỹ thuật phối hợp thời điểm giữa nhiều xử lý hoặc cập nhật dữ liệu nhằm đảm bảo tính nhất quán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "同期とは",
+          "vi": "Đồng bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "同期（Synchronization）は、複数の処理やプロセッサが協調して動作する際に、実行のタイミングやデータの状態を合わせることである。",
+          "vi": "Synchronization là việc phối hợp thời điểm thực thi và trạng thái dữ liệu khi nhiều tiến trình hoặc processor hoạt động cùng nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "共有データを複数の処理が同時に更新する場合などに、処理順序を適切に制御することでデータの矛盾を防ぐ。",
+          "vi": "Khi nhiều xử lý cùng cập nhật dữ liệu dùng chung, đồng bộ kiểm soát thứ tự thực thi để tránh dữ liệu không nhất quán."
+        },
+        {
+          "type": "point",
+          "ja": "同期の主な目的は、複数処理の整合性を保ち、競合による誤りを防ぐことである。",
+          "vi": "Mục tiêu chính của đồng bộ là giữ tính nhất quán giữa nhiều xử lý và tránh lỗi do tranh chấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "同期",
+          "reading": "どうき",
+          "english": "Synchronization",
+          "vi": "đồng bộ",
+          "definitionJa": "複数の処理の実行タイミングやデータ状態を調整し、整合性を保つこと。",
+          "definitionVi": "Điều chỉnh thời điểm thực thi và trạng thái dữ liệu giữa nhiều xử lý để đảm bảo tính nhất quán."
+        }
+      ],
+      "tags": ["processor", "parallel-processing", "synchronization"]
+    },
+    {
+      "id": "cluster",
+      "order": 67,
+      "titleJa": "クラスタ",
+      "titleVi": "Cụm máy tính",
+      "importance": "high",
+      "summaryJa": "複数のコンピュータやサーバを連携させ、一つのシステムのように動作させるクラスタについて理解する。",
+      "summaryVi": "Tìm hiểu cluster, hệ thống liên kết nhiều máy tính hoặc server để chúng hoạt động như một hệ thống thống nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラスタとは",
+          "vi": "Cluster là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラスタ（Cluster）は、複数のコンピュータやサーバをネットワークなどで接続し、一つのシステムとして連携動作させる構成である。",
+          "vi": "Cluster là cấu hình kết nối nhiều máy tính hoặc server qua mạng để chúng phối hợp và hoạt động như một hệ thống."
+        },
+        {
+          "type": "heading",
+          "ja": "主な目的",
+          "vi": "Mục đích chính"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数台で処理を分担することで処理能力を高めたり、一台に障害が発生しても他のサーバでサービスを継続したりすることができる。",
+          "vi": "Cluster có thể tăng khả năng xử lý bằng cách phân tải giữa nhiều máy và duy trì dịch vụ khi một máy gặp sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "クラスタは性能向上だけでなく、可用性や耐障害性の向上にも利用される。",
+          "vi": "Cluster không chỉ tăng hiệu năng mà còn cải thiện tính sẵn sàng và khả năng chịu lỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラスタ",
+          "reading": "くらすた",
+          "english": "Cluster",
+          "vi": "cụm máy tính",
+          "definitionJa": "複数のコンピュータを連携させ、一つのシステムのように動作させる構成。",
+          "definitionVi": "Cấu hình liên kết nhiều máy tính để chúng hoạt động như một hệ thống."
+        }
+      ],
+      "tags": ["processor", "cluster", "distributed-system"]
+    }
+  ]
+}

@@ -1,0 +1,1189 @@
+{
+  "id": "memory",
+  "order": 2,
+  "titleJa": "メモリ",
+  "titleVi": "Bộ nhớ",
+  "lessons": [
+    {
+      "id": "ram",
+      "order": 1,
+      "titleJa": "RAM",
+      "titleVi": "Bộ nhớ RAM",
+      "importance": "high",
+      "summaryJa": "データやプログラムを一時的に保持し、高速に読み書きできるRAMについて理解する。",
+      "summaryVi": "Tìm hiểu RAM, bộ nhớ dùng để lưu tạm dữ liệu và chương trình với khả năng truy cập nhanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAMとは",
+          "vi": "RAM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "RAM（Random Access Memory）は、コンピュータが処理中のデータやプログラムを一時的に保存するための記憶装置である。",
+          "vi": "RAM (Random Access Memory) là bộ nhớ dùng để lưu tạm dữ liệu và chương trình mà máy tính đang xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "任意の記憶場所へ高速にアクセスできるため、プログラムの実行やデータ処理を高速に行うために利用される。",
+          "vi": "RAM cho phép truy cập nhanh tới các vị trí nhớ khác nhau, nhờ đó hỗ trợ thực thi chương trình và xử lý dữ liệu nhanh."
+        },
+        {
+          "type": "point",
+          "ja": "RAMは揮発性メモリであり、電源を切ると通常は内容が失われる。",
+          "vi": "RAM là bộ nhớ khả biến; khi mất nguồn, dữ liệu thường bị mất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAM",
+          "reading": "らむ",
+          "english": "Random Access Memory",
+          "vi": "bộ nhớ truy cập ngẫu nhiên",
+          "definitionJa": "データやプログラムを一時的に保持し、高速に読み書きできる揮発性の記憶装置。",
+          "definitionVi": "Bộ nhớ khả biến dùng để lưu tạm dữ liệu và chương trình với tốc độ đọc ghi cao."
+        }
+      ],
+      "tags": ["memory", "ram", "main-memory"]
+    },
+    {
+      "id": "rom",
+      "order": 2,
+      "titleJa": "ROM",
+      "titleVi": "Bộ nhớ ROM",
+      "importance": "high",
+      "summaryJa": "電源を切っても内容を保持できる不揮発性の記憶装置であるROMについて理解する。",
+      "summaryVi": "Tìm hiểu ROM, bộ nhớ không mất dữ liệu khi tắt nguồn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ROMとは",
+          "vi": "ROM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ROM（Read-Only Memory）は、主に読み出しを目的とした不揮発性の記憶装置である。",
+          "vi": "ROM (Read-Only Memory) là loại bộ nhớ không khả biến, chủ yếu dùng để đọc dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの起動に必要なファームウェアなど、電源を切っても保持する必要がある情報を保存するために利用される。",
+          "vi": "ROM được dùng để lưu các thông tin cần giữ lại ngay cả khi tắt nguồn, chẳng hạn firmware cần cho quá trình khởi động máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "RAMは揮発性、ROMは不揮発性という違いを押さえる。",
+          "vi": "Cần nhớ: RAM là khả biến, ROM là không khả biến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ROM",
+          "reading": "ろむ",
+          "english": "Read-Only Memory",
+          "vi": "bộ nhớ chỉ đọc",
+          "definitionJa": "電源を切っても内容を保持できる不揮発性の記憶装置。",
+          "definitionVi": "Bộ nhớ không khả biến, có thể giữ dữ liệu ngay cả khi mất nguồn."
+        }
+      ],
+      "tags": ["memory", "rom", "non-volatile"]
+    },
+    {
+      "id": "dram",
+      "order": 3,
+      "titleJa": "DRAM",
+      "titleVi": "Bộ nhớ DRAM",
+      "importance": "high",
+      "summaryJa": "一定時間ごとにリフレッシュが必要で、主記憶として広く利用されるDRAMについて理解する。",
+      "summaryVi": "Tìm hiểu DRAM, loại RAM cần làm tươi định kỳ và thường được dùng làm bộ nhớ chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DRAMとは",
+          "vi": "DRAM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DRAM（Dynamic Random Access Memory）は、コンデンサに電荷を蓄えることでデータを保持するRAMの一種である。",
+          "vi": "DRAM (Dynamic Random Access Memory) là một loại RAM lưu dữ liệu bằng điện tích trong tụ điện."
+        },
+        {
+          "type": "paragraph",
+          "ja": "電荷が時間とともに失われるため、内容を保持するには定期的なリフレッシュ動作が必要となる。",
+          "vi": "Do điện tích giảm theo thời gian, DRAM cần được refresh định kỳ để duy trì dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "DRAMはリフレッシュが必要だが、大容量化しやすく主記憶に広く使われる。",
+          "vi": "DRAM cần refresh nhưng dễ đạt dung lượng lớn nên thường được dùng làm bộ nhớ chính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DRAM",
+          "reading": "でぃーらむ",
+          "english": "Dynamic Random Access Memory",
+          "vi": "RAM động",
+          "definitionJa": "定期的なリフレッシュを必要とするRAMで、主記憶として広く利用される。",
+          "definitionVi": "Loại RAM cần làm tươi định kỳ và được sử dụng rộng rãi làm bộ nhớ chính."
+        }
+      ],
+      "tags": ["memory", "ram", "dram"]
+    },
+    {
+      "id": "sram",
+      "order": 4,
+      "titleJa": "SRAM",
+      "titleVi": "Bộ nhớ SRAM",
+      "importance": "high",
+      "summaryJa": "リフレッシュを必要とせず、高速で主にキャッシュメモリに利用されるSRAMについて理解する。",
+      "summaryVi": "Tìm hiểu SRAM, bộ nhớ tốc độ cao không cần refresh và thường được dùng làm cache.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SRAMとは",
+          "vi": "SRAM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SRAM（Static Random Access Memory）は、フリップフロップなどの回路を利用してデータを保持するRAMの一種である。",
+          "vi": "SRAM (Static Random Access Memory) là một loại RAM sử dụng các mạch như flip-flop để giữ dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "電源が供給されている間はリフレッシュを必要とせず、DRAMより高速にアクセスできる。",
+          "vi": "Khi còn nguồn điện, SRAM không cần refresh và có tốc độ truy cập cao hơn DRAM."
+        },
+        {
+          "type": "point",
+          "ja": "SRAMは高速・高価・小容量で、主にキャッシュメモリに使われる。",
+          "vi": "SRAM nhanh, đắt và dung lượng nhỏ; chủ yếu dùng cho cache."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SRAM",
+          "reading": "すらむ",
+          "english": "Static Random Access Memory",
+          "vi": "RAM tĩnh",
+          "definitionJa": "リフレッシュが不要で高速なRAM。主にキャッシュメモリに利用される。",
+          "definitionVi": "Loại RAM tốc độ cao không cần refresh, thường dùng làm cache."
+        }
+      ],
+      "tags": ["memory", "ram", "sram", "cache"]
+    },
+    {
+      "id": "dimm",
+      "order": 5,
+      "titleJa": "DIMM",
+      "titleVi": "Mô-đun bộ nhớ DIMM",
+      "importance": "high",
+      "summaryJa": "主にデスクトップPCやサーバで使用されるメモリモジュールであるDIMMについて理解する。",
+      "summaryVi": "Tìm hiểu DIMM, mô-đun bộ nhớ thường được sử dụng trong máy tính để bàn và server.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DIMMとは",
+          "vi": "DIMM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DIMM（Dual In-line Memory Module）は、RAMチップを基板上に実装したメモリモジュールの一種である。",
+          "vi": "DIMM (Dual In-line Memory Module) là loại mô-đun bộ nhớ chứa các chip RAM trên một bo mạch."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にデスクトップPCやサーバで利用され、基板の両側の端子がそれぞれ独立した信号を持つ。",
+          "vi": "DIMM chủ yếu được dùng trong desktop và server, với các chân tiếp xúc ở hai mặt hoạt động độc lập."
+        },
+        {
+          "type": "point",
+          "ja": "DIMMは主にデスクトップPCやサーバ、SO-DIMMは主にノートPCで使われる。",
+          "vi": "DIMM chủ yếu dùng cho desktop/server; SO-DIMM chủ yếu dùng cho laptop."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DIMM",
+          "reading": "でぃむ",
+          "english": "Dual In-line Memory Module",
+          "vi": "mô-đun bộ nhớ DIMM",
+          "definitionJa": "主にデスクトップPCやサーバで利用されるRAM用のメモリモジュール。",
+          "definitionVi": "Mô-đun RAM chủ yếu dùng trong máy tính để bàn và server."
+        }
+      ],
+      "tags": ["memory", "ram-module", "dimm"]
+    },
+    {
+      "id": "so-dimm",
+      "order": 6,
+      "titleJa": "SO-DIMM",
+      "titleVi": "Mô-đun bộ nhớ SO-DIMM",
+      "importance": "high",
+      "summaryJa": "ノートPCなどの小型機器向けに設計された小型DIMMであるSO-DIMMについて理解する。",
+      "summaryVi": "Tìm hiểu SO-DIMM, phiên bản DIMM nhỏ gọn dành cho laptop và thiết bị nhỏ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SO-DIMMとは",
+          "vi": "SO-DIMM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SO-DIMM（Small Outline Dual In-line Memory Module）は、DIMMを小型化したメモリモジュールである。",
+          "vi": "SO-DIMM (Small Outline Dual In-line Memory Module) là phiên bản thu nhỏ của DIMM."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にノートPCや小型コンピュータなど、実装スペースが限られている機器で利用される。",
+          "vi": "Nó chủ yếu được dùng trong laptop và các máy tính nhỏ có không gian lắp đặt hạn chế."
+        },
+        {
+          "type": "point",
+          "ja": "SO-DIMMはDIMMより小型で、ノートPC向けに多く使われる。",
+          "vi": "SO-DIMM nhỏ hơn DIMM và thường dùng cho laptop."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SO-DIMM",
+          "reading": "えすおーでぃむ",
+          "english": "Small Outline Dual In-line Memory Module",
+          "vi": "mô-đun bộ nhớ SO-DIMM",
+          "definitionJa": "ノートPCなどの小型機器向けに小型化されたDIMM。",
+          "definitionVi": "DIMM kích thước nhỏ dành cho laptop và thiết bị nhỏ."
+        }
+      ],
+      "tags": ["memory", "ram-module", "so-dimm"]
+    },
+    {
+      "id": "memory-unit",
+      "order": 7,
+      "titleJa": "記憶部",
+      "titleVi": "Bộ phận nhớ",
+      "importance": "high",
+      "summaryJa": "コンピュータにおいてデータやプログラムを保存する役割を持つ記憶部について理解する。",
+      "summaryVi": "Tìm hiểu bộ phận nhớ, thành phần chịu trách nhiệm lưu trữ dữ liệu và chương trình trong máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "記憶部とは",
+          "vi": "Bộ phận nhớ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "記憶部（Memory Unit）は、コンピュータで使用するデータやプログラムなどを保存するための部分である。",
+          "vi": "Memory Unit là bộ phận lưu dữ liệu và chương trình được sử dụng trong máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主記憶や補助記憶など、用途や速度、容量が異なる複数の記憶装置から構成される。",
+          "vi": "Bộ phận nhớ bao gồm nhiều loại bộ nhớ khác nhau về mục đích, tốc độ và dung lượng như bộ nhớ chính và bộ nhớ phụ."
+        },
+        {
+          "type": "point",
+          "ja": "記憶装置は速度、容量、用途によって階層的に使い分けられる。",
+          "vi": "Các thiết bị nhớ được sử dụng theo phân cấp dựa trên tốc độ, dung lượng và mục đích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "記憶部",
+          "reading": "きおくぶ",
+          "english": "Memory Unit",
+          "vi": "bộ phận nhớ",
+          "definitionJa": "データやプログラムを保存する役割を持つコンピュータの構成部分。",
+          "definitionVi": "Bộ phận của máy tính có chức năng lưu dữ liệu và chương trình."
+        }
+      ],
+      "tags": ["memory", "memory-unit"]
+    },
+    {
+      "id": "address-selection-mechanism",
+      "order": 8,
+      "titleJa": "アドレス選択機構",
+      "titleVi": "Cơ chế chọn địa chỉ",
+      "importance": "high",
+      "summaryJa": "指定されたアドレスに対応する記憶場所を選択するアドレス選択機構について理解する。",
+      "summaryVi": "Tìm hiểu cơ chế chọn địa chỉ, dùng để xác định vị trí nhớ tương ứng với địa chỉ được chỉ định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アドレス選択機構とは",
+          "vi": "Cơ chế chọn địa chỉ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アドレス選択機構（Address Selection Mechanism）は、CPUなどから指定されたアドレスに基づいて、対象となる記憶場所を選択する仕組みである。",
+          "vi": "Address Selection Mechanism là cơ chế chọn vị trí nhớ cần truy cập dựa trên địa chỉ do CPU chỉ định."
+        },
+        {
+          "type": "paragraph",
+          "ja": "メモリの読出しや書込みを行う際に、対象となる記憶セルを正確に指定するために利用される。",
+          "vi": "Nó được sử dụng để xác định chính xác ô nhớ cần đọc hoặc ghi."
+        },
+        {
+          "type": "point",
+          "ja": "アドレスは「どの記憶場所へアクセスするか」を指定する。",
+          "vi": "Địa chỉ xác định vị trí bộ nhớ cần truy cập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アドレス選択機構",
+          "reading": "あどれすせんたくきこう",
+          "english": "Address Selection Mechanism",
+          "vi": "cơ chế chọn địa chỉ",
+          "definitionJa": "指定されたアドレスに対応する記憶場所を選択する仕組み。",
+          "definitionVi": "Cơ chế chọn vị trí nhớ tương ứng với địa chỉ được chỉ định."
+        }
+      ],
+      "tags": ["memory", "address", "memory-access"]
+    },
+    {
+      "id": "read-write-mechanism",
+      "order": 9,
+      "titleJa": "読取り書込み機構",
+      "titleVi": "Cơ chế đọc/ghi",
+      "importance": "high",
+      "summaryJa": "記録媒体からデータを読み取ったり、データを書き込んだりする機構について理解する。",
+      "summaryVi": "Tìm hiểu cơ chế đọc/ghi dùng để lấy dữ liệu từ hoặc ghi dữ liệu lên phương tiện lưu trữ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "読取り書込み機構とは",
+          "vi": "Cơ chế đọc/ghi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "読取り書込み機構（Read/Write Mechanism）は、記録媒体に保存されているデータを読み取ったり、新しいデータを書き込んだりするための機構である。",
+          "vi": "Read/Write Mechanism là cơ chế dùng để đọc dữ liệu đã lưu trên phương tiện lưu trữ hoặc ghi dữ liệu mới lên đó."
+        },
+        {
+          "type": "paragraph",
+          "ja": "記録媒体によって磁気、光、半導体など異なる技術が利用される。",
+          "vi": "Tùy loại phương tiện lưu trữ, cơ chế này có thể sử dụng công nghệ từ tính, quang học hoặc bán dẫn."
+        },
+        {
+          "type": "point",
+          "ja": "記憶装置では、アドレス選択と読取り・書込みの両方が重要となる。",
+          "vi": "Trong bộ nhớ, cả việc chọn địa chỉ và thực hiện đọc/ghi đều quan trọng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "読取り書込み機構",
+          "reading": "よみとりかきこみきこう",
+          "english": "Read/Write Mechanism",
+          "vi": "cơ chế đọc/ghi",
+          "definitionJa": "記録媒体からデータを読み取ったり、記録媒体へデータを書き込んだりする仕組み。",
+          "definitionVi": "Cơ chế đọc dữ liệu từ và ghi dữ liệu lên phương tiện lưu trữ."
+        }
+      ],
+      "tags": ["memory", "read-write", "storage"]
+    },
+    {
+      "id": "cache-memory",
+      "order": 10,
+      "titleJa": "キャッシュメモリ",
+      "titleVi": "Bộ nhớ cache",
+      "importance": "high",
+      "summaryJa": "CPUと主記憶の速度差を埋めるために利用される高速なキャッシュメモリについて理解する。",
+      "summaryVi": "Tìm hiểu cache memory, bộ nhớ tốc độ cao dùng để giảm chênh lệch tốc độ giữa CPU và bộ nhớ chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キャッシュメモリとは",
+          "vi": "Bộ nhớ cache là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キャッシュメモリ（Cache Memory）は、CPUと主記憶の間に配置され、CPUが頻繁に使用するデータや命令を一時的に保持する高速な記憶装置である。",
+          "vi": "Cache Memory là bộ nhớ tốc độ cao nằm giữa CPU và bộ nhớ chính, dùng để tạm lưu dữ liệu và lệnh thường xuyên được CPU sử dụng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUが主記憶へ直接アクセスする回数を減らすことで、平均アクセス時間を短縮し、処理速度を向上させる。",
+          "vi": "Bằng cách giảm số lần CPU phải truy cập trực tiếp bộ nhớ chính, cache giúp giảm thời gian truy cập trung bình và tăng tốc xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "一般にL1は小容量・高速、L2、L3と進むほど容量は増えるが速度は遅くなる。",
+          "vi": "Thông thường L1 nhỏ và nhanh nhất; lên L2, L3 thì dung lượng tăng nhưng tốc độ giảm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キャッシュメモリ",
+          "reading": "きゃっしゅめもり",
+          "english": "Cache Memory",
+          "vi": "bộ nhớ cache",
+          "definitionJa": "CPUと主記憶の間で頻繁に利用されるデータを一時保存する高速な記憶装置。",
+          "definitionVi": "Bộ nhớ tốc độ cao nằm giữa CPU và bộ nhớ chính, lưu tạm dữ liệu thường xuyên sử dụng."
+        }
+      ],
+      "tags": ["memory", "cache", "cpu"]
+    },
+    {
+      "id": "main-memory",
+      "order": 11,
+      "titleJa": "主記憶",
+      "titleVi": "Bộ nhớ chính",
+      "importance": "high",
+      "summaryJa": "CPUが直接アクセスし、実行中のプログラムやデータを保持する主記憶について理解する。",
+      "summaryVi": "Tìm hiểu bộ nhớ chính, nơi CPU truy cập trực tiếp để lưu chương trình và dữ liệu đang được xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "主記憶とは",
+          "vi": "Bộ nhớ chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主記憶（Main Memory）は、CPUが直接読み書きでき、現在実行しているプログラムや処理中のデータを保存する記憶装置である。",
+          "vi": "Main Memory là bộ nhớ mà CPU có thể truy cập trực tiếp để lưu chương trình đang chạy và dữ liệu đang xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般的なコンピュータではRAMが主記憶として利用される。",
+          "vi": "Trong máy tính thông thường, RAM được sử dụng làm bộ nhớ chính."
+        },
+        {
+          "type": "point",
+          "ja": "主記憶は高速だが、一般に補助記憶より容量が小さく、RAMの場合は揮発性である。",
+          "vi": "Bộ nhớ chính nhanh nhưng thường nhỏ hơn bộ nhớ phụ; nếu là RAM thì dữ liệu sẽ mất khi mất nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "主記憶",
+          "reading": "しゅきおく",
+          "english": "Main Memory",
+          "vi": "bộ nhớ chính",
+          "definitionJa": "CPUが直接アクセスし、実行中のプログラムやデータを保持する記憶装置。",
+          "definitionVi": "Bộ nhớ CPU truy cập trực tiếp để lưu chương trình và dữ liệu đang xử lý."
+        }
+      ],
+      "tags": ["memory", "main-memory", "ram"]
+    },
+    {
+      "id": "secondary-storage",
+      "order": 12,
+      "titleJa": "補助記憶",
+      "titleVi": "Bộ nhớ phụ",
+      "importance": "high",
+      "summaryJa": "データやプログラムを長期間保存するための補助記憶について理解する。",
+      "summaryVi": "Tìm hiểu bộ nhớ phụ dùng để lưu dữ liệu và chương trình lâu dài.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "補助記憶とは",
+          "vi": "Bộ nhớ phụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "補助記憶（Secondary Storage）は、データやプログラムを長期間保存するための記憶装置である。",
+          "vi": "Secondary Storage là bộ nhớ dùng để lưu dữ liệu và chương trình trong thời gian dài."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的な装置としてHDD、SSD、USBメモリなどがあり、電源を切ってもデータを保持できる。",
+          "vi": "Các thiết bị tiêu biểu gồm HDD, SSD và USB memory, có khả năng giữ dữ liệu ngay cả khi tắt nguồn."
+        },
+        {
+          "type": "point",
+          "ja": "主記憶はCPUが直接利用する高速な記憶、補助記憶は大容量・不揮発性の長期保存用記憶である。",
+          "vi": "Bộ nhớ chính nhanh và dùng trực tiếp khi xử lý; bộ nhớ phụ có dung lượng lớn, không khả biến và dùng để lưu lâu dài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "補助記憶",
+          "reading": "ほじょきおく",
+          "english": "Secondary Storage",
+          "vi": "bộ nhớ phụ",
+          "definitionJa": "データやプログラムを長期間保存するための不揮発性の記憶装置。",
+          "definitionVi": "Bộ nhớ không khả biến dùng để lưu dữ liệu và chương trình lâu dài."
+        }
+      ],
+      "tags": ["memory", "secondary-storage", "storage"]
+    },
+    {
+      "id": "disk-cache",
+      "order": 13,
+      "titleJa": "ディスクキャッシュ",
+      "titleVi": "Bộ nhớ đệm đĩa",
+      "importance": "high",
+      "summaryJa": "ディスクアクセスを高速化するため、ディスク上のデータを一時的に保持するディスクキャッシュについて理解する。",
+      "summaryVi": "Tìm hiểu disk cache, vùng nhớ tạm dùng để tăng tốc truy cập dữ liệu trên thiết bị lưu trữ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ディスクキャッシュとは",
+          "vi": "Disk cache là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ディスクキャッシュ（Disk Cache）は、ディスクから読み出したデータやディスクへ書き込むデータを、一時的に高速なメモリへ保持する仕組みである。",
+          "vi": "Disk Cache là cơ chế tạm giữ dữ liệu đọc từ hoặc chuẩn bị ghi xuống đĩa trong một vùng nhớ nhanh."
+        },
+        {
+          "type": "paragraph",
+          "ja": "同じデータへ再度アクセスする場合などにディスクへのアクセス回数を減らすことで、処理速度を向上させる。",
+          "vi": "Khi cùng dữ liệu được truy cập lại, cache giúp giảm số lần truy cập thiết bị lưu trữ và tăng tốc xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "ディスクキャッシュの目的は、低速なディスクアクセスの回数を減らすことである。",
+          "vi": "Mục tiêu của disk cache là giảm số lần phải truy cập thiết bị lưu trữ chậm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ディスクキャッシュ",
+          "reading": "でぃすくきゃっしゅ",
+          "english": "Disk Cache",
+          "vi": "bộ nhớ đệm đĩa",
+          "definitionJa": "ディスクへのアクセスを高速化するため、ディスクデータを一時的に保持するキャッシュ。",
+          "definitionVi": "Bộ nhớ đệm tạm giữ dữ liệu đĩa nhằm tăng tốc truy cập."
+        }
+      ],
+      "tags": ["memory", "cache", "disk-cache"]
+    },
+    {
+      "id": "write-through",
+      "order": 14,
+      "titleJa": "ライトスルー",
+      "titleVi": "Ghi xuyên",
+      "importance": "high",
+      "summaryJa": "キャッシュへ書き込むと同時に主記憶にも同じデータを書き込むライトスルー方式について理解する。",
+      "summaryVi": "Tìm hiểu write-through, phương thức ghi dữ liệu đồng thời vào cache và bộ nhớ chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ライトスルーとは",
+          "vi": "Write-through là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ライトスルー（Write-Through）は、CPUがキャッシュへデータを書き込む際に、同じ内容を同時に主記憶にも書き込むキャッシュ更新方式である。",
+          "vi": "Write-through là phương thức cập nhật cache trong đó khi CPU ghi dữ liệu vào cache, cùng dữ liệu cũng được ghi ngay vào bộ nhớ chính."
+        },
+        {
+          "type": "heading",
+          "ja": "特徴",
+          "vi": "Đặc điểm"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キャッシュと主記憶の内容を常に一致させやすいため、データの整合性を保ちやすい。一方、書込みのたびに主記憶にもアクセスするため、書込み性能が低下する場合がある。",
+          "vi": "Ưu điểm là dễ duy trì tính nhất quán giữa cache và bộ nhớ chính. Tuy nhiên, vì mỗi lần ghi đều phải ghi cả xuống bộ nhớ chính nên hiệu năng ghi có thể giảm."
+        },
+        {
+          "type": "point",
+          "ja": "ライトスルーは「キャッシュと主記憶へ同時に書く」。ライトバックとの違いが重要である。",
+          "vi": "Write-through = ghi đồng thời vào cache và bộ nhớ chính. Cần phân biệt với write-back."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライトスルー",
+          "reading": "らいとするー",
+          "english": "Write-Through",
+          "vi": "ghi xuyên",
+          "definitionJa": "キャッシュへの書込みと同時に、主記憶にも同じデータを書き込む方式。",
+          "definitionVi": "Phương thức ghi dữ liệu đồng thời vào cache và bộ nhớ chính."
+        }
+      ],
+      "tags": ["memory", "cache", "write-through"]
+    },
+    {
+      "id": "write-back",
+      "order": 15,
+      "titleJa": "ライトバック",
+      "titleVi": "Ghi trả",
+      "importance": "high",
+      "summaryJa": "キャッシュ上で更新されたデータを、必要になった時点でまとめて主記憶へ書き戻すライトバック方式について理解する。",
+      "summaryVi": "Tìm hiểu write-back, phương thức chỉ ghi dữ liệu đã thay đổi từ cache xuống bộ nhớ chính khi cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ライトバックとは",
+          "vi": "Write-back là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ライトバック（Write-Back）は、CPUがキャッシュメモリ上のデータを更新した際に、すぐには主記憶へ書き込まず、後で必要になった時点でまとめて主記憶へ反映する方式である。",
+          "vi": "Write-back là phương thức khi CPU cập nhật dữ liệu trong cache thì chưa ghi ngay xuống bộ nhớ chính, mà chỉ ghi lại vào thời điểm cần thiết sau đó."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主記憶への書込み回数を減らせるため高速であるが、キャッシュと主記憶の内容が一時的に異なる場合がある。",
+          "vi": "Do giảm số lần ghi xuống bộ nhớ chính nên tốc độ cao, nhưng nội dung trong cache và bộ nhớ chính có thể tạm thời không đồng nhất."
+        },
+        {
+          "type": "point",
+          "ja": "ライトスルーは毎回主記憶へ書込み、ライトバックは後でまとめて書き戻す。",
+          "vi": "Write-through ghi xuống bộ nhớ chính mỗi lần; write-back ghi lại sau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライトバック",
+          "reading": "らいとばっく",
+          "english": "Write-Back",
+          "vi": "ghi trả",
+          "definitionJa": "キャッシュで更新したデータを、必要になった時点で主記憶へ書き戻す方式。",
+          "definitionVi": "Phương thức ghi dữ liệu đã thay đổi trong cache xuống bộ nhớ chính khi cần."
+        }
+      ],
+      "tags": ["memory", "cache", "write-back"]
+    },
+    {
+      "id": "memory-interleaving",
+      "order": 16,
+      "titleJa": "メモリインターリーブ",
+      "titleVi": "Xen kẽ bộ nhớ",
+      "importance": "high",
+      "summaryJa": "主記憶を複数のバンクに分け、並列的にアクセスすることで高速化するメモリインターリーブについて理解する。",
+      "summaryVi": "Tìm hiểu memory interleaving, kỹ thuật chia bộ nhớ thành nhiều bank để có thể truy cập xen kẽ hoặc song song nhằm tăng tốc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メモリインターリーブとは",
+          "vi": "Memory interleaving là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メモリインターリーブ（Memory Interleaving）は、主記憶を複数のメモリバンクに分割し、連続するアドレスのデータを異なるバンクへ分散して格納する方式である。",
+          "vi": "Memory Interleaving là kỹ thuật chia bộ nhớ chính thành nhiều bank và phân bố dữ liệu ở các địa chỉ liên tiếp sang các bank khác nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のバンクへ並行してアクセスすることで、メモリ全体の実効的なアクセス速度を高めることができる。",
+          "vi": "Nhờ truy cập các bank song song hoặc xen kẽ, tốc độ truy cập thực tế của hệ thống bộ nhớ được cải thiện."
+        },
+        {
+          "type": "point",
+          "ja": "メモリインターリーブは、主記憶を複数バンクに分けてアクセスを高速化する。",
+          "vi": "Memory interleaving chia bộ nhớ thành nhiều bank để tăng tốc truy cập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メモリインターリーブ",
+          "reading": "めもりいんたーりーぶ",
+          "english": "Memory Interleaving",
+          "vi": "xen kẽ bộ nhớ",
+          "definitionJa": "主記憶を複数のバンクに分割し、並列的なアクセスによって高速化する方式。",
+          "definitionVi": "Kỹ thuật chia bộ nhớ chính thành nhiều bank để tăng tốc bằng truy cập xen kẽ hoặc song song."
+        }
+      ],
+      "tags": ["memory", "memory-interleaving", "performance"]
+    },
+    {
+      "id": "read-only-type",
+      "order": 17,
+      "titleJa": "読出し専用型",
+      "titleVi": "Loại chỉ đọc",
+      "importance": "high",
+      "summaryJa": "記録済みデータの読出しはできるが、書込みや変更ができない読出し専用型について理解する。",
+      "summaryVi": "Tìm hiểu loại chỉ đọc, cho phép đọc dữ liệu đã ghi nhưng không thể ghi mới hoặc sửa đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "読出し専用型とは",
+          "vi": "Loại chỉ đọc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "読出し専用型（Read-Only Type）は、保存されているデータを読み出すことはできるが、利用者が新たに書き込んだり変更したりすることができない記憶媒体である。",
+          "vi": "Read-Only Type là loại phương tiện lưu trữ cho phép đọc dữ liệu đã có nhưng người dùng không thể ghi mới hoặc thay đổi."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表例としてCD-ROMやDVD-ROMなどがあり、配布用ソフトウェアやコンテンツの保存に利用される。",
+          "vi": "Ví dụ điển hình gồm CD-ROM và DVD-ROM, thường dùng để phân phối phần mềm hoặc nội dung."
+        },
+        {
+          "type": "point",
+          "ja": "読出し専用型は「読むだけ」で、通常は追加・変更・削除ができない。",
+          "vi": "Loại chỉ đọc chỉ cho phép đọc, thông thường không thể thêm, sửa hoặc xóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "読出し専用型",
+          "reading": "よみだしせんようがた",
+          "english": "Read-Only Type",
+          "vi": "loại chỉ đọc",
+          "definitionJa": "保存されたデータを読み出せるが、書込みや変更ができない記憶媒体。",
+          "definitionVi": "Loại phương tiện lưu trữ chỉ cho phép đọc dữ liệu, không thể ghi hoặc sửa."
+        }
+      ],
+      "tags": ["memory", "storage-media", "read-only"]
+    },
+    {
+      "id": "write-once-read-many",
+      "order": 18,
+      "titleJa": "追記型",
+      "titleVi": "Loại ghi một lần",
+      "importance": "high",
+      "summaryJa": "一度記録したデータを書き換えられず、未使用領域へ追加記録できる追記型について理解する。",
+      "summaryVi": "Tìm hiểu loại ghi một lần, dữ liệu đã ghi không thể sửa nhưng có thể ghi thêm vào vùng chưa sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "追記型とは",
+          "vi": "Loại ghi một lần là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "追記型（Write-once Read-many）は、一度書き込んだデータを書き換えたり削除したりできないが、未使用領域へ新しいデータを追加できる記憶媒体である。",
+          "vi": "Write-once Read-many là loại phương tiện mà dữ liệu đã ghi không thể sửa hoặc xóa, nhưng vẫn có thể ghi thêm dữ liệu mới vào vùng chưa sử dụng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表例としてCD-RやDVD-Rがあり、変更してはいけないデータの長期保存やアーカイブに適している。",
+          "vi": "Ví dụ gồm CD-R và DVD-R, phù hợp để lưu trữ lâu dài hoặc archive những dữ liệu không nên bị sửa đổi."
+        },
+        {
+          "type": "point",
+          "ja": "追記型は、一度書いた場所は変更できないが、空き領域には追加できる。",
+          "vi": "Loại ghi một lần không sửa được vùng đã ghi, nhưng có thể ghi thêm vào vùng trống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "追記型",
+          "reading": "ついきがた",
+          "english": "Write-once Read-many",
+          "vi": "loại ghi một lần, đọc nhiều lần",
+          "definitionJa": "一度書き込んだデータは変更できず、未使用領域への追加記録が可能な方式。",
+          "definitionVi": "Loại lưu trữ không thể sửa dữ liệu đã ghi nhưng có thể ghi thêm vào vùng chưa sử dụng."
+        }
+      ],
+      "tags": ["memory", "storage-media", "write-once"]
+    },
+    {
+      "id": "rewritable",
+      "order": 19,
+      "titleJa": "書換型",
+      "titleVi": "Loại có thể ghi lại",
+      "importance": "high",
+      "summaryJa": "保存済みデータを消去し、繰り返し書き換えることができる書換型について理解する。",
+      "summaryVi": "Tìm hiểu loại có thể ghi lại, cho phép xóa và ghi lại dữ liệu nhiều lần.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "書換型とは",
+          "vi": "Loại ghi lại là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "書換型（Rewritable）は、保存済みのデータを消去したり変更したりし、繰り返し新しいデータを書き込むことができる記憶媒体である。",
+          "vi": "Rewritable là loại phương tiện lưu trữ cho phép xóa hoặc thay đổi dữ liệu đã có và ghi dữ liệu mới nhiều lần."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CD-RW、DVD-RW、USBメモリなどが代表的な例であり、データの更新が必要な用途に適している。",
+          "vi": "Các ví dụ tiêu biểu gồm CD-RW, DVD-RW và USB memory, phù hợp với các trường hợp cần cập nhật dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "読出し専用型、追記型、書換型の違いを区別する。",
+          "vi": "Cần phân biệt rõ: chỉ đọc, ghi một lần và có thể ghi lại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "書換型",
+          "reading": "かきかえがた",
+          "english": "Rewritable",
+          "vi": "loại có thể ghi lại",
+          "definitionJa": "保存したデータを消去・変更し、繰り返し書き込める記憶媒体。",
+          "definitionVi": "Loại phương tiện cho phép xóa, sửa và ghi dữ liệu nhiều lần."
+        }
+      ],
+      "tags": ["memory", "storage-media", "rewritable"]
+    },
+    {
+      "id": "hard-disk-drive",
+      "order": 20,
+      "titleJa": "ハードディスク",
+      "titleVi": "Ổ đĩa cứng",
+      "importance": "high",
+      "summaryJa": "磁気ディスクを高速回転させ、磁気ヘッドでデータを読み書きするハードディスクについて理解する。",
+      "summaryVi": "Tìm hiểu HDD, thiết bị lưu trữ dùng đĩa từ quay và đầu đọc/ghi từ tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハードディスクとは",
+          "vi": "Ổ cứng HDD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハードディスク（Hard Disk Drive）は、磁性体を塗布した円盤を高速回転させ、磁気ヘッドを使ってデータを読み書きする補助記憶装置である。",
+          "vi": "Hard Disk Drive là thiết bị lưu trữ phụ sử dụng các đĩa từ quay tốc độ cao và đầu từ để đọc/ghi dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "大容量で比較的低価格という利点があるが、機械的な駆動部分を持つため、SSDよりアクセス速度が遅く、衝撃にも弱い。",
+          "vi": "HDD có ưu điểm dung lượng lớn và giá thành tương đối thấp, nhưng chậm hơn SSD và nhạy với va đập do có bộ phận cơ khí chuyển động."
+        },
+        {
+          "type": "point",
+          "ja": "HDDは磁気・機械式、SSDは半導体・可動部なし。",
+          "vi": "HDD dùng từ tính và cơ khí; SSD dùng bán dẫn và không có bộ phận chuyển động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハードディスク",
+          "reading": "はーどでぃすく",
+          "english": "Hard Disk Drive",
+          "vi": "ổ đĩa cứng HDD",
+          "definitionJa": "回転する磁気ディスクと磁気ヘッドを用いてデータを保存する補助記憶装置。",
+          "definitionVi": "Thiết bị lưu trữ dùng đĩa từ quay và đầu từ để lưu dữ liệu."
+        }
+      ],
+      "tags": ["memory", "storage", "hdd"]
+    },
+    {
+      "id": "ssd",
+      "order": 21,
+      "titleJa": "SSD",
+      "titleVi": "Ổ SSD",
+      "importance": "high",
+      "summaryJa": "フラッシュメモリを利用し、可動部を持たず高速にアクセスできるSSDについて理解する。",
+      "summaryVi": "Tìm hiểu SSD, thiết bị lưu trữ dùng flash memory, không có bộ phận chuyển động và có tốc độ cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SSDとは",
+          "vi": "SSD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SSD（Solid State Drive）は、主にNAND型フラッシュメモリを使用してデータを保存する補助記憶装置である。",
+          "vi": "SSD (Solid State Drive) là thiết bị lưu trữ phụ chủ yếu sử dụng NAND flash memory để lưu dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "機械的な可動部がないため、HDDと比べて高速で、耐衝撃性や静音性にも優れている。",
+          "vi": "Do không có bộ phận cơ khí chuyển động nên SSD nhanh hơn HDD và có khả năng chịu sốc cũng như hoạt động yên tĩnh hơn."
+        },
+        {
+          "type": "point",
+          "ja": "SSDは高速・耐衝撃性が高いが、一般に容量当たりの価格はHDDより高い。",
+          "vi": "SSD nhanh và chịu sốc tốt, nhưng thường có giá trên mỗi GB cao hơn HDD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SSD",
+          "reading": "えすえすでぃー",
+          "english": "Solid State Drive",
+          "vi": "ổ trạng thái rắn",
+          "definitionJa": "主にフラッシュメモリを利用してデータを保存する、可動部を持たない補助記憶装置。",
+          "definitionVi": "Thiết bị lưu trữ không có bộ phận chuyển động, chủ yếu dùng flash memory."
+        }
+      ],
+      "tags": ["memory", "storage", "ssd", "flash"]
+    },
+    {
+      "id": "cd",
+      "order": 22,
+      "titleJa": "CD",
+      "titleVi": "Đĩa CD",
+      "importance": "medium",
+      "summaryJa": "レーザ光を利用してデジタルデータを記録・再生する光ディスクであるCDについて理解する。",
+      "summaryVi": "Tìm hiểu CD, loại đĩa quang dùng tia laser để lưu và đọc dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CDとは",
+          "vi": "CD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CD（Compact Disc）は、レーザ光を使ってデータを読み取る光ディスクの一種である。",
+          "vi": "CD (Compact Disc) là một loại đĩa quang sử dụng tia laser để đọc dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "CD-ROMは読出し専用、CD-Rは追記型、CD-RWは書換型として利用される。",
+          "vi": "CD-ROM là loại chỉ đọc, CD-R là loại ghi một lần và CD-RW là loại có thể ghi lại."
+        },
+        {
+          "type": "point",
+          "ja": "CD-ROM、CD-R、CD-RWの記録方式の違いを覚える。",
+          "vi": "Cần nhớ sự khác nhau giữa CD-ROM, CD-R và CD-RW."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CD",
+          "reading": "しーでぃー",
+          "english": "Compact Disc",
+          "vi": "đĩa CD",
+          "definitionJa": "レーザ光を用いてデータを読み書きする光ディスク。",
+          "definitionVi": "Đĩa quang sử dụng tia laser để đọc hoặc ghi dữ liệu."
+        }
+      ],
+      "tags": ["memory", "optical-disc", "cd"]
+    },
+    {
+      "id": "dvd",
+      "order": 23,
+      "titleJa": "DVD",
+      "titleVi": "Đĩa DVD",
+      "importance": "medium",
+      "summaryJa": "CDより大きな容量を持つ光ディスクであるDVDについて理解する。",
+      "summaryVi": "Tìm hiểu DVD, loại đĩa quang có dung lượng lớn hơn CD.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DVDとは",
+          "vi": "DVD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DVD（Digital Versatile Disc）は、CDよりも大きな容量を持つ光ディスクであり、映像やソフトウェアなどの保存に利用される。",
+          "vi": "DVD (Digital Versatile Disc) là loại đĩa quang có dung lượng lớn hơn CD, dùng để lưu phim, phần mềm và các dữ liệu khác."
+        },
+        {
+          "type": "paragraph",
+          "ja": "DVD-ROMは読出し専用、DVD-Rは追記型、DVD-RWなどは書換型である。",
+          "vi": "DVD-ROM là loại chỉ đọc, DVD-R là loại ghi một lần và DVD-RW là loại có thể ghi lại."
+        },
+        {
+          "type": "point",
+          "ja": "記憶容量は一般にCDよりDVDの方が大きい。",
+          "vi": "Dung lượng của DVD nhìn chung lớn hơn CD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DVD",
+          "reading": "でぃーぶいでぃー",
+          "english": "Digital Versatile Disc",
+          "vi": "đĩa DVD",
+          "definitionJa": "CDより大容量で、映像やデータ保存に利用される光ディスク。",
+          "definitionVi": "Đĩa quang có dung lượng lớn hơn CD, dùng để lưu video và dữ liệu."
+        }
+      ],
+      "tags": ["memory", "optical-disc", "dvd"]
+    },
+    {
+      "id": "blu-ray-disc",
+      "order": 24,
+      "titleJa": "ブルーレイディスク",
+      "titleVi": "Đĩa Blu-ray",
+      "importance": "medium",
+      "summaryJa": "DVDより大容量で、高精細映像などの保存に利用されるブルーレイディスクについて理解する。",
+      "summaryVi": "Tìm hiểu Blu-ray Disc, đĩa quang dung lượng lớn hơn DVD và thường dùng để lưu video độ phân giải cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ブルーレイディスクとは",
+          "vi": "Blu-ray Disc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ブルーレイディスク（Blu-ray Disc）は、青紫色レーザを利用して高密度にデータを記録する光ディスクである。",
+          "vi": "Blu-ray Disc là loại đĩa quang sử dụng tia laser xanh tím để ghi dữ liệu với mật độ cao."
+        },
+        {
+          "type": "paragraph",
+          "ja": "DVDより大きな容量を持ち、高精細な映像や大容量データの保存に利用される。",
+          "vi": "Blu-ray có dung lượng lớn hơn DVD và được dùng để lưu video độ phân giải cao hoặc lượng dữ liệu lớn."
+        },
+        {
+          "type": "point",
+          "ja": "一般に記憶容量は CD ＜ DVD ＜ Blu-ray Disc の順に大きくなる。",
+          "vi": "Thông thường dung lượng tăng theo thứ tự: CD < DVD < Blu-ray Disc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ブルーレイディスク",
+          "reading": "ぶるーれいでぃすく",
+          "english": "Blu-ray Disc",
+          "vi": "đĩa Blu-ray",
+          "definitionJa": "青紫色レーザを利用し、DVDより大容量のデータを保存できる光ディスク。",
+          "definitionVi": "Đĩa quang dùng laser xanh tím và có dung lượng lớn hơn DVD."
+        }
+      ],
+      "tags": ["memory", "optical-disc", "blu-ray"]
+    },
+    {
+      "id": "flash-memory",
+      "order": 25,
+      "titleJa": "フラッシュメモリ",
+      "titleVi": "Bộ nhớ flash",
+      "importance": "high",
+      "summaryJa": "電気的にデータの書込みと消去ができ、電源を切っても内容を保持するフラッシュメモリについて理解する。",
+      "summaryVi": "Tìm hiểu flash memory, bộ nhớ có thể ghi/xóa bằng điện và giữ dữ liệu khi mất nguồn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フラッシュメモリとは",
+          "vi": "Flash memory là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フラッシュメモリ（Flash Memory）は、電気的にデータを書き込んだり消去したりできる不揮発性の半導体メモリである。",
+          "vi": "Flash Memory là bộ nhớ bán dẫn không khả biến, có thể ghi và xóa dữ liệu bằng điện."
+        },
+        {
+          "type": "paragraph",
+          "ja": "SSD、USBメモリ、SDカードなどで広く利用され、電源を切ってもデータを保持できる。",
+          "vi": "Flash memory được sử dụng rộng rãi trong SSD, USB memory và SD card, đồng thời vẫn giữ dữ liệu khi tắt nguồn."
+        },
+        {
+          "type": "point",
+          "ja": "フラッシュメモリは不揮発性で書換え可能だが、書換え回数には限界がある。",
+          "vi": "Flash memory không mất dữ liệu và có thể ghi lại, nhưng số lần ghi/xóa có giới hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フラッシュメモリ",
+          "reading": "ふらっしゅめもり",
+          "english": "Flash Memory",
+          "vi": "bộ nhớ flash",
+          "definitionJa": "電気的に書込み・消去ができ、電源を切っても内容を保持する半導体メモリ。",
+          "definitionVi": "Bộ nhớ bán dẫn không khả biến, có thể ghi và xóa dữ liệu bằng điện."
+        }
+      ],
+      "tags": ["memory", "flash-memory", "non-volatile"]
+    },
+    {
+      "id": "streamer",
+      "order": 26,
+      "titleJa": "ストリーマ",
+      "titleVi": "Ổ băng từ",
+      "importance": "medium",
+      "summaryJa": "磁気テープへデータを順次記録し、大容量データのバックアップなどに利用されるストリーマについて理解する。",
+      "summaryVi": "Tìm hiểu streamer, thiết bị ghi dữ liệu tuần tự lên băng từ, thường dùng cho backup dung lượng lớn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ストリーマとは",
+          "vi": "Streamer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ストリーマ（Streamer）は、磁気テープを記録媒体として利用し、データを順番に記録・再生する補助記憶装置である。",
+          "vi": "Streamer là thiết bị lưu trữ phụ sử dụng băng từ để ghi và đọc dữ liệu theo thứ tự."
+        },
+        {
+          "type": "paragraph",
+          "ja": "大容量のデータを比較的低コストで保存できるため、バックアップや長期アーカイブに利用されることが多い。",
+          "vi": "Do có thể lưu lượng dữ liệu lớn với chi phí tương đối thấp, streamer thường được dùng cho backup và archive dài hạn."
+        },
+        {
+          "type": "point",
+          "ja": "磁気テープは順次アクセスのため、ランダムアクセスには向かない。",
+          "vi": "Băng từ sử dụng truy cập tuần tự nên không phù hợp với random access."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ストリーマ",
+          "reading": "すとりーま",
+          "english": "Streamer",
+          "vi": "ổ băng từ",
+          "definitionJa": "磁気テープへデータを順次記録し、主にバックアップに利用する装置。",
+          "definitionVi": "Thiết bị ghi dữ liệu tuần tự lên băng từ, chủ yếu dùng cho backup."
+        }
+      ],
+      "tags": ["memory", "magnetic-tape", "backup"]
+    },
+    {
+      "id": "ram-file",
+      "order": 27,
+      "titleJa": "RAMファイル",
+      "titleVi": "Tệp RAM",
+      "importance": "medium",
+      "summaryJa": "RAM上に領域を確保し、ファイルのように利用することで高速なアクセスを実現するRAMファイルについて理解する。",
+      "summaryVi": "Tìm hiểu RAM file, vùng dữ liệu trên RAM được sử dụng như tệp để đạt tốc độ truy cập cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAMファイルとは",
+          "vi": "RAM file là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "RAMファイル（RAM File）は、RAM上の一部領域をファイルや記憶装置のように利用する仕組みである。",
+          "vi": "RAM File là cơ chế sử dụng một phần vùng RAM như tệp hoặc thiết bị lưu trữ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "HDDやSSDよりも高速にアクセスできるため、一時ファイルや高速な作業領域として利用できる。",
+          "vi": "Do tốc độ truy cập cao hơn HDD hoặc SSD, nó có thể được dùng cho file tạm hoặc vùng làm việc tốc độ cao."
+        },
+        {
+          "type": "point",
+          "ja": "RAM上に保存するため高速だが、通常は電源を切ると内容が失われる。",
+          "vi": "Do nằm trên RAM nên rất nhanh, nhưng dữ liệu thường mất khi tắt nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAMファイル",
+          "reading": "らむふぁいる",
+          "english": "RAM File",
+          "vi": "tệp RAM",
+          "definitionJa": "RAM上の領域をファイルや記憶装置のように利用する仕組み。",
+          "definitionVi": "Cơ chế dùng một vùng RAM như tệp hoặc thiết bị lưu trữ."
+        }
+      ],
+      "tags": ["memory", "ram", "ram-file"]
+    },
+    {
+      "id": "wear-leveling",
+      "order": 28,
+      "titleJa": "ウェアレベリング",
+      "titleVi": "Cân bằng hao mòn",
+      "importance": "high",
+      "summaryJa": "フラッシュメモリの特定セルへの書込み集中を防ぎ、寿命を延ばすウェアレベリングについて理解する。",
+      "summaryVi": "Tìm hiểu wear leveling, kỹ thuật phân tán việc ghi trên các ô flash để tránh hao mòn tập trung và kéo dài tuổi thọ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ウェアレベリングとは",
+          "vi": "Wear leveling là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ウェアレベリング（Wear Leveling）は、フラッシュメモリの特定の記憶セルだけに書込みが集中しないよう、書込み位置を分散させる技術である。",
+          "vi": "Wear Leveling là kỹ thuật phân bố việc ghi dữ liệu giữa nhiều ô nhớ flash để tránh ghi lặp lại quá nhiều vào một số ô nhất định."
+        },
+        {
+          "type": "paragraph",
+          "ja": "フラッシュメモリには書換え回数の上限があるため、各セルの使用回数をできるだけ均等にすることで、SSDやUSBメモリなどの寿命を延ばすことができる。",
+          "vi": "Do flash memory có giới hạn số lần ghi/xóa, việc phân bố số lần sử dụng đều giữa các ô giúp kéo dài tuổi thọ SSD và USB memory."
+        },
+        {
+          "type": "point",
+          "ja": "ウェアレベリングの目的は、フラッシュメモリの書換え回数を均等化して寿命を延ばすことである。",
+          "vi": "Mục đích của wear leveling là phân bố đều số lần ghi/xóa để kéo dài tuổi thọ flash memory."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウェアレベリング",
+          "reading": "うぇあれべりんぐ",
+          "english": "Wear Leveling",
+          "vi": "cân bằng hao mòn",
+          "definitionJa": "フラッシュメモリへの書込みを分散させ、各セルの劣化を均等化して寿命を延ばす技術。",
+          "definitionVi": "Kỹ thuật phân bố thao tác ghi trên flash memory để cân bằng hao mòn và kéo dài tuổi thọ."
+        }
+      ],
+      "tags": ["memory", "flash-memory", "ssd", "wear-leveling"]
+    }
+  ]
+}

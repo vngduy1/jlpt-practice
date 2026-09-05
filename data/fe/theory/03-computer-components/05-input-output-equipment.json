@@ -1,0 +1,2452 @@
+{
+  "id": "input-output-equipment",
+  "order": 5,
+  "titleJa": "入出力装置",
+  "titleVi": "Thiết bị nhập xuất",
+  "lessons": [
+    {
+      "id": "pointing-device",
+      "order": 1,
+      "titleJa": "ポインティングデバイス",
+      "titleVi": "Thiết bị trỏ",
+      "importance": "high",
+      "summaryJa": "画面上のカーソルを動かしたり、位置を選択したりするための入力装置であるポインティングデバイスについて理解する。",
+      "summaryVi": "Tìm hiểu thiết bị trỏ, thiết bị nhập dùng để di chuyển con trỏ hoặc chọn vị trí trên màn hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ポインティングデバイスとは",
+          "vi": "Thiết bị trỏ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ポインティングデバイス（Pointing Device）は、コンピュータなどを操作するための入力装置であり、主に画面上のカーソルを移動したり、特定の位置を選択したりするために使用される。",
+          "vi": "Pointing Device là thiết bị nhập dùng để điều khiển máy tính, chủ yếu để di chuyển con trỏ trên màn hình hoặc chọn một vị trí cụ thể."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表的なものには、マウス、タッチパッド、トラックボールなどがある。グラフィカルなインタフェースを直感的に操作するために広く利用されている。",
+          "vi": "Các ví dụ tiêu biểu gồm chuột, touchpad và trackball. Chúng được sử dụng rộng rãi để thao tác giao diện đồ họa một cách trực quan."
+        },
+        {
+          "type": "point",
+          "ja": "マウス、タッチパッド、トラックボールなどはポインティングデバイスの代表例である。",
+          "vi": "Chuột, touchpad và trackball là các thiết bị trỏ tiêu biểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ポインティングデバイス",
+          "reading": "ぽいんてぃんぐでばいす",
+          "english": "Pointing Device",
+          "vi": "thiết bị trỏ",
+          "definitionJa": "画面上のカーソル移動や位置選択などに使用する入力装置。",
+          "definitionVi": "Thiết bị nhập dùng để di chuyển con trỏ hoặc chọn vị trí trên màn hình."
+        }
+      ],
+      "tags": ["input-output", "input-device", "pointing-device"]
+    },
+    {
+      "id": "mouse",
+      "order": 2,
+      "titleJa": "マウス",
+      "titleVi": "Chuột",
+      "importance": "high",
+      "summaryJa": "手で動かして画面上のカーソルを操作する代表的な入力装置であるマウスについて理解する。",
+      "summaryVi": "Tìm hiểu chuột, thiết bị nhập phổ biến dùng để điều khiển con trỏ trên màn hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マウスとは",
+          "vi": "Chuột là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マウス（Mouse）は、手のひらで持って動かすことで画面上のカーソルを移動させる入力装置である。",
+          "vi": "Mouse là thiết bị nhập được cầm và di chuyển bằng tay để điều khiển con trỏ trên màn hình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般的には左右のボタンを備え、クリックによる選択やファイルを開く操作などを行う。スクロールホイールを備えた製品も多い。",
+          "vi": "Chuột thường có nút trái, nút phải để chọn hoặc mở tệp và thường có bánh xe cuộn."
+        },
+        {
+          "type": "point",
+          "ja": "マウスは最も一般的なポインティングデバイスの一つである。",
+          "vi": "Chuột là một trong những thiết bị trỏ phổ biến nhất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マウス",
+          "reading": "まうす",
+          "english": "Mouse",
+          "vi": "chuột",
+          "definitionJa": "手で動かして画面上のカーソルを操作する入力装置。",
+          "definitionVi": "Thiết bị nhập dùng tay để di chuyển và điều khiển con trỏ."
+        }
+      ],
+      "tags": ["input-output", "input-device", "mouse"]
+    },
+    {
+      "id": "touch-panel-touch-screen",
+      "order": 3,
+      "titleJa": "タッチパネル・タッチスクリーン",
+      "titleVi": "Màn hình cảm ứng",
+      "importance": "high",
+      "summaryJa": "画面に直接触れることで入力操作を行うタッチパネル・タッチスクリーンについて理解する。",
+      "summaryVi": "Tìm hiểu màn hình cảm ứng, cho phép thao tác trực tiếp bằng cách chạm vào màn hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "タッチパネル・タッチスクリーンとは",
+          "vi": "Màn hình cảm ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "タッチパネル・タッチスクリーン（Touch Panel / Touch Screen）は、ユーザーが画面に直接触れることで操作を行うことができる装置である。",
+          "vi": "Touch Panel / Touch Screen là thiết bị cho phép người dùng thao tác bằng cách chạm trực tiếp vào màn hình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "スマートフォン、タブレット、ATMなどに広く採用されており、ボタンやスイッチなどの物理的な入力装置を減らすことができる。",
+          "vi": "Công nghệ này được sử dụng rộng rãi trên smartphone, tablet và ATM, giúp giảm nhu cầu sử dụng nút bấm vật lý."
+        },
+        {
+          "type": "point",
+          "ja": "表示装置と入力装置の機能を一体化できる。",
+          "vi": "Có thể kết hợp chức năng hiển thị và nhập liệu trong cùng một thiết bị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "タッチパネル・タッチスクリーン",
+          "reading": "たっちぱねる・たっちすくりーん",
+          "english": "Touch Panel / Touch Screen",
+          "vi": "màn hình cảm ứng",
+          "definitionJa": "画面へ直接触れることで入力や操作を行う装置。",
+          "definitionVi": "Thiết bị cho phép nhập và thao tác bằng cách chạm trực tiếp vào màn hình."
+        }
+      ],
+      "tags": ["input-output", "input-device", "touch-screen"]
+    },
+    {
+      "id": "joystick",
+      "order": 4,
+      "titleJa": "ジョイスティック",
+      "titleVi": "Cần điều khiển",
+      "importance": "medium",
+      "summaryJa": "棒状の操作部を傾けたり回したりして方向や動きを制御するジョイスティックについて理解する。",
+      "summaryVi": "Tìm hiểu joystick, thiết bị điều khiển chuyển động hoặc hướng bằng một cần điều khiển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ジョイスティックとは",
+          "vi": "Joystick là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ジョイスティック（Joystick）は、棒状の操作部を傾けたり回したりして、カーソルやキャラクターなどの方向や動きを操作する入力装置である。",
+          "vi": "Joystick là thiết bị nhập sử dụng cần điều khiển để điều khiển hướng hoặc chuyển động của con trỏ hay nhân vật."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ゲームやシミュレーションソフトで利用されることが多く、飛行機の操縦や車のレースゲームなどで直感的な操作を行うことができる。",
+          "vi": "Joystick thường được dùng trong trò chơi và phần mềm mô phỏng, chẳng hạn điều khiển máy bay hoặc xe trong game đua xe."
+        },
+        {
+          "type": "point",
+          "ja": "方向を連続的に操作したい用途に適している。",
+          "vi": "Phù hợp với các ứng dụng cần điều khiển hướng liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ジョイスティック",
+          "reading": "じょいすてぃっく",
+          "english": "Joystick",
+          "vi": "cần điều khiển",
+          "definitionJa": "棒状の操作部を動かして方向や動きを入力する装置。",
+          "definitionVi": "Thiết bị nhập sử dụng cần để điều khiển hướng hoặc chuyển động."
+        }
+      ],
+      "tags": ["input-output", "input-device", "joystick"]
+    },
+    {
+      "id": "trackball",
+      "order": 5,
+      "titleJa": "トラックボール",
+      "titleVi": "Trackball",
+      "importance": "medium",
+      "summaryJa": "球状のボールを手で回転させてカーソルを操作するトラックボールについて理解する。",
+      "summaryVi": "Tìm hiểu trackball, thiết bị dùng quả cầu xoay bằng tay để điều khiển con trỏ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "トラックボールとは",
+          "vi": "Trackball là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "トラックボール（Trackball）は、装置に取り付けられた球状のボールを手で回転させることで画面上のカーソルを操作する入力装置である。",
+          "vi": "Trackball là thiết bị nhập sử dụng một quả cầu được gắn cố định, người dùng xoay quả cầu để điều khiển con trỏ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "本体を動かす必要がないため、狭い場所でも使用でき、手首の負担を軽減できる特徴がある。",
+          "vi": "Do không cần di chuyển toàn bộ thiết bị, trackball phù hợp với không gian hẹp và có thể giảm gánh nặng cho cổ tay."
+        },
+        {
+          "type": "point",
+          "ja": "マウスとは異なり、本体ではなくボールを回転させてカーソルを動かす。",
+          "vi": "Khác với chuột, trackball giữ nguyên thân thiết bị và xoay quả cầu để di chuyển con trỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トラックボール",
+          "reading": "とらっくぼーる",
+          "english": "Trackball",
+          "vi": "trackball",
+          "definitionJa": "球状のボールを回転させてカーソルを操作する入力装置。",
+          "definitionVi": "Thiết bị nhập dùng quả cầu xoay để điều khiển con trỏ."
+        }
+      ],
+      "tags": ["input-output", "input-device", "trackball"]
+    },
+    {
+      "id": "digitizer",
+      "order": 6,
+      "titleJa": "デジタイザー",
+      "titleVi": "Bộ số hóa",
+      "importance": "high",
+      "summaryJa": "図形や位置などのアナログ情報をコンピュータで扱えるデジタルデータに変換するデジタイザーについて理解する。",
+      "summaryVi": "Tìm hiểu digitizer, thiết bị chuyển thông tin analog như hình vẽ hoặc vị trí thành dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタイザーとは",
+          "vi": "Digitizer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタイザー（Digitizer）は、アナログデータをデジタル形式へ変換し、コンピュータで処理できるようにする装置である。",
+          "vi": "Digitizer là thiết bị chuyển dữ liệu analog sang dạng kỹ thuật số để máy tính có thể xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、タブレット上でスタイラスペンを使って描いた図形や手の動きをデジタルデータとして取り込む用途がある。",
+          "vi": "Ví dụ, chuyển nét vẽ và chuyển động của bút stylus trên bảng vẽ thành dữ liệu số."
+        },
+        {
+          "type": "point",
+          "ja": "デジタイザーはアナログ情報をデジタル化する装置である。",
+          "vi": "Digitizer là thiết bị số hóa thông tin analog."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタイザー",
+          "reading": "でじたいざー",
+          "english": "Digitizer",
+          "vi": "bộ số hóa",
+          "definitionJa": "図形や位置などのアナログ情報をデジタルデータに変換する装置。",
+          "definitionVi": "Thiết bị chuyển thông tin analog như hình vẽ hoặc vị trí thành dữ liệu số."
+        }
+      ],
+      "tags": ["input-output", "input-device", "digitizer"]
+    },
+    {
+      "id": "pen-tablet",
+      "order": 7,
+      "titleJa": "ペンタブレット",
+      "titleVi": "Bảng vẽ điện tử",
+      "importance": "medium",
+      "summaryJa": "ペンを利用して手書き入力や描画を行うためのペンタブレットについて理解する。",
+      "summaryVi": "Tìm hiểu bảng vẽ điện tử, thiết bị dùng bút để viết hoặc vẽ trực tiếp vào máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ペンタブレットとは",
+          "vi": "Bảng vẽ điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ペンタブレット（Pen Tablet）は、専用のペンを使って手書き文字や図形をコンピュータへ入力するための装置である。",
+          "vi": "Pen Tablet là thiết bị dùng bút chuyên dụng để nhập chữ viết tay hoặc hình vẽ vào máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "表面には感圧センサなどがあり、ペンの圧力や傾きに応じて線の太さや濃さを変化させることができる。",
+          "vi": "Bề mặt có cảm biến áp lực, cho phép thay đổi độ dày hoặc độ đậm của nét theo lực nhấn và độ nghiêng của bút."
+        },
+        {
+          "type": "point",
+          "ja": "イラスト制作やデザイン、手書き入力などに適している。",
+          "vi": "Phù hợp cho vẽ minh họa, thiết kế và nhập chữ viết tay."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ペンタブレット",
+          "reading": "ぺんたぶれっと",
+          "english": "Pen Tablet",
+          "vi": "bảng vẽ điện tử",
+          "definitionJa": "専用ペンで文字や図形を入力するための入力装置。",
+          "definitionVi": "Thiết bị nhập sử dụng bút chuyên dụng để viết hoặc vẽ."
+        }
+      ],
+      "tags": ["input-output", "input-device", "pen-tablet"]
+    },
+    {
+      "id": "keyboard",
+      "order": 8,
+      "titleJa": "キーボード",
+      "titleVi": "Bàn phím",
+      "importance": "high",
+      "summaryJa": "文字、数字、記号などを入力する代表的な入力装置であるキーボードについて理解する。",
+      "summaryVi": "Tìm hiểu bàn phím, thiết bị nhập tiêu biểu dùng để nhập chữ, số và ký hiệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キーボードとは",
+          "vi": "Bàn phím là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キーボード（Keyboard）は、文字、数字、記号などをコンピュータへ入力するための代表的な入力装置である。",
+          "vi": "Keyboard là thiết bị nhập phổ biến dùng để nhập chữ, số và ký hiệu vào máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "文字キーのほか、数値入力用のキーやファンクションキーなどを備え、文書作成やプログラミングなど幅広い用途で利用される。",
+          "vi": "Ngoài phím ký tự còn có phím số và phím chức năng, được dùng rộng rãi trong soạn thảo văn bản, lập trình và nhiều công việc khác."
+        },
+        {
+          "type": "point",
+          "ja": "文字入力の基本的な入力装置である。",
+          "vi": "Đây là thiết bị nhập cơ bản dùng cho nhập văn bản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キーボード",
+          "reading": "きーぼーど",
+          "english": "Keyboard",
+          "vi": "bàn phím",
+          "definitionJa": "キーを押すことで文字、数字、記号などを入力する装置。",
+          "definitionVi": "Thiết bị nhập chữ, số và ký hiệu bằng cách nhấn phím."
+        }
+      ],
+      "tags": ["input-output", "input-device", "keyboard"]
+    },
+    {
+      "id": "voice-input-device",
+      "order": 9,
+      "titleJa": "音声入力装置",
+      "titleVi": "Thiết bị nhập bằng giọng nói",
+      "importance": "medium",
+      "summaryJa": "音声を利用してコンピュータへ情報や指示を入力する音声入力装置について理解する。",
+      "summaryVi": "Tìm hiểu thiết bị nhập giọng nói, dùng âm thanh để nhập thông tin hoặc lệnh vào máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "音声入力装置とは",
+          "vi": "Thiết bị nhập giọng nói là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "音声入力装置（Voice Input Device）は、人の声を利用してコンピュータやスマートフォンへ指示やデータを入力するための装置である。",
+          "vi": "Voice Input Device là thiết bị dùng giọng nói để nhập dữ liệu hoặc lệnh vào máy tính hay smartphone."
+        },
+        {
+          "type": "paragraph",
+          "ja": "マイクロフォンと音声認識技術を組み合わせ、話した内容を文字や命令として処理する。",
+          "vi": "Thiết bị kết hợp microphone và công nghệ nhận dạng giọng nói để xử lý lời nói thành văn bản hoặc lệnh."
+        },
+        {
+          "type": "point",
+          "ja": "手を使わずに操作できる点が特徴である。",
+          "vi": "Đặc điểm là có thể thao tác mà không cần dùng tay."
+        }
+      ],
+      "terms": [
+        {
+          "term": "音声入力装置",
+          "reading": "おんせいにゅうりょくそうち",
+          "english": "Voice Input Device",
+          "vi": "thiết bị nhập giọng nói",
+          "definitionJa": "音声を利用して情報や命令を入力するための装置。",
+          "definitionVi": "Thiết bị dùng giọng nói để nhập thông tin hoặc lệnh."
+        }
+      ],
+      "tags": ["input-output", "input-device", "voice"]
+    },
+    {
+      "id": "scanner",
+      "order": 10,
+      "titleJa": "スキャナー",
+      "titleVi": "Máy quét",
+      "importance": "high",
+      "summaryJa": "紙の文書や画像を読み取り、デジタルデータへ変換するスキャナーについて理解する。",
+      "summaryVi": "Tìm hiểu máy quét, thiết bị đọc tài liệu hoặc hình ảnh trên giấy và chuyển thành dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スキャナーとは",
+          "vi": "Máy quét là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スキャナー（Scanner）は、紙に印刷された文書や画像を光学的に読み取り、デジタルデータへ変換する入力装置である。",
+          "vi": "Scanner là thiết bị nhập dùng phương pháp quang học để đọc tài liệu hoặc hình ảnh trên giấy rồi chuyển thành dữ liệu số."
+        },
+        {
+          "type": "paragraph",
+          "ja": "文書をPDFとして保存したり、写真をデジタル画像として取り込んだりする場合に利用される。",
+          "vi": "Có thể dùng để lưu tài liệu thành PDF hoặc số hóa ảnh giấy."
+        },
+        {
+          "type": "point",
+          "ja": "紙媒体をデジタルデータへ変換する代表的な入力装置である。",
+          "vi": "Là thiết bị nhập tiêu biểu để chuyển tài liệu giấy thành dữ liệu số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スキャナー",
+          "reading": "すきゃなー",
+          "english": "Scanner",
+          "vi": "máy quét",
+          "definitionJa": "文書や画像を光学的に読み取り、デジタル化する入力装置。",
+          "definitionVi": "Thiết bị đọc quang học tài liệu hoặc hình ảnh và chuyển thành dữ liệu số."
+        }
+      ],
+      "tags": ["input-output", "input-device", "scanner"]
+    },
+    {
+      "id": "ocr",
+      "order": 11,
+      "titleJa": "OCR",
+      "titleVi": "Nhận dạng ký tự quang học",
+      "importance": "high",
+      "summaryJa": "画像やスキャン文書に含まれる文字を認識し、文字データに変換するOCRについて理解する。",
+      "summaryVi": "Tìm hiểu OCR, công nghệ nhận dạng chữ trong ảnh hoặc tài liệu quét và chuyển thành dữ liệu văn bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OCRとは",
+          "vi": "OCR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "OCR（Optical Character Recognition）は、画像やスキャンした文書に含まれる文字を認識し、コンピュータで扱える文字データへ変換する技術である。",
+          "vi": "OCR (Optical Character Recognition) là công nghệ nhận dạng chữ trong ảnh hoặc tài liệu quét và chuyển thành dữ liệu văn bản mà máy tính có thể xử lý."
+        },
+        {
+          "type": "paragraph",
+          "ja": "印刷された文書や手書き文字などを編集可能なテキストへ変換することで、文書管理や検索を効率化できる。",
+          "vi": "OCR giúp chuyển tài liệu in hoặc chữ viết tay thành văn bản có thể chỉnh sửa, hỗ trợ quản lý và tìm kiếm tài liệu."
+        },
+        {
+          "type": "point",
+          "ja": "OCRは「文字」を読み取る。",
+          "vi": "OCR dùng để nhận dạng chữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OCR",
+          "reading": "おーしーあーる",
+          "english": "Optical Character Recognition",
+          "vi": "nhận dạng ký tự quang học",
+          "definitionJa": "画像中の文字を認識して文字データへ変換する技術。",
+          "definitionVi": "Công nghệ nhận dạng chữ trong hình ảnh và chuyển thành dữ liệu văn bản."
+        }
+      ],
+      "tags": ["input-output", "ocr", "recognition"]
+    },
+    {
+      "id": "omr",
+      "order": 12,
+      "titleJa": "OMR",
+      "titleVi": "Nhận dạng dấu quang học",
+      "importance": "high",
+      "summaryJa": "答案用紙などに記入されたマークを光学的に読み取るOMRについて理解する。",
+      "summaryVi": "Tìm hiểu OMR, công nghệ đọc các dấu được tô trên phiếu trả lời hoặc biểu mẫu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OMRとは",
+          "vi": "OMR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "OMR（Optical Mark Recognition）は、試験の答案用紙やアンケート用紙などに記入された特定のマークを光学的に読み取る技術である。",
+          "vi": "OMR (Optical Mark Recognition) là công nghệ đọc quang học các dấu được tô trên phiếu thi hoặc phiếu khảo sát."
+        },
+        {
+          "type": "paragraph",
+          "ja": "大量の回答を自動的に集計できるため、教育機関や調査機関などで利用される。",
+          "vi": "Do có thể tự động tổng hợp lượng lớn câu trả lời, OMR được sử dụng trong trường học và tổ chức khảo sát."
+        },
+        {
+          "type": "point",
+          "ja": "OCRは文字、OMRはマークを認識する。",
+          "vi": "OCR nhận dạng chữ; OMR nhận dạng dấu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OMR",
+          "reading": "おーえむあーる",
+          "english": "Optical Mark Recognition",
+          "vi": "nhận dạng dấu quang học",
+          "definitionJa": "用紙に記入されたマークを光学的に読み取る技術。",
+          "definitionVi": "Công nghệ đọc quang học các dấu được đánh trên giấy."
+        }
+      ],
+      "tags": ["input-output", "omr", "recognition"]
+    },
+    {
+      "id": "digital-camera",
+      "order": 13,
+      "titleJa": "デジタルカメラ",
+      "titleVi": "Máy ảnh kỹ thuật số",
+      "importance": "medium",
+      "summaryJa": "撮影した画像をデジタルデータとして記録するデジタルカメラについて理解する。",
+      "summaryVi": "Tìm hiểu máy ảnh kỹ thuật số, thiết bị lưu hình ảnh chụp dưới dạng dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルカメラとは",
+          "vi": "Máy ảnh kỹ thuật số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタルカメラ（Digital Camera）は、撮影した画像を電子的なデジタルデータとして保存するカメラである。",
+          "vi": "Digital Camera là máy ảnh ghi lại hình ảnh dưới dạng dữ liệu điện tử kỹ thuật số."
+        },
+        {
+          "type": "paragraph",
+          "ja": "撮影した画像はメモリカードなどに保存され、パソコンやスマートフォンへ転送して表示や編集を行うことができる。",
+          "vi": "Ảnh được lưu trên thẻ nhớ và có thể chuyển sang máy tính hoặc smartphone để xem và chỉnh sửa."
+        },
+        {
+          "type": "point",
+          "ja": "フィルムではなくデジタルデータとして画像を記録する。",
+          "vi": "Hình ảnh được ghi dưới dạng dữ liệu số thay vì phim."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルカメラ",
+          "reading": "でじたるかめら",
+          "english": "Digital Camera",
+          "vi": "máy ảnh kỹ thuật số",
+          "definitionJa": "撮影した画像をデジタルデータとして記録するカメラ。",
+          "definitionVi": "Máy ảnh lưu hình ảnh chụp dưới dạng dữ liệu số."
+        }
+      ],
+      "tags": ["input-output", "input-device", "digital-camera"]
+    },
+    {
+      "id": "biometric-authentication-device",
+      "order": 14,
+      "titleJa": "生体認証装置",
+      "titleVi": "Thiết bị xác thực sinh trắc học",
+      "importance": "high",
+      "summaryJa": "指紋や顔などの身体的特徴を利用して本人確認を行う生体認証装置について理解する。",
+      "summaryVi": "Tìm hiểu thiết bị xác thực sinh trắc học, sử dụng đặc điểm cơ thể như vân tay hoặc khuôn mặt để xác minh danh tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生体認証装置とは",
+          "vi": "Thiết bị xác thực sinh trắc học là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "生体認証装置（Biometric Authentication Device）は、指紋、顔、虹彩、声など、人間の身体的・生体的特徴を利用して個人を認証する装置である。",
+          "vi": "Biometric Authentication Device là thiết bị dùng các đặc điểm sinh trắc học như vân tay, khuôn mặt, mống mắt hoặc giọng nói để xác thực cá nhân."
+        },
+        {
+          "type": "paragraph",
+          "ja": "スマートフォンの指紋認証や顔認証、建物の入退室管理などに利用される。",
+          "vi": "Được sử dụng trong xác thực vân tay hoặc khuôn mặt trên smartphone và hệ thống kiểm soát ra vào."
+        },
+        {
+          "type": "point",
+          "ja": "パスワードではなく、人間固有の身体的特徴を認証に利用する。",
+          "vi": "Sử dụng đặc điểm sinh trắc học riêng của con người thay vì chỉ sử dụng mật khẩu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生体認証装置",
+          "reading": "せいたいにんしょうそうち",
+          "english": "Biometric Authentication Device",
+          "vi": "thiết bị xác thực sinh trắc học",
+          "definitionJa": "身体的・生体的特徴を利用して本人確認を行う装置。",
+          "definitionVi": "Thiết bị dùng đặc điểm sinh trắc học để xác minh danh tính."
+        }
+      ],
+      "tags": ["input-output", "authentication", "biometric"]
+    },
+    {
+      "id": "barcode-reader",
+      "order": 15,
+      "titleJa": "バーコード読取装置",
+      "titleVi": "Máy đọc mã vạch",
+      "importance": "high",
+      "summaryJa": "商品などに印刷されたバーコードを読み取り、デジタルデータへ変換するバーコード読取装置について理解する。",
+      "summaryVi": "Tìm hiểu máy đọc mã vạch, thiết bị đọc barcode và chuyển thông tin thành dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バーコード読取装置とは",
+          "vi": "Máy đọc mã vạch là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バーコード読取装置（Barcode Reader）は、商品などに印刷されたバーコードを光学的に読み取り、その情報をデジタルデータとしてコンピュータへ送信する装置である。",
+          "vi": "Barcode Reader là thiết bị đọc mã vạch bằng phương pháp quang học và gửi thông tin dưới dạng dữ liệu số tới máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "スーパーマーケットのPOSレジや物流、在庫管理などで利用され、商品の識別や管理を効率化する。",
+          "vi": "Được sử dụng tại POS, logistics và quản lý tồn kho để nhận diện và quản lý hàng hóa hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "バーコードは商品識別や在庫管理に広く利用される。",
+          "vi": "Barcode được dùng rộng rãi để nhận diện sản phẩm và quản lý tồn kho."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バーコード読取装置",
+          "reading": "ばーこーどよみとりそうち",
+          "english": "Barcode Reader",
+          "vi": "máy đọc mã vạch",
+          "definitionJa": "バーコードを読み取り、情報をデジタルデータへ変換する装置。",
+          "definitionVi": "Thiết bị đọc mã vạch và chuyển thông tin thành dữ liệu số."
+        }
+      ],
+      "tags": ["input-output", "input-device", "barcode"]
+    },
+    {
+      "id": "magnetic-card-reader",
+      "order": 16,
+      "titleJa": "磁気カード読取装置",
+      "titleVi": "Máy đọc thẻ từ",
+      "importance": "medium",
+      "summaryJa": "磁気ストライプに記録された情報を読み取る磁気カード読取装置について理解する。",
+      "summaryVi": "Tìm hiểu máy đọc thẻ từ, thiết bị đọc thông tin lưu trên dải từ của thẻ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "磁気カード読取装置とは",
+          "vi": "Máy đọc thẻ từ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "磁気カード読取装置（Magnetic Card Reader）は、カードの磁気ストライプに記録された情報を読み取るための装置である。",
+          "vi": "Magnetic Card Reader là thiết bị đọc thông tin được lưu trên dải từ của thẻ."
+        },
+        {
+          "type": "paragraph",
+          "ja": "カードを装置へ通すことで磁気情報を検出し、決済や入館管理などに利用することができる。",
+          "vi": "Khi thẻ được đưa qua đầu đọc, thông tin từ được đọc và có thể dùng cho thanh toán hoặc kiểm soát ra vào."
+        },
+        {
+          "type": "point",
+          "ja": "磁気カードは磁気ストライプに情報を記録する。",
+          "vi": "Thẻ từ lưu thông tin trên dải từ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "磁気カード読取装置",
+          "reading": "じきかーどよみとりそうち",
+          "english": "Magnetic Card Reader",
+          "vi": "máy đọc thẻ từ",
+          "definitionJa": "磁気カードに記録された情報を読み取る装置。",
+          "definitionVi": "Thiết bị đọc thông tin được lưu trên thẻ từ."
+        }
+      ],
+      "tags": ["input-output", "input-device", "magnetic-card"]
+    },
+    {
+      "id": "ic-card-reader",
+      "order": 17,
+      "titleJa": "ICカード読取装置",
+      "titleVi": "Máy đọc thẻ IC",
+      "importance": "high",
+      "summaryJa": "ICカードに記録された情報を接触または非接触で読み取るICカード読取装置について理解する。",
+      "summaryVi": "Tìm hiểu máy đọc thẻ IC, thiết bị đọc thông tin từ thẻ IC bằng tiếp xúc hoặc không tiếp xúc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ICカード読取装置とは",
+          "vi": "Máy đọc thẻ IC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ICカード読取装置（IC Card Reader）は、ICカードに記録された情報を読み取るための装置である。",
+          "vi": "IC Card Reader là thiết bị đọc thông tin được lưu trong thẻ IC."
+        },
+        {
+          "type": "paragraph",
+          "ja": "接触式または非接触式で情報を取得し、交通系ICカード、電子マネー、身分証明書など幅広い用途で利用される。",
+          "vi": "Thông tin có thể được đọc bằng tiếp xúc hoặc không tiếp xúc, và được dùng trong thẻ giao thông IC, tiền điện tử hoặc thẻ nhận dạng."
+        },
+        {
+          "type": "point",
+          "ja": "ICカードは磁気カードより多くの情報を扱え、セキュリティ機能を持つものも多い。",
+          "vi": "Thẻ IC có thể xử lý nhiều thông tin hơn thẻ từ và thường có chức năng bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ICカード読取装置",
+          "reading": "あいしーかーどよみとりそうち",
+          "english": "IC Card Reader",
+          "vi": "máy đọc thẻ IC",
+          "definitionJa": "ICカード内の情報を読み取る装置。",
+          "definitionVi": "Thiết bị đọc thông tin được lưu trong thẻ IC."
+        }
+      ],
+      "tags": ["input-output", "input-device", "ic-card"]
+    },
+    {
+      "id": "ad-converter",
+      "order": 18,
+      "titleJa": "A/Dコンバータ",
+      "titleVi": "Bộ chuyển đổi A/D",
+      "importance": "high",
+      "summaryJa": "連続的なアナログ信号をコンピュータが扱えるデジタル信号へ変換するA/Dコンバータについて理解する。",
+      "summaryVi": "Tìm hiểu bộ chuyển đổi A/D, thiết bị chuyển tín hiệu analog liên tục thành tín hiệu số mà máy tính có thể xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "A/Dコンバータとは",
+          "vi": "Bộ chuyển đổi A/D là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "A/Dコンバータ（A/D Converter）は、音声や温度などの連続的なアナログ信号を、0と1で表現されるデジタル信号へ変換する装置である。",
+          "vi": "A/D Converter là thiết bị chuyển các tín hiệu analog liên tục như âm thanh hoặc nhiệt độ thành tín hiệu số biểu diễn bằng 0 và 1."
+        },
+        {
+          "type": "paragraph",
+          "ja": "マイクロフォンから入力した音声や各種センサから得られた信号をコンピュータで処理する際などに利用される。",
+          "vi": "Được sử dụng khi cần xử lý trên máy tính các tín hiệu từ microphone hoặc cảm biến."
+        },
+        {
+          "type": "point",
+          "ja": "A/D変換はアナログからデジタルへの変換である。",
+          "vi": "A/D là chuyển từ analog sang digital."
+        }
+      ],
+      "terms": [
+        {
+          "term": "A/Dコンバータ",
+          "reading": "えーでぃーこんばーた",
+          "english": "A/D Converter",
+          "vi": "bộ chuyển đổi analog sang digital",
+          "definitionJa": "アナログ信号をデジタル信号へ変換する装置。",
+          "definitionVi": "Thiết bị chuyển tín hiệu analog thành tín hiệu digital."
+        }
+      ],
+      "tags": ["input-output", "converter", "analog-digital"]
+    },
+    {
+      "id": "liquid-crystal-display",
+      "order": 19,
+      "titleJa": "液晶ディスプレイ",
+      "titleVi": "Màn hình tinh thể lỏng",
+      "importance": "high",
+      "summaryJa": "液晶を利用して画像や文字を表示する液晶ディスプレイについて理解する。",
+      "summaryVi": "Tìm hiểu LCD, màn hình sử dụng tinh thể lỏng để hiển thị hình ảnh và văn bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "液晶ディスプレイとは",
+          "vi": "Màn hình tinh thể lỏng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "液晶ディスプレイ（Liquid Crystal Display）は、液晶の光学的性質を利用して画像や文字を表示する表示装置である。",
+          "vi": "Liquid Crystal Display là thiết bị hiển thị sử dụng đặc tính quang học của tinh thể lỏng để hiển thị hình ảnh và văn bản."
+        },
+        {
+          "type": "paragraph",
+          "ja": "薄型・軽量で消費電力が比較的少ないため、テレビやコンピュータモニタなどで広く利用されている。",
+          "vi": "Do mỏng, nhẹ và tiêu thụ điện tương đối thấp, LCD được sử dụng rộng rãi trong TV và màn hình máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "液晶ディスプレイは薄型・軽量・省電力という特徴を持つ。",
+          "vi": "LCD có các đặc điểm nổi bật là mỏng, nhẹ và tiết kiệm điện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "液晶ディスプレイ",
+          "reading": "えきしょうでぃすぷれい",
+          "english": "Liquid Crystal Display",
+          "vi": "màn hình tinh thể lỏng",
+          "definitionJa": "液晶を利用して画像や文字を表示する表示装置。",
+          "definitionVi": "Thiết bị hiển thị sử dụng tinh thể lỏng."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "lcd"]
+    },
+    {
+      "id": "tft-liquid-crystal-display",
+      "order": 20,
+      "titleJa": "TFT液晶",
+      "titleVi": "Màn hình LCD TFT",
+      "importance": "high",
+      "summaryJa": "各画素を薄膜トランジスタで制御する方式の液晶ディスプレイであるTFT液晶について理解する。",
+      "summaryVi": "Tìm hiểu TFT LCD, loại màn hình LCD sử dụng transistor màng mỏng để điều khiển từng pixel.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TFT液晶とは",
+          "vi": "TFT LCD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TFT液晶（Thin-Film Transistor Liquid Crystal Display）は、各画素を制御するために薄膜トランジスタを利用した液晶ディスプレイである。",
+          "vi": "TFT LCD (Thin-Film Transistor Liquid Crystal Display) là loại màn hình tinh thể lỏng sử dụng transistor màng mỏng để điều khiển từng pixel."
+        },
+        {
+          "type": "paragraph",
+          "ja": "個々の画素を細かく制御できるため、高解像度で鮮明な画像表示が可能であり、テレビ、コンピュータモニタ、スマートフォンなどで利用されている。",
+          "vi": "Vì có thể điều khiển từng pixel riêng biệt, TFT LCD có thể hiển thị hình ảnh rõ nét, độ phân giải cao và được dùng trong TV, màn hình máy tính, smartphone."
+        },
+        {
+          "type": "point",
+          "ja": "TFTは各画素を薄膜トランジスタで制御する液晶方式である。",
+          "vi": "TFT là công nghệ LCD trong đó từng pixel được điều khiển bằng transistor màng mỏng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TFT液晶",
+          "reading": "てぃーえふてぃーえきしょう",
+          "english": "Thin-Film Transistor Liquid Crystal Display",
+          "vi": "màn hình tinh thể lỏng TFT",
+          "definitionJa": "薄膜トランジスタを利用して各画素を制御する液晶ディスプレイ。",
+          "definitionVi": "Màn hình LCD sử dụng transistor màng mỏng để điều khiển từng pixel."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "tft"]
+    },
+    {
+      "id": "stn-liquid-crystal-display",
+      "order": 21,
+      "titleJa": "STN液晶",
+      "titleVi": "Màn hình LCD STN",
+      "importance": "medium",
+      "summaryJa": "液晶分子の配向を利用して画像を表示するSTN液晶について理解する。",
+      "summaryVi": "Tìm hiểu màn hình STN LCD, công nghệ hiển thị sử dụng sự định hướng của các phân tử tinh thể lỏng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "STN液晶とは",
+          "vi": "STN LCD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "STN液晶（STN Liquid Crystal Display）は、液晶ディスプレイ技術の一形式であり、液晶分子が特定の方向に配向する性質を利用して外部からの光を調整し、画像を表示する。",
+          "vi": "STN LCD là một dạng công nghệ màn hình tinh thể lỏng, sử dụng đặc tính định hướng của các phân tử tinh thể lỏng để điều chỉnh ánh sáng và hiển thị hình ảnh."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にフィーチャーフォンやポータブルゲーム機などで利用され、低コストで比較的消費電力が少ない特徴を持つ。",
+          "vi": "Công nghệ này từng được sử dụng nhiều trong điện thoại phổ thông và máy chơi game cầm tay, có ưu điểm chi phí thấp và mức tiêu thụ điện tương đối thấp."
+        },
+        {
+          "type": "point",
+          "ja": "STN液晶は低コスト・低消費電力だが、視野角や応答速度ではTFT液晶などに劣る。",
+          "vi": "STN LCD có chi phí thấp và tiết kiệm điện nhưng kém hơn TFT LCD về góc nhìn và tốc độ phản hồi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "STN液晶",
+          "reading": "えすてぃーえぬえきしょう",
+          "english": "STN Liquid Crystal Display",
+          "vi": "màn hình LCD STN",
+          "definitionJa": "液晶分子の配向を利用して画像を表示する液晶ディスプレイ方式。",
+          "definitionVi": "Công nghệ LCD sử dụng sự định hướng của các phân tử tinh thể lỏng để hiển thị hình ảnh."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "stn"]
+    },
+    {
+      "id": "organic-el-display",
+      "order": 22,
+      "titleJa": "有機ELディスプレイ",
+      "titleVi": "Màn hình OLED",
+      "importance": "high",
+      "summaryJa": "有機物が自ら発光する性質を利用した有機ELディスプレイについて理解する。",
+      "summaryVi": "Tìm hiểu màn hình OLED, công nghệ hiển thị sử dụng vật liệu hữu cơ tự phát sáng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "有機ELディスプレイとは",
+          "vi": "Màn hình OLED là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "有機ELディスプレイ（Organic Light Emitting Diode Display）は、有機物を利用して各画素自体を発光させる表示装置である。",
+          "vi": "OLED là công nghệ màn hình sử dụng vật liệu hữu cơ để từng pixel tự phát sáng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "バックライトが不要なため薄型化しやすく、高いコントラスト比や鮮やかな色再現性、広い視野角を実現できる。",
+          "vi": "Do không cần đèn nền, OLED có thể thiết kế mỏng, đồng thời có độ tương phản cao, màu sắc sống động và góc nhìn rộng."
+        },
+        {
+          "type": "point",
+          "ja": "有機ELは各画素が自発光するため、バックライトを必要としない。",
+          "vi": "OLED không cần đèn nền vì từng pixel tự phát sáng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "有機ELディスプレイ",
+          "reading": "ゆうきいーえるでぃすぷれい",
+          "english": "Organic Light Emitting Diode Display",
+          "vi": "màn hình OLED",
+          "definitionJa": "有機物を利用して各画素を自発光させるディスプレイ。",
+          "definitionVi": "Màn hình sử dụng vật liệu hữu cơ để từng pixel tự phát sáng."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "oled"]
+    },
+    {
+      "id": "head-mounted-display",
+      "order": 23,
+      "titleJa": "ヘッドマウントディスプレイ",
+      "titleVi": "Màn hình gắn trên đầu",
+      "importance": "high",
+      "summaryJa": "頭部に装着してVRやARなどの映像を表示するヘッドマウントディスプレイについて理解する。",
+      "summaryVi": "Tìm hiểu Head-Mounted Display, thiết bị hiển thị đeo trên đầu thường dùng cho VR và AR.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ヘッドマウントディスプレイとは",
+          "vi": "Head-Mounted Display là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ヘッドマウントディスプレイ（Head-Mounted Display）は、頭部に装着して使用するディスプレイ装置であり、主にVRやARの分野で利用される。",
+          "vi": "Head-Mounted Display là thiết bị hiển thị được đeo trên đầu, chủ yếu được sử dụng trong VR và AR."
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサなどを利用してユーザーの動きを追跡し、視点に合わせて映像を更新することで、高い没入感を実現する。",
+          "vi": "Thiết bị có thể dùng cảm biến để theo dõi chuyển động của người dùng và cập nhật hình ảnh theo hướng nhìn, tạo cảm giác nhập vai cao."
+        },
+        {
+          "type": "point",
+          "ja": "HMDはVR・ARなどの没入型コンテンツで利用される。",
+          "vi": "HMD thường được sử dụng trong nội dung VR và AR có tính nhập vai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ヘッドマウントディスプレイ",
+          "reading": "へっどまうんとでぃすぷれい",
+          "english": "Head-Mounted Display",
+          "vi": "màn hình gắn trên đầu",
+          "definitionJa": "頭部に装着し、利用者の視界に映像を表示する装置。",
+          "definitionVi": "Thiết bị đeo trên đầu để hiển thị hình ảnh trước mắt người dùng."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "vr", "ar"]
+    },
+    {
+      "id": "eye-tracking-device",
+      "order": 24,
+      "titleJa": "アイトラッキングデバイス",
+      "titleVi": "Thiết bị theo dõi ánh mắt",
+      "importance": "medium",
+      "summaryJa": "ユーザーの視線の動きを検出・追跡するアイトラッキングデバイスについて理解する。",
+      "summaryVi": "Tìm hiểu thiết bị eye tracking dùng để phát hiện và theo dõi chuyển động ánh mắt của người dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アイトラッキングデバイスとは",
+          "vi": "Thiết bị theo dõi ánh mắt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アイトラッキングデバイス（Eye Tracking Device）は、ユーザーが画面上のどこを見ているかを測定し、視線の動きを追跡する装置である。",
+          "vi": "Eye Tracking Device là thiết bị đo vị trí mà người dùng đang nhìn và theo dõi chuyển động ánh mắt."
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーインタフェース研究、広告分析、ゲームやVR、医療、ユーザビリティテストなど幅広い分野で利用される。",
+          "vi": "Công nghệ này được sử dụng trong nghiên cứu giao diện, phân tích quảng cáo, game, VR, y tế và kiểm thử usability."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザーが「どこを見ているか」を測定する装置である。",
+          "vi": "Thiết bị xác định người dùng đang nhìn vào đâu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アイトラッキングデバイス",
+          "reading": "あいとらっきんぐでばいす",
+          "english": "Eye Tracking Device",
+          "vi": "thiết bị theo dõi ánh mắt",
+          "definitionJa": "ユーザーの視線位置や視線移動を測定する装置。",
+          "definitionVi": "Thiết bị đo vị trí và chuyển động ánh mắt của người dùng."
+        }
+      ],
+      "tags": ["input-output", "eye-tracking", "user-interface"]
+    },
+    {
+      "id": "haptic-device",
+      "order": 25,
+      "titleJa": "ハプティックデバイス",
+      "titleVi": "Thiết bị phản hồi xúc giác",
+      "importance": "medium",
+      "summaryJa": "振動や力などの触覚情報をユーザーへ伝えるハプティックデバイスについて理解する。",
+      "summaryVi": "Tìm hiểu Haptic Device, thiết bị truyền thông tin xúc giác như rung hoặc lực phản hồi đến người dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハプティックデバイスとは",
+          "vi": "Haptic Device là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハプティックデバイス（Haptic Device）は、振動や抵抗、力などを利用して、ユーザーへ触覚的な情報を伝える装置である。",
+          "vi": "Haptic Device là thiết bị truyền thông tin xúc giác đến người dùng bằng rung, lực cản hoặc phản lực."
+        },
+        {
+          "type": "paragraph",
+          "ja": "スマートフォンの振動、ゲームコントローラの振動機能、医療やリハビリテーション用装置などに利用される。",
+          "vi": "Ví dụ gồm rung của smartphone, phản hồi rung của tay cầm game và thiết bị dùng trong y tế hoặc phục hồi chức năng."
+        },
+        {
+          "type": "point",
+          "ja": "ハプティック技術は触覚によるフィードバックを提供する。",
+          "vi": "Công nghệ haptic cung cấp phản hồi thông qua xúc giác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハプティックデバイス",
+          "reading": "はぷてぃっくでばいす",
+          "english": "Haptic Device",
+          "vi": "thiết bị phản hồi xúc giác",
+          "definitionJa": "振動や力などを利用して触覚情報を伝える装置。",
+          "definitionVi": "Thiết bị truyền phản hồi xúc giác bằng rung hoặc lực."
+        }
+      ],
+      "tags": ["input-output", "output-device", "haptic"]
+    },
+    {
+      "id": "interlace-mode",
+      "order": 26,
+      "titleJa": "インタレースモード",
+      "titleVi": "Chế độ quét xen kẽ",
+      "importance": "high",
+      "summaryJa": "画面を奇数行と偶数行に分けて交互に描画するインタレースモードについて理解する。",
+      "summaryVi": "Tìm hiểu chế độ interlace, trong đó các dòng lẻ và dòng chẵn được hiển thị xen kẽ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インタレースモードとは",
+          "vi": "Chế độ quét xen kẽ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インタレースモード（Interlace Mode）は、画像を二つのフィールドに分け、奇数行と偶数行を交互に描画して一つの画面を構成する方式である。",
+          "vi": "Interlace Mode chia hình ảnh thành hai field và lần lượt vẽ các dòng lẻ và dòng chẵn để tạo thành một khung hình."
+        },
+        {
+          "type": "paragraph",
+          "ja": "少ない伝送量で映像を表示できるため、従来のテレビ放送などで広く利用された。",
+          "vi": "Phương thức này giúp hiển thị hình ảnh với lượng dữ liệu truyền nhỏ hơn nên từng được sử dụng phổ biến trong truyền hình."
+        },
+        {
+          "type": "point",
+          "ja": "奇数行と偶数行を交互に描画する。",
+          "vi": "Các dòng lẻ và dòng chẵn được vẽ xen kẽ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタレースモード",
+          "reading": "いんたれーすもーど",
+          "english": "Interlace Mode",
+          "vi": "chế độ quét xen kẽ",
+          "definitionJa": "奇数行と偶数行を交互に描画する画面表示方式。",
+          "definitionVi": "Phương thức hiển thị bằng cách quét xen kẽ các dòng lẻ và dòng chẵn."
+        }
+      ],
+      "tags": ["input-output", "display", "interlace"]
+    },
+    {
+      "id": "non-interlaced-mode",
+      "order": 27,
+      "titleJa": "ノンインタレースモード",
+      "titleVi": "Chế độ quét không xen kẽ",
+      "importance": "high",
+      "summaryJa": "画面の全走査線を順番に一度で描画するノンインタレースモードについて理解する。",
+      "summaryVi": "Tìm hiểu chế độ non-interlace, trong đó toàn bộ các dòng của màn hình được quét tuần tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ノンインタレースモードとは",
+          "vi": "Chế độ quét không xen kẽ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ノンインタレースモード（Non-Interlaced Mode）は、画面を奇数行と偶数行に分割せず、全ての走査線を上から順に描画する方式である。",
+          "vi": "Non-Interlaced Mode là phương thức không chia hình ảnh thành dòng lẻ và dòng chẵn mà quét toàn bộ các dòng theo thứ tự."
+        },
+        {
+          "type": "paragraph",
+          "ja": "画面全体を一度に更新するため、インタレース方式よりちらつきを抑えやすく、コンピュータディスプレイなどで利用される。",
+          "vi": "Do toàn bộ màn hình được cập nhật theo thứ tự, phương thức này ít nhấp nháy hơn interlace và thường được dùng trên màn hình máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "現在のディスプレイではノンインタレース方式が一般的である。",
+          "vi": "Các màn hình hiện đại chủ yếu sử dụng phương thức non-interlace."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ノンインタレースモード",
+          "reading": "のんいんたれーすもーど",
+          "english": "Non-Interlaced Mode",
+          "vi": "chế độ quét không xen kẽ",
+          "definitionJa": "画面の全走査線を順番に描画する表示方式。",
+          "definitionVi": "Phương thức hiển thị quét toàn bộ các dòng tuần tự."
+        }
+      ],
+      "tags": ["input-output", "display", "non-interlace"]
+    },
+    {
+      "id": "vga",
+      "order": 28,
+      "titleJa": "VGA",
+      "titleVi": "Chuẩn VGA",
+      "importance": "high",
+      "summaryJa": "640×480画素を基本とする映像表示規格VGAについて理解する。",
+      "summaryVi": "Tìm hiểu VGA, chuẩn hiển thị hình ảnh cơ bản với độ phân giải 640×480 pixel.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VGAとは",
+          "vi": "VGA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "VGA（Video Graphics Array）は、IBMによって導入された映像表示規格で、代表的な解像度は640×480画素である。",
+          "vi": "VGA (Video Graphics Array) là chuẩn hiển thị do IBM giới thiệu, với độ phân giải tiêu biểu là 640×480 pixel."
+        },
+        {
+          "type": "paragraph",
+          "ja": "パソコンのグラフィックス表示の標準として広く普及し、その後の映像表示規格の基礎となった。",
+          "vi": "VGA từng trở thành chuẩn đồ họa phổ biến trên PC và là nền tảng cho nhiều chuẩn hiển thị về sau."
+        },
+        {
+          "type": "point",
+          "ja": "VGAの代表的な解像度は640×480画素である。",
+          "vi": "Độ phân giải tiêu biểu của VGA là 640×480 pixel."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VGA",
+          "reading": "ぶいじーえー",
+          "english": "Video Graphics Array",
+          "vi": "chuẩn VGA",
+          "definitionJa": "640×480画素を代表的な解像度とする映像表示規格。",
+          "definitionVi": "Chuẩn hiển thị có độ phân giải tiêu biểu 640×480 pixel."
+        }
+      ],
+      "tags": ["input-output", "display", "resolution", "vga"]
+    },
+    {
+      "id": "svga",
+      "order": 29,
+      "titleJa": "SVGA",
+      "titleVi": "Chuẩn SVGA",
+      "importance": "medium",
+      "summaryJa": "VGAを拡張し、800×600画素などを扱うSVGAについて理解する。",
+      "summaryVi": "Tìm hiểu SVGA, chuẩn mở rộng từ VGA với độ phân giải điển hình 800×600 pixel.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SVGAとは",
+          "vi": "SVGA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SVGA（Super Video Graphics Array）は、VGAを拡張した映像表示規格で、代表的な解像度として800×600画素がある。",
+          "vi": "SVGA (Super Video Graphics Array) là chuẩn hiển thị mở rộng từ VGA, với độ phân giải tiêu biểu 800×600 pixel."
+        },
+        {
+          "type": "paragraph",
+          "ja": "VGAより多くの画素や色を表示できるため、より細かく鮮明な画像を表示できる。",
+          "vi": "Do hỗ trợ nhiều pixel và màu sắc hơn VGA, SVGA có thể hiển thị hình ảnh chi tiết hơn."
+        },
+        {
+          "type": "point",
+          "ja": "VGAは640×480、SVGAは代表的に800×600である。",
+          "vi": "VGA thường là 640×480, còn SVGA điển hình là 800×600."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SVGA",
+          "reading": "えすぶいじーえー",
+          "english": "Super Video Graphics Array",
+          "vi": "chuẩn SVGA",
+          "definitionJa": "VGAを拡張した映像表示規格で、800×600画素などを扱う。",
+          "definitionVi": "Chuẩn hiển thị mở rộng từ VGA, tiêu biểu hỗ trợ 800×600 pixel."
+        }
+      ],
+      "tags": ["input-output", "display", "resolution", "svga"]
+    },
+    {
+      "id": "xga",
+      "order": 30,
+      "titleJa": "XGA",
+      "titleVi": "Chuẩn XGA",
+      "importance": "high",
+      "summaryJa": "1024×768画素を代表的な解像度とするXGAについて理解する。",
+      "summaryVi": "Tìm hiểu XGA, chuẩn hiển thị có độ phân giải tiêu biểu 1024×768 pixel.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XGAとは",
+          "vi": "XGA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "XGA（Extended Graphics Array）は、代表的に1024×768画素の解像度を持つ映像表示規格である。",
+          "vi": "XGA (Extended Graphics Array) là chuẩn hiển thị với độ phân giải tiêu biểu 1024×768 pixel."
+        },
+        {
+          "type": "paragraph",
+          "ja": "VGAやSVGAより高い解像度を持ち、より詳細な画像や文字を表示することができる。",
+          "vi": "XGA có độ phân giải cao hơn VGA và SVGA, cho phép hiển thị hình ảnh và văn bản chi tiết hơn."
+        },
+        {
+          "type": "point",
+          "ja": "XGAの代表的な解像度は1024×768画素である。",
+          "vi": "Độ phân giải tiêu biểu của XGA là 1024×768 pixel."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XGA",
+          "reading": "えっくすじーえー",
+          "english": "Extended Graphics Array",
+          "vi": "chuẩn XGA",
+          "definitionJa": "1024×768画素を代表的な解像度とする映像表示規格。",
+          "definitionVi": "Chuẩn hiển thị có độ phân giải tiêu biểu 1024×768 pixel."
+        }
+      ],
+      "tags": ["input-output", "display", "resolution", "xga"]
+    },
+    {
+      "id": "electronic-paper",
+      "order": 31,
+      "titleJa": "電子ペーパー",
+      "titleVi": "Giấy điện tử",
+      "importance": "high",
+      "summaryJa": "紙に近い見やすさと低消費電力を特徴とする電子ペーパーについて理解する。",
+      "summaryVi": "Tìm hiểu giấy điện tử, công nghệ hiển thị giống giấy thật và tiêu thụ rất ít điện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子ペーパーとは",
+          "vi": "Giấy điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子ペーパー（Electronic Paper）は、紙のような質感と視認性を目指した薄型の表示技術である。",
+          "vi": "Electronic Paper là công nghệ màn hình mỏng được thiết kế để có khả năng đọc và cảm giác gần giống giấy."
+        },
+        {
+          "type": "paragraph",
+          "ja": "消費電力が非常に少なく、電子書籍リーダーやデジタルサイネージなどで利用されている。",
+          "vi": "Do tiêu thụ rất ít điện, công nghệ này thường được dùng trong máy đọc sách điện tử và bảng hiệu kỹ thuật số."
+        },
+        {
+          "type": "point",
+          "ja": "電子ペーパーは表示内容を保持する際の消費電力が非常に小さい。",
+          "vi": "Giấy điện tử tiêu thụ rất ít điện khi giữ nội dung hiển thị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子ペーパー",
+          "reading": "でんしぺーぱー",
+          "english": "Electronic Paper",
+          "vi": "giấy điện tử",
+          "definitionJa": "紙に近い視認性と低消費電力を特徴とする表示技術。",
+          "definitionVi": "Công nghệ hiển thị có khả năng đọc giống giấy và tiêu thụ điện thấp."
+        }
+      ],
+      "tags": ["input-output", "output-device", "display", "electronic-paper"]
+    },
+    {
+      "id": "impact-printer",
+      "order": 32,
+      "titleJa": "インパクトプリンター",
+      "titleVi": "Máy in va đập",
+      "importance": "high",
+      "summaryJa": "印字ヘッドをインクリボン越しに用紙へ打ち付けて印刷するインパクトプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in va đập, loại máy in dùng đầu in tác động vật lý lên ruy-băng mực và giấy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インパクトプリンターとは",
+          "vi": "Máy in va đập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インパクトプリンター（Impact Printer）は、印字ヘッドをインクリボン越しに用紙へ直接打ち付けることで文字や図形を印刷する装置である。",
+          "vi": "Impact Printer là máy in tạo ký tự hoặc hình ảnh bằng cách đầu in tác động trực tiếp lên ruy-băng mực và giấy."
+        },
+        {
+          "type": "paragraph",
+          "ja": "印刷時の騒音は大きいが、複写伝票など複数枚の用紙へ同時に印字できる利点がある。",
+          "vi": "Loại máy in này khá ồn nhưng có ưu điểm có thể in đồng thời lên nhiều lớp giấy như hóa đơn liên."
+        },
+        {
+          "type": "point",
+          "ja": "インパクトプリンターは物理的な打撃によって印字する。",
+          "vi": "Máy in va đập sử dụng lực tác động vật lý để in."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インパクトプリンター",
+          "reading": "いんぱくとぷりんたー",
+          "english": "Impact Printer",
+          "vi": "máy in va đập",
+          "definitionJa": "印字ヘッドを用紙へ物理的に打ち付けて印刷するプリンター。",
+          "definitionVi": "Máy in sử dụng đầu in tác động vật lý lên giấy."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "impact"]
+    },
+    {
+      "id": "non-impact-printer",
+      "order": 33,
+      "titleJa": "ノンインパクトプリンター",
+      "titleVi": "Máy in không va đập",
+      "importance": "high",
+      "summaryJa": "印字ヘッドを用紙へ直接打ち付けずに印刷するノンインパクトプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in không va đập, loại máy in không dùng đầu in tác động trực tiếp lên giấy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ノンインパクトプリンターとは",
+          "vi": "Máy in không va đập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ノンインパクトプリンター（Non-Impact Printer）は、印字ヘッドを紙へ直接打ち付けることなく印刷する方式のプリンターである。",
+          "vi": "Non-Impact Printer là loại máy in không cần đầu in va trực tiếp vào giấy."
+        },
+        {
+          "type": "paragraph",
+          "ja": "代表例としてレーザープリンターやインクジェットプリンターがあり、静音性や高画質という特徴を持つ。",
+          "vi": "Các ví dụ tiêu biểu là máy in laser và máy in phun, có ưu điểm hoạt động êm và chất lượng in cao."
+        },
+        {
+          "type": "point",
+          "ja": "レーザープリンターとインクジェットプリンターはノンインパクトプリンターである。",
+          "vi": "Máy in laser và máy in phun thuộc loại máy in không va đập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ノンインパクトプリンター",
+          "reading": "のんいんぱくとぷりんたー",
+          "english": "Non-Impact Printer",
+          "vi": "máy in không va đập",
+          "definitionJa": "用紙へ物理的な打撃を加えずに印刷するプリンター。",
+          "definitionVi": "Máy in không sử dụng lực tác động vật lý trực tiếp lên giấy."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "non-impact"]
+    },
+    {
+      "id": "serial-printer",
+      "order": 34,
+      "titleJa": "シリアルプリンター",
+      "titleVi": "Máy in nối tiếp",
+      "importance": "medium",
+      "summaryJa": "文字などを一つずつ順番に印字するシリアルプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in serial, loại máy in xử lý và in từng ký tự theo thứ tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シリアルプリンターとは",
+          "vi": "Máy in nối tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "シリアルプリンター（Serial Printer）は、文字などを一つずつ順番に印字するタイプのプリンターである。",
+          "vi": "Serial Printer là loại máy in in từng ký tự theo thứ tự."
+        },
+        {
+          "type": "paragraph",
+          "ja": "構造が比較的単純である一方、ラインプリンターやページプリンターと比べると印刷速度は遅い。",
+          "vi": "Cấu tạo tương đối đơn giản nhưng tốc độ in chậm hơn line printer và page printer."
+        },
+        {
+          "type": "point",
+          "ja": "シリアルプリンターは文字単位で順番に印字する。",
+          "vi": "Serial printer in tuần tự theo từng ký tự."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シリアルプリンター",
+          "reading": "しりあるぷりんたー",
+          "english": "Serial Printer",
+          "vi": "máy in nối tiếp",
+          "definitionJa": "文字などを一つずつ順番に印刷するプリンター。",
+          "definitionVi": "Máy in in từng ký tự lần lượt."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "serial-printer"]
+    },
+    {
+      "id": "line-printer",
+      "order": 35,
+      "titleJa": "ラインプリンター",
+      "titleVi": "Máy in theo dòng",
+      "importance": "medium",
+      "summaryJa": "一行単位で高速に印刷するラインプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu line printer, loại máy in xử lý và in theo từng dòng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ラインプリンターとは",
+          "vi": "Line Printer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ラインプリンター（Line Printer）は、一行を単位として印刷するタイプのプリンターである。",
+          "vi": "Line Printer là loại máy in in theo từng dòng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "大量の帳票やデータを高速に印刷できるため、業務用システムなどで利用される。",
+          "vi": "Do có thể in nhanh lượng lớn biểu mẫu và dữ liệu, loại máy in này thường được dùng trong hệ thống nghiệp vụ."
+        },
+        {
+          "type": "point",
+          "ja": "シリアルプリンターは文字単位、ラインプリンターは行単位で印刷する。",
+          "vi": "Serial printer in từng ký tự, còn line printer in theo từng dòng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ラインプリンター",
+          "reading": "らいんぷりんたー",
+          "english": "Line Printer",
+          "vi": "máy in theo dòng",
+          "definitionJa": "一行を単位として印刷するプリンター。",
+          "definitionVi": "Máy in thực hiện in theo từng dòng."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "line-printer"]
+    },
+    {
+      "id": "page-printer",
+      "order": 36,
+      "titleJa": "ページプリンター",
+      "titleVi": "Máy in theo trang",
+      "importance": "high",
+      "summaryJa": "ページ単位でまとめて印刷を行うページプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu page printer, loại máy in xử lý và in dữ liệu theo từng trang.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ページプリンターとは",
+          "vi": "Page Printer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ページプリンター（Page Printer）は、一ページ分の印刷イメージをまとめて処理して印刷するプリンターである。",
+          "vi": "Page Printer là máy in xử lý toàn bộ hình ảnh của một trang trước khi in."
+        },
+        {
+          "type": "paragraph",
+          "ja": "レーザープリンターなどが代表例であり、高速かつ高品質な印刷に適している。",
+          "vi": "Máy in laser là ví dụ tiêu biểu, phù hợp với nhu cầu in nhanh và chất lượng cao."
+        },
+        {
+          "type": "point",
+          "ja": "ページプリンターはページ単位で印刷処理を行う。",
+          "vi": "Page printer xử lý in theo đơn vị trang."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ページプリンター",
+          "reading": "ぺーじぷりんたー",
+          "english": "Page Printer",
+          "vi": "máy in theo trang",
+          "definitionJa": "一ページ分を単位として印刷処理するプリンター。",
+          "definitionVi": "Máy in xử lý và in theo từng trang."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "page-printer"]
+    },
+    {
+      "id": "laser-printer",
+      "order": 37,
+      "titleJa": "レーザープリンター",
+      "titleVi": "Máy in laser",
+      "importance": "high",
+      "summaryJa": "レーザーとトナーを利用して高速・高品質に印刷するレーザープリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in laser, thiết bị sử dụng tia laser và toner để in nhanh với chất lượng cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レーザープリンターとは",
+          "vi": "Máy in laser là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "レーザープリンター（Laser Printer）は、レーザー光を利用して感光体に印刷イメージを形成し、トナーを用紙へ転写して印刷する装置である。",
+          "vi": "Laser Printer sử dụng tia laser để tạo hình ảnh trên trống quang, sau đó chuyển toner lên giấy."
+        },
+        {
+          "type": "paragraph",
+          "ja": "高速で大量の文書を印刷でき、文字も鮮明なため、企業やオフィスで広く利用される。",
+          "vi": "Máy in laser có tốc độ cao, phù hợp in số lượng lớn và cho chữ sắc nét nên được dùng rộng rãi trong văn phòng."
+        },
+        {
+          "type": "point",
+          "ja": "レーザープリンターはトナーを使用する。",
+          "vi": "Máy in laser sử dụng toner."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レーザープリンター",
+          "reading": "れーざーぷりんたー",
+          "english": "Laser Printer",
+          "vi": "máy in laser",
+          "definitionJa": "レーザーとトナーを利用して印刷するプリンター。",
+          "definitionVi": "Máy in sử dụng tia laser và toner."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "laser"]
+    },
+    {
+      "id": "inkjet-printer",
+      "order": 38,
+      "titleJa": "インクジェットプリンター",
+      "titleVi": "Máy in phun",
+      "importance": "high",
+      "summaryJa": "微細なインク粒子を用紙へ吹き付けて印刷するインクジェットプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in phun, loại máy in phun các giọt mực rất nhỏ lên giấy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インクジェットプリンターとは",
+          "vi": "Máy in phun là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インクジェットプリンター（Inkjet Printer）は、微細なインクの粒を用紙へ吹き付けて文字や画像を印刷するプリンターである。",
+          "vi": "Inkjet Printer là máy in phun các giọt mực cực nhỏ lên giấy để tạo chữ và hình ảnh."
+        },
+        {
+          "type": "paragraph",
+          "ja": "写真やカラー画像の印刷に適し、比較的低コストで導入できるため、家庭や小規模オフィスで広く利用される。",
+          "vi": "Loại máy in này phù hợp với ảnh và màu sắc, chi phí đầu tư tương đối thấp nên phổ biến trong gia đình và văn phòng nhỏ."
+        },
+        {
+          "type": "point",
+          "ja": "インクジェットプリンターは液体インクを微細な粒として噴射する。",
+          "vi": "Máy in phun phun mực lỏng dưới dạng các giọt rất nhỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インクジェットプリンター",
+          "reading": "いんくじぇっとぷりんたー",
+          "english": "Inkjet Printer",
+          "vi": "máy in phun",
+          "definitionJa": "微細なインク粒子を用紙へ噴射して印刷するプリンター。",
+          "definitionVi": "Máy in phun các giọt mực nhỏ lên giấy để tạo hình ảnh hoặc chữ."
+        }
+      ],
+      "tags": ["input-output", "output-device", "printer", "inkjet"]
+    },
+    {
+      "id": "3d-printer",
+      "order": 39,
+      "titleJa": "3Dプリンター",
+      "titleVi": "Máy in 3D",
+      "importance": "high",
+      "summaryJa": "デジタルデータを基に材料を積層して立体物を造形する3Dプリンターについて理解する。",
+      "summaryVi": "Tìm hiểu máy in 3D, thiết bị tạo vật thể ba chiều bằng cách xếp chồng các lớp vật liệu dựa trên dữ liệu số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "3Dプリンターとは",
+          "vi": "Máy in 3D là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "3Dプリンター（3D Printer）は、三次元のデジタルデータを基に、樹脂や金属などの材料を積層して立体物を造形する出力装置である。",
+          "vi": "3D Printer là thiết bị xuất tạo vật thể ba chiều bằng cách xếp chồng các lớp nhựa, kim loại hoặc vật liệu khác dựa trên dữ liệu 3D."
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品の試作品、模型、部品、医療分野など幅広い用途で利用される。",
+          "vi": "Máy in 3D được sử dụng trong tạo mẫu thử, mô hình, linh kiện và cả lĩnh vực y tế."
+        },
+        {
+          "type": "point",
+          "ja": "3Dプリンターは材料を積層して立体物を作る。",
+          "vi": "Máy in 3D tạo vật thể bằng cách xếp chồng nhiều lớp vật liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "3Dプリンター",
+          "reading": "すりーでぃーぷりんたー",
+          "english": "3D Printer",
+          "vi": "máy in 3D",
+          "definitionJa": "三次元データを基に材料を積層して立体物を造形する装置。",
+          "definitionVi": "Thiết bị tạo vật thể 3D bằng cách xếp lớp vật liệu theo dữ liệu số."
+        }
+      ],
+      "tags": ["input-output", "output-device", "3d-printer"]
+    },
+    {
+      "id": "plotter",
+      "order": 40,
+      "titleJa": "プロッター",
+      "titleVi": "Máy vẽ",
+      "importance": "high",
+      "summaryJa": "CAD図面などを高精度に描画・出力するプロッターについて理解する。",
+      "summaryVi": "Tìm hiểu plotter, thiết bị xuất dùng để vẽ và in các bản vẽ kỹ thuật với độ chính xác cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロッターとは",
+          "vi": "Plotter là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロッター（Plotter）は、コンピュータから送られたデータを基に、図面やグラフなどを高精度に描画する出力装置である。",
+          "vi": "Plotter là thiết bị xuất vẽ các bản vẽ hoặc đồ thị với độ chính xác cao dựa trên dữ liệu từ máy tính."
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にCADによる設計図、地図、大判ポスターなど、精密な線や大きな用紙への出力が求められる用途で利用される。",
+          "vi": "Plotter chủ yếu được sử dụng cho bản vẽ CAD, bản đồ và poster khổ lớn, nơi cần các đường nét chính xác."
+        },
+        {
+          "type": "point",
+          "ja": "プロッターはCAD図面や大判図面などの高精度出力に適している。",
+          "vi": "Plotter phù hợp với bản vẽ CAD và các bản in khổ lớn cần độ chính xác cao."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロッター",
+          "reading": "ぷろったー",
+          "english": "Plotter",
+          "vi": "máy vẽ",
+          "definitionJa": "図面やグラフなどを高精度に描画する出力装置。",
+          "definitionVi": "Thiết bị xuất dùng để vẽ bản vẽ và đồ thị với độ chính xác cao."
+        }
+      ],
+      "tags": ["input-output", "output-device", "plotter", "cad"]
+    },
+    [
+      {
+        "id": "digital-to-analog-converter",
+        "order": 41,
+        "titleJa": "D/Aコンバータ",
+        "titleVi": "Bộ chuyển đổi D/A",
+        "importance": "medium",
+        "summaryJa": "デジタル信号をアナログ信号に変換するD/Aコンバータについて理解する。",
+        "summaryVi": "Tìm hiểu về bộ chuyển đổi D/A, thiết bị chuyển đổi tín hiệu số thành tín hiệu tương tự.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "D/Aコンバータとは",
+            "vi": "Bộ chuyển đổi D/A là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "D/Aコンバータ（Digital-to-Analog Converter）は、デジタル信号をアナログ信号に変換する装置である。デジタル信号は数値として表現されるのに対し、アナログ信号は連続的な変化を持つため、この変換を行うことで音声や映像などの情報を再生することが可能になる。",
+            "vi": "Bộ chuyển đổi D/A (Digital-to-Analog Converter) là thiết bị chuyển đổi tín hiệu số thành tín hiệu tương tự. Tín hiệu số được biểu diễn dưới dạng số, trong khi tín hiệu tương tự có sự thay đổi liên tục, do đó việc chuyển đổi này cho phép tái tạo thông tin như âm thanh và hình ảnh."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、コンピュータから出力された音楽データはデジタル形式であるが、それをスピーカーから聞くためにはD/Aコンバータを通してアナログ信号に変換しなければならない。",
+            "vi": "Ví dụ, dữ liệu âm nhạc xuất ra từ máy tính ở dạng số, nhưng để nghe qua loa thì phải được chuyển đổi thành tín hiệu tương tự thông qua bộ chuyển đổi D/A."
+          },
+          {
+            "type": "point",
+            "ja": "D/Aコンバータはオーディオ機器やテレビ、スマートフォンなど幅広い電子機器に利用されており、音質や画質を決定する重要な要素である。",
+            "vi": "Bộ chuyển đổi D/A được sử dụng rộng rãi trong các thiết bị điện tử như thiết bị âm thanh, TV, điện thoại thông minh và là yếu tố quan trọng quyết định chất lượng âm thanh và hình ảnh."
+          }
+        ],
+        "terms": [
+          {
+            "term": "D/Aコンバータ",
+            "reading": "でいえーこんばーた",
+            "english": "Digital-to-Analog Converter",
+            "vi": "bộ chuyển đổi D/A",
+            "definitionJa": "デジタル信号をアナログ信号に変換する装置。",
+            "definitionVi": "Thiết bị chuyển đổi tín hiệu số thành tín hiệu tương tự."
+          }
+        ],
+        "tags": ["input-output", "output-device", "converter", "da-converter"]
+      },
+      {
+        "id": "projector",
+        "order": 42,
+        "titleJa": "プロジェクター",
+        "titleVi": "Máy chiếu",
+        "importance": "medium",
+        "summaryJa": "映像や画像を大画面に投影するプロジェクターについて理解する。",
+        "summaryVi": "Tìm hiểu về máy chiếu, thiết bị chiếu hình ảnh và video lên màn hình lớn.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "プロジェクターとは",
+            "vi": "Máy chiếu là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "プロジェクター（Projector）は、映像や画像を大画面に投影するための装置である。通常、PCやDVDプレーヤーなどの映像信号を受け取り、それをレンズを通じてスクリーンや壁に映し出す機能を持つ。",
+            "vi": "Máy chiếu (Projector) là thiết bị dùng để chiếu hình ảnh và video lên màn hình lớn. Máy nhận tín hiệu từ PC, DVD player và chiếu nội dung lên màn hình hoặc tường thông qua ống kính."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、会議室や教室でのプレゼンテーションで、資料や動画を多くの人と共有する際に使用される。また、家庭用プロジェクターは映画鑑賞やゲームプレイに適し、部屋の大きさに応じた多様なモデルが存在する。",
+            "vi": "Ví dụ, máy chiếu được sử dụng trong phòng họp hoặc lớp học để chia sẻ tài liệu và video với nhiều người. Máy chiếu gia đình phù hợp cho xem phim hoặc chơi game, với nhiều mẫu mã đa dạng."
+          },
+          {
+            "type": "point",
+            "ja": "最近では、LED技術やレーザー技術を用いた高輝度のプロジェクターも登場し、より鮮明で明るい映像が楽しめるようになっている。",
+            "vi": "Gần đây, máy chiếu độ sáng cao sử dụng công nghệ LED hoặc laser đã xuất hiện, cho hình ảnh sắc nét và sáng hơn."
+          }
+        ],
+        "terms": [
+          {
+            "term": "プロジェクター",
+            "reading": "ぷろじぇくたー",
+            "english": "Projector",
+            "vi": "máy chiếu",
+            "definitionJa": "映像や画像を大画面に投影するための装置。",
+            "definitionVi": "Thiết bị chiếu hình ảnh và video lên màn hình lớn."
+          }
+        ],
+        "tags": ["input-output", "output-device", "display", "projector"]
+      },
+      {
+        "id": "audio-output-device",
+        "order": 43,
+        "titleJa": "音声出力装置",
+        "titleVi": "Thiết bị xuất âm thanh",
+        "importance": "medium",
+        "summaryJa": "音声を人間の耳で聞こえる形に変換する音声出力装置について理解する。",
+        "summaryVi": "Tìm hiểu về thiết bị xuất âm thanh, thiết bị chuyển đổi tín hiệu âm thanh thành sóng âm thanh tai người có thể nghe được.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "音声出力装置とは",
+            "vi": "Thiết bị xuất âm thanh là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "音声出力装置は、コンピュータやその他のデバイスが生成した音声や音楽を人間の耳で聞こえる形に変換するための装置である。最も一般的な例はスピーカーやヘッドフォンであり、これらは音信号を電気信号から音波に変換して、耳に届ける役割を持つ。",
+            "vi": "Thiết bị xuất âm thanh là thiết bị chuyển đổi âm thanh do máy tính hoặc thiết bị khác tạo ra thành dạng mà tai người có thể nghe được. Ví dụ phổ biến nhất là loa và tai nghe, chuyển đổi tín hiệu âm thanh điện thành sóng âm thanh."
+          },
+          {
+            "type": "paragraph",
+            "ja": "また、映画や音楽の鑑賞、ゲームプレイなど、様々なエンターテインメントコンテンツの体験を向上させるために不可欠である。",
+            "vi": "Chúng không thể thiếu để nâng cao trải nghiệm giải trí như xem phim, nghe nhạc hoặc chơi game."
+          },
+          {
+            "type": "point",
+            "ja": "最近では、Bluetooth対応のワイヤレスデバイスやスマートスピーカーなど、より便利でユーザーフレンドリーな音声出力装置も増えている。",
+            "vi": "Gần đây, các thiết bị xuất âm thanh tiện lợi và thân thiện hơn như thiết bị không dây hỗ trợ Bluetooth, loa thông minh ngày càng phổ biến."
+          }
+        ],
+        "terms": [
+          {
+            "term": "音声出力装置",
+            "reading": "おんせいしゅつりょくそうち",
+            "english": "Audio Output Device",
+            "vi": "thiết bị xuất âm thanh",
+            "definitionJa": "コンピュータが生成した音声信号を聞こえる形に変換する装置。",
+            "definitionVi": "Thiết bị chuyển đổi tín hiệu âm thanh do máy tính tạo ra thành dạng có thể nghe được."
+          }
+        ],
+        "tags": [
+          "input-output",
+          "output-device",
+          "audio",
+          "speaker",
+          "headphone"
+        ]
+      },
+      {
+        "id": "hard-disk-drive",
+        "order": 44,
+        "titleJa": "ハードディスク装置",
+        "titleVi": "Ổ đĩa cứng HDD",
+        "importance": "high",
+        "summaryJa": "データを長期間保存する補助記憶装置であるハードディスク装置について理解する。",
+        "summaryVi": "Tìm hiểu về ổ đĩa cứng (HDD), thiết bị lưu trữ phụ dùng để lưu trữ dữ liệu lâu dài.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "ハードディスク装置とは",
+            "vi": "Ổ đĩa cứng HDD là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "ハードディスク装置（Hard Disk Drive）は、デジタルデータを長期間保存するための補助記憶装置である。この装置は、磁性体を持つ円盤（プラッタ）にデータを記録し、読み書きすることによって情報を管理する。",
+            "vi": "Ổ đĩa cứng (Hard Disk Drive) là thiết bị lưu trữ phụ dùng để lưu trữ dữ liệu số lâu dài. Ổ đĩa ghi dữ liệu lên đĩa tròn (platter) có phủ vật liệu từ và đọc/ghi thông tin."
+          },
+          {
+            "type": "paragraph",
+            "ja": "通常、パソコンやサーバに搭載されており、大容量のデータ保存が可能である。例えば、写真、音楽、動画などのファイルを保存するのに適している。それ自体がデータを永続的に保持できるため、電源を切ってもデータが消失することはない。",
+            "vi": "HDD thường được trang bị trong máy tính và máy chủ, cho phép lưu trữ dung lượng lớn. Thích hợp lưu trữ ảnh, nhạc, video. Dữ liệu vẫn được giữ ngay cả khi tắt nguồn."
+          },
+          {
+            "type": "point",
+            "ja": "一方で、SSDに比べて速度は遅いが、コストパフォーマンスに優れ、大量のデータを安価に保存できるという特徴がある。",
+            "vi": "Tuy nhiên, HDD có tốc độ chậm hơn SSD, nhưng có lợi thế về giá thành, cho phép lưu trữ lượng lớn dữ liệu với chi phí thấp."
+          }
+        ],
+        "terms": [
+          {
+            "term": "ハードディスク装置",
+            "reading": "はーどでいすくそうち",
+            "english": "Hard Disk Drive",
+            "vi": "ổ đĩa cứng HDD",
+            "definitionJa": "デジタルデータを長期間保存するための補助記憶装置。",
+            "definitionVi": "Thiết bị lưu trữ phụ dùng để lưu trữ dữ liệu số lâu dài."
+          }
+        ],
+        "tags": ["input-output", "storage", "hdd", "magnetic-disk"]
+      },
+      {
+        "id": "ssd",
+        "order": 45,
+        "titleJa": "SSD",
+        "titleVi": "SSD (Ổ cứng thể rắn)",
+        "importance": "high",
+        "summaryJa": "高速なデータアクセスが可能な補助記憶装置SSDについて理解する。",
+        "summaryVi": "Tìm hiểu về SSD, thiết bị lưu trữ phụ có khả năng truy xuất dữ liệu tốc độ cao.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "SSDとは",
+            "vi": "SSD là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "SSD（Solid State Drive）はコンピュータの補助記憶装置の一つである。従来のハードディスクドライブ（HDD）とは異なり、SSDは機械的な部品を持たず、フラッシュメモリを使用してデータを保存するため、高速なデータアクセスが可能である。",
+            "vi": "SSD (Solid State Drive) là một loại thiết bị lưu trữ phụ của máy tính. Khác với HDD truyền thống, SSD không có bộ phận cơ khí, sử dụng bộ nhớ flash để lưu trữ dữ liệu, cho phép truy xuất dữ liệu tốc độ cao."
+          },
+          {
+            "type": "paragraph",
+            "ja": "そのため、起動時間やアプリケーションの読み込み速度が大幅に向上し、全体的なシステムのパフォーマンスが向上する。さらに、SSDは耐衝撃性に優れ、静かな動作が特徴であることから、ノートパソコンやゲーム機など幅広いデバイスで利用されている。",
+            "vi": "Nhờ đó, thời gian khởi động và tốc độ tải ứng dụng được cải thiện đáng kể, nâng cao hiệu suất tổng thể. SSD còn có khả năng chống sốc tốt và hoạt động êm ái, được sử dụng rộng rãi trong laptop, máy chơi game."
+          },
+          {
+            "type": "point",
+            "ja": "SSDは容量や価格がさまざまであり、用途に応じた選択が重要である。",
+            "vi": "SSD có nhiều mức dung lượng và giá cả, việc lựa chọn phù hợp với mục đích sử dụng là rất quan trọng."
+          }
+        ],
+        "terms": [
+          {
+            "term": "SSD",
+            "reading": "えすえすでい",
+            "english": "Solid State Drive",
+            "vi": "SSD, ổ cứng thể rắn",
+            "definitionJa": "フラッシュメモリを使用する補助記憶装置で、HDDより高速。",
+            "definitionVi": "Thiết bị lưu trữ phụ sử dụng bộ nhớ flash, nhanh hơn HDD."
+          }
+        ],
+        "tags": ["input-output", "storage", "ssd", "flash-memory"]
+      },
+      {
+        "id": "sd-card-reader",
+        "order": 46,
+        "titleJa": "SDカードリーダー",
+        "titleVi": "Đầu đọc thẻ SD",
+        "importance": "medium",
+        "summaryJa": "SDカードを読み書きするためのSDカードリーダーについて理解する。",
+        "summaryVi": "Tìm hiểu về đầu đọc thẻ SD, thiết bị dùng để đọc và ghi thẻ SD.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "SDカードリーダーとは",
+            "vi": "Đầu đọc thẻ SD là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "SDカードリーダー（SD Card Reader）は、SD（Secure Digital）カードと呼ばれる小型のメモリーカードを読み書きするためのデバイスである。このリーダーは、SDカードをコンピュータや他のデバイスに接続する際に使用され、カード内のデータへのアクセスを容易にする。",
+            "vi": "Đầu đọc thẻ SD (SD Card Reader) là thiết bị dùng để đọc và ghi thẻ nhớ SD. Đầu đọc này kết nối thẻ SD với máy tính hoặc thiết bị khác, giúp dễ dàng truy cập dữ liệu trên thẻ."
+          },
+          {
+            "type": "paragraph",
+            "ja": "たとえば、デジタルカメラやスマートフォンから撮影した写真や動画を、SDカードを使ってコンピュータに移動したり、保存したりする際に役立つ。",
+            "vi": "Ví dụ, đầu đọc thẻ SD hữu ích khi di chuyển hoặc lưu ảnh và video từ máy ảnh kỹ thuật số hoặc điện thoại thông minh vào máy tính thông qua thẻ SD."
+          },
+          {
+            "type": "point",
+            "ja": "SDカードリーダーはUSB接続が一般的であり、コンパクトなものが多く持ち運びに便利である。また、microSDカードにも対応したリーダーもある。",
+            "vi": "Đầu đọc thẻ SD thường kết nối qua USB, nhiều loại nhỏ gọn, dễ mang theo. Một số loại còn hỗ trợ thẻ microSD."
+          }
+        ],
+        "terms": [
+          {
+            "term": "SDカードリーダー",
+            "reading": "えすでいかーどりーだー",
+            "english": "SD Card Reader",
+            "vi": "đầu đọc thẻ SD",
+            "definitionJa": "SDカードを読み書きするためのデバイス。",
+            "definitionVi": "Thiết bị dùng để đọc và ghi thẻ SD."
+          }
+        ],
+        "tags": ["input-output", "storage", "sd-card", "card-reader"]
+      },
+      {
+        "id": "cd-r-rw-drive",
+        "order": 47,
+        "titleJa": "CD-R/RW ドライブ",
+        "titleVi": "Ổ đĩa CD-R/RW",
+        "importance": "medium",
+        "summaryJa": "音楽やデータを記録するCD-R/RWドライブについて理解する。",
+        "summaryVi": "Tìm hiểu về ổ đĩa CD-R/RW, thiết bị ghi và đọc dữ liệu trên đĩa CD.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "CD-R/RW ドライブとは",
+            "vi": "Ổ đĩa CD-R/RW là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "CD-R/RW ドライブは、音楽やデータを記録するための補助記憶装置である。CD-Rは一度だけ書き込みができるディスクであり、一度書き込むと内容を変更することはできない。一方、CD-RWは再書き込みが可能で、何度でもデータの書き換えができるため、柔軟性がある。",
+            "vi": "Ổ đĩa CD-R/RW là thiết bị lưu trữ phụ dùng để ghi nhạc và dữ liệu. CD-R là đĩa chỉ có thể ghi một lần, không thể thay đổi nội dung sau khi ghi. Trong khi đó, CD-RW có thể ghi lại nhiều lần, linh hoạt hơn."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、CD-Rに焼いた音楽はその後変更できないが、CD-RWに保存したデータは必要に応じて新しいデータに更新可能である。",
+            "vi": "Ví dụ, nhạc ghi trên CD-R không thể thay đổi, nhưng dữ liệu lưu trên CD-RW có thể được cập nhật khi cần."
+          },
+          {
+            "type": "point",
+            "ja": "CDドライブは、パソコンや家庭用コンボに広く普及しており、データのバックアップや音楽の制作など様々な用途に利用されている。",
+            "vi": "Ổ CD được phổ biến rộng rãi trong máy tính và thiết bị gia đình, được sử dụng trong nhiều mục đích như sao lưu dữ liệu, sản xuất nhạc."
+          }
+        ],
+        "terms": [
+          {
+            "term": "CD-R/RW ドライブ",
+            "reading": "しーでいーあーる/あーるだぶりゅーどらいぶ",
+            "english": "CD-R/RW Drive",
+            "vi": "ổ đĩa CD-R/RW",
+            "definitionJa": "音楽やデータをCD-R/RWに記録するための補助記憶装置。",
+            "definitionVi": "Thiết bị lưu trữ phụ dùng để ghi dữ liệu lên CD-R/RW."
+          }
+        ],
+        "tags": ["input-output", "storage", "cd", "disc-drive", "rw"]
+      },
+      {
+        "id": "blu-ray-drive",
+        "order": 48,
+        "titleJa": "ブルーレイドライブ",
+        "titleVi": "Ổ đĩa Blu-ray",
+        "importance": "medium",
+        "summaryJa": "大容量のデータを扱えるブルーレイドライブについて理解する。",
+        "summaryVi": "Tìm hiểu về ổ đĩa Blu-ray, thiết bị lưu trữ có dung lượng lớn.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "ブルーレイドライブとは",
+            "vi": "Ổ đĩa Blu-ray là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "ブルーレイドライブ（Blu-ray Disc Drive）は、ブルーレイディスクを読み書きするための補助記憶装置である。この装置は、DVDに比べて大容量のデータを保存できる特徴を持ち、特に高画質の映像コンテンツや大規模なデータのバックアップに適している。",
+            "vi": "Ổ đĩa Blu-ray (Blu-ray Disc Drive) là thiết bị lưu trữ phụ dùng để đọc và ghi đĩa Blu-ray. Thiết bị này có đặc điểm lưu trữ dữ liệu dung lượng lớn hơn DVD, đặc biệt phù hợp cho nội dung video chất lượng cao và sao lưu dữ liệu quy mô lớn."
+          },
+          {
+            "type": "paragraph",
+            "ja": "青紫色のレーザー光を使用してデータを読み書きするため、より細かい情報を読み取ることが可能である。",
+            "vi": "Sử dụng tia laser màu xanh tím để đọc và ghi dữ liệu, cho phép đọc thông tin với độ chi tiết cao hơn."
+          },
+          {
+            "type": "point",
+            "ja": "一般的に外付けと内蔵のタイプがあり、PCやゲーム機などに接続して利用される。",
+            "vi": "Thường có loại gắn ngoài và gắn trong, kết nối với PC và máy chơi game để sử dụng."
+          }
+        ],
+        "terms": [
+          {
+            "term": "ブルーレイドライブ",
+            "reading": "ぶるーれいどらいぶ",
+            "english": "Blu-ray Disc Drive",
+            "vi": "ổ đĩa Blu-ray",
+            "definitionJa": "ブルーレイディスクを読み書きするための補助記憶装置。",
+            "definitionVi": "Thiết bị lưu trữ phụ dùng để đọc và ghi đĩa Blu-ray."
+          }
+        ],
+        "tags": ["input-output", "storage", "blu-ray", "disc-drive"]
+      },
+      {
+        "id": "dvd-r-rw-drive",
+        "order": 49,
+        "titleJa": "DVD-R/RW ドライブ",
+        "titleVi": "Ổ đĩa DVD-R/RW",
+        "importance": "medium",
+        "summaryJa": "DVDディスクを読み書きするDVD-R/RWドライブについて理解する。",
+        "summaryVi": "Tìm hiểu về ổ đĩa DVD-R/RW, thiết bị đọc và ghi đĩa DVD.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "DVD-R/RW ドライブとは",
+            "vi": "Ổ đĩa DVD-R/RW là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "DVD-R/RW ドライブは、DVDディスクを使用してデータを読み書きする装置である。DVD-Rは一度だけ書き込むことができるディスクで、情報の保存が完了した後はデータの変更ができなくなる。一方、DVD-RWは繰り返し書き込みが可能で、データの追加や削除ができる特性を持つ。",
+            "vi": "Ổ đĩa DVD-R/RW là thiết bị đọc và ghi dữ liệu trên đĩa DVD. DVD-R là đĩa chỉ ghi một lần, không thể thay đổi dữ liệu sau khi ghi. Trong khi đó, DVD-RW có thể ghi lại nhiều lần, cho phép thêm và xóa dữ liệu."
+          },
+          {
+            "type": "paragraph",
+            "ja": "このドライブは、映画や音楽、データバックアップなどに多く使用されており、容量が大きいため、長時間の映像や大量のデータを保存するのに適している。",
+            "vi": "Ổ đĩa này được sử dụng nhiều cho phim ảnh, nhạc, sao lưu dữ liệu, với dung lượng lớn, phù hợp lưu video dài và lượng dữ liệu lớn."
+          },
+          {
+            "type": "point",
+            "ja": "家庭用プレイヤーやパソコンと互換性があるため、幅広い用途に利用され、メディアの交換や配布にも便利である。",
+            "vi": "Tương thích với máy tính và đầu đọc gia đình, được sử dụng rộng rãi, tiện lợi cho trao đổi và phân phối phương tiện."
+          }
+        ],
+        "terms": [
+          {
+            "term": "DVD-R/RW ドライブ",
+            "reading": "でいーぶいでいーあーる/あーるだぶりゅーどらいぶ",
+            "english": "DVD-R/RW Drive",
+            "vi": "ổ đĩa DVD-R/RW",
+            "definitionJa": "DVDディスクを読み書きするための補助記憶装置。",
+            "definitionVi": "Thiết bị lưu trữ phụ dùng để đọc và ghi đĩa DVD."
+          }
+        ],
+        "tags": ["input-output", "storage", "dvd", "disc-drive", "rw"]
+      },
+      {
+        "id": "magnetic-tape-device",
+        "order": 50,
+        "titleJa": "磁気テープ装置",
+        "titleVi": "Thiết bị băng từ",
+        "importance": "medium",
+        "summaryJa": "データを磁気テープに記録する磁気テープ装置について理解する。",
+        "summaryVi": "Tìm hiểu về thiết bị băng từ, thiết bị ghi dữ liệu lên băng từ.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "磁気テープ装置とは",
+            "vi": "Thiết bị băng từ là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "磁気テープ装置（Magnetic Tape Device）は、データを磁気テープに記録・保存する補助記憶装置の一つである。この装置は、データをテープ状の媒体に直線的に書き込む仕組みで、特に大量のデータを低コストで長期間保存するのに適している。",
+            "vi": "Thiết bị băng từ (Magnetic Tape Device) là một loại thiết bị lưu trữ phụ ghi và lưu dữ liệu lên băng từ. Thiết bị này ghi dữ liệu tuyến tính lên băng, đặc biệt phù hợp cho lưu trữ dữ liệu dung lượng lớn với chi phí thấp trong thời gian dài."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、バックアップやアーカイブ用途で広く利用されており、大容量のデータを効率的に管理できる。磁気テープは、読み書きが比較的遅いが、安定的な保存が可能という特性を持っている。",
+            "vi": "Ví dụ, được sử dụng rộng rãi cho sao lưu và lưu trữ dữ liệu lâu dài, quản lý dữ liệu dung lượng lớn hiệu quả. Băng từ có tốc độ đọc/ghi tương đối chậm nhưng khả năng lưu trữ ổn định."
+          },
+          {
+            "type": "point",
+            "ja": "大容量データのバックアップや長期保存に適しているが、ランダムアクセスには不向きである。",
+            "vi": "Thích hợp cho sao lưu dữ liệu lớn và lưu trữ lâu dài, nhưng không phù hợp cho truy cập ngẫu nhiên."
+          }
+        ],
+        "terms": [
+          {
+            "term": "磁気テープ装置",
+            "reading": "じきてーぷそうち",
+            "english": "Magnetic Tape Device",
+            "vi": "thiết bị băng từ",
+            "definitionJa": "データを磁気テープに記録する補助記憶装置。",
+            "definitionVi": "Thiết bị lưu trữ phụ ghi dữ liệu lên băng từ."
+          }
+        ],
+        "tags": ["input-output", "storage", "magnetic-tape", "backup"]
+      },
+      {
+        "id": "track-disk",
+        "order": 51,
+        "titleJa": "トラック（補助記憶装置）",
+        "titleVi": "Rãnh (Track) trên ổ đĩa",
+        "importance": "medium",
+        "summaryJa": "補助記憶装置におけるデータ記録の単位であるトラックについて理解する。",
+        "summaryVi": "Tìm hiểu về rãnh (track), đơn vị ghi dữ liệu trên thiết bị lưu trữ.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "トラックとは",
+            "vi": "Rãnh (Track) là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "トラック（Track）は、補助記憶装置においてデータを記録するための円形の帯域を指す。特にハードディスクやフロッピーディスクなどの磁気ディスクにおいて、円周に沿って区切られた非常に細い帯域で、データはこのトラック上に配置される。",
+            "vi": "Rãnh (Track) là dải tròn để ghi dữ liệu trên thiết bị lưu trữ. Đặc biệt trên đĩa từ như HDD và đĩa mềm, rãnh là dải rất mỏng được chia theo chu vi đĩa, dữ liệu được ghi trên các rãnh này."
+          },
+          {
+            "type": "paragraph",
+            "ja": "一般に同心円状に配置され、各トラックには特定のデータが記録されている。データの読み書きは、ヘッドという部品がこのトラック上を移動することで行われる。",
+            "vi": "Các rãnh thường được bố trí đồng tâm, mỗi rãnh chứa dữ liệu nhất định. Việc đọc/ghi dữ liệu được thực hiện bằng đầu đọc di chuyển trên các rãnh này."
+          },
+          {
+            "type": "point",
+            "ja": "トラックは通常セクターに分割され、効率的なデータ管理を可能にする。",
+            "vi": "Rãnh thường được chia thành các sector, cho phép quản lý dữ liệu hiệu quả."
+          }
+        ],
+        "terms": [
+          {
+            "term": "トラック",
+            "reading": "とらっく",
+            "english": "Track",
+            "vi": "rãnh (trên đĩa)",
+            "definitionJa": "補助記憶装置においてデータを記録する円形の帯域。",
+            "definitionVi": "Dải tròn trên thiết bị lưu trữ để ghi dữ liệu."
+          }
+        ],
+        "tags": ["input-output", "storage", "track", "disk-structure"]
+      },
+      {
+        "id": "cylinder",
+        "order": 52,
+        "titleJa": "シリンダ",
+        "titleVi": "Hình trụ (Cylinder) trong ổ đĩa cứng",
+        "importance": "medium",
+        "summaryJa": "HDDにおけるデータ管理の単位であるシリンダについて理解する。",
+        "summaryVi": "Tìm hiểu về hình trụ (Cylinder), đơn vị quản lý dữ liệu trong HDD.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "シリンダとは",
+            "vi": "Hình trụ (Cylinder) là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "シリンダ（Cylinder）は、補助記憶装置においてデータが記録される円筒状の領域を指す。この磁気ディスクなどの媒体上でデータを管理するために用いられ、一般的には複数のトラックが同心円状に配置されている。",
+            "vi": "Hình trụ (Cylinder) là vùng hình trụ chứa dữ liệu trên thiết bị lưu trữ. Được sử dụng để quản lý dữ liệu trên các phương tiện như đĩa từ, thông thường nhiều rãnh được bố trí đồng tâm tạo thành hình trụ."
+          },
+          {
+            "type": "paragraph",
+            "ja": "シリンダは複数のヘッドを用いて同時に複数のトラックにアクセスできるため、データの読み書きが効率的に行える。例えば、ハードディスクドライブ（HDD）では、シリンダの概念を使用してデータの位置を特定し、迅速にアクセスすることが可能である。",
+            "vi": "Hình trụ cho phép truy cập đồng thời vào nhiều rãnh bằng nhiều đầu đọc, giúp đọc/ghi dữ liệu hiệu quả. Trong HDD, khái niệm hình trụ được sử dụng để xác định vị trí dữ liệu và truy cập nhanh chóng."
+          },
+          {
+            "type": "point",
+            "ja": "シリンダの概念によりディスクの性能が向上し、データの管理が容易になる。",
+            "vi": "Khái niệm hình trụ giúp cải thiện hiệu suất đĩa và dễ dàng quản lý dữ liệu hơn."
+          }
+        ],
+        "terms": [
+          {
+            "term": "シリンダ",
+            "reading": "しりんだ",
+            "english": "Cylinder",
+            "vi": "hình trụ (trong HDD)",
+            "definitionJa": "補助記憶装置におけるデータ管理の単位で、同一半径のトラックの集合。",
+            "definitionVi": "Đơn vị quản lý dữ liệu trong thiết bị lưu trữ, tập hợp các rãnh cùng bán kính."
+          }
+        ],
+        "tags": ["input-output", "storage", "cylinder", "hdd-structure"]
+      },
+      {
+        "id": "block-factor",
+        "order": 53,
+        "titleJa": "ブロック化因数",
+        "titleVi": "Hệ số khối (Block Factor)",
+        "importance": "medium",
+        "summaryJa": "データをブロック単位で管理するブロック化因数について理解する。",
+        "summaryVi": "Tìm hiểu về hệ số khối, chỉ số quản lý dữ liệu theo khối.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "ブロック化因数とは",
+            "vi": "Hệ số khối là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "ブロック化因数（Block Factor）は、補助記憶装置においてデータを効率的に管理するための単位の一つである。データを小さな単位で扱うのではなく、一定の大きさのブロックにまとめて処理することで、読み書きの速度や効率が向上する。",
+            "vi": "Hệ số khối (Block Factor) là một đơn vị để quản lý dữ liệu hiệu quả trên thiết bị lưu trữ. Thay vì xử lý dữ liệu từng đơn vị nhỏ, việc gộp thành các khối có kích thước nhất định sẽ cải thiện tốc độ đọc/ghi và hiệu suất."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、ハードディスクやSSDにおいて、データを1バイトずつではなく、512バイトや1キロバイト単位で読み込むことによって、アクセス時間を短縮できる。",
+            "vi": "Ví dụ, trên HDD hoặc SSD, thay vì đọc từng byte, việc đọc dữ liệu theo đơn vị 512 byte hoặc 1 KB giúp rút ngắn thời gian truy cập."
+          },
+          {
+            "type": "point",
+            "ja": "ブロック化因数により、ストレージの性能を最大限に引き出し、利用効率も改善される。",
+            "vi": "Hệ số khối giúp tối đa hóa hiệu suất và cải thiện hiệu quả sử dụng bộ nhớ."
+          }
+        ],
+        "terms": [
+          {
+            "term": "ブロック化因数",
+            "reading": "ぶろっくかいんすう",
+            "english": "Block Factor",
+            "vi": "hệ số khối",
+            "definitionJa": "データを一定の大きさのブロックにまとめて処理するための単位。",
+            "definitionVi": "Đơn vị gộp dữ liệu thành khối có kích thước nhất định để xử lý."
+          }
+        ],
+        "tags": ["input-output", "storage", "block-factor", "data-management"]
+      },
+      {
+        "id": "block-interval",
+        "order": 54,
+        "titleJa": "ブロック間隔",
+        "titleVi": "Khoảng cách khối",
+        "importance": "low",
+        "summaryJa": "ブロック間に設けられるブロック間隔について理解する。",
+        "summaryVi": "Tìm hiểu về khoảng cách khối, khoảng trống giữa các khối dữ liệu.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "ブロック間隔とは",
+            "vi": "Khoảng cách khối là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "ブロック間隔（Block Interval）は、補助記憶装置において、データをブロック単位で管理する際に、隣接するブロック間に設けられる無駄なスペースのことを指す。この間隔は、ブロックの読み書きの効率を考慮して設定されることが多く、物理的な制約やストレージデバイスの構造に依存することがある。",
+            "vi": "Khoảng cách khối (Block Interval) là khoảng trống không chứa dữ liệu giữa các khối liền kề khi quản lý dữ liệu theo khối trên thiết bị lưu trữ. Khoảng cách này thường được thiết lập để tối ưu hiệu quả đọc/ghi, phụ thuộc vào cấu trúc vật lý và hạn chế của thiết bị."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、ハードディスクやSSDにおいて、データが連続して記録されるが、その際に最適な配置を選ぶことで、無駄な待ち時間や読み取りエラーを減少させることが可能である。",
+            "vi": "Ví dụ, trên HDD/SSD, dữ liệu được ghi liên tục, việc lựa chọn bố trí tối ưu có thể giảm thời gian chờ và lỗi đọc."
+          },
+          {
+            "type": "point",
+            "ja": "ブロック間隔を適切に設計することで、ディスクのパフォーマンスを向上させ、データ転送速度を高めることが期待される。",
+            "vi": "Thiết kế khoảng cách khối phù hợp có thể cải thiện hiệu suất đĩa và tăng tốc độ truyền dữ liệu."
+          }
+        ],
+        "terms": [
+          {
+            "term": "ブロック間隔",
+            "reading": "ぶろっくかんかく",
+            "english": "Block Interval",
+            "vi": "khoảng cách khối",
+            "definitionJa": "データブロック間に設けられる無駄なスペース。",
+            "definitionVi": "Khoảng trống không chứa dữ liệu giữa các khối dữ liệu."
+          }
+        ],
+        "tags": ["input-output", "storage", "block-interval", "data-management"]
+      },
+      {
+        "id": "sector",
+        "order": 55,
+        "titleJa": "セクター",
+        "titleVi": "Sector",
+        "importance": "high",
+        "summaryJa": "補助記憶装置における最小管理単位であるセクターについて理解する。",
+        "summaryVi": "Tìm hiểu về sector, đơn vị quản lý dữ liệu nhỏ nhất trên thiết bị lưu trữ.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "セクターとは",
+            "vi": "Sector là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "セクター（Sector）は、補助記憶装置においてデータを管理するための最小単位である。ハードディスクやSSDなどのストレージデバイスは、データをセクター単位で読み書きする。一般的に、1セクターのサイズは512バイトまたは4キロバイトである。",
+            "vi": "Sector là đơn vị nhỏ nhất để quản lý dữ liệu trên thiết bị lưu trữ. Các thiết bị như HDD, SSD đọc/ghi dữ liệu theo từng sector. Thông thường, một sector có kích thước 512 byte hoặc 4 KB."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、コンピュータがファイルを保存すると、そのファイルは複数のセクターに分割されて記録される。このため、データの読み出しや書き込みの際には、特定のセクターを指定して操作が行われる。",
+            "vi": "Ví dụ, khi máy tính lưu một file, file đó được chia thành nhiều sector để ghi. Do đó, thao tác đọc/ghi dữ liệu được thực hiện bằng cách chỉ định sector cụ thể."
+          },
+          {
+            "type": "point",
+            "ja": "セクターの概念はデータの整合性や効率的な管理に寄与し、ストレージデバイスの性能にも影響を与える。",
+            "vi": "Khái niệm sector góp phần vào tính toàn vẹn và quản lý dữ liệu hiệu quả, cũng như ảnh hưởng đến hiệu suất thiết bị lưu trữ."
+          }
+        ],
+        "terms": [
+          {
+            "term": "セクター",
+            "reading": "せくたー",
+            "english": "Sector",
+            "vi": "sector",
+            "definitionJa": "補助記憶装置におけるデータ管理の最小単位。",
+            "definitionVi": "Đơn vị nhỏ nhất để quản lý dữ liệu trên thiết bị lưu trữ."
+          }
+        ],
+        "tags": ["input-output", "storage", "sector", "disk-structure"]
+      },
+      {
+        "id": "defragmentation",
+        "order": 56,
+        "titleJa": "デフラグメンテーション",
+        "titleVi": "Chống phân mảnh (Defragmentation)",
+        "importance": "medium",
+        "summaryJa": "データの断片化を解消するデフラグメンテーションについて理解する。",
+        "summaryVi": "Tìm hiểu về chống phân mảnh, quá trình sắp xếp lại dữ liệu bị phân mảnh trên ổ đĩa.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "デフラグメンテーションとは",
+            "vi": "Chống phân mảnh (Defragmentation) là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "デフラグメンテーション（Defragmentation）は、補助記憶装置に保存されたデータの断片を整理し、連続した空間に再配置する作業を指す。この作業は、ハードディスクなどの記憶装置において、ファイルが断片化されているとアクセスが遅くなるため、効率を高める目的で行われる。",
+            "vi": "Chống phân mảnh là quá trình sắp xếp các mảnh dữ liệu và tái bố trí chúng thành không gian liên tục. Thao tác này được thực hiện để cải thiện hiệu quả truy cập khi file bị phân mảnh trên các thiết bị như HDD."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、大きなファイルが複数の小さな部分に散らばっている場合、デフラグメンテーションによってそれを一つのまとまった場所に移動させることで、読み書きの速度を向上させることができる。",
+            "vi": "Ví dụ, khi một file lớn bị phân tán thành nhiều phần nhỏ, chống phân mảnh sẽ di chuyển chúng thành một khối liên tục, cải thiện tốc độ đọc/ghi."
+          },
+          {
+            "type": "point",
+            "ja": "デフラグメンテーションはパソコンの動作をスムーズに保つための重要なメンテナンス手段である。",
+            "vi": "Chống phân mảnh là một phương pháp bảo trì quan trọng để giữ cho máy tính hoạt động trơn tru."
+          }
+        ],
+        "terms": [
+          {
+            "term": "デフラグメンテーション",
+            "reading": "でふらぐめんてーしょん",
+            "english": "Defragmentation",
+            "vi": "chống phân mảnh",
+            "definitionJa": "データの断片化を解消し、アクセス効率を向上させる作業。",
+            "definitionVi": "Quá trình sắp xếp lại dữ liệu bị phân mảnh để cải thiện hiệu quả truy cập."
+          }
+        ],
+        "tags": ["input-output", "storage", "defragmentation", "maintenance"]
+      },
+      {
+        "id": "wired-lan-card",
+        "order": 57,
+        "titleJa": "有線 LAN インタフェースカード",
+        "titleVi": "Card giao diện mạng LAN có dây",
+        "importance": "medium",
+        "summaryJa": "有線ネットワーク接続に必要なLANインタフェースカードについて理解する。",
+        "summaryVi": "Tìm hiểu về card giao diện mạng LAN có dây, thiết bị cần thiết để kết nối mạng có dây.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "有線 LAN インタフェースカードとは",
+            "vi": "Card giao diện mạng LAN có dây là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "有線LANインタフェースカード（Wired LAN Interface Card）は、コンピュータやネットワーク機器を有線ネットワークに接続するためのハードウェア部品である。このカードが取り付けられたデバイスは、イーサネットケーブルを介してネットワークに接続し、データ通信を行うことができる。",
+            "vi": "Card giao diện mạng LAN có dây là một linh kiện phần cứng để kết nối máy tính và thiết bị mạng với mạng có dây. Thiết bị được gắn card này có thể kết nối mạng qua cáp Ethernet và thực hiện truyền thông dữ liệu."
+          },
+          {
+            "type": "paragraph",
+            "ja": "一般的には、デスクトップパソコンに取り付けられることが多いが、ノートパソコンやサーバにも搭載されている場合がある。このカードは、ネットワークの速度や信号の安定性向上に貢献する。",
+            "vi": "Card thường được gắn trong máy tính để bàn, cũng có thể có trong laptop và máy chủ. Card này góp phần cải thiện tốc độ mạng và độ ổn định tín hiệu."
+          },
+          {
+            "type": "point",
+            "ja": "有線接続は無線接続に比べセキュリティ面でも優れているため、企業ネットワークなどで広く利用されている。",
+            "vi": "Kết nối có dây có ưu thế về bảo mật so với kết nối không dây, được sử dụng rộng rãi trong mạng doanh nghiệp."
+          }
+        ],
+        "terms": [
+          {
+            "term": "有線LANインタフェースカード",
+            "reading": "ゆうせんらんいんたふぇーすかーど",
+            "english": "Wired LAN Interface Card",
+            "vi": "card mạng LAN có dây",
+            "definitionJa": "コンピュータを有線ネットワークに接続するためのハードウェア。",
+            "definitionVi": "Phần cứng để kết nối máy tính với mạng có dây."
+          }
+        ],
+        "tags": ["input-output", "network", "lan", "wired", "ethernet"]
+      },
+      {
+        "id": "wireless-lan-card",
+        "order": 58,
+        "titleJa": "無線 LAN インタフェースカード",
+        "titleVi": "Card giao diện mạng LAN không dây",
+        "importance": "medium",
+        "summaryJa": "無線通信でネットワークに接続するLANインタフェースカードについて理解する。",
+        "summaryVi": "Tìm hiểu về card giao diện mạng LAN không dây, thiết bị kết nối mạng qua sóng radio.",
+        "content": [
+          {
+            "type": "heading",
+            "ja": "無線 LAN インタフェースカードとは",
+            "vi": "Card giao diện mạng LAN không dây là gì?"
+          },
+          {
+            "type": "paragraph",
+            "ja": "無線LANインタフェースカード（Wireless LAN Interface Card）は、無線通信を用いてネットワークに接続するためのデバイスである。このカードをコンピュータやその他の機器に取り付けることで、物理的なケーブル接続なしにインターネットやローカルネットワークにアクセスできるようになる。",
+            "vi": "Card giao diện mạng LAN không dây (WLAN Card) là thiết bị dùng để kết nối mạng thông qua sóng radio. Gắn card này vào máy tính hoặc thiết bị khác, bạn có thể truy cập Internet hoặc mạng nội bộ mà không cần cáp."
+          },
+          {
+            "type": "paragraph",
+            "ja": "例えば、ノートパソコンやタブレットには、内蔵されていることが一般的である。Wi-Fiと呼ばれる技術を使用して、データを送受信する。",
+            "vi": "Ví dụ, laptop và máy tính bảng thường được tích hợp sẵn card WLAN. Sử dụng công nghệ Wi-Fi để gửi và nhận dữ liệu."
+          },
+          {
+            "type": "point",
+            "ja": "無線LANにより特定の場所に縛られず、自由に移動しながらインターネットを利用することが可能である。",
+            "vi": "WLAN cho phép tự do di chuyển và sử dụng Internet mà không bị ràng buộc về vị trí."
+          }
+        ],
+        "terms": [
+          {
+            "term": "無線LANインタフェースカード",
+            "reading": "むせんらんいんたふぇーすかーど",
+            "english": "Wireless LAN Interface Card",
+            "vi": "card mạng LAN không dây",
+            "definitionJa": "無線通信でネットワークに接続するためのデバイス。",
+            "definitionVi": "Thiết bị kết nối mạng thông qua sóng radio không dây."
+          }
+        ],
+        "tags": ["input-output", "network", "lan", "wireless", "wifi"]
+      }
+    ]
+  ]
+}
