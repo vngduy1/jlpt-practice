@@ -1,0 +1,22 @@
+{
+  "id": "system-components",
+  "order": 4,
+  "titleJa": "システム構成要素",
+  "titleVi": "Các thành phần cấu thành hệ thống",
+  "chapters": [
+    {
+      "id": "system-configuration",
+      "order": 1,
+      "titleJa": "システムの構成",
+      "titleVi": "Cấu hình hệ thống",
+      "file": "01-system-configuration.json"
+    },
+    {
+      "id": "system-evaluation-metrics",
+      "order": 2,
+      "titleJa": "システムの評価指標",
+      "titleVi": "Các chỉ số đánh giá hệ thống",
+      "file": "02-system-evaluation-metrics.json"
+    }
+  ]
+}

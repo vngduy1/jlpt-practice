@@ -1,0 +1,43 @@
+{
+  "id": "software",
+  "order": 5,
+  "titleJa": "ソフトウェア",
+  "titleVi": "Phần mềm",
+  "chapters": [
+    {
+      "id": "operating-systems",
+      "order": 1,
+      "titleJa": "オペレーティングシステム",
+      "titleVi": "Hệ điều hành",
+      "file": "01-operating-systems.json"
+    },
+    {
+      "id": "middleware",
+      "order": 2,
+      "titleJa": "ミドルウェア",
+      "titleVi": "Middleware",
+      "file": "02-middleware.json"
+    },
+    {
+      "id": "file-systems",
+      "order": 3,
+      "titleJa": "ファイルシステム",
+      "titleVi": "Hệ thống tệp",
+      "file": "03-file-systems.json"
+    },
+    {
+      "id": "development-tools",
+      "order": 4,
+      "titleJa": "開発ツール",
+      "titleVi": "Công cụ phát triển",
+      "file": "04-development-tools.json"
+    },
+    {
+      "id": "open-source-software",
+      "order": 5,
+      "titleJa": "オープンソースソフトウェア",
+      "titleVi": "Phần mềm mã nguồn mở",
+      "file": "05-open-source-software.json"
+    }
+  ]
+}

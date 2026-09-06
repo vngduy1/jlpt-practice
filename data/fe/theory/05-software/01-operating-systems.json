@@ -1,0 +1,1354 @@
+{
+  "id": "operating-systems",
+  "order": 1,
+  "titleJa": "オペレーティングシステム",
+  "titleVi": "Hệ điều hành",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "operating-system-basics",
+      "order": 1,
+      "titleJa": "オペレーティングシステムの基本と種類",
+      "titleVi": "Cơ bản và các loại hệ điều hành",
+      "importance": "high",
+      "summaryJa": "OSの基本的な役割と、PC、モバイル、リアルタイム、セキュリティ、クラウドなど用途に応じたOSの種類を理解する。",
+      "summaryVi": "Hiểu vai trò cơ bản của hệ điều hành và các loại OS được thiết kế cho PC, thiết bị di động, xử lý thời gian thực, bảo mật và điện toán đám mây.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "オペレーティングシステム（OS）は、ハードウェアとアプリケーションの間に位置し、CPU、メモリ、入出力装置などの資源を管理するとともに、ユーザーやアプリケーションに共通の実行環境を提供する。",
+          "vi": "Hệ điều hành (OS) nằm giữa phần cứng và ứng dụng, quản lý các tài nguyên như CPU, bộ nhớ và thiết bị vào/ra, đồng thời cung cấp môi trường thực thi chung cho người dùng và ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "OSの主な役割は、プロセス管理、メモリ管理、ファイル管理、入出力管理、ユーザーインタフェースの提供などである。",
+          "vi": "Các vai trò chính của OS gồm quản lý tiến trình, bộ nhớ, tệp, thiết bị vào/ra và cung cấp giao diện cho người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "OSは用途によって要求される性質が異なる。リアルタイムOSでは時間制約、セキュアOSでは安全性、クラウド向けOSでは仮想化や資源管理が特に重要になる。",
+          "vi": "Yêu cầu đối với OS thay đổi tùy mục đích. OS thời gian thực chú trọng giới hạn thời gian, OS bảo mật chú trọng an toàn, còn OS cho môi trường cloud đặc biệt chú trọng ảo hóa và quản lý tài nguyên."
+        },
+        {
+          "type": "warning",
+          "ja": "リアルタイムOSの「リアルタイム」は単に処理速度が速いという意味ではなく、決められた時間内に処理結果を保証できることが重要である。",
+          "vi": "“Real-time” không đơn giản có nghĩa là xử lý nhanh. Điểm quan trọng là có thể bảo đảm xử lý hoàn thành trong giới hạn thời gian quy định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OS",
+          "reading": "おーえす",
+          "english": "Operating System",
+          "vi": "hệ điều hành",
+          "definitionJa": "コンピュータのハードウェア資源を管理し、アプリケーションの実行環境やユーザーインタフェースを提供する基本ソフトウェア。",
+          "definitionVi": "Phần mềm cơ bản quản lý tài nguyên phần cứng của máy tính, đồng thời cung cấp môi trường thực thi cho ứng dụng và giao diện cho người dùng."
+        },
+        {
+          "term": "UNIX",
+          "reading": "ゆにっくす",
+          "english": "UNIX",
+          "vi": "UNIX",
+          "definitionJa": "マルチユーザー、マルチタスクなどを特徴とし、多くのOSに影響を与えたオペレーティングシステム。",
+          "definitionVi": "Hệ điều hành có các đặc trưng như đa người dùng và đa nhiệm, đồng thời có ảnh hưởng lớn đến nhiều hệ điều hành khác."
+        },
+        {
+          "term": "PC用OS",
+          "reading": "ぴーしーようおーえす",
+          "english": "PC Operating System",
+          "vi": "hệ điều hành cho máy tính cá nhân",
+          "definitionJa": "パーソナルコンピュータでの利用を想定し、ユーザー操作やアプリケーション実行の環境を提供するOS。",
+          "definitionVi": "Hệ điều hành được thiết kế cho máy tính cá nhân, cung cấp môi trường để người dùng thao tác và chạy ứng dụng."
+        },
+        {
+          "term": "モバイル端末用OS",
+          "reading": "もばいるたんまつようおーえす",
+          "english": "Mobile Operating System",
+          "vi": "hệ điều hành cho thiết bị di động",
+          "definitionJa": "スマートフォンやタブレットなどのモバイル端末向けに、タッチ操作、通信、省電力などを考慮して設計されたOS。",
+          "definitionVi": "Hệ điều hành được thiết kế cho smartphone và tablet, có tính đến thao tác cảm ứng, truyền thông và tiết kiệm năng lượng."
+        },
+        {
+          "term": "オープンOS",
+          "reading": "おーぷんおーえす",
+          "english": "Open Operating System",
+          "vi": "hệ điều hành mở",
+          "definitionJa": "ソースコードが公開され、利用者が利用、変更、再配布できる形で提供されるOS。",
+          "definitionVi": "Hệ điều hành có mã nguồn được công khai và cho phép người dùng sử dụng, sửa đổi hoặc phân phối lại theo điều kiện giấy phép."
+        },
+        {
+          "term": "リアルタイムOS",
+          "reading": "りあるたいむおーえす",
+          "english": "Real-Time Operating System",
+          "vi": "hệ điều hành thời gian thực",
+          "definitionJa": "処理要求に対して定められた時間内に応答することを重視したOS。",
+          "definitionVi": "Hệ điều hành chú trọng bảo đảm phản hồi các yêu cầu xử lý trong một giới hạn thời gian xác định."
+        },
+        {
+          "term": "セキュアOS",
+          "reading": "せきゅあおーえす",
+          "english": "Secure Operating System",
+          "vi": "hệ điều hành bảo mật",
+          "definitionJa": "アクセス制御などのセキュリティ機能を強化し、不正アクセスや権限逸脱を防ぐことを重視したOS。",
+          "definitionVi": "Hệ điều hành tăng cường các chức năng như kiểm soát truy cập nhằm ngăn truy cập trái phép và việc vượt quá quyền hạn."
+        },
+        {
+          "term": "クラウドコンピューティング用OS",
+          "reading": "くらうどこんぴゅーてぃんぐようおーえす",
+          "english": "Cloud Computing Operating System",
+          "vi": "hệ điều hành cho điện toán đám mây",
+          "definitionJa": "クラウド環境で計算資源や仮想環境を効率よく管理することを目的としたOS。",
+          "definitionVi": "Hệ điều hành hướng tới việc quản lý hiệu quả tài nguyên tính toán và môi trường ảo trong hệ thống điện toán đám mây."
+        }
+      ],
+      "tags": ["software", "operating-system", "os-types"]
+    },
+    {
+      "id": "kernel-architecture-and-execution-modes",
+      "order": 2,
+      "titleJa": "カーネル構造と実行モード",
+      "titleVi": "Kiến trúc kernel và chế độ thực thi",
+      "importance": "high",
+      "summaryJa": "OSの中核であるカーネルの構成方法と、カーネルモード・ユーザーモードによる権限制御を理解する。",
+      "summaryVi": "Hiểu các cách tổ chức kernel, phần lõi của OS, và cơ chế kiểm soát quyền thông qua kernel mode và user mode.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "カーネルはOSの中核部分であり、プロセス管理、メモリ管理、入出力制御など、ハードウェアに近い重要な処理を担当する。",
+          "vi": "Kernel là phần lõi của hệ điều hành, đảm nhiệm các xử lý quan trọng gần với phần cứng như quản lý tiến trình, bộ nhớ và vào/ra."
+        },
+        {
+          "type": "heading",
+          "ja": "マイクロカーネルとモノリシックカーネル",
+          "vi": "Microkernel và monolithic kernel"
+        },
+        {
+          "type": "point",
+          "ja": "マイクロカーネルはカーネル内の機能を必要最小限にし、他のサービスを分離することで障害の影響を限定しやすい。",
+          "vi": "Microkernel giữ lại số chức năng tối thiểu trong kernel và tách các dịch vụ khác ra ngoài, nhờ đó dễ giới hạn ảnh hưởng khi xảy ra lỗi."
+        },
+        {
+          "type": "point",
+          "ja": "モノリシックカーネルは多くのOS機能をカーネル空間で実行するため、高速な処理を実現しやすい。",
+          "vi": "Monolithic kernel thực thi nhiều chức năng OS trong không gian kernel nên thường thuận lợi cho hiệu năng xử lý cao."
+        },
+        {
+          "type": "warning",
+          "ja": "カーネルモードとユーザーモードの違いは権限である。通常のアプリケーションはユーザーモードで動作し、OSの重要な処理はカーネルモードで実行される。",
+          "vi": "Khác biệt chính giữa kernel mode và user mode là quyền hạn. Ứng dụng thông thường chạy ở user mode, còn các xử lý quan trọng của OS được thực hiện ở kernel mode."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイクロカーネル",
+          "reading": "まいくろかーねる",
+          "english": "Microkernel",
+          "vi": "microkernel",
+          "definitionJa": "カーネルに持たせる機能を最小限にし、多くのOSサービスをカーネル外で実行する設計方式。",
+          "definitionVi": "Kiến trúc chỉ giữ các chức năng tối thiểu trong kernel và thực thi nhiều dịch vụ OS bên ngoài kernel."
+        },
+        {
+          "term": "モノリシックカーネル",
+          "reading": "ものりしっくかーねる",
+          "english": "Monolithic Kernel",
+          "vi": "monolithic kernel",
+          "definitionJa": "プロセス管理、メモリ管理、ファイルシステムなど多くのOS機能を一つのカーネル空間で動作させる方式。",
+          "definitionVi": "Kiến trúc trong đó nhiều chức năng OS như quản lý tiến trình, bộ nhớ và hệ thống tệp hoạt động trong cùng một không gian kernel."
+        },
+        {
+          "term": "カーネルモード",
+          "reading": "かーねるもーど",
+          "english": "Kernel Mode",
+          "vi": "chế độ kernel",
+          "definitionJa": "OSの中核処理が、ハードウェアやメモリなどのシステム資源へ高い権限でアクセスできる実行モード。",
+          "definitionVi": "Chế độ thực thi có quyền cao, cho phép phần lõi của OS truy cập trực tiếp các tài nguyên hệ thống như phần cứng và bộ nhớ."
+        },
+        {
+          "term": "ユーザーモード",
+          "reading": "ゆーざーもーど",
+          "english": "User Mode",
+          "vi": "chế độ người dùng",
+          "definitionJa": "アプリケーションを制限された権限で実行し、OSや他のプログラムへの影響を防ぐための実行モード。",
+          "definitionVi": "Chế độ chạy ứng dụng với quyền bị giới hạn nhằm ngăn ứng dụng gây ảnh hưởng trực tiếp đến OS hoặc các chương trình khác."
+        }
+      ],
+      "tags": ["software", "operating-system", "kernel", "privilege-mode"]
+    },
+    {
+      "id": "system-software-and-services",
+      "order": 3,
+      "titleJa": "システムソフトウェアとサービス",
+      "titleVi": "Phần mềm hệ thống và các dịch vụ hỗ trợ",
+      "importance": "medium",
+      "summaryJa": "OSを中心としたシステムソフトウェアと、アプリケーションやシステム運用を支えるソフトウェアの役割を理解する。",
+      "summaryVi": "Hiểu phần mềm hệ thống với OS làm trung tâm và vai trò của các phần mềm hỗ trợ ứng dụng cũng như vận hành hệ thống.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "システムソフトウェアは、コンピュータの基本機能を提供し、ハードウェアとアプリケーションの間を支えるソフトウェアの総称である。",
+          "vi": "Phần mềm hệ thống là tên gọi chung cho các phần mềm cung cấp chức năng cơ bản của máy tính và hỗ trợ mối liên hệ giữa phần cứng với ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "ミドルウェアはOSとアプリケーションの間で共通機能を提供し、異なるシステム間の連携を容易にする。",
+          "vi": "Middleware cung cấp các chức năng dùng chung giữa OS và ứng dụng, giúp việc liên kết giữa các hệ thống dễ dàng hơn."
+        },
+        {
+          "type": "point",
+          "ja": "コンパイラは高水準言語で書かれたプログラムを、コンピュータが実行できる形式へ変換する。",
+          "vi": "Compiler chuyển chương trình viết bằng ngôn ngữ bậc cao sang dạng mà máy tính có thể thực thi."
+        },
+        {
+          "type": "point",
+          "ja": "サービスプログラムは、ファイル操作、バックアップ、システム管理など、OSの利用を補助する機能を提供する。",
+          "vi": "Service program cung cấp các chức năng hỗ trợ sử dụng OS như thao tác tệp, sao lưu và quản lý hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムソフトウェア",
+          "reading": "しすてむそふとうぇあ",
+          "english": "System Software",
+          "vi": "phần mềm hệ thống",
+          "definitionJa": "コンピュータの基本動作を管理し、アプリケーションの実行を支えるソフトウェアの総称。",
+          "definitionVi": "Tên gọi chung của phần mềm quản lý hoạt động cơ bản của máy tính và hỗ trợ việc thực thi ứng dụng."
+        },
+        {
+          "term": "ミドルウェア",
+          "reading": "みどるうぇあ",
+          "english": "Middleware",
+          "vi": "phần mềm trung gian",
+          "definitionJa": "OSとアプリケーションの間に位置し、データベース接続や通信などの共通機能を提供するソフトウェア。",
+          "definitionVi": "Phần mềm nằm giữa OS và ứng dụng, cung cấp các chức năng chung như kết nối cơ sở dữ liệu và truyền thông."
+        },
+        {
+          "term": "コンパイラ",
+          "reading": "こんぱいら",
+          "english": "Compiler",
+          "vi": "trình biên dịch",
+          "definitionJa": "高水準言語で記述されたソースプログラムを機械語などの実行可能な形式へ変換するソフトウェア。",
+          "definitionVi": "Phần mềm chuyển chương trình nguồn viết bằng ngôn ngữ bậc cao thành mã máy hoặc dạng có thể thực thi."
+        },
+        {
+          "term": "サービスプログラム",
+          "reading": "さーびすぷろぐらむ",
+          "english": "Service Program",
+          "vi": "chương trình dịch vụ",
+          "definitionJa": "ファイル管理、バックアップ、システム管理など、OSの利用を補助するためのプログラム。",
+          "definitionVi": "Chương trình hỗ trợ việc sử dụng OS thông qua các chức năng như quản lý tệp, sao lưu và quản trị hệ thống."
+        },
+        {
+          "term": "運用管理",
+          "reading": "うんようかんり",
+          "english": "Operations Management",
+          "vi": "quản lý vận hành",
+          "definitionJa": "コンピュータシステムを安定して稼働させるために、監視、資源管理、障害対応、バックアップなどを行う管理活動。",
+          "definitionVi": "Hoạt động quản lý nhằm duy trì hệ thống máy tính vận hành ổn định, bao gồm giám sát, quản lý tài nguyên, xử lý sự cố và sao lưu."
+        }
+      ],
+      "tags": ["software", "system-software", "middleware", "system-services"]
+    },
+    {
+      "id": "process-interrupt-and-multiprogramming",
+      "order": 4,
+      "titleJa": "プロセス管理・割込み・多重プログラミング",
+      "titleVi": "Quản lý tiến trình, ngắt và multiprogramming",
+      "importance": "high",
+      "summaryJa": "OSが複数のプログラムを効率的に実行するためのプロセス管理、割込み、多重プログラミングの基本を理解する。",
+      "summaryVi": "Hiểu các cơ chế cơ bản gồm quản lý tiến trình, ngắt và multiprogramming giúp OS thực thi nhiều chương trình một cách hiệu quả.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "プロセスとは実行中のプログラムを管理する単位であり、OSはCPU時間やメモリなどの資源を各プロセスへ割り当てる。",
+          "vi": "Process là đơn vị quản lý của chương trình đang thực thi. OS phân bổ thời gian CPU, bộ nhớ và các tài nguyên khác cho từng process."
+        },
+        {
+          "type": "point",
+          "ja": "割込みが発生すると、CPUは現在の処理を一時的に中断して割込み処理を実行し、その後必要に応じて元の処理へ戻る。",
+          "vi": "Khi xảy ra ngắt, CPU tạm dừng xử lý hiện tại để thực hiện xử lý ngắt, sau đó có thể quay lại công việc trước đó."
+        },
+        {
+          "type": "point",
+          "ja": "多重プログラミングでは、あるプログラムが入出力待ちになった時間などを利用して別のプログラムを実行し、CPUの利用効率を高める。",
+          "vi": "Trong multiprogramming, khi một chương trình phải chờ vào/ra, CPU có thể thực thi chương trình khác để tăng hiệu suất sử dụng CPU."
+        },
+        {
+          "type": "warning",
+          "ja": "多重プログラミングは複数のプログラムをメモリ上に置いてCPUを効率利用する考え方であり、複数CPUで物理的に同時実行する並列処理とは区別する。",
+          "vi": "Multiprogramming nhằm tận dụng CPU bằng cách giữ nhiều chương trình trong bộ nhớ và chuyển xử lý giữa chúng; cần phân biệt với xử lý song song thực sự bằng nhiều CPU hoặc nhiều lõi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロセス管理",
+          "reading": "ぷろせすかんり",
+          "english": "Process Management",
+          "vi": "quản lý tiến trình",
+          "definitionJa": "OSが実行中のプロセスの状態を管理し、CPU時間やメモリなどの資源を割り当てる機能。",
+          "definitionVi": "Chức năng của OS quản lý trạng thái các process đang chạy và phân bổ tài nguyên như thời gian CPU và bộ nhớ."
+        },
+        {
+          "term": "割込み",
+          "reading": "わりこみ",
+          "english": "Interrupt",
+          "vi": "ngắt",
+          "definitionJa": "実行中の処理を一時的に中断し、優先して別の処理を実行するようCPUへ通知する仕組み。",
+          "definitionVi": "Cơ chế thông báo cho CPU tạm dừng xử lý đang thực hiện để ưu tiên xử lý một sự kiện khác."
+        },
+        {
+          "term": "多重プログラミング",
+          "reading": "たじゅうぷろぐらみんぐ",
+          "english": "Multiprogramming",
+          "vi": "đa chương trình",
+          "definitionJa": "複数のプログラムを主記憶に置き、CPUを切り替えて実行することでCPUの利用効率を高める方式。",
+          "definitionVi": "Phương thức giữ nhiều chương trình trong bộ nhớ chính và chuyển CPU giữa chúng nhằm nâng cao hiệu suất sử dụng CPU."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "process-management",
+        "interrupt",
+        "multiprogramming"
+      ]
+    },
+    {
+      "id": "boot-and-system-startup",
+      "order": 5,
+      "titleJa": "ブートとシステム起動",
+      "titleVi": "Khởi động hệ thống và Boot",
+      "importance": "medium",
+      "summaryJa": "コンピュータの起動時にOSを読み込むブート処理と、ネットワークブート、マルチブート、ブートローダの基本を理解する。",
+      "summaryVi": "Hiểu quá trình boot để nạp hệ điều hành khi máy tính khởi động, cùng các khái niệm network boot, multi-boot và bootloader.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの電源を入れてからOSが利用可能になるまでには、ハードウェアの初期化、OSの読み込み、カーネルの起動など複数の処理が行われる。この一連の処理をブートという。",
+          "vi": "Từ khi bật nguồn máy tính cho đến khi hệ điều hành có thể sử dụng, hệ thống thực hiện nhiều bước như khởi tạo phần cứng, nạp OS và khởi động kernel. Chuỗi xử lý này được gọi là boot."
+        },
+        {
+          "type": "point",
+          "ja": "通常のブートでは、BIOSやUEFIなどのファームウェアがハードウェアを初期化し、ブートローダを介してOSを起動する。",
+          "vi": "Trong quá trình boot thông thường, firmware như BIOS hoặc UEFI khởi tạo phần cứng rồi khởi động OS thông qua bootloader."
+        },
+        {
+          "type": "point",
+          "ja": "ネットワークブートでは、ローカルディスクではなくネットワーク上のサーバから起動に必要な情報を取得する。",
+          "vi": "Network boot lấy thông tin cần thiết để khởi động từ máy chủ qua mạng thay vì từ ổ đĩa cục bộ."
+        },
+        {
+          "type": "point",
+          "ja": "マルチブートでは、一台のコンピュータに複数のOSを用意し、起動時に使用するOSを選択できる。",
+          "vi": "Multi-boot cho phép cài nhiều hệ điều hành trên cùng một máy và chọn OS cần sử dụng khi khởi động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ブートストラップ",
+          "reading": "ぶーとすとらっぷ",
+          "english": "Bootstrap",
+          "vi": "quá trình khởi động hệ thống",
+          "definitionJa": "コンピュータの起動時に、OSを実行できる状態にするために必要なプログラムを順次読み込み、システムを立ち上げる処理。",
+          "definitionVi": "Quá trình khi máy tính khởi động, lần lượt nạp các chương trình cần thiết để đưa hệ thống đến trạng thái có thể chạy hệ điều hành."
+        },
+        {
+          "term": "ネットワークブート",
+          "reading": "ねっとわーくぶーと",
+          "english": "Network Boot",
+          "vi": "khởi động qua mạng",
+          "definitionJa": "コンピュータの起動に必要なOSなどの情報を、ローカルストレージではなくネットワーク上のサーバから取得して起動する方式。",
+          "definitionVi": "Phương thức khởi động máy tính bằng cách lấy OS và dữ liệu cần thiết từ máy chủ trên mạng thay vì từ bộ nhớ cục bộ."
+        },
+        {
+          "term": "マルチブート",
+          "reading": "まるちぶーと",
+          "english": "Multi-Boot",
+          "vi": "đa khởi động",
+          "definitionJa": "一台のコンピュータに複数のOSをインストールし、起動時に使用するOSを選択できるようにする方式。",
+          "definitionVi": "Phương thức cài nhiều hệ điều hành trên một máy tính và cho phép chọn hệ điều hành cần sử dụng khi khởi động."
+        },
+        {
+          "term": "フラッシュブートローダ",
+          "reading": "ふらっしゅぶーとろーだ",
+          "english": "Flash Bootloader",
+          "vi": "bootloader trong bộ nhớ flash",
+          "definitionJa": "フラッシュメモリに格納され、システム起動時にOSなどの必要なプログラムを読み込むためのプログラム。",
+          "definitionVi": "Chương trình được lưu trong bộ nhớ flash và dùng để nạp OS hoặc các chương trình cần thiết khi hệ thống khởi động."
+        }
+      ],
+      "tags": ["software", "operating-system", "boot", "bootloader"]
+    },
+    {
+      "id": "job-management-and-batch-processing",
+      "order": 6,
+      "titleJa": "ジョブ管理とバッチ処理",
+      "titleVi": "Quản lý job và xử lý batch",
+      "importance": "high",
+      "summaryJa": "ジョブの実行順序や資源を管理するジョブ管理と、複数の処理をまとめて実行するバッチ処理の仕組みを理解する。",
+      "summaryVi": "Hiểu cơ chế quản lý job, thứ tự thực thi và tài nguyên, cũng như batch processing dùng để xử lý nhiều công việc theo lô.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ジョブとは、コンピュータに処理させる仕事の単位である。ジョブ管理では、複数のジョブを効率よく処理するために実行順序、優先度、資源の割当てなどを管理する。",
+          "vi": "Job là một đơn vị công việc được giao cho máy tính xử lý. Job management quản lý thứ tự thực thi, độ ưu tiên và phân bổ tài nguyên để xử lý nhiều job hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "ジョブスケジューラは、ジョブをいつ、どの順序で実行するかを管理する。",
+          "vi": "Job scheduler quản lý thời điểm và thứ tự thực thi các job."
+        },
+        {
+          "type": "point",
+          "ja": "マスタスケジューラは、ジョブの優先度や依存関係などを考慮して実行計画を管理する。",
+          "vi": "Master scheduler quản lý kế hoạch thực thi dựa trên độ ưu tiên và quan hệ phụ thuộc giữa các job."
+        },
+        {
+          "type": "point",
+          "ja": "バッチ処理は、一定量のデータや複数の処理をまとめて実行する方式であり、定期的な大量処理などに適している。",
+          "vi": "Batch processing là phương thức gom một lượng dữ liệu hoặc nhiều công việc lại để xử lý cùng đợt, phù hợp với các xử lý số lượng lớn định kỳ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ジョブ管理",
+          "reading": "じょぶかんり",
+          "english": "Job Management",
+          "vi": "quản lý job",
+          "definitionJa": "コンピュータで処理するジョブについて、実行順序、実行状況、資源の割当てなどを管理する機能。",
+          "definitionVi": "Chức năng quản lý thứ tự thực thi, trạng thái thực hiện và phân bổ tài nguyên cho các job trong hệ thống."
+        },
+        {
+          "term": "ジョブスケジューラ",
+          "reading": "じょぶすけじゅーら",
+          "english": "Job Scheduler",
+          "vi": "bộ lập lịch job",
+          "definitionJa": "複数のジョブについて、実行する順序やタイミングを決定し管理するソフトウェア。",
+          "definitionVi": "Phần mềm quyết định và quản lý thứ tự cũng như thời điểm thực thi nhiều job."
+        },
+        {
+          "term": "マスタスケジューラ",
+          "reading": "ますたすけじゅーら",
+          "english": "Master Scheduler",
+          "vi": "bộ lập lịch chính",
+          "definitionJa": "ジョブの優先度や依存関係などを考慮し、システム全体のジョブ実行を管理するスケジューラ。",
+          "definitionVi": "Bộ lập lịch quản lý việc thực thi job của toàn hệ thống dựa trên các yếu tố như độ ưu tiên và quan hệ phụ thuộc."
+        },
+        {
+          "term": "バッチ処理",
+          "reading": "ばっちしょり",
+          "english": "Batch Processing",
+          "vi": "xử lý theo lô",
+          "definitionJa": "複数のデータや処理を一定量まとめ、利用者との対話を必要とせず一括して実行する処理方式。",
+          "definitionVi": "Phương thức gom nhiều dữ liệu hoặc công việc thành một lô và thực thi hàng loạt mà không cần tương tác trực tiếp với người dùng trong quá trình xử lý."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "job-management",
+        "batch-processing"
+      ]
+    },
+    {
+      "id": "process-thread-and-scheduling",
+      "order": 7,
+      "titleJa": "プロセス・スレッドとスケジューリング",
+      "titleVi": "Process, thread và lập lịch CPU",
+      "importance": "high",
+      "summaryJa": "プロセスとスレッドの違い、マルチタスク、スケジューリング、およびプリエンプティブ方式とノンプリエンプティブ方式を理解する。",
+      "summaryVi": "Hiểu sự khác nhau giữa process và thread, multitasking, scheduling, cùng hai cơ chế preemptive và non-preemptive.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSは複数のプロセスやスレッドにCPUを割り当て、効率的に処理を進める。このCPUの実行順序を決定する仕組みをスケジューリングという。",
+          "vi": "OS phân bổ CPU cho nhiều process và thread để thực hiện xử lý hiệu quả. Cơ chế quyết định thứ tự sử dụng CPU được gọi là scheduling."
+        },
+        {
+          "type": "heading",
+          "ja": "プロセスとスレッド",
+          "vi": "Process và thread"
+        },
+        {
+          "type": "point",
+          "ja": "プロセスは実行中のプログラムを管理する単位であり、スレッドはプロセス内部の処理の実行単位である。",
+          "vi": "Process là đơn vị quản lý một chương trình đang chạy, còn thread là đơn vị thực thi xử lý bên trong process."
+        },
+        {
+          "type": "point",
+          "ja": "マルチタスクでは、CPUを複数のタスクに切り替えて割り当てることで、利用者には複数の処理が同時に進んでいるように見せる。",
+          "vi": "Trong multitasking, CPU được chuyển đổi giữa nhiều task, khiến người dùng cảm thấy nhiều công việc đang được thực hiện đồng thời."
+        },
+        {
+          "type": "heading",
+          "ja": "プリエンプティブとノンプリエンプティブ",
+          "vi": "Preemptive và non-preemptive"
+        },
+        {
+          "type": "point",
+          "ja": "プリエンプティブ方式では、OSが実行中のタスクからCPUを強制的に取り上げ、別のタスクへ割り当てることができる。",
+          "vi": "Trong preemptive scheduling, OS có thể cưỡng chế thu hồi CPU từ task đang chạy và cấp cho task khác."
+        },
+        {
+          "type": "point",
+          "ja": "ノンプリエンプティブ方式では、実行中のプロセスが処理を終了するか、入出力待ちなどになるまでCPUを占有する。",
+          "vi": "Trong non-preemptive scheduling, process đang chạy tiếp tục giữ CPU cho đến khi hoàn thành hoặc chuyển sang trạng thái chờ như chờ I/O."
+        },
+        {
+          "type": "warning",
+          "ja": "プロセスとスレッドを混同しない。一般に、一つのプロセスの中に複数のスレッドを持つことができる。",
+          "vi": "Không nhầm process với thread. Thông thường, một process có thể chứa nhiều thread."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロセス",
+          "reading": "ぷろせす",
+          "english": "Process",
+          "vi": "tiến trình",
+          "definitionJa": "実行中のプログラムをOSが管理するための基本的な単位。",
+          "definitionVi": "Đơn vị cơ bản để OS quản lý một chương trình đang được thực thi."
+        },
+        {
+          "term": "スレッド",
+          "reading": "すれっど",
+          "english": "Thread",
+          "vi": "luồng",
+          "definitionJa": "プロセス内部に存在する処理の実行単位であり、同じプロセス内のスレッドは資源の一部を共有する。",
+          "definitionVi": "Đơn vị thực thi bên trong process; các thread thuộc cùng process có thể chia sẻ một phần tài nguyên."
+        },
+        {
+          "term": "スケジューリング",
+          "reading": "すけじゅーりんぐ",
+          "english": "Scheduling",
+          "vi": "lập lịch",
+          "definitionJa": "複数のプロセスやタスクに対して、CPUをどの順序で割り当てて実行するかを決定する処理。",
+          "definitionVi": "Quá trình quyết định CPU sẽ được phân bổ cho các process hoặc task theo thứ tự nào."
+        },
+        {
+          "term": "マルチタスク",
+          "reading": "まるちたすく",
+          "english": "Multitasking",
+          "vi": "đa nhiệm",
+          "definitionJa": "CPUの実行対象を短時間で切り替えるなどして、複数の処理を並行して進める仕組み。",
+          "definitionVi": "Cơ chế chuyển đổi nhanh đối tượng sử dụng CPU để nhiều công việc có thể được tiến hành gần như đồng thời."
+        },
+        {
+          "term": "プリエンプティブ方式",
+          "reading": "ぷりえんぷてぃぶほうしき",
+          "english": "Preemptive Scheduling",
+          "vi": "lập lịch có quyền cưỡng chế",
+          "definitionJa": "OSが実行中のプロセスからCPUの使用権を強制的に取り上げ、別のプロセスへ割り当てることができる方式。",
+          "definitionVi": "Phương thức cho phép OS cưỡng chế thu hồi quyền sử dụng CPU từ process đang chạy và chuyển cho process khác."
+        },
+        {
+          "term": "ノンプリエンプティブ方式",
+          "reading": "のんぷりえんぷてぃぶほうしき",
+          "english": "Non-preemptive Scheduling",
+          "vi": "lập lịch không cưỡng chế",
+          "definitionJa": "実行中のプロセスが自らCPUを解放するまで、OSが強制的にCPUを取り上げない方式。",
+          "definitionVi": "Phương thức trong đó OS không cưỡng chế thu hồi CPU cho đến khi process đang chạy tự giải phóng CPU."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "process",
+        "thread",
+        "scheduling",
+        "multitasking"
+      ]
+    },
+    {
+      "id": "cpu-scheduling-and-io-control",
+      "order": 8,
+      "titleJa": "CPUスケジューリングと入出力制御",
+      "titleVi": "Lập lịch CPU và điều khiển vào/ra",
+      "importance": "high",
+      "summaryJa": "タイムスライス、優先順位、ラウンドロビン、ディスパッチなどのCPUスケジューリングと、入出力におけるチャネルの役割を理解する。",
+      "summaryVi": "Hiểu các khái niệm lập lịch CPU như time slice, priority, round robin và dispatch, cùng vai trò của channel trong quản lý vào/ra.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "CPUスケジューリングでは、複数のプロセスにCPUを公平かつ効率的に割り当てるため、タイムスライスや優先順位などを利用する。",
+          "vi": "Trong lập lịch CPU, time slice và priority được sử dụng để phân bổ CPU cho nhiều process một cách công bằng và hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "タイムスライス方式では、各プロセスに一定時間ずつCPUを割り当て、時間が経過すると別のプロセスへ切り替える。",
+          "vi": "Trong phương thức time slice, mỗi process được cấp CPU trong một khoảng thời gian nhất định, sau đó CPU được chuyển sang process khác."
+        },
+        {
+          "type": "point",
+          "ja": "ラウンドロビンは、各プロセスへ順番にタイムクォンタムを割り当てる代表的なスケジューリング方式である。",
+          "vi": "Round Robin là thuật toán lập lịch điển hình, lần lượt cấp một time quantum cho từng process."
+        },
+        {
+          "type": "point",
+          "ja": "優先順位方式では、各タスクの重要度や緊急度に応じて実行順序を決定する。",
+          "vi": "Trong lập lịch theo độ ưu tiên, thứ tự thực thi được quyết định dựa trên mức độ quan trọng hoặc khẩn cấp của từng task."
+        },
+        {
+          "type": "point",
+          "ja": "ディスパッチは、スケジューラが選択したプロセスへCPUの制御を実際に移す処理である。",
+          "vi": "Dispatch là thao tác thực tế chuyển quyền điều khiển CPU sang process mà scheduler đã lựa chọn."
+        },
+        {
+          "type": "warning",
+          "ja": "スケジューリングとディスパッチは異なる。スケジューリングは「次に誰を実行するかを決める」処理であり、ディスパッチは「決めたプロセスへCPUを渡す」処理である。",
+          "vi": "Scheduling và dispatch khác nhau: scheduling là quyết định process nào chạy tiếp theo, còn dispatch là thực sự chuyển CPU cho process đã được chọn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "タイムスライス方式",
+          "reading": "たいむすらいすほうしき",
+          "english": "Time Slice Method",
+          "vi": "phương thức chia lát thời gian",
+          "definitionJa": "複数のプロセスにCPU時間を一定時間ずつ割り当て、順次切り替えて実行する方式。",
+          "definitionVi": "Phương thức cấp CPU cho mỗi process trong một khoảng thời gian cố định rồi lần lượt chuyển sang process khác."
+        },
+        {
+          "term": "優先順位",
+          "reading": "ゆうせんじゅん",
+          "english": "Priority Scheduling",
+          "vi": "độ ưu tiên",
+          "definitionJa": "プロセスやタスクの重要度や緊急度などに基づいて、実行する順序を決定するための基準。",
+          "definitionVi": "Tiêu chí dùng để quyết định thứ tự thực thi process hoặc task dựa trên mức độ quan trọng, khẩn cấp và các yếu tố khác."
+        },
+        {
+          "term": "ラウンドロビン",
+          "reading": "らうんどろびん",
+          "english": "Round Robin",
+          "vi": "Round Robin",
+          "definitionJa": "各プロセスに一定のタイムクォンタムを順番に割り当て、時間を使い切ると次のプロセスへCPUを切り替える方式。",
+          "definitionVi": "Thuật toán lần lượt cấp một time quantum cố định cho từng process; khi hết thời gian, CPU được chuyển sang process tiếp theo."
+        },
+        {
+          "term": "タイムクォンタム",
+          "reading": "たいむくぉんたむ",
+          "english": "Time Quantum",
+          "vi": "lượng tử thời gian",
+          "definitionJa": "タイムスライス方式やラウンドロビン方式で、一つのプロセスに連続して割り当てるCPU時間の単位。",
+          "definitionVi": "Khoảng thời gian CPU được cấp liên tục cho một process trong time-slicing hoặc Round Robin."
+        },
+        {
+          "term": "ディスパッチ",
+          "reading": "でぃすぱっち",
+          "english": "Dispatch",
+          "vi": "chuyển quyền thực thi",
+          "definitionJa": "スケジューリングによって選択されたプロセスへCPUの制御を移し、実際に実行を開始させる処理。",
+          "definitionVi": "Quá trình chuyển quyền điều khiển CPU cho process được scheduler lựa chọn để bắt đầu hoặc tiếp tục thực thi."
+        },
+        {
+          "term": "チャネル",
+          "reading": "ちゃねる",
+          "english": "Channel",
+          "vi": "kênh vào/ra",
+          "definitionJa": "CPUに代わって入出力装置とのデータ転送を制御し、CPUの入出力処理の負担を軽減するための機構。",
+          "definitionVi": "Cơ chế điều khiển việc truyền dữ liệu với thiết bị vào/ra thay cho CPU, giúp giảm tải xử lý I/O cho CPU."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "cpu-scheduling",
+        "round-robin",
+        "dispatch",
+        "io-control"
+      ]
+    },
+    {
+      "id": "interrupt-and-swapping",
+      "order": 9,
+      "titleJa": "割込みとスワッピング",
+      "titleVi": "Ngắt và swapping",
+      "importance": "high",
+      "summaryJa": "入出力割込みと、主記憶・補助記憶間でプログラムやデータを移動するロールイン、ロールアウト、スワップイン、スワップアウトの基本を理解する。",
+      "summaryVi": "Hiểu ngắt vào/ra và các cơ chế di chuyển chương trình, dữ liệu giữa bộ nhớ chính và bộ nhớ phụ như roll-in, rollout, swap-in và swap-out.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSでは、外部装置からの要求に対応する割込み処理や、限られた主記憶を効率的に利用するためのスワッピングが重要な役割を持つ。",
+          "vi": "Trong hệ điều hành, xử lý ngắt từ thiết bị bên ngoài và swapping để sử dụng hiệu quả bộ nhớ chính có dung lượng hạn chế là những cơ chế quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "入出力割込みでは、外部装置からの信号を受けると実行中の処理を一時停止し、必要な処理を優先して実行する。",
+          "vi": "Với ngắt vào/ra, khi nhận tín hiệu từ thiết bị bên ngoài, CPU tạm dừng xử lý hiện tại để thực hiện xử lý cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "スワップインは補助記憶上のプロセスやデータを主記憶へ戻す処理であり、スワップアウトは主記憶から補助記憶へ退避する処理である。",
+          "vi": "Swap-in là đưa process hoặc dữ liệu từ bộ nhớ phụ trở lại bộ nhớ chính, còn swap-out là chuyển chúng từ bộ nhớ chính sang bộ nhớ phụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "入出力割込み",
+          "reading": "にゅうしゅつりょくわりこみ",
+          "english": "Input/Output Interrupt",
+          "vi": "ngắt vào/ra",
+          "definitionJa": "外部機器とのデータのやり取りが発生した際に、現在のプログラム処理を一時中断して必要な入出力処理を優先的に実行する仕組み。",
+          "definitionVi": "Cơ chế tạm dừng chương trình đang thực thi khi phát sinh trao đổi dữ liệu với thiết bị bên ngoài để ưu tiên xử lý vào/ra cần thiết."
+        },
+        {
+          "term": "ロールイン",
+          "reading": "ろーるいん",
+          "english": "Roll-In",
+          "vi": "đưa chương trình trở lại bộ nhớ chính",
+          "definitionJa": "実記憶管理において、補助記憶へ一時的に移されていたデータやプログラムを主記憶へ再び読み込む処理。",
+          "definitionVi": "Trong quản lý bộ nhớ thực, đây là thao tác đưa dữ liệu hoặc chương trình đã tạm chuyển sang bộ nhớ phụ trở lại bộ nhớ chính."
+        },
+        {
+          "term": "ロールアウト",
+          "reading": "ろーるあうと",
+          "english": "Rollout",
+          "vi": "triển khai theo từng giai đoạn",
+          "definitionJa": "特定のソフトウェアやシステムの更新・機能追加を、限定された利用者から順次広い範囲へ展開していくプロセス。",
+          "definitionVi": "Quá trình triển khai bản cập nhật hoặc chức năng mới của phần mềm/hệ thống từ một nhóm người dùng giới hạn rồi dần mở rộng ra toàn bộ người dùng."
+        },
+        {
+          "term": "スワップイン",
+          "reading": "すわっぷいん",
+          "english": "Swap In",
+          "vi": "đưa vào bộ nhớ chính",
+          "definitionJa": "補助記憶に退避されていたプロセスやデータを主記憶へ読み戻す処理。",
+          "definitionVi": "Thao tác đưa process hoặc dữ liệu đã được lưu tạm trong bộ nhớ phụ trở lại RAM."
+        },
+        {
+          "term": "スワップアウト",
+          "reading": "すわっぷあうと",
+          "english": "Swap Out",
+          "vi": "đưa ra khỏi bộ nhớ chính",
+          "definitionJa": "主記憶が不足した場合などに、使用中のプログラムやデータを一時的に補助記憶へ移動する処理。",
+          "definitionVi": "Thao tác tạm thời chuyển chương trình hoặc dữ liệu đang nằm trong RAM sang bộ nhớ phụ khi bộ nhớ chính thiếu dung lượng."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "interrupt",
+        "swap",
+        "memory-management"
+      ]
+    },
+    {
+      "id": "memory-management-methods",
+      "order": 10,
+      "titleJa": "記憶管理方式",
+      "titleVi": "Các phương thức quản lý bộ nhớ",
+      "importance": "high",
+      "summaryJa": "限られた主記憶を効率的に利用するためのオーバーレイ、ガベージコレクション、コンパクション、仮想記憶、セグメント方式などを理解する。",
+      "summaryVi": "Hiểu các kỹ thuật quản lý bộ nhớ như overlay, garbage collection, compaction, virtual memory và segmentation nhằm sử dụng RAM hiệu quả.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSの記憶管理では、限られた物理メモリを効率的に利用するために、不要領域の解放、断片化の解消、仮想アドレスの利用など様々な方式が用いられる。",
+          "vi": "Trong quản lý bộ nhớ của OS, nhiều kỹ thuật được sử dụng nhằm tận dụng hiệu quả bộ nhớ vật lý hạn chế, như giải phóng vùng không dùng, xử lý phân mảnh và sử dụng địa chỉ ảo."
+        },
+        {
+          "type": "point",
+          "ja": "ガベージコレクションは不要になったメモリを自動的に回収する。",
+          "vi": "Garbage collection tự động thu hồi vùng nhớ không còn được sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "コンパクションは分散した空き領域を集めて、一つの大きな連続領域にする。",
+          "vi": "Compaction gom các vùng trống bị phân tán thành một vùng nhớ liên tục lớn hơn."
+        },
+        {
+          "type": "point",
+          "ja": "仮想記憶では、物理メモリより大きなアドレス空間をプログラムに提供できる。",
+          "vi": "Virtual memory cho phép chương trình sử dụng không gian địa chỉ lớn hơn dung lượng RAM vật lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オーバーレイ方式",
+          "reading": "おーばーれいほうしき",
+          "english": "Overlay Method",
+          "vi": "phương thức overlay",
+          "definitionJa": "実行時に必要なプログラム部分だけを主記憶へ読み込むことで、限られたメモリを効率的に利用する方式。",
+          "definitionVi": "Phương thức chỉ nạp phần chương trình cần thiết vào bộ nhớ chính tại thời điểm thực thi để tiết kiệm RAM."
+        },
+        {
+          "term": "ガベージコレクション",
+          "reading": "がべーじこれくしょん",
+          "english": "Garbage Collection",
+          "vi": "thu gom rác bộ nhớ",
+          "definitionJa": "プログラムから使用されなくなったメモリ領域を自動的に検出し、再利用できるように解放する仕組み。",
+          "definitionVi": "Cơ chế tự động phát hiện vùng nhớ không còn được chương trình sử dụng và giải phóng để có thể tái sử dụng."
+        },
+        {
+          "term": "コンパクション",
+          "reading": "こんぱくしょん",
+          "english": "Compaction",
+          "vi": "nén/gom vùng nhớ",
+          "definitionJa": "主記憶内に分散した空き領域を移動・整理し、大きな連続した空き領域を作る処理。",
+          "definitionVi": "Quá trình sắp xếp lại các vùng trống phân tán trong bộ nhớ để tạo thành một vùng trống liên tục lớn."
+        },
+        {
+          "term": "仮想記憶",
+          "reading": "かそうきおく",
+          "english": "Virtual Memory",
+          "vi": "bộ nhớ ảo",
+          "definitionJa": "補助記憶を主記憶の一部のように利用し、物理メモリ容量を超える仮想的な記憶空間を提供する記憶管理方式。",
+          "definitionVi": "Kỹ thuật sử dụng bộ nhớ phụ như phần mở rộng của RAM để cung cấp không gian bộ nhớ ảo lớn hơn bộ nhớ vật lý."
+        },
+        {
+          "term": "ベースアドレス方式",
+          "reading": "べーすあどれすほうしき",
+          "english": "Base Address Method",
+          "vi": "phương thức địa chỉ cơ sở",
+          "definitionJa": "基準となるベースアドレスに相対的なオフセットを加えて、実際にアクセスするメモリアドレスを決定する方式。",
+          "definitionVi": "Phương thức tính địa chỉ bộ nhớ thực bằng cách cộng offset tương đối vào địa chỉ cơ sở."
+        },
+        {
+          "term": "セグメント方式",
+          "reading": "せぐめんとほうしき",
+          "english": "Segment Method",
+          "vi": "phân đoạn",
+          "definitionJa": "プログラムやデータを意味のある可変長の単位であるセグメントに分割して管理する記憶管理方式。",
+          "definitionVi": "Phương thức quản lý bộ nhớ bằng cách chia chương trình và dữ liệu thành các segment có kích thước biến đổi theo ý nghĩa logic."
+        },
+        {
+          "term": "セグメントページング方式",
+          "reading": "せぐめんとぺーじんぐほうしき",
+          "english": "Segment Paging Method",
+          "vi": "phân đoạn kết hợp phân trang",
+          "definitionJa": "プログラムをセグメントに分割し、さらに各セグメントを固定長のページに分割して管理する方式。",
+          "definitionVi": "Phương thức chia chương trình thành segment rồi tiếp tục chia mỗi segment thành các page có kích thước cố định."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "memory-management",
+        "virtual-memory",
+        "segmentation"
+      ]
+    },
+    {
+      "id": "virtual-memory-and-page-management",
+      "order": 11,
+      "titleJa": "仮想記憶とページ管理",
+      "titleVi": "Bộ nhớ ảo và quản lý trang",
+      "importance": "high",
+      "summaryJa": "仮想記憶におけるアドレス変換、ページフォールト、ページ置換、LRU、FIFO、スラッシングを理解する。",
+      "summaryVi": "Hiểu cơ chế chuyển đổi địa chỉ, page fault, page replacement, LRU, FIFO và thrashing trong bộ nhớ ảo.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "仮想記憶では、プログラムが使用する仮想アドレスを物理アドレスに変換し、必要なページだけを主記憶へ配置する。",
+          "vi": "Trong bộ nhớ ảo, địa chỉ ảo mà chương trình sử dụng được chuyển thành địa chỉ vật lý và chỉ các page cần thiết mới được đặt vào RAM."
+        },
+        {
+          "type": "point",
+          "ja": "必要なページが主記憶に存在しないとページフォールトが発生する。",
+          "vi": "Nếu page cần thiết không có trong RAM thì page fault xảy ra."
+        },
+        {
+          "type": "point",
+          "ja": "空きページがない場合はページリプレースメントによって置き換えるページを選択する。",
+          "vi": "Nếu không còn khung trang trống, page replacement sẽ quyết định page nào bị thay thế."
+        },
+        {
+          "type": "point",
+          "ja": "LRUは最も長い間使用されていないページを置換対象とし、FIFOは最も早く主記憶へ入ったページを対象とする。",
+          "vi": "LRU thay page lâu nhất chưa được sử dụng; FIFO thay page đã được đưa vào RAM sớm nhất."
+        },
+        {
+          "type": "warning",
+          "ja": "ページフォールトが過度に発生するとスラッシングとなり、ページの入替えに時間を取られてCPUの実処理時間が大きく減少する。",
+          "vi": "Nếu page fault xảy ra quá thường xuyên sẽ dẫn đến thrashing, hệ thống dành quá nhiều thời gian đổi page khiến thời gian CPU xử lý thực tế giảm mạnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スラッシング",
+          "reading": "すらっしんぐ",
+          "english": "Thrashing",
+          "vi": "hiện tượng thrashing",
+          "definitionJa": "主記憶不足などによりページフォールトが頻発し、ページの入替え処理に多くの時間を費やしてシステム性能が著しく低下する現象。",
+          "definitionVi": "Hiện tượng page fault xảy ra liên tục do thiếu RAM, khiến hệ thống dành phần lớn thời gian đổi page và hiệu năng giảm nghiêm trọng."
+        },
+        {
+          "term": "動的アドレス変換",
+          "reading": "どうてきあどれすへんかん",
+          "english": "Dynamic Address Translation",
+          "vi": "chuyển đổi địa chỉ động",
+          "definitionJa": "プログラムが使用する仮想アドレスを、実行時に対応する物理アドレスへ変換する仕組み。",
+          "definitionVi": "Cơ chế chuyển địa chỉ ảo mà chương trình sử dụng thành địa chỉ vật lý tương ứng trong lúc thực thi."
+        },
+        {
+          "term": "ページフォールト",
+          "reading": "ぺーじふぉーると",
+          "english": "Page Fault",
+          "vi": "lỗi thiếu trang",
+          "definitionJa": "プログラムが参照しようとしたページが主記憶上に存在しない場合に発生する事象。",
+          "definitionVi": "Sự kiện xảy ra khi chương trình truy cập một page hiện không tồn tại trong bộ nhớ chính."
+        },
+        {
+          "term": "ページリプレースメント",
+          "reading": "ぺーじりぷれーすめんと",
+          "english": "Page Replacement",
+          "vi": "thay thế trang",
+          "definitionJa": "主記憶に新しいページを読み込む空きがない場合に、既存のページから置換対象を選んで入れ替える処理。",
+          "definitionVi": "Quá trình chọn một page hiện có để loại khỏi RAM khi cần nạp page mới mà không còn khung trang trống."
+        },
+        {
+          "term": "LRU",
+          "reading": "えるあーるゆー",
+          "english": "Least Recently Used",
+          "vi": "ít được sử dụng gần đây nhất",
+          "definitionJa": "ページ置換方式の一つで、最も長い間参照されていないページを置換対象として選択する方式。",
+          "definitionVi": "Thuật toán thay thế page chọn page lâu nhất chưa được truy cập làm đối tượng bị loại."
+        },
+        {
+          "term": "FIFO",
+          "reading": "ふぁいふぉ",
+          "english": "First In First Out",
+          "vi": "vào trước ra trước",
+          "definitionJa": "最初に主記憶へ読み込まれたページから順に置換対象とする方式。",
+          "definitionVi": "Phương thức chọn page đã được đưa vào bộ nhớ sớm nhất để thay thế trước."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "virtual-memory",
+        "paging",
+        "page-fault",
+        "page-replacement",
+        "lru",
+        "fifo"
+      ]
+    },
+    {
+      "id": "protocol-control",
+      "order": 12,
+      "titleJa": "プロトコル制御",
+      "titleVi": "Điều khiển giao thức",
+      "importance": "medium",
+      "summaryJa": "コンピュータ間通信に必要なプロトコル制御と通信プロトコルの基本的な役割を理解する。",
+      "summaryVi": "Hiểu vai trò cơ bản của protocol control và communication protocol trong giao tiếp giữa các hệ thống máy tính.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "異なるコンピュータや機器が通信するためには、データ形式、送信方法、通信手順などについて共通の規則が必要である。この規則を通信プロトコルという。",
+          "vi": "Để các máy tính và thiết bị khác nhau có thể giao tiếp, cần có những quy tắc chung về định dạng dữ liệu, phương thức truyền và trình tự truyền thông. Các quy tắc này được gọi là communication protocol."
+        },
+        {
+          "type": "point",
+          "ja": "プロトコル制御では、通信手順に従ってデータの順序や送受信を管理し、正確な通信を実現する。",
+          "vi": "Protocol control quản lý thứ tự dữ liệu và quá trình gửi/nhận theo các quy tắc giao tiếp để đảm bảo truyền thông chính xác."
+        },
+        {
+          "type": "point",
+          "ja": "HTTPやFTPなどは、それぞれ特定の目的で使用される代表的な通信プロトコルである。",
+          "vi": "HTTP và FTP là các giao thức truyền thông tiêu biểu được sử dụng cho những mục đích cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロトコル制御",
+          "reading": "ぷろとこるせいぎょ",
+          "english": "Protocol Control",
+          "vi": "điều khiển giao thức",
+          "definitionJa": "通信プロトコルで定められた規則に基づき、データの送受信、順序、エラー処理などを管理する制御。",
+          "definitionVi": "Cơ chế điều khiển việc gửi nhận dữ liệu, thứ tự và xử lý lỗi dựa trên các quy tắc của giao thức truyền thông."
+        },
+        {
+          "term": "通信プロトコル",
+          "reading": "つうしんぷろとこる",
+          "english": "Communication Protocol",
+          "vi": "giao thức truyền thông",
+          "definitionJa": "ネットワーク上の機器同士がデータを正しく送受信するために定められた通信上の規則や手順。",
+          "definitionVi": "Tập hợp các quy tắc và thủ tục được quy định để các thiết bị trên mạng có thể gửi nhận dữ liệu chính xác."
+        }
+      ],
+      "tags": ["software", "operating-system", "protocol", "communication"]
+    },
+    {
+      "id": "network-protocols-and-models",
+      "order": 13,
+      "titleJa": "ネットワークプロトコルと通信モデル",
+      "titleVi": "Giao thức mạng và mô hình truyền thông",
+      "importance": "high",
+      "summaryJa": "TCP/IP、OSI基本参照モデル、LAN、WANなど、ネットワーク通信の基本となる概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm nền tảng của truyền thông mạng như TCP/IP, mô hình tham chiếu OSI, LAN và WAN.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "コンピュータ同士がネットワーク上で通信するためには、共通の通信規則や階層的な通信モデルが必要である。TCP/IPはインターネットで広く利用されるプロトコル群であり、OSI基本参照モデルは通信機能を7層に整理したモデルである。",
+          "vi": "Để các máy tính giao tiếp qua mạng cần có các quy tắc truyền thông chung và mô hình truyền thông theo tầng. TCP/IP là bộ giao thức được sử dụng rộng rãi trên Internet, còn mô hình OSI chia chức năng truyền thông thành 7 tầng."
+        },
+        {
+          "type": "point",
+          "ja": "TCPはデータを正確に送るための制御を行い、IPは宛先を管理してデータを届ける。",
+          "vi": "TCP kiểm soát việc truyền dữ liệu chính xác, còn IP quản lý địa chỉ đích và chuyển dữ liệu tới nơi cần đến."
+        },
+        {
+          "type": "point",
+          "ja": "OSI基本参照モデルはネットワーク機能を7つの階層に分けて整理する。",
+          "vi": "Mô hình tham chiếu OSI tổ chức các chức năng mạng thành 7 tầng."
+        },
+        {
+          "type": "point",
+          "ja": "LANは比較的狭い地域、WANは地理的に離れた広い地域を接続するネットワークである。",
+          "vi": "LAN kết nối thiết bị trong phạm vi tương đối nhỏ, còn WAN kết nối các khu vực địa lý rộng và cách xa nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TCP/IP",
+          "reading": "てぃーしーぴーあいぴー",
+          "english": "Transmission Control Protocol/Internet Protocol",
+          "vi": "bộ giao thức TCP/IP",
+          "definitionJa": "インターネットを中心に広く利用されている通信プロトコル群である。TCPはデータの分割、再構築、送信確認などを行い、IPは宛先を管理してデータを適切な相手に届ける。",
+          "definitionVi": "Bộ giao thức được sử dụng rộng rãi trên Internet. TCP phụ trách chia nhỏ, ghép lại và xác nhận truyền dữ liệu, còn IP quản lý địa chỉ và chuyển dữ liệu tới đúng đích."
+        },
+        {
+          "term": "OSI基本参照モデル",
+          "reading": "おーえすあいきほんさんしょうもでる",
+          "english": "OSI Reference Model",
+          "vi": "mô hình tham chiếu OSI",
+          "definitionJa": "ネットワーク通信に必要な機能を7つの階層に分けて整理した標準的なモデル。各層がそれぞれ独立した役割を持つ。",
+          "definitionVi": "Mô hình tiêu chuẩn chia các chức năng cần thiết cho truyền thông mạng thành 7 tầng, mỗi tầng đảm nhiệm một vai trò riêng."
+        },
+        {
+          "term": "LAN",
+          "reading": "えるえーえぬ",
+          "english": "Local Area Network",
+          "vi": "mạng cục bộ",
+          "definitionJa": "家庭、オフィス、建物内など、比較的限られた範囲でコンピュータや機器を接続するネットワーク。",
+          "definitionVi": "Mạng kết nối máy tính và thiết bị trong phạm vi tương đối nhỏ như gia đình, văn phòng hoặc một tòa nhà."
+        },
+        {
+          "term": "WAN",
+          "reading": "わん",
+          "english": "Wide Area Network",
+          "vi": "mạng diện rộng",
+          "definitionJa": "地理的に離れた拠点同士を通信回線などで接続する広域ネットワーク。",
+          "definitionVi": "Mạng diện rộng kết nối các địa điểm cách xa nhau về mặt địa lý thông qua đường truyền viễn thông hoặc Internet."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "network",
+        "tcp-ip",
+        "osi",
+        "lan",
+        "wan"
+      ]
+    },
+    {
+      "id": "user-and-access-management",
+      "order": 14,
+      "titleJa": "ユーザーとアクセス管理",
+      "titleVi": "Quản lý người dùng và quyền truy cập",
+      "importance": "high",
+      "summaryJa": "プロフィール、ユーザーアカウント、システム利用権、ファイルアクセス権など、OSにおけるユーザー管理の基本を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về quản lý người dùng trong hệ điều hành như profile, tài khoản người dùng, quyền sử dụng hệ thống và quyền truy cập file.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "複数の利用者が同じシステムを安全に利用するためには、ユーザーごとにアカウントを作成し、利用できる機能やファイルへのアクセス範囲を適切に制御する必要がある。",
+          "vi": "Để nhiều người dùng có thể sử dụng cùng một hệ thống một cách an toàn, cần tạo tài khoản riêng và kiểm soát đúng phạm vi chức năng cũng như dữ liệu mà từng người được phép sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "プロフィールにはユーザーの設定や状態などの情報がまとめられる。",
+          "vi": "Profile tập hợp các thông tin về thiết lập và trạng thái của người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザーアカウントは利用者を識別し、その利用権限を管理する基本単位である。",
+          "vi": "User account là đơn vị cơ bản để nhận dạng người dùng và quản lý quyền của họ."
+        },
+        {
+          "type": "point",
+          "ja": "ファイルアクセス権を設定することで、読み取り、書き込み、実行などの操作を制限できる。",
+          "vi": "Thiết lập quyền truy cập file cho phép giới hạn các thao tác như đọc, ghi và thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロフィール",
+          "reading": "ぷろふぃーる",
+          "english": "Profile",
+          "vi": "hồ sơ người dùng",
+          "definitionJa": "システムやユーザーに関する設定、状態、履歴などをまとめた情報。",
+          "definitionVi": "Tập hợp thông tin về cài đặt, trạng thái và lịch sử của hệ thống hoặc người dùng."
+        },
+        {
+          "term": "ユーザーアカウント",
+          "reading": "ゆーざーあかうんと",
+          "english": "User Account",
+          "vi": "tài khoản người dùng",
+          "definitionJa": "コンピュータやネットワークを利用する個人を識別し、ユーザー名、パスワード、権限などを管理するための情報。",
+          "definitionVi": "Thông tin dùng để xác định một người sử dụng máy tính hoặc mạng, bao gồm tên đăng nhập, mật khẩu và quyền hạn."
+        },
+        {
+          "term": "システム利用権",
+          "reading": "しすてむりようけん",
+          "english": "System Utilization Rights",
+          "vi": "quyền sử dụng hệ thống",
+          "definitionJa": "特定の情報システムやソフトウェアを利用できる範囲や条件を定めた権利。",
+          "definitionVi": "Quyền quy định phạm vi và điều kiện mà một người dùng được phép sử dụng một hệ thống hoặc phần mềm."
+        },
+        {
+          "term": "ファイルアクセス権",
+          "reading": "ふぁいるあくせすけん",
+          "english": "File Access Control",
+          "vi": "quyền truy cập file",
+          "definitionJa": "ファイルやフォルダに対して、読み取り、書き込み、実行、削除などの操作を誰に許可するかを管理する仕組み。",
+          "definitionVi": "Cơ chế quy định ai được phép đọc, ghi, thực thi hoặc xóa file và thư mục."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "user-management",
+        "access-control",
+        "account"
+      ]
+    },
+    {
+      "id": "administrator-and-directory-management",
+      "order": 15,
+      "titleJa": "管理者とディレクトリ管理",
+      "titleVi": "Quản trị viên và quản lý thư mục",
+      "importance": "high",
+      "summaryJa": "スーパーユーザー、root、Administrator、ゲスト、管理者権限、LDAPなど、ユーザー権限と集中管理の仕組みを理解する。",
+      "summaryVi": "Hiểu các khái niệm liên quan đến quyền người dùng và quản trị tập trung như superuser, root, Administrator, guest, quyền quản trị và LDAP.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSでは、利用者の役割によって与えられる権限が異なる。管理者は高い権限を持ち、システム設定やアカウント管理を行うことができるが、権限が強いため慎重な利用が必要である。",
+          "vi": "Trong hệ điều hành, quyền được cấp khác nhau tùy vai trò của người dùng. Quản trị viên có quyền cao để thay đổi cấu hình và quản lý tài khoản, nhưng cũng cần sử dụng thận trọng vì quyền hạn rất lớn."
+        },
+        {
+          "type": "point",
+          "ja": "LinuxやUNIX系OSでは、最上位の管理ユーザーをrootと呼ぶ。",
+          "vi": "Trong Linux và UNIX, tài khoản quản trị cao nhất được gọi là root."
+        },
+        {
+          "type": "point",
+          "ja": "ゲストは一時的な利用を想定し、通常は利用できる機能が制限される。",
+          "vi": "Guest dành cho việc sử dụng tạm thời và thông thường có quyền hạn bị giới hạn."
+        },
+        {
+          "type": "point",
+          "ja": "LDAPはユーザーやグループなどの情報をディレクトリサービスで集中管理するために利用される。",
+          "vi": "LDAP được sử dụng để quản lý tập trung thông tin người dùng và nhóm thông qua dịch vụ thư mục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパーユーザー",
+          "reading": "すーぱーゆーざー",
+          "english": "Superuser",
+          "vi": "siêu người dùng",
+          "definitionJa": "通常のユーザーよりも高い権限を持ち、システム設定やユーザー管理などの管理操作を実行できる特別なユーザー。",
+          "definitionVi": "Người dùng đặc biệt có quyền cao hơn người dùng thông thường và có thể thực hiện các thao tác quản trị hệ thống."
+        },
+        {
+          "term": "root",
+          "reading": "るーと",
+          "english": "Root User",
+          "vi": "tài khoản root",
+          "definitionJa": "LinuxやUNIX系OSでシステム全体に対して最上位の管理権限を持つユーザー。",
+          "definitionVi": "Tài khoản có quyền quản trị cao nhất trên các hệ điều hành Linux và UNIX."
+        },
+        {
+          "term": "Administrator",
+          "reading": "あどみにすとれーたー",
+          "english": "Administrator",
+          "vi": "quản trị viên",
+          "definitionJa": "コンピュータやネットワークの設定、ユーザーアカウント、アクセス権などを管理する役割を持つ管理者。",
+          "definitionVi": "Quản trị viên chịu trách nhiệm quản lý cấu hình máy tính hoặc mạng, tài khoản người dùng và quyền truy cập."
+        },
+        {
+          "term": "ゲスト",
+          "reading": "げすと",
+          "english": "Guest",
+          "vi": "người dùng khách",
+          "definitionJa": "一時的な利用を目的とし、通常は機能やアクセス権限が制限されたユーザー。",
+          "definitionVi": "Người dùng tạm thời, thường có quyền và chức năng bị giới hạn."
+        },
+        {
+          "term": "管理者権限",
+          "reading": "かんりしゃけんげん",
+          "english": "Administrator Privileges",
+          "vi": "quyền quản trị",
+          "definitionJa": "システム設定の変更、ソフトウェアのインストール、他ユーザーの管理などを行うことができる特別な権限。",
+          "definitionVi": "Quyền đặc biệt cho phép thay đổi cấu hình hệ thống, cài đặt phần mềm và quản lý người dùng khác."
+        },
+        {
+          "term": "LDAP",
+          "reading": "えるだっぷ",
+          "english": "Lightweight Directory Access Protocol",
+          "vi": "giao thức LDAP",
+          "definitionJa": "ネットワーク上のディレクトリサービスに格納されたユーザーやグループなどの情報を検索・管理するための通信プロトコル。",
+          "definitionVi": "Giao thức dùng để truy cập, tìm kiếm và quản lý thông tin người dùng, nhóm và các thuộc tính khác trong dịch vụ thư mục."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "administrator",
+        "root",
+        "ldap",
+        "privilege"
+      ]
+    },
+    {
+      "id": "logging-audit-and-accountability",
+      "order": 16,
+      "titleJa": "ログ・監査とアカウンタビリティ",
+      "titleVi": "Log, kiểm toán và trách nhiệm giải trình",
+      "importance": "high",
+      "summaryJa": "ロギング機能、オーディット機能、アカウンタビリティ、信頼プロセスを通じて、システムの利用状況を記録・追跡する仕組みを理解する。",
+      "summaryVi": "Hiểu cơ chế ghi nhận và truy vết hoạt động hệ thống thông qua logging, audit, accountability và trust process.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "情報システムでは、誰が、いつ、どのような操作を行ったかを記録し、必要に応じて追跡できることがセキュリティ上重要である。",
+          "vi": "Trong hệ thống thông tin, việc ghi lại ai đã thực hiện thao tác gì và vào thời điểm nào, đồng thời có thể truy vết khi cần, là yêu cầu quan trọng về bảo mật."
+        },
+        {
+          "type": "point",
+          "ja": "ロギングはイベントや操作内容を記録する。",
+          "vi": "Logging ghi lại sự kiện và nội dung thao tác."
+        },
+        {
+          "type": "point",
+          "ja": "オーディットは記録された情報を利用して、利用状況や不正の有無を監査する。",
+          "vi": "Audit sử dụng thông tin đã ghi lại để kiểm tra hoạt động sử dụng và phát hiện hành vi bất thường."
+        },
+        {
+          "type": "point",
+          "ja": "アカウンタビリティは、行動の主体を特定し、その行為に対する説明責任を持たせる考え方である。",
+          "vi": "Accountability là khả năng xác định chủ thể thực hiện hành động và yêu cầu họ chịu trách nhiệm giải trình về hành động đó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロギング機能",
+          "reading": "ろぎんぐきのう",
+          "english": "Logging Function",
+          "vi": "chức năng ghi log",
+          "definitionJa": "システムやアプリケーションで発生したイベント、ユーザー操作、エラーなどを記録する機能。",
+          "definitionVi": "Chức năng ghi lại các sự kiện, thao tác người dùng và lỗi phát sinh trong hệ thống hoặc ứng dụng."
+        },
+        {
+          "term": "オーディット機能",
+          "reading": "おーでぃっときのう",
+          "english": "Audit Function",
+          "vi": "chức năng kiểm toán",
+          "definitionJa": "システムやデータの利用状況を記録・監視し、不正アクセスや問題の原因を追跡するための機能。",
+          "definitionVi": "Chức năng ghi nhận và giám sát việc sử dụng hệ thống, dữ liệu để truy tìm truy cập trái phép hoặc nguyên nhân sự cố."
+        },
+        {
+          "term": "アカウンタビリティ",
+          "reading": "あかうんたびりてぃ",
+          "english": "Accountability",
+          "vi": "trách nhiệm giải trình",
+          "definitionJa": "ユーザーが行った操作を特定可能にし、その行為や結果について説明責任を持たせる考え方。",
+          "definitionVi": "Khái niệm đảm bảo có thể xác định người thực hiện hành động và người đó phải chịu trách nhiệm giải trình về hành động và kết quả."
+        },
+        {
+          "term": "信頼プロセス",
+          "reading": "しんらいぷろせす",
+          "english": "Trust Process",
+          "vi": "quy trình tin cậy",
+          "definitionJa": "ユーザーや情報の信頼性を評価し、認証やアクセス制御を通じて適切な利用権を管理する一連の手続き。",
+          "definitionVi": "Chuỗi thủ tục đánh giá độ tin cậy của người dùng hoặc thông tin và quản lý quyền sử dụng thích hợp thông qua xác thực và kiểm soát truy cập."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "logging",
+        "audit",
+        "accountability",
+        "security"
+      ]
+    },
+    {
+      "id": "system-recovery-and-failures",
+      "order": 17,
+      "titleJa": "システムの復旧と障害",
+      "titleVi": "Khôi phục hệ thống và sự cố",
+      "importance": "high",
+      "summaryJa": "再構成、リスタート、ハードウェア障害、ソフトウェア障害など、障害発生時のシステム管理と復旧の基本を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về quản lý và phục hồi hệ thống khi xảy ra sự cố, gồm reconfiguration, restart, lỗi phần cứng và lỗi phần mềm.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "システムを安定して運用するには、障害を検知するだけでなく、原因に応じて構成変更や再起動を行い、迅速に正常状態へ戻す仕組みが必要である。",
+          "vi": "Để vận hành hệ thống ổn định, không chỉ cần phát hiện lỗi mà còn phải có cơ chế thay đổi cấu hình hoặc khởi động lại tùy nguyên nhân để nhanh chóng đưa hệ thống trở về trạng thái bình thường."
+        },
+        {
+          "type": "point",
+          "ja": "再構成は、障害時などにシステム構成を変更して利用可能な資源で運転を継続する。",
+          "vi": "Reconfiguration thay đổi cấu hình hệ thống khi xảy ra lỗi để tiếp tục hoạt động bằng các tài nguyên còn sử dụng được."
+        },
+        {
+          "type": "point",
+          "ja": "リスタートはシステムやサービスを一度終了させ、再び起動する処理である。",
+          "vi": "Restart là quá trình dừng hệ thống hoặc dịch vụ rồi khởi động lại."
+        },
+        {
+          "type": "point",
+          "ja": "ハードウェア障害は物理機器の故障、ソフトウェア障害はプログラムやシステムの不具合によって発生する。",
+          "vi": "Hardware failure phát sinh từ hỏng hóc vật lý, còn software failure phát sinh từ lỗi chương trình hoặc hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "再構成",
+          "reading": "さいこうせい",
+          "english": "Reconfiguration",
+          "vi": "tái cấu hình",
+          "definitionJa": "障害や環境変化に応じてシステムの構成を見直し、必要な変更を加えて運用を継続または復旧する処理。",
+          "definitionVi": "Quá trình xem xét lại và thay đổi cấu hình hệ thống khi có sự cố hoặc thay đổi môi trường để tiếp tục vận hành hoặc phục hồi."
+        },
+        {
+          "term": "リスタート",
+          "reading": "りすたーと",
+          "english": "Restart",
+          "vi": "khởi động lại",
+          "definitionJa": "異常終了や問題発生時などに、システムやサービスをいったん終了させて再び起動する処理。",
+          "definitionVi": "Quá trình dừng hệ thống hoặc dịch vụ sau khi xảy ra lỗi rồi khởi động lại để trở về trạng thái hoạt động."
+        },
+        {
+          "term": "ハードウェア障害",
+          "reading": "はーどうぇあしょうがい",
+          "english": "Hardware Failure",
+          "vi": "sự cố phần cứng",
+          "definitionJa": "コンピュータや周辺機器などの物理的な部品に故障や不具合が発生し、システムの正常な動作に影響する状態。",
+          "definitionVi": "Trạng thái trong đó linh kiện vật lý của máy tính hoặc thiết bị ngoại vi bị hỏng hoặc trục trặc, ảnh hưởng tới hoạt động hệ thống."
+        },
+        {
+          "term": "ソフトウェア障害",
+          "reading": "そふとうぇあしょうがい",
+          "english": "Software Failure",
+          "vi": "sự cố phần mềm",
+          "definitionJa": "プログラムやシステムソフトウェアの不具合によって、正常な機能や性能が維持できなくなる状態。",
+          "definitionVi": "Trạng thái hệ thống không thể duy trì chức năng hoặc hiệu năng bình thường do lỗi chương trình hay phần mềm hệ thống."
+        }
+      ],
+      "tags": [
+        "software",
+        "operating-system",
+        "failure",
+        "recovery",
+        "restart",
+        "reconfiguration"
+      ]
+    }
+  ]
+}

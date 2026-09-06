@@ -1,0 +1,2340 @@
+{
+  "id": "system-configuration",
+  "order": 1,
+  "titleJa": "システムの構成",
+  "titleVi": "Cấu hình hệ thống",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "batch-processing",
+      "order": 1,
+      "titleJa": "バッチ処理",
+      "titleVi": "Xử lý hàng loạt",
+      "importance": "high",
+      "summaryJa": "データを一定の単位（バッチ）でまとめて処理する方式を指す。",
+      "summaryVi": "Xử lý hàng loạt là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バッチ処理とは",
+          "vi": "Xử lý hàng loạt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを一定の単位（バッチ）でまとめて処理する方式を指す。これは、単一のデータを即座に処理するのではなく、集めたデータを一定の時間間隔でまとめて実行するため、効率的にリソースを使用できる。例えば、銀行の給与計算や帳簿の更新など、多数のデータが発生する場合に効果的である。また、バッチ処理では、夜間や業務が少ない時間帯に処理を行うことが多く、システムの負荷を抑えつつ大量のデータ処理を実施できるメリットがある。この手法は、情報システムの運用において広く利用されている。",
+          "vi": "Xử lý hàng loạt (Batch Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "リアルタイム処理との違いを押さえる。バッチ処理はデータをまとめて一括処理する。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バッチ処理",
+          "reading": "ばっちしょり",
+          "english": "Batch Processing",
+          "vi": "Xử lý hàng loạt",
+          "definitionJa": "データを一定の単位（バッチ）でまとめて処理する方式を指す。",
+          "definitionVi": "Xử lý hàng loạt: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "batch-processing"]
+    },
+    {
+      "id": "real-time-processing",
+      "order": 2,
+      "titleJa": "リアルタイム処理",
+      "titleVi": "Xử lý thời gian thực",
+      "importance": "high",
+      "summaryJa": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。",
+      "summaryVi": "Xử lý thời gian thực là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リアルタイム処理とは",
+          "vi": "Xử lý thời gian thực là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。これにより、例えば航空機の飛行データ、医療機器のモニタリング、ゲームなど、タイムリーな反応が求められる状況において、迅速かつ正確な情報処理が可能となる。通常、システムにおいて処理遅延を許容しない要件があり、特定の時間内に処理を完了することが求められるため、高い信頼性と応答性が求められる。これにより、ユーザーはストレスなくサービスを利用できるようになる。",
+          "vi": "Xử lý thời gian thực (Real-Time Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "入力に対して必要な時間内に結果を返す点が重要であり、バッチ処理との違いを理解する。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リアルタイム処理",
+          "reading": "りあるたいむしょり",
+          "english": "Real-Time Processing",
+          "vi": "Xử lý thời gian thực",
+          "definitionJa": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。",
+          "definitionVi": "Xử lý thời gian thực: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "real-time-processing"]
+    },
+    {
+      "id": "parallel-processing",
+      "order": 3,
+      "titleJa": "並列処理",
+      "titleVi": "Xử lý song song",
+      "importance": "medium",
+      "summaryJa": "複数の処理を同時に行う技術であり、特にコンピュータシステムにおいて効率を高めるために利用される。",
+      "summaryVi": "Xử lý song song là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "並列処理とは",
+          "vi": "Xử lý song song là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の処理を同時に行う技術であり、特にコンピュータシステムにおいて効率を高めるために利用される。例えば、大規模データの分析や、画像処理、シミュレーションなどの複雑な計算を迅速に行うために、並列処理が用いられる。これにより、処理の時間を大幅に短縮でき、特にデータの量が大きい場合や複雑な問題を解決する際に、その効果が発揮される。また、マルチコアプロセッサやクラウドコンピューティングなど、現代のコンピュータアーキテクチャで一般的となっており、さまざまな産業や研究分野での応用が進んでいる。これによって、大量のデータを瞬時に処理する能力を持つシステムが実現され、テクノロジーの進展を支えている。",
+          "vi": "Xử lý song song (Parallel Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "並列処理",
+          "reading": "へいれつしょり",
+          "english": "Parallel Processing",
+          "vi": "Xử lý song song",
+          "definitionJa": "複数の処理を同時に行う技術であり、特にコンピュータシステムにおいて効率を高めるために利用される。",
+          "definitionVi": "Xử lý song song: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "parallel-processing"]
+    },
+    {
+      "id": "client-server-processing",
+      "order": 4,
+      "titleJa": "クライアントサーバ処理",
+      "titleVi": "Xử lý client-server",
+      "importance": "medium",
+      "summaryJa": "情報を処理する際の形態を指し、クライアントとサーバという二つの役割を持つコンピュータが相互に通信する仕組みである。",
+      "summaryVi": "Xử lý client-server là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クライアントサーバ処理とは",
+          "vi": "Xử lý client-server là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を処理する際の形態を指し、クライアントとサーバという二つの役割を持つコンピュータが相互に通信する仕組みである。クライアントはユーザーが直接操作する端末やアプリケーションであり、サーバはデータやサービスを提供する役割を担う。例えば、Webブラウザがクライアント、Webサイトをホストするサーバがその例である。このような処理形態は、データベースの管理や、オンラインゲーム、企業の情報システムなど多くの分野で応用されている。クライアントはサーバからデータを要求し、サーバはそれに応じたデータを返すことで、効率的に情報を提供できるため、ネットワーク環境での情報共有やアプリケーションの利用には欠かせない形態となっている。",
+          "vi": "Xử lý client-server (Client-Server Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クライアントサーバ処理",
+          "reading": "くらいあんとさーばしょり",
+          "english": "Client-Server Processing",
+          "vi": "Xử lý client-server",
+          "definitionJa": "情報を処理する際の形態を指し、クライアントとサーバという二つの役割を持つコンピュータが相互に通信する仕組みである。",
+          "definitionVi": "Xử lý client-server: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "client-server-processing"]
+    },
+    {
+      "id": "transaction-processing",
+      "order": 5,
+      "titleJa": "トランザクション処理",
+      "titleVi": "Xử lý giao dịch",
+      "importance": "medium",
+      "summaryJa": "データベースにおいて一連の処理を一つの単位として扱う手法であり、一般的にはデータの整合性を保つために重要である。",
+      "summaryVi": "Xử lý giao dịch là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "トランザクション処理とは",
+          "vi": "Xử lý giao dịch là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データベースにおいて一連の処理を一つの単位として扱う手法であり、一般的にはデータの整合性を保つために重要である。例えば、銀行の振り込み処理では、出金と入金が同時に成功する必要があり、このような操作をトランザクションと呼ぶ。トランザクションは通常、ACID特性と呼ばれる一貫性、確実性、分離性、持続性を持っており、これにより処理中に予期せぬエラーが発生してもデータが正確に保たれることが保証される。適用領域としては、金融機関や通信キャリア、オンラインショッピングなど、リアルタイムでの正確なデータ処理が求められるシステムに広く使われており、ユーザーへの信頼性を向上させる役割も果たしている。",
+          "vi": "Xử lý giao dịch (Transaction Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トランザクション処理",
+          "reading": "とらんざくしょんしょり",
+          "english": "Transaction Processing",
+          "vi": "Xử lý giao dịch",
+          "definitionJa": "データベースにおいて一連の処理を一つの単位として扱う手法であり、一般的にはデータの整合性を保つために重要である。",
+          "definitionVi": "Xử lý giao dịch: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "transaction-processing"]
+    },
+    {
+      "id": "interactive-processing",
+      "order": 6,
+      "titleJa": "対話型処理",
+      "titleVi": "Xử lý tương tác",
+      "importance": "medium",
+      "summaryJa": "ユーザーがシステムとリアルタイムで対話しながら処理を行う方式である。",
+      "summaryVi": "Xử lý tương tác là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "対話型処理とは",
+          "vi": "Xử lý tương tác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーがシステムとリアルタイムで対話しながら処理を行う方式である。この形態では、ユーザーが直接入力を行うと、その入力に基づいて即座に結果が返されるため、滑らかな操作体験が実現される。例えば、チャットボットやオンラインゲームにおいて、ユーザーの指示に対してシステムがその場で反応し、次のアクションを促すことが挙げられる。迅速なフィードバックが求められるアプリケーションに適しており、ユーザーの要求に応じた柔軟な対応が可能である。これにより、特に教育や販売、医療分野などの利用シーンでは、より良いユーザーエクスペリエンスを提供することが可能である。",
+          "vi": "Xử lý tương tác (Interactive Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "対話型処理",
+          "reading": "たいわがたしょり",
+          "english": "Interactive Processing",
+          "vi": "Xử lý tương tác",
+          "definitionJa": "ユーザーがシステムとリアルタイムで対話しながら処理を行う方式である。",
+          "definitionVi": "Xử lý tương tác: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "interactive-processing"]
+    },
+    {
+      "id": "dual-system",
+      "order": 7,
+      "titleJa": "デュアルシステム",
+      "titleVi": "Hệ thống dual",
+      "importance": "high",
+      "summaryJa": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。",
+      "summaryVi": "Hệ thống dual là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デュアルシステムとは",
+          "vi": "Hệ thống dual là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。この方法は、システムの信頼性を高めるために用いられ、どちらか一方でエラーが発生した場合でも、もう一方の結果を基に正確性を保つことができる。例えば、金融機関でのトランザクション処理や、航空機の制御システムなど、高い信頼性が求められる場面で広く採用されている。また、デュアルシステムを利用することで、障害発生時の迅速な復旧が可能になり、システム全体の安全性向上に寄与する。",
+          "vi": "Hệ thống dual (Dual System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "同じ処理を2系統で実行して結果を照合する。デュプレックスシステムとの違いに注意する。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デュアルシステム",
+          "reading": "",
+          "english": "Dual System",
+          "vi": "Hệ thống dual",
+          "definitionJa": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。",
+          "definitionVi": "Hệ thống dual: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "dual-system"]
+    },
+    {
+      "id": "duplex-system",
+      "order": 8,
+      "titleJa": "デュプレックスシステム",
+      "titleVi": "Hệ thống duplex",
+      "importance": "high",
+      "summaryJa": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。",
+      "summaryVi": "Hệ thống duplex là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デュプレックスシステムとは",
+          "vi": "Hệ thống duplex là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。このシステムは、主系に障害が発生した時に迅速に従系が引き継ぐことで、運用の継続性を確保するために使用される。例えば、金融機関や公共サービスなど、システムの信頼性が求められる場面で利用されることが多い。このように冗長性を持たせることで、システムダウンのリスクを低減し、安定したサービス提供を目指す仕組みである。",
+          "vi": "Hệ thống duplex (Duplex System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "現用系と待機系を用意し、障害時に待機系へ切り替える。デュアルシステムとは目的と動作が異なる。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デュプレックスシステム",
+          "reading": "",
+          "english": "Duplex System",
+          "vi": "Hệ thống duplex",
+          "definitionJa": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。",
+          "definitionVi": "Hệ thống duplex: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "duplex-system"]
+    },
+    {
+      "id": "cluster",
+      "order": 9,
+      "titleJa": "クラスタ",
+      "titleVi": "Cụm máy tính",
+      "importance": "medium",
+      "summaryJa": "複数のコンピュータやサーバを組み合わせて、一つのシステムとして動作させる構成である。",
+      "summaryVi": "Cụm máy tính là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラスタとは",
+          "vi": "Cụm máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のコンピュータやサーバを組み合わせて、一つのシステムとして動作させる構成である。これにより、可用性や性能の向上が図られる。たとえば、サーバのクラスタでは、複数のサーバが連携してデータを処理し、もし一台のサーバが故障しても、他のサーバがその機能を引き継ぐことでシステム全体の稼働を維持できる。さらに、クラスタは負荷分散を行い、多くのユーザからのリクエストを効率的に処理することができるため、大規模なWebサービスやデータセンターでよく利用されている。このように、クラスタはシステムの信頼性と性能を同時に向上させる重要な技術である。",
+          "vi": "Cụm máy tính (Cluster) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラスタ",
+          "reading": "",
+          "english": "Cluster",
+          "vi": "Cụm máy tính",
+          "definitionJa": "複数のコンピュータやサーバを組み合わせて、一つのシステムとして動作させる構成である。",
+          "definitionVi": "Cụm máy tính: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "cluster"]
+    },
+    {
+      "id": "multiprocessor-system",
+      "order": 10,
+      "titleJa": "マルチプロセッサシステム",
+      "titleVi": "Hệ thống đa bộ xử lý",
+      "importance": "medium",
+      "summaryJa": "複数のプロセッサ（CPU）が同時に動作するように設計されたコンピュータシステムである。",
+      "summaryVi": "Hệ thống đa bộ xử lý là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マルチプロセッサシステムとは",
+          "vi": "Hệ thống đa bộ xử lý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のプロセッサ（CPU）が同時に動作するように設計されたコンピュータシステムである。この構成により、同時に多くの処理を行うことが可能となり、性能の向上や処理速度の向上が実現される。例えば、複数のプロセッサが協力して計算を行ったり、異なるタスクを同時に実行したりすることで、処理効率が向上する。一方で、プロセッサ間のデータのやり取りや同期を管理する必要があり、このために特別なソフトウェアやハードウェアを使用することが一般的である。このように、マルチプロセッサシステムは高性能な計算環境を求める際に重要な構成であり、大規模なデータ処理やサーバ環境で特に活用されている。",
+          "vi": "Hệ thống đa bộ xử lý (Multiprocessor System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マルチプロセッサシステム",
+          "reading": "",
+          "english": "Multiprocessor System",
+          "vi": "Hệ thống đa bộ xử lý",
+          "definitionJa": "複数のプロセッサ（CPU）が同時に動作するように設計されたコンピュータシステムである。",
+          "definitionVi": "Hệ thống đa bộ xử lý: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "multiprocessor-system"]
+    },
+    {
+      "id": "load-sharing-system",
+      "order": 11,
+      "titleJa": "ロードシェアリングシステム",
+      "titleVi": "Hệ thống chia sẻ tải",
+      "importance": "medium",
+      "summaryJa": "複数のコンピュータやサーバが共同で処理を行い、負荷を分散させる仕組みである。",
+      "summaryVi": "Hệ thống chia sẻ tải là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロードシェアリングシステムとは",
+          "vi": "Hệ thống chia sẻ tải là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のコンピュータやサーバが共同で処理を行い、負荷を分散させる仕組みである。このシステムは、特に大規模なデータ処理やトラフィックが多い場合に効果を発揮する。例えば、Webサービスやオンラインゲームでは、多くのユーザーからのリクエストを同時に処理する必要があるため、1台のサーバでは処理しきれないことがある。そこで、複数のサーバが協力し、リクエストを均等に分け合うことで、全体のパフォーマンスを向上させる。これにより、システム全体の安定性と応答速度が改善され、トラフィックの増加にも柔軟に対応できる。ロードシェアリングは、システムの冗長性を高める役割も果たし、特定のサーバが故障した場合でも、他のサーバが負荷を引き受けることでサービスの継続性を確保することができる。",
+          "vi": "Hệ thống chia sẻ tải (Load Sharing System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロードシェアリングシステム",
+          "reading": "",
+          "english": "Load Sharing System",
+          "vi": "Hệ thống chia sẻ tải",
+          "definitionJa": "複数のコンピュータやサーバが共同で処理を行い、負荷を分散させる仕組みである。",
+          "definitionVi": "Hệ thống chia sẻ tải: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "load-sharing-system"]
+    },
+    {
+      "id": "backup-site",
+      "order": 12,
+      "titleJa": "バックアップサイト",
+      "titleVi": "Địa điểm dự phòng",
+      "importance": "medium",
+      "summaryJa": "主にデータやシステムの災害復旧のために設けられる予備のサーバやネットワークのことを指す。",
+      "summaryVi": "Địa điểm dự phòng là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バックアップサイトとは",
+          "vi": "Địa điểm dự phòng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にデータやシステムの災害復旧のために設けられる予備のサーバやネットワークのことを指す。通常、一次システムが稼働しているデータセンターやサーバとは別に、バックアップサイトが存在し、重要なシステムがダウンした際に迅速に業務を再開できるように設計されている。このような冗長性を持つことで、データの保護やシステムの可用性が向上し、万が一の場合でもビジネスの中断を最小限に抑えることができる。バックアップサイトには、冷スタンバイタイプや温スタンバイタイプ、ホットスタンバイタイプなどの構成があり、それぞれ異なるレベルの準備状況とコスト先を考慮した運用が行われる。",
+          "vi": "Địa điểm dự phòng (Backup Site) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バックアップサイト",
+          "reading": "",
+          "english": "Backup Site",
+          "vi": "Địa điểm dự phòng",
+          "definitionJa": "主にデータやシステムの災害復旧のために設けられる予備のサーバやネットワークのことを指す。",
+          "definitionVi": "Địa điểm dự phòng: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "backup-site"]
+    },
+    {
+      "id": "hot-site",
+      "order": 13,
+      "titleJa": "ホットサイト",
+      "titleVi": "Hot site",
+      "importance": "medium",
+      "summaryJa": "システム構成の一つであり、災害や故障時に迅速に業務を再開できるように設計されたバックアップシステムを指す。",
+      "summaryVi": "Hot site là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ホットサイトとは",
+          "vi": "Hot site là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム構成の一つであり、災害や故障時に迅速に業務を再開できるように設計されたバックアップシステムを指す。具体的には、データセンターやサーバが常時稼働しており、リアルタイムでデータが同期されるため、もしメインシステムに障害が発生した場合でも、ダウンタイムを最小限に抑えて業務を継続することが可能である。金融機関や医療機関など、業務の中断が許されない業種で特に重要であり、通常の運用と同じく高い稼働率を求められる。このように、ホットサイトはビジネスの継続性を保障するための重要な要素となっている。",
+          "vi": "Hot site (Hot Site) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ホットサイト",
+          "reading": "",
+          "english": "Hot Site",
+          "vi": "Hot site",
+          "definitionJa": "システム構成の一つであり、災害や故障時に迅速に業務を再開できるように設計されたバックアップシステムを指す。",
+          "definitionVi": "Hot site: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "hot-site"]
+    },
+    {
+      "id": "warm-site",
+      "order": 14,
+      "titleJa": "ウォームサイト",
+      "titleVi": "Warm site",
+      "importance": "medium",
+      "summaryJa": "災害時やシステム障害時に迅速に業務を再開するためのバックアップ拠点の一つである。",
+      "summaryVi": "Warm site là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ウォームサイトとは",
+          "vi": "Warm site là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "災害時やシステム障害時に迅速に業務を再開するためのバックアップ拠点の一つである。通常、稼働中のシステムやデータを持たないフルバックアップサイトに対し、ウォームサイトは必要最低限のインフラや環境を整えているため、比較的短期間で業務を復旧できる。例えば、オフィスビルの一部を他の場所に移設し、基本的なIT機器やネットワーク接続を準備しておくことで、主サイトで何か問題が起きた際に、すぐに業務を再開できるようにする。コストと復旧速度のバランスを考慮した選択肢として、特に中規模から大規模な企業で利用されている。",
+          "vi": "Warm site (Warm Site) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウォームサイト",
+          "reading": "",
+          "english": "Warm Site",
+          "vi": "Warm site",
+          "definitionJa": "災害時やシステム障害時に迅速に業務を再開するためのバックアップ拠点の一つである。",
+          "definitionVi": "Warm site: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "warm-site"]
+    },
+    {
+      "id": "cold-site",
+      "order": 15,
+      "titleJa": "コールドサイト",
+      "titleVi": "Cold site",
+      "importance": "medium",
+      "summaryJa": "災害対策におけるデータバックアップの手法の一つであり、災害が発生した際に迅速にシステムを復旧させるための準備が整った施設である。",
+      "summaryVi": "Cold site là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コールドサイトとは",
+          "vi": "Cold site là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "災害対策におけるデータバックアップの手法の一つであり、災害が発生した際に迅速にシステムを復旧させるための準備が整った施設である。通常、必要なハードウェアやソフトウェアが基本的に整備されるが、実際のデータはリアルタイムで同期されないため、災害時には新たにデータを復旧する作業が必要となる。この方式はコストが比較的低く抑えられるメリットがあるが、完全な運用開始には追加の時間がかかることもある。コールドサイトは主に、災害復旧の計画において冗長性を持たせるための選択肢の一つとして位置付けられ、企業や組織がリスクを管理するために採用される。",
+          "vi": "Cold site (Cold Site) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コールドサイト",
+          "reading": "",
+          "english": "Cold Site",
+          "vi": "Cold site",
+          "definitionJa": "災害対策におけるデータバックアップの手法の一つであり、災害が発生した際に迅速にシステムを復旧させるための準備が整った施設である。",
+          "definitionVi": "Cold site: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "cold-site"]
+    },
+    {
+      "id": "main-system",
+      "order": 16,
+      "titleJa": "主系",
+      "titleVi": "Hệ thống chính",
+      "importance": "medium",
+      "summaryJa": "システム構成において、現在運用されている主要なシステムを指す。",
+      "summaryVi": "Hệ thống chính là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "主系とは",
+          "vi": "Hệ thống chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム構成において、現在運用されている主要なシステムを指す。現用系とも呼ばれる。これは、組織が日常業務を行うために必要不可欠なシステムであり、実際のデータ処理や情報管理を担っている。その安定性や信頼性が重要視されており、技術的な要求に応じて定期的に更新や保守が行われる。また、バックアップシステムや冗長構成も含まれることが多く、万が一のトラブルに備えた設計となっている。主系が適切に運用されることで、業務の継続性が確保され、効率的な運用が実現される。",
+          "vi": "Hệ thống chính (Main System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "主系",
+          "reading": "しゅけい",
+          "english": "Main System",
+          "vi": "Hệ thống chính",
+          "definitionJa": "システム構成において、現在運用されている主要なシステムを指す。",
+          "definitionVi": "Hệ thống chính: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "main-system"]
+    },
+    {
+      "id": "standby-system",
+      "order": 17,
+      "titleJa": "従系",
+      "titleVi": "Hệ thống dự phòng",
+      "importance": "medium",
+      "summaryJa": "システム構成において、主に高可用性を実現するための待機状態のシステムやコンポーネントである。",
+      "summaryVi": "Hệ thống dự phòng là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "従系とは",
+          "vi": "Hệ thống dự phòng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム構成において、主に高可用性を実現するための待機状態のシステムやコンポーネントである。待機系とも呼ばれる。これは、主システムが故障した際に、待機中のシステムが即座にその役割を引き継ぐ仕組みを指す。例えば、サーバが正常に機能しないとき、従系が自動的に起動して、サービスの継続を提供することでダウンタイムを最小限に抑える。従系（待機系）の導入により、システム全体の信頼性向上が図られ、重要なビジネスプロセスが中断されるリスクを低減させることができる。",
+          "vi": "Hệ thống dự phòng (Standby System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "従系",
+          "reading": "じゅうけい",
+          "english": "Standby System",
+          "vi": "Hệ thống dự phòng",
+          "definitionJa": "システム構成において、主に高可用性を実現するための待機状態のシステムやコンポーネントである。",
+          "definitionVi": "Hệ thống dự phòng: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "standby-system"]
+    },
+    {
+      "id": "tightly-coupled",
+      "order": 18,
+      "titleJa": "密結合",
+      "titleVi": "Liên kết chặt",
+      "importance": "medium",
+      "summaryJa": "システム構成において、異なるコンポーネントやモジュールが強く依存し合っている状態を指す。",
+      "summaryVi": "Liên kết chặt là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "密結合とは",
+          "vi": "Liên kết chặt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム構成において、異なるコンポーネントやモジュールが強く依存し合っている状態を指す。この場合、あるモジュールの変更が他のモジュールに直接影響を与えるため、全体の変更や効率的なテストが難しくなることがある。例えば、あるプログラムにおいて、データベース操作とユーザーインターフェースが密結合している場合、一方を変更すると、他方も修正する必要が生じやすい。このような密接な依存関係は、システムの拡張性や保守性を低下させるため、モジュール間の相互作用を緩和することが推奨される。密結合を避けるためには、インターフェースを利用した設計が効果的である。",
+          "vi": "Liên kết chặt (Tightly Coupled) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "密結合",
+          "reading": "みつけつごう",
+          "english": "Tightly Coupled",
+          "vi": "Liên kết chặt",
+          "definitionJa": "システム構成において、異なるコンポーネントやモジュールが強く依存し合っている状態を指す。",
+          "definitionVi": "Liên kết chặt: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "tightly-coupled"]
+    },
+    {
+      "id": "loose-coupling",
+      "order": 19,
+      "titleJa": "疎結合",
+      "titleVi": "Liên kết lỏng",
+      "importance": "medium",
+      "summaryJa": "異なるシステムやコンポーネントが、互いに強く依存しない状態を指す。",
+      "summaryVi": "Liên kết lỏng là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "疎結合とは",
+          "vi": "Liên kết lỏng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるシステムやコンポーネントが、互いに強く依存しない状態を指す。疎結合にすることで、各コンポーネントが独立して機能し、変更や再利用が容易になる。例えば、Webアプリケーションでユーザーインターフェースとデータベースが疎結合である場合、ユーザーインターフェースを変更してもデータベースには影響を与えない。これにより、システム全体の柔軟性や保守性が向上し、新しい技術や機能を追加する際にもスムーズに進む。また、疎結合はマイクロサービスアーキテクチャの根幹を成しており、各サービスが独立して開発・デプロイ・スケーリングできるメリットがある。",
+          "vi": "Liên kết lỏng (Loose Coupling) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "疎結合",
+          "reading": "そけつごう",
+          "english": "Loose Coupling",
+          "vi": "Liên kết lỏng",
+          "definitionJa": "異なるシステムやコンポーネントが、互いに強く依存しない状態を指す。",
+          "definitionVi": "Liên kết lỏng: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "loose-coupling"]
+    },
+    {
+      "id": "peer-to-peer",
+      "order": 20,
+      "titleJa": "ピアツーピア",
+      "titleVi": "Mạng ngang hàng",
+      "importance": "medium",
+      "summaryJa": "ネットワークシステムの構成方式の一つであり、全ての参加者（ノード）が対等な関係を持ち、直接通信を行うことができる仕組みである。",
+      "summaryVi": "Mạng ngang hàng là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ピアツーピアとは",
+          "vi": "Mạng ngang hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークシステムの構成方式の一つであり、全ての参加者（ノード）が対等な関係を持ち、直接通信を行うことができる仕組みである。この方式では、特定のサーバを介さずにデータやリソースを共有するため、分散型の特性を持ち、効率的な通信が可能になる。例えば、ファイル共有ソフトウェアやブロックチェーン技術では、このピアツーピア構成が用いられ、自律的にネットワークが運営される。このように、個々のノードがデータの提供者であり、同時に利用者としても機能するため、システムの耐障害性が高まり、柔軟な運用が実現される。特に、コスト削減やスケーラビリティ向上の観点からも、ピアツーピア方式は注目されている。",
+          "vi": "Mạng ngang hàng (Peer-to-Peer) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ピアツーピア",
+          "reading": "",
+          "english": "Peer-to-Peer",
+          "vi": "Mạng ngang hàng",
+          "definitionJa": "ネットワークシステムの構成方式の一つであり、全ての参加者（ノード）が対等な関係を持ち、直接通信を行うことができる仕組みである。",
+          "definitionVi": "Mạng ngang hàng: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "peer-to-peer"]
+    },
+    {
+      "id": "grid-computing",
+      "order": 21,
+      "titleJa": "グリッドコンピューティング",
+      "titleVi": "Điện toán lưới",
+      "importance": "medium",
+      "summaryJa": "複数のコンピュータをネットワークで接続し、分散して計算資源を共有するシステム構成のことである。",
+      "summaryVi": "Điện toán lưới là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グリッドコンピューティングとは",
+          "vi": "Điện toán lưới là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のコンピュータをネットワークで接続し、分散して計算資源を共有するシステム構成のことである。これにより、大規模な計算やデータ処理を効率的に行うことができる。具体的には、異なる場所にあるコンピュータが一緒に働くことで、処理能力を向上させたり、特定のタスクを分担して行うことが可能となる。例えば、科学研究や気象予測、医療データの解析など、大量のデータを短時間で処理する必要のある場面で活用されることが多い。リソースの有効活用を促進し、コストの削減にも寄与するため、多くの分野で重要な技術とされている。",
+          "vi": "Điện toán lưới (Grid Computing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グリッドコンピューティング",
+          "reading": "",
+          "english": "Grid Computing",
+          "vi": "Điện toán lưới",
+          "definitionJa": "複数のコンピュータをネットワークで接続し、分散して計算資源を共有するシステム構成のことである。",
+          "definitionVi": "Điện toán lưới: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "grid-computing"]
+    },
+    {
+      "id": "virtualization",
+      "order": 22,
+      "titleJa": "仮想化",
+      "titleVi": "Ảo hóa",
+      "importance": "high",
+      "summaryJa": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。",
+      "summaryVi": "Ảo hóa là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "仮想化とは",
+          "vi": "Ảo hóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。仮想マシンでは、ハイパーバイザーがCPU、メモリ、ストレージなどの物理資源を管理し、複数のOSを独立して動作させる。コンテナ型ではホストOSのカーネルを共有しながらアプリケーションの実行環境を分離するため、仮想マシンより軽量に動作する。仮想化はサーバ統合やクラウドコンピューティングの基盤として広く利用されている。",
+          "vi": "Ảo hóa (Virtualization) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "仮想化",
+          "reading": "かそうか",
+          "english": "Virtualization",
+          "vi": "Ảo hóa",
+          "definitionJa": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。",
+          "definitionVi": "Ảo hóa: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "virtualization"]
+    },
+    {
+      "id": "vm",
+      "order": 23,
+      "titleJa": "VM",
+      "titleVi": "Máy ảo",
+      "importance": "medium",
+      "summaryJa": "仮想マシンの略で、物理的なコンピュータの中で、複数の仮想的なコンピュータを作成する技術である。",
+      "summaryVi": "Máy ảo là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VMとは",
+          "vi": "Máy ảo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仮想マシンの略で、物理的なコンピュータの中で、複数の仮想的なコンピュータを作成する技術である。それぞれの仮想マシンは独自のオペレーティングシステムを持っており、物理的なハードウェアを共有しながら動作する。この方式によって、サーバのリソースを効率的に利用し、異なる環境でのアプリケーションのテストや運用が容易になる。たとえば、一つの物理サーバの中に、WindowsやLinuxなど異なるOSの仮想マシンを構築し、それぞれで異なるソフトウェアを開発・運用することが可能である。この技術はクラウドコンピューティングの基盤でも利用され、柔軟性とスケーラビリティを提供するため、多くの企業で重宝されている。",
+          "vi": "Máy ảo (Virtual Machine) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VM",
+          "reading": "ぶいえむ",
+          "english": "Virtual Machine",
+          "vi": "Máy ảo",
+          "definitionJa": "仮想マシンの略で、物理的なコンピュータの中で、複数の仮想的なコンピュータを作成する技術である。",
+          "definitionVi": "Máy ảo: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "vm"]
+    },
+    {
+      "id": "vdi",
+      "order": 24,
+      "titleJa": "VDI",
+      "titleVi": "Hạ tầng máy tính để bàn ảo",
+      "importance": "medium",
+      "summaryJa": "デスクトップ仮想化の一形態であり、ユーザーのデスクトップ環境を中央のサーバ上で仮想的に管理し、提供する技術である。",
+      "summaryVi": "Hạ tầng máy tính để bàn ảo là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VDIとは",
+          "vi": "Hạ tầng máy tính để bàn ảo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デスクトップ仮想化の一形態であり、ユーザーのデスクトップ環境を中央のサーバ上で仮想的に管理し、提供する技術である。この仕組みによって、ユーザーはさまざまなデバイスから自分のデスクトップへアクセスでき、実際のハードウェアに依存することなく、同一の作業環境を利用することが可能となる。例えば、企業内の社員がリモートワークを行う際、自宅のPCやタブレットを使ってオフィスのデスクトップにアクセスすることで、業務を遂行できる。VDIはセキュリティの向上や、管理の効率化、コスト削減といった利点もあり、近年では多くの企業で導入が進んでいる。さらに、ソフトウェアのアップデートや設定の変更も容易に行えるため、運用管理の手間を大幅に軽減することができる。",
+          "vi": "Hạ tầng máy tính để bàn ảo (Virtual Desktop Infrastructure) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VDI",
+          "reading": "ぶいでぃーあい",
+          "english": "Virtual Desktop Infrastructure",
+          "vi": "Hạ tầng máy tính để bàn ảo",
+          "definitionJa": "デスクトップ仮想化の一形態であり、ユーザーのデスクトップ環境を中央のサーバ上で仮想的に管理し、提供する技術である。",
+          "definitionVi": "Hạ tầng máy tính để bàn ảo: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "vdi"]
+    },
+    {
+      "id": "cloud-computing",
+      "order": 25,
+      "titleJa": "クラウドコンピューティング",
+      "titleVi": "Điện toán đám mây",
+      "importance": "medium",
+      "summaryJa": "インターネットを通じてサーバやストレージ、アプリケーションなどのコンピュータ資源を提供する技術である。",
+      "summaryVi": "Điện toán đám mây là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドコンピューティングとは",
+          "vi": "Điện toán đám mây là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットを通じてサーバやストレージ、アプリケーションなどのコンピュータ資源を提供する技術である。このシステム構成は、ユーザーが自分のデバイスに依存せずに、どこからでも必要なリソースにアクセスできる柔軟性を持つ。また、必要に応じて資源を増減できるため、コスト効率や運用の簡便さが実現される。例えば、企業は自社のサーバを保有することなく、クラウドサービスを利用してデータの保存やアプリケーションの運用が可能であり、これによりシステムの冗長性やスケーラビリティが強化される。",
+          "vi": "Điện toán đám mây (Cloud Computing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドコンピューティング",
+          "reading": "",
+          "english": "Cloud Computing",
+          "vi": "Điện toán đám mây",
+          "definitionJa": "インターネットを通じてサーバやストレージ、アプリケーションなどのコンピュータ資源を提供する技術である。",
+          "definitionVi": "Điện toán đám mây: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "cloud-computing"]
+    },
+    {
+      "id": "iac",
+      "order": 26,
+      "titleJa": "IaC",
+      "titleVi": "Hạ tầng dưới dạng mã",
+      "importance": "medium",
+      "summaryJa": "システム構成をコードとして扱う手法のことである。",
+      "summaryVi": "Hạ tầng dưới dạng mã là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IaCとは",
+          "vi": "Hạ tầng dưới dạng mã là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム構成をコードとして扱う手法のことである。これにより、システムのインフラストラクチャをプログラムで定義し、管理できる。具体的には、サーバの設定やネットワーク構成、データベースの定義などをコードに記述し、自動化された手段で展開することが可能である。このアプローチは、一貫性を持った構成を実現し、ヒューマンエラーを減らすために効果的である。また、バージョン管理が可能なため、変更履歴を追跡することができ、システムの復元や再現が容易になるという利点もある。クラウド環境においてもよく利用され、柔軟かつ効率的なシステム管理を実現する。",
+          "vi": "Hạ tầng dưới dạng mã (Infrastructure as Code) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IaC",
+          "reading": "あいえーしー",
+          "english": "Infrastructure as Code",
+          "vi": "Hạ tầng dưới dạng mã",
+          "definitionJa": "システム構成をコードとして扱う手法のことである。",
+          "definitionVi": "Hạ tầng dưới dạng mã: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "iac"]
+    },
+    {
+      "id": "saas",
+      "order": 27,
+      "titleJa": "SaaS",
+      "titleVi": "Phần mềm dưới dạng dịch vụ",
+      "importance": "high",
+      "summaryJa": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。",
+      "summaryVi": "Phần mềm dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SaaSとは",
+          "vi": "Phần mềm dưới dạng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。ユーザーは、特定のアプリケーションを自分のコンピュータにインストールすることなく、Webブラウザを介してサービスを利用することができる。この方式では、ソフトウェアのアップデートやメンテナンスなどは提供者側が行うため、ユーザーは手間をかけることなく最新の機能を利用できる。例えば、Google WorkspaceやSalesforceなどがこの形態に該当し、ビジネスや個人用の様々なアプリケーションが提供されている。インフラやプラットフォームを自分で管理する必要がないため、特に中小企業にとってコスト削減や業務効率化に寄与する利点がある。",
+          "vi": "Phần mềm dưới dạng dịch vụ (Software as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SaaS",
+          "reading": "さーす",
+          "english": "Software as a Service",
+          "vi": "Phần mềm dưới dạng dịch vụ",
+          "definitionJa": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。",
+          "definitionVi": "Phần mềm dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "saas"]
+    },
+    {
+      "id": "paas",
+      "order": 28,
+      "titleJa": "PaaS",
+      "titleVi": "Nền tảng dưới dạng dịch vụ",
+      "importance": "high",
+      "summaryJa": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。",
+      "summaryVi": "Nền tảng dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PaaSとは",
+          "vi": "Nền tảng dưới dạng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。ユーザーは、インフラストラクチャの管理を気にせず、アプリケーションの開発やデプロイ、実行などに集中できるため、開発作業が効率的に行える。具体的な例としては、Google App EngineやMicrosoft Azureが挙げられ、これらは開発者にプログラミング言語やデータベースの選択肢を提供し、高度なスケーラビリティもサポートする。自動的にリソースをスケールしたり、アプリケーションのパフォーマンスを監視したりする機能を持つため、開発の迅速化やコスト削減に寄与する。",
+          "vi": "Nền tảng dưới dạng dịch vụ (Platform as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PaaS",
+          "reading": "ぱーす",
+          "english": "Platform as a Service",
+          "vi": "Nền tảng dưới dạng dịch vụ",
+          "definitionJa": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。",
+          "definitionVi": "Nền tảng dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "paas"]
+    },
+    {
+      "id": "iaas",
+      "order": 29,
+      "titleJa": "IaaS",
+      "titleVi": "Hạ tầng dưới dạng dịch vụ",
+      "importance": "high",
+      "summaryJa": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。",
+      "summaryVi": "Hạ tầng dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IaaSとは",
+          "vi": "Hạ tầng dưới dạng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。このモデルでは、ユーザーは物理的なハードウェアを所有することなく、仮想サーバやストレージ、ネットワークリソースを利用できる。例えば、企業が自社サーバを購入・管理する代わりに、IaaSプロバイダーから必要なリソースをオンデマンドで借りることができる。これにより、初期投資を抑えつつ、必要に応じてリソースを柔軟にスケールアップ・ダウンできるため、効率的な運用が可能となる。また、物理的なメンテナンスやハードウェアの管理はサービス提供者が行うため、企業はより重要な業務に集中できる利点もある。",
+          "vi": "Hạ tầng dưới dạng dịch vụ (Infrastructure as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IaaS",
+          "reading": "いあーす",
+          "english": "Infrastructure as a Service",
+          "vi": "Hạ tầng dưới dạng dịch vụ",
+          "definitionJa": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。",
+          "definitionVi": "Hạ tầng dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "iaas"]
+    },
+    {
+      "id": "serverless",
+      "order": 30,
+      "titleJa": "サーバレス",
+      "titleVi": "Điện toán serverless",
+      "importance": "medium",
+      "summaryJa": "サーバの管理を行わずにアプリケーションを開発・運用するためのシステム構成を指す。",
+      "summaryVi": "Điện toán serverless là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サーバレスとは",
+          "vi": "Điện toán serverless là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サーバの管理を行わずにアプリケーションを開発・運用するためのシステム構成を指す。通常、アプリケーションの運用にはサーバの設定や管理が必要であるが、サーバレスではこれをクラウドサービスが代行するため、開発者はアプリケーションのコードに専念できる。例えば、AWS LambdaやGoogle Cloud Functionsなどのサービスを活用することで、イベントに応じて自動的にコードを実行でき、必要なときだけリソースを使用することができる。このため、コストの最適化やスケーラビリティが向上し、開発のスピードも加速する。このような特性から、特にスタートアップや短期間で成果を求められるプロジェクトにおいて人気が高まっている。",
+          "vi": "Điện toán serverless (Serverless) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サーバレス",
+          "reading": "",
+          "english": "Serverless",
+          "vi": "Điện toán serverless",
+          "definitionJa": "サーバの管理を行わずにアプリケーションを開発・運用するためのシステム構成を指す。",
+          "definitionVi": "Điện toán serverless: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "serverless"]
+    },
+    {
+      "id": "faas",
+      "order": 31,
+      "titleJa": "FaaS",
+      "titleVi": "Chức năng dưới dạng dịch vụ",
+      "importance": "medium",
+      "summaryJa": "ファンクション・アズ・ア・サービスの略で、クラウドコンピューティングの一形態であり、開発者がコードの特定の機能を実行するための環境を提供するものである。",
+      "summaryVi": "Chức năng dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FaaSとは",
+          "vi": "Chức năng dưới dạng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ファンクション・アズ・ア・サービスの略で、クラウドコンピューティングの一形態であり、開発者がコードの特定の機能を実行するための環境を提供するものである。FaaSでは、サーバの管理を意識せずに、必要な時にだけプログラムを実行し、その結果に対してのみ課金される仕組みが特徴である。このため、開発者はアプリケーションの機能を迅速に構築し、スケーラブルに展開することが可能となる。たとえば、特定のイベントが発生した際に自動的に処理を行うシステムを構築することができる。FaaSはマイクロサービスアーキテクチャとの相性が良く、アプリケーションの柔軟性や拡張性を高めるのに役立つ。",
+          "vi": "Chức năng dưới dạng dịch vụ (Function as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FaaS",
+          "reading": "ふぁーす",
+          "english": "Function as a Service",
+          "vi": "Chức năng dưới dạng dịch vụ",
+          "definitionJa": "ファンクション・アズ・ア・サービスの略で、クラウドコンピューティングの一形態であり、開発者がコードの特定の機能を実行するための環境を提供するものである。",
+          "definitionVi": "Chức năng dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "faas"]
+    },
+    {
+      "id": "edge-computing",
+      "order": 32,
+      "titleJa": "エッジコンピューティング",
+      "titleVi": "Điện toán biên",
+      "importance": "medium",
+      "summaryJa": "データ処理をクラウドではなく、デバイスやネットワークの端に近い場所で行うコンピューティングの構成である。",
+      "summaryVi": "Điện toán biên là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エッジコンピューティングとは",
+          "vi": "Điện toán biên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データ処理をクラウドではなく、デバイスやネットワークの端に近い場所で行うコンピューティングの構成である。これにより、データの転送距離を短縮し、リアルタイムでの処理が可能となる。例えば、スマートフォンやIoTデバイスがデータをその場で処理することによって、遅延を最小限に抑え、高速な応答が得られる。また、帯域幅の使用を削減するため、複数のデバイスが生成する大量のデータを即座に解析し、必要な情報だけをクラウドに送信する仕組みを持つ。このように、システム全体の効率を向上させる役割を果たす。",
+          "vi": "Điện toán biên (Edge Computing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エッジコンピューティング",
+          "reading": "",
+          "english": "Edge Computing",
+          "vi": "Điện toán biên",
+          "definitionJa": "データ処理をクラウドではなく、デバイスやネットワークの端に近い場所で行うコンピューティングの構成である。",
+          "definitionVi": "Điện toán biên: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "edge-computing"]
+    },
+    {
+      "id": "migration",
+      "order": 33,
+      "titleJa": "マイグレーション",
+      "titleVi": "Di chuyển hệ thống",
+      "importance": "medium",
+      "summaryJa": "データやアプリケーションを一つのシステムから別のシステムへ移行するプロセスである。",
+      "summaryVi": "Di chuyển hệ thống là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイグレーションとは",
+          "vi": "Di chuyển hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データやアプリケーションを一つのシステムから別のシステムへ移行するプロセスである。ライブシステムの稼働を停止させることなく行う方法で、利用者に影響を与えずにデータやアプリケーションを移動できるため、システムの可用性を保ちやすいのが特徴である。例えば、サーバのアップグレードやクラウドへの移行に際して、実行中のアプリケーションが一時的に中断されることなく行われる。このようなシステム管理者にとって重要なスキルであり、適切に計画・実行することで、システムの性能向上やコスト削減を図ることが可能である。さらに、マイグレーションはデータ保全やセキュリティ向上にも寄与し、長期的には運用の効率性を高める効果が期待される。",
+          "vi": "Di chuyển hệ thống (Migration) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイグレーション",
+          "reading": "",
+          "english": "Migration",
+          "vi": "Di chuyển hệ thống",
+          "definitionJa": "データやアプリケーションを一つのシステムから別のシステムへ移行するプロセスである。",
+          "definitionVi": "Di chuyển hệ thống: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "migration"]
+    },
+    {
+      "id": "presentation-layer",
+      "order": 34,
+      "titleJa": "プレゼンテーション層",
+      "titleVi": "Tầng trình bày",
+      "importance": "medium",
+      "summaryJa": "クライアントサーバシステムにおいて、ユーザーインターフェースやデータ形式の変換を担当する層である。",
+      "summaryVi": "Tầng trình bày là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プレゼンテーション層とは",
+          "vi": "Tầng trình bày là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントサーバシステムにおいて、ユーザーインターフェースやデータ形式の変換を担当する層である。この層は、ユーザーが見る画面や操作する部分を管理し、データを受け取って表示したり、ユーザーからの入力をサーバに送信する役割を果たす。例えば、Webブラウザやモバイルアプリの画面がこれにあたる。ユーザーに使いやすい情報を提供するため、データの整形や表示方法を工夫することが求められる。この層の働きが、システム全体の使いやすさや満足度に大きく影響するので、開発者にとって非常に重要な部分である。",
+          "vi": "Tầng trình bày (Presentation Layer) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プレゼンテーション層",
+          "reading": "ぷれぜんてーしょんそう",
+          "english": "Presentation Layer",
+          "vi": "Tầng trình bày",
+          "definitionJa": "クライアントサーバシステムにおいて、ユーザーインターフェースやデータ形式の変換を担当する層である。",
+          "definitionVi": "Tầng trình bày: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "presentation-layer"]
+    },
+    {
+      "id": "function-layer",
+      "order": 35,
+      "titleJa": "ファンクション層",
+      "titleVi": "Tầng chức năng",
+      "importance": "medium",
+      "summaryJa": "クライアントサーバシステムにおいて、特定の機能やプロセスを提供する層のことである。",
+      "summaryVi": "Tầng chức năng là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ファンクション層とは",
+          "vi": "Tầng chức năng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントサーバシステムにおいて、特定の機能やプロセスを提供する層のことである。この層は、クライアントからの要求に対して必要な処理を実行し、結果を返す役割を持つ。例えば、ユーザーがWebアプリケーションを利用する際、データの取得や更新を行うための処理がこのファンクション層で行われる。ビジネスロジックを実装する重要な部分であり、システム全体の効率やパフォーマンスに大きく影響を与える。また、この層は他の層（ユーザーインターフェース層やデータ層）と連携して動作し、クライアントのニーズに応えるための基盤となっている。",
+          "vi": "Tầng chức năng (Function Layer) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファンクション層",
+          "reading": "ふぁんくしょんそう",
+          "english": "Function Layer",
+          "vi": "Tầng chức năng",
+          "definitionJa": "クライアントサーバシステムにおいて、特定の機能やプロセスを提供する層のことである。",
+          "definitionVi": "Tầng chức năng: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "function-layer"]
+    },
+    {
+      "id": "database-access-layer",
+      "order": 36,
+      "titleJa": "データベースアクセス層",
+      "titleVi": "Tầng truy cập cơ sở dữ liệu",
+      "importance": "medium",
+      "summaryJa": "クライアントサーバシステムにおいて、データベースとの通信を管理するための層である。",
+      "summaryVi": "Tầng truy cập cơ sở dữ liệu là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データベースアクセス層とは",
+          "vi": "Tầng truy cập cơ sở dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントサーバシステムにおいて、データベースとの通信を管理するための層である。この層は、アプリケーションからデータベースへのリクエストを受け取り、適切なクエリを生成して実行する役割を持つ。具体的には、ユーザーがデータを追加、更新、削除、取得する場合に、この層が介在して効率的に処理を行う。データベースアクセス層を導入することで、システム全体の構成が明確になり、保守性や拡張性が高まる。また、データベースの種類が異なるシステムでも、同様のインターフェースを持つことができるため、柔軟な設計が可能となる。",
+          "vi": "Tầng truy cập cơ sở dữ liệu (Database Access Layer) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データベースアクセス層",
+          "reading": "でーたべーすあくせすそう",
+          "english": "Database Access Layer",
+          "vi": "Tầng truy cập cơ sở dữ liệu",
+          "definitionJa": "クライアントサーバシステムにおいて、データベースとの通信を管理するための層である。",
+          "definitionVi": "Tầng truy cập cơ sở dữ liệu: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "database-access-layer"]
+    },
+    {
+      "id": "client",
+      "order": 37,
+      "titleJa": "クライアント",
+      "titleVi": "Client",
+      "importance": "medium",
+      "summaryJa": "クライアントサーバシステムにおいて、サーバからサービスやデータを要求する側のコンピュータやソフトウェアである。",
+      "summaryVi": "Client là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クライアントとは",
+          "vi": "Client là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントサーバシステムにおいて、サーバからサービスやデータを要求する側のコンピュータやソフトウェアである。ユーザーが操作する端末であり、サーバが提供する様々な機能を利用するために必要なインターフェースを持っている。例えば、Webブラウザは、インターネット上のサーバにリクエストを送り、Webページを表示するためのクライアントの一例である。クライアントは通常、サーバから受け取ったデータをもとに、ユーザーに対して情報を表示したり、入力を受けたりする役割を果たす。こうした仕組みによって、効率的なデータ通信やリソースの共有が実現されている。",
+          "vi": "Client (Client) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クライアント",
+          "reading": "",
+          "english": "Client",
+          "vi": "Client",
+          "definitionJa": "クライアントサーバシステムにおいて、サーバからサービスやデータを要求する側のコンピュータやソフトウェアである。",
+          "definitionVi": "Client: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "client"]
+    },
+    {
+      "id": "server",
+      "order": 38,
+      "titleJa": "サーバ",
+      "titleVi": "Server",
+      "importance": "medium",
+      "summaryJa": "クライアントサーバシステムにおいて、リクエストに応じてデータやサービスを提供する役割を持つコンピュータまたはソフトウェアである。",
+      "summaryVi": "Server là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サーバとは",
+          "vi": "Server là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントサーバシステムにおいて、リクエストに応じてデータやサービスを提供する役割を持つコンピュータまたはソフトウェアである。クライアントはサーバに接続して必要な情報を要求し、サーバはその要求に対する処理を行い、結果をクライアントに返す仕組みで機能する。例えば、WebサーバはユーザーがWebブラウザから要求したページを提供する役割を担っている。このように、サーバはデータを集中管理し、効率的に情報を共有するための重要な要素であるため、システムの信頼性やセキュリティが求められる。",
+          "vi": "Server (Server) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サーバ",
+          "reading": "",
+          "english": "Server",
+          "vi": "Server",
+          "definitionJa": "クライアントサーバシステムにおいて、リクエストに応じてデータやサービスを提供する役割を持つコンピュータまたはソフトウェアである。",
+          "definitionVi": "Server: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "server"]
+    },
+    {
+      "id": "thin-client-system",
+      "order": 39,
+      "titleJa": "シンクライアントシステム",
+      "titleVi": "Hệ thống thin client",
+      "importance": "medium",
+      "summaryJa": "コンピュータの処理をサーバ側で行い、クライアント側は最小限の機能のみを持つシステムである。",
+      "summaryVi": "Hệ thống thin client là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シンクライアントシステムとは",
+          "vi": "Hệ thống thin client là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの処理をサーバ側で行い、クライアント側は最小限の機能のみを持つシステムである。この方式では、クライアント端末は軽量であるため、メンテナンスや管理が容易で、コストを抑えることが可能である。たとえば、企業内でのデータ処理やアプリケーションの実行をサーバが担い、各端末はその結果を受け取る形をとる。このようなシステムは、セキュリティの向上や一元管理のメリットを持つため、企業や教育機関での導入が進められている。効率的なリソース利用が求められる環境に適した選択肢である。",
+          "vi": "Hệ thống thin client (Thin Client System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シンクライアントシステム",
+          "reading": "",
+          "english": "Thin Client System",
+          "vi": "Hệ thống thin client",
+          "definitionJa": "コンピュータの処理をサーバ側で行い、クライアント側は最小限の機能のみを持つシステムである。",
+          "definitionVi": "Hệ thống thin client: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "thin-client-system"]
+    },
+    {
+      "id": "rpc",
+      "order": 40,
+      "titleJa": "RPC",
+      "titleVi": "Gọi thủ tục từ xa",
+      "importance": "medium",
+      "summaryJa": "異なるコンピュータ間で手続きを呼び出すための技術である。",
+      "summaryVi": "Gọi thủ tục từ xa là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RPCとは",
+          "vi": "Gọi thủ tục từ xa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるコンピュータ間で手続きを呼び出すための技術である。クライアントとサーバという役割を持つシステムにおいて、クライアントはサーバの機能を利用するためにリクエストを送信し、サーバはそのリクエストに基づいて処理を行い、結果をクライアントに返す。この仕組みにより、ユーザーはまるでローカルで処理を行っているかのように、遠隔のリソースを利用できる。たとえば、Webアプリケーションがデータベースから情報を取得する際、RPCを用いてデータベースサーバに問い合わせ、その結果を受け取ることができる。ネットワークを介しての効率的な通信を可能にし、分散システムの構築において重要な役割を果たしている。",
+          "vi": "Gọi thủ tục từ xa (Remote Procedure Call) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RPC",
+          "reading": "あーるぴーしー",
+          "english": "Remote Procedure Call",
+          "vi": "Gọi thủ tục từ xa",
+          "definitionJa": "異なるコンピュータ間で手続きを呼び出すための技術である。",
+          "definitionVi": "Gọi thủ tục từ xa: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "rpc"]
+    },
+    {
+      "id": "web-system",
+      "order": 41,
+      "titleJa": "Webシステム",
+      "titleVi": "Hệ thống Web",
+      "importance": "medium",
+      "summaryJa": "インターネットを利用して提供されるアプリケーションやサービスのことを指す。",
+      "summaryVi": "Hệ thống Web là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Webシステムとは",
+          "vi": "Hệ thống Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットを利用して提供されるアプリケーションやサービスのことを指す。これらは主にWebブラウザを通じてアクセスされ、特別なソフトウェアをインストールすることなく使用できる。例えば、オンラインバンキングやショッピングサイト、ソーシャルメディアなどが挙げられる。Webシステムの利点は、どのデバイスからでもアクセス可能で、リアルタイムでのデータ共有や更新が容易である点である。また、ユーザーが常に最新の情報を取得できるため、使いやすさや利便性が高い。このように、Webシステムは企業や個人のニーズに応じたさまざまな機能を提供し、現代の情報社会において不可欠な存在となっている。",
+          "vi": "Hệ thống Web (Web System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Webシステム",
+          "reading": "うぇぶしすてむ",
+          "english": "Web System",
+          "vi": "Hệ thống Web",
+          "definitionJa": "インターネットを利用して提供されるアプリケーションやサービスのことを指す。",
+          "definitionVi": "Hệ thống Web: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "web-system"]
+    },
+    {
+      "id": "web-browser",
+      "order": 42,
+      "titleJa": "Webブラウザ",
+      "titleVi": "Trình duyệt Web",
+      "importance": "medium",
+      "summaryJa": "インターネット上の情報を表示するためのソフトウェアである。",
+      "summaryVi": "Trình duyệt Web là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Webブラウザとは",
+          "vi": "Trình duyệt Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネット上の情報を表示するためのソフトウェアである。主な機能としては、Webページを取得し、ユーザーが見ることができる形式に変換して表示することである。例えば、Google ChromeやFirefox、Safariといったアプリケーションがそれにあたる。Webブラウザは、HTMLやCSS、JavaScriptといった技術を利用してページ内容を構築し、ユーザーがリンクをクリックすることでページ間を移動できるようにする。また、ブックマーク機能や閲覧履歴の管理、拡張機能の追加といった便利な機能も備えており、日常的なインターネット利用をサポートしている。セキュリティ対策も強化されており、安全にWebを楽しむための重要なツールである。",
+          "vi": "Trình duyệt Web (Web Browser) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Webブラウザ",
+          "reading": "うぇぶぶらうざ",
+          "english": "Web Browser",
+          "vi": "Trình duyệt Web",
+          "definitionJa": "インターネット上の情報を表示するためのソフトウェアである。",
+          "definitionVi": "Trình duyệt Web: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "web-browser"]
+    },
+    {
+      "id": "web-server",
+      "order": 43,
+      "titleJa": "Webサーバ",
+      "titleVi": "Máy chủ Web",
+      "importance": "medium",
+      "summaryJa": "WebページやWebアプリケーションをインターネットユーザーに提供するためのコンピュータやソフトウェアである。",
+      "summaryVi": "Máy chủ Web là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Webサーバとは",
+          "vi": "Máy chủ Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "WebページやWebアプリケーションをインターネットユーザーに提供するためのコンピュータやソフトウェアである。主にHTTPプロトコルを利用して、ユーザーのリクエストに応じて必要な情報やファイルを送信する役割を持っている。具体的には、ユーザーがブラウザにURLを入力すると、WebサーバはそのURLに対応するデータを検索し、要求されたページを返す。これにより、Webサイトは利用者に対してコンテンツを表示できる。また、サーバには静的なHTMLファイルだけでなく、動的なコンテンツ（データベースからの情報を含むなど）の生成も行えるものも存在し、PHPやRubyなどのプログラミング言語を使用することが一般的である。",
+          "vi": "Máy chủ Web (Web Server) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Webサーバ",
+          "reading": "うぇぶさーば",
+          "english": "Web Server",
+          "vi": "Máy chủ Web",
+          "definitionJa": "WebページやWebアプリケーションをインターネットユーザーに提供するためのコンピュータやソフトウェアである。",
+          "definitionVi": "Máy chủ Web: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "web-server"]
+    },
+    {
+      "id": "raid0",
+      "order": 44,
+      "titleJa": "RAID0",
+      "titleVi": "RAID 0",
+      "importance": "high",
+      "summaryJa": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。",
+      "summaryVi": "RAID 0 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID0とは",
+          "vi": "RAID 0 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。データを複数のディスクに分散して書き込むため、読み書きの速度が向上する特性がある。例えば、二つのハードディスクをRAID0で構成すると、データは半分ずつ二つのディスクに保存され、同時にアクセスすることができるため、性能が大幅に向上する。だが、RAID0は冗長性がないため、一つのディスクが故障すると、全てのデータが失われるリスクがある。したがって、高速なデータ転送が求められる場合には有用であるが、重要なデータの保護には他のRAIDレベルを選択することが推奨される。",
+          "vi": "RAID 0 (Redundant Array of Independent Disks Level 0) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "ストライピングで高速化するが冗長性はなく、1台の故障で全体のデータを失う可能性がある。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID0",
+          "reading": "れいどぜろ",
+          "english": "Redundant Array of Independent Disks Level 0",
+          "vi": "RAID 0",
+          "definitionJa": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。",
+          "definitionVi": "RAID 0: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid0"]
+    },
+    {
+      "id": "raid1",
+      "order": 45,
+      "titleJa": "RAID1",
+      "titleVi": "RAID 1",
+      "importance": "high",
+      "summaryJa": "データの冗長性を確保するためのストレージ技術の一つである。",
+      "summaryVi": "RAID 1 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID1とは",
+          "vi": "RAID 1 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの冗長性を確保するためのストレージ技術の一つである。主に二つのハードディスクを使用し、同じデータを両方のディスクに同時に書き込むことで、データの安全性を高める仕組みである。もし片方のディスクが故障した場合でも、もう一方のディスクからデータを復元することが可能なため、信頼性が高い。このため、特に重要なデータを扱うシステムにおいて採用されることが多く、運用コストはかかるものの、安心してデータを保管できる利点がある。RAID1の構成は、読み出し性能の向上にも寄与し、データのアクセスが迅速に行える点も特徴の一つである。",
+          "vi": "RAID 1 (Redundant Array of Independent Disks Level 1) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "同じデータを複数ディスクに記録するミラーリングで耐障害性を高める。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID1",
+          "reading": "れいどわん",
+          "english": "Redundant Array of Independent Disks Level 1",
+          "vi": "RAID 1",
+          "definitionJa": "データの冗長性を確保するためのストレージ技術の一つである。",
+          "definitionVi": "RAID 1: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid1"]
+    },
+    {
+      "id": "raid10",
+      "order": 46,
+      "titleJa": "RAID10",
+      "titleVi": "RAID 10",
+      "importance": "high",
+      "summaryJa": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。",
+      "summaryVi": "RAID 10 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID10とは",
+          "vi": "RAID 10 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。ミラーリング（RAID1）とストライピング（RAID0）を組み合わせる形式で、データを二つに分けて二重に保存することで、ディスク障害からのデータ保護を実現する。それに加えて、複数のディスクへの分散保存により、データの読み書き速度も向上する。これにより、高い可用性とパフォーマンスを求めるビジネス環境において非常に人気があり、データの安全性を重視する場合に特に推奨される構成である。",
+          "vi": "RAID 10 (Redundant Array of Independent Disks Level 10) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID10",
+          "reading": "れいどいちぜろ",
+          "english": "Redundant Array of Independent Disks Level 10",
+          "vi": "RAID 10",
+          "definitionJa": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。",
+          "definitionVi": "RAID 10: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid10"]
+    },
+    {
+      "id": "raid2",
+      "order": 47,
+      "titleJa": "RAID2",
+      "titleVi": "RAID 2",
+      "importance": "medium",
+      "summaryJa": "独立した複数のディスクを用いてデータを冗長化し、高い信頼性を持つストレージ構成の一つである。",
+      "summaryVi": "RAID 2 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID2とは",
+          "vi": "RAID 2 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "独立した複数のディスクを用いてデータを冗長化し、高い信頼性を持つストレージ構成の一つである。この方式では、データがビット単位で分割され、それぞれのディスクに分散して保存される。また、誤り訂正コードを使用して、データの整合性を保つための冗長情報も同時に保存される。高速なデータアクセスが可能になる一方で、構成に必要なディスク数が多く、コストがかかるため、実用性においてはRAID4やRAID5などの他の方式がよく用いられる。データの耐障害性を高めつつ、パフォーマンス向上を図ることができるのがRAIDの利点である。",
+          "vi": "RAID 2 (Redundant Array of Independent Disks Level 2) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID2",
+          "reading": "れいどつー",
+          "english": "Redundant Array of Independent Disks Level 2",
+          "vi": "RAID 2",
+          "definitionJa": "独立した複数のディスクを用いてデータを冗長化し、高い信頼性を持つストレージ構成の一つである。",
+          "definitionVi": "RAID 2: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid2"]
+    },
+    {
+      "id": "raid3",
+      "order": 48,
+      "titleJa": "RAID3",
+      "titleVi": "RAID 3",
+      "importance": "medium",
+      "summaryJa": "冗長性を持ったデータストレージ技術の一つであり、データを複数のディスクに分散して保存する方式である。",
+      "summaryVi": "RAID 3 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID3とは",
+          "vi": "RAID 3 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "冗長性を持ったデータストレージ技術の一つであり、データを複数のディスクに分散して保存する方式である。この構成では、データがストライプと呼ばれる単位で複数のディスクに分けて書き込まれるが、パリティデータも別のディスクに保存されるため、1台のディスクが故障してもデータを復旧できる。例えば、3台のディスクを使ったRAID3では、1台が故障しても、残りの情報とパリティデータから失われたデータを復元可能である。このように、RAID3は高いデータ可用性を提供するが、書き込み速度が若干遅くなることがあるため、用途によって選択が必要である。",
+          "vi": "RAID 3 (Redundant Array of Independent Disks Level 3) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID3",
+          "reading": "れいどすりー",
+          "english": "Redundant Array of Independent Disks Level 3",
+          "vi": "RAID 3",
+          "definitionJa": "冗長性を持ったデータストレージ技術の一つであり、データを複数のディスクに分散して保存する方式である。",
+          "definitionVi": "RAID 3: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid3"]
+    },
+    {
+      "id": "raid4",
+      "order": 49,
+      "titleJa": "RAID4",
+      "titleVi": "RAID 4",
+      "importance": "medium",
+      "summaryJa": "ディスクアレイの一種であり、データの冗長性を確保しながらストレージ性能を向上させる技術である。",
+      "summaryVi": "RAID 4 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID4とは",
+          "vi": "RAID 4 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ディスクアレイの一種であり、データの冗長性を確保しながらストレージ性能を向上させる技術である。この方式では、複数のハードディスクが使用され、データはブロック単位で分散して記録される。特に、パリティと呼ばれる誤り訂正用の情報が専用のパリティディスクに格納されるため、いずれかのディスクが故障してもデータを復元できる仕組みが備わっている。RAID4は、データの読み取り速度が速い一方で、書き込み操作にはパリティの更新が必要なため、若干の遅延が生じる場合がある。この点がRAID5やRAID6との主な違いであり、用途によって選択肢が異なることがある。",
+          "vi": "RAID 4 (Redundant Array of Independent Disks Level 4) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID4",
+          "reading": "れいどふぉー",
+          "english": "Redundant Array of Independent Disks Level 4",
+          "vi": "RAID 4",
+          "definitionJa": "ディスクアレイの一種であり、データの冗長性を確保しながらストレージ性能を向上させる技術である。",
+          "definitionVi": "RAID 4: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid4"]
+    },
+    {
+      "id": "raid5",
+      "order": 50,
+      "titleJa": "RAID5",
+      "titleVi": "RAID 5",
+      "importance": "high",
+      "summaryJa": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。",
+      "summaryVi": "RAID 5 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID5とは",
+          "vi": "RAID 5 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。1台のディスクが故障しても、残りのデータとパリティ情報から失われたデータを復元できる。RAID4のような専用パリティディスクを持たず、パリティを各ディスクに分散するため、特定のディスクにアクセスが集中しにくい。一般に3台以上のディスクが必要で、実効容量はディスク1台分をパリティに使用した容量となる。",
+          "vi": "RAID 5 (Redundant Array of Independent Disks Level 5) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "分散パリティを用い、1台のディスク故障まで復旧できる。一般に3台以上必要。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID5",
+          "reading": "れいどふぁいぶ",
+          "english": "Redundant Array of Independent Disks Level 5",
+          "vi": "RAID 5",
+          "definitionJa": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。",
+          "definitionVi": "RAID 5: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid5"]
+    },
+    {
+      "id": "raid6",
+      "order": 51,
+      "titleJa": "RAID6",
+      "titleVi": "RAID 6",
+      "importance": "high",
+      "summaryJa": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。",
+      "summaryVi": "RAID 6 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RAID6とは",
+          "vi": "RAID 6 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。これにより、2台のディスクが障害を起こしてもデータを復元できるため、非常に高い耐障害性を持つ。具体的には、データが各ディスクに分散される際、パリティ情報が生成され、別のディスクに格納されることで、データの冗長性が保たれる。このため、大切なデータを守るためのソリューションとしてよく利用され、多くの企業や組織のサーバ環境において採用されている。特にデータの安全性が重要なストレージシステムにおいて非常に効果的である。",
+          "vi": "RAID 6 (Redundant Array of Independent Disks Level 6) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "二重の分散パリティを用い、同時に2台のディスクが故障しても復旧できる。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAID6",
+          "reading": "れいどしっくす",
+          "english": "Redundant Array of Independent Disks Level 6",
+          "vi": "RAID 6",
+          "definitionJa": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。",
+          "definitionVi": "RAID 6: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "raid6"]
+    },
+    {
+      "id": "striping",
+      "order": 52,
+      "titleJa": "ストライピング",
+      "titleVi": "Striping",
+      "importance": "medium",
+      "summaryJa": "ストレージにおけるデータ分散技術のことであり、データを複数のストレージデバイスに分割して保存する方式を指す。",
+      "summaryVi": "Striping là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ストライピングとは",
+          "vi": "Striping là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ストレージにおけるデータ分散技術のことであり、データを複数のストレージデバイスに分割して保存する方式を指す。具体的には、データを一定のブロックサイズで分割し、異なるデバイスに書き込むことで、読み書きの速度を向上させる。例えば、複数のハードディスクに対して同時にデータを読み書きするため、処理速度が向上し、ストレージ全体の性能が向上する。この技術は、特に大容量データを扱う場合や、高速なアクセスが求められるシステムにおいて有効である。ストライピングはRAID（冗長アレイ独立ディスク）技術の一部としても広く利用されており、信頼性の向上にも寄与することがある。",
+          "vi": "Striping (Striping) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ストライピング",
+          "reading": "",
+          "english": "Striping",
+          "vi": "Striping",
+          "definitionJa": "ストレージにおけるデータ分散技術のことであり、データを複数のストレージデバイスに分割して保存する方式を指す。",
+          "definitionVi": "Striping: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "striping"]
+    },
+    {
+      "id": "mirroring",
+      "order": 53,
+      "titleJa": "ミラーリング",
+      "titleVi": "Mirroring",
+      "importance": "medium",
+      "summaryJa": "データを複数のストレージデバイスに同時に保存する技術である。",
+      "summaryVi": "Mirroring là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ミラーリングとは",
+          "vi": "Mirroring là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを複数のストレージデバイスに同時に保存する技術である。これにより、一つのデバイスが故障した場合でも、他のデバイスに保存されたデータを用いて迅速に復元が可能であるため、データの安全性が向上する。例えば、RAID（Redundant Array of Independent Disks）技術の一部として使用されることが多く、データの可用性や耐障害性を高める役割を果たす。ミラーリングは特に企業や組織において重要なバックアップ手法であり、情報の喪失を防ぐための効果的な対策となっている。なお、ミラーリングを用いることで、システムの冗長性も確保でき、信頼性の高い運用が可能となる。",
+          "vi": "Mirroring (Mirroring) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ミラーリング",
+          "reading": "",
+          "english": "Mirroring",
+          "vi": "Mirroring",
+          "definitionJa": "データを複数のストレージデバイスに同時に保存する技術である。",
+          "definitionVi": "Mirroring: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "mirroring"]
+    },
+    {
+      "id": "parity",
+      "order": 54,
+      "titleJa": "パリティ",
+      "titleVi": "Parity",
+      "importance": "medium",
+      "summaryJa": "データを保存する際の冗長性を確保するための技術である。",
+      "summaryVi": "Parity là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パリティとは",
+          "vi": "Parity là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを保存する際の冗長性を確保するための技術である。ストレージにおいてデータの誤り検出や修復を行うために用いられる。具体的には、データを分散して保存する際に、偶数または奇数のビットを計算して追加することで、データの整合性を保つ役割を果たす。たとえば、RAID（冗長独立ディスク装置）のシステムでは、複数のハードディスクにデータを分割して保存し、パリティビットを使ってデータの一部が失われた場合にも復元が可能となる。このように、パリティはデータセキュリティを向上させ、信頼性の高いストレージシステムに寄与する技術である。",
+          "vi": "Parity (Parity) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パリティ",
+          "reading": "",
+          "english": "Parity",
+          "vi": "Parity",
+          "definitionJa": "データを保存する際の冗長性を確保するための技術である。",
+          "definitionVi": "Parity: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "parity"]
+    },
+    {
+      "id": "fault",
+      "order": 55,
+      "titleJa": "フォールト",
+      "titleVi": "Thiết kế chịu lỗi",
+      "importance": "medium",
+      "summaryJa": "システムの構成要素に生じた故障や異常を指す。",
+      "summaryVi": "Thiết kế chịu lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールトとは",
+          "vi": "Thiết kế chịu lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの構成要素に生じた故障や異常を指す。信頼性設計では、フォールトの発生を防ぐフォールトアボイダンス、故障が発生しても処理を継続するフォールトトレランス、故障の影響を外部から見えないようにするフォールトマスキングなどの考え方がある。",
+          "vi": "Thiết kế chịu lỗi (Fault) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールト",
+          "reading": "",
+          "english": "Fault",
+          "vi": "Thiết kế chịu lỗi",
+          "definitionJa": "システムの構成要素に生じた故障や異常を指す。",
+          "definitionVi": "Thiết kế chịu lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fault"]
+    },
+    {
+      "id": "fault-masking",
+      "order": 56,
+      "titleJa": "フォールトマスキング",
+      "titleVi": "Che giấu lỗi",
+      "importance": "medium",
+      "summaryJa": "システムの信頼性を向上させるための設計手法の一つである。",
+      "summaryVi": "Che giấu lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールトマスキングとは",
+          "vi": "Che giấu lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの信頼性を向上させるための設計手法の一つである。この手法は、システム内の故障やエラーが発生した場合でも、その影響を最小限に抑えることを目的としている。具体的には、冗長な部品や機能を導入し、故障が起きても他の部品が正常に機能することで、全体の動作を維持する仕組みを作る。例えば、航空機や宇宙船などの高信頼性が求められる分野では、フォールトマスキングが非常に重要であり、不具合が発生しても安全に運航できるように設計されている。このように、システムの可用性を高めるために欠かせない手法である。",
+          "vi": "Che giấu lỗi (Fault Masking) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールトマスキング",
+          "reading": "",
+          "english": "Fault Masking",
+          "vi": "Che giấu lỗi",
+          "definitionJa": "システムの信頼性を向上させるための設計手法の一つである。",
+          "definitionVi": "Che giấu lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fault-masking"]
+    },
+    {
+      "id": "fault-tolerant-system",
+      "order": 57,
+      "titleJa": "フォールトトレラントシステム",
+      "titleVi": "Hệ thống chịu lỗi",
+      "importance": "high",
+      "summaryJa": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。",
+      "summaryVi": "Hệ thống chịu lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールトトレラントシステムとは",
+          "vi": "Hệ thống chịu lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。この設計理念は、信頼性を重視したもので、たとえばコンピュータやネットワークの運用において重要である。具体的には、ハードウェアの冗長化やソフトウェアのエラーチェックを用いて、万が一の故障からシステム全体が影響を受けないようにする。例えば、サーバが一台故障しても、別のサーバがその役割を引き継ぐことで、サービスの提供を続けられる。この技術は特に金融機関や医療機関で求められ、高い可用性と信頼性を実現するために重要な役割を果たしている。",
+          "vi": "Hệ thống chịu lỗi (Fault-Tolerant System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールトトレラントシステム",
+          "reading": "",
+          "english": "Fault-Tolerant System",
+          "vi": "Hệ thống chịu lỗi",
+          "definitionJa": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。",
+          "definitionVi": "Hệ thống chịu lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fault-tolerant-system"]
+    },
+    {
+      "id": "fault-avoidance",
+      "order": 58,
+      "titleJa": "フォールトアボイダンス",
+      "titleVi": "Phòng tránh lỗi",
+      "importance": "high",
+      "summaryJa": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。",
+      "summaryVi": "Phòng tránh lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールトアボイダンスとは",
+          "vi": "Phòng tránh lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。故障が発生した後も処理を継続するフォールトトレランスとは異なり、故障原因をできるだけ排除して発生確率を低くすることを重視する。",
+          "vi": "Phòng tránh lỗi (Fault Avoidance) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールトアボイダンス",
+          "reading": "",
+          "english": "Fault Avoidance",
+          "vi": "Phòng tránh lỗi",
+          "definitionJa": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。",
+          "definitionVi": "Phòng tránh lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fault-avoidance"]
+    },
+    {
+      "id": "fail-safe",
+      "order": 59,
+      "titleJa": "フェールセーフ",
+      "titleVi": "Fail-safe",
+      "importance": "high",
+      "summaryJa": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。",
+      "summaryVi": "Fail-safe là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フェールセーフとは",
+          "vi": "Fail-safe là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。例えば、鉄道信号で故障時に停止を示す、機械の異常時に自動停止するなどが該当する。処理の継続よりも人命や設備の安全を優先する点が重要である。",
+          "vi": "Fail-safe (Fail-Safe) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "故障時に安全側へ移行する。サービス継続を優先するフェールソフトと区別する。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フェールセーフ",
+          "reading": "",
+          "english": "Fail-Safe",
+          "vi": "Fail-safe",
+          "definitionJa": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。",
+          "definitionVi": "Fail-safe: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fail-safe"]
+    },
+    {
+      "id": "fail-soft",
+      "order": 60,
+      "titleJa": "フェールソフト",
+      "titleVi": "Fail-soft",
+      "importance": "high",
+      "summaryJa": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。",
+      "summaryVi": "Fail-soft là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フェールソフトとは",
+          "vi": "Fail-soft là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。全機能を停止するのではなく、重要度の低い機能を停止したり処理能力を制限したりして、必要なサービスを維持する。安全側へ停止させるフェールセーフとは目的が異なる。",
+          "vi": "Fail-soft (Fail-Soft) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "故障時に機能や性能を縮退させながら運転を継続する。フェールセーフとの違いが頻出ポイントである。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フェールソフト",
+          "reading": "",
+          "english": "Fail-Soft",
+          "vi": "Fail-soft",
+          "definitionJa": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。",
+          "definitionVi": "Fail-soft: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "fail-soft"]
+    },
+    {
+      "id": "foolproof",
+      "order": 61,
+      "titleJa": "フールプルーフ",
+      "titleVi": "Foolproof",
+      "importance": "high",
+      "summaryJa": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。",
+      "summaryVi": "Foolproof là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フールプルーフとは",
+          "vi": "Foolproof là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。具体的には、意図しない操作や間違った使い方をしても、事故や損害が発生しにくいように設計されていることを意味する。この考え方は、特に安全が重要視される工業製品やソフトウェアにおいて広く採用されている。例えば、特定のボタンを押すためには、特定の手順を踏む必要がある設計や、誤って操作できないように物理的に形状を工夫することなどが挙げられる。フールプルーフ設計は、多くのユーザーが安心して使用できる環境を提供し、トラブルを未然に防ぐことを目的としている。",
+          "vi": "Foolproof (Foolproof) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "利用者が誤操作しても危険や重大な障害が起きにくいように設計する考え方である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フールプルーフ",
+          "reading": "",
+          "english": "Foolproof",
+          "vi": "Foolproof",
+          "definitionJa": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。",
+          "definitionVi": "Foolproof: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "foolproof"]
+    },
+    {
+      "id": "active-standby-configuration",
+      "order": 62,
+      "titleJa": "アクティブ-スタンバイ構成",
+      "titleVi": "Cấu hình Active-Standby",
+      "importance": "high",
+      "summaryJa": "システムの信頼性を高めるための設計構成の一つである。",
+      "summaryVi": "Cấu hình Active-Standby là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクティブ-スタンバイ構成とは",
+          "vi": "Cấu hình Active-Standby là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの信頼性を高めるための設計構成の一つである。この構成では、主に二つのシステムが用意され、一方は通常稼働している「アクティブ」な状態で、もう一方は待機している「スタンバイ」状態にある。アクティブなシステムに障害が発生した場合、スタンバイのシステムが即座に稼働を開始し、サービスの継続性を確保する。これにより、ダウンタイムを最小限に抑え、データ損失のリスクを減少させることが可能となる。また、定期的にスタンバイシステムをテストすることで、常に信頼性を保つことが求められるため、業務の運営において非常に重要な役割を果たしている。",
+          "vi": "Cấu hình Active-Standby (Active-Standby Configuration) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクティブ-スタンバイ構成",
+          "reading": "あくてぃぶ-すたんばいこうせい",
+          "english": "Active-Standby Configuration",
+          "vi": "Cấu hình Active-Standby",
+          "definitionJa": "システムの信頼性を高めるための設計構成の一つである。",
+          "definitionVi": "Cấu hình Active-Standby: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "active-standby-configuration"]
+    },
+    {
+      "id": "active-active-configuration",
+      "order": 63,
+      "titleJa": "アクティブ-アクティブ構成",
+      "titleVi": "Cấu hình Active-Active",
+      "importance": "high",
+      "summaryJa": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。",
+      "summaryVi": "Cấu hình Active-Active là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクティブ-アクティブ構成とは",
+          "vi": "Cấu hình Active-Active là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。具体的には、二つ以上のサーバが同時にリクエストを処理するため、もし一つのサーバが故障した場合でも、他のサーバがその役割を引き継ぎ、サービスが途切れない。その結果、システム全体のダウンタイムを最小限に抑えることが可能である。この方式は、データセンターやクラウドサービスなど、重要なインフラストラクチャに特に効果的で、ビジネスの継続性を保つために広く用いられている。",
+          "vi": "Cấu hình Active-Active (Active-Active Configuration) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
+          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクティブ-アクティブ構成",
+          "reading": "あくてぃぶ-あくてぃぶこうせい",
+          "english": "Active-Active Configuration",
+          "vi": "Cấu hình Active-Active",
+          "definitionJa": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。",
+          "definitionVi": "Cấu hình Active-Active: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        }
+      ],
+      "tags": ["system-configuration", "active-active-configuration"]
+    }
+  ]
+}

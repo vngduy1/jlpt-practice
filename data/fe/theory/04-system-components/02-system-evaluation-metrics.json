@@ -1,0 +1,1025 @@
+{
+  "id": "system-evaluation-metrics",
+  "order": 2,
+  "titleJa": "システムの評価指標",
+  "titleVi": "Các chỉ số đánh giá hệ thống",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "response-time",
+      "order": 1,
+      "titleJa": "レスポンスタイム",
+      "titleVi": "Thời gian phản hồi",
+      "importance": "high",
+      "summaryJa": "システムが入力に対して応答を返すまでの時間について理解する。",
+      "summaryVi": "Tìm hiểu về thời gian hệ thống phản hồi lại đầu vào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レスポンスタイムとは",
+          "vi": "Thời gian phản hồi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "レスポンスタイムは、システムが入力に対して応答を返すまでの時間のことを指す。具体的には、ユーザーが何かを操作した瞬間から、システムがその結果を表示するまでの時間を測定するものである。",
+          "vi": "Thời gian phản hồi là khoảng thời gian từ khi hệ thống nhận đầu vào đến khi trả về phản hồi. Cụ thể, đó là thời gian từ lúc người dùng thao tác đến khi hệ thống hiển thị kết quả."
+        },
+        {
+          "type": "paragraph",
+          "ja": "この応答時間は、ユーザーの体感速度に大きく影響し、特にインターネットサービスやアプリケーションにおいては非常に重要な性能指標となっている。例えば、Webページを開くときに表示されるまでの時間が長いと、ユーザーはストレスを感じて離脱することがある。",
+          "vi": "Thời gian phản hồi ảnh hưởng lớn đến trải nghiệm của người dùng, đặc biệt là trong các dịch vụ Internet và ứng dụng. Ví dụ, nếu thời gian tải trang web quá lâu, người dùng có thể cảm thấy căng thẳng và rời đi."
+        },
+        {
+          "type": "point",
+          "ja": "開発者はレスポンスタイムを短縮するための最適化を図ることが求められ、システムの全体的なユーザー体験の向上に寄与している。",
+          "vi": "Nhà phát triển cần tối ưu hóa để rút ngắn thời gian phản hồi, góp phần cải thiện trải nghiệm người dùng tổng thể của hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レスポンスタイム",
+          "reading": "れすぽんすたいむ",
+          "english": "Response Time",
+          "vi": "Thời gian phản hồi",
+          "definitionJa": "システムが入力に対して応答を返すまでの時間。",
+          "definitionVi": "Khoảng thời gian từ khi hệ thống nhận đầu vào đến khi trả về phản hồi."
+        }
+      ],
+      "tags": ["performance-evaluation", "response-time", "system-performance"]
+    },
+    {
+      "id": "turnaround-time",
+      "order": 2,
+      "titleJa": "ターンアラウンドタイム",
+      "titleVi": "Thời gian xoay vòng",
+      "importance": "high",
+      "summaryJa": "ある処理を開始してから完了するまでの総時間について理解する。",
+      "summaryVi": "Tìm hiểu về tổng thời gian từ khi bắt đầu đến khi hoàn thành một xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ターンアラウンドタイムとは",
+          "vi": "Thời gian xoay vòng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ターンアラウンドタイムは、ある処理を開始してから完了するまでの総時間を指すものである。この指標は、システムやプロセスへの性能を評価する際に非常に重要で、特に顧客サービスや生産性向上に関連する分野でよく用いられる。",
+          "vi": "Thời gian xoay vòng là tổng thời gian từ khi bắt đầu đến khi hoàn thành một xử lý. Chỉ số này rất quan trọng trong đánh giá hiệu năng hệ thống và quy trình, đặc biệt trong các lĩnh vực liên quan đến dịch vụ khách hàng và nâng cao năng suất."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、ユーザーがリクエストを行ってからその応答が返ってくるまでの時間や、製造業において製品が完成するまでの時間を測定することで、改善ポイントを特定できる。",
+          "vi": "Ví dụ, đo thời gian từ khi người dùng gửi yêu cầu đến khi nhận phản hồi, hoặc thời gian hoàn thành sản phẩm trong ngành sản xuất, giúp xác định điểm cần cải thiện."
+        },
+        {
+          "type": "point",
+          "ja": "適切なターンアラウンドタイムを維持することで、業務の効率化や顧客満足度の向上を図ることが可能になる。",
+          "vi": "Duy trì thời gian xoay vòng phù hợp giúp nâng cao hiệu quả công việc và cải thiện sự hài lòng của khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ターンアラウンドタイム",
+          "reading": "たーんあらうんどたいむ",
+          "english": "Turnaround Time",
+          "vi": "Thời gian xoay vòng",
+          "definitionJa": "ある処理を開始してから完了するまでの総時間。",
+          "definitionVi": "Tổng thời gian từ khi bắt đầu đến khi hoàn thành một xử lý."
+        }
+      ],
+      "tags": [
+        "performance-evaluation",
+        "turnaround-time",
+        "system-performance"
+      ]
+    },
+    {
+      "id": "throughput",
+      "order": 3,
+      "titleJa": "スループット",
+      "titleVi": "Thông lượng",
+      "importance": "high",
+      "summaryJa": "システムが単位時間あたりに処理できるデータ量や作業の量について理解する。",
+      "summaryVi": "Tìm hiểu về lượng dữ liệu hoặc công việc hệ thống có thể xử lý trong một đơn vị thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スループットとは",
+          "vi": "Thông lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スループットは、システムが単位時間あたりに処理できるデータ量や作業の量を示す指標である。具体的には、ネットワークの通信速度やデータベースのクエリ処理能力など、さまざまなシステム性能の評価に利用される。",
+          "vi": "Thông lượng là chỉ số cho biết lượng dữ liệu hoặc công việc mà hệ thống có thể xử lý trong một đơn vị thời gian. Nó được sử dụng để đánh giá hiệu năng của nhiều hệ thống khác nhau, như tốc độ mạng hay khả năng xử lý truy vấn cơ sở dữ liệu."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、1秒間に1000件のトランザクションを処理できるシステムは、スループットが1000トランザクション／秒（TPS）と表現される。",
+          "vi": "Ví dụ, một hệ thống có thể xử lý 1000 giao dịch mỗi giây được biểu thị là thông lượng 1000 giao dịch/giây (TPS)."
+        },
+        {
+          "type": "point",
+          "ja": "適切なスループットを維持することで、ユーザーに快適な体験を提供することが可能となる。スループットを向上させるためには、ハードウェアの強化やアルゴリズムの最適化などの工夫が求められる。",
+          "vi": "Duy trì thông lượng phù hợp giúp mang lại trải nghiệm thoải mái cho người dùng. Để cải thiện thông lượng, cần tăng cường phần cứng hoặc tối ưu hóa thuật toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スループット",
+          "reading": "するーぷっと",
+          "english": "Throughput",
+          "vi": "Thông lượng",
+          "definitionJa": "システムが単位時間あたりに処理できるデータ量や作業の量。",
+          "definitionVi": "Lượng dữ liệu hoặc công việc mà hệ thống có thể xử lý trong một đơn vị thời gian."
+        }
+      ],
+      "tags": ["performance-evaluation", "throughput", "system-performance"]
+    },
+    {
+      "id": "benchmark",
+      "order": 4,
+      "titleJa": "ベンチマーク",
+      "titleVi": "Điểm chuẩn",
+      "importance": "high",
+      "summaryJa": "システムの性能特性を測定し、評価するための基準や手法について理解する。",
+      "summaryVi": "Tìm hiểu về tiêu chuẩn và phương pháp đo lường, đánh giá đặc tính hiệu năng của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベンチマークとは",
+          "vi": "Điểm chuẩn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ベンチマークは、システムの性能特性を測定し、評価するための基準や手法を指す。具体的には、コンピュータやソフトウェアの動作を定量的に評価するために、特定のテストや基準となるデータを用いる。",
+          "vi": "Điểm chuẩn là tiêu chuẩn hoặc phương pháp để đo lường và đánh giá đặc tính hiệu năng của hệ thống. Cụ thể, sử dụng các bài kiểm tra hoặc dữ liệu chuẩn để đánh giá định lượng hoạt động của máy tính và phần mềm."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、プロセッサの処理速度やメモリの使用効率などが通常ベンチマークテストによって測定される。この結果を用いて、異なるシステムや機器の性能を比較することが可能で、最適な選択を行う際に非常に役立つ。",
+          "vi": "Ví dụ, tốc độ xử lý của bộ vi xử lý hay hiệu suất sử dụng bộ nhớ thường được đo bằng bài kiểm tra điểm chuẩn. Kết quả này giúp so sánh hiệu năng giữa các hệ thống và thiết bị khác nhau, rất hữu ích cho việc lựa chọn tối ưu."
+        },
+        {
+          "type": "point",
+          "ja": "ベンチマークは技術の進歩や性能改善の指標ともなるため、研究開発や製品評価において重要な役割を果たしている。",
+          "vi": "Điểm chuẩn cũng là chỉ số cho sự tiến bộ công nghệ và cải thiện hiệu năng, đóng vai trò quan trọng trong nghiên cứu phát triển và đánh giá sản phẩm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベンチマーク",
+          "reading": "べんちまーく",
+          "english": "Benchmark",
+          "vi": "Điểm chuẩn",
+          "definitionJa": "システムの性能特性を測定し、評価するための基準や手法。",
+          "definitionVi": "Tiêu chuẩn hoặc phương pháp để đo lường và đánh giá đặc tính hiệu năng của hệ thống."
+        }
+      ],
+      "tags": ["performance-evaluation", "benchmark", "system-performance"]
+    },
+    {
+      "id": "tpc",
+      "order": 5,
+      "titleJa": "TPC",
+      "titleVi": "TPC (Transaction Processing Performance Council)",
+      "importance": "medium",
+      "summaryJa": "システムの性能特性と評価を行うための団体であるTPCについて理解する。",
+      "summaryVi": "Tìm hiểu về TPC, tổ chức đánh giá và đo lường hiệu năng hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TPCとは",
+          "vi": "TPC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TPC（Transaction Processing Performance Council）は、システムの性能特性と評価を行うための団体である。この団体は、データベースやコンピュータシステムの処理能力を測定するための標準的なベンチマークを策定し、企業がシステムの性能を比較しやすくすることを目的としている。",
+          "vi": "TPC (Transaction Processing Performance Council) là tổ chức đánh giá và đo lường hiệu năng hệ thống. Tổ chức này xây dựng các điểm chuẩn tiêu chuẩn để đo lường khả năng xử lý của cơ sở dữ liệu và hệ thống máy tính, nhằm giúp các doanh nghiệp dễ dàng so sánh hiệu năng hệ thống."
+        },
+        {
+          "type": "paragraph",
+          "ja": "具体的には、データベースにおけるトランザクション性能を測定し、それを基にした収集データや評価結果を公表する。これにより、企業は自社のシステム性能を他社と比較したり、導入を検討する際の参考材料とすることができる。",
+          "vi": "Cụ thể, tổ chức này đo lường hiệu năng xử lý giao dịch cơ sở dữ liệu và công bố dữ liệu thu thập cùng kết quả đánh giá dựa trên đó. Nhờ vậy, doanh nghiệp có thể so sánh hiệu năng hệ thống của mình với đối thủ hoặc sử dụng làm tài liệu tham khảo khi xem xét triển khai."
+        },
+        {
+          "type": "point",
+          "ja": "TPCが提供するベンチマークは、システムの性能を客観的に評価するための指標として広く認知されており、業界での信頼性を持つ。",
+          "vi": "Các điểm chuẩn do TPC cung cấp được công nhận rộng rãi như một chỉ số để đánh giá hiệu năng hệ thống một cách khách quan và có độ tin cậy trong ngành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TPC",
+          "reading": "てぃーびーしー",
+          "english": "Transaction Processing Performance Council",
+          "vi": "Hội đồng Đo lường Hiệu năng Xử lý Giao dịch",
+          "definitionJa": "システムの性能特性と評価を行うための団体。データベースやコンピュータシステムの処理能力を測定するための標準的なベンチマークを策定する。",
+          "definitionVi": "Tổ chức đánh giá và đo lường hiệu năng hệ thống. Xây dựng các điểm chuẩn tiêu chuẩn để đo lường khả năng xử lý của cơ sở dữ liệu và hệ thống máy tính."
+        }
+      ],
+      "tags": ["performance-evaluation", "benchmark", "tpc"]
+    },
+    {
+      "id": "specint",
+      "order": 6,
+      "titleJa": "SPECint",
+      "titleVi": "SPECint (Standard Performance Evaluation Corporation Integer)",
+      "importance": "medium",
+      "summaryJa": "システムの整数計算性能を測定するベンチマークであるSPECintについて理解する。",
+      "summaryVi": "Tìm hiểu về SPECint, điểm chuẩn đo hiệu năng tính toán số nguyên của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SPECintとは",
+          "vi": "SPECint là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SPECint（Standard Performance Evaluation Corporation Integer）は、システムの性能を測定するためのベンチマークの一つである。主に整数計算性能を評価するものであり、特定のプログラムを実行して、その処理速度を数値で示す。",
+          "vi": "SPECint (Standard Performance Evaluation Corporation Integer) là một điểm chuẩn để đo hiệu năng hệ thống. Nó chủ yếu đánh giá hiệu năng tính toán số nguyên, bằng cách chạy các chương trình cụ thể và thể hiện tốc độ xử lý bằng con số."
+        },
+        {
+          "type": "paragraph",
+          "ja": "これにより、異なるコンピュータやプロセッサの性能を比較することができ、消費者や企業が適切なハードウェア選定を行う際に役立つ。",
+          "vi": "Nhờ đó, có thể so sánh hiệu năng giữa các máy tính và bộ vi xử lý khác nhau, giúp người tiêu dùng và doanh nghiệp lựa chọn phần cứng phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "SPECintの結果は、企業のサーバやデスクトップ環境における性能特性を理解するのに有用である。",
+          "vi": "Kết quả SPECint hữu ích để hiểu đặc tính hiệu năng trong môi trường máy chủ và máy tính để bàn của doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SPECint",
+          "reading": "すべっくいんと",
+          "english": "Standard Performance Evaluation Corporation Integer",
+          "vi": "Điểm chuẩn đánh giá hiệu năng số nguyên của SPEC",
+          "definitionJa": "システムの整数計算性能を測定するためのベンチマーク。特定のプログラムを実行して処理速度を数値で示す。",
+          "definitionVi": "Điểm chuẩn đo hiệu năng tính toán số nguyên của hệ thống. Chạy các chương trình cụ thể và thể hiện tốc độ xử lý bằng con số."
+        }
+      ],
+      "tags": ["performance-evaluation", "benchmark", "specint"]
+    },
+    {
+      "id": "specfp",
+      "order": 7,
+      "titleJa": "SPECfp",
+      "titleVi": "SPECfp (System Performance Evaluation Coefficient - Floating Point)",
+      "importance": "medium",
+      "summaryJa": "システムの浮動小数点演算性能を測定するベンチマークであるSPECfpについて理解する。",
+      "summaryVi": "Tìm hiểu về SPECfp, điểm chuẩn đo hiệu năng tính toán dấu phẩy động của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SPECfpとは",
+          "vi": "SPECfp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SPECfp（System Performance Evaluation Coefficient - Floating Point）は、コンピュータシステムの性能を評価するための基準であり、特に浮動小数点演算の性能を測定するために利用される。SPECという団体が開発したベンチマークテストを用いて、各種コンピュータやプロセッサの計算能力を比較する際に役立つ。",
+          "vi": "SPECfp (System Performance Evaluation Coefficient - Floating Point) là tiêu chuẩn đánh giá hiệu năng của hệ thống máy tính, đặc biệt được sử dụng để đo hiệu năng tính toán dấu phẩy động. Sử dụng bài kiểm tra điểm chuẩn do tổ chức SPEC phát triển, giúp so sánh khả năng tính toán của các máy tính và bộ vi xử lý khác nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "このテストは、科学技術計算やエンジニアリングにおいて重要な役割を果たす浮動小数点演算の処理速度を評価するものであり、性能スコアを算出することで製品選定の指標となる。",
+          "vi": "Bài kiểm tra này đánh giá tốc độ xử lý phép toán dấu phẩy động - vốn đóng vai trò quan trọng trong tính toán khoa học kỹ thuật, và tính điểm hiệu năng làm chỉ số cho việc lựa chọn sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "SPECfpの結果は、コンピュータの性能評価や選定において信頼性の高い情報を提供し、ユーザーが自らのニーズに合ったシステムを選ぶ際の参考となる。",
+          "vi": "Kết quả SPECfp cung cấp thông tin đáng tin cậy trong đánh giá và lựa chọn máy tính, giúp người dùng chọn hệ thống phù hợp với nhu cầu của mình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SPECfp",
+          "reading": "すべっくえぶぴー",
+          "english": "System Performance Evaluation Coefficient - Floating Point",
+          "vi": "Điểm chuẩn đánh giá hiệu năng dấu phẩy động của SPEC",
+          "definitionJa": "コンピュータシステムの浮動小数点演算性能を測定するためのベンチマーク。",
+          "definitionVi": "Điểm chuẩn đo hiệu năng tính toán dấu phẩy động của hệ thống máy tính."
+        }
+      ],
+      "tags": ["performance-evaluation", "benchmark", "specfp"]
+    },
+    {
+      "id": "monitoring",
+      "order": 8,
+      "titleJa": "モニタリング",
+      "titleVi": "Giám sát",
+      "importance": "high",
+      "summaryJa": "システムの性能特性を観察し、評価するための手法であるモニタリングについて理解する。",
+      "summaryVi": "Tìm hiểu về giám sát, phương pháp quan sát và đánh giá đặc tính hiệu năng hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モニタリングとは",
+          "vi": "Giám sát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モニタリングは、システムの性能特性を観察し、評価するための手法である。このプロセスでは、システムの動作状況や効率性、信頼性などを定期的に監視し、正確なデータを収集することで、予期しない問題の発見や改善点の特定を目指す。",
+          "vi": "Giám sát là phương pháp quan sát và đánh giá đặc tính hiệu năng của hệ thống. Quá trình này giám sát định kỳ tình trạng hoạt động, hiệu quả và độ tin cậy của hệ thống, thu thập dữ liệu chính xác để phát hiện sự cố bất ngờ và xác định điểm cải thiện."
+        },
+        {
+          "type": "paragraph",
+          "ja": "具体例としては、サーバのCPU使用率やメモリ使用量、ネットワークのトラフィック状況などが挙げられる。これらの情報を分析することで、システムの最適化やリソースの適切な配分が可能になり、全体的なパフォーマンス向上が図れる。",
+          "vi": "Ví dụ cụ thể bao gồm tỷ lệ sử dụng CPU của máy chủ, lượng bộ nhớ sử dụng, tình trạng lưu lượng mạng. Phân tích thông tin này giúp tối ưu hóa hệ thống và phân bổ tài nguyên phù hợp, nâng cao hiệu năng tổng thể."
+        },
+        {
+          "type": "point",
+          "ja": "トラブル発生時には迅速な対応が求められるため、モニタリングは運用の安定性を保つために欠かせない要素である。",
+          "vi": "Khi sự cố xảy ra, cần phản ứng nhanh chóng, do đó giám sát là yếu tố không thể thiếu để duy trì sự ổn định vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モニタリング",
+          "reading": "もにたりんぐ",
+          "english": "Monitoring",
+          "vi": "Giám sát",
+          "definitionJa": "システムの性能特性を観察し、評価するための手法。定期的に監視してデータを収集し、問題発見や改善点特定を目指す。",
+          "definitionVi": "Phương pháp quan sát và đánh giá đặc tính hiệu năng hệ thống. Giám sát định kỳ và thu thập dữ liệu để phát hiện sự cố và xác định điểm cải thiện."
+        }
+      ],
+      "tags": ["performance-evaluation", "monitoring", "system-management"]
+    },
+    {
+      "id": "capacity-planning",
+      "order": 9,
+      "titleJa": "キャパシティプランニング",
+      "titleVi": "Lập kế hoạch năng lực",
+      "importance": "high",
+      "summaryJa": "システムやサービスが必要とするリソースの容量を予測し、計画するプロセスについて理解する。",
+      "summaryVi": "Tìm hiểu về quy trình dự đoán và lập kế hoạch dung lượng tài nguyên cần thiết cho hệ thống hoặc dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キャパシティプランニングとは",
+          "vi": "Lập kế hoạch năng lực là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "キャパシティプランニングは、システムやサービスが必要とするリソースの容量を予測し、計画するプロセスである。これは、システムが将来的にどれだけのユーザーやデータを処理できるかを評価し、適切なハードウェアやソフトウェアのリソースを確保するために行われる。",
+          "vi": "Lập kế hoạch năng lực là quy trình dự đoán và lập kế hoạch dung lượng tài nguyên cần thiết cho hệ thống hoặc dịch vụ. Điều này được thực hiện để đánh giá khả năng xử lý người dùng và dữ liệu trong tương lai, đảm bảo tài nguyên phần cứng và phần mềm phù hợp."
+        },
+        {
+          "type": "paragraph",
+          "ja": "また、新たなビジネスニーズや急なトラフィックの増加に対応するための準備にも役立つ。例えば、あるWebサービスが成長する見込みがあるとき、アクセスが増えた際にも快適に利用できるように、サーバの増設やデータベースのチューニングを行うことが求められる。",
+          "vi": "Nó cũng giúp chuẩn bị cho nhu cầu kinh doanh mới hoặc lưu lượng tăng đột biến. Ví dụ, khi một dịch vụ Web có khả năng phát triển, cần tăng cường máy chủ hoặc tối ưu hóa cơ sở dữ liệu để duy trì trải nghiệm thoải mái khi truy cập tăng."
+        },
+        {
+          "type": "point",
+          "ja": "これにより、ユーザーの満足度を保ちつつ、コストの最適化も図ることができる。",
+          "vi": "Nhờ đó vừa duy trì sự hài lòng của người dùng, vừa tối ưu hóa chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キャパシティプランニング",
+          "reading": "きゃぱしてぃぷらんにんぐ",
+          "english": "Capacity Planning",
+          "vi": "Lập kế hoạch năng lực",
+          "definitionJa": "システムやサービスが必要とするリソースの容量を予測し、計画するプロセス。",
+          "definitionVi": "Quy trình dự đoán và lập kế hoạch dung lượng tài nguyên cần thiết cho hệ thống hoặc dịch vụ."
+        }
+      ],
+      "tags": ["capacity-planning", "resource-management", "system-management"]
+    },
+    {
+      "id": "sizing",
+      "order": 10,
+      "titleJa": "サイジング",
+      "titleVi": "Định cỡ",
+      "importance": "medium",
+      "summaryJa": "システムやネットワーク、アプリケーションの性能や容量を予測し、適切なリソースを提供するための過程について理解する。",
+      "summaryVi": "Tìm hiểu về quy trình dự đoán hiệu năng và dung lượng của hệ thống, mạng, ứng dụng để cung cấp tài nguyên phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイジングとは",
+          "vi": "Định cỡ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サイジングは、システムやネットワーク、アプリケーションの性能や容量を予測し、適切なリソースを提供するための過程を指す。特にキャパシティプランニングにおいて重要なこと、将来の利用状況を考慮して、必要なハードウェアやソフトウェアのサイズを決定する。",
+          "vi": "Định cỡ là quy trình dự đoán hiệu năng và dung lượng của hệ thống, mạng, ứng dụng để cung cấp tài nguyên phù hợp. Đặc biệt quan trọng trong lập kế hoạch năng lực, xem xét tình hình sử dụng trong tương lai để xác định kích thước phần cứng và phần mềm cần thiết."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、特定の業務が求められるトラフィックやデータ量をもとに、サーバやストレージのスペックを見積もり、パフォーマンスの劣化を防ぐことができる。",
+          "vi": "Ví dụ, dựa trên lưu lượng và khối lượng dữ liệu mà công việc cụ thể yêu cầu, có thể ước tính thông số máy chủ và lưu trữ để ngăn chặn suy giảm hiệu năng."
+        },
+        {
+          "type": "point",
+          "ja": "適切なサイジングによって、無駄なコストを抑えつつ、安定したシステム運用を実現することが可能になる。",
+          "vi": "Định cỡ phù hợp giúp giảm chi phí lãng phí đồng thời đạt được vận hành hệ thống ổn định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイジング",
+          "reading": "さいじんぐ",
+          "english": "Sizing",
+          "vi": "Định cỡ",
+          "definitionJa": "システムやネットワーク、アプリケーションの性能や容量を予測し、適切なリソースを提供するための過程。",
+          "definitionVi": "Quy trình dự đoán hiệu năng và dung lượng của hệ thống, mạng, ứng dụng để cung cấp tài nguyên phù hợp."
+        }
+      ],
+      "tags": ["capacity-planning", "sizing", "resource-management"]
+    },
+    {
+      "id": "scale-out",
+      "order": 11,
+      "titleJa": "スケールアウト",
+      "titleVi": "Mở rộng ngang",
+      "importance": "high",
+      "summaryJa": "複数のコンピュータやサーバを追加してシステムの処理能力を増加させる手法について理解する。",
+      "summaryVi": "Tìm hiểu về phương pháp tăng khả năng xử lý của hệ thống bằng cách thêm nhiều máy tính hoặc máy chủ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スケールアウトとは",
+          "vi": "Mở rộng ngang là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スケールアウトは、システムの処理能力やストレージ容量を増加させるために、複数のコンピュータやサーバを追加する手法である。これは、一台のサーバの性能を向上させる「スケールアップ」に対する考え方であり、特に大規模なデータ処理やトラフィックの増加に対応する際に有効である。",
+          "vi": "Mở rộng ngang là phương pháp thêm nhiều máy tính hoặc máy chủ để tăng khả năng xử lý và dung lượng lưu trữ của hệ thống. Đây là cách tiếp cận trái ngược với 'mở rộng dọc' (nâng cấp một máy chủ), đặc biệt hiệu quả khi xử lý dữ liệu lớn hoặc lưu lượng tăng."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、Webサービスが急激に利用者を増やした場合、単にサーバの性能を上げるのではなく、さらに多くのサーバを追加して負荷を分散させることで、安定したサービスを提供できる。",
+          "vi": "Ví dụ, khi một dịch vụ Web tăng đột biến người dùng, thay vì chỉ nâng cấp máy chủ, có thể thêm nhiều máy chủ để phân tán tải, cung cấp dịch vụ ổn định."
+        },
+        {
+          "type": "point",
+          "ja": "これにより、障害時の耐障害性も向上し、全体の可用性が高まるメリットがある。",
+          "vi": "Điều này cũng cải thiện khả năng chịu lỗi và tăng tính sẵn sàng tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スケールアウト",
+          "reading": "すけーるあうと",
+          "english": "Scale Out",
+          "vi": "Mở rộng ngang",
+          "definitionJa": "複数のコンピュータやサーバを追加してシステムの処理能力やストレージ容量を増加させる手法。",
+          "definitionVi": "Phương pháp thêm nhiều máy tính hoặc máy chủ để tăng khả năng xử lý và dung lượng lưu trữ của hệ thống."
+        }
+      ],
+      "tags": ["scalability", "scale-out", "system-architecture"]
+    },
+    {
+      "id": "scale-up",
+      "order": 12,
+      "titleJa": "スケールアップ",
+      "titleVi": "Mở rộng dọc",
+      "importance": "high",
+      "summaryJa": "既存のサーバやコンピュータの性能を強化して処理能力を向上させる手法について理解する。",
+      "summaryVi": "Tìm hiểu về phương pháp tăng cường hiệu năng của máy chủ hoặc máy tính hiện có để cải thiện khả năng xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スケールアップとは",
+          "vi": "Mở rộng dọc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スケールアップは、システムやサービスの処理能力を向上させるために、既存のサーバやコンピュータの性能を強化する手法である。具体的には、CPUやメモリ、ストレージなどのハードウェアを追加・交換することで、より多くのユーザーやデータを処理できるようになる。",
+          "vi": "Mở rộng dọc là phương pháp nâng cấp hiệu năng của máy chủ hoặc máy tính hiện có để cải thiện khả năng xử lý của hệ thống hoặc dịch vụ. Cụ thể, thêm hoặc thay thế phần cứng như CPU, bộ nhớ, lưu trữ để xử lý được nhiều người dùng và dữ liệu hơn."
+        },
+        {
+          "type": "paragraph",
+          "ja": "この手法は、システムの容量が不足している場合や、急激な需要の増加に対処する際に有効である。たとえば、オンラインストアが一時的にトラフィックが増加する時期に、より強力なサーバに移行することで、スムーズなサービス提供を維持することができる。",
+          "vi": "Phương pháp này hiệu quả khi dung lượng hệ thống không đủ hoặc cần đối phó với nhu cầu tăng đột biến. Ví dụ, cửa hàng trực tuyến có thể chuyển sang máy chủ mạnh hơn trong thời gian lưu lượng tăng để duy trì dịch vụ mượt mà."
+        },
+        {
+          "type": "point",
+          "ja": "スケールアップは比較的簡単に実施できるが、限界があるため、将来的にはスケールアウトと呼ばれる別の方法も考慮する必要がある。",
+          "vi": "Mở rộng dọc tương đối dễ thực hiện nhưng có giới hạn, do đó cần cân nhắc phương pháp mở rộng ngang trong tương lai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スケールアップ",
+          "reading": "すけーるあっぷ",
+          "english": "Scale Up",
+          "vi": "Mở rộng dọc",
+          "definitionJa": "既存のサーバやコンピュータの性能を強化することでシステムの処理能力を向上させる手法。",
+          "definitionVi": "Phương pháp tăng cường hiệu năng của máy chủ hoặc máy tính hiện có để cải thiện khả năng xử lý của hệ thống."
+        }
+      ],
+      "tags": ["scalability", "scale-up", "system-architecture"]
+    },
+    {
+      "id": "capacity-management",
+      "order": 13,
+      "titleJa": "容量・能力管理",
+      "titleVi": "Quản lý năng lực/dung lượng",
+      "importance": "high",
+      "summaryJa": "ITシステムやサービスが必要とするリソースの量やコストを適切に把握し、最適化するプロセスについて理解する。",
+      "summaryVi": "Tìm hiểu về quy trình nắm bắt và tối ưu hóa lượng tài nguyên và chi phí cần thiết cho hệ thống và dịch vụ IT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "容量・能力管理とは",
+          "vi": "Quản lý năng lực/dung lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "容量・能力管理（Capacity Management）は、ITシステムやサービスが必要とするリソースの量やコストを適切に把握し、将来の需要を予測して最適化するプロセスである。これにより、システムが高いパフォーマンスを維持しつつ、必要以上のリソースを確保することなく、効率的な運用が可能になる。",
+          "vi": "Quản lý năng lực/dung lượng (Capacity Management) là quy trình nắm bắt một cách thích hợp lượng tài nguyên và chi phí cần thiết cho hệ thống và dịch vụ IT, dự đoán nhu cầu tương lai và tối ưu hóa. Nhờ đó, hệ thống duy trì hiệu năng cao mà không cần đảm bảo tài nguyên vượt mức, cho phép vận hành hiệu quả."
+        },
+        {
+          "type": "paragraph",
+          "ja": "たとえば、Webサービスの急激なユーザー増加に備えて、サーバの追加やストレージ容量の増設を行うことが含まれる。",
+          "vi": "Ví dụ, chuẩn bị cho sự tăng đột biến người dùng của dịch vụ Web bằng cách thêm máy chủ hoặc tăng dung lượng lưu trữ."
+        },
+        {
+          "type": "point",
+          "ja": "サービスの稼働率やコスト削減にも寄与し、安定したサービス提供を実現するための重要な手法である。",
+          "vi": "Góp phần vào tỷ lệ hoạt động và giảm chi phí của dịch vụ, là phương pháp quan trọng để đạt được cung cấp dịch vụ ổn định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "容量・能力管理",
+          "reading": "ようりょう・のうりょくかんり",
+          "english": "Capacity Management",
+          "vi": "Quản lý năng lực/dung lượng",
+          "definitionJa": "ITシステムやサービスが必要とするリソースの量やコストを把握し、将来の需要を予測して最適化するプロセス。",
+          "definitionVi": "Quy trình nắm bắt lượng tài nguyên và chi phí cần thiết cho hệ thống và dịch vụ IT, dự đoán nhu cầu tương lai và tối ưu hóa."
+        }
+      ],
+      "tags": [
+        "capacity-management",
+        "resource-management",
+        "system-management"
+      ]
+    },
+    {
+      "id": "provisioning",
+      "order": 14,
+      "titleJa": "プロビジョニング",
+      "titleVi": "Cung cấp tài nguyên",
+      "importance": "medium",
+      "summaryJa": "ITシステムにおいて必要なリソースを事前に準備または割り当てるプロセスについて理解する。",
+      "summaryVi": "Tìm hiểu về quy trình chuẩn bị hoặc phân bổ trước các tài nguyên cần thiết trong hệ thống IT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロビジョニングとは",
+          "vi": "Cung cấp tài nguyên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロビジョニングは、ITシステムにおいて必要なリソース、例えばサーバやストレージ、ネットワーク設定などを事前に準備または割り当てるプロセスを指す。この活動は、特にクラウドコンピューティングの環境や大規模なITインフラにおいて重要で、システムが必要とするリソースを迅速に整え、運用を円滑に進めるために行われる。",
+          "vi": "Cung cấp tài nguyên là quy trình chuẩn bị hoặc phân bổ trước các tài nguyên cần thiết trong hệ thống IT, như máy chủ, lưu trữ, cấu hình mạng. Hoạt động này đặc biệt quan trọng trong môi trường điện toán đám mây và cơ sở hạ tầng IT lớn, nhằm nhanh chóng sắp xếp tài nguyên để vận hành trơn tru."
+        },
+        {
+          "type": "paragraph",
+          "ja": "効率的なキャパシティプランニングに寄与し、予想される需要に応じてリソースを調整・管理することによって、システムの性能や可用性を高める役割を果たす。",
+          "vi": "Góp phần vào lập kế hoạch năng lực hiệu quả, điều chỉnh và quản lý tài nguyên theo nhu cầu dự kiến, nâng cao hiệu năng và tính sẵn sàng của hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "例えば、新しいサービスを提供する際には、ユーザー数の増加を見越して必要なサーバを事前に準備することで、サービス開始時に問題が起こりにくくする。",
+          "vi": "Ví dụ, khi cung cấp dịch vụ mới, chuẩn bị trước máy chủ cần thiết dựa trên dự kiến tăng người dùng giúp giảm sự cố khi khởi động dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロビジョニング",
+          "reading": "ぷろびじょにんぐ",
+          "english": "Provisioning",
+          "vi": "Cung cấp tài nguyên",
+          "definitionJa": "ITシステムにおいて必要なリソースを事前に準備または割り当てるプロセス。",
+          "definitionVi": "Quy trình chuẩn bị hoặc phân bổ trước các tài nguyên cần thiết trong hệ thống IT."
+        }
+      ],
+      "tags": ["provisioning", "resource-management", "cloud-computing"]
+    },
+    {
+      "id": "rasis",
+      "order": 15,
+      "titleJa": "RASIS",
+      "titleVi": "RASIS (Độ tin cậy, Tính sẵn sàng, Khả năng bảo trì, Tính toàn vẹn, Bảo mật)",
+      "importance": "high",
+      "summaryJa": "システムやサービスの信頼性と運用の質を評価するための指標であるRASISについて理解する。",
+      "summaryVi": "Tìm hiểu về RASIS, chỉ số đánh giá độ tin cậy và chất lượng vận hành của hệ thống và dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RASISとは",
+          "vi": "RASIS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "RASISは、システムやサービスの信頼性と運用の質を評価するための指標である。これらの5つの要素、すなわち信頼性（Reliability）、可用性（Availability）、保守性（Serviceability）、完全性（Integrity）、セキュリティ（Security）は、それぞれが異なる側面からシステムの性能を測る役割を果たす。",
+          "vi": "RASIS là chỉ số đánh giá độ tin cậy và chất lượng vận hành của hệ thống và dịch vụ. Năm yếu tố này - Độ tin cậy (Reliability), Tính sẵn sàng (Availability), Khả năng bảo trì (Serviceability), Tính toàn vẹn (Integrity), và Bảo mật (Security) - mỗi yếu tố đóng vai trò đo lường hiệu năng hệ thống từ các khía cạnh khác nhau."
+        },
+        {
+          "type": "paragraph",
+          "ja": "信頼性は、システムが正常に機能し続ける能力を示し、可用性は必要なときにシステムが利用可能であるかどうかを示す。保守性は、システムの管理や修理がどれだけ容易かを評価し、完全性はデータの正確性や一貫性を確保する能力を示す。そして、セキュリティは情報を外部からの脅威から守る能力を意味する。",
+          "vi": "Độ tin cậy thể hiện khả năng hệ thống tiếp tục hoạt động bình thường. Tính sẵn sàng cho biết hệ thống có sẵn sàng khi cần không. Khả năng bảo trì đánh giá mức độ dễ dàng quản lý và sửa chữa. Tính toàn vẹn thể hiện khả năng đảm bảo độ chính xác và nhất quán của dữ liệu. Bảo mật có nghĩa là khả năng bảo vệ thông tin khỏi các mối đe dọa từ bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "これらの要素は相互に関連し合い、システム全体の品質を向上させるために重要である。",
+          "vi": "Các yếu tố này có liên quan lẫn nhau và quan trọng để cải thiện chất lượng tổng thể của hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RASIS",
+          "reading": "れいしす",
+          "english": "RASIS",
+          "vi": "Bộ chỉ số RASIS",
+          "definitionJa": "システムやサービスの信頼性と運用の質を評価するための指標。信頼性、可用性、保守性、完全性、セキュリティの5要素からなる。",
+          "definitionVi": "Chỉ số đánh giá độ tin cậy và chất lượng vận hành của hệ thống và dịch vụ. Gồm 5 yếu tố: Độ tin cậy, Tính sẵn sàng, Khả năng bảo trì, Tính toàn vẹn, Bảo mật."
+        }
+      ],
+      "tags": ["rasis", "reliability", "system-quality"]
+    },
+    {
+      "id": "mtbf",
+      "order": 16,
+      "titleJa": "MTBF",
+      "titleVi": "MTBF (Mean Time Between Failures)",
+      "importance": "high",
+      "summaryJa": "機器やシステムの信頼性を評価する指標であるMTBFについて理解する。",
+      "summaryVi": "Tìm hiểu về MTBF, chỉ số đánh giá độ tin cậy của thiết bị và hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MTBFとは",
+          "vi": "MTBF là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MTBF（Mean Time Between Failures）は、機器やシステムの信頼性を評価する指標の一つである。具体的には、故障と故障の間に稼働している平均時間を示すもので、通常は時間単位で表される。",
+          "vi": "MTBF (Mean Time Between Failures) là một chỉ số đánh giá độ tin cậy của thiết bị và hệ thống. Cụ thể, nó cho biết thời gian hoạt động trung bình giữa các lần hỏng hóc, thường được biểu thị bằng đơn vị thời gian."
+        },
+        {
+          "type": "paragraph",
+          "ja": "MTBFが高いほど、システムや機器が安定して動作することを意味し、メンテナンスや運用効率の向上に寄与する。例えば、工場の生産ラインで使用される機械のMTBFが長ければ、故障による生産の停止が少なくなり、全体の生産性が向上する。",
+          "vi": "MTBF càng cao có nghĩa là hệ thống hoặc thiết bị hoạt động càng ổn định, góp phần cải thiện bảo trì và hiệu quả vận hành. Ví dụ, nếu MTBF của máy móc trong dây chuyền sản xuất dài, thời gian ngừng sản xuất do hỏng hóc sẽ ít hơn, nâng cao năng suất tổng thể."
+        },
+        {
+          "type": "point",
+          "ja": "この指標は、信頼性工学や保守管理において非常に重要であり、設計段階から運用管理まで幅広く活用される。",
+          "vi": "Chỉ số này rất quan trọng trong kỹ thuật độ tin cậy và quản lý bảo trì, được sử dụng rộng rãi từ giai đoạn thiết kế đến quản lý vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MTBF",
+          "reading": "えむていーびーえふ",
+          "english": "Mean Time Between Failures",
+          "vi": "Thời gian trung bình giữa các lần hỏng hóc",
+          "definitionJa": "機器やシステムの故障と故障の間に稼働している平均時間を示す信頼性評価指標。",
+          "definitionVi": "Chỉ số đánh giá độ tin cậy cho biết thời gian hoạt động trung bình giữa các lần hỏng hóc của thiết bị và hệ thống."
+        }
+      ],
+      "tags": ["reliability", "mtbf", "system-maintenance"]
+    },
+    {
+      "id": "mttr",
+      "order": 17,
+      "titleJa": "MTTR",
+      "titleVi": "MTTR (Mean Time to Repair)",
+      "importance": "high",
+      "summaryJa": "システムや機器が故障した際、修理に要する平均的な時間を示すMTTRについて理解する。",
+      "summaryVi": "Tìm hiểu về MTTR, thời gian sửa chữa trung bình khi hệ thống hoặc thiết bị gặp sự cố.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MTTRとは",
+          "vi": "MTTR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MTTR（Mean Time to Repair）は、システムや機器が故障した際、修理に要する平均的な時間のことである。これは、信頼性工学において非常に重要な指標であり、トラブル発生時の対応能力を示す。",
+          "vi": "MTTR (Mean Time to Repair) là thời gian sửa chữa trung bình khi hệ thống hoặc thiết bị gặp sự cố. Đây là chỉ số rất quan trọng trong kỹ thuật độ tin cậy, thể hiện khả năng ứng phó khi sự cố xảy ra."
+        },
+        {
+          "type": "paragraph",
+          "ja": "具体的には、サーバがダウンした場合に、問題を特定して修理するまでの時間を平均して算出するものである。MTTRが短いほど、システムの復旧が早く、ビジネスの安定性を保つことができる。",
+          "vi": "Cụ thể, khi máy chủ gặp sự cố, tính trung bình thời gian từ khi xác định vấn đề đến khi sửa chữa hoàn tất. MTTR càng ngắn, hệ thống phục hồi càng nhanh, giữ được sự ổn định cho doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "企業ではこの指標を分析することで、設備の保守や運用体制を見直し、より効率的な運用を目指すことが求められている。MTTRの管理は、コスト削減や顧客満足度向上にもつながる。",
+          "vi": "Doanh nghiệp phân tích chỉ số này để xem xét lại bảo trì thiết bị và hệ thống vận hành, hướng tới vận hành hiệu quả hơn. Quản lý MTTR cũng góp phần giảm chi phí và nâng cao sự hài lòng của khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MTTR",
+          "reading": "えむていーてぃーあーる",
+          "english": "Mean Time to Repair",
+          "vi": "Thời gian sửa chữa trung bình",
+          "definitionJa": "システムや機器が故障した際、修理に要する平均的な時間。",
+          "definitionVi": "Thời gian sửa chữa trung bình khi hệ thống hoặc thiết bị gặp sự cố."
+        }
+      ],
+      "tags": ["reliability", "mttr", "system-maintenance"]
+    },
+    {
+      "id": "availability-rate",
+      "order": 18,
+      "titleJa": "稼働率",
+      "titleVi": "Tỷ lệ sẵn sàng hoạt động",
+      "importance": "high",
+      "summaryJa": "システムや機器が稼働している時間の割合を示す稼働率について理解する。",
+      "summaryVi": "Tìm hiểu về tỷ lệ sẵn sàng hoạt động, chỉ số cho biết tỷ lệ thời gian hệ thống hoặc thiết bị đang hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "稼働率とは",
+          "vi": "Tỷ lệ sẵn sàng hoạt động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "稼働率（Availability Rate）は、システムや機器が稼働している時間の割合を示す指標である。これは、システムの信頼性を評価するための重要な要素で、特にMTBF（平均故障間隔）やMTTR（平均修復時間）と密接に関連している。",
+          "vi": "Tỷ lệ sẵn sàng hoạt động là chỉ số cho biết tỷ lệ thời gian hệ thống hoặc thiết bị đang hoạt động. Đây là yếu tố quan trọng đánh giá độ tin cậy hệ thống, đặc biệt liên quan chặt chẽ với MTBF (thời gian trung bình giữa các lần hỏng hóc) và MTTR (thời gian sửa chữa trung bình)."
+        },
+        {
+          "type": "paragraph",
+          "ja": "MTBFは、故障から故障までの平均時間を示す一方で、MTTRは故障後の修理にかかる平均時間を示す。これらの指標を用いることで、稼働率は次のように計算される。MTBFをMTBFとMTTRの合計で割ったものにより求めることができる。",
+          "vi": "MTBF cho biết thời gian trung bình giữa các lần hỏng hóc, trong khi MTTR cho biết thời gian sửa chữa trung bình sau hỏng hóc. Sử dụng các chỉ số này, tỷ lệ sẵn sàng hoạt động được tính như sau: MTBF chia cho tổng MTBF và MTTR."
+        },
+        {
+          "type": "point",
+          "ja": "高い稼働率は信頼性の高いシステムを示し、ビジネスにおいては生産性や顧客満足度の向上に貢献する。",
+          "vi": "Tỷ lệ sẵn sàng hoạt động cao cho thấy hệ thống có độ tin cậy cao, góp phần nâng cao năng suất và sự hài lòng của khách hàng trong kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "稼働率",
+          "reading": "かどうりつ",
+          "english": "Availability Rate",
+          "vi": "Tỷ lệ sẵn sàng hoạt động",
+          "definitionJa": "システムや機器が稼働している時間の割合を示す指標。MTBFとMTTRから計算される。",
+          "definitionVi": "Chỉ số cho biết tỷ lệ thời gian hệ thống hoặc thiết bị đang hoạt động. Được tính từ MTBF và MTTR."
+        }
+      ],
+      "tags": ["reliability", "availability", "system-management"]
+    },
+    {
+      "id": "bathtub-curve",
+      "order": 19,
+      "titleJa": "バスタブ曲線",
+      "titleVi": "Đường cong bồn tắm",
+      "importance": "medium",
+      "summaryJa": "製品やシステムの故障率の時間的変化を示すバスタブ曲線について理解する。",
+      "summaryVi": "Tìm hiểu về đường cong bồn tắm, biểu thị sự thay đổi tỷ lệ hỏng hóc của sản phẩm hoặc hệ thống theo thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バスタブ曲線とは",
+          "vi": "Đường cong bồn tắm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バスタブ曲線（Bathtub Curve）は、製品やシステムの故障率の時間的変化を示すグラフである。この曲線は、最初に故障率が高い早期故障期、次に安定した低い故障率が続く定常期、最後に老朽化に伴い故障率が増加する後期故障期の三つの段階から成る。",
+          "vi": "Đường cong bồn tắm (Bathtub Curve) là đồ thị biểu thị sự thay đổi tỷ lệ hỏng hóc của sản phẩm hoặc hệ thống theo thời gian. Đường cong này gồm ba giai đoạn: giai đoạn đầu có tỷ lệ hỏng hóc cao (thời kỳ hỏng hóc sớm), tiếp theo là giai đoạn tỷ lệ hỏng hóc thấp ổn định (thời kỳ ổn định), và cuối cùng là giai đoạn tỷ lệ hỏng hóc tăng do lão hóa (thời kỳ hỏng hóc muộn)."
+        },
+        {
+          "type": "paragraph",
+          "ja": "具体的には、新製品の初期段階で不良品が多く見られ、時間が経つにつれて信頼性が向上するが、長期間使用することで部品が劣化し、故障率が再び上昇する。",
+          "vi": "Cụ thể, ở giai đoạn đầu của sản phẩm mới thường có nhiều lỗi, theo thời gian độ tin cậy được cải thiện, nhưng sử dụng lâu dài khiến các bộ phận xuống cấp và tỷ lệ hỏng hóc lại tăng."
+        },
+        {
+          "type": "point",
+          "ja": "バスタブ曲線を理解することで、製品の信頼性向上やメンテナンス計画の策定に役立てることができる。",
+          "vi": "Hiểu được đường cong bồn tắm giúp cải thiện độ tin cậy sản phẩm và lập kế hoạch bảo trì."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バスタブ曲線",
+          "reading": "ばすたぶきょくせん",
+          "english": "Bathtub Curve",
+          "vi": "Đường cong bồn tắm",
+          "definitionJa": "製品やシステムの故障率の時間的変化を示すグラフ。早期故障期、定常期、後期故障期の三つの段階から成る。",
+          "definitionVi": "Đồ thị biểu thị sự thay đổi tỷ lệ hỏng hóc của sản phẩm hoặc hệ thống theo thời gian. Gồm ba giai đoạn: hỏng hóc sớm, ổn định, và hỏng hóc muộn."
+        }
+      ],
+      "tags": ["reliability", "bathtub-curve", "system-maintenance"]
+    },
+    {
+      "id": "initial-cost",
+      "order": 20,
+      "titleJa": "イニシャルコスト",
+      "titleVi": "Chi phí ban đầu",
+      "importance": "medium",
+      "summaryJa": "システムやプロジェクトを開始する際に必要となる最初の費用について理解する。",
+      "summaryVi": "Tìm hiểu về chi phí ban đầu cần thiết khi bắt đầu hệ thống hoặc dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "イニシャルコストとは",
+          "vi": "Chi phí ban đầu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "イニシャルコスト（Initial Cost）は、システムやプロジェクトを開始する際に必要となる最初の費用のことである。このコストには、ハードウェアやソフトウェアの購入費、設置費、初期設定、トレーニングなどが含まれる。",
+          "vi": "Chi phí ban đầu (Initial Cost) là chi phí đầu tiên cần thiết khi bắt đầu hệ thống hoặc dự án. Chi phí này bao gồm mua phần cứng và phần mềm, chi phí lắp đặt, thiết lập ban đầu, đào tạo, v.v."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、新しいITシステムを導入する場合、サーバやネットワーク機器の購入だけでなく、それを適切に動作させるためのソフトウェア取得費や専門家への支払いも重要な要素である。",
+          "vi": "Ví dụ, khi triển khai hệ thống IT mới, không chỉ mua máy chủ và thiết bị mạng mà còn cả chi phí mua phần mềm để vận hành và thanh toán cho chuyên gia."
+        },
+        {
+          "type": "point",
+          "ja": "イニシャルコストを正確に把握することで、導入後のランニングコストやリターンを比較検討し、経済性を評価する際の基礎となる。",
+          "vi": "Nắm chính xác chi phí ban đầu giúp so sánh với chi phí vận hành và lợi nhuận sau khi triển khai, làm cơ sở đánh giá tính kinh tế."
+        }
+      ],
+      "terms": [
+        {
+          "term": "イニシャルコスト",
+          "reading": "いにしゃるこすと",
+          "english": "Initial Cost",
+          "vi": "Chi phí ban đầu",
+          "definitionJa": "システムやプロジェクトを開始する際に必要となる最初の費用。ハードウェア、ソフトウェア、設置、トレーニングなどを含む。",
+          "definitionVi": "Chi phí đầu tiên cần thiết khi bắt đầu hệ thống hoặc dự án. Bao gồm phần cứng, phần mềm, lắp đặt, đào tạo, v.v."
+        }
+      ],
+      "tags": ["cost", "initial-cost", "project-management"]
+    },
+    {
+      "id": "running-cost",
+      "order": 21,
+      "titleJa": "ランニングコスト",
+      "titleVi": "Chi phí vận hành",
+      "importance": "high",
+      "summaryJa": "システムやプロジェクトを運用する際に必要となる継続的な費用について理解する。",
+      "summaryVi": "Tìm hiểu về chi phí liên tục phát sinh khi vận hành hệ thống hoặc dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ランニングコストとは",
+          "vi": "Chi phí vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ランニングコスト（Running Cost）は、システムやプロジェクトを運用する際に必要となる継続的な費用のことである。このコストには、人件費や保守費用、電気代、設備のメンテナンス費用などが含まれ、これらはシステムを稼働させるために毎月または毎年支出されるものである。",
+          "vi": "Chi phí vận hành (Running Cost) là chi phí liên tục phát sinh khi vận hành hệ thống hoặc dự án. Chi phí này bao gồm chi phí nhân công, chi phí bảo trì, tiền điện, chi phí bảo dưỡng thiết bị, và được chi trả hàng tháng hoặc hàng năm để duy trì hoạt động của hệ thống."
+        },
+        {
+          "type": "paragraph",
+          "ja": "例えば、企業がサーバを運用する場合、サーバの購入費用に加え、運用中に必要な電力や冷却コスト、技術者の手当等がランニングコストとなる。",
+          "vi": "Ví dụ, khi doanh nghiệp vận hành máy chủ, ngoài chi phí mua máy chủ, chi phí vận hành bao gồm điện năng, chi phí làm mát và lương của kỹ thuật viên."
+        },
+        {
+          "type": "point",
+          "ja": "これらのコストを把握することは、システムの経済性を評価する上で非常に重要であり、導入時の初期コストと合わせて全体の投資効率を判断するための指標として活用される。",
+          "vi": "Nắm bắt các chi phí này rất quan trọng để đánh giá tính kinh tế của hệ thống, được sử dụng cùng với chi phí ban đầu để đánh giá hiệu quả đầu tư tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ランニングコスト",
+          "reading": "らんにんぐこすと",
+          "english": "Running Cost",
+          "vi": "Chi phí vận hành",
+          "definitionJa": "システムやプロジェクトを運用する際に必要となる継続的な費用。人件費、保守費用、電気代などが含まれる。",
+          "definitionVi": "Chi phí liên tục phát sinh khi vận hành hệ thống hoặc dự án. Bao gồm chi phí nhân công, bảo trì, tiền điện, v.v."
+        }
+      ],
+      "tags": ["cost", "running-cost", "system-management"]
+    },
+    {
+      "id": "tco",
+      "order": 22,
+      "titleJa": "TCO",
+      "titleVi": "TCO (Total Cost of Ownership)",
+      "importance": "high",
+      "summaryJa": "総所有費用を指すTCOについて理解する。",
+      "summaryVi": "Tìm hiểu về TCO, tổng chi phí sở hữu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TCOとは",
+          "vi": "TCO là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TCO（Total Cost of Ownership）は、総所有費用を指し、ある資産やシステムを取得し、運用する際にかかるすべての費用を合計した値である。この概念は単に購入価格だけでなく、運用コスト、メンテナンス費用、教育費、廃棄処理費用など、長期的に考慮する必要がある費用も含まれる。",
+          "vi": "TCO (Total Cost of Ownership) là tổng chi phí sở hữu, tổng hợp tất cả chi phí để mua và vận hành một tài sản hoặc hệ thống. Khái niệm này không chỉ bao gồm giá mua mà còn bao gồm chi phí vận hành, bảo trì, đào tạo và xử lý thanh lý cần xem xét trong dài hạn."
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織はTCOを評価することで、導入を検討しているシステムや製品の真のコストを把握し、経済的な判断を行う手助けとなる。特にIT関連では、初期投資に加えて、長期的な運用を通じたコストが重要視されるため、TCOの理解はシステム選定において非常に価値が高いのである。",
+          "vi": "Doanh nghiệp và tổ chức đánh giá TCO để nắm được chi phí thực sự của hệ thống hoặc sản phẩm đang xem xét triển khai, hỗ trợ ra quyết định kinh tế. Đặc biệt trong lĩnh vực IT, ngoài đầu tư ban đầu, chi phí vận hành dài hạn được coi trọng, do đó hiểu về TCO rất có giá trị trong việc lựa chọn hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "TCOを評価することで、購入価格だけでなく長期的なコストも考慮した最適な選択が可能となる。",
+          "vi": "Đánh giá TCO cho phép lựa chọn tối ưu dựa trên cả giá mua và chi phí dài hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TCO",
+          "reading": "てぃーしーおー",
+          "english": "Total Cost of Ownership",
+          "vi": "Tổng chi phí sở hữu",
+          "definitionJa": "ある資産やシステムを取得し運用する際にかかるすべての費用の合計。購入価格、運用コスト、メンテナンス費用などを含む。",
+          "definitionVi": "Tổng hợp tất cả chi phí để mua và vận hành một tài sản hoặc hệ thống. Bao gồm giá mua, chi phí vận hành, bảo trì, v.v."
+        }
+      ],
+      "tags": ["cost", "tco", "system-management"]
+    },
+    {
+      "id": "direct-cost",
+      "order": 23,
+      "titleJa": "直接コスト",
+      "titleVi": "Chi phí trực tiếp",
+      "importance": "medium",
+      "summaryJa": "特定の製品やサービスの提供に直接関連する費用である直接コストについて理解する。",
+      "summaryVi": "Tìm hiểu về chi phí trực tiếp, chi phí liên quan trực tiếp đến việc cung cấp sản phẩm hoặc dịch vụ cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "直接コストとは",
+          "vi": "Chi phí trực tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "直接コスト（Direct Cost）は、特定の製品やサービスの提供に直接関連する費用である。これには、原材料費や労働力の賃金、製造設備の使用料などが含まれる。たとえば、自動車を製造する場合、部品代や組み立て作業にかかる人件費が直接コストに該当する。",
+          "vi": "Chi phí trực tiếp (Direct Cost) là chi phí liên quan trực tiếp đến việc cung cấp một sản phẩm hoặc dịch vụ cụ thể. Bao gồm chi phí nguyên vật liệu, tiền công lao động, phí sử dụng thiết bị sản xuất. Ví dụ, khi sản xuất ô tô, chi phí linh kiện và nhân công lắp ráp thuộc chi phí trực tiếp."
+        },
+        {
+          "type": "paragraph",
+          "ja": "直接コストは企業の利益を計算する上で重要な要素であり、製品の価格設定やコスト管理に直接影響を与えるため、その把握と管理はビジネス運営において欠かせない。",
+          "vi": "Chi phí trực tiếp là yếu tố quan trọng trong tính toán lợi nhuận của doanh nghiệp, ảnh hưởng trực tiếp đến định giá sản phẩm và quản lý chi phí, do đó việc nắm bắt và quản lý là không thể thiếu trong vận hành kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "間接コストとは異なり、明確にトラッキングできるため、効率的な原価計算に役立つ。",
+          "vi": "Khác với chi phí gián tiếp, chi phí trực tiếp có thể theo dõi rõ ràng, hữu ích cho việc tính giá thành hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "直接コスト",
+          "reading": "ちょくせつこすと",
+          "english": "Direct Cost",
+          "vi": "Chi phí trực tiếp",
+          "definitionJa": "特定の製品やサービスの提供に直接関連する費用。原材料費や労働力の賃金などが含まれる。",
+          "definitionVi": "Chi phí liên quan trực tiếp đến việc cung cấp một sản phẩm hoặc dịch vụ cụ thể. Bao gồm nguyên vật liệu, tiền công lao động, v.v."
+        }
+      ],
+      "tags": ["cost", "direct-cost", "cost-management"]
+    },
+    {
+      "id": "indirect-cost",
+      "order": 24,
+      "titleJa": "間接コスト",
+      "titleVi": "Chi phí gián tiếp",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトや製品に直接結びつかない費用である間接コストについて理解する。",
+      "summaryVi": "Tìm hiểu về chi phí gián tiếp, chi phí không liên kết trực tiếp với một dự án hoặc sản phẩm cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "間接コストとは",
+          "vi": "Chi phí gián tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "間接コスト（Indirect Cost）は、特定のプロジェクトや製品に直接結びつかない費用を指す。これには、管理費や光熱費、オフィスの賃貸料などが含まれる。直接コストが製品やサービスに直接かかる材料費や人件費であるのに対し、間接コストは広く組織全体に分配される費用であるため、その算出は複雑になることが多い。",
+          "vi": "Chi phí gián tiếp (Indirect Cost) là chi phí không liên kết trực tiếp với một dự án hoặc sản phẩm cụ thể. Bao gồm chi phí quản lý, tiền điện nước, tiền thuê văn phòng. Trong khi chi phí trực tiếp là nguyên vật liệu và nhân công cho sản phẩm/dịch vụ, chi phí gián tiếp được phân bổ rộng rãi trong tổ chức nên việc tính toán thường phức tạp."
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業は、コストの適切な把握が利益の最大化や資源の効率的な配分につながるため、間接コストの管理を重視する。例えば、間接コストを正確に評価することで、製品の売価設定やプロジェクトの収益性分析に役立つ。",
+          "vi": "Doanh nghiệp coi trọng quản lý chi phí gián tiếp vì nắm bắt chi phí chính xác dẫn đến tối đa hóa lợi nhuận và phân bổ nguồn lực hiệu quả. Ví dụ, đánh giá chính xác chi phí gián tiếp giúp định giá bán sản phẩm và phân tích lợi nhuận dự án."
+        },
+        {
+          "type": "point",
+          "ja": "間接コストの適切な管理は、健全な財務運営を実現する上で重要な役割を果たす。",
+          "vi": "Quản lý chi phí gián tiếp đúng đắn đóng vai trò quan trọng trong việc đạt được quản lý tài chính lành mạnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "間接コスト",
+          "reading": "かんせつこすと",
+          "english": "Indirect Cost",
+          "vi": "Chi phí gián tiếp",
+          "definitionJa": "特定のプロジェクトや製品に直接結びつかない費用。管理費、光熱費、オフィス賃貸料などが含まれる。",
+          "definitionVi": "Chi phí không liên kết trực tiếp với một dự án hoặc sản phẩm cụ thể. Bao gồm chi phí quản lý, điện nước, tiền thuê văn phòng, v.v."
+        }
+      ],
+      "tags": ["cost", "indirect-cost", "cost-management"]
+    }
+  ]
+}

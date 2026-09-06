@@ -21,6 +21,10 @@ import busJson from "@/data/fe/theory/03-computer-components/03-bus.json";
 import inputOutputDevicesJson from "@/data/fe/theory/03-computer-components/04-input-output-devices.json";
 import inputOutputEquipmentJson from "@/data/fe/theory/03-computer-components/05-input-output-equipment.json";
 
+import systemComponentsIndexJson from "@/data/fe/theory/04-system-components/index.json";
+import systemConfigurationJson from "@/data/fe/theory/04-system-components/01-system-configuration.json";
+import systemEvaluationMetricsJson from "@/data/fe/theory/04-system-components/02-system-evaluation-metrics.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -79,8 +83,23 @@ const computerComponentsCategory: FeCategory = {
   ],
 };
 
+const systemComponentsManifest =
+  systemComponentsIndexJson as FeCategoryManifest;
+
+const systemComponentsCategory: FeCategory = {
+  id: systemComponentsManifest.id,
+  order: systemComponentsManifest.order,
+  titleJa: systemComponentsManifest.titleJa,
+  titleVi: systemComponentsManifest.titleVi,
+  chapters: [
+    systemConfigurationJson as FeChapter,
+    systemEvaluationMetricsJson as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
   computerComponentsCategory,
+  systemComponentsCategory,
 ];
