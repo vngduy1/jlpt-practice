@@ -1,0 +1,502 @@
+{
+  "id": "development-tools",
+  "order": 4,
+  "titleJa": "開発ツール",
+  "titleVi": "Công cụ phát triển",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "development-and-design-tools",
+      "order": 1,
+      "titleJa": "開発・設計ツール",
+      "titleVi": "Công cụ phát triển và thiết kế",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発を支援するIDE、設計支援ツール、設計ツール、構築ツールについて理解する。",
+      "summaryVi": "Hiểu IDE và các công cụ hỗ trợ thiết kế, thiết kế hệ thống và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発では、設計、コーディング、テスト、ビルドなどの工程を効率化するために様々な開発ツールが利用される。IDEはエディタ、コード補完、デバッグ、コンパイルなどの機能を統合した環境であり、設計支援ツールや設計ツールはシステムの構造や処理を視覚的に整理するために利用される。構築ツールはコードのコンパイル、ビルド、テストなどを支援する。",
+          "vi": "Trong phát triển phần mềm, nhiều công cụ được sử dụng để nâng cao hiệu quả cho các công đoạn như thiết kế, viết mã, kiểm thử và build. IDE tích hợp trình soạn thảo, hoàn thành mã, debug và compiler. Các công cụ hỗ trợ thiết kế giúp mô hình hóa cấu trúc và luồng xử lý, còn công cụ xây dựng hỗ trợ compile, build và test."
+        },
+        {
+          "type": "point",
+          "ja": "IDEは開発に必要な複数の機能を一つの環境に統合する。",
+          "vi": "IDE tích hợp nhiều chức năng cần thiết cho phát triển trong cùng một môi trường."
+        },
+        {
+          "type": "point",
+          "ja": "設計ツールはUMLやER図などを用いてシステムを視覚化する。",
+          "vi": "Công cụ thiết kế trực quan hóa hệ thống bằng UML, ER diagram..."
+        },
+        {
+          "type": "point",
+          "ja": "構築ツールはビルドやテストなどの開発作業を支援する。",
+          "vi": "Công cụ xây dựng hỗ trợ build, test và các công việc phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IDE",
+          "reading": "あいてぃーいー",
+          "english": "Integrated Development Environment",
+          "vi": "môi trường phát triển tích hợp",
+          "definitionJa": "エディタ、コード補完、デバッグ、コンパイラ、ビルドツールなどの開発機能を一つにまとめた統合開発環境。",
+          "definitionVi": "Môi trường phát triển tích hợp các chức năng như trình soạn thảo, hoàn thành mã, debug, compiler và build."
+        },
+        {
+          "term": "設計支援ツール",
+          "reading": "せっけいしえんつーる",
+          "english": "Design Support Tool",
+          "vi": "công cụ hỗ trợ thiết kế",
+          "definitionJa": "システムやソフトウェアの設計図、モデルの作成や管理などを支援するツール。",
+          "definitionVi": "Công cụ hỗ trợ tạo và quản lý sơ đồ, mô hình trong quá trình thiết kế hệ thống hoặc phần mềm."
+        },
+        {
+          "term": "設計ツール",
+          "reading": "せっけいつーる",
+          "english": "Design Tool",
+          "vi": "công cụ thiết kế",
+          "definitionJa": "UMLやER図などを用いてソフトウェアやシステムの構造、処理の流れを設計するためのツール。",
+          "definitionVi": "Công cụ dùng UML, ER diagram... để thiết kế cấu trúc và luồng xử lý của phần mềm hoặc hệ thống."
+        },
+        {
+          "term": "構築ツール",
+          "reading": "こうちくつーる",
+          "english": "Construction Tools",
+          "vi": "công cụ xây dựng phần mềm",
+          "definitionJa": "コンパイル、ビルド、テスト、バージョン管理など、ソフトウェアを構築する作業を支援するツール群。",
+          "definitionVi": "Nhóm công cụ hỗ trợ compile, build, test, quản lý phiên bản và các hoạt động xây dựng phần mềm."
+        }
+      ],
+      "tags": ["software", "development-tools", "ide", "design", "build"]
+    },
+    {
+      "id": "low-code-and-end-user-development",
+      "order": 2,
+      "titleJa": "ローコード・エンドユーザー開発",
+      "titleVi": "Low-code và phát triển bởi người dùng cuối",
+      "importance": "medium",
+      "summaryJa": "ローコード、ノーコード、EUC、EUDなど、専門的な開発知識を減らしてシステムを構築する方法を理解する。",
+      "summaryVi": "Hiểu low-code, no-code, EUC và EUD, cho phép người dùng xây dựng ứng dụng với ít kiến thức lập trình chuyên sâu hơn.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ローコードツールやノーコードツールでは、視覚的な操作を利用してアプリケーションを開発する。EUCやEUDでは、専門の開発者だけでなく、業務を行うエンドユーザー自身が必要なツールやアプリケーションの作成に関与する。",
+          "vi": "Low-code và no-code sử dụng giao diện trực quan để phát triển ứng dụng. Trong EUC và EUD, không chỉ lập trình viên chuyên nghiệp mà người dùng cuối trực tiếp tham gia tạo các công cụ và ứng dụng cần thiết cho công việc."
+        },
+        {
+          "type": "point",
+          "ja": "ローコードは少量のコードと視覚的操作を組み合わせる。",
+          "vi": "Low-code kết hợp một lượng nhỏ code với thao tác trực quan."
+        },
+        {
+          "type": "point",
+          "ja": "ノーコードは原則としてプログラムコードを書かずに開発する。",
+          "vi": "No-code về cơ bản cho phép phát triển mà không cần tự viết code."
+        },
+        {
+          "type": "point",
+          "ja": "EUC・EUDではエンドユーザーがシステム開発に直接関与する。",
+          "vi": "Trong EUC/EUD, người dùng cuối trực tiếp tham gia phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ローコードツール",
+          "reading": "",
+          "english": "Low-Code Tool",
+          "vi": "công cụ low-code",
+          "definitionJa": "視覚的な操作や既成の部品を利用し、少ないプログラミングでアプリケーションを開発するためのツール。",
+          "definitionVi": "Công cụ sử dụng giao diện trực quan và thành phần có sẵn để phát triển ứng dụng với ít code."
+        },
+        {
+          "term": "ノーコードツール",
+          "reading": "",
+          "english": "No-Code Tool",
+          "vi": "công cụ no-code",
+          "definitionJa": "プログラミングコードをほとんど記述せず、視覚的な操作によってアプリケーションなどを作成するツール。",
+          "definitionVi": "Công cụ cho phép xây dựng ứng dụng chủ yếu bằng thao tác trực quan mà hầu như không cần viết code."
+        },
+        {
+          "term": "EUC",
+          "reading": "いーゆーしー",
+          "english": "End User Computing",
+          "vi": "điện toán người dùng cuối",
+          "definitionJa": "一般の利用者が自ら必要なアプリケーションやツールを作成、利用できる環境や考え方。",
+          "definitionVi": "Môi trường hoặc khái niệm trong đó người dùng cuối tự tạo và sử dụng các ứng dụng, công cụ cần thiết."
+        },
+        {
+          "term": "EUD",
+          "reading": "いーゆーでぃー",
+          "english": "End-User Development",
+          "vi": "phát triển bởi người dùng cuối",
+          "definitionJa": "専門の開発者ではないエンドユーザー自身が、業務に必要なソフトウェアなどを開発すること。",
+          "definitionVi": "Việc người dùng cuối không chuyên lập trình tự phát triển phần mềm cần thiết cho công việc."
+        }
+      ],
+      "tags": [
+        "software",
+        "development-tools",
+        "low-code",
+        "no-code",
+        "euc",
+        "eud"
+      ]
+    },
+    {
+      "id": "toolchain-and-test-environments",
+      "order": 3,
+      "titleJa": "ツールチェーンと模擬環境",
+      "titleVi": "Toolchain và môi trường mô phỏng",
+      "importance": "high",
+      "summaryJa": "開発に必要なツールの連携と、エミュレータやシミュレータによる動作検証について理解する。",
+      "summaryVi": "Hiểu chuỗi công cụ phát triển và cách emulator, simulator được dùng để kiểm tra hoạt động hệ thống.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ツールチェーンは、ソースコードの作成からコンパイル、リンク、デバッグ、テストなどに利用する一連のツールを組み合わせたものである。また、エミュレータやシミュレータを利用すると、実際の機器や環境を用意しなくてもシステムの動作を検証することができる。ICEは組込みシステム開発において実機に近い状態でデバッグするために利用される。",
+          "vi": "Toolchain là tập hợp các công cụ liên kết với nhau từ viết mã, compile, link đến debug và test. Emulator và simulator cho phép kiểm tra hệ thống mà không nhất thiết phải có thiết bị hoặc môi trường thực. ICE đặc biệt được dùng trong phát triển hệ thống nhúng để debug gần với điều kiện phần cứng thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "ツールチェーンは複数の開発ツールを連携させたもの。",
+          "vi": "Toolchain là chuỗi nhiều công cụ phát triển phối hợp với nhau."
+        },
+        {
+          "type": "point",
+          "ja": "エミュレータは別のシステムや機器の動作を模倣する。",
+          "vi": "Emulator mô phỏng hành vi của hệ thống hoặc thiết bị khác."
+        },
+        {
+          "type": "point",
+          "ja": "シミュレータは条件やモデルに基づいて対象の動作を模擬する。",
+          "vi": "Simulator mô phỏng hoạt động dựa trên mô hình và điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ツールチェーン",
+          "reading": "",
+          "english": "Toolchain",
+          "vi": "chuỗi công cụ",
+          "definitionJa": "プログラムの作成、コンパイル、リンク、デバッグ、テストなどに用いる複数のツールを組み合わせたもの。",
+          "definitionVi": "Tập hợp nhiều công cụ dùng liên tiếp cho viết mã, compile, link, debug và test."
+        },
+        {
+          "term": "エミュレータ",
+          "reading": "",
+          "english": "Emulator",
+          "vi": "trình giả lập",
+          "definitionJa": "あるコンピュータや機器の動作を、別の環境上で模倣するソフトウェアまたはハードウェア。",
+          "definitionVi": "Phần mềm hoặc phần cứng mô phỏng hoạt động của một hệ thống hay thiết bị trên môi trường khác."
+        },
+        {
+          "term": "シミュレータ",
+          "reading": "",
+          "english": "Simulator",
+          "vi": "trình mô phỏng",
+          "definitionJa": "特定のシステムやプロセスの動作をモデル化し、模擬的に再現するためのツール。",
+          "definitionVi": "Công cụ mô hình hóa và mô phỏng hoạt động của một hệ thống hoặc quá trình."
+        },
+        {
+          "term": "ICE",
+          "reading": "あいしーいー",
+          "english": "In-Circuit Emulator",
+          "vi": "bộ giả lập trong mạch",
+          "definitionJa": "組込みシステム開発などで、実際の基板に接続してマイクロプロセッサなどの動作を確認、デバッグするためのツール。",
+          "definitionVi": "Công cụ kết nối với bo mạch thực để kiểm tra và debug hoạt động của vi xử lý trong hệ thống nhúng."
+        }
+      ],
+      "tags": [
+        "software",
+        "development-tools",
+        "toolchain",
+        "emulator",
+        "simulator",
+        "ice"
+      ]
+    },
+    {
+      "id": "debug-and-test-tools",
+      "order": 4,
+      "titleJa": "デバッグ・テスト支援ツール",
+      "titleVi": "Công cụ hỗ trợ debug và kiểm thử",
+      "importance": "high",
+      "summaryJa": "プログラムの実行状態を確認し、不具合を発見するために使用するトレーサー、インスペクター、スナップショット、アサーションチェッカを理解する。",
+      "summaryVi": "Hiểu tracer, inspector, snapshot và assertion checker dùng để theo dõi chương trình và phát hiện lỗi.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デバッグやテストでは、実行中のプログラムの状態を観察し、問題箇所を特定するための各種ツールが利用される。トレーサーは実行過程を記録し、インスペクターは変数やオブジェクトの状態を確認する。スナップショットは特定時点の状態を保存し、アサーションチェッカは想定した条件が満たされているかを確認する。",
+          "vi": "Trong debug và kiểm thử, nhiều công cụ được dùng để quan sát trạng thái chương trình và xác định lỗi. Tracer ghi lại quá trình thực thi, inspector kiểm tra biến và đối tượng, snapshot lưu trạng thái tại một thời điểm, còn assertion checker xác minh các điều kiện mong đợi."
+        },
+        {
+          "type": "point",
+          "ja": "トレーサーはプログラムの実行過程を追跡する。",
+          "vi": "Tracer theo dõi quá trình thực thi chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "スナップショットは特定時点の状態を保存する。",
+          "vi": "Snapshot lưu trạng thái tại một thời điểm cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "アサーションは想定条件が成立しているかを確認する。",
+          "vi": "Assertion kiểm tra điều kiện được kỳ vọng có đúng hay không."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トレーサー",
+          "reading": "",
+          "english": "Tracer",
+          "vi": "công cụ theo vết",
+          "definitionJa": "プログラムの実行過程や関数呼出しなどを記録、追跡し、問題箇所を調査するためのデバッグツール。",
+          "definitionVi": "Công cụ debug theo dõi và ghi lại quá trình thực thi, lời gọi hàm... để tìm lỗi."
+        },
+        {
+          "term": "インスペクター",
+          "reading": "",
+          "english": "Inspector",
+          "vi": "công cụ kiểm tra trạng thái",
+          "definitionJa": "実行中の変数やオブジェクト、画面要素などの状態や属性を確認するためのツール。",
+          "definitionVi": "Công cụ kiểm tra trạng thái và thuộc tính của biến, đối tượng hoặc thành phần giao diện."
+        },
+        {
+          "term": "スナップショット",
+          "reading": "",
+          "english": "Snapshot",
+          "vi": "ảnh chụp trạng thái",
+          "definitionJa": "特定の時点におけるデータやシステムの状態を保存したもの。",
+          "definitionVi": "Bản lưu trạng thái dữ liệu hoặc hệ thống tại một thời điểm nhất định."
+        },
+        {
+          "term": "アサーションチェッカ",
+          "reading": "",
+          "english": "Assertion Checker",
+          "vi": "công cụ kiểm tra assertion",
+          "definitionJa": "プログラム実行中に、あらかじめ指定した条件が成立しているかを確認するためのツール。",
+          "definitionVi": "Công cụ kiểm tra trong lúc chạy chương trình xem điều kiện được định trước có được thỏa mãn hay không."
+        }
+      ],
+      "tags": [
+        "software",
+        "development-tools",
+        "debug",
+        "tracer",
+        "inspector",
+        "snapshot",
+        "assertion"
+      ]
+    },
+    {
+      "id": "program-translation-and-version-control",
+      "order": 5,
+      "titleJa": "言語処理・バージョン管理",
+      "titleVi": "Xử lý ngôn ngữ và quản lý phiên bản",
+      "importance": "high",
+      "summaryJa": "ソースコードを実行可能な形式に変換するアセンブラ、インタプリタ、リンカと、変更履歴を管理するバージョン管理ツールを理解する。",
+      "summaryVi": "Hiểu assembler, interpreter, linker và công cụ quản lý phiên bản trong quá trình xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "プログラムを実行するためには、プログラミング言語で記述されたコードをコンピュータが処理できる形式に変換する必要がある。アセンブラはアセンブリ言語を機械語へ変換し、インタプリタはソースコードを逐次解釈して実行する。リンカは複数のオブジェクトファイルやライブラリを結合する。また、バージョン管理ツールはソースコードなどの変更履歴を記録し、共同開発を支援する。",
+          "vi": "Để thực thi chương trình, mã nguồn phải được xử lý thành dạng máy tính có thể sử dụng. Assembler chuyển assembly sang machine code, interpreter đọc và chạy mã từng bước, còn linker liên kết object file và library. Công cụ quản lý phiên bản ghi lại lịch sử thay đổi và hỗ trợ phát triển nhóm."
+        },
+        {
+          "type": "point",
+          "ja": "バージョン管理ツールは変更履歴を記録し、過去の状態に戻すことができる。",
+          "vi": "Công cụ quản lý phiên bản lưu lịch sử thay đổi và cho phép quay lại trạng thái cũ."
+        },
+        {
+          "type": "point",
+          "ja": "アセンブラはアセンブリ言語を機械語に変換する。",
+          "vi": "Assembler chuyển assembly language thành machine code."
+        },
+        {
+          "type": "point",
+          "ja": "インタプリタは命令を逐次解釈しながら実行する。",
+          "vi": "Interpreter diễn giải và chạy chương trình từng phần."
+        },
+        {
+          "type": "point",
+          "ja": "リンカは複数のオブジェクトファイルなどを結合して実行可能なプログラムを作る。",
+          "vi": "Linker kết hợp nhiều object file để tạo chương trình có thể thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バージョン管理ツール",
+          "reading": "ばーじょんかんりつーる",
+          "english": "Version Control System",
+          "vi": "hệ thống quản lý phiên bản",
+          "definitionJa": "ソースコードやドキュメントの変更履歴を管理し、過去の状態への復元や複数開発者による共同作業を支援するツール。",
+          "definitionVi": "Công cụ quản lý lịch sử thay đổi mã nguồn và tài liệu, hỗ trợ khôi phục phiên bản cũ và phát triển nhóm."
+        },
+        {
+          "term": "アセンブラ",
+          "reading": "",
+          "english": "Assembler",
+          "vi": "trình hợp dịch",
+          "definitionJa": "アセンブリ言語で記述されたプログラムを機械語に変換するプログラム。",
+          "definitionVi": "Chương trình chuyển mã assembly thành mã máy."
+        },
+        {
+          "term": "インタプリタ",
+          "reading": "",
+          "english": "Interpreter",
+          "vi": "trình thông dịch",
+          "definitionJa": "プログラムを逐次読み取り、その都度解釈しながら実行する言語処理プログラム。",
+          "definitionVi": "Chương trình xử lý ngôn ngữ bằng cách đọc, diễn giải và thực thi mã nguồn lần lượt."
+        },
+        {
+          "term": "リンカ",
+          "reading": "",
+          "english": "Linker",
+          "vi": "trình liên kết",
+          "definitionJa": "複数のオブジェクトファイルやライブラリを結合し、実行可能なプログラムを生成するツール。",
+          "definitionVi": "Công cụ liên kết nhiều object file và thư viện để tạo chương trình có thể thực thi."
+        }
+      ],
+      "tags": [
+        "software",
+        "development-tools",
+        "version-control",
+        "assembler",
+        "interpreter",
+        "linker"
+      ]
+    },
+    {
+      "id": "language-processing-tools",
+      "order": 6,
+      "titleJa": "言語処理ツール",
+      "titleVi": "Công cụ xử lý ngôn ngữ",
+      "importance": "high",
+      "summaryJa": "原始プログラムから実行可能なプログラムが作られるまでの流れと、ローダ、コンパイラ、実行時コンパイラ、クロスコンパイラ、ジェネレーター、プリプロセッサなどの役割を理解する。",
+      "summaryVi": "Hiểu quá trình từ chương trình nguồn đến chương trình có thể thực thi và vai trò của loader, compiler, JIT compiler, cross compiler, generator và preprocessor.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "プログラムを実行するためには、原始プログラムをコンパイラなどの言語処理ツールによって変換し、目的プログラムを生成する。さらに、必要なライブラリやモジュールを組み合わせてロードモジュールを作り、ローダによってメモリ上に配置して実行する。言語処理では、プリプロセッサやジェネレーターなども利用され、ソフトウェア開発の効率化を支援している。",
+          "vi": "Để thực thi chương trình, chương trình nguồn được chuyển đổi bằng các công cụ xử lý ngôn ngữ như compiler để tạo chương trình đích. Sau đó các thư viện và module cần thiết được kết hợp thành load module, rồi loader đưa chúng vào bộ nhớ để thực thi. Preprocessor và generator cũng được sử dụng để nâng cao hiệu quả phát triển phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コンパイラは原始プログラムを機械語などに変換する。",
+          "vi": "Compiler chuyển chương trình nguồn sang mã máy hoặc dạng thích hợp để thực thi."
+        },
+        {
+          "type": "point",
+          "ja": "実行時コンパイラはプログラムの実行時に必要な部分をコンパイルする。",
+          "vi": "JIT compiler biên dịch phần cần thiết trong lúc chương trình đang chạy."
+        },
+        {
+          "type": "point",
+          "ja": "クロスコンパイラは開発環境とは異なる環境向けのプログラムを生成する。",
+          "vi": "Cross compiler tạo chương trình dành cho môi trường khác với môi trường đang phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "プリプロセッサはコンパイル前にソースコードを処理する。",
+          "vi": "Preprocessor xử lý mã nguồn trước giai đoạn compile."
+        },
+        {
+          "type": "point",
+          "ja": "ローダは実行に必要なプログラムやデータをメモリに読み込む。",
+          "vi": "Loader nạp chương trình và dữ liệu cần thiết vào bộ nhớ để thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ローダ",
+          "reading": "",
+          "english": "Loader",
+          "vi": "trình nạp",
+          "definitionJa": "特定のプログラムやデータをメモリに読み込むためのソフトウェアやツール。プログラムの実行時に、必要なデータファイルやライブラリなどを適切なアドレスに配置し、実行可能な状態にする。",
+          "definitionVi": "Phần mềm hoặc công cụ dùng để nạp chương trình và dữ liệu cần thiết vào bộ nhớ, bố trí chúng tại địa chỉ thích hợp để chương trình có thể thực thi."
+        },
+        {
+          "term": "コンパイラ",
+          "reading": "",
+          "english": "Compiler",
+          "vi": "trình biên dịch",
+          "definitionJa": "高級プログラミング言語で記述されたソースコードを、コンピュータが理解できる機械語に変換するプログラム。コードの解析、最適化、エラー検出なども行う。",
+          "definitionVi": "Chương trình chuyển mã nguồn được viết bằng ngôn ngữ lập trình bậc cao thành mã máy mà máy tính có thể hiểu, đồng thời có thể phân tích, tối ưu và phát hiện lỗi."
+        },
+        {
+          "term": "実行時コンパイラ",
+          "reading": "じっこうじこんぱいら",
+          "english": "Just-In-Time Compiler",
+          "vi": "trình biên dịch tức thời (JIT)",
+          "definitionJa": "プログラムの実行時に必要な部分をその都度コンパイルして機械語に変換する技術。JavaやC#などで利用され、実行速度の向上や柔軟な動作に役立つ。",
+          "definitionVi": "Kỹ thuật biên dịch phần cần thiết của chương trình sang mã máy ngay trong lúc thực thi. Được sử dụng trong các môi trường như Java và C#."
+        },
+        {
+          "term": "クロスコンパイラ",
+          "reading": "",
+          "english": "Cross Compiler",
+          "vi": "trình biên dịch chéo",
+          "definitionJa": "動作しているプラットフォームとは異なるプラットフォーム向けの実行プログラムを生成するためのコンパイラ。組込みシステムなどの開発で利用される。",
+          "definitionVi": "Compiler chạy trên một nền tảng nhưng tạo chương trình thực thi cho một nền tảng khác. Thường được sử dụng trong phát triển hệ thống nhúng."
+        },
+        {
+          "term": "ジェネレーター",
+          "reading": "",
+          "english": "Generator",
+          "vi": "công cụ sinh mã",
+          "definitionJa": "特定の入力やテンプレートに基づいて、プログラムやスクリプト、データなどを自動生成するツール。",
+          "definitionVi": "Công cụ tự động tạo chương trình, script hoặc dữ liệu dựa trên đầu vào hay template đã xác định."
+        },
+        {
+          "term": "プリプロセッサ",
+          "reading": "",
+          "english": "Preprocessor",
+          "vi": "bộ tiền xử lý",
+          "definitionJa": "プログラムがコンパイルされる前にソースコードを処理するツール。マクロの展開、条件付きコンパイル、ファイルのインクルードなどを行う。",
+          "definitionVi": "Công cụ xử lý mã nguồn trước khi compile, như mở rộng macro, biên dịch có điều kiện và chèn file."
+        },
+        {
+          "term": "原始プログラム",
+          "reading": "げんしぷろぐらむ",
+          "english": "Source Program",
+          "vi": "chương trình nguồn",
+          "definitionJa": "プログラミング言語を用いて人間が理解できる形式で記述されたコード。コンピュータで実行するためには、コンパイラやインタプリタなどによる処理が必要である。",
+          "definitionVi": "Chương trình được viết bằng ngôn ngữ lập trình ở dạng con người có thể đọc hiểu. Muốn máy tính thực thi cần được xử lý bằng compiler hoặc interpreter."
+        },
+        {
+          "term": "目的プログラム",
+          "reading": "もくてきぷろぐらむ",
+          "english": "Objective Program",
+          "vi": "chương trình đích",
+          "definitionJa": "原始プログラムをコンパイラなどの言語処理プログラムで変換して得られる、実行可能な形式にするためのプログラム。",
+          "definitionVi": "Chương trình thu được sau khi chương trình nguồn được chuyển đổi bằng compiler hoặc công cụ xử lý ngôn ngữ, dùng để tạo dạng có thể thực thi."
+        },
+        {
+          "term": "ロードモジュール",
+          "reading": "",
+          "english": "Load Module",
+          "vi": "mô-đun nạp",
+          "definitionJa": "プログラムを実行するためにメモリへ読み込まれる構成要素。必要なコードやデータ、ライブラリなどを含み、実行時にローダによってメモリに配置される。",
+          "definitionVi": "Thành phần được nạp vào bộ nhớ để chương trình thực thi, bao gồm mã, dữ liệu hoặc thư viện cần thiết và được loader bố trí trong bộ nhớ."
+        }
+      ],
+      "tags": [
+        "software",
+        "development-tools",
+        "language-processing",
+        "loader",
+        "compiler",
+        "jit",
+        "cross-compiler",
+        "generator",
+        "preprocessor",
+        "source-program",
+        "object-program",
+        "load-module"
+      ]
+    }
+  ]
+}

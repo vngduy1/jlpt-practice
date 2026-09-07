@@ -1,0 +1,362 @@
+{
+  "id": "middleware",
+  "order": 2,
+  "titleJa": "ミドルウェア",
+  "titleVi": "Middleware",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "middleware-basics",
+      "order": 1,
+      "titleJa": "ミドルウェアの基本",
+      "titleVi": "Kiến thức cơ bản về middleware",
+      "importance": "high",
+      "summaryJa": "ミドルウェアの役割と、アプリケーションやデータベース間の連携を支える基本的な仕組みを理解する。",
+      "summaryVi": "Hiểu vai trò của middleware và các cơ chế cơ bản hỗ trợ liên kết giữa ứng dụng và cơ sở dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ミドルウェアは、オペレーティングシステムとアプリケーションの間などに位置し、異なるソフトウェア同士を連携させるための中間的なソフトウェアである。データベースへのアクセスやシステム間通信などを共通化することで、アプリケーション開発を効率化する。",
+          "vi": "Middleware là phần mềm trung gian nằm giữa hệ điều hành và ứng dụng hoặc giữa các phần mềm khác nhau. Nó chuẩn hóa việc truy cập cơ sở dữ liệu và giao tiếp giữa hệ thống, nhờ đó giúp phát triển ứng dụng hiệu quả hơn."
+        },
+        {
+          "type": "point",
+          "ja": "ミドルウェアは異なるソフトウェアやシステムの橋渡しをする。",
+          "vi": "Middleware đóng vai trò cầu nối giữa các phần mềm và hệ thống khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "DBMSはデータベースの保存、検索、更新などを管理する。",
+          "vi": "DBMS quản lý việc lưu trữ, tìm kiếm và cập nhật cơ sở dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "通信管理システムはシステム間のデータ通信を管理する。",
+          "vi": "Hệ thống quản lý truyền thông quản lý việc trao đổi dữ liệu giữa các hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ミドルウェア",
+          "reading": "",
+          "english": "Middleware",
+          "vi": "middleware / phần mềm trung gian",
+          "definitionJa": "異なるソフトウェアやアプリケーション同士の橋渡しを行う中間的なソフトウェア層。データベース、オペレーティングシステム、アプリケーション間の情報交換を容易にする。",
+          "definitionVi": "Lớp phần mềm trung gian làm cầu nối giữa các phần mềm và ứng dụng khác nhau, giúp việc trao đổi thông tin giữa cơ sở dữ liệu, hệ điều hành và ứng dụng trở nên dễ dàng hơn."
+        },
+        {
+          "term": "アプリケーションプログラム間連携ソフトウェア",
+          "reading": "あぷりけーしょんぷろぐらむかんれんけいそふとうぇあ",
+          "english": "Application Integration Middleware",
+          "vi": "phần mềm trung gian liên kết ứng dụng",
+          "definitionJa": "異なるアプリケーション同士が円滑にデータをやり取りできるようにするソフトウェア。システム間の通信やデータ変換を支援する。",
+          "definitionVi": "Phần mềm giúp các ứng dụng khác nhau trao đổi dữ liệu với nhau thuận lợi, hỗ trợ truyền thông và chuyển đổi dữ liệu giữa các hệ thống."
+        },
+        {
+          "term": "DBMS",
+          "reading": "でぃーびーえむえす",
+          "english": "Database Management System",
+          "vi": "hệ quản trị cơ sở dữ liệu",
+          "definitionJa": "データベースの保存や管理を行うソフトウェア。データの整理、検索、更新、整合性や安全性の管理などを行う。",
+          "definitionVi": "Phần mềm dùng để lưu trữ và quản lý cơ sở dữ liệu, bao gồm tổ chức, tìm kiếm, cập nhật và bảo đảm tính toàn vẹn, an toàn của dữ liệu."
+        },
+        {
+          "term": "通信管理システム",
+          "reading": "つうしんかんりしすてむ",
+          "english": "Communication Management System",
+          "vi": "hệ thống quản lý truyền thông",
+          "definitionJa": "システム間の通信を管理し、データの送受信を効率的に行うためのソフトウェアやサービス。",
+          "definitionVi": "Phần mềm hoặc dịch vụ quản lý truyền thông giữa các hệ thống và giúp việc gửi nhận dữ liệu được thực hiện hiệu quả."
+        }
+      ],
+      "tags": [
+        "software",
+        "middleware",
+        "dbms",
+        "integration",
+        "communication"
+      ]
+    },
+    {
+      "id": "development-and-operation-tools",
+      "order": 2,
+      "titleJa": "開発支援と運用管理",
+      "titleVi": "Hỗ trợ phát triển và quản lý vận hành",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発やシステム運用を支援するツールと、トランザクション処理を管理するTPモニターを理解する。",
+      "summaryVi": "Hiểu các công cụ hỗ trợ phát triển, quản lý vận hành hệ thống và TP Monitor dùng để quản lý xử lý giao dịch.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発支援ツールはプログラミング、テスト、デバッグ、プロジェクト管理などを支援する。運用管理ツールは稼働監視やログ分析、障害対応などを支援する。TPモニターは複数の処理を一つのトランザクションとして管理するために利用される。",
+          "vi": "Công cụ hỗ trợ phát triển phần mềm hỗ trợ lập trình, kiểm thử, debug và quản lý dự án. Công cụ quản lý vận hành hỗ trợ giám sát hoạt động, phân tích log và xử lý sự cố. TP Monitor được sử dụng để quản lý nhiều xử lý như một giao dịch."
+        },
+        {
+          "type": "point",
+          "ja": "開発支援ツールは開発作業の効率と品質を向上させる。",
+          "vi": "Công cụ hỗ trợ phát triển giúp tăng hiệu suất và chất lượng phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "運用管理ツールはシステムの安定稼働を支援する。",
+          "vi": "Công cụ quản lý vận hành hỗ trợ hệ thống hoạt động ổn định."
+        },
+        {
+          "type": "point",
+          "ja": "TPモニターはトランザクションの完全性を管理する。",
+          "vi": "TP Monitor quản lý tính toàn vẹn của giao dịch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア開発支援ツール",
+          "reading": "そふとうぇあかいはつしえんつーる",
+          "english": "Software Development Support Tool",
+          "vi": "công cụ hỗ trợ phát triển phần mềm",
+          "definitionJa": "プログラミング、テスト、デバッグ、プロジェクト管理など、ソフトウェアの開発工程を支援する各種ツール。",
+          "definitionVi": "Các công cụ hỗ trợ quá trình phát triển phần mềm như lập trình, kiểm thử, debug và quản lý dự án."
+        },
+        {
+          "term": "運用管理ツール",
+          "reading": "うんようかんりつーる",
+          "english": "Operations Management Tool",
+          "vi": "công cụ quản lý vận hành",
+          "definitionJa": "システムやネットワークの監視、パフォーマンス管理、障害対応などを支援するソフトウェア。",
+          "definitionVi": "Phần mềm hỗ trợ giám sát hệ thống và mạng, quản lý hiệu năng và xử lý sự cố."
+        },
+        {
+          "term": "TPモニター",
+          "reading": "てぃーぴーもにたー",
+          "english": "Transaction Processing Monitor",
+          "vi": "TP Monitor",
+          "definitionJa": "トランザクション処理に特化したミドルウェアで、複数のデータベースやアプリケーション間で処理を管理し、データの整合性を保つ。",
+          "definitionVi": "Middleware chuyên quản lý xử lý giao dịch giữa nhiều cơ sở dữ liệu hoặc ứng dụng và bảo đảm tính toàn vẹn của dữ liệu."
+        }
+      ],
+      "tags": [
+        "software",
+        "middleware",
+        "development-tool",
+        "operations-management",
+        "tp-monitor"
+      ]
+    },
+    {
+      "id": "shell-and-api",
+      "order": 3,
+      "titleJa": "シェルとAPI",
+      "titleVi": "Shell và API",
+      "importance": "high",
+      "summaryJa": "ユーザーとOSをつなぐシェルやコマンドインタプリタ、ソフトウェア間の連携に使われるAPIを理解する。",
+      "summaryVi": "Hiểu shell và command interpreter đóng vai trò kết nối người dùng với hệ điều hành, cùng API dùng cho việc liên kết giữa các phần mềm.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "シェルはユーザーとオペレーティングシステムの間に位置するインターフェースであり、入力されたコマンドを解釈して実行する。APIはプログラム同士が機能やデータを利用するための接続方法を定める。",
+          "vi": "Shell là giao diện nằm giữa người dùng và hệ điều hành, có nhiệm vụ diễn giải và thực thi lệnh. API quy định phương thức để các chương trình sử dụng chức năng hoặc dữ liệu của nhau."
+        },
+        {
+          "type": "point",
+          "ja": "シェルはユーザーからコマンドを受け付ける。",
+          "vi": "Shell nhận lệnh từ người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "コマンドインタプリタは入力された命令を解釈してOSへ伝える。",
+          "vi": "Command interpreter diễn giải lệnh nhập vào và truyền chỉ thị tới hệ điều hành."
+        },
+        {
+          "type": "point",
+          "ja": "APIを利用すると他のプログラムの機能を再利用できる。",
+          "vi": "API cho phép sử dụng lại chức năng của chương trình khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シェル",
+          "reading": "",
+          "english": "Shell",
+          "vi": "shell",
+          "definitionJa": "オペレーティングシステムとユーザーとの間をつなぐインターフェース。ユーザーからのコマンドを受け付けて実行する。",
+          "definitionVi": "Giao diện kết nối người dùng với hệ điều hành, nhận và thực thi các lệnh do người dùng nhập."
+        },
+        {
+          "term": "コマンドインタプリタ",
+          "reading": "",
+          "english": "Command Interpreter",
+          "vi": "trình thông dịch lệnh",
+          "definitionJa": "ユーザーから入力された命令を解釈し、オペレーティングシステムに指示を伝えるソフトウェア。",
+          "definitionVi": "Phần mềm diễn giải các lệnh được người dùng nhập vào và truyền chỉ thị tới hệ điều hành."
+        },
+        {
+          "term": "API",
+          "reading": "えーぴーあい",
+          "english": "Application Programming Interface",
+          "vi": "giao diện lập trình ứng dụng",
+          "definitionJa": "異なるソフトウェアやサービスが互いに通信し、相手の機能やデータを利用するための接続方法を定めたインターフェース。",
+          "definitionVi": "Giao diện quy định phương thức để các phần mềm hoặc dịch vụ khác nhau giao tiếp và sử dụng chức năng hoặc dữ liệu của nhau."
+        }
+      ],
+      "tags": [
+        "software",
+        "middleware",
+        "shell",
+        "command-interpreter",
+        "api"
+      ]
+    },
+    {
+      "id": "software-libraries",
+      "order": 4,
+      "titleJa": "ライブラリ",
+      "titleVi": "Thư viện phần mềm",
+      "importance": "high",
+      "summaryJa": "ソースライブラリ、オブジェクトライブラリ、ロードライブラリ、DLL、クラスライブラリなど、再利用可能なプログラム資源を理解する。",
+      "summaryVi": "Hiểu các tài nguyên chương trình có thể tái sử dụng như source library, object library, load library, DLL và class library.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ライブラリは、再利用可能なプログラムや機能をまとめたものである。保存されているコードの形式や利用する段階によって、ソースライブラリ、オブジェクトライブラリ、ロードライブラリなどに分類される。",
+          "vi": "Library là tập hợp các chương trình hoặc chức năng có thể tái sử dụng. Tùy theo dạng mã được lưu và giai đoạn sử dụng, có thể chia thành source library, object library và load library."
+        },
+        {
+          "type": "point",
+          "ja": "ソースライブラリはソースコードを集めたものである。",
+          "vi": "Source library là tập hợp mã nguồn."
+        },
+        {
+          "type": "point",
+          "ja": "DLLは複数のプログラムから共有して利用できる。",
+          "vi": "DLL có thể được nhiều chương trình dùng chung."
+        },
+        {
+          "type": "point",
+          "ja": "クラスライブラリは再利用可能なクラスやメソッドをまとめたものである。",
+          "vi": "Class library tập hợp các class và method có thể tái sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソースライブラリ",
+          "reading": "",
+          "english": "Source Library",
+          "vi": "thư viện mã nguồn",
+          "definitionJa": "ソフトウェア開発で再利用可能なソースコードを集めたライブラリ。",
+          "definitionVi": "Thư viện tập hợp các mã nguồn có thể tái sử dụng trong phát triển phần mềm."
+        },
+        {
+          "term": "オブジェクトライブラリ",
+          "reading": "",
+          "english": "Object Library",
+          "vi": "thư viện đối tượng",
+          "definitionJa": "コンパイルなどによって生成された再利用可能なオブジェクトコードや部品をまとめたライブラリ。",
+          "definitionVi": "Thư viện tập hợp các object code hoặc thành phần có thể tái sử dụng được tạo ra sau quá trình biên dịch."
+        },
+        {
+          "term": "ロードライブラリ",
+          "reading": "",
+          "english": "Load Library",
+          "vi": "thư viện nạp",
+          "definitionJa": "プログラム実行時に必要な機能やコードをメモリに読み込んで利用するためのライブラリ。",
+          "definitionVi": "Thư viện chứa chức năng hoặc mã được nạp vào bộ nhớ khi chương trình thực thi."
+        },
+        {
+          "term": "DLL",
+          "reading": "でぃーえるえる",
+          "english": "Dynamic Link Library",
+          "vi": "thư viện liên kết động",
+          "definitionJa": "複数のプログラムから共有して利用できる関数やデータなどを格納したファイル。",
+          "definitionVi": "Tệp chứa các hàm và dữ liệu có thể được nhiều chương trình dùng chung."
+        },
+        {
+          "term": "クラスライブラリ",
+          "reading": "",
+          "english": "Class Library",
+          "vi": "thư viện lớp",
+          "definitionJa": "プログラミングで利用する再利用可能なクラス、メソッド、データなどをまとめたライブラリ。",
+          "definitionVi": "Thư viện tập hợp các class, method và dữ liệu có thể tái sử dụng trong lập trình."
+        }
+      ],
+      "tags": [
+        "software",
+        "middleware",
+        "library",
+        "dll",
+        "class-library"
+      ]
+    },
+    {
+      "id": "component-technologies",
+      "order": 5,
+      "titleJa": "コンポーネント技術",
+      "titleVi": "Công nghệ component",
+      "importance": "medium",
+      "summaryJa": "コンポーネント、Java Beans、CORBA、OSGiなど、ソフトウェア部品の再利用やシステム連携を実現する技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ như component, Java Beans, CORBA và OSGi giúp tái sử dụng thành phần phần mềm và liên kết các hệ thống.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "コンポーネント技術では、特定の機能を持つソフトウェア部品を再利用可能な単位として扱う。既存の部品を組み合わせることで、開発時間を短縮し、保守性や拡張性を高めることができる。",
+          "vi": "Trong công nghệ component, các bộ phận phần mềm có chức năng cụ thể được xem như đơn vị có thể tái sử dụng. Bằng cách kết hợp các component có sẵn, có thể rút ngắn thời gian phát triển và cải thiện khả năng bảo trì, mở rộng."
+        },
+        {
+          "type": "point",
+          "ja": "Java BeansはJavaで利用される再利用可能なソフトウェアコンポーネントである。",
+          "vi": "Java Beans là component phần mềm có thể tái sử dụng trong Java."
+        },
+        {
+          "type": "point",
+          "ja": "CORBAは異なる言語やプラットフォーム間でオブジェクトを連携させる。",
+          "vi": "CORBA hỗ trợ liên kết các object giữa những ngôn ngữ và nền tảng khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "OSGiはJava環境でソフトウェアをモジュール単位で管理する。",
+          "vi": "OSGi quản lý phần mềm theo từng module trong môi trường Java."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンポーネント",
+          "reading": "",
+          "english": "Component",
+          "vi": "thành phần phần mềm",
+          "definitionJa": "特定の機能を持つプログラムやシステムの部品で、再利用可能な単位として扱われるもの。",
+          "definitionVi": "Bộ phận của chương trình hoặc hệ thống có chức năng cụ thể và có thể được tái sử dụng như một đơn vị độc lập."
+        },
+        {
+          "term": "Java Beans",
+          "reading": "じゃばびーんず",
+          "english": "Java Beans",
+          "vi": "Java Beans",
+          "definitionJa": "Javaプログラミング言語で開発された再利用可能なソフトウェアコンポーネント。",
+          "definitionVi": "Component phần mềm có thể tái sử dụng được phát triển bằng ngôn ngữ Java."
+        },
+        {
+          "term": "CORBA",
+          "reading": "こるば",
+          "english": "Common Object Request Broker Architecture",
+          "vi": "CORBA",
+          "definitionJa": "異なるプログラミング言語やプラットフォームで作られたアプリケーション同士がオブジェクトを介して通信するための標準的な技術。",
+          "definitionVi": "Công nghệ tiêu chuẩn cho phép các ứng dụng được viết bằng ngôn ngữ hoặc chạy trên nền tảng khác nhau giao tiếp thông qua object."
+        },
+        {
+          "term": "OSGi",
+          "reading": "おーえすじーあい",
+          "english": "OSGi",
+          "vi": "OSGi",
+          "definitionJa": "Javaプラットフォームでソフトウェアを複数の小さなモジュールに分割し、動的に追加、更新、管理するためのコンポーネント管理技術。",
+          "definitionVi": "Công nghệ quản lý component trên nền tảng Java, cho phép chia phần mềm thành các module nhỏ và thêm, cập nhật hoặc quản lý chúng linh hoạt."
+        }
+      ],
+      "tags": [
+        "software",
+        "middleware",
+        "component",
+        "java-beans",
+        "corba",
+        "osgi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "open-source-software",
+  "order": 5,
+  "titleJa": "オープンソースソフトウェア",
+  "titleVi": "Phần mềm mã nguồn mở",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "oss-basics",
+      "order": 1,
+      "titleJa": "OSSの基本",
+      "titleVi": "Kiến thức cơ bản về OSS",
+      "importance": "high",
+      "summaryJa": "OSSの特徴と、代表的なオープンソース環境であるLAMP／LAPP、Linuxカーネルについて理解する。",
+      "summaryVi": "Hiểu đặc điểm của OSS, mô hình LAMP/LAPP và Linux kernel.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSSはソースコードが公開され、ライセンスの条件に従って利用、改良、再配布できるソフトウェアである。代表例にはLinuxなどがある。また、WebシステムではLinux、Apache、MySQLまたはPostgreSQL、PHPを組み合わせたLAMP／LAPP構成が利用される。",
+          "vi": "OSS là phần mềm có mã nguồn được công khai và có thể sử dụng, sửa đổi, phân phối lại theo điều kiện của giấy phép. Linux là một ví dụ tiêu biểu. Trong hệ thống Web, LAMP/LAPP kết hợp Linux, Apache, MySQL hoặc PostgreSQL và PHP."
+        },
+        {
+          "type": "point",
+          "ja": "OSSではソースコードが公開されている。",
+          "vi": "OSS công khai mã nguồn."
+        },
+        {
+          "type": "point",
+          "ja": "LAMPはLinux、Apache、MySQL、PHPの組合せである。",
+          "vi": "LAMP là sự kết hợp của Linux, Apache, MySQL và PHP."
+        },
+        {
+          "type": "point",
+          "ja": "LAPPではMySQLの代わりにPostgreSQLを使用する。",
+          "vi": "LAPP sử dụng PostgreSQL thay cho MySQL."
+        },
+        {
+          "type": "point",
+          "ja": "Linuxカーネルはプロセス管理、メモリ管理、デバイス管理などを担う。",
+          "vi": "Linux kernel đảm nhiệm quản lý process, bộ nhớ, thiết bị..."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OSS",
+          "reading": "おーぷんそーすすふとうぇあ",
+          "english": "Open Source Software",
+          "vi": "phần mềm mã nguồn mở",
+          "definitionJa": "ソースコードが公開され、ライセンスの条件に従って誰でも利用、改良、再配布できるソフトウェア。",
+          "definitionVi": "Phần mềm có mã nguồn được công khai, cho phép sử dụng, sửa đổi và phân phối lại theo các điều kiện của giấy phép."
+        },
+        {
+          "term": "LAMP／LAPP",
+          "reading": "らんぷ・らっぷ",
+          "english": "Linux-Apache-MySQL-PHP / Linux-Apache-PostgreSQL-PHP",
+          "vi": "bộ phần mềm LAMP/LAPP",
+          "definitionJa": "Linux、Apache、MySQLまたはPostgreSQL、PHPを組み合わせたオープンソースのソフトウェアスタック。",
+          "definitionVi": "Bộ phần mềm mã nguồn mở gồm Linux, Apache, MySQL hoặc PostgreSQL và PHP, thường được dùng để xây dựng hệ thống Web."
+        },
+        {
+          "term": "Linuxカーネル",
+          "reading": "りなっくすかーねる",
+          "english": "Linux Kernel",
+          "vi": "nhân Linux",
+          "definitionJa": "Linux OSの中核部分で、プロセス管理、メモリ管理、デバイスドライバなどの基本機能を提供する。",
+          "definitionVi": "Phần lõi của hệ điều hành Linux, cung cấp các chức năng cơ bản như quản lý process, bộ nhớ và driver thiết bị."
+        }
+      ],
+      "tags": ["oss", "lamp", "lapp", "linux-kernel"]
+    },
+    {
+      "id": "oss-languages-libraries",
+      "order": 2,
+      "titleJa": "OSSの言語とライブラリ",
+      "titleVi": "Ngôn ngữ và thư viện OSS",
+      "importance": "medium",
+      "summaryJa": "OSSとして利用される代表的なプログラミング言語、ライブラリ、リポジトリについて理解する。",
+      "summaryVi": "Hiểu các ngôn ngữ lập trình, thư viện và kho module tiêu biểu trong môi trường OSS.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSSの世界では、Perl、Python、Rubyなどのプログラミング言語や、多数のオープンソースライブラリが利用されている。CPANはPerlのモジュールを提供するリポジトリであり、PEARはPHP向けの再利用可能なパッケージを提供する。jQueryはJavaScriptの代表的なライブラリである。",
+          "vi": "Trong hệ sinh thái OSS có các ngôn ngữ như Perl, Python, Ruby cùng nhiều thư viện mã nguồn mở. CPAN cung cấp module cho Perl, PEAR cung cấp package tái sử dụng cho PHP và jQuery là thư viện JavaScript phổ biến."
+        },
+        {
+          "type": "point",
+          "ja": "CPANはPerlのモジュールやライブラリを提供する。",
+          "vi": "CPAN cung cấp module và thư viện cho Perl."
+        },
+        {
+          "type": "point",
+          "ja": "PEARはPHP向けのパッケージを提供する。",
+          "vi": "PEAR cung cấp package cho PHP."
+        },
+        {
+          "type": "point",
+          "ja": "jQueryはJavaScriptのライブラリである。",
+          "vi": "jQuery là thư viện JavaScript."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Perl",
+          "reading": "ぱーる",
+          "english": "Perl",
+          "vi": "Perl",
+          "definitionJa": "テキスト処理、システム管理、Web開発などに利用されるプログラミング言語。文字列処理や正規表現を得意とする。",
+          "definitionVi": "Ngôn ngữ lập trình được dùng cho xử lý văn bản, quản trị hệ thống và phát triển Web, đặc biệt mạnh về xử lý chuỗi và biểu thức chính quy."
+        },
+        {
+          "term": "Python",
+          "reading": "ぱいそん",
+          "english": "Python",
+          "vi": "Python",
+          "definitionJa": "シンプルな文法と豊富なライブラリを特徴とし、データ分析、人工知能、Web開発など幅広い分野で利用されるプログラミング言語。",
+          "definitionVi": "Ngôn ngữ lập trình có cú pháp đơn giản và hệ sinh thái thư viện phong phú, được sử dụng trong phân tích dữ liệu, AI, Web và nhiều lĩnh vực khác."
+        },
+        {
+          "term": "Ruby",
+          "reading": "るびー",
+          "english": "Ruby",
+          "vi": "Ruby",
+          "definitionJa": "シンプルで表現力の高い構文を特徴とするオブジェクト指向プログラミング言語。Ruby on Railsなどでも知られている。",
+          "definitionVi": "Ngôn ngữ lập trình hướng đối tượng với cú pháp đơn giản, giàu tính biểu đạt, được biết đến rộng rãi qua Ruby on Rails."
+        },
+        {
+          "term": "オープンソースライブラリ",
+          "reading": "",
+          "english": "Open Source Library",
+          "vi": "thư viện mã nguồn mở",
+          "definitionJa": "ソースコードが公開され、ライセンス条件に従って利用、変更、配布できるライブラリ。",
+          "definitionVi": "Thư viện có mã nguồn công khai và có thể được sử dụng, sửa đổi, phân phối theo điều kiện giấy phép."
+        },
+        {
+          "term": "CPAN",
+          "reading": "しーぱん",
+          "english": "Comprehensive Perl Archive Network",
+          "vi": "kho module Perl CPAN",
+          "definitionJa": "Perlで利用できる多数のモジュールやライブラリを集めたリポジトリ。",
+          "definitionVi": "Kho chứa số lượng lớn module và thư viện có thể sử dụng với Perl."
+        },
+        {
+          "term": "PEAR",
+          "reading": "ぺあー",
+          "english": "PEAR",
+          "vi": "kho package PEAR cho PHP",
+          "definitionJa": "PHPプログラム向けの再利用可能な拡張モジュールやライブラリを提供するオープンソースプロジェクト。",
+          "definitionVi": "Dự án mã nguồn mở cung cấp các module mở rộng và thư viện có thể tái sử dụng cho PHP."
+        },
+        {
+          "term": "jQuery",
+          "reading": "じぇいくえりー",
+          "english": "jQuery",
+          "vi": "thư viện jQuery",
+          "definitionJa": "DOM操作、イベント処理、Ajax通信などのJavaScript処理を簡潔に記述するためのライブラリ。",
+          "definitionVi": "Thư viện JavaScript giúp viết ngắn gọn các xử lý như DOM, event và Ajax."
+        }
+      ],
+      "tags": ["perl", "python", "ruby", "library", "cpan", "pear", "jquery"]
+    },
+    {
+      "id": "oss-licenses",
+      "order": 3,
+      "titleJa": "OSSライセンス",
+      "titleVi": "Giấy phép OSS",
+      "importance": "high",
+      "summaryJa": "コピーレフト、デュアルライセンス、GPL、MPL、Apacheライセンスの基本的な考え方を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về copyleft, dual license, GPL, MPL và Apache License.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSSを利用、変更、再配布するときにはライセンス条件を確認する必要がある。コピーレフトは、改変したソフトウェアにも同様の自由を維持させる考え方であり、GPLが代表的である。一方、MPLやApacheライセンスなど、それぞれ異なる条件を持つOSSライセンスも存在する。",
+          "vi": "Khi sử dụng, sửa đổi hoặc phân phối lại OSS cần kiểm tra điều kiện giấy phép. Copyleft nhằm duy trì các quyền tự do tương tự đối với phần mềm đã sửa đổi, với GPL là ví dụ tiêu biểu. MPL và Apache License có các điều kiện khác."
+        },
+        {
+          "type": "point",
+          "ja": "GPLはコピーレフトの代表的なライセンスである。",
+          "vi": "GPL là giấy phép tiêu biểu cho tư tưởng copyleft."
+        },
+        {
+          "type": "point",
+          "ja": "デュアルライセンスでは、複数のライセンスから利用条件を選択できる場合がある。",
+          "vi": "Dual licensing cho phép phần mềm được cung cấp theo hai giấy phép khác nhau và người dùng có thể lựa chọn theo điều kiện áp dụng."
+        },
+        {
+          "type": "point",
+          "ja": "OSSでもライセンス条件を守る必要がある。",
+          "vi": "Dù là OSS vẫn phải tuân thủ các điều kiện của giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コピーレフト",
+          "reading": "",
+          "english": "Copyleft",
+          "vi": "copyleft",
+          "definitionJa": "ソフトウェアの利用や改変を許可する一方、そのソフトウェアを基にした派生物にも同様の条件での公開を求める考え方。",
+          "definitionVi": "Quan điểm cho phép sử dụng và sửa đổi phần mềm nhưng yêu cầu sản phẩm phái sinh tiếp tục được cung cấp theo các điều kiện bảo đảm quyền tự do tương tự."
+        },
+        {
+          "term": "デュアルライセンス",
+          "reading": "",
+          "english": "Dual License",
+          "vi": "giấy phép kép",
+          "definitionJa": "一つのソフトウェアを二つの異なるライセンス条件で提供する方式。",
+          "definitionVi": "Hình thức cung cấp cùng một phần mềm dưới hai giấy phép khác nhau."
+        },
+        {
+          "term": "GPL",
+          "reading": "じーぴーえる",
+          "english": "GNU General Public License",
+          "vi": "Giấy phép Công cộng GNU",
+          "definitionJa": "ソフトウェアの利用、修正、再配布を認め、改変したソフトウェアの配布時にも同様のライセンス条件を求める代表的なOSSライセンス。",
+          "definitionVi": "Giấy phép OSS cho phép sử dụng, sửa đổi và phân phối lại, đồng thời đặt ra điều kiện copyleft khi phân phối phiên bản đã sửa đổi."
+        },
+        {
+          "term": "MPL",
+          "reading": "えむぴーえる",
+          "english": "MPL",
+          "vi": "MPL",
+          "definitionJa": "ソフトウェアの使用、改変、再配布を認めながら、変更した対象コードについてライセンス条件に基づく公開を求めるOSSライセンス。",
+          "definitionVi": "Giấy phép OSS cho phép sử dụng, sửa đổi và phân phối lại, đồng thời đặt điều kiện công khai đối với phần mã thuộc phạm vi của giấy phép khi được sửa đổi và phân phối."
+        },
+        {
+          "term": "Apacheライセンス",
+          "reading": "あぱっちらいせんす",
+          "english": "Apache License",
+          "vi": "Giấy phép Apache",
+          "definitionJa": "Apache Software Foundationが提供するソフトウェアなどに適用されるOSSライセンス。利用、変更、再配布を広く認める。",
+          "definitionVi": "Giấy phép OSS được áp dụng cho phần mềm của Apache Software Foundation và các dự án khác, cho phép rộng rãi việc sử dụng, sửa đổi và phân phối lại."
+        }
+      ],
+      "tags": ["license", "copyleft", "dual-license", "gpl", "mpl", "apache-license"]
+    },
+    {
+      "id": "open-source-operating-systems",
+      "order": 4,
+      "titleJa": "オープンソースOS",
+      "titleVi": "Hệ điều hành mã nguồn mở",
+      "importance": "medium",
+      "summaryJa": "代表的なオープンソースのUNIX系OSであるNetBSD、Linux、FreeBSD、OpenBSDの特徴を理解する。",
+      "summaryVi": "Hiểu đặc điểm của các hệ điều hành mã nguồn mở kiểu UNIX như NetBSD, Linux, FreeBSD và OpenBSD.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "オープンソースのOSにはLinuxのほか、NetBSD、FreeBSD、OpenBSDなどがある。それぞれ異なる特徴を持ち、NetBSDは移植性、FreeBSDは性能や安定性、OpenBSDは安全性やセキュリティを重視している。",
+          "vi": "Ngoài Linux, các hệ điều hành mã nguồn mở còn có NetBSD, FreeBSD và OpenBSD. Mỗi hệ điều hành có đặc trưng riêng: NetBSD chú trọng tính khả chuyển, FreeBSD chú trọng hiệu năng và ổn định, OpenBSD đặc biệt chú trọng an toàn và bảo mật."
+        },
+        {
+          "type": "point",
+          "ja": "NetBSDは高い移植性を特徴とする。",
+          "vi": "NetBSD nổi bật về tính khả chuyển."
+        },
+        {
+          "type": "point",
+          "ja": "OpenBSDは安全性やセキュリティを重視する。",
+          "vi": "OpenBSD đặc biệt chú trọng an toàn và bảo mật."
+        },
+        {
+          "type": "point",
+          "ja": "FreeBSDはサーバからデスクトップまで幅広い用途で利用される。",
+          "vi": "FreeBSD được sử dụng trong nhiều mục đích từ server đến desktop."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NetBSD",
+          "reading": "ねっとびーえすでぃー",
+          "english": "NetBSD",
+          "vi": "NetBSD",
+          "definitionJa": "高い移植性を特徴とし、多くのハードウェアプラットフォームで動作することを目的としたオープンソースのUNIX系OS。",
+          "definitionVi": "Hệ điều hành UNIX mã nguồn mở nổi bật với tính khả chuyển cao và được thiết kế để hoạt động trên nhiều nền tảng phần cứng."
+        },
+        {
+          "term": "Linux",
+          "reading": "りなっくす",
+          "english": "Linux",
+          "vi": "Linux",
+          "definitionJa": "UNIX系のオペレーティングシステムの一種で、オープンソースとして広く利用されている。",
+          "definitionVi": "Một hệ điều hành kiểu UNIX được cung cấp dưới mô hình mã nguồn mở và được sử dụng rộng rãi."
+        },
+        {
+          "term": "FreeBSD",
+          "reading": "ふりーびーえすでぃー",
+          "english": "Free Berkeley Software Distribution",
+          "vi": "FreeBSD",
+          "definitionJa": "Berkeley Software Distributionの流れを汲むオープンソースのUNIX系OSで、高い性能、安定性、セキュリティを特徴とする。",
+          "definitionVi": "Hệ điều hành UNIX mã nguồn mở có nguồn gốc từ Berkeley Software Distribution, nổi bật về hiệu năng, độ ổn định và bảo mật."
+        },
+        {
+          "term": "OpenBSD",
+          "reading": "おーぷんびーえすでぃー",
+          "english": "OpenBSD",
+          "vi": "OpenBSD",
+          "definitionJa": "安全性やセキュリティを重視して開発されているオープンソースのUNIX系OS。",
+          "definitionVi": "Hệ điều hành UNIX mã nguồn mở được phát triển với trọng tâm đặc biệt vào an toàn và bảo mật."
+        }
+      ],
+      "tags": ["netbsd", "linux", "freebsd", "openbsd", "unix"]
+    },
+    {
+      "id": "oss-standardization-quality",
+      "order": 5,
+      "titleJa": "標準化と品質",
+      "titleVi": "Tiêu chuẩn hóa và chất lượng",
+      "importance": "medium",
+      "summaryJa": "The Open Groupの役割と、安全性・信頼性というOSS利用時の重要な品質観点を理解する。また、BSDLについて理解する。",
+      "summaryVi": "Hiểu vai trò của The Open Group, các yếu tố an toàn và độ tin cậy khi sử dụng OSS, cùng khái niệm BSDL.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "The Open GroupはUNIX系OSなどの標準化や互換性を推進する団体である。また、OSSを利用する際には、安全性と信頼性を考慮することが重要である。BSDLは集積回路のテストやデバッグで使用される言語で、ハードウェアの端子や接続状態を記述する。",
+          "vi": "The Open Group thúc đẩy tiêu chuẩn hóa và khả năng tương thích, đặc biệt liên quan đến các hệ thống UNIX. Khi sử dụng OSS cần quan tâm đến an toàn và độ tin cậy. BSDL là ngôn ngữ dùng trong kiểm thử và debug mạch tích hợp, mô tả chân và trạng thái kết nối của phần cứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BSDL",
+          "reading": "びーえすでぃーえる",
+          "english": "Boundary Scan Description Language",
+          "vi": "ngôn ngữ mô tả Boundary Scan",
+          "definitionJa": "集積回路のテストやデバッグに利用され、電子回路の端子や接続状態などを記述するための言語。",
+          "definitionVi": "Ngôn ngữ dùng trong kiểm thử và debug mạch tích hợp, dùng để mô tả chân và trạng thái kết nối của mạch điện tử."
+        },
+        {
+          "term": "The Open Group",
+          "reading": "ざおーぷんぐるーぷ",
+          "english": "The Open Group",
+          "vi": "The Open Group",
+          "definitionJa": "UNIX系OSなどの標準化や互換性を推進し、技術標準や認証プログラムなどを運営する国際的な業界団体。",
+          "definitionVi": "Tổ chức công nghiệp quốc tế thúc đẩy tiêu chuẩn hóa và khả năng tương thích, đặc biệt đối với các hệ thống UNIX, đồng thời quản lý các tiêu chuẩn và chương trình chứng nhận."
+        },
+        {
+          "term": "安全性",
+          "reading": "あんぜんせい",
+          "english": "Safety",
+          "vi": "tính an toàn",
+          "definitionJa": "システムやアプリケーションが不正アクセスや故障などから保護され、信頼できる状態で運用できる性質。",
+          "definitionVi": "Tính chất cho phép hệ thống hoặc ứng dụng được bảo vệ khỏi truy cập trái phép, lỗi và các nguy cơ khác để có thể vận hành an toàn."
+        },
+        {
+          "term": "信頼性",
+          "reading": "しんらいせい",
+          "english": "Reliability",
+          "vi": "độ tin cậy",
+          "definitionJa": "システムが正しく機能し続け、安定した稼働を維持できる能力。",
+          "definitionVi": "Khả năng hệ thống tiếp tục hoạt động chính xác và duy trì trạng thái vận hành ổn định."
+        }
+      ],
+      "tags": ["bsdl", "open-group", "safety", "reliability"]
+    }
+  ]
+}

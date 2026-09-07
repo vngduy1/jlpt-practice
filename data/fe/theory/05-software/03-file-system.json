@@ -1,0 +1,384 @@
+{
+  "id": "file-system",
+  "order": 3,
+  "titleJa": "ファイルシステム",
+  "titleVi": "Hệ thống tệp",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "path-and-directory",
+      "order": 1,
+      "titleJa": "パスとディレクトリ",
+      "titleVi": "Đường dẫn và thư mục",
+      "importance": "high",
+      "summaryJa": "ファイルやディレクトリの位置を表すパスと、ディレクトリ構造に関する基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về đường dẫn dùng để xác định vị trí file, thư mục và cấu trúc thư mục.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ファイルシステムでは、ファイルやディレクトリの場所をパスによって表す。絶対パスはルートディレクトリからの完全な経路を示し、相対パスは現在の作業ディレクトリを基準として場所を示す。ルートディレクトリは階層構造の最上位にあり、カレントディレクトリは現在操作しているディレクトリを表す。",
+          "vi": "Trong hệ thống tệp, vị trí của file và thư mục được biểu diễn bằng đường dẫn. Đường dẫn tuyệt đối chỉ toàn bộ đường đi từ thư mục gốc, còn đường dẫn tương đối xác định vị trí dựa trên thư mục làm việc hiện tại. Root directory là cấp cao nhất của cấu trúc phân cấp, còn current directory là thư mục đang được thao tác."
+        },
+        {
+          "type": "point",
+          "ja": "絶対パスはルートディレクトリから目的の場所までをすべて記述する。",
+          "vi": "Đường dẫn tuyệt đối mô tả toàn bộ đường đi từ thư mục gốc."
+        },
+        {
+          "type": "point",
+          "ja": "相対パスはカレントディレクトリを基準にする。",
+          "vi": "Đường dẫn tương đối lấy thư mục hiện tại làm mốc."
+        },
+        {
+          "type": "point",
+          "ja": "ルートディレクトリはディレクトリ階層の最上位である。",
+          "vi": "Root directory là cấp cao nhất trong cây thư mục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "絶対パス",
+          "reading": "ぜったいぱす",
+          "english": "Absolute Path",
+          "vi": "đường dẫn tuyệt đối",
+          "definitionJa": "ファイルやディレクトリの位置を、ルートから目的の場所までの完全な経路で表したもの。",
+          "definitionVi": "Cách biểu diễn vị trí của file hoặc thư mục bằng toàn bộ đường đi từ thư mục gốc đến vị trí đích."
+        },
+        {
+          "term": "相対パス",
+          "reading": "そうたいぱす",
+          "english": "Relative Path",
+          "vi": "đường dẫn tương đối",
+          "definitionJa": "現在の作業ディレクトリを基準として、ファイルやディレクトリの位置を表す方法。",
+          "definitionVi": "Cách biểu diễn vị trí file hoặc thư mục dựa trên thư mục làm việc hiện tại."
+        },
+        {
+          "term": "ルートディレクトリ",
+          "reading": "",
+          "english": "Root Directory",
+          "vi": "thư mục gốc",
+          "definitionJa": "ファイルシステムの階層構造における最上位のディレクトリ。",
+          "definitionVi": "Thư mục nằm ở cấp cao nhất trong cấu trúc phân cấp của hệ thống tệp."
+        },
+        {
+          "term": "カレントディレクトリ",
+          "reading": "",
+          "english": "Current Directory",
+          "vi": "thư mục hiện tại",
+          "definitionJa": "現在ファイル操作などを行っている基準となるディレクトリ。",
+          "definitionVi": "Thư mục đang được sử dụng làm vị trí cơ sở cho các thao tác file hiện tại."
+        }
+      ],
+      "tags": [
+        "software",
+        "file-system",
+        "path",
+        "directory"
+      ]
+    },
+    {
+      "id": "references-and-links",
+      "order": 2,
+      "titleJa": "参照とリンク",
+      "titleVi": "Tham chiếu và liên kết",
+      "importance": "medium",
+      "summaryJa": "ファイルやディレクトリを効率よく参照するためのリンク、ショートカット、エイリアスなどを理解する。",
+      "summaryVi": "Hiểu symbolic link, shortcut, alias và các cơ chế tham chiếu giúp truy cập file, thư mục hiệu quả.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ファイルシステムでは、目的のファイルやディレクトリへ効率的にアクセスするため、さまざまな参照方法が用いられる。シンボリックリンク、ショートカット、エイリアスなどを利用すると、実体を別の場所に保存したまま簡単にアクセスできる。",
+          "vi": "Hệ thống tệp sử dụng nhiều phương thức tham chiếu để truy cập file và thư mục hiệu quả. Symbolic link, shortcut và alias cho phép truy cập nhanh đến đối tượng trong khi dữ liệu thực vẫn được lưu tại vị trí khác."
+        },
+        {
+          "type": "point",
+          "ja": "シンボリックリンクは別のファイルやディレクトリへの参照を持つ。",
+          "vi": "Symbolic link chứa tham chiếu tới file hoặc thư mục khác."
+        },
+        {
+          "type": "point",
+          "ja": "ショートカットは目的のファイルやアプリケーションへのアクセスを簡略化する。",
+          "vi": "Shortcut giúp truy cập nhanh đến file hoặc ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "エイリアスは長い名前などを短い別名で扱うために利用される。",
+          "vi": "Alias dùng tên thay thế ngắn hơn để thao tác thuận tiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "参照情報",
+          "reading": "さんしょうじょうほう",
+          "english": "Reference Information",
+          "vi": "thông tin tham chiếu",
+          "definitionJa": "ファイルやディレクトリなどの情報資源を整理し、目的のデータを参照するために利用される情報。",
+          "definitionVi": "Thông tin được sử dụng để tổ chức và tham chiếu tới các tài nguyên như file và thư mục."
+        },
+        {
+          "term": "シンボリックリンク",
+          "reading": "",
+          "english": "Symbolic Link",
+          "vi": "liên kết tượng trưng",
+          "definitionJa": "別のファイルやディレクトリへの参照を保持する特殊なファイル。",
+          "definitionVi": "Một loại file đặc biệt chứa tham chiếu đến file hoặc thư mục khác."
+        },
+        {
+          "term": "ショートカット",
+          "reading": "",
+          "english": "Shortcut",
+          "vi": "lối tắt",
+          "definitionJa": "ファイルやフォルダ、アプリケーションなどへ簡単にアクセスするための機能。",
+          "definitionVi": "Chức năng giúp truy cập nhanh tới file, thư mục hoặc ứng dụng."
+        },
+        {
+          "term": "エイリアス",
+          "reading": "",
+          "english": "Alias",
+          "vi": "bí danh / tên thay thế",
+          "definitionJa": "ファイルやディレクトリ、コマンドなどに別の短い名前を付けて利用する機能。",
+          "definitionVi": "Chức năng đặt một tên khác, thường ngắn hơn, cho file, thư mục hoặc lệnh."
+        }
+      ],
+      "tags": [
+        "software",
+        "file-system",
+        "reference",
+        "symbolic-link",
+        "shortcut",
+        "alias"
+      ]
+    },
+    {
+      "id": "file-system-and-storage",
+      "order": 3,
+      "titleJa": "ファイルシステムと記憶領域",
+      "titleVi": "Hệ thống tệp và vùng lưu trữ",
+      "importance": "high",
+      "summaryJa": "ファイルの検索や管理、FATやNTFSなどのファイルシステム、ボリュームやあふれ域について理解する。",
+      "summaryVi": "Hiểu phương thức tìm kiếm và quản lý file, các hệ thống tệp như FAT, NTFS, volume và overflow area.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ファイルシステムは、記憶装置上のデータをファイルやディレクトリとして管理する仕組みである。FATやNTFSなどの方式があり、それぞれファイルの位置、アクセス権、データの整合性などを管理する。ボリュームはファイルシステムが管理する論理的な記憶領域である。",
+          "vi": "Hệ thống tệp là cơ chế quản lý dữ liệu trên thiết bị lưu trữ dưới dạng file và thư mục. Có nhiều loại như FAT và NTFS, chịu trách nhiệm quản lý vị trí file, quyền truy cập và tính toàn vẹn dữ liệu. Volume là vùng lưu trữ logic do hệ thống tệp quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FATはファイルの格納位置を管理するためのテーブルを利用する。",
+          "vi": "FAT sử dụng bảng để quản lý vị trí lưu trữ của file."
+        },
+        {
+          "type": "point",
+          "ja": "NTFSはアクセス制御やジャーナリング機能を備える。",
+          "vi": "NTFS hỗ trợ kiểm soát truy cập và journaling."
+        },
+        {
+          "type": "point",
+          "ja": "ボリュームは論理的なデータ格納単位である。",
+          "vi": "Volume là đơn vị lưu trữ dữ liệu mang tính logic."
+        }
+      ],
+      "terms": [
+        {
+          "term": "検索手法",
+          "reading": "けんさくしゅほう",
+          "english": "Search Methods",
+          "vi": "phương pháp tìm kiếm",
+          "definitionJa": "ファイルや情報を一定の条件に基づいて効率よく探し出すための方法。",
+          "definitionVi": "Phương pháp tìm kiếm file hoặc thông tin hiệu quả dựa trên những điều kiện nhất định."
+        },
+        {
+          "term": "FATファイルシステム",
+          "reading": "えふえーてぃーふぁいるしすてむ",
+          "english": "File Allocation Table File System",
+          "vi": "hệ thống tệp FAT",
+          "definitionJa": "ファイルが記憶装置上のどの領域に保存されているかをFile Allocation Tableで管理するファイルシステム。",
+          "definitionVi": "Hệ thống tệp sử dụng File Allocation Table để quản lý vị trí các file trên thiết bị lưu trữ."
+        },
+        {
+          "term": "NTFS",
+          "reading": "えぬてぃーえふえす",
+          "english": "New Technology File System",
+          "vi": "hệ thống tệp NTFS",
+          "definitionJa": "主にWindowsで使用され、アクセス制御やジャーナリングなどを備えたファイルシステム。",
+          "definitionVi": "Hệ thống tệp chủ yếu dùng trên Windows, hỗ trợ kiểm soát truy cập và journaling."
+        },
+        {
+          "term": "ボリューム",
+          "reading": "",
+          "english": "Volume",
+          "vi": "volume / ổ đĩa logic",
+          "definitionJa": "ファイルシステムによって一つの記憶領域として管理される論理的なデータ格納単位。",
+          "definitionVi": "Đơn vị lưu trữ logic được hệ thống tệp quản lý như một vùng lưu trữ độc lập."
+        },
+        {
+          "term": "あふれ域",
+          "reading": "あふれいき",
+          "english": "Overflow Area",
+          "vi": "vùng tràn",
+          "definitionJa": "主となる記憶領域の容量を超えたデータなどを一時的または追加的に格納するための領域。",
+          "definitionVi": "Vùng lưu trữ được sử dụng khi dữ liệu vượt quá dung lượng của vùng lưu trữ chính."
+        }
+      ],
+      "tags": [
+        "software",
+        "file-system",
+        "fat",
+        "ntfs",
+        "volume",
+        "storage"
+      ]
+    },
+    {
+      "id": "data-access-methods",
+      "order": 4,
+      "titleJa": "データアクセス方式",
+      "titleVi": "Phương thức truy cập dữ liệu",
+      "importance": "high",
+      "summaryJa": "順次アクセス、直接アクセス、動的アクセスの違いと特徴を理解する。",
+      "summaryVi": "Hiểu sự khác nhau và đặc điểm của sequential access, direct access và dynamic access.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "記憶装置上のデータへアクセスする方法には、順次アクセス、直接アクセス、動的アクセスなどがある。順次アクセスではデータを記録順に読み取り、直接アクセスでは目的の場所を直接指定してアクセスする。動的アクセスでは状況や要求に応じてアクセス位置や方法を変える。",
+          "vi": "Có nhiều phương thức truy cập dữ liệu trên thiết bị lưu trữ như sequential access, direct access và dynamic access. Sequential access đọc theo thứ tự lưu trữ, direct access truy cập trực tiếp tới vị trí cần thiết, còn dynamic access thay đổi vị trí hoặc cách truy cập tùy tình huống."
+        },
+        {
+          "type": "point",
+          "ja": "順次アクセスは先頭から順番にデータを読み取る。",
+          "vi": "Sequential access đọc dữ liệu theo thứ tự."
+        },
+        {
+          "type": "point",
+          "ja": "直接アクセスは目的のデータ位置を直接指定できる。",
+          "vi": "Direct access có thể chỉ định trực tiếp vị trí dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "動的アクセスは状況に応じてアクセス方法を変える。",
+          "vi": "Dynamic access thay đổi cách truy cập tùy theo tình huống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "順次アクセス",
+          "reading": "じゅんじあくせす",
+          "english": "Sequential Access",
+          "vi": "truy cập tuần tự",
+          "definitionJa": "データを記録された順番に読み書きするアクセス方式。",
+          "definitionVi": "Phương thức đọc hoặc ghi dữ liệu theo thứ tự dữ liệu được lưu."
+        },
+        {
+          "term": "直接アクセス",
+          "reading": "ちょくせつあくせす",
+          "english": "Direct Access",
+          "vi": "truy cập trực tiếp",
+          "definitionJa": "データの格納位置を指定し、目的のデータへ直接アクセスする方式。",
+          "definitionVi": "Phương thức chỉ định vị trí lưu trữ và truy cập trực tiếp đến dữ liệu cần thiết."
+        },
+        {
+          "term": "動的アクセス",
+          "reading": "どうてきあくせす",
+          "english": "Dynamic Access",
+          "vi": "truy cập động",
+          "definitionJa": "利用状況や要求などに応じて、データの格納場所や参照方法を動的に変更しながらアクセスする方式。",
+          "definitionVi": "Phương thức truy cập thay đổi động vị trí hoặc cách tham chiếu dữ liệu tùy theo tình huống và yêu cầu."
+        }
+      ],
+      "tags": [
+        "software",
+        "file-system",
+        "sequential-access",
+        "direct-access",
+        "dynamic-access"
+      ]
+    },
+    {
+      "id": "backup-management",
+      "order": 5,
+      "titleJa": "バックアップ管理",
+      "titleVi": "Quản lý sao lưu",
+      "importance": "high",
+      "summaryJa": "世代管理、多重バックアップ、フル・差分・増分バックアップの仕組みと違いを理解する。",
+      "summaryVi": "Hiểu generation management, multiple backups và sự khác nhau giữa full, differential và incremental backup.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データ損失に備えるため、ファイルシステムではさまざまなバックアップ方式が利用される。フルバックアップは全データを保存し、差分バックアップは直近のフルバックアップ以降の変更を保存する。増分バックアップは直前のバックアップ以降に変更されたデータだけを保存する。",
+          "vi": "Để phòng tránh mất dữ liệu, nhiều phương thức sao lưu được sử dụng. Full backup lưu toàn bộ dữ liệu, differential backup lưu các thay đổi kể từ lần full backup gần nhất, còn incremental backup chỉ lưu những thay đổi kể từ lần backup ngay trước đó."
+        },
+        {
+          "type": "point",
+          "ja": "世代管理では複数時点のバックアップを世代別に保持する。",
+          "vi": "Generation management giữ nhiều bản backup theo từng thế hệ/thời điểm."
+        },
+        {
+          "type": "point",
+          "ja": "フルバックアップは対象データをすべて保存する。",
+          "vi": "Full backup sao lưu toàn bộ dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "差分バックアップは最新のフルバックアップ以降の変更分を保存する。",
+          "vi": "Differential backup lưu các thay đổi kể từ full backup gần nhất."
+        },
+        {
+          "type": "point",
+          "ja": "増分バックアップは前回のバックアップ以降の変更分だけを保存する。",
+          "vi": "Incremental backup chỉ lưu thay đổi kể từ lần backup trước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "世代管理",
+          "reading": "せだいかんり",
+          "english": "Generation Management",
+          "vi": "quản lý thế hệ backup",
+          "definitionJa": "異なる時点で作成したバックアップを複数の世代として保存し、必要に応じて過去の状態へ復元できるように管理する方法。",
+          "definitionVi": "Phương pháp lưu nhiều bản backup tại các thời điểm khác nhau theo từng thế hệ để có thể khôi phục về trạng thái trước đó."
+        },
+        {
+          "term": "多重バックアップ",
+          "reading": "たじゅうばっくあっぷ",
+          "english": "Multiple Backups",
+          "vi": "sao lưu nhiều bản",
+          "definitionJa": "同じデータのバックアップを複数の場所や媒体に保存する方法。",
+          "definitionVi": "Phương pháp lưu nhiều bản sao lưu của cùng một dữ liệu tại nhiều vị trí hoặc phương tiện khác nhau."
+        },
+        {
+          "term": "フルバックアップ",
+          "reading": "",
+          "english": "Full Backup",
+          "vi": "sao lưu toàn bộ",
+          "definitionJa": "対象となるすべてのファイルやデータを完全にコピーして保存するバックアップ方式。",
+          "definitionVi": "Phương thức sao lưu tạo bản sao đầy đủ của toàn bộ file và dữ liệu thuộc phạm vi backup."
+        },
+        {
+          "term": "差分バックアップ",
+          "reading": "さぶんばっくあっぷ",
+          "english": "Differential Backup",
+          "vi": "sao lưu vi sai",
+          "definitionJa": "直近のフルバックアップ以降に変更されたデータを保存するバックアップ方式。",
+          "definitionVi": "Phương thức sao lưu tất cả dữ liệu đã thay đổi kể từ lần full backup gần nhất."
+        },
+        {
+          "term": "増分バックアップ",
+          "reading": "ぞうぶんばっくあっぷ",
+          "english": "Incremental Backup",
+          "vi": "sao lưu gia tăng",
+          "definitionJa": "直前のバックアップ以降に変更または追加されたデータだけを保存するバックアップ方式。",
+          "definitionVi": "Phương thức chỉ sao lưu dữ liệu đã thay đổi hoặc được thêm kể từ lần backup ngay trước đó."
+        }
+      ],
+      "tags": [
+        "software",
+        "file-system",
+        "backup",
+        "full-backup",
+        "differential-backup",
+        "incremental-backup"
+      ]
+    }
+  ]
+}
