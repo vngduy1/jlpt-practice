@@ -1,0 +1,541 @@
+{
+  "id": "user-interface-technology",
+  "order": 1,
+  "titleJa": "ユーザーインタフェース技術",
+  "titleVi": "Công nghệ giao diện người dùng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "information-architecture",
+      "order": 1,
+      "titleJa": "情報の整理とナビゲーション",
+      "titleVi": "Tổ chức thông tin và điều hướng",
+      "importance": "high",
+      "summaryJa": "情報の組織化、構造化、ラベル、チャンク、ナビゲーションなど、利用者が必要な情報を見つけやすくするための基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản giúp người dùng dễ tìm kiếm thông tin như tổ chức thông tin, cấu trúc hóa, nhãn, chia khối và điều hướng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ユーザーインタフェースでは、情報を単に表示するだけでなく、利用者が必要な情報を素早く理解し、目的の場所へ移動できるように整理することが重要である。",
+          "vi": "Trong giao diện người dùng, không chỉ cần hiển thị thông tin mà còn phải tổ chức sao cho người dùng có thể nhanh chóng hiểu và di chuyển tới thông tin cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "情報の組織化では、情報を分類して利用しやすい形に整理する。",
+          "vi": "Tổ chức thông tin là phân loại và sắp xếp thông tin theo cách dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "情報の構造化では、階層やタグなどを利用して情報同士の関係を明確にする。",
+          "vi": "Cấu trúc hóa thông tin sử dụng hệ thống phân cấp, thẻ và các phương pháp khác để làm rõ mối quan hệ giữa các thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "チャンク化によって大量の情報を小さなまとまりに分けることで、認知負荷を軽減できる。",
+          "vi": "Chia thông tin thành các khối nhỏ giúp giảm tải nhận thức khi xử lý lượng thông tin lớn."
+        },
+        {
+          "type": "warning",
+          "ja": "ナビゲーションは単なるメニュー表示ではなく、利用者が現在位置と目的地を理解し、迷わず移動できるようにする仕組みである。",
+          "vi": "Navigation không chỉ là hiển thị menu mà là cơ chế giúp người dùng biết vị trí hiện tại, đích đến và di chuyển mà không bị lạc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報の組織化",
+          "reading": "じょうほうのそしきか",
+          "english": "Information Organization",
+          "vi": "tổ chức thông tin",
+          "definitionJa": "情報を分類・整理し、利用者が必要な情報を見つけやすい状態にすること。",
+          "definitionVi": "Quá trình phân loại và sắp xếp thông tin để người dùng dễ tìm được thông tin cần thiết."
+        },
+        {
+          "term": "情報の構造化",
+          "reading": "じょうほうのこうぞうか",
+          "english": "Information Structuring",
+          "vi": "cấu trúc hóa thông tin",
+          "definitionJa": "情報を階層や関連性などに基づいて論理的に整理すること。",
+          "definitionVi": "Quá trình tổ chức thông tin một cách logic dựa trên cấp bậc hoặc mối quan hệ."
+        },
+        {
+          "term": "ラベル",
+          "reading": "らべる",
+          "english": "Label",
+          "vi": "nhãn",
+          "definitionJa": "情報の内容やカテゴリを利用者に分かりやすく示すための名称やタイトル。",
+          "definitionVi": "Tên hoặc tiêu đề dùng để cho người dùng biết nội dung hay nhóm của thông tin."
+        },
+        {
+          "term": "チャンク",
+          "reading": "ちゃんく",
+          "english": "Chunk",
+          "vi": "khối thông tin",
+          "definitionJa": "大量の情報を認識しやすい小さなまとまりに分けた単位。",
+          "definitionVi": "Đơn vị thông tin nhỏ được chia ra từ một lượng thông tin lớn để dễ nhận biết và ghi nhớ."
+        },
+        {
+          "term": "ナビゲーション",
+          "reading": "なびげーしょん",
+          "english": "Navigation",
+          "vi": "điều hướng",
+          "definitionJa": "利用者がWebサイトやアプリケーション内で目的の情報や機能へ移動するための仕組み。",
+          "definitionVi": "Cơ chế giúp người dùng di chuyển tới thông tin hoặc chức năng mong muốn trong website hay ứng dụng."
+        }
+      ],
+      "tags": ["user-interface", "information-architecture", "navigation"]
+    },
+    {
+      "id": "usability-and-accessibility",
+      "order": 2,
+      "titleJa": "ユーザビリティとアクセシビリティ",
+      "titleVi": "Khả năng sử dụng và khả năng tiếp cận",
+      "importance": "high",
+      "summaryJa": "ユーザビリティ、アクセシビリティ、身体的適合性など、様々な利用者が効率よく快適にシステムを利用するための考え方を理解する。",
+      "summaryVi": "Hiểu các khái niệm như usability, accessibility và sự phù hợp về thể chất để nhiều nhóm người dùng có thể sử dụng hệ thống hiệu quả và thuận tiện.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "優れたユーザーインタフェースでは、利用者が目的を達成しやすいことに加え、身体能力や知覚能力の違いにかかわらず利用できることが求められる。",
+          "vi": "Một giao diện người dùng tốt không chỉ giúp người dùng dễ đạt mục tiêu mà còn phải có thể sử dụng được bất kể sự khác biệt về khả năng thể chất hay nhận thức."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザビリティでは、操作のしやすさ、理解のしやすさ、目的達成までの効率などが重視される。",
+          "vi": "Usability chú trọng mức độ dễ thao tác, dễ hiểu và hiệu quả khi hoàn thành mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "アクセシビリティでは、障害や身体能力の違いにかかわらず情報や機能を利用できるように設計する。",
+          "vi": "Accessibility hướng tới thiết kế để mọi người có thể tiếp cận thông tin và chức năng bất kể khuyết tật hay khác biệt về khả năng thể chất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユーザビリティ",
+          "reading": "ゆーざびりてぃ",
+          "english": "Usability",
+          "vi": "khả năng sử dụng",
+          "definitionJa": "利用者が製品やシステムを効率的かつ満足して利用できる程度。",
+          "definitionVi": "Mức độ người dùng có thể sử dụng sản phẩm hoặc hệ thống hiệu quả và thuận tiện."
+        },
+        {
+          "term": "アクセシビリティ",
+          "reading": "あくせしびりてぃ",
+          "english": "Accessibility",
+          "vi": "khả năng tiếp cận",
+          "definitionJa": "身体能力や利用環境の違いにかかわらず、誰もが情報や機能を利用できるようにする考え方。",
+          "definitionVi": "Khái niệm đảm bảo mọi người đều có thể tiếp cận thông tin và chức năng bất kể khả năng thể chất hay môi trường sử dụng."
+        },
+        {
+          "term": "身体的適合性",
+          "reading": "しんたいてきてきごうせい",
+          "english": "Physical Suitability",
+          "vi": "sự phù hợp về thể chất",
+          "definitionJa": "画面、文字、ボタンなどが利用者の身体的特徴や能力に適している程度。",
+          "definitionVi": "Mức độ kích thước màn hình, chữ, nút và cách thao tác phù hợp với đặc điểm và khả năng thể chất của người dùng."
+        }
+      ],
+      "tags": ["user-interface", "usability", "accessibility"]
+    },
+    {
+      "id": "interaction-design",
+      "order": 3,
+      "titleJa": "インタラクションとヒューマンインタフェース",
+      "titleVi": "Tương tác và giao diện người-máy",
+      "importance": "high",
+      "summaryJa": "インタラクティブシステム、インタラクションの原則、ヒューマンインタフェース、シグニファイアなど、人とシステムの自然な対話を実現するための基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản để tạo ra tương tác tự nhiên giữa con người và hệ thống như hệ thống tương tác, nguyên tắc tương tác, giao diện người-máy và signifier.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "インタラクティブシステムでは、利用者の入力に対してシステムが適切なフィードバックを返し、利用者が次に何をすべきか理解できることが重要である。",
+          "vi": "Trong hệ thống tương tác, điều quan trọng là hệ thống phản hồi thích hợp với đầu vào của người dùng để họ hiểu mình nên làm gì tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "インタラクションの原則では、一貫性、分かりやすさ、迅速なフィードバックなどが重要になる。",
+          "vi": "Các nguyên tắc tương tác chú trọng tính nhất quán, dễ hiểu và phản hồi nhanh."
+        },
+        {
+          "type": "point",
+          "ja": "シグニファイアは、ボタン、アイコン、リンクなどがどのように操作できるかを利用者へ示す手掛かりである。",
+          "vi": "Signifier là dấu hiệu giúp người dùng nhận biết một nút, biểu tượng hoặc liên kết có thể được thao tác như thế nào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタラクティブシステム",
+          "reading": "いんたらくてぃぶしすてむ",
+          "english": "Interactive System",
+          "vi": "hệ thống tương tác",
+          "definitionJa": "利用者の入力や操作に応じて、リアルタイムに反応を返すように設計されたシステム。",
+          "definitionVi": "Hệ thống được thiết kế để phản hồi theo thời gian thực dựa trên thao tác hoặc đầu vào của người dùng."
+        },
+        {
+          "term": "インタラクションの原則",
+          "reading": "いんたらくしょんのげんそく",
+          "english": "Interaction Principles",
+          "vi": "nguyên tắc tương tác",
+          "definitionJa": "利用者が迷わず効率的に操作できるインタフェースを設計するための基本的な考え方。",
+          "definitionVi": "Các nguyên tắc cơ bản dùng để thiết kế giao diện giúp người dùng thao tác hiệu quả mà không bị bối rối."
+        },
+        {
+          "term": "ヒューマンインタフェース",
+          "reading": "ひゅーまんいんたふぇーす",
+          "english": "Human Interface",
+          "vi": "giao diện người-máy",
+          "definitionJa": "人間と機械やコンピュータとの間で情報をやり取りするための手段や仕組み。",
+          "definitionVi": "Phương tiện và cơ chế dùng để trao đổi thông tin giữa con người với máy móc hoặc máy tính."
+        },
+        {
+          "term": "シグニファイア",
+          "reading": "しぐにふぁいあ",
+          "english": "Signifier",
+          "vi": "dấu hiệu chỉ dẫn thao tác",
+          "definitionJa": "利用者に、対象がどのように操作できるかを示す視覚的または知覚的な手掛かり。",
+          "definitionVi": "Dấu hiệu trực quan hoặc cảm nhận cho người dùng biết một đối tượng có thể được thao tác như thế nào."
+        },
+        {
+          "term": "ノンバーバルインタフェース",
+          "reading": "のんばーばるいんたふぇーす",
+          "english": "Non-Verbal Interface",
+          "vi": "giao diện phi ngôn ngữ",
+          "definitionJa": "言葉を使用せず、ジェスチャー、視線、タッチなどを利用して人とシステムがやり取りするインタフェース。",
+          "definitionVi": "Giao diện cho phép con người và hệ thống tương tác mà không dùng ngôn ngữ, chẳng hạn bằng cử chỉ, ánh mắt hoặc thao tác chạm."
+        },
+        {
+          "term": "自然言語インタフェース",
+          "reading": "しぜんげんごいんたふぇーす",
+          "english": "Natural Language Interface",
+          "vi": "giao diện ngôn ngữ tự nhiên",
+          "definitionJa": "利用者が日常的な自然言語を使ってコンピュータやシステムと対話できるインタフェース。",
+          "definitionVi": "Giao diện cho phép người dùng giao tiếp với máy tính hoặc hệ thống bằng ngôn ngữ tự nhiên thường ngày."
+        }
+      ],
+      "tags": ["user-interface", "interaction", "human-interface"]
+    },
+    {
+      "id": "recognition-technologies",
+      "order": 4,
+      "titleJa": "認識技術と特徴抽出",
+      "titleVi": "Công nghệ nhận dạng và trích xuất đặc trưng",
+      "importance": "medium",
+      "summaryJa": "音声認識、画像認識、動画認識、特徴抽出など、人間の入力やコンテンツをコンピュータが理解するための技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ giúp máy tính phân tích đầu vào và nội dung của con người như nhận dạng giọng nói, hình ảnh, video và trích xuất đặc trưng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "認識技術では、音声、画像、動画などのデータから特徴を取り出し、それを基に対象や内容を識別する。",
+          "vi": "Trong công nghệ nhận dạng, hệ thống trích xuất các đặc trưng từ dữ liệu như âm thanh, hình ảnh hoặc video rồi sử dụng chúng để nhận biết đối tượng hay nội dung."
+        },
+        {
+          "type": "point",
+          "ja": "音声認識は人間の音声を文字やコマンドとして認識する。",
+          "vi": "Nhận dạng giọng nói nhận biết lời nói của con người dưới dạng văn bản hoặc lệnh."
+        },
+        {
+          "type": "point",
+          "ja": "画像認識や動画認識では、物体、人物、動作などを識別する。",
+          "vi": "Nhận dạng hình ảnh và video dùng để nhận biết vật thể, con người hoặc hành động."
+        },
+        {
+          "type": "point",
+          "ja": "特徴抽出は、認識に必要な色、形、輪郭、音響特徴などをデータから取り出す処理である。",
+          "vi": "Trích xuất đặc trưng là quá trình lấy ra những đặc điểm cần thiết để nhận dạng như màu sắc, hình dạng, đường viền hoặc đặc trưng âm thanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "音声認識",
+          "reading": "おんせいにんしき",
+          "english": "Voice Recognition",
+          "vi": "nhận dạng giọng nói",
+          "definitionJa": "人間の音声を解析し、文字や命令などとして認識する技術。",
+          "definitionVi": "Công nghệ phân tích giọng nói của con người và nhận biết thành văn bản hoặc lệnh."
+        },
+        {
+          "term": "画像認識",
+          "reading": "がぞうにんしき",
+          "english": "Image Recognition",
+          "vi": "nhận dạng hình ảnh",
+          "definitionJa": "画像を解析して、物体や人物などの内容を識別する技術。",
+          "definitionVi": "Công nghệ phân tích hình ảnh để nhận biết vật thể, con người và các nội dung khác."
+        },
+        {
+          "term": "動画認識",
+          "reading": "どうがにんしき",
+          "english": "Video Recognition",
+          "vi": "nhận dạng video",
+          "definitionJa": "動画内の映像を解析し、物体、人物、動作などを識別する技術。",
+          "definitionVi": "Công nghệ phân tích video để nhận biết vật thể, con người hoặc hành động."
+        },
+        {
+          "term": "特徴抽出",
+          "reading": "とくちょうちゅうしゅつ",
+          "english": "Feature Extraction",
+          "vi": "trích xuất đặc trưng",
+          "definitionJa": "データから認識や分類に必要となる特徴的な情報を取り出す処理。",
+          "definitionVi": "Quá trình lấy ra các đặc trưng quan trọng từ dữ liệu phục vụ cho nhận dạng và phân loại."
+        }
+      ],
+      "tags": ["user-interface", "recognition", "feature-extraction"]
+    },
+    {
+      "id": "user-perception-and-analysis",
+      "order": 5,
+      "titleJa": "ユーザーの知覚と操作分析",
+      "titleVi": "Nhận thức và phân tích thao tác người dùng",
+      "importance": "medium",
+      "summaryJa": "選択的知覚やユーザー操作の分析を理解し、利用者の行動や認知特性を考慮したインタフェース設計につなげる。",
+      "summaryVi": "Hiểu nhận thức chọn lọc và phân tích thao tác người dùng để áp dụng đặc điểm hành vi và nhận thức của người dùng vào thiết kế giao diện.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "利用者は画面上のすべての情報を同じように認識するわけではなく、目的や関心に応じて必要な情報へ注意を向ける。そのため、重要な情報を目立たせる設計が求められる。",
+          "vi": "Người dùng không nhận biết mọi thông tin trên màn hình theo cùng một cách mà sẽ tập trung vào những thông tin liên quan tới mục tiêu và sự quan tâm của họ. Vì vậy, thông tin quan trọng cần được thiết kế nổi bật."
+        },
+        {
+          "type": "point",
+          "ja": "選択的知覚を考慮すると、重要な情報や操作対象を視覚的に強調する必要がある。",
+          "vi": "Khi xét tới nhận thức chọn lọc, thông tin và thành phần thao tác quan trọng cần được làm nổi bật về mặt thị giác."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザー操作の分析では、クリック、操作時間、移動経路などの行動データから問題点を発見する。",
+          "vi": "Phân tích thao tác người dùng sử dụng dữ liệu như lượt nhấp, thời gian thao tác hoặc đường di chuyển để phát hiện vấn đề."
+        }
+      ],
+      "terms": [
+        {
+          "term": "選択的知覚",
+          "reading": "せんたくてきちかく",
+          "english": "Selective Perception",
+          "vi": "nhận thức chọn lọc",
+          "definitionJa": "多くの情報の中から、利用者が必要または重要だと判断した情報を選択して認識すること。",
+          "definitionVi": "Hiện tượng người dùng chọn và nhận biết những thông tin mà họ cho là cần thiết hoặc quan trọng trong số lượng lớn thông tin."
+        },
+        {
+          "term": "ユーザー操作の分析",
+          "reading": "ゆーざーそうさのぶんせき",
+          "english": "User Interaction Analysis",
+          "vi": "phân tích thao tác người dùng",
+          "definitionJa": "利用者がシステムをどのように操作しているかを記録・分析し、改善点を明らかにすること。",
+          "definitionVi": "Quá trình ghi nhận và phân tích cách người dùng thao tác hệ thống nhằm tìm ra các điểm cần cải thiện."
+        }
+      ],
+      "tags": ["user-interface", "user-behavior", "perception"]
+    },
+    {
+      "id": "natural-user-interfaces",
+      "order": 6,
+      "titleJa": "自然なユーザーインタフェース",
+      "titleVi": "Giao diện người dùng tự nhiên",
+      "importance": "high",
+      "summaryJa": "NUI、VUI、ジェスチャーインタフェース、マルチタッチインタフェースなど、ユーザーが自然で直感的な方法によってシステムを操作するためのインタフェース技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ giao diện như NUI, VUI, giao diện cử chỉ và giao diện đa điểm chạm, cho phép người dùng tương tác với hệ thống bằng các phương thức tự nhiên và trực quan.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "自然なユーザーインタフェースでは、従来のマウスやキーボードだけでなく、タッチ、音声、ジェスチャーなど、人間にとって自然な動作を利用してコンピュータを操作する。",
+          "vi": "Giao diện người dùng tự nhiên không chỉ sử dụng chuột và bàn phím truyền thống mà còn cho phép điều khiển máy tính bằng các hành động tự nhiên như chạm, giọng nói và cử chỉ."
+        },
+        {
+          "type": "point",
+          "ja": "NUIは、利用者が操作方法を強く意識しなくても、直感的に扱えるインタフェースを目指す考え方である。",
+          "vi": "NUI hướng tới giao diện mà người dùng có thể thao tác trực quan mà không cần phải chú ý nhiều đến cách vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "VUIでは、音声認識を利用して音声による命令や対話を可能にする。",
+          "vi": "VUI sử dụng nhận dạng giọng nói để cho phép người dùng ra lệnh hoặc hội thoại bằng giọng nói."
+        },
+        {
+          "type": "point",
+          "ja": "ジェスチャーインタフェースやマルチタッチインタフェースでは、手や指の動きを入力として利用する。",
+          "vi": "Giao diện cử chỉ và giao diện đa điểm chạm sử dụng chuyển động của tay hoặc ngón tay làm đầu vào."
+        },
+        {
+          "type": "warning",
+          "ja": "NUIは特定の一つの入力装置を指す用語ではなく、タッチ、音声、ジェスチャーなどを利用して自然に操作できるインタフェース全体の考え方である。",
+          "vi": "NUI không chỉ một thiết bị nhập cụ thể mà là khái niệm tổng quát về giao diện có thể thao tác tự nhiên bằng chạm, giọng nói, cử chỉ và các phương thức tương tự."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NUI",
+          "reading": "えぬゆーあい",
+          "english": "Natural User Interface",
+          "vi": "giao diện người dùng tự nhiên",
+          "definitionJa": "タッチ、音声、ジェスチャーなどの自然な操作方法を利用し、ユーザーが直感的に扱えるようにしたユーザーインタフェース。",
+          "definitionVi": "Giao diện người dùng sử dụng các phương thức tự nhiên như chạm, giọng nói và cử chỉ để người dùng có thể thao tác một cách trực quan."
+        },
+        {
+          "term": "VUI",
+          "reading": "ぶいゆーあい",
+          "english": "Voice User Interface",
+          "vi": "giao diện người dùng bằng giọng nói",
+          "definitionJa": "音声を利用してユーザーとシステムが情報をやり取りするユーザーインタフェース。",
+          "definitionVi": "Giao diện cho phép người dùng và hệ thống tương tác với nhau bằng giọng nói."
+        },
+        {
+          "term": "ジェスチャーインタフェース",
+          "reading": "じぇすちゃーいんたふぇーす",
+          "english": "Gesture Interface",
+          "vi": "giao diện cử chỉ",
+          "definitionJa": "手や指などの動きを入力として認識し、デバイスを操作するためのインタフェース。",
+          "definitionVi": "Giao diện nhận biết chuyển động của tay hoặc ngón tay làm đầu vào để điều khiển thiết bị."
+        },
+        {
+          "term": "マルチタッチインタフェース",
+          "reading": "まるちたっちいんたふぇーす",
+          "english": "Multi-Touch Interface",
+          "vi": "giao diện đa điểm chạm",
+          "definitionJa": "複数の指による同時タッチを認識し、タップ、スワイプ、ピンチなどの操作を可能にするインタフェース。",
+          "definitionVi": "Giao diện có thể nhận biết nhiều điểm chạm cùng lúc, cho phép các thao tác như chạm, vuốt và chụm hoặc mở ngón tay."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "nui",
+        "voice-interface",
+        "gesture",
+        "multi-touch"
+      ]
+    },
+    {
+      "id": "gui-components",
+      "order": 7,
+      "titleJa": "GUIの構成要素",
+      "titleVi": "Các thành phần của GUI",
+      "importance": "high",
+      "summaryJa": "ウィンドウ、アイコン、各種ボタン、リストボックス、メニュー、ツールチップ、テキストボックスなど、GUIを構成する代表的なインタフェース部品とその用途を理解する。",
+      "summaryVi": "Hiểu các thành phần giao diện tiêu biểu cấu thành GUI như cửa sổ, biểu tượng, các loại nút, hộp danh sách, menu, tooltip và hộp văn bản cùng cách sử dụng của chúng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "グラフィカルユーザーインタフェース（GUI）は、ウィンドウ、アイコン、ボタン、メニューなどの視覚的な部品を利用し、利用者が直感的にコンピュータを操作できるようにする。",
+          "vi": "Giao diện người dùng đồ họa (GUI) sử dụng các thành phần trực quan như cửa sổ, biểu tượng, nút và menu để người dùng có thể thao tác máy tính một cách trực quan."
+        },
+        {
+          "type": "point",
+          "ja": "ラジオボタンは複数候補から原則として一つを選択するときに利用し、チェックボックスは複数の項目を独立して選択するときに利用する。",
+          "vi": "Radio button thường được sử dụng để chọn một lựa chọn trong nhiều lựa chọn, trong khi checkbox cho phép chọn độc lập nhiều mục."
+        },
+        {
+          "type": "point",
+          "ja": "プルダウンメニューやポップアップメニューは、必要なときだけ選択肢を表示することで画面スペースを効率よく利用できる。",
+          "vi": "Menu thả xuống và menu bật lên giúp tận dụng không gian màn hình bằng cách chỉ hiển thị lựa chọn khi cần."
+        },
+        {
+          "type": "point",
+          "ja": "ホバーやツールチップは、ユーザーが操作対象の機能を理解するための視覚的な手掛かりを提供する。",
+          "vi": "Hover và tooltip cung cấp các dấu hiệu trực quan giúp người dùng hiểu chức năng của đối tượng có thể thao tác."
+        },
+        {
+          "type": "warning",
+          "ja": "ラジオボタンとチェックボックスは用途を混同しやすい。排他的に一つだけ選ぶ場合はラジオボタン、複数選択を許可する場合はチェックボックスを用いる。",
+          "vi": "Radio button và checkbox rất dễ bị nhầm. Nếu chỉ được chọn duy nhất một mục thì dùng radio button; nếu cho phép chọn nhiều mục thì dùng checkbox."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウィンドウ",
+          "reading": "うぃんどう",
+          "english": "Window",
+          "vi": "cửa sổ",
+          "definitionJa": "GUIにおいて、アプリケーションや情報を表示するために画面上に設けられた領域。",
+          "definitionVi": "Vùng trên màn hình trong GUI dùng để hiển thị ứng dụng hoặc thông tin."
+        },
+        {
+          "term": "アイコン",
+          "reading": "あいこん",
+          "english": "Icon",
+          "vi": "biểu tượng",
+          "definitionJa": "機能、ファイル、アプリケーションなどを視覚的に表現する小さな図形やシンボル。",
+          "definitionVi": "Hình hoặc ký hiệu nhỏ dùng để biểu diễn trực quan chức năng, tệp hoặc ứng dụng."
+        },
+        {
+          "term": "ラジオボタン",
+          "reading": "らじおぼたん",
+          "english": "Radio Button",
+          "vi": "nút chọn một",
+          "definitionJa": "複数の選択肢の中から、原則として一つだけを選択するためのGUI部品。",
+          "definitionVi": "Thành phần GUI dùng để chọn duy nhất một mục trong một nhóm các lựa chọn."
+        },
+        {
+          "term": "トグルボタン",
+          "reading": "とぐるぼたん",
+          "english": "Toggle Button",
+          "vi": "nút chuyển đổi",
+          "definitionJa": "ONとOFFなど、二つの状態を押すたびに切り替えるためのボタン。",
+          "definitionVi": "Nút dùng để chuyển qua lại giữa hai trạng thái như ON và OFF mỗi khi được nhấn."
+        },
+        {
+          "term": "チェックボックス",
+          "reading": "ちぇっくぼっくす",
+          "english": "Checkbox",
+          "vi": "ô chọn",
+          "definitionJa": "複数の選択肢について、それぞれ独立して選択または選択解除できるGUI部品。",
+          "definitionVi": "Thành phần GUI cho phép chọn hoặc bỏ chọn độc lập một hoặc nhiều lựa chọn."
+        },
+        {
+          "term": "リストボックス",
+          "reading": "りすとぼっくす",
+          "english": "List Box",
+          "vi": "hộp danh sách",
+          "definitionJa": "複数の項目を一覧表示し、その中から一つ以上の項目を選択するためのGUI部品。",
+          "definitionVi": "Thành phần GUI hiển thị danh sách nhiều mục để người dùng chọn một hoặc nhiều mục."
+        },
+        {
+          "term": "プルダウンメニュー",
+          "reading": "ぷるだうんめにゅー",
+          "english": "Drop-Down Menu",
+          "vi": "menu thả xuống",
+          "definitionJa": "クリックなどの操作によって選択肢の一覧を展開し、その中から項目を選択するメニュー。",
+          "definitionVi": "Menu mở danh sách lựa chọn khi người dùng nhấn vào và cho phép chọn một mục từ danh sách đó."
+        },
+        {
+          "term": "ポップアップメニュー",
+          "reading": "ぽっぷあっぷめにゅー",
+          "english": "Popup Menu",
+          "vi": "menu bật lên",
+          "definitionJa": "特定の操作に応じてその場に表示され、実行可能な操作の一覧を提供するメニュー。",
+          "definitionVi": "Menu xuất hiện tại vị trí thao tác và hiển thị danh sách các hành động có thể thực hiện."
+        },
+        {
+          "term": "アコーディオン",
+          "reading": "あこーでぃおん",
+          "english": "Accordion",
+          "vi": "accordion / vùng nội dung thu gọn",
+          "definitionJa": "見出しをクリックすることで内容を展開または折りたたむことができるGUI部品。",
+          "definitionVi": "Thành phần GUI cho phép mở rộng hoặc thu gọn nội dung khi người dùng nhấn vào tiêu đề."
+        },
+        {
+          "term": "ホバー",
+          "reading": "ほばー",
+          "english": "Hover",
+          "vi": "hiệu ứng khi rê chuột",
+          "definitionJa": "マウスポインタを対象の上に置いたときに、色や形などを変化させて状態を示す表現。",
+          "definitionVi": "Hiệu ứng thay đổi màu sắc, hình dạng hoặc trạng thái khi con trỏ chuột được đặt lên một đối tượng."
+        },
+        {
+          "term": "ツールチップ",
+          "reading": "つーるちっぷ",
+          "english": "Tool Tip",
+          "vi": "chú thích công cụ",
+          "definitionJa": "アイコンやボタンなどにカーソルを合わせたとき、その機能を説明するために表示される小さな情報ウィンドウ。",
+          "definitionVi": "Cửa sổ thông tin nhỏ xuất hiện khi đưa con trỏ lên biểu tượng hoặc nút để giải thích chức năng của nó."
+        },
+        {
+          "term": "テキストボックス",
+          "reading": "てきすとぼっくす",
+          "english": "Text Box",
+          "vi": "hộp nhập văn bản",
+          "definitionJa": "ユーザーが文字や数値などのテキスト情報を入力・編集するためのGUI領域。",
+          "definitionVi": "Vùng GUI cho phép người dùng nhập và chỉnh sửa dữ liệu văn bản hoặc số."
+        }
+      ],
+      "tags": ["user-interface", "gui", "window", "controls", "menu", "input"]
+    }
+  ]
+}

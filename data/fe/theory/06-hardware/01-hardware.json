@@ -1,0 +1,326 @@
+{
+  "id": "hardware",
+  "order": 1,
+  "titleJa": "ハードウェア",
+  "titleVi": "Phần cứng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "logic-circuits",
+      "order": 1,
+      "titleJa": "論理回路の基本",
+      "titleVi": "Cơ bản về mạch logic",
+      "importance": "high",
+      "summaryJa": "AND、OR、NOT、NAND回路、フリップフロップ、論理式、正論理・負論理、真理値表など、デジタル回路の基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản của mạch số như AND, OR, NOT, NAND, flip-flop, biểu thức logic, logic dương, logic âm và bảng chân trị.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デジタル回路では、0と1の二つの論理値を用いて情報を処理する。AND、OR、NOTなどの論理回路を組み合わせることで、複雑な判断や演算を実現できる。",
+          "vi": "Trong mạch số, thông tin được xử lý bằng hai giá trị logic 0 và 1. Bằng cách kết hợp các mạch logic như AND, OR và NOT, có thể thực hiện các phép tính và phán đoán phức tạp."
+        },
+        {
+          "type": "point",
+          "ja": "AND回路はすべての入力が1のときだけ1を出力し、OR回路はいずれかの入力が1なら1を出力する。",
+          "vi": "Mạch AND chỉ xuất 1 khi tất cả đầu vào đều là 1, còn mạch OR xuất 1 nếu ít nhất một đầu vào là 1."
+        },
+        {
+          "type": "point",
+          "ja": "NOT回路は入力を反転し、NAND回路はAND回路の出力を反転した動作をする。",
+          "vi": "Mạch NOT đảo giá trị đầu vào, còn NAND thực hiện phép AND rồi đảo kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "フリップフロップは1ビットの情報を記憶できる基本回路であり、レジスタやカウンタなどに利用される。",
+          "vi": "Flip-flop là mạch cơ bản có thể lưu một bit thông tin và được sử dụng trong thanh ghi, bộ đếm và nhiều mạch khác."
+        },
+        {
+          "type": "warning",
+          "ja": "正論理では高電位を1、低電位を0として扱うが、負論理ではその対応が逆になる。",
+          "vi": "Trong logic dương, mức điện áp cao được coi là 1 và mức thấp là 0; trong logic âm, cách quy ước này bị đảo ngược."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AND回路",
+          "reading": "あんどかいろ",
+          "english": "AND Circuit",
+          "vi": "mạch AND",
+          "definitionJa": "複数の入力がすべて1のときだけ、出力が1になる論理回路。",
+          "definitionVi": "Mạch logic chỉ cho đầu ra bằng 1 khi tất cả các đầu vào đều bằng 1."
+        },
+        {
+          "term": "OR回路",
+          "reading": "おあかいろ",
+          "english": "OR Circuit",
+          "vi": "mạch OR",
+          "definitionJa": "複数の入力のうち一つでも1であれば、出力が1になる論理回路。",
+          "definitionVi": "Mạch logic cho đầu ra bằng 1 khi có ít nhất một đầu vào bằng 1."
+        },
+        {
+          "term": "NOT回路",
+          "reading": "のっとかいろ",
+          "english": "NOT Gate",
+          "vi": "mạch NOT",
+          "definitionJa": "入力された論理値を反転し、0を1に、1を0にする論理回路。",
+          "definitionVi": "Mạch logic đảo giá trị đầu vào, biến 0 thành 1 và 1 thành 0."
+        },
+        {
+          "term": "NAND回路",
+          "reading": "なんどかいろ",
+          "english": "NAND Circuit",
+          "vi": "mạch NAND",
+          "definitionJa": "AND回路の出力を反転した論理回路で、すべての入力が1のときだけ0を出力する。",
+          "definitionVi": "Mạch đảo kết quả của AND, chỉ xuất 0 khi tất cả đầu vào đều bằng 1."
+        },
+        {
+          "term": "フリップフロップ",
+          "reading": "ふりっぷふろっぷ",
+          "english": "Flip-Flop",
+          "vi": "flip-flop",
+          "definitionJa": "1ビットの情報を保持できるデジタル回路の基本的な記憶素子。",
+          "definitionVi": "Phần tử nhớ cơ bản trong mạch số có khả năng lưu một bit thông tin."
+        },
+        {
+          "term": "論理式",
+          "reading": "ろんりしき",
+          "english": "Logical Expression",
+          "vi": "biểu thức logic",
+          "definitionJa": "AND、OR、NOTなどの論理演算を用いて、入力と出力の関係を表現する式。",
+          "definitionVi": "Biểu thức mô tả quan hệ giữa đầu vào và đầu ra bằng các phép toán logic như AND, OR và NOT."
+        },
+        {
+          "term": "正論理",
+          "reading": "せいろんり",
+          "english": "Positive Logic",
+          "vi": "logic dương",
+          "definitionJa": "信号の高い電圧状態を論理1、低い電圧状態を論理0として扱う方式。",
+          "definitionVi": "Phương thức coi mức điện áp cao là logic 1 và mức điện áp thấp là logic 0."
+        },
+        {
+          "term": "負論理",
+          "reading": "ふろんり",
+          "english": "Negative Logic",
+          "vi": "logic âm",
+          "definitionJa": "信号の低い電圧状態を論理1、高い電圧状態を論理0として扱う方式。",
+          "definitionVi": "Phương thức coi mức điện áp thấp là logic 1 và mức điện áp cao là logic 0."
+        },
+        {
+          "term": "真理値表",
+          "reading": "しんりちひょう",
+          "english": "Truth Table",
+          "vi": "bảng chân trị",
+          "definitionJa": "論理回路のすべての入力の組合せと、それに対応する出力を表した表。",
+          "definitionVi": "Bảng biểu diễn tất cả tổ hợp đầu vào của mạch logic cùng đầu ra tương ứng."
+        }
+      ],
+      "tags": ["hardware", "logic-circuit", "digital-circuit"]
+    },
+    {
+      "id": "control-methods",
+      "order": 2,
+      "titleJa": "制御方式",
+      "titleVi": "Các phương thức điều khiển",
+      "importance": "high",
+      "summaryJa": "オープンループ制御、クローズドループ制御、シーケンス制御、フィードバック制御、PWM制御の特徴を理解する。",
+      "summaryVi": "Hiểu đặc điểm của điều khiển vòng hở, vòng kín, điều khiển tuần tự, điều khiển phản hồi và điều khiển PWM.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "制御方式には、出力結果を利用せずに制御する方式と、出力を測定して制御量を修正する方式がある。",
+          "vi": "Các phương thức điều khiển có thể chia thành loại không sử dụng kết quả đầu ra để điều chỉnh và loại đo đầu ra rồi hiệu chỉnh lượng điều khiển."
+        },
+        {
+          "type": "point",
+          "ja": "オープンループ制御は出力をフィードバックしないため構成が単純だが、外乱の影響を受けやすい。",
+          "vi": "Điều khiển vòng hở không phản hồi đầu ra nên cấu trúc đơn giản nhưng dễ bị ảnh hưởng bởi điều kiện bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "クローズドループ制御やフィードバック制御では、実際の出力を測定し、目標値との差を小さくするように入力を調整する。",
+          "vi": "Trong điều khiển vòng kín và phản hồi, đầu ra thực tế được đo và đầu vào được điều chỉnh để giảm sai lệch so với giá trị mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "シーケンス制御は、あらかじめ定めた順序や条件に従って機器を動作させる方式である。",
+          "vi": "Điều khiển tuần tự vận hành thiết bị theo thứ tự hoặc điều kiện được xác định trước."
+        },
+        {
+          "type": "warning",
+          "ja": "PWMは電圧そのものを連続的に変化させるのではなく、パルスのオン時間とオフ時間の比率を変化させて平均的な出力を調整する。",
+          "vi": "PWM không điều chỉnh điện áp một cách liên tục mà thay đổi tỷ lệ thời gian bật/tắt của xung để điều chỉnh giá trị đầu ra trung bình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オープンループ制御",
+          "reading": "おーぷんるーぷせいぎょ",
+          "english": "Open Loop Control",
+          "vi": "điều khiển vòng hở",
+          "definitionJa": "出力結果をフィードバックせず、あらかじめ決めた入力に基づいて制御する方式。",
+          "definitionVi": "Phương thức điều khiển không phản hồi kết quả đầu ra mà điều khiển dựa trên đầu vào được xác định trước."
+        },
+        {
+          "term": "クローズドループ制御",
+          "reading": "くろーずどるーぷせいぎょ",
+          "english": "Closed-Loop Control",
+          "vi": "điều khiển vòng kín",
+          "definitionJa": "出力を測定して目標値と比較し、その差に応じて入力を調整する制御方式。",
+          "definitionVi": "Phương thức đo đầu ra, so sánh với giá trị mục tiêu và điều chỉnh đầu vào theo sai lệch."
+        },
+        {
+          "term": "シーケンス制御",
+          "reading": "しーけんすせいぎょ",
+          "english": "Sequence Control",
+          "vi": "điều khiển tuần tự",
+          "definitionJa": "あらかじめ定められた順序や条件に従って、機器や処理を段階的に動作させる制御方式。",
+          "definitionVi": "Phương thức điều khiển thiết bị hoặc quá trình từng bước theo trình tự hay điều kiện đã xác định."
+        },
+        {
+          "term": "フィードバック制御",
+          "reading": "ふぃーどばっくせいぎょ",
+          "english": "Feedback Control",
+          "vi": "điều khiển phản hồi",
+          "definitionJa": "出力結果を入力側へ戻し、その結果に基づいて制御量を調整する方式。",
+          "definitionVi": "Phương thức đưa kết quả đầu ra trở lại phía đầu vào và điều chỉnh lượng điều khiển dựa trên kết quả đó."
+        },
+        {
+          "term": "PWM制御",
+          "reading": "ぴーだぶるえむせいぎょ",
+          "english": "Pulse Width Modulation",
+          "vi": "điều khiển PWM",
+          "definitionJa": "パルスのオン時間とオフ時間の比率を変化させることで、平均的な出力を調整する制御方式。",
+          "definitionVi": "Phương thức điều khiển đầu ra trung bình bằng cách thay đổi tỷ lệ thời gian bật và tắt của xung."
+        }
+      ],
+      "tags": ["hardware", "control", "feedback", "pwm"]
+    },
+    {
+      "id": "semiconductor-devices",
+      "order": 3,
+      "titleJa": "半導体素子と集積回路",
+      "titleVi": "Linh kiện bán dẫn và mạch tích hợp",
+      "importance": "high",
+      "summaryJa": "ダイオード、LED、トランジスタ、IC、LSI、VLSIなど、電子回路を構成する代表的な半導体素子と集積回路を理解する。",
+      "summaryVi": "Hiểu các linh kiện bán dẫn và mạch tích hợp tiêu biểu cấu thành mạch điện tử như diode, LED, transistor, IC, LSI và VLSI.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "半導体素子は、電流の制御、増幅、スイッチング、発光など、電子回路のさまざまな機能を実現するために用いられる。",
+          "vi": "Linh kiện bán dẫn được sử dụng để thực hiện nhiều chức năng trong mạch điện tử như điều khiển dòng điện, khuếch đại, đóng cắt và phát sáng."
+        },
+        {
+          "type": "point",
+          "ja": "ダイオードは基本的に電流を一方向へ流し、LEDは電流を流すことで発光するダイオードである。",
+          "vi": "Diode về cơ bản chỉ cho dòng điện chạy theo một chiều, còn LED là loại diode phát sáng khi có dòng điện đi qua."
+        },
+        {
+          "type": "point",
+          "ja": "トランジスタは増幅やスイッチングに利用され、多数のトランジスタを一つのチップに集積したものがICである。",
+          "vi": "Transistor được sử dụng để khuếch đại và đóng cắt; IC là mạch tích hợp nhiều transistor và linh kiện khác trên một chip."
+        },
+        {
+          "type": "point",
+          "ja": "LSIやVLSIは非常に多くの回路素子を一つのチップに集積し、電子機器の小型化と高性能化に貢献する。",
+          "vi": "LSI và VLSI tích hợp số lượng rất lớn linh kiện trên một chip, góp phần thu nhỏ và tăng hiệu năng của thiết bị điện tử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ダイオード",
+          "reading": "だいおーど",
+          "english": "Diode",
+          "vi": "diode",
+          "definitionJa": "基本的に電流を一方向にだけ流す性質を持つ半導体素子。",
+          "definitionVi": "Linh kiện bán dẫn về cơ bản chỉ cho dòng điện chạy theo một chiều."
+        },
+        {
+          "term": "LED",
+          "reading": "えるいーでぃー",
+          "english": "Light Emitting Diode",
+          "vi": "điốt phát quang",
+          "definitionJa": "電流を流すことで発光する半導体素子で、表示装置や照明などに利用される。",
+          "definitionVi": "Linh kiện bán dẫn phát sáng khi có dòng điện chạy qua, được dùng trong màn hình và chiếu sáng."
+        },
+        {
+          "term": "トランジスタ",
+          "reading": "とらんじすた",
+          "english": "Transistor",
+          "vi": "transistor",
+          "definitionJa": "電流や電圧を制御し、信号の増幅やスイッチングを行う半導体素子。",
+          "definitionVi": "Linh kiện bán dẫn điều khiển dòng điện hoặc điện áp, dùng để khuếch đại tín hiệu và đóng cắt."
+        },
+        {
+          "term": "IC",
+          "reading": "あいしー",
+          "english": "Integrated Circuit",
+          "vi": "mạch tích hợp",
+          "definitionJa": "多数のトランジスタや抵抗などの回路素子を一つの半導体チップ上に集積した回路。",
+          "definitionVi": "Mạch tích hợp nhiều transistor, điện trở và các linh kiện khác trên một chip bán dẫn."
+        },
+        {
+          "term": "LSI",
+          "reading": "えるえすあい",
+          "english": "Large-Scale Integration",
+          "vi": "mạch tích hợp quy mô lớn",
+          "definitionJa": "多数の回路素子を一つのチップに集積した大規模集積回路。",
+          "definitionVi": "Mạch tích hợp quy mô lớn tập hợp nhiều phần tử mạch trên một chip."
+        },
+        {
+          "term": "VLSI",
+          "reading": "ぶいえるえすあい",
+          "english": "Very Large Scale Integration",
+          "vi": "mạch tích hợp quy mô rất lớn",
+          "definitionJa": "LSIよりさらに多数のトランジスタや回路素子を一つのチップに集積した集積回路。",
+          "definitionVi": "Mạch tích hợp số lượng transistor và phần tử mạch lớn hơn nữa so với LSI trên một chip."
+        }
+      ],
+      "tags": ["hardware", "semiconductor", "ic", "lsi"]
+    },
+    {
+      "id": "programmable-circuits",
+      "order": 4,
+      "titleJa": "プログラマブル回路と回路設計",
+      "titleVi": "Mạch lập trình được và thiết kế mạch",
+      "importance": "medium",
+      "summaryJa": "FPGAの特徴と、論理ゲートを組み合わせて目的の機能を実現する回路設計の基本を理解する。",
+      "summaryVi": "Hiểu đặc điểm của FPGA và kiến thức cơ bản về thiết kế mạch bằng cách kết hợp các cổng logic để thực hiện chức năng mong muốn.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デジタル回路は、必要な機能に応じて論理ゲートや記憶素子を組み合わせて設計される。近年では、製造後でも論理構成を変更できるFPGAも広く利用されている。",
+          "vi": "Mạch số được thiết kế bằng cách kết hợp các cổng logic và phần tử nhớ tùy theo chức năng cần thiết. Ngày nay FPGA, có thể thay đổi cấu hình logic sau khi sản xuất, cũng được sử dụng rộng rãi."
+        },
+        {
+          "type": "point",
+          "ja": "FPGAは内部の論理回路や配線をプログラムによって変更できるため、専用回路の試作や高速処理に適している。",
+          "vi": "FPGA cho phép thay đổi mạch logic và kết nối bên trong bằng chương trình nên phù hợp với việc thử nghiệm mạch chuyên dụng và xử lý tốc độ cao."
+        },
+        {
+          "type": "point",
+          "ja": "回路設計では、要求される機能を論理式や真理値表で整理し、必要な論理ゲートを組み合わせて回路を構成する。",
+          "vi": "Trong thiết kế mạch, chức năng yêu cầu được biểu diễn bằng biểu thức logic hoặc bảng chân trị rồi kết hợp các cổng logic cần thiết để xây dựng mạch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FPGA",
+          "reading": "えふぴーじーえー",
+          "english": "Field-Programmable Gate Array",
+          "vi": "mảng cổng lập trình được",
+          "definitionJa": "製造後でも内部の論理回路や配線をプログラムによって変更できる集積回路。",
+          "definitionVi": "Mạch tích hợp cho phép thay đổi các mạch logic và kết nối bên trong bằng chương trình ngay cả sau khi sản xuất."
+        },
+        {
+          "term": "回路設計",
+          "reading": "かいろせっけい",
+          "english": "Circuit Design",
+          "vi": "thiết kế mạch",
+          "definitionJa": "要求される機能を実現するために、論理ゲートや電子部品を組み合わせて回路を構成する設計作業。",
+          "definitionVi": "Công việc thiết kế kết hợp các cổng logic và linh kiện điện tử để tạo ra mạch thực hiện chức năng yêu cầu."
+        }
+      ],
+      "tags": ["hardware", "fpga", "circuit-design"]
+    }
+  ]
+}

@@ -39,6 +39,15 @@ import fileSystemJson from "@/data/fe/theory/05-software/03-file-system.json";
 import developmentToolsJson from "@/data/fe/theory/05-software/04-development-tools.json";
 import openSourceSoftwareJson from "@/data/fe/theory/05-software/05-open-source-software.json";
 
+// 06
+import hardwareIndexJson from "@/data/fe/theory/06-hardware/index.json";
+import hardwareJson from "@/data/fe/theory/06-hardware/01-hardware.json";
+
+// 07
+import userInterfaceIndexJson from "@/data/fe/theory/07-user-interface/index.json";
+import userInterfaceTechnologyJson from "@/data/fe/theory/07-user-interface/01-user-interface-technology.json";
+import uxUiDesignJson from "@/data/fe/theory/07-user-interface/02-ux-ui-design.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -128,10 +137,40 @@ const softwareCategory: FeCategory = {
   ],
 };
 
+// 06
+const hardwareManifest = hardwareIndexJson as FeCategoryManifest;
+
+const hardwareCategory: FeCategory = {
+  id: hardwareManifest.id,
+  order: hardwareManifest.order,
+  titleJa: hardwareManifest.titleJa,
+  titleVi: hardwareManifest.titleVi,
+  chapters: [
+    hardwareJson as FeChapter,
+  ],
+};
+
+// 07
+const userInterfaceManifest =
+  userInterfaceIndexJson as FeCategoryManifest;
+
+const userInterfaceCategory: FeCategory = {
+  id: userInterfaceManifest.id,
+  order: userInterfaceManifest.order,
+  titleJa: userInterfaceManifest.titleJa,
+  titleVi: userInterfaceManifest.titleVi,
+  chapters: [
+    userInterfaceTechnologyJson as FeChapter,
+    uxUiDesignJson as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
   computerComponentsCategory,
   systemComponentsCategory,
-  softwareCategory
+  softwareCategory,
+  hardwareCategory,
+  userInterfaceCategory
 ];

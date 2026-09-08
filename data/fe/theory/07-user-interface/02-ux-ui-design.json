@@ -1,0 +1,461 @@
+{
+  "id": "ux-ui-design",
+  "order": 2,
+  "titleJa": "UX/UIデザイン",
+  "titleVi": "Thiết kế UX/UI",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "ux-design-basics",
+      "order": 1,
+      "titleJa": "UXデザインの基本",
+      "titleVi": "Cơ bản về thiết kế UX",
+      "importance": "high",
+      "summaryJa": "UXデザインの基本に関する主要な概念とFE試験で必要な基本事項を理解する。",
+      "summaryVi": "Hiểu các khái niệm chính về cơ bản về thiết kế ux và kiến thức cơ bản cần cho kỳ thi FE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "UXデザインの基本では、利用者にとって分かりやすく使いやすいシステムを実現するための考え方や技術を学ぶ。",
+          "vi": "Phần này học các tư tưởng và kỹ thuật về cơ bản về thiết kế ux để tạo ra hệ thống dễ hiểu và dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的、特徴、適用場面の違いを整理して理解することが重要である。",
+          "vi": "Cần hiểu không chỉ định nghĩa mà cả mục đích, đặc điểm và trường hợp áp dụng của từng thuật ngữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UXデザイン",
+          "reading": "ゆーえっくすでざいん",
+          "english": "User Experience Design",
+          "vi": "thiết kế trải nghiệm người dùng",
+          "definitionJa": "製品やサービスを利用する際のユーザー体験を設計し、使いやすさや有用性を最適化する考え方。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về thiết kế trải nghiệm người dùng trong thiết kế UX/UI."
+        },
+        {
+          "term": "UXデザインの五段階モデル",
+          "reading": "ゆーえっくすでざいんのごだんかいもでる",
+          "english": "UX Design Five-Stage Model",
+          "vi": "mô hình 5 giai đoạn thiết kế UX",
+          "definitionJa": "UX設計を戦略、要件、構造、骨格、表層の五段階で体系的に進めるモデル。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mô hình 5 giai đoạn thiết kế UX trong thiết kế UX/UI."
+        },
+        {
+          "term": "デザインの原則",
+          "reading": "でざいんのげんそく",
+          "english": "Design Principles",
+          "vi": "nguyên tắc thiết kế",
+          "definitionJa": "近接、整列、反復、対比などを用いて情報を分かりやすく伝えるための基本原則。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về nguyên tắc thiết kế trong thiết kế UX/UI."
+        },
+        {
+          "term": "インフォグラフィック",
+          "reading": "",
+          "english": "Infographic",
+          "vi": "đồ họa thông tin",
+          "definitionJa": "インフォグラフィックに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về đồ họa thông tin trong thiết kế UX/UI."
+        },
+        {
+          "term": "タイポグラフィ",
+          "reading": "",
+          "english": "Typography",
+          "vi": "thiết kế và bố trí chữ",
+          "definitionJa": "タイポグラフィに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về thiết kế và bố trí chữ trong thiết kế UX/UI."
+        },
+        {
+          "term": "ムードボード",
+          "reading": "",
+          "english": "Mood Board",
+          "vi": "bảng cảm hứng",
+          "definitionJa": "ムードボードに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về bảng cảm hứng trong thiết kế UX/UI."
+        },
+        {
+          "term": "画面構成",
+          "reading": "がめんこうせい",
+          "english": "Screen Layout",
+          "vi": "bố cục màn hình",
+          "definitionJa": "画面構成に関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về bố cục màn hình trong thiết kế UX/UI."
+        },
+        {
+          "term": "情報の関係性",
+          "reading": "じょうほうのかんけいせい",
+          "english": "Relationship of Information",
+          "vi": "mối quan hệ giữa thông tin",
+          "definitionJa": "情報の関係性に関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mối quan hệ giữa thông tin trong thiết kế UX/UI."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "ux-ui-design",
+        "ux-design-basics"
+      ]
+    },
+    {
+      "id": "input-validation-and-codes",
+      "order": 2,
+      "titleJa": "入力チェックとコード設計",
+      "titleVi": "Kiểm tra đầu vào và thiết kế mã",
+      "importance": "high",
+      "summaryJa": "入力チェックとコード設計に関する主要な概念とFE試験で必要な基本事項を理解する。",
+      "summaryVi": "Hiểu các khái niệm chính về kiểm tra đầu vào và thiết kế mã và kiến thức cơ bản cần cho kỳ thi FE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "入力チェックとコード設計では、利用者にとって分かりやすく使いやすいシステムを実現するための考え方や技術を学ぶ。",
+          "vi": "Phần này học các tư tưởng và kỹ thuật về kiểm tra đầu vào và thiết kế mã để tạo ra hệ thống dễ hiểu và dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的、特徴、適用場面の違いを整理して理解することが重要である。",
+          "vi": "Cần hiểu không chỉ định nghĩa mà cả mục đích, đặc điểm và trường hợp áp dụng của từng thuật ngữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ニューメリックチェック",
+          "reading": "",
+          "english": "Numeric Check",
+          "vi": "kiểm tra dữ liệu số",
+          "definitionJa": "入力データが数字であることを確認するチェック。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra dữ liệu số trong thiết kế UX/UI."
+        },
+        {
+          "term": "フォーマットチェック",
+          "reading": "",
+          "english": "Format Check",
+          "vi": "kiểm tra định dạng",
+          "definitionJa": "入力データが所定の形式に従っているか確認するチェック。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra định dạng trong thiết kế UX/UI."
+        },
+        {
+          "term": "リミットチェック",
+          "reading": "",
+          "english": "Limit Check",
+          "vi": "kiểm tra giới hạn",
+          "definitionJa": "入力値があらかじめ設定された範囲内か確認するチェック。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra giới hạn trong thiết kế UX/UI."
+        },
+        {
+          "term": "組合せチェック",
+          "reading": "くみあわせちぇっく",
+          "english": "Combination Check",
+          "vi": "kiểm tra tổ hợp",
+          "definitionJa": "複数の入力項目の組合せに矛盾がないか確認するチェック。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra tổ hợp trong thiết kế UX/UI."
+        },
+        {
+          "term": "照合チェック",
+          "reading": "しょうごうちぇっく",
+          "english": "Validation Check",
+          "vi": "kiểm tra đối chiếu",
+          "definitionJa": "入力データを基準となるデータと照合して正しさを確認するチェック。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra đối chiếu trong thiết kế UX/UI."
+        },
+        {
+          "term": "バランスチェック",
+          "reading": "",
+          "english": "Balance Check",
+          "vi": "kiểm tra cân bằng",
+          "definitionJa": "バランスチェックに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm tra cân bằng trong thiết kế UX/UI."
+        },
+        {
+          "term": "チェックキャラクター",
+          "reading": "",
+          "english": "Check Character",
+          "vi": "ký tự kiểm tra",
+          "definitionJa": "チェックキャラクターに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về ký tự kiểm tra trong thiết kế UX/UI."
+        },
+        {
+          "term": "フォームオーバーレイ",
+          "reading": "",
+          "english": "Form Overlay",
+          "vi": "lớp phủ biểu mẫu",
+          "definitionJa": "フォームオーバーレイに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về lớp phủ biểu mẫu trong thiết kế UX/UI."
+        },
+        {
+          "term": "順番コード",
+          "reading": "じゅんばんこーど",
+          "english": "Sequential Code",
+          "vi": "mã tuần tự",
+          "definitionJa": "一定の順序に従って番号を割り当てるコード。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mã tuần tự trong thiết kế UX/UI."
+        },
+        {
+          "term": "区分コード",
+          "reading": "くぶんこーど",
+          "english": "Classification Code",
+          "vi": "mã phân loại",
+          "definitionJa": "対象をカテゴリやグループに分類するためのコード。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mã phân loại trong thiết kế UX/UI."
+        },
+        {
+          "term": "桁別コード",
+          "reading": "けたべつこーど",
+          "english": "Digit-by-Digit Code",
+          "vi": "mã theo từng chữ số",
+          "definitionJa": "各桁に個別の意味を持たせて対象を表現するコード。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mã theo từng chữ số trong thiết kế UX/UI."
+        },
+        {
+          "term": "表意コード",
+          "reading": "ひょういこーど",
+          "english": "Ideographic Code",
+          "vi": "mã biểu ý",
+          "definitionJa": "文字や記号そのものに意味を持たせたコード。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mã biểu ý trong thiết kế UX/UI."
+        },
+        {
+          "term": "合成コード",
+          "reading": "ごうせいこーど",
+          "english": "Composite Code",
+          "vi": "mã tổng hợp",
+          "definitionJa": "複数のコードを組み合わせて構成するコード。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về mã tổng hợp trong thiết kế UX/UI."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "ux-ui-design",
+        "input-validation-and-codes"
+      ]
+    },
+    {
+      "id": "web-ui-design",
+      "order": 3,
+      "titleJa": "Web・UIデザイン",
+      "titleVi": "Thiết kế Web và UI",
+      "importance": "high",
+      "summaryJa": "Web・UIデザインに関する主要な概念とFE試験で必要な基本事項を理解する。",
+      "summaryVi": "Hiểu các khái niệm chính về thiết kế web và ui và kiến thức cơ bản cần cho kỳ thi FE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "Web・UIデザインでは、利用者にとって分かりやすく使いやすいシステムを実現するための考え方や技術を学ぶ。",
+          "vi": "Phần này học các tư tưởng và kỹ thuật về thiết kế web và ui để tạo ra hệ thống dễ hiểu và dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的、特徴、適用場面の違いを整理して理解することが重要である。",
+          "vi": "Cần hiểu không chỉ định nghĩa mà cả mục đích, đặc điểm và trường hợp áp dụng của từng thuật ngữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フレーム",
+          "reading": "",
+          "english": "Frame",
+          "vi": "frame",
+          "definitionJa": "フレームに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về frame trong thiết kế UX/UI."
+        },
+        {
+          "term": "ナビゲーション",
+          "reading": "",
+          "english": "Navigation",
+          "vi": "điều hướng",
+          "definitionJa": "ナビゲーションに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về điều hướng trong thiết kế UX/UI."
+        },
+        {
+          "term": "サイト内検索機能",
+          "reading": "さいとないけんさくきのう",
+          "english": "Site Search Function",
+          "vi": "tìm kiếm trong website",
+          "definitionJa": "サイト内検索機能に関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về tìm kiếm trong website trong thiết kế UX/UI."
+        },
+        {
+          "term": "クロスブラウザ",
+          "reading": "",
+          "english": "Cross-Browser",
+          "vi": "tương thích đa trình duyệt",
+          "definitionJa": "クロスブラウザに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về tương thích đa trình duyệt trong thiết kế UX/UI."
+        },
+        {
+          "term": "プログレッシブエンハンスメント",
+          "reading": "",
+          "english": "Progressive Enhancement",
+          "vi": "nâng cấp lũy tiến",
+          "definitionJa": "プログレッシブエンハンスメントに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về nâng cấp lũy tiến trong thiết kế UX/UI."
+        },
+        {
+          "term": "レスポンシブWebデザイン",
+          "reading": "れすぽんしぶうぇぶでざいん",
+          "english": "Responsive Web Design",
+          "vi": "thiết kế Web đáp ứng",
+          "definitionJa": "画面サイズや端末に応じてレイアウトを自動調整するWeb設計手法。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về thiết kế Web đáp ứng trong thiết kế UX/UI."
+        },
+        {
+          "term": "UXライティング",
+          "reading": "ゆーえっくすらいてぃんぐ",
+          "english": "UX Writing",
+          "vi": "viết nội dung UX",
+          "definitionJa": "UXライティングに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về viết nội dung UX trong thiết kế UX/UI."
+        },
+        {
+          "term": "ワイヤーフレーム",
+          "reading": "",
+          "english": "Wireframe",
+          "vi": "khung sườn giao diện",
+          "definitionJa": "ワイヤーフレームに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về khung sườn giao diện trong thiết kế UX/UI."
+        },
+        {
+          "term": "メディアクエリ",
+          "reading": "",
+          "english": "Media Query",
+          "vi": "truy vấn phương tiện",
+          "definitionJa": "画面サイズなどの条件に応じてCSSを適用する仕組み。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về truy vấn phương tiện trong thiết kế UX/UI."
+        },
+        {
+          "term": "カルーセル",
+          "reading": "",
+          "english": "Carousel",
+          "vi": "băng chuyền nội dung",
+          "definitionJa": "カルーセルに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về băng chuyền nội dung trong thiết kế UX/UI."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "ux-ui-design",
+        "web-ui-design"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "order": 4,
+      "titleJa": "アクセシビリティとユニバーサルデザイン",
+      "titleVi": "Khả năng tiếp cận và thiết kế phổ quát",
+      "importance": "high",
+      "summaryJa": "アクセシビリティとユニバーサルデザインに関する主要な概念とFE試験で必要な基本事項を理解する。",
+      "summaryVi": "Hiểu các khái niệm chính về khả năng tiếp cận và thiết kế phổ quát và kiến thức cơ bản cần cho kỳ thi FE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "アクセシビリティとユニバーサルデザインでは、利用者にとって分かりやすく使いやすいシステムを実現するための考え方や技術を学ぶ。",
+          "vi": "Phần này học các tư tưởng và kỹ thuật về khả năng tiếp cận và thiết kế phổ quát để tạo ra hệ thống dễ hiểu và dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的、特徴、適用場面の違いを整理して理解することが重要である。",
+          "vi": "Cần hiểu không chỉ định nghĩa mà cả mục đích, đặc điểm và trường hợp áp dụng của từng thuật ngữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Z 8530",
+          "reading": "じすぜっと8530",
+          "english": "JIS Z 8530",
+          "vi": "tiêu chuẩn JIS Z 8530",
+          "definitionJa": "人間中心設計に関する日本産業規格。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về tiêu chuẩn JIS Z 8530 trong thiết kế UX/UI."
+        },
+        {
+          "term": "JIS X 8341",
+          "reading": "じすえっくす8341",
+          "english": "JIS X 8341",
+          "vi": "tiêu chuẩn JIS X 8341",
+          "definitionJa": "高齢者や障害者を含む利用者の情報アクセシビリティに関する日本産業規格。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về tiêu chuẩn JIS X 8341 trong thiết kế UX/UI."
+        },
+        {
+          "term": "ピクトグラム",
+          "reading": "",
+          "english": "Pictogram",
+          "vi": "biểu tượng hình ảnh",
+          "definitionJa": "ピクトグラムに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về biểu tượng hình ảnh trong thiết kế UX/UI."
+        },
+        {
+          "term": "ユニバーサルデザインフォント",
+          "reading": "",
+          "english": "Universal Design Font",
+          "vi": "phông chữ thiết kế phổ quát",
+          "definitionJa": "ユニバーサルデザインフォントに関するUX/UI設計上の概念、手法、または要素。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về phông chữ thiết kế phổ quát trong thiết kế UX/UI."
+        },
+        {
+          "term": "WAI",
+          "reading": "だぶりゅーえーあい",
+          "english": "Web Accessibility Initiative",
+          "vi": "Sáng kiến Khả năng truy cập Web",
+          "definitionJa": "Webアクセシビリティ向上のためのガイドラインや技術を推進する取り組み。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về Sáng kiến Khả năng truy cập Web trong thiết kế UX/UI."
+        },
+        {
+          "term": "WCAG",
+          "reading": "だぶるしーえーじー",
+          "english": "Web Content Accessibility Guidelines",
+          "vi": "Hướng dẫn khả năng truy cập nội dung Web",
+          "definitionJa": "Webコンテンツをアクセシブルにするための国際的なガイドライン。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về Hướng dẫn khả năng truy cập nội dung Web trong thiết kế UX/UI."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "ux-ui-design",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "usability-evaluation",
+      "order": 5,
+      "titleJa": "ユーザビリティ評価",
+      "titleVi": "Đánh giá khả năng sử dụng",
+      "importance": "medium",
+      "summaryJa": "ユーザビリティ評価に関する主要な概念とFE試験で必要な基本事項を理解する。",
+      "summaryVi": "Hiểu các khái niệm chính về đánh giá khả năng sử dụng và kiến thức cơ bản cần cho kỳ thi FE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ユーザビリティ評価では、利用者にとって分かりやすく使いやすいシステムを実現するための考え方や技術を学ぶ。",
+          "vi": "Phần này học các tư tưởng và kỹ thuật về đánh giá khả năng sử dụng để tạo ra hệ thống dễ hiểu và dễ sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "用語の定義だけでなく、目的、特徴、適用場面の違いを整理して理解することが重要である。",
+          "vi": "Cần hiểu không chỉ định nghĩa mà cả mục đích, đặc điểm và trường hợp áp dụng của từng thuật ngữ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ヒューリスティック評価",
+          "reading": "ひゅーりすてぃっくひょうか",
+          "english": "Heuristic Evaluation",
+          "vi": "đánh giá heuristic",
+          "definitionJa": "専門家が原則やガイドラインに基づいてUIを評価し、問題点を発見する手法。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về đánh giá heuristic trong thiết kế UX/UI."
+        },
+        {
+          "term": "ユーザビリティテスト",
+          "reading": "",
+          "english": "Usability Test",
+          "vi": "kiểm thử khả năng sử dụng",
+          "definitionJa": "実際のユーザーに操作してもらい、使いやすさや問題点を評価する手法。",
+          "definitionVi": "Khái niệm, kỹ thuật hoặc thành phần về kiểm thử khả năng sử dụng trong thiết kế UX/UI."
+        }
+      ],
+      "tags": [
+        "user-interface",
+        "ux-ui-design",
+        "usability-evaluation"
+      ]
+    }
+  ]
+}
