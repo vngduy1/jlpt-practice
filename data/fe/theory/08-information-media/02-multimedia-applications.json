@@ -1,0 +1,398 @@
+{
+  "id": "multimedia-applications",
+  "order": 2,
+  "titleJa": "マルチメディア応用",
+  "titleVi": "Ứng dụng đa phương tiện",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "color-representation",
+      "order": 1,
+      "titleJa": "色の表現",
+      "titleVi": "Biểu diễn màu sắc",
+      "importance": "high",
+      "summaryJa": "光の3原色、色の3原色、加法混色、減法混色、コントラストなど、デジタル画像や印刷における色表現の基本を理解する。",
+      "summaryVi": "Hiểu những kiến thức cơ bản về biểu diễn màu trong hình ảnh số và in ấn như ba màu cơ bản của ánh sáng, ba màu cơ bản của màu, pha màu cộng, pha màu trừ và độ tương phản.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "マルチメディアでは、画像や映像を正しく表現するために色の仕組みを理解することが重要である。ディスプレイと印刷では色を作る原理が異なる。",
+          "vi": "Trong multimedia, việc hiểu cơ chế màu sắc rất quan trọng để biểu diễn hình ảnh và video chính xác. Màn hình và in ấn sử dụng các nguyên lý tạo màu khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "ディスプレイでは赤・緑・青の光を組み合わせる加法混色が利用される。",
+          "vi": "Màn hình sử dụng pha màu cộng bằng cách kết hợp ánh sáng đỏ, xanh lá và xanh dương."
+        },
+        {
+          "type": "point",
+          "ja": "印刷ではシアン・マゼンタ・イエローなどの色材を重ねる減法混色が利用される。",
+          "vi": "In ấn sử dụng pha màu trừ bằng cách chồng các màu như cyan, magenta và yellow."
+        },
+        {
+          "type": "warning",
+          "ja": "光の3原色と色の3原色、および加法混色と減法混色を混同しないことが重要である。",
+          "vi": "Cần tránh nhầm lẫn giữa ba màu cơ bản của ánh sáng và ba màu cơ bản của màu, cũng như giữa pha màu cộng và pha màu trừ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "光の3原色",
+          "reading": "ひかりのさんげんしょく",
+          "english": "RGB Color Model",
+          "vi": "ba màu cơ bản của ánh sáng",
+          "definitionJa": "赤、緑、青の三つの光を基本として色を表現する方式。テレビやコンピュータのディスプレイなどで利用される。",
+          "definitionVi": "Phương pháp biểu diễn màu dựa trên ba màu ánh sáng đỏ, xanh lá và xanh dương, được dùng trong TV và màn hình máy tính."
+        },
+        {
+          "term": "色の3原色",
+          "reading": "いろのさんげんしょく",
+          "english": "Primary Colors",
+          "vi": "ba màu cơ bản của màu",
+          "definitionJa": "他の色を作り出すための基本となる色。印刷ではシアン、マゼンタ、イエローが基本として用いられる。",
+          "definitionVi": "Các màu cơ bản dùng để tạo ra những màu khác. Trong in ấn thường dùng cyan, magenta và yellow."
+        },
+        {
+          "term": "加法混色",
+          "reading": "かほうこんしょく",
+          "english": "Additive Color Mixing",
+          "vi": "pha màu cộng",
+          "definitionJa": "赤、緑、青などの光を加えることで新しい色を作る方法。三色を最大にすると白になる。",
+          "definitionVi": "Phương pháp tạo màu mới bằng cách cộng các ánh sáng đỏ, xanh lá và xanh dương. Khi cả ba đạt mức tối đa sẽ tạo thành màu trắng."
+        },
+        {
+          "term": "減法混色",
+          "reading": "げんぽうこんしょく",
+          "english": "Subtractive Color Mixing",
+          "vi": "pha màu trừ",
+          "definitionJa": "色材を重ねて特定の波長の光を吸収することで色を作る方法。印刷などで利用される。",
+          "definitionVi": "Phương pháp tạo màu bằng cách chồng các chất màu để hấp thụ một số bước sóng ánh sáng, thường được sử dụng trong in ấn."
+        },
+        {
+          "term": "コントラスト",
+          "reading": "",
+          "english": "Contrast",
+          "vi": "độ tương phản",
+          "definitionJa": "色や明るさの差によって、対象を見やすくしたり強調したりする度合い。",
+          "definitionVi": "Mức độ khác biệt về màu sắc hoặc độ sáng giúp đối tượng dễ nhìn hoặc nổi bật hơn."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-applications",
+        "color"
+      ]
+    },
+    {
+      "id": "image-resolution-editing",
+      "order": 2,
+      "titleJa": "画像の解像度と編集",
+      "titleVi": "Độ phân giải và chỉnh sửa hình ảnh",
+      "importance": "high",
+      "summaryJa": "dpi、ppi、ペイント系・ドロー系ソフトウェア、レイヤー、トリミングなど、画像の品質や編集に関する基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về chất lượng và chỉnh sửa hình ảnh như dpi, ppi, phần mềm raster, phần mềm vector, layer và trimming.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デジタル画像では、解像度と画像データの表現方法が画質に大きく影響する。また、画像編集では目的に応じてペイント系とドロー系のソフトウェアを使い分ける。",
+          "vi": "Trong hình ảnh số, độ phân giải và phương pháp biểu diễn dữ liệu ảnh ảnh hưởng lớn đến chất lượng. Khi chỉnh sửa ảnh cần lựa chọn phần mềm raster hoặc vector tùy mục đích."
+        },
+        {
+          "type": "point",
+          "ja": "dpiは主に印刷装置のドット密度、ppiは画像やディスプレイの画素密度を表す。",
+          "vi": "dpi chủ yếu biểu thị mật độ chấm của thiết bị in, còn ppi biểu thị mật độ pixel của hình ảnh hoặc màn hình."
+        },
+        {
+          "type": "point",
+          "ja": "ペイント系ソフトウェアは画素を扱い、ドロー系ソフトウェアは図形や線を数値情報として扱う。",
+          "vi": "Phần mềm paint xử lý pixel, trong khi phần mềm drawing xử lý đường và hình dạng dưới dạng dữ liệu số."
+        },
+        {
+          "type": "warning",
+          "ja": "dpiとppiは似た単位だが、対象となるものが異なるため区別して覚える。",
+          "vi": "dpi và ppi khá giống nhau nhưng đối tượng đo khác nhau, vì vậy cần phân biệt rõ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "dpi",
+          "reading": "でぃーぴーあい",
+          "english": "Dots Per Inch",
+          "vi": "số chấm trên mỗi inch",
+          "definitionJa": "1インチ当たりに含まれるドット数を表す単位で、主にプリンタなどの解像度を示す。",
+          "definitionVi": "Đơn vị biểu thị số chấm trên mỗi inch, chủ yếu dùng để thể hiện độ phân giải của máy in."
+        },
+        {
+          "term": "ppi",
+          "reading": "ぴーぴーあい",
+          "english": "Pixels Per Inch",
+          "vi": "số pixel trên mỗi inch",
+          "definitionJa": "1インチ当たりに含まれる画素数を表す単位で、画像やディスプレイの画素密度を示す。",
+          "definitionVi": "Đơn vị biểu thị số pixel trên mỗi inch, dùng để thể hiện mật độ pixel của hình ảnh hoặc màn hình."
+        },
+        {
+          "term": "ペイント系ソフトウェア",
+          "reading": "ぺいんとけいそふとうぇあ",
+          "english": "Paint Software",
+          "vi": "phần mềm đồ họa raster",
+          "definitionJa": "画像を画素の集合として扱い、ブラシなどを用いて描画や画像編集を行うソフトウェア。",
+          "definitionVi": "Phần mềm xử lý hình ảnh dưới dạng tập hợp các pixel và cho phép vẽ hoặc chỉnh sửa bằng các công cụ như cọ."
+        },
+        {
+          "term": "ドロー系ソフトウェア",
+          "reading": "どろーけいそふとうぇあ",
+          "english": "Drawing Software",
+          "vi": "phần mềm đồ họa vector",
+          "definitionJa": "線や図形を数式やベクトルデータとして扱い、拡大や縮小をしても画質が劣化しにくいソフトウェア。",
+          "definitionVi": "Phần mềm xử lý đường và hình dạng dưới dạng dữ liệu vector nên ít bị giảm chất lượng khi phóng to hoặc thu nhỏ."
+        },
+        {
+          "term": "レイヤー",
+          "reading": "",
+          "english": "Layer",
+          "vi": "lớp",
+          "definitionJa": "画像やオブジェクトを複数の層に分け、それぞれを独立して編集・管理する仕組み。",
+          "definitionVi": "Cơ chế chia hình ảnh hoặc đối tượng thành nhiều lớp để có thể chỉnh sửa và quản lý độc lập."
+        },
+        {
+          "term": "トリミング",
+          "reading": "",
+          "english": "Trimming",
+          "vi": "cắt xén hình ảnh",
+          "definitionJa": "画像の不要な部分を切り取り、必要な範囲だけを残す操作。",
+          "definitionVi": "Thao tác cắt bỏ phần không cần thiết của hình ảnh và chỉ giữ lại vùng cần thiết."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-applications",
+        "image-editing",
+        "resolution"
+      ]
+    },
+    {
+      "id": "computer-graphics-simulation",
+      "order": 3,
+      "titleJa": "CGとシミュレーション",
+      "titleVi": "Đồ họa máy tính và mô phỏng",
+      "importance": "medium",
+      "summaryJa": "CG、CAD、シミュレーター、テレビゲームなど、コンピュータによる画像生成やシミュレーションの応用を理解する。",
+      "summaryVi": "Hiểu các ứng dụng tạo hình ảnh và mô phỏng bằng máy tính như CG, CAD, simulator và trò chơi điện tử.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "コンピュータは画像や映像を生成するだけでなく、現実の物体や環境を仮想的に再現するためにも利用される。",
+          "vi": "Máy tính không chỉ được dùng để tạo hình ảnh và video mà còn được dùng để mô phỏng vật thể và môi trường thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "CGはコンピュータによる画像生成技術全般を指し、CADは設計や製図を支援するために利用される。",
+          "vi": "CG là khái niệm chung về tạo hình ảnh bằng máy tính, còn CAD được dùng để hỗ trợ thiết kế và vẽ kỹ thuật."
+        },
+        {
+          "type": "point",
+          "ja": "シミュレーターは現実の環境や操作を仮想的に再現し、訓練や検証などに利用される。",
+          "vi": "Simulator tái hiện môi trường hoặc thao tác thực tế trong môi trường giả lập và được dùng cho đào tạo hoặc kiểm chứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CG",
+          "reading": "しーじー",
+          "english": "Computer Graphics",
+          "vi": "đồ họa máy tính",
+          "definitionJa": "コンピュータを用いて画像やアニメーションなどを生成・処理する技術。",
+          "definitionVi": "Công nghệ sử dụng máy tính để tạo và xử lý hình ảnh, hoạt hình và các nội dung đồ họa."
+        },
+        {
+          "term": "CAD",
+          "reading": "きゃど",
+          "english": "Computer-Aided Design",
+          "vi": "thiết kế có sự hỗ trợ của máy tính",
+          "definitionJa": "コンピュータを利用して設計や製図を効率的に行うための技術やソフトウェア。",
+          "definitionVi": "Công nghệ hoặc phần mềm sử dụng máy tính để hỗ trợ thiết kế và vẽ kỹ thuật một cách hiệu quả."
+        },
+        {
+          "term": "シミュレーター",
+          "reading": "",
+          "english": "Simulator",
+          "vi": "trình mô phỏng",
+          "definitionJa": "現実の状況、現象、操作などを仮想的に再現する装置やソフトウェア。",
+          "definitionVi": "Thiết bị hoặc phần mềm mô phỏng các tình huống, hiện tượng hoặc thao tác trong thực tế."
+        },
+        {
+          "term": "テレビゲーム",
+          "reading": "",
+          "english": "Television Game",
+          "vi": "trò chơi điện tử",
+          "definitionJa": "テレビやディスプレイに接続したゲーム機などを利用して遊ぶ電子的なゲーム。",
+          "definitionVi": "Trò chơi điện tử được chơi thông qua máy chơi game kết nối với TV hoặc màn hình."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-applications",
+        "computer-graphics",
+        "simulation"
+      ]
+    },
+    {
+      "id": "extended-reality",
+      "order": 4,
+      "titleJa": "AR・VR・MRと仮想空間",
+      "titleVi": "AR, VR, MR và không gian ảo",
+      "importance": "high",
+      "summaryJa": "AR、VR、MR、メタバースなど、現実世界と仮想世界を組み合わせる技術の特徴と違いを理解する。",
+      "summaryVi": "Hiểu đặc điểm và sự khác nhau giữa AR, VR, MR và metaverse, các công nghệ kết hợp thế giới thực với thế giới ảo.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "XR関連技術では、現実世界に情報を追加したり、完全な仮想空間を生成したり、現実と仮想を融合したりすることで、新しい利用体験を提供する。",
+          "vi": "Các công nghệ XR tạo ra trải nghiệm mới bằng cách bổ sung thông tin vào thế giới thực, tạo môi trường hoàn toàn ảo hoặc kết hợp thế giới thực và thế giới ảo."
+        },
+        {
+          "type": "point",
+          "ja": "ARは現実世界にデジタル情報を重ねて表示する。",
+          "vi": "AR chồng thông tin kỹ thuật số lên thế giới thực."
+        },
+        {
+          "type": "point",
+          "ja": "VRは利用者をコンピュータで生成された仮想空間に没入させる。",
+          "vi": "VR đưa người dùng vào một không gian ảo được tạo bằng máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "MRは現実世界と仮想世界を融合し、現実の物体と仮想物体を相互作用させる。",
+          "vi": "MR kết hợp thế giới thực và thế giới ảo, cho phép vật thể thật và vật thể ảo tương tác với nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "AR、VR、MRはFE試験で違いを問われやすいため、現実世界を残すか、仮想世界へ没入するか、両者を融合するかを整理して覚える。",
+          "vi": "AR, VR và MR dễ được hỏi dưới dạng phân biệt trong kỳ thi FE. Hãy nhớ dựa trên việc giữ thế giới thực, chìm hoàn toàn vào thế giới ảo hay kết hợp cả hai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AR",
+          "reading": "えーあーる",
+          "english": "Augmented Reality",
+          "vi": "thực tế tăng cường",
+          "definitionJa": "現実世界にコンピュータで生成した情報や画像を重ねて表示する技術。",
+          "definitionVi": "Công nghệ chồng thông tin hoặc hình ảnh do máy tính tạo ra lên thế giới thực."
+        },
+        {
+          "term": "VR",
+          "reading": "ぶいあーる",
+          "english": "Virtual Reality",
+          "vi": "thực tế ảo",
+          "definitionJa": "コンピュータによって生成された仮想空間に利用者を没入させ、実際にその空間にいるような体験を提供する技術。",
+          "definitionVi": "Công nghệ đưa người dùng vào không gian ảo do máy tính tạo ra để tạo cảm giác như đang thực sự ở trong đó."
+        },
+        {
+          "term": "MR",
+          "reading": "えむあーる",
+          "english": "Mixed Reality",
+          "vi": "thực tế hỗn hợp",
+          "definitionJa": "現実世界と仮想世界を融合し、現実の物体とデジタル情報を相互作用させる技術。",
+          "definitionVi": "Công nghệ kết hợp thế giới thực với thế giới ảo và cho phép vật thể thật tương tác với thông tin kỹ thuật số."
+        },
+        {
+          "term": "メタバース",
+          "reading": "",
+          "english": "Metaverse",
+          "vi": "metaverse",
+          "definitionJa": "利用者がアバターなどを通じて参加し、交流、ゲーム、ビジネスなどを行う共有型の仮想空間。",
+          "definitionVi": "Không gian ảo dùng chung nơi người dùng tham gia thông qua avatar để giao tiếp, chơi game hoặc thực hiện các hoạt động khác."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-applications",
+        "ar",
+        "vr",
+        "mr",
+        "metaverse"
+      ]
+    },
+    {
+      "id": "multimedia-experience",
+      "order": 5,
+      "titleJa": "映像・音響の応用技術",
+      "titleVi": "Công nghệ ứng dụng hình ảnh và âm thanh",
+      "importance": "medium",
+      "summaryJa": "ビデオオンデマンド、3次元映像、ホログラム、モーションキャプチャー、バーチャルサラウンドなど、映像・音響を利用したマルチメディア応用技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ ứng dụng multimedia về hình ảnh và âm thanh như video theo yêu cầu, hình ảnh 3D, hologram, motion capture và âm thanh vòm ảo.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "マルチメディア技術は、映像や音響を組み合わせることで、より臨場感の高いコンテンツやサービスを実現するために利用される。",
+          "vi": "Công nghệ multimedia kết hợp hình ảnh và âm thanh để tạo ra nội dung và dịch vụ có mức độ chân thực và nhập vai cao hơn."
+        },
+        {
+          "type": "point",
+          "ja": "ビデオオンデマンドでは、利用者が見たい映像を好きな時間に選択して視聴できる。",
+          "vi": "Video on Demand cho phép người dùng chọn và xem nội dung mong muốn vào thời điểm tùy ý."
+        },
+        {
+          "type": "point",
+          "ja": "モーションキャプチャーでは、人間や物体の動きをデジタルデータとして記録する。",
+          "vi": "Motion capture ghi lại chuyển động của người hoặc vật thể dưới dạng dữ liệu số."
+        },
+        {
+          "type": "point",
+          "ja": "バーチャルサラウンドでは、少数のスピーカーやヘッドフォンでも立体的な音場を再現する。",
+          "vi": "Virtual surround tái tạo không gian âm thanh ba chiều ngay cả khi chỉ sử dụng ít loa hoặc tai nghe."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビデオオンデマンド",
+          "reading": "",
+          "english": "Video on Demand",
+          "vi": "video theo yêu cầu",
+          "definitionJa": "利用者が見たい動画を好きな時間に選択して視聴できるサービス。",
+          "definitionVi": "Dịch vụ cho phép người dùng chọn và xem video mình muốn vào thời điểm tùy ý."
+        },
+        {
+          "term": "3次元映像",
+          "reading": "さんじげんえいぞう",
+          "english": "Three-Dimensional Video",
+          "vi": "hình ảnh ba chiều",
+          "definitionJa": "左右の目に異なる映像を見せるなどして、人間の立体視を利用し、奥行きを感じさせる映像。",
+          "definitionVi": "Hình ảnh tạo cảm giác chiều sâu bằng cách tận dụng khả năng nhìn lập thể của con người, chẳng hạn cung cấp hình ảnh khác nhau cho hai mắt."
+        },
+        {
+          "term": "ホログラム",
+          "reading": "",
+          "english": "Hologram",
+          "vi": "ảnh toàn ký",
+          "definitionJa": "光の干渉を利用して物体の立体的な情報を記録し、再生する技術。",
+          "definitionVi": "Công nghệ sử dụng giao thoa ánh sáng để ghi lại và tái tạo thông tin ba chiều của vật thể."
+        },
+        {
+          "term": "モーションキャプチャー",
+          "reading": "",
+          "english": "Motion Capture",
+          "vi": "ghi chuyển động",
+          "definitionJa": "人間や物体の動きをカメラやセンサーで取得し、デジタルデータとして記録する技術。",
+          "definitionVi": "Công nghệ thu chuyển động của người hoặc vật thể bằng camera hay cảm biến và ghi lại thành dữ liệu số."
+        },
+        {
+          "term": "バーチャルサラウンド",
+          "reading": "",
+          "english": "Virtual Surround",
+          "vi": "âm thanh vòm ảo",
+          "definitionJa": "少数のスピーカーやヘッドフォンを利用して、周囲から音が聞こえるような立体的な音場を再現する技術。",
+          "definitionVi": "Công nghệ sử dụng ít loa hoặc tai nghe để tái tạo cảm giác âm thanh ba chiều phát ra từ nhiều hướng xung quanh."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-applications",
+        "video",
+        "audio",
+        "immersive-media"
+      ]
+    }
+  ]
+}

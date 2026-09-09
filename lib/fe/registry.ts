@@ -48,6 +48,11 @@ import userInterfaceIndexJson from "@/data/fe/theory/07-user-interface/index.jso
 import userInterfaceTechnologyJson from "@/data/fe/theory/07-user-interface/01-user-interface-technology.json";
 import uxUiDesignJson from "@/data/fe/theory/07-user-interface/02-ux-ui-design.json";
 
+// 08
+import informationMediaIndex from "@/data/fe/theory/08-information-media/index.json";
+import multimediaTechnology from "@/data/fe/theory/08-information-media/01-multimedia-technology.json";
+import multimediaApplications from "@/data/fe/theory/08-information-media/02-multimedia-applications.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -165,6 +170,21 @@ const userInterfaceCategory: FeCategory = {
   ],
 };
 
+// 08
+const informationMediaManifest =
+  informationMediaIndex as FeCategoryManifest;
+
+const informationMediaCategory: FeCategory = {
+  id: informationMediaManifest.id,
+  order: informationMediaManifest.order,
+  titleJa: informationMediaManifest.titleJa,
+  titleVi: informationMediaManifest.titleVi,
+  chapters: [
+    multimediaTechnology as FeChapter,
+    multimediaApplications as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
@@ -172,5 +192,6 @@ export const feTheoryCategories: FeCategory[] = [
   systemComponentsCategory,
   softwareCategory,
   hardwareCategory,
-  userInterfaceCategory
+  userInterfaceCategory,
+  informationMediaCategory
 ];

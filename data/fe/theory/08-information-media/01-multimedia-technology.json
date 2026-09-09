@@ -1,0 +1,517 @@
+{
+  "id": "multimedia-technology",
+  "order": 1,
+  "titleJa": "マルチメディア技術",
+  "titleVi": "Công nghệ đa phương tiện",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "multimedia-fundamentals",
+      "order": 1,
+      "titleJa": "マルチメディアの基本",
+      "titleVi": "Kiến thức cơ bản về multimedia",
+      "importance": "high",
+      "summaryJa": "インタラクティブ性、Webコンテンツ、ハイパーメディア、コンテナフォーマット、ストリーミング、オーサリング環境など、マルチメディアを構成する基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản cấu thành multimedia như tính tương tác, nội dung Web, hypermedia, container format, streaming và môi trường authoring.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "マルチメディアでは、文字、画像、音声、動画など複数のメディアを組み合わせて情報を表現する。利用者との相互作用や、ネットワークを通じた配信も重要な要素である。",
+          "vi": "Multimedia biểu diễn thông tin bằng cách kết hợp nhiều loại phương tiện như văn bản, hình ảnh, âm thanh và video. Tính tương tác với người dùng và phân phối qua mạng cũng là những yếu tố quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "インタラクティブ性とは、利用者の操作に応じてコンテンツ側が反応する性質である。",
+          "vi": "Tính tương tác là đặc tính trong đó nội dung phản hồi theo thao tác của người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "コンテナフォーマットは、映像、音声、字幕など複数種類のデータを一つのファイルに格納する。",
+          "vi": "Container format lưu nhiều loại dữ liệu như video, âm thanh và phụ đề trong cùng một tệp."
+        },
+        {
+          "type": "point",
+          "ja": "ストリーミングでは、ファイル全体のダウンロード完了を待たずに再生を開始できる。",
+          "vi": "Streaming cho phép bắt đầu phát nội dung mà không cần chờ tải toàn bộ tệp."
+        },
+        {
+          "type": "warning",
+          "ja": "コンテナフォーマットとコーデックは異なる概念である。コンテナは複数のデータを格納する形式であり、コーデックは映像や音声を符号化・圧縮する方式である。",
+          "vi": "Container format và codec là hai khái niệm khác nhau. Container dùng để chứa nhiều loại dữ liệu, còn codec dùng để mã hóa hoặc nén video và âm thanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタラクティブ性",
+          "reading": "いんたらくてぃぶせい",
+          "english": "Interactivity",
+          "vi": "tính tương tác",
+          "definitionJa": "利用者の操作や選択に対してコンテンツが反応し、相互作用できる性質。",
+          "definitionVi": "Đặc tính cho phép nội dung phản hồi và tương tác theo thao tác hoặc lựa chọn của người dùng."
+        },
+        {
+          "term": "Webコンテンツ",
+          "reading": "うぇぶこんてんつ",
+          "english": "Web Content",
+          "vi": "nội dung Web",
+          "definitionJa": "Web上で提供される文章、画像、音声、動画などの情報やメディア。",
+          "definitionVi": "Thông tin và phương tiện như văn bản, hình ảnh, âm thanh và video được cung cấp trên Web."
+        },
+        {
+          "term": "ハイパーメディア",
+          "reading": "",
+          "english": "Hypermedia",
+          "vi": "hypermedia",
+          "definitionJa": "テキスト、画像、音声、動画などをリンクによって関連付け、利用者が自由に情報をたどれるようにした方式。",
+          "definitionVi": "Phương thức liên kết văn bản, hình ảnh, âm thanh, video bằng hyperlink để người dùng tự do truy cập thông tin liên quan."
+        },
+        {
+          "term": "コンテナフォーマット",
+          "reading": "",
+          "english": "Container Format",
+          "vi": "định dạng container",
+          "definitionJa": "映像、音声、字幕など異なる種類のデータを一つのファイルにまとめて格納する形式。",
+          "definitionVi": "Định dạng dùng để chứa nhiều loại dữ liệu như video, âm thanh và phụ đề trong một tệp."
+        },
+        {
+          "term": "ストリーミング",
+          "reading": "",
+          "english": "Streaming",
+          "vi": "truyền phát trực tuyến",
+          "definitionJa": "音声や映像を受信しながら順次再生する技術。",
+          "definitionVi": "Công nghệ phát âm thanh hoặc video tuần tự trong khi dữ liệu đang được nhận."
+        },
+        {
+          "term": "オーサリング環境",
+          "reading": "おーさりんぐかんきょう",
+          "english": "Authoring Environment",
+          "vi": "môi trường biên soạn multimedia",
+          "definitionJa": "画像、音声、動画、文字などを組み合わせてマルチメディアコンテンツを制作するためのソフトウェアやツールの環境。",
+          "definitionVi": "Môi trường phần mềm và công cụ dùng để kết hợp hình ảnh, âm thanh, video và văn bản nhằm tạo nội dung multimedia."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "multimedia-fundamentals"
+      ]
+    },
+    {
+      "id": "document-audio-music",
+      "order": 2,
+      "titleJa": "文書・音声・音楽データ",
+      "titleVi": "Dữ liệu tài liệu, âm thanh và âm nhạc",
+      "importance": "medium",
+      "summaryJa": "PDF、4K/8K、PCM、MIDI、AU、MP3など、マルチメディアで利用される文書・映像・音声関連の代表的な形式や技術を理解する。",
+      "summaryVi": "Hiểu các định dạng và công nghệ tiêu biểu liên quan đến tài liệu, video, âm thanh và âm nhạc như PDF, 4K/8K, PCM, MIDI, AU và MP3.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "マルチメディアでは、文書、映像、音声、音楽などのデータを目的に応じた形式で表現・保存する。",
+          "vi": "Trong multimedia, dữ liệu tài liệu, video, âm thanh và âm nhạc được biểu diễn và lưu trữ bằng các định dạng phù hợp với từng mục đích."
+        },
+        {
+          "type": "point",
+          "ja": "PCMはアナログ音声を標本化・量子化してデジタル化する基本方式である。",
+          "vi": "PCM là phương pháp cơ bản số hóa âm thanh analog thông qua lấy mẫu và lượng tử hóa."
+        },
+        {
+          "type": "point",
+          "ja": "MIDIは音そのものではなく、音程、強さ、音色などの演奏情報を扱う。",
+          "vi": "MIDI không lưu âm thanh trực tiếp mà lưu thông tin biểu diễn như cao độ, cường độ và âm sắc."
+        },
+        {
+          "type": "warning",
+          "ja": "PCMとMIDIを混同しない。PCMは音声波形のデジタル化、MIDIは演奏情報の記録・通信である。",
+          "vi": "Không nhầm PCM với MIDI. PCM số hóa dạng sóng âm thanh, còn MIDI ghi và truyền thông tin biểu diễn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PDF",
+          "reading": "ぴーでぃーえふ",
+          "english": "Portable Document Format",
+          "vi": "định dạng tài liệu di động",
+          "definitionJa": "異なるOSや端末でもレイアウトを保ったまま表示しやすい電子文書形式。",
+          "definitionVi": "Định dạng tài liệu điện tử giúp duy trì bố cục nhất quán giữa các hệ điều hành và thiết bị."
+        },
+        {
+          "term": "4K/8K",
+          "reading": "よんけー・はちけー",
+          "english": "4K/8K",
+          "vi": "độ phân giải 4K/8K",
+          "definitionJa": "横方向の画素数がおよそ4000または8000の高解像度映像技術。",
+          "definitionVi": "Công nghệ video độ phân giải cao có khoảng 4000 hoặc 8000 pixel theo chiều ngang."
+        },
+        {
+          "term": "PCM",
+          "reading": "ぴーしーえむ",
+          "english": "Pulse Code Modulation",
+          "vi": "điều chế mã xung",
+          "definitionJa": "アナログ信号を一定間隔で標本化し、量子化してデジタル信号に変換する方式。",
+          "definitionVi": "Phương pháp chuyển tín hiệu analog thành tín hiệu số bằng cách lấy mẫu theo khoảng thời gian cố định và lượng tử hóa."
+        },
+        {
+          "term": "MIDI",
+          "reading": "みでぃ",
+          "english": "Musical Instrument Digital Interface",
+          "vi": "giao diện kỹ thuật số nhạc cụ",
+          "definitionJa": "電子楽器やコンピュータ間で音程、強さ、音色などの演奏情報を送受信するための規格。",
+          "definitionVi": "Chuẩn dùng để trao đổi thông tin biểu diễn như cao độ, cường độ và âm sắc giữa nhạc cụ điện tử và máy tính."
+        },
+        {
+          "term": "AU",
+          "reading": "あう",
+          "english": "Audio Unit",
+          "vi": "Audio Unit",
+          "definitionJa": "主にApple環境で使用される音声処理用プラグイン形式。",
+          "definitionVi": "Định dạng plugin xử lý âm thanh chủ yếu được sử dụng trong môi trường Apple."
+        },
+        {
+          "term": "MP3",
+          "reading": "えむぴーすりー",
+          "english": "MPEG Audio Layer III",
+          "vi": "định dạng âm thanh MP3",
+          "definitionJa": "人間の聴覚特性を利用して音声データを効率的に圧縮する形式。",
+          "definitionVi": "Định dạng nén âm thanh hiệu quả dựa trên đặc tính thính giác của con người."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "audio",
+        "document"
+      ]
+    },
+    {
+      "id": "image-data-formats",
+      "order": 3,
+      "titleJa": "画像データと画像形式",
+      "titleVi": "Dữ liệu và định dạng hình ảnh",
+      "importance": "high",
+      "summaryJa": "ラスターデータとベクターデータの違い、およびJPEG、GIF、PNG、BMP、TIFF、HEIF、Exifなど代表的な画像形式の特徴を理解する。",
+      "summaryVi": "Hiểu sự khác nhau giữa raster và vector cũng như đặc điểm của các định dạng hình ảnh phổ biến như JPEG, GIF, PNG, BMP, TIFF, HEIF và Exif.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デジタル画像には、画素を並べて表現するラスターデータと、線や図形を数式で表現するベクターデータがある。",
+          "vi": "Hình ảnh số gồm raster biểu diễn bằng các pixel và vector biểu diễn đường, hình dạng bằng công thức toán học."
+        },
+        {
+          "type": "point",
+          "ja": "ラスターデータは写真などの複雑な画像に適するが、拡大すると画質が劣化しやすい。",
+          "vi": "Raster phù hợp với ảnh phức tạp như ảnh chụp nhưng dễ giảm chất lượng khi phóng to."
+        },
+        {
+          "type": "point",
+          "ja": "ベクターデータは拡大・縮小しても画質が劣化しにくく、ロゴや図形に適している。",
+          "vi": "Vector ít bị giảm chất lượng khi phóng to hoặc thu nhỏ và phù hợp với logo hay hình học."
+        },
+        {
+          "type": "warning",
+          "ja": "JPEG、PNG、GIFなどの画像形式は、圧縮方法、色数、透過、用途などの違いを整理することが重要である。",
+          "vi": "Với JPEG, PNG và GIF cần phân biệt theo phương pháp nén, số màu, hỗ trợ trong suốt và mục đích sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ラスターデータ",
+          "reading": "",
+          "english": "Raster Data",
+          "vi": "dữ liệu raster",
+          "definitionJa": "画像を格子状に並んだ多数の画素で表現するデータ形式。",
+          "definitionVi": "Dạng dữ liệu biểu diễn hình ảnh bằng nhiều pixel sắp xếp theo lưới."
+        },
+        {
+          "term": "ベクターデータ",
+          "reading": "",
+          "english": "Vector Data",
+          "vi": "dữ liệu vector",
+          "definitionJa": "線、点、図形などを数式や座標情報によって表現するデータ形式。",
+          "definitionVi": "Dạng dữ liệu biểu diễn đường, điểm và hình dạng bằng công thức hoặc tọa độ."
+        },
+        {
+          "term": "JPEG",
+          "reading": "じぇいぺぐ",
+          "english": "Joint Photographic Experts Group",
+          "vi": "định dạng JPEG",
+          "definitionJa": "写真などの階調が豊かな画像に適した代表的な静止画像圧縮形式。",
+          "definitionVi": "Định dạng nén ảnh tĩnh phổ biến, phù hợp với ảnh chụp và hình ảnh có nhiều mức màu."
+        },
+        {
+          "term": "GIF",
+          "reading": "じふ",
+          "english": "Graphics Interchange Format",
+          "vi": "định dạng GIF",
+          "definitionJa": "最大256色を扱い、簡単なアニメーションや透過表示にも対応する画像形式。",
+          "definitionVi": "Định dạng hình ảnh hỗ trợ tối đa 256 màu, animation đơn giản và nền trong suốt."
+        },
+        {
+          "term": "PNG",
+          "reading": "ぴんぐ",
+          "english": "Portable Network Graphics",
+          "vi": "định dạng PNG",
+          "definitionJa": "画質を保持した圧縮と透過表示に対応し、Web画像などで広く利用される画像形式。",
+          "definitionVi": "Định dạng hình ảnh hỗ trợ nén giữ nguyên chất lượng và nền trong suốt, được dùng rộng rãi trên Web."
+        },
+        {
+          "term": "BMP",
+          "reading": "びーえむぴー",
+          "english": "Bitmap Image File",
+          "vi": "định dạng bitmap BMP",
+          "definitionJa": "画素情報を直接保持する代表的なビットマップ画像形式。",
+          "definitionVi": "Định dạng ảnh bitmap lưu trực tiếp thông tin của từng pixel."
+        },
+        {
+          "term": "TIFF",
+          "reading": "てぃふ",
+          "english": "Tagged Image File Format",
+          "vi": "định dạng TIFF",
+          "definitionJa": "高品質な画像情報を保持でき、印刷や写真、アーカイブなどで利用される画像形式。",
+          "definitionVi": "Định dạng ảnh có khả năng giữ chất lượng cao, thường dùng trong in ấn, nhiếp ảnh và lưu trữ."
+        },
+        {
+          "term": "HEIF",
+          "reading": "へいふ",
+          "english": "High Efficiency Image Format",
+          "vi": "định dạng ảnh hiệu suất cao",
+          "definitionJa": "高い圧縮効率を持ち、同程度の画質ならJPEGより小さいファイルサイズを実現できる画像形式。",
+          "definitionVi": "Định dạng ảnh có hiệu suất nén cao, cho kích thước nhỏ hơn JPEG ở chất lượng tương đương."
+        },
+        {
+          "term": "Exif",
+          "reading": "えぐじふ",
+          "english": "Exchangeable Image File Format",
+          "vi": "thông tin Exif",
+          "definitionJa": "撮影日時、カメラ設定、GPS情報など、画像に関連するメタデータを記録する形式。",
+          "definitionVi": "Định dạng metadata lưu thông tin liên quan đến ảnh như thời gian chụp, thiết lập máy ảnh và vị trí GPS."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "image",
+        "image-format"
+      ]
+    },
+    {
+      "id": "video-technology",
+      "order": 4,
+      "titleJa": "動画と動画圧縮",
+      "titleVi": "Video và nén video",
+      "importance": "high",
+      "summaryJa": "フレーム、フレームレート、MPEG、H.264、HEVC、H.265、QuickTimeなど、動画の表現と圧縮に関する基本技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ cơ bản liên quan đến biểu diễn và nén video như frame, frame rate, MPEG, H.264, HEVC, H.265 và QuickTime.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "動画は静止画像であるフレームを連続して表示することで動きを表現する。動画データは容量が大きいため、効率的な圧縮技術が重要である。",
+          "vi": "Video thể hiện chuyển động bằng cách hiển thị liên tiếp nhiều ảnh tĩnh gọi là frame. Vì dữ liệu video rất lớn nên kỹ thuật nén hiệu quả rất quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "フレームレートは1秒間に表示するフレーム数であり、fpsで表される。",
+          "vi": "Frame rate là số frame hiển thị trong một giây và được biểu diễn bằng fps."
+        },
+        {
+          "type": "point",
+          "ja": "H.265とHEVCは密接に関連しており、H.264より高い圧縮効率を実現する。",
+          "vi": "H.265 và HEVC có liên hệ chặt chẽ và cho hiệu suất nén cao hơn H.264."
+        },
+        {
+          "type": "warning",
+          "ja": "MPEGは規格群を指し、H.264やH.265は映像符号化規格であるため、役割の違いを整理する。",
+          "vi": "MPEG chỉ một họ tiêu chuẩn, còn H.264 và H.265 là các chuẩn mã hóa video; cần phân biệt vai trò của chúng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フレーム",
+          "reading": "",
+          "english": "Frame",
+          "vi": "khung hình",
+          "definitionJa": "動画を構成する一枚一枚の静止画像。",
+          "definitionVi": "Mỗi ảnh tĩnh riêng lẻ tạo thành video."
+        },
+        {
+          "term": "フレームレート",
+          "reading": "",
+          "english": "Frame Rate",
+          "vi": "tốc độ khung hình",
+          "definitionJa": "1秒間に表示されるフレームの枚数。通常fpsで表す。",
+          "definitionVi": "Số khung hình được hiển thị trong một giây, thường biểu diễn bằng fps."
+        },
+        {
+          "term": "MPEG",
+          "reading": "えむぺぐ",
+          "english": "Moving Picture Experts Group",
+          "vi": "MPEG",
+          "definitionJa": "動画や音声を効率よく圧縮・符号化するための規格群。",
+          "definitionVi": "Nhóm tiêu chuẩn dùng để nén và mã hóa video, âm thanh hiệu quả."
+        },
+        {
+          "term": "H.264",
+          "reading": "えいちにーろくよん",
+          "english": "H.264",
+          "vi": "chuẩn H.264",
+          "definitionJa": "比較的少ないデータ量で高画質な動画を実現する映像圧縮規格。",
+          "definitionVi": "Chuẩn nén video giúp duy trì chất lượng hình ảnh cao với lượng dữ liệu tương đối nhỏ."
+        },
+        {
+          "term": "HEVC",
+          "reading": "えいちいーぶいしー",
+          "english": "High Efficiency Video Coding",
+          "vi": "mã hóa video hiệu suất cao",
+          "definitionJa": "H.264より高い圧縮効率を持ち、4Kや8K動画などに適した映像符号化方式。",
+          "definitionVi": "Phương thức mã hóa video có hiệu suất nén cao hơn H.264, phù hợp với video 4K và 8K."
+        },
+        {
+          "term": "H.265",
+          "reading": "えいちにーろくご",
+          "english": "H.265",
+          "vi": "chuẩn H.265",
+          "definitionJa": "HEVCとしても知られ、H.264より高い圧縮効率を持つ動画符号化規格。",
+          "definitionVi": "Chuẩn mã hóa video còn được biết đến là HEVC, có hiệu suất nén cao hơn H.264."
+        },
+        {
+          "term": "QuickTime",
+          "reading": "くいっくたいむ",
+          "english": "QuickTime",
+          "vi": "QuickTime",
+          "definitionJa": "Appleが開発した、動画や音声の再生・編集などを行うためのマルチメディア技術。",
+          "definitionVi": "Công nghệ multimedia do Apple phát triển để phát và chỉnh sửa video, âm thanh."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "video",
+        "compression"
+      ]
+    },
+    {
+      "id": "media-file-compression",
+      "order": 5,
+      "titleJa": "メディアファイルと圧縮",
+      "titleVi": "Tệp media và nén dữ liệu",
+      "importance": "high",
+      "summaryJa": "AVI、ZIP、圧縮率、可逆圧縮など、マルチメディアデータの格納と圧縮に関する基本事項を理解する。",
+      "summaryVi": "Hiểu các kiến thức cơ bản về lưu trữ và nén dữ liệu multimedia như AVI, ZIP, tỷ lệ nén và nén không mất dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "画像や動画などのマルチメディアデータは容量が大きいため、保存や通信を効率化するために圧縮が利用される。",
+          "vi": "Dữ liệu multimedia như hình ảnh và video có dung lượng lớn nên kỹ thuật nén được sử dụng để tiết kiệm lưu trữ và tăng hiệu quả truyền dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "ZIPは元のデータを完全に復元できる可逆圧縮を利用する。",
+          "vi": "ZIP sử dụng nén không mất dữ liệu nên có thể khôi phục hoàn toàn dữ liệu ban đầu."
+        },
+        {
+          "type": "point",
+          "ja": "圧縮率は元データと圧縮後データの大きさの関係を示す。",
+          "vi": "Tỷ lệ nén biểu thị mối quan hệ giữa kích thước dữ liệu ban đầu và dữ liệu sau khi nén."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AVI",
+          "reading": "えーぶいあい",
+          "english": "Audio Video Interleave",
+          "vi": "định dạng AVI",
+          "definitionJa": "Microsoftが開発した、映像と音声を一つのファイルに格納するマルチメディア形式。",
+          "definitionVi": "Định dạng multimedia do Microsoft phát triển để lưu video và âm thanh trong cùng một tệp."
+        },
+        {
+          "term": "ZIP",
+          "reading": "じっぷ",
+          "english": "ZIP",
+          "vi": "định dạng ZIP",
+          "definitionJa": "複数のファイルをまとめて可逆圧縮し、保存や転送を効率化する形式。",
+          "definitionVi": "Định dạng gom nhiều tệp và nén không mất dữ liệu để giúp lưu trữ và truyền tải hiệu quả."
+        },
+        {
+          "term": "圧縮率",
+          "reading": "あっしゅくりつ",
+          "english": "Compression Ratio",
+          "vi": "tỷ lệ nén",
+          "definitionJa": "元のデータサイズと圧縮後のデータサイズの比率を表す指標。",
+          "definitionVi": "Chỉ số biểu thị tỷ lệ giữa kích thước dữ liệu ban đầu và kích thước sau khi nén."
+        },
+        {
+          "term": "可逆圧縮",
+          "reading": "かぎゃくあっしゅく",
+          "english": "Lossless Compression",
+          "vi": "nén không mất dữ liệu",
+          "definitionJa": "圧縮したデータを展開したとき、元のデータを完全に復元できる圧縮方式。",
+          "definitionVi": "Phương pháp nén cho phép khôi phục hoàn toàn dữ liệu ban đầu sau khi giải nén."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "file-format",
+        "compression"
+      ]
+    },
+    {
+      "id": "lossy-compression-and-mixed-reality",
+      "order": 6,
+      "titleJa": "非可逆圧縮と複合現実",
+      "titleVi": "Nén mất dữ liệu và thực tế hỗn hợp",
+      "importance": "medium",
+      "summaryJa": "非可逆圧縮、MR、MMRについて、それぞれの基本的な特徴と用途を理解する。",
+      "summaryVi": "Hiểu các đặc điểm và ứng dụng cơ bản của nén mất dữ liệu, MR và MMR.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "マルチメディアでは、データ量を減らすために一部の情報を削除する非可逆圧縮が利用される。また、現実世界と仮想世界を融合するMRなど、新しいメディア表現技術も利用されている。",
+          "vi": "Trong multimedia, nén mất dữ liệu được sử dụng để giảm dung lượng bằng cách loại bỏ một phần thông tin. Các công nghệ biểu diễn mới như MR cũng kết hợp thế giới thực với thế giới ảo."
+        },
+        {
+          "type": "point",
+          "ja": "非可逆圧縮では、圧縮後に元のデータを完全には復元できない。",
+          "vi": "Với nén mất dữ liệu, không thể khôi phục hoàn toàn dữ liệu ban đầu sau khi nén."
+        },
+        {
+          "type": "point",
+          "ja": "MRでは現実空間と仮想情報を融合し、両者を相互作用させる。",
+          "vi": "MR kết hợp không gian thực với thông tin ảo và cho phép hai bên tương tác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "非可逆圧縮",
+          "reading": "ひかぎゃくあっしゅく",
+          "english": "Lossy Compression",
+          "vi": "nén mất dữ liệu",
+          "definitionJa": "情報の一部を削除することでデータ量を大幅に減らし、元データを完全には復元できない圧縮方式。",
+          "definitionVi": "Phương pháp nén giảm mạnh dung lượng bằng cách loại bỏ một phần thông tin nên không thể khôi phục hoàn toàn dữ liệu ban đầu."
+        },
+        {
+          "term": "MR",
+          "reading": "えむあーる",
+          "english": "Mixed Reality",
+          "vi": "thực tế hỗn hợp",
+          "definitionJa": "現実世界と仮想世界を融合し、現実空間内の物体と仮想情報を相互作用させる技術。",
+          "definitionVi": "Công nghệ kết hợp thế giới thực và thế giới ảo, cho phép vật thể thực tương tác với thông tin ảo."
+        },
+        {
+          "term": "MMR",
+          "reading": "えむえむあーる",
+          "english": "Modified Mercalli Intensity Scale",
+          "vi": "MMR",
+          "definitionJa": "元データでは、情報の圧縮や伸張に関連する技術的な手法として説明されている。",
+          "definitionVi": "Trong dữ liệu nguồn, thuật ngữ này được mô tả là một kỹ thuật liên quan đến nén và giải nén thông tin."
+        }
+      ],
+      "tags": [
+        "information-media",
+        "multimedia-technology",
+        "lossy-compression",
+        "mixed-reality"
+      ]
+    }
+  ]
+}
