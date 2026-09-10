@@ -1,15 +1,18 @@
 "use client";
 
-import { AlertTriangle, CheckCircle2, FlaskConical, Languages } from "lucide-react";
+import {
+  AlertTriangle,
+  CheckCircle2,
+  FlaskConical,
+  Languages,
+} from "lucide-react";
 import { useState } from "react";
 
 import { FeLanguageToggle } from "@/components/fe/fe-language-toggle";
 import { FeTermCard } from "@/components/fe/fe-term-card";
-import type {
-  FeContentBlock,
-  FeLanguageMode,
-  FeLesson,
-} from "@/types/fe";
+import { FeSpeechButton } from "@/components/fe/fe-speech-button";
+
+import type { FeContentBlock, FeLanguageMode, FeLesson } from "@/types/fe";
 
 interface FeLessonContentProps {
   lesson: FeLesson;
@@ -17,6 +20,17 @@ interface FeLessonContentProps {
 
 export function FeLessonContent({ lesson }: FeLessonContentProps) {
   const [mode, setMode] = useState<FeLanguageMode>("bilingual");
+  const speechTextJa = [
+    lesson.titleJa,
+    lesson.summaryJa,
+    ...lesson.content.map((block) => block.ja),
+  ].join("。");
+
+  const speechTextVi = [
+    lesson.titleVi,
+    lesson.summaryVi,
+    ...lesson.content.map((block) => block.vi),
+  ].join(". ");
 
   return (
     <>
@@ -26,7 +40,16 @@ export function FeLessonContent({ lesson }: FeLessonContentProps) {
             <Languages className="size-4 text-primary" aria-hidden="true" />
             表示言語 / Ngôn ngữ
           </div>
-          <FeLanguageToggle value={mode} onChange={setMode} />
+
+          <div className="flex flex-wrap items-center gap-2">
+            <FeLanguageToggle value={mode} onChange={setMode} />
+
+            <FeSpeechButton
+              textJa={speechTextJa}
+              textVi={speechTextVi}
+              mode={mode}
+            />
+          </div>
         </div>
       </div>
 
@@ -41,20 +64,32 @@ export function FeLessonContent({ lesson }: FeLessonContentProps) {
 
       <article className="mt-6 space-y-4">
         {lesson.content.map((block, index) => (
-          <TheoryBlock key={`${block.type}-${index}`} block={block} mode={mode} />
+          <TheoryBlock
+            key={`${block.type}-${index}`}
+            block={block}
+            mode={mode}
+          />
         ))}
       </article>
 
       {lesson.terms.length > 0 ? (
         <section className="mt-10 border-t border-border pt-8">
           <div className="mb-5">
-            <p className="text-sm font-semibold text-primary">Technical terms</p>
+            <p className="text-sm font-semibold text-primary">
+              Technical terms
+            </p>
             <h2 className="mt-1 text-2xl font-bold tracking-tight">重要用語</h2>
-            <p className="mt-1 text-sm text-muted-foreground">Thuật ngữ quan trọng</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Thuật ngữ quan trọng
+            </p>
           </div>
           <div className="grid gap-4 lg:grid-cols-2">
             {lesson.terms.map((term) => (
-              <FeTermCard key={`${term.term}-${term.english}`} term={term} mode={mode} />
+              <FeTermCard
+                key={`${term.term}-${term.english}`}
+                term={term}
+                mode={mode}
+              />
             ))}
           </div>
         </section>
@@ -94,8 +129,7 @@ function TheoryBlock({
     return (
       <section className="rounded-xl border border-sky-200 bg-sky-50/70 p-5 text-slate-900 dark:border-sky-900 dark:bg-sky-950/30 dark:text-slate-100 sm:p-6">
         <div className="mb-3 flex items-center gap-2 text-sm font-bold text-sky-700 dark:text-sky-300">
-          <FlaskConical className="size-4" aria-hidden="true" />
-          例 / Ví dụ
+          <FlaskConical className="size-4" aria-hidden="true" />例 / Ví dụ
         </div>
         <LocalizedPair ja={block.ja} vi={block.vi} mode={mode} />
       </section>
@@ -154,7 +188,13 @@ function LocalizedPair({
         </div>
       ) : null}
       {mode !== "ja" ? (
-        <div className={bilingual ? "border-t border-border/70 pt-4 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0" : ""}>
+        <div
+          className={
+            bilingual
+              ? "border-t border-border/70 pt-4 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0"
+              : ""
+          }
+        >
           {bilingual ? (
             <p className="mb-1 text-[11px] font-bold uppercase tracking-wider text-muted-foreground">
               Tiếng Việt
