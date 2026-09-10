@@ -1,5 +1,7 @@
 import { Home } from "lucide-react";
 
+import { ClientNavigation } from "@/components/navigation/client-navigation";
+
 export function HomeFooter() {
   return (
     <footer className="mt-8 border-t border-border/70">
@@ -9,14 +11,13 @@ export function HomeFooter() {
           <p className="mt-1">日本語能力試験の学習をサポートします。</p>
         </div>
 
-        {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-        <a
+        <ClientNavigation
           href="/"
           className="inline-flex min-h-10 w-fit items-center gap-2 rounded-lg border border-border bg-background px-4 font-semibold text-foreground transition-colors hover:border-primary/40 hover:bg-secondary hover:text-primary"
         >
           <Home className="size-4" aria-hidden="true" />
           ホームへ戻る
-        </a>
+        </ClientNavigation>
       </div>
     </footer>
   );

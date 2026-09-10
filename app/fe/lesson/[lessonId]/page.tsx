@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { FeLessonContent } from "@/components/fe/fe-lesson-content";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
 import { getFeLesson, getFeLessonNavigation } from "@/lib/fe/utils";
+import { ClientNavigation } from "@/components/navigation/client-navigation";
 
 interface FeLessonPageProps {
   params: Promise<{ lessonId: string }>;
@@ -43,14 +44,13 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
       <FeSiteHeader />
 
       <div className="mx-auto max-w-5xl px-5 py-7 sm:px-8 sm:py-10">
-        {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-        <a
+        <ClientNavigation
           href={`/fe/category/${encodeURIComponent(category.id)}`}
           className="inline-flex min-h-10 items-center gap-2 text-sm font-semibold text-muted-foreground hover:text-primary"
         >
           <ArrowLeft className="size-4" aria-hidden="true" />
           {category.titleJa}
-        </a>
+        </ClientNavigation>
 
         <header className="mt-6 border-b border-border pb-7">
           <div className="flex items-start gap-4">
@@ -82,8 +82,7 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
           <div className="grid gap-4 sm:grid-cols-2">
             {previous ? (
               <>
-                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-                <a
+                <ClientNavigation
                   href={`/fe/lesson/${encodeURIComponent(previous.lesson.id)}`}
                   className="group rounded-xl border border-border bg-card p-5 transition-colors hover:border-primary/40 hover:bg-muted/40"
                 >
@@ -99,7 +98,7 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
                   <p className="mt-1 text-sm text-muted-foreground">
                     {previous.lesson.titleVi}
                   </p>
-                </a>
+                </ClientNavigation>
               </>
             ) : (
               <div />
@@ -107,8 +106,7 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
 
             {next ? (
               <>
-                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-                <a
+                <ClientNavigation
                   href={`/fe/lesson/${encodeURIComponent(next.lesson.id)}`}
                   className="group rounded-xl border border-border bg-card p-5 text-left transition-colors hover:border-primary/40 hover:bg-muted/40 sm:text-right"
                 >
@@ -124,12 +122,11 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
                   <p className="mt-1 text-sm text-muted-foreground">
                     {next.lesson.titleVi}
                   </p>
-                </a>
+                </ClientNavigation>
               </>
             ) : (
               <>
-                {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-                <a
+                <ClientNavigation
                   href={`/fe/category/${encodeURIComponent(category.id)}`}
                   className="group rounded-xl border border-border bg-card p-5 text-left transition-colors hover:border-primary/40 hover:bg-muted/40 sm:text-right"
                 >
@@ -142,7 +139,7 @@ export default async function FeLessonPage({ params }: FeLessonPageProps) {
                   <p className="mt-1 text-sm text-muted-foreground">
                     Quay lại danh sách
                   </p>
-                </a>
+                </ClientNavigation>
               </>
             )}
           </div>

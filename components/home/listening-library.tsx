@@ -1,3 +1,5 @@
+import { ClientNavigation } from "@/components/navigation/client-navigation";
+
 import type { JlptLevel } from "@/types/exam";
 import type { ListeningExamSummary } from "@/types/listening-exam";
 
@@ -64,12 +66,12 @@ export function ListeningLibrary({
                 </p>
               )}
 
-              <a
+              <ClientNavigation
                 href={`/listening/${exam.id}`}
                 className="mt-6 flex min-h-11 w-full items-center justify-center rounded-lg bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
               >
                 聴解試験を開く
-              </a>
+              </ClientNavigation>
             </div>
           ))}
         </div>

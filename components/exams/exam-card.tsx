@@ -1,5 +1,6 @@
 import { ArrowRight, CalendarDays, Clock3, FileText } from "lucide-react";
 
+import { ClientNavigation } from "@/components/navigation/client-navigation";
 import type { ExamSummary } from "@/types/exam";
 
 interface ExamCardProps {
@@ -44,6 +45,7 @@ export function ExamCard({ exam }: ExamCardProps) {
               <CalendarDays className="size-4" aria-hidden="true" />
               実施時期
             </dt>
+
             <dd className="font-medium">
               {exam.year}年{monthLabel}
             </dd>
@@ -54,6 +56,7 @@ export function ExamCard({ exam }: ExamCardProps) {
               <FileText className="size-4" aria-hidden="true" />
               問題数
             </dt>
+
             <dd className="font-medium">{exam.questionCount}問</dd>
           </div>
 
@@ -62,18 +65,19 @@ export function ExamCard({ exam }: ExamCardProps) {
               <Clock3 className="size-4" aria-hidden="true" />
               試験時間
             </dt>
+
             <dd className="font-medium">110分</dd>
           </div>
         </dl>
 
         <div className="mt-auto pt-6">
           {isReady ? (
-            <a
+            <ClientNavigation
               href={`/exams/${exam.id}`}
-              className="flex min-h-11 w-full items-center justify-between rounded-lg bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
+              className="flex min-h-11 w-full items-center justify-between rounded-lg bg-primary px-4 py-3 text-left text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
             >
               模擬試験を開始
-            </a>
+            </ClientNavigation>
           ) : (
             <button
               type="button"

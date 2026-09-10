@@ -2,6 +2,7 @@ import { Home } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { ListeningExamRunner } from "@/components/listening/listening-exam-runner";
+import { ClientNavigation } from "@/components/navigation/client-navigation";
 import { getListeningExamById } from "@/lib/exams/listening/registry";
 
 interface ListeningExamPageProps {
@@ -38,14 +39,13 @@ export default async function ListeningExamPage({
               </p>
             </div>
 
-            {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-            <a
+            <ClientNavigation
               href="/"
               className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground"
             >
               <Home className="size-4" />
               ホーム
-            </a>
+            </ClientNavigation>
           </div>
         </header>
 

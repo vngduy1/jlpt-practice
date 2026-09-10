@@ -2,6 +2,7 @@ import { ArrowRight, BookOpen } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
+import { ClientNavigation } from "@/components/navigation/client-navigation";
 import { getFeCategory } from "@/lib/fe/utils";
 
 interface PageProps {
@@ -43,13 +44,12 @@ export default async function FeCategoryPage({ params }: PageProps) {
 
       <section className="border-b border-border/70 bg-hero">
         <div className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-12">
-          {/* oxlint-disable-next-line next/no-html-link-for-pages */}
-          <a
+          <ClientNavigation
             href="/fe"
             className="inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
             ← カテゴリー一覧
-          </a>
+          </ClientNavigation>
 
           <div className="mt-7">
             <div className="flex items-center gap-2 text-sm font-semibold text-primary">
@@ -81,11 +81,10 @@ export default async function FeCategoryPage({ params }: PageProps) {
 
         <div className="grid gap-4 md:grid-cols-2">
           {chapters.map((chapter) => (
-            /* oxlint-disable-next-line next/no-html-link-for-pages */
-            <a
+            <ClientNavigation
               key={chapter.id}
               href={`/fe/category/${category.id}/${chapter.id}`}
-              className="group rounded-2xl border border-border bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm"
+              className="group w-full rounded-2xl border border-border bg-card p-6 text-left transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm"
             >
               <div className="flex items-start gap-4">
                 <div className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary text-sm font-bold text-primary-foreground">
@@ -109,7 +108,7 @@ export default async function FeCategoryPage({ params }: PageProps) {
                   aria-hidden="true"
                 />
               </div>
-            </a>
+            </ClientNavigation>
           ))}
         </div>
       </section>

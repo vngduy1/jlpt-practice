@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
 import { getFeChapter } from "@/lib/fe/utils";
 
+import { ClientNavigation } from "@/components/navigation/client-navigation";
+
 interface PageProps {
   params: Promise<{
     categoryId: string;
@@ -53,13 +55,12 @@ export default async function FeChapterPage({ params }: PageProps) {
 
       <section className="border-b border-border/70 bg-hero">
         <div className="mx-auto max-w-5xl px-5 py-9 sm:px-8 sm:py-12">
-          {/* oxlint-disable-next-line next/no-html-link-for-pages */}
-          <a
+          <ClientNavigation
             href={`/fe/category/${category.id}`}
             className="inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
             ← {category.titleJa}
-          </a>
+          </ClientNavigation>
           <div className="mt-7">
             <div className="flex items-center gap-2 text-sm font-semibold text-primary">
               <BookOpen className="size-4" aria-hidden="true" />
@@ -84,11 +85,10 @@ export default async function FeChapterPage({ params }: PageProps) {
       <section className="mx-auto max-w-5xl px-5 py-8 sm:px-8 sm:py-12">
         <div className="space-y-3">
           {lessons.map((lesson) => (
-            /* oxlint-disable-next-line next/no-html-link-for-pages */
-            <a
+            <ClientNavigation
               key={lesson.id}
               href={`/fe/lesson/${lesson.id}`}
-              className="group flex min-h-24 items-center gap-4 rounded-2xl border border-border bg-card px-5 py-4 transition-all hover:border-primary/30 hover:shadow-sm sm:px-6"
+              className="group flex min-h-24 w-full items-center gap-4 rounded-2xl border border-border bg-card px-5 py-4 text-left transition-all hover:border-primary/30 hover:shadow-sm sm:px-6"
             >
               <div className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
                 <Star className="size-5" aria-hidden="true" />
@@ -112,7 +112,7 @@ export default async function FeChapterPage({ params }: PageProps) {
                 className="size-5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-1 group-hover:text-primary"
                 aria-hidden="true"
               />
-            </a>
+            </ClientNavigation>
           ))}
         </div>
       </section>

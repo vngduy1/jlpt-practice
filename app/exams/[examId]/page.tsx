@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 
 import { ExamRunner } from "@/components/exams/exam-runner";
+import { HomeButton } from "@/components/navigation/home-button";
 import { getExamById } from "@/lib/exams/registry";
 
 import type { ExamSectionItem } from "@/types/exam";
 import type { RunnerQuestion } from "@/types/exam-runner";
-import { Home } from "lucide-react";
 
 interface ExamPageProps {
   params: Promise<{
@@ -75,14 +75,7 @@ export default async function ExamPage({ params }: ExamPageProps) {
               </p>
             </div>
 
-            {/* oxlint-disable-next-line next/no-html-link-for-pages -- Full-page navigation is required for Vinext/Cloudflare deployment. */}
-            <a
-              href="/"
-              className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground"
-            >
-              <Home className="size-4" />
-              ホーム
-            </a>
+            <HomeButton />
           </div>
         </header>
 
