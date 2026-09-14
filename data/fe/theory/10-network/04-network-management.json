@@ -1,0 +1,369 @@
+{
+  "id": "network-management",
+  "order": 4,
+  "titleJa": "ネットワーク管理",
+  "titleVi": "Quản lý mạng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "network-configuration-management",
+      "order": 1,
+      "titleJa": "ネットワーク構成管理",
+      "titleVi": "Quản lý cấu hình mạng",
+      "importance": "high",
+      "summaryJa": "ネットワーク構成やバージョンを適切に管理し、機器・接続・設定の状態を把握する。",
+      "summaryVi": "Quản lý cấu hình và phiên bản mạng để nắm rõ trạng thái thiết bị, kết nối và thiết lập.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク構成やバージョンを適切に管理し、機器・接続・設定の状態を把握する。",
+          "vi": "Quản lý cấu hình và phiên bản mạng để nắm rõ trạng thái thiết bị, kết nối và thiết lập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネットワーク構成",
+          "reading": "ねっとわーくこうせい",
+          "english": "Network Configuration",
+          "vi": "Cấu hình mạng",
+          "definitionJa": "ネットワークを構成するルーター、スイッチ、サーバ、端末などの機器、接続関係、IPアドレス、通信経路、プロトコルなどの構成情報を指す。適切に管理することで、変更時や障害発生時の影響範囲を把握しやすくなる。",
+          "definitionVi": "Chỉ thông tin cấu thành mạng như router, switch, server, thiết bị đầu cuối, quan hệ kết nối, địa chỉ IP, tuyến truyền thông và giao thức. Quản lý tốt cấu hình giúp dễ xác định phạm vi ảnh hưởng khi thay đổi hoặc xảy ra sự cố."
+        },
+        {
+          "term": "バージョン",
+          "reading": "ばーじょん",
+          "english": "Version",
+          "vi": "Phiên bản",
+          "definitionJa": "ソフトウェアやファームウェア、設定ファイルなどの更新段階を識別するための番号や名称である。ネットワーク管理では、機器ごとのOSやファームウェアのバージョンを把握し、互換性確認や脆弱性対応に利用する。",
+          "definitionVi": "Là số hoặc tên dùng để nhận biết mức cập nhật của phần mềm, firmware hoặc tệp cấu hình. Trong quản lý mạng, cần nắm phiên bản OS/firmware của từng thiết bị để kiểm tra tính tương thích và xử lý lỗ hổng."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    },
+    {
+      "id": "fault-management",
+      "order": 2,
+      "titleJa": "障害管理",
+      "titleVi": "Quản lý sự cố",
+      "importance": "high",
+      "summaryJa": "障害発生時の情報収集、切り分け、原因特定、復旧、記録という基本的な対応手順を理解する。",
+      "summaryVi": "Hiểu quy trình xử lý sự cố cơ bản: thu thập thông tin, khoanh vùng lỗi, xác định nguyên nhân, khôi phục và ghi chép.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "障害発生時の情報収集、切り分け、原因特定、復旧、記録という基本的な対応手順を理解する。",
+          "vi": "Hiểu quy trình xử lý sự cố cơ bản: thu thập thông tin, khoanh vùng lỗi, xác định nguyên nhân, khôi phục và ghi chép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報収集",
+          "reading": "じょうほうしゅうしゅう",
+          "english": "Information Gathering",
+          "vi": "Thu thập thông tin",
+          "definitionJa": "障害発生時に、エラーメッセージ、ログ、監視情報、利用者からの報告、設定情報などを集め、障害の状況を把握する作業である。",
+          "definitionVi": "Là việc thu thập thông báo lỗi, log, thông tin giám sát, báo cáo của người dùng và thông tin cấu hình để nắm được tình trạng sự cố."
+        },
+        {
+          "term": "障害の切り分け",
+          "reading": "しょうがいのきりわけ",
+          "english": "Fault Isolation",
+          "vi": "Khoanh vùng lỗi",
+          "definitionJa": "障害が端末、ネットワーク機器、回線、サーバ、アプリケーションなどのどこで発生しているかを順番に確認し、原因となる範囲を絞り込む作業である。",
+          "definitionVi": "Là việc lần lượt kiểm tra để thu hẹp phạm vi gây lỗi, ví dụ lỗi nằm ở máy người dùng, thiết bị mạng, đường truyền, server hay ứng dụng."
+        },
+        {
+          "term": "障害原因の特定",
+          "reading": "しょうがいげんいんのとくてい",
+          "english": "Root Cause Identification",
+          "vi": "Xác định nguyên nhân sự cố",
+          "definitionJa": "切り分けの結果やログなどを基に、障害を発生させた直接的・根本的な原因を明らかにすることである。",
+          "definitionVi": "Là việc dựa trên kết quả khoanh vùng và log để xác định nguyên nhân trực tiếp hoặc nguyên nhân gốc gây ra sự cố."
+        },
+        {
+          "term": "復旧措置",
+          "reading": "ふっきゅうそち",
+          "english": "Recovery Measures",
+          "vi": "Biện pháp khôi phục",
+          "definitionJa": "障害の影響を抑え、サービスを正常な状態へ戻すための対応である。再起動、設定の修正、予備系への切替え、バックアップからの復元などがある。",
+          "definitionVi": "Là các biện pháp giảm ảnh hưởng của sự cố và đưa dịch vụ trở lại bình thường, chẳng hạn khởi động lại, sửa cấu hình, chuyển sang hệ thống dự phòng hoặc khôi phục từ backup."
+        },
+        {
+          "term": "記録",
+          "reading": "きろく",
+          "english": "Record",
+          "vi": "Ghi chép",
+          "definitionJa": "障害の発生日時、現象、原因、対応内容、復旧時刻などを記録することである。記録は再発防止や類似障害への対応、運用改善に利用される。",
+          "definitionVi": "Là việc ghi lại thời điểm xảy ra, hiện tượng, nguyên nhân, nội dung xử lý và thời điểm khôi phục. Thông tin này dùng để phòng ngừa tái diễn, xử lý sự cố tương tự và cải thiện vận hành."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    },
+    {
+      "id": "network-monitoring",
+      "order": 3,
+      "titleJa": "ネットワーク監視",
+      "titleVi": "Giám sát mạng",
+      "importance": "high",
+      "summaryJa": "死活監視とトラフィック監視によって、機器の稼働状況やネットワーク性能を継続的に確認する。",
+      "summaryVi": "Theo dõi liên tục trạng thái thiết bị và hiệu năng mạng bằng giám sát hoạt động và giám sát lưu lượng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "死活監視とトラフィック監視によって、機器の稼働状況やネットワーク性能を継続的に確認する。",
+          "vi": "Theo dõi liên tục trạng thái thiết bị và hiệu năng mạng bằng giám sát hoạt động và giám sát lưu lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "死活監視",
+          "reading": "しかつかんし",
+          "english": "Availability Monitoring",
+          "vi": "Giám sát trạng thái hoạt động",
+          "definitionJa": "サーバやネットワーク機器などが稼働しているかを定期的に確認する監視である。pingへの応答やサービスの応答などを利用して異常を検知する。",
+          "definitionVi": "Là việc định kỳ kiểm tra server hoặc thiết bị mạng có đang hoạt động hay không. Có thể phát hiện bất thường dựa trên phản hồi ping hoặc phản hồi của dịch vụ."
+        },
+        {
+          "term": "トラフィック監視",
+          "reading": "とらふぃっくかんし",
+          "english": "Traffic Monitoring",
+          "vi": "Giám sát lưu lượng",
+          "definitionJa": "ネットワークを流れるデータ量、帯域使用率、遅延、パケット損失などを監視し、混雑や性能低下、異常通信を把握することである。",
+          "definitionVi": "Là việc giám sát lượng dữ liệu, mức sử dụng băng thông, độ trễ và mất gói để phát hiện tắc nghẽn, suy giảm hiệu năng hoặc lưu lượng bất thường."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    },
+    {
+      "id": "network-commands",
+      "order": 4,
+      "titleJa": "ネットワーク管理コマンド",
+      "titleVi": "Các lệnh quản lý mạng",
+      "importance": "high",
+      "summaryJa": "ping、ifconfig、arp、netstat、ip、ss、dig、tracerouteなどを使い、通信状態や経路、DNS、ソケット情報を確認する。",
+      "summaryVi": "Sử dụng ping, ifconfig, arp, netstat, ip, ss, dig và traceroute để kiểm tra kết nối, tuyến đường, DNS và socket.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ping、ifconfig、arp、netstat、ip、ss、dig、tracerouteなどを使い、通信状態や経路、DNS、ソケット情報を確認する。",
+          "vi": "Sử dụng ping, ifconfig, arp, netstat, ip, ss, dig và traceroute để kiểm tra kết nối, tuyến đường, DNS và socket."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ping",
+          "reading": "ぴん",
+          "english": "ping",
+          "vi": "ping",
+          "definitionJa": "ICMPのEcho RequestとEcho Replyを利用して、相手ホストまでIP通信できるかや、おおよその応答時間を確認するためのコマンドである。",
+          "definitionVi": "Là lệnh sử dụng ICMP Echo Request/Echo Reply để kiểm tra có thể liên lạc IP tới máy đích hay không và ước lượng thời gian phản hồi."
+        },
+        {
+          "term": "ifconfig",
+          "reading": "いふこんふぃぐ",
+          "english": "Interface Configuration",
+          "vi": "ifconfig",
+          "definitionJa": "主にUnix系OSで、ネットワークインターフェースのIPアドレスやネットマスク、状態などを表示・設定するためのコマンドである。Linuxでは現在、ipコマンドが使われることも多い。",
+          "definitionVi": "Là lệnh chủ yếu trên hệ Unix dùng để hiển thị hoặc thiết lập địa chỉ IP, subnet mask và trạng thái của giao diện mạng. Trên Linux hiện nay lệnh ip cũng thường được sử dụng."
+        },
+        {
+          "term": "arp",
+          "reading": "あーぷ",
+          "english": "Address Resolution Protocol",
+          "vi": "ARP",
+          "definitionJa": "IPv4アドレスに対応するMACアドレスを求めるためのプロトコルである。また、arpコマンドではARPキャッシュの内容を確認・操作できる。",
+          "definitionVi": "Là giao thức dùng để tìm địa chỉ MAC tương ứng với địa chỉ IPv4. Lệnh arp cũng có thể được dùng để kiểm tra hoặc thao tác nội dung ARP cache."
+        },
+        {
+          "term": "netstat",
+          "reading": "ねっとすたっと",
+          "english": "Network Statistics",
+          "vi": "netstat",
+          "definitionJa": "TCP/UDPの接続状態、待受けポート、ルーティング情報、ネットワーク統計などを確認するためのコマンドである。",
+          "definitionVi": "Là lệnh dùng để kiểm tra trạng thái kết nối TCP/UDP, cổng đang lắng nghe, thông tin định tuyến và thống kê mạng."
+        },
+        {
+          "term": "ip",
+          "reading": "あいぴー",
+          "english": "ip command",
+          "vi": "Lệnh ip",
+          "definitionJa": "Linuxでネットワークインターフェース、IPアドレス、ルーティング、ARP/近隣情報などを表示・設定するためのコマンドである。ifconfigやrouteなどの後継として広く利用される。",
+          "definitionVi": "Là lệnh trên Linux dùng để hiển thị và thiết lập giao diện mạng, địa chỉ IP, định tuyến và thông tin ARP/neighbor. Nó thường được dùng thay cho các lệnh cũ như ifconfig và route."
+        },
+        {
+          "term": "ss",
+          "reading": "えすえす",
+          "english": "Socket Statistics",
+          "vi": "ss",
+          "definitionJa": "LinuxでTCP/UDPなどのソケットの状態、接続先、待受けポートなどを確認するためのコマンドである。netstatの代替として利用されることが多い。",
+          "definitionVi": "Là lệnh trên Linux dùng để kiểm tra trạng thái socket TCP/UDP, điểm kết nối và các cổng đang lắng nghe. Nó thường được dùng thay cho netstat."
+        },
+        {
+          "term": "dig",
+          "reading": "でぃぐ",
+          "english": "Domain Information Groper",
+          "vi": "dig",
+          "definitionJa": "DNSサーバに問い合わせて、A、AAAA、MX、NSなどのDNSレコードを確認するためのコマンドである。名前解決の調査やDNS障害の切り分けに利用する。",
+          "definitionVi": "Là lệnh truy vấn DNS server để kiểm tra các bản ghi DNS như A, AAAA, MX và NS. Nó được dùng để kiểm tra phân giải tên và khoanh vùng sự cố DNS."
+        },
+        {
+          "term": "traceroute",
+          "reading": "とれーするーと",
+          "english": "traceroute",
+          "vi": "traceroute",
+          "definitionJa": "宛先までに通過するルーター（ホップ）を順番に表示し、通信経路を調査するためのコマンドである。Windowsではtracertコマンドが利用される。",
+          "definitionVi": "Là lệnh hiển thị lần lượt các router (hop) mà gói tin đi qua tới đích để điều tra đường truyền. Trên Windows thường dùng lệnh tracert."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    },
+    {
+      "id": "snmp-management",
+      "order": 5,
+      "titleJa": "SNMPによるネットワーク管理",
+      "titleVi": "Quản lý mạng bằng SNMP",
+      "importance": "high",
+      "summaryJa": "SNMPエージェント、SNMP管理ステーション、MIBの役割と関係を理解する。",
+      "summaryVi": "Hiểu vai trò và mối quan hệ giữa SNMP Agent, SNMP Management Station và MIB.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "SNMPエージェント、SNMP管理ステーション、MIBの役割と関係を理解する。",
+          "vi": "Hiểu vai trò và mối quan hệ giữa SNMP Agent, SNMP Management Station và MIB."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SNMPエージェント",
+          "reading": "えすえぬえむぴーえーじぇんと",
+          "english": "SNMP Agent",
+          "vi": "SNMP Agent",
+          "definitionJa": "管理対象のネットワーク機器やサーバ上で動作し、MIBで定義された管理情報をSNMP管理ステーションへ提供するソフトウェアである。必要に応じてTrapなどで異常を通知する。",
+          "definitionVi": "Là phần mềm chạy trên thiết bị mạng hoặc server được quản lý, cung cấp thông tin quản lý được định nghĩa trong MIB cho SNMP Management Station và có thể gửi Trap khi có bất thường."
+        },
+        {
+          "term": "SNMP管理ステーション",
+          "reading": "えすえぬえむぴーかんりすてーしょん",
+          "english": "SNMP Management Station",
+          "vi": "Trạm quản lý SNMP",
+          "definitionJa": "SNMPを利用してエージェントから管理情報を取得し、ネットワーク機器やサーバを監視・管理する側のシステムである。NMS（Network Management System）と呼ばれることもある。",
+          "definitionVi": "Là hệ thống phía quản lý sử dụng SNMP để lấy thông tin từ agent và giám sát, quản lý thiết bị mạng hoặc server. Nó cũng thường được gọi là NMS."
+        },
+        {
+          "term": "MIB",
+          "reading": "みぶ",
+          "english": "Management Information Base",
+          "vi": "MIB",
+          "definitionJa": "SNMPで管理する情報を、階層構造のオブジェクトとして定義したものである。各管理項目はOID（Object Identifier）によって識別される。",
+          "definitionVi": "Là tập hợp thông tin quản lý SNMP được định nghĩa dưới dạng các đối tượng có cấu trúc phân cấp. Mỗi mục quản lý được nhận biết bằng OID (Object Identifier)."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    },
+    {
+      "id": "network-virtualization",
+      "order": 6,
+      "titleJa": "ネットワーク仮想化と制御",
+      "titleVi": "Ảo hóa và điều khiển mạng",
+      "importance": "high",
+      "summaryJa": "トンネリング、SDN、OpenFlow、NFVの基本概念と、それぞれの役割の違いを理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản và sự khác nhau về vai trò của tunneling, SDN, OpenFlow và NFV.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "トンネリング、SDN、OpenFlow、NFVの基本概念と、それぞれの役割の違いを理解する。",
+          "vi": "Hiểu các khái niệm cơ bản và sự khác nhau về vai trò của tunneling, SDN, OpenFlow và NFV."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トンネリング",
+          "reading": "とんねりんぐ",
+          "english": "Tunneling",
+          "vi": "Tunneling",
+          "definitionJa": "ある通信プロトコルのパケットを別のプロトコルのパケット内にカプセル化して転送する技術である。VPNなどで利用されるが、トンネリング自体が必ずしも暗号化を意味するわけではない。",
+          "definitionVi": "Là kỹ thuật đóng gói gói tin của một giao thức bên trong gói tin của giao thức khác để truyền đi. Nó được sử dụng trong VPN, nhưng bản thân tunneling không nhất thiết đồng nghĩa với mã hóa."
+        },
+        {
+          "term": "SDN",
+          "reading": "えすでぃーえぬ",
+          "english": "Software-Defined Networking",
+          "vi": "SDN",
+          "definitionJa": "ネットワーク機器の制御機能をソフトウェア側へ分離し、コントローラからネットワーク全体を集中管理・制御する考え方である。設定変更や経路制御を柔軟に行える。",
+          "definitionVi": "Là cách tiếp cận tách chức năng điều khiển thiết bị mạng sang phần mềm và quản lý, điều khiển toàn mạng tập trung từ controller, giúp thay đổi cấu hình và tuyến đường linh hoạt."
+        },
+        {
+          "term": "OpenFlow",
+          "reading": "おーぷんふろー",
+          "english": "OpenFlow",
+          "vi": "OpenFlow",
+          "definitionJa": "SDNで利用される代表的なプロトコルの一つで、SDNコントローラがOpenFlow対応スイッチのフローテーブルを設定し、パケット転送方法を制御するために用いられる。",
+          "definitionVi": "Là một giao thức tiêu biểu được sử dụng trong SDN, cho phép SDN controller thiết lập flow table trên switch hỗ trợ OpenFlow để điều khiển cách chuyển tiếp gói tin."
+        },
+        {
+          "term": "NFV",
+          "reading": "えぬえふぶい",
+          "english": "Network Functions Virtualization",
+          "vi": "NFV",
+          "definitionJa": "ファイアウォール、ルーター、ロードバランサなど、従来は専用機器で提供していたネットワーク機能をソフトウェア化し、汎用サーバや仮想環境上で実行する考え方・技術である。",
+          "definitionVi": "Là cách tiếp cận/công nghệ biến các chức năng mạng như firewall, router và load balancer vốn chạy trên thiết bị chuyên dụng thành phần mềm chạy trên server đa dụng hoặc môi trường ảo hóa."
+        }
+      ],
+      "tags": [
+        "network",
+        "management",
+        "monitoring",
+        "troubleshooting",
+        "snmp",
+        "sdn",
+        "openflow",
+        "nfv"
+      ]
+    }
+  ]
+}

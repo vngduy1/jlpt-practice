@@ -1,0 +1,49 @@
+{
+  "id": "network",
+  "order": 10,
+  "titleJa": "ネットワーク",
+  "titleVi": "Mạng máy tính",
+  "count": 205,
+  "chapters": [
+    {
+      "id": "network-methods",
+      "order": 1,
+      "titleJa": "ネットワーク方式",
+      "titleVi": "Phương thức mạng",
+      "count": 39,
+      "file": "01-network-methods.json"
+    },
+    {
+      "id": "data-communication-and-control",
+      "order": 2,
+      "titleJa": "データ通信と制御",
+      "titleVi": "Truyền dữ liệu và điều khiển",
+      "count": 53,
+      "file": "02-data-communication-and-control.json"
+    },
+    {
+      "id": "communication-protocols",
+      "order": 3,
+      "titleJa": "通信プロトコル",
+      "titleVi": "Giao thức truyền thông",
+      "count": 41,
+      "file": "03-communication-protocols.json"
+    },
+    {
+      "id": "network-management",
+      "order": 4,
+      "titleJa": "ネットワーク管理",
+      "titleVi": "Quản lý mạng",
+      "count": 25,
+      "file": "04-network-management.json"
+    },
+    {
+      "id": "network-applications",
+      "order": 5,
+      "titleJa": "ネットワーク応用",
+      "titleVi": "Ứng dụng mạng",
+      "count": 48,
+      "file": "05-network-applications.json"
+    }
+  ]
+}

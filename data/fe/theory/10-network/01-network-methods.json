@@ -1,0 +1,454 @@
+{
+  "id": "network-methods",
+  "order": 1,
+  "titleJa": "ネットワーク方式",
+  "titleVi": "Phương thức mạng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "network-types-and-services",
+      "order": 1,
+      "titleJa": "ネットワークの種類とサービス",
+      "titleVi": "Các loại mạng và dịch vụ mạng",
+      "importance": "high",
+      "summaryJa": "LAN、WAN、ISP、ネットワークサービスの料金体系など、ネットワークの基本的な種類とサービスを理解する。",
+      "summaryVi": "Hiểu các loại mạng và dịch vụ mạng cơ bản như LAN, WAN, ISP và các hình thức tính phí dịch vụ.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークは利用範囲や目的によってLANやWANなどに分類される。また、インターネット接続にはISPが利用され、サービスには従量制や月額固定料金などの料金体系がある。",
+          "vi": "Mạng được phân loại thành LAN, WAN... tùy theo phạm vi và mục đích sử dụng. Khi kết nối Internet thường sử dụng ISP, với các hình thức tính phí như trả theo mức sử dụng hoặc phí cố định hàng tháng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "LAN",
+          "reading": "らん",
+          "english": "Local Area Network",
+          "vi": "Mạng cục bộ",
+          "definitionJa": "限られた地域内でコンピュータやデバイスを相互接続するためのネットワーク。一般的には、家庭やオフィス内で使用される。",
+          "definitionVi": "Mạng dùng để kết nối máy tính và thiết bị trong một khu vực giới hạn, thường được sử dụng trong gia đình hoặc văn phòng."
+        },
+        {
+          "term": "WAN",
+          "reading": "わん",
+          "english": "Wide Area Network",
+          "vi": "Mạng diện rộng",
+          "definitionJa": "広い地域をカバーするネットワーク。都市や国をまたいで、地理的に離れたコンピュータやネットワークを相互に接続する。",
+          "definitionVi": "Mạng bao phủ phạm vi địa lý rộng, dùng để kết nối các máy tính hoặc mạng ở những địa điểm cách xa nhau như giữa các thành phố hoặc quốc gia."
+        },
+        {
+          "term": "インターネットサービスプロバイダ",
+          "reading": "",
+          "english": "Internet Service Provider",
+          "vi": "Nhà cung cấp dịch vụ Internet",
+          "definitionJa": "ユーザーがインターネットに接続するためのサービスを提供する事業者。インターネット接続のほか、メールやWebホスティングなどを提供する場合もある。",
+          "definitionVi": "Doanh nghiệp cung cấp dịch vụ giúp người dùng kết nối Internet, đôi khi còn cung cấp email, Web hosting và các dịch vụ liên quan."
+        },
+        {
+          "term": "従量制",
+          "reading": "じゅうりょうせい",
+          "english": "Pay-As-You-Go",
+          "vi": "Tính phí theo mức sử dụng",
+          "definitionJa": "使用した分だけ料金が発生する料金体系。通信量やストレージ容量などの利用量に応じて料金が加算される。",
+          "definitionVi": "Hình thức tính phí dựa trên lượng thực tế đã sử dụng, chẳng hạn dung lượng truyền dữ liệu hoặc dung lượng lưu trữ."
+        },
+        {
+          "term": "月額固定料金",
+          "reading": "げつがくこていりょうきん",
+          "english": "Monthly Fixed Fee",
+          "vi": "Phí cố định hàng tháng",
+          "definitionJa": "特定のサービスを一定期間、一定額の料金で利用する料金体系。契約者は毎月同じ金額を支払う。",
+          "definitionVi": "Hình thức trả một khoản phí cố định hàng tháng để sử dụng một dịch vụ trong khoảng thời gian quy định."
+        }
+      ],
+      "tags": ["network", "lan", "wan", "isp", "network-service"]
+    },
+    {
+      "id": "network-infrastructure",
+      "order": 2,
+      "titleJa": "ネットワーク設備と交換方式",
+      "titleVi": "Thiết bị mạng và phương thức chuyển mạch",
+      "importance": "high",
+      "summaryJa": "IDF、MDF、パケット交換網、回線交換網、センサーネットワークなど、ネットワークを構成する設備と通信方式を理解する。",
+      "summaryVi": "Hiểu các thiết bị và phương thức truyền thông cấu thành mạng như IDF, MDF, mạng chuyển mạch gói, mạng chuyển mạch kênh và mạng cảm biến.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークでは、配線を整理・集約するIDFやMDF、データを転送するためのパケット交換や回線交換など、目的に応じた設備と方式が利用される。",
+          "vi": "Trong mạng, các thiết bị như IDF, MDF được dùng để tổ chức và tập trung đường dây, trong khi chuyển mạch gói và chuyển mạch kênh được dùng để truyền dữ liệu theo các phương thức khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IDF",
+          "reading": "あいでぃーえふ",
+          "english": "Intermediate Distribution Frame",
+          "vi": "Khung phân phối trung gian",
+          "definitionJa": "ネットワークの接続点として使用される中継配線盤の設備。主に建物内の配線を整理・管理し、上層階や下層階のネットワークを効率的に接続する。",
+          "definitionVi": "Thiết bị phân phối trung gian dùng làm điểm kết nối mạng, chủ yếu để tổ chức và quản lý hệ thống dây trong tòa nhà."
+        },
+        {
+          "term": "MDF",
+          "reading": "えむでぃーえふ",
+          "english": "Main Distribution Frame",
+          "vi": "Khung phân phối chính",
+          "definitionJa": "通信ネットワークにおいて外部から通じる通信回線を集約する主配線盤。建物内の各配線を一元管理する。",
+          "definitionVi": "Khung phân phối chính dùng để tập trung các đường truyền từ bên ngoài và quản lý tập trung hệ thống dây trong tòa nhà."
+        },
+        {
+          "term": "パケット交換網",
+          "reading": "ぱけっとこうかんもう",
+          "english": "Packet Switched Network",
+          "vi": "Mạng chuyển mạch gói",
+          "definitionJa": "データを小さな単位であるパケットに分割し、それぞれをネットワークを通じて送信する通信網。",
+          "definitionVi": "Mạng truyền dữ liệu bằng cách chia dữ liệu thành các gói nhỏ rồi truyền từng gói qua mạng."
+        },
+        {
+          "term": "回線交換網",
+          "reading": "かいせんこうかんもう",
+          "english": "Circuit Switching Network",
+          "vi": "Mạng chuyển mạch kênh",
+          "definitionJa": "通信回路を一時的に専有し、端末間で定常的な接続を維持しながらデータを送信するネットワーク。",
+          "definitionVi": "Mạng thiết lập và chiếm dụng một đường truyền riêng trong thời gian liên lạc để duy trì kết nối ổn định giữa các đầu cuối."
+        },
+        {
+          "term": "センサーネットワーク",
+          "reading": "",
+          "english": "Sensor Network",
+          "vi": "Mạng cảm biến",
+          "definitionJa": "さまざまなセンサーが互いに通信しながらデータを収集・伝送するネットワーク。",
+          "definitionVi": "Mạng trong đó nhiều cảm biến giao tiếp với nhau để thu thập và truyền dữ liệu."
+        }
+      ],
+      "tags": ["network", "infrastructure", "switching", "sensor-network"]
+    },
+    {
+      "id": "transmission-media",
+      "order": 3,
+      "titleJa": "伝送媒体",
+      "titleVi": "Môi trường truyền dẫn",
+      "importance": "high",
+      "summaryJa": "同軸ケーブル、より対線、光ファイバ、電波、赤外線など、通信に使用される主要な伝送媒体を理解する。",
+      "summaryVi": "Hiểu các môi trường truyền dẫn chính như cáp đồng trục, cáp xoắn đôi, cáp quang, sóng vô tuyến và tia hồng ngoại.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データ通信では、有線と無線のさまざまな伝送媒体が利用される。それぞれ通信速度、距離、ノイズ耐性、設置コストなどの特徴が異なる。",
+          "vi": "Trong truyền dữ liệu, nhiều loại môi trường truyền dẫn có dây và không dây được sử dụng. Mỗi loại khác nhau về tốc độ, khoảng cách, khả năng chống nhiễu và chi phí triển khai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "同軸ケーブル",
+          "reading": "どうじくけーぶる",
+          "english": "Coaxial Cable",
+          "vi": "Cáp đồng trục",
+          "definitionJa": "中心に導体があり、その周りを絶縁体と金属シールドで覆った構造のケーブル。ノイズに強く、安定した通信品質を確保できる。",
+          "definitionVi": "Loại cáp có lõi dẫn điện ở giữa, được bao quanh bởi lớp cách điện và lớp chắn kim loại, có khả năng chống nhiễu tốt."
+        },
+        {
+          "term": "より対線",
+          "reading": "よりついせん",
+          "english": "Twisted Pair Cable",
+          "vi": "Cáp xoắn đôi",
+          "definitionJa": "二本の銅線を互いにねじった構造を持つ通信ケーブル。外部ノイズの影響を低減する。",
+          "definitionVi": "Cáp truyền thông gồm hai dây đồng được xoắn với nhau nhằm giảm ảnh hưởng của nhiễu bên ngoài."
+        },
+        {
+          "term": "光ファイバケーブル",
+          "reading": "ひかりふぁいばけーぶる",
+          "english": "Fiber Optic Cable",
+          "vi": "Cáp quang",
+          "definitionJa": "データを光信号として伝送するケーブル。高速かつ長距離の情報通信が可能で、電磁ノイズの影響を受けにくい。",
+          "definitionVi": "Cáp truyền dữ liệu bằng tín hiệu ánh sáng, cho phép truyền tốc độ cao trên khoảng cách xa và ít chịu ảnh hưởng của nhiễu điện từ."
+        },
+        {
+          "term": "電波",
+          "reading": "でんぱ",
+          "english": "Radio Wave",
+          "vi": "Sóng vô tuyến",
+          "definitionJa": "電磁波の一種であり、無線通信に使用される波。空間を通じて情報を伝送する。",
+          "definitionVi": "Một loại sóng điện từ được sử dụng trong truyền thông không dây để truyền thông tin qua không gian."
+        },
+        {
+          "term": "赤外線",
+          "reading": "せきがいせん",
+          "english": "Infrared",
+          "vi": "Tia hồng ngoại",
+          "definitionJa": "電磁波の一種で、目には見えない波長の長い光。近距離の無線通信などに利用される。",
+          "definitionVi": "Một loại sóng điện từ có bước sóng dài hơn ánh sáng nhìn thấy, thường được dùng trong truyền thông không dây khoảng cách ngắn."
+        }
+      ],
+      "tags": ["network", "transmission-media", "cable", "wireless"]
+    },
+    {
+      "id": "wireless-and-packet-communication",
+      "order": 4,
+      "titleJa": "無線LANとパケット通信",
+      "titleVi": "LAN không dây và truyền thông gói",
+      "importance": "high",
+      "summaryJa": "無線LANアクセスポイント、SSID、パケット、VoIPなど、無線通信とパケット通信の基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản về truyền thông không dây và truyền thông gói như access point, SSID, packet và VoIP.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "無線LANではアクセスポイントとSSIDによってネットワークへの接続を管理する。インターネット通信ではデータをパケット単位で転送し、VoIPでは音声もIPネットワーク上で伝送する。",
+          "vi": "Trong WLAN, access point và SSID được dùng để quản lý kết nối. Trên Internet, dữ liệu được truyền dưới dạng packet, và VoIP cho phép truyền âm thanh qua mạng IP."
+        }
+      ],
+      "terms": [
+        {
+          "term": "無線LANアクセスポイント",
+          "reading": "むせんらんあくせすぽいんと",
+          "english": "Wireless LAN Access Point",
+          "vi": "Điểm truy cập mạng LAN không dây",
+          "definitionJa": "無線ネットワークに接続するための機器であり、Wi-Fi信号を送信し、端末をネットワークに接続させる役割を持つ。",
+          "definitionVi": "Thiết bị phát tín hiệu Wi-Fi và cho phép các thiết bị không dây kết nối vào mạng."
+        },
+        {
+          "term": "SSID",
+          "reading": "えすえすあいてぃー",
+          "english": "Service Set Identifier",
+          "vi": "Tên định danh mạng Wi-Fi",
+          "definitionJa": "無線LANにおいてネットワークを識別するための名前。ユーザーはSSIDを利用して接続先の無線ネットワークを識別する。",
+          "definitionVi": "Tên dùng để nhận dạng một mạng WLAN, giúp người dùng xác định mạng Wi-Fi cần kết nối."
+        },
+        {
+          "term": "パケット",
+          "reading": "",
+          "english": "Packet",
+          "vi": "Gói tin",
+          "definitionJa": "データ通信において情報を小さな単位に分割して送信する際の単位。送信元や宛先などの情報を含む。",
+          "definitionVi": "Đơn vị dữ liệu nhỏ được sử dụng khi chia và truyền thông tin qua mạng, thường chứa thông tin nguồn và đích."
+        },
+        {
+          "term": "VoIP",
+          "reading": "ぶいおーあいぴー",
+          "english": "Voice over Internet Protocol",
+          "vi": "Thoại qua giao thức Internet",
+          "definitionJa": "インターネットを通じて音声データを送信する技術。音声をデジタルデータに変換し、パケットとして送信する。",
+          "definitionVi": "Công nghệ truyền âm thanh qua Internet bằng cách chuyển âm thanh thành dữ liệu số và gửi dưới dạng packet."
+        }
+      ],
+      "tags": ["network", "wireless-lan", "ssid", "packet", "voip"]
+    },
+    {
+      "id": "network-performance",
+      "order": 5,
+      "titleJa": "ネットワーク性能",
+      "titleVi": "Hiệu năng mạng",
+      "importance": "high",
+      "summaryJa": "転送速度、bps、回線容量、ビット誤り率、呼量、アーランなど、ネットワーク性能を評価する指標を理解する。",
+      "summaryVi": "Hiểu các chỉ số đánh giá hiệu năng mạng như tốc độ truyền, bps, dung lượng đường truyền, tỷ lệ lỗi bit, lưu lượng cuộc gọi và Erlang.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク性能を評価するには、通信速度だけでなく、回線容量、エラー率、通信回線の利用量など複数の指標を考慮する必要がある。",
+          "vi": "Để đánh giá hiệu năng mạng, không chỉ cần xem tốc độ truyền mà còn phải xem dung lượng đường truyền, tỷ lệ lỗi và mức sử dụng đường dây."
+        }
+      ],
+      "terms": [
+        {
+          "term": "転送速度",
+          "reading": "てんそうそくど",
+          "english": "Transfer Rate",
+          "vi": "Tốc độ truyền",
+          "definitionJa": "データが通信回線を通じて移動する際の速さを表す指標。",
+          "definitionVi": "Chỉ số biểu thị tốc độ dữ liệu được truyền qua đường truyền."
+        },
+        {
+          "term": "bps",
+          "reading": "びーぴーえす",
+          "english": "Bits Per Second",
+          "vi": "Bit trên giây",
+          "definitionJa": "1秒間に何ビットのデータが送信されるかを表すデータ転送速度の単位。",
+          "definitionVi": "Đơn vị tốc độ truyền dữ liệu biểu thị số bit được truyền trong một giây."
+        },
+        {
+          "term": "回線容量",
+          "reading": "かいせんようりょう",
+          "english": "Circuit Capacity",
+          "vi": "Dung lượng đường truyền",
+          "definitionJa": "特定の通信回線が同時に処理できるデータ量を示す指標。",
+          "definitionVi": "Chỉ số cho biết lượng dữ liệu mà một đường truyền có thể xử lý trong cùng một thời điểm."
+        },
+        {
+          "term": "ビット誤り率",
+          "reading": "びっとあやまりりつ",
+          "english": "Bit Error Rate",
+          "vi": "Tỷ lệ lỗi bit",
+          "definitionJa": "通信回線で送信されたビットのうち、誤って受信されたビットの割合を示す指標。",
+          "definitionVi": "Tỷ lệ số bit bị nhận sai so với tổng số bit được truyền."
+        },
+        {
+          "term": "呼量",
+          "reading": "こりょう",
+          "english": "Call Volume",
+          "vi": "Lưu lượng cuộc gọi",
+          "definitionJa": "特定の期間に電話回線を通じて発生した通話の量を示す指標。",
+          "definitionVi": "Chỉ số biểu thị lượng cuộc gọi phát sinh qua đường điện thoại trong một khoảng thời gian."
+        },
+        {
+          "term": "アーラン",
+          "reading": "",
+          "english": "Erlang",
+          "vi": "Erlang",
+          "definitionJa": "通信回線の負荷を評価するための単位。1アーランは1時間あたり1回線で1時間行われる通話に相当する。",
+          "definitionVi": "Đơn vị đo tải của hệ thống điện thoại. 1 Erlang tương ứng với việc một đường dây được sử dụng liên tục trong một giờ."
+        }
+      ],
+      "tags": ["network", "performance", "bps", "ber", "erlang"]
+    },
+    {
+      "id": "ip-addressing",
+      "order": 6,
+      "titleJa": "IPアドレスとアドレス変換",
+      "titleVi": "Địa chỉ IP và chuyển đổi địa chỉ",
+      "importance": "high",
+      "summaryJa": "IPv4、IPv6、アドレスクラス、グローバルIP、プライベートIP、NAT、NAPTなど、IPアドレス管理の基本を理解する。",
+      "summaryVi": "Hiểu kiến thức cơ bản về quản lý địa chỉ IP gồm IPv4, IPv6, lớp địa chỉ, IP global, IP private, NAT và NAPT.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "IPネットワークでは各端末を識別するためにIPアドレスを使用する。IPv4のアドレス不足に対応する技術としてIPv6、プライベートIP、NAT、NAPTなどが利用される。",
+          "vi": "Trong mạng IP, mỗi thiết bị được nhận dạng bằng địa chỉ IP. IPv6, private IP, NAT và NAPT được sử dụng để giải quyết vấn đề thiếu địa chỉ IPv4."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IPv4",
+          "reading": "あいぴーぶいふぉー",
+          "english": "Internet Protocol Version 4",
+          "vi": "Giao thức Internet phiên bản 4",
+          "definitionJa": "インターネット上でデバイスが通信を行うためのプロトコルの一つ。32ビットのIPアドレスを使用する。",
+          "definitionVi": "Một phiên bản của giao thức Internet sử dụng địa chỉ IP 32 bit để nhận dạng thiết bị."
+        },
+        {
+          "term": "IPv6",
+          "reading": "あいぴーぶいろく",
+          "english": "Internet Protocol Version 6",
+          "vi": "Giao thức Internet phiên bản 6",
+          "definitionJa": "IPv4の後継として開発されたIPプロトコル。128ビットの広大なアドレス空間を持つ。",
+          "definitionVi": "Giao thức kế nhiệm IPv4, sử dụng địa chỉ 128 bit và cung cấp không gian địa chỉ rất lớn."
+        },
+        {
+          "term": "アドレスクラス",
+          "reading": "",
+          "english": "Address Class",
+          "vi": "Lớp địa chỉ",
+          "definitionJa": "IPアドレスを範囲や用途に応じてA、B、Cなどに分類する方式。",
+          "definitionVi": "Phương thức phân loại địa chỉ IP thành các lớp A, B, C... dựa trên phạm vi và mục đích sử dụng."
+        },
+        {
+          "term": "グローバルIPアドレス",
+          "reading": "ぐろーばるあいぴーあどれす",
+          "english": "Global IP Address",
+          "vi": "Địa chỉ IP global",
+          "definitionJa": "インターネット上で直接通信するために必要な一意のIPアドレス。",
+          "definitionVi": "Địa chỉ IP duy nhất được sử dụng để giao tiếp trực tiếp trên Internet."
+        },
+        {
+          "term": "プライベートIPアドレス",
+          "reading": "ぷらいべーとあいぴーあどれす",
+          "english": "Private IP Address",
+          "vi": "Địa chỉ IP riêng",
+          "definitionJa": "家庭や企業などの内部ネットワークで使用され、通常インターネット上では直接使用されないIPアドレス。",
+          "definitionVi": "Địa chỉ IP được sử dụng bên trong mạng gia đình hoặc doanh nghiệp và thường không thể truy cập trực tiếp từ Internet."
+        },
+        {
+          "term": "NAT",
+          "reading": "なっと",
+          "english": "Network Address Translation",
+          "vi": "Chuyển đổi địa chỉ mạng",
+          "definitionJa": "内部ネットワークのプライベートIPアドレスを外部ネットワークのグローバルIPアドレスに変換する技術。",
+          "definitionVi": "Kỹ thuật chuyển đổi địa chỉ IP private trong mạng nội bộ sang địa chỉ IP global khi giao tiếp với mạng bên ngoài."
+        },
+        {
+          "term": "NAPT",
+          "reading": "なぷと",
+          "english": "Network Address Port Translation",
+          "vi": "Chuyển đổi địa chỉ và cổng mạng",
+          "definitionJa": "複数の内部ネットワークのIPアドレスを、一つのグローバルIPアドレスとポート番号を利用して変換する技術。",
+          "definitionVi": "Kỹ thuật cho phép nhiều thiết bị nội bộ dùng chung một địa chỉ IP global bằng cách phân biệt kết nối thông qua số cổng."
+        }
+      ],
+      "tags": ["network", "ipv4", "ipv6", "nat", "napt", "ip-address"]
+    },
+    {
+      "id": "network-services-and-security",
+      "order": 7,
+      "titleJa": "ネットワークサービスとセキュリティ",
+      "titleVi": "Dịch vụ mạng và bảo mật",
+      "importance": "high",
+      "summaryJa": "DNS、ドメイン、TLD、QoS、ファイアウォール、RADIUS、オーバーレイネットワークなど、ネットワークサービスとセキュリティ技術を理解する。",
+      "summaryVi": "Hiểu các dịch vụ và kỹ thuật bảo mật mạng như DNS, domain, TLD, QoS, firewall, RADIUS và overlay network.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークでは、名前解決、通信品質の制御、アクセス制御、認証などを行うためにさまざまなサービスや技術が利用される。",
+          "vi": "Trong mạng, nhiều dịch vụ và kỹ thuật được sử dụng để phân giải tên, kiểm soát chất lượng truyền thông, kiểm soát truy cập và xác thực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オーバーレイネットワーク",
+          "reading": "",
+          "english": "Overlay Network",
+          "vi": "Mạng phủ",
+          "definitionJa": "既存のインターネットや通信網の上に論理的に構築されるネットワーク。",
+          "definitionVi": "Mạng logic được xây dựng trên một mạng vật lý hoặc mạng Internet đã tồn tại."
+        },
+        {
+          "term": "DNS",
+          "reading": "でぃーえぬえす",
+          "english": "Domain Name System",
+          "vi": "Hệ thống tên miền",
+          "definitionJa": "人が覚えやすいドメイン名を、コンピュータが通信に使用するIPアドレスへ変換する仕組み。",
+          "definitionVi": "Hệ thống chuyển đổi tên miền dễ nhớ thành địa chỉ IP mà máy tính sử dụng để giao tiếp."
+        },
+        {
+          "term": "ドメイン",
+          "reading": "",
+          "english": "Domain",
+          "vi": "Tên miền",
+          "definitionJa": "インターネット上で特定の場所を示すための名前。Webサイトやメールサーバなどのアドレスとして利用される。",
+          "definitionVi": "Tên dùng để nhận dạng một vị trí hoặc tài nguyên trên Internet, chẳng hạn website hoặc máy chủ email."
+        },
+        {
+          "term": "TLD",
+          "reading": "てぃーえるでぃー",
+          "english": "Top-Level Domain",
+          "vi": "Tên miền cấp cao nhất",
+          "definitionJa": "ドメイン名の最上位に位置する部分。.com、.jp、.orgなどが代表例である。",
+          "definitionVi": "Phần nằm ở cấp cao nhất của tên miền, ví dụ .com, .jp hoặc .org."
+        },
+        {
+          "term": "QoS",
+          "reading": "きゅーおーえす",
+          "english": "Quality of Service",
+          "vi": "Chất lượng dịch vụ",
+          "definitionJa": "ネットワーク上で通信の遅延や帯域幅などを管理し、必要な通信品質を保証するための技術。",
+          "definitionVi": "Kỹ thuật quản lý độ trễ, băng thông và độ ưu tiên nhằm đảm bảo chất lượng truyền thông cần thiết."
+        },
+        {
+          "term": "ファイアウォール",
+          "reading": "",
+          "english": "Firewall",
+          "vi": "Tường lửa",
+          "definitionJa": "ネットワークのセキュリティを守るため、通信を監視し、条件に基づいて許可または拒否するシステム。",
+          "definitionVi": "Hệ thống bảo mật giám sát lưu lượng mạng và cho phép hoặc từ chối kết nối dựa trên các quy tắc."
+        },
+        {
+          "term": "RADIUS",
+          "reading": "らでぃうす",
+          "english": "Remote Authentication Dial-In User Service",
+          "vi": "Giao thức xác thực RADIUS",
+          "definitionJa": "ネットワークにおけるユーザー認証、承認、アカウンティングを管理するプロトコル。",
+          "definitionVi": "Giao thức dùng để quản lý xác thực, phân quyền và ghi nhận việc sử dụng tài nguyên của người dùng mạng."
+        }
+      ],
+      "tags": ["network", "dns", "domain", "qos", "firewall", "radius"]
+    }
+  ]
+}

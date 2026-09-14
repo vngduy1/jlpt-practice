@@ -59,6 +59,14 @@ import dataOperations from "@/data/fe/theory/09-database/03-data-operations.json
 import transactionProcessing from "@/data/fe/theory/09-database/04-transaction-processing.json";
 import databaseApplications from "@/data/fe/theory/09-database/05-database-applications.json";
 
+// 10
+import networkIndex from "@/data/fe/theory/10-network/index.json";
+import networkMethods from "@/data/fe/theory/10-network/01-network-methods.json";
+import dataCommunication from "@/data/fe/theory/10-network/02-data-communication-and-control.json";
+import communicationProtocols from "@/data/fe/theory/10-network/03-communication-protocols.json";
+import networkManagement from "@/data/fe/theory/10-network/04-network-management.json";
+import networkApplications from "@/data/fe/theory/10-network/05-network-applications.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -205,6 +213,23 @@ const databaseCategory: FeCategory = {
   ],
 };
 
+//10
+const networkManifest = networkIndex as FeCategoryManifest;
+
+const networkCategory: FeCategory = {
+  id: networkManifest.id,
+  order: networkManifest.order,
+  titleJa: networkManifest.titleJa,
+  titleVi: networkManifest.titleVi,
+  chapters: [
+    networkMethods as FeChapter,
+    dataCommunication as FeChapter,
+    communicationProtocols as FeChapter,
+    networkManagement as FeChapter,
+    networkApplications as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
@@ -215,4 +240,5 @@ export const feTheoryCategories: FeCategory[] = [
   userInterfaceCategory,
   informationMediaCategory,
   databaseCategory,
+  networkCategory,
 ];

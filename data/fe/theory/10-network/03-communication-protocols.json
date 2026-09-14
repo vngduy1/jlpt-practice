@@ -1,0 +1,484 @@
+{
+  "id": "communication-protocols",
+  "order": 3,
+  "titleJa": "通信プロトコル",
+  "titleVi": "Giao thức truyền thông",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "tcp-ip-basics",
+      "order": 1,
+      "titleJa": "TCP/IPと通信の基本",
+      "titleVi": "TCP/IP và kiến thức cơ bản về truyền thông",
+      "importance": "high",
+      "summaryJa": "TCP/IP、パケット、ヘッダー、ARP、PPP、PPPoE、IPoEなど、ネットワーク通信の基本的な仕組みを理解する。",
+      "summaryVi": "Hiểu các cơ chế nền tảng của truyền thông mạng như TCP/IP, packet, header, ARP, PPP, PPPoE và IPoE.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク通信では、データをパケットに分割し、ヘッダーに宛先などの制御情報を付加して送受信する。TCP/IPを中心に、ARPやPPPなどの関連プロトコルの役割を理解することが重要である。",
+          "vi": "Trong truyền thông mạng, dữ liệu được chia thành packet và gắn thông tin điều khiển như địa chỉ đích vào header trước khi truyền. Cần hiểu vai trò của TCP/IP và các giao thức liên quan như ARP, PPP."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TCP/IP",
+          "reading": "てぃーしーぴーあいぴー",
+          "english": "Transmission Control Protocol/Internet Protocol",
+          "vi": "Bộ giao thức TCP/IP",
+          "definitionJa": "コンピュータネットワーク通信における基礎的なプロトコル群。TCPが通信の信頼性を管理し、IPが宛先へのデータ配送を担当する。",
+          "definitionVi": "Bộ giao thức nền tảng của mạng máy tính. TCP quản lý độ tin cậy của truyền thông, còn IP đảm nhiệm việc chuyển dữ liệu tới địa chỉ đích."
+        },
+        {
+          "term": "パケット",
+          "reading": "",
+          "english": "Packet",
+          "vi": "Gói tin",
+          "definitionJa": "ネットワーク上で送信するデータを小さな単位に分割したもの。",
+          "definitionVi": "Đơn vị dữ liệu nhỏ được chia ra để truyền trên mạng."
+        },
+        {
+          "term": "ヘッダー",
+          "reading": "",
+          "english": "Header",
+          "vi": "Phần đầu gói tin",
+          "definitionJa": "通信データの先頭に付加される制御情報。送信元や宛先、データ種別などの情報を含む。",
+          "definitionVi": "Thông tin điều khiển được gắn vào đầu dữ liệu truyền, gồm địa chỉ nguồn, đích, loại dữ liệu và các thông tin khác."
+        },
+        {
+          "term": "ARP",
+          "reading": "あーぷ",
+          "english": "Address Resolution Protocol",
+          "vi": "Giao thức phân giải địa chỉ",
+          "definitionJa": "IPアドレスから対応するMACアドレスを取得するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để tìm địa chỉ MAC tương ứng với một địa chỉ IP."
+        },
+        {
+          "term": "PPP",
+          "reading": "ぴーぴーぴー",
+          "english": "Point-to-Point Protocol",
+          "vi": "Giao thức điểm-điểm",
+          "definitionJa": "二点間でデータ通信を行うためのデータリンク層のプロトコル。",
+          "definitionVi": "Giao thức tầng liên kết dữ liệu dùng để truyền thông giữa hai điểm."
+        },
+        {
+          "term": "PPPoE",
+          "reading": "ぴーぴーぴーおーいー",
+          "english": "Point-to-Point Protocol over Ethernet",
+          "vi": "PPP qua Ethernet",
+          "definitionJa": "Ethernet上でPPPを利用するためのプロトコル。ブロードバンド接続などで利用される。",
+          "definitionVi": "Giao thức cho phép sử dụng PPP trên Ethernet, thường được dùng trong kết nối băng thông rộng."
+        },
+        {
+          "term": "IPoE",
+          "reading": "あいぴーおーいー",
+          "english": "IP over Ethernet",
+          "vi": "IP qua Ethernet",
+          "definitionJa": "Ethernet上でIPパケットを直接通信する方式。",
+          "definitionVi": "Phương thức truyền trực tiếp các gói IP trên Ethernet."
+        }
+      ],
+      "tags": ["network", "tcp-ip", "packet", "arp", "ppp"]
+    },
+
+    {
+      "id": "ip-addressing",
+      "order": 2,
+      "titleJa": "IPアドレスとネットワーク識別",
+      "titleVi": "Địa chỉ IP và nhận dạng mạng",
+      "importance": "high",
+      "summaryJa": "IPアドレス、サブネット、サブネットマスク、物理アドレス、CIDR、IPv6、VLANなど、ネットワーク上の識別と論理的な分割を理解する。",
+      "summaryVi": "Hiểu địa chỉ IP, subnet, subnet mask, địa chỉ vật lý, CIDR, IPv6 và VLAN trong việc nhận dạng và phân chia mạng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークでは、IPアドレスやMACアドレスによって機器を識別する。また、サブネットやVLANを利用してネットワークを論理的に分割し、効率的に管理する。",
+          "vi": "Trong mạng, thiết bị được nhận dạng bằng địa chỉ IP và MAC. Subnet và VLAN được sử dụng để phân chia mạng về mặt logic và quản lý hiệu quả hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VLAN",
+          "reading": "ぶいらん",
+          "english": "Virtual Local Area Network",
+          "vi": "Mạng LAN ảo",
+          "definitionJa": "物理的な接続構成に依存せず、ネットワークを論理的なグループに分割する技術。",
+          "definitionVi": "Kỹ thuật chia mạng thành các nhóm logic mà không phụ thuộc vào cấu hình kết nối vật lý."
+        },
+        {
+          "term": "IPアドレス",
+          "reading": "あいぴーあどれす",
+          "english": "IP Address",
+          "vi": "Địa chỉ IP",
+          "definitionJa": "ネットワーク上の機器を識別するために割り当てられる論理的なアドレス。",
+          "definitionVi": "Địa chỉ logic được cấp để nhận dạng thiết bị trên mạng."
+        },
+        {
+          "term": "サブネットアドレス",
+          "reading": "",
+          "english": "Subnet Address",
+          "vi": "Địa chỉ mạng con",
+          "definitionJa": "IPネットワークを複数の小さなネットワークに分割した際に、それぞれのサブネットを識別するためのアドレス。",
+          "definitionVi": "Địa chỉ dùng để nhận dạng từng mạng con khi một mạng IP được chia nhỏ."
+        },
+        {
+          "term": "サブネットマスク",
+          "reading": "",
+          "english": "Subnet Mask",
+          "vi": "Mặt nạ mạng con",
+          "definitionJa": "IPアドレスのネットワーク部とホスト部を区別するための情報。",
+          "definitionVi": "Thông tin dùng để phân biệt phần network và phần host của địa chỉ IP."
+        },
+        {
+          "term": "物理アドレス",
+          "reading": "ぶつりあどれす",
+          "english": "Physical Address",
+          "vi": "Địa chỉ vật lý",
+          "definitionJa": "ネットワーク機器に割り当てられたハードウェア固有の識別番号。一般にMACアドレスを指す。",
+          "definitionVi": "Mã nhận dạng phần cứng được cấp cho thiết bị mạng, thường chính là địa chỉ MAC."
+        },
+        {
+          "term": "CIDR",
+          "reading": "さいだー",
+          "english": "Classless Inter-Domain Routing",
+          "vi": "Định tuyến liên miền không phân lớp",
+          "definitionJa": "IPアドレスをクラスに依存せず、プレフィックス長によって柔軟に割り当てる方式。",
+          "definitionVi": "Phương pháp cấp phát địa chỉ IP linh hoạt bằng độ dài prefix mà không phụ thuộc vào lớp địa chỉ."
+        },
+        {
+          "term": "IPv6",
+          "reading": "あいぴーぶいしっくす",
+          "english": "Internet Protocol Version 6",
+          "vi": "Giao thức Internet phiên bản 6",
+          "definitionJa": "128ビットのアドレス空間を持つIPプロトコル。IPv4より非常に多くのアドレスを利用できる。",
+          "definitionVi": "Phiên bản IP sử dụng địa chỉ 128 bit, cung cấp không gian địa chỉ lớn hơn rất nhiều so với IPv4."
+        }
+      ],
+      "tags": ["network", "ip-address", "subnet", "cidr", "ipv6", "vlan"]
+    },
+
+    {
+      "id": "communication-types",
+      "order": 3,
+      "titleJa": "通信方式とデータ配送",
+      "titleVi": "Phương thức truyền và phân phối dữ liệu",
+      "importance": "medium",
+      "summaryJa": "ユニキャスト、ブロードキャスト、マルチキャスト、ICMPなど、ネットワーク上でデータを配送する基本的な方式を理解する。",
+      "summaryVi": "Hiểu các phương thức phân phối dữ liệu cơ bản như unicast, broadcast, multicast và ICMP.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークでは、送信対象に応じてユニキャスト、ブロードキャスト、マルチキャストなどの通信方式を使い分ける。",
+          "vi": "Trong mạng, unicast, broadcast và multicast được sử dụng tùy theo đối tượng cần nhận dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユニキャスト",
+          "reading": "",
+          "english": "Unicast",
+          "vi": "Truyền đơn hướng một-một",
+          "definitionJa": "一つの送信元から特定の一つの宛先にデータを送信する方式。",
+          "definitionVi": "Phương thức truyền dữ liệu từ một nguồn tới một đích xác định."
+        },
+        {
+          "term": "ブロードキャスト",
+          "reading": "",
+          "english": "Broadcast",
+          "vi": "Phát quảng bá",
+          "definitionJa": "同一ネットワーク内のすべての端末に対してデータを送信する方式。",
+          "definitionVi": "Phương thức gửi dữ liệu tới tất cả thiết bị trong cùng mạng."
+        },
+        {
+          "term": "マルチキャスト",
+          "reading": "",
+          "english": "Multicast",
+          "vi": "Phát đa hướng",
+          "definitionJa": "特定のグループに属する複数の受信者へ同時にデータを送信する方式。",
+          "definitionVi": "Phương thức gửi cùng một dữ liệu tới một nhóm nhiều người nhận xác định."
+        },
+        {
+          "term": "ICMP",
+          "reading": "あいしーえむぴー",
+          "english": "Internet Control Message Protocol",
+          "vi": "Giao thức thông báo điều khiển Internet",
+          "definitionJa": "IP通信におけるエラー通知や診断情報を送るためのプロトコル。pingなどで利用される。",
+          "definitionVi": "Giao thức dùng để truyền thông báo lỗi và thông tin chẩn đoán trong mạng IP, được sử dụng bởi ping."
+        }
+      ],
+      "tags": ["network", "unicast", "broadcast", "multicast", "icmp"]
+    },
+
+    {
+      "id": "transport-protocols",
+      "order": 4,
+      "titleJa": "トランスポート層プロトコル",
+      "titleVi": "Giao thức tầng vận chuyển",
+      "importance": "high",
+      "summaryJa": "TCP、UDP、ポート番号など、トランスポート層における通信制御を理解する。",
+      "summaryVi": "Hiểu cơ chế truyền thông ở tầng transport thông qua TCP, UDP và port number.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "トランスポート層では、TCPやUDPを利用してアプリケーション間の通信を実現する。ポート番号によって通信先のサービスを識別する。",
+          "vi": "Tầng transport sử dụng TCP và UDP để thực hiện truyền thông giữa các ứng dụng. Port number dùng để xác định dịch vụ đích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TCP",
+          "reading": "てぃーしーぴー",
+          "english": "Transmission Control Protocol",
+          "vi": "Giao thức TCP",
+          "definitionJa": "接続を確立し、データの順序制御や再送制御を行う信頼性の高い通信プロトコル。",
+          "definitionVi": "Giao thức hướng kết nối có độ tin cậy cao, quản lý thứ tự dữ liệu và truyền lại khi cần."
+        },
+        {
+          "term": "UDP",
+          "reading": "ゆーでぃーぴー",
+          "english": "User Datagram Protocol",
+          "vi": "Giao thức UDP",
+          "definitionJa": "接続を確立せずにデータを送信する高速で軽量な通信プロトコル。",
+          "definitionVi": "Giao thức nhẹ và nhanh, gửi dữ liệu mà không cần thiết lập kết nối trước."
+        },
+        {
+          "term": "ポート番号",
+          "reading": "ぽーとばんごう",
+          "english": "Port Number",
+          "vi": "Số cổng",
+          "definitionJa": "通信を行うアプリケーションやサービスを識別するための番号。",
+          "definitionVi": "Số dùng để nhận dạng ứng dụng hoặc dịch vụ mạng đang giao tiếp."
+        }
+      ],
+      "tags": ["network", "tcp", "udp", "port"]
+    },
+
+    {
+      "id": "application-protocols",
+      "order": 5,
+      "titleJa": "アプリケーション層プロトコル",
+      "titleVi": "Giao thức tầng ứng dụng",
+      "importance": "high",
+      "summaryJa": "HTTP、SMTP、POP、FTP、DNS、TELNET、DHCP、IMAP、NTP、SOAP、HTTP/2、HTTP/3などの主要なアプリケーション層プロトコルを理解する。",
+      "summaryVi": "Hiểu các giao thức tầng ứng dụng chính như HTTP, SMTP, POP, FTP, DNS, TELNET, DHCP, IMAP, NTP, SOAP, HTTP/2 và HTTP/3.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "アプリケーション層では、Web、電子メール、ファイル転送、名前解決、時刻同期などのサービスごとに異なるプロトコルが使用される。",
+          "vi": "Ở tầng ứng dụng, các giao thức khác nhau được dùng cho các dịch vụ như Web, email, truyền file, phân giải tên và đồng bộ thời gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HTTP",
+          "reading": "えいちてぃーてぃーぴー",
+          "english": "Hypertext Transfer Protocol",
+          "vi": "Giao thức truyền siêu văn bản",
+          "definitionJa": "WebブラウザとWebサーバ間でデータを送受信するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để trao đổi dữ liệu giữa trình duyệt Web và Web server."
+        },
+        {
+          "term": "SMTP",
+          "reading": "えすえむてぃーぴー",
+          "english": "Simple Mail Transfer Protocol",
+          "vi": "Giao thức gửi email",
+          "definitionJa": "電子メールを送信するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để gửi thư điện tử."
+        },
+        {
+          "term": "POP",
+          "reading": "ぽっぷ",
+          "english": "Post Office Protocol",
+          "vi": "Giao thức nhận email POP",
+          "definitionJa": "メールサーバからメールをクライアントにダウンロードするためのプロトコル。",
+          "definitionVi": "Giao thức tải email từ mail server về thiết bị người dùng."
+        },
+        {
+          "term": "FTP",
+          "reading": "えふてぃーぴー",
+          "english": "File Transfer Protocol",
+          "vi": "Giao thức truyền file",
+          "definitionJa": "ネットワーク上でファイルを送受信するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để truyền file qua mạng."
+        },
+        {
+          "term": "DNS",
+          "reading": "でぃーえぬえす",
+          "english": "Domain Name System",
+          "vi": "Hệ thống tên miền",
+          "definitionJa": "ドメイン名をIPアドレスに変換する仕組み。",
+          "definitionVi": "Hệ thống chuyển đổi tên miền thành địa chỉ IP."
+        },
+        {
+          "term": "TELNET",
+          "reading": "てるねっと",
+          "english": "TELNET",
+          "vi": "Giao thức Telnet",
+          "definitionJa": "ネットワーク経由で遠隔コンピュータを操作するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để điều khiển máy tính từ xa qua mạng."
+        },
+        {
+          "term": "DHCP",
+          "reading": "でぃーえいちしーぴー",
+          "english": "Dynamic Host Configuration Protocol",
+          "vi": "Giao thức cấp phát cấu hình động",
+          "definitionJa": "ネットワーク機器へIPアドレスなどの設定情報を自動的に割り当てるプロトコル。",
+          "definitionVi": "Giao thức tự động cấp địa chỉ IP và các thông tin cấu hình mạng cho thiết bị."
+        },
+        {
+          "term": "IMAP",
+          "reading": "あいまっぷ",
+          "english": "Internet Message Access Protocol",
+          "vi": "Giao thức truy cập email IMAP",
+          "definitionJa": "メールをサーバ上に保持したまま複数の端末から管理できるプロトコル。",
+          "definitionVi": "Giao thức cho phép quản lý email trực tiếp trên server từ nhiều thiết bị."
+        },
+        {
+          "term": "NTP",
+          "reading": "えぬてぃーぴー",
+          "english": "Network Time Protocol",
+          "vi": "Giao thức đồng bộ thời gian mạng",
+          "definitionJa": "ネットワーク上のコンピュータの時刻を同期するためのプロトコル。",
+          "definitionVi": "Giao thức dùng để đồng bộ thời gian giữa các máy tính trên mạng."
+        },
+        {
+          "term": "SOAP",
+          "reading": "そーぷ",
+          "english": "Simple Object Access Protocol",
+          "vi": "Giao thức SOAP",
+          "definitionJa": "XMLを利用して異なるシステム間でデータを交換するためのプロトコル。",
+          "definitionVi": "Giao thức sử dụng XML để trao đổi dữ liệu giữa các hệ thống khác nhau."
+        },
+        {
+          "term": "HTTP/2",
+          "reading": "えいちてぃーてぃーぴーつー",
+          "english": "HTTP/2",
+          "vi": "HTTP phiên bản 2",
+          "definitionJa": "複数のリクエストを効率的に処理する多重化などを導入したHTTPの拡張規格。",
+          "definitionVi": "Phiên bản HTTP hỗ trợ multiplexing và các cơ chế giúp xử lý nhiều request hiệu quả hơn."
+        },
+        {
+          "term": "HTTP/3",
+          "reading": "えいちてぃーてぃーぴーすりー",
+          "english": "HTTP/3",
+          "vi": "HTTP phiên bản 3",
+          "definitionJa": "QUICを利用し、通信遅延の低減や接続性能の向上を図ったHTTPの規格。",
+          "definitionVi": "Phiên bản HTTP sử dụng QUIC nhằm giảm độ trễ và cải thiện hiệu suất kết nối."
+        }
+      ],
+      "tags": [
+        "network",
+        "http",
+        "mail",
+        "dns",
+        "ftp",
+        "dhcp",
+        "application-protocol"
+      ]
+    },
+
+    {
+      "id": "ethernet-wireless-lan",
+      "order": 6,
+      "titleJa": "Ethernetと無線LAN",
+      "titleVi": "Ethernet và mạng LAN không dây",
+      "importance": "high",
+      "summaryJa": "10BASE-T、100BASE-TX、1000BASE-T、10GBASE-T、IEEE802.11、Wi-Fi、メッシュWi-Fiなど、有線・無線LANの主要規格を理解する。",
+      "summaryVi": "Hiểu các chuẩn mạng có dây và không dây chính như 10BASE-T, 100BASE-TX, 1000BASE-T, 10GBASE-T, IEEE 802.11, Wi-Fi và Mesh Wi-Fi.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "LANではEthernetや無線LANの規格によって通信速度や通信方式が定められている。規格ごとの速度や特徴を整理して理解することが重要である。",
+          "vi": "Trong LAN, các chuẩn Ethernet và Wi-Fi quy định tốc độ và phương thức truyền. Cần phân biệt đặc điểm và tốc độ của từng chuẩn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "10BASE-T",
+          "reading": "てんべーすてぃー",
+          "english": "10BASE-T",
+          "vi": "Ethernet 10 Mbps",
+          "definitionJa": "ツイストペアケーブルを使用し、最大10Mbpsで通信するEthernet規格。",
+          "definitionVi": "Chuẩn Ethernet sử dụng cáp xoắn đôi với tốc độ tối đa 10 Mbps."
+        },
+        {
+          "term": "100BASE-TX",
+          "reading": "ひゃくべーすてぃーえっくす",
+          "english": "100BASE-TX",
+          "vi": "Fast Ethernet 100 Mbps",
+          "definitionJa": "ツイストペアケーブルを使用し、最大100Mbpsで通信するFast Ethernet規格。",
+          "definitionVi": "Chuẩn Fast Ethernet sử dụng cáp xoắn đôi với tốc độ tối đa 100 Mbps."
+        },
+        {
+          "term": "1000BASE-T",
+          "reading": "せんべーすてぃー",
+          "english": "1000BASE-T",
+          "vi": "Gigabit Ethernet",
+          "definitionJa": "ツイストペアケーブルを使用して最大1Gbpsで通信するEthernet規格。",
+          "definitionVi": "Chuẩn Ethernet sử dụng cáp xoắn đôi với tốc độ tối đa 1 Gbps."
+        },
+        {
+          "term": "10GBASE-T",
+          "reading": "じゅうぎがべーすてぃー",
+          "english": "10 Gigabit Ethernet",
+          "vi": "Ethernet 10 Gigabit",
+          "definitionJa": "ツイストペアケーブルを利用して最大10Gbpsで通信するEthernet規格。",
+          "definitionVi": "Chuẩn Ethernet sử dụng cáp xoắn đôi với tốc độ tối đa 10 Gbps."
+        },
+        {
+          "term": "IEEE802.11a/b/g/n/ac/ax",
+          "reading": "",
+          "english": "IEEE 802.11 Standards",
+          "vi": "Các chuẩn IEEE 802.11",
+          "definitionJa": "無線LANに関するIEEEの標準規格群。",
+          "definitionVi": "Nhóm tiêu chuẩn IEEE dành cho mạng LAN không dây."
+        },
+        {
+          "term": "Wi-Fi4/5/6/6E",
+          "reading": "わいふぁい",
+          "english": "Wi-Fi 4/5/6/6E",
+          "vi": "Các thế hệ Wi-Fi 4/5/6/6E",
+          "definitionJa": "IEEE802.11n、ac、axなどに対応する無線LANの世代名称。",
+          "definitionVi": "Tên thế hệ Wi-Fi tương ứng với các chuẩn như IEEE 802.11n, ac và ax."
+        },
+        {
+          "term": "メッシュWi-Fi",
+          "reading": "めっしゅわいふぁい",
+          "english": "Mesh Wi-Fi",
+          "vi": "Wi-Fi dạng mesh",
+          "definitionJa": "複数の無線アクセスポイントを相互接続し、広い範囲を一つの無線LANとして提供する方式。",
+          "definitionVi": "Phương thức kết nối nhiều access point để cung cấp vùng phủ Wi-Fi rộng như một mạng thống nhất."
+        }
+      ],
+      "tags": ["network", "ethernet", "wifi", "wireless-lan", "ieee80211"]
+    },
+
+    {
+      "id": "distributed-communication",
+      "order": 7,
+      "titleJa": "分散システム間通信",
+      "titleVi": "Truyền thông giữa các hệ thống phân tán",
+      "importance": "medium",
+      "summaryJa": "CORBAなど、異なる環境のアプリケーション間で通信するための仕組みを理解する。",
+      "summaryVi": "Hiểu các cơ chế như CORBA dùng để liên lạc giữa các ứng dụng chạy trên những môi trường khác nhau.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "分散システムでは、異なる言語やプラットフォームで作成されたアプリケーション同士を連携させるための共通的な通信基盤が必要となる。",
+          "vi": "Trong hệ thống phân tán, cần có cơ chế giao tiếp chung để các ứng dụng viết bằng ngôn ngữ hoặc chạy trên nền tảng khác nhau có thể phối hợp với nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CORBA",
+          "reading": "ころば",
+          "english": "Common Object Request Broker Architecture",
+          "vi": "Kiến trúc môi giới yêu cầu đối tượng chung",
+          "definitionJa": "異なるプログラミング言語やプラットフォームで動作するオブジェクト同士を連携させるための分散オブジェクト技術。",
+          "definitionVi": "Công nghệ đối tượng phân tán giúp các đối tượng chạy trên ngôn ngữ và nền tảng khác nhau có thể giao tiếp với nhau."
+        }
+      ],
+      "tags": ["network", "corba", "distributed-system"]
+    }
+  ]
+}

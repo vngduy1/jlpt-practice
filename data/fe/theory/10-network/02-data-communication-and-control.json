@@ -1,0 +1,699 @@
+{
+  "id": "data-communication-control",
+  "order": 2,
+  "titleJa": "データ通信と制御",
+  "titleVi": "Truyền dữ liệu và điều khiển",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "network-topology",
+      "order": 1,
+      "titleJa": "ネットワークトポロジ",
+      "titleVi": "Cấu trúc liên kết mạng",
+      "importance": "high",
+      "summaryJa": "ネットワークトポロジ、ポイントツーポイント、ツリー型、バス型、スター型、リング型など、ネットワークの代表的な接続形態を理解する。",
+      "summaryVi": "Hiểu các kiểu kết nối mạng tiêu biểu như network topology, point-to-point, tree, bus, star và ring.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークトポロジとは、コンピュータやデバイスがネットワーク内でどのように接続されているかを示す構造である。代表的な形態には、ツリー型、バス型、スター型、リング型などがある。",
+          "vi": "Network topology là cấu trúc biểu thị các máy tính và thiết bị được kết nối với nhau như thế nào trong mạng. Các dạng tiêu biểu gồm tree, bus, star và ring."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネットワークトポロジ",
+          "reading": "",
+          "english": "Network Topology",
+          "vi": "Cấu trúc liên kết mạng",
+          "definitionJa": "コンピュータやデバイスがネットワーク内でどのように接続されているかを示す構造。主な形態には、スター型、リング型、バス型、メッシュ型などがある。",
+          "definitionVi": "Cấu trúc thể hiện các máy tính và thiết bị được kết nối với nhau như thế nào trong mạng. Các dạng chính gồm star, ring, bus và mesh."
+        },
+        {
+          "term": "ポイントツーポイント",
+          "reading": "",
+          "english": "Point-to-Point",
+          "vi": "Kết nối điểm-điểm",
+          "definitionJa": "2つの通信端末が直接接続されているネットワーク構成。通信が効率的かつ安全に行える。",
+          "definitionVi": "Kiểu kết nối trong đó hai thiết bị truyền thông được kết nối trực tiếp với nhau, giúp truyền dữ liệu hiệu quả và ổn định."
+        },
+        {
+          "term": "ツリー型",
+          "reading": "つりーがた",
+          "english": "Tree Topology",
+          "vi": "Mạng hình cây",
+          "definitionJa": "ネットワークの接続方法の一つで、階層的な構造を持つ形状。中心となるルートノードから複数のノードへ枝分かれする。",
+          "definitionVi": "Kiểu topology có cấu trúc phân cấp, trong đó các node phân nhánh từ một root node trung tâm."
+        },
+        {
+          "term": "バス型",
+          "reading": "ばすがた",
+          "english": "Bus Topology",
+          "vi": "Mạng hình bus",
+          "definitionJa": "すべてのデバイスが一本の伝送路に接続されているネットワーク構造。この伝送路はバスと呼ばれる。",
+          "definitionVi": "Kiểu mạng trong đó tất cả thiết bị cùng kết nối vào một đường truyền chung gọi là bus."
+        },
+        {
+          "term": "スター型",
+          "reading": "すたーがた",
+          "english": "Star Topology",
+          "vi": "Mạng hình sao",
+          "definitionJa": "すべてのデバイスが中央のハブやスイッチに直接接続されるネットワーク構造。",
+          "definitionVi": "Kiểu mạng trong đó tất cả thiết bị được kết nối trực tiếp với hub hoặc switch ở trung tâm."
+        },
+        {
+          "term": "リング型",
+          "reading": "りんぐがた",
+          "english": "Ring Topology",
+          "vi": "Mạng hình vòng",
+          "definitionJa": "デバイスが環状に接続されているネットワーク構造。各デバイスは隣接する二つのデバイスに接続される。",
+          "definitionVi": "Kiểu mạng trong đó các thiết bị được kết nối thành vòng, mỗi thiết bị nối với hai thiết bị liền kề."
+        }
+      ],
+      "tags": ["network", "topology", "star", "bus", "ring", "tree"]
+    },
+    {
+      "id": "osi-reference-model",
+      "order": 2,
+      "titleJa": "OSI基本参照モデル",
+      "titleVi": "Mô hình tham chiếu OSI",
+      "importance": "high",
+      "summaryJa": "OSI基本参照モデルと、物理層からアプリケーション層までの7階層の役割を理解する。",
+      "summaryVi": "Hiểu mô hình tham chiếu OSI và vai trò của 7 tầng từ Physical Layer đến Application Layer.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "OSI基本参照モデルは、コンピュータネットワークにおける通信プロセスを7つの層に分けて理解するためのフレームワークである。",
+          "vi": "Mô hình tham chiếu OSI là framework chia quá trình truyền thông mạng thành 7 tầng để dễ thiết kế và hiểu chức năng của từng phần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OSI基本参照モデル",
+          "reading": "おーえすあいきほんさんしょうもでる",
+          "english": "OSI Basic Reference Model",
+          "vi": "Mô hình tham chiếu cơ bản OSI",
+          "definitionJa": "コンピュータネットワークにおける通信プロセスを7つの層に分けて理解するためのフレームワーク。",
+          "definitionVi": "Mô hình chia quá trình truyền thông mạng thành 7 tầng để chuẩn hóa và hiểu chức năng của từng tầng."
+        },
+        {
+          "term": "物理層",
+          "reading": "ぶつりそう",
+          "english": "Physical Layer",
+          "vi": "Tầng vật lý",
+          "definitionJa": "OSI基本参照モデルの最下層であり、データの物理的な伝送を扱う層。電気信号や光信号などを利用してビットを伝送する。",
+          "definitionVi": "Tầng thấp nhất của OSI, phụ trách truyền bit vật lý thông qua tín hiệu điện, tín hiệu ánh sáng và các phương tiện truyền dẫn."
+        },
+        {
+          "term": "データリンク層",
+          "reading": "でーたりんくそう",
+          "english": "Data Link Layer",
+          "vi": "Tầng liên kết dữ liệu",
+          "definitionJa": "OSI基本参照モデルの第2層。隣接するネットワーク機器間のデータ転送を管理し、フレーム化、エラー検出、MACアドレスによる制御などを行う。",
+          "definitionVi": "Tầng 2 của OSI, quản lý truyền dữ liệu giữa các thiết bị mạng liền kề, bao gồm frame, phát hiện lỗi và điều khiển bằng địa chỉ MAC."
+        },
+        {
+          "term": "ネットワーク層",
+          "reading": "ねっとわーくそう",
+          "english": "Network Layer",
+          "vi": "Tầng mạng",
+          "definitionJa": "OSI基本参照モデルの第3層。送信元から宛先までパケットを転送し、経路を決定する役割を持つ。",
+          "definitionVi": "Tầng 3 của OSI, phụ trách chuyển packet từ nguồn đến đích và xác định đường đi."
+        },
+        {
+          "term": "トランスポート層",
+          "reading": "とらんすぽーとそう",
+          "english": "Transport Layer",
+          "vi": "Tầng vận chuyển",
+          "definitionJa": "OSI基本参照モデルの第4層。データ通信における信頼性やフロー制御を提供し、TCPやUDPなどのプロトコルを使用する。",
+          "definitionVi": "Tầng 4 của OSI, cung cấp chức năng truyền dữ liệu đầu cuối, độ tin cậy và flow control; TCP và UDP hoạt động ở tầng này."
+        },
+        {
+          "term": "セション層",
+          "reading": "せしょんそう",
+          "english": "Session Layer",
+          "vi": "Tầng phiên",
+          "definitionJa": "OSI基本参照モデルの第5層。通信セッションの確立、管理、終了を担当する。",
+          "definitionVi": "Tầng 5 của OSI, phụ trách thiết lập, quản lý và kết thúc phiên truyền thông."
+        },
+        {
+          "term": "プレゼンテーション層",
+          "reading": "ぷれぜんてーしょんそう",
+          "english": "Presentation Layer",
+          "vi": "Tầng trình diễn",
+          "definitionJa": "OSI基本参照モデルの第6層。データ形式の変換、圧縮、暗号化などを行う。",
+          "definitionVi": "Tầng 6 của OSI, phụ trách chuyển đổi định dạng dữ liệu, nén và mã hóa."
+        },
+        {
+          "term": "アプリケーション層",
+          "reading": "あぷりけーしょんそう",
+          "english": "Application Layer",
+          "vi": "Tầng ứng dụng",
+          "definitionJa": "OSI基本参照モデルの最上位層。ユーザーが直接利用するアプリケーションやサービスに通信機能を提供する。",
+          "definitionVi": "Tầng cao nhất của OSI, cung cấp chức năng truyền thông cho các ứng dụng và dịch vụ mà người dùng trực tiếp sử dụng."
+        }
+      ],
+      "tags": [
+        "network",
+        "osi",
+        "physical-layer",
+        "data-link-layer",
+        "network-layer"
+      ]
+    },
+    {
+      "id": "communication-direction",
+      "order": 3,
+      "titleJa": "通信方向と多重化",
+      "titleVi": "Hướng truyền thông và ghép kênh",
+      "importance": "high",
+      "summaryJa": "単方向、半二重、全二重の通信方式と、WDM、TDMAなどの多重化技術を理解する。",
+      "summaryVi": "Hiểu các phương thức truyền simplex, half-duplex, full-duplex và các kỹ thuật ghép kênh như WDM, TDMA.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "通信にはデータを送受信する方向によって単方向、半二重、全二重がある。また、限られた通信資源を複数の通信で共有するために多重化技術が利用される。",
+          "vi": "Truyền thông được phân thành simplex, half-duplex và full-duplex tùy theo hướng gửi nhận dữ liệu. Các kỹ thuật multiplexing được sử dụng để nhiều kết nối cùng chia sẻ tài nguyên truyền dẫn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "単方向",
+          "reading": "たんほうこう",
+          "english": "Unidirectional",
+          "vi": "Đơn hướng",
+          "definitionJa": "一方向にのみデータが流れる伝送方式。送信側から受信側への通信だけが可能である。",
+          "definitionVi": "Phương thức chỉ truyền dữ liệu theo một chiều từ bên gửi đến bên nhận."
+        },
+        {
+          "term": "半二重",
+          "reading": "はんにじゅう",
+          "english": "Half-Duplex",
+          "vi": "Bán song công",
+          "definitionJa": "双方向に通信できるが、同時に送信と受信を行うことはできない通信方式。",
+          "definitionVi": "Có thể truyền theo cả hai chiều nhưng không thể gửi và nhận đồng thời."
+        },
+        {
+          "term": "全二重",
+          "reading": "ぜんにじゅう",
+          "english": "Full Duplex",
+          "vi": "Song công toàn phần",
+          "definitionJa": "通信回線が同時に双方向で情報を送受信できる方式。",
+          "definitionVi": "Phương thức cho phép gửi và nhận dữ liệu đồng thời theo cả hai chiều."
+        },
+        {
+          "term": "WDM",
+          "reading": "だぶるでぃーえむ",
+          "english": "Wavelength Division Multiplexing",
+          "vi": "Ghép kênh phân chia bước sóng",
+          "definitionJa": "光ファイバ通信において、異なる波長の光を利用して複数の信号を同時に伝送する多重化技術。",
+          "definitionVi": "Kỹ thuật ghép kênh quang sử dụng các bước sóng khác nhau để truyền đồng thời nhiều tín hiệu trên cùng một sợi quang."
+        },
+        {
+          "term": "TDMA",
+          "reading": "てぃーでぃーえむえー",
+          "english": "Time Division Multiple Access",
+          "vi": "Đa truy nhập phân chia theo thời gian",
+          "definitionJa": "時間を細かく区切り、各ユーザーに異なる時間帯を割り当てることで、複数のユーザーが同じ通信回線を利用する方式。",
+          "definitionVi": "Phương thức chia thời gian thành các khe và phân cho từng người dùng để nhiều người có thể sử dụng chung một đường truyền."
+        }
+      ],
+      "tags": ["network", "duplex", "wdm", "tdma", "multiplexing"]
+    },
+    {
+      "id": "switching-and-lines",
+      "order": 4,
+      "titleJa": "交換方式と通信回線",
+      "titleVi": "Phương thức chuyển mạch và đường truyền",
+      "importance": "high",
+      "summaryJa": "回線交換、パケット交換、公衆回線、専用線など、データ通信における交換方式と回線の違いを理解する。",
+      "summaryVi": "Hiểu sự khác nhau giữa circuit switching, packet switching, đường truyền công cộng và đường truyền riêng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "通信回線には、通信中に専用経路を確保する回線交換と、データをパケットに分割して送信するパケット交換がある。また、回線には公衆回線と専用線がある。",
+          "vi": "Có hai phương thức chuyển mạch tiêu biểu: circuit switching giữ riêng đường truyền trong thời gian liên lạc và packet switching chia dữ liệu thành packet. Đường truyền cũng có thể là public circuit hoặc dedicated line."
+        }
+      ],
+      "terms": [
+        {
+          "term": "回線交換",
+          "reading": "かいせんこうかん",
+          "english": "Circuit Switching",
+          "vi": "Chuyển mạch kênh",
+          "definitionJa": "送信者と受信者の間に専用の通信経路を確立し、通信中はその経路を占有する方式。",
+          "definitionVi": "Phương thức thiết lập một đường truyền riêng giữa bên gửi và bên nhận và giữ đường đó trong suốt thời gian liên lạc."
+        },
+        {
+          "term": "パケット交換",
+          "reading": "ぱけっとこうかん",
+          "english": "Packet Switching",
+          "vi": "Chuyển mạch gói",
+          "definitionJa": "情報を小さなデータの塊であるパケットに分割して送信し、受信側で再構成する方式。",
+          "definitionVi": "Phương thức chia dữ liệu thành các packet nhỏ để truyền riêng biệt rồi ghép lại ở phía nhận."
+        },
+        {
+          "term": "公衆回線",
+          "reading": "こうしゅうかいせん",
+          "english": "Public Circuit",
+          "vi": "Đường truyền công cộng",
+          "definitionJa": "一般の利用者が共有する通信回線。電話やインターネットなどの通信サービスで利用される。",
+          "definitionVi": "Đường truyền được nhiều người dùng cùng chia sẻ, chẳng hạn mạng điện thoại hoặc dịch vụ Internet."
+        },
+        {
+          "term": "専用線",
+          "reading": "せんようせん",
+          "english": "Dedicated Line",
+          "vi": "Đường truyền riêng",
+          "definitionJa": "特定の利用者や組織専用に設計された通信回線。他のユーザーと共有せず、常時接続可能な専用経路を提供する。",
+          "definitionVi": "Đường truyền dành riêng cho một người dùng hoặc tổ chức, không chia sẻ với người dùng khác và có thể duy trì kết nối thường xuyên."
+        }
+      ],
+      "tags": [
+        "network",
+        "circuit-switching",
+        "packet-switching",
+        "communication-line"
+      ]
+    },
+    {
+      "id": "network-devices",
+      "order": 5,
+      "titleJa": "ネットワーク接続機器",
+      "titleVi": "Thiết bị kết nối mạng",
+      "importance": "high",
+      "summaryJa": "リピータ、ハブ、スイッチ、ルータ、ブリッジ、ゲートウェイなど、ネットワークを構成する主要な接続機器の役割を理解する。",
+      "summaryVi": "Hiểu vai trò của các thiết bị kết nối mạng chính như repeater, hub, switch, router, bridge và gateway.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ネットワークでは、信号の再生、機器間の接続、フレーム転送、ルーティング、異なるネットワーク間の接続など、目的に応じてさまざまな接続機器が使用される。",
+          "vi": "Trong mạng, nhiều thiết bị khác nhau được sử dụng cho các nhiệm vụ như tái tạo tín hiệu, kết nối thiết bị, chuyển frame, routing và kết nối các mạng khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リピータ",
+          "reading": "",
+          "english": "Repeater",
+          "vi": "Bộ lặp",
+          "definitionJa": "ネットワーク内でデータ信号を増幅・再生して再送信し、通信距離を延長するための装置。",
+          "definitionVi": "Thiết bị tái tạo và truyền lại tín hiệu để mở rộng khoảng cách truyền thông."
+        },
+        {
+          "term": "ハブ",
+          "reading": "",
+          "english": "Hub",
+          "vi": "Hub",
+          "definitionJa": "複数のネットワーク機器を接続する装置。受信したデータを接続されたすべてのポートへ転送する。",
+          "definitionVi": "Thiết bị kết nối nhiều thiết bị mạng và chuyển dữ liệu nhận được tới tất cả các cổng."
+        },
+        {
+          "term": "カスケード接続",
+          "reading": "かすけーどせつぞく",
+          "english": "Cascading Connection",
+          "vi": "Kết nối cascade",
+          "definitionJa": "複数のネットワークスイッチやハブを直列に接続し、ネットワークの範囲を広げる接続方式。",
+          "definitionVi": "Phương thức nối nhiều switch hoặc hub theo chuỗi để mở rộng phạm vi mạng."
+        },
+        {
+          "term": "スイッチングハブ",
+          "reading": "",
+          "english": "Switching Hub",
+          "vi": "Switch mạng",
+          "definitionJa": "宛先の機器を特定し、必要なポートにのみデータを転送するネットワーク機器。",
+          "definitionVi": "Thiết bị xác định thiết bị đích và chỉ chuyển dữ liệu tới cổng cần thiết."
+        },
+        {
+          "term": "ルータ",
+          "reading": "",
+          "english": "Router",
+          "vi": "Bộ định tuyến",
+          "definitionJa": "異なるネットワークを接続し、IPアドレスなどに基づいてデータパケットの転送経路を判断する機器。",
+          "definitionVi": "Thiết bị kết nối các mạng khác nhau và xác định đường truyền packet dựa trên địa chỉ IP."
+        },
+        {
+          "term": "回線接続装置",
+          "reading": "かいせんせつぞくそうち",
+          "english": "Line Connection Device",
+          "vi": "Thiết bị kết nối đường truyền",
+          "definitionJa": "ネットワークで通信を行うために、回線と端末やネットワーク機器を接続する装置。",
+          "definitionVi": "Thiết bị dùng để kết nối đường truyền với thiết bị đầu cuối hoặc thiết bị mạng để thực hiện truyền thông."
+        },
+        {
+          "term": "レイヤー2スイッチ",
+          "reading": "れいやーつーすいっち",
+          "english": "Layer 2 Switch",
+          "vi": "Switch Layer 2",
+          "definitionJa": "データリンク層で動作し、MACアドレスを参照してEthernetフレームを適切なポートへ転送する機器。",
+          "definitionVi": "Switch hoạt động ở Data Link Layer, sử dụng địa chỉ MAC để chuyển Ethernet frame tới cổng thích hợp."
+        },
+        {
+          "term": "レイヤー3スイッチ",
+          "reading": "れいやーすりーすいっち",
+          "english": "Layer 3 Switch",
+          "vi": "Switch Layer 3",
+          "definitionJa": "ネットワーク層に対応し、IPアドレスに基づくルーティング機能を持つスイッチ。",
+          "definitionVi": "Switch hoạt động ở Network Layer và có khả năng routing dựa trên địa chỉ IP."
+        },
+        {
+          "term": "ブリッジ",
+          "reading": "",
+          "english": "Bridge",
+          "vi": "Cầu nối mạng",
+          "definitionJa": "異なるネットワークセグメントを接続し、データリンク層で受信データを判断して必要なセグメントへ転送する装置。",
+          "definitionVi": "Thiết bị nối các segment mạng và hoạt động ở Data Link Layer để chuyển dữ liệu đến segment cần thiết."
+        },
+        {
+          "term": "ゲートウェイ",
+          "reading": "",
+          "english": "Gateway",
+          "vi": "Cổng kết nối mạng",
+          "definitionJa": "異なるネットワーク間でデータを転送する装置やソフトウェア。異なるプロトコルを使用するネットワーク同士の接続にも利用される。",
+          "definitionVi": "Thiết bị hoặc phần mềm chuyển dữ liệu giữa các mạng, kể cả các mạng sử dụng giao thức khác nhau."
+        }
+      ],
+      "tags": [
+        "network",
+        "repeater",
+        "hub",
+        "switch",
+        "router",
+        "bridge",
+        "gateway"
+      ]
+    },
+    {
+      "id": "proxy-and-loop-control",
+      "order": 6,
+      "titleJa": "プロキシとループ制御",
+      "titleVi": "Proxy và điều khiển vòng lặp",
+      "importance": "high",
+      "summaryJa": "プロキシサーバ、リバースプロキシサーバ、スパニングツリーなど、通信の中継とネットワークループを防止する技術を理解する。",
+      "summaryVi": "Hiểu proxy server, reverse proxy server và spanning tree dùng cho trung chuyển truyền thông và ngăn vòng lặp mạng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "プロキシはクライアントと外部サーバの間で通信を中継する。リバースプロキシはサーバ側の入口として機能する。また、スパニングツリーはLAN内のループを防止する。",
+          "vi": "Proxy trung chuyển giữa client và server bên ngoài; reverse proxy hoạt động ở phía server; spanning tree được dùng để ngăn loop trong mạng LAN."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロキシサーバ",
+          "reading": "",
+          "english": "Proxy Server",
+          "vi": "Máy chủ proxy",
+          "definitionJa": "クライアントとインターネットの間に位置し、クライアントの要求を受け取って目的のサーバへ代理で送信する中継サーバ。",
+          "definitionVi": "Máy chủ trung gian nhận yêu cầu từ client và thay mặt client gửi yêu cầu tới server trên Internet."
+        },
+        {
+          "term": "リバースプロキシサーバ",
+          "reading": "",
+          "english": "Reverse Proxy Server",
+          "vi": "Máy chủ reverse proxy",
+          "definitionJa": "クライアントとサーバの間に位置し、クライアントからのリクエストを特定のバックエンドサーバへ転送するサーバ。",
+          "definitionVi": "Máy chủ nằm trước các backend server, nhận request từ client rồi chuyển chúng tới server thích hợp."
+        },
+        {
+          "term": "スパニングツリー",
+          "reading": "",
+          "english": "Spanning Tree",
+          "vi": "Spanning Tree",
+          "definitionJa": "スイッチやブリッジを使用するLANでデータのループが発生することを防ぐための技術。",
+          "definitionVi": "Kỹ thuật dùng trong LAN có switch hoặc bridge để ngăn vòng lặp truyền dữ liệu."
+        }
+      ],
+      "tags": ["network", "proxy", "reverse-proxy", "spanning-tree"]
+    },
+    {
+      "id": "communication-control",
+      "order": 7,
+      "titleJa": "データ通信制御",
+      "titleVi": "Điều khiển truyền dữ liệu",
+      "importance": "high",
+      "summaryJa": "データリンク制御、ルーティング制御、フロー制御、ベーシック手順、コンテンション方式など、データ通信を制御する基本技術を理解する。",
+      "summaryVi": "Hiểu các kỹ thuật điều khiển truyền dữ liệu như data link control, routing control, flow control, basic procedure và contention method.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データ通信では、データを正しく効率的に送受信するために、経路選択、送受信速度の調整、エラー処理、通信権の制御などが必要になる。",
+          "vi": "Trong truyền dữ liệu cần có các cơ chế chọn đường đi, điều chỉnh tốc độ gửi nhận, xử lý lỗi và kiểm soát quyền truyền để dữ liệu được trao đổi chính xác và hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データリンク制御",
+          "reading": "でーたりんくせいぎょ",
+          "english": "Data Link Control",
+          "vi": "Điều khiển liên kết dữ liệu",
+          "definitionJa": "ネットワークでデータを送受信する際の手続きを管理し、エラー検出やフロー制御などを行う技術。",
+          "definitionVi": "Kỹ thuật quản lý thủ tục gửi nhận dữ liệu trong mạng, bao gồm phát hiện lỗi và flow control."
+        },
+        {
+          "term": "ルーティング制御",
+          "reading": "るーてぃんぐせいぎょ",
+          "english": "Routing Control",
+          "vi": "Điều khiển định tuyến",
+          "definitionJa": "データがネットワーク内で目的地に到達するための適切な経路を決定する仕組み。",
+          "definitionVi": "Cơ chế xác định đường đi thích hợp để dữ liệu đến được đích trong mạng."
+        },
+        {
+          "term": "フロー制御",
+          "reading": "ふろーせいぎょ",
+          "english": "Flow Control",
+          "vi": "Điều khiển luồng",
+          "definitionJa": "送信側と受信側のデータ転送速度を調整し、受信側の処理能力を超えるデータが送られることを防ぐ仕組み。",
+          "definitionVi": "Cơ chế điều chỉnh tốc độ truyền giữa bên gửi và bên nhận để tránh gửi dữ liệu vượt quá khả năng xử lý của bên nhận."
+        },
+        {
+          "term": "ベーシック手順",
+          "reading": "べーしっくてじゅん",
+          "english": "Basic Procedure",
+          "vi": "Thủ tục truyền thông cơ bản",
+          "definitionJa": "通信プロトコルにおける基本的な操作や手順を示し、通信の確立、データ送信、エラーチェック、接続終了などを行う方式。",
+          "definitionVi": "Thủ tục cơ bản của giao thức truyền thông, bao gồm thiết lập kết nối, truyền dữ liệu, kiểm tra lỗi và kết thúc kết nối."
+        },
+        {
+          "term": "コンテンション方式",
+          "reading": "こんてんしょんほうしき",
+          "english": "Contention Method",
+          "vi": "Phương thức tranh chấp đường truyền",
+          "definitionJa": "複数の機器が同じ通信路を利用する際に、データを送信する権利を競い合う方式。",
+          "definitionVi": "Phương thức trong đó nhiều thiết bị cùng sử dụng một đường truyền và cạnh tranh quyền gửi dữ liệu."
+        }
+      ],
+      "tags": [
+        "network",
+        "data-link-control",
+        "routing",
+        "flow-control",
+        "contention"
+      ]
+    },
+    {
+      "id": "access-control-methods",
+      "order": 8,
+      "titleJa": "通信アクセス制御",
+      "titleVi": "Điều khiển truy cập truyền thông",
+      "importance": "high",
+      "summaryJa": "コンテンション方式、ポーリング／セレクティング方式、CSMA/CDなど、複数の端末が通信回線を共有する際のアクセス制御方式を理解する。",
+      "summaryVi": "Hiểu các phương thức kiểm soát quyền truy cập đường truyền khi nhiều thiết bị dùng chung môi trường truyền như contention, polling/selecting và CSMA/CD.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "複数の端末が同じ通信回線を利用する場合、どの端末がいつデータを送信できるかを制御する必要がある。代表的な方式には、端末同士が送信権を競うコンテンション方式と、管理側が順番に送信可否を確認するポーリング／セレクティング方式がある。",
+          "vi": "Khi nhiều thiết bị cùng dùng một đường truyền, cần kiểm soát thiết bị nào được phép gửi dữ liệu tại từng thời điểm. Các phương thức tiêu biểu gồm contention, nơi các thiết bị cạnh tranh quyền truyền, và polling/selecting, nơi thiết bị quản lý lần lượt kiểm tra quyền gửi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンテンション方式",
+          "reading": "こんてんしょんほうしき",
+          "english": "Contention Method",
+          "vi": "Phương thức tranh chấp",
+          "definitionJa": "複数の機器が同時に通信を試みた際に、データを送信する権利を競り合うための方式。イーサネットではCSMA/CDなどが利用される。",
+          "definitionVi": "Phương thức trong đó nhiều thiết bị cạnh tranh quyền gửi dữ liệu khi cùng muốn truyền trên một đường truyền. Ethernet truyền thống sử dụng CSMA/CD."
+        },
+        {
+          "term": "ポーリング／セレクティング方式",
+          "reading": "ぽーりんぐ／せれくてぃんぐほうしき",
+          "english": "Polling/Selecting Method",
+          "vi": "Phương thức polling/selecting",
+          "definitionJa": "管理側の機器が各端末に対して順番に送信要求を確認したり、特定の端末を選択して通信を行わせたりする制御方式。",
+          "definitionVi": "Phương thức trong đó thiết bị quản lý lần lượt kiểm tra các thiết bị có dữ liệu cần gửi hay lựa chọn một thiết bị cụ thể để thực hiện truyền thông."
+        },
+        {
+          "term": "CSMA/CD",
+          "reading": "しーえすえむえーしーでぃー",
+          "english": "Carrier Sense Multiple Access with Collision Detection",
+          "vi": "Đa truy nhập cảm nhận sóng mang có phát hiện va chạm",
+          "definitionJa": "複数の端末が同じ通信路を共有する場合に、送信前に通信路が空いているかを確認し、衝突が発生した場合は一定時間待って再送するメディアアクセス制御方式。",
+          "definitionVi": "Phương thức điều khiển truy cập môi trường trong đó thiết bị kiểm tra đường truyền trước khi gửi; nếu xảy ra va chạm thì chờ một khoảng thời gian rồi truyền lại."
+        }
+      ],
+      "tags": ["network", "contention", "polling", "selecting", "csma-cd"]
+    },
+    {
+      "id": "data-link-procedures",
+      "order": 9,
+      "titleJa": "データリンク手順",
+      "titleVi": "Thủ tục liên kết dữ liệu",
+      "importance": "high",
+      "summaryJa": "HDLC、マルチリンク手順など、信頼性の高いデータ伝送を実現するためのデータリンク手順を理解する。",
+      "summaryVi": "Hiểu các thủ tục liên kết dữ liệu như HDLC và multilink procedure dùng để tăng độ tin cậy và hiệu quả truyền dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データリンク手順では、送受信データを一定の単位にまとめ、エラー検出、再送、複数回線の利用などによって信頼性の高い通信を実現する。",
+          "vi": "Các thủ tục liên kết dữ liệu tổ chức dữ liệu thành các đơn vị truyền, thực hiện phát hiện lỗi, truyền lại và sử dụng nhiều đường truyền nhằm đảm bảo truyền thông đáng tin cậy."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HDLC",
+          "reading": "えいちでぃーえるしー",
+          "english": "High-Level Data Link Control",
+          "vi": "Điều khiển liên kết dữ liệu cấp cao",
+          "definitionJa": "データ通信で信頼性を確保するためのデータリンク制御プロトコル。データをフレーム単位に分割し、制御情報を付加してエラー検出や再送制御を行う。",
+          "definitionVi": "Giao thức điều khiển liên kết dữ liệu nhằm đảm bảo độ tin cậy. Dữ liệu được chia thành frame và gắn thông tin điều khiển để phát hiện lỗi và thực hiện truyền lại."
+        },
+        {
+          "term": "マルチリンク手順",
+          "reading": "まるちりんくてじゅん",
+          "english": "Multi-Link Procedure",
+          "vi": "Thủ tục đa liên kết",
+          "definitionJa": "複数の通信リンクを同時に利用してデータを効率的に伝送するための手順。通信速度や安定性の向上を目的とする。",
+          "definitionVi": "Thủ tục sử dụng đồng thời nhiều liên kết truyền thông để truyền dữ liệu hiệu quả hơn, giúp tăng tốc độ và độ ổn định."
+        }
+      ],
+      "tags": ["network", "hdlc", "data-link", "multilink"]
+    },
+    {
+      "id": "connection-methods",
+      "order": 10,
+      "titleJa": "接続方式",
+      "titleVi": "Phương thức kết nối",
+      "importance": "high",
+      "summaryJa": "交換方式、コネクション方式、コネクションレス方式など、データ通信における接続方式の違いを理解する。",
+      "summaryVi": "Hiểu sự khác nhau giữa exchange method, connection-oriented và connectionless trong truyền dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "通信方式は、事前に通信経路や接続を確立するかどうかによって性質が異なる。接続を確立してから通信する方式と、接続を確立せずにデータを送る方式がある。",
+          "vi": "Các phương thức truyền thông khác nhau tùy vào việc có thiết lập kết nối trước hay không. Có phương thức thiết lập kết nối rồi mới truyền và phương thức gửi dữ liệu mà không cần thiết lập kết nối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "交換方式",
+          "reading": "こうかんほうしき",
+          "english": "Exchange Method",
+          "vi": "Phương thức chuyển mạch",
+          "definitionJa": "データ通信において、送信者と受信者の間でデータを交換するための手順や規則を定めた方式。",
+          "definitionVi": "Phương thức quy định các thủ tục và quy tắc dùng để trao đổi dữ liệu giữa bên gửi và bên nhận."
+        },
+        {
+          "term": "コネクション方式",
+          "reading": "こねくしょんほうしき",
+          "english": "Connection Method",
+          "vi": "Phương thức có kết nối",
+          "definitionJa": "データを送信する前に通信路を確立し、その後データを送受信する方式。データの順序や信頼性を確保しやすい。",
+          "definitionVi": "Phương thức thiết lập kết nối trước khi truyền dữ liệu, nhờ đó dễ đảm bảo thứ tự và độ tin cậy của dữ liệu."
+        },
+        {
+          "term": "コネクションレス方式",
+          "reading": "こねくしょんれすほうしき",
+          "english": "Connectionless Method",
+          "vi": "Phương thức không kết nối",
+          "definitionJa": "送信者と受信者の間で事前に接続を確立せず、各データやパケットを独立して送信する方式。UDPが代表例である。",
+          "definitionVi": "Phương thức không thiết lập kết nối trước; mỗi dữ liệu hoặc packet được gửi độc lập. UDP là ví dụ tiêu biểu."
+        }
+      ],
+      "tags": [
+        "network",
+        "connection",
+        "connectionless",
+        "communication-method"
+      ]
+    },
+    {
+      "id": "error-detection",
+      "order": 11,
+      "titleJa": "誤り検出",
+      "titleVi": "Phát hiện lỗi",
+      "importance": "high",
+      "summaryJa": "パリティチェックやCRCなど、データ伝送中の誤りを検出する代表的な方式を理解する。",
+      "summaryVi": "Hiểu các phương thức phát hiện lỗi tiêu biểu trong truyền dữ liệu như parity check và CRC.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データ通信では、伝送中にノイズなどによってビットが変化することがある。そのため、受信したデータが正しいかを確認するための誤り検出技術が使用される。",
+          "vi": "Trong truyền dữ liệu, bit có thể bị thay đổi do nhiễu và các nguyên nhân khác. Vì vậy cần các kỹ thuật phát hiện lỗi để xác nhận dữ liệu nhận được có chính xác hay không."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パリティチェック",
+          "reading": "",
+          "english": "Parity Check",
+          "vi": "Kiểm tra parity",
+          "definitionJa": "送信データ中の1の数を数え、偶数または奇数になるようにパリティビットを付加して誤りを検出する方法。",
+          "definitionVi": "Phương pháp thêm parity bit để tổng số bit 1 trở thành chẵn hoặc lẻ, qua đó phát hiện lỗi trong dữ liệu truyền."
+        },
+        {
+          "term": "CRC",
+          "reading": "しーあーるしー",
+          "english": "Cyclic Redundancy Check",
+          "vi": "Kiểm tra dư thừa chu kỳ",
+          "definitionJa": "送信側でデータに所定の計算を行い、チェック用のビット列を付加し、受信側でも同様の計算を行って誤りを検出する方式。",
+          "definitionVi": "Phương thức thực hiện phép tính trên dữ liệu ở phía gửi để tạo chuỗi kiểm tra, sau đó phía nhận tính lại và so sánh nhằm phát hiện lỗi."
+        }
+      ],
+      "tags": ["network", "error-detection", "parity", "crc"]
+    },
+    {
+      "id": "synchronization-methods",
+      "order": 12,
+      "titleJa": "同期方式",
+      "titleVi": "Phương thức đồng bộ",
+      "importance": "medium",
+      "summaryJa": "SYN同期、フラグ同期、フレーム同期など、送信側と受信側がデータの区切りやタイミングを合わせる同期方式を理解する。",
+      "summaryVi": "Hiểu các phương thức đồng bộ như SYN synchronization, flag synchronization và frame synchronization giúp bên gửi và bên nhận xác định thời điểm và ranh giới dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "通信では、送信側と受信側がデータの開始位置、終了位置、処理タイミングを正しく認識する必要がある。そのため、さまざまな同期方式が使用される。",
+          "vi": "Trong truyền thông, bên gửi và bên nhận cần nhận biết chính xác vị trí bắt đầu, kết thúc và thời điểm xử lý dữ liệu. Vì vậy nhiều phương thức đồng bộ được sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SYN同期",
+          "reading": "えすわいえぬどうき",
+          "english": "SYN Synchronization",
+          "vi": "Đồng bộ SYN",
+          "definitionJa": "送信側と受信側のタイミングを合わせるために、特定のSYN信号を利用して同期を取る方式。",
+          "definitionVi": "Phương thức sử dụng tín hiệu SYN để đồng bộ thời điểm xử lý giữa bên gửi và bên nhận."
+        },
+        {
+          "term": "フラグ同期",
+          "reading": "ふらぐどうき",
+          "english": "Flag Synchronization",
+          "vi": "Đồng bộ bằng cờ",
+          "definitionJa": "特定のシンボルやビット列をデータの開始や終了を示すフラグとして使用し、データの区切りを認識する方式。",
+          "definitionVi": "Phương thức dùng một ký hiệu hoặc chuỗi bit đặc biệt làm flag để biểu thị điểm bắt đầu và kết thúc dữ liệu."
+        },
+        {
+          "term": "フレーム同期",
+          "reading": "ふれーむどうき",
+          "english": "Frame Synchronization",
+          "vi": "Đồng bộ frame",
+          "definitionJa": "データのまとまりであるフレームの開始位置と終了位置を送信側と受信側で正しく認識するための技術。",
+          "definitionVi": "Kỹ thuật giúp bên gửi và bên nhận xác định chính xác điểm bắt đầu và kết thúc của một frame."
+        }
+      ],
+      "tags": ["network", "synchronization", "syn", "frame", "flag"]
+    }
+  ]
+}

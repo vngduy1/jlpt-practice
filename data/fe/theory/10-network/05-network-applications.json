@@ -1,0 +1,527 @@
+{
+  "id": "network-applications",
+  "order": 5,
+  "titleJa": "ネットワーク応用",
+  "titleVi": "Ứng dụng mạng",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "email-protocols",
+      "order": 1,
+      "titleJa": "電子メールプロトコル",
+      "titleVi": "Giao thức thư điện tử",
+      "importance": "high",
+      "summaryJa": "SMTP、POP3、IMAP4、MIME、HTMLメール、Webメールなど、電子メールの送受信や管理に関する主要なプロトコルと技術を理解する。",
+      "summaryVi": "Hiểu các giao thức và công nghệ chính liên quan đến việc gửi, nhận và quản lý thư điện tử như SMTP, POP3, IMAP4, MIME, HTML mail và Web mail.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "電子メールは、インターネット上で最も基本的なコミュニケーション手段の一つである。本レッスンでは、メールの送信に使われるSMTP、受信に使われるPOP3やIMAP4、そしてメールに様々な形式のデータを添付するためのMIMEや、Webブラウザで利用するWebメールについて学ぶ。",
+          "vi": "Thư điện tử là một trong những phương tiện liên lạc cơ bản nhất trên Internet. Bài học này trình bày về SMTP dùng để gửi mail, POP3 và IMAP4 dùng để nhận mail, MIME dùng để đính kèm dữ liệu đa dạng, và Web mail sử dụng qua trình duyệt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SMTP",
+          "reading": "えすえむてぃーぴー",
+          "english": "Simple Mail Transfer Protocol",
+          "vi": "SMTP",
+          "definitionJa": "電子メールを送信するためのプロトコルである。メールクライアントからサーバへのメッセージの送信や、サーバ間のメール転送に使用される。一般的にはポート番号25で動作する。",
+          "definitionVi": "Là giao thức dùng để gửi thư điện tử. Được sử dụng để gửi tin nhắn từ mail client đến server và chuyển tiếp mail giữa các server. Thường hoạt động trên cổng 25."
+        },
+        {
+          "term": "POP3",
+          "reading": "ぽっぷすりー",
+          "english": "Post Office Protocol version 3",
+          "vi": "POP3",
+          "definitionJa": "電子メールを受信するためのプロトコルの一つである。メールサーバからパソコンやモバイルデバイスに電子メールをダウンロードする際に利用される。サーバにメールを残さないため、複数のデバイスから同じメールにアクセスする場合に不便なことがある。",
+          "definitionVi": "Là một trong các giao thức dùng để nhận thư điện tử. Được sử dụng khi tải thư từ mail server về máy tính hoặc thiết bị di động. Vì không để lại mail trên server nên có thể bất tiện khi truy cập cùng một mail từ nhiều thiết bị."
+        },
+        {
+          "term": "IMAP4",
+          "reading": "あいまっぷふぉー",
+          "english": "Internet Message Access Protocol Version 4",
+          "vi": "IMAP4",
+          "definitionJa": "電子メールを管理するためのプロトコルである。メールはサーバ上に保存され、ユーザーはインターネットを通じてアクセスする。複数のデバイスから同じメールボックスにアクセスでき、メールの管理が容易になる。",
+          "definitionVi": "Là giao thức dùng để quản lý thư điện tử. Mail được lưu trên server và người dùng truy cập qua Internet. Có thể truy cập cùng một hộp thư từ nhiều thiết bị, giúp việc quản lý mail dễ dàng hơn."
+        },
+        {
+          "term": "MIME",
+          "reading": "まいむ",
+          "english": "Multipurpose Internet Mail Extensions",
+          "vi": "MIME",
+          "definitionJa": "電子メールで使用される規格の一つである。単純なテキストだけでなく、画像や音声、動画などさまざまなデータタイプをメールで送信できるようにするためのものである。",
+          "definitionVi": "Là một trong các tiêu chuẩn được sử dụng trong thư điện tử. Đây là tiêu chuẩn cho phép gửi nhiều loại dữ liệu khác nhau như hình ảnh, âm thanh, video qua mail, không chỉ văn bản thuần túy."
+        },
+        {
+          "term": "HTMLメール",
+          "reading": "えいちてぃーえむえるめーる",
+          "english": "HTML Mail",
+          "vi": "HTML Mail",
+          "definitionJa": "Webページの形式でメールを送信するための技術である。通常のテキストメールと異なり、画像や色、フォントを使って視覚的に豊かなデザインが可能で、受信者に印象的な情報を提供できる。",
+          "definitionVi": "Là kỹ thuật gửi mail dưới định dạng trang web. Khác với mail văn bản thông thường, nó cho phép thiết kế phong phú về mặt thị giác bằng hình ảnh, màu sắc, font chữ, mang lại thông tin ấn tượng cho người nhận."
+        },
+        {
+          "term": "Webメール",
+          "reading": "うぇぶめーる",
+          "english": "Webmail",
+          "vi": "Web mail",
+          "definitionJa": "インターネットを通じて利用できる電子メールサービスの一つである。専用のソフトウェアをインストールすることなく、ブラウザさえあれば、どこからでもメールの送受信が可能である。",
+          "definitionVi": "Là một trong các dịch vụ thư điện tử có thể sử dụng qua Internet. Không cần cài đặt phần mềm chuyên dụng, chỉ cần trình duyệt là có thể gửi nhận mail từ bất cứ đâu."
+        }
+      ],
+      "tags": ["email", "smtp", "pop3", "imap4", "mime", "webmail"]
+    },
+    {
+      "id": "web-protocols",
+      "order": 2,
+      "titleJa": "Webプロトコル",
+      "titleVi": "Giao thức Web",
+      "importance": "high",
+      "summaryJa": "HTTP、HTTPS、CGI、cookie、URL、セッションIDなど、Web上での通信や状態管理に関する主要なプロトコルと技術を理解する。",
+      "summaryVi": "Hiểu các giao thức và công nghệ chính liên quan đến truyền thông và quản lý trạng thái trên Web như HTTP, HTTPS, CGI, cookie, URL, session ID.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "World Wide Webは、HTTPプロトコルを基盤として、ブラウザとサーバ間で情報をやり取りする。本レッスンでは、Web通信の基本であるHTTPとその安全なHTTPS、動的なWebページを実現するCGI、ユーザー状態を管理するcookieやセッションID、そしてリソースの位置を示すURLについて学ぶ。",
+          "vi": "World Wide Web trao đổi thông tin giữa trình duyệt và server dựa trên giao thức HTTP. Bài học này trình bày về HTTP và HTTPS an toàn, CGI để tạo trang web động, cookie và session ID để quản lý trạng thái người dùng, và URL để chỉ vị trí tài nguyên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HTTP",
+          "reading": "えいちてぃーてぃーぴー",
+          "english": "Hypertext Transfer Protocol",
+          "vi": "HTTP",
+          "definitionJa": "Web上でデータを送受信するための通信プロトコルの一つである。主にWebブラウザとサーバの間で情報をやり取りする際に使用される。テキスト、画像、音声などさまざまな形式のデータを扱うことができる。",
+          "definitionVi": "Là một trong các giao thức truyền thông dùng để gửi nhận dữ liệu trên Web. Chủ yếu được sử dụng khi trao đổi thông tin giữa trình duyệt web và server. Có thể xử lý nhiều định dạng dữ liệu như văn bản, hình ảnh, âm thanh."
+        },
+        {
+          "term": "HTTPS",
+          "reading": "えいちてぃーてぃーぴーえす",
+          "english": "HyperText Transfer Protocol Secure",
+          "vi": "HTTPS",
+          "definitionJa": "インターネット上で安全に情報をやり取りするためのプロトコルである。通常のHTTPにTLS（トランスポート層セキュリティ）という暗号化技術を組み合わせることで、送信されるデータを第三者から保護する役割を持つ。",
+          "definitionVi": "Là giao thức để trao đổi thông tin an toàn trên Internet. Bằng cách kết hợp HTTP thông thường với công nghệ mã hóa TLS (Transport Layer Security), nó có vai trò bảo vệ dữ liệu gửi đi khỏi bên thứ ba."
+        },
+        {
+          "term": "CGI",
+          "reading": "しーじーあい",
+          "english": "Common Gateway Interface",
+          "vi": "CGI",
+          "definitionJa": "Webサーバと外部プログラムとのインターフェースを定義する規則である。この技術を使用することで、サーバはクライアントからのリクエストを受け取り、データベースにアクセスしたり、計算を行ったりして、その結果をWebページとして返すことができる。",
+          "definitionVi": "Là quy tắc định nghĩa giao diện giữa web server và chương trình bên ngoài. Sử dụng kỹ thuật này, server có thể nhận yêu cầu từ client, truy cập cơ sở dữ liệu hoặc tính toán, và trả kết quả về dưới dạng trang web."
+        },
+        {
+          "term": "cookie",
+          "reading": "くっきー",
+          "english": "Cookie",
+          "vi": "Cookie",
+          "definitionJa": "Webサイトがユーザーのブラウザに保存する小さなデータファイルである。これにより、ユーザーの訪問履歴やログイン情報などを記録し、次回訪問時に自動的にそれらの情報を引き出すことができる。",
+          "definitionVi": "Là một tập tin dữ liệu nhỏ mà website lưu trên trình duyệt của người dùng. Nhờ đó, có thể ghi lại lịch sử truy cập, thông tin đăng nhập của người dùng và tự động lấy ra những thông tin đó trong lần truy cập tiếp theo."
+        },
+        {
+          "term": "URL",
+          "reading": "ゆーあーるえる",
+          "english": "Uniform Resource Locator",
+          "vi": "URL",
+          "definitionJa": "インターネット上で特定の情報やリソースの位置を指定するためのアドレスである。Webページやファイル等の場所を示すことで、それにアクセス可能にする役割を果たす。",
+          "definitionVi": "Là địa chỉ dùng để chỉ định vị trí của thông tin hoặc tài nguyên cụ thể trên Internet. Nó có vai trò chỉ ra vị trí của trang web hoặc tập tin để có thể truy cập vào đó."
+        },
+        {
+          "term": "セッションID",
+          "reading": "せっしょんあいでぃ",
+          "english": "Session Identifier",
+          "vi": "Session ID",
+          "definitionJa": "Webにおいてユーザーの訪問中の状態を識別するための一意の番号である。Webサイトは、個々のユーザーとのインタラクションを追跡するために、セッションIDを発行し、各リクエストにそのIDを付加する。",
+          "definitionVi": "Là số duy nhất dùng để nhận diện trạng thái trong quá trình truy cập của người dùng trên Web. Website phát hành session ID để theo dõi tương tác với từng người dùng và thêm ID đó vào mỗi yêu cầu."
+        }
+      ],
+      "tags": ["web", "http", "https", "cgi", "cookie", "url", "session"]
+    },
+    {
+      "id": "file-transfer-search",
+      "order": 3,
+      "titleJa": "ファイル転送と検索",
+      "titleVi": "Truyền tệp và tìm kiếm",
+      "importance": "high",
+      "summaryJa": "アップロード、ダウンロード、アクティブモード、パッシブモード、全文検索型検索エンジン、ロボット型検索エンジンなど、ファイル転送と検索技術を理解する。",
+      "summaryVi": "Hiểu các kỹ thuật truyền tệp và tìm kiếm như upload, download, active mode, passive mode, full-text search engine, robot search engine.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "インターネットを介したファイルの送受信や、Web上の情報を検索する技術は、現代のネットワーク利用において不可欠である。本レッスンでは、ファイル転送の基本であるアップロードとダウンロード、FTPの接続モード、そして情報を効率的に見つけ出すための検索エンジンの仕組みについて学ぶ。",
+          "vi": "Kỹ thuật gửi nhận tập tin qua Internet và tìm kiếm thông tin trên Web là không thể thiếu trong việc sử dụng mạng hiện đại. Bài học này trình bày về upload và download cơ bản, các chế độ kết nối FTP, và cơ chế của công cụ tìm kiếm để tìm thông tin hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アップロード",
+          "reading": "",
+          "english": "Upload",
+          "vi": "Upload",
+          "definitionJa": "ローカルのコンピュータやデバイスから、インターネット上のサーバやクラウドサービスにデータを送信する行為である。例えば、自分のパソコンに保存している写真や文書を、SNSやメールに添付して共有する際に行われる。",
+          "definitionVi": "Là hành vi gửi dữ liệu từ máy tính hoặc thiết bị cục bộ lên server hoặc dịch vụ đám mây trên Internet. Ví dụ, được thực hiện khi chia sẻ ảnh hoặc tài liệu lưu trên máy tính bằng cách đính kèm vào SNS hoặc email."
+        },
+        {
+          "term": "ダウンロード",
+          "reading": "",
+          "english": "Download",
+          "vi": "Download",
+          "definitionJa": "インターネット上のサーバから、自分のコンピュータやスマートフォンにデータを取得する行為である。例えば、音楽や動画、ソフトウェアなどのファイルをインターネットから自分のデバイスに移すことで、後でオフラインでも利用できるようにする。",
+          "definitionVi": "Là hành vi lấy dữ liệu từ server trên Internet về máy tính hoặc điện thoại thông minh của mình. Ví dụ, di chuyển các tập tin như nhạc, video, phần mềm từ Internet về thiết bị của mình để có thể sử dụng ngoại tuyến sau này."
+        },
+        {
+          "term": "アクティブモード",
+          "reading": "",
+          "english": "Active Mode",
+          "vi": "Active Mode",
+          "definitionJa": "ファイル転送プロトコル（FTP）における接続方式の一つである。このモードでは、クライアントがサーバに接続要求を送信し、その際にサーバに対して特定のポート番号を指定する。指定されたポートに対してサーバが接続を行い、データの送受信を開始する。",
+          "definitionVi": "Là một trong các phương thức kết nối trong File Transfer Protocol (FTP). Trong chế độ này, client gửi yêu cầu kết nối đến server và chỉ định một số cổng cụ thể cho server. Server thực hiện kết nối đến cổng đã chỉ định và bắt đầu gửi nhận dữ liệu."
+        },
+        {
+          "term": "パッシブモード",
+          "reading": "",
+          "english": "Passive Mode",
+          "vi": "Passive Mode",
+          "definitionJa": "ファイル転送において、データの受信側で待機状態を持つ接続方式である。特にFTP（ファイル転送プロトコル）で使用される。このモードでは、サーバがクライアントからの接続要求を待ち、クライアントがランダムなポートを使用してサーバに接続する。",
+          "definitionVi": "Là phương thức kết nối mà bên nhận dữ liệu ở trạng thái chờ trong truyền tập tin. Đặc biệt được sử dụng trong FTP (File Transfer Protocol). Trong chế độ này, server chờ yêu cầu kết nối từ client, và client sử dụng một cổng ngẫu nhiên để kết nối đến server."
+        },
+        {
+          "term": "全文検索型検索エンジン",
+          "reading": "ぜんぶんけんさくがたけんさくえんじん",
+          "english": "Full-Text Search Engine",
+          "vi": "Công cụ tìm kiếm toàn văn",
+          "definitionJa": "文書やデータベース内の全てのテキストを対象に検索を行うエンジンのことである。このエンジンは、特定のキーワードやフレーズを入力すると、その言葉が含まれる全ての文書を迅速に探し出すことができる。",
+          "definitionVi": "Là công cụ thực hiện tìm kiếm trên toàn bộ văn bản trong tài liệu hoặc cơ sở dữ liệu. Công cụ này có thể nhanh chóng tìm ra tất cả các tài liệu chứa từ khóa hoặc cụm từ cụ thể khi được nhập vào."
+        },
+        {
+          "term": "ロボット型検索エンジン",
+          "reading": "ろぼっとがたけんさくえんじん",
+          "english": "Robot Search Engine",
+          "vi": "Công cụ tìm kiếm robot",
+          "definitionJa": "インターネット上の情報を自動的に収集し、整理して検索結果を提供するシステムである。この検索エンジンは、プログラム（ロボット）を用いてWebサイトを巡回し、ページの内容を解析する。",
+          "definitionVi": "Là hệ thống tự động thu thập, sắp xếp thông tin trên Internet và cung cấp kết quả tìm kiếm. Công cụ tìm kiếm này sử dụng chương trình (robot) để duyệt các website và phân tích nội dung trang."
+        }
+      ],
+      "tags": ["file-transfer", "ftp", "search-engine"]
+    },
+    {
+      "id": "network-services",
+      "order": 4,
+      "titleJa": "ネットワークサービス",
+      "titleVi": "Dịch vụ mạng",
+      "importance": "high",
+      "summaryJa": "VPN、相手固定接続、EC、EDI、専用線サービス、回線交換サービス、パケット交換サービス、IP電話、FTTH、衛星通信サービス、国際通信サービス、広域Ethernetなど、さまざまなネットワークサービスを理解する。",
+      "summaryVi": "Hiểu các dịch vụ mạng đa dạng như VPN, kết nối cố định đối tác, EC, EDI, dịch vụ thuê kênh riêng, dịch vụ chuyển mạch kênh, chuyển mạch gói, điện thoại IP, FTTH, dịch vụ vệ tinh, dịch vụ viễn thông quốc tế, Wide Area Ethernet.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "インターネットや通信技術の発展により、企業や個人向けに多様なネットワークサービスが提供されている。本レッスンでは、安全な通信を実現するVPNや専用線、電子商取引のECやEDI、音声通話をIP網で行うIP電話、そして光ファイバーや衛星を利用したブロードバンドサービスなど、現代の通信インフラを支える技術について学ぶ。",
+          "vi": "Sự phát triển của Internet và công nghệ truyền thông đã cung cấp nhiều dịch vụ mạng đa dạng cho doanh nghiệp và cá nhân. Bài học này trình bày về VPN và kênh thuê riêng để truyền thông an toàn, EC và EDI trong thương mại điện tử, điện thoại IP sử dụng mạng IP, và các dịch vụ băng rộng sử dụng cáp quang hoặc vệ tinh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VPN",
+          "reading": "ぶいぴーえぬ",
+          "english": "Virtual Private Network",
+          "vi": "VPN",
+          "definitionJa": "インターネットを使用して安全にデータを伝送するための技術である。外部からアクセスする際に、プライベートなネットワークを仮想的に構築し、データを暗号化して送信することにより、情報の漏洩を防ぐ役割を果たす。",
+          "definitionVi": "Là kỹ thuật truyền dữ liệu an toàn bằng cách sử dụng Internet. Khi truy cập từ bên ngoài, nó xây dựng một mạng riêng ảo và mã hóa dữ liệu gửi đi, có vai trò ngăn chặn rò rỉ thông tin."
+        },
+        {
+          "term": "相手固定接続",
+          "reading": "あいてこていせつぞく",
+          "english": "Peer-to-Peer Connection",
+          "vi": "Kết nối cố định đối tác",
+          "definitionJa": "通信ネットワークにおける一種の接続方式であり、特にイントラネット内で用いられることが多い。それは、特定の端末同士が常に同じ接続を維持し、双方向のデータ交換が行える状態を意味する。",
+          "definitionVi": "Là một phương thức kết nối trong mạng truyền thông, đặc biệt thường được sử dụng trong intranet. Nó có nghĩa là các thiết bị đầu cuối cụ thể luôn duy trì cùng một kết nối và có thể trao đổi dữ liệu hai chiều."
+        },
+        {
+          "term": "EC",
+          "reading": "いーしー",
+          "english": "Electronic Commerce",
+          "vi": "EC",
+          "definitionJa": "インターネットを通じて商品やサービスの売買を行う仕組みである。電子商取引は、顧客がオンラインで商品を購入したり、企業がサービスを提供したりする際の取引を含む。",
+          "definitionVi": "Là cơ chế mua bán hàng hóa và dịch vụ qua Internet. Thương mại điện tử bao gồm các giao dịch khi khách hàng mua hàng trực tuyến hoặc doanh nghiệp cung cấp dịch vụ."
+        },
+        {
+          "term": "EDI",
+          "reading": "いーでぃーあい",
+          "english": "Electronic Data Interchange",
+          "vi": "EDI",
+          "definitionJa": "電子データ交換のことを指し、企業間での商取引において、注文書や請求書などのビジネス文書を電子的にやり取りする仕組みである。従来の紙の文書に代わり、EDIを利用することで、処理時間の短縮や人的ミスの削減が図られる。",
+          "definitionVi": "Chỉ việc trao đổi dữ liệu điện tử, là cơ chế trao đổi các chứng từ kinh doanh như đơn đặt hàng, hóa đơn giữa các doanh nghiệp bằng điện tử. Thay vì dùng giấy tờ truyền thống, sử dụng EDI giúp rút ngắn thời gian xử lý và giảm lỗi do con người."
+        },
+        {
+          "term": "専用線サービス",
+          "reading": "せんようせんさーびす",
+          "english": "Leased Line Service",
+          "vi": "Dịch vụ thuê kênh riêng",
+          "definitionJa": "特定の顧客のために提供される通信回線である。このサービスでは、他のユーザーと共有せずに、常に一定の帯域幅を利用できるため、高速かつ安定した通信が保証される。",
+          "definitionVi": "Là đường truyền thông được cung cấp riêng cho một khách hàng cụ thể. Trong dịch vụ này, băng thông luôn được sử dụng ổn định mà không chia sẻ với người dùng khác, do đó đảm bảo truyền thông tốc độ cao và ổn định."
+        },
+        {
+          "term": "回線交換サービス",
+          "reading": "かいせんこうかんさーびす",
+          "english": "Circuit Switched Service",
+          "vi": "Dịch vụ chuyển mạch kênh",
+          "definitionJa": "通信を行うために専用の回線を確保する方式である。通信を開始すると、送信者と受信者の間に一時的な専用回線が設けられ、その回線を通じてデータが送信される仕組みを持つ。",
+          "definitionVi": "Là phương thức đảm bảo một đường truyền riêng để thực hiện truyền thông. Khi bắt đầu truyền thông, một đường truyền riêng tạm thời được thiết lập giữa người gửi và người nhận, và dữ liệu được truyền qua đường truyền đó."
+        },
+        {
+          "term": "パケット交換サービス",
+          "reading": "ぱけっとこうかんさーびす",
+          "english": "Packet Switching Service",
+          "vi": "Dịch vụ chuyển mạch gói",
+          "definitionJa": "データを小さな単位（パケット）に分割して送信する通信方式である。この方式は、ネットワーク内の複数のユーザーが同時にデータを送受信できることが特徴で、効率的な通信を実現する。",
+          "definitionVi": "Là phương thức truyền thông chia dữ liệu thành các đơn vị nhỏ (gói) để gửi đi. Phương thức này có đặc điểm là nhiều người dùng trong mạng có thể gửi nhận dữ liệu đồng thời, thực hiện truyền thông hiệu quả."
+        },
+        {
+          "term": "IP電話",
+          "reading": "あいぴーでんわ",
+          "english": "Internet Protocol Telephone",
+          "vi": "Điện thoại IP",
+          "definitionJa": "インターネットを利用して音声通話を行う通信サービスである。従来の電話回線ではなく、データ通信を通じて音声をデジタル信号に変換し、相手に送信する仕組みを持つ。",
+          "definitionVi": "Là dịch vụ truyền thông thực hiện thoại bằng cách sử dụng Internet. Không dùng đường dây điện thoại truyền thống mà chuyển đổi âm thanh thành tín hiệu số và gửi đến đối phương thông qua truyền thông dữ liệu."
+        },
+        {
+          "term": "FTTH",
+          "reading": "えふてぃーてぃーえいち",
+          "english": "Fiber to the Home",
+          "vi": "FTTH",
+          "definitionJa": "光ファイバーを使ってインターネット接続を家庭まで直接行う通信サービスである。この方式は、光ファイバーケーブルを利用するため、高速で安定したインターネット接続が可能となる。",
+          "definitionVi": "Là dịch vụ truyền thông kết nối Internet trực tiếp đến hộ gia đình bằng cáp quang. Phương thức này sử dụng cáp quang nên có thể kết nối Internet tốc độ cao và ổn định."
+        },
+        {
+          "term": "衛星通信サービス",
+          "reading": "えいせいつうしんさーびす",
+          "english": "Satellite Communication Service",
+          "vi": "Dịch vụ truyền thông vệ tinh",
+          "definitionJa": "人工衛星を利用して音声やデータ、映像を地上と送受信する通信技術である。このサービスは、地球上の特定の場所に関係なく広範囲に通信を提供することができるため、特に遠隔地や山間部、海上など通信インフラが整っていない地域で重宝される。",
+          "definitionVi": "Là kỹ thuật truyền thông sử dụng vệ tinh nhân tạo để gửi nhận âm thanh, dữ liệu, hình ảnh giữa mặt đất và vệ tinh. Dịch vụ này có thể cung cấp truyền thông trên phạm vi rộng bất kể vị trí cụ thể trên trái đất, nên đặc biệt hữu ích ở vùng sâu vùng xa, miền núi, trên biển nơi hạ tầng truyền thông chưa hoàn thiện."
+        },
+        {
+          "term": "国際通信サービス",
+          "reading": "こくさいつうしんさーびす",
+          "english": "International Telecommunications Service",
+          "vi": "Dịch vụ viễn thông quốc tế",
+          "definitionJa": "異なる国や地域間での通信を可能にするサービスである。このサービスは、電話やインターネットを介して行われ、地理的な制約を超えて人々が連絡を取り合う手段を提供する。",
+          "definitionVi": "Là dịch vụ cho phép truyền thông giữa các quốc gia và khu vực khác nhau. Dịch vụ này được thực hiện qua điện thoại hoặc Internet, cung cấp phương tiện để mọi người liên lạc vượt qua giới hạn địa lý."
+        },
+        {
+          "term": "広域Ethernet",
+          "reading": "こういきーさねっと",
+          "english": "Wide Area Ethernet",
+          "vi": "Wide Area Ethernet",
+          "definitionJa": "広い地理的範囲にわたって複数の拠点を接続するための通信技術である。従来のイーサネットを拡張したもので、高速なデータ転送を可能にする。",
+          "definitionVi": "Là kỹ thuật truyền thông để kết nối nhiều điểm trên phạm vi địa lý rộng. Đây là phiên bản mở rộng của Ethernet truyền thống, cho phép truyền dữ liệu tốc độ cao."
+        }
+      ],
+      "tags": [
+        "network-service",
+        "vpn",
+        "ec",
+        "edi",
+        "ip-telephone",
+        "ftth",
+        "satellite"
+      ]
+    },
+    {
+      "id": "mobile-communication",
+      "order": 5,
+      "titleJa": "移動体通信",
+      "titleVi": "Truyền thông di động",
+      "importance": "high",
+      "summaryJa": "IP-VPN、移動体通信事業者、仮想移動体通信事業者、LTE、VoLTE、5G、ローカル5G、キャリアアグリゲーション、SIMカード、eSIM、携帯端末、テザリング、テレマティクス、ハンドオーバー、ローミング、MIMOなど、移動体通信に関する技術とサービスを理解する。",
+      "summaryVi": "Hiểu các công nghệ và dịch vụ liên quan đến truyền thông di động như IP-VPN, nhà mạng di động, MVNO, LTE, VoLTE, 5G, Local 5G, Carrier Aggregation, SIM card, eSIM, thiết bị di động, tethering, telematics, handover, roaming, MIMO.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "スマートフォンやタブレットの普及により、移動体通信は私たちの生活に欠かせないものとなっている。本レッスンでは、企業向けのIP-VPN、携帯電話網を提供する移動体通信事業者と仮想移動体通信事業者、高速通信を実現するLTEや5G、そしてSIMカードやeSIM、さらにテザリングやテレマティクス、ハンドオーバー、ローミング、MIMOなどの技術について学ぶ。",
+          "vi": "Sự phổ biến của smartphone và tablet đã khiến truyền thông di động trở thành phần không thể thiếu trong cuộc sống. Bài học này trình bày về IP-VPN cho doanh nghiệp, nhà mạng di động và MVNO cung cấp mạng điện thoại, LTE và 5G thực hiện truyền thông tốc độ cao, cùng các công nghệ như SIM card, eSIM, tethering, telematics, handover, roaming, MIMO."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IP-VPN",
+          "reading": "あいぴーぶいぴーえぬ",
+          "english": "IP Virtual Private Network",
+          "vi": "IP-VPN",
+          "definitionJa": "インターネットを利用して仮想的にプライベートネットワークを構築する通信サービスである。これにより、異なる拠点を持つ企業が、安全にデータをやり取りできる環境を整えることが可能となる。",
+          "definitionVi": "Là dịch vụ truyền thông xây dựng mạng riêng ảo bằng cách sử dụng Internet. Nhờ đó, doanh nghiệp có nhiều chi nhánh khác nhau có thể thiết lập môi trường trao đổi dữ liệu an toàn."
+        },
+        {
+          "term": "移動体通信事業者",
+          "reading": "いどうたいつうしんじぎょうしゃ",
+          "english": "Mobile Network Operator",
+          "vi": "Nhà mạng di động",
+          "definitionJa": "無線通信を用いてモバイルデータや音声通話サービスを提供する企業のことを指す。これらの事業者は、携帯電話やスマートフォンなどの端末を通じて、ユーザーにインターネット接続や通話機能を提供する。",
+          "definitionVi": "Chỉ doanh nghiệp cung cấp dịch vụ dữ liệu di động và thoại bằng truyền thông không dây. Các nhà mạng này cung cấp cho người dùng kết nối Internet và chức năng gọi điện thông qua thiết bị như điện thoại di động hoặc smartphone."
+        },
+        {
+          "term": "仮想移動体通信事業者",
+          "reading": "かそういどうたいつうしんじぎょう",
+          "english": "Mobile Virtual Network Operator",
+          "vi": "Nhà mạng di động ảo",
+          "definitionJa": "通信インフラを持たないが、他の通信事業者から回線を借りてモバイル通信サービスを提供する事業者である。MVNOは、自らのブランドで料金プランやサービスを展開し、消費者に多様な選択肢を提供する。",
+          "definitionVi": "Là doanh nghiệp không sở hữu hạ tầng truyền thông nhưng thuê đường truyền từ nhà mạng khác để cung cấp dịch vụ di động. MVNO triển khai gói cước và dịch vụ dưới thương hiệu riêng, mang đến nhiều lựa chọn cho người tiêu dùng."
+        },
+        {
+          "term": "LTE",
+          "reading": "えるてぃーいー",
+          "english": "Long Term Evolution",
+          "vi": "LTE",
+          "definitionJa": "次世代のモバイル通信技術の一つであり、高速なデータ通信を実現するための規格である。これにより、スマートフォンやタブレットでのインターネット接続速度が大幅に向上し、動画のストリーミングやオンラインゲーム、SNSの利用が快適に行えるようになる。",
+          "definitionVi": "Là một trong các công nghệ truyền thông di động thế hệ tiếp theo, là tiêu chuẩn để thực hiện truyền thông dữ liệu tốc độ cao. Nhờ đó, tốc độ kết nối Internet trên smartphone và tablet được cải thiện đáng kể, giúp streaming video, chơi game online và sử dụng SNS trở nên thoải mái."
+        },
+        {
+          "term": "VoLTE",
+          "reading": "ぼるて",
+          "english": "Voice over LTE",
+          "vi": "VoLTE",
+          "definitionJa": "LTE（Long Term Evolution）ネットワークを利用して音声通話を行う技術である。従来の2Gや3Gといった音声通信網と異なり、VoLTEはデータ通信のためのネットワークを使用するため、より高音質な通話が可能になる。",
+          "definitionVi": "Là kỹ thuật thực hiện thoại sử dụng mạng LTE (Long Term Evolution). Khác với mạng thoại 2G hay 3G truyền thống, VoLTE sử dụng mạng dành cho truyền dữ liệu nên có thể thực hiện cuộc gọi chất lượng âm thanh cao hơn."
+        },
+        {
+          "term": "5G",
+          "reading": "ふぁいぶじー",
+          "english": "Fifth Generation Mobile Communication System",
+          "vi": "5G",
+          "definitionJa": "モバイル通信の第5世代であり、これまでの通信技術に比べて高速で低遅延なデータ通信を実現するものである。5Gの特徴は、1秒間に何千ものデバイスを同時に接続できる能力や、リアルタイムでの通信が可能なことにある。",
+          "definitionVi": "Là thế hệ thứ 5 của truyền thông di động, thực hiện truyền thông dữ liệu tốc độ cao và độ trễ thấp so với các công nghệ trước đó. Đặc điểm của 5G là khả năng kết nối đồng thời hàng nghìn thiết bị mỗi giây và truyền thông theo thời gian thực."
+        },
+        {
+          "term": "ローカル5G",
+          "reading": "ろーかるふぁいぶじー",
+          "english": "Local 5G",
+          "vi": "Local 5G",
+          "definitionJa": "特定の地域や施設内において、高速で低遅延な通信を提供するための5Gネットワークである。一般的な5Gとは異なり、限られたエリアに特化して構築されるため、企業や工場、大学などでの利用が想定されている。",
+          "definitionVi": "Là mạng 5G cung cấp truyền thông tốc độ cao, độ trễ thấp trong khu vực hoặc cơ sở cụ thể. Khác với 5G thông thường, nó được xây dựng chuyên biệt cho một khu vực giới hạn, dự kiến sử dụng tại doanh nghiệp, nhà máy, trường đại học."
+        },
+        {
+          "term": "キャリアアグリゲーション",
+          "reading": "",
+          "english": "Carrier Aggregation",
+          "vi": "Carrier Aggregation",
+          "definitionJa": "モバイル通信において複数の周波数帯を束ねて、より高速なデータ通信を実現する技術である。これにより、通信速度が向上し、ユーザーはストリーミングやダウンロードなど、より快適にインターネットを利用できるようになる。",
+          "definitionVi": "Là kỹ thuật kết hợp nhiều băng tần trong truyền thông di động để thực hiện truyền thông dữ liệu tốc độ cao hơn. Nhờ đó, tốc độ truyền thông được cải thiện, người dùng có thể sử dụng Internet thoải mái hơn như streaming và download."
+        },
+        {
+          "term": "SIMカード",
+          "reading": "しむかーど",
+          "english": "Subscriber Identity Module Card",
+          "vi": "SIM card",
+          "definitionJa": "携帯電話やスマートフォンに挿入される小型のカードで、利用者の情報を保存する役割を持つものである。このカードには、電話番号や契約者の情報、メッセージサービスを受信するためのデータなどが含まれており、これによってモバイル通信が可能となる。",
+          "definitionVi": "Là thẻ nhỏ được cắm vào điện thoại di động hoặc smartphone, có vai trò lưu trữ thông tin người dùng. Thẻ này chứa số điện thoại, thông tin người ký hợp đồng, dữ liệu để nhận dịch vụ tin nhắn, nhờ đó truyền thông di động trở nên khả thi."
+        },
+        {
+          "term": "eSIM",
+          "reading": "いーしむ",
+          "english": "Embedded SIM",
+          "vi": "eSIM",
+          "definitionJa": "デバイスに組み込まれた形態のSIMカードを指す技術である。従来のSIMカードとは異なり、物理的に取り外したり挿入したりする必要がなく、デバイス内部に直接組み込まれているため、容量やサイズの制約が少ない。",
+          "definitionVi": "Là kỹ thuật chỉ SIM card được tích hợp sẵn vào thiết bị. Khác với SIM card truyền thống, không cần tháo lắp vật lý mà được gắn trực tiếp vào bên trong thiết bị, nên ít bị hạn chế về dung lượng và kích thước."
+        },
+        {
+          "term": "携帯端末",
+          "reading": "けいたいたんまつ",
+          "english": "Mobile Devices",
+          "vi": "Thiết bị di động",
+          "definitionJa": "持ち運びができるコンパクトな電子機器の総称である。これには携帯電話、スマートフォン、タブレット端末などが含まれ、通信や情報の取得、さまざまなアプリケーションの利用に適している。",
+          "definitionVi": "Là tên gọi chung cho các thiết bị điện tử nhỏ gọn có thể mang theo. Bao gồm điện thoại di động, smartphone, máy tính bảng, thích hợp cho việc truyền thông, thu thập thông tin và sử dụng nhiều ứng dụng khác nhau."
+        },
+        {
+          "term": "テザリング",
+          "reading": "",
+          "english": "Tethering",
+          "vi": "Tethering",
+          "definitionJa": "スマートフォンやタブレットなどの携帯デバイスが、インターネット接続を他のデバイスに共有する機能を指す。具体的には、スマートフォンをルーターのように使用して、ノートパソコンやタブレットをインターネットに接続することができる。",
+          "definitionVi": "Chỉ chức năng chia sẻ kết nối Internet từ thiết bị di động như smartphone hay tablet sang thiết bị khác. Cụ thể, có thể sử dụng smartphone như một router để kết nối laptop hoặc tablet vào Internet."
+        },
+        {
+          "term": "テレマティクス",
+          "reading": "",
+          "english": "Telematics",
+          "vi": "Telematics",
+          "definitionJa": "通信技術と情報処理技術を組み合わせたシステムである。主に車両とその周辺環境との情報をリアルタイムでやり取りするために利用され、運転データの収集や分析、位置情報サービスなどを提供する。",
+          "definitionVi": "Là hệ thống kết hợp công nghệ truyền thông và công nghệ xử lý thông tin. Chủ yếu được sử dụng để trao đổi thông tin giữa xe và môi trường xung quanh theo thời gian thực, cung cấp dịch vụ thu thập, phân tích dữ liệu vận hành và dịch vụ định vị."
+        },
+        {
+          "term": "ハンドオーバー",
+          "reading": "",
+          "english": "Handover",
+          "vi": "Handover",
+          "definitionJa": "通信ネットワークにおいて、移動中の端末が接続している基地局を切り替えるプロセスである。特にモバイル通信において、利用者が移動する際、信号の受信が弱くなることがある。それに対処するために、新しい基地局に接続を移行する。",
+          "definitionVi": "Là quá trình chuyển đổi trạm gốc mà thiết bị đầu cuối đang kết nối trong mạng truyền thông khi di chuyển. Đặc biệt trong truyền thông di động, khi người dùng di chuyển, tín hiệu nhận được có thể yếu đi. Để đối phó, kết nối được chuyển sang trạm gốc mới."
+        },
+        {
+          "term": "ローミング",
+          "reading": "",
+          "english": "Roaming",
+          "vi": "Roaming",
+          "definitionJa": "携帯電話などのモバイル端末が、自国以外の地域で通信サービスを利用するための仕組みである。具体的には、旅行や出張中に、海外の通信事業者のネットワークを借りて通話やデータ通信を行うことができる。",
+          "definitionVi": "Là cơ chế để thiết bị di động như điện thoại di động sử dụng dịch vụ truyền thông ở khu vực ngoài quốc gia của mình. Cụ thể, trong chuyến du lịch hoặc công tác, có thể thực hiện cuộc gọi và truyền dữ liệu bằng cách thuê mạng của nhà mạng nước ngoài."
+        },
+        {
+          "term": "MIMO",
+          "reading": "まいも",
+          "english": "Multiple Input Multiple Output",
+          "vi": "MIMO",
+          "definitionJa": "無線通信において複数のアンテナを同時に使用する技術である。この技術は、送信側と受信側の双方に複数のアンテナを配置することで、データの伝送速度を向上させたり、通信の安定性を高めたりすることを可能にする。",
+          "definitionVi": "Là kỹ thuật sử dụng đồng thời nhiều anten trong truyền thông không dây. Kỹ thuật này cho phép cải thiện tốc độ truyền dữ liệu và tăng độ ổn định của truyền thông bằng cách bố trí nhiều anten ở cả phía gửi và phía nhận."
+        }
+      ],
+      "tags": [
+        "mobile",
+        "lte",
+        "5g",
+        "sim",
+        "esim",
+        "mvno",
+        "tethering",
+        "telematics",
+        "handover",
+        "roaming",
+        "mimo"
+      ]
+    },
+    {
+      "id": "iot-network",
+      "order": 6,
+      "titleJa": "IoTネットワーク",
+      "titleVi": "Mạng IoT",
+      "importance": "high",
+      "summaryJa": "LPWA、IoTエリアネットワークなど、IoTデバイスを接続するためのネットワーク技術を理解する。",
+      "summaryVi": "Hiểu các công nghệ mạng dùng để kết nối thiết bị IoT như LPWA và IoT Area Network.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "IoT（モノのインターネット）の普及に伴い、さまざまなデバイスを効率的に接続するためのネットワーク技術が重要となっている。本レッスンでは、低消費電力で広範囲をカバーするLPWAや、特定のエリア内でIoTデバイスを接続するIoTエリアネットワークについて学ぶ。",
+          "vi": "Cùng với sự phổ biến của IoT (Internet of Things), công nghệ mạng để kết nối hiệu quả nhiều thiết bị khác nhau đang trở nên quan trọng. Bài học này trình bày về LPWA tiết kiệm điện năng và phủ sóng rộng, cùng IoT Area Network kết nối thiết bị IoT trong khu vực cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "LPWA",
+          "reading": "えるぴーだぶりゅーえー",
+          "english": "Low Power Wide Area",
+          "vi": "LPWA",
+          "definitionJa": "低消費電力で広範囲な通信が可能な無線技術である。主にIoT（モノのインターネット）デバイスの接続に利用され、少ないエネルギーで長距離通信を実現することが特徴である。",
+          "definitionVi": "Là kỹ thuật không dây có thể truyền thông trên phạm vi rộng với mức tiêu thụ điện năng thấp. Chủ yếu được sử dụng để kết nối thiết bị IoT (Internet of Things), có đặc điểm là thực hiện truyền thông đường dài với ít năng lượng."
+        },
+        {
+          "term": "IoTエリアネットワーク",
+          "reading": "あいおーてぃーえりあねっとわーく",
+          "english": "IoT Area Network",
+          "vi": "Mạng vùng IoT",
+          "definitionJa": "インターネット接続された様々なデバイスが通信するためのネットワークの一形態である。特に、IoT（モノのインターネット）デバイス同士が、お互いにデータをやり取りするために設計されている。",
+          "definitionVi": "Là một dạng mạng để các thiết bị khác nhau được kết nối Internet truyền thông với nhau. Đặc biệt, nó được thiết kế để các thiết bị IoT (Internet of Things) trao đổi dữ liệu với nhau."
+        }
+      ],
+      "tags": ["iot", "lpwa", "network"]
+    }
+  ]
+}
