@@ -1,0 +1,234 @@
+{
+  "id": "transaction-processing",
+  "order": 4,
+  "titleJa": "トランザクション処理",
+  "titleVi": "Xử lý transaction",
+  "syllabus": "9.4",
+  "lessons": [
+    {
+      "id": "concurrency-control",
+      "order": 1,
+      "titleJa": "同時実行制御とロック",
+      "titleVi": "Điều khiển đồng thời và khóa",
+      "importance": "high",
+      "summaryJa": "ロック方式、セマフォ、専有・共有ロック、ロック粒度、デッドロックを理解する。",
+      "summaryVi": "Hiểu cơ chế khóa, semaphore, khóa độc quyền/chia sẻ, độ hạt khóa và deadlock.",
+      "terms": [
+        {
+          "term": "ロック方式",
+          "reading": "ろっくほうしき",
+          "english": "Locking Mechanism",
+          "vi": "phương thức khóa",
+          "definitionJa": "データベースやコンピュータシステムにおける同時実行制御の手法。リソースにロックをかけ、他の処理からの同時アクセスを制御する。",
+          "definitionVi": "Phương pháp điều khiển thực thi đồng thời bằng cách khóa tài nguyên để kiểm soát truy cập đồng thời từ các xử lý khác."
+        },
+        {
+          "term": "セマフォ方式",
+          "reading": "せまふぉほうしき",
+          "english": "Semaphore Method",
+          "vi": "phương thức semaphore",
+          "definitionJa": "複数のプロセスが共有リソースへアクセスする際、セマフォと呼ばれる変数を用いて利用状況を制御する手法。",
+          "definitionVi": "Phương pháp dùng biến semaphore để kiểm soát trạng thái sử dụng tài nguyên dùng chung khi nhiều tiến trình cùng truy cập."
+        },
+        {
+          "term": "専有ロック",
+          "reading": "せんゆうろっく",
+          "english": "Exclusive Lock",
+          "vi": "khóa độc quyền",
+          "definitionJa": "一つのトランザクションがデータへ排他的にアクセスするためのロック。他のトランザクションによる読み書きを制限する。",
+          "definitionVi": "Khóa cho phép một transaction truy cập dữ liệu theo kiểu độc quyền và hạn chế transaction khác đọc hoặc ghi dữ liệu đó."
+        },
+        {
+          "term": "共有ロック",
+          "reading": "きょうゆうろっく",
+          "english": "Shared Lock",
+          "vi": "khóa chia sẻ",
+          "definitionJa": "複数のトランザクションが同じデータを同時に読み取れるようにするロック。共有ロック中は通常、データの変更はできない。",
+          "definitionVi": "Khóa cho phép nhiều transaction đồng thời đọc cùng dữ liệu; trong khi giữ khóa chia sẻ, dữ liệu thường không thể bị thay đổi."
+        },
+        {
+          "term": "ロック粒度",
+          "reading": "ろっくりゅうど",
+          "english": "Lock Granularity",
+          "vi": "độ hạt khóa",
+          "definitionJa": "データに対してロックをかける単位の大きさ。行、ページ、テーブルなどの粒度があり、性能や同時実行性に影響する。",
+          "definitionVi": "Kích thước đơn vị được khóa, chẳng hạn hàng, trang hoặc bảng; lựa chọn độ hạt ảnh hưởng đến hiệu năng và khả năng thực thi đồng thời."
+        },
+        {
+          "term": "デッドロック",
+          "reading": "",
+          "english": "Deadlock",
+          "vi": "deadlock / khóa chết",
+          "definitionJa": "複数のプロセスが互いに相手の保持するリソースの解放を待ち続け、処理を進められなくなる状態。",
+          "definitionVi": "Trạng thái nhiều tiến trình giữ tài nguyên và chờ nhau giải phóng tài nguyên, khiến tất cả không thể tiếp tục xử lý."
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "ロック方式、セマフォ、専有・共有ロック、ロック粒度、デッドロックを理解する。",
+          "vi": "Hiểu cơ chế khóa, semaphore, khóa độc quyền/chia sẻ, độ hạt khóa và deadlock."
+        }
+      ],
+      "tags": ["database", "transaction-processing"]
+    },
+    {
+      "id": "transaction-and-recovery",
+      "order": 2,
+      "titleJa": "トランザクションと障害回復",
+      "titleVi": "Transaction và phục hồi sự cố",
+      "importance": "high",
+      "summaryJa": "2相コミットメント、ジャーナル、チェックポイント、ロールバック、ロールフォワード、ACID特性などを理解する。",
+      "summaryVi": "Hiểu two-phase commitment, journal, checkpoint, rollback, roll forward và các thuộc tính ACID.",
+      "terms": [
+        {
+          "term": "2相コミットメント",
+          "reading": "にそうこみっとめんと",
+          "english": "Two-Phase Commitment",
+          "vi": "cam kết hai pha",
+          "definitionJa": "分散システムで複数のデータベースにまたがるトランザクションの一貫性を保証する手法。準備段階とコミット段階の二段階で処理する。",
+          "definitionVi": "Phương pháp bảo đảm tính nhất quán của transaction trải trên nhiều cơ sở dữ liệu trong hệ phân tán bằng hai giai đoạn: chuẩn bị và commit."
+        },
+        {
+          "term": "ジャーナルファイル",
+          "reading": "",
+          "english": "Journal File",
+          "vi": "tệp nhật ký",
+          "definitionJa": "システムやアプリケーションが行った操作やイベント、変更履歴を記録し、障害発生時の回復などに利用するファイル。",
+          "definitionVi": "Tệp ghi lại thao tác, sự kiện và lịch sử thay đổi của hệ thống, được dùng để hỗ trợ phục hồi khi xảy ra sự cố."
+        },
+        {
+          "term": "チェックポイント",
+          "reading": "",
+          "english": "Checkpoint",
+          "vi": "điểm kiểm tra",
+          "definitionJa": "システムやアプリケーションの状態を特定の時点で記録し、障害発生時にその状態を基準として復旧できるようにする仕組み。",
+          "definitionVi": "Cơ chế lưu trạng thái hệ thống tại một thời điểm xác định để có thể dùng trạng thái đó làm mốc phục hồi khi xảy ra sự cố."
+        },
+        {
+          "term": "ロールバック",
+          "reading": "",
+          "english": "Rollback",
+          "vi": "rollback / quay lui",
+          "definitionJa": "エラーや障害が発生した際に、処理前の正常な状態へ戻す手法。バックワードリカバリとも呼ばれる。",
+          "definitionVi": "Phương pháp đưa hệ thống hoặc dữ liệu trở lại trạng thái bình thường trước khi xảy ra lỗi; còn gọi là backward recovery."
+        },
+        {
+          "term": "ロールフォワード",
+          "reading": "",
+          "english": "Roll Forward",
+          "vi": "roll forward / phục hồi tiến",
+          "definitionJa": "最新のバックアップを基に、その後のトランザクションログを適用して障害直前の状態へ復元する手法。フォワードリカバリとも呼ばれる。",
+          "definitionVi": "Phương pháp phục hồi từ bản sao lưu mới nhất rồi áp dụng các transaction log sau đó để đưa dữ liệu về trạng thái ngay trước sự cố."
+        },
+        {
+          "term": "ウォームスタート",
+          "reading": "",
+          "english": "Warm Start",
+          "vi": "khởi động ấm",
+          "definitionJa": "障害回復や再起動時に直前の状態を保ちながら処理を再開する方法。",
+          "definitionVi": "Phương pháp khởi động lại hoặc phục hồi trong khi vẫn giữ trạng thái trước đó để nhanh chóng tiếp tục xử lý."
+        },
+        {
+          "term": "コールドスタート",
+          "reading": "",
+          "english": "Cold Start",
+          "vi": "khởi động lạnh",
+          "definitionJa": "十分なデータや状態がない初期段階からシステムやサービスを立ち上げることに関連する問題。",
+          "definitionVi": "Vấn đề khi khởi động hệ thống hoặc dịch vụ từ trạng thái ban đầu chưa có đủ dữ liệu hay thông tin cần thiết."
+        },
+        {
+          "term": "ACID特性",
+          "reading": "あしっどとくせい",
+          "english": "ACID Properties",
+          "vi": "thuộc tính ACID",
+          "definitionJa": "トランザクション管理の基本特性。原子性、整合性、独立性、耐久性の四つから成り、データベースの信頼性を支える。",
+          "definitionVi": "Bốn thuộc tính cơ bản của quản lý transaction: Atomicity, Consistency, Isolation và Durability, giúp bảo đảm độ tin cậy của cơ sở dữ liệu."
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "2相コミットメント、ジャーナル、チェックポイント、ロールバック、ロールフォワード、ACID特性などを理解する。",
+          "vi": "Hiểu two-phase commitment, journal, checkpoint, rollback, roll forward và các thuộc tính ACID."
+        }
+      ],
+      "tags": ["database", "transaction-processing"]
+    },
+    {
+      "id": "indexes",
+      "order": 3,
+      "titleJa": "インデックス",
+      "titleVi": "Index",
+      "importance": "high",
+      "summaryJa": "インデックスの種類と特徴、検索性能との関係を理解する。",
+      "summaryVi": "Hiểu các loại index, đặc điểm của chúng và mối quan hệ với hiệu năng tìm kiếm.",
+      "terms": [
+        {
+          "term": "インデックス数",
+          "reading": "いんでっくすすう",
+          "english": "Index Count",
+          "vi": "số lượng index",
+          "definitionJa": "特定のテーブルに対して使用されるインデックスの数。増やすと検索性能の向上が期待できる一方、更新処理の負荷も増える。",
+          "definitionVi": "Số lượng index dùng cho một bảng. Nhiều index có thể tăng tốc tìm kiếm nhưng cũng làm tăng chi phí khi thêm hoặc cập nhật dữ liệu."
+        },
+        {
+          "term": "ユニークインデックス",
+          "reading": "",
+          "english": "Unique Index",
+          "vi": "index duy nhất",
+          "definitionJa": "一意の値を持つ列に設定し、値の重複を防ぐインデックス。",
+          "definitionVi": "Index đặt trên cột cần có giá trị duy nhất, dùng để ngăn dữ liệu trùng lặp."
+        },
+        {
+          "term": "クラスタ化インデックス",
+          "reading": "くらすたかいんでっくす",
+          "english": "Clustered Index",
+          "vi": "clustered index",
+          "definitionJa": "テーブルのデータを実際のストレージ上で並び替え、その並びを基に作成するインデックス。検索時の読み取りを効率化する。",
+          "definitionVi": "Index sắp xếp dữ liệu bảng trên bộ nhớ lưu trữ theo thứ tự vật lý và dùng thứ tự đó để tăng hiệu quả truy xuất."
+        },
+        {
+          "term": "B-treeインデックス",
+          "reading": "びーつりーいんでっくす",
+          "english": "B-tree Index",
+          "vi": "B-tree index",
+          "definitionJa": "平衡木であるB-treeを利用し、データを整理して高速に検索するためのインデックス。",
+          "definitionVi": "Index sử dụng cấu trúc cây cân bằng B-tree để tổ chức dữ liệu và tăng tốc tìm kiếm."
+        },
+        {
+          "term": "ビットマップインデックス",
+          "reading": "",
+          "english": "Bitmap Index",
+          "vi": "bitmap index",
+          "definitionJa": "各値に対してビット列で存在を表現し、特定の列の値を効率的に検索・フィルタリングするためのインデックス。",
+          "definitionVi": "Index biểu diễn sự tồn tại của từng giá trị bằng chuỗi bit để tìm kiếm và lọc dữ liệu hiệu quả."
+        },
+        {
+          "term": "ハッシュインデックス",
+          "reading": "",
+          "english": "Hash Index",
+          "vi": "hash index",
+          "definitionJa": "ハッシュ関数を使ってキーに対応するデータを迅速に検索するインデックス。特定値の検索に適するが、範囲検索には適さない。",
+          "definitionVi": "Index dùng hàm băm để tìm nhanh dữ liệu tương ứng với khóa; phù hợp với tìm kiếm giá trị cụ thể nhưng không phù hợp tìm kiếm theo khoảng."
+        },
+        {
+          "term": "カバリングインデックス",
+          "reading": "",
+          "english": "Covering Index",
+          "vi": "covering index",
+          "definitionJa": "特定のクエリで必要となるすべてのカラムを含み、実際のデータ行へアクセスせずに結果を返せるように設計されたインデックス。",
+          "definitionVi": "Index chứa toàn bộ các cột cần thiết cho một truy vấn, cho phép trả kết quả mà không cần truy cập trực tiếp hàng dữ liệu."
+        }
+      ],
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "インデックスの種類と特徴、検索性能との関係を理解する。",
+          "vi": "Hiểu các loại index, đặc điểm của chúng và mối quan hệ với hiệu năng tìm kiếm."
+        }
+      ],
+      "tags": ["database", "transaction-processing"]
+    }
+  ]
+}

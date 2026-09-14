@@ -1,0 +1,345 @@
+{
+  "id": "database-design",
+  "order": 2,
+  "titleJa": "データベース設計",
+  "titleVi": "Thiết kế cơ sở dữ liệu",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "database-design-basics",
+      "order": 1,
+      "titleJa": "データベース設計の基本",
+      "titleVi": "Kiến thức cơ bản về thiết kế cơ sở dữ liệu",
+      "importance": "high",
+      "summaryJa": "データ重複の排除、メタデータ、データディクショナリなど、データベースを整理・管理するための基本概念を理解する。",
+      "summaryVi": "Hiểu các khái niệm cơ bản dùng để tổ chức và quản lý cơ sở dữ liệu như loại bỏ dữ liệu trùng lặp, metadata và data dictionary.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データベース設計では、データの重複を減らし、データの意味や構造を明確にして、整合性を保ちながら効率よく管理できるようにすることが重要である。",
+          "vi": "Trong thiết kế cơ sở dữ liệu, điều quan trọng là giảm dữ liệu trùng lặp, làm rõ ý nghĩa và cấu trúc dữ liệu, đồng thời quản lý hiệu quả mà vẫn duy trì tính nhất quán."
+        },
+        {
+          "type": "point",
+          "ja": "データ重複の排除は、同じ情報を一つに統合し、無駄なストレージ使用や分析上の誤りを減らす。",
+          "vi": "Loại bỏ dữ liệu trùng lặp là hợp nhất cùng một thông tin thành một, giúp giảm lãng phí lưu trữ và sai lệch khi phân tích."
+        },
+        {
+          "type": "point",
+          "ja": "メタデータは「データについてのデータ」であり、内容、形式、構造、作成日時など、元のデータを理解するための情報を表す。",
+          "vi": "Metadata là 'dữ liệu về dữ liệu', biểu thị các thông tin giúp hiểu dữ liệu gốc như nội dung, định dạng, cấu trúc và thời điểm tạo."
+        },
+        {
+          "type": "point",
+          "ja": "データディクショナリには、テーブル定義、カラムのデータ型、制約条件など、データの構造や属性に関する情報が格納される。",
+          "vi": "Data dictionary lưu thông tin về cấu trúc và thuộc tính dữ liệu như định nghĩa bảng, kiểu dữ liệu của cột và các ràng buộc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データ重複の排除",
+          "reading": "でーたじゅうふくのはいじょ",
+          "english": "Data Deduplication",
+          "vi": "loại bỏ dữ liệu trùng lặp",
+          "definitionJa": "データベースやデータセット内で同じ情報が重複している部分を取り除くプロセス。データの整合性を保ちながら、ストレージの効率や分析精度の向上に役立つ。",
+          "definitionVi": "Quá trình loại bỏ những phần thông tin bị trùng lặp trong cơ sở dữ liệu hoặc tập dữ liệu, giúp duy trì tính nhất quán, tiết kiệm lưu trữ và nâng cao độ chính xác khi phân tích."
+        },
+        {
+          "term": "メタデータ",
+          "reading": "",
+          "english": "Metadata",
+          "vi": "siêu dữ liệu",
+          "definitionJa": "データを補足する情報。データの内容、形式、構造、作成日時、作成者など、元のデータを理解・管理するための情報を指す。",
+          "definitionVi": "Thông tin bổ sung mô tả dữ liệu, chẳng hạn nội dung, định dạng, cấu trúc, thời điểm tạo và người tạo; được dùng để hiểu và quản lý dữ liệu."
+        },
+        {
+          "term": "データディクショナリ",
+          "reading": "",
+          "english": "Data Dictionary",
+          "vi": "từ điển dữ liệu",
+          "definitionJa": "データベースにおけるデータの構造や属性に関する情報を格納する仕組み。テーブル定義、カラムのデータ型、制約条件などを管理する。",
+          "definitionVi": "Cơ chế lưu trữ thông tin về cấu trúc và thuộc tính của dữ liệu trong cơ sở dữ liệu, như định nghĩa bảng, kiểu dữ liệu của cột và các ràng buộc."
+        }
+      ],
+      "tags": ["database", "database-design", "metadata", "data-dictionary"]
+    },
+    {
+      "id": "conceptual-design",
+      "order": 2,
+      "titleJa": "概念データモデルと構成要素",
+      "titleVi": "Mô hình dữ liệu khái niệm và các thành phần",
+      "importance": "high",
+      "summaryJa": "概念データモデル、エンティティ、属性、リレーションシップ、カーディナリティを理解する。",
+      "summaryVi": "Hiểu mô hình dữ liệu khái niệm cùng các thành phần entity, attribute, relationship và cardinality.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "概念データモデルは、具体的なDBMSやデータ形式に依存せず、利用者や業務の要件に基づいて情報の構造と関係を表現する。",
+          "vi": "Mô hình dữ liệu khái niệm biểu diễn cấu trúc và quan hệ thông tin dựa trên yêu cầu người dùng và nghiệp vụ, không phụ thuộc DBMS hay định dạng dữ liệu cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "エンティティは管理対象となる独立した物や事柄であり、属性はそのエンティティの特性を表す。",
+          "vi": "Entity là đối tượng hoặc sự việc độc lập cần quản lý; attribute biểu thị đặc tính của entity đó."
+        },
+        {
+          "type": "point",
+          "ja": "リレーションシップはエンティティ間の関連を表し、カーディナリティは1対1、1対多、多対多など、その対応関係を表す。",
+          "vi": "Relationship biểu thị mối quan hệ giữa các entity; cardinality biểu thị kiểu tương ứng như 1-1, 1-nhiều hoặc nhiều-nhiều."
+        },
+        {
+          "type": "warning",
+          "ja": "「エンティティ＝管理対象」「属性＝その特徴」「リレーションシップ＝対象間の関係」「カーディナリティ＝関係の対応数」と整理する。",
+          "vi": "Nên nhớ theo cặp: entity = đối tượng quản lý; attribute = đặc tính; relationship = quan hệ giữa các đối tượng; cardinality = số lượng tương ứng trong quan hệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "概念データモデル",
+          "reading": "がいねんでーたもでる",
+          "english": "Conceptual Data Model",
+          "vi": "mô hình dữ liệu khái niệm",
+          "definitionJa": "データベース設計において、情報の構造や関係を図示するための抽象的なモデル。具体的な技術やデータ形式に依存せず、データ要素と関連性を明確にする。",
+          "definitionVi": "Mô hình trừu tượng dùng trong thiết kế cơ sở dữ liệu để biểu diễn cấu trúc và quan hệ của thông tin, không phụ thuộc công nghệ hay định dạng dữ liệu cụ thể."
+        },
+        {
+          "term": "エンティティ",
+          "reading": "",
+          "english": "Entity",
+          "vi": "thực thể",
+          "definitionJa": "データベースにおいて独立した存在として管理する対象となる物や事柄。例えば「顧客」や「商品」など。",
+          "definitionVi": "Đối tượng hoặc sự việc được quản lý như một thực thể độc lập trong cơ sở dữ liệu, ví dụ khách hàng hoặc sản phẩm."
+        },
+        {
+          "term": "属性",
+          "reading": "ぞくせい",
+          "english": "Attribute",
+          "vi": "thuộc tính",
+          "definitionJa": "エンティティを構成する特性や性質を示す要素。例えば顧客の「顧客ID」「名前」「住所」など。",
+          "definitionVi": "Yếu tố biểu thị đặc tính hoặc tính chất cấu thành entity, ví dụ ID khách hàng, tên và địa chỉ."
+        },
+        {
+          "term": "リレーションシップ",
+          "reading": "",
+          "english": "Relationship",
+          "vi": "mối quan hệ",
+          "definitionJa": "異なるテーブルやエンティティ間の関連性を示す概念。データ同士がどのように結び付いているかを表す。",
+          "definitionVi": "Khái niệm biểu thị quan hệ giữa các bảng hoặc entity khác nhau, cho biết dữ liệu liên kết với nhau như thế nào."
+        },
+        {
+          "term": "カーディナリティ",
+          "reading": "",
+          "english": "Cardinality",
+          "vi": "lực lượng / số lượng tương ứng của quan hệ",
+          "definitionJa": "テーブルやエンティティ同士の関係において、一方のレコードが他方のレコードと何件対応するかを表す概念。1対1、1対多、多対多などがある。",
+          "definitionVi": "Khái niệm biểu thị một record ở một phía có thể tương ứng với bao nhiêu record ở phía còn lại; gồm 1-1, 1-nhiều và nhiều-nhiều."
+        }
+      ],
+      "tags": [
+        "database",
+        "conceptual-model",
+        "entity",
+        "attribute",
+        "relationship",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "keys-and-logical-structure",
+      "order": 3,
+      "titleJa": "キーと論理構造",
+      "titleVi": "Khóa và cấu trúc logic",
+      "importance": "high",
+      "summaryJa": "主キー、外部キー、論理データモデル、フィールド、レコード、ファイル、NULL、一意性制約の役割を理解する。",
+      "summaryVi": "Hiểu vai trò của primary key, foreign key, mô hình dữ liệu logic, field, record, file, NULL và unique constraint.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "論理設計では、データの項目や関係を整理し、主キーや外部キーなどを用いてレコードの識別とテーブル間の関連付けを行う。",
+          "vi": "Trong thiết kế logic, các mục dữ liệu và quan hệ được tổ chức; primary key và foreign key được dùng để nhận dạng record và liên kết các bảng."
+        },
+        {
+          "type": "point",
+          "ja": "主キーは各レコードを一意に識別し、外部キーは他のテーブルの主キーを参照してテーブル間の関係を保つ。",
+          "vi": "Primary key nhận dạng duy nhất từng record; foreign key tham chiếu primary key của bảng khác để duy trì quan hệ giữa các bảng."
+        },
+        {
+          "type": "point",
+          "ja": "フィールドは表の列、レコードは表の1行に相当する。",
+          "vi": "Field tương ứng với cột của bảng, record tương ứng với một hàng."
+        },
+        {
+          "type": "point",
+          "ja": "NULLは値が存在しない、または不明である状態を表す特殊な値として扱われる。",
+          "vi": "NULL được xử lý như một giá trị đặc biệt biểu thị trạng thái không có giá trị hoặc giá trị chưa biết."
+        },
+        {
+          "type": "warning",
+          "ja": "NULLは0や空文字列とは異なる。また、通常の比較演算では特別な扱いが必要である。",
+          "vi": "NULL khác 0 và chuỗi rỗng; khi so sánh thông thường cần được xử lý đặc biệt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "主キー",
+          "reading": "しゅきー",
+          "english": "Primary Key",
+          "vi": "khóa chính",
+          "definitionJa": "データベースにおいて各レコードを一意に識別するための属性や項目。同じテーブル内で重複しない値を持つ。",
+          "definitionVi": "Thuộc tính hoặc mục dùng để nhận dạng duy nhất từng record trong cơ sở dữ liệu và không được trùng trong cùng bảng."
+        },
+        {
+          "term": "外部キー",
+          "reading": "がいぶきー",
+          "english": "Foreign Key",
+          "vi": "khóa ngoại",
+          "definitionJa": "他のテーブルの主キーを参照するためのフィールド。異なるテーブル間の関連性とデータの整合性を保つ。",
+          "definitionVi": "Field dùng để tham chiếu primary key của bảng khác, giúp duy trì quan hệ và tính nhất quán giữa các bảng."
+        },
+        {
+          "term": "論理データモデル",
+          "reading": "ろんりでーたもでる",
+          "english": "Logical Data Model",
+          "vi": "mô hình dữ liệu logic",
+          "definitionJa": "データベースの論理設計において、データの概念や構造、属性、データ同士の関係を表現したモデル。",
+          "definitionVi": "Mô hình biểu diễn khái niệm, cấu trúc, thuộc tính và quan hệ giữa dữ liệu trong thiết kế logic của cơ sở dữ liệu."
+        },
+        {
+          "term": "フィールド",
+          "reading": "",
+          "english": "Field",
+          "vi": "trường / cột",
+          "definitionJa": "データベースの表において、特定の種類のデータを格納するための項目。表の列に相当する。",
+          "definitionVi": "Mục dùng để lưu một loại dữ liệu cụ thể trong bảng cơ sở dữ liệu; tương ứng với một cột."
+        },
+        {
+          "term": "レコード",
+          "reading": "",
+          "english": "Record",
+          "vi": "bản ghi / hàng",
+          "definitionJa": "データベースにおける情報の単位で、特定のエンティティに関する属性の集まり。表の1行に相当する。",
+          "definitionVi": "Đơn vị thông tin trong cơ sở dữ liệu, là tập hợp các thuộc tính của một entity cụ thể; tương ứng với một hàng trong bảng."
+        },
+        {
+          "term": "ファイル",
+          "reading": "",
+          "english": "File",
+          "vi": "tệp",
+          "definitionJa": "コンピュータ上でデータを蓄積・管理するための基本的な単位。文書、画像、音声など様々な種類のデータを格納する。",
+          "definitionVi": "Đơn vị cơ bản để lưu trữ và quản lý dữ liệu trên máy tính, có thể chứa văn bản, hình ảnh, âm thanh và nhiều loại dữ liệu khác."
+        },
+        {
+          "term": "NULL",
+          "reading": "ぬる",
+          "english": "NULL",
+          "vi": "giá trị NULL",
+          "definitionJa": "データベースにおいて「無」や「値が存在しない」状態を表す特殊な値。通常の数値や文字列とは異なり、比較などでは特別な扱いが必要となる。",
+          "definitionVi": "Giá trị đặc biệt biểu thị trạng thái không có giá trị hoặc giá trị không tồn tại trong cơ sở dữ liệu; khác số hay chuỗi thông thường và cần xử lý đặc biệt khi so sánh."
+        },
+        {
+          "term": "一意性制約",
+          "reading": "いちいせいせいやく",
+          "english": "Unique Constraint",
+          "vi": "ràng buộc duy nhất",
+          "definitionJa": "特定の列の値が全ての行で異なることを保証し、同じ値が重複して登録されることを防ぐ制約。",
+          "definitionVi": "Ràng buộc đảm bảo giá trị của một cột không trùng giữa các hàng, ngăn cùng một giá trị được đăng ký nhiều lần."
+        }
+      ],
+      "tags": [
+        "database",
+        "primary-key",
+        "foreign-key",
+        "field",
+        "record",
+        "null",
+        "unique"
+      ]
+    },
+    {
+      "id": "normalization",
+      "order": 4,
+      "titleJa": "正規化と関数従属",
+      "titleVi": "Chuẩn hóa và phụ thuộc hàm",
+      "importance": "high",
+      "summaryJa": "第1～第3正規形と、完全関数従属・部分関数従属の意味を理解し、データの冗長性を減らす考え方を身につける。",
+      "summaryVi": "Hiểu dạng chuẩn thứ nhất đến thứ ba, phụ thuộc hàm đầy đủ và phụ thuộc hàm bộ phận, từ đó nắm cách giảm dư thừa dữ liệu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "正規化は、テーブルの構造を整理してデータの重複や冗長性を減らし、更新・削除時の不整合を防ぐための考え方である。",
+          "vi": "Chuẩn hóa là cách tổ chức lại cấu trúc bảng nhằm giảm trùng lặp và dư thừa dữ liệu, đồng thời ngăn bất nhất khi cập nhật hoặc xóa."
+        },
+        {
+          "type": "point",
+          "ja": "第1正規形では、各フィールドが単一の値を持つようにし、繰返し項目をなくす。",
+          "vi": "Ở dạng chuẩn thứ nhất, mỗi field chỉ chứa một giá trị và loại bỏ các nhóm dữ liệu lặp."
+        },
+        {
+          "type": "point",
+          "ja": "第2正規形では、第1正規形を満たした上で、非キー属性が主キーの一部だけに依存する部分関数従属をなくす。",
+          "vi": "Ở dạng chuẩn thứ hai, sau khi thỏa 1NF, loại bỏ phụ thuộc hàm bộ phận trong đó thuộc tính không khóa chỉ phụ thuộc vào một phần của khóa chính."
+        },
+        {
+          "type": "point",
+          "ja": "第3正規形では、第2正規形を満たした上で、非キー属性が他の非キー属性に依存する関係をなくし、冗長性をさらに減らす。",
+          "vi": "Ở dạng chuẩn thứ ba, sau khi thỏa 2NF, loại bỏ quan hệ trong đó thuộc tính không khóa phụ thuộc vào thuộc tính không khóa khác, qua đó giảm dư thừa hơn nữa."
+        },
+        {
+          "type": "warning",
+          "ja": "完全関数従属と部分関数従属は、第2正規形を判断する上で重要である。複合主キーの「全部」に依存するか「一部」に依存するかを確認する。",
+          "vi": "Phụ thuộc hàm đầy đủ và bộ phận rất quan trọng khi xét 2NF. Hãy kiểm tra thuộc tính phụ thuộc vào toàn bộ khóa ghép hay chỉ một phần của khóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "第1正規形",
+          "reading": "だいいちせいきけい",
+          "english": "First Normal Form",
+          "vi": "dạng chuẩn thứ nhất (1NF)",
+          "definitionJa": "正規化の最初の段階。テーブル内の各フィールドが単一の値を持つようにし、複数の値を含む繰返し項目をなくした状態。",
+          "definitionVi": "Giai đoạn đầu của chuẩn hóa, trong đó mỗi field của bảng chỉ chứa một giá trị và không chứa nhóm giá trị lặp."
+        },
+        {
+          "term": "第2正規形",
+          "reading": "だいにせいきけい",
+          "english": "Second Normal Form",
+          "vi": "dạng chuẩn thứ hai (2NF)",
+          "definitionJa": "第1正規形を満たし、全ての非キー属性が主キー全体に完全に依存し、主キーの一部だけに依存する属性がない状態。",
+          "definitionVi": "Trạng thái đã thỏa 1NF và mọi thuộc tính không khóa phụ thuộc đầy đủ vào toàn bộ khóa chính, không phụ thuộc chỉ vào một phần của khóa."
+        },
+        {
+          "term": "第3正規形",
+          "reading": "だいさんせいきけい",
+          "english": "Third Normal Form",
+          "vi": "dạng chuẩn thứ ba (3NF)",
+          "definitionJa": "データの冗長性を排除して整合性を高めるため、属性が主キーに適切に依存し、他の非キー属性への依存を排除した状態。",
+          "definitionVi": "Dạng chuẩn nhằm tiếp tục loại bỏ dư thừa và tăng tính nhất quán bằng cách loại bỏ sự phụ thuộc của thuộc tính không khóa vào thuộc tính không khóa khác."
+        },
+        {
+          "term": "完全関数従属",
+          "reading": "かんぜんかんすうじゅうぞく",
+          "english": "Full Functional Dependency",
+          "vi": "phụ thuộc hàm đầy đủ",
+          "definitionJa": "ある属性が、複合キーなどの決定項全体に依存し、その一部分だけでは決定できない関係。",
+          "definitionVi": "Quan hệ trong đó một thuộc tính phụ thuộc vào toàn bộ tập thuộc tính quyết định, chẳng hạn toàn bộ khóa ghép, và không thể được xác định chỉ bởi một phần của nó."
+        },
+        {
+          "term": "部分関数従属",
+          "reading": "ぶぶんかんすうじゅうぞく",
+          "english": "Partial Functional Dependency",
+          "vi": "phụ thuộc hàm bộ phận",
+          "definitionJa": "複合主キーを持つ場合に、非キー属性が主キー全体ではなく、その一部だけに依存している状態。",
+          "definitionVi": "Trạng thái trong bảng có khóa chính ghép mà một thuộc tính không khóa phụ thuộc chỉ vào một phần của khóa chính thay vì toàn bộ khóa."
+        }
+      ],
+      "tags": [
+        "database",
+        "normalization",
+        "1nf",
+        "2nf",
+        "3nf",
+        "functional-dependency"
+      ]
+    }
+  ]
+}

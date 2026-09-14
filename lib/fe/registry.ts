@@ -16,7 +16,6 @@ import programmingJson from "@/data/fe/theory/02-algorithm-program/03-programmin
 import programmingLanguages from "@/data/fe/theory/02-algorithm-program/04-programming-languages.json";
 import otherLanguages from "@/data/fe/theory/02-algorithm-program/05-other-languages.json";
 
-
 // 03
 import computerComponentsIndexJson from "@/data/fe/theory/03-computer-components/index.json";
 import processorJson from "@/data/fe/theory/03-computer-components/01-processor.json";
@@ -24,7 +23,6 @@ import memoryJson from "@/data/fe/theory/03-computer-components/02-memory.json";
 import busJson from "@/data/fe/theory/03-computer-components/03-bus.json";
 import inputOutputDevicesJson from "@/data/fe/theory/03-computer-components/04-input-output-devices.json";
 import inputOutputEquipmentJson from "@/data/fe/theory/03-computer-components/05-input-output-equipment.json";
-
 
 // 04
 import systemComponentsIndexJson from "@/data/fe/theory/04-system-components/index.json";
@@ -52,6 +50,14 @@ import uxUiDesignJson from "@/data/fe/theory/07-user-interface/02-ux-ui-design.j
 import informationMediaIndex from "@/data/fe/theory/08-information-media/index.json";
 import multimediaTechnology from "@/data/fe/theory/08-information-media/01-multimedia-technology.json";
 import multimediaApplications from "@/data/fe/theory/08-information-media/02-multimedia-applications.json";
+
+// 09
+import databaseIndex from "@/data/fe/theory/09-database/index.json";
+import databaseMethods from "@/data/fe/theory/09-database/01-database-methods.json";
+import databaseDesign from "@/data/fe/theory/09-database/02-database-design.json";
+import dataOperations from "@/data/fe/theory/09-database/03-data-operations.json";
+import transactionProcessing from "@/data/fe/theory/09-database/04-transaction-processing.json";
+import databaseApplications from "@/data/fe/theory/09-database/05-database-applications.json";
 
 import type {
   FeCategory,
@@ -95,7 +101,8 @@ const algorithmProgramCategory: FeCategory = {
   ],
 };
 
-const computerComponentsManifest = computerComponentsIndexJson as FeCategoryManifest;
+const computerComponentsManifest =
+  computerComponentsIndexJson as FeCategoryManifest;
 
 const computerComponentsCategory: FeCategory = {
   id: computerComponentsManifest.id,
@@ -150,14 +157,11 @@ const hardwareCategory: FeCategory = {
   order: hardwareManifest.order,
   titleJa: hardwareManifest.titleJa,
   titleVi: hardwareManifest.titleVi,
-  chapters: [
-    hardwareJson as FeChapter,
-  ],
+  chapters: [hardwareJson as FeChapter],
 };
 
 // 07
-const userInterfaceManifest =
-  userInterfaceIndexJson as FeCategoryManifest;
+const userInterfaceManifest = userInterfaceIndexJson as FeCategoryManifest;
 
 const userInterfaceCategory: FeCategory = {
   id: userInterfaceManifest.id,
@@ -171,8 +175,7 @@ const userInterfaceCategory: FeCategory = {
 };
 
 // 08
-const informationMediaManifest =
-  informationMediaIndex as FeCategoryManifest;
+const informationMediaManifest = informationMediaIndex as FeCategoryManifest;
 
 const informationMediaCategory: FeCategory = {
   id: informationMediaManifest.id,
@@ -185,6 +188,23 @@ const informationMediaCategory: FeCategory = {
   ],
 };
 
+// 09
+const databaseManifest = databaseIndex as FeCategoryManifest;
+
+const databaseCategory: FeCategory = {
+  id: databaseManifest.id,
+  order: databaseManifest.order,
+  titleJa: databaseManifest.titleJa,
+  titleVi: databaseManifest.titleVi,
+  chapters: [
+    databaseMethods as FeChapter,
+    databaseDesign as FeChapter,
+    dataOperations as FeChapter,
+    transactionProcessing as FeChapter,
+    databaseApplications as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
@@ -193,5 +213,6 @@ export const feTheoryCategories: FeCategory[] = [
   softwareCategory,
   hardwareCategory,
   userInterfaceCategory,
-  informationMediaCategory
+  informationMediaCategory,
+  databaseCategory,
 ];

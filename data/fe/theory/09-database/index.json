@@ -1,0 +1,49 @@
+{
+  "id": "database",
+  "order": 9,
+  "titleJa": "データベース",
+  "titleVi": "Cơ sở dữ liệu",
+  "count": 139,
+  "chapters": [
+    {
+      "id": "database-methods",
+      "order": 1,
+      "titleJa": "データベース方式",
+      "titleVi": "Phương thức cơ sở dữ liệu",
+      "count": 36,
+      "file": "01-database-methods.json"
+    },
+    {
+      "id": "database-design",
+      "order": 2,
+      "titleJa": "データベース設計",
+      "titleVi": "Thiết kế cơ sở dữ liệu",
+      "count": 25,
+      "file": "02-database-design.json"
+    },
+    {
+      "id": "data-operations",
+      "order": 3,
+      "titleJa": "データ操作",
+      "titleVi": "Thao tác dữ liệu",
+      "count": 30,
+      "file": "03-data-operations.json"
+    },
+    {
+      "id": "transaction-processing",
+      "order": 4,
+      "titleJa": "トランザクション処理",
+      "titleVi": "Xử lý giao dịch",
+      "count": 25,
+      "file": "04-transaction-processing.json"
+    },
+    {
+      "id": "database-applications",
+      "order": 5,
+      "titleJa": "データベース応用",
+      "titleVi": "Ứng dụng cơ sở dữ liệu",
+      "count": 23,
+      "file": "05-database-applications.json"
+    }
+  ]
+}

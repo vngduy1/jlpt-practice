@@ -1,0 +1,358 @@
+{
+  "id": "database-methods",
+  "order": 1,
+  "titleJa": "データベース方式",
+  "titleVi": "Phương thức cơ sở dữ liệu",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "database-types",
+      "order": 1,
+      "titleJa": "データベースの種類",
+      "titleVi": "Các loại cơ sở dữ liệu",
+      "importance": "high",
+      "summaryJa": "代表的なデータベース方式と、それぞれのデータの持ち方や用途の違いを理解する。",
+      "summaryVi": "Hiểu các phương thức cơ sở dữ liệu tiêu biểu và sự khác nhau về cách lưu trữ, quản lý dữ liệu cũng như mục đích sử dụng.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データベースには、表形式、オブジェクト、ドキュメント、キーとバリュー、グラフなど、データの性質や用途に応じたさまざまな管理方式がある。",
+          "vi": "Cơ sở dữ liệu có nhiều phương thức quản lý khác nhau tùy đặc tính và mục đích của dữ liệu như dạng bảng, object, document, key-value hay graph."
+        },
+        {
+          "type": "point",
+          "ja": "RDBはデータを行と列からなる表形式で管理し、関連する表を結び付けて利用する。",
+          "vi": "RDB quản lý dữ liệu dưới dạng bảng gồm hàng và cột, đồng thời liên kết các bảng có quan hệ với nhau."
+        },
+        {
+          "type": "point",
+          "ja": "列指向データベースは同じ属性のデータをまとめて保存するため、分析処理で特定の列だけを取得する場合に適している。",
+          "vi": "Cơ sở dữ liệu hướng cột lưu các dữ liệu cùng thuộc tính gần nhau nên phù hợp với xử lý phân tích chỉ cần lấy một số cột nhất định."
+        },
+        {
+          "type": "point",
+          "ja": "キーバリュー型データベースはキーとバリューのペアでデータを管理し、高速で単純なデータ取得に適している。",
+          "vi": "Cơ sở dữ liệu key-value quản lý dữ liệu bằng cặp key-value và phù hợp với việc truy xuất dữ liệu đơn giản, tốc độ cao."
+        },
+        {
+          "type": "warning",
+          "ja": "方式名だけでなく、「表」「ドキュメント」「列」「ノードと関係」「キーとバリュー」など、データをどのような形で管理するかを対応させて覚える。",
+          "vi": "Không chỉ nhớ tên phương thức; cần ghép chính xác từng loại với cách quản lý như bảng, document, cột, node và quan hệ, hoặc key-value."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RDB",
+          "reading": "あーるでぃーびー",
+          "english": "Relational Database",
+          "vi": "cơ sở dữ liệu quan hệ",
+          "definitionJa": "データを表形式で管理するリレーショナル・データベース。各データは行と列で構成されたテーブルに格納され、関連するデータを効率的に管理できる。",
+          "definitionVi": "Cơ sở dữ liệu quan hệ quản lý dữ liệu dưới dạng bảng gồm hàng và cột, giúp quản lý hiệu quả các dữ liệu có liên quan."
+        },
+        {
+          "term": "構造型データベース",
+          "reading": "こうぞうがたでーたべーす",
+          "english": "Structured Database",
+          "vi": "cơ sở dữ liệu có cấu trúc",
+          "definitionJa": "データを特定の形式や構造に従って保存するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu lưu dữ liệu theo một hình thức hoặc cấu trúc xác định."
+        },
+        {
+          "term": "HDB",
+          "reading": "えいちでぃーびー",
+          "english": "Hybrid Database",
+          "vi": "cơ sở dữ liệu hybrid",
+          "definitionJa": "異なるデータモデルを統合して管理し、リレーショナルと非リレーショナルの特性を活用するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu kết hợp các mô hình dữ liệu khác nhau, tận dụng đặc điểm của cả mô hình quan hệ và phi quan hệ."
+        },
+        {
+          "term": "NDB",
+          "reading": "えぬでぃーびー",
+          "english": "Network Database",
+          "vi": "cơ sở dữ liệu mạng",
+          "definitionJa": "データをグラフ構造で管理し、データ間の複雑な関係を柔軟に扱うデータベース。",
+          "definitionVi": "Cơ sở dữ liệu quản lý dữ liệu bằng cấu trúc mạng/đồ thị và có thể xử lý linh hoạt các quan hệ phức tạp."
+        },
+        {
+          "term": "OODB",
+          "reading": "おーおーでぃーびー",
+          "english": "Object-Oriented Database",
+          "vi": "cơ sở dữ liệu hướng đối tượng",
+          "definitionJa": "データをオブジェクトとして管理し、データとその動作を一緒に扱えるデータベース。",
+          "definitionVi": "Cơ sở dữ liệu quản lý dữ liệu dưới dạng object và có thể xử lý dữ liệu cùng hành vi của nó."
+        },
+        {
+          "term": "XMLデータベース",
+          "reading": "えっくすえむえるでーたべーす",
+          "english": "XML Database",
+          "vi": "cơ sở dữ liệu XML",
+          "definitionJa": "XML形式でデータを保存・管理し、階層構造を持つデータを扱いやすくしたデータベース。",
+          "definitionVi": "Cơ sở dữ liệu lưu và quản lý dữ liệu ở định dạng XML, phù hợp với dữ liệu có cấu trúc phân cấp."
+        },
+        {
+          "term": "分散データベース",
+          "reading": "ぶんさんでーたべーす",
+          "english": "Distributed Database",
+          "vi": "cơ sở dữ liệu phân tán",
+          "definitionJa": "データを複数のコンピュータやサーバに分散して保存するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu lưu dữ liệu phân tán trên nhiều máy tính hoặc máy chủ."
+        },
+        {
+          "term": "ドキュメント指向データベース",
+          "reading": "どきゅめんとしこうでーたべーす",
+          "english": "Document-Oriented Database",
+          "vi": "cơ sở dữ liệu hướng tài liệu",
+          "definitionJa": "データを自己完結したドキュメントとして保存し、JSONやXMLなどの形式で扱うデータベース。",
+          "definitionVi": "Cơ sở dữ liệu lưu dữ liệu thành các document độc lập, chẳng hạn dưới dạng JSON hoặc XML."
+        },
+        {
+          "term": "列指向データベース",
+          "reading": "れつしこうでーたべーす",
+          "english": "Columnar Database",
+          "vi": "cơ sở dữ liệu hướng cột",
+          "definitionJa": "データを列単位で保存・管理し、特定の列を対象とした検索や分析を効率化するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu lưu và quản lý dữ liệu theo cột, giúp tăng hiệu quả truy vấn và phân tích các cột cụ thể."
+        },
+        {
+          "term": "グラフデータベース",
+          "reading": "",
+          "english": "Graph Database",
+          "vi": "cơ sở dữ liệu đồ thị",
+          "definitionJa": "データをノードとリレーションシップで表現し、データ同士の関連性を管理するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu biểu diễn dữ liệu bằng node và relationship để quản lý mối liên hệ giữa dữ liệu."
+        },
+        {
+          "term": "キーバリュー型データベース",
+          "reading": "きーばりゅーがたでーたべーす",
+          "english": "Key-Value Database",
+          "vi": "cơ sở dữ liệu key-value",
+          "definitionJa": "データを「キー」と「バリュー」のペアで管理するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu quản lý dữ liệu bằng các cặp key và value."
+        },
+        {
+          "term": "インメモリデータベース",
+          "reading": "",
+          "english": "In-Memory Database",
+          "vi": "cơ sở dữ liệu trong bộ nhớ",
+          "definitionJa": "データを主にメモリ上に保持することで、高速なデータアクセスを実現するデータベース。",
+          "definitionVi": "Cơ sở dữ liệu chủ yếu giữ dữ liệu trong bộ nhớ để cung cấp khả năng truy cập tốc độ cao."
+        }
+      ],
+      "tags": ["database", "database-types", "rdb", "nosql"]
+    },
+    {
+      "id": "three-schema-architecture",
+      "order": 2,
+      "titleJa": "3層スキーマ構造",
+      "titleVi": "Kiến trúc schema ba tầng",
+      "importance": "high",
+      "summaryJa": "概念スキーマ、外部スキーマ、内部スキーマという三つの視点と役割を理解する。",
+      "summaryVi": "Hiểu ba góc nhìn và vai trò của conceptual schema, external schema và internal schema.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "3層スキーマ構造は、データベースを異なる視点から管理するための考え方であり、概念スキーマ、外部スキーマ、内部スキーマから成る。",
+          "vi": "Kiến trúc schema ba tầng là cách quản lý cơ sở dữ liệu từ các góc nhìn khác nhau, gồm conceptual schema, external schema và internal schema."
+        },
+        {
+          "type": "point",
+          "ja": "概念スキーマは、データベース全体の論理的な構造や関係を表す。",
+          "vi": "Conceptual schema biểu diễn cấu trúc logic và quan hệ của toàn bộ cơ sở dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "外部スキーマは、ユーザーやアプリケーションから見たデータの構造や形式を表す。",
+          "vi": "External schema biểu diễn cấu trúc và hình thức dữ liệu nhìn từ người dùng hoặc ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "内部スキーマは、データを記憶装置にどのように格納するかという物理的な構造を表す。",
+          "vi": "Internal schema biểu diễn cấu trúc vật lý, tức dữ liệu được lưu trên thiết bị lưu trữ như thế nào."
+        },
+        {
+          "type": "warning",
+          "ja": "「外部＝利用者の視点」「概念＝データベース全体の論理構造」「内部＝物理的な格納方法」の対応を区別する。",
+          "vi": "Cần phân biệt: external = góc nhìn người dùng, conceptual = cấu trúc logic toàn DB, internal = cách lưu trữ vật lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "3層スキーマ構造",
+          "reading": "さんそうすきーまこうぞう",
+          "english": "Three-Tier Schema Architecture",
+          "vi": "kiến trúc schema ba tầng",
+          "definitionJa": "データベースを複数の視点から管理するため、スキーマを三つの層に分ける考え方。",
+          "definitionVi": "Cách chia schema thành ba tầng để quản lý cơ sở dữ liệu từ nhiều góc nhìn khác nhau."
+        },
+        {
+          "term": "概念スキーマ",
+          "reading": "がいねんすきーま",
+          "english": "Conceptual Schema",
+          "vi": "schema khái niệm",
+          "definitionJa": "データベース全体の構造や関係を論理的に定義するスキーマ。",
+          "definitionVi": "Schema định nghĩa cấu trúc và quan hệ logic của toàn bộ cơ sở dữ liệu."
+        },
+        {
+          "term": "外部スキーマ",
+          "reading": "がいぶすきーま",
+          "english": "External Schema",
+          "vi": "schema ngoài",
+          "definitionJa": "特定のユーザーやアプリケーションが必要とするデータの見え方を定義するスキーマ。",
+          "definitionVi": "Schema định nghĩa cách dữ liệu được nhìn thấy theo nhu cầu của từng người dùng hoặc ứng dụng."
+        },
+        {
+          "term": "内部スキーマ",
+          "reading": "ないぶすきーま",
+          "english": "Internal Schema",
+          "vi": "schema trong",
+          "definitionJa": "データの物理的な格納方法やアクセス方法などを定義するスキーマ。",
+          "definitionVi": "Schema định nghĩa cách lưu trữ và truy cập dữ liệu ở mức vật lý."
+        }
+      ],
+      "tags": ["database", "schema", "three-schema"]
+    },
+    {
+      "id": "data-model",
+      "order": 3,
+      "titleJa": "データモデル",
+      "titleVi": "Mô hình dữ liệu",
+      "importance": "high",
+      "summaryJa": "論理データモデルと物理データモデル、および代表的なデータモデルの特徴を理解する。",
+      "summaryVi": "Hiểu mô hình dữ liệu logic, vật lý và đặc điểm của các mô hình dữ liệu tiêu biểu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データモデルは、データの構造やデータ同士の関係を表現するための方法である。データベースを構築する前の論理的な設計と、実際の格納方法を定める物理的な設計を区別する。",
+          "vi": "Mô hình dữ liệu là phương pháp biểu diễn cấu trúc và quan hệ giữa dữ liệu. Cần phân biệt thiết kế logic trước khi xây dựng DB và thiết kế vật lý quy định cách lưu thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "関係モデルではデータを表形式で表し、階層モデルでは親子関係による木構造で表す。",
+          "vi": "Mô hình quan hệ biểu diễn dữ liệu bằng bảng, còn mô hình phân cấp biểu diễn bằng cấu trúc cây cha-con."
+        },
+        {
+          "type": "point",
+          "ja": "ネットワークモデルやグラフ型のデータモデルは、複雑なデータ間の関係を表現するのに適している。",
+          "vi": "Mô hình mạng và mô hình đồ thị phù hợp để biểu diễn các quan hệ dữ liệu phức tạp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "論理データモデル",
+          "reading": "ろんりでーたもでる",
+          "english": "Logical Data Model",
+          "vi": "mô hình dữ liệu logic",
+          "definitionJa": "データの構造や関係を抽象的に表現し、必要なデータとその関連を示すモデル。",
+          "definitionVi": "Mô hình biểu diễn trừu tượng cấu trúc dữ liệu và quan hệ giữa các dữ liệu."
+        },
+        {
+          "term": "物理データモデル",
+          "reading": "ぶつりでーたもでる",
+          "english": "Physical Data Model",
+          "vi": "mô hình dữ liệu vật lý",
+          "definitionJa": "実際のDBMSに合わせて、データ型、長さ、インデックスなど具体的な格納方法を定義するモデル。",
+          "definitionVi": "Mô hình xác định cụ thể cách lưu dữ liệu phù hợp DBMS như kiểu dữ liệu, độ dài và index."
+        },
+        {
+          "term": "関係モデル",
+          "reading": "かんけいもでる",
+          "english": "Relational Model",
+          "vi": "mô hình quan hệ",
+          "definitionJa": "データを表形式で整理し、行と列でデータを表すモデル。",
+          "definitionVi": "Mô hình tổ chức dữ liệu dưới dạng bảng gồm hàng và cột."
+        },
+        {
+          "term": "階層モデル",
+          "reading": "かいそうもでる",
+          "english": "Hierarchical Model",
+          "vi": "mô hình phân cấp",
+          "definitionJa": "データを親子関係による階層構造で管理するモデル。",
+          "definitionVi": "Mô hình quản lý dữ liệu theo cấu trúc phân cấp cha-con."
+        },
+        {
+          "term": "ネットワークモデル",
+          "reading": "",
+          "english": "Network Model",
+          "vi": "mô hình mạng",
+          "definitionJa": "データをノードとして表し、ノード同士をエッジで結んで関係を表現するモデル。",
+          "definitionVi": "Mô hình biểu diễn dữ liệu bằng node và nối các node bằng edge để thể hiện quan hệ."
+        },
+        {
+          "term": "グラフ型のデータモデル",
+          "reading": "ぐらふがたのでーたもでる",
+          "english": "Graph Data Model",
+          "vi": "mô hình dữ liệu đồ thị",
+          "definitionJa": "データ同士の関係をグラフの形で表現するデータモデル。プロパティグラフやトリプルストアなどがある。",
+          "definitionVi": "Mô hình biểu diễn quan hệ dữ liệu dưới dạng graph; gồm các dạng như property graph và triple store."
+        }
+      ],
+      "tags": ["database", "data-model", "logical-model", "physical-model"]
+    },
+    {
+      "id": "relational-model-basics",
+      "order": 4,
+      "titleJa": "関係モデルの基本要素",
+      "titleVi": "Các thành phần cơ bản của mô hình quan hệ",
+      "importance": "high",
+      "summaryJa": "関係、タプル、属性、実現値という関係モデルの基本用語を理解する。",
+      "summaryVi": "Hiểu các thuật ngữ cơ bản của mô hình quan hệ: relation, tuple, attribute và actual value.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "関係モデルではデータを表形式で扱う。表全体、行、列、実際に格納される値に対応する用語を正確に区別することが重要である。",
+          "vi": "Trong mô hình quan hệ, dữ liệu được xử lý dưới dạng bảng. Cần phân biệt chính xác thuật ngữ tương ứng với toàn bộ bảng, hàng, cột và giá trị thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "関係は表、タプルは行、属性は列に対応する。",
+          "vi": "Relation tương ứng với bảng, tuple với hàng và attribute với cột."
+        },
+        {
+          "type": "point",
+          "ja": "実現値は、特定の属性について実際に観測または格納された値である。",
+          "vi": "Actual value là giá trị thực tế được quan sát hoặc lưu đối với một thuộc tính cụ thể."
+        },
+        {
+          "type": "warning",
+          "ja": "FE試験では「タプル＝行」「属性＝列」の対応を取り違えないこと。",
+          "vi": "Trong kỳ thi FE, đặc biệt không được nhầm tuple = hàng và attribute = cột."
+        }
+      ],
+      "terms": [
+        {
+          "term": "関係",
+          "reading": "かんけい",
+          "english": "Relation",
+          "vi": "quan hệ / bảng",
+          "definitionJa": "関係モデルにおいてデータの集合を表す表形式の構造。行と列から構成される。",
+          "definitionVi": "Cấu trúc dạng bảng biểu diễn tập dữ liệu trong mô hình quan hệ, gồm hàng và cột."
+        },
+        {
+          "term": "タプル",
+          "reading": "",
+          "english": "Tuple",
+          "vi": "bộ / hàng",
+          "definitionJa": "関係モデルにおいて行または組を表す基本的な単位。表の1行が一つのタプルに相当する。",
+          "definitionVi": "Đơn vị biểu thị một hàng trong mô hình quan hệ; một hàng của bảng tương ứng với một tuple."
+        },
+        {
+          "term": "属性",
+          "reading": "ぞくせい",
+          "english": "Attribute",
+          "vi": "thuộc tính / cột",
+          "definitionJa": "テーブルの各列が持つ特性や情報。列、フィールドとも呼ばれる。",
+          "definitionVi": "Thuộc tính hoặc thông tin của từng cột trong bảng; cũng tương ứng với column/field."
+        },
+        {
+          "term": "実現値",
+          "reading": "じつげんち",
+          "english": "Actual Value",
+          "vi": "giá trị thực tế",
+          "definitionJa": "特定の属性に対して実際に観測または格納された具体的な値。",
+          "definitionVi": "Giá trị cụ thể thực tế được quan sát hoặc lưu đối với một thuộc tính."
+        }
+      ],
+      "tags": ["database", "relational-model", "relation", "tuple", "attribute"]
+    }
+  ]
+}

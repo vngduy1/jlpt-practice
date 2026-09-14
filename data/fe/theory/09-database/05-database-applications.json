@@ -1,0 +1,218 @@
+{
+  "id": "database-applications",
+  "order": 5,
+  "titleJa": "データベース応用",
+  "titleVi": "Ứng dụng cơ sở dữ liệu",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "data-analysis",
+      "order": 1,
+      "titleJa": "データ分析とデータ活用",
+      "titleVi": "Phân tích và khai thác dữ liệu",
+      "importance": "high",
+      "summaryJa": "データウェアハウス、データマート、データマイニング、OLTP、ETL、ELT、データクレンジング、ビッグデータを理解する。",
+      "summaryVi": "Hiểu data warehouse, data mart, data mining, OLTP, ETL, ELT, làm sạch dữ liệu và big data.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データを収集・加工・分析し、業務や意思決定に活用するための代表的な技術を学ぶ。",
+          "vi": "Học các kỹ thuật tiêu biểu để thu thập, xử lý và phân tích dữ liệu nhằm phục vụ nghiệp vụ và ra quyết định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データウェアハウス",
+          "reading": "",
+          "english": "Data Warehouse",
+          "vi": "Kho dữ liệu",
+          "definitionJa": "企業や組織が大量のデータを蓄積し、分析するための特別なデータベース。異なるデータソースから情報をまとめ、一元管理して経営判断や分析に活用する。",
+          "definitionVi": "Cơ sở dữ liệu chuyên dùng để tích lũy và phân tích lượng lớn dữ liệu của doanh nghiệp hoặc tổ chức. Dữ liệu từ nhiều nguồn được tập hợp và quản lý tập trung để phục vụ phân tích và ra quyết định."
+        },
+        {
+          "term": "データマート",
+          "reading": "",
+          "english": "Data Mart",
+          "vi": "Kho dữ liệu chuyên biệt",
+          "definitionJa": "特定のビジネス部門やプロジェクト向けに設計された小規模なデータウェアハウス。特定のニーズに特化した情報を提供する。",
+          "definitionVi": "Kho dữ liệu quy mô nhỏ được thiết kế cho một bộ phận hoặc dự án cụ thể, cung cấp thông tin đã tối ưu cho nhu cầu chuyên biệt."
+        },
+        {
+          "term": "データマイニング",
+          "reading": "",
+          "english": "Data Mining",
+          "vi": "Khai phá dữ liệu",
+          "definitionJa": "大量のデータから有用な情報やパターンを抽出する技術。統計学や機械学習などの手法を用いて分析する。",
+          "definitionVi": "Kỹ thuật trích xuất thông tin hữu ích và các mẫu từ lượng dữ liệu lớn, thường sử dụng thống kê và máy học."
+        },
+        {
+          "term": "OLTP",
+          "reading": "おーえるてぃーぴー",
+          "english": "Online Transaction Processing",
+          "vi": "Xử lý giao dịch trực tuyến",
+          "definitionJa": "リアルタイムでデータの処理と管理を行うシステム。多数のユーザーによる迅速かつ正確なトランザクション処理を支える。",
+          "definitionVi": "Hệ thống xử lý và quản lý dữ liệu theo thời gian thực, hỗ trợ nhiều người dùng thực hiện transaction nhanh chóng và chính xác."
+        },
+        {
+          "term": "ETL",
+          "reading": "いーてぃーえる",
+          "english": "Extract Transform Load",
+          "vi": "Trích xuất - Chuyển đổi - Nạp",
+          "definitionJa": "データを抽出し、変換し、ロードするデータ移行プロセス。異なるデータソースから情報を集め、目的のデータベースなどに格納する。",
+          "definitionVi": "Quy trình di chuyển dữ liệu gồm trích xuất, chuyển đổi và nạp; thu thập dữ liệu từ nhiều nguồn rồi lưu vào cơ sở dữ liệu hoặc kho dữ liệu đích."
+        },
+        {
+          "term": "ELT",
+          "reading": "いーえるてぃー",
+          "english": "Extract/Load/Transform",
+          "vi": "Trích xuất - Nạp - Chuyển đổi",
+          "definitionJa": "データを抽出し、目的のデータベースなどにロードした後で、必要な形に変換するプロセス。",
+          "definitionVi": "Quy trình trích xuất dữ liệu, nạp vào cơ sở dữ liệu đích trước rồi mới chuyển đổi thành dạng cần thiết."
+        },
+        {
+          "term": "データクレンジング",
+          "reading": "",
+          "english": "Data Cleansing",
+          "vi": "Làm sạch dữ liệu",
+          "definitionJa": "データの誤りや不正確な情報を修正し、データの品質を向上させるプロセス。",
+          "definitionVi": "Quy trình sửa lỗi hoặc thông tin không chính xác nhằm nâng cao chất lượng và tính nhất quán của dữ liệu."
+        },
+        {
+          "term": "ビッグデータ",
+          "reading": "",
+          "english": "Big Data",
+          "vi": "Dữ liệu lớn",
+          "definitionJa": "従来のデータ処理手法では扱いきれないほど大規模なデータセット。データの量、速度、多様性などが非常に大きい。",
+          "definitionVi": "Tập dữ liệu có quy mô lớn đến mức các phương pháp xử lý truyền thống khó đáp ứng, đặc trưng bởi khối lượng, tốc độ và tính đa dạng lớn."
+        }
+      ],
+      "tags": ["database", "database-applications"]
+    },
+    {
+      "id": "distributed-database",
+      "order": 2,
+      "titleJa": "分散データベースと情報管理",
+      "titleVi": "Cơ sở dữ liệu phân tán và quản lý thông tin",
+      "importance": "high",
+      "summaryJa": "分散環境でのデータ管理、透過性、コミットメント制御、レプリケーションなどを理解する。",
+      "summaryVi": "Hiểu quản lý dữ liệu trong môi trường phân tán, tính trong suốt, commitment control và replication.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "分散環境におけるデータの一貫性、可用性、管理方法を学ぶ。",
+          "vi": "Học cách duy trì tính nhất quán, tính sẵn sàng và quản lý dữ liệu trong môi trường phân tán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文書管理システム",
+          "reading": "ぶんしょかんりしすてむ",
+          "english": "Document Management System",
+          "vi": "Hệ thống quản lý tài liệu",
+          "definitionJa": "企業や組織で作成された文書を効率的に保存、検索、共有、編集するためのシステム。",
+          "definitionVi": "Hệ thống hỗ trợ lưu trữ, tìm kiếm, chia sẻ và chỉnh sửa tài liệu của doanh nghiệp hoặc tổ chức một cách hiệu quả."
+        },
+        {
+          "term": "営業支援システム",
+          "reading": "えいぎょうしえんしすてむ",
+          "english": "Sales Support System",
+          "vi": "Hệ thống hỗ trợ bán hàng",
+          "definitionJa": "顧客情報、営業履歴、訪問スケジュールなどを一元管理し、営業活動を効率化するための情報管理システム。",
+          "definitionVi": "Hệ thống quản lý tập trung thông tin khách hàng, lịch sử bán hàng, lịch thăm khách hàng... nhằm nâng cao hiệu quả hoạt động bán hàng."
+        },
+        {
+          "term": "透過性",
+          "reading": "とうかせい",
+          "english": "Transparency",
+          "vi": "Tính trong suốt",
+          "definitionJa": "主に分散データベースで、システムの複雑さを隠し、ユーザーが背後の処理やデータの配置を意識せず利用できる特性。",
+          "definitionVi": "Đặc tính chủ yếu trong cơ sở dữ liệu phân tán, che giấu sự phức tạp của hệ thống để người dùng không cần quan tâm dữ liệu nằm ở đâu hay được xử lý thế nào."
+        },
+        {
+          "term": "コミットメント制御",
+          "reading": "こみっとめんとせいぎょ",
+          "english": "Commitment Control",
+          "vi": "Điều khiển cam kết",
+          "definitionJa": "特に分散データベースにおいて、複数のデータベースが関与するトランザクションの一貫性を保ちながら正しく処理するための仕組み。",
+          "definitionVi": "Cơ chế bảo đảm transaction được xử lý đúng và nhất quán, đặc biệt khi transaction liên quan đến nhiều cơ sở dữ liệu phân tán."
+        },
+        {
+          "term": "レプリケーション",
+          "reading": "",
+          "english": "Replication",
+          "vi": "Sao chép dữ liệu",
+          "definitionJa": "分散データベースでデータの複製を作成し、複数のデータベースノード間で同期するプロセス。",
+          "definitionVi": "Quá trình tạo bản sao dữ liệu và đồng bộ chúng giữa nhiều nút cơ sở dữ liệu, giúp tăng tính sẵn sàng và dự phòng."
+        }
+      ],
+      "tags": ["database", "distributed-database"]
+    },
+    {
+      "id": "data-resource-management",
+      "order": 3,
+      "titleJa": "データ資源管理",
+      "titleVi": "Quản lý tài nguyên dữ liệu",
+      "importance": "medium",
+      "summaryJa": "メタデータ、データディクショナリ、リポジトリ、IRDS、分散ファイルシステム、構造化データを理解する。",
+      "summaryVi": "Hiểu metadata, data dictionary, repository, IRDS, hệ thống tệp phân tán và dữ liệu có cấu trúc.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "データの意味や構造を整理し、情報資源を効率的に管理するための概念を学ぶ。",
+          "vi": "Học các khái niệm dùng để tổ chức ý nghĩa và cấu trúc dữ liệu, từ đó quản lý tài nguyên thông tin hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メタデータ",
+          "reading": "",
+          "english": "Metadata",
+          "vi": "Siêu dữ liệu",
+          "definitionJa": "データの内容、形式、作成者、作成日、利用条件など、データに関する情報を記述したデータ。",
+          "definitionVi": "Dữ liệu mô tả dữ liệu khác, chẳng hạn nội dung, định dạng, người tạo, ngày tạo và điều kiện sử dụng."
+        },
+        {
+          "term": "データディクショナリ",
+          "reading": "",
+          "english": "Data Dictionary",
+          "vi": "Từ điển dữ liệu",
+          "definitionJa": "データベース内のデータ、その意味、構造、関係性などに関する情報を管理するための辞書。",
+          "definitionVi": "Từ điển quản lý thông tin về dữ liệu trong cơ sở dữ liệu, bao gồm ý nghĩa, cấu trúc và quan hệ của dữ liệu."
+        },
+        {
+          "term": "リポジトリ",
+          "reading": "",
+          "english": "Repository",
+          "vi": "Kho lưu trữ",
+          "definitionJa": "データやファイルを整理して保存する場所。ソフトウェア開発ではソースコードやドキュメントなどの保存・管理にも用いられる。",
+          "definitionVi": "Nơi tổ chức và lưu trữ dữ liệu hoặc tệp; trong phát triển phần mềm thường dùng để quản lý mã nguồn và tài liệu."
+        },
+        {
+          "term": "IRDS",
+          "reading": "いあーるでぃーえす",
+          "english": "Information Resource Dictionary System",
+          "vi": "Hệ thống từ điển tài nguyên thông tin",
+          "definitionJa": "データ資源を体系的に管理するための情報資源辞書システム。データの定義、分類、関連性などを管理する。",
+          "definitionVi": "Hệ thống từ điển tài nguyên thông tin dùng để quản lý có hệ thống các tài nguyên dữ liệu, gồm định nghĩa, phân loại và quan hệ giữa dữ liệu."
+        },
+        {
+          "term": "分散ファイルシステム",
+          "reading": "ぶんさんふぁいるしすてむ",
+          "english": "Distributed File System",
+          "vi": "Hệ thống tệp phân tán",
+          "definitionJa": "複数のコンピュータにまたがってデータを保存、管理するシステム。ネットワーク経由で分散したファイルへアクセスできる。",
+          "definitionVi": "Hệ thống lưu trữ và quản lý dữ liệu trên nhiều máy tính, cho phép truy cập các tệp phân tán qua mạng."
+        },
+        {
+          "term": "構造化データ",
+          "reading": "こうぞうかでーた",
+          "english": "Structured Data",
+          "vi": "Dữ liệu có cấu trúc",
+          "definitionJa": "特定の形式に従って整理されたデータ。各フィールドが明確に定義され、検索や集計などを効率的に行える。",
+          "definitionVi": "Dữ liệu được tổ chức theo một định dạng xác định, với các trường được định nghĩa rõ ràng nên dễ tìm kiếm, tổng hợp và xử lý."
+        }
+      ],
+      "tags": ["database", "data-resource-management"]
+    }
+  ]
+}
