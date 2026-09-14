@@ -1,8 +1,14 @@
 import {
-  ArrowRight,
   Binary,
-  Database,
   Workflow,
+  Cpu,
+  ArrowRight,
+  CodeXml,
+  CircuitBoard,
+  PanelsTopLeft,
+  Images,
+  Database,
+  Router,
   type LucideIcon,
 } from "lucide-react";
 
@@ -12,7 +18,14 @@ import type { FeCategoryIcon, FeCategorySummary } from "@/types/fe";
 const categoryIcons: Record<FeCategoryIcon, LucideIcon> = {
   binary: Binary,
   algorithm: Workflow,
+  computer: Cpu,
+  system: CircuitBoard,
+  software: CodeXml,
+  hardware: CircuitBoard,
+  ui: PanelsTopLeft,
+  media: Images,
   database: Database,
+  network: Router,
 };
 
 interface FeCategoryCardProps {

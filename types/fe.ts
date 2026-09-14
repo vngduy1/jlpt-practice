@@ -1,6 +1,16 @@
 export type FeImportance = "high" | "medium" | "low";
 
-export type FeCategoryIcon = "binary" | "algorithm" | "database";
+export type FeCategoryIcon =
+  | "binary"
+  | "algorithm"
+  | "computer"
+  | "system"
+  | "software"
+  | "hardware"
+  | "ui"
+  | "media"
+  | "database"
+  | "network";
 
 export interface FeCategoryReference {
   id: string;
@@ -8,6 +18,7 @@ export interface FeCategoryReference {
   titleJa: string;
   titleVi: string;
   icon?: FeCategoryIcon;
+  count?: number;
   file: string;
 }
 
