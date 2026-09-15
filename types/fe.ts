@@ -11,7 +11,19 @@ export type FeCategoryIcon =
   | "media"
   | "database"
   | "network"
-  | "security";
+  | "security"
+  | "code"
+  | "git-branch"
+  | "clipboard-list"
+  | "settings"
+  | "search-check"
+  | "route"
+  | "notebook-tabs"
+  | "chart-no-axes-combined"
+  | "lightbulb"
+  | "factory"
+  | "building-2"
+  | "scale";
 
 export interface FeCategoryReference {
   id: string;

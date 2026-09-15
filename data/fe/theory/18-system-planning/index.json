@@ -1,0 +1,33 @@
+{
+  "id": "system-planning",
+  "order": 18,
+  "titleJa": "システム企画",
+  "titleVi": "Hoạch định hệ thống",
+  "count": 45,
+  "chapters": [
+    {
+      "id": "systemization-planning",
+      "order": 1,
+      "titleJa": "システム化計画",
+      "titleVi": "Kế hoạch hệ thống hóa",
+      "count": 18,
+      "file": "01-systemization-planning.json"
+    },
+    {
+      "id": "requirements-definition",
+      "order": 2,
+      "titleJa": "要件定義",
+      "titleVi": "Định nghĩa yêu cầu",
+      "count": 12,
+      "file": "02-requirements-definition.json"
+    },
+    {
+      "id": "procurement-planning-implementation",
+      "order": 3,
+      "titleJa": "調達計画・実施",
+      "titleVi": "Lập kế hoạch và thực hiện mua sắm",
+      "count": 15,
+      "file": "03-procurement-planning-implementation.json"
+    }
+  ]
+}

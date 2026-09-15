@@ -1,0 +1,25 @@
+{
+  "id": "system-audit",
+  "order": 16,
+  "titleJa": "システム監査",
+  "titleVi": "Kiểm toán hệ thống",
+  "count": 65,
+  "chapters": [
+    {
+      "id": "system-audit",
+      "order": 1,
+      "titleJa": "システム監査",
+      "titleVi": "Kiểm toán hệ thống",
+      "count": 49,
+      "file": "01-system-audit.json"
+    },
+    {
+      "id": "internal-control",
+      "order": 2,
+      "titleJa": "内部統制",
+      "titleVi": "Kiểm soát nội bộ",
+      "count": 18,
+      "file": "02-internal-control.json"
+    }
+  ]
+}

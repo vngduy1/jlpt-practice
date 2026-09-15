@@ -1,0 +1,57 @@
+{
+  "id": "system-development-technology",
+  "order": 12,
+  "titleJa": "システム開発技術",
+  "titleVi": "Công nghệ phát triển hệ thống",
+  "count": 372,
+  "chapters": [
+    {
+      "id": "system-software-requirements",
+      "order": 1,
+      "titleJa": "システム要件定義・ソフトウェア要件定義",
+      "titleVi": "Định nghĩa yêu cầu hệ thống và yêu cầu phần mềm",
+      "count": 73,
+      "file": "01-system-software-requirements.json"
+    },
+    {
+      "id": "design",
+      "order": 2,
+      "titleJa": "設計",
+      "titleVi": "Thiết kế",
+      "count": 158,
+      "file": "02-design.json"
+    },
+    {
+      "id": "implementation-build",
+      "order": 3,
+      "titleJa": "実装・構築",
+      "titleVi": "Triển khai và xây dựng",
+      "count": 58,
+      "file": "03-implementation-build.json"
+    },
+    {
+      "id": "integration-testing",
+      "order": 4,
+      "titleJa": "統合・テスト",
+      "titleVi": "Tích hợp và kiểm thử",
+      "count": 30,
+      "file": "04-integration-testing.json"
+    },
+    {
+      "id": "deployment-acceptance-support",
+      "order": 5,
+      "titleJa": "導入・受入れ支援",
+      "titleVi": "Triển khai và hỗ trợ nghiệm thu",
+      "count": 39,
+      "file": "05-deployment-acceptance-support.json"
+    },
+    {
+      "id": "maintenance-disposal",
+      "order": 6,
+      "titleJa": "保守・廃棄",
+      "titleVi": "Bảo trì và loại bỏ",
+      "count": 44,
+      "file": "06-maintenance-disposal.json"
+    }
+  ]
+}

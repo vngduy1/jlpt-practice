@@ -1,0 +1,49 @@
+{
+  "id": "legal-affairs",
+  "order": 23,
+  "titleJa": "法務",
+  "titleVi": "Pháp vụ",
+  "count": 216,
+  "chapters": [
+    {
+      "id": "intellectual-property-rights",
+      "order": 1,
+      "titleJa": "知的財産権",
+      "titleVi": "Quyền sở hữu trí tuệ",
+      "count": 31,
+      "file": "01-intellectual-property-rights.json"
+    },
+    {
+      "id": "security-related-laws",
+      "order": 2,
+      "titleJa": "セキュリティ関連法規",
+      "titleVi": "Pháp luật liên quan đến bảo mật",
+      "count": 32,
+      "file": "02-security-related-laws.json"
+    },
+    {
+      "id": "labor-transaction-laws",
+      "order": 3,
+      "titleJa": "労働関連・取引関連法規",
+      "titleVi": "Pháp luật lao động và giao dịch",
+      "count": 45,
+      "file": "03-labor-transaction-laws.json"
+    },
+    {
+      "id": "other-laws-guidelines-engineer-ethics",
+      "order": 4,
+      "titleJa": "その他の法律・ガイドライン・技術者倫理",
+      "titleVi": "Luật, hướng dẫn khác và đạo đức kỹ sư",
+      "count": 73,
+      "file": "04-other-laws-guidelines-engineer-ethics.json"
+    },
+    {
+      "id": "standardization",
+      "order": 5,
+      "titleJa": "標準化関連",
+      "titleVi": "Tiêu chuẩn hóa",
+      "count": 37,
+      "file": "05-standardization.json"
+    }
+  ]
+}

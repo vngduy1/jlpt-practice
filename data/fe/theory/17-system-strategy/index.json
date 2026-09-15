@@ -1,0 +1,41 @@
+{
+  "id": "system-strategy",
+  "order": 17,
+  "titleJa": "システム戦略",
+  "titleVi": "Chiến lược hệ thống",
+  "count": 96,
+  "chapters": [
+    {
+      "id": "information-system-strategy",
+      "order": 1,
+      "titleJa": "情報システム戦略",
+      "titleVi": "Chiến lược hệ thống thông tin",
+      "count": 50,
+      "file": "01-information-system-strategy.json"
+    },
+    {
+      "id": "business-process",
+      "order": 2,
+      "titleJa": "業務プロセス",
+      "titleVi": "Quy trình nghiệp vụ",
+      "count": 8,
+      "file": "02-business-process.json"
+    },
+    {
+      "id": "solution-business",
+      "order": 3,
+      "titleJa": "ソリューションビジネス",
+      "titleVi": "Kinh doanh giải pháp",
+      "count": 21,
+      "file": "03-solution-business.json"
+    },
+    {
+      "id": "system-utilization-promotion-evaluation",
+      "order": 4,
+      "titleJa": "システム活用促進・評価",
+      "titleVi": "Thúc đẩy sử dụng và đánh giá hệ thống",
+      "count": 18,
+      "file": "04-system-utilization-promotion-evaluation.json"
+    }
+  ]
+}

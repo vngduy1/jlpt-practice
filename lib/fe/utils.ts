@@ -21,7 +21,6 @@ export function listFeCategorySummaries(): FeCategorySummary[] {
     .sort((a, b) => a.order - b.order)
     .map((reference) => {
       const category = categoryById.get(reference.id);
-
       return {
         ...reference,
         chapterCount: category?.chapters.length ?? 0,

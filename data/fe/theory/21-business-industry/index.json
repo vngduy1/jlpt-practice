@@ -1,0 +1,49 @@
+{
+  "id": "business-industry",
+  "order": 21,
+  "titleJa": "ビジネスインダストリ",
+  "titleVi": "Công nghiệp kinh doanh",
+  "count": 179,
+  "chapters": [
+    {
+      "id": "business-systems",
+      "order": 1,
+      "titleJa": "ビジネスシステム",
+      "titleVi": "Hệ thống kinh doanh",
+      "count": 67,
+      "file": "01-business-systems.json"
+    },
+    {
+      "id": "engineering-systems",
+      "order": 2,
+      "titleJa": "エンジニアリングシステム",
+      "titleVi": "Hệ thống kỹ thuật",
+      "count": 19,
+      "file": "02-engineering-systems.json"
+    },
+    {
+      "id": "e-business",
+      "order": 3,
+      "titleJa": "e-ビジネス",
+      "titleVi": "Kinh doanh điện tử",
+      "count": 51,
+      "file": "03-e-business.json"
+    },
+    {
+      "id": "consumer-equipment",
+      "order": 4,
+      "titleJa": "民生機器",
+      "titleVi": "Thiết bị dân dụng",
+      "count": 26,
+      "file": "04-consumer-equipment.json"
+    },
+    {
+      "id": "industrial-equipment",
+      "order": 5,
+      "titleJa": "産業機器",
+      "titleVi": "Thiết bị công nghiệp",
+      "count": 17,
+      "file": "05-industrial-equipment.json"
+    }
+  ]
+}

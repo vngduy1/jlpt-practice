@@ -10,6 +10,18 @@ import {
   Database,
   Router,
   ShieldCheck,
+  Code2,
+  GitBranch,
+  ClipboardList,
+  Settings,
+  SearchCheck,
+  Route,
+  NotebookTabs,
+  ChartNoAxesCombined,
+  Lightbulb,
+  Factory,
+  Building2,
+  Scale,
   type LucideIcon,
 } from "lucide-react";
 
@@ -17,6 +29,7 @@ import { ClientNavigation } from "@/components/navigation/client-navigation";
 import type { FeCategoryIcon, FeCategorySummary } from "@/types/fe";
 
 const categoryIcons: Record<FeCategoryIcon, LucideIcon> = {
+  // 1 - 11
   binary: Binary,
   algorithm: Workflow,
   computer: Cpu,
@@ -28,6 +41,20 @@ const categoryIcons: Record<FeCategoryIcon, LucideIcon> = {
   database: Database,
   network: Router,
   security: ShieldCheck,
+
+  // 12 - 23
+  code: Code2,
+  "git-branch": GitBranch,
+  "clipboard-list": ClipboardList,
+  settings: Settings,
+  "search-check": SearchCheck,
+  route: Route,
+  "notebook-tabs": NotebookTabs,
+  "chart-no-axes-combined": ChartNoAxesCombined,
+  lightbulb: Lightbulb,
+  factory: Factory,
+  "building-2": Building2,
+  scale: Scale,
 };
 
 interface FeCategoryCardProps {

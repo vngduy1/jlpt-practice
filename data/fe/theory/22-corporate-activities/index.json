@@ -1,0 +1,33 @@
+{
+  "id": "corporate-activities",
+  "order": 22,
+  "titleJa": "企業活動",
+  "titleVi": "Hoạt động doanh nghiệp",
+  "count": 244,
+  "chapters": [
+    {
+      "id": "management-organization-theory",
+      "order": 1,
+      "titleJa": "経営・組織論",
+      "titleVi": "Quản trị và lý thuyết tổ chức",
+      "count": 81,
+      "file": "01-management-organization-theory.json"
+    },
+    {
+      "id": "business-analysis-data-utilization",
+      "order": 2,
+      "titleJa": "業務分析・データ利活用",
+      "titleVi": "Phân tích nghiệp vụ và sử dụng dữ liệu",
+      "count": 126,
+      "file": "02-business-analysis-data-utilization.json"
+    },
+    {
+      "id": "accounting-finance",
+      "order": 3,
+      "titleJa": "会計・財務",
+      "titleVi": "Kế toán và tài chính",
+      "count": 40,
+      "file": "03-accounting-finance.json"
+    }
+  ]
+}

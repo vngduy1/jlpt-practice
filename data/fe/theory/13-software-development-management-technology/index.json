@@ -1,0 +1,41 @@
+{
+  "id": "software-development-management-technology",
+  "order": 13,
+  "titleJa": "ソフトウェア開発管理技術",
+  "titleVi": "Công nghệ quản lý phát triển phần mềm",
+  "count": 90,
+  "chapters": [
+    {
+      "id": "development-process-methods",
+      "order": 1,
+      "titleJa": "開発プロセス・手法",
+      "titleVi": "Quy trình và phương pháp phát triển",
+      "count": 64,
+      "file": "01-development-process-methods.json"
+    },
+    {
+      "id": "intellectual-property-application-management",
+      "order": 2,
+      "titleJa": "知的財産適用管理",
+      "titleVi": "Quản lý áp dụng tài sản trí tuệ",
+      "count": 11,
+      "file": "02-intellectual-property-application-management.json"
+    },
+    {
+      "id": "development-environment-management",
+      "order": 3,
+      "titleJa": "開発環境管理",
+      "titleVi": "Quản lý môi trường phát triển",
+      "count": 13,
+      "file": "03-development-environment-management.json"
+    },
+    {
+      "id": "configuration-change-management",
+      "order": 4,
+      "titleJa": "構成管理・変更管理",
+      "titleVi": "Quản lý cấu hình và thay đổi",
+      "count": 8,
+      "file": "04-configuration-change-management.json"
+    }
+  ]
+}
