@@ -1,0 +1,489 @@
+{
+  "id": "security-technology-evaluation",
+  "order": 3,
+  "titleJa": "セキュリティ技術評価",
+  "titleVi": "Đánh giá kỹ thuật bảo mật",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "iso-iec-15408",
+      "order": 1,
+      "titleJa": "ISO/IEC15408",
+      "titleVi": "ISO/IEC 15408 (Common Criteria)",
+      "importance": "high",
+      "summaryJa": "情報システムのセキュリティ評価基準を定めた国際規格であり、「コモンクライテリア」とも呼ばれる。",
+      "summaryVi": "Tiêu chuẩn quốc tế quy định tiêu chí đánh giá an toàn của hệ thống và sản phẩm CNTT, còn được gọi là Common Criteria.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISO/IEC15408とは",
+          "vi": "ISO/IEC 15408 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムのセキュリティ評価基準を定めた国際規格である。この規格は「コモンクライテリア」とも呼ばれ、システムや製品のセキュリティ機能を客観的に評価するための枠組みを提供する。具体的には、製品が定められたセキュリティ要件を満たしているかどうかを確認し、その信頼性を証明するための方法論を示している。例えば、パソコンやネットワーク機器のセキュリティレベルを評価する際に、ISO/IEC 15408に基づいて行うことで、ユーザーはその製品がどれだけ安全であるかを理解しやすくなる。この基準を用いることで、製品がセキュリティ面での要件を満たしているかを比較しやすく、様々な市場での信頼性を高める助けとなる。",
+          "vi": "Dùng để đánh giá khách quan chức năng bảo mật của hệ thống hoặc sản phẩm và xác nhận sản phẩm có đáp ứng các yêu cầu bảo mật đã đặt ra hay không."
+        },
+        {
+          "type": "point",
+          "ja": "「コモンクライテリア」という別名と、IT製品・システムのセキュリティ評価基準である点を押さえる。",
+          "vi": "Cần nhớ tên khác Common Criteria và mục đích là đánh giá bảo mật của sản phẩm/hệ thống CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ISO/IEC15408",
+          "reading": "あいえすおー/あいいーしー15408",
+          "english": "ISO/IEC 15408",
+          "vi": "ISO/IEC 15408",
+          "definitionJa": "情報システムのセキュリティ評価基準を定めた国際規格。",
+          "definitionVi": "Tiêu chuẩn quốc tế về đánh giá an toàn hệ thống thông tin."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "iso-iec-15408"
+      ]
+    },
+    {
+      "id": "evaluation-method",
+      "order": 2,
+      "titleJa": "評価方法",
+      "titleVi": "Phương pháp đánh giá",
+      "importance": "medium",
+      "summaryJa": "システムやプロセスの効果や性能を測定し、評価するための基準や手法である。",
+      "summaryVi": "Các tiêu chí và phương pháp dùng để đo lường, đánh giá hiệu quả hoặc hiệu năng của hệ thống và quy trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "評価方法とは",
+          "vi": "Phương pháp đánh giá là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスの効果や性能を測定し、評価するための基準や手法のことを指す。特にセキュリティ分野においては、情報システムの安全性や信頼性を確認するために使用される。評価方法には、テスト、レビュー、分析などの手法が含まれ、これにより脆弱性やリスクを特定することが可能である。具体的な例として、セキュリティ評価基準に基づき、システムの脆弱性をチェックするペネトレーションテストが挙げられる。このような評価を行うことで、組織は必要な改善策を講じ、安全性向上につなげることができる。",
+          "vi": "Trong bảo mật, các phương pháp như kiểm thử, review và phân tích được dùng để xác định lỗ hổng và rủi ro, từ đó đưa ra biện pháp cải thiện."
+        },
+        {
+          "type": "point",
+          "ja": "テスト・レビュー・分析などによって安全性や信頼性を確認する。",
+          "vi": "Nhớ các phương pháp tiêu biểu: kiểm thử, review và phân tích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "評価方法",
+          "reading": "ひょうかほうほう",
+          "english": "Evaluation Method",
+          "vi": "Phương pháp đánh giá",
+          "definitionJa": "システムやプロセスの効果や性能を測定・評価するための基準や手法。",
+          "definitionVi": "Tiêu chí và phương pháp đo lường, đánh giá hệ thống hoặc quy trình."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "evaluation-method"
+      ]
+    },
+    {
+      "id": "security-functional-requirements",
+      "order": 3,
+      "titleJa": "セキュリティ機能要件",
+      "titleVi": "Yêu cầu chức năng bảo mật",
+      "importance": "high",
+      "summaryJa": "情報システムにおけるセキュリティ機能が満たすべき条件や基準を示す。",
+      "summaryVi": "Các điều kiện và tiêu chí mà chức năng bảo mật của hệ thống thông tin phải đáp ứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティ機能要件とは",
+          "vi": "Yêu cầu chức năng bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムにおけるセキュリティ機能が満たすべき条件や基準を示すものである。この要件は、情報の秘密性、完全性、可用性を確保するために設計されており、システムが直面する脅威やリスクに対処するために必要な機能を明確にする役割を持つ。具体的には、認証やアクセス制御、暗号化といった機能が含まれている。これにより、システムが安全に運用されることが期待され、セキュリティ評価や認証プロセスにおいても重要な指標とされる。適切なセキュリティ機能要件を設定することで、利用者の信頼を確保し、情報資産を守るための基盤を構築することが可能となる。",
+          "vi": "Xác định các chức năng cần thiết để đối phó với đe dọa và rủi ro, ví dụ xác thực, kiểm soát truy cập và mã hóa."
+        },
+        {
+          "type": "point",
+          "ja": "認証・アクセス制御・暗号化など、「どのようなセキュリティ機能が必要か」を示す。",
+          "vi": "Tập trung vào hệ thống cần có chức năng bảo mật nào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティ機能要件",
+          "reading": "せきゅりてぃきのうようけん",
+          "english": "Security Functional Requirements",
+          "vi": "Yêu cầu chức năng bảo mật",
+          "definitionJa": "セキュリティ機能が満たすべき条件や基準。",
+          "definitionVi": "Các điều kiện/tiêu chí mà chức năng bảo mật phải đáp ứng."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "security-functional-requirements"
+      ]
+    },
+    {
+      "id": "security-assurance-requirements",
+      "order": 4,
+      "titleJa": "セキュリティ保証要件",
+      "titleVi": "Yêu cầu đảm bảo bảo mật",
+      "importance": "high",
+      "summaryJa": "情報システムやソフトウェアのセキュリティを評価するために必要な条件や基準である。",
+      "summaryVi": "Các điều kiện và tiêu chí cần thiết để đánh giá mức độ đảm bảo an toàn của hệ thống hoặc phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティ保証要件とは",
+          "vi": "Yêu cầu đảm bảo bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやソフトウェアのセキュリティを評価するために必要な条件や基準である。これらの要件は、システムが安全であるかどうかを確認するために設計されており、リスクを管理し、攻撃から守るために必要な対策を示している。具体的には、認証やアクセス制御、データの暗号化などが含まれる。システムの設計段階から運用、保守に至るまでの全プロセスにおいて適用されるため、全体的なセキュリティ対策を一貫して強化するのに役立つ。これにより、情報の機密性、完全性、可用性を確保することが可能となる。",
+          "vi": "Dùng để đánh giá và xác nhận hệ thống có được bảo đảm an toàn hay không trong toàn bộ quá trình từ thiết kế đến vận hành và bảo trì."
+        },
+        {
+          "type": "point",
+          "ja": "機能要件との違いを意識し、「安全性をどのように保証・評価するか」に注目する。",
+          "vi": "Phân biệt với yêu cầu chức năng: phần này chú trọng việc bảo đảm/đánh giá mức độ an toàn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティ保証要件",
+          "reading": "せきゅりてぃほしょうようけん",
+          "english": "Security Assurance Requirements",
+          "vi": "Yêu cầu đảm bảo bảo mật",
+          "definitionJa": "システムやソフトウェアのセキュリティを評価するための条件や基準。",
+          "definitionVi": "Điều kiện và tiêu chí để đánh giá mức độ bảo đảm bảo mật."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "security-assurance-requirements"
+      ]
+    },
+    {
+      "id": "assurance-level",
+      "order": 5,
+      "titleJa": "保証レベル",
+      "titleVi": "Mức đảm bảo",
+      "importance": "medium",
+      "summaryJa": "情報システムや製品がセキュリティの要件をどの程度満たしているかを測る指標である。",
+      "summaryVi": "Chỉ số thể hiện hệ thống hoặc sản phẩm đáp ứng yêu cầu bảo mật ở mức độ nào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "保証レベルとは",
+          "vi": "Mức đảm bảo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムや製品がセキュリティの要件をどの程度満たしているかを測る指標である。この評価基準は、特にセキュリティの強さや信頼性を示すために使用される。例えば、特定のセキュリティ機能が適切に実装されているか、運用プロセスが確立されているかといった評価が行われ、利用者はその結果を基にリスクを理解し、適切な対策を講じることができる。セキュリティ製品やサービスの選定や導入において重要な要素となり、特に重要なデータを扱うシステムにおいて高い保証レベルが求められることが多い。これにより、システムが脅威に対してどのように抵抗できるかを示し、利用者の信頼を得ることに繋がる。",
+          "vi": "Dùng để biểu thị độ mạnh và độ tin cậy về bảo mật, giúp người dùng đánh giá rủi ro khi lựa chọn sản phẩm hoặc dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "保証レベルはセキュリティ要件を満たす程度・信頼性を示す指標。",
+          "vi": "Nhớ đây là chỉ số về mức đáp ứng và độ tin cậy bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "保証レベル",
+          "reading": "ほしょうれべる",
+          "english": "Assurance Level",
+          "vi": "Mức đảm bảo",
+          "definitionJa": "セキュリティ要件をどの程度満たしているかを測る指標。",
+          "definitionVi": "Chỉ số đo mức độ đáp ứng yêu cầu bảo mật."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "assurance-level"
+      ]
+    },
+    {
+      "id": "jcmvp",
+      "order": 6,
+      "titleJa": "JCMVP",
+      "titleVi": "JCMVP",
+      "importance": "high",
+      "summaryJa": "日本における暗号モジュールの試験及び認証制度である。",
+      "summaryVi": "Chương trình kiểm thử và chứng nhận mô-đun mật mã tại Nhật Bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JCMVPとは",
+          "vi": "JCMVP là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本における暗号モジュールの試験及び認証制度である。この制度は、暗号技術を使用する機器やソフトウェアが、公的な基準に従って適切に機能し、安全であることを確認するために設けられている。具体的には、暗号アルゴリズムやキー管理機能などが正確に実装されているかを検証し、認証を得ることで、信頼性を保障する仕組みである。情報セキュリティにおいて重要な役割を果たしており、特に金融機関や官公庁など、セキュリティが求められる分野で広く採用されている。この制度により、ユーザーは安心して暗号技術を利用できる環境が整えられている。",
+          "vi": "Xác minh các thuật toán mật mã, chức năng quản lý khóa và mô-đun mật mã có được triển khai đúng theo tiêu chuẩn hay không."
+        },
+        {
+          "type": "point",
+          "ja": "JCMVP＝日本の暗号モジュール試験・認証制度。",
+          "vi": "Nhớ JCMVP gắn với kiểm thử/chứng nhận mô-đun mật mã tại Nhật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JCMVP",
+          "reading": "じぇいしーえむぶいぴー",
+          "english": "Japanese Cryptographic Module Validation Program",
+          "vi": "Chương trình xác nhận mô-đun mật mã Nhật Bản",
+          "definitionJa": "日本における暗号モジュールの試験及び認証制度。",
+          "definitionVi": "Chương trình kiểm thử và chứng nhận mô-đun mật mã tại Nhật."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "jcmvp"
+      ]
+    },
+    {
+      "id": "cvss",
+      "order": 7,
+      "titleJa": "CVSS",
+      "titleVi": "CVSS",
+      "importance": "high",
+      "summaryJa": "脆弱性の深刻度を0から10までのスコアで示すための基準である。",
+      "summaryVi": "Hệ thống chấm điểm mức độ nghiêm trọng của lỗ hổng theo thang từ 0 đến 10.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CVSSとは",
+          "vi": "CVSS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムに存在する脆弱性を評価し、リスクの度合いを数値で示すための基準である。この基準により、脆弱性の深刻度を一貫して評価し、比較することが可能となる。0から10までのスコアを用いて、脆弱性の影響や悪用の難易度を示す。たとえば、高いスコアが付与された脆弱性は、迅速な対処が必要であることを示す。これにより、組織は限られたリソースの中で、最も重要な脆弱性の修正や対策を優先することができる。セキュリティチームが評価や報告を行う際に利用され、情報の共有や意思決定を助ける役割も果たしている。",
+          "vi": "CVSS giúp đánh giá và so sánh mức độ nghiêm trọng của lỗ hổng bằng điểm số 0–10; điểm cao cho thấy cần ưu tiên xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "CVSS＝脆弱性の深刻度を0～10で数値化する。",
+          "vi": "FE cần nhớ: CVSS chấm mức độ nghiêm trọng của lỗ hổng từ 0 đến 10."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CVSS",
+          "reading": "しーぶいえすえす",
+          "english": "Common Vulnerability Scoring System",
+          "vi": "Hệ thống chấm điểm lỗ hổng chung",
+          "definitionJa": "脆弱性の深刻度を0から10までのスコアで評価する基準。",
+          "definitionVi": "Tiêu chuẩn chấm mức độ nghiêm trọng của lỗ hổng theo thang 0–10."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "cvss"
+      ]
+    },
+    {
+      "id": "vulnerability-assessment",
+      "order": 8,
+      "titleJa": "脆弱性診断",
+      "titleVi": "Đánh giá lỗ hổng",
+      "importance": "high",
+      "summaryJa": "情報システムやネットワークに存在するセキュリティ上の脆弱性を特定し、評価するプロセスである。",
+      "summaryVi": "Quá trình xác định và đánh giá các lỗ hổng bảo mật tồn tại trong hệ thống hoặc mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "脆弱性診断とは",
+          "vi": "Đánh giá lỗ hổng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやネットワークに存在するセキュリティ上の脆弱性を特定し、評価するプロセスである。この診断により、悪意のある攻撃者が利用する可能性のある弱点を洗い出し、適切な対策を講じるための基礎情報を提供する。具体的には、システムの設定ミスや未修正のソフトウェア、パスワードの強度不足などが対象となる。脆弱性診断は定期的に実施することが推奨されており、これにより企業や組織はセキュリティリスクを低減させ、生産性の向上を図ることができる。また、診断結果に基づいて、適切な修正や対策を行うことで、情報資産の保護と信頼性の向上が期待される。",
+          "vi": "Tìm các điểm yếu như cấu hình sai, phần mềm chưa vá hoặc mật khẩu yếu để làm cơ sở cho việc khắc phục."
+        },
+        {
+          "type": "point",
+          "ja": "脆弱性を「特定・評価」し、対策につなげる。",
+          "vi": "Mục tiêu chính là phát hiện và đánh giá lỗ hổng để khắc phục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "脆弱性診断",
+          "reading": "ぜいじゃくせいしんだん",
+          "english": "Vulnerability Assessment",
+          "vi": "Đánh giá lỗ hổng",
+          "definitionJa": "システムやネットワークの脆弱性を特定し評価するプロセス。",
+          "definitionVi": "Quá trình xác định và đánh giá lỗ hổng của hệ thống/mạng."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "vulnerability-assessment"
+      ]
+    },
+    {
+      "id": "penetration-testing",
+      "order": 9,
+      "titleJa": "ペネトレーションテスト",
+      "titleVi": "Kiểm thử xâm nhập",
+      "importance": "high",
+      "summaryJa": "実際の攻撃者の視点からシステムやネットワークへの侵入を試み、セキュリティを評価する手法である。",
+      "summaryVi": "Phương pháp thử xâm nhập từ góc nhìn của kẻ tấn công thực tế để phát hiện điểm yếu của hệ thống hoặc mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ペネトレーションテストとは",
+          "vi": "Kiểm thử xâm nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやネットワークのセキュリティを評価するための手法である。このテストでは、実際の攻撃者の視点から侵入を試みることで、脆弱性や弱点を発見し、それに対する対策を検討する。例えば、企業のWebサイトに対するペネトレーションテストでは、ハッカーが不正にアクセスできるかどうかを確認し、もし問題があればその修正方法を提案する。これにより、情報漏洩やサービス停止といったリスクを低減することが可能である。定期的に実施することが望まれ、サイバー攻撃に対する防御力を高める重要な手段となっている。",
+          "vi": "Mô phỏng hành vi tấn công/xâm nhập để xác định lỗ hổng và xem kẻ tấn công có thể truy cập trái phép hay không."
+        },
+        {
+          "type": "point",
+          "ja": "攻撃者の視点で実際に侵入を試みる点が特徴。",
+          "vi": "Điểm phân biệt quan trọng: thử tấn công/xâm nhập thực tế từ góc nhìn của attacker."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ペネトレーションテスト",
+          "reading": "",
+          "english": "Penetration Testing",
+          "vi": "Kiểm thử xâm nhập",
+          "definitionJa": "攻撃者の視点から侵入を試みて脆弱性を発見する評価手法。",
+          "definitionVi": "Phương pháp thử xâm nhập để phát hiện lỗ hổng từ góc nhìn của kẻ tấn công."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "penetration-testing"
+      ]
+    },
+    {
+      "id": "tamper-resistance",
+      "order": 10,
+      "titleJa": "耐タンパ性",
+      "titleVi": "Khả năng chống can thiệp/sửa đổi trái phép",
+      "importance": "high",
+      "summaryJa": "情報システムやデバイスが不正な改ざんや侵入から保護される能力を指す。",
+      "summaryVi": "Khả năng của hệ thống hoặc thiết bị chống lại việc can thiệp, sửa đổi hoặc xâm nhập trái phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "耐タンパ性とは",
+          "vi": "耐タンパ性 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやデバイスが不正な改ざんや侵入から保護される能力を指す。具体的には、ハードウェアやソフトウェアが外部からの攻撃や不正操作に対して強固であり、不正なアクセスを防ぐための設計や実装がなされていることを意味する。例えば、セキュリティ性の高い金庫やデータ暗号化技術などがこれに該当する。耐タンパ性が高いシステムほど、攻撃者がその機能やデータを改ざんするのが難しくなるため、重要な情報資産の保護に寄与する。これにより、サイバー攻撃からの防御が強化され、個人や組織のデータセキュリティが向上する。",
+          "vi": "Hệ thống có tính chống can thiệp cao sẽ khiến kẻ tấn công khó sửa đổi chức năng hoặc dữ liệu bằng thao tác trái phép."
+        },
+        {
+          "type": "point",
+          "ja": "耐タンパ性＝不正な改ざん・解析・操作に対する強さ。",
+          "vi": "Nhớ là khả năng chống can thiệp/sửa đổi trái phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "耐タンパ性",
+          "reading": "たいたんぱせい",
+          "english": "Tamper Resistance",
+          "vi": "Khả năng chống can thiệp trái phép",
+          "definitionJa": "不正な改ざんや侵入から保護される能力。",
+          "definitionVi": "Khả năng chống sửa đổi hoặc xâm nhập trái phép."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "tamper-resistance"
+      ]
+    },
+    {
+      "id": "security-requirements-list-it-products-procurement",
+      "order": 11,
+      "titleJa": "IT製品の調達におけるセキュリティ要件リスト",
+      "titleVi": "Danh sách yêu cầu bảo mật khi mua sắm sản phẩm CNTT",
+      "importance": "medium",
+      "summaryJa": "企業や組織がIT製品を購入する際に遵守すべきセキュリティ基準を明示したリストである。",
+      "summaryVi": "Danh sách nêu rõ các yêu cầu bảo mật cần tuân thủ khi tổ chức mua sắm sản phẩm CNTT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IT製品の調達におけるセキュリティ要件リストとは",
+          "vi": "Danh sách yêu cầu bảo mật khi mua sắm sản phẩm CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織がIT製品を購入する際に遵守すべきセキュリティ基準を明示したリストである。このリストは、情報の機密性、整合性、可用性を確保するための具体的な要求事項を列挙しており、製品選定の際の重要な指針となる。例えば、データの暗号化機能やアクセス管理の仕様、脆弱性への対策などが含まれることが一般的である。このような要件を明確にすることで、調達プロセスにおいてセキュリティリスクを低減し、組織の情報資産を保護することが可能となる。また、セキュリティ要件は法令遵守や業界標準に基づくことから、企業の信頼性向上にも寄与する。",
+          "vi": "Dùng làm chỉ dẫn khi lựa chọn sản phẩm, có thể bao gồm mã hóa dữ liệu, kiểm soát truy cập và biện pháp xử lý lỗ hổng."
+        },
+        {
+          "type": "point",
+          "ja": "IT製品の「調達・選定」段階でセキュリティ要件を明確にする。",
+          "vi": "Từ khóa quan trọng là yêu cầu bảo mật ngay ở giai đoạn mua sắm/lựa chọn sản phẩm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IT製品の調達におけるセキュリティ要件リスト",
+          "reading": "あいてぃーせいひんのちょうたつにおけるせきゅりてぃようけんりすと",
+          "english": "Security Requirements List for IT Products Procurement",
+          "vi": "Danh sách yêu cầu bảo mật khi mua sắm sản phẩm CNTT",
+          "definitionJa": "IT製品の購入時に遵守すべきセキュリティ基準を示すリスト。",
+          "definitionVi": "Danh sách tiêu chí bảo mật cần tuân thủ khi mua sản phẩm CNTT."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "it-products-procurement"
+      ]
+    },
+    {
+      "id": "jisec",
+      "order": 12,
+      "titleJa": "JISEC",
+      "titleVi": "JISEC",
+      "importance": "high",
+      "summaryJa": "情報技術のセキュリティを評価及び認証するための制度である。",
+      "summaryVi": "Chế độ đánh giá và chứng nhận an toàn cho công nghệ thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JISECとは",
+          "vi": "JISEC là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術のセキュリティを評価及び認証するための制度である。これは、ISO/IEC 15408やISO/IEC 18049に基づいており、情報システムの安全性を客観的に評価するプロセスを提供する。具体的には、ソフトウェアやハードウェアが、一定のセキュリティ基準を満たしているかどうかを検証するもので、政府や民間企業で幅広く利用されている。例えば、セキュリティ評価を受けた製品は、悪意のある攻撃からシステムを保護する能力を示す証拠となり、組織の信頼性を高める要因となる。情報セキュリティの確保に向けた重要なツールであり、多様な業界での安全性の向上に寄与している。",
+          "vi": "Đánh giá và chứng nhận phần mềm/phần cứng có đáp ứng các tiêu chí bảo mật nhất định hay không."
+        },
+        {
+          "type": "point",
+          "ja": "JISEC＝ITセキュリティの評価・認証制度。ISO/IEC 15408との関係を押さえる。",
+          "vi": "Nhớ JISEC là chế độ đánh giá/chứng nhận bảo mật CNTT và có liên hệ với ISO/IEC 15408."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JISEC",
+          "reading": "じぇいあいせっく",
+          "english": "JISEC",
+          "vi": "JISEC",
+          "definitionJa": "情報技術のセキュリティを評価及び認証するための制度。",
+          "definitionVi": "Chế độ đánh giá và chứng nhận an toàn CNTT."
+        }
+      ],
+      "tags": [
+        "security-technology-evaluation",
+        "jisec"
+      ]
+    }
+  ]
+}

@@ -12,7 +12,11 @@ export function ExamCard({ exam }: ExamCardProps) {
     exam.loadedQuestionCount > 0 &&
     exam.loadedQuestionCount === exam.questionCount;
 
-  const monthLabel = exam.month === 7 ? "7月" : "12月";
+  const dateLabel =
+    exam.year !== undefined && exam.month !== undefined
+      ? `${exam.year}年${exam.month}月`
+      : undefined;
+  const isUndatedOriginal = exam.source === "ORIGINAL" && !dateLabel;
 
   return (
     <article className="group flex min-h-82-5 flex-col overflow-hidden rounded-xl border border-border bg-card transition duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_14px_35px_-24px_rgba(24,39,75,0.28)]">
@@ -30,7 +34,9 @@ export function ExamCard({ exam }: ExamCardProps) {
         </div>
 
         <h3 className="mt-5 text-xl font-bold tracking-tight">
-          {exam.year}年{monthLabel} 日本語能力試験
+          {exam.source === "ORIGINAL"
+            ? exam.title
+            : `${dateLabel} 日本語能力試験`}
         </h3>
 
         <p className="mt-2 text-sm leading-6 text-muted-foreground">
@@ -43,11 +49,11 @@ export function ExamCard({ exam }: ExamCardProps) {
           <div className="flex items-center justify-between gap-4">
             <dt className="flex items-center gap-2 text-muted-foreground">
               <CalendarDays className="size-4" aria-hidden="true" />
-              実施時期
+              {isUndatedOriginal ? "種別" : "実施時期"}
             </dt>
 
             <dd className="font-medium">
-              {exam.year}年{monthLabel}
+              {dateLabel ?? "オリジナル練習問題"}
             </dd>
           </div>
 

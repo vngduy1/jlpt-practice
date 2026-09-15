@@ -1,0 +1,1766 @@
+{
+  "id": "information-security",
+  "order": 1,
+  "titleJa": "情報セキュリティ",
+  "titleVi": "An toàn thông tin",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "security-properties",
+      "order": 1,
+      "titleJa": "情報セキュリティの特性",
+      "titleVi": "Các thuộc tính của an toàn thông tin",
+      "importance": "high",
+      "summaryJa": "情報セキュリティが守るべき基本特性を整理する。",
+      "summaryVi": "Hệ thống hóa các thuộc tính cơ bản mà an toàn thông tin cần bảo vệ.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "情報セキュリティが守るべき基本特性を整理する。",
+          "vi": "Hệ thống hóa các thuộc tính cơ bản mà an toàn thông tin cần bảo vệ."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "機密性",
+          "reading": "きみつせい",
+          "english": "Confidentiality",
+          "vi": "Tính bí mật",
+          "definitionJa": "許可された主体だけが情報にアクセスできる状態を保つ性質。",
+          "definitionVi": "Bảo đảm chỉ chủ thể được cấp quyền mới có thể truy cập thông tin."
+        },
+        {
+          "term": "完全性",
+          "reading": "かんぜんせい",
+          "english": "Integrity",
+          "vi": "Tính toàn vẹn",
+          "definitionJa": "情報が正確かつ完全であり、不正な変更や破壊を受けていない状態を保つ性質。",
+          "definitionVi": "Bảo đảm thông tin chính xác, đầy đủ và không bị sửa đổi hay phá hoại trái phép."
+        },
+        {
+          "term": "可用性",
+          "reading": "かようせい",
+          "english": "Availability",
+          "vi": "Tính sẵn sàng",
+          "definitionJa": "許可された利用者が必要なときに情報やサービスを利用できる状態を保つ性質。",
+          "definitionVi": "Bảo đảm người dùng được phép có thể sử dụng thông tin hoặc dịch vụ khi cần."
+        },
+        {
+          "term": "真正性",
+          "reading": "しんせいせい",
+          "english": "Authenticity",
+          "vi": "Tính xác thực",
+          "definitionJa": "「真正性」は、情報セキュリティの性質・保証要件を表す概念である。FEでは他のセキュリティ特性との違いを整理する。",
+          "definitionVi": "Tính xác thực là một thuộc tính hoặc yêu cầu bảo đảm trong an toàn thông tin; khi học FE cần phân biệt nó với các thuộc tính bảo mật khác."
+        },
+        {
+          "term": "責任追跡性",
+          "reading": "せきにんついせきせい",
+          "english": "Accountability",
+          "vi": "Khả năng truy trách nhiệm",
+          "definitionJa": "「責任追跡性」は、情報セキュリティの性質・保証要件を表す概念である。FEでは他のセキュリティ特性との違いを整理する。",
+          "definitionVi": "Khả năng truy trách nhiệm là một thuộc tính hoặc yêu cầu bảo đảm trong an toàn thông tin; khi học FE cần phân biệt nó với các thuộc tính bảo mật khác."
+        },
+        {
+          "term": "否認防止",
+          "reading": "ひにんぼうし",
+          "english": "Non-Repudiation",
+          "vi": "Chống chối bỏ",
+          "definitionJa": "「否認防止」は、情報セキュリティの性質・保証要件を表す概念である。FEでは他のセキュリティ特性との違いを整理する。",
+          "definitionVi": "Chống chối bỏ là một thuộc tính hoặc yêu cầu bảo đảm trong an toàn thông tin; khi học FE cần phân biệt nó với các thuộc tính bảo mật khác."
+        },
+        {
+          "term": "信頼性",
+          "reading": "しんらいせい",
+          "english": "Reliability",
+          "vi": "Độ tin cậy",
+          "definitionJa": "「信頼性」は、情報セキュリティの性質・保証要件を表す概念である。FEでは他のセキュリティ特性との違いを整理する。",
+          "definitionVi": "Độ tin cậy là một thuộc tính hoặc yêu cầu bảo đảm trong an toàn thông tin; khi học FE cần phân biệt nó với các thuộc tính bảo mật khác."
+        }
+      ],
+      "tags": [
+        "security",
+        "security-properties"
+      ]
+    },
+    {
+      "id": "security-design-and-assets",
+      "order": 2,
+      "titleJa": "セキュリティ設計と情報資産",
+      "titleVi": "Thiết kế bảo mật và tài sản thông tin",
+      "importance": "high",
+      "summaryJa": "保護対象となる情報資産と、設計段階から安全性を組み込む考え方を学ぶ。",
+      "summaryVi": "Học về tài sản thông tin cần bảo vệ và cách tích hợp an toàn ngay từ thiết kế.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "保護対象となる情報資産と、設計段階から安全性を組み込む考え方を学ぶ。",
+          "vi": "Học về tài sản thông tin cần bảo vệ và cách tích hợp an toàn ngay từ thiết kế."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "多層防御",
+          "reading": "たそうぼうぎょ",
+          "english": "Defense in Depth",
+          "vi": "Phòng thủ nhiều lớp",
+          "definitionJa": "「多層防御」は、安全な情報システムを設計・運用し、保護対象を明確にするための考え方である。",
+          "definitionVi": "Phòng thủ nhiều lớp là khái niệm dùng khi thiết kế/vận hành hệ thống an toàn và xác định đối tượng cần được bảo vệ."
+        },
+        {
+          "term": "セキュリティバイデザイン",
+          "reading": "",
+          "english": "Security by Design",
+          "vi": "Bảo mật ngay từ thiết kế",
+          "definitionJa": "「セキュリティバイデザイン」は、安全な情報システムを設計・運用し、保護対象を明確にするための考え方である。",
+          "definitionVi": "Bảo mật ngay từ thiết kế là khái niệm dùng khi thiết kế/vận hành hệ thống an toàn và xác định đối tượng cần được bảo vệ."
+        },
+        {
+          "term": "プライバシーバイデザイン",
+          "reading": "",
+          "english": "Privacy by Design",
+          "vi": "Quyền riêng tư ngay từ thiết kế",
+          "definitionJa": "「プライバシーバイデザイン」は、安全な情報システムを設計・運用し、保護対象を明確にするための考え方である。",
+          "definitionVi": "Quyền riêng tư ngay từ thiết kế là khái niệm dùng khi thiết kế/vận hành hệ thống an toàn và xác định đối tượng cần được bảo vệ."
+        },
+        {
+          "term": "情報資産",
+          "reading": "じょうほうしさん",
+          "english": "Information Asset",
+          "vi": "Tài sản thông tin",
+          "definitionJa": "「情報資産」は、安全な情報システムを設計・運用し、保護対象を明確にするための考え方である。",
+          "definitionVi": "Tài sản thông tin là khái niệm dùng khi thiết kế/vận hành hệ thống an toàn và xác định đối tượng cần được bảo vệ."
+        }
+      ],
+      "tags": [
+        "security",
+        "security-design-and-assets"
+      ]
+    },
+    {
+      "id": "security-threats",
+      "order": 3,
+      "titleJa": "脅威とセキュリティ事故",
+      "titleVi": "Mối đe dọa và sự cố bảo mật",
+      "importance": "high",
+      "summaryJa": "脅威・脆弱性・攻撃・事故の関係を理解する。",
+      "summaryVi": "Hiểu mối quan hệ giữa mối đe dọa, lỗ hổng, tấn công và sự cố.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "脅威・脆弱性・攻撃・事故の関係を理解する。",
+          "vi": "Hiểu mối quan hệ giữa mối đe dọa, lỗ hổng, tấn công và sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "脅威",
+          "reading": "きょうい",
+          "english": "Threat",
+          "vi": "Mối đe dọa",
+          "definitionJa": "情報資産に損害を与える可能性がある要因や事象。",
+          "definitionVi": "Yếu tố hoặc sự kiện có khả năng gây thiệt hại cho tài sản thông tin."
+        },
+        {
+          "term": "脆弱性",
+          "reading": "ぜいじゃくせい",
+          "english": "Vulnerability",
+          "vi": "Lỗ hổng",
+          "definitionJa": "脅威によって悪用される可能性があるシステム・運用・人などの弱点。",
+          "definitionVi": "Điểm yếu của hệ thống, vận hành hoặc con người có thể bị mối đe dọa khai thác."
+        },
+        {
+          "term": "サイバー攻撃",
+          "reading": "さいばーこうげき",
+          "english": "Cyber Attack",
+          "vi": "Tấn công mạng",
+          "definitionJa": "「サイバー攻撃」は、情報資産の安全性を損なう可能性や、その結果として生じる事象に関する概念である。",
+          "definitionVi": "Tấn công mạng là khái niệm liên quan đến nguy cơ làm tổn hại tài sản thông tin hoặc sự kiện phát sinh từ nguy cơ đó."
+        },
+        {
+          "term": "事故",
+          "reading": "じこ",
+          "english": "Incident",
+          "vi": "Sự cố",
+          "definitionJa": "「事故」は、情報資産の安全性を損なう可能性や、その結果として生じる事象に関する概念である。",
+          "definitionVi": "Sự cố là khái niệm liên quan đến nguy cơ làm tổn hại tài sản thông tin hoặc sự kiện phát sinh từ nguy cơ đó."
+        }
+      ],
+      "tags": [
+        "security",
+        "security-threats"
+      ]
+    },
+    {
+      "id": "physical-and-human-threats",
+      "order": 4,
+      "titleJa": "物理的・人的脅威",
+      "titleVi": "Mối đe dọa vật lý và con người",
+      "importance": "medium",
+      "summaryJa": "災害、故障、人的ミス、不正利用など多様な脅威を整理する。",
+      "summaryVi": "Phân loại các mối đe dọa như thảm họa, hỏng hóc, lỗi con người và sử dụng trái phép.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "災害、故障、人的ミス、不正利用など多様な脅威を整理する。",
+          "vi": "Phân loại các mối đe dọa như thảm họa, hỏng hóc, lỗi con người và sử dụng trái phép."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "災害",
+          "reading": "さいがい",
+          "english": "Disaster",
+          "vi": "Thảm họa",
+          "definitionJa": "「災害」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Thảm họa là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "故障",
+          "reading": "こしょう",
+          "english": "Failure",
+          "vi": "Hỏng hóc",
+          "definitionJa": "「故障」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Hỏng hóc là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "破壊",
+          "reading": "はかい",
+          "english": "Destruction",
+          "vi": "Phá hoại",
+          "definitionJa": "「破壊」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Phá hoại là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "盗難",
+          "reading": "とうなん",
+          "english": "Theft",
+          "vi": "Trộm cắp",
+          "definitionJa": "「盗難」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Trộm cắp là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "侵入",
+          "reading": "しんにゅう",
+          "english": "Intrusion",
+          "vi": "Xâm nhập",
+          "definitionJa": "「侵入」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Xâm nhập là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "不正アクセス",
+          "reading": "ふせいあくせす",
+          "english": "Unauthorized Access",
+          "vi": "Truy cập trái phép",
+          "definitionJa": "「不正アクセス」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Truy cập trái phép là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "盗聴",
+          "reading": "とうちょう",
+          "english": "Eavesdropping",
+          "vi": "Nghe lén",
+          "definitionJa": "「盗聴」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Nghe lén là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "なりすまし",
+          "reading": "",
+          "english": "Spoofing",
+          "vi": "Giả mạo danh tính",
+          "definitionJa": "「なりすまし」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Giả mạo danh tính là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "改ざん",
+          "reading": "かいざん",
+          "english": "Tampering",
+          "vi": "Sửa đổi trái phép",
+          "definitionJa": "「改ざん」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Sửa đổi trái phép là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "エラー",
+          "reading": "",
+          "english": "Error",
+          "vi": "Lỗi",
+          "definitionJa": "「エラー」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Lỗi là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "クラッキング",
+          "reading": "",
+          "english": "Cracking",
+          "vi": "Cracking",
+          "definitionJa": "「クラッキング」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Cracking là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "ビジネスメール詐欺",
+          "reading": "びじねすめーるさぎ",
+          "english": "Business Email Compromise",
+          "vi": "Lừa đảo email doanh nghiệp",
+          "definitionJa": "「ビジネスメール詐欺」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Lừa đảo email doanh nghiệp là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "誤操作",
+          "reading": "ごそうさ",
+          "english": "Human Error",
+          "vi": "Thao tác nhầm",
+          "definitionJa": "「誤操作」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Thao tác nhầm là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "アクセス権の誤設定",
+          "reading": "あくせすけんのごせってい",
+          "english": "Access Control Misconfiguration",
+          "vi": "Cấu hình sai quyền truy cập",
+          "definitionJa": "「アクセス権の誤設定」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Cấu hình sai quyền truy cập là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "紛失",
+          "reading": "ふんしつ",
+          "english": "Loss",
+          "vi": "Thất lạc",
+          "definitionJa": "「紛失」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Thất lạc là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "破損",
+          "reading": "はそん",
+          "english": "Data Corruption",
+          "vi": "Hư hỏng dữ liệu",
+          "definitionJa": "「破損」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Hư hỏng dữ liệu là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "盗み見",
+          "reading": "ぬすみみ",
+          "english": "Shoulder Surfing",
+          "vi": "Nhìn trộm màn hình",
+          "definitionJa": "「盗み見」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Nhìn trộm màn hình là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "不正利用",
+          "reading": "ふせいりよう",
+          "english": "Unauthorized Use",
+          "vi": "Sử dụng trái phép",
+          "definitionJa": "「不正利用」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Sử dụng trái phép là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "ソーシャルエンジニアリング",
+          "reading": "",
+          "english": "Social Engineering",
+          "vi": "Kỹ nghệ xã hội",
+          "definitionJa": "「ソーシャルエンジニアリング」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Kỹ nghệ xã hội là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "情報漏えい",
+          "reading": "じょうほうろうえい",
+          "english": "Information Leakage",
+          "vi": "Rò rỉ thông tin",
+          "definitionJa": "「情報漏えい」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Rò rỉ thông tin là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "故意",
+          "reading": "こい",
+          "english": "Intentional",
+          "vi": "Cố ý",
+          "definitionJa": "「故意」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Cố ý là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "過失",
+          "reading": "かしつ",
+          "english": "Negligence",
+          "vi": "Sơ suất",
+          "definitionJa": "「過失」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Sơ suất là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "誤謬",
+          "reading": "ごびゅう",
+          "english": "Fallacy",
+          "vi": "Sai lầm nhận thức",
+          "definitionJa": "「誤謬」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Sai lầm nhận thức là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "内部不正",
+          "reading": "ないぶふせい",
+          "english": "Internal Abuse",
+          "vi": "Gian lận nội bộ",
+          "definitionJa": "「内部不正」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Gian lận nội bộ là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "妨害行為",
+          "reading": "ぼうがいこうい",
+          "english": "Denial of Service Attack",
+          "vi": "Hành vi gây gián đoạn",
+          "definitionJa": "「妨害行為」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Hành vi gây gián đoạn là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "SNSの悪用",
+          "reading": "えすえぬえすのあくよう",
+          "english": "Abuse of Social Networking Services",
+          "vi": "Lạm dụng mạng xã hội",
+          "definitionJa": "「SNSの悪用」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Lạm dụng mạng xã hội là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "踏み台",
+          "reading": "ふみだい",
+          "english": "Jump Host",
+          "vi": "Máy trung gian bị lợi dụng",
+          "definitionJa": "「踏み台」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Máy trung gian bị lợi dụng là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        },
+        {
+          "term": "迷惑メール",
+          "reading": "めいわくめーる",
+          "english": "Spam",
+          "vi": "Thư rác",
+          "definitionJa": "「迷惑メール」は、物理的要因、人の行動、不正利用などによって情報資産へ被害を与える脅威の一つである。",
+          "definitionVi": "Thư rác là một dạng rủi ro đối với tài sản thông tin xuất phát từ yếu tố vật lý, hành vi con người hoặc việc sử dụng trái phép."
+        }
+      ],
+      "tags": [
+        "security",
+        "physical-and-human-threats"
+      ]
+    },
+    {
+      "id": "malware-and-vulnerabilities",
+      "order": 5,
+      "titleJa": "マルウェアと脆弱性",
+      "titleVi": "Mã độc và lỗ hổng",
+      "importance": "high",
+      "summaryJa": "代表的なマルウェアと、攻撃に利用される脆弱性を整理する。",
+      "summaryVi": "Hệ thống hóa các loại mã độc tiêu biểu và lỗ hổng bị khai thác.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "代表的なマルウェアと、攻撃に利用される脆弱性を整理する。",
+          "vi": "Hệ thống hóa các loại mã độc tiêu biểu và lỗ hổng bị khai thác."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIに対する脅威",
+          "reading": "えーあいにたいするきょうい",
+          "english": "Threats to AI",
+          "vi": "Mối đe dọa đối với AI",
+          "definitionJa": "「AIに対する脅威」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Mối đe dọa đối với AI là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "コンピュータウイルス",
+          "reading": "",
+          "english": "Computer Virus",
+          "vi": "Virus máy tính",
+          "definitionJa": "「コンピュータウイルス」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Virus máy tính là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "マクロウイルス",
+          "reading": "",
+          "english": "Macro Virus",
+          "vi": "Virus macro",
+          "definitionJa": "「マクロウイルス」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Virus macro là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ワーム",
+          "reading": "",
+          "english": "Worm",
+          "vi": "Worm",
+          "definitionJa": "「ワーム」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Worm là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ボット",
+          "reading": "",
+          "english": "Bot",
+          "vi": "Bot",
+          "definitionJa": "「ボット」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Bot là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ボットネット",
+          "reading": "",
+          "english": "Botnet",
+          "vi": "Botnet",
+          "definitionJa": "「ボットネット」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Botnet là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "RAT",
+          "reading": "らっと",
+          "english": "Remote Access Trojan",
+          "vi": "Trojan truy cập từ xa",
+          "definitionJa": "「RAT」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Trojan truy cập từ xa là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "C&Cサーバ",
+          "reading": "しーあんどしーさーば",
+          "english": "Command and Control Server",
+          "vi": "Máy chủ C&C",
+          "definitionJa": "「C&Cサーバ」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Máy chủ C&C là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "トロイの木馬",
+          "reading": "とろいのもくば",
+          "english": "Trojan Horse",
+          "vi": "Trojan",
+          "definitionJa": "「トロイの木馬」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Trojan là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "スパイウェア",
+          "reading": "",
+          "english": "Spyware",
+          "vi": "Phần mềm gián điệp",
+          "definitionJa": "「スパイウェア」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Phần mềm gián điệp là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ランサムウェア",
+          "reading": "",
+          "english": "Ransomware",
+          "vi": "Mã độc tống tiền",
+          "definitionJa": "「ランサムウェア」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Mã độc tống tiền là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "キーロガー",
+          "reading": "",
+          "english": "Keylogger",
+          "vi": "Trình ghi phím",
+          "definitionJa": "「キーロガー」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Trình ghi phím là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ルートキット",
+          "reading": "",
+          "english": "Rootkit",
+          "vi": "Rootkit",
+          "definitionJa": "「ルートキット」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Rootkit là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "バックドア",
+          "reading": "",
+          "english": "Backdoor",
+          "vi": "Cửa hậu",
+          "definitionJa": "「バックドア」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Cửa hậu là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ステルス技術",
+          "reading": "すてるすぎじゅつ",
+          "english": "Stealth Technology",
+          "vi": "Kỹ thuật ẩn mình",
+          "definitionJa": "「ステルス技術」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Kỹ thuật ẩn mình là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "ファイルレスマルウェア",
+          "reading": "",
+          "english": "Fileless Malware",
+          "vi": "Mã độc không tệp",
+          "definitionJa": "「ファイルレスマルウェア」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Mã độc không tệp là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "バグ",
+          "reading": "",
+          "english": "Bug",
+          "vi": "Lỗi phần mềm",
+          "definitionJa": "「バグ」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Lỗi phần mềm là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "セキュリティホール",
+          "reading": "",
+          "english": "Security Hole",
+          "vi": "Lỗ hổng bảo mật",
+          "definitionJa": "「セキュリティホール」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Lỗ hổng bảo mật là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "人的脆弱性",
+          "reading": "じんてきぜいじゃくせい",
+          "english": "Human Vulnerability",
+          "vi": "Điểm yếu con người",
+          "definitionJa": "「人的脆弱性」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Điểm yếu con người là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "内部統制の不備",
+          "reading": "ないぶとうせいのふび",
+          "english": "Internal Control Deficiencies",
+          "vi": "Thiếu sót kiểm soát nội bộ",
+          "definitionJa": "「内部統制の不備」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Thiếu sót kiểm soát nội bộ là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        },
+        {
+          "term": "シャドーIT",
+          "reading": "しゃどーあいてぃー",
+          "english": "Shadow IT",
+          "vi": "Shadow IT",
+          "definitionJa": "「シャドーIT」は、マルウェア、システムの弱点、またはそれらを悪用する仕組みに関するセキュリティ用語である。",
+          "definitionVi": "Shadow IT là thuật ngữ bảo mật liên quan đến mã độc, điểm yếu hệ thống hoặc cơ chế lợi dụng các điểm yếu đó."
+        }
+      ],
+      "tags": [
+        "security",
+        "malware-and-vulnerabilities"
+      ]
+    },
+    {
+      "id": "insider-threats-and-crime",
+      "order": 6,
+      "titleJa": "内部不正とサイバー犯罪",
+      "titleVi": "Gian lận nội bộ và tội phạm mạng",
+      "importance": "medium",
+      "summaryJa": "内部不正の要因、犯罪者像、犯罪予防の考え方を理解する。",
+      "summaryVi": "Hiểu nguyên nhân gian lận nội bộ, kiểu đối tượng tấn công và tư duy phòng ngừa.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "内部不正の要因、犯罪者像、犯罪予防の考え方を理解する。",
+          "vi": "Hiểu nguyên nhân gian lận nội bộ, kiểu đối tượng tấn công và tư duy phòng ngừa."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正のトライアングル",
+          "reading": "ふせいのとらいあんぐる",
+          "english": "Fraud Triangle",
+          "vi": "Tam giác gian lận",
+          "definitionJa": "「不正のトライアングル」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Tam giác gian lận là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "状況的犯罪予防",
+          "reading": "じょうきょうてきはんざいよぼう",
+          "english": "Situational Crime Prevention",
+          "vi": "Phòng ngừa tội phạm theo tình huống",
+          "definitionJa": "「状況的犯罪予防」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Phòng ngừa tội phạm theo tình huống là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "割れ窓理論",
+          "reading": "われまどりろん",
+          "english": "Broken Windows Theory",
+          "vi": "Thuyết cửa sổ vỡ",
+          "definitionJa": "「割れ窓理論」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Thuyết cửa sổ vỡ là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "防犯環境設計",
+          "reading": "ぼうはんかんきょうせっけい",
+          "english": "Crime Prevention Through Environmental Design",
+          "vi": "Thiết kế môi trường phòng chống tội phạm",
+          "definitionJa": "「防犯環境設計」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Thiết kế môi trường phòng chống tội phạm là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "内部犯",
+          "reading": "ないぶはん",
+          "english": "Insider Threat",
+          "vi": "Mối đe dọa nội bộ",
+          "definitionJa": "「内部犯」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Mối đe dọa nội bộ là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "愉快犯",
+          "reading": "ゆかいはん",
+          "english": "Joyrider",
+          "vi": "Kẻ gây án vì thú vui",
+          "definitionJa": "「愉快犯」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Kẻ gây án vì thú vui là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "詐欺犯",
+          "reading": "さぎはん",
+          "english": "Fraudster",
+          "vi": "Kẻ lừa đảo",
+          "definitionJa": "「詐欺犯」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Kẻ lừa đảo là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "故意犯",
+          "reading": "こいはん",
+          "english": "Intentional Offender",
+          "vi": "Kẻ cố ý gây hại",
+          "definitionJa": "「故意犯」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Kẻ cố ý gây hại là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "ダークウェブ",
+          "reading": "",
+          "english": "Dark Web",
+          "vi": "Dark Web",
+          "definitionJa": "「ダークウェブ」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Dark Web là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "金銭奪取",
+          "reading": "きんせんだっしゅ",
+          "english": "Monetary Theft",
+          "vi": "Chiếm đoạt tiền",
+          "definitionJa": "「金銭奪取」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Chiếm đoạt tiền là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "二重脅迫",
+          "reading": "にじゅうきょうはく",
+          "english": "Double Extortion",
+          "vi": "Tống tiền kép",
+          "definitionJa": "「二重脅迫」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Tống tiền kép là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "サイバーテロリズム",
+          "reading": "",
+          "english": "Cyber Terrorism",
+          "vi": "Khủng bố mạng",
+          "definitionJa": "「サイバーテロリズム」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Khủng bố mạng là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        },
+        {
+          "term": "サイバーキルチェーン",
+          "reading": "",
+          "english": "Cyber Kill Chain",
+          "vi": "Chuỗi tiêu diệt mạng",
+          "definitionJa": "「サイバーキルチェーン」は、内部不正やサイバー犯罪の動機・行動・予防を理解するための概念である。",
+          "definitionVi": "Chuỗi tiêu diệt mạng là khái niệm dùng để hiểu động cơ, hành vi hoặc cách phòng ngừa gian lận nội bộ và tội phạm mạng."
+        }
+      ],
+      "tags": [
+        "security",
+        "insider-threats-and-crime"
+      ]
+    },
+    {
+      "id": "password-attacks",
+      "order": 7,
+      "titleJa": "パスワード攻撃",
+      "titleVi": "Tấn công mật khẩu",
+      "importance": "high",
+      "summaryJa": "パスワードを狙う代表的な攻撃方式の違いを理解する。",
+      "summaryVi": "Phân biệt các phương thức tấn công mật khẩu tiêu biểu.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "パスワードを狙う代表的な攻撃方式の違いを理解する。",
+          "vi": "Phân biệt các phương thức tấn công mật khẩu tiêu biểu."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "辞書攻撃",
+          "reading": "じしょこうげき",
+          "english": "Dictionary Attack",
+          "vi": "Tấn công từ điển",
+          "definitionJa": "「辞書攻撃」は、認証情報を推測・試行・再利用して不正ログインを狙うパスワード攻撃の一種である。",
+          "definitionVi": "Tấn công từ điển là một dạng tấn công mật khẩu nhằm đăng nhập trái phép bằng cách đoán, thử hoặc tái sử dụng thông tin xác thực."
+        },
+        {
+          "term": "総当たり攻撃",
+          "reading": "そうあたりこうげき",
+          "english": "Brute Force Attack",
+          "vi": "Tấn công vét cạn",
+          "definitionJa": "「総当たり攻撃」は、認証情報を推測・試行・再利用して不正ログインを狙うパスワード攻撃の一種である。",
+          "definitionVi": "Tấn công vét cạn là một dạng tấn công mật khẩu nhằm đăng nhập trái phép bằng cách đoán, thử hoặc tái sử dụng thông tin xác thực."
+        },
+        {
+          "term": "リバースブルートフォース攻撃",
+          "reading": "りばーすぶるーとふぉーすこうげき",
+          "english": "Reverse Brute Force Attack",
+          "vi": "Tấn công brute-force ngược",
+          "definitionJa": "「リバースブルートフォース攻撃」は、認証情報を推測・試行・再利用して不正ログインを狙うパスワード攻撃の一種である。",
+          "definitionVi": "Tấn công brute-force ngược là một dạng tấn công mật khẩu nhằm đăng nhập trái phép bằng cách đoán, thử hoặc tái sử dụng thông tin xác thực."
+        },
+        {
+          "term": "パスワードリスト攻撃",
+          "reading": "ぱすわーどりすとこうげき",
+          "english": "Password List Attack",
+          "vi": "Tấn công danh sách mật khẩu",
+          "definitionJa": "「パスワードリスト攻撃」は、認証情報を推測・試行・再利用して不正ログインを狙うパスワード攻撃の一種である。",
+          "definitionVi": "Tấn công danh sách mật khẩu là một dạng tấn công mật khẩu nhằm đăng nhập trái phép bằng cách đoán, thử hoặc tái sử dụng thông tin xác thực."
+        }
+      ],
+      "tags": [
+        "security",
+        "password-attacks"
+      ]
+    },
+    {
+      "id": "web-application-attacks",
+      "order": 8,
+      "titleJa": "Webアプリケーション攻撃",
+      "titleVi": "Tấn công ứng dụng Web",
+      "importance": "high",
+      "summaryJa": "Webアプリケーション特有の代表的な攻撃と悪用箇所を整理する。",
+      "summaryVi": "Hệ thống hóa các tấn công đặc trưng của ứng dụng Web và điểm bị khai thác.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "Webアプリケーション特有の代表的な攻撃と悪用箇所を整理する。",
+          "vi": "Hệ thống hóa các tấn công đặc trưng của ứng dụng Web và điểm bị khai thác."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クロスサイトスクリプティング",
+          "reading": "",
+          "english": "Cross-Site Scripting",
+          "vi": "Cross-Site Scripting (XSS)",
+          "definitionJa": "「クロスサイトスクリプティング」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Cross-Site Scripting (XSS) là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "クロスサイトリクエストフォージェリ",
+          "reading": "",
+          "english": "Cross-Site Request Forgery",
+          "vi": "Cross-Site Request Forgery (CSRF)",
+          "definitionJa": "「クロスサイトリクエストフォージェリ」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Cross-Site Request Forgery (CSRF) là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "クリックジャッキング",
+          "reading": "",
+          "english": "Clickjacking",
+          "vi": "Clickjacking",
+          "definitionJa": "「クリックジャッキング」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Clickjacking là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "ドライブバイダウンロード",
+          "reading": "",
+          "english": "Drive-by Download",
+          "vi": "Drive-by Download",
+          "definitionJa": "「ドライブバイダウンロード」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Drive-by Download là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "SQLインジェクション",
+          "reading": "えすきゅーえるいんじぇくしょん",
+          "english": "SQL Injection",
+          "vi": "SQL Injection",
+          "definitionJa": "「SQLインジェクション」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "SQL Injection là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "OSコマンドインジェクション",
+          "reading": "おーえすこまんどいんじぇくしょん",
+          "english": "Operating System Command Injection",
+          "vi": "OS Command Injection",
+          "definitionJa": "「OSコマンドインジェクション」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "OS Command Injection là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "ディレクトリトラバーサル",
+          "reading": "",
+          "english": "Directory Traversal",
+          "vi": "Directory Traversal",
+          "definitionJa": "「ディレクトリトラバーサル」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Directory Traversal là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        },
+        {
+          "term": "バッファオーバーフロー攻撃",
+          "reading": "ばっふぁおーばーふろーこうげき",
+          "english": "Buffer Overflow Attack",
+          "vi": "Tấn công tràn bộ đệm",
+          "definitionJa": "「バッファオーバーフロー攻撃」は、Webアプリケーションの入力処理やブラウザの動作などを悪用する攻撃手法である。",
+          "definitionVi": "Tấn công tràn bộ đệm là kỹ thuật tấn công khai thác cách ứng dụng Web xử lý đầu vào hoặc cách trình duyệt hoạt động."
+        }
+      ],
+      "tags": [
+        "security",
+        "web-application-attacks"
+      ]
+    },
+    {
+      "id": "network-and-service-attacks",
+      "order": 9,
+      "titleJa": "ネットワーク・サービスへの攻撃",
+      "titleVi": "Tấn công mạng và dịch vụ",
+      "importance": "high",
+      "summaryJa": "通信やサービスを対象とする代表的な攻撃手法を整理する。",
+      "summaryVi": "Hệ thống hóa các kỹ thuật tấn công nhắm vào giao tiếp mạng và dịch vụ.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "通信やサービスを対象とする代表的な攻撃手法を整理する。",
+          "vi": "Hệ thống hóa các kỹ thuật tấn công nhắm vào giao tiếp mạng và dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "中間者攻撃",
+          "reading": "ちゅうかんしゃこうげき",
+          "english": "Man-in-the-Middle Attack",
+          "vi": "Tấn công Man-in-the-Middle",
+          "definitionJa": "「中間者攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công Man-in-the-Middle là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "MITB攻撃",
+          "reading": "えむあいてぃびーこうげき",
+          "english": "Man-in-the-Browser Attack",
+          "vi": "Tấn công Man-in-the-Browser",
+          "definitionJa": "「MITB攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công Man-in-the-Browser là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "第三者中継",
+          "reading": "だいさんしゃちゅうけい",
+          "english": "Third-Party Relay",
+          "vi": "Chuyển tiếp qua bên thứ ba",
+          "definitionJa": "「第三者中継」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Chuyển tiếp qua bên thứ ba là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "IPスプーフィング",
+          "reading": "あいぴーすぷーふぃんぐ",
+          "english": "IP Spoofing",
+          "vi": "Giả mạo IP",
+          "definitionJa": "「IPスプーフィング」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Giả mạo IP là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "DNSキャッシュポイズニング",
+          "reading": "でぃーえぬえすきゃっしゅぽいずにんぐ",
+          "english": "DNS Cache Poisoning",
+          "vi": "Đầu độc bộ nhớ đệm DNS",
+          "definitionJa": "「DNSキャッシュポイズニング」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Đầu độc bộ nhớ đệm DNS là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "フィッシング",
+          "reading": "",
+          "english": "Phishing",
+          "vi": "Lừa đảo phishing",
+          "definitionJa": "「フィッシング」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Lừa đảo phishing là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "セッションハイジャック",
+          "reading": "",
+          "english": "Session Hijacking",
+          "vi": "Chiếm đoạt phiên",
+          "definitionJa": "「セッションハイジャック」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Chiếm đoạt phiên là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "DoS攻撃",
+          "reading": "でぃーおーえすこうげき",
+          "english": "Denial-of-Service Attack",
+          "vi": "Tấn công DoS",
+          "definitionJa": "「DoS攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công DoS là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "DDoS攻撃",
+          "reading": "でぃーどすこうげき",
+          "english": "Distributed Denial of Service Attack",
+          "vi": "Tấn công DDoS",
+          "definitionJa": "「DDoS攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công DDoS là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "標的型攻撃",
+          "reading": "ひょうてきがたこうげき",
+          "english": "Targeted Attack",
+          "vi": "Tấn công có chủ đích",
+          "definitionJa": "「標的型攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công có chủ đích là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "APT",
+          "reading": "えーぴーてぃー",
+          "english": "Advanced Persistent Threat",
+          "vi": "Mối đe dọa dai dẳng nâng cao",
+          "definitionJa": "「APT」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Mối đe dọa dai dẳng nâng cao là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "水飲み場型攻撃",
+          "reading": "みずのみばがたこうげき",
+          "english": "Watering Hole Attack",
+          "vi": "Tấn công watering hole",
+          "definitionJa": "「水飲み場型攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công watering hole là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "やり取り型攻撃",
+          "reading": "やりとりがたこうげき",
+          "english": "Interactive Attack",
+          "vi": "Tấn công tương tác",
+          "definitionJa": "「やり取り型攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công tương tác là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "SEOポイズニング",
+          "reading": "えすいーおーぽいずにんぐ",
+          "english": "Search Engine Optimization Poisoning",
+          "vi": "Đầu độc SEO",
+          "definitionJa": "「SEOポイズニング」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Đầu độc SEO là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "ゼロデイ攻撃",
+          "reading": "ぜろでいこうげき",
+          "english": "Zero-Day Attack",
+          "vi": "Tấn công zero-day",
+          "definitionJa": "「ゼロデイ攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công zero-day là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "サイドチャネル攻撃",
+          "reading": "さいどちゃねるこうげき",
+          "english": "Side Channel Attack",
+          "vi": "Tấn công kênh kề",
+          "definitionJa": "「サイドチャネル攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công kênh kề là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "テンペスト攻撃",
+          "reading": "てんぺすとこうげき",
+          "english": "Tempest Attack",
+          "vi": "Tấn công TEMPEST",
+          "definitionJa": "「テンペスト攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công TEMPEST là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "プローブ攻撃",
+          "reading": "ぷろーぶこうげき",
+          "english": "Probe Attack",
+          "vi": "Tấn công thăm dò",
+          "definitionJa": "「プローブ攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công thăm dò là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "タイミング攻撃",
+          "reading": "たいみんぐこうげき",
+          "english": "Timing Attack",
+          "vi": "Tấn công thời gian",
+          "definitionJa": "「タイミング攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công thời gian là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "電力解析攻撃",
+          "reading": "でんりょくかいせきこうげき",
+          "english": "Power Analysis Attack",
+          "vi": "Tấn công phân tích điện năng",
+          "definitionJa": "「電力解析攻撃」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Tấn công phân tích điện năng là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        },
+        {
+          "term": "オープンリゾルバの悪用",
+          "reading": "おーぷんりぞるばのあくよう",
+          "english": "Abuse of Open Resolver",
+          "vi": "Lạm dụng open resolver",
+          "definitionJa": "「オープンリゾルバの悪用」は、ネットワーク通信、名前解決、セッション、サービス提供などを悪用・妨害する攻撃または攻撃手法である。",
+          "definitionVi": "Lạm dụng open resolver là kiểu tấn công hoặc kỹ thuật khai thác/gây gián đoạn giao tiếp mạng, phân giải tên, phiên làm việc hoặc dịch vụ."
+        }
+      ],
+      "tags": [
+        "security",
+        "network-and-service-attacks"
+      ]
+    },
+    {
+      "id": "ai-and-reconnaissance-threats",
+      "order": 10,
+      "titleJa": "AIへの攻撃と偵察",
+      "titleVi": "Tấn công AI và trinh sát",
+      "importance": "medium",
+      "summaryJa": "AI特有の脅威と、攻撃前の偵察活動を理解する。",
+      "summaryVi": "Hiểu các mối đe dọa đặc thù của AI và hoạt động trinh sát trước tấn công.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "AI特有の脅威と、攻撃前の偵察活動を理解する。",
+          "vi": "Hiểu các mối đe dọa đặc thù của AI và hoạt động trinh sát trước tấn công."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ディープフェイク",
+          "reading": "",
+          "english": "Deepfake",
+          "vi": "Deepfake",
+          "definitionJa": "「ディープフェイク」は、AIシステムへの攻撃、または攻撃前の情報収集・偵察に関する手法である。",
+          "definitionVi": "Deepfake là kỹ thuật liên quan đến tấn công hệ thống AI hoặc thu thập thông tin/trinh sát trước khi tấn công."
+        },
+        {
+          "term": "敵対的サンプル",
+          "reading": "てきたいてきさんぷる",
+          "english": "Adversarial Sample",
+          "vi": "Mẫu đối kháng",
+          "definitionJa": "「敵対的サンプル」は、AIシステムへの攻撃、または攻撃前の情報収集・偵察に関する手法である。",
+          "definitionVi": "Mẫu đối kháng là kỹ thuật liên quan đến tấn công hệ thống AI hoặc thu thập thông tin/trinh sát trước khi tấn công."
+        },
+        {
+          "term": "プロンプトインジェクション攻撃",
+          "reading": "ぷろんぷといんじぇくしょんこうげき",
+          "english": "Prompt Injection Attack",
+          "vi": "Tấn công prompt injection",
+          "definitionJa": "「プロンプトインジェクション攻撃」は、AIシステムへの攻撃、または攻撃前の情報収集・偵察に関する手法である。",
+          "definitionVi": "Tấn công prompt injection là kỹ thuật liên quan đến tấn công hệ thống AI hoặc thu thập thông tin/trinh sát trước khi tấn công."
+        },
+        {
+          "term": "フットプリンティング",
+          "reading": "",
+          "english": "Footprinting",
+          "vi": "Footprinting",
+          "definitionJa": "「フットプリンティング」は、AIシステムへの攻撃、または攻撃前の情報収集・偵察に関する手法である。",
+          "definitionVi": "Footprinting là kỹ thuật liên quan đến tấn công hệ thống AI hoặc thu thập thông tin/trinh sát trước khi tấn công."
+        },
+        {
+          "term": "ポートスキャン",
+          "reading": "",
+          "english": "Port Scan",
+          "vi": "Quét cổng",
+          "definitionJa": "「ポートスキャン」は、AIシステムへの攻撃、または攻撃前の情報収集・偵察に関する手法である。",
+          "definitionVi": "Quét cổng là kỹ thuật liên quan đến tấn công hệ thống AI hoặc thu thập thông tin/trinh sát trước khi tấn công."
+        }
+      ],
+      "tags": [
+        "security",
+        "ai-and-reconnaissance-threats"
+      ]
+    },
+    {
+      "id": "cryptography-basics",
+      "order": 11,
+      "titleJa": "暗号技術の基本",
+      "titleVi": "Cơ bản về mật mã",
+      "importance": "high",
+      "summaryJa": "共通鍵・公開鍵・ハッシュ・暗号モード・鍵管理の基本を整理する。",
+      "summaryVi": "Hệ thống hóa mật mã đối xứng, khóa công khai, hàm băm, chế độ mã hóa và quản lý khóa.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "共通鍵・公開鍵・ハッシュ・暗号モード・鍵管理の基本を整理する。",
+          "vi": "Hệ thống hóa mật mã đối xứng, khóa công khai, hàm băm, chế độ mã hóa và quản lý khóa."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CRYPTREC暗号リスト",
+          "reading": "くりぷとれっくあんごうりすと",
+          "english": "CRYPTREC Cryptographic Algorithm List",
+          "vi": "Danh sách thuật toán mật mã CRYPTREC",
+          "definitionJa": "「CRYPTREC暗号リスト」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Danh sách thuật toán mật mã CRYPTREC là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "共通鍵暗号方式",
+          "reading": "きょうつうかぎあんごうほうしき",
+          "english": "Symmetric Key Encryption",
+          "vi": "Mật mã khóa đối xứng",
+          "definitionJa": "暗号化と復号に同じ秘密鍵を用いる暗号方式。高速だが、安全な鍵共有が課題となる。",
+          "definitionVi": "Phương thức dùng cùng một khóa bí mật để mã hóa và giải mã; nhanh nhưng cần giải quyết việc chia sẻ khóa an toàn."
+        },
+        {
+          "term": "公開鍵暗号方式",
+          "reading": "こうかいかぎあんごうほうしき",
+          "english": "Public Key Cryptography",
+          "vi": "Mật mã khóa công khai",
+          "definitionJa": "公開鍵と秘密鍵の対を用いる暗号方式。一方の鍵で行った処理は対応するもう一方の鍵と組み合わせて利用する。",
+          "definitionVi": "Phương thức dùng cặp khóa công khai và khóa bí mật; hai khóa có vai trò tương ứng trong mã hóa hoặc chữ ký số."
+        },
+        {
+          "term": "RSA暗号",
+          "reading": "あーるえすえーあんごう",
+          "english": "RSA Encryption",
+          "vi": "Mật mã RSA",
+          "definitionJa": "「RSA暗号」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mật mã RSA là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "ハイブリッド暗号",
+          "reading": "はいぶりっどあんごう",
+          "english": "Hybrid Cryptography",
+          "vi": "Mật mã lai",
+          "definitionJa": "「ハイブリッド暗号」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mật mã lai là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "ハッシュ関数",
+          "reading": "はっしゅかんすう",
+          "english": "Hash Function",
+          "vi": "Hàm băm",
+          "definitionJa": "任意長のデータから固定長のハッシュ値を生成する一方向性の関数。改ざん検出などに利用する。",
+          "definitionVi": "Hàm một chiều tạo giá trị băm có độ dài cố định từ dữ liệu đầu vào, thường dùng để phát hiện thay đổi."
+        },
+        {
+          "term": "ブロック暗号",
+          "reading": "ぶろっくあんごう",
+          "english": "Block Cipher",
+          "vi": "Mật mã khối",
+          "definitionJa": "「ブロック暗号」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mật mã khối là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "AES",
+          "reading": "えーいーえす",
+          "english": "Advanced Encryption Standard",
+          "vi": "AES",
+          "definitionJa": "代表的な共通鍵ブロック暗号。128ビットのブロックを処理し、128・192・256ビットの鍵長を利用できる。",
+          "definitionVi": "Thuật toán mã hóa khối đối xứng phổ biến, xử lý khối 128 bit và hỗ trợ khóa 128, 192 hoặc 256 bit."
+        },
+        {
+          "term": "CBC",
+          "reading": "しーびーしー",
+          "english": "Cipher Block Chaining",
+          "vi": "Chế độ CBC",
+          "definitionJa": "「CBC」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Chế độ CBC là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "CTR",
+          "reading": "しーてぃーあーる",
+          "english": "Counter",
+          "vi": "Chế độ CTR",
+          "definitionJa": "「CTR」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Chế độ CTR là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "ストリーム暗号",
+          "reading": "すとりーむあんごう",
+          "english": "Stream Cipher",
+          "vi": "Mật mã dòng",
+          "definitionJa": "「ストリーム暗号」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mật mã dòng là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "鍵管理",
+          "reading": "かぎかんり",
+          "english": "Key Management",
+          "vi": "Quản lý khóa",
+          "definitionJa": "「鍵管理」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Quản lý khóa là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "ストレージ暗号化",
+          "reading": "すとれーじあんごうか",
+          "english": "Storage Encryption",
+          "vi": "Mã hóa lưu trữ",
+          "definitionJa": "「ストレージ暗号化」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mã hóa lưu trữ là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "ファイル暗号化",
+          "reading": "ふぁいるあんごうか",
+          "english": "File Encryption",
+          "vi": "Mã hóa tệp",
+          "definitionJa": "「ファイル暗号化」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Mã hóa tệp là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        },
+        {
+          "term": "危殆化",
+          "reading": "きたいか",
+          "english": "Compromise",
+          "vi": "Bị xâm phạm",
+          "definitionJa": "「危殆化」は、データの機密性・完全性などを守るための暗号技術または暗号運用に関する概念である。",
+          "definitionVi": "Bị xâm phạm là khái niệm hoặc kỹ thuật mật mã dùng để bảo vệ tính bí mật, toàn vẹn và các thuộc tính an toàn của dữ liệu."
+        }
+      ],
+      "tags": [
+        "security",
+        "cryptography-basics"
+      ]
+    },
+    {
+      "id": "digital-signatures-and-message-auth",
+      "order": 12,
+      "titleJa": "デジタル署名とメッセージ認証",
+      "titleVi": "Chữ ký số và xác thực thông điệp",
+      "importance": "high",
+      "summaryJa": "デジタル署名とメッセージ認証が保証する内容を区別する。",
+      "summaryVi": "Phân biệt những gì chữ ký số và xác thực thông điệp bảo đảm.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "デジタル署名とメッセージ認証が保証する内容を区別する。",
+          "vi": "Phân biệt những gì chữ ký số và xác thực thông điệp bảo đảm."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタル署名",
+          "reading": "でじたるしょめい",
+          "english": "Digital Signature",
+          "vi": "Chữ ký số",
+          "definitionJa": "秘密鍵で署名を生成し、対応する公開鍵で検証することで、作成者の確認と改ざん検出に利用する仕組み。",
+          "definitionVi": "Cơ chế tạo chữ ký bằng khóa bí mật và kiểm tra bằng khóa công khai tương ứng để xác nhận người ký và phát hiện sửa đổi."
+        },
+        {
+          "term": "XMLデジタル署名",
+          "reading": "えっくすえむえるでじたるしょめい",
+          "english": "XML Digital Signature",
+          "vi": "Chữ ký số XML",
+          "definitionJa": "「XMLデジタル署名」は、データの改ざん検出、送信元確認、署名検証などに利用される認証技術である。",
+          "definitionVi": "Chữ ký số XML là kỹ thuật xác thực dùng cho phát hiện sửa đổi, xác nhận nguồn gửi hoặc kiểm tra chữ ký."
+        },
+        {
+          "term": "タイムスタンプ",
+          "reading": "",
+          "english": "Timestamp",
+          "vi": "Dấu thời gian",
+          "definitionJa": "「タイムスタンプ」は、データの改ざん検出、送信元確認、署名検証などに利用される認証技術である。",
+          "definitionVi": "Dấu thời gian là kỹ thuật xác thực dùng cho phát hiện sửa đổi, xác nhận nguồn gửi hoặc kiểm tra chữ ký."
+        },
+        {
+          "term": "メッセージダイジェスト",
+          "reading": "",
+          "english": "Message Digest",
+          "vi": "Bản tóm lược thông điệp",
+          "definitionJa": "「メッセージダイジェスト」は、データの改ざん検出、送信元確認、署名検証などに利用される認証技術である。",
+          "definitionVi": "Bản tóm lược thông điệp là kỹ thuật xác thực dùng cho phát hiện sửa đổi, xác nhận nguồn gửi hoặc kiểm tra chữ ký."
+        },
+        {
+          "term": "メッセージ認証",
+          "reading": "めっせーじにんしょう",
+          "english": "Message Authentication",
+          "vi": "Xác thực thông điệp",
+          "definitionJa": "「メッセージ認証」は、データの改ざん検出、送信元確認、署名検証などに利用される認証技術である。",
+          "definitionVi": "Xác thực thông điệp là kỹ thuật xác thực dùng cho phát hiện sửa đổi, xác nhận nguồn gửi hoặc kiểm tra chữ ký."
+        },
+        {
+          "term": "MAC",
+          "reading": "まっく",
+          "english": "Message Authentication Code",
+          "vi": "Mã xác thực thông điệp",
+          "definitionJa": "共通の秘密鍵とメッセージから認証値を生成し、メッセージの完全性と送信元の正当性を確認する仕組み。",
+          "definitionVi": "Cơ chế tạo mã xác thực từ khóa bí mật dùng chung và thông điệp để kiểm tra tính toàn vẹn và tính hợp lệ của nguồn gửi."
+        }
+      ],
+      "tags": [
+        "security",
+        "digital-signatures-and-message-auth"
+      ]
+    },
+    {
+      "id": "authentication-and-access-control",
+      "order": 13,
+      "titleJa": "認証とアクセス管理",
+      "titleVi": "Xác thực và quản lý truy cập",
+      "importance": "high",
+      "summaryJa": "本人認証、認証要素、アクセス管理の主要技術を整理する。",
+      "summaryVi": "Hệ thống hóa các kỹ thuật chính về xác thực danh tính, yếu tố xác thực và quản lý truy cập.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "本人認証、認証要素、アクセス管理の主要技術を整理する。",
+          "vi": "Hệ thống hóa các kỹ thuật chính về xác thực danh tính, yếu tố xác thực và quản lý truy cập."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "チャレンジレスポンス認証",
+          "reading": "ちゃれんじれすぽんすにんしょう",
+          "english": "Challenge-Response Authentication",
+          "vi": "Xác thực challenge-response",
+          "definitionJa": "「チャレンジレスポンス認証」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Xác thực challenge-response là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "リスクベース認証",
+          "reading": "りすくべーすにんしょう",
+          "english": "Risk-Based Authentication",
+          "vi": "Xác thực dựa trên rủi ro",
+          "definitionJa": "「リスクベース認証」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Xác thực dựa trên rủi ro là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "ログイン",
+          "reading": "",
+          "english": "Login",
+          "vi": "Đăng nhập",
+          "definitionJa": "「ログイン」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Đăng nhập là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "アクセス管理",
+          "reading": "あくせすかんり",
+          "english": "Access Control",
+          "vi": "Quản lý truy cập",
+          "definitionJa": "「アクセス管理」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Quản lý truy cập là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "ICカード",
+          "reading": "あいしーかーど",
+          "english": "Integrated Circuit Card",
+          "vi": "Thẻ IC",
+          "definitionJa": "「ICカード」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Thẻ IC là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "PINコード",
+          "reading": "ぴんこーど",
+          "english": "Personal Identification Number",
+          "vi": "Mã PIN",
+          "definitionJa": "「PINコード」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Mã PIN là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "ワンタイムパスワード",
+          "reading": "",
+          "english": "One-Time Password",
+          "vi": "Mật khẩu dùng một lần",
+          "definitionJa": "「ワンタイムパスワード」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Mật khẩu dùng một lần là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "多要素認証",
+          "reading": "たようそにんしょう",
+          "english": "Multi-Factor Authentication",
+          "vi": "Xác thực đa yếu tố",
+          "definitionJa": "知識・所持・生体など異なる認証要素を二つ以上組み合わせて本人確認する方式。",
+          "definitionVi": "Phương thức xác thực kết hợp từ hai yếu tố khác loại trở lên như kiến thức, vật sở hữu và sinh trắc học."
+        },
+        {
+          "term": "多段階認証",
+          "reading": "ただんかいにんしょう",
+          "english": "Multi-Step Authentication",
+          "vi": "Xác thực nhiều bước",
+          "definitionJa": "認証処理を複数の段階に分けて実施する方式。各段階が同じ種類の認証要素である場合もある。",
+          "definitionVi": "Phương thức thực hiện xác thực qua nhiều bước; các bước không nhất thiết phải thuộc các loại yếu tố khác nhau."
+        },
+        {
+          "term": "パスワードレス認証",
+          "reading": "ぱすわーどれすにんしょう",
+          "english": "Passwordless Authentication",
+          "vi": "Xác thực không mật khẩu",
+          "definitionJa": "「パスワードレス認証」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Xác thực không mật khẩu là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "FIDO UAF",
+          "reading": "ふぁいどゆーえーえふ",
+          "english": "FIDO Universal Authentication Framework",
+          "vi": "FIDO UAF",
+          "definitionJa": "「FIDO UAF」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "FIDO UAF là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "FIDO U2F",
+          "reading": "ふぁいどゆーえふつー",
+          "english": "Fast Identity Online Universal 2nd Factor",
+          "vi": "FIDO U2F",
+          "definitionJa": "「FIDO U2F」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "FIDO U2F là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "FIDO2",
+          "reading": "ふぁいどつー",
+          "english": "FIDO2",
+          "vi": "FIDO2",
+          "definitionJa": "「FIDO2」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "FIDO2 là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "EMV3-Dセキュア",
+          "reading": "いーえむぶいすりーでぃーせきゅあ",
+          "english": "EMV 3-D Secure",
+          "vi": "EMV 3-D Secure",
+          "definitionJa": "「EMV3-Dセキュア」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "EMV 3-D Secure là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "セキュリティトークン",
+          "reading": "",
+          "english": "Security Token",
+          "vi": "Token bảo mật",
+          "definitionJa": "「セキュリティトークン」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Token bảo mật là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "シングルサインオン",
+          "reading": "",
+          "english": "Single Sign-On",
+          "vi": "Đăng nhập một lần",
+          "definitionJa": "「シングルサインオン」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "Đăng nhập một lần là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        },
+        {
+          "term": "CAPTCHA",
+          "reading": "きゃぷちゃ",
+          "english": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+          "vi": "CAPTCHA",
+          "definitionJa": "「CAPTCHA」は、利用者本人を確認し、システムや情報資源へのアクセスを適切に制御するための認証・アクセス管理技術である。",
+          "definitionVi": "CAPTCHA là kỹ thuật xác thực hoặc quản lý truy cập dùng để kiểm tra danh tính người dùng và kiểm soát quyền sử dụng tài nguyên."
+        }
+      ],
+      "tags": [
+        "security",
+        "authentication-and-access-control"
+      ]
+    },
+    {
+      "id": "biometric-authentication",
+      "order": 14,
+      "titleJa": "生体認証",
+      "titleVi": "Xác thực sinh trắc học",
+      "importance": "medium",
+      "summaryJa": "生体認証で使う特徴と、本人拒否率・他人受入率を理解する。",
+      "summaryVi": "Hiểu đặc điểm dùng trong sinh trắc học và hai chỉ số FRR/FAR.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "生体認証で使う特徴と、本人拒否率・他人受入率を理解する。",
+          "vi": "Hiểu đặc điểm dùng trong sinh trắc học và hai chỉ số FRR/FAR."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生体認証",
+          "reading": "せいたいにんしょう",
+          "english": "Biometric Authentication",
+          "vi": "Xác thực sinh trắc học",
+          "definitionJa": "「生体認証」は、身体的特徴や行動的特徴を利用する生体認証と、その認証精度を評価するための概念である。",
+          "definitionVi": "Xác thực sinh trắc học là khái niệm thuộc xác thực sinh trắc học, sử dụng đặc điểm cơ thể/hành vi hoặc đánh giá độ chính xác xác thực."
+        },
+        {
+          "term": "身体的特徴",
+          "reading": "しんたいてきとくちょう",
+          "english": "Biometric Characteristics",
+          "vi": "Đặc điểm sinh học cơ thể",
+          "definitionJa": "「身体的特徴」は、身体的特徴や行動的特徴を利用する生体認証と、その認証精度を評価するための概念である。",
+          "definitionVi": "Đặc điểm sinh học cơ thể là khái niệm thuộc xác thực sinh trắc học, sử dụng đặc điểm cơ thể/hành vi hoặc đánh giá độ chính xác xác thực."
+        },
+        {
+          "term": "行動的特徴",
+          "reading": "こうどうてきとくちょう",
+          "english": "Behavioral Characteristics",
+          "vi": "Đặc điểm hành vi",
+          "definitionJa": "「行動的特徴」は、身体的特徴や行動的特徴を利用する生体認証と、その認証精度を評価するための概念である。",
+          "definitionVi": "Đặc điểm hành vi là khái niệm thuộc xác thực sinh trắc học, sử dụng đặc điểm cơ thể/hành vi hoặc đánh giá độ chính xác xác thực."
+        },
+        {
+          "term": "本人拒否率",
+          "reading": "ほんにんきょひりつ",
+          "english": "False Rejection Rate",
+          "vi": "Tỷ lệ từ chối sai người thật",
+          "definitionJa": "「本人拒否率」は、身体的特徴や行動的特徴を利用する生体認証と、その認証精度を評価するための概念である。",
+          "definitionVi": "Tỷ lệ từ chối sai người thật là khái niệm thuộc xác thực sinh trắc học, sử dụng đặc điểm cơ thể/hành vi hoặc đánh giá độ chính xác xác thực."
+        },
+        {
+          "term": "他人受入率",
+          "reading": "たにんうけいれりつ",
+          "english": "False Acceptance Rate",
+          "vi": "Tỷ lệ chấp nhận sai người khác",
+          "definitionJa": "「他人受入率」は、身体的特徴や行動的特徴を利用する生体認証と、その認証精度を評価するための概念である。",
+          "definitionVi": "Tỷ lệ chấp nhận sai người khác là khái niệm thuộc xác thực sinh trắc học, sử dụng đặc điểm cơ thể/hành vi hoặc đánh giá độ chính xác xác thực."
+        }
+      ],
+      "tags": [
+        "security",
+        "biometric-authentication"
+      ]
+    },
+    {
+      "id": "pki-and-certificates",
+      "order": 15,
+      "titleJa": "PKIとデジタル証明書",
+      "titleVi": "PKI và chứng thư số",
+      "importance": "high",
+      "summaryJa": "PKIの信頼モデル、証明書、CA、失効確認を整理する。",
+      "summaryVi": "Hệ thống hóa mô hình tin cậy PKI, chứng thư, CA và kiểm tra thu hồi.",
+      "content": [
+        {
+          "type": "paragraph",
+          "ja": "PKIの信頼モデル、証明書、CA、失効確認を整理する。",
+          "vi": "Hệ thống hóa mô hình tin cậy PKI, chứng thư, CA và kiểm tra thu hồi."
+        },
+        {
+          "type": "point",
+          "ja": "各用語の目的と、似た概念との違いを説明できるようにする。",
+          "vi": "Cần nắm được mục đích của từng thuật ngữ và phân biệt được với các khái niệm gần nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PKI",
+          "reading": "ぴーけーあい",
+          "english": "Public Key Infrastructure",
+          "vi": "Hạ tầng khóa công khai",
+          "definitionJa": "公開鍵暗号とデジタル証明書を用いて、公開鍵の所有者を信頼できる形で確認するための基盤。",
+          "definitionVi": "Hạ tầng dùng mật mã khóa công khai và chứng thư số để xác minh đáng tin cậy chủ sở hữu của khóa công khai."
+        },
+        {
+          "term": "デジタル証明書",
+          "reading": "でじたるしょうめいしょ",
+          "english": "Digital Certificate",
+          "vi": "Chứng thư số",
+          "definitionJa": "「デジタル証明書」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Chứng thư số là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "ルート証明書",
+          "reading": "るーとしょうめいしょ",
+          "english": "Root Certificate",
+          "vi": "Chứng thư gốc",
+          "definitionJa": "「ルート証明書」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Chứng thư gốc là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "トラストアンカー",
+          "reading": "",
+          "english": "Trust Anchor",
+          "vi": "Điểm neo tin cậy",
+          "definitionJa": "「トラストアンカー」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Điểm neo tin cậy là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "中間CA証明書",
+          "reading": "ちゅうかんしーえーしょうめいしょ",
+          "english": "Intermediate Certificate Authority",
+          "vi": "Chứng thư CA trung gian",
+          "definitionJa": "「中間CA証明書」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Chứng thư CA trung gian là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "サーバ証明書",
+          "reading": "さーばしょうめいしょ",
+          "english": "Server Certificate",
+          "vi": "Chứng thư máy chủ",
+          "definitionJa": "「サーバ証明書」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Chứng thư máy chủ là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "クライアント証明書",
+          "reading": "くらいあんとしょうめいしょ",
+          "english": "Client Certificate",
+          "vi": "Chứng thư máy khách",
+          "definitionJa": "「クライアント証明書」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Chứng thư máy khách là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "OCSP",
+          "reading": "おーしーえすぴー",
+          "english": "Online Certificate Status Protocol",
+          "vi": "Giao thức trạng thái chứng thư trực tuyến",
+          "definitionJa": "「OCSP」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Giao thức trạng thái chứng thư trực tuyến là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "CA",
+          "reading": "しーえー",
+          "english": "Certification Authority",
+          "vi": "Tổ chức chứng thực",
+          "definitionJa": "デジタル証明書を発行し、公開鍵と主体の対応関係を保証する認証局。",
+          "definitionVi": "Tổ chức chứng thực phát hành chứng thư số và xác nhận mối liên hệ giữa khóa công khai với chủ thể."
+        },
+        {
+          "term": "GPKI",
+          "reading": "じーぴーけーあい",
+          "english": "Government Public Key Infrastructure",
+          "vi": "Hạ tầng khóa công khai Chính phủ Nhật",
+          "definitionJa": "「GPKI」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "Hạ tầng khóa công khai Chính phủ Nhật là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        },
+        {
+          "term": "BCA",
+          "reading": "びーしーえー",
+          "english": "Bridge Certification Authority",
+          "vi": "CA cầu nối",
+          "definitionJa": "「BCA」は、PKIにおけるデジタル証明書の発行・検証・信頼関係・失効確認に関する仕組みである。",
+          "definitionVi": "CA cầu nối là cơ chế trong PKI liên quan đến phát hành, kiểm tra, xây dựng chuỗi tin cậy hoặc xác nhận trạng thái chứng thư số."
+        }
+      ],
+      "tags": [
+        "security",
+        "pki-and-certificates"
+      ]
+    }
+  ]
+}

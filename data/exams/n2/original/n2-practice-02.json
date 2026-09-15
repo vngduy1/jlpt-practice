@@ -1,0 +1,169 @@
+{
+  "id": "n2-practice-02",
+  "source": "ORIGINAL",
+  "level": "N2",
+  "title": "N2 Practice Exam 02",
+  "status": "draft",
+  "description": "40-de-thi-jlpt-n2.pdf の N2-2 練習問題",
+  "questionCount": 75,
+  "durationMinutes": 105,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "文字・語彙",
+      "items": [
+        { "id": 1, "mondai": 1, "type": "KANJI_READING", "question": "これからも様々な国との相互理解を深めていこうと思う。", "target": "相互", "choices": [{ "id": 1, "text": "しょうご" }, { "id": 2, "text": "しょうごう" }, { "id": 3, "text": "そうご" }, { "id": 4, "text": "そうごう" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 2, "mondai": 1, "type": "KANJI_READING", "question": "この料理は辛くて食べられない。", "target": "辛くて", "choices": [{ "id": 1, "text": "からくて" }, { "id": 2, "text": "くさくて" }, { "id": 3, "text": "にがくて" }, { "id": 4, "text": "しぶくて" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 3, "mondai": 1, "type": "KANJI_READING", "question": "晴れている日は、この山頂からすばらしい景色が見える。", "target": "景色", "choices": [{ "id": 1, "text": "けいしき" }, { "id": 2, "text": "けしき" }, { "id": 3, "text": "けいいろ" }, { "id": 4, "text": "けいろ" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 4, "mondai": 1, "type": "KANJI_READING", "question": "このお金は、何かあったときに備えておこう。", "target": "備えて", "choices": [{ "id": 1, "text": "ととのえて" }, { "id": 2, "text": "たくわえて" }, { "id": 3, "text": "かかえて" }, { "id": 4, "text": "そなえて" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 5, "mondai": 1, "type": "KANJI_READING", "question": "今から、防災訓練を行います。", "target": "防災", "choices": [{ "id": 1, "text": "ぼうえん" }, { "id": 2, "text": "ぼうさい" }, { "id": 3, "text": "ほうえん" }, { "id": 4, "text": "ほうさい" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 6, "mondai": 2, "type": "VOCABULARY", "question": "彼はとてもれいぎ正しいです。", "target": "れいぎ", "choices": [{ "id": 1, "text": "札義" }, { "id": 2, "text": "札儀" }, { "id": 3, "text": "礼義" }, { "id": 4, "text": "礼儀" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 7, "mondai": 2, "type": "VOCABULARY", "question": "彼は苦労を重ねて、社長にまでしゅっせした。", "target": "しゅっせ", "choices": [{ "id": 1, "text": "出成" }, { "id": 2, "text": "出世" }, { "id": 3, "text": "昇成" }, { "id": 4, "text": "昇世" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 8, "mondai": 2, "type": "VOCABULARY", "question": "この店はでんとうの味を守り続けている。", "target": "でんとう", "choices": [{ "id": 1, "text": "伝授" }, { "id": 2, "text": "伝承" }, { "id": 3, "text": "伝統" }, { "id": 4, "text": "伝達" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 9, "mondai": 2, "type": "VOCABULARY", "question": "そんなにあせらなくても大丈夫ですよ。", "target": "あせらなくても", "choices": [{ "id": 1, "text": "焦らなくても" }, { "id": 2, "text": "騒らなくても" }, { "id": 3, "text": "競らなくても" }, { "id": 4, "text": "暴らなくても" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 10, "mondai": 2, "type": "VOCABULARY", "question": "大学に入学してから、一人でくらしています。", "target": "くらして", "choices": [{ "id": 1, "text": "幕らして" }, { "id": 2, "text": "募らして" }, { "id": 3, "text": "暮らして" }, { "id": 4, "text": "墓らして" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 11, "mondai": 3, "type": "VOCABULARY", "question": "今日の講演のテーマは、教育の（ ）問題についてです。", "choices": [{ "id": 1, "text": "諸" }, { "id": 2, "text": "複" }, { "id": 3, "text": "雑" }, { "id": 4, "text": "類" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 12, "mondai": 3, "type": "VOCABULARY", "question": "駅前の商店（ ）で、買い物して帰ろう。", "choices": [{ "id": 1, "text": "帯" }, { "id": 2, "text": "域" }, { "id": 3, "text": "街" }, { "id": 4, "text": "町" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 13, "mondai": 3, "type": "VOCABULARY", "question": "夏休みに旅行に行きたいので、（ ）収入のアルバイトを探している。", "choices": [{ "id": 1, "text": "上" }, { "id": 2, "text": "良" }, { "id": 3, "text": "優" }, { "id": 4, "text": "高" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 14, "mondai": 3, "type": "VOCABULARY", "question": "来週の会議には、社長と（ ）社長も出席する予定だ。", "choices": [{ "id": 1, "text": "準" }, { "id": 2, "text": "副" }, { "id": 3, "text": "補" }, { "id": 4, "text": "助" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 15, "mondai": 3, "type": "VOCABULARY", "question": "疲れると、集中（ ）が落ちて仕事が進まなくなる。", "choices": [{ "id": 1, "text": "能" }, { "id": 2, "text": "考" }, { "id": 3, "text": "気" }, { "id": 4, "text": "力" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 16, "mondai": 4, "type": "VOCABULARY", "question": "今週は忙しかったから、週末は家で（ ）テレビを見ていた。", "choices": [{ "id": 1, "text": "のろのろ" }, { "id": 2, "text": "のんびり" }, { "id": 3, "text": "ぐるぐる" }, { "id": 4, "text": "ぐっすり" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 17, "mondai": 4, "type": "VOCABULARY", "question": "マラソンでは周りの人にあわせようとしないで、（ ）で走るといい。", "choices": [{ "id": 1, "text": "テクニック" }, { "id": 2, "text": "フレッシュ" }, { "id": 3, "text": "アプローチ" }, { "id": 4, "text": "マイペース" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 18, "mondai": 4, "type": "VOCABULARY", "question": "あの店はサービスがいいと（ ）だ。", "choices": [{ "id": 1, "text": "評判" }, { "id": 2, "text": "評価" }, { "id": 3, "text": "診断" }, { "id": 4, "text": "決断" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 19, "mondai": 4, "type": "VOCABULARY", "question": "彼女とは久しぶりに会ったので、何時間話しても話が（ ）。", "choices": [{ "id": 1, "text": "枯れない" }, { "id": 2, "text": "限らない" }, { "id": 3, "text": "尽きない" }, { "id": 4, "text": "衰えない" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 20, "mondai": 4, "type": "VOCABULARY", "question": "練習の成果が（ ）できれば、きっと優勝できるだろう。", "choices": [{ "id": 1, "text": "発揮" }, { "id": 2, "text": "発生" }, { "id": 3, "text": "発行" }, { "id": 4, "text": "発明" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 21, "mondai": 4, "type": "VOCABULARY", "question": "この表現は（ ）でわかりにくい。", "choices": [{ "id": 1, "text": "軟弱" }, { "id": 2, "text": "質素" }, { "id": 3, "text": "あいまい" }, { "id": 4, "text": "ささやか" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 22, "mondai": 4, "type": "VOCABULARY", "question": "この切符は、明日まで（ ）です。", "choices": [{ "id": 1, "text": "利点" }, { "id": 2, "text": "権利" }, { "id": 3, "text": "効用" }, { "id": 4, "text": "有効" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 23, "mondai": 5, "type": "SYNONYM", "question": "完成の合図に、右手を勢いよくあげることになっています。", "target": "合図", "choices": [{ "id": 1, "text": "マーク" }, { "id": 2, "text": "サイン" }, { "id": 3, "text": "ノート" }, { "id": 4, "text": "ボタン" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 24, "mondai": 5, "type": "SYNONYM", "question": "子どもは勘定に入れず、一部屋4人まで利用できます。", "target": "勘定に入れず", "choices": [{ "id": 1, "text": "料金が不要である" }, { "id": 2, "text": "使用を禁止する" }, { "id": 3, "text": "合計に含まれない" }, { "id": 4, "text": "計算ができない" }], "correctAnswer": 1, "explanation": null, "needsReview": true },
+        { "id": 25, "mondai": 5, "type": "SYNONYM", "question": "大臣ならば、もう少し自分の立場を心得るべきではないかと思う。", "target": "心得る", "choices": [{ "id": 1, "text": "承認する" }, { "id": 2, "text": "同意する" }, { "id": 3, "text": "経験する" }, { "id": 4, "text": "考慮する" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 26, "mondai": 5, "type": "SYNONYM", "question": "こうまでなったら、もう観念するしかないかもしれない。", "target": "観念する", "choices": [{ "id": 1, "text": "決心" }, { "id": 2, "text": "覚悟" }, { "id": 3, "text": "決意" }, { "id": 4, "text": "断念" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 27, "mondai": 5, "type": "SYNONYM", "question": "時間に遅れたせいか、そろそろ部屋の中に入ってきた。", "target": "そろそろ", "choices": [{ "id": 1, "text": "のろのろ" }, { "id": 2, "text": "ようやく" }, { "id": 3, "text": "しばらく" }, { "id": 4, "text": "しずかに" }], "correctAnswer": 4, "explanation": null, "needsReview": true },
+        { "id": 28, "mondai": 6, "type": "WORD_USAGE", "question": "もうける", "choices": [{ "id": 1, "text": "授業料をもうけるためにバイトをしている。" }, { "id": 2, "text": "漢字の問題で点数をもうけることができる。" }, { "id": 3, "text": "最後の判断は、現場にもうけることにする。" }, { "id": 4, "text": "その後、2人はさらに2人の子をもうける。" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 29, "mondai": 6, "type": "WORD_USAGE", "question": "スライド", "choices": [{ "id": 1, "text": "予定を1日ずつスライドさせる。" }, { "id": 2, "text": "頭が悪くて、スライドだけ高い。" }, { "id": 3, "text": "肉と野菜をすべてスライドする。" }, { "id": 4, "text": "東京へのスライドは午後になる。" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 30, "mondai": 6, "type": "WORD_USAGE", "question": "余分", "choices": [{ "id": 1, "text": "そう言われると、余分に聞きたくなる。" }, { "id": 2, "text": "もう少し時間に余分がほしいところだ。" }, { "id": 3, "text": "余分に用意しておいた方がいいだろう。" }, { "id": 4, "text": "親切なんていらない、余分なお世話だ。" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 31, "mondai": 6, "type": "WORD_USAGE", "question": "せめて", "choices": [{ "id": 1, "text": "せめて死んでも話すことはできない。" }, { "id": 2, "text": "せめておいしいのか、5個も食べた。" }, { "id": 3, "text": "見たところ、せめて30個ほどはある。" }, { "id": 4, "text": "せめて名前だけでも数えてください。" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 32, "mondai": 6, "type": "WORD_USAGE", "question": "しぼむ", "choices": [{ "id": 1, "text": "地面がしぼんだ場所に水が流れている。" }, { "id": 2, "text": "新しい酒をしぼむ作業が始まっている。" }, { "id": 3, "text": "現実を知るほど、夢はしぼんでいった。" }, { "id": 4, "text": "車を電柱にぶつけて、ドアがしぼんだ。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "文法",
+      "items": [
+        { "id": 33, "mondai": 7, "type": "GRAMMAR", "question": "このレストランは、客の予算（ ）いくつかのコースを用意してくれる。", "choices": [{ "id": 1, "text": "に比べて" }, { "id": 2, "text": "に先立って" }, { "id": 3, "text": "に応じて" }, { "id": 4, "text": "に向けて" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 34, "mondai": 7, "type": "GRAMMAR", "question": "学校に来る（ ）財布を忘れたのに気づいた。", "choices": [{ "id": 1, "text": "とちゅうで" }, { "id": 2, "text": "ついでに" }, { "id": 3, "text": "なかで" }, { "id": 4, "text": "うちに" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 35, "mondai": 7, "type": "GRAMMAR", "question": "踏切事故のために、2時間（ ）、電車がストップしました。", "choices": [{ "id": 1, "text": "につき" }, { "id": 2, "text": "につれ" }, { "id": 3, "text": "にわたり" }, { "id": 4, "text": "にともない" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 36, "mondai": 7, "type": "GRAMMAR", "question": "一回失敗したくらいで、（ ）そこまで悪く言わなくてもいいだろう。", "choices": [{ "id": 1, "text": "なにを" }, { "id": 2, "text": "なにが" }, { "id": 3, "text": "なにも" }, { "id": 4, "text": "なにで" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 37, "mondai": 7, "type": "GRAMMAR", "question": "田中選手は前大会に続いて、今大会でも優勝を果たした。彼の今後の活躍に周囲の期待は高まる（ ）。", "choices": [{ "id": 1, "text": "中心だ" }, { "id": 2, "text": "事情だ" }, { "id": 3, "text": "原因だ" }, { "id": 4, "text": "一方だ" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 38, "mondai": 7, "type": "GRAMMAR", "question": "これだけ景気が悪いのに、税金を上げようとするのは、私たち国民には理解（ ）。", "choices": [{ "id": 1, "text": "しすぎる" }, { "id": 2, "text": "しがたい" }, { "id": 3, "text": "しかねない" }, { "id": 4, "text": "しがちだ" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 39, "mondai": 7, "type": "GRAMMAR", "question": "（メールで）田中です。先日お話があったスピーチの件なんですが、ぜひ私に（ ）。", "choices": [{ "id": 1, "text": "やっていただけないでしょうか" }, { "id": 2, "text": "やらせていただけないでしょうか" }, { "id": 3, "text": "やってもよろしいでしょうか" }, { "id": 4, "text": "やらせてもよろしいでしょうか" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 40, "mondai": 7, "type": "GRAMMAR", "question": "山下「田中君、きみ、また大阪に出張なんだって？」田中「ええ、そうなんですよ。ついこの前も出張に（ ）なんですけどねえ。」", "choices": [{ "id": 1, "text": "行かれたまま" }, { "id": 2, "text": "行かされたまま" }, { "id": 3, "text": "行かれたばかり" }, { "id": 4, "text": "行かされたばかり" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 41, "mondai": 7, "type": "GRAMMAR", "question": "仕事の合間にときどき遠くを見る（ ）、目が疲れにくくなった。", "choices": [{ "id": 1, "text": "ようにしたところに" }, { "id": 2, "text": "ようにしたところ" }, { "id": 3, "text": "までになったところに" }, { "id": 4, "text": "までになったところ" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 42, "mondai": 7, "type": "GRAMMAR", "question": "人間の脳に関する研究で明らかになったことはまだほんの一部（ ）、その研究は着実に進んできた。", "choices": [{ "id": 1, "text": "にすぎるとすると" }, { "id": 2, "text": "にかかわらないとすると" }, { "id": 3, "text": "にすぎないとはいえ" }, { "id": 4, "text": "にかかわらないとはいえ" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 43, "mondai": 7, "type": "GRAMMAR", "question": "会議の目的は新商品のアイディアを自由に出し合う（ ）が、結局、上司の意見が優先されて終わった。", "choices": [{ "id": 1, "text": "ことにあったはずだ" }, { "id": 2, "text": "ことにあったためだ" }, { "id": 3, "text": "のにあったはずだ" }, { "id": 4, "text": "のにあったためだ" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 44, "mondai": 7, "type": "GRAMMAR", "question": "残業が続いて体を壊した時に、自分の人生は（ ）と思って、転職を決めた。", "choices": [{ "id": 1, "text": "このままならいいのではないか" }, { "id": 2, "text": "このままがいいのではないか" }, { "id": 3, "text": "このままよりいいのだろうか" }, { "id": 4, "text": "このままでいいだろうか" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 45, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "専門的な知識が", "sentenceAfter": "仕事だ。", "fragments": [{ "id": 1, "text": "わりに" }, { "id": 2, "text": "いる" }, { "id": 3, "text": "お金の" }, { "id": 4, "text": "少ない" }], "correctOrder": [2, 1, 3, 4], "starPosition": 2, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 46, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "おかしいな。", "sentenceAfter": "ここにあったのに。", "fragments": [{ "id": 1, "text": "さっき" }, { "id": 2, "text": "ほんの" }, { "id": 3, "text": "つい" }, { "id": 4, "text": "まで" }], "correctOrder": [2, 3, 1, 4], "starPosition": 3, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 47, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "電話", "sentenceAfter": "というのですか。", "fragments": [{ "id": 1, "text": "できない" }, { "id": 2, "text": "すぎる" }, { "id": 3, "text": "忙し" }, { "id": 4, "text": "くらい" }], "correctOrder": [1, 4, 3, 2], "starPosition": 2, "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 48, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "具体的な基準は、", "sentenceAfter": "ため、示さない。", "fragments": [{ "id": 1, "text": "使用される" }, { "id": 2, "text": "他に" }, { "id": 3, "text": "暗記され" }, { "id": 4, "text": "おそれがある" }], "correctOrder": [3, 2, 1, 4], "starPosition": 3, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 49, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "後ろに変な顔が写ってるって？写真なんて", "sentenceAfter": "見えてくるものだよ。", "fragments": [{ "id": 1, "text": "見るほど" }, { "id": 2, "text": "見れば" }, { "id": 3, "text": "ものまで" }, { "id": 4, "text": "見えない" }], "correctOrder": [2, 1, 4, 3], "starPosition": 3, "correctAnswer": 4, "explanation": null, "needsReview": false },
+        {
+          "id": "cloze-09-01",
+          "type": "CLOZE",
+          "passageId": "cloze-09-01",
+          "passage": "今、英国では1日中、どこからともなく、この単語が聞こえてくる。\n「へんまん」\nTVをつけると、「へんまん！へんまん！」売店で新聞の見出しを見ると、「へんまん！へんまん！」へんまん＝へんな男。なんだそりゃ？ヘンマンとは、ティム・ヘンマン。英国人のプロテニス・プレーヤーである。\n\n今、プロテニスのウィンブルドン選手権が開催（注1）されている。\n「ウィンブルドン現象」という言葉を聞いたことがある方も多いだろう。\nこれは、元々、ウィンブルドン選手権で、地元英国選手が［50］、外国勢［51］活躍するのに盛り上がっている様を表現したのが語源（注2）だ。［52］、男子シングルスで1930年代以来英国選手が優勝してないらしいから。\n\nこの現象と、近年英国の銀行や大企業がどんどん外国資本に買収され、英国資本の企業が国内になくなってしまったのに、英国内は景気がよく、雇用（注3）も維持されている現象がよく似ているため、「ウィンブルドン現象」と呼ばれるようになった。ティム・ヘンマンは、この［53］がさっぱり活躍しないウィンブルドンで、［53］唯一の期待の星だ。なにしろ昨年まで4年連続男子シングルス準決勝進出。［54］と期待されている。\n\n彼は世界ランク10位前後の選手なのだが、ウィンブルドンだけはめっぽう強い。その秘密は、彼のプレースタイルにある。\n\n2003年6月29日“かみぼこちゃんの日記”による\n（http://plaza.rakutenn.co.jp/kingofartscentre/diary/200306290000/）\n\n（注1）開催：大会などを開くこと\n（注2）語源：単語ができたはじまりのこと\n（注3）雇用：お金を払って人をやとうこと",
+          "needsReview": true,
+          "questions": [
+            { "id": 50, "mondai": 9, "type": "CLOZE", "question": "［50］", "choices": [{ "id": 1, "text": "しっかり活躍していて" }, { "id": 2, "text": "しっかり活躍しないと" }, { "id": 3, "text": "さっぱり活躍しないで" }, { "id": 4, "text": "さっぱり活躍しないと" }], "correctAnswer": 2, "explanation": null, "needsReview": true },
+            { "id": 51, "mondai": 9, "type": "CLOZE", "question": "［51］", "choices": [{ "id": 1, "text": "ばかり" }, { "id": 2, "text": "ならば" }, { "id": 3, "text": "ぐらい" }, { "id": 4, "text": "として" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 52, "mondai": 9, "type": "CLOZE", "question": "［52］", "choices": [{ "id": 1, "text": "なにしろ" }, { "id": 2, "text": "しばらく" }, { "id": 3, "text": "ともかく" }, { "id": 4, "text": "とはいえ" }], "correctAnswer": 2, "explanation": null, "needsReview": true },
+            { "id": 53, "mondai": 9, "type": "CLOZE", "question": "［53］", "choices": [{ "id": 1, "text": "選手" }, { "id": 2, "text": "英国" }, { "id": 3, "text": "英国選手" }, { "id": 4, "text": "英国人" }], "correctAnswer": 2, "explanation": null, "needsReview": true },
+            { "id": 54, "mondai": 9, "type": "CLOZE", "question": "［54］", "choices": [{ "id": 1, "text": "今年ならば優勝が" }, { "id": 2, "text": "今年までに優勝は" }, { "id": 3, "text": "今年こそは優勝を" }, { "id": 4, "text": "今年ばかり優勝で" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "読解",
+      "items": [
+        { "id": "reading-10-01", "type": "READING", "passageId": "reading-10-01", "passage": "寒い日が続いておりますが、いかがお過ごしでしょうか。さて、先日はたいへんお世話になりまして、ありがとうございました。あれから京都、奈良をまわり、昨晩帰宅いたしました。おかげさまでとても楽しい旅行ができました。旅行中の写真ができましたらお送りいたします。お体をお大切に。", "needsReview": false, "questions": [{ "id": 55, "mondai": 10, "type": "READING", "question": "これはだれに送った手紙と思われるか。", "choices": [{ "id": 1, "text": "家で待っている両親への手紙" }, { "id": 2, "text": "職場で待っている先輩への手紙" }, { "id": 3, "text": "一緒に旅行してきた友人への手紙" }, { "id": 4, "text": "旅行中に訪問した家への手紙" }], "correctAnswer": 3, "explanation": null, "needsReview": false }] },
+        { "id": "reading-10-02", "type": "READING", "passageId": "reading-10-02", "passage": "健康的にやせるには、運動は必要不可欠（注1）です。やせるためには、運動で1300kca1（注2）消費を目標にします。\n\nところで、運動が好きでない人や、これまで何もやってない人におすすめしたいのが、歩くことです。よく「1日1万歩」といわれますが、さっさと歩けば少なくとも250～300kca1を消費します。\n\n（緒方弘一「台所を科学する―コツと勘どころ」緒方出版による）\n\n（注1）不可欠：なくてはならない\n（注2）kcal：キロカロリー", "needsReview": true, "questions": [{ "id": 56, "mondai": 10, "type": "READING", "question": "なぜ「1日1万歩」と言われるのか。", "choices": [{ "id": 1, "text": "速く歩けば300kcalぐらい消費するから。" }, { "id": 2, "text": "1万歩を歩かないと身体によくないから。" }, { "id": 3, "text": "1万歩を歩くためには1日かかるから。" }, { "id": 4, "text": "1日ゆっくり歩くと1万歩になるから。" }], "correctAnswer": 2, "explanation": null, "needsReview": true }] },
+        { "id": "reading-10-03", "type": "READING", "passageId": "reading-10-03", "passage": "日本では、老人の割合がふえるにつれて、寝たままで立ち上がることのできない、いわゆる「寝たきり」老人がふえている。老人の病気の多くは年齢による老化が原因なので、完全には治らない。だが、病気がよくなってきたら、できるだけベッドから離れ、人の助けを借りた自分の力でいろいろなことを行うようにし、病気とじょうずにつき合っていくことが必要だろう。そういう努力をさせないでいては、「寝かせきり」と批判されるのは当然である。", "needsReview": false, "questions": [{ "id": 57, "mondai": 10, "type": "READING", "question": "批判されるとあるが、だれが批判されるのか。", "choices": [{ "id": 1, "text": "老人の世話をする人" }, { "id": 2, "text": "病気とつき合っている人" }, { "id": 3, "text": "寝たままでいる老人" }, { "id": 4, "text": "人の助けを借りない人" }], "correctAnswer": 1, "explanation": null, "needsReview": false }] },
+        { "id": "reading-10-04", "type": "READING", "passageId": "reading-10-04", "passage": "毎日使っているコップを割ってしまったとします。するともう水を入れたり、ジュースを入れたりできませんから、捨ててしまいます。このようにちょっと前まで、身近（注1）に使っていたものがごみとなります。ごみは、いらなくなったものだし、イメージも悪いので、私たちはずぐに忘れてしまいます。しかし、一口（注2）でごみといって片づけてしまわないで、ちょっと考えてほしいのです。\n\n実は、あなたのまわりに見えるものはすべてごみなのです。たとえば、この本はいずれ紙のごみになります。机、いす、蛍光灯もいずれごみになります。（中略）つまり、ごみは私たちが買ったり、使ったりする品物そのものです。\n\n（八太昭道『ごみから地球を考える』の岩波ジュニア新書による）\n\n（注1）身近に：普通に、普段の生活で\n（注2）一口で：簡単な言葉で", "needsReview": true, "questions": [{ "id": 58, "mondai": 10, "type": "READING", "question": "「ごみといって片づけてしまわないで」とあるが、ここで「片づけてしまう」とはどういうことか。", "choices": [{ "id": 1, "text": "ごみ箱のなかに入れて捨ててしまうこと" }, { "id": 2, "text": "ごみのことをよく考えないで忘れること" }, { "id": 3, "text": "割れてしまったものをよく整理しておくこと" }, { "id": 4, "text": "割れたものを捨てないで大切に保存すること" }], "correctAnswer": 2, "explanation": null, "needsReview": false }] },
+        { "id": "reading-10-05", "type": "READING", "passageId": "reading-10-05", "passage": "レストラン ソレイユ\n支配人様\n\n先日、貴店で食事をしました。開店以来いつも満員なのを見ており、初めて行ってみました。値段は少し高めかなと思いましたが、窓から眺めもよく、景色を楽しみながら一口料理を食べてみて、閉口。素材が痛いんで、すっぱくなっていました。料理長に来ていただいたところ、「それは油のにおいで品質には問題ない」とのこと。料理を食べてみもせず、私の話を聞いてもくれない態度にがっかりしました。新しいレストランができることは、町の発展にもつながり、うれしいことです。だからこそ、期待を裏切らない対応と品質管理をお願いしたいと思います。", "needsReview": true, "questions": [{ "id": 59, "mondai": 10, "type": "READING", "question": "この手紙の書き手が言いたいことは何か。", "choices": [{ "id": 1, "text": "町の発展に協力してほしい。" }, { "id": 2, "text": "料理の値段をもっと安くしてほしい。" }, { "id": 3, "text": "客に対して誠意を持って対応してほしい。" }, { "id": 4, "text": "客に出す前に料理を食べてみてほしい。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }] },
+        {
+          "id": "reading-11-01",
+          "type": "READING",
+          "passageId": "reading-11-01",
+          "passage": "ハトを使って絵画を見わける実験をおこなってみよう。実験では10枚のピカソの絵と10枚のモネの絵をつかった。ハトは訓練用の小さな実験箱に入れられる。実験箱にはスクリーンがあり、スライド・プロジェクターで絵が映しだされる。\n\nピカソの絵が映されたときにスクリーンをつつけば餌があたえられ、モネの絵の時には餌がもらえない。また、別のハトは逆にモネの絵では餌をもらえ、ピカソの絵ではもらえないという訓練をうける。ハトはおよそ20日間程度の訓練でこの①区別ができるようになる。ハトはモネの絵とピカソの絵がわかるようになったのだろうか。\n\nこれはハトがピカソとモネの区別ができるようになったからではなく、20枚の絵を丸暗記しておぼえただけのことかもしれない。実際ハトはこのくらいの数の意味のない図をまるごとおぼえる記憶力を持っている。しかし、ハトは訓練につかわなかった、初めて見る絵を見せられた場合でも、それがモネの絵であるかピカソの絵であるかを区別したのである。ハトは訓練のつかわれた特定の絵を丸暗記したのではなく、「ピカソ」の作品、「モネ」の作品という②作風の区別をおぼえたと考えられる。",
+          "needsReview": true,
+          "questions": [
+            { "id": 60, "mondai": 11, "type": "READING", "question": "筆者は実験に使ったハトにどのように絵を見せたのか。", "choices": [{ "id": 1, "text": "ピカソの絵を見せるハトとモネの絵を見せるハトとに分けた。" }, { "id": 2, "text": "全部のハトにピカソとモネの両方の絵を見せた。" }, { "id": 3, "text": "全部のハトにピカソの描いた絵だけを見せた。" }, { "id": 4, "text": "全部のハトにモネの描いた絵だけを見せた。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 61, "mondai": 11, "type": "READING", "question": "ハトがどのようなことをした場合に、①「この区別ができる」と筆者は判断したのか。", "choices": [{ "id": 1, "text": "餌がもらえる絵を見たとき、スクリーンをつついた場合" }, { "id": 2, "text": "餌がもらえない絵を見たとき、スクリーンをつついた場合" }, { "id": 3, "text": "ピカソとモネの絵を見ても、、スクリーンをつつかなかった場合" }, { "id": 4, "text": "ピカソとモネの両方の絵を見たとき、スクリーンをつついた場合" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 62, "mondai": 11, "type": "READING", "question": "②「作風の区別をおぼえた」とあるが、どのようなことか。", "choices": [{ "id": 1, "text": "始めてみた場合でも、ピカソとハトの絵がすぐおぼえられるようになった。" }, { "id": 2, "text": "ピカソとモネの絵を10枚ずつおぼえて、その区別だできるようになった。" }, { "id": 3, "text": "ピカソやモネの絵とほかの画家が描いた絵を区別できるようになった。" }, { "id": 4, "text": "ピカソの絵の特徴とモネの絵の特徴が区別できるようになった。" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-02",
+          "type": "READING",
+          "passageId": "reading-11-02",
+          "passage": "子供に食事のマナーを教えるときは、“〇〇すべきである”“〇〇しなくではならない”というように、自分の考え方を押し付けるのでは子供たちは納得しません。子供たちは、「美しい食べ方をしていると、人から“すてきだ”とか“かっこいい”とか思われる」という経験を通して、美しいマナーの意味を納得するのです。\n\nそれには、家庭や学校などの集団の中で、子供自身に自分のありようを意識させることです。そして、きれいで美しい食べ方ができたときには「きれいに食べられたね」「かっこよく見えるよ」とほめてあげましょう。子供はほめられたことで「またこのようにしてみよう」と思います。こうして（中略）美しいマナーが習慣となり、その場に応じた美しい自己のふるまいを身につけていくことができるのでしょう。\n\nところで、皆さんは食事のマナーが成立するには“他者との関係”が不可欠であることにお気づきでしょうか。人は人前で食事をするとき、一人で食べるよりもそれなりに整った食べ方をしようとするものです。それは「自分をよく見せない、人からよく見られたい」という気持ちが根底にあるからです。だから食事のマナーを身につける必要性が自然に生ずるのです。\n\n一方、一人で食事をとるときは、食事のマナーを感ずることが少ないのではないでしょうか。近頃の家庭の多く見られる“子供の独食”は、子供に適切なマナーを身につけさせるという意味においても考慮すべき問題であるといえるのです。",
+          "needsReview": true,
+          "questions": [
+            { "id": 63, "mondai": 11, "type": "READING", "question": "「自分のありようを意識させる」とあるが、どういうことか。", "choices": [{ "id": 1, "text": "自分のふるまいがきれいかどうかを意識させる。" }, { "id": 2, "text": "他の人に自分が迷惑をかけているのだと意識させる。" }, { "id": 3, "text": "他の人から見て自分が美しく見えているのだと意識させる。" }, { "id": 4, "text": "家庭や学校等の集団の中で自分の置かれている立場を意識させる。" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 64, "mondai": 11, "type": "READING", "question": "子供に食事のマナーを身につけさせるために筆者がすすめているのはどれか。", "choices": [{ "id": 1, "text": "親の考え方を子供に押し付ける。" }, { "id": 2, "text": "時々、一人で食事をさせるようにする。" }, { "id": 3, "text": "子供が美しく食べたときにほめてやる。" }, { "id": 4, "text": "子供にマナーの意味を説明して納得させる。" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 65, "mondai": 11, "type": "READING", "question": "子供が一人で食事をする「独食」について、筆者はどのように考えているか。", "choices": [{ "id": 1, "text": "一人で食事をしていると正しいマナーが身につきにくい。" }, { "id": 2, "text": "一人で食事をすることで適切なマナーが身についていく。" }, { "id": 3, "text": "人は一人で食べるときの方が正しい食べ方をしようとする。" }, { "id": 4, "text": "一人で食事をするときでも正しいマナーで食べなければならない。" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-03",
+          "type": "READING",
+          "passageId": "reading-11-03",
+          "passage": "私たちが物を食べたとき、その前と後で私たちの体重はどのように変化するのだろうか。例えば、いま100gのくだものを食べたとして、体重は何グラムふえるだろうか。答えは100gである。あたり前じゃないかと怒ってはいけない。それは食べたすぐ後の話なのだ。では、食べてから時間がたったらどうなるだろうか。\n\n今から380年ほど前、あるイタリアの学者が、食べ物の重さと体重の関係を知るために、自分の体を使って体重の変化をこまかく調べた。まず、人間が乗ることのできる大きなはかりを特別に作り、その上に何日間もすわりつづけて、①食べたり飲んだり、大便や小便をしたりした。そして、そのたびに体重の変化をていねいに計って調べたのである。\n\n最初、その学者が考えたのは、食べたり飲んだりした物の重さから、外に出した大便や小便の重さを単純に引き算した分だけ体重はふえるだろう、ということだった。ところが、実験をしてみた結果、A彼が考えていたほど体重はふえなかったのである。彼は実験に間違いがあったのかもしてないと思って何回もやりなおしてみたが、結果はやはり同じだった。彼は②困ってしまった。おそらく、食べ物や飲み物の一部は、何か目には見えない物となって体の外へ出て行ってしまったのだろう、結局、彼はそう考えた。そう、彼は③間違っていなかった。\n\nでは、その目に見えない物となって出て行ったのは何か。一つは汗である。人間の体からは、たとえじっとしていても、一日に1kg近くの汗が外に出ていく。この汗のことについてイタリアの学者も考えていた。もう一つは息を吐くときに出る炭酸ガス、つまりCO2だ。これは彼の時代よりずっと後になって、あるイギリスの学者が調べたことだが、体重68kgの人は一日に約0．7kgの酸素（O2）を取り入れて約0．82kgのCO2を出しているという。つまり、人間の体重は、呼吸をするだけで、一日に約0．12kgずつへっていくことになるわけである。\n\n大変な苦労をして実験をした学者も、残念ながら、このことにまでは気がつかなかった。そのころは、空気はただ空気とだけ考えられていて、O2やCO2などいろいろな気体からできているとは考えられていなかたからである。",
+          "needsReview": true,
+          "questions": [
+            { "id": 66, "mondai": 11, "type": "READING", "question": "①「食べだり飲んだり、大便や小便をしたりした」とあるが、だれがそれをしたのか。", "choices": [{ "id": 1, "text": "実験をたのまれた人" }, { "id": 2, "text": "実験を手伝った人" }, { "id": 3, "text": "実験を見ていた人" }, { "id": 4, "text": "実験をした人" }], "correctAnswer": 4, "explanation": null, "needsReview": true },
+            { "id": 67, "mondai": 11, "type": "READING", "question": "②「困ってしまった」とあるが、なぜ困ってしまったのか。", "choices": [{ "id": 1, "text": "計算するのが大変だったから。" }, { "id": 2, "text": "期待どおりの結果が出なかったから。" }, { "id": 3, "text": "実験に間違いがたくさんあったから。" }, { "id": 4, "text": "何日間も動くことができなかったから。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 68, "mondai": 11, "type": "READING", "question": "③「間違っていなかった」とあるが、何が間違っていなかったのか。", "choices": [{ "id": 1, "text": "彼が考えたこと" }, { "id": 2, "text": "彼が困ったこと" }, { "id": 3, "text": "彼が怒ったこと" }, { "id": 4, "text": "彼が気がつかなかったこと" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-12-01",
+          "type": "READING",
+          "passageId": "reading-12-01",
+          "passage": "A\n利用者：「A」\n私はこの3月に高校を卒業して、今は大学受験の準備中です。この図書館は小さいですが、あまり混まなくて静かなので毎日来て勉強しています。以前は、平日だけ開いていたのが、先月から第二・第四土曜日も開館になり、その代わりに開館した土曜日の次の月曜日は休館になりました。前は週末にはまったく利用できなかったので、便利になったという人もいるでしょうが、次の月曜が休館なので、結局開館日が増えたわけではありません。また、平日は人も少なく落ち着いて勉強できたのが、土曜は朝から利用者が多く、席が取れないこともあります。私の勝手な希望かもしれませんが、もう一度開館日を考え直していただけませんか。それが無理でも、せめて利用者が増えた分、席を増やすなどしていただければと思います。\n\nB\n利用者：「B」\n新刊図書や雑誌がたくさん置いてあるので、時々この図書館を利用しています。前は、平日しか開いていなかったので、会社から帰宅するころには既に閉館していて利用したくてもなかなか難しい状況でしたが、先日から週末にも利用できるようになり、週末の楽しみが一つ増えました。現在、週末は隔週の開館ですが、毎週開館するようになればもっとありがたいのですが。もう一つ、平日の開館時間は以前の通り9時から6時までなのに、土曜日はどうして9時から3時までなのでしょうか。土曜日に開館したら次の月曜は休館されるのですから、週末も6時まで開けていただければもっと利用しやすくなると思います。ご検討ください。",
+          "needsReview": false,
+          "questions": [
+            { "id": 69, "mondai": 12, "type": "READING", "question": "この図書館の開館日数・開館時間はどう変わったか。", "choices": [{ "id": 1, "text": "以前より開館日数も増え、開館時間も長くなった。" }, { "id": 2, "text": "開館日数は以前と同じだが、開館時間は長くなった。" }, { "id": 3, "text": "開館日数は以前と同じだが、開館時間は短くなった。" }, { "id": 4, "text": "以前より開館日数は増えたが、開館時間は短くなった。" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 70, "mondai": 12, "type": "READING", "question": "利用者「A」と利用者「B」は開館日の変更についてどう思っているか。", "choices": [{ "id": 1, "text": "「A」も「B」も満足している。" }, { "id": 2, "text": "「A」も「B」も特に意見を述べていない。" }, { "id": 3, "text": "「A」は不満に思っているが、「B」はよかったと思っている。" }, { "id": 4, "text": "「A」はよかったと思っているが、「B」は不満に思っている。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-13-01",
+          "type": "READING",
+          "passageId": "reading-13-01",
+          "passage": "この文章は、取材（記事などを書くために、人から話を聞くこと）について書かれたものです。最も大切なことは、自分がその相手から聞くべきことを知っておくことである。これはあまりにも当たり前のことで、人に話を聞こうとする場合の当然の前提だから、とりたてて注意を払うべきことではないと思われるかもしれない。しかし、私にいわせれば、これ以上に本質的に大切なことは何もなく、あとは大部分が粗末な（注1）テクニック論である。\n\n「問題を正しくたてられたら、答えを半分見い出したも同然。」とよくいわれる。これはまったく①。同様に、聞き取りに際しても、聞くべきことがわかっていれば、半分聞き出したも同然なのである。\n\n最近私は、人に取材するばかりでなく、人から取材されることも結構多くなった。②それでわかったことは、自分で何を聞くべきかが充分わかっていないで人にものを聞く人間がいかに多いかである。\n\n「いかがですか？」「ご感想をちょっと………」と水を向ける（注2）だけで、相手が何かまとまりのあることを当然にしゃべってくれるものだと思い込んでいるおめでたいジャーナリストがあまりにも多いのだ。まるでこちらがラジオかテレビのような機械で、「きっかけの一言」というスイッチを入れると、あとは自動的に番組が流れ出てくるものとでも思っているかのようだ。\n\nこういう人が多くなったのも、テレビの悪影響だろうと思う。テレビのインタビユーというと、実際、一言水を向けるだけで、べらべらまくしたてる人が大部分なのだ。世の中にはしゃべりたがりの人が多いのも現実だが、テレビの場合は、編集をしたり、事前の打ち合わせをしたりしているから、しゃべたがりでない人もしゃべりたがりのように見えてしまう。私にしても、ほんとは非常に無口の人間なのだが、テレビを通してしか知らない人はよくしゃべる男と思っていることだろう。そう思い込んでいる人がジャーナリストの中にもいて、そういう人が私を電話取材すると妙なことになる。\n\n「○○について、ちょっとご感想をうかがいたいですが」\n「はい」といったまま私は黙っている。先方は、それだけで当然私がしゃべり出すのだろうと思って、やはり黙って待っている。しばらく奇妙な沈黙がつづく。やがて、先方がどうもスイッチがちゃんと入っていないらしいと考えたのか、もう一度スイッチを入れ直す。\n「○○について、ちょっと感想をうかがいたいんですが」\n「はい。どうぞ」と私は答える。「どうぞ」といわれてはじめて先方は、水を向けただけでは足りなくて、なにか質問をしなければいけないのだということに気がつく。\n\n（中略）\n\n安易な問い方をし、それに安易に答え、その安易な答えに満足して問答を終わるという最近のテレビインタビユー的風潮に私は反発しているので、いいかげんな質問者にはわざと意気悪く質問を返し続けることがよくある。はじめの問いがいいかげんでも、自分の中に問うべきものをしっかり持っている人は、質問を返されたときすぐにきちんとした質問で切り返すことができるものである。しかし、それを持たない人はまともな質問がついにできない。\n\n（注1）粗末な：重要に扱わない\n（注2）水を向ける：相手が話し始めるようにすること",
+          "needsReview": true,
+          "questions": [
+            { "id": 71, "mondai": 13, "type": "READING", "question": "①に入れることばとして適当なものは何か。", "choices": [{ "id": 1, "text": "不思議である" }, { "id": 2, "text": "おかしい" }, { "id": 3, "text": "正しい" }, { "id": 4, "text": "同じである" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 72, "mondai": 13, "type": "READING", "question": "②「それで」を別の表現で言うと、この場合、次のどれが近いか。", "choices": [{ "id": 1, "text": "人に取材して" }, { "id": 2, "text": "人に取材されて" }, { "id": 3, "text": "人に取材できて" }, { "id": 4, "text": "人に取材させて" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 73, "mondai": 13, "type": "READING", "question": "この文章で筆者がもっとも言いたいと考えられることは何か。", "choices": [{ "id": 1, "text": "取材されるときは、相手の質問内容をよく確かめるべきである。" }, { "id": 2, "text": "取材されるときは、なるべく自分の意見をはっきり言うほうがいい。" }, { "id": 3, "text": "取材するときは、相手の都合をよく調べてからしなければならない。" }, { "id": 4, "text": "取材するときは、聞きたいことをよく考えておくことが大切である。" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "information-14-01",
+          "type": "INFORMATION_SEARCH",
+          "passageId": "information-14-01",
+          "layout": "vertical",
+          "passage": "第10回「外国人による日本語スピーチコンテスト」出場者募集\n\n◆世界から見た日本、外国人の見方・考え方などについて、広く市民の皆さんに理解してもらい、相互理解、交流を深めるため、「第10回外国人による日本語スピーチコンテスト」を開催します。今年は、学校や職場などの地域社会の中で感じ、考え、発見した「自国と日本の文化や習慣などの違い」をテーマに、コンテストを行います。日本語でのスピーチに挑戦した方は、以下の要綱を確認して応募してください。\n\n「日時」11月3日（土）13:00～16:00\n「会場」ふじやま市教育文化会館\n「応募資格」☆年齢18歳以上（高校生可）\n☆ふじやま市内在住、または、ふじやま市に通勤・通学している外国人。\n☆日本滞在期間が5年以内の方\n＊上の条件が1つでもあてはまらない人は応募できません。\n「スピーチ時間」☆7分以内（2000字程度）\n「テーマ」☆「私の国から見た日本」「私の国と日本の違い」等\n＊自国についての内容のみのスピーチは受け付けません。必ず、自国と日本について発表してください。\n「各賞」最優秀賞：1名（賞金5万円）\n優秀賞：2名（賞金3万円）\n特別賞：若干名（賞金1万円）\n参加賞：出場者全員（記念品）\n「応募方法」☆1次審査：発表内容を原稿用紙2枚（800字）以内に要約して、表紙にタイトル、住所、氏名、年齢、国籍、職業（学校名・学年）、電話番号を明記し、下記の応募先へ郵送、またはEメールで送ってください。\n☆2次審査：応募者の中から、20名の方を選び、本人のスピーチの録画を送っていただきます。2分程度の録画をDVDまたはテープで郵送してください。\n選考結果は、10月10日までに、応募者全員に通知します。\n「応募締切」1次審査：9月1日　2次審査：10月1日\n「問い合わせ・応募先」\n123-4567 ふじやま市日本国際連合協会本部事務局\nTEL 012-345-6789　Eメール t1234@pref.xx.jp",
+          "needsReview": false,
+          "questions": [
+            { "id": 74, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "このスピーチコンテストに出られるのは、次のうちどれか。", "choices": [{ "id": 1, "text": "国籍は日本だがアメリカで生まれ育ち、3年前に日本に帰国したふじやま市立3年生の学生（18歳）が「日本の高校での英語教育」についてスピーチする。" }, { "id": 2, "text": "2年前に留学生として来日し、現在はふじやま市立大学4年生のインド人留学生が「インドのカレーと日本のカレー」についてスピーチする。" }, { "id": 3, "text": "7年前に来日し、3年前にふじやま市在住の日本人と結婚して、ふじやま市に引っ越してきたイタリア人主婦が「日本での結婚生活」についてスピーチする。" }, { "id": 4, "text": "フランスの大学で4年間日本語を学び、2年前に来日した、ふじやま市内の専門学校でフランス語を教えているフランス人の先生が「フランスの歴史」についてスピーチする。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 75, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "1次審査に通ったものは、どうすればいいか。", "choices": [{ "id": 1, "text": "スピーチの内容を800字に要約して、10月10日までに郵便で送る。" }, { "id": 2, "text": "スピーチの内容を原稿用紙1枚に要約して、9月1日までに郵便で送る。" }, { "id": 3, "text": "2分程度の、本人によるスピーチの録画を10月1日までに郵便で送る。" }, { "id": 4, "text": "本人がスピーチしているところを全部録画して、10月10日までに郵便で送る。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

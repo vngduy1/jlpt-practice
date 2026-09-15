@@ -18,6 +18,105 @@ const questionTypes = new Set([
 const passageTypes = new Set(["CLOZE", "READING", "INFORMATION_SEARCH"]);
 
 const validExamStatuses = new Set(["draft", "approved"]);
+const validExamSources = new Set(["JLPT", "ORIGINAL"]);
+
+/**
+ * Validate source-dependent exam date fields.
+ *
+ * JLPT exams always require a valid date. ORIGINAL exams may omit both date
+ * fields, but may not provide only one half of the date.
+ */
+function validateExamDateFields(exam, fileLabel, errors) {
+  const hasYear = Object.hasOwn(exam, "year");
+  const hasMonth = Object.hasOwn(exam, "month");
+
+  if (exam.source === "JLPT") {
+    if (!Number.isInteger(exam.year) || exam.year < 2000) {
+      errors.push(`${fileLabel}: JLPT year must be a valid integer.`);
+    }
+
+    if (![7, 12].includes(exam.month)) {
+      errors.push(`${fileLabel}: JLPT month must be 7 or 12.`);
+    }
+
+    return;
+  }
+
+  if (exam.source !== "ORIGINAL") {
+    return;
+  }
+
+  if (hasYear !== hasMonth) {
+    errors.push(
+      `${fileLabel}: ORIGINAL year and month must either both be present or both be absent.`,
+    );
+    return;
+  }
+
+  if (!hasYear) {
+    return;
+  }
+
+  if (!Number.isInteger(exam.year) || exam.year < 2000) {
+    errors.push(`${fileLabel}: ORIGINAL year must be a valid integer.`);
+  }
+
+  if (![7, 12].includes(exam.month)) {
+    errors.push(`${fileLabel}: ORIGINAL month must be 7 or 12.`);
+  }
+}
+
+function runDateValidationTests() {
+  const cases = [
+    {
+      name: "JLPT with valid year/month",
+      exam: { source: "JLPT", year: 2024, month: 12 },
+      expectedValid: true,
+    },
+    {
+      name: "JLPT without year/month",
+      exam: { source: "JLPT" },
+      expectedValid: false,
+    },
+    {
+      name: "ORIGINAL without year/month",
+      exam: { source: "ORIGINAL" },
+      expectedValid: true,
+    },
+    {
+      name: "ORIGINAL with valid year/month",
+      exam: { source: "ORIGINAL", year: 2026, month: 7 },
+      expectedValid: true,
+    },
+    {
+      name: "ORIGINAL with year only",
+      exam: { source: "ORIGINAL", year: 2026 },
+      expectedValid: false,
+    },
+    {
+      name: "ORIGINAL with invalid month",
+      exam: { source: "ORIGINAL", year: 2026, month: 6 },
+      expectedValid: false,
+    },
+  ];
+
+  for (const testCase of cases) {
+    const errors = [];
+
+    validateExamDateFields(testCase.exam, testCase.name, errors);
+
+    const isValid = errors.length === 0;
+
+    if (isValid !== testCase.expectedValid) {
+      throw new Error(
+        `${testCase.name}: expected ${testCase.expectedValid ? "PASS" : "FAIL"}, ` +
+          `received ${isValid ? "PASS" : `FAIL (${errors.join("; ")})`}.`,
+      );
+    }
+  }
+
+  console.log(`Validated ${cases.length} exam date-rule case(s).`);
+}
 
 /**
  * Recursively find all JSON exam files.
@@ -339,13 +438,11 @@ function validateExam(exam, file) {
     errors.push(`${fileLabel}: level must be N1, N2, N3, N4, or N5.`);
   }
 
-  if (!Number.isInteger(exam.year) || exam.year < 2000) {
-    errors.push(`${fileLabel}: year must be a valid integer.`);
+  if (!validExamSources.has(exam.source)) {
+    errors.push(`${fileLabel}: source must be "JLPT" or "ORIGINAL".`);
   }
 
-  if (![7, 12].includes(exam.month)) {
-    errors.push(`${fileLabel}: month must be 7 or 12.`);
-  }
+  validateExamDateFields(exam, fileLabel, errors);
 
   if (typeof exam.title !== "string" || exam.title.trim().length === 0) {
     errors.push(`${fileLabel}: title is required.`);
@@ -466,6 +563,11 @@ function validateExam(exam, file) {
 /**
  * Load all exam JSON files.
  */
+if (process.argv.includes("--test-date-rules")) {
+  runDateValidationTests();
+  process.exit(0);
+}
+
 const files = await findJsonFiles(dataRoot);
 
 const exams = await Promise.all(

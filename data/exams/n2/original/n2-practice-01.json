@@ -1,0 +1,685 @@
+{
+  "id": "n2-practice-01",
+  "source": "ORIGINAL",
+  "level": "N2",
+  "title": "N2 Practice Exam 01",
+  "status": "draft",
+  "description": "40-de-thi-jlpt-n2.pdf の N2-1 練習問題",
+  "questionCount": 75,
+  "durationMinutes": 105,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "文字・語彙",
+      "items": [
+        {
+          "id": 1,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "花と緑に囲まれた家に住みたい。",
+          "target": "囲まれた",
+          "choices": [{ "id": 1, "text": "めぐまれた" }, { "id": 2, "text": "かこまれた" }, { "id": 3, "text": "つつまれた" }, { "id": 4, "text": "のまれた" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 2,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "子供らしく素直に育ってほしい。",
+          "target": "素直",
+          "choices": [{ "id": 1, "text": "そじき" }, { "id": 2, "text": "そなお" }, { "id": 3, "text": "そっちょく" }, { "id": 4, "text": "すなお" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 3,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "作成したファイルを保存する。",
+          "target": "保存",
+          "choices": [{ "id": 1, "text": "せいぞん" }, { "id": 2, "text": "ほぞん" }, { "id": 3, "text": "いぞん" }, { "id": 4, "text": "きょうぞん" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 4,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "機械でも精算できます。",
+          "target": "精算",
+          "choices": [{ "id": 1, "text": "しょうさん" }, { "id": 2, "text": "かいさん" }, { "id": 3, "text": "せいさん" }, { "id": 4, "text": "けいさん" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 5,
+          "mondai": 1,
+          "type": "KANJI_READING",
+          "question": "率直な意見を聞かせてほしい。",
+          "target": "率直",
+          "choices": [{ "id": 1, "text": "すなお" }, { "id": 2, "text": "じちょく" }, { "id": 3, "text": "りっちょく" }, { "id": 4, "text": "そっちょく" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 6,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "本日の営業はしゅうりょうしました。",
+          "target": "しゅうりょう",
+          "choices": [{ "id": 1, "text": "完了" }, { "id": 2, "text": "終了" }, { "id": 3, "text": "修了" }, { "id": 4, "text": "満了" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 7,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "コピー用紙の枚数をかぞえる。",
+          "target": "かぞえる",
+          "choices": [{ "id": 1, "text": "揃える" }, { "id": 2, "text": "数える" }, { "id": 3, "text": "耐える" }, { "id": 4, "text": "鍛える" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 8,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "花のたねをまく。",
+          "target": "たね",
+          "choices": [{ "id": 1, "text": "竹" }, { "id": 2, "text": "根" }, { "id": 3, "text": "灰" }, { "id": 4, "text": "種" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 9,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "日本語能力試験のけっかが出た。",
+          "target": "けっか",
+          "choices": [{ "id": 1, "text": "許可" }, { "id": 2, "text": "変化" }, { "id": 3, "text": "結果" }, { "id": 4, "text": "効果" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 10,
+          "mondai": 2,
+          "type": "VOCABULARY",
+          "question": "放置自転車は市がしょぶんします。",
+          "target": "しょぶん",
+          "choices": [{ "id": 1, "text": "処分" }, { "id": 2, "text": "当分" }, { "id": 3, "text": "所分" }, { "id": 4, "text": "書分" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 11,
+          "mondai": 3,
+          "type": "VOCABULARY",
+          "question": "ドライブに出かけたが、忘れ物をして途中で家に（ ）返した。",
+          "choices": [{ "id": 1, "text": "引き" }, { "id": 2, "text": "追い" }, { "id": 3, "text": "取り" }, { "id": 4, "text": "乗り" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 12,
+          "mondai": 3,
+          "type": "VOCABULARY",
+          "question": "（ ）意識のうちに、爪をかんでしまう。",
+          "choices": [{ "id": 1, "text": "不" }, { "id": 2, "text": "未" }, { "id": 3, "text": "無" }, { "id": 4, "text": "非" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 13,
+          "mondai": 3,
+          "type": "VOCABULARY",
+          "question": "掃除するので、ちょっとイスを持ち（ ）ください。",
+          "choices": [{ "id": 1, "text": "下げて" }, { "id": 2, "text": "上げて" }, { "id": 3, "text": "止めて" }, { "id": 4, "text": "込んで" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 14,
+          "mondai": 3,
+          "type": "VOCABULARY",
+          "question": "観客はフルートの（ ）演奏に耳を傾けた。",
+          "choices": [{ "id": 1, "text": "名" }, { "id": 2, "text": "高" }, { "id": 3, "text": "有" }, { "id": 4, "text": "総" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 15,
+          "mondai": 3,
+          "type": "VOCABULARY",
+          "question": "映像と音楽を組み（ ）映画を作製します。",
+          "choices": [{ "id": 1, "text": "込んで" }, { "id": 2, "text": "直して" }, { "id": 3, "text": "合わせて" }, { "id": 4, "text": "返して" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 16,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "日本人の平均（ ）は、男性が79歳、女性が86歳である。",
+          "choices": [{ "id": 1, "text": "生命" }, { "id": 2, "text": "寿命" }, { "id": 3, "text": "人生" }, { "id": 4, "text": "一生" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 17,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "このカードの（ ）期限は3年です。",
+          "choices": [{ "id": 1, "text": "発行" }, { "id": 2, "text": "流行" }, { "id": 3, "text": "有効" }, { "id": 4, "text": "用効" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 18,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "男女（ ）に仕事の機会があたえられる。",
+          "choices": [{ "id": 1, "text": "分別" }, { "id": 2, "text": "平等" }, { "id": 3, "text": "流行" }, { "id": 4, "text": "協力" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 19,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "友達と付き（ ）買い物に行った。",
+          "choices": [{ "id": 1, "text": "合って" }, { "id": 2, "text": "持って" }, { "id": 3, "text": "回って" }, { "id": 4, "text": "逢って" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 20,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "彼は自分の失敗をみんなに（ ）。",
+          "choices": [{ "id": 1, "text": "頼った" }, { "id": 2, "text": "許した" }, { "id": 3, "text": "わびた" }, { "id": 4, "text": "からかった" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 21,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "電話の（ ）は、一般的にベルだと言われている。",
+          "choices": [{ "id": 1, "text": "発明者" }, { "id": 2, "text": "発見者" }, { "id": 3, "text": "後継者" }, { "id": 4, "text": "有名者" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 22,
+          "mondai": 4,
+          "type": "VOCABULARY",
+          "question": "今月の家賃の（ ）を済ませる。",
+          "choices": [{ "id": 1, "text": "節約" }, { "id": 2, "text": "支払い" }, { "id": 3, "text": "引き落とし" }, { "id": 4, "text": "分別" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 23,
+          "mondai": 5,
+          "type": "SYNONYM",
+          "question": "あの事故からもうすぐ1年がたつ。",
+          "target": "もうすぐ",
+          "choices": [{ "id": 1, "text": "まもなく" }, { "id": 2, "text": "絶えず" }, { "id": 3, "text": "ほんの" }, { "id": 4, "text": "単なる" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 24,
+          "mondai": 5,
+          "type": "SYNONYM",
+          "question": "今年の正月は家でのんびり過ごした。",
+          "target": "のんびり",
+          "choices": [{ "id": 1, "text": "つまらなく" }, { "id": 2, "text": "ぜいたくに" }, { "id": 3, "text": "ゆっくり" }, { "id": 4, "text": "さわいで" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 25,
+          "mondai": 5,
+          "type": "SYNONYM",
+          "question": "その人はサングラスを取ったら、やさしい目をしていた。",
+          "target": "取ったら",
+          "choices": [{ "id": 1, "text": "はずしたら" }, { "id": 2, "text": "ひっぱったら" }, { "id": 3, "text": "ひきだしたら" }, { "id": 4, "text": "あびたら" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 26,
+          "mondai": 5,
+          "type": "SYNONYM",
+          "question": "忙しくてお昼ご飯を食べている間もなかった。",
+          "target": "間",
+          "choices": [{ "id": 1, "text": "期間" }, { "id": 2, "text": "ひま" }, { "id": 3, "text": "気" }, { "id": 4, "text": "休暇" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 27,
+          "mondai": 5,
+          "type": "SYNONYM",
+          "question": "おいしいけれど、毎日食べているといやになる。",
+          "target": "いやになる",
+          "choices": [{ "id": 1, "text": "あわてる" }, { "id": 2, "text": "あきれる" }, { "id": 3, "text": "あきる" }, { "id": 4, "text": "あせる" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 28,
+          "mondai": 6,
+          "type": "WORD_USAGE",
+          "question": "地味",
+          "choices": [{ "id": 1, "text": "その映画で、彼女の役はとても地味で目立たなかった。" }, { "id": 2, "text": "昨日の地震はとても地味だった。" }, { "id": 3, "text": "このスープは、塩が薄くて地味だ。" }, { "id": 4, "text": "高い山に登ると空気が地味になってくる。" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 29,
+          "mondai": 6,
+          "type": "WORD_USAGE",
+          "question": "長引く",
+          "choices": [{ "id": 1, "text": "電車に乗り遅れて、待ち合わせに長引いてしまった。" }, { "id": 2, "text": "彼のメールは、文章が長引いて読みにくい。" }, { "id": 3, "text": "家から会社まで遠いので、毎日通勤時間が長引いています。" }, { "id": 4, "text": "打ち合わせの時間が長引いて、次に約束に遅れてしまいました。" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 30,
+          "mondai": 6,
+          "type": "WORD_USAGE",
+          "question": "席をはずす",
+          "choices": [{ "id": 1, "text": "課長の鈴木はあいにく今、席をはずしております。" }, { "id": 2, "text": "課長の鈴木が席をはずしてお伺いいたします。" }, { "id": 3, "text": "バスで老人に席をはずした。" }, { "id": 4, "text": "朝のラッシュ時、電車は席をはずして運行している。" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 31,
+          "mondai": 6,
+          "type": "WORD_USAGE",
+          "question": "さわやかな",
+          "choices": [{ "id": 1, "text": "何回も試験に落ちて、さわやかな気持ちになりました。" }, { "id": 2, "text": "昨日の大雨がうそのように、さわやかな朝を迎えている。" }, { "id": 3, "text": "お酒をよく飲んで大声を出すさわやかな男性はきらいだ。" }, { "id": 4, "text": "さわやかな食事ですが、どうぞ召し上がってください。" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 32,
+          "mondai": 6,
+          "type": "WORD_USAGE",
+          "question": "特徴",
+          "choices": [{ "id": 1, "text": "最新の冷蔵庫は、省エネの特徴がある。" }, { "id": 2, "text": "キリンは首が長いのが特徴です。" }, { "id": 3, "text": "東京の人口が特徴に多い。" }, { "id": 4, "text": "彼を特徴にあつかってはいけません。" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "文法",
+      "items": [
+        {
+          "id": 33,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "体がふらふらしたので熱を計ってみた（ ）、39度もあった。",
+          "choices": [{ "id": 1, "text": "とたん" }, { "id": 2, "text": "ところ" }, { "id": 3, "text": "あげく" }, { "id": 4, "text": "どころ" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 34,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "都合でしばらく休ませていただきますが、仕事をやめる（ ）。",
+          "choices": [{ "id": 1, "text": "一方です" }, { "id": 2, "text": "わけではありません" }, { "id": 3, "text": "ところではありません" }, { "id": 4, "text": "わけです" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 35,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "この商品は質は（ ）種類が多い。",
+          "choices": [{ "id": 1, "text": "抜きで" }, { "id": 2, "text": "ことなく" }, { "id": 3, "text": "ともかく" }, { "id": 4, "text": "として" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 36,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "おかしくて、笑わずには（ ）。",
+          "choices": [{ "id": 1, "text": "いられる" }, { "id": 2, "text": "見ない" }, { "id": 3, "text": "いられない" }, { "id": 4, "text": "できない" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 37,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "この集まりは、国際交流を目的（ ）ものです。",
+          "choices": [{ "id": 1, "text": "とした" }, { "id": 2, "text": "にしたら" }, { "id": 3, "text": "として" }, { "id": 4, "text": "にしたって" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 38,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "明日は首相がこの町を訪問します。それに（ ）この道路は混雑します。",
+          "choices": [{ "id": 1, "text": "つれて" }, { "id": 2, "text": "ともに" }, { "id": 3, "text": "あがって" }, { "id": 4, "text": "ともなって" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 39,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "日本人に（ ）、どの国の人も自分の国の政治には不満があると思う。",
+          "choices": [{ "id": 1, "text": "くらい" }, { "id": 2, "text": "したら" }, { "id": 3, "text": "限らず" }, { "id": 4, "text": "とって" }],
+          "correctAnswer": 3,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 40,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "体（ ）元気なら、なんとか生活していけるだろう。",
+          "choices": [{ "id": 1, "text": "さえ" }, { "id": 2, "text": "ほど" }, { "id": 3, "text": "だらけ" }, { "id": 4, "text": "かぎり" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 41,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "その人が授業に来たのは一度（ ）です。",
+          "choices": [{ "id": 1, "text": "どころ" }, { "id": 2, "text": "きり" }, { "id": 3, "text": "だらけ" }, { "id": 4, "text": "とおり" }],
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 42,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "何度も引っ越しをしているので、家具が傷（ ）になっている。",
+          "choices": [{ "id": 1, "text": "きり" }, { "id": 2, "text": "どころ" }, { "id": 3, "text": "あまり" }, { "id": 4, "text": "だらけ" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 43,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "ここ数年の都市開発で、この辺りの森や林はなくなる（ ）。",
+          "choices": [{ "id": 1, "text": "わけがない" }, { "id": 2, "text": "わけにはいかない" }, { "id": 3, "text": "あげくだ" }, { "id": 4, "text": "一方だ" }],
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 44,
+          "mondai": 7,
+          "type": "GRAMMAR",
+          "question": "運転免許証（ ）健康保険証など、ご持参ください。",
+          "choices": [{ "id": 1, "text": "あるいは" }, { "id": 2, "text": "すなわち" }, { "id": 3, "text": "ただし" }, { "id": 4, "text": "もっとも" }],
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 45,
+          "mondai": 8,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "今朝は地震で",
+          "sentenceAfter": "ではなかった。",
+          "fragments": [{ "id": 1, "text": "食器が割れたり" }, { "id": 2, "text": "食事" }, { "id": 3, "text": "どころ" }, { "id": 4, "text": "して" }],
+          "correctOrder": [1, 4, 2, 3],
+          "starPosition": 3,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 46,
+          "mondai": 8,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "今日は早く帰ってきたんです。",
+          "sentenceAfter": "から。",
+          "fragments": [{ "id": 1, "text": "よくない" }, { "id": 2, "text": "です" }, { "id": 3, "text": "もの" }, { "id": 4, "text": "体調が" }],
+          "correctOrder": [4, 1, 3, 2],
+          "starPosition": 2,
+          "correctAnswer": 1,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 47,
+          "mondai": 8,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "彼は両親を",
+          "sentenceAfter": "だ。",
+          "fragments": [{ "id": 1, "text": "休みがちで" }, { "id": 2, "text": "仕事も" }, { "id": 3, "text": "悲しげ" }, { "id": 4, "text": "亡くしてから" }],
+          "correctOrder": [4, 2, 1, 3],
+          "starPosition": 2,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": 48,
+          "mondai": 8,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "男は",
+          "sentenceAfter": "。",
+          "fragments": [{ "id": 1, "text": "笑い" }, { "id": 2, "text": "ありげな" }, { "id": 3, "text": "浮かべた" }, { "id": 4, "text": "意味" }],
+          "correctOrder": [4, 2, 1, 3],
+          "starPosition": 1,
+          "correctAnswer": 4,
+          "explanation": null,
+          "needsReview": true
+        },
+        {
+          "id": 49,
+          "mondai": 8,
+          "type": "SENTENCE_ORDER",
+          "sentenceBefore": "学校を",
+          "sentenceAfter": "ついていけない。",
+          "fragments": [{ "id": 1, "text": "休まずに" }, { "id": 2, "text": "授業には" }, { "id": 3, "text": "ものの" }, { "id": 4, "text": "行っている" }],
+          "correctOrder": [1, 4, 3, 2],
+          "starPosition": 4,
+          "correctAnswer": 2,
+          "explanation": null,
+          "needsReview": false
+        },
+        {
+          "id": "cloze-09-01",
+          "type": "CLOZE",
+          "passageId": "cloze-09-01",
+          "passage": "オリンピックを目前にして、スポーツ選手たちの活躍がテレビなどで放送されている。\n\nそれは視聴者をワクワク、ドキドキ、ハラハラさせて楽しませ、夢を与えてくれるものです。\n［50］、私は楽しむよりも、選手たちの気持ちや体調が気になって［51］のです。プレッシャーから押しつぶされそうになりがちな気持ちと戦っているせいか、疲れ［52］に見える人もいます。これから上をめざす若い新人選手たちは［53］、メダルを期待されている選手たちの肉体的な疲労はもとより精神的な苦しみはどれほどのものでしょう。\n\nもちろん、試合前の練習や表情、試合後の様子などを知りたくないなどというつもりはありませんが、なるべく試合だけに集中できるよう、ファンへのサービスに気をつかわなくてもいいようにそっとしてあげられたら、と［54］のです。",
+          "needsReview": false,
+          "questions": [
+            { "id": 50, "mondai": 9, "type": "CLOZE", "question": "［50］", "choices": [{ "id": 1, "text": "それで" }, { "id": 2, "text": "そこで" }, { "id": 3, "text": "それに" }, { "id": 4, "text": "しかし" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+            { "id": 51, "mondai": 9, "type": "CLOZE", "question": "［51］", "choices": [{ "id": 1, "text": "心配することはない" }, { "id": 2, "text": "心配ではいられない" }, { "id": 3, "text": "心配でならない" }, { "id": 4, "text": "心配してはならない" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 52, "mondai": 9, "type": "CLOZE", "question": "［52］", "choices": [{ "id": 1, "text": "ぎみ" }, { "id": 2, "text": "っぽい" }, { "id": 3, "text": "がち" }, { "id": 4, "text": "げ" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 53, "mondai": 9, "type": "CLOZE", "question": "［53］", "choices": [{ "id": 1, "text": "抜きで" }, { "id": 2, "text": "かなわないが" }, { "id": 3, "text": "まだしも" }, { "id": 4, "text": "しょうがない" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 54, "mondai": 9, "type": "CLOZE", "question": "［54］", "choices": [{ "id": 1, "text": "思ってばかりいられない" }, { "id": 2, "text": "思わねばならない" }, { "id": 3, "text": "思ってはならない" }, { "id": 4, "text": "思わずにはいられない" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "読解",
+      "items": [
+        {
+          "id": "reading-10-01",
+          "type": "READING",
+          "passageId": "reading-10-01",
+          "passage": "日光東照宮（注）は1617年、徳川家康をまつるために建てられました。色とりどりに飾られた建物が有名で、1年中観光客でにぎわっています。\n\n建物には多くの彫刻がありますが、その中の一つに「三猿」があります。これは3頭の猿の彫刻で、一つは両目を手でかくしている猿、もう一つは両耳を手でふさいでいる猿、もう一つは口を手でおおっている猿です。猿に、昔の言葉「ざる（・・・ない）」をかけて、「見ざる、聞かざる、言わざる」を表していると言われています。\n\n（注）東照宮：徳川家康の死後、家康のために建てられた神社。栃木県日光市にある。",
+          "needsReview": false,
+          "questions": [
+            { "id": 55, "mondai": 10, "type": "READING", "question": "「その中」は何を指しているか。", "choices": [{ "id": 1, "text": "建物" }, { "id": 2, "text": "観光客" }, { "id": 3, "text": "彫刻" }, { "id": 4, "text": "猿" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-02",
+          "type": "READING",
+          "passageId": "reading-10-02",
+          "passage": "ぼくは、子供の頃から、たいへん、ひとみしりをする質（注1）で、ひと前に出るよりは、ひとりっきりで（注2）いた方がいい。学校の教室などでも、ハイ、ハイ、と手を上げて、われ先に（注3）自分の意見を言える子どもたちを見ても、ぼくにはとてもあんなふうには真似ができない。だから、自分のことを、なかなか他人に伝えたり、わかってもらえなくて、悲しい思いや、傷ついたりすることも多く、ああ、なんてぼくはそんな性質に生まれついたんだろう、と我が身が腹立たしく、くやしく思ったことも一度ならずあった。\n\n（大林宣彦『きみが、そこにいる』PHP研究所）\n\n（注1）質：性質、性格\n（注2）ひとりっきり：ひとりだけで\n（注3）われ先：ほかの人より自分が先になって",
+          "needsReview": false,
+          "questions": [
+            { "id": 56, "mondai": 10, "type": "READING", "question": "「ひとみしりをする質」とあるが、どんな性格か。", "choices": [{ "id": 1, "text": "大勢の人の前で積極的に意見が言える性格" }, { "id": 2, "text": "人の真似が上手にできなくてくやしがる性格" }, { "id": 3, "text": "思っていることを他人に伝えるのが苦手な性格" }, { "id": 4, "text": "すぐに腹を立てて、ひとを傷つけてしまう性格" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-03",
+          "type": "READING",
+          "passageId": "reading-10-03",
+          "passage": "ゆでたての卵は熱く、氷水は冷たい。この熱い、冷たい度合い（注）を温度という。ゆでた卵を水につけて冷やすと、卵の温度は下がり、水の温度上がる。これは温度の高い卵から、温度の低い水に熱が移動したためである。熱は温度の高い物体から低い物体へ移動する。そして、二つ物体の温度が等しくなると熱の移動は止まる。このように移動する熱の量を熱量という。\n\n（『中学校理科 1分野上』大日本図書）\n\n（注）度合い：程度",
+          "needsReview": true,
+          "questions": [
+            { "id": 57, "mondai": 10, "type": "READING", "question": "「二つ物体の温度が等しくなると熱の移動は止まる」とはどんな意味か。", "choices": [{ "id": 1, "text": "別々の物質であっても、その時の気温と同じ温度になるまで変化するということ" }, { "id": 2, "text": "熱した卵はもとの温度に下がっていく性質を持ち、水がその変化を進めるということ" }, { "id": 3, "text": "水は一定の温度を保つ性質があり、別の物体を入れても同じ結果になる" }, { "id": 4, "text": "二つの物体の温度が同じになって、一方の温度がもう一方に伝わらなくなること" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-04",
+          "type": "READING",
+          "passageId": "reading-10-04",
+          "passage": "人間のもっとも人間らしいところは、それぞれが「自己」をもつことです。「自己」とは、自分がこういう人だ、自分はこれがしたい、これは自分らしくない、などといった、私たちが持つ自分についての意識をいいます。これは人間だけがもつものです。この自己が、私たちの行動やくらし方を選んで決めています。時には他人からみると、気がしれない（注1）と思われることもあります。それを「たで食う虫も好き好き（注2）」と認め合うのだといえましょう。\n\n（高橋恵子『自立への旅立ち「新版」』岩波書店）\n\n（注1）気がしれない：気持ちがりかいできない\n（注2）たで食う虫も好き好き：人によって好きなことが違うこと",
+          "needsReview": false,
+          "questions": [
+            { "id": 58, "mondai": 10, "type": "READING", "question": "ここでいう「自己」とは何か。", "choices": [{ "id": 1, "text": "もっとも人間らしいところ" }, { "id": 2, "text": "自分について持つ意識のこと" }, { "id": 3, "text": "私たちの行動やくらし方のこと" }, { "id": 4, "text": "他人を認め合うこと" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-05",
+          "type": "READING",
+          "passageId": "reading-10-05",
+          "passage": "久しぶりに会った留学生に「お久しぶり」と言ったら、「おさしみ？」と聞き返されたことがあります。なぜでしょう。「オヒサシブリ」と「オサシミ」の共通点は「オ、サ、シ」。「ヒ」がうまく聞きとれなかったとしても、「ブリ」と「ミ」では全く違うような感じがします。しかし声を出さずにこの二つをいってみるとどうでしょう。唇の動きがよく似ていることに気づきますね。それに「リ」と「ミ」はどちらも母音が「イ」です。ですから「ブリ」が「ミ」に聞こえてしまうこともあるわけです。そういえば、「お久しぶり」を「おさしみ、ブリ（注）」と聞いた日本の子どもの話が新聞に載っていたこともありました。\n\n（注）ブリ：魚の種類",
+          "needsReview": false,
+          "questions": [
+            { "id": 59, "mondai": 10, "type": "READING", "question": "筆者が「『おさしみ？』と聞き返した」のはなぜですか。", "choices": [{ "id": 1, "text": "その留学生は「お久しぶり」と「おさしみ」が同じ意味だと思ったから" }, { "id": 2, "text": "その留学生にとっては「おさしみ」の方が発音しやすかったから" }, { "id": 3, "text": "その留学生は「おさしみ」という言葉しか知らなかったから" }, { "id": 4, "text": "その留学生が「おひさしぶり」を、音のよく似ている言葉の聞き違えたから" }], "correctAnswer": 4, "explanation": null, "needsReview": true }
+          ]
+        },
+        {
+          "id": "reading-11-01",
+          "type": "READING",
+          "passageId": "reading-11-01",
+          "passage": "木は、地球の環境をまもるために、さまざまなはたらきをしていますが、くらしをささえる資源としても、とても大切です。家をつくる木、家具や道具にもたくさん木が使われています。\n\n日本で毎年使われている木材の量は、約1億1000万立方メートルです。そのなかで国内で生産できる量は約20パーセントの2200万立方メートルだけで、足りない分は、アメリカ、カナダ、東南アジアなどからの輸入にたよっています。\n\n年間の輸入量は、約8834立方メートルです。そのうち32パーセントが住宅施設に使われ、残りのほとんどが紙を作るためのパルプ（注1）の原料です。原料となる木は、現地でこまかくくだかれ、チップ（木片）にして船で運ばれてきます。\n\n新聞や本やノートのほかにも、私たちまわりには、たくさんの紙製品があります。牛乳やジュースなどの容器として使われている紙パックだけでも、毎日約8500本分のチップが使われています。①これは電話帳（注2）に換算すると125冊分で、つみ上げると高さ5.6メートルにもなります。\n\nこのように日本は大量に木材を輸入しているので、森林破壊や砂漠化（注3）につながると世界中から非難されたことがあります。たしかに②その危険があります。そこでその危険をふせぐため、製紙会社やボランティアが中心になって、世界各地で植林活動をすすめています。\n\n（七尾純「資源とエネルギー」『環境のことば辞典③』大日本図書）\n\n（注1）パルプ：木材や植物などから繊維を取り出したもの。紙などの原料\n（注2）電話帳：電話番号や名前、住所などが書かれた本の形のもの\n（注3）砂漠化：森林や草原などに植物が生えなくなり、砂漠に変化すること",
+          "needsReview": true,
+          "questions": [
+            { "id": 60, "mondai": 11, "type": "READING", "question": "輸入される木材の6割以上は、どんなことに使われているか。", "choices": [{ "id": 1, "text": "住宅" }, { "id": 2, "text": "家具" }, { "id": 3, "text": "紙" }, { "id": 4, "text": "容器" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 61, "mondai": 11, "type": "READING", "question": "「①これ」は何を指しているか。", "choices": [{ "id": 1, "text": "1年で日本人一人が消費するチップの量" }, { "id": 2, "text": "1年で日本人一人が読む新聞" }, { "id": 3, "text": "1年で日本人が使う紙パック" }, { "id": 4, "text": "1年で日本人が消費する紙の量" }], "correctAnswer": 3, "explanation": null, "needsReview": true },
+            { "id": 62, "mondai": 11, "type": "READING", "question": "「②その危険」は何を指しているか。", "choices": [{ "id": 1, "text": "日本が大量に木材を輸入するので、外国の自然環境を壊すと考えられていること" }, { "id": 2, "text": "日本で生産される木材が減って、すべてを外国からの輸入にたよること" }, { "id": 3, "text": "日本では材木で住宅を建設するため、今後も多くの木が使われているということ" }, { "id": 4, "text": "日本では外国と比べ、容器にする紙を大量に消費すると言われていること" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-02",
+          "type": "READING",
+          "passageId": "reading-11-02",
+          "passage": "阪神・淡路大震災（注1）のとき、被災した人が最も困ったことは、①ライフライン（電気・水・ガス）が寸断され、たとえ家の破壊は免れても日々の生活ができなくなったことです。その理由は、電気は電力会社に、水は自治体に、ガスはガス会社にと、私たちが命綱（注2）を「お任せ」する体質になってしまっているためです。言い換えると、ライフラインを大型化・集中化・一様化のシステムに組み込まれてしまったのです。そのシステムは効率的ですが、②急所をやられると全てが止まってしまい、被害が拡大することを示しています。「文明が進化するとともに災害も進化する」例といえるでしょう。③各家庭あるいは地域レベルでライフラインを確保することの重要さを、あの大震災が教えているのです。つまり、文明化した社会は、むしろ小型化・分散化・多様化した技術えと転換しないと実に脆弱（注3）なのです。それら一つ一つは非効率のように見えますが、小回りが聞き（注4）（緊急の場合に好都合）、複数の技術を組み合わせるとそれぞれの長所・短所が補い合えるという良さがあります。\n\n（池内了『ヤバンな科学』晶文社）\n\n（注1）阪神・淡路大震災：1995年1月17日に起きた地震。兵庫県、大阪府、京都府の各地で死者6300人の大きな被害を出した。\n（注2）命綱：生命や生活を支えるために大切なもの\n（注3）脆弱：壊れやすくて弱いこと\n（注4）小回りが利く：その場にあわせて使えること",
+          "needsReview": true,
+          "questions": [
+            { "id": 63, "mondai": 11, "type": "READING", "question": "大震災で「①ライフライン（電気・水・ガス）が寸断され」たときに明らかになった問題点は何だと言っているか。", "choices": [{ "id": 1, "text": "電気・水・ガスを大型で集中した同じシステムに組み込んでいたこと" }, { "id": 2, "text": "住宅の構造が弱く、電気・水・ガスが簡単に壊れて使えなくなったこと" }, { "id": 3, "text": "電気やガスなどのエネルギー源が、住宅地から遠く離れたところにあること" }, { "id": 4, "text": "電気・水・ガスを各自が得られるような救助の体制ができていなかったこと" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 64, "mondai": 11, "type": "READING", "question": "「②急所をやられると全てが止まってしまい」とあるが、どんな意味か。", "choices": [{ "id": 1, "text": "情報を集めなくてはいけない役所が壊れると、連絡が取れなくなること" }, { "id": 2, "text": "ライフラインの中心となるところが壊れると、全てが機能しなくなること" }, { "id": 3, "text": "町の中心が壊れると、救助活動が全くできなくなること" }, { "id": 4, "text": "文化の進んだ社会が壊れると、以後の発展は難しくなること" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 65, "mondai": 11, "type": "READING", "question": "「③各家庭あるいは地域レベルでライフラインを確保することの重要さを、あの大震災が教えているのです」とはどんな意味か。", "choices": [{ "id": 1, "text": "大震災が起こると、豊かで便利な生活がとても弱いことがわかるということ" }, { "id": 2, "text": "大震災では予想よりも建物が壊れなくて、ライフラインだけがひどく破壊されてしまったこと" }, { "id": 3, "text": "大震災の経験から、ライフラインのシステムをそれぞれの町や家庭がもつべきだということ" }, { "id": 4, "text": "大震災のあと、火事や災害では壊れにくい都市を計画して再建した方がいいということ" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-03",
+          "type": "READING",
+          "passageId": "reading-11-03",
+          "passage": "実は私は携帯電話を持ったことがない（正確にいうとわたし名義（注1）の携帯電話はあるが、それは娘がもているので、娘に急用があるときに自宅の電話から呼び出すだけだ。）小説書きにとって、携帯電話なんてもっていたら自殺行為である。だからもたないのだが、娘が買ってきたとき、彼女は付随し（注2）てきた①マニュアルの厚さに驚いていた。つまり携帯電話というのは単なる電話機能だけではなくて、いろいろなことができるらしいのである。\n\nなるほどTVのコマーシャルなどをみると携帯電話の画面でゲームに夢中になった娘さんが、ビールを注ぎこぼしてしまう、というのがあった。電話機でゲームなんか、どうやってやらなければならいんだろう。\n\nそんな厚いマニュアルがついている携帯電話に、どうしてさらに世界最小のデジカメ（注3）で写した写真を送る機能を付加しなくてはならないのだろう？みんなが事件現場の新聞記者というわけではないのに。\n\n同じ小型カメラといっても、あまりロマンチックじゃない気がするが、今の若い世代にはこれが十分ロマンチックなのかもしれない。②そういうことを否定する気はない。\n\n（三木卓「もう間に合っています！『母のキャラメル’01版ベストエッセイ集』」）\n\n（注1）名義：その人の名前（所有しているものなど）\n（注2）付随する：それについているもの\n（注3）デジカメ：デジタルカメラ",
+          "needsReview": true,
+          "questions": [
+            { "id": 66, "mondai": 11, "type": "READING", "question": "「①マニュアルの厚さ」はどんなことを意味していると筆者は言えるか。", "choices": [{ "id": 1, "text": "携帯電話は、電話として使う以外にもたくさんの機能があること" }, { "id": 2, "text": "携帯電話には、高い技術が多く組み込まれていること" }, { "id": 3, "text": "携帯電話は、取り扱いが難しいから注意が必要だということ" }, { "id": 4, "text": "携帯電話は、中の構造が複雑なので、説明のページが多いということ" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 67, "mondai": 11, "type": "READING", "question": "筆者が携帯電話について持っている疑問はどんなことか。", "choices": [{ "id": 1, "text": "若い人たちが携帯電話を持ちたがる理由" }, { "id": 2, "text": "携帯電話に付いてくるマニュアルの厚さ" }, { "id": 3, "text": "多くの機能の上に、さらに写真機能をつけること" }, { "id": 4, "text": "若い人たちが携帯電話にデジカメを付加した携帯電話を持ちたがること" }], "correctAnswer": 4, "explanation": null, "needsReview": true },
+            { "id": 68, "mondai": 11, "type": "READING", "question": "「②そういうこと」とは何を指しているか。", "choices": [{ "id": 1, "text": "多くの人たちが、最新の機能が付いている携帯電話を持ちたがること" }, { "id": 2, "text": "携帯電話の機能の説明が書いてあるマニュアルがとても厚いこと" }, { "id": 3, "text": "携帯電話に付いているゲームをやったり、カメラで写真を撮ったりすること" }, { "id": 4, "text": "若い人たちが携帯電話の小型カメラをロマンチックだと思っていること" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-12-01",
+          "type": "READING",
+          "passageId": "reading-12-01",
+          "passage": "相談者：私の彼のことで相談したいことがあります。彼は私の誕生日などによくセーターやアクセサリーをプレゼントしてくれるのですが、彼からのプレゼントはいつも淡い色を多く使った、女の子らしいかわいいデザインのものが多いです。\n\n彼のことはとても好きだし、一生懸命選んでくれているのがわかるだけに、①私の本当の気持ちを言い出しにくくて困っています。どうしたらよろしいでしょうか。\n\n回答者A：\nこれからも長くお付き合いすることを考えているのなら、やはり彼にあなたの本当の好みを伝えてわかってもらったほうがよいと思います。でもプレゼントをもらった時に「こういうのは好きじゃない」というと彼を傷つけてしまうので、ふだんからデートの時にショーウインドなどを見ながら、「わたしこんな服が好きなのよ」とか「これ、ほしいなあ」などと言って、彼にそれとなく伝えるようにしてはいかがでしょうか。\n\n回答者B：\n自分で思っているイメージと他人が見たイメージとは違っていることも多いものです。自分では「シャープなデザインが似合う」と思っていても、彼から見ると「かわいらしい感じのデザインが似合う」と思っているかもしれません。自分で自分のイメージを決めてしまわずに、一度思い切って身につけてみてはどうでしょうか。新しい自分が発見できるかもしれませんし、彼もそれをきたいしているかもしれませんよ。",
+          "needsReview": false,
+          "questions": [
+            { "id": 69, "mondai": 12, "type": "READING", "question": "「①私の本当の気持ち」とは、どんな気持ちか。", "choices": [{ "id": 1, "text": "彼が一生懸命選んでくれているのでとてもうれしい" }, { "id": 2, "text": "彼からのプレゼントは私の好みのものではない" }, { "id": 3, "text": "淡い色のかわいらしいデザインのものがほしい" }, { "id": 4, "text": "セーターやアクセサリーはほしくない" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 70, "mondai": 12, "type": "READING", "question": "「相談者」の相談に対するA、Bの回答について、正しいのはどれか。", "choices": [{ "id": 1, "text": "AもBも、彼の心のこもったプレゼントなので、素直に身に付けなければならないと言っている" }, { "id": 2, "text": "AもBも、長くお付き合いするために少しずつ自分の本当の好みを伝えたり、また自分も合わせたらいかがと言っている" }, { "id": 3, "text": "Aは相談者の彼の考え方に理解を示し、Bは相談者の好みを主張すべきとの意見を述べている" }, { "id": 4, "text": "Aは相談者の好みをより重視し、Bは相談者の彼の考えに反対すべき意見を述べている" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-13-01",
+          "type": "READING",
+          "passageId": "reading-13-01",
+          "passage": "勝ち組、負け組って何だろう。\n\n春先は入学や就職など、進路が決まったり決まらなかったりする季節である。\n\nゲームのルールがあって明確だ。しかし、われわれ「人」の勝ち負けに、世界共通の基準などあるのだろうか。勝ち負けーーつまり成功の基準は、人によりさまざまなはずだ。同じ一個人でも時と場合によっては、違ってくる。\n\n（中略）\n\n試験は合格が「勝ち」で不合格は「負け」。資格試験であれば、取得できれば成功、できなければ不成功。とてもわかりやすい。ただ、これも試験そのものの基準であって、人を組分けする基準ではない。\n\n受験者はそれぞれ個別の事情や目標をもっている。受験に至るまでの、そのような一切（注1）を評価するのは本人であり、他人がともかく言う問題ではない。\n\nでは、どうしてまわりの評価や基準が気になるのだろう？それは、自分の中で成功の基準を持っていない、意識していない人が多くなっているからではないか。毎日の生活の中で、何ができればいいのか、どう感じることが幸せなのかを、ちっとも考えてなくなっているからではないか。自分の基準がないから、まわりを気にする。他人と比べるから、勝ち・負けの発想に傾いてしまう。しかもその際、他人の基準を使うから、どうしたってストレスがたまるし、勝つより負けるほうが多くなる。\n\n私自身、30代までは、まわりの評価を基準にしていた。そしてあるとき「一生こうして生きるのか？」と考えたら、そもそも「自分はこう生きたいのか？」を、まじめに考えたことすらないことに気づいた。\n\nその後、会社を辞め、独立もしてみた。再就職も何社かした。だが、たいして変わらなかった。今にして思えば、そのとき自分がやったことは、「まわりを変える」ことであって、肝心（注2）①「自分を変える」ことではなかったからだ。40半ばを過ぎ「自分の成功基準を持つ」大切さに気づいた。生活の中に数々の成功基準を持つことで、一日の生き方は、どんどん意識的なものになる。例えば、朝早く起きれば成功、その後ジョギングをして、道すがら（注3）何か発見があればこれまた成功、気持ちよく仕事に行けば大成功、夜仲間と飲めば大大成功！といった具合だ。\n\nわれわれは②われわれ自身の「ゲーム」の主役だ。ルールは自分で決めて打ち込め（注4）ば、毎日はスリリング（注5）で楽しいものになる。\n\n（三好隆宏「私の視点」2008年3月12日付けの朝日新聞朝刊による）\n\n（注1）一切：すべて\n（注2）肝心の：もっとも重要な\n（注3）道すがら：途中で\n（注4）打ち込む：何かを一生懸命する\n（注5）スリリング：わくわくすること",
+          "needsReview": false,
+          "questions": [
+            { "id": 71, "mondai": 13, "type": "READING", "question": "①「自分を変える」こととは、どういうことか。", "choices": [{ "id": 1, "text": "自分が本当にやりたがった職業につくこと" }, { "id": 2, "text": "負けた時にも成功だと思える人になること" }, { "id": 3, "text": "毎日生き方の中に自分の基準を持つこと" }, { "id": 4, "text": "まわりの評価を基準にする人間になること" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 72, "mondai": 13, "type": "READING", "question": "②われわれ自身の「ゲーム」が意味していることは何か。", "choices": [{ "id": 1, "text": "自分の生き方や生活" }, { "id": 2, "text": "ジョギング中の発見" }, { "id": 3, "text": "成功の基準を探すこと" }, { "id": 4, "text": "自分に合っている仕事" }], "correctAnswer": 3, "explanation": null, "needsReview": true },
+            { "id": 73, "mondai": 13, "type": "READING", "question": "筆者がこの文章で一番言いたいことはどんなことか。", "choices": [{ "id": 1, "text": "まわりの評価を基準にしたとき自分の生き方が成功だとしても、自分が本当に満足していなければ成功といえない。" }, { "id": 2, "text": "まわりの基準による勝ち負けの発想を捨て、自分で決めた成功基準に自分の行動を当てはめて生活することが大切である。" }, { "id": 3, "text": "人生で勝ち組に入るにはまわりの評価や基準を気にしながら世界共通の基準を意識して自分の中に取り入れるべきである。" }, { "id": 4, "text": "一日の生き方で大切なことは、朝早く起き、適度な運動をし、気持ちよく仕事をし、夜仲間と楽しく付き合うことである。" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "information-14-01",
+          "type": "INFORMATION_SEARCH",
+          "passageId": "information-14-01",
+          "layout": "vertical",
+          "passage": "葛西臨海水族館 入園案内\n\n●開園時間\n午前9時30分～午後5時（入園券の発売は午後4時まで）\n※ただし、4時30分ごろ、見られなくなる動物もあります。\n※また、特別に開園時間を変更することもあります。\n※最新の開園予定についてはこちらの開園カレンダーをごらんください。\n\n●入園料\n一般：個人700円／団体（20名以上）560円／年間パスポート2,800円\n中学生：個人250円／団体（20名以上）200円／年間パスポートなし\n65歳以上：個人350円／団体（20名以上）280円／年間パスポート1,400円\n※小学生以下、東京都内に住んでいる・在学の中学生は無料です。中学生は生徒手帳を持参してください。\n※団体入園についての詳細は、下記「団体入園のご案内」をご覧ください。\n※障害者手帳・愛の手帳・療育手帳をお持ちの方と、その付添者原則1名は無料です。\n※65歳以上の方は、年令の証明となるものをお持ちください。\n※葛西臨海公園大観覧車の半券を切符売場窓口にご提示いただくと、入園料が2割引になります。\n※年間パスポートの有効期間は購入日から1年間です。\n\n●無料公開日\nみどりの日（5月4日）／東京都民の日（10月1日）／開園記念日（10月10日）\n※老人週間（9月15日～21日）期間中の開園日は60歳以上の方の入場は無料です（付添者1名無料）。\n※5月5日は中学生無料\n\n●休園日\n※毎週水曜日（水曜日が国民の祝日や振替休日、都民の日の場合は、その翌日が休園日）\n※年末年始（12月29日～翌年1月1日）\n※最新の開園予定はこちらの開園カレンダーをごらんください。\n\n●乳幼児をお連れの方へのご案内\n※授乳室は、正門横レストハウスと本館の2か所にあります。本館では案内カウンターにて受け付けます。入室できるのは女性の方のみです。男性の授乳利用については、係員にご相談ください。お湯をご利用の際は、案内カウンター、レストラン、売札事務所の係員にお申し付けください。電子レンジをご利用の際は、レストランの係員にお申し付けください。\n※おむつ替えシートは、全ての女子トイレと売札所ゲートの男子トイレにご用意してあります。\n※幼児用補助便座は、サメ横トイレ内にあります。\n※ベビーカーの貸出はおこなっておりません。館内に持ち込まない場合、ベビーカーは売改札ゲートでお預かりします。\n※ベビーカーで移動できない場所は、「ペンギン」エリア内の階段でおりた水槽展示部分と、「東京の海」エリアにある階段上の通路です。くわしくは係員にお問合せください。\n\n●障害のある方、ご高齢の方へのご案内\n※入園料は、障害者手帳・愛の手帳・療育手帳をおもちの方と、その付添者（原則1名）は無料です。\n※65歳以上の方の入園料は、一般の方の入園料の半額です（個人350円、団体280円、年間パスポート1,400円）。年齢の証明となるものをご持参ください。\n※障害者用トイレ（だれでもトイレ）は、淡水生物館トイレを除くすべてのトイレにあります。\n※オストメイト対応トイレは、売改札ゲートのトイレにあります。\n※車椅子の貸出と返却は、正門、売改札ゲート、案内カウンターで受け付けています。料金は無料、原則的に園内のみでのご利用となりますが、葛西臨海公園内を移動する必要がある場合は係員にご相談ください。先着順の貸出です（車椅子台数：13台）。\n※車椅子で移動できない場所は、「ペンギン」エリアの階段でおりた水槽展示部分と、「東京の海」エリアにある階段上の通路です。くわしくは係員にお問合せください。\n※補助犬（盲導犬、聴導犬、介助犬）同伴のご入園も可能です。\n※提携している病院はありませんが、急病の際は症状・年齢等に応じて近隣の受入病院を探すお手伝いをいたします。係員にお声がけください。",
+          "needsReview": false,
+          "questions": [
+            { "id": 74, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "一般の人が切符売場窓口で何を提示すると、入園料が2割引になるか。", "choices": [{ "id": 1, "text": "愛の手帳" }, { "id": 2, "text": "淡水生物館の半券" }, { "id": 3, "text": "東京都民手帳" }, { "id": 4, "text": "葛西臨海公園大観覧車の半券" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+            { "id": 75, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "入園案内について正しいものはどれか。", "choices": [{ "id": 1, "text": "すべての動物は入園することができない" }, { "id": 2, "text": "園内へのベビーカーの持ち込みは可能である" }, { "id": 3, "text": "葛西臨海公園を車椅子で移動する際、係員に相談すれば利用可能である。ただし先着順である。" }, { "id": 4, "text": "電子レンジをご利用の際、「ペンギン」エリア内の階段でおりた水槽展示部分で利用可能である。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

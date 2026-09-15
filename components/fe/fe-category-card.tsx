@@ -9,6 +9,7 @@ import {
   Images,
   Database,
   Router,
+  ShieldCheck,
   type LucideIcon,
 } from "lucide-react";
 
@@ -26,6 +27,7 @@ const categoryIcons: Record<FeCategoryIcon, LucideIcon> = {
   media: Images,
   database: Database,
   network: Router,
+  security: ShieldCheck,
 };
 
 interface FeCategoryCardProps {

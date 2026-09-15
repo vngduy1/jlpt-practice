@@ -121,12 +121,9 @@ export interface ExamSection {
 
 export type ExamSource = "JLPT" | "ORIGINAL";
 
-export interface Exam {
+interface ExamBase {
   id: string;
-  source: ExamSource;
   level: string;
-  year: number;
-  month: number;
   title: string;
   questionCount: number;
   durationMinutes: number;
@@ -134,6 +131,31 @@ export interface Exam {
   sections: ExamSection[];
 }
 
-export interface ExamSummary extends Omit<Exam, "sections"> {
-  loadedQuestionCount: number;
+export interface JlptExam extends ExamBase {
+  source: "JLPT";
+  year: number;
+  month: JlptExamMonth;
 }
+
+type UndatedOriginalExam = ExamBase & {
+  source: "ORIGINAL";
+  year?: never;
+  month?: never;
+};
+
+type DatedOriginalExam = ExamBase & {
+  source: "ORIGINAL";
+  year: number;
+  month: JlptExamMonth;
+};
+
+export type OriginalExam = UndatedOriginalExam | DatedOriginalExam;
+export type Exam = JlptExam | OriginalExam;
+
+type ExamSummaryFields<TExam extends Exam> = TExam extends Exam
+  ? Omit<TExam, "sections">
+  : never;
+
+export type ExamSummary = ExamSummaryFields<Exam> & {
+  loadedQuestionCount: number;
+};

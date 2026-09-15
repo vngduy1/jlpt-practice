@@ -26,7 +26,13 @@ export function ExamLibrary({
     .filter((exam) => exam.level === selectedLevel)
     .sort((a, b) => {
       if (variant === "original") {
-        return a.title.localeCompare(b.title, "ja");
+        return (
+          a.title.localeCompare(b.title, "ja") || a.id.localeCompare(b.id, "ja")
+        );
+      }
+
+      if (a.source !== "JLPT" || b.source !== "JLPT") {
+        return a.id.localeCompare(b.id, "ja");
       }
 
       if (a.year !== b.year) {

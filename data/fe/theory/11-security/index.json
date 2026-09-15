@@ -1,0 +1,49 @@
+{
+  "id": "security",
+  "order": 11,
+  "titleJa": "セキュリティ",
+  "titleVi": "Bảo mật",
+  "count": 406,
+  "chapters": [
+    {
+      "id": "information-security",
+      "order": 1,
+      "titleJa": "情報セキュリティ",
+      "titleVi": "Bảo mật thông tin",
+      "count": 169,
+      "file": "01-information-security.json"
+    },
+    {
+      "id": "information-security-management",
+      "order": 2,
+      "titleJa": "情報セキュリティ管理",
+      "titleVi": "Quản lý bảo mật thông tin",
+      "count": 116,
+      "file": "02-information-security-management.json"
+    },
+    {
+      "id": "security-technology-evaluation",
+      "order": 3,
+      "titleJa": "セキュリティ技術評価",
+      "titleVi": "Đánh giá công nghệ bảo mật",
+      "count": 12,
+      "file": "03-security-technology-evaluation.json"
+    },
+    {
+      "id": "information-security-measures",
+      "order": 4,
+      "titleJa": "情報セキュリティ対策",
+      "titleVi": "Biện pháp bảo mật thông tin",
+      "count": 66,
+      "file": "04-information-security-measures.json"
+    },
+    {
+      "id": "security-implementation-technology",
+      "order": 5,
+      "titleJa": "セキュリティ実装技術",
+      "titleVi": "Công nghệ triển khai bảo mật",
+      "count": 43,
+      "file": "05-security-implementation-technology.json"
+    }
+  ]
+}

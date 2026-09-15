@@ -67,6 +67,14 @@ import communicationProtocols from "@/data/fe/theory/10-network/03-communication
 import networkManagement from "@/data/fe/theory/10-network/04-network-management.json";
 import networkApplications from "@/data/fe/theory/10-network/05-network-applications.json";
 
+// 11
+import securityIndex from "@/data/fe/theory/11-security/index.json";
+import informationSecurity from "@/data/fe/theory/11-security/01-information-security.json";
+import informationSecurityManagement from "@/data/fe/theory/11-security/02-information-security-management.json";
+import securityTechnologyEvaluation from "@/data/fe/theory/11-security/03-security-technology-evaluation.json";
+import informationSecurityMeasures from "@/data/fe/theory/11-security/04-information-security-measures.json";
+import securityImplementationTechnology from "@/data/fe/theory/11-security/05-security-implementation-technology.json";
+
 import type {
   FeCategory,
   FeCategoryIndex,
@@ -230,6 +238,23 @@ const networkCategory: FeCategory = {
   ],
 };
 
+// 11
+const securityManifest = securityIndex as FeCategoryManifest;
+
+const securityCategory: FeCategory = {
+  id: securityManifest.id,
+  order: securityManifest.order,
+  titleJa: securityManifest.titleJa,
+  titleVi: securityManifest.titleVi,
+  chapters: [
+    informationSecurity as FeChapter,
+    informationSecurityManagement as FeChapter,
+    securityTechnologyEvaluation as FeChapter,
+    informationSecurityMeasures as FeChapter,
+    securityImplementationTechnology as FeChapter,
+  ],
+};
+
 export const feTheoryCategories: FeCategory[] = [
   basicTheoryCategory,
   algorithmProgramCategory,
@@ -241,4 +266,5 @@ export const feTheoryCategories: FeCategory[] = [
   informationMediaCategory,
   databaseCategory,
   networkCategory,
+  securityCategory,
 ];

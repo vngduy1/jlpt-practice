@@ -10,7 +10,8 @@ export type FeCategoryIcon =
   | "ui"
   | "media"
   | "database"
-  | "network";
+  | "network"
+  | "security";
 
 export interface FeCategoryReference {
   id: string;

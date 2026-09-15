@@ -49,6 +49,10 @@ export default async function ExamPage({ params }: ExamPageProps) {
   const questions = exam.sections.flatMap((section) =>
     flattenQuestions(section.items),
   );
+  const dateLabel =
+    exam.year !== undefined && exam.month !== undefined
+      ? `${exam.level} ${exam.year}年${exam.month}月`
+      : exam.level;
 
   if (questions.length === 0) {
     return (
@@ -65,10 +69,12 @@ export default async function ExamPage({ params }: ExamPageProps) {
           <div className="mb-4 flex items-center justify-between gap-4">
             <div>
               <p className="text-sm font-semibold text-primary">
-                {exam.level} {exam.year}年{exam.month}月
+                {dateLabel}
               </p>
 
-              <h1 className="mt-2 text-2xl font-bold">日本語能力試験</h1>
+              <h1 className="mt-2 text-2xl font-bold">
+                {exam.source === "ORIGINAL" ? exam.title : "日本語能力試験"}
+              </h1>
 
               <p className="mt-2 text-sm text-muted-foreground">
                 全{questions.length}問

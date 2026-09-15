@@ -1,0 +1,214 @@
+{
+  "id": "n2-practice-03",
+  "source": "ORIGINAL",
+  "level": "N2",
+  "title": "N2 Practice Exam 03",
+  "status": "draft",
+  "description": "40-de-thi-jlpt-n2.pdf の N2-3 練習問題",
+  "questionCount": 75,
+  "durationMinutes": 105,
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "文字・語彙",
+      "items": [
+        { "id": 1, "mondai": 1, "type": "KANJI_READING", "question": "額にびっしょり、汗をかいた。", "target": "額", "choices": [{ "id": 1, "text": "わき" }, { "id": 2, "text": "かお" }, { "id": 3, "text": "あたま" }, { "id": 4, "text": "ひたい" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 2, "mondai": 1, "type": "KANJI_READING", "question": "父親に怒られて、その子は元気がなかった。", "target": "怒られて", "choices": [{ "id": 1, "text": "しかられ" }, { "id": 2, "text": "おこられ" }, { "id": 3, "text": "どなられ" }, { "id": 4, "text": "うあらぎられ" }], "correctAnswer": 2, "explanation": null, "needsReview": true },
+        { "id": 3, "mondai": 1, "type": "KANJI_READING", "question": "この問題は思ったよりも難しい。", "target": "難しい", "choices": [{ "id": 1, "text": "きびしい" }, { "id": 2, "text": "むずかしい" }, { "id": 3, "text": "おそろしい" }, { "id": 4, "text": "やさしい" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 4, "mondai": 1, "type": "KANJI_READING", "question": "受付から、迷子のお知らせです。", "target": "迷子", "choices": [{ "id": 1, "text": "めいご" }, { "id": 2, "text": "めいこ" }, { "id": 3, "text": "まいご" }, { "id": 4, "text": "まいこ" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 5, "mondai": 1, "type": "KANJI_READING", "question": "私が山で経験したことは、恐怖そのものだった。", "target": "恐怖", "choices": [{ "id": 1, "text": "きょうふ" }, { "id": 2, "text": "きょふ" }, { "id": 3, "text": "こうふ" }, { "id": 4, "text": "こふ" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 6, "mondai": 2, "type": "VOCABULARY", "question": "あの会社の社長は、うちの社員に対してむりばかり言う。", "target": "むり", "choices": [{ "id": 1, "text": "無里" }, { "id": 2, "text": "無理" }, { "id": 3, "text": "夢中" }, { "id": 4, "text": "夢利" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 7, "mondai": 2, "type": "VOCABULARY", "question": "彼女は今、せいしん的にかなり弱っている。", "target": "せいしん", "choices": [{ "id": 1, "text": "精神" }, { "id": 2, "text": "精心" }, { "id": 3, "text": "性心" }, { "id": 4, "text": "性神" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 8, "mondai": 2, "type": "VOCABULARY", "question": "長い間の努力が、やっと実をむすんだ。", "target": "むすんだ", "choices": [{ "id": 1, "text": "果んだ" }, { "id": 2, "text": "産んだ" }, { "id": 3, "text": "結んだ" }, { "id": 4, "text": "咲んだ" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 9, "mondai": 2, "type": "VOCABULARY", "question": "少し、頭がこんらんしてきたので、話を整理しましょう。", "target": "こんらん", "choices": [{ "id": 1, "text": "混乱" }, { "id": 2, "text": "困惑" }, { "id": 3, "text": "混浴" }, { "id": 4, "text": "困難" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 10, "mondai": 2, "type": "VOCABULARY", "question": "日本人は、よくきんべんだと言われる。", "target": "きんべん", "choices": [{ "id": 1, "text": "勤便" }, { "id": 2, "text": "緊勉" }, { "id": 3, "text": "金便" }, { "id": 4, "text": "勤勉" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 11, "mondai": 3, "type": "VOCABULARY", "question": "昨日の帰り、知らない男に追い（ ）て、怖い思いをした。", "choices": [{ "id": 1, "text": "はらわれ" }, { "id": 2, "text": "おそわれ" }, { "id": 3, "text": "かけられ" }, { "id": 4, "text": "さわがれ" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 12, "mondai": 3, "type": "VOCABULARY", "question": "この時期になると、5時をすぎると、外はもう（ ）暗だ。", "choices": [{ "id": 1, "text": "真っ" }, { "id": 2, "text": "全っ" }, { "id": 3, "text": "総っ" }, { "id": 4, "text": "深っ" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 13, "mondai": 3, "type": "VOCABULARY", "question": "近所のスーパーで、日用（ ）を買った。", "choices": [{ "id": 1, "text": "物" }, { "id": 2, "text": "品" }, { "id": 3, "text": "貨" }, { "id": 4, "text": "荷" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 14, "mondai": 3, "type": "VOCABULARY", "question": "気温が上がって花も咲きはじめ、だいぶ春（ ）なりました。", "choices": [{ "id": 1, "text": "ように" }, { "id": 2, "text": "こんで" }, { "id": 3, "text": "らしく" }, { "id": 4, "text": "そうに" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 15, "mondai": 3, "type": "VOCABULARY", "question": "コンサートが中止になったため、料金が払い（ ）れた。", "choices": [{ "id": 1, "text": "返さ" }, { "id": 2, "text": "過ごさ" }, { "id": 3, "text": "元さ" }, { "id": 4, "text": "戻さ" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 16, "mondai": 4, "type": "VOCABULARY", "question": "その絵は後の時代の画家に大きな（ ）をおよぼした。", "choices": [{ "id": 1, "text": "影響" }, { "id": 2, "text": "反映" }, { "id": 3, "text": "貢献" }, { "id": 4, "text": "関連" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 17, "mondai": 4, "type": "VOCABULARY", "question": "引越しが近づいたので、かたづけやいろいろな手続きで（ ）毎日です。", "choices": [{ "id": 1, "text": "あわただしい" }, { "id": 2, "text": "うらやましい" }, { "id": 3, "text": "くやしい" }, { "id": 4, "text": "はげしい" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 18, "mondai": 4, "type": "VOCABULARY", "question": "コンピューターを使って、国内だけでなく海外とも（ ）が可能になった。", "choices": [{ "id": 1, "text": "通知" }, { "id": 2, "text": "通信" }, { "id": 3, "text": "通行" }, { "id": 4, "text": "通用" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 19, "mondai": 4, "type": "VOCABULARY", "question": "急な用事ができて、私は子供を友人の家に（ ）ことにした。", "choices": [{ "id": 1, "text": "あずかる" }, { "id": 2, "text": "あずける" }, { "id": 3, "text": "うけとる" }, { "id": 4, "text": "あたえる" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 20, "mondai": 4, "type": "VOCABULARY", "question": "今日は友達の結婚式でスピーチをするので、とても（ ）している。", "choices": [{ "id": 1, "text": "拡張" }, { "id": 2, "text": "出張" }, { "id": 3, "text": "緊張" }, { "id": 4, "text": "主張" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 21, "mondai": 4, "type": "VOCABULARY", "question": "母からの小包には、いろいろな缶詰が（ ）つまっていた。", "choices": [{ "id": 1, "text": "がっかり" }, { "id": 2, "text": "ぎっしり" }, { "id": 3, "text": "ぐっすり" }, { "id": 4, "text": "ばったり" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 22, "mondai": 4, "type": "VOCABULARY", "question": "彼の説明はいつも長くて（ ）ので、いらいらする。", "choices": [{ "id": 1, "text": "えらい" }, { "id": 2, "text": "くどい" }, { "id": 3, "text": "かゆい" }, { "id": 4, "text": "ゆるい" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 23, "mondai": 5, "type": "SYNONYM", "question": "彼は、仕事に力を注いだ。", "target": "力を注いだ", "choices": [{ "id": 1, "text": "集中した" }, { "id": 2, "text": "失った" }, { "id": 3, "text": "抜いた" }, { "id": 4, "text": "貸した" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 24, "mondai": 5, "type": "SYNONYM", "question": "今日は、とてもさわやかな朝だ。", "target": "さわやかな", "choices": [{ "id": 1, "text": "寒い" }, { "id": 2, "text": "気持ちいい" }, { "id": 3, "text": "暑い" }, { "id": 4, "text": "忙しい" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 25, "mondai": 5, "type": "SYNONYM", "question": "薬を使用する場合の目安を教えてください。", "target": "目安", "choices": [{ "id": 1, "text": "目的" }, { "id": 2, "text": "見当" }, { "id": 3, "text": "注意" }, { "id": 4, "text": "方法" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 26, "mondai": 5, "type": "SYNONYM", "question": "父とけんかしてしまい、それから話すきっかけがなかなかつかめない。", "target": "きっかけ", "choices": [{ "id": 1, "text": "機会" }, { "id": 2, "text": "理由" }, { "id": 3, "text": "時間" }, { "id": 4, "text": "場所" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 27, "mondai": 5, "type": "SYNONYM", "question": "教室はとてもさわがしい。", "target": "さわがしい", "choices": [{ "id": 1, "text": "美しい" }, { "id": 2, "text": "むしあつい" }, { "id": 3, "text": "うるさい" }, { "id": 4, "text": "きたない" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 28, "mondai": 6, "type": "WORD_USAGE", "question": "上達", "choices": [{ "id": 1, "text": "その国はまだ上達の段階にあると言えるだろう。" }, { "id": 2, "text": "この料理、初めてにしては上達にできているよ。" }, { "id": 3, "text": "才能がある人は何でも上達が早いものだ。" }, { "id": 4, "text": "社員が社長に仕事の状況を上達するのは常識ですよ。" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 29, "mondai": 6, "type": "WORD_USAGE", "question": "確認", "choices": [{ "id": 1, "text": "出かけるときには戸締りを確認してください。" }, { "id": 2, "text": "あのチームが優勝するのはおそらく確認だ。" }, { "id": 3, "text": "この部屋に事務局の確認なく、入ることを禁止する。" }, { "id": 4, "text": "立候補者が1人だったため無投票で確認された。" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 30, "mondai": 6, "type": "WORD_USAGE", "question": "やけど", "choices": [{ "id": 1, "text": "彼は彼女にふられてから、やけどになっている。" }, { "id": 2, "text": "その火事のために、彼女は大きなやけどをした。" }, { "id": 3, "text": "甘いものを食べすぎて、胸がやけどしている。" }, { "id": 4, "text": "高層ビルから見える東京のやけどがとても美しかった。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 31, "mondai": 6, "type": "WORD_USAGE", "question": "すらすら", "choices": [{ "id": 1, "text": "その子は、難しい計算問題をすらすらと解いた。" }, { "id": 2, "text": "そんなすらすらなところを通るのは危ないよ。" }, { "id": 3, "text": "シャワーを浴びて、とてもすらすらした。" }, { "id": 4, "text": "すらすら遊ぶのもいいかげんにしなさい。" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 32, "mondai": 6, "type": "WORD_USAGE", "question": "緊張", "choices": [{ "id": 1, "text": "部長はとても、厳しく、緊張な人だ。" }, { "id": 2, "text": "試験の前日は、緊張して眠れなかった。" }, { "id": 3, "text": "緊張な場面では、きちんとあいさつしましょう。" }, { "id": 4, "text": "資料に間違いがあって緊張に謝った。" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "文法",
+      "items": [
+        { "id": 33, "mondai": 7, "type": "GRAMMAR", "question": "遠くからもよく見える（ ）、字を大きく書いてください。", "choices": [{ "id": 1, "text": "ように" }, { "id": 2, "text": "ために" }, { "id": 3, "text": "だけに" }, { "id": 4, "text": "ばかりに" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 34, "mondai": 7, "type": "GRAMMAR", "question": "行きたくない（ ）はないんですが、今日は、時間がないんです。", "choices": [{ "id": 1, "text": "ほう" }, { "id": 2, "text": "もの" }, { "id": 3, "text": "よう" }, { "id": 4, "text": "こと" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 35, "mondai": 7, "type": "GRAMMAR", "question": "先生が丁寧にご説明（ ）ので、私もよく分かりました。", "choices": [{ "id": 1, "text": "いただいた" }, { "id": 2, "text": "くださった" }, { "id": 3, "text": "いたした" }, { "id": 4, "text": "さしあげた" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 36, "mondai": 7, "type": "GRAMMAR", "question": "自分の傘は人に貸してしまった（ ）、私はしかたなく、ぬれて帰った。", "choices": [{ "id": 1, "text": "だけあって" }, { "id": 2, "text": "ため" }, { "id": 3, "text": "のだから" }, { "id": 4, "text": "からして" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 37, "mondai": 7, "type": "GRAMMAR", "question": "不思議な（ ）、会社を辞めたら、よく眠れるようになった。", "choices": [{ "id": 1, "text": "ことに" }, { "id": 2, "text": "せいで" }, { "id": 3, "text": "ものから" }, { "id": 4, "text": "ばかりに" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 38, "mondai": 7, "type": "GRAMMAR", "question": "この本を読む（ ）、彼のことを思い出す。", "choices": [{ "id": 1, "text": "とおりに" }, { "id": 2, "text": "たびに" }, { "id": 3, "text": "からして" }, { "id": 4, "text": "ように" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 39, "mondai": 7, "type": "GRAMMAR", "question": "毎年カエルの声を聞くころになると、ふるさとを思い出さずには（ ）。", "choices": [{ "id": 1, "text": "いられない" }, { "id": 2, "text": "なりえない" }, { "id": 3, "text": "おわらない" }, { "id": 4, "text": "とまらない" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 40, "mondai": 7, "type": "GRAMMAR", "question": "弟は、酒が飲めない（ ）ぜんぜん飲めないわけではない。", "choices": [{ "id": 1, "text": "としたら" }, { "id": 2, "text": "どころか" }, { "id": 3, "text": "といっても" }, { "id": 4, "text": "というより" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 41, "mondai": 7, "type": "GRAMMAR", "question": "雑誌に店の名前が出た（ ）、客がたくさん来るようになった。", "choices": [{ "id": 1, "text": "くせに" }, { "id": 2, "text": "おかげで" }, { "id": 3, "text": "うえで" }, { "id": 4, "text": "ためで" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+        { "id": 42, "mondai": 7, "type": "GRAMMAR", "question": "子供（ ）知っているようなことを大人の私が知らなかったのは恥ずかしい。", "choices": [{ "id": 1, "text": "なら" }, { "id": 2, "text": "だから" }, { "id": 3, "text": "だけが" }, { "id": 4, "text": "でさえ" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 43, "mondai": 7, "type": "GRAMMAR", "question": "この文章は漢字の間違いが多い（ ）文法の間違いも多いので、何が言いたいのかよく分からない。", "choices": [{ "id": 1, "text": "うえに" }, { "id": 2, "text": "ものの" }, { "id": 3, "text": "わりに" }, { "id": 4, "text": "うちに" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 44, "mondai": 7, "type": "GRAMMAR", "question": "あそこにいる人、昨日会社に来た人（ ）気がするけど……。", "choices": [{ "id": 1, "text": "らしく" }, { "id": 2, "text": "みたいで" }, { "id": 3, "text": "そうな" }, { "id": 4, "text": "のような" }], "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 45, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "人が本を", "sentenceAfter": "、書評、人の噂、インターネットの情報とさまざまだ。", "fragments": [{ "id": 1, "text": "きっかけは" }, { "id": 2, "text": "広告" }, { "id": 3, "text": "とる" }, { "id": 4, "text": "手に" }], "correctOrder": [4, 3, 1, 2], "starPosition": 3, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 46, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "あなたの説明のおかげで", "sentenceAfter": "よくわかりました。", "fragments": [{ "id": 1, "text": "わけではない" }, { "id": 2, "text": "ことは" }, { "id": 3, "text": "悪気があった" }, { "id": 4, "text": "彼女に" }], "correctOrder": [4, 3, 1, 2], "starPosition": 3, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        { "id": 47, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "その湖から見た", "sentenceAfter": "だった。", "fragments": [{ "id": 1, "text": "光景" }, { "id": 2, "text": "山は" }, { "id": 3, "text": "ほど美しい" }, { "id": 4, "text": "言いようがない" }], "correctOrder": [2, 4, 3, 1], "starPosition": 3, "correctAnswer": 3, "explanation": null, "needsReview": false },
+        { "id": 48, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "テーブルの上にある携帯電話は", "sentenceAfter": "ものです。", "fragments": [{ "id": 1, "text": "女の人の" }, { "id": 2, "text": "うしろに" }, { "id": 3, "text": "私のすぐ" }, { "id": 4, "text": "座っている" }], "correctOrder": [3, 2, 4, 1], "starPosition": 3, "correctAnswer": 4, "explanation": null, "needsReview": false },
+        { "id": 49, "mondai": 8, "type": "SENTENCE_ORDER", "sentenceBefore": "どうして", "sentenceAfter": "いますか。", "fragments": [{ "id": 1, "text": "だれか" }, { "id": 2, "text": "欠席しているのか" }, { "id": 3, "text": "聞いて" }, { "id": 4, "text": "田中君が" }], "correctOrder": [4, 2, 1, 3], "starPosition": 3, "correctAnswer": 1, "explanation": null, "needsReview": false },
+        {
+          "id": "cloze-09-01",
+          "type": "CLOZE",
+          "passageId": "cloze-09-01",
+          "passage": "最近よく頭痛がする。大したことはないのだが、妻が心配してうるさいので、すすめられるままに近所の病院に行ってみた。（50）、特に異常はないとのことだった。しかし確かに痛い。異常はないと言われた（51）、逆に心配になってきた。痛みが次第に強くなり、回数も増えてきたような気がする。こんなに痛いのにどこも悪くない（52）。もしかすると、原因不明の重い病気なのではないだろうか。\n\n悩んだ（53）、大きな病院の神経内科を受診してみた。その結果、原因は目の疲れだということだった。考えてみると、朝から晩まで仕事でパソコンに（54）。なんだ、そんなことか。そう思っただけで、薬も飲まないのに痛みが引いていくようだった。",
+          "needsReview": false,
+          "questions": [
+            { "id": 50, "mondai": 9, "type": "CLOZE", "question": "（50）に入る最もよいものを選びなさい。", "choices": [{ "id": 1, "text": "検査する一方で" }, { "id": 2, "text": "検査したところ" }, { "id": 3, "text": "検査されたらしく" }, { "id": 4, "text": "検査どころか" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 51, "mondai": 9, "type": "CLOZE", "question": "（51）に入る最もよいものを選びなさい。", "choices": [{ "id": 1, "text": "とたん" }, { "id": 2, "text": "きり" }, { "id": 3, "text": "あげく" }, { "id": 4, "text": "反面" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 52, "mondai": 9, "type": "CLOZE", "question": "（52）に入る最もよいものを選びなさい。", "choices": [{ "id": 1, "text": "わけではない" }, { "id": 2, "text": "わけがない" }, { "id": 3, "text": "わけにはいかない" }, { "id": 4, "text": "わけだ" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 53, "mondai": 9, "type": "CLOZE", "question": "（53）に入る最もよいものを選びなさい。", "choices": [{ "id": 1, "text": "あまり" }, { "id": 2, "text": "わけで" }, { "id": 3, "text": "末" }, { "id": 4, "text": "とおり" }], "correctAnswer": 3, "explanation": null, "needsReview": false },
+            { "id": 54, "mondai": 9, "type": "CLOZE", "question": "（54）に入る最もよいものを選びなさい。", "choices": [{ "id": 1, "text": "向かうどころではない" }, { "id": 2, "text": "向かう一方だ" }, { "id": 3, "text": "向かうわけではない" }, { "id": 4, "text": "向かいっぱなしだ" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "読解",
+      "items": [
+        {
+          "id": "reading-10-01",
+          "type": "READING",
+          "passageId": "reading-10-01",
+          "passage": "拝啓\n新緑の候\n皆様お変わりなくおすごしのことと存じます。このたび、18年間すみなれた北九州市より、京都の郊外にこしてまいりました。近くにはまだ田園風景も残っており、散歩には最適なところでございます。京都にご旅行のせつはどうぞお立ちよりくださいますよう。\n敬具\n5月6日\n高橋 俊夫\n山田 康正 様",
+          "needsReview": false,
+          "questions": [
+            { "id": 55, "mondai": 10, "type": "READING", "question": "この手紙はどんな手紙か。", "choices": [{ "id": 1, "text": "招待状" }, { "id": 2, "text": "引越しのあいさつ状" }, { "id": 3, "text": "お礼の手紙" }, { "id": 4, "text": "旅行先からの手紙" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-02",
+          "type": "READING",
+          "passageId": "reading-10-02",
+          "passage": "ポケットに本を一冊入れて旅に出る、野原を歩く、町のどこかにすわって読む、というのはたのしいことだ。十代なかばだったが、一冊の長篇小説をしゃがんだまま読んでしまったことがあり、目をあげた時に日の光がかわっていたことを思いだす。私にとって一つの幸福だった。\n（鶴見俊輔「たくま日本文化全集」広告による）",
+          "needsReview": false,
+          "questions": [
+            { "id": 56, "mondai": 10, "type": "READING", "question": "「日の光がかわっていた」というのはどんな意味を持っているか。", "choices": [{ "id": 1, "text": "知らない所にいった" }, { "id": 2, "text": "目が痛くなった" }, { "id": 3, "text": "遠くまで歩いた" }, { "id": 4, "text": "長い時間がたった" }], "correctAnswer": 4, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-03",
+          "type": "READING",
+          "passageId": "reading-10-03",
+          "passage": "ある雑誌を眺めていたら、近頃の中学生や高校生の女の子は自分のことを僕と呼ぶと言う記事が載っていた。実に、私も自分のことを僕と呼ぶひとりだ。もう高校生でもないのにちょっと恥ずかしい。目上の人の前では注意深く、「私」または「あたし」を使っているが、自分の言葉に熱中してしまうと、つい「僕」と言ってしまい顔が赤くなる。\n（中沢けい「風のことば海の記憶」冬樹社による）",
+          "needsReview": false,
+          "questions": [
+            { "id": 57, "mondai": 10, "type": "READING", "question": "この文章から、筆者について考えられることは次のどれか。", "choices": [{ "id": 1, "text": "男性である" }, { "id": 2, "text": "女性である" }, { "id": 3, "text": "中学生である" }, { "id": 4, "text": "高校生である" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-04",
+          "type": "READING",
+          "passageId": "reading-10-04",
+          "passage": "土曜日の午後。玄関のブザーが鳴った。妻も娘も台所で何かやっている。\n「出るよ。」と声をかけた。ドアの向こうに郵便配達員が立っていた。\n「どなただったの。」台所から妻の声。\n「ん、小包だ。田舎のおばちゃんからだ……。」",
+          "needsReview": false,
+          "questions": [
+            { "id": 58, "mondai": 10, "type": "READING", "question": "誰が誰に「出るよ。」と声をかけたのか。", "choices": [{ "id": 1, "text": "筆者が郵便配達員に" }, { "id": 2, "text": "妻が筆者に" }, { "id": 3, "text": "筆者が妻と娘に" }, { "id": 4, "text": "おばあちゃんが筆者に" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-10-05",
+          "type": "READING",
+          "passageId": "reading-10-05",
+          "passage": "生まれたばかりの赤ちゃんには、文化の違いや国籍による違いは見られない。日本では生まれた赤ちゃんも、アメリカで生まれた赤ちゃんも、アメリカやアジアの諸国で生まれた赤ちゃんも、最初はみんな同じである。たとえ、皮膚の色に違いがあったとしても、その行動様式に大きな違いは見られない。\n（a）、その後数年たつとそれぞれの文化のなかで育った子供達は、それぞれの文化に特徴的な様相を示すようになる。食事の仕方、睡眠のとり方、遊び方といったことから、考え方にも違いが現れる。\n（福富『「らしさ」の心理学』講談社による）",
+          "needsReview": true,
+          "questions": [
+            { "id": 59, "mondai": 10, "type": "READING", "question": "（a）の中に入る言葉として、どれが最も適当か。", "choices": [{ "id": 1, "text": "しかしながら" }, { "id": 2, "text": "そういえば" }, { "id": 3, "text": "このように" }, { "id": 4, "text": "したがって" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-01",
+          "type": "READING",
+          "passageId": "reading-11-01",
+          "passage": "日本で長く暮らしていても外国人がなかなか慣れない生活習慣や言葉の表現に出会うことがある。その一つが「先日はどうも。」「この間はどうも。」という挨拶だ。日本人に会ったとき、「先日はどうも。」などと言われると「何のことかな。」と考えてしまう。そういえば食事をごちそうした（60）と具体的に思い出せるときはまだいい。何も理由がないときはどう答えていいか分からなくなる。普通は、最後に会ったときのことを思い出して「こちらこそ。」「こちらこそ楽しかったですね。」「また、ご一緒しましょう。」などと答える。挨拶だけだった人の場合は「あの時はお話できなくて残念でした。」という具合だ。これが難しい。\n\n日本人は、最後に別れたときの続きのように話を始めるようだ。だからプレゼントをもらったり、何かお世話になったりしていたら当然（62）「先日はどうもありがとうございます。」このように会話が始まる。外国人にはこれがなかなか言えないようだ。日本人は（61）こんなとき、何も言われないとちょっと残念な気持ちになるらしい。\n\nこれは習慣の問題だからいいとか悪いとか言えないが、外国人にとってやっかいな問題であることには違いない。",
+          "needsReview": true,
+          "questions": [
+            { "id": 60, "mondai": 11, "type": "READING", "question": "（60）の中に適当な語句を入れなさい。", "choices": [{ "id": 1, "text": "らしい" }, { "id": 2, "text": "っぽい" }, { "id": 3, "text": "はず" }, { "id": 4, "text": "わけだ" }], "correctAnswer": 3, "explanation": null, "needsReview": true },
+            { "id": 61, "mondai": 11, "type": "READING", "question": "第3段落目の「こんなとき」はどんなときですか。", "choices": [{ "id": 1, "text": "外国人がお礼を言わないときです。" }, { "id": 2, "text": "お世話したりプレゼントをもらったときです。" }, { "id": 3, "text": "何か世話をしてあげたときです。" }, { "id": 4, "text": "会話を始めるときです。" }], "correctAnswer": 3, "explanation": null, "needsReview": true },
+            { "id": 62, "mondai": 11, "type": "READING", "question": "「先日はどうも」についてどう言っていますか。", "choices": [{ "id": 1, "text": "こういう習慣がないので外国人には使えない表現だと言っています。" }, { "id": 2, "text": "外国人は使えなくても問題ない表現だと言っています。" }, { "id": 3, "text": "長く日本で暮らしたら使えるようになる表現だと言っています。" }, { "id": 4, "text": "この表現を使うことも答えることも外国人にとって難しいと言っています。" }], "correctAnswer": 1, "explanation": null, "needsReview": true }
+          ]
+        },
+        {
+          "id": "reading-11-02",
+          "type": "READING",
+          "passageId": "reading-11-02",
+          "passage": "一枚の四角い布で、細長い瓶や大きいすいかなど、どんな形のものでも包むことができる。使わないときは小さくたたんで簡単に持ち運びできる。それが日本で昔から使われてきた「風呂敷」だ。日本の風呂敷は外国へのお土産として喜ばれ、海外では壁に飾ったりテーブルの上に敷いたりして使用されているようだ。\n\n紙やビニールの袋と違って何度でも使えるので、ゴミを減らし再使用にぴったりの品物だ。風呂敷を広めるために最近、包み方を教える会がたびたび開かれている。その際、従来にない使用方法を紹介することで、風呂敷が便利に魅力あるものに変わってきている。\n\n例えば風呂敷で作るリュックサック。必要な物は2枚の風呂敷だけ。1枚は最初に三角にたたんでから4分の1の幅に折って紐を作る。もう1枚は半分に折って三角形を作る。三角形の山の部分と先ほど作った紐の中心を結ぶ。紐の端を三角形のそれぞれの残りの端と結ぶとできあがる。ちょっとすてきなリュックサックが簡単にできる。",
+          "needsReview": true,
+          "questions": [
+            { "id": 63, "mondai": 11, "type": "READING", "question": "「風呂敷」の説明はどれですか。", "choices": [{ "id": 1, "text": "四角いのも丸いのもあります。" }, { "id": 2, "text": "昔からゴミを出さないようにようにと考えられて作られた布です。" }, { "id": 3, "text": "昔から使われてきた物を包むための便利な布です。" }, { "id": 4, "text": "外国人は風呂敷の使い方を知りません。" }], "correctAnswer": 3, "explanation": null, "needsReview": true },
+            { "id": 64, "mondai": 11, "type": "READING", "question": "「風呂敷」のどんなところが良いと言っていますか。", "choices": [{ "id": 1, "text": "もともとリックは「風呂敷」で作られています。" }, { "id": 2, "text": "「風呂敷」は海外のお土産に良い例えば壁かけ、テーブル敷に使用される。" }, { "id": 3, "text": "日本人のみならず外国人も使用方法を知っている。" }, { "id": 4, "text": "何度でも使えるのでゴミを減らし再使用できる。" }], "correctAnswer": 4, "explanation": null, "needsReview": true },
+            { "id": 65, "mondai": 11, "type": "READING", "question": "本文の内容と違うのはどれですか。", "choices": [{ "id": 1, "text": "風呂敷リュックは新しい使用方法の一つです。" }, { "id": 2, "text": "風呂敷リュックは風呂敷2枚を縫い合わせたものです。" }, { "id": 3, "text": "風呂敷を使えば紙やビニールの袋などを減らすことができます。" }, { "id": 4, "text": "包み方を教える会では風呂敷の新しい使い方も教えています。" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-11-03",
+          "type": "READING",
+          "passageId": "reading-11-03",
+          "passage": "バラの花は世界中に25万5千種類もあって、色も赤白横色ピンクなどいろいろあるそうだ。長い年月※品種改良を続けた結果である。ところがどうしても作ることができないバラがあった。それが青いバラだった。多くの研究家が夢を求めていろいろ研究してきたが、青に似ていても青とは言いがたいバラしかできなかった。花の中に青い色を作り出す元がなかったのだ。その本物の青いバラが最新の※遺伝子組換え技術を使用することで初めて完成した。日本とオーストラリアの会社が14年も協力し続けて不可能を可能にしたのだ。これはただ青いバラが誕生したという以上の意味を持っている。青い色の元を使用すれば、もっと様々な色のバラができる可能性があるからだ。数年後には店で販売される予定の今最も期待されているバラである。\n\n※品種改良：目的の種類の植物を作るために親を選んで子を作ること\n※遺伝子組み換え：親から子へ伝えられる性質などを決める要素の組み合わせを入れ換えてしまうこと",
+          "needsReview": true,
+          "questions": [
+            { "id": 66, "mondai": 11, "type": "READING", "question": "バラの色についての説明と違うのはどれですか。", "choices": [{ "id": 1, "text": "品種改良の結果今までもさまざまな色のバラが生まれてきている。" }, { "id": 2, "text": "遺伝子組み換え技術がなければ青いバラは生まれなかった。" }, { "id": 3, "text": "この青いバラの色の元は今後いろいろな青い花を生み出すことができる。" }, { "id": 4, "text": "以前の青いバラと今回の青いバラは作り方が違っている。" }], "correctAnswer": 4, "explanation": null, "needsReview": true },
+            { "id": 67, "mondai": 11, "type": "READING", "question": "どうやって青いバラを作りましたか。", "choices": [{ "id": 1, "text": "14年間、品種改良を続けました。" }, { "id": 2, "text": "2つの会社が遺伝子組み換え技術を使って協力して作りました。" }, { "id": 3, "text": "品種改良と遺伝子組み換え技術を作ったので簡単に作りました。" }, { "id": 4, "text": "いくつかの会社の遺伝子組み換え技術を組み合わせて作りました。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 68, "mondai": 11, "type": "READING", "question": "なぜ最も期待されているのですか。", "choices": [{ "id": 1, "text": "今後様々な色のバラが作れる可能性があるからです。" }, { "id": 2, "text": "たくさん作ることができるバラだからです。" }, { "id": 3, "text": "値段が高いバラだからです。" }, { "id": 4, "text": "初めて売られる珍しいバラだからです。" }], "correctAnswer": 1, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-12-01",
+          "type": "READING",
+          "passageId": "reading-12-01",
+          "passage": "A\nご応募の結果について\n拝啓\n時下、ますますご健勝のことと、お喜び申し上げます。\nこのたびは弊社の社員採用試験にご応募いただき、ありがとうございました。\nさて、面接の結果につきまして慎重に協議いたしましたが、残念ながら、今回は不採用とさせていただくことになりました。\nなお、お預かりした履歴書をご返送いたします。\n今後のご活躍をお祈り申し上げます。\n敬具\n\nB\n面接試験のご案内\n前略\n先日実施いたしました採用試験の選考の結果、あなたは、第一次選考に合格されましたので、お知らせいたします。\nつきましては、下記の通り面接試験を実施いたしますので、よろしくお願いいたします。なお、当日お越しになれない場合は、前日までに必ず当社総務部、本田までご連絡ください。\n記\n1.日時：平成2X年5月20日（木曜日）午前9時30分～午前11時30分\n※午前9時より、受付を開始いたします。\n2.場所：○○県みどり市西町3-2-1 みどりシティホール1F 小会議室\n3.持ち物：本状・筆記用具・印鑑（交通費を精算いたします）\n以上",
+          "needsReview": false,
+          "questions": [
+            { "id": 69, "mondai": 12, "type": "READING", "question": "AとBに共通して書かれていることは何か。", "choices": [{ "id": 1, "text": "面接試験の結果" }, { "id": 2, "text": "採用試験の結果" }, { "id": 3, "text": "面接試験の日程" }, { "id": 4, "text": "採用試験の日程" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 70, "mondai": 12, "type": "READING", "question": "Bの通知の内容と合うものはどれか。", "choices": [{ "id": 1, "text": "二次面接に行けない人は、不合格になります。" }, { "id": 2, "text": "森さんがこの会社に就職できるかどうかはわからない。" }, { "id": 3, "text": "面接を受ける人は5月20日の9時30分より受付を開始します。" }, { "id": 4, "text": "この会社の面接試験は社内で行われる予定だ。" }], "correctAnswer": 2, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "reading-13-01",
+          "type": "READING",
+          "passageId": "reading-13-01",
+          "passage": "最近、日本の大相撲の世界では画国出身の力士（注1）がたくさん活躍している。力士の最高地位である「横綱」は、現在2名いるが、両者ともモンゴル出身だ。横綱に次ぐ地位である「大関」。さらにその下の「関脇」「小結」などの地位にも、モンゴルやブルガリア、エストニア、グルジアなどの出身の力士が名前を連ねている。体は小さくても、足腰の強さとスピードで面白い相撲を見せてくれる力士もいれば、大きな体と怪力（注2）を生かし、豪快な（注3）相撲で観客を楽しませてくれる力士もいる。しかし、これだけ外国人力士が活躍し、面白い相撲を見せてくれているにもかかわらず、相撲ファンの中から多く聞かれるのが、「日本人の強い力士がいないと面白くない」という意見だ。相撲評論家や相撲好きだと語る有名人の中にも、同じことを言う人がいる。私は、①これを聞くたびに違和感（注4）を覚える。\n\n確かに、今、上の地位に日本出身の力士の数が少なくなっているというのは事実だ。しかし、相撲界に入って一生懸命、稽古をして地位を上げてきた、というのは、日本出身であろうと外国出身であろうと同じはずだ。文字通り、同じ土俵（注5）に立つ「力士」なのに、どうして、「外国人」「日本人」という線引きをするのかが、私にはわからないのだ。相撲を面白くしてくれる力士なら、出身なんてどうでもいいじゃないか。\n\nもう一つ、よく聞かれるのが、「外国人力士だから日本の相撲は本当にはわからない」という言葉だ。このように「外国人力士」と、人括り（注6）にしてしまうのは、実は「日本人はまじめ」とか「アメリカ人は陽気」などと、ステレオタイプ化して（注7）ラベルをはる、ということにも通じているように思う。もし、あなたが違う国の人と話していて、「日本人は冷たい。だから、あなたも冷たいひとですね」と決めてつけられたら、いやだと思うのではないだろうか。\n\n人括りにして語られると、一見わかりやすい気がして、そう思い込んでしまう。しかし、これは危険。こういう「人括りにして語られていること」に出会ったら、意識的に疑ってかかる。そういうくせをつけておいたほうがいい。「外国人力士」と、人括りに考えるのではなく、「朝青龍」「把瑠都」（注8）と考えるようにしてみよう。人によってはられたラベルは簡単に信じないことだ。\n\n（注1）力士：相撲を取ることを職業としている人\n（注2）怪力：ものすごく強い力\n（注3）豪快な：力強くて、見ていて気持ちのいい様子\n（注4）違和感：「そうじゃない」と賛成できない気持ち、違うと思う気持ち\n（注5）土俵：相撲を取る競技所。土を盛りあげた上に、俵で円が作られている\n（注6）人括り：違う種類のものも一緒に一つにまとめること\n（注7）ステレオタイプ化する：考え方や物の見方を型にはめること。決め付けること\n（注8）「朝青龍」「把瑠都」：力士の名前（2010年1月現在）。朝青龍はモンゴル出身、把瑠都はエストニア出身",
+          "needsReview": true,
+          "questions": [
+            { "id": 71, "mondai": 13, "type": "READING", "question": "①これとは、何を指しているか。", "choices": [{ "id": 1, "text": "日本人の強い力士がいないと面白くない、という意見" }, { "id": 2, "text": "外国人の強い力士が活躍していて面白い、という意見" }, { "id": 3, "text": "外国人、日本人にかかわらず、面白い相撲をとる人が少なくなった、という意見" }, { "id": 4, "text": "日本人の強い力士がたくさんいて面白い、という意見" }], "correctAnswer": 1, "explanation": null, "needsReview": false },
+            { "id": 72, "mondai": 13, "type": "READING", "question": "筆者の考えに合っているものはどれですか。", "choices": [{ "id": 1, "text": "外国人力士と日本人力士は違うのだから、一つにまとめて考えないほうがいい。" }, { "id": 2, "text": "「外国人」「日本人」などと、一つにまとめて考えず、一人ひとりを見たほうがいい。" }, { "id": 3, "text": "「外国人」「日本人」と、一つにまとめて考えるのは、良くないが、多くの人が言っていることでもあるので信じたほうがいい。" }, { "id": 4, "text": "外国人力士と日本人力士を区別するのはよくないが、外国人力士には、日本の相撲をもっと理解してもらいたい。" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 73, "mondai": 13, "type": "READING", "question": "筆者の考え方に合っているものはどれですか。", "choices": [{ "id": 1, "text": "外国人力士の方が強いのは相撲とは大力だけが大事なスポーツだからだ。" }, { "id": 2, "text": "「外国人力士」と人括りに考えたほうがよいに決まっている。" }, { "id": 3, "text": "同じ土俵に立つ「力士」を外国人、日本人と線引きするのはよくない。" }, { "id": 4, "text": "「日本人はまじめ」「アメリカ人は陰気」とステレオ化してラベルをはることには違和感がある。" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        },
+        {
+          "id": "information-14-01",
+          "type": "INFORMATION_SEARCH",
+          "passageId": "information-14-01",
+          "layout": "vertical",
+          "passage": "空手教室のご案内\n\n子供から大人まで、礼儀を身に付け、仲間づくりをしながら心と体を強くします。お年寄りの健康維持、女性の護身術（注）としてもお勧めします。皆で楽しみながら一生懸命稽古しています！私達といっしょに汗を流しませんか？\n●稽古日時…（小学生）毎週火・木曜日 16：00～17：15\n※稽古には何回でも参加できます。\n（中学生以上）毎週水曜日 19：00～20：30\n●稽古場所…みどり市体育館 トレーニングルーム\n●参加資格…小学生以上\n●会費\n入会金 無料\n月会費（スポーツ保険料含む） 小学生 2,000円／中学・高校生 2,500円／大学生・一般 3,000円\n※必要な用具は貸し出します。購入も実費で可能です。\n※見学はいつでもOKです。ぜひ一度見学にいらしてください。\n指導員：大友 修三\n（注）護身術：体やいのちを危険から守るための技術。\n\nやさしいヨガ講座―開講のご案内―\n\nヨガのゆったりとした呼吸で心と体をリフレッシュ！忙しいの毎日の中で心や体が疲れていませんか？生活習慣で体が曲がったり、ずれたりしていませんか？そんな体のゆがみを直して、体調をよくする効果もありません。もちろんシェイプアップ効果も期待できます。あなたも楽しみながらヨガを始めてみませんか？\n●日時 20XX年5月・6月の毎週の木曜日（計8回） PM6：30～7：30\n●会場 みどり市 寺下公民館\n●受講料 1人あたり3,000円（全8回分、初回全額納入）\n●参加資格 みどり市にお住まい・またはお勤めの18歳以上の方\n●募集人数 20人（応募者多数の場合、先着順）\n●講師 ビパシャ・シェラワト先生\n●申込締切 4月20日（火）\nお申し込みは寺下公民館（XX-XXXX）まで。",
+          "needsReview": true,
+          "questions": [
+            { "id": 74, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "小学生が週に2回ずつ空手の稽古に通う場合、毎月払うお金はいくらになるか。", "choices": [{ "id": 1, "text": "1,000円" }, { "id": 2, "text": "2,000円" }, { "id": 3, "text": "3,000円" }, { "id": 4, "text": "4,000円" }], "correctAnswer": 2, "explanation": null, "needsReview": false },
+            { "id": 75, "mondai": 14, "type": "INFORMATION_SEARCH", "question": "みどり市のスーパーで働いている62歳の女性が習うことができるのはどれか。", "choices": [{ "id": 1, "text": "空手だけ" }, { "id": 2, "text": "ヨガだけ" }, { "id": 3, "text": "空手とヨガ" }, { "id": 4, "text": "どちらも習えない" }], "correctAnswer": 3, "explanation": null, "needsReview": false }
+          ]
+        }
+      ]
+    }
+  ]
+}

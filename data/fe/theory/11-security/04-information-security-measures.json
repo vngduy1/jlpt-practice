@@ -1,0 +1,2511 @@
+{
+  "id": "information-security-measures",
+  "order": 4,
+  "titleJa": "情報セキュリティ対策",
+  "titleVi": "Biện pháp an toàn thông tin",
+  "syllabus": "9.2",
+  "lessons": [
+    {
+      "id": "internal-fraud-prevention-guidelines",
+      "order": 1,
+      "titleJa": "組織における内部不正防止ガイドライン",
+      "titleVi": "Hướng dẫn phòng chống hành vi nội bộ bất chính",
+      "importance": "medium",
+      "summaryJa": "組織内での不正行為を防ぐために策定された指針である。",
+      "summaryVi": "Hướng dẫn phòng chống hành vi nội bộ bất chính. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "組織における内部不正防止ガイドラインとは",
+          "vi": "Hướng dẫn phòng chống hành vi nội bộ bất chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内での不正行為を防ぐために策定された指針である。これには、職員による不正行為や不適切な行動を防ぐための具体的な施策や手続きが含まれている。例えば、定期的な監査や職員の教育、役割の明確化などが挙げられる。適切なガイドラインの導入により、内部の信頼性を高め、企業の資産や情報を保護することが期待される。また、問題が発生した際の迅速な対応策を整備することも重要であり、これにより組織全体のリスクを軽減することが可能となる。",
+          "vi": "Hướng dẫn phòng chống hành vi nội bộ bất chính. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「組織における内部不正防止ガイドライン」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "組織における内部不正防止ガイドライン",
+          "reading": "そしきにおけるないぶふせいぼうしがいどらいん",
+          "english": "Internal Fraud Prevention Guidelines",
+          "vi": "Hướng dẫn phòng chống hành vi nội bộ bất chính",
+          "definitionJa": "組織内での不正行為を防ぐために策定された指針である。",
+          "definitionVi": "Hướng dẫn phòng chống hành vi nội bộ bất chính. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "internal-fraud-prevention-guidelines"
+      ]
+    },
+    {
+      "id": "information-security-awareness",
+      "order": 2,
+      "titleJa": "情報セキュリティ啓発",
+      "titleVi": "Nâng cao nhận thức an toàn thông tin",
+      "importance": "medium",
+      "summaryJa": "組織や個人が情報セキュリティに対する認識を高めるための活動である。",
+      "summaryVi": "Nâng cao nhận thức an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ啓発とは",
+          "vi": "Nâng cao nhận thức an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織や個人が情報セキュリティに対する認識を高めるための活動である。この活動には、教育プログラムの実施や関係資料の配布、メディアを活用した情報提供が含まれる。具体的には、セキュリティリスクや対策に関する講習会を開いたり、注意喚起のポスターを掲示したりすることが考えられる。こうした取り組みは、情報漏えいやサイバー攻撃から自身や組織を守るために非常に重要である。適切な知識を持つことで、従業員は日常的に発生する脅威に対する理解を深め、無意識のうちに情報を守る行動を取れるようになる。情報セキュリティの向上は、組織全体の安全性を確保するためにも欠かせない要素である。",
+          "vi": "Nâng cao nhận thức an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「情報セキュリティ啓発」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ啓発",
+          "reading": "じょうほうせきゅりてぃけいはつ",
+          "english": "Information Security Awareness",
+          "vi": "Nâng cao nhận thức an toàn thông tin",
+          "definitionJa": "組織や個人が情報セキュリティに対する認識を高めるための活動である。",
+          "definitionVi": "Nâng cao nhận thức an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "information-security-awareness"
+      ]
+    },
+    {
+      "id": "information-security-training",
+      "order": 3,
+      "titleJa": "情報セキュリティ訓練",
+      "titleVi": "Đào tạo an toàn thông tin",
+      "importance": "medium",
+      "summaryJa": "組織内の従業員に対して情報セキュリティに関する知識や対処法を教育するプロセスである。",
+      "summaryVi": "Đào tạo an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ訓練とは",
+          "vi": "Đào tạo an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内の従業員に対して情報セキュリティに関する知識や対処法を教育するプロセスである。この訓練は、特に標的型メール攻撃への対策として重要であり、従業員は、疑わしいメールの識別や適切な対処方法を学ぶことになる。また、レッドチーム演習もこの訓練に含まれ、シミュレーションを通じて実際の攻撃に対する準備を整えることを目的としている。これにより、従業員は攻撃に対する脆弱性を理解し、実際に遭遇した際の対応力を高めることができる。人的セキュリティ対策は、技術的対策と合わせて、組織の全体的なセキュリティレベルを向上させるために不可欠である。",
+          "vi": "Đào tạo an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「情報セキュリティ訓練」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ訓練",
+          "reading": "じょうほうせきゅりてぃくんれん",
+          "english": "Information Security Training",
+          "vi": "Đào tạo an toàn thông tin",
+          "definitionJa": "組織内の従業員に対して情報セキュリティに関する知識や対処法を教育するプロセスである。",
+          "definitionVi": "Đào tạo an toàn thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "information-security-training"
+      ]
+    },
+    {
+      "id": "assignment-and-management-of-authentication-information",
+      "order": 4,
+      "titleJa": "認証情報の割当て及び管理",
+      "titleVi": "Phân bổ và quản lý thông tin xác thực",
+      "importance": "medium",
+      "summaryJa": "システムやネットワークにアクセスする際の本人確認のための情報を適切に配布し、管理するプロセスである。",
+      "summaryVi": "Phân bổ và quản lý thông tin xác thực. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "認証情報の割当て及び管理とは",
+          "vi": "Phân bổ và quản lý thông tin xác thực là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやネットワークにアクセスする際の本人確認のための情報を適切に配布し、管理するプロセスである。この認証情報には、パスワードやユーザー名、生体情報などが含まれ、これらを安全に管理することによって不正アクセスを防ぐことができる。例えば、企業の情報システムでは、各社員に固有の認証情報が割り当てられ、その管理は厳格に行われるべきである。管理が不十分な場合、第三者が容易に不正にアクセスする恐れがあり、情報漏洩やデータ改ざんなどのリスクが高まる。そのため、定期的な見直しや更新、安全な保管方法を徹底することが重要である。",
+          "vi": "Phân bổ và quản lý thông tin xác thực. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「認証情報の割当て及び管理」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "認証情報の割当て及び管理",
+          "reading": "にんしょうじょうほうのわりあておよびかんり",
+          "english": "Assignment and Management of Authentication Information",
+          "vi": "Phân bổ và quản lý thông tin xác thực",
+          "definitionJa": "システムやネットワークにアクセスする際の本人確認のための情報を適切に配布し、管理するプロセスである。",
+          "definitionVi": "Phân bổ và quản lý thông tin xác thực. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "assignment-and-management-of-authentication-information"
+      ]
+    },
+    {
+      "id": "non-disclosure-agreement",
+      "order": 5,
+      "titleJa": "秘密保持契約・誓約書",
+      "titleVi": "Thỏa thuận/cam kết bảo mật",
+      "importance": "medium",
+      "summaryJa": "当事者間で特定の情報を第三者に漏らさないことを約束する法的な契約である。",
+      "summaryVi": "Thỏa thuận/cam kết bảo mật. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "秘密保持契約・誓約書とは",
+          "vi": "Thỏa thuận/cam kết bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "当事者間で特定の情報を第三者に漏らさないことを約束する法的な契約である。この契約により、業務上知り得た機密情報や技術、ビジネスプランなどが保護される。例えば、企業が新製品の開発を行う際に、外部の専門家やパートナーと情報を共有する場合、秘密保持契約を結ぶことで、お互いの情報を守ることができる。この契約があることで、悪用や漏洩のリスクを軽減し、ビジネス活動の安全性が高まる。人材の流出や不正競争を防ぐために、広く用いられている重要な文書である。",
+          "vi": "Thỏa thuận/cam kết bảo mật. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「秘密保持契約・誓約書」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "秘密保持契約・誓約書",
+          "reading": "ひみつほじけいやく・せいやくしょ",
+          "english": "Non-Disclosure Agreement",
+          "vi": "Thỏa thuận/cam kết bảo mật",
+          "definitionJa": "当事者間で特定の情報を第三者に漏らさないことを約束する法的な契約である。",
+          "definitionVi": "Thỏa thuận/cam kết bảo mật. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "non-disclosure-agreement"
+      ]
+    },
+    {
+      "id": "cracking-protection",
+      "order": 6,
+      "titleJa": "クラッキング対策",
+      "titleVi": "Biện pháp chống cracking",
+      "importance": "medium",
+      "summaryJa": "不正アクセスやデータ盗取を防ぐために行うセキュリティ対策の一つである。",
+      "summaryVi": "Biện pháp chống cracking. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラッキング対策とは",
+          "vi": "Biện pháp chống cracking là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "不正アクセスやデータ盗取を防ぐために行うセキュリティ対策の一つである。クラッキングは、システムの脆弱性を悪用して無断でデータにアクセスする行為を指し、その対策には様々な手法が含まれる。具体的には、強力なパスワードの使用や、二段階認証の導入、定期的なソフトウェアのアップデート、侵入検知システムの設置などが挙げられる。これらの対策を講じることで、システムのセキュリティを強化し、重要な情報を保護することができる。特に、企業や個人が重要なデータを扱う場合には、クラッキング対策が不可欠であり、適切な対策を講じることで被害を未然に防ぐ効果が期待される。",
+          "vi": "Biện pháp chống cracking. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「クラッキング対策」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラッキング対策",
+          "reading": "くらっきんぐたいさく",
+          "english": "Cracking Protection",
+          "vi": "Biện pháp chống cracking",
+          "definitionJa": "不正アクセスやデータ盗取を防ぐために行うセキュリティ対策の一つである。",
+          "definitionVi": "Biện pháp chống cracking. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "cracking-protection"]
+    },
+    {
+      "id": "unauthorized-access-prevention",
+      "order": 7,
+      "titleJa": "不正アクセス対策",
+      "titleVi": "Biện pháp chống truy cập trái phép",
+      "importance": "medium",
+      "summaryJa": "許可されていないユーザーがシステムやデータにアクセスすることを防ぐための手段や対策である。",
+      "summaryVi": "Biện pháp chống truy cập trái phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不正アクセス対策とは",
+          "vi": "Biện pháp chống truy cập trái phép là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "許可されていないユーザーがシステムやデータにアクセスすることを防ぐための手段や対策である。この対策は、企業や組織の情報を保護するために非常に重要で、情報漏洩やデータの改ざんを防止する役割を果たす。具体的な手段には、パスワード管理、アクセス制御、ファイアウォールの導入、侵入検知システムの利用が含まれる。これらの技術は、特定のユーザーにのみアクセスを許可し、不正なアクセス試行を監視・記録することで、セキュリティを強化する。また、セキュリティポリシーの設定や従業員教育も重要で、組織全体での意識向上が求められる。",
+          "vi": "Biện pháp chống truy cập trái phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「不正アクセス対策」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正アクセス対策",
+          "reading": "ふせいあくせすたいさく",
+          "english": "Unauthorized Access Prevention",
+          "vi": "Biện pháp chống truy cập trái phép",
+          "definitionJa": "許可されていないユーザーがシステムやデータにアクセスすることを防ぐための手段や対策である。",
+          "definitionVi": "Biện pháp chống truy cập trái phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "unauthorized-access-prevention"
+      ]
+    },
+    {
+      "id": "information-leakage-countermeasures",
+      "order": 8,
+      "titleJa": "情報漏えい対策",
+      "titleVi": "Biện pháp chống rò rỉ thông tin",
+      "importance": "medium",
+      "summaryJa": "外部に漏れる可能性のある情報を守るために講じるすべての施策や対策を指す。",
+      "summaryVi": "Biện pháp chống rò rỉ thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報漏えい対策とは",
+          "vi": "Biện pháp chống rò rỉ thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "外部に漏れる可能性のある情報を守るために講じるすべての施策や対策を指す。情報漏えいは、企業や個人のプライバシーに重大な影響を与えるため、その防止が重要である。この対策には、データの暗号化やアクセス制御、不正アクセスの監視、従業員教育などが含まれる。例えば、機密データを外部に送信する際に暗号化を行うことで、万が一データが漏洩しても内容を保護することができる。また、定期的なセキュリティチェックや従業員への意識向上のための教育は、情報漏えいのリスクを大幅に軽減する。これらの対策を統合的に実施することで、情報を安全に管理し、信頼性を高めることが可能となる。",
+          "vi": "Biện pháp chống rò rỉ thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「情報漏えい対策」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報漏えい対策",
+          "reading": "じょうほうろうえいたいさく",
+          "english": "Information Leakage Countermeasures",
+          "vi": "Biện pháp chống rò rỉ thông tin",
+          "definitionJa": "外部に漏れる可能性のある情報を守るために講じるすべての施策や対策を指す。",
+          "definitionVi": "Biện pháp chống rò rỉ thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "information-leakage-countermeasures"
+      ]
+    },
+    {
+      "id": "malware-protection",
+      "order": 9,
+      "titleJa": "マルウェア対策",
+      "titleVi": "Biện pháp chống mã độc",
+      "importance": "medium",
+      "summaryJa": "コンピュータやネットワークを不正なソフトウェア、つまりマルウェアから守るための手段や方法である。",
+      "summaryVi": "Biện pháp chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マルウェア対策とは",
+          "vi": "Biện pháp chống mã độc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやネットワークを不正なソフトウェア、つまりマルウェアから守るための手段や方法である。具体的には、マルウェア対策ソフトを導入することや、定期的にマルウェア定義ファイルを更新することが含まれる。マルウェアはウイルスやワーム、トロイの木馬といった悪意あるソフトウェアを指し、これらはユーザーのデータを盗んだり、システムを破壊したりする可能性がある。対策ソフトは、これらの脅威を検知し、排除する機能を持っており、セキュリティ確保において非常に重要である。また、定義ファイルの更新は新たなマルウェアに対処するために欠かせず、常に最新の脅威に備えるために重要な作業となる。これにより、安全なデジタル環境を維持することが可能となる。",
+          "vi": "Biện pháp chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「マルウェア対策」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マルウェア対策",
+          "reading": "まるうぇあたいさく",
+          "english": "Malware Protection",
+          "vi": "Biện pháp chống mã độc",
+          "definitionJa": "コンピュータやネットワークを不正なソフトウェア、つまりマルウェアから守るための手段や方法である。",
+          "definitionVi": "Biện pháp chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "malware-protection"]
+    },
+    {
+      "id": "ransomware-countermeasures",
+      "order": 10,
+      "titleJa": "ランサムウェア対策",
+      "titleVi": "Biện pháp chống ransomware",
+      "importance": "high",
+      "summaryJa": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。",
+      "summaryVi": "Biện pháp chống ransomware. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ランサムウェア対策とは",
+          "vi": "Biện pháp chống ransomware là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。ランサムウェアは、ユーザーのデータを人質に取り、復旧のために金銭を要求するため、特に企業や個人にとって大きな脅威となる。対策としては、定期的なデータバックアップ、最新のセキュリティソフトの導入、メールやWebサイトの危険なリンクを避ける教育が挙げられる。また、ネットワークの監視や侵入検知システムを導入することで、異常な動きを早期に発見し、被害を最小限に抑えることが可能となる。このように、総合的なランサムウェア対策を実施することが重要である。",
+          "vi": "Biện pháp chống ransomware. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ランサムウェア対策」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ランサムウェア対策",
+          "reading": "らんさむうぇあたいさく",
+          "english": "Ransomware Countermeasures",
+          "vi": "Biện pháp chống ransomware",
+          "definitionJa": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。",
+          "definitionVi": "Biện pháp chống ransomware. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "ransomware-countermeasures"
+      ]
+    },
+    {
+      "id": "backup-3-2-1-rule",
+      "order": 11,
+      "titleJa": "3-2-1ルール",
+      "titleVi": "Quy tắc sao lưu 3-2-1",
+      "importance": "high",
+      "summaryJa": "データのバックアップを効果的に管理するための原則である。",
+      "summaryVi": "Quy tắc sao lưu 3-2-1. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "3-2-1ルールとは",
+          "vi": "Quy tắc sao lưu 3-2-1 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データのバックアップを効果的に管理するための原則である。このルールは、データを保護するために「3つのコピー」、すなわちオリジナルのデータとそのバックアップを2つ持つことを推奨する。その際、これらのコピーを異なる場所、つまり「2つの異なるメディア」に保存し、さらに「1つはオフサイト」で管理することが重要とされる。たとえば、自宅のハードドライブにデータを保存し、そのバックアップを外付けハードドライブに取り、さらにクラウドストレージに1つ保存するといった方法が挙げられる。このアプローチにより、災害やデバイスの故障によるデータ損失から比較的安全に守ることができるため、情報セキュリティの向上が図られる。",
+          "vi": "Quy tắc sao lưu 3-2-1. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「3-2-1ルール」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "3-2-1ルール",
+          "reading": "さんにいちるーる",
+          "english": "3-2-1 Rule",
+          "vi": "Quy tắc sao lưu 3-2-1",
+          "definitionJa": "データのバックアップを効果的に管理するための原則である。",
+          "definitionVi": "Quy tắc sao lưu 3-2-1. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "backup-3-2-1-rule"]
+    },
+    {
+      "id": "worm",
+      "order": 12,
+      "titleJa": "WORM",
+      "titleVi": "WORM (ghi một lần, đọc nhiều lần)",
+      "importance": "high",
+      "summaryJa": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。",
+      "summaryVi": "WORM (ghi một lần, đọc nhiều lần). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "WORMとは",
+          "vi": "WORM (ghi một lần, đọc nhiều lần) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。これは、主にデータの改ざんを防ぐために使用される技術である。例えば、金融機関や医療機関において、重要なトランザクションや記録を安全に保管する必要がある場合、WORMメディアが利用される。データが一度書かれると、削除や上書きができないため、情報の信頼性が高まり、法的な証拠としても有効である。また、WORMストレージはバックアップやアーカイブの目的でも重宝され、長期間にわたってデータの保存が求められる場面で特に効果を発揮する。",
+          "vi": "WORM (ghi một lần, đọc nhiều lần). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「WORM」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WORM",
+          "reading": "わーむ",
+          "english": "Write Once Read Many",
+          "vi": "WORM (ghi một lần, đọc nhiều lần)",
+          "definitionJa": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。",
+          "definitionVi": "WORM (ghi một lần, đọc nhiều lần). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "worm"]
+    },
+    {
+      "id": "immutable-backup",
+      "order": 13,
+      "titleJa": "イミュータブルバックアップ",
+      "titleVi": "Sao lưu bất biến",
+      "importance": "high",
+      "summaryJa": "データが変更されず、書き込みや削除ができない状態のバックアップである。",
+      "summaryVi": "Sao lưu bất biến. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "イミュータブルバックアップとは",
+          "vi": "Sao lưu bất biến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データが変更されず、書き込みや削除ができない状態のバックアップである。この方式では、バックアップされたデータが不正アクセスやウイルス攻撃から保護されるため、信頼性の高いデータ保存が実現される。例えば、ランサムウェア攻撃が行われた場合でも、イミュータブルバックアップに保存されたデータは影響を受けず、安全に復旧が可能である。このようなバックアップは、金融機関や医療機関など、重要なデータを扱う組織において特に重視されており、データ保護の最新の手法として広く採用されている。",
+          "vi": "Sao lưu bất biến. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「イミュータブルバックアップ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "イミュータブルバックアップ",
+          "reading": "",
+          "english": "Immutable Backup",
+          "vi": "Sao lưu bất biến",
+          "definitionJa": "データが変更されず、書き込みや削除ができない状態のバックアップである。",
+          "definitionVi": "Sao lưu bất biến. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "immutable-backup"]
+    },
+    {
+      "id": "pattern-matching-method",
+      "order": 14,
+      "titleJa": "パターンマッチング法",
+      "titleVi": "Phương pháp so khớp mẫu",
+      "importance": "medium",
+      "summaryJa": "特定のデータや情報の中から、事前に定義されたパターンや特徴を見つけ出す手法のことである。",
+      "summaryVi": "Phương pháp so khớp mẫu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パターンマッチング法とは",
+          "vi": "Phương pháp so khớp mẫu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のデータや情報の中から、事前に定義されたパターンや特徴を見つけ出す手法のことである。この技術は、主にセキュリティ分野で使用され、マルウェアや不正アクセスの検出に役立つ。例えば、コンピュータシステムに侵入するウイルスは、特定のコードパターンを持っていることが多く、そのパターンをあらかじめデータベースに登録しておくことで、新たな感染を防ぐことができる。また、テキスト解析や画像認識など、さまざまな領域にも適用されており、データの効率的な処理や分析を可能にする。",
+          "vi": "Phương pháp so khớp mẫu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「パターンマッチング法」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パターンマッチング法",
+          "reading": "ぱたーんまっちんぐほう",
+          "english": "Pattern Matching Method",
+          "vi": "Phương pháp so khớp mẫu",
+          "definitionJa": "特定のデータや情報の中から、事前に定義されたパターンや特徴を見つけ出す手法のことである。",
+          "definitionVi": "Phương pháp so khớp mẫu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "pattern-matching-method"
+      ]
+    },
+    {
+      "id": "behavioral-detection-method",
+      "order": 15,
+      "titleJa": "ビヘイビア法",
+      "titleVi": "Phương pháp phát hiện theo hành vi",
+      "importance": "medium",
+      "summaryJa": "コンピュータやネットワーク上の異常な動作を監視・検出するための手法である。",
+      "summaryVi": "Phương pháp phát hiện theo hành vi. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ビヘイビア法とは",
+          "vi": "Phương pháp phát hiện theo hành vi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやネットワーク上の異常な動作を監視・検出するための手法である。この方法は、通常の動作パターンを学習し、それに基づいて異常や不審な行動を特定する。例えば、通常は数時間ごとにログインするユーザーが、突然短時間に何度もログインを試みる場合、それが不正アクセスの試みである可能性が高く、ビヘイビア法によって警告が発令される。また、この手法はウイルスの感染なども早期に察知することができ、セキュリティ対策の一環として非常に重要な役割を果たしている。データの挙動を分析することで常に新たな脅威に対応できる柔軟性を持ち、従来の定義ベースの検知方法よりも高い効果を期待できる。",
+          "vi": "Phương pháp phát hiện theo hành vi. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ビヘイビア法」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビヘイビア法",
+          "reading": "びへいびあほう",
+          "english": "Behavioral Detection Method",
+          "vi": "Phương pháp phát hiện theo hành vi",
+          "definitionJa": "コンピュータやネットワーク上の異常な動作を監視・検出するための手法である。",
+          "definitionVi": "Phương pháp phát hiện theo hành vi. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "behavioral-detection-method"
+      ]
+    },
+    {
+      "id": "heuristic-method",
+      "order": 16,
+      "titleJa": "ヒューリスティック法",
+      "titleVi": "Phương pháp heuristic",
+      "importance": "medium",
+      "summaryJa": "問題解決や意思決定において経験則や直感を基にしたアプローチである。",
+      "summaryVi": "Phương pháp heuristic. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ヒューリスティック法とは",
+          "vi": "Phương pháp heuristic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題解決や意思決定において経験則や直感を基にしたアプローチである。この手法は、最適解を求めることが難しい場合でも、素早く十分な解決策を見つけるために使用される。例えば、サイバーセキュリティの分野では、未知のウイルスやマルウェアを検出する際に、既知の脅威の特徴をもとに判断を行うことができる。これにより、新たな脅威に対しても迅速に対応することが可能となり、防御体制を強化できる。また、データが少ない状況でも機能するため、特に変化の激しい環境において有用な戦略である。",
+          "vi": "Phương pháp heuristic. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ヒューリスティック法」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ヒューリスティック法",
+          "reading": "ひゅーりすてぃっくほう",
+          "english": "Heuristic Method",
+          "vi": "Phương pháp heuristic",
+          "definitionJa": "問題解決や意思決定において経験則や直感を基にしたアプローチである。",
+          "definitionVi": "Phương pháp heuristic. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "heuristic-method"]
+    },
+    {
+      "id": "unknown-malware-detection-technique",
+      "order": 17,
+      "titleJa": "未知マルウェア検出手法",
+      "titleVi": "Kỹ thuật phát hiện mã độc chưa biết",
+      "importance": "medium",
+      "summaryJa": "まだ知られていない悪意のあるソフトウェアを特定するための技術である。",
+      "summaryVi": "Kỹ thuật phát hiện mã độc chưa biết. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "未知マルウェア検出手法とは",
+          "vi": "Kỹ thuật phát hiện mã độc chưa biết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "まだ知られていない悪意のあるソフトウェアを特定するための技術である。この手法は、既知のマルウェアのパターンを用いる従来の方法とは異なり、未知の脅威に対応するための適応的なアプローチを取る。例えば、動作解析や異常検知を利用して、通常とは異なる挙動を示すプログラムを見つけ出すことができる。これにより、従来のウイルス定義ファイルに依存せず、新たに出現した攻撃からの防御を強化することが可能となる。IoTデバイスや企業ネットワークなど、さまざまな環境で重要な役割を果たし、サイバーセキュリティの向上に寄与している。",
+          "vi": "Kỹ thuật phát hiện mã độc chưa biết. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「未知マルウェア検出手法」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "未知マルウェア検出手法",
+          "reading": "みちまるうぇあけんしゅつしゅほう",
+          "english": "Unknown Malware Detection Technique",
+          "vi": "Kỹ thuật phát hiện mã độc chưa biết",
+          "definitionJa": "まだ知られていない悪意のあるソフトウェアを特定するための技術である。",
+          "definitionVi": "Kỹ thuật phát hiện mã độc chưa biết. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "unknown-malware-detection-technique"
+      ]
+    },
+    {
+      "id": "obfuscation",
+      "order": 18,
+      "titleJa": "秘匿化",
+      "titleVi": "Che giấu thông tin",
+      "importance": "medium",
+      "summaryJa": "データや情報の内容を第三者に理解されにくくする技術や手法である。",
+      "summaryVi": "Che giấu thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "秘匿化とは",
+          "vi": "Che giấu thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データや情報の内容を第三者に理解されにくくする技術や手法である。主に機密情報を守るために使用され、具体的にはデータの形式や構造を変更したり、意味を隠すための技術が含まれる。例えば、個人情報を格納する際に、実際の値を暗号化し、第三者が直接その内容を把握できないようにする。これはソフトウェア開発においても用いられ、コードの可読性を下げることによって、知的財産権の保護や逆コンパイルからの防御機能を果たすことができる。このように、秘匿化は技術的なセキュリティ対策の一環として重要な役割を担っている。",
+          "vi": "Che giấu thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「秘匿化」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "秘匿化",
+          "reading": "ひとくか",
+          "english": "Obfuscation",
+          "vi": "Che giấu thông tin",
+          "definitionJa": "データや情報の内容を第三者に理解されにくくする技術や手法である。",
+          "definitionVi": "Che giấu thông tin. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "obfuscation"]
+    },
+    {
+      "id": "access-control",
+      "order": 19,
+      "titleJa": "アクセス制御",
+      "titleVi": "Kiểm soát truy cập",
+      "importance": "high",
+      "summaryJa": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。",
+      "summaryVi": "Kiểm soát truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクセス制御とは",
+          "vi": "Kiểm soát truy cập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。この制御は、ユーザーの認証や権限管理によって実施され、誰がどの情報にアクセスできるかを明確に定義する。例えば、企業のデータベースにおいて、管理者はそのデータベースへのフルアクセス権を持つ一方で、一般社員は閲覧のみを許可されることがある。機密情報の保護やコンプライアンスの遵守に不可欠であり、役割ベースのアクセス制御（RBAC）や属性ベースのアクセス制御（ABAC）など、さまざまなモデルが利用されている。これにより、セキュリティの強化とインシデントの防止が図られる。",
+          "vi": "Kiểm soát truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「アクセス制御」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクセス制御",
+          "reading": "あくせすせいぎょ",
+          "english": "Access Control",
+          "vi": "Kiểm soát truy cập",
+          "definitionJa": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。",
+          "definitionVi": "Kiểm soát truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "access-control"]
+    },
+    {
+      "id": "vulnerability-management",
+      "order": 20,
+      "titleJa": "脆弱性管理",
+      "titleVi": "Quản lý lỗ hổng",
+      "importance": "high",
+      "summaryJa": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。",
+      "summaryVi": "Quản lý lỗ hổng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "脆弱性管理とは",
+          "vi": "Quản lý lỗ hổng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。これにより、セキュリティリスクを最小限に抑えることが目指される。具体的には、OSアップデートや脆弱性修正プログラム（セキュリティパッチ）の適用が含まれ、これにより最新の状態を保つことが重要になる。特に、外部からの攻撃者が利用する可能性のある脆弱性を早期に修正することで、情報漏洩やデータ損失などのリスクを減少させることができる。この管理プロセスは、定期的な点検や監視を行い、安全なシステム運用を支えるために欠かせないものである。",
+          "vi": "Quản lý lỗ hổng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「脆弱性管理」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "脆弱性管理",
+          "reading": "ぜいじゃくせいかんり",
+          "english": "Vulnerability Management",
+          "vi": "Quản lý lỗ hổng",
+          "definitionJa": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。",
+          "definitionVi": "Quản lý lỗ hổng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "vulnerability-management"
+      ]
+    },
+    {
+      "id": "network-monitoring",
+      "order": 21,
+      "titleJa": "ネットワーク監視",
+      "titleVi": "Giám sát mạng",
+      "importance": "medium",
+      "summaryJa": "コンピュータネットワークの状態を常時チェックし、パフォーマンスやセキュリティの問題を早期に発見するための手法である。",
+      "summaryVi": "Giám sát mạng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ネットワーク監視とは",
+          "vi": "Giám sát mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータネットワークの状態を常時チェックし、パフォーマンスやセキュリティの問題を早期に発見するための手法である。これにより、ネットワークのトラフィックや接続状況が監視され、異常が発生した場合に即座に対応が可能となる。例えば、企業が自社のサーバやコンピュータの接続状態を監視することで、不正アクセスやシステム障害の兆候を見逃さず、迅速な対策を講じることができる。また、ネットワーク監視ツールは、データの流れを可視化する機能を持ち、どの部分で問題が発生しているかを特定しやすくするため、業務の安定性向上にも寄与する。",
+          "vi": "Giám sát mạng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ネットワーク監視」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネットワーク監視",
+          "reading": "ねっとわーくかんし",
+          "english": "Network Monitoring",
+          "vi": "Giám sát mạng",
+          "definitionJa": "コンピュータネットワークの状態を常時チェックし、パフォーマンスやセキュリティの問題を早期に発見するための手法である。",
+          "definitionVi": "Giám sát mạng. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "network-monitoring"]
+    },
+    {
+      "id": "access-rights-configuration",
+      "order": 22,
+      "titleJa": "アクセス権の設定",
+      "titleVi": "Thiết lập quyền truy cập",
+      "importance": "medium",
+      "summaryJa": "情報システムにおけるデータやリソースへのアクセスを制御するための仕組みである。",
+      "summaryVi": "Thiết lập quyền truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクセス権の設定とは",
+          "vi": "Thiết lập quyền truy cập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムにおけるデータやリソースへのアクセスを制御するための仕組みである。これにより、どのユーザーがどの情報にアクセスできるかを明確にし、情報漏洩や不正使用を防ぐ役割を果たす。例えば、企業のファイルサーバでは、社員が部署ごとに異なるフォルダにアクセスできるよう設定されることが一般的である。これにより、機密情報や重要なデータはアクセスが許可されたユーザーのみに制限され、情報の保護が強化される。また、定期的に見直すことが求められる。これにより、退職した社員の権限を削除するなど、常に適切な管理状態を維持することが重要である。",
+          "vi": "Thiết lập quyền truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「アクセス権の設定」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクセス権の設定",
+          "reading": "あくせすけんのせってい",
+          "english": "Access Rights Configuration",
+          "vi": "Thiết lập quyền truy cập",
+          "definitionJa": "情報システムにおけるデータやリソースへのアクセスを制御するための仕組みである。",
+          "definitionVi": "Thiết lập quyền truy cập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "access-rights-configuration"
+      ]
+    },
+    {
+      "id": "intrusion-detection",
+      "order": 23,
+      "titleJa": "侵入検知",
+      "titleVi": "Phát hiện xâm nhập",
+      "importance": "high",
+      "summaryJa": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。",
+      "summaryVi": "Phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "侵入検知とは",
+          "vi": "Phát hiện xâm nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。これは、コンピュータやネットワークのセキュリティを強化し、未然に問題を防ぐことを目的としている。例えば、侵入検知システム（IDS）は、ネットワークトラフィックを分析し、異常な動きや既知の攻撃パターンを検出する。これにより、攻撃が発生する前に警告を発したり、迅速な対応が可能となる。また、企業の重要なデータを守るために欠かせない要素であり、セキュリティインシデントの発生を減少させる役割を果たす。",
+          "vi": "Phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「侵入検知」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "侵入検知",
+          "reading": "しんにゅうけんち",
+          "english": "Intrusion Detection",
+          "vi": "Phát hiện xâm nhập",
+          "definitionJa": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。",
+          "definitionVi": "Phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "intrusion-detection"]
+    },
+    {
+      "id": "intrusion-prevention",
+      "order": 24,
+      "titleJa": "侵入防止",
+      "titleVi": "Ngăn chặn xâm nhập",
+      "importance": "high",
+      "summaryJa": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。",
+      "summaryVi": "Ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "侵入防止とは",
+          "vi": "Ngăn chặn xâm nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。この対策は、サイバー攻撃やウイルス感染から情報を守るために非常に重要である。具体的には、侵入防止システム（IPS）がリアルタイムでトラフィックを監視し、異常な動きや知られている攻撃のパターンを検出することで、即座に攻撃を遮断する。たとえば、外部からの不正なログイン試行を察知した場合、その接続を自動的に切断することで、システムを守ることができる。これにより、企業や個人のデータの安全性が高まり、セキュリティリスクを軽減することが可能となる。",
+          "vi": "Ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「侵入防止」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "侵入防止",
+          "reading": "しんにゅうぼうし",
+          "english": "Intrusion Prevention",
+          "vi": "Ngăn chặn xâm nhập",
+          "definitionJa": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。",
+          "definitionVi": "Ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "intrusion-prevention"]
+    },
+    {
+      "id": "dmz",
+      "order": 25,
+      "titleJa": "DMZ",
+      "titleVi": "DMZ (vùng phi quân sự)",
+      "importance": "high",
+      "summaryJa": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。",
+      "summaryVi": "DMZ (vùng phi quân sự). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DMZとは",
+          "vi": "DMZ (vùng phi quân sự) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。この領域には、Webサーバやメールサーバなど、外部からアクセスされる必要のあるサービスが設置されることが一般的である。外部からの侵入を防ぎつつ、内部ネットワークへのアクセスを制限するための重要なセキュリティ対策である。たとえば、企業が自社のWebサイトを運営する際、DMZにWebサーバを置くことで、外部からの攻撃が内部ネットワークに直接影響を及ぼすリスクを減少させることができる。このように、DMZは情報セキュリティの層を一つ追加する役割を果たしている。",
+          "vi": "DMZ (vùng phi quân sự). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「DMZ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DMZ",
+          "reading": "でぃーえむぜっと",
+          "english": "Demilitarized Zone",
+          "vi": "DMZ (vùng phi quân sự)",
+          "definitionJa": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。",
+          "definitionVi": "DMZ (vùng phi quân sự). Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "dmz"]
+    },
+    {
+      "id": "quarantine-network",
+      "order": 26,
+      "titleJa": "検疫ネットワーク",
+      "titleVi": "Mạng cách ly",
+      "importance": "medium",
+      "summaryJa": "サイバーセキュリティにおいて、感染の疑いがあるデバイスやネットワークの一部を隔離するために使用されるセグメントである。",
+      "summaryVi": "Mạng cách ly. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "検疫ネットワークとは",
+          "vi": "Mạng cách ly là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サイバーセキュリティにおいて、感染の疑いがあるデバイスやネットワークの一部を隔離するために使用されるセグメントである。このネットワークにアクセスすることで、潜在的な脅威が自社の重要な情報やシステムに広がるのを防ぐことができる。例えば、ウイルスやマルウェアが疑われるデバイスを一時的に切り離して、その影響を評価し、適切な対策を講じるためのスペースとして機能する。企業が外部からの攻撃や内部の脆弱性に対して防御を強化するために、必須のセキュリティ対策となっている。これは、特に感染症が広がるリスクを軽減するため、企業のIT環境を保護する上で重要である。",
+          "vi": "Mạng cách ly. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「検疫ネットワーク」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "検疫ネットワーク",
+          "reading": "けんえきねっとわーく",
+          "english": "Quarantine Network",
+          "vi": "Mạng cách ly",
+          "definitionJa": "サイバーセキュリティにおいて、感染の疑いがあるデバイスやネットワークの一部を隔離するために使用されるセグメントである。",
+          "definitionVi": "Mạng cách ly. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "quarantine-network"]
+    },
+    {
+      "id": "url-filtering",
+      "order": 27,
+      "titleJa": "URLフィルタリング",
+      "titleVi": "Lọc URL",
+      "importance": "medium",
+      "summaryJa": "Webサイトへのアクセスを制御するための技術である。",
+      "summaryVi": "Lọc URL. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "URLフィルタリングとは",
+          "vi": "Lọc URL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webサイトへのアクセスを制御するための技術である。この技術は、特定のWebサイトやコンテンツをブロックすることで、企業や教育機関などにおいて不適切な情報や危険なサイトへのアクセスを防ぐことを目的としている。例えば、学校では生徒が不適切なコンテンツにアクセスできないように設定されている。この技術は、WebサイトのURLをデータベースに基づいて評価し、適切とされるサイトにのみアクセスを許可する仕組みを持つ。また、セキュリティ対策の一環としても重要であり、マルウェアやフィッシングサイトからユーザーを保護する役割も果たしている。これにより、安全にインターネットを利用できる環境を提供することができる。",
+          "vi": "Lọc URL. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「URLフィルタリング」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "URLフィルタリング",
+          "reading": "ゆーあーるえるふぃるたりんぐ",
+          "english": "URL Filtering",
+          "vi": "Lọc URL",
+          "definitionJa": "Webサイトへのアクセスを制御するための技術である。",
+          "definitionVi": "Lọc URL. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "url-filtering"]
+    },
+    {
+      "id": "content-filtering",
+      "order": 28,
+      "titleJa": "コンテンツフィルタリング",
+      "titleVi": "Lọc nội dung",
+      "importance": "medium",
+      "summaryJa": "特定の情報やデータを自動的に選別し、表示またはアクセスを制御する技術のことである。",
+      "summaryVi": "Lọc nội dung. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンテンツフィルタリングとは",
+          "vi": "Lọc nội dung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の情報やデータを自動的に選別し、表示またはアクセスを制御する技術のことである。この技術は、インターネットやネットワーク上での不適切な内容、スパム、ウイルスなどをフィルタリングするために使用される。例えば、学校や企業のネットワークでは、生徒や社員が閲覧できるWebサイトを制限し、不適切な情報へのアクセスを防ぐ役割を果たしている。コンテンツフィルタリングを導入することで、利用者は安全な環境でインターネットを利用でき、情報セキュリティの向上にも寄与する。また、個人のデバイスにもフィルタリング機能が備わっていることがあり、ユーザーが自ら設定することで自衛策を講じることも可能である。",
+          "vi": "Lọc nội dung. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「コンテンツフィルタリング」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンテンツフィルタリング",
+          "reading": "",
+          "english": "Content Filtering",
+          "vi": "Lọc nội dung",
+          "definitionJa": "特定の情報やデータを自動的に選別し、表示またはアクセスを制御する技術のことである。",
+          "definitionVi": "Lọc nội dung. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "content-filtering"]
+    },
+    {
+      "id": "mobile-device-security",
+      "order": 29,
+      "titleJa": "携帯端末のセキュリティ",
+      "titleVi": "Bảo mật thiết bị di động",
+      "importance": "medium",
+      "summaryJa": "携帯電話、スマートフォン、タブレット端末などのデバイスを守るための技術的な対策を指す。",
+      "summaryVi": "Bảo mật thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "携帯端末のセキュリティとは",
+          "vi": "Bảo mật thiết bị di động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "携帯電話、スマートフォン、タブレット端末などのデバイスを守るための技術的な対策を指す。これには、不正アクセスを防ぐためのパスコードや生体認証の設定、ウイルス対策ソフトの導入、データの暗号化などが含まれる。例えば、スマートフォンには指紋認証や顔認証など、ユーザーの身元を確認するための機能が備わっており、不正に機器を操作されるリスクを軽減する。また、重要なデータを適切にバックアップし、紛失時にはリモートでデータを消去する機能もあり、これによって情報漏洩を防ぐことができる。携帯端末のセキュリティ対策は、個人情報を守るために欠かせない要素である。",
+          "vi": "Bảo mật thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「携帯端末のセキュリティ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "携帯端末のセキュリティ",
+          "reading": "けいたいたんまつのせきゅりてぃ",
+          "english": "Mobile Device Security",
+          "vi": "Bảo mật thiết bị di động",
+          "definitionJa": "携帯電話、スマートフォン、タブレット端末などのデバイスを守るための技術的な対策を指す。",
+          "definitionVi": "Bảo mật thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "mobile-device-security"]
+    },
+    {
+      "id": "data-masking",
+      "order": 30,
+      "titleJa": "データマスキング",
+      "titleVi": "Che dữ liệu",
+      "importance": "high",
+      "summaryJa": "機密情報を保護するために、その内容を変換して見えなくする技術である。",
+      "summaryVi": "Che dữ liệu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データマスキングとは",
+          "vi": "Che dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機密情報を保護するために、その内容を変換して見えなくする技術である。これにより、情報が漏洩した場合でも、実際のデータが悪用されるリスクを減少させる。具体例としては、顧客の名前や住所などの個人情報を、無関係な文字列や数字に置き換えることが挙げられる。例えば、「山田太郎」を「XXXXXX」に変換することで、元の情報が分からなくなる。この技術は、テスト環境や研修用データで実際のデータを使用する際に特に有用であり、データのプライバシーを確保し、法規制にも対応するために広く利用されている。情報セキュリティの重要な手段の一つである。",
+          "vi": "Che dữ liệu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「データマスキング」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データマスキング",
+          "reading": "",
+          "english": "Data Masking",
+          "vi": "Che dữ liệu",
+          "definitionJa": "機密情報を保護するために、その内容を変換して見えなくする技術である。",
+          "definitionVi": "Che dữ liệu. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "data-masking"]
+    },
+    {
+      "id": "cloud-service-security",
+      "order": 31,
+      "titleJa": "クラウドサービスのセキュリティ",
+      "titleVi": "Bảo mật dịch vụ đám mây",
+      "importance": "medium",
+      "summaryJa": "クラウド環境で提供されるサービスやデータを保護するための管理や技術のことを指す。",
+      "summaryVi": "Bảo mật dịch vụ đám mây. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドサービスのセキュリティとは",
+          "vi": "Bảo mật dịch vụ đám mây là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラウド環境で提供されるサービスやデータを保護するための管理や技術のことを指す。クラウドサービスでは、データがインターネット上のサーバに保存されるため、外部からの侵入や情報漏洩のリスクが伴う。このため、暗号化やアクセス制御、ファイアウォールなどの技術が必須となる。例えば、データを暗号化することで、万が一情報が盗まれた場合でも、内容を解読されにくくすることができる。また、ユーザーに認証プロセスを設けることで、不正アクセスを防ぐ手段も重要である。これらのセキュリティ対策を組み合わせることで、クラウドサービスの安全性を高め、信頼性のあるデータ保護を実現できる。",
+          "vi": "Bảo mật dịch vụ đám mây. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「クラウドサービスのセキュリティ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドサービスのセキュリティ",
+          "reading": "",
+          "english": "Cloud Service Security",
+          "vi": "Bảo mật dịch vụ đám mây",
+          "definitionJa": "クラウド環境で提供されるサービスやデータを保護するための管理や技術のことを指す。",
+          "definitionVi": "Bảo mật dịch vụ đám mây. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "cloud-service-security"]
+    },
+    {
+      "id": "iot-security",
+      "order": 32,
+      "titleJa": "IoTのセキュリティ",
+      "titleVi": "Bảo mật IoT",
+      "importance": "medium",
+      "summaryJa": "インターネットに接続されたデバイスやセンサーを保護するための対策である。",
+      "summaryVi": "Bảo mật IoT. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IoTのセキュリティとは",
+          "vi": "Bảo mật IoT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットに接続されたデバイスやセンサーを保護するための対策である。IoTは、生活や産業の様々な場面で利用され、機器同士が相互にデータを交換する仕組みを持つ。例えば、スマートホームのデバイスが連携してエネルギーを効率よく管理する場合、セキュリティが不十分だと外部からの攻撃によって危険が生じる可能性がある。具体的な対策には、データ暗号化、強力な認証手続き、ネットワークの監視が含まれる。これらの対策は、個人情報や重要なデータの漏洩を防ぎ、IoTデバイスの安全な運用を実現するために不可欠である。",
+          "vi": "Bảo mật IoT. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「IoTのセキュリティ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IoTのセキュリティ",
+          "reading": "あいおーてぃーのせきゅりてぃ",
+          "english": "IoT Security",
+          "vi": "Bảo mật IoT",
+          "definitionJa": "インターネットに接続されたデバイスやセンサーを保護するための対策である。",
+          "definitionVi": "Bảo mật IoT. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "iot-security"]
+    },
+    {
+      "id": "control-system-security",
+      "order": 33,
+      "titleJa": "制御システムのセキュリティ",
+      "titleVi": "Bảo mật hệ thống điều khiển",
+      "importance": "medium",
+      "summaryJa": "工場やインフラなどの自動化されたシステムを守るための対策である。",
+      "summaryVi": "Bảo mật hệ thống điều khiển. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "制御システムのセキュリティとは",
+          "vi": "Bảo mật hệ thống điều khiển là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "工場やインフラなどの自動化されたシステムを守るための対策である。これにより、システムが不正アクセスや攻撃から保護され、機能の停止や情報漏洩を防ぐことが目指される。具体的には、ファイアウォールや侵入検知システムなどが活用され、リアルタイムで監視や警告を行う。たとえば、発電所の制御システムが攻撃を受ければ、大規模な停電を引き起こしかねないため、セキュリティは非常に重要となる。また、セキュリティ対策には、システムの定期的なアップデートや、ユーザーのアクセス権限管理も含まれる。これらは、制御システムの信頼性と安全性を確保するために欠かせない要素である。",
+          "vi": "Bảo mật hệ thống điều khiển. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「制御システムのセキュリティ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "制御システムのセキュリティ",
+          "reading": "せいぎょしすてむのせきゅりてぃ",
+          "english": "Control System Security",
+          "vi": "Bảo mật hệ thống điều khiển",
+          "definitionJa": "工場やインフラなどの自動化されたシステムを守るための対策である。",
+          "definitionVi": "Bảo mật hệ thống điều khiển. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "control-system-security"
+      ]
+    },
+    {
+      "id": "digital-watermarking",
+      "order": 34,
+      "titleJa": "電子透かし",
+      "titleVi": "Thủy vân số",
+      "importance": "medium",
+      "summaryJa": "画像や音声、動画などのデジタルデータに目に見えない形で情報を埋め込む技術である。",
+      "summaryVi": "Thủy vân số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子透かしとは",
+          "vi": "Thủy vân số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "画像や音声、動画などのデジタルデータに目に見えない形で情報を埋め込む技術である。これにより、著作権や所有権の保護が可能になる。例えば、写真にクリエイターの名前やロゴを隠した形で埋め込むことができ、その写真が無断で使用された場合でも、著作権を主張する根拠とすることができる。この技術は、オリジナルのデータとは異なり、改変や削除に耐性を持つよう設計されているため、不正利用の検出にも役立つ。また、不正コピーの防止やトレーサビリティの向上など、デジタルコンテンツの安全性を高める重要な手段として広く利用されている。",
+          "vi": "Thủy vân số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「電子透かし」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子透かし",
+          "reading": "でんしすかし",
+          "english": "Digital Watermarking",
+          "vi": "Thủy vân số",
+          "definitionJa": "画像や音声、動画などのデジタルデータに目に見えない形で情報を埋め込む技術である。",
+          "definitionVi": "Thủy vân số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "digital-watermarking"]
+    },
+    {
+      "id": "digital-forensics",
+      "order": 35,
+      "titleJa": "デジタルフォレンジックス",
+      "titleVi": "Điều tra số",
+      "importance": "high",
+      "summaryJa": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。",
+      "summaryVi": "Điều tra số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルフォレンジックスとは",
+          "vi": "Điều tra số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。この技術は主にサイバー犯罪や違法行為の調査に使用され、デジタル機器からの重要な情報を確保することを目的とする。例えば、コンピュータやスマートフォンから削除されたファイルを復元したり、過去の通信記録を解析したりすることで、真実を解明する手助けを行う。証拠の合法性や信頼性を保つために詳細な手順が求められ、適切に実施されることで法的な手続きにも利用される。この分野は、セキュリティ対策を強化する上で重要な役割を果たしており、高度な技術と専門知識が必要である。",
+          "vi": "Điều tra số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「デジタルフォレンジックス」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルフォレンジックス",
+          "reading": "",
+          "english": "Digital Forensics",
+          "vi": "Điều tra số",
+          "definitionJa": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。",
+          "definitionVi": "Điều tra số. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "digital-forensics"]
+    },
+    {
+      "id": "ai-for-security",
+      "order": 36,
+      "titleJa": "AIを使ったセキュリティ技術",
+      "titleVi": "Công nghệ bảo mật sử dụng AI",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）を活用し、情報システムやネットワークの安全性を高めるための技術である。",
+      "summaryVi": "Công nghệ bảo mật sử dụng AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIを使ったセキュリティ技術とは",
+          "vi": "Công nghệ bảo mật sử dụng AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）を活用し、情報システムやネットワークの安全性を高めるための技術である。これにより、サイバー攻撃の検知や防御を自動化し、迅速に対応することが可能になる。例えば、AIは異常なトラフィックをリアルタイムで分析し、新たな攻撃パターンを学習することで、従来の手法では見逃されがちな脅威を早期に察知できる。また、フィッシングメールの検出やマルウェアの分析にも利用され、従来のルールベースの検知システムよりも高い精度を発揮することが期待されている。これにより、企業はより効率的にセキュリティを強化し、安心して業務を行うための基盤を築くことができる。",
+          "vi": "Công nghệ bảo mật sử dụng AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「AIを使ったセキュリティ技術」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIを使ったセキュリティ技術",
+          "reading": "えーあいをつかったせきゅりてぃぎじゅつ",
+          "english": "AI for Security",
+          "vi": "Công nghệ bảo mật sử dụng AI",
+          "definitionJa": "人工知能（AI）を活用し、情報システムやネットワークの安全性を高めるための技術である。",
+          "definitionVi": "Công nghệ bảo mật sử dụng AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "ai-for-security"]
+    },
+    {
+      "id": "security-for-ai",
+      "order": 37,
+      "titleJa": "AIそのものを守るセキュリティ技術",
+      "titleVi": "Công nghệ bảo vệ chính hệ thống AI",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）システムを外部からの攻撃や不正な改ざんから保護するための技術である。",
+      "summaryVi": "Công nghệ bảo vệ chính hệ thống AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIそのものを守るセキュリティ技術とは",
+          "vi": "Công nghệ bảo vệ chính hệ thống AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）システムを外部からの攻撃や不正な改ざんから保護するための技術である。これには、AIモデルのトレーニングデータの保護、システムへのアクセス制御、データのプライバシー確保などが含まれる。例えば、AIが学習するために使用されるデータが不正に変更されると、AIの予測や推論に悪影響を及ぼす可能性がある。そのため、攻撃者がデータセットにアクセスしたり、不正にAIシステムに介入することを防ぐ対策が必要である。さらに、AIモデル自体が悪用されないように、セキュリティプロトコルや監視システムを導入することも重要で、これによりAIの信頼性が向上し、業務の安全性を保つことができる。",
+          "vi": "Công nghệ bảo vệ chính hệ thống AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「AIそのものを守るセキュリティ技術」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIそのものを守るセキュリティ技術",
+          "reading": "えーあいそのものをまもるせきゅりてぃぎじゅつ",
+          "english": "Security for AI",
+          "vi": "Công nghệ bảo vệ chính hệ thống AI",
+          "definitionJa": "人工知能（AI）システムを外部からの攻撃や不正な改ざんから保護するための技術である。",
+          "definitionVi": "Công nghệ bảo vệ chính hệ thống AI. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "security-for-ai"]
+    },
+    {
+      "id": "malware-protection-software",
+      "order": 38,
+      "titleJa": "マルウェア対策ソフト",
+      "titleVi": "Phần mềm chống mã độc",
+      "importance": "medium",
+      "summaryJa": "悪意のあるソフトウェア（マルウェア）からコンピュータやネットワークを保護するためのソフトウェアである。",
+      "summaryVi": "Phần mềm chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マルウェア対策ソフトとは",
+          "vi": "Phần mềm chống mã độc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "悪意のあるソフトウェア（マルウェア）からコンピュータやネットワークを保護するためのソフトウェアである。マルウェアはウイルス、ワーム、スパイウェア、ランサムウェアなど、多種多様な形態を持ち、システムに損害を与えたり、データを盗んだりする恐れがある。これらの脅威を検出・排除する機能を持ち、リアルタイムでの監視や定期的なウイルススキャンを行う。また、新たに発見された脅威に対するアップデートを提供することで、常に安全な環境を保つ役割も果たす。したがって、日常的なネットワーク利用やビジネス活動において不可欠なツールである。",
+          "vi": "Phần mềm chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「マルウェア対策ソフト」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マルウェア対策ソフト",
+          "reading": "まるうぇあたいさくそふと",
+          "english": "Malware Protection Software",
+          "vi": "Phần mềm chống mã độc",
+          "definitionJa": "悪意のあるソフトウェア（マルウェア）からコンピュータやネットワークを保護するためのソフトウェアである。",
+          "definitionVi": "Phần mềm chống mã độc. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "malware-protection-software"
+      ]
+    },
+    {
+      "id": "siem",
+      "order": 39,
+      "titleJa": "SIEM",
+      "titleVi": "SIEM",
+      "importance": "high",
+      "summaryJa": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。",
+      "summaryVi": "SIEM. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SIEMとは",
+          "vi": "SIEM là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。異なるデータソースからのログ情報を集約し、リアルタイムでの脅威の検出や、不正アクセスの監視を行う。例えば、社内のサーバやアプリケーションのログを一元的に解析することで、不審なアクティビティを迅速に発見できる。これにより、サイバー攻撃からの防御を強化し、インシデント発生時には迅速な対応が可能となる。組織のセキュリティポリシーに基づいた運用が求められ、リスクマネジメントの一環として広く利用されている。",
+          "vi": "SIEM. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「SIEM」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SIEM",
+          "reading": "しーむ",
+          "english": "Security Information and Event Management",
+          "vi": "SIEM",
+          "definitionJa": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。",
+          "definitionVi": "SIEM. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "siem"]
+    },
+    {
+      "id": "firewall",
+      "order": 40,
+      "titleJa": "ファイアウォール",
+      "titleVi": "Tường lửa",
+      "importance": "high",
+      "summaryJa": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。",
+      "summaryVi": "Tường lửa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ファイアウォールとは",
+          "vi": "Tường lửa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。特定の通信を監視し、許可されたトラフィックのみを通過させ、悪意のあるデータや攻撃からシステムを保護する役割を果たす。企業や個人のネットワークでよく使用され、内部と外部のネットワーク間のバリアを形成する。例えば、インターネットからの不正アクセスを防ぐために、特定のポートを閉じる設定を行うことができる。また、ファイアウォールには、パケットフィルタリング型、ステートフル型、次世代型など様々な種類があり、それぞれを用いることで異なる運用ニーズに応じたセキュリティを実現することが可能である。",
+          "vi": "Tường lửa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ファイアウォール」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファイアウォール",
+          "reading": "",
+          "english": "Firewall",
+          "vi": "Tường lửa",
+          "definitionJa": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。",
+          "definitionVi": "Tường lửa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "firewall"]
+    },
+    {
+      "id": "waf",
+      "order": 41,
+      "titleJa": "WAF",
+      "titleVi": "Tường lửa ứng dụng Web",
+      "importance": "high",
+      "summaryJa": "Webアプリケーションを保護するためのセキュリティ製品である。",
+      "summaryVi": "Tường lửa ứng dụng Web. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "WAFとは",
+          "vi": "Tường lửa ứng dụng Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webアプリケーションを保護するためのセキュリティ製品である。主に、悪意のある攻撃からWebサイトやアプリケーションを守る役割を果たす。例えば、SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐために、トラフィックを監視し、不正なリクエストをブロックすることができる。ユーザーがWebアプリケーションに接続する際、データの送受信を詳細に分析することで、特定のパターンや異常を検出し、セキュリティを強化する。また、企業の機密情報やユーザーのプライバシーを保護するために重要な役割を果たしており、データ漏えいや侵害からの防御に欠かせない存在である。",
+          "vi": "Tường lửa ứng dụng Web. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「WAF」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WAF",
+          "reading": "わふ",
+          "english": "Web Application Firewall",
+          "vi": "Tường lửa ứng dụng Web",
+          "definitionJa": "Webアプリケーションを保護するためのセキュリティ製品である。",
+          "definitionVi": "Tường lửa ứng dụng Web. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "waf"]
+    },
+    {
+      "id": "ids",
+      "order": 42,
+      "titleJa": "IDS",
+      "titleVi": "Hệ thống phát hiện xâm nhập",
+      "importance": "high",
+      "summaryJa": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。",
+      "summaryVi": "Hệ thống phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IDSとは",
+          "vi": "Hệ thống phát hiện xâm nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。これにより、システム管理者は潜在的な脅威を早期に発見し、迅速な対応が可能になる。IDSは大きく分けて、ネットワークベースとホストベースに分類され、前者はネットワークトラフィック全体を監視し、後者は特定のデバイス内の動作を監視する。例えば、IDSが不正ログインの試行を検知した場合、アラートを発生させて管理者に通知することができる。このように、IDSはサイバー攻撃からシステムを守るための重要な役割を果たしている。",
+          "vi": "Hệ thống phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「IDS」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IDS",
+          "reading": "あいでぃーえす",
+          "english": "Intrusion Detection System",
+          "vi": "Hệ thống phát hiện xâm nhập",
+          "definitionJa": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。",
+          "definitionVi": "Hệ thống phát hiện xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "ids"]
+    },
+    {
+      "id": "ips",
+      "order": 43,
+      "titleJa": "IPS",
+      "titleVi": "Hệ thống ngăn chặn xâm nhập",
+      "importance": "high",
+      "summaryJa": "ネットワーク上で不正アクセスや攻撃を検知し、それを阻止するためのシステムである。",
+      "summaryVi": "Hệ thống ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IPSとは",
+          "vi": "Hệ thống ngăn chặn xâm nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク上で不正アクセスや攻撃を検知し、それを阻止するためのシステムである。これは、侵入検知システム（IDS）とは異なり、単に警告を出すのではなく、リアルタイムで攻撃を防ぎ、システムを守る役割を果たす。具体的には、送信されるデータのパターンを分析し、既知の攻撃手法に基づいて異常を検出する。例えば、不正なデータパケットが送られてきた場合、そのパケットをブロックすることで攻撃を未然に防ぐことができる。また、IPSはファイアウォールと連携して動作することが多く、セキュリティの強化に寄与している。これにより、企業や組織は情報漏洩やシステム停止のリスクを低減できるため、重要なセキュリティ対策の一つとなっている。",
+          "vi": "Hệ thống ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「IPS」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IPS",
+          "reading": "あいぴーえす",
+          "english": "Intrusion Prevention System",
+          "vi": "Hệ thống ngăn chặn xâm nhập",
+          "definitionJa": "ネットワーク上で不正アクセスや攻撃を検知し、それを阻止するためのシステムである。",
+          "definitionVi": "Hệ thống ngăn chặn xâm nhập. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "ips"]
+    },
+    {
+      "id": "utm",
+      "order": 44,
+      "titleJa": "UTM",
+      "titleVi": "Quản lý mối đe dọa hợp nhất",
+      "importance": "high",
+      "summaryJa": "ネットワークのセキュリティを一元管理するためのシステムである。",
+      "summaryVi": "Quản lý mối đe dọa hợp nhất. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UTMとは",
+          "vi": "Quản lý mối đe dọa hợp nhất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークのセキュリティを一元管理するためのシステムである。ファイアウォール、ウイルス対策、侵入検知システム、スパムフィルタリングなど、複数のセキュリティ機能を統合して提供する。これにより、企業や組織は複数のセキュリティソリューションを個別に運用する必要がなくなり、管理の手間を大幅に軽減できる。たとえば、中小企業では専任のITセキュリティスタッフが少ない場合が多いため、UTMを導入することで、効率的かつ効果的に脅威からネットワークを保護できる。さらに、UTMはリアルタイムでの監視やレポート機能も備えており、脅威に対して迅速に対応することが可能である。これは、サイバー攻撃が増加する中で、企業の重要な防御策となっている。",
+          "vi": "Quản lý mối đe dọa hợp nhất. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「UTM」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UTM",
+          "reading": "ゆーてぃーえむ",
+          "english": "Unified Threat Management",
+          "vi": "Quản lý mối đe dọa hợp nhất",
+          "definitionJa": "ネットワークのセキュリティを一元管理するためのシステムである。",
+          "definitionVi": "Quản lý mối đe dọa hợp nhất. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "utm"]
+    },
+    {
+      "id": "allow-list",
+      "order": 45,
+      "titleJa": "許可リスト",
+      "titleVi": "Danh sách cho phép",
+      "importance": "high",
+      "summaryJa": "特定のユーザーやデバイス、アプリケーションなど、ネットワークやシステムに対してアクセスを許可するためのリストである。",
+      "summaryVi": "Danh sách cho phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "許可リストとは",
+          "vi": "Danh sách cho phép là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のユーザーやデバイス、アプリケーションなど、ネットワークやシステムに対してアクセスを許可するためのリストである。パスリストやホワイトリストとも呼ばれる。これにより、セキュリティを強化し、不正なアクセスや悪意のある攻撃からシステムを守る役割がある。例えば、社内のネットワークに接続できるデバイスを管理者が事前に登録した場合、その登録されたデバイスだけがアクセスを許可される。この仕組みは、重要なデータやシステムを保護するために非常に効果的であり、特に企業のセキュリティ対策において重要な役割を果たす。許可リストを利用することで、未許可のデバイスやアプリケーションからの攻撃リスクを大幅に低減することが可能である。",
+          "vi": "Danh sách cho phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「許可リスト」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "許可リスト",
+          "reading": "きょかりすと",
+          "english": "Allow List",
+          "vi": "Danh sách cho phép",
+          "definitionJa": "特定のユーザーやデバイス、アプリケーションなど、ネットワークやシステムに対してアクセスを許可するためのリストである。",
+          "definitionVi": "Danh sách cho phép. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "allow-list"]
+    },
+    {
+      "id": "block-list",
+      "order": 46,
+      "titleJa": "拒否リスト",
+      "titleVi": "Danh sách chặn",
+      "importance": "high",
+      "summaryJa": "特定のユーザーやIPアドレス、ドメインなどを排除するためのリストである。",
+      "summaryVi": "Danh sách chặn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "拒否リストとは",
+          "vi": "Danh sách chặn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のユーザーやIPアドレス、ドメインなどを排除するためのリストである。ブロックリストとも呼ばれる。このリストに含まれる対象は、アクセスを遮断されたり、特定のサービスから除外されたりすることになる。例えば、悪意のある攻撃者やスパム送信者をブロックするために、ネットワーク管理者やセキュリティソフトウェアにより利用される。セキュリティ対策の一環として重要であり、許可リストと組み合わせて使用することも多い。これにより、信頼できる対象だけがアクセスを許可される仕組みを作ることができ、より安全な環境を構築することが可能である。",
+          "vi": "Danh sách chặn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「拒否リスト」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "拒否リスト",
+          "reading": "きょひりすと",
+          "english": "Block List",
+          "vi": "Danh sách chặn",
+          "definitionJa": "特定のユーザーやIPアドレス、ドメインなどを排除するためのリストである。",
+          "definitionVi": "Danh sách chặn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "block-list"]
+    },
+    {
+      "id": "false-negative",
+      "order": 47,
+      "titleJa": "フォールスネガティブ",
+      "titleVi": "Âm tính giả",
+      "importance": "high",
+      "summaryJa": "セキュリティの分野において、脅威や攻撃を見逃す誤判定のことを指す。",
+      "summaryVi": "Âm tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールスネガティブとは",
+          "vi": "Âm tính giả là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "セキュリティの分野において、脅威や攻撃を見逃す誤判定のことを指す。具体的には、ウイルス対策ソフトウェアや侵入検知システムが、実際には攻撃であるにもかかわらずそれを未検知として「安全」と判断してしまう場合を指す。たとえば、悪意のあるファイルがシステムに侵入しても、対策ソフトがそれを安全なファイルと認識することになる。このような誤判定は、システムやデータの安全性を脅かす可能性があり、企業や個人にとって深刻なリスクとなる。フォールスネガティブを減らすためには、定期的なソフトウェアのアップデートや、脅威情報の共有が重要な対策である。",
+          "vi": "Âm tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「フォールスネガティブ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールスネガティブ",
+          "reading": "",
+          "english": "False Negative",
+          "vi": "Âm tính giả",
+          "definitionJa": "セキュリティの分野において、脅威や攻撃を見逃す誤判定のことを指す。",
+          "definitionVi": "Âm tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "false-negative"]
+    },
+    {
+      "id": "false-positive",
+      "order": 48,
+      "titleJa": "フォールスポジティブ",
+      "titleVi": "Dương tính giả",
+      "importance": "high",
+      "summaryJa": "セキュリティ関連の処理において、実際には問題がないのに警告や誤検知が発生することを指す。",
+      "summaryVi": "Dương tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォールスポジティブとは",
+          "vi": "Dương tính giả là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "セキュリティ関連の処理において、実際には問題がないのに警告や誤検知が発生することを指す。たとえば、ウイルス対策ソフトが無害なファイルを誤ってウイルスと判断する場合がこれに該当する。この結果、ユーザーは不必要な警告を受けることになり、場合によっては信頼性が低下することもある。運用上の効率を損ない、エンジニアやユーザーにとって時間と労力を浪費させる原因となる。そのため、セキュリティ製品やサービスは、誤検知の確率を減少させるための工夫が求められる。",
+          "vi": "Dương tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「フォールスポジティブ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォールスポジティブ",
+          "reading": "",
+          "english": "False Positive",
+          "vi": "Dương tính giả",
+          "definitionJa": "セキュリティ関連の処理において、実際には問題がないのに警告や誤検知が発生することを指す。",
+          "definitionVi": "Dương tính giả. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "false-positive"]
+    },
+    {
+      "id": "ssl-tls-accelerator",
+      "order": 49,
+      "titleJa": "SSL/TLSアクセラレーター",
+      "titleVi": "Bộ tăng tốc SSL/TLS",
+      "importance": "medium",
+      "summaryJa": "データの暗号化と復号化を専門に行うハードウェアやソフトウェアの装置である。",
+      "summaryVi": "Bộ tăng tốc SSL/TLS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SSL/TLSアクセラレーターとは",
+          "vi": "Bộ tăng tốc SSL/TLS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの暗号化と復号化を専門に行うハードウェアやソフトウェアの装置である。これにより、Webサーバやアプリケーションサーバの負荷を軽減し、通信の安全性を向上させることができる。具体的には、インターネット上で情報を安全にやり取りするためのSSL（Secure Sockets Layer）やTLS（Transport Layer Security）プロトコルを用いた通信を高速化する役割を果たす。この技術により、特にトラフィックが多いサイトでもスムーズな表示が可能となり、ユーザー体験を向上させることができる。また、SSL/TLSアクセラレーターを活用することで、デジタル証明書の管理や更新が効率化され、安全性を確保したまま接続の品質を高めることが可能となる。",
+          "vi": "Bộ tăng tốc SSL/TLS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「SSL/TLSアクセラレーター」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SSL/TLSアクセラレーター",
+          "reading": "えすえすえる/てぃーえるえすあくせられーたー",
+          "english": "SSL/TLS Accelerator",
+          "vi": "Bộ tăng tốc SSL/TLS",
+          "definitionJa": "データの暗号化と復号化を専門に行うハードウェアやソフトウェアの装置である。",
+          "definitionVi": "Bộ tăng tốc SSL/TLS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "ssl-tls-accelerator"]
+    },
+    {
+      "id": "mdm",
+      "order": 50,
+      "titleJa": "MDM",
+      "titleVi": "Quản lý thiết bị di động",
+      "importance": "high",
+      "summaryJa": "企業や組織が従業員のモバイルデバイスを一元的に管理するためのシステムである。",
+      "summaryVi": "Quản lý thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MDMとは",
+          "vi": "Quản lý thiết bị di động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が従業員のモバイルデバイスを一元的に管理するためのシステムである。MDMを使用することで、スマートフォンやタブレットの設定やアプリのインストール、デバイスのセキュリティポリシーの適用を行うことができる。たとえば、企業が提供する携帯電話に対して、必要な業務アプリやVPN設定を自動で配布する一方、デバイスの紛失や盗難に備えてリモートワイプ機能を提供することで、データの漏洩防止に寄与する。また、MDMはデバイスの状態や利用状況を把握するための監視機能も持ち合わせており、組織全体のセキュリティを強化する役割を果たしている。これは、BYOD（Bring Your Own Device）環境においても重要で、安全に業務を支援するための不可欠なツールである。",
+          "vi": "Quản lý thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「MDM」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MDM",
+          "reading": "えむでぃーえむ",
+          "english": "Mobile Device Management",
+          "vi": "Quản lý thiết bị di động",
+          "definitionJa": "企業や組織が従業員のモバイルデバイスを一元的に管理するためのシステムである。",
+          "definitionVi": "Quản lý thiết bị di động. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "mdm"]
+    },
+    {
+      "id": "rasis",
+      "order": 51,
+      "titleJa": "RASIS",
+      "titleVi": "RASIS",
+      "importance": "medium",
+      "summaryJa": "情報システムやサービスの品質を評価するための重要な指標群である。",
+      "summaryVi": "RASIS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RASISとは",
+          "vi": "RASIS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやサービスの品質を評価するための重要な指標群である。信頼性（Reliability）、可用性（Availability）、保守性（Serviceability）、完全性（Integrity）、安全性（Security）を示す各要素で構成されている。信頼性は、システムが故障せずに機能し続ける能力を指す。可用性は、必要なときにサービスが使用可能であるかどうかを表す。保守性は、システムの点検や修理の容易さを示し、完全性はデータが正確で改ざんされていない状態を保持することを意味する。安全性は、情報の機密を守り、外部からの脅威に対する防御を示す。これらの指標は、セキュリティ製品やサービスの選定、運用、評価に欠かせない要素であり、高いRASISを持つシステムは、より安定したサービスを提供することができる。",
+          "vi": "RASIS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「RASIS」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RASIS",
+          "reading": "れいしす",
+          "english": "Reliability, Availability, Serviceability, Integrity, Security",
+          "vi": "RASIS",
+          "definitionJa": "情報システムやサービスの品質を評価するための重要な指標群である。",
+          "definitionVi": "RASIS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "rasis"]
+    },
+    {
+      "id": "seismic-and-fire-resistance-equipment",
+      "order": 52,
+      "titleJa": "耐震耐火設備",
+      "titleVi": "Thiết bị chống động đất và cháy",
+      "importance": "medium",
+      "summaryJa": "建物や施設が地震や火災に対して安全性を確保するために導入される装置やシステムのことを指す。",
+      "summaryVi": "Thiết bị chống động đất và cháy. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "耐震耐火設備とは",
+          "vi": "Thiết bị chống động đất và cháy là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "建物や施設が地震や火災に対して安全性を確保するために導入される装置やシステムのことを指す。これらの設備は、建物の構造を強化し、発生する可能性のある災害から人々の生命や財産を守る役割を果たす。たとえば、地震の揺れを吸収するための免震装置や、火災の際に煙を排出するための換気システムなどが含まれる。安全な環境を提供するために非常に重要であり、特に高層ビルや公共施設ではこれらの設備が法律で求められることもある。これにより、万が一の事態に備えて、より安全な社会を実現しようとする取り組みが行われている。",
+          "vi": "Thiết bị chống động đất và cháy. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「耐震耐火設備」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "耐震耐火設備",
+          "reading": "たいしんたいかせつび",
+          "english": "Seismic and Fire Resistance Equipment",
+          "vi": "Thiết bị chống động đất và cháy",
+          "definitionJa": "建物や施設が地震や火災に対して安全性を確保するために導入される装置やシステムのことを指す。",
+          "definitionVi": "Thiết bị chống động đất và cháy. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "seismic-and-fire-resistance-equipment"
+      ]
+    },
+    {
+      "id": "ups",
+      "order": 53,
+      "titleJa": "UPS",
+      "titleVi": "Bộ lưu điện UPS",
+      "importance": "high",
+      "summaryJa": "無停電電源装置のことである。",
+      "summaryVi": "Bộ lưu điện UPS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UPSとは",
+          "vi": "Bộ lưu điện UPS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "無停電電源装置のことである。主に電力供給の中断を防ぐために使用される装置であり、電力が故障した場合や停電時に一時的に電源を供給する役割を果たす。例えば、サーバや重要な電子機器が電力を失った際に、UPSが備えたバッテリーが自動的に作動し、数分から数時間の間、機器に電力を供給することで、データの損失やシステムのダウンを防ぐことができる。また、UPSは電力の急激な変動を抑制する機能も備えており、電圧の安定を図ることができるため、特にビジネス環境やデータセンターで重宝される。",
+          "vi": "Bộ lưu điện UPS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「UPS」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UPS",
+          "reading": "ゆーぴーえす",
+          "english": "Uninterruptible Power Supply",
+          "vi": "Bộ lưu điện UPS",
+          "definitionJa": "無停電電源装置のことである。",
+          "definitionVi": "Bộ lưu điện UPS. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "ups"]
+    },
+    {
+      "id": "multiplexing-technology",
+      "order": 54,
+      "titleJa": "多重化技術",
+      "titleVi": "Công nghệ ghép kênh",
+      "importance": "medium",
+      "summaryJa": "複数の信号やデータを一つの通信路を使って同時に送信する方法である。",
+      "summaryVi": "Công nghệ ghép kênh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "多重化技術とは",
+          "vi": "Công nghệ ghép kênh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の信号やデータを一つの通信路を使って同時に送信する方法である。この技術を用いることで、通信の効率が向上し、帯域幅を最大限に活用できる。例えば、音声通話とデータ通信を同時に行う際に、各信号を適切に分けて一つの回線で送ることができる。このように、通信インフラの最適化やコスト削減につながるため、企業のネットワークやセキュリティ製品においても利用される。複数の通信を効率的に管理することで、より多くのトラフィックを処理でき、セキュリティを保ちながら快適な通信環境を提供することが可能になる。",
+          "vi": "Công nghệ ghép kênh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「多重化技術」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "多重化技術",
+          "reading": "たじゅうかぎじゅつ",
+          "english": "Multiplexing Technology",
+          "vi": "Công nghệ ghép kênh",
+          "definitionJa": "複数の信号やデータを一つの通信路を使って同時に送信する方法である。",
+          "definitionVi": "Công nghệ ghép kênh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "multiplexing-technology"
+      ]
+    },
+    {
+      "id": "storage-mirroring",
+      "order": 55,
+      "titleJa": "ストレージのミラーリング",
+      "titleVi": "Phản chiếu lưu trữ",
+      "importance": "medium",
+      "summaryJa": "データの冗長性を確保するための技術である。",
+      "summaryVi": "Phản chiếu lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ストレージのミラーリングとは",
+          "vi": "Phản chiếu lưu trữ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの冗長性を確保するための技術である。ミラーリングは、同じデータを複数のストレージデバイスに同時に保存するプロセスを指す。この方式により、あるデバイスに障害が発生しても、他のデバイスに保存されているデータを利用することで、情報の損失を防ぐことが可能となる。例えば、企業が重要なデータを持つサーバを運用する際、ミラーリングを利用することで、データの可用性を高め、ビジネスの連続性を保証することができる。また、ミラーリングはバックアップ手法の一部としても機能し、データの安全性を確保する助けとなる。",
+          "vi": "Phản chiếu lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「ストレージのミラーリング」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ストレージのミラーリング",
+          "reading": "",
+          "english": "Storage Mirroring",
+          "vi": "Phản chiếu lưu trữ",
+          "definitionJa": "データの冗長性を確保するための技術である。",
+          "definitionVi": "Phản chiếu lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "storage-mirroring"]
+    },
+    {
+      "id": "surveillance-camera",
+      "order": 56,
+      "titleJa": "監視カメラ",
+      "titleVi": "Camera giám sát",
+      "importance": "medium",
+      "summaryJa": "特定の場所を見守るために設置されるカメラである。",
+      "summaryVi": "Camera giám sát. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監視カメラとは",
+          "vi": "Camera giám sát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の場所を見守るために設置されるカメラである。これにより、リアルタイムで映像を記録したり、監視したりすることが可能で、安全性を高める役割を果たす。例えば、商業施設や公共の場、家庭において、侵入者の確認や不審者の監視に利用されることが多い。映像データを保存するだけでなく、動体検知や顔認識といった機能を備えているものもあり、異常を即座に通知する仕組みを持つ製品も存在する。これにより、セキュリティの向上が図られ、人や物の安全を守るのに効果的である。",
+          "vi": "Camera giám sát. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「監視カメラ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監視カメラ",
+          "reading": "かんしかめら",
+          "english": "Surveillance Camera",
+          "vi": "Camera giám sát",
+          "definitionJa": "特定の場所を見守るために設置されるカメラである。",
+          "definitionVi": "Camera giám sát. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "surveillance-camera"]
+    },
+    {
+      "id": "security-gate",
+      "order": 57,
+      "titleJa": "セキュリティゲート",
+      "titleVi": "Cổng an ninh",
+      "importance": "medium",
+      "summaryJa": "施設や建物の出入口に設置される防犯装置である。",
+      "summaryVi": "Cổng an ninh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティゲートとは",
+          "vi": "Cổng an ninh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "施設や建物の出入口に設置される防犯装置である。この装置は、許可された人のみが通過できるように設計されており、不正侵入を防ぐ役割を果たす。例えば、ICカードをかざすことで開く自動ドアや、生体認証を利用して利用者を確認する機能があるセキュリティゲートがある。これにより、来訪者の管理が可能になり、不審者の侵入を防ぐことができる。さらに、監視カメラと連携されることも多く、より高い防犯効果を発揮することが期待されている。施設の安全性を向上させるために、様々な場所で導入されている。",
+          "vi": "Cổng an ninh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「セキュリティゲート」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティゲート",
+          "reading": "",
+          "english": "Security Gate",
+          "vi": "Cổng an ninh",
+          "definitionJa": "施設や建物の出入口に設置される防犯装置である。",
+          "definitionVi": "Cổng an ninh. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "security-gate"]
+    },
+    {
+      "id": "lock-management",
+      "order": 58,
+      "titleJa": "施錠管理",
+      "titleVi": "Quản lý khóa",
+      "importance": "medium",
+      "summaryJa": "物理的またはデジタルな空間においてアクセスを制御するための手法やシステムのことを指す。",
+      "summaryVi": "Quản lý khóa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "施錠管理とは",
+          "vi": "Quản lý khóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "物理的またはデジタルな空間においてアクセスを制御するための手法やシステムのことを指す。特定の場所や情報に対する不正アクセスを防ぐために、鍵や電子ロック、アクセス制御システムを用いる。例えば、オフィスの入り口に設置された電子ロックでは、特定のカードや暗証番号を使用してのみ入室を許可することができる。このような施策は、企業の財産やデータを保護するために非常に重要であり、特に重要な情報や機密文書が扱われる場所での導入が求められる。物理的セキュリティとデジタルセキュリティの両方に関連し、適切に実施することで、リスクを大幅に軽減することが可能である。",
+          "vi": "Quản lý khóa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「施錠管理」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "施錠管理",
+          "reading": "せじょうかんり",
+          "english": "Lock Management",
+          "vi": "Quản lý khóa",
+          "definitionJa": "物理的またはデジタルな空間においてアクセスを制御するための手法やシステムのことを指す。",
+          "definitionVi": "Quản lý khóa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "lock-management"]
+    },
+    {
+      "id": "access-control-management",
+      "order": 59,
+      "titleJa": "入退室管理",
+      "titleVi": "Quản lý ra vào",
+      "importance": "medium",
+      "summaryJa": "特定の場所への立ち入りや退出を監視し、制御するためのシステムである。",
+      "summaryVi": "Quản lý ra vào. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "入退室管理とは",
+          "vi": "Quản lý ra vào là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の場所への立ち入りや退出を監視し、制御するためのシステムである。この管理は、主に企業や施設において、セキュリティを強化する目的で導入される。たとえば、社員証やカードを用いて、許可された人物だけが特定のエリアに入れるようにすることで、不正アクセスを防止する。さらに、入退室の履歴を記録することで、後からの追跡や分析が可能となり、セキュリティ上のリスクを低減することに寄与する。また、顔認識技術や指紋認証といったバイオメトリクス技術を組み合わせることで、より厳密な管理が実現できる。これにより、企業の安全性が向上し、従業員や顧客にとっても安心できる環境が提供される。",
+          "vi": "Quản lý ra vào. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「入退室管理」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "入退室管理",
+          "reading": "にゅうたいしつかんり",
+          "english": "Access Control Management",
+          "vi": "Quản lý ra vào",
+          "definitionJa": "特定の場所への立ち入りや退出を監視し、制御するためのシステムである。",
+          "definitionVi": "Quản lý ra vào. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "access-control-management"
+      ]
+    },
+    {
+      "id": "clear-desk",
+      "order": 60,
+      "titleJa": "クリアデスク",
+      "titleVi": "Clear Desk",
+      "importance": "high",
+      "summaryJa": "オフィスや作業環境において、重要な情報や資料が外部から見える状態を避けるために、作業が終わった後にデスク上を整理し、不要なものを排除する手法である。",
+      "summaryVi": "Clear Desk. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クリアデスクとは",
+          "vi": "Clear Desk là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オフィスや作業環境において、重要な情報や資料が外部から見える状態を避けるために、作業が終わった後にデスク上を整理し、不要なものを排除する手法である。この取り組みは、情報漏洩や不正アクセスを防ぐ目的で行われ、機密情報を扱う企業や組織において特に重要視される。具体的には、パソコンの画面ロックや書類のシュレッダー処理、デスク上に個人情報や機密文書を置かないことなどが含まれる。クリアデスクを実践することで、職場のセキュリティが向上し、リスクを低減させることが可能となる。これにより、従業員が安心して業務に集中できる環境を整えることができる。",
+          "vi": "Clear Desk. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「クリアデスク」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クリアデスク",
+          "reading": "",
+          "english": "Clear Desk",
+          "vi": "Clear Desk",
+          "definitionJa": "オフィスや作業環境において、重要な情報や資料が外部から見える状態を避けるために、作業が終わった後にデスク上を整理し、不要なものを排除する手法である。",
+          "definitionVi": "Clear Desk. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "clear-desk"]
+    },
+    {
+      "id": "clear-screen",
+      "order": 61,
+      "titleJa": "クリアスクリーン",
+      "titleVi": "Clear Screen",
+      "importance": "high",
+      "summaryJa": "情報システムにおける物理的セキュリティ対策の一つであり、使用しないコンピュータや端末の画面をロックすることを指す。",
+      "summaryVi": "Clear Screen. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クリアスクリーンとは",
+          "vi": "Clear Screen là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムにおける物理的セキュリティ対策の一つであり、使用しないコンピュータや端末の画面をロックすることを指す。これは、他人が無断で情報を閲覧できないようにするための重要な手段である。離席時や業務終了時にパソコンを放置せず、必ず画面をロックしておくことによって、盗み見や不正操作を防ぐことができる。このように、クリアスクリーンは情報漏洩を防止するために欠かせない対策とされており、組織全体でのセキュリティ意識の向上にも寄与する。",
+          "vi": "Clear Screen. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「クリアスクリーン」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クリアスクリーン",
+          "reading": "",
+          "english": "Clear Screen",
+          "vi": "Clear Screen",
+          "definitionJa": "情報システムにおける物理的セキュリティ対策の一つであり、使用しないコンピュータや端末の画面をロックすることを指す。",
+          "definitionVi": "Clear Screen. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "clear-screen"]
+    },
+    {
+      "id": "remote-backup",
+      "order": 62,
+      "titleJa": "遠隔バックアップ",
+      "titleVi": "Sao lưu từ xa",
+      "importance": "medium",
+      "summaryJa": "データを別の場所に保存する手法の一つである。",
+      "summaryVi": "Sao lưu từ xa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "遠隔バックアップとは",
+          "vi": "Sao lưu từ xa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを別の場所に保存する手法の一つである。この手法では、ネットワークを介して自宅やオフィスのデータを遠く離れたサーバやクラウドサービスに自動的にコピーする。例えば、事務所で作成した文書や画像ファイルを、インターネットを通じて安全な遠隔地のサーバにバックアップすることで、万一のデータ損失から保護される。ハードウェアの故障や自然災害に対する備えとして非常に重要であり、データの安全性を向上させるために多くの企業や個人が利用している。さらに、リストアが簡単に行えるため、迅速なデータ復旧が可能となり、業務の継続性が保たれる。",
+          "vi": "Sao lưu từ xa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「遠隔バックアップ」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "遠隔バックアップ",
+          "reading": "えんかくばっくあっぷ",
+          "english": "Remote Backup",
+          "vi": "Sao lưu từ xa",
+          "definitionJa": "データを別の場所に保存する手法の一つである。",
+          "definitionVi": "Sao lưu từ xa. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "remote-backup"]
+    },
+    {
+      "id": "usb-key",
+      "order": 63,
+      "titleJa": "USBキー",
+      "titleVi": "Khóa USB",
+      "importance": "medium",
+      "summaryJa": "セキュリティを強化するためのデバイスの一つである。",
+      "summaryVi": "Khóa USB. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "USBキーとは",
+          "vi": "Khóa USB là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "セキュリティを強化するためのデバイスの一つである。物理的にコンピュータのUSBポートに接続することで認証を行うシステムで、特に重要なデータやシステムへのアクセスを制限する目的で使用される。例えば、特定のUSBキーを持つユーザーのみが機密情報にアクセスできるため、パスワードだけでは防ぎきれないリスクを軽減する効果がある。このデバイスは、オンラインバンキングや企業のネットワークアクセスなど、セキュリティが重視される場面で利用されることが多い。また、USBキーは持ち運びが容易で、使用する際にはソフトウェアとの連携が必要な場合もあるため、安全で便利な方法といえる。",
+          "vi": "Khóa USB. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「USBキー」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "USBキー",
+          "reading": "ゆーえすびーきー",
+          "english": "USB Key",
+          "vi": "Khóa USB",
+          "definitionJa": "セキュリティを強化するためのデバイスの一つである。",
+          "definitionVi": "Khóa USB. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "usb-key"]
+    },
+    {
+      "id": "security-cable",
+      "order": 64,
+      "titleJa": "セキュリティケーブル",
+      "titleVi": "Cáp chống trộm",
+      "importance": "medium",
+      "summaryJa": "主にコンピュータや周辺機器を盗難から防ぐための製品である。",
+      "summaryVi": "Cáp chống trộm. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティケーブルとは",
+          "vi": "Cáp chống trộm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にコンピュータや周辺機器を盗難から防ぐための製品である。これらのケーブルは、特別なロック機構を持っており、機器を固定することで持ち去りを難しくする。たとえば、ノートパソコンに取り付けられたデスクや椅子などの固定物に繋ぐことができ、簡単に外れることはない。オフィスや学校などの公共の場で特に役立つため、業務用機器や個人の機器を安全に保つ手段として広く利用されている。また、これにより不正アクセスやデータ盗難も一定程度防ぐことができる。さまざまな形状や長さで提供されており、用途に応じて選択することができる。",
+          "vi": "Cáp chống trộm. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「セキュリティケーブル」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティケーブル",
+          "reading": "",
+          "english": "Security Cable",
+          "vi": "Cáp chống trộm",
+          "definitionJa": "主にコンピュータや周辺機器を盗難から防ぐための製品である。",
+          "definitionVi": "Cáp chống trộm. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": ["information-security-countermeasures", "security-cable"]
+    },
+    {
+      "id": "memory-media-management",
+      "order": 65,
+      "titleJa": "記憶媒体の管理",
+      "titleVi": "Quản lý phương tiện lưu trữ",
+      "importance": "medium",
+      "summaryJa": "データを保存するための物理的な装置やメディアを効果的に管理するプロセスである。",
+      "summaryVi": "Quản lý phương tiện lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "記憶媒体の管理とは",
+          "vi": "Quản lý phương tiện lưu trữ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを保存するための物理的な装置やメディアを効果的に管理するプロセスである。具体的には、ハードディスク、SSD、USBメモリなど多様な記憶媒体に対して、アクセス制御やデータの暗号化、バックアップといったセキュリティ対策が含まれる。例えば、重要なデータが格納されたUSBメモリに対し、暗号化を施すことで、不正アクセスを防ぐことができる。データの安全性を確保し、情報漏洩やウイルス感染などのリスクを低減するために必要不可欠なものであり、組織の情報セキュリティ戦略の重要な要素となる。",
+          "vi": "Quản lý phương tiện lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「記憶媒体の管理」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "記憶媒体の管理",
+          "reading": "きおくばいたいのかんり",
+          "english": "Memory Media Management",
+          "vi": "Quản lý phương tiện lưu trữ",
+          "definitionJa": "データを保存するための物理的な装置やメディアを効果的に管理するプロセスである。",
+          "definitionVi": "Quản lý phương tiện lưu trữ. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "memory-media-management"
+      ]
+    },
+    {
+      "id": "security-disposal-or-reuse-of-devices",
+      "order": 66,
+      "titleJa": "装置のセキュリティを保った処分又は再利用",
+      "titleVi": "Xử lý hoặc tái sử dụng thiết bị an toàn",
+      "importance": "medium",
+      "summaryJa": "不要になった電子機器やデータを安全に取り扱う方法を指す。",
+      "summaryVi": "Xử lý hoặc tái sử dụng thiết bị an toàn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "装置のセキュリティを保った処分又は再利用とは",
+          "vi": "Xử lý hoặc tái sử dụng thiết bị an toàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "不要になった電子機器やデータを安全に取り扱う方法を指す。このプロセスは、機器に保存されている機密情報を守るために非常に重要である。たとえば、企業が古いパソコンを処分する際には、ハードディスクのデータを完全に削除するか、物理的に破壊する必要がある。また、再利用する場合も、データが漏洩しないように適切なセキュリティ対策を講じることが求められる。このように、装置を適切に廃棄または再利用することで、情報漏洩のリスクを最小限に抑えることができ、組織のセキュリティを高く保つことが可能である。",
+          "vi": "Xử lý hoặc tái sử dụng thiết bị an toàn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        },
+        {
+          "type": "point",
+          "ja": "試験では「装置のセキュリティを保った処分又は再利用」の目的・役割と、関連する対策との違いを押さえる。",
+          "vi": "Khi ôn FE, cần nhớ mục đích, vai trò và điểm khác với các biện pháp liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "装置のセキュリティを保った処分又は再利用",
+          "reading": "そうちのせきゅりてぃをたもったしょぶんまたはさいりよう",
+          "english": "Security Disposal or Reuse of Devices",
+          "vi": "Xử lý hoặc tái sử dụng thiết bị an toàn",
+          "definitionJa": "不要になった電子機器やデータを安全に取り扱う方法を指す。",
+          "definitionVi": "Xử lý hoặc tái sử dụng thiết bị an toàn. Nội dung này thuộc nhóm biện pháp an toàn thông tin trong syllabus 9.2."
+        }
+      ],
+      "tags": [
+        "information-security-countermeasures",
+        "security-disposal-or-reuse-of-devices"
+      ]
+    }
+  ]
+}
