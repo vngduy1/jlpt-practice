@@ -4,5 +4,1535 @@
   "titleJa": "プロジェクトマネジメント",
   "titleVi": "Quản lý dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "project",
+      "order": 1,
+      "titleJa": "プロジェクト",
+      "titleVi": "Dự án",
+      "importance": "high",
+      "summaryJa": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。",
+      "summaryVi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。一時的なものであり、完了すると通常は終了する。たとえば、新製品の開発やイベントの企画などがプロジェクトの例である。プロジェクトマネジメントは、これらのプロジェクトを計画、実行、監視、制御する手法や知識の体系であり、目標達成のために必要なスケジュール管理やリソース配分を行う。効果的なプロジェクトマネジメントにより、課題解決やリスク管理が適切に行われ、チームの協力を最大化することができる。これにより、質の高い成果物をタイムリーに提供することが可能となる。",
+          "vi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト",
+          "reading": "",
+          "english": "Project",
+          "vi": "Dự án",
+          "definitionJa": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。",
+          "definitionVi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project"]
+    },
+    {
+      "id": "project-management",
+      "order": 2,
+      "titleJa": "プロジェクトマネジメント",
+      "titleVi": "Quản lý dự án",
+      "importance": "high",
+      "summaryJa": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。",
+      "summaryVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。プロジェクトは、一時的な活動であり、明確な開始と終了が存在し、特定の成果物を生み出すことを目指す。プロジェクトマネジメントでは、リソースの管理やスケジュールの調整、リスクの評価が重要であり、これにより効率的にプロジェクトを進行させることが可能となる。例えば、ソフトウェア開発や建設プロジェクトなど、さまざまな分野で応用されており、成功するプロジェクトを実現するために必須のスキルが求められる。このように、プロジェクトマネジメントは限られた時間と資源を最適に活用し、プロジェクトの成功を確保する役割を果たしている。",
+          "vi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトマネジメント」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトマネジメント",
+          "reading": "",
+          "english": "Project Management",
+          "vi": "Quản lý dự án",
+          "definitionJa": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。",
+          "definitionVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Management"]
+    },
+    {
+      "id": "project-environment",
+      "order": 3,
+      "titleJa": "プロジェクトの環境",
+      "titleVi": "Môi trường dự án",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトを実施する際に影響を与える要因や条件を指す。",
+      "summaryVi": "Môi trường dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを実施する際に影響を与える要因や条件を指す。これには、プロジェクトの目的、関与するメンバー、資源、時間、コスト、そして外部の経済的・政治的な状況などが含まれる。たとえば、新製品の開発プロジェクトでは、市場のニーズや技術の進歩、競争状況が環境に影響を与える重要な要素となる。プロジェクトマネジメントにおいては、これらの環境要因を適切に分析し、リスクを管理することが成功の鍵となるため、事前にしっかりと理解することが求められる。",
+          "vi": "Môi trường dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトの環境」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Môi trường dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトの環境",
+          "reading": "ぷろじぇくとのかんきょう",
+          "english": "Project Environment",
+          "vi": "Môi trường dự án",
+          "definitionJa": "特定のプロジェクトを実施する際に影響を与える要因や条件を指す。",
+          "definitionVi": "Môi trường dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Environment"]
+    },
+    {
+      "id": "project-life-cycle",
+      "order": 4,
+      "titleJa": "プロジェクトライフサイクル",
+      "titleVi": "Vòng đời dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトが開始されてから終了するまでの一連の過程を指す。",
+      "summaryVi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトが開始されてから終了するまでの一連の過程を指す。一般的に、計画、実行、監視、完了の4つの主要なフェーズから成り立っている。初めに、プロジェクトの目標や範囲を定義し、必要なリソースを計画する。次に、その計画に基づいて実行し、進捗状況を監視することで問題を早期に発見し修正する。そして、プロジェクトの成果を確認し、正式に完了させる。このライフサイクルによって、プロジェクトの進行状況が把握しやすくなり、より効率的なマネジメントが可能となる。プロジェクトマネジメントの手法を活用することで、成功する可能性がさらに高まる。",
+          "vi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトライフサイクル」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Vòng đời dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトライフサイクル",
+          "reading": "",
+          "english": "Project Life Cycle",
+          "vi": "Vòng đời dự án",
+          "definitionJa": "プロジェクトが開始されてから終了するまでの一連の過程を指す。",
+          "definitionVi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Life Cycle"]
+    },
+    {
+      "id": "project-constraints",
+      "order": 5,
+      "titleJa": "プロジェクトの制約",
+      "titleVi": "Các ràng buộc của dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトを遂行する上での制限や条件のことを指す。",
+      "summaryVi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを遂行する上での制限や条件のことを指す。一般的に、コスト、時間、品質の3つの要素が主要な制約とされており、これを「プロジェクトの三角形」と呼ぶこともある。例えば、納期が厳しい場合は、コストを増やすことで質を維持することが求められることもある。このように、これらの制約は互いに影響し合い、一つを変更すると他の要素にもその影響が及ぶため、プロジェクトマネジメントではこれらをバランスよく管理することが重要である。成功するプロジェクトを実現するためには、これらの制約を理解し、適切に対処することが求められる。",
+          "vi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトの制約」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Các ràng buộc của dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトの制約",
+          "reading": "ぷろじぇくとのせいやく",
+          "english": "Project Constraints",
+          "vi": "Các ràng buộc của dự án",
+          "definitionJa": "プロジェクトを遂行する上での制限や条件のことを指す。",
+          "definitionVi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Constraints"]
+    },
+    {
+      "id": "tailoring",
+      "order": 6,
+      "titleJa": "テーラリング",
+      "titleVi": "Tailoring",
+      "importance": "high",
+      "summaryJa": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。",
+      "summaryVi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。具体的には、特定のプロジェクトに最適な方法を選び出し、適切な手続きをカスタマイズすることで、効率的かつ効果的にプロジェクトを進めることが可能となる。たとえば、スモールビジネスのプロジェクトでは、大規模なプロジェクトに必要な複雑な手法を省略して簡略化したアプローチを取ることが多い。このように、テーラリングを行うことにより、プロジェクトが持つ独自の要件に応じた柔軟なマネジメントが実現され、リソースの無駄を減らし、成功する確率を高めることができる。",
+          "vi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「テーラリング」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tailoring và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テーラリング",
+          "reading": "",
+          "english": "Tailoring",
+          "vi": "Tailoring",
+          "definitionJa": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。",
+          "definitionVi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Tailoring"]
+    },
+    {
+      "id": "jis-q-21500",
+      "order": 7,
+      "titleJa": "JIS Q 21500",
+      "titleVi": "JIS Q 21500",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントに関する日本の規格である。",
+      "summaryVi": "JIS Q 21500: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントに関する日本の規格である。この規格は、プロジェクトを計画、実施、管理するためのフレームワークやガイドラインを提供することを目的としている。具体的には、プロジェクトの立ち上げから完了までの各ステップにおける役割や活動、必要な文書などを明確にすることで、効率的な運営を支援する。たとえば、プロジェクトのスコープ管理やリスク管理、品質管理などの重要なプロセスが含まれており、これに準拠することで、さまざまなプロジェクトの成功率を高めることができる。JIS Q 21500は国際的な標準であるISO 21500にも基づいているため、グローバルなプロジェクト管理の実践にも役立つ。",
+          "vi": "JIS Q 21500: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「JIS Q 21500」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của JIS Q 21500 và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 21500",
+          "reading": "じすきゅー21500",
+          "english": "JIS Q 21500",
+          "vi": "JIS Q 21500",
+          "definitionJa": "プロジェクトマネジメントに関する日本の規格である。",
+          "definitionVi": "JIS Q 21500: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "JIS Q 21500"]
+    },
+    {
+      "id": "project-management-body-of-knowledge",
+      "order": 8,
+      "titleJa": "PMBOK",
+      "titleVi": "PMBOK",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントのための知識体系のことである。",
+      "summaryVi": "PMBOK: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントのための知識体系のことである。これは、プロジェクトを効果的に管理し、成功へと導くために必要なプロセスや手法、知識を体系化したもので、多くの企業や組織がプロジェクトを運営する際の標準となっている。具体的には、プロジェクトの立ち上げから計画、実行、監視、終了までの各段階で必要な知識領域やプロセスが示されており、プロジェクトマネージャーがこれを参考にしながら計画を策定することで、資源を効率的に利用し、リスクを管理することが可能となる。PMBOKは国際的にも広く認知されており、プロジェクトマネジメントの専門家が資格を取得する際にも重要な基準となっている。",
+          "vi": "PMBOK: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「PMBOK」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của PMBOK và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PMBOK",
+          "reading": "ぴんぼっく",
+          "english": "Project Management Body of Knowledge",
+          "vi": "PMBOK",
+          "definitionJa": "プロジェクトマネジメントのための知識体系のことである。",
+          "definitionVi": "PMBOK: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": [
+        "14-1",
+        "プロジェクトマネジメント",
+        "Project Management Body of Knowledge"
+      ]
+    },
+    {
+      "id": "competency",
+      "order": 9,
+      "titleJa": "コンピテンシー",
+      "titleVi": "Năng lực (Competency)",
+      "importance": "medium",
+      "summaryJa": "特定の業務や職務を効果的に遂行するために必要な知識、スキル、および態度を指す。",
+      "summaryVi": "Năng lực (Competency): thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業務や職務を効果的に遂行するために必要な知識、スキル、および態度を指す。これは、主にプロジェクトマネジメントの分野において重要な概念であり、プロジェクトチームが成功するための能力を構成する要素である。具体的には、計画立案やリスク管理、メンバー間のコミュニケーション能力などが含まれる。プロジェクトにおいて求められるコンピテンシーを明確にすることで、適切な人材の選定や育成が可能となり、プロジェクトの進行が円滑に進むことにつながる。また、コンピテンシーを基にした評価制度を導入することで、個人やチームのパフォーマンス向上を目指すことができる。これは、組織全体の効率性や成果を向上させるための重要な戦略となる。",
+          "vi": "Năng lực (Competency): thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コンピテンシー」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Năng lực (Competency) và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンピテンシー",
+          "reading": "",
+          "english": "Competency",
+          "vi": "Năng lực (Competency)",
+          "definitionJa": "特定の業務や職務を効果的に遂行するために必要な知識、スキル、および態度を指す。",
+          "definitionVi": "Năng lực (Competency): thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Competency"]
+    },
+    {
+      "id": "initiating-process-group",
+      "order": 10,
+      "titleJa": "立ち上げのプロセス群",
+      "titleVi": "Nhóm quy trình khởi động",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。",
+      "summaryVi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。このプロセス群は、プロジェクトの目的や範囲を明確にし、ステークホルダーの特定やプロジェクト憲章の作成を含む。例えば、新しい製品の開発を始める際に、どのようなニーズがあるのか、誰がその利益を享受するのかを判断することが重要である。この段階でのしっかりとした計画が、その後のプロジェクトの進行に大きく影響を与えるため、非常に重要とされている。立ち上げのプロセス群が適切に実行されることで、プロジェクト全体の成功率が高まる。",
+          "vi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「立ち上げのプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình khởi động và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "立ち上げのプロセス群",
+          "reading": "たちあげのぷろせすぐん",
+          "english": "Initiating Process Group",
+          "vi": "Nhóm quy trình khởi động",
+          "definitionJa": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。",
+          "definitionVi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Initiating Process Group"]
+    },
+    {
+      "id": "planning-process-group",
+      "order": 11,
+      "titleJa": "計画のプロセス群",
+      "titleVi": "Nhóm quy trình lập kế hoạch",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。",
+      "summaryVi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。このプロセス群は、プロジェクトの目標を設定し、必要なリソースや期間、コスト、リスクなどを評価することで、成功に向けた道筋を描く役割を果たす。具体的には、スコープの定義やスケジュール作成、予算の計画、リスク管理計画などが含まれる。これにより、プロジェクトチームが効果的に仕事を進められるようになり、成果物の品質を確保するための基盤が築かれる。プロジェクトが進行する過程においても重要であり、必要に応じて計画の見直しや変更が行われることが求められる。",
+          "vi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「計画のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình lập kế hoạch và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "計画のプロセス群",
+          "reading": "けいかくのぷろせすぐん",
+          "english": "Planning Process Group",
+          "vi": "Nhóm quy trình lập kế hoạch",
+          "definitionJa": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。",
+          "definitionVi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Planning Process Group"]
+    },
+    {
+      "id": "execution-process-group",
+      "order": 12,
+      "titleJa": "実行のプロセス群",
+      "titleVi": "Nhóm quy trình thực thi",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントにおける五つのプロセス群の一つである。",
+      "summaryVi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおける五つのプロセス群の一つである。このプロセス群は、プロジェクトの計画や準備段階で設定した目標を達成するために実際の活動を行うことに集中している。プロジェクトチームは、タスクを遂行し、成果物を生み出すことを目的としており、資源の管理や進捗の確認も重要な役割を果たす。例えば、システムの開発プロジェクトでは、コーディングやテストを実行し、完成品を市場に出すまでのプロセスが含まれる。また、プロジェクトの進行状況を評価し、必要に応じて計画の修正を行うフィードバックの役割も担っている。",
+          "vi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「実行のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình thực thi và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実行のプロセス群",
+          "reading": "じっこうのぷろせすぐん",
+          "english": "Execution Process Group",
+          "vi": "Nhóm quy trình thực thi",
+          "definitionJa": "プロジェクトマネジメントにおける五つのプロセス群の一つである。",
+          "definitionVi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Execution Process Group"]
+    },
+    {
+      "id": "project-management-process-groups",
+      "order": 13,
+      "titleJa": "管理のプロセス群",
+      "titleVi": "Các nhóm quy trình quản lý dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントにおいて実施される基本的なプロセスの集合を指す。",
+      "summaryVi": "Các nhóm quy trình quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて実施される基本的なプロセスの集合を指す。主に「立ち上げ」「計画」「実行」「監視・コントロール」「終結」の五つのプロセス群から構成されている。これらは、プロジェクトを効果的に推進するためのフレームワークとして機能し、各プロセスは相互に関連している。例えば、立ち上げフェーズではプロジェクトの目的を定義し、その後の計画フェーズで具体的な活動を計画する。実行フェーズでは計画に基づいて作業を進め、監視・コントロールフェーズで進捗をチェックし、必要に応じて調整を行う。最後に、終結フェーズでプロジェクトの成果を整理し、完了させる。これにより、プロジェクトの成功を確実にすることができる。",
+          "vi": "Các nhóm quy trình quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「管理のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Các nhóm quy trình quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "管理のプロセス群",
+          "reading": "かんりのぷろせすぐん",
+          "english": "Project Management Process Groups",
+          "vi": "Các nhóm quy trình quản lý dự án",
+          "definitionJa": "プロジェクトマネジメントにおいて実施される基本的なプロセスの集合を指す。",
+          "definitionVi": "Các nhóm quy trình quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": [
+        "14-1",
+        "プロジェクトマネジメント",
+        "Project Management Process Groups"
+      ]
+    },
+    {
+      "id": "closing-process-group",
+      "order": 14,
+      "titleJa": "終結のプロセス群",
+      "titleVi": "Nhóm quy trình kết thúc",
+      "importance": "high",
+      "summaryJa": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。",
+      "summaryVi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。このプロセス群は、プロジェクトの成果が期待通りであるかを確認し、関係者に報告を行い、必要な文書を整理することが重要である。具体的には、プロジェクトの閉鎖作業、契約の完了、最終報告書の作成などが含まれ、これによりプロジェクトが円滑に終了する。経験の蓄積や教訓の整理にも寄与し、今後のプロジェクトに活かすための貴重な資料となる。",
+          "vi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「終結のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình kết thúc và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "終結のプロセス群",
+          "reading": "しゅうけつのぷろせすぐん",
+          "english": "Closing Process Group",
+          "vi": "Nhóm quy trình kết thúc",
+          "definitionJa": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。",
+          "definitionVi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Closing Process Group"]
+    },
+    {
+      "id": "integration-management",
+      "order": 15,
+      "titleJa": "統合の対象群",
+      "titleVi": "Nhóm đối tượng tích hợp",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおける十の対象群の一つで、プロジェクト全体の調整や管理を行うことを指す。",
+      "summaryVi": "Nhóm đối tượng tích hợp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおける十の対象群の一つで、プロジェクト全体の調整や管理を行うことを指す。この対象群は、プロジェクトの異なる要素を一つにまとめる役割を持ち、計画、実行、監視、制御を通じて、プロジェクトの目標達成を支援する。具体的には、各チーム間のコミュニケーションを促進し、リソースやスケジュールを効率的に管理することが求められる。また、変更が発生した場合にも、統合の対象群はその影響を評価し、適切な調整を行うことでプロジェクトの成功に寄与する。それにより、全体としての整合性を確保し、成果物の質を高めることができる。",
+          "vi": "Nhóm đối tượng tích hợp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「統合の対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng tích hợp và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "統合の対象群",
+          "reading": "とうごうのたいしょうぐん",
+          "english": "Integration Management",
+          "vi": "Nhóm đối tượng tích hợp",
+          "definitionJa": "プロジェクトマネジメントにおける十の対象群の一つで、プロジェクト全体の調整や管理を行うことを指す。",
+          "definitionVi": "Nhóm đối tượng tích hợp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Integration Management"]
+    },
+    {
+      "id": "stakeholder-group",
+      "order": 16,
+      "titleJa": "ステークホルダの対象群",
+      "titleVi": "Nhóm đối tượng các bên liên quan",
+      "importance": "medium",
+      "summaryJa": "プロジェクトに対して影響を与える、または影響を受ける人々や組織の集まりを指す。",
+      "summaryVi": "Nhóm đối tượng các bên liên quan: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトに対して影響を与える、または影響を受ける人々や組織の集まりを指す。この対象群には、プロジェクトのスポンサー、チームメンバー、顧客、供給者、関連する利害関係者などが含まれる。彼らはプロジェクトの進行や成果に対して異なる期待やニーズを持ち、それぞれの意見や要望を十分に把握することがプロジェクト成功の鍵となる。たとえば、開発プロジェクトにおいて顧客の声を反映することは、製品の品質向上につながり、プロジェクトの目標達成に寄与する。したがって、ステークホルダの適切な管理とコミュニケーションは、成功的なプロジェクト推進に不可欠である。",
+          "vi": "Nhóm đối tượng các bên liên quan: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステークホルダの対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng các bên liên quan và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダの対象群",
+          "reading": "すてーくほるだのたいしょうぐん",
+          "english": "Stakeholder Group",
+          "vi": "Nhóm đối tượng các bên liên quan",
+          "definitionJa": "プロジェクトに対して影響を与える、または影響を受ける人々や組織の集まりを指す。",
+          "definitionVi": "Nhóm đối tượng các bên liên quan: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Stakeholder Group"]
+    },
+    {
+      "id": "scope-of-project-management-knowledge-areas",
+      "order": 17,
+      "titleJa": "スコープの対象群",
+      "titleVi": "Nhóm đối tượng phạm vi",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおいて、プロジェクトの範囲を定義し、管理するための重要な要素である。",
+      "summaryVi": "Nhóm đối tượng phạm vi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて、プロジェクトの範囲を定義し、管理するための重要な要素である。具体的には、プロジェクトが達成すべき目標や成果物、及びそれに関連する作業を明確にする役割を果たす。スコープ管理は、プロジェクトの成功に直結しており、過剰な作業を防ぎ、予定通りに進行させるために必須である。例えば、ソフトウェア開発プロジェクトでは、どの機能を実装するか、どの仕様を満たすかを厳密に決定することで、プロジェクトの方向性が決まり、リソースの最適化が図られる。プロジェクトの計画や進行の基盤となる概念であり、しっかりとした範囲設定が必要不可欠である。",
+          "vi": "Nhóm đối tượng phạm vi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スコープの対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng phạm vi và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スコープの対象群",
+          "reading": "すこーぷのたいしょうぐん",
+          "english": "Scope of Project Management Knowledge Areas",
+          "vi": "Nhóm đối tượng phạm vi",
+          "definitionJa": "プロジェクトマネジメントにおいて、プロジェクトの範囲を定義し、管理するための重要な要素である。",
+          "definitionVi": "Nhóm đối tượng phạm vi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": [
+        "14-1",
+        "プロジェクトマネジメント",
+        "Scope of Project Management Knowledge Areas"
+      ]
+    },
+    {
+      "id": "resource-categories",
+      "order": 18,
+      "titleJa": "資源の対象群",
+      "titleVi": "Nhóm đối tượng nguồn lực",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおいて管理や配分が必要なリソースのグループを指す。",
+      "summaryVi": "Nhóm đối tượng nguồn lực: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて管理や配分が必要なリソースのグループを指す。具体的には、人材、設備、資金、情報、時間などが含まれ、プロジェクトの成功に不可欠である。これらの資源は、プロジェクトの計画や実行段階で効果的に活用される必要があり、それぞれのリソースに対する適切な管理が求められる。例えば、適切な人材を選定し、必要な設備を整えることは、プロジェクトの成果を左右する重要な要素である。また、資源の対象群を整理することで、全体像を把握しやすくなり、効率的なプロジェクト運営に役立つ。",
+          "vi": "Nhóm đối tượng nguồn lực: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「資源の対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng nguồn lực và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資源の対象群",
+          "reading": "しげんのたいしょうぐん",
+          "english": "Resource Categories",
+          "vi": "Nhóm đối tượng nguồn lực",
+          "definitionJa": "プロジェクトマネジメントにおいて管理や配分が必要なリソースのグループを指す。",
+          "definitionVi": "Nhóm đối tượng nguồn lực: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Resource Categories"]
+    },
+    {
+      "id": "time-management-group",
+      "order": 19,
+      "titleJa": "時間の対象群",
+      "titleVi": "Nhóm đối tượng thời gian",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおける重要な要素の一つである。",
+      "summaryVi": "Nhóm đối tượng thời gian: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおける重要な要素の一つである。この対象群は、プロジェクトの開始から完了までに必要とされる時間を合理的に管理するための手法やプロセスを含む。具体的には、作業のスケジュールを作成し、タスクの優先順位を決め、期限を設定することが求められる。これにより、プロジェクト全体の進捗を可視化し、リソースの最適化を図ることができる。時間管理は、遅延を防ぎ、プロジェクトを予定通りに進める上で必要不可欠であり、成果物の質を向上させる効果もある。",
+          "vi": "Nhóm đối tượng thời gian: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「時間の対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng thời gian và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "時間の対象群",
+          "reading": "じかんのたいしょうぐん",
+          "english": "Time Management Group",
+          "vi": "Nhóm đối tượng thời gian",
+          "definitionJa": "プロジェクトマネジメントにおける重要な要素の一つである。",
+          "definitionVi": "Nhóm đối tượng thời gian: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Time Management Group"]
+    },
+    {
+      "id": "cost-target-group",
+      "order": 20,
+      "titleJa": "コストの対象群",
+      "titleVi": "Nhóm đối tượng chi phí",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおける重要な概念の一つである。",
+      "summaryVi": "Nhóm đối tượng chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおける重要な概念の一つである。この群は、プロジェクトに関連するすべてのコストを特定し、その影響を評価する対象として設定される。具体的には、人的資源、設備、材料、外注費など、プロジェクトの実施に必要なすべての経費が含まれる。このようにして、プロジェクトの予算を詳細に分析し、コスト管理を行うことが可能になるため、効率的に資源を利用し、目標を達成する上で非常に重要な役割を果たす。コストの対象群を正確に把握することで、プロジェクト全体の財務的健全性を保ち、成功に導く基盤となる。",
+          "vi": "Nhóm đối tượng chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コストの対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng chi phí và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コストの対象群",
+          "reading": "こすとのたいしょうぐん",
+          "english": "Cost Target Group",
+          "vi": "Nhóm đối tượng chi phí",
+          "definitionJa": "プロジェクトマネジメントにおける重要な概念の一つである。",
+          "definitionVi": "Nhóm đối tượng chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Cost Target Group"]
+    },
+    {
+      "id": "risk-categories",
+      "order": 21,
+      "titleJa": "リスクの対象群",
+      "titleVi": "Nhóm đối tượng rủi ro",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおけるリスクを分類するための枠組みである。",
+      "summaryVi": "Nhóm đối tượng rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおけるリスクを分類するための枠組みである。これは、プロジェクトにおいて潜在するさまざまなリスクを特定し、管理するために利用される。一般的には、外部環境、技術、資源、コスト、スケジュール、品質、人員などの分類が含まれ、それぞれの領域において特有のリスクが存在することを示す。たとえば、技術的なリスクは技術選定や新しい技術の導入に関連し、コストリスクは予算超過の可能性を含む。このようにリスクの対象群を明らかにすることで、プロジェクトチームは効果的にリスクを分析し、対策を講じることが可能となる。",
+          "vi": "Nhóm đối tượng rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng rủi ro và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの対象群",
+          "reading": "りすくのたいしょうぐん",
+          "english": "Risk Categories",
+          "vi": "Nhóm đối tượng rủi ro",
+          "definitionJa": "プロジェクトマネジメントにおけるリスクを分類するための枠組みである。",
+          "definitionVi": "Nhóm đối tượng rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Risk Categories"]
+    },
+    {
+      "id": "quality-criteria",
+      "order": 22,
+      "titleJa": "品質の対象群",
+      "titleVi": "Nhóm đối tượng chất lượng",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおいて、製品やサービスの品質を評価するための基準や要素のことを指す。",
+      "summaryVi": "Nhóm đối tượng chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて、製品やサービスの品質を評価するための基準や要素のことを指す。この対象群は、顧客の要求や期待に応えるために必要な特性や条件を特定し、プロジェクトの成果物がその基準を満たすかどうかを判断するために使用される。たとえば、製品の性能や耐久性、使用の安全性などが含まれ、これらの要素を具体的に定義することで、プロジェクトの成功に寄与する。品質の対象群をしっかりと設定することは、プロジェクト全体の管理や改善にとって非常に重要であり、顧客満足度を高めるための基本とされている。",
+          "vi": "Nhóm đối tượng chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質の対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng chất lượng và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質の対象群",
+          "reading": "ひんしつのたいしょうぐん",
+          "english": "Quality Criteria",
+          "vi": "Nhóm đối tượng chất lượng",
+          "definitionJa": "プロジェクトマネジメントにおいて、製品やサービスの品質を評価するための基準や要素のことを指す。",
+          "definitionVi": "Nhóm đối tượng chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Quality Criteria"]
+    },
+    {
+      "id": "procurement-target-group",
+      "order": 23,
+      "titleJa": "調達の対象群",
+      "titleVi": "Nhóm đối tượng mua sắm",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおいて、必要な資源やサービスを取得するために選定される具体的なアイテムやカテゴリーのことを指す。",
+      "summaryVi": "Nhóm đối tượng mua sắm: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて、必要な資源やサービスを取得するために選定される具体的なアイテムやカテゴリーのことを指す。この対象群には、物品やサービス、労働力などが含まれ、プロジェクトの目的を達成するために不可欠である。例えば、ソフトウェア開発のプロジェクトでは、必要な開発ツールやプログラマーなどが調達の対象群となる。また、調達戦略を立てる際には、この対象群を明確に定義することが重要であり、予算の管理やリスクの低減にも寄与する。適切な調達を行うことで、プロジェクトは円滑に進行し、目標の達成が可能となる。",
+          "vi": "Nhóm đối tượng mua sắm: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「調達の対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng mua sắm và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "調達の対象群",
+          "reading": "ちょうたつのたいしょうぐん",
+          "english": "Procurement Target Group",
+          "vi": "Nhóm đối tượng mua sắm",
+          "definitionJa": "プロジェクトマネジメントにおいて、必要な資源やサービスを取得するために選定される具体的なアイテムやカテゴリーのことを指す。",
+          "definitionVi": "Nhóm đối tượng mua sắm: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Procurement Target Group"]
+    },
+    {
+      "id": "communication-target-group",
+      "order": 24,
+      "titleJa": "コミュニケーションの対象群",
+      "titleVi": "Nhóm đối tượng truyền thông",
+      "importance": "medium",
+      "summaryJa": "プロジェクトマネジメントにおいて、プロジェクトの関与者や利害関係者のことを指す。",
+      "summaryVi": "Nhóm đối tượng truyền thông: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトマネジメントにおいて、プロジェクトの関与者や利害関係者のことを指す。この対象群は、プロジェクトの成功に向けて情報を効果的に伝達するために特に重要である。例えば、プロジェクトチームのメンバー、顧客、サプライヤー、スポンサーなどが含まれる。それぞれの対象には異なるニーズや期待があり、適切な情報を適切なタイミングで提供することが求められる。これにより、誤解を避け、プロジェクトのステータスや進行状況を共有し、最終的な成果物に対する信頼を築くことができる。コミュニケーションの対象群を理解し、適切な対応をすることは、プロジェクトの管理において必須のスキルとなる。",
+          "vi": "Nhóm đối tượng truyền thông: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コミュニケーションの対象群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm đối tượng truyền thông và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーションの対象群",
+          "reading": "こみゅにけーしょんのたいしょうぐん",
+          "english": "Communication Target Group",
+          "vi": "Nhóm đối tượng truyền thông",
+          "definitionJa": "プロジェクトマネジメントにおいて、プロジェクトの関与者や利害関係者のことを指す。",
+          "definitionVi": "Nhóm đối tượng truyền thông: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Communication Target Group"]
+    },
+    {
+      "id": "project-sponsor",
+      "order": 25,
+      "titleJa": "プロジェクトスポンサー",
+      "titleVi": "Nhà tài trợ dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトにおいて資金やリソースを支援し、プロジェクトの成功に責任を持つ人物または組織である。",
+      "summaryVi": "Nhà tài trợ dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトにおいて資金やリソースを支援し、プロジェクトの成功に責任を持つ人物または組織である。プロジェクトの目標や方向性を決定し、プロジェクトチームに対して必要なサポートを提供する役割を果たす。具体的には、プロジェクトの進行状況を監視し、主要な利害関係者との調整を行ったり、リスク管理や課題解決のための意思決定を行う。このように、プロジェクトスポンサーはプロジェクトの推進力となる存在であり、プロジェクトチームにとって非常に重要なパートナーである。",
+          "vi": "Nhà tài trợ dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトスポンサー」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhà tài trợ dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトスポンサー",
+          "reading": "",
+          "english": "Project Sponsor",
+          "vi": "Nhà tài trợ dự án",
+          "definitionJa": "プロジェクトにおいて資金やリソースを支援し、プロジェクトの成功に責任を持つ人物または組織である。",
+          "definitionVi": "Nhà tài trợ dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Sponsor"]
+    },
+    {
+      "id": "project-manager",
+      "order": 26,
+      "titleJa": "プロジェクトマネージャ",
+      "titleVi": "Quản lý dự án",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトを計画、実行、監視する責任を持つ役割のことである。",
+      "summaryVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを計画、実行、監視する責任を持つ役割のことである。プロジェクトの目的を達成するために、予算やスケジュール、リソースを適切に管理し、チームを指導する。例えば、ソフトウェア開発プロジェクトでは、クライアントの要望を理解し、開発チームとの連携を図りながら、成果物の品質を確保する必要がある。リスク管理や問題解決のスキルも求められ、プロジェクトの成功に向けて重要な役割を果たす。彼らのリーダーシップは、プロジェクトが順調に進行するために不可欠である。",
+          "vi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトマネージャ」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトマネージャ",
+          "reading": "",
+          "english": "Project Manager",
+          "vi": "Quản lý dự án",
+          "definitionJa": "特定のプロジェクトを計画、実行、監視する責任を持つ役割のことである。",
+          "definitionVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Manager"]
+    },
+    {
+      "id": "project-management-team",
+      "order": 27,
+      "titleJa": "プロジェクトマネジメントチーム",
+      "titleVi": "Nhóm quản lý dự án",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトを成功に導くために編成された専門的なグループである。",
+      "summaryVi": "Nhóm quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを成功に導くために編成された専門的なグループである。このチームは、プロジェクトの計画、実行、監視、完了に至るまで、さまざまなタスクを管理する役割を担う。メンバーは、プロジェクトの目的達成に必要なスキルを持ち、各自が責任を持って作業を行う。例えば、エンジニア、デザイナー、マーケティング担当者など異なる専門分野から成るチームが協力することで、プロジェクトは効率的に進行する。リソースの有効活用やリスクの管理、ステークホルダーとのコミュニケーションを通じて、プロジェクトの成功に向けた戦略を実行することが求められる。",
+          "vi": "Nhóm quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトマネジメントチーム」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトマネジメントチーム",
+          "reading": "",
+          "english": "Project Management Team",
+          "vi": "Nhóm quản lý dự án",
+          "definitionJa": "特定のプロジェクトを成功に導くために編成された専門的なグループである。",
+          "definitionVi": "Nhóm quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Management Team"]
+    },
+    {
+      "id": "project-team",
+      "order": 28,
+      "titleJa": "プロジェクトチーム",
+      "titleVi": "Nhóm dự án",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトを遂行するために集められたメンバーの集まりである。",
+      "summaryVi": "Nhóm dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを遂行するために集められたメンバーの集まりである。一般に、異なる専門知識やスキルを持つメンバーが協力し、目標達成に向けて活動する。例えば、新製品の開発プロジェクトでは、エンジニア、デザイナー、マーケティング担当者などがそれぞれの役割を果たしながらプロジェクトを進める。このようなチームは、プロジェクトの計画、実行、監視を効果的に行うために構成され、チームワークやコミュニケーションが非常に重要な要素となる。プロジェクトの成功には、メンバー間の連携が不可欠であり、適切な役割分担や情報共有が求められる。",
+          "vi": "Nhóm dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトチーム」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm dự án và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトチーム",
+          "reading": "",
+          "english": "Project Team",
+          "vi": "Nhóm dự án",
+          "definitionJa": "特定のプロジェクトを遂行するために集められたメンバーの集まりである。",
+          "definitionVi": "Nhóm dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Team"]
+    },
+    {
+      "id": "project-management-office",
+      "order": 29,
+      "titleJa": "PMO",
+      "titleVi": "PMO",
+      "importance": "high",
+      "summaryJa": "プロジェクトを効率的に管理するための組織体制である。",
+      "summaryVi": "PMO: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを効率的に管理するための組織体制である。具体的には、プロジェクトの計画、実行、監視、コントロールに関する標準やガイドラインを設定し、プロジェクトマネージャーを支援する役割を担う。例えば、PMOはプロジェクトの進捗状況を把握し、問題点を早期に発見して解決策を提案することで、プロジェクトの成功を促進する。また、複数のプロジェクトを統括してリソースの最適化を図ることも重要な機能であり、企業全体の戦略に整合したプロジェクトの優先順位を設定する役割も持っている。",
+          "vi": "PMO: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「PMO」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của PMO và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PMO",
+          "reading": "ぴーえむおー",
+          "english": "Project Management Office",
+          "vi": "PMO",
+          "definitionJa": "プロジェクトを効率的に管理するための組織体制である。",
+          "definitionVi": "PMO: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Project Management Office"]
+    },
+    {
+      "id": "work-planning",
+      "order": 30,
+      "titleJa": "作業計画立案",
+      "titleVi": "Lập kế hoạch công việc",
+      "importance": "medium",
+      "summaryJa": "特定の目的を達成するために必要な作業や手順を整理し、スケジュールとしてまとめる作業である。",
+      "summaryVi": "Lập kế hoạch công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目的を達成するために必要な作業や手順を整理し、スケジュールとしてまとめる作業である。これにより、プロジェクトや日々のタスクを効率的に進めることができる。例えば、あるイベントの準備を進める場合、日程を決め、各作業の責任者を設定し、期限を設けることで、全体の進行状況を把握しやすくする。また、作業計画は進捗の可視化や問題の早期発見にも役立ち、自己管理能力を高める重要な手段でもある。計画に基づいた行動が促すことで、目標達成に向けた道筋を明確にし、効率的に仕事を進めることが可能となる。",
+          "vi": "Lập kế hoạch công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「作業計画立案」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập kế hoạch công việc và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "作業計画立案",
+          "reading": "さぎょうけいかくりつあん",
+          "english": "Work Planning",
+          "vi": "Lập kế hoạch công việc",
+          "definitionJa": "特定の目的を達成するために必要な作業や手順を整理し、スケジュールとしてまとめる作業である。",
+          "definitionVi": "Lập kế hoạch công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Work Planning"]
+    },
+    {
+      "id": "workload-estimation",
+      "order": 31,
+      "titleJa": "作業量見積り",
+      "titleVi": "Ước lượng khối lượng công việc",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトやタスクに必要な作業の量を評価するプロセスである。",
+      "summaryVi": "Ước lượng khối lượng công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトやタスクに必要な作業の量を評価するプロセスである。これは、プロジェクトのスケジュールやコストを計画する際に重要なステップとなる。たとえば、ソフトウェア開発で機能を追加する場合、開発者はその作業に要する時間やリソースを見積もることで、プロジェクト全体のスムーズな進行を助ける。正確な作業量見積りを行うことで、チームは効率よく作業を進め、納期を守ることが可能となるため、自己管理の観点からも計画的なアプローチが求められる。",
+          "vi": "Ước lượng khối lượng công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「作業量見積り」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng khối lượng công việc và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "作業量見積り",
+          "reading": "さぎょうりょうみつもり",
+          "english": "Workload Estimation",
+          "vi": "Ước lượng khối lượng công việc",
+          "definitionJa": "特定のプロジェクトやタスクに必要な作業の量を評価するプロセスである。",
+          "definitionVi": "Ước lượng khối lượng công việc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Workload Estimation"]
+    },
+    {
+      "id": "progress-management",
+      "order": 32,
+      "titleJa": "進捗管理",
+      "titleVi": "Quản lý tiến độ",
+      "importance": "high",
+      "summaryJa": "プロジェクトや作業の進行状況を把握し、効率的に目標を達成するための手法やプロセスである。",
+      "summaryVi": "Quản lý tiến độ: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや作業の進行状況を把握し、効率的に目標を達成するための手法やプロセスである。主に作業の進捗を定期的に確認し、計画とのズレを把握することで、問題を早期に発見し、適切な対策を講じることが重要である。たとえば、プロジェクトチームが設定した期限に対する達成度を確認する際や、タスクの優先度を見直してリソースを最適化する場合に進捗管理が役立つ。この管理を行うことにより、プロジェクト全体の効率が向上し、成果物の品質も保たれることが期待される。",
+          "vi": "Quản lý tiến độ: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「進捗管理」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý tiến độ và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "進捗管理",
+          "reading": "しんちょくかんり",
+          "english": "Progress Management",
+          "vi": "Quản lý tiến độ",
+          "definitionJa": "プロジェクトや作業の進行状況を把握し、効率的に目標を達成するための手法やプロセスである。",
+          "definitionVi": "Quản lý tiến độ: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Progress Management"]
+    },
+    {
+      "id": "quality-control",
+      "order": 33,
+      "titleJa": "品質管理",
+      "titleVi": "Quản lý chất lượng",
+      "importance": "high",
+      "summaryJa": "製品やサービスの品質を一定の基準に保つための手法やプロセスである。",
+      "summaryVi": "Quản lý chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスの品質を一定の基準に保つための手法やプロセスである。具体的には、製品が顧客の期待に応えられるように、計画・実施・評価を行う活動を指す。たとえば、生産ラインで製品を製造する際、定期的に検査を行い、欠陥がないか確認するプロセスが含まれる。また、顧客からのフィードバックを受けて改善点を分析し、品質向上につなげることも重要である。このように、品質管理は組織の信頼性向上や顧客満足度の向上に寄与する。",
+          "vi": "Quản lý chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質管理」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý chất lượng và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質管理",
+          "reading": "ひんしつかんり",
+          "english": "Quality Control",
+          "vi": "Quản lý chất lượng",
+          "definitionJa": "製品やサービスの品質を一定の基準に保つための手法やプロセスである。",
+          "definitionVi": "Quản lý chất lượng: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Quality Control"]
+    },
+    {
+      "id": "cost-management",
+      "order": 34,
+      "titleJa": "コスト管理",
+      "titleVi": "Quản lý chi phí",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務にかかる費用を計画し、監視し、制御するプロセスである。",
+      "summaryVi": "Quản lý chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務にかかる費用を計画し、監視し、制御するプロセスである。具体的には、予算を設定し、その実行状況を定期的にチェックし、必要に応じて調整を行うことによって、費用を適切に管理することを目的としている。たとえば、あるプロジェクトで予定していた資金を超えることがないように、日々の支出を追跡し、場合によっては計画を見直すことが求められる。このような管理を行うことで、プロジェクトが目標を達成するための資源を無駄にすることなく、効率的に運営することが可能となる。",
+          "vi": "Quản lý chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コスト管理」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý chi phí và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コスト管理",
+          "reading": "こすとかんり",
+          "english": "Cost Management",
+          "vi": "Quản lý chi phí",
+          "definitionJa": "プロジェクトや業務にかかる費用を計画し、監視し、制御するプロセスである。",
+          "definitionVi": "Quản lý chi phí: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Cost Management"]
+    },
+    {
+      "id": "risk-management",
+      "order": 35,
+      "titleJa": "リスク管理",
+      "titleVi": "Quản lý rủi ro",
+      "importance": "high",
+      "summaryJa": "事前に潜在的なリスクを特定し、それに対して適切な対策を講じるプロセスである。",
+      "summaryVi": "Quản lý rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事前に潜在的なリスクを特定し、それに対して適切な対策を講じるプロセスである。特に自己管理の分野においては、個人の目標達成を妨げる要因や不確実性を把握し、その影響を軽減することを目指す。例えば、時間管理に関するリスクを考える場合、自分の予定外の出来事や集中力の欠如による遅延が考えられる。この際、リスク管理を行うことで、事前に優先順位を整理したり、柔軟なプランを用意したりして、目標達成に向けた行動をスムーズに進めることができる。自己成長や効率的な生活の実現に寄与する重要な要素である。",
+          "vi": "Quản lý rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスク管理」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý rủi ro và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスク管理",
+          "reading": "りすくかんり",
+          "english": "Risk Management",
+          "vi": "Quản lý rủi ro",
+          "definitionJa": "事前に潜在的なリスクを特定し、それに対して適切な対策を講じるプロセスである。",
+          "definitionVi": "Quản lý rủi ro: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Risk Management"]
+    },
+    {
+      "id": "change-management",
+      "order": 36,
+      "titleJa": "変更管理",
+      "titleVi": "Quản lý thay đổi",
+      "importance": "high",
+      "summaryJa": "組織やプロジェクトにおける変更を計画的に管理するプロセスである。",
+      "summaryVi": "Quản lý thay đổi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織やプロジェクトにおける変更を計画的に管理するプロセスである。具体的には、新しい技術やプロセス、方針の導入に伴う影響を最小限に抑えるために、変更内容の評価、承認、実施、そしてその後の確認を行う。その目的は、スムーズな移行を実現し、リスクを管理することである。たとえば、企業が新しいソフトウェアシステムを導入する際に、従業員へのトレーニングやシステムのテストを行い、問題を事前に特定して解決することが重要である。これにより、業務が中断されるリスクを減少させることができる。",
+          "vi": "Quản lý thay đổi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「変更管理」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý thay đổi và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "変更管理",
+          "reading": "へんこうかんり",
+          "english": "Change Management",
+          "vi": "Quản lý thay đổi",
+          "definitionJa": "組織やプロジェクトにおける変更を計画的に管理するプロセスである。",
+          "definitionVi": "Quản lý thay đổi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Change Management"]
+    },
+    {
+      "id": "problem-identification",
+      "order": 37,
+      "titleJa": "問題発見",
+      "titleVi": "Phát hiện vấn đề",
+      "importance": "medium",
+      "summaryJa": "自己管理の過程において、目の前にある課題や障害を認識することを指す。",
+      "summaryVi": "Phát hiện vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自己管理の過程において、目の前にある課題や障害を認識することを指す。自己管理が円滑に進むためには、まず自分がどのような問題に直面しているのかを正確に把握することが重要である。たとえば、目標に対する進捗が思わしくない場合、何が障害となっているのか具体的に考える必要がある。このプロセスでは、感情や環境要因、人間関係など様々な側面を振り返ることが求められ、問題の根本原因を探ることが最終的に解決策を見出す助けとなる。問題を適切に発見することで、効果的な対策を講じることができ、自己成長を促進する。",
+          "vi": "Phát hiện vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「問題発見」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phát hiện vấn đề và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "問題発見",
+          "reading": "もんだいはっけん",
+          "english": "Problem Identification",
+          "vi": "Phát hiện vấn đề",
+          "definitionJa": "自己管理の過程において、目の前にある課題や障害を認識することを指す。",
+          "definitionVi": "Phát hiện vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Problem Identification"]
+    },
+    {
+      "id": "issue-reporting",
+      "order": 38,
+      "titleJa": "問題報告",
+      "titleVi": "Báo cáo vấn đề",
+      "importance": "medium",
+      "summaryJa": "作業やプロジェクトにおいて発生した問題を記録し、関係者に知らせるプロセスである。",
+      "summaryVi": "Báo cáo vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "作業やプロジェクトにおいて発生した問題を記録し、関係者に知らせるプロセスである。特に、業務やプロジェクトの進行に支障が出た場合、問題報告を通じて早期に認識することが重要である。例えば、ソフトウェア開発においてバグが見つかった場合、開発チームに問題報告をすることで、迅速な修正や対策が可能となる。これにより、問題の影響を最小限に抑え、作業を円滑に進めるための基盤を築くことができる。また、問題報告は改善策の議論や再発防止策の検討にも寄与し、全体の生産性向上に貢献する。",
+          "vi": "Báo cáo vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「問題報告」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Báo cáo vấn đề và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "問題報告",
+          "reading": "もんだいほうこく",
+          "english": "Issue Reporting",
+          "vi": "Báo cáo vấn đề",
+          "definitionJa": "作業やプロジェクトにおいて発生した問題を記録し、関係者に知らせるプロセスである。",
+          "definitionVi": "Báo cáo vấn đề: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Issue Reporting"]
+    },
+    {
+      "id": "countermeasure-planning",
+      "order": 39,
+      "titleJa": "対策立案",
+      "titleVi": "Lập biện pháp đối phó",
+      "importance": "medium",
+      "summaryJa": "特定の問題を解決するために行う計画を策定するプロセスである。",
+      "summaryVi": "Lập biện pháp đối phó: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の問題を解決するために行う計画を策定するプロセスである。自己管理の分野では、自分自身の目標や課題を把握した上で、効果的な行動計画を考えることを指す。たとえば、健康を改善したいと考える場合、運動や食事管理に関する具体的な対策を立て、それを実行するためのスケジュールを作成することが含まれる。このように問題解決や目標達成に向けた第一歩であり、実行可能な計画を持つことで実践がスムーズに進む。",
+          "vi": "Lập biện pháp đối phó: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「対策立案」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập biện pháp đối phó và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "対策立案",
+          "reading": "たいさくりつあん",
+          "english": "Countermeasure Planning",
+          "vi": "Lập biện pháp đối phó",
+          "definitionJa": "特定の問題を解決するために行う計画を策定するプロセスである。",
+          "definitionVi": "Lập biện pháp đối phó: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Countermeasure Planning"]
+    },
+    {
+      "id": "documentation",
+      "order": 40,
+      "titleJa": "文書化",
+      "titleVi": "Tài liệu hóa",
+      "importance": "medium",
+      "summaryJa": "情報やプロセスを明確に記録する作業である。",
+      "summaryVi": "Tài liệu hóa: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報やプロセスを明確に記録する作業である。自己管理の分野において、文書化は自分の目標や進捗状況、方法論を整理し、振り返るために役立つ。たとえば、日々のタスクや目標をノートやデジタルツールにまとめることで、自分の行動を可視化し、効率的に管理することができる。このように、文書化は計画的な自己管理を促進し、より良い成果を得るための重要な手段となる。",
+          "vi": "Tài liệu hóa: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「文書化」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tài liệu hóa và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文書化",
+          "reading": "ぶんしょか",
+          "english": "Documentation",
+          "vi": "Tài liệu hóa",
+          "definitionJa": "情報やプロセスを明確に記録する作業である。",
+          "definitionVi": "Tài liệu hóa: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Documentation"]
+    },
+    {
+      "id": "communication",
+      "order": 41,
+      "titleJa": "コミュニケーション",
+      "titleVi": "Giao tiếp",
+      "importance": "medium",
+      "summaryJa": "情報や感情を伝え合う行為のことである。",
+      "summaryVi": "Giao tiếp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報や感情を伝え合う行為のことである。これは言葉だけでなく、非言語的なジェスチャーや表情、視線なども含まれ、人と人のつながりを形成する重要な要素である。例えば、友人との会話や職場でのチームミーティングなど、さまざまな場面でコミュニケーションは必要とされる。良好なコミュニケーションがあることで、誤解が減り、相手との信頼関係が深まるため、自己管理のスキルを向上させる上でも不可欠である。",
+          "vi": "Giao tiếp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コミュニケーション」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Giao tiếp và vai trò của thuật ngữ này trong quản lý dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーション",
+          "reading": "",
+          "english": "Communication",
+          "vi": "Giao tiếp",
+          "definitionJa": "情報や感情を伝え合う行為のことである。",
+          "definitionVi": "Giao tiếp: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án."
+        }
+      ],
+      "tags": ["14-1", "プロジェクトマネジメント", "Communication"]
+    }
+  ]
 }

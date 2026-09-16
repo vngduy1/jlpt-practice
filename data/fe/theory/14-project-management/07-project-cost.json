@@ -4,5 +4,598 @@
   "titleJa": "プロジェクトのコスト",
   "titleVi": "Chi phí dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "cost-estimation",
+      "order": 1,
+      "titleJa": "コストの見積り",
+      "titleVi": "Ước lượng chi phí",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトや作業を行う際にかかる費用を予測するプロセスである。",
+      "summaryVi": "Quá trình dự đoán chi phí cần thiết để thực hiện một dự án hoặc công việc dựa trên nguồn lực, quy mô và thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトや作業を行う際にかかる費用を予測するプロセスである。この見積りは、必要なリソースや作業の規模、期間に基づいて行われ、通常は人件費、材料費、設備費、その他の直接的及び間接的なコストが含まれる。例えば、建設プロジェクトでは、建材の購入費用や労働者の給与、機械のレンタル費用などを算出することが含まれる。プロジェクトの予算設定や運営計画において重要な役割を果たし、リソースの適切な配分や経済的な判断を行うための基礎資料として利用される。これにより、予想外のコスト超過を防ぐことができ、プロジェクトの成功に寄与することが期待される。",
+          "vi": "Quá trình dự đoán chi phí cần thiết để thực hiện một dự án hoặc công việc dựa trên nguồn lực, quy mô và thời gian."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コストの見積り」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng chi phí và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コストの見積り",
+          "reading": "こすとのみつもり",
+          "english": "Cost Estimation",
+          "vi": "Ước lượng chi phí",
+          "definitionJa": "特定のプロジェクトや作業を行う際にかかる費用を予測するプロセスである。",
+          "definitionVi": "Quá trình dự đoán chi phí cần thiết để thực hiện một dự án hoặc công việc dựa trên nguồn lực, quy mô và thời gian."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Cost Estimation"]
+    },
+    {
+      "id": "budget-creation",
+      "order": 2,
+      "titleJa": "予算の作成",
+      "titleVi": "Lập ngân sách",
+      "importance": "high",
+      "summaryJa": "特定の期間内における収入と支出を計画的に整理するプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch thu chi và phân bổ nguồn lực tài chính trong một khoảng thời gian để hỗ trợ đạt mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の期間内における収入と支出を計画的に整理するプロセスである。企業や団体が効率的に資源を配分し、目標を達成するためには、適切な予算作成が不可欠である。予算は通常、過去のデータ、現状の状況、今後の予測を基にして作られる。例えば、新商品の開発にかかるコストやマーケティング活動に必要な資金を見積もることで、具体的な財政計画を立てることができる。また、予算作成は単なる数字の計算だけでなく、戦略的な意思決定を伴い、組織全体の方向性に影響を及ぼす役割も果たしている。このため、正確で現実的な予算を作成することは、効果的な経営管理において非常に重要である。",
+          "vi": "Quá trình lập kế hoạch thu chi và phân bổ nguồn lực tài chính trong một khoảng thời gian để hỗ trợ đạt mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「予算の作成」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập ngân sách và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "予算の作成",
+          "reading": "よさんのさくせい",
+          "english": "Budget Creation",
+          "vi": "Lập ngân sách",
+          "definitionJa": "特定の期間内における収入と支出を計画的に整理するプロセスである。",
+          "definitionVi": "Quá trình lập kế hoạch thu chi và phân bổ nguồn lực tài chính trong một khoảng thời gian để hỗ trợ đạt mục tiêu."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Budget Creation"]
+    },
+    {
+      "id": "cost-management",
+      "order": 3,
+      "titleJa": "コストの管理",
+      "titleVi": "Quản lý chi phí",
+      "importance": "high",
+      "summaryJa": "プロジェクトやビジネス活動における費用の計画、追跡、調整を行うプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh chi phí nhằm duy trì dự án trong phạm vi ngân sách.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやビジネス活動における費用の計画、追跡、調整を行うプロセスである。これにより、予算の範囲内での運営を維持し、経済的な効率を最大化することが目的となる。見積もり、予算設定、実績追跡、クローズアウトのプロセスから構成される。例えば、プロジェクトが始まる前に必要な資源や作業に基づいて予算を設定し、進行中に実際の支出と比べて分析することで、必要に応じて調整を行うことが重要である。このプロセスは、企業の財務健康を保ちながら、資源の最適化を図るための戦略的な手段であり、無駄をなくすための計画的な取り組みが求められる。",
+          "vi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh chi phí nhằm duy trì dự án trong phạm vi ngân sách."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コストの管理」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý chi phí và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コストの管理",
+          "reading": "こすとのかんり",
+          "english": "Cost Management",
+          "vi": "Quản lý chi phí",
+          "definitionJa": "プロジェクトやビジネス活動における費用の計画、追跡、調整を行うプロセスである。",
+          "definitionVi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh chi phí nhằm duy trì dự án trong phạm vi ngân sách."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Cost Management"]
+    },
+    {
+      "id": "budget",
+      "order": 4,
+      "titleJa": "予算",
+      "titleVi": "Ngân sách",
+      "importance": "medium",
+      "summaryJa": "特定の期間における収入と支出の計画を示すものである。",
+      "summaryVi": "Kế hoạch về thu nhập và chi tiêu trong một khoảng thời gian, dùng để quản lý và phân bổ nguồn tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の期間における収入と支出の計画を示すものである。これは、企業や個人が資金を適切に管理するための重要なツールであり、どれだけの資金を使い、どれだけの利益を上げることを目指しているのかを明確にする役割を持っている。経営戦略に基づいて設定され、計画的に資源を分配することで、無駄な支出を抑えることができる。例えば、企業が新商品を開発するために必要なコストを予測し、その資金をどのように調達するかを計画する際に予算を作成する。これにより、必要な投資を行いながら、収益の最大化を図ることが可能になる。また、予算の実績を定期的に対比し、計画に対する逸脱を把握することで、経営判断の向上にも寄与する。",
+          "vi": "Kế hoạch về thu nhập và chi tiêu trong một khoảng thời gian, dùng để quản lý và phân bổ nguồn tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「予算」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ngân sách và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "予算",
+          "reading": "よさん",
+          "english": "Budget",
+          "vi": "Ngân sách",
+          "definitionJa": "特定の期間における収入と支出の計画を示すものである。",
+          "definitionVi": "Kế hoạch về thu nhập và chi tiêu trong một khoảng thời gian, dùng để quản lý và phân bổ nguồn tài chính."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Budget"]
+    },
+    {
+      "id": "actual-cost",
+      "order": 5,
+      "titleJa": "実コスト",
+      "titleVi": "Chi phí thực tế",
+      "importance": "high",
+      "summaryJa": "実際に発生した費用のことを指す。",
+      "summaryVi": "Chi phí thực tế đã phát sinh trong quá trình thực hiện dự án hoặc hoạt động kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実際に発生した費用のことを指す。プロジェクトやビジネスにおける支出を計測する際に用いられ、予算や計画と比較して、どれだけの資源が消費されたかを把握する上で重要な指標となる。材料費や人件費、設備費などの直接的な支出だけでなく、間接的な費用も含まれることがある。例えば、プロジェクトを進める中で予想以上に人手が必要となった場合、その追加の人件費が実コストに含まれる。これに対して、予算や計画段階で設定された理想的なコストと比較することで、無駄や効率の悪さを分析し、次の戦略の改善に活かすことができる。このように、実コストは経営判断のための重要なデータとなる。",
+          "vi": "Chi phí thực tế đã phát sinh trong quá trình thực hiện dự án hoặc hoạt động kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「実コスト」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Chi phí thực tế và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実コスト",
+          "reading": "じつこすと",
+          "english": "Actual Cost",
+          "vi": "Chi phí thực tế",
+          "definitionJa": "実際に発生した費用のことを指す。",
+          "definitionVi": "Chi phí thực tế đã phát sinh trong quá trình thực hiện dự án hoặc hoạt động kinh doanh."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Actual Cost"]
+    },
+    {
+      "id": "estimated-cost",
+      "order": 6,
+      "titleJa": "予想コスト",
+      "titleVi": "Chi phí dự kiến",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトや業務において予測される総費用のことを指す。",
+      "summaryVi": "Tổng chi phí dự kiến của một dự án hoặc công việc, được tính từ các yếu tố như vật liệu, nhân công và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトや業務において予測される総費用のことを指す。これは、材料費、人件費、設備費など、さまざまな要素を考慮して算出される。例えば、新しい商品の開発にかかる市場調査や設計、製造などの各段階で必要となる費用を見積もることによって明確にされる。また、プロジェクトの予算設定や進捗管理において重要な役割を果たす。正確に算出された経営判断をいる場面でも影響を及ぼし、プロジェクトを成功に導くための基盤となる。さらに、実際のコストとの比較を行うことで、予算の管理や課題の特定ができ、今後の改善につながる重要な指標となる。",
+          "vi": "Tổng chi phí dự kiến của một dự án hoặc công việc, được tính từ các yếu tố như vật liệu, nhân công và thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「予想コスト」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Chi phí dự kiến và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "予想コスト",
+          "reading": "よそうこすと",
+          "english": "Estimated Cost",
+          "vi": "Chi phí dự kiến",
+          "definitionJa": "特定のプロジェクトや業務において予測される総費用のことを指す。",
+          "definitionVi": "Tổng chi phí dự kiến của một dự án hoặc công việc, được tính từ các yếu tố như vật liệu, nhân công và thiết bị."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Estimated Cost"]
+    },
+    {
+      "id": "analogy-estimation",
+      "order": 7,
+      "titleJa": "類推見積り",
+      "titleVi": "Ước lượng tương tự",
+      "importance": "high",
+      "summaryJa": "過去のプロジェクトや類似の事例を元に、新たなプロジェクトのコストや工数を推定する手法である。",
+      "summaryVi": "Phương pháp ước lượng chi phí hoặc công sức của dự án mới dựa trên dữ liệu từ các dự án hoặc trường hợp tương tự trong quá khứ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "過去のプロジェクトや類似の事例を元に、新たなプロジェクトのコストや工数を推定する手法である。この方法では、似たような特徴を持つ過去のデータを参照することで、より現実的な見積もりを導き出すことができる。例えば、ソフトウェア開発において、ある機能の開発に要した時間を基に、同様の機能を持つ新しいプロジェクトの工数を計算する際に利用される。また、不確実性が高い初期段階で特に有効であり、プロジェクトの進行に伴い、見積もりの精度を向上させることも可能である。この技法は、特に合理的な推定が必要な場合に役立ち、プロジェクト管理において重要な役割を果たす。",
+          "vi": "Phương pháp ước lượng chi phí hoặc công sức của dự án mới dựa trên dữ liệu từ các dự án hoặc trường hợp tương tự trong quá khứ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「類推見積り」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng tương tự và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "類推見積り",
+          "reading": "るいすいみつもり",
+          "english": "Analogy Estimation",
+          "vi": "Ước lượng tương tự",
+          "definitionJa": "過去のプロジェクトや類似の事例を元に、新たなプロジェクトのコストや工数を推定する手法である。",
+          "definitionVi": "Phương pháp ước lượng chi phí hoặc công sức của dự án mới dựa trên dữ liệu từ các dự án hoặc trường hợp tương tự trong quá khứ."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Analogy Estimation"]
+    },
+    {
+      "id": "parametric-estimating",
+      "order": 8,
+      "titleJa": "パラメトリック見積り",
+      "titleVi": "Ước lượng tham số",
+      "importance": "high",
+      "summaryJa": "過去のデータに基づいて、プロジェクトのコストや期間を予測する手法である。",
+      "summaryVi": "Phương pháp dự đoán chi phí hoặc thời gian dựa trên dữ liệu quá khứ và các tham số định lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "過去のデータに基づいて、プロジェクトのコストや期間を予測する手法である。この方法は、特定のパラメータや変数の数値を入力することによって見積もりを算出するため、迅速かつ効果的に結果を得ることが可能である。例えば、過去の建設プロジェクトで得られたデータを用いて、面積や工数に比例してコストを算出することができる。また、この手法は、リソースの変動やプロジェクトの特性に応じて、異なるパラメータを適用することで、より正確な見積もりを提供する。特に大規模なプロジェクトや繰り返し行われる作業において、その効果を発揮する。",
+          "vi": "Phương pháp dự đoán chi phí hoặc thời gian dựa trên dữ liệu quá khứ và các tham số định lượng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「パラメトリック見積り」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng tham số và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パラメトリック見積り",
+          "reading": "ぱらめとりっくみつもり",
+          "english": "Parametric Estimating",
+          "vi": "Ước lượng tham số",
+          "definitionJa": "過去のデータに基づいて、プロジェクトのコストや期間を予測する手法である。",
+          "definitionVi": "Phương pháp dự đoán chi phí hoặc thời gian dựa trên dữ liệu quá khứ và các tham số định lượng."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Parametric Estimating"]
+    },
+    {
+      "id": "three-point-estimation",
+      "order": 9,
+      "titleJa": "三点見積り",
+      "titleVi": "Ước lượng ba điểm",
+      "importance": "high",
+      "summaryJa": "プロジェクトの作業時間やコストを見積もる手法の一つである。",
+      "summaryVi": "Phương pháp ước lượng dựa trên ba giá trị: lạc quan, bi quan và có khả năng xảy ra nhất để giảm bất định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの作業時間やコストを見積もる手法の一つである。この手法は、楽観的な見積もり、悲観的な見積もり、そして最も可能性の高い見積もりの三つの視点から値を算出し、その結果を基に平均値を求める。この方法により、見積もりの不確実性を減少させ、より現実的な計画を立てることができる。例えば、あるタスクの楽観的な見積もりが2日、悲観的な見積もりが5日、最も可能性の高い見積もりが3日であった場合、これらの値を用いて平均を求めることで、プロジェクトの進行に必要な期間をより正確に予測できる。特に、リスク管理やスケジュール策定において有効な手法である。",
+          "vi": "Phương pháp ước lượng dựa trên ba giá trị: lạc quan, bi quan và có khả năng xảy ra nhất để giảm bất định."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「三点見積り」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng ba điểm và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "三点見積り",
+          "reading": "さんてんみつもり",
+          "english": "Three-Point Estimation",
+          "vi": "Ước lượng ba điểm",
+          "definitionJa": "プロジェクトの作業時間やコストを見積もる手法の一つである。",
+          "definitionVi": "Phương pháp ước lượng dựa trên ba giá trị: lạc quan, bi quan và có khả năng xảy ra nhất để giảm bất định."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Three-Point Estimation"]
+    },
+    {
+      "id": "bottom-up-estimating",
+      "order": 10,
+      "titleJa": "ボトムアップ見積り",
+      "titleVi": "Ước lượng từ dưới lên",
+      "importance": "high",
+      "summaryJa": "プロジェクトの全体的なコストや作業量を、個々の作業やタスクごとに細かく見積もり、それを合計していく方法を指す。",
+      "summaryVi": "Phương pháp ước lượng chi tiết từng công việc hoặc nhiệm vụ rồi cộng lại để xác định tổng chi phí hoặc khối lượng công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの全体的なコストや作業量を、個々の作業やタスクごとに細かく見積もり、それを合計していく方法を指す。この手法は、各タスクの詳細な分析に基づいているため、比較的正確な見積もりを作成できる。しかし、細部まで見積もるため、時間と労力がかかることがデメリットとされる。例えば、ソフトウェア開発プロジェクトにおいて、各機能の実装に必要な時間やコストを洗い出し、それらを合計することで全体の見積もりを得る。この方法により、見積もりの根拠が明確になり、関係者に対する説明も容易になるため、透明性の向上が図れる。",
+          "vi": "Phương pháp ước lượng chi tiết từng công việc hoặc nhiệm vụ rồi cộng lại để xác định tổng chi phí hoặc khối lượng công việc."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ボトムアップ見積り」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng từ dưới lên và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ボトムアップ見積り",
+          "reading": "ぼとむあっぷみつもり",
+          "english": "Bottom-Up Estimating",
+          "vi": "Ước lượng từ dưới lên",
+          "definitionJa": "プロジェクトの全体的なコストや作業量を、個々の作業やタスクごとに細かく見積もり、それを合計していく方法を指す。",
+          "definitionVi": "Phương pháp ước lượng chi tiết từng công việc hoặc nhiệm vụ rồi cộng lại để xác định tổng chi phí hoặc khối lượng công việc."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Bottom-Up Estimating"]
+    },
+    {
+      "id": "function-point-analysis",
+      "order": 11,
+      "titleJa": "ファンクションポイント法",
+      "titleVi": "Phương pháp Function Point",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの機能を測定し、その規模を評価するための手法である。",
+      "summaryVi": "Phương pháp đo quy mô phần mềm dựa trên các chức năng cung cấp cho người dùng, phục vụ ước lượng công sức và chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの機能を測定し、その規模を評価するための手法である。この方法は、ソフトウェアの機能の複雑さや必要な労力を客観的に見積もるのに役立つ。具体的には、ユーザーによる要求を基に、データの入力や出力、データストレージなどの機能を定義し、それに基づいてポイントを割り当てる。例えば、複雑なレポート生成機能は多くのポイントを持ち、逆に単純なフォーム入力は少ないポイントで評価される。プロジェクトのコスト算出や進捗管理、さらにはソフトウェア開発の効率を向上させるために広く利用されており、異なるプロジェクト間の比較を容易にする。これにより、企業はリソースの配分を最適化できる。",
+          "vi": "Phương pháp đo quy mô phần mềm dựa trên các chức năng cung cấp cho người dùng, phục vụ ước lượng công sức và chi phí."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ファンクションポイント法」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phương pháp Function Point và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファンクションポイント法",
+          "reading": "ふぁんくしょんぽいんとほう",
+          "english": "Function Point Analysis",
+          "vi": "Phương pháp Function Point",
+          "definitionJa": "ソフトウェアの機能を測定し、その規模を評価するための手法である。",
+          "definitionVi": "Phương pháp đo quy mô phần mềm dựa trên các chức năng cung cấp cho người dùng, phục vụ ước lượng công sức và chi phí."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Function Point Analysis"]
+    },
+    {
+      "id": "loc-method",
+      "order": 12,
+      "titleJa": "LOC法",
+      "titleVi": "Phương pháp LOC",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの規模や複雑さを測定する方法の一つである。",
+      "summaryVi": "Phương pháp đo quy mô phần mềm dựa trên số dòng mã nguồn, có thể dùng làm cơ sở đánh giá công sức và chi phí phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの規模や複雑さを測定する方法の一つである。この方法は、ソースコードの行数を基にして、開発の進捗状況や労力を評価するために使われる。たとえば、あるプロジェクトが1,000行のコードを持つ場合、一般的にはその規模を把握するための指標となる。この数値は、バグの発生率や開発にかかるコストを見積もる際にも役立つ。また、異なるプロジェクト間での比較が容易であるため、開発チームの生産性を把握する手助けとなる。しかし、単に行数が多ければ良いというわけではなく、コードの品質も考慮される必要があるため、他の指標と併用して総合的に評価することが重要である。",
+          "vi": "Phương pháp đo quy mô phần mềm dựa trên số dòng mã nguồn, có thể dùng làm cơ sở đánh giá công sức và chi phí phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「LOC法」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phương pháp LOC và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "LOC法",
+          "reading": "えるおーしーほう",
+          "english": "Lines of Code",
+          "vi": "Phương pháp LOC",
+          "definitionJa": "ソフトウェアの規模や複雑さを測定する方法の一つである。",
+          "definitionVi": "Phương pháp đo quy mô phần mềm dựa trên số dòng mã nguồn, có thể dùng làm cơ sở đánh giá công sức và chi phí phát triển."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Lines of Code"]
+    },
+    {
+      "id": "cocomo",
+      "order": 13,
+      "titleJa": "COCOMO",
+      "titleVi": "COCOMO",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発におけるコストの見積もり手法である。",
+      "summaryVi": "Mô hình ước lượng chi phí phát triển phần mềm dựa trên quy mô, đặc điểm dự án và dữ liệu kinh nghiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるコストの見積もり手法である。プロジェクトの規模や特性に基づいて、開発に必要な時間や人員、コストを推定するためのモデルを提供する。この手法は、過去のデータをもとにした経験則により、特定のプロジェクトがどれくらいのリソースを必要とするかを予測することができる。例えば、小規模なソフトウェア開発プロジェクトでは、少数の開発者が簡単に実行できる一方、大規模なプロジェクトでは、時間がかかり多くの専門家を必要とする傾向がある。開発ライフサイクル全体を通じて継続的に調整可能で、より正確な見積もりを目指すことができるため、プロジェクト管理において非常に有用である。",
+          "vi": "Mô hình ước lượng chi phí phát triển phần mềm dựa trên quy mô, đặc điểm dự án và dữ liệu kinh nghiệm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「COCOMO」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của COCOMO và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COCOMO",
+          "reading": "ここも",
+          "english": "Constructive Cost Model",
+          "vi": "COCOMO",
+          "definitionJa": "ソフトウェア開発におけるコストの見積もり手法である。",
+          "definitionVi": "Mô hình ước lượng chi phí phát triển phần mềm dựa trên quy mô, đặc điểm dự án và dữ liệu kinh nghiệm."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Constructive Cost Model"]
+    },
+    {
+      "id": "cocomo-ii",
+      "order": 14,
+      "titleJa": "COCOMOⅡ",
+      "titleVi": "COCOMO II",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発プロジェクトのコストや工数を予測するためのモデルである。",
+      "summaryVi": "Phiên bản phát triển của COCOMO dùng để dự đoán công sức và chi phí phát triển phần mềm dựa trên quy mô và nhiều yếu tố của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発プロジェクトのコストや工数を予測するためのモデルである。このモデルは、プロジェクトの規模や技術的要因、チームの能力などに基づいて、開発に必要な時間や費用を算出することができる。具体的には、ソフトウェアのサイズや特性を入力することで、開発にかかる工数やコストを見積もることができるため、プロジェクトマネージャーにとって非常に有用なツールとなっている。非機能要件やライフサイクルコストも考慮に入れた詳細な分析を提供し、より現実的な予測を行うことが可能である。このように、ソフトウェア開発の計画やリソース配分を最適化するために多くの企業で利用されている。",
+          "vi": "Phiên bản phát triển của COCOMO dùng để dự đoán công sức và chi phí phát triển phần mềm dựa trên quy mô và nhiều yếu tố của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「COCOMOⅡ」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của COCOMO II và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COCOMOⅡ",
+          "reading": "ここもつー",
+          "english": "Constructive Cost Model II",
+          "vi": "COCOMO II",
+          "definitionJa": "ソフトウェア開発プロジェクトのコストや工数を予測するためのモデルである。",
+          "definitionVi": "Phiên bản phát triển của COCOMO dùng để dự đoán công sức và chi phí phát triển phần mềm dựa trên quy mô và nhiều yếu tố của dự án."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Constructive Cost Model II"]
+    },
+    {
+      "id": "evm",
+      "order": 15,
+      "titleJa": "EVM",
+      "titleVi": "EVM",
+      "importance": "high",
+      "summaryJa": "プロジェクト管理手法の一つで、進行中のプロジェクトのパフォーマンスを評価するために用いられる。",
+      "summaryVi": "Phương pháp đánh giá hiệu suất dự án bằng cách so sánh kế hoạch, khối lượng công việc đã đạt được, chi phí và tiến độ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクト管理手法の一つで、進行中のプロジェクトのパフォーマンスを評価するために用いられる。具体的には、計画された作業と実際に達成された作業の対比を行い、コスト及びスケジュールの進捗を把握するためのツールである。EVMでは、プロジェクトの予算や期限に対する進捗状況を数値化し、評価することができる。例えば、プロジェクトが予算内で進行しているのか、または遅れが生じているのかを明確に示すことが可能で、これにより管理者は適切な対応策を講じることができる。この方法は、プロジェクトの健全性を維持し、成功に導くために非常に重要な技術である。",
+          "vi": "Phương pháp đánh giá hiệu suất dự án bằng cách so sánh kế hoạch, khối lượng công việc đã đạt được, chi phí và tiến độ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「EVM」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của EVM và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "EVM",
+          "reading": "いーぶいえむ",
+          "english": "Earned Value Management",
+          "vi": "EVM",
+          "definitionJa": "プロジェクト管理手法の一つで、進行中のプロジェクトのパフォーマンスを評価するために用いられる。",
+          "definitionVi": "Phương pháp đánh giá hiệu suất dự án bằng cách so sánh kế hoạch, khối lượng công việc đã đạt được, chi phí và tiến độ."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Earned Value Management"]
+    },
+    {
+      "id": "cost-baseline",
+      "order": 16,
+      "titleJa": "コストベースライン",
+      "titleVi": "Đường cơ sở chi phí",
+      "importance": "high",
+      "summaryJa": "プロジェクトの予算管理における基準となるコストの計画値である。",
+      "summaryVi": "Giá trị chi phí kế hoạch dùng làm chuẩn để so sánh với chi phí thực tế và kiểm soát ngân sách dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの予算管理における基準となるコストの計画値である。これは、プロジェクトのライフサイクル全体を通じてかかると予想される費用を明確に示すために用いられ、その推移を追跡することが可能である。具体的には、プロジェクト開始時に設定され、以降のすべてのコストと実際の支出を比較するための基準となる。これにより、プロジェクトが予算内で進行しているか、あるいは超過しているかを把握しやすくする。納期の管理やリソース配分、リスク対策にも重要な役割を果たし、プロジェクトの成功につながるため規模や内容に応じて適切に策定することが求められる。",
+          "vi": "Giá trị chi phí kế hoạch dùng làm chuẩn để so sánh với chi phí thực tế và kiểm soát ngân sách dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コストベースライン」の意味と、プロジェクトのコスト管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Đường cơ sở chi phí và vai trò của nó trong quản lý chi phí dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コストベースライン",
+          "reading": "",
+          "english": "Cost Baseline",
+          "vi": "Đường cơ sở chi phí",
+          "definitionJa": "プロジェクトの予算管理における基準となるコストの計画値である。",
+          "definitionVi": "Giá trị chi phí kế hoạch dùng làm chuẩn để so sánh với chi phí thực tế và kiểm soát ngân sách dự án."
+        }
+      ],
+      "tags": ["14-7", "プロジェクトのコスト", "Cost Baseline"]
+    }
+  ]
 }

@@ -4,5 +4,158 @@
   "titleJa": "プロジェクトのステークホルダ",
   "titleVi": "Các bên liên quan của dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "stakeholder-identification",
+      "order": 1,
+      "titleJa": "ステークホルダの特定",
+      "titleVi": "Xác định các bên liên quan",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務に関連する利害関係者を明らかにするプロセスである。",
+      "summaryVi": "Quá trình xác định những cá nhân hoặc tổ chức có liên quan, có thể ảnh hưởng đến hoặc chịu ảnh hưởng bởi dự án, đồng thời nắm được kỳ vọng và yêu cầu của họ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務に関連する利害関係者を明らかにするプロセスである。ステークホルダは、プロジェクトの成功に影響を与える個人や組織を指し、顧客、従業員、投資家、規制当局などが含まれる。この特定作業により、誰がプロジェクトに関与し、どのような期待や要求を持っているのかを把握することができる。たとえば、新しい製品を開発する際には、その製品を使用する顧客や、資金を提供する投資家の意見を考慮することが重要である。こうした利害関係者のニーズを理解することで、コストや時間を節約し、プロジェクトの成功率を高めることが可能になる。",
+          "vi": "Quá trình xác định những cá nhân hoặc tổ chức có liên quan, có thể ảnh hưởng đến hoặc chịu ảnh hưởng bởi dự án, đồng thời nắm được kỳ vọng và yêu cầu của họ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステークホルダの特定」の目的と、ステークホルダ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Xác định các bên liên quan và vai trò của nó trong quản lý các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダの特定",
+          "reading": "すてーくほるだのとくてい",
+          "english": "Stakeholder Identification",
+          "vi": "Xác định các bên liên quan",
+          "definitionJa": "プロジェクトや業務に関連する利害関係者を明らかにするプロセスである。",
+          "definitionVi": "Quá trình xác định những cá nhân hoặc tổ chức có liên quan, có thể ảnh hưởng đến hoặc chịu ảnh hưởng bởi dự án, đồng thời nắm được kỳ vọng và yêu cầu của họ."
+        }
+      ],
+      "tags": [
+        "14-3",
+        "プロジェクトのステークホルダ",
+        "Stakeholder Identification"
+      ]
+    },
+    {
+      "id": "stakeholder-management",
+      "order": 2,
+      "titleJa": "ステークホルダのマネジメント",
+      "titleVi": "Quản lý các bên liên quan",
+      "importance": "high",
+      "summaryJa": "プロジェクトや事業に影響を与える利害関係者を特定し、その期待やニーズを理解し、コミュニケーションを図るプロセスである。",
+      "summaryVi": "Quá trình xác định các bên liên quan, hiểu kỳ vọng và nhu cầu của họ, đồng thời duy trì giao tiếp và quan hệ phù hợp để hỗ trợ dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや事業に影響を与える利害関係者を特定し、その期待やニーズを理解し、コミュニケーションを図るプロセスである。このプロセスでは、関与する全ての関係者、例えば顧客、取引先、社員、役員などを調査し、プロジェクトの進行において彼らが持つ視点や影響を考慮することが重要である。ステークホルダとの良好な関係を築くことで、協力的な雰囲気が生まれ、プロジェクトが円滑に進む可能性が高まる。また、利害関係者が不満を持っている場合、その問題を早期に解決することが求められるため、定期的なフィードバックや情報共有も不可欠である。これにより、プロジェクト全体が成功するための基盤が築かれる。",
+          "vi": "Quá trình xác định các bên liên quan, hiểu kỳ vọng và nhu cầu của họ, đồng thời duy trì giao tiếp và quan hệ phù hợp để hỗ trợ dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステークホルダのマネジメント」の目的と、ステークホルダ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý các bên liên quan và vai trò của nó trong quản lý các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダのマネジメント",
+          "reading": "",
+          "english": "Stakeholder Management",
+          "vi": "Quản lý các bên liên quan",
+          "definitionJa": "プロジェクトや事業に影響を与える利害関係者を特定し、その期待やニーズを理解し、コミュニケーションを図るプロセスである。",
+          "definitionVi": "Quá trình xác định các bên liên quan, hiểu kỳ vọng và nhu cầu của họ, đồng thời duy trì giao tiếp và quan hệ phù hợp để hỗ trợ dự án."
+        }
+      ],
+      "tags": ["14-3", "プロジェクトのステークホルダ", "Stakeholder Management"]
+    },
+    {
+      "id": "stakeholder-register",
+      "order": 3,
+      "titleJa": "ステークホルダ登録簿",
+      "titleVi": "Sổ đăng ký các bên liên quan",
+      "importance": "medium",
+      "summaryJa": "プロジェクトに関わるすべての利害関係者の情報をまとめた文書である。",
+      "summaryVi": "Tài liệu tổng hợp thông tin về các bên liên quan của dự án, như tên, vai trò, thông tin liên hệ, mức độ ảnh hưởng và mức độ tham gia.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトに関わるすべての利害関係者の情報をまとめた文書である。利害関係者とは、プロジェクトの成功に影響を与える個人や組織を指し、その関心や期待を理解することが重要である。登録簿には、各ステークホルダの名前、役割、連絡先情報、影響度、関わりの程度などが含まれる。これにより、プロジェクト管理者は誰が重要な関係者であるかを把握し、適切なコミュニケーションを図ることができる。このプロセスは、ステークホルダの満足度を高め、プロジェクトのリスクを軽減するために不可欠である。",
+          "vi": "Tài liệu tổng hợp thông tin về các bên liên quan của dự án, như tên, vai trò, thông tin liên hệ, mức độ ảnh hưởng và mức độ tham gia."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステークホルダ登録簿」の目的と、ステークホルダ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Sổ đăng ký các bên liên quan và vai trò của nó trong quản lý các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダ登録簿",
+          "reading": "すてーくほるだとうろくぼ",
+          "english": "Stakeholder Register",
+          "vi": "Sổ đăng ký các bên liên quan",
+          "definitionJa": "プロジェクトに関わるすべての利害関係者の情報をまとめた文書である。",
+          "definitionVi": "Tài liệu tổng hợp thông tin về các bên liên quan của dự án, như tên, vai trò, thông tin liên hệ, mức độ ảnh hưởng và mức độ tham gia."
+        }
+      ],
+      "tags": ["14-3", "プロジェクトのステークホルダ", "Stakeholder Register"]
+    },
+    {
+      "id": "stakeholder-analysis",
+      "order": 4,
+      "titleJa": "ステークホルダ分析",
+      "titleVi": "Phân tích các bên liên quan",
+      "importance": "high",
+      "summaryJa": "プロジェクトや企業活動において、関係者や利害関係者の影響や関心を評価する手法である。",
+      "summaryVi": "Phương pháp đánh giá mức độ ảnh hưởng và mức độ quan tâm của các bên liên quan để xác định ai quan trọng và cách thức phù hợp để họ tham gia dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや企業活動において、関係者や利害関係者の影響や関心を評価する手法である。この分析により、どのステークホルダーがプロジェクトにとって重要で、どのように関与すべきかを明確にすることができる。具体的には、プロジェクトの成功に影響を与える可能性のある個人やグループを識別し、彼らのニーズや期待を理解することで、コミュニケーション戦略を立てたり、リスクを把握したりすることが容易になる。例えば、顧客、従業員、取引先、地域住民などがステークホルダーに該当し、これらの分析を通じてトラブルを未然に防ぎ、プロジェクトの成功に寄与することが期待される。",
+          "vi": "Phương pháp đánh giá mức độ ảnh hưởng và mức độ quan tâm của các bên liên quan để xác định ai quan trọng và cách thức phù hợp để họ tham gia dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステークホルダ分析」の目的と、ステークホルダ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Phân tích các bên liên quan và vai trò của nó trong quản lý các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダ分析",
+          "reading": "すてーくほるだぶんせき",
+          "english": "Stakeholder Analysis",
+          "vi": "Phân tích các bên liên quan",
+          "definitionJa": "プロジェクトや企業活動において、関係者や利害関係者の影響や関心を評価する手法である。",
+          "definitionVi": "Phương pháp đánh giá mức độ ảnh hưởng và mức độ quan tâm của các bên liên quan để xác định ai quan trọng và cách thức phù hợp để họ tham gia dự án."
+        }
+      ],
+      "tags": ["14-3", "プロジェクトのステークホルダ", "Stakeholder Analysis"]
+    }
+  ]
 }

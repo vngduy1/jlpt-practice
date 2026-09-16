@@ -4,5 +4,195 @@
   "titleJa": "プロジェクトの調達",
   "titleVi": "Mua sắm dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "procurement-planning",
+      "order": 1,
+      "titleJa": "調達の計画",
+      "titleVi": "Lập kế hoạch mua sắm",
+      "importance": "high",
+      "summaryJa": "必要な資材やサービスをいつ、どのように調達するかを事前に計画するプロセスを指す。",
+      "summaryVi": "Quá trình lập kế hoạch trước về thời điểm và phương thức mua sắm các vật tư hoặc dịch vụ cần thiết cho dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "必要な資材やサービスをいつ、どのように調達するかを事前に計画するプロセスを指す。例えば、建設プロジェクトにおいて、必要なセメントや鉄筋を適切なタイミングで購入するためのスケジュールを立てることが含まれる。この計画は、コストの最適化や納期の管理、リスクの軽減に寄与する。プロジェクト全体の進行を円滑にし、公平な競争を促進するための基盤となる。円滑に進むことで、プロジェクトメンバーや関係者にとってもスムーズな運営をサポートし、無駄な時間やコストを避けることができる。",
+          "vi": "Quá trình lập kế hoạch trước về thời điểm và phương thức mua sắm các vật tư hoặc dịch vụ cần thiết cho dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「調達の計画」の意味と、プロジェクトの調達における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập kế hoạch mua sắm và vai trò của nó trong hoạt động mua sắm của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "調達の計画",
+          "reading": "ちょうたつのけいか",
+          "english": "Procurement Planning",
+          "vi": "Lập kế hoạch mua sắm",
+          "definitionJa": "必要な資材やサービスをいつ、どのように調達するかを事前に計画するプロセスを指す。",
+          "definitionVi": "Quá trình lập kế hoạch trước về thời điểm và phương thức mua sắm các vật tư hoặc dịch vụ cần thiết cho dự án."
+        }
+      ],
+      "tags": ["14-10", "プロジェクトの調達", "Procurement Planning"]
+    },
+    {
+      "id": "supplier-selection",
+      "order": 2,
+      "titleJa": "供給者の選定",
+      "titleVi": "Lựa chọn nhà cung cấp",
+      "importance": "high",
+      "summaryJa": "企業が必要な商品やサービスを提供する最適な供給者を選ぶプロセスである。",
+      "summaryVi": "Quá trình đánh giá và lựa chọn nhà cung cấp phù hợp dựa trên các yếu tố như năng lực, giá cả, thời hạn giao hàng và độ tin cậy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が必要な商品やサービスを提供する最適な供給者を選ぶプロセスである。このプロセスでは、候補となる供給者の能力、価格、納期、信頼性などの要素を評価する。例えば、新しい原材料を調達する際、複数の供給者から見積もりを取り、比較検討した上で、最も条件が良い供給者を選ぶことがある。また、長期的なビジネス関係に影響を与えるため、慎重に行われる必要がある。これにより、企業の業務効率が向上し、コスト削減にも寄与することが期待される。",
+          "vi": "Quá trình đánh giá và lựa chọn nhà cung cấp phù hợp dựa trên các yếu tố như năng lực, giá cả, thời hạn giao hàng và độ tin cậy."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「供給者の選定」の意味と、プロジェクトの調達における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lựa chọn nhà cung cấp và vai trò của nó trong hoạt động mua sắm của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "供給者の選定",
+          "reading": "きょうきゅうしゃのせんてい",
+          "english": "Supplier Selection",
+          "vi": "Lựa chọn nhà cung cấp",
+          "definitionJa": "企業が必要な商品やサービスを提供する最適な供給者を選ぶプロセスである。",
+          "definitionVi": "Quá trình đánh giá và lựa chọn nhà cung cấp phù hợp dựa trên các yếu tố như năng lực, giá cả, thời hạn giao hàng và độ tin cậy."
+        }
+      ],
+      "tags": ["14-10", "プロジェクトの調達", "Supplier Selection"]
+    },
+    {
+      "id": "procurement-operations-management",
+      "order": 3,
+      "titleJa": "調達の運営管理",
+      "titleVi": "Quản lý vận hành mua sắm",
+      "importance": "high",
+      "summaryJa": "企業が必要とする商品やサービスを獲得するためのプロセスを効率的に管理することを指す用語である。",
+      "summaryVi": "Việc quản lý hiệu quả toàn bộ quá trình mua sắm hàng hóa hoặc dịch vụ, gồm lựa chọn nhà cung cấp, đàm phán hợp đồng, đặt hàng, xác nhận giao hàng và thanh toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が必要とする商品やサービスを獲得するためのプロセスを効率的に管理することを指す用語である。これには、サプライヤーの選定、契約交渉、発注、納品の確認、支払い処理などが含まれる。例えば、小売業者が新しい商品の仕入れを行う際に、適切な業者を選ぶことから始まり、製品の品質や価格を把握し、契約を結ぶまでの一連の流れが調達の運営管理に該当する。効果的なコスト削減やリスク管理に寄与し、企業全体の競争力を向上させる要素となる。",
+          "vi": "Việc quản lý hiệu quả toàn bộ quá trình mua sắm hàng hóa hoặc dịch vụ, gồm lựa chọn nhà cung cấp, đàm phán hợp đồng, đặt hàng, xác nhận giao hàng và thanh toán."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「調達の運営管理」の意味と、プロジェクトの調達における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý vận hành mua sắm và vai trò của nó trong hoạt động mua sắm của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "調達の運営管理",
+          "reading": "ちょうたつのうんえいかんり",
+          "english": "Procurement Operations Management",
+          "vi": "Quản lý vận hành mua sắm",
+          "definitionJa": "企業が必要とする商品やサービスを獲得するためのプロセスを効率的に管理することを指す用語である。",
+          "definitionVi": "Việc quản lý hiệu quả toàn bộ quá trình mua sắm hàng hóa hoặc dịch vụ, gồm lựa chọn nhà cung cấp, đàm phán hợp đồng, đặt hàng, xác nhận giao hàng và thanh toán."
+        }
+      ],
+      "tags": [
+        "14-10",
+        "プロジェクトの調達",
+        "Procurement Operations Management"
+      ]
+    },
+    {
+      "id": "contract-or-purchase-order",
+      "order": 4,
+      "titleJa": "契約書又は注文書",
+      "titleVi": "Hợp đồng hoặc đơn đặt hàng",
+      "importance": "medium",
+      "summaryJa": "企業や個人間で行われる取引の内容を明確に記した文書である。",
+      "summaryVi": "Văn bản ghi rõ nội dung và điều kiện giao dịch như hàng hóa hoặc dịch vụ, giá cả, thời hạn giao hàng và các điều kiện đã thỏa thuận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や個人間で行われる取引の内容を明確に記した文書である。この文書には、商品やサービスの詳細、価格、納期などが記載されており、両者が合意した条件を示す役割を果たす。例えば、ある会社が新しいソフトウェアを購入する際に送る注文書では、必要なライセンスの数や支払方法が具体的に記載される。契約書や注文書は、法的効力を持つため、後のトラブルを避けるためにも非常に重要である。また、これらの文書は、ビジネスの透明性を高め、信頼関係を築く基盤ともなる。",
+          "vi": "Văn bản ghi rõ nội dung và điều kiện giao dịch như hàng hóa hoặc dịch vụ, giá cả, thời hạn giao hàng và các điều kiện đã thỏa thuận."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「契約書又は注文書」の意味と、プロジェクトの調達における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Hợp đồng hoặc đơn đặt hàng và vai trò của nó trong hoạt động mua sắm của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "契約書又は注文書",
+          "reading": "けいやくしょまたはちゅうもんしょ",
+          "english": "Contract or Purchase Order",
+          "vi": "Hợp đồng hoặc đơn đặt hàng",
+          "definitionJa": "企業や個人間で行われる取引の内容を明確に記した文書である。",
+          "definitionVi": "Văn bản ghi rõ nội dung và điều kiện giao dịch như hàng hóa hoặc dịch vụ, giá cả, thời hạn giao hàng và các điều kiện đã thỏa thuận."
+        }
+      ],
+      "tags": ["14-10", "プロジェクトの調達", "Contract or Purchase Order"]
+    },
+    {
+      "id": "procurement-strategy-in-project",
+      "order": 5,
+      "titleJa": "プロジェクトにおける調達戦略",
+      "titleVi": "Chiến lược mua sắm trong dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトの目的を達成するために必要な資源やサービスをどのように調達するかを計画することを指す。",
+      "summaryVi": "Việc xác định cách thức mua sắm nguồn lực và dịch vụ cho dự án, bao gồm lựa chọn loại hợp đồng và phương thức phối hợp với nhà cung cấp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの目的を達成するために必要な資源やサービスをどのように調達するかを計画することを指す。具体的には、契約のタイプを選択したり、供給者と連携する方法を決めたりすることが含まれる。たとえば、固定価格契約や時間・材料契約など、プロジェクトの性質やリスクに応じた適切な契約形態を選ぶことで、経費の管理や納期の確保が円滑に行える。こうした戦略的アプローチは、プロジェクトの成功に必要不可欠であり、効率的にリソースを活用するための基盤を築くことができる。",
+          "vi": "Việc xác định cách thức mua sắm nguồn lực và dịch vụ cho dự án, bao gồm lựa chọn loại hợp đồng và phương thức phối hợp với nhà cung cấp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトにおける調達戦略」の意味と、プロジェクトの調達における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Chiến lược mua sắm trong dự án và vai trò của nó trong hoạt động mua sắm của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトにおける調達戦略",
+          "reading": "ぷろじぇくとにおけるちょうたつせんりゃく",
+          "english": "Procurement Strategy in Project",
+          "vi": "Chiến lược mua sắm trong dự án",
+          "definitionJa": "プロジェクトの目的を達成するために必要な資源やサービスをどのように調達するかを計画することを指す。",
+          "definitionVi": "Việc xác định cách thức mua sắm nguồn lực và dịch vụ cho dự án, bao gồm lựa chọn loại hợp đồng và phương thức phối hợp với nhà cung cấp."
+        }
+      ],
+      "tags": ["14-10", "プロジェクトの調達", "Procurement Strategy in Project"]
+    }
+  ]
 }

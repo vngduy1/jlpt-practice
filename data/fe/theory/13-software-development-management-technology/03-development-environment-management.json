@@ -4,5 +4,450 @@
   "titleJa": "開発環境管理",
   "titleVi": "Quản lý môi trường phát triển",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "component-items",
+      "order": 1,
+      "titleJa": "構成品目",
+      "titleVi": "Hạng mục cấu hình",
+      "importance": "high",
+      "summaryJa": "特定のシステムやプロジェクトを実現するために必要な要素や部品を指す。",
+      "summaryVi": "Các thành phần hoặc yếu tố cần thiết để xây dựng một hệ thống hay dự án, như phần cứng, phần mềm và thiết bị mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のシステムやプロジェクトを実現するために必要な要素や部品を指す。これには、ハードウェアやソフトウェア、ネットワーク機器などが含まれる。例えば、アプリケーションを開発する際に必要なプログラミング言語のコンパイラ、データベース管理ソフトウェア、サーバやクライアントのコンピュータなどが構成品目として挙げられる。構成品目の選定は、システム全体の性能や信頼性に大きな影響を及ぼすため、慎重に行う必要がある。また、これらの要素が適切に組み合わさることで、効率的な開発環境が構築され、プロジェクトの成功に繋がる。システム要件に応じて、必要な構成品目を特定し、適切に管理することが求められる。",
+          "vi": "Các thành phần hoặc yếu tố cần thiết để xây dựng một hệ thống hay dự án, như phần cứng, phần mềm và thiết bị mạng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「構成品目」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Hạng mục cấu hình và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "構成品目",
+          "reading": "こうせいひんもく",
+          "english": "Component Items",
+          "vi": "Hạng mục cấu hình",
+          "definitionJa": "特定のシステムやプロジェクトを実現するために必要な要素や部品を指す。",
+          "definitionVi": "Các thành phần hoặc yếu tố cần thiết để xây dựng một hệ thống hay dự án, như phần cứng, phần mềm và thiết bị mạng."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Component Items"]
+    },
+    {
+      "id": "software-license",
+      "order": 2,
+      "titleJa": "ソフトウェアライセンス",
+      "titleVi": "Giấy phép phần mềm",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの使用に関する権利と制約を定めた契約のことである。",
+      "summaryVi": "Hợp đồng quy định quyền và hạn chế đối với việc sử dụng phần mềm, bao gồm điều kiện sử dụng, phân phối hoặc sửa đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの使用に関する権利と制約を定めた契約のことである。このライセンスは、ユーザーがソフトウェアをどのように使用できるかを規定し、著作権者の権利を保護する役割がある。例えば、フリーウェアやオープンソースソフトウェアでは、無償で使用や変更が許可されていることがある一方、商用ソフトウェアでは購入や定期的なライセンス更新が必要となる。ライセンスにより、ソフトウェアの配布方法や使用条件、そしてユーザーがソフトウェアを修正した際の扱いなども明確にされているため、開発環境を構築する際にも、そのライセンスの内容を理解することが重要である。これにより、法的なトラブルを避け、適切にソフトウェアを活用できるようになる。",
+          "vi": "Hợp đồng quy định quyền và hạn chế đối với việc sử dụng phần mềm, bao gồm điều kiện sử dụng, phân phối hoặc sửa đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ソフトウェアライセンス」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Giấy phép phần mềm và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェアライセンス",
+          "reading": "",
+          "english": "Software License",
+          "vi": "Giấy phép phần mềm",
+          "definitionJa": "ソフトウェアの使用に関する権利と制約を定めた契約のことである。",
+          "definitionVi": "Hợp đồng quy định quyền và hạn chế đối với việc sử dụng phần mềm, bao gồm điều kiện sử dụng, phân phối hoặc sửa đổi."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Software License"]
+    },
+    {
+      "id": "staging-environment",
+      "order": 3,
+      "titleJa": "ステージング環境",
+      "titleVi": "Môi trường staging",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの開発プロジェクトにおいて、実際の運用環境に近い環境でテストを行うための場所である。",
+      "summaryVi": "Môi trường gần giống production dùng để kiểm tra cuối cùng trước khi đưa hệ thống vào vận hành thực tế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの開発プロジェクトにおいて、実際の運用環境に近い環境でテストを行うための場所である。この環境は、開発したアプリケーションやシステムを本番環境に移行する前に、最終的な確認を行うために使用される。例えば、機能の動作やパフォーマンスを確認する際に、ユーザーが利用する条件に近い状況を再現することで、問題を事前に発見できることが利点である。ステージング環境では、本番データに近いデータを使用してテストを行うことが一般的で、その結果をもとに必要な修正が行われる。このプロセスにより、本番環境でのトラブルを減少させ、安心してシステムを稼働させることが可能となる。",
+          "vi": "Môi trường gần giống production dùng để kiểm tra cuối cùng trước khi đưa hệ thống vào vận hành thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ステージング環境」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Môi trường staging và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステージング環境",
+          "reading": "すてーじんぐかんきょう",
+          "english": "Staging Environment",
+          "vi": "Môi trường staging",
+          "definitionJa": "ソフトウェアの開発プロジェクトにおいて、実際の運用環境に近い環境でテストを行うための場所である。",
+          "definitionVi": "Môi trường gần giống production dùng để kiểm tra cuối cùng trước khi đưa hệ thống vào vận hành thực tế."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Staging Environment"]
+    },
+    {
+      "id": "resource-management",
+      "order": 4,
+      "titleJa": "資源管理",
+      "titleVi": "Quản lý tài nguyên",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務において、必要な資源を適切に計画、配置、利用するプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch, phân bổ và sử dụng hợp lý các nguồn lực như nhân lực, thời gian và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務において、必要な資源を適切に計画、配置、利用するプロセスである。これには人材や時間、設備などの物理的資源が含まれる。資源管理の重要な目的は、効率的にリソースを活用し、業務を円滑に進めることである。例えば、ソフトウェア開発プロジェクトでは、開発者やテスターのリソースを正しく配分し、各ステージで必要なタスクが適切に完了するように調整することが求められる。さらに、進捗の監視や問題解決のための戦略を立てることで、プロジェクトの目標達成に向けた支援を行う役割も担う。このように、資源管理は成功するプロジェクトの基盤となる重要な要素であり、効率的かつ効果的な運営を実現するために不可欠である。",
+          "vi": "Quá trình lập kế hoạch, phân bổ và sử dụng hợp lý các nguồn lực như nhân lực, thời gian và thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「資源管理」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý tài nguyên và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資源管理",
+          "reading": "しげんかんり",
+          "english": "Resource Management",
+          "vi": "Quản lý tài nguyên",
+          "definitionJa": "プロジェクトや業務において、必要な資源を適切に計画、配置、利用するプロセスである。",
+          "definitionVi": "Quá trình lập kế hoạch, phân bổ và sử dụng hợp lý các nguồn lực như nhân lực, thời gian và thiết bị."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Resource Management"]
+    },
+    {
+      "id": "operations-management",
+      "order": 5,
+      "titleJa": "運用管理",
+      "titleVi": "Quản lý vận hành",
+      "importance": "medium",
+      "summaryJa": "システムやサービスが円滑に機能するように、日常的な作業や監視を行うプロセスである。",
+      "summaryVi": "Quá trình giám sát và thực hiện công việc hằng ngày để hệ thống hoặc dịch vụ hoạt động ổn định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやサービスが円滑に機能するように、日常的な作業や監視を行うプロセスである。具体的には、ネットワークやサーバの状態を監視し、問題が発生した際には迅速に対応することが求められる。運用管理では、スケジュール管理やバックアップ、セキュリティ対策なども含まれ、これによりシステムの安定運用を支える役割を果たす。たとえば、企業のWebサイトを運営する際には、トラフィックを監視し、サーバの負荷を管理することで、ユーザーがスムーズにアクセスできるようにすることが重要である。このように、運用管理は企業のビジネスにおいて欠かせない機能であり、より良いサービスを提供するための基盤とも言える。",
+          "vi": "Quá trình giám sát và thực hiện công việc hằng ngày để hệ thống hoặc dịch vụ hoạt động ổn định."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「運用管理」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý vận hành và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用管理",
+          "reading": "うんようかんり",
+          "english": "Operations Management",
+          "vi": "Quản lý vận hành",
+          "definitionJa": "システムやサービスが円滑に機能するように、日常的な作業や監視を行うプロセスである。",
+          "definitionVi": "Quá trình giám sát và thực hiện công việc hằng ngày để hệ thống hoặc dịch vụ hoạt động ổn định."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Operations Management"]
+    },
+    {
+      "id": "change-log-management",
+      "order": 6,
+      "titleJa": "更新履歴管理",
+      "titleVi": "Quản lý lịch sử cập nhật",
+      "importance": "high",
+      "summaryJa": "システムやソフトウェアの変更点を記録し、管理するプロセスである。",
+      "summaryVi": "Quá trình ghi lại và quản lý các thay đổi của hệ thống hoặc phần mềm để có thể theo dõi nội dung đã được sửa đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアの変更点を記録し、管理するプロセスである。これにより、どの版本で何が改良されたり動作が変更されたのかを明確に把握できる。例えば、ソフトウェアのアップデート情報やバグ修正、機能追加がこれに該当する。利用者や開発者にとって重要であり、過去の状態に戻す際にも役立つ。これにより、エラーを迅速に特定し、適切な修正を行うことが容易になる。また、開発チーム間のコミュニケーションを円滑にし、プロジェクト管理の透明性を高める効果もある。このように、更新履歴管理は設計データ管理の重要な部分であり、プロジェクトの成功に寄与する。",
+          "vi": "Quá trình ghi lại và quản lý các thay đổi của hệ thống hoặc phần mềm để có thể theo dõi nội dung đã được sửa đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「更新履歴管理」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý lịch sử cập nhật và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "更新履歴管理",
+          "reading": "こうしんりれきかんり",
+          "english": "Change Log Management",
+          "vi": "Quản lý lịch sử cập nhật",
+          "definitionJa": "システムやソフトウェアの変更点を記録し、管理するプロセスである。",
+          "definitionVi": "Quá trình ghi lại và quản lý các thay đổi của hệ thống hoặc phần mềm để có thể theo dõi nội dung đã được sửa đổi."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Change Log Management"]
+    },
+    {
+      "id": "access-control-management",
+      "order": 7,
+      "titleJa": "アクセス権管理",
+      "titleVi": "Quản lý quyền truy cập",
+      "importance": "high",
+      "summaryJa": "情報に対するアクセス権を設定し、管理するプロセスである。",
+      "summaryVi": "Quá trình thiết lập và quản lý quyền để xác định người dùng hoặc nhóm nào được phép truy cập hay thao tác với thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報に対するアクセス権を設定し、管理するプロセスである。この管理により、特定のユーザーやグループがどの情報にアクセスできるかを決定することができる。たとえば、会社のデータベースにおいて、一部のユーザーには編集権限を与え、他のユーザーには閲覧のみを許可する場合がある。これにより、重要な情報の誤用や漏洩を防ぎ、安全な情報管理が実現される。また、アクセス権は業務の需要に応じて変更可能で、特定のプロジェクトに必要な権限を迅速に付与または削除することができる。システム監査やコンプライアンス遵守の観点からも、アクセス権管理は重要な役割を果たしている。",
+          "vi": "Quá trình thiết lập và quản lý quyền để xác định người dùng hoặc nhóm nào được phép truy cập hay thao tác với thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アクセス権管理」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý quyền truy cập và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクセス権管理",
+          "reading": "あくせすけんかんり",
+          "english": "Access Control Management",
+          "vi": "Quản lý quyền truy cập",
+          "definitionJa": "情報に対するアクセス権を設定し、管理するプロセスである。",
+          "definitionVi": "Quá trình thiết lập và quản lý quyền để xác định người dùng hoặc nhóm nào được phép truy cập hay thao tác với thông tin."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Access Control Management"]
+    },
+    {
+      "id": "search",
+      "order": 8,
+      "titleJa": "検索",
+      "titleVi": "Tìm kiếm",
+      "importance": "medium",
+      "summaryJa": "情報を見つけるための活動を指し、特にデジタルデータの管理において重要な役割を果たす。",
+      "summaryVi": "Hoạt động tìm nhanh thông tin cần thiết như bản thiết kế, đặc tả hoặc tệp liên quan bằng từ khóa, metadata, danh mục hay thẻ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を見つけるための活動を指し、特にデジタルデータの管理において重要な役割を果たす。設計データ管理における設計図や仕様書、関連ファイルなど、必要な情報を迅速に見つけ出すプロセスである。例えば、エンジニアが特定のパーツの設計図を探す際、検索機能を使ってキーワードを入力することで、関連する文書を瞬時に表示させることができる。このような機能は、効率的な作業を支援し、情報の報告や共有を迅速化するために不可欠である。また、特定のメタデータやカテゴリー、タグを用いることにより、より正確な検索結果が得られる仕組みも存在する。このため、設計データの整理と管理においては、効果的な検索機能を実装することが重要である。",
+          "vi": "Hoạt động tìm nhanh thông tin cần thiết như bản thiết kế, đặc tả hoặc tệp liên quan bằng từ khóa, metadata, danh mục hay thẻ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「検索」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Tìm kiếm và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "検索",
+          "reading": "けんさく",
+          "english": "Search",
+          "vi": "Tìm kiếm",
+          "definitionJa": "情報を見つけるための活動を指し、特にデジタルデータの管理において重要な役割を果たす。",
+          "definitionVi": "Hoạt động tìm nhanh thông tin cần thiết như bản thiết kế, đặc tả hoặc tệp liên quan bằng từ khóa, metadata, danh mục hay thẻ."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Search"]
+    },
+    {
+      "id": "repository",
+      "order": 9,
+      "titleJa": "リポジトリ",
+      "titleVi": "Kho lưu trữ (Repository)",
+      "importance": "high",
+      "summaryJa": "データや情報を保存し管理するための場所である。",
+      "summaryVi": "Nơi lưu trữ và quản lý tập trung dữ liệu, tệp hoặc tài liệu; có thể hỗ trợ quản lý phiên bản và theo dõi lịch sử thay đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データや情報を保存し管理するための場所である。特に設計データ管理においては、プロジェクトに関連するファイルや文書を一元的に保管するために使用される。チームが共同で作業する際に重要な役割を果たし、データのバージョン管理や変更履歴の追跡が可能となる。例えば、ソースコードを管理するためのGitリポジトリや、設計図面を保管するCADリポジトリがある。これにより、誤って古いデータを使用するリスクを減少させ、チームメンバーが常に最新の情報にアクセスできる環境を整えることができる。また、リポジトリはデータのバックアップ機能を持つことが多く、重要な情報を安全に保つための手段としても活用されている。",
+          "vi": "Nơi lưu trữ và quản lý tập trung dữ liệu, tệp hoặc tài liệu; có thể hỗ trợ quản lý phiên bản và theo dõi lịch sử thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リポジトリ」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Kho lưu trữ (Repository) và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リポジトリ",
+          "reading": "",
+          "english": "Repository",
+          "vi": "Kho lưu trữ (Repository)",
+          "definitionJa": "データや情報を保存し管理するための場所である。",
+          "definitionVi": "Nơi lưu trữ và quản lý tập trung dữ liệu, tệp hoặc tài liệu; có thể hỗ trợ quản lý phiên bản và theo dõi lịch sử thay đổi."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Repository"]
+    },
+    {
+      "id": "version-control",
+      "order": 10,
+      "titleJa": "バージョン管理",
+      "titleVi": "Quản lý phiên bản",
+      "importance": "high",
+      "summaryJa": "ソフトウェアや文書などのファイルの変更履歴を管理するための手法である。",
+      "summaryVi": "Phương pháp quản lý lịch sử thay đổi của tệp phần mềm hoặc tài liệu, cho phép theo dõi và quay lại phiên bản trước khi cần.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアや文書などのファイルの変更履歴を管理するための手法である。これにより、どのような変更が行われたのか、いつ行われたのかを追跡できる。具体的には、ファイルの異なるバージョンを保存し、必要に応じて過去の状態に戻すことが可能である。例えば、プログラミングにおいてはGitというツールが広く利用されており、複数の開発者が共同で作業する際に特に有効である。バージョン管理の利点は、エラーが発生した場合でも簡単に修正前の状態に戻せる点や、複数人が同時に作業しやすくなることである。これにより、プロジェクトの効率や品質を向上させることができる。",
+          "vi": "Phương pháp quản lý lịch sử thay đổi của tệp phần mềm hoặc tài liệu, cho phép theo dõi và quay lại phiên bản trước khi cần."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「バージョン管理」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Quản lý phiên bản và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バージョン管理",
+          "reading": "ばーじょんかんり",
+          "english": "Version Control",
+          "vi": "Quản lý phiên bản",
+          "definitionJa": "ソフトウェアや文書などのファイルの変更履歴を管理するための手法である。",
+          "definitionVi": "Phương pháp quản lý lịch sử thay đổi của tệp phần mềm hoặc tài liệu, cho phép theo dõi và quay lại phiên bản trước khi cần."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Version Control"]
+    },
+    {
+      "id": "unauthorized-copying",
+      "order": 11,
+      "titleJa": "不正コピー",
+      "titleVi": "Sao chép trái phép",
+      "importance": "high",
+      "summaryJa": "著作権やライセンスに違反して行われる複製のことを指す。",
+      "summaryVi": "Việc sao chép nội dung hoặc phần mềm trái với quyền tác giả hay điều kiện giấy phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "著作権やライセンスに違反して行われる複製のことを指す。これは、音楽やソフトウェア、映画などのコンテンツを無断で複製し、配布する行為である。例えば、ソフトウェアのライセンスを購入せずにそのソフトをコピーして使用することは不正コピーにあたる。このような行為は、著作権者の権利を侵害し、合法的なビジネスモデルを損なうため、法律によって厳しく取り締まられている。不正コピーを防ぐためには、DRM（デジタル著作権管理）やライセンス認証システムなどの技術が用いられ、正規のユーザーのみがアクセスできる仕組みが導入されている。これにより、著作権を保護し、クリエイターの利益を守ることが求められている。",
+          "vi": "Việc sao chép nội dung hoặc phần mềm trái với quyền tác giả hay điều kiện giấy phép."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「不正コピー」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Sao chép trái phép và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正コピー",
+          "reading": "ふせいこぴー",
+          "english": "Unauthorized Copying",
+          "vi": "Sao chép trái phép",
+          "definitionJa": "著作権やライセンスに違反して行われる複製のことを指す。",
+          "definitionVi": "Việc sao chép nội dung hoặc phần mềm trái với quyền tác giả hay điều kiện giấy phép."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Unauthorized Copying"]
+    },
+    {
+      "id": "inventory",
+      "order": 12,
+      "titleJa": "棚卸",
+      "titleVi": "Kiểm kê",
+      "importance": "high",
+      "summaryJa": "企業が保有する在庫や資産の量や状態を確認する作業である。",
+      "summaryVi": "Hoạt động kiểm tra số lượng và trạng thái tài sản; trong quản lý license dùng để xác nhận tình trạng sử dụng phần mềm và giấy phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が保有する在庫や資産の量や状態を確認する作業である。この作業は通常、定期的に行われ、在庫の正確な把握や管理に役立つ。棚卸を行うことで、帳簿と実際の在庫が一致しているかを確認し、不正や誤差の発見にもつながる。例えば、小売業では商品の数量を数え、適正在庫を維持するために棚卸を行うことが一般的である。また、棚卸は会計上の報告や分析にも重要で、企業の財務状況を評価するために欠かせないプロセスである。特にライセンス管理においては、ソフトウェアやシステムの使用状況を正確に把握し、ライセンスの適切な運用を行うことが求められる。これにより、過剰なコストを抑え、効率的な資源管理が実現できる。",
+          "vi": "Hoạt động kiểm tra số lượng và trạng thái tài sản; trong quản lý license dùng để xác nhận tình trạng sử dụng phần mềm và giấy phép."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「棚卸」の目的と、開発環境管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm mục đích của Kiểm kê và vai trò của nó trong quản lý môi trường phát triển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "棚卸",
+          "reading": "たなおろし",
+          "english": "Inventory",
+          "vi": "Kiểm kê",
+          "definitionJa": "企業が保有する在庫や資産の量や状態を確認する作業である。",
+          "definitionVi": "Hoạt động kiểm tra số lượng và trạng thái tài sản; trong quản lý license dùng để xác nhận tình trạng sử dụng phần mềm và giấy phép."
+        }
+      ],
+      "tags": ["13-3", "開発環境管理", "Inventory"]
+    }
+  ]
 }

@@ -4,5 +4,454 @@
   "titleJa": "プロジェクトのスコープ",
   "titleVi": "Phạm vi dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "scope-definition",
+      "order": 1,
+      "titleJa": "スコープの定義",
+      "titleVi": "Định nghĩa phạm vi",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務の範囲を明確にするための過程である。",
+      "summaryVi": "Quá trình xác định rõ phạm vi của dự án hoặc công việc, bao gồm những gì được thực hiện và những gì nằm ngoài phạm vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の範囲を明確にするための過程である。スコープを設定することで、どの作業が含まれるのか、または除外されるのかを特定することができ、プロジェクトの成功に向けた計画が立てやすくなる。具体的には、スコープの定義には目標、成果物、作業のプロセス、さらには関与するステークホルダーの要件などが含まれる。例えば、ソフトウェア開発プロジェクトにおいて、新機能の実装やテストの範囲を定めることが、スコープの定義に該当する。これにより、プロジェクトチームはリソースを適切に配分し、時間内に成果物を完成させるための指針が得られる。スコープが不明確だと、プロジェクトの遅延やコスト超過を招くこともあるため、慎重な設定が求められる。",
+          "vi": "Quá trình xác định rõ phạm vi của dự án hoặc công việc, bao gồm những gì được thực hiện và những gì nằm ngoài phạm vi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スコープの定義」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Định nghĩa phạm vi và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スコープの定義",
+          "reading": "すこーぷのていぎ",
+          "english": "Scope Definition",
+          "vi": "Định nghĩa phạm vi",
+          "definitionJa": "プロジェクトや業務の範囲を明確にするための過程である。",
+          "definitionVi": "Quá trình xác định rõ phạm vi của dự án hoặc công việc, bao gồm những gì được thực hiện và những gì nằm ngoài phạm vi."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Scope Definition"]
+    },
+    {
+      "id": "wbs-creation",
+      "order": 2,
+      "titleJa": "WBSの作成",
+      "titleVi": "Tạo WBS",
+      "importance": "high",
+      "summaryJa": "プロジェクトを細かい作業に分解して構造化するプロセスである。",
+      "summaryVi": "Quá trình phân rã dự án thành các công việc nhỏ hơn và tổ chức chúng theo cấu trúc phân cấp để dễ lập kế hoạch và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを細かい作業に分解して構造化するプロセスである。この手法では、プロジェクトの全体像を理解しやすくするために、作業を階層的に整理する。具体的には、大きな目標を小さなタスクに分け、それぞれのタスクに責任を持つ担当者を明確にすることで、進捗の管理やリソースの配分がしやすくなる。例えば、ソフトウェア開発プロジェクトでは、要件定義、設計、実装、テストなどの主要なフェーズがあり、それぞれのフェーズをさらに具体的なタスクに分解することで、全体の管理が容易になる。この構造は、プロジェクトのスコープを明確にし、効率的な進行を促進するために重要である。",
+          "vi": "Quá trình phân rã dự án thành các công việc nhỏ hơn và tổ chức chúng theo cấu trúc phân cấp để dễ lập kế hoạch và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「WBSの作成」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tạo WBS và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WBSの作成",
+          "reading": "だぶるびーえすのさくせい",
+          "english": "Work Breakdown Structure Creation",
+          "vi": "Tạo WBS",
+          "definitionJa": "プロジェクトを細かい作業に分解して構造化するプロセスである。",
+          "definitionVi": "Quá trình phân rã dự án thành các công việc nhỏ hơn và tổ chức chúng theo cấu trúc phân cấp để dễ lập kế hoạch và quản lý."
+        }
+      ],
+      "tags": [
+        "14-4",
+        "プロジェクトのスコープ",
+        "Work Breakdown Structure Creation"
+      ]
+    },
+    {
+      "id": "definition-of-activities",
+      "order": 3,
+      "titleJa": "活動の定義",
+      "titleVi": "Định nghĩa hoạt động",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトやビジネスの範囲に含まれるプロセスや行動を明確にすることである。",
+      "summaryVi": "Việc xác định rõ các hoạt động và hành động cụ thể nằm trong phạm vi dự án để đạt được mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトやビジネスの範囲に含まれるプロセスや行動を明確にすることである。活動は、目的を達成するために実施される一連の具体的な行動を指し、一般的には計画、実行、監視、そして報告といったフェーズが含まれる。たとえば、製品開発の活動には、リサーチ、デザイン、製造、テストなどが含まれる。これにより、プロジェクトの進捗や成果を測定しやすくなり、関与するメンバーやステークホルダーが役割を理解する助けとなる。また、明確なリソースの効果的な分配や調整を行うためにも重要である。",
+          "vi": "Việc xác định rõ các hoạt động và hành động cụ thể nằm trong phạm vi dự án để đạt được mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「活動の定義」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Định nghĩa hoạt động và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "活動の定義",
+          "reading": "かつどうのていぎ",
+          "english": "Definition of Activities",
+          "vi": "Định nghĩa hoạt động",
+          "definitionJa": "特定のプロジェクトやビジネスの範囲に含まれるプロセスや行動を明確にすることである。",
+          "definitionVi": "Việc xác định rõ các hoạt động và hành động cụ thể nằm trong phạm vi dự án để đạt được mục tiêu."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Definition of Activities"]
+    },
+    {
+      "id": "scope-management",
+      "order": 4,
+      "titleJa": "スコープの管理",
+      "titleVi": "Quản lý phạm vi",
+      "importance": "high",
+      "summaryJa": "プロジェクトにおいて実施すべき活動や成果物を明確に定義し、管理するプロセスである。",
+      "summaryVi": "Quá trình xác định và quản lý các hoạt động, công việc và sản phẩm bàn giao thuộc phạm vi dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトにおいて実施すべき活動や成果物を明確に定義し、管理するプロセスである。スコープ管理は、プロジェクトの成功に欠かせない要素であり、何が含まれるのか、または含まれないのかを事前に理解することで、無駄を省き、効率的な進行を目指す。具体的には、プロジェクトの範囲を定義し、変更を管理するための計画を策定し、進捗を追跡することが含まれる。これにより、予期しない追加作業や要求が発生することを防ぎ、資源の最適化を図ることができる。この管理は、成果物や作業の信頼性を向上させ、顧客とのコミュニケーションを円滑に進めることにも寄与する。",
+          "vi": "Quá trình xác định và quản lý các hoạt động, công việc và sản phẩm bàn giao thuộc phạm vi dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スコープの管理」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý phạm vi và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スコープの管理",
+          "reading": "すこーぷのかんり",
+          "english": "Scope Management",
+          "vi": "Quản lý phạm vi",
+          "definitionJa": "プロジェクトにおいて実施すべき活動や成果物を明確に定義し、管理するプロセスである。",
+          "definitionVi": "Quá trình xác định và quản lý các hoạt động, công việc và sản phẩm bàn giao thuộc phạm vi dự án."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Scope Management"]
+    },
+    {
+      "id": "scope-definition-document",
+      "order": 5,
+      "titleJa": "スコープ規定書",
+      "titleVi": "Tài liệu quy định phạm vi",
+      "importance": "high",
+      "summaryJa": "プロジェクトの範囲や目標を明確に定義した文書である。",
+      "summaryVi": "Tài liệu xác định rõ phạm vi và mục tiêu của dự án, mô tả những công việc cần thực hiện và làm cơ sở quản lý thay đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの範囲や目標を明確に定義した文書である。この書類は、プロジェクトが何を達成すべきか、どのような作業が含まれるかを詳細に説明し、関係者の合意を得る役割を果たす。例えば、新しいソフトウェアの開発プロジェクトであれば、機能要件、納期、予算などが記載される。スコープ規定書がしっかりと作成されることで、プロジェクトの方向性が明確になり、無駄な作業やコストが削減されることにつながる。また、プロジェクトの進行中に発生する変更要求を管理するための基準にもなる。これにより、関係者とのコミュニケーションが円滑になり、目指すべき最終成果物がより明確に理解される。",
+          "vi": "Tài liệu xác định rõ phạm vi và mục tiêu của dự án, mô tả những công việc cần thực hiện và làm cơ sở quản lý thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スコープ規定書」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tài liệu quy định phạm vi và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スコープ規定書",
+          "reading": "すこーぷきていしょ",
+          "english": "Scope Definition Document",
+          "vi": "Tài liệu quy định phạm vi",
+          "definitionJa": "プロジェクトの範囲や目標を明確に定義した文書である。",
+          "definitionVi": "Tài liệu xác định rõ phạm vi và mục tiêu của dự án, mô tả những công việc cần thực hiện và làm cơ sở quản lý thay đổi."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Scope Definition Document"]
+    },
+    {
+      "id": "wbs",
+      "order": 6,
+      "titleJa": "WBS",
+      "titleVi": "Cấu trúc phân rã công việc (WBS)",
+      "importance": "high",
+      "summaryJa": "プロジェクトを細かな作業単位に分解し、視覚的に整理する手法である。",
+      "summaryVi": "Phương pháp phân rã dự án thành các đơn vị công việc nhỏ hơn theo cấu trúc phân cấp để hỗ trợ lập kế hoạch và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを細かな作業単位に分解し、視覚的に整理する手法である。これにより、全体のタスクや成果物を明確に把握できるようになり、計画や管理が行いやすくなる。具体的には、プロジェクトの成果物を大きなブロックから小さなタスクへと階層的に分ける形式が一般的で、各作業の責任者や納期、リソースの割り当てを行う際の基礎となる。また、WBSを活用することで、進捗管理やコスト見積もりを行いやすくなり、プロジェクト全体の運営を効率化することが可能である。これにより、チーム全員が目指すべき目標を明確に共有できるため、プロジェクトの成功率を高める要素ともなる。",
+          "vi": "Phương pháp phân rã dự án thành các đơn vị công việc nhỏ hơn theo cấu trúc phân cấp để hỗ trợ lập kế hoạch và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「WBS」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Cấu trúc phân rã công việc (WBS) và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WBS",
+          "reading": "だぶるびーえす",
+          "english": "Work Breakdown Structure",
+          "vi": "Cấu trúc phân rã công việc (WBS)",
+          "definitionJa": "プロジェクトを細かな作業単位に分解し、視覚的に整理する手法である。",
+          "definitionVi": "Phương pháp phân rã dự án thành các đơn vị công việc nhỏ hơn theo cấu trúc phân cấp để hỗ trợ lập kế hoạch và quản lý."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Work Breakdown Structure"]
+    },
+    {
+      "id": "wbs-dictionary",
+      "order": 7,
+      "titleJa": "WBS辞書",
+      "titleVi": "Từ điển WBS",
+      "importance": "high",
+      "summaryJa": "プロジェクトの作業分解構造（WBS）に関連する各要素の詳細な説明を記載した文書である。",
+      "summaryVi": "Tài liệu mô tả chi tiết từng thành phần của WBS, như nội dung, mục đích, người chịu trách nhiệm và nguồn lực cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの作業分解構造（WBS）に関連する各要素の詳細な説明を記載した文書である。WBSとは、プロジェクトを小さな作業単位に分解して管理しやすくする手法で、これに基づいて各要素の内容、目的、責任者、必要な資源などが明記されている。プロジェクトチームが同じ理解を持ちながら作業を進めるための重要なツールであり、各作業の範囲や期待される成果物を明確にする役割を果たす。これにより、プロジェクトの進行状況をより正確に把握し、リスク管理やコミュニケーションの質を向上させることが可能になる。",
+          "vi": "Tài liệu mô tả chi tiết từng thành phần của WBS, như nội dung, mục đích, người chịu trách nhiệm và nguồn lực cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「WBS辞書」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Từ điển WBS và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WBS辞書",
+          "reading": "だぶるびーえすじしょ",
+          "english": "WBS Dictionary",
+          "vi": "Từ điển WBS",
+          "definitionJa": "プロジェクトの作業分解構造（WBS）に関連する各要素の詳細な説明を記載した文書である。",
+          "definitionVi": "Tài liệu mô tả chi tiết từng thành phần của WBS, như nội dung, mục đích, người chịu trách nhiệm và nguồn lực cần thiết."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "WBS Dictionary"]
+    },
+    {
+      "id": "activity-list",
+      "order": 8,
+      "titleJa": "活動リスト",
+      "titleVi": "Danh sách hoạt động",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務において必要な行動やタスクを一覧としてまとめたものである。",
+      "summaryVi": "Danh sách tổng hợp các hoạt động hoặc nhiệm vụ cần thiết của dự án, thường kèm thông tin như nội dung, người phụ trách và thời gian dự kiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務において必要な行動やタスクを一覧としてまとめたものである。このリストは、各活動の内容、責任者、予定時間などの情報を含むことが多く、プロジェクト管理において重要な役割を果たす。例えば、イベントの準備やソフトウェア開発プロジェクトでは、必要な作業を明確にし、それぞれの進捗状況を確認するために使用される。活動リストを作成することで、チームメンバー全員がどの仕事をいつまでに完了させるべきかを把握しやすくなり、効率的な業務運営を促進する。さらに、リストは進捗を追跡する手段としても機能し、問題が発生した場合の迅速な対応を可能にする。",
+          "vi": "Danh sách tổng hợp các hoạt động hoặc nhiệm vụ cần thiết của dự án, thường kèm thông tin như nội dung, người phụ trách và thời gian dự kiến."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「活動リスト」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Danh sách hoạt động và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "活動リスト",
+          "reading": "かつどうりすと",
+          "english": "Activity List",
+          "vi": "Danh sách hoạt động",
+          "definitionJa": "プロジェクトや業務において必要な行動やタスクを一覧としてまとめたものである。",
+          "definitionVi": "Danh sách tổng hợp các hoạt động hoặc nhiệm vụ cần thiết của dự án, thường kèm thông tin như nội dung, người phụ trách và thời gian dự kiến."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Activity List"]
+    },
+    {
+      "id": "progress-data",
+      "order": 9,
+      "titleJa": "進捗データ",
+      "titleVi": "Dữ liệu tiến độ",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや作業の進行状況を示す情報のことである。",
+      "summaryVi": "Thông tin thể hiện tình trạng tiến triển của dự án hoặc công việc, như tỷ lệ hoàn thành, thời gian làm việc và mức sử dụng nguồn lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや作業の進行状況を示す情報のことである。このデータには、タスクの完了率や作業時間、リソースの投入状況などが含まれる。プロジェクト管理や業務の最適化において重要な役割を果たし、定期的に収集・分析することで、プロジェクトの今後の方向性を決定する根拠となる。例えば、進捗データを用いることで、予定通りに進んでいるかどうかを評価し、必要に応じてリソースの再配分やスケジュールの調整を行うことができる。また、チームメンバーのコミュニケーションを活発にし、全体の目標に対する理解を深める役割も果たす。",
+          "vi": "Thông tin thể hiện tình trạng tiến triển của dự án hoặc công việc, như tỷ lệ hoàn thành, thời gian làm việc và mức sử dụng nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「進捗データ」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Dữ liệu tiến độ và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "進捗データ",
+          "reading": "しんちょくでーた",
+          "english": "Progress Data",
+          "vi": "Dữ liệu tiến độ",
+          "definitionJa": "プロジェクトや作業の進行状況を示す情報のことである。",
+          "definitionVi": "Thông tin thể hiện tình trạng tiến triển của dự án hoặc công việc, như tỷ lệ hoàn thành, thời gian làm việc và mức sử dụng nguồn lực."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Progress Data"]
+    },
+    {
+      "id": "scope",
+      "order": 10,
+      "titleJa": "スコープ",
+      "titleVi": "Phạm vi (Scope)",
+      "importance": "high",
+      "summaryJa": "プロジェクトやタスクにおける作業の範囲および成果物の明確な定義を指すものである。",
+      "summaryVi": "Phạm vi công việc và sản phẩm bàn giao được xác định rõ trong một dự án hoặc nhiệm vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやタスクにおける作業の範囲および成果物の明確な定義を指すものである。どのような作業が行われるのか、また、その結果としてどのような成果物が生み出されるのかを示す重要な要素である。例えば、ソフトウェア開発プロジェクトにおいては、スコープには開発すべき機能やユーザーインターフェースの要件が含まれ、これによってプロジェクトの進行や成果物の評価が行われる。スコープを明確にすることで、関係者間の期待を調整し、プロジェクトの進捗管理やリソース配分を円滑に行うことが可能になる。適切なスコープ管理は、プロジェクトの成功に直結するといえる。",
+          "vi": "Phạm vi công việc và sản phẩm bàn giao được xác định rõ trong một dự án hoặc nhiệm vụ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スコープ」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phạm vi (Scope) và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スコープ",
+          "reading": "",
+          "english": "Scope",
+          "vi": "Phạm vi (Scope)",
+          "definitionJa": "プロジェクトやタスクにおける作業の範囲および成果物の明確な定義を指すものである。",
+          "definitionVi": "Phạm vi công việc và sản phẩm bàn giao được xác định rõ trong một dự án hoặc nhiệm vụ."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Scope"]
+    },
+    {
+      "id": "work-package",
+      "order": 11,
+      "titleJa": "ワークパッケージ",
+      "titleVi": "Gói công việc (Work Package)",
+      "importance": "high",
+      "summaryJa": "プロジェクト管理において、特定の目標や成果物を達成するために必要な作業の集合を指す。",
+      "summaryVi": "Tập hợp công việc cần thiết để đạt một mục tiêu hoặc sản phẩm bàn giao cụ thể, dùng làm đơn vị để lập kế hoạch và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクト管理において、特定の目標や成果物を達成するために必要な作業の集合を指す。これは、プロジェクトの全体を小さな単位に分けることで、作業を効果的に計画し、管理しやすくする目的がある。例えば、建設プロジェクトでは、基礎工事、電気工事、内装工事などの作業がそれぞれ異なるワークパッケージとして設定され、それぞれ独立して実行される。これにより進捗状況を把握しやすくなり、リソースの最適化や問題の早期発見が可能になる。スケジュールや予算を立てる際の基礎となる重要な要素であり、プロジェクト全体の成功に大きく寄与する。",
+          "vi": "Tập hợp công việc cần thiết để đạt một mục tiêu hoặc sản phẩm bàn giao cụ thể, dùng làm đơn vị để lập kế hoạch và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ワークパッケージ」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Gói công việc (Work Package) và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークパッケージ",
+          "reading": "",
+          "english": "Work Package",
+          "vi": "Gói công việc (Work Package)",
+          "definitionJa": "プロジェクト管理において、特定の目標や成果物を達成するために必要な作業の集合を指す。",
+          "definitionVi": "Tập hợp công việc cần thiết để đạt một mục tiêu hoặc sản phẩm bàn giao cụ thể, dùng làm đơn vị để lập kế hoạch và quản lý."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Work Package"]
+    },
+    {
+      "id": "project-scope-creep",
+      "order": 12,
+      "titleJa": "プロジェクトスコープのクリープ",
+      "titleVi": "Scope creep của dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトの計画で設定した範囲や目標から逸脱し、途中で追加の要求や変更がどんどん増えていく現象を指す。",
+      "summaryVi": "Hiện tượng các yêu cầu hoặc thay đổi bổ sung tăng dần trong quá trình thực hiện khiến dự án vượt khỏi phạm vi hoặc mục tiêu ban đầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの計画で設定した範囲や目標から逸脱し、途中で追加の要求や変更がどんどん増えていく現象を指す。これは、プロジェクトが進む中で新しいニーズや提案が浮上し、元々の計画が曖昧になったり、合意が不十分な場合に起こることが多い。たとえば、開発中のソフトウェアに追加機能の要望が増えることで、プロジェクトが過剰に複雑化し、納期が遅れるリスクが高まる。これを防ぐためには、明確な要件定義や定期的な見直し、関係者間での調整が重要である。なぜなら、プロジェクトを成功に導くためには、範囲を明確に定義し、その範囲を守ることが鍵となるからである。",
+          "vi": "Hiện tượng các yêu cầu hoặc thay đổi bổ sung tăng dần trong quá trình thực hiện khiến dự án vượt khỏi phạm vi hoặc mục tiêu ban đầu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトスコープのクリープ」の意味と、プロジェクトのスコープ管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Scope creep của dự án và vai trò của nó trong quản lý phạm vi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトスコープのクリープ",
+          "reading": "",
+          "english": "Project Scope Creep",
+          "vi": "Scope creep của dự án",
+          "definitionJa": "プロジェクトの計画で設定した範囲や目標から逸脱し、途中で追加の要求や変更がどんどん増えていく現象を指す。",
+          "definitionVi": "Hiện tượng các yêu cầu hoặc thay đổi bổ sung tăng dần trong quá trình thực hiện khiến dự án vượt khỏi phạm vi hoặc mục tiêu ban đầu."
+        }
+      ],
+      "tags": ["14-4", "プロジェクトのスコープ", "Project Scope Creep"]
+    }
+  ]
 }

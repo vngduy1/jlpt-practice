@@ -4,5 +4,709 @@
   "titleJa": "プロジェクトの統合",
   "titleVi": "Tích hợp dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "project-charter-creation",
+      "order": 1,
+      "titleJa": "プロジェクト憲章の作成",
+      "titleVi": "Tạo điều lệ dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトの目的や範囲、関与者の役割を明確に定義するプロセスである。",
+      "summaryVi": "Quá trình xác định rõ mục đích, phạm vi và vai trò của những người liên quan trong dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの目的や範囲、関与者の役割を明確に定義するプロセスである。",
+          "vi": "Quá trình xác định rõ mục đích, phạm vi và vai trò của những người liên quan trong dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト憲章の作成」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Tạo điều lệ dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト憲章の作成",
+          "reading": "ぷろじぇくとけんしょうのさくせい",
+          "english": "Project Charter Creation",
+          "vi": "Tạo điều lệ dự án",
+          "definitionJa": "プロジェクトの目的や範囲、関与者の役割を明確に定義するプロセスである。",
+          "definitionVi": "Quá trình xác định rõ mục đích, phạm vi và vai trò của những người liên quan trong dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Charter Creation"]
+    },
+    {
+      "id": "project-overall-plan-development",
+      "order": 2,
+      "titleJa": "プロジェクト全体計画の作成",
+      "titleVi": "Lập kế hoạch tổng thể dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトを成功に導くために必要な全体的な計画を策定するプロセスである。",
+      "summaryVi": "Quá trình xây dựng kế hoạch tổng thể cần thiết để đưa dự án đến thành công.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを成功に導くために必要な全体的な計画を策定するプロセスである。",
+          "vi": "Quá trình xây dựng kế hoạch tổng thể cần thiết để đưa dự án đến thành công."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト全体計画の作成」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Lập kế hoạch tổng thể dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト全体計画の作成",
+          "reading": "ぷろじぇくとぜんたいけいかくのさくせい",
+          "english": "Project Overall Plan Development",
+          "vi": "Lập kế hoạch tổng thể dự án",
+          "definitionJa": "プロジェクトを成功に導くために必要な全体的な計画を策定するプロセスである。",
+          "definitionVi": "Quá trình xây dựng kế hoạch tổng thể cần thiết để đưa dự án đến thành công."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Overall Plan Development"]
+    },
+    {
+      "id": "project-work-direction",
+      "order": 3,
+      "titleJa": "プロジェクト作業の指揮",
+      "titleVi": "Chỉ đạo công việc dự án",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトを遂行するために必要な作業を計画し、調整し、実行するプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch, điều phối và thực hiện các công việc cần thiết để triển khai dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを遂行するために必要な作業を計画し、調整し、実行するプロセスである。",
+          "vi": "Quá trình lập kế hoạch, điều phối và thực hiện các công việc cần thiết để triển khai dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト作業の指揮」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Chỉ đạo công việc dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト作業の指揮",
+          "reading": "ぷろじぇくとさぎょうのしき",
+          "english": "Project Work Direction",
+          "vi": "Chỉ đạo công việc dự án",
+          "definitionJa": "特定のプロジェクトを遂行するために必要な作業を計画し、調整し、実行するプロセスである。",
+          "definitionVi": "Quá trình lập kế hoạch, điều phối và thực hiện các công việc cần thiết để triển khai dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Work Direction"]
+    },
+    {
+      "id": "project-work-management",
+      "order": 4,
+      "titleJa": "プロジェクト作業の管理",
+      "titleVi": "Quản lý công việc dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトを円滑に進めるために行う計画、実行、監視、制御のプロセス全体を指す。",
+      "summaryVi": "Toàn bộ quá trình lập kế hoạch, thực hiện, giám sát và kiểm soát để dự án được triển khai thuận lợi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを円滑に進めるために行う計画、実行、監視、制御のプロセス全体を指す。",
+          "vi": "Toàn bộ quá trình lập kế hoạch, thực hiện, giám sát và kiểm soát để dự án được triển khai thuận lợi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト作業の管理」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Quản lý công việc dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト作業の管理",
+          "reading": "ぷろじぇくとさぎょうのかんり",
+          "english": "Project Work Management",
+          "vi": "Quản lý công việc dự án",
+          "definitionJa": "プロジェクトを円滑に進めるために行う計画、実行、監視、制御のプロセス全体を指す。",
+          "definitionVi": "Toàn bộ quá trình lập kế hoạch, thực hiện, giám sát và kiểm soát để dự án được triển khai thuận lợi."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Work Management"]
+    },
+    {
+      "id": "change-management",
+      "order": 5,
+      "titleJa": "変更の管理",
+      "titleVi": "Quản lý thay đổi",
+      "importance": "high",
+      "summaryJa": "プロジェクトやシステムにおいて、計画された変更を効果的に実施するためのプロセスである。",
+      "summaryVi": "Quá trình quản lý để thực hiện các thay đổi của dự án hoặc hệ thống một cách có kiểm soát.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやシステムにおいて、計画された変更を効果的に実施するためのプロセスである。",
+          "vi": "Quá trình quản lý để thực hiện các thay đổi của dự án hoặc hệ thống một cách có kiểm soát."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「変更の管理」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Quản lý thay đổi được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "変更の管理",
+          "reading": "へんこうのかんり",
+          "english": "Change Management",
+          "vi": "Quản lý thay đổi",
+          "definitionJa": "プロジェクトやシステムにおいて、計画された変更を効果的に実施するためのプロセスである。",
+          "definitionVi": "Quá trình quản lý để thực hiện các thay đổi của dự án hoặc hệ thống một cách có kiểm soát."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Change Management"]
+    },
+    {
+      "id": "project-phase-or-project-closure",
+      "order": 6,
+      "titleJa": "プロジェクトフェーズ又はプロジェクトの終結",
+      "titleVi": "Kết thúc giai đoạn hoặc dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトの進行過程を段階的に分けたり、プロジェクトの完了を指す概念である。",
+      "summaryVi": "Khái niệm liên quan đến việc phân chia quá trình dự án thành các giai đoạn và chính thức kết thúc giai đoạn hoặc toàn bộ dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの進行過程を段階的に分けたり、プロジェクトの完了を指す概念である。",
+          "vi": "Khái niệm liên quan đến việc phân chia quá trình dự án thành các giai đoạn và chính thức kết thúc giai đoạn hoặc toàn bộ dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトフェーズ又はプロジェクトの終結」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Kết thúc giai đoạn hoặc dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトフェーズ又はプロジェクトの終結",
+          "reading": "ぷろじぇくとふぇーずまたはぷろじぇくとのしゅうけつ",
+          "english": "Project Phase or Project Closure",
+          "vi": "Kết thúc giai đoạn hoặc dự án",
+          "definitionJa": "プロジェクトの進行過程を段階的に分けたり、プロジェクトの完了を指す概念である。",
+          "definitionVi": "Khái niệm liên quan đến việc phân chia quá trình dự án thành các giai đoạn và chính thức kết thúc giai đoạn hoặc toàn bộ dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Phase or Project Closure"]
+    },
+    {
+      "id": "gathering-lessons-learned",
+      "order": 7,
+      "titleJa": "得た教訓の収集",
+      "titleVi": "Thu thập bài học kinh nghiệm",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務の遂行中に得た経験や知識を整理し、将来に活かすためのプロセスである。",
+      "summaryVi": "Quá trình tổng hợp kinh nghiệm và kiến thức thu được trong dự án để sử dụng cho các dự án sau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の遂行中に得た経験や知識を整理し、将来に活かすためのプロセスである。",
+          "vi": "Quá trình tổng hợp kinh nghiệm và kiến thức thu được trong dự án để sử dụng cho các dự án sau."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「得た教訓の収集」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Thu thập bài học kinh nghiệm được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "得た教訓の収集",
+          "reading": "えたきょうくんのしゅうしゅう",
+          "english": "Gathering Lessons Learned",
+          "vi": "Thu thập bài học kinh nghiệm",
+          "definitionJa": "プロジェクトや業務の遂行中に得た経験や知識を整理し、将来に活かすためのプロセスである。",
+          "definitionVi": "Quá trình tổng hợp kinh nghiệm và kiến thức thu được trong dự án để sử dụng cho các dự án sau."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Gathering Lessons Learned"]
+    },
+    {
+      "id": "project-work-specification",
+      "order": 8,
+      "titleJa": "プロジェクト作業規定書",
+      "titleVi": "Quy định công việc dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトを円滑に進めるために必要なルールや手順を明文化した文書である。",
+      "summaryVi": "Tài liệu quy định rõ các quy tắc và thủ tục cần thiết để thực hiện công việc dự án một cách thống nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを円滑に進めるために必要なルールや手順を明文化した文書である。",
+          "vi": "Tài liệu quy định rõ các quy tắc và thủ tục cần thiết để thực hiện công việc dự án một cách thống nhất."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト作業規定書」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Quy định công việc dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト作業規定書",
+          "reading": "ぷろじぇくとさぎょうきていしょ",
+          "english": "Project Work Specification",
+          "vi": "Quy định công việc dự án",
+          "definitionJa": "プロジェクトを円滑に進めるために必要なルールや手順を明文化した文書である。",
+          "definitionVi": "Tài liệu quy định rõ các quy tắc và thủ tục cần thiết để thực hiện công việc dự án một cách thống nhất."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Work Specification"]
+    },
+    {
+      "id": "project-charter",
+      "order": 9,
+      "titleJa": "プロジェクト憲章",
+      "titleVi": "Điều lệ dự án",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトの目的や範囲、資源、関係者を明確に定義した文書である。",
+      "summaryVi": "Tài liệu chính thức xác định mục đích, phạm vi, nguồn lực và các bên liên quan của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトの目的や範囲、資源、関係者を明確に定義した文書である。",
+          "vi": "Tài liệu chính thức xác định mục đích, phạm vi, nguồn lực và các bên liên quan của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト憲章」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Điều lệ dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト憲章",
+          "reading": "ぷろじぇくとけんしょう",
+          "english": "Project Charter",
+          "vi": "Điều lệ dự án",
+          "definitionJa": "特定のプロジェクトの目的や範囲、資源、関係者を明確に定義した文書である。",
+          "definitionVi": "Tài liệu chính thức xác định mục đích, phạm vi, nguồn lực và các bên liên quan của dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Charter"]
+    },
+    {
+      "id": "project-master-plan",
+      "order": 10,
+      "titleJa": "プロジェクト全体計画",
+      "titleVi": "Kế hoạch tổng thể dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトの目的を達成するために必要な全体的な戦略やスケジュールを示した文書である。",
+      "summaryVi": "Tài liệu thể hiện chiến lược và lịch trình tổng thể cần thiết để đạt mục tiêu của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの目的を達成するために必要な全体的な戦略やスケジュールを示した文書である。",
+          "vi": "Tài liệu thể hiện chiến lược và lịch trình tổng thể cần thiết để đạt mục tiêu của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト全体計画」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Kế hoạch tổng thể dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト全体計画",
+          "reading": "ぷろじぇくとぜんたいけいかく",
+          "english": "Project Master Plan",
+          "vi": "Kế hoạch tổng thể dự án",
+          "definitionJa": "プロジェクトの目的を達成するために必要な全体的な戦略やスケジュールを示した文書である。",
+          "definitionVi": "Tài liệu thể hiện chiến lược và lịch trình tổng thể cần thiết để đạt mục tiêu của dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Master Plan"]
+    },
+    {
+      "id": "change-request",
+      "order": 11,
+      "titleJa": "変更要求",
+      "titleVi": "Yêu cầu thay đổi",
+      "importance": "high",
+      "summaryJa": "プロジェクトやシステムにおいて、既存の計画や仕様を変更するために提出される要望のことである。",
+      "summaryVi": "Yêu cầu được gửi để thay đổi kế hoạch hoặc đặc tả hiện có của dự án hay hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやシステムにおいて、既存の計画や仕様を変更するために提出される要望のことである。",
+          "vi": "Yêu cầu được gửi để thay đổi kế hoạch hoặc đặc tả hiện có của dự án hay hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「変更要求」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Yêu cầu thay đổi được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "変更要求",
+          "reading": "へんこうようきゅう",
+          "english": "Change Request",
+          "vi": "Yêu cầu thay đổi",
+          "definitionJa": "プロジェクトやシステムにおいて、既存の計画や仕様を変更するために提出される要望のことである。",
+          "definitionVi": "Yêu cầu được gửi để thay đổi kế hoạch hoặc đặc tả hiện có của dự án hay hệ thống."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Change Request"]
+    },
+    {
+      "id": "approved-change",
+      "order": 12,
+      "titleJa": "承認された変更",
+      "titleVi": "Thay đổi đã được phê duyệt",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務において正式に認められた変更のことを指す。",
+      "summaryVi": "Thay đổi đã được xem xét và chính thức phê duyệt trong dự án hoặc công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務において正式に認められた変更のことを指す。",
+          "vi": "Thay đổi đã được xem xét và chính thức phê duyệt trong dự án hoặc công việc."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「承認された変更」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Thay đổi đã được phê duyệt được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "承認された変更",
+          "reading": "しょうにんされたへんこう",
+          "english": "Approved Change",
+          "vi": "Thay đổi đã được phê duyệt",
+          "definitionJa": "プロジェクトや業務において正式に認められた変更のことを指す。",
+          "definitionVi": "Thay đổi đã được xem xét và chính thức phê duyệt trong dự án hoặc công việc."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Approved Change"]
+    },
+    {
+      "id": "change-register",
+      "order": 13,
+      "titleJa": "変更登録簿",
+      "titleVi": "Sổ đăng ký thay đổi",
+      "importance": "high",
+      "summaryJa": "システムやプロジェクトにおいて発生した変更を記録するための文書やデータベースである。",
+      "summaryVi": "Tài liệu hoặc cơ sở dữ liệu dùng để ghi lại các thay đổi phát sinh trong dự án hoặc hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロジェクトにおいて発生した変更を記録するための文書やデータベースである。",
+          "vi": "Tài liệu hoặc cơ sở dữ liệu dùng để ghi lại các thay đổi phát sinh trong dự án hoặc hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「変更登録簿」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Sổ đăng ký thay đổi được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "変更登録簿",
+          "reading": "へんこうとうろくぼ",
+          "english": "Change Register",
+          "vi": "Sổ đăng ký thay đổi",
+          "definitionJa": "システムやプロジェクトにおいて発生した変更を記録するための文書やデータベースである。",
+          "definitionVi": "Tài liệu hoặc cơ sở dữ liệu dùng để ghi lại các thay đổi phát sinh trong dự án hoặc hệ thống."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Change Register"]
+    },
+    {
+      "id": "corrective-action",
+      "order": 14,
+      "titleJa": "是正処置",
+      "titleVi": "Hành động khắc phục",
+      "importance": "high",
+      "summaryJa": "問題や欠陥が発生した際に、それを修正または改善するために取られる具体的な行動や手続きである。",
+      "summaryVi": "Hành động hoặc thủ tục cụ thể được thực hiện để sửa chữa hay cải thiện khi phát sinh vấn đề hoặc khiếm khuyết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題や欠陥が発生した際に、それを修正または改善するために取られる具体的な行動や手続きである。",
+          "vi": "Hành động hoặc thủ tục cụ thể được thực hiện để sửa chữa hay cải thiện khi phát sinh vấn đề hoặc khiếm khuyết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「是正処置」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Hành động khắc phục được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "是正処置",
+          "reading": "ぜせいしょち",
+          "english": "Corrective Action",
+          "vi": "Hành động khắc phục",
+          "definitionJa": "問題や欠陥が発生した際に、それを修正または改善するために取られる具体的な行動や手続きである。",
+          "definitionVi": "Hành động hoặc thủ tục cụ thể được thực hiện để sửa chữa hay cải thiện khi phát sinh vấn đề hoặc khiếm khuyết."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Corrective Action"]
+    },
+    {
+      "id": "project-completion-report",
+      "order": 15,
+      "titleJa": "プロジェクト完了報告書",
+      "titleVi": "Báo cáo hoàn thành dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトの実施後に作成される文書であり、プロジェクトの成果や進行状況をまとめたものである。",
+      "summaryVi": "Tài liệu được lập sau khi thực hiện dự án để tổng hợp kết quả, tình hình triển khai, vấn đề và bài học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの実施後に作成される文書であり、プロジェクトの成果や進行状況をまとめたものである。",
+          "vi": "Tài liệu được lập sau khi thực hiện dự án để tổng hợp kết quả, tình hình triển khai, vấn đề và bài học."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト完了報告書」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Báo cáo hoàn thành dự án được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト完了報告書",
+          "reading": "ぷろじぇくとかんりょうほうこくしょ",
+          "english": "Project Completion Report",
+          "vi": "Báo cáo hoàn thành dự án",
+          "definitionJa": "プロジェクトの実施後に作成される文書であり、プロジェクトの成果や進行状況をまとめたものである。",
+          "definitionVi": "Tài liệu được lập sau khi thực hiện dự án để tổng hợp kết quả, tình hình triển khai, vấn đề và bài học."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project Completion Report"]
+    },
+    {
+      "id": "project-or-phase-closeout-report",
+      "order": 16,
+      "titleJa": "プロジェクト又はフェーズの終結報告書",
+      "titleVi": "Báo cáo kết thúc dự án hoặc giai đoạn",
+      "importance": "medium",
+      "summaryJa": "プロジェクトの完了時に作成される公式な文書である。",
+      "summaryVi": "Tài liệu chính thức được lập khi kết thúc dự án hoặc một giai đoạn của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの完了時に作成される公式な文書である。",
+          "vi": "Tài liệu chính thức được lập khi kết thúc dự án hoặc một giai đoạn của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト又はフェーズの終結報告書」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Báo cáo kết thúc dự án hoặc giai đoạn được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト又はフェーズの終結報告書",
+          "reading": "ぷろじぇくとまたはふぇーずのしゅうけつほうこくしょ",
+          "english": "Project or Phase Closeout Report",
+          "vi": "Báo cáo kết thúc dự án hoặc giai đoạn",
+          "definitionJa": "プロジェクトの完了時に作成される公式な文書である。",
+          "definitionVi": "Tài liệu chính thức được lập khi kết thúc dự án hoặc một giai đoạn của dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Project or Phase Closeout Report"]
+    },
+    {
+      "id": "lessons-learned-document",
+      "order": 17,
+      "titleJa": "得た教訓文書",
+      "titleVi": "Tài liệu bài học kinh nghiệm",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務の遂行において得られた教訓をまとめた文書である。",
+      "summaryVi": "Tài liệu tổng hợp những bài học thu được trong quá trình thực hiện dự án hoặc công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の遂行において得られた教訓をまとめた文書である。",
+          "vi": "Tài liệu tổng hợp những bài học thu được trong quá trình thực hiện dự án hoặc công việc."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「得た教訓文書」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Tài liệu bài học kinh nghiệm được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "得た教訓文書",
+          "reading": "えたきょうくんぶんしょ",
+          "english": "Lessons Learned Document",
+          "vi": "Tài liệu bài học kinh nghiệm",
+          "definitionJa": "プロジェクトや業務の遂行において得られた教訓をまとめた文書である。",
+          "definitionVi": "Tài liệu tổng hợp những bài học thu được trong quá trình thực hiện dự án hoặc công việc."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Lessons Learned Document"]
+    },
+    {
+      "id": "baseline",
+      "order": 18,
+      "titleJa": "ベースライン",
+      "titleVi": "Đường cơ sở (Baseline)",
+      "importance": "high",
+      "summaryJa": "プロジェクトや作業において、進捗や成果を評価するための基準や参照点を示すものである。",
+      "summaryVi": "Mốc hoặc tiêu chuẩn tham chiếu dùng để đánh giá tiến độ và kết quả thực tế của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや作業において、進捗や成果を評価するための基準や参照点を示すものである。",
+          "vi": "Mốc hoặc tiêu chuẩn tham chiếu dùng để đánh giá tiến độ và kết quả thực tế của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ベースライン」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Đường cơ sở (Baseline) được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベースライン",
+          "reading": "",
+          "english": "Baseline",
+          "vi": "Đường cơ sở (Baseline)",
+          "definitionJa": "プロジェクトや作業において、進捗や成果を評価するための基準や参照点を示すものである。",
+          "definitionVi": "Mốc hoặc tiêu chuẩn tham chiếu dùng để đánh giá tiến độ và kết quả thực tế của dự án."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Baseline"]
+    },
+    {
+      "id": "ccb",
+      "order": 19,
+      "titleJa": "CCB",
+      "titleVi": "Ban kiểm soát thay đổi (CCB)",
+      "importance": "high",
+      "summaryJa": "プロジェクトやシステムにおける変更提案を評価・承認するための委員会である。",
+      "summaryVi": "Hội đồng chịu trách nhiệm đánh giá và phê duyệt hoặc từ chối các đề xuất thay đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやシステムにおける変更提案を評価・承認するための委員会である。",
+          "vi": "Hội đồng chịu trách nhiệm đánh giá và phê duyệt hoặc từ chối các đề xuất thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「CCB」がプロジェクト統合でどのような役割を持つかを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm Ban kiểm soát thay đổi (CCB) được sử dụng ở đâu và có vai trò gì trong việc tích hợp, điều phối toàn bộ dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CCB",
+          "reading": "しーしーびー",
+          "english": "Change Control Board",
+          "vi": "Ban kiểm soát thay đổi (CCB)",
+          "definitionJa": "プロジェクトやシステムにおける変更提案を評価・承認するための委員会である。",
+          "definitionVi": "Hội đồng chịu trách nhiệm đánh giá và phê duyệt hoặc từ chối các đề xuất thay đổi."
+        }
+      ],
+      "tags": ["14-2", "プロジェクトの統合", "Change Control Board"]
+    }
+  ]
 }

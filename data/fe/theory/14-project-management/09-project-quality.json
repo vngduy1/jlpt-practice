@@ -4,5 +4,417 @@
   "titleJa": "プロジェクトの品質",
   "titleVi": "Chất lượng dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "quality-planning-process",
+      "order": 1,
+      "titleJa": "品質の計画",
+      "titleVi": "Lập kế hoạch chất lượng",
+      "importance": "high",
+      "summaryJa": "製品やサービスの品質を確保するための目標や基準を設定し、それを実現するための手段を計画するプロセスである。",
+      "summaryVi": "Quá trình đặt mục tiêu và tiêu chuẩn chất lượng, đồng thời lập kế hoạch các biện pháp cần thiết để đạt được chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスの品質を確保するための目標や基準を設定し、それを実現するための手段を計画するプロセスである。このプロセスでは、まず顧客の要求や期待を明確にし、それに基づいて具体的な品質目標を掲げる。例えば、新しい製品の開発においては、耐久性や安全性などの品質基準を設定し、それに合致するような設計や製造プロセスを計画する。また、品質計画には、必要なリソースの特定や、品質を測定するための指標も含まれる。適切に行うことで、顧客満足度を向上させ、品質に関する問題を事前に防ぐことが可能となる。プロジェクト全体の成功を左右する重要な要素である。",
+          "vi": "Quá trình đặt mục tiêu và tiêu chuẩn chất lượng, đồng thời lập kế hoạch các biện pháp cần thiết để đạt được chúng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質の計画」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập kế hoạch chất lượng và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質の計画",
+          "reading": "ひんしつのけいかく",
+          "english": "Quality Planning",
+          "vi": "Lập kế hoạch chất lượng",
+          "definitionJa": "製品やサービスの品質を確保するための目標や基準を設定し、それを実現するための手段を計画するプロセスである。",
+          "definitionVi": "Quá trình đặt mục tiêu và tiêu chuẩn chất lượng, đồng thời lập kế hoạch các biện pháp cần thiết để đạt được chúng."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Quality Planning"]
+    },
+    {
+      "id": "quality-assurance-execution",
+      "order": 2,
+      "titleJa": "品質保証の遂行",
+      "titleVi": "Thực hiện đảm bảo chất lượng",
+      "importance": "high",
+      "summaryJa": "製品やサービスの品質を確保するために実施される一連のプロセスである。",
+      "summaryVi": "Chuỗi hoạt động được thực hiện nhằm đảm bảo sản phẩm hoặc dịch vụ đáp ứng chất lượng yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスの品質を確保するために実施される一連のプロセスである。このプロセスは、計画、実行、評価、改善のサイクルを含み、最終的には顧客の期待に応えるものとなる。例えば、製造業では、出荷前に製品が所定の品質基準を満たしているかをテストし、問題があれば改善策を講じることが重要である。また、ソフトウェア開発においても、バグや仕様の不具合を見つけるためにテストフェーズを設けることが一般的である。このように、製品やサービスの品質を向上させ、顧客満足度を高めるために不可欠な活動である。",
+          "vi": "Chuỗi hoạt động được thực hiện nhằm đảm bảo sản phẩm hoặc dịch vụ đáp ứng chất lượng yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質保証の遂行」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thực hiện đảm bảo chất lượng và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質保証の遂行",
+          "reading": "ひんしつほしょうのすいこう",
+          "english": "Quality Assurance Execution",
+          "vi": "Thực hiện đảm bảo chất lượng",
+          "definitionJa": "製品やサービスの品質を確保するために実施される一連のプロセスである。",
+          "definitionVi": "Chuỗi hoạt động được thực hiện nhằm đảm bảo sản phẩm hoặc dịch vụ đáp ứng chất lượng yêu cầu."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Quality Assurance Execution"]
+    },
+    {
+      "id": "quality-management-execution",
+      "order": 3,
+      "titleJa": "品質管理の遂行",
+      "titleVi": "Thực hiện quản lý chất lượng",
+      "importance": "high",
+      "summaryJa": "製品やサービスが求められる品質基準を満たすための一連の活動を指す。",
+      "summaryVi": "Các hoạt động lập kế hoạch, thực hiện, đánh giá và cải tiến để sản phẩm hoặc dịch vụ đáp ứng tiêu chuẩn chất lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが求められる品質基準を満たすための一連の活動を指す。このプロセスには、計画、実行、評価、改善のサイクルが含まれる。具体的には、初めに品質目標を設定し、それを達成するための戦略や手段を決定する。その後、実際に業務を行い、成果を測定して問題点を洗い出し、必要な改善策を講じることで、品質を持続的に向上させていく。例えば、製造業においては、生産工程での検査やフィードバックループを設けることで、製品の欠陥を早期に発見し、顧客満足を高めることが可能となる。このように、組織の信頼性を築くために不可欠な要素である。",
+          "vi": "Các hoạt động lập kế hoạch, thực hiện, đánh giá và cải tiến để sản phẩm hoặc dịch vụ đáp ứng tiêu chuẩn chất lượng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質管理の遂行」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thực hiện quản lý chất lượng và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質管理の遂行",
+          "reading": "ひんしつかんりのすいこう",
+          "english": "Quality Management Execution",
+          "vi": "Thực hiện quản lý chất lượng",
+          "definitionJa": "製品やサービスが求められる品質基準を満たすための一連の活動を指す。",
+          "definitionVi": "Các hoạt động lập kế hoạch, thực hiện, đánh giá và cải tiến để sản phẩm hoặc dịch vụ đáp ứng tiêu chuẩn chất lượng."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Quality Management Execution"]
+    },
+    {
+      "id": "quality-requirements",
+      "order": 4,
+      "titleJa": "品質要求事項",
+      "titleVi": "Yêu cầu chất lượng",
+      "importance": "high",
+      "summaryJa": "製品やサービスが満たすべき品質についての特定の基準や条件である。",
+      "summaryVi": "Các tiêu chuẩn hoặc điều kiện cụ thể về chất lượng mà sản phẩm hay dịch vụ phải đáp ứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが満たすべき品質についての特定の基準や条件である。これらの要求事項は、顧客の期待を反映し、製品の性能、信頼性、安全性、メンテナンス性など、複数の側面に関連している。例えば、新しいソフトウェアを開発する際には、バグのない状態や使用者が簡単に操作できるUI（ユーザーインターフェース）を求めることが含まれる。プロジェクトの初期段階で明確に定義されることで、開発チームが目指すべき目標を理解しやすくなり、最終的な成果物の品質を高めることに寄与するため、非常に重要である。また、これらの要求は文書化され、プロジェクトの進行や品質管理の際に参照されることが一般的である。",
+          "vi": "Các tiêu chuẩn hoặc điều kiện cụ thể về chất lượng mà sản phẩm hay dịch vụ phải đáp ứng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質要求事項」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Yêu cầu chất lượng và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質要求事項",
+          "reading": "ひんしつようきゅうじこう",
+          "english": "Quality Requirements",
+          "vi": "Yêu cầu chất lượng",
+          "definitionJa": "製品やサービスが満たすべき品質についての特定の基準や条件である。",
+          "definitionVi": "Các tiêu chuẩn hoặc điều kiện cụ thể về chất lượng mà sản phẩm hay dịch vụ phải đáp ứng."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Quality Requirements"]
+    },
+    {
+      "id": "quality-plan",
+      "order": 5,
+      "titleJa": "品質計画",
+      "titleVi": "Kế hoạch chất lượng",
+      "importance": "high",
+      "summaryJa": "プロジェクトや製品の品質基準を設定し、それを達成するための方法や手段を明確にするプロセスである。",
+      "summaryVi": "Việc xác định tiêu chuẩn chất lượng của dự án hoặc sản phẩm và phương pháp, nguồn lực để đạt tiêu chuẩn đó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや製品の品質基準を設定し、それを達成するための方法や手段を明確にするプロセスである。顧客の要求に応えるために必要不可欠であり、メンバー全員が目指すべき方向性を示す役割を果たす。例えば、新しい製品を開発する際には、市場のニーズや法規制に基づいて品質基準を定め、その基準を達成するためのスケジュールやリソース配分を計画する。このように、実行段階での成果物の品質が求められるレベルに達するように導く重要な手続きであり、リスク管理や問題解決にも寄与する。さらに、品質管理の手法を適切に選択することによって、効率的に目標を達成する基盤を作り出すことが可能となる。",
+          "vi": "Việc xác định tiêu chuẩn chất lượng của dự án hoặc sản phẩm và phương pháp, nguồn lực để đạt tiêu chuẩn đó."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「品質計画」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Kế hoạch chất lượng và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質計画",
+          "reading": "ひんしつけいかく",
+          "english": "Quality Planning",
+          "vi": "Kế hoạch chất lượng",
+          "definitionJa": "プロジェクトや製品の品質基準を設定し、それを達成するための方法や手段を明確にするプロセスである。",
+          "definitionVi": "Việc xác định tiêu chuẩn chất lượng của dự án hoặc sản phẩm và phương pháp, nguồn lực để đạt tiêu chuẩn đó."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Quality Planning"]
+    },
+    {
+      "id": "progress-data",
+      "order": 6,
+      "titleJa": "進捗データ",
+      "titleVi": "Dữ liệu tiến độ",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトや作業の進行状況を示す情報である。",
+      "summaryVi": "Thông tin thể hiện trạng thái tiến triển của dự án hoặc công việc, như mức hoàn thành, phần việc còn lại và khả năng đạt thời hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトや作業の進行状況を示す情報である。このデータは、タスクの完了度や残りの作業量、期限内に目標が達成できるかどうかなどを測定するために使用される。例えば、建設プロジェクトで作業がどの段階にあるかを記録することで、関係者は適切なリソース配分やスケジュール調整を行うことが可能になる。また、進捗データはプロジェクト管理や報告書作成において重要な役割を果たし、関与するメンバー間のコミュニケーションを円滑にする手助けともなる。適切な進捗データの収集と分析は、プロジェクトの成功に欠かせない要素である。",
+          "vi": "Thông tin thể hiện trạng thái tiến triển của dự án hoặc công việc, như mức hoàn thành, phần việc còn lại và khả năng đạt thời hạn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「進捗データ」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Dữ liệu tiến độ và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "進捗データ",
+          "reading": "しんちょくでーた",
+          "english": "Progress Data",
+          "vi": "Dữ liệu tiến độ",
+          "definitionJa": "特定のプロジェクトや作業の進行状況を示す情報である。",
+          "definitionVi": "Thông tin thể hiện trạng thái tiến triển của dự án hoặc công việc, như mức hoàn thành, phần việc còn lại và khả năng đạt thời hạn."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Progress Data"]
+    },
+    {
+      "id": "inspection-report",
+      "order": 7,
+      "titleJa": "検査報告書",
+      "titleVi": "Báo cáo kiểm tra",
+      "importance": "high",
+      "summaryJa": "特定の製品やサービスについて行われた検査の結果を記録した文書である。",
+      "summaryVi": "Tài liệu ghi lại kết quả kiểm tra sản phẩm hoặc dịch vụ, gồm đối tượng, tiêu chuẩn, kết quả và các vấn đề phát hiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の製品やサービスについて行われた検査の結果を記録した文書である。例えば、建設現場での資材検査を行った場合、その結果をまとめたものが検査報告書になる。この報告書には、検査日、検査を行った対象、検査基準、結果、問題点などの情報が含まれ、関係者が理解しやすい形で提示される。品質管理や安全性の確認に役立ち、将来の改善やトラブル防止に貢献する重要な資料となる。",
+          "vi": "Tài liệu ghi lại kết quả kiểm tra sản phẩm hoặc dịch vụ, gồm đối tượng, tiêu chuẩn, kết quả và các vấn đề phát hiện."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「検査報告書」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Báo cáo kiểm tra và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "検査報告書",
+          "reading": "けんさほうこくしょ",
+          "english": "Inspection Report",
+          "vi": "Báo cáo kiểm tra",
+          "definitionJa": "特定の製品やサービスについて行われた検査の結果を記録した文書である。",
+          "definitionVi": "Tài liệu ghi lại kết quả kiểm tra sản phẩm hoặc dịch vụ, gồm đối tượng, tiêu chuẩn, kết quả và các vấn đề phát hiện."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Inspection Report"]
+    },
+    {
+      "id": "corrective-action",
+      "order": 8,
+      "titleJa": "是正処置",
+      "titleVi": "Hành động khắc phục",
+      "importance": "high",
+      "summaryJa": "問題や不具合が発生した際に、それを改善するための具体的な対策を講じることを指す用語である。",
+      "summaryVi": "Biện pháp được thực hiện sau khi vấn đề hoặc sự không phù hợp xảy ra nhằm khắc phục nguyên nhân và ngăn tái diễn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題や不具合が発生した際に、それを改善するための具体的な対策を講じることを指す用語である。例えば、製品の製造過程で不良品が出た場合、その原因を分析し、再発を防ぐためにプロセスを見直すことが是正処置に該当する。この対策は、品質管理やプロジェクト管理において重要であり、組織が持続的に改善し、生産性を向上させるために欠かせないプロセスである。適切な是正処置を行うことで、顧客満足度を高めると同時に、ビジネスの信頼性も向上させることができる。",
+          "vi": "Biện pháp được thực hiện sau khi vấn đề hoặc sự không phù hợp xảy ra nhằm khắc phục nguyên nhân và ngăn tái diễn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「是正処置」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Hành động khắc phục và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "是正処置",
+          "reading": "ぜせいしょち",
+          "english": "Corrective Action",
+          "vi": "Hành động khắc phục",
+          "definitionJa": "問題や不具合が発生した際に、それを改善するための具体的な対策を講じることを指す用語である。",
+          "definitionVi": "Biện pháp được thực hiện sau khi vấn đề hoặc sự không phù hợp xảy ra nhằm khắc phục nguyên nhân và ngăn tái diễn."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Corrective Action"]
+    },
+    {
+      "id": "preventive-action",
+      "order": 9,
+      "titleJa": "予防処置",
+      "titleVi": "Hành động phòng ngừa",
+      "importance": "high",
+      "summaryJa": "問題が発生する前にその原因を取り除くために講じる対策を指す用語である。",
+      "summaryVi": "Biện pháp được thực hiện trước khi vấn đề xảy ra nhằm loại bỏ nguyên nhân tiềm ẩn và phòng tránh sự cố.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題が発生する前にその原因を取り除くために講じる対策を指す用語である。例えば、機器の定期的な点検やメンテナンスは、故障を未然に防ぐための予防処置である。このような行動によって、システムの安定性や信頼性を向上させることができる。特に製造業やIT業界では、予防処置を講じることで生産性を向上させ、コストを削減する効果が期待される。また、リスク管理の観点からも、予防処置は非常に重要で、将来的なトラブルを未然に防ぐための重要なステップとなる。",
+          "vi": "Biện pháp được thực hiện trước khi vấn đề xảy ra nhằm loại bỏ nguyên nhân tiềm ẩn và phòng tránh sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「予防処置」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Hành động phòng ngừa và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "予防処置",
+          "reading": "よぼうしょち",
+          "english": "Preventive Action",
+          "vi": "Hành động phòng ngừa",
+          "definitionJa": "問題が発生する前にその原因を取り除くために講じる対策を指す用語である。",
+          "definitionVi": "Biện pháp được thực hiện trước khi vấn đề xảy ra nhằm loại bỏ nguyên nhân tiềm ẩn và phòng tránh sự cố."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Preventive Action"]
+    },
+    {
+      "id": "utilization-of-quality-management-metrics",
+      "order": 10,
+      "titleJa": "プロジェクトにおける品質管理測定値の活用",
+      "titleVi": "Sử dụng các chỉ số đo lường quản lý chất lượng trong dự án",
+      "importance": "high",
+      "summaryJa": "プロジェクトの成果物やプロセスの品質を評価するために、さまざまな測定値を利用することを指す。",
+      "summaryVi": "Việc sử dụng các giá trị đo lường và kỹ thuật biểu diễn dữ liệu để đánh giá chất lượng sản phẩm bàn giao và quy trình của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトの成果物やプロセスの品質を評価するために、さまざまな測定値を利用することを指す。これには、データを視覚的に表現する技法の選択が含まれる。たとえば、グラフやチャートを用いることで、品質に関するデータを直感的に理解しやすくすることができる。適切なデータ表現技法を選ぶことにより、関係者がプロジェクトの進捗や問題点を把握しやすくなり、迅速な意思決定が可能となる。ひんしつかんりにおける測定値は、問題の早期発見や対策の実施に役立ち、結果的にプロジェクトの成功を支える重要な要素である。",
+          "vi": "Việc sử dụng các giá trị đo lường và kỹ thuật biểu diễn dữ liệu để đánh giá chất lượng sản phẩm bàn giao và quy trình của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトにおける品質管理測定値の活用」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Sử dụng các chỉ số đo lường quản lý chất lượng trong dự án và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトにおける品質管理測定値の活用",
+          "reading": "ぷろじぇくとにおけるひんしつかんりそくていちのかつよう",
+          "english": "Utilization of Quality Management Metrics in Projects",
+          "vi": "Sử dụng các chỉ số đo lường quản lý chất lượng trong dự án",
+          "definitionJa": "プロジェクトの成果物やプロセスの品質を評価するために、さまざまな測定値を利用することを指す。",
+          "definitionVi": "Việc sử dụng các giá trị đo lường và kỹ thuật biểu diễn dữ liệu để đánh giá chất lượng sản phẩm bàn giao và quy trình của dự án."
+        }
+      ],
+      "tags": [
+        "14-9",
+        "プロジェクトの品質",
+        "Utilization of Quality Management Metrics in Projects"
+      ]
+    },
+    {
+      "id": "cost-benefit-analysis",
+      "order": 11,
+      "titleJa": "費用便益分析",
+      "titleVi": "Phân tích chi phí - lợi ích",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトや投資の効果を評価する手法である。",
+      "summaryVi": "Phương pháp so sánh lợi ích thu được với chi phí cần bỏ ra để đánh giá hiệu quả của một dự án hoặc khoản đầu tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトや投資の効果を評価する手法である。この分析では、得られる利益と必要な費用を比較し、どれだけの価値があるかを判断する。例えば、新しいシステムを導入する場合、その導入によって期待できる利益が100万円で、導入にかかる費用が50万円であれば、費用便益分析により、投資が有益であると考えられる。また、さまざまな選択肢を比較する際にも利用され、最も効率的な決定を下すための重要なツールである。これにより、資源を有効に使うことが可能となる。",
+          "vi": "Phương pháp so sánh lợi ích thu được với chi phí cần bỏ ra để đánh giá hiệu quả của một dự án hoặc khoản đầu tư."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「費用便益分析」の意味と、プロジェクトの品質管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phân tích chi phí - lợi ích và vai trò của nó trong quản lý chất lượng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "費用便益分析",
+          "reading": "ひようべんえきぶんせき",
+          "english": "Cost-Benefit Analysis",
+          "vi": "Phân tích chi phí - lợi ích",
+          "definitionJa": "特定のプロジェクトや投資の効果を評価する手法である。",
+          "definitionVi": "Phương pháp so sánh lợi ích thu được với chi phí cần bỏ ra để đánh giá hiệu quả của một dự án hoặc khoản đầu tư."
+        }
+      ],
+      "tags": ["14-9", "プロジェクトの品質", "Cost-Benefit Analysis"]
+    }
+  ]
 }

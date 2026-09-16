@@ -4,5 +4,384 @@
   "titleJa": "プロジェクトの資源",
   "titleVi": "Nguồn lực dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "project-team-formation",
+      "order": 1,
+      "titleJa": "プロジェクトチームの編成",
+      "titleVi": "Thành lập nhóm dự án",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトを成功させるために、適切なメンバーを選び、組織するプロセスである。",
+      "summaryVi": "Quá trình lựa chọn và tổ chức các thành viên phù hợp để thực hiện thành công một dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを成功させるために、適切なメンバーを選び、組織するプロセスである。",
+          "vi": "Quá trình lựa chọn và tổ chức các thành viên phù hợp để thực hiện thành công một dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトチームの編成」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thành lập nhóm dự án và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトチームの編成",
+          "reading": "ぷろじぇくとちーむのへんせい",
+          "english": "Project Team Formation",
+          "vi": "Thành lập nhóm dự án",
+          "definitionJa": "特定のプロジェクトを成功させるために、適切なメンバーを選び、組織するプロセスである。",
+          "definitionVi": "Quá trình lựa chọn và tổ chức các thành viên phù hợp để thực hiện thành công một dự án."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Project Team Formation"]
+    },
+    {
+      "id": "resource-estimation",
+      "order": 2,
+      "titleJa": "資源の見積り",
+      "titleVi": "Ước lượng nguồn lực",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトを遂行するために必要なリソースを予測するプロセスである。",
+      "summaryVi": "Quá trình dự đoán các nguồn lực cần thiết để thực hiện dự án, như nhân lực, thời gian, ngân sách và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを遂行するために必要なリソースを予測するプロセスである。",
+          "vi": "Quá trình dự đoán các nguồn lực cần thiết để thực hiện dự án, như nhân lực, thời gian, ngân sách và thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「資源の見積り」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ước lượng nguồn lực và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資源の見積り",
+          "reading": "しげんのみつもり",
+          "english": "Resource Estimation",
+          "vi": "Ước lượng nguồn lực",
+          "definitionJa": "特定のプロジェクトを遂行するために必要なリソースを予測するプロセスである。",
+          "definitionVi": "Quá trình dự đoán các nguồn lực cần thiết để thực hiện dự án, như nhân lực, thời gian, ngân sách và thiết bị."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Resource Estimation"]
+    },
+    {
+      "id": "definition-of-project-organization",
+      "order": 3,
+      "titleJa": "プロジェクト組織の定義",
+      "titleVi": "Xác định tổ chức dự án",
+      "importance": "medium",
+      "summaryJa": "特定の目標を達成するために、限られた時間内に人や資源を集めて構成される一時的な組織体を指す。",
+      "summaryVi": "Việc xác định tổ chức tạm thời gồm con người và nguồn lực được tập hợp trong một khoảng thời gian giới hạn để đạt mục tiêu dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目標を達成するために、限られた時間内に人や資源を集めて構成される一時的な組織体を指す。",
+          "vi": "Việc xác định tổ chức tạm thời gồm con người và nguồn lực được tập hợp trong một khoảng thời gian giới hạn để đạt mục tiêu dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクト組織の定義」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Xác định tổ chức dự án và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト組織の定義",
+          "reading": "ぷろじぇくとそしきのていぎ",
+          "english": "Definition of Project Organization",
+          "vi": "Xác định tổ chức dự án",
+          "definitionJa": "特定の目標を達成するために、限られた時間内に人や資源を集めて構成される一時的な組織体を指す。",
+          "definitionVi": "Việc xác định tổ chức tạm thời gồm con người và nguồn lực được tập hợp trong một khoảng thời gian giới hạn để đạt mục tiêu dự án."
+        }
+      ],
+      "tags": [
+        "14-5",
+        "プロジェクトの資源",
+        "Definition of Project Organization"
+      ]
+    },
+    {
+      "id": "project-team-development",
+      "order": 4,
+      "titleJa": "プロジェクトチームの開発",
+      "titleVi": "Phát triển nhóm dự án",
+      "importance": "high",
+      "summaryJa": "特定の目標を達成するために、スキルや役割の異なるメンバーが集まり、協力し合って作業を行うプロセスである。",
+      "summaryVi": "Quá trình phát triển sự phối hợp giữa các thành viên có kỹ năng và vai trò khác nhau để cùng đạt mục tiêu của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目標を達成するために、スキルや役割の異なるメンバーが集まり、協力し合って作業を行うプロセスである。",
+          "vi": "Quá trình phát triển sự phối hợp giữa các thành viên có kỹ năng và vai trò khác nhau để cùng đạt mục tiêu của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトチームの開発」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phát triển nhóm dự án và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトチームの開発",
+          "reading": "ぷろじぇくとちーむのかいはつ",
+          "english": "Project Team Development",
+          "vi": "Phát triển nhóm dự án",
+          "definitionJa": "特定の目標を達成するために、スキルや役割の異なるメンバーが集まり、協力し合って作業を行うプロセスである。",
+          "definitionVi": "Quá trình phát triển sự phối hợp giữa các thành viên có kỹ năng và vai trò khác nhau để cùng đạt mục tiêu của dự án."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Project Team Development"]
+    },
+    {
+      "id": "resource-management",
+      "order": 5,
+      "titleJa": "資源の管理",
+      "titleVi": "Quản lý nguồn lực",
+      "importance": "high",
+      "summaryJa": "企業や組織が持つさまざまな資源を効果的に活用し、最適化するためのプロセスである。",
+      "summaryVi": "Quá trình sử dụng, phân bổ và tối ưu hóa hiệu quả các nguồn lực như nhân lực, tài chính, thiết bị và thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が持つさまざまな資源を効果的に活用し、最適化するためのプロセスである。",
+          "vi": "Quá trình sử dụng, phân bổ và tối ưu hóa hiệu quả các nguồn lực như nhân lực, tài chính, thiết bị và thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「資源の管理」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý nguồn lực và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資源の管理",
+          "reading": "しげんのかんり",
+          "english": "Resource Management",
+          "vi": "Quản lý nguồn lực",
+          "definitionJa": "企業や組織が持つさまざまな資源を効果的に活用し、最適化するためのプロセスである。",
+          "definitionVi": "Quá trình sử dụng, phân bổ và tối ưu hóa hiệu quả các nguồn lực như nhân lực, tài chính, thiết bị và thông tin."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Resource Management"]
+    },
+    {
+      "id": "project-team-management",
+      "order": 6,
+      "titleJa": "プロジェクトチームのマネジメント",
+      "titleVi": "Quản lý nhóm dự án",
+      "importance": "high",
+      "summaryJa": "特定の目的を持ったプロジェクトにおいて、チームメンバーの活動を計画、組織、指導、および調整するプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch, tổ chức, chỉ đạo và điều phối hoạt động của các thành viên trong nhóm dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目的を持ったプロジェクトにおいて、チームメンバーの活動を計画、組織、指導、および調整するプロセスである。",
+          "vi": "Quá trình lập kế hoạch, tổ chức, chỉ đạo và điều phối hoạt động của các thành viên trong nhóm dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトチームのマネジメント」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý nhóm dự án và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトチームのマネジメント",
+          "reading": "",
+          "english": "Project Team Management",
+          "vi": "Quản lý nhóm dự án",
+          "definitionJa": "特定の目的を持ったプロジェクトにおいて、チームメンバーの活動を計画、組織、指導、および調整するプロセスである。",
+          "definitionVi": "Quá trình lập kế hoạch, tổ chức, chỉ đạo và điều phối hoạt động của các thành viên trong nhóm dự án."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Project Team Management"]
+    },
+    {
+      "id": "resource-requirements",
+      "order": 7,
+      "titleJa": "資源要求事項",
+      "titleVi": "Yêu cầu nguồn lực",
+      "importance": "high",
+      "summaryJa": "プロジェクトやシステムの実施に必要なリソースに関する具体的な要件を指すものである。",
+      "summaryVi": "Các yêu cầu cụ thể về nguồn lực cần thiết để triển khai dự án hoặc hệ thống, như nhân lực, công nghệ, vốn và thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやシステムの実施に必要なリソースに関する具体的な要件を指すものである。",
+          "vi": "Các yêu cầu cụ thể về nguồn lực cần thiết để triển khai dự án hoặc hệ thống, như nhân lực, công nghệ, vốn và thời gian."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「資源要求事項」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Yêu cầu nguồn lực và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資源要求事項",
+          "reading": "しげんようきゅうじこう",
+          "english": "Resource Requirements",
+          "vi": "Yêu cầu nguồn lực",
+          "definitionJa": "プロジェクトやシステムの実施に必要なリソースに関する具体的な要件を指すものである。",
+          "definitionVi": "Các yêu cầu cụ thể về nguồn lực cần thiết để triển khai dự án hoặc hệ thống, như nhân lực, công nghệ, vốn và thời gian."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Resource Requirements"]
+    },
+    {
+      "id": "project-organization-chart",
+      "order": 8,
+      "titleJa": "プロジェクトの組織図",
+      "titleVi": "Sơ đồ tổ chức dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトに関わる人々や組織の役割と関係性を示した図である。",
+      "summaryVi": "Sơ đồ thể hiện vai trò và mối quan hệ giữa những cá nhân và tổ chức tham gia dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトに関わる人々や組織の役割と関係性を示した図である。",
+          "vi": "Sơ đồ thể hiện vai trò và mối quan hệ giữa những cá nhân và tổ chức tham gia dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロジェクトの組織図」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Sơ đồ tổ chức dự án và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクトの組織図",
+          "reading": "ぷろじぇくとのそしきず",
+          "english": "Project Organization Chart",
+          "vi": "Sơ đồ tổ chức dự án",
+          "definitionJa": "プロジェクトに関わる人々や組織の役割と関係性を示した図である。",
+          "definitionVi": "Sơ đồ thể hiện vai trò và mối quan hệ giữa những cá nhân và tổ chức tham gia dự án."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Project Organization Chart"]
+    },
+    {
+      "id": "ram",
+      "order": 9,
+      "titleJa": "RAM",
+      "titleVi": "Ma trận phân công trách nhiệm (RAM)",
+      "importance": "high",
+      "summaryJa": "プロジェクト管理において、各タスクや活動に対する責任を明確に示すためのツールである。",
+      "summaryVi": "Công cụ dạng ma trận dùng để xác định rõ trách nhiệm của từng thành viên hoặc bên liên quan đối với các nhiệm vụ và hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクト管理において、各タスクや活動に対する責任を明確に示すためのツールである。",
+          "vi": "Công cụ dạng ma trận dùng để xác định rõ trách nhiệm của từng thành viên hoặc bên liên quan đối với các nhiệm vụ và hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「RAM」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ma trận phân công trách nhiệm (RAM) và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RAM",
+          "reading": "らむ",
+          "english": "Responsibility Assignment Matrix",
+          "vi": "Ma trận phân công trách nhiệm (RAM)",
+          "definitionJa": "プロジェクト管理において、各タスクや活動に対する責任を明確に示すためのツールである。",
+          "definitionVi": "Công cụ dạng ma trận dùng để xác định rõ trách nhiệm của từng thành viên hoặc bên liên quan đối với các nhiệm vụ và hoạt động."
+        }
+      ],
+      "tags": ["14-5", "プロジェクトの資源", "Responsibility Assignment Matrix"]
+    },
+    {
+      "id": "obs",
+      "order": 10,
+      "titleJa": "OBS",
+      "titleVi": "Cấu trúc phân rã tổ chức (OBS)",
+      "importance": "high",
+      "summaryJa": "プロジェクト管理におけるツールの一つで、組織の構造を視覚的に表現するための手法である。",
+      "summaryVi": "Công cụ biểu diễn cấu trúc tổ chức theo dạng phân cấp, giúp làm rõ các bộ phận, nhóm, cá nhân và phạm vi trách nhiệm trong dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクト管理におけるツールの一つで、組織の構造を視覚的に表現するための手法である。",
+          "vi": "Công cụ biểu diễn cấu trúc tổ chức theo dạng phân cấp, giúp làm rõ các bộ phận, nhóm, cá nhân và phạm vi trách nhiệm trong dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「OBS」の意味と、プロジェクトの資源管理における役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Cấu trúc phân rã tổ chức (OBS) và vai trò của nó trong quản lý nguồn lực dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OBS",
+          "reading": "おーびーえす",
+          "english": "Organizational Breakdown Structure",
+          "vi": "Cấu trúc phân rã tổ chức (OBS)",
+          "definitionJa": "プロジェクト管理におけるツールの一つで、組織の構造を視覚的に表現するための手法である。",
+          "definitionVi": "Công cụ biểu diễn cấu trúc tổ chức theo dạng phân cấp, giúp làm rõ các bộ phận, nhóm, cá nhân và phạm vi trách nhiệm trong dự án."
+        }
+      ],
+      "tags": [
+        "14-5",
+        "プロジェクトの資源",
+        "Organizational Breakdown Structure"
+      ]
+    }
+  ]
 }

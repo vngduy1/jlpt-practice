@@ -2,7 +2,525 @@
   "id": "project-communication",
   "order": 11,
   "titleJa": "プロジェクトのコミュニケーション",
-  "titleVi": "Giao tiếp trong dự án",
+  "titleVi": "Truyền thông dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "communication-plan",
+      "order": 1,
+      "titleJa": "コミュニケーションの計画",
+      "titleVi": "Lập kế hoạch truyền thông",
+      "importance": "high",
+      "summaryJa": "特定の目的に対して、情報をどのように伝えるかを体系的に整理した計画である。",
+      "summaryVi": "Kế hoạch xác định cách truyền đạt thông tin, đối tượng nhận, phương tiện, nội dung, hình thức và tần suất giao tiếp để bảo đảm luồng thông tin của dự án diễn ra thuận lợi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の目的に対して、情報をどのように伝えるかを体系的に整理した計画である。この計画は、関与する対象（チームメンバー、顧客、ステークホルダーなど）や、使用するメディア（メール、会議、電話など）を明確にし、情報の流れを円滑にすることを目指す。例えば、プロジェクトの進捗状況を定期的にクライアントに報告する場合、その内容、形式、頻度などを事前に決めることで、誤解を避け、スムーズなコミュニケーションを実現できる。適切なプロジェクトの成功に寄与する重要な要素である。",
+          "vi": "Kế hoạch xác định cách truyền đạt thông tin, đối tượng nhận, phương tiện, nội dung, hình thức và tần suất giao tiếp để bảo đảm luồng thông tin của dự án diễn ra thuận lợi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コミュニケーションの計画」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Lập kế hoạch truyền thông và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーションの計画",
+          "reading": "こみゅにけーしょんのけいか",
+          "english": "Communication Plan",
+          "vi": "Lập kế hoạch truyền thông",
+          "definitionJa": "特定の目的に対して、情報をどのように伝えるかを体系的に整理した計画である。",
+          "definitionVi": "Kế hoạch xác định cách truyền đạt thông tin, đối tượng nhận, phương tiện, nội dung, hình thức và tần suất giao tiếp để bảo đảm luồng thông tin của dự án diễn ra thuận lợi."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Communication Plan"
+      ]
+    },
+    {
+      "id": "information-distribution",
+      "order": 2,
+      "titleJa": "情報の配布",
+      "titleVi": "Phân phối thông tin",
+      "importance": "high",
+      "summaryJa": "特定の情報を必要とする受け手に対して、その情報を伝達・共有するプロセスを指す用語である。",
+      "summaryVi": "Quá trình truyền đạt và chia sẻ thông tin đến những người cần nhận thông tin bằng các phương tiện thích hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の情報を必要とする受け手に対して、その情報を伝達・共有するプロセスを指す用語である。例えば、企業内での報告書やお知らせを社員に配布することが、情報の配布の一例である。このプロセスは、メールや印刷物、デジタルプラットフォームなど様々な手段を用いて行われる。効果的なコミュニケーションを確保するために不可欠であり、正確かつ迅速な情報提供が求められる。特に、チームワークや組織の決定に関わる場面では、効果的な情報の配布が成果を左右することがある。",
+          "vi": "Quá trình truyền đạt và chia sẻ thông tin đến những người cần nhận thông tin bằng các phương tiện thích hợp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「情報の配布」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Phân phối thông tin và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報の配布",
+          "reading": "じょうほうのはいふ",
+          "english": "Information Distribution",
+          "vi": "Phân phối thông tin",
+          "definitionJa": "特定の情報を必要とする受け手に対して、その情報を伝達・共有するプロセスを指す用語である。",
+          "definitionVi": "Quá trình truyền đạt và chia sẻ thông tin đến những người cần nhận thông tin bằng các phương tiện thích hợp."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Information Distribution"
+      ]
+    },
+    {
+      "id": "communication-management",
+      "order": 3,
+      "titleJa": "コミュニケーションのマネジメント",
+      "titleVi": "Quản lý truyền thông",
+      "importance": "high",
+      "summaryJa": "情報を効率的に交換し、理解を深めるためのプロセスや活動を管理することを指す用語である。",
+      "summaryVi": "Việc lập kế hoạch, thực hiện và đánh giá hoạt động trao đổi thông tin với các bên liên quan nhằm duy trì luồng thông tin hiệu quả và hạn chế hiểu nhầm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を効率的に交換し、理解を深めるためのプロセスや活動を管理することを指す用語である。具体的には、組織内外の関係者とのコミュニケーションを計画し、実行し、評価することが含まれる。このプロセスには、メッセージの設計、チャンネルの選定、フィードバックの収集が含まれ、円滑な情報の流れを実現するために重要である。たとえば、プロジェクトの進捗状況をチーム全体に伝えるための定期的なミーティングや報告書の作成は、コミュニケーションのマネジメントにおける重要な活動であり、情報の透明性を確保し、誤解を防ぐ役割を果たす。このように、効果的な組織の成長や成功に寄与するものである。",
+          "vi": "Việc lập kế hoạch, thực hiện và đánh giá hoạt động trao đổi thông tin với các bên liên quan nhằm duy trì luồng thông tin hiệu quả và hạn chế hiểu nhầm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コミュニケーションのマネジメント」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý truyền thông và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーションのマネジメント",
+          "reading": "",
+          "english": "Communication Management",
+          "vi": "Quản lý truyền thông",
+          "definitionJa": "情報を効率的に交換し、理解を深めるためのプロセスや活動を管理することを指す用語である。",
+          "definitionVi": "Việc lập kế hoạch, thực hiện và đánh giá hoạt động trao đổi thông tin với các bên liên quan nhằm duy trì luồng thông tin hiệu quả và hạn chế hiểu nhầm."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Communication Management"
+      ]
+    },
+    {
+      "id": "progress-report",
+      "order": 4,
+      "titleJa": "進捗報告書",
+      "titleVi": "Báo cáo tiến độ",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務の進行状況をまとめた文書である。",
+      "summaryVi": "Tài liệu tổng hợp tình trạng tiến triển, vấn đề và bước tiếp theo của dự án để chia sẻ với các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の進行状況をまとめた文書である。この報告書は、作業の進捗や問題点、次のステップについて記録し、関係者と情報を共有するために作成される。たとえば、プロジェクト管理において、定期的に進捗報告書を提出することで、チームメンバーや上司がプロジェクトの状況を把握しやすくなり、必要な対応を迅速に行うことが可能になる。このように透明性を確保し、プロジェクトの成功に貢献する重要なツールである。",
+          "vi": "Tài liệu tổng hợp tình trạng tiến triển, vấn đề và bước tiếp theo của dự án để chia sẻ với các bên liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「進捗報告書」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Báo cáo tiến độ và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "進捗報告書",
+          "reading": "しんちょくほうこくしょ",
+          "english": "Progress Report",
+          "vi": "Báo cáo tiến độ",
+          "definitionJa": "プロジェクトや業務の進行状況をまとめた文書である。",
+          "definitionVi": "Tài liệu tổng hợp tình trạng tiến triển, vấn đề và bước tiếp theo của dự án để chia sẻ với các bên liên quan."
+        }
+      ],
+      "tags": ["14-11", "プロジェクトのコミュニケーション", "Progress Report"]
+    },
+    {
+      "id": "distribution-information",
+      "order": 5,
+      "titleJa": "配布情報",
+      "titleVi": "Thông tin phân phối",
+      "importance": "medium",
+      "summaryJa": "特定の情報やデータがどのように配布されるかに関する詳細を指す用語である。",
+      "summaryVi": "Thông tin mô tả nội dung và phương thức mà dữ liệu hoặc thông báo được phân phối đến các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の情報やデータがどのように配布されるかに関する詳細を指す用語である。例えば、特定のソフトウェアの更新情報や会社の通知が、メールやWebサイトを通じて従業員に配送される場合、その手段や内容が配布情報に該当する。これにより、関係者は必要な情報を適切に受け取ることができる。正確な情報の伝達が効率的であることを保証し、誤解や情報の行き違いを防ぐために不可欠である。そのため、組織内外での情報流通の透明性が重要視されている。",
+          "vi": "Thông tin mô tả nội dung và phương thức mà dữ liệu hoặc thông báo được phân phối đến các bên liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「配布情報」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thông tin phân phối và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "配布情報",
+          "reading": "はいふじょうほう",
+          "english": "Distribution Information",
+          "vi": "Thông tin phân phối",
+          "definitionJa": "特定の情報やデータがどのように配布されるかに関する詳細を指す用語である。",
+          "definitionVi": "Thông tin mô tả nội dung và phương thức mà dữ liệu hoặc thông báo được phân phối đến các bên liên quan."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Distribution Information"
+      ]
+    },
+    {
+      "id": "two-way-communication",
+      "order": 6,
+      "titleJa": "双方向コミュニケーション",
+      "titleVi": "Giao tiếp hai chiều",
+      "importance": "high",
+      "summaryJa": "情報が双方向に流れるやり取りのことを指す用語である。",
+      "summaryVi": "Hình thức giao tiếp trong đó người gửi và người nhận trao đổi thông tin qua lại, cho phép phản hồi và xác nhận sự hiểu biết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報が双方向に流れるやり取りのことを指す用語である。これは、情報の発信者と受信者が互いにメッセージを送受信し合うことによって成り立つ。例えば、電話やビデオ会議では、話した内容を相手が反応することで、より深い理解や意見交換が行われる。対照的に、一方向コミュニケーションでは、情報が一方的に提供されるため、意見のフィードバックが得られにくい。双方向コミュニケーションを活用することで、意見の共有や問題解決が効率的になり、団体やチームの協力を促進することができる。",
+          "vi": "Hình thức giao tiếp trong đó người gửi và người nhận trao đổi thông tin qua lại, cho phép phản hồi và xác nhận sự hiểu biết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「双方向コミュニケーション」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Giao tiếp hai chiều và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "双方向コミュニケーション",
+          "reading": "そうほうこうこみゅにけーしょん",
+          "english": "Two-Way Communication",
+          "vi": "Giao tiếp hai chiều",
+          "definitionJa": "情報が双方向に流れるやり取りのことを指す用語である。",
+          "definitionVi": "Hình thức giao tiếp trong đó người gửi và người nhận trao đổi thông tin qua lại, cho phép phản hồi và xác nhận sự hiểu biết."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Two-Way Communication"
+      ]
+    },
+    {
+      "id": "push-communication",
+      "order": 7,
+      "titleJa": "プッシュ型コミュニケーション",
+      "titleVi": "Giao tiếp kiểu Push",
+      "importance": "high",
+      "summaryJa": "情報やメッセージが一方的に受信者に送信されるコミュニケーションの方法である。",
+      "summaryVi": "Hình thức người gửi chủ động gửi thông tin trực tiếp đến người nhận, chẳng hạn qua email hoặc bản tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報やメッセージが一方的に受信者に送信されるコミュニケーションの方法である。例えば、メールやニュースレターが代表例で、必要なタイミングで受信者が情報を取りに行くのではなく、送信者が直接届ける。この方法は、迅速に情報を伝えることができるため、ビジネスにおいて特に有効である。また、イベントの通知や重要なアラートなど、受信者が見逃してはいけない情報の配信の際に多く利用される。しかし、受信者によっては情報過多となることもあるため、適切に利用することが重要である。",
+          "vi": "Hình thức người gửi chủ động gửi thông tin trực tiếp đến người nhận, chẳng hạn qua email hoặc bản tin."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プッシュ型コミュニケーション」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Giao tiếp kiểu Push và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プッシュ型コミュニケーション",
+          "reading": "ぷっしゅがたこみゅにけーしょん",
+          "english": "Push Communication",
+          "vi": "Giao tiếp kiểu Push",
+          "definitionJa": "情報やメッセージが一方的に受信者に送信されるコミュニケーションの方法である。",
+          "definitionVi": "Hình thức người gửi chủ động gửi thông tin trực tiếp đến người nhận, chẳng hạn qua email hoặc bản tin."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Push Communication"
+      ]
+    },
+    {
+      "id": "pull-communication",
+      "order": 8,
+      "titleJa": "プル型コミュニケーション",
+      "titleVi": "Giao tiếp kiểu Pull",
+      "importance": "high",
+      "summaryJa": "情報を受け取る側が必要に応じて情報を取得する方式を指す。",
+      "summaryVi": "Hình thức người nhận chủ động truy cập và lấy thông tin khi cần, thay vì thông tin được gửi trực tiếp đến họ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を受け取る側が必要に応じて情報を取得する方式を指す。例えば、Webサイトやメールマガジンなどは、受け手が自らアクセスして情報を得るため、プル型の一例である。この方式のメリットは、受け手が自分のペースで情報を確認できる点にある。また、必要な時に必要な情報を集めることができるため、情報の過多を避けることにもつながる。これに対して、プッシュ型コミュニケーションは、情報が自動的に送られる方式であり、両者は状況に応じて使い分けられることが多い。プル型は、特に自分で情報を管理したいユーザーにとって利用しやすい手段である。",
+          "vi": "Hình thức người nhận chủ động truy cập và lấy thông tin khi cần, thay vì thông tin được gửi trực tiếp đến họ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プル型コミュニケーション」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Giao tiếp kiểu Pull và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プル型コミュニケーション",
+          "reading": "ぷるがたこみゅにけーしょん",
+          "english": "Pull Communication",
+          "vi": "Giao tiếp kiểu Pull",
+          "definitionJa": "情報を受け取る側が必要に応じて情報を取得する方式を指す。",
+          "definitionVi": "Hình thức người nhận chủ động truy cập và lấy thông tin khi cần, thay vì thông tin được gửi trực tiếp đến họ."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Pull Communication"
+      ]
+    },
+    {
+      "id": "electronic-mail",
+      "order": 9,
+      "titleJa": "電子メール",
+      "titleVi": "Thư điện tử",
+      "importance": "medium",
+      "summaryJa": "インターネットを利用してメッセージやファイルを送受信するためのサービスである。",
+      "summaryVi": "Dịch vụ sử dụng Internet để gửi và nhận thông điệp cùng tệp đính kèm giữa các địa chỉ thư điện tử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットを利用してメッセージやファイルを送受信するためのサービスである。ユーザーは、テキストメッセージ、画像、文書などのデータを相手に迅速に伝えることができ、文字情報に加えて添付ファイルを通じて多様な情報をやり取りできるのが特徴である。例えば、仕事の連絡や友人とのコミュニケーションにおいて、電子メールは広く利用されている。また、特定のアドレスに対して直接送信されるため、プライバシーを保ちながら効率的に情報を共有できる。そのため、ビジネスや日常生活において欠かせないツールとなっている。",
+          "vi": "Dịch vụ sử dụng Internet để gửi và nhận thông điệp cùng tệp đính kèm giữa các địa chỉ thư điện tử."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「電子メール」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thư điện tử và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子メール",
+          "reading": "でんしめーる",
+          "english": "Electronic Mail",
+          "vi": "Thư điện tử",
+          "definitionJa": "インターネットを利用してメッセージやファイルを送受信するためのサービスである。",
+          "definitionVi": "Dịch vụ sử dụng Internet để gửi và nhận thông điệp cùng tệp đính kèm giữa các địa chỉ thư điện tử."
+        }
+      ],
+      "tags": ["14-11", "プロジェクトのコミュニケーション", "Electronic Mail"]
+    },
+    {
+      "id": "voicemail",
+      "order": 10,
+      "titleJa": "ボイスメール",
+      "titleVi": "Thư thoại",
+      "importance": "medium",
+      "summaryJa": "音声メッセージを録音し、受取人が後で聴くことができる通信サービスである。",
+      "summaryVi": "Dịch vụ ghi lại tin nhắn thoại để người nhận có thể nghe lại sau khi không thể trả lời cuộc gọi trực tiếp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "音声メッセージを録音し、受取人が後で聴くことができる通信サービスである。このシステムでは、電話をかけた相手が応答しない場合や、話している人と繋がらない場合にメッセージを残すことが可能である。たとえば、ビジネスシーンでは、顧客が担当者に伝えたい重要な情報を音声メッセージとして残すことがある。受取人は、後でボイスメールにアクセスし、メッセージを確認することができるため、連絡がとれなくても重要な情報を受け取る手段となる。これにより、コミュニケーションがより効率的になり、時間に制約のある状況でも適切に対応できる。",
+          "vi": "Dịch vụ ghi lại tin nhắn thoại để người nhận có thể nghe lại sau khi không thể trả lời cuộc gọi trực tiếp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ボイスメール」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Thư thoại và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ボイスメール",
+          "reading": "",
+          "english": "Voicemail",
+          "vi": "Thư thoại",
+          "definitionJa": "音声メッセージを録音し、受取人が後で聴くことができる通信サービスである。",
+          "definitionVi": "Dịch vụ ghi lại tin nhắn thoại để người nhận có thể nghe lại sau khi không thể trả lời cuộc gọi trực tiếp."
+        }
+      ],
+      "tags": ["14-11", "プロジェクトのコミュニケーション", "Voicemail"]
+    },
+    {
+      "id": "video-conferencing",
+      "order": 11,
+      "titleJa": "テレビ会議",
+      "titleVi": "Hội nghị truyền hình",
+      "importance": "medium",
+      "summaryJa": "遠隔地にいる人同士が映像と音声を通じてコミュニケーションを行う手法である。",
+      "summaryVi": "Phương thức giao tiếp từ xa bằng hình ảnh và âm thanh theo thời gian thực, thường hỗ trợ cả chia sẻ tài liệu hoặc màn hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "遠隔地にいる人同士が映像と音声を通じてコミュニケーションを行う手法である。例えば、仕事の会議や教育の場において、参加者がそれぞれの場所から集まり、リアルタイムで顔を見ながら話し合うことができる。インターネットを介して行われるため、場所を問わずに利用でき、移動の手間や時間を削減できる利点がある。また、資料を画面共有する機能なども備えており、視覚情報を交えた効果的なプレゼンテーションが可能である。特に、リモートワークや国際的なビジネスでの重要性が増している。",
+          "vi": "Phương thức giao tiếp từ xa bằng hình ảnh và âm thanh theo thời gian thực, thường hỗ trợ cả chia sẻ tài liệu hoặc màn hình."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「テレビ会議」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Hội nghị truyền hình và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テレビ会議",
+          "reading": "てれびかいぎ",
+          "english": "Video Conferencing",
+          "vi": "Hội nghị truyền hình",
+          "definitionJa": "遠隔地にいる人同士が映像と音声を通じてコミュニケーションを行う手法である。",
+          "definitionVi": "Phương thức giao tiếp từ xa bằng hình ảnh và âm thanh theo thời gian thực, thường hỗ trợ cả chia sẻ tài liệu hoặc màn hình."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Video Conferencing"
+      ]
+    },
+    {
+      "id": "paper-surface",
+      "order": 12,
+      "titleJa": "紙面",
+      "titleVi": "Mặt giấy / phương tiện giấy",
+      "importance": "medium",
+      "summaryJa": "印刷や書き込みが行われる紙の表面を指す用語である。",
+      "summaryVi": "Theo nội dung nguồn, thuật ngữ này chỉ bề mặt giấy dùng để in hoặc viết và các đặc tính của giấy có thể ảnh hưởng đến cách thể hiện thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "印刷や書き込みが行われる紙の表面を指す用語である。例えば、書籍やポスターなどの制作において、紙の種類や質感が最終的な仕上がりに大きく影響する。紙面の特徴には、ざらざらした質感や滑らかな光沢が含まれ、これによって印刷の発色や視覚的な印象が変わることがある。デザインを行う際は、使用する紙面の特性を考慮することで、より意図した表現を引き出すことが可能である。紙面の選択は、アートや商業印刷における重要なステップと言える。",
+          "vi": "Theo nội dung nguồn, thuật ngữ này chỉ bề mặt giấy dùng để in hoặc viết và các đặc tính của giấy có thể ảnh hưởng đến cách thể hiện thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「紙面」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Mặt giấy / phương tiện giấy và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "紙面",
+          "reading": "しめん",
+          "english": "Paper Surface",
+          "vi": "Mặt giấy / phương tiện giấy",
+          "definitionJa": "印刷や書き込みが行われる紙の表面を指す用語である。",
+          "definitionVi": "Theo nội dung nguồn, thuật ngữ này chỉ bề mặt giấy dùng để in hoặc viết và các đặc tính của giấy có thể ảnh hưởng đến cách thể hiện thông tin."
+        }
+      ],
+      "tags": ["14-11", "プロジェクトのコミュニケーション", "Paper Surface"]
+    },
+    {
+      "id": "communication-channel",
+      "order": 13,
+      "titleJa": "コミュニケーションチャネル",
+      "titleVi": "Kênh truyền thông",
+      "importance": "high",
+      "summaryJa": "人々やシステムが情報をやり取りするための媒体や手段を指す用語である。",
+      "summaryVi": "Phương tiện hoặc con đường dùng để trao đổi thông tin giữa con người hoặc hệ thống, như điện thoại, email hay ứng dụng chat.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人々やシステムが情報をやり取りするための媒体や手段を指す用語である。例えば、電話やメール、チャットアプリはすべてコミュニケーションチャネルの一例である。これらの手段を通じて、言葉やデータが瞬時に伝えられ、意思疎通が図られる。特にプロジェクト管理やチームコラボレーションにおいては、適切なコミュニケーションチャネルを選択することが成功に不可欠である。コミュニケーションの質や速度は、チャネルによって大きく影響されるため、目的に応じた最適な選択が求められる。",
+          "vi": "Phương tiện hoặc con đường dùng để trao đổi thông tin giữa con người hoặc hệ thống, như điện thoại, email hay ứng dụng chat."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コミュニケーションチャネル」の意味と、プロジェクトのコミュニケーションにおける役割を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Kênh truyền thông và vai trò của nó trong hoạt động truyền thông của dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーションチャネル",
+          "reading": "",
+          "english": "Communication Channel",
+          "vi": "Kênh truyền thông",
+          "definitionJa": "人々やシステムが情報をやり取りするための媒体や手段を指す用語である。",
+          "definitionVi": "Phương tiện hoặc con đường dùng để trao đổi thông tin giữa con người hoặc hệ thống, như điện thoại, email hay ứng dụng chat."
+        }
+      ],
+      "tags": [
+        "14-11",
+        "プロジェクトのコミュニケーション",
+        "Communication Channel"
+      ]
+    }
+  ]
 }

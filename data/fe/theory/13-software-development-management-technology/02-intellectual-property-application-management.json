@@ -2,7 +2,419 @@
   "id": "intellectual-property-application-management",
   "order": 2,
   "titleJa": "知的財産適用管理",
-  "titleVi": "Quản lý áp dụng tài sản trí tuệ",
+  "titleVi": "Quản lý áp dụng sở hữu trí tuệ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "program-author",
+      "order": 1,
+      "titleJa": "プログラムの著作者",
+      "titleVi": "Tác giả chương trình",
+      "importance": "high",
+      "summaryJa": "ソフトウェアやコンピュータプログラムを創作した個人または団体を指す。",
+      "summaryVi": "Cá nhân hoặc tổ chức sáng tạo ra phần mềm hay chương trình máy tính; đây là chủ thể liên quan đến quyền tác giả đối với chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやコンピュータプログラムを創作した個人または団体を指す。この著作者は、プログラムの内容や機能に対して法的な権利を持ち、無断で使用されたり、改変されたりすることを防ぐための保護を受ける。具体的には、プログラムが登録されることで著作権が発生し、この権利によって著作者は利益を得ることができる。また、他者にライセンスを与えたり、使用条件を設定したりすることで、自身の作品が適切に利用されるようにすることもできる。著作権の理解は、デジタルコンテンツを利用する際に重要な要素である。",
+          "vi": "Cá nhân hoặc tổ chức sáng tạo ra phần mềm hay chương trình máy tính; đây là chủ thể liên quan đến quyền tác giả đối với chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プログラムの著作者」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tác giả chương trình và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プログラムの著作者",
+          "reading": "ぷろぐらむのちょさくしゃ",
+          "english": "Program Author",
+          "vi": "Tác giả chương trình",
+          "definitionJa": "ソフトウェアやコンピュータプログラムを創作した個人または団体を指す。",
+          "definitionVi": "Cá nhân hoặc tổ chức sáng tạo ra phần mềm hay chương trình máy tính; đây là chủ thể liên quan đến quyền tác giả đối với chương trình."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Program Author"]
+    },
+    {
+      "id": "work-made-for-hire",
+      "order": 2,
+      "titleJa": "職務著作",
+      "titleVi": "Tác phẩm được tạo ra trong công việc",
+      "importance": "high",
+      "summaryJa": "雇用契約や委託契約に基づいて作成された著作物について、その著作権の帰属を扱う法律上の概念である。",
+      "summaryVi": "Khái niệm pháp lý liên quan đến quyền tác giả của tác phẩm được tạo ra trong quá trình thực hiện công việc hoặc theo hợp đồng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "雇用契約や委託契約に基づいて作成された著作物について、その著作権が著作者ではなく、雇用主や依頼主に帰属するという法律上の概念である。例えば、企業で働くデザイナーが制作したロゴや、プログラマが開発したソフトウェアは、職務著作に該当することが多い。この場合、作成した本人は著作権を持たず、雇用主がその権利を有するため、無断で他者に使用されることはない。著作権法において明確に定義されており、これによって労働者の権利と雇用主の権利が規定されている。これにより、企業は自社の知的財産を保護し、ビジネスの利益を守ることが可能となる。",
+          "vi": "Khái niệm pháp lý liên quan đến quyền tác giả của tác phẩm được tạo ra trong quá trình thực hiện công việc hoặc theo hợp đồng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「職務著作」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tác phẩm được tạo ra trong công việc và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "職務著作",
+          "reading": "しょくむちょさく",
+          "english": "Work Made for Hire",
+          "vi": "Tác phẩm được tạo ra trong công việc",
+          "definitionJa": "雇用契約や委託契約に基づいて作成された著作物について、その著作権の帰属を扱う法律上の概念である。",
+          "definitionVi": "Khái niệm pháp lý liên quan đến quyền tác giả của tác phẩm được tạo ra trong quá trình thực hiện công việc hoặc theo hợp đồng."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Work Made for Hire"]
+    },
+    {
+      "id": "patent-right",
+      "order": 3,
+      "titleJa": "特許権",
+      "titleVi": "Quyền sáng chế",
+      "importance": "high",
+      "summaryJa": "発明を保護するための法律的権利である。",
+      "summaryVi": "Quyền pháp lý bảo hộ sáng chế, cho phép chủ thể có quyền độc quyền khai thác sáng chế trong một thời hạn nhất định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "発明を保護するための法律的権利である。特許権を取得した者は、一定期間、他者にその発明を使用、販売、製造する権利を独占できる。この権利により、発明者は自身のアイデアを商業的に利用することが可能となる。例えば、新しい薬の製造方法や革新的な機械の設計が特許の対象となることが多い。発明を公開することと引き換えに得られるため、技術の進展を促進する役割も果たしている。特許権の保護期間は国によって異なるが、通常は出願から20年程度である。この間に発明者は投資の回収を図れる一方で、特許権が切れた後は、他者もその発明を自由に利用できるようになるため、競争が生まれることが期待される。",
+          "vi": "Quyền pháp lý bảo hộ sáng chế, cho phép chủ thể có quyền độc quyền khai thác sáng chế trong một thời hạn nhất định."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「特許権」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quyền sáng chế và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特許権",
+          "reading": "とっきょけん",
+          "english": "Patent Right",
+          "vi": "Quyền sáng chế",
+          "definitionJa": "発明を保護するための法律的権利である。",
+          "definitionVi": "Quyền pháp lý bảo hộ sáng chế, cho phép chủ thể có quyền độc quyền khai thác sáng chế trong một thời hạn nhất định."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Patent Right"]
+    },
+    {
+      "id": "exclusive-license",
+      "order": 4,
+      "titleJa": "専用実施権",
+      "titleVi": "Quyền thực hiện độc quyền",
+      "importance": "high",
+      "summaryJa": "特許権者が他者に特許発明を独占的に実施する権利を与えるものである。",
+      "summaryVi": "Quyền cho phép một chủ thể thực hiện độc quyền sáng chế trong phạm vi được xác lập.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特許権者が特許を他者に対して独占的に実施する権利を与える契約のことである。この権利を持つ者は、特許の対象となる技術や製品を他者の許可なく使用でき、商業的な利益を得ることができる。たとえば、ある企業が新しい技術に対する専用実施権を取得すると、その企業だけがその技術を利用して製品を製造したり販売したりでき、競合他社はその技術を使うことができなくなる。このように、専用実施権は特許権者にとっては収益源となる一方、専用ライセンスを受けた企業には市場での競争優位をもたらすため、特許管理において重要な役割を果たしている。",
+          "vi": "Quyền cho phép một chủ thể thực hiện độc quyền sáng chế trong phạm vi được xác lập."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「専用実施権」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quyền thực hiện độc quyền và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "専用実施権",
+          "reading": "せんようじっしけん",
+          "english": "Exclusive License",
+          "vi": "Quyền thực hiện độc quyền",
+          "definitionJa": "特許権者が他者に特許発明を独占的に実施する権利を与えるものである。",
+          "definitionVi": "Quyền cho phép một chủ thể thực hiện độc quyền sáng chế trong phạm vi được xác lập."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Exclusive License"]
+    },
+    {
+      "id": "ordinary-license",
+      "order": 5,
+      "titleJa": "通常実施権",
+      "titleVi": "Quyền thực hiện thông thường",
+      "importance": "high",
+      "summaryJa": "特許権者が他者に特許発明を実施することを許諾する権利の一形態である。",
+      "summaryVi": "Một hình thức cho phép bên khác khai thác sáng chế; không mang tính độc quyền như 専用実施権.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特許権者が他者に対して特許発明を利用する権利を許諾する際の一形態である。この権利は、特許権者が設定する契約に基づいて付与され、一般的には特許発明を商業的に利用したり販売したりすることが可能である。通常実施権を持つ者は、特許権者に対して使用料を支払うことが一般的で、これにより権利のライセンスが合法的に行われる。例えば、特許技術を利用した製品を製造する企業が、特許権者から通常実施権を取得することで、その技術をもとに製品を市場に出すことができる。このように、特許技術を商業的に利用するための重要な手段となり、特許権者と利用者の関係を形成する基盤である。",
+          "vi": "Một hình thức cho phép bên khác khai thác sáng chế; không mang tính độc quyền như 専用実施権."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「通常実施権」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quyền thực hiện thông thường và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "通常実施権",
+          "reading": "つうじょうじっしけん",
+          "english": "Ordinary License",
+          "vi": "Quyền thực hiện thông thường",
+          "definitionJa": "特許権者が他者に特許発明を実施することを許諾する権利の一形態である。",
+          "definitionVi": "Một hình thức cho phép bên khác khai thác sáng chế; không mang tính độc quyền như 専用実施権."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Ordinary License"]
+    },
+    {
+      "id": "licensor",
+      "order": 6,
+      "titleJa": "ライセンサー",
+      "titleVi": "Bên cấp phép",
+      "importance": "medium",
+      "summaryJa": "特定の権利や知的財産を他者に許可する側の者を指す。",
+      "summaryVi": "Cá nhân hoặc tổ chức sở hữu quyền và cấp quyền sử dụng tài sản trí tuệ cho bên khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の権利や知的財産を他者に許可する側の者を指す。通常、ライセンサーはその権利を持っている企業や個人であり、その権利を利用した製品やサービスを創り出したり、販売したりすることができる。例えば、ソフトウェア会社が自社のプログラムの使用権を他の企業にライセンス供与する場合、ソフトウェアの使用条件や料金を設定する権限を持つ。このように、ライセンサーはライセンス契約を通じて権利を管理し、収益を得ることができる。ライセンス管理には、契約の遵守や権利の侵害の防止などが含まれ、適切に行うことが重要である。",
+          "vi": "Cá nhân hoặc tổ chức sở hữu quyền và cấp quyền sử dụng tài sản trí tuệ cho bên khác."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ライセンサー」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Bên cấp phép và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライセンサー",
+          "reading": "",
+          "english": "Licensor",
+          "vi": "Bên cấp phép",
+          "definitionJa": "特定の権利や知的財産を他者に許可する側の者を指す。",
+          "definitionVi": "Cá nhân hoặc tổ chức sở hữu quyền và cấp quyền sử dụng tài sản trí tuệ cho bên khác."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Licensor"]
+    },
+    {
+      "id": "licensee",
+      "order": 7,
+      "titleJa": "ライセンシー",
+      "titleVi": "Bên được cấp phép",
+      "importance": "medium",
+      "summaryJa": "特定の権利を使用する許可を受けた個人や法人を指す。",
+      "summaryVi": "Cá nhân hoặc pháp nhân nhận quyền sử dụng tài sản trí tuệ theo điều kiện của hợp đồng cấp phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の権利を使用する許可を受けた個人や法人を指す。通常、ライセンス契約に基づいて、ライセンシーは特定の製品やサービスを使用や販売する権利を得る。例えば、ソフトウェアの開発元がライセンスを提供し、企業がそのソフトウェアを使用する場合がある。このように、ライセンシーは契約に基づいて、著作権や特許、商標などの知的財産を利用するための合法的な立場を持つ。何らかの対価を支払うことが多く、その権利の使用は契約条件によって厳密に定められていることが多い。このルールに従うことで、ライセンサー（権利を持つ側）との関係が保たれる。ライセンシーの存在は、知的財産権の保護とビジネスの発展において重要な役割を果たしている。",
+          "vi": "Cá nhân hoặc pháp nhân nhận quyền sử dụng tài sản trí tuệ theo điều kiện của hợp đồng cấp phép."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ライセンシー」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Bên được cấp phép và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライセンシー",
+          "reading": "",
+          "english": "Licensee",
+          "vi": "Bên được cấp phép",
+          "definitionJa": "特定の権利を使用する許可を受けた個人や法人を指す。",
+          "definitionVi": "Cá nhân hoặc pháp nhân nhận quyền sử dụng tài sản trí tuệ theo điều kiện của hợp đồng cấp phép."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Licensee"]
+    },
+    {
+      "id": "copy-guard",
+      "order": 8,
+      "titleJa": "コピーガード",
+      "titleVi": "Chống sao chép",
+      "importance": "medium",
+      "summaryJa": "コンテンツが無断でコピーされるのを防ぐための技術である。",
+      "summaryVi": "Công nghệ nhằm ngăn nội dung bị sao chép trái phép để bảo vệ quyền tác giả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "音楽や映像などのコンテンツが無断でコピーされるのを防ぐための技術である。この技術は、デジタルメディアの持つ著作権を保護することを目的としている。例えば、DVDやCDに施される特定の暗号化技術や、配信サービスで採用されるデジタル著作権管理（DRM）がその例である。コピーガードによって、ユーザーは合法的に購入したコンテンツの利用制限を受ける場合もあるが、著作権を持つ者の利益を守るために重要な役割を果たしている。また、コピーガードを突破することは法的に問題となる場合が多く、違法行為と見なされることもある。これにより、コンテンツ制作者は報酬を得ながら、自らの作品を守ることが可能となる。",
+          "vi": "Công nghệ nhằm ngăn nội dung bị sao chép trái phép để bảo vệ quyền tác giả."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コピーガード」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Chống sao chép và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コピーガード",
+          "reading": "",
+          "english": "Copy Guard",
+          "vi": "Chống sao chép",
+          "definitionJa": "コンテンツが無断でコピーされるのを防ぐための技術である。",
+          "definitionVi": "Công nghệ nhằm ngăn nội dung bị sao chép trái phép để bảo vệ quyền tác giả."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Copy Guard"]
+    },
+    {
+      "id": "drm",
+      "order": 9,
+      "titleJa": "DRM",
+      "titleVi": "Quản lý quyền kỹ thuật số (DRM)",
+      "importance": "high",
+      "summaryJa": "デジタルコンテンツの著作権を保護するための技術である。",
+      "summaryVi": "Công nghệ quản lý và hạn chế việc sử dụng, sao chép hoặc truy cập nội dung số nhằm bảo vệ quyền tác giả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタルコンテンツの著作権を保護するための技術である。著作権者が制作した音楽、映画、電子書籍などのデジタル商品が、不正にコピーされたり、無断で使用されたりすることを防ぐための仕組みを提供する。例えば、音楽ストリーミングサービスでは、契約に基づいて楽曲を特定の期間だけ利用できるように制限することがある。これにより、著作権者は自らの作品の価値を守ることができ、正当な対価を得る手助けになる。また、DRM技術は、ファイルの暗号化や、アクセスを制限するためのユーザー認証などを利用して、合法的な利用範囲を細かく設定することができる。これにより、消費者は安全にコンテンツを楽しむことが可能となる。",
+          "vi": "Công nghệ quản lý và hạn chế việc sử dụng, sao chép hoặc truy cập nội dung số nhằm bảo vệ quyền tác giả."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「DRM」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý quyền kỹ thuật số (DRM) và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DRM",
+          "reading": "でぃーあーるえむ",
+          "english": "Digital Rights Management",
+          "vi": "Quản lý quyền kỹ thuật số (DRM)",
+          "definitionJa": "デジタルコンテンツの著作権を保護するための技術である。",
+          "definitionVi": "Công nghệ quản lý và hạn chế việc sử dụng, sao chép hoặc truy cập nội dung số nhằm bảo vệ quyền tác giả."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Digital Rights Management"]
+    },
+    {
+      "id": "activation",
+      "order": 10,
+      "titleJa": "アクティベーション",
+      "titleVi": "Kích hoạt",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやデバイスを正規に使用するための認証手続きである。",
+      "summaryVi": "Thủ tục xác thực để kích hoạt và sử dụng hợp pháp phần mềm hoặc thiết bị, thường thông qua khóa bản quyền hoặc tài khoản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやデバイスを正規に使用するための認証手続きである。このプロセスは、ライセンスキーやアカウント情報を使用して、製品が正当に購入されたものであることを確認する役割を果たす。例えば、コンピュータソフトウェアをインストールする際には、ユーザーが提供されたライセンスキーを入力する必要があり、これを通じてソフトウェアが有効化される。不正使用を防ぐために重要で、また、ユーザーがサポートやアップデートを受けられる権利を取得することにもつながる。これにより、開発者は製品の品質を維持し、信頼性を向上させることができる。",
+          "vi": "Thủ tục xác thực để kích hoạt và sử dụng hợp pháp phần mềm hoặc thiết bị, thường thông qua khóa bản quyền hoặc tài khoản."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アクティベーション」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Kích hoạt và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクティベーション",
+          "reading": "",
+          "english": "Activation",
+          "vi": "Kích hoạt",
+          "definitionJa": "ソフトウェアやデバイスを正規に使用するための認証手続きである。",
+          "definitionVi": "Thủ tục xác thực để kích hoạt và sử dụng hợp pháp phần mềm hoặc thiết bị, thường thông qua khóa bản quyền hoặc tài khoản."
+        }
+      ],
+      "tags": ["13-2", "知的財産適用管理", "Activation"]
+    },
+    {
+      "id": "cprm",
+      "order": 11,
+      "titleJa": "CPRM",
+      "titleVi": "CPRM",
+      "importance": "medium",
+      "summaryJa": "記録可能なメディアにおける著作権保護のために開発された技術の一つである。",
+      "summaryVi": "Một công nghệ bảo vệ nội dung có bản quyền trên phương tiện có khả năng ghi, sử dụng cơ chế bảo vệ nhằm hạn chế sao chép trái phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "著作権保護のために開発された技術の一つである。この技術は、記録可能なメディア、例えばDVDやBlu-rayディスクなどに適用され、著作権者の権利を保護することを目的としている。CPRMでは、メディアに記録された情報に対して暗号化が施されており、無許可の複製や再生を防ぐ仕組みが用意されている。例えば、映画や音楽の配信サービスでは、CPRMに対応したメディアを利用することで、ユーザーが購入したコンテンツを安全に楽しむことができる。また、この技術は、デジタル著作権管理（DRM）と連携し、デジタルメディア全体のセキュリティを強化する役割も果たしている。これにより、著作権者や消費者双方にとって、公正な利用が促進される。",
+          "vi": "Một công nghệ bảo vệ nội dung có bản quyền trên phương tiện có khả năng ghi, sử dụng cơ chế bảo vệ nhằm hạn chế sao chép trái phép."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「CPRM」の意味と、関連する知的財産・ライセンス管理の用語との違いを整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của CPRM và phân biệt với các thuật ngữ liên quan đến sở hữu trí tuệ và quản lý giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CPRM",
+          "reading": "しーぴーあーるえむ",
+          "english": "Content Protection for Recordable Media",
+          "vi": "CPRM",
+          "definitionJa": "記録可能なメディアにおける著作権保護のために開発された技術の一つである。",
+          "definitionVi": "Một công nghệ bảo vệ nội dung có bản quyền trên phương tiện có khả năng ghi, sử dụng cơ chế bảo vệ nhằm hạn chế sao chép trái phép."
+        }
+      ],
+      "tags": [
+        "13-2",
+        "知的財産適用管理",
+        "Content Protection for Recordable Media"
+      ]
+    }
+  ]
 }

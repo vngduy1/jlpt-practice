@@ -4,5 +4,310 @@
   "titleJa": "プロジェクトのリスク",
   "titleVi": "Rủi ro dự án",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "risk-identification",
+      "order": 1,
+      "titleJa": "リスクの特定",
+      "titleVi": "Xác định rủi ro",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務において潜在的なリスクを見つけ出すプロセスである。",
+      "summaryVi": "Quá trình tìm ra các rủi ro tiềm ẩn có thể ảnh hưởng đến dự án hoặc công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務において潜在的なリスクを見つけ出すプロセスである。このプロセスでは、予想される障害や問題が何であるかを洗い出し、それが発生する可能性や影響を評価することが重要である。たとえば、新製品の開発プロジェクトにおいては、市場の競争や技術の不確実性、資源の不足など、多様なリスクを特定する必要がある。リスクを早期に認識することで、対策を講じる準備を整え、プロジェクトを円滑に進めることが可能となる。リスクマネジメント全体の基盤であり、さまざまな分析手法や関係者の意見を活用して行われることが一般的である。",
+          "vi": "Quá trình tìm ra các rủi ro tiềm ẩn có thể ảnh hưởng đến dự án hoặc công việc."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの特定」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Xác định rủi ro và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの特定",
+          "reading": "りすくのとくてい",
+          "english": "Risk Identification",
+          "vi": "Xác định rủi ro",
+          "definitionJa": "プロジェクトや業務において潜在的なリスクを見つけ出すプロセスである。",
+          "definitionVi": "Quá trình tìm ra các rủi ro tiềm ẩn có thể ảnh hưởng đến dự án hoặc công việc."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Risk Identification"]
+    },
+    {
+      "id": "risk-assessment",
+      "order": 2,
+      "titleJa": "リスクの評価",
+      "titleVi": "Đánh giá rủi ro",
+      "importance": "high",
+      "summaryJa": "特定のプロジェクトや業務に関連して、潜在的なリスクを特定し、それに対する影響や発生確率を評価するプロセスである。",
+      "summaryVi": "Quá trình đánh giá xác suất xảy ra và mức độ ảnh hưởng của các rủi ro liên quan đến dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトや業務に関連して、潜在的なリスクを特定し、それに対する影響や発生確率を評価するプロセスである。この評価は、リスク管理を行うための基礎を提供し、効果的な対策を講じるために必要不可欠である。例えば、企業が新しいシステムを導入する際に、技術的な障害やデータ漏洩などのリスクを洗い出し、それぞれのリスクが発生する可能性と影響の程度を分析する。これにより、リスクを最小限に抑えるための具体的な対策を立案し、リスクを管理するための計画を策定することが可能になる。また、リスクの評価は定期的に見直し、状況の変化に応じて調整する必要がある。",
+          "vi": "Quá trình đánh giá xác suất xảy ra và mức độ ảnh hưởng của các rủi ro liên quan đến dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの評価」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Đánh giá rủi ro và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの評価",
+          "reading": "りすくのひょうか",
+          "english": "Risk Assessment",
+          "vi": "Đánh giá rủi ro",
+          "definitionJa": "特定のプロジェクトや業務に関連して、潜在的なリスクを特定し、それに対する影響や発生確率を評価するプロセスである。",
+          "definitionVi": "Quá trình đánh giá xác suất xảy ra và mức độ ảnh hưởng của các rủi ro liên quan đến dự án."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Risk Assessment"]
+    },
+    {
+      "id": "risk-response",
+      "order": 3,
+      "titleJa": "リスクへの対応",
+      "titleVi": "Ứng phó rủi ro",
+      "importance": "high",
+      "summaryJa": "特定のリスクに対して取るべき行動や対策を計画し、実行することを指す。",
+      "summaryVi": "Quá trình lập kế hoạch và thực hiện biện pháp đối với rủi ro, chẳng hạn tránh, giảm nhẹ, chuyển giao hoặc chấp nhận rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のリスクに対して取るべき行動や対策を計画し、実行することを指す。このプロセスは、リスクがビジネスやプロジェクトに与える影響を軽減するために重要である。具体的には、リスクの特定、評価、優先順位付けを行った後、それぞれのリスクに対して適切な対応策を選択することが求められる。対応策には、リスクを回避する、リスクを軽減する、リスクを移転する、またはリスクを受け入れるといった選択肢がある。例えば、製品の品質に関するリスクがある場合、製品開発プロセスを見直して品質管理を強化することで、リスクの発生を防ぐことができる。効果的な組織の安定性と成功に寄与する。",
+          "vi": "Quá trình lập kế hoạch và thực hiện biện pháp đối với rủi ro, chẳng hạn tránh, giảm nhẹ, chuyển giao hoặc chấp nhận rủi ro."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクへの対応」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Ứng phó rủi ro và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクへの対応",
+          "reading": "りすくへのたいおう",
+          "english": "Risk Response",
+          "vi": "Ứng phó rủi ro",
+          "definitionJa": "特定のリスクに対して取るべき行動や対策を計画し、実行することを指す。",
+          "definitionVi": "Quá trình lập kế hoạch và thực hiện biện pháp đối với rủi ro, chẳng hạn tránh, giảm nhẹ, chuyển giao hoặc chấp nhận rủi ro."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Risk Response"]
+    },
+    {
+      "id": "risk-management",
+      "order": 4,
+      "titleJa": "リスクの管理",
+      "titleVi": "Quản lý rủi ro",
+      "importance": "high",
+      "summaryJa": "企業やプロジェクトにおける潜在的なリスクを特定し、それに対する対策を講じるプロセスである。",
+      "summaryVi": "Quá trình xác định, đánh giá, phân tích, lập kế hoạch ứng phó và giám sát các rủi ro của dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業やプロジェクトにおける潜在的なリスクを特定し、それに対する対策を講じるプロセスである。リスクは、予測无法なイベントや状況が結果に影響を及ぼす可能性を指し、その管理は成功や安定性を確保する上で重要である。このプロセスには、リスクの評価、分析、対応計画の策定、監視が含まれる。例えば、プロジェクトの進行中に発生する遅延や予算超過などのリスクを特定し、それに対処する計画を立てておくことで、トラブル発生時にも迅速に対応できる。リスクの管理を実施することで、事前に問題を防ぐとともに、組織全体の信頼性や効率を向上させることができる。",
+          "vi": "Quá trình xác định, đánh giá, phân tích, lập kế hoạch ứng phó và giám sát các rủi ro của dự án."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの管理」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý rủi ro và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの管理",
+          "reading": "りすくのかんり",
+          "english": "Risk Management",
+          "vi": "Quản lý rủi ro",
+          "definitionJa": "企業やプロジェクトにおける潜在的なリスクを特定し、それに対する対策を講じるプロセスである。",
+          "definitionVi": "Quá trình xác định, đánh giá, phân tích, lập kế hoạch ứng phó và giám sát các rủi ro của dự án."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Risk Management"]
+    },
+    {
+      "id": "risk-register",
+      "order": 5,
+      "titleJa": "リスク登録簿",
+      "titleVi": "Sổ đăng ký rủi ro",
+      "importance": "high",
+      "summaryJa": "プロジェクトやビジネスにおけるリスクを管理するための文書である。",
+      "summaryVi": "Tài liệu ghi lại các rủi ro đã xác định cùng thông tin như đánh giá, biện pháp ứng phó và người chịu trách nhiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトやビジネスにおけるリスクを管理するための文書である。この登録簿には、識別されたリスクの詳細、評価、対策、責任者などの情報が記載されている。プロジェクト管理において、リスクを特定し、評価することによって、できるだけ早く対策を講じるための重要なツールである。例えば、工事プロジェクトでは、悪天候や資材の遅延といったリスクが考慮され、その影響を最小限に抑えるための計画が策定される。これにより、予期しない事態が発生した際の対応策が明確になり、プロジェクトの成功率を高めることができる。また、進行中のプロジェクトにおけるリスク状況の把握にも利用され、関係者間のコミュニケーションを円滑にする役割も果たす。",
+          "vi": "Tài liệu ghi lại các rủi ro đã xác định cùng thông tin như đánh giá, biện pháp ứng phó và người chịu trách nhiệm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスク登録簿」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Sổ đăng ký rủi ro và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスク登録簿",
+          "reading": "りすくとうろくぼ",
+          "english": "Risk Register",
+          "vi": "Sổ đăng ký rủi ro",
+          "definitionJa": "プロジェクトやビジネスにおけるリスクを管理するための文書である。",
+          "definitionVi": "Tài liệu ghi lại các rủi ro đã xác định cùng thông tin như đánh giá, biện pháp ứng phó và người chịu trách nhiệm."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Risk Register"]
+    },
+    {
+      "id": "prioritized-risk",
+      "order": 6,
+      "titleJa": "優先順位付けされたリスク",
+      "titleVi": "Rủi ro đã được ưu tiên",
+      "importance": "high",
+      "summaryJa": "リスク管理の過程において、特定のリスクをその影響度や発生確率に基づいて優先的に評価し、重要度に応じて順序付けることを指す。",
+      "summaryVi": "Rủi ro được xếp thứ tự ưu tiên dựa trên mức độ ảnh hưởng và xác suất xảy ra để tập trung nguồn lực xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リスク管理の過程において、特定のリスクをその影響度や発生確率に基づいて優先的に評価し、重要度に応じて順序付けることを指す。この方法により、限られたリソースを有効に活用し、最も重大なリスクに対して優先的に対策を講じることができる。例えば、企業がプロジェクトのリスクを評価する際に、財務的影響が大きいリスクや、顧客への影響が強いリスクを最優先とすることで、適切な対策を行うことができる。リスクを効果的に管理することで、プロジェクトの成功率を高めることができるため、優先順位付けはリスク管理の重要な手法となる。",
+          "vi": "Rủi ro được xếp thứ tự ưu tiên dựa trên mức độ ảnh hưởng và xác suất xảy ra để tập trung nguồn lực xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「優先順位付けされたリスク」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Rủi ro đã được ưu tiên và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "優先順位付けされたリスク",
+          "reading": "ゆうせんじゅんいづけされたりすく",
+          "english": "Prioritized Risk",
+          "vi": "Rủi ro đã được ưu tiên",
+          "definitionJa": "リスク管理の過程において、特定のリスクをその影響度や発生確率に基づいて優先的に評価し、重要度に応じて順序付けることを指す。",
+          "definitionVi": "Rủi ro được xếp thứ tự ưu tiên dựa trên mức độ ảnh hưởng và xác suất xảy ra để tập trung nguồn lực xử lý."
+        }
+      ],
+      "tags": ["14-8", "プロジェクトのリスク", "Prioritized Risk"]
+    },
+    {
+      "id": "qualitative-risk-analysis-techniques",
+      "order": 7,
+      "titleJa": "リスクの定性的分析技法",
+      "titleVi": "Kỹ thuật phân tích rủi ro định tính",
+      "importance": "high",
+      "summaryJa": "プロジェクトや業務におけるリスクを特定した後、その影響や発生確率を評価するための手法である。",
+      "summaryVi": "Phương pháp đánh giá mức độ quan trọng của rủi ro dựa chủ yếu trên nhận định, kinh nghiệm và các tiêu chí định tính thay vì số liệu định lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務におけるリスクを特定した後、その影響や発生確率を評価するための手法である。この技法は、数値やデータを使わずに、専門家の意見や経験に基づいてリスクの重要度を判断するので、理解しやすく、早期に重要なリスクを特定するのに役立つ。例えば、ワークショップを通じて関係者が意見を出し合い、高いリスクを優先順位の高いものとして取り扱うことができる。この方法は、チーム内でのコミュニケーションを促進し、リスク管理計画を立てる際に価値を提供する。また、定性的な分析は、定量的な分析の前段階として位置づけられ、後の詳細な評価に繋がることが多い。",
+          "vi": "Phương pháp đánh giá mức độ quan trọng của rủi ro dựa chủ yếu trên nhận định, kinh nghiệm và các tiêu chí định tính thay vì số liệu định lượng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの定性的分析技法」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Kỹ thuật phân tích rủi ro định tính và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの定性的分析技法",
+          "reading": "りすくのていせいてきぶんせきぎほう",
+          "english": "Qualitative Risk Analysis Techniques",
+          "vi": "Kỹ thuật phân tích rủi ro định tính",
+          "definitionJa": "プロジェクトや業務におけるリスクを特定した後、その影響や発生確率を評価するための手法である。",
+          "definitionVi": "Phương pháp đánh giá mức độ quan trọng của rủi ro dựa chủ yếu trên nhận định, kinh nghiệm và các tiêu chí định tính thay vì số liệu định lượng."
+        }
+      ],
+      "tags": [
+        "14-8",
+        "プロジェクトのリスク",
+        "Qualitative Risk Analysis Techniques"
+      ]
+    },
+    {
+      "id": "quantitative-risk-analysis-techniques",
+      "order": 8,
+      "titleJa": "リスクの定量的分析技法",
+      "titleVi": "Kỹ thuật phân tích rủi ro định lượng",
+      "importance": "high",
+      "summaryJa": "リスクを数値で評価し、定量的なデータに基づいて意思決定を行う手法である。",
+      "summaryVi": "Phương pháp lượng hóa xác suất và tác động của rủi ro bằng dữ liệu số, xác suất, thống kê hoặc mô phỏng để hỗ trợ quyết định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "リスクを数値で評価し、定量的なデータに基づいて意思決定を行う手法である。この技法は、確率論や統計学を利用してリスクの発生確率や影響度を数値化することにより、より客観的で実践的な判断を可能にする。例えば、プロジェクトの遅延リスクを評価する際、過去のデータを基に遅延が発生する確率を算出し、その遅延が与えるコストへの影響を定量化することで、リスク対策の優先順位を決める助けになる。また、シミュレーション技法などを用いて、異なるシナリオを仮想することで、将来の不確実性をより正確に把握することができる。このように、企業やプロジェクトの戦略的計画において重要な役割を果たしている。",
+          "vi": "Phương pháp lượng hóa xác suất và tác động của rủi ro bằng dữ liệu số, xác suất, thống kê hoặc mô phỏng để hỗ trợ quyết định."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リスクの定量的分析技法」の意味と、リスクの特定・評価・対応・管理との関係を整理して覚える。",
+          "vi": "Khi ôn FE, cần nắm ý nghĩa của Kỹ thuật phân tích rủi ro định lượng và mối quan hệ của nó với quá trình xác định, đánh giá, ứng phó và quản lý rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクの定量的分析技法",
+          "reading": "りすくのていりょうてきぶんせきぎほう",
+          "english": "Quantitative Risk Analysis Techniques",
+          "vi": "Kỹ thuật phân tích rủi ro định lượng",
+          "definitionJa": "リスクを数値で評価し、定量的なデータに基づいて意思決定を行う手法である。",
+          "definitionVi": "Phương pháp lượng hóa xác suất và tác động của rủi ro bằng dữ liệu số, xác suất, thống kê hoặc mô phỏng để hỗ trợ quyết định."
+        }
+      ],
+      "tags": [
+        "14-8",
+        "プロジェクトのリスク",
+        "Quantitative Risk Analysis Techniques"
+      ]
+    }
+  ]
 }
