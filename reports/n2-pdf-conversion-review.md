@@ -66,6 +66,77 @@ This log records only meaningful source defects or transcription ambiguities. Pr
 - Information search (questions 74–75): the notice prints `会場内のほかの店でかったもの`; preserved and the notice group is marked `needsReview`.
 - Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 15 intentional review warnings.
 
-Last fully completed block: N2-4.
+## N2-5 / `n2-practice-05.json`
 
-Next block: N2-5 (not started).
+- PDF pages: questions 76–86; answer key 208–209. Page 76 contains the cover and the beginning of Problem 1; page 86 is the block's blank trailing page, so substantive questions end on page 85.
+- Completeness: Problems 1–14, questions 1–75, every choice, all reading passages, all three comparison texts, and the complete information-search notice are present.
+- Answer key: all 75 `correctAnswer` values were checked against the block's own key on pages 208–209 and match it exactly.
+- Boundary check: question 1 (`話合いで決まったことを記録する。`) and question 75 (`研修旅行に参加するにはどうすればよいか。`) were checked against pages 76 and 85 respectively.
+- Sentence order: questions 45–49 were reconstructed as complete sentences. For each, `correctAnswer` equals `correctOrder[starPosition - 1]` and matches the printed key. Question 46's star is in position 2; its full order is `これは / 義務ではなく / たんに / 自主的な`.
+- Questions 37 and 40 print `したっがて` and `本棚にあった1冊の本に手にとって開いた`; both are preserved and marked `needsReview`.
+- Cloze (questions 50–54): question 50 prints `にあったては` and `にはたっては`. The source forms and printed key are preserved; the passage group and question 50 are marked `needsReview`.
+- Reading 10-01 (question 55): the passage prints `少ししかない木が吸い取られる`, apparently omitting the object being absorbed. The choices also contain visibly defective wording including `環境に適した水を植えなければならない`, `木を大量植える`, and `木をどんどん植えるようと`. They are preserved; passage and question are marked `needsReview`.
+- Reading 10-02 (question 56): the letter prints `昨日夏`, `つきましたは`, and `よろしくお願い申し上げす`; preserved and the passage is marked `needsReview`.
+- Reading 10-04 (question 58): the passage prints `自身をもたせたり` and `伸びていきようにする--------`; the question prints `ほめるこうい`. These are preserved; passage and question are marked `needsReview`.
+- Reading 10-05 (question 59): the passage prints `接したきた` and `オールマイテイ`; preserved and the passage is marked `needsReview`.
+- Reading 11-01 (questions 60–62): printed defects include a missing opening quote in `①喜んで食べてもらえる」`, `現代会社`, `他となりません`, and question 62's `食事のするとき`. They are preserved; the passage and question 62 are marked `needsReview`.
+- Reading 11-02 (questions 63–65): the source prints `議論としていると` and the awkward construction `忘れてしまうことが往々にしてあります`; preserved and the passage is marked `needsReview`.
+- Reading 11-03 (questions 66–68): the speaker says that an increase from 38 kg to 55 kg is 15 kg; the passage also prints `客の乗り物`, `食べったざんす`, and `あたしや②人間を捨てて野犬になりました`. Question 68 refers to `下線②` even though its choices and key concern the later relaxation statement marked ③. The printed text and key are preserved; the passage and question 68 are marked `needsReview`.
+- Reading 12-01 (questions 69–70): the comparison text contains visibly broken spacing in `二重敬語はすべてだめだというわけではない 敬語は...` and prints `間違った敬語使い`; preserved and the passage is marked `needsReview`.
+- Reading 13-01 (questions 71–73): question 71 choice 1 prints `ストラディパリウス`, differing from the passage's `ストラディバリウス`; the note prints `物やお金を手入れること`. These are preserved; the passage and question 71 are marked `needsReview`.
+- Information search (questions 74–75): the notice prints `旅費を出発前日（21日）まだに`; preserved and the notice group is marked `needsReview`.
+- Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 19 intentional review warnings.
+
+## Batch 1 review / N2-1 through N2-5
+
+- Scope: `n2-practice-01.json` through `n2-practice-05.json` only. N2-6 was not started.
+- All five files use `source: "ORIGINAL"` and omit both `year` and `month`.
+- Each file declares and loads exactly 75 questions, has continuous IDs 1–75, contains Problems 1–14, and has five `SENTENCE_ORDER` questions whose `correctOrder`, `starPosition`, and `correctAnswer` agree.
+- Batch total: 375/375 questions.
+- Isolated batch validator result: 5 exam files, 0 critical errors, 71 intentional review warnings (N2-1: 9; N2-2: 15; N2-3: 13; N2-4: 15; N2-5: 19).
+- All known source defects and answer-key conflicts remain explicitly recorded above; none were silently corrected.
+
+## N2-6 / `n2-practice-06.json`
+
+- PDF pages: questions 87–95; answer key 210–211. Page 87 contains the cover and the beginning of Problem 1; page 95 contains the complete Problem 14 notice.
+- Completeness: Problems 1–14, questions 1–75, every choice, all reading passages, the sleep-duration chart, both opinion emails, and the complete information-search notice are present.
+- Answer key: all 75 `correctAnswer` values were visually checked against the block's own key on pages 210–211 and match it exactly.
+- Boundary check: question 1 (`登山の途中、山小屋で休息をとった。`) and question 75 (`留学生の友人と屋上での記念撮影はできるか。`) were checked against pages 87 and 95 respectively.
+- Sentence order: questions 45–49 were reconstructed as complete sentences. For each, `correctAnswer` equals `correctOrder[starPosition - 1]` and matches the printed key.
+- Question 11: choice 4 prints the verb `ながめる` where the sentence requires a noun. The source and key are preserved and the question is marked `needsReview`.
+- Question 25: choice 3 prints `ペースした`, apparently omitting `ト`; semantically, `貼り付けた` corresponds to paste, while the key gives choice 2 (`コピーした`). The source/key conflict is preserved and the question is marked `needsReview`.
+- Question 32: the printed key gives choice 2 for `いっそう`, although choice 3 (`お酒を加えたら、料理がいっそうおいしくなった。`) is the standard usage and choice 2 requires `いっそ`. The printed key is preserved and the question is marked `needsReview`.
+- Question 39: choice 2 prints `おぬきにしては`; preserved and marked `needsReview`.
+- Problem 10's instruction prints `一つ選びない`; no question text was silently changed because the defect is in the heading rather than an item.
+- Reading 10-03 (question 57): choices print `アンウンス` and `ブラットホーム`; preserved and the question is marked `needsReview`.
+- Reading 10-04 (question 58): choice 2 prints `ヤンさんがが`; preserved and the question is marked `needsReview`.
+- Reading 10-05 (question 59): the passage prints `睡眠をよる人`. The chart and all percentage combinations were transcribed from the source's embedded text and visually checked; the passage is marked `needsReview`.
+- Reading 11-01 (questions 60–62): the passage prints `親元を始めて離れる`; preserved and the passage is marked `needsReview`.
+- Reading 11-02 (questions 63–65): the note references for `餌食にする` and `議論のうず` are reversed between the body and note list (`注2`/`注3`). The printed references are preserved and the passage is marked `needsReview`.
+- Reading 13-01 (questions 71–73): the passage prints `悩んだもあった`, and question 71 choice 1 prints `本も合ったらいいのに`; preserved and the passage plus question 71 are marked `needsReview`.
+- Information search (questions 74–75): the notice prints `記念Yシャツ`, `利用規則に定めるの持ち込み`, and `パスポートの指示`; preserved and the notice group is marked `needsReview`.
+- Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 12 intentional review warnings.
+
+## N2-7 / `n2-practice-07.json`
+
+- PDF pages: questions 96–105; answer key 212–213. Page 96 contains the cover and the beginning of Problem 1; page 105 contains the complete Problem 14 notice.
+- Completeness: Problems 1–14, questions 1–75, every choice, all reading passages, the paired message-board posts, and the complete membership notice are present.
+- Answer key: all 75 `correctAnswer` values were visually checked against the block's own key on pages 212–213 and match it exactly.
+- Boundary check: question 1 (`部屋の隅に置いてある机にペンキを塗ってください。`) and question 75 (`育達メンバーズクラブに入会するにはどうすればよいか。`) were checked against pages 96 and 105 respectively.
+- Sentence order: questions 45–49 were reconstructed as complete sentences. For each, `correctAnswer` equals `correctOrder[starPosition - 1]` and matches the printed key.
+- Questions 29 and 30 print `呼ばれば` and `海水溶`; both are preserved and marked `needsReview`.
+- Problem 10's instruction prints `一つ選びない`; no question text was silently changed because the defect is in the heading rather than an item.
+- Reading 10-02 (question 56): the citation prints `健廉` and ends with a stray backtick; the question prints `合うている`, and choice 1 prints `曲腺`. These are preserved; the passage and question are marked `needsReview`.
+- Reading 10-03 (question 57): the passage lacks the closing quotation mark after `「人の身になって考えてみる`; preserved and the passage is marked `needsReview`.
+- Reading 10-04 (question 58): choice 1 prints the doubled punctuation `叱り、、`; preserved and the question is marked `needsReview`.
+- Reading 10-05 (question 59): the passage opens with `1982年か2002年`; the question prints `とれか`, and choice 3 prints `1992年からにかけて`. These are preserved; the passage and question are marked `needsReview`.
+- Reading 11-02 (questions 63–65): the passage prints `料学上`; question 64 choice 2 likewise prints `料学や技術`, and choice 4 prints `ひつよう`. These are preserved; the passage and question 64 are marked `needsReview`.
+- Reading 11-03 (questions 66–68): the passage prints `「あなたはですか」`; question 66 choice 3 lacks an opening quotation mark. These are preserved; the passage and question 66 are marked `needsReview`.
+- Reading 12-01 (questions 69–70): the posts print `ゴースト対策のしてある` and `引張って`; question 69 choice 4 prints `映ってします`. These are preserved; the passage and question 69 are marked `needsReview`.
+- Reading 13-01 (questions 71–73): the passage prints `親の金銭的に、心理的負担`, note 7 defines `成果` as `取られたよい結果`, and question 72 choice 3 prints `子供の勉強しなければの気持`. These are preserved; the passage and question 72 are marked `needsReview`.
+- Information search (questions 74–75): question 75 choice 4 uses the currency unit `100元` although the notice gives its fees in yen. The printed choice and key are preserved and question 75 is marked `needsReview`.
+- Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 17 intentional review warnings.
+
+Last fully completed block: N2-7.
+
+Next block: N2-8 (not started).
