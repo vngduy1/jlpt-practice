@@ -1,8 +1,2984 @@
-{
+ {
   "id": "system-software-requirements",
   "order": 1,
   "titleJa": "システム要件定義・ソフトウェア要件定義",
   "titleVi": "Định nghĩa yêu cầu hệ thống và yêu cầu phần mềm",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "usage-scenario",
+      "order": 1,
+      "titleJa": "利用の状況",
+      "titleVi": "Tình huống sử dụng",
+      "importance": "medium",
+      "summaryJa": "システムやサービスがどのように使われるか、具体的な使用場面や条件を示すものである。",
+      "summaryVi": "Tình huống sử dụng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "利用の状況とは",
+          "vi": "Tình huống sử dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやサービスがどのように使われるか、具体的な使用場面や条件を示すものである。特にシステム要件定義においては、ユーザーがどのような目的で、どのような環境や条件下でシステムを利用するのかを明確にすることが求められる。例えば、業務システムの利用状況を把握するためには、実際の業務フローやユーザーの入力内容、使用時のデバイスなどを考慮する必要がある。これにより、開発者はユーザーのニーズに合った機能や操作性を提供でき、最終的にシステムの品質向上やユーザー満足度の向上に寄与することができる。",
+          "vi": "Học trọng tâm về Tình huống sử dụng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "利用の状況の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Tình huống sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "利用の状況",
+          "english": "Usage Scenario",
+          "vi": "Tình huống sử dụng",
+          "definitionJa": "システムやサービスがどのように使われるか、具体的な使用場面や条件を示すものである。特にシステム要件定義においては、ユーザーがどのような目的で、どのような環境や条件下でシステムを利用するのかを明確にすることが求められる。例えば、業務システムの利用状況を把握するためには、実際の業務フローやユーザーの入力内容、使用時のデバイスなどを考慮する必要がある。これにより、開発者はユーザーのニーズに合った機能や操作性を提供でき、最終的にシステムの品質向上やユーザー満足度の向上に寄与することができる。",
+          "definitionVi": "Tình huống sử dụng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "りようのじょうきょう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "usage-scenario"
+      ]
+    },
+    {
+      "id": "operational-scenario",
+      "order": 2,
+      "titleJa": "運用シナリオ",
+      "titleVi": "Kịch bản vận hành",
+      "importance": "medium",
+      "summaryJa": "システムが実際にどのように運用されるかを具体的に示した模型やストーリーである。",
+      "summaryVi": "Kịch bản vận hành: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用シナリオとは",
+          "vi": "Kịch bản vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムが実際にどのように運用されるかを具体的に示した模型やストーリーである。このシナリオは、ユーザーの操作やシステムの反応を想定し、機能がどのように利用されるのかを明確にするために用いられる。例えば、ある企業のシステム運用シナリオでは、特定の業務プロセスを通じてデータがどのように入力され、処理され、出力されるのかを詳細に描写する。このような運用シナリオを設定することで、システムの要件を理解しやすくし、開発や実装の段階での誤解を防ぐ役割がある。さらに、将来的な運用やメンテナンスにおいても、シナリオによる参照が重要な手助けとなる。",
+          "vi": "Học trọng tâm về Kịch bản vận hành: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "運用シナリオの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Kịch bản vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用シナリオ",
+          "english": "Operational Scenario",
+          "vi": "Kịch bản vận hành",
+          "definitionJa": "システムが実際にどのように運用されるかを具体的に示した模型やストーリーである。このシナリオは、ユーザーの操作やシステムの反応を想定し、機能がどのように利用されるのかを明確にするために用いられる。例えば、ある企業のシステム運用シナリオでは、特定の業務プロセスを通じてデータがどのように入力され、処理され、出力されるのかを詳細に描写する。このような運用シナリオを設定することで、システムの要件を理解しやすくし、開発や実装の段階での誤解を防ぐ役割がある。さらに、将来的な運用やメンテナンスにおいても、シナリオによる参照が重要な手助けとなる。",
+          "definitionVi": "Kịch bản vận hành: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "うんようしなりお"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "operational-scenario"
+      ]
+    },
+    {
+      "id": "application-programming-interface",
+      "order": 3,
+      "titleJa": "API",
+      "titleVi": "API",
+      "importance": "medium",
+      "summaryJa": "異なるソフトウェア同士が相互にコミュニケーションを取るためのルールや手順を定義したものである。",
+      "summaryVi": "API: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "APIとは",
+          "vi": "API là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるソフトウェア同士が相互にコミュニケーションを取るためのルールや手順を定義したものである。APIを利用することで、開発者は他のサービスやアプリケーションの機能を自分のプログラムに簡単に組み込むことができる。具体的には、あるWebサービスが持つデータを取得したり、特定の処理を実行したりするのにAPIが使われることが多い。たとえば、Googleの地図サービスを利用する際、その地図を表示するためにAPIを介して情報を取得することで、自分のアプリケーションに地図機能を追加できる。また、APIはシステム要件定義においても重要な役割を果たし、他のシステムとの連携を計画する際に、必要な機能やデータのやり取りを明確に示すことが求められる。",
+          "vi": "Học trọng tâm về API: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "APIの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của API."
+        }
+      ],
+      "terms": [
+        {
+          "term": "API",
+          "english": "Application Programming Interface",
+          "vi": "API",
+          "definitionJa": "異なるソフトウェア同士が相互にコミュニケーションを取るためのルールや手順を定義したものである。APIを利用することで、開発者は他のサービスやアプリケーションの機能を自分のプログラムに簡単に組み込むことができる。具体的には、あるWebサービスが持つデータを取得したり、特定の処理を実行したりするのにAPIが使われることが多い。たとえば、Googleの地図サービスを利用する際、その地図を表示するためにAPIを介して情報を取得することで、自分のアプリケーションに地図機能を追加できる。また、APIはシステム要件定義においても重要な役割を果たし、他のシステムとの連携を計画する際に、必要な機能やデータのやり取りを明確に示すことが求められる。",
+          "definitionVi": "API: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "えーぴーあい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "application-programming-interface"
+      ]
+    },
+    {
+      "id": "graphical-user-interface",
+      "order": 4,
+      "titleJa": "GUI",
+      "titleVi": "GUI",
+      "importance": "medium",
+      "summaryJa": "コンピュータやソフトウェアを操作する際に、視覚的な要素を利用してユーザーとシステムとのインターフェースを提供するものである。",
+      "summaryVi": "GUI: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "GUIとは",
+          "vi": "GUI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやソフトウェアを操作する際に、視覚的な要素を利用してユーザーとシステムとのインターフェースを提供するものである。具体的には、アイコンやウィンドウ、ボタンなどを用いてユーザーが直感的に操作できるようにデザインされている。これにより、テキストコマンドを入力する必要がなくなり、特にIT初心者にとって使いやすさが飛躍的に向上する。例えば、パソコンのデスクトップでは、ファイルやアプリケーションがアイコンとして表示され、マウスで簡単に選択や起動が可能となる。ユーザーの操作を分かりやすくし、作業効率を高める役割を担っているため、現代の多くのシステムで広く採用されているのである。",
+          "vi": "Học trọng tâm về GUI: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "GUIの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của GUI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "GUI",
+          "english": "Graphical User Interface",
+          "vi": "GUI",
+          "definitionJa": "コンピュータやソフトウェアを操作する際に、視覚的な要素を利用してユーザーとシステムとのインターフェースを提供するものである。具体的には、アイコンやウィンドウ、ボタンなどを用いてユーザーが直感的に操作できるようにデザインされている。これにより、テキストコマンドを入力する必要がなくなり、特にIT初心者にとって使いやすさが飛躍的に向上する。例えば、パソコンのデスクトップでは、ファイルやアプリケーションがアイコンとして表示され、マウスで簡単に選択や起動が可能となる。ユーザーの操作を分かりやすくし、作業効率を高める役割を担っているため、現代の多くのシステムで広く採用されているのである。",
+          "definitionVi": "GUI: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "じーゆーあい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "graphical-user-interface"
+      ]
+    },
+    {
+      "id": "interface-file",
+      "order": 5,
+      "titleJa": "インタフェースファイル",
+      "titleVi": "Tệp giao diện",
+      "importance": "medium",
+      "summaryJa": "異なるシステム間でデータをやり取りするためのファイル形式である。",
+      "summaryVi": "Tệp giao diện: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インタフェースファイルとは",
+          "vi": "Tệp giao diện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるシステム間でデータをやり取りするためのファイル形式である。主に、システム要件定義の段階で、異なるプログラムやアプリケーションが情報を正確に交換できるように設計される。このファイルは、データの形式や内容、通信方法を明確に示すことで、エラーを防ぎ、効率的なデータ処理を可能にする。例えば、あるシステムが売上データを生成し、それを別のシステムが受け取って分析する際、インタフェースファイルを用いることで、情報がスムーズに移動する。これにより、システム同士が連携し、業務の効率化が図れることが重要な目的となる。",
+          "vi": "Học trọng tâm về Tệp giao diện: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "インタフェースファイルの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Tệp giao diện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタフェースファイル",
+          "english": "Interface File",
+          "vi": "Tệp giao diện",
+          "definitionJa": "異なるシステム間でデータをやり取りするためのファイル形式である。主に、システム要件定義の段階で、異なるプログラムやアプリケーションが情報を正確に交換できるように設計される。このファイルは、データの形式や内容、通信方法を明確に示すことで、エラーを防ぎ、効率的なデータ処理を可能にする。例えば、あるシステムが売上データを生成し、それを別のシステムが受け取って分析する際、インタフェースファイルを用いることで、情報がスムーズに移動する。これにより、システム同士が連携し、業務の効率化が図れることが重要な目的となる。",
+          "definitionVi": "Tệp giao diện: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "interface-file"
+      ]
+    },
+    {
+      "id": "service",
+      "order": 6,
+      "titleJa": "サービス",
+      "titleVi": "Dịch vụ",
+      "importance": "medium",
+      "summaryJa": "顧客やユーザーに対して提供される機能や支援を指す概念である。",
+      "summaryVi": "Dịch vụ: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスとは",
+          "vi": "Dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客やユーザーに対して提供される機能や支援を指す概念である。システム要件定義においては、どのようなサービスを提供するかを明確に定義することが重要となる。例えば、オンラインショッピングサイトでは、商品検索や購入、決済処理などの一連のサービスが存在する。これらのユーザーにとって使いやすく、効率的でなければならない。また、サービスの品質や信頼性も重要な要素であり、システム設計の際にユーザーのニーズを反映させることが求められる。適切なサービスを設計することで、ユーザー満足度を向上させることが可能になる。",
+          "vi": "Học trọng tâm về Dịch vụ: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "サービスの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス",
+          "english": "Service",
+          "vi": "Dịch vụ",
+          "definitionJa": "顧客やユーザーに対して提供される機能や支援を指す概念である。システム要件定義においては、どのようなサービスを提供するかを明確に定義することが重要となる。例えば、オンラインショッピングサイトでは、商品検索や購入、決済処理などの一連のサービスが存在する。これらのユーザーにとって使いやすく、効率的でなければならない。また、サービスの品質や信頼性も重要な要素であり、システム設計の際にユーザーのニーズを反映させることが求められる。適切なサービスを設計することで、ユーザー満足度を向上させることが可能になる。",
+          "definitionVi": "Dịch vụ: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "service"
+      ]
+    },
+    {
+      "id": "system-functional-specifications",
+      "order": 7,
+      "titleJa": "システム機能仕様",
+      "titleVi": "Đặc tả chức năng hệ thống",
+      "importance": "medium",
+      "summaryJa": "特定のシステムが提供すべき機能や能力を明確に記述した文書である。",
+      "summaryVi": "Đặc tả chức năng hệ thống: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム機能仕様とは",
+          "vi": "Đặc tả chức năng hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のシステムが提供すべき機能や能力を明確に記述した文書である。この仕様書は、システムがどのような要件を満たす必要があるのかを具体的に示すため、システム開発の際に非常に重要となる。例えば、オンラインバンキングシステムでは、ユーザーが口座残高を確認したり、送金を行ったりする機能が必要とされる。この場合、システム機能仕様には、これらの機能がどのように実現されるのかや、操作手順、必要なデータの処理方法などが詳細に記載される。また、仕様が整っていることで、開発者や利用者がシステムの期待される動作を理解しやすくなり、トラブルを未然に防ぐことにも寄与する。",
+          "vi": "Học trọng tâm về Đặc tả chức năng hệ thống: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "システム機能仕様の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Đặc tả chức năng hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム機能仕様",
+          "english": "System Functional Specifications",
+          "vi": "Đặc tả chức năng hệ thống",
+          "definitionJa": "特定のシステムが提供すべき機能や能力を明確に記述した文書である。この仕様書は、システムがどのような要件を満たす必要があるのかを具体的に示すため、システム開発の際に非常に重要となる。例えば、オンラインバンキングシステムでは、ユーザーが口座残高を確認したり、送金を行ったりする機能が必要とされる。この場合、システム機能仕様には、これらの機能がどのように実現されるのかや、操作手順、必要なデータの処理方法などが詳細に記載される。また、仕様が整っていることで、開発者や利用者がシステムの期待される動作を理解しやすくなり、トラブルを未然に防ぐことにも寄与する。",
+          "definitionVi": "Đặc tả chức năng hệ thống: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "しすてむきのうしよう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "system-functional-specifications"
+      ]
+    },
+    {
+      "id": "response-time",
+      "order": 8,
+      "titleJa": "レスポンスタイム",
+      "titleVi": "Thời gian đáp ứng",
+      "importance": "high",
+      "summaryJa": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。",
+      "summaryVi": "Thời gian đáp ứng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レスポンスタイムとは",
+          "vi": "Thời gian đáp ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。この時間は、システムの性能や使いやすさを測る重要な指標となり、特にWebサービスやアプリケーションの利用時にその影響が顕著に現れる。例えば、Webページを開く際やアプリ内で操作を行った際に、どれだけ早く結果が表示されるかがレスポンスタイムであり、この時間が短ければ短いほどユーザー体験は向上する。レスポンスタイムが長くなると、ユーザーは待たされている感覚を持ち、利用意欲が低下するため、システム設計においては常に改善が求められる。また、ネットワークの速度やサーバの処理能力など、さまざまな要因がレスポンスタイムに影響を与える。",
+          "vi": "Học trọng tâm về Thời gian đáp ứng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "レスポンスタイムの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thời gian đáp ứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レスポンスタイム",
+          "english": "Response Time",
+          "vi": "Thời gian đáp ứng",
+          "definitionJa": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。この時間は、システムの性能や使いやすさを測る重要な指標となり、特にWebサービスやアプリケーションの利用時にその影響が顕著に現れる。例えば、Webページを開く際やアプリ内で操作を行った際に、どれだけ早く結果が表示されるかがレスポンスタイムであり、この時間が短ければ短いほどユーザー体験は向上する。レスポンスタイムが長くなると、ユーザーは待たされている感覚を持ち、利用意欲が低下するため、システム設計においては常に改善が求められる。また、ネットワークの速度やサーバの処理能力など、さまざまな要因がレスポンスタイムに影響を与える。",
+          "definitionVi": "Thời gian đáp ứng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "response-time"
+      ]
+    },
+    {
+      "id": "throughput",
+      "order": 9,
+      "titleJa": "スループット",
+      "titleVi": "Thông lượng",
+      "importance": "high",
+      "summaryJa": "特定の時間内に処理できるデータの量を指す指標である。",
+      "summaryVi": "Thông lượng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スループットとは",
+          "vi": "Thông lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の時間内に処理できるデータの量を指す指標である。通常は、秒間のデータ量で表現され、ネットワークやコンピュータシステムの性能を評価する上で重要な要素となる。例えば、あるネットワーク接続が1秒間に100メガビットのデータを送信する場合、スループットは100メガビットとなる。この指標は、システムの効率や使いやすさを評価する際に用いられ、スループットが高いほど、より多くのデータを迅速に処理できるため、ユーザにとって利便性が向上する。また、スループットの向上には、ネットワークの帯域幅やシステムの処理能力、効率的なデータ管理が重要となる。",
+          "vi": "Học trọng tâm về Thông lượng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "スループットの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thông lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スループット",
+          "english": "Throughput",
+          "vi": "Thông lượng",
+          "definitionJa": "特定の時間内に処理できるデータの量を指す指標である。通常は、秒間のデータ量で表現され、ネットワークやコンピュータシステムの性能を評価する上で重要な要素となる。例えば、あるネットワーク接続が1秒間に100メガビットのデータを送信する場合、スループットは100メガビットとなる。この指標は、システムの効率や使いやすさを評価する際に用いられ、スループットが高いほど、より多くのデータを迅速に処理できるため、ユーザにとって利便性が向上する。また、スループットの向上には、ネットワークの帯域幅やシステムの処理能力、効率的なデータ管理が重要となる。",
+          "definitionVi": "Thông lượng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "throughput"
+      ]
+    },
+    {
+      "id": "database-requirements",
+      "order": 10,
+      "titleJa": "データベース要件",
+      "titleVi": "Yêu cầu cơ sở dữ liệu",
+      "importance": "medium",
+      "summaryJa": "特定のシステムやアプリケーションが必要とするデータの収集、管理、利用に関する仕様や条件を指すものである。",
+      "summaryVi": "Yêu cầu cơ sở dữ liệu: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データベース要件とは",
+          "vi": "Yêu cầu cơ sở dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のシステムやアプリケーションが必要とするデータの収集、管理、利用に関する仕様や条件を指すものである。この要件は、業務や組織のニーズを満たすために必要な機能や性能を定義する。例えば、データの整合性を保ちつつ、ユーザーが迅速に情報を検索できることが求められる。これには、データの構造や形式、使用するデータベースの種類、ユーザーのアクセス権限などが含まれる。データベース要件を適切に設定することで、組織全体の業務効率が向上し、データの活用価値が最大化される。",
+          "vi": "Học trọng tâm về Yêu cầu cơ sở dữ liệu: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "データベース要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu cơ sở dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データベース要件",
+          "english": "Database Requirements",
+          "vi": "Yêu cầu cơ sở dữ liệu",
+          "definitionJa": "特定のシステムやアプリケーションが必要とするデータの収集、管理、利用に関する仕様や条件を指すものである。この要件は、業務や組織のニーズを満たすために必要な機能や性能を定義する。例えば、データの整合性を保ちつつ、ユーザーが迅速に情報を検索できることが求められる。これには、データの構造や形式、使用するデータベースの種類、ユーザーのアクセス権限などが含まれる。データベース要件を適切に設定することで、組織全体の業務効率が向上し、データの活用価値が最大化される。",
+          "definitionVi": "Yêu cầu cơ sở dữ liệu: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "でーたべーすようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "database-requirements"
+      ]
+    },
+    {
+      "id": "test-requirements",
+      "order": 11,
+      "titleJa": "テスト要件",
+      "titleVi": "Yêu cầu kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムが満たさなければならない条件や特性を明確に示したものである。",
+      "summaryVi": "Yêu cầu kiểm thử: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト要件とは",
+          "vi": "Yêu cầu kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムが満たさなければならない条件や特性を明確に示したものである。これにより、開発段階で求められる機能や性能を確認するための基準が定まる。例えば、ユーザーが期待する操作性やレスポンス時間、エラー処理の仕様などが含まれる。システムがリリースされる前に十分な確認が行われるようにするための重要な文書であり、開発チームと利用者間のコミュニケーションを円滑にする役割も果たす。しっかりしたテスト要件があることで、最終的な製品の品質向上に寄与することができる。",
+          "vi": "Học trọng tâm về Yêu cầu kiểm thử: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "テスト要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト要件",
+          "english": "Test Requirements",
+          "vi": "Yêu cầu kiểm thử",
+          "definitionJa": "ソフトウェアやシステムが満たさなければならない条件や特性を明確に示したものである。これにより、開発段階で求められる機能や性能を確認するための基準が定まる。例えば、ユーザーが期待する操作性やレスポンス時間、エラー処理の仕様などが含まれる。システムがリリースされる前に十分な確認が行われるようにするための重要な文書であり、開発チームと利用者間のコミュニケーションを円滑にする役割も果たす。しっかりしたテスト要件があることで、最終的な製品の品質向上に寄与することができる。",
+          "definitionVi": "Yêu cầu kiểm thử: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "てすとようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "test-requirements"
+      ]
+    },
+    {
+      "id": "security-requirement",
+      "order": 12,
+      "titleJa": "セキュリティ要件",
+      "titleVi": "Yêu cầu bảo mật",
+      "importance": "high",
+      "summaryJa": "システムや情報を保護するために必要な条件や基準を指すものである。",
+      "summaryVi": "Yêu cầu bảo mật: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティ要件とは",
+          "vi": "Yêu cầu bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムや情報を保護するために必要な条件や基準を指すものである。これらは、データの機密性や完全性、可用性を維持するために設定される。例えば、ユーザー認証やアクセス制限は、セキュリティ要件の一部である。これにより、不正アクセスを防ぎ、許可された人だけが情報にアクセスできるようにする。また、システムの設計や運用において、リスクを管理し、情報漏洩やデータ損失を防ぐための指針となる。さらに、これらの要件は法律や規制とも関連しており、業務を行う上で遵守が求められることが多い。",
+          "vi": "Học trọng tâm về Yêu cầu bảo mật: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "セキュリティ要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティ要件",
+          "english": "Security Requirement",
+          "vi": "Yêu cầu bảo mật",
+          "definitionJa": "システムや情報を保護するために必要な条件や基準を指すものである。これらは、データの機密性や完全性、可用性を維持するために設定される。例えば、ユーザー認証やアクセス制限は、セキュリティ要件の一部である。これにより、不正アクセスを防ぎ、許可された人だけが情報にアクセスできるようにする。また、システムの設計や運用において、リスクを管理し、情報漏洩やデータ損失を防ぐための指針となる。さらに、これらの要件は法律や規制とも関連しており、業務を行う上で遵守が求められることが多い。",
+          "definitionVi": "Yêu cầu bảo mật: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "せきゅりてぃようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "security-requirement"
+      ]
+    },
+    {
+      "id": "migration-requirements",
+      "order": 13,
+      "titleJa": "移行要件",
+      "titleVi": "Yêu cầu chuyển đổi",
+      "importance": "medium",
+      "summaryJa": "システムやプロセスを新しい環境へ移行するために必要な条件や仕様を指すことである。",
+      "summaryVi": "Yêu cầu chuyển đổi: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "移行要件とは",
+          "vi": "Yêu cầu chuyển đổi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスを新しい環境へ移行するために必要な条件や仕様を指すことである。この要件には、データの移行方法や、必要なインフラ、ユーザーに対するトレーニング内容などが含まれる。例えば、旧システムから新システムにデータを移す際には、データの整合性やセキュリティの確保が求められる。また、新しいシステムを使用するためのユーザーサポートや、操作マニュアルの整備も重要な移行要件となる。これにより、業務の効率化や利用者の満足度を高めることが可能となり、スムーズな業務運営が維持される。",
+          "vi": "Học trọng tâm về Yêu cầu chuyển đổi: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "移行要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu chuyển đổi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "移行要件",
+          "english": "Migration Requirements",
+          "vi": "Yêu cầu chuyển đổi",
+          "definitionJa": "システムやプロセスを新しい環境へ移行するために必要な条件や仕様を指すことである。この要件には、データの移行方法や、必要なインフラ、ユーザーに対するトレーニング内容などが含まれる。例えば、旧システムから新システムにデータを移す際には、データの整合性やセキュリティの確保が求められる。また、新しいシステムを使用するためのユーザーサポートや、操作マニュアルの整備も重要な移行要件となる。これにより、業務の効率化や利用者の満足度を高めることが可能となり、スムーズな業務運営が維持される。",
+          "definitionVi": "Yêu cầu chuyển đổi: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "いこうようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "migration-requirements"
+      ]
+    },
+    {
+      "id": "operational-requirements",
+      "order": 14,
+      "titleJa": "運用要件",
+      "titleVi": "Yêu cầu vận hành",
+      "importance": "medium",
+      "summaryJa": "システムやアプリケーションが実際に運用される際に必要とされる特定の条件や基準を指すものである。",
+      "summaryVi": "Yêu cầu vận hành: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用要件とは",
+          "vi": "Yêu cầu vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやアプリケーションが実際に運用される際に必要とされる特定の条件や基準を指すものである。これには、システムが安定して稼働するための要素や、ユーザーが快適に利用できるための条件が含まれる。例えば、システムの稼働時間や反応速度、ユーザーインターフェイスの使いやすさなどが運用要件に該当する。運用要件を明確にすることで、システム導入後のトラブルを減少させ、業務の効率化を図ることができる。また、これらの要件は実際の運用において重要なポイントとなり、システムの成功や失敗に大きく影響するため、開発段階からしっかりと検討されるべきである。",
+          "vi": "Học trọng tâm về Yêu cầu vận hành: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "運用要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用要件",
+          "english": "Operational Requirements",
+          "vi": "Yêu cầu vận hành",
+          "definitionJa": "システムやアプリケーションが実際に運用される際に必要とされる特定の条件や基準を指すものである。これには、システムが安定して稼働するための要素や、ユーザーが快適に利用できるための条件が含まれる。例えば、システムの稼働時間や反応速度、ユーザーインターフェイスの使いやすさなどが運用要件に該当する。運用要件を明確にすることで、システム導入後のトラブルを減少させ、業務の効率化を図ることができる。また、これらの要件は実際の運用において重要なポイントとなり、システムの成功や失敗に大きく影響するため、開発段階からしっかりと検討されるべきである。",
+          "definitionVi": "Yêu cầu vận hành: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "うんようようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "operational-requirements"
+      ]
+    },
+    {
+      "id": "maintenance-requirements",
+      "order": 15,
+      "titleJa": "保守要件",
+      "titleVi": "Yêu cầu bảo trì",
+      "importance": "medium",
+      "summaryJa": "システムやソフトウェアが運用される中で、維持・管理に必要な条件や基準を指すことである。",
+      "summaryVi": "Yêu cầu bảo trì: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "保守要件とは",
+          "vi": "Yêu cầu bảo trì là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアが運用される中で、維持・管理に必要な条件や基準を指すことである。これは、システムが正常に機能し続けるためにどういった作業が求められるのかを示すもので、定期的な点検や修正作業、更新作業が含まれる。例えば、ソフトウェアのバグ修正やセキュリティパッチの適用が該当する。また、システムの使用者や管理者が、運用中に発生する可能性のある問題に迅速に対応できるようにするためのガイドラインとしても機能する。このため、企業や組織の業務を円滑に進める上で重要な要素である。",
+          "vi": "Học trọng tâm về Yêu cầu bảo trì: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "保守要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu bảo trì."
+        }
+      ],
+      "terms": [
+        {
+          "term": "保守要件",
+          "english": "Maintenance Requirements",
+          "vi": "Yêu cầu bảo trì",
+          "definitionJa": "システムやソフトウェアが運用される中で、維持・管理に必要な条件や基準を指すことである。これは、システムが正常に機能し続けるためにどういった作業が求められるのかを示すもので、定期的な点検や修正作業、更新作業が含まれる。例えば、ソフトウェアのバグ修正やセキュリティパッチの適用が該当する。また、システムの使用者や管理者が、運用中に発生する可能性のある問題に迅速に対応できるようにするためのガイドラインとしても機能する。このため、企業や組織の業務を円滑に進める上で重要な要素である。",
+          "definitionVi": "Yêu cầu bảo trì: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ほしゅようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "maintenance-requirements"
+      ]
+    },
+    {
+      "id": "incident-response",
+      "order": 16,
+      "titleJa": "障害対応",
+      "titleVi": "Ứng phó sự cố",
+      "importance": "medium",
+      "summaryJa": "システムやサービスにおける問題や障害が発生した際に、それに迅速かつ適切に対処するプロセスを指すことである。",
+      "summaryVi": "Ứng phó sự cố: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "障害対応とは",
+          "vi": "Ứng phó sự cố là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやサービスにおける問題や障害が発生した際に、それに迅速かつ適切に対処するプロセスを指すことである。これには、障害の認識、原因の特定、暫定的な解決策の実施、そして根本的な解決までの一連のステップが含まれる。例えば、システムがダウンした場合、技術者はまず問題を確認し、影響を受けた範囲を評価した上で、サービスを再開させるための措置を取る。また、障害後には原因を分析し、再発防止策を講じることで、今後の運用において同様の問題を防ぐ努力を行う。このように、障害対応はシステムの信頼性を維持する上で重要な役割を果たす。",
+          "vi": "Học trọng tâm về Ứng phó sự cố: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "障害対応の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Ứng phó sự cố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "障害対応",
+          "english": "Incident Response",
+          "vi": "Ứng phó sự cố",
+          "definitionJa": "システムやサービスにおける問題や障害が発生した際に、それに迅速かつ適切に対処するプロセスを指すことである。これには、障害の認識、原因の特定、暫定的な解決策の実施、そして根本的な解決までの一連のステップが含まれる。例えば、システムがダウンした場合、技術者はまず問題を確認し、影響を受けた範囲を評価した上で、サービスを再開させるための措置を取る。また、障害後には原因を分析し、再発防止策を講じることで、今後の運用において同様の問題を防ぐ努力を行う。このように、障害対応はシステムの信頼性を維持する上で重要な役割を果たす。",
+          "definitionVi": "Ứng phó sự cố: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "しょうがいたいおう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "incident-response"
+      ]
+    },
+    {
+      "id": "education",
+      "order": 17,
+      "titleJa": "教育",
+      "titleVi": "Đào tạo",
+      "importance": "medium",
+      "summaryJa": "知識や技術、価値観を伝え、学ぶ過程を指すものである。",
+      "summaryVi": "Đào tạo: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "教育とは",
+          "vi": "Đào tạo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "知識や技術、価値観を伝え、学ぶ過程を指すものである。このプロセスは、学校や家庭、地域社会などさまざまな場で行われる。教育の目的は、個人が社会で必要な能力を身につけ、自立した生活を送れるようにすることである。例えば、学校での授業を通じて基本的な読み書きや計算のスキルを学ぶ他、社会のルールやマナーについても教育される。また、教育は生涯にわたって続くものであり、職業訓練や成人教育なども含まれる。これにより、個人は自身の可能性を広げ、社会に貢献するための力を育むことができる。",
+          "vi": "Học trọng tâm về Đào tạo: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "教育の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Đào tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "教育",
+          "english": "Education",
+          "vi": "Đào tạo",
+          "definitionJa": "知識や技術、価値観を伝え、学ぶ過程を指すものである。このプロセスは、学校や家庭、地域社会などさまざまな場で行われる。教育の目的は、個人が社会で必要な能力を身につけ、自立した生活を送れるようにすることである。例えば、学校での授業を通じて基本的な読み書きや計算のスキルを学ぶ他、社会のルールやマナーについても教育される。また、教育は生涯にわたって続くものであり、職業訓練や成人教育なども含まれる。これにより、個人は自身の可能性を広げ、社会に貢献するための力を育むことができる。",
+          "definitionVi": "Đào tạo: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "きょういく"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "education"
+      ]
+    },
+    {
+      "id": "training",
+      "order": 18,
+      "titleJa": "訓練",
+      "titleVi": "Huấn luyện",
+      "importance": "medium",
+      "summaryJa": "特定の技能や知識を習得するための過程である。",
+      "summaryVi": "Huấn luyện: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "訓練とは",
+          "vi": "Huấn luyện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の技能や知識を習得するための過程である。主に、個人や組織が効率的に業務を遂行するために必要な能力を高めることを目的とする。例えば、企業が新入社員に対して行うオリエンテーションや、既存の社員に向けたスキルアップ研修がその一例である。実務に即した内容で行われることが多く、職場内の活性化や生産性向上に寄与する。また、専門知識や技術の向上を通じて、業務の質を向上させる効果もあるため、組織の競争力を維持するためにも重要なプロセスである。",
+          "vi": "Học trọng tâm về Huấn luyện: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "訓練の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Huấn luyện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "訓練",
+          "english": "Training",
+          "vi": "Huấn luyện",
+          "definitionJa": "特定の技能や知識を習得するための過程である。主に、個人や組織が効率的に業務を遂行するために必要な能力を高めることを目的とする。例えば、企業が新入社員に対して行うオリエンテーションや、既存の社員に向けたスキルアップ研修がその一例である。実務に即した内容で行われることが多く、職場内の活性化や生産性向上に寄与する。また、専門知識や技術の向上を通じて、業務の質を向上させる効果もあるため、組織の競争力を維持するためにも重要なプロセスである。",
+          "definitionVi": "Huấn luyện: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "くんれん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "training"
+      ]
+    },
+    {
+      "id": "cost",
+      "order": 19,
+      "titleJa": "費用",
+      "titleVi": "Chi phí",
+      "importance": "medium",
+      "summaryJa": "物やサービスを手に入れるために支払わなければならない金銭的な価値を指すことである。",
+      "summaryVi": "Chi phí: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "費用とは",
+          "vi": "Chi phí là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "物やサービスを手に入れるために支払わなければならない金銭的な価値を指すことである。一般的には、企業や組織が運営や製品製造に伴って発生するさまざまな支出が含まれる。例えば、従業員の給与、原材料費、設備の維持費などが挙げられる。経済活動を評価する上で非常に重要な要素となり、適切な管理を行うことで、企業の収益性を向上させることができる。また、費用の把握は、予算編成や価格設定、経営戦略の策定に不可欠であり、企業の健全な成長を支える基盤となる。",
+          "vi": "Học trọng tâm về Chi phí: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "費用の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "費用",
+          "english": "Cost",
+          "vi": "Chi phí",
+          "definitionJa": "物やサービスを手に入れるために支払わなければならない金銭的な価値を指すことである。一般的には、企業や組織が運営や製品製造に伴って発生するさまざまな支出が含まれる。例えば、従業員の給与、原材料費、設備の維持費などが挙げられる。経済活動を評価する上で非常に重要な要素となり、適切な管理を行うことで、企業の収益性を向上させることができる。また、費用の把握は、予算編成や価格設定、経営戦略の策定に不可欠であり、企業の健全な成長を支える基盤となる。",
+          "definitionVi": "Chi phí: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ひよう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "cost"
+      ]
+    },
+    {
+      "id": "execution-environment-requirements",
+      "order": 20,
+      "titleJa": "実行環境要件",
+      "titleVi": "Yêu cầu môi trường thực thi",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムが正しく動作するために必要な条件や設定を指すものである。",
+      "summaryVi": "Yêu cầu môi trường thực thi: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "実行環境要件とは",
+          "vi": "Yêu cầu môi trường thực thi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムが正しく動作するために必要な条件や設定を指すものである。これには、ハードウェアの仕様、オペレーティングシステムのバージョン、依存するライブラリやフレームワークのバージョンなどが含まれる。たとえば、あるアプリケーションが特定のバージョンのWindowsや特定サイズのメモリを必要とする場合、その情報が実行環境要件に該当する。また、実行環境要件を明確にすることで、ユーザーや開発者は適切な環境を準備し、トラブルを回避することができる。これにより、開発プロセスがスムーズになり、ソフトウェアの品質向上にも寄与する。",
+          "vi": "Học trọng tâm về Yêu cầu môi trường thực thi: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "実行環境要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu môi trường thực thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実行環境要件",
+          "english": "Execution Environment Requirements",
+          "vi": "Yêu cầu môi trường thực thi",
+          "definitionJa": "ソフトウェアやシステムが正しく動作するために必要な条件や設定を指すものである。これには、ハードウェアの仕様、オペレーティングシステムのバージョン、依存するライブラリやフレームワークのバージョンなどが含まれる。たとえば、あるアプリケーションが特定のバージョンのWindowsや特定サイズのメモリを必要とする場合、その情報が実行環境要件に該当する。また、実行環境要件を明確にすることで、ユーザーや開発者は適切な環境を準備し、トラブルを回避することができる。これにより、開発プロセスがスムーズになり、ソフトウェアの品質向上にも寄与する。",
+          "definitionVi": "Yêu cầu môi trường thực thi: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "じっこうかんきょうようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "execution-environment-requirements"
+      ]
+    },
+    {
+      "id": "peripheral-interface-requirements",
+      "order": 21,
+      "titleJa": "周辺インタフェース要件",
+      "titleVi": "Yêu cầu giao diện thiết bị ngoại vi",
+      "importance": "medium",
+      "summaryJa": "コンピュータやシステムと外部の周辺機器（プリンター、スキャナーなど）との接続や通信に関する要件を指す。",
+      "summaryVi": "Yêu cầu giao diện thiết bị ngoại vi: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "周辺インタフェース要件とは",
+          "vi": "Yêu cầu giao diện thiết bị ngoại vi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやシステムと外部の周辺機器（プリンター、スキャナーなど）との接続や通信に関する要件を指す。これには、データの転送速度、接続方式、必要なプロトコルなどが含まれる。例えば、USBやBluetoothなどの接続方法が一般的に用いられ、これらの要件を満たすことで、周辺機器とシステム間の円滑なデータ交換が実現される。システムの全体的なパフォーマンスにも影響を与えるため、設計段階から重要な考慮事項となる。また、将来的な拡張性や互換性を持たせるために、柔軟な要件設定が求められる。",
+          "vi": "Học trọng tâm về Yêu cầu giao diện thiết bị ngoại vi: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "周辺インタフェース要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu giao diện thiết bị ngoại vi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "周辺インタフェース要件",
+          "english": "Peripheral Interface Requirements",
+          "vi": "Yêu cầu giao diện thiết bị ngoại vi",
+          "definitionJa": "コンピュータやシステムと外部の周辺機器（プリンター、スキャナーなど）との接続や通信に関する要件を指す。これには、データの転送速度、接続方式、必要なプロトコルなどが含まれる。例えば、USBやBluetoothなどの接続方法が一般的に用いられ、これらの要件を満たすことで、周辺機器とシステム間の円滑なデータ交換が実現される。システムの全体的なパフォーマンスにも影響を与えるため、設計段階から重要な考慮事項となる。また、将来的な拡張性や互換性を持たせるために、柔軟な要件設定が求められる。",
+          "definitionVi": "Yêu cầu giao diện thiết bị ngoại vi: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "しゅうへんいんたふぇーすようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "peripheral-interface-requirements"
+      ]
+    },
+    {
+      "id": "quality-requirements",
+      "order": 22,
+      "titleJa": "品質要件",
+      "titleVi": "Yêu cầu chất lượng",
+      "importance": "medium",
+      "summaryJa": "製品やサービスが満たすべき特定の特性や基準を指すことである。",
+      "summaryVi": "Yêu cầu chất lượng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "品質要件とは",
+          "vi": "Yêu cầu chất lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが満たすべき特定の特性や基準を指すことである。これらの要件は、顧客の期待に応えるために設定され、主に性能、信頼性、安全性、耐久性などの観点から評価される。例えば、自動車の品質要件には、燃費性能や安全機能が含まれる。このような要件は、開発プロセスの初期段階から考慮され、最終的な製品の品質向上に寄与する。また、顧客満足度を向上させ、企業の競争力を強化する役割も果たすため、重要な要素となる。これにより、企業は市場での信頼を築くことができる。",
+          "vi": "Học trọng tâm về Yêu cầu chất lượng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "品質要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質要件",
+          "english": "Quality Requirements",
+          "vi": "Yêu cầu chất lượng",
+          "definitionJa": "製品やサービスが満たすべき特定の特性や基準を指すことである。これらの要件は、顧客の期待に応えるために設定され、主に性能、信頼性、安全性、耐久性などの観点から評価される。例えば、自動車の品質要件には、燃費性能や安全機能が含まれる。このような要件は、開発プロセスの初期段階から考慮され、最終的な製品の品質向上に寄与する。また、顧客満足度を向上させ、企業の競争力を強化する役割も果たすため、重要な要素となる。これにより、企業は市場での信頼を築くことができる。",
+          "definitionVi": "Yêu cầu chất lượng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ひんしつようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "quality-requirements"
+      ]
+    },
+    {
+      "id": "functional-requirements",
+      "order": 23,
+      "titleJa": "機能要件",
+      "titleVi": "Yêu cầu chức năng",
+      "importance": "high",
+      "summaryJa": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。",
+      "summaryVi": "Yêu cầu chức năng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "機能要件とは",
+          "vi": "Yêu cầu chức năng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。これは、ユーザーがシステムを使う上での期待やニーズを明確に示すものであり、具体的な動作や操作の方法を含む。例えば、オンラインショッピングサイトであれば、商品を検索する機能、カートに商品を追加する機能、決済を行う機能などが機能要件に該当する。開発プロセスの初期段階で明確に定義されることが重要であり、これにより開発チームは必要な機能を構築し、テストを行う際の基準として活用される。適切な機能要件を設定することで、ユーザーの満足度を高め、システムの品質を向上させることが可能となる。",
+          "vi": "Học trọng tâm về Yêu cầu chức năng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "機能要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu chức năng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "機能要件",
+          "english": "Functional Requirements",
+          "vi": "Yêu cầu chức năng",
+          "definitionJa": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。これは、ユーザーがシステムを使う上での期待やニーズを明確に示すものであり、具体的な動作や操作の方法を含む。例えば、オンラインショッピングサイトであれば、商品を検索する機能、カートに商品を追加する機能、決済を行う機能などが機能要件に該当する。開発プロセスの初期段階で明確に定義されることが重要であり、これにより開発チームは必要な機能を構築し、テストを行う際の基準として活用される。適切な機能要件を設定することで、ユーザーの満足度を高め、システムの品質を向上させることが可能となる。",
+          "definitionVi": "Yêu cầu chức năng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "きのうようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "functional-requirements"
+      ]
+    },
+    {
+      "id": "non-functional-requirements",
+      "order": 24,
+      "titleJa": "非機能要件",
+      "titleVi": "Yêu cầu phi chức năng",
+      "importance": "high",
+      "summaryJa": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。",
+      "summaryVi": "Yêu cầu phi chức năng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "非機能要件とは",
+          "vi": "Yêu cầu phi chức năng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。これらは、システムがどのように動作するかを決定づける重要な要素であり、ユーザーにとっての満足度や体験に大きな影響を与える。例えば、システムの応答時間や同時接続数、セキュリティの強度、可用性などが該当する。これらの要件を明確に定義することで、開発プロセスにおいて優れた製品を作り上げる手助けとなり、結果としてユーザーからの信頼を得ることにもつながる。非機能要件を適切に管理することは、システム全体の成功にとって不可欠な要素である。",
+          "vi": "Học trọng tâm về Yêu cầu phi chức năng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "非機能要件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu phi chức năng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "非機能要件",
+          "english": "Non-Functional Requirements",
+          "vi": "Yêu cầu phi chức năng",
+          "definitionJa": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。これらは、システムがどのように動作するかを決定づける重要な要素であり、ユーザーにとっての満足度や体験に大きな影響を与える。例えば、システムの応答時間や同時接続数、セキュリティの強度、可用性などが該当する。これらの要件を明確に定義することで、開発プロセスにおいて優れた製品を作り上げる手助けとなり、結果としてユーザーからの信頼を得ることにもつながる。非機能要件を適切に管理することは、システム全体の成功にとって不可欠な要素である。",
+          "definitionVi": "Yêu cầu phi chức năng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ひきのうようけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "non-functional-requirements"
+      ]
+    },
+    {
+      "id": "user-experience-design",
+      "order": 25,
+      "titleJa": "UXデザイン",
+      "titleVi": "Thiết kế UX",
+      "importance": "medium",
+      "summaryJa": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。",
+      "summaryVi": "Thiết kế UX: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UXデザインとは",
+          "vi": "Thiết kế UX là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。これは、使いやすさや満足感を重視し、利用者が感じる感情や印象を考慮することが求められる。たとえば、Webサイトやアプリのナビゲーションが直感的で分かりやすい場合、ユーザーはスムーズに目的を達成でき、満足度が向上する。また、ユーザーリサーチやプロトタイピングを通じて、実際の使用状況に基づいた改善が行われる。ビジュアルデザインや機能性だけでなく、ユーザーと製品との関係全体を見つめることが重要で、成功する製品の要素として不可欠である。",
+          "vi": "Học trọng tâm về Thiết kế UX: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "UXデザインの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế UX."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UXデザイン",
+          "english": "User Experience Design",
+          "vi": "Thiết kế UX",
+          "definitionJa": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。これは、使いやすさや満足感を重視し、利用者が感じる感情や印象を考慮することが求められる。たとえば、Webサイトやアプリのナビゲーションが直感的で分かりやすい場合、ユーザーはスムーズに目的を達成でき、満足度が向上する。また、ユーザーリサーチやプロトタイピングを通じて、実際の使用状況に基づいた改善が行われる。ビジュアルデザインや機能性だけでなく、ユーザーと製品との関係全体を見つめることが重要で、成功する製品の要素として不可欠である。",
+          "definitionVi": "Thiết kế UX: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ゆーえっくすでざいん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "user-experience-design"
+      ]
+    },
+    {
+      "id": "bidirectional-traceability",
+      "order": 26,
+      "titleJa": "双方向の追跡可能性",
+      "titleVi": "Khả năng truy vết hai chiều",
+      "importance": "medium",
+      "summaryJa": "システム要件とその実装との関係を双方向で明確にすることを指す。",
+      "summaryVi": "Khả năng truy vết hai chiều: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "双方向の追跡可能性とは",
+          "vi": "Khả năng truy vết hai chiều là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム要件とその実装との関係を双方向で明確にすることを指す。具体的には、要件から実装を追跡するだけでなく、実装からどの要件に基づいているかをも確認できる状況を意味する。例えば、ソフトウェア開発において、ある機能が特定の要件を満たすことを確認するだけでなく、その機能が必要とされる背景や目的をも追跡できることで、開発プロセスの透明性が向上する。これにより、要件の変更や実装に関する理解が深まり、不具合の発見や簡易な修正が可能になる。この考え方は、品質保証やプロジェクト管理においても非常に重要視されている。",
+          "vi": "Học trọng tâm về Khả năng truy vết hai chiều: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "双方向の追跡可能性の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Khả năng truy vết hai chiều."
+        }
+      ],
+      "terms": [
+        {
+          "term": "双方向の追跡可能性",
+          "english": "Bidirectional Traceability",
+          "vi": "Khả năng truy vết hai chiều",
+          "definitionJa": "システム要件とその実装との関係を双方向で明確にすることを指す。具体的には、要件から実装を追跡するだけでなく、実装からどの要件に基づいているかをも確認できる状況を意味する。例えば、ソフトウェア開発において、ある機能が特定の要件を満たすことを確認するだけでなく、その機能が必要とされる背景や目的をも追跡できることで、開発プロセスの透明性が向上する。これにより、要件の変更や実装に関する理解が深まり、不具合の発見や簡易な修正が可能になる。この考え方は、品質保証やプロジェクト管理においても非常に重要視されている。",
+          "definitionVi": "Khả năng truy vết hai chiều: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "そうほうこうのついせきかのうせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "bidirectional-traceability"
+      ]
+    },
+    {
+      "id": "review-participant",
+      "order": 27,
+      "titleJa": "レビュー参加者",
+      "titleVi": "Người tham gia review",
+      "importance": "medium",
+      "summaryJa": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。",
+      "summaryVi": "Người tham gia review: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レビュー参加者とは",
+          "vi": "Người tham gia review là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。これらの参加者は、システムが実際のニーズにどれほど適合しているかを評価する際に重要な役割を果たす。例えば、開発者やユーザー代表、品質保証の専門家などが含まれる。要件の明確性や妥当性を検討し、潜在的な問題点を指摘することが求められる。このプロセスは、システム開発における誤解を減らし、品質を向上させるために重要であり、効果的なコミュニケーションが求められる。レビュー参加者のフィードバックは、さらに改良されるシステム要件を形成するのに役立つ。",
+          "vi": "Học trọng tâm về Người tham gia review: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "レビュー参加者の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Người tham gia review."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レビュー参加者",
+          "english": "Review Participant",
+          "vi": "Người tham gia review",
+          "definitionJa": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。これらの参加者は、システムが実際のニーズにどれほど適合しているかを評価する際に重要な役割を果たす。例えば、開発者やユーザー代表、品質保証の専門家などが含まれる。要件の明確性や妥当性を検討し、潜在的な問題点を指摘することが求められる。このプロセスは、システム開発における誤解を減らし、品質を向上させるために重要であり、効果的なコミュニケーションが求められる。レビュー参加者のフィードバックは、さらに改良されるシステム要件を形成するのに役立つ。",
+          "definitionVi": "Người tham gia review: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "れびゅーさんかしゃ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "review-participant"
+      ]
+    },
+    {
+      "id": "review-method",
+      "order": 28,
+      "titleJa": "レビュー方式",
+      "titleVi": "Phương thức review",
+      "importance": "medium",
+      "summaryJa": "システムやソフトウェアの要件を評価するための手法の一つである。",
+      "summaryVi": "Phương thức review: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レビュー方式とは",
+          "vi": "Phương thức review là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアの要件を評価するための手法の一つである。この方式は、関係者が集まり、書類や設計内容を詳細に確認するプロセスを通じて、誤りや不備を早期に発見することを目的とする。例えば、開発チームが設計文書をレビューする際には、プログラムの実装前に問題点を指摘することで、コストや時間の無駄を減らす効果がある。また、このプロセスには、参加者同士の意見交換やフィードバックの促進というメリットもあり、チーム全体の理解を深めることに寄与する。ソフトウェア開発プロセスの品質向上において極めて重要な役割を持つ。",
+          "vi": "Học trọng tâm về Phương thức review: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "レビュー方式の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Phương thức review."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レビュー方式",
+          "english": "Review Method",
+          "vi": "Phương thức review",
+          "definitionJa": "システムやソフトウェアの要件を評価するための手法の一つである。この方式は、関係者が集まり、書類や設計内容を詳細に確認するプロセスを通じて、誤りや不備を早期に発見することを目的とする。例えば、開発チームが設計文書をレビューする際には、プログラムの実装前に問題点を指摘することで、コストや時間の無駄を減らす効果がある。また、このプロセスには、参加者同士の意見交換やフィードバックの促進というメリットもあり、チーム全体の理解を深めることに寄与する。ソフトウェア開発プロセスの品質向上において極めて重要な役割を持つ。",
+          "definitionVi": "Phương thức review: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "れびゅーほうしき"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "review-method"
+      ]
+    },
+    {
+      "id": "software-components",
+      "order": 29,
+      "titleJa": "ソフトウェア構成品目",
+      "titleVi": "Hạng mục cấu hình phần mềm",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発において、必要とされる要素やパーツをまとめたリストのことである。",
+      "summaryVi": "Hạng mục cấu hình phần mềm: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア構成品目とは",
+          "vi": "Hạng mục cấu hình phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、必要とされる要素やパーツをまとめたリストのことである。この概念は、ソフトウェア要件定義の段階で特に重要となる。具体的には、アプリケーションがどのような機能を持つべきか、どのプログラミング言語やライブラリを使用するのかといった情報が含まれる。例えば、ある顧客管理システムでは、データベース、ユーザーインターフェース、セキュリティ機能などがソフトウェア構成品目としてリスト化される。これにより、プロジェクトチームは各要素に対する開発の進捗や、必要なリソースを明確に把握することが可能になるため、効率的なプロジェクト管理が実現できる。",
+          "vi": "Học trọng tâm về Hạng mục cấu hình phần mềm: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェア構成品目の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Hạng mục cấu hình phần mềm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア構成品目",
+          "english": "Software Components",
+          "vi": "Hạng mục cấu hình phần mềm",
+          "definitionJa": "ソフトウェア開発において、必要とされる要素やパーツをまとめたリストのことである。この概念は、ソフトウェア要件定義の段階で特に重要となる。具体的には、アプリケーションがどのような機能を持つべきか、どのプログラミング言語やライブラリを使用するのかといった情報が含まれる。例えば、ある顧客管理システムでは、データベース、ユーザーインターフェース、セキュリティ機能などがソフトウェア構成品目としてリスト化される。これにより、プロジェクトチームは各要素に対する開発の進捗や、必要なリソースを明確に把握することが可能になるため、効率的なプロジェクト管理が実現できる。",
+          "definitionVi": "Hạng mục cấu hình phần mềm: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "そふとうぇあこうせいひんもく"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "software-components"
+      ]
+    },
+    {
+      "id": "interface-design",
+      "order": 30,
+      "titleJa": "インタフェース設計",
+      "titleVi": "Thiết kế giao diện",
+      "importance": "medium",
+      "summaryJa": "ユーザーがソフトウェアを操作する際の窓口となる部分の設計を指す。",
+      "summaryVi": "Thiết kế giao diện: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インタフェース設計とは",
+          "vi": "Thiết kế giao diện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーがソフトウェアを操作する際の窓口となる部分の設計を指す。これは、視覚的な要素や操作方法が含まれ、ユーザーが直感的に理解できるように工夫されていることが重要である。例えば、ボタンの配置や色使い、文字の大きさなどが、使いやすさに大きく影響する。ユーザー体験（User Experience）を向上させるための重要なプロセスであり、特に忙しい現代では、シンプルで分かりやすい設計が求められる。また、ユーザーのニーズに応じて、適切な機能を提供できるようなインタラクションも考慮されるため、この段階での配慮が、最終的な製品の成功を大きく左右する。",
+          "vi": "Học trọng tâm về Thiết kế giao diện: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "インタフェース設計の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế giao diện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタフェース設計",
+          "english": "Interface Design",
+          "vi": "Thiết kế giao diện",
+          "definitionJa": "ユーザーがソフトウェアを操作する際の窓口となる部分の設計を指す。これは、視覚的な要素や操作方法が含まれ、ユーザーが直感的に理解できるように工夫されていることが重要である。例えば、ボタンの配置や色使い、文字の大きさなどが、使いやすさに大きく影響する。ユーザー体験（User Experience）を向上させるための重要なプロセスであり、特に忙しい現代では、シンプルで分かりやすい設計が求められる。また、ユーザーのニーズに応じて、適切な機能を提供できるようなインタラクションも考慮されるため、この段階での配慮が、最終的な製品の成功を大きく左右する。",
+          "definitionVi": "Thiết kế giao diện: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "いんたふぇーすせっけい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "interface-design"
+      ]
+    },
+    {
+      "id": "security-implementation-method",
+      "order": 31,
+      "titleJa": "セキュリティ実現方式",
+      "titleVi": "Phương thức triển khai bảo mật",
+      "importance": "medium",
+      "summaryJa": "情報システムにおけるセキュリティ対策を実行する手法や手段を指すものである。",
+      "summaryVi": "Phương thức triển khai bảo mật: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティ実現方式とは",
+          "vi": "Phương thức triển khai bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムにおけるセキュリティ対策を実行する手法や手段を指すものである。この方式は、情報の機密性、完全性、可用性を確保するために様々な技術やプロセスを組み合わせて使用される。具体的な例には、パスワード管理、暗号化、アクセス制御、監視システムなどがあり、これらを効果的に組み合わせることで、情報資産を守ることができる。さらに、リスクマネジメントとも密接に関連しており、リスクを評価した上で適切な対策を講じることで、システム全体の安全性を向上させることが重要である。",
+          "vi": "Học trọng tâm về Phương thức triển khai bảo mật: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "セキュリティ実現方式の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Phương thức triển khai bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティ実現方式",
+          "english": "Security Implementation Method",
+          "vi": "Phương thức triển khai bảo mật",
+          "definitionJa": "情報システムにおけるセキュリティ対策を実行する手法や手段を指すものである。この方式は、情報の機密性、完全性、可用性を確保するために様々な技術やプロセスを組み合わせて使用される。具体的な例には、パスワード管理、暗号化、アクセス制御、監視システムなどがあり、これらを効果的に組み合わせることで、情報資産を守ることができる。さらに、リスクマネジメントとも密接に関連しており、リスクを評価した上で適切な対策を講じることで、システム全体の安全性を向上させることが重要である。",
+          "definitionVi": "Phương thức triển khai bảo mật: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "せきゅりてぃじつげんほうしき"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "security-implementation-method"
+      ]
+    },
+    {
+      "id": "business-modeling",
+      "order": 32,
+      "titleJa": "業務モデリング",
+      "titleVi": "Mô hình hóa nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "企業や組織の運営や業務プロセスを視覚的に表現する手法である。",
+      "summaryVi": "Mô hình hóa nghiệp vụ: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務モデリングとは",
+          "vi": "Mô hình hóa nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の運営や業務プロセスを視覚的に表現する手法である。この手法は、業務の流れや関係性を明確にし、要件定義に役立てるために用いられる。たとえば、業務の各ステップを図式化することで、無駄なプロセスの特定や効率化の機会を見つけることができる。また、関係者間で共通の理解を得るための重要なツールとして機能し、システム開発や改善に不可欠な基盤を提供する。ビジネスプロセスの最適化や新しいシステムの導入においても重要な役割を果たすため、ソフトウェア要件定義の段階で特に重視される。",
+          "vi": "Học trọng tâm về Mô hình hóa nghiệp vụ: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "業務モデリングの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Mô hình hóa nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務モデリング",
+          "english": "Business Modeling",
+          "vi": "Mô hình hóa nghiệp vụ",
+          "definitionJa": "企業や組織の運営や業務プロセスを視覚的に表現する手法である。この手法は、業務の流れや関係性を明確にし、要件定義に役立てるために用いられる。たとえば、業務の各ステップを図式化することで、無駄なプロセスの特定や効率化の機会を見つけることができる。また、関係者間で共通の理解を得るための重要なツールとして機能し、システム開発や改善に不可欠な基盤を提供する。ビジネスプロセスの最適化や新しいシステムの導入においても重要な役割を果たすため、ソフトウェア要件定義の段階で特に重視される。",
+          "definitionVi": "Mô hình hóa nghiệp vụ: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ぎょうむもでりんぐ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "business-modeling"
+      ]
+    },
+    {
+      "id": "internet-of-things",
+      "order": 33,
+      "titleJa": "IoT",
+      "titleVi": "IoT",
+      "importance": "medium",
+      "summaryJa": "インターネットに接続された様々な物やデバイスが相互に通信し、情報をやり取りする仕組みのことである。",
+      "summaryVi": "IoT: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IoTとは",
+          "vi": "IoT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットに接続された様々な物やデバイスが相互に通信し、情報をやり取りする仕組みのことである。この技術により、家電製品やセンサーなどがインターネットを通じてデータを送信したり、受信したりすることが可能となる。例えば、スマートフォンからエアコンを遠隔操作したり、家庭内の温度や湿度をリアルタイムで監視したりすることができる。生活の利便性を向上させるだけでなく、工場の生産効率を高めたり、環境の監視を行ったりするためにも利用されており、さまざまな分野での応用が進んでいる。これにより、新たなビジネスモデルやサービスの創出も期待されている。",
+          "vi": "Học trọng tâm về IoT: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "IoTの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của IoT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IoT",
+          "english": "Internet of Things",
+          "vi": "IoT",
+          "definitionJa": "インターネットに接続された様々な物やデバイスが相互に通信し、情報をやり取りする仕組みのことである。この技術により、家電製品やセンサーなどがインターネットを通じてデータを送信したり、受信したりすることが可能となる。例えば、スマートフォンからエアコンを遠隔操作したり、家庭内の温度や湿度をリアルタイムで監視したりすることができる。生活の利便性を向上させるだけでなく、工場の生産効率を高めたり、環境の監視を行ったりするためにも利用されており、さまざまな分野での応用が進んでいる。これにより、新たなビジネスモデルやサービスの創出も期待されている。",
+          "definitionVi": "IoT: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "あいおーてぃー"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "internet-of-things"
+      ]
+    },
+    {
+      "id": "screen-design",
+      "order": 34,
+      "titleJa": "画面設計",
+      "titleVi": "Thiết kế màn hình",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやアプリケーションのユーザーインターフェースに関する設計作業である。",
+      "summaryVi": "Thiết kế màn hình: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "画面設計とは",
+          "vi": "Thiết kế màn hình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやアプリケーションのユーザーインターフェースに関する設計作業である。このプロセスでは、ユーザーがどのように情報を受け取り、操作するかを考慮して、画面のレイアウトやデザインを決定する。具体的には、ボタンやテキストボックス、画像などの配置を検討し、使いやすく、視覚的に魅力的な画面を作ることが目標である。画面設計はユーザビリティを向上させるため、実際のユーザーからのフィードバックを取り入れたり、プロトタイプを通じて確認することが重要である。それにより、ユーザー体験を高め、ソフトウェアの機能を最大限に引き出すことができる。",
+          "vi": "Học trọng tâm về Thiết kế màn hình: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "画面設計の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế màn hình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "画面設計",
+          "english": "Screen Design",
+          "vi": "Thiết kế màn hình",
+          "definitionJa": "ソフトウェアやアプリケーションのユーザーインターフェースに関する設計作業である。このプロセスでは、ユーザーがどのように情報を受け取り、操作するかを考慮して、画面のレイアウトやデザインを決定する。具体的には、ボタンやテキストボックス、画像などの配置を検討し、使いやすく、視覚的に魅力的な画面を作ることが目標である。画面設計はユーザビリティを向上させるため、実際のユーザーからのフィードバックを取り入れたり、プロトタイプを通じて確認することが重要である。それにより、ユーザー体験を高め、ソフトウェアの機能を最大限に引き出すことができる。",
+          "definitionVi": "Thiết kế màn hình: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "がめんせっけい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "screen-design"
+      ]
+    },
+    {
+      "id": "report-design",
+      "order": 35,
+      "titleJa": "帳票設計",
+      "titleVi": "Thiết kế báo cáo",
+      "importance": "medium",
+      "summaryJa": "データを整理して視覚的に表示するための方法や手続きを指す。",
+      "summaryVi": "Thiết kế báo cáo: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "帳票設計とは",
+          "vi": "Thiết kế báo cáo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを整理して視覚的に表示するための方法や手続きを指す。多くのビジネスや組織で使用される文書やレポートを作成する際に非常に重要である。具体的には、必要な情報をどのように配置し、フォーマットするかを決定することで、利用者が容易に理解できる帳票を作成することを目指す。たとえば、請求書や在庫管理表など、特定の目的に応じたデザインが求められ、それに伴ってファイル形式やデータベースとの連携も考慮する必要がある。このように、帳票設計は情報伝達の効率を高め、意思決定をサポートするために不可欠なプロセスである。",
+          "vi": "Học trọng tâm về Thiết kế báo cáo: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "帳票設計の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế báo cáo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "帳票設計",
+          "english": "Report Design",
+          "vi": "Thiết kế báo cáo",
+          "definitionJa": "データを整理して視覚的に表示するための方法や手続きを指す。多くのビジネスや組織で使用される文書やレポートを作成する際に非常に重要である。具体的には、必要な情報をどのように配置し、フォーマットするかを決定することで、利用者が容易に理解できる帳票を作成することを目指す。たとえば、請求書や在庫管理表など、特定の目的に応じたデザインが求められ、それに伴ってファイル形式やデータベースとの連携も考慮する必要がある。このように、帳票設計は情報伝達の効率を高め、意思決定をサポートするために不可欠なプロセスである。",
+          "definitionVi": "Thiết kế báo cáo: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ちょうひょうせっけい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "report-design"
+      ]
+    },
+    {
+      "id": "document-design",
+      "order": 36,
+      "titleJa": "伝票設計",
+      "titleVi": "Thiết kế chứng từ",
+      "importance": "medium",
+      "summaryJa": "ビジネスプロセスにおいて必要な情報を効率的に収集・管理するための伝票のフォーマットやレイアウトを決定する作業である。",
+      "summaryVi": "Thiết kế chứng từ: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "伝票設計とは",
+          "vi": "Thiết kế chứng từ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビジネスプロセスにおいて必要な情報を効率的に収集・管理するための伝票のフォーマットやレイアウトを決定する作業である。伝票は、取引や業務の記録を行う際に使用され、それにより業務の流れをスムーズにし、データエントリーの精度を向上させる役割を果たす。例えば、請求書や発注書などの伝票設計においては、どの情報をどの位置に配置するかを考慮し、利用者がわかりやすいようにすることが重要である。また、伝票の設計によって、後のデータ処理や分析が円滑に進むため、効率的な業務運営に貢献する。このように、伝票設計は業務プロセスの基盤を支える重要な要素である。",
+          "vi": "Học trọng tâm về Thiết kế chứng từ: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "伝票設計の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế chứng từ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "伝票設計",
+          "english": "Document Design",
+          "vi": "Thiết kế chứng từ",
+          "definitionJa": "ビジネスプロセスにおいて必要な情報を効率的に収集・管理するための伝票のフォーマットやレイアウトを決定する作業である。伝票は、取引や業務の記録を行う際に使用され、それにより業務の流れをスムーズにし、データエントリーの精度を向上させる役割を果たす。例えば、請求書や発注書などの伝票設計においては、どの情報をどの位置に配置するかを考慮し、利用者がわかりやすいようにすることが重要である。また、伝票の設計によって、後のデータ処理や分析が円滑に進むため、効率的な業務運営に貢献する。このように、伝票設計は業務プロセスの基盤を支える重要な要素である。",
+          "definitionVi": "Thiết kế chứng từ: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "でんぴょうせっけい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "document-design"
+      ]
+    },
+    {
+      "id": "data-modeling",
+      "order": 37,
+      "titleJa": "データモデリング",
+      "titleVi": "Mô hình hóa dữ liệu",
+      "importance": "medium",
+      "summaryJa": "情報システムにおけるデータの構造を視覚的に表現する手法である。",
+      "summaryVi": "Mô hình hóa dữ liệu: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データモデリングとは",
+          "vi": "Mô hình hóa dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムにおけるデータの構造を視覚的に表現する手法である。データモデルは、データの種類や関係性を明確に示し、システム開発時に必要な要件を整理する役割を果たす。たとえば、顧客情報を管理するシステムでは、顧客名や住所、電話番号などのデータ項目がどのように関連し合うかを図や表で示すことで、開発者や関係者が理解しやすくなる。これにより、システムの設計やデータベースの構築がスムーズに進むため、効率的で適切な情報管理を実現できる。企業のニーズに合わせたシステム開発に非常に重要なプロセスである。",
+          "vi": "Học trọng tâm về Mô hình hóa dữ liệu: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "データモデリングの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Mô hình hóa dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データモデリング",
+          "english": "Data Modeling",
+          "vi": "Mô hình hóa dữ liệu",
+          "definitionJa": "情報システムにおけるデータの構造を視覚的に表現する手法である。データモデルは、データの種類や関係性を明確に示し、システム開発時に必要な要件を整理する役割を果たす。たとえば、顧客情報を管理するシステムでは、顧客名や住所、電話番号などのデータ項目がどのように関連し合うかを図や表で示すことで、開発者や関係者が理解しやすくなる。これにより、システムの設計やデータベースの構築がスムーズに進むため、効率的で適切な情報管理を実現できる。企業のニーズに合わせたシステム開発に非常に重要なプロセスである。",
+          "definitionVi": "Mô hình hóa dữ liệu: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "data-modeling"
+      ]
+    },
+    {
+      "id": "use-case",
+      "order": 38,
+      "titleJa": "ユースケース",
+      "titleVi": "Use case",
+      "importance": "high",
+      "summaryJa": "特定のシステムがユーザーにどのように利用されるかを示す手法である。",
+      "summaryVi": "Use case: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユースケースとは",
+          "vi": "Use case là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のシステムがユーザーにどのように利用されるかを示す手法である。システムの機能を具体的に定義し、ユーザーが達成したい目標とその過程を記述することで、ソフトウェア要件の理解を深めるために活用される。例えば、オンラインストアでの「商品をカートに追加する」プロセスがユースケースとなる。このユースケースでは、ユーザーが商品を選択し、カートに追加する一連の流れや、システムによる応答が詳細に説明される。また、ユースケースを通じて、システムの改善点やユーザーエクスペリエンスを向上させるための手がかりを得ることができる。",
+          "vi": "Học trọng tâm về Use case: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ユースケースの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Use case."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユースケース",
+          "english": "Use Case",
+          "vi": "Use case",
+          "definitionJa": "特定のシステムがユーザーにどのように利用されるかを示す手法である。システムの機能を具体的に定義し、ユーザーが達成したい目標とその過程を記述することで、ソフトウェア要件の理解を深めるために活用される。例えば、オンラインストアでの「商品をカートに追加する」プロセスがユースケースとなる。このユースケースでは、ユーザーが商品を選択し、カートに追加する一連の流れや、システムによる応答が詳細に説明される。また、ユースケースを通じて、システムの改善点やユーザーエクスペリエンスを向上させるための手がかりを得ることができる。",
+          "definitionVi": "Use case: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "use-case"
+      ]
+    },
+    {
+      "id": "user-story",
+      "order": 39,
+      "titleJa": "ユーザーストーリー",
+      "titleVi": "User story",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。",
+      "summaryVi": "User story: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユーザーストーリーとは",
+          "vi": "User story là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。通常、「私たちは～したい」という形式で表現され、誰が、何を、なぜ行いたいのかを明確にすることが目的である。この手法は、開発チームとステークホルダーのコミュニケーションを円滑にし、優先順位を明確にするために活用される。具体的な例としては、アプリケーションのユーザーが「私はいつでもアクセスしたい」と述べることで、必須の機能やニーズを理解しやすくする作用がある。このように、ユーザーストーリーは開発の初期段階からフィードバックを得るための重要な要素である。",
+          "vi": "Học trọng tâm về User story: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザーストーリーの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của User story."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユーザーストーリー",
+          "english": "User Story",
+          "vi": "User story",
+          "definitionJa": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。通常、「私たちは～したい」という形式で表現され、誰が、何を、なぜ行いたいのかを明確にすることが目的である。この手法は、開発チームとステークホルダーのコミュニケーションを円滑にし、優先順位を明確にするために活用される。具体的な例としては、アプリケーションのユーザーが「私はいつでもアクセスしたい」と述べることで、必須の機能やニーズを理解しやすくする作用がある。このように、ユーザーストーリーは開発の初期段階からフィードバックを得るための重要な要素である。",
+          "definitionVi": "User story: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "user-story"
+      ]
+    },
+    {
+      "id": "scenario",
+      "order": 40,
+      "titleJa": "シナリオ",
+      "titleVi": "Kịch bản",
+      "importance": "medium",
+      "summaryJa": "特定の状況や条件における利用者の行動やシステムの応答を描いた具体的な例である。",
+      "summaryVi": "Kịch bản: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シナリオとは",
+          "vi": "Kịch bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の状況や条件における利用者の行動やシステムの応答を描いた具体的な例である。ソフトウェアの要件定義においては、ユーザーがどのようにシステムを利用するかを示すことで、機能や仕様を明確にする役割を果たす。たとえば、オンラインショッピングサイトでは、ユーザーが商品を検索し、カートに追加して購入する一連の流れをシナリオとして記述することで、開発チームが求められる機能を理解しやすくなる。このようにシナリオを用いることで、実際の利用状況を考慮した仕様策定が可能になるため、ユーザーのニーズに応じたソフトウェアの開発が進めやすくなる。",
+          "vi": "Học trọng tâm về Kịch bản: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "シナリオの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Kịch bản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シナリオ",
+          "english": "Scenario",
+          "vi": "Kịch bản",
+          "definitionJa": "特定の状況や条件における利用者の行動やシステムの応答を描いた具体的な例である。ソフトウェアの要件定義においては、ユーザーがどのようにシステムを利用するかを示すことで、機能や仕様を明確にする役割を果たす。たとえば、オンラインショッピングサイトでは、ユーザーが商品を検索し、カートに追加して購入する一連の流れをシナリオとして記述することで、開発チームが求められる機能を理解しやすくなる。このようにシナリオを用いることで、実際の利用状況を考慮した仕様策定が可能になるため、ユーザーのニーズに応じたソフトウェアの開発が進めやすくなる。",
+          "definitionVi": "Kịch bản: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "scenario"
+      ]
+    },
+    {
+      "id": "data-flow-diagram",
+      "order": 41,
+      "titleJa": "DFD",
+      "titleVi": "DFD",
+      "importance": "high",
+      "summaryJa": "データの流れを視覚的に表現する図である。",
+      "summaryVi": "DFD: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DFDとは",
+          "vi": "DFD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの流れを視覚的に表現する図である。システム内でデータがどのように移動し、処理されるかを理解しやすく示すための手法であり、特にソフトウェアの要件定義において重要な役割を果たす。プロセス、データストア、外部エンティティ、データの流れを矢印で表現し、システムの機能や情報の流れを明確にすることで、開発者や関係者が共通理解を持つことを促す。これにより、システム設計やテストの効率性が向上し、誤解やミスを減らすことができる。",
+          "vi": "Học trọng tâm về DFD: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "DFDの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của DFD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DFD",
+          "english": "Data Flow Diagram",
+          "vi": "DFD",
+          "definitionJa": "データの流れを視覚的に表現する図である。システム内でデータがどのように移動し、処理されるかを理解しやすく示すための手法であり、特にソフトウェアの要件定義において重要な役割を果たす。プロセス、データストア、外部エンティティ、データの流れを矢印で表現し、システムの機能や情報の流れを明確にすることで、開発者や関係者が共通理解を持つことを促す。これにより、システム設計やテストの効率性が向上し、誤解やミスを減らすことができる。",
+          "definitionVi": "DFD: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "でぃーえふでぃ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "data-flow-diagram"
+      ]
+    },
+    {
+      "id": "entity-relationship-diagram",
+      "order": 42,
+      "titleJa": "E-R図",
+      "titleVi": "Sơ đồ E-R",
+      "importance": "high",
+      "summaryJa": "データベース設計において使用される図表の一つである。",
+      "summaryVi": "Sơ đồ E-R: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "E-R図とは",
+          "vi": "Sơ đồ E-R là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データベース設計において使用される図表の一つである。データの構造や、データ同士の関係を視覚的に表現するためのもので、エンティティ（データの具体的な例）とリレーションシップ（エンティティ同士の関連性）で構成されている。例えば、「顧客」と「注文」というエンティティがある場合、顧客が注文をするという関係をリレーションシップで示すことができる。これにより、データがどのように関連し合うかを理解しやすくし、効率的なデータベース設計を支援することができる。また、E-R図はソフトウェア要件の定義にも用いられ、開発チーム間でのコミュニケーションを円滑にする役割も果たしている。",
+          "vi": "Học trọng tâm về Sơ đồ E-R: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "E-R図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ E-R."
+        }
+      ],
+      "terms": [
+        {
+          "term": "E-R図",
+          "english": "Entity-Relationship Diagram",
+          "vi": "Sơ đồ E-R",
+          "definitionJa": "データベース設計において使用される図表の一つである。データの構造や、データ同士の関係を視覚的に表現するためのもので、エンティティ（データの具体的な例）とリレーションシップ（エンティティ同士の関連性）で構成されている。例えば、「顧客」と「注文」というエンティティがある場合、顧客が注文をするという関係をリレーションシップで示すことができる。これにより、データがどのように関連し合うかを理解しやすくし、効率的なデータベース設計を支援することができる。また、E-R図はソフトウェア要件の定義にも用いられ、開発チーム間でのコミュニケーションを円滑にする役割も果たしている。",
+          "definitionVi": "Sơ đồ E-R: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "いーあーるず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "entity-relationship-diagram"
+      ]
+    },
+    {
+      "id": "unified-modeling-language",
+      "order": 43,
+      "titleJa": "UML",
+      "titleVi": "UML",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発においてシステムの設計や仕様を視覚的に表現するための標準的な言語である。",
+      "summaryVi": "UML: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UMLとは",
+          "vi": "UML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発においてシステムの設計や仕様を視覚的に表現するための標準的な言語である。さまざまなダイアグラムを用いて、システムの構造や動作を簡潔に示すことができる。例えば、クラス図はオブジェクトの属性や関係を視覚化し、シーケンス図はオブジェクト間のメッセージのやり取りを示す。これにより、開発者や関係者がコミュニケーションを取りやすくなるため、システムの要件を明確に理解し、合意形成を図る上で重要な役割を果たしている。また、UMLは多様な開発手法に対応可能で、アジャイル開発やウォーターフォールモデルなど、様々なプロジェクトで利用されている。",
+          "vi": "Học trọng tâm về UML: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "UMLの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của UML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UML",
+          "english": "Unified Modeling Language",
+          "vi": "UML",
+          "definitionJa": "ソフトウェア開発においてシステムの設計や仕様を視覚的に表現するための標準的な言語である。さまざまなダイアグラムを用いて、システムの構造や動作を簡潔に示すことができる。例えば、クラス図はオブジェクトの属性や関係を視覚化し、シーケンス図はオブジェクト間のメッセージのやり取りを示す。これにより、開発者や関係者がコミュニケーションを取りやすくなるため、システムの要件を明確に理解し、合意形成を図る上で重要な役割を果たしている。また、UMLは多様な開発手法に対応可能で、アジャイル開発やウォーターフォールモデルなど、様々なプロジェクトで利用されている。",
+          "definitionVi": "UML: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ゆーえむえる"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "unified-modeling-language"
+      ]
+    },
+    {
+      "id": "service-definition",
+      "order": 44,
+      "titleJa": "サービスの定義",
+      "titleVi": "Định nghĩa dịch vụ",
+      "importance": "medium",
+      "summaryJa": "特定の機能や性能を提供するソフトウェアの役割を明確にすることである。",
+      "summaryVi": "Định nghĩa dịch vụ: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスの定義とは",
+          "vi": "Định nghĩa dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の機能や性能を提供するソフトウェアの役割を明確にすることである。これは、実際のユーザーがどのような目的でそのサービスを利用できるのかを示し、顧客のニーズに応えるための重要な基盤を形成する。例えば、オンラインストレージサービスは、データを安全に保存し、どこからでもアクセスできることを提供する。このようなサービスの明確な定義は、開発チームが求められる仕様や機能を理解し、品質の高いシステムを構築するために欠かせない。また、サービスがどのように他のシステムやサービスと連携するのかも考慮する必要があり、全体のアーキテクチャを理解する助けにもなる。",
+          "vi": "Học trọng tâm về Định nghĩa dịch vụ: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "サービスの定義の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Định nghĩa dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスの定義",
+          "english": "Service Definition",
+          "vi": "Định nghĩa dịch vụ",
+          "definitionJa": "特定の機能や性能を提供するソフトウェアの役割を明確にすることである。これは、実際のユーザーがどのような目的でそのサービスを利用できるのかを示し、顧客のニーズに応えるための重要な基盤を形成する。例えば、オンラインストレージサービスは、データを安全に保存し、どこからでもアクセスできることを提供する。このようなサービスの明確な定義は、開発チームが求められる仕様や機能を理解し、品質の高いシステムを構築するために欠かせない。また、サービスがどのように他のシステムやサービスと連携するのかも考慮する必要があり、全体のアーキテクチャを理解する助けにもなる。",
+          "definitionVi": "Định nghĩa dịch vụ: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "さーびすのていぎ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "service-definition"
+      ]
+    },
+    {
+      "id": "implementation-constraint",
+      "order": 45,
+      "titleJa": "実装制約条件",
+      "titleVi": "Ràng buộc triển khai",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアの開発において守るべき特定の条件や制限事項である。",
+      "summaryVi": "Ràng buộc triển khai: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "実装制約条件とは",
+          "vi": "Ràng buộc triển khai là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの開発において守るべき特定の条件や制限事項である。これには開発環境、プログラミング言語、ハードウェアの要件、セキュリティ基準などが含まれる。たとえば、あるソフトウェアが特定のオペレーティングシステム上でしか動作しない場合、そのオペレーティングシステムが実装制約条件の一部となる。また、これらの制約を明確にすることで、設計や開発の過程で誤解を防ぎ、プロジェクトの成功に寄与することができる。これは、要求される機能が実現可能であることを確認するためにも重要である。",
+          "vi": "Học trọng tâm về Ràng buộc triển khai: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "実装制約条件の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Ràng buộc triển khai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実装制約条件",
+          "english": "Implementation Constraint",
+          "vi": "Ràng buộc triển khai",
+          "definitionJa": "ソフトウェアの開発において守るべき特定の条件や制限事項である。これには開発環境、プログラミング言語、ハードウェアの要件、セキュリティ基準などが含まれる。たとえば、あるソフトウェアが特定のオペレーティングシステム上でしか動作しない場合、そのオペレーティングシステムが実装制約条件の一部となる。また、これらの制約を明確にすることで、設計や開発の過程で誤解を防ぎ、プロジェクトの成功に寄与することができる。これは、要求される機能が実現可能であることを確認するためにも重要である。",
+          "definitionVi": "Ràng buộc triển khai: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "じっそうせいやくじょうけん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "implementation-constraint"
+      ]
+    },
+    {
+      "id": "quality-attribute",
+      "order": 46,
+      "titleJa": "品質特性",
+      "titleVi": "Đặc tính chất lượng",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアの品質を評価するための基準となる要素である。",
+      "summaryVi": "Đặc tính chất lượng: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "品質特性とは",
+          "vi": "Đặc tính chất lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの品質を評価するための基準となる要素である。これには、機能性、信頼性、性能、使いやすさ、保守性などが含まれ、ソフトウェアがどれだけ使いやすく、効率よく動作するかを示す指標となる。たとえば、ユーザビリティの高いアプリケーションは、直感的に操作できるため、多くのユーザーに受け入れられやすい。また、性能特性は、システムが大量のデータを処理できる能力を示し、システムの負荷が高まる状況でも安定した動作が求められる。これらの品質特性を明確に定義することで、開発チームはプロジェクトの成功へ向けた具体的な目標を示すことができる。",
+          "vi": "Học trọng tâm về Đặc tính chất lượng: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "品質特性の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Đặc tính chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質特性",
+          "english": "Quality Attribute",
+          "vi": "Đặc tính chất lượng",
+          "definitionJa": "ソフトウェアの品質を評価するための基準となる要素である。これには、機能性、信頼性、性能、使いやすさ、保守性などが含まれ、ソフトウェアがどれだけ使いやすく、効率よく動作するかを示す指標となる。たとえば、ユーザビリティの高いアプリケーションは、直感的に操作できるため、多くのユーザーに受け入れられやすい。また、性能特性は、システムが大量のデータを処理できる能力を示し、システムの負荷が高まる状況でも安定した動作が求められる。これらの品質特性を明確に定義することで、開発チームはプロジェクトの成功へ向けた具体的な目標を示すことができる。",
+          "definitionVi": "Đặc tính chất lượng: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ひんしつとくせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "quality-attribute"
+      ]
+    },
+    {
+      "id": "user-experience-design-2",
+      "order": 47,
+      "titleJa": "UXデザイン",
+      "titleVi": "Thiết kế UX",
+      "importance": "medium",
+      "summaryJa": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。",
+      "summaryVi": "Thiết kế UX: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UXデザインとは",
+          "vi": "Thiết kế UX là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。これは、使いやすさや満足感を重視し、利用者が感じる感情や印象を考慮することが求められる。たとえば、Webサイトやアプリのナビゲーションが直感的で分かりやすい場合、ユーザーはスムーズに目的を達成でき、満足度が向上する。また、ユーザーリサーチやプロトタイピングを通じて、実際の使用状況に基づいた改善が行われる。ビジュアルデザインや機能性だけでなく、ユーザーと製品との関係全体を見つめることが重要で、成功する製品の要素として不可欠である。",
+          "vi": "Học trọng tâm về Thiết kế UX: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "UXデザインの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thiết kế UX."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UXデザイン",
+          "english": "User Experience Design",
+          "vi": "Thiết kế UX",
+          "definitionJa": "ユーザーが製品やサービスを使用する際の体験を設計するプロセスである。これは、使いやすさや満足感を重視し、利用者が感じる感情や印象を考慮することが求められる。たとえば、Webサイトやアプリのナビゲーションが直感的で分かりやすい場合、ユーザーはスムーズに目的を達成でき、満足度が向上する。また、ユーザーリサーチやプロトタイピングを通じて、実際の使用状況に基づいた改善が行われる。ビジュアルデザインや機能性だけでなく、ユーザーと製品との関係全体を見つめることが重要で、成功する製品の要素として不可欠である。",
+          "definitionVi": "Thiết kế UX: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ゆーえっくすでざいん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "user-experience-design-2"
+      ]
+    },
+    {
+      "id": "bidirectional-traceability-2",
+      "order": 48,
+      "titleJa": "双方向の追跡可能性",
+      "titleVi": "Khả năng truy vết hai chiều",
+      "importance": "medium",
+      "summaryJa": "システム要件とその実装との関係を双方向で明確にすることを指す。",
+      "summaryVi": "Khả năng truy vết hai chiều: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "双方向の追跡可能性とは",
+          "vi": "Khả năng truy vết hai chiều là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム要件とその実装との関係を双方向で明確にすることを指す。具体的には、要件から実装を追跡するだけでなく、実装からどの要件に基づいているかをも確認できる状況を意味する。例えば、ソフトウェア開発において、ある機能が特定の要件を満たすことを確認するだけでなく、その機能が必要とされる背景や目的をも追跡できることで、開発プロセスの透明性が向上する。これにより、要件の変更や実装に関する理解が深まり、不具合の発見や簡易な修正が可能になる。この考え方は、品質保証やプロジェクト管理においても非常に重要視されている。",
+          "vi": "Học trọng tâm về Khả năng truy vết hai chiều: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "双方向の追跡可能性の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Khả năng truy vết hai chiều."
+        }
+      ],
+      "terms": [
+        {
+          "term": "双方向の追跡可能性",
+          "english": "Bidirectional Traceability",
+          "vi": "Khả năng truy vết hai chiều",
+          "definitionJa": "システム要件とその実装との関係を双方向で明確にすることを指す。具体的には、要件から実装を追跡するだけでなく、実装からどの要件に基づいているかをも確認できる状況を意味する。例えば、ソフトウェア開発において、ある機能が特定の要件を満たすことを確認するだけでなく、その機能が必要とされる背景や目的をも追跡できることで、開発プロセスの透明性が向上する。これにより、要件の変更や実装に関する理解が深まり、不具合の発見や簡易な修正が可能になる。この考え方は、品質保証やプロジェクト管理においても非常に重要視されている。",
+          "definitionVi": "Khả năng truy vết hai chiều: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "そうほうこうのついせきかのうせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "bidirectional-traceability-2"
+      ]
+    },
+    {
+      "id": "traceability-matrix",
+      "order": 49,
+      "titleJa": "トレーサビリティマトリクス",
+      "titleVi": "Ma trận truy vết",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発において要件とその関連を管理するためのツールである。",
+      "summaryVi": "Ma trận truy vết: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "トレーサビリティマトリクスとは",
+          "vi": "Ma trận truy vết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において要件とその関連を管理するためのツールである。このマトリクスは、要件が設計、実装、テストにどのように反映されているかを示すもので、開発の進捗や整合性を確認するために活用される。例えば、ある機能要件が設計書やテストケースにどのように結びついているかを一目で把握できるので、要件漏れや不整合のリスクを低減することができる。また、ソフトウェアの品質保証や変更管理にも役立ち、プロジェクトの全体的な成功に寄与する重要な要素となっている。",
+          "vi": "Học trọng tâm về Ma trận truy vết: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "トレーサビリティマトリクスの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Ma trận truy vết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トレーサビリティマトリクス",
+          "english": "Traceability Matrix",
+          "vi": "Ma trận truy vết",
+          "definitionJa": "ソフトウェア開発において要件とその関連を管理するためのツールである。このマトリクスは、要件が設計、実装、テストにどのように反映されているかを示すもので、開発の進捗や整合性を確認するために活用される。例えば、ある機能要件が設計書やテストケースにどのように結びついているかを一目で把握できるので、要件漏れや不整合のリスクを低減することができる。また、ソフトウェアの品質保証や変更管理にも役立ち、プロジェクトの全体的な成功に寄与する重要な要素となっている。",
+          "definitionVi": "Ma trận truy vết: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "traceability-matrix"
+      ]
+    },
+    {
+      "id": "review-participant-2",
+      "order": 50,
+      "titleJa": "レビュー参加者",
+      "titleVi": "Người tham gia review",
+      "importance": "medium",
+      "summaryJa": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。",
+      "summaryVi": "Người tham gia review: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レビュー参加者とは",
+          "vi": "Người tham gia review là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。これらの参加者は、システムが実際のニーズにどれほど適合しているかを評価する際に重要な役割を果たす。例えば、開発者やユーザー代表、品質保証の専門家などが含まれる。要件の明確性や妥当性を検討し、潜在的な問題点を指摘することが求められる。このプロセスは、システム開発における誤解を減らし、品質を向上させるために重要であり、効果的なコミュニケーションが求められる。レビュー参加者のフィードバックは、さらに改良されるシステム要件を形成するのに役立つ。",
+          "vi": "Học trọng tâm về Người tham gia review: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "レビュー参加者の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Người tham gia review."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レビュー参加者",
+          "english": "Review Participant",
+          "vi": "Người tham gia review",
+          "definitionJa": "システム要件の評価やレビューに参加し、意見やフィードバックを提供する人々を指すことである。これらの参加者は、システムが実際のニーズにどれほど適合しているかを評価する際に重要な役割を果たす。例えば、開発者やユーザー代表、品質保証の専門家などが含まれる。要件の明確性や妥当性を検討し、潜在的な問題点を指摘することが求められる。このプロセスは、システム開発における誤解を減らし、品質を向上させるために重要であり、効果的なコミュニケーションが求められる。レビュー参加者のフィードバックは、さらに改良されるシステム要件を形成するのに役立つ。",
+          "definitionVi": "Người tham gia review: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "れびゅーさんかしゃ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "review-participant-2"
+      ]
+    },
+    {
+      "id": "review-method-2",
+      "order": 51,
+      "titleJa": "レビュー方式",
+      "titleVi": "Phương thức review",
+      "importance": "medium",
+      "summaryJa": "システムやソフトウェアの要件を評価するための手法の一つである。",
+      "summaryVi": "Phương thức review: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レビュー方式とは",
+          "vi": "Phương thức review là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアの要件を評価するための手法の一つである。この方式は、関係者が集まり、書類や設計内容を詳細に確認するプロセスを通じて、誤りや不備を早期に発見することを目的とする。例えば、開発チームが設計文書をレビューする際には、プログラムの実装前に問題点を指摘することで、コストや時間の無駄を減らす効果がある。また、このプロセスには、参加者同士の意見交換やフィードバックの促進というメリットもあり、チーム全体の理解を深めることに寄与する。ソフトウェア開発プロセスの品質向上において極めて重要な役割を持つ。",
+          "vi": "Học trọng tâm về Phương thức review: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "レビュー方式の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Phương thức review."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レビュー方式",
+          "english": "Review Method",
+          "vi": "Phương thức review",
+          "definitionJa": "システムやソフトウェアの要件を評価するための手法の一つである。この方式は、関係者が集まり、書類や設計内容を詳細に確認するプロセスを通じて、誤りや不備を早期に発見することを目的とする。例えば、開発チームが設計文書をレビューする際には、プログラムの実装前に問題点を指摘することで、コストや時間の無駄を減らす効果がある。また、このプロセスには、参加者同士の意見交換やフィードバックの促進というメリットもあり、チーム全体の理解を深めることに寄与する。ソフトウェア開発プロセスの品質向上において極めて重要な役割を持つ。",
+          "definitionVi": "Phương thức review: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "れびゅーほうしき"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "review-method-2"
+      ]
+    },
+    {
+      "id": "hearing",
+      "order": 52,
+      "titleJa": "ヒアリング",
+      "titleVi": "Phỏng vấn",
+      "importance": "medium",
+      "summaryJa": "特定の情報や意見を収集するためのプロセスであり、主にインタビューや調査を通じて行われる。",
+      "summaryVi": "Phỏng vấn: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ヒアリングとは",
+          "vi": "Phỏng vấn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の情報や意見を収集するためのプロセスであり、主にインタビューや調査を通じて行われる。ヒアリング計画は、目的に応じて誰に、どのようにヒアリングを行うかを決定するための事前の設計書である。この計画に基づいて実施されるヒアリングでは、関係者からの意見や要望を丁寧に聞き取ることが求められる。また、ヒアリング議事録は、ヒアリング中に記録した内容を整理した文書であり、議論の結果や意見を残すための重要な資料となる。このように、ヒアリングはプロジェクトや業務のニーズを理解し、円滑に進めるための基盤を築く役割を果たしている。具体的には、要件定義や改善点の把握に大いに役立つものである。",
+          "vi": "Học trọng tâm về Phỏng vấn: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ヒアリングの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Phỏng vấn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ヒアリング",
+          "english": "Hearing",
+          "vi": "Phỏng vấn",
+          "definitionJa": "特定の情報や意見を収集するためのプロセスであり、主にインタビューや調査を通じて行われる。ヒアリング計画は、目的に応じて誰に、どのようにヒアリングを行うかを決定するための事前の設計書である。この計画に基づいて実施されるヒアリングでは、関係者からの意見や要望を丁寧に聞き取ることが求められる。また、ヒアリング議事録は、ヒアリング中に記録した内容を整理した文書であり、議論の結果や意見を残すための重要な資料となる。このように、ヒアリングはプロジェクトや業務のニーズを理解し、円滑に進めるための基盤を築く役割を果たしている。具体的には、要件定義や改善点の把握に大いに役立つものである。",
+          "definitionVi": "Phỏng vấn: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "hearing"
+      ]
+    },
+    {
+      "id": "use-case-2",
+      "order": 53,
+      "titleJa": "ユースケース",
+      "titleVi": "Use case",
+      "importance": "high",
+      "summaryJa": "システムやソフトウェアの動作を具体的に記述する手法の一つである。",
+      "summaryVi": "Use case: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユースケースとは",
+          "vi": "Use case là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアの動作を具体的に記述する手法の一つである。さまざまな「アクター」と呼ばれる利用者や他のシステムと、そのアクターが何をするか（振る舞い）を示すことで、システムの要件を明確にすることができる。例えば、オンラインショッピングのユースケースでは、「顧客」が「商品をカートに追加する」という振る舞いを持ち、システムがそれに応じて商品情報を更新する様子が描かれる。この手法は、開発プロセスにおいて関係者間の理解を深めるために役立ち、実際の使用シーンをイメージすることで、機能要件やシステムの設計に反映しやすくする。そして、ユースケースはテストケースの作成にも利用され、システムが期待通りに動作するかを確認する際の基準としても活用される。",
+          "vi": "Học trọng tâm về Use case: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ユースケースの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Use case."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユースケース",
+          "english": "Use Case",
+          "vi": "Use case",
+          "definitionJa": "システムやソフトウェアの動作を具体的に記述する手法の一つである。さまざまな「アクター」と呼ばれる利用者や他のシステムと、そのアクターが何をするか（振る舞い）を示すことで、システムの要件を明確にすることができる。例えば、オンラインショッピングのユースケースでは、「顧客」が「商品をカートに追加する」という振る舞いを持ち、システムがそれに応じて商品情報を更新する様子が描かれる。この手法は、開発プロセスにおいて関係者間の理解を深めるために役立ち、実際の使用シーンをイメージすることで、機能要件やシステムの設計に反映しやすくする。そして、ユースケースはテストケースの作成にも利用され、システムが期待通りに動作するかを確認する際の基準としても活用される。",
+          "definitionVi": "Use case: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "use-case-2"
+      ]
+    },
+    {
+      "id": "mockup",
+      "order": 54,
+      "titleJa": "モックアップ",
+      "titleVi": "Mockup",
+      "importance": "medium",
+      "summaryJa": "製品やアプリケーションの初期段階で、デザインや機能を視覚的に表現したモデルである。",
+      "summaryVi": "Mockup: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モックアップとは",
+          "vi": "Mockup là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やアプリケーションの初期段階で、デザインや機能を視覚的に表現したモデルである。これは実際の機能を持たないが、外観やレイアウトを示すために用いられる。たとえば、Webサイトのモックアップでは、各ページの構成要素やデザインを示すことで、開発者やユーザーが全体のイメージを理解しやすくする。モックアップを作成することで、開発チームはデザイン上の意見を集めたり、改善点を見つけたりしやすくなり、最終的なプロトタイプの制作へとつながる。また、ユーザーからのフィードバックを得るための重要なツールともなるため、ユーザーエクスペリエンスを向上させる手助けとなる。",
+          "vi": "Học trọng tâm về Mockup: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "モックアップの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Mockup."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モックアップ",
+          "english": "Mockup",
+          "vi": "Mockup",
+          "definitionJa": "製品やアプリケーションの初期段階で、デザインや機能を視覚的に表現したモデルである。これは実際の機能を持たないが、外観やレイアウトを示すために用いられる。たとえば、Webサイトのモックアップでは、各ページの構成要素やデザインを示すことで、開発者やユーザーが全体のイメージを理解しやすくする。モックアップを作成することで、開発チームはデザイン上の意見を集めたり、改善点を見つけたりしやすくなり、最終的なプロトタイプの制作へとつながる。また、ユーザーからのフィードバックを得るための重要なツールともなるため、ユーザーエクスペリエンスを向上させる手助けとなる。",
+          "definitionVi": "Mockup: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "mockup"
+      ]
+    },
+    {
+      "id": "prototype",
+      "order": 55,
+      "titleJa": "プロトタイプ",
+      "titleVi": "Prototype",
+      "importance": "high",
+      "summaryJa": "製品やシステムの初期モデルを指す。",
+      "summaryVi": "Prototype: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロトタイプとは",
+          "vi": "Prototype là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やシステムの初期モデルを指す。これは、最終的な製品を製造する前に作成される試作版であり、機能やデザインをテストする目的で使用される。プロトタイプを用いることで、アイデアやコンセプトの具現化が可能となり、問題点を早期に発見したり、ユーザーからのフィードバックを得ることが容易になる。例えば、アプリの開発においては、ユーザーインターフェース（UI）のデザインをプロトタイピングツールで作成し、実際に操作してもらうことで、使いやすさを検証できる。このプロセスは、最終製品の品質を向上させるために欠かせないステップである。また、関係者とのコミュニケーションを円滑にする手助けとなり、全体の開発過程をスムーズに進める効果がある。",
+          "vi": "Học trọng tâm về Prototype: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "プロトタイプの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Prototype."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロトタイプ",
+          "english": "Prototype",
+          "vi": "Prototype",
+          "definitionJa": "製品やシステムの初期モデルを指す。これは、最終的な製品を製造する前に作成される試作版であり、機能やデザインをテストする目的で使用される。プロトタイプを用いることで、アイデアやコンセプトの具現化が可能となり、問題点を早期に発見したり、ユーザーからのフィードバックを得ることが容易になる。例えば、アプリの開発においては、ユーザーインターフェース（UI）のデザインをプロトタイピングツールで作成し、実際に操作してもらうことで、使いやすさを検証できる。このプロセスは、最終製品の品質を向上させるために欠かせないステップである。また、関係者とのコミュニケーションを円滑にする手助けとなり、全体の開発過程をスムーズに進める効果がある。",
+          "definitionVi": "Prototype: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "prototype"
+      ]
+    },
+    {
+      "id": "data-flow-diagram-2",
+      "order": 56,
+      "titleJa": "DFD",
+      "titleVi": "DFD",
+      "importance": "high",
+      "summaryJa": "データの流れを視覚的に示す図表である。",
+      "summaryVi": "DFD: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DFDとは",
+          "vi": "DFD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの流れを視覚的に示す図表である。これは、システム内でのデータの移動や処理の過程を明確に理解するために用いられる。主に４つの要素から構成されており、それぞれデータストア、データフロー、プロセス、源泉と吸収と呼ばれる。データストアは、情報が保存される場所を示し、データフローは情報がどのように移動するかを表現する。一方、プロセスはデータを扱う操作や機能を示し、源泉と吸収はデータがどこから来てどこに行くのかを示す。これにより、システム全体の構造や機能をわかりやすく説明でき、情報システムの設計や改善に役立つ。特に、プロジェクトの初期段階や要件定義において非常に有用で、関係者間の理解を深めるための重要なツールとなっている。",
+          "vi": "Học trọng tâm về DFD: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "DFDの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của DFD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DFD",
+          "english": "Data Flow Diagram",
+          "vi": "DFD",
+          "definitionJa": "データの流れを視覚的に示す図表である。これは、システム内でのデータの移動や処理の過程を明確に理解するために用いられる。主に４つの要素から構成されており、それぞれデータストア、データフロー、プロセス、源泉と吸収と呼ばれる。データストアは、情報が保存される場所を示し、データフローは情報がどのように移動するかを表現する。一方、プロセスはデータを扱う操作や機能を示し、源泉と吸収はデータがどこから来てどこに行くのかを示す。これにより、システム全体の構造や機能をわかりやすく説明でき、情報システムの設計や改善に役立つ。特に、プロジェクトの初期段階や要件定義において非常に有用で、関係者間の理解を深めるための重要なツールとなっている。",
+          "definitionVi": "DFD: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "でぃーえふでぃ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "data-flow-diagram-2"
+      ]
+    },
+    {
+      "id": "activity",
+      "order": 57,
+      "titleJa": "アクティビティ",
+      "titleVi": "Activity",
+      "importance": "medium",
+      "summaryJa": "データフロー図（DFD）における処理や作業を指す用語である。",
+      "summaryVi": "Activity: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクティビティとは",
+          "vi": "Activity là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データフロー図（DFD）における処理や作業を指す用語である。この図は、システム内でデータがどのように流れ、どのように処理されるかを視覚化するための手段として使用される。データを入力として受け取り、必要な処理を行った後に出力を生成する一連の作業を示す。例えば、注文を受け付けてから在庫を確認し、出荷を手配するという一連の流れは、複数のアクティビティとして表現される。また、アクティビティはそれぞれ独立して行われることもあれば、他のアクティビティと関連して行われることもあり、システム全体の理解を助ける重要な要素である。",
+          "vi": "Học trọng tâm về Activity: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "アクティビティの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Activity."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクティビティ",
+          "english": "Activity",
+          "vi": "Activity",
+          "definitionJa": "データフロー図（DFD）における処理や作業を指す用語である。この図は、システム内でデータがどのように流れ、どのように処理されるかを視覚化するための手段として使用される。データを入力として受け取り、必要な処理を行った後に出力を生成する一連の作業を示す。例えば、注文を受け付けてから在庫を確認し、出荷を手配するという一連の流れは、複数のアクティビティとして表現される。また、アクティビティはそれぞれ独立して行われることもあれば、他のアクティビティと関連して行われることもあり、システム全体の理解を助ける重要な要素である。",
+          "definitionVi": "Activity: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "activity"
+      ]
+    },
+    {
+      "id": "entity-relationship-diagram-2",
+      "order": 58,
+      "titleJa": "E-R図",
+      "titleVi": "Sơ đồ E-R",
+      "importance": "high",
+      "summaryJa": "データベースの設計を視覚的に表現するための図である。",
+      "summaryVi": "Sơ đồ E-R: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "E-R図とは",
+          "vi": "Sơ đồ E-R là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データベースの設計を視覚的に表現するための図である。実体（エンティティ）とそれらの関係性（リレーションシップ）を示すことで、データの構造を理解しやすくすることを目的としている。例えば、学校のデータベースを考えた場合、「学生」や「コース」といった実体が存在し、それらが「登録」という関係で結ばれることを示すことができる。E-R図を用いることで、システム開発者や関係者がデータの流れや構造を共通理解しやすくし、要件定義や設計の段階で重要な役割を果たす。",
+          "vi": "Học trọng tâm về Sơ đồ E-R: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "E-R図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ E-R."
+        }
+      ],
+      "terms": [
+        {
+          "term": "E-R図",
+          "english": "Entity-Relationship Diagram",
+          "vi": "Sơ đồ E-R",
+          "definitionJa": "データベースの設計を視覚的に表現するための図である。実体（エンティティ）とそれらの関係性（リレーションシップ）を示すことで、データの構造を理解しやすくすることを目的としている。例えば、学校のデータベースを考えた場合、「学生」や「コース」といった実体が存在し、それらが「登録」という関係で結ばれることを示すことができる。E-R図を用いることで、システム開発者や関係者がデータの流れや構造を共通理解しやすくし、要件定義や設計の段階で重要な役割を果たす。",
+          "definitionVi": "Sơ đồ E-R: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "いーあーるず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "entity-relationship-diagram-2"
+      ]
+    },
+    {
+      "id": "class-diagram",
+      "order": 59,
+      "titleJa": "クラス図",
+      "titleVi": "Sơ đồ lớp",
+      "importance": "medium",
+      "summaryJa": "オブジェクト指向設計において使用されるUML（統一モデリング言語）の一種である。",
+      "summaryVi": "Sơ đồ lớp: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラス図とは",
+          "vi": "Sơ đồ lớp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向設計において使用されるUML（統一モデリング言語）の一種である。この図は、システム内のクラスとそれらの関係を視覚的に表現するもので、クラスの属性やメソッド、継承関係や関連性を示す。例えば、ある「動物」というクラスがあれば、その下に「犬」や「猫」などのサブクラスが存在し、それぞれの特性を持つことになる。クラス図を用いることで、システムの構造を理解しやすくし、開発者間のコミュニケーションを円滑に進める手助けとなる。また、ソフトウェア開発の初期段階で主要な要件を整理する際にも活用される。",
+          "vi": "Học trọng tâm về Sơ đồ lớp: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "クラス図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ lớp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラス図",
+          "english": "Class Diagram",
+          "vi": "Sơ đồ lớp",
+          "definitionJa": "オブジェクト指向設計において使用されるUML（統一モデリング言語）の一種である。この図は、システム内のクラスとそれらの関係を視覚的に表現するもので、クラスの属性やメソッド、継承関係や関連性を示す。例えば、ある「動物」というクラスがあれば、その下に「犬」や「猫」などのサブクラスが存在し、それぞれの特性を持つことになる。クラス図を用いることで、システムの構造を理解しやすくし、開発者間のコミュニケーションを円滑に進める手助けとなる。また、ソフトウェア開発の初期段階で主要な要件を整理する際にも活用される。",
+          "definitionVi": "Sơ đồ lớp: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "くらすず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "class-diagram"
+      ]
+    },
+    {
+      "id": "operation",
+      "order": 60,
+      "titleJa": "操作",
+      "titleVi": "Thao tác",
+      "importance": "medium",
+      "summaryJa": "UML（統一モデリング言語）において、オブジェクトが実行できる動作や機能を指すものである。",
+      "summaryVi": "Thao tác: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "操作とは",
+          "vi": "Thao tác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "UML（統一モデリング言語）において、オブジェクトが実行できる動作や機能を指すものである。具体的には、クラスが持つメソッドやアクションを表し、他のオブジェクトとの相互作用を通じて、情報の処理や変換を行う役割を果たす。例えば、ユーザがアプリケーション内でボタンを押すことによって、データを保存したり表示したりする一連の動作が操作に該当する。システムの振る舞いを理解するための重要な要素であり、設計段階で具体的な機能要件を明確にする際に役立つ。",
+          "vi": "Học trọng tâm về Thao tác: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "操作の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thao tác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "操作",
+          "english": "Operation",
+          "vi": "Thao tác",
+          "definitionJa": "UML（統一モデリング言語）において、オブジェクトが実行できる動作や機能を指すものである。具体的には、クラスが持つメソッドやアクションを表し、他のオブジェクトとの相互作用を通じて、情報の処理や変換を行う役割を果たす。例えば、ユーザがアプリケーション内でボタンを押すことによって、データを保存したり表示したりする一連の動作が操作に該当する。システムの振る舞いを理解するための重要な要素であり、設計段階で具体的な機能要件を明確にする際に役立つ。",
+          "definitionVi": "Thao tác: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "そうさ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "operation"
+      ]
+    },
+    {
+      "id": "attribute",
+      "order": 61,
+      "titleJa": "属性",
+      "titleVi": "Thuộc tính",
+      "importance": "medium",
+      "summaryJa": "オブジェクト指向設計において、オブジェクトの特性や状態を表すデータ項目のことである。",
+      "summaryVi": "Thuộc tính: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "属性とは",
+          "vi": "Thuộc tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オブジェクト指向設計において、オブジェクトの特性や状態を表すデータ項目のことである。UML（統一モデリング言語）においては、クラス図などでオブジェクトの特徴を定義する際に用いられる。例えば「学生」というクラスにおいて「名前」や「年齢」などのフィールドとして具体化される。これにより、オブジェクトの具体的な情報を扱えるようになり、プログラム内でデータを組織的に管理する助けとなる。また、属性にはデータ型や初期値を設定することも可能であり、オブジェクトの動作や外部とのやりとりに重要な役割を果たす。これはプログラミングやシステム設計において、より効率的なデータ処理を実現するために必要不可欠である。",
+          "vi": "Học trọng tâm về Thuộc tính: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "属性の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Thuộc tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "属性",
+          "english": "Attribute",
+          "vi": "Thuộc tính",
+          "definitionJa": "オブジェクト指向設計において、オブジェクトの特性や状態を表すデータ項目のことである。UML（統一モデリング言語）においては、クラス図などでオブジェクトの特徴を定義する際に用いられる。例えば「学生」というクラスにおいて「名前」や「年齢」などのフィールドとして具体化される。これにより、オブジェクトの具体的な情報を扱えるようになり、プログラム内でデータを組織的に管理する助けとなる。また、属性にはデータ型や初期値を設定することも可能であり、オブジェクトの動作や外部とのやりとりに重要な役割を果たす。これはプログラミングやシステム設計において、より効率的なデータ処理を実現するために必要不可欠である。",
+          "definitionVi": "Thuộc tính: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ぞくせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "attribute"
+      ]
+    },
+    {
+      "id": "role-name",
+      "order": 62,
+      "titleJa": "ロール名",
+      "titleVi": "Tên vai trò",
+      "importance": "medium",
+      "summaryJa": "UML（統一モデリング言語）において、システム内での役割を定義するために用いられる名称である。",
+      "summaryVi": "Tên vai trò: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロール名とは",
+          "vi": "Tên vai trò là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "UML（統一モデリング言語）において、システム内での役割を定義するために用いられる名称である。これにより、システムの設計や開発において、関与する人や要素がどのような役割を果たすのかを明確にすることができる。例えば、あるシステムの利用者、管理者、開発者などがそれぞれ異なるロール名を持ち、その役割によって異なる機能や権限を割り当てることが可能となる。このようにロール名を用いることで、システムの構造や運用が整理され、コミュニケーションの効率が向上する。",
+          "vi": "Học trọng tâm về Tên vai trò: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ロール名の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Tên vai trò."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロール名",
+          "english": "Role Name",
+          "vi": "Tên vai trò",
+          "definitionJa": "UML（統一モデリング言語）において、システム内での役割を定義するために用いられる名称である。これにより、システムの設計や開発において、関与する人や要素がどのような役割を果たすのかを明確にすることができる。例えば、あるシステムの利用者、管理者、開発者などがそれぞれ異なるロール名を持ち、その役割によって異なる機能や権限を割り当てることが可能となる。このようにロール名を用いることで、システムの構造や運用が整理され、コミュニケーションの効率が向上する。",
+          "definitionVi": "Tên vai trò: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ろーるめい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "role-name"
+      ]
+    },
+    {
+      "id": "use-case-diagram",
+      "order": 63,
+      "titleJa": "ユースケース図",
+      "titleVi": "Sơ đồ use case",
+      "importance": "medium",
+      "summaryJa": "システムの機能やその利用者との関係を視覚的に示すためのUML（Unified Modeling Language）の一つである。",
+      "summaryVi": "Sơ đồ use case: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユースケース図とは",
+          "vi": "Sơ đồ use case là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの機能やその利用者との関係を視覚的に示すためのUML（Unified Modeling Language）の一つである。この図は、システムが何をするのかを「ユースケース」と呼ばれる機能の単位で表現し、それを利用する「アクター」とのインタラクションを描く。たとえば、オンラインショッピングのシステムでは、顧客が「商品検索」や「注文」に関与する様子を表すことができる。開発チームがシステムの要求を理解するのに役立ち、デザインや実装の段階でのコミュニケーションを円滑にするため、非常に重要な役割を果たす。",
+          "vi": "Học trọng tâm về Sơ đồ use case: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ユースケース図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ use case."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユースケース図",
+          "english": "Use Case Diagram",
+          "vi": "Sơ đồ use case",
+          "definitionJa": "システムの機能やその利用者との関係を視覚的に示すためのUML（Unified Modeling Language）の一つである。この図は、システムが何をするのかを「ユースケース」と呼ばれる機能の単位で表現し、それを利用する「アクター」とのインタラクションを描く。たとえば、オンラインショッピングのシステムでは、顧客が「商品検索」や「注文」に関与する様子を表すことができる。開発チームがシステムの要求を理解するのに役立ち、デザインや実装の段階でのコミュニケーションを円滑にするため、非常に重要な役割を果たす。",
+          "definitionVi": "Sơ đồ use case: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "ゆーすけーすず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "use-case-diagram"
+      ]
+    },
+    {
+      "id": "state-machine-diagram",
+      "order": 64,
+      "titleJa": "ステートマシン図",
+      "titleVi": "Sơ đồ máy trạng thái",
+      "importance": "medium",
+      "summaryJa": "システムの状態遷移を視覚的に表現するための図である。",
+      "summaryVi": "Sơ đồ máy trạng thái: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ステートマシン図とは",
+          "vi": "Sơ đồ máy trạng thái là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの状態遷移を視覚的に表現するための図である。この図は、特定の条件に基づいてオブジェクトがどのように状態を変化させるかを示すもので、オブジェクト指向設計やUML（統一モデリング言語）で広く用いられている。ステートマシン図では、状態を表すノードと、それに対するイベントや条件を示す矢印が描かれ、遷移がどのように発生するかが把握できる。また、各状態で可能なアクションやイベントを定義することもできるため、システムの動作を論理的に整理しやすく、設計や分析の段階で非常に有用なツールである。",
+          "vi": "Học trọng tâm về Sơ đồ máy trạng thái: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ステートマシン図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ máy trạng thái."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステートマシン図",
+          "english": "State Machine Diagram",
+          "vi": "Sơ đồ máy trạng thái",
+          "definitionJa": "システムの状態遷移を視覚的に表現するための図である。この図は、特定の条件に基づいてオブジェクトがどのように状態を変化させるかを示すもので、オブジェクト指向設計やUML（統一モデリング言語）で広く用いられている。ステートマシン図では、状態を表すノードと、それに対するイベントや条件を示す矢印が描かれ、遷移がどのように発生するかが把握できる。また、各状態で可能なアクションやイベントを定義することもできるため、システムの動作を論理的に整理しやすく、設計や分析の段階で非常に有用なツールである。",
+          "definitionVi": "Sơ đồ máy trạng thái: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "すてーとましんず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "state-machine-diagram"
+      ]
+    },
+    {
+      "id": "sequence-diagram",
+      "order": 65,
+      "titleJa": "シーケンス図",
+      "titleVi": "Sơ đồ tuần tự",
+      "importance": "high",
+      "summaryJa": "UML（統一モデリング言語）の一つであり、システム内のオブジェクト間の相互作用を時系列に示す図である。",
+      "summaryVi": "Sơ đồ tuần tự: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シーケンス図とは",
+          "vi": "Sơ đồ tuần tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "UML（統一モデリング言語）の一つであり、システム内のオブジェクト間の相互作用を時系列に示す図である。この図は、オブジェクトが相互にメッセージを送り合う様子を視覚的に表現し、システムの動作やフローを理解しやすくするために使用される。具体的には、横軸にオブジェクトを配置し、縦軸には時間の流れを示すことで、メッセージの送信や受信のタイミングを明確にすることができる。システムの設計や分析の段階で特に有効で、シナリオの理解やコードの実装に役立つツールとして広く利用されている。",
+          "vi": "Học trọng tâm về Sơ đồ tuần tự: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "シーケンス図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ tuần tự."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シーケンス図",
+          "english": "Sequence Diagram",
+          "vi": "Sơ đồ tuần tự",
+          "definitionJa": "UML（統一モデリング言語）の一つであり、システム内のオブジェクト間の相互作用を時系列に示す図である。この図は、オブジェクトが相互にメッセージを送り合う様子を視覚的に表現し、システムの動作やフローを理解しやすくするために使用される。具体的には、横軸にオブジェクトを配置し、縦軸には時間の流れを示すことで、メッセージの送信や受信のタイミングを明確にすることができる。システムの設計や分析の段階で特に有効で、シナリオの理解やコードの実装に役立つツールとして広く利用されている。",
+          "definitionVi": "Sơ đồ tuần tự: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "しーけんすず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "sequence-diagram"
+      ]
+    },
+    {
+      "id": "communication-diagram",
+      "order": 66,
+      "titleJa": "コミュニケーション図",
+      "titleVi": "Sơ đồ giao tiếp",
+      "importance": "medium",
+      "summaryJa": "UML（統一モデリング言語）の一部であり、システム内のオブジェクト間の相互作用を視覚的に示すための図である。",
+      "summaryVi": "Sơ đồ giao tiếp: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コミュニケーション図とは",
+          "vi": "Sơ đồ giao tiếp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "UML（統一モデリング言語）の一部であり、システム内のオブジェクト間の相互作用を視覚的に示すための図である。この図は、オブジェクトがどのように協力し合い、メッセージを交換するかを表現する。具体的には、オブジェクトとその関係、メッセージの送受信の順序を示すことで、システムの動作を理解しやすくする。特に、デザインや分析の段階において、システムの要件を明確にし、開発者間のコミュニケーションを円滑にするために役立つ。また、他のUML図と組み合わせて使用することで、より包括的なシステムのモデリングが可能になる。",
+          "vi": "Học trọng tâm về Sơ đồ giao tiếp: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "コミュニケーション図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ giao tiếp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コミュニケーション図",
+          "english": "Communication Diagram",
+          "vi": "Sơ đồ giao tiếp",
+          "definitionJa": "UML（統一モデリング言語）の一部であり、システム内のオブジェクト間の相互作用を視覚的に示すための図である。この図は、オブジェクトがどのように協力し合い、メッセージを交換するかを表現する。具体的には、オブジェクトとその関係、メッセージの送受信の順序を示すことで、システムの動作を理解しやすくする。特に、デザインや分析の段階において、システムの要件を明確にし、開発者間のコミュニケーションを円滑にするために役立つ。また、他のUML図と組み合わせて使用することで、より包括的なシステムのモデリングが可能になる。",
+          "definitionVi": "Sơ đồ giao tiếp: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "こみゅにけーしょんず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "communication-diagram"
+      ]
+    },
+    {
+      "id": "epic",
+      "order": 67,
+      "titleJa": "エピック",
+      "titleVi": "Epic",
+      "importance": "medium",
+      "summaryJa": "アジャイル開発において大きな機能や要求を扱うための概念である。",
+      "summaryVi": "Epic: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エピックとは",
+          "vi": "Epic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発において大きな機能や要求を扱うための概念である。具体的には、ユーザーストーリーという小さな作業単位の集合で構成され、一つの大きな目標やテーマを示す。たとえば、オンラインショッピングサイトの「カート機能」に関するエピックには、商品追加、削除、購入手続きといった複数のユーザーストーリーが含まれる。このように、エピックを使うことで、プロジェクト全体の構造を明確にし、開発チームが何に取り組むべきかを把握しやすくすることができる。結果として、複雑なプロジェクトを管理しやすくする手段として非常に有効である。",
+          "vi": "Học trọng tâm về Epic: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "エピックの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Epic."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エピック",
+          "english": "Epic",
+          "vi": "Epic",
+          "definitionJa": "アジャイル開発において大きな機能や要求を扱うための概念である。具体的には、ユーザーストーリーという小さな作業単位の集合で構成され、一つの大きな目標やテーマを示す。たとえば、オンラインショッピングサイトの「カート機能」に関するエピックには、商品追加、削除、購入手続きといった複数のユーザーストーリーが含まれる。このように、エピックを使うことで、プロジェクト全体の構造を明確にし、開発チームが何に取り組むべきかを把握しやすくすることができる。結果として、複雑なプロジェクトを管理しやすくする手段として非常に有効である。",
+          "definitionVi": "Epic: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "epic"
+      ]
+    },
+    {
+      "id": "user-story-2",
+      "order": 68,
+      "titleJa": "ユーザーストーリー",
+      "titleVi": "User story",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。",
+      "summaryVi": "User story: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユーザーストーリーとは",
+          "vi": "User story là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。通常、「私たちは～したい」という形式で表現され、誰が、何を、なぜ行いたいのかを明確にすることが目的である。この手法は、開発チームとステークホルダーのコミュニケーションを円滑にし、優先順位を明確にするために活用される。具体的な例としては、アプリケーションのユーザーが「私はいつでもアクセスしたい」と述べることで、必須の機能やニーズを理解しやすくする作用がある。このように、ユーザーストーリーは開発の初期段階からフィードバックを得るための重要な要素である。",
+          "vi": "Học trọng tâm về User story: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ユーザーストーリーの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của User story."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユーザーストーリー",
+          "english": "User Story",
+          "vi": "User story",
+          "definitionJa": "ソフトウェア開発においてユーザーの視点から機能の要求を簡潔に記述したものである。通常、「私たちは～したい」という形式で表現され、誰が、何を、なぜ行いたいのかを明確にすることが目的である。この手法は、開発チームとステークホルダーのコミュニケーションを円滑にし、優先順位を明確にするために活用される。具体的な例としては、アプリケーションのユーザーが「私はいつでもアクセスしたい」と述べることで、必須の機能やニーズを理解しやすくする作用がある。このように、ユーザーストーリーは開発の初期段階からフィードバックを得るための重要な要素である。",
+          "definitionVi": "User story: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "user-story-2"
+      ]
+    },
+    {
+      "id": "story-point",
+      "order": 69,
+      "titleJa": "ストーリーポイント",
+      "titleVi": "Story point",
+      "importance": "medium",
+      "summaryJa": "アジャイル開発において、ユーザーストーリーの相対的な作業量を評価するための単位である。",
+      "summaryVi": "Story point: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ストーリーポイントとは",
+          "vi": "Story point là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発において、ユーザーストーリーの相対的な作業量を評価するための単位である。この概念は、作業の複雑さや作業量、そしてリスクなどを総合的に考慮し、それを数値で表現するものである。プロジェクトチームは、ストーリーポイントを使ってタスクの見積もりを行い、スプリント内で実施するべき作業を把握することで、効率的に開発を進めることができる。通常、フィボナッチ数列などの特定の数値体系を用いて見積もられるため、より直感的な評価が可能となる。この手法により、チームは作業負荷を比較しやすく、計画や進捗の管理が効率的に行えるようになる。",
+          "vi": "Học trọng tâm về Story point: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "ストーリーポイントの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Story point."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ストーリーポイント",
+          "english": "Story Point",
+          "vi": "Story point",
+          "definitionJa": "アジャイル開発において、ユーザーストーリーの相対的な作業量を評価するための単位である。この概念は、作業の複雑さや作業量、そしてリスクなどを総合的に考慮し、それを数値で表現するものである。プロジェクトチームは、ストーリーポイントを使ってタスクの見積もりを行い、スプリント内で実施するべき作業を把握することで、効率的に開発を進めることができる。通常、フィボナッチ数列などの特定の数値体系を用いて見積もられるため、より直感的な評価が可能となる。この手法により、チームは作業負荷を比較しやすく、計画や進捗の管理が効率的に行えるようになる。",
+          "definitionVi": "Story point: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "story-point"
+      ]
+    },
+    {
+      "id": "product-backlog",
+      "order": 70,
+      "titleJa": "プロダクトバックログ",
+      "titleVi": "Product backlog",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発において、ユーザーの要望や機能のリストを管理するための重要なツールである。",
+      "summaryVi": "Product backlog: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロダクトバックログとは",
+          "vi": "Product backlog là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、ユーザーの要望や機能のリストを管理するための重要なツールである。このリストには、開発すべき機能や修正案、バグ修正などが含まれており、各項目は優先順位が付けられている。これにより、開発チームは最も重要な作業から取り組むことができる。常に更新されるものであり、新たなアイデアや変更点が出た際にはリストに追加される。アジャイル開発手法では特に重視され、チームの進捗を可視化し、より柔軟な開発が可能になる。ユーザーストーリー形式で記述されることが多く、開発者だけでなく、ステークホルダーとのコミュニケーションにも役立つ。",
+          "vi": "Học trọng tâm về Product backlog: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "プロダクトバックログの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Product backlog."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロダクトバックログ",
+          "english": "Product Backlog",
+          "vi": "Product backlog",
+          "definitionJa": "ソフトウェア開発において、ユーザーの要望や機能のリストを管理するための重要なツールである。このリストには、開発すべき機能や修正案、バグ修正などが含まれており、各項目は優先順位が付けられている。これにより、開発チームは最も重要な作業から取り組むことができる。常に更新されるものであり、新たなアイデアや変更点が出た際にはリストに追加される。アジャイル開発手法では特に重視され、チームの進捗を可視化し、より柔軟な開発が可能になる。ユーザーストーリー形式で記述されることが多く、開発者だけでなく、ステークホルダーとのコミュニケーションにも役立つ。",
+          "definitionVi": "Product backlog: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "product-backlog"
+      ]
+    },
+    {
+      "id": "decision-table",
+      "order": 71,
+      "titleJa": "決定表",
+      "titleVi": "Bảng quyết định",
+      "importance": "high",
+      "summaryJa": "条件とそれに対するアクションを整理した表形式のツールである。",
+      "summaryVi": "Bảng quyết định: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "決定表とは",
+          "vi": "Bảng quyết định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "条件とそれに対するアクションを整理した表形式のツールである。この表は、複雑な意思決定を可視化し、整理するために用いられ、特に多くの条件が絡む場合に効果的である。例えば、商品割引のルールを定める際に「顧客が会員かどうか」「購入金額はどの程度か」といった条件に対して、それぞれの組み合わせに基づく割引率を示すことができる。これにより、誰でも簡単に規則を理解でき、意思決定をプログラムやシステムに組み込む際の基盤として役立つ。業務ルールの明確化や効率化にも貢献し、特にソフトウェア開発や業務プロセスの改善に利用されることが多い。",
+          "vi": "Học trọng tâm về Bảng quyết định: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "決定表の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Bảng quyết định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "決定表",
+          "english": "Decision Table",
+          "vi": "Bảng quyết định",
+          "definitionJa": "条件とそれに対するアクションを整理した表形式のツールである。この表は、複雑な意思決定を可視化し、整理するために用いられ、特に多くの条件が絡む場合に効果的である。例えば、商品割引のルールを定める際に「顧客が会員かどうか」「購入金額はどの程度か」といった条件に対して、それぞれの組み合わせに基づく割引率を示すことができる。これにより、誰でも簡単に規則を理解でき、意思決定をプログラムやシステムに組み込む際の基盤として役立つ。業務ルールの明確化や効率化にも貢献し、特にソフトウェア開発や業務プロセスの改善に利用されることが多い。",
+          "definitionVi": "Bảng quyết định: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "けっていひょう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "decision-table"
+      ]
+    },
+    {
+      "id": "systems-modeling-language",
+      "order": 72,
+      "titleJa": "SysML",
+      "titleVi": "SysML",
+      "importance": "medium",
+      "summaryJa": "システムの設計や分析に使用されるモデリング言語である。",
+      "summaryVi": "SysML: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SysMLとは",
+          "vi": "SysML là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの設計や分析に使用されるモデリング言語である。この言語は、複雑なシステムの構造、振る舞い、要件を視覚的に表現するために開発された。例えば、自動車の開発において、エンジン、ブレーキ、電子システムなどの異なる要素を統合し全体像を把握することができる。UML（統一モデリング言語）を基にしており、要求や仕様を明確にし、関係者間のコミュニケーションを円滑にする役割を果たす。また、システム全体の理解を深めるために、図表を使った視覚的な手法を提供し、トレーサビリティを確保することで設計の質を向上させることが可能である。",
+          "vi": "Học trọng tâm về SysML: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "SysMLの意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của SysML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SysML",
+          "english": "Systems Modeling Language",
+          "vi": "SysML",
+          "definitionJa": "システムの設計や分析に使用されるモデリング言語である。この言語は、複雑なシステムの構造、振る舞い、要件を視覚的に表現するために開発された。例えば、自動車の開発において、エンジン、ブレーキ、電子システムなどの異なる要素を統合し全体像を把握することができる。UML（統一モデリング言語）を基にしており、要求や仕様を明確にし、関係者間のコミュニケーションを円滑にする役割を果たす。また、システム全体の理解を深めるために、図表を使った視覚的な手法を提供し、トレーサビリティを確保することで設計の質を向上させることが可能である。",
+          "definitionVi": "SysML: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "しすむる"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "systems-modeling-language"
+      ]
+    },
+    {
+      "id": "state-transition-diagram",
+      "order": 73,
+      "titleJa": "状態遷移図",
+      "titleVi": "Sơ đồ chuyển trạng thái",
+      "importance": "high",
+      "summaryJa": "システムやプロセスが持つ状態と、それに伴う遷移を視覚的に表現した図である。",
+      "summaryVi": "Sơ đồ chuyển trạng thái: nội dung cần nắm trong định nghĩa yêu cầu hệ thống/phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "状態遷移図とは",
+          "vi": "Sơ đồ chuyển trạng thái là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスが持つ状態と、それに伴う遷移を視覚的に表現した図である。この図は、特定の入力に対してどのように状態が変化するかを示し、システムの動作を理解しやすくするために用いられる。たとえば、ゲームのキャラクターが「待機」「移動」「攻撃」などの状態を持つ場合、状態遷移図を使うことで、どの条件で状態が変わるのかを明確にすることができる。このように、状態遷移図はシステム設計やテストの際に重要なツールとなり、設計者や開発者がシステムの動作を効率的に検証することを可能にする。",
+          "vi": "Học trọng tâm về Sơ đồ chuyển trạng thái: định nghĩa, mục đích và cách sử dụng trong phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "状態遷移図の意味・目的・利用場面を押さえる。",
+          "vi": "Ghi nhớ ý nghĩa, mục đích và tình huống sử dụng của Sơ đồ chuyển trạng thái."
+        }
+      ],
+      "terms": [
+        {
+          "term": "状態遷移図",
+          "english": "State Transition Diagram",
+          "vi": "Sơ đồ chuyển trạng thái",
+          "definitionJa": "システムやプロセスが持つ状態と、それに伴う遷移を視覚的に表現した図である。この図は、特定の入力に対してどのように状態が変化するかを示し、システムの動作を理解しやすくするために用いられる。たとえば、ゲームのキャラクターが「待機」「移動」「攻撃」などの状態を持つ場合、状態遷移図を使うことで、どの条件で状態が変わるのかを明確にすることができる。このように、状態遷移図はシステム設計やテストの際に重要なツールとなり、設計者や開発者がシステムの動作を効率的に検証することを可能にする。",
+          "definitionVi": "Sơ đồ chuyển trạng thái: thuật ngữ thuộc phần định nghĩa yêu cầu hệ thống và phần mềm.",
+          "reading": "じょうたいせんいず"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "requirements-definition",
+        "state-transition-diagram"
+      ]
+    }
+  ]
 }

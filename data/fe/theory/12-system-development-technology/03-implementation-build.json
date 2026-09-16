@@ -4,5 +4,2363 @@
   "titleJa": "実装・構築",
   "titleVi": "Triển khai và xây dựng",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "coding",
+      "order": 1,
+      "titleJa": "コーディング",
+      "titleVi": "Lập trình mã nguồn",
+      "importance": "high",
+      "summaryJa": "プログラムを書く作業のことである。",
+      "summaryVi": "Lập trình mã nguồn: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーディングとは",
+          "vi": "Lập trình mã nguồn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムを書く作業のことである。プログラミング言語を用いて、コンピュータが理解できる形で指示を記述するプロセスを指す。例えば、Webサイトを作成する際には、HTMLやCSS、JavaScriptといった言語を用いて、看板のような表示内容やその動きを指示することが必要である。コーディングによって、ソフトウェアが実際に動作する機能を具現化することができ、問題解決や情報処理を行う基盤が形成される。このため、コーディングはソフトウェア開発の重要なステップであり、技術者にとって欠かせないスキルである。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Lập trình mã nguồn trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コーディングの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lập trình mã nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーディング",
+          "english": "Coding",
+          "vi": "Lập trình mã nguồn",
+          "definitionJa": "プログラムを書く作業のことである。プログラミング言語を用いて、コンピュータが理解できる形で指示を記述するプロセスを指す。例えば、Webサイトを作成する際には、HTMLやCSS、JavaScriptといった言語を用いて、看板のような表示内容やその動きを指示することが必要である。コーディングによって、ソフトウェアが実際に動作する機能を具現化することができ、問題解決や情報処理を行う基盤が形成される。このため、コーディングはソフトウェア開発の重要なステップであり、技術者にとって欠かせないスキルである。",
+          "definitionVi": "Lập trình mã nguồn: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-build",
+        "coding"
+      ]
+    },
+    {
+      "id": "programming-language",
+      "order": 2,
+      "titleJa": "プログラム言語",
+      "titleVi": "Ngôn ngữ lập trình",
+      "importance": "high",
+      "summaryJa": "コンピュータに指示を与えるための手段である。",
+      "summaryVi": "Ngôn ngữ lập trình: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プログラム言語とは",
+          "vi": "Ngôn ngữ lập trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータに指示を与えるための手段である。これにより、開発者はソフトウェアを作成したり、問題を解決したりするための命令を記述することができる。具体的に言えば、PythonやJava、C++などが一般的なプログラム言語の例である。それぞれの言語には特有の構文やルールがあり、異なる用途や開発環境に適したものが選ばれる。コンピュータの動作を理解しやすい形で表現する手法であるため、プログラマーはこれを使って効率良くソフトウェアを構築することが可能である。これにより、創造的なアプローチでさまざまなタスクを自動化することもできる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Ngôn ngữ lập trình trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "プログラム言語の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ngôn ngữ lập trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プログラム言語",
+          "english": "Programming Language",
+          "vi": "Ngôn ngữ lập trình",
+          "definitionJa": "コンピュータに指示を与えるための手段である。これにより、開発者はソフトウェアを作成したり、問題を解決したりするための命令を記述することができる。具体的に言えば、PythonやJava、C++などが一般的なプログラム言語の例である。それぞれの言語には特有の構文やルールがあり、異なる用途や開発環境に適したものが選ばれる。コンピュータの動作を理解しやすい形で表現する手法であるため、プログラマーはこれを使って効率良くソフトウェアを構築することが可能である。これにより、創造的なアプローチでさまざまなタスクを自動化することもできる。",
+          "definitionVi": "Ngôn ngữ lập trình: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "ぷろぐらむげんご"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "programming-language"
+      ]
+    },
+    {
+      "id": "algorithm",
+      "order": 3,
+      "titleJa": "アルゴリズム",
+      "titleVi": "Thuật toán",
+      "importance": "high",
+      "summaryJa": "特定の問題を解決するための手順やルールの集まりである。",
+      "summaryVi": "Thuật toán: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アルゴリズムとは",
+          "vi": "Thuật toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の問題を解決するための手順やルールの集まりである。これは、目標を達成するために実行する一連の計算や操作を明確に示したもので、コンピュータプログラムやソフトウェア開発において非常に重要な要素である。たとえば、ネット検索の際に検索結果を表示するための方法や、データの整理と分析を行う手法がアルゴリズムに該当する。適切なアルゴリズムを選定することにより、効率的な処理が可能となり、結果的にプログラムの性能を向上させることができる。アルゴリズムは明確かつ再現可能であるため、誰が実行しても同じ結果が得られる点も重要である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Thuật toán trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "アルゴリズムの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Thuật toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アルゴリズム",
+          "english": "Algorithm",
+          "vi": "Thuật toán",
+          "definitionJa": "特定の問題を解決するための手順やルールの集まりである。これは、目標を達成するために実行する一連の計算や操作を明確に示したもので、コンピュータプログラムやソフトウェア開発において非常に重要な要素である。たとえば、ネット検索の際に検索結果を表示するための方法や、データの整理と分析を行う手法がアルゴリズムに該当する。適切なアルゴリズムを選定することにより、効率的な処理が可能となり、結果的にプログラムの性能を向上させることができる。アルゴリズムは明確かつ再現可能であるため、誰が実行しても同じ結果が得られる点も重要である。",
+          "definitionVi": "Thuật toán: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "algorithm"
+      ]
+    },
+    {
+      "id": "data-processing",
+      "order": 4,
+      "titleJa": "データ処理",
+      "titleVi": "Xử lý dữ liệu",
+      "importance": "medium",
+      "summaryJa": "収集したデータを整理、分析、変換する一連の作業である。",
+      "summaryVi": "Xử lý dữ liệu: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データ処理とは",
+          "vi": "Xử lý dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "収集したデータを整理、分析、変換する一連の作業である。これにより、生データから有用な情報を得ることができる。例えば、ユーザーの購入履歴をもとに商品の売上分析を行ったり、センサーデータを集めて温度変化を評価することが挙げられる。多くのソフトウェアやアプリケーションに組み込まれており、データベース管理システムやスプレッドシートなどのツールを使って効率的に行われる。このプロセスにより、意思決定の精度が高まるため、ビジネスや研究など様々な分野で重要とされている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Xử lý dữ liệu trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "データ処理の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Xử lý dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データ処理",
+          "english": "Data Processing",
+          "vi": "Xử lý dữ liệu",
+          "definitionJa": "収集したデータを整理、分析、変換する一連の作業である。これにより、生データから有用な情報を得ることができる。例えば、ユーザーの購入履歴をもとに商品の売上分析を行ったり、センサーデータを集めて温度変化を評価することが挙げられる。多くのソフトウェアやアプリケーションに組み込まれており、データベース管理システムやスプレッドシートなどのツールを使って効率的に行われる。このプロセスにより、意思決定の精度が高まるため、ビジネスや研究など様々な分野で重要とされている。",
+          "definitionVi": "Xử lý dữ liệu: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "でーたしょり"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "data-processing"
+      ]
+    },
+    {
+      "id": "database",
+      "order": 5,
+      "titleJa": "データベース",
+      "titleVi": "Cơ sở dữ liệu",
+      "importance": "medium",
+      "summaryJa": "データを整理し、効率的に管理するためのシステムである。",
+      "summaryVi": "Cơ sở dữ liệu: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データベースとは",
+          "vi": "Cơ sở dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを整理し、効率的に管理するためのシステムである。これは、情報を格納し、必要なときに簡単に取り出せるようにするための技術であり、ビジネスから学術研究まで幅広い分野で使用されている。具体的には、顧客情報や商品データを管理する企業のシステム、図書館の蔵書管理などがデータベースの一般的な利用例である。データの整合性やセキュリティを保ちながら、大量の情報を効率よく保管し、クエリと呼ばれる検索手続きで迅速に情報を抽出することが可能で、これはデータを扱う際に非常に重要な機能である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Cơ sở dữ liệu trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "データベースの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Cơ sở dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データベース",
+          "english": "Database",
+          "vi": "Cơ sở dữ liệu",
+          "definitionJa": "データを整理し、効率的に管理するためのシステムである。これは、情報を格納し、必要なときに簡単に取り出せるようにするための技術であり、ビジネスから学術研究まで幅広い分野で使用されている。具体的には、顧客情報や商品データを管理する企業のシステム、図書館の蔵書管理などがデータベースの一般的な利用例である。データの整合性やセキュリティを保ちながら、大量の情報を効率よく保管し、クエリと呼ばれる検索手続きで迅速に情報を抽出することが可能で、これはデータを扱う際に非常に重要な機能である。",
+          "definitionVi": "Cơ sở dữ liệu: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "database"
+      ]
+    },
+    {
+      "id": "structured-programming",
+      "order": 6,
+      "titleJa": "構造化プログラミング",
+      "titleVi": "Lập trình có cấu trúc",
+      "importance": "high",
+      "summaryJa": "プログラムを作成する際の手法の一つである。",
+      "summaryVi": "Lập trình có cấu trúc: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "構造化プログラミングとは",
+          "vi": "Lập trình có cấu trúc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムを作成する際の手法の一つである。この手法では、問題を小さな部分に分割し、それぞれの部分を順序立てて整理することで、より理解しやすく、保守性の高いコードを作成することを目的とする。例えば、「順次処理」「条件分岐」「繰り返し処理」といった基本的な構造を利用することで、プログラムの流れを明確にし、ミスを減らすことができる。これにより、プログラムのデバッグや再利用がしやすくなり、効率良くソフトウェアを開発することが可能である。また、構造化プログラミングは多くのプログラミング言語において採用されており、特にC言語やPascalなどが有名である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Lập trình có cấu trúc trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "構造化プログラミングの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lập trình có cấu trúc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "構造化プログラミング",
+          "english": "Structured Programming",
+          "vi": "Lập trình có cấu trúc",
+          "definitionJa": "プログラムを作成する際の手法の一つである。この手法では、問題を小さな部分に分割し、それぞれの部分を順序立てて整理することで、より理解しやすく、保守性の高いコードを作成することを目的とする。例えば、「順次処理」「条件分岐」「繰り返し処理」といった基本的な構造を利用することで、プログラムの流れを明確にし、ミスを減らすことができる。これにより、プログラムのデバッグや再利用がしやすくなり、効率良くソフトウェアを開発することが可能である。また、構造化プログラミングは多くのプログラミング言語において採用されており、特にC言語やPascalなどが有名である。",
+          "definitionVi": "Lập trình có cấu trúc: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "こうぞうかぷろぐらみんぐ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "structured-programming"
+      ]
+    },
+    {
+      "id": "module-specification",
+      "order": 7,
+      "titleJa": "モジュール仕様",
+      "titleVi": "Đặc tả mô-đun",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発において、特定の機能を持つモジュールの設計や動作を明記した文書である。",
+      "summaryVi": "Đặc tả mô-đun: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モジュール仕様とは",
+          "vi": "Đặc tả mô-đun là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、特定の機能を持つモジュールの設計や動作を明記した文書である。この仕様書には、モジュールがどういう機能を持ち、どのように他のモジュールやシステム全体と関わるかが詳細に記載される。例えば、あるモジュールがユーザーからの入力を処理し、データベースへ保存する機能を持つ場合、その入力形式やエラーハンドリングの方法、データベースとの接続方法などが詳細に記述されることになる。このようにすることで、他の開発者がそのモジュールを正しく利用できるようになり、ソフトウェア全体の品質向上やメンテナンスの効率化が図られる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Đặc tả mô-đun trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "モジュール仕様の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Đặc tả mô-đun."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モジュール仕様",
+          "english": "Module Specification",
+          "vi": "Đặc tả mô-đun",
+          "definitionJa": "ソフトウェア開発において、特定の機能を持つモジュールの設計や動作を明記した文書である。この仕様書には、モジュールがどういう機能を持ち、どのように他のモジュールやシステム全体と関わるかが詳細に記載される。例えば、あるモジュールがユーザーからの入力を処理し、データベースへ保存する機能を持つ場合、その入力形式やエラーハンドリングの方法、データベースとの接続方法などが詳細に記述されることになる。このようにすることで、他の開発者がそのモジュールを正しく利用できるようになり、ソフトウェア全体の品質向上やメンテナンスの効率化が図られる。",
+          "definitionVi": "Đặc tả mô-đun: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "もじゅーるしよう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "module-specification"
+      ]
+    },
+    {
+      "id": "traceability",
+      "order": 8,
+      "titleJa": "追跡可能性",
+      "titleVi": "Khả năng truy vết",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。",
+      "summaryVi": "Khả năng truy vết: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "追跡可能性とは",
+          "vi": "Khả năng truy vết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。具体的には、特定の要件がどのようにテストケースに反映されているのかを追跡し、変更があった場合にその影響を評価できることを指す。例えば、新機能の追加が必要になった場合、その要件が既存のテストケースにどのように関連しているかを把握することで、開発やテストの効率を高めることが可能である。また、品質保証やプロジェクト管理においても重要で、最終的な製品が仕様を満たしているかを確認するための有力な手段となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Khả năng truy vết trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "追跡可能性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Khả năng truy vết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "追跡可能性",
+          "english": "Traceability",
+          "vi": "Khả năng truy vết",
+          "definitionJa": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。具体的には、特定の要件がどのようにテストケースに反映されているのかを追跡し、変更があった場合にその影響を評価できることを指す。例えば、新機能の追加が必要になった場合、その要件が既存のテストケースにどのように関連しているかを把握することで、開発やテストの効率を高めることが可能である。また、品質保証やプロジェクト管理においても重要で、最終的な製品が仕様を満たしているかを確認するための有力な手段となる。",
+          "definitionVi": "Khả năng truy vết: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "ついせきかのうせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "traceability"
+      ]
+    },
+    {
+      "id": "external-consistency",
+      "order": 9,
+      "titleJa": "外部一貫性",
+      "titleVi": "Tính nhất quán bên ngoài",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアの動作が外部の環境や他のシステムと整合性を持つかどうかを示す評価基準である。",
+      "summaryVi": "Tính nhất quán bên ngoài: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "外部一貫性とは",
+          "vi": "Tính nhất quán bên ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの動作が外部の環境や他のシステムと整合性を持つかどうかを示す評価基準である。これは、特定の条件下でソフトウェアの出力や動作が期待通りに行われるかを確認するものである。たとえば、あるアプリケーションが同じ入力に対して常に同じ結果を返す場合、外部一貫性があると言える。この評価基準は、ユーザーがシステムを利用する際に信頼性を感じるために重要であり、様々なテストケースでの結果が一致することで、ソフトウェアの品質を確保するのに寄与する。ユーザーエクスペリエンスやシステムの安定性を向上させるための重要な要素である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Tính nhất quán bên ngoài trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "外部一貫性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tính nhất quán bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "外部一貫性",
+          "english": "External Consistency",
+          "vi": "Tính nhất quán bên ngoài",
+          "definitionJa": "ソフトウェアの動作が外部の環境や他のシステムと整合性を持つかどうかを示す評価基準である。これは、特定の条件下でソフトウェアの出力や動作が期待通りに行われるかを確認するものである。たとえば、あるアプリケーションが同じ入力に対して常に同じ結果を返す場合、外部一貫性があると言える。この評価基準は、ユーザーがシステムを利用する際に信頼性を感じるために重要であり、様々なテストケースでの結果が一致することで、ソフトウェアの品質を確保するのに寄与する。ユーザーエクスペリエンスやシステムの安定性を向上させるための重要な要素である。",
+          "definitionVi": "Tính nhất quán bên ngoài: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "がいぶいっかんせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "external-consistency"
+      ]
+    },
+    {
+      "id": "internal-consistency",
+      "order": 10,
+      "titleJa": "内部一貫性",
+      "titleVi": "Tính nhất quán nội bộ",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアのコードやテスト結果において、各部分が互いに矛盾なく整合していることを指す。",
+      "summaryVi": "Tính nhất quán nội bộ: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部一貫性とは",
+          "vi": "Tính nhất quán nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアのコードやテスト結果において、各部分が互いに矛盾なく整合していることを指す。具体的には、同じ機能を持つ部分やモジュールが同じ原則に基づいて設計され、動作することで全体の信頼性が高まる。この特性は、コードの可読性や保守性を向上させるだけでなく、バグが発生しにくい環境を築くためにも重要である。例えば、同じアルゴリズムを異なるモジュールで使用する際に、異なるロジックや命名規則を避けることが、内部一貫性を保つための一つの手法である。これにより、テスト結果も一貫したものになり、品質の向上が期待できる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Tính nhất quán nội bộ trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "内部一貫性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tính nhất quán nội bộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部一貫性",
+          "english": "Internal Consistency",
+          "vi": "Tính nhất quán nội bộ",
+          "definitionJa": "ソフトウェアのコードやテスト結果において、各部分が互いに矛盾なく整合していることを指す。具体的には、同じ機能を持つ部分やモジュールが同じ原則に基づいて設計され、動作することで全体の信頼性が高まる。この特性は、コードの可読性や保守性を向上させるだけでなく、バグが発生しにくい環境を築くためにも重要である。例えば、同じアルゴリズムを異なるモジュールで使用する際に、異なるロジックや命名規則を避けることが、内部一貫性を保つための一つの手法である。これにより、テスト結果も一貫したものになり、品質の向上が期待できる。",
+          "definitionVi": "Tính nhất quán nội bộ: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "ないぶいっかんせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "internal-consistency"
+      ]
+    },
+    {
+      "id": "test-coverage",
+      "order": 11,
+      "titleJa": "テスト網羅性",
+      "titleVi": "Độ bao phủ kiểm thử",
+      "importance": "high",
+      "summaryJa": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。",
+      "summaryVi": "Độ bao phủ kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト網羅性とは",
+          "vi": "Độ bao phủ kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。具体的には、テストで実行されたコードの行数や条件の割合を測定することで、未テストの部分を特定し、潜在的なバグを早期に発見する手助けとなる。例えば、80%のテスト網羅性を誇るソフトウェアであれば、全体のコードの80%がテストされていることを意味する。しかし、網羅性が高いからといって必ずしも高品質なソフトウェアであるとは限らず、テストの質やテストケースの選定も重要である。これにより、テストの効率性や有効性を向上させることが可能になる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Độ bao phủ kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト網羅性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Độ bao phủ kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト網羅性",
+          "english": "Test Coverage",
+          "vi": "Độ bao phủ kiểm thử",
+          "definitionJa": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。具体的には、テストで実行されたコードの行数や条件の割合を測定することで、未テストの部分を特定し、潜在的なバグを早期に発見する手助けとなる。例えば、80%のテスト網羅性を誇るソフトウェアであれば、全体のコードの80%がテストされていることを意味する。しかし、網羅性が高いからといって必ずしも高品質なソフトウェアであるとは限らず、テストの質やテストケースの選定も重要である。これにより、テストの効率性や有効性を向上させることが可能になる。",
+          "definitionVi": "Độ bao phủ kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすともうらせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-coverage"
+      ]
+    },
+    {
+      "id": "suitability-of-coding-methods-and-work-standards",
+      "order": 12,
+      "titleJa": "コーディング方法及び作業標準の適切性",
+      "titleVi": "Suitability of Coding Methods and Work Standards",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発において、プログラムを書く手法や作業過程が適切であるかを評価する基準である。",
+      "summaryVi": "Suitability of Coding Methods and Work Standards: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーディング方法及び作業標準の適切性とは",
+          "vi": "Suitability of Coding Methods and Work Standards là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、プログラムを書く手法や作業過程が適切であるかを評価する基準である。この適切性が確保されることで、ソフトウェアの品質向上や効率的なテストが可能となる。たとえば、特定のコーディングスタイルを維持することや、作業手順を文書化してチーム内で共有することが重要である。これにより、コードの一貫性が保たれ、他の開発者が理解しやすくなる。また、同じ設定や手順でテストを行うことで、結果に信頼性が増し、不具合の発見が容易になる。このように、適切なコーディング方法や作業標準は、効率的かつ効果的なソフトウェア開発には欠かせない要素である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Suitability of Coding Methods and Work Standards trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コーディング方法及び作業標準の適切性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Suitability of Coding Methods and Work Standards."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーディング方法及び作業標準の適切性",
+          "english": "Suitability of Coding Methods and Work Standards",
+          "vi": "Suitability of Coding Methods and Work Standards",
+          "definitionJa": "ソフトウェア開発において、プログラムを書く手法や作業過程が適切であるかを評価する基準である。この適切性が確保されることで、ソフトウェアの品質向上や効率的なテストが可能となる。たとえば、特定のコーディングスタイルを維持することや、作業手順を文書化してチーム内で共有することが重要である。これにより、コードの一貫性が保たれ、他の開発者が理解しやすくなる。また、同じ設定や手順でテストを行うことで、結果に信頼性が増し、不具合の発見が容易になる。このように、適切なコーディング方法や作業標準は、効率的かつ効果的なソフトウェア開発には欠かせない要素である。",
+          "definitionVi": "Suitability of Coding Methods and Work Standards: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "こーでぃんぐほうほうおよびさぎょうひょうじゅんのてきせつせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "suitability-of-coding-methods-and-work-standards"
+      ]
+    },
+    {
+      "id": "software-integration-and-test-feasibility",
+      "order": 13,
+      "titleJa": "ソフトウェア統合及びテストの実現可能性",
+      "titleVi": "Software Integration and Test Feasibility",
+      "importance": "medium",
+      "summaryJa": "異なるソフトウェア部品を組み合わせ、それを効果的にテストするための条件や可否を評価するプロセスである。",
+      "summaryVi": "Software Integration and Test Feasibility: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア統合及びテストの実現可能性とは",
+          "vi": "Software Integration and Test Feasibility là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるソフトウェア部品を組み合わせ、それを効果的にテストするための条件や可否を評価するプロセスである。このプロセスでは、各部品が正しく連携できるかどうか、また、全体として機能するかを確認するための計画が重要である。たとえば、ユーザーインターフェースとデータベースのように異なるコンポーネントが統合される際、データの流れやエラー処理が正しく機能するかを検証することが求められる。また、この評価の結果は、ソフトウェア開発の最終段階での品質向上や納期遵守に直結し、信頼性の高いシステムを提供するために不可欠な要素である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Software Integration and Test Feasibility trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェア統合及びテストの実現可能性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Software Integration and Test Feasibility."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア統合及びテストの実現可能性",
+          "english": "Software Integration and Test Feasibility",
+          "vi": "Software Integration and Test Feasibility",
+          "definitionJa": "異なるソフトウェア部品を組み合わせ、それを効果的にテストするための条件や可否を評価するプロセスである。このプロセスでは、各部品が正しく連携できるかどうか、また、全体として機能するかを確認するための計画が重要である。たとえば、ユーザーインターフェースとデータベースのように異なるコンポーネントが統合される際、データの流れやエラー処理が正しく機能するかを検証することが求められる。また、この評価の結果は、ソフトウェア開発の最終段階での品質向上や納期遵守に直結し、信頼性の高いシステムを提供するために不可欠な要素である。",
+          "definitionVi": "Software Integration and Test Feasibility: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "そふとうぇあとうごうおよびてすとのじつげんかのうせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "software-integration-and-test-feasibility"
+      ]
+    },
+    {
+      "id": "feasibility-of-operation-and-maintenance",
+      "order": 14,
+      "titleJa": "運用及び保守の実現可能性",
+      "titleVi": "Feasibility of Operation and Maintenance",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムが正常に運用され、適切に保守されるための実現可能性を評価する基準である。",
+      "summaryVi": "Feasibility of Operation and Maintenance: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用及び保守の実現可能性とは",
+          "vi": "Feasibility of Operation and Maintenance là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムが正常に運用され、適切に保守されるための実現可能性を評価する基準である。主に、システムが稼働するために必要なリソースや環境、運用手順、及び保守方法が適切かどうかを検討する。この評価は、ソフトウェアの信頼性やパフォーマンスに直接関係し、開発段階から重要な要素とされる。例えば、あるシステムが使い続けられるためには、必要なサポートやアップデートが容易に行えることが求められる。このように、運用及び保守の実現可能性を適切に評価することは、ソフトウェア開発プロセスにおいて不可欠である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Feasibility of Operation and Maintenance trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "運用及び保守の実現可能性の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Feasibility of Operation and Maintenance."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用及び保守の実現可能性",
+          "english": "Feasibility of Operation and Maintenance",
+          "vi": "Feasibility of Operation and Maintenance",
+          "definitionJa": "ソフトウェアやシステムが正常に運用され、適切に保守されるための実現可能性を評価する基準である。主に、システムが稼働するために必要なリソースや環境、運用手順、及び保守方法が適切かどうかを検討する。この評価は、ソフトウェアの信頼性やパフォーマンスに直接関係し、開発段階から重要な要素とされる。例えば、あるシステムが使い続けられるためには、必要なサポートやアップデートが容易に行えることが求められる。このように、運用及び保守の実現可能性を適切に評価することは、ソフトウェア開発プロセスにおいて不可欠である。",
+          "definitionVi": "Feasibility of Operation and Maintenance: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "うんようおよびほしゅのじつげんかのうせい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "feasibility-of-operation-and-maintenance"
+      ]
+    },
+    {
+      "id": "indentation",
+      "order": 15,
+      "titleJa": "インデンテーション",
+      "titleVi": "Thụt lề",
+      "importance": "medium",
+      "summaryJa": "プログラミングや文書作成において、コードや文章の行を一定の空白やタブを使って左からずらすことを指す。",
+      "summaryVi": "Thụt lề: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インデンテーションとは",
+          "vi": "Thụt lề là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングや文書作成において、コードや文章の行を一定の空白やタブを使って左からずらすことを指す。これは、読みにくさを軽減し、構造を視覚的に明確にするための手法である。例えば、Python言語では、インデンテーションが文法において重要な役割を果たし、ブロック構造を示すために必須である。適切なインデンテーションを行うことで、コードの可読性が向上し、チームでの共同作業がスムーズになる。加えて、他のプログラミング言語でも、インデンテーションは最良のコーディング標準の一部として推奨されている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Thụt lề trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "インデンテーションの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Thụt lề."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インデンテーション",
+          "english": "Indentation",
+          "vi": "Thụt lề",
+          "definitionJa": "プログラミングや文書作成において、コードや文章の行を一定の空白やタブを使って左からずらすことを指す。これは、読みにくさを軽減し、構造を視覚的に明確にするための手法である。例えば、Python言語では、インデンテーションが文法において重要な役割を果たし、ブロック構造を示すために必須である。適切なインデンテーションを行うことで、コードの可読性が向上し、チームでの共同作業がスムーズになる。加えて、他のプログラミング言語でも、インデンテーションは最良のコーディング標準の一部として推奨されている。",
+          "definitionVi": "Thụt lề: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "indentation"
+      ]
+    },
+    {
+      "id": "nest",
+      "order": 16,
+      "titleJa": "ネスト",
+      "titleVi": "Lồng nhau",
+      "importance": "medium",
+      "summaryJa": "プログラムの中で、ある構造体や文が別の構造体や文の内部に組み込まれることを指す。",
+      "summaryVi": "Lồng nhau: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ネストとは",
+          "vi": "Lồng nhau là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの中で、ある構造体や文が別の構造体や文の内部に組み込まれることを指す。特に、条件分岐やループ、関数などが他の条件分岐やループの中に配置されることが多く、これにより複雑なロジックの表現が可能となる。例えば、if文の中にforループを持つ場合、そのforループは特定の条件が満たされたときのみ実行されるため、より柔軟なプログラムが作成できる。一方で、ネストが深くなると可読性が低下するため、適切なレベルで利用することが重要である。ロジックが簡潔で理解しやすい場合、デバッグや保守作業も容易になるため、プログラマはそのバランスを考慮に入れる必要がある。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Lồng nhau trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ネストの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lồng nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネスト",
+          "english": "Nest",
+          "vi": "Lồng nhau",
+          "definitionJa": "プログラムの中で、ある構造体や文が別の構造体や文の内部に組み込まれることを指す。特に、条件分岐やループ、関数などが他の条件分岐やループの中に配置されることが多く、これにより複雑なロジックの表現が可能となる。例えば、if文の中にforループを持つ場合、そのforループは特定の条件が満たされたときのみ実行されるため、より柔軟なプログラムが作成できる。一方で、ネストが深くなると可読性が低下するため、適切なレベルで利用することが重要である。ロジックが簡潔で理解しやすい場合、デバッグや保守作業も容易になるため、プログラマはそのバランスを考慮に入れる必要がある。",
+          "definitionVi": "Lồng nhau: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "nest"
+      ]
+    },
+    {
+      "id": "naming-convention",
+      "order": 17,
+      "titleJa": "命名規則",
+      "titleVi": "Quy tắc đặt tên",
+      "importance": "medium",
+      "summaryJa": "プログラミングやデータベース設計において、変数や関数、クラスなどの名前をつける際のルールである。",
+      "summaryVi": "Quy tắc đặt tên: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命名規則とは",
+          "vi": "Quy tắc đặt tên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングやデータベース設計において、変数や関数、クラスなどの名前をつける際のルールである。コードの可読性や保守性を高めるために重要であり、統一されたスタイルを持つことで、他の開発者が理解しやすくなる。例えば、キャメルケースやスネークケースといった名前付けのスタイルがあり、これに従うことで一貫性を持ったコードを書くことが可能である。さらに、命名規則はチーム内でのコミュニケーションを円滑にし、バグの発生を減少させる効果も期待できる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Quy tắc đặt tên trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "命名規則の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Quy tắc đặt tên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命名規則",
+          "english": "Naming Convention",
+          "vi": "Quy tắc đặt tên",
+          "definitionJa": "プログラミングやデータベース設計において、変数や関数、クラスなどの名前をつける際のルールである。コードの可読性や保守性を高めるために重要であり、統一されたスタイルを持つことで、他の開発者が理解しやすくなる。例えば、キャメルケースやスネークケースといった名前付けのスタイルがあり、これに従うことで一貫性を持ったコードを書くことが可能である。さらに、命名規則はチーム内でのコミュニケーションを円滑にし、バグの発生を減少させる効果も期待できる。",
+          "definitionVi": "Quy tắc đặt tên: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "めいめいきそく"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "naming-convention"
+      ]
+    },
+    {
+      "id": "use-forbidden-directive",
+      "order": 18,
+      "titleJa": "使用禁止命令",
+      "titleVi": "Use-Forbidden Directive",
+      "importance": "medium",
+      "summaryJa": "特定のコーディング規則やスタイルにおいて、使用してはいけない構文や機能を明示するための指示である。",
+      "summaryVi": "Use-Forbidden Directive: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "使用禁止命令とは",
+          "vi": "Use-Forbidden Directive là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のコーディング規則やスタイルにおいて、使用してはいけない構文や機能を明示するための指示である。これは、コードの可読性や保守性を向上させることを目的としている。たとえば、特定のプログラミング言語では、非推奨の関数や古いライブラリの使用を避けるように検査する場合に、この命令が用いられる。これにより、開発者が新たな技術を導入する際や、既存のシステムを修正する際に無駄なエラーを未然に防ぐことができる。プロジェクト全体の品質を確保するための重要なガイドラインとなっている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Use-Forbidden Directive trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "使用禁止命令の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Use-Forbidden Directive."
+        }
+      ],
+      "terms": [
+        {
+          "term": "使用禁止命令",
+          "english": "Use-Forbidden Directive",
+          "vi": "Use-Forbidden Directive",
+          "definitionJa": "特定のコーディング規則やスタイルにおいて、使用してはいけない構文や機能を明示するための指示である。これは、コードの可読性や保守性を向上させることを目的としている。たとえば、特定のプログラミング言語では、非推奨の関数や古いライブラリの使用を避けるように検査する場合に、この命令が用いられる。これにより、開発者が新たな技術を導入する際や、既存のシステムを修正する際に無駄なエラーを未然に防ぐことができる。プロジェクト全体の品質を確保するための重要なガイドラインとなっている。",
+          "definitionVi": "Use-Forbidden Directive: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "しようきんしめいれい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "use-forbidden-directive"
+      ]
+    },
+    {
+      "id": "code-completion",
+      "order": 19,
+      "titleJa": "コード補完",
+      "titleVi": "Hoàn thành mã tự động",
+      "importance": "medium",
+      "summaryJa": "プログラミングの際に必要なコードやコマンドを自動的に提案してくれる機能である。",
+      "summaryVi": "Hoàn thành mã tự động: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コード補完とは",
+          "vi": "Hoàn thành mã tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングの際に必要なコードやコマンドを自動的に提案してくれる機能である。これにより、開発者はタイピングの手間を減らすとともに、正確な文法を保ちながらコーディングを行うことができる。例えば、プログラミング言語の予約語や関数名を入力する際、数文字を入力するだけで候補が表示され、選択することで簡単にコードを補うことができる。また、エラーを防ぎ、プログラミングの効率を大幅に向上させる役割も果たす。 Visual Studio CodeやIntelliJ IDEAなどの多くの統合開発環境（IDE）では、この機能が標準で搭載されており、開発者にとって非常に便利なツールとなっている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Hoàn thành mã tự động trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コード補完の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Hoàn thành mã tự động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コード補完",
+          "english": "Code Completion",
+          "vi": "Hoàn thành mã tự động",
+          "definitionJa": "プログラミングの際に必要なコードやコマンドを自動的に提案してくれる機能である。これにより、開発者はタイピングの手間を減らすとともに、正確な文法を保ちながらコーディングを行うことができる。例えば、プログラミング言語の予約語や関数名を入力する際、数文字を入力するだけで候補が表示され、選択することで簡単にコードを補うことができる。また、エラーを防ぎ、プログラミングの効率を大幅に向上させる役割も果たす。 Visual Studio CodeやIntelliJ IDEAなどの多くの統合開発環境（IDE）では、この機能が標準で搭載されており、開発者にとって非常に便利なツールとなっている。",
+          "definitionVi": "Hoàn thành mã tự động: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "こーどほかん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "code-completion"
+      ]
+    },
+    {
+      "id": "auto-indent",
+      "order": 20,
+      "titleJa": "オートインデント",
+      "titleVi": "Tự động thụt lề",
+      "importance": "medium",
+      "summaryJa": "プログラミングやコーディングの際に、自動的に行のインデント（字下げ）を調整する機能である。",
+      "summaryVi": "Tự động thụt lề: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オートインデントとは",
+          "vi": "Tự động thụt lề là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラミングやコーディングの際に、自動的に行のインデント（字下げ）を調整する機能である。この機能は、コードの可読性を高め、構造を明確にすることを目的としている。例えば、条件文やループの開始位置に応じて、次の行が自動で適切に字下げされるため、開発者はコードの整形を手動で行う必要がなくなる。特に長いコードや複雑なロジックを扱う際には、オートインデントによって一貫した見た目を保つことができ、エラーの発見が容易になる。また、ほとんどの現代的な統合開発環境（IDE）やエディタに搭載されているため、広く利用されている機能である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Tự động thụt lề trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "オートインデントの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tự động thụt lề."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オートインデント",
+          "english": "Auto Indent",
+          "vi": "Tự động thụt lề",
+          "definitionJa": "プログラミングやコーディングの際に、自動的に行のインデント（字下げ）を調整する機能である。この機能は、コードの可読性を高め、構造を明確にすることを目的としている。例えば、条件文やループの開始位置に応じて、次の行が自動で適切に字下げされるため、開発者はコードの整形を手動で行う必要がなくなる。特に長いコードや複雑なロジックを扱う際には、オートインデントによって一貫した見た目を保つことができ、エラーの発見が容易になる。また、ほとんどの現代的な統合開発環境（IDE）やエディタに搭載されているため、広く利用されている機能である。",
+          "definitionVi": "Tự động thụt lề: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "auto-indent"
+      ]
+    },
+    {
+      "id": "code-editor",
+      "order": 21,
+      "titleJa": "コードオーディター",
+      "titleVi": "Trình soạn thảo mã",
+      "importance": "medium",
+      "summaryJa": "プログラムのコードを記述・編集するためのソフトウェアである。",
+      "summaryVi": "Trình soạn thảo mã: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コードオーディターとは",
+          "vi": "Trình soạn thảo mã là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムのコードを記述・編集するためのソフトウェアである。主に開発者が使用し、効率良くコーディングを行うためにさまざまな機能が備わっている。例えば、文法のチェックや自動補完機能、コードの色分けといった機能があり、これによりエラーの発見や理解が容易になる。また、デバッグ機能を利用することで、プログラムの動作を確認しやすくなり、開発作業がスムーズに進む。多くの拡張機能を追加することが可能であり、使用する言語やプロジェクトのニーズに応じてカスタマイズできる点も魅力である。このようなツールは、プログラミングの学習や実践において非常に重要な役割を果たしている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Trình soạn thảo mã trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コードオーディターの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Trình soạn thảo mã."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コードオーディター",
+          "english": "Code Editor",
+          "vi": "Trình soạn thảo mã",
+          "definitionJa": "プログラムのコードを記述・編集するためのソフトウェアである。主に開発者が使用し、効率良くコーディングを行うためにさまざまな機能が備わっている。例えば、文法のチェックや自動補完機能、コードの色分けといった機能があり、これによりエラーの発見や理解が容易になる。また、デバッグ機能を利用することで、プログラムの動作を確認しやすくなり、開発作業がスムーズに進む。多くの拡張機能を追加することが可能であり、使用する言語やプロジェクトのニーズに応じてカスタマイズできる点も魅力である。このようなツールは、プログラミングの学習や実践において非常に重要な役割を果たしている。",
+          "definitionVi": "Trình soạn thảo mã: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "code-editor"
+      ]
+    },
+    {
+      "id": "syntax-highlighting",
+      "order": 22,
+      "titleJa": "シンタックスハイライト",
+      "titleVi": "Tô sáng cú pháp",
+      "importance": "medium",
+      "summaryJa": "プログラムのソースコードを視覚的に区別するために、特定の構文要素に色を付ける手法である。",
+      "summaryVi": "Tô sáng cú pháp: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シンタックスハイライトとは",
+          "vi": "Tô sáng cú pháp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムのソースコードを視覚的に区別するために、特定の構文要素に色を付ける手法である。この技術を利用すると、キーワード、変数名、コメントなどが異なる色やスタイルで表示され、コードの読みやすさが向上する。例えば、PythonやJavaScriptのエディタでは、関数名は青、文字列は緑などに色分けされることが多い。これにより、プログラマーはコードの構造を素早く把握しやすくなり、エラーの発見も容易になるため、コーディング作業の効率を大幅に向上させることができる。さまざまなプログラミング環境やテキストエディタにおいて、しんたっくすはいらいは基本的な機能として実装されている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Tô sáng cú pháp trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "シンタックスハイライトの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tô sáng cú pháp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シンタックスハイライト",
+          "english": "Syntax Highlighting",
+          "vi": "Tô sáng cú pháp",
+          "definitionJa": "プログラムのソースコードを視覚的に区別するために、特定の構文要素に色を付ける手法である。この技術を利用すると、キーワード、変数名、コメントなどが異なる色やスタイルで表示され、コードの読みやすさが向上する。例えば、PythonやJavaScriptのエディタでは、関数名は青、文字列は緑などに色分けされることが多い。これにより、プログラマーはコードの構造を素早く把握しやすくなり、エラーの発見も容易になるため、コーディング作業の効率を大幅に向上させることができる。さまざまなプログラミング環境やテキストエディタにおいて、しんたっくすはいらいは基本的な機能として実装されている。",
+          "definitionVi": "Tô sáng cú pháp: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "syntax-highlighting"
+      ]
+    },
+    {
+      "id": "breakpoint",
+      "order": 23,
+      "titleJa": "ブレークポイント",
+      "titleVi": "Điểm dừng",
+      "importance": "medium",
+      "summaryJa": "プログラムの実行中に特定の行で処理を一時停止させるための目印である。",
+      "summaryVi": "Điểm dừng: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ブレークポイントとは",
+          "vi": "Điểm dừng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの実行中に特定の行で処理を一時停止させるための目印である。この手法は主にデバッグ作業に使用され、プログラマーがコードの実行状況を確認し、問題を特定するのに役立つ。例えば、あるプログラム内の変数の値を確認したい場合、その変数が使われている行にブレークポイントを設定し、プログラムを実行することで、特定の状態を調査できる。これにより、エラーやバグの原因を効率的に見つけることができ、プログラムの品質向上に寄与する。デバッグツールでは、ブレークポイントを簡単に設定、解除することが可能で、開発者にとって非常に便利な機能である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Điểm dừng trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ブレークポイントの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Điểm dừng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ブレークポイント",
+          "english": "Breakpoint",
+          "vi": "Điểm dừng",
+          "definitionJa": "プログラムの実行中に特定の行で処理を一時停止させるための目印である。この手法は主にデバッグ作業に使用され、プログラマーがコードの実行状況を確認し、問題を特定するのに役立つ。例えば、あるプログラム内の変数の値を確認したい場合、その変数が使われている行にブレークポイントを設定し、プログラムを実行することで、特定の状態を調査できる。これにより、エラーやバグの原因を効率的に見つけることができ、プログラムの品質向上に寄与する。デバッグツールでは、ブレークポイントを簡単に設定、解除することが可能で、開発者にとって非常に便利な機能である。",
+          "definitionVi": "Điểm dừng: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "breakpoint"
+      ]
+    },
+    {
+      "id": "measurement-metrics",
+      "order": 24,
+      "titleJa": "メトリクス計測",
+      "titleVi": "Đo lường chỉ số",
+      "importance": "medium",
+      "summaryJa": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。",
+      "summaryVi": "Đo lường chỉ số: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メトリクス計測とは",
+          "vi": "Đo lường chỉ số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。これにより、コードの品質やチームの生産性を定量的に把握できる。たとえば、コードレビューの過程では、メトリクス計測を使用してバグの発生率やコードの複雑さを分析し、改善点を特定することが可能となる。また、メトリクスにはさまざまな種類があり、例えば行数、関数の再利用率、テストカバレッジなどが挙げられる。これらは、プロジェクトの進捗や健全性を評価するための重要なデータを提供し、開発チームが効率的に改善を進める基盤となっている。このように、質の高いソフトウェア開発を促進するために不可欠な手法である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Đo lường chỉ số trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "メトリクス計測の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Đo lường chỉ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メトリクス計測",
+          "english": "Measurement Metrics",
+          "vi": "Đo lường chỉ số",
+          "definitionJa": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。これにより、コードの品質やチームの生産性を定量的に把握できる。たとえば、コードレビューの過程では、メトリクス計測を使用してバグの発生率やコードの複雑さを分析し、改善点を特定することが可能となる。また、メトリクスにはさまざまな種類があり、例えば行数、関数の再利用率、テストカバレッジなどが挙げられる。これらは、プロジェクトの進捗や健全性を評価するための重要なデータを提供し、開発チームが効率的に改善を進める基盤となっている。このように、質の高いソフトウェア開発を促進するために不可欠な手法である。",
+          "definitionVi": "Đo lường chỉ số: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "めとりくすけいそく"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "measurement-metrics"
+      ]
+    },
+    {
+      "id": "code-inspection",
+      "order": 25,
+      "titleJa": "コードインスペクション",
+      "titleVi": "Kiểm tra mã nguồn",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発におけるコードレビューの一手法である。",
+      "summaryVi": "Kiểm tra mã nguồn: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コードインスペクションとは",
+          "vi": "Kiểm tra mã nguồn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるコードレビューの一手法である。具体的には、開発者が書いたコードを他の開発者がチェックして、誤りや改善点を見つけるプロセスを指す。この手法では、コードの品質を向上させるために、特定の基準に基づいて、構文の正確さや設計の適切さ、パフォーマンスの最適化などが評価される。単なるバグ検出だけでなく、開発チーム全体の知識共有やベストプラクティスの確認にも寄与するため、プロジェクトの成功に非常に重要な役割を果たす。これにより、最終的なソフトウェアの信頼性とメンテナンス性が向上する。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Kiểm tra mã nguồn trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "コードインスペクションの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm tra mã nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コードインスペクション",
+          "english": "Code Inspection",
+          "vi": "Kiểm tra mã nguồn",
+          "definitionJa": "ソフトウェア開発におけるコードレビューの一手法である。具体的には、開発者が書いたコードを他の開発者がチェックして、誤りや改善点を見つけるプロセスを指す。この手法では、コードの品質を向上させるために、特定の基準に基づいて、構文の正確さや設計の適切さ、パフォーマンスの最適化などが評価される。単なるバグ検出だけでなく、開発チーム全体の知識共有やベストプラクティスの確認にも寄与するため、プロジェクトの成功に非常に重要な役割を果たす。これにより、最終的なソフトウェアの信頼性とメンテナンス性が向上する。",
+          "definitionVi": "Kiểm tra mã nguồn: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "code-inspection"
+      ]
+    },
+    {
+      "id": "peer-code-review",
+      "order": 26,
+      "titleJa": "ピアコードレビュー",
+      "titleVi": "Đánh giá mã ngang hàng",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発において、同僚や仲間の開発者が他の開発者のコードを評価し、改善点を見つけるプロセスのことである。",
+      "summaryVi": "Đánh giá mã ngang hàng: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ピアコードレビューとは",
+          "vi": "Đánh giá mã ngang hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、同僚や仲間の開発者が他の開発者のコードを評価し、改善点を見つけるプロセスのことである。この方法では、コードが実装された後に、複数の目で確認されることにより、バグの発見や品質の向上が促進される。例えば、新機能の実装後、他のチームメンバーがそのコードをレビューし、理解しやすさや効率などの観点からフィードバックを提供する。これにより、コードの品質が向上するだけでなく、ナレッジシェアやチームメンバー間のコミュニケーションも強化される。敏捷な開発手法や継続的インテグレーションにおいて重要な役割を果たす。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Đánh giá mã ngang hàng trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ピアコードレビューの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Đánh giá mã ngang hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ピアコードレビュー",
+          "english": "Peer Code Review",
+          "vi": "Đánh giá mã ngang hàng",
+          "definitionJa": "ソフトウェア開発において、同僚や仲間の開発者が他の開発者のコードを評価し、改善点を見つけるプロセスのことである。この方法では、コードが実装された後に、複数の目で確認されることにより、バグの発見や品質の向上が促進される。例えば、新機能の実装後、他のチームメンバーがそのコードをレビューし、理解しやすさや効率などの観点からフィードバックを提供する。これにより、コードの品質が向上するだけでなく、ナレッジシェアやチームメンバー間のコミュニケーションも強化される。敏捷な開発手法や継続的インテグレーションにおいて重要な役割を果たす。",
+          "definitionVi": "Đánh giá mã ngang hàng: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "peer-code-review"
+      ]
+    },
+    {
+      "id": "walkthrough",
+      "order": 27,
+      "titleJa": "ウォークスルー",
+      "titleVi": "Walkthrough",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発におけるコードレビューの手法の一つである。",
+      "summaryVi": "Walkthrough: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ウォークスルーとは",
+          "vi": "Walkthrough là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるコードレビューの手法の一つである。開発者が自ら作成したコードを他のメンバーに見せながら、解説やデモを行い、意見やフィードバックをもらうプロセスである。この方法により、コードの理解を深めたり、バグや改善点を早期に発見することができる。具体的には、チームメンバーとのコミュニケーションを強化し、知識の共有を促すためにも使われ、より高品質なソフトウェアの開発を目指す際に非常に効果的である。このアプローチは、特に新しいメンバーがチームに加わった際に、そのプロジェクトの理解を助け、高いパフォーマンスを引き出すのに役立つ。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Walkthrough trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ウォークスルーの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Walkthrough."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウォークスルー",
+          "english": "Walkthrough",
+          "vi": "Walkthrough",
+          "definitionJa": "ソフトウェア開発におけるコードレビューの手法の一つである。開発者が自ら作成したコードを他のメンバーに見せながら、解説やデモを行い、意見やフィードバックをもらうプロセスである。この方法により、コードの理解を深めたり、バグや改善点を早期に発見することができる。具体的には、チームメンバーとのコミュニケーションを強化し、知識の共有を促すためにも使われ、より高品質なソフトウェアの開発を目指す際に非常に効果的である。このアプローチは、特に新しいメンバーがチームに加わった際に、そのプロジェクトの理解を助け、高いパフォーマンスを引き出すのに役立つ。",
+          "definitionVi": "Walkthrough: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "walkthrough"
+      ]
+    },
+    {
+      "id": "cyclomatic-complexity",
+      "order": 28,
+      "titleJa": "サイクロマティック複雑度",
+      "titleVi": "Độ phức tạp Cyclomatic",
+      "importance": "high",
+      "summaryJa": "プログラムのコードの複雑さを測定する指標である。",
+      "summaryVi": "Độ phức tạp Cyclomatic: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイクロマティック複雑度とは",
+          "vi": "Độ phức tạp Cyclomatic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムのコードの複雑さを測定する指標である。主に制御フローグラフを用いて、プログラム内の独立した実行パスの数を数えることで算出される。この値が高いほど、コードの理解やテストが難しくなることを意味し、保守性にも影響を与える。具体的には、条件分岐やループの多さが関連するため、テストケースの数やエラーの発生率にも関与する。サイクロマティック複雑度を利用することで、開発者はコードの可読性や安定性を向上させるための手助けを得られ、より質の高いソフトウェアの開発が実現できる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Độ phức tạp Cyclomatic trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "サイクロマティック複雑度の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Độ phức tạp Cyclomatic."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイクロマティック複雑度",
+          "english": "Cyclomatic Complexity",
+          "vi": "Độ phức tạp Cyclomatic",
+          "definitionJa": "プログラムのコードの複雑さを測定する指標である。主に制御フローグラフを用いて、プログラム内の独立した実行パスの数を数えることで算出される。この値が高いほど、コードの理解やテストが難しくなることを意味し、保守性にも影響を与える。具体的には、条件分岐やループの多さが関連するため、テストケースの数やエラーの発生率にも関与する。サイクロマティック複雑度を利用することで、開発者はコードの可読性や安定性を向上させるための手助けを得られ、より質の高いソフトウェアの開発が実現できる。",
+          "definitionVi": "Độ phức tạp Cyclomatic: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "さいくろまてぃっくふくざつど"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "cyclomatic-complexity"
+      ]
+    },
+    {
+      "id": "debugging-environment",
+      "order": 29,
+      "titleJa": "デバッグ環境",
+      "titleVi": "Môi trường gỡ lỗi",
+      "importance": "medium",
+      "summaryJa": "プログラムのバグを発見し修正するために用意された特別な環境のことである。",
+      "summaryVi": "Môi trường gỡ lỗi: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デバッグ環境とは",
+          "vi": "Môi trường gỡ lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムのバグを発見し修正するために用意された特別な環境のことである。この環境では、開発者がソースコードを実行しながら、変数の値を確認したり、プログラムの動きを追跡したりすることができる。例えば、開発中のアプリケーションに問題が発生した際、デバッグ環境を利用して特定の行でプログラムを一時停止し、エラーの原因を調査することが可能である。多くの統合開発環境（IDE）には、デバッグ機能が組み込まれており、ブレークポイントを設定する機能や、ステップ実行と呼ばれる手法を使ってプログラムをひとつずつ実行することができる。これにより、コードのロジックを詳細に分析し、効果的な修正を行うことが期待される。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Môi trường gỡ lỗi trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "デバッグ環境の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Môi trường gỡ lỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デバッグ環境",
+          "english": "Debugging Environment",
+          "vi": "Môi trường gỡ lỗi",
+          "definitionJa": "プログラムのバグを発見し修正するために用意された特別な環境のことである。この環境では、開発者がソースコードを実行しながら、変数の値を確認したり、プログラムの動きを追跡したりすることができる。例えば、開発中のアプリケーションに問題が発生した際、デバッグ環境を利用して特定の行でプログラムを一時停止し、エラーの原因を調査することが可能である。多くの統合開発環境（IDE）には、デバッグ機能が組み込まれており、ブレークポイントを設定する機能や、ステップ実行と呼ばれる手法を使ってプログラムをひとつずつ実行することができる。これにより、コードのロジックを詳細に分析し、効果的な修正を行うことが期待される。",
+          "definitionVi": "Môi trường gỡ lỗi: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "でばっぐかんきょう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "debugging-environment"
+      ]
+    },
+    {
+      "id": "static-analysis",
+      "order": 30,
+      "titleJa": "静的解析",
+      "titleVi": "Phân tích tĩnh",
+      "importance": "high",
+      "summaryJa": "プログラムのコードを実行せずに分析する手法である。",
+      "summaryVi": "Phân tích tĩnh: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "静的解析とは",
+          "vi": "Phân tích tĩnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムのコードを実行せずに分析する手法である。この技術は、ソフトウェアのバグやセキュリティの脆弱性を事前に検出するために利用される。例えば、コードの構文や論理の誤りをチェックすることができるため、開発段階で問題を早期に発見し、修正することが可能になる。単体テストや統合テストといった動的解析の前に行われることが多く、開発者にとって重要なツールである。また、一般に静的解析ツールが用いられ、自動化された手法で効率的にコードの品質を向上させることが期待される。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phân tích tĩnh trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "静的解析の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân tích tĩnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "静的解析",
+          "english": "Static Analysis",
+          "vi": "Phân tích tĩnh",
+          "definitionJa": "プログラムのコードを実行せずに分析する手法である。この技術は、ソフトウェアのバグやセキュリティの脆弱性を事前に検出するために利用される。例えば、コードの構文や論理の誤りをチェックすることができるため、開発段階で問題を早期に発見し、修正することが可能になる。単体テストや統合テストといった動的解析の前に行われることが多く、開発者にとって重要なツールである。また、一般に静的解析ツールが用いられ、自動化された手法で効率的にコードの品質を向上させることが期待される。",
+          "definitionVi": "Phân tích tĩnh: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "せいてきかいせき"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "static-analysis"
+      ]
+    },
+    {
+      "id": "dynamic-testing",
+      "order": 31,
+      "titleJa": "動的テスト",
+      "titleVi": "Kiểm thử động",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの動作を実際に実行して検証するテスト手法である。",
+      "summaryVi": "Kiểm thử động: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "動的テストとは",
+          "vi": "Kiểm thử động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの動作を実際に実行して検証するテスト手法である。この方法は、プログラムの実行中に発生するエラーや不具合を特定するために用いられ、コードが想定通りに動作するかどうかを確認する。たとえば、ユーザーが入力したデータに対する処理が正しく行われるかをテストすることが含まれる。主に実行環境での振る舞いを確認するために使用され、さまざまなテストケースを実行することで、異常な動作やエラーを発見する。これに対して、動的テストは静的コード解析などと組み合わせて行われることが多く、全体的なソフトウェアの品質向上に寄与する。特にユーザーの視点で確認する必要がある場面で、有効な手段となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Kiểm thử động trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "動的テストの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "動的テスト",
+          "english": "Dynamic Testing",
+          "vi": "Kiểm thử động",
+          "definitionJa": "ソフトウェアの動作を実際に実行して検証するテスト手法である。この方法は、プログラムの実行中に発生するエラーや不具合を特定するために用いられ、コードが想定通りに動作するかどうかを確認する。たとえば、ユーザーが入力したデータに対する処理が正しく行われるかをテストすることが含まれる。主に実行環境での振る舞いを確認するために使用され、さまざまなテストケースを実行することで、異常な動作やエラーを発見する。これに対して、動的テストは静的コード解析などと組み合わせて行われることが多く、全体的なソフトウェアの品質向上に寄与する。特にユーザーの視点で確認する必要がある場面で、有効な手段となる。",
+          "definitionVi": "Kiểm thử động: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "どうてきてすと"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "dynamic-testing"
+      ]
+    },
+    {
+      "id": "assertion",
+      "order": 32,
+      "titleJa": "アサーション",
+      "titleVi": "Assertion",
+      "importance": "medium",
+      "summaryJa": "プログラムの特定の条件が成り立つことを確認するための文である。",
+      "summaryVi": "Assertion: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アサーションとは",
+          "vi": "Assertion là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの特定の条件が成り立つことを確認するための文である。主にデバッグの際に使用され、プログラムの実行中に想定された状態が正しいかどうかを検証する役割を果たす。具体的には、ある条件が真であるべき時にその条件がfalseになるとエラーを発生させ、プログラマに知らせることで、潜在的なバグを早期に発見する助けとなる。例えば、配列のインデックスが有効範囲内であるかを確認するアサーションを入れることで、範囲外アクセスのエラーを未然に防ぐことができる。このように、アサーションはプログラムの健全性を保つために重要な手段となっている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Assertion trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "アサーションの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Assertion."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アサーション",
+          "english": "Assertion",
+          "vi": "Assertion",
+          "definitionJa": "プログラムの特定の条件が成り立つことを確認するための文である。主にデバッグの際に使用され、プログラムの実行中に想定された状態が正しいかどうかを検証する役割を果たす。具体的には、ある条件が真であるべき時にその条件がfalseになるとエラーを発生させ、プログラマに知らせることで、潜在的なバグを早期に発見する助けとなる。例えば、配列のインデックスが有効範囲内であるかを確認するアサーションを入れることで、範囲外アクセスのエラーを未然に防ぐことができる。このように、アサーションはプログラムの健全性を保つために重要な手段となっている。",
+          "definitionVi": "Assertion: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "assertion"
+      ]
+    },
+    {
+      "id": "debugger",
+      "order": 33,
+      "titleJa": "デバッガ",
+      "titleVi": "Trình gỡ lỗi",
+      "importance": "medium",
+      "summaryJa": "プログラム内のバグを特定し修正するためのツールである。",
+      "summaryVi": "Trình gỡ lỗi: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デバッガとは",
+          "vi": "Trình gỡ lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラム内のバグを特定し修正するためのツールである。プログラミング中に発生するエラーや不具合を見つけるために使用され、開発者はデバッガを使ってプログラムの動作を逐一確認できる。具体的には、プログラムを一行ずつ実行したり、変数の値を監視したりすることが可能である。このようにして、プログラムの動作を詳細に分析し、問題の原因を特定する助けとなる。デバッガは多くのプログラミング環境に備わっており、効率的なソフトウェア開発に不可欠なツールである。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Trình gỡ lỗi trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "デバッガの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Trình gỡ lỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デバッガ",
+          "english": "Debugger",
+          "vi": "Trình gỡ lỗi",
+          "definitionJa": "プログラム内のバグを特定し修正するためのツールである。プログラミング中に発生するエラーや不具合を見つけるために使用され、開発者はデバッガを使ってプログラムの動作を逐一確認できる。具体的には、プログラムを一行ずつ実行したり、変数の値を監視したりすることが可能である。このようにして、プログラムの動作を詳細に分析し、問題の原因を特定する助けとなる。デバッガは多くのプログラミング環境に備わっており、効率的なソフトウェア開発に不可欠なツールである。",
+          "definitionVi": "Trình gỡ lỗi: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "debugger"
+      ]
+    },
+    {
+      "id": "tracer",
+      "order": 34,
+      "titleJa": "トレーサー",
+      "titleVi": "Trình theo vết",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発やデバッグの分野で使用されるツールや技術の一つである。",
+      "summaryVi": "Trình theo vết: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "トレーサーとは",
+          "vi": "Trình theo vết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発やデバッグの分野で使用されるツールや技術の一つである。主にプログラムが実行される過程を追跡し、どのように動作しているかを確認するために利用される。特定のコードの行や関数が実行された際にログを記録し、プログラムの実行フローや変数の状態を明らかにする。この情報をもとに、プログラミングエラーや性能の問題の原因を特定し、修正することが可能になる。たとえば、複雑なアルゴリズムやシステムのトラブルシューティングにおいて、トレーサーは欠かせないツールとして広く用いられている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Trình theo vết trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "トレーサーの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Trình theo vết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "トレーサー",
+          "english": "Tracer",
+          "vi": "Trình theo vết",
+          "definitionJa": "ソフトウェア開発やデバッグの分野で使用されるツールや技術の一つである。主にプログラムが実行される過程を追跡し、どのように動作しているかを確認するために利用される。特定のコードの行や関数が実行された際にログを記録し、プログラムの実行フローや変数の状態を明らかにする。この情報をもとに、プログラミングエラーや性能の問題の原因を特定し、修正することが可能になる。たとえば、複雑なアルゴリズムやシステムのトラブルシューティングにおいて、トレーサーは欠かせないツールとして広く用いられている。",
+          "definitionVi": "Trình theo vết: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "tracer"
+      ]
+    },
+    {
+      "id": "snapshot",
+      "order": 35,
+      "titleJa": "スナップショット",
+      "titleVi": "Ảnh chụp trạng thái",
+      "importance": "medium",
+      "summaryJa": "特定の時点でのデータやプログラムの状態を記録したものである。",
+      "summaryVi": "Ảnh chụp trạng thái: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スナップショットとは",
+          "vi": "Ảnh chụp trạng thái là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の時点でのデータやプログラムの状態を記録したものである。主に、システムの状態を瞬時に保存することで、後からその時点に戻ったり、問題が発生した際に状況を確認するために利用される。この技術は、デバッグのプロセスにおいて特に重要であり、プログラムのエラーを特定する手助けをする。例えば、ソフトウェアにバグが見つかった場合、スナップショットを使用してその時点のメモリ状況や変数の値を保存しておけば、プログラムの動作を詳細に分析しやすくなる。また、仮想マシンやデータベースなど、様々なシステムで応用され、多くの利点を提供する。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Ảnh chụp trạng thái trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "スナップショットの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ảnh chụp trạng thái."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スナップショット",
+          "english": "Snapshot",
+          "vi": "Ảnh chụp trạng thái",
+          "definitionJa": "特定の時点でのデータやプログラムの状態を記録したものである。主に、システムの状態を瞬時に保存することで、後からその時点に戻ったり、問題が発生した際に状況を確認するために利用される。この技術は、デバッグのプロセスにおいて特に重要であり、プログラムのエラーを特定する手助けをする。例えば、ソフトウェアにバグが見つかった場合、スナップショットを使用してその時点のメモリ状況や変数の値を保存しておけば、プログラムの動作を詳細に分析しやすくなる。また、仮想マシンやデータベースなど、様々なシステムで応用され、多くの利点を提供する。",
+          "definitionVi": "Ảnh chụp trạng thái: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "snapshot"
+      ]
+    },
+    {
+      "id": "failure",
+      "order": 36,
+      "titleJa": "障害",
+      "titleVi": "Sự cố",
+      "importance": "medium",
+      "summaryJa": "システムやソフトウェアが正常に動作しない状態を指す。",
+      "summaryVi": "Sự cố: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "障害とは",
+          "vi": "Sự cố là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやソフトウェアが正常に動作しない状態を指す。テストの目的においては、障害を早期に発見し、修正することが重要である。例えば、プログラムが意図した通りに機能せず、エラーメッセージを出す場合などが該当する。障害が発生すると、ユーザーはサービスを利用できず、ビジネスに悪影響を与える恐れがある。そのため、障害を予測し防ぐためのテストや、障害発生時に迅速に対処するための体制を整えることが、システムの信頼性を高める鍵となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Sự cố trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "障害の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Sự cố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "障害",
+          "english": "Failure",
+          "vi": "Sự cố",
+          "definitionJa": "システムやソフトウェアが正常に動作しない状態を指す。テストの目的においては、障害を早期に発見し、修正することが重要である。例えば、プログラムが意図した通りに機能せず、エラーメッセージを出す場合などが該当する。障害が発生すると、ユーザーはサービスを利用できず、ビジネスに悪影響を与える恐れがある。そのため、障害を予測し防ぐためのテストや、障害発生時に迅速に対処するための体制を整えることが、システムの信頼性を高める鍵となる。",
+          "definitionVi": "Sự cố: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "しょうがい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "failure"
+      ]
+    },
+    {
+      "id": "defect",
+      "order": 37,
+      "titleJa": "欠陥",
+      "titleVi": "Khiếm khuyết",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムにおいて期待される機能が正しく動作しない状態を指す。",
+      "summaryVi": "Khiếm khuyết: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "欠陥とは",
+          "vi": "Khiếm khuyết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムにおいて期待される機能が正しく動作しない状態を指す。具体的には、ソフトウェアがユーザーの要求を満たさない場合や、プログラムがエラーを引き起こすことが欠陥の一例である。テストの目的は、これらの欠陥を発見し修正することで、ソフトウェアの品質を向上させることにある。例えば、ユーザーがボタンをクリックした際に反応しないケースを挙げると、これは明らかに欠陥であり、テストによりそれを見つけることが求められる。欠陥を早期に特定することで、コストや時間の無駄を防ぎ、最終的にはユーザー満足度の向上につながる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Khiếm khuyết trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "欠陥の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Khiếm khuyết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "欠陥",
+          "english": "Defect",
+          "vi": "Khiếm khuyết",
+          "definitionJa": "ソフトウェアやシステムにおいて期待される機能が正しく動作しない状態を指す。具体的には、ソフトウェアがユーザーの要求を満たさない場合や、プログラムがエラーを引き起こすことが欠陥の一例である。テストの目的は、これらの欠陥を発見し修正することで、ソフトウェアの品質を向上させることにある。例えば、ユーザーがボタンをクリックした際に反応しないケースを挙げると、これは明らかに欠陥であり、テストによりそれを見つけることが求められる。欠陥を早期に特定することで、コストや時間の無駄を防ぎ、最終的にはユーザー満足度の向上につながる。",
+          "definitionVi": "Khiếm khuyết: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "けっかん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "defect"
+      ]
+    },
+    {
+      "id": "failure-analysis",
+      "order": 38,
+      "titleJa": "障害分析",
+      "titleVi": "Phân tích sự cố",
+      "importance": "medium",
+      "summaryJa": "システムや製品において発生した不具合や障害の原因を特定し、分析するプロセスである。",
+      "summaryVi": "Phân tích sự cố: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "障害分析とは",
+          "vi": "Phân tích sự cố là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムや製品において発生した不具合や障害の原因を特定し、分析するプロセスである。具体的には、問題がどのように発生したのか、何が原因となったのかを明らかにすることで、再発防止策を講じることを目的としている。例えば、ソフトウェアのバグが発見された場合、そのバグがどのコード部分に起因するかを調査し、適切な修正を行うことが求められる。この分析によって、単なる問題の修正にとどまらず、システム全体の品質向上や、将来的な障害を未然に防ぐための改善策が見出されるため、非常に重要な段階である。また、障害分析はテスト工程の一環として行われ、開発プロセスの全体的な信頼性を高める役割を果たす。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phân tích sự cố trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "障害分析の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân tích sự cố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "障害分析",
+          "english": "Failure Analysis",
+          "vi": "Phân tích sự cố",
+          "definitionJa": "システムや製品において発生した不具合や障害の原因を特定し、分析するプロセスである。具体的には、問題がどのように発生したのか、何が原因となったのかを明らかにすることで、再発防止策を講じることを目的としている。例えば、ソフトウェアのバグが発見された場合、そのバグがどのコード部分に起因するかを調査し、適切な修正を行うことが求められる。この分析によって、単なる問題の修正にとどまらず、システム全体の品質向上や、将来的な障害を未然に防ぐための改善策が見出されるため、非常に重要な段階である。また、障害分析はテスト工程の一環として行われ、開発プロセスの全体的な信頼性を高める役割を果たす。",
+          "definitionVi": "Phân tích sự cố: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "しょうがいぶんせき"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "failure-analysis"
+      ]
+    },
+    {
+      "id": "testing-methodology",
+      "order": 39,
+      "titleJa": "テスト方法論",
+      "titleVi": "Phương pháp luận kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムの品質を確保するために用いられる一連のテスト手法やプロセスを指す。",
+      "summaryVi": "Phương pháp luận kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト方法論とは",
+          "vi": "Phương pháp luận kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムの品質を確保するために用いられる一連のテスト手法やプロセスを指す。これは開発工程の中で、製品が仕様通りに機能しているか確認する目的で実施されるものであり、さまざまなテストの種類が含まれる。例えば、ユニットテストは個々の部品や機能を検証する手法であり、システムテストは全体の動作を確認する際に用いる。また、テストの実施には計画、設計、実行、結果の評価といったステップが含まれ、これにより不具合を早期に発見し、修正することが可能となる。テスト方法論を適切に適用することで、最終的な製品の信頼性が向上し、ユーザー満足度も高めることができる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phương pháp luận kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト方法論の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phương pháp luận kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト方法論",
+          "english": "Testing Methodology",
+          "vi": "Phương pháp luận kiểm thử",
+          "definitionJa": "ソフトウェアやシステムの品質を確保するために用いられる一連のテスト手法やプロセスを指す。これは開発工程の中で、製品が仕様通りに機能しているか確認する目的で実施されるものであり、さまざまなテストの種類が含まれる。例えば、ユニットテストは個々の部品や機能を検証する手法であり、システムテストは全体の動作を確認する際に用いる。また、テストの実施には計画、設計、実行、結果の評価といったステップが含まれ、これにより不具合を早期に発見し、修正することが可能となる。テスト方法論を適切に適用することで、最終的な製品の信頼性が向上し、ユーザー満足度も高めることができる。",
+          "definitionVi": "Phương pháp luận kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすとほうほうろん"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "testing-methodology"
+      ]
+    },
+    {
+      "id": "test-scope",
+      "order": 40,
+      "titleJa": "テスト範囲",
+      "titleVi": "Phạm vi kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムにおけるテストの対象や範囲を定義するものである。",
+      "summaryVi": "Phạm vi kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト範囲とは",
+          "vi": "Phạm vi kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムにおけるテストの対象や範囲を定義するものである。これは、どの機能や要件がテストされるべきかを明確にする役割を果たす。例えば、あるアプリケーションの新しい機能を導入する場合、その機能が正常に動作するかどうかを確認するためのテスト範囲には、機能の各部分、関連するユーザーインターフェース、または異常系のテストが含まれることがある。テスト範囲を適切に設定することで、リソースを効率的に使用し、重要な問題を早期に発見する助けとなる。これにより、品質向上やリリースの信頼性向上にも寄与する。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phạm vi kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト範囲の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phạm vi kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト範囲",
+          "english": "Test Scope",
+          "vi": "Phạm vi kiểm thử",
+          "definitionJa": "ソフトウェアやシステムにおけるテストの対象や範囲を定義するものである。これは、どの機能や要件がテストされるべきかを明確にする役割を果たす。例えば、あるアプリケーションの新しい機能を導入する場合、その機能が正常に動作するかどうかを確認するためのテスト範囲には、機能の各部分、関連するユーザーインターフェース、または異常系のテストが含まれることがある。テスト範囲を適切に設定することで、リソースを効率的に使用し、重要な問題を早期に発見する助けとなる。これにより、品質向上やリリースの信頼性向上にも寄与する。",
+          "definitionVi": "Phạm vi kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすとはんい"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-scope"
+      ]
+    },
+    {
+      "id": "test-preparation",
+      "order": 41,
+      "titleJa": "テスト準備",
+      "titleVi": "Chuẩn bị kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムのテストを行うために必要な環境やデータを整えるプロセスである。",
+      "summaryVi": "Chuẩn bị kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト準備とは",
+          "vi": "Chuẩn bị kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムのテストを行うために必要な環境やデータを整えるプロセスである。この段階では、テストを実施するための環境設定を行い、適切なテストデータを用意することが含まれる。具体的には、テスト環境では特定のソフトウェアやハードウェアの仕様が必要であり、これにより開発したシステムが実際の運用に如何に適応するかを確認することができる。また、テストデータはシステムの機能を評価するために非常に重要で、現実的なシナリオを模倣したデータを使うことで、より正確なテストが可能となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Chuẩn bị kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト準備の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Chuẩn bị kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト準備",
+          "english": "Test Preparation",
+          "vi": "Chuẩn bị kiểm thử",
+          "definitionJa": "ソフトウェアやシステムのテストを行うために必要な環境やデータを整えるプロセスである。この段階では、テストを実施するための環境設定を行い、適切なテストデータを用意することが含まれる。具体的には、テスト環境では特定のソフトウェアやハードウェアの仕様が必要であり、これにより開発したシステムが実際の運用に如何に適応するかを確認することができる。また、テストデータはシステムの機能を評価するために非常に重要で、現実的なシナリオを模倣したデータを使うことで、より正確なテストが可能となる。",
+          "definitionVi": "Chuẩn bị kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすとじゅんび"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-preparation"
+      ]
+    },
+    {
+      "id": "test-executor",
+      "order": 42,
+      "titleJa": "テスト実施者",
+      "titleVi": "Người thực hiện kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムのテストを実行し、結果を評価する役割を持つ人物である。",
+      "summaryVi": "Người thực hiện kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト実施者とは",
+          "vi": "Người thực hiện kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムのテストを実行し、結果を評価する役割を持つ人物である。テスト計画に基づいてテストケースを実行し、バグや不具合を見つけるための重要な役割を担う。たとえば、ソフトウェア開発のプロジェクトにおいて、テスト実施者は実際の操作を通じて機能が正しく動作しているかを確認し、その結果を開発チームにフィードバックする。これにより、製品の品質向上やリリース前のリスク低減に寄与する。テスト実施者の業務は、問題を早期に発見し、最終的なユーザーの満足度を高めるために不可欠である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Người thực hiện kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト実施者の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Người thực hiện kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト実施者",
+          "english": "Test Executor",
+          "vi": "Người thực hiện kiểm thử",
+          "definitionJa": "ソフトウェアやシステムのテストを実行し、結果を評価する役割を持つ人物である。テスト計画に基づいてテストケースを実行し、バグや不具合を見つけるための重要な役割を担う。たとえば、ソフトウェア開発のプロジェクトにおいて、テスト実施者は実際の操作を通じて機能が正しく動作しているかを確認し、その結果を開発チームにフィードバックする。これにより、製品の品質向上やリリース前のリスク低減に寄与する。テスト実施者の業務は、問題を早期に発見し、最終的なユーザーの満足度を高めるために不可欠である。",
+          "definitionVi": "Người thực hiện kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすとじっししゃ"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-executor"
+      ]
+    },
+    {
+      "id": "unit-test",
+      "order": 43,
+      "titleJa": "ユニットテスト",
+      "titleVi": "Kiểm thử đơn vị",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。",
+      "summaryVi": "Kiểm thử đơn vị: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユニットテストとは",
+          "vi": "Kiểm thử đơn vị là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。プログラムの機能を小さなブロックで確認することで、バグやエラーを早期に発見しやすくなる。このテストは、各ユニットが期待通りに動作するかどうかを確認するために自動化されることが多い。たとえば、特定の計算を行う関数が正しい結果を返すかどうかをテストすることがこの手法の一例である。また、ユニットテストを行うことで、コードの変更が他の部分に影響を与えていないかも確認することができ、品質を保つために非常に重要な工程となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Kiểm thử đơn vị trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ユニットテストの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử đơn vị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユニットテスト",
+          "english": "Unit Test",
+          "vi": "Kiểm thử đơn vị",
+          "definitionJa": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。プログラムの機能を小さなブロックで確認することで、バグやエラーを早期に発見しやすくなる。このテストは、各ユニットが期待通りに動作するかどうかを確認するために自動化されることが多い。たとえば、特定の計算を行う関数が正しい結果を返すかどうかをテストすることがこの手法の一例である。また、ユニットテストを行うことで、コードの変更が他の部分に影響を与えていないかも確認することができ、品質を保つために非常に重要な工程となる。",
+          "definitionVi": "Kiểm thử đơn vị: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "unit-test"
+      ]
+    },
+    {
+      "id": "driver",
+      "order": 44,
+      "titleJa": "ドライバ",
+      "titleVi": "Driver",
+      "importance": "high",
+      "summaryJa": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。",
+      "summaryVi": "Driver: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ドライバとは",
+          "vi": "Driver là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。具体的には、プリンタやマウス、キーボードなどのハードウェアが正常に機能するために必要な命令や設定を提供する役割を果たす。たとえば、プリンタドライバでは、印刷する際にどのようにデータを送信し、どのような設定（用紙のサイズや印刷品質など）を行うかを指定する。また、ドライバが適切に動作することで、ハードウェアとアプリケーションソフトウエアの間の円滑な通信が実現される。このため、ドライバが正しくインストールされていない場合、ハードウェアは正常に機能しないことがあるため、定期的な更新や確認が重要である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Driver trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ドライバの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Driver."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ドライバ",
+          "english": "Driver",
+          "vi": "Driver",
+          "definitionJa": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。具体的には、プリンタやマウス、キーボードなどのハードウェアが正常に機能するために必要な命令や設定を提供する役割を果たす。たとえば、プリンタドライバでは、印刷する際にどのようにデータを送信し、どのような設定（用紙のサイズや印刷品質など）を行うかを指定する。また、ドライバが適切に動作することで、ハードウェアとアプリケーションソフトウエアの間の円滑な通信が実現される。このため、ドライバが正しくインストールされていない場合、ハードウェアは正常に機能しないことがあるため、定期的な更新や確認が重要である。",
+          "definitionVi": "Driver: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "driver"
+      ]
+    },
+    {
+      "id": "stub",
+      "order": 45,
+      "titleJa": "スタブ",
+      "titleVi": "Stub",
+      "importance": "high",
+      "summaryJa": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。",
+      "summaryVi": "Stub: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スタブとは",
+          "vi": "Stub là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。具体的には、スタブは呼び出される側の機能を模倣するための簡単なプログラムであり、テスト対象のプログラムが期待する動作を簡略化して提供する。たとえば、ある機能Aが他の機能Bに依存している場合、機能Bが未実装であっても、スタブを使用することで機能Aのテストを行うことができる。これにより、開発中のソフトウェアの各部分を独立して評価でき、問題の早期発見や修正が可能となるため、全体の開発効率を向上させる助けとなる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Stub trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "スタブの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Stub."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スタブ",
+          "english": "Stub",
+          "vi": "Stub",
+          "definitionJa": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。具体的には、スタブは呼び出される側の機能を模倣するための簡単なプログラムであり、テスト対象のプログラムが期待する動作を簡略化して提供する。たとえば、ある機能Aが他の機能Bに依存している場合、機能Bが未実装であっても、スタブを使用することで機能Aのテストを行うことができる。これにより、開発中のソフトウェアの各部分を独立して評価でき、問題の早期発見や修正が可能となるため、全体の開発効率を向上させる助けとなる。",
+          "definitionVi": "Stub: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "stub"
+      ]
+    },
+    {
+      "id": "test-data-generator",
+      "order": 46,
+      "titleJa": "テストデータジェネレーター",
+      "titleVi": "Trình tạo dữ liệu kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムをテストするために必要なデータを自動的に生成するツールやプログラムを指す。",
+      "summaryVi": "Trình tạo dữ liệu kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テストデータジェネレーターとは",
+          "vi": "Trình tạo dữ liệu kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムをテストするために必要なデータを自動的に生成するツールやプログラムを指す。このツールは、テストの効率を高めるために、様々な条件やシナリオに基づいたデータを作成することができる。たとえば、あるアプリケーションの機能を確認するために、ユーザー名やパスワード、日付、数値などのデータを膨大に準備する必要がある。この場合、テストデータジェネレーターを使用することで、必要なデータを素早く生成でき、手動でデータを作成する手間を省くことが可能となる。このように、ソフトウェアの品質保証やバグの発見を助け、テストプロセスを効率化するために非常に重要な役割を果たしている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Trình tạo dữ liệu kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テストデータジェネレーターの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Trình tạo dữ liệu kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テストデータジェネレーター",
+          "english": "Test Data Generator",
+          "vi": "Trình tạo dữ liệu kiểm thử",
+          "definitionJa": "ソフトウェアやシステムをテストするために必要なデータを自動的に生成するツールやプログラムを指す。このツールは、テストの効率を高めるために、様々な条件やシナリオに基づいたデータを作成することができる。たとえば、あるアプリケーションの機能を確認するために、ユーザー名やパスワード、日付、数値などのデータを膨大に準備する必要がある。この場合、テストデータジェネレーターを使用することで、必要なデータを素早く生成でき、手動でデータを作成する手間を省くことが可能となる。このように、ソフトウェアの品質保証やバグの発見を助け、テストプロセスを効率化するために非常に重要な役割を果たしている。",
+          "definitionVi": "Trình tạo dữ liệu kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-data-generator"
+      ]
+    },
+    {
+      "id": "test-design-and-management-techniques",
+      "order": 47,
+      "titleJa": "テスト設計と管理手法",
+      "titleVi": "Kỹ thuật thiết kế và quản lý kiểm thử",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアテストの工程において、効果的なテストを行うための戦略や手法を指す。",
+      "summaryVi": "Kỹ thuật thiết kế và quản lý kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テスト設計と管理手法とは",
+          "vi": "Kỹ thuật thiết kế và quản lý kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアテストの工程において、効果的なテストを行うための戦略や手法を指す。この中には、バグ曲線と呼ばれるテスト結果の分析を行う手法が含まれ、時間の経過に伴うバグの発見および修正の状況をバグ管理図で視覚的に示すことで、プロジェクトの進行状況を把握するのに役立つ。また、エラー除去はバグを早期に発見し、削除するプロセスを強調しており、これによりソフトウェアの品質向上が目指せる。このように、ソフトウェア開発の効率や品質を保証する重要な役割を果たしている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Kỹ thuật thiết kế và quản lý kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テスト設計と管理手法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kỹ thuật thiết kế và quản lý kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト設計と管理手法",
+          "english": "Test Design and Management Techniques",
+          "vi": "Kỹ thuật thiết kế và quản lý kiểm thử",
+          "definitionJa": "ソフトウェアテストの工程において、効果的なテストを行うための戦略や手法を指す。この中には、バグ曲線と呼ばれるテスト結果の分析を行う手法が含まれ、時間の経過に伴うバグの発見および修正の状況をバグ管理図で視覚的に示すことで、プロジェクトの進行状況を把握するのに役立つ。また、エラー除去はバグを早期に発見し、削除するプロセスを強調しており、これによりソフトウェアの品質向上が目指せる。このように、ソフトウェア開発の効率や品質を保証する重要な役割を果たしている。",
+          "definitionVi": "Kỹ thuật thiết kế và quản lý kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "てすとせっけいとかんりしゅほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-design-and-management-techniques"
+      ]
+    },
+    {
+      "id": "measurement-metrics-2",
+      "order": 48,
+      "titleJa": "メトリクス計測",
+      "titleVi": "Đo lường chỉ số",
+      "importance": "medium",
+      "summaryJa": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。",
+      "summaryVi": "Đo lường chỉ số: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メトリクス計測とは",
+          "vi": "Đo lường chỉ số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。これにより、コードの品質やチームの生産性を定量的に把握できる。たとえば、コードレビューの過程では、メトリクス計測を使用してバグの発生率やコードの複雑さを分析し、改善点を特定することが可能となる。また、メトリクスにはさまざまな種類があり、例えば行数、関数の再利用率、テストカバレッジなどが挙げられる。これらは、プロジェクトの進捗や健全性を評価するための重要なデータを提供し、開発チームが効率的に改善を進める基盤となっている。このように、質の高いソフトウェア開発を促進するために不可欠な手法である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Đo lường chỉ số trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "メトリクス計測の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Đo lường chỉ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メトリクス計測",
+          "english": "Measurement Metrics",
+          "vi": "Đo lường chỉ số",
+          "definitionJa": "主にソフトウェア開発における品質や効率を客観的に評価するための指標を算出する手法である。これにより、コードの品質やチームの生産性を定量的に把握できる。たとえば、コードレビューの過程では、メトリクス計測を使用してバグの発生率やコードの複雑さを分析し、改善点を特定することが可能となる。また、メトリクスにはさまざまな種類があり、例えば行数、関数の再利用率、テストカバレッジなどが挙げられる。これらは、プロジェクトの進捗や健全性を評価するための重要なデータを提供し、開発チームが効率的に改善を進める基盤となっている。このように、質の高いソフトウェア開発を促進するために不可欠な手法である。",
+          "definitionVi": "Đo lường chỉ số: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "めとりくすけいそく"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "measurement-metrics-2"
+      ]
+    },
+    {
+      "id": "test-case",
+      "order": 49,
+      "titleJa": "テストケース",
+      "titleVi": "Ca kiểm thử",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。",
+      "summaryVi": "Ca kiểm thử: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テストケースとは",
+          "vi": "Ca kiểm thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。特定の機能や要求に対して、期待される結果を明示することで、ソフトウェアが正しく動作しているかを検証するのに役立つ。例えば、ユーザーがログインする際のテストケースでは、「正しいユーザー名とパスワードを入力した場合、ログインに成功すること」といった具体的な手順が記される。このように、各異なるシナリオや条件を考慮して設計され、ソフトウェアの品質向上を目的とした重要な要素である。テストケースによって、開発チームはエラーや不具合を早期に発見し、修正することが可能になる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Ca kiểm thử trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "テストケースの目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ca kiểm thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テストケース",
+          "english": "Test Case",
+          "vi": "Ca kiểm thử",
+          "definitionJa": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。特定の機能や要求に対して、期待される結果を明示することで、ソフトウェアが正しく動作しているかを検証するのに役立つ。例えば、ユーザーがログインする際のテストケースでは、「正しいユーザー名とパスワードを入力した場合、ログインに成功すること」といった具体的な手順が記される。このように、各異なるシナリオや条件を考慮して設計され、ソフトウェアの品質向上を目的とした重要な要素である。テストケースによって、開発チームはエラーや不具合を早期に発見し、修正することが可能になる。",
+          "definitionVi": "Ca kiểm thử: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm."
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "test-case"
+      ]
+    },
+    {
+      "id": "instruction-coverage",
+      "order": 50,
+      "titleJa": "命令網羅",
+      "titleVi": "Bao phủ câu lệnh",
+      "importance": "high",
+      "summaryJa": "ソフトウェアのテスト手法の一つである。",
+      "summaryVi": "Bao phủ câu lệnh: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "命令網羅とは",
+          "vi": "Bao phủ câu lệnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアのテスト手法の一つである。これは、プログラム内の全ての命令が少なくとも一度は実行されるようにテストを行うことを目的としている。命令網羅を達成することで、プログラムの各部分が正しく動作しているかを確認することができる。例えば、条件分岐やループなど、異なる経路を通る場合を考慮し、各部分が正常に機能しているかをチェックする。この手法はバグやエラーの発見に役立ち、ソフトウェアの品質を向上させるための重要なプロセスとして位置づけられている。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Bao phủ câu lệnh trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "命令網羅の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ câu lệnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "命令網羅",
+          "english": "Instruction Coverage",
+          "vi": "Bao phủ câu lệnh",
+          "definitionJa": "ソフトウェアのテスト手法の一つである。これは、プログラム内の全ての命令が少なくとも一度は実行されるようにテストを行うことを目的としている。命令網羅を達成することで、プログラムの各部分が正しく動作しているかを確認することができる。例えば、条件分岐やループなど、異なる経路を通る場合を考慮し、各部分が正常に機能しているかをチェックする。この手法はバグやエラーの発見に役立ち、ソフトウェアの品質を向上させるための重要なプロセスとして位置づけられている。",
+          "definitionVi": "Bao phủ câu lệnh: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "めいれいもうら"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "instruction-coverage"
+      ]
+    },
+    {
+      "id": "condition-coverage",
+      "order": 51,
+      "titleJa": "条件網羅",
+      "titleVi": "Bao phủ điều kiện",
+      "importance": "high",
+      "summaryJa": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。",
+      "summaryVi": "Bao phủ điều kiện: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "条件網羅とは",
+          "vi": "Bao phủ điều kiện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。この手法では、特定の条件が「真」または「偽」となる場合に、各パスをテストすることで、プログラムの動作が期待通りであるかを確認する。例えば、if文や論理演算子の使われている場所で、すべての条件の組み合わせを考慮し、その実行をモニタリングすることで、潜在的なバグを早期に発見できる。これにより、テストの品質が向上し、より信頼性の高いソフトウェアを提供する助けとなる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Bao phủ điều kiện trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "条件網羅の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "条件網羅",
+          "english": "Condition Coverage",
+          "vi": "Bao phủ điều kiện",
+          "definitionJa": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。この手法では、特定の条件が「真」または「偽」となる場合に、各パスをテストすることで、プログラムの動作が期待通りであるかを確認する。例えば、if文や論理演算子の使われている場所で、すべての条件の組み合わせを考慮し、その実行をモニタリングすることで、潜在的なバグを早期に発見できる。これにより、テストの品質が向上し、より信頼性の高いソフトウェアを提供する助けとなる。",
+          "definitionVi": "Bao phủ điều kiện: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "じょうけんもうら"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "condition-coverage"
+      ]
+    },
+    {
+      "id": "decision-coverage",
+      "order": 52,
+      "titleJa": "判定条件網羅",
+      "titleVi": "Bao phủ quyết định",
+      "importance": "high",
+      "summaryJa": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。",
+      "summaryVi": "Bao phủ quyết định: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "判定条件網羅とは",
+          "vi": "Bao phủ quyết định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。この手法では、条件分岐がある箇所に注目し、その条件を満たすためのテストケースを作成することが求められる。例えば、if文やswitch文などの分岐点に対して、それぞれのパスを通るようにテストを実施する。これにより、バグを早期に発見し、プログラムの品質を向上させることが可能となる。単なるコードの網羅性を超え、論理的な誤りを見つけるための効果的な手法となる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Bao phủ quyết định trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "判定条件網羅の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ quyết định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "判定条件網羅",
+          "english": "Decision Coverage",
+          "vi": "Bao phủ quyết định",
+          "definitionJa": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。この手法では、条件分岐がある箇所に注目し、その条件を満たすためのテストケースを作成することが求められる。例えば、if文やswitch文などの分岐点に対して、それぞれのパスを通るようにテストを実施する。これにより、バグを早期に発見し、プログラムの品質を向上させることが可能となる。単なるコードの網羅性を超え、論理的な誤りを見つけるための効果的な手法となる。",
+          "definitionVi": "Bao phủ quyết định: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "はんていじょうけんもうら"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "decision-coverage"
+      ]
+    },
+    {
+      "id": "multiple-condition-coverage",
+      "order": 53,
+      "titleJa": "複数条件網羅",
+      "titleVi": "Bao phủ đa điều kiện",
+      "importance": "high",
+      "summaryJa": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。",
+      "summaryVi": "Bao phủ đa điều kiện: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "複数条件網羅とは",
+          "vi": "Bao phủ đa điều kiện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。この手法では、各条件の真偽値がどのように影響を与えるかを細かく分析することが求められ、条件ごとに異なる結果が得られるようにテストが行われる。例えば、ある条件が「AかつB」といった場合、AとBの両方が真の場合や、一方が偽の場合など、全ての組み合わせを網羅的にチェックする。こうすることで、見落としのないテストが可能となり、バグの早期発見や品質向上が期待できる。この手法は、特に複雑なロジックを含むシステムの検証において有効である。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Bao phủ đa điều kiện trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "複数条件網羅の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ đa điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "複数条件網羅",
+          "english": "Multiple Condition Coverage",
+          "vi": "Bao phủ đa điều kiện",
+          "definitionJa": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。この手法では、各条件の真偽値がどのように影響を与えるかを細かく分析することが求められ、条件ごとに異なる結果が得られるようにテストが行われる。例えば、ある条件が「AかつB」といった場合、AとBの両方が真の場合や、一方が偽の場合など、全ての組み合わせを網羅的にチェックする。こうすることで、見落としのないテストが可能となり、バグの早期発見や品質向上が期待できる。この手法は、特に複雑なロジックを含むシステムの検証において有効である。",
+          "definitionVi": "Bao phủ đa điều kiện: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "ふくすうじょうけんもうら"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "multiple-condition-coverage"
+      ]
+    },
+    {
+      "id": "boundary-value-analysis",
+      "order": 54,
+      "titleJa": "限界値分析法",
+      "titleVi": "Phân tích giá trị biên",
+      "importance": "high",
+      "summaryJa": "ソフトウェアテストにおける手法の一つである。",
+      "summaryVi": "Phân tích giá trị biên: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "限界値分析法とは",
+          "vi": "Phân tích giá trị biên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアテストにおける手法の一つである。この手法は、入力データの最小値や最大値、その周辺の値を使ってテストケースを設計することに重点を置く。たとえば、数値が1から10の範囲で受け付けられる場合、1、10、その直前の値や直後の値（0や11）をテストする。特に境界条件での不具合を見つけるのに効果的で、ソフトウェアの信頼性を高めるために広く用いられている。これにより、プログラムが期待通りに動作するかどうかを効率よく確認することができる。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phân tích giá trị biên trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "限界値分析法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân tích giá trị biên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "限界値分析法",
+          "english": "Boundary Value Analysis",
+          "vi": "Phân tích giá trị biên",
+          "definitionJa": "ソフトウェアテストにおける手法の一つである。この手法は、入力データの最小値や最大値、その周辺の値を使ってテストケースを設計することに重点を置く。たとえば、数値が1から10の範囲で受け付けられる場合、1、10、その直前の値や直後の値（0や11）をテストする。特に境界条件での不具合を見つけるのに効果的で、ソフトウェアの信頼性を高めるために広く用いられている。これにより、プログラムが期待通りに動作するかどうかを効率よく確認することができる。",
+          "definitionVi": "Phân tích giá trị biên: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "げんかいちぶんせきほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "boundary-value-analysis"
+      ]
+    },
+    {
+      "id": "equivalence-partitioning",
+      "order": 55,
+      "titleJa": "同値分析法",
+      "titleVi": "Phân hoạch tương đương",
+      "importance": "high",
+      "summaryJa": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。",
+      "summaryVi": "Phân hoạch tương đương: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "同値分析法とは",
+          "vi": "Phân hoạch tương đương là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。具体的には、入力値の範囲をいくつかのグループに分け、それぞれのグループから代表的な値を選び出してテストを行うことで、効果的に欠陥を見つけることができる。たとえば、数値入力において「0未満」「0以上5以下」「5超」の3つの範囲に分け、それぞれの範囲から一つずつテストデータを選ぶことで、効率的なテストを実施することが可能である。このアプローチにより、必要なテストケースが削減され、テストの効率が向上する。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phân hoạch tương đương trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "同値分析法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân hoạch tương đương."
+        }
+      ],
+      "terms": [
+        {
+          "term": "同値分析法",
+          "english": "Equivalence Partitioning",
+          "vi": "Phân hoạch tương đương",
+          "definitionJa": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。具体的には、入力値の範囲をいくつかのグループに分け、それぞれのグループから代表的な値を選び出してテストを行うことで、効果的に欠陥を見つけることができる。たとえば、数値入力において「0未満」「0以上5以下」「5超」の3つの範囲に分け、それぞれの範囲から一つずつテストデータを選ぶことで、効率的なテストを実施することが可能である。このアプローチにより、必要なテストケースが削減され、テストの効率が向上する。",
+          "definitionVi": "Phân hoạch tương đương: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "どうちぶんせきほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "equivalence-partitioning"
+      ]
+    },
+    {
+      "id": "cause-effect-graphing",
+      "order": 56,
+      "titleJa": "原因結果グラフ法",
+      "titleVi": "Phương pháp đồ thị nhân quả",
+      "importance": "high",
+      "summaryJa": "テスト設計において用いられる手法である。",
+      "summaryVi": "Phương pháp đồ thị nhân quả: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "原因結果グラフ法とは",
+          "vi": "Phương pháp đồ thị nhân quả là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "テスト設計において用いられる手法である。この方法は、システムやソフトウェアの入力条件（原因）とそれに対する期待される出力（結果）を視覚的に整理することで、テストケースの効率的な作成を支援する。具体的には、原因をノードとして、結果をエッジとして結びつけたグラフを描くことで、複雑なロジックや条件を明確にすることができる。例えば、ユーザーの入力に対して異なる処理を行うシステムでは、それぞれの入力条件に対する結果を整理することで、すべての条件を網羅したテストケースを洗い出すことが可能となる。これにより、不具合を早期に発見でき、品質保証の向上に寄与する。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phương pháp đồ thị nhân quả trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "原因結果グラフ法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phương pháp đồ thị nhân quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "原因結果グラフ法",
+          "english": "Cause-Effect Graphing",
+          "vi": "Phương pháp đồ thị nhân quả",
+          "definitionJa": "テスト設計において用いられる手法である。この方法は、システムやソフトウェアの入力条件（原因）とそれに対する期待される出力（結果）を視覚的に整理することで、テストケースの効率的な作成を支援する。具体的には、原因をノードとして、結果をエッジとして結びつけたグラフを描くことで、複雑なロジックや条件を明確にすることができる。例えば、ユーザーの入力に対して異なる処理を行うシステムでは、それぞれの入力条件に対する結果を整理することで、すべての条件を網羅したテストケースを洗い出すことが可能となる。これにより、不具合を早期に発見でき、品質保証の向上に寄与する。",
+          "definitionVi": "Phương pháp đồ thị nhân quả: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "げんいんけっかぐらふほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "cause-effect-graphing"
+      ]
+    },
+    {
+      "id": "error-embedding-method",
+      "order": 57,
+      "titleJa": "エラー埋込法",
+      "titleVi": "Phương pháp cài lỗi",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアやシステムのテスト手法の一つである。",
+      "summaryVi": "Phương pháp cài lỗi: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エラー埋込法とは",
+          "vi": "Phương pháp cài lỗi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやシステムのテスト手法の一つである。この手法は、意図的にエラーをシステムの中に埋め込むことによって、テストを行うものである。埋め込まれたエラーを見つけ出すことで、システムの耐障害性やエラー処理能力を評価することができる。具体的には、プログラムの特定の部分に故意に誤ったデータや処理を投入し、それに対する出力や反応を確認する。これにより、システムがエラーに適切に対応できているかを検証し、より堅牢なシステムの構築を助ける役割を果たす。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Phương pháp cài lỗi trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "エラー埋込法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phương pháp cài lỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エラー埋込法",
+          "english": "Error-Embedding Method",
+          "vi": "Phương pháp cài lỗi",
+          "definitionJa": "ソフトウェアやシステムのテスト手法の一つである。この手法は、意図的にエラーをシステムの中に埋め込むことによって、テストを行うものである。埋め込まれたエラーを見つけ出すことで、システムの耐障害性やエラー処理能力を評価することができる。具体的には、プログラムの特定の部分に故意に誤ったデータや処理を投入し、それに対する出力や反応を確認する。これにより、システムがエラーに適切に対応できているかを検証し、より堅牢なシステムの構築を助ける役割を果たす。",
+          "definitionVi": "Phương pháp cài lỗi: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "えらーうめこみほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "error-embedding-method"
+      ]
+    },
+    {
+      "id": "design-of-experiments",
+      "order": 58,
+      "titleJa": "実験計画法",
+      "titleVi": "Thiết kế thực nghiệm",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアテストにおいて、テストケースを効率的に選定するための手法である。",
+      "summaryVi": "Thiết kế thực nghiệm: nội dung cần nắm trong giai đoạn triển khai và xây dựng phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "実験計画法とは",
+          "vi": "Thiết kế thực nghiệm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアテストにおいて、テストケースを効率的に選定するための手法である。この手法では、様々な条件や要因を組み合わせて実験を行い、それによって得られる結果から最適なテストケースを導き出す。例えば、考慮すべき条件がA、B、Cの3つあり、それぞれの組み合わせをすべて試すのではなく、特定のパターンを選んで実施することで、時間やリソースの節約が可能となる。実験計画法を用いることで、テストの効果を最大化し、ソフトウェアの品質を向上させることができる。この手法は、他のフィールドでも広く利用されており、製品開発や工程改善にも適用される。",
+          "vi": "Nắm định nghĩa, đặc điểm và cách sử dụng của Thiết kế thực nghiệm trong quá trình triển khai, xây dựng hoặc kiểm thử phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "実験計画法の目的・特徴・利用場面を押さえる。",
+          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Thiết kế thực nghiệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実験計画法",
+          "english": "Design of Experiments",
+          "vi": "Thiết kế thực nghiệm",
+          "definitionJa": "ソフトウェアテストにおいて、テストケースを効率的に選定するための手法である。この手法では、様々な条件や要因を組み合わせて実験を行い、それによって得られる結果から最適なテストケースを導き出す。例えば、考慮すべき条件がA、B、Cの3つあり、それぞれの組み合わせをすべて試すのではなく、特定のパターンを選んで実施することで、時間やリソースの節約が可能となる。実験計画法を用いることで、テストの効果を最大化し、ソフトウェアの品質を向上させることができる。この手法は、他のフィールドでも広く利用されており、製品開発や工程改善にも適用される。",
+          "definitionVi": "Thiết kế thực nghiệm: thuật ngữ thuộc phần triển khai, xây dựng và kiểm thử phần mềm.",
+          "reading": "じっけんけいかくほう"
+        }
+      ],
+      "tags": [
+        "system-development-technology",
+        "implementation-construction",
+        "design-of-experiments"
+      ]
+    }
+  ]
 }
