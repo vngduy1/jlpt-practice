@@ -31,7 +31,18 @@ export interface FeCategoryReference {
   titleJa: string;
   titleVi: string;
   icon?: FeCategoryIcon;
+
+  /**
+   * Category 内の lesson 総数。
+   * categories.json から取得し、
+   * lesson 数を求めるために全 chapter を読み込まない。
+   */
   count?: number;
+
+  /**
+   * Category manifest への相対パス。
+   * 例: 11-security/index.json
+   */
   file: string;
 }
 
@@ -78,19 +89,34 @@ export interface FeLesson {
 }
 
 /**
- * index.json 内の chapter 参照情報
+ * Category の index.json に保存する chapter metadata。
+ *
+ * Chapter 一覧を表示するだけなら実際の chapter JSON を
+ * 読み込む必要はない。
  */
 export interface FeChapterReference {
   id: string;
   order: number;
   titleJa: string;
   titleVi: string;
+
+  /**
+   * Chapter 内の lesson 数。
+   */
+  count?: number;
+
+  /**
+   * Chapter JSON ファイル名。
+   * 例: 02-information-security-management.json
+   */
   file: string;
 }
 
 /**
+ * Category manifest。
+ *
  * 例:
- * data/fe/theory/01-basic-theory/index.json
+ * data/fe/theory/11-security/index.json
  */
 export interface FeCategoryManifest {
   id: string;
@@ -101,9 +127,9 @@ export interface FeCategoryManifest {
 }
 
 /**
- * 実際の chapter JSON
- * 例:
- * 01-discrete-mathematics.json
+ * 実際の chapter JSON。
+ *
+ * この型は lesson 本文を必要とするときだけ使用する。
  */
 export interface FeChapter {
   id: string;
@@ -115,7 +141,10 @@ export interface FeChapter {
 }
 
 /**
- * registry.ts で manifest + chapter JSON を結合した後の形
+ * manifest + 全 chapter JSON を結合した従来形式。
+ *
+ * 移行中の既存コードとの互換性のため残す。
+ * 新しい一覧画面では可能な限り使用しない。
  */
 export interface FeCategory {
   id: string;

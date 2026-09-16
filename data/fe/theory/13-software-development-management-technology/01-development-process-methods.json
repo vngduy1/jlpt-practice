@@ -4,5 +4,2213 @@
   "titleJa": "開発プロセス・手法",
   "titleVi": "Quy trình và phương pháp phát triển",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "waterfall-model",
+      "order": 1,
+      "titleJa": "ウォーターフォールモデル",
+      "titleVi": "Mô hình thác nước",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発における一般的な手法の一つで、プロジェクトをいくつかの段階に分け、各段階を順番に進めていく方式である。",
+      "summaryVi": "Mô hình phát triển tuần tự qua các giai đoạn như yêu cầu, thiết kế, triển khai, kiểm thử và vận hành; thường hoàn tất một giai đoạn trước khi chuyển sang giai đoạn tiếp theo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発における一般的な手法の一つで、プロジェクトをいくつかの段階に分け、各段階を順番に進めていく方式である。具体的には、要件定義、設計、実装、テスト、運用といった明確なステージが設けられ、それぞれのステージが完了した後に次のステージに進む。これにより、進捗の管理がしやすく、各段階での成果物が明確になることが特徴である。ただし、要件変更が困難なため、初期の段階でしっかりと要件を固める必要がある。主に、プロジェクトの特性が明確で変動が少ない場合に効果的であるが、柔軟性が求められる現代の開発環境では、アジャイルなどの別の手法が選ばれることも増えている。",
+          "vi": "Mô hình phát triển tuần tự qua các giai đoạn như yêu cầu, thiết kế, triển khai, kiểm thử và vận hành; thường hoàn tất một giai đoạn trước khi chuyển sang giai đoạn tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ウォーターフォールモデル」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình thác nước với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウォーターフォールモデル",
+          "reading": "",
+          "english": "Waterfall Model",
+          "vi": "Mô hình thác nước",
+          "definitionJa": "ソフトウェア開発における一般的な手法の一つで、プロジェクトをいくつかの段階に分け、各段階を順番に進めていく方式である。",
+          "definitionVi": "Mô hình phát triển tuần tự qua các giai đoạn như yêu cầu, thiết kế, triển khai, kiểm thử và vận hành; thường hoàn tất một giai đoạn trước khi chuyển sang giai đoạn tiếp theo."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Waterfall Model"]
+    },
+    {
+      "id": "prototyping-model",
+      "order": 2,
+      "titleJa": "プロトタイピングモデル",
+      "titleVi": "Mô hình tạo mẫu",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発において、最初に簡易的な試作品（プロトタイプ）を作成する手法である。",
+      "summaryVi": "Phương pháp tạo một nguyên mẫu đơn giản ở giai đoạn đầu để làm rõ yêu cầu và nhận phản hồi sớm từ người dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、最初に簡易的な試作品（プロトタイプ）を作成する手法である。この手法は、ユーザーの要望や仕様を具体化するために非常に有効で、初期段階でのフィードバックを得ることができる。例えば、Webアプリケーションの開発では、機能の一部を迅速に実装した試作版をユーザーに見せて、使い勝手やデザインについて意見をもらうことができる。これにより、最終的な製品に対する期待や要件の明確化が図れるため、開発の途中での変更にも柔軟に対応できる。一方で、プロトタイプの精度が低いと誤解を招くこともあるため、注意が必要である。",
+          "vi": "Phương pháp tạo một nguyên mẫu đơn giản ở giai đoạn đầu để làm rõ yêu cầu và nhận phản hồi sớm từ người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロトタイピングモデル」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tạo mẫu với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロトタイピングモデル",
+          "reading": "",
+          "english": "Prototyping Model",
+          "vi": "Mô hình tạo mẫu",
+          "definitionJa": "ソフトウェア開発において、最初に簡易的な試作品（プロトタイプ）を作成する手法である。",
+          "definitionVi": "Phương pháp tạo một nguyên mẫu đơn giản ở giai đoạn đầu để làm rõ yêu cầu và nhận phản hồi sớm từ người dùng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Prototyping Model"]
+    },
+    {
+      "id": "agile",
+      "order": 3,
+      "titleJa": "アジャイル",
+      "titleVi": "Agile",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発の手法の一つで、変更に柔軟に対応しながら短期間で成果を出すことを目指す開発モデルである。",
+      "summaryVi": "Cách tiếp cận phát triển lặp và tăng dần, ưu tiên phản hồi nhanh và khả năng thích ứng với thay đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発の手法の一つで、変更に柔軟に対応しながら短期間で成果を出すことを目指す開発モデルである。従来型の開発に比べて、反復的なサイクルで進めるため、顧客のフィードバックを迅速に取り入れることが可能である。例えば、ある機能を少しずつ実装し、テストを行いながら次の段階に進むことで、最終的に顧客の要求により近い製品を作り出すことができる。このアプローチは、変化の多い業界や不確実性が高いプロジェクトにおいて特に効果を発揮し、連携やコミュニケーションを重視することで、チーム全体の生産性を向上させる。",
+          "vi": "Cách tiếp cận phát triển lặp và tăng dần, ưu tiên phản hồi nhanh và khả năng thích ứng với thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アジャイル」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Agile với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アジャイル",
+          "reading": "",
+          "english": "Agile",
+          "vi": "Agile",
+          "definitionJa": "ソフトウェア開発の手法の一つで、変更に柔軟に対応しながら短期間で成果を出すことを目指す開発モデルである。",
+          "definitionVi": "Cách tiếp cận phát triển lặp và tăng dần, ưu tiên phản hồi nhanh và khả năng thích ứng với thay đổi."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Agile"]
+    },
+    {
+      "id": "development-operations",
+      "order": 4,
+      "titleJa": "DevOps",
+      "titleVi": "DevOps",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発と運用が協力して行われる手法や文化を指す。",
+      "summaryVi": "Cách tiếp cận và văn hóa tăng cường hợp tác giữa phát triển và vận hành, thường kết hợp tự động hóa CI/CD để cung cấp phần mềm nhanh và ổn định hơn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発と運用が協力して行われる手法や文化を指す。これは、開発（Dev）と運用（Ops）の間のコミュニケーションやコラボレーションを強化し、ソフトウェアの開発から運用までのプロセスを効率化することを目的としている。具体的には、自動化ツールを使用して、継続的なインテグレーション（CI）や継続的なデリバリー（CD）を実現し、迅速なリリースと高い品質を両立させることが重視される。これにより、企業は顧客のニーズに迅速に応えることができ、市場の変化に柔軟に対応することが可能となる。また、DevOpsを導入することで、チームの生産性向上やエラーの早期発見・修正が期待され、結果として競争力の向上にも寄与する。",
+          "vi": "Cách tiếp cận và văn hóa tăng cường hợp tác giữa phát triển và vận hành, thường kết hợp tự động hóa CI/CD để cung cấp phần mềm nhanh và ổn định hơn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「DevOps」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của DevOps với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DevOps",
+          "reading": "でぶおぷす",
+          "english": "Development Operations",
+          "vi": "DevOps",
+          "definitionJa": "ソフトウェア開発と運用が協力して行われる手法や文化を指す。",
+          "definitionVi": "Cách tiếp cận và văn hóa tăng cường hợp tác giữa phát triển và vận hành, thường kết hợp tự động hóa CI/CD để cung cấp phần mềm nhanh và ổn định hơn."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Development Operations"]
+    },
+    {
+      "id": "machine-learning-operations",
+      "order": 5,
+      "titleJa": "MLOps",
+      "titleVi": "MLOps",
+      "importance": "medium",
+      "summaryJa": "機械学習（ML）のプロセスを効率化し、運用における実行可能性を向上させる手法や文化を指す。",
+      "summaryVi": "Cách tiếp cận quản lý toàn bộ vòng đời mô hình máy học từ phát triển, huấn luyện và triển khai đến giám sát và cải tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機械学習（ML）のプロセスを効率化し、運用における実行可能性を向上させる手法や文化を指す。具体的には、モデルの開発から運用、監視までの全ての段階を管理することで、機械学習モデルの継続的な改善を図る。例えば、データの前処理やモデルのトレーニング、評価、デプロイメントなどの作業を自動化することで、開発チームは迅速に新しいアルゴリズムや機能を実験・導入できる。さらに、モデルのパフォーマンスを定期的に監視し、必要に応じて再学習させることで、常に最適な成果を維持することも可能である。このように、MLOpsは機械学習におけるDevOpsの理念を取り入れ、複雑なプロセスをスムーズに進行させるための重要なアプローチである。",
+          "vi": "Cách tiếp cận quản lý toàn bộ vòng đời mô hình máy học từ phát triển, huấn luyện và triển khai đến giám sát và cải tiến."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「MLOps」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của MLOps với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MLOps",
+          "reading": "えむえるおぷす",
+          "english": "Machine Learning Operations",
+          "vi": "MLOps",
+          "definitionJa": "機械学習（ML）のプロセスを効率化し、運用における実行可能性を向上させる手法や文化を指す。",
+          "definitionVi": "Cách tiếp cận quản lý toàn bộ vòng đời mô hình máy học từ phát triển, huấn luyện và triển khai đến giám sát và cải tiến."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Machine Learning Operations"]
+    },
+    {
+      "id": "software-product-line",
+      "order": 6,
+      "titleJa": "ソフトウェアプロダクトライン",
+      "titleVi": "Dòng sản phẩm phần mềm",
+      "importance": "medium",
+      "summaryJa": "複数のソフトウェア製品を効率的に開発するための手法である。",
+      "summaryVi": "Phương pháp phát triển nhiều sản phẩm phần mềm bằng cách tái sử dụng các chức năng và đặc tính chung của một họ sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のソフトウェア製品を効率的に開発するための手法である。このアプローチでは、共通する機能や特性を持つ製品群を一括して設計し、開発の重複を避けることが目的である。例えば、ある企業が異なる市場向けに異なるバージョンのアプリケーションを開発する際、基本的な機能を共通化し、それぞれのバージョンだけに特有の機能を追加することで、開発コストや時間を削減できる。この手法は、特に製品のバリエーションが多い場合に有効で、効率的な開発プロセスと高い品質を両立させるために広く利用されている。",
+          "vi": "Phương pháp phát triển nhiều sản phẩm phần mềm bằng cách tái sử dụng các chức năng và đặc tính chung của một họ sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ソフトウェアプロダクトライン」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Dòng sản phẩm phần mềm với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェアプロダクトライン",
+          "reading": "",
+          "english": "Software Product Line",
+          "vi": "Dòng sản phẩm phần mềm",
+          "definitionJa": "複数のソフトウェア製品を効率的に開発するための手法である。",
+          "definitionVi": "Phương pháp phát triển nhiều sản phẩm phần mềm bằng cách tái sử dụng các chức năng và đặc tính chung của một họ sản phẩm."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Software Product Line"]
+    },
+    {
+      "id": "incremental-model",
+      "order": 7,
+      "titleJa": "段階的モデル",
+      "titleVi": "Mô hình tăng dần",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発における手法の一つであり、プロジェクトを小さな部分（段階）に分けて順に開発していくモデルである。",
+      "summaryVi": "Mô hình chia hệ thống thành các phần nhỏ và lần lượt bổ sung chức năng qua từng giai đoạn cho đến khi hoàn thiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発における手法の一つであり、プロジェクトを小さな部分（段階）に分けて順に開発していくモデルである。この方法では、各段階ごとに機能を追加し、テストを行いながら最終的な製品を完成させる。例えば、初めに基本的な機能を持つバージョンを作成し、その後にユーザーからのフィードバックを基に機能を拡張していくことができる。これにより、開発途中でも顧客の要望に応じて柔軟に対応できる利点があり、リスクを軽減し、より高品質なソフトウェアが提供される。段階的に進めることで、進捗状況の把握もしやすく、問題が早期に発見される可能性が高まる。",
+          "vi": "Mô hình chia hệ thống thành các phần nhỏ và lần lượt bổ sung chức năng qua từng giai đoạn cho đến khi hoàn thiện."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「段階的モデル」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tăng dần với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "段階的モデル",
+          "reading": "だんかいてきもでる",
+          "english": "Incremental Model",
+          "vi": "Mô hình tăng dần",
+          "definitionJa": "ソフトウェア開発における手法の一つであり、プロジェクトを小さな部分（段階）に分けて順に開発していくモデルである。",
+          "definitionVi": "Mô hình chia hệ thống thành các phần nhỏ và lần lượt bổ sung chức năng qua từng giai đoạn cho đến khi hoàn thiện."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Incremental Model"]
+    },
+    {
+      "id": "evolutionary-model",
+      "order": 8,
+      "titleJa": "進展的モデル",
+      "titleVi": "Mô hình tiến hóa",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発において、企画から完成までを段階的に進める手法である。",
+      "summaryVi": "Mô hình bắt đầu từ một phiên bản cơ bản rồi liên tục bổ sung và cải tiến theo phản hồi và yêu cầu mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、企画から完成までを段階的に進める手法である。このモデルでは、最初に基本的な機能を持つソフトウェアを開発し、その後にユーザーのフィードバックや新たな要求に基づいて、段階的に機能を追加・改善していく。例えば、初期バージョンのソフトウェアをリリースした後、利用者からの意見を取り入れたアップデートを行い、さらに新機能を加えるといったプロセスが行われる。このように、段階的に進化させることで、ユーザーのニーズに応じた柔軟な開発が可能となり、最終的にはより満足度の高い製品を提供できることが特徴である。また、リスクを軽減する側面もあり、問題が早期に発見されやすくなることから、スムーズな開発が期待できる。",
+          "vi": "Mô hình bắt đầu từ một phiên bản cơ bản rồi liên tục bổ sung và cải tiến theo phản hồi và yêu cầu mới."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「進展的モデル」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tiến hóa với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "進展的モデル",
+          "reading": "しんてんてきもでる",
+          "english": "Evolutionary Model",
+          "vi": "Mô hình tiến hóa",
+          "definitionJa": "ソフトウェア開発において、企画から完成までを段階的に進める手法である。",
+          "definitionVi": "Mô hình bắt đầu từ một phiên bản cơ bản rồi liên tục bổ sung và cải tiến theo phản hồi và yêu cầu mới."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Evolutionary Model"]
+    },
+    {
+      "id": "agile-software-development-manifesto",
+      "order": 9,
+      "titleJa": "アジャイルソフトウェア開発宣言",
+      "titleVi": "Tuyên ngôn Phát triển Phần mềm Agile",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発における価値観や原則を示した文書である。",
+      "summaryVi": "Tài liệu nêu các giá trị nền tảng của Agile, nhấn mạnh con người, phần mềm hoạt động, hợp tác với khách hàng và khả năng đáp ứng thay đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発における価値観や原則を示した文書である。この宣言は、顧客とのコミュニケーションや変更に対する柔軟性を重視し、計画に固執することなく、持続的な進化を称賛する。一例として、顧客のフィードバックを迅速に取り入れることによって、製品を改善し続ける姿勢が挙げられる。また、アジャイル開発は短いサイクルで成果物をリリースし、チームメンバー間の協力を重視することで、効率的に価値を提供する手法とされている。このように、アジャイル開発宣言は現代のソフトウェア開発における重要なガイドラインとなっている。",
+          "vi": "Tài liệu nêu các giá trị nền tảng của Agile, nhấn mạnh con người, phần mềm hoạt động, hợp tác với khách hàng và khả năng đáp ứng thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アジャイルソフトウェア開発宣言」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tuyên ngôn Phát triển Phần mềm Agile với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アジャイルソフトウェア開発宣言",
+          "reading": "あじゃいるそふとうぇあかいはつせんげん",
+          "english": "Agile Software Development Manifesto",
+          "vi": "Tuyên ngôn Phát triển Phần mềm Agile",
+          "definitionJa": "ソフトウェア開発における価値観や原則を示した文書である。",
+          "definitionVi": "Tài liệu nêu các giá trị nền tảng của Agile, nhấn mạnh con người, phần mềm hoạt động, hợp tác với khách hàng và khả năng đáp ứng thay đổi."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Agile Software Development Manifesto"
+      ]
+    },
+    {
+      "id": "twelve-principles-of-agile-software",
+      "order": 10,
+      "titleJa": "アジャイルソフトウェアの12の原則",
+      "titleVi": "12 nguyên tắc của phần mềm Agile",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発におけるアジャイル手法を推進するための基本的なガイドラインである。",
+      "summaryVi": "Các nguyên tắc hướng dẫn thực hành Agile, tập trung vào giá trị cho khách hàng, giao hàng thường xuyên, hợp tác và cải tiến liên tục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるアジャイル手法を推進するための基本的なガイドラインである。これらの原則は、顧客の満足を最優先にし、変化に迅速に対応することを重視する。例えば、リリースの頻度を高めることで、ユーザーからのフィードバックを早期に受け取り、次の開発に活かすことができる。また、チーム内のコミュニケーションを大切にし、開発者と顧客が一体となってプロジェクトを進めることで、ニーズに合った製品を提供することを促進する。これらの原則は、変化に柔軟に対応するための心構えや行動指針として、アジャイル開発の成功を支える重要な要素である。",
+          "vi": "Các nguyên tắc hướng dẫn thực hành Agile, tập trung vào giá trị cho khách hàng, giao hàng thường xuyên, hợp tác và cải tiến liên tục."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アジャイルソフトウェアの12の原則」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của 12 nguyên tắc của phần mềm Agile với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アジャイルソフトウェアの12の原則",
+          "reading": "あじゃいるそふとうぇあの12のげんそく",
+          "english": "Twelve Principles of Agile Software",
+          "vi": "12 nguyên tắc của phần mềm Agile",
+          "definitionJa": "ソフトウェア開発におけるアジャイル手法を推進するための基本的なガイドラインである。",
+          "definitionVi": "Các nguyên tắc hướng dẫn thực hành Agile, tập trung vào giá trị cho khách hàng, giao hàng thường xuyên, hợp tác và cải tiến liên tục."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Twelve Principles of Agile Software"
+      ]
+    },
+    {
+      "id": "extreme-programming",
+      "order": 11,
+      "titleJa": "XP",
+      "titleVi": "Lập trình cực hạn (XP)",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発におけるアジャイル手法の一つである。",
+      "summaryVi": "Một phương pháp Agile sử dụng chu kỳ phát triển ngắn và các thực hành như lập trình cặp, kiểm thử trước và phát hành thường xuyên.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるアジャイル手法の一つである。この方法は、変化の激しい要件に適応しやすく、開発プロセスを効率化することを目的としている。具体的には、短い開発サイクルや頻繁なリリース、顧客との密なコミュニケーションを重視する。また、プログラミングのペア作業やテスト主導開発といった技術を取り入れ、コードの品質を向上させることにも力を入れている。例えば、チームが開発した機能に対するフィードバックを早期に得ることで、改善点を迅速に対応できるため、最終的な製品の完成度が高まるというメリットがある。このように、エクストリームプログラミングは柔軟で反復的な開発を促進し、顧客価値の向上を図る手法である。",
+          "vi": "Một phương pháp Agile sử dụng chu kỳ phát triển ngắn và các thực hành như lập trình cặp, kiểm thử trước và phát hành thường xuyên."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「XP」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Lập trình cực hạn (XP) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XP",
+          "reading": "えっくすぴー",
+          "english": "Extreme Programming",
+          "vi": "Lập trình cực hạn (XP)",
+          "definitionJa": "ソフトウェア開発におけるアジャイル手法の一つである。",
+          "definitionVi": "Một phương pháp Agile sử dụng chu kỳ phát triển ngắn và các thực hành như lập trình cặp, kiểm thử trước và phát hành thường xuyên."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Extreme Programming"]
+    },
+    {
+      "id": "scrum",
+      "order": 12,
+      "titleJa": "スクラム",
+      "titleVi": "Scrum",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発におけるアジャイル手法の一つであり、プロジェクト管理のフレームワークである。",
+      "summaryVi": "Khung làm việc Agile tổ chức công việc theo các Sprint ngắn, với các vai trò và hoạt động nhằm liên tục kiểm tra và cải tiến sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるアジャイル手法の一つであり、プロジェクト管理のフレームワークである。複雑なプロジェクトにおいてチームが効率的に協力し、高品質の成果物を迅速に提供できるように設計されている。たとえば、開発者、デザイナー、テスターなどのメンバーが短い期間（スプリント）に取り組むことが特徴であり、定期的な進捗確認やフィードバックを行うことで改善を図っていく。スクラムでは、役割としてプロダクトオーナーやスクラムマスターがあり、それぞれがチームの目標達成に向けてサポートを行う。これにより、変化するニーズに対応しやすく、チームの柔軟性が高まる。",
+          "vi": "Khung làm việc Agile tổ chức công việc theo các Sprint ngắn, với các vai trò và hoạt động nhằm liên tục kiểm tra và cải tiến sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スクラム」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Scrum với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スクラム",
+          "reading": "",
+          "english": "Scrum",
+          "vi": "Scrum",
+          "definitionJa": "ソフトウェア開発におけるアジャイル手法の一つであり、プロジェクト管理のフレームワークである。",
+          "definitionVi": "Khung làm việc Agile tổ chức công việc theo các Sprint ngắn, với các vai trò và hoạt động nhằm liên tục kiểm tra và cải tiến sản phẩm."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Scrum"]
+    },
+    {
+      "id": "test-driven-development",
+      "order": 13,
+      "titleJa": "テスト駆動開発",
+      "titleVi": "Phát triển hướng kiểm thử (TDD)",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発手法の一つであり、まずテストケースを作成し、その後に実装を行うプロセスである。",
+      "summaryVi": "Phương pháp viết kiểm thử trước rồi viết mã để vượt qua kiểm thử, qua đó hỗ trợ chất lượng và khả năng bảo trì của chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発手法の一つであり、まずテストケースを作成し、その後に実装を行うプロセスである。この手法では、開発の初期段階からテストを重視し、機能が正しく実装されているかを確認することが求められる。例えば、特定の機能がどのように動作するかを定義したテストを先に作り、そのテストをパスする形でコードを書くことで、プログラムの品質を保証する。これにより、コードのメンテナンス性が向上し、新たな機能を追加する際にも既存の機能が壊れないようにすることが可能となる。そのため、アジャイル開発プロジェクトにおいて広く採用されている。",
+          "vi": "Phương pháp viết kiểm thử trước rồi viết mã để vượt qua kiểm thử, qua đó hỗ trợ chất lượng và khả năng bảo trì của chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「テスト駆動開発」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Phát triển hướng kiểm thử (TDD) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テスト駆動開発",
+          "reading": "てすとくどうかいはつ",
+          "english": "Test-Driven Development",
+          "vi": "Phát triển hướng kiểm thử (TDD)",
+          "definitionJa": "ソフトウェア開発手法の一つであり、まずテストケースを作成し、その後に実装を行うプロセスである。",
+          "definitionVi": "Phương pháp viết kiểm thử trước rồi viết mã để vượt qua kiểm thử, qua đó hỗ trợ chất lượng và khả năng bảo trì của chương trình."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Test-Driven Development"]
+    },
+    {
+      "id": "user-story",
+      "order": 14,
+      "titleJa": "ユーザーストーリー",
+      "titleVi": "User Story",
+      "importance": "medium",
+      "summaryJa": "開発チームがユーザーのニーズを理解し、ソフトウェア開発を進めるための短い説明文である。",
+      "summaryVi": "Mô tả ngắn về nhu cầu hoặc giá trị mong muốn từ góc nhìn của người dùng để hỗ trợ nhóm phát triển hiểu yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "開発チームがユーザーのニーズを理解し、ソフトウェア開発を進めるための短い説明文である。通常、「私は◯◯をしたい、なぜなら△△だから」という形式で表現され、具体的な機能や望ましい結果に焦点を当てることで、顧客の視点を重視した開発を支援する。例えば、「私はオンラインショップで商品を簡単に見つけたい、なぜなら時間を節約したいから」というユーザーストーリーがあれば、開発チームはそのニーズを反映させた機能を優先的に実装することができる。このアプローチはアジャイル開発において非常に重要であり、ユーザーの反応を迅速にフィードバックとして取り入れることで、より良い製品を提供する手助けとなる。",
+          "vi": "Mô tả ngắn về nhu cầu hoặc giá trị mong muốn từ góc nhìn của người dùng để hỗ trợ nhóm phát triển hiểu yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ユーザーストーリー」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của User Story với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユーザーストーリー",
+          "reading": "",
+          "english": "User Story",
+          "vi": "User Story",
+          "definitionJa": "開発チームがユーザーのニーズを理解し、ソフトウェア開発を進めるための短い説明文である。",
+          "definitionVi": "Mô tả ngắn về nhu cầu hoặc giá trị mong muốn từ góc nhìn của người dùng để hỗ trợ nhóm phát triển hiểu yêu cầu."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "User Story"]
+    },
+    {
+      "id": "mob-programming",
+      "order": 15,
+      "titleJa": "モブプログラミング",
+      "titleVi": "Mob Programming",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発においてチーム全員が一つのコンピュータを使い、協力しながらコードを書く手法である。",
+      "summaryVi": "Cách làm việc trong đó cả nhóm cùng phát triển trên một máy tính, một người thao tác và những người khác cùng định hướng, trao đổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発においてチーム全員が一つのコンピュータを使い、協力しながらコードを書く手法である。この方法では、一人がドライバーとしてキーボードを操作し、他のメンバーがナビゲーターとしてアイデアや意見を出し合う。例えば、全員が集まって会議室で一つの画面を見ながら作業を進める場面が想定される。この手法は、コミュニケーションの促進や問題の早期発見、イノベーションの創出に寄与するため、アジャイル開発の一部として人気が高まっている。また、チームメンバーのスキルや知識を共有しやすいことも大きな利点である。",
+          "vi": "Cách làm việc trong đó cả nhóm cùng phát triển trên một máy tính, một người thao tác và những người khác cùng định hướng, trao đổi."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「モブプログラミング」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mob Programming với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モブプログラミング",
+          "reading": "",
+          "english": "Mob Programming",
+          "vi": "Mob Programming",
+          "definitionJa": "ソフトウェア開発においてチーム全員が一つのコンピュータを使い、協力しながらコードを書く手法である。",
+          "definitionVi": "Cách làm việc trong đó cả nhóm cùng phát triển trên một máy tính, một người thao tác và những người khác cùng định hướng, trao đổi."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Mob Programming"]
+    },
+    {
+      "id": "refactoring",
+      "order": 16,
+      "titleJa": "リファクタリング",
+      "titleVi": "Tái cấu trúc mã",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの内部構造を改善するためのプロセスである。",
+      "summaryVi": "Cải thiện cấu trúc bên trong của mã nguồn mà không làm thay đổi hành vi bên ngoài, nhằm tăng tính dễ đọc và dễ bảo trì.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの内部構造を改善するためのプロセスである。このプロセスでは、既存のコードを変更せずにその形や構造を整理し、可読性や保守性を向上させることを重視する。例えば、複雑な関数を小さな機能に分けて、より理解しやすい形にすることがリファクタリングの一例である。アジャイル開発では、リファクタリングが頻繁に行われることで、ソフトウェアの進化がスムーズになり、新しい機能の追加やバグ修正が容易になる。これにより、チーム全体で効率的に作業を進めることができる。また、リファクタリングを定期的に行うことで、コードの品質を保ち、将来的なトラブルを防ぐことができる。",
+          "vi": "Cải thiện cấu trúc bên trong của mã nguồn mà không làm thay đổi hành vi bên ngoài, nhằm tăng tính dễ đọc và dễ bảo trì."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リファクタリング」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tái cấu trúc mã với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リファクタリング",
+          "reading": "",
+          "english": "Refactoring",
+          "vi": "Tái cấu trúc mã",
+          "definitionJa": "ソフトウェアの内部構造を改善するためのプロセスである。",
+          "definitionVi": "Cải thiện cấu trúc bên trong của mã nguồn mà không làm thay đổi hành vi bên ngoài, nhằm tăng tính dễ đọc và dễ bảo trì."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Refactoring"]
+    },
+    {
+      "id": "retrospective",
+      "order": 17,
+      "titleJa": "ふりかえり",
+      "titleVi": "Họp nhìn lại",
+      "importance": "medium",
+      "summaryJa": "アジャイル開発において、プロジェクトの進行に関する振り返りを行うための会議やプロセスである。",
+      "summaryVi": "Hoạt động nhìn lại quá trình làm việc để xác định điều đã làm tốt, vấn đề và biện pháp cải tiến cho chu kỳ tiếp theo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発において、プロジェクトの進行に関する振り返りを行うための会議やプロセスである。レトロスペクティブともいう。この活動は、チームメンバーがプロジェクトの成果やプロセスを評価し、何がうまくいったのか、何が改善できるのかを話し合う場である。例えば、スプリントの終了時に実施されることが多く、チーム全員が自由に意見を出し合うことでコミュニケーションが促進される。このフレームワークは、次回の作業に向けて具体的な改善案を見出し、チームの効率を向上させるために非常に重要な役割を果たす。これは、チームの士気を高め、より良い成果を目指すための継続的な学びの一環である。",
+          "vi": "Hoạt động nhìn lại quá trình làm việc để xác định điều đã làm tốt, vấn đề và biện pháp cải tiến cho chu kỳ tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ふりかえり」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Họp nhìn lại với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ふりかえり",
+          "reading": "",
+          "english": "Retrospective",
+          "vi": "Họp nhìn lại",
+          "definitionJa": "アジャイル開発において、プロジェクトの進行に関する振り返りを行うための会議やプロセスである。",
+          "definitionVi": "Hoạt động nhìn lại quá trình làm việc để xác định điều đã làm tốt, vấn đề và biện pháp cải tiến cho chu kỳ tiếp theo."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Retrospective"]
+    },
+    {
+      "id": "keep-problem-try",
+      "order": 18,
+      "titleJa": "KPT",
+      "titleVi": "KPT (Keep, Problem, Try)",
+      "importance": "high",
+      "summaryJa": "アジャイル開発における振り返り手法の一つである。",
+      "summaryVi": "Phương pháp retrospective phân loại nội dung thành điều nên tiếp tục, vấn đề cần giải quyết và điều muốn thử trong lần tiếp theo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発における振り返り手法の一つである。この手法は、プロジェクトチームが定期的に行う振り返りの際に、成功したこと（Keep）、問題に感じたこと（Problem）、試してみたいこと（Try）を明確にするプロセスを指す。具体的には、プロジェクトの進行中に発生した良かった点や改善点をまとめ、次回のスプリントやプロジェクトに向けたアクションプランを策定することで、継続的にプロセスを改善していくことを目的としている。チームメンバー全員が参加することで、多様な視点を持つことができ、より効果的なアプローチを生み出す助けとなる。これは、アジャイル開発の継続的改善の理念に基づいた実践である。",
+          "vi": "Phương pháp retrospective phân loại nội dung thành điều nên tiếp tục, vấn đề cần giải quyết và điều muốn thử trong lần tiếp theo."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「KPT」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của KPT (Keep, Problem, Try) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KPT",
+          "reading": "けぷと",
+          "english": "Keep, Problem, Try",
+          "vi": "KPT (Keep, Problem, Try)",
+          "definitionJa": "アジャイル開発における振り返り手法の一つである。",
+          "definitionVi": "Phương pháp retrospective phân loại nội dung thành điều nên tiếp tục, vấn đề cần giải quyết và điều muốn thử trong lần tiếp theo."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Keep, Problem, Try"]
+    },
+    {
+      "id": "continuous-integration",
+      "order": 19,
+      "titleJa": "継続的インテグレーション",
+      "titleVi": "Tích hợp liên tục (CI)",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発の手法の一つであり、頻繁にコードを統合するプロセスである。",
+      "summaryVi": "Thực hành tích hợp mã thường xuyên và tự động chạy build, kiểm thử để phát hiện lỗi tích hợp sớm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発の手法の一つであり、頻繁にコードを統合するプロセスである。開発者が新しいコードをリポジトリに追加するたびに、自動的にビルドやテストが実行され、エラーを早期に発見できる仕組みである。たとえば、複数の開発者が共同で作業する際、各自の変更を日常的に統合することで、最終的なソフトウェアの品質を高めることができる。CIは、迅速なフィードバックを提供し、リリースサイクルを短縮するため、アジャイル開発の重要な要素とされている。また、これによりチームの協力を促進し、一貫したコードの品質を維持することも可能となる。",
+          "vi": "Thực hành tích hợp mã thường xuyên và tự động chạy build, kiểm thử để phát hiện lỗi tích hợp sớm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「継続的インテグレーション」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tích hợp liên tục (CI) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "継続的インテグレーション",
+          "reading": "けいぞくてきいんてぐれーしょん",
+          "english": "Continuous Integration",
+          "vi": "Tích hợp liên tục (CI)",
+          "definitionJa": "ソフトウェア開発の手法の一つであり、頻繁にコードを統合するプロセスである。",
+          "definitionVi": "Thực hành tích hợp mã thường xuyên và tự động chạy build, kiểm thử để phát hiện lỗi tích hợp sớm."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Continuous Integration"]
+    },
+    {
+      "id": "pair-programming",
+      "order": 20,
+      "titleJa": "ペアプログラミング",
+      "titleVi": "Lập trình cặp",
+      "importance": "high",
+      "summaryJa": "二人のプログラマーが一つのコンピュータを使って共同でコードを書く手法である。",
+      "summaryVi": "Hai lập trình viên cùng làm việc trên một máy tính, thường gồm một Driver viết mã và một Navigator quan sát, xem xét và định hướng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "二人のプログラマーが一つのコンピュータを使って共同でコードを書く手法である。この手法は、主にエクストリームプログラミング（XP）の一環として採用されている。ペアプログラミングでは、一人が「ドライバー」として実際にコードを入力し、もう一人が「ナビゲーター」としてその内容を確認しながらアイデアを出す役割を果たす。このあり方により、リアルタイムで問題を共有し、迅速なフィードバックが得られるため、コードの品質向上やバグの早期発見が期待される。また、知識の共有やコミュニケーションを促進することで、チーム全体のスキル向上にも寄与する。",
+          "vi": "Hai lập trình viên cùng làm việc trên một máy tính, thường gồm một Driver viết mã và một Navigator quan sát, xem xét và định hướng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ペアプログラミング」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Lập trình cặp với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ペアプログラミング",
+          "reading": "",
+          "english": "Pair Programming",
+          "vi": "Lập trình cặp",
+          "definitionJa": "二人のプログラマーが一つのコンピュータを使って共同でコードを書く手法である。",
+          "definitionVi": "Hai lập trình viên cùng làm việc trên một máy tính, thường gồm một Driver viết mã và một Navigator quan sát, xem xét và định hướng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Pair Programming"]
+    },
+    {
+      "id": "source-code-ownership",
+      "order": 21,
+      "titleJa": "ソースコードの共同所有",
+      "titleVi": "Sở hữu mã nguồn tập thể",
+      "importance": "medium",
+      "summaryJa": "エクストリームプログラミング（XP）において、開発チーム全体がソースコードに対して責任を持つという考え方である。",
+      "summaryVi": "Quan niệm trong XP rằng toàn bộ nhóm cùng chịu trách nhiệm về mã nguồn và các thành viên có thể sửa đổi phần mã cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "エクストリームプログラミング（XP）において、開発チーム全体がソースコードに対して責任を持つという考え方である。このアプローチでは、個々の開発者が特定のコード部分に対して独占的な所有権を持たず、すべてのコードがチームによって共有され、常に誰でもアクセスできる状態となっている。たとえば、ある開発者が機能を実装した場合でも、他のメンバーがそのコードを変更したり改善したりすることが許可されている。これにより、コードの品質や保守性が向上するほか、チーム内のコミュニケーションが活性化し、プロジェクト全体の進行がスムーズになることが期待される。",
+          "vi": "Quan niệm trong XP rằng toàn bộ nhóm cùng chịu trách nhiệm về mã nguồn và các thành viên có thể sửa đổi phần mã cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ソースコードの共同所有」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Sở hữu mã nguồn tập thể với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソースコードの共同所有",
+          "reading": "そーすこーどのきょうどうしょゆう",
+          "english": "Source Code Ownership",
+          "vi": "Sở hữu mã nguồn tập thể",
+          "definitionJa": "エクストリームプログラミング（XP）において、開発チーム全体がソースコードに対して責任を持つという考え方である。",
+          "definitionVi": "Quan niệm trong XP rằng toàn bộ nhóm cùng chịu trách nhiệm về mã nguồn và các thành viên có thể sửa đổi phần mã cần thiết."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Source Code Ownership"]
+    },
+    {
+      "id": "you-arent-gonna-need-it",
+      "order": 22,
+      "titleJa": "YAGNI",
+      "titleVi": "YAGNI",
+      "importance": "high",
+      "summaryJa": "プログラム開発において「あなたはそれを必要としない」と訳される原則である。",
+      "summaryVi": "Nguyên tắc không triển khai trước những chức năng chưa thực sự cần thiết, tránh thiết kế quá mức và chi phí không cần thiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラム開発において「あなたはそれを必要としない」と訳される原則である。この原則は、エクストリームプログラミング（XP）の特徴の一つとして、開発者に対して不要な機能を事前に実装しないことを促すものである。具体的には、将来の要件を過剰に見越して複雑な設計や機能を加えるのではなく、現時点で必要な機能だけに集中することが重要である。これにより、開発プロセスの効率を高め、不要なコストや時間の無駄を減少させることが可能となる。シンプルでメンテナンスの容易なコードを作成するための重要な指針とされており、柔軟な開発チームを支える基本的な考え方である。",
+          "vi": "Nguyên tắc không triển khai trước những chức năng chưa thực sự cần thiết, tránh thiết kế quá mức và chi phí không cần thiết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「YAGNI」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của YAGNI với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "YAGNI",
+          "reading": "やぐに",
+          "english": "You Aren't Gonna Need It",
+          "vi": "YAGNI",
+          "definitionJa": "プログラム開発において「あなたはそれを必要としない」と訳される原則である。",
+          "definitionVi": "Nguyên tắc không triển khai trước những chức năng chưa thực sự cần thiết, tránh thiết kế quá mức và chi phí không cần thiết."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "You Aren't Gonna Need It"]
+    },
+    {
+      "id": "scrum-team",
+      "order": 23,
+      "titleJa": "スクラムチーム",
+      "titleVi": "Nhóm Scrum",
+      "importance": "medium",
+      "summaryJa": "アジャイル開発手法の一つであるスクラムにおいて、プロダクトオーナー、開発者、スクラムマスターから構成されるチームのことである。",
+      "summaryVi": "Nhóm Scrum gồm Product Owner, Developers và Scrum Master cùng phối hợp để tạo ra giá trị sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発手法の一つであるスクラムにおいて、プロダクトオーナー、開発者、スクラムマスターから構成されるチームのことである。プロダクトオーナーは、製品のビジョンを明確にし、優先順位をつけてバックログを管理する役割を持つ。一方、開発者は実際に製品を作成するメンバーであり、必要な技術やスキルを活用して機能を実装する。その上で、スクラムマスターはチームがスクラムのプロセスに従い、効率よく作業するためのサポートを行う役割を担っている。このように、それぞれの役割が協力して製品開発を進めることで、高品質なプロダクトを迅速に届けることが可能となる。コミュニケーションやフィードバックを重視し、柔軟な対応ができる点が特徴である。",
+          "vi": "Nhóm Scrum gồm Product Owner, Developers và Scrum Master cùng phối hợp để tạo ra giá trị sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スクラムチーム」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Nhóm Scrum với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スクラムチーム",
+          "reading": "",
+          "english": "Scrum Team",
+          "vi": "Nhóm Scrum",
+          "definitionJa": "アジャイル開発手法の一つであるスクラムにおいて、プロダクトオーナー、開発者、スクラムマスターから構成されるチームのことである。",
+          "definitionVi": "Nhóm Scrum gồm Product Owner, Developers và Scrum Master cùng phối hợp để tạo ra giá trị sản phẩm."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Scrum Team"]
+    },
+    {
+      "id": "sprint",
+      "order": 24,
+      "titleJa": "スプリント",
+      "titleVi": "Sprint",
+      "importance": "high",
+      "summaryJa": "スクラム開発における作業の時間区切りを表す概念である。",
+      "summaryVi": "Khoảng thời gian cố định trong Scrum, thường từ một tuần đến một tháng, trong đó nhóm hướng tới tạo ra một kết quả có giá trị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スクラム開発における作業の時間区切りを表す概念である。通常、1週間から1ヶ月の間で設定され、その期間中に特定の成果物を完成させることを目的とする。例えば、ソフトウェア開発において、スプリント期間中に新しい機能を開発し、テストを行ってリリースするプロセスがこれに該当する。スプリントの特徴により、短いサイクルでの反復作業が実現され、チームは迅速にフィードバックを受け取ることができる。これにより、顧客のニーズに柔軟に対応しやすくなり、開発プロセス全体の改善にも寄与する。スプリントレビューやスプリントレトロスペクティブを通じて、チームは成果を評価し、次回のスプリントに生かすことができる。",
+          "vi": "Khoảng thời gian cố định trong Scrum, thường từ một tuần đến một tháng, trong đó nhóm hướng tới tạo ra một kết quả có giá trị."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スプリント」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Sprint với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スプリント",
+          "reading": "",
+          "english": "Sprint",
+          "vi": "Sprint",
+          "definitionJa": "スクラム開発における作業の時間区切りを表す概念である。",
+          "definitionVi": "Khoảng thời gian cố định trong Scrum, thường từ một tuần đến một tháng, trong đó nhóm hướng tới tạo ra một kết quả có giá trị."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Sprint"]
+    },
+    {
+      "id": "product-backlog",
+      "order": 25,
+      "titleJa": "プロダクトバックログ",
+      "titleVi": "Product Backlog",
+      "importance": "high",
+      "summaryJa": "スクラム開発において、製品に必要な機能や要件をリスト化したものである。",
+      "summaryVi": "Danh sách được ưu tiên hóa các chức năng, yêu cầu, sửa lỗi và cải tiến cần thiết cho sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スクラム開発において、製品に必要な機能や要件をリスト化したものである。これは、開発チームが製品を作成するために優先順位をつけるべき項目の集まりであり、ユーザーのニーズやビジネスの要件に基づいて作成される。具体的には、新機能の追加やバグ修正、改善点が含まれることが多い。定期的に見直されることで、日々変化するニーズに対応しやすくなっている。また、開発チームは、このバックログをもとにスプリント計画を策定し、効率的な作業を行うことができる。これは、アジャイルな開発手法の重要な要素となっている。",
+          "vi": "Danh sách được ưu tiên hóa các chức năng, yêu cầu, sửa lỗi và cải tiến cần thiết cho sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プロダクトバックログ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Product Backlog với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロダクトバックログ",
+          "reading": "",
+          "english": "Product Backlog",
+          "vi": "Product Backlog",
+          "definitionJa": "スクラム開発において、製品に必要な機能や要件をリスト化したものである。",
+          "definitionVi": "Danh sách được ưu tiên hóa các chức năng, yêu cầu, sửa lỗi và cải tiến cần thiết cho sản phẩm."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Product Backlog"]
+    },
+    {
+      "id": "sprint-backlog",
+      "order": 26,
+      "titleJa": "スプリントバックログ",
+      "titleVi": "Sprint Backlog",
+      "importance": "high",
+      "summaryJa": "アジャイル開発手法の一つであるスクラムにおける用語で、特定のスプリント期間中にチームが完了することを目指す作業項目のリストである。",
+      "summaryVi": "Tập hợp các hạng mục và công việc được lựa chọn cho một Sprint để nhóm hướng tới Sprint Goal.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アジャイル開発手法の一つであるスクラムにおける用語で、特定のスプリント期間中にチームが完了することを目指す作業項目のリストである。このリストには、プロダクトバックログから選ばれた優先度の高いアイテムが含まれ、開発チームが作業を進める際の具体的な目標が示される。例えば、一つのスプリントの中で新しい機能の実装やバグの修正を行うタスクがスプリントバックログとしてまとめられる。このように、スプリントバックログはチームの進捗を管理し、目標達成のための指針を提供する重要な役割を持っている。スプリントが進むにつれて、未完了のタスクや新たに発生した課題に応じて、バックログは柔軟に更新される。",
+          "vi": "Tập hợp các hạng mục và công việc được lựa chọn cho một Sprint để nhóm hướng tới Sprint Goal."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「スプリントバックログ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Sprint Backlog với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スプリントバックログ",
+          "reading": "",
+          "english": "Sprint Backlog",
+          "vi": "Sprint Backlog",
+          "definitionJa": "アジャイル開発手法の一つであるスクラムにおける用語で、特定のスプリント期間中にチームが完了することを目指す作業項目のリストである。",
+          "definitionVi": "Tập hợp các hạng mục và công việc được lựa chọn cho một Sprint để nhóm hướng tới Sprint Goal."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Sprint Backlog"]
+    },
+    {
+      "id": "site-reliability-engineering",
+      "order": 27,
+      "titleJa": "SRE",
+      "titleVi": "Kỹ thuật độ tin cậy hệ thống (SRE)",
+      "importance": "medium",
+      "summaryJa": "システムの信頼性を高めるための手法であり、主にソフトウェア開発と運用を融合させることを目的としている。",
+      "summaryVi": "Cách tiếp cận dùng kỹ thuật phần mềm để nâng cao độ tin cậy, khả năng vận hành và hiệu quả xử lý sự cố của dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの信頼性を高めるための手法であり、主にソフトウェア開発と運用を融合させることを目的としている。サービスの安定性やパフォーマンスを確保し、トラブルシューティングの効率を向上させるために、エンジニアリング技術を活用する考え方である。例えば、大規模なWebサービスでは、全体の稼働率を維持するために、監視システムを使ってリアルタイムでパフォーマンスをチェックし、自動で問題を修正する仕組みを導入することがある。これにより、迅速な障害対応が可能となり、ユーザーに快適な体験を提供する。このように信頼性を重視した開発・運用の文化を育むことに寄与している。",
+          "vi": "Cách tiếp cận dùng kỹ thuật phần mềm để nâng cao độ tin cậy, khả năng vận hành và hiệu quả xử lý sự cố của dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「SRE」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Kỹ thuật độ tin cậy hệ thống (SRE) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SRE",
+          "reading": "えすあーるいー",
+          "english": "Site Reliability Engineering",
+          "vi": "Kỹ thuật độ tin cậy hệ thống (SRE)",
+          "definitionJa": "システムの信頼性を高めるための手法であり、主にソフトウェア開発と運用を融合させることを目的としている。",
+          "definitionVi": "Cách tiếp cận dùng kỹ thuật phần mềm để nâng cao độ tin cậy, khả năng vận hành và hiệu quả xử lý sự cố của dịch vụ."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Site Reliability Engineering"]
+    },
+    {
+      "id": "continuous-delivery",
+      "order": 28,
+      "titleJa": "継続的デリバリー",
+      "titleVi": "Phân phối liên tục",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発において、コードの変更を迅速かつ安全に本番環境へリリースするプロセスである。",
+      "summaryVi": "Thực hành duy trì phần mềm ở trạng thái có thể phát hành thường xuyên thông qua tự động hóa build, kiểm thử và quy trình phân phối.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、コードの変更を迅速かつ安全に本番環境へリリースするプロセスである。この手法は、開発者が新しい機能や修正を短いサイクルで提供できるようにし、通常は自動化ツールを使用してテストやデプロイを行う。例えば、新しい機能を開発した際、変更を加えるたびに自動でテストが実行され、問題がなければ即座に本番環境にリリースされる。このようにして、利用者は常に最新の機能やバグ修正を迅速に利用できる。ただし、継続的デリバリーには、信頼性の高いテスト環境や自動化技術が不可欠であり、企業の開発フローを効率化する助けとなる。",
+          "vi": "Thực hành duy trì phần mềm ở trạng thái có thể phát hành thường xuyên thông qua tự động hóa build, kiểm thử và quy trình phân phối."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「継続的デリバリー」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Phân phối liên tục với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "継続的デリバリー",
+          "reading": "けいぞくてきでりばりー",
+          "english": "Continuous Delivery",
+          "vi": "Phân phối liên tục",
+          "definitionJa": "ソフトウェア開発において、コードの変更を迅速かつ安全に本番環境へリリースするプロセスである。",
+          "definitionVi": "Thực hành duy trì phần mềm ở trạng thái có thể phát hành thường xuyên thông qua tự động hóa build, kiểm thử và quy trình phân phối."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Continuous Delivery"]
+    },
+    {
+      "id": "continuous-deployment",
+      "order": 29,
+      "titleJa": "継続的デプロイ",
+      "titleVi": "Triển khai liên tục",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの更新を自動化し、変更内容を迅速に本番環境に反映させるプロセスである。",
+      "summaryVi": "Thực hành tự động đưa thay đổi đã vượt qua các kiểm tra cần thiết lên môi trường production.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの更新を自動化し、変更内容を迅速に本番環境に反映させるプロセスである。この手法は、DevOpsの理念を基にしており、開発者が行ったコードの変更が自動的にテストとデプロイを経て、利用者に提供されることを目的としている。例えば、新機能やバグ修正を行った際、その変更がテストをパスすればすぐに本番環境に公開されるため、迅速なサービス提供が可能となる。これにより、フィードバックを得ながらソフトウェアを改善し続けられるため、ユーザーのニーズに迅速に応えることができる。ソフトウェア開発の効率性と品質向上を図る重要な手段として広く利用されている。",
+          "vi": "Thực hành tự động đưa thay đổi đã vượt qua các kiểm tra cần thiết lên môi trường production."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「継続的デプロイ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Triển khai liên tục với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "継続的デプロイ",
+          "reading": "けいぞくてきでぷろい",
+          "english": "Continuous Deployment",
+          "vi": "Triển khai liên tục",
+          "definitionJa": "ソフトウェアの更新を自動化し、変更内容を迅速に本番環境に反映させるプロセスである。",
+          "definitionVi": "Thực hành tự động đưa thay đổi đã vượt qua các kiểm tra cần thiết lên môi trường production."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Continuous Deployment"]
+    },
+    {
+      "id": "chaos-engineering",
+      "order": 30,
+      "titleJa": "カオスエンジニアリング",
+      "titleVi": "Chaos Engineering",
+      "importance": "medium",
+      "summaryJa": "システムの信頼性を向上させるための手法である。",
+      "summaryVi": "Phương pháp chủ động tạo ra các tình huống lỗi có kiểm soát để kiểm chứng khả năng chịu lỗi và phục hồi của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの信頼性を向上させるための手法である。この手法では、意図的に障害や予期しない状況をシステムに導入し、その反応を観察することで、実際の運用環境での耐障害性を検証する。例えば、サーバの一部を停止させたり、ネットワークの遅延を意図的に発生させたりすることで、システム全体の動作をテストすることができる。この工程により、潜在的な問題を早期に発見し、リカバリ手順や対応策を整備することで、システムの安定性やユーザー体験を向上させることが目的である。DevOps文化の中で特に重視されており、継続的な改善と迅速な対応を実現するための重要な要素とされている。",
+          "vi": "Phương pháp chủ động tạo ra các tình huống lỗi có kiểm soát để kiểm chứng khả năng chịu lỗi và phục hồi của hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「カオスエンジニアリング」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Chaos Engineering với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カオスエンジニアリング",
+          "reading": "",
+          "english": "Chaos Engineering",
+          "vi": "Chaos Engineering",
+          "definitionJa": "システムの信頼性を向上させるための手法である。",
+          "definitionVi": "Phương pháp chủ động tạo ra các tình huống lỗi có kiểm soát để kiểm chứng khả năng chịu lỗi và phục hồi của hệ thống."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Chaos Engineering"]
+    },
+    {
+      "id": "devsecops",
+      "order": 31,
+      "titleJa": "DevSecOps",
+      "titleVi": "DevSecOps",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの開発プロセスにおいて、セキュリティを組み込むための手法である。",
+      "summaryVi": "Cách tiếp cận tích hợp bảo mật vào quá trình phát triển và vận hành ngay từ sớm, kết hợp kiểm tra và giám sát liên tục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの開発プロセスにおいて、セキュリティを組み込むための手法である。これは、開発（Dev）、運用（Ops）、そしてセキュリティ（Sec）を一体化させることで、より安全なソフトウェアを迅速に提供することを目指している。具体的には、開発の初期段階からセキュリティの考慮を組み込み、コードのレビューや自動テストを行うことで、脆弱性を早期に発見・修正することができる。また、継続的な監視や運用環境におけるセキュリティの強化も含まれるため、リリース後のリスクを軽減できる。こうした手法は、クラウド環境やアジャイル開発において特に重視されており、安全で効率的なソフトウェア開発に貢献している。",
+          "vi": "Cách tiếp cận tích hợp bảo mật vào quá trình phát triển và vận hành ngay từ sớm, kết hợp kiểm tra và giám sát liên tục."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「DevSecOps」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của DevSecOps với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DevSecOps",
+          "reading": "でぶせくおぷす",
+          "english": "DevSecOps",
+          "vi": "DevSecOps",
+          "definitionJa": "ソフトウェアの開発プロセスにおいて、セキュリティを組み込むための手法である。",
+          "definitionVi": "Cách tiếp cận tích hợp bảo mật vào quá trình phát triển và vận hành ngay từ sớm, kết hợp kiểm tra và giám sát liên tục."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "DevSecOps"]
+    },
+    {
+      "id": "module-independence",
+      "order": 32,
+      "titleJa": "モジュールの独立性",
+      "titleVi": "Tính độc lập của mô-đun",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアにおいて一つのモジュールが他のモジュールに依存せずに機能する能力を指す。",
+      "summaryVi": "Mức độ một mô-đun có thể hoạt động, sửa đổi và kiểm thử với ít phụ thuộc vào các mô-đun khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアにおいて一つのモジュールが他のモジュールに依存せずに機能する能力を指す。モジュールが独立していることで、情報の共有や変更が容易になり、全体のシステムに影響を与えることなく個別に改修やテストを行うことが可能となる。例えば、あるソフトウェアの一部が新しい機能を追加するために変更されても、他の部分がその変更によって動作に支障をきたさない仕組みが求められる。このような独立性は、再利用性を向上させ、ソフトウェア開発の効率性を高める上で重要な要素である。モジュール間の繋がりが少なくなることで、メンテナンスの手間も軽減される特徴がある。",
+          "vi": "Mức độ một mô-đun có thể hoạt động, sửa đổi và kiểm thử với ít phụ thuộc vào các mô-đun khác."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「モジュールの独立性」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tính độc lập của mô-đun với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モジュールの独立性",
+          "reading": "もじゅーるのどくりつせい",
+          "english": "Module Independence",
+          "vi": "Tính độc lập của mô-đun",
+          "definitionJa": "ソフトウェアにおいて一つのモジュールが他のモジュールに依存せずに機能する能力を指す。",
+          "definitionVi": "Mức độ một mô-đun có thể hoạt động, sửa đổi và kiểm thử với ít phụ thuộc vào các mô-đun khác."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Module Independence"]
+    },
+    {
+      "id": "standardization",
+      "order": 33,
+      "titleJa": "標準化",
+      "titleVi": "Tiêu chuẩn hóa",
+      "importance": "medium",
+      "summaryJa": "製品やサービスの品質や性能を一定の基準で統一するプロセスである。",
+      "summaryVi": "Quá trình thống nhất sản phẩm, giao diện, dữ liệu hoặc quy trình theo các tiêu chuẩn nhằm tăng khả năng tương thích và tái sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスの品質や性能を一定の基準で統一するプロセスである。ソフトウェアの分野においては、標準化が行われることで、異なるシステム間での相互運用性が向上し、再利用性が促進される。例えば、プログラムのインターフェースやデータ形式に関する標準が定められることで、新しいソフトウェアを開発する際に既存のコードやモジュールを活用しやすくなる。これにより、開発コストの削減や納期の短縮が可能となり、効率的なソフトウェア開発が実現される。標準化は業界全体の成熟や競争力の向上にも寄与する重要な要素である。",
+          "vi": "Quá trình thống nhất sản phẩm, giao diện, dữ liệu hoặc quy trình theo các tiêu chuẩn nhằm tăng khả năng tương thích và tái sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「標準化」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tiêu chuẩn hóa với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "標準化",
+          "reading": "ひょうじゅんか",
+          "english": "Standardization",
+          "vi": "Tiêu chuẩn hóa",
+          "definitionJa": "製品やサービスの品質や性能を一定の基準で統一するプロセスである。",
+          "definitionVi": "Quá trình thống nhất sản phẩm, giao diện, dữ liệu hoặc quy trình theo các tiêu chuẩn nhằm tăng khả năng tương thích và tái sử dụng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Standardization"]
+    },
+    {
+      "id": "customize",
+      "order": 34,
+      "titleJa": "カスタマイズ",
+      "titleVi": "Tùy biến",
+      "importance": "medium",
+      "summaryJa": "既存のソフトウェアや製品を特定のニーズに合わせて変更することを指す。",
+      "summaryVi": "Điều chỉnh phần mềm hoặc sản phẩm có sẵn để phù hợp với yêu cầu cụ thể của người dùng hoặc tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "既存のソフトウェアや製品を特定のニーズに合わせて変更することを指す。カスタマイズによって、ユーザーは自分の要求に最も適した機能や操作性を実現できるため、使い勝手や効率が向上する。例えば、企業が業務用ソフトウェアを導入する際、標準機能では満たされない特別な要件に応じて、画面のレイアウトや機能の追加・削除を行うことがカスタマイズの一例である。また、ソフトウェア再利用の観点からも、カスタマイズは価値があり、多くの企業が効率的な開発を目指して、この手法を活用している。こうした変更は、ユーザーの要望に応じた適切なソリューションを提供し、利用者満足度を高める要因となる。",
+          "vi": "Điều chỉnh phần mềm hoặc sản phẩm có sẵn để phù hợp với yêu cầu cụ thể của người dùng hoặc tổ chức."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「カスタマイズ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tùy biến với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カスタマイズ",
+          "reading": "",
+          "english": "Customize",
+          "vi": "Tùy biến",
+          "definitionJa": "既存のソフトウェアや製品を特定のニーズに合わせて変更することを指す。",
+          "definitionVi": "Điều chỉnh phần mềm hoặc sản phẩm có sẵn để phù hợp với yêu cầu cụ thể của người dùng hoặc tổ chức."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Customize"]
+    },
+    {
+      "id": "reverse-engineering",
+      "order": 35,
+      "titleJa": "リバースエンジニアリング",
+      "titleVi": "Kỹ thuật đảo ngược",
+      "importance": "high",
+      "summaryJa": "既存の製品やシステムを分析し、その構造や機能を理解する過程を指す。",
+      "summaryVi": "Phân tích một sản phẩm hoặc hệ thống hiện có để hiểu cấu trúc, chức năng và cách hoạt động của nó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "既存の製品やシステムを分析し、その構造や機能を理解する過程を指す。これは、新しい製品の開発や改良に役立てるために行われる。具体的には、ソフトウェアの動作を解析することで、その背後にあるアルゴリズムやデータ処理のロジックを明らかにしたり、ハードウェアの場合は、部品や設計を確認して新たな設計に生かしたりすることが含まれる。リバースエンジニアリングは技術者によって非常に重要視されており、競合製品の特性を理解する手段として広く利用されている。しかし、一方で著作権や特許に関する法的な問題が伴うため、倫理的な配慮も求められることがある。例えば、古いソフトウェアの互換性を保持するために、そのソフトウェアを解析して新たな環境で動作させることが行われることがある。",
+          "vi": "Phân tích một sản phẩm hoặc hệ thống hiện có để hiểu cấu trúc, chức năng và cách hoạt động của nó."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「リバースエンジニアリング」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Kỹ thuật đảo ngược với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リバースエンジニアリング",
+          "reading": "",
+          "english": "Reverse Engineering",
+          "vi": "Kỹ thuật đảo ngược",
+          "definitionJa": "既存の製品やシステムを分析し、その構造や機能を理解する過程を指す。",
+          "definitionVi": "Phân tích một sản phẩm hoặc hệ thống hiện có để hiểu cấu trúc, chức năng và cách hoạt động của nó."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Reverse Engineering"]
+    },
+    {
+      "id": "compatibility",
+      "order": 36,
+      "titleJa": "互換性",
+      "titleVi": "Khả năng tương thích",
+      "importance": "medium",
+      "summaryJa": "異なるシステムやソフトウェアが相互に利用可能である状態を指す。",
+      "summaryVi": "Khả năng các hệ thống, phần mềm, phiên bản hoặc thiết bị khác nhau có thể hoạt động hoặc trao đổi dữ liệu với nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるシステムやソフトウェアが相互に利用可能である状態を指す。特にリバースエンジニアリングの分野では、あるソフトウェアやハードウェアが他の仕様やバージョンとどの程度連携できるかを評価することが重要である。例えば、新しいゲーム機が古いソフトを動作させることができる場合、そのゲーム機は互換性を持っていると言える。また、プログラムのバージョンが異なってもデータのやり取りがスムーズに行えることは、互換性の一例であり、これが実現されることで利用者にとっての利便性が向上する。これは、特定の環境や条件に依存せずに、さまざまなデバイスやプラットフォームでソフトウェアを動作させるために不可欠な要素である。",
+          "vi": "Khả năng các hệ thống, phần mềm, phiên bản hoặc thiết bị khác nhau có thể hoạt động hoặc trao đổi dữ liệu với nhau."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「互換性」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Khả năng tương thích với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "互換性",
+          "reading": "ごかんせい",
+          "english": "Compatibility",
+          "vi": "Khả năng tương thích",
+          "definitionJa": "異なるシステムやソフトウェアが相互に利用可能である状態を指す。",
+          "definitionVi": "Khả năng các hệ thống, phần mềm, phiên bản hoặc thiết bị khác nhau có thể hoạt động hoặc trao đổi dữ liệu với nhau."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Compatibility"]
+    },
+    {
+      "id": "call-graph",
+      "order": 37,
+      "titleJa": "コールグラフ",
+      "titleVi": "Đồ thị lời gọi",
+      "importance": "medium",
+      "summaryJa": "プログラムの実行中に関数やメソッドの呼び出し関係を示す図である。",
+      "summaryVi": "Đồ thị biểu diễn quan hệ gọi giữa các hàm hoặc phương thức, hữu ích khi phân tích cấu trúc và hành vi chương trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムの実行中に関数やメソッドの呼び出し関係を示す図である。このグラフは、ノード（点）とエッジ（線）で構成され、ノードは関数を表し、エッジは呼び出しの関係を示す。リバースエンジニアリングの分野において、コールグラフはソフトウェアの内部構造を理解するために非常に有用である。たとえば、特定の関数が他の複数の関数からどのように呼び出されているかを視覚的に把握することで、プログラムの挙動を分析したり、バグの原因を特定したりする際に役立つ。また、コードの最適化やリファクタリングにおいても、コールグラフを参考にすることで、効率的な改善策を見つけることができる。",
+          "vi": "Đồ thị biểu diễn quan hệ gọi giữa các hàm hoặc phương thức, hữu ích khi phân tích cấu trúc và hành vi chương trình."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「コールグラフ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Đồ thị lời gọi với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コールグラフ",
+          "reading": "",
+          "english": "Call Graph",
+          "vi": "Đồ thị lời gọi",
+          "definitionJa": "プログラムの実行中に関数やメソッドの呼び出し関係を示す図である。",
+          "definitionVi": "Đồ thị biểu diễn quan hệ gọi giữa các hàm hoặc phương thức, hữu ích khi phân tích cấu trúc và hành vi chương trình."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Call Graph"]
+    },
+    {
+      "id": "presentation-mashup",
+      "order": 38,
+      "titleJa": "プレゼンテーションマッシュアップ",
+      "titleVi": "Presentation Mashup",
+      "importance": "medium",
+      "summaryJa": "異なる情報やデータソースを組み合わせて、視覚的に魅力的な発表資料を作成する手法を指す。",
+      "summaryVi": "Cách kết hợp nhiều loại nội dung hoặc nguồn thông tin khác nhau thành một phần trình bày trực quan thống nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なる情報やデータソースを組み合わせて、視覚的に魅力的な発表資料を作成する手法を指す。具体的には、動画、画像、テキストなど様々な形式のコンテンツを一つのプレゼンテーションに統合することができ、これにより洪水のような情報を効果的に整理・伝達できる。例えば、Googleマップの地図をスライドに挿入し、特定の場所についてのデータをグラフとして表示することで、より分かりやすい説明を行うことができる。教育、ビジネス、マーケティングなど多様な分野で利用されており、視覚的要素とデータの融合によって聴衆の理解を深め、興味を引く効果がある。",
+          "vi": "Cách kết hợp nhiều loại nội dung hoặc nguồn thông tin khác nhau thành một phần trình bày trực quan thống nhất."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「プレゼンテーションマッシュアップ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Presentation Mashup với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プレゼンテーションマッシュアップ",
+          "reading": "",
+          "english": "Presentation Mashup",
+          "vi": "Presentation Mashup",
+          "definitionJa": "異なる情報やデータソースを組み合わせて、視覚的に魅力的な発表資料を作成する手法を指す。",
+          "definitionVi": "Cách kết hợp nhiều loại nội dung hoặc nguồn thông tin khác nhau thành một phần trình bày trực quan thống nhất."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Presentation Mashup"]
+    },
+    {
+      "id": "data-mashup",
+      "order": 39,
+      "titleJa": "データマッシュアップ",
+      "titleVi": "Data Mashup",
+      "importance": "medium",
+      "summaryJa": "異なるデータソースからの情報を統合し、新たなデータセットを作り出す技術である。",
+      "summaryVi": "Kỹ thuật kết hợp dữ liệu từ nhiều nguồn để tạo ra một tập dữ liệu hoặc thông tin mới có giá trị hơn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるデータソースからの情報を統合し、新たなデータセットを作り出す技術である。これにより、例えば、複数のWebサービスやデータベースからの情報を組み合わせて、より有益なインサイトを得ることが可能となる。具体例としては、地図サービスと天候情報を組み合わせて、特定の地域の天気を表示するアプリケーションが挙げられる。この手法は、ビジネスやマーケティングにおいても広く利用され、効率的な意思決定を支援するツールとして機能する。また、データマッシュアップにより、利用者はさまざまな情報を一つのプラットフォームで簡単にアクセスすることができ、データの価値を最大限に引き出すことができる。",
+          "vi": "Kỹ thuật kết hợp dữ liệu từ nhiều nguồn để tạo ra một tập dữ liệu hoặc thông tin mới có giá trị hơn."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「データマッシュアップ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Data Mashup với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データマッシュアップ",
+          "reading": "",
+          "english": "Data Mashup",
+          "vi": "Data Mashup",
+          "definitionJa": "異なるデータソースからの情報を統合し、新たなデータセットを作り出す技術である。",
+          "definitionVi": "Kỹ thuật kết hợp dữ liệu từ nhiều nguồn để tạo ra một tập dữ liệu hoặc thông tin mới có giá trị hơn."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Data Mashup"]
+    },
+    {
+      "id": "logic-mashup",
+      "order": 40,
+      "titleJa": "ロジックマッシュアップ",
+      "titleVi": "Logic Mashup",
+      "importance": "medium",
+      "summaryJa": "異なる情報源やサービスを組み合わせて、新しい機能やサービスを作り出す手法である。",
+      "summaryVi": "Cách kết hợp chức năng hoặc dịch vụ từ nhiều nguồn để tạo ra một chức năng hay dịch vụ mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なる情報源やサービスを組み合わせて、新しい機能やサービスを作り出す手法である。これは、Webサービスやデータベースなど、さまざまなデジタルリソースを統合し、利用者にとって便利な形で提供することを目的としている。例えば、地図サービスとレストラン情報を組み合わせて、特定の地点周辺の飲食店を表示するアプリがロジックマッシュアップの一例である。このように、利用者が求める情報をより視覚的かつ直感的に見せることで、ユーザー体験を向上させることが可能になる。また、プログラミングなしで簡単にデータを結合し、オリジナルなアプリケーションを作成できるツールも増えており、これによりより多くの人々がロジックマッシュアップを活用できるようになっている。",
+          "vi": "Cách kết hợp chức năng hoặc dịch vụ từ nhiều nguồn để tạo ra một chức năng hay dịch vụ mới."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ロジックマッシュアップ」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Logic Mashup với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロジックマッシュアップ",
+          "reading": "",
+          "english": "Logic Mashup",
+          "vi": "Logic Mashup",
+          "definitionJa": "異なる情報源やサービスを組み合わせて、新しい機能やサービスを作り出す手法である。",
+          "definitionVi": "Cách kết hợp chức năng hoặc dịch vụ từ nhiều nguồn để tạo ra một chức năng hay dịch vụ mới."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Logic Mashup"]
+    },
+    {
+      "id": "mobile-web-application-software",
+      "order": 41,
+      "titleJa": "モバイル用Webアプリケーションソフトウェア",
+      "titleVi": "Ứng dụng Web cho thiết bị di động",
+      "importance": "medium",
+      "summaryJa": "スマートフォンやタブレットなどのモバイルデバイスで利用されるWebベースのアプリケーションである。",
+      "summaryVi": "Ứng dụng dựa trên Web được sử dụng qua trình duyệt trên điện thoại hoặc máy tính bảng và thường không cần cài đặt trực tiếp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スマートフォンやタブレットなどのモバイルデバイスで利用されるWebベースのアプリケーションである。この種のアプリは、インターネットブラウザを通じてアクセスされるため、ユーザーはアプリをデバイスに直接インストールする必要がない。その利点として、プラットフォームに依存せずに多くのデバイスで利用できる点が挙げられる。さらに、開発者は一つのコードベースで複数のデバイスに対応できるため、開発効率が高くなる。また、ユーザーが最新の機能や情報をすぐに利用できるよう、常に更新が可能な点も特徴である。",
+          "vi": "Ứng dụng dựa trên Web được sử dụng qua trình duyệt trên điện thoại hoặc máy tính bảng và thường không cần cài đặt trực tiếp."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「モバイル用Webアプリケーションソフトウェア」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Ứng dụng Web cho thiết bị di động với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モバイル用Webアプリケーションソフトウェア",
+          "reading": "もばいるよううぇぶあぷりけーしょんそふとうぇあ",
+          "english": "Mobile Web Application Software",
+          "vi": "Ứng dụng Web cho thiết bị di động",
+          "definitionJa": "スマートフォンやタブレットなどのモバイルデバイスで利用されるWebベースのアプリケーションである。",
+          "definitionVi": "Ứng dụng dựa trên Web được sử dụng qua trình duyệt trên điện thoại hoặc máy tính bảng và thường không cần cài đặt trực tiếp."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Mobile Web Application Software"]
+    },
+    {
+      "id": "native-application-software",
+      "order": 42,
+      "titleJa": "ネイティブアプリケーションソフトウェア",
+      "titleVi": "Ứng dụng native",
+      "importance": "medium",
+      "summaryJa": "特定のプラットフォームやデバイス向けに最適化されて開発されたアプリケーションである。",
+      "summaryVi": "Ứng dụng được phát triển tối ưu cho một nền tảng hoặc hệ điều hành cụ thể và có thể khai thác trực tiếp chức năng thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプラットフォームやデバイス向けに最適化されて開発されたアプリケーションである。これにより、ハードウェアやオペレーティングシステムの特性を活かし、高速な動作やスムーズなユーザーエクスペリエンスを実現する。例えば、iOS向けのiPhoneアプリやAndroidデバイス用のアプリはそれぞれのOSに特化しているため、操作性やパフォーマンスが非常に良好である。また、ネイティブアプリはオフラインでの使用も可能で、デバイスのセンサーや機能を直接利用できるため、多くのモバイルアプリの中でも人気が高い。",
+          "vi": "Ứng dụng được phát triển tối ưu cho một nền tảng hoặc hệ điều hành cụ thể và có thể khai thác trực tiếp chức năng thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ネイティブアプリケーションソフトウェア」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Ứng dụng native với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネイティブアプリケーションソフトウェア",
+          "reading": "",
+          "english": "Native Application Software",
+          "vi": "Ứng dụng native",
+          "definitionJa": "特定のプラットフォームやデバイス向けに最適化されて開発されたアプリケーションである。",
+          "definitionVi": "Ứng dụng được phát triển tối ưu cho một nền tảng hoặc hệ điều hành cụ thể và có thể khai thác trực tiếp chức năng thiết bị."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Native Application Software"]
+    },
+    {
+      "id": "hybrid-application-software",
+      "order": 43,
+      "titleJa": "ハイブリッドアプリケーションソフトウェア",
+      "titleVi": "Ứng dụng hybrid",
+      "importance": "medium",
+      "summaryJa": "ネイティブアプリとWebアプリの特性を併せ持つアプリケーションである。",
+      "summaryVi": "Ứng dụng kết hợp công nghệ Web với cơ chế đóng gói hoặc cầu nối native để có thể hoạt động trên nhiều nền tảng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネイティブアプリとWebアプリの特性を併せ持つアプリケーションである。このタイプのアプリは、HTML、CSS、JavaScriptなどのWeb技術で開発され、コルドバやラアクなどのフレームワークを用いることで、複数のプラットフォーム向けに一つのコードベースから作成される。これにより、開発コストや時間を削減しつつ、ネイティブアプリと同様のユーザー体験を提供できる。例えば、スマートフォンやタブレット向けのアプリで、インターネットに接続できれば動作するものが一般的で、パフォーマンスも良好であるため、幅広い用途に利用されている。このように、ハイブリッドアプリは迅速な開発と柔軟性を兼ね備えており、モバイルデバイス市場での人気が高い。",
+          "vi": "Ứng dụng kết hợp công nghệ Web với cơ chế đóng gói hoặc cầu nối native để có thể hoạt động trên nhiều nền tảng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ハイブリッドアプリケーションソフトウェア」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Ứng dụng hybrid với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハイブリッドアプリケーションソフトウェア",
+          "reading": "",
+          "english": "Hybrid Application Software",
+          "vi": "Ứng dụng hybrid",
+          "definitionJa": "ネイティブアプリとWebアプリの特性を併せ持つアプリケーションである。",
+          "definitionVi": "Ứng dụng kết hợp công nghệ Web với cơ chế đóng gói hoặc cầu nối native để có thể hoạt động trên nhiều nền tảng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Hybrid Application Software"]
+    },
+    {
+      "id": "progressive-web-apps",
+      "order": 44,
+      "titleJa": "PWA",
+      "titleVi": "Ứng dụng Web tiến bộ (PWA)",
+      "importance": "medium",
+      "summaryJa": "Web技術を用いて作成されるアプリケーションで、ユーザーにネイティブアプリに近い体験を提供することを目的としている。",
+      "summaryVi": "Ứng dụng Web hướng tới trải nghiệm gần ứng dụng native, có thể hỗ trợ các khả năng như cache, hoạt động ngoại tuyến và thông báo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Web技術を用いて作成されるアプリケーションで、ユーザーにネイティブアプリに近い体験を提供することを目的としている。Webサイトとしてアクセス可能でありながら、オフライン機能やプッシュ通知などの特性を持っているため、スマートフォンやタブレットでの利用時にも高速で快適な操作が可能である。具体的には、PWAはブラウザのキャッシュ機能を利用して、ページの読み込み速度を向上させたり、アプリとしてホーム画面にアイコンを作成することができる。これにより、ユーザーはインターネット接続がない状態でも、過去にアクセスした情報を利用できるなどの利便性を享受できる。",
+          "vi": "Ứng dụng Web hướng tới trải nghiệm gần ứng dụng native, có thể hỗ trợ các khả năng như cache, hoạt động ngoại tuyến và thông báo."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「PWA」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Ứng dụng Web tiến bộ (PWA) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PWA",
+          "reading": "ぴーだぶるえー",
+          "english": "Progressive Web Apps",
+          "vi": "Ứng dụng Web tiến bộ (PWA)",
+          "definitionJa": "Web技術を用いて作成されるアプリケーションで、ユーザーにネイティブアプリに近い体験を提供することを目的としている。",
+          "definitionVi": "Ứng dụng Web hướng tới trải nghiệm gần ứng dụng native, có thể hỗ trợ các khả năng như cache, hoạt động ngoại tuyến và thông báo."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Progressive Web Apps"]
+    },
+    {
+      "id": "user-agent",
+      "order": 45,
+      "titleJa": "User-Agent",
+      "titleVi": "User-Agent",
+      "importance": "medium",
+      "summaryJa": "Webブラウザやアプリケーションが、サーバに自分の情報を伝えるために送信する文字列である。",
+      "summaryVi": "Chuỗi thông tin mà trình duyệt hoặc ứng dụng gửi cho máy chủ để mô tả phần mềm, hệ điều hành hoặc thiết bị đang sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Webブラウザやアプリケーションが、サーバに自分の情報を伝えるために送信する文字列である。この文字列には、使用しているブラウザやオペレーティングシステムの種類、バージョン、デバイスの情報などが含まれ、サーバはそれを基に適切なコンテンツを提供する。たとえば、スマートフォンとPCで異なる画面表示を行う場合、User-Agentによってどちらのデバイス向けに情報を最適化するか判断することができる。また、開発者はUser-Agentを利用して、特定のデバイスやブラウザでの挙動をテストする際の参考にすることができる。",
+          "vi": "Chuỗi thông tin mà trình duyệt hoặc ứng dụng gửi cho máy chủ để mô tả phần mềm, hệ điều hành hoặc thiết bị đang sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「User-Agent」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của User-Agent với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "User-Agent",
+          "reading": "ゆーざーえーじぇんと",
+          "english": "User-Agent",
+          "vi": "User-Agent",
+          "definitionJa": "Webブラウザやアプリケーションが、サーバに自分の情報を伝えるために送信する文字列である。",
+          "definitionVi": "Chuỗi thông tin mà trình duyệt hoặc ứng dụng gửi cho máy chủ để mô tả phần mềm, hệ điều hành hoặc thiết bị đang sử dụng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "User-Agent"]
+    },
+    {
+      "id": "permission-request",
+      "order": 46,
+      "titleJa": "パーミッション要求",
+      "titleVi": "Yêu cầu quyền truy cập",
+      "importance": "medium",
+      "summaryJa": "モバイルアプリケーションが特定の機能やデータへのアクセスを許可してもらうためにユーザーに求める操作である。",
+      "summaryVi": "Yêu cầu người dùng cho phép ứng dụng truy cập tài nguyên hoặc dữ liệu của thiết bị như camera, vị trí hay danh bạ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "モバイルアプリケーションが特定の機能やデータへのアクセスを許可してもらうためにユーザーに求める操作である。例えば、カメラや位置情報、連絡先などのデバイスリソースにアクセスするためには、ユーザーの同意が必要である。アプリの初回起動時や特定の機能利用時に表示されることが多く、これによりユーザーはどの情報がアプリに提供されるかを選択できる。これらの要求は、プライバシー保護の観点から重要であり、適切に管理されることが求められる。さらに、ユーザーがパーミッションを拒否した場合でも、アプリの利用に影響を与えないように設計することが望ましい。",
+          "vi": "Yêu cầu người dùng cho phép ứng dụng truy cập tài nguyên hoặc dữ liệu của thiết bị như camera, vị trí hay danh bạ."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「パーミッション要求」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Yêu cầu quyền truy cập với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パーミッション要求",
+          "reading": "ぱーみっしょんようきゅう",
+          "english": "Permission Request",
+          "vi": "Yêu cầu quyền truy cập",
+          "definitionJa": "モバイルアプリケーションが特定の機能やデータへのアクセスを許可してもらうためにユーザーに求める操作である。",
+          "definitionVi": "Yêu cầu người dùng cho phép ứng dụng truy cập tài nguyên hoặc dữ liệu của thiết bị như camera, vị trí hay danh bạ."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Permission Request"]
+    },
+    {
+      "id": "application-software-review",
+      "order": 47,
+      "titleJa": "アプリケーションソフトウェア審査",
+      "titleVi": "Kiểm duyệt ứng dụng",
+      "importance": "medium",
+      "summaryJa": "主にアプリの品質や安全性を確認するためのプロセスである。",
+      "summaryVi": "Quá trình đánh giá ứng dụng trước khi phân phối nhằm kiểm tra việc tuân thủ quy định, chất lượng, an toàn và quyền riêng tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にアプリの品質や安全性を確認するためのプロセスである。この審査は、新たに開発されたモバイルアプリが、プラットフォームの規約や基準に適合しているかどうかを評価することが目的である。具体的には、アプリの機能が正常に動作するか、不正な動作を行わないか、ユーザーのプライバシーが保護されているかなどがチェックされる。アプリ審査は、ユーザーに安心して利用してもらうための重要なステップであり、アプリストアへの公開前に行われることが一般的である。",
+          "vi": "Quá trình đánh giá ứng dụng trước khi phân phối nhằm kiểm tra việc tuân thủ quy định, chất lượng, an toàn và quyền riêng tư."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アプリケーションソフトウェア審査」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Kiểm duyệt ứng dụng với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アプリケーションソフトウェア審査",
+          "reading": "あぷりけーしょんそふとうぇあしんさ",
+          "english": "Application Software Review",
+          "vi": "Kiểm duyệt ứng dụng",
+          "definitionJa": "主にアプリの品質や安全性を確認するためのプロセスである。",
+          "definitionVi": "Quá trình đánh giá ứng dụng trước khi phân phối nhằm kiểm tra việc tuân thủ quy định, chất lượng, an toàn và quyền riêng tư."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Application Software Review"]
+    },
+    {
+      "id": "application-software-distribution",
+      "order": 48,
+      "titleJa": "アプリケーションソフトウェア配布",
+      "titleVi": "Phân phối ứng dụng",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアをユーザーに提供するプロセスのことである。",
+      "summaryVi": "Quá trình cung cấp ứng dụng cho người dùng thông qua kho ứng dụng, website hoặc các phương thức phân phối khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアをユーザーに提供するプロセスのことである。主に、モバイルアプリケーションをスマートフォンやタブレットにインストールするために行われる。この配布には、アプリストアや公式Webサイトを通じて行われる方法があり、ユーザーは簡単に必要なソフトウェアをダウンロードできる。例えば、AppleのApp StoreやGoogle Playストアは、アプリの配布に特化したプラットフォームであり、ユーザーがアプリを検索・購入・インストールする際に利用される。また、配布過程では、ソフトウェアの更新やバグ修正も行われ、ユーザーは常に最新の機能やセキュリティ対策を享受できる。",
+          "vi": "Quá trình cung cấp ứng dụng cho người dùng thông qua kho ứng dụng, website hoặc các phương thức phân phối khác."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「アプリケーションソフトウェア配布」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Phân phối ứng dụng với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アプリケーションソフトウェア配布",
+          "reading": "あぷりけーしょんそふとうぇあはいふ",
+          "english": "Application Software Distribution",
+          "vi": "Phân phối ứng dụng",
+          "definitionJa": "ソフトウェアをユーザーに提供するプロセスのことである。",
+          "definitionVi": "Quá trình cung cấp ứng dụng cho người dùng thông qua kho ứng dụng, website hoặc các phương thức phân phối khác."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Application Software Distribution"
+      ]
+    },
+    {
+      "id": "hierarchical-structuring",
+      "order": 49,
+      "titleJa": "階層構造化",
+      "titleVi": "Cấu trúc hóa phân cấp",
+      "importance": "medium",
+      "summaryJa": "情報やデータを階層的に整理する手法である。",
+      "summaryVi": "Phương pháp tổ chức thông tin hoặc chức năng theo nhiều cấp từ khái quát đến chi tiết để dễ hiểu và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報やデータを階層的に整理する手法である。これにより、情報を上位概念から下位概念へと論理的に分類することができるため、複雑な情報を理解しやすくする利点がある。例えば、組織の図では、トップマネジメントから各部門、さらにその下のチームへと順に構成される様子が示され、関係性が明確になる。また、階層構造はデータベース設計やWebサイトの情報配置など、多くの分野で利用され、ユーザーにとっても情報を探しやすくする効果が期待されている。",
+          "vi": "Phương pháp tổ chức thông tin hoặc chức năng theo nhiều cấp từ khái quát đến chi tiết để dễ hiểu và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「階層構造化」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Cấu trúc hóa phân cấp với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "階層構造化",
+          "reading": "かいそうこうぞうか",
+          "english": "Hierarchical Structuring",
+          "vi": "Cấu trúc hóa phân cấp",
+          "definitionJa": "情報やデータを階層的に整理する手法である。",
+          "definitionVi": "Phương pháp tổ chức thông tin hoặc chức năng theo nhiều cấp từ khái quát đến chi tiết để dễ hiểu và quản lý."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Hierarchical Structuring"]
+    },
+    {
+      "id": "stepwise-refinement",
+      "order": 50,
+      "titleJa": "段階的詳細化",
+      "titleVi": "Chi tiết hóa từng bước",
+      "importance": "medium",
+      "summaryJa": "問題を小さく分けて、少しずつ詳細にしていく構造化の手法である。",
+      "summaryVi": "Phương pháp giải quyết vấn đề bằng cách bắt đầu ở mức khái quát rồi từng bước phân rã và làm rõ các chi tiết.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題を小さく分けて、少しずつ詳細にしていく構造化の手法である。この手法は、大きな問題を解決する際に、各段階で具体的な部分に焦点を当て、徐々に全体の理解を深めていくことを目的としている。例えば、プログラムを作成する際、まずは大まかな機能を決め、その後にそれぞれの機能の詳細を詰めていく過程が該当する。この方法により、複雑な問題を管理しやすくし、間違いや問題点を早期に発見することができるため、ソフトウェア開発などのプロジェクト管理において特に有効である。",
+          "vi": "Phương pháp giải quyết vấn đề bằng cách bắt đầu ở mức khái quát rồi từng bước phân rã và làm rõ các chi tiết."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「段階的詳細化」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Chi tiết hóa từng bước với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "段階的詳細化",
+          "reading": "だんかいてきしょうさいか",
+          "english": "Stepwise Refinement",
+          "vi": "Chi tiết hóa từng bước",
+          "definitionJa": "問題を小さく分けて、少しずつ詳細にしていく構造化の手法である。",
+          "definitionVi": "Phương pháp giải quyết vấn đề bằng cách bắt đầu ở mức khái quát rồi từng bước phân rã và làm rõ các chi tiết."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Stepwise Refinement"]
+    },
+    {
+      "id": "structured-chart",
+      "order": 51,
+      "titleJa": "構造化チャート",
+      "titleVi": "Biểu đồ cấu trúc",
+      "importance": "medium",
+      "summaryJa": "プログラムやシステムの設計を視覚的に表現するための手法である。",
+      "summaryVi": "Biểu đồ thể hiện cấu trúc phân cấp của chương trình hoặc hệ thống và quan hệ giữa các chức năng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムやシステムの設計を視覚的に表現するための手法である。主に、プログラムの処理の流れや機能を階層的に示すことで、複雑なシステムを整理し、理解しやすくする役割を果たす。具体的には、各機能をボックスで表し、機能間の関係性を矢印で示すことで、全体の流れが一目でわかるようになる。この手法は、設計段階での誤解やミスを減少させるために有効であり、プログラムを効率的に開発するための重要なツールとなっている。また、構造化プログラミングの基本理念に基づいているため、保守性や再利用性の向上にも寄与する。",
+          "vi": "Biểu đồ thể hiện cấu trúc phân cấp của chương trình hoặc hệ thống và quan hệ giữa các chức năng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「構造化チャート」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Biểu đồ cấu trúc với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "構造化チャート",
+          "reading": "こうぞうかちゃーと",
+          "english": "Structured Chart",
+          "vi": "Biểu đồ cấu trúc",
+          "definitionJa": "プログラムやシステムの設計を視覚的に表現するための手法である。",
+          "definitionVi": "Biểu đồ thể hiện cấu trúc phân cấp của chương trình hoặc hệ thống và quan hệ giữa các chức năng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Structured Chart"]
+    },
+    {
+      "id": "state-transition-diagram",
+      "order": 52,
+      "titleJa": "状態遷移図",
+      "titleVi": "Biểu đồ chuyển trạng thái",
+      "importance": "high",
+      "summaryJa": "システムの状態の変化を視覚的に表現する図である。",
+      "summaryVi": "Biểu đồ biểu diễn các trạng thái của hệ thống và sự chuyển đổi giữa chúng khi điều kiện hoặc sự kiện xảy ra.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの状態の変化を視覚的に表現する図である。主にソフトウェア開発やシステム分析で利用され、さまざまな状態とその状態間の遷移を示すことで、システムの動作を理解しやすくする役割を果たす。具体的には、ある特定の条件やイベントが発生したときにシステムがどのように変化するかを示し、状態をノードとして、遷移を矢印で表現する。これにより、複雑な処理や事象を整理し、より効率的な設計やテストを行う基盤となる。また、状態遷移図は特にリアルタイムシステムやイベント駆動型システムの設計において重要である。",
+          "vi": "Biểu đồ biểu diễn các trạng thái của hệ thống và sự chuyển đổi giữa chúng khi điều kiện hoặc sự kiện xảy ra."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「状態遷移図」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Biểu đồ chuyển trạng thái với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "状態遷移図",
+          "reading": "じょうたいせんいず",
+          "english": "State Transition Diagram",
+          "vi": "Biểu đồ chuyển trạng thái",
+          "definitionJa": "システムの状態の変化を視覚的に表現する図である。",
+          "definitionVi": "Biểu đồ biểu diễn các trạng thái của hệ thống và sự chuyển đổi giữa chúng khi điều kiện hoặc sự kiện xảy ra."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "State Transition Diagram"]
+    },
+    {
+      "id": "hierarchy-plus-input-process-output",
+      "order": 53,
+      "titleJa": "HIPO",
+      "titleVi": "HIPO",
+      "importance": "high",
+      "summaryJa": "システムやプロセスの構造を視覚的に整理するための手法である。",
+      "summaryVi": "Phương pháp mô tả hệ thống bằng cấu trúc phân cấp kết hợp thông tin Input, Process và Output.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスの構造を視覚的に整理するための手法である。階層的な図と入出力の流れを用いて、情報の構造を明確にすることを目的としている。具体的には、最上位の図でシステムの概要を示し、下位で詳細なプロセスやデータの流れを記載する。この手法は、プログラムや業務プロセスの設計に役立ち、関係者全員が理解しやすい形で情報を共有できる。また、文書化の一環として、開発段階でのコミュニケーションを円滑にし、問題点に早期に気づくためのツールとしても重宝されている。",
+          "vi": "Phương pháp mô tả hệ thống bằng cấu trúc phân cấp kết hợp thông tin Input, Process và Output."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「HIPO」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của HIPO với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HIPO",
+          "reading": "はいぽ",
+          "english": "Hierarchy plus Input Process Output",
+          "vi": "HIPO",
+          "definitionJa": "システムやプロセスの構造を視覚的に整理するための手法である。",
+          "definitionVi": "Phương pháp mô tả hệ thống bằng cấu trúc phân cấp kết hợp thông tin Input, Process và Output."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Hierarchy plus Input Process Output"
+      ]
+    },
+    {
+      "id": "data-flow-diagram",
+      "order": 54,
+      "titleJa": "DFD",
+      "titleVi": "Sơ đồ luồng dữ liệu (DFD)",
+      "importance": "high",
+      "summaryJa": "システムやプロセスのデータの流れや処理を視覚的に表現する図である。",
+      "summaryVi": "Sơ đồ trực quan hóa dữ liệu đi vào, được xử lý, lưu trữ và đi ra như thế nào trong hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスのデータの流れや処理を視覚的に表現する図である。この図は、情報の流れを矢印で示し、データがどのように入力され、処理され、出力されるのかを明確にする。DFDは複雑なシステムの理解を助けるため、主に設計段階で使用される。具体的には、業務プロセスの改善やシステム開発において、どの情報がどのプロセスを経由するかを整理するのに役立つ。また、DFDは他の図と組み合わせることでシステム全体の構造を把握しやすくすることができるため、効果的なコミュニケーションツールともなる。",
+          "vi": "Sơ đồ trực quan hóa dữ liệu đi vào, được xử lý, lưu trữ và đi ra như thế nào trong hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「DFD」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Sơ đồ luồng dữ liệu (DFD) với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DFD",
+          "reading": "でーえふでぃ",
+          "english": "Data Flow Diagram",
+          "vi": "Sơ đồ luồng dữ liệu (DFD)",
+          "definitionJa": "システムやプロセスのデータの流れや処理を視覚的に表現する図である。",
+          "definitionVi": "Sơ đồ trực quan hóa dữ liệu đi vào, được xử lý, lưu trữ và đi ra như thế nào trong hệ thống."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Data Flow Diagram"]
+    },
+    {
+      "id": "software-architecture",
+      "order": 55,
+      "titleJa": "ソフトウェア構造",
+      "titleVi": "Cấu trúc phần mềm",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアシステムの設計における組織や配置のことを指す。",
+      "summaryVi": "Cách tổ chức các thành phần của hệ thống phần mềm và quan hệ tương tác giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアシステムの設計における組織や配置のことを指す。具体的には、ソフトウェアの各部分がどのように相互作用し、情報をやり取りするのかを示すものである。構造化手法を用いることで、開発プロセスを整理し、ソフトウェアの可読性や保守性を向上させることができる。例えば、マイクロサービスアーキテクチャでは、全体機能を小さなサービスに分割し、それぞれが独立して動作することで、スケーラビリティや柔軟性を持たせることが可能になる。このように、システムの効率や成長を促進するための重要な要素となる。",
+          "vi": "Cách tổ chức các thành phần của hệ thống phần mềm và quan hệ tương tác giữa chúng."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「ソフトウェア構造」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Cấu trúc phần mềm với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア構造",
+          "reading": "そふとうぇあこうぞう",
+          "english": "Software Architecture",
+          "vi": "Cấu trúc phần mềm",
+          "definitionJa": "ソフトウェアシステムの設計における組織や配置のことを指す。",
+          "definitionVi": "Cách tổ chức các thành phần của hệ thống phần mềm và quan hệ tương tác giữa chúng."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "Software Architecture"]
+    },
+    {
+      "id": "vdm-tools",
+      "order": 56,
+      "titleJa": "VDMTools",
+      "titleVi": "VDMTools",
+      "importance": "medium",
+      "summaryJa": "形式手法に基づいたソフトウェアの仕様や検証を支援するツールである。",
+      "summaryVi": "Công cụ hỗ trợ đặc tả và kiểm chứng phần mềm dựa trên phương pháp hình thức VDM.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "形式手法に基づいたソフトウェアの仕様や検証を支援するツールである。主に、VDM（Vienna Development Method）という数学的手法を用いて、ソフトウェアの動作や構造を明確に定義し、検証を行うことができる。このツールを使用することで、ソフトウェアの開発過程において、誤りを早期に発見し、品質を向上させることが可能である。具体的には、モデルを作成し、そのモデルに対して様々なテストや証明を行う機能が備わっており、複雑なシステムの設計にも対応できることが特徴である。これにより、信頼性の高いソフトウェア開発が促進される。",
+          "vi": "Công cụ hỗ trợ đặc tả và kiểm chứng phần mềm dựa trên phương pháp hình thức VDM."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「VDMTools」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của VDMTools với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VDMTools",
+          "reading": "ぶいでぃえむつーるず",
+          "english": "VDM Tools",
+          "vi": "VDMTools",
+          "definitionJa": "形式手法に基づいたソフトウェアの仕様や検証を支援するツールである。",
+          "definitionVi": "Công cụ hỗ trợ đặc tả và kiểm chứng phần mềm dựa trên phương pháp hình thức VDM."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "VDM Tools"]
+    },
+    {
+      "id": "jis-x-0160",
+      "order": 57,
+      "titleJa": "JIS X 0160",
+      "titleVi": "JIS X 0160",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発におけるライフサイクルプロセスに関する日本の規格である。",
+      "summaryVi": "Tiêu chuẩn Nhật Bản liên quan đến các quá trình vòng đời phần mềm, cung cấp khuôn khổ cho các hoạt động phát triển và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発におけるライフサイクルプロセスに関する日本の規格である。この規格は、ソフトウェアの品質を確保し、効率的に開発を進めるためのフレームワークを提供することを目的としている。具体的には、要求分析や設計、実装、テスト、運用保守といった各プロセスの進め方や文書化の方法について詳細に定められており、開発チームが共通の理解を持って作業を行うための指針となる。また、JISは日本工業規格であるため、国内のソフトウェア開発において特に重要視されており、国際的な基準と合わせて適用することも求められている。",
+          "vi": "Tiêu chuẩn Nhật Bản liên quan đến các quá trình vòng đời phần mềm, cung cấp khuôn khổ cho các hoạt động phát triển và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「JIS X 0160」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của JIS X 0160 với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS X 0160",
+          "reading": "じすえっくす0160",
+          "english": "JIS X 0160",
+          "vi": "JIS X 0160",
+          "definitionJa": "ソフトウェア開発におけるライフサイクルプロセスに関する日本の規格である。",
+          "definitionVi": "Tiêu chuẩn Nhật Bản liên quan đến các quá trình vòng đời phần mềm, cung cấp khuôn khổ cho các hoạt động phát triển và quản lý."
+        }
+      ],
+      "tags": ["13-1", "開発プロセス・手法", "JIS X 0160"]
+    },
+    {
+      "id": "software-life-cycle-process-japan-common-framework",
+      "order": 58,
+      "titleJa": "SLCP-JCF",
+      "titleVi": "SLCP-JCF",
+      "importance": "medium",
+      "summaryJa": "日本におけるソフトウェア開発のための共通フレームワークである。",
+      "summaryVi": "Khung chung của Nhật Bản mô tả các quá trình và hoạt động trong toàn bộ vòng đời phần mềm nhằm hỗ trợ chuẩn hóa phát triển và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本におけるソフトウェア開発のための共通フレームワークである。このフレームワークは、ソフトウェアのライフサイクル全体にわたるプロセスや活動を具体的に定義しており、プロジェクト管理や品質保証において標準化を促進することを目的としている。具体的には、要件定義、設計、実装、テスト、運用・保守の各フェーズが含まれており、これにより効率的な開発プロセスを構築するための指針を提供する。そして、これを採用することで、プロジェクトの成功率を高め、リスクの軽減を図ることが可能となる。",
+          "vi": "Khung chung của Nhật Bản mô tả các quá trình và hoạt động trong toàn bộ vòng đời phần mềm nhằm hỗ trợ chuẩn hóa phát triển và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「SLCP-JCF」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của SLCP-JCF với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLCP-JCF",
+          "reading": "えすえるしーぴーじぇいしーえふ",
+          "english": "Software Life Cycle Process - Japan Common Framework",
+          "vi": "SLCP-JCF",
+          "definitionJa": "日本におけるソフトウェア開発のための共通フレームワークである。",
+          "definitionVi": "Khung chung của Nhật Bản mô tả các quá trình và hoạt động trong toàn bộ vòng đời phần mềm nhằm hỗ trợ chuẩn hóa phát triển và quản lý."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Software Life Cycle Process - Japan Common Framework"
+      ]
+    },
+    {
+      "id": "capability-maturity-model-integration",
+      "order": 59,
+      "titleJa": "CMMI",
+      "titleVi": "CMMI",
+      "importance": "high",
+      "summaryJa": "組織がプロセスを改善し、成熟度を高めるためのモデルである。",
+      "summaryVi": "Mô hình hỗ trợ tổ chức đánh giá và cải tiến quy trình, nâng cao mức độ trưởng thành của hoạt động phát triển và quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "概要",
+          "vi": "Khái quát"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織がプロセスを改善し、成熟度を高めるためのモデルである。業務プロセスの評価と改善に役立つフレームワークを提供し、組織が効率的かつ効果的にプロジェクトを管理できるよう支援する。具体的には、プロセスを5つの成熟段階に分類し、各段階で求められるプロセスの定義や管理手法を明確にする。これにより、組織は自社の現在のプロセス状況を把握し、次のステップに向けた具体的な改善策を講じることができる。また、CMMIはソフトウェア開発だけでなく、さまざまな業種においても適用可能で、全体の品質向上にも寄与する。",
+          "vi": "Mô hình hỗ trợ tổ chức đánh giá và cải tiến quy trình, nâng cao mức độ trưởng thành của hoạt động phát triển và quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「CMMI」の目的・特徴・関連する開発手法を区別して理解する。",
+          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của CMMI với các phương pháp phát triển liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CMMI",
+          "reading": "しーえむえむあい",
+          "english": "Capability Maturity Model Integration",
+          "vi": "CMMI",
+          "definitionJa": "組織がプロセスを改善し、成熟度を高めるためのモデルである。",
+          "definitionVi": "Mô hình hỗ trợ tổ chức đánh giá và cải tiến quy trình, nâng cao mức độ trưởng thành của hoạt động phát triển và quản lý."
+        }
+      ],
+      "tags": [
+        "13-1",
+        "開発プロセス・手法",
+        "Capability Maturity Model Integration"
+      ]
+    }
+  ]
 }

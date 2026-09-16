@@ -1,60 +1,72 @@
-import { feCategoryIndex, feTheoryCategories } from "@/lib/fe/registry";
+import { feCategoryIndex } from "@/lib/fe/registry";
+import { loadFeCategoryManifest, loadFeChapter } from "@/lib/fe/loaders";
 
 import type {
-  FeCategory,
   FeCategoryIndex,
+  FeCategoryManifest,
   FeCategorySummary,
   FeChapter,
   FeLesson,
 } from "@/types/fe";
 
-const categoryById = new Map(
-  feTheoryCategories.map((category) => [category.id, category]),
-);
-
+/**
+ * FE 全体のカテゴリー index を取得する。
+ *
+ * categories.json の metadata のみを使用する。
+ */
 export function getFeCategoryIndex(): FeCategoryIndex {
   return feCategoryIndex;
 }
 
+/**
+ * FE カテゴリー一覧を取得する。
+ *
+ * Chapter JSON は読み込まない。
+ */
 export function listFeCategorySummaries(): FeCategorySummary[] {
   return [...feCategoryIndex.categories]
     .sort((a, b) => a.order - b.order)
-    .map((reference) => {
-      const category = categoryById.get(reference.id);
-      return {
-        ...reference,
-        chapterCount: category?.chapters.length ?? 0,
-        lessonCount:
-          category?.chapters.reduce(
-            (count, chapter) => count + chapter.lessons.length,
-            0,
-          ) ?? 0,
-      };
-    });
+    .map((reference) => ({
+      ...reference,
+      lessonCount: reference.count ?? 0,
+    }));
 }
 
-export function getFeCategory(categoryId: string): FeCategory | undefined {
-  return categoryById.get(categoryId);
+/**
+ * Category manifest を取得する。
+ *
+ * 例:
+ * security
+ * → 11-security/index.json のみロード
+ */
+export async function getFeCategory(
+  categoryId: string,
+): Promise<FeCategoryManifest | undefined> {
+  return loadFeCategoryManifest(categoryId);
 }
 
 export interface FeChapterRecord {
-  category: FeCategory;
+  category: FeCategoryManifest;
   chapter: FeChapter;
 }
 
-export function getFeChapter(
+/**
+ * 指定された chapter だけをロードする。
+ *
+ * 例:
+ * security / information-security-management
+ * → 02-information-security-management.json のみロード
+ */
+export async function getFeChapter(
   categoryId: string,
   chapterId: string,
-): FeChapterRecord | undefined {
-  const category = getFeCategory(categoryId);
+): Promise<FeChapterRecord | undefined> {
+  const [category, chapter] = await Promise.all([
+    loadFeCategoryManifest(categoryId),
+    loadFeChapter(categoryId, chapterId),
+  ]);
 
-  if (!category) {
-    return undefined;
-  }
-
-  const chapter = category.chapters.find((item) => item.id === chapterId);
-
-  if (!chapter) {
+  if (!category || !chapter) {
     return undefined;
   }
 
@@ -65,76 +77,66 @@ export function getFeChapter(
 }
 
 export interface FeLessonRecord {
-  category: FeCategory;
+  category: FeCategoryManifest;
   chapter: FeChapter;
   lesson: FeLesson;
 }
 
-export function getFeLesson(lessonId: string): FeLessonRecord | undefined {
-  for (const category of feTheoryCategories) {
-    for (const chapter of category.chapters) {
-      const lesson = chapter.lessons.find((item) => item.id === lessonId);
+/**
+ * Category / Chapter / Lesson が分かっている場合のみ、
+ * 対象 chapter 内から lesson を取得する。
+ *
+ * FE 全体を検索しない。
+ */
+export async function getFeLesson(
+  categoryId: string,
+  chapterId: string,
+  lessonId: string,
+): Promise<FeLessonRecord | undefined> {
+  const record = await getFeChapter(categoryId, chapterId);
 
-      if (lesson) {
-        return {
-          category,
-          chapter,
-          lesson,
-        };
-      }
-    }
+  if (!record) {
+    return undefined;
   }
 
-  return undefined;
+  const lesson = record.chapter.lessons.find((item) => item.id === lessonId);
+
+  if (!lesson) {
+    return undefined;
+  }
+
+  return {
+    ...record,
+    lesson,
+  };
 }
 
 export interface FeLessonNavigationRecord {
-  previous?: FeLessonRecord;
-  next?: FeLessonRecord;
+  previous?: FeLesson;
+  next?: FeLesson;
 }
 
+/**
+ * 現在の chapter 内で前後の lesson を取得する。
+ *
+ * FE 全体の lesson 配列は作成しない。
+ */
 export function getFeLessonNavigation(
+  chapter: FeChapter,
   lessonId: string,
 ): FeLessonNavigationRecord {
-  const orderedLessons: FeLessonRecord[] = [];
+  const lessons = [...chapter.lessons].sort((a, b) => a.order - b.order);
 
-  const sortedCategories = [...feTheoryCategories].sort(
-    (a, b) => a.order - b.order,
-  );
-
-  for (const category of sortedCategories) {
-    const sortedChapters = [...category.chapters].sort(
-      (a, b) => a.order - b.order,
-    );
-
-    for (const chapter of sortedChapters) {
-      const sortedLessons = [...chapter.lessons].sort(
-        (a, b) => a.order - b.order,
-      );
-
-      for (const lesson of sortedLessons) {
-        orderedLessons.push({
-          category,
-          chapter,
-          lesson,
-        });
-      }
-    }
-  }
-
-  const currentIndex = orderedLessons.findIndex(
-    (record) => record.lesson.id === lessonId,
-  );
+  const currentIndex = lessons.findIndex((lesson) => lesson.id === lessonId);
 
   if (currentIndex === -1) {
     return {};
   }
 
   return {
-    previous: currentIndex > 0 ? orderedLessons[currentIndex - 1] : undefined,
+    previous: currentIndex > 0 ? lessons[currentIndex - 1] : undefined,
+
     next:
-      currentIndex < orderedLessons.length - 1
-        ? orderedLessons[currentIndex + 1]
-        : undefined,
+      currentIndex < lessons.length - 1 ? lessons[currentIndex + 1] : undefined,
   };
 }

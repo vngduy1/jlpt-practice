@@ -13,7 +13,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps) {
   const { categoryId } = await params;
-  const category = getFeCategory(categoryId);
+  const category = await getFeCategory(categoryId);
 
   if (!category) {
     return {
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function FeCategoryPage({ params }: PageProps) {
   const { categoryId } = await params;
 
-  const category = getFeCategory(categoryId);
+  const category = await getFeCategory(categoryId);
 
   if (!category) {
     notFound();
@@ -83,7 +83,9 @@ export default async function FeCategoryPage({ params }: PageProps) {
           {chapters.map((chapter) => (
             <ClientNavigation
               key={chapter.id}
-              href={`/fe/category/${category.id}/${chapter.id}`}
+              href={`/fe/category/${encodeURIComponent(
+                category.id,
+              )}/${encodeURIComponent(chapter.id)}`}
               className="group w-full rounded-2xl border border-border bg-card p-6 text-left transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm"
             >
               <div className="flex items-start gap-4">
@@ -98,9 +100,11 @@ export default async function FeCategoryPage({ params }: PageProps) {
                     {chapter.titleVi}
                   </p>
 
-                  <p className="mt-4 text-sm font-medium text-muted-foreground">
-                    {chapter.lessons.length} レッスン
-                  </p>
+                  {chapter.count !== undefined ? (
+                    <p className="mt-4 text-sm font-medium text-muted-foreground">
+                      {chapter.count} レッスン
+                    </p>
+                  ) : null}
                 </div>
 
                 <ArrowRight

@@ -2,9 +2,8 @@ import { ArrowRight, BookOpen, Star } from "lucide-react";
 import { notFound } from "next/navigation";
 
 import { FeSiteHeader } from "@/components/fe/fe-site-header";
-import { getFeChapter } from "@/lib/fe/utils";
-
 import { ClientNavigation } from "@/components/navigation/client-navigation";
+import { getFeChapter } from "@/lib/fe/utils";
 
 interface PageProps {
   params: Promise<{
@@ -22,7 +21,7 @@ const importanceLabel = {
 export async function generateMetadata({ params }: PageProps) {
   const { categoryId, chapterId } = await params;
 
-  const record = getFeChapter(categoryId, chapterId);
+  const record = await getFeChapter(categoryId, chapterId);
 
   if (!record) {
     return {
@@ -39,7 +38,7 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function FeChapterPage({ params }: PageProps) {
   const { categoryId, chapterId } = await params;
 
-  const record = getFeChapter(categoryId, chapterId);
+  const record = await getFeChapter(categoryId, chapterId);
 
   if (!record) {
     notFound();
@@ -56,11 +55,12 @@ export default async function FeChapterPage({ params }: PageProps) {
       <section className="border-b border-border/70 bg-hero">
         <div className="mx-auto max-w-5xl px-5 py-9 sm:px-8 sm:py-12">
           <ClientNavigation
-            href={`/fe/category/${category.id}`}
+            href={`/fe/category/${encodeURIComponent(category.id)}`}
             className="inline-flex items-center text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
           >
             ← {category.titleJa}
           </ClientNavigation>
+
           <div className="mt-7">
             <div className="flex items-center gap-2 text-sm font-semibold text-primary">
               <BookOpen className="size-4" aria-hidden="true" />
@@ -87,7 +87,11 @@ export default async function FeChapterPage({ params }: PageProps) {
           {lessons.map((lesson) => (
             <ClientNavigation
               key={lesson.id}
-              href={`/fe/lesson/${lesson.id}`}
+              href={`/fe/category/${encodeURIComponent(
+                category.id,
+              )}/${encodeURIComponent(
+                chapter.id,
+              )}/${encodeURIComponent(lesson.id)}`}
               className="group flex min-h-24 w-full items-center gap-4 rounded-2xl border border-border bg-card px-5 py-4 text-left transition-all hover:border-primary/30 hover:shadow-sm sm:px-6"
             >
               <div className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
