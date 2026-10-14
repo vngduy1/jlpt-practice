@@ -12,7 +12,7 @@
       "titleVi": "Bàn giao sản phẩm",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。",
-      "summaryVi": "Bàn giao sản phẩm: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Bàn giao các sản phẩm đã hoàn thành cho khách hàng theo hợp đồng.",
       "content": [
         {
           "type": "heading",
@@ -22,12 +22,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。一般的に、納品は契約に基づいて行われ、納品物は品質基準を満たしている必要がある。例えば、ソフトウェアの制作が完了した際には、そのソフトウェアをテストし、問題がないことを確認後、顧客に納品する。納品後は、受入れテストと呼ばれるプロセスが行われることが多く、顧客が実際にシステムを使用し、期待通りの機能が提供されているかを確認する。このようにプロジェクトの最終段階であり、顧客の満足度を高める重要な要素となっている。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Bàn giao sản phẩm trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "納品 là bước chuyển giao phần mềm, tài liệu và các sản phẩm bàn giao đã thỏa thuận cho khách hàng. Trước khi bàn giao, bên phát triển cần kiểm tra chất lượng và tính đầy đủ. Sau đó khách hàng thường thực hiện kiểm thử tiếp nhận để xác nhận hệ thống đáp ứng yêu cầu."
         },
         {
           "type": "point",
           "ja": "納品の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bàn giao sản phẩm."
+          "vi": "Phân biệt 納品 (bàn giao) với 検収 (kiểm tra và chấp nhận sản phẩm)."
         }
       ],
       "terms": [
@@ -36,7 +36,7 @@
           "english": "Delivery",
           "vi": "Bàn giao sản phẩm",
           "definitionJa": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。一般的に、納品は契約に基づいて行われ、納品物は品質基準を満たしている必要がある。例えば、ソフトウェアの制作が完了した際には、そのソフトウェアをテストし、問題がないことを確認後、顧客に納品する。納品後は、受入れテストと呼ばれるプロセスが行われることが多く、顧客が実際にシステムを使用し、期待通りの機能が提供されているかを確認する。このようにプロジェクトの最終段階であり、顧客の満足度を高める重要な要素となっている。",
-          "definitionVi": "Bàn giao sản phẩm: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Việc chuyển giao sản phẩm hoàn thành từ bên cung cấp sang khách hàng.",
           "reading": "のうひん"
         }
       ],
@@ -53,7 +53,7 @@
       "titleVi": "Yêu cầu triển khai",
       "importance": "high",
       "summaryJa": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。",
-      "summaryVi": "Yêu cầu triển khai: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác định điều kiện cần đáp ứng trước khi đưa hệ thống vào sử dụng.",
       "content": [
         {
           "type": "heading",
@@ -63,12 +63,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。この要件には、ハードウェアの性能、ソフトウェアの互換性、ネットワーク環境、セキュリティ対策などが含まれる。例えば、新しい業務システムを導入する場合、必要なサーバのスペックや、既存のシステムとの連携方法も考慮する必要がある。また、ユーザーのトレーニングやサポート体制の整備も重要な要素であり、これにより導入後の円滑な運用が期待できる。導入要件を明確にすることで、プロジェクトの目標達成に向けた具体的な計画が立てやすくなる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Yêu cầu triển khai trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Yêu cầu triển khai bao gồm môi trường phần cứng, phần mềm, mạng, bảo mật, tài khoản, nhân sự và thời gian triển khai. Các yêu cầu này phải được làm rõ để tránh tình trạng hệ thống đã phát triển xong nhưng không thể cài đặt hoặc vận hành tại nơi sử dụng."
         },
         {
           "type": "point",
           "ja": "導入要件の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Yêu cầu triển khai."
+          "vi": "Xem xét môi trường, nguồn lực và ràng buộc trước khi triển khai."
         }
       ],
       "terms": [
@@ -77,7 +77,7 @@
           "english": "Deployment Requirements",
           "vi": "Yêu cầu triển khai",
           "definitionJa": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。この要件には、ハードウェアの性能、ソフトウェアの互換性、ネットワーク環境、セキュリティ対策などが含まれる。例えば、新しい業務システムを導入する場合、必要なサーバのスペックや、既存のシステムとの連携方法も考慮する必要がある。また、ユーザーのトレーニングやサポート体制の整備も重要な要素であり、これにより導入後の円滑な運用が期待できる。導入要件を明確にすることで、プロジェクトの目標達成に向けた具体的な計画が立てやすくなる。",
-          "definitionVi": "Yêu cầu triển khai: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các điều kiện và đặc tả cần thiết để triển khai một hệ thống hoặc phần mềm mới.",
           "reading": "どうにゅうようけん"
         }
       ],
@@ -94,7 +94,7 @@
       "titleVi": "Yêu cầu chuyển đổi",
       "importance": "high",
       "summaryJa": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。",
-      "summaryVi": "Yêu cầu chuyển đổi: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Làm rõ điều kiện chuyển dữ liệu và chức năng sang hệ thống mới.",
       "content": [
         {
           "type": "heading",
@@ -104,12 +104,12 @@
         {
           "type": "paragraph",
           "ja": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。具体的には、移行先のシステムが旧システムのデータを適切に受け入れられることや、移行中のデータ損失を防ぐための計画が含まれる。また、業務プロセスの変更に対する影響や、新旧システム間の互換性も考慮する必要がある。たとえば、企業が新しい顧客管理システムに移行する際には、既存の顧客データをどのように整理し、移行するかを明確に定義して、スムーズな導入を実現することが求められる。システムの成功的な導入において非常に重要な要素である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Yêu cầu chuyển đổi trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Yêu cầu chuyển đổi quy định dữ liệu nào cần chuyển, cách ánh xạ định dạng, độ chính xác, thời gian dừng dịch vụ và phương án khôi phục nếu thất bại. Ví dụ, khi thay hệ thống quản lý khách hàng, cần chuyển đầy đủ hồ sơ cũ và đối chiếu số lượng bản ghi sau chuyển đổi."
         },
         {
           "type": "point",
           "ja": "移行要件の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Yêu cầu chuyển đổi."
+          "vi": "Phân biệt 移行 (chuyển đổi) với 導入 (triển khai)."
         }
       ],
       "terms": [
@@ -118,7 +118,7 @@
           "english": "Migration Requirements",
           "vi": "Yêu cầu chuyển đổi",
           "definitionJa": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。具体的には、移行先のシステムが旧システムのデータを適切に受け入れられることや、移行中のデータ損失を防ぐための計画が含まれる。また、業務プロセスの変更に対する影響や、新旧システム間の互換性も考慮する必要がある。たとえば、企業が新しい顧客管理システムに移行する際には、既存の顧客データをどのように整理し、移行するかを明確に定義して、スムーズな導入を実現することが求められる。システムの成功的な導入において非常に重要な要素である。",
-          "definitionVi": "Yêu cầu chuyển đổi: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các điều kiện phải đáp ứng khi di chuyển dữ liệu hoặc chức năng giữa các hệ thống.",
           "reading": "いこうようけん"
         }
       ],
@@ -135,7 +135,7 @@
       "titleVi": "Tiêu chí đánh giá khả năng triển khai",
       "importance": "high",
       "summaryJa": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。",
-      "summaryVi": "Tiêu chí đánh giá khả năng triển khai: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Đặt ra tiêu chí quyết định có thể triển khai hệ thống hay không.",
       "content": [
         {
           "type": "heading",
@@ -145,12 +145,12 @@
         {
           "type": "paragraph",
           "ja": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。この基準には、技術的な適合性、経済的な利益、組織内での受け入れやすさ、運用上の影響などが含まれる。例えば、技術的な適合性では、既存のシステムとの互換性が求められ、経済的な利益では導入にかかる費用対効果が重要な要素となる。また、導入後の教育や変更に対する従業員の反応も考慮され、これらの基準に基づいて最終的な導入決定がなされる。効果的なシステム導入のための重要なツールである。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tiêu chí đánh giá khả năng triển khai trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Trước khi đưa hệ thống vào hoạt động, cần đánh giá mức đáp ứng chức năng, hiệu năng, an toàn, chi phí, nhân lực và rủi ro. Chỉ khi đạt các điều kiện đã thống nhất mới quyết định triển khai; nếu không, cần sửa lỗi hoặc điều chỉnh kế hoạch."
         },
         {
           "type": "point",
           "ja": "導入可否判断基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tiêu chí đánh giá khả năng triển khai."
+          "vi": "Tiêu chí quyết định cần đo lường và kiểm chứng được."
         }
       ],
       "terms": [
@@ -159,7 +159,7 @@
           "english": "Implementation Feasibility Criteria",
           "vi": "Tiêu chí đánh giá khả năng triển khai",
           "definitionJa": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。この基準には、技術的な適合性、経済的な利益、組織内での受け入れやすさ、運用上の影響などが含まれる。例えば、技術的な適合性では、既存のシステムとの互換性が求められ、経済的な利益では導入にかかる費用対効果が重要な要素となる。また、導入後の教育や変更に対する従業員の反応も考慮され、これらの基準に基づいて最終的な導入決定がなされる。効果的なシステム導入のための重要なツールである。",
-          "definitionVi": "Tiêu chí đánh giá khả năng triển khai: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Bộ tiêu chí dùng để đánh giá và quyết định khả năng đưa hệ thống vào sử dụng.",
           "reading": "どうにゅうかひはんだんきじゅん"
         }
       ],
@@ -176,7 +176,7 @@
       "titleVi": "Lập kế hoạch cài đặt",
       "importance": "medium",
       "summaryJa": "新しいソフトウェアやシステムを導入する際に、その導入を円滑に進めるための詳細な計画を立てることである。",
-      "summaryVi": "Lập kế hoạch cài đặt: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Lập lịch trình và phương án cài đặt hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -186,12 +186,12 @@
         {
           "type": "paragraph",
           "ja": "新しいソフトウェアやシステムを導入する際に、その導入を円滑に進めるための詳細な計画を立てることである。この計画には、インストールの手順、必要な資源、予想される課題とその対策、関与する担当者の役割などが含まれる。例えば、特定のアプリケーションを企業内で導入する場合、計画にはユーザーのトレーニング日程やサポート体制、インストール後の評価方法も記載される。また、スケジュールや予算の設定も重要な要素であり、計画が成功するかどうかは、これらの要素にきちんと対処できるかにかかっている。インストール計画をしっかりと策定することで、システムの導入がスムーズになり、業務の効率化が図れる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Lập kế hoạch cài đặt trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kế hoạch cài đặt xác định công việc, người phụ trách, thứ tự thực hiện, thời gian, điều kiện tiên quyết và phương án quay lui. Ví dụ, cần sao lưu dữ liệu trước khi cập nhật máy chủ, sau đó kiểm tra kết nối và chức năng sau cài đặt."
         },
         {
           "type": "point",
           "ja": "インストール計画の作成の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lập kế hoạch cài đặt."
+          "vi": "Kế hoạch phải có bước kiểm tra và khôi phục khi xảy ra sự cố."
         }
       ],
       "terms": [
@@ -200,7 +200,7 @@
           "english": "Installation Plan Creation",
           "vi": "Lập kế hoạch cài đặt",
           "definitionJa": "新しいソフトウェアやシステムを導入する際に、その導入を円滑に進めるための詳細な計画を立てることである。この計画には、インストールの手順、必要な資源、予想される課題とその対策、関与する担当者の役割などが含まれる。例えば、特定のアプリケーションを企業内で導入する場合、計画にはユーザーのトレーニング日程やサポート体制、インストール後の評価方法も記載される。また、スケジュールや予算の設定も重要な要素であり、計画が成功するかどうかは、これらの要素にきちんと対処できるかにかかっている。インストール計画をしっかりと策定することで、システムの導入がスムーズになり、業務の効率化が図れる。",
-          "definitionVi": "Lập kế hoạch cài đặt: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Hoạt động lập kế hoạch chi tiết để cài đặt phần mềm hoặc hệ thống an toàn.",
           "reading": "いんすとーるけいかくのさくせい"
         }
       ],
@@ -217,7 +217,7 @@
       "titleVi": "Công việc triển khai",
       "importance": "medium",
       "summaryJa": "新しいシステムやソフトウェアを実際に導入するために行う一連の作業を指す。",
-      "summaryVi": "Công việc triển khai: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Thực hiện các công việc cần thiết để đưa hệ thống vào môi trường sử dụng.",
       "content": [
         {
           "type": "heading",
@@ -227,12 +227,12 @@
         {
           "type": "paragraph",
           "ja": "新しいシステムやソフトウェアを実際に導入するために行う一連の作業を指す。この作業には、必要な機器やソフトウェアの準備、設定、インストール、テストなどが含まれ、導入したシステムが正常に機能することを確認するための重要なプロセスである。例えば、会社が新しい業務管理ソフトを導入する際には、まず従業員のトレーニングを行い、ソフトウェアを設定した後、実際に業務で使用するためのテストを行うことが一般的である。また、導入作業にはユーザーからのフィードバックを収集し、必要な改善を行うフェーズも含まれ、これによりシステムの円滑な運用が支援される。プロジェクトの成功に大きく影響するため、計画的かつ慎重に進めることが求められる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Công việc triển khai trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Công việc triển khai có thể gồm chuẩn bị máy chủ, cài đặt phần mềm, cấu hình mạng, thiết lập quyền, nhập dữ liệu và kiểm tra hoạt động. Mỗi bước cần tuân thủ kế hoạch và ghi lại kết quả để xử lý sự cố."
         },
         {
           "type": "point",
           "ja": "導入作業の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Công việc triển khai."
+          "vi": "Phân biệt kế hoạch triển khai với các thao tác triển khai thực tế."
         }
       ],
       "terms": [
@@ -241,7 +241,7 @@
           "english": "Implementation Tasks",
           "vi": "Công việc triển khai",
           "definitionJa": "新しいシステムやソフトウェアを実際に導入するために行う一連の作業を指す。この作業には、必要な機器やソフトウェアの準備、設定、インストール、テストなどが含まれ、導入したシステムが正常に機能することを確認するための重要なプロセスである。例えば、会社が新しい業務管理ソフトを導入する際には、まず従業員のトレーニングを行い、ソフトウェアを設定した後、実際に業務で使用するためのテストを行うことが一般的である。また、導入作業にはユーザーからのフィードバックを収集し、必要な改善を行うフェーズも含まれ、これによりシステムの円滑な運用が支援される。プロジェクトの成功に大きく影響するため、計画的かつ慎重に進めることが求められる。",
-          "definitionVi": "Công việc triển khai: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Tập hợp các thao tác thực tế nhằm đưa hệ thống mới vào hoạt động.",
           "reading": "どうにゅうさぎょう"
         }
       ],
@@ -258,7 +258,7 @@
       "titleVi": "Quy trình triển khai",
       "importance": "high",
       "summaryJa": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。",
-      "summaryVi": "Quy trình triển khai: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Quy định trình tự từng bước khi triển khai hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -268,12 +268,12 @@
         {
           "type": "paragraph",
           "ja": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。これには、システムの選定、設計、テスト、展開、運用開始などの各フェーズが含まれる。例えば、企業が業務用のソフトウェアを導入する際、まずはそのソフトウェアが自社のニーズに適しているかを評価し、次にその導入に向けた計画を策定する。続いて、必要なハードウェアやネットワークの準備を行い、インストール後には機能が正しく動作するかを確認するためのテストを実施する。その結果に基づき、最終的にシステムを本稼働させる。このように、導入手順は新しい技術を円滑に利用できるようにするための大切なガイドラインを提供している。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Quy trình triển khai trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Quy trình triển khai mô tả cụ thể ai thực hiện thao tác nào, theo thứ tự nào và cách xác nhận thành công. Ví dụ: sao lưu cơ sở dữ liệu, dừng dịch vụ, cập nhật ứng dụng, khởi động lại rồi kiểm tra. Quy trình chuẩn giúp hạn chế lỗi thao tác."
         },
         {
           "type": "point",
           "ja": "導入手順の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Quy trình triển khai."
+          "vi": "Thủ tục phải đủ rõ để người khác có thể thực hiện lại."
         }
       ],
       "terms": [
@@ -282,7 +282,7 @@
           "english": "Implementation Procedure",
           "vi": "Quy trình triển khai",
           "definitionJa": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。これには、システムの選定、設計、テスト、展開、運用開始などの各フェーズが含まれる。例えば、企業が業務用のソフトウェアを導入する際、まずはそのソフトウェアが自社のニーズに適しているかを評価し、次にその導入に向けた計画を策定する。続いて、必要なハードウェアやネットワークの準備を行い、インストール後には機能が正しく動作するかを確認するためのテストを実施する。その結果に基づき、最終的にシステムを本稼働させる。このように、導入手順は新しい技術を円滑に利用できるようにするための大切なガイドラインを提供している。",
-          "definitionVi": "Quy trình triển khai: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Tài liệu hoặc trình tự hướng dẫn các bước triển khai hệ thống.",
           "reading": "どうにゅうてじゅん"
         }
       ],
@@ -299,7 +299,7 @@
       "titleVi": "Cơ cấu triển khai",
       "importance": "medium",
       "summaryJa": "新しいシステムやソフトウェアを実装する際の組織や手順の枠組みを指す。",
-      "summaryVi": "Cơ cấu triển khai: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Phân công tổ chức và trách nhiệm trong quá trình triển khai.",
       "content": [
         {
           "type": "heading",
@@ -309,12 +309,12 @@
         {
           "type": "paragraph",
           "ja": "新しいシステムやソフトウェアを実装する際の組織や手順の枠組みを指す。この体制には、プロジェクトのリーダーやチームメンバー、関係者の役割や責任、導入プロセスの段階が含まれる。例えば、企業が新しい会計ソフトを導入する場合、導入体制には事前のニーズ分析、システム選定、評価、テスト、ユーザートレーニングなどの工程が設けられる。しっかりとした導入体制を整えておくことで、システム導入の効果を最大化し、失敗リスクを減少させることが可能となる。このように、成功するシステム導入には、明確な導入体制が不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Cơ cấu triển khai trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Cơ cấu triển khai xác định vai trò của bên phát triển, bộ phận vận hành, người sử dụng và người phê duyệt. Cần có đầu mối liên lạc, cơ chế xử lý sự cố và quyền quyết định khi cần tạm dừng hoặc quay lui."
         },
         {
           "type": "point",
           "ja": "導入体制の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Cơ cấu triển khai."
+          "vi": "Đặc biệt chú ý phân công trách nhiệm và kênh liên lạc."
         }
       ],
       "terms": [
@@ -323,7 +323,7 @@
           "english": "Implementation System",
           "vi": "Cơ cấu triển khai",
           "definitionJa": "新しいシステムやソフトウェアを実装する際の組織や手順の枠組みを指す。この体制には、プロジェクトのリーダーやチームメンバー、関係者の役割や責任、導入プロセスの段階が含まれる。例えば、企業が新しい会計ソフトを導入する場合、導入体制には事前のニーズ分析、システム選定、評価、テスト、ユーザートレーニングなどの工程が設けられる。しっかりとした導入体制を整えておくことで、システム導入の効果を最大化し、失敗リスクを減少させることが可能となる。このように、成功するシステム導入には、明確な導入体制が不可欠である。",
-          "definitionVi": "Cơ cấu triển khai: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Cách tổ chức nhân sự, vai trò và trách nhiệm phục vụ triển khai hệ thống.",
           "reading": "どうにゅうたいせい"
         }
       ],
@@ -340,7 +340,7 @@
       "titleVi": "Bộ phận sử dụng",
       "importance": "medium",
       "summaryJa": "企業や組織において、システムやソフトウェアを実際に使用する部門を指す。",
-      "summaryVi": "Bộ phận sử dụng: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Bộ phận trực tiếp sử dụng hệ thống để thực hiện nghiệp vụ.",
       "content": [
         {
           "type": "heading",
@@ -350,12 +350,12 @@
         {
           "type": "paragraph",
           "ja": "企業や組織において、システムやソフトウェアを実際に使用する部門を指す。これは、技術的な導入の背景において、実際にその恩恵を受ける側の部署であり、例えば営業や人事、経理などが該当する。導入されるシステムやソフトウェアの要件を明確にし、自分たちの業務が効率的に行えるようにサポートを求める役割を持つ。また、導入後はそのシステムの評価や改善に対してフィードバックを提供することが求められる。したがって、利用部門と開発部門との連携は、システムの成功に不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Bộ phận sử dụng trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Bộ phận sử dụng nêu yêu cầu nghiệp vụ, tham gia thử nghiệm và đánh giá hệ thống có phù hợp công việc thực tế hay không. Ví dụ, phòng kế toán kiểm tra chức năng lập báo cáo kế toán trước khi tiếp nhận."
         },
         {
           "type": "point",
           "ja": "利用部門の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bộ phận sử dụng."
+          "vi": "Phân biệt bộ phận sử dụng với bộ phận vận hành kỹ thuật."
         }
       ],
       "terms": [
@@ -364,7 +364,7 @@
           "english": "User Department",
           "vi": "Bộ phận sử dụng",
           "definitionJa": "企業や組織において、システムやソフトウェアを実際に使用する部門を指す。これは、技術的な導入の背景において、実際にその恩恵を受ける側の部署であり、例えば営業や人事、経理などが該当する。導入されるシステムやソフトウェアの要件を明確にし、自分たちの業務が効率的に行えるようにサポートを求める役割を持つ。また、導入後はそのシステムの評価や改善に対してフィードバックを提供することが求められる。したがって、利用部門と開発部門との連携は、システムの成功に不可欠である。",
-          "definitionVi": "Bộ phận sử dụng: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Bộ phận trong tổ chức trực tiếp dùng hệ thống cho công việc hằng ngày.",
           "reading": "りようぶもん"
         }
       ],
@@ -381,7 +381,7 @@
       "titleVi": "Bộ phận vận hành hệ thống",
       "importance": "medium",
       "summaryJa": "企業や組織内で情報システムやソフトウェアの運用と管理を担当する部門である。",
-      "summaryVi": "Bộ phận vận hành hệ thống: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Bộ phận chịu trách nhiệm duy trì hoạt động ổn định của hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -391,12 +391,12 @@
         {
           "type": "paragraph",
           "ja": "企業や組織内で情報システムやソフトウェアの運用と管理を担当する部門である。具体的には、システムの稼働を監視し、トラブルシューティングやメンテナンスを行う役割を担っている。例えば、システムが正常に稼働しているかどうかをチェックし、障害が発生した際には迅速に対応することで、業務の継続性を確保することが求められる。また、ユーザーからのサポート依頼に応じて、ソフトウェアの設定変更やアップデートを実施することもある。組織全体のITインフラを支える重要な役割を果たしている。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Bộ phận vận hành hệ thống trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Bộ phận vận hành hệ thống giám sát máy chủ và dịch vụ, quản lý tài khoản, sao lưu, xử lý sự cố và bảo trì. Họ phối hợp với người dùng nhưng tập trung vào tính sẵn sàng, an toàn và hiệu quả vận hành."
         },
         {
           "type": "point",
           "ja": "システム運用部門の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bộ phận vận hành hệ thống."
+          "vi": "Người vận hành bảo đảm hệ thống chạy ổn định; người dùng thực hiện nghiệp vụ."
         }
       ],
       "terms": [
@@ -405,7 +405,7 @@
           "english": "System Operations Department",
           "vi": "Bộ phận vận hành hệ thống",
           "definitionJa": "企業や組織内で情報システムやソフトウェアの運用と管理を担当する部門である。具体的には、システムの稼働を監視し、トラブルシューティングやメンテナンスを行う役割を担っている。例えば、システムが正常に稼働しているかどうかをチェックし、障害が発生した際には迅速に対応することで、業務の継続性を確保することが求められる。また、ユーザーからのサポート依頼に応じて、ソフトウェアの設定変更やアップデートを実施することもある。組織全体のITインフラを支える重要な役割を果たしている。",
-          "definitionVi": "Bộ phận vận hành hệ thống: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Bộ phận phụ trách quản trị, giám sát và vận hành hệ thống thông tin.",
           "reading": "しすてむうんようぶもん"
         }
       ],
@@ -422,7 +422,7 @@
       "titleVi": "Môi trường ảo",
       "importance": "medium",
       "summaryJa": "物理的なハードウェアを仮想的に分割し、複数の独立した環境を提供する技術である。",
-      "summaryVi": "Môi trường ảo: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Tạo các môi trường máy tính độc lập bằng công nghệ ảo hóa.",
       "content": [
         {
           "type": "heading",
@@ -432,12 +432,12 @@
         {
           "type": "paragraph",
           "ja": "物理的なハードウェアを仮想的に分割し、複数の独立した環境を提供する技術である。この技術により、一台のコンピュータ上で異なるオペレーティングシステムやアプリケーションが同時に実行可能となる。例えば、開発者は仮想環境を使って新しいソフトウェアのテストを行うことができ、実際の環境に影響を与えることなく問題を確認することができる。さらに、仮想環境はリソースの効率的な利用を促進し、システムの管理やバックアップが容易になる。クラウドサービスでも広く利用されており、柔軟なスケーラビリティを提供し、企業のITインフラのコスト削減にも寄与している。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Môi trường ảo trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Môi trường ảo cho phép nhiều máy ảo hoặc môi trường cách ly cùng sử dụng tài nguyên vật lý. Có thể dùng để thử nghiệm bản cập nhật trước khi triển khai chính thức, nhờ đó giảm tác động lên hệ thống đang hoạt động."
         },
         {
           "type": "point",
           "ja": "仮想環境の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Môi trường ảo."
+          "vi": "Ghi nhớ khả năng cách ly và tái sử dụng tài nguyên."
         }
       ],
       "terms": [
@@ -446,7 +446,7 @@
           "english": "Virtual Environment",
           "vi": "Môi trường ảo",
           "definitionJa": "物理的なハードウェアを仮想的に分割し、複数の独立した環境を提供する技術である。この技術により、一台のコンピュータ上で異なるオペレーティングシステムやアプリケーションが同時に実行可能となる。例えば、開発者は仮想環境を使って新しいソフトウェアのテストを行うことができ、実際の環境に影響を与えることなく問題を確認することができる。さらに、仮想環境はリソースの効率的な利用を促進し、システムの管理やバックアップが容易になる。クラウドサービスでも広く利用されており、柔軟なスケーラビリティを提供し、企業のITインフラのコスト削減にも寄与している。",
-          "definitionVi": "Môi trường ảo: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Môi trường tính toán được tạo bằng ảo hóa thay vì phụ thuộc vào một máy vật lý riêng.",
           "reading": "かそうかんきょう"
         }
       ],
@@ -463,7 +463,7 @@
       "titleVi": "Tài liệu đào tạo",
       "importance": "medium",
       "summaryJa": "学習やスキル向上を目的として作成された文書や教材を指す。",
-      "summaryVi": "Tài liệu đào tạo: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Chuẩn bị tài liệu giúp người dùng và nhân viên học cách sử dụng hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -473,12 +473,12 @@
         {
           "type": "paragraph",
           "ja": "学習やスキル向上を目的として作成された文書や教材を指す。これには、テキスト、スライド、動画、実習問題などが含まれ、教育の質を向上させるために利用される。例えば、企業が新入社員のために提供する研修資料には、業務に必要な知識や技術が集約されていることが多い。これにより、受講者は実践的なスキルを効率的に学ぶことができる。また、eラーニングプラットフォームを利用したオンライン教材も教育訓練資料の一部であり、場所や時間を選ばずに学ぶことができるメリットがある。利用者支援において欠かせない要素である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tài liệu đào tạo trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tài liệu đào tạo có thể gồm hướng dẫn thao tác, bài tập, hình minh họa, video và câu hỏi kiểm tra. Nội dung phải phù hợp từng đối tượng để họ sử dụng hệ thống đúng quy trình và xử lý các tình huống cơ bản."
         },
         {
           "type": "point",
           "ja": "教育訓練資料の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tài liệu đào tạo."
+          "vi": "Tài liệu đào tạo khác với tài liệu đặc tả dành cho lập trình viên."
         }
       ],
       "terms": [
@@ -487,7 +487,7 @@
           "english": "Training Materials",
           "vi": "Tài liệu đào tạo",
           "definitionJa": "学習やスキル向上を目的として作成された文書や教材を指す。これには、テキスト、スライド、動画、実習問題などが含まれ、教育の質を向上させるために利用される。例えば、企業が新入社員のために提供する研修資料には、業務に必要な知識や技術が集約されていることが多い。これにより、受講者は実践的なスキルを効率的に学ぶことができる。また、eラーニングプラットフォームを利用したオンライン教材も教育訓練資料の一部であり、場所や時間を選ばずに学ぶことができるメリットがある。利用者支援において欠かせない要素である。",
-          "definitionVi": "Tài liệu đào tạo: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các tài liệu được xây dựng nhằm truyền đạt kiến thức hoặc rèn luyện kỹ năng.",
           "reading": "きょういくくんれんしりょう"
         }
       ],
@@ -504,7 +504,7 @@
       "titleVi": "Quy trình nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。",
-      "summaryVi": "Quy trình nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác định các bước đánh giá trước khi chính thức tiếp nhận hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -514,12 +514,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。この手順は、製品が期待される機能や性能を満たしているかどうかを確認するために行われる。具体的には、開発者が作成した成果物に対してテストを実施したり、ユーザーからのフィードバックを受けて検証を行ったりする。仕様書に基づいて行われることが多く、これをクリアすることで正式な運用が許可される。また、受入れの結果は、問題がないか、必要な改善が行われているかといった点で評価されるため、プロジェクトの成功にとって非常に重要なプロセスである。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Quy trình nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Quy trình nghiệm thu nêu thứ tự chuẩn bị môi trường, chạy kịch bản kiểm thử, ghi kết quả, xử lý lỗi và xác nhận hoàn tất. Bên tiếp nhận thực hiện theo tiêu chí đã thống nhất để tránh đánh giá chủ quan."
         },
         {
           "type": "point",
           "ja": "受入れ手順の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Quy trình nghiệm thu."
+          "vi": "Quy trình là cách tiến hành; tiêu chí là điều kiện đạt."
         }
       ],
       "terms": [
@@ -528,7 +528,7 @@
           "english": "Acceptance Procedure",
           "vi": "Quy trình nghiệm thu",
           "definitionJa": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。この手順は、製品が期待される機能や性能を満たしているかどうかを確認するために行われる。具体的には、開発者が作成した成果物に対してテストを実施したり、ユーザーからのフィードバックを受けて検証を行ったりする。仕様書に基づいて行われることが多く、これをクリアすることで正式な運用が許可される。また、受入れの結果は、問題がないか、必要な改善が行われているかといった点で評価されるため、プロジェクトの成功にとって非常に重要なプロセスである。",
-          "definitionVi": "Quy trình nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Trình tự các bước dùng để kiểm tra và chấp nhận hệ thống được bàn giao.",
           "reading": "うけいれてじゅん"
         }
       ],
@@ -545,7 +545,7 @@
       "titleVi": "Tiêu chí nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。",
-      "summaryVi": "Tiêu chí nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác định điều kiện để khách hàng chấp nhận sản phẩm.",
       "content": [
         {
           "type": "heading",
@@ -555,12 +555,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。これにより、開発チームは完成した製品がどのような状態であれば受け入れられるかを明確に理解できる。たとえば、ユーザーが期待する機能が正常に作動し、性能やセキュリティの基準を満たすことが受入れ基準に含まれることが一般的である。また、受入れ基準はテスト計画を立てる際にも活用され、実際のテスト結果と比べることで、最終的に品質を保証する手助けを行う。この基準がきちんと設定されていることで、開発チームと顧客との認識のズレを防ぎ、円滑なプロジェクト運営が実現できる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tiêu chí nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tiêu chí nghiệm thu phải cụ thể và kiểm chứng được, như chức năng chạy đúng, tốc độ đáp ứng trong giới hạn hoặc không còn lỗi nghiêm trọng. Kết quả kiểm thử được so sánh với các tiêu chí này để quyết định chấp nhận hay yêu cầu sửa chữa."
         },
         {
           "type": "point",
           "ja": "受入れ基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tiêu chí nghiệm thu."
+          "vi": "Tránh dùng tiêu chí mơ hồ như “hoạt động tốt”."
         }
       ],
       "terms": [
@@ -569,7 +569,7 @@
           "english": "Acceptance Criteria",
           "vi": "Tiêu chí nghiệm thu",
           "definitionJa": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。これにより、開発チームは完成した製品がどのような状態であれば受け入れられるかを明確に理解できる。たとえば、ユーザーが期待する機能が正常に作動し、性能やセキュリティの基準を満たすことが受入れ基準に含まれることが一般的である。また、受入れ基準はテスト計画を立てる際にも活用され、実際のテスト結果と比べることで、最終的に品質を保証する手助けを行う。この基準がきちんと設定されていることで、開発チームと顧客との認識のズレを防ぎ、円滑なプロジェクト運営が実現できる。",
-          "definitionVi": "Tiêu chí nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các điều kiện được thỏa thuận để đánh giá sản phẩm có đủ điều kiện tiếp nhận.",
           "reading": "うけいれきじゅん"
         }
       ],
@@ -586,7 +586,7 @@
       "titleVi": "Kiểm thử nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。",
-      "summaryVi": "Kiểm thử nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Khách hàng kiểm tra hệ thống có đáp ứng nhu cầu đã thỏa thuận hay không.",
       "content": [
         {
           "type": "heading",
@@ -596,12 +596,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kiểm thử nghiệm thu thường do khách hàng hoặc đại diện người dùng thực hiện trên các tình huống nghiệp vụ thực tế. Mục tiêu là xác nhận sản phẩm đáp ứng yêu cầu trước khi chấp nhận đưa vào sử dụng, không chỉ kiểm tra từng hàm kỹ thuật."
         },
         {
           "type": "point",
           "ja": "受入れテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử nghiệm thu."
+          "vi": "受入れテスト tập trung vào yêu cầu và nghiệp vụ người dùng."
         }
       ],
       "terms": [
@@ -610,7 +610,7 @@
           "english": "Acceptance Test",
           "vi": "Kiểm thử nghiệm thu",
           "definitionJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "definitionVi": "Kiểm thử nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Hoạt động kiểm thử để xác nhận hệ thống đáp ứng yêu cầu chấp nhận của khách hàng.",
           "reading": "うけいれてすと"
         }
       ],
@@ -627,7 +627,7 @@
       "titleVi": "Nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。",
-      "summaryVi": "Nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Kiểm tra sản phẩm bàn giao rồi quyết định có chấp nhận hay không.",
       "content": [
         {
           "type": "heading",
@@ -637,12 +637,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。通常、検収は開発者ではなく、ユーザーやクライアントが行う。具体的には、開発者が提出したシステムを受け入れる前に、実際の運用環境で動作をテストし、機能が正しく働くか、期待通りの結果を出すかを確認する。この段階では、問題が見つかれば修正を求めることができ、最終的に顧客の満足度を高めるためには欠かせない手続きを含んでいる。検収においては、ユーザーの視点からの評価が特に重要であり、導入後のトラブル防止にも寄与する。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "検収 là quá trình bên nhận đối chiếu sản phẩm với hợp đồng, đặc tả và tiêu chí nghiệm thu, kiểm tra số lượng và chất lượng, sau đó xác nhận kết quả. Đây là hoạt động chấp nhận bàn giao, không đồng nhất với riêng việc chạy kiểm thử."
         },
         {
           "type": "point",
           "ja": "検収の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Nghiệm thu."
+          "vi": "納品 là giao; 検収 là kiểm tra để chấp nhận."
         }
       ],
       "terms": [
@@ -651,7 +651,7 @@
           "english": "Acceptance Testing",
           "vi": "Nghiệm thu",
           "definitionJa": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。通常、検収は開発者ではなく、ユーザーやクライアントが行う。具体的には、開発者が提出したシステムを受け入れる前に、実際の運用環境で動作をテストし、機能が正しく働くか、期待通りの結果を出すかを確認する。この段階では、問題が見つかれば修正を求めることができ、最終的に顧客の満足度を高めるためには欠かせない手続きを含んでいる。検収においては、ユーザーの視点からの評価が特に重要であり、導入後のトラブル防止にも寄与する。",
-          "definitionVi": "Nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Việc bên nhận kiểm tra sản phẩm bàn giao và xác nhận có đáp ứng điều kiện hợp đồng.",
           "reading": "けんしゅう"
         }
       ],
@@ -668,7 +668,7 @@
       "titleVi": "Tiêu chí nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。",
-      "summaryVi": "Tiêu chí nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Đặt điều kiện để xác nhận kết quả kiểm tra sản phẩm bàn giao.",
       "content": [
         {
           "type": "heading",
@@ -678,12 +678,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。これらの基準は、受入れテストの際に重要な役割を果たし、プロダクトが完成した状態でどのような機能や性能を持つべきかを明示する。例えば、新しいソフトウェアの機能が実際に期待通りに動作するかどうかを確認するための手順や条件が示される。このように、検収基準が設定されることで、開発チームと顧客との間に明確な合意が形成され、プロジェクトの成功に向けた重要なステップとなる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tiêu chí nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tiêu chí 検収 được dùng khi bên nhận quyết định chấp nhận sản phẩm, có thể bao gồm tài liệu, chức năng, chất lượng và các hạng mục bàn giao. Nên được thống nhất trước để tránh tranh chấp sau khi giao."
         },
         {
           "type": "point",
           "ja": "検収基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tiêu chí nghiệm thu."
+          "vi": "検収基準 liên quan quyết định chấp nhận sản phẩm bàn giao."
         }
       ],
       "terms": [
@@ -692,7 +692,7 @@
           "english": "Acceptance Criteria",
           "vi": "Tiêu chí nghiệm thu",
           "definitionJa": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。これらの基準は、受入れテストの際に重要な役割を果たし、プロダクトが完成した状態でどのような機能や性能を持つべきかを明示する。例えば、新しいソフトウェアの機能が実際に期待通りに動作するかどうかを確認するための手順や条件が示される。このように、検収基準が設定されることで、開発チームと顧客との間に明確な合意が形成され、プロジェクトの成功に向けた重要なステップとなる。",
-          "definitionVi": "Tiêu chí nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các tiêu chuẩn đánh giá sản phẩm có đủ điều kiện được bên nhận chấp nhận.",
           "reading": "けんしゅうきじゅん"
         }
       ],
@@ -709,7 +709,7 @@
       "titleVi": "Cơ cấu nghiệm thu",
       "importance": "medium",
       "summaryJa": "システムやソフトウェアを納入・導入する際に、その品質や性能を確認・評価するための仕組みやプロセスのことである。",
-      "summaryVi": "Cơ cấu nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Thiết lập nhân sự và trách nhiệm cho hoạt động nghiệm thu.",
       "content": [
         {
           "type": "heading",
@@ -719,12 +719,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアを納入・導入する際に、その品質や性能を確認・評価するための仕組みやプロセスのことである。具体的には、新しく導入される製品が要求された要件を満たしているかどうかを検証するための基準や手順を定め、関係者が協力して実施する体制を指す。実際の運用に耐えうる信頼性や機能性を保証するために重要であり、納入後のトラブルを未然に防ぐ役割を果たす。実際に、システムテストやユーザビリティテストなどの活動がこの体制の一環として行われることで、顧客が満足できる品質の製品が提供されることを目指す。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Cơ cấu nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Cơ cấu nghiệm thu quy định ai lập kịch bản, ai thực hiện kiểm tra, ai ghi nhận lỗi và ai có quyền phê duyệt. Việc phân công rõ ràng giúp kết quả nghiệm thu minh bạch và xử lý vấn đề kịp thời."
         },
         {
           "type": "point",
           "ja": "受入れ体制の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Cơ cấu nghiệm thu."
+          "vi": "Cần xác định rõ người kiểm tra và người phê duyệt."
         }
       ],
       "terms": [
@@ -733,7 +733,7 @@
           "english": "Acceptance System",
           "vi": "Cơ cấu nghiệm thu",
           "definitionJa": "システムやソフトウェアを納入・導入する際に、その品質や性能を確認・評価するための仕組みやプロセスのことである。具体的には、新しく導入される製品が要求された要件を満たしているかどうかを検証するための基準や手順を定め、関係者が協力して実施する体制を指す。実際の運用に耐えうる信頼性や機能性を保証するために重要であり、納入後のトラブルを未然に防ぐ役割を果たす。実際に、システムテストやユーザビリティテストなどの活動がこの体制の一環として行われることで、顧客が満足できる品質の製品が提供されることを目指す。",
-          "definitionVi": "Cơ cấu nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Cách tổ chức nhân sự và quy trình phục vụ đánh giá, tiếp nhận hệ thống.",
           "reading": "うけいれたいせい"
         }
       ],
@@ -750,7 +750,7 @@
       "titleVi": "Khả năng truy vết hai chiều",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。",
-      "summaryVi": "Khả năng truy vết hai chiều: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Theo dõi mối liên hệ giữa yêu cầu và sản phẩm thực hiện theo cả hai chiều.",
       "content": [
         {
           "type": "heading",
@@ -760,12 +760,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Khả năng truy vết hai chiều trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Truy vết hai chiều cho phép đi từ yêu cầu đến thiết kế, mã nguồn, ca kiểm thử và ngược lại. Nhờ đó có thể phát hiện yêu cầu chưa được thực hiện hoặc chức năng được tạo ra nhưng không có yêu cầu tương ứng."
         },
         {
           "type": "point",
           "ja": "双方向の追跡可能性の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Khả năng truy vết hai chiều."
+          "vi": "Yêu cầu → kiểm thử và kiểm thử → yêu cầu đều phải truy được."
         }
       ],
       "terms": [
@@ -774,7 +774,7 @@
           "english": "Bidirectional Traceability",
           "vi": "Khả năng truy vết hai chiều",
           "definitionJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "definitionVi": "Khả năng truy vết hai chiều: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Khả năng lần theo quan hệ giữa yêu cầu và các sản phẩm phát triển theo cả hai hướng.",
           "reading": "そうほうこうのついせきかのうせい"
         }
       ],
@@ -791,7 +791,7 @@
       "titleVi": "Hệ thống giáo dục và đào tạo",
       "importance": "medium",
       "summaryJa": "オンラインで学習や訓練を提供する仕組みを指す。",
-      "summaryVi": "Hệ thống giáo dục và đào tạo: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Cung cấp nền tảng hoặc cơ chế tổ chức hoạt động đào tạo.",
       "content": [
         {
           "type": "heading",
@@ -801,12 +801,12 @@
         {
           "type": "paragraph",
           "ja": "オンラインで学習や訓練を提供する仕組みを指す。これは、インターネットを活用して、学習者が自分のペースで学習できるように設計されている。特にe-LearningやWeb-Based Trainingは、自宅や職場からアクセスできるため、時間や地点に縛られずに学習を進められる点が特徴である。具体的には、動画講義、テキスト資料、クイズなどが提供され、学習者の理解度を高めるための対話型の内容も含まれる。このように、教育訓練システムは従来の教室学習を補完し、多様な学びのスタイルを可能にすることで、教育の効率性を向上させる役割を果たしている。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Hệ thống giáo dục và đào tạo trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Hệ thống đào tạo có thể quản lý nội dung học, tài khoản học viên, tiến độ và kết quả kiểm tra. Trong triển khai phần mềm, nó hỗ trợ đào tạo người sử dụng trước khi hệ thống đi vào hoạt động."
         },
         {
           "type": "point",
           "ja": "教育訓練システムの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Hệ thống giáo dục và đào tạo."
+          "vi": "Phân biệt hệ thống đào tạo với tài liệu đào tạo riêng lẻ."
         }
       ],
       "terms": [
@@ -815,7 +815,7 @@
           "english": "Education and Training System",
           "vi": "Hệ thống giáo dục và đào tạo",
           "definitionJa": "オンラインで学習や訓練を提供する仕組みを指す。これは、インターネットを活用して、学習者が自分のペースで学習できるように設計されている。特にe-LearningやWeb-Based Trainingは、自宅や職場からアクセスできるため、時間や地点に縛られずに学習を進められる点が特徴である。具体的には、動画講義、テキスト資料、クイズなどが提供され、学習者の理解度を高めるための対話型の内容も含まれる。このように、教育訓練システムは従来の教室学習を補完し、多様な学びのスタイルを可能にすることで、教育の効率性を向上させる役割を果たしている。",
-          "definitionVi": "Hệ thống giáo dục và đào tạo: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Hệ thống hỗ trợ cung cấp, quản lý và đánh giá hoạt động học tập hoặc huấn luyện.",
           "reading": "きょういくくんれんしすてむ"
         }
       ],
@@ -832,7 +832,7 @@
       "titleVi": "Quy định vận hành",
       "importance": "medium",
       "summaryJa": "システムやサービスを円滑に運用するためのルールや手続きを明文化した文書である。",
-      "summaryVi": "Quy định vận hành: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Quy định cách vận hành hệ thống một cách thống nhất và an toàn.",
       "content": [
         {
           "type": "heading",
@@ -842,12 +842,12 @@
         {
           "type": "paragraph",
           "ja": "システムやサービスを円滑に運用するためのルールや手続きを明文化した文書である。特に、利用者用文書の一部として位置づけられ、利用者がシステムを適切に使用するための指針を提供する。運用規程には、利用者が守るべき規則や操作手順、トラブル発生時の対処法などが含まれ、具体的にはログインの方法やデータの保存、セキュリティに関する注意事項が挙げられる。この規程を遵守することで、システムの安全性や効率が向上し、利用者が安心して利用できる環境を整えることができる。利用者だけでなく、管理者や運営者にも必要な情報を提供する重要な文書である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Quy định vận hành trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Quy định vận hành mô tả quyền hạn, lịch sao lưu, giám sát, xử lý sự cố, quản lý thay đổi và báo cáo. Nhờ văn bản hóa, nhân viên có thể thực hiện công việc nhất quán và giảm rủi ro phụ thuộc vào cá nhân."
         },
         {
           "type": "point",
           "ja": "運用規程の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Quy định vận hành."
+          "vi": "Quy định là nguyên tắc bắt buộc; hướng dẫn là thao tác cụ thể."
         }
       ],
       "terms": [
@@ -856,7 +856,7 @@
           "english": "Operational Regulation",
           "vi": "Quy định vận hành",
           "definitionJa": "システムやサービスを円滑に運用するためのルールや手続きを明文化した文書である。特に、利用者用文書の一部として位置づけられ、利用者がシステムを適切に使用するための指針を提供する。運用規程には、利用者が守るべき規則や操作手順、トラブル発生時の対処法などが含まれ、具体的にはログインの方法やデータの保存、セキュリティに関する注意事項が挙げられる。この規程を遵守することで、システムの安全性や効率が向上し、利用者が安心して利用できる環境を整えることができる。利用者だけでなく、管理者や運営者にも必要な情報を提供する重要な文書である。",
-          "definitionVi": "Quy định vận hành: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Văn bản quy định các nguyên tắc và thủ tục vận hành hệ thống hoặc dịch vụ.",
           "reading": "うんようきてい"
         }
       ],
@@ -873,7 +873,7 @@
       "titleVi": "Tài liệu dành cho người dùng",
       "importance": "medium",
       "summaryJa": "ソフトウェアやサービスを使用する際に、利用者が参考にするための文書の総称である。",
-      "summaryVi": "Tài liệu dành cho người dùng: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Tập hợp tài liệu hỗ trợ người dùng khai thác sản phẩm.",
       "content": [
         {
           "type": "heading",
@@ -883,12 +883,12 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやサービスを使用する際に、利用者が参考にするための文書の総称である。これにはウィザードやチュートリアル、オンラインヘルプなどが含まれ、利用者が操作方法や機能を理解しやすくするために作成されている。具体的な例としては、ウィザードは手順をガイドしながら設定を手助けするもので、チュートリアルは学習を促進するための場面を提供する。また、オンラインヘルプは、特定の機能や問題に対する迅速な情報提供を目的とし、利用者が困ったときにすぐにアクセスできる形で用意されている。これらの文書は、利用者が製品を最大限に活用できるように導く役割を果たしている。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tài liệu dành cho người dùng trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tài liệu dành cho người dùng có thể bao gồm hướng dẫn bắt đầu, sổ tay thao tác, FAQ và cách xử lý lỗi thường gặp. Cần trình bày theo ngôn ngữ dễ hiểu, phù hợp trình độ của đối tượng sử dụng."
         },
         {
           "type": "point",
           "ja": "利用者用文書類の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tài liệu dành cho người dùng."
+          "vi": "Tài liệu người dùng ưu tiên nhiệm vụ thực tế, không phải cấu trúc mã nguồn."
         }
       ],
       "terms": [
@@ -897,7 +897,7 @@
           "english": "User Documentation",
           "vi": "Tài liệu dành cho người dùng",
           "definitionJa": "ソフトウェアやサービスを使用する際に、利用者が参考にするための文書の総称である。これにはウィザードやチュートリアル、オンラインヘルプなどが含まれ、利用者が操作方法や機能を理解しやすくするために作成されている。具体的な例としては、ウィザードは手順をガイドしながら設定を手助けするもので、チュートリアルは学習を促進するための場面を提供する。また、オンラインヘルプは、特定の機能や問題に対する迅速な情報提供を目的とし、利用者が困ったときにすぐにアクセスできる形で用意されている。これらの文書は、利用者が製品を最大限に活用できるように導く役割を果たしている。",
-          "definitionVi": "Tài liệu dành cho người dùng: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Nhóm tài liệu hướng dẫn và hỗ trợ người sử dụng phần mềm hoặc dịch vụ.",
           "reading": "りようしゃようぶんしょるい"
         }
       ],
@@ -914,7 +914,7 @@
       "titleVi": "Tài liệu sử dụng hệ thống",
       "importance": "medium",
       "summaryJa": "特定のシステムやソフトウェアを使用するための手引きを提供する文書である。",
-      "summaryVi": "Tài liệu sử dụng hệ thống: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Hướng dẫn người dùng thao tác với một hệ thống cụ thể.",
       "content": [
         {
           "type": "heading",
@@ -924,12 +924,12 @@
         {
           "type": "paragraph",
           "ja": "特定のシステムやソフトウェアを使用するための手引きを提供する文書である。この文書は主に利用者がシステムを効果的に操作するために必要な情報を含んでおり、インストール手順や操作方法、トラブルシューティングのガイド、FAQなどが記載されている。例えば、新しいソフトウェアのインストールを行う際、システム利用文書を参考にすることで、利用者は正確に手順を理解し、迅速に作業を進めることができる。また、操作画面の画像やイラストが随所に挿入されていることが多いため、視覚的にも理解しやすく工夫されている。利用者とシステムの円滑なコミュニケーションを促進し、効果的な活用を支援する重要な役割を果たす。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tài liệu sử dụng hệ thống trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tài liệu sử dụng hệ thống trình bày đăng nhập, chức năng chính, quy trình thao tác, thông báo lỗi và các lưu ý bảo mật. Ví dụ, hướng dẫn nhân viên cách nhập đơn hàng và xuất báo cáo trong hệ thống quản lý."
         },
         {
           "type": "point",
           "ja": "システム利用文書の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tài liệu sử dụng hệ thống."
+          "vi": "Hướng dẫn theo quy trình nghiệp vụ của hệ thống."
         }
       ],
       "terms": [
@@ -938,7 +938,7 @@
           "english": "System User Document",
           "vi": "Tài liệu sử dụng hệ thống",
           "definitionJa": "特定のシステムやソフトウェアを使用するための手引きを提供する文書である。この文書は主に利用者がシステムを効果的に操作するために必要な情報を含んでおり、インストール手順や操作方法、トラブルシューティングのガイド、FAQなどが記載されている。例えば、新しいソフトウェアのインストールを行う際、システム利用文書を参考にすることで、利用者は正確に手順を理解し、迅速に作業を進めることができる。また、操作画面の画像やイラストが随所に挿入されていることが多いため、視覚的にも理解しやすく工夫されている。利用者とシステムの円滑なコミュニケーションを促進し、効果的な活用を支援する重要な役割を果たす。",
-          "definitionVi": "Tài liệu sử dụng hệ thống: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Tài liệu giải thích cách sử dụng các chức năng của một hệ thống cụ thể.",
           "reading": "しすてむりようぶんしょ"
         }
       ],
@@ -955,7 +955,7 @@
       "titleVi": "Tài liệu sử dụng phần mềm",
       "importance": "medium",
       "summaryJa": "特定のソフトウェアを使用するために必要な情報や指示を記載した文書のことである。",
-      "summaryVi": "Tài liệu sử dụng phần mềm: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Cung cấp hướng dẫn sử dụng một phần mềm cụ thể.",
       "content": [
         {
           "type": "heading",
@@ -965,12 +965,12 @@
         {
           "type": "paragraph",
           "ja": "特定のソフトウェアを使用するために必要な情報や指示を記載した文書のことである。主に利用者マニュアルとして提供され、ソフトウェアの機能や操作手順を詳細に説明している。例えば、プログラムのインストール方法、使い方、トラブルシューティングの手順などが含まれる。この文書は、利用者がソフトウェアを効果的に使用し、最大限の効果を得るための重要なガイドラインとなる。また、ソフトウェアのバージョンごとに異なる使い方や機能を明確にすることも重要で、利用者がスムーズに操作を行えるよう、わかりやすい言葉で説明されている点も特徴である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tài liệu sử dụng phần mềm trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tài liệu sử dụng phần mềm nêu yêu cầu môi trường, cách khởi động, chức năng, thao tác, cấu hình và cách khắc phục sự cố thường gặp. Nội dung phải phản ánh đúng phiên bản phần mềm được cung cấp."
         },
         {
           "type": "point",
           "ja": "ソフトウェア利用文書の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tài liệu sử dụng phần mềm."
+          "vi": "Phân biệt hướng dẫn sử dụng với tài liệu thiết kế kỹ thuật."
         }
       ],
       "terms": [
@@ -979,7 +979,7 @@
           "english": "Software User Documentation",
           "vi": "Tài liệu sử dụng phần mềm",
           "definitionJa": "特定のソフトウェアを使用するために必要な情報や指示を記載した文書のことである。主に利用者マニュアルとして提供され、ソフトウェアの機能や操作手順を詳細に説明している。例えば、プログラムのインストール方法、使い方、トラブルシューティングの手順などが含まれる。この文書は、利用者がソフトウェアを効果的に使用し、最大限の効果を得るための重要なガイドラインとなる。また、ソフトウェアのバージョンごとに異なる使い方や機能を明確にすることも重要で、利用者がスムーズに操作を行えるよう、わかりやすい言葉で説明されている点も特徴である。",
-          "definitionVi": "Tài liệu sử dụng phần mềm: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Tài liệu cung cấp thông tin và chỉ dẫn để sử dụng phần mềm.",
           "reading": "そふとうぇありようぶんしょ"
         }
       ],
@@ -996,7 +996,7 @@
       "titleVi": "Mục đích kiểm thử xác nhận tính hợp lệ",
       "importance": "high",
       "summaryJa": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。",
-      "summaryVi": "Mục đích kiểm thử xác nhận tính hợp lệ: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác nhận sản phẩm đáp ứng nhu cầu thực tế của người dùng.",
       "content": [
         {
           "type": "heading",
@@ -1006,12 +1006,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。このテストは、製品が所定の要件や規格に適合しているかどうかを評価するために実施される。具体的には、テストケースを通じて実際の使用状況に近い環境を再現し、ソフトウェアの動作や出力が期待通りであることを確認する。これにより、開発の初期段階で問題を特定し、修正することができ、最終的に高品質な製品を提供することが可能となる。このプロセスは、ユーザー満足度を高め、リリース後のトラブルを減少させる効果もある。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Mục đích kiểm thử xác nhận tính hợp lệ trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kiểm thử xác nhận tính phù hợp (validation) đánh giá liệu hệ thống có giải quyết đúng vấn đề và đáp ứng mục đích sử dụng dự kiến hay không. Cần phân biệt với verification, vốn kiểm tra sản phẩm có được xây dựng đúng theo đặc tả hay không."
         },
         {
           "type": "point",
           "ja": "妥当性確認テストの目的の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Mục đích kiểm thử xác nhận tính hợp lệ."
+          "vi": "Validation: xây đúng sản phẩm cần thiết; verification: xây sản phẩm đúng đặc tả."
         }
       ],
       "terms": [
@@ -1020,7 +1020,7 @@
           "english": "Validation Testing Objective",
           "vi": "Mục đích kiểm thử xác nhận tính hợp lệ",
           "definitionJa": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。このテストは、製品が所定の要件や規格に適合しているかどうかを評価するために実施される。具体的には、テストケースを通じて実際の使用状況に近い環境を再現し、ソフトウェアの動作や出力が期待通りであることを確認する。これにより、開発の初期段階で問題を特定し、修正することができ、最終的に高品質な製品を提供することが可能となる。このプロセスは、ユーザー満足度を高め、リリース後のトラブルを減少させる効果もある。",
-          "definitionVi": "Mục đích kiểm thử xác nhận tính hợp lệ: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Mục tiêu kiểm tra hệ thống phù hợp với nhu cầu và mục đích sử dụng dự kiến.",
           "reading": "だとうせいかくにんてすとのもくてき"
         }
       ],
@@ -1037,7 +1037,7 @@
       "titleVi": "Tiêu chí thành công",
       "importance": "high",
       "summaryJa": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。",
-      "summaryVi": "Tiêu chí thành công: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác định điều kiện đo lường một dự án hoặc hoạt động đã thành công.",
       "content": [
         {
           "type": "heading",
@@ -1047,12 +1047,12 @@
         {
           "type": "paragraph",
           "ja": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。プロジェクトにおいて、成功基準を明確に定義することで、結果の測定や評価が容易となる。例えば、ソフトウェア開発において、成功基準には、システムが指定された機能を正確に果たすことや、ユーザーからの満足度が一定の水準を超えることが含まれることが多い。また、妥当性確認テストにおいては、期待される結果が基準を満たしているかどうかを確認するために、成功基準が不可欠である。このように、成功基準はプロジェクトの成否を判断するための重要な要素となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Tiêu chí thành công trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Tiêu chí thành công nên được xác lập từ đầu, có thể gồm mức đáp ứng yêu cầu, thời hạn, chi phí, độ ổn định và mức hài lòng của người dùng. Khi kết thúc dự án, so sánh kết quả thực tế với tiêu chí để đánh giá khách quan."
         },
         {
           "type": "point",
           "ja": "成功基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Tiêu chí thành công."
+          "vi": "Ưu tiên tiêu chí cụ thể, có thể đo được."
         }
       ],
       "terms": [
@@ -1061,7 +1061,7 @@
           "english": "Success Criteria",
           "vi": "Tiêu chí thành công",
           "definitionJa": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。プロジェクトにおいて、成功基準を明確に定義することで、結果の測定や評価が容易となる。例えば、ソフトウェア開発において、成功基準には、システムが指定された機能を正確に果たすことや、ユーザーからの満足度が一定の水準を超えることが含まれることが多い。また、妥当性確認テストにおいては、期待される結果が基準を満たしているかどうかを確認するために、成功基準が不可欠である。このように、成功基準はプロジェクトの成否を判断するための重要な要素となる。",
-          "definitionVi": "Tiêu chí thành công: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Những điều kiện dùng để xác định một mục tiêu hoặc dự án đã đạt kết quả mong đợi.",
           "reading": "せいこうきじゅん"
         }
       ],
@@ -1078,7 +1078,7 @@
       "titleVi": "Kỹ thuật kiểm thử xác nhận tính hợp lệ",
       "importance": "medium",
       "summaryJa": "ソフトウェアやシステムが要求された機能を正しく実行するかを確認するための手法を指す。",
-      "summaryVi": "Kỹ thuật kiểm thử xác nhận tính hợp lệ: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Lựa chọn phương pháp kiểm thử để xác nhận tính phù hợp của hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -1088,12 +1088,12 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムが要求された機能を正しく実行するかを確認するための手法を指す。このようなテストは、開発の初期段階から運用まで幅広く適用される。具体的には、各種のテスト技法があり、たとえば機能テスト、性能テスト、負荷テストなどが存在する。これらの技法を使用することで、システムがユーザーの期待を満たしているかを評価でき、問題が発見された場合には迅速に修正を行うことが可能である。総じて品質の高い製品を提供するための基盤となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kỹ thuật kiểm thử xác nhận tính hợp lệ trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Các kỹ thuật có thể bao gồm kiểm thử theo tình huống nghiệp vụ, kiểm thử dựa trên yêu cầu, thử nghiệm với người dùng và đánh giá trong môi trường sử dụng dự kiến. Phương pháp phải phù hợp mục tiêu xác nhận và rủi ro của sản phẩm."
         },
         {
           "type": "point",
           "ja": "適用する妥当性確認テストの技法の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kỹ thuật kiểm thử xác nhận tính hợp lệ."
+          "vi": "Chọn kỹ thuật theo mục tiêu, không chỉ theo mức bao phủ mã nguồn."
         }
       ],
       "terms": [
@@ -1102,7 +1102,7 @@
           "english": "Validation Testing Techniques",
           "vi": "Kỹ thuật kiểm thử xác nhận tính hợp lệ",
           "definitionJa": "ソフトウェアやシステムが要求された機能を正しく実行するかを確認するための手法を指す。このようなテストは、開発の初期段階から運用まで幅広く適用される。具体的には、各種のテスト技法があり、たとえば機能テスト、性能テスト、負荷テストなどが存在する。これらの技法を使用することで、システムがユーザーの期待を満たしているかを評価でき、問題が発見された場合には迅速に修正を行うことが可能である。総じて品質の高い製品を提供するための基盤となる。",
-          "definitionVi": "Kỹ thuật kiểm thử xác nhận tính hợp lệ: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Những phương pháp dùng để đánh giá hệ thống có đáp ứng nhu cầu sử dụng hay không.",
           "reading": "てきようするだとうせいかくにんてすとのぎほう"
         }
       ],
@@ -1119,7 +1119,7 @@
       "titleVi": "Điều kiện môi trường để thực hiện kiểm thử xác nhận",
       "importance": "medium",
       "summaryJa": "テストを正確に行うために必要な状況や設定を指す。",
-      "summaryVi": "Điều kiện môi trường để thực hiện kiểm thử xác nhận: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Chuẩn bị điều kiện môi trường phù hợp cho từng phép kiểm thử xác nhận.",
       "content": [
         {
           "type": "heading",
@@ -1129,12 +1129,12 @@
         {
           "type": "paragraph",
           "ja": "テストを正確に行うために必要な状況や設定を指す。妥当性確認テストは、システムや製品が定められた基準や要求を満たしているかを評価するための重要なプロセスである。そのため、テスト環境には適切なハードウェアやソフトウェア、ネットワーク設定が求められる。例えば、特定の温度や湿度、電源の安定性などが必須な場合もある。また、実施するテストの種類によっても求められる環境条件は異なるため、事前に明確な基準を定め、それに基づいて準備を行うことが重要である。このように、適切な環境条件を整えることで、テスト結果の信頼性が高まり、製品やシステムの品質向上につながる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Điều kiện môi trường để thực hiện kiểm thử xác nhận trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Môi trường kiểm thử phải có cấu hình phần cứng, phần mềm, mạng, dữ liệu, tài khoản và điều kiện sử dụng tương ứng với mục tiêu kiểm thử. Ví dụ, kiểm tra hiệu năng cần dữ liệu và tải gần với thực tế để kết quả có ý nghĩa."
         },
         {
           "type": "point",
           "ja": "各妥当性確認テストを実施するための環境条件の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Điều kiện môi trường để thực hiện kiểm thử xác nhận."
+          "vi": "Môi trường sai lệch có thể khiến kết quả kiểm thử không đáng tin."
         }
       ],
       "terms": [
@@ -1143,7 +1143,7 @@
           "english": "Environment Conditions for Conducting Various Validation Tests",
           "vi": "Điều kiện môi trường để thực hiện kiểm thử xác nhận",
           "definitionJa": "テストを正確に行うために必要な状況や設定を指す。妥当性確認テストは、システムや製品が定められた基準や要求を満たしているかを評価するための重要なプロセスである。そのため、テスト環境には適切なハードウェアやソフトウェア、ネットワーク設定が求められる。例えば、特定の温度や湿度、電源の安定性などが必須な場合もある。また、実施するテストの種類によっても求められる環境条件は異なるため、事前に明確な基準を定め、それに基づいて準備を行うことが重要である。このように、適切な環境条件を整えることで、テスト結果の信頼性が高まり、製品やシステムの品質向上につながる。",
-          "definitionVi": "Điều kiện môi trường để thực hiện kiểm thử xác nhận: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các điều kiện về hạ tầng, dữ liệu và cấu hình cần thiết để thực hiện kiểm thử xác nhận.",
           "reading": "かくだとうせいかくにんてすとをじっしするためのかんきょうじょうけん"
         }
       ],
@@ -1160,7 +1160,7 @@
       "titleVi": "Nguyên nhân gốc của lỗi",
       "importance": "high",
       "summaryJa": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。",
-      "summaryVi": "Nguyên nhân gốc của lỗi: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Tìm nguyên nhân sâu xa khiến lỗi xuất hiện, không chỉ xử lý triệu chứng.",
       "content": [
         {
           "type": "heading",
@@ -1170,12 +1170,12 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。妥当性確認テストを通じて、システムの機能や性能が期待通りであるかを確認する中で、不具合が見つかることがある。その際、ただ単に症状を修正するのではなく、根本的な原因を特定し解決することが非常に重要である。これにより、同様の問題が再発することを防ぎ、システム全体の品質を向上させることができる。たとえば、特定の機能が正常に動作しない場合、その原因がコードの誤りなのか、設計の不備なのか、あるいは外部の要因によるものなのかを洗い出すことで、適切な対応策を講じることが可能となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Nguyên nhân gốc của lỗi trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Phân tích nguyên nhân gốc xem lỗi bắt nguồn từ yêu cầu, thiết kế, lập trình, cấu hình hay quy trình. Ví dụ, sửa một giá trị sai có thể giải quyết lỗi tạm thời, nhưng nếu nguyên nhân là thiếu kiểm tra đầu vào thì cần sửa quy tắc kiểm tra."
         },
         {
           "type": "point",
           "ja": "不具合の根本原因の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Nguyên nhân gốc của lỗi."
+          "vi": "Phân biệt nguyên nhân gốc với biểu hiện bên ngoài của lỗi."
         }
       ],
       "terms": [
@@ -1184,7 +1184,7 @@
           "english": "Root Cause of Defect",
           "vi": "Nguyên nhân gốc của lỗi",
           "definitionJa": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。妥当性確認テストを通じて、システムの機能や性能が期待通りであるかを確認する中で、不具合が見つかることがある。その際、ただ単に症状を修正するのではなく、根本的な原因を特定し解決することが非常に重要である。これにより、同様の問題が再発することを防ぎ、システム全体の品質を向上させることができる。たとえば、特定の機能が正常に動作しない場合、その原因がコードの誤りなのか、設計の不備なのか、あるいは外部の要因によるものなのかを洗い出すことで、適切な対応策を講じることが可能となる。",
-          "definitionVi": "Nguyên nhân gốc của lỗi: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Nguyên nhân cơ bản dẫn đến một sự cố hoặc khiếm khuyết.",
           "reading": "ふぐあいのこんぽんげんいん"
         }
       ],
@@ -1201,7 +1201,7 @@
       "titleVi": "Hành động khắc phục",
       "importance": "high",
       "summaryJa": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。",
-      "summaryVi": "Hành động khắc phục: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Thực hiện biện pháp loại bỏ nguyên nhân của vấn đề đã phát hiện.",
       "content": [
         {
           "type": "heading",
@@ -1211,12 +1211,12 @@
         {
           "type": "paragraph",
           "ja": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。テストの結果、意図した機能や性能が満たされていない場合、是正処置が必要となる。例えば、ソフトウェアのバグが発見された際には、そのバグを修正するためのプログラムの変更を行ったり、テスト環境の改善を図ったりすることが含まれる。したがって、是正処置を講じることで、製品やサービスの品質を向上させることが可能になる。このプロセスは、継続的な改善の一環としても重要であり、組織全体のパフォーマンス向上に寄与する。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Hành động khắc phục trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Hành động khắc phục không chỉ sửa lỗi hiện tại mà còn hướng tới ngăn lỗi tương tự tái diễn. Có thể gồm sửa quy trình, bổ sung kiểm tra hoặc thay đổi cách quản lý; sau đó phải xác nhận biện pháp có hiệu quả."
         },
         {
           "type": "point",
           "ja": "是正処置の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Hành động khắc phục."
+          "vi": "是正処置 khác với sửa nhanh một lỗi đơn lẻ."
         }
       ],
       "terms": [
@@ -1225,7 +1225,7 @@
           "english": "Corrective Action",
           "vi": "Hành động khắc phục",
           "definitionJa": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。テストの結果、意図した機能や性能が満たされていない場合、是正処置が必要となる。例えば、ソフトウェアのバグが発見された際には、そのバグを修正するためのプログラムの変更を行ったり、テスト環境の改善を図ったりすることが含まれる。したがって、是正処置を講じることで、製品やサービスの品質を向上させることが可能になる。このプロセスは、継続的な改善の一環としても重要であり、組織全体のパフォーマンス向上に寄与する。",
-          "definitionVi": "Hành động khắc phục: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Biện pháp xử lý nhằm loại bỏ nguyên nhân của sự không phù hợp đã xảy ra.",
           "reading": "ぜせいしょち"
         }
       ],
@@ -1242,7 +1242,7 @@
       "titleVi": "Sửa lỗi",
       "importance": "high",
       "summaryJa": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。",
-      "summaryVi": "Sửa lỗi: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Sửa các khiếm khuyết đã phát hiện trong hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -1252,12 +1252,12 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。このプロセスは、妥当性確認テストの結果に基づいて行われ、開発した製品が仕様通りに機能するかを確認する一環である。例えば、テスト中に特定の機能が正常に動作しないといった問題が発見された場合、その原因を特定し、修正を行い再度テストする流れとなる。品質向上や納品後のトラブルを避けるためにも重要なステップであり、ソフトウェア開発のライフサイクルにおいて繰り返し行われる活動である。こうした取り組みにより、最終的な製品の信頼性とユーザーの満足度が高まる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Sửa lỗi trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Sửa lỗi thường bao gồm tái hiện lỗi, xác định vị trí, sửa mã hoặc cấu hình, rồi kiểm thử lại để bảo đảm lỗi biến mất và không gây lỗi mới. Cần lưu lại lịch sử thay đổi để có thể truy vết."
         },
         {
           "type": "point",
           "ja": "欠陥修正の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Sửa lỗi."
+          "vi": "Sửa lỗi xong cần kiểm thử lại và kiểm thử hồi quy khi cần."
         }
       ],
       "terms": [
@@ -1266,7 +1266,7 @@
           "english": "Defect Correction",
           "vi": "Sửa lỗi",
           "definitionJa": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。このプロセスは、妥当性確認テストの結果に基づいて行われ、開発した製品が仕様通りに機能するかを確認する一環である。例えば、テスト中に特定の機能が正常に動作しないといった問題が発見された場合、その原因を特定し、修正を行い再度テストする流れとなる。品質向上や納品後のトラブルを避けるためにも重要なステップであり、ソフトウェア開発のライフサイクルにおいて繰り返し行われる活動である。こうした取り組みにより、最終的な製品の信頼性とユーザーの満足度が高まる。",
-          "definitionVi": "Sửa lỗi: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Hoạt động chỉnh sửa những lỗi hoặc khiếm khuyết được phát hiện trong phần mềm.",
           "reading": "けっかんしゅうせい"
         }
       ],
@@ -1283,7 +1283,7 @@
       "titleVi": "Công việc cải tiến",
       "importance": "medium",
       "summaryJa": "プロジェクトや業務プロセスにおいて、実施したテストや評価の結果を基に、品質や効率を向上させるための取り組みを指す。",
-      "summaryVi": "Công việc cải tiến: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Cải thiện chất lượng hoặc hiệu quả dựa trên kết quả đánh giá.",
       "content": [
         {
           "type": "heading",
@@ -1293,12 +1293,12 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや業務プロセスにおいて、実施したテストや評価の結果を基に、品質や効率を向上させるための取り組みを指す。特に、妥当性確認テストの結果を受けて、発見された問題点や改善点を具体的に洗い出し、それに対策を講じることで、全体のパフォーマンスの向上を図るものである。例えば、ソフトウェア開発においては、テスト結果からクオリティを向上させるために、バグの修正や機能の改善を行うことが含まれる。このプロセスを通じて、持続的な改善を目指し、顧客満足度の向上やコストの削減を実現することが重要である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Công việc cải tiến trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Công việc cải tiến sử dụng phản hồi, dữ liệu kiểm thử và kinh nghiệm vận hành để điều chỉnh sản phẩm hoặc quy trình. Ví dụ, tối ưu màn hình nhập liệu để giảm thao tác và sai sót của người dùng."
         },
         {
           "type": "point",
           "ja": "改善作業の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Công việc cải tiến."
+          "vi": "Cải tiến không nhất thiết bắt nguồn từ lỗi; có thể nhằm nâng hiệu quả."
         }
       ],
       "terms": [
@@ -1307,7 +1307,7 @@
           "english": "Improvement Work",
           "vi": "Công việc cải tiến",
           "definitionJa": "プロジェクトや業務プロセスにおいて、実施したテストや評価の結果を基に、品質や効率を向上させるための取り組みを指す。特に、妥当性確認テストの結果を受けて、発見された問題点や改善点を具体的に洗い出し、それに対策を講じることで、全体のパフォーマンスの向上を図るものである。例えば、ソフトウェア開発においては、テスト結果からクオリティを向上させるために、バグの修正や機能の改善を行うことが含まれる。このプロセスを通じて、持続的な改善を目指し、顧客満足度の向上やコストの削減を実現することが重要である。",
-          "definitionVi": "Công việc cải tiến: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Các hoạt động thay đổi nhằm nâng cao chất lượng, hiệu suất hoặc quy trình.",
           "reading": "かいぜんさぎょう"
         }
       ],
@@ -1324,7 +1324,7 @@
       "titleVi": "Ghi chép bài học kinh nghiệm",
       "importance": "medium",
       "summaryJa": "プロジェクトや業務の進行中に得られた知識や経験を文書化することを指す。",
-      "summaryVi": "Ghi chép bài học kinh nghiệm: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Ghi lại kinh nghiệm và bài học rút ra trong quá trình thực hiện.",
       "content": [
         {
           "type": "heading",
@@ -1334,12 +1334,12 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや業務の進行中に得られた知識や経験を文書化することを指す。この記録は、成功した点や失敗した点を明示し、次回のプロジェクトに活かすために重要である。具体的には、妥当性確認テストの結果を管理する際に、生じた問題点や改善策をまとめることで、将来のプロジェクトで同じ過ちを繰り返さないようにする。このように、学んだ教訓を記録することにより、組織の知識が蓄積され、効率的な改善策の導入が可能となる。結果として、プロジェクトの成功率が向上し、リスク管理が強化される。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Ghi chép bài học kinh nghiệm trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Nhật ký bài học kinh nghiệm mô tả tình huống, nguyên nhân, biện pháp hiệu quả hoặc chưa hiệu quả và khuyến nghị cho dự án sau. Việc lưu trữ giúp tổ chức tránh lặp lại sai lầm và tái sử dụng cách làm tốt."
         },
         {
           "type": "point",
           "ja": "学んだ教訓の記録の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ghi chép bài học kinh nghiệm."
+          "vi": "Ghi cả thành công, thất bại và biện pháp phòng tránh."
         }
       ],
       "terms": [
@@ -1348,7 +1348,7 @@
           "english": "Lessons Learned Record",
           "vi": "Ghi chép bài học kinh nghiệm",
           "definitionJa": "プロジェクトや業務の進行中に得られた知識や経験を文書化することを指す。この記録は、成功した点や失敗した点を明示し、次回のプロジェクトに活かすために重要である。具体的には、妥当性確認テストの結果を管理する際に、生じた問題点や改善策をまとめることで、将来のプロジェクトで同じ過ちを繰り返さないようにする。このように、学んだ教訓を記録することにより、組織の知識が蓄積され、効率的な改善策の導入が可能となる。結果として、プロジェクトの成功率が向上し、リスク管理が強化される。",
-          "definitionVi": "Ghi chép bài học kinh nghiệm: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Việc văn bản hóa kiến thức và kinh nghiệm rút ra từ hoạt động hoặc dự án.",
           "reading": "まなんだきょうくんのきろく"
         }
       ],
@@ -1365,7 +1365,7 @@
       "titleVi": "Khả năng truy vết hai chiều",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。",
-      "summaryVi": "Khả năng truy vết hai chiều: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Liên kết yêu cầu với thiết kế, triển khai và kiểm thử theo hai hướng.",
       "content": [
         {
           "type": "heading",
@@ -1375,12 +1375,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Khả năng truy vết hai chiều trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Từ một yêu cầu có thể truy ra chức năng và ca kiểm thử chứng minh nó được đáp ứng; ngược lại, từ một ca kiểm thử có thể tìm về yêu cầu gốc. Ma trận truy vết giúp kiểm soát thay đổi và phát hiện phần bị bỏ sót."
         },
         {
           "type": "point",
           "ja": "双方向の追跡可能性の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Khả năng truy vết hai chiều."
+          "vi": "Hai chiều là xuôi từ yêu cầu và ngược về yêu cầu."
         }
       ],
       "terms": [
@@ -1389,7 +1389,7 @@
           "english": "Bidirectional Traceability",
           "vi": "Khả năng truy vết hai chiều",
           "definitionJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "definitionVi": "Khả năng truy vết hai chiều: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Khả năng truy ngược và truy xuôi giữa yêu cầu và các kết quả phát triển.",
           "reading": "そうほうこうのついせきかのうせい"
         }
       ],
@@ -1406,7 +1406,7 @@
       "titleVi": "Kiểm thử tính dễ sử dụng",
       "importance": "high",
       "summaryJa": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。",
-      "summaryVi": "Kiểm thử tính dễ sử dụng: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Đánh giá mức độ dễ hiểu và dễ thao tác của sản phẩm đối với người dùng.",
       "content": [
         {
           "type": "heading",
@@ -1416,12 +1416,12 @@
         {
           "type": "paragraph",
           "ja": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。このテストは、ユーザーが実際に製品を使用している姿を観察し、その際に出てくる問題点や改善点を明らかにすることが目的である。例えば、Webサイトやアプリケーションのデザインが直感的であるかどうか、操作にかかる時間、誤操作の頻度などが評価の対象となる。使用性テストの結果に基づいて、ユーザーエクスペリエンスを向上させるための改良が提案される。このように、使用性テストはユーザー中心のデザインプロセスを推進するための重要なステップであり、実際の利用者の意見を反映した製品づくりに寄与する。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử tính dễ sử dụng trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kiểm thử tính dễ sử dụng quan sát người dùng thực hiện tác vụ, ghi nhận thời gian, lỗi thao tác, mức độ hoàn thành và phản hồi. Mục tiêu là phát hiện điểm gây nhầm lẫn trong giao diện và cải thiện trải nghiệm."
         },
         {
           "type": "point",
           "ja": "使用性テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử tính dễ sử dụng."
+          "vi": "Đánh giá khả năng sử dụng, không chỉ kiểm tra chức năng chạy đúng."
         }
       ],
       "terms": [
@@ -1430,7 +1430,7 @@
           "english": "Usability Testing",
           "vi": "Kiểm thử tính dễ sử dụng",
           "definitionJa": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。このテストは、ユーザーが実際に製品を使用している姿を観察し、その際に出てくる問題点や改善点を明らかにすることが目的である。例えば、Webサイトやアプリケーションのデザインが直感的であるかどうか、操作にかかる時間、誤操作の頻度などが評価の対象となる。使用性テストの結果に基づいて、ユーザーエクスペリエンスを向上させるための改良が提案される。このように、使用性テストはユーザー中心のデザインプロセスを推進するための重要なステップであり、実際の利用者の意見を反映した製品づくりに寄与する。",
-          "definitionVi": "Kiểm thử tính dễ sử dụng: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Phương pháp đánh giá mức độ dễ sử dụng của sản phẩm hoặc hệ thống.",
           "reading": "しようせいてすと"
         }
       ],
@@ -1447,7 +1447,7 @@
       "titleVi": "Kiểm thử Beta",
       "importance": "high",
       "summaryJa": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。",
-      "summaryVi": "Kiểm thử Beta: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Cho nhóm người dùng thử phiên bản gần hoàn thiện trước phát hành chính thức.",
       "content": [
         {
           "type": "heading",
@@ -1457,12 +1457,12 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。一般的に、ベータテストは製品をリリースする前に特定のユーザーや顧客に対して行われ、実際の使用場面での問題点や改善点を明らかにすることを目的としている。例えば、新しいアプリのユーザーに試用してもらい、バグや使い勝手についてのフィードバックを受け取ることが挙げられる。このプロセスを通じて得られた情報は、製品の品質を向上させたり、ユーザーのニーズにより合致したものにするために非常に重要である。ベータテストの結果を踏まえて、開発チームは必要に応じて修正を行い、正式に製品をリリースすることが一般的である。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử Beta trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Beta test đưa sản phẩm cho người dùng thực tế hoặc nhóm thử nghiệm bên ngoài sử dụng nhằm thu thập phản hồi và phát hiện lỗi chưa thấy trong nội bộ. Kết quả giúp quyết định các điều chỉnh trước khi phát hành rộng rãi."
         },
         {
           "type": "point",
           "ja": "ベータテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử Beta."
+          "vi": "Beta test không đồng nghĩa với vận hành chính thức."
         }
       ],
       "terms": [
@@ -1471,7 +1471,7 @@
           "english": "Beta Test",
           "vi": "Kiểm thử Beta",
           "definitionJa": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。一般的に、ベータテストは製品をリリースする前に特定のユーザーや顧客に対して行われ、実際の使用場面での問題点や改善点を明らかにすることを目的としている。例えば、新しいアプリのユーザーに試用してもらい、バグや使い勝手についてのフィードバックを受け取ることが挙げられる。このプロセスを通じて得られた情報は、製品の品質を向上させたり、ユーザーのニーズにより合致したものにするために非常に重要である。ベータテストの結果を踏まえて、開発チームは必要に応じて修正を行い、正式に製品をリリースすることが一般的である。",
-          "definitionVi": "Kiểm thử Beta: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm."
+          "definitionVi": "Giai đoạn thử nghiệm phiên bản gần hoàn thiện với nhóm người dùng trước khi phát hành."
         }
       ],
       "tags": [
@@ -1487,7 +1487,7 @@
       "titleVi": "Kiểm thử vận hành",
       "importance": "high",
       "summaryJa": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。",
-      "summaryVi": "Kiểm thử vận hành: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Kiểm tra hệ thống có thể được vận hành đúng trong điều kiện thực tế.",
       "content": [
         {
           "type": "heading",
@@ -1497,12 +1497,12 @@
         {
           "type": "paragraph",
           "ja": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。このテストは、ソフトウェアがユーザーのニーズに応えられるかどうかを評価し、運用開始前に問題を発見することを目的とする。具体的には、システムの使用状況やデータ処理能力、ユーザーインターフェースの使いやすさなどを確認し、実際の業務プロセスにおける挙動を模擬する。運用操作テストを行うことで、システムの信頼性や安定性が保証され、導入後のトラブルを未然に防ぐことが可能になる。これは、特に重要な業務を支えるシステムにおいて、改善点を見つけるために欠かせないステップである。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử vận hành trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kiểm thử vận hành đánh giá thao tác khởi động, dừng, sao lưu, phục hồi, giám sát và xử lý sự cố theo quy trình. Mục đích là xác nhận đội vận hành có thể quản lý hệ thống an toàn, không chỉ xác nhận chức năng nghiệp vụ."
         },
         {
           "type": "point",
           "ja": "運用操作テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử vận hành."
+          "vi": "Chú ý các thao tác bảo trì, phục hồi và xử lý sự cố."
         }
       ],
       "terms": [
@@ -1511,7 +1511,7 @@
           "english": "Operational Testing",
           "vi": "Kiểm thử vận hành",
           "definitionJa": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。このテストは、ソフトウェアがユーザーのニーズに応えられるかどうかを評価し、運用開始前に問題を発見することを目的とする。具体的には、システムの使用状況やデータ処理能力、ユーザーインターフェースの使いやすさなどを確認し、実際の業務プロセスにおける挙動を模擬する。運用操作テストを行うことで、システムの信頼性や安定性が保証され、導入後のトラブルを未然に防ぐことが可能になる。これは、特に重要な業務を支えるシステムにおいて、改善点を見つけるために欠かせないステップである。",
-          "definitionVi": "Kiểm thử vận hành: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Kiểm thử các thao tác và điều kiện phục vụ vận hành hệ thống.",
           "reading": "うんようそうさてすと"
         }
       ],
@@ -1528,7 +1528,7 @@
       "titleVi": "Kiểm thử người dùng",
       "importance": "high",
       "summaryJa": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。",
-      "summaryVi": "Kiểm thử người dùng: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Để người dùng thực tế kiểm tra sản phẩm theo nhu cầu sử dụng.",
       "content": [
         {
           "type": "heading",
@@ -1538,12 +1538,12 @@
         {
           "type": "paragraph",
           "ja": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。このテストは、ユーザビリティの向上を目指し、実際のユーザーが行動や反応を示すことによって製品の使いやすさや機能の妥当性を評価する。例えば、Webサイトやアプリケーションの利用者テストを通じて、ナビゲーションや情報の見つけやすさに関する問題点を特定し、改善点を見出すことができる。利用者テストは製品開発の初期段階から実施することができ、テスト結果を基に設計や機能の調整を行うことで、より使いやすい製品を提供することが可能となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử người dùng trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Kiểm thử người dùng thu thập kết quả khi người dùng thực hiện những tác vụ tiêu biểu. Qua đó có thể phát hiện sai lệch với quy trình nghiệp vụ, khó khăn trong thao tác và yêu cầu chưa được đáp ứng."
         },
         {
           "type": "point",
           "ja": "利用者テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử người dùng."
+          "vi": "Người dùng thực tế có thể phát hiện vấn đề mà nhóm phát triển bỏ sót."
         }
       ],
       "terms": [
@@ -1552,7 +1552,7 @@
           "english": "User Testing",
           "vi": "Kiểm thử người dùng",
           "definitionJa": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。このテストは、ユーザビリティの向上を目指し、実際のユーザーが行動や反応を示すことによって製品の使いやすさや機能の妥当性を評価する。例えば、Webサイトやアプリケーションの利用者テストを通じて、ナビゲーションや情報の見つけやすさに関する問題点を特定し、改善点を見出すことができる。利用者テストは製品開発の初期段階から実施することができ、テスト結果を基に設計や機能の調整を行うことで、より使いやすい製品を提供することが可能となる。",
-          "definitionVi": "Kiểm thử người dùng: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Hoạt động kiểm thử có sự tham gia của người sử dụng thực tế.",
           "reading": "りようしゃてすと"
         }
       ],
@@ -1569,7 +1569,7 @@
       "titleVi": "Kiểm thử nghiệm thu",
       "importance": "high",
       "summaryJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。",
-      "summaryVi": "Kiểm thử nghiệm thu: nội dung cần nắm trong giai đoạn triển khai và hỗ trợ nghiệm thu.",
+      "summaryVi": "Xác nhận hệ thống đáp ứng điều kiện tiếp nhận trước khi chấp thuận.",
       "content": [
         {
           "type": "heading",
@@ -1579,12 +1579,12 @@
         {
           "type": "paragraph",
           "ja": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "vi": "Nắm định nghĩa, mục đích và vai trò của Kiểm thử nghiệm thu trong quá trình triển khai, chuyển đổi, nghiệm thu hoặc đưa hệ thống vào vận hành."
+          "vi": "Trong kiểm thử nghiệm thu, đại diện khách hàng chạy các kịch bản đã thống nhất và so sánh kết quả với tiêu chí nghiệm thu. Các lỗi không đạt cần được ghi nhận, xử lý và kiểm tra lại trước khi đưa ra quyết định chấp nhận."
         },
         {
           "type": "point",
           "ja": "受入れテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử nghiệm thu."
+          "vi": "Kiểm thử nghiệm thu là cơ sở cho quyết định chấp nhận sản phẩm."
         }
       ],
       "terms": [
@@ -1593,7 +1593,7 @@
           "english": "Acceptance Test",
           "vi": "Kiểm thử nghiệm thu",
           "definitionJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "definitionVi": "Kiểm thử nghiệm thu: thuật ngữ thuộc giai đoạn triển khai và hỗ trợ nghiệm thu hệ thống/phần mềm.",
+          "definitionVi": "Kiểm thử xác nhận sản phẩm đáp ứng yêu cầu tiếp nhận của khách hàng.",
           "reading": "うけいれてすと"
         }
       ],

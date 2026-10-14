@@ -25,9 +25,24 @@
           "vi": "Kỹ thuật thực hiện mã hóa và xác thực theo từng gói IP để ngăn nghe lén và sửa đổi. Được sử dụng trong VPN và có chế độ tunnel và chế độ transport."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク層でIPパケットを保護する。トランスポートモードは主にデータ部分、トンネルモードは元のIPパケット全体を保護する。",
+          "vi": "Bảo vệ gói IP ở tầng mạng. Transport mode chủ yếu bảo vệ phần dữ liệu; tunnel mode bảo vệ toàn bộ gói IP ban đầu."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「IPsec」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “IPsec”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "IPsec＝IP通信を保護。VPNでよく利用される。",
+          "vi": "IPsec = bảo vệ giao tiếp IP, thường dùng cho VPN."
         }
       ],
       "terms": [
@@ -40,10 +55,7 @@
           "definitionVi": "Kỹ thuật thực hiện mã hóa và xác thực theo từng gói IP để ngăn nghe lén và sửa đổi. Được sử dụng trong VPN và có chế độ tunnel và chế độ transport."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "internet-protocol-security"
-      ]
+      "tags": ["security-implementation", "internet-protocol-security"]
     },
     {
       "id": "secure-sockets-layer-transport-layer-security",
@@ -65,9 +77,24 @@
           "vi": "Giao thức mã hóa thông tin liên lạc trên Internet để ngăn nghe lén và sửa đổi. Hiện nay chủ yếu sử dụng TLS."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "現在は主にTLSを利用する。通信相手の確認、暗号化、改ざん検知に使われる。",
+          "vi": "Hiện nay chủ yếu dùng TLS để xác minh đối tác, mã hóa và phát hiện sửa đổi dữ liệu."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「SSL/TLS」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “SSL/TLS”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "HTTPS＝HTTP＋TLS。SSLは旧規格。",
+          "vi": "HTTPS = HTTP + TLS; SSL là chuẩn cũ."
         }
       ],
       "terms": [
@@ -105,9 +132,24 @@
           "vi": "Giao thức mã hóa dùng để kết nối và quản lý từ xa một cách an toàn qua mạng."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "暗号化された通信路を使い、サーバへのリモートログインやコマンド実行を安全に行う。",
+          "vi": "Dùng kênh mã hóa để đăng nhập từ xa và thực thi lệnh trên server an toàn."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「SSH」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “SSH”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SSH＝安全なリモート操作。Telnetとの違いに注意。",
+          "vi": "SSH = điều khiển từ xa an toàn; chú ý phân biệt với Telnet."
         }
       ],
       "terms": [
@@ -120,10 +162,7 @@
           "definitionVi": "Giao thức mã hóa dùng để kết nối và quản lý từ xa một cách an toàn qua mạng."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "secure-shell"
-      ]
+      "tags": ["security-implementation", "secure-shell"]
     },
     {
       "id": "http-over-tls",
@@ -145,9 +184,24 @@
           "vi": "Kết hợp TLS với HTTP để mã hóa thông tin liên lạc giữa trình duyệt Web và máy chủ Web."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTTP通信をTLSで保護し、WebブラウザとWebサーバ間のデータを暗号化する。",
+          "vi": "Bảo vệ HTTP bằng TLS và mã hóa dữ liệu giữa trình duyệt với web server."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「HTTPS」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “HTTPS”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "HTTPS＝HTTP＋TLS。標準ポートは443。",
+          "vi": "HTTPS = HTTP + TLS; cổng chuẩn là 443."
         }
       ],
       "terms": [
@@ -160,10 +214,7 @@
           "definitionVi": "Kết hợp TLS với HTTP để mã hóa thông tin liên lạc giữa trình duyệt Web và máy chủ Web."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "http-over-tls"
-      ]
+      "tags": ["security-implementation", "http-over-tls"]
     },
     {
       "id": "wi-fi-protected-access-2",
@@ -185,9 +236,24 @@
           "vi": "Tiêu chuẩn mã hóa và xác thực cho mạng LAN không dây. Sử dụng AES để bảo vệ thông tin liên lạc Wi-Fi."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "無線LANを保護する規格で、一般にAESを用いるCCMPで通信を保護する。",
+          "vi": "Chuẩn bảo vệ Wi-Fi, thường sử dụng CCMP dựa trên AES."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「WPA2」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “WPA2”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "WEPより安全。WPA3はWPA2をさらに強化した規格。",
+          "vi": "An toàn hơn WEP; WPA3 là phiên bản tăng cường hơn WPA2."
         }
       ],
       "terms": [
@@ -200,10 +266,7 @@
           "definitionVi": "Tiêu chuẩn mã hóa và xác thực cho mạng LAN không dây. Sử dụng AES để bảo vệ thông tin liên lạc Wi-Fi."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "wi-fi-protected-access-2"
-      ]
+      "tags": ["security-implementation", "wi-fi-protected-access-2"]
     },
     {
       "id": "wi-fi-protected-access-3",
@@ -225,9 +288,24 @@
           "vi": "Tiêu chuẩn bảo mật mạng LAN không dây được tăng cường so với WPA2, với khả năng xác thực và mã hóa được tăng cường."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "WPA2の後継規格で、PersonalではSAEなどによりパスワード認証を強化する。",
+          "vi": "Chuẩn kế nhiệm WPA2; chế độ Personal tăng cường xác thực mật khẩu bằng SAE."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「WPA3」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “WPA3”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "WPA3＝WPA2より新しく強化された無線LANセキュリティ規格。",
+          "vi": "WPA3 = chuẩn Wi-Fi mới hơn và mạnh hơn WPA2."
         }
       ],
       "terms": [
@@ -240,10 +318,7 @@
           "definitionVi": "Tiêu chuẩn bảo mật mạng LAN không dây được tăng cường so với WPA2, với khả năng xác thực và mã hóa được tăng cường."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "wi-fi-protected-access-3"
-      ]
+      "tags": ["security-implementation", "wi-fi-protected-access-3"]
     },
     {
       "id": "bayesian-filtering",
@@ -265,9 +340,24 @@
           "vi": "Phương pháp phân loại dữ liệu bằng lý thuyết xác suất, đặc biệt được sử dụng để xác định thư rác."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メール内容などの特徴から確率的にスパムを判定する。",
+          "vi": "Đánh giá spam theo xác suất dựa trên đặc trưng nội dung email."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ベイジアンフィルタリング」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Lọc Bayesian”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SPF/DKIMのような送信元認証ではなく、内容などから分類する。",
+          "vi": "Khác SPF/DKIM xác thực nguồn gửi; phương pháp này phân loại từ đặc trưng nội dung."
         }
       ],
       "terms": [
@@ -280,10 +370,7 @@
           "definitionVi": "Phương pháp phân loại dữ liệu bằng lý thuyết xác suất, đặc biệt được sử dụng để xác định thư rác."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "bayesian-filtering"
-      ]
+      "tags": ["security-implementation", "bayesian-filtering"]
     },
     {
       "id": "sender-policy-framework",
@@ -305,9 +392,24 @@
           "vi": "Đăng ký trên DNS các máy chủ thư được phép gửi để phát hiện giả mạo miền của nguồn gửi."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "受信側が、送信元IPアドレスがDNSに登録された許可サーバか確認する。",
+          "vi": "Bên nhận kiểm tra IP gửi có thuộc máy chủ được phép công bố trong DNS hay không."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「SPF」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “SPF”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SPF＝送信元IP。DKIM＝電子署名。DMARC＝SPF/DKIMを使う方針。",
+          "vi": "SPF = IP gửi; DKIM = chữ ký số; DMARC = chính sách dùng SPF/DKIM."
         }
       ],
       "terms": [
@@ -320,10 +422,7 @@
           "definitionVi": "Đăng ký trên DNS các máy chủ thư được phép gửi để phát hiện giả mạo miền của nguồn gửi."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "sender-policy-framework"
-      ]
+      "tags": ["security-implementation", "sender-policy-framework"]
     },
     {
       "id": "domainkeys-identified-mail",
@@ -345,9 +444,24 @@
           "vi": "Gắn chữ ký điện tử vào email để xác thực miền gửi và phát hiện việc nội dung email bị sửa đổi."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "送信側が秘密鍵で署名し、受信側はDNSから公開鍵を取得して署名を検証する。",
+          "vi": "Bên gửi ký bằng khóa bí mật; bên nhận lấy khóa công khai từ DNS để kiểm tra."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「DKIM」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “DKIM”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "DKIM＝送信ドメインの認証＋改ざん検知。",
+          "vi": "DKIM = xác thực miền gửi + phát hiện sửa đổi."
         }
       ],
       "terms": [
@@ -360,10 +474,7 @@
           "definitionVi": "Gắn chữ ký điện tử vào email để xác thực miền gửi và phát hiện việc nội dung email bị sửa đổi."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "domainkeys-identified-mail"
-      ]
+      "tags": ["security-implementation", "domainkeys-identified-mail"]
     },
     {
       "id": "domain-based-message-authentication-reporting-and-conformance",
@@ -385,9 +496,24 @@
           "vi": "Sử dụng SPF và DKIM để xác thực email, đồng thời quy định chính sách xử lý khi xác thực thất bại và cơ chế báo cáo."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SPF/DKIMの結果とFromドメインの整合性を確認し、失敗時の扱いとレポート方針を定める。",
+          "vi": "Kiểm tra SPF/DKIM và sự phù hợp với miền From, đồng thời quy định cách xử lý và báo cáo khi lỗi."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「DMARC」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “DMARC”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SPF/DKIMは認証技術、DMARCはそれらを利用するポリシー。",
+          "vi": "SPF/DKIM là kỹ thuật xác thực; DMARC là chính sách sử dụng chúng."
         }
       ],
       "terms": [
@@ -425,9 +551,24 @@
           "vi": "Cơ chế của SMTP xác thực người dùng bằng tên người dùng và mật khẩu khi gửi email."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メール送信前に利用者を認証し、不正なメール送信を防ぐ。",
+          "vi": "Xác thực người dùng trước khi gửi mail để ngăn gửi trái phép."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「SMTP-AUTH」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Xác thực SMTP”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SMTP-AUTH＝送信する利用者の認証。",
+          "vi": "SMTP-AUTH = xác thực người dùng gửi mail."
         }
       ],
       "terms": [
@@ -440,10 +581,7 @@
           "definitionVi": "Cơ chế của SMTP xác thực người dùng bằng tên người dùng và mật khẩu khi gửi email."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "smtp-authentication"
-      ]
+      "tags": ["security-implementation", "smtp-authentication"]
     },
     {
       "id": "outbound-port-25-blocking",
@@ -465,9 +603,24 @@
           "vi": "ISP hạn chế lưu lượng TCP cổng 25 đi ra ngoài để ngăn việc gửi trực tiếp thư rác."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ISPが外向きTCPポート25を制限し、端末からのスパム直接送信を抑える。",
+          "vi": "ISP hạn chế TCP cổng 25 đi ra để giảm gửi spam trực tiếp."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「OP25B」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Chặn cổng 25 chiều đi”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "OP25B＝外向き25番ポートの制限。",
+          "vi": "OP25B = hạn chế cổng 25 chiều đi."
         }
       ],
       "terms": [
@@ -480,10 +633,7 @@
           "definitionVi": "ISP hạn chế lưu lượng TCP cổng 25 đi ra ngoài để ngăn việc gửi trực tiếp thư rác."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "outbound-port-25-blocking"
-      ]
+      "tags": ["security-implementation", "outbound-port-25-blocking"]
     },
     {
       "id": "pretty-good-privacy",
@@ -505,9 +655,24 @@
           "vi": "Kỹ thuật sử dụng mật mã khóa công khai để mã hóa và giải mã email hoặc tệp, qua đó bảo vệ chúng an toàn."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "公開鍵暗号などを組み合わせ、メールやファイルの暗号化・署名に利用する。",
+          "vi": "Kết hợp mật mã khóa công khai để mã hóa/ký email và tệp."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「PGP」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “PGP”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "S/MIMEは一般に電子証明書を利用する。",
+          "vi": "S/MIME thường sử dụng chứng chỉ số."
         }
       ],
       "terms": [
@@ -520,10 +685,7 @@
           "definitionVi": "Kỹ thuật sử dụng mật mã khóa công khai để mã hóa và giải mã email hoặc tệp, qua đó bảo vệ chúng an toàn."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "pretty-good-privacy"
-      ]
+      "tags": ["security-implementation", "pretty-good-privacy"]
     },
     {
       "id": "secure-multipurpose-internet-mail-extensions",
@@ -545,9 +707,24 @@
           "vi": "Mã hóa email và sử dụng chữ ký số để xác nhận người gửi và phát hiện sửa đổi."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子証明書を利用してメールを暗号化し、デジタル署名を付ける。",
+          "vi": "Dùng chứng chỉ số để mã hóa email và tạo chữ ký số."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「S/MIME」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “S/MIME”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "暗号化＝機密性、署名＝送信者確認・改ざん検知。",
+          "vi": "Mã hóa = bí mật; chữ ký = xác nhận người gửi/phát hiện sửa đổi."
         }
       ],
       "terms": [
@@ -585,9 +762,24 @@
           "vi": "Cơ chế ủy quyền truy cập có giới hạn mà không cần chuyển mật khẩu cho ứng dụng của bên thứ ba."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パスワードを第三者アプリに渡さず、アクセストークンで限定された権限を与える。",
+          "vi": "Không đưa mật khẩu cho ứng dụng bên thứ ba; cấp quyền giới hạn bằng access token."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「OAuth」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “OAuth”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "OAuthの中心は認証ではなく認可（Authorization）。",
+          "vi": "Trọng tâm OAuth là ủy quyền (Authorization), không phải xác thực."
         }
       ],
       "terms": [
@@ -600,10 +792,7 @@
           "definitionVi": "Cơ chế ủy quyền truy cập có giới hạn mà không cần chuyển mật khẩu cho ứng dụng của bên thứ ba."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "oauth"
-      ]
+      "tags": ["security-implementation", "oauth"]
     },
     {
       "id": "dns-security-extensions",
@@ -625,9 +814,24 @@
           "vi": "Gắn chữ ký số vào phản hồi DNS để kiểm chứng tính hợp lệ và tính toàn vẹn của thông tin DNS."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "DNSレコードのデジタル署名を検証し、応答の真正性と完全性を確認する。",
+          "vi": "Kiểm tra chữ ký số của bản ghi DNS để xác minh tính xác thực và toàn vẹn."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「DNSSEC」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “DNSSEC”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "DNSSECはDNS通信を暗号化する仕組みではない。",
+          "vi": "DNSSEC không phải cơ chế mã hóa nội dung DNS."
         }
       ],
       "terms": [
@@ -640,10 +844,7 @@
           "definitionVi": "Gắn chữ ký số vào phản hồi DNS để kiểm chứng tính hợp lệ và tính toàn vẹn của thông tin DNS."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "dns-security-extensions"
-      ]
+      "tags": ["security-implementation", "dns-security-extensions"]
     },
     {
       "id": "extensible-authentication-protocol",
@@ -665,9 +866,24 @@
           "vi": "Khuôn khổ xác thực có khả năng mở rộng, cho phép sử dụng nhiều phương thức xác thực. Được sử dụng trong mạng LAN không dây và VPN."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "EAP-TLSやPEAPなど複数の認証方式を利用できる認証フレームワーク。",
+          "vi": "Khung xác thực cho phép dùng nhiều phương thức như EAP-TLS và PEAP."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「EAP」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “EAP”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "EAP＝枠組み。EAP-TLS・PEAP＝具体的な方式。",
+          "vi": "EAP = khung; EAP-TLS/PEAP = phương thức cụ thể."
         }
       ],
       "terms": [
@@ -680,10 +896,7 @@
           "definitionVi": "Khuôn khổ xác thực có khả năng mở rộng, cho phép sử dụng nhiều phương thức xác thực. Được sử dụng trong mạng LAN không dây và VPN."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "extensible-authentication-protocol"
-      ]
+      "tags": ["security-implementation", "extensible-authentication-protocol"]
     },
     {
       "id": "extensible-authentication-protocol-transport-layer-security",
@@ -705,9 +918,24 @@
           "vi": "Một phương thức EAP sử dụng TLS và chứng chỉ để xác thực cả phía client và server."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TLSと証明書を使い、クライアントとサーバの双方を認証する。",
+          "vi": "Dùng TLS và chứng chỉ để xác thực cả client lẫn server."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「EAP-TLS」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “EAP-TLS”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "クライアント側にも証明書が必要な点が重要。",
+          "vi": "Điểm quan trọng: phía client cũng cần chứng chỉ."
         }
       ],
       "terms": [
@@ -745,9 +973,24 @@
           "vi": "Một phương thức EAP thiết lập đường hầm được mã hóa rồi thực hiện xác thực người dùng bên trong đường hầm đó."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "TLSの暗号化トンネルを作り、その内部でユーザー名・パスワードなどによる認証を行う。",
+          "vi": "Tạo tunnel TLS rồi xác thực người dùng bên trong, thường bằng tên và mật khẩu."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「PEAP」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “PEAP”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "EAP-TLS＝証明書による相互認証、PEAP＝トンネル内でユーザー認証。",
+          "vi": "EAP-TLS = xác thực hai chiều bằng chứng chỉ; PEAP = xác thực người dùng trong tunnel."
         }
       ],
       "terms": [
@@ -785,9 +1028,24 @@
           "vi": "Giao thức quản lý tập trung việc xác thực, cấp quyền và ghi nhận sử dụng khi kết nối mạng."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク機器から認証要求を受け、AAA（認証・認可・アカウンティング）を集中管理する。",
+          "vi": "Nhận yêu cầu từ thiết bị mạng và quản lý tập trung AAA: xác thực, cấp quyền, ghi nhận."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「RADIUS」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “RADIUS”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "RADIUS＝AAAの集中管理。802.1X認証でもよく使われる。",
+          "vi": "RADIUS = quản lý tập trung AAA; thường dùng với 802.1X."
         }
       ],
       "terms": [
@@ -825,9 +1083,24 @@
           "vi": "Kiểm soát việc cho phép gói tin đi qua dựa trên địa chỉ IP nguồn, địa chỉ IP đích, giao thức, số cổng và các thông tin khác."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IPアドレス、プロトコル、ポート番号などをルールと照合して通信を許可・拒否する。",
+          "vi": "Đối chiếu IP, giao thức, cổng... với rule để cho phép hoặc chặn."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「パケットフィルタリング」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Lọc gói tin”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "主にパケットのヘッダ情報を条件に制御する。",
+          "vi": "Chủ yếu kiểm soát theo thông tin header gói tin."
         }
       ],
       "terms": [
@@ -840,10 +1113,7 @@
           "definitionVi": "Kiểm soát việc cho phép gói tin đi qua dựa trên địa chỉ IP nguồn, địa chỉ IP đích, giao thức, số cổng và các thông tin khác."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "packet-filtering"
-      ]
+      "tags": ["security-implementation", "packet-filtering"]
     },
     {
       "id": "mac-address-filtering",
@@ -865,9 +1135,24 @@
           "vi": "Cho phép hoặc từ chối thiết bị kết nối mạng dựa trên địa chỉ MAC. Tuy nhiên, địa chỉ MAC có thể bị giả mạo."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MACアドレスを条件に端末の接続を許可・拒否する。",
+          "vi": "Cho phép/chặn thiết bị dựa trên địa chỉ MAC."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「MACアドレスフィルタリング」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Lọc địa chỉ MAC”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "MACアドレスは偽装可能なので、単独では強固な認証ではない。",
+          "vi": "MAC có thể giả mạo nên không phải xác thực mạnh khi dùng riêng."
         }
       ],
       "terms": [
@@ -880,10 +1165,7 @@
           "definitionVi": "Cho phép hoặc từ chối thiết bị kết nối mạng dựa trên địa chỉ MAC. Tuy nhiên, địa chỉ MAC có thể bị giả mạo."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "mac-address-filtering"
-      ]
+      "tags": ["security-implementation", "mac-address-filtering"]
     },
     {
       "id": "authentication-server",
@@ -905,9 +1187,24 @@
           "vi": "Máy chủ xác minh danh tính người dùng hoặc thiết bị và quản lý quyền truy cập vào mạng hoặc hệ thống."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーや端末の認証情報を確認し、アクセス可否を判断する。",
+          "vi": "Kiểm tra thông tin xác thực và quyết định quyền truy cập."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「認証サーバ」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Máy chủ xác thực”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "RADIUSは認証で利用される代表的なプロトコルの一つ。",
+          "vi": "RADIUS là giao thức tiêu biểu dùng trong xác thực."
         }
       ],
       "terms": [
@@ -920,10 +1217,7 @@
           "definitionVi": "Máy chủ xác minh danh tính người dùng hoặc thiết bị và quản lý quyền truy cập vào mạng hoặc hệ thống."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "authentication-server"
-      ]
+      "tags": ["security-implementation", "authentication-server"]
     },
     {
       "id": "network-address-translation",
@@ -945,9 +1239,24 @@
           "vi": "Kỹ thuật chuyển đổi giữa địa chỉ IP riêng và địa chỉ IP toàn cục."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部のプライベートIPと外部のグローバルIPを対応付けて変換する。",
+          "vi": "Ánh xạ và chuyển đổi giữa IP private bên trong và IP global bên ngoài."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「NAT」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “NAT”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "NAT＝主にIPアドレス。NAPT＝IP＋ポート番号。",
+          "vi": "NAT = chủ yếu đổi IP; NAPT = đổi IP + số cổng."
         }
       ],
       "terms": [
@@ -960,10 +1269,7 @@
           "definitionVi": "Kỹ thuật chuyển đổi giữa địa chỉ IP riêng và địa chỉ IP toàn cục."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "network-address-translation"
-      ]
+      "tags": ["security-implementation", "network-address-translation"]
     },
     {
       "id": "network-address-port-translation",
@@ -985,9 +1291,24 @@
           "vi": "Chuyển đổi cả số cổng ngoài địa chỉ IP, cho phép nhiều thiết bị dùng chung một địa chỉ IP toàn cục."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IPアドレスとポート番号を変換し、複数端末で一つのグローバルIPを共有できる。",
+          "vi": "Đổi cả IP và số cổng để nhiều thiết bị dùng chung một IP global."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「NAPT」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “NAPT”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "「複数端末で1個のグローバルIPを共有」→ NAPT。",
+          "vi": "'Nhiều thiết bị dùng chung một IP global' → NAPT."
         }
       ],
       "terms": [
@@ -1000,10 +1321,7 @@
           "definitionVi": "Chuyển đổi cả số cổng ngoài địa chỉ IP, cho phép nhiều thiết bị dùng chung một địa chỉ IP toàn cục."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "network-address-port-translation"
-      ]
+      "tags": ["security-implementation", "network-address-port-translation"]
     },
     {
       "id": "authentication-vlan",
@@ -1025,9 +1343,24 @@
           "vi": "Cơ chế xác thực người dùng hoặc thiết bị khi kết nối và kiểm soát VLAN mà đối tượng thuộc về dựa trên kết quả xác thực."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "認証結果に応じて端末を適切なVLANへ所属させる。",
+          "vi": "Đưa thiết bị vào VLAN phù hợp theo kết quả xác thực."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「認証VLAN」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “VLAN xác thực”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "単なるVLAN分割ではなく、認証結果でVLANを制御する。",
+          "vi": "Không chỉ chia VLAN; VLAN được điều khiển theo kết quả xác thực."
         }
       ],
       "terms": [
@@ -1040,10 +1373,7 @@
           "definitionVi": "Cơ chế xác thực người dùng hoặc thiết bị khi kết nối và kiểm soát VLAN mà đối tượng thuộc về dựa trên kết quả xác thực."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "authentication-vlan"
-      ]
+      "tags": ["security-implementation", "authentication-vlan"]
     },
     {
       "id": "virtual-private-network",
@@ -1065,9 +1395,24 @@
           "vi": "Kỹ thuật xây dựng một đường truyền riêng ảo được mã hóa trên mạng công cộng."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "公衆網上でトンネリングや暗号化を使い、安全な仮想通信路を構築する。",
+          "vi": "Dùng tunneling và mã hóa để tạo đường truyền riêng ảo an toàn trên mạng công cộng."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「VPN」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “VPN”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "VPNは目的・仕組みの総称。IPsecは実現技術の一つ。",
+          "vi": "VPN là khái niệm/cơ chế tổng quát; IPsec là một công nghệ triển khai."
         }
       ],
       "terms": [
@@ -1080,10 +1425,7 @@
           "definitionVi": "Kỹ thuật xây dựng một đường truyền riêng ảo được mã hóa trên mạng công cộng."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "virtual-private-network"
-      ]
+      "tags": ["security-implementation", "virtual-private-network"]
     },
     {
       "id": "honeypot",
@@ -1105,9 +1447,24 @@
           "vi": "Đặt một hệ thống giả để thu hút kẻ tấn công, từ đó quan sát và ghi lại phương thức tấn công cũng như hành vi của chúng."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "おとり環境へ攻撃者を誘導し、攻撃手法や行動を観察・記録する。",
+          "vi": "Dẫn kẻ tấn công vào hệ thống mồi để quan sát và ghi lại hành vi."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ハニーポット」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Honeypot”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "主目的＝攻撃者の観察・情報収集。",
+          "vi": "Mục tiêu chính = quan sát và thu thập thông tin kẻ tấn công."
         }
       ],
       "terms": [
@@ -1120,10 +1477,7 @@
           "definitionVi": "Đặt một hệ thống giả để thu hút kẻ tấn công, từ đó quan sát và ghi lại phương thức tấn công cũng như hành vi của chúng."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "honeypot"
-      ]
+      "tags": ["security-implementation", "honeypot"]
     },
     {
       "id": "reverse-proxy",
@@ -1145,9 +1499,24 @@
           "vi": "Thay mặt tiếp nhận yêu cầu từ client rồi chuyển tiếp đến máy chủ nội bộ. Nhờ đó không công khai trực tiếp máy chủ nội bộ."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "外部からの要求を受け、内部サーバへ代理で転送する。",
+          "vi": "Nhận request bên ngoài rồi chuyển tiếp thay cho server nội bộ."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「リバースプロキシ」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Reverse Proxy”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "通常のプロキシ＝主にクライアント側、リバースプロキシ＝サーバ側を代理。",
+          "vi": "Proxy thường đại diện client; reverse proxy đại diện server."
         }
       ],
       "terms": [
@@ -1160,10 +1529,7 @@
           "definitionVi": "Thay mặt tiếp nhận yêu cầu từ client rồi chuyển tiếp đến máy chủ nội bộ. Nhờ đó không công khai trực tiếp máy chủ nội bộ."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "reverse-proxy"
-      ]
+      "tags": ["security-implementation", "reverse-proxy"]
     },
     {
       "id": "database-encryption",
@@ -1185,9 +1551,24 @@
           "vi": "Mã hóa dữ liệu mật trong cơ sở dữ liệu để ngăn người không có khóa xem dữ liệu."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "保存データを暗号化し、漏えい時にも鍵なしでは内容を読み取りにくくする。",
+          "vi": "Mã hóa dữ liệu lưu trữ để khó đọc khi rò rỉ nếu không có khóa."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「データベース暗号化」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Mã hóa cơ sở dữ liệu”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "暗号化とアクセス制御は目的が異なるため、組み合わせて使う。",
+          "vi": "Mã hóa và kiểm soát truy cập có mục đích khác nhau và nên kết hợp."
         }
       ],
       "terms": [
@@ -1200,10 +1581,7 @@
           "definitionVi": "Mã hóa dữ liệu mật trong cơ sở dữ liệu để ngăn người không có khóa xem dữ liệu."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "database-encryption"
-      ]
+      "tags": ["security-implementation", "database-encryption"]
     },
     {
       "id": "database-access-control",
@@ -1225,9 +1603,24 @@
           "vi": "Thiết lập quyền như xem và cập nhật cho từng người dùng cơ sở dữ liệu để ngăn truy cập trái phép và sửa đổi dữ liệu."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーやロールごとに必要な操作権限だけを与える。",
+          "vi": "Chỉ cấp quyền thao tác cần thiết theo user/role."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「データベースアクセス制御」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Kiểm soát truy cập cơ sở dữ liệu”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "最小権限の原則を押さえる。",
+          "vi": "Ghi nhớ nguyên tắc đặc quyền tối thiểu."
         }
       ],
       "terms": [
@@ -1240,10 +1633,7 @@
           "definitionVi": "Thiết lập quyền như xem và cập nhật cho từng người dùng cơ sở dữ liệu để ngăn truy cập trái phép và sửa đổi dữ liệu."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "database-access-control"
-      ]
+      "tags": ["security-implementation", "database-access-control"]
     },
     {
       "id": "database-backup",
@@ -1265,9 +1655,24 @@
           "vi": "Sao chép cơ sở dữ liệu và lưu ở một nơi khác để chuẩn bị cho việc khôi phục khi xảy ra sự cố hoặc mất dữ liệu."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "障害や誤操作に備えて別の場所へデータを保存し、復元できるようにする。",
+          "vi": "Lưu bản sao ở nơi khác để có thể khôi phục khi sự cố hoặc thao tác nhầm."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「データベースバックアップ」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Sao lưu cơ sở dữ liệu”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "バックアップは復元できることの確認も重要。",
+          "vi": "Cần kiểm tra rằng backup thực sự có thể restore."
         }
       ],
       "terms": [
@@ -1280,10 +1685,7 @@
           "definitionVi": "Sao chép cơ sở dữ liệu và lưu ở một nơi khác để chuẩn bị cho việc khôi phục khi xảy ra sự cố hoặc mất dữ liệu."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "database-backup"
-      ]
+      "tags": ["security-implementation", "database-backup"]
     },
     {
       "id": "log-acquisition",
@@ -1305,9 +1707,24 @@
           "vi": "Ghi lại thao tác của hệ thống và người dùng, lỗi, giao dịch và các thông tin khác để sử dụng cho giám sát và điều tra nguyên nhân."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アクセス、操作、エラーなどを記録し、監視・原因調査・監査に利用する。",
+          "vi": "Ghi truy cập, thao tác, lỗi... để giám sát, điều tra và audit."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ログの取得」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Thu thập log”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "取得だけでなく、改ざん防止・保管・確認も重要。",
+          "vi": "Không chỉ thu log; cần chống sửa, lưu giữ và kiểm tra."
         }
       ],
       "terms": [
@@ -1320,10 +1737,7 @@
           "definitionVi": "Ghi lại thao tác của hệ thống và người dùng, lỗi, giao dịch và các thông tin khác để sử dụng cho giám sát và điều tra nguyên nhân."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "log-acquisition"
-      ]
+      "tags": ["security-implementation", "log-acquisition"]
     },
     {
       "id": "web-system-security-measures",
@@ -1345,9 +1759,24 @@
           "vi": "Thực hiện các biện pháp như xác thực, mã hóa và giám sát để bảo vệ hệ thống Web khỏi truy cập trái phép và rò rỉ thông tin."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "認証、アクセス制御、TLS、入力検証、ログ監視など複数の対策を組み合わせる。",
+          "vi": "Kết hợp xác thực, access control, TLS, kiểm tra input, log..."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「Webシステムのセキュリティ対策」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Biện pháp bảo mật hệ thống Web”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "一つの対策ではなく多層防御として考える。",
+          "vi": "Hiểu theo phòng thủ nhiều lớp, không chỉ một biện pháp."
         }
       ],
       "terms": [
@@ -1360,10 +1789,7 @@
           "definitionVi": "Thực hiện các biện pháp như xác thực, mã hóa và giám sát để bảo vệ hệ thống Web khỏi truy cập trái phép và rò rỉ thông tin."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "web-system-security-measures"
-      ]
+      "tags": ["security-implementation", "web-system-security-measures"]
     },
     {
       "id": "secure-programming",
@@ -1385,9 +1811,24 @@
           "vi": "Phương pháp lập trình nhằm tránh tạo ra lỗ hổng ngay từ giai đoạn thiết kế và viết mã."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入力検証や安全なAPI利用などにより、設計・実装段階から脆弱性を作り込まない。",
+          "vi": "Dùng kiểm tra input và API an toàn để tránh tạo lỗ hổng từ giai đoạn thiết kế/lập trình."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「セキュアプログラミング」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Lập trình an toàn”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "後から直すだけでなく、最初から脆弱性を作らない。",
+          "vi": "Không chỉ sửa sau này; mục tiêu là tránh tạo lỗ hổng từ đầu."
         }
       ],
       "terms": [
@@ -1400,10 +1841,7 @@
           "definitionVi": "Phương pháp lập trình nhằm tránh tạo ra lỗ hổng ngay từ giai đoạn thiết kế và viết mã."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "secure-programming"
-      ]
+      "tags": ["security-implementation", "secure-programming"]
     },
     {
       "id": "vulnerability-assessment-techniques",
@@ -1425,9 +1863,24 @@
           "vi": "Sử dụng phân tích tĩnh, phân tích động, fuzzing và các phương pháp khác để phát hiện lỗ hổng của hệ thống hoặc phần mềm."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "静的解析は実行せず、動的解析は実行しながら調べる。ファジングは異常入力を大量に与える。",
+          "vi": "Static không chạy chương trình; dynamic kiểm tra khi chạy; fuzzing đưa nhiều input bất thường."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「脆弱性検査技術」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Kỹ thuật kiểm tra lỗ hổng”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "静的＝実行しない、動的＝実行する、ファジング＝異常入力。",
+          "vi": "Static = không chạy; dynamic = chạy; fuzzing = input bất thường."
         }
       ],
       "terms": [
@@ -1440,10 +1893,7 @@
           "definitionVi": "Sử dụng phân tích tĩnh, phân tích động, fuzzing và các phương pháp khác để phát hiện lỗ hổng của hệ thống hoặc phần mềm."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "vulnerability-assessment-techniques"
-      ]
+      "tags": ["security-implementation", "vulnerability-assessment-techniques"]
     },
     {
       "id": "container-security",
@@ -1465,9 +1915,24 @@
           "vi": "Quản lý các lỗ hổng trong cấu hình, phần mềm, image và các thành phần khác của container để vận hành an toàn."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "イメージの脆弱性確認、不要権限の削減、秘密情報の管理などを行う。",
+          "vi": "Quét lỗ hổng image, giảm quyền thừa và quản lý secret."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「コンテナセキュリティ」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Bảo mật container”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "コンテナも自動的に安全ではない。イメージ・設定・権限を管理する。",
+          "vi": "Container không tự động an toàn; phải quản lý image, cấu hình và quyền."
         }
       ],
       "terms": [
@@ -1480,10 +1945,7 @@
           "definitionVi": "Quản lý các lỗ hổng trong cấu hình, phần mềm, image và các thành phần khác của container để vận hành an toàn."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "container-security"
-      ]
+      "tags": ["security-implementation", "container-security"]
     },
     {
       "id": "salt",
@@ -1505,9 +1967,24 @@
           "vi": "Thêm một giá trị ngẫu nhiên khác nhau cho từng mật khẩu trước khi băm, nhờ đó ngay cả cùng một mật khẩu cũng tạo ra giá trị băm khác nhau."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パスワードごとに異なるランダム値を加えてからハッシュ化する。",
+          "vi": "Thêm giá trị ngẫu nhiên khác nhau cho từng mật khẩu trước khi hash."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ソルト」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Salt”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "ソルトは秘密である必要はない。レインボーテーブル対策に有効。",
+          "vi": "Salt không nhất thiết phải bí mật; hữu ích chống rainbow table."
         }
       ],
       "terms": [
@@ -1520,10 +1997,7 @@
           "definitionVi": "Thêm một giá trị ngẫu nhiên khác nhau cho từng mật khẩu trước khi băm, nhờ đó ngay cả cùng một mật khẩu cũng tạo ra giá trị băm khác nhau."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "salt"
-      ]
+      "tags": ["security-implementation", "salt"]
     },
     {
       "id": "pepper",
@@ -1545,9 +2019,24 @@
           "vi": "Thông tin bí mật bổ sung được sử dụng để tăng cường khả năng bảo vệ mật khẩu."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パスワードハッシュ時に加える秘密値で、通常はパスワードDBとは別に管理する。",
+          "vi": "Giá trị bí mật thêm khi hash mật khẩu, thường được quản lý tách khỏi DB mật khẩu."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ペッパー」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Pepper”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "ソルト＝秘密でなくてもよい。ペッパー＝秘密として別管理。",
+          "vi": "Salt không cần bí mật; pepper là bí mật và được quản lý riêng."
         }
       ],
       "terms": [
@@ -1560,10 +2049,7 @@
           "definitionVi": "Thông tin bí mật bổ sung được sử dụng để tăng cường khả năng bảo vệ mật khẩu."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "pepper"
-      ]
+      "tags": ["security-implementation", "pepper"]
     },
     {
       "id": "stretching",
@@ -1585,9 +2071,24 @@
           "vi": "Lặp lại quá trình băm để tăng khối lượng tính toán, qua đó kéo dài thời gian cần thiết để phân tích mật khẩu."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ハッシュ処理を多数回繰り返し、一回の試行に必要な計算時間を増やす。",
+          "vi": "Lặp hash nhiều lần để tăng chi phí tính toán cho mỗi lần thử."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「ストレッチング」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Stretching”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "ソルトは事前計算対策、ストレッチングは総当たりを遅くする。",
+          "vi": "Salt chống tính trước; stretching làm chậm brute-force."
         }
       ],
       "terms": [
@@ -1600,10 +2101,7 @@
           "definitionVi": "Lặp lại quá trình băm để tăng khối lượng tính toán, qua đó kéo dài thời gian cần thiết để phân tích mật khẩu."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "stretching"
-      ]
+      "tags": ["security-implementation", "stretching"]
     },
     {
       "id": "buffer-overflow-prevention",
@@ -1625,9 +2123,24 @@
           "vi": "Ngăn việc ghi vượt quá vùng nhớ đã được cấp phát bằng các biện pháp như kiểm tra độ dài dữ liệu đầu vào."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入力長や境界を確認し、確保したメモリ領域を超えて書き込ませない。",
+          "vi": "Kiểm tra độ dài và boundary để không ghi vượt vùng nhớ đã cấp phát."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「バッファオーバーフロー対策」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Biện pháp chống tràn bộ đệm”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "入力長・境界チェックが基本。",
+          "vi": "Kiểm tra độ dài và boundary là biện pháp cơ bản."
         }
       ],
       "terms": [
@@ -1640,10 +2153,7 @@
           "definitionVi": "Ngăn việc ghi vượt quá vùng nhớ đã được cấp phát bằng các biện pháp như kiểm tra độ dài dữ liệu đầu vào."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "buffer-overflow-prevention"
-      ]
+      "tags": ["security-implementation", "buffer-overflow-prevention"]
     },
     {
       "id": "cross-site-scripting-prevention",
@@ -1665,9 +2175,24 @@
           "vi": "Ngăn script độc hại được thực thi trên trình duyệt của người dùng bằng cách xử lý thích hợp khi xuất dữ liệu và các biện pháp tương tự."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "HTMLへ出力する値を文脈に応じて適切にエスケープし、悪意あるスクリプトの実行を防ぐ。",
+          "vi": "Escape dữ liệu khi xuất ra HTML theo đúng ngữ cảnh để ngăn script độc hại chạy."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「クロスサイトスクリプティング対策」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Biện pháp chống XSS”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "XSS→出力時のエスケープ。SQL Injection→プレースホルダ。",
+          "vi": "XSS → escape output; SQL Injection → placeholder."
         }
       ],
       "terms": [
@@ -1680,10 +2205,7 @@
           "definitionVi": "Ngăn script độc hại được thực thi trên trình duyệt của người dùng bằng cách xử lý thích hợp khi xuất dữ liệu và các biện pháp tương tự."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "cross-site-scripting-prevention"
-      ]
+      "tags": ["security-implementation", "cross-site-scripting-prevention"]
     },
     {
       "id": "sql-injection-countermeasures",
@@ -1705,9 +2227,24 @@
           "vi": "Sử dụng placeholder và các biện pháp tương tự để không cho dữ liệu nhập của người dùng được diễn giải như một câu lệnh SQL, qua đó ngăn chặn tấn công."
         },
         {
+          "type": "heading",
+          "ja": "仕組み・具体的な理解",
+          "vi": "Cơ chế và cách hiểu"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SQL文と入力値を分離し、プレースホルダを使って入力値をSQL構文として解釈させない。",
+          "vi": "Tách câu SQL khỏi input và dùng placeholder để input không bị hiểu là cú pháp SQL."
+        },
+        {
+          "type": "heading",
+          "ja": "FE試験ポイント",
+          "vi": "Điểm cần nhớ khi thi FE"
+        },
+        {
           "type": "point",
-          "ja": "試験では「SQLインジェクション対策」の目的・仕組みと、関連技術との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và cơ chế của “Biện pháp chống SQL Injection”, đồng thời phân biệt với các kỹ thuật liên quan."
+          "ja": "SQL Injection対策の基本＝プレースホルダ（バインド変数）。",
+          "vi": "Biện pháp cơ bản chống SQL Injection = placeholder/bind variable."
         }
       ],
       "terms": [
@@ -1720,10 +2257,7 @@
           "definitionVi": "Sử dụng placeholder và các biện pháp tương tự để không cho dữ liệu nhập của người dùng được diễn giải như một câu lệnh SQL, qua đó ngăn chặn tấn công."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "sql-injection-countermeasures"
-      ]
+      "tags": ["security-implementation", "sql-injection-countermeasures"]
     }
   ]
 }

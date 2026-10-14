@@ -137,6 +137,20 @@ This log records only meaningful source defects or transcription ambiguities. Pr
 - Information search (questions 74–75): question 75 choice 4 uses the currency unit `100元` although the notice gives its fees in yen. The printed choice and key are preserved and question 75 is marked `needsReview`.
 - Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 17 intentional review warnings.
 
-Last fully completed block: N2-7.
+## N2-8 / `n2-practice-08.json`
 
-Next block: N2-8 (not started).
+- PDF pages: questions 106–115; answer key 214–215. Page 106 contains the cover and the beginning of Problem 1; page 115 contains the complete Problem 14 notice.
+- Completeness: Problems 1–14, questions 1–75, every choice, all reading passages, all three consultation texts, and the complete library notice are present.
+- Answer key: all 75 `correctAnswer` values were visually checked against the block's own key on pages 214–215 and match it exactly.
+- Boundary check: question 1 (`その計画は成功したとは言い難い。`) and question 75 (`図書館カードを見せれば雑誌を借りることができるか。`) were checked against pages 106 and 114–115 respectively.
+- Sentence order: questions 45–49 were reconstructed as complete sentences. For each, `correctAnswer` equals `correctOrder[starPosition - 1]` and matches the printed key.
+- Question 18 choice 1 prints `うそれに`; question 31 choice 4 prints `徐徐`; question 33 choice 1 prints `好きなどころか`. These forms are preserved and the questions are marked `needsReview`.
+- Reading 11-01 (questions 60–62): the passage prints `一つの仕事をやるについて` and `そのようにやり方を決まってしまうと`. Question 62 choice 2 ends abruptly at `だれにでも簡単` with no continuation on the next page. The printed text is preserved; the passage and question 62 are marked `needsReview`.
+- Reading 11-02 (questions 63–65): the passage prints `同様に中年を大事すべき` and `銘記すべきだある`. Question 64 choice 1 is the visibly malformed `人生の特別さにできるようなやり方を完成させる。`; question 65 choice 3 prints only `を特別視しないこと`, with its object missing. These are preserved; the passage and questions 64–65 are marked `needsReview`.
+- Reading 11-03 (questions 66–68): printed defects include `よほどと努力`, `規定方法`, `自分がどこまで努力をしたのが`, `大学卒業から1年間`, `速くなると困ります`, and question 68 choice 4's `努力自体を楽しむことが大切じゃない`. For question 67, the passage directly supports choice 2, while the printed key gives choice 3. For question 68, the undamaged source text would support the idea in choice 4, but the printed choice reverses that idea with `じゃない`, while the key gives choice 1. The source wording and key are preserved; the passage and questions 67–68 are marked `needsReview`.
+- Information search (questions 74–75): the notice prints `カードが作られます`, omits the topic particle in `図書館カード作られませんが`, labels loan periods `貸し出し時間`, and later prints `貸し出し時間の算定` and `期間切れ`. These are preserved and the notice group is marked `needsReview`.
+- Isolated validator result: 75/75 questions, Problems 1–14 present, 0 critical errors, 12 intentional review warnings.
+
+Last fully completed block: N2-8.
+
+Next block: N2-9 (not started).

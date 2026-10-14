@@ -11,8 +11,8 @@
       "titleJa": "テスト要件",
       "titleVi": "Yêu cầu kiểm thử",
       "importance": "high",
-      "summaryJa": "ソフトウェアの品質を保証するために必要な条件や基準を指す。",
-      "summaryVi": "Yêu cầu kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "テストによって確認すべき条件や品質基準を定めた要件である。",
+      "summaryVi": "Xác định những gì cần kiểm tra và tiêu chí để đánh giá kết quả kiểm thử.",
       "content": [
         {
           "type": "heading",
@@ -22,7 +22,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの品質を保証するために必要な条件や基準を指す。この要件は、ソフトウェアが満たすべき機能や性能、セキュリティ要件を含んでいる。たとえば、特定の機能が正常に動作するかを確認するためのテストケースが必要となる。開発段階での明確な目標を設定し、開発チームがそれに沿って作業を進められるようにする役割を果たす。これにより、完成後の製品がユーザーの期待に応え、バグや不具合の少ないものとなる。このように、テスト要件はソフトウェア開発の重要な一部であり、成功に結びつく要素となる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Yêu cầu kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Yêu cầu kiểm thử làm rõ chức năng, hiệu năng, bảo mật hoặc các điều kiện khác cần xác minh. Từ đó, nhóm kiểm thử xây dựng các trường hợp kiểm thử và tiêu chí đạt/không đạt. Ví dụ, chức năng đăng nhập phải từ chối mật khẩu sai và chỉ cho phép người dùng hợp lệ truy cập. Yêu cầu rõ ràng giúp tránh bỏ sót các khía cạnh quan trọng khi đánh giá chất lượng phần mềm."
         },
         {
           "type": "point",
@@ -35,8 +35,8 @@
           "term": "テスト要件",
           "english": "Test Requirements",
           "vi": "Yêu cầu kiểm thử",
-          "definitionJa": "ソフトウェアの品質を保証するために必要な条件や基準を指す。この要件は、ソフトウェアが満たすべき機能や性能、セキュリティ要件を含んでいる。たとえば、特定の機能が正常に動作するかを確認するためのテストケースが必要となる。開発段階での明確な目標を設定し、開発チームがそれに沿って作業を進められるようにする役割を果たす。これにより、完成後の製品がユーザーの期待に応え、バグや不具合の少ないものとなる。このように、テスト要件はソフトウェア開発の重要な一部であり、成功に結びつく要素となる。",
-          "definitionVi": "Yêu cầu kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テストで確認すべき品質特性や条件を定めた要件。",
+          "definitionVi": "Những điều kiện và tiêu chí chất lượng cần được xác minh thông qua kiểm thử.",
           "reading": "てすとようけん"
         }
       ],
@@ -53,7 +53,7 @@
       "titleVi": "Quy trình kiểm thử",
       "importance": "medium",
       "summaryJa": "ソフトウェアの機能や性能を確認するための具体的な手順を示したものである。",
-      "summaryVi": "Quy trình kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Mô tả cách tiến hành kiểm thử để người thực hiện có thể tái hiện kết quả.",
       "content": [
         {
           "type": "heading",
@@ -63,7 +63,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの機能や性能を確認するための具体的な手順を示したものである。この手順には、テストの目的や対象、実行する操作、期待される結果などが含まれる。例えば、あるアプリケーションが正しく動作するかを確認する際には、起動から特定の機能の使用、そして結果の確認までの一連の流れがテスト手順としてまとめられる。このように、テスト手順は品質保証において重要な役割を果たし、開発したソフトウェアが利用者にとって信頼できるものであることを保証するために不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Quy trình kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Quy trình kiểm thử thường nêu điều kiện trước khi chạy, dữ liệu đầu vào, từng bước thao tác và kết quả dự kiến. Ví dụ, mở trang đăng nhập, nhập tài khoản hợp lệ, nhấn nút đăng nhập rồi xác nhận trang chủ xuất hiện. Các bước được ghi rõ giúp nhiều người thực hiện kiểm thử nhất quán và dễ xác định bước xảy ra lỗi."
         },
         {
           "type": "point",
@@ -76,8 +76,8 @@
           "term": "テスト手順",
           "english": "Test Procedure",
           "vi": "Quy trình kiểm thử",
-          "definitionJa": "ソフトウェアの機能や性能を確認するための具体的な手順を示したものである。この手順には、テストの目的や対象、実行する操作、期待される結果などが含まれる。例えば、あるアプリケーションが正しく動作するかを確認する際には、起動から特定の機能の使用、そして結果の確認までの一連の流れがテスト手順としてまとめられる。このように、テスト手順は品質保証において重要な役割を果たし、開発したソフトウェアが利用者にとって信頼できるものであることを保証するために不可欠である。",
-          "definitionVi": "Quy trình kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テストを実施するための操作手順と期待結果を具体的に定めたもの。",
+          "definitionVi": "Các bước thao tác cụ thể để thực hiện kiểm thử, kèm điều kiện và kết quả mong đợi.",
           "reading": "てすとてじゅん"
         }
       ],
@@ -94,7 +94,7 @@
       "titleVi": "Dữ liệu kiểm thử",
       "importance": "medium",
       "summaryJa": "ソフトウェア開発においてプログラムやシステムの動作を確認するために用いるデータのことである。",
-      "summaryVi": "Dữ liệu kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Bao gồm dữ liệu bình thường, bất thường và giá trị biên để kiểm tra nhiều tình huống.",
       "content": [
         {
           "type": "heading",
@@ -104,7 +104,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェア開発においてプログラムやシステムの動作を確認するために用いるデータのことである。このデータは、システムが正しく機能しているかどうかを検証する目的で利用される。例えば、新しいアプリケーションの機能をテストする際に、特定の入力値や条件を設定し、その結果が期待通りであるかを確認するために使用されることが一般的である。エラーを事前に見つける手助けとなり、ソフトウェアの品質向上に寄与する。また、異常系や境界値のテストにも重要で、さまざまなケースを想定して多様なデータを用意することが求められる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Dữ liệu kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Dữ liệu kiểm thử có thể là tài khoản mẫu, số tiền, ngày tháng hoặc bản ghi cơ sở dữ liệu. Khi kiểm tra trường tuổi cho phép từ 0 đến 120, có thể dùng 0, 120, -1 và 121 để xác minh cả giá trị biên lẫn dữ liệu không hợp lệ. Cần chuẩn bị dữ liệu phù hợp từng trường hợp kiểm thử và tránh sử dụng thông tin cá nhân thật khi không cần thiết."
         },
         {
           "type": "point",
@@ -117,8 +117,8 @@
           "term": "テストデータ",
           "english": "Test Data",
           "vi": "Dữ liệu kiểm thử",
-          "definitionJa": "ソフトウェア開発においてプログラムやシステムの動作を確認するために用いるデータのことである。このデータは、システムが正しく機能しているかどうかを検証する目的で利用される。例えば、新しいアプリケーションの機能をテストする際に、特定の入力値や条件を設定し、その結果が期待通りであるかを確認するために使用されることが一般的である。エラーを事前に見つける手助けとなり、ソフトウェアの品質向上に寄与する。また、異常系や境界値のテストにも重要で、さまざまなケースを想定して多様なデータを用意することが求められる。",
-          "definitionVi": "Dữ liệu kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "プログラムやシステムの動作を検証するために入力・参照するデータ。",
+          "definitionVi": "Dữ liệu được đưa vào hoặc tham chiếu khi kiểm thử để xác minh hoạt động của chương trình."
         }
       ],
       "tags": [
@@ -134,7 +134,7 @@
       "titleVi": "Yêu cầu phần mềm",
       "importance": "medium",
       "summaryJa": "ソフトウェアが満たすべき条件や機能を示すものである。",
-      "summaryVi": "Yêu cầu phần mềm: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Là căn cứ để thiết kế, phát triển và đánh giá phần mềm có đáp ứng nhu cầu hay không.",
       "content": [
         {
           "type": "heading",
@@ -144,7 +144,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアが満たすべき条件や機能を示すものである。これは、システムがどのように動作し、どのような結果を提供するかを明確にするために必要な情報である。例えば、オンラインショッピングサイトにおけるユーザー登録機能や、カートに商品を追加する機能などが具体例である。要件は、顧客のニーズを満たすために定義され、その後の設計や開発、テストの基礎となる。ソフトウェア要件の正確さが、最終的なソフトウェアの品質に大きな影響を与えるため、丁寧な検討が不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Yêu cầu phần mềm trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Yêu cầu phần mềm gồm yêu cầu chức năng, như đăng ký tài khoản và thêm sản phẩm vào giỏ hàng, cùng yêu cầu phi chức năng, như thời gian phản hồi và bảo mật. Các yêu cầu phải đủ rõ để có thể thiết kế và kiểm thử. Ví dụ, thay vì chỉ ghi 'hệ thống phải nhanh', nên xác định thời gian phản hồi mục tiêu trong điều kiện cụ thể."
         },
         {
           "type": "point",
@@ -157,8 +157,8 @@
           "term": "ソフトウェア要件",
           "english": "Software Requirements",
           "vi": "Yêu cầu phần mềm",
-          "definitionJa": "ソフトウェアが満たすべき条件や機能を示すものである。これは、システムがどのように動作し、どのような結果を提供するかを明確にするために必要な情報である。例えば、オンラインショッピングサイトにおけるユーザー登録機能や、カートに商品を追加する機能などが具体例である。要件は、顧客のニーズを満たすために定義され、その後の設計や開発、テストの基礎となる。ソフトウェア要件の正確さが、最終的なソフトウェアの品質に大きな影響を与えるため、丁寧な検討が不可欠である。",
-          "definitionVi": "Yêu cầu phần mềm: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "ソフトウェアが実現すべき機能や満たすべき品質・制約を定めた要件。",
+          "definitionVi": "Những chức năng, đặc tính chất lượng và ràng buộc mà phần mềm phải đáp ứng.",
           "reading": "そふとうぇあようけん"
         }
       ],
@@ -174,8 +174,8 @@
       "titleJa": "監査",
       "titleVi": "Kiểm toán",
       "importance": "medium",
-      "summaryJa": "情報システムやソフトウェアが適切に運用されているかどうかを確認するプロセスである。",
-      "summaryVi": "Kiểm toán: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "情報システムの管理や運用を基準に照らして独立した立場から評価することである。",
+      "summaryVi": "Đánh giá mức độ tuân thủ, tính an toàn và hiệu quả của hoạt động quản lý hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -185,7 +185,7 @@
         {
           "type": "paragraph",
           "ja": "情報システムやソフトウェアが適切に運用されているかどうかを確認するプロセスである。この手法は、システムの安全性や信頼性を評価するために使用され、主にデータの整合性、セキュリティ、コンプライアンスがチェックされる。例えば、ソフトウェアが法律や業界標準に従っているかどうかを検証するために、定期的な監査が実施される。監査によって発見された問題に対しては、改善策が提案され、システムの品質向上につながる。これにより、企業や機関は信頼性を高め、利用者や顧客に対して安心感を提供することが可能となる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm toán trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm toán hệ thống thông tin xem xét bằng chứng như nhật ký truy cập, phân quyền, quy trình sao lưu và tài liệu vận hành để xác định các biện pháp kiểm soát có phù hợp hay không. Ví dụ, kiểm toán viên có thể kiểm tra quyền truy cập dữ liệu nhạy cảm có được cấp và thu hồi đúng quy trình. Kiểm toán khác với kiểm thử phần mềm: kiểm toán đánh giá cơ chế quản lý và kiểm soát trên phạm vi rộng hơn."
         },
         {
           "type": "point",
@@ -198,8 +198,8 @@
           "term": "監査",
           "english": "Audit",
           "vi": "Kiểm toán",
-          "definitionJa": "情報システムやソフトウェアが適切に運用されているかどうかを確認するプロセスである。この手法は、システムの安全性や信頼性を評価するために使用され、主にデータの整合性、セキュリティ、コンプライアンスがチェックされる。例えば、ソフトウェアが法律や業界標準に従っているかどうかを検証するために、定期的な監査が実施される。監査によって発見された問題に対しては、改善策が提案され、システムの品質向上につながる。これにより、企業や機関は信頼性を高め、利用者や顧客に対して安心感を提供することが可能となる。",
-          "definitionVi": "Kiểm toán: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "情報システムの管理・運用状況を、基準に照らして独立した立場から評価すること。",
+          "definitionVi": "Hoạt động đánh giá độc lập việc quản lý và vận hành hệ thống thông tin theo các tiêu chuẩn xác định.",
           "reading": "かんさ"
         }
       ],
@@ -211,8 +211,8 @@
       "titleJa": "統合する順序",
       "titleVi": "Thứ tự tích hợp",
       "importance": "medium",
-      "summaryJa": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。",
-      "summaryVi": "Thứ tự tích hợp: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "モジュールを結合してテストする際に、どの順序で統合するかを示すものである。",
+      "summaryVi": "Quyết định tích hợp thành phần nào trước để kiểm tra sự phối hợp giữa chúng.",
       "content": [
         {
           "type": "heading",
@@ -222,7 +222,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。この順序は、異なるコンポーネントや機能を適切に結びつけ、全体として効果的に動作するように設計されている。例えば、データベースとユーザーインターフェースの連携を考える際に、最初にデータモデルを定義し、その後にAPIを通じて通信を行う流れが適用されることが多い。このような統合の順序を明確にすることで、システム全体の整合性を保ち、エラーの発生を避けることができる。特に大規模なプロジェクトほど、効果的な統合する順序が求められ、開発の効率向上や保守の容易さに寄与する。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Thứ tự tích hợp trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Trong kiểm thử tích hợp, thứ tự ghép các mô-đun ảnh hưởng đến cách phát hiện lỗi và việc sử dụng chương trình thay thế. Cách top-down bắt đầu từ mô-đun cấp trên và thường dùng stub cho mô-đun cấp dưới chưa có. Cách bottom-up bắt đầu từ mô-đun cấp dưới và thường dùng driver để gọi mô-đun đang kiểm thử. Việc lựa chọn thứ tự phù hợp giúp xác định lỗi giao tiếp giữa các thành phần dễ hơn."
         },
         {
           "type": "point",
@@ -235,8 +235,8 @@
           "term": "統合する順序",
           "english": "Integration Sequence",
           "vi": "Thứ tự tích hợp",
-          "definitionJa": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。この順序は、異なるコンポーネントや機能を適切に結びつけ、全体として効果的に動作するように設計されている。例えば、データベースとユーザーインターフェースの連携を考える際に、最初にデータモデルを定義し、その後にAPIを通じて通信を行う流れが適用されることが多い。このような統合の順序を明確にすることで、システム全体の整合性を保ち、エラーの発生を避けることができる。特に大規模なプロジェクトほど、効果的な統合する順序が求められ、開発の効率向上や保守の容易さに寄与する。",
-          "definitionVi": "Thứ tự tích hợp: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "複数のモジュールを結合してテストする際の組合せの順序。",
+          "definitionVi": "Thứ tự ghép nối các mô-đun hoặc thành phần khi tiến hành kiểm thử tích hợp.",
           "reading": "とうごうするじゅんじょ"
         }
       ],
@@ -252,8 +252,8 @@
       "titleJa": "再帰戦略",
       "titleVi": "Chiến lược đệ quy",
       "importance": "medium",
-      "summaryJa": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。",
-      "summaryVi": "Chiến lược đệ quy: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "処理の中から同じ処理を呼び出し、問題を段階的に解決する方法である。",
+      "summaryVi": "Đệ quy chia bài toán thành các trường hợp nhỏ và cần có điều kiện dừng.",
       "content": [
         {
           "type": "heading",
@@ -263,7 +263,7 @@
         {
           "type": "paragraph",
           "ja": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。この戦略を用いることで、複雑な問題を単純な部分問題に分けて解決することができる。たとえば、階層的なデータ構造や計算を行う際に有効で、再帰関数により自分自身を呼び出すことで目的の結果を得る。具体的には、フィボナッチ数列やツリー構造の探索などがこの手法の代表例である。問題の解決をシンプルにし、コードの可読性を高める一方で、再帰の深さによってはスタックオーバーフローのリスクも伴うため、使用する際には注意が必要である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Chiến lược đệ quy trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Đệ quy thường được dùng khi duyệt cấu trúc cây hoặc tính toán dựa trên công thức lặp. Ví dụ, hàm tính giai thừa có thể gọi chính nó với n-1 cho đến khi n bằng 0 hoặc 1. Điều kiện dừng là bắt buộc; nếu thiếu, chương trình có thể gọi lặp vô hạn và gây tràn ngăn xếp. Đây là kỹ thuật lập trình, không phải một phương pháp kiểm thử tích hợp."
         },
         {
           "type": "point",
@@ -276,8 +276,8 @@
           "term": "再帰戦略",
           "english": "Recursion Strategy",
           "vi": "Chiến lược đệ quy",
-          "definitionJa": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。この戦略を用いることで、複雑な問題を単純な部分問題に分けて解決することができる。たとえば、階層的なデータ構造や計算を行う際に有効で、再帰関数により自分自身を呼び出すことで目的の結果を得る。具体的には、フィボナッチ数列やツリー構造の探索などがこの手法の代表例である。問題の解決をシンプルにし、コードの可読性を高める一方で、再帰の深さによってはスタックオーバーフローのリスクも伴うため、使用する際には注意が必要である。",
-          "definitionVi": "Chiến lược đệ quy: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "処理の中から同じ処理を再び呼び出し、問題を段階的に解く方法。",
+          "definitionVi": "Phương pháp giải quyết bài toán bằng cách gọi lại chính quá trình xử lý đó trên bài toán nhỏ hơn.",
           "reading": "さいきせんりゃく"
         }
       ],
@@ -294,7 +294,7 @@
       "titleVi": "Kế hoạch kiểm thử",
       "importance": "high",
       "summaryJa": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。",
-      "summaryVi": "Kế hoạch kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Xác định kiểm thử cái gì, bằng cách nào, do ai thực hiện và khi nào hoàn thành.",
       "content": [
         {
           "type": "heading",
@@ -304,7 +304,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。この計画は、テストの目的、範囲、方法、資源、スケジュール、責任者などを詳細に記載することにより、テストプロセスを円滑に進行させることを目的としている。例えば、新しいアプリケーションのバグを見つけるためのテスト計画を作成する際には、どの機能をテストするのか、何人のテスターが必要か、どれくらいの期間でテストを完了させるかを明記し、関係者間での理解を深めることが重要である。これにより、効率的かつ効果的なテストが実施できる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kế hoạch kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kế hoạch kiểm thử là tài liệu định hướng toàn bộ hoạt động kiểm thử. Nội dung có thể gồm đối tượng kiểm thử, phạm vi, loại kiểm thử, môi trường, nguồn lực, lịch thực hiện, rủi ro và tiêu chí hoàn thành. Ví dụ, dự án có thể quy định kiểm thử đăng nhập trong tuần đầu, kiểm thử thanh toán trong tuần tiếp theo và chỉ phát hành khi không còn lỗi nghiêm trọng chưa xử lý."
         },
         {
           "type": "point",
@@ -317,8 +317,8 @@
           "term": "テスト計画",
           "english": "Test Plan",
           "vi": "Kế hoạch kiểm thử",
-          "definitionJa": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。この計画は、テストの目的、範囲、方法、資源、スケジュール、責任者などを詳細に記載することにより、テストプロセスを円滑に進行させることを目的としている。例えば、新しいアプリケーションのバグを見つけるためのテスト計画を作成する際には、どの機能をテストするのか、何人のテスターが必要か、どれくらいの期間でテストを完了させるかを明記し、関係者間での理解を深めることが重要である。これにより、効率的かつ効果的なテストが実施できる。",
-          "definitionVi": "Kế hoạch kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テストの目的・範囲・方法・体制・日程などを定めた計画。",
+          "definitionVi": "Kế hoạch quy định mục tiêu, phạm vi, phương pháp, nhân lực và lịch trình kiểm thử.",
           "reading": "てすとけいかく"
         }
       ],
@@ -335,7 +335,7 @@
       "titleVi": "Chuẩn bị kiểm thử",
       "importance": "medium",
       "summaryJa": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。",
-      "summaryVi": "Chuẩn bị kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Bảo đảm các điều kiện cần thiết đã sẵn sàng để kết quả kiểm thử đáng tin cậy.",
       "content": [
         {
           "type": "heading",
@@ -345,7 +345,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。この準備は、テストの実施効率や結果の信頼性を高めるために非常に重要である。テスト環境には、テストを行うためのサーバやデバイス、ソフトウェアの設定が含まれ、これにより現実の運用環境に近い状態で試験が行える。また、テストデータは、実際の利用状況を模して作成されることが多く、正確な評価を行うためには不可欠である。十分なテスト準備が整っていることで、問題の早期発見や修正が可能となり、最終的には製品の品質向上につながる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Chuẩn bị kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Chuẩn bị kiểm thử bao gồm thiết lập máy chủ hoặc thiết bị, cấu hình phần mềm, tạo tài khoản thử nghiệm, nạp dữ liệu và kiểm tra các bước thực hiện. Ví dụ, trước khi kiểm thử chức năng đặt hàng cần có sản phẩm mẫu, tài khoản người dùng và môi trường thanh toán thử nghiệm. Chuẩn bị đầy đủ giúp tránh nhầm lỗi do môi trường với lỗi của chương trình."
         },
         {
           "type": "point",
@@ -358,8 +358,8 @@
           "term": "テスト準備",
           "english": "Test Preparation",
           "vi": "Chuẩn bị kiểm thử",
-          "definitionJa": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。この準備は、テストの実施効率や結果の信頼性を高めるために非常に重要である。テスト環境には、テストを行うためのサーバやデバイス、ソフトウェアの設定が含まれ、これにより現実の運用環境に近い状態で試験が行える。また、テストデータは、実際の利用状況を模して作成されることが多く、正確な評価を行うためには不可欠である。十分なテスト準備が整っていることで、問題の早期発見や修正が可能となり、最終的には製品の品質向上につながる。",
-          "definitionVi": "Chuẩn bị kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テスト実施前に環境・データ・手順などを整える作業。",
+          "definitionVi": "Công việc chuẩn bị môi trường, dữ liệu và tài liệu cần thiết trước khi chạy kiểm thử.",
           "reading": "てすとじゅんび"
         }
       ],
@@ -376,7 +376,7 @@
       "titleVi": "Báo cáo kiểm thử tích hợp phần mềm",
       "importance": "medium",
       "summaryJa": "ソフトウェアの各部品やモジュールを組み合わせて行うテストの結果をまとめたドキュメントである。",
-      "summaryVi": "Báo cáo kiểm thử tích hợp phần mềm: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Tổng hợp bằng chứng kiểm thử tích hợp để đánh giá kết quả và theo dõi lỗi.",
       "content": [
         {
           "type": "heading",
@@ -386,7 +386,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの各部品やモジュールを組み合わせて行うテストの結果をまとめたドキュメントである。この報告書は、テストの目的や手法、実施したテストケース、得られた結果、発見された不具合や問題点を詳細に記載することで、テストの透明性を確保し、品質向上に寄与する。また、報告書は開発チームや関係者との情報共有に役立つため、今後の開発プロセスにおいて重要な役割を果たす。特に、ソフトウェアが正しく機能することを保証するための資料としても不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Báo cáo kiểm thử tích hợp phần mềm trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Báo cáo kiểm thử tích hợp phần mềm ghi lại các mô-đun đã kết hợp, trường hợp kiểm thử đã chạy, kết quả thực tế so với mong đợi và những lỗi còn tồn tại. Ví dụ, khi mô-đun đặt hàng kết nối với thanh toán, báo cáo nêu các tình huống thành công, thất bại và lỗi trao đổi dữ liệu. Tài liệu này giúp nhóm phát triển và người phụ trách quyết định bước xử lý tiếp theo."
         },
         {
           "type": "point",
@@ -399,8 +399,8 @@
           "term": "ソフトウェア統合テスト報告書",
           "english": "Software Integration Test Report",
           "vi": "Báo cáo kiểm thử tích hợp phần mềm",
-          "definitionJa": "ソフトウェアの各部品やモジュールを組み合わせて行うテストの結果をまとめたドキュメントである。この報告書は、テストの目的や手法、実施したテストケース、得られた結果、発見された不具合や問題点を詳細に記載することで、テストの透明性を確保し、品質向上に寄与する。また、報告書は開発チームや関係者との情報共有に役立つため、今後の開発プロセスにおいて重要な役割を果たす。特に、ソフトウェアが正しく機能することを保証するための資料としても不可欠である。",
-          "definitionVi": "Báo cáo kiểm thử tích hợp phần mềm: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "ソフトウェア結合テストの実施内容・結果・不具合を記録した報告書。",
+          "definitionVi": "Báo cáo ghi lại nội dung, kết quả và lỗi phát hiện trong kiểm thử tích hợp phần mềm.",
           "reading": "そふとうぇあとうごうてすとほうこくしょ"
         }
       ],
@@ -417,7 +417,7 @@
       "titleVi": "Kiểm thử Top-Down",
       "importance": "high",
       "summaryJa": "ソフトウェア統合テストにおける手法の一つである。",
-      "summaryVi": "Kiểm thử Top-Down: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Bắt đầu từ mô-đun cấp cao; mô-đun cấp dưới chưa hoàn thiện có thể được thay bằng stub.",
       "content": [
         {
           "type": "heading",
@@ -427,7 +427,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェア統合テストにおける手法の一つである。この手法では、システム全体の構造を上から下に向かって段階的にテストする。具体的には、大きな機能から始め、それを構成する小さな部分を順次検証していく。最初は主要な機能が正しく動作するかを確認し、次にその機能に依存する下位モジュールのテストに進む。これにより、システム全体の動作を把握しやすく、早期に不具合を発見することができる。そのため、開発プロセスにおいて効率的であり、リリース前の品質向上に寄与する重要な手法として用いられている。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử Top-Down trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Trong kiểm thử tích hợp top-down, nhóm phát triển kiểm tra luồng điều khiển từ mô-đun cấp cao trước, sau đó lần lượt ghép các mô-đun cấp dưới. Khi mô-đun cấp dưới chưa sẵn sàng, stub được dùng để trả về kết quả giả lập. Ví dụ, kiểm tra màn hình đặt hàng trước khi mô-đun tính phí vận chuyển hoàn tất. Cách này giúp xác minh sớm luồng xử lý cấp cao nhưng các chức năng cấp thấp có thể được kiểm tra muộn."
         },
         {
           "type": "point",
@@ -440,8 +440,8 @@
           "term": "トップダウンテスト",
           "english": "Top-Down Test",
           "vi": "Kiểm thử Top-Down",
-          "definitionJa": "ソフトウェア統合テストにおける手法の一つである。この手法では、システム全体の構造を上から下に向かって段階的にテストする。具体的には、大きな機能から始め、それを構成する小さな部分を順次検証していく。最初は主要な機能が正しく動作するかを確認し、次にその機能に依存する下位モジュールのテストに進む。これにより、システム全体の動作を把握しやすく、早期に不具合を発見することができる。そのため、開発プロセスにおいて効率的であり、リリース前の品質向上に寄与する重要な手法として用いられている。",
-          "definitionVi": "Kiểm thử Top-Down: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "上位モジュールから下位モジュールへ順に結合して行うテスト。",
+          "definitionVi": "Kiểm thử tích hợp bằng cách ghép và kiểm tra các mô-đun từ cấp trên xuống cấp dưới."
         }
       ],
       "tags": [
@@ -457,7 +457,7 @@
       "titleVi": "Kiểm thử Bottom-Up",
       "importance": "high",
       "summaryJa": "ソフトウェアの統合テスト手法の一つである。",
-      "summaryVi": "Kiểm thử Bottom-Up: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Bắt đầu từ mô-đun cấp thấp; có thể dùng driver để gọi mô-đun khi cấp trên chưa hoàn thiện.",
       "content": [
         {
           "type": "heading",
@@ -467,7 +467,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの統合テスト手法の一つである。この手法では、個々のモジュールやコンポーネントからテストを始め、下位の要素を統合しながら、最終的にシステム全体をテストする。例えば、まずは個別の機能を確認し、その後機能同士を結合することで、全体の動作やデータの流れを検証することができる。このアプローチにより、下位の要素での問題を早期に発見し、修正が容易になるため、効率的なソフトウェア開発が促進される。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử Bottom-Up trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Trong kiểm thử tích hợp bottom-up, các mô-đun cấp thấp được kiểm tra và ghép lại trước, rồi mới tích hợp dần với mô-đun cấp cao. Nếu chương trình gọi ở cấp trên chưa sẵn sàng, driver sẽ giả lập lời gọi và truyền dữ liệu kiểm thử. Ví dụ, kiểm tra mô-đun truy xuất dữ liệu trước khi tích hợp với màn hình quản lý. Cách này thuận tiện để phát hiện lỗi ở các chức năng nền tảng."
         },
         {
           "type": "point",
@@ -480,8 +480,8 @@
           "term": "ボトムアップテスト",
           "english": "Bottom-Up Testing",
           "vi": "Kiểm thử Bottom-Up",
-          "definitionJa": "ソフトウェアの統合テスト手法の一つである。この手法では、個々のモジュールやコンポーネントからテストを始め、下位の要素を統合しながら、最終的にシステム全体をテストする。例えば、まずは個別の機能を確認し、その後機能同士を結合することで、全体の動作やデータの流れを検証することができる。このアプローチにより、下位の要素での問題を早期に発見し、修正が容易になるため、効率的なソフトウェア開発が促進される。",
-          "definitionVi": "Kiểm thử Bottom-Up: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "下位モジュールから上位モジュールへ順に結合して行うテスト。",
+          "definitionVi": "Kiểm thử tích hợp bằng cách ghép và kiểm tra các mô-đun từ cấp dưới lên cấp trên."
         }
       ],
       "tags": [
@@ -496,8 +496,8 @@
       "titleJa": "ドライバ",
       "titleVi": "Driver",
       "importance": "high",
-      "summaryJa": "特定のハードウェアデバイスとソフトウェアを連携させるためのプログラムである。",
-      "summaryVi": "Driver: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "結合テストで、上位モジュールの代わりに下位モジュールを呼び出すテスト用プログラムである。",
+      "summaryVi": "Trong kiểm thử tích hợp, driver giả lập bên gọi, thường dùng với phương pháp bottom-up.",
       "content": [
         {
           "type": "heading",
@@ -506,8 +506,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定のハードウェアデバイスとソフトウェアを連携させるためのプログラムである。このソフトウェアは、オペレーティングシステムがハードウェアを正しく認識し、動作させるために必要な手段を提供する。例えば、プリンターのドライバがインストールされていると、コンピュータからプリンターにデータを送信できるようになる。このように、ドライバはハードウェアとソフトウェアの橋渡しを行う重要な役割を担っている。また、ソフトウェア統合テストの場面においては、特定の機能をテストするためにドライバが必要となり、システム全体の動作確認を行うために活用されることも多い。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Driver trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "ドライバは、結合テストで未完成の上位モジュールに代わり、テスト対象の下位モジュールを呼び出すプログラムである。入力データを渡し、実行結果を確認するために使用する。主にボトムアップテストで利用される。なお、ハードウェアを制御するデバイスドライバとは異なる。",
+          "vi": "Driver trong ngữ cảnh kiểm thử tích hợp không phải trình điều khiển phần cứng. Nó là chương trình tạm dùng để gọi mô-đun cần kiểm thử, truyền dữ liệu đầu vào và nhận kết quả khi mô-đun cấp trên chưa hoàn thành. Ví dụ, driver gọi trực tiếp hàm tính tiền và so sánh kết quả với giá trị mong đợi. Driver thường gắn với kiểm thử bottom-up, còn stub thường gắn với top-down."
         },
         {
           "type": "point",
@@ -520,8 +520,8 @@
           "term": "ドライバ",
           "english": "Driver",
           "vi": "Driver",
-          "definitionJa": "特定のハードウェアデバイスとソフトウェアを連携させるためのプログラムである。このソフトウェアは、オペレーティングシステムがハードウェアを正しく認識し、動作させるために必要な手段を提供する。例えば、プリンターのドライバがインストールされていると、コンピュータからプリンターにデータを送信できるようになる。このように、ドライバはハードウェアとソフトウェアの橋渡しを行う重要な役割を担っている。また、ソフトウェア統合テストの場面においては、特定の機能をテストするためにドライバが必要となり、システム全体の動作確認を行うために活用されることも多い。",
-          "definitionVi": "Driver: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "結合テストで、未完成の上位モジュールの代わりに下位モジュールを呼び出すテスト用プログラム。",
+          "definitionVi": "Chương trình kiểm thử thay mô-đun cấp trên để gọi mô-đun cấp dưới đang được kiểm tra."
         }
       ],
       "tags": ["system-development-technology", "integration-testing", "driver"]
@@ -533,7 +533,7 @@
       "titleVi": "Stub",
       "importance": "high",
       "summaryJa": "ソフトウェアの統合テストにおいて使用される簡易的なプログラムやコンポーネントである。",
-      "summaryVi": "Stub: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Stub thay thế thành phần được gọi khi thành phần thật chưa sẵn sàng, thường dùng trong top-down.",
       "content": [
         {
           "type": "heading",
@@ -543,7 +543,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの統合テストにおいて使用される簡易的なプログラムやコンポーネントである。これらは、テスト対象のモジュールが依存している外部モジュールの代わりに動作し、必要なデータや応答を提供する役割を果たす。スタブを利用することで、依存関係にあるコンポーネントが未完成でもテストを行うことが可能となり、システム全体の動作確認や不具合の特定を効率的に行うことができる。例えば、データベースへの接続を模擬するスタブを用いることで、実際のデータベースがなくても関連する機能のテストができるため、開発の早い段階で問題を特定しやすくなる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Stub trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Stub mô phỏng hành vi của một mô-đun phụ thuộc bằng cách trả về dữ liệu hoặc kết quả đã định trước. Ví dụ, khi kiểm thử chức năng đặt hàng nhưng dịch vụ thanh toán chưa hoàn thiện, stub có thể trả về trạng thái thanh toán thành công hoặc thất bại. Nhờ đó có thể kiểm tra mô-đun cấp trên mà không cần đợi thành phần thật. Khác với driver là bên chủ động gọi, stub là bên được gọi."
         },
         {
           "type": "point",
@@ -556,8 +556,8 @@
           "term": "スタブ",
           "english": "Stub",
           "vi": "Stub",
-          "definitionJa": "ソフトウェアの統合テストにおいて使用される簡易的なプログラムやコンポーネントである。これらは、テスト対象のモジュールが依存している外部モジュールの代わりに動作し、必要なデータや応答を提供する役割を果たす。スタブを利用することで、依存関係にあるコンポーネントが未完成でもテストを行うことが可能となり、システム全体の動作確認や不具合の特定を効率的に行うことができる。例えば、データベースへの接続を模擬するスタブを用いることで、実際のデータベースがなくても関連する機能のテストができるため、開発の早い段階で問題を特定しやすくなる。",
-          "definitionVi": "Stub: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "結合テストで、未完成の下位モジュールの代わりに応答を返すテスト用プログラム。",
+          "definitionVi": "Chương trình giả lập mô-đun cấp dưới, cung cấp phản hồi cho mô-đun đang được kiểm thử."
         }
       ],
       "tags": ["system-development-technology", "integration-testing", "stub"]
@@ -569,7 +569,7 @@
       "titleVi": "Kiểm thử chức năng",
       "importance": "high",
       "summaryJa": "ソフトウェアが仕様通りに動作するか確認するためのテスト手法である。",
-      "summaryVi": "Kiểm thử chức năng: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Đánh giá tính đúng đắn của chức năng dựa trên đầu vào và kết quả mong đợi.",
       "content": [
         {
           "type": "heading",
@@ -579,7 +579,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアが仕様通りに動作するか確認するためのテスト手法である。このテストでは、システムが求められている機能を正確に実行できるかを検証し、ユーザーの要求を満たすかどうかを評価する。具体的には、例えばWebアプリケーションのボタンを押した際に、正しいページに遷移するかどうか、データの入力が正しく処理されるかといったシナリオが確認される。ソフトウェアの品質を確保し、リリース前の不具合を早期に発見するために重要なプロセスであり、ユーザー体験を向上させる上でも欠かせないステップである。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử chức năng trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử chức năng xác minh những hành vi mà phần mềm phải thực hiện, chẳng hạn đăng nhập, tìm kiếm, tính tiền hoặc lưu dữ liệu. Ví dụ, khi người dùng nhập đúng tài khoản và mật khẩu, hệ thống phải cho phép đăng nhập; khi nhập sai, phải hiển thị lỗi phù hợp. Trọng tâm là chức năng có đáp ứng yêu cầu hay không, không phải tốc độ hay khả năng chịu tải."
         },
         {
           "type": "point",
@@ -592,8 +592,8 @@
           "term": "機能テスト",
           "english": "Functional Testing",
           "vi": "Kiểm thử chức năng",
-          "definitionJa": "ソフトウェアが仕様通りに動作するか確認するためのテスト手法である。このテストでは、システムが求められている機能を正確に実行できるかを検証し、ユーザーの要求を満たすかどうかを評価する。具体的には、例えばWebアプリケーションのボタンを押した際に、正しいページに遷移するかどうか、データの入力が正しく処理されるかといったシナリオが確認される。ソフトウェアの品質を確保し、リリース前の不具合を早期に発見するために重要なプロセスであり、ユーザー体験を向上させる上でも欠かせないステップである。",
-          "definitionVi": "Kiểm thử chức năng: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "ソフトウェアの機能が仕様どおりに動作するかを確認するテスト。",
+          "definitionVi": "Kiểm thử xem các chức năng phần mềm có hoạt động đúng theo đặc tả hay không.",
           "reading": "きのうてすと"
         }
       ],
@@ -610,7 +610,7 @@
       "titleVi": "Kiểm thử yêu cầu phi chức năng",
       "importance": "high",
       "summaryJa": "ソフトウェアの性能や使いやすさ、セキュリティなど、機能以外の要素を評価するためのテストを指す。",
-      "summaryVi": "Kiểm thử yêu cầu phi chức năng: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Đánh giá hệ thống hoạt động tốt đến mức nào thay vì chỉ kiểm tra chức năng có chạy đúng.",
       "content": [
         {
           "type": "heading",
@@ -620,7 +620,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの性能や使いやすさ、セキュリティなど、機能以外の要素を評価するためのテストを指す。このテストは、システムが要求された機能を正しく実行するだけでなく、期待される品質基準を満たしているかを確認する目的がある。例えば、応答時間や処理速度を測定するパフォーマンステストや、ユーザーが使いやすいかどうかを確認するユーザビリティテストが含まれる。また、セキュリティテストは、システムが外部からの攻撃に対してどれだけ堅牢かを評価するために行われる。これらのテストは、ソフトウェアが実際の運用環境で問題なく機能することを保証するために不可欠である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử yêu cầu phi chức năng trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử phi chức năng tập trung vào các đặc tính như thời gian phản hồi, khả năng chịu tải, độ an toàn, độ tin cậy và tính dễ sử dụng. Ví dụ, một trang đăng nhập có thể hoạt động đúng về chức năng nhưng vẫn không đạt yêu cầu nếu phản hồi quá chậm hoặc dễ bị tấn công. Các tiêu chí phi chức năng nên được xác định bằng điều kiện và mức đo cụ thể."
         },
         {
           "type": "point",
@@ -633,8 +633,8 @@
           "term": "非機能要件テスト",
           "english": "Non-Functional Testing",
           "vi": "Kiểm thử yêu cầu phi chức năng",
-          "definitionJa": "ソフトウェアの性能や使いやすさ、セキュリティなど、機能以外の要素を評価するためのテストを指す。このテストは、システムが要求された機能を正しく実行するだけでなく、期待される品質基準を満たしているかを確認する目的がある。例えば、応答時間や処理速度を測定するパフォーマンステストや、ユーザーが使いやすいかどうかを確認するユーザビリティテストが含まれる。また、セキュリティテストは、システムが外部からの攻撃に対してどれだけ堅牢かを評価するために行われる。これらのテストは、ソフトウェアが実際の運用環境で問題なく機能することを保証するために不可欠である。",
-          "definitionVi": "Kiểm thử yêu cầu phi chức năng: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "性能・安全性・使用性など、機能以外の品質要件を確認するテスト。",
+          "definitionVi": "Kiểm thử các yêu cầu chất lượng không thuộc chức năng, như hiệu năng, bảo mật và tính dễ sử dụng.",
           "reading": "ひきのうようけんてすと"
         }
       ],
@@ -651,7 +651,7 @@
       "titleVi": "Kiểm thử hiệu năng",
       "importance": "high",
       "summaryJa": "ソフトウェアやシステムが求められる性能基準を満たしているかどうかを評価するためのテストである。",
-      "summaryVi": "Kiểm thử hiệu năng: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Đo và đánh giá hiệu năng để xác định hệ thống có đáp ứng mục tiêu đặt ra hay không.",
       "content": [
         {
           "type": "heading",
@@ -661,7 +661,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムが求められる性能基準を満たしているかどうかを評価するためのテストである。このテストにより、システムの処理速度、応答時間、同時ユーザー数に対する耐性などが確認される。例えば、Webアプリケーションが多くのユーザーから同時にアクセスされた場合に適切に動作するかを調べることが一般的である。ソフトウェアのリリース前に問題を発見し、ユーザーに快適な体験を提供するために重要なプロセスである。また、このテストによってシステムのボトルネックを特定し、改善策を講じることが可能になる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử hiệu năng trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử hiệu năng đo các chỉ số như thời gian phản hồi, thông lượng và mức sử dụng tài nguyên trong những điều kiện xác định. Ví dụ, đo thời gian trả kết quả tìm kiếm khi có 100 người dùng đồng thời. Kết quả giúp phát hiện điểm nghẽn và đánh giá mức đáp ứng yêu cầu. Kiểm thử tải là một dạng kiểm thử hiệu năng tập trung vào mức tải tác động lên hệ thống."
         },
         {
           "type": "point",
@@ -674,8 +674,8 @@
           "term": "性能テスト",
           "english": "Performance Testing",
           "vi": "Kiểm thử hiệu năng",
-          "definitionJa": "ソフトウェアやシステムが求められる性能基準を満たしているかどうかを評価するためのテストである。このテストにより、システムの処理速度、応答時間、同時ユーザー数に対する耐性などが確認される。例えば、Webアプリケーションが多くのユーザーから同時にアクセスされた場合に適切に動作するかを調べることが一般的である。ソフトウェアのリリース前に問題を発見し、ユーザーに快適な体験を提供するために重要なプロセスである。また、このテストによってシステムのボトルネックを特定し、改善策を講じることが可能になる。",
-          "definitionVi": "Kiểm thử hiệu năng: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "システムの応答時間・処理能力などの性能を測定し、要求を満たすか確認するテスト。",
+          "definitionVi": "Kiểm thử đo thời gian phản hồi, năng lực xử lý và các chỉ số hiệu năng của hệ thống.",
           "reading": "せいのうてすと"
         }
       ],
@@ -691,8 +691,8 @@
       "titleJa": "負荷テスト",
       "titleVi": "Kiểm thử tải",
       "importance": "high",
-      "summaryJa": "ソフトウェアやシステムが特定の条件下で高い負荷に耐えられるかを確認するためのテストである。",
-      "summaryVi": "Kiểm thử tải: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "想定する負荷をシステムに与え、性能や安定性を確認するテストである。",
+      "summaryVi": "Xác minh hệ thống hoạt động ra sao khi có nhiều yêu cầu hoặc người dùng đồng thời.",
       "content": [
         {
           "type": "heading",
@@ -702,7 +702,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムが特定の条件下で高い負荷に耐えられるかを確認するためのテストである。このテストは、システムが同時に処理できるユーザーの数や、データを処理する速度などを測定する。例えば、オンラインショップでセールが行われた際に、アクセスが集中する状況をシミュレートし、システムが正常に動作するかどうかを確認することが負荷テストの一つの例である。負荷テストを実施することで、システムのパフォーマンスが正常かどうかや、弱点が見つけやすくなり、必要に応じて改善策を講じることができる。このように、負荷テストはシステムの信頼性向上に寄与する重要な手法である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử tải trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử tải mô phỏng lượng truy cập, giao dịch hoặc dữ liệu mà hệ thống dự kiến phải xử lý. Ví dụ, kiểm tra trang bán hàng khi 1.000 người cùng truy cập trong đợt giảm giá. Các chỉ số thường theo dõi là thời gian phản hồi, thông lượng và tỷ lệ lỗi. Load testing chủ yếu đánh giá mức tải mục tiêu; kiểm thử vượt quá giới hạn chịu đựng thường được gọi là stress testing."
         },
         {
           "type": "point",
@@ -715,8 +715,8 @@
           "term": "負荷テスト",
           "english": "Load Testing",
           "vi": "Kiểm thử tải",
-          "definitionJa": "ソフトウェアやシステムが特定の条件下で高い負荷に耐えられるかを確認するためのテストである。このテストは、システムが同時に処理できるユーザーの数や、データを処理する速度などを測定する。例えば、オンラインショップでセールが行われた際に、アクセスが集中する状況をシミュレートし、システムが正常に動作するかどうかを確認することが負荷テストの一つの例である。負荷テストを実施することで、システムのパフォーマンスが正常かどうかや、弱点が見つけやすくなり、必要に応じて改善策を講じることができる。このように、負荷テストはシステムの信頼性向上に寄与する重要な手法である。",
-          "definitionVi": "Kiểm thử tải: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "想定した負荷を与え、システムの応答や処理能力を確認するテスト。",
+          "definitionVi": "Kiểm thử bằng cách tạo mức tải dự kiến để đánh giá khả năng phản hồi và xử lý của hệ thống.",
           "reading": "ふかてすと"
         }
       ],
@@ -733,7 +733,7 @@
       "titleVi": "Kiểm thử bảo mật",
       "importance": "high",
       "summaryJa": "ソフトウェアやシステムが悪意のある攻撃から保護されているかどうかを評価するプロセスである。",
-      "summaryVi": "Kiểm thử bảo mật: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Kiểm tra các cơ chế bảo mật và rủi ro có thể làm lộ hoặc thay đổi dữ liệu.",
       "content": [
         {
           "type": "heading",
@@ -743,7 +743,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムが悪意のある攻撃から保護されているかどうかを評価するプロセスである。このテストは、脆弱性を発見し、情報の漏洩や不正アクセスを防ぐことを目的とする。具体的には、ハッカーが攻撃を試みるシナリオをシミュレーションし、実際のセキュリティリスクを評価する手法が用いられる。また、認証機能やデータ暗号化の強度を検証することで、システムの堅牢性を確認することも一般的である。ソフトウェアが安全に運用されるために不可欠なステップであり、特に個人情報や機密データを扱うシステムにおいては重要性が増す。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử bảo mật trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử bảo mật xem xét xác thực, phân quyền, xử lý dữ liệu nhạy cảm và khả năng chống lại những cách khai thác lỗ hổng phổ biến. Ví dụ, kiểm tra người dùng thông thường có truy cập được trang quản trị hay không hoặc dữ liệu truyền đi có được bảo vệ phù hợp không. Mục đích là phát hiện rủi ro để khắc phục trước khi hệ thống vận hành rộng rãi."
         },
         {
           "type": "point",
@@ -756,8 +756,8 @@
           "term": "セキュリティテスト",
           "english": "Security Testing",
           "vi": "Kiểm thử bảo mật",
-          "definitionJa": "ソフトウェアやシステムが悪意のある攻撃から保護されているかどうかを評価するプロセスである。このテストは、脆弱性を発見し、情報の漏洩や不正アクセスを防ぐことを目的とする。具体的には、ハッカーが攻撃を試みるシナリオをシミュレーションし、実際のセキュリティリスクを評価する手法が用いられる。また、認証機能やデータ暗号化の強度を検証することで、システムの堅牢性を確認することも一般的である。ソフトウェアが安全に運用されるために不可欠なステップであり、特に個人情報や機密データを扱うシステムにおいては重要性が増す。",
-          "definitionVi": "Kiểm thử bảo mật: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "システムの脆弱性や不正アクセスへの耐性など、安全性を確認するテスト。",
+          "definitionVi": "Kiểm thử nhằm phát hiện lỗ hổng và đánh giá khả năng bảo vệ hệ thống trước truy cập trái phép."
         }
       ],
       "tags": [
@@ -773,7 +773,7 @@
       "titleVi": "Kiểm thử hồi quy",
       "importance": "high",
       "summaryJa": "ソフトウェアの変更後に、その変更が既存の機能に影響を与えていないかを確認するためのテストである。",
-      "summaryVi": "Kiểm thử hồi quy: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Thực hiện sau khi sửa lỗi hoặc thêm tính năng để phát hiện ảnh hưởng ngoài ý muốn.",
       "content": [
         {
           "type": "heading",
@@ -783,7 +783,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアの変更後に、その変更が既存の機能に影響を与えていないかを確認するためのテストである。主にバグ修正や新機能の追加後に実施され、以前に正常に動作していた機能が今も問題なく動作することを検証する。例えば、あるアプリケーションに新しい機能を追加した場合、その機能が追加されたことで他の部分が動作しなくなることがないかをチェックする。このテストを行うことで、ソフトウェアの信頼性を高め、ユーザーにとって安定した使用体験を提供できる。回帰テストは自動化されることが多く、効率良く行われることが一般的である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kiểm thử hồi quy trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kiểm thử hồi quy được thực hiện sau khi thay đổi mã nguồn, cập nhật thư viện hoặc sửa lỗi. Ví dụ, sau khi thêm phương thức thanh toán mới, cần kiểm tra lại phương thức thanh toán cũ và quy trình đặt hàng để chắc chắn chúng vẫn hoạt động. Các trường hợp kiểm thử hồi quy thường được tự động hóa nhằm chạy lại nhanh và thường xuyên."
         },
         {
           "type": "point",
@@ -796,8 +796,8 @@
           "term": "回帰テスト",
           "english": "Regression Test",
           "vi": "Kiểm thử hồi quy",
-          "definitionJa": "ソフトウェアの変更後に、その変更が既存の機能に影響を与えていないかを確認するためのテストである。主にバグ修正や新機能の追加後に実施され、以前に正常に動作していた機能が今も問題なく動作することを検証する。例えば、あるアプリケーションに新しい機能を追加した場合、その機能が追加されたことで他の部分が動作しなくなることがないかをチェックする。このテストを行うことで、ソフトウェアの信頼性を高め、ユーザーにとって安定した使用体験を提供できる。回帰テストは自動化されることが多く、効率良く行われることが一般的である。",
-          "definitionVi": "Kiểm thử hồi quy: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "変更や修正によって既存の機能に不具合が生じていないかを確認するテスト。",
+          "definitionVi": "Kiểm thử lại để xác nhận thay đổi hoặc sửa lỗi không làm hỏng những chức năng vốn hoạt động đúng.",
           "reading": "かいきてすと"
         }
       ],
@@ -813,8 +813,8 @@
       "titleJa": "ファジング",
       "titleVi": "Fuzzing",
       "importance": "high",
-      "summaryJa": "ソフトウェアの脆弱性を発見するためのテスト技法の一つである。",
-      "summaryVi": "Fuzzing: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "大量の多様な入力データを与え、異常動作や脆弱性を発見するテスト技法。",
+      "summaryVi": "Phát hiện lỗi tiềm ẩn bằng cách thử nhiều đầu vào không dự đoán trước.",
       "content": [
         {
           "type": "heading",
@@ -823,8 +823,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアの脆弱性を発見するためのテスト技法の一つである。この手法では、プログラムに対してランダムまたは変異した入力データを大量に送信し、その結果を観察することで、予期しない動作やエラーを引き起こす状況を探す。具体的には、WebアプリケーションやAPIに対して不適切なデータを送信し、セキュリティホールやバグを見つけることが目的である。ファジングにより発見された脆弱性は、攻撃者による悪用を防ぐために修正が必要であり、これによってソフトウェアの安全性を向上させることが可能である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Fuzzing trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "大量の多様な入力データを与え、異常動作や脆弱性を発見するテスト技法。ランダムな入力や変異させた入力を大量に与え、クラッシュや予期しない動作を調べる。すべての不具合を検出できるわけではない。",
+          "vi": "Fuzzing tự động tạo hoặc biến đổi nhiều dữ liệu đầu vào rồi đưa vào phần mềm, API hoặc bộ phân tích tệp. Công cụ theo dõi hiện tượng như treo, sập chương trình hoặc xử lý sai. Ví dụ, gửi chuỗi rất dài hay dữ liệu sai định dạng tới API để tìm lỗi kiểm tra đầu vào. Fuzzing hỗ trợ phát hiện lỗ hổng nhưng không bảo đảm tìm được mọi lỗi."
         },
         {
           "type": "point",
@@ -837,8 +837,8 @@
           "term": "ファジング",
           "english": "Fuzzing",
           "vi": "Fuzzing",
-          "definitionJa": "ソフトウェアの脆弱性を発見するためのテスト技法の一つである。この手法では、プログラムに対してランダムまたは変異した入力データを大量に送信し、その結果を観察することで、予期しない動作やエラーを引き起こす状況を探す。具体的には、WebアプリケーションやAPIに対して不適切なデータを送信し、セキュリティホールやバグを見つけることが目的である。ファジングにより発見された脆弱性は、攻撃者による悪用を防ぐために修正が必要であり、これによってソフトウェアの安全性を向上させることが可能である。",
-          "definitionVi": "Fuzzing: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm."
+          "definitionJa": "大量の多様な入力データを与え、異常動作や脆弱性を発見するテスト技法。",
+          "definitionVi": "Kỹ thuật đưa nhiều dữ liệu đầu vào đa dạng hoặc bất thường vào chương trình để phát hiện lỗi và lỗ hổng."
         }
       ],
       "tags": [
@@ -853,8 +853,8 @@
       "titleJa": "双方向の追跡可能性",
       "titleVi": "Khả năng truy vết hai chiều",
       "importance": "high",
-      "summaryJa": "ソフトウェア開発において、要求仕様とその実装、またはテストケースとの関係を明確にし、相互に参照できる状態を指す。",
-      "summaryVi": "Khả năng truy vết hai chiều: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "要求と設計・実装・テストとの対応関係を双方向にたどれること。",
+      "summaryVi": "Theo dõi từ yêu cầu đến kết quả kiểm thử và ngược lại để tránh thiếu sót.",
       "content": [
         {
           "type": "heading",
@@ -863,8 +863,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェア開発において、要求仕様とその実装、またはテストケースとの関係を明確にし、相互に参照できる状態を指す。具体的には、例えばある機能を含む要件がどのテストケースで確認されるかを示し、逆に特定のテスト結果がどの要件を満たしているのかを追跡することが可能である。これにより、開発者やテスターは、要件が適切に実装されているか、または必要なテストが実施されているかを容易に確認できるため、品質を向上させ、リリース後の不具合発生を減少させる効果がある。特に、大規模なプロジェクトでは効果的であり、透明性のある管理を実現する。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Khả năng truy vết hai chiều trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "要求と設計・実装・テストとの対応関係を双方向にたどれること。要求から設計・実装・テストへ追跡でき、逆にテスト結果から対応する要求へもさかのぼれる。要求の抜け漏れや不要な実装を確認するために用いる。",
+          "vi": "Truy vết xuôi cho biết mỗi yêu cầu được thiết kế, lập trình và kiểm thử ở đâu. Truy vết ngược xác định một chức năng hoặc trường hợp kiểm thử xuất phát từ yêu cầu nào. Ví dụ, yêu cầu R01 về đăng nhập liên kết với thiết kế D01 và ca kiểm thử T01; từ T01 cũng truy ngược được về R01. Ma trận truy vết giúp phát hiện yêu cầu chưa được kiểm thử hoặc trường hợp kiểm thử không có căn cứ."
         },
         {
           "type": "point",
@@ -877,8 +877,8 @@
           "term": "双方向の追跡可能性",
           "english": "Bidirectional Traceability",
           "vi": "Khả năng truy vết hai chiều",
-          "definitionJa": "ソフトウェア開発において、要求仕様とその実装、またはテストケースとの関係を明確にし、相互に参照できる状態を指す。具体的には、例えばある機能を含む要件がどのテストケースで確認されるかを示し、逆に特定のテスト結果がどの要件を満たしているのかを追跡することが可能である。これにより、開発者やテスターは、要件が適切に実装されているか、または必要なテストが実施されているかを容易に確認できるため、品質を向上させ、リリース後の不具合発生を減少させる効果がある。特に、大規模なプロジェクトでは効果的であり、透明性のある管理を実現する。",
-          "definitionVi": "Khả năng truy vết hai chiều: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "要求と設計・実装・テストとの対応関係を双方向にたどれること。",
+          "definitionVi": "Khả năng lần theo quan hệ giữa yêu cầu với thiết kế, triển khai và kiểm thử theo cả hai chiều.",
           "reading": "そうほうこうのついせきかのうせい"
         }
       ],
@@ -894,8 +894,8 @@
       "titleJa": "ハードウェア構成品目",
       "titleVi": "Hạng mục cấu hình phần cứng",
       "importance": "medium",
-      "summaryJa": "システムにおいて使用される物理的な機器や部品を指す。",
-      "summaryVi": "Hạng mục cấu hình phần cứng: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "構成管理の対象として識別・管理されるハードウェアの機器や部品。",
+      "summaryVi": "Quản lý từng thiết bị phần cứng theo cấu hình, phiên bản và tình trạng thay đổi.",
       "content": [
         {
           "type": "heading",
@@ -904,8 +904,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムにおいて使用される物理的な機器や部品を指す。これには、サーバ、コンピュータ、ストレージ装置、ネットワーク機器などが含まれる。システムの性能や信頼性に直結するため、適切な選定と管理が重要である。例えば、企業がサーバを選ぶ際には、処理速度やストレージ容量、可用性などを考慮し、ビジネスニーズに合った機器を導入する。このように、ハードウェア構成品目の管理は、システムの効率的な運用やメンテナンスにおいて重要な役割を果たす。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Hạng mục cấu hình phần cứng trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "構成管理の対象として識別・管理されるハードウェアの機器や部品。構成管理では、対象ごとに識別情報やバージョン、変更履歴などを記録する。これにより変更の影響を把握し、保守や障害対応を行いやすくする。",
+          "vi": "Hạng mục cấu hình phần cứng có thể là máy chủ, thiết bị mạng hoặc thiết bị lưu trữ được đưa vào phạm vi quản lý cấu hình. Mỗi hạng mục thường có mã nhận diện, thông số, vị trí và lịch sử thay đổi. Ví dụ, khi thay ổ đĩa trong máy chủ, thông tin cấu hình cần được cập nhật để phục vụ bảo trì và kiểm soát thay đổi. Không phải mọi linh kiện vật lý đều tự động là một hạng mục cấu hình riêng."
         },
         {
           "type": "point",
@@ -918,8 +918,8 @@
           "term": "ハードウェア構成品目",
           "english": "Hardware Configuration Items",
           "vi": "Hạng mục cấu hình phần cứng",
-          "definitionJa": "システムにおいて使用される物理的な機器や部品を指す。これには、サーバ、コンピュータ、ストレージ装置、ネットワーク機器などが含まれる。システムの性能や信頼性に直結するため、適切な選定と管理が重要である。例えば、企業がサーバを選ぶ際には、処理速度やストレージ容量、可用性などを考慮し、ビジネスニーズに合った機器を導入する。このように、ハードウェア構成品目の管理は、システムの効率的な運用やメンテナンスにおいて重要な役割を果たす。",
-          "definitionVi": "Hạng mục cấu hình phần cứng: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "構成管理の対象として識別・管理されるハードウェアの機器や部品。",
+          "definitionVi": "Thiết bị hoặc bộ phận phần cứng được xác định và quản lý như một hạng mục cấu hình.",
           "reading": "はーどうぇあこうせいひんもく"
         }
       ],
@@ -935,8 +935,8 @@
       "titleJa": "ソフトウェア構成品目",
       "titleVi": "Hạng mục cấu hình phần mềm",
       "importance": "medium",
-      "summaryJa": "特定のソフトウェアシステムを構成する要素や部品のことを指す。",
-      "summaryVi": "Hạng mục cấu hình phần mềm: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "構成管理の対象として識別・管理されるソフトウェアの構成要素。",
+      "summaryVi": "Theo dõi mã nguồn, thư viện, mô-đun hoặc tài liệu liên quan theo phiên bản.",
       "content": [
         {
           "type": "heading",
@@ -945,8 +945,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定のソフトウェアシステムを構成する要素や部品のことを指す。これには、プログラムコード、ライブラリ、モジュール、コンポーネントなどが含まれ、各要素はシステム全体の機能を実現するために連携して動作する。たとえば、あるアプリケーションが動作するためには、ユーザーインターフェースやデータベース管理システムなど、異なるソフトウェア構成品目が必要となる。これにより、開発者は各部品を独立して管理・更新可能で、全体の柔軟性や保守性が向上する。システム統合の場面でも重要であり、多様な機能を持つソフトウェアを一つのシステムに組み合わせる際に不可欠な要素である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Hạng mục cấu hình phần mềm trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "構成管理の対象として識別・管理されるソフトウェアの構成要素。構成管理では、対象ごとに識別情報やバージョン、変更履歴などを記録する。これにより変更の影響を把握し、保守や障害対応を行いやすくする。",
+          "vi": "Hạng mục cấu hình phần mềm có thể gồm mã nguồn, thư viện, tệp cấu hình, bản build hoặc tài liệu được chọn để quản lý. Ví dụ, hệ thống ghi nhận phiên bản thư viện đang dùng và phiên bản ứng dụng đã phát hành. Việc quản lý giúp truy vết thay đổi, kiểm soát phụ thuộc và khôi phục phiên bản khi cần. Khái niệm này nhấn mạnh đối tượng quản lý cấu hình, không chỉ là các bộ phận cấu thành chương trình."
         },
         {
           "type": "point",
@@ -959,8 +959,8 @@
           "term": "ソフトウェア構成品目",
           "english": "Software Component Items",
           "vi": "Hạng mục cấu hình phần mềm",
-          "definitionJa": "特定のソフトウェアシステムを構成する要素や部品のことを指す。これには、プログラムコード、ライブラリ、モジュール、コンポーネントなどが含まれ、各要素はシステム全体の機能を実現するために連携して動作する。たとえば、あるアプリケーションが動作するためには、ユーザーインターフェースやデータベース管理システムなど、異なるソフトウェア構成品目が必要となる。これにより、開発者は各部品を独立して管理・更新可能で、全体の柔軟性や保守性が向上する。システム統合の場面でも重要であり、多様な機能を持つソフトウェアを一つのシステムに組み合わせる際に不可欠な要素である。",
-          "definitionVi": "Hạng mục cấu hình phần mềm: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "構成管理の対象として識別・管理されるソフトウェアの構成要素。",
+          "definitionVi": "Thành phần phần mềm được xác định và quản lý riêng trong hoạt động quản lý cấu hình.",
           "reading": "そふとうぇあこうせいひんもく"
         }
       ],
@@ -976,8 +976,8 @@
       "titleJa": "手作業",
       "titleVi": "Công việc thủ công",
       "importance": "medium",
-      "summaryJa": "特定のタスクを人間の手で実行する作業を指す。",
-      "summaryVi": "Công việc thủ công: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "自動化せず、人が直接操作・判断して行う作業。",
+      "summaryVi": "Thực hiện thủ công các bước cần quan sát, thao tác hoặc phán đoán của con người.",
       "content": [
         {
           "type": "heading",
@@ -986,8 +986,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定のタスクを人間の手で実行する作業を指す。これは、自動化された機械やシステムを使用せず、手動で行うことを意味する。たとえば、データ入力や製品の組み立て、あるいは手書きの文書作成などが手作業に該当する。システム統合において、手作業はしばしばプロセスの一部として存在し、他の自動化手段と連携することが求められることがある。特に柔軟性が必要な場合や、精密な判断が求められる場面で重要だが、大量処理には効率が悪いというデメリットも伴う。したがって、効率性と精度を考慮しながら手作業と自動化のバランスを取ることが求められる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Công việc thủ công trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "自動化せず、人が直接操作・判断して行う作業。テストでは、人が画面を操作して表示や動作を確認する場合などが該当する。柔軟な判断ができる一方、繰り返し作業には時間がかかる。",
+          "vi": "Trong phát triển và kiểm thử, công việc thủ công có thể là nhập dữ liệu thử, kiểm tra giao diện hoặc đối chiếu kết quả bằng mắt. Ví dụ, người kiểm thử tự mở trang web và kiểm tra bố cục trên điện thoại. Phương pháp này linh hoạt và phù hợp với đánh giá trải nghiệm, nhưng mất thời gian và dễ xảy ra sai sót khi lặp lại nhiều lần. Những thao tác lặp lại ổn định có thể cân nhắc tự động hóa."
         },
         {
           "type": "point",
@@ -1000,8 +1000,8 @@
           "term": "手作業",
           "english": "Manual Work",
           "vi": "Công việc thủ công",
-          "definitionJa": "特定のタスクを人間の手で実行する作業を指す。これは、自動化された機械やシステムを使用せず、手動で行うことを意味する。たとえば、データ入力や製品の組み立て、あるいは手書きの文書作成などが手作業に該当する。システム統合において、手作業はしばしばプロセスの一部として存在し、他の自動化手段と連携することが求められることがある。特に柔軟性が必要な場合や、精密な判断が求められる場面で重要だが、大量処理には効率が悪いというデメリットも伴う。したがって、効率性と精度を考慮しながら手作業と自動化のバランスを取ることが求められる。",
-          "definitionVi": "Công việc thủ công: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "自動化せず、人が直接操作・判断して行う作業。",
+          "definitionVi": "Công việc do con người trực tiếp thao tác hoặc đánh giá thay vì thực hiện tự động.",
           "reading": "てさぎょう"
         }
       ],
@@ -1017,8 +1017,8 @@
       "titleJa": "システム要件",
       "titleVi": "Yêu cầu hệ thống",
       "importance": "medium",
-      "summaryJa": "システムが満たすべき条件や機能を具体的に示すものである。",
-      "summaryVi": "Yêu cầu hệ thống: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "システム全体が満たすべき機能・性能・制約などの条件。",
+      "summaryVi": "Xác định yêu cầu đối với hệ thống tổng thể, bao gồm cả phần mềm và hạ tầng liên quan.",
       "content": [
         {
           "type": "heading",
@@ -1027,8 +1027,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムが満たすべき条件や機能を具体的に示すものである。これは、システムが正しく動作するための基盤を形成し、ユーザーのニーズやビジネス要件を反映する重要な文書となる。具体的には、機能要件としての操作方法や性能要件としての応答速度、耐障害性を含むことが多い。たとえば、あるソフトウェアがユーザーに対してスムーズな操作を提供するためには、必要な処理速度やメモリ容量を明記する必要がある。また、システム要件は設計やテストの段階でも利用され、これに基づいてシステムが実際に機能しているかを確認することが求められる。そのため、要件が明確であればあるほど、開発や運用の効率を向上させることができる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Yêu cầu hệ thống trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "ja": "システム全体が満たすべき機能・性能・制約などの条件。ソフトウェアだけでなく、必要に応じてハードウェアや運用条件も含む。設計と検証の基準となる。",
+          "vi": "Yêu cầu hệ thống mô tả những gì hệ thống hoàn chỉnh phải cung cấp, chẳng hạn chức năng nghiệp vụ, thời gian phản hồi, khả năng hoạt động liên tục và yêu cầu an toàn. Ví dụ, hệ thống bán hàng phải xử lý được số lượng đơn nhất định và có cơ chế sao lưu dữ liệu. Yêu cầu hệ thống là cơ sở cho thiết kế, phân chia yêu cầu cho các thành phần và kiểm thử nghiệm thu; phạm vi của nó có thể rộng hơn yêu cầu phần mềm."
         },
         {
           "type": "point",
@@ -1041,8 +1041,8 @@
           "term": "システム要件",
           "english": "System Requirements",
           "vi": "Yêu cầu hệ thống",
-          "definitionJa": "システムが満たすべき条件や機能を具体的に示すものである。これは、システムが正しく動作するための基盤を形成し、ユーザーのニーズやビジネス要件を反映する重要な文書となる。具体的には、機能要件としての操作方法や性能要件としての応答速度、耐障害性を含むことが多い。たとえば、あるソフトウェアがユーザーに対してスムーズな操作を提供するためには、必要な処理速度やメモリ容量を明記する必要がある。また、システム要件は設計やテストの段階でも利用され、これに基づいてシステムが実際に機能しているかを確認することが求められる。そのため、要件が明確であればあるほど、開発や運用の効率を向上させることができる。",
-          "definitionVi": "Yêu cầu hệ thống: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "システム全体が満たすべき機能・性能・制約などの条件。",
+          "definitionVi": "Các điều kiện về chức năng, hiệu năng và ràng buộc mà toàn bộ hệ thống phải đáp ứng.",
           "reading": "しすてむようけん"
         }
       ],
@@ -1058,8 +1058,8 @@
       "titleJa": "統合する順序",
       "titleVi": "Thứ tự tích hợp",
       "importance": "medium",
-      "summaryJa": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。",
-      "summaryVi": "Thứ tự tích hợp: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "モジュールを結合してテストする際に、どの順序で統合するかを示すものである。",
+      "summaryVi": "Quyết định tích hợp thành phần nào trước để kiểm tra sự phối hợp giữa chúng.",
       "content": [
         {
           "type": "heading",
@@ -1069,7 +1069,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。この順序は、異なるコンポーネントや機能を適切に結びつけ、全体として効果的に動作するように設計されている。例えば、データベースとユーザーインターフェースの連携を考える際に、最初にデータモデルを定義し、その後にAPIを通じて通信を行う流れが適用されることが多い。このような統合の順序を明確にすることで、システム全体の整合性を保ち、エラーの発生を避けることができる。特に大規模なプロジェクトほど、効果的な統合する順序が求められ、開発の効率向上や保守の容易さに寄与する。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Thứ tự tích hợp trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Trong kiểm thử tích hợp, thứ tự ghép các mô-đun ảnh hưởng đến cách phát hiện lỗi và việc sử dụng chương trình thay thế. Cách top-down bắt đầu từ mô-đun cấp trên và thường dùng stub cho mô-đun cấp dưới chưa có. Cách bottom-up bắt đầu từ mô-đun cấp dưới và thường dùng driver để gọi mô-đun đang kiểm thử. Việc lựa chọn thứ tự phù hợp giúp xác định lỗi giao tiếp giữa các thành phần dễ hơn."
         },
         {
           "type": "point",
@@ -1082,8 +1082,8 @@
           "term": "統合する順序",
           "english": "Integration Sequence",
           "vi": "Thứ tự tích hợp",
-          "definitionJa": "ソフトウェアやシステムを統一して動作させるための処理の流れを指す。この順序は、異なるコンポーネントや機能を適切に結びつけ、全体として効果的に動作するように設計されている。例えば、データベースとユーザーインターフェースの連携を考える際に、最初にデータモデルを定義し、その後にAPIを通じて通信を行う流れが適用されることが多い。このような統合の順序を明確にすることで、システム全体の整合性を保ち、エラーの発生を避けることができる。特に大規模なプロジェクトほど、効果的な統合する順序が求められ、開発の効率向上や保守の容易さに寄与する。",
-          "definitionVi": "Thứ tự tích hợp: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "複数のモジュールを結合してテストする際の組合せの順序。",
+          "definitionVi": "Thứ tự ghép nối các mô-đun hoặc thành phần khi tiến hành kiểm thử tích hợp.",
           "reading": "とうごうするじゅんじょ"
         }
       ],
@@ -1099,8 +1099,8 @@
       "titleJa": "再帰戦略",
       "titleVi": "Chiến lược đệ quy",
       "importance": "medium",
-      "summaryJa": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。",
-      "summaryVi": "Chiến lược đệ quy: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryJa": "処理の中から同じ処理を呼び出し、問題を段階的に解決する方法である。",
+      "summaryVi": "Đệ quy chia bài toán thành các trường hợp nhỏ và cần có điều kiện dừng.",
       "content": [
         {
           "type": "heading",
@@ -1110,7 +1110,7 @@
         {
           "type": "paragraph",
           "ja": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。この戦略を用いることで、複雑な問題を単純な部分問題に分けて解決することができる。たとえば、階層的なデータ構造や計算を行う際に有効で、再帰関数により自分自身を呼び出すことで目的の結果を得る。具体的には、フィボナッチ数列やツリー構造の探索などがこの手法の代表例である。問題の解決をシンプルにし、コードの可読性を高める一方で、再帰の深さによってはスタックオーバーフローのリスクも伴うため、使用する際には注意が必要である。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Chiến lược đệ quy trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Đệ quy thường được dùng khi duyệt cấu trúc cây hoặc tính toán dựa trên công thức lặp. Ví dụ, hàm tính giai thừa có thể gọi chính nó với n-1 cho đến khi n bằng 0 hoặc 1. Điều kiện dừng là bắt buộc; nếu thiếu, chương trình có thể gọi lặp vô hạn và gây tràn ngăn xếp. Đây là kỹ thuật lập trình, không phải một phương pháp kiểm thử tích hợp."
         },
         {
           "type": "point",
@@ -1123,8 +1123,8 @@
           "term": "再帰戦略",
           "english": "Recursion Strategy",
           "vi": "Chiến lược đệ quy",
-          "definitionJa": "プログラムやアルゴリズムにおいて、同じ処理を繰り返し呼び出す手法の一つである。この戦略を用いることで、複雑な問題を単純な部分問題に分けて解決することができる。たとえば、階層的なデータ構造や計算を行う際に有効で、再帰関数により自分自身を呼び出すことで目的の結果を得る。具体的には、フィボナッチ数列やツリー構造の探索などがこの手法の代表例である。問題の解決をシンプルにし、コードの可読性を高める一方で、再帰の深さによってはスタックオーバーフローのリスクも伴うため、使用する際には注意が必要である。",
-          "definitionVi": "Chiến lược đệ quy: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "処理の中から同じ処理を再び呼び出し、問題を段階的に解く方法。",
+          "definitionVi": "Phương pháp giải quyết bài toán bằng cách gọi lại chính quá trình xử lý đó trên bài toán nhỏ hơn.",
           "reading": "さいきせんりゃく"
         }
       ],
@@ -1141,7 +1141,7 @@
       "titleVi": "Kế hoạch kiểm thử",
       "importance": "high",
       "summaryJa": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。",
-      "summaryVi": "Kế hoạch kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Xác định kiểm thử cái gì, bằng cách nào, do ai thực hiện và khi nào hoàn thành.",
       "content": [
         {
           "type": "heading",
@@ -1151,7 +1151,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。この計画は、テストの目的、範囲、方法、資源、スケジュール、責任者などを詳細に記載することにより、テストプロセスを円滑に進行させることを目的としている。例えば、新しいアプリケーションのバグを見つけるためのテスト計画を作成する際には、どの機能をテストするのか、何人のテスターが必要か、どれくらいの期間でテストを完了させるかを明記し、関係者間での理解を深めることが重要である。これにより、効率的かつ効果的なテストが実施できる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Kế hoạch kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Kế hoạch kiểm thử là tài liệu định hướng toàn bộ hoạt động kiểm thử. Nội dung có thể gồm đối tượng kiểm thử, phạm vi, loại kiểm thử, môi trường, nguồn lực, lịch thực hiện, rủi ro và tiêu chí hoàn thành. Ví dụ, dự án có thể quy định kiểm thử đăng nhập trong tuần đầu, kiểm thử thanh toán trong tuần tiếp theo và chỉ phát hành khi không còn lỗi nghiêm trọng chưa xử lý."
         },
         {
           "type": "point",
@@ -1164,8 +1164,8 @@
           "term": "テスト計画",
           "english": "Test Plan",
           "vi": "Kế hoạch kiểm thử",
-          "definitionJa": "ソフトウェアのテストを実施するための具体的な方針や手順をまとめた文書である。この計画は、テストの目的、範囲、方法、資源、スケジュール、責任者などを詳細に記載することにより、テストプロセスを円滑に進行させることを目的としている。例えば、新しいアプリケーションのバグを見つけるためのテスト計画を作成する際には、どの機能をテストするのか、何人のテスターが必要か、どれくらいの期間でテストを完了させるかを明記し、関係者間での理解を深めることが重要である。これにより、効率的かつ効果的なテストが実施できる。",
-          "definitionVi": "Kế hoạch kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テストの目的・範囲・方法・体制・日程などを定めた計画。",
+          "definitionVi": "Kế hoạch quy định mục tiêu, phạm vi, phương pháp, nhân lực và lịch trình kiểm thử.",
           "reading": "てすとけいかく"
         }
       ],
@@ -1182,7 +1182,7 @@
       "titleVi": "Chuẩn bị kiểm thử",
       "importance": "medium",
       "summaryJa": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。",
-      "summaryVi": "Chuẩn bị kiểm thử: nội dung cần nắm trong giai đoạn tích hợp và kiểm thử.",
+      "summaryVi": "Bảo đảm các điều kiện cần thiết đã sẵn sàng để kết quả kiểm thử đáng tin cậy.",
       "content": [
         {
           "type": "heading",
@@ -1192,7 +1192,7 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。この準備は、テストの実施効率や結果の信頼性を高めるために非常に重要である。テスト環境には、テストを行うためのサーバやデバイス、ソフトウェアの設定が含まれ、これにより現実の運用環境に近い状態で試験が行える。また、テストデータは、実際の利用状況を模して作成されることが多く、正確な評価を行うためには不可欠である。十分なテスト準備が整っていることで、問題の早期発見や修正が可能となり、最終的には製品の品質向上につながる。",
-          "vi": "Nắm định nghĩa, mục đích và cách sử dụng của Chuẩn bị kiểm thử trong quá trình tích hợp và kiểm thử hệ thống/phần mềm."
+          "vi": "Chuẩn bị kiểm thử bao gồm thiết lập máy chủ hoặc thiết bị, cấu hình phần mềm, tạo tài khoản thử nghiệm, nạp dữ liệu và kiểm tra các bước thực hiện. Ví dụ, trước khi kiểm thử chức năng đặt hàng cần có sản phẩm mẫu, tài khoản người dùng và môi trường thanh toán thử nghiệm. Chuẩn bị đầy đủ giúp tránh nhầm lỗi do môi trường với lỗi của chương trình."
         },
         {
           "type": "point",
@@ -1205,8 +1205,8 @@
           "term": "テスト準備",
           "english": "Test Preparation",
           "vi": "Chuẩn bị kiểm thử",
-          "definitionJa": "ソフトウェア統合テストを行う際に必要な環境やデータを整えるプロセスである。この準備は、テストの実施効率や結果の信頼性を高めるために非常に重要である。テスト環境には、テストを行うためのサーバやデバイス、ソフトウェアの設定が含まれ、これにより現実の運用環境に近い状態で試験が行える。また、テストデータは、実際の利用状況を模して作成されることが多く、正確な評価を行うためには不可欠である。十分なテスト準備が整っていることで、問題の早期発見や修正が可能となり、最終的には製品の品質向上につながる。",
-          "definitionVi": "Chuẩn bị kiểm thử: thuật ngữ thuộc phần tích hợp và kiểm thử hệ thống/phần mềm.",
+          "definitionJa": "テスト実施前に環境・データ・手順などを整える作業。",
+          "definitionVi": "Công việc chuẩn bị môi trường, dữ liệu và tài liệu cần thiết trước khi chạy kiểm thử.",
           "reading": "てすとじゅんび"
         }
       ],
