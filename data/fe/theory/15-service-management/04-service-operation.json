@@ -4,5 +4,967 @@
   "titleJa": "サービスの運用",
   "titleVi": "Vận hành dịch vụ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "system-operation-management",
+      "order": 1,
+      "titleJa": "システム運用管理",
+      "titleVi": "Quản lý vận hành hệ thống",
+      "importance": "high",
+      "summaryJa": "システム運用管理とは、情報システムを安定して稼働させるために、監視、保守、障害対応などを継続的に行う活動を指す。",
+      "summaryVi": "Giám sát, bảo trì và xử lý sự cố để hệ thống CNTT hoạt động ổn định hằng ngày.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム運用管理とは",
+          "vi": "Quản lý vận hành hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム運用管理とは、情報システムを安定して稼働させるために、監視、保守、障害対応などを継続的に行う活動を指す。 例：サーバの状態を監視し、異常時には担当者が復旧作業を行う。",
+          "vi": "Giám sát, bảo trì và xử lý sự cố để hệ thống CNTT hoạt động ổn định hằng ngày. Ví dụ: Theo dõi máy chủ, kiểm tra sao lưu và xử lý cảnh báo để dịch vụ không bị gián đoạn."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Vận hành là duy trì dịch vụ đang chạy; không đồng nghĩa với phát triển chức năng mới."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム運用管理",
+          "english": "System Operation Management",
+          "vi": "Quản lý vận hành hệ thống",
+          "definitionJa": "システム運用管理とは、情報システムを安定して稼働させるために、監視、保守、障害対応などを継続的に行う活動を指す。",
+          "definitionVi": "Giám sát, bảo trì và xử lý sự cố để hệ thống CNTT hoạt động ổn định hằng ngày.",
+          "reading": "しすてむうんようかんり"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "system-operation-management"
+      ]
+    },
+    {
+      "id": "operational-resource-management",
+      "order": 2,
+      "titleJa": "運用の資源管理",
+      "titleVi": "Quản lý tài nguyên vận hành",
+      "importance": "medium",
+      "summaryJa": "運用の資源管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Phân bổ và quản lý nhân lực, thiết bị, phần mềm và tài nguyên cần cho vận hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用の資源管理とは",
+          "vi": "Quản lý tài nguyên vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "運用の資源管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：運用の資源管理を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Phân bổ và quản lý nhân lực, thiết bị, phần mềm và tài nguyên cần cho vận hành. Ví dụ: Dựa vào tải CPU và kỹ năng nhân viên để phân bổ máy chủ, ca trực hợp lý."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Tài nguyên bao gồm cả con người và hạ tầng CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用の資源管理",
+          "english": "Operational Resource Management",
+          "vi": "Quản lý tài nguyên vận hành",
+          "definitionJa": "運用の資源管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Phân bổ và quản lý nhân lực, thiết bị, phần mềm và tài nguyên cần cho vận hành.",
+          "reading": "うんようのしげんかんり"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "operational-resource-management"
+      ]
+    },
+    {
+      "id": "virtual-environment-operations-management",
+      "order": 3,
+      "titleJa": "仮想環境の運用管理",
+      "titleVi": "Quản lý vận hành môi trường ảo hóa",
+      "importance": "medium",
+      "summaryJa": "仮想環境の運用管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Quản lý máy ảo và tài nguyên ảo hóa nhằm bảo đảm hiệu năng, tính sẵn sàng và chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "仮想環境の運用管理とは",
+          "vi": "Quản lý vận hành môi trường ảo hóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仮想環境の運用管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：仮想環境の運用管理を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Quản lý máy ảo và tài nguyên ảo hóa nhằm bảo đảm hiệu năng, tính sẵn sàng và chi phí. Ví dụ: Theo dõi mức dùng CPU/RAM của máy ảo, tạo snapshot và điều chỉnh phân bổ tài nguyên."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Máy ảo dùng chung tài nguyên vật lý; phải tránh phân bổ vượt khả năng thực tế."
+        }
+      ],
+      "terms": [
+        {
+          "term": "仮想環境の運用管理",
+          "english": "Virtual Environment Operations Management",
+          "vi": "Quản lý vận hành môi trường ảo hóa",
+          "definitionJa": "仮想環境の運用管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Quản lý máy ảo và tài nguyên ảo hóa nhằm bảo đảm hiệu năng, tính sẵn sàng và chi phí.",
+          "reading": "かそうかんきょうのうんようかんり"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "virtual-environment-operations-management"
+      ]
+    },
+    {
+      "id": "job-management",
+      "order": 4,
+      "titleJa": "ジョブの管理",
+      "titleVi": "Quản lý job (tác vụ xử lý)",
+      "importance": "high",
+      "summaryJa": "ジョブの管理とは、ジョブの実行状況、結果、異常終了時の対応を管理する活動を指す。",
+      "summaryVi": "Quản lý vòng đời các tác vụ xử lý tự động: đăng ký, thực thi, theo dõi kết quả và xử lý lỗi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ジョブの管理とは",
+          "vi": "Quản lý job (tác vụ xử lý) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ジョブの管理とは、ジョブの実行状況、結果、異常終了時の対応を管理する活動を指す。 例：夜間バッチの実行結果を確認し、異常終了したジョブに対応する。",
+          "vi": "Quản lý vòng đời các tác vụ xử lý tự động: đăng ký, thực thi, theo dõi kết quả và xử lý lỗi. Ví dụ: Kiểm tra job kết toán cuối ngày đã hoàn thành hay kết thúc bất thường."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Quản lý job rộng hơn lập lịch job: còn theo dõi trạng thái và phục hồi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ジョブの管理",
+          "english": "Job Management",
+          "vi": "Quản lý job (tác vụ xử lý)",
+          "definitionJa": "ジョブの管理とは、ジョブの実行状況、結果、異常終了時の対応を管理する活動を指す。",
+          "definitionVi": "Quản lý vòng đời các tác vụ xử lý tự động: đăng ký, thực thi, theo dõi kết quả và xử lý lỗi.",
+          "reading": "じょぶのかんり"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "job-management"]
+    },
+    {
+      "id": "data-management",
+      "order": 5,
+      "titleJa": "データ管理",
+      "titleVi": "Quản lý dữ liệu",
+      "importance": "medium",
+      "summaryJa": "データ管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Tổ chức lưu trữ, bảo vệ, duy trì tính toàn vẹn và khả năng sử dụng dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データ管理とは",
+          "vi": "Quản lý dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データ管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：データ管理を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Tổ chức lưu trữ, bảo vệ, duy trì tính toàn vẹn và khả năng sử dụng dữ liệu. Ví dụ: Kiểm soát quyền truy cập cơ sở dữ liệu và kiểm tra khả năng phục hồi bản sao lưu."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Chú ý tính toàn vẹn, bảo mật và khả năng khôi phục dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データ管理",
+          "english": "Data Management",
+          "vi": "Quản lý dữ liệu",
+          "definitionJa": "データ管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Tổ chức lưu trữ, bảo vệ, duy trì tính toàn vẹn và khả năng sử dụng dữ liệu.",
+          "reading": "でーたかんり"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "data-management"]
+    },
+    {
+      "id": "user-management",
+      "order": 6,
+      "titleJa": "利用者の管理",
+      "titleVi": "Quản lý người dùng",
+      "importance": "high",
+      "summaryJa": "利用者の管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Quản lý tài khoản và quyền truy cập của người sử dụng trong suốt vòng đời tài khoản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "利用者の管理とは",
+          "vi": "Quản lý người dùng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者の管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：利用者の管理を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Quản lý tài khoản và quyền truy cập của người sử dụng trong suốt vòng đời tài khoản. Ví dụ: Cấp quyền khi nhân viên vào làm, thu hồi ngay khi nghỉ việc."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Tuân thủ nguyên tắc đặc quyền tối thiểu và thu hồi quyền không còn cần thiết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "利用者の管理",
+          "english": "User Management",
+          "vi": "Quản lý người dùng",
+          "definitionJa": "利用者の管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Quản lý tài khoản và quyền truy cập của người sử dụng trong suốt vòng đời tài khoản.",
+          "reading": "りようしゃのかんり"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "user-management"]
+    },
+    {
+      "id": "aiops",
+      "order": 7,
+      "titleJa": "AIOps",
+      "titleVi": "Ứng dụng AI trong vận hành CNTT",
+      "importance": "high",
+      "summaryJa": "AIOpsとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Sử dụng AI và phân tích dữ liệu vận hành để phát hiện bất thường, liên hệ cảnh báo và hỗ trợ tự động hóa xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIOpsとは",
+          "vi": "Ứng dụng AI trong vận hành CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AIOpsとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：AIOpsを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Sử dụng AI và phân tích dữ liệu vận hành để phát hiện bất thường, liên hệ cảnh báo và hỗ trợ tự động hóa xử lý. Ví dụ: AI phân tích log và metric để cảnh báo dấu hiệu quá tải trước khi dịch vụ chậm."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: AIOps hỗ trợ vận hành; không bảo đảm tự động giải quyết mọi sự cố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIOps",
+          "english": "AIOps",
+          "vi": "Ứng dụng AI trong vận hành CNTT",
+          "definitionJa": "AIOpsとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Sử dụng AI và phân tích dữ liệu vận hành để phát hiện bất thường, liên hệ cảnh báo và hỗ trợ tự động hóa xử lý.",
+          "reading": "えーあいおぷす"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "aiops"]
+    },
+    {
+      "id": "it-operations",
+      "order": 8,
+      "titleJa": "運用オペレーション",
+      "titleVi": "Thao tác vận hành thường ngày",
+      "importance": "medium",
+      "summaryJa": "運用オペレーションとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Các thao tác thực tế theo quy trình vận hành như chạy job, giám sát và kiểm tra kết quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用オペレーションとは",
+          "vi": "Thao tác vận hành thường ngày là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "運用オペレーションとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：運用オペレーションを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Các thao tác thực tế theo quy trình vận hành như chạy job, giám sát và kiểm tra kết quả. Ví dụ: Nhân viên ca đêm xác nhận job sao lưu thành công và ghi nhật ký vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Phân biệt thao tác vận hành với hoạt động lập chính sách quản lý vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用オペレーション",
+          "english": "IT Operations",
+          "vi": "Thao tác vận hành thường ngày",
+          "definitionJa": "運用オペレーションとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Các thao tác thực tế theo quy trình vận hành như chạy job, giám sát và kiểm tra kết quả.",
+          "reading": "うんようおぺれーしょん"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "it-operations"]
+    },
+    {
+      "id": "schedule-design",
+      "order": 9,
+      "titleJa": "スケジュール設計",
+      "titleVi": "Thiết kế lịch vận hành",
+      "importance": "medium",
+      "summaryJa": "スケジュール設計とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Thiết kế thời điểm, thứ tự, điều kiện và thời lượng thực hiện các công việc vận hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スケジュール設計とは",
+          "vi": "Thiết kế lịch vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "スケジュール設計とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：スケジュール設計を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Thiết kế thời điểm, thứ tự, điều kiện và thời lượng thực hiện các công việc vận hành. Ví dụ: Sắp xếp job tổng hợp dữ liệu chạy sau khi job nhập dữ liệu hoàn thành."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Trong vận hành, cần xét quan hệ phụ thuộc và khung thời gian xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スケジュール設計",
+          "english": "Schedule Design",
+          "vi": "Thiết kế lịch vận hành",
+          "definitionJa": "スケジュール設計とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Thiết kế thời điểm, thứ tự, điều kiện và thời lượng thực hiện các công việc vận hành.",
+          "reading": "すけじゅーるせっけい"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "schedule-design"]
+    },
+    {
+      "id": "job-scheduling",
+      "order": 10,
+      "titleJa": "ジョブスケジューリング",
+      "titleVi": "Lập lịch thực thi job",
+      "importance": "high",
+      "summaryJa": "ジョブスケジューリングとは、ジョブの実行時刻や前後関係、実行条件を設定することを指す。",
+      "summaryVi": "Xác định khi nào và theo điều kiện nào từng job được thực thi, kể cả thứ tự phụ thuộc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ジョブスケジューリングとは",
+          "vi": "Lập lịch thực thi job là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ジョブスケジューリングとは、ジョブの実行時刻や前後関係、実行条件を設定することを指す。 例：集計ジョブをデータ取込み完了後に実行するよう設定する。",
+          "vi": "Xác định khi nào và theo điều kiện nào từng job được thực thi, kể cả thứ tự phụ thuộc. Ví dụ: Đặt job sao lưu chạy lúc 2 giờ sáng và chỉ chạy sau khi batch kết toán thành công."
+        },
+        {
+          "type": "point",
+          "ja": "実行時刻だけでなく、先行ジョブの完了などの実行条件も管理する。",
+          "vi": "Điểm cần nhớ: Lập lịch job không chỉ là chọn giờ; còn có điều kiện và quan hệ trước–sau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ジョブスケジューリング",
+          "english": "Job Scheduling",
+          "vi": "Lập lịch thực thi job",
+          "definitionJa": "ジョブスケジューリングとは、ジョブの実行時刻や前後関係、実行条件を設定することを指す。",
+          "definitionVi": "Xác định khi nào và theo điều kiện nào từng job được thực thi, kể cả thứ tự phụ thuộc.",
+          "reading": "じょぶすけじゅーりんぐ"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "job-scheduling"]
+    },
+    {
+      "id": "backup",
+      "order": 11,
+      "titleJa": "バックアップ",
+      "titleVi": "Sao lưu dữ liệu",
+      "importance": "high",
+      "summaryJa": "バックアップとは、障害や誤操作によるデータ損失に備えて複製を保存することを指す。",
+      "summaryVi": "Tạo và lưu bản sao dữ liệu hoặc cấu hình để có thể phục hồi khi xảy ra mất mát, hỏng hóc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バックアップとは",
+          "vi": "Sao lưu dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "バックアップとは、障害や誤操作によるデータ損失に備えて複製を保存することを指す。 例：データベースを定期的にバックアップし、復元可能か確認する。",
+          "vi": "Tạo và lưu bản sao dữ liệu hoặc cấu hình để có thể phục hồi khi xảy ra mất mát, hỏng hóc. Ví dụ: Sao lưu cơ sở dữ liệu định kỳ sang nơi lưu trữ tách biệt và thử khôi phục."
+        },
+        {
+          "type": "point",
+          "ja": "バックアップの取得だけでなく、復元試験も重要である。",
+          "vi": "Điểm cần nhớ: Sao lưu khác với khôi phục; phải kiểm tra bản sao có dùng để phục hồi được không."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バックアップ",
+          "english": "Backup",
+          "vi": "Sao lưu dữ liệu",
+          "definitionJa": "バックアップとは、障害や誤操作によるデータ損失に備えて複製を保存することを指す。",
+          "definitionVi": "Tạo và lưu bản sao dữ liệu hoặc cấu hình để có thể phục hồi khi xảy ra mất mát, hỏng hóc.",
+          "reading": "ばっくあっぷ"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "backup"]
+    },
+    {
+      "id": "system-monitoring-and-operation",
+      "order": 12,
+      "titleJa": "システムの監視と操作",
+      "titleVi": "Giám sát và thao tác hệ thống",
+      "importance": "medium",
+      "summaryJa": "システムの監視と操作とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Theo dõi trạng thái hệ thống và thực hiện thao tác cần thiết theo quy trình đã định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムの監視と操作とは",
+          "vi": "Giám sát và thao tác hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの監視と操作とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：システムの監視と操作を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Theo dõi trạng thái hệ thống và thực hiện thao tác cần thiết theo quy trình đã định. Ví dụ: Khi dung lượng đĩa vượt ngưỡng, xác minh cảnh báo và xử lý theo hướng dẫn."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Giám sát là phát hiện; thao tác là hành động xử lý sau khi đánh giá."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムの監視と操作",
+          "english": "System Monitoring and Operation",
+          "vi": "Giám sát và thao tác hệ thống",
+          "definitionJa": "システムの監視と操作とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Theo dõi trạng thái hệ thống và thực hiện thao tác cần thiết theo quy trình đã định.",
+          "reading": "しすてむのかんしとそうさ"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "system-monitoring-and-operation"
+      ]
+    },
+    {
+      "id": "output-management",
+      "order": 13,
+      "titleJa": "アウトプットの管理",
+      "titleVi": "Quản lý đầu ra xử lý",
+      "importance": "medium",
+      "summaryJa": "アウトプットの管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Quản lý kết quả đầu ra của job hoặc hệ thống: tệp, báo cáo, bản in và nơi phân phối.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アウトプットの管理とは",
+          "vi": "Quản lý đầu ra xử lý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "アウトプットの管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：アウトプットの管理を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Quản lý kết quả đầu ra của job hoặc hệ thống: tệp, báo cáo, bản in và nơi phân phối. Ví dụ: Kiểm tra báo cáo tháng đã tạo đủ và gửi đúng bộ phận, tránh lộ thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Kiểm soát tính đầy đủ, chính xác và quyền truy cập của đầu ra."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アウトプットの管理",
+          "english": "Output Management",
+          "vi": "Quản lý đầu ra xử lý",
+          "definitionJa": "アウトプットの管理とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Quản lý kết quả đầu ra của job hoặc hệ thống: tệp, báo cáo, bản in và nơi phân phối.",
+          "reading": "あうとぷっとのかんり"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "output-management"]
+    },
+    {
+      "id": "job-recovery-and-re-execution",
+      "order": 14,
+      "titleJa": "ジョブの復旧と再実行",
+      "titleVi": "Phục hồi và chạy lại job",
+      "importance": "high",
+      "summaryJa": "ジョブの復旧と再実行とは、異常終了したジョブを安全な状態に戻し、必要に応じて再実行することを指す。",
+      "summaryVi": "Khôi phục trạng thái xử lý khi job lỗi và chạy lại an toàn từ điểm phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ジョブの復旧と再実行とは",
+          "vi": "Phục hồi và chạy lại job là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ジョブの復旧と再実行とは、異常終了したジョブを安全な状態に戻し、必要に応じて再実行することを指す。 例：途中まで更新したデータを確認してからジョブを再実行する。",
+          "vi": "Khôi phục trạng thái xử lý khi job lỗi và chạy lại an toàn từ điểm phù hợp. Ví dụ: Job nhập hóa đơn lỗi giữa chừng: xác định bản ghi đã xử lý rồi mới chạy lại để tránh nhập trùng."
+        },
+        {
+          "type": "point",
+          "ja": "再実行の前に、処理済みデータの重複を防ぐ必要がある。",
+          "vi": "Điểm cần nhớ: Chạy lại mù quáng có thể gây xử lý trùng; cần xác định điểm khôi phục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ジョブの復旧と再実行",
+          "english": "Job Recovery and Re-execution",
+          "vi": "Phục hồi và chạy lại job",
+          "definitionJa": "ジョブの復旧と再実行とは、異常終了したジョブを安全な状態に戻し、必要に応じて再実行することを指す。",
+          "definitionVi": "Khôi phục trạng thái xử lý khi job lỗi và chạy lại an toàn từ điểm phù hợp.",
+          "reading": "じょぶのふっきゅうとさいじっこう"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "job-recovery-and-re-execution"
+      ]
+    },
+    {
+      "id": "operational-support-tool",
+      "order": 15,
+      "titleJa": "運用支援ツール",
+      "titleVi": "Công cụ hỗ trợ vận hành",
+      "importance": "medium",
+      "summaryJa": "運用支援ツールとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Phần mềm hỗ trợ giám sát, lập lịch, thu thập log, cảnh báo và chẩn đoán sự cố.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "運用支援ツールとは",
+          "vi": "Công cụ hỗ trợ vận hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "運用支援ツールとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：運用支援ツールを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Phần mềm hỗ trợ giám sát, lập lịch, thu thập log, cảnh báo và chẩn đoán sự cố. Ví dụ: Dùng công cụ giám sát để gửi cảnh báo khi máy chủ hết dung lượng đĩa."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Công cụ hỗ trợ quy trình, không thay thế trách nhiệm vận hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "運用支援ツール",
+          "english": "Operational Support Tool",
+          "vi": "Công cụ hỗ trợ vận hành",
+          "definitionJa": "運用支援ツールとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Phần mềm hỗ trợ giám sát, lập lịch, thu thập log, cảnh báo và chẩn đoán sự cố.",
+          "reading": "うんようしえんつーる"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "operational-support-tool"
+      ]
+    },
+    {
+      "id": "operational-manual",
+      "order": 16,
+      "titleJa": "業務運用マニュアル",
+      "titleVi": "Sổ tay quy trình vận hành nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "業務運用マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Tài liệu quy định quy trình, trách nhiệm và cách xử lý các tình huống trong vận hành nghiệp vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務運用マニュアルとは",
+          "vi": "Sổ tay quy trình vận hành nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務運用マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：業務運用マニュアルを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Tài liệu quy định quy trình, trách nhiệm và cách xử lý các tình huống trong vận hành nghiệp vụ. Ví dụ: Mô tả các bước kết toán cuối ngày, người phụ trách và cách xử lý khi sai số."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Quy trình phải rõ bước thực hiện, điều kiện và trách nhiệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務運用マニュアル",
+          "english": "Operational Manual",
+          "vi": "Sổ tay quy trình vận hành nghiệp vụ",
+          "definitionJa": "業務運用マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Tài liệu quy định quy trình, trách nhiệm và cách xử lý các tình huống trong vận hành nghiệp vụ.",
+          "reading": "ぎょうむうんようまにゅある"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "operational-manual"]
+    },
+    {
+      "id": "service-desk",
+      "order": 17,
+      "titleJa": "サービスデスク",
+      "titleVi": "Bộ phận hỗ trợ dịch vụ (service desk)",
+      "importance": "high",
+      "summaryJa": "サービスデスクとは、利用者からの問合せやインシデントを受け付け、対応や振分けを行う窓口を指す。",
+      "summaryVi": "Đầu mối tiếp nhận yêu cầu, báo cáo sự cố và hỗ trợ người dùng dịch vụ CNTT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスデスクとは",
+          "vi": "Bộ phận hỗ trợ dịch vụ (service desk) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスデスクとは、利用者からの問合せやインシデントを受け付け、対応や振分けを行う窓口を指す。 例：ログインできない利用者の問合せを受け付け、必要なら専門部署に引き継ぐ。",
+          "vi": "Đầu mối tiếp nhận yêu cầu, báo cáo sự cố và hỗ trợ người dùng dịch vụ CNTT. Ví dụ: Nhân viên báo không đăng nhập được; service desk tạo ticket và hỗ trợ hoặc chuyển tuyến."
+        },
+        {
+          "type": "point",
+          "ja": "サービスデスクは問合せを受け付け、解決又は適切な担当者への引継ぎを行う。",
+          "vi": "Điểm cần nhớ: Service desk là chức năng hỗ trợ rộng; không chỉ nhận cuộc gọi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスデスク",
+          "english": "Service Desk",
+          "vi": "Bộ phận hỗ trợ dịch vụ (service desk)",
+          "definitionJa": "サービスデスクとは、利用者からの問合せやインシデントを受け付け、対応や振分けを行う窓口を指す。",
+          "definitionVi": "Đầu mối tiếp nhận yêu cầu, báo cáo sự cố và hỗ trợ người dùng dịch vụ CNTT.",
+          "reading": "さーびすですく"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "service-desk"]
+    },
+    {
+      "id": "single-point-of-contact",
+      "order": 18,
+      "titleJa": "SPOC",
+      "titleVi": "Đầu mối liên hệ duy nhất",
+      "importance": "high",
+      "summaryJa": "SPOCとは、利用者が最初に連絡する窓口を一本化する考え方を指す。",
+      "summaryVi": "Một đầu mối thống nhất để người dùng liên hệ về yêu cầu và sự cố dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SPOCとは",
+          "vi": "Đầu mối liên hệ duy nhất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SPOCとは、利用者が最初に連絡する窓口を一本化する考え方を指す。 例：利用者はサービスデスクだけに連絡し、内部で担当部署に振り分ける。",
+          "vi": "Một đầu mối thống nhất để người dùng liên hệ về yêu cầu và sự cố dịch vụ. Ví dụ: Người dùng chỉ cần liên hệ service desk thay vì tìm từng nhóm kỹ thuật."
+        },
+        {
+          "type": "point",
+          "ja": "SPOCは問合せ窓口の一本化であり、すべてを一人で解決する意味ではない。",
+          "vi": "Điểm cần nhớ: SPOC là nguyên tắc một cửa liên hệ, không có nghĩa một người giải quyết mọi việc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SPOC",
+          "english": "Single Point of Contact",
+          "vi": "Đầu mối liên hệ duy nhất",
+          "definitionJa": "SPOCとは、利用者が最初に連絡する窓口を一本化する考え方を指す。",
+          "definitionVi": "Một đầu mối thống nhất để người dùng liên hệ về yêu cầu và sự cố dịch vụ.",
+          "reading": "えすぴーおーしー"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "single-point-of-contact"
+      ]
+    },
+    {
+      "id": "call-center",
+      "order": 19,
+      "titleJa": "コールセンター",
+      "titleVi": "Trung tâm tiếp nhận cuộc gọi",
+      "importance": "medium",
+      "summaryJa": "コールセンターとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Bộ phận chủ yếu xử lý liên hệ qua điện thoại, có thể kết hợp kênh hỗ trợ khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コールセンターとは",
+          "vi": "Trung tâm tiếp nhận cuộc gọi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コールセンターとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：コールセンターを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Bộ phận chủ yếu xử lý liên hệ qua điện thoại, có thể kết hợp kênh hỗ trợ khác. Ví dụ: Tổng đài tiếp nhận cuộc gọi hỏi về dịch vụ và chuyển đến bộ phận phụ trách."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Call center thiên về kênh điện thoại; service desk thiên về hỗ trợ dịch vụ CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コールセンター",
+          "english": "Call Center",
+          "vi": "Trung tâm tiếp nhận cuộc gọi",
+          "definitionJa": "コールセンターとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Bộ phận chủ yếu xử lý liên hệ qua điện thoại, có thể kết hợp kênh hỗ trợ khác.",
+          "reading": "こーるせんたー"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "call-center"]
+    },
+    {
+      "id": "computer-telephony-integration",
+      "order": 20,
+      "titleJa": "CTI",
+      "titleVi": "Tích hợp điện thoại với máy tính",
+      "importance": "high",
+      "summaryJa": "CTIとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Công nghệ liên kết hệ thống điện thoại với ứng dụng máy tính để hỗ trợ xử lý cuộc gọi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CTIとは",
+          "vi": "Tích hợp điện thoại với máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CTIとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：CTIを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Công nghệ liên kết hệ thống điện thoại với ứng dụng máy tính để hỗ trợ xử lý cuộc gọi. Ví dụ: Khi khách gọi, màn hình tự hiển thị hồ sơ khách hàng dựa trên số điện thoại."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: CTI là công nghệ tích hợp; không phải bản thân trung tâm cuộc gọi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CTI",
+          "english": "Computer Telephony Integration",
+          "vi": "Tích hợp điện thoại với máy tính",
+          "definitionJa": "CTIとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Công nghệ liên kết hệ thống điện thoại với ứng dụng máy tính để hỗ trợ xử lý cuộc gọi.",
+          "reading": "しーてぃーあい"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "computer-telephony-integration"
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "order": 21,
+      "titleJa": "FAQ",
+      "titleVi": "Bộ câu hỏi thường gặp",
+      "importance": "medium",
+      "summaryJa": "FAQとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Danh sách các câu hỏi phổ biến và câu trả lời chuẩn giúp người dùng tự tra cứu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FAQとは",
+          "vi": "Bộ câu hỏi thường gặp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "FAQとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：FAQを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Danh sách các câu hỏi phổ biến và câu trả lời chuẩn giúp người dùng tự tra cứu. Ví dụ: Trang hỗ trợ đăng hướng dẫn đặt lại mật khẩu và cách xử lý lỗi thông dụng."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: FAQ thường ở dạng hỏi–đáp; knowledge base có phạm vi tri thức rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FAQ",
+          "english": "Frequently Asked Questions",
+          "vi": "Bộ câu hỏi thường gặp",
+          "definitionJa": "FAQとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Danh sách các câu hỏi phổ biến và câu trả lời chuẩn giúp người dùng tự tra cứu.",
+          "reading": "えふえーきゅー"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-operation",
+        "frequently-asked-questions"
+      ]
+    },
+    {
+      "id": "response-manual",
+      "order": 22,
+      "titleJa": "応対マニュアル",
+      "titleVi": "Sổ tay hướng dẫn tiếp nhận và trả lời",
+      "importance": "medium",
+      "summaryJa": "応対マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Tài liệu hướng dẫn nhân viên cách giao tiếp, xác minh thông tin và xử lý yêu cầu người dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "応対マニュアルとは",
+          "vi": "Sổ tay hướng dẫn tiếp nhận và trả lời là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "応対マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：応対マニュアルを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Tài liệu hướng dẫn nhân viên cách giao tiếp, xác minh thông tin và xử lý yêu cầu người dùng. Ví dụ: Quy định lời chào, bước xác minh danh tính và cách thông báo khi chuyển tuyến."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Nhấn mạnh quy trình ứng xử và trả lời thống nhất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "応対マニュアル",
+          "english": "Response Manual",
+          "vi": "Sổ tay hướng dẫn tiếp nhận và trả lời",
+          "definitionJa": "応対マニュアルとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Tài liệu hướng dẫn nhân viên cách giao tiếp, xác minh thông tin và xử lý yêu cầu người dùng.",
+          "reading": "おうたいまにゅある"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "response-manual"]
+    },
+    {
+      "id": "knowledge-base",
+      "order": 23,
+      "titleJa": "知識ベース",
+      "titleVi": "Cơ sở tri thức",
+      "importance": "high",
+      "summaryJa": "知識ベースとは、FAQや障害対応手順などを検索可能な形で蓄積した情報基盤を指す。",
+      "summaryVi": "Kho thông tin có thể tìm kiếm, gồm hướng dẫn, lỗi đã biết, cách khắc phục và kinh nghiệm xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "知識ベースとは",
+          "vi": "Cơ sở tri thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "知識ベースとは、FAQや障害対応手順などを検索可能な形で蓄積した情報基盤を指す。 例：過去の障害と対処手順を検索し、問合せ対応に利用する。",
+          "vi": "Kho thông tin có thể tìm kiếm, gồm hướng dẫn, lỗi đã biết, cách khắc phục và kinh nghiệm xử lý. Ví dụ: Nhân viên tra cứu lỗi kết nối VPN và làm theo hướng dẫn đã được xác nhận."
+        },
+        {
+          "type": "point",
+          "ja": "知識ベースはFAQだけでなく、既知の誤りや対応履歴も含む。",
+          "vi": "Điểm cần nhớ: Cơ sở tri thức rộng hơn FAQ và cần cập nhật khi có cách giải quyết mới."
+        }
+      ],
+      "terms": [
+        {
+          "term": "知識ベース",
+          "english": "Knowledge Base",
+          "vi": "Cơ sở tri thức",
+          "definitionJa": "知識ベースとは、FAQや障害対応手順などを検索可能な形で蓄積した情報基盤を指す。",
+          "definitionVi": "Kho thông tin có thể tìm kiếm, gồm hướng dẫn, lỗi đã biết, cách khắc phục và kinh nghiệm xử lý.",
+          "reading": "ちしきべーす"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "knowledge-base"]
+    },
+    {
+      "id": "first-line-support",
+      "order": 24,
+      "titleJa": "一次サポート",
+      "titleVi": "Hỗ trợ tuyến một",
+      "importance": "high",
+      "summaryJa": "一次サポートとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Tuyến hỗ trợ đầu tiên tiếp nhận, phân loại và giải quyết những vấn đề thông thường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "一次サポートとは",
+          "vi": "Hỗ trợ tuyến một là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "一次サポートとは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：一次サポートを適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Tuyến hỗ trợ đầu tiên tiếp nhận, phân loại và giải quyết những vấn đề thông thường. Ví dụ: Hướng dẫn đặt lại mật khẩu; nếu lỗi máy chủ phức tạp thì chuyển tuyến hai."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: Tuyến một xử lý ban đầu và chuyển cấp khi vượt thẩm quyền hoặc năng lực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "一次サポート",
+          "english": "First Line Support",
+          "vi": "Hỗ trợ tuyến một",
+          "definitionJa": "一次サポートとは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Tuyến hỗ trợ đầu tiên tiếp nhận, phân loại và giải quyết những vấn đề thông thường.",
+          "reading": "いちじさぽーと"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "first-line-support"]
+    },
+    {
+      "id": "ai-utilization",
+      "order": 25,
+      "titleJa": "AIの活用",
+      "titleVi": "Ứng dụng AI trong hỗ trợ dịch vụ",
+      "importance": "medium",
+      "summaryJa": "AIの活用とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+      "summaryVi": "Sử dụng AI như chatbot để hỗ trợ trả lời, tìm tri thức và phân loại yêu cầu người dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIの活用とは",
+          "vi": "Ứng dụng AI trong hỗ trợ dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AIの活用とは、ITサービスの安定運用を支えるための管理・支援活動を指す。 例：AIの活用を適切に実施し、サービスの品質と運用の安定性を確保する。",
+          "vi": "Sử dụng AI như chatbot để hỗ trợ trả lời, tìm tri thức và phân loại yêu cầu người dùng. Ví dụ: Chatbot hướng dẫn cài VPN; nếu không xử lý được thì tạo ticket cho nhân viên."
+        },
+        {
+          "type": "point",
+          "ja": "目的、対象、実施手順を区別して理解する。",
+          "vi": "Điểm cần nhớ: AI hỗ trợ tăng tốc phục vụ; cần kiểm tra độ chính xác và chuyển người khi cần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIの活用",
+          "english": "AI Utilization",
+          "vi": "Ứng dụng AI trong hỗ trợ dịch vụ",
+          "definitionJa": "AIの活用とは、ITサービスの安定運用を支えるための管理・支援活動を指す。",
+          "definitionVi": "Sử dụng AI như chatbot để hỗ trợ trả lời, tìm tri thức và phân loại yêu cầu người dùng.",
+          "reading": "えーあいのかつよう"
+        }
+      ],
+      "tags": ["service-management", "service-operation", "ai-utilization"]
+    }
+  ]
 }

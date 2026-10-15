@@ -4,5 +4,732 @@
   "titleJa": "サービスマネジメント",
   "titleVi": "Quản lý dịch vụ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "service",
+      "order": 1,
+      "titleJa": "サービス",
+      "titleVi": "Dịch vụ",
+      "importance": "medium",
+      "summaryJa": "顧客が望む成果の実現を支援し、価値を提供する手段。",
+      "summaryVi": "Phương thức cung cấp giá trị bằng cách hỗ trợ khách hàng đạt kết quả mong muốn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスとは",
+          "vi": "Dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ITサービスでは、利用者が必要とする機能や支援を継続的に提供する。例：メールサービスでは、利用者はサーバの運用を自ら管理せずにメールを送受信できる。",
+          "vi": "Ví dụ: dịch vụ email cho phép người dùng gửi và nhận thư mà không cần tự vận hành máy chủ. Giá trị của dịch vụ nằm ở kết quả mà khách hàng nhận được, không chỉ ở phần mềm hay thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "サービスは製品そのものではなく、顧客に提供する価値に着目する。",
+          "vi": "Điểm cần nhớ: Phân biệt dịch vụ (giá trị/kết quả cung cấp) với sản phẩm hoặc thiết bị dùng để cung cấp dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス",
+          "english": "Service",
+          "vi": "Dịch vụ",
+          "definitionJa": "顧客が望む成果の実現を支援し、価値を提供する手段。",
+          "definitionVi": "Phương thức cung cấp giá trị bằng cách hỗ trợ khách hàng đạt kết quả mong muốn.",
+          "reading": "サービス"
+        }
+      ],
+      "tags": ["service-management", "service-management-basics", "service"]
+    },
+    {
+      "id": "service-component",
+      "order": 2,
+      "titleJa": "サービスコンポーネント",
+      "titleVi": "Thành phần dịch vụ",
+      "importance": "medium",
+      "summaryJa": "サービスを提供するために必要な構成要素。",
+      "summaryVi": "Thành phần cần thiết để cung cấp một dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスコンポーネントとは",
+          "vi": "Thành phần dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスコンポーネントには、アプリケーション、サーバ、ネットワーク、情報、人員、手順などが含まれる。ある構成要素の障害がサービス全体に影響する場合がある。",
+          "vi": "Dịch vụ đám mây có thể gồm máy chủ, mạng, ứng dụng, nhân sự vận hành và quy trình hỗ trợ. Một thành phần gặp lỗi có thể làm suy giảm chất lượng toàn dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "サービスと、それを構成する個々の要素を区別する。",
+          "vi": "Điểm cần nhớ: Dịch vụ là tổng thể cung cấp giá trị; service component là từng yếu tố tạo nên dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスコンポーネント",
+          "english": "Service Component",
+          "vi": "Thành phần dịch vụ",
+          "definitionJa": "サービスを提供するために必要な構成要素。",
+          "definitionVi": "Thành phần cần thiết để cung cấp một dịch vụ.",
+          "reading": "サービスコンポーネント"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-component"
+      ]
+    },
+    {
+      "id": "service-quality",
+      "order": 3,
+      "titleJa": "サービス品質",
+      "titleVi": "Chất lượng dịch vụ",
+      "importance": "medium",
+      "summaryJa": "サービスが定められた要求事項や顧客の期待を満たす程度。",
+      "summaryVi": "Mức độ dịch vụ đáp ứng yêu cầu đã xác định và kỳ vọng của khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービス品質とは",
+          "vi": "Chất lượng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービス品質は、可用性、応答時間、正確性、サポート対応などの観点から評価できる。測定結果や利用者の意見を用いて改善する。",
+          "vi": "Chất lượng dịch vụ được đánh giá qua độ sẵn sàng, tốc độ phản hồi, độ chính xác và hỗ trợ người dùng. Ví dụ, hệ thống chạy liên tục nhưng phản hồi rất chậm vẫn có thể bị đánh giá chất lượng thấp."
+        },
+        {
+          "type": "point",
+          "ja": "品質は単なる稼働率ではなく、複数の要求事項への適合で評価する。",
+          "vi": "Điểm cần nhớ: Không đồng nhất chất lượng dịch vụ với tỷ lệ hoạt động; phải xét nhiều chỉ tiêu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス品質",
+          "english": "Service Quality",
+          "vi": "Chất lượng dịch vụ",
+          "definitionJa": "サービスが定められた要求事項や顧客の期待を満たす程度。",
+          "definitionVi": "Mức độ dịch vụ đáp ứng yêu cầu đã xác định và kỳ vọng của khách hàng.",
+          "reading": "サービスひんしつ"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-quality"
+      ]
+    },
+    {
+      "id": "service-management",
+      "order": 4,
+      "titleJa": "サービスマネジメント",
+      "titleVi": "Quản lý dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスの価値を継続的に提供するための組織的な管理活動。",
+      "summaryVi": "Hoạt động quản lý có tổ chức nhằm liên tục cung cấp giá trị thông qua dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスマネジメントとは",
+          "vi": "Quản lý dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスの計画、設計、移行、提供、監視及び改善を組織的に行う。ITサービスマネジメントでは、障害対応や変更管理、サービスレベル管理などを扱う。",
+          "vi": "Quản lý dịch vụ bao gồm lập kế hoạch, thiết kế, chuyển giao, vận hành, giám sát và cải tiến. Ví dụ, bộ phận IT theo dõi sự cố, kiểm soát thay đổi và kiểm tra mức dịch vụ đã cam kết."
+        },
+        {
+          "type": "point",
+          "ja": "個別の障害対応だけでなく、サービス全体を継続的に管理する。",
+          "vi": "Điểm cần nhớ: Service management quản lý toàn bộ vòng đời và chất lượng dịch vụ, không chỉ xử lý sự cố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスマネジメント",
+          "english": "Service Management",
+          "vi": "Quản lý dịch vụ",
+          "definitionJa": "サービスの価値を継続的に提供するための組織的な管理活動。",
+          "definitionVi": "Hoạt động quản lý có tổ chức nhằm liên tục cung cấp giá trị thông qua dịch vụ.",
+          "reading": "サービスマネジメント"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-management"
+      ]
+    },
+    {
+      "id": "service-lifecycle",
+      "order": 5,
+      "titleJa": "サービスライフサイクル",
+      "titleVi": "Vòng đời dịch vụ",
+      "importance": "medium",
+      "summaryJa": "サービスの構想から終了までの一連の段階。",
+      "summaryVi": "Các giai đoạn từ hình thành đến kết thúc một dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスライフサイクルとは",
+          "vi": "Vòng đời dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスは計画・設計・移行・提供・改善などの活動を経て管理され、必要に応じて変更又は終了される。段階の名称や区分は採用する枠組みによって異なる。",
+          "vi": "Một dịch vụ có thể trải qua lập kế hoạch, thiết kế, triển khai chuyển giao, cung cấp, cải tiến và ngừng cung cấp. Các giai đoạn cụ thể phụ thuộc vào khung quản lý được sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "ライフサイクルの段階は管理の枠組みによって異なる。",
+          "vi": "Điểm cần nhớ: Không nhầm vòng đời dịch vụ với riêng giai đoạn vận hành; cách chia giai đoạn tùy mô hình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスライフサイクル",
+          "english": "Service Lifecycle",
+          "vi": "Vòng đời dịch vụ",
+          "definitionJa": "サービスの構想から終了までの一連の段階。",
+          "definitionVi": "Các giai đoạn từ hình thành đến kết thúc một dịch vụ.",
+          "reading": "サービスライフサイクル"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-lifecycle"
+      ]
+    },
+    {
+      "id": "service-management-system-sms",
+      "order": 6,
+      "titleJa": "サービスマネジメントシステム",
+      "titleVi": "Hệ thống quản lý dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスマネジメントを方針、目標、プロセスなどで体系的に運営する仕組み。",
+      "summaryVi": "Hệ thống quản lý gồm chính sách, mục tiêu, quy trình và nguồn lực để quản lý dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスマネジメントシステムとは",
+          "vi": "Hệ thống quản lý dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SMSは組織の方針、役割、プロセス、資源、評価及び継続的改善を含む管理の枠組みであり、単一のITツールを意味しない。",
+          "vi": "SMS bao gồm chính sách, trách nhiệm, quy trình, nguồn lực, đánh giá hiệu quả và cải tiến liên tục. Phần mềm quản lý ticket có thể hỗ trợ SMS nhưng không phải toàn bộ SMS."
+        },
+        {
+          "type": "point",
+          "ja": "SMSは管理の仕組みであり、管理ソフトウェアだけを指さない。",
+          "vi": "Điểm cần nhớ: SMS là hệ thống quản lý tổng thể, không đồng nghĩa với một ứng dụng help desk."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスマネジメントシステム",
+          "english": "Service Management System (SMS)",
+          "vi": "Hệ thống quản lý dịch vụ",
+          "definitionJa": "サービスマネジメントを方針、目標、プロセスなどで体系的に運営する仕組み。",
+          "definitionVi": "Hệ thống quản lý gồm chính sách, mục tiêu, quy trình và nguồn lực để quản lý dịch vụ.",
+          "reading": "サービスマネジメントシステム"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-management-system-sms"
+      ]
+    },
+    {
+      "id": "service-requirements",
+      "order": 7,
+      "titleJa": "サービスの要求事項",
+      "titleVi": "Yêu cầu đối với dịch vụ",
+      "importance": "medium",
+      "summaryJa": "サービスが満たすべき条件や能力を定めた要求。",
+      "summaryVi": "Các điều kiện và năng lực mà dịch vụ phải đáp ứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスの要求事項とは",
+          "vi": "Yêu cầu đối với dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客や関係者のニーズを基に、可用性、処理性能、情報セキュリティ、サポート時間などを明確にする。要求事項は合意、評価、見直しの基礎となる。",
+          "vi": "Ví dụ: hệ thống phải đạt độ sẵn sàng 99,9%, thời gian phản hồi dưới 2 giây và hỗ trợ từ 9:00 đến 18:00. Yêu cầu rõ ràng giúp thiết kế và kiểm tra dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "要求事項は測定・検証できるよう具体化する。",
+          "vi": "Điểm cần nhớ: Nên mô tả yêu cầu có thể kiểm chứng, thay vì chỉ ghi “dịch vụ phải nhanh”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスの要求事項",
+          "english": "Service Requirements",
+          "vi": "Yêu cầu đối với dịch vụ",
+          "definitionJa": "サービスが満たすべき条件や能力を定めた要求。",
+          "definitionVi": "Các điều kiện và năng lực mà dịch vụ phải đáp ứng.",
+          "reading": "サービスのようきゅうじこう"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-requirements"
+      ]
+    },
+    {
+      "id": "customer",
+      "order": 8,
+      "titleJa": "顧客",
+      "titleVi": "Khách hàng",
+      "importance": "medium",
+      "summaryJa": "サービスの要求事項を定義し、サービスの成果に対する責任を持つ組織又は個人。",
+      "summaryVi": "Cá nhân hoặc tổ chức xác định yêu cầu dịch vụ và chịu trách nhiệm về kết quả sử dụng dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "顧客とは",
+          "vi": "Khách hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ITサービスでは、顧客がサービス内容や水準について提供者と合意する。顧客と実際にサービスを利用する利用者（ユーザー）は同一とは限らない。",
+          "vi": "Ví dụ: phòng nhân sự ký thỏa thuận sử dụng hệ thống chấm công là khách hàng nội bộ, còn nhân viên thao tác hằng ngày là người dùng. Hai vai trò có thể khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "顧客（Customer）と利用者（User）は必ずしも同じではない。",
+          "vi": "Điểm cần nhớ: Phân biệt customer (quyết định yêu cầu/thoả thuận) với user (trực tiếp sử dụng)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "顧客",
+          "english": "Customer",
+          "vi": "Khách hàng",
+          "definitionJa": "サービスの要求事項を定義し、サービスの成果に対する責任を持つ組織又は個人。",
+          "definitionVi": "Cá nhân hoặc tổ chức xác định yêu cầu dịch vụ và chịu trách nhiệm về kết quả sử dụng dịch vụ.",
+          "reading": "こきゃく"
+        }
+      ],
+      "tags": ["service-management", "service-management-basics", "customer"]
+    },
+    {
+      "id": "service-provider",
+      "order": 9,
+      "titleJa": "サービス提供者",
+      "titleVi": "Nhà cung cấp dịch vụ",
+      "importance": "medium",
+      "summaryJa": "顧客にサービスを提供し、その提供を管理する組織。",
+      "summaryVi": "Tổ chức cung cấp và quản lý việc cung cấp dịch vụ cho khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービス提供者とは",
+          "vi": "Nhà cung cấp dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービス提供者はサービスの設計、提供、サポート、監視などを担う。外部企業だけでなく、社内IT部門が社内部門にサービスを提供する場合も含まれる。",
+          "vi": "Nhà cung cấp có thể là công ty cloud bên ngoài hoặc bộ phận IT nội bộ. Họ chịu trách nhiệm tổ chức cung cấp dịch vụ theo yêu cầu và thỏa thuận đã xác lập."
+        },
+        {
+          "type": "point",
+          "ja": "サービス提供者は外部委託先に限らない。",
+          "vi": "Điểm cần nhớ: Nhà cung cấp dịch vụ có thể là bộ phận nội bộ, không nhất thiết là doanh nghiệp bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス提供者",
+          "english": "Service Provider",
+          "vi": "Nhà cung cấp dịch vụ",
+          "definitionJa": "顧客にサービスを提供し、その提供を管理する組織。",
+          "definitionVi": "Tổ chức cung cấp và quản lý việc cung cấp dịch vụ cho khách hàng.",
+          "reading": "サービスていきょうしゃ"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-provider"
+      ]
+    },
+    {
+      "id": "jis-q-20000-series",
+      "order": 10,
+      "titleJa": "JIS Q 20000規格群",
+      "titleVi": "Bộ tiêu chuẩn JIS Q 20000",
+      "importance": "high",
+      "summaryJa": "ITサービスマネジメントに関する日本産業規格の規格群。",
+      "summaryVi": "Bộ tiêu chuẩn công nghiệp Nhật Bản về quản lý dịch vụ CNTT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 20000規格群とは",
+          "vi": "Bộ tiêu chuẩn JIS Q 20000 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "JIS Q 20000規格群はISO/IEC 20000規格群に対応し、サービスマネジメントシステムの要求事項や関連する指針を扱う。認証の対象となる要求事項は主にJIS Q 20000-1に定められる。",
+          "vi": "JIS Q 20000 tương ứng với bộ ISO/IEC 20000. Phần 1 quy định yêu cầu đối với hệ thống quản lý dịch vụ và có thể được dùng làm cơ sở đánh giá chứng nhận."
+        },
+        {
+          "type": "point",
+          "ja": "規格群全体と、要求事項を定める第1部を区別する。",
+          "vi": "Điểm cần nhớ: Phân biệt cả bộ JIS Q 20000 với JIS Q 20000-1 (yêu cầu SMS)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 20000規格群",
+          "english": "JIS Q 20000 Series",
+          "vi": "Bộ tiêu chuẩn JIS Q 20000",
+          "definitionJa": "ITサービスマネジメントに関する日本産業規格の規格群。",
+          "definitionVi": "Bộ tiêu chuẩn công nghiệp Nhật Bản về quản lý dịch vụ CNTT.",
+          "reading": "ジスキューにまんきかくぐん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "jis-q-20000-series"
+      ]
+    },
+    {
+      "id": "service-level-agreement",
+      "order": 11,
+      "titleJa": "SLA",
+      "titleVi": "Thỏa thuận mức dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービス提供者と顧客の間で合意したサービス及びサービスレベルを文書化したもの。",
+      "summaryVi": "Thỏa thuận bằng văn bản giữa nhà cung cấp và khách hàng về dịch vụ và mức dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SLAとは",
+          "vi": "Thỏa thuận mức dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SLAには、サービスの対象、提供時間、可用性目標、対応条件などを記載する。例えば「月間可用性99.9%以上」などの水準を合意する。",
+          "vi": "Ví dụ: SLA quy định dịch vụ hoạt động 24/7, độ sẵn sàng tối thiểu 99,9% mỗi tháng và thời gian hỗ trợ. SLA là thỏa thuận; các mục tiêu và chỉ số được quy định trong đó cần được theo dõi riêng."
+        },
+        {
+          "type": "point",
+          "ja": "SLAは合意文書、SLOは目標値、SLIは測定指標。",
+          "vi": "Điểm cần nhớ: SLA = thỏa thuận; SLO = mục tiêu; SLI = chỉ số đo lường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLA",
+          "english": "Service Level Agreement",
+          "vi": "Thỏa thuận mức dịch vụ",
+          "definitionJa": "サービス提供者と顧客の間で合意したサービス及びサービスレベルを文書化したもの。",
+          "definitionVi": "Thỏa thuận bằng văn bản giữa nhà cung cấp và khách hàng về dịch vụ và mức dịch vụ.",
+          "reading": "エスエルエー"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "id": "service-level-objective",
+      "order": 12,
+      "titleJa": "SLO",
+      "titleVi": "Mục tiêu mức dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスレベルについて達成を目指す具体的な目標値。",
+      "summaryVi": "Giá trị mục tiêu cụ thể cần đạt đối với mức dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SLOとは",
+          "vi": "Mục tiêu mức dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SLOはSLIを用いて評価できる形で設定する。例：「1か月間のリクエスト成功率を99.9%以上とする」。SLOはSLAに含まれる場合も、内部目標として定める場合もある。",
+          "vi": "Ví dụ: mục tiêu tỷ lệ yêu cầu xử lý thành công trong tháng đạt ít nhất 99,9%. SLO có thể nằm trong SLA hoặc được đặt làm mục tiêu vận hành nội bộ."
+        },
+        {
+          "type": "point",
+          "ja": "SLOは達成したい目標であり、実測値そのものではない。",
+          "vi": "Điểm cần nhớ: SLO là mục tiêu, không phải giá trị đo được trên thực tế."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLO",
+          "english": "Service Level Objective",
+          "vi": "Mục tiêu mức dịch vụ",
+          "definitionJa": "サービスレベルについて達成を目指す具体的な目標値。",
+          "definitionVi": "Giá trị mục tiêu cụ thể cần đạt đối với mức dịch vụ.",
+          "reading": "エスエルオー"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-level-objective"
+      ]
+    },
+    {
+      "id": "service-level-indicator",
+      "order": 13,
+      "titleJa": "SLI",
+      "titleVi": "Chỉ số mức dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスレベルを定量的に測定するための指標。",
+      "summaryVi": "Chỉ số định lượng dùng để đo mức dịch vụ thực tế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SLIとは",
+          "vi": "Chỉ số mức dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SLIには可用性、応答時間、成功率などがある。例えば「成功したリクエスト数÷総リクエスト数」で成功率を算出し、SLOとの達成状況を比較する。",
+          "vi": "Ví dụ: tỷ lệ yêu cầu thành công = số yêu cầu thành công / tổng số yêu cầu. Đây là SLI; so sánh giá trị đo được với SLO 99,9% để biết dịch vụ có đạt mục tiêu không."
+        },
+        {
+          "type": "point",
+          "ja": "SLIは測定方法・指標、SLOはその目標値。",
+          "vi": "Điểm cần nhớ: SLI trả lời “đo cái gì và như thế nào”, SLO trả lời “cần đạt bao nhiêu”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLI",
+          "english": "Service Level Indicator",
+          "vi": "Chỉ số mức dịch vụ",
+          "definitionJa": "サービスレベルを定量的に測定するための指標。",
+          "definitionVi": "Chỉ số định lượng dùng để đo mức dịch vụ thực tế.",
+          "reading": "エスエルアイ"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-level-indicator"
+      ]
+    },
+    {
+      "id": "service-availability",
+      "order": 14,
+      "titleJa": "サービス可用性",
+      "titleVi": "Độ sẵn sàng của dịch vụ",
+      "importance": "high",
+      "summaryJa": "合意された条件下で、必要なときにサービスを利用できる能力。",
+      "summaryVi": "Khả năng dịch vụ sẵn sàng sử dụng khi cần trong các điều kiện đã thỏa thuận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービス可用性とは",
+          "vi": "Độ sẵn sàng của dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "可用性は対象となるサービス時間と停止時間の定義に基づいて評価する。例：対象時間が720時間で停止が1時間なら、可用性は(720-1)÷720×100≒99.86%となる。",
+          "vi": "Ví dụ: tháng có 720 giờ thuộc phạm vi đo và ngừng dịch vụ 1 giờ thì độ sẵn sàng ≈ 99,86%. Cần xác định rõ thời gian bảo trì có tính vào thời gian ngừng hay không theo thỏa thuận."
+        },
+        {
+          "type": "point",
+          "ja": "可用性は利用可能な程度であり、故障しにくさを表す信頼性とは異なる。",
+          "vi": "Điểm cần nhớ: Availability nói về khả năng sử dụng; reliability nói về khả năng hoạt động đúng liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス可用性",
+          "english": "Service Availability",
+          "vi": "Độ sẵn sàng của dịch vụ",
+          "definitionJa": "合意された条件下で、必要なときにサービスを利用できる能力。",
+          "definitionVi": "Khả năng dịch vụ sẵn sàng sử dụng khi cần trong các điều kiện đã thỏa thuận.",
+          "reading": "サービスかようせい"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-availability"
+      ]
+    },
+    {
+      "id": "reliability",
+      "order": 15,
+      "titleJa": "信頼性",
+      "titleVi": "Độ tin cậy",
+      "importance": "high",
+      "summaryJa": "定められた条件と期間において、要求された機能を故障せずに果たす能力。",
+      "summaryVi": "Khả năng thực hiện đúng chức năng mà không hỏng trong điều kiện và khoảng thời gian xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "信頼性とは",
+          "vi": "Độ tin cậy là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "信頼性は故障の起こりにくさに着目する。可用性は故障後の復旧時間にも左右されるため、信頼性が高いことと可用性が高いことは同義ではない。",
+          "vi": "Một hệ thống ít hỏng có độ tin cậy cao. Hệ thống có thể hỏng tương đối thường xuyên nhưng phục hồi rất nhanh nên vẫn có độ sẵn sàng cao; hai chỉ tiêu không giống nhau."
+        },
+        {
+          "type": "point",
+          "ja": "信頼性は故障の起こりにくさ、可用性は利用できる状態の割合に着目する。",
+          "vi": "Điểm cần nhớ: Reliability: ít hỏng; availability: sẵn sàng dùng, còn phụ thuộc tốc độ phục hồi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "信頼性",
+          "english": "Reliability",
+          "vi": "Độ tin cậy",
+          "definitionJa": "定められた条件と期間において、要求された機能を故障せずに果たす能力。",
+          "definitionVi": "Khả năng thực hiện đúng chức năng mà không hỏng trong điều kiện và khoảng thời gian xác định.",
+          "reading": "しんらいせい"
+        }
+      ],
+      "tags": ["service-management", "service-management-basics", "reliability"]
+    },
+    {
+      "id": "service-hours",
+      "order": 16,
+      "titleJa": "サービス時間",
+      "titleVi": "Thời gian cung cấp dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスを提供することが合意されている時間帯又は期間。",
+      "summaryVi": "Khung giờ hoặc khoảng thời gian đã thỏa thuận để cung cấp dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービス時間とは",
+          "vi": "Thời gian cung cấp dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービス時間は「平日9時～18時」や「24時間365日」などと定める。実際に正常稼働した時間（稼働時間）とは異なり、可用性の評価対象期間を決める基礎となる。",
+          "vi": "Ví dụ: dịch vụ hỗ trợ khách hàng từ 9:00 đến 18:00 ngày làm việc; đây là service hours. Nếu hệ thống ngừng 30 phút trong khung giờ này, đó là thời gian gián đoạn, không phải cách định nghĩa service hours."
+        },
+        {
+          "type": "point",
+          "ja": "サービス時間（提供予定時間）と稼働時間（実際の稼働）を混同しない。",
+          "vi": "Điểm cần nhớ: Dễ nhầm: service hours là thời gian cam kết cung cấp; uptime là thời gian thực tế hoạt động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス時間",
+          "english": "Service Hours",
+          "vi": "Thời gian cung cấp dịch vụ",
+          "definitionJa": "サービスを提供することが合意されている時間帯又は期間。",
+          "definitionVi": "Khung giờ hoặc khoảng thời gian đã thỏa thuận để cung cấp dịch vụ.",
+          "reading": "サービスじかん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "service-hours"
+      ]
+    },
+    {
+      "id": "response-time",
+      "order": 17,
+      "titleJa": "応答時間",
+      "titleVi": "Thời gian đáp ứng",
+      "importance": "medium",
+      "summaryJa": "要求を送ってから応答が返るまでに要する時間。",
+      "summaryVi": "Khoảng thời gian từ khi gửi yêu cầu đến khi nhận được phản hồi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "応答時間とは",
+          "vi": "Thời gian đáp ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "応答時間はサービス品質の性能指標として使われる。例えば、Web APIへのリクエストからレスポンスを受信するまでの時間を測定し、SLOと比較する。",
+          "vi": "Ví dụ: một API nhận yêu cầu lúc 10:00:00,000 và trả phản hồi lúc 10:00:00,250 thì response time là 250 ms. Cần xác định rõ điểm bắt đầu/kết thúc phép đo."
+        },
+        {
+          "type": "point",
+          "ja": "応答時間と、処理件数を示すスループットを区別する。",
+          "vi": "Điểm cần nhớ: Response time đo độ trễ mỗi yêu cầu; throughput đo số yêu cầu xử lý trong một đơn vị thời gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "応答時間",
+          "english": "Response Time",
+          "vi": "Thời gian đáp ứng",
+          "definitionJa": "要求を送ってから応答が返るまでに要する時間。",
+          "definitionVi": "Khoảng thời gian từ khi gửi yêu cầu đến khi nhận được phản hồi.",
+          "reading": "おうとうじかん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "response-time"
+      ]
+    },
+    {
+      "id": "performance-of-services-and-the-service-management-system",
+      "order": 18,
+      "titleJa": "サービス及びサービスマネジメントシステムのパフォーマンス",
+      "titleVi": "Hiệu quả hoạt động của dịch vụ và hệ thống quản lý dịch vụ",
+      "importance": "medium",
+      "summaryJa": "サービスの成果と、サービスマネジメントシステムの有効性を評価した結果。",
+      "summaryVi": "Kết quả đánh giá hoạt động dịch vụ và hiệu lực của hệ thống quản lý dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービス及びサービスマネジメントシステムのパフォーマンスとは",
+          "vi": "Hiệu quả hoạt động của dịch vụ và hệ thống quản lý dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスのパフォーマンスは可用性や応答時間などで評価し、SMSのパフォーマンスは目標達成、プロセスの有効性、改善の実施状況なども含めて評価する。",
+          "vi": "Ví dụ: dịch vụ đạt tỷ lệ sẵn sàng 99,95% nhưng quy trình xử lý sự cố không tuân thủ thời hạn; khi đó kết quả dịch vụ tốt không đồng nghĩa SMS vận hành hiệu quả. Cần đánh giá cả hai."
+        },
+        {
+          "type": "point",
+          "ja": "サービス自体の成果と、管理の仕組みの有効性を分けて確認する。",
+          "vi": "Điểm cần nhớ: Phân biệt performance của dịch vụ với performance của hệ thống quản lý dịch vụ (SMS)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービス及びサービスマネジメントシステムのパフォーマンス",
+          "english": "Performance of Services and the Service Management System",
+          "vi": "Hiệu quả hoạt động của dịch vụ và hệ thống quản lý dịch vụ",
+          "definitionJa": "サービスの成果と、サービスマネジメントシステムの有効性を評価した結果。",
+          "definitionVi": "Kết quả đánh giá hoạt động dịch vụ và hiệu lực của hệ thống quản lý dịch vụ.",
+          "reading": "サービスおよびサービスマネジメントシステムのパフォーマンス"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "service-management-basics",
+        "performance-of-services-and-the-service-management-system"
+      ]
+    }
+  ]
 }

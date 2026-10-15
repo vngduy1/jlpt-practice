@@ -4,5 +4,457 @@
   "titleJa": "パフォーマンス評価及び改善",
   "titleVi": "Đánh giá và cải tiến hiệu suất",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "service-reporting",
+      "order": 1,
+      "titleJa": "サービスの報告",
+      "titleVi": "Báo cáo dịch vụ",
+      "importance": "high",
+      "summaryJa": "サービスの実績を測定し、合意した内容に従って関係者に報告する活動。",
+      "summaryVi": "Hoạt động đo lường kết quả cung cấp dịch vụ và báo cáo cho các bên liên quan theo nội dung đã thống nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サービスの報告とは",
+          "vi": "Báo cáo dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスの実績を測定し、合意した内容に従って関係者に報告する活動。 例：月次のサービス報告では、稼働率、障害件数、SLA達成状況などを示す。",
+          "vi": "Hoạt động đo lường kết quả cung cấp dịch vụ và báo cáo cho các bên liên quan theo nội dung đã thống nhất. Ví dụ: Báo cáo dịch vụ hằng tháng có thể trình bày tỷ lệ sẵn sàng, số sự cố và mức độ đáp ứng SLA."
+        },
+        {
+          "type": "point",
+          "ja": "サービスの報告は単なる作業記録ではなく、評価と改善の判断材料になる。",
+          "vi": "Điểm cần nhớ: Báo cáo dịch vụ không chỉ là nhật ký công việc; đây còn là căn cứ đánh giá và cải tiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サービスの報告",
+          "english": "Service Reporting",
+          "vi": "Báo cáo dịch vụ",
+          "definitionJa": "サービスの実績を測定し、合意した内容に従って関係者に報告する活動。",
+          "definitionVi": "Hoạt động đo lường kết quả cung cấp dịch vụ và báo cáo cho các bên liên quan theo nội dung đã thống nhất.",
+          "reading": "さーびすのほうこく"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "service-reporting"
+      ]
+    },
+    {
+      "id": "performance",
+      "order": 2,
+      "titleJa": "パフォーマンス",
+      "titleVi": "Kết quả thực hiện / hiệu suất hoạt động",
+      "importance": "high",
+      "summaryJa": "サービスやマネジメント活動によって得られた測定可能な結果。",
+      "summaryVi": "Kết quả có thể đo lường của dịch vụ hoặc hoạt động quản lý; tùy ngữ cảnh có thể thể hiện qua tốc độ, chất lượng và mức đạt mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パフォーマンスとは",
+          "vi": "Kết quả thực hiện / hiệu suất hoạt động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サービスやマネジメント活動によって得られた測定可能な結果。 例：応答時間、可用性、問い合わせの解決率などを測定してパフォーマンスを評価する。",
+          "vi": "Kết quả có thể đo lường của dịch vụ hoặc hoạt động quản lý; tùy ngữ cảnh có thể thể hiện qua tốc độ, chất lượng và mức đạt mục tiêu. Ví dụ: Đánh giá kết quả hoạt động thông qua thời gian phản hồi, tỷ lệ sẵn sàng và tỷ lệ giải quyết yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "パフォーマンスは処理速度だけを意味しない。",
+          "vi": "Điểm cần nhớ: Trong quản lý dịch vụ, performance không chỉ có nghĩa là tốc độ xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パフォーマンス",
+          "english": "Performance",
+          "vi": "Kết quả thực hiện / hiệu suất hoạt động",
+          "definitionJa": "サービスやマネジメント活動によって得られた測定可能な結果。",
+          "definitionVi": "Kết quả có thể đo lường của dịch vụ hoặc hoạt động quản lý; tùy ngữ cảnh có thể thể hiện qua tốc độ, chất lượng và mức đạt mục tiêu.",
+          "reading": "パフォーマンス"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "performance"
+      ]
+    },
+    {
+      "id": "effectiveness",
+      "order": 3,
+      "titleJa": "有効性",
+      "titleVi": "Tính hiệu lực / mức độ đạt mục tiêu",
+      "importance": "high",
+      "summaryJa": "計画した活動を実行し、計画した結果を達成できた程度。",
+      "summaryVi": "Mức độ thực hiện được các hoạt động đã hoạch định và đạt được kết quả dự kiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "有効性とは",
+          "vi": "Tính hiệu lực / mức độ đạt mục tiêu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "計画した活動を実行し、計画した結果を達成できた程度。 例：障害件数を半減させる目標を達成したかどうかで、改善策の有効性を評価する。",
+          "vi": "Mức độ thực hiện được các hoạt động đã hoạch định và đạt được kết quả dự kiến. Ví dụ: Nếu mục tiêu là giảm một nửa số sự cố, tính hiệu lực được đánh giá bằng việc mục tiêu đó có đạt hay không."
+        },
+        {
+          "type": "point",
+          "ja": "有効性は「目標を達成したか」、効率性は「資源を無駄なく使ったか」。",
+          "vi": "Điểm cần nhớ: Effectiveness hỏi “có đạt mục tiêu không?”, còn efficiency hỏi “có sử dụng nguồn lực hiệu quả không?”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "有効性",
+          "english": "Effectiveness",
+          "vi": "Tính hiệu lực / mức độ đạt mục tiêu",
+          "definitionJa": "計画した活動を実行し、計画した結果を達成できた程度。",
+          "definitionVi": "Mức độ thực hiện được các hoạt động đã hoạch định và đạt được kết quả dự kiến.",
+          "reading": "ゆうこうせい"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "effectiveness"
+      ]
+    },
+    {
+      "id": "trend-information",
+      "order": 4,
+      "titleJa": "傾向情報",
+      "titleVi": "Thông tin xu hướng",
+      "importance": "medium",
+      "summaryJa": "時間の経過に伴う測定結果の変化や規則性を示す情報。",
+      "summaryVi": "Thông tin cho thấy sự thay đổi hoặc quy luật của các chỉ số theo thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "傾向情報とは",
+          "vi": "Thông tin xu hướng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "時間の経過に伴う測定結果の変化や規則性を示す情報。 例：直近6か月の障害件数が増加傾向にあることを報告する。",
+          "vi": "Thông tin cho thấy sự thay đổi hoặc quy luật của các chỉ số theo thời gian. Ví dụ: Báo cáo cho thấy số sự cố tăng dần trong sáu tháng gần đây."
+        },
+        {
+          "type": "point",
+          "ja": "単月の値だけでなく、時系列で変化を見る。",
+          "vi": "Điểm cần nhớ: Cần nhìn chuỗi số liệu theo thời gian, không chỉ một giá trị của một tháng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "傾向情報",
+          "english": "Trend Information",
+          "vi": "Thông tin xu hướng",
+          "definitionJa": "時間の経過に伴う測定結果の変化や規則性を示す情報。",
+          "definitionVi": "Thông tin cho thấy sự thay đổi hoặc quy luật của các chỉ số theo thời gian.",
+          "reading": "けいこうじょうほう"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "trend-information"
+      ]
+    },
+    {
+      "id": "nonconformity",
+      "order": 5,
+      "titleJa": "不適合",
+      "titleVi": "Sự không phù hợp",
+      "importance": "high",
+      "summaryJa": "要求事項を満たしていない状態。",
+      "summaryVi": "Tình trạng không đáp ứng một hoặc nhiều yêu cầu đã được quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不適合とは",
+          "vi": "Sự không phù hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "要求事項を満たしていない状態。 例：SLAで定めた復旧時間を超過した場合、要求事項に対する不適合として扱うことがある。",
+          "vi": "Tình trạng không đáp ứng một hoặc nhiều yêu cầu đã được quy định. Ví dụ: Nếu thời gian khôi phục vượt giới hạn quy định trong SLA, tình trạng đó có thể được ghi nhận là sự không phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "不適合の修正と、原因を除去する是正処置は区別する。",
+          "vi": "Điểm cần nhớ: Phân biệt khắc phục tình trạng không phù hợp với hành động khắc phục nguyên nhân để ngăn tái diễn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不適合",
+          "english": "Nonconformity",
+          "vi": "Sự không phù hợp",
+          "definitionJa": "要求事項を満たしていない状態。",
+          "definitionVi": "Tình trạng không đáp ứng một hoặc nhiều yêu cầu đã được quy định.",
+          "reading": "ふてきごう"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "nonconformity"
+      ]
+    },
+    {
+      "id": "corrective-action",
+      "order": 6,
+      "titleJa": "是正処置",
+      "titleVi": "Hành động khắc phục nguyên nhân",
+      "importance": "high",
+      "summaryJa": "不適合の原因を除去し、再発を防止するための処置。",
+      "summaryVi": "Hành động loại bỏ nguyên nhân của sự không phù hợp nhằm ngăn sự việc tái diễn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "是正処置とは",
+          "vi": "Hành động khắc phục nguyên nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "不適合の原因を除去し、再発を防止するための処置。 例：設定ミスによる障害の後、設定確認手順を見直し、自動検証を導入する。",
+          "vi": "Hành động loại bỏ nguyên nhân của sự không phù hợp nhằm ngăn sự việc tái diễn. Ví dụ: Sau sự cố do cấu hình sai, tổ chức sửa quy trình kiểm tra cấu hình và bổ sung kiểm tra tự động."
+        },
+        {
+          "type": "point",
+          "ja": "修正（現象を直す）と是正処置（原因を除く）は異なる。",
+          "vi": "Điểm cần nhớ: Sửa lỗi hiện tại (correction) khác với hành động loại bỏ nguyên nhân để ngăn tái diễn (corrective action)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "是正処置",
+          "english": "Corrective Action",
+          "vi": "Hành động khắc phục nguyên nhân",
+          "definitionJa": "不適合の原因を除去し、再発を防止するための処置。",
+          "definitionVi": "Hành động loại bỏ nguyên nhân của sự không phù hợp nhằm ngăn sự việc tái diễn.",
+          "reading": "ぜせいしょち"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "corrective-action"
+      ]
+    },
+    {
+      "id": "continual-improvement",
+      "order": 7,
+      "titleJa": "継続的改善",
+      "titleVi": "Cải tiến liên tục",
+      "importance": "high",
+      "summaryJa": "要求事項を満たす能力やサービスのパフォーマンスを繰り返し向上させる活動。",
+      "summaryVi": "Hoạt động lặp lại nhằm nâng cao năng lực đáp ứng yêu cầu và cải thiện kết quả cung cấp dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "継続的改善とは",
+          "vi": "Cải tiến liên tục là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "要求事項を満たす能力やサービスのパフォーマンスを繰り返し向上させる活動。 例：毎月の障害分析に基づいて監視ルールや運用手順を改善する。",
+          "vi": "Hoạt động lặp lại nhằm nâng cao năng lực đáp ứng yêu cầu và cải thiện kết quả cung cấp dịch vụ. Ví dụ: Dựa vào phân tích sự cố mỗi tháng để cải tiến quy tắc giám sát và quy trình vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "一度だけの改善ではなく、評価と見直しを継続する。",
+          "vi": "Điểm cần nhớ: Không phải cải tiến một lần; cần liên tục đánh giá, điều chỉnh và theo dõi hiệu quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "継続的改善",
+          "english": "Continual Improvement",
+          "vi": "Cải tiến liên tục",
+          "definitionJa": "要求事項を満たす能力やサービスのパフォーマンスを繰り返し向上させる活動。",
+          "definitionVi": "Hoạt động lặp lại nhằm nâng cao năng lực đáp ứng yêu cầu và cải thiện kết quả cung cấp dịch vụ.",
+          "reading": "けいぞくてきかいぜん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "continual-improvement"
+      ]
+    },
+    {
+      "id": "gap-analysis",
+      "order": 8,
+      "titleJa": "ギャップ分析",
+      "titleVi": "Phân tích khoảng cách",
+      "importance": "high",
+      "summaryJa": "現状と目標状態を比較し、その差と改善課題を明らかにする分析。",
+      "summaryVi": "Phương pháp so sánh hiện trạng với trạng thái mục tiêu để xác định khoảng cách và nội dung cần cải thiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ギャップ分析とは",
+          "vi": "Phân tích khoảng cách là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "現状と目標状態を比較し、その差と改善課題を明らかにする分析。 例：目標稼働率99.9%に対して実績99.5%なら、差の原因と対策を調べる。",
+          "vi": "Phương pháp so sánh hiện trạng với trạng thái mục tiêu để xác định khoảng cách và nội dung cần cải thiện. Ví dụ: Nếu mục tiêu sẵn sàng là 99,9% nhưng thực tế là 99,5%, cần phân tích nguyên nhân chênh lệch và biện pháp cải thiện."
+        },
+        {
+          "type": "point",
+          "ja": "現状（As-Is）と目標（To-Be）の差を可視化する。",
+          "vi": "Điểm cần nhớ: Ghi nhớ: so sánh As-Is (hiện tại) với To-Be (mục tiêu)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ギャップ分析",
+          "english": "Gap Analysis",
+          "vi": "Phân tích khoảng cách",
+          "definitionJa": "現状と目標状態を比較し、その差と改善課題を明らかにする分析。",
+          "definitionVi": "Phương pháp so sánh hiện trạng với trạng thái mục tiêu để xác định khoảng cách và nội dung cần cải thiện.",
+          "reading": "ぎゃっぷぶんせき"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "gap-analysis"
+      ]
+    },
+    {
+      "id": "critical-success-factors",
+      "order": 9,
+      "titleJa": "CSF",
+      "titleVi": "Yếu tố thành công then chốt",
+      "importance": "high",
+      "summaryJa": "目標の達成に不可欠な成功要因。",
+      "summaryVi": "Những yếu tố quan trọng mang tính quyết định để đạt được mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CSFとは",
+          "vi": "Yếu tố thành công then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "目標の達成に不可欠な成功要因。 例：サービス品質向上のCSFとして、迅速な障害対応体制の確立を挙げる。",
+          "vi": "Những yếu tố quan trọng mang tính quyết định để đạt được mục tiêu. Ví dụ: Để nâng cao chất lượng dịch vụ, một CSF có thể là xây dựng cơ chế ứng phó sự cố nhanh chóng."
+        },
+        {
+          "type": "point",
+          "ja": "CSFは成功に必要な要因、KPIは進捗を測る指標。",
+          "vi": "Điểm cần nhớ: CSF là yếu tố cần có để thành công; KPI là chỉ số dùng để đo tiến độ hoặc kết quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CSF",
+          "english": "Critical Success Factors",
+          "vi": "Yếu tố thành công then chốt",
+          "definitionJa": "目標の達成に不可欠な成功要因。",
+          "definitionVi": "Những yếu tố quan trọng mang tính quyết định để đạt được mục tiêu.",
+          "reading": "しーえすえふ"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "critical-success-factors"
+      ]
+    },
+    {
+      "id": "key-performance-indicator",
+      "order": 10,
+      "titleJa": "KPI",
+      "titleVi": "Chỉ số đánh giá hiệu quả then chốt",
+      "importance": "high",
+      "summaryJa": "目標達成に向けた活動の進捗や成果を評価する重要指標。",
+      "summaryVi": "Chỉ số quan trọng để theo dõi tiến độ và kết quả thực hiện các hoạt động hướng tới mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KPIとは",
+          "vi": "Chỉ số đánh giá hiệu quả then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "目標達成に向けた活動の進捗や成果を評価する重要指標。 例：サービスデスクのKPIとして、初回解決率80%以上を設定する。",
+          "vi": "Chỉ số quan trọng để theo dõi tiến độ và kết quả thực hiện các hoạt động hướng tới mục tiêu. Ví dụ: Đặt KPI cho bộ phận hỗ trợ là tỷ lệ giải quyết ngay lần đầu đạt ít nhất 80%."
+        },
+        {
+          "type": "point",
+          "ja": "KPIは目標に至る過程を測る指標として用いられることが多い。",
+          "vi": "Điểm cần nhớ: KPI thường dùng để theo dõi quá trình đạt mục tiêu; phải có cách đo và giá trị mục tiêu rõ ràng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KPI",
+          "english": "Key Performance Indicator",
+          "vi": "Chỉ số đánh giá hiệu quả then chốt",
+          "definitionJa": "目標達成に向けた活動の進捗や成果を評価する重要指標。",
+          "definitionVi": "Chỉ số quan trọng để theo dõi tiến độ và kết quả thực hiện các hoạt động hướng tới mục tiêu.",
+          "reading": "けーぴーあい"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "key-performance-indicator"
+      ]
+    },
+    {
+      "id": "key-goal-indicator",
+      "order": 11,
+      "titleJa": "KGI",
+      "titleVi": "Chỉ số mục tiêu then chốt",
+      "importance": "high",
+      "summaryJa": "最終的な目標の達成度を示す指標。",
+      "summaryVi": "Chỉ số thể hiện mức độ hoàn thành mục tiêu cuối cùng của tổ chức hoặc hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KGIとは",
+          "vi": "Chỉ số mục tiêu then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "最終的な目標の達成度を示す指標。 例：年間の顧客満足度90%以上をKGIに設定する。",
+          "vi": "Chỉ số thể hiện mức độ hoàn thành mục tiêu cuối cùng của tổ chức hoặc hoạt động. Ví dụ: Đặt KGI là tỷ lệ hài lòng của khách hàng đạt từ 90% trở lên trong năm."
+        },
+        {
+          "type": "point",
+          "ja": "KGIは最終成果、KPIはその達成に向けた過程の指標。",
+          "vi": "Điểm cần nhớ: KGI đo kết quả cuối cùng; KPI đo những chỉ số quan trọng trong quá trình hướng tới kết quả đó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KGI",
+          "english": "Key Goal Indicator",
+          "vi": "Chỉ số mục tiêu then chốt",
+          "definitionJa": "最終的な目標の達成度を示す指標。",
+          "definitionVi": "Chỉ số thể hiện mức độ hoàn thành mục tiêu cuối cùng của tổ chức hoặc hoạt động.",
+          "reading": "けーじーあい"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "performance-evaluation-improvement",
+        "key-goal-indicator"
+      ]
+    }
+  ]
 }

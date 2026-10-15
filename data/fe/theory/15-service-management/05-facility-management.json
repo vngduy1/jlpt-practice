@@ -4,5 +4,371 @@
   "titleJa": "ファシリティマネジメント",
   "titleVi": "Quản lý cơ sở vật chất",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "facility-management",
+      "order": 1,
+      "titleJa": "ファシリティマネジメント",
+      "titleVi": "Quản lý cơ sở vật chất",
+      "importance": "high",
+      "summaryJa": "組織の目的に合わせて、建物、設備、職場環境などのファシリティを総合的・戦略的に管理し、品質、コスト、利用効率を最適化する活動。",
+      "summaryVi": "Quản lý tổng thể và mang tính chiến lược đối với tòa nhà, thiết bị, không gian làm việc và môi trường sử dụng nhằm hỗ trợ mục tiêu tổ chức, tối ưu chi phí, chất lượng và hiệu quả khai thác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ファシリティマネジメントとは",
+          "vi": "Quản lý cơ sở vật chất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の目的に合わせて、建物、設備、職場環境などのファシリティを総合的・戦略的に管理し、品質、コスト、利用効率を最適化する活動。 例：オフィスの配置を見直し、空間利用率と省エネルギー性能を改善する。",
+          "vi": "Quản lý tổng thể và mang tính chiến lược đối với tòa nhà, thiết bị, không gian làm việc và môi trường sử dụng nhằm hỗ trợ mục tiêu tổ chức, tối ưu chi phí, chất lượng và hiệu quả khai thác. Ví dụ: Sắp xếp lại văn phòng để tận dụng diện tích và giảm điện năng tiêu thụ."
+        },
+        {
+          "type": "point",
+          "ja": "施設の修理だけでなく、組織全体の目標に沿った最適化を行う。",
+          "vi": "Phân biệt với 施設管理: phạm vi rộng hơn, bao gồm hoạch định chiến lược và tối ưu toàn bộ cơ sở vật chất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファシリティマネジメント",
+          "english": "Facility Management",
+          "vi": "Quản lý cơ sở vật chất",
+          "definitionJa": "組織の目的に合わせて、建物、設備、職場環境などのファシリティを総合的・戦略的に管理し、品質、コスト、利用効率を最適化する活動。",
+          "definitionVi": "Quản lý tổng thể và mang tính chiến lược đối với tòa nhà, thiết bị, không gian làm việc và môi trường sử dụng nhằm hỗ trợ mục tiêu tổ chức, tối ưu chi phí, chất lượng và hiệu quả khai thác.",
+          "reading": "ふぁしりてぃまねじめんと"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "facility-management"
+      ]
+    },
+    {
+      "id": "facility-administration",
+      "order": 2,
+      "titleJa": "施設管理",
+      "titleVi": "Quản lý cơ sở, công trình",
+      "importance": "medium",
+      "summaryJa": "施設を安全かつ効率的に使用できるように、日常の運営、点検、清掃、修繕、利用状況などを管理する活動。",
+      "summaryVi": "Quản lý việc sử dụng, vận hành, vệ sinh, kiểm tra và sửa chữa các cơ sở hoặc công trình để bảo đảm an toàn và hiệu quả trong hoạt động thường ngày.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "施設管理とは",
+          "vi": "Quản lý cơ sở, công trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "施設を安全かつ効率的に使用できるように、日常の運営、点検、清掃、修繕、利用状況などを管理する活動。 例：事務所の清掃計画、設備点検、利用状況の確認を実施する。",
+          "vi": "Quản lý việc sử dụng, vận hành, vệ sinh, kiểm tra và sửa chữa các cơ sở hoặc công trình để bảo đảm an toàn và hiệu quả trong hoạt động thường ngày. Ví dụ: Lập lịch vệ sinh, kiểm tra thiết bị và theo dõi việc sử dụng phòng làm việc."
+        },
+        {
+          "type": "point",
+          "ja": "ファシリティマネジメントの一部として、施設の日常管理を担う。",
+          "vi": "Chủ yếu là quản lý hoạt động hằng ngày của cơ sở; là một phần trong quản lý cơ sở vật chất tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "施設管理",
+          "english": "Facility Management",
+          "vi": "Quản lý cơ sở, công trình",
+          "definitionJa": "施設を安全かつ効率的に使用できるように、日常の運営、点検、清掃、修繕、利用状況などを管理する活動。",
+          "definitionVi": "Quản lý việc sử dụng, vận hành, vệ sinh, kiểm tra và sửa chữa các cơ sở hoặc công trình để bảo đảm an toàn và hiệu quả trong hoạt động thường ngày.",
+          "reading": "しせつかんり"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "facility-administration"
+      ]
+    },
+    {
+      "id": "building-management",
+      "order": 3,
+      "titleJa": "建物管理",
+      "titleVi": "Quản lý tòa nhà",
+      "importance": "high",
+      "summaryJa": "建物の安全性、機能性、快適性を維持するために、構造、耐震、防火、防犯などを点検・管理する活動。",
+      "summaryVi": "Quản lý kết cấu, hệ thống phòng cháy, an ninh và các biện pháp chống thiên tai để duy trì sự an toàn, chức năng và môi trường sử dụng của tòa nhà.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "建物管理とは",
+          "vi": "Quản lý tòa nhà là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "建物の安全性、機能性、快適性を維持するために、構造、耐震、防火、防犯などを点検・管理する活動。 例：免震装置、避雷・サージ保護設備、火災報知設備を定期点検する。",
+          "vi": "Quản lý kết cấu, hệ thống phòng cháy, an ninh và các biện pháp chống thiên tai để duy trì sự an toàn, chức năng và môi trường sử dụng của tòa nhà. Ví dụ: Kiểm tra thiết bị cách chấn, chống sét lan truyền và hệ thống báo cháy của tòa nhà."
+        },
+        {
+          "type": "point",
+          "ja": "免震装置は地震対策、アレスタは雷などによる過電圧対策に使う。",
+          "vi": "Phân biệt: 免震装置 giảm tác động rung chấn; アレスタ bảo vệ thiết bị khỏi quá điện áp do sét hoặc xung điện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "建物管理",
+          "english": "Building Management",
+          "vi": "Quản lý tòa nhà",
+          "definitionJa": "建物の安全性、機能性、快適性を維持するために、構造、耐震、防火、防犯などを点検・管理する活動。",
+          "definitionVi": "Quản lý kết cấu, hệ thống phòng cháy, an ninh và các biện pháp chống thiên tai để duy trì sự an toàn, chức năng và môi trường sử dụng của tòa nhà.",
+          "reading": "たてものかんり"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "building-management"
+      ]
+    },
+    {
+      "id": "electrical-equipment",
+      "order": 4,
+      "titleJa": "電気設備",
+      "titleVi": "Hệ thống thiết bị điện",
+      "importance": "high",
+      "summaryJa": "施設への電力供給・配電・保護を担う設備。停電対策にはUPSや自家発電設備などを用いる。",
+      "summaryVi": "Các thiết bị cấp điện, phân phối và bảo vệ nguồn điện trong cơ sở. Trong trung tâm dữ liệu, UPS và máy phát điện dự phòng giúp giảm ảnh hưởng của mất điện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電気設備とは",
+          "vi": "Hệ thống thiết bị điện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "施設への電力供給・配電・保護を担う設備。停電対策にはUPSや自家発電設備などを用いる。 例：停電直後はUPSでサーバへの給電を継続し、必要に応じて自家発電設備へ切り替える。",
+          "vi": "Các thiết bị cấp điện, phân phối và bảo vệ nguồn điện trong cơ sở. Trong trung tâm dữ liệu, UPS và máy phát điện dự phòng giúp giảm ảnh hưởng của mất điện. Ví dụ: Khi mất điện, UPS cấp điện ngay cho máy chủ trong lúc chờ máy phát điện dự phòng khởi động."
+        },
+        {
+          "type": "point",
+          "ja": "UPSは短時間の瞬断対策、自家発電設備は比較的長時間の停電対策に用いる。",
+          "vi": "UPS cấp điện gần như tức thời trong thời gian giới hạn; máy phát dự phòng có thể duy trì nguồn lâu hơn nhưng thường cần thời gian khởi động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電気設備",
+          "english": "Electrical Equipment",
+          "vi": "Hệ thống thiết bị điện",
+          "definitionJa": "施設への電力供給・配電・保護を担う設備。停電対策にはUPSや自家発電設備などを用いる。",
+          "definitionVi": "Các thiết bị cấp điện, phân phối và bảo vệ nguồn điện trong cơ sở. Trong trung tâm dữ liệu, UPS và máy phát điện dự phòng giúp giảm ảnh hưởng của mất điện.",
+          "reading": "でんきせつび"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "electrical-equipment"
+      ]
+    },
+    {
+      "id": "air-conditioning-equipment",
+      "order": 5,
+      "titleJa": "空調設備",
+      "titleVi": "Hệ thống điều hòa không khí",
+      "importance": "high",
+      "summaryJa": "室内やデータセンターの温度、湿度、空気の流れを制御し、機器の安定稼働や利用者の快適性を確保する設備。",
+      "summaryVi": "Hệ thống kiểm soát nhiệt độ, độ ẩm và luồng không khí nhằm giữ môi trường phù hợp cho con người và thiết bị CNTT, đặc biệt là máy chủ trong trung tâm dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "空調設備とは",
+          "vi": "Hệ thống điều hòa không khí là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "室内やデータセンターの温度、湿度、空気の流れを制御し、機器の安定稼働や利用者の快適性を確保する設備。 例：データセンターではコールドアイルとホットアイルを分離し、冷気と排熱の混合を抑える。",
+          "vi": "Hệ thống kiểm soát nhiệt độ, độ ẩm và luồng không khí nhằm giữ môi trường phù hợp cho con người và thiết bị CNTT, đặc biệt là máy chủ trong trung tâm dữ liệu. Ví dụ: Trong trung tâm dữ liệu, bố trí lối đi lạnh (cold aisle) và lối đi nóng (hot aisle) để hạn chế khí nóng trộn với khí lạnh."
+        },
+        {
+          "type": "point",
+          "ja": "コールドアイルは機器の吸気側、ホットアイルは排気側に設ける。",
+          "vi": "Cold aisle nằm phía hút khí mát của máy chủ; hot aisle nằm phía thải khí nóng. Mục tiêu là nâng hiệu suất làm mát."
+        }
+      ],
+      "terms": [
+        {
+          "term": "空調設備",
+          "english": "Air Conditioning Equipment",
+          "vi": "Hệ thống điều hòa không khí",
+          "definitionJa": "室内やデータセンターの温度、湿度、空気の流れを制御し、機器の安定稼働や利用者の快適性を確保する設備。",
+          "definitionVi": "Hệ thống kiểm soát nhiệt độ, độ ẩm và luồng không khí nhằm giữ môi trường phù hợp cho con người và thiết bị CNTT, đặc biệt là máy chủ trong trung tâm dữ liệu.",
+          "reading": "くうちょうせつび"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "air-conditioning-equipment"
+      ]
+    },
+    {
+      "id": "communication-equipment",
+      "order": 6,
+      "titleJa": "通信設備",
+      "titleVi": "Hệ thống thiết bị viễn thông",
+      "importance": "high",
+      "summaryJa": "施設内外の通信を支える配線、配線盤、通信機器などの設備。MDFは主配線盤、IDFは中間配線盤として使われる。",
+      "summaryVi": "Các thiết bị, đường cáp và tủ đấu nối phục vụ liên lạc trong và ngoài tòa nhà. MDF là tủ phân phối chính; IDF là tủ phân phối trung gian đến từng khu vực hoặc tầng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "通信設備とは",
+          "vi": "Hệ thống thiết bị viễn thông là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "施設内外の通信を支える配線、配線盤、通信機器などの設備。MDFは主配線盤、IDFは中間配線盤として使われる。 例：外部からの回線をMDFに収容し、IDFを経由して各階へ配線する。",
+          "vi": "Các thiết bị, đường cáp và tủ đấu nối phục vụ liên lạc trong và ngoài tòa nhà. MDF là tủ phân phối chính; IDF là tủ phân phối trung gian đến từng khu vực hoặc tầng. Ví dụ: Đường truyền đi vào MDF, sau đó qua IDF để phân phối cáp tới từng tầng."
+        },
+        {
+          "type": "point",
+          "ja": "MDFとIDFは配線の集約・分配を行う設備であり、ルータそのものではない。",
+          "vi": "MDF là điểm đấu nối chính, IDF là điểm phân phối trung gian; không đồng nhất chúng với router hay switch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "通信設備",
+          "english": "Communication Equipment",
+          "vi": "Hệ thống thiết bị viễn thông",
+          "definitionJa": "施設内外の通信を支える配線、配線盤、通信機器などの設備。MDFは主配線盤、IDFは中間配線盤として使われる。",
+          "definitionVi": "Các thiết bị, đường cáp và tủ đấu nối phục vụ liên lạc trong và ngoài tòa nhà. MDF là tủ phân phối chính; IDF là tủ phân phối trung gian đến từng khu vực hoặc tầng.",
+          "reading": "つうしんせつび"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "communication-equipment"
+      ]
+    },
+    {
+      "id": "facility-maintenance",
+      "order": 7,
+      "titleJa": "施設・設備の維持保全",
+      "titleVi": "Bảo trì và bảo toàn cơ sở, thiết bị",
+      "importance": "high",
+      "summaryJa": "施設や設備の機能と安全性を維持するため、点検、整備、修理、部品交換などを計画的に実施する活動。",
+      "summaryVi": "Thực hiện kiểm tra, bảo dưỡng, sửa chữa và thay thế linh kiện nhằm duy trì chức năng, độ an toàn và tuổi thọ của công trình hoặc thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "施設・設備の維持保全とは",
+          "vi": "Bảo trì và bảo toàn cơ sở, thiết bị là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "施設や設備の機能と安全性を維持するため、点検、整備、修理、部品交換などを計画的に実施する活動。 例：空調機を定期点検し、劣化したフィルタや部品を交換する。",
+          "vi": "Thực hiện kiểm tra, bảo dưỡng, sửa chữa và thay thế linh kiện nhằm duy trì chức năng, độ an toàn và tuổi thọ của công trình hoặc thiết bị. Ví dụ: Kiểm tra điều hòa định kỳ và thay bộ lọc xuống cấp trước khi thiết bị hỏng."
+        },
+        {
+          "type": "point",
+          "ja": "予防保全は故障前の対策、事後保全は故障後の修理を指す。",
+          "vi": "Phân biệt: bảo trì phòng ngừa (予防保全) thực hiện trước sự cố; bảo trì khắc phục (事後保全) thực hiện sau khi hỏng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "施設・設備の維持保全",
+          "english": "Facility Maintenance",
+          "vi": "Bảo trì và bảo toàn cơ sở, thiết bị",
+          "definitionJa": "施設や設備の機能と安全性を維持するため、点検、整備、修理、部品交換などを計画的に実施する活動。",
+          "definitionVi": "Thực hiện kiểm tra, bảo dưỡng, sửa chữa và thay thế linh kiện nhằm duy trì chức năng, độ an toàn và tuổi thọ của công trình hoặc thiết bị.",
+          "reading": "しせつ・せつびのいじほぜん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "facility-maintenance"
+      ]
+    },
+    {
+      "id": "environmental-aspect",
+      "order": 8,
+      "titleJa": "環境側面",
+      "titleVi": "Khía cạnh môi trường",
+      "importance": "high",
+      "summaryJa": "組織の活動、製品、サービスのうち、環境と相互に影響し得る要素。環境影響そのものとは区別する。",
+      "summaryVi": "Yếu tố thuộc hoạt động, sản phẩm hoặc dịch vụ của tổ chức có thể tương tác với môi trường, chẳng hạn tiêu thụ điện, sử dụng nước hoặc phát sinh chất thải. Khác với tác động môi trường là hệ quả của những yếu tố đó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "環境側面とは",
+          "vi": "Khía cạnh môi trường là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の活動、製品、サービスのうち、環境と相互に影響し得る要素。環境影響そのものとは区別する。 例：データセンターの電力使用は環境側面であり、それに伴う温室効果ガス排出は環境影響の一例となる。",
+          "vi": "Yếu tố thuộc hoạt động, sản phẩm hoặc dịch vụ của tổ chức có thể tương tác với môi trường, chẳng hạn tiêu thụ điện, sử dụng nước hoặc phát sinh chất thải. Khác với tác động môi trường là hệ quả của những yếu tố đó. Ví dụ: Việc trung tâm dữ liệu tiêu thụ điện là khía cạnh môi trường; phát thải khí nhà kính liên quan là một tác động môi trường."
+        },
+        {
+          "type": "point",
+          "ja": "環境側面＝環境と関わる要素、環境影響＝その結果として生じる環境の変化。",
+          "vi": "Điểm dễ thi: 環境側面 = yếu tố có tương tác với môi trường; 環境影響 = thay đổi đối với môi trường do yếu tố đó gây ra."
+        }
+      ],
+      "terms": [
+        {
+          "term": "環境側面",
+          "english": "Environmental Aspect",
+          "vi": "Khía cạnh môi trường",
+          "definitionJa": "組織の活動、製品、サービスのうち、環境と相互に影響し得る要素。環境影響そのものとは区別する。",
+          "definitionVi": "Yếu tố thuộc hoạt động, sản phẩm hoặc dịch vụ của tổ chức có thể tương tác với môi trường, chẳng hạn tiêu thụ điện, sử dụng nước hoặc phát sinh chất thải. Khác với tác động môi trường là hệ quả của những yếu tố đó.",
+          "reading": "かんきょうそくめん"
+        }
+      ],
+      "tags": [
+        "service-management",
+        "facility-management",
+        "environmental-aspect"
+      ]
+    },
+    {
+      "id": "green-it",
+      "order": 9,
+      "titleJa": "グリーンIT",
+      "titleVi": "CNTT xanh",
+      "importance": "high",
+      "summaryJa": "IT機器・システム自体の省エネルギー化と、ITの活用による社会・業務全体の環境負荷低減を目指す取組。",
+      "summaryVi": "Các biện pháp giảm tác động môi trường của chính hệ thống CNTT và ứng dụng CNTT để giảm tác động môi trường trong các hoạt động khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グリーンITとは",
+          "vi": "CNTT xanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IT機器・システム自体の省エネルギー化と、ITの活用による社会・業務全体の環境負荷低減を目指す取組。 例：サーバ仮想化で機器台数を減らし、オンライン会議で移動に伴う排出を抑える。",
+          "vi": "Các biện pháp giảm tác động môi trường của chính hệ thống CNTT và ứng dụng CNTT để giảm tác động môi trường trong các hoạt động khác. Ví dụ: Ảo hóa máy chủ để giảm thiết bị vật lý; họp trực tuyến để giảm nhu cầu di chuyển."
+        },
+        {
+          "type": "point",
+          "ja": "Green of IT（IT自体の環境負荷低減）とGreen by IT（ITによる他分野の負荷低減）を区別する。",
+          "vi": "Phân biệt Green of IT (làm CNTT xanh hơn) và Green by IT (dùng CNTT để làm các hoạt động khác xanh hơn)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グリーンIT",
+          "english": "Green IT",
+          "vi": "CNTT xanh",
+          "definitionJa": "IT機器・システム自体の省エネルギー化と、ITの活用による社会・業務全体の環境負荷低減を目指す取組。",
+          "definitionVi": "Các biện pháp giảm tác động môi trường của chính hệ thống CNTT và ứng dụng CNTT để giảm tác động môi trường trong các hoạt động khác.",
+          "reading": "ぐりーんあいてぃ"
+        }
+      ],
+      "tags": ["service-management", "facility-management", "green-it"]
+    }
+  ]
 }

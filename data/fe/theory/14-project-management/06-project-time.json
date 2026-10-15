@@ -22,7 +22,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや作業の過程において、各活動を効率的に配置する手法である。これは各タスクがどのように関連し合い、どの順番で実行されるべきかを決定するプロセスである。たとえば、建設プロジェクトにおいて、基礎工事が完了しないと上棟工事が始められないため、これらの活動は適切に順序付ける必要がある。活動の順序を明確にすることで、リソースの無駄を避け、プロジェクト全体の進行を円滑にすることが可能である。この手法は、ガントチャートやネットワーク図などのツールを活用して視覚的に管理することも一般的である。",
-          "vi": "Quá trình xác định quan hệ phụ thuộc và thứ tự thực hiện phù hợp giữa các hoạt động của dự án."
+          "vi": "Quá trình xác định quan hệ phụ thuộc và thứ tự thực hiện phù hợp giữa các hoạt động của dự án. Các quan hệ phụ thuộc bắt buộc, tùy chọn và bên ngoài được xác định để sắp xếp hoạt động thành mạng logic khả thi."
         },
         {
           "type": "point",
@@ -34,10 +34,10 @@
         {
           "term": "活動の順序付け",
           "reading": "かつどうのじゅんじょづけ",
-          "english": "Activity Sequencing",
+          "english": "Sequence Activities",
           "vi": "Sắp xếp thứ tự hoạt động",
           "definitionJa": "プロジェクトや作業の過程において、各活動を効率的に配置する手法である。",
-          "definitionVi": "Quá trình xác định quan hệ phụ thuộc và thứ tự thực hiện phù hợp giữa các hoạt động của dự án."
+          "definitionVi": "Sắp xếp thứ tự hoạt động là quá trình xác định quan hệ phụ thuộc và thứ tự thực hiện phù hợp giữa các hoạt động của dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Activity Sequencing"]
@@ -59,7 +59,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや作業の各ステップが完了するまでの予想時間を算出するプロセスである。この見積りは、プロジェクト全体の計画やスケジュール作成において非常に重要である。具体的には、過去のデータや専門家の意見を参考にして、各タスクに対して必要な時間を見積もることで、プロジェクトの進行を円滑に進めることが可能となる。たとえば、ソフトウェア開発プロジェクトにおいて、新機能の開発に必要な時間を見積もることで、リリース日を設定したり、リソースを適切に配分することができる。正確な見積りは、プロジェクトの成功に大きく寄与するため、計画段階において慎重に行うべきである。",
-          "vi": "Quá trình ước lượng thời gian cần thiết để hoàn thành từng hoạt động của dự án."
+          "vi": "Quá trình ước lượng thời gian cần thiết để hoàn thành từng hoạt động của dự án. Thời lượng phụ thuộc công sức, số và năng suất nguồn lực, lịch làm việc cùng rủi ro; nó không đồng nhất với khối lượng công việc."
         },
         {
           "type": "point",
@@ -71,10 +71,10 @@
         {
           "term": "活動期間の見積り",
           "reading": "かつどうきかんのみつもり",
-          "english": "Activity Duration Estimation",
+          "english": "Estimate Activity Durations",
           "vi": "Ước lượng thời lượng hoạt động",
           "definitionJa": "プロジェクトや作業の各ステップが完了するまでの予想時間を算出するプロセスである。",
-          "definitionVi": "Quá trình ước lượng thời gian cần thiết để hoàn thành từng hoạt động của dự án."
+          "definitionVi": "Ước lượng thời lượng hoạt động là quá trình ước lượng thời gian cần thiết để hoàn thành từng hoạt động của dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Activity Duration Estimation"]
@@ -96,7 +96,7 @@
         {
           "type": "paragraph",
           "ja": "特定の期間内に行うべきタスクや活動を整理して計画するプロセスである。このプロセスには、各タスクの期限や優先順位を明確にし、効率的に時間を使えるようにすることが含まれる。たとえば、プロジェクトの進行をスムーズにするために、各ステップを日時と共に設定することが求められる。スケジュールを作成することで、必要なリソースを適切に配分し、進行状況を把握しやすくなるため、成果の達成に大いに役立つ。また、チームのメンバー間でのコミュニケーションを向上させ、一貫した作業計画を持つことで、全体の生産性を高める効果もある。",
-          "vi": "Quá trình sắp xếp và lập kế hoạch các nhiệm vụ, thời hạn và thứ tự ưu tiên trong một khoảng thời gian."
+          "vi": "Quá trình sắp xếp và lập kế hoạch các nhiệm vụ, thời hạn và thứ tự ưu tiên trong một khoảng thời gian. Lịch trình kết hợp hoạt động, phụ thuộc, thời lượng, nguồn lực và ràng buộc để tính ngày bắt đầu/kết thúc và đường găng."
         },
         {
           "type": "point",
@@ -108,10 +108,10 @@
         {
           "term": "スケジュールの作成",
           "reading": "すけじゅーるのさくせい",
-          "english": "Schedule Creation",
+          "english": "Develop Schedule",
           "vi": "Lập lịch trình",
           "definitionJa": "特定の期間内に行うべきタスクや活動を整理して計画するプロセスである。",
-          "definitionVi": "Quá trình sắp xếp và lập kế hoạch các nhiệm vụ, thời hạn và thứ tự ưu tiên trong một khoảng thời gian."
+          "definitionVi": "Lập lịch trình là quá trình sắp xếp và lập kế hoạch các nhiệm vụ, thời hạn và thứ tự ưu tiên trong một khoảng thời gian."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Schedule Creation"]
@@ -133,7 +133,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや業務において、時間を効率的に使うためのプロセスを指す。この管理手法では、作業の開始や終了の日程を計画し、リソースを合理的に配分することが求められる。たとえば、新製品の開発を行う際には、各段階のタスクを整理し、層ごとに進捗状況を確認することでスケジュールを遵守する。適切にスケジュールを管理することで、締め切りに間に合わせることができ、プロジェクトの成功率が高まる。また、進行状況を記録することで、必要に応じて見直しや調整も行いやすくなるため、時間の無駄を省くことにつながる。",
-          "vi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh thời gian thực hiện các công việc của dự án."
+          "vi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh thời gian thực hiện các công việc của dự án. Dữ liệu thực hiện được so với schedule baseline; sai lệch được dự báo và xử lý qua điều chỉnh hoặc yêu cầu thay đổi."
         },
         {
           "type": "point",
@@ -145,10 +145,10 @@
         {
           "term": "スケジュールの管理",
           "reading": "すけじゅーるのかんり",
-          "english": "Schedule Management",
+          "english": "Control Schedule",
           "vi": "Quản lý lịch trình",
           "definitionJa": "プロジェクトや業務において、時間を効率的に使うためのプロセスを指す。",
-          "definitionVi": "Quá trình lập kế hoạch, theo dõi và điều chỉnh thời gian thực hiện các công việc của dự án."
+          "definitionVi": "Quản lý lịch trình là quá trình lập kế hoạch, theo dõi và điều chỉnh thời gian thực hiện các công việc của dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Schedule Management"]
@@ -170,7 +170,7 @@
         {
           "type": "paragraph",
           "ja": "特定の業務やプロジェクトにおいて、各活動が実施される順番を示すものである。活動は、目標達成のために必要な作業や行動を指し、順序を決めることで効率的にプロセスを進められることが期待される。例えば、製品の開発プロジェクトでは、企画、設計、試作、テスト、販売という順に進むのが一般的である。この順序を正しく管理することで、作業の重複を避けたり、遅延を防いだりすることが可能になるため、プロジェクト管理やスケジュール作成において重要な要素とされる。活動順序を明確にすることで、関連するインプットやアウトプットを円滑に流れるように整理することができる。",
-          "vi": "Thứ tự mà các hoạt động trong dự án hoặc công việc được thực hiện."
+          "vi": "Thứ tự mà các hoạt động trong dự án hoặc công việc được thực hiện. Thứ tự phải phản ánh quan hệ trước–sau thực tế và có thể gồm Finish-to-Start, Start-to-Start, Finish-to-Finish hoặc Start-to-Finish."
         },
         {
           "type": "point",
@@ -185,7 +185,7 @@
           "english": "Activity Sequence",
           "vi": "Thứ tự hoạt động",
           "definitionJa": "特定の業務やプロジェクトにおいて、各活動が実施される順番を示すものである。",
-          "definitionVi": "Thứ tự mà các hoạt động trong dự án hoặc công việc được thực hiện."
+          "definitionVi": "Thứ tự hoạt động là thứ tự mà các hoạt động trong dự án hoặc công việc được thực hiện."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Activity Sequence"]
@@ -207,7 +207,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトやタスクに必要な時間を予測するプロセスである。この見積りは、各活動が完了するまでの期間を具体的に計算し、全体のスケジュールを策定するために重要である。例えば、新しいソフトウェアの開発では、設計、コーディング、テストといった各工程にどのくらいの時間がかかるかを見積もることで、プロジェクトの進行管理がしやすくなる。このプロセスには、過去のデータの分析や専門家の意見、または類似したプロジェクトの経験を基にした手法が用いられることが多い。適切な見積りは、スケジュールの確実性を高め、プロジェクトの成功に寄与する。",
-          "vi": "Quá trình dự đoán khoảng thời gian cần thiết để hoàn thành từng hoạt động hoặc nhiệm vụ."
+          "vi": "Quá trình dự đoán khoảng thời gian cần thiết để hoàn thành từng hoạt động hoặc nhiệm vụ. Ước lượng nên nêu đơn vị, cơ sở, giả định và khoảng bất định để có thể kiểm chứng và cập nhật."
         },
         {
           "type": "point",
@@ -222,7 +222,7 @@
           "english": "Activity Duration Estimation",
           "vi": "Ước lượng thời gian cần thiết của hoạt động",
           "definitionJa": "プロジェクトやタスクに必要な時間を予測するプロセスである。",
-          "definitionVi": "Quá trình dự đoán khoảng thời gian cần thiết để hoàn thành từng hoạt động hoặc nhiệm vụ."
+          "definitionVi": "Ước lượng thời gian cần thiết của hoạt động là quá trình dự đoán khoảng thời gian cần thiết để hoàn thành từng hoạt động hoặc nhiệm vụ."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Activity Duration Estimation"]
@@ -244,7 +244,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト管理において実施すべき作業やタスクを一覧化したものである。このリストには、各タスクの名称や説明、開始日や終了日、責任者などの情報が含まれる。活動リストを作成することで、プロジェクトの全体像を把握し、効率的に作業を進めることが可能となる。また、タスクの進捗状況を追跡するためにも有用であり、問題点が発生した際には、早期に適切な対策を講じることが求められる。これは、プロジェクトの成功に向けた重要なアウトプットとなり、チーム内のコミュニケーションや協力を促進する手助けとなる。",
-          "vi": "Danh sách các công việc hoặc nhiệm vụ cần thực hiện trong dự án."
+          "vi": "Danh sách các công việc hoặc nhiệm vụ cần thực hiện trong dự án. Mỗi hoạt động có mã, mô tả và thuộc tính cần thiết để liên kết với WBS, phụ thuộc, nguồn lực và mốc."
         },
         {
           "type": "point",
@@ -259,7 +259,7 @@
           "english": "Activity List",
           "vi": "Danh sách hoạt động",
           "definitionJa": "プロジェクト管理において実施すべき作業やタスクを一覧化したものである。",
-          "definitionVi": "Danh sách các công việc hoặc nhiệm vụ cần thực hiện trong dự án."
+          "definitionVi": "Danh sách hoạt động là danh sách các công việc hoặc nhiệm vụ cần thực hiện trong dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Activity List"]
@@ -281,7 +281,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトの計画や実行において、特定のタスクや活動に影響を与える要因のことである。これには、開始日や終了日、依存関係、およびリソースの利用可能性が含まれる。例えば、あるタスクが他のタスクの完了を待たなければならない場合、そのタスクは依存関係による制約を持っている。このような制約は、プロジェクト全体の進行やスケジュールの最適化に影響を及ぼし、時間管理や効率の向上に欠かせない要素である。プロジェクトマネージャーは、これらの制約を考慮しながら計画を立て、実行状況を監視することが重要である。",
-          "vi": "Các yếu tố giới hạn hoặc ảnh hưởng đến lịch trình như ngày bắt đầu, ngày kết thúc, quan hệ phụ thuộc và khả năng sử dụng nguồn lực."
+          "vi": "Các yếu tố giới hạn hoặc ảnh hưởng đến lịch trình như ngày bắt đầu, ngày kết thúc, quan hệ phụ thuộc và khả năng sử dụng nguồn lực. Ràng buộc như ngày bắt buộc hoặc lịch nguồn lực giới hạn cách bố trí hoạt động và có thể tạo rủi ro cho đường găng."
         },
         {
           "type": "point",
@@ -296,7 +296,7 @@
           "english": "Schedule Constraint",
           "vi": "Ràng buộc lịch trình",
           "definitionJa": "プロジェクトの計画や実行において、特定のタスクや活動に影響を与える要因のことである。",
-          "definitionVi": "Các yếu tố giới hạn hoặc ảnh hưởng đến lịch trình như ngày bắt đầu, ngày kết thúc, quan hệ phụ thuộc và khả năng sử dụng nguồn lực."
+          "definitionVi": "Ràng buộc lịch trình là các yếu tố giới hạn hoặc ảnh hưởng đến lịch trình như ngày bắt đầu, ngày kết thúc, quan hệ phụ thuộc và khả năng sử dụng nguồn lực."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Schedule Constraint"]
@@ -318,7 +318,7 @@
         {
           "type": "paragraph",
           "ja": "予定や計画を時間的に整理したものである。主に、特定の業務や作業を実施するための時間枠を設定し、効率的に行動するための指標として利用される。個人のものであったり、チームで共有されるものであったりし、会議、プロジェクトの締切、日常業務など、さまざまな活動の管理を助ける。また、スケジュールはタスクの優先順位をつけたり、リソースの割り当てを計画したりする際にも役立ち、時間の無駄を減らし、目標達成を促進する役割を果たす。デジタルツールやアプリを用いることで、リアルタイムに変更や調整が可能になり、チーム全体でのコラボレーションを効率化することも可能である。",
-          "vi": "Kế hoạch sắp xếp các công việc và hoạt động theo thời gian."
+          "vi": "Kế hoạch sắp xếp các công việc và hoạt động theo thời gian. Lịch trình được phê duyệt làm baseline gồm ngày, thời lượng, phụ thuộc và mốc; lịch hiện tại có thể khác baseline do thực tế và dự báo."
         },
         {
           "type": "point",
@@ -329,11 +329,11 @@
       "terms": [
         {
           "term": "スケジュール",
-          "reading": "",
+          "reading": "すけじゅーる",
           "english": "Schedule",
           "vi": "Lịch trình",
           "definitionJa": "予定や計画を時間的に整理したものである。",
-          "definitionVi": "Kế hoạch sắp xếp các công việc và hoạt động theo thời gian."
+          "definitionVi": "Lịch trình là kế hoạch sắp xếp các công việc và hoạt động theo thời gian."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Schedule"]
@@ -355,7 +355,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトの予算や期間を、過去の類似したプロジェクトのデータを基に推測する手法である。この方法は、経験則に基づいており、似たような状況での実績を参考にすることで、迅速に見積もりを行うことができる。例えば、以前に行ったプロジェクトがある場合、そのプロジェクトのデータから新たなプロジェクトの工数やコストを推定することが可能である。特に詳細なデータが手に入らない初期段階において非常に有効であり、迅速な意思決定をサポートする。とはいえ、過去のプロジェクトとの類似度が低い場合には、見積もりの精度が下がる可能性があるため、注意が必要である。プロジェクト管理においては、複数の見積もり手法を併用することで、より正確な計画が立てられる。",
-          "vi": "Phương pháp ước lượng chi phí hoặc thời gian dựa trên dữ liệu của các dự án tương tự trong quá khứ."
+          "vi": "Phương pháp ước lượng chi phí hoặc thời gian dựa trên dữ liệu của các dự án tương tự trong quá khứ. Kỹ thuật dùng dữ liệu dự án tương tự và điều chỉnh theo khác biệt, nhanh nhưng độ chính xác phụ thuộc mức tương đồng và đánh giá chuyên gia."
         },
         {
           "type": "point",
@@ -370,7 +370,7 @@
           "english": "Analogous Estimating",
           "vi": "Ước lượng tương tự",
           "definitionJa": "プロジェクトの予算や期間を、過去の類似したプロジェクトのデータを基に推測する手法である。",
-          "definitionVi": "Phương pháp ước lượng chi phí hoặc thời gian dựa trên dữ liệu của các dự án tương tự trong quá khứ."
+          "definitionVi": "Ước lượng tương tự là phương pháp ước lượng chi phí hoặc thời gian dựa trên dữ liệu của các dự án tương tự trong quá khứ."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Analogous Estimating"]
@@ -392,7 +392,7 @@
         {
           "type": "paragraph",
           "ja": "過去のデータや統計を基にして、プロジェクトのコストや期間を予測する手法である。この手法では、特定のパラメータ—例として、面積や機能数に基づくコスト単価など—を使用して見積もりを行う。例えば、過去のプロジェクトで1平方メートルあたりの建設コストが特定されている場合、新しいプロジェクトの面積にその単価を掛け算することで、概算コストを算出することができる。このように、迅速かつ効率的に予測を行う手法として、多くのプロジェクト管理の場面で活用されている。正確なデータがあればあるほど、その見積もりは信頼性を増し、プロジェクトの意思決定をサポートする重要な役割を果たす。",
-          "vi": "Phương pháp ước lượng chi phí hoặc thời gian bằng dữ liệu lịch sử, thống kê và các tham số định lượng."
+          "vi": "Phương pháp ước lượng chi phí hoặc thời gian bằng dữ liệu lịch sử, thống kê và các tham số định lượng. Ước lượng lấy số đơn vị nhân với năng suất hoặc chi phí mỗi đơn vị; mô hình chỉ đáng tin khi dữ liệu và quan hệ tham số phù hợp."
         },
         {
           "type": "point",
@@ -407,7 +407,7 @@
           "english": "Parametric Estimating",
           "vi": "Ước lượng tham số",
           "definitionJa": "過去のデータや統計を基にして、プロジェクトのコストや期間を予測する手法である。",
-          "definitionVi": "Phương pháp ước lượng chi phí hoặc thời gian bằng dữ liệu lịch sử, thống kê và các tham số định lượng."
+          "definitionVi": "Ước lượng tham số là phương pháp ước lượng chi phí hoặc thời gian bằng dữ liệu lịch sử, thống kê và các tham số định lượng."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Parametric Estimating"]
@@ -428,8 +428,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトのタスクや活動にかかる時間やコストを予測する方法である。この手法では、最適な見積もりを得るために3つの見積もり値を用いる。具体的には、楽観的な見積もり（最小値）、悲観的な見積もり（最大値）、そして最も可能性が高い見積もり（中間値）の3つを考慮する。この方式により、リスクを平準化し、より現実的な見積もりが可能となる。これらの値を元に算出される平均値が、タスクにかかる時間やコストの予測値として利用される。三点見積りは特に不確実性のあるプロジェクトにおいて、リスク管理を助けるために非常に効果的であり、プロジェクトマネジメントにおいて広く用いられている技法である。",
-          "vi": "Phương pháp ước lượng dựa trên ba giá trị: lạc quan, bi quan và có khả năng xảy ra nhất."
+          "ja": "活動期間やコストの不確実性を、楽観値（O）、最頻値（M）、悲観値（P）の三つで表す見積手法である。単純平均を用いる場合もあるが、PERTでは最頻値を重く見て期待値を（O＋4M＋P）÷6で求める。単一の値だけでなく幅を考慮することで、リスクを織り込んだ計画を立てやすくなる。",
+          "vi": "Phương pháp dùng ba giá trị lạc quan (O), khả dĩ nhất (M) và bi quan (P) để biểu diễn độ bất định của thời lượng hoặc chi phí. Có thể dùng trung bình đơn giản tùy phương pháp, nhưng PERT tính kỳ vọng theo (O + 4M + P) / 6, trong đó M có trọng số lớn hơn."
         },
         {
           "type": "point",
@@ -443,8 +443,8 @@
           "reading": "さんてんみつもり",
           "english": "Three-Point Estimation",
           "vi": "Ước lượng ba điểm",
-          "definitionJa": "プロジェクトのタスクや活動にかかる時間やコストを予測する方法である。",
-          "definitionVi": "Phương pháp ước lượng dựa trên ba giá trị: lạc quan, bi quan và có khả năng xảy ra nhất."
+          "definitionJa": "楽観値、最頻値、悲観値を用いて活動期間又はコストの不確実性を反映する見積手法。",
+          "definitionVi": "Kỹ thuật ước lượng phản ánh độ bất định bằng ba giá trị lạc quan, khả dĩ nhất và bi quan."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Three-Point Estimation"]
@@ -466,7 +466,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト計画において、詳細な作業単位ごとにコストや時間を見積もり、それらを集計して全体の見積もりを行う手法である。この手法は、各作業が具体的に表れているため、より正確な見積もりを得ることができる。しかし、作業内容の詳細が不明な段階では準備が難しいため、初期段階のプロジェクトで使用する際は、時間と労力を要することがある。例えば、ソフトウェア開発プロジェクトでは、各機能の実装にかかる時間や費用を算出し、それらを総合して全体のプロジェクト費用を見込む。このように、プロジェクト管理において信頼性の高い評価を提供し、計画の実行性を確認する重要な技法である。",
-          "vi": "Phương pháp ước lượng từng đơn vị công việc chi tiết rồi tổng hợp thành ước lượng của toàn dự án."
+          "vi": "Phương pháp ước lượng từng đơn vị công việc chi tiết rồi tổng hợp thành ước lượng của toàn dự án. Ước lượng chi tiết từng hoạt động hoặc work package rồi cộng dồn, thường chính xác hơn nhưng tốn công và cần phạm vi đủ rõ."
         },
         {
           "type": "point",
@@ -481,7 +481,7 @@
           "english": "Bottom-Up Estimation",
           "vi": "Ước lượng từ dưới lên",
           "definitionJa": "プロジェクト計画において、詳細な作業単位ごとにコストや時間を見積もり、それらを集計して全体の見積もりを行う手法である。",
-          "definitionVi": "Phương pháp ước lượng từng đơn vị công việc chi tiết rồi tổng hợp thành ước lượng của toàn dự án."
+          "definitionVi": "Ước lượng từ dưới lên là phương pháp ước lượng từng đơn vị công việc chi tiết rồi tổng hợp thành ước lượng của toàn dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Bottom-Up Estimation"]
@@ -503,7 +503,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト管理において、タスクや活動の実施順序や所要時間を視覚的に示す手法である。この分析は、タスク間の依存関係を明確にし、プロジェクト全体のスケジュールを最適化することを目的としている。具体的には、各タスクをノードとして、それらを線でつなぐ形式のネットワーク図が用いられる。この図によって、クリティカルパスと呼ばれる、プロジェクト全体の所要時間に最も直接的な影響を与えるタスクの経路を特定することが可能となる。これにより、リソースの効率的な配分や、遅延が発生した場合の対策を早期に講じることができるため、スケジュール作成や管理において非常に重要な技術となっている。",
-          "vi": "Phương pháp phân tích thứ tự, thời lượng và quan hệ phụ thuộc giữa các hoạt động để tối ưu lịch trình."
+          "vi": "Phương pháp phân tích thứ tự, thời lượng và quan hệ phụ thuộc giữa các hoạt động để tối ưu lịch trình. Phân tích tiến và lùi trên sơ đồ phụ thuộc để tính thời điểm sớm, muộn, độ dự trữ và đường găng."
         },
         {
           "type": "point",
@@ -518,7 +518,7 @@
           "english": "Schedule Network Analysis",
           "vi": "Phân tích mạng lịch trình",
           "definitionJa": "プロジェクト管理において、タスクや活動の実施順序や所要時間を視覚的に示す手法である。",
-          "definitionVi": "Phương pháp phân tích thứ tự, thời lượng và quan hệ phụ thuộc giữa các hoạt động để tối ưu lịch trình."
+          "definitionVi": "Phân tích mạng lịch trình là phương pháp phân tích thứ tự, thời lượng và quan hệ phụ thuộc giữa các hoạt động để tối ưu lịch trình."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Schedule Network Analysis"]
@@ -529,7 +529,7 @@
       "titleJa": "PERT",
       "titleVi": "PERT",
       "importance": "high",
-      "summaryJa": "プロジェクトの計画と管理において用いられる手法の一つである。",
+      "summaryJa": "三点見積りとネットワーク図を用いて、不確実な活動期間を考慮しながらプロジェクトの所要期間を分析する手法である。",
       "summaryVi": "Phương pháp quản lý dự án biểu diễn quan hệ giữa các công việc và sử dụng các ước lượng thời gian để lập kế hoạch.",
       "content": [
         {
@@ -539,8 +539,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトの計画と管理において用いられる手法の一つである。この手法は、プロジェクトの各工程やタスクの相互関係を図式化し、全体のスケジュールを見通しやすくすることを目的としている。PERTでは、各タスクにかかる時間を推定し、最短経路を特定することで、プロジェクトの完成までの期間を計算できる。具体的には、各タスクの所要時間を楽観的・悲観的・最も可能性の高い見積もりの3つの値で評価し、それを基に全体の進行状況を把握する。そのため、プロジェクトを進める際にリスクを減らし、効率的に作業を進行させるためのツールとして、特に複雑なプロジェクトにおいて非常に有用である。ガントチャートなど他のプロジェクト管理手法とともに使用されることが多く、計画の透明性を高め、進行状況を適切に管理するために欠かせない技術である。",
-          "vi": "Phương pháp quản lý dự án biểu diễn quan hệ giữa các công việc và sử dụng các ước lượng thời gian để lập kế hoạch."
+          "ja": "PERTは、活動の依存関係をネットワーク図で表し、活動期間を楽観値、最頻値、悲観値で見積もってスケジュールを分析する手法である。期待所要時間は一般に（楽観値＋4×最頻値＋悲観値）÷6で求める。開始から終了までの経路のうち合計所要時間が最も長いクリティカルパスが、プロジェクトの最短完了期間を決めるのであり、最短経路を探す手法ではない。",
+          "vi": "PERT biểu diễn quan hệ phụ thuộc bằng sơ đồ mạng và ước lượng thời lượng bằng ba giá trị lạc quan, khả dĩ nhất và bi quan. Thời gian kỳ vọng thường là (O + 4M + P) / 6; đường găng có tổng thời lượng dài nhất quyết định thời gian hoàn thành ngắn nhất của dự án, không phải đường ngắn nhất."
         },
         {
           "type": "point",
@@ -554,8 +554,8 @@
           "reading": "ぱーと",
           "english": "Program Evaluation and Review Technique",
           "vi": "PERT",
-          "definitionJa": "プロジェクトの計画と管理において用いられる手法の一つである。",
-          "definitionVi": "Phương pháp quản lý dự án biểu diễn quan hệ giữa các công việc và sử dụng các ước lượng thời gian để lập kế hoạch."
+          "definitionJa": "活動期間を三点見積りで扱い、ネットワーク図によってプロジェクトの所要期間とクリティカルパスを分析する手法。",
+          "definitionVi": "Kỹ thuật dùng ước lượng ba điểm và sơ đồ mạng để phân tích thời gian dự án cùng đường găng."
         }
       ],
       "tags": [
@@ -581,7 +581,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト管理の手法の一つであり、タスクの最長経路を特定することで、プロジェクトの最短完了時間を計算するために使用される。具体的には、プロジェクトの各タスクの所要時間と依存関係を分析し、どのタスクが遅延すると全体の進行に影響を与えるかを特定する。この方法によって、重要なタスクに優先的にリソースを割り当てることが可能になり、効率的なスケジュール管理が実現される。例えば、あるプロジェクトで、タスクAが完了しないとタスクBとCが始められない場合、タスクAがクリティカルパス上に位置し、遅延が全体の進行に直接影響を与えるということが理解できる。このように、CPMはプロジェクトの成功を確保するための強力なツールとなる。",
-          "vi": "Phương pháp xác định đường công việc dài nhất để tính thời gian hoàn thành ngắn nhất của dự án."
+          "vi": "Phương pháp xác định đường công việc dài nhất để tính thời gian hoàn thành ngắn nhất của dự án. CPM xác định chuỗi hoạt động có tổng thời lượng dài nhất; trễ trên đường găng làm trễ dự án nếu không có biện pháp bù."
         },
         {
           "type": "point",
@@ -595,8 +595,8 @@
           "reading": "しーぴーえむ",
           "english": "Critical Path Method",
           "vi": "CPM",
-          "definitionJa": "プロジェクト管理の手法の一つであり、タスクの最長経路を特定することで、プロジェクトの最短完了時間を計算するために使用される。",
-          "definitionVi": "Phương pháp xác định đường công việc dài nhất để tính thời gian hoàn thành ngắn nhất của dự án."
+          "definitionJa": "活動の依存関係と所要時間から合計所要時間が最長の経路を特定し、プロジェクトの最短完了期間を求める手法。",
+          "definitionVi": "Phương pháp xác định đường có tổng thời lượng dài nhất từ quan hệ phụ thuộc để tính thời gian hoàn thành ngắn nhất của dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Critical Path Method"]
@@ -618,7 +618,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト管理やスケジュール作成に用いる視覚的なツールの一つである。この図は、作業の順序や依存関係を示すために、矢印を使ってタスク同士をつなげる形で構成される。例えば、あるタスクが完了してから次のタスクが始まる場合、その関係を矢印で示すことで、作業の流れが明確になる。作業の遅延を最小限に抑え、効率よくプロジェクトを進行するための計画を立てる助けとなる。また、クリティカルパス法とも関連があり、プロジェクト全体の期間を短縮するための重要なタスクを特定するために使用される。このように、アローダイアグラムはプロジェクト管理において効果的なツールである。",
-          "vi": "Công cụ trực quan dùng mũi tên để biểu diễn thứ tự và quan hệ phụ thuộc giữa các công việc."
+          "vi": "Công cụ trực quan dùng mũi tên để biểu diễn thứ tự và quan hệ phụ thuộc giữa các công việc. Trong Arrow Diagram kiểu activity-on-arrow, mũi tên biểu diễn hoạt động và nút biểu diễn sự kiện; dummy activity có thể biểu diễn phụ thuộc logic."
         },
         {
           "type": "point",
@@ -629,11 +629,11 @@
       "terms": [
         {
           "term": "アローダイアグラム",
-          "reading": "",
+          "reading": "あろーだいあぐらむ",
           "english": "Arrow Diagram",
           "vi": "Sơ đồ mũi tên",
           "definitionJa": "プロジェクト管理やスケジュール作成に用いる視覚的なツールの一つである。",
-          "definitionVi": "Công cụ trực quan dùng mũi tên để biểu diễn thứ tự và quan hệ phụ thuộc giữa các công việc."
+          "definitionVi": "Sơ đồ mũi tên là công cụ trực quan dùng mũi tên để biểu diễn thứ tự và quan hệ phụ thuộc giữa các công việc."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Arrow Diagram"]
@@ -655,7 +655,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトのスケジュールを視覚的に表すためのツールである。横軸に時間、縦軸にタスクを配置し、各タスクの実施期間を棒グラフとして示すことで、プロジェクトの進捗状況を一目で把握できるようにする。これにより、タスクの開始日や終了日、並行して進行するタスクの関係を視覚的に確認することが可能で、効率的なプロジェクト管理を支援する。特に工事現場やソフトウェア開発など、期限に対してタスクの調整が求められる場面で広く利用されており、進捗の遅れや課題を早期に発見する手助けとなる。さらに、チームメンバー間でのコミュニケーションの促進にも寄与し、プロジェクト成功への重要な要素となる。",
-          "vi": "Công cụ biểu diễn lịch trình bằng các thanh theo trục thời gian để theo dõi thời gian và tiến độ của từng nhiệm vụ."
+          "vi": "Công cụ biểu diễn lịch trình bằng các thanh theo trục thời gian để theo dõi thời gian và tiến độ của từng nhiệm vụ. Thanh ngang biểu diễn thời điểm và thời lượng, giúp theo dõi trực quan; khác WBS vì không phải cấu trúc phân rã toàn bộ phạm vi."
         },
         {
           "type": "point",
@@ -666,11 +666,11 @@
       "terms": [
         {
           "term": "ガントチャート",
-          "reading": "",
+          "reading": "がんとちゃーと",
           "english": "Gantt Chart",
           "vi": "Biểu đồ Gantt",
           "definitionJa": "プロジェクトのスケジュールを視覚的に表すためのツールである。",
-          "definitionVi": "Công cụ biểu diễn lịch trình bằng các thanh theo trục thời gian để theo dõi thời gian và tiến độ của từng nhiệm vụ."
+          "definitionVi": "Biểu đồ Gantt là công cụ biểu diễn lịch trình bằng các thanh theo trục thời gian để theo dõi thời gian và tiến độ của từng nhiệm vụ."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Gantt Chart"]
@@ -692,7 +692,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトの進行状況を測るために設定された重要な節目や目標のことである。プロジェクト管理において、マイルストーンは特定の期間内に達成すべきタスクや成果物を示しており、プロジェクトの進捗を可視化する役割を果たす。例えば、ソフトウェア開発プロジェクトでは、要件定義の完了やアルファ版のリリースなどがマイルストーンとなることが一般的である。これにより、プロジェクトチームは進捗を確認し、必要に応じて計画を修正することができ、最終的な目標に向けて効果的に進むことが可能となる。マイルストーンの設定は、プロジェクトの管理を円滑に進めるうえで非常に重要な要素である。",
-          "vi": "Mốc hoặc mục tiêu quan trọng được đặt ra để đo lường tiến độ dự án."
+          "vi": "Mốc hoặc mục tiêu quan trọng được đặt ra để đo lường tiến độ dự án. Mốc đánh dấu sự kiện hoặc điểm kiểm soát quan trọng và thường có thời lượng bằng 0, nên không phải một task kéo dài."
         },
         {
           "type": "point",
@@ -703,11 +703,11 @@
       "terms": [
         {
           "term": "マイルストーン",
-          "reading": "",
+          "reading": "まいるすとーん",
           "english": "Milestone",
           "vi": "Cột mốc",
           "definitionJa": "プロジェクトの進行状況を測るために設定された重要な節目や目標のことである。",
-          "definitionVi": "Mốc hoặc mục tiêu quan trọng được đặt ra để đo lường tiến độ dự án."
+          "definitionVi": "Cột mốc là mốc hoặc mục tiêu quan trọng được đặt ra để đo lường tiến độ dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Milestone"]
@@ -729,7 +729,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトのスケジュールを短縮するために、リソースを追加投入したり、作業の手法を変更したりする手法である。この技法は、特に期限が迫っているプロジェクトにおいて効果的で、コストの増加を伴うことがあるため、慎重に計画する必要がある。重要な作業やタスクに焦点を当て、その進行を加速させることで、全体のプロジェクト日程を短縮することを目的としている。具体的には、より多くの人員を配置したり、作業時間を延長することが一般的な方法である。クラッシングを実施する際は、優先順位を明確にし、リスクを十分に検討した上で進めることが、成功のカギとなる。これにより、リソースを効率的に利用しながら、時間を最大限に活用することができる。",
-          "vi": "Kỹ thuật rút ngắn lịch trình bằng cách bổ sung nguồn lực hoặc thay đổi phương pháp thực hiện, thường làm tăng chi phí."
+          "vi": "Kỹ thuật rút ngắn lịch trình bằng cách bổ sung nguồn lực hoặc thay đổi phương pháp thực hiện, thường làm tăng chi phí. Crashing bổ sung nguồn lực hoặc chi phí cho hoạt động đường găng để rút ngắn lịch với mức tăng chi phí thấp nhất khả thi."
         },
         {
           "type": "point",
@@ -740,11 +740,11 @@
       "terms": [
         {
           "term": "クラッシング",
-          "reading": "",
+          "reading": "くらっしんぐ",
           "english": "Crashing",
           "vi": "Crashing",
           "definitionJa": "プロジェクトのスケジュールを短縮するために、リソースを追加投入したり、作業の手法を変更したりする手法である。",
-          "definitionVi": "Kỹ thuật rút ngắn lịch trình bằng cách bổ sung nguồn lực hoặc thay đổi phương pháp thực hiện, thường làm tăng chi phí."
+          "definitionVi": "Crashing là kỹ thuật rút ngắn lịch trình bằng cách bổ sung nguồn lực hoặc thay đổi phương pháp thực hiện, thường làm tăng chi phí."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Crashing"]
@@ -766,7 +766,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト管理において、スケジュールを短縮するために活動を並行して実施する手法である。通常、プロジェクトは各工程を順番に進めるが、ファストトラッキングでは、特定のタスクを重複させたり、早めに着手することによって、全体の進行を加速させる。例えば、建設プロジェクトにおいて、設計と施工を同時に進めることで、従来のスケジュールよりも早く完成させることが可能になる。しかし、並行作業はリスクも伴うため、適切な調整やコミュニケーションが求められる。緊急の納期に対応する際や、リソースが豊富な場合に特に効果を発揮することがある。プロジェクトの完成をスピードアップしたい場合に、非常に有用な技法である。",
-          "vi": "Kỹ thuật rút ngắn lịch trình bằng cách thực hiện song song các hoạt động vốn dự kiến thực hiện tuần tự."
+          "vi": "Kỹ thuật rút ngắn lịch trình bằng cách thực hiện song song các hoạt động vốn dự kiến thực hiện tuần tự. Fast Tracking cho thực hiện song song các hoạt động vốn tuần tự, có thể rút ngắn lịch nhưng tăng rủi ro làm lại và phối hợp."
         },
         {
           "type": "point",
@@ -777,11 +777,11 @@
       "terms": [
         {
           "term": "ファストトラッキング",
-          "reading": "",
+          "reading": "ふぁすととらっきんぐ",
           "english": "Fast Tracking",
           "vi": "Fast Tracking",
           "definitionJa": "プロジェクト管理において、スケジュールを短縮するために活動を並行して実施する手法である。",
-          "definitionVi": "Kỹ thuật rút ngắn lịch trình bằng cách thực hiện song song các hoạt động vốn dự kiến thực hiện tuần tự."
+          "definitionVi": "Fast Tracking là kỹ thuật rút ngắn lịch trình bằng cách thực hiện song song các hoạt động vốn dự kiến thực hiện tuần tự."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Fast Tracking"]
@@ -803,7 +803,7 @@
         {
           "type": "paragraph",
           "ja": "コンピュータやネットワークにおいて、操作を行ってからその結果が表示されるまでの遅延時間を指す用語である。特にオンラインゲームや動画ストリーミングなどでよく体験される現象であり、プレイヤーのアクションに対する反応が遅れることを意味する。例えば、ゲーム内でキャラクターを動かした際に、瞬時に動かない場合、その原因としてラグが考えられる。ラグの原因は、ネットワーク接続の不良やサーバの処理能力の不足、デバイスの性能に起因することが多い。ラグを軽減するためには、安定したインターネット接続を確保したり、不要なアプリケーションを終了させたりすることが有効である。このように、ラグを理解し対処することは、快適なデジタル体験を維持するために重要である。",
-          "vi": "Theo nội dung nguồn: độ trễ từ khi thao tác đến khi kết quả được hiển thị trong máy tính hoặc mạng."
+          "vi": "Theo nội dung nguồn: độ trễ từ khi thao tác đến khi kết quả được hiển thị trong máy tính hoặc mạng. Lag chèn khoảng chờ giữa hai hoạt động phụ thuộc, ví dụ chờ vật liệu khô trước khi bắt đầu bước sau."
         },
         {
           "type": "point",
@@ -814,11 +814,11 @@
       "terms": [
         {
           "term": "ラグ",
-          "reading": "",
+          "reading": "らぐ",
           "english": "Lag",
           "vi": "Lag",
           "definitionJa": "コンピュータやネットワークにおいて、操作を行ってからその結果が表示されるまでの遅延時間を指す用語である。",
-          "definitionVi": "Theo nội dung nguồn: độ trễ từ khi thao tác đến khi kết quả được hiển thị trong máy tính hoặc mạng."
+          "definitionVi": "Lag là theo nội dung nguồn: độ trễ từ khi thao tác đến khi kết quả được hiển thị trong máy tính hoặc mạng."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Lag"]
@@ -840,7 +840,7 @@
         {
           "type": "paragraph",
           "ja": "マーケティングや営業の分野において、製品やサービスに対する関心を持った潜在的な顧客を指す用語である。特定の情報を提供することで、将来的な売上につながる可能性を秘めているため、企業にとって重要な資産である。リードを獲得するためには、Webサイトやソーシャルメディアでの広告、コンテンツマーケティング、メールキャンペーンなど、さまざまな手法が用いられる。これらの手法によって、潜在顧客の連絡先情報を収集し、その後、ターゲットに合わせたアプローチを行うことができる。また、リードはリードスコアリングと呼ばれるプロセスを通じて、その関心度や購入意欲を評価されることが多く、これに基づいて営業活動に優先順位をつけたり、戦略を練ったりすることが可能である。このように、リードはビジネスの成長を促進する重要な要素と位置づけられている。",
-          "vi": "Theo nội dung nguồn: khách hàng tiềm năng có sự quan tâm đến sản phẩm hoặc dịch vụ trong marketing và bán hàng."
+          "vi": "Theo nội dung nguồn: khách hàng tiềm năng có sự quan tâm đến sản phẩm hoặc dịch vụ trong marketing và bán hàng. Lead cho phép hoạt động sau bắt đầu sớm hơn so với quan hệ tuần tự hoàn toàn, tức tạo phần chồng lấn có kiểm soát."
         },
         {
           "type": "point",
@@ -851,11 +851,11 @@
       "terms": [
         {
           "term": "リード",
-          "reading": "",
+          "reading": "りーど",
           "english": "Lead",
           "vi": "Lead",
           "definitionJa": "マーケティングや営業の分野において、製品やサービスに対する関心を持った潜在的な顧客を指す用語である。",
-          "definitionVi": "Theo nội dung nguồn: khách hàng tiềm năng có sự quan tâm đến sản phẩm hoặc dịch vụ trong marketing và bán hàng."
+          "definitionVi": "Lead là theo nội dung nguồn: khách hàng tiềm năng có sự quan tâm đến sản phẩm hoặc dịch vụ trong marketing và bán hàng."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Lead"]
@@ -876,8 +876,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクト管理における進捗を評価する手法である。具体的には、プロジェクトの進行状況を時間やコストの観点から定量的に把握し、計画通りに進んでいるかを分析するための指標を提供する。「実施した作業の価値」と「実際にかかったコスト」の比較を行い、得られたデータからプロジェクトの健康状態を判定する。この手法には、計画値、実績値、出来高といった重要な指標が含まれる。これにより、プロジェクトマネージャーはリスクを特定し、必要な調整を行うことが可能となるため、効率的なプロジェクト遂行に寄与する。特に大規模なプロジェクトや予算管理が重要な際に有効で、成功の確率を高めるための重要なツールとなる。",
-          "vi": "Phương pháp đánh giá tiến độ dự án định lượng dựa trên giá trị kế hoạch, chi phí thực tế và giá trị đạt được."
+          "ja": "EVMは、計画価値（PV）、出来高（EV）、実コスト（AC）を同じ基準で比較し、コストとスケジュールの実績を定量的に評価する手法である。スケジュール差異はSV＝EV－PV、コスト差異はCV＝EV－ACであり、いずれも負なら不利な状態を示す。さらにSPI＝EV÷PV、CPI＝EV÷ACを用いて効率を評価し、完成時の見通しを予測する。",
+          "vi": "EVM so sánh Planned Value (PV), Earned Value (EV) và Actual Cost (AC) trên cùng cơ sở để đánh giá tiến độ và chi phí. SV = EV − PV, CV = EV − AC; giá trị âm là bất lợi, còn SPI = EV/PV và CPI = EV/AC đo hiệu suất để hỗ trợ dự báo."
         },
         {
           "type": "point",
@@ -891,8 +891,8 @@
           "reading": "いーぶいえむ",
           "english": "Earned Value Management",
           "vi": "EVM",
-          "definitionJa": "プロジェクト管理における進捗を評価する手法である。",
-          "definitionVi": "Phương pháp đánh giá tiến độ dự án định lượng dựa trên giá trị kế hoạch, chi phí thực tế và giá trị đạt được."
+          "definitionJa": "PV、EV、ACを比較してプロジェクトのスケジュール及びコストの実績を定量的に評価する手法。",
+          "definitionVi": "Phương pháp so sánh PV, EV và AC để đánh giá định lượng hiệu suất tiến độ và chi phí dự án."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Earned Value Management"]
@@ -914,7 +914,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクト全体のスケジュールを視覚的に示したものである。主に各作業やタスクの開始日や終了日、またそれらの依存関係を明確にすることで、プロジェクトの進捗状況を把握しやすくするツールとなっている。リソースの最適配分やタスクの優先順位の設定にも役立ち、プロジェクトチーム全体が同じ目標に向かって効率的に活動できるよう支援する。例えば、建設プロジェクトでは、作業工程を整理し、各段階の完了までのタイムラインを示すことで、工事の遅延を防ぐための計画が立てられる。このように、大日程計画表はプロジェクト管理において不可欠なツールであり、状況の変化に応じた調整も可能にする役割を果たしている。",
-          "vi": "Bảng thể hiện trực quan lịch trình tổng thể của dự án, gồm thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc của các công việc."
+          "vi": "Bảng thể hiện trực quan lịch trình tổng thể của dự án, gồm thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc của các công việc. Master Schedule thể hiện các pha, sản phẩm bàn giao và mốc lớn để lãnh đạo nhìn toàn cảnh, không chứa mọi thao tác chi tiết."
         },
         {
           "type": "point",
@@ -929,7 +929,7 @@
           "english": "Master Schedule",
           "vi": "Kế hoạch tổng thể",
           "definitionJa": "プロジェクト全体のスケジュールを視覚的に示したものである。",
-          "definitionVi": "Bảng thể hiện trực quan lịch trình tổng thể của dự án, gồm thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc của các công việc."
+          "definitionVi": "Kế hoạch tổng thể là bảng thể hiện trực quan lịch trình tổng thể của dự án, gồm thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc của các công việc."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Master Schedule"]
@@ -951,7 +951,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトの進行における各工程の作業内容やスケジュールを示す表である。この計画表は、特定の期間における作業の流れを整理し、各工程が円滑に進むように調整を行うために用いられる。具体的には、作業の開始日や終了日、担当者、必要なリソースを明示することで、チーム全体が目標を共有しやすくなる。また、進捗状況を把握するための基準にもなり、問題が発生した際には速やかに対処するための指針を提供する役割も果たす。プロジェクト管理において、効率的な作業と成果の確保を目的とした重要なツールである。",
-          "vi": "Bảng thể hiện nội dung công việc và lịch trình của các công đoạn trong một giai đoạn trung hạn."
+          "vi": "Bảng thể hiện nội dung công việc và lịch trình của các công đoạn trong một giai đoạn trung hạn. Kế hoạch trung hạn triển khai master schedule theo quy trình hoặc nhóm công việc, làm cầu nối tới lịch tác nghiệp ngắn hạn."
         },
         {
           "type": "point",
@@ -963,10 +963,10 @@
         {
           "term": "中日程計画表",
           "reading": "ちゅうにっていけいかくひょう",
-          "english": "Mid-term Schedule",
+          "english": "Process Schedule",
           "vi": "Kế hoạch trung hạn",
           "definitionJa": "プロジェクトの進行における各工程の作業内容やスケジュールを示す表である。",
-          "definitionVi": "Bảng thể hiện nội dung công việc và lịch trình của các công đoạn trong một giai đoạn trung hạn."
+          "definitionVi": "Kế hoạch trung hạn là bảng thể hiện nội dung công việc và lịch trình của các công đoạn trong một giai đoạn trung hạn."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Mid-term Schedule"]
@@ -988,7 +988,7 @@
         {
           "type": "paragraph",
           "ja": "特定の週に実施する作業や業務の計画を視覚的に示した表である。通常は曜日ごとに内容が整理され、各業務の開始時間や終了時間、担当者などが明示される。これにより、チーム全体が何をいつ行うかを一目で把握することができ、効率的な進行を支援する。具体的な例としては、プロジェクトのタスクを曜日ごとに振り分け、各メンバーが担当する業務を明確にすることで、納期の厳守やリソースの最適化を図るために活用される。特にプロジェクト管理やチームの連携を強化する重要なツールとして、多くの企業や組織で広く利用されている。",
-          "vi": "Bảng thể hiện trực quan các công việc dự kiến thực hiện trong một tuần, thường theo ngày, thời gian và người phụ trách."
+          "vi": "Bảng thể hiện trực quan các công việc dự kiến thực hiện trong một tuần, thường theo ngày, thời gian và người phụ trách. Kế hoạch ngắn hạn phân rã công việc theo ngày hoặc tuần, người phụ trách và điều kiện thực hiện để điều hành tại hiện trường."
         },
         {
           "type": "point",
@@ -1000,10 +1000,10 @@
         {
           "term": "小日程計画表",
           "reading": "しょうにっていけいかくひょう",
-          "english": "Weekly Schedule Chart",
+          "english": "Weekly Work Schedule",
           "vi": "Bảng kế hoạch ngắn hạn",
           "definitionJa": "特定の週に実施する作業や業務の計画を視覚的に示した表である。",
-          "definitionVi": "Bảng thể hiện trực quan các công việc dự kiến thực hiện trong một tuần, thường theo ngày, thời gian và người phụ trách."
+          "definitionVi": "Bảng kế hoạch ngắn hạn là bảng thể hiện trực quan các công việc dự kiến thực hiện trong một tuần, thường theo ngày, thời gian và người phụ trách."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Weekly Schedule Chart"]
@@ -1025,7 +1025,7 @@
         {
           "type": "paragraph",
           "ja": "プロジェクトや業務の進行状況を関係者に伝えるための報告書である。主に、目標に対する達成度や今後の予定を明確にすることを目的としており、定期的に作成されることが多い。進捗報告には、完了したタスク、未完了のタスク、問題点やリスク、次のステップなどの情報が含まれ、関係者間のコミュニケーションを円滑にする効果がある。この報告は、チーム内での情報共有や意思決定に役立ち、プロジェクトの成功に向けた方向性を確認する重要な手段となる。また、進捗報告は会議やメールなど、さまざまな形で共有されることがあり、視覚的なグラフやチャートを用いてわかりやすくまとめられる場合も多い。これにより、進捗状況が一目でわかりやすくなり、関係者の理解が深まる。",
-          "vi": "Báo cáo truyền đạt tình trạng tiến triển của dự án hoặc công việc cho các bên liên quan."
+          "vi": "Báo cáo truyền đạt tình trạng tiến triển của dự án hoặc công việc cho các bên liên quan. Báo cáo đối chiếu thực tế với baseline, giải thích sai lệch, dự báo hoàn thành và nêu quyết định hoặc hỗ trợ cần thiết."
         },
         {
           "type": "point",
@@ -1040,7 +1040,7 @@
           "english": "Progress Report",
           "vi": "Báo cáo tiến độ",
           "definitionJa": "プロジェクトや業務の進行状況を関係者に伝えるための報告書である。",
-          "definitionVi": "Báo cáo truyền đạt tình trạng tiến triển của dự án hoặc công việc cho các bên liên quan."
+          "definitionVi": "Báo cáo tiến độ là báo cáo truyền đạt tình trạng tiến triển của dự án hoặc công việc cho các bên liên quan."
         }
       ],
       "tags": ["14-6", "プロジェクトの時間", "Progress Report"]
