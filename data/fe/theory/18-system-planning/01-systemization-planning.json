@@ -4,5 +4,720 @@
   "titleJa": "システム化計画",
   "titleVi": "Kế hoạch hệ thống hóa",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "system-optimization-method",
+      "order": 1,
+      "titleJa": "システム最適化手法",
+      "titleVi": "Phương pháp tối ưu hóa hệ thống",
+      "importance": "medium",
+      "summaryJa": "システムの性能と効率を高めるため、資源の利用状況を分析し、無駄を減らす手法。負荷分散、キャッシュ管理、アルゴリズムの改善、適切な機器の選定などが含まれる。",
+      "summaryVi": "Là các phương pháp nâng cao hiệu năng và hiệu quả của hệ thống bằng cách phân tích mức sử dụng tài nguyên và giảm lãng phí. Bao gồm phân tán tải, quản lý bộ nhớ đệm, cải tiến thuật toán và lựa chọn thiết bị phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム最適化手法とは",
+          "vi": "Phương pháp tối ưu hóa hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの性能と効率を高めるため、資源の利用状況を分析し、無駄を減らす手法。負荷分散、キャッシュ管理、アルゴリズムの改善、適切な機器の選定などが含まれる。",
+          "vi": "Là các phương pháp nâng cao hiệu năng và hiệu quả của hệ thống bằng cách phân tích mức sử dụng tài nguyên và giảm lãng phí. Bao gồm phân tán tải, quản lý bộ nhớ đệm, cải tiến thuật toán và lựa chọn thiết bị phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "性能向上だけでなく、要件を満たしながらコストを抑えることも重要。",
+          "vi": "Không chỉ tăng hiệu năng mà còn phải đáp ứng yêu cầu trong khi kiểm soát chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム最適化手法",
+          "english": "System Optimization Method",
+          "vi": "Phương pháp tối ưu hóa hệ thống",
+          "definitionJa": "システムの性能と効率を高めるため、資源の利用状況を分析し、無駄を減らす手法。負荷分散、キャッシュ管理、アルゴリズムの改善、適切な機器の選定などが含まれる。",
+          "definitionVi": "Là các phương pháp nâng cao hiệu năng và hiệu quả của hệ thống bằng cách phân tích mức sử dụng tài nguyên và giảm lãng phí. Bao gồm phân tán tải, quản lý bộ nhớ đệm, cải tiến thuật toán và lựa chọn thiết bị phù hợp.",
+          "reading": "しすてむさいてきかしゅほう"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "system-optimization-method"
+      ]
+    },
+    {
+      "id": "system-concept-sharing",
+      "order": 2,
+      "titleJa": "システム化構想の共有",
+      "titleVi": "Chia sẻ định hướng xây dựng hệ thống",
+      "importance": "medium",
+      "summaryJa": "新しいシステムの導入目的、基本方針、想定機能、予定、担当などの構想を関係者に伝え、共通理解を形成すること。",
+      "summaryVi": "Là việc truyền đạt cho các bên liên quan về mục đích triển khai hệ thống mới, định hướng cơ bản, chức năng dự kiến, tiến độ và người phụ trách để hình thành nhận thức chung.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム化構想の共有とは",
+          "vi": "Chia sẻ định hướng xây dựng hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新しいシステムの導入目的、基本方針、想定機能、予定、担当などの構想を関係者に伝え、共通理解を形成すること。",
+          "vi": "Là việc truyền đạt cho các bên liên quan về mục đích triển khai hệ thống mới, định hướng cơ bản, chức năng dự kiến, tiến độ và người phụ trách để hình thành nhận thức chung."
+        },
+        {
+          "type": "point",
+          "ja": "早期の情報共有と意見収集は、関係者の認識のずれを防ぐ。",
+          "vi": "Chia sẻ và thu thập ý kiến từ sớm giúp tránh hiểu sai khác nhau giữa các bên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム化構想の共有",
+          "english": "System Concept Sharing",
+          "vi": "Chia sẻ định hướng xây dựng hệ thống",
+          "definitionJa": "新しいシステムの導入目的、基本方針、想定機能、予定、担当などの構想を関係者に伝え、共通理解を形成すること。",
+          "definitionVi": "Là việc truyền đạt cho các bên liên quan về mục đích triển khai hệ thống mới, định hướng cơ bản, chức năng dự kiến, tiến độ và người phụ trách để hình thành nhận thức chung.",
+          "reading": "しすてむかこうそうのきょうゆう"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "system-concept-sharing"
+      ]
+    },
+    {
+      "id": "system-design",
+      "order": 3,
+      "titleJa": "システムデザイン",
+      "titleVi": "Thiết kế hệ thống",
+      "importance": "medium",
+      "summaryJa": "要求に基づき、システムの機能、構成、性能、データの保存方法、アクセス権限、画面などを設計すること。",
+      "summaryVi": "Là quá trình thiết kế chức năng, cấu trúc, hiệu năng, phương thức lưu dữ liệu, quyền truy cập và giao diện của hệ thống dựa trên các yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムデザインとは",
+          "vi": "Thiết kế hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "要求に基づき、システムの機能、構成、性能、データの保存方法、アクセス権限、画面などを設計すること。",
+          "vi": "Là quá trình thiết kế chức năng, cấu trúc, hiệu năng, phương thức lưu dữ liệu, quyền truy cập và giao diện của hệ thống dựa trên các yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "利用者の要求と品質要件を踏まえ、適切な技術と構成を選ぶ。",
+          "vi": "Lựa chọn công nghệ và cấu trúc phù hợp với yêu cầu người dùng và yêu cầu chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムデザイン",
+          "english": "System Design",
+          "vi": "Thiết kế hệ thống",
+          "definitionJa": "要求に基づき、システムの機能、構成、性能、データの保存方法、アクセス権限、画面などを設計すること。",
+          "definitionVi": "Là quá trình thiết kế chức năng, cấu trúc, hiệu năng, phương thức lưu dữ liệu, quyền truy cập và giao diện của hệ thống dựa trên các yêu cầu.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "system-design"]
+    },
+    {
+      "id": "business-analysis-body-of-knowledge",
+      "order": 4,
+      "titleJa": "BABOK",
+      "titleVi": "Bộ kiến thức về phân tích nghiệp vụ",
+      "importance": "high",
+      "summaryJa": "ビジネスアナリシスの知識と実践方法を体系化したガイド。現状分析、利害関係者との調整、要求の引き出し・分析などに役立つ。",
+      "summaryVi": "Là bộ hướng dẫn hệ thống hóa kiến thức và phương pháp thực hành phân tích nghiệp vụ, hỗ trợ phân tích hiện trạng, phối hợp với các bên liên quan, khai thác và phân tích yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BABOKとは",
+          "vi": "Bộ kiến thức về phân tích nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビジネスアナリシスの知識と実践方法を体系化したガイド。現状分析、利害関係者との調整、要求の引き出し・分析などに役立つ。",
+          "vi": "Là bộ hướng dẫn hệ thống hóa kiến thức và phương pháp thực hành phân tích nghiệp vụ, hỗ trợ phân tích hiện trạng, phối hợp với các bên liên quan, khai thác và phân tích yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "BABOKは分析の知識体系であり、特定の開発手法そのものではない。",
+          "vi": "BABOK là bộ kiến thức phân tích nghiệp vụ, không phải một phương pháp phát triển phần mềm cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BABOK",
+          "english": "Business Analysis Body of Knowledge",
+          "vi": "Bộ kiến thức về phân tích nghiệp vụ",
+          "definitionJa": "ビジネスアナリシスの知識と実践方法を体系化したガイド。現状分析、利害関係者との調整、要求の引き出し・分析などに役立つ。",
+          "definitionVi": "Là bộ hướng dẫn hệ thống hóa kiến thức và phương pháp thực hành phân tích nghiệp vụ, hỗ trợ phân tích hiện trạng, phối hợp với các bên liên quan, khai thác và phân tích yêu cầu.",
+          "reading": "びーえーぼっく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "business-analysis-body-of-knowledge"
+      ]
+    },
+    {
+      "id": "systems-of-record",
+      "order": 5,
+      "titleJa": "SoR",
+      "titleVi": "Hệ thống quản lý dữ liệu ghi nhận chính thức",
+      "importance": "high",
+      "summaryJa": "取引、顧客、会計、人事などの重要な業務記録を正確かつ一貫して保存・管理する基幹的なシステム。",
+      "summaryVi": "Là hệ thống cốt lõi lưu trữ và quản lý chính xác, nhất quán các bản ghi nghiệp vụ quan trọng như giao dịch, khách hàng, kế toán và nhân sự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SoRとは",
+          "vi": "Hệ thống quản lý dữ liệu ghi nhận chính thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "取引、顧客、会計、人事などの重要な業務記録を正確かつ一貫して保存・管理する基幹的なシステム。",
+          "vi": "Là hệ thống cốt lõi lưu trữ và quản lý chính xác, nhất quán các bản ghi nghiệp vụ quan trọng như giao dịch, khách hàng, kế toán và nhân sự."
+        },
+        {
+          "type": "point",
+          "ja": "SoRは記録の正確性・整合性を重視する。",
+          "vi": "SoR chú trọng tính chính xác và nhất quán của dữ liệu ghi nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SoR",
+          "english": "Systems of Record",
+          "vi": "Hệ thống quản lý dữ liệu ghi nhận chính thức",
+          "definitionJa": "取引、顧客、会計、人事などの重要な業務記録を正確かつ一貫して保存・管理する基幹的なシステム。",
+          "definitionVi": "Là hệ thống cốt lõi lưu trữ và quản lý chính xác, nhất quán các bản ghi nghiệp vụ quan trọng như giao dịch, khách hàng, kế toán và nhân sự.",
+          "reading": "えすおーあーる"
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "systems-of-record"]
+    },
+    {
+      "id": "systems-of-engagement",
+      "order": 6,
+      "titleJa": "SoE",
+      "titleVi": "Hệ thống tương tác với người dùng",
+      "importance": "high",
+      "summaryJa": "顧客や利用者との接点・対話を重視し、Webサービス、モバイルアプリ、SNSなどを通じて利用体験や関係性を高めるシステム。",
+      "summaryVi": "Là hệ thống chú trọng điểm tiếp xúc và tương tác với khách hàng hoặc người dùng, nâng cao trải nghiệm và quan hệ thông qua dịch vụ web, ứng dụng di động hoặc mạng xã hội.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SoEとは",
+          "vi": "Hệ thống tương tác với người dùng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客や利用者との接点・対話を重視し、Webサービス、モバイルアプリ、SNSなどを通じて利用体験や関係性を高めるシステム。",
+          "vi": "Là hệ thống chú trọng điểm tiếp xúc và tương tác với khách hàng hoặc người dùng, nâng cao trải nghiệm và quan hệ thông qua dịch vụ web, ứng dụng di động hoặc mạng xã hội."
+        },
+        {
+          "type": "point",
+          "ja": "SoEは利用者との交流や体験を重視し、SoRとは主な目的が異なる。",
+          "vi": "SoE tập trung vào tương tác và trải nghiệm, khác với SoR tập trung vào dữ liệu ghi nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SoE",
+          "english": "Systems of Engagement",
+          "vi": "Hệ thống tương tác với người dùng",
+          "definitionJa": "顧客や利用者との接点・対話を重視し、Webサービス、モバイルアプリ、SNSなどを通じて利用体験や関係性を高めるシステム。",
+          "definitionVi": "Là hệ thống chú trọng điểm tiếp xúc và tương tác với khách hàng hoặc người dùng, nâng cao trải nghiệm và quan hệ thông qua dịch vụ web, ứng dụng di động hoặc mạng xã hội.",
+          "reading": "えすおーいー"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "systems-of-engagement"
+      ]
+    },
+    {
+      "id": "systems-of-insight",
+      "order": 7,
+      "titleJa": "SoI",
+      "titleVi": "Hệ thống phân tích tạo ra thông tin chuyên sâu",
+      "importance": "high",
+      "summaryJa": "蓄積されたデータを分析し、傾向や課題、ビジネス上の洞察を得て意思決定に活用するシステム。",
+      "summaryVi": "Là hệ thống phân tích dữ liệu đã tích lũy để phát hiện xu hướng, vấn đề và thông tin chuyên sâu phục vụ quyết định kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SoIとは",
+          "vi": "Hệ thống phân tích tạo ra thông tin chuyên sâu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "蓄積されたデータを分析し、傾向や課題、ビジネス上の洞察を得て意思決定に活用するシステム。",
+          "vi": "Là hệ thống phân tích dữ liệu đã tích lũy để phát hiện xu hướng, vấn đề và thông tin chuyên sâu phục vụ quyết định kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "SoR＝記録、SoE＝交流、SoI＝分析と洞察。",
+          "vi": "SoR = ghi nhận dữ liệu; SoE = tương tác; SoI = phân tích và rút ra thông tin chuyên sâu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SoI",
+          "english": "Systems of Insight",
+          "vi": "Hệ thống phân tích tạo ra thông tin chuyên sâu",
+          "definitionJa": "蓄積されたデータを分析し、傾向や課題、ビジネス上の洞察を得て意思決定に活用するシステム。",
+          "definitionVi": "Là hệ thống phân tích dữ liệu đã tích lũy để phát hiện xu hướng, vấn đề và thông tin chuyên sâu phục vụ quyết định kinh doanh.",
+          "reading": "えすおーあい"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "systems-of-insight"
+      ]
+    },
+    {
+      "id": "fit-to-standard",
+      "order": 8,
+      "titleJa": "Fit to Standard",
+      "titleVi": "Điều chỉnh nghiệp vụ theo chức năng tiêu chuẩn",
+      "importance": "high",
+      "summaryJa": "パッケージソフトウェアの標準機能やベストプラクティスに業務を合わせ、個別のカスタマイズをできるだけ抑える導入方針。",
+      "summaryVi": "Là định hướng triển khai trong đó doanh nghiệp điều chỉnh quy trình nghiệp vụ theo chức năng tiêu chuẩn và thông lệ tốt của phần mềm đóng gói, hạn chế tùy chỉnh riêng ở mức có thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Fit to Standardとは",
+          "vi": "Điều chỉnh nghiệp vụ theo chức năng tiêu chuẩn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パッケージソフトウェアの標準機能やベストプラクティスに業務を合わせ、個別のカスタマイズをできるだけ抑える導入方針。",
+          "vi": "Là định hướng triển khai trong đó doanh nghiệp điều chỉnh quy trình nghiệp vụ theo chức năng tiêu chuẩn và thông lệ tốt của phần mềm đóng gói, hạn chế tùy chỉnh riêng ở mức có thể."
+        },
+        {
+          "type": "point",
+          "ja": "Fit to Standardは「システムを業務に合わせる」より「業務を標準に合わせる」を優先する。",
+          "vi": "Fit to Standard ưu tiên điều chỉnh nghiệp vụ theo chuẩn thay vì tùy biến hệ thống theo mọi quy trình hiện có."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Fit to Standard",
+          "english": "Fit to Standard",
+          "vi": "Điều chỉnh nghiệp vụ theo chức năng tiêu chuẩn",
+          "definitionJa": "パッケージソフトウェアの標準機能やベストプラクティスに業務を合わせ、個別のカスタマイズをできるだけ抑える導入方針。",
+          "definitionVi": "Là định hướng triển khai trong đó doanh nghiệp điều chỉnh quy trình nghiệp vụ theo chức năng tiêu chuẩn và thông lệ tốt của phần mềm đóng gói, hạn chế tùy chỉnh riêng ở mức có thể.",
+          "reading": "ふぃっととぅーすたんだーど"
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "fit-to-standard"]
+    },
+    {
+      "id": "overall-systemization-plan",
+      "order": 9,
+      "titleJa": "全体システム化計画",
+      "titleVi": "Kế hoạch hệ thống hóa tổng thể",
+      "importance": "high",
+      "summaryJa": "組織全体の業務課題や情報システムの状況を踏まえ、システム化の方針、優先順位、資源配分、実施計画をまとめること。",
+      "summaryVi": "Là kế hoạch xác định định hướng hệ thống hóa, thứ tự ưu tiên, phân bổ nguồn lực và phương án triển khai dựa trên các vấn đề nghiệp vụ và tình trạng hệ thống thông tin của toàn tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "全体システム化計画とは",
+          "vi": "Kế hoạch hệ thống hóa tổng thể là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織全体の業務課題や情報システムの状況を踏まえ、システム化の方針、優先順位、資源配分、実施計画をまとめること。",
+          "vi": "Là kế hoạch xác định định hướng hệ thống hóa, thứ tự ưu tiên, phân bổ nguồn lực và phương án triển khai dựa trên các vấn đề nghiệp vụ và tình trạng hệ thống thông tin của toàn tổ chức."
+        },
+        {
+          "type": "point",
+          "ja": "全体計画は複数の業務・システムを横断して整合性を図る。",
+          "vi": "Kế hoạch tổng thể bảo đảm tính đồng bộ giữa nhiều nghiệp vụ và hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "全体システム化計画",
+          "english": "Overall Systemization Plan",
+          "vi": "Kế hoạch hệ thống hóa tổng thể",
+          "definitionJa": "組織全体の業務課題や情報システムの状況を踏まえ、システム化の方針、優先順位、資源配分、実施計画をまとめること。",
+          "definitionVi": "Là kế hoạch xác định định hướng hệ thống hóa, thứ tự ưu tiên, phân bổ nguồn lực và phương án triển khai dựa trên các vấn đề nghiệp vụ và tình trạng hệ thống thông tin của toàn tổ chức.",
+          "reading": "ぜんたいしすてむかけいかく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "overall-systemization-plan"
+      ]
+    },
+    {
+      "id": "individual-systemization-plan",
+      "order": 10,
+      "titleJa": "個別システム化計画",
+      "titleVi": "Kế hoạch hệ thống hóa riêng cho từng hệ thống",
+      "importance": "high",
+      "summaryJa": "特定の業務やシステムを対象に、目的、対象範囲、必要機能、費用、工程、運用などを具体化する計画。",
+      "summaryVi": "Là kế hoạch cụ thể hóa mục tiêu, phạm vi, chức năng cần thiết, chi phí, các giai đoạn và phương án vận hành đối với một nghiệp vụ hoặc hệ thống cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "個別システム化計画とは",
+          "vi": "Kế hoạch hệ thống hóa riêng cho từng hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業務やシステムを対象に、目的、対象範囲、必要機能、費用、工程、運用などを具体化する計画。",
+          "vi": "Là kế hoạch cụ thể hóa mục tiêu, phạm vi, chức năng cần thiết, chi phí, các giai đoạn và phương án vận hành đối với một nghiệp vụ hoặc hệ thống cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "個別計画は全体計画との整合性を保って策定する。",
+          "vi": "Kế hoạch riêng phải nhất quán với kế hoạch hệ thống hóa tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "個別システム化計画",
+          "english": "Individual Systemization Plan",
+          "vi": "Kế hoạch hệ thống hóa riêng cho từng hệ thống",
+          "definitionJa": "特定の業務やシステムを対象に、目的、対象範囲、必要機能、費用、工程、運用などを具体化する計画。",
+          "definitionVi": "Là kế hoạch cụ thể hóa mục tiêu, phạm vi, chức năng cần thiết, chi phí, các giai đoạn và phương án vận hành đối với một nghiệp vụ hoặc hệ thống cụ thể.",
+          "reading": "こべつしすてむかけいかく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "individual-systemization-plan"
+      ]
+    },
+    {
+      "id": "system-scope",
+      "order": 11,
+      "titleJa": "システム適用範囲",
+      "titleVi": "Phạm vi áp dụng hệ thống",
+      "importance": "medium",
+      "summaryJa": "システムが対象とする業務、機能、データ、利用者などの境界を定めること。",
+      "summaryVi": "Là việc xác định ranh giới về nghiệp vụ, chức năng, dữ liệu và nhóm người dùng mà hệ thống sẽ phục vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム適用範囲とは",
+          "vi": "Phạm vi áp dụng hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムが対象とする業務、機能、データ、利用者などの境界を定めること。",
+          "vi": "Là việc xác định ranh giới về nghiệp vụ, chức năng, dữ liệu và nhóm người dùng mà hệ thống sẽ phục vụ."
+        },
+        {
+          "type": "point",
+          "ja": "対象に含むものと含まないものを明確にし、不要な機能追加を防ぐ。",
+          "vi": "Xác định rõ phần nằm trong và ngoài phạm vi để tránh bổ sung chức năng không cần thiết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム適用範囲",
+          "english": "System Scope",
+          "vi": "Phạm vi áp dụng hệ thống",
+          "definitionJa": "システムが対象とする業務、機能、データ、利用者などの境界を定めること。",
+          "definitionVi": "Là việc xác định ranh giới về nghiệp vụ, chức năng, dữ liệu và nhóm người dùng mà hệ thống sẽ phục vụ.",
+          "reading": "しすてむてきようはんい"
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "system-scope"]
+    },
+    {
+      "id": "overall-development-schedule",
+      "order": 12,
+      "titleJa": "全体開発スケジュール",
+      "titleVi": "Tiến độ phát triển tổng thể",
+      "importance": "medium",
+      "summaryJa": "要件定義、設計、実装、テストなどの工程について開始・終了時期と依存関係を定めた開発全体の予定。",
+      "summaryVi": "Là lịch trình toàn bộ quá trình phát triển, xác định thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc giữa các giai đoạn như xác định yêu cầu, thiết kế, lập trình và kiểm thử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "全体開発スケジュールとは",
+          "vi": "Tiến độ phát triển tổng thể là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "要件定義、設計、実装、テストなどの工程について開始・終了時期と依存関係を定めた開発全体の予定。",
+          "vi": "Là lịch trình toàn bộ quá trình phát triển, xác định thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc giữa các giai đoạn như xác định yêu cầu, thiết kế, lập trình và kiểm thử."
+        },
+        {
+          "type": "point",
+          "ja": "工程間の関係を把握し、進捗や遅延を管理する。",
+          "vi": "Theo dõi quan hệ giữa các giai đoạn để quản lý tiến độ và chậm trễ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "全体開発スケジュール",
+          "english": "Overall Development Schedule",
+          "vi": "Tiến độ phát triển tổng thể",
+          "definitionJa": "要件定義、設計、実装、テストなどの工程について開始・終了時期と依存関係を定めた開発全体の予定。",
+          "definitionVi": "Là lịch trình toàn bộ quá trình phát triển, xác định thời điểm bắt đầu, kết thúc và quan hệ phụ thuộc giữa các giai đoạn như xác định yêu cầu, thiết kế, lập trình và kiểm thử.",
+          "reading": "ぜんたいかいはつすけじゅーる"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "overall-development-schedule"
+      ]
+    },
+    {
+      "id": "project-promotion-system",
+      "order": 13,
+      "titleJa": "プロジェクト推進体制",
+      "titleVi": "Cơ cấu tổ chức triển khai dự án",
+      "importance": "medium",
+      "summaryJa": "プロジェクトを進めるための組織構成、責任者、担当者、役割、連携方法を明確にした体制。",
+      "summaryVi": "Là cơ cấu xác định tổ chức, người chịu trách nhiệm, người thực hiện, vai trò và cách phối hợp nhằm triển khai dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロジェクト推進体制とは",
+          "vi": "Cơ cấu tổ chức triển khai dự án là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトを進めるための組織構成、責任者、担当者、役割、連携方法を明確にした体制。",
+          "vi": "Là cơ cấu xác định tổ chức, người chịu trách nhiệm, người thực hiện, vai trò và cách phối hợp nhằm triển khai dự án."
+        },
+        {
+          "type": "point",
+          "ja": "責任と権限の明確化が意思決定や課題対応を円滑にする。",
+          "vi": "Phân định rõ trách nhiệm và quyền hạn giúp ra quyết định và xử lý vấn đề thuận lợi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト推進体制",
+          "english": "Project Promotion System",
+          "vi": "Cơ cấu tổ chức triển khai dự án",
+          "definitionJa": "プロジェクトを進めるための組織構成、責任者、担当者、役割、連携方法を明確にした体制。",
+          "definitionVi": "Là cơ cấu xác định tổ chức, người chịu trách nhiệm, người thực hiện, vai trò và cách phối hợp nhằm triển khai dự án.",
+          "reading": "ぷろじぇくとすいしんたいせい"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "project-promotion-system"
+      ]
+    },
+    {
+      "id": "personnel-education-plan",
+      "order": 14,
+      "titleJa": "要員教育計画",
+      "titleVi": "Kế hoạch đào tạo nhân sự",
+      "importance": "medium",
+      "summaryJa": "システムの開発・導入・運用に必要な知識や技能を担当者に習得させるため、対象者、内容、方法、時期を定める計画。",
+      "summaryVi": "Là kế hoạch xác định đối tượng, nội dung, phương pháp và thời điểm đào tạo để nhân sự có được kiến thức, kỹ năng cần thiết cho phát triển, triển khai và vận hành hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "要員教育計画とは",
+          "vi": "Kế hoạch đào tạo nhân sự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの開発・導入・運用に必要な知識や技能を担当者に習得させるため、対象者、内容、方法、時期を定める計画。",
+          "vi": "Là kế hoạch xác định đối tượng, nội dung, phương pháp và thời điểm đào tạo để nhân sự có được kiến thức, kỹ năng cần thiết cho phát triển, triển khai và vận hành hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "教育の対象と到達目標を明確にし、導入前に必要な能力を備える。",
+          "vi": "Xác định rõ đối tượng và mục tiêu đào tạo để chuẩn bị năng lực cần thiết trước khi triển khai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "要員教育計画",
+          "english": "Personnel Education Plan",
+          "vi": "Kế hoạch đào tạo nhân sự",
+          "definitionJa": "システムの開発・導入・運用に必要な知識や技能を担当者に習得させるため、対象者、内容、方法、時期を定める計画。",
+          "definitionVi": "Là kế hoạch xác định đối tượng, nội dung, phương pháp và thời điểm đào tạo để nhân sự có được kiến thức, kỹ năng cần thiết cho phát triển, triển khai và vận hành hệ thống.",
+          "reading": "よういんきょういくけいかく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "personnel-education-plan"
+      ]
+    },
+    {
+      "id": "development-investment-effectiveness",
+      "order": 15,
+      "titleJa": "開発投資対効果",
+      "titleVi": "Hiệu quả so với chi phí đầu tư phát triển",
+      "importance": "high",
+      "summaryJa": "システム開発への投資費用と、導入によって得られる収益増加、作業時間短縮、コスト削減などの効果を比較・評価すること。",
+      "summaryVi": "Là việc so sánh và đánh giá chi phí đầu tư phát triển hệ thống với các lợi ích đạt được sau triển khai như tăng doanh thu, rút ngắn thời gian làm việc và giảm chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "開発投資対効果とは",
+          "vi": "Hiệu quả so với chi phí đầu tư phát triển là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム開発への投資費用と、導入によって得られる収益増加、作業時間短縮、コスト削減などの効果を比較・評価すること。",
+          "vi": "Là việc so sánh và đánh giá chi phí đầu tư phát triển hệ thống với các lợi ích đạt được sau triển khai như tăng doanh thu, rút ngắn thời gian làm việc và giảm chi phí."
+        },
+        {
+          "type": "point",
+          "ja": "金銭的効果だけでなく、品質や利便性などの定性的効果も検討する。",
+          "vi": "Ngoài lợi ích định lượng bằng tiền, cần xem xét lợi ích định tính như chất lượng và sự tiện lợi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "開発投資対効果",
+          "english": "Development Investment Effectiveness",
+          "vi": "Hiệu quả so với chi phí đầu tư phát triển",
+          "definitionJa": "システム開発への投資費用と、導入によって得られる収益増加、作業時間短縮、コスト削減などの効果を比較・評価すること。",
+          "definitionVi": "Là việc so sánh và đánh giá chi phí đầu tư phát triển hệ thống với các lợi ích đạt được sau triển khai như tăng doanh thu, rút ngắn thời gian làm việc và giảm chi phí.",
+          "reading": "かいはつとうしたいこうか"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "development-investment-effectiveness"
+      ]
+    },
+    {
+      "id": "it-portfolio",
+      "order": 16,
+      "titleJa": "ITポートフォリオ",
+      "titleVi": "Danh mục đầu tư và tài sản CNTT",
+      "importance": "high",
+      "summaryJa": "組織のITシステム、資産、投資案件などを一覧化し、価値、リスク、費用、戦略との整合性を評価して資源配分を最適化する管理手法。",
+      "summaryVi": "Là phương pháp quản lý bằng cách lập danh mục hệ thống, tài sản và dự án đầu tư CNTT; đánh giá giá trị, rủi ro, chi phí và mức độ phù hợp chiến lược để tối ưu phân bổ nguồn lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITポートフォリオとは",
+          "vi": "Danh mục đầu tư và tài sản CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織のITシステム、資産、投資案件などを一覧化し、価値、リスク、費用、戦略との整合性を評価して資源配分を最適化する管理手法。",
+          "vi": "Là phương pháp quản lý bằng cách lập danh mục hệ thống, tài sản và dự án đầu tư CNTT; đánh giá giá trị, rủi ro, chi phí và mức độ phù hợp chiến lược để tối ưu phân bổ nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "個々の投資だけでなく、IT投資全体のバランスを評価する。",
+          "vi": "Đánh giá sự cân đối của toàn bộ danh mục đầu tư CNTT, không chỉ từng khoản đầu tư riêng lẻ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITポートフォリオ",
+          "english": "IT Portfolio",
+          "vi": "Danh mục đầu tư và tài sản CNTT",
+          "definitionJa": "組織のITシステム、資産、投資案件などを一覧化し、価値、リスク、費用、戦略との整合性を評価して資源配分を最適化する管理手法。",
+          "definitionVi": "Là phương pháp quản lý bằng cách lập danh mục hệ thống, tài sản và dự án đầu tư CNTT; đánh giá giá trị, rủi ro, chi phí và mức độ phù hợp chiến lược để tối ưu phân bổ nguồn lực.",
+          "reading": "あいてぃーぽーとふぉりお"
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "it-portfolio"]
+    },
+    {
+      "id": "system-life-cycle",
+      "order": 17,
+      "titleJa": "システムライフサイクル",
+      "titleVi": "Vòng đời hệ thống",
+      "importance": "high",
+      "summaryJa": "システムの企画、要件定義、設計、開発、テスト、運用、保守、廃棄までの一連の段階。",
+      "summaryVi": "Là toàn bộ các giai đoạn của hệ thống từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, kiểm thử, vận hành, bảo trì đến loại bỏ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムライフサイクルとは",
+          "vi": "Vòng đời hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの企画、要件定義、設計、開発、テスト、運用、保守、廃棄までの一連の段階。",
+          "vi": "Là toàn bộ các giai đoạn của hệ thống từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, kiểm thử, vận hành, bảo trì đến loại bỏ."
+        },
+        {
+          "type": "point",
+          "ja": "開発完了で終わらず、運用・保守・廃棄までを含む。",
+          "vi": "Vòng đời không kết thúc khi phát triển xong mà còn gồm vận hành, bảo trì và loại bỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムライフサイクル",
+          "english": "System Life Cycle",
+          "vi": "Vòng đời hệ thống",
+          "definitionJa": "システムの企画、要件定義、設計、開発、テスト、運用、保守、廃棄までの一連の段階。",
+          "definitionVi": "Là toàn bộ các giai đoạn của hệ thống từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, kiểm thử, vận hành, bảo trì đến loại bỏ.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-planning", "systemization-planning", "system-life-cycle"]
+    },
+    {
+      "id": "information-system-implementation-risk-analysis",
+      "order": 18,
+      "titleJa": "情報システム導入リスク分析",
+      "titleVi": "Phân tích rủi ro khi triển khai hệ thống thông tin",
+      "importance": "high",
+      "summaryJa": "新システム導入時に発生し得る業務停止、データ移行失敗、費用超過、人材不足などのリスクを洗い出し、影響を評価して対策を検討すること。",
+      "summaryVi": "Là việc xác định các rủi ro có thể phát sinh khi triển khai hệ thống mới như gián đoạn nghiệp vụ, thất bại chuyển đổi dữ liệu, vượt chi phí và thiếu nhân lực; sau đó đánh giá tác động và đề ra biện pháp ứng phó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム導入リスク分析とは",
+          "vi": "Phân tích rủi ro khi triển khai hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新システム導入時に発生し得る業務停止、データ移行失敗、費用超過、人材不足などのリスクを洗い出し、影響を評価して対策を検討すること。",
+          "vi": "Là việc xác định các rủi ro có thể phát sinh khi triển khai hệ thống mới như gián đoạn nghiệp vụ, thất bại chuyển đổi dữ liệu, vượt chi phí và thiếu nhân lực; sau đó đánh giá tác động và đề ra biện pháp ứng phó."
+        },
+        {
+          "type": "point",
+          "ja": "リスクを事前に特定・評価し、回避・軽減などの対策を計画する。",
+          "vi": "Xác định và đánh giá rủi ro từ trước, sau đó lập biện pháp tránh hoặc giảm thiểu rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム導入リスク分析",
+          "english": "Information System Implementation Risk Analysis",
+          "vi": "Phân tích rủi ro khi triển khai hệ thống thông tin",
+          "definitionJa": "新システム導入時に発生し得る業務停止、データ移行失敗、費用超過、人材不足などのリスクを洗い出し、影響を評価して対策を検討すること。",
+          "definitionVi": "Là việc xác định các rủi ro có thể phát sinh khi triển khai hệ thống mới như gián đoạn nghiệp vụ, thất bại chuyển đổi dữ liệu, vượt chi phí và thiếu nhân lực; sau đó đánh giá tác động và đề ra biện pháp ứng phó.",
+          "reading": "じょうほうしすてむどうにゅうりすくぶんせき"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "systemization-planning",
+        "information-system-implementation-risk-analysis"
+      ]
+    }
+  ]
 }

@@ -4,5 +4,744 @@
   "titleJa": "システム活用促進・評価",
   "titleVi": "Thúc đẩy sử dụng và đánh giá hệ thống",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "byod",
+      "order": 1,
+      "titleJa": "BYOD",
+      "titleVi": "Sử dụng thiết bị cá nhân cho công việc",
+      "importance": "high",
+      "summaryJa": "従業員が個人所有のスマートフォンやタブレットなどを業務に利用すること。",
+      "summaryVi": "Là việc nhân viên sử dụng điện thoại thông minh, máy tính bảng hoặc thiết bị thuộc sở hữu cá nhân để làm việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BYODとは",
+          "vi": "Khái niệm: Sử dụng thiết bị cá nhân cho công việc"
+        },
+        {
+          "type": "paragraph",
+          "ja": "従業員が個人所有のスマートフォンやタブレットなどを業務に利用すること。使い慣れた端末による利便性向上や企業の端末調達費用の削減が期待できる一方、情報漏えいやマルウェア感染のリスクがあるため、利用規則や端末管理が必要となる。",
+          "vi": "Là việc nhân viên sử dụng điện thoại thông minh, máy tính bảng hoặc thiết bị thuộc sở hữu cá nhân để làm việc. Cách này có thể nâng cao sự tiện lợi nhờ thiết bị quen dùng và giảm chi phí mua thiết bị của doanh nghiệp, nhưng cũng làm phát sinh nguy cơ rò rỉ thông tin và nhiễm mã độc, vì vậy cần có quy định sử dụng và quản lý thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "BYODは「私物端末の業務利用」。利便性とセキュリティリスクの両面を押さえる。",
+          "vi": "BYOD là dùng thiết bị cá nhân cho công việc; cần nhớ cả lợi ích tiện dụng lẫn rủi ro bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BYOD",
+          "english": "Bring Your Own Device",
+          "vi": "Sử dụng thiết bị cá nhân cho công việc",
+          "definitionJa": "従業員が個人所有のスマートフォンやタブレットなどを業務に利用すること。使い慣れた端末による利便性向上や企業の端末調達費用の削減が期待できる一方、情報漏えいやマルウェア感染のリスクがあるため、利用規則や端末管理が必要となる。",
+          "definitionVi": "Là việc nhân viên sử dụng điện thoại thông minh, máy tính bảng hoặc thiết bị thuộc sở hữu cá nhân để làm việc. Cách này có thể nâng cao sự tiện lợi nhờ thiết bị quen dùng và giảm chi phí mua thiết bị của doanh nghiệp, nhưng cũng làm phát sinh nguy cơ rò rỉ thông tin và nhiễm mã độc, vì vậy cần có quy định sử dụng và quản lý thiết bị.",
+          "reading": "びーわいおーでぃー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "byod"
+      ]
+    },
+    {
+      "id": "chatbot",
+      "order": 2,
+      "titleJa": "チャットボット",
+      "titleVi": "Chương trình hội thoại tự động",
+      "importance": "high",
+      "summaryJa": "利用者の質問に対して、テキストなどで自動的に応答するプログラム。",
+      "summaryVi": "Là chương trình tự động trả lời câu hỏi của người dùng bằng văn bản hoặc hình thức tương tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "チャットボットとは",
+          "vi": "Khái niệm: Chương trình hội thoại tự động"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者の質問に対して、テキストなどで自動的に応答するプログラム。AIや自然言語処理を利用するものがあり、顧客からの問い合わせへの迅速な対応や24時間の案内、担当者の負担軽減に役立つ。",
+          "vi": "Là chương trình tự động trả lời câu hỏi của người dùng bằng văn bản hoặc hình thức tương tự. Một số chatbot sử dụng AI và xử lý ngôn ngữ tự nhiên, giúp phản hồi nhanh các yêu cầu của khách hàng, hỗ trợ thông tin 24 giờ và giảm khối lượng công việc của nhân viên phụ trách."
+        },
+        {
+          "type": "point",
+          "ja": "チャットボットにはルールベース型もあり、すべてがAIを使うわけではない。",
+          "vi": "Chatbot cũng có loại hoạt động theo quy tắc; không phải chatbot nào cũng dùng AI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "チャットボット",
+          "english": "Chatbot",
+          "vi": "Chương trình hội thoại tự động",
+          "definitionJa": "利用者の質問に対して、テキストなどで自動的に応答するプログラム。AIや自然言語処理を利用するものがあり、顧客からの問い合わせへの迅速な対応や24時間の案内、担当者の負担軽減に役立つ。",
+          "definitionVi": "Là chương trình tự động trả lời câu hỏi của người dùng bằng văn bản hoặc hình thức tương tự. Một số chatbot sử dụng AI và xử lý ngôn ngữ tự nhiên, giúp phản hồi nhanh các yêu cầu của khách hàng, hỗ trợ thông tin 24 giờ và giảm khối lượng công việc của nhân viên phụ trách.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "chatbot"
+      ]
+    },
+    {
+      "id": "it-literacy",
+      "order": 3,
+      "titleJa": "ITリテラシー",
+      "titleVi": "Năng lực hiểu biết và sử dụng CNTT",
+      "importance": "high",
+      "summaryJa": "コンピュータやインターネット、ソフトウェアを適切かつ効果的に利用するための知識・技能。",
+      "summaryVi": "Là kiến thức và kỹ năng cần thiết để sử dụng máy tính, Internet và phần mềm một cách phù hợp, hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITリテラシーとは",
+          "vi": "Khái niệm: Năng lực hiểu biết và sử dụng CNTT"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやインターネット、ソフトウェアを適切かつ効果的に利用するための知識・技能。基本操作だけでなく、情報の検索・評価・活用や情報セキュリティに関する理解も含まれる。",
+          "vi": "Là kiến thức và kỹ năng cần thiết để sử dụng máy tính, Internet và phần mềm một cách phù hợp, hiệu quả. Không chỉ bao gồm thao tác cơ bản mà còn có khả năng tìm kiếm, đánh giá, khai thác thông tin và hiểu biết về an toàn thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "ITリテラシーはITの操作・活用能力。情報の信頼性判断や安全な利用も重要。",
+          "vi": "IT literacy là năng lực sử dụng và khai thác CNTT; bao gồm đánh giá độ tin cậy thông tin và sử dụng an toàn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITリテラシー",
+          "english": "IT Literacy",
+          "vi": "Năng lực hiểu biết và sử dụng CNTT",
+          "definitionJa": "コンピュータやインターネット、ソフトウェアを適切かつ効果的に利用するための知識・技能。基本操作だけでなく、情報の検索・評価・活用や情報セキュリティに関する理解も含まれる。",
+          "definitionVi": "Là kiến thức và kỹ năng cần thiết để sử dụng máy tính, Internet và phần mềm một cách phù hợp, hiệu quả. Không chỉ bao gồm thao tác cơ bản mà còn có khả năng tìm kiếm, đánh giá, khai thác thông tin và hiểu biết về an toàn thông tin.",
+          "reading": "あいてぃーりてらしー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "it-literacy"
+      ]
+    },
+    {
+      "id": "media-literacy",
+      "order": 4,
+      "titleJa": "メディアリテラシー",
+      "titleVi": "Năng lực tiếp nhận và đánh giá thông tin truyền thông",
+      "importance": "high",
+      "summaryJa": "新聞、テレビ、インターネット、SNSなどのメディアから得られる情報を理解し、批判的に評価して活用する能力。",
+      "summaryVi": "Là khả năng hiểu, đánh giá có tư duy phản biện và sử dụng thông tin từ báo chí, truyền hình, Internet, mạng xã hội và các phương tiện truyền thông khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メディアリテラシーとは",
+          "vi": "Khái niệm: Năng lực tiếp nhận và đánh giá thông tin truyền thông"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新聞、テレビ、インターネット、SNSなどのメディアから得られる情報を理解し、批判的に評価して活用する能力。情報源や発信者の意図を確認し、異なる情報を比較して偽情報を見抜くことも含まれる。",
+          "vi": "Là khả năng hiểu, đánh giá có tư duy phản biện và sử dụng thông tin từ báo chí, truyền hình, Internet, mạng xã hội và các phương tiện truyền thông khác. Bao gồm việc kiểm tra nguồn tin, ý đồ của người phát thông tin, đối chiếu các nguồn khác nhau và nhận biết thông tin giả."
+        },
+        {
+          "type": "point",
+          "ja": "ITリテラシーはITの活用、メディアリテラシーは情報内容の読み解き・評価に重点がある。",
+          "vi": "IT literacy tập trung vào khả năng dùng CNTT; media literacy tập trung vào hiểu và đánh giá nội dung thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メディアリテラシー",
+          "english": "Media Literacy",
+          "vi": "Năng lực tiếp nhận và đánh giá thông tin truyền thông",
+          "definitionJa": "新聞、テレビ、インターネット、SNSなどのメディアから得られる情報を理解し、批判的に評価して活用する能力。情報源や発信者の意図を確認し、異なる情報を比較して偽情報を見抜くことも含まれる。",
+          "definitionVi": "Là khả năng hiểu, đánh giá có tư duy phản biện và sử dụng thông tin từ báo chí, truyền hình, Internet, mạng xã hội và các phương tiện truyền thông khác. Bao gồm việc kiểm tra nguồn tin, ý đồ của người phát thông tin, đối chiếu các nguồn khác nhau và nhận biết thông tin giả.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "media-literacy"
+      ]
+    },
+    {
+      "id": "security-awareness",
+      "order": 5,
+      "titleJa": "セキュリティ意識",
+      "titleVi": "Ý thức bảo mật thông tin",
+      "importance": "high",
+      "summaryJa": "情報資産を守る重要性とサイバー攻撃・情報漏えいの危険性を認識し、安全な行動を取ろうとする姿勢。",
+      "summaryVi": "Là nhận thức về tầm quan trọng của việc bảo vệ tài sản thông tin, hiểu nguy cơ tấn công mạng và rò rỉ dữ liệu, đồng thời chủ động hành động an toàn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティ意識とは",
+          "vi": "Khái niệm: Ý thức bảo mật thông tin"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報資産を守る重要性とサイバー攻撃・情報漏えいの危険性を認識し、安全な行動を取ろうとする姿勢。強固なパスワードの利用、不審なメールへの注意、教育・訓練の継続などが求められる。",
+          "vi": "Là nhận thức về tầm quan trọng của việc bảo vệ tài sản thông tin, hiểu nguy cơ tấn công mạng và rò rỉ dữ liệu, đồng thời chủ động hành động an toàn. Ví dụ: dùng mật khẩu mạnh, cảnh giác với email đáng ngờ và thường xuyên tham gia đào tạo, diễn tập bảo mật."
+        },
+        {
+          "type": "point",
+          "ja": "セキュリティ対策は技術だけでなく、利用者の判断・行動にも依存する。",
+          "vi": "Bảo mật không chỉ dựa vào công nghệ mà còn phụ thuộc vào nhận thức và hành vi của người dùng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティ意識",
+          "english": "Security Awareness",
+          "vi": "Ý thức bảo mật thông tin",
+          "definitionJa": "情報資産を守る重要性とサイバー攻撃・情報漏えいの危険性を認識し、安全な行動を取ろうとする姿勢。強固なパスワードの利用、不審なメールへの注意、教育・訓練の継続などが求められる。",
+          "definitionVi": "Là nhận thức về tầm quan trọng của việc bảo vệ tài sản thông tin, hiểu nguy cơ tấn công mạng và rò rỉ dữ liệu, đồng thời chủ động hành động an toàn. Ví dụ: dùng mật khẩu mạnh, cảnh giác với email đáng ngờ và thường xuyên tham gia đào tạo, diễn tập bảo mật.",
+          "reading": "せきゅりてぃいしき"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "security-awareness"
+      ]
+    },
+    {
+      "id": "user-manual",
+      "order": 6,
+      "titleJa": "利用者マニュアル",
+      "titleVi": "Tài liệu hướng dẫn người sử dụng",
+      "importance": "medium",
+      "summaryJa": "製品や情報システムの利用者に向けて、機能、操作方法、導入手順、問題発生時の対処方法などを説明する文書。",
+      "summaryVi": "Là tài liệu dành cho người sử dụng sản phẩm hoặc hệ thống thông tin, giải thích chức năng, cách thao tác, quy trình cài đặt và cách xử lý khi gặp sự cố.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "利用者マニュアルとは",
+          "vi": "Khái niệm: Tài liệu hướng dẫn người sử dụng"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品や情報システムの利用者に向けて、機能、操作方法、導入手順、問題発生時の対処方法などを説明する文書。利用者が必要な情報を確認し、正しく安全に使えるよう支援する。",
+          "vi": "Là tài liệu dành cho người sử dụng sản phẩm hoặc hệ thống thông tin, giải thích chức năng, cách thao tác, quy trình cài đặt và cách xử lý khi gặp sự cố. Tài liệu giúp người dùng tra cứu thông tin cần thiết và sử dụng hệ thống đúng cách, an toàn."
+        },
+        {
+          "type": "point",
+          "ja": "利用者マニュアルは「システムをどう使うか」を説明する。",
+          "vi": "Tài liệu người dùng giải thích “sử dụng hệ thống như thế nào”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "利用者マニュアル",
+          "english": "User Documentation",
+          "vi": "Tài liệu hướng dẫn người sử dụng",
+          "definitionJa": "製品や情報システムの利用者に向けて、機能、操作方法、導入手順、問題発生時の対処方法などを説明する文書。利用者が必要な情報を確認し、正しく安全に使えるよう支援する。",
+          "definitionVi": "Là tài liệu dành cho người sử dụng sản phẩm hoặc hệ thống thông tin, giải thích chức năng, cách thao tác, quy trình cài đặt và cách xử lý khi gặp sự cố. Tài liệu giúp người dùng tra cứu thông tin cần thiết và sử dụng hệ thống đúng cách, an toàn.",
+          "reading": "りようしゃまにゅある"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "user-manual"
+      ]
+    },
+    {
+      "id": "business-manual",
+      "order": 7,
+      "titleJa": "業務マニュアル",
+      "titleVi": "Sổ tay hướng dẫn nghiệp vụ",
+      "importance": "high",
+      "summaryJa": "特定の業務について、標準的な作業手順、注意事項、役割や社内ルールをまとめた文書。",
+      "summaryVi": "Là tài liệu tổng hợp quy trình thao tác chuẩn, điểm cần chú ý, vai trò và quy định nội bộ đối với một nghiệp vụ cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務マニュアルとは",
+          "vi": "Khái niệm: Sổ tay hướng dẫn nghiệp vụ"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業務について、標準的な作業手順、注意事項、役割や社内ルールをまとめた文書。担当者による作業のばらつきを減らし、新人教育や業務品質の維持、業務改善に役立つ。",
+          "vi": "Là tài liệu tổng hợp quy trình thao tác chuẩn, điểm cần chú ý, vai trò và quy định nội bộ đối với một nghiệp vụ cụ thể. Tài liệu giúp giảm sự khác biệt trong cách làm giữa các nhân viên, hỗ trợ đào tạo người mới, duy trì chất lượng và cải tiến nghiệp vụ."
+        },
+        {
+          "type": "point",
+          "ja": "業務マニュアルは「仕事をどう進めるか」。利用者マニュアルとの違いに注意。",
+          "vi": "Sổ tay nghiệp vụ giải thích “thực hiện công việc như thế nào”, khác với tài liệu hướng dẫn sử dụng hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務マニュアル",
+          "english": "Business Manual",
+          "vi": "Sổ tay hướng dẫn nghiệp vụ",
+          "definitionJa": "特定の業務について、標準的な作業手順、注意事項、役割や社内ルールをまとめた文書。担当者による作業のばらつきを減らし、新人教育や業務品質の維持、業務改善に役立つ。",
+          "definitionVi": "Là tài liệu tổng hợp quy trình thao tác chuẩn, điểm cần chú ý, vai trò và quy định nội bộ đối với một nghiệp vụ cụ thể. Tài liệu giúp giảm sự khác biệt trong cách làm giữa các nhân viên, hỗ trợ đào tạo người mới, duy trì chất lượng và cải tiến nghiệp vụ.",
+          "reading": "ぎょうむまにゅある"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "business-manual"
+      ]
+    },
+    {
+      "id": "e-learning",
+      "order": 8,
+      "titleJa": "e-ラーニング",
+      "titleVi": "Học tập điện tử",
+      "importance": "high",
+      "summaryJa": "コンピュータやネットワークなどの電子的な手段を利用して教育・学習を行う方法。",
+      "summaryVi": "Là phương thức dạy và học thông qua phương tiện điện tử như máy tính và mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "e-ラーニングとは",
+          "vi": "Khái niệm: Học tập điện tử"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータやネットワークなどの電子的な手段を利用して教育・学習を行う方法。オンライン講座、動画教材、Webセミナーなどがあり、場所や時間の制約を減らせる。LMSを利用すれば学習の進捗や成果も管理できる。",
+          "vi": "Là phương thức dạy và học thông qua phương tiện điện tử như máy tính và mạng. Ví dụ gồm khóa học trực tuyến, bài giảng video và hội thảo trên web, giúp giảm hạn chế về thời gian, địa điểm. Khi kết hợp LMS, có thể quản lý tiến độ và kết quả học tập."
+        },
+        {
+          "type": "point",
+          "ja": "e-ラーニングは学習方法、LMSは学習を管理するシステム。",
+          "vi": "e-Learning là phương thức học; LMS là hệ thống quản lý việc học."
+        }
+      ],
+      "terms": [
+        {
+          "term": "e-ラーニング",
+          "english": "e-Learning",
+          "vi": "Học tập điện tử",
+          "definitionJa": "コンピュータやネットワークなどの電子的な手段を利用して教育・学習を行う方法。オンライン講座、動画教材、Webセミナーなどがあり、場所や時間の制約を減らせる。LMSを利用すれば学習の進捗や成果も管理できる。",
+          "definitionVi": "Là phương thức dạy và học thông qua phương tiện điện tử như máy tính và mạng. Ví dụ gồm khóa học trực tuyến, bài giảng video và hội thảo trên web, giúp giảm hạn chế về thời gian, địa điểm. Khi kết hợp LMS, có thể quản lý tiến độ và kết quả học tập.",
+          "reading": "いーらーにんぐ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "e-learning"
+      ]
+    },
+    {
+      "id": "training-session",
+      "order": 9,
+      "titleJa": "講習会",
+      "titleVi": "Buổi đào tạo, tập huấn",
+      "importance": "medium",
+      "summaryJa": "特定の知識や技能を身につけるために、講師が参加者へ講義や実習を行う研修の場。",
+      "summaryVi": "Là hoạt động đào tạo trong đó giảng viên hướng dẫn lý thuyết hoặc thực hành để người tham gia tiếp thu kiến thức, kỹ năng cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "講習会とは",
+          "vi": "Khái niệm: Buổi đào tạo, tập huấn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の知識や技能を身につけるために、講師が参加者へ講義や実習を行う研修の場。IT分野ではプログラミングやセキュリティ対策などを扱い、実践的な能力の習得や参加者同士の情報交換にも役立つ。",
+          "vi": "Là hoạt động đào tạo trong đó giảng viên hướng dẫn lý thuyết hoặc thực hành để người tham gia tiếp thu kiến thức, kỹ năng cụ thể. Trong CNTT, nội dung có thể là lập trình hoặc biện pháp bảo mật; đồng thời tạo cơ hội rèn luyện kỹ năng thực tế và trao đổi kinh nghiệm."
+        },
+        {
+          "type": "point",
+          "ja": "講習会は講義・実習による教育の機会であり、e-ラーニングとは実施形態が異なる。",
+          "vi": "Buổi tập huấn là hình thức đào tạo qua giảng dạy, thực hành; khác với cách tổ chức học điện tử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "講習会",
+          "english": "Training Session",
+          "vi": "Buổi đào tạo, tập huấn",
+          "definitionJa": "特定の知識や技能を身につけるために、講師が参加者へ講義や実習を行う研修の場。IT分野ではプログラミングやセキュリティ対策などを扱い、実践的な能力の習得や参加者同士の情報交換にも役立つ。",
+          "definitionVi": "Là hoạt động đào tạo trong đó giảng viên hướng dẫn lý thuyết hoặc thực hành để người tham gia tiếp thu kiến thức, kỹ năng cụ thể. Trong CNTT, nội dung có thể là lập trình hoặc biện pháp bảo mật; đồng thời tạo cơ hội rèn luyện kỹ năng thực tế và trao đổi kinh nghiệm.",
+          "reading": "こうしゅうかい"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "training-session"
+      ]
+    },
+    {
+      "id": "human-resource-development-plan",
+      "order": 10,
+      "titleJa": "人材育成計画",
+      "titleVi": "Kế hoạch đào tạo và phát triển nhân lực",
+      "importance": "medium",
+      "summaryJa": "組織の目標達成に必要な知識や技能を従業員が習得できるよう、教育・研修の方針、対象、内容、時期などを定める計画。",
+      "summaryVi": "Là kế hoạch xác định phương hướng, đối tượng, nội dung và thời điểm đào tạo để nhân viên có thể tiếp thu kiến thức, kỹ năng cần thiết cho mục tiêu tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "人材育成計画とは",
+          "vi": "Khái niệm: Kế hoạch đào tạo và phát triển nhân lực"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の目標達成に必要な知識や技能を従業員が習得できるよう、教育・研修の方針、対象、内容、時期などを定める計画。新入社員研修や管理職育成などを長期的な視点で進める。",
+          "vi": "Là kế hoạch xác định phương hướng, đối tượng, nội dung và thời điểm đào tạo để nhân viên có thể tiếp thu kiến thức, kỹ năng cần thiết cho mục tiêu tổ chức. Kế hoạch có thể bao gồm đào tạo nhân viên mới và bồi dưỡng cán bộ quản lý theo định hướng dài hạn."
+        },
+        {
+          "type": "point",
+          "ja": "個別の講習会と異なり、人材育成計画は組織的・継続的な能力開発を扱う。",
+          "vi": "Khác với một buổi tập huấn đơn lẻ, kế hoạch phát triển nhân lực bao quát việc nâng cao năng lực có tổ chức và liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "人材育成計画",
+          "english": "Human Resource Development Plan",
+          "vi": "Kế hoạch đào tạo và phát triển nhân lực",
+          "definitionJa": "組織の目標達成に必要な知識や技能を従業員が習得できるよう、教育・研修の方針、対象、内容、時期などを定める計画。新入社員研修や管理職育成などを長期的な視点で進める。",
+          "definitionVi": "Là kế hoạch xác định phương hướng, đối tượng, nội dung và thời điểm đào tạo để nhân viên có thể tiếp thu kiến thức, kỹ năng cần thiết cho mục tiêu tổ chức. Kế hoạch có thể bao gồm đào tạo nhân viên mới và bồi dưỡng cán bộ quản lý theo định hướng dài hạn.",
+          "reading": "じんざいいくせいけいかく"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "human-resource-development-plan"
+      ]
+    },
+    {
+      "id": "gamification",
+      "order": 11,
+      "titleJa": "ゲーミフィケーション",
+      "titleVi": "Trò chơi hóa",
+      "importance": "high",
+      "summaryJa": "ゲームで使われる得点、バッジ、ランキング、達成目標などの仕組みを、学習や仕事といったゲーム以外の活動に取り入れる手法。",
+      "summaryVi": "Là phương pháp đưa các yếu tố của trò chơi như điểm thưởng, huy hiệu, bảng xếp hạng và mục tiêu thành tích vào hoạt động không phải trò chơi, chẳng hạn học tập hoặc công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ゲーミフィケーションとは",
+          "vi": "Khái niệm: Trò chơi hóa"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ゲームで使われる得点、バッジ、ランキング、達成目標などの仕組みを、学習や仕事といったゲーム以外の活動に取り入れる手法。参加意欲や継続率を高め、望ましい行動を促すことを目的とする。",
+          "vi": "Là phương pháp đưa các yếu tố của trò chơi như điểm thưởng, huy hiệu, bảng xếp hạng và mục tiêu thành tích vào hoạt động không phải trò chơi, chẳng hạn học tập hoặc công việc. Mục đích là tăng động lực tham gia, duy trì hoạt động và khuyến khích hành vi mong muốn."
+        },
+        {
+          "type": "point",
+          "ja": "ゲーミフィケーションはゲームを作ることではなく、ゲームの仕組みを別の活動へ応用すること。",
+          "vi": "Trò chơi hóa không có nghĩa là tạo ra trò chơi, mà là áp dụng cơ chế trò chơi vào hoạt động khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ゲーミフィケーション",
+          "english": "Gamification",
+          "vi": "Trò chơi hóa",
+          "definitionJa": "ゲームで使われる得点、バッジ、ランキング、達成目標などの仕組みを、学習や仕事といったゲーム以外の活動に取り入れる手法。参加意欲や継続率を高め、望ましい行動を促すことを目的とする。",
+          "definitionVi": "Là phương pháp đưa các yếu tố của trò chơi như điểm thưởng, huy hiệu, bảng xếp hạng và mục tiêu thành tích vào hoạt động không phải trò chơi, chẳng hạn học tập hoặc công việc. Mục đích là tăng động lực tham gia, duy trì hoạt động và khuyến khích hành vi mong muốn.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "gamification"
+      ]
+    },
+    {
+      "id": "digital-divide",
+      "order": 12,
+      "titleJa": "デジタルディバイド",
+      "titleVi": "Khoảng cách số",
+      "importance": "high",
+      "summaryJa": "情報通信技術へのアクセスや利用能力に生じる格差。",
+      "summaryVi": "Là sự chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin – truyền thông.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルディバイドとは",
+          "vi": "Khái niệm: Khoảng cách số"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報通信技術へのアクセスや利用能力に生じる格差。地域、所得、年齢、教育環境などによって通信環境やデジタル技能に差が生まれ、情報やサービスの利用機会、教育や経済活動に影響を及ぼす。",
+          "vi": "Là sự chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin – truyền thông. Khác biệt về khu vực, thu nhập, độ tuổi hoặc điều kiện giáo dục có thể tạo ra khoảng cách về kết nối và kỹ năng số, ảnh hưởng đến cơ hội tiếp cận thông tin, dịch vụ, giáo dục và hoạt động kinh tế."
+        },
+        {
+          "type": "point",
+          "ja": "デジタルディバイドは機器・通信環境の格差だけでなく、使いこなす能力の格差も含む。",
+          "vi": "Khoảng cách số không chỉ là chênh lệch về thiết bị, kết nối mà còn là chênh lệch về kỹ năng sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルディバイド",
+          "english": "Digital Divide",
+          "vi": "Khoảng cách số",
+          "definitionJa": "情報通信技術へのアクセスや利用能力に生じる格差。地域、所得、年齢、教育環境などによって通信環境やデジタル技能に差が生まれ、情報やサービスの利用機会、教育や経済活動に影響を及ぼす。",
+          "definitionVi": "Là sự chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin – truyền thông. Khác biệt về khu vực, thu nhập, độ tuổi hoặc điều kiện giáo dục có thể tạo ra khoảng cách về kết nối và kỹ năng số, ảnh hưởng đến cơ hội tiếp cận thông tin, dịch vụ, giáo dục và hoạt động kinh tế.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "digital-divide"
+      ]
+    },
+    {
+      "id": "log-analysis",
+      "order": 13,
+      "titleJa": "ログ分析",
+      "titleVi": "Phân tích nhật ký hệ thống",
+      "importance": "high",
+      "summaryJa": "システムやアプリケーションが記録した操作履歴、エラー、アクセスなどのログを整理・分析し、利用傾向や問題の原因、改善点を把握すること。",
+      "summaryVi": "Là việc tổng hợp và phân tích nhật ký do hệ thống hoặc ứng dụng ghi lại, như lịch sử thao tác, lỗi và truy cập, nhằm nắm bắt xu hướng sử dụng, nguyên nhân vấn đề và điểm cần cải tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ログ分析とは",
+          "vi": "Khái niệm: Phân tích nhật ký hệ thống"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやアプリケーションが記録した操作履歴、エラー、アクセスなどのログを整理・分析し、利用傾向や問題の原因、改善点を把握すること。性能改善や不正行為の調査にも役立つ。",
+          "vi": "Là việc tổng hợp và phân tích nhật ký do hệ thống hoặc ứng dụng ghi lại, như lịch sử thao tác, lỗi và truy cập, nhằm nắm bắt xu hướng sử dụng, nguyên nhân vấn đề và điểm cần cải tiến. Hoạt động này cũng hữu ích cho tối ưu hiệu năng và điều tra hành vi bất thường."
+        },
+        {
+          "type": "point",
+          "ja": "ログ分析は記録から傾向や原因を読み解くことに重点がある。",
+          "vi": "Phân tích log tập trung tìm xu hướng và nguyên nhân từ dữ liệu đã ghi nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ログ分析",
+          "english": "Log Analysis",
+          "vi": "Phân tích nhật ký hệ thống",
+          "definitionJa": "システムやアプリケーションが記録した操作履歴、エラー、アクセスなどのログを整理・分析し、利用傾向や問題の原因、改善点を把握すること。性能改善や不正行為の調査にも役立つ。",
+          "definitionVi": "Là việc tổng hợp và phân tích nhật ký do hệ thống hoặc ứng dụng ghi lại, như lịch sử thao tác, lỗi và truy cập, nhằm nắm bắt xu hướng sử dụng, nguyên nhân vấn đề và điểm cần cải tiến. Hoạt động này cũng hữu ích cho tối ưu hiệu năng và điều tra hành vi bất thường.",
+          "reading": "ろぐぶんせき"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "log-analysis"
+      ]
+    },
+    {
+      "id": "log-monitoring",
+      "order": 14,
+      "titleJa": "ログ監視",
+      "titleVi": "Giám sát nhật ký hệ thống",
+      "importance": "high",
+      "summaryJa": "システムやアプリケーションのログを継続的または定期的に確認し、エラーや不正アクセスの兆候などを早期に検知すること。",
+      "summaryVi": "Là việc theo dõi nhật ký hệ thống hoặc ứng dụng liên tục hay theo định kỳ để sớm phát hiện lỗi và dấu hiệu truy cập trái phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ログ監視とは",
+          "vi": "Khái niệm: Giám sát nhật ký hệ thống"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやアプリケーションのログを継続的または定期的に確認し、エラーや不正アクセスの兆候などを早期に検知すること。異常を見つけた場合は通知や対応につなげ、システムの安定性と安全性を保つ。",
+          "vi": "Là việc theo dõi nhật ký hệ thống hoặc ứng dụng liên tục hay theo định kỳ để sớm phát hiện lỗi và dấu hiệu truy cập trái phép. Khi phát hiện bất thường, hệ thống có thể cảnh báo để xử lý, giúp duy trì tính ổn định và an toàn."
+        },
+        {
+          "type": "point",
+          "ja": "ログ監視は異常の早期検知、ログ分析は原因や傾向の把握が中心。",
+          "vi": "Giám sát log tập trung phát hiện bất thường sớm; phân tích log tập trung tìm nguyên nhân và xu hướng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ログ監視",
+          "english": "Log Monitoring",
+          "vi": "Giám sát nhật ký hệ thống",
+          "definitionJa": "システムやアプリケーションのログを継続的または定期的に確認し、エラーや不正アクセスの兆候などを早期に検知すること。異常を見つけた場合は通知や対応につなげ、システムの安定性と安全性を保つ。",
+          "definitionVi": "Là việc theo dõi nhật ký hệ thống hoặc ứng dụng liên tục hay theo định kỳ để sớm phát hiện lỗi và dấu hiệu truy cập trái phép. Khi phát hiện bất thường, hệ thống có thể cảnh báo để xử lý, giúp duy trì tính ổn định và an toàn.",
+          "reading": "ろぐかんし"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "log-monitoring"
+      ]
+    },
+    {
+      "id": "learning-management-system",
+      "order": 15,
+      "titleJa": "学習マネジメントシステム",
+      "titleVi": "Hệ thống quản lý học tập (LMS)",
+      "importance": "high",
+      "summaryJa": "教育機関や企業で教材・講座の配信、受講者登録、学習進捗の管理、テストや成績の確認などを行うシステム。",
+      "summaryVi": "Là hệ thống dùng trong cơ sở giáo dục hoặc doanh nghiệp để phân phối tài liệu, khóa học, đăng ký học viên, quản lý tiến độ học tập, tổ chức bài kiểm tra và theo dõi kết quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "学習マネジメントシステムとは",
+          "vi": "Khái niệm: Hệ thống quản lý học tập (LMS)"
+        },
+        {
+          "type": "paragraph",
+          "ja": "教育機関や企業で教材・講座の配信、受講者登録、学習進捗の管理、テストや成績の確認などを行うシステム。オンライン学習を運営し、学習状況を把握するために利用される。",
+          "vi": "Là hệ thống dùng trong cơ sở giáo dục hoặc doanh nghiệp để phân phối tài liệu, khóa học, đăng ký học viên, quản lý tiến độ học tập, tổ chức bài kiểm tra và theo dõi kết quả. Hệ thống hỗ trợ vận hành đào tạo trực tuyến và nắm bắt tình hình học tập."
+        },
+        {
+          "type": "point",
+          "ja": "LMSはLearning Management Systemの略。学習内容の配信と受講状況の管理が主要機能。",
+          "vi": "LMS viết tắt của Learning Management System; chức năng chính là cung cấp nội dung và quản lý quá trình học."
+        }
+      ],
+      "terms": [
+        {
+          "term": "学習マネジメントシステム",
+          "english": "Learning Management System",
+          "vi": "Hệ thống quản lý học tập (LMS)",
+          "definitionJa": "教育機関や企業で教材・講座の配信、受講者登録、学習進捗の管理、テストや成績の確認などを行うシステム。オンライン学習を運営し、学習状況を把握するために利用される。",
+          "definitionVi": "Là hệ thống dùng trong cơ sở giáo dục hoặc doanh nghiệp để phân phối tài liệu, khóa học, đăng ký học viên, quản lý tiến độ học tập, tổ chức bài kiểm tra và theo dõi kết quả. Hệ thống hỗ trợ vận hành đào tạo trực tuyến và nắm bắt tình hình học tập.",
+          "reading": "がくしゅうまねじめんとしすてむ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "learning-management-system"
+      ]
+    },
+    {
+      "id": "system-lifecycle",
+      "order": 16,
+      "titleJa": "システムライフサイクル",
+      "titleVi": "Vòng đời hệ thống",
+      "importance": "high",
+      "summaryJa": "情報システムが企画・計画、要件定義、設計、開発、運用、保守を経て、最終的に廃棄されるまでの一連の段階。",
+      "summaryVi": "Là toàn bộ các giai đoạn của hệ thống thông tin, từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, vận hành, bảo trì đến khi ngừng sử dụng và loại bỏ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムライフサイクルとは",
+          "vi": "Khái niệm: Vòng đời hệ thống"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムが企画・計画、要件定義、設計、開発、運用、保守を経て、最終的に廃棄されるまでの一連の段階。各段階で品質、費用、リスクなどを管理し、必要に応じて改修や更新を行う。",
+          "vi": "Là toàn bộ các giai đoạn của hệ thống thông tin, từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, vận hành, bảo trì đến khi ngừng sử dụng và loại bỏ. Ở từng giai đoạn cần quản lý chất lượng, chi phí, rủi ro và tiến hành sửa đổi, nâng cấp khi cần."
+        },
+        {
+          "type": "point",
+          "ja": "システムは導入して終わりではなく、運用・保守・廃棄まで管理する。",
+          "vi": "Quản lý hệ thống không kết thúc khi triển khai mà kéo dài qua vận hành, bảo trì đến loại bỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムライフサイクル",
+          "english": "System Lifecycle",
+          "vi": "Vòng đời hệ thống",
+          "definitionJa": "情報システムが企画・計画、要件定義、設計、開発、運用、保守を経て、最終的に廃棄されるまでの一連の段階。各段階で品質、費用、リスクなどを管理し、必要に応じて改修や更新を行う。",
+          "definitionVi": "Là toàn bộ các giai đoạn của hệ thống thông tin, từ lập kế hoạch, xác định yêu cầu, thiết kế, phát triển, vận hành, bảo trì đến khi ngừng sử dụng và loại bỏ. Ở từng giai đoạn cần quản lý chất lượng, chi phí, rủi ro và tiến hành sửa đổi, nâng cấp khi cần.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "system-lifecycle"
+      ]
+    },
+    {
+      "id": "information-security-policy",
+      "order": 17,
+      "titleJa": "情報セキュリティポリシー",
+      "titleVi": "Chính sách an toàn thông tin",
+      "importance": "high",
+      "summaryJa": "組織が情報資産を保護するために定める基本方針や規則・手順。",
+      "summaryVi": "Là hệ thống phương châm, quy định và quy trình do tổ chức ban hành nhằm bảo vệ tài sản thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティポリシーとは",
+          "vi": "Khái niệm: Chính sách an toàn thông tin"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織が情報資産を保護するために定める基本方針や規則・手順。情報の取扱い、アクセス権限、事故発生時の対応、担当者の責任などを明確にし、脅威や業務環境の変化に合わせて見直す。",
+          "vi": "Là hệ thống phương châm, quy định và quy trình do tổ chức ban hành nhằm bảo vệ tài sản thông tin. Chính sách làm rõ cách xử lý thông tin, quyền truy cập, ứng phó khi xảy ra sự cố và trách nhiệm của người phụ trách; cần được rà soát khi mối đe dọa hoặc môi trường hoạt động thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "情報セキュリティポリシーは組織全体で守るルール。策定だけでなく周知・遵守・見直しが必要。",
+          "vi": "Chính sách an toàn thông tin là quy tắc chung của tổ chức; cần phổ biến, tuân thủ và cập nhật, không chỉ ban hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティポリシー",
+          "english": "Information Security Policy",
+          "vi": "Chính sách an toàn thông tin",
+          "definitionJa": "組織が情報資産を保護するために定める基本方針や規則・手順。情報の取扱い、アクセス権限、事故発生時の対応、担当者の責任などを明確にし、脅威や業務環境の変化に合わせて見直す。",
+          "definitionVi": "Là hệ thống phương châm, quy định và quy trình do tổ chức ban hành nhằm bảo vệ tài sản thông tin. Chính sách làm rõ cách xử lý thông tin, quyền truy cập, ứng phó khi xảy ra sự cố và trách nhiệm của người phụ trách; cần được rà soát khi mối đe dọa hoặc môi trường hoạt động thay đổi.",
+          "reading": "じょうほうせきゅりてぃぽりしー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "information-security-policy"
+      ]
+    },
+    {
+      "id": "data-erasure",
+      "order": 18,
+      "titleJa": "データの消去",
+      "titleVi": "Xóa dữ liệu an toàn",
+      "importance": "high",
+      "summaryJa": "記録媒体に保存されたデータを、第三者が復元・閲覧できないように消去すること。",
+      "summaryVi": "Là việc xóa dữ liệu lưu trên phương tiện lưu trữ để bên thứ ba không thể khôi phục hoặc xem được.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データの消去とは",
+          "vi": "Khái niệm: Xóa dữ liệu an toàn"
+        },
+        {
+          "type": "paragraph",
+          "ja": "記録媒体に保存されたデータを、第三者が復元・閲覧できないように消去すること。通常のファイル削除だけでは復元できる場合があるため、媒体の特性に応じて安全な消去処理や物理的破壊などを選択する。システムや機器の廃棄時に重要である。",
+          "vi": "Là việc xóa dữ liệu lưu trên phương tiện lưu trữ để bên thứ ba không thể khôi phục hoặc xem được. Việc xóa tệp thông thường có thể vẫn cho phép khôi phục, vì vậy cần lựa chọn phương pháp xóa an toàn hoặc phá hủy vật lý phù hợp với loại phương tiện. Điều này đặc biệt quan trọng khi thải bỏ hệ thống và thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "通常の削除と復元困難な安全消去は異なる。SSDなどは媒体に適した方法を選ぶ。",
+          "vi": "Xóa tệp thông thường khác với xóa an toàn khiến dữ liệu khó khôi phục; SSD và các loại ổ khác cần phương pháp phù hợp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データの消去",
+          "english": "Data Erasure",
+          "vi": "Xóa dữ liệu an toàn",
+          "definitionJa": "記録媒体に保存されたデータを、第三者が復元・閲覧できないように消去すること。通常のファイル削除だけでは復元できる場合があるため、媒体の特性に応じて安全な消去処理や物理的破壊などを選択する。システムや機器の廃棄時に重要である。",
+          "definitionVi": "Là việc xóa dữ liệu lưu trên phương tiện lưu trữ để bên thứ ba không thể khôi phục hoặc xem được. Việc xóa tệp thông thường có thể vẫn cho phép khôi phục, vì vậy cần lựa chọn phương pháp xóa an toàn hoặc phá hủy vật lý phù hợp với loại phương tiện. Điều này đặc biệt quan trọng khi thải bỏ hệ thống và thiết bị.",
+          "reading": "でーたのしょうきょ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "system-utilization-promotion-evaluation",
+        "data-erasure"
+      ]
+    }
+  ]
 }

@@ -4,5 +4,1242 @@
   "titleJa": "セキュリティ関連法規",
   "titleVi": "Pháp luật liên quan đến bảo mật",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "cybersecurity",
+      "order": 1,
+      "titleJa": "サイバーセキュリティ",
+      "titleVi": "An ninh mạng",
+      "importance": "medium",
+      "summaryJa": "情報システムやネットワークを不正アクセスや攻撃から保護するための技術や対策を指す。",
+      "summaryVi": "Bảo vệ hệ thống, mạng và dữ liệu trước truy cập trái phép, tấn công và rò rỉ thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイバーセキュリティとは",
+          "vi": "An ninh mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやネットワークを不正アクセスや攻撃から保護するための技術や対策を指す。これには、個人情報や機密情報を守ることも含まれる。近年、ウイルスやマルウェアによる攻撃が増加しており、企業や組織では防御策が不可欠である。例えば、ファイアウォールやウイルス対策ソフトウェアを用いることで、外部からの侵入を防ぐことができる。また、サイバーセキュリティ基本法に基づく取り組みも進められており、政府や企業が連携して重要なインフラの防護を強化することが求められている。これにより、国民や社会全体の安全も確保されることが期待されている。",
+          "vi": "Bảo vệ hệ thống, mạng và dữ liệu trước truy cập trái phép, tấn công và rò rỉ thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "サイバーセキュリティは技術対策だけでなく、組織・人・制度を含む。",
+          "vi": "An ninh mạng bao gồm kỹ thuật, con người, quy trình và pháp luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイバーセキュリティ",
+          "english": "Cybersecurity",
+          "vi": "An ninh mạng",
+          "definitionJa": "情報システムやネットワークを不正アクセスや攻撃から保護するための技術や対策を指す。これには、個人情報や機密情報を守ることも含まれる。近年、ウイルスやマルウェアによる攻撃が増加しており、企業や組織では防御策が不可欠である。例えば、ファイアウォールやウイルス対策ソフトウェアを用いることで、外部からの侵入を防ぐことができる。また、サイバーセキュリティ基本法に基づく取り組みも進められており、政府や企業が連携して重要なインフラの防護を強化することが求められている。これにより、国民や社会全体の安全も確保されることが期待されている。",
+          "definitionVi": "Bảo vệ hệ thống, mạng và dữ liệu trước truy cập trái phép, tấn công và rò rỉ thông tin.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "cybersecurity"]
+    },
+    {
+      "id": "electromagnetic-method",
+      "order": 2,
+      "titleJa": "電磁的方式",
+      "titleVi": "Phương thức điện từ",
+      "importance": "medium",
+      "summaryJa": "データや情報を電気的な信号を通じて伝達する手段を指す。",
+      "summaryVi": "Phương thức tạo, truyền hoặc xử lý thông tin bằng công nghệ điện tử, từ tính hoặc công nghệ tương tự theo quy định pháp luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電磁的方式とは",
+          "vi": "Phương thức điện từ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データや情報を電気的な信号を通じて伝達する手段を指す。具体的には、インターネットや電子メール、オンラインストレージなどがこれに該当する。この方法は、コンピュータやスマートフォンなどのデバイス同士が迅速に情報を交換できるようにするため、私たちの日常生活やビジネス活動に深く関わっている。サイバーセキュリティの観点から、電磁的方式で送信される情報は、適切な暗号化やセキュリティ対策が必要であり、不正アクセスや情報漏洩のリスクを軽減するために重要である。特に、個人情報や機密情報の取り扱いには細心の注意が求められる。",
+          "vi": "Phương thức tạo, truyền hoặc xử lý thông tin bằng công nghệ điện tử, từ tính hoặc công nghệ tương tự theo quy định pháp luật."
+        },
+        {
+          "type": "point",
+          "ja": "電磁的方式は法令上の用語であり、単なるインターネット通信だけを指すわけではない。",
+          "vi": "Không đồng nhất khái niệm pháp lý này với riêng việc truyền dữ liệu qua Internet."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電磁的方式",
+          "english": "Electronic Means",
+          "vi": "Phương thức điện từ",
+          "definitionJa": "データや情報を電気的な信号を通じて伝達する手段を指す。具体的には、インターネットや電子メール、オンラインストレージなどがこれに該当する。この方法は、コンピュータやスマートフォンなどのデバイス同士が迅速に情報を交換できるようにするため、私たちの日常生活やビジネス活動に深く関わっている。サイバーセキュリティの観点から、電磁的方式で送信される情報は、適切な暗号化やセキュリティ対策が必要であり、不正アクセスや情報漏洩のリスクを軽減するために重要である。特に、個人情報や機密情報の取り扱いには細心の注意が求められる。",
+          "definitionVi": "Phương thức tạo, truyền hoặc xử lý thông tin bằng công nghệ điện tử, từ tính hoặc công nghệ tương tự theo quy định pháp luật.",
+          "reading": "でんじてきほうしき"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "electromagnetic-method"]
+    },
+    {
+      "id": "electromagnetic-recording-medium",
+      "order": 3,
+      "titleJa": "電磁的記録媒体",
+      "titleVi": "Vật mang ghi dữ liệu điện từ",
+      "importance": "medium",
+      "summaryJa": "データを電気的な方法で記録・保存するための装置や材料を指す。",
+      "summaryVi": "Vật mang lưu trữ dữ liệu điện tử như HDD, USB, CD và DVD.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電磁的記録媒体とは",
+          "vi": "Vật mang ghi dữ liệu điện từ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを電気的な方法で記録・保存するための装置や材料を指す。この媒体は、情報を電子的な信号として変換し、読み書きすることが可能である。例えば、ハードディスクドライブ（HDD）やUSBメモリ、光ディスク（CDやDVD）などが挙げられる。これらの媒体は、デジタルデータを効率的に保存し、必要に応じて再生するために広く利用されている。特にサイバーセキュリティの観点からは、これらの記録媒体の管理やセキュリティ対策が重要であり、悪意のある攻撃から情報を守るためには、適切な暗号化やアクセス制御が求められる。",
+          "vi": "Vật mang lưu trữ dữ liệu điện tử như HDD, USB, CD và DVD."
+        },
+        {
+          "type": "point",
+          "ja": "電磁的記録媒体は保存媒体であり、電磁的方式という方法とは異なる。",
+          "vi": "Phân biệt phương thức điện từ (cách thức) và vật mang ghi dữ liệu (thiết bị lưu trữ)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電磁的記録媒体",
+          "english": "Electronic Recording Medium",
+          "vi": "Vật mang ghi dữ liệu điện từ",
+          "definitionJa": "データを電気的な方法で記録・保存するための装置や材料を指す。この媒体は、情報を電子的な信号として変換し、読み書きすることが可能である。例えば、ハードディスクドライブ（HDD）やUSBメモリ、光ディスク（CDやDVD）などが挙げられる。これらの媒体は、デジタルデータを効率的に保存し、必要に応じて再生するために広く利用されている。特にサイバーセキュリティの観点からは、これらの記録媒体の管理やセキュリティ対策が重要であり、悪意のある攻撃から情報を守るためには、適切な暗号化やアクセス制御が求められる。",
+          "definitionVi": "Vật mang lưu trữ dữ liệu điện tử như HDD, USB, CD và DVD.",
+          "reading": "でんじてききろくばいたい"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "electromagnetic-recording-medium"
+      ]
+    },
+    {
+      "id": "cybersecurity-strategy",
+      "order": 4,
+      "titleJa": "サイバーセキュリティ戦略",
+      "titleVi": "Chiến lược an ninh mạng",
+      "importance": "medium",
+      "summaryJa": "サイバーセキュリティ基本法に基づき、情報社会の安全を確保するための国家の総合的な方針を示すものである。",
+      "summaryVi": "Định hướng chính sách tổng thể của Nhật Bản về bảo đảm an ninh mạng, được xây dựng trên cơ sở Luật cơ bản về an ninh mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイバーセキュリティ戦略とは",
+          "vi": "Chiến lược an ninh mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サイバーセキュリティ基本法に基づき、情報社会の安全を確保するための国家の総合的な方針を示すものである。この戦略は、サイバー攻撃から国民や企業、公共インフラを保護し、情報セキュリティの基盤を強化することを目的としている。具体的には、リスクの評価や対策の実施、教育の推進、国際協力の強化などが盛り込まれている。例えば、サイバー犯罪に対して法的対処を強化したり、企業に対するセキュリティ対策の指導を行ったりすることが含まれる。デジタル社会が進化する中で、脅威に対抗するための重要な枠組みを提供している。",
+          "vi": "Định hướng chính sách tổng thể của Nhật Bản về bảo đảm an ninh mạng, được xây dựng trên cơ sở Luật cơ bản về an ninh mạng."
+        },
+        {
+          "type": "point",
+          "ja": "サイバーセキュリティ基本法に基づく国の戦略である。",
+          "vi": "Phân biệt luật nền tảng với chiến lược được xây dựng theo luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイバーセキュリティ戦略",
+          "english": "Cybersecurity Strategy",
+          "vi": "Chiến lược an ninh mạng",
+          "definitionJa": "サイバーセキュリティ基本法に基づき、情報社会の安全を確保するための国家の総合的な方針を示すものである。この戦略は、サイバー攻撃から国民や企業、公共インフラを保護し、情報セキュリティの基盤を強化することを目的としている。具体的には、リスクの評価や対策の実施、教育の推進、国際協力の強化などが盛り込まれている。例えば、サイバー犯罪に対して法的対処を強化したり、企業に対するセキュリティ対策の指導を行ったりすることが含まれる。デジタル社会が進化する中で、脅威に対抗するための重要な枠組みを提供している。",
+          "definitionVi": "Định hướng chính sách tổng thể của Nhật Bản về bảo đảm an ninh mạng, được xây dựng trên cơ sở Luật cơ bản về an ninh mạng.",
+          "reading": "さいばーせきゅりてぃせんりゃく"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "cybersecurity-strategy"]
+    },
+    {
+      "id": "fundamental-principles",
+      "order": 5,
+      "titleJa": "基本理念",
+      "titleVi": "Nguyên tắc cơ bản",
+      "importance": "medium",
+      "summaryJa": "サイバーセキュリティ基本法において、情報通信の安全性を確保するための基本的な考え方を示すものである。",
+      "summaryVi": "Các nguyên tắc nền tảng định hướng trách nhiệm và sự phối hợp trong bảo đảm an ninh mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "基本理念とは",
+          "vi": "Nguyên tắc cơ bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サイバーセキュリティ基本法において、情報通信の安全性を確保するための基本的な考え方を示すものである。この理念は、サイバー脅威に対して、国家、企業、個人が協力して効果的な対策を講じる重要性を強調している。例えば、インターネットを利用するすべての主体が、それぞれの責任を理解し、情報セキュリティの向上に努めることが求められる。実際には、セキュリティ教育や意識向上施策が具体的な活動として位置づけられており、これにより、より安全で信頼性の高い情報社会を実現することが目指されている。このように、基本理念はサイバーセキュリティの基盤を成す考え方として、広く適用されている。",
+          "vi": "Các nguyên tắc nền tảng định hướng trách nhiệm và sự phối hợp trong bảo đảm an ninh mạng."
+        },
+        {
+          "type": "point",
+          "ja": "基本理念は個別の対策手順ではなく、政策や取組の基本的な考え方である。",
+          "vi": "Đây là nguyên tắc chỉ đạo, không phải một công cụ bảo mật cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "基本理念",
+          "english": "Fundamental Principle",
+          "vi": "Nguyên tắc cơ bản",
+          "definitionJa": "サイバーセキュリティ基本法において、情報通信の安全性を確保するための基本的な考え方を示すものである。この理念は、サイバー脅威に対して、国家、企業、個人が協力して効果的な対策を講じる重要性を強調している。例えば、インターネットを利用するすべての主体が、それぞれの責任を理解し、情報セキュリティの向上に努めることが求められる。実際には、セキュリティ教育や意識向上施策が具体的な活動として位置づけられており、これにより、より安全で信頼性の高い情報社会を実現することが目指されている。このように、基本理念はサイバーセキュリティの基盤を成す考え方として、広く適用されている。",
+          "definitionVi": "Các nguyên tắc nền tảng định hướng trách nhiệm và sự phối hợp trong bảo đảm an ninh mạng.",
+          "reading": "きほんりねん"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "fundamental-principles"]
+    },
+    {
+      "id": "cybersecurity-council",
+      "order": 6,
+      "titleJa": "サイバーセキュリティ協議会",
+      "titleVi": "Hội đồng phối hợp an ninh mạng",
+      "importance": "medium",
+      "summaryJa": "サイバーセキュリティに関する政策や対策を検討・推進するための機関である。",
+      "summaryVi": "Cơ chế phối hợp, chia sẻ thông tin về mối đe dọa giữa các chủ thể liên quan nhằm tăng khả năng ứng phó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイバーセキュリティ協議会とは",
+          "vi": "Hội đồng phối hợp an ninh mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "サイバーセキュリティに関する政策や対策を検討・推進するための機関である。この協議会は、政府や企業、学術機関などの代表者が集まり、サイバー攻撃から国や社会を守るための方針を策定する。例えば、情報漏洩や不正アクセスといったリスクを低減するための施策や、教育・啓発活動の実施について議論する。このように、関係者が連携して効率的な対策を講じるための重要な役割を果たしており、国家の安全保障にも寄与している。",
+          "vi": "Cơ chế phối hợp, chia sẻ thông tin về mối đe dọa giữa các chủ thể liên quan nhằm tăng khả năng ứng phó."
+        },
+        {
+          "type": "point",
+          "ja": "サイバーセキュリティ協議会は情報共有・連携の枠組みである。",
+          "vi": "Nhớ từ khóa: chia sẻ thông tin và phối hợp đối phó tấn công."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイバーセキュリティ協議会",
+          "english": "Cyber Security Council",
+          "vi": "Hội đồng phối hợp an ninh mạng",
+          "definitionJa": "サイバーセキュリティに関する政策や対策を検討・推進するための機関である。この協議会は、政府や企業、学術機関などの代表者が集まり、サイバー攻撃から国や社会を守るための方針を策定する。例えば、情報漏洩や不正アクセスといったリスクを低減するための施策や、教育・啓発活動の実施について議論する。このように、関係者が連携して効率的な対策を講じるための重要な役割を果たしており、国家の安全保障にも寄与している。",
+          "definitionVi": "Cơ chế phối hợp, chia sẻ thông tin về mối đe dọa giữa các chủ thể liên quan nhằm tăng khả năng ứng phó.",
+          "reading": "さいばーせきゅりてぃきょうぎかい"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "cybersecurity-council"]
+    },
+    {
+      "id": "access-control-function",
+      "order": 7,
+      "titleJa": "アクセス制御機能",
+      "titleVi": "Chức năng kiểm soát truy cập",
+      "importance": "high",
+      "summaryJa": "システムやネットワークにおいて、特定のユーザーやシステムが特定の情報やリソースにアクセスできるかどうかを管理する機能である。",
+      "summaryVi": "Chức năng xác thực và giới hạn việc sử dụng tài nguyên theo quyền được cấp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アクセス制御機能とは",
+          "vi": "Chức năng kiểm soát truy cập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやネットワークにおいて、特定のユーザーやシステムが特定の情報やリソースにアクセスできるかどうかを管理する機能である。この機能は、正しいユーザーのみが必要なデータにアクセスできるようにすることで、不正アクセスの防止に寄与する。例えば、企業のデータベースにおいて、社員が自分の業務に必要な情報にはアクセスできても、機密情報に対しては制限を設ける場合がある。このようにデータの安全性を保つために重要な役割を果たしており、不正アクセス禁止法に基づくセキュリティ対策の一環としても位置づけられる。",
+          "vi": "Chức năng xác thực và giới hạn việc sử dụng tài nguyên theo quyền được cấp."
+        },
+        {
+          "type": "point",
+          "ja": "アクセス制御機能は識別符号による認証などで利用を制限する機能であり、不正アクセス禁止法でも重要である。",
+          "vi": "Kiểm soát truy cập là cơ sở để xác định hành vi vượt qua giới hạn truy cập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アクセス制御機能",
+          "english": "Access Control Function",
+          "vi": "Chức năng kiểm soát truy cập",
+          "definitionJa": "システムやネットワークにおいて、特定のユーザーやシステムが特定の情報やリソースにアクセスできるかどうかを管理する機能である。この機能は、正しいユーザーのみが必要なデータにアクセスできるようにすることで、不正アクセスの防止に寄与する。例えば、企業のデータベースにおいて、社員が自分の業務に必要な情報にはアクセスできても、機密情報に対しては制限を設ける場合がある。このようにデータの安全性を保つために重要な役割を果たしており、不正アクセス禁止法に基づくセキュリティ対策の一環としても位置づけられる。",
+          "definitionVi": "Chức năng xác thực và giới hạn việc sử dụng tài nguyên theo quyền được cấp.",
+          "reading": "あくせすせいぎょきのう"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "access-control-function"]
+    },
+    {
+      "id": "unauthorized-access",
+      "order": 8,
+      "titleJa": "不正アクセス行為",
+      "titleVi": "Hành vi truy cập trái phép",
+      "importance": "high",
+      "summaryJa": "ネットワーク上のコンピュータに対して、他人の認証情報を使ってアクセス制限を回避し、不正に機能を利用する行為である。",
+      "summaryVi": "Hành vi sử dụng trái phép thông tin xác thực của người khác hoặc vượt qua biện pháp kiểm soát truy cập vào máy tính qua mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不正アクセス行為とは",
+          "vi": "Hành vi truy cập trái phép là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク上のコンピュータに対して、他人の認証情報を使ってアクセス制限を回避し、不正に機能を利用する行為である。この行為は、不正アクセス禁止法によって禁じられており、個人情報の盗用やデータの改ざんなど、重大な犯罪に該当することがある。具体的には、他人のパスワードを不正に入手し、そのアカウントにアクセスすることや、特定の権限を持たないユーザーがシステムの重要な部分にアクセスすることが含まれる。このような行為は、ネットワークの安全性を脅かし、企業や個人に対する信頼を損なうため、厳重に取り締まられている。",
+          "vi": "Hành vi sử dụng trái phép thông tin xác thực của người khác hoặc vượt qua biện pháp kiểm soát truy cập vào máy tính qua mạng."
+        },
+        {
+          "type": "point",
+          "ja": "不正アクセス行為と、不正アクセスを助長する行為は別の禁止対象である。",
+          "vi": "Phân biệt trực tiếp xâm nhập trái phép và hành vi hỗ trợ xâm nhập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正アクセス行為",
+          "english": "Unauthorized Access Act",
+          "vi": "Hành vi truy cập trái phép",
+          "definitionJa": "ネットワーク上のコンピュータに対して、他人の認証情報を使ってアクセス制限を回避し、不正に機能を利用する行為である。この行為は、不正アクセス禁止法によって禁じられており、個人情報の盗用やデータの改ざんなど、重大な犯罪に該当することがある。具体的には、他人のパスワードを不正に入手し、そのアカウントにアクセスすることや、特定の権限を持たないユーザーがシステムの重要な部分にアクセスすることが含まれる。このような行為は、ネットワークの安全性を脅かし、企業や個人に対する信頼を損なうため、厳重に取り締まられている。",
+          "definitionVi": "Hành vi sử dụng trái phép thông tin xác thực của người khác hoặc vượt qua biện pháp kiểm soát truy cập vào máy tính qua mạng.",
+          "reading": "ふせいあくせすこうい"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "unauthorized-access"]
+    },
+    {
+      "id": "facilitating-unauthorized-access",
+      "order": 9,
+      "titleJa": "不正アクセス行為を助長する行為",
+      "titleVi": "Hành vi tiếp tay cho truy cập trái phép",
+      "importance": "high",
+      "summaryJa": "他人のコンピュータシステムに不正にアクセスすることを促す行為である。",
+      "summaryVi": "Hành vi cung cấp trái phép mã định danh hoặc thông tin xác thực của người khác để tạo điều kiện truy cập trái phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不正アクセス行為を助長する行為とは",
+          "vi": "Hành vi tiếp tay cho truy cập trái phép là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "他人のコンピュータシステムに不正にアクセスすることを促す行為である。この用語は、日本の不正アクセス禁止法第5条によって定義されており、具体的には不正アクセスを実行する手段や情報を提供することを指している。例えば、パスワードを無断で配布したり、攻撃手法を解説するマニュアルを公開したりする行為が含まれる。こうした行為は、他人のプライバシーや情報を侵害する危険性が高く、法的な罰則も伴う場合がある。そのため、こうした行為を助長しないためには、情報の取り扱いについての意識を高め、適切なセキュリティ対策を講じることが重要である。",
+          "vi": "Hành vi cung cấp trái phép mã định danh hoặc thông tin xác thực của người khác để tạo điều kiện truy cập trái phép."
+        },
+        {
+          "type": "point",
+          "ja": "助長行為の中心は他人の識別符号の不正な提供であり、技術解説の公開が直ちに該当するわけではない。",
+          "vi": "Nguồn mô tả quá rộng: không phải mọi tài liệu hướng dẫn kỹ thuật đều là hành vi phạm tội."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正アクセス行為を助長する行為",
+          "english": "Acts Promoting Unauthorized Access",
+          "vi": "Hành vi tiếp tay cho truy cập trái phép",
+          "definitionJa": "他人のコンピュータシステムに不正にアクセスすることを促す行為である。この用語は、日本の不正アクセス禁止法第5条によって定義されており、具体的には不正アクセスを実行する手段や情報を提供することを指している。例えば、パスワードを無断で配布したり、攻撃手法を解説するマニュアルを公開したりする行為が含まれる。こうした行為は、他人のプライバシーや情報を侵害する危険性が高く、法的な罰則も伴う場合がある。そのため、こうした行為を助長しないためには、情報の取り扱いについての意識を高め、適切なセキュリティ対策を講じることが重要である。",
+          "definitionVi": "Hành vi cung cấp trái phép mã định danh hoặc thông tin xác thực của người khác để tạo điều kiện truy cập trái phép.",
+          "reading": "ふせいあくせすこういをじょちょうするこうい"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "facilitating-unauthorized-access"
+      ]
+    },
+    {
+      "id": "malicious-electromagnetic-records-offense",
+      "order": 10,
+      "titleJa": "不正指令電磁的記録に関する罪",
+      "titleVi": "Tội liên quan đến bản ghi lệnh điện từ bất chính",
+      "importance": "high",
+      "summaryJa": "他人のコンピュータやネットワークに不正にアクセスするための悪意のあるプログラム、いわゆる「ウイルス」や「マルウェア」を作成・配布する行為を罰則の対象とする法律である。",
+      "summaryVi": "Tội danh liên quan đến việc tạo, cung cấp hoặc lưu giữ chương trình chứa chỉ thị trái phép trong những điều kiện do Bộ luật Hình sự quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不正指令電磁的記録に関する罪とは",
+          "vi": "Tội liên quan đến bản ghi lệnh điện từ bất chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "他人のコンピュータやネットワークに不正にアクセスするための悪意のあるプログラム、いわゆる「ウイルス」や「マルウェア」を作成・配布する行為を罰則の対象とする法律である。通称は「ウイルス作成罪」。この罪は、情報社会における安全を守るために設けられており、他人のデータを破壊したり、盗んだりする行為を防ぐことを目的としている。例えば、ウイルスによって個人のパソコンに侵入し、個人情報を盗むような行為は、この罪に問われることになる。このような規定により、サイバー犯罪の抑止や、社会全体の情報セキュリティの向上が図られている。",
+          "vi": "Tội danh liên quan đến việc tạo, cung cấp hoặc lưu giữ chương trình chứa chỉ thị trái phép trong những điều kiện do Bộ luật Hình sự quy định."
+        },
+        {
+          "type": "point",
+          "ja": "正当な理由なく不正指令電磁的記録を作成・提供するなどの行為が対象であり、すべてのプログラム作成が犯罪ではない。",
+          "vi": "Không phải cứ viết mã độc trong mọi hoàn cảnh là tự động cấu thành tội; cần xét các yếu tố luật định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正指令電磁的記録に関する罪",
+          "english": "Crime of Creating Malicious Software",
+          "vi": "Tội liên quan đến bản ghi lệnh điện từ bất chính",
+          "definitionJa": "他人のコンピュータやネットワークに不正にアクセスするための悪意のあるプログラム、いわゆる「ウイルス」や「マルウェア」を作成・配布する行為を罰則の対象とする法律である。通称は「ウイルス作成罪」。この罪は、情報社会における安全を守るために設けられており、他人のデータを破壊したり、盗んだりする行為を防ぐことを目的としている。例えば、ウイルスによって個人のパソコンに侵入し、個人情報を盗むような行為は、この罪に問われることになる。このような規定により、サイバー犯罪の抑止や、社会全体の情報セキュリティの向上が図られている。",
+          "definitionVi": "Tội danh liên quan đến việc tạo, cung cấp hoặc lưu giữ chương trình chứa chỉ thị trái phép trong những điều kiện do Bộ luật Hình sự quy định.",
+          "reading": "ふせいしれいでんじてききろくにかんするつみ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "malicious-electromagnetic-records-offense"
+      ]
+    },
+    {
+      "id": "computer-fraud-offense",
+      "order": 11,
+      "titleJa": "電子計算機使用詐欺罪",
+      "titleVi": "Tội gian lận bằng máy tính",
+      "importance": "high",
+      "summaryJa": "電子計算機を利用して他人を欺く行為を罰する法律である。",
+      "summaryVi": "Tội tạo ra bản ghi điện tử sai sự thật hoặc đưa lệnh trái phép vào hệ thống xử lý giao dịch để thu lợi bất chính theo điều kiện luật định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子計算機使用詐欺罪とは",
+          "vi": "Tội gian lận bằng máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子計算機を利用して他人を欺く行為を罰する法律である。具体的には、コンピュータを用いて金銭を不正に得るために偽情報を入力したり、他人のデータを不正に操作したりすることを指す。この犯罪には、オンラインでの詐欺や、ハッキングによって他人の口座情報を盗み出す行為が含まれる。例えば、フィッシング詐欺は、被害者に偽のWebサイトに誘導して個人情報を取得する手法であり、これは電子計算機使用詐欺罪に該当する。また、こうした犯罪の増加に伴い、法律は厳格化され、対策が求められている。",
+          "vi": "Tội tạo ra bản ghi điện tử sai sự thật hoặc đưa lệnh trái phép vào hệ thống xử lý giao dịch để thu lợi bất chính theo điều kiện luật định."
+        },
+        {
+          "type": "point",
+          "ja": "電子計算機使用詐欺罪は財産上の不法な利益に関わり、フィッシングそのものと同義ではない。",
+          "vi": "Phân biệt gian lận bằng máy tính với phishing, đánh cắp tài khoản và xâm nhập trái phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子計算機使用詐欺罪",
+          "english": "Fraud in Electronic Computers",
+          "vi": "Tội gian lận bằng máy tính",
+          "definitionJa": "電子計算機を利用して他人を欺く行為を罰する法律である。具体的には、コンピュータを用いて金銭を不正に得るために偽情報を入力したり、他人のデータを不正に操作したりすることを指す。この犯罪には、オンラインでの詐欺や、ハッキングによって他人の口座情報を盗み出す行為が含まれる。例えば、フィッシング詐欺は、被害者に偽のWebサイトに誘導して個人情報を取得する手法であり、これは電子計算機使用詐欺罪に該当する。また、こうした犯罪の増加に伴い、法律は厳格化され、対策が求められている。",
+          "definitionVi": "Tội tạo ra bản ghi điện tử sai sự thật hoặc đưa lệnh trái phép vào hệ thống xử lý giao dịch để thu lợi bất chính theo điều kiện luật định.",
+          "reading": "でんしけいさんきしようさぎざい"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "computer-fraud-offense"]
+    },
+    {
+      "id": "computer-damage-business-obstruction",
+      "order": 12,
+      "titleJa": "電子計算機損壊等業務妨害罪",
+      "titleVi": "Tội cản trở hoạt động bằng cách phá hoại máy tính",
+      "importance": "medium",
+      "summaryJa": "電子計算機やその関連機器に対して、意図的に損壊したり、業務を妨害する行為を指す法律の規定である。",
+      "summaryVi": "Tội làm hỏng máy tính hoặc dữ liệu, đưa lệnh sai để cản trở hoạt động nghiệp vụ dựa trên hệ thống máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子計算機損壊等業務妨害罪とは",
+          "vi": "Tội cản trở hoạt động bằng cách phá hoại máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子計算機やその関連機器に対して、意図的に損壊したり、業務を妨害する行為を指す法律の規定である。この罪は、コンピュータを使用している企業や個人の業務を不正に妨げる行為を防止するために設けられている。例えば、ウイルスを仕掛けてコンピュータをダウンさせたり、データを削除する行為は、明らかに業務妨害に該当する。電子計算機の発展に伴い、こうした犯罪が増加しているため、刑法の中でも特に重要な位置を占めている。このようにして、情報システムを保護し、社会の安全を確保する役割を果たしている。",
+          "vi": "Tội làm hỏng máy tính hoặc dữ liệu, đưa lệnh sai để cản trở hoạt động nghiệp vụ dựa trên hệ thống máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "電子計算機損壊等業務妨害罪は業務妨害という結果・要件に注目する。",
+          "vi": "Điểm chính là làm gián đoạn hoạt động nghiệp vụ bằng tác động vào hệ thống hoặc dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子計算機損壊等業務妨害罪",
+          "english": "Computer Damage and Interference Offense",
+          "vi": "Tội cản trở hoạt động bằng cách phá hoại máy tính",
+          "definitionJa": "電子計算機やその関連機器に対して、意図的に損壊したり、業務を妨害する行為を指す法律の規定である。この罪は、コンピュータを使用している企業や個人の業務を不正に妨げる行為を防止するために設けられている。例えば、ウイルスを仕掛けてコンピュータをダウンさせたり、データを削除する行為は、明らかに業務妨害に該当する。電子計算機の発展に伴い、こうした犯罪が増加しているため、刑法の中でも特に重要な位置を占めている。このようにして、情報システムを保護し、社会の安全を確保する役割を果たしている。",
+          "definitionVi": "Tội làm hỏng máy tính hoặc dữ liệu, đưa lệnh sai để cản trở hoạt động nghiệp vụ dựa trên hệ thống máy tính.",
+          "reading": "でんしけいさんきそんかいとうぎょうむぼうがいざい"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "computer-damage-business-obstruction"
+      ]
+    },
+    {
+      "id": "unlawful-electromagnetic-record-creation",
+      "order": 13,
+      "titleJa": "電磁的記録不正作出及び供用罪",
+      "titleVi": "Tội tạo lập và sử dụng trái phép bản ghi điện từ",
+      "importance": "medium",
+      "summaryJa": "他人の権利を侵害する目的で、電子的なデータや記録を無断で作成したり、使用したりする行為を指すものである。",
+      "summaryVi": "Tội tạo hoặc sử dụng bản ghi điện tử liên quan đến quyền, nghĩa vụ hay xác nhận sự việc theo cách gian dối, nhằm gây sai lệch việc xử lý công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電磁的記録不正作出及び供用罪とは",
+          "vi": "Tội tạo lập và sử dụng trái phép bản ghi điện từ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "他人の権利を侵害する目的で、電子的なデータや記録を無断で作成したり、使用したりする行為を指すものである。この罪は、例えば、他人の名義を使って不正にデータを改ざんしたり、偽の電子文書を作成して他人を欺くような犯罪を含む。具体的には、電子契約やオンライン署名などで不正に認証を得ようとする行為がこれにあたる。このような行為は、社会の信頼を損ねるものであり、厳しい罰則が科されることが多い。電子情報が普及した現代において、法的な対策がますます重要になっている。",
+          "vi": "Tội tạo hoặc sử dụng bản ghi điện tử liên quan đến quyền, nghĩa vụ hay xác nhận sự việc theo cách gian dối, nhằm gây sai lệch việc xử lý công việc."
+        },
+        {
+          "type": "point",
+          "ja": "権利・義務・事実証明に関する電磁的記録の不正作出・供用を扱う。",
+          "vi": "Không phải mọi thao tác chỉnh sửa dữ liệu không xin phép đều thuộc đúng tội danh này."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電磁的記録不正作出及び供用罪",
+          "english": "Crime of Unauthorized Creation and Use of Electromagnetic Records",
+          "vi": "Tội tạo lập và sử dụng trái phép bản ghi điện từ",
+          "definitionJa": "他人の権利を侵害する目的で、電子的なデータや記録を無断で作成したり、使用したりする行為を指すものである。この罪は、例えば、他人の名義を使って不正にデータを改ざんしたり、偽の電子文書を作成して他人を欺くような犯罪を含む。具体的には、電子契約やオンライン署名などで不正に認証を得ようとする行為がこれにあたる。このような行為は、社会の信頼を損ねるものであり、厳しい罰則が科されることが多い。電子情報が普及した現代において、法的な対策がますます重要になっている。",
+          "definitionVi": "Tội tạo hoặc sử dụng bản ghi điện tử liên quan đến quyền, nghĩa vụ hay xác nhận sự việc theo cách gian dối, nhằm gây sai lệch việc xử lý công việc.",
+          "reading": "でんじてききろくふせいさくしゅつおよびきょうようざい"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "unlawful-electromagnetic-record-creation"
+      ]
+    },
+    {
+      "id": "payment-card-record-forgery",
+      "order": 14,
+      "titleJa": "支払用カード電磁的記録不正作出等罪",
+      "titleVi": "Tội làm giả bản ghi điện từ của thẻ thanh toán",
+      "importance": "medium",
+      "summaryJa": "支払用カードに関する不正行為を指す刑法上の罪である。",
+      "summaryVi": "Tội tạo hoặc sử dụng trái phép dữ liệu điện từ phục vụ thanh toán trên thẻ như thẻ tín dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "支払用カード電磁的記録不正作出等罪とは",
+          "vi": "Tội làm giả bản ghi điện từ của thẻ thanh toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "支払用カードに関する不正行為を指す刑法上の罪である。この罪は、他人の支払用カードの電磁的記録を不正にコピーしたり、改ざんする行為を含む。具体的には、カードの情報を無断で取得し、支払いに使用することで、他者に経済的損害を与えることが該当する。例えば、他人のクレジットカードを不正に利用して商品を購入するといった行為がこれに該当する。このような行為は、社会的な信頼を損ない、経済活動に悪影響を及ぼすため、厳しく罰せられる。",
+          "vi": "Tội tạo hoặc sử dụng trái phép dữ liệu điện từ phục vụ thanh toán trên thẻ như thẻ tín dụng."
+        },
+        {
+          "type": "point",
+          "ja": "支払用カードの電磁的記録の偽造などが対象であり、カードの単純な無断利用とは区別する。",
+          "vi": "Phân biệt làm giả dữ liệu thẻ và hành vi dùng thẻ người khác trái phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "支払用カード電磁的記録不正作出等罪",
+          "english": "Electromagnetic Record Fraud Regarding Payment Cards",
+          "vi": "Tội làm giả bản ghi điện từ của thẻ thanh toán",
+          "definitionJa": "支払用カードに関する不正行為を指す刑法上の罪である。この罪は、他人の支払用カードの電磁的記録を不正にコピーしたり、改ざんする行為を含む。具体的には、カードの情報を無断で取得し、支払いに使用することで、他者に経済的損害を与えることが該当する。例えば、他人のクレジットカードを不正に利用して商品を購入するといった行為がこれに該当する。このような行為は、社会的な信頼を損ない、経済活動に悪影響を及ぼすため、厳しく罰せられる。",
+          "definitionVi": "Tội tạo hoặc sử dụng trái phép dữ liệu điện từ phục vụ thanh toán trên thẻ như thẻ tín dụng.",
+          "reading": "しはらいようかーどでんじてききろくふせいさくしゅつとうざい"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "payment-card-record-forgery"]
+    },
+    {
+      "id": "personal-information-protection-guidelines",
+      "order": 15,
+      "titleJa": "個人情報保護に関するガイドライン",
+      "titleVi": "Hướng dẫn bảo vệ thông tin cá nhân",
+      "importance": "medium",
+      "summaryJa": "個人のプライバシーを保護するために定められた基準や指針である。",
+      "summaryVi": "Hướng dẫn cụ thể cách tuân thủ luật bảo vệ dữ liệu cá nhân, từ thu thập, sử dụng, cung cấp đến quản lý an toàn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "個人情報保護に関するガイドラインとは",
+          "vi": "Hướng dẫn bảo vệ thông tin cá nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人のプライバシーを保護するために定められた基準や指針である。このガイドラインは、企業や組織が個人情報を取り扱う際に遵守すべき具体的なルールや手続きについて説明している。例えば、個人情報の収集や利用、保存、提供の方法について、利用者の同意を得ることや、適切な安全対策を講じることが求められる。また、個人情報の漏洩を防ぐための具体的な対策や、問題が発生した場合の対応手順も含まれている。これにより、個人の権利を守りつつ、信頼性の高い情報サービスを提供することが可能となる。",
+          "vi": "Hướng dẫn cụ thể cách tuân thủ luật bảo vệ dữ liệu cá nhân, từ thu thập, sử dụng, cung cấp đến quản lý an toàn."
+        },
+        {
+          "type": "point",
+          "ja": "個人情報保護法のガイドラインは法令の適切な運用を具体化する。",
+          "vi": "Hướng dẫn hỗ trợ thực thi luật, không đồng nhất với bản thân đạo luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "個人情報保護に関するガイドライン",
+          "english": "Guidelines for the Protection of Personal Information",
+          "vi": "Hướng dẫn bảo vệ thông tin cá nhân",
+          "definitionJa": "個人のプライバシーを保護するために定められた基準や指針である。このガイドラインは、企業や組織が個人情報を取り扱う際に遵守すべき具体的なルールや手続きについて説明している。例えば、個人情報の収集や利用、保存、提供の方法について、利用者の同意を得ることや、適切な安全対策を講じることが求められる。また、個人情報の漏洩を防ぐための具体的な対策や、問題が発生した場合の対応手順も含まれている。これにより、個人の権利を守りつつ、信頼性の高い情報サービスを提供することが可能となる。",
+          "definitionVi": "Hướng dẫn cụ thể cách tuân thủ luật bảo vệ dữ liệu cá nhân, từ thu thập, sử dụng, cung cấp đến quản lý an toàn.",
+          "reading": "こじんじょうほうほごにかんするがいどらいん"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "personal-information-protection-guidelines"
+      ]
+    },
+    {
+      "id": "personal-information-handling-operator",
+      "order": 16,
+      "titleJa": "個人情報取扱事業者",
+      "titleVi": "Đơn vị kinh doanh xử lý thông tin cá nhân",
+      "importance": "high",
+      "summaryJa": "個人情報を扱う事業体のことを指す。",
+      "summaryVi": "Tổ chức hoặc cá nhân kinh doanh sử dụng cơ sở dữ liệu thông tin cá nhân cho hoạt động của mình theo phạm vi luật định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "個人情報取扱事業者とは",
+          "vi": "Đơn vị kinh doanh xử lý thông tin cá nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報を扱う事業体のことを指す。個人情報とは、特定の個人を識別できる情報であり、氏名や住所、電話番号、メールアドレスなどがその例である。こうした情報を収集、利用、保管する事業者は、法律に基づいて適切に個人情報を管理する責任を負う。具体的には、個人情報の漏えいや不正アクセスから守るための対策を講じる必要がある。また、利用者に対して情報の取扱いについての説明を行い、必要に応じて同意を得ることが求められる。個人情報取扱事業者の適切な運営は、利用者の信頼を確保し、プライバシーを保護するために非常に重要である。",
+          "vi": "Tổ chức hoặc cá nhân kinh doanh sử dụng cơ sở dữ liệu thông tin cá nhân cho hoạt động của mình theo phạm vi luật định."
+        },
+        {
+          "type": "point",
+          "ja": "個人情報取扱事業者は規模が小さいことだけを理由に適用対象外とはならない。",
+          "vi": "Không mặc định chỉ doanh nghiệp lớn mới phải tuân thủ luật bảo vệ thông tin cá nhân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "個人情報取扱事業者",
+          "english": "Personal Information Handling Business",
+          "vi": "Đơn vị kinh doanh xử lý thông tin cá nhân",
+          "definitionJa": "個人情報を扱う事業体のことを指す。個人情報とは、特定の個人を識別できる情報であり、氏名や住所、電話番号、メールアドレスなどがその例である。こうした情報を収集、利用、保管する事業者は、法律に基づいて適切に個人情報を管理する責任を負う。具体的には、個人情報の漏えいや不正アクセスから守るための対策を講じる必要がある。また、利用者に対して情報の取扱いについての説明を行い、必要に応じて同意を得ることが求められる。個人情報取扱事業者の適切な運営は、利用者の信頼を確保し、プライバシーを保護するために非常に重要である。",
+          "definitionVi": "Tổ chức hoặc cá nhân kinh doanh sử dụng cơ sở dữ liệu thông tin cá nhân cho hoạt động của mình theo phạm vi luật định.",
+          "reading": "こじんじょうほうとりあつかいじぎょうしゃ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "personal-information-handling-operator"
+      ]
+    },
+    {
+      "id": "security-management-measures",
+      "order": 17,
+      "titleJa": "安全管理措置",
+      "titleVi": "Biện pháp quản lý an toàn",
+      "importance": "high",
+      "summaryJa": "個人情報や重要なデータを適切に保護するために講じる具体的な対策や手続きである。",
+      "summaryVi": "Các biện pháp tổ chức, con người, vật lý và kỹ thuật nhằm bảo vệ dữ liệu cá nhân và ngăn rò rỉ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "安全管理措置とは",
+          "vi": "Biện pháp quản lý an toàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報や重要なデータを適切に保護するために講じる具体的な対策や手続きである。これには、物理的なセキュリティ対策や情報システムに対する技術的な対策、さらには業務運用に関するルールの設定が含まれる。例えば、オフィスへの出入りを制限するための鍵管理や、パスワードを強化すること、定期的な社員教育が代表的な施策である。また、情報漏洩や不正アクセスを防ぐためには、これらの管理措置を継続的に見直し、改善していくことが重要である。これにより、個人情報を扱う企業や組織は法令に準拠した運用ができ、利用者からの信頼を得ることができる。",
+          "vi": "Các biện pháp tổ chức, con người, vật lý và kỹ thuật nhằm bảo vệ dữ liệu cá nhân và ngăn rò rỉ."
+        },
+        {
+          "type": "point",
+          "ja": "安全管理措置には組織的・人的・物理的・技術的な対策がある。",
+          "vi": "Nhớ 4 nhóm: tổ chức, nhân sự, vật lý, kỹ thuật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "安全管理措置",
+          "english": "Safety Management Measures",
+          "vi": "Biện pháp quản lý an toàn",
+          "definitionJa": "個人情報や重要なデータを適切に保護するために講じる具体的な対策や手続きである。これには、物理的なセキュリティ対策や情報システムに対する技術的な対策、さらには業務運用に関するルールの設定が含まれる。例えば、オフィスへの出入りを制限するための鍵管理や、パスワードを強化すること、定期的な社員教育が代表的な施策である。また、情報漏洩や不正アクセスを防ぐためには、これらの管理措置を継続的に見直し、改善していくことが重要である。これにより、個人情報を扱う企業や組織は法令に準拠した運用ができ、利用者からの信頼を得ることができる。",
+          "definitionVi": "Các biện pháp tổ chức, con người, vật lý và kỹ thuật nhằm bảo vệ dữ liệu cá nhân và ngăn rò rỉ.",
+          "reading": "あんぜんかんりそち"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "security-management-measures"]
+    },
+    {
+      "id": "sensitive-personal-information",
+      "order": 18,
+      "titleJa": "要配慮個人情報",
+      "titleVi": "Thông tin cá nhân cần đặc biệt lưu ý",
+      "importance": "high",
+      "summaryJa": "個人情報保護法において特に保護が必要とされる個人情報の一種である。",
+      "summaryVi": "Thông tin nhạy cảm theo luật Nhật Bản, ví dụ chủng tộc, tín ngưỡng, bệnh sử, tiền án, cần bảo vệ đặc biệt.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "要配慮個人情報とは",
+          "vi": "Thông tin cá nhân cần đặc biệt lưu ý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報保護法において特に保護が必要とされる個人情報の一種である。それには、人種や思想、信条、健康状態、犯罪歴など、本人のプライバシーに深く関わる情報が含まれる。これらの情報は、本人の人権を侵害する恐れがあるため、特に慎重に取り扱う必要がある。例えば、医療情報はその代表例であり、適切な管理が求められる。このため、要配慮個人情報を扱う際には、事前の同意が必須となり、漏洩防止のための対策が法律で定められている。個人情報を取り扱う企業や団体は、これらの規定を遵守しなければならず、違反した場合には厳しい罰則が科されることがある。",
+          "vi": "Thông tin nhạy cảm theo luật Nhật Bản, ví dụ chủng tộc, tín ngưỡng, bệnh sử, tiền án, cần bảo vệ đặc biệt."
+        },
+        {
+          "type": "point",
+          "ja": "要配慮個人情報の取得には原則本人の同意が必要だが、法定例外がある。",
+          "vi": "Nguyên tắc cần đồng ý trước khi thu thập, nhưng có ngoại lệ luật định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "要配慮個人情報",
+          "english": "Sensitive Personal Information",
+          "vi": "Thông tin cá nhân cần đặc biệt lưu ý",
+          "definitionJa": "個人情報保護法において特に保護が必要とされる個人情報の一種である。それには、人種や思想、信条、健康状態、犯罪歴など、本人のプライバシーに深く関わる情報が含まれる。これらの情報は、本人の人権を侵害する恐れがあるため、特に慎重に取り扱う必要がある。例えば、医療情報はその代表例であり、適切な管理が求められる。このため、要配慮個人情報を扱う際には、事前の同意が必須となり、漏洩防止のための対策が法律で定められている。個人情報を取り扱う企業や団体は、これらの規定を遵守しなければならず、違反した場合には厳しい罰則が科されることがある。",
+          "definitionVi": "Thông tin nhạy cảm theo luật Nhật Bản, ví dụ chủng tộc, tín ngưỡng, bệnh sử, tiền án, cần bảo vệ đặc biệt.",
+          "reading": "ようはいりょこじんじょうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "sensitive-personal-information"
+      ]
+    },
+    {
+      "id": "anonymously-processed-information",
+      "order": 19,
+      "titleJa": "匿名加工情報",
+      "titleVi": "Thông tin đã xử lý ẩn danh",
+      "importance": "high",
+      "summaryJa": "個人情報を特定の個人が識別できない形に加工したデータである。",
+      "summaryVi": "Thông tin được xử lý để không nhận diện được cá nhân cụ thể và không khôi phục lại dữ liệu cá nhân gốc theo tiêu chuẩn luật định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "匿名加工情報とは",
+          "vi": "Thông tin đã xử lý ẩn danh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報を特定の個人が識別できない形に加工したデータである。この情報は、個人情報保護法に基づき、個人を特定できないため、より安全に利用することができる。実際には、名前や住所といった固有の情報を削除したり、集計して数値データに変換することで、個人が特定できないようにしている。例えば、購買データを集約し、特定の商品の購入傾向を分析する際に使用される。このように、匿名加工情報は研究やビジネス分析などにおいて役立つもので、個人のプライバシーを保護しながら有用なデータを提供する役割を果たしている。",
+          "vi": "Thông tin được xử lý để không nhận diện được cá nhân cụ thể và không khôi phục lại dữ liệu cá nhân gốc theo tiêu chuẩn luật định."
+        },
+        {
+          "type": "point",
+          "ja": "匿名加工情報と仮名加工情報は別制度であり、再識別の可否や取扱規則が異なる。",
+          "vi": "Ẩn danh không đồng nghĩa với chỉ thay tên bằng mã; khác dữ liệu giả danh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "匿名加工情報",
+          "english": "Anonymously Processed Information",
+          "vi": "Thông tin đã xử lý ẩn danh",
+          "definitionJa": "個人情報を特定の個人が識別できない形に加工したデータである。この情報は、個人情報保護法に基づき、個人を特定できないため、より安全に利用することができる。実際には、名前や住所といった固有の情報を削除したり、集計して数値データに変換することで、個人が特定できないようにしている。例えば、購買データを集約し、特定の商品の購入傾向を分析する際に使用される。このように、匿名加工情報は研究やビジネス分析などにおいて役立つもので、個人のプライバシーを保護しながら有用なデータを提供する役割を果たしている。",
+          "definitionVi": "Thông tin được xử lý để không nhận diện được cá nhân cụ thể và không khôi phục lại dữ liệu cá nhân gốc theo tiêu chuẩn luật định.",
+          "reading": "とくめいかこうじょうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "anonymously-processed-information"
+      ]
+    },
+    {
+      "id": "pseudonymously-processed-information",
+      "order": 20,
+      "titleJa": "仮名加工情報",
+      "titleVi": "Thông tin đã xử lý giả danh",
+      "importance": "high",
+      "summaryJa": "個人情報保護法における重要な概念であり、特定の個人を識別できないように加工された情報を指す。",
+      "summaryVi": "Thông tin được xử lý để không xác định ngay cá nhân nếu không đối chiếu với thông tin khác; vẫn có thể được coi là dữ liệu cá nhân trong nhiều trường hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "仮名加工情報とは",
+          "vi": "Thông tin đã xử lý giả danh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報保護法における重要な概念であり、特定の個人を識別できないように加工された情報を指す。この情報は、元の個人情報から特定の識別子を削除または変更しているため、個人が特定できない状態での利用が可能である。例えば、名前や住所をコード化することで個人を特定しにくくし、データ分析などで利用しやすくする方法がある。これにより、個人情報の保護を確保しつつ、統計分析やマーケティングなどに活用できるため、多くの企業や研究機関で重要視される技術である。法的にも一定の保護が付与されており、注意深く取り扱われるべきものである。",
+          "vi": "Thông tin được xử lý để không xác định ngay cá nhân nếu không đối chiếu với thông tin khác; vẫn có thể được coi là dữ liệu cá nhân trong nhiều trường hợp."
+        },
+        {
+          "type": "point",
+          "ja": "仮名加工情報は匿名加工情報と異なり、他の情報との照合で識別できる場合がある。",
+          "vi": "Dữ liệu giả danh vẫn có khả năng liên kết ngược; không mặc nhiên được chia sẻ tự do."
+        }
+      ],
+      "terms": [
+        {
+          "term": "仮名加工情報",
+          "english": "Pseudonymized Information",
+          "vi": "Thông tin đã xử lý giả danh",
+          "definitionJa": "個人情報保護法における重要な概念であり、特定の個人を識別できないように加工された情報を指す。この情報は、元の個人情報から特定の識別子を削除または変更しているため、個人が特定できない状態での利用が可能である。例えば、名前や住所をコード化することで個人を特定しにくくし、データ分析などで利用しやすくする方法がある。これにより、個人情報の保護を確保しつつ、統計分析やマーケティングなどに活用できるため、多くの企業や研究機関で重要視される技術である。法的にも一定の保護が付与されており、注意深く取り扱われるべきものである。",
+          "definitionVi": "Thông tin được xử lý để không xác định ngay cá nhân nếu không đối chiếu với thông tin khác; vẫn có thể được coi là dữ liệu cá nhân trong nhiều trường hợp.",
+          "reading": "かめいかこうじょうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "pseudonymously-processed-information"
+      ]
+    },
+    {
+      "id": "my-number-act",
+      "order": 21,
+      "titleJa": "マイナンバー法",
+      "titleVi": "Luật My Number",
+      "importance": "high",
+      "summaryJa": "特定の個人を識別するために用いる番号制度について定めた法律である。",
+      "summaryVi": "Luật quy định về mã số cá nhân và việc sử dụng trong các lĩnh vực được pháp luật cho phép như thuế, an sinh xã hội, ứng phó thiên tai.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイナンバー法とは",
+          "vi": "Luật My Number là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の個人を識別するために用いる番号制度について定めた法律である。この法律は、社会保障、税、災害対策など様々な行政手続において個人情報の一元化を進めることを目的としている。具体的には、住民に付与されたマイナンバーを利用することで、行政サービスの効率化や公平性を高めることを狙いとしている。一方で、個人情報の適切な取り扱いやプライバシー保護が求められるため、関連する法律やガイドラインも整備されている。たとえば、マイナンバーを取り扱う事業者は、厳重なセキュリティを確保することが義務付けられており、個人情報の漏洩を防ぐための取り組みが促進されている。これにより、利用者は安心してサービスを受けることができる。",
+          "vi": "Luật quy định về mã số cá nhân và việc sử dụng trong các lĩnh vực được pháp luật cho phép như thuế, an sinh xã hội, ứng phó thiên tai."
+        },
+        {
+          "type": "point",
+          "ja": "マイナンバーは利用目的が法令で限定され、一般の顧客管理に自由に利用できない。",
+          "vi": "Không được dùng My Number tùy tiện cho mọi mục đích kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイナンバー法",
+          "english": "My Number Act",
+          "vi": "Luật My Number",
+          "definitionJa": "特定の個人を識別するために用いる番号制度について定めた法律である。この法律は、社会保障、税、災害対策など様々な行政手続において個人情報の一元化を進めることを目的としている。具体的には、住民に付与されたマイナンバーを利用することで、行政サービスの効率化や公平性を高めることを狙いとしている。一方で、個人情報の適切な取り扱いやプライバシー保護が求められるため、関連する法律やガイドラインも整備されている。たとえば、マイナンバーを取り扱う事業者は、厳重なセキュリティを確保することが義務付けられており、個人情報の漏洩を防ぐための取り組みが促進されている。これにより、利用者は安心してサービスを受けることができる。",
+          "definitionVi": "Luật quy định về mã số cá nhân và việc sử dụng trong các lĩnh vực được pháp luật cho phép như thuế, an sinh xã hội, ứng phó thiên tai.",
+          "reading": "まいなんばーほう"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "my-number-act"]
+    },
+    {
+      "id": "specific-personal-information-guidelines",
+      "order": 22,
+      "titleJa": "特定個人情報の適正な取扱いに関するガイドライン",
+      "titleVi": "Hướng dẫn xử lý đúng thông tin cá nhân đặc định",
+      "importance": "high",
+      "summaryJa": "個人情報を保護するための具体的な指針を示したものである。",
+      "summaryVi": "Hướng dẫn về thu thập, sử dụng, bảo quản và hủy thông tin có chứa My Number theo đúng luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特定個人情報の適正な取扱いに関するガイドラインとは",
+          "vi": "Hướng dẫn xử lý đúng thông tin cá nhân đặc định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報を保護するための具体的な指針を示したものである。このガイドラインは、日本における個人情報保護法に基づき、特定の個人が識別できる情報や、その情報を取り扱う際の注意事項を明確にすることを目的としている。例えば、マイナンバーや個人の健康情報など、特にセンシティブな情報についてどのように収集、保存、利用、廃棄すべきかの基準を定めている。このガイドラインに従うことで、情報漏洩のリスクを低減し、個人のプライバシーが守られることが期待される。従って、企業や組織はこのガイドラインを遵守することが求められ、その結果、社会全体の信頼を得ることに繋がるのである。",
+          "vi": "Hướng dẫn về thu thập, sử dụng, bảo quản và hủy thông tin có chứa My Number theo đúng luật."
+        },
+        {
+          "type": "point",
+          "ja": "特定個人情報はマイナンバーを含む個人情報を指し、一般的な要配慮個人情報と同じ意味ではない。",
+          "vi": "Nguồn dễ gây nhầm: 特定個人情報 liên quan đến My Number, không phải mọi thông tin sức khỏe."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特定個人情報の適正な取扱いに関するガイドライン",
+          "english": "Guidelines for Proper Handling of Specific Personal Information",
+          "vi": "Hướng dẫn xử lý đúng thông tin cá nhân đặc định",
+          "definitionJa": "個人情報を保護するための具体的な指針を示したものである。このガイドラインは、日本における個人情報保護法に基づき、特定の個人が識別できる情報や、その情報を取り扱う際の注意事項を明確にすることを目的としている。例えば、マイナンバーや個人の健康情報など、特にセンシティブな情報についてどのように収集、保存、利用、廃棄すべきかの基準を定めている。このガイドラインに従うことで、情報漏洩のリスクを低減し、個人のプライバシーが守られることが期待される。従って、企業や組織はこのガイドラインを遵守することが求められ、その結果、社会全体の信頼を得ることに繋がるのである。",
+          "definitionVi": "Hướng dẫn về thu thập, sử dụng, bảo quản và hủy thông tin có chứa My Number theo đúng luật.",
+          "reading": "とくていこじんじょうほうのてきせいなとりあつかいにかんするがいどらいん"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "specific-personal-information-guidelines"
+      ]
+    },
+    {
+      "id": "personal-information-protection-commission",
+      "order": 23,
+      "titleJa": "個人情報保護委員会",
+      "titleVi": "Ủy ban Bảo vệ Thông tin Cá nhân",
+      "importance": "medium",
+      "summaryJa": "日本における個人情報の保護を推進するための行政機関である。",
+      "summaryVi": "Cơ quan hành chính độc lập của Nhật Bản giám sát việc thực thi pháp luật về bảo vệ thông tin cá nhân và My Number.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "個人情報保護委員会とは",
+          "vi": "Ủy ban Bảo vệ Thông tin Cá nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本における個人情報の保護を推進するための行政機関である。この委員会は、個人情報の適正な取り扱いや個人のプライバシーを守るために法律の運用や啓発活動を行っている。具体的には、企業や団体が個人情報を収集・利用する際のルールを定め、それに従っているかの監視を行うことが求められる。また、一般市民からの相談や苦情を受け付けており、個人情報の漏洩や不正使用を防ぐための措置を講じる役割も担っている。このように、社会全体の個人情報保護意識を高めるために重要な機関である。",
+          "vi": "Cơ quan hành chính độc lập của Nhật Bản giám sát việc thực thi pháp luật về bảo vệ thông tin cá nhân và My Number."
+        },
+        {
+          "type": "point",
+          "ja": "個人情報保護委員会は個人情報保護制度の監督機関である。",
+          "vi": "Phân biệt cơ quan giám sát với tiêu chuẩn JIS và chứng nhận Privacy Mark."
+        }
+      ],
+      "terms": [
+        {
+          "term": "個人情報保護委員会",
+          "english": "Personal Information Protection Commission",
+          "vi": "Ủy ban Bảo vệ Thông tin Cá nhân",
+          "definitionJa": "日本における個人情報の保護を推進するための行政機関である。この委員会は、個人情報の適正な取り扱いや個人のプライバシーを守るために法律の運用や啓発活動を行っている。具体的には、企業や団体が個人情報を収集・利用する際のルールを定め、それに従っているかの監視を行うことが求められる。また、一般市民からの相談や苦情を受け付けており、個人情報の漏洩や不正使用を防ぐための措置を講じる役割も担っている。このように、社会全体の個人情報保護意識を高めるために重要な機関である。",
+          "definitionVi": "Cơ quan hành chính độc lập của Nhật Bản giám sát việc thực thi pháp luật về bảo vệ thông tin cá nhân và My Number.",
+          "reading": "こじんじょうほうほごいいんかい"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "personal-information-protection-commission"
+      ]
+    },
+    {
+      "id": "jis-q-15001",
+      "order": 24,
+      "titleJa": "JIS Q 15001",
+      "titleVi": "Tiêu chuẩn JIS Q 15001",
+      "importance": "medium",
+      "summaryJa": "個人情報の保護に関する日本の標準規格である。",
+      "summaryVi": "Tiêu chuẩn công nghiệp Nhật Bản về hệ thống quản lý bảo vệ thông tin cá nhân (PMS).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 15001とは",
+          "vi": "Tiêu chuẩn JIS Q 15001 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報の保護に関する日本の標準規格である。この規格は、企業や組織が個人情報を適切に取り扱うための基準を示しており、個人情報の収集、利用、保管、提供に関するルールを定めている。具体的には、個人情報の取り扱いに関する方針や手続き、抜本的なガイドラインを提供し、透明性を保ちながら個人のプライバシーを尊重することが求められる。また、JIS Q 15001に準拠することで、企業は信頼性を向上させ、消費者との信頼関係を築くことが可能になる。この規格は特に、個人情報漏洩のリスクを軽減し、適正な管理を促進するために重要である。",
+          "vi": "Tiêu chuẩn công nghiệp Nhật Bản về hệ thống quản lý bảo vệ thông tin cá nhân (PMS)."
+        },
+        {
+          "type": "point",
+          "ja": "JIS Q 15001は個人情報保護マネジメントシステムの規格である。",
+          "vi": "JIS Q 15001 là tiêu chuẩn quản lý, không phải đạo luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 15001",
+          "english": "JIS Q 15001",
+          "vi": "Tiêu chuẩn JIS Q 15001",
+          "definitionJa": "個人情報の保護に関する日本の標準規格である。この規格は、企業や組織が個人情報を適切に取り扱うための基準を示しており、個人情報の収集、利用、保管、提供に関するルールを定めている。具体的には、個人情報の取り扱いに関する方針や手続き、抜本的なガイドラインを提供し、透明性を保ちながら個人のプライバシーを尊重することが求められる。また、JIS Q 15001に準拠することで、企業は信頼性を向上させ、消費者との信頼関係を築くことが可能になる。この規格は特に、個人情報漏洩のリスクを軽減し、適正な管理を促進するために重要である。",
+          "definitionVi": "Tiêu chuẩn công nghiệp Nhật Bản về hệ thống quản lý bảo vệ thông tin cá nhân (PMS).",
+          "reading": "じすきゅー15001"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "jis-q-15001"]
+    },
+    {
+      "id": "privacy-mark",
+      "order": 25,
+      "titleJa": "プライバシーマーク",
+      "titleVi": "Dấu chứng nhận Privacy Mark",
+      "importance": "medium",
+      "summaryJa": "個人情報を適切に管理・保護している事業者に付与される認証マークである。",
+      "summaryVi": "Dấu chứng nhận dành cho tổ chức đáp ứng các yêu cầu về hệ thống quản lý bảo vệ thông tin cá nhân theo chương trình của Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プライバシーマークとは",
+          "vi": "Dấu chứng nhận Privacy Mark là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報を適切に管理・保護している事業者に付与される認証マークである。この制度は、個人情報の取り扱いについて一定の基準を満たしている企業や団体が、顧客に対して信頼性を示すために設けられている。たとえば、プライバシーマークを取得した企業は、個人情報を誤って漏洩させないように特別な対策を講じているとされ、顧客はそのサービスを利用する際に安心感を持つことができる。このような認証は、個人情報保護に関する法律やガイドラインに基づいて行われるため、消費者からの信頼を高める手助けとなる。プライバシーマークを持つ企業は、より地域社会や顧客から尊重される存在となることが期待される。",
+          "vi": "Dấu chứng nhận dành cho tổ chức đáp ứng các yêu cầu về hệ thống quản lý bảo vệ thông tin cá nhân theo chương trình của Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "プライバシーマークは認証制度であり、取得すれば漏えいが絶対に起こらないという保証ではない。",
+          "vi": "Chứng nhận không bảo đảm tuyệt đối không xảy ra rò rỉ dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プライバシーマーク",
+          "english": "Privacy Mark",
+          "vi": "Dấu chứng nhận Privacy Mark",
+          "definitionJa": "個人情報を適切に管理・保護している事業者に付与される認証マークである。この制度は、個人情報の取り扱いについて一定の基準を満たしている企業や団体が、顧客に対して信頼性を示すために設けられている。たとえば、プライバシーマークを取得した企業は、個人情報を誤って漏洩させないように特別な対策を講じているとされ、顧客はそのサービスを利用する際に安心感を持つことができる。このような認証は、個人情報保護に関する法律やガイドラインに基づいて行われるため、消費者からの信頼を高める手助けとなる。プライバシーマークを持つ企業は、より地域社会や顧客から尊重される存在となることが期待される。",
+          "definitionVi": "Dấu chứng nhận dành cho tổ chức đáp ứng các yêu cầu về hệ thống quản lý bảo vệ thông tin cá nhân theo chương trình của Nhật.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "privacy-mark"]
+    },
+    {
+      "id": "oecd-privacy-guidelines",
+      "order": 26,
+      "titleJa": "OECDプライバシーガイドライン",
+      "titleVi": "Hướng dẫn quyền riêng tư của OECD",
+      "importance": "medium",
+      "summaryJa": "個人のプライバシーを保護し、個人データの国際的な流通を円滑にするための基本的な指針である。",
+      "summaryVi": "Các nguyên tắc quốc tế về bảo vệ dữ liệu cá nhân và lưu chuyển dữ liệu xuyên biên giới do OECD ban hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OECDプライバシーガイドラインとは",
+          "vi": "Hướng dẫn quyền riêng tư của OECD là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人のプライバシーを保護し、個人データの国際的な流通を円滑にするための基本的な指針である。このガイドラインは、経済協力開発機構（OECD）が策定しており、個人情報の収集、利用、保管、開示に関する原則を示している。具体的には、個人データの透明性、利用目的の制限、個人の同意などが含まれており、各国がこれに基づいて法律や政策を整備することを促進している。このように、国際的なデータ保護の枠組みを提供し、技術が進展する中での個人の権利を守る重要な役割を果たしている。",
+          "vi": "Các nguyên tắc quốc tế về bảo vệ dữ liệu cá nhân và lưu chuyển dữ liệu xuyên biên giới do OECD ban hành."
+        },
+        {
+          "type": "point",
+          "ja": "OECDプライバシーガイドラインは国際的な指針であり、GDPRのようなEU規則とは異なる。",
+          "vi": "Phân biệt hướng dẫn quốc tế của OECD với luật GDPR của EU."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OECDプライバシーガイドライン",
+          "english": "OECD Privacy Guidelines",
+          "vi": "Hướng dẫn quyền riêng tư của OECD",
+          "definitionJa": "個人のプライバシーを保護し、個人データの国際的な流通を円滑にするための基本的な指針である。このガイドラインは、経済協力開発機構（OECD）が策定しており、個人情報の収集、利用、保管、開示に関する原則を示している。具体的には、個人データの透明性、利用目的の制限、個人の同意などが含まれており、各国がこれに基づいて法律や政策を整備することを促進している。このように、国際的なデータ保護の枠組みを提供し、技術が進展する中での個人の権利を守る重要な役割を果たしている。",
+          "definitionVi": "Các nguyên tắc quốc tế về bảo vệ dữ liệu cá nhân và lưu chuyển dữ liệu xuyên biên giới do OECD ban hành.",
+          "reading": "おーいーしーでぃーぷらいばしーがいどらいん"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "oecd-privacy-guidelines"]
+    },
+    {
+      "id": "gdpr",
+      "order": 27,
+      "titleJa": "一般データ保護規則",
+      "titleVi": "Quy định chung về bảo vệ dữ liệu (GDPR)",
+      "importance": "high",
+      "summaryJa": "個人情報の保護を目的とした欧州連合（EU）の法律である。",
+      "summaryVi": "Quy định của Liên minh châu Âu về xử lý dữ liệu cá nhân, quyền của chủ thể dữ liệu và trách nhiệm của bên xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "一般データ保護規則とは",
+          "vi": "Quy định chung về bảo vệ dữ liệu (GDPR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報の保護を目的とした欧州連合（EU）の法律である。この規則は、個人データの収集、使用、保存、破棄に関する厳格なルールを定めており、EU内で事業を行う企業や団体に影響を及ぼす。GDPRは、個人が自分の情報に対して持つ権利を強化しており、例えば、自分のデータをアクセス、訂正、削除する権利が保障されている。さらに、企業は個人データを扱う際に明示的な同意を得る必要があり、違反した場合には重い罰金が科せられる可能性がある。このように、GDPRは個人情報の取り扱いに対して個人のプライバシーを重視するもので、国際的にも影響を与える重要な法規である。",
+          "vi": "Quy định của Liên minh châu Âu về xử lý dữ liệu cá nhân, quyền của chủ thể dữ liệu và trách nhiệm của bên xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "GDPRは同意以外にも複数の適法な処理根拠を認める。すべての処理に明示的同意が必須ではない。",
+          "vi": "Nguồn nói mọi xử lý đều cần đồng ý rõ ràng là không chính xác; GDPR có nhiều căn cứ pháp lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "一般データ保護規則",
+          "english": "General Data Protection Regulation",
+          "vi": "Quy định chung về bảo vệ dữ liệu (GDPR)",
+          "definitionJa": "個人情報の保護を目的とした欧州連合（EU）の法律である。この規則は、個人データの収集、使用、保存、破棄に関する厳格なルールを定めており、EU内で事業を行う企業や団体に影響を及ぼす。GDPRは、個人が自分の情報に対して持つ権利を強化しており、例えば、自分のデータをアクセス、訂正、削除する権利が保障されている。さらに、企業は個人データを扱う際に明示的な同意を得る必要があり、違反した場合には重い罰金が科せられる可能性がある。このように、GDPRは個人情報の取り扱いに対して個人のプライバシーを重視するもので、国際的にも影響を与える重要な法規である。",
+          "definitionVi": "Quy định của Liên minh châu Âu về xử lý dữ liệu cá nhân, quyền của chủ thể dữ liệu và trách nhiệm của bên xử lý.",
+          "reading": "いっぱんでーたほごきそく"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "gdpr"]
+    },
+    {
+      "id": "opt-in",
+      "order": 28,
+      "titleJa": "オプトイン",
+      "titleVi": "Chấp thuận trước (Opt-in)",
+      "importance": "high",
+      "summaryJa": "個人情報やプライバシーに関して、利用者が自らの意志で情報提供やサービス利用を選択することを指す。",
+      "summaryVi": "Cơ chế chỉ thực hiện việc gửi thông tin hoặc xử lý theo mục đích liên quan sau khi người dùng chủ động đồng ý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オプトインとは",
+          "vi": "Chấp thuận trước (Opt-in) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報やプライバシーに関して、利用者が自らの意志で情報提供やサービス利用を選択することを指す。具体的には、例えばニュースレターや広告メールを受け取る場合に、利用者が明示的に同意することで、その情報を受け取れるようになる。この手法は、利用者の同意を重視するため、個人情報保護の観点から重要である。また、オプトインを採用することで、企業は信頼性を高め、利用者との関係を強化することができる。近年では、個人情報の取り扱いに対する意識が高まる中で、オプトインの重要性はますます増している。",
+          "vi": "Cơ chế chỉ thực hiện việc gửi thông tin hoặc xử lý theo mục đích liên quan sau khi người dùng chủ động đồng ý."
+        },
+        {
+          "type": "point",
+          "ja": "オプトインは事前の積極的な同意、オプトアウトは拒否の意思表示という違いがある。",
+          "vi": "Opt-in: đồng ý trước; opt-out: chủ động từ chối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オプトイン",
+          "english": "Opt-in",
+          "vi": "Chấp thuận trước (Opt-in)",
+          "definitionJa": "個人情報やプライバシーに関して、利用者が自らの意志で情報提供やサービス利用を選択することを指す。具体的には、例えばニュースレターや広告メールを受け取る場合に、利用者が明示的に同意することで、その情報を受け取れるようになる。この手法は、利用者の同意を重視するため、個人情報保護の観点から重要である。また、オプトインを採用することで、企業は信頼性を高め、利用者との関係を強化することができる。近年では、個人情報の取り扱いに対する意識が高まる中で、オプトインの重要性はますます増している。",
+          "definitionVi": "Cơ chế chỉ thực hiện việc gửi thông tin hoặc xử lý theo mục đích liên quan sau khi người dùng chủ động đồng ý.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "opt-in"]
+    },
+    {
+      "id": "opt-out",
+      "order": 29,
+      "titleJa": "オプトアウト",
+      "titleVi": "Từ chối tham gia (Opt-out)",
+      "importance": "high",
+      "summaryJa": "特定のサービスや情報収集から自分の参加を辞退することを指す。",
+      "summaryVi": "Cơ chế cho phép cá nhân từ chối hoặc rút khỏi một hoạt động xử lý hoặc tiếp nhận thông tin theo quy tắc áp dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オプトアウトとは",
+          "vi": "Từ chối tham gia (Opt-out) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のサービスや情報収集から自分の参加を辞退することを指す。特にプライバシー保護の観点から、個人情報の収集や利用を拒否する手段として重要である。例えば、オンラインサービスを利用する際、ユーザーは自分のデータが広告目的で利用されることを防ぐために、オプトアウトを選択することができる。このような手法は、個人の選択権を尊重し、無断でのデータ収集を防ぐ重要な仕組みであり、利用者が安心してサービスを利用できる環境を整える役割を果たす。また、オプトアウトの手続きを容易にすることが、企業やサービス提供者にとっても信頼性を高めるために不可欠である。",
+          "vi": "Cơ chế cho phép cá nhân từ chối hoặc rút khỏi một hoạt động xử lý hoặc tiếp nhận thông tin theo quy tắc áp dụng."
+        },
+        {
+          "type": "point",
+          "ja": "オプトアウトを設ければあらゆる個人データの提供が自由になるわけではない。",
+          "vi": "Opt-out không phải giấy phép chia sẻ mọi dữ liệu cá nhân không cần điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オプトアウト",
+          "english": "Opt-out",
+          "vi": "Từ chối tham gia (Opt-out)",
+          "definitionJa": "特定のサービスや情報収集から自分の参加を辞退することを指す。特にプライバシー保護の観点から、個人情報の収集や利用を拒否する手段として重要である。例えば、オンラインサービスを利用する際、ユーザーは自分のデータが広告目的で利用されることを防ぐために、オプトアウトを選択することができる。このような手法は、個人の選択権を尊重し、無断でのデータ収集を防ぐ重要な仕組みであり、利用者が安心してサービスを利用できる環境を整える役割を果たす。また、オプトアウトの手続きを容易にすることが、企業やサービス提供者にとっても信頼性を高めるために不可欠である。",
+          "definitionVi": "Cơ chế cho phép cá nhân từ chối hoặc rút khỏi một hoạt động xử lý hoặc tiếp nhận thông tin theo quy tắc áp dụng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "opt-out"]
+    },
+    {
+      "id": "third-party-provision",
+      "order": 30,
+      "titleJa": "第三者提供",
+      "titleVi": "Cung cấp cho bên thứ ba",
+      "importance": "high",
+      "summaryJa": "個人情報をその情報を収集した本人の同意なしに他の人や団体に渡すことを指す。",
+      "summaryVi": "Việc chuyển dữ liệu cá nhân cho chủ thể khác ngoài phạm vi tổ chức xử lý; thông thường cần đồng ý trước hoặc đáp ứng ngoại lệ luật định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "第三者提供とは",
+          "vi": "Cung cấp cho bên thứ ba là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報をその情報を収集した本人の同意なしに他の人や団体に渡すことを指す。これは主に、企業が顧客の情報をマーケティング目的で他の企業に提供する場合に行われる。たとえば、あるオンラインショッピングサイトが顧客の購買履歴を匿名化し、データ分析会社に渡して販売戦略を立ててもらうケースが該当する。しかし、第三者提供はプライバシーの観点から慎重に取り扱うべきであり、個人情報保護法に基づいて厳格なルールが設けられている。これにより、ユーザーは自分の情報がどのように使われるかを知る権利を持っているため、情報の透明性が求められる。適切な対策を講じないと、信頼喪失や法的トラブルに発展する可能性があるため、企業は責任ある運用を心がける必要がある。",
+          "vi": "Việc chuyển dữ liệu cá nhân cho chủ thể khác ngoài phạm vi tổ chức xử lý; thông thường cần đồng ý trước hoặc đáp ứng ngoại lệ luật định."
+        },
+        {
+          "type": "point",
+          "ja": "第三者提供は本人の同意がある場合も含む概念であり、無断提供だけを意味しない。",
+          "vi": "Nguồn định nghĩa sai: cung cấp cho bên thứ ba không mặc định là không có sự đồng ý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "第三者提供",
+          "english": "Third-Party Provision",
+          "vi": "Cung cấp cho bên thứ ba",
+          "definitionJa": "個人情報をその情報を収集した本人の同意なしに他の人や団体に渡すことを指す。これは主に、企業が顧客の情報をマーケティング目的で他の企業に提供する場合に行われる。たとえば、あるオンラインショッピングサイトが顧客の購買履歴を匿名化し、データ分析会社に渡して販売戦略を立ててもらうケースが該当する。しかし、第三者提供はプライバシーの観点から慎重に取り扱うべきであり、個人情報保護法に基づいて厳格なルールが設けられている。これにより、ユーザーは自分の情報がどのように使われるかを知る権利を持っているため、情報の透明性が求められる。適切な対策を講じないと、信頼喪失や法的トラブルに発展する可能性があるため、企業は責任ある運用を心がける必要がある。",
+          "definitionVi": "Việc chuyển dữ liệu cá nhân cho chủ thể khác ngoài phạm vi tổ chức xử lý; thông thường cần đồng ý trước hoặc đáp ứng ngoại lệ luật định.",
+          "reading": "だいさんしゃていきょう"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "third-party-provision"]
+    },
+    {
+      "id": "accredited-certification-provider",
+      "order": 31,
+      "titleJa": "認定認証事業者",
+      "titleVi": "Đơn vị cung cấp dịch vụ chứng thực được công nhận",
+      "importance": "high",
+      "summaryJa": "電子署名および認証業務に関する法律に基づき、電子証明書を発行する組織である。",
+      "summaryVi": "Đơn vị thực hiện dịch vụ chứng thực chữ ký điện tử đã được công nhận theo luật chữ ký điện tử Nhật Bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "認定認証事業者とは",
+          "vi": "Đơn vị cung cấp dịch vụ chứng thực được công nhận là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子署名および認証業務に関する法律に基づき、電子証明書を発行する組織である。これにより、ユーザーがインターネット上で安全に情報をやり取りできる環境が整えられる。例えば、あるWebサイトが電子証明書を持っている場合、そのサイトが信頼できるものであることが証明され、利用者は安心して情報を提供したり、取引を行ったりすることができる。利用者の身元を確認し、信頼性のある電子署名を提供するため、情報セキュリティの確保において非常に重要な役割を果たしている。電子証明書を利用することにより、デジタル通信の安全性が向上し、不正アクセスや偽装を防ぐことができるため、幅広い分野で活用されている。",
+          "vi": "Đơn vị thực hiện dịch vụ chứng thực chữ ký điện tử đã được công nhận theo luật chữ ký điện tử Nhật Bản."
+        },
+        {
+          "type": "point",
+          "ja": "認定認証事業者は法定の認定を受けた認証業務の事業者で、一般の認証局と完全に同義ではない。",
+          "vi": "Phân biệt CA nói chung với nhà cung cấp dịch vụ chứng thực được công nhận theo luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "認定認証事業者",
+          "english": "Certification Authority",
+          "vi": "Đơn vị cung cấp dịch vụ chứng thực được công nhận",
+          "definitionJa": "電子署名および認証業務に関する法律に基づき、電子証明書を発行する組織である。これにより、ユーザーがインターネット上で安全に情報をやり取りできる環境が整えられる。例えば、あるWebサイトが電子証明書を持っている場合、そのサイトが信頼できるものであることが証明され、利用者は安心して情報を提供したり、取引を行ったりすることができる。利用者の身元を確認し、信頼性のある電子署名を提供するため、情報セキュリティの確保において非常に重要な役割を果たしている。電子証明書を利用することにより、デジタル通信の安全性が向上し、不正アクセスや偽装を防ぐことができるため、幅広い分野で活用されている。",
+          "definitionVi": "Đơn vị thực hiện dịch vụ chứng thực chữ ký điện tử đã được công nhận theo luật chữ ký điện tử Nhật Bản.",
+          "reading": "にんていにんしょうじぎょうしゃ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "security-related-laws",
+        "accredited-certification-provider"
+      ]
+    },
+    {
+      "id": "digital-certificate",
+      "order": 32,
+      "titleJa": "電子証明書",
+      "titleVi": "Chứng thư điện tử",
+      "importance": "high",
+      "summaryJa": "特定の個人や組織の情報を電子的に証明するためのデジタルデータである。",
+      "summaryVi": "Dữ liệu điện tử xác nhận mối liên hệ giữa danh tính chủ thể và khóa công khai, thường do tổ chức chứng thực phát hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子証明書とは",
+          "vi": "Chứng thư điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の個人や組織の情報を電子的に証明するためのデジタルデータである。この証明書は、信頼できる第三者機関（認証局）によって発行され、その中には所有者の公開鍵や識別情報が含まれている。例えば、Webサイトにアクセスする際に、SSL証明書として使用され、通信が暗号化されていることを示す。これにより、ユーザーは情報の安全性を確保でき、悪意のある攻撃から守られる。また、電子証明書は電子署名と組み合わせて使用されることが多く、文書やデータの改ざんを防ぎ、送信者の身元を確認するための重要な役割を果たしている。このように、電子証明書はデジタル社会において信頼を構築するための基盤を提供する技術である。",
+          "vi": "Dữ liệu điện tử xác nhận mối liên hệ giữa danh tính chủ thể và khóa công khai, thường do tổ chức chứng thực phát hành."
+        },
+        {
+          "type": "point",
+          "ja": "電子証明書は公開鍵と主体情報の結び付きを証明する。証明書だけで通信全体の安全が保証されるわけではない。",
+          "vi": "Nhớ chứng thư liên kết khóa công khai với danh tính, không tự bảo đảm an toàn tuyệt đối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子証明書",
+          "english": "Digital Certificate",
+          "vi": "Chứng thư điện tử",
+          "definitionJa": "特定の個人や組織の情報を電子的に証明するためのデジタルデータである。この証明書は、信頼できる第三者機関（認証局）によって発行され、その中には所有者の公開鍵や識別情報が含まれている。例えば、Webサイトにアクセスする際に、SSL証明書として使用され、通信が暗号化されていることを示す。これにより、ユーザーは情報の安全性を確保でき、悪意のある攻撃から守られる。また、電子証明書は電子署名と組み合わせて使用されることが多く、文書やデータの改ざんを防ぎ、送信者の身元を確認するための重要な役割を果たしている。このように、電子証明書はデジタル社会において信頼を構築するための基盤を提供する技術である。",
+          "definitionVi": "Dữ liệu điện tử xác nhận mối liên hệ giữa danh tính chủ thể và khóa công khai, thường do tổ chức chứng thực phát hành.",
+          "reading": "でんししょうめいしょ"
+        }
+      ],
+      "tags": ["legal", "security-related-laws", "digital-certificate"]
+    }
+  ]
 }

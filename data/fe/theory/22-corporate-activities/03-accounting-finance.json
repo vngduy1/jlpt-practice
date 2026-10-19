@@ -4,5 +4,1572 @@
   "titleJa": "会計・財務",
   "titleVi": "Kế toán và tài chính",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "opportunity-loss",
+      "order": 1,
+      "titleJa": "機会損失",
+      "titleVi": "Chi phí cơ hội bị mất",
+      "importance": "medium",
+      "summaryJa": "ある選択をすることによって失われる他の選択肢から得られる利益のことを指す。",
+      "summaryVi": "Lợi ích bị bỏ lỡ khi chọn một phương án thay vì phương án khác; không nhất thiết là khoản tiền thực chi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "機会損失とは",
+          "vi": "Chi phí cơ hội bị mất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ある選択をすることによって失われる他の選択肢から得られる利益のことを指す。ビジネスにおいては、特定の製品を生産するために別の製品を生産しない場合、その別の製品から得られたであろう売上や利益が機会損失となる。例えば、A製品を作るためにB製品の生産を中止した場合、B製品が生み出す利益が失われることを意味する。この概念は、経営判断を行う際に重要であり、選択肢の比較検討を通じて最も有利な選択をする手助けとなる。機会損失を意識することで、資源の効率的な利用が促進され、より高い利益を追求することが可能になる。",
+          "vi": "Lợi ích bị bỏ lỡ khi chọn một phương án thay vì phương án khác; không nhất thiết là khoản tiền thực chi."
+        },
+        {
+          "type": "point",
+          "ja": "実際の支出ではなく、選ばなかった最善の代替案から得られた利益に注目する。",
+          "vi": "Phân biệt chi phí cơ hội với chi phí đã chi; xét lợi ích của phương án tốt nhất bị từ bỏ."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文の英語欄はOpportunity Costだが、「機会損失」と「機会費用」は文脈によって区別される。",
+          "vi": "Lưu ý về nguồn: Nguồn ghi Opportunity Cost; cần phân biệt 機会損失 và 機会費用 theo ngữ cảnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "機会損失",
+          "english": "Opportunity Cost",
+          "vi": "Chi phí cơ hội bị mất",
+          "definitionJa": "ある選択をすることによって失われる他の選択肢から得られる利益のことを指す。ビジネスにおいては、特定の製品を生産するために別の製品を生産しない場合、その別の製品から得られたであろう売上や利益が機会損失となる。例えば、A製品を作るためにB製品の生産を中止した場合、B製品が生み出す利益が失われることを意味する。この概念は、経営判断を行う際に重要であり、選択肢の比較検討を通じて最も有利な選択をする手助けとなる。機会損失を意識することで、資源の効率的な利用が促進され、より高い利益を追求することが可能になる。",
+          "definitionVi": "Lợi ích bị bỏ lỡ khi chọn một phương án thay vì phương án khác; không nhất thiết là khoản tiền thực chi.",
+          "reading": "きかいそんしつ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "opportunity-loss"]
+    },
+    {
+      "id": "break-even-point",
+      "order": 2,
+      "titleJa": "損益分岐点",
+      "titleVi": "Điểm hòa vốn",
+      "importance": "high",
+      "summaryJa": "企業が売上を上げることで、その売上がコストとちょうど等しくなるポイントを指す。",
+      "summaryVi": "Mức doanh thu tại đó tổng doanh thu bằng tổng chi phí, lợi nhuận bằng 0.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "損益分岐点とは",
+          "vi": "Điểm hòa vốn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が売上を上げることで、その売上がコストとちょうど等しくなるポイントを指す。具体的には、固定費と変動費を合わせた総コストが売上高と一致するため、利益がゼロとなる状態である。この文章を通じて、企業の経営状況を把握することは重要で、損益分岐点を把握することで、どの水準で売上を上げれば利益が出るのかを理解できる。また、計画的な価格設定やコスト管理にも役立ち、企業が利益を最大化するための戦略を立てる際の指針となる。",
+          "vi": "Mức doanh thu tại đó tổng doanh thu bằng tổng chi phí, lợi nhuận bằng 0."
+        },
+        {
+          "type": "point",
+          "ja": "損益分岐点売上高＝固定費÷（1－変動費率）。利益はゼロになる。",
+          "vi": "Doanh thu hòa vốn = Chi phí cố định ÷ (1 − Tỷ lệ biến phí); tỷ lệ biến phí = biến phí ÷ doanh thu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "損益分岐点",
+          "english": "Break-even Point",
+          "vi": "Điểm hòa vốn",
+          "definitionJa": "企業が売上を上げることで、その売上がコストとちょうど等しくなるポイントを指す。具体的には、固定費と変動費を合わせた総コストが売上高と一致するため、利益がゼロとなる状態である。この文章を通じて、企業の経営状況を把握することは重要で、損益分岐点を把握することで、どの水準で売上を上げれば利益が出るのかを理解できる。また、計画的な価格設定やコスト管理にも役立ち、企業が利益を最大化するための戦略を立てる際の指針となる。",
+          "definitionVi": "Mức doanh thu tại đó tổng doanh thu bằng tổng chi phí, lợi nhuận bằng 0.",
+          "reading": "そんえきぶんきてん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "break-even-point"]
+    },
+    {
+      "id": "journal",
+      "order": 3,
+      "titleJa": "仕訳帳",
+      "titleVi": "Sổ nhật ký kế toán",
+      "importance": "medium",
+      "summaryJa": "企業の取引を記録するための帳簿の一つである。",
+      "summaryVi": "Sổ ghi các bút toán phát sinh theo thứ tự thời gian, gồm tài khoản Nợ và Có.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "仕訳帳とは",
+          "vi": "Sổ nhật ký kế toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の取引を記録するための帳簿の一つである。具体的には、企業が行ったすべての取引を日付順に整理し、取引の内容、金額、勘定科目などを記載することで、会計データを整然と管理する役割を持っている。取引を正確に記録することが求められるため、経営の透明性や財務状況の把握に貢献する。具体的な例としては、売上の発生や経費の支出をこの帳簿に記入すると、後に必要な報告書を作成する際の基礎データとなる。仕訳帳は企業会計において、非常に重要な書類である。",
+          "vi": "Sổ ghi các bút toán phát sinh theo thứ tự thời gian, gồm tài khoản Nợ và Có."
+        },
+        {
+          "type": "point",
+          "ja": "仕訳帳は取引を日付順に記録し、総勘定元帳は勘定科目別に整理する。",
+          "vi": "Nhật ký ghi theo thời gian; sổ cái tập hợp theo từng tài khoản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "仕訳帳",
+          "english": "Journal Ledger",
+          "vi": "Sổ nhật ký kế toán",
+          "definitionJa": "企業の取引を記録するための帳簿の一つである。具体的には、企業が行ったすべての取引を日付順に整理し、取引の内容、金額、勘定科目などを記載することで、会計データを整然と管理する役割を持っている。取引を正確に記録することが求められるため、経営の透明性や財務状況の把握に貢献する。具体的な例としては、売上の発生や経費の支出をこの帳簿に記入すると、後に必要な報告書を作成する際の基礎データとなる。仕訳帳は企業会計において、非常に重要な書類である。",
+          "definitionVi": "Sổ ghi các bút toán phát sinh theo thứ tự thời gian, gồm tài khoản Nợ và Có.",
+          "reading": "しわけちょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "journal"]
+    },
+    {
+      "id": "general-ledger",
+      "order": 4,
+      "titleJa": "総勘定元帳",
+      "titleVi": "Sổ cái tổng hợp",
+      "importance": "medium",
+      "summaryJa": "企業のすべての取引を記録するための主要な帳簿である。",
+      "summaryVi": "Sổ tập hợp giao dịch theo từng tài khoản kế toán như tiền mặt, doanh thu, phải trả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "総勘定元帳とは",
+          "vi": "Sổ cái tổng hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業のすべての取引を記録するための主要な帳簿である。これは、会社の財務状況を把握するための基盤となるもので、収入や支出、資産、負債などの各勘定が詳細に記録される。たとえば、売上が発生した際には、売上高の勘定にその金額が記入され、同時に現金や売掛金の勘定にも影響が反映される。このように、総勘定元帳は企業の取引全体を統括し、決算書などの財務諸表作成に欠かせない役割を担っている。正確な記録が求められるため、日々の取引は丁寧に記入され、内部監査や外部監査の基礎ともなる。",
+          "vi": "Sổ tập hợp giao dịch theo từng tài khoản kế toán như tiền mặt, doanh thu, phải trả."
+        },
+        {
+          "type": "point",
+          "ja": "総勘定元帳は勘定科目別に転記・集計する帳簿である。",
+          "vi": "Đừng nhầm với 仕訳帳: sổ cái phân loại theo tài khoản, không chỉ theo ngày."
+        }
+      ],
+      "terms": [
+        {
+          "term": "総勘定元帳",
+          "english": "General Ledger",
+          "vi": "Sổ cái tổng hợp",
+          "definitionJa": "企業のすべての取引を記録するための主要な帳簿である。これは、会社の財務状況を把握するための基盤となるもので、収入や支出、資産、負債などの各勘定が詳細に記録される。たとえば、売上が発生した際には、売上高の勘定にその金額が記入され、同時に現金や売掛金の勘定にも影響が反映される。このように、総勘定元帳は企業の取引全体を統括し、決算書などの財務諸表作成に欠かせない役割を担っている。正確な記録が求められるため、日々の取引は丁寧に記入され、内部監査や外部監査の基礎ともなる。",
+          "definitionVi": "Sổ tập hợp giao dịch theo từng tài khoản kế toán như tiền mặt, doanh thu, phải trả.",
+          "reading": "そうかんじょうもとちょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "general-ledger"]
+    },
+    {
+      "id": "trial-balance",
+      "order": 5,
+      "titleJa": "試算表",
+      "titleVi": "Bảng cân đối thử",
+      "importance": "medium",
+      "summaryJa": "企業の会計処理において、一定期間の取引結果をまとめ、総勘定元帳の残高が正しいか確認するための表である。",
+      "summaryVi": "Bảng tổng hợp số dư hoặc số phát sinh các tài khoản để kiểm tra tổng Nợ và tổng Có.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "試算表とは",
+          "vi": "Bảng cân đối thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の会計処理において、一定期間の取引結果をまとめ、総勘定元帳の残高が正しいか確認するための表である。主に、貸方と借方の勘定が一致しているかどうかを検証する役割を持つ。決算に向けての準備として用いられ、財務諸表の作成や経営分析を行う際の基礎データとなる。例えば、取引の記録を行った後、試算表を作成することで、不備や誤りがないかを早期に発見し、正確な決算を行うための重要な手段となる。また、企業の財務状態を把握するためにも必要不可欠な書類である。",
+          "vi": "Bảng tổng hợp số dư hoặc số phát sinh các tài khoản để kiểm tra tổng Nợ và tổng Có."
+        },
+        {
+          "type": "point",
+          "ja": "借方合計と貸方合計の一致を確認するが、すべての誤記を発見できるわけではない。",
+          "vi": "Tổng Nợ = tổng Có không bảo đảm mọi bút toán đều chính xác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "試算表",
+          "english": "Trial Balance",
+          "vi": "Bảng cân đối thử",
+          "definitionJa": "企業の会計処理において、一定期間の取引結果をまとめ、総勘定元帳の残高が正しいか確認するための表である。主に、貸方と借方の勘定が一致しているかどうかを検証する役割を持つ。決算に向けての準備として用いられ、財務諸表の作成や経営分析を行う際の基礎データとなる。例えば、取引の記録を行った後、試算表を作成することで、不備や誤りがないかを早期に発見し、正確な決算を行うための重要な手段となる。また、企業の財務状態を把握するためにも必要不可欠な書類である。",
+          "definitionVi": "Bảng tổng hợp số dư hoặc số phát sinh các tài khoản để kiểm tra tổng Nợ và tổng Có.",
+          "reading": "しさんひょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "trial-balance"]
+    },
+    {
+      "id": "worksheet",
+      "order": 6,
+      "titleJa": "精算表",
+      "titleVi": "Bảng tính quyết toán",
+      "importance": "medium",
+      "summaryJa": "精算表は試算表に決算整理事項を加え、損益計算書と貸借対照表を作成するための補助表。",
+      "summaryVi": "Bảng hỗ trợ lập báo cáo tài chính, kết hợp số dư thử, bút toán điều chỉnh và số liệu quyết toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "精算表とは",
+          "vi": "Bảng tính quyết toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が決算を行う際に収入や支出の詳細を明示するための表である。この表は、特定の期間における財務状況を把握するために必要な情報を整理し、透明性のある報告を可能にする。例えば、売上高や経費、税金の支払いを一覧にまとめることで、収益を正確に計算したり、将来的な予算の策定に役立てたりすることができる。経理部門が作成し、関係者が確認することで、組織内の資金管理や経営判断を支える重要な役割を果たす。",
+          "vi": "Bảng hỗ trợ lập báo cáo tài chính, kết hợp số dư thử, bút toán điều chỉnh và số liệu quyết toán."
+        },
+        {
+          "type": "point",
+          "ja": "精算表は試算表に決算整理事項を反映し、損益計算書・貸借対照表の作成を補助する。",
+          "vi": "Phân biệt 精算表 (bảng nháp quyết toán) với 試算表 (kiểm tra cân đối)."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文の精算表の説明は一般的な収支一覧表と混同されている。",
+          "vi": "Lưu ý về nguồn: Nguồn mô tả bảng thu chi chung; trong kế toán 精算表 là bảng hỗ trợ quyết toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "精算表",
+          "english": "Settlement Table",
+          "vi": "Bảng tính quyết toán",
+          "definitionJa": "企業や組織が決算を行う際に収入や支出の詳細を明示するための表である。この表は、特定の期間における財務状況を把握するために必要な情報を整理し、透明性のある報告を可能にする。例えば、売上高や経費、税金の支払いを一覧にまとめることで、収益を正確に計算したり、将来的な予算の策定に役立てたりすることができる。経理部門が作成し、関係者が確認することで、組織内の資金管理や経営判断を支える重要な役割を果たす。",
+          "definitionVi": "Bảng hỗ trợ lập báo cáo tài chính, kết hợp số dư thử, bút toán điều chỉnh và số liệu quyết toán.",
+          "reading": "せいさんひょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "worksheet"]
+    },
+    {
+      "id": "financial-statements",
+      "order": 7,
+      "titleJa": "財務諸表",
+      "titleVi": "Báo cáo tài chính",
+      "importance": "high",
+      "summaryJa": "企業の経済的状況や業績を示す重要な資料である。",
+      "summaryVi": "Bộ báo cáo trình bày tình hình tài chính, kết quả kinh doanh và dòng tiền của doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "財務諸表とは",
+          "vi": "Báo cáo tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の経済的状況や業績を示す重要な資料である。これには、貸借対照表、損益計算書、キャッシュフロー計算書の三つが通常含まれる。貸借対照表は、企業の資産、負債、純資産を一目で把握させる役割を果たし、特定時点での財政状態を示す。損益計算書は、一定期間の収入と費用を示し、企業の利益や損失を把握するために用いられる。キャッシュフロー計算書は、現金の流れを示し、運営資金がどのように動いているかを理解する手助けとなる。これらの財務諸表を通じて、投資家や経営者は企業の健全性を評価し、意思決定を行うことが可能である。",
+          "vi": "Bộ báo cáo trình bày tình hình tài chính, kết quả kinh doanh và dòng tiền của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "貸借対照表は一時点、損益計算書とキャッシュフロー計算書は一定期間を示す。",
+          "vi": "Nhớ ba loại: BS = tình hình tại một thời điểm; PL = kết quả trong kỳ; CF = dòng tiền."
+        }
+      ],
+      "terms": [
+        {
+          "term": "財務諸表",
+          "english": "Financial Statements",
+          "vi": "Báo cáo tài chính",
+          "definitionJa": "企業の経済的状況や業績を示す重要な資料である。これには、貸借対照表、損益計算書、キャッシュフロー計算書の三つが通常含まれる。貸借対照表は、企業の資産、負債、純資産を一目で把握させる役割を果たし、特定時点での財政状態を示す。損益計算書は、一定期間の収入と費用を示し、企業の利益や損失を把握するために用いられる。キャッシュフロー計算書は、現金の流れを示し、運営資金がどのように動いているかを理解する手助けとなる。これらの財務諸表を通じて、投資家や経営者は企業の健全性を評価し、意思決定を行うことが可能である。",
+          "definitionVi": "Bộ báo cáo trình bày tình hình tài chính, kết quả kinh doanh và dòng tiền của doanh nghiệp.",
+          "reading": "ざいむしょひょう"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "financial-statements"
+      ]
+    },
+    {
+      "id": "balance-sheet",
+      "order": 8,
+      "titleJa": "貸借対照表",
+      "titleVi": "Bảng cân đối kế toán",
+      "importance": "high",
+      "summaryJa": "企業の資産、負債、純資産の状況を一定時点で示す財務諸表である。",
+      "summaryVi": "Báo cáo tài sản, nợ phải trả và tài sản thuần tại một thời điểm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "貸借対照表とは",
+          "vi": "Bảng cân đối kế toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の資産、負債、純資産の状況を一定時点で示す財務諸表である。資産は企業が保有するすべての価値を表し、負債は外部からの借入など、企業が返済しなければならない義務を示す。純資産は、資産から負債を引いた残りの部分で、株主の持分となる。例えば、貸借対照表を用いることで、企業の財務状態をすぐに把握でき、投資家や経営者は経営判断に役立てることができる。これにより、企業の健全性や成長性が評価され、経済活動において重要な役割を果たしている。",
+          "vi": "Báo cáo tài sản, nợ phải trả và tài sản thuần tại một thời điểm."
+        },
+        {
+          "type": "point",
+          "ja": "資産＝負債＋純資産。貸借対照表は特定時点の財政状態を示す。",
+          "vi": "Công thức nền tảng: Tài sản = Nợ phải trả + Tài sản thuần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "貸借対照表",
+          "english": "Balance Sheet",
+          "vi": "Bảng cân đối kế toán",
+          "definitionJa": "企業の資産、負債、純資産の状況を一定時点で示す財務諸表である。資産は企業が保有するすべての価値を表し、負債は外部からの借入など、企業が返済しなければならない義務を示す。純資産は、資産から負債を引いた残りの部分で、株主の持分となる。例えば、貸借対照表を用いることで、企業の財務状態をすぐに把握でき、投資家や経営者は経営判断に役立てることができる。これにより、企業の健全性や成長性が評価され、経済活動において重要な役割を果たしている。",
+          "definitionVi": "Báo cáo tài sản, nợ phải trả và tài sản thuần tại một thời điểm.",
+          "reading": "たいしゃくたいしょうひょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "balance-sheet"]
+    },
+    {
+      "id": "income-statement",
+      "order": 9,
+      "titleJa": "損益計算書",
+      "titleVi": "Báo cáo kết quả kinh doanh",
+      "importance": "high",
+      "summaryJa": "企業の一定期間における収益や費用をまとめ、最終的な利益を示す財務諸表である。",
+      "summaryVi": "Báo cáo doanh thu, chi phí và các mức lợi nhuận trong một kỳ kế toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "損益計算書とは",
+          "vi": "Báo cáo kết quả kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の一定期間における収益や費用をまとめ、最終的な利益を示す財務諸表である。この書類は、企業の経営成績を把握するために重要な役割を果たす。例えば、年間の売上高、販売コスト、営業費用などが記載され、これらを基に最終的な当期純利益が算出される。経営者や投資家は、この情報をもとに企業の収益性や経営の健全性を評価し、将来の投資判断に役立てる。また、企業がどのように利益を上げ、どのような費用を支出しているかを明確に示すため、経営改善のための重要なツールでもある。",
+          "vi": "Báo cáo doanh thu, chi phí và các mức lợi nhuận trong một kỳ kế toán."
+        },
+        {
+          "type": "point",
+          "ja": "売上総利益＝売上高－売上原価、営業利益＝売上総利益－販管費。",
+          "vi": "Lợi nhuận gộp = Doanh thu − Giá vốn; lợi nhuận hoạt động = lợi nhuận gộp − SG&A."
+        }
+      ],
+      "terms": [
+        {
+          "term": "損益計算書",
+          "english": "Income Statement",
+          "vi": "Báo cáo kết quả kinh doanh",
+          "definitionJa": "企業の一定期間における収益や費用をまとめ、最終的な利益を示す財務諸表である。この書類は、企業の経営成績を把握するために重要な役割を果たす。例えば、年間の売上高、販売コスト、営業費用などが記載され、これらを基に最終的な当期純利益が算出される。経営者や投資家は、この情報をもとに企業の収益性や経営の健全性を評価し、将来の投資判断に役立てる。また、企業がどのように利益を上げ、どのような費用を支出しているかを明確に示すため、経営改善のための重要なツールでもある。",
+          "definitionVi": "Báo cáo doanh thu, chi phí và các mức lợi nhuận trong một kỳ kế toán.",
+          "reading": "そんえきけいさんしょ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "income-statement"]
+    },
+    {
+      "id": "earnings-release",
+      "order": 10,
+      "titleJa": "決算短信",
+      "titleVi": "Thông báo nhanh kết quả tài chính",
+      "importance": "medium",
+      "summaryJa": "企業が四半期や年度の業績を報告するために発表する文書である。",
+      "summaryVi": "Tài liệu doanh nghiệp niêm yết công bố kết quả kinh doanh và thông tin tài chính chủ yếu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "決算短信とは",
+          "vi": "Thông báo nhanh kết quả tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が四半期や年度の業績を報告するために発表する文書である。主に、売上高や純利益、営業利益などの主要な財務指標が含まれ、投資家や株主が企業の業績を把握するために利用される。これにより、企業の経済状態や市場での評価が明確になり、投資判断を行う際の重要な情報源となる。決算短信は一般的に、企業の公式ホームページや証券取引所を通じて公開されるため、誰でもアクセスできるようになっている。また、決算短信には、業績についての説明や将来の見通しも記載されることが多く、これにより企業の戦略や方向性を理解する手助けとなる。",
+          "vi": "Tài liệu doanh nghiệp niêm yết công bố kết quả kinh doanh và thông tin tài chính chủ yếu."
+        },
+        {
+          "type": "point",
+          "ja": "決算短信は上場企業が公表する決算情報であり、有価証券報告書とは異なる。",
+          "vi": "Là công bố kết quả nhanh; không đồng nhất với toàn bộ báo cáo thường niên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "決算短信",
+          "english": "Financial Results Announcement",
+          "vi": "Thông báo nhanh kết quả tài chính",
+          "definitionJa": "企業が四半期や年度の業績を報告するために発表する文書である。主に、売上高や純利益、営業利益などの主要な財務指標が含まれ、投資家や株主が企業の業績を把握するために利用される。これにより、企業の経済状態や市場での評価が明確になり、投資判断を行う際の重要な情報源となる。決算短信は一般的に、企業の公式ホームページや証券取引所を通じて公開されるため、誰でもアクセスできるようになっている。また、決算短信には、業績についての説明や将来の見通しも記載されることが多く、これにより企業の戦略や方向性を理解する手助けとなる。",
+          "definitionVi": "Tài liệu doanh nghiệp niêm yết công bố kết quả kinh doanh và thông tin tài chính chủ yếu.",
+          "reading": "けっさんたんしん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "earnings-release"]
+    },
+    {
+      "id": "goodwill",
+      "order": 11,
+      "titleJa": "のれん",
+      "titleVi": "Lợi thế thương mại",
+      "importance": "medium",
+      "summaryJa": "企業が他の企業を買収する際、支払った価格とその企業の純資産の差額を指す。",
+      "summaryVi": "Khoản chênh lệch phát sinh khi giá mua doanh nghiệp vượt phần giá trị hợp lý của tài sản thuần có thể xác định được.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "のれんとは",
+          "vi": "Lợi thế thương mại là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が他の企業を買収する際、支払った価格とその企業の純資産の差額を指す。具体的には、購入した企業のブランド価値や顧客関係、業務ノウハウなど、目には見えない資産がその差額に反映される。たとえば、競争力のあるブランドを持つ企業を買収する際は、そのブランド力が犠牲にできない価値と見なされ、その価格がのれんとして計上されることになる。この会計上、一定の期間で償却されるが、定期的に資産価値の見直しも行われ、減損が発生することもあるため、企業の財務状況を把握する上で重要な要素である。",
+          "vi": "Khoản chênh lệch phát sinh khi giá mua doanh nghiệp vượt phần giá trị hợp lý của tài sản thuần có thể xác định được."
+        },
+        {
+          "type": "point",
+          "ja": "のれんの会計処理は基準で異なる。日本基準では原則償却、IFRSでは減損テストを行う。",
+          "vi": "Phân biệt cách xử lý: chuẩn mực Nhật thường phân bổ; IFRS không khấu hao định kỳ mà kiểm tra suy giảm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "のれん",
+          "english": "Goodwill",
+          "vi": "Lợi thế thương mại",
+          "definitionJa": "企業が他の企業を買収する際、支払った価格とその企業の純資産の差額を指す。具体的には、購入した企業のブランド価値や顧客関係、業務ノウハウなど、目には見えない資産がその差額に反映される。たとえば、競争力のあるブランドを持つ企業を買収する際は、そのブランド力が犠牲にできない価値と見なされ、その価格がのれんとして計上されることになる。この会計上、一定の期間で償却されるが、定期的に資産価値の見直しも行われ、減損が発生することもあるため、企業の財務状況を把握する上で重要な要素である。",
+          "definitionVi": "Khoản chênh lệch phát sinh khi giá mua doanh nghiệp vượt phần giá trị hợp lý của tài sản thuần có thể xác định được.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "goodwill"]
+    },
+    {
+      "id": "ifrs",
+      "order": 12,
+      "titleJa": "IFRS",
+      "titleVi": "Chuẩn mực báo cáo tài chính quốc tế",
+      "importance": "medium",
+      "summaryJa": "国際的な企業が財務報告をする際に用いる共通の基準である。",
+      "summaryVi": "Hệ thống chuẩn mực IFRS nhằm nâng cao tính minh bạch và khả năng so sánh báo cáo tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IFRSとは",
+          "vi": "Chuẩn mực báo cáo tài chính quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "国際的な企業が財務報告をする際に用いる共通の基準である。これにより、異なる国の企業同士でも財務諸表を比較しやすくなり、透明性が向上する。たとえば、IFRSは収益認識の基準を明確に定めているため、企業がどのように売上を計上するかが一貫して示される。これにより、投資家はより正確に企業の業績を評価できる。各国では自国の会計基準を採用している場合もあるが、グローバルなビジネス環境においてはIFRSの導入が進んでおり、将来的には多くの企業がこの基準に従うことが期待されている。",
+          "vi": "Hệ thống chuẩn mực IFRS nhằm nâng cao tính minh bạch và khả năng so sánh báo cáo tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "IFRSは国際的な財務報告基準で、各国のすべての企業に一律強制されるわけではない。",
+          "vi": "Không phải mọi doanh nghiệp ở mọi quốc gia đều bắt buộc dùng IFRS."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IFRS",
+          "english": "International Financial Reporting Standards",
+          "vi": "Chuẩn mực báo cáo tài chính quốc tế",
+          "definitionJa": "国際的な企業が財務報告をする際に用いる共通の基準である。これにより、異なる国の企業同士でも財務諸表を比較しやすくなり、透明性が向上する。たとえば、IFRSは収益認識の基準を明確に定めているため、企業がどのように売上を計上するかが一貫して示される。これにより、投資家はより正確に企業の業績を評価できる。各国では自国の会計基準を採用している場合もあるが、グローバルなビジネス環境においてはIFRSの導入が進んでおり、将来的には多くの企業がこの基準に従うことが期待されている。",
+          "definitionVi": "Hệ thống chuẩn mực IFRS nhằm nâng cao tính minh bạch và khả năng so sánh báo cáo tài chính.",
+          "reading": "あいえふあーるえす"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "ifrs"]
+    },
+    {
+      "id": "current-assets",
+      "order": 13,
+      "titleJa": "流動資産",
+      "titleVi": "Tài sản ngắn hạn",
+      "importance": "high",
+      "summaryJa": "企業の財務諸表において、1年以内に現金化または消費が予定される資産を指す。",
+      "summaryVi": "Tài sản dự kiến thu hồi, bán hoặc sử dụng trong chu kỳ kinh doanh hoặc thời gian ngắn; gồm tiền, phải thu, hàng tồn kho.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流動資産とは",
+          "vi": "Tài sản ngắn hạn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務諸表において、1年以内に現金化または消費が予定される資産を指す。具体的には、現金や預金、売掛金、在庫などが含まれる。これらの資産は、短期間で流動性が高く、企業の運営に必要な資金的基盤を支える重要な役割を果たす。例えば、売掛金は顧客から受け取る予定の金額で、在庫は販売可能な商品のことである。流動資産の状態は、企業の短期的な財務健全性を判断する材料ともなるため、投資家や経営者にとって重要な指標となる。",
+          "vi": "Tài sản dự kiến thu hồi, bán hoặc sử dụng trong chu kỳ kinh doanh hoặc thời gian ngắn; gồm tiền, phải thu, hàng tồn kho."
+        },
+        {
+          "type": "point",
+          "ja": "現金・売掛金・棚卸資産など。正常営業循環基準と一年基準に注意する。",
+          "vi": "Trong phân loại cơ bản thường dùng mốc một năm; chú ý ngoại lệ chu kỳ kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流動資産",
+          "english": "Current Assets",
+          "vi": "Tài sản ngắn hạn",
+          "definitionJa": "企業の財務諸表において、1年以内に現金化または消費が予定される資産を指す。具体的には、現金や預金、売掛金、在庫などが含まれる。これらの資産は、短期間で流動性が高く、企業の運営に必要な資金的基盤を支える重要な役割を果たす。例えば、売掛金は顧客から受け取る予定の金額で、在庫は販売可能な商品のことである。流動資産の状態は、企業の短期的な財務健全性を判断する材料ともなるため、投資家や経営者にとって重要な指標となる。",
+          "definitionVi": "Tài sản dự kiến thu hồi, bán hoặc sử dụng trong chu kỳ kinh doanh hoặc thời gian ngắn; gồm tiền, phải thu, hàng tồn kho.",
+          "reading": "りゅうどうしさん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "current-assets"]
+    },
+    {
+      "id": "fixed-assets",
+      "order": 14,
+      "titleJa": "固定資産",
+      "titleVi": "Tài sản dài hạn",
+      "importance": "medium",
+      "summaryJa": "企業が長期間にわたって使用するために保有する資産のことである。",
+      "summaryVi": "Tài sản dùng hoặc nắm giữ lâu dài như nhà xưởng, máy móc, đất đai và tài sản vô hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "固定資産とは",
+          "vi": "Tài sản dài hạn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が長期間にわたって使用するために保有する資産のことである。主に、土地や建物、設備、機械などが含まれ、通常は1年以上の使用が見込まれる。企業の活動において利益を生み出すための基盤となるものであり、財務諸表においては資産の一部として表示される。これにより、企業の資産状況や経営の健全性を分析することが可能である。また、固定資産は取得時に大きな資金が必要となるため、その管理と運用は企業の財務戦略において重要な要素である。減価償却を通じて、固定資産の価値が時間の経過とともにどのように変化するかも考慮される。",
+          "vi": "Tài sản dùng hoặc nắm giữ lâu dài như nhà xưởng, máy móc, đất đai và tài sản vô hình."
+        },
+        {
+          "type": "point",
+          "ja": "土地は通常減価償却しない。建物・機械などは原則として減価償却の対象となる。",
+          "vi": "Đất thường không khấu hao; nhiều tài sản cố định khác phải khấu hao."
+        }
+      ],
+      "terms": [
+        {
+          "term": "固定資産",
+          "english": "Fixed Assets",
+          "vi": "Tài sản dài hạn",
+          "definitionJa": "企業が長期間にわたって使用するために保有する資産のことである。主に、土地や建物、設備、機械などが含まれ、通常は1年以上の使用が見込まれる。企業の活動において利益を生み出すための基盤となるものであり、財務諸表においては資産の一部として表示される。これにより、企業の資産状況や経営の健全性を分析することが可能である。また、固定資産は取得時に大きな資金が必要となるため、その管理と運用は企業の財務戦略において重要な要素である。減価償却を通じて、固定資産の価値が時間の経過とともにどのように変化するかも考慮される。",
+          "definitionVi": "Tài sản dùng hoặc nắm giữ lâu dài như nhà xưởng, máy móc, đất đai và tài sản vô hình.",
+          "reading": "こていしさん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "fixed-assets"]
+    },
+    {
+      "id": "deferred-assets",
+      "order": 15,
+      "titleJa": "繰延資産",
+      "titleVi": "Tài sản hoãn lại",
+      "importance": "medium",
+      "summaryJa": "繰延資産は一定の支出を資産計上し、後の期間にわたり費用配分する項目。前払費用とは区別する。",
+      "summaryVi": "Một số khoản chi được phép ghi nhận thành tài sản và phân bổ cho kỳ sau theo chuẩn mực kế toán áp dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "繰延資産とは",
+          "vi": "Tài sản hoãn lại là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "将来の利益を期待して支出された費用が、現在の期間にそのまま計上されず、将来の期間にわたって分割して費用として認識される資産である。具体的には、広告費や保険料など、事前に支払ったが、まだその効果や価値を享受していない支出がこれに該当する。例えば、1年分の保険料を一括で支払った場合、その支出は繰延資産として記録され、毎月分を費用として計上することで、各期間の利益を正確に反映できる。このように、繰延資産を適切に管理することで、企業の財務状態をより明確に示すことが可能となる。",
+          "vi": "Một số khoản chi được phép ghi nhận thành tài sản và phân bổ cho kỳ sau theo chuẩn mực kế toán áp dụng."
+        },
+        {
+          "type": "point",
+          "ja": "繰延資産と前払費用は異なる。保険料の前払いを一律に繰延資産としない。",
+          "vi": "Không đồng nhất 繰延資産 với chi phí trả trước (前払費用); ví dụ nguồn nêu về bảo hiểm trả trước dễ gây nhầm."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文は前払保険料を繰延資産の例とするが、通常は前払費用として扱う。",
+          "vi": "Lưu ý về nguồn: Nguồn lấy bảo hiểm trả trước làm ví dụ 繰延資産; thông thường phải phân loại là 前払費用."
+        }
+      ],
+      "terms": [
+        {
+          "term": "繰延資産",
+          "english": "Deferred Assets",
+          "vi": "Tài sản hoãn lại",
+          "definitionJa": "将来の利益を期待して支出された費用が、現在の期間にそのまま計上されず、将来の期間にわたって分割して費用として認識される資産である。具体的には、広告費や保険料など、事前に支払ったが、まだその効果や価値を享受していない支出がこれに該当する。例えば、1年分の保険料を一括で支払った場合、その支出は繰延資産として記録され、毎月分を費用として計上することで、各期間の利益を正確に反映できる。このように、繰延資産を適切に管理することで、企業の財務状態をより明確に示すことが可能となる。",
+          "definitionVi": "Một số khoản chi được phép ghi nhận thành tài sản và phân bổ cho kỳ sau theo chuẩn mực kế toán áp dụng.",
+          "reading": "くりのべしさん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "deferred-assets"]
+    },
+    {
+      "id": "current-liabilities",
+      "order": 16,
+      "titleJa": "流動負債",
+      "titleVi": "Nợ ngắn hạn",
+      "importance": "high",
+      "summaryJa": "企業が1年以内に支払う義務のある負債のことを指す。",
+      "summaryVi": "Khoản nợ phải thanh toán trong chu kỳ kinh doanh hoặc thông thường trong một năm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流動負債とは",
+          "vi": "Nợ ngắn hạn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が1年以内に支払う義務のある負債のことを指す。具体的には、短期借入金、買掛金、未払金や各種の未払費用などが含まれる。この負債は、日常の運営に必要な資金調達や支出に関連しており、企業の流動性を示す大切な指標である。たとえば、企業が仕入れた商品の代金を支払うための買掛金や、従業員への給与を支払うための未払賃金は流動負債に該当する。流動負債の状況は、企業の短期的な財務健全性を把握するために非常に重要である。",
+          "vi": "Khoản nợ phải thanh toán trong chu kỳ kinh doanh hoặc thông thường trong một năm."
+        },
+        {
+          "type": "point",
+          "ja": "買掛金・短期借入金など。流動資産と比較して短期支払能力を評価する。",
+          "vi": "Ví dụ: phải trả người bán, khoản vay ngắn hạn, chi phí phải trả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流動負債",
+          "english": "Current Liabilities",
+          "vi": "Nợ ngắn hạn",
+          "definitionJa": "企業が1年以内に支払う義務のある負債のことを指す。具体的には、短期借入金、買掛金、未払金や各種の未払費用などが含まれる。この負債は、日常の運営に必要な資金調達や支出に関連しており、企業の流動性を示す大切な指標である。たとえば、企業が仕入れた商品の代金を支払うための買掛金や、従業員への給与を支払うための未払賃金は流動負債に該当する。流動負債の状況は、企業の短期的な財務健全性を把握するために非常に重要である。",
+          "definitionVi": "Khoản nợ phải thanh toán trong chu kỳ kinh doanh hoặc thông thường trong một năm.",
+          "reading": "りゅうどうふさい"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "current-liabilities"
+      ]
+    },
+    {
+      "id": "long-term-liabilities",
+      "order": 17,
+      "titleJa": "固定負債",
+      "titleVi": "Nợ dài hạn",
+      "importance": "medium",
+      "summaryJa": "企業が長期にわたって返済しなければならない債務のことを指す。",
+      "summaryVi": "Các nghĩa vụ thanh toán dài hạn, chẳng hạn trái phiếu và khoản vay dài hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "固定負債とは",
+          "vi": "Nợ dài hạn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が長期にわたって返済しなければならない債務のことを指す。この負債は、通常は1年を超える期間で支払うことが定められたものであり、主に社債や長期借入金などが含まれる。固定負債の例としては、住宅ローンや設備投資のための借入金が挙げられ、企業が将来の成長を目的に資金を調達する際に利用されることが多い。高い固定負債を抱えることは、企業の財務リスクを増大させる可能性があるため、企業は自身の資本構造を適切に管理することが求められる。",
+          "vi": "Các nghĩa vụ thanh toán dài hạn, chẳng hạn trái phiếu và khoản vay dài hạn."
+        },
+        {
+          "type": "point",
+          "ja": "社債・長期借入金など。一年以内返済予定分の分類に注意する。",
+          "vi": "Phần nợ dài hạn đến hạn trả trong một năm thường được chuyển sang nợ ngắn hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "固定負債",
+          "english": "Fixed Liabilities",
+          "vi": "Nợ dài hạn",
+          "definitionJa": "企業が長期にわたって返済しなければならない債務のことを指す。この負債は、通常は1年を超える期間で支払うことが定められたものであり、主に社債や長期借入金などが含まれる。固定負債の例としては、住宅ローンや設備投資のための借入金が挙げられ、企業が将来の成長を目的に資金を調達する際に利用されることが多い。高い固定負債を抱えることは、企業の財務リスクを増大させる可能性があるため、企業は自身の資本構造を適切に管理することが求められる。",
+          "definitionVi": "Các nghĩa vụ thanh toán dài hạn, chẳng hạn trái phiếu và khoản vay dài hạn.",
+          "reading": "こていふさい"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "long-term-liabilities"
+      ]
+    },
+    {
+      "id": "net-assets",
+      "order": 18,
+      "titleJa": "純資産",
+      "titleVi": "Tài sản thuần / vốn chủ sở hữu theo nghĩa rộng",
+      "importance": "high",
+      "summaryJa": "企業の資産から負債を差し引いた残りの価値を指す。",
+      "summaryVi": "Phần còn lại của tài sản sau khi trừ tổng nợ phải trả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "純資産とは",
+          "vi": "Tài sản thuần / vốn chủ sở hữu theo nghĩa rộng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の資産から負債を差し引いた残りの価値を指す。具体的には、企業が所有する全ての資産（現金、土地、在庫など）から、借入金や支払い義務などの負債を除いた額である。この値は、企業の財務状況を示す重要な指標であり、株主資本とも関連している。たとえば、ある企業の資産が1,000万円で負債が600万円であれば、純資産は400万円となる。投資家や経営者は、純資産を評価することで企業の健全性や将来性を判断するために活用する。",
+          "vi": "Phần còn lại của tài sản sau khi trừ tổng nợ phải trả."
+        },
+        {
+          "type": "point",
+          "ja": "純資産＝資産－負債。純資産と株主資本は必ずしも同額ではない。",
+          "vi": "Tài sản thuần = Tài sản − Nợ; không luôn trùng hoàn toàn với 株主資本."
+        }
+      ],
+      "terms": [
+        {
+          "term": "純資産",
+          "english": "Net Assets",
+          "vi": "Tài sản thuần / vốn chủ sở hữu theo nghĩa rộng",
+          "definitionJa": "企業の資産から負債を差し引いた残りの価値を指す。具体的には、企業が所有する全ての資産（現金、土地、在庫など）から、借入金や支払い義務などの負債を除いた額である。この値は、企業の財務状況を示す重要な指標であり、株主資本とも関連している。たとえば、ある企業の資産が1,000万円で負債が600万円であれば、純資産は400万円となる。投資家や経営者は、純資産を評価することで企業の健全性や将来性を判断するために活用する。",
+          "definitionVi": "Phần còn lại của tài sản sau khi trừ tổng nợ phải trả.",
+          "reading": "じゅんしさん"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "net-assets"]
+    },
+    {
+      "id": "shareholders-equity",
+      "order": 19,
+      "titleJa": "株主資本",
+      "titleVi": "Vốn của cổ đông",
+      "importance": "medium",
+      "summaryJa": "企業が所有する資産から負債を引いた残りの部分である。",
+      "summaryVi": "Phần vốn thuộc cổ đông, bao gồm vốn góp, thặng dư vốn và lợi nhuận giữ lại theo phân loại Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "株主資本とは",
+          "vi": "Vốn của cổ đông là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が所有する資産から負債を引いた残りの部分である。具体的には、株式を購入した株主からの出資や、企業が過去の利益を蓄えたものを含む。株主資本は企業の財政状態を示し、健全な企業であれば、資本が潤沢に存在することが望ましい。例えば、企業が利益を上げると、その利益が株主資本として再投資されることで、企業の成長を支える要因となる。また、株主資本が増加することは、株主へのリターンが期待できるため、投資家にとって重要な指標である。さらに、財務健全性を図る指標の一つとしても利用され、企業評価にも影響を与える。",
+          "vi": "Phần vốn thuộc cổ đông, bao gồm vốn góp, thặng dư vốn và lợi nhuận giữ lại theo phân loại Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "株主資本は純資産の構成要素。評価・換算差額等などとは区別する。",
+          "vi": "株主資本 là một bộ phận của 純資産; không đánh đồng hoàn toàn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "株主資本",
+          "english": "Shareholders' Equity",
+          "vi": "Vốn của cổ đông",
+          "definitionJa": "企業が所有する資産から負債を引いた残りの部分である。具体的には、株式を購入した株主からの出資や、企業が過去の利益を蓄えたものを含む。株主資本は企業の財政状態を示し、健全な企業であれば、資本が潤沢に存在することが望ましい。例えば、企業が利益を上げると、その利益が株主資本として再投資されることで、企業の成長を支える要因となる。また、株主資本が増加することは、株主へのリターンが期待できるため、投資家にとって重要な指標である。さらに、財務健全性を図る指標の一つとしても利用され、企業評価にも影響を与える。",
+          "definitionVi": "Phần vốn thuộc cổ đông, bao gồm vốn góp, thặng dư vốn và lợi nhuận giữ lại theo phân loại Nhật.",
+          "reading": "かぶぬししほん"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "shareholders-equity"
+      ]
+    },
+    {
+      "id": "expenses",
+      "order": 20,
+      "titleJa": "費用",
+      "titleVi": "Chi phí",
+      "importance": "medium",
+      "summaryJa": "企業が商品やサービスの提供のために支出する金銭的な資源を指す。",
+      "summaryVi": "Giá trị nguồn lực được ghi nhận là chi phí trong kỳ để tạo ra doanh thu hoặc phục vụ hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "費用とは",
+          "vi": "Chi phí là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が商品やサービスの提供のために支出する金銭的な資源を指す。これは、企業の運営に必要な全ての支出を含んでおり、例えば人件費、原材料費、広告費などがある。財務諸表において収益から引かれ、最終的な利益を求めるための重要な要素である。企業がどのくらいの費用をかけてビジネスを運営しているかを理解することは、経営判断や投資分析において欠かせない。また、適切に費用を管理することは、利益を最大化するために重要であり、企業の競争力を高めることにつながる。",
+          "vi": "Giá trị nguồn lực được ghi nhận là chi phí trong kỳ để tạo ra doanh thu hoặc phục vụ hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "費用の発生と現金支出の時点は一致しない場合がある。",
+          "vi": "Phân biệt 費用 (chi phí kế toán) và 支出 (chi tiền); có chi phí không làm tiền giảm ngay."
+        }
+      ],
+      "terms": [
+        {
+          "term": "費用",
+          "english": "Cost",
+          "vi": "Chi phí",
+          "definitionJa": "企業が商品やサービスの提供のために支出する金銭的な資源を指す。これは、企業の運営に必要な全ての支出を含んでおり、例えば人件費、原材料費、広告費などがある。財務諸表において収益から引かれ、最終的な利益を求めるための重要な要素である。企業がどのくらいの費用をかけてビジネスを運営しているかを理解することは、経営判断や投資分析において欠かせない。また、適切に費用を管理することは、利益を最大化するために重要であり、企業の競争力を高めることにつながる。",
+          "definitionVi": "Giá trị nguồn lực được ghi nhận là chi phí trong kỳ để tạo ra doanh thu hoặc phục vụ hoạt động.",
+          "reading": "ひよう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "expenses"]
+    },
+    {
+      "id": "revenue",
+      "order": 21,
+      "titleJa": "収益",
+      "titleVi": "Doanh thu và thu nhập",
+      "importance": "high",
+      "summaryJa": "企業が商品やサービスを提供することによって得られる総収入のことである。",
+      "summaryVi": "Giá trị lợi ích kinh tế làm tăng kết quả kinh doanh, gồm doanh thu bán hàng và các khoản thu nhập phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "収益とは",
+          "vi": "Doanh thu và thu nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が商品やサービスを提供することによって得られる総収入のことである。この収入は、本業から得られるものが基本で、売上高とも呼ばれる。たとえば、製品を販売した際に得られるお金や、サービス料金として受け取る金額が収益に含まれる。収益は企業の経営成績を示す重要な指標であり、財務諸表の中でも特に注目される項目である。企業の成長や利益を評価するためには、収益の動向をしっかりと把握することが必要であり、経営戦略の策定にも大きな影響を与える。",
+          "vi": "Giá trị lợi ích kinh tế làm tăng kết quả kinh doanh, gồm doanh thu bán hàng và các khoản thu nhập phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "収益と利益は異なる。利益＝収益－費用。",
+          "vi": "収益 không đồng nghĩa với lợi nhuận 利益; lợi nhuận = doanh thu/thu nhập − chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "収益",
+          "english": "Revenue",
+          "vi": "Doanh thu và thu nhập",
+          "definitionJa": "企業が商品やサービスを提供することによって得られる総収入のことである。この収入は、本業から得られるものが基本で、売上高とも呼ばれる。たとえば、製品を販売した際に得られるお金や、サービス料金として受け取る金額が収益に含まれる。収益は企業の経営成績を示す重要な指標であり、財務諸表の中でも特に注目される項目である。企業の成長や利益を評価するためには、収益の動向をしっかりと把握することが必要であり、経営戦略の策定にも大きな影響を与える。",
+          "definitionVi": "Giá trị lợi ích kinh tế làm tăng kết quả kinh doanh, gồm doanh thu bán hàng và các khoản thu nhập phù hợp.",
+          "reading": "しゅうえき"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "revenue"]
+    },
+    {
+      "id": "sga-expenses",
+      "order": 22,
+      "titleJa": "販売費及び一般管理費",
+      "titleVi": "Chi phí bán hàng và quản lý doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業が商品やサービスを販売するために必要な費用や、日常の運営にかかる管理費用を指す。",
+      "summaryVi": "Chi phí bán hàng, quảng cáo, tiền lương quản lý và vận hành chung, không thuộc giá vốn hàng bán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "販売費及び一般管理費とは",
+          "vi": "Chi phí bán hàng và quản lý doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が商品やサービスを販売するために必要な費用や、日常の運営にかかる管理費用を指す。具体的には、広告宣伝費、販売員の給与、事務所の賃料などが含まれ、売上原価とは異なる。これらの費用は、売上高に対してどれだけの資源が投入されているかを示す指標となるため、企業の収益性を分析する際に重要である。また、販売費及び一般管理費の管理が適切であれば、企業はより効率的に運営し、利益を最大化することができる。",
+          "vi": "Chi phí bán hàng, quảng cáo, tiền lương quản lý và vận hành chung, không thuộc giá vốn hàng bán."
+        },
+        {
+          "type": "point",
+          "ja": "販売費及び一般管理費は売上原価と区別する。",
+          "vi": "Lợi nhuận hoạt động = Lợi nhuận gộp − 販売費及び一般管理費."
+        }
+      ],
+      "terms": [
+        {
+          "term": "販売費及び一般管理費",
+          "english": "Selling, General and Administrative Expenses",
+          "vi": "Chi phí bán hàng và quản lý doanh nghiệp",
+          "definitionJa": "企業が商品やサービスを販売するために必要な費用や、日常の運営にかかる管理費用を指す。具体的には、広告宣伝費、販売員の給与、事務所の賃料などが含まれ、売上原価とは異なる。これらの費用は、売上高に対してどれだけの資源が投入されているかを示す指標となるため、企業の収益性を分析する際に重要である。また、販売費及び一般管理費の管理が適切であれば、企業はより効率的に運営し、利益を最大化することができる。",
+          "definitionVi": "Chi phí bán hàng, quảng cáo, tiền lương quản lý và vận hành chung, không thuộc giá vốn hàng bán.",
+          "reading": "はんばいひおよびいっぱんかんりひ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "sga-expenses"]
+    },
+    {
+      "id": "non-operating-income-expenses",
+      "order": 23,
+      "titleJa": "営業外損益",
+      "titleVi": "Lãi lỗ ngoài hoạt động kinh doanh",
+      "importance": "medium",
+      "summaryJa": "企業の本業とは直接関係のない収益や費用を指す。",
+      "summaryVi": "Thu nhập và chi phí phát sinh ngoài hoạt động kinh doanh chính nhưng thuộc kết quả thông thường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "営業外損益とは",
+          "vi": "Lãi lỗ ngoài hoạt động kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の本業とは直接関係のない収益や費用を指す。具体的には、利息収入や有価証券の売却益、逆に、利息支払い、為替差損などが含まれる。例えば、企業が保有する株式を売却して得た利益や、融資による利息がこのカテゴリーに入る。営業外損益は企業の総合的な利益を理解する上で重要であり、本業の業績だけでなく、財務状況全体に影響を与える要素でもある。したがって、投資家や経営者は、これを正確に把握することが求められる。",
+          "vi": "Thu nhập và chi phí phát sinh ngoài hoạt động kinh doanh chính nhưng thuộc kết quả thông thường."
+        },
+        {
+          "type": "point",
+          "ja": "経常利益＝営業利益＋営業外収益－営業外費用。",
+          "vi": "Lợi nhuận thường xuyên = Lợi nhuận hoạt động + Thu nhập ngoài hoạt động − Chi phí ngoài hoạt động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "営業外損益",
+          "english": "Non-Operating Income and Expenses",
+          "vi": "Lãi lỗ ngoài hoạt động kinh doanh",
+          "definitionJa": "企業の本業とは直接関係のない収益や費用を指す。具体的には、利息収入や有価証券の売却益、逆に、利息支払い、為替差損などが含まれる。例えば、企業が保有する株式を売却して得た利益や、融資による利息がこのカテゴリーに入る。営業外損益は企業の総合的な利益を理解する上で重要であり、本業の業績だけでなく、財務状況全体に影響を与える要素でもある。したがって、投資家や経営者は、これを正確に把握することが求められる。",
+          "definitionVi": "Thu nhập và chi phí phát sinh ngoài hoạt động kinh doanh chính nhưng thuộc kết quả thông thường.",
+          "reading": "えいぎょうがいそんえき"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "non-operating-income-expenses"
+      ]
+    },
+    {
+      "id": "extraordinary-gains-losses",
+      "order": 24,
+      "titleJa": "特別損益",
+      "titleVi": "Lãi lỗ bất thường",
+      "importance": "medium",
+      "summaryJa": "通常の営業活動とは異なる事象によって生じる損益のことである。",
+      "summaryVi": "Các khoản lợi nhuận hoặc tổn thất đặc biệt, không thuộc hoạt động thông thường theo cách trình bày báo cáo Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特別損益とは",
+          "vi": "Lãi lỗ bất thường là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通常の営業活動とは異なる事象によって生じる損益のことである。具体的には、企業が一時的に得る特別な利益や、突発的な損失がこれに該当する。例えば、災害による資産の損失や、長期保有していた資産の売却による利益がこれに含まれる。通常の利益や損失とは分けて報告されることが多く、企業の財務諸表において、投資家や経営者が企業の健全性を判断する際の重要な指標となる。これにより、日常的な営業活動から生じる利益や損失とは独立した視点で、企業の全体的な財務状況を分析することが可能である。",
+          "vi": "Các khoản lợi nhuận hoặc tổn thất đặc biệt, không thuộc hoạt động thông thường theo cách trình bày báo cáo Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "特別損益は営業外損益と区別し、税引前当期純利益の計算に反映する。",
+          "vi": "Phân biệt 営業外損益 (ngoài hoạt động) và 特別損益 (đặc biệt)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特別損益",
+          "english": "Extraordinary Income and Loss",
+          "vi": "Lãi lỗ bất thường",
+          "definitionJa": "通常の営業活動とは異なる事象によって生じる損益のことである。具体的には、企業が一時的に得る特別な利益や、突発的な損失がこれに該当する。例えば、災害による資産の損失や、長期保有していた資産の売却による利益がこれに含まれる。通常の利益や損失とは分けて報告されることが多く、企業の財務諸表において、投資家や経営者が企業の健全性を判断する際の重要な指標となる。これにより、日常的な営業活動から生じる利益や損失とは独立した視点で、企業の全体的な財務状況を分析することが可能である。",
+          "definitionVi": "Các khoản lợi nhuận hoặc tổn thất đặc biệt, không thuộc hoạt động thông thường theo cách trình bày báo cáo Nhật.",
+          "reading": "とくべつそんえき"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "extraordinary-gains-losses"
+      ]
+    },
+    {
+      "id": "accounting-standards",
+      "order": 25,
+      "titleJa": "会計基準",
+      "titleVi": "Chuẩn mực kế toán",
+      "importance": "medium",
+      "summaryJa": "企業が財務諸表を作成する際に従うべきルールや指針のことである。",
+      "summaryVi": "Quy tắc ghi nhận, đo lường, trình bày và công bố thông tin tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "会計基準とは",
+          "vi": "Chuẩn mực kế toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が財務諸表を作成する際に従うべきルールや指針のことである。これにより、企業の経済活動を正確に記録し、他者に理解しやすい形で報告することが可能となる。例えば、国際会計基準という国際的な基準や、日本の一般的な会計基準が存在し、企業がどのように収益や費用を計上するかを明確にしている。投資家や取引先などの利害関係者に対して、企業の真の財務状況を透過的に示す役割を果たし、信頼性のある情報提供につながる。この基準に従うことで、企業同士の比較が容易になり、経済活動の健全性が促進される。",
+          "vi": "Quy tắc ghi nhận, đo lường, trình bày và công bố thông tin tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "会計基準によって認識・測定・表示方法が異なる場合がある。",
+          "vi": "Nhật Bản có chuẩn mực kế toán Nhật và IFRS; không được trộn lẫn nguyên tắc khi tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "会計基準",
+          "english": "Accounting Standards",
+          "vi": "Chuẩn mực kế toán",
+          "definitionJa": "企業が財務諸表を作成する際に従うべきルールや指針のことである。これにより、企業の経済活動を正確に記録し、他者に理解しやすい形で報告することが可能となる。例えば、国際会計基準という国際的な基準や、日本の一般的な会計基準が存在し、企業がどのように収益や費用を計上するかを明確にしている。投資家や取引先などの利害関係者に対して、企業の真の財務状況を透過的に示す役割を果たし、信頼性のある情報提供につながる。この基準に従うことで、企業同士の比較が容易になり、経済活動の健全性が促進される。",
+          "definitionVi": "Quy tắc ghi nhận, đo lường, trình bày và công bố thông tin tài chính.",
+          "reading": "かいけいきじゅん"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "accounting-standards"
+      ]
+    },
+    {
+      "id": "financial-indicators",
+      "order": 26,
+      "titleJa": "財務指標",
+      "titleVi": "Chỉ số tài chính",
+      "importance": "medium",
+      "summaryJa": "企業の経済状態や業績を評価するために用いる数値のことである。",
+      "summaryVi": "Các chỉ số tính từ báo cáo tài chính để đánh giá lợi nhuận, an toàn tài chính và hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "財務指標とは",
+          "vi": "Chỉ số tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の経済状態や業績を評価するために用いる数値のことである。これらの指標は、企業の財務諸表から算出され、主に利益率、流動比率、自己資本比率などが含まれる。例えば、利益率は、売上高に対する利益の割合を示し、企業の収益性を判断する際に重要である。また、流動比率は、流動資産と流動負債の比率を表し、短期的な支払能力を示す。このような投資家や経営者が企業のパフォーマンスを分析し、経営戦略を立てる際に欠かせない情報を提供する。財務指標を適切に利用することで、企業の財務健全性や成長性をより正確に評価できるようになる。",
+          "vi": "Các chỉ số tính từ báo cáo tài chính để đánh giá lợi nhuận, an toàn tài chính và hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "収益性・安全性・効率性などの観点で財務指標を使い分ける。",
+          "vi": "Phân nhóm: sinh lời, an toàn, hiệu quả; xem đúng mẫu số của từng công thức."
+        }
+      ],
+      "terms": [
+        {
+          "term": "財務指標",
+          "english": "Financial Ratios",
+          "vi": "Chỉ số tài chính",
+          "definitionJa": "企業の経済状態や業績を評価するために用いる数値のことである。これらの指標は、企業の財務諸表から算出され、主に利益率、流動比率、自己資本比率などが含まれる。例えば、利益率は、売上高に対する利益の割合を示し、企業の収益性を判断する際に重要である。また、流動比率は、流動資産と流動負債の比率を表し、短期的な支払能力を示す。このような投資家や経営者が企業のパフォーマンスを分析し、経営戦略を立てる際に欠かせない情報を提供する。財務指標を適切に利用することで、企業の財務健全性や成長性をより正確に評価できるようになる。",
+          "definitionVi": "Các chỉ số tính từ báo cáo tài chính để đánh giá lợi nhuận, an toàn tài chính và hiệu quả.",
+          "reading": "ざいむしひょう"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "financial-indicators"
+      ]
+    },
+    {
+      "id": "profitability-indicators",
+      "order": 27,
+      "titleJa": "収益性指標",
+      "titleVi": "Chỉ số khả năng sinh lời",
+      "importance": "medium",
+      "summaryJa": "企業の収益性を測るための指標である。",
+      "summaryVi": "Nhóm tỷ lệ đo mức lợi nhuận so với doanh thu, tài sản hoặc vốn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "収益性指標とは",
+          "vi": "Chỉ số khả năng sinh lời là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の収益性を測るための指標である。これは、企業がどれだけ効率的に利益を上げているかを示すもので、投資家や経営者が企業のパフォーマンスを評価するために使用される。代表的な収益性指標には、売上総利益率や営業利益率、純利益率がある。例えば、売上総利益率は、売上高に対する売上総利益の割合を示し、企業が売上を上げるためにかけているコストを把握するのに役立つ。これにより、企業の業績を比較したり、改善の余地を見つける手助けとなる。企業の成長戦略を立てる上でも重要な役割を果たす。",
+          "vi": "Nhóm tỷ lệ đo mức lợi nhuận so với doanh thu, tài sản hoặc vốn."
+        },
+        {
+          "type": "point",
+          "ja": "利益率・ROA・ROEなど、分母が異なる指標を区別する。",
+          "vi": "Ví dụ: biên lợi nhuận hoạt động, ROA và ROE; không dùng chung một mẫu số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "収益性指標",
+          "english": "Profitability Indicator",
+          "vi": "Chỉ số khả năng sinh lời",
+          "definitionJa": "企業の収益性を測るための指標である。これは、企業がどれだけ効率的に利益を上げているかを示すもので、投資家や経営者が企業のパフォーマンスを評価するために使用される。代表的な収益性指標には、売上総利益率や営業利益率、純利益率がある。例えば、売上総利益率は、売上高に対する売上総利益の割合を示し、企業が売上を上げるためにかけているコストを把握するのに役立つ。これにより、企業の業績を比較したり、改善の余地を見つける手助けとなる。企業の成長戦略を立てる上でも重要な役割を果たす。",
+          "definitionVi": "Nhóm tỷ lệ đo mức lợi nhuận so với doanh thu, tài sản hoặc vốn.",
+          "reading": "しゅうえきせいしひょう"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "profitability-indicators"
+      ]
+    },
+    {
+      "id": "roa",
+      "order": 28,
+      "titleJa": "ROA",
+      "titleVi": "Tỷ suất sinh lời trên tổng tài sản",
+      "importance": "high",
+      "summaryJa": "総資産利益率を示す指標である。",
+      "summaryVi": "Chỉ số lợi nhuận tạo ra từ tổng tài sản mà doanh nghiệp sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ROAとは",
+          "vi": "Tỷ suất sinh lời trên tổng tài sản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "総資産利益率を示す指標である。これは企業が保有する総資産をどれだけ効率的に使って利益を上げているかを測るもので、一般的には純利益を総資産で割ることで算出される。この指標は、企業の資産を効率的に運用できているかどうかを把握するのに役立ち、投資家や経営者にとって重要な判断材料となる。たとえば、ROAが高い企業は同じ資産でより多くの利益を生み出しているため、経営効率が良いと評価されやすい。また、業界ごとにROAの平均値が異なるため、競合他社との比較においても有用な指標となる。",
+          "vi": "Chỉ số lợi nhuận tạo ra từ tổng tài sản mà doanh nghiệp sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "ROA＝利益÷総資産×100％。問題文で指定された利益の種類を確認する。",
+          "vi": "ROA = Lợi nhuận ÷ Tổng tài sản × 100%; đề thi có thể chỉ định loại lợi nhuận cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ROA",
+          "english": "Return on Assets",
+          "vi": "Tỷ suất sinh lời trên tổng tài sản",
+          "definitionJa": "総資産利益率を示す指標である。これは企業が保有する総資産をどれだけ効率的に使って利益を上げているかを測るもので、一般的には純利益を総資産で割ることで算出される。この指標は、企業の資産を効率的に運用できているかどうかを把握するのに役立ち、投資家や経営者にとって重要な判断材料となる。たとえば、ROAが高い企業は同じ資産でより多くの利益を生み出しているため、経営効率が良いと評価されやすい。また、業界ごとにROAの平均値が異なるため、競合他社との比較においても有用な指標となる。",
+          "definitionVi": "Chỉ số lợi nhuận tạo ra từ tổng tài sản mà doanh nghiệp sử dụng.",
+          "reading": "ろあ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "roa"]
+    },
+    {
+      "id": "roe",
+      "order": 29,
+      "titleJa": "ROE",
+      "titleVi": "Tỷ suất sinh lời trên vốn chủ sở hữu",
+      "importance": "high",
+      "summaryJa": "自己資本に対する利益の割合を示す指標である。",
+      "summaryVi": "Chỉ số đo lợi nhuận ròng tạo ra từ vốn chủ sở hữu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ROEとは",
+          "vi": "Tỷ suất sinh lời trên vốn chủ sở hữu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自己資本に対する利益の割合を示す指標である。企業が株主からの投資をどれだけ効率良く利益に変えているかを測るもので、通常はパーセンテージで表される。具体的には、当期純利益を自己資本で割ることで計算される。この指標が高いほど、企業が持つ資本を有効に活用していることを示し、投資家にとっては魅力的な判断材料となる。ROEは企業の収益性を判断する一つの重要な指標であり、投資家はこれを参考にして株式投資の意思決定を行うことが多い。",
+          "vi": "Chỉ số đo lợi nhuận ròng tạo ra từ vốn chủ sở hữu."
+        },
+        {
+          "type": "point",
+          "ja": "ROE＝当期純利益÷自己資本×100％。ROAと分母を取り違えない。",
+          "vi": "ROE = Lợi nhuận ròng ÷ Vốn chủ sở hữu × 100%; khác ROA ở mẫu số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ROE",
+          "english": "Return On Equity",
+          "vi": "Tỷ suất sinh lời trên vốn chủ sở hữu",
+          "definitionJa": "自己資本に対する利益の割合を示す指標である。企業が株主からの投資をどれだけ効率良く利益に変えているかを測るもので、通常はパーセンテージで表される。具体的には、当期純利益を自己資本で割ることで計算される。この指標が高いほど、企業が持つ資本を有効に活用していることを示し、投資家にとっては魅力的な判断材料となる。ROEは企業の収益性を判断する一つの重要な指標であり、投資家はこれを参考にして株式投資の意思決定を行うことが多い。",
+          "definitionVi": "Chỉ số đo lợi nhuận ròng tạo ra từ vốn chủ sở hữu.",
+          "reading": "あーるおーいー"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "roe"]
+    },
+    {
+      "id": "safety-indicators",
+      "order": 30,
+      "titleJa": "安全性指標",
+      "titleVi": "Chỉ số an toàn tài chính",
+      "importance": "medium",
+      "summaryJa": "企業の財務状況や運営の安定性を示す指標である。",
+      "summaryVi": "Nhóm chỉ số phản ánh khả năng thanh toán và mức phụ thuộc vào nợ vay.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "安全性指標とは",
+          "vi": "Chỉ số an toàn tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務状況や運営の安定性を示す指標である。これは、企業が持っている資産や負債の状況を把握し、財務的なリスクを評価するために使用される。例えば、自己資本比率や流動比率などが安全性指標の具体例である。自己資本比率は、企業の資産に対する自己資本の割合を示し、流動比率は短期的な負債に対する流動資産の割合を表す。このような指標を分析することで、投資家や経営者は企業の健全性を判断し、将来の経営戦略を立てる際の参考にすることができる。経済環境が不安定な場合でも企業を持続的に運営するための指標となる。",
+          "vi": "Nhóm chỉ số phản ánh khả năng thanh toán và mức phụ thuộc vào nợ vay."
+        },
+        {
+          "type": "point",
+          "ja": "流動比率は短期支払能力、自己資本比率は資本構成の安全性を見る。",
+          "vi": "Các ví dụ điển hình: 流動比率 và 自己資本比率."
+        }
+      ],
+      "terms": [
+        {
+          "term": "安全性指標",
+          "english": "Safety Indicator",
+          "vi": "Chỉ số an toàn tài chính",
+          "definitionJa": "企業の財務状況や運営の安定性を示す指標である。これは、企業が持っている資産や負債の状況を把握し、財務的なリスクを評価するために使用される。例えば、自己資本比率や流動比率などが安全性指標の具体例である。自己資本比率は、企業の資産に対する自己資本の割合を示し、流動比率は短期的な負債に対する流動資産の割合を表す。このような指標を分析することで、投資家や経営者は企業の健全性を判断し、将来の経営戦略を立てる際の参考にすることができる。経済環境が不安定な場合でも企業を持続的に運営するための指標となる。",
+          "definitionVi": "Nhóm chỉ số phản ánh khả năng thanh toán và mức phụ thuộc vào nợ vay.",
+          "reading": "あんぜんせいしひょう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "safety-indicators"]
+    },
+    {
+      "id": "current-ratio",
+      "order": 31,
+      "titleJa": "流動比率",
+      "titleVi": "Hệ số thanh toán hiện hành",
+      "importance": "high",
+      "summaryJa": "企業の短期的な支払い能力を示す指標である。",
+      "summaryVi": "Tỷ lệ tài sản ngắn hạn so với nợ ngắn hạn để đánh giá khả năng thanh toán ngắn hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流動比率とは",
+          "vi": "Hệ số thanh toán hiện hành là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の短期的な支払い能力を示す指標である。具体的には、流動資産を流動負債で割った値として計算され、通常はパーセンテージで示される。流動資産とは、現金や売掛金、在庫など、1年以内に現金化できる資産を指し、流動負債は、1年以内に支払わなければならない負債を指す。流動比率が高いほど、短期的な支払い能力が高いとされ、企業の財務健康度を判断する上で重要な指標となる。一般的には、流動比率が1以上であれば、企業は十分な流動資産を持っていると考えられるが、過剰な流動資産は運用効率が悪化する可能性もある。このため、適切な流動比率の維持が企業経営において重要である。",
+          "vi": "Tỷ lệ tài sản ngắn hạn so với nợ ngắn hạn để đánh giá khả năng thanh toán ngắn hạn."
+        },
+        {
+          "type": "point",
+          "ja": "流動比率＝流動資産÷流動負債×100％。1倍は100％を意味する。",
+          "vi": "流動比率 = 流動資産 ÷ 流動負債 × 100%; 100% tương ứng hệ số 1 lần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流動比率",
+          "english": "Current Ratio",
+          "vi": "Hệ số thanh toán hiện hành",
+          "definitionJa": "企業の短期的な支払い能力を示す指標である。具体的には、流動資産を流動負債で割った値として計算され、通常はパーセンテージで示される。流動資産とは、現金や売掛金、在庫など、1年以内に現金化できる資産を指し、流動負債は、1年以内に支払わなければならない負債を指す。流動比率が高いほど、短期的な支払い能力が高いとされ、企業の財務健康度を判断する上で重要な指標となる。一般的には、流動比率が1以上であれば、企業は十分な流動資産を持っていると考えられるが、過剰な流動資産は運用効率が悪化する可能性もある。このため、適切な流動比率の維持が企業経営において重要である。",
+          "definitionVi": "Tỷ lệ tài sản ngắn hạn so với nợ ngắn hạn để đánh giá khả năng thanh toán ngắn hạn.",
+          "reading": "りゅうどうひりつ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "current-ratio"]
+    },
+    {
+      "id": "equity-ratio",
+      "order": 32,
+      "titleJa": "自己資本比率",
+      "titleVi": "Tỷ lệ vốn chủ sở hữu",
+      "importance": "high",
+      "summaryJa": "企業の資本構成を示す指標の一つである。",
+      "summaryVi": "Tỷ lệ vốn tự có so với tổng tài sản hoặc tổng nguồn vốn, đo mức độc lập tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自己資本比率とは",
+          "vi": "Tỷ lệ vốn chủ sở hữu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の資本構成を示す指標の一つである。これは、企業の総資本に対する自己資本の割合を表し、企業の財務健全性を評価する際に重要な役割を果たす。具体的には、自己資本比率が高いほど、企業が外部からの借入金に依存せず、独自の資本で運営されていることを意味する。たとえば、自己資本比率が50%の場合、企業の資本の半分は自己資本で賄われていることになる。この指標は、投資家や金融機関が企業のリスクを判断する材料として利用され、安定した経営を行っている企業に対する信頼度を高める要因となる。",
+          "vi": "Tỷ lệ vốn tự có so với tổng tài sản hoặc tổng nguồn vốn, đo mức độc lập tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "自己資本比率＝自己資本÷総資産×100％。純資産との違いに注意する。",
+          "vi": "自己資本比率 = 自己資本 ÷ 総資産 × 100%; chú ý 自己資本 không luôn bằng toàn bộ 純資産."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自己資本比率",
+          "english": "Equity Ratio",
+          "vi": "Tỷ lệ vốn chủ sở hữu",
+          "definitionJa": "企業の資本構成を示す指標の一つである。これは、企業の総資本に対する自己資本の割合を表し、企業の財務健全性を評価する際に重要な役割を果たす。具体的には、自己資本比率が高いほど、企業が外部からの借入金に依存せず、独自の資本で運営されていることを意味する。たとえば、自己資本比率が50%の場合、企業の資本の半分は自己資本で賄われていることになる。この指標は、投資家や金融機関が企業のリスクを判断する材料として利用され、安定した経営を行っている企業に対する信頼度を高める要因となる。",
+          "definitionVi": "Tỷ lệ vốn tự có so với tổng tài sản hoặc tổng nguồn vốn, đo mức độc lập tài chính.",
+          "reading": "じこしほんひりつ"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "equity-ratio"]
+    },
+    {
+      "id": "economic-evaluation",
+      "order": 33,
+      "titleJa": "経済性計算",
+      "titleVi": "Tính toán hiệu quả kinh tế",
+      "importance": "medium",
+      "summaryJa": "企業や組織が資源の使用に対するコストと利益を評価するための手法である。",
+      "summaryVi": "Phương pháp so sánh chi phí và lợi ích của phương án, dự án hoặc khoản đầu tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "経済性計算とは",
+          "vi": "Tính toán hiệu quả kinh tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が資源の使用に対するコストと利益を評価するための手法である。この計算によって、プロジェクトや投資の採算性を分析し、意思決定に役立てることができる。具体的には、収益、固定費、変動費などの経済的要素を考慮し、将来の利益を予測することが重要である。また、経済性計算はROI（投資利益率）やNPV（正味現在価値）などの指標を活用し、投資のメリットを測定することが一般的である。これにより、限られた資源を最も効果的に活用するための判断材料を提供する。",
+          "vi": "Phương pháp so sánh chi phí và lợi ích của phương án, dự án hoặc khoản đầu tư."
+        },
+        {
+          "type": "point",
+          "ja": "投資案を費用・効果・収益性で比較し、ROIやNPVなどを用いる。",
+          "vi": "Có thể gặp ROI, NPV, điểm hòa vốn; chọn đúng tiêu chí của bài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "経済性計算",
+          "english": "Economic Calculation",
+          "vi": "Tính toán hiệu quả kinh tế",
+          "definitionJa": "企業や組織が資源の使用に対するコストと利益を評価するための手法である。この計算によって、プロジェクトや投資の採算性を分析し、意思決定に役立てることができる。具体的には、収益、固定費、変動費などの経済的要素を考慮し、将来の利益を予測することが重要である。また、経済性計算はROI（投資利益率）やNPV（正味現在価値）などの指標を活用し、投資のメリットを測定することが一般的である。これにより、限られた資源を最も効果的に活用するための判断材料を提供する。",
+          "definitionVi": "Phương pháp so sánh chi phí và lợi ích của phương án, dự án hoặc khoản đầu tư.",
+          "reading": "けいざいせいけいさん"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "economic-evaluation"
+      ]
+    },
+    {
+      "id": "cash-flow-management",
+      "order": 34,
+      "titleJa": "キャッシュフロー経営",
+      "titleVi": "Quản trị theo dòng tiền",
+      "importance": "medium",
+      "summaryJa": "企業の現金の流れを管理し、経営に活かす手法である。",
+      "summaryVi": "Cách quản trị chú trọng dòng tiền thực thu và thực chi để bảo đảm thanh khoản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キャッシュフロー経営とは",
+          "vi": "Quản trị theo dòng tiền là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の現金の流れを管理し、経営に活かす手法である。これは、収入と支出のバランスを把握することで、資金繰りや投資判断を適切に行うために重要である。具体的には、企業は現金の流入と流出を把握し、将来の資金需要を予測する。例えば、商品の販売から得られる現金収入や、仕入れや人件費にかかる現金支出を監視することで、業績を安定させることができる。また、キャッシュフロー経営を行うことで、資金繰りの悪化を防ぎ、効果的な投資機会を捉えることが可能となる。これは企業の成長や survival において非常に重要な要素である。",
+          "vi": "Cách quản trị chú trọng dòng tiền thực thu và thực chi để bảo đảm thanh khoản."
+        },
+        {
+          "type": "point",
+          "ja": "黒字でも資金不足は起こる。利益とキャッシュフローは一致しない。",
+          "vi": "Có lãi kế toán vẫn có thể thiếu tiền mặt; phân biệt lợi nhuận và dòng tiền."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キャッシュフロー経営",
+          "english": "Cash Flow Management",
+          "vi": "Quản trị theo dòng tiền",
+          "definitionJa": "企業の現金の流れを管理し、経営に活かす手法である。これは、収入と支出のバランスを把握することで、資金繰りや投資判断を適切に行うために重要である。具体的には、企業は現金の流入と流出を把握し、将来の資金需要を予測する。例えば、商品の販売から得られる現金収入や、仕入れや人件費にかかる現金支出を監視することで、業績を安定させることができる。また、キャッシュフロー経営を行うことで、資金繰りの悪化を防ぎ、効果的な投資機会を捉えることが可能となる。これは企業の成長や survival において非常に重要な要素である。",
+          "definitionVi": "Cách quản trị chú trọng dòng tiền thực thu và thực chi để bảo đảm thanh khoản.",
+          "reading": "きゃっしゅふろーけいえい"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "cash-flow-management"
+      ]
+    },
+    {
+      "id": "cash-management",
+      "order": 35,
+      "titleJa": "キャッシュマネジメント",
+      "titleVi": "Quản lý ngân quỹ",
+      "importance": "medium",
+      "summaryJa": "企業や組織が資金の流れを効率的に管理するための手法である。",
+      "summaryVi": "Hoạt động quản lý tiền mặt, dự báo thu chi, điều phối số dư và sử dụng vốn ngắn hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キャッシュマネジメントとは",
+          "vi": "Quản lý ngân quỹ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が資金の流れを効率的に管理するための手法である。具体的には、現金の入出金の管理や、資金の運用、短期的な資金需要の予測といった活動が含まれる。例えば、企業が顧客からの入金を迅速に処理したり、不要な現金を投資して収益を上げたりすることで、運営効率を高めることが求められる。また、キャッシュフローを正確に把握することで、資金繰りのトラブルを未然に防ぎ、安定した経営を実現することができる。このため、効果的なキャッシュマネジメントは企業の財務健全性にとって非常に重要である。",
+          "vi": "Hoạt động quản lý tiền mặt, dự báo thu chi, điều phối số dư và sử dụng vốn ngắn hạn."
+        },
+        {
+          "type": "point",
+          "ja": "資金繰り・入出金・余剰資金の運用を管理する。",
+          "vi": "Tập trung vào thanh khoản và hiệu quả quản lý tiền, gần với nhưng không trùng hoàn toàn CF経営."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キャッシュマネジメント",
+          "english": "Cash Management",
+          "vi": "Quản lý ngân quỹ",
+          "definitionJa": "企業や組織が資金の流れを効率的に管理するための手法である。具体的には、現金の入出金の管理や、資金の運用、短期的な資金需要の予測といった活動が含まれる。例えば、企業が顧客からの入金を迅速に処理したり、不要な現金を投資して収益を上げたりすることで、運営効率を高めることが求められる。また、キャッシュフローを正確に把握することで、資金繰りのトラブルを未然に防ぎ、安定した経営を実現することができる。このため、効果的なキャッシュマネジメントは企業の財務健全性にとって非常に重要である。",
+          "definitionVi": "Hoạt động quản lý tiền mặt, dự báo thu chi, điều phối số dư và sử dụng vốn ngắn hạn.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "cash-management"]
+    },
+    {
+      "id": "inventory-valuation",
+      "order": 36,
+      "titleJa": "棚卸資産評価",
+      "titleVi": "Định giá hàng tồn kho",
+      "importance": "high",
+      "summaryJa": "棚卸資産の取得原価を先入先出法・総平均法・移動平均法などで算定すること。",
+      "summaryVi": "Xác định giá trị hàng tồn kho và giá vốn xuất kho theo phương pháp kế toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "棚卸資産評価とは",
+          "vi": "Định giá hàng tồn kho là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が保有する在庫や資材の価値を算定する方法である。在庫は生産や販売活動において重要な役割を果たし、その評価は企業の財務状況や経営判断に大きな影響を与える。そのため、正確な評価が求められる。一般的な評価方法には、先入先出法や後入先出法、個別法、平均法などがあり、それぞれの方法によって評価結果が異なる。例えば、先入先出法では、最初に仕入れた在庫から使用するため、物価上昇時には評価額が低くなることがある。このように、棚卸資産評価は企業の財務報告や経営戦略において欠かせないプロセスであり、慎重な取り扱いが求められる。",
+          "vi": "Xác định giá trị hàng tồn kho và giá vốn xuất kho theo phương pháp kế toán."
+        },
+        {
+          "type": "point",
+          "ja": "評価方法の違いにより売上原価と期末棚卸資産額が変わる。",
+          "vi": "So sánh FIFO, bình quân cả kỳ và bình quân di động; cách tính làm thay đổi giá vốn."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文の先入先出法の物価上昇時の説明には疑義がある。",
+          "vi": "Lưu ý về nguồn: Nguồn nói FIFO khi giá tăng khiến định giá tồn kho thấp; đây là điểm cần sửa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "棚卸資産評価",
+          "english": "Inventory Valuation",
+          "vi": "Định giá hàng tồn kho",
+          "definitionJa": "企業が保有する在庫や資材の価値を算定する方法である。在庫は生産や販売活動において重要な役割を果たし、その評価は企業の財務状況や経営判断に大きな影響を与える。そのため、正確な評価が求められる。一般的な評価方法には、先入先出法や後入先出法、個別法、平均法などがあり、それぞれの方法によって評価結果が異なる。例えば、先入先出法では、最初に仕入れた在庫から使用するため、物価上昇時には評価額が低くなることがある。このように、棚卸資産評価は企業の財務報告や経営戦略において欠かせないプロセスであり、慎重な取り扱いが求められる。",
+          "definitionVi": "Xác định giá trị hàng tồn kho và giá vốn xuất kho theo phương pháp kế toán.",
+          "reading": "たなおろししさんひょうか"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "inventory-valuation"
+      ]
+    },
+    {
+      "id": "fifo",
+      "order": 37,
+      "titleJa": "先入先出法",
+      "titleVi": "Phương pháp nhập trước xuất trước (FIFO)",
+      "importance": "high",
+      "summaryJa": "先に取得した棚卸資産から先に払い出したと仮定して原価を算定する方法。",
+      "summaryVi": "Giả định hàng mua trước được xuất trước để xác định giá vốn và tồn kho cuối kỳ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "先入先出法とは",
+          "vi": "Phương pháp nhập trước xuất trước (FIFO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "資産管理における在庫管理方法の一つである。この手法では、最初に入庫した商品や資産が最初に出庫されることを基本とする。たとえば、食品や医薬品のような消費期限がある商品では、古いものを先に販売することで未使用による廃棄を防ぐことができる。また、この方法は財務報告においても重要で、在庫評価に影響を与えるため、経営判断に役立つ。先入先出法を適用することで、在庫の回転率を向上させ、効率的な在庫管理が可能となる。特に、流動性の高い商品には非常に適した手法である。",
+          "vi": "Giả định hàng mua trước được xuất trước để xác định giá vốn và tồn kho cuối kỳ."
+        },
+        {
+          "type": "point",
+          "ja": "物価上昇時、先入先出法の期末在庫は比較的新しい仕入単価で評価される。",
+          "vi": "Khi giá mua tăng, tồn kho cuối kỳ thường phản ánh giá mới hơn; không phải giá thấp hơn như nguồn gợi ý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "先入先出法",
+          "english": "First In First Out",
+          "vi": "Phương pháp nhập trước xuất trước (FIFO)",
+          "definitionJa": "資産管理における在庫管理方法の一つである。この手法では、最初に入庫した商品や資産が最初に出庫されることを基本とする。たとえば、食品や医薬品のような消費期限がある商品では、古いものを先に販売することで未使用による廃棄を防ぐことができる。また、この方法は財務報告においても重要で、在庫評価に影響を与えるため、経営判断に役立つ。先入先出法を適用することで、在庫の回転率を向上させ、効率的な在庫管理が可能となる。特に、流動性の高い商品には非常に適した手法である。",
+          "definitionVi": "Giả định hàng mua trước được xuất trước để xác định giá vốn và tồn kho cuối kỳ.",
+          "reading": "さきいれさきだしほう"
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "fifo"]
+    },
+    {
+      "id": "periodic-weighted-average",
+      "order": 38,
+      "titleJa": "総平均法",
+      "titleVi": "Phương pháp bình quân cả kỳ",
+      "importance": "high",
+      "summaryJa": "資産の評価において、購入価格の平均を計算してその価格を用いる方法である。",
+      "summaryVi": "Tính đơn giá bình quân dựa trên tổng giá trị và tổng số lượng hàng trong kỳ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "総平均法とは",
+          "vi": "Phương pháp bình quân cả kỳ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "資産の評価において、購入価格の平均を計算してその価格を用いる方法である。具体的には、在庫などの資産が複数の異なる価格で購入された場合、その全ての購入価格を合計し、購入した数量で割ることで平均価格を求める。これにより、在庫の評価が簡潔になり、価格変動の影響を緩和することができる。例えば、同じ商品を異なる時期に異なる価格で購入した場合に、平均的なコストを用いることで、在庫管理や会計処理がより一貫性を持つようになる。この方法は、特に価格が頻繁に変動する資産に対して効果的であり、企業の財務報告においても広く利用されている。",
+          "vi": "Tính đơn giá bình quân dựa trên tổng giá trị và tổng số lượng hàng trong kỳ."
+        },
+        {
+          "type": "point",
+          "ja": "総平均単価＝（期首棚卸高＋当期仕入高）÷（期首数量＋当期仕入数量）。",
+          "vi": "Đơn giá bình quân = (Giá trị tồn đầu + Giá trị nhập) ÷ (Số lượng tồn đầu + Số lượng nhập)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "総平均法",
+          "english": "Weighted Average Method",
+          "vi": "Phương pháp bình quân cả kỳ",
+          "definitionJa": "資産の評価において、購入価格の平均を計算してその価格を用いる方法である。具体的には、在庫などの資産が複数の異なる価格で購入された場合、その全ての購入価格を合計し、購入した数量で割ることで平均価格を求める。これにより、在庫の評価が簡潔になり、価格変動の影響を緩和することができる。例えば、同じ商品を異なる時期に異なる価格で購入した場合に、平均的なコストを用いることで、在庫管理や会計処理がより一貫性を持つようになる。この方法は、特に価格が頻繁に変動する資産に対して効果的であり、企業の財務報告においても広く利用されている。",
+          "definitionVi": "Tính đơn giá bình quân dựa trên tổng giá trị và tổng số lượng hàng trong kỳ.",
+          "reading": "そうへいきんほう"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "periodic-weighted-average"
+      ]
+    },
+    {
+      "id": "moving-weighted-average",
+      "order": 39,
+      "titleJa": "移動平均法",
+      "titleVi": "Phương pháp bình quân sau mỗi lần nhập",
+      "importance": "high",
+      "summaryJa": "棚卸資産の仕入れの都度、残高と仕入原価から平均単価を再計算する評価方法。",
+      "summaryVi": "Tính lại đơn giá bình quân của tồn kho sau mỗi lần nhập hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "移動平均法とは",
+          "vi": "Phương pháp bình quân sau mỗi lần nhập là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの変動を平滑化し、傾向を把握するための手法である。主に時間の経過に伴うデータ解析に使用され、特定の期間内のデータの平均値を計算することでノイズを減少させることができる。例えば、株価の解析においては、数日間の株価の平均を取ることで、短期的な変動を視覚的に理解しやすくする。この手法は、トレンドの把握や異常値の検出にも役立ち、資産管理においても投資判断を行う際に有効である。移動平均法には、単純移動平均や加重移動平均などがあり、異なる方法を選択することで分析の精度を向上させることが可能である。",
+          "vi": "Tính lại đơn giá bình quân của tồn kho sau mỗi lần nhập hàng."
+        },
+        {
+          "type": "point",
+          "ja": "移動平均法は仕入れの都度、在庫の平均単価を再計算する。",
+          "vi": "Khác 総平均法: 移動平均法 cập nhật đơn giá ngay sau mỗi lần nhập, không đợi cuối kỳ."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文は時系列データの移動平均を説明しているが、この章では棚卸資産評価の移動平均法を指す。",
+          "vi": "Lưu ý về nguồn: Nguồn giải thích trung bình trượt của chuỗi thời gian; ở đây phải hiểu là bình quân gia quyền sau mỗi lần nhập hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "移動平均法",
+          "english": "Moving Average Method",
+          "vi": "Phương pháp bình quân sau mỗi lần nhập",
+          "definitionJa": "データの変動を平滑化し、傾向を把握するための手法である。主に時間の経過に伴うデータ解析に使用され、特定の期間内のデータの平均値を計算することでノイズを減少させることができる。例えば、株価の解析においては、数日間の株価の平均を取ることで、短期的な変動を視覚的に理解しやすくする。この手法は、トレンドの把握や異常値の検出にも役立ち、資産管理においても投資判断を行う際に有効である。移動平均法には、単純移動平均や加重移動平均などがあり、異なる方法を選択することで分析の精度を向上させることが可能である。",
+          "definitionVi": "Tính lại đơn giá bình quân của tồn kho sau mỗi lần nhập hàng.",
+          "reading": "いどうへいきんほう"
+        }
+      ],
+      "tags": [
+        "business-activities",
+        "accounting-finance",
+        "moving-weighted-average"
+      ]
+    },
+    {
+      "id": "off-balance-sheet",
+      "order": 40,
+      "titleJa": "オフバランス",
+      "titleVi": "Ngoại bảng cân đối kế toán",
+      "importance": "medium",
+      "summaryJa": "会計基準に従い特定の資産・負債が貸借対照表に計上されない取扱い。",
+      "summaryVi": "Cách trình bày trong đó tài sản hoặc nghĩa vụ nhất định không được ghi nhận trên bảng cân đối khi chuẩn mực cho phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オフバランスとは",
+          "vi": "Ngoại bảng cân đối kế toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務状態を示す際に、特定の資産や負債を貸借対照表に含めない会計手法である。これは、企業が特定のリスクや負担を財務諸表から隠すことができるため、経営資源を効率的に活用し、外部からの評価を良くする目的がある。例えば、特定の資産をリースとして扱う場合、その資産はバランスシートに載せず、オフバランスとして記録される。この手法は、企業の資本構造を改善し、財務比率を良好に保つ助けになるが、透明性が欠ける可能性もあり、投資家やステークホルダーには注意が必要である。したがって、オフバランスの活用は慎重に行うべきである。",
+          "vi": "Cách trình bày trong đó tài sản hoặc nghĩa vụ nhất định không được ghi nhận trên bảng cân đối khi chuẩn mực cho phép."
+        },
+        {
+          "type": "point",
+          "ja": "オフバランスは会計基準の要件に従う。負債を任意に隠すことではない。",
+          "vi": "Không phải thủ thuật tùy ý giấu nợ; việc ghi nhận phụ thuộc chuẩn mực và bản chất giao dịch."
+        },
+        {
+          "type": "point",
+          "ja": "原文への注意：原文の「リスクや負担を隠す目的」という説明は不適切。会計基準の要件に従って処理する。",
+          "vi": "Lưu ý về nguồn: Nguồn mô tả mục đích che giấu nợ là không phù hợp; phải tuân thủ chuẩn mực kế toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オフバランス",
+          "english": "Off-Balance Sheet",
+          "vi": "Ngoại bảng cân đối kế toán",
+          "definitionJa": "企業の財務状態を示す際に、特定の資産や負債を貸借対照表に含めない会計手法である。これは、企業が特定のリスクや負担を財務諸表から隠すことができるため、経営資源を効率的に活用し、外部からの評価を良くする目的がある。例えば、特定の資産をリースとして扱う場合、その資産はバランスシートに載せず、オフバランスとして記録される。この手法は、企業の資本構造を改善し、財務比率を良好に保つ助けになるが、透明性が欠ける可能性もあり、投資家やステークホルダーには注意が必要である。したがって、オフバランスの活用は慎重に行うべきである。",
+          "definitionVi": "Cách trình bày trong đó tài sản hoặc nghĩa vụ nhất định không được ghi nhận trên bảng cân đối khi chuẩn mực cho phép.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-activities", "accounting-finance", "off-balance-sheet"]
+    }
+  ]
 }

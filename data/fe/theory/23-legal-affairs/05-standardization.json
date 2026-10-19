@@ -4,5 +4,1379 @@
   "titleJa": "標準化関連",
   "titleVi": "Tiêu chuẩn hóa",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "jis",
+      "order": 1,
+      "titleJa": "JIS",
+      "titleVi": "Tiêu chuẩn công nghiệp Nhật Bản",
+      "importance": "high",
+      "summaryJa": "日本の産業における標準規格を指すものである。",
+      "summaryVi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JISとは",
+          "vi": "Tiêu chuẩn công nghiệp Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本の産業における標準規格を指すものである。この規格は、製品やサービスの品質、安全性、互換性を確保することを目的としており、商取引や技術の安定性を高める役割を果たす。例えば、電子機器や建材、自動車などに関する具体的な基準が定められており、企業はこの基準に従って製品を開発することで、消費者に安心して利用できる製品を提供できる。また、JISは国際的な規格とも密接に連携しており、グローバルな市場でも競争力を持つための基盤となっているため、重要な役割を担っている。",
+          "vi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JISの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "JIS là tiêu chuẩn; JISC là hội đồng tiêu chuẩn hóa; JSA là hiệp hội hỗ trợ tiêu chuẩn hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS",
+          "english": "Japanese Industrial Standards",
+          "vi": "Tiêu chuẩn công nghiệp Nhật Bản",
+          "definitionJa": "日本の産業における標準規格を指すものである。",
+          "definitionVi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ.",
+          "reading": "じす"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis"]
+    },
+    {
+      "id": "jis-x-sector",
+      "order": 2,
+      "titleJa": "JIS X部門",
+      "titleVi": "Nhóm JIS X",
+      "importance": "high",
+      "summaryJa": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。",
+      "summaryVi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS X部門とは",
+          "vi": "Nhóm JIS X là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。この部門は、コンピュータやソフトウェア、システムの設計・開発・運用に関する基準を詳細に示し、業界全体の品質向上を目的としている。例えば、データ交換のための規格やセキュリティ基準、プログラミング言語の仕様などが含まれる。これにより、異なるシステム間での互換性を確保し、スムーズな情報交換が可能になる。企業や組織がJIS Xの規格に従うことで、一貫した技術基準を持ち、より効率的な運用を実現することができる。",
+          "vi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JIS X部門の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "JIS X gắn với CNTT; phân biệt với JIS Q liên quan hệ thống quản lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS X部門",
+          "english": "JIS X Sector",
+          "vi": "Nhóm JIS X",
+          "definitionJa": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。",
+          "definitionVi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin.",
+          "reading": "じすえっくすぶもん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-x-sector"]
+    },
+    {
+      "id": "jis-q-sector",
+      "order": 3,
+      "titleJa": "JIS Q部門",
+      "titleVi": "Nhóm JIS Q",
+      "importance": "high",
+      "summaryJa": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。",
+      "summaryVi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q部門とは",
+          "vi": "Nhóm JIS Q là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。この規格は、ISO（国際標準化機構）の基準に基づいており、企業や組織が効果的に管理システムを構築するための手助けをする。例えば、ISO 9001は品質管理システムの規格であり、顧客の満足度を向上させるための方法論を提供する。また、ISO 14001は環境管理システムの規格で、環境への負荷を減らすための枠組みを提供する。これにより、企業は持続可能な発展を目指し、効率的な運営が可能となる。",
+          "vi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JIS Q部門の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Ví dụ JIS Q 14001 về quản lý môi trường; JIS Q 27001 về quản lý an toàn thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q部門",
+          "english": "JIS Q Sector",
+          "vi": "Nhóm JIS Q",
+          "definitionJa": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。",
+          "definitionVi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin.",
+          "reading": "じすきゅーぶもん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-q-sector"]
+    },
+    {
+      "id": "jisc",
+      "order": 4,
+      "titleJa": "JISC",
+      "titleVi": "Hội đồng tiêu chuẩn công nghiệp Nhật Bản",
+      "importance": "medium",
+      "summaryJa": "日本工業規格審議会の略称であり、日本における工業規格の策定や管理を行う組織である。",
+      "summaryVi": "Cơ quan hội đồng của Nhật Bản tham gia thẩm nghị tiêu chuẩn công nghiệp và chính sách tiêu chuẩn hóa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JISCとは",
+          "vi": "Hội đồng tiêu chuẩn công nghiệp Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本工業規格審議会の略称であり、日本における工業規格の策定や管理を行う組織である。この委員会は、製品やサービスの品質を確保するための基準を定め、企業や消費者が安心して利用できる環境を整備する役割を果たす。例えば、電化製品の安全性や、素材の品質についての規格がJISCによって制定されている。さらに、JISCは国際的な標準化活動にも参加しており、グローバルな市場における日本の製品の競争力向上に寄与している。これにより、日本の工業製品が国際的にも信頼される品質を保つための基盤が築かれている。",
+          "vi": "Cơ quan hội đồng của Nhật Bản tham gia thẩm nghị tiêu chuẩn công nghiệp và chính sách tiêu chuẩn hóa."
+        },
+        {
+          "type": "point",
+          "ja": "原文の「日本工業規格審議会」は現行名称ではありません。現在は日本産業標準調査会です。 試験対策：JISCと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: Tên hiện hành là 日本産業標準調査会; JISC không phải JSA."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JISC",
+          "english": "Japanese Industrial Standards Committee",
+          "vi": "Hội đồng tiêu chuẩn công nghiệp Nhật Bản",
+          "definitionJa": "日本工業規格審議会の略称であり、日本における工業規格の策定や管理を行う組織である。",
+          "definitionVi": "Cơ quan hội đồng của Nhật Bản tham gia thẩm nghị tiêu chuẩn công nghiệp và chính sách tiêu chuẩn hóa.",
+          "reading": "じすく"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jisc"]
+    },
+    {
+      "id": "jsa",
+      "order": 5,
+      "titleJa": "JSA",
+      "titleVi": "Hiệp hội Tiêu chuẩn Nhật Bản",
+      "importance": "medium",
+      "summaryJa": "日本で標準化に関する活動を行う団体である。",
+      "summaryVi": "Tổ chức thúc đẩy phổ biến, đào tạo và hỗ trợ xây dựng tiêu chuẩn tại Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JSAとは",
+          "vi": "Hiệp hội Tiêu chuẩn Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本で標準化に関する活動を行う団体である。具体的には、産業やビジネスの発展を促進するために、日本工業規格（JIS）を策定し、普及させる役割を果たしている。JSAが定めるJISは、製品やサービスの品質や安全性を確保するための基準となるもので、企業がこれに準拠することで、国際的な競争力を高めることができる。また、これにより消費者は安心して製品を選ぶことができる。JSAの活動は、単に規格を作るだけでなく、業界全体の技術革新や効率向上にも寄与している。",
+          "vi": "Tổ chức thúc đẩy phổ biến, đào tạo và hỗ trợ xây dựng tiêu chuẩn tại Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "JSAがJISを単独で制定するわけではありません。 試験対策：JSAと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: Không đồng nhất JSA với cơ quan quyết định ban hành JIS."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JSA",
+          "english": "Japanese Standards Association",
+          "vi": "Hiệp hội Tiêu chuẩn Nhật Bản",
+          "definitionJa": "日本で標準化に関する活動を行う団体である。",
+          "definitionVi": "Tổ chức thúc đẩy phổ biến, đào tạo và hỗ trợ xây dựng tiêu chuẩn tại Nhật.",
+          "reading": "じぇいえすえー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jsa"]
+    },
+    {
+      "id": "international-standard",
+      "order": 6,
+      "titleJa": "IS",
+      "titleVi": "Tiêu chuẩn quốc tế",
+      "importance": "high",
+      "summaryJa": "国際的に合意されたルールや基準を指す用語である。",
+      "summaryVi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISとは",
+          "vi": "Tiêu chuẩn quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "国際的に合意されたルールや基準を指す用語である。これらの規格は、製品やサービスの品質を保証し、国際的な取引や協力をスムーズにするための基盤を提供する。たとえば、電子機器の安全性や互換性に関する規格は、異なる国や企業間での製品交換を容易にし、消費者の安全を確保することに寄与する。また、ISに従うことで、企業は国際市場で競争力を高めることができ、技術の進歩や環境保護に対する取り組みを強化することも期待される。このように、ISは国際的なビジネスや技術の標準化において、重要な役割を果たしている。",
+          "vi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ISの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "IS là tiêu chuẩn, còn ISO, IEC, ITU là các tổ chức tiêu chuẩn hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IS",
+          "english": "International Standards",
+          "vi": "Tiêu chuẩn quốc tế",
+          "definitionJa": "国際的に合意されたルールや基準を指す用語である。",
+          "definitionVi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia.",
+          "reading": "あいえす"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "international-standard"]
+    },
+    {
+      "id": "iso",
+      "order": 7,
+      "titleJa": "ISO",
+      "titleVi": "Tổ chức Tiêu chuẩn hóa Quốc tế",
+      "importance": "high",
+      "summaryJa": "国際的に通用する標準を策定するための組織である。",
+      "summaryVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISOとは",
+          "vi": "Tổ chức Tiêu chuẩn hóa Quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "国際的に通用する標準を策定するための組織である。この機構は、製品やサービスの品質、信頼性、安全性など、さまざまな分野において標準を確立することを目的としている。例えば、ISO9001は品質管理に関する規格であり、多くの企業がこの規格を遵守することで、顧客に対して高品質な製品やサービスを提供することができる。また、ISO標準は国際的な取引やビジネスの一貫性を高め、異なる国や地域間の協力を促進する役割も果たしている。技術的な側面だけでなく、社会的な側面にも配慮した規格を制定することに重点を置いている。",
+          "vi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ISOの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "ISO là tổ chức ban hành tiêu chuẩn, không trực tiếp cấp chứng nhận ISO cho doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ISO",
+          "english": "International Organization for Standardization",
+          "vi": "Tổ chức Tiêu chuẩn hóa Quốc tế",
+          "definitionJa": "国際的に通用する標準を策定するための組織である。",
+          "definitionVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001.",
+          "reading": "あいえすおー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "iso"]
+    },
+    {
+      "id": "international-certification",
+      "order": 8,
+      "titleJa": "国際認証",
+      "titleVi": "Chứng nhận quốc tế",
+      "importance": "medium",
+      "summaryJa": "製品やサービスが国際的に認められた基準や規格に適合していることを証明する制度である。",
+      "summaryVi": "Việc xác nhận đối tượng đáp ứng các yêu cầu tiêu chuẩn có tính quốc tế theo cơ chế đánh giá phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "国際認証とは",
+          "vi": "Chứng nhận quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが国際的に認められた基準や規格に適合していることを証明する制度である。この認証を取得することで、企業は自社の製品やサービスの品質が国際的に通用することを示すことができ、競争力を高めることが可能となる。例えば、ISO（国際標準化機構）による認証が挙げられ、これは品質管理や環境管理に関する国際基準を満たしていることを示すものである。国際認証を得た企業は、信頼性の向上や顧客の獲得につながり、国際市場での取引を円滑にする効果がある。このように、国際認証は国際規格の遵守を促進し、グローバルなビジネス環境において重要な役割を果たしている。",
+          "vi": "Việc xác nhận đối tượng đáp ứng các yêu cầu tiêu chuẩn có tính quốc tế theo cơ chế đánh giá phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：国際認証の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Phân biệt tổ chức ban hành tiêu chuẩn với tổ chức đánh giá, cấp chứng nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "国際認証",
+          "english": "International Certification",
+          "vi": "Chứng nhận quốc tế",
+          "definitionJa": "製品やサービスが国際的に認められた基準や規格に適合していることを証明する制度である。",
+          "definitionVi": "Việc xác nhận đối tượng đáp ứng các yêu cầu tiêu chuẩn có tính quốc tế theo cơ chế đánh giá phù hợp.",
+          "reading": "こくさいにんしょう"
+        }
+      ],
+      "tags": [
+        "legal-affairs",
+        "standardization",
+        "international-certification"
+      ]
+    },
+    {
+      "id": "itu",
+      "order": 9,
+      "titleJa": "ITU",
+      "titleVi": "Liên minh Viễn thông Quốc tế",
+      "importance": "high",
+      "summaryJa": "国際的な電気通信に関する制度を整備するための国際連合の機関である。",
+      "summaryVi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITUとは",
+          "vi": "Liên minh Viễn thông Quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "国際的な電気通信に関する制度を整備するための国際連合の機関である。この組織は、世界中の国々が協力して通信技術の標準化や政策の策定を行うことを目的としている。例えば、国際的な電話網やインターネットの仕組みをより効率的かつ互換性のあるものにするための基準を設定している。また、通信の発展を支援するために、さまざまな技術情報の共有や、発展途上国への支援活動も行っている。世界中の通信事業者や政府機関、研究者が参加し、グローバルな発展を促進する重要な役割を果たしている。",
+          "vi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ITUの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "ITU-T tập trung tiêu chuẩn viễn thông; ITU-R liên quan thông tin vô tuyến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITU",
+          "english": "International Telecommunication Union",
+          "vi": "Liên minh Viễn thông Quốc tế",
+          "definitionJa": "国際的な電気通信に関する制度を整備するための国際連合の機関である。",
+          "definitionVi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông.",
+          "reading": "あいてぃーゆう"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "itu"]
+    },
+    {
+      "id": "iec",
+      "order": 10,
+      "titleJa": "IEC",
+      "titleVi": "Ủy ban Kỹ thuật Điện Quốc tế",
+      "importance": "high",
+      "summaryJa": "電気・電子・関連技術の国際規格を策定する組織である。",
+      "summaryVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IECとは",
+          "vi": "Ủy ban Kỹ thuật Điện Quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電気・電子・関連技術の国際規格を策定する組織である。この機関は、世界中の専門家や企業が参加し、さまざまな電気機器やシステムに関する標準基準を作成することを目的としている。例えば、家庭用電化製品や工業用機器の安全性、性能、環境基準などを規定することで、製品の互換性や品質を向上させる役割を果たしている。また、IECの規格は国際的に広く受け入れられ、輸出入の際のバリアを低くし、技術の進展を支えている。これにより、消費者は安心して製品を使用でき、企業はグローバルマーケットでの競争力を高めることができる。",
+          "vi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：IECの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "IEC: điện/điện tử; ISO: nhiều lĩnh vực; ITU: viễn thông."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IEC",
+          "english": "International Electrotechnical Commission",
+          "vi": "Ủy ban Kỹ thuật Điện Quốc tế",
+          "definitionJa": "電気・電子・関連技術の国際規格を策定する組織である。",
+          "definitionVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan.",
+          "reading": "あいいーしー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "iec"]
+    },
+    {
+      "id": "ietf",
+      "order": 11,
+      "titleJa": "IETF",
+      "titleVi": "Nhóm đặc trách kỹ thuật Internet",
+      "importance": "high",
+      "summaryJa": "インターネットの技術や標準を策定するための国際的な組織である。",
+      "summaryVi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IETFとは",
+          "vi": "Nhóm đặc trách kỹ thuật Internet là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットの技術や標準を策定するための国際的な組織である。この組織は、様々な分野の専門家が集まり、インターネットプロトコルや技術の改善、開発を行うことを目的としている。例えば、IETFは新しいネットワークプロトコルや仕様書を作成し、これに基づいてインターネットの機能向上を図る。特に、RFC（Request for Comments）という文書を通じて、技術的なアイデアや提案が共有され、広く意見を募る仕組みがある。IETFの活動は、インターネットの普及や安全性、効率性を高めるために重要な役割を果たしており、ユーザーや企業にとっても大きな影響を与えている。",
+          "vi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：IETFの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "IETF gắn với RFC và các giao thức Internet; phân biệt W3C về Web."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IETF",
+          "english": "Internet Engineering Task Force",
+          "vi": "Nhóm đặc trách kỹ thuật Internet",
+          "definitionJa": "インターネットの技術や標準を策定するための国際的な組織である。",
+          "definitionVi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet.",
+          "reading": "あいいーてぃーえふ"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "ietf"]
+    },
+    {
+      "id": "ansi",
+      "order": 12,
+      "titleJa": "ANSI",
+      "titleVi": "Viện Tiêu chuẩn Quốc gia Hoa Kỳ",
+      "importance": "medium",
+      "summaryJa": "米国における標準化団体であり、さまざまな製品やサービスの標準を制定する役割を果たしている。",
+      "summaryVi": "Tổ chức điều phối và công nhận hoạt động tiêu chuẩn hóa tự nguyện tại Hoa Kỳ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ANSIとは",
+          "vi": "Viện Tiêu chuẩn Quốc gia Hoa Kỳ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "米国における標準化団体であり、さまざまな製品やサービスの標準を制定する役割を果たしている。この団体は、業界や政府機関、消費者などの関係者が集まり、品質や安全性を確保するための基準を設けている。例えば、ANSIが定めた標準に従うことで、製品の互換性や安全性が向上し、市場での信用が得られる。これにより、消費者にとっても安心して製品を使用するための指標となっている。さらに、ANSIは国際的な標準化機関とも連携し、国際的な基準を策定する際にも貢献している。",
+          "vi": "Tổ chức điều phối và công nhận hoạt động tiêu chuẩn hóa tự nguyện tại Hoa Kỳ."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ANSIの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "ANSI điều phối và công nhận quy trình xây dựng tiêu chuẩn; không trực tiếp soạn mọi tiêu chuẩn ANSI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ANSI",
+          "english": "American National Standards Institute",
+          "vi": "Viện Tiêu chuẩn Quốc gia Hoa Kỳ",
+          "definitionJa": "米国における標準化団体であり、さまざまな製品やサービスの標準を制定する役割を果たしている。",
+          "definitionVi": "Tổ chức điều phối và công nhận hoạt động tiêu chuẩn hóa tự nguyện tại Hoa Kỳ.",
+          "reading": "あんし"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "ansi"]
+    },
+    {
+      "id": "ieee",
+      "order": 13,
+      "titleJa": "IEEE",
+      "titleVi": "Hiệp hội Kỹ sư Điện và Điện tử",
+      "importance": "high",
+      "summaryJa": "電気・電子に関する技術の発展を促進するための国際的な学会である。",
+      "summaryVi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IEEEとは",
+          "vi": "Hiệp hội Kỹ sư Điện và Điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電気・電子に関する技術の発展を促進するための国際的な学会である。この団体は、エンジニアや研究者が集まり、新しい技術や基準を制定し、業界の発展に寄与している。特に通信、コンピュータ技術、ロボティクスなどの分野で多くの規格を策定しており、これにより製品の相互運用性や安全性が向上する。例えば、Wi-FiやBluetoothなどの無線通信技術も、IEEEが制定した標準に基づいている。これにより、異なるメーカーのデバイス同士がスムーズに連携できるようになっている。技術者にとって欠かせない学術的なプラットフォームとして、継続的な革新を支えている。",
+          "vi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "Bluetoothの標準化主体はBluetooth SIGです。IEEEがすべてのBluetooth仕様を策定するわけではありません。 試験対策：IEEEと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: IEEE 802.3: Ethernet; IEEE 802.11: WLAN/Wi-Fi; Bluetooth liên quan IEEE 802.15.1 lịch sử nhưng không phải mọi chuẩn Bluetooth do IEEE ban hành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IEEE",
+          "english": "Institute of Electrical and Electronics Engineers",
+          "vi": "Hiệp hội Kỹ sư Điện và Điện tử",
+          "definitionJa": "電気・電子に関する技術の発展を促進するための国際的な学会である。",
+          "definitionVi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính.",
+          "reading": "あいとりぷるいー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "ieee"]
+    },
+    {
+      "id": "w3c",
+      "order": 14,
+      "titleJa": "W3C",
+      "titleVi": "Liên minh World Wide Web",
+      "importance": "high",
+      "summaryJa": "Web技術の標準化を促進するための国際的な団体である。",
+      "summaryVi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "W3Cとは",
+          "vi": "Liên minh World Wide Web là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Web技術の標準化を促進するための国際的な団体である。この団体は、Webの発展に寄与するために、さまざまな技術やプロトコルの規則を策定している。たとえば、HTMLやCSSなどのWebページを作成するための基本的な言語や、アクセシビリティの基準を定めていることが挙げられる。W3Cが策定した標準に従うことで、Webサイトやアプリケーションは異なるブラウザやデバイスでも一貫して表示され、ユーザーにとっての利便性が向上する。これにより、開発者はより良いインターネット環境を提供できるようになるため、W3Cの活動はWebのエコシステムにとって極めて重要である。",
+          "vi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web."
+        },
+        {
+          "type": "point",
+          "ja": "HTML Living Standardの維持主体はWHATWGです。 試験対策：W3Cと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: W3C liên quan Web; IETF liên quan giao thức Internet. HTML hiện được WHATWG duy trì như Living Standard."
+        }
+      ],
+      "terms": [
+        {
+          "term": "W3C",
+          "english": "World Wide Web Consortium",
+          "vi": "Liên minh World Wide Web",
+          "definitionJa": "Web技術の標準化を促進するための国際的な団体である。",
+          "definitionVi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web.",
+          "reading": "だぶるすりーしー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "w3c"]
+    },
+    {
+      "id": "forum-standard",
+      "order": 15,
+      "titleJa": "フォーラム標準",
+      "titleVi": "Tiêu chuẩn diễn đàn",
+      "importance": "medium",
+      "summaryJa": "特定の業界や技術分野において、関係者が共同で作成した標準規格である。",
+      "summaryVi": "Tiêu chuẩn do diễn đàn hoặc liên minh các doanh nghiệp, tổ chức cùng xây dựng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォーラム標準とは",
+          "vi": "Tiêu chuẩn diễn đàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業界や技術分野において、関係者が共同で作成した標準規格である。このような標準は、多くの場合、業界内の企業や団体が参加するフォーラムによって定められ、普及を図るための基盤となる。たとえば、通信やコンピュータ関連の分野において、異なるメーカー間での互換性を保つために広く利用されている。技術の進化に対応し、コミュニティ全体に利益をもたらすことを目的としており、参加する企業がより良い製品やサービスを提供できるようサポートする役割も果たしている。このように、業界の発展と協力の重要な要素である。",
+          "vi": "Tiêu chuẩn do diễn đàn hoặc liên minh các doanh nghiệp, tổ chức cùng xây dựng."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：フォーラム標準の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Forum standard do nhóm ngành thống nhất; khác de jure do tổ chức tiêu chuẩn hóa chính thức công nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォーラム標準",
+          "english": "Forum Standard",
+          "vi": "Tiêu chuẩn diễn đàn",
+          "definitionJa": "特定の業界や技術分野において、関係者が共同で作成した標準規格である。",
+          "definitionVi": "Tiêu chuẩn do diễn đàn hoặc liên minh các doanh nghiệp, tổ chức cùng xây dựng.",
+          "reading": "ふぉーらむひょうじゅん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "forum-standard"]
+    },
+    {
+      "id": "de-jure-standard",
+      "order": 16,
+      "titleJa": "デジュレスタンダード",
+      "titleVi": "Tiêu chuẩn chính thức",
+      "importance": "high",
+      "summaryJa": "正式に認められた基準や規格のことである。",
+      "summaryVi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジュレスタンダードとは",
+          "vi": "Tiêu chuẩn chính thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "正式に認められた基準や規格のことである。これは特定の機関や団体によって制定され、法律や規則に基づいて機能することが特徴である。つまり、製品やサービスがこの基準に従っていることが求められる。例えば、国際的な規格を制定するISO（国際標準化機構）によって定められる規格がデジュレスタンダードに該当する。これに対して、実際に広く使われているが正式には認められていない基準はデファクトスタンダードと呼ばれる。業界の信頼性や互換性を高め、消費者や企業が安心して製品を利用できる環境を整える役割を果たしている。",
+          "vi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：デジュレスタンダードの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "De jure khác de facto: de facto phổ biến nhờ sử dụng thực tế, không nhất thiết được công nhận chính thức."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジュレスタンダード",
+          "english": "De Jure Standard",
+          "vi": "Tiêu chuẩn chính thức",
+          "definitionJa": "正式に認められた基準や規格のことである。",
+          "definitionVi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "de-jure-standard"]
+    },
+    {
+      "id": "slcp-jcf",
+      "order": 17,
+      "titleJa": "SLCP-JCF",
+      "titleVi": "Khung chung vòng đời phần mềm Nhật Bản",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発や取引における標準的なフレームワークを提供するための共通フレームである。",
+      "summaryVi": "Khung chung dùng thống nhất thuật ngữ và quy trình trong giao dịch, phát triển, vận hành phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SLCP-JCFとは",
+          "vi": "Khung chung vòng đời phần mềm Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発や取引における標準的なフレームワークを提供するための共通フレームである。これは、開発プロセスや取引プロセスを標準化することを目的としており、異なる企業間や組織間でも一貫性を持ったコミュニケーションを実現する。例えば、ソフトウェア開発の各ステップがどのように進められるべきかや、必要なドキュメントの種類が定義されており、これにより関与する全てのメンバーが共通の理解を持つことができる。SLCP-JCFによる標準化は、開発の効率を高めたり、品質を改善したりするために重要な役割を果たしている。",
+          "vi": "Khung chung dùng thống nhất thuật ngữ và quy trình trong giao dịch, phát triển, vận hành phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：SLCP-JCFの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "SLCP-JCF là khung chung về quy trình vòng đời phần mềm, giúp bên đặt hàng và bên nhận thầu hiểu cùng một quy trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLCP-JCF",
+          "english": "SLCP-JCF",
+          "vi": "Khung chung vòng đời phần mềm Nhật Bản",
+          "definitionJa": "ソフトウェア開発や取引における標準的なフレームワークを提供するための共通フレームである。",
+          "definitionVi": "Khung chung dùng thống nhất thuật ngữ và quy trình trong giao dịch, phát triển, vận hành phần mềm.",
+          "reading": "えすえるしーぴーじぇいしーえふ"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "slcp-jcf"]
+    },
+    {
+      "id": "jis-x-0160",
+      "order": 18,
+      "titleJa": "JIS X 0160",
+      "titleVi": "JIS X 0160",
+      "importance": "high",
+      "summaryJa": "日本で制定された標準化の一つである。",
+      "summaryVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS X 0160とは",
+          "vi": "JIS X 0160 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本で制定された標準化の一つである。この標準は、主に開発プロセスや取引プロセスの効率化を目的としている。具体的には、ソフトウェアやシステムの開発における要件定義や設計、テストなどの各ステージにおける方法論や記述形式を定めている。例えば、標準に従うことで、チーム間のコミュニケーションや情報共有がスムーズになり、品質の向上やコストの削減が促進される。また、国際的な基準と整合性を持たせることで、海外との取引や協力を行う際にも有利に働くことが期待されている。しっかりとした基準を持つことで、開発の効率化と信頼性を高めることが可能である。",
+          "vi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JIS X 0160の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "JIS X 0160: vòng đời phần mềm; JIS X 0170: vòng đời hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS X 0160",
+          "english": "Japanese Industrial Standards X 0160",
+          "vi": "JIS X 0160",
+          "definitionJa": "日本で制定された標準化の一つである。",
+          "definitionVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207.",
+          "reading": "じすえっくす0160"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-x-0160"]
+    },
+    {
+      "id": "jis-x-0170",
+      "order": 19,
+      "titleJa": "JIS X 0170",
+      "titleVi": "JIS X 0170",
+      "importance": "high",
+      "summaryJa": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。",
+      "summaryVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS X 0170とは",
+          "vi": "JIS X 0170 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。この規格は、企業間やシステム間での情報のやり取りを円滑にするために設けられており、共通のルールや手法を提供することで、効率を向上させる役割を果たす。例えば、調達や請求書の発行といった取引プロセスに関する具体的なフォーマットや手順が定められており、これにより異なるシステムを使用している企業間でもスムーズな連携が可能となる。このように、JIS X 0170はビジネスのデジタル化を促進し、業務を最適化するために非常に重要な規格である。",
+          "vi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288."
+        },
+        {
+          "type": "point",
+          "ja": "原文は取引帳票の標準化として説明していますが、JIS X 0170の中心はシステムライフサイクルプロセスです。 試験対策：JIS X 0170と関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: Nguồn mô tả nhầm sang định dạng hóa đơn và giao dịch; cần nhớ trọng tâm là vòng đời hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS X 0170",
+          "english": "JIS X 0170",
+          "vi": "JIS X 0170",
+          "definitionJa": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。",
+          "definitionVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288.",
+          "reading": "じすえっくす0170"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-x-0170"]
+    },
+    {
+      "id": "iso-14000",
+      "order": 20,
+      "titleJa": "ISO 14000",
+      "titleVi": "Bộ tiêu chuẩn ISO 14000",
+      "importance": "high",
+      "summaryJa": "環境マネジメントのための国際的な標準規格群である。",
+      "summaryVi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISO 14000とは",
+          "vi": "Bộ tiêu chuẩn ISO 14000 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "環境マネジメントのための国際的な標準規格群である。このシリーズは、環境に配慮した企業活動を推進するために策定されたもので、企業が環境保護に積極的に取り組むことを促すことを目的としている。例えば、ISO 14001は、環境マネジメントシステムの要件を示しており、企業が持続可能な方法で運営されるようにするためのフレームワークを提供する。これは、資源の無駄を減らし、廃棄物を管理する手助けをするため、環境への影響を最小限に抑える取り組みを求めるものである。結果として、企業の信頼性向上やコスト削減にもつながることから、ISO 14000の導入が進む背景には、環境意識の高まりがある。",
+          "vi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ISO 14000の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "ISO 14000 là họ tiêu chuẩn; ISO 14001 nêu yêu cầu hệ thống quản lý môi trường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ISO 14000",
+          "english": "ISO 14000",
+          "vi": "Bộ tiêu chuẩn ISO 14000",
+          "definitionJa": "環境マネジメントのための国際的な標準規格群である。",
+          "definitionVi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường.",
+          "reading": "あいえすおー14000"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "iso-14000"]
+    },
+    {
+      "id": "jis-q-14001",
+      "order": 21,
+      "titleJa": "JIS Q 14001",
+      "titleVi": "JIS Q 14001",
+      "importance": "high",
+      "summaryJa": "環境マネジメントシステムに関する国際規格である。",
+      "summaryVi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 14001とは",
+          "vi": "JIS Q 14001 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "環境マネジメントシステムに関する国際規格である。この規格は、組織が環境に対する影響を管理し、改善するためのフレームワークを提供する。具体的には、組織が自らの環境方針を定め、目標を設定し、それを実行するための手順や評価方法を規定している。例えば、企業が廃棄物の削減やエネルギーの効率的な使用を目指す場合、この規格に基づいてシステムを構築することで、環境負荷を低減し、持続可能な運営が可能になる。また、JIS Q 14001は国際的にも認知されており、環境への配慮を示す手段として企業の信頼性を向上させる効果がある。",
+          "vi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JIS Q 14001の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Phân biệt ISO 14000 (họ tiêu chuẩn) với JIS Q 14001 (tiêu chuẩn yêu cầu cụ thể)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 14001",
+          "english": "JIS Q 14001",
+          "vi": "JIS Q 14001",
+          "definitionJa": "環境マネジメントシステムに関する国際規格である。",
+          "definitionVi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001.",
+          "reading": "じすきゅー14001"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-q-14001"]
+    },
+    {
+      "id": "iso-iec-15408",
+      "order": 22,
+      "titleJa": "ISO/IEC15408",
+      "titleVi": "ISO/IEC 15408",
+      "importance": "high",
+      "summaryJa": "情報技術におけるセキュリティ評価のための国際標準である。",
+      "summaryVi": "Tiêu chuẩn quốc tế Common Criteria dùng đánh giá an toàn bảo mật sản phẩm và hệ thống CNTT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISO/IEC15408とは",
+          "vi": "ISO/IEC 15408 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術におけるセキュリティ評価のための国際標準である。この標準は、コンピュータシステムやソフトウェアのセキュリティ機能やその評価方法を定めている。具体的には、製品がどの程度のセキュリティを提供するかを明確に評価するための枠組みを提供する。たとえば、金融機関のシステムが、顧客情報を安全に保護できるかどうかを測定する際に、この標準が参考にされる。ISO/IEC 15408を使用することで、企業や組織は製品のセキュリティに妥当性をもたせることができ、利用者に対して信頼性を示す手段となる。",
+          "vi": "Tiêu chuẩn quốc tế Common Criteria dùng đánh giá an toàn bảo mật sản phẩm và hệ thống CNTT."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ISO/IEC15408の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Nhớ Common Criteria và Security Target; không nhầm ISO/IEC 27001 về hệ thống quản lý an toàn thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ISO/IEC15408",
+          "english": "ISO/IEC 15408",
+          "vi": "ISO/IEC 15408",
+          "definitionJa": "情報技術におけるセキュリティ評価のための国際標準である。",
+          "definitionVi": "Tiêu chuẩn quốc tế Common Criteria dùng đánh giá an toàn bảo mật sản phẩm và hệ thống CNTT.",
+          "reading": "あいえすおー/あいいーしー15408"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "iso-iec-15408"]
+    },
+    {
+      "id": "corba",
+      "order": 23,
+      "titleJa": "CORBA",
+      "titleVi": "Kiến trúc môi giới yêu cầu đối tượng chung",
+      "importance": "medium",
+      "summaryJa": "異なるプログラムやコンピュータが相互に通信し、データをやり取りするための標準技術である。",
+      "summaryVi": "Chuẩn phần mềm trung gian cho phép các đối tượng phân tán gọi nhau qua các ngôn ngữ và nền tảng khác nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CORBAとは",
+          "vi": "Kiến trúc môi giới yêu cầu đối tượng chung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるプログラムやコンピュータが相互に通信し、データをやり取りするための標準技術である。この技術を利用すると、異なる言語やプラットフォームで作成されたソフトウェア間の相互運用性が向上する。例えば、Javaで書かれたアプリケーションがC++で書かれたサービスにアクセスすることが可能となる。リモートオブジェクトという概念を用い、呼び出しを行うことで他のコンピュータ上のオブジェクトにアクセスできる。このため、企業のシステム統合やマルチプラットフォーム環境での開発において、効率的な連携を実現する手助けとなっている。",
+          "vi": "Chuẩn phần mềm trung gian cho phép các đối tượng phân tán gọi nhau qua các ngôn ngữ và nền tảng khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：CORBAの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "CORBA gắn với ORB; OMG là tổ chức xây dựng CORBA và UML."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CORBA",
+          "english": "Common Object Request Broker Architecture",
+          "vi": "Kiến trúc môi giới yêu cầu đối tượng chung",
+          "definitionJa": "異なるプログラムやコンピュータが相互に通信し、データをやり取りするための標準技術である。",
+          "definitionVi": "Chuẩn phần mềm trung gian cho phép các đối tượng phân tán gọi nhau qua các ngôn ngữ và nền tảng khác nhau.",
+          "reading": "こるば"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "corba"]
+    },
+    {
+      "id": "omg",
+      "order": 24,
+      "titleJa": "OMG",
+      "titleVi": "Nhóm Quản lý Đối tượng",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発や情報システムの分野において、標準化された技術やプロセスを策定する組織である。",
+      "summaryVi": "Liên minh xây dựng tiêu chuẩn mô hình hóa và tương tác phần mềm, nổi bật UML và CORBA.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OMGとは",
+          "vi": "Nhóm Quản lý Đối tượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発や情報システムの分野において、標準化された技術やプロセスを策定する組織である。主に、異なるシステムやプラットフォーム間での相互運用性を確保するための仕様を提供することを目的としている。例えば、OMGが策定したUnified Modeling Language（UML）は、ソフトウェアの設計や開発プロセスを視覚的に表現するために広く使用されている。このような標準化により、開発者は異なる技術や言語の枠を超えて、より効率的に協力しながらプロジェクトを進めることができる。業界全体における認知度が高く、デファクトスタンダードとしての役割を果たしている。",
+          "vi": "Liên minh xây dựng tiêu chuẩn mô hình hóa và tương tác phần mềm, nổi bật UML và CORBA."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：OMGの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "OMG là tổ chức; UML là ngôn ngữ mô hình hóa; CORBA là kiến trúc phân tán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OMG",
+          "english": "Object Management Group",
+          "vi": "Nhóm Quản lý Đối tượng",
+          "definitionJa": "ソフトウェア開発や情報システムの分野において、標準化された技術やプロセスを策定する組織である。",
+          "definitionVi": "Liên minh xây dựng tiêu chuẩn mô hình hóa và tương tác phần mềm, nổi bật UML và CORBA.",
+          "reading": "おーえむじー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "omg"]
+    },
+    {
+      "id": "ejb",
+      "order": 25,
+      "titleJa": "EJB",
+      "titleVi": "Enterprise JavaBeans",
+      "importance": "medium",
+      "summaryJa": "Javaプラットフォーム上で企業向けのビジネスロジックを実装するためのコンポーネントモデルである。",
+      "summaryVi": "Mô hình thành phần Java phía máy chủ phục vụ logic nghiệp vụ với hỗ trợ giao dịch và bảo mật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "EJBとは",
+          "vi": "Enterprise JavaBeans là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Javaプラットフォーム上で企業向けのビジネスロジックを実装するためのコンポーネントモデルである。この技術を使用することで、開発者はトランザクション管理やセキュリティ、スケーラビリティなどの複雑な処理を簡潔に実装できる。特に大規模なビジネスアプリケーションにおいて、コードの再利用性や保守性を高めるための手段として重宝される。例えば、オンラインバンキングシステムにおいて、ユーザーの取引処理をEJBで行うことで、効率的にビジネスロジックを管理できる。また、EJBは多くのJavaサーバアプリケーションでサポートされており、標準化された実装により異なる環境でも一貫性を持たせることが可能である。",
+          "vi": "Mô hình thành phần Java phía máy chủ phục vụ logic nghiệp vụ với hỗ trợ giao dịch và bảo mật."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：EJBの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "EJB thuộc Java doanh nghiệp; không phải ngôn ngữ lập trình riêng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "EJB",
+          "english": "Enterprise JavaBeans",
+          "vi": "Enterprise JavaBeans",
+          "definitionJa": "Javaプラットフォーム上で企業向けのビジネスロジックを実装するためのコンポーネントモデルである。",
+          "definitionVi": "Mô hình thành phần Java phía máy chủ phục vụ logic nghiệp vụ với hỗ trợ giao dịch và bảo mật.",
+          "reading": "いーじぇいびー"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "ejb"]
+    },
+    {
+      "id": "character-encoding",
+      "order": 26,
+      "titleJa": "文字コード",
+      "titleVi": "Mã hóa ký tự",
+      "importance": "high",
+      "summaryJa": "コンピュータが文字を扱うためのルールであり、特定の文字に対して数値を割り当てる方式である。",
+      "summaryVi": "Quy tắc biểu diễn ký tự bằng mã số và/hoặc chuỗi byte để lưu trữ, truyền dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "文字コードとは",
+          "vi": "Mã hóa ký tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータが文字を扱うためのルールであり、特定の文字に対して数値を割り当てる方式である。これにより、文字をデジタルデータとして表現し、保存や送信が可能となる。例えば、ASCIIコードでは英字や数字がそれぞれの数値に対応しているが、UTF-8のような多様な文字を扱える形式も存在する。異なるプラットフォーム間でのデータの互換性を保つために重要であり、特にWebサイトやソフトウェア開発においては、正確に表示されることが求められる。文字コードの選択を誤ると、表示の乱れやデータの破損が引き起こされるため、適切な理解と使用が必要である。",
+          "vi": "Quy tắc biểu diễn ký tự bằng mã số và/hoặc chuỗi byte để lưu trữ, truyền dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：文字コードの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Phân biệt tập ký tự/mã điểm với cách mã hóa byte như UTF-8, UTF-16."
+        }
+      ],
+      "terms": [
+        {
+          "term": "文字コード",
+          "english": "Character Encoding",
+          "vi": "Mã hóa ký tự",
+          "definitionJa": "コンピュータが文字を扱うためのルールであり、特定の文字に対して数値を割り当てる方式である。",
+          "definitionVi": "Quy tắc biểu diễn ký tự bằng mã số và/hoặc chuỗi byte để lưu trữ, truyền dữ liệu.",
+          "reading": "もじこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "character-encoding"]
+    },
+    {
+      "id": "jis-code",
+      "order": 27,
+      "titleJa": "JISコード",
+      "titleVi": "Mã ký tự JIS",
+      "importance": "medium",
+      "summaryJa": "日本で使われる文字をコンピュータで扱うための標準的な符号化方式である。",
+      "summaryVi": "Các chuẩn ký tự Nhật Bản thuộc hệ JIS dùng biểu diễn và trao đổi chữ Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JISコードとは",
+          "vi": "Mã ký tự JIS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本で使われる文字をコンピュータで扱うための標準的な符号化方式である。このコードは、ひらがな、カタカナ、漢字、英数字など、さまざまな文字を一意に識別し、コンピュータ間でのデータのやり取りを可能にする。例えば、ある文書の中に含まれる日本語の文字を正しく表示するためには、JISコードを用いて各文字に対応する番号を振ることが必要である。これにより、異なる環境やソフトウェアでも文字化けを防ぎ、正確に情報を伝えられる。日本国内だけでなく、国際的な情報交換の基盤としても重要な役割を果たしている。",
+          "vi": "Các chuẩn ký tự Nhật Bản thuộc hệ JIS dùng biểu diễn và trao đổi chữ Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：JISコードの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "JIS X 0208 là bộ ký tự Nhật; ISO-2022-JP là một cách mã hóa liên quan, không đồng nhất mọi thứ gọi là JIS."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JISコード",
+          "english": "Japanese Industrial Standards Code",
+          "vi": "Mã ký tự JIS",
+          "definitionJa": "日本で使われる文字をコンピュータで扱うための標準的な符号化方式である。",
+          "definitionVi": "Các chuẩn ký tự Nhật Bản thuộc hệ JIS dùng biểu diễn và trao đổi chữ Nhật.",
+          "reading": "じすこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jis-code"]
+    },
+    {
+      "id": "unicode",
+      "order": 28,
+      "titleJa": "Unicode",
+      "titleVi": "Unicode",
+      "importance": "high",
+      "summaryJa": "世界中の文字を統一的に表現するための文字コードの標準である。",
+      "summaryVi": "Tiêu chuẩn mã hóa ký tự thống nhất với mã điểm cho nhiều hệ chữ trên thế giới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Unicodeとは",
+          "vi": "Unicode là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "世界中の文字を統一的に表現するための文字コードの標準である。これにより、異なる言語や文字体系を持つテキストを一つのフォーマットで扱うことができる。例えば、英語のアルファベット、漢字、アラビア文字といった様々な言語の文字が、この標準に従って一貫性を持って管理されている。これにより、異なる言語を使用するアプリケーションでも、データのやり取りが正しく行えるようになる。テキストの国際化や多言語対応に欠かせない要素であり、特にインターネット上での情報共有において、その重要性が高まっている。",
+          "vi": "Tiêu chuẩn mã hóa ký tự thống nhất với mã điểm cho nhiều hệ chữ trên thế giới."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：Unicodeの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Unicode là chuẩn mã điểm; UTF-8 và UTF-16 là các dạng mã hóa Unicode."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Unicode",
+          "english": "Unicode",
+          "vi": "Unicode",
+          "definitionJa": "世界中の文字を統一的に表現するための文字コードの標準である。",
+          "definitionVi": "Tiêu chuẩn mã hóa ký tự thống nhất với mã điểm cho nhiều hệ chữ trên thế giới.",
+          "reading": "ゆにこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "unicode"]
+    },
+    {
+      "id": "jan-code",
+      "order": 29,
+      "titleJa": "JANコード",
+      "titleVi": "Mã số hàng hóa Nhật Bản",
+      "importance": "high",
+      "summaryJa": "日本で使用される商品識別のためのバーコードシステムである。",
+      "summaryVi": "Mã định danh sản phẩm theo hệ GS1 dùng trên mã vạch hàng hóa bán lẻ tại Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JANコードとは",
+          "vi": "Mã số hàng hóa Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本で使用される商品識別のためのバーコードシステムである。このコードは、商品に付与される12桁または13桁の数字からなり、各商品を一意に識別する役割を果たす。例えば、スーパーマーケットで商品をバーコードリーダーでスキャンする際、このJANコードを用いることで、販売価格や在庫管理がスムーズに行える。JANコードは国際的にもGS1システムの一部として広く利用され、商品の貿易や流通において不可欠なツールとされている。これにより、小売業者や製造業者は効率的な在庫管理や売上分析が可能になる。",
+          "vi": "Mã định danh sản phẩm theo hệ GS1 dùng trên mã vạch hàng hóa bán lẻ tại Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "原文のJANコード「12桁または13桁」は不正確です。JANには標準13桁と短縮8桁があります。 試験対策：JANコードと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: JAN phổ biến loại 13 chữ số và loại rút gọn 8 chữ số; nguồn ghi 12 hoặc 13 là không chuẩn cho phân loại JAN."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JANコード",
+          "english": "Japanese Article Number Code",
+          "vi": "Mã số hàng hóa Nhật Bản",
+          "definitionJa": "日本で使用される商品識別のためのバーコードシステムである。",
+          "definitionVi": "Mã định danh sản phẩm theo hệ GS1 dùng trên mã vạch hàng hóa bán lẻ tại Nhật.",
+          "reading": "じゃんこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "jan-code"]
+    },
+    {
+      "id": "qr-code",
+      "order": 30,
+      "titleJa": "QRコード",
+      "titleVi": "Mã QR",
+      "importance": "high",
+      "summaryJa": "情報を二次元のパターンで表現するコードの一種である。",
+      "summaryVi": "Mã hai chiều lưu dữ liệu bằng các ô vuông, đọc nhanh bằng camera hoặc máy quét.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "QRコードとは",
+          "vi": "Mã QR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を二次元のパターンで表現するコードの一種である。このコードは、スマートフォンや専用の読み取り機によって簡単にスキャンすることができ、リンクやテキスト情報を一瞬で取得できる便利な形式である。商品に付けられたラベル、広告、名刺など、様々な場面で利用されており、特にモバイル決済やイベントの参加登録など、即時に情報をやり取りする際に重宝されている。さらに、多くの情報をコンパクトに表現できるため、情報の管理や共有を効率化する手段としても広く用いられている。",
+          "vi": "Mã hai chiều lưu dữ liệu bằng các ô vuông, đọc nhanh bằng camera hoặc máy quét."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：QRコードの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "QR là mã 2D; JAN và ITF là mã vạch một chiều."
+        }
+      ],
+      "terms": [
+        {
+          "term": "QRコード",
+          "english": "Quick Response Code",
+          "vi": "Mã QR",
+          "definitionJa": "情報を二次元のパターンで表現するコードの一種である。",
+          "definitionVi": "Mã hai chiều lưu dữ liệu bằng các ô vuông, đọc nhanh bằng camera hoặc máy quét.",
+          "reading": "きゅーあーるこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "qr-code"]
+    },
+    {
+      "id": "itf-code",
+      "order": 31,
+      "titleJa": "ITFコード",
+      "titleVi": "Mã vạch ITF",
+      "importance": "high",
+      "summaryJa": "国際間で商品やデータを標準化するためのコードである。",
+      "summaryVi": "Mã vạch một chiều Interleaved 2 of 5 thường dùng trên thùng hàng, bao bì vận chuyển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITFコードとは",
+          "vi": "Mã vạch ITF là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "国際間で商品やデータを標準化するためのコードである。主に物流や貿易の分野で使用されるこのコードは、商品の識別を容易にし、交換情報を正確に管理する役割を担っている。たとえば、商品にICタグを付けることで、バーコードスキャナーを使って迅速に読み取ることができる。これにより、商品がどこにあるのか、どのくらいの数量があるのかをリアルタイムで把握でき、物流の効率化が図られる。また、ITFコードは国際交易においても重要な役割を果たし、異なる国や地域の間で情報の一貫性を持たせるために活用されている。",
+          "vi": "Mã vạch một chiều Interleaved 2 of 5 thường dùng trên thùng hàng, bao bì vận chuyển."
+        },
+        {
+          "type": "point",
+          "ja": "原文のICタグの例はITFバーコードの説明として不適切です。ITFは一次元バーコードです。 試験対策：ITFコードと関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: ITF-14 thường mã hóa GTIN-14 trên thùng hàng; không phải thẻ IC/RFID như ví dụ nguồn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITFコード",
+          "english": "ITF Code",
+          "vi": "Mã vạch ITF",
+          "definitionJa": "国際間で商品やデータを標準化するためのコードである。",
+          "definitionVi": "Mã vạch một chiều Interleaved 2 of 5 thường dùng trên thùng hàng, bao bì vận chuyển.",
+          "reading": "あいてぃーえふこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "itf-code"]
+    },
+    {
+      "id": "isbn-code",
+      "order": 32,
+      "titleJa": "ISBNコード",
+      "titleVi": "Mã số sách tiêu chuẩn quốc tế",
+      "importance": "high",
+      "summaryJa": "書籍を特定するための国際標準の番号体系である。",
+      "summaryVi": "Mã định danh quốc tế cho từng ấn phẩm hoặc phiên bản sách, dùng trong xuất bản và phân phối.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ISBNコードとは",
+          "vi": "Mã số sách tiêu chuẩn quốc tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "書籍を特定するための国際標準の番号体系である。このコードは、各書籍に固有の番号を付与することで、書名や著者、出版社などを関係なく識別できるようにする。通常、ISBNコードは10桁または13桁の数字で構成されており、図書館や書店が書籍を効率的に管理する際に非常に重要な役割を果たす。例えば、特定の書籍を探す際、ISBNコードを使用することで、簡単にその書籍の詳細を見つけることができる。このように、ISBNコードは書籍流通の際のデータ標準として広く用いられている。",
+          "vi": "Mã định danh quốc tế cho từng ấn phẩm hoặc phiên bản sách, dùng trong xuất bản và phân phối."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：ISBNコードの役割と関連する標準・団体との違いを押さえる。",
+          "vi": "ISBN hiện dùng 13 chữ số; trước năm 2007 còn có dạng 10 chữ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ISBNコード",
+          "english": "International Standard Book Number",
+          "vi": "Mã số sách tiêu chuẩn quốc tế",
+          "definitionJa": "書籍を特定するための国際標準の番号体系である。",
+          "definitionVi": "Mã định danh quốc tế cho từng ấn phẩm hoặc phiên bản sách, dùng trong xuất bản và phân phối.",
+          "reading": "あいえすびーえぬこーど"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "isbn-code"]
+    },
+    {
+      "id": "conformity-assessment",
+      "order": 33,
+      "titleJa": "適合性評価",
+      "titleVi": "Đánh giá sự phù hợp",
+      "importance": "high",
+      "summaryJa": "製品やサービスが特定の基準や規格に合致しているかどうかを確認するプロセスである。",
+      "summaryVi": "Hoạt động xác định sản phẩm, quy trình, dịch vụ hoặc tổ chức có đáp ứng yêu cầu quy định hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "適合性評価とは",
+          "vi": "Đánh giá sự phù hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが特定の基準や規格に合致しているかどうかを確認するプロセスである。これは国際的な認証の枠組みの中で重要な役割を果たし、製品が安全で信頼性のあるものであることを保証する。例えば、製品が耐久性や性能に関する基準に適合しているかを評価することで、消費者が安心して使用できるようにする。品質管理とともに国際貿易や市場アクセスの促進にも寄与し、グローバルなビジネス環境での信頼構築につながる。",
+          "vi": "Hoạt động xác định sản phẩm, quy trình, dịch vụ hoặc tổ chức có đáp ứng yêu cầu quy định hay không."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：適合性評価の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Đánh giá phù hợp gồm thử nghiệm, kiểm tra, chứng nhận; không đồng nghĩa riêng với chứng nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "適合性評価",
+          "english": "Conformity Assessment",
+          "vi": "Đánh giá sự phù hợp",
+          "definitionJa": "製品やサービスが特定の基準や規格に合致しているかどうかを確認するプロセスである。",
+          "definitionVi": "Hoạt động xác định sản phẩm, quy trình, dịch vụ hoặc tổ chức có đáp ứng yêu cầu quy định hay không.",
+          "reading": "てきごうせいひょうか"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "conformity-assessment"]
+    },
+    {
+      "id": "conformity-assessment-body",
+      "order": 34,
+      "titleJa": "適合性評価機関",
+      "titleVi": "Tổ chức đánh giá sự phù hợp",
+      "importance": "high",
+      "summaryJa": "製品やサービスが特定の基準や規格に適合しているかどうかを評価するための組織である。",
+      "summaryVi": "Tổ chức thực hiện một hoặc nhiều hoạt động đánh giá phù hợp như thử nghiệm, giám định, chứng nhận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "適合性評価機関とは",
+          "vi": "Tổ chức đánh giá sự phù hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスが特定の基準や規格に適合しているかどうかを評価するための組織である。これらの機関は、第三者として独立した立場から評価を行い、その結果を基に認証を与えることができる。例えば、安全性や品質に関する国際規格に基づいて、製品がその基準を満たしているかを判定する役割を担っている。適合性評価機関の存在により、消費者や企業はお互いの信頼を確立し、グローバルな市場でも安心して取引できる環境が整えられる。これは、国際認証の枠組みを支える重要な要素であり、製品の信頼性を高めるために不可欠である。",
+          "vi": "Tổ chức thực hiện một hoặc nhiều hoạt động đánh giá phù hợp như thử nghiệm, giám định, chứng nhận."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：適合性評価機関の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "CAB là khái niệm rộng, bao gồm phòng thử nghiệm và tổ chức chứng nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "適合性評価機関",
+          "english": "Conformity Assessment Body",
+          "vi": "Tổ chức đánh giá sự phù hợp",
+          "definitionJa": "製品やサービスが特定の基準や規格に適合しているかどうかを評価するための組織である。",
+          "definitionVi": "Tổ chức thực hiện một hoặc nhiều hoạt động đánh giá phù hợp như thử nghiệm, giám định, chứng nhận.",
+          "reading": "てきごうせいひょうかきかん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "conformity-assessment-body"]
+    },
+    {
+      "id": "accreditation-body",
+      "order": 35,
+      "titleJa": "認定機関",
+      "titleVi": "Tổ chức công nhận",
+      "importance": "high",
+      "summaryJa": "特定の基準や要求事項に基づいて、他の組織や機関の適合性を評価し、認証を行う機関である。",
+      "summaryVi": "Tổ chức đánh giá năng lực và công nhận các tổ chức đánh giá sự phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "認定機関とは",
+          "vi": "Tổ chức công nhận là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の基準や要求事項に基づいて、他の組織や機関の適合性を評価し、認証を行う機関である。この機関は、その認証が国際的にも通用するよう、国や地域の基準に準拠していることが求められる。例えば、製品やサービスの品質が求められる場合、認定機関が行う評価に基づいて認証を受けた組織は、消費者に対してその信頼性を示すことができる。こうした認証は、国際的な取引や業務の場面でも特に重要であり、各国の規制や市場の要件を満たすために、多くの企業が認定機関の認証を取得しようと努める。",
+          "vi": "Tổ chức đánh giá năng lực và công nhận các tổ chức đánh giá sự phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "FE試験対策：認定機関の役割と関連する標準・団体との違いを押さえる。",
+          "vi": "Accreditation (認定) đánh giá năng lực tổ chức chứng nhận; Certification (認証) xác nhận đối tượng đáp ứng tiêu chuẩn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "認定機関",
+          "english": "Accreditation Body",
+          "vi": "Tổ chức công nhận",
+          "definitionJa": "特定の基準や要求事項に基づいて、他の組織や機関の適合性を評価し、認証を行う機関である。",
+          "definitionVi": "Tổ chức đánh giá năng lực và công nhận các tổ chức đánh giá sự phù hợp.",
+          "reading": "にんていきかん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "accreditation-body"]
+    },
+    {
+      "id": "certification-body",
+      "order": 36,
+      "titleJa": "認証機関",
+      "titleVi": "Tổ chức chứng nhận",
+      "importance": "high",
+      "summaryJa": "デジタル証明書を発行し、その信頼性を保証する機関である。",
+      "summaryVi": "Tổ chức xác nhận sản phẩm, hệ thống quản lý hoặc đối tượng đáp ứng tiêu chuẩn quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "認証機関とは",
+          "vi": "Tổ chức chứng nhận là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "デジタル証明書を発行し、その信頼性を保証する機関である。これは、インターネット上での安全な通信を実現するために重要な役割を果たしている。例えば、WebサイトがSSL証明書を取得することで、ユーザーがそのサイトと安全にデータや情報をやり取りできるようになる。ドメイン名と所有者の関係を確認し、その結果に基づいて証明書を発行する。その証明書はWebサイト訪問者に対して、そのサイトが本物であることを確認する手助けをするため、安心感を提供する。このように、認証機関はインターネットの信頼性を支える重要な存在である。",
+          "vi": "Tổ chức xác nhận sản phẩm, hệ thống quản lý hoặc đối tượng đáp ứng tiêu chuẩn quy định."
+        },
+        {
+          "type": "point",
+          "ja": "原文は電子証明書を発行する認証局（CA）を説明していますが、適合性評価における認証機関はCertification Bodyです。 試験対策：認証機関と関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: Nguồn nhầm với CA phát hành chứng thư số; trong ngữ cảnh đánh giá phù hợp, 認証機関 là certification body."
+        }
+      ],
+      "terms": [
+        {
+          "term": "認証機関",
+          "english": "Certification Authority",
+          "vi": "Tổ chức chứng nhận",
+          "definitionJa": "デジタル証明書を発行し、その信頼性を保証する機関である。",
+          "definitionVi": "Tổ chức xác nhận sản phẩm, hệ thống quản lý hoặc đối tượng đáp ứng tiêu chuẩn quy định.",
+          "reading": "にんしょうきかん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "certification-body"]
+    },
+    {
+      "id": "testing-laboratory",
+      "order": 37,
+      "titleJa": "試験機関",
+      "titleVi": "Phòng thử nghiệm",
+      "importance": "high",
+      "summaryJa": "特定の基準や規格に基づいて試験を実施し、合格者に認定証を発行する機関である。",
+      "summaryVi": "Tổ chức thực hiện phép thử và cung cấp kết quả thử nghiệm theo phương pháp, tiêu chuẩn xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "試験機関とは",
+          "vi": "Phòng thử nghiệm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の基準や規格に基づいて試験を実施し、合格者に認定証を発行する機関である。これにより、国際的な認証を受けることができ、個人や企業の信頼性を高める役割を果たす。例えば、ある技術者が特定の技能や知識を有することを証明するために、試験機関が実施する試験に合格することで、その資格が国際的に認められることとなる。なお、試験機関はそれぞれ認定する分野が異なり、教育機関や業界団体と連携して基準の設定や試験の実施を行うことが多い。これにより、世界中で統一された水準の認証が提供されることになる。",
+          "vi": "Tổ chức thực hiện phép thử và cung cấp kết quả thử nghiệm theo phương pháp, tiêu chuẩn xác định."
+        },
+        {
+          "type": "point",
+          "ja": "原文は資格認定を中心に説明していますが、適合性評価における試験機関は試験・測定を行う機関です。 試験対策：試験機関と関連規格・機関の役割を区別する。",
+          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: 試験機関 là testing laboratory; khác 認証機関 cấp chứng nhận và 認定機関 công nhận năng lực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "試験機関",
+          "english": "Certification Body",
+          "vi": "Phòng thử nghiệm",
+          "definitionJa": "特定の基準や規格に基づいて試験を実施し、合格者に認定証を発行する機関である。",
+          "definitionVi": "Tổ chức thực hiện phép thử và cung cấp kết quả thử nghiệm theo phương pháp, tiêu chuẩn xác định.",
+          "reading": "しけんきかん"
+        }
+      ],
+      "tags": ["legal-affairs", "standardization", "testing-laboratory"]
+    }
+  ]
 }

@@ -4,5 +4,1731 @@
   "titleJa": "労働関連・取引関連法規",
   "titleVi": "Pháp luật lao động và giao dịch",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "36-agreement",
+      "order": 1,
+      "titleJa": "36協定",
+      "titleVi": "Thỏa thuận 36 về làm thêm giờ",
+      "importance": "high",
+      "summaryJa": "労働基準法に基づく、労働時間や残業に関する取り決めである。",
+      "summaryVi": "Thỏa thuận lao động cho phép làm thêm ngoài giờ luật định, trong giới hạn pháp luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "36協定とは",
+          "vi": "Thỏa thuận 36 về làm thêm giờ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働基準法に基づく、労働時間や残業に関する取り決めである。この協定は、労働者が法定労働時間を超えて働く場合に必要で、使用者と労働組合が合意することで成立する。例えば、企業では特定の業務が忙しい時期に、法定の労働時間を超えて労働させる必要がある場合、この36協定を締結することで、残業を行うことが合法となる。協定内容には、残業の上限時間や割増賃金の取り決めが含まれることが多く、労働者の働き方や健康を守るための重要な制度となっている。これにより、働く人々が適切に働ける環境を整えることが目的とされている。",
+          "vi": "Thỏa thuận lao động cho phép làm thêm ngoài giờ luật định, trong giới hạn pháp luật."
+        },
+        {
+          "type": "point",
+          "ja": "36協定は過半数労働組合または過半数代表者との締結と届出が必要。締結だけで無制限の残業が認められるわけではない。",
+          "vi": "Cần ký với công đoàn đại diện đa số hoặc người đại diện đa số và nộp thông báo; không cho phép tăng ca vô hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "36協定",
+          "english": "36 Agreement",
+          "vi": "Thỏa thuận 36 về làm thêm giờ",
+          "definitionJa": "労働基準法に基づく、労働時間や残業に関する取り決めである。この協定は、労働者が法定労働時間を超えて働く場合に必要で、使用者と労働組合が合意することで成立する。例えば、企業では特定の業務が忙しい時期に、法定の労働時間を超えて労働させる必要がある場合、この36協定を締結することで、残業を行うことが合法となる。協定内容には、残業の上限時間や割増賃金の取り決めが含まれることが多く、労働者の働き方や健康を守るための重要な制度となっている。これにより、働く人々が適切に働ける環境を整えることが目的とされている。",
+          "definitionVi": "Thỏa thuận lao động cho phép làm thêm ngoài giờ luật định, trong giới hạn pháp luật.",
+          "reading": "さぶろくきょうてい"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "36-agreement"]
+    },
+    {
+      "id": "discretionary-labor",
+      "order": 2,
+      "titleJa": "裁量労働制",
+      "titleVi": "Chế độ lao động tự chủ",
+      "importance": "high",
+      "summaryJa": "労働者が自分の裁量で働く時間や方法を選べる制度である。",
+      "summaryVi": "Cơ chế coi số giờ lao động theo mức quy định trước đối với công việc đủ điều kiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "裁量労働制とは",
+          "vi": "Chế độ lao động tự chủ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者が自分の裁量で働く時間や方法を選べる制度である。この制度では、働いた時間に関係なく、業務の成果で評価されるため、自己管理が求められる。たとえば、クリエイティブな職業や研究職に多く見られ、プロジェクトの進捗を自分のペースで進めることが可能になる。この制度は、労働者の多様な働き方を尊重し、柔軟性を持たせることを目的としているが、一方で、労働時間の長時間化や労働条件の不透明感が問題視されることもある。そのため、適切な運用が求められており、企業は労働者が健康的に働ける環境を整える必要がある。",
+          "vi": "Cơ chế coi số giờ lao động theo mức quy định trước đối với công việc đủ điều kiện."
+        },
+        {
+          "type": "point",
+          "ja": "裁量労働制は対象業務と法定手続が限定され、実労働時間と無関係に賃金や健康管理の義務がなくなる制度ではない。",
+          "vi": "Giờ làm được tính theo giờ thỏa thuận; không đồng nghĩa chỉ đánh giá theo kết quả hay bỏ nghĩa vụ bảo vệ sức khỏe."
+        }
+      ],
+      "terms": [
+        {
+          "term": "裁量労働制",
+          "english": "Discretionary Labor System",
+          "vi": "Chế độ lao động tự chủ",
+          "definitionJa": "労働者が自分の裁量で働く時間や方法を選べる制度である。この制度では、働いた時間に関係なく、業務の成果で評価されるため、自己管理が求められる。たとえば、クリエイティブな職業や研究職に多く見られ、プロジェクトの進捗を自分のペースで進めることが可能になる。この制度は、労働者の多様な働き方を尊重し、柔軟性を持たせることを目的としているが、一方で、労働時間の長時間化や労働条件の不透明感が問題視されることもある。そのため、適切な運用が求められており、企業は労働者が健康的に働ける環境を整える必要がある。",
+          "definitionVi": "Cơ chế coi số giờ lao động theo mức quy định trước đối với công việc đủ điều kiện.",
+          "reading": "さいりょうろうどうせい"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "discretionary-labor"]
+    },
+    {
+      "id": "flextime",
+      "order": 3,
+      "titleJa": "フレックスタイム制",
+      "titleVi": "Chế độ giờ làm linh hoạt",
+      "importance": "high",
+      "summaryJa": "労働者が働く時間を自分で選択できる制度である。",
+      "summaryVi": "Người lao động chủ động thời điểm bắt đầu và kết thúc, theo tổng giờ trong kỳ quyết toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フレックスタイム制とは",
+          "vi": "Chế độ giờ làm linh hoạt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者が働く時間を自分で選択できる制度である。この制度では、労働者は始業と終業の時間を自由に設定し、所定の労働時間を満たすことが求められる。たとえば、ある労働者は朝8時から始業し、午後4時に仕事を終えることができる一方、別の労働者は朝10時から仕事を始めて午後6時まで働くことも可能である。この制度の利点は、労働者のライフスタイルや家庭の事情に応じて働く時間を調整できることであり、モチベーションや生産性の向上が期待される。また、企業側も従業員の多様なニーズに応えることができるため、労働環境の改善につながる。柔軟な働き方を促進する現代の雇用形態の一つである。",
+          "vi": "Người lao động chủ động thời điểm bắt đầu và kết thúc, theo tổng giờ trong kỳ quyết toán."
+        },
+        {
+          "type": "point",
+          "ja": "フレックスタイム制は清算期間の総労働時間で管理する。裁量労働制の「みなし労働時間」と区別する。",
+          "vi": "Phân biệt flexitime quản lý tổng giờ với chế độ lao động tự chủ tính giờ quy ước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フレックスタイム制",
+          "english": "Flexible Working Hours System",
+          "vi": "Chế độ giờ làm linh hoạt",
+          "definitionJa": "労働者が働く時間を自分で選択できる制度である。この制度では、労働者は始業と終業の時間を自由に設定し、所定の労働時間を満たすことが求められる。たとえば、ある労働者は朝8時から始業し、午後4時に仕事を終えることができる一方、別の労働者は朝10時から仕事を始めて午後6時まで働くことも可能である。この制度の利点は、労働者のライフスタイルや家庭の事情に応じて働く時間を調整できることであり、モチベーションや生産性の向上が期待される。また、企業側も従業員の多様なニーズに応えることができるため、労働環境の改善につながる。柔軟な働き方を促進する現代の雇用形態の一つである。",
+          "definitionVi": "Người lao động chủ động thời điểm bắt đầu và kết thúc, theo tổng giờ trong kỳ quyết toán.",
+          "reading": "ふれっくすたいむせい"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "flextime"]
+    },
+    {
+      "id": "maternity-protection",
+      "order": 4,
+      "titleJa": "母性保護",
+      "titleVi": "Bảo vệ thai sản",
+      "importance": "medium",
+      "summaryJa": "妊娠中や出産後の女性の健康を守るための制度である。",
+      "summaryVi": "Các quy định bảo vệ sức khỏe người lao động khi mang thai, sinh con và sau sinh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "母性保護とは",
+          "vi": "Bảo vệ thai sản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "妊娠中や出産後の女性の健康を守るための制度である。労働基準法に基づき、妊婦や産後の女性が適切な環境で働けるように配慮されている。具体的には、妊娠中の女性には産休が与えられ、出産前後の一定期間、仕事から離れることが保障されている。その間、給付金が支給されることもあり、経済的な支援が受けられる。また、職場での過重な労働の制限や、健康診断の実施も求められ、母親と子どもの健康を第一に考えた環境づくりが重要視されている。労働者の権利を守るための根本的な制度の一つであり、安心して出産・育児ができる社会の実現に寄与している。",
+          "vi": "Các quy định bảo vệ sức khỏe người lao động khi mang thai, sinh con và sau sinh."
+        },
+        {
+          "type": "point",
+          "ja": "産前産後休業、妊産婦の時間外労働制限などを区別する。給付金は制度・要件による。",
+          "vi": "Phân biệt nghỉ trước/sau sinh, giới hạn làm thêm và các chế độ trợ cấp có điều kiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "母性保護",
+          "english": "Maternity Protection",
+          "vi": "Bảo vệ thai sản",
+          "definitionJa": "妊娠中や出産後の女性の健康を守るための制度である。労働基準法に基づき、妊婦や産後の女性が適切な環境で働けるように配慮されている。具体的には、妊娠中の女性には産休が与えられ、出産前後の一定期間、仕事から離れることが保障されている。その間、給付金が支給されることもあり、経済的な支援が受けられる。また、職場での過重な労働の制限や、健康診断の実施も求められ、母親と子どもの健康を第一に考えた環境づくりが重要視されている。労働者の権利を守るための根本的な制度の一つであり、安心して出産・育児ができる社会の実現に寄与している。",
+          "definitionVi": "Các quy định bảo vệ sức khỏe người lao động khi mang thai, sinh con và sau sinh.",
+          "reading": "ぼせいほご"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "maternity-protection"]
+    },
+    {
+      "id": "worker-dispatch-agreement",
+      "order": 5,
+      "titleJa": "労働者派遣契約",
+      "titleVi": "Hợp đồng phái cử lao động",
+      "importance": "high",
+      "summaryJa": "企業が外部の人材を一時的に雇用し、必要な業務に従事させるための契約である。",
+      "summaryVi": "Hợp đồng giữa công ty phái cử và công ty tiếp nhận nhân sự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "労働者派遣契約とは",
+          "vi": "Hợp đồng phái cử lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が外部の人材を一時的に雇用し、必要な業務に従事させるための契約である。これにより、企業は短期間で労働力を確保しやすくなる一方で、派遣された労働者は派遣先の指示に従いながら働くことになる。例えば、季節的に業務が増加する企業が、繁忙期に合わせて派遣社員を雇用するケースがある。この制度は、労働者派遣法に基づいて整理されており、労働者の権利や派遣先企業の責任が定められているため、適正に運用されることが求められている。適切な契約に基づき、派遣労働者の待遇や労働環境が保障されることが重要である。",
+          "vi": "Hợp đồng giữa công ty phái cử và công ty tiếp nhận nhân sự."
+        },
+        {
+          "type": "point",
+          "ja": "派遣契約は派遣元と派遣先の間、雇用契約は派遣元と労働者の間、指揮命令は派遣先が行う。",
+          "vi": "Ba quan hệ: hợp đồng phái cử giữa hai công ty, hợp đồng lao động với công ty phái cử, chỉ đạo từ công ty tiếp nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "労働者派遣契約",
+          "english": "Worker Dispatch Agreement",
+          "vi": "Hợp đồng phái cử lao động",
+          "definitionJa": "企業が外部の人材を一時的に雇用し、必要な業務に従事させるための契約である。これにより、企業は短期間で労働力を確保しやすくなる一方で、派遣された労働者は派遣先の指示に従いながら働くことになる。例えば、季節的に業務が増加する企業が、繁忙期に合わせて派遣社員を雇用するケースがある。この制度は、労働者派遣法に基づいて整理されており、労働者の権利や派遣先企業の責任が定められているため、適正に運用されることが求められている。適切な契約に基づき、派遣労働者の待遇や労働環境が保障されることが重要である。",
+          "definitionVi": "Hợp đồng giữa công ty phái cử và công ty tiếp nhận nhân sự.",
+          "reading": "ろうどうしゃはけんけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "worker-dispatch-agreement"]
+    },
+    {
+      "id": "employment-contract",
+      "order": 6,
+      "titleJa": "雇用契約",
+      "titleVi": "Hợp đồng lao động",
+      "importance": "medium",
+      "summaryJa": "雇用主と労働者の間で結ばれる合意であり、労働者が特定の業務を行うことに対して、雇用主が賃金を支払うことを約束するものである。",
+      "summaryVi": "Thỏa thuận người lao động cung cấp sức lao động và người sử dụng trả lương.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "雇用契約とは",
+          "vi": "Hợp đồng lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "雇用主と労働者の間で結ばれる合意であり、労働者が特定の業務を行うことに対して、雇用主が賃金を支払うことを約束するものである。この契約には、仕事の内容や給与、勤務時間、休日などの基本的な条件が記載される。例えば、派遣労働においては、派遣元会社と派遣労働者との間で雇用契約が結ばれ、その条件に基づき、労働者は派遣先企業で業務を遂行する。労働者の権利と雇用主の義務を明確にするものであり、労働条件のトラブルを避けるために重要な役割を果たす。特に労働者派遣法に基づく場合、適切な契約内容が求められるため、法律に関する理解も必要である。",
+          "vi": "Thỏa thuận người lao động cung cấp sức lao động và người sử dụng trả lương."
+        },
+        {
+          "type": "point",
+          "ja": "派遣労働者の雇用主は原則として派遣元である。",
+          "vi": "Trong phái cử, công ty phái cử mới là người sử dụng lao động theo hợp đồng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "雇用契約",
+          "english": "Employment Contract",
+          "vi": "Hợp đồng lao động",
+          "definitionJa": "雇用主と労働者の間で結ばれる合意であり、労働者が特定の業務を行うことに対して、雇用主が賃金を支払うことを約束するものである。この契約には、仕事の内容や給与、勤務時間、休日などの基本的な条件が記載される。例えば、派遣労働においては、派遣元会社と派遣労働者との間で雇用契約が結ばれ、その条件に基づき、労働者は派遣先企業で業務を遂行する。労働者の権利と雇用主の義務を明確にするものであり、労働条件のトラブルを避けるために重要な役割を果たす。特に労働者派遣法に基づく場合、適切な契約内容が求められるため、法律に関する理解も必要である。",
+          "definitionVi": "Thỏa thuận người lao động cung cấp sức lao động và người sử dụng trả lương.",
+          "reading": "こようけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "employment-contract"]
+    },
+    {
+      "id": "command-control",
+      "order": 7,
+      "titleJa": "指揮命令",
+      "titleVi": "Quyền chỉ đạo công việc",
+      "importance": "high",
+      "summaryJa": "労働者派遣法において、派遣先の企業が派遣スタッフに対して指示や命令を出すことである。",
+      "summaryVi": "Quyền đưa chỉ thị về nội dung và phương thức thực hiện công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "指揮命令とは",
+          "vi": "Quyền chỉ đạo công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者派遣法において、派遣先の企業が派遣スタッフに対して指示や命令を出すことである。具体的には、派遣社員の業務内容や手順を決定し、業務を遂行するための指導を行うことを指す。この制度の下では、派遣先が指揮命令を行うことで、派遣社員は業務に対して責任を持ち、派遣先企業の方針に従った形で活躍する。労働者派遣法はこのプロセスを明確に規定しており、指揮命令の範囲や内容についても注意が必要である。派遣社員が属する派遣会社との契約内容が遵守される限り、派遣先企業は効率的に人手を活用し、業務を円滑に進めることができる。",
+          "vi": "Quyền đưa chỉ thị về nội dung và phương thức thực hiện công việc."
+        },
+        {
+          "type": "point",
+          "ja": "派遣では派遣先が指揮命令するが、真正な請負では注文者が請負業者の労働者に直接指揮命令しない。",
+          "vi": "Phái cử: bên tiếp nhận chỉ đạo; thầu khoán thực chất: bên đặt hàng không trực tiếp chỉ đạo nhân viên nhà thầu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "指揮命令",
+          "english": "Command and Control",
+          "vi": "Quyền chỉ đạo công việc",
+          "definitionJa": "労働者派遣法において、派遣先の企業が派遣スタッフに対して指示や命令を出すことである。具体的には、派遣社員の業務内容や手順を決定し、業務を遂行するための指導を行うことを指す。この制度の下では、派遣先が指揮命令を行うことで、派遣社員は業務に対して責任を持ち、派遣先企業の方針に従った形で活躍する。労働者派遣法はこのプロセスを明確に規定しており、指揮命令の範囲や内容についても注意が必要である。派遣社員が属する派遣会社との契約内容が遵守される限り、派遣先企業は効率的に人手を活用し、業務を円滑に進めることができる。",
+          "definitionVi": "Quyền đưa chỉ thị về nội dung và phương thức thực hiện công việc.",
+          "reading": "しきめいれい"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "command-control"]
+    },
+    {
+      "id": "disguised-contracting",
+      "order": 8,
+      "titleJa": "偽装請負",
+      "titleVi": "Thầu khoán trá hình",
+      "importance": "high",
+      "summaryJa": "実際には労働者派遣に該当するにもかかわらず、請負契約の形をとることで不正に派遣労働を行うことを指す。",
+      "summaryVi": "Hợp đồng mang tên thầu khoán nhưng thực tế vận hành như phái cử lao động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "偽装請負とは",
+          "vi": "Thầu khoán trá hình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実際には労働者派遣に該当するにもかかわらず、請負契約の形をとることで不正に派遣労働を行うことを指す。これは、派遣労働が労働者派遣法に基づく規制を受けるのに対し、請負契約はその対象外となるため、不正に法律を回避する手段として用いられることがある。たとえば、ある企業が実際には自社で指揮監督を行っている労働者を請負業者を通じて雇用することで、派遣の法律に従わずに利益を上げる場合が考えられる。労働者にとって不利益をもたらす可能性が高く、適正な雇用契約や労働条件の整備が求められる重要な問題である。",
+          "vi": "Hợp đồng mang tên thầu khoán nhưng thực tế vận hành như phái cử lao động."
+        },
+        {
+          "type": "point",
+          "ja": "契約の名称ではなく実態、特に指揮命令関係で判断する。",
+          "vi": "Xét bản chất chỉ đạo lao động, không chỉ tên hợp đồng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "偽装請負",
+          "english": "Disguised Dispatch",
+          "vi": "Thầu khoán trá hình",
+          "definitionJa": "実際には労働者派遣に該当するにもかかわらず、請負契約の形をとることで不正に派遣労働を行うことを指す。これは、派遣労働が労働者派遣法に基づく規制を受けるのに対し、請負契約はその対象外となるため、不正に法律を回避する手段として用いられることがある。たとえば、ある企業が実際には自社で指揮監督を行っている労働者を請負業者を通じて雇用することで、派遣の法律に従わずに利益を上げる場合が考えられる。労働者にとって不利益をもたらす可能性が高く、適正な雇用契約や労働条件の整備が求められる重要な問題である。",
+          "definitionVi": "Hợp đồng mang tên thầu khoán nhưng thực tế vận hành như phái cử lao động.",
+          "reading": "ぎそううけおい"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "disguised-contracting"]
+    },
+    {
+      "id": "double-dispatch-ban",
+      "order": 9,
+      "titleJa": "二重派遣の禁止",
+      "titleVi": "Cấm phái cử hai tầng",
+      "importance": "high",
+      "summaryJa": "労働者派遣法において、派遣会社から派遣された労働者が、さらに他の会社に再度派遣されることを禁止するルールである。",
+      "summaryVi": "Cấm công ty nhận lao động phái cử lại đưa người đó sang công ty thứ ba theo hình thức phái cử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "二重派遣の禁止とは",
+          "vi": "Cấm phái cử hai tầng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者派遣法において、派遣会社から派遣された労働者が、さらに他の会社に再度派遣されることを禁止するルールである。これは、労働者の権利を守るために設けられており、労働者が同じ派遣職場で異なる複数の派遣会社を通じて働くことを防ぐ目的がある。例えば、A社からB社に派遣された労働者が、B社からC社に再派遣されることは認められないため、派遣労働者はいつでも自分がどの会社で働いているかを明確に理解できる。この規制により、労働者の労働条件や給与が不明確になることを防ぎ、適正な雇用環境を保つことが狙いである。",
+          "vi": "Cấm công ty nhận lao động phái cử lại đưa người đó sang công ty thứ ba theo hình thức phái cử."
+        },
+        {
+          "type": "point",
+          "ja": "派遣元A→派遣先B→第三者Cという再派遣を区別する。",
+          "vi": "Không được A phái sang B rồi B lại phái sang C."
+        }
+      ],
+      "terms": [
+        {
+          "term": "二重派遣の禁止",
+          "english": "Prohibition of Double Dispatch",
+          "vi": "Cấm phái cử hai tầng",
+          "definitionJa": "労働者派遣法において、派遣会社から派遣された労働者が、さらに他の会社に再度派遣されることを禁止するルールである。これは、労働者の権利を守るために設けられており、労働者が同じ派遣職場で異なる複数の派遣会社を通じて働くことを防ぐ目的がある。例えば、A社からB社に派遣された労働者が、B社からC社に再派遣されることは認められないため、派遣労働者はいつでも自分がどの会社で働いているかを明確に理解できる。この規制により、労働者の労働条件や給与が不明確になることを防ぎ、適正な雇用環境を保つことが狙いである。",
+          "definitionVi": "Cấm công ty nhận lao động phái cử lại đưa người đó sang công ty thứ ba theo hình thức phái cử.",
+          "reading": "にじゅうはけんのきんし"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "double-dispatch-ban"]
+    },
+    {
+      "id": "labor-contract-act",
+      "order": 10,
+      "titleJa": "労働契約法",
+      "titleVi": "Luật hợp đồng lao động",
+      "importance": "medium",
+      "summaryJa": "労働者と使用者の間の契約を規定する法律である。",
+      "summaryVi": "Luật điều chỉnh các nguyên tắc, giao kết, thay đổi và chấm dứt hợp đồng lao động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "労働契約法とは",
+          "vi": "Luật hợp đồng lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者と使用者の間の契約を規定する法律である。この法律は、労働者の権利保護を目的としており、労働条件や働き方のルールを定めている。例えば、労働契約の締結時における雇用内容の説明義務や、解雇の際の手続きに関する規定が含まれている。この法律により、労働者は適切な労働条件を享受し、また不当な解雇からも保護されることが求められる。さらに、派遣労働やパートタイム労働に関するルールもあり、さまざまな働き方に対応した安全な労働環境を築くための重要な法律である。",
+          "vi": "Luật điều chỉnh các nguyên tắc, giao kết, thay đổi và chấm dứt hợp đồng lao động."
+        },
+        {
+          "type": "point",
+          "ja": "労働契約法と労働基準法は別の法律。解雇権濫用法理などを確認する。",
+          "vi": "Phân biệt luật hợp đồng lao động với luật tiêu chuẩn lao động; chú ý hạn chế sa thải tùy tiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "労働契約法",
+          "english": "Labor Contract Act",
+          "vi": "Luật hợp đồng lao động",
+          "definitionJa": "労働者と使用者の間の契約を規定する法律である。この法律は、労働者の権利保護を目的としており、労働条件や働き方のルールを定めている。例えば、労働契約の締結時における雇用内容の説明義務や、解雇の際の手続きに関する規定が含まれている。この法律により、労働者は適切な労働条件を享受し、また不当な解雇からも保護されることが求められる。さらに、派遣労働やパートタイム労働に関するルールもあり、さまざまな働き方に対応した安全な労働環境を築くための重要な法律である。",
+          "definitionVi": "Luật điều chỉnh các nguyên tắc, giao kết, thay đổi và chấm dứt hợp đồng lao động.",
+          "reading": "ろうどうけいやくほう"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "labor-contract-act"]
+    },
+    {
+      "id": "occupational-safety-health-act",
+      "order": 11,
+      "titleJa": "労働安全衛生法",
+      "titleVi": "Luật an toàn và vệ sinh lao động",
+      "importance": "medium",
+      "summaryJa": "労働者の健康や安全を守るための法律である。",
+      "summaryVi": "Quy định phòng tránh tai nạn nghề nghiệp và bảo vệ sức khỏe nơi làm việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "労働安全衛生法とは",
+          "vi": "Luật an toàn và vệ sinh lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者の健康や安全を守るための法律である。この法律は、働く環境が安全であり、労働者が健康を損なわないようにするための基準や義務を定めている。例えば、企業は職場での危険を予測し、そのリスクを減少させるための措置を講じる必要がある。また、労働者に対しては、安全な作業方法や危険を回避するための教育が求められる。労働者の権利を守るだけでなく、企業の責任を明確にすることで、全体的な労働環境の改善を目指している。この法律に基づいて、労災や健康被害を防ぐ取り組みが行われることで、安心して働ける職場の実現を促進する。",
+          "vi": "Quy định phòng tránh tai nạn nghề nghiệp và bảo vệ sức khỏe nơi làm việc."
+        },
+        {
+          "type": "point",
+          "ja": "危険防止、健康診断、安全衛生教育などが中心。",
+          "vi": "Trọng tâm: phòng ngừa nguy hiểm, khám sức khỏe, huấn luyện an toàn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "労働安全衛生法",
+          "english": "Occupational Safety and Health Act",
+          "vi": "Luật an toàn và vệ sinh lao động",
+          "definitionJa": "労働者の健康や安全を守るための法律である。この法律は、働く環境が安全であり、労働者が健康を損なわないようにするための基準や義務を定めている。例えば、企業は職場での危険を予測し、そのリスクを減少させるための措置を講じる必要がある。また、労働者に対しては、安全な作業方法や危険を回避するための教育が求められる。労働者の権利を守るだけでなく、企業の責任を明確にすることで、全体的な労働環境の改善を目指している。この法律に基づいて、労災や健康被害を防ぐ取り組みが行われることで、安心して働ける職場の実現を促進する。",
+          "definitionVi": "Quy định phòng tránh tai nạn nghề nghiệp và bảo vệ sức khỏe nơi làm việc.",
+          "reading": "ろうどうあんぜんえいせいほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "occupational-safety-health-act"
+      ]
+    },
+    {
+      "id": "labor-policy-promotion-act",
+      "order": 12,
+      "titleJa": "労働施策総合推進法",
+      "titleVi": "Luật thúc đẩy tổng hợp chính sách lao động",
+      "importance": "medium",
+      "summaryJa": "職場におけるパワーハラスメントを防止するための法律である。",
+      "summaryVi": "Luật chính sách lao động có quy định yêu cầu doanh nghiệp phòng chống quấy rối quyền lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "労働施策総合推進法とは",
+          "vi": "Luật thúc đẩy tổng hợp chính sách lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "職場におけるパワーハラスメントを防止するための法律である。通称は「パワハラ防止法」。この法律は、労働者が安心して働ける環境を確保することを目的としている。具体的には、事業主に対して、パワハラの防止策を講じる責任を明確にし、職場での適切な行動規範を定めることを求めている。また、労働者がパワハラに遭った場合の相談窓口を設けたり、教育や研修を行ったりすることが義務付けられている。これにより、職場の雰囲気を改善し、労働者が心身ともに健康で働ける環境を整えることが期待されている。この法律は、労働環境の向上を目指す重要な取り組みの一つである。",
+          "vi": "Luật chính sách lao động có quy định yêu cầu doanh nghiệp phòng chống quấy rối quyền lực."
+        },
+        {
+          "type": "point",
+          "ja": "パワハラ防止措置を定めるが、法律全体はパワハラ対策だけを目的とするものではない。",
+          "vi": "Luật có nghĩa vụ chống power harassment nhưng phạm vi rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "労働施策総合推進法",
+          "english": "Comprehensive Labor Policy Promotion Act",
+          "vi": "Luật thúc đẩy tổng hợp chính sách lao động",
+          "definitionJa": "職場におけるパワーハラスメントを防止するための法律である。通称は「パワハラ防止法」。この法律は、労働者が安心して働ける環境を確保することを目的としている。具体的には、事業主に対して、パワハラの防止策を講じる責任を明確にし、職場での適切な行動規範を定めることを求めている。また、労働者がパワハラに遭った場合の相談窓口を設けたり、教育や研修を行ったりすることが義務付けられている。これにより、職場の雰囲気を改善し、労働者が心身ともに健康で働ける環境を整えることが期待されている。この法律は、労働環境の向上を目指す重要な取り組みの一つである。",
+          "definitionVi": "Luật chính sách lao động có quy định yêu cầu doanh nghiệp phòng chống quấy rối quyền lực.",
+          "reading": "ろうどうしさくそうごうすいしんほう"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "labor-policy-promotion-act"]
+    },
+    {
+      "id": "equal-employment-opportunity-act",
+      "order": 13,
+      "titleJa": "男女雇用機会均等法",
+      "titleVi": "Luật bình đẳng cơ hội việc làm nam nữ",
+      "importance": "medium",
+      "summaryJa": "男女が平等に雇用される機会を保障するための法律である。",
+      "summaryVi": "Ngăn phân biệt đối xử theo giới trong tuyển dụng, bố trí và thăng tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "男女雇用機会均等法とは",
+          "vi": "Luật bình đẳng cơ hội việc làm nam nữ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "男女が平等に雇用される機会を保障するための法律である。この法律は、企業が性別に基づく差別を行うことを禁止し、同じ職務に対しては同じ条件で雇用されることを求めるものである。例えば、採用、昇進、給与の決定において、性別に関係なく公平な待遇を受ける権利が与えられている。この法律は、働く女性の地位向上を目指し、職場での男女のバランスを促進するために重要な役割を果たしている。また、男女が同じ仕事をする場合、給与や職務内容が平等であることを確保することによって、多様性のある社会の実現を支援する。",
+          "vi": "Ngăn phân biệt đối xử theo giới trong tuyển dụng, bố trí và thăng tiến."
+        },
+        {
+          "type": "point",
+          "ja": "募集・採用、配置・昇進などの性差別禁止とハラスメント対策を押さえる。",
+          "vi": "Nhớ cấm phân biệt giới trong tuyển dụng, bổ nhiệm, thăng chức và chống quấy rối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "男女雇用機会均等法",
+          "english": "Equal Employment Opportunity Law for Men and Women",
+          "vi": "Luật bình đẳng cơ hội việc làm nam nữ",
+          "definitionJa": "男女が平等に雇用される機会を保障するための法律である。この法律は、企業が性別に基づく差別を行うことを禁止し、同じ職務に対しては同じ条件で雇用されることを求めるものである。例えば、採用、昇進、給与の決定において、性別に関係なく公平な待遇を受ける権利が与えられている。この法律は、働く女性の地位向上を目指し、職場での男女のバランスを促進するために重要な役割を果たしている。また、男女が同じ仕事をする場合、給与や職務内容が平等であることを確保することによって、多様性のある社会の実現を支援する。",
+          "definitionVi": "Ngăn phân biệt đối xử theo giới trong tuyển dụng, bố trí và thăng tiến.",
+          "reading": "だんじょこようきかいきんとうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "equal-employment-opportunity-act"
+      ]
+    },
+    {
+      "id": "childcare-family-care-leave-act",
+      "order": 14,
+      "titleJa": "育児・介護休業法",
+      "titleVi": "Luật nghỉ chăm con và chăm sóc người thân",
+      "importance": "medium",
+      "summaryJa": "育児や介護を行うために労働者が休業できる権利を定めた法律である。",
+      "summaryVi": "Bảo đảm chế độ nghỉ và biện pháp hỗ trợ cân bằng công việc với chăm con, chăm sóc người thân.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "育児・介護休業法とは",
+          "vi": "Luật nghỉ chăm con và chăm sóc người thân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "育児や介護を行うために労働者が休業できる権利を定めた法律である。この法律に基づいて、親が子どもを育てるための育児休業や、家族の介護を行うための介護休業を取得することができる。たとえば、育児休業を利用することで、出産後の母親や父親が子どもと過ごす時間を確保し、必要な支援を行うことが可能になる。また、介護休業は、高齢者や障害者などの家族の世話をするための時間を労働者に提供し、仕事と家庭の両立を支援する役割を果たしている。この法律は、働く人々の生活の質を向上させ、家庭を支える重要な制度となっている。",
+          "vi": "Bảo đảm chế độ nghỉ và biện pháp hỗ trợ cân bằng công việc với chăm con, chăm sóc người thân."
+        },
+        {
+          "type": "point",
+          "ja": "育児休業と介護休業を区別し、対象・取得条件は制度ごとに確認する。",
+          "vi": "Phân biệt nghỉ chăm con và nghỉ chăm người thân; điều kiện mỗi chế độ khác nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "育児・介護休業法",
+          "english": "Child Care and Family Care Leave Law",
+          "vi": "Luật nghỉ chăm con và chăm sóc người thân",
+          "definitionJa": "育児や介護を行うために労働者が休業できる権利を定めた法律である。この法律に基づいて、親が子どもを育てるための育児休業や、家族の介護を行うための介護休業を取得することができる。たとえば、育児休業を利用することで、出産後の母親や父親が子どもと過ごす時間を確保し、必要な支援を行うことが可能になる。また、介護休業は、高齢者や障害者などの家族の世話をするための時間を労働者に提供し、仕事と家庭の両立を支援する役割を果たしている。この法律は、働く人々の生活の質を向上させ、家庭を支える重要な制度となっている。",
+          "definitionVi": "Bảo đảm chế độ nghỉ và biện pháp hỗ trợ cân bằng công việc với chăm con, chăm sóc người thân.",
+          "reading": "いくじかいごきゅうぎょうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "childcare-family-care-leave-act"
+      ]
+    },
+    {
+      "id": "part-time-fixed-term-employment-act",
+      "order": 15,
+      "titleJa": "パートタイム労働法",
+      "titleVi": "Luật lao động bán thời gian và có thời hạn",
+      "importance": "medium",
+      "summaryJa": "短時間で働く労働者の権利を保護するための法律である。",
+      "summaryVi": "Luật bảo đảm đối xử công bằng đối với lao động bán thời gian và lao động hợp đồng có thời hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パートタイム労働法とは",
+          "vi": "Luật lao động bán thời gian và có thời hạn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "短時間で働く労働者の権利を保護するための法律である。この法律は、フルタイムの労働者と同じように、パートタイムの労働者にも適切な労働条件を保証することを目的としている。具体的には、労働時間、給与、福利厚生などを平等に扱うことが求められ、また、解雇や雇用契約に関しても一定の基準が設けられている。そのため、パートタイムで働く人々は、安心して仕事を続けることが可能になる。法の制定によって、パートタイム労働者の社会的地位の向上が期待されるとともに、企業もより公正な雇用環境を整える必要がある。",
+          "vi": "Luật bảo đảm đối xử công bằng đối với lao động bán thời gian và lao động hợp đồng có thời hạn."
+        },
+        {
+          "type": "point",
+          "ja": "現在の通称はパートタイム・有期雇用労働法。不合理な待遇差の禁止に注目。",
+          "vi": "Tên gọi hiện hành bao gồm cả lao động có thời hạn; cấm chênh lệch đãi ngộ vô lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パートタイム労働法",
+          "english": "Part-Time Workers Act",
+          "vi": "Luật lao động bán thời gian và có thời hạn",
+          "definitionJa": "短時間で働く労働者の権利を保護するための法律である。この法律は、フルタイムの労働者と同じように、パートタイムの労働者にも適切な労働条件を保証することを目的としている。具体的には、労働時間、給与、福利厚生などを平等に扱うことが求められ、また、解雇や雇用契約に関しても一定の基準が設けられている。そのため、パートタイムで働く人々は、安心して仕事を続けることが可能になる。法の制定によって、パートタイム労働者の社会的地位の向上が期待されるとともに、企業もより公正な雇用環境を整える必要がある。",
+          "definitionVi": "Luật bảo đảm đối xử công bằng đối với lao động bán thời gian và lao động hợp đồng có thời hạn.",
+          "reading": "ぱーとたいむろうどうほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "part-time-fixed-term-employment-act"
+      ]
+    },
+    {
+      "id": "freelance-transaction-act",
+      "order": 16,
+      "titleJa": "フリーランス・事業者間取引適正化等法",
+      "titleVi": "Luật công bằng giao dịch với freelancer",
+      "importance": "medium",
+      "summaryJa": "フリーランスと企業との間の取引関係を適正に保つための法律である。",
+      "summaryVi": "Luật minh bạch điều kiện giao dịch và bảo vệ người làm việc độc lập nhận ủy thác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フリーランス・事業者間取引適正化等法とは",
+          "vi": "Luật công bằng giao dịch với freelancer là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "フリーランスと企業との間の取引関係を適正に保つための法律である。この法律では、フリーランスが企業に依頼された仕事を行う際の契約内容や報酬について明確にし、事業者間の透明性を確保することを目的としている。例えば、企業がフリーランスに支払う料金について、その内容や支払い条件を明示することが求められ、また不当な契約解除や不当な報酬減額を防ぐ旨の規定も設けられている。これにより、フリーランスの権利保護が強化され、より良い取引環境が整備されることを期待されている。この法律は、経済の多様化が進む中で、フリーランスという働き方が一般化していることに応じたものでもある。",
+          "vi": "Luật minh bạch điều kiện giao dịch và bảo vệ người làm việc độc lập nhận ủy thác."
+        },
+        {
+          "type": "point",
+          "ja": "取引条件の明示、報酬支払、ハラスメント対策など。労働者派遣法とは対象が異なる。",
+          "vi": "Chú ý minh bạch điều kiện, thời hạn trả tiền, chống quấy rối; khác luật phái cử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フリーランス・事業者間取引適正化等法",
+          "english": "Freelance and Business Transaction Fairness Act",
+          "vi": "Luật công bằng giao dịch với freelancer",
+          "definitionJa": "フリーランスと企業との間の取引関係を適正に保つための法律である。この法律では、フリーランスが企業に依頼された仕事を行う際の契約内容や報酬について明確にし、事業者間の透明性を確保することを目的としている。例えば、企業がフリーランスに支払う料金について、その内容や支払い条件を明示することが求められ、また不当な契約解除や不当な報酬減額を防ぐ旨の規定も設けられている。これにより、フリーランスの権利保護が強化され、より良い取引環境が整備されることを期待されている。この法律は、経済の多様化が進む中で、フリーランスという働き方が一般化していることに応じたものでもある。",
+          "definitionVi": "Luật minh bạch điều kiện giao dịch và bảo vệ người làm việc độc lập nhận ủy thác.",
+          "reading": "ふりーらんす・じぎょうしゃかんとりひきてきせいかとうほう"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "freelance-transaction-act"]
+    },
+    {
+      "id": "older-worker-employment-act",
+      "order": 17,
+      "titleJa": "高年齢者雇用安定法",
+      "titleVi": "Luật ổn định việc làm người cao tuổi",
+      "importance": "medium",
+      "summaryJa": "60歳以上の高年齢者が雇用されやすくするために定められた法律である。",
+      "summaryVi": "Quy định các biện pháp duy trì cơ hội làm việc cho người lao động cao tuổi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "高年齢者雇用安定法とは",
+          "vi": "Luật ổn định việc làm người cao tuổi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "60歳以上の高年齢者が雇用されやすくするために定められた法律である。企業に対して高年齢者の雇用を促進し、定年後も働き続ける機会を提供することを目的としている。具体的には、60歳以上の労働者を雇用する企業に対して、法定料金や助成金を提供する制度がある。また、企業は定年を設定することができるが、その年齢も引き上げることが推奨されており、高年齢者が健康で働き続けられる環境の整備が求められている。この法律は、人口が高齢化する現代社会において、高年齢者の労働力を活用するための重要な基盤を提供している。",
+          "vi": "Quy định các biện pháp duy trì cơ hội làm việc cho người lao động cao tuổi."
+        },
+        {
+          "type": "point",
+          "ja": "65歳までの雇用確保措置は義務、70歳までの就業確保措置は努力義務という区別が重要。",
+          "vi": "Phân biệt nghĩa vụ bảo đảm việc làm đến 65 tuổi với nghĩa vụ nỗ lực tạo cơ hội đến 70 tuổi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "高年齢者雇用安定法",
+          "english": "Older Persons Employment Stabilization Law",
+          "vi": "Luật ổn định việc làm người cao tuổi",
+          "definitionJa": "60歳以上の高年齢者が雇用されやすくするために定められた法律である。企業に対して高年齢者の雇用を促進し、定年後も働き続ける機会を提供することを目的としている。具体的には、60歳以上の労働者を雇用する企業に対して、法定料金や助成金を提供する制度がある。また、企業は定年を設定することができるが、その年齢も引き上げることが推奨されており、高年齢者が健康で働き続けられる環境の整備が求められている。この法律は、人口が高齢化する現代社会において、高年齢者の労働力を活用するための重要な基盤を提供している。",
+          "definitionVi": "Quy định các biện pháp duy trì cơ hội làm việc cho người lao động cao tuổi.",
+          "reading": "こうねんれいしゃこようあんていほう"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "older-worker-employment-act"]
+    },
+    {
+      "id": "whistleblower-protection-act",
+      "order": 18,
+      "titleJa": "公益通報者保護法",
+      "titleVi": "Luật bảo vệ người tố giác vì lợi ích công",
+      "importance": "medium",
+      "summaryJa": "公益のために不正行為を通報した人を保護する法律である。",
+      "summaryVi": "Bảo vệ người báo cáo vi phạm thuộc phạm vi luật trước hành vi bất lợi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "公益通報者保護法とは",
+          "vi": "Luật bảo vệ người tố giác vì lợi ích công là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "公益のために不正行為を通報した人を保護する法律である。この法律の目的は、通報者が不利益を被ることなく、社会正義や公共の利益を追求できるようにすることである。例えば、企業内で不正会計や法令違反が行われている場合、その事実を内部告発することで、通報者は報復や解雇から守られ、通報内容の内容の正当性が保たれる。この法律により、透明性のある社会が促進され、悪質な行為が早期に発見されることが期待されている。また、通報者には匿名性が保障されることも多く、安心して情報を提供できる環境を整えることが重要である。社会全体の健全性を守るために欠かせない法律である。",
+          "vi": "Bảo vệ người báo cáo vi phạm thuộc phạm vi luật trước hành vi bất lợi."
+        },
+        {
+          "type": "point",
+          "ja": "保護には通報対象事実や通報先などの法定要件がある。すべての通報に匿名性が保証されるわけではない。",
+          "vi": "Bảo vệ tùy điều kiện pháp luật; không phải mọi tố giác đều được bảo đảm ẩn danh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "公益通報者保護法",
+          "english": "Whistleblower Protection Act",
+          "vi": "Luật bảo vệ người tố giác vì lợi ích công",
+          "definitionJa": "公益のために不正行為を通報した人を保護する法律である。この法律の目的は、通報者が不利益を被ることなく、社会正義や公共の利益を追求できるようにすることである。例えば、企業内で不正会計や法令違反が行われている場合、その事実を内部告発することで、通報者は報復や解雇から守られ、通報内容の内容の正当性が保たれる。この法律により、透明性のある社会が促進され、悪質な行為が早期に発見されることが期待されている。また、通報者には匿名性が保障されることも多く、安心して情報を提供できる環境を整えることが重要である。社会全体の健全性を守るために欠かせない法律である。",
+          "definitionVi": "Bảo vệ người báo cáo vi phạm thuộc phạm vi luật trước hành vi bất lợi.",
+          "reading": "こうえきつうほうしゃほごほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "whistleblower-protection-act"
+      ]
+    },
+    {
+      "id": "entrusted-transactions-fairness-act",
+      "order": 19,
+      "titleJa": "中小受託取引適正化法",
+      "titleVi": "Luật bảo đảm giao dịch công bằng với doanh nghiệp nhận thầu vừa và nhỏ",
+      "importance": "high",
+      "summaryJa": "委託事業者（発注側）と中小受託事業者（受注側）の公平な取引関係を確保し、受託側の利益保護と取引の公正化を図るための法律である。",
+      "summaryVi": "Luật quy định nghĩa vụ và hành vi bị cấm của bên đặt hàng để bảo vệ bên nhận thầu đủ điều kiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "中小受託取引適正化法とは",
+          "vi": "Luật bảo đảm giao dịch công bằng với doanh nghiệp nhận thầu vừa và nhỏ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "委託事業者（発注側）と中小受託事業者（受注側）の公平な取引関係を確保し、受託側の利益保護と取引の公正化を図るための法律である。一定規模以上の委託事業者を「優越的地位にある」ものと位置付け、受託取引における委託事業者の不当な行為を規制することを狙いとしている。具体的な規制内容として、委託事業者に対し、発注内容等の明示、書類等の作成・保存、代金の支払期日の設定、遅延利息の支払といった義務を課すとともに、受領拒否、返品、代金減額、支払遅延など11類型の禁止行為を定めている。違反行為が認められた場合には、監督機関が委託事業者に対し、不利益の原状回復措置を講ずるよう勧告を行うことにより、迅速かつ効果的に中小受託事業者の保護を図る仕組みとなっている。下請法からの改正・改称により、適用対象となる取引や事業者の範囲が拡大されたほか、協議に応じない一方的な代金決定の禁止や、手形払等の禁止が新たに追加されるなど、受託事業者の利益保護が一層強化されている。",
+          "vi": "Luật quy định nghĩa vụ và hành vi bị cấm của bên đặt hàng để bảo vệ bên nhận thầu đủ điều kiện."
+        },
+        {
+          "type": "point",
+          "ja": "旧下請法からの改正・改称に注意。対象取引、当事者要件、禁止行為を区別する。",
+          "vi": "Chú ý tên luật mới thay luật thầu phụ cũ, điều kiện áp dụng và các hành vi cấm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "中小受託取引適正化法",
+          "english": "Act on Ensuring Proper Transactions Involving Specified Entrusted Business Operators",
+          "vi": "Luật bảo đảm giao dịch công bằng với doanh nghiệp nhận thầu vừa và nhỏ",
+          "definitionJa": "委託事業者（発注側）と中小受託事業者（受注側）の公平な取引関係を確保し、受託側の利益保護と取引の公正化を図るための法律である。一定規模以上の委託事業者を「優越的地位にある」ものと位置付け、受託取引における委託事業者の不当な行為を規制することを狙いとしている。具体的な規制内容として、委託事業者に対し、発注内容等の明示、書類等の作成・保存、代金の支払期日の設定、遅延利息の支払といった義務を課すとともに、受領拒否、返品、代金減額、支払遅延など11類型の禁止行為を定めている。違反行為が認められた場合には、監督機関が委託事業者に対し、不利益の原状回復措置を講ずるよう勧告を行うことにより、迅速かつ効果的に中小受託事業者の保護を図る仕組みとなっている。下請法からの改正・改称により、適用対象となる取引や事業者の範囲が拡大されたほか、協議に応じない一方的な代金決定の禁止や、手形払等の禁止が新たに追加されるなど、受託事業者の利益保護が一層強化されている。",
+          "definitionVi": "Luật quy định nghĩa vụ và hành vi bị cấm của bên đặt hàng để bảo vệ bên nhận thầu đủ điều kiện.",
+          "reading": "ちゅうしょうじゅたくとりひきてきせいかほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "entrusted-transactions-fairness-act"
+      ]
+    },
+    {
+      "id": "manufacturing-outsourcing",
+      "order": 20,
+      "titleJa": "製造委託",
+      "titleVi": "Ủy thác sản xuất",
+      "importance": "medium",
+      "summaryJa": "企業が自社の製品を外部の業者に製造してもらうことを指す。",
+      "summaryVi": "Giao đơn vị khác sản xuất hoặc gia công sản phẩm theo yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "製造委託とは",
+          "vi": "Ủy thác sản xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の製品を外部の業者に製造してもらうことを指す。中小受託取引適正化法では、事業者が他の事業者に対し、給付に係る仕様、内容等を指定して物品等（物品、半製品、部品、附属品、原材料、それらの製造に用いる型や工具）の製造・加工を依頼すること、とされている。",
+          "vi": "Giao đơn vị khác sản xuất hoặc gia công sản phẩm theo yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "製造委託と役務提供委託・情報成果物作成委託を区別する。",
+          "vi": "Phân biệt giao sản xuất vật phẩm với giao dịch vụ hoặc làm sản phẩm thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "製造委託",
+          "english": "Manufacturing Outsourcing",
+          "vi": "Ủy thác sản xuất",
+          "definitionJa": "企業が自社の製品を外部の業者に製造してもらうことを指す。中小受託取引適正化法では、事業者が他の事業者に対し、給付に係る仕様、内容等を指定して物品等（物品、半製品、部品、附属品、原材料、それらの製造に用いる型や工具）の製造・加工を依頼すること、とされている。",
+          "definitionVi": "Giao đơn vị khác sản xuất hoặc gia công sản phẩm theo yêu cầu.",
+          "reading": "せいぞういたく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "manufacturing-outsourcing"]
+    },
+    {
+      "id": "service-outsourcing",
+      "order": 21,
+      "titleJa": "役務提供委託",
+      "titleVi": "Ủy thác cung cấp dịch vụ",
+      "importance": "medium",
+      "summaryJa": "事業者が業として行う提供の目的たる役務の提供の行為の全部又は一部を他の事業者に委託することである。",
+      "summaryVi": "Giao đơn vị khác thực hiện toàn bộ hoặc một phần dịch vụ mà bên đặt hàng cung cấp trong hoạt động kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "役務提供委託とは",
+          "vi": "Ủy thác cung cấp dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業者が業として行う提供の目的たる役務の提供の行為の全部又は一部を他の事業者に委託することである。主に効率的な業務運営や専門的な知識を活用するために行われる。例えば、IT関連の業務や顧客サポート、清掃サービスなどが含まれる。企業はコスト削減やリソースの最適化を目指すことができるが、委託先の選定や契約内容に十分な注意を払う必要がある。中小受託取引適正化法で規制される取引の一つに位置付けられている。",
+          "vi": "Giao đơn vị khác thực hiện toàn bộ hoặc một phần dịch vụ mà bên đặt hàng cung cấp trong hoạt động kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "取適法上の役務提供委託には対象範囲があり、単なる自社利用の外注すべてを意味しない。",
+          "vi": "Không phải mọi dịch vụ thuê ngoài dùng nội bộ đều thuộc cùng phạm vi luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "役務提供委託",
+          "english": "Outsourcing of Service Provision",
+          "vi": "Ủy thác cung cấp dịch vụ",
+          "definitionJa": "事業者が業として行う提供の目的たる役務の提供の行為の全部又は一部を他の事業者に委託することである。主に効率的な業務運営や専門的な知識を活用するために行われる。例えば、IT関連の業務や顧客サポート、清掃サービスなどが含まれる。企業はコスト削減やリソースの最適化を目指すことができるが、委託先の選定や契約内容に十分な注意を払う必要がある。中小受託取引適正化法で規制される取引の一つに位置付けられている。",
+          "definitionVi": "Giao đơn vị khác thực hiện toàn bộ hoặc một phần dịch vụ mà bên đặt hàng cung cấp trong hoạt động kinh doanh.",
+          "reading": "やくむていきょういたく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "service-outsourcing"]
+    },
+    {
+      "id": "information-deliverables",
+      "order": 22,
+      "titleJa": "情報成果物",
+      "titleVi": "Sản phẩm thông tin",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務の成果として提供される情報全般を指す。",
+      "summaryVi": "Sản phẩm từ lập trình, nội dung nghe nhìn, thiết kế, bản vẽ, tài liệu...",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報成果物とは",
+          "vi": "Sản phẩm thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の成果として提供される情報全般を指す。中小受託取引適正化法では、プログラム、映画、放送番組その他影像又は音声その他の音響により構成されるもの（テレビ番組、テレビＣＭ、ラジオ番組、映画、アニメーション）、文字、図形若しくは記号若しくはこれらの結合又はこれらと色彩との結合により構成されるもの（設計図、ポスターのデザイン、商品・容器のデザイン、コンサルティングレポート、雑誌広告）の3類型を情報成果物として定義している。",
+          "vi": "Sản phẩm từ lập trình, nội dung nghe nhìn, thiết kế, bản vẽ, tài liệu..."
+        },
+        {
+          "type": "point",
+          "ja": "プログラム、映像・音声、文字・図形などの情報成果物を押さえる。",
+          "vi": "Gồm phần mềm, phim/âm thanh, bản vẽ và thiết kế; không chỉ là báo cáo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報成果物",
+          "english": "Information Deliverables",
+          "vi": "Sản phẩm thông tin",
+          "definitionJa": "プロジェクトや業務の成果として提供される情報全般を指す。中小受託取引適正化法では、プログラム、映画、放送番組その他影像又は音声その他の音響により構成されるもの（テレビ番組、テレビＣＭ、ラジオ番組、映画、アニメーション）、文字、図形若しくは記号若しくはこれらの結合又はこれらと色彩との結合により構成されるもの（設計図、ポスターのデザイン、商品・容器のデザイン、コンサルティングレポート、雑誌広告）の3類型を情報成果物として定義している。",
+          "definitionVi": "Sản phẩm từ lập trình, nội dung nghe nhìn, thiết kế, bản vẽ, tài liệu...",
+          "reading": "じょうほうせいかぶつ"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "information-deliverables"]
+    },
+    {
+      "id": "entrusting-business-operator",
+      "order": 23,
+      "titleJa": "委託事業者",
+      "titleVi": "Bên đặt hàng ủy thác",
+      "importance": "medium",
+      "summaryJa": "中小受託取引適正化法において、中小受託事業者に対して仕事を発注する企業を指す用語である。",
+      "summaryVi": "Doanh nghiệp đặt hàng thuộc phạm vi điều chỉnh của luật giao dịch nhận thầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "委託事業者とは",
+          "vi": "Bên đặt hàng ủy thác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "中小受託取引適正化法において、中小受託事業者に対して仕事を発注する企業を指す用語である。この企業は、中小受託事業者に対して直接的な指示や管理を行い、契約上の責任を負う立場にある。例えば、大手建設会社が、建設プロジェクトを遂行するために小規模な専門業者に作業を委託する場合、大手建設会社は親事業者に該当する。中小受託取引適正化法では、一定規模以上の委託事業者（発注者）を「優越的地位にあるもの」と位置付け、中小受託事業者が不当な扱いを受けることを防ぐの規律を設けている。",
+          "vi": "Doanh nghiệp đặt hàng thuộc phạm vi điều chỉnh của luật giao dịch nhận thầu."
+        },
+        {
+          "type": "point",
+          "ja": "委託事業者と中小受託事業者は取引内容と規模等の要件で判断する。",
+          "vi": "Xác định vai trò theo loại giao dịch và tiêu chí quy mô, không đơn thuần công ty lớn/nhỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "委託事業者",
+          "english": "Principal Contractor",
+          "vi": "Bên đặt hàng ủy thác",
+          "definitionJa": "中小受託取引適正化法において、中小受託事業者に対して仕事を発注する企業を指す用語である。この企業は、中小受託事業者に対して直接的な指示や管理を行い、契約上の責任を負う立場にある。例えば、大手建設会社が、建設プロジェクトを遂行するために小規模な専門業者に作業を委託する場合、大手建設会社は親事業者に該当する。中小受託取引適正化法では、一定規模以上の委託事業者（発注者）を「優越的地位にあるもの」と位置付け、中小受託事業者が不当な扱いを受けることを防ぐの規律を設けている。",
+          "definitionVi": "Doanh nghiệp đặt hàng thuộc phạm vi điều chỉnh của luật giao dịch nhận thầu.",
+          "reading": "いたくじぎょうしゃ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "entrusting-business-operator"
+      ]
+    },
+    {
+      "id": "small-entrusted-business-operator",
+      "order": 24,
+      "titleJa": "中小受託事業者",
+      "titleVi": "Doanh nghiệp nhận thầu vừa và nhỏ",
+      "importance": "medium",
+      "summaryJa": "中小受託取引適正化法において、発注者から業務を受託する事業者のうち一定規模以下の企業や個人を指す言葉である。",
+      "summaryVi": "Bên nhận đơn hàng được bảo vệ theo tiêu chí áp dụng của luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "中小受託事業者とは",
+          "vi": "Doanh nghiệp nhận thầu vừa và nhỏ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "中小受託取引適正化法において、発注者から業務を受託する事業者のうち一定規模以下の企業や個人を指す言葉である。例えば、建設業においては、大手建設会社が下請事業者に対して特定の工事を依頼することが一般的であり、中小受託事業者はその専門技術を活かして作業を行う。この取引関係は中小受託取引適正化法により保護されており、委託事業者には発注内容の明示や書類等の作成・保管等の義務が課されるほか、委託事業者の優先的な地位を用いた不当な行為が禁止されている。",
+          "vi": "Bên nhận đơn hàng được bảo vệ theo tiêu chí áp dụng của luật."
+        },
+        {
+          "type": "point",
+          "ja": "中小受託事業者は法定の規模要件などで判断する。建設工事請負を一律に取適法の対象と考えない。",
+          "vi": "Không tự động coi mọi nhà thầu xây dựng là đối tượng luật này."
+        }
+      ],
+      "terms": [
+        {
+          "term": "中小受託事業者",
+          "english": "Subcontractor",
+          "vi": "Doanh nghiệp nhận thầu vừa và nhỏ",
+          "definitionJa": "中小受託取引適正化法において、発注者から業務を受託する事業者のうち一定規模以下の企業や個人を指す言葉である。例えば、建設業においては、大手建設会社が下請事業者に対して特定の工事を依頼することが一般的であり、中小受託事業者はその専門技術を活かして作業を行う。この取引関係は中小受託取引適正化法により保護されており、委託事業者には発注内容の明示や書類等の作成・保管等の義務が課されるほか、委託事業者の優先的な地位を用いた不当な行為が禁止されている。",
+          "definitionVi": "Bên nhận đơn hàng được bảo vệ theo tiêu chí áp dụng của luật.",
+          "reading": "ちゅうしょうじゅたくじぎょうしゃ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "small-entrusted-business-operator"
+      ]
+    },
+    {
+      "id": "quasi-mandate-contract",
+      "order": 25,
+      "titleJa": "準委任契約",
+      "titleVi": "Hợp đồng ủy nhiệm thực hiện công việc",
+      "importance": "high",
+      "summaryJa": "特定の業務を行うために委任される契約の一つである。",
+      "summaryVi": "Hợp đồng giao xử lý công việc không phải hành vi pháp lý, chú trọng quá trình thực hiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "準委任契約とは",
+          "vi": "Hợp đồng ủy nhiệm thực hiện công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業務を行うために委任される契約の一つである。これは、委任契約の一種であり、依頼者が仕事を依頼し、受託者がその業務を遂行することに同意するものである。具体的には、弁護士や会計士が顧客のためにサービスを提供する場合などがこれに該当する。準委任契約においては、受託者は業務を誠実に行う義務を負うが、必ずしも特定の結果を保証するものではないため、責任の範囲について明確に理解することが重要である。この契約形式は、専門的な知識や技術を要する業務の提供に適用され、多様な業種で広く利用されている。",
+          "vi": "Hợp đồng giao xử lý công việc không phải hành vi pháp lý, chú trọng quá trình thực hiện."
+        },
+        {
+          "type": "point",
+          "ja": "準委任は事務処理・善管注意義務が中心。請負の仕事完成義務と対比する。",
+          "vi": "Chuẩn ủy nhiệm tập trung thực hiện công việc cẩn trọng; thầu khoán chú trọng hoàn thành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "準委任契約",
+          "english": "Quasi-Mandate Contract",
+          "vi": "Hợp đồng ủy nhiệm thực hiện công việc",
+          "definitionJa": "特定の業務を行うために委任される契約の一つである。これは、委任契約の一種であり、依頼者が仕事を依頼し、受託者がその業務を遂行することに同意するものである。具体的には、弁護士や会計士が顧客のためにサービスを提供する場合などがこれに該当する。準委任契約においては、受託者は業務を誠実に行う義務を負うが、必ずしも特定の結果を保証するものではないため、責任の範囲について明確に理解することが重要である。この契約形式は、専門的な知識や技術を要する業務の提供に適用され、多様な業種で広く利用されている。",
+          "definitionVi": "Hợp đồng giao xử lý công việc không phải hành vi pháp lý, chú trọng quá trình thực hiện.",
+          "reading": "じゅんいにんけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "quasi-mandate-contract"]
+    },
+    {
+      "id": "contract-for-work",
+      "order": 26,
+      "titleJa": "請負契約",
+      "titleVi": "Hợp đồng thầu khoán",
+      "importance": "high",
+      "summaryJa": "ある一方が特定の仕事を行い、もう一方がその対価を支払う契約である。",
+      "summaryVi": "Hợp đồng bên nhận thầu hoàn thành công việc và bên đặt hàng trả thù lao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "請負契約とは",
+          "vi": "Hợp đồng thầu khoán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ある一方が特定の仕事を行い、もう一方がその対価を支払う契約である。この契約形態は、民法の中で重要な位置を占め、主に建設業や製造業などの実務において広く用いられる。例えば、建設会社が顧客から依頼を受けて、特定の建物を建設する場合、この請負契約が成立する。請負契約の特徴として、完成した仕事に対して報酬が支払われることや、委託者が結果を求める点が挙げられる。また、請負契約には、完成義務や品質保証などの法的な責任が伴うため、契約内容をしっかりと明記することが重要である。",
+          "vi": "Hợp đồng bên nhận thầu hoàn thành công việc và bên đặt hàng trả thù lao."
+        },
+        {
+          "type": "point",
+          "ja": "請負は仕事の完成が基本。準委任の業務遂行義務と区別する。",
+          "vi": "Thầu khoán yêu cầu hoàn thành công việc, khác chuẩn ủy nhiệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "請負契約",
+          "english": "Contract for Work",
+          "vi": "Hợp đồng thầu khoán",
+          "definitionJa": "ある一方が特定の仕事を行い、もう一方がその対価を支払う契約である。この契約形態は、民法の中で重要な位置を占め、主に建設業や製造業などの実務において広く用いられる。例えば、建設会社が顧客から依頼を受けて、特定の建物を建設する場合、この請負契約が成立する。請負契約の特徴として、完成した仕事に対して報酬が支払われることや、委託者が結果を求める点が挙げられる。また、請負契約には、完成義務や品質保証などの法的な責任が伴うため、契約内容をしっかりと明記することが重要である。",
+          "definitionVi": "Hợp đồng bên nhận thầu hoàn thành công việc và bên đặt hàng trả thù lao.",
+          "reading": "うけおいけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "contract-for-work"]
+    },
+    {
+      "id": "deliverable-completion-responsibility",
+      "order": 27,
+      "titleJa": "成果物の完成責任",
+      "titleVi": "Trách nhiệm hoàn thành sản phẩm bàn giao",
+      "importance": "medium",
+      "summaryJa": "契約に基づいて作成された成果物が、定められた品質や期限に従って完成することに対する責任を指すものである。",
+      "summaryVi": "Nghĩa vụ hoàn thành kết quả công việc theo hợp đồng thầu khoán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "成果物の完成責任とは",
+          "vi": "Trách nhiệm hoàn thành sản phẩm bàn giao là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "契約に基づいて作成された成果物が、定められた品質や期限に従って完成することに対する責任を指すものである。これは主に民法において重要な概念で、特に請負契約において顕著である。たとえば、建物の建設契約では、業者が指定された仕様や納期に従って作品を完成させる責任を負う。この成果物の完成が適切に行われない場合、業者は損害賠償を求められることがあるため、契約の履行において重要な役割を果たす。また、適正な完成責任が果たされることにより、契約当事者間の信頼関係も強化される。",
+          "vi": "Nghĩa vụ hoàn thành kết quả công việc theo hợp đồng thầu khoán."
+        },
+        {
+          "type": "point",
+          "ja": "完成責任は請負の典型的特徴。契約不適合責任とは区別する。",
+          "vi": "Trách nhiệm hoàn thành khác trách nhiệm do sản phẩm không phù hợp hợp đồng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "成果物の完成責任",
+          "english": "Completion Responsibility",
+          "vi": "Trách nhiệm hoàn thành sản phẩm bàn giao",
+          "definitionJa": "契約に基づいて作成された成果物が、定められた品質や期限に従って完成することに対する責任を指すものである。これは主に民法において重要な概念で、特に請負契約において顕著である。たとえば、建物の建設契約では、業者が指定された仕様や納期に従って作品を完成させる責任を負う。この成果物の完成が適切に行われない場合、業者は損害賠償を求められることがあるため、契約の履行において重要な役割を果たす。また、適正な完成責任が果たされることにより、契約当事者間の信頼関係も強化される。",
+          "definitionVi": "Nghĩa vụ hoàn thành kết quả công việc theo hợp đồng thầu khoán.",
+          "reading": "せいかぶつのかんせいせきにん"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "deliverable-completion-responsibility"
+      ]
+    },
+    {
+      "id": "electronic-consumer-contract-act",
+      "order": 28,
+      "titleJa": "電子消費者契約法",
+      "titleVi": "Luật hợp đồng điện tử với người tiêu dùng",
+      "importance": "high",
+      "summaryJa": "電子的に情報を受け取る消費者と事業者との間での契約に関する法律である。",
+      "summaryVi": "Quy định đặc biệt về lỗi thao tác và thời điểm hình thành hợp đồng điện tử giữa người tiêu dùng và doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子消費者契約法とは",
+          "vi": "Luật hợp đồng điện tử với người tiêu dùng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子的に情報を受け取る消費者と事業者との間での契約に関する法律である。この法律は、消費者がインターネットなどの電子手段を通じて商品やサービスを購入する際のルールを定めている。具体的には、契約内容の明示や、取消しの方法、事業者の責任についての規定が含まれ、消費者を不当な取引から守ることを目的としている。この法の施行により、オンラインショッピングの透明性が向上し、消費者が安心して利用できる環境が整備された。さらに、各国で類似の法律が存在し、国際的な取引にも影響を与えている。",
+          "vi": "Quy định đặc biệt về lỗi thao tác và thời điểm hình thành hợp đồng điện tử giữa người tiêu dùng và doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "電子消費者契約法は操作ミスの救済や電子承諾通知の到達に関する特例が中心。",
+          "vi": "Trọng tâm là lỗi thao tác đặt hàng và thời điểm thông báo chấp nhận đến nơi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子消費者契約法",
+          "english": "Electronic Consumer Contract Act",
+          "vi": "Luật hợp đồng điện tử với người tiêu dùng",
+          "definitionJa": "電子的に情報を受け取る消費者と事業者との間での契約に関する法律である。この法律は、消費者がインターネットなどの電子手段を通じて商品やサービスを購入する際のルールを定めている。具体的には、契約内容の明示や、取消しの方法、事業者の責任についての規定が含まれ、消費者を不当な取引から守ることを目的としている。この法の施行により、オンラインショッピングの透明性が向上し、消費者が安心して利用できる環境が整備された。さらに、各国で類似の法律が存在し、国際的な取引にも影響を与えている。",
+          "definitionVi": "Quy định đặc biệt về lỗi thao tác và thời điểm hình thành hợp đồng điện tử giữa người tiêu dùng và doanh nghiệp.",
+          "reading": "でんししょうひしゃけいやくほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "electronic-consumer-contract-act"
+      ]
+    },
+    {
+      "id": "specified-commercial-transactions-act",
+      "order": 29,
+      "titleJa": "特定商取引法",
+      "titleVi": "Luật giao dịch thương mại đặc định",
+      "importance": "high",
+      "summaryJa": "日本において特定の商取引に関するルールを定めた法律である。",
+      "summaryVi": "Quản lý các hình thức giao dịch như bán hàng từ xa, bán hàng tận nhà để bảo vệ người tiêu dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特定商取引法とは",
+          "vi": "Luật giao dịch thương mại đặc định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本において特定の商取引に関するルールを定めた法律である。この法律は、主に消費者を保護する目的で導入されており、通信販売や訪問販売など、特定の取引形態に対して適用される。例えば、通信販売を行う企業は、商品の価格や返品ポリシーを明示する義務があり、消費者が安心して購入できる環境を作り出している。また、誇大広告や不当な勧誘行為を禁止しており、消費者の権利を守る仕組みを強化している。この法律により、企業は正当な取引を行う責任を持つこととなり、消費者も安心して買い物を楽しむことができる。",
+          "vi": "Quản lý các hình thức giao dịch như bán hàng từ xa, bán hàng tận nhà để bảo vệ người tiêu dùng."
+        },
+        {
+          "type": "point",
+          "ja": "通信販売には原則としてクーリング・オフ制度がない点に注意。",
+          "vi": "Mua hàng qua mạng nhìn chung không có quyền cooling-off theo luật này."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特定商取引法",
+          "english": "Specified Commercial Transactions Act",
+          "vi": "Luật giao dịch thương mại đặc định",
+          "definitionJa": "日本において特定の商取引に関するルールを定めた法律である。この法律は、主に消費者を保護する目的で導入されており、通信販売や訪問販売など、特定の取引形態に対して適用される。例えば、通信販売を行う企業は、商品の価格や返品ポリシーを明示する義務があり、消費者が安心して購入できる環境を作り出している。また、誇大広告や不当な勧誘行為を禁止しており、消費者の権利を守る仕組みを強化している。この法律により、企業は正当な取引を行う責任を持つこととなり、消費者も安心して買い物を楽しむことができる。",
+          "definitionVi": "Quản lý các hình thức giao dịch như bán hàng từ xa, bán hàng tận nhà để bảo vệ người tiêu dùng.",
+          "reading": "とくていしょうとりひきほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "specified-commercial-transactions-act"
+      ]
+    },
+    {
+      "id": "digital-platform-transparency-act",
+      "order": 30,
+      "titleJa": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律",
+      "titleVi": "Luật minh bạch và công bằng nền tảng số đặc định",
+      "importance": "medium",
+      "summaryJa": "特定のデジタルプラットフォームにおける運営の透明性と公正性を確保するために制定された法律である。",
+      "summaryVi": "Yêu cầu nền tảng số thuộc diện chỉ định minh bạch điều khoản và hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律とは",
+          "vi": "Luật minh bạch và công bằng nền tảng số đặc định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のデジタルプラットフォームにおける運営の透明性と公正性を確保するために制定された法律である。この法律は、プラットフォームの利用者に対し、運営方針やアルゴリズムの透明性を確保し、不当な差別や競争制限を防ぐことを目的としている。具体的には、プラットフォーム運営者に対して情報提供や説明責任を義務付けることにより、消費者や事業者が安心してサービスを利用できる環境を整えることを狙っている。また、この法律は、デジタル市場における健全な競争を促進し、公正な取引の実現へとつながることが期待されている。",
+          "vi": "Yêu cầu nền tảng số thuộc diện chỉ định minh bạch điều khoản và hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "指定されたデジタルプラットフォーム提供者に開示・報告等を求める制度。すべてのアルゴリズム公開を義務づけるわけではない。",
+          "vi": "Áp dụng nền tảng được chỉ định; không bắt công khai mọi thuật toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特定デジタルプラットフォームの透明性及び公正性の向上に関する法律",
+          "english": "Law on the Improvement of Transparency and Fairness of Specific Digital Platforms",
+          "vi": "Luật minh bạch và công bằng nền tảng số đặc định",
+          "definitionJa": "特定のデジタルプラットフォームにおける運営の透明性と公正性を確保するために制定された法律である。この法律は、プラットフォームの利用者に対し、運営方針やアルゴリズムの透明性を確保し、不当な差別や競争制限を防ぐことを目的としている。具体的には、プラットフォーム運営者に対して情報提供や説明責任を義務付けることにより、消費者や事業者が安心してサービスを利用できる環境を整えることを狙っている。また、この法律は、デジタル市場における健全な競争を促進し、公正な取引の実現へとつながることが期待されている。",
+          "definitionVi": "Yêu cầu nền tảng số thuộc diện chỉ định minh bạch điều khoản và hoạt động.",
+          "reading": "とくていでじたるぷらっとふぉーむのとうめいせいおよびこうせいせいのこうじょうにかんするほうりつ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "digital-platform-transparency-act"
+      ]
+    },
+    {
+      "id": "payment-services-act",
+      "order": 31,
+      "titleJa": "資金決済法",
+      "titleVi": "Luật dịch vụ thanh toán",
+      "importance": "medium",
+      "summaryJa": "金融サービスの利用における安全性や透明性を確保するための法律である。",
+      "summaryVi": "Quy định các hình thức thanh toán như công cụ trả trước, chuyển tiền và một số tài sản số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "資金決済法とは",
+          "vi": "Luật dịch vụ thanh toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "金融サービスの利用における安全性や透明性を確保するための法律である。この法律は、電子マネーや決済代行サービスなど、さまざまな形態の資金決済に関するルールを定めている。例えば、資金を預ける企業や個人が利用できるサービスの条件や、利用者の権利を守るための規定が含まれている。また、消費者が安心して電子決済を行える環境を整えることを目的としており、金融犯罪の防止にも寄与している。法律の遵守は、関係企業にとって重要な責任であり、信頼性の向上に繋がる。",
+          "vi": "Quy định các hình thức thanh toán như công cụ trả trước, chuyển tiền và một số tài sản số."
+        },
+        {
+          "type": "point",
+          "ja": "前払式支払手段、資金移動業、暗号資産交換業などを区別する。",
+          "vi": "Phân biệt công cụ trả trước, chuyển tiền và sàn tài sản mã hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "資金決済法",
+          "english": "Payment Services Act",
+          "vi": "Luật dịch vụ thanh toán",
+          "definitionJa": "金融サービスの利用における安全性や透明性を確保するための法律である。この法律は、電子マネーや決済代行サービスなど、さまざまな形態の資金決済に関するルールを定めている。例えば、資金を預ける企業や個人が利用できるサービスの条件や、利用者の権利を守るための規定が含まれている。また、消費者が安心して電子決済を行える環境を整えることを目的としており、金融犯罪の防止にも寄与している。法律の遵守は、関係企業にとって重要な責任であり、信頼性の向上に繋がる。",
+          "definitionVi": "Quy định các hình thức thanh toán như công cụ trả trước, chuyển tiền và một số tài sản số.",
+          "reading": "しきんけっさいほう"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "payment-services-act"]
+    },
+    {
+      "id": "premiums-representations-act",
+      "order": 32,
+      "titleJa": "景品表示法",
+      "titleVi": "Luật quảng cáo và quà tặng",
+      "importance": "medium",
+      "summaryJa": "商品やサービスに関する景品の提供や表示についてのルールを定めた法律である。",
+      "summaryVi": "Ngăn quảng cáo gây hiểu lầm và giới hạn quà tặng khuyến mại bất hợp lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "景品表示法とは",
+          "vi": "Luật quảng cáo và quà tặng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品やサービスに関する景品の提供や表示についてのルールを定めた法律である。この法律の目的は、消費者を不当に欺くような広告や販促活動を防ぎ、公正な取引を促進することである。例えば、ある商品を購入すると高額な景品がもらえるといった場合、その表示が適切であるかどうかを監視し、誤解を招くような宣伝を禁止している。これにより、消費者が安心して選択できる環境を整えることが重要視されている。消費者保護の観点から、この法律の遵守が求められ、企業は正確な情報を基にした販促活動を行う必要がある。",
+          "vi": "Ngăn quảng cáo gây hiểu lầm và giới hạn quà tặng khuyến mại bất hợp lý."
+        },
+        {
+          "type": "point",
+          "ja": "優良誤認表示・有利誤認表示と景品類の規制を区別する。",
+          "vi": "Nhớ quảng cáo sai về chất lượng, lợi ích giao dịch và hạn chế quà tặng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "景品表示法",
+          "english": "Premiums and Representations Act",
+          "vi": "Luật quảng cáo và quà tặng",
+          "definitionJa": "商品やサービスに関する景品の提供や表示についてのルールを定めた法律である。この法律の目的は、消費者を不当に欺くような広告や販促活動を防ぎ、公正な取引を促進することである。例えば、ある商品を購入すると高額な景品がもらえるといった場合、その表示が適切であるかどうかを監視し、誤解を招くような宣伝を禁止している。これにより、消費者が安心して選択できる環境を整えることが重要視されている。消費者保護の観点から、この法律の遵守が求められ、企業は正確な情報を基にした販促活動を行う必要がある。",
+          "definitionVi": "Ngăn quảng cáo gây hiểu lầm và giới hạn quà tặng khuyến mại bất hợp lý.",
+          "reading": "けいひんひょうじほう"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "premiums-representations-act"
+      ]
+    },
+    {
+      "id": "public-domain",
+      "order": 33,
+      "titleJa": "パブリックドメイン",
+      "titleVi": "Phạm vi công cộng về bản quyền",
+      "importance": "high",
+      "summaryJa": "著作権が消滅した作品や、著作権が適用されない状態を指す概念である。",
+      "summaryVi": "Tác phẩm hoặc nội dung không còn thuộc quyền tài sản tác giả, tùy hệ thống pháp luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パブリックドメインとは",
+          "vi": "Phạm vi công cộng về bản quyền là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "著作権が消滅した作品や、著作権が適用されない状態を指す概念である。この状態にある作品は、誰でも自由に使用、複製、配布できるため、著作物の利用に制約がない。例えば、古典文学や公共の場で収集されたデータなどが該当する。また、パブリックドメインにある作品を利用することで、クリエイティブな創作や教育活動が活発になるため、文化の発展に寄与する役割も果たしている。加えて、作品が特定の国や地域の法律によってパブリックドメインとなる場合が多いため、国の法律を確認することが重要である。",
+          "vi": "Tác phẩm hoặc nội dung không còn thuộc quyền tài sản tác giả, tùy hệ thống pháp luật."
+        },
+        {
+          "type": "point",
+          "ja": "パブリックドメインでも著作者人格権や他の権利・法令に注意。",
+          "vi": "Không có bản quyền tài sản không có nghĩa mọi quyền và hạn chế khác đều mất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パブリックドメイン",
+          "english": "Public Domain",
+          "vi": "Phạm vi công cộng về bản quyền",
+          "definitionJa": "著作権が消滅した作品や、著作権が適用されない状態を指す概念である。この状態にある作品は、誰でも自由に使用、複製、配布できるため、著作物の利用に制約がない。例えば、古典文学や公共の場で収集されたデータなどが該当する。また、パブリックドメインにある作品を利用することで、クリエイティブな創作や教育活動が活発になるため、文化の発展に寄与する役割も果たしている。加えて、作品が特定の国や地域の法律によってパブリックドメインとなる場合が多いため、国の法律を確認することが重要である。",
+          "definitionVi": "Tác phẩm hoặc nội dung không còn thuộc quyền tài sản tác giả, tùy hệ thống pháp luật.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "public-domain"]
+    },
+    {
+      "id": "nda",
+      "order": 34,
+      "titleJa": "NDA",
+      "titleVi": "Thỏa thuận bảo mật",
+      "importance": "medium",
+      "summaryJa": "守秘契約のことであり、特定の情報を秘密にすることを双方が合意する法的な契約を指す。",
+      "summaryVi": "Hợp đồng xác định thông tin bí mật và nghĩa vụ không tiết lộ/sử dụng sai mục đích.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "NDAとは",
+          "vi": "Thỏa thuận bảo mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "守秘契約のことであり、特定の情報を秘密にすることを双方が合意する法的な契約を指す。この契約により、情報を受け取った側は、その情報を第三者に漏らしたり、自らの利益のために使用したりしてはいけない。この仕組みは、ビジネスにおける機密情報やノウハウを保護するために非常に重要である。例えば、新製品の開発において、企業がその情報を外部に持ち出さないようにするためにNDAを結ぶことが一般的である。また、契約が有効である限り、受け取った情報の取り扱いや管理について明確なルールを設ける役割も果たす。これにより、信頼関係を築きながらビジネスを進めることが可能となる。",
+          "vi": "Hợp đồng xác định thông tin bí mật và nghĩa vụ không tiết lộ/sử dụng sai mục đích."
+        },
+        {
+          "type": "point",
+          "ja": "NDAは秘密情報の範囲、例外、期間、利用目的を確認する。",
+          "vi": "Xem phạm vi thông tin mật, ngoại lệ, thời hạn và mục đích sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NDA",
+          "english": "Non-Disclosure Agreement",
+          "vi": "Thỏa thuận bảo mật",
+          "definitionJa": "守秘契約のことであり、特定の情報を秘密にすることを双方が合意する法的な契約を指す。この契約により、情報を受け取った側は、その情報を第三者に漏らしたり、自らの利益のために使用したりしてはいけない。この仕組みは、ビジネスにおける機密情報やノウハウを保護するために非常に重要である。例えば、新製品の開発において、企業がその情報を外部に持ち出さないようにするためにNDAを結ぶことが一般的である。また、契約が有効である限り、受け取った情報の取り扱いや管理について明確なルールを設ける役割も果たす。これにより、信頼関係を築きながらビジネスを進めることが可能となる。",
+          "definitionVi": "Hợp đồng xác định thông tin bí mật và nghĩa vụ không tiết lộ/sử dụng sai mục đích.",
+          "reading": "えぬでぃーえー"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "nda"]
+    },
+    {
+      "id": "volume-license",
+      "order": 35,
+      "titleJa": "ボリュームライセンス契約",
+      "titleVi": "Hợp đồng giấy phép số lượng lớn",
+      "importance": "medium",
+      "summaryJa": "企業や教育機関などがソフトウェアを複数のコンピュータにインストールして使用するための特別な契約である。",
+      "summaryVi": "Cấp quyền sử dụng phần mềm cho nhiều người dùng hoặc thiết bị theo số lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ボリュームライセンス契約とは",
+          "vi": "Hợp đồng giấy phép số lượng lớn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や教育機関などがソフトウェアを複数のコンピュータにインストールして使用するための特別な契約である。この契約により、一括でライセンスを購入でき、個別にライセンスを取得するよりもコストを削減できるメリットがある。たとえば、学校が多くのパソコンに教育用ソフトウェアを導入する場合、ボリュームライセンス契約を通じて必要なライセンス数を一度に取得し、まとめて管理することができる。また、この契約では、ライセンスの管理や更新、サポートに関するさまざまな条件が定められており、企業や教育機関にとって柔軟な運用が可能となる。",
+          "vi": "Cấp quyền sử dụng phần mềm cho nhiều người dùng hoặc thiết bị theo số lượng."
+        },
+        {
+          "type": "point",
+          "ja": "ボリュームライセンスは数量に応じた契約。サイトライセンスとの違いを押さえる。",
+          "vi": "Mua quyền theo số lượng, khác giấy phép theo địa điểm/phạm vi tổ chức."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ボリュームライセンス契約",
+          "english": "Volume License Agreement",
+          "vi": "Hợp đồng giấy phép số lượng lớn",
+          "definitionJa": "企業や教育機関などがソフトウェアを複数のコンピュータにインストールして使用するための特別な契約である。この契約により、一括でライセンスを購入でき、個別にライセンスを取得するよりもコストを削減できるメリットがある。たとえば、学校が多くのパソコンに教育用ソフトウェアを導入する場合、ボリュームライセンス契約を通じて必要なライセンス数を一度に取得し、まとめて管理することができる。また、この契約では、ライセンスの管理や更新、サポートに関するさまざまな条件が定められており、企業や教育機関にとって柔軟な運用が可能となる。",
+          "definitionVi": "Cấp quyền sử dụng phần mềm cho nhiều người dùng hoặc thiết bị theo số lượng.",
+          "reading": "ぼりゅーむらいせんすけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "volume-license"]
+    },
+    {
+      "id": "site-license",
+      "order": 36,
+      "titleJa": "サイトライセンス契約",
+      "titleVi": "Hợp đồng giấy phép theo địa điểm",
+      "importance": "medium",
+      "summaryJa": "特定の場所や企業において、ソフトウェアを複数の端末やユーザーが同時に利用できるよう許可する契約である。",
+      "summaryVi": "Cho phép dùng phần mềm trong phạm vi cơ sở hoặc tổ chức được quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイトライセンス契約とは",
+          "vi": "Hợp đồng giấy phép theo địa điểm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の場所や企業において、ソフトウェアを複数の端末やユーザーが同時に利用できるよう許可する契約である。この契約により、多くのユーザーが同じソフトウェアを個別に購入することなく、一括してライセンスを取得できる。例えば、企業が全社員に対して特定のソフトウェアを提供する場合、サイトライセンス契約を利用することでコストを抑えることができる。また、教育機関や公共機関でも、同様の理由からこの契約形態が採用されることが多い。これにより、ソフトウェアの使用が促進され、利用目的に応じた柔軟な対応が可能となる。",
+          "vi": "Cho phép dùng phần mềm trong phạm vi cơ sở hoặc tổ chức được quy định."
+        },
+        {
+          "type": "point",
+          "ja": "サイトライセンスは適用場所・組織の範囲を契約で確認する。",
+          "vi": "Giới hạn theo phạm vi địa điểm/tổ chức ghi trong hợp đồng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイトライセンス契約",
+          "english": "Site License Agreement",
+          "vi": "Hợp đồng giấy phép theo địa điểm",
+          "definitionJa": "特定の場所や企業において、ソフトウェアを複数の端末やユーザーが同時に利用できるよう許可する契約である。この契約により、多くのユーザーが同じソフトウェアを個別に購入することなく、一括してライセンスを取得できる。例えば、企業が全社員に対して特定のソフトウェアを提供する場合、サイトライセンス契約を利用することでコストを抑えることができる。また、教育機関や公共機関でも、同様の理由からこの契約形態が採用されることが多い。これにより、ソフトウェアの使用が促進され、利用目的に応じた柔軟な対応が可能となる。",
+          "definitionVi": "Cho phép dùng phần mềm trong phạm vi cơ sở hoặc tổ chức được quy định.",
+          "reading": "さいとらいせんすけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "site-license"]
+    },
+    {
+      "id": "shrink-wrap-license",
+      "order": 37,
+      "titleJa": "シュリンクラップ契約",
+      "titleVi": "Hợp đồng chấp thuận khi mở bao bì",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアの使用に関する契約形態の一つである。",
+      "summaryVi": "Hình thức điều khoản phần mềm gắn với thao tác mở gói sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シュリンクラップ契約とは",
+          "vi": "Hợp đồng chấp thuận khi mở bao bì là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの使用に関する契約形態の一つである。この契約は、製品が包装された状態で提示され、包装を開けることで契約が成立することを示すもので、特にソフトウェアの購入時によく見られる。典型的には、ソフトウェアパッケージに同封された利用規約に同意することが求められ、この規約に従うことによって利用が許可される。このような形式の契約は、ユーザーがソフトウェアのインストールを行う際に、製品の使用条件を正確に把握しやすくすることが利点である。ただし、契約条件に納得しないまま購入すると、その条件に従う義務が生じるため、注意が必要である。",
+          "vi": "Hình thức điều khoản phần mềm gắn với thao tác mở gói sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "シュリンクラップ契約の成立・有効性は表示方法や合意の状況による。",
+          "vi": "Không phải cứ mở hộp thì mọi điều khoản đương nhiên có hiệu lực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シュリンクラップ契約",
+          "english": "Shrink-Wrap License",
+          "vi": "Hợp đồng chấp thuận khi mở bao bì",
+          "definitionJa": "ソフトウェアの使用に関する契約形態の一つである。この契約は、製品が包装された状態で提示され、包装を開けることで契約が成立することを示すもので、特にソフトウェアの購入時によく見られる。典型的には、ソフトウェアパッケージに同封された利用規約に同意することが求められ、この規約に従うことによって利用が許可される。このような形式の契約は、ユーザーがソフトウェアのインストールを行う際に、製品の使用条件を正確に把握しやすくすることが利点である。ただし、契約条件に納得しないまま購入すると、その条件に従う義務が生じるため、注意が必要である。",
+          "definitionVi": "Hình thức điều khoản phần mềm gắn với thao tác mở gói sản phẩm.",
+          "reading": "しゅりんくらっぷけいやく"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "shrink-wrap-license"]
+    },
+    {
+      "id": "cal",
+      "order": 38,
+      "titleJa": "CAL",
+      "titleVi": "Giấy phép truy cập máy chủ cho client",
+      "importance": "medium",
+      "summaryJa": "クライアントがサーバ上のソフトウェアやサービスにアクセスするために必要なライセンスである。",
+      "summaryVi": "Giấy phép cho người dùng hoặc thiết bị truy cập một số dịch vụ máy chủ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CALとは",
+          "vi": "Giấy phép truy cập máy chủ cho client là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クライアントがサーバ上のソフトウェアやサービスにアクセスするために必要なライセンスである。このライセンスは、特定のクライアントデバイスやユーザーに対して付与されるもので、通常は企業や組織で使用されるサービスに関連している。例えば、Microsoftのサーバ製品を利用する場合、そのサーバにアクセスするために、各ユーザーやデバイスにCALを取得する必要がある。このように、CALはソフトウェアの合法的な使用を確保するために重要な役割を果たしており、利用規約に従うことで企業は法的なリスクを避けることができる。",
+          "vi": "Giấy phép cho người dùng hoặc thiết bị truy cập một số dịch vụ máy chủ."
+        },
+        {
+          "type": "point",
+          "ja": "CALはUser CALとDevice CALの区別が典型。サーバ本体のライセンスとは別。",
+          "vi": "Phân biệt User CAL, Device CAL và giấy phép máy chủ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAL",
+          "english": "Client Access License",
+          "vi": "Giấy phép truy cập máy chủ cho client",
+          "definitionJa": "クライアントがサーバ上のソフトウェアやサービスにアクセスするために必要なライセンスである。このライセンスは、特定のクライアントデバイスやユーザーに対して付与されるもので、通常は企業や組織で使用されるサービスに関連している。例えば、Microsoftのサーバ製品を利用する場合、そのサーバにアクセスするために、各ユーザーやデバイスにCALを取得する必要がある。このように、CALはソフトウェアの合法的な使用を確保するために重要な役割を果たしており、利用規約に従うことで企業は法的なリスクを避けることができる。",
+          "definitionVi": "Giấy phép cho người dùng hoặc thiết bị truy cập một số dịch vụ máy chủ.",
+          "reading": "きゃる"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "cal"]
+    },
+    {
+      "id": "free-software",
+      "order": 39,
+      "titleJa": "フリーソフトウェア",
+      "titleVi": "Phần mềm tự do",
+      "importance": "high",
+      "summaryJa": "自由に使用、複製、配布、改変ができるソフトウェアのことを指す。",
+      "summaryVi": "Phần mềm bảo đảm quyền sử dụng, nghiên cứu, sửa đổi và phân phối theo giấy phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フリーソフトウェアとは",
+          "vi": "Phần mềm tự do là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自由に使用、複製、配布、改変ができるソフトウェアのことを指す。これは、ユーザーがそのソフトウェアを利用する権利を持つことを意味しており、商業目的でなくても使用して良い。この概念は特にプログラムのソースコードが公開されていることに関連しており、ユーザーはソフトウェアを自らのニーズに合わせてカスタマイズすることも可能である。例えば、Linuxは代表的なフリーソフトウェアで、多くのユーザーや開発者がそのソースコードを利用して新たな機能を追加したり、バグを修正したりしている。また、利用者の自由を重視するライセンス契約であるGPL（GNU General Public License）などによって保護されている。",
+          "vi": "Phần mềm bảo đảm quyền sử dụng, nghiên cứu, sửa đổi và phân phối theo giấy phép."
+        },
+        {
+          "type": "point",
+          "ja": "Free Softwareのfreeは原則として自由の意味であり、必ずしも無料ではない。",
+          "vi": "Free nghĩa tự do, không nhất thiết miễn phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フリーソフトウェア",
+          "english": "Free Software",
+          "vi": "Phần mềm tự do",
+          "definitionJa": "自由に使用、複製、配布、改変ができるソフトウェアのことを指す。これは、ユーザーがそのソフトウェアを利用する権利を持つことを意味しており、商業目的でなくても使用して良い。この概念は特にプログラムのソースコードが公開されていることに関連しており、ユーザーはソフトウェアを自らのニーズに合わせてカスタマイズすることも可能である。例えば、Linuxは代表的なフリーソフトウェアで、多くのユーザーや開発者がそのソースコードを利用して新たな機能を追加したり、バグを修正したりしている。また、利用者の自由を重視するライセンス契約であるGPL（GNU General Public License）などによって保護されている。",
+          "definitionVi": "Phần mềm bảo đảm quyền sử dụng, nghiên cứu, sửa đổi và phân phối theo giấy phép.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "free-software"]
+    },
+    {
+      "id": "shareware",
+      "order": 40,
+      "titleJa": "シェアウェア",
+      "titleVi": "Phần mềm dùng thử",
+      "importance": "medium",
+      "summaryJa": "特定のソフトウェアが試用版として提供される形態である。",
+      "summaryVi": "Phần mềm cho dùng thử trước khi thanh toán hoặc mở đầy đủ tính năng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シェアウェアとは",
+          "vi": "Phần mềm dùng thử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のソフトウェアが試用版として提供される形態である。この形態では、ユーザーはソフトウェアを一定期間または機能制限付きで利用することができる。もしそのソフトウェアが気に入れば、定められた金額を支払うことでフル機能版を取得することができる。例えば、写真編集ソフトやゲームがシェアウェアとして提供されることが多く、ユーザーは試用後に購入を決定することができる。ソフトウェアの一般的な使用許諾契約の一形態であり、ユーザーに選択肢を与えることで、より多くの人にソフトウェアを使ってもらうことを目的としている。",
+          "vi": "Phần mềm cho dùng thử trước khi thanh toán hoặc mở đầy đủ tính năng."
+        },
+        {
+          "type": "point",
+          "ja": "シェアウェアは試用後に料金を支払う形態が代表的。フリーソフトウェアとは異なる。",
+          "vi": "Shareware thường dùng thử rồi trả tiền; khác phần mềm tự do."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シェアウェア",
+          "english": "Shareware",
+          "vi": "Phần mềm dùng thử",
+          "definitionJa": "特定のソフトウェアが試用版として提供される形態である。この形態では、ユーザーはソフトウェアを一定期間または機能制限付きで利用することができる。もしそのソフトウェアが気に入れば、定められた金額を支払うことでフル機能版を取得することができる。例えば、写真編集ソフトやゲームがシェアウェアとして提供されることが多く、ユーザーは試用後に購入を決定することができる。ソフトウェアの一般的な使用許諾契約の一形態であり、ユーザーに選択肢を与えることで、より多くの人にソフトウェアを使ってもらうことを目的としている。",
+          "definitionVi": "Phần mềm cho dùng thử trước khi thanh toán hoặc mở đầy đủ tính năng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "shareware"]
+    },
+    {
+      "id": "oss-license",
+      "order": 41,
+      "titleJa": "OSSライセンス",
+      "titleVi": "Giấy phép phần mềm nguồn mở",
+      "importance": "high",
+      "summaryJa": "オープンソースソフトウェアに関する使用許諾契約のことである。",
+      "summaryVi": "Giấy phép cho phép sử dụng, sửa đổi và phân phối mã nguồn theo điều kiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "OSSライセンスとは",
+          "vi": "Giấy phép phần mềm nguồn mở là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "オープンソースソフトウェアに関する使用許諾契約のことである。このライセンスは、ソフトウェアのソースコードを自由に使用、改変、配布できる権利を提供する。たとえば、GNU General Public License（GPL）は、OSSライセンスの一例であり、ユーザーがプログラムを自由に利用できると同時に、改変した際にはそのコードも公開することを義務づけている。これにより、ソフトウェアの透明性や協力的な開発が促進され、多くの開発者が共同で改善を行う環境が整っている。また、商用利用も認めるものがあり、ビジネスにおいてもフレキシブルに活用することが可能である。このように、OSSライセンスはソフトウェア開発の新しい形を提供し、イノベーションを加速させる重要な要素である。",
+          "vi": "Giấy phép cho phép sử dụng, sửa đổi và phân phối mã nguồn theo điều kiện."
+        },
+        {
+          "type": "point",
+          "ja": "OSSライセンスにはGPL・MIT・Apacheなどがあり、ソース公開義務は一律ではない。",
+          "vi": "GPL, MIT, Apache có điều kiện khác nhau; không phải giấy phép nào cũng buộc công khai mã sửa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "OSSライセンス",
+          "english": "Open Source Software License",
+          "vi": "Giấy phép phần mềm nguồn mở",
+          "definitionJa": "オープンソースソフトウェアに関する使用許諾契約のことである。このライセンスは、ソフトウェアのソースコードを自由に使用、改変、配布できる権利を提供する。たとえば、GNU General Public License（GPL）は、OSSライセンスの一例であり、ユーザーがプログラムを自由に利用できると同時に、改変した際にはそのコードも公開することを義務づけている。これにより、ソフトウェアの透明性や協力的な開発が促進され、多くの開発者が共同で改善を行う環境が整っている。また、商用利用も認めるものがあり、ビジネスにおいてもフレキシブルに活用することが可能である。このように、OSSライセンスはソフトウェア開発の新しい形を提供し、イノベーションを加速させる重要な要素である。",
+          "definitionVi": "Giấy phép cho phép sử dụng, sửa đổi và phân phối mã nguồn theo điều kiện.",
+          "reading": "おーえすえすらいせんす"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "oss-license"]
+    },
+    {
+      "id": "lgpl",
+      "order": 42,
+      "titleJa": "LGPL",
+      "titleVi": "Giấy phép LGPL",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの使用許諾契約の一つであり、特にライブラリやコンポーネントに対して使用されることが多い。",
+      "summaryVi": "Giấy phép copyleft yếu thường dùng cho thư viện phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "LGPLとは",
+          "vi": "Giấy phép LGPL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの使用許諾契約の一つであり、特にライブラリやコンポーネントに対して使用されることが多い。プログラムを自由に使用、改変、配布することを認めるが、変更した場合にはそのソースコードを公開することが求められる。このライセンスにより、LGPLで提供されるライブラリを使った独自のソフトウェアは、閉じた形で配布することが可能であるため、商業利用にも適している。例えば、あるオープンソースライブラリがLGPLの元で公開されている場合、そのライブラリを使用したアプリケーションを有料で売ることができる。その一方で、ライブラリ自体の改変を行った場合には、その変更内容を公開しなければならないため、オープンソースの精神が保たれるようになっている。これは、利用者にとって柔軟性を提供し、一方でコミュニティへの貢献を促進するバランスを持ったライセンスである。",
+          "vi": "Giấy phép copyleft yếu thường dùng cho thư viện phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "LGPLはライブラリ自体の改変とリンクするアプリの扱いを区別する。",
+          "vi": "Phân biệt sửa thư viện LGPL với chỉ liên kết thư viện trong ứng dụng riêng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "LGPL",
+          "english": "Lesser General Public License",
+          "vi": "Giấy phép LGPL",
+          "definitionJa": "ソフトウェアの使用許諾契約の一つであり、特にライブラリやコンポーネントに対して使用されることが多い。プログラムを自由に使用、改変、配布することを認めるが、変更した場合にはそのソースコードを公開することが求められる。このライセンスにより、LGPLで提供されるライブラリを使った独自のソフトウェアは、閉じた形で配布することが可能であるため、商業利用にも適している。例えば、あるオープンソースライブラリがLGPLの元で公開されている場合、そのライブラリを使用したアプリケーションを有料で売ることができる。その一方で、ライブラリ自体の改変を行った場合には、その変更内容を公開しなければならないため、オープンソースの精神が保たれるようになっている。これは、利用者にとって柔軟性を提供し、一方でコミュニティへの貢献を促進するバランスを持ったライセンスである。",
+          "definitionVi": "Giấy phép copyleft yếu thường dùng cho thư viện phần mềm.",
+          "reading": "えるじーぴーえる"
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "lgpl"]
+    },
+    {
+      "id": "copyleft",
+      "order": 43,
+      "titleJa": "コピーレフト",
+      "titleVi": "Copyleft",
+      "importance": "high",
+      "summaryJa": "ソフトウェアやコンテンツの利用や配布に関するライセンスの一形態である。",
+      "summaryVi": "Cơ chế giấy phép yêu cầu duy trì quyền tự do tương ứng khi phân phối bản sửa đổi hoặc tác phẩm dẫn xuất thuộc phạm vi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コピーレフトとは",
+          "vi": "Copyleft là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアやコンテンツの利用や配布に関するライセンスの一形態である。特に、著作権の考え方を逆転させる方式で、作品を自由に使用・改変できる権利を与えるが、改変後の作品も同様の自由を保つことを条件とする。例えば、GNU GPL（GNU General Public License）などのライセンスがコピーレフトの代表的な例であり、これに従うことで、誰でもソフトウェアを改良し、その改良版を再配布できる。しかし、その際には、同じライセンス条件のもとで配布しなければならないため、結果的に作品の自由な利用が維持される。オープンソースソフトウェアの普及に貢献し、共に協力して技術を発展させる文化を育む役割を果たしている。",
+          "vi": "Cơ chế giấy phép yêu cầu duy trì quyền tự do tương ứng khi phân phối bản sửa đổi hoặc tác phẩm dẫn xuất thuộc phạm vi."
+        },
+        {
+          "type": "point",
+          "ja": "コピーレフトは著作権を利用して再配布時の自由を維持する仕組み。",
+          "vi": "Copyleft dùng bản quyền để duy trì quyền tự do khi phân phối lại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コピーレフト",
+          "english": "Copyleft",
+          "vi": "Copyleft",
+          "definitionJa": "ソフトウェアやコンテンツの利用や配布に関するライセンスの一形態である。特に、著作権の考え方を逆転させる方式で、作品を自由に使用・改変できる権利を与えるが、改変後の作品も同様の自由を保つことを条件とする。例えば、GNU GPL（GNU General Public License）などのライセンスがコピーレフトの代表的な例であり、これに従うことで、誰でもソフトウェアを改良し、その改良版を再配布できる。しかし、その際には、同じライセンス条件のもとで配布しなければならないため、結果的に作品の自由な利用が維持される。オープンソースソフトウェアの普及に貢献し、共に協力して技術を発展させる文化を育む役割を果たしている。",
+          "definitionVi": "Cơ chế giấy phép yêu cầu duy trì quyền tự do tương ứng khi phân phối bản sửa đổi hoặc tác phẩm dẫn xuất thuộc phạm vi.",
+          "reading": ""
+        }
+      ],
+      "tags": ["legal", "labor-transaction-laws", "copyleft"]
+    },
+    {
+      "id": "software-development-model-contract",
+      "order": 44,
+      "titleJa": "ソフトウェア開発委託モデル契約",
+      "titleVi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm",
+      "importance": "medium",
+      "summaryJa": "企業がソフトウェアの開発を外部の専門業者に委託する際に結ぶ契約の一種である。",
+      "summaryVi": "Mẫu hợp đồng giúp thống nhất phạm vi, trách nhiệm và điều kiện thuê phát triển hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア開発委託モデル契約とは",
+          "vi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業がソフトウェアの開発を外部の専門業者に委託する際に結ぶ契約の一種である。この契約により、発注者は開発にかかるコストや時間の削減を図ることができ、外部の専門技術を活用することでクオリティの向上も期待できる。たとえば、企業が新しいアプリケーションを開発する際、社内に技術者が不足している場合に外部の開発会社に委託することで、短期間で高品質な成果物を得ることが可能となる。また、契約内容には開発の範囲や納期、料金について明記されるため、トラブルを避けるためにも重要な役割を果たす。このように、効率的な開発を実現するための重要な手段である。",
+          "vi": "Mẫu hợp đồng giúp thống nhất phạm vi, trách nhiệm và điều kiện thuê phát triển hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "モデル契約は参考ひな形であり、個別案件に合わせた調整が必要。",
+          "vi": "Hợp đồng mẫu là tài liệu tham khảo, phải tùy chỉnh theo dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア開発委託モデル契約",
+          "english": "Software Development Outsourcing Model Contract",
+          "vi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm",
+          "definitionJa": "企業がソフトウェアの開発を外部の専門業者に委託する際に結ぶ契約の一種である。この契約により、発注者は開発にかかるコストや時間の削減を図ることができ、外部の専門技術を活用することでクオリティの向上も期待できる。たとえば、企業が新しいアプリケーションを開発する際、社内に技術者が不足している場合に外部の開発会社に委託することで、短期間で高品質な成果物を得ることが可能となる。また、契約内容には開発の範囲や納期、料金について明記されるため、トラブルを避けるためにも重要な役割を果たす。このように、効率的な開発を実現するための重要な手段である。",
+          "definitionVi": "Mẫu hợp đồng giúp thống nhất phạm vi, trách nhiệm và điều kiện thuê phát triển hệ thống.",
+          "reading": "そふとうぇあかいはついたくもでるけいやく"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "software-development-model-contract"
+      ]
+    },
+    {
+      "id": "information-system-model-contract",
+      "order": 45,
+      "titleJa": "情報システム・モデル取引・契約書",
+      "titleVi": "Tài liệu hợp đồng giao dịch mẫu hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発において、開発プロジェクトの要件や条件を明確に記載した文書である。",
+      "summaryVi": "Bộ mẫu tài liệu và điều khoản giao dịch hệ thống thông tin giữa bên đặt hàng và nhà cung cấp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム・モデル取引・契約書とは",
+          "vi": "Tài liệu hợp đồng giao dịch mẫu hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発において、開発プロジェクトの要件や条件を明確に記載した文書である。これらの契約書は、クライアントと開発者の間での取引のルールや責任を定める重要な役割を果たす。また、情報システムはデータを管理し、処理する技術や手法を指し、モデル取引はそのシステムを実現するための具体的な見本やガイドラインを示す。例えば、特定のシステム開発に関する一連の要件がモデル取引として示され、その内容に基づいて契約書が作成される。これにより、双方が理解しやすく、後のトラブルを防ぐための効果的なコミュニケーション手段ともなる。",
+          "vi": "Bộ mẫu tài liệu và điều khoản giao dịch hệ thống thông tin giữa bên đặt hàng và nhà cung cấp."
+        },
+        {
+          "type": "point",
+          "ja": "要件定義、開発、検収、責任分担などの契約条項を明確化するためのひな形。",
+          "vi": "Làm rõ yêu cầu, phát triển, nghiệm thu và phân chia trách nhiệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム・モデル取引・契約書",
+          "english": "Information System, Model Transaction, Contract Document",
+          "vi": "Tài liệu hợp đồng giao dịch mẫu hệ thống thông tin",
+          "definitionJa": "ソフトウェア開発において、開発プロジェクトの要件や条件を明確に記載した文書である。これらの契約書は、クライアントと開発者の間での取引のルールや責任を定める重要な役割を果たす。また、情報システムはデータを管理し、処理する技術や手法を指し、モデル取引はそのシステムを実現するための具体的な見本やガイドラインを示す。例えば、特定のシステム開発に関する一連の要件がモデル取引として示され、その内容に基づいて契約書が作成される。これにより、双方が理解しやすく、後のトラブルを防ぐための効果的なコミュニケーション手段ともなる。",
+          "definitionVi": "Bộ mẫu tài liệu và điều khoản giao dịch hệ thống thông tin giữa bên đặt hàng và nhà cung cấp.",
+          "reading": "じょうほうしすてむ・もでるとりひき・けいやくしょ"
+        }
+      ],
+      "tags": [
+        "legal",
+        "labor-transaction-laws",
+        "information-system-model-contract"
+      ]
+    }
+  ]
 }

@@ -4,5 +4,791 @@
   "titleJa": "ソリューションビジネス",
   "titleVi": "Kinh doanh giải pháp",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "solution",
+      "order": 1,
+      "titleJa": "ソリューション",
+      "titleVi": "Giải pháp",
+      "importance": "medium",
+      "summaryJa": "特定の問題やニーズを解決するための方法やサービスを指す。",
+      "summaryVi": "Là phương pháp hoặc dịch vụ nhằm giải quyết một vấn đề hay nhu cầu cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソリューションとは",
+          "vi": "Giải pháp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の問題やニーズを解決するための方法やサービスを指す。特にビジネスでは、顧客の要求に応じてソフトウェア、ハードウェア、運用改善、教育などを組み合わせて提案する。",
+          "vi": "Là phương pháp hoặc dịch vụ nhằm giải quyết một vấn đề hay nhu cầu cụ thể. Trong kinh doanh, giải pháp có thể là đề xuất tổng thể kết hợp phần mềm, phần cứng, cải tiến vận hành và đào tạo theo yêu cầu khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "ソリューションは製品単体とは限らず、顧客課題を解決する組合せを含む。",
+          "vi": "Giải pháp không nhất thiết là một sản phẩm riêng lẻ; trọng tâm là giải quyết vấn đề của khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソリューション",
+          "english": "Solution",
+          "vi": "Giải pháp",
+          "definitionJa": "特定の問題やニーズを解決するための方法やサービスを指す。特にビジネスでは、顧客の要求に応じてソフトウェア、ハードウェア、運用改善、教育などを組み合わせて提案する。",
+          "definitionVi": "Là phương pháp hoặc dịch vụ nhằm giải quyết một vấn đề hay nhu cầu cụ thể. Trong kinh doanh, giải pháp có thể là đề xuất tổng thể kết hợp phần mềm, phần cứng, cải tiến vận hành và đào tạo theo yêu cầu khách hàng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "solution"]
+    },
+    {
+      "id": "solution-provider",
+      "order": 2,
+      "titleJa": "ソリューションプロバイダ",
+      "titleVi": "Nhà cung cấp giải pháp",
+      "importance": "medium",
+      "summaryJa": "顧客の課題やニーズを把握し、適切な技術・製品・サービスを組み合わせて解決策を提案・提供する企業や事業者である。",
+      "summaryVi": "Là doanh nghiệp hoặc đơn vị tìm hiểu vấn đề, nhu cầu của khách hàng rồi đề xuất và cung cấp giải pháp kết hợp công nghệ, sản phẩm và dịch vụ phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソリューションプロバイダとは",
+          "vi": "Nhà cung cấp giải pháp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客の課題やニーズを把握し、適切な技術・製品・サービスを組み合わせて解決策を提案・提供する企業や事業者である。導入、カスタマイズ、サポートも担当することがある。",
+          "vi": "Là doanh nghiệp hoặc đơn vị tìm hiểu vấn đề, nhu cầu của khách hàng rồi đề xuất và cung cấp giải pháp kết hợp công nghệ, sản phẩm và dịch vụ phù hợp. Có thể đảm nhận triển khai, tùy chỉnh và hỗ trợ."
+        },
+        {
+          "type": "point",
+          "ja": "ソリューションは解決策、プロバイダはそれを提供する主体。",
+          "vi": "Solution là giải pháp; solution provider là bên cung cấp giải pháp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソリューションプロバイダ",
+          "english": "Solution Provider",
+          "vi": "Nhà cung cấp giải pháp",
+          "definitionJa": "顧客の課題やニーズを把握し、適切な技術・製品・サービスを組み合わせて解決策を提案・提供する企業や事業者である。導入、カスタマイズ、サポートも担当することがある。",
+          "definitionVi": "Là doanh nghiệp hoặc đơn vị tìm hiểu vấn đề, nhu cầu của khách hàng rồi đề xuất và cung cấp giải pháp kết hợp công nghệ, sản phẩm và dịch vụ phù hợp. Có thể đảm nhận triển khai, tùy chỉnh và hỗ trợ.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "solution-provider"]
+    },
+    {
+      "id": "business-system-proposal",
+      "order": 3,
+      "titleJa": "業務システム提案",
+      "titleVi": "Đề xuất hệ thống phục vụ nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "業務の現状や課題、要件を分析し、適切な業務システムの導入方法、運用体制、費用、期待効果を提案することである。",
+      "summaryVi": "Là việc phân tích hiện trạng, vấn đề và yêu cầu nghiệp vụ để đề xuất hệ thống phù hợp, phương án triển khai, cơ chế vận hành, chi phí và hiệu quả dự kiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務システム提案とは",
+          "vi": "Đề xuất hệ thống phục vụ nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務の現状や課題、要件を分析し、適切な業務システムの導入方法、運用体制、費用、期待効果を提案することである。販売管理や人事管理などが対象となる。",
+          "vi": "Là việc phân tích hiện trạng, vấn đề và yêu cầu nghiệp vụ để đề xuất hệ thống phù hợp, phương án triển khai, cơ chế vận hành, chi phí và hiệu quả dự kiến. Ví dụ: hệ thống quản lý bán hàng hoặc nhân sự."
+        },
+        {
+          "type": "point",
+          "ja": "提案には機能だけでなく、費用・導入方法・期待効果も含める。",
+          "vi": "Đề xuất không chỉ nêu chức năng mà còn cần chi phí, cách triển khai và lợi ích dự kiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務システム提案",
+          "english": "Business System Proposal",
+          "vi": "Đề xuất hệ thống phục vụ nghiệp vụ",
+          "definitionJa": "業務の現状や課題、要件を分析し、適切な業務システムの導入方法、運用体制、費用、期待効果を提案することである。販売管理や人事管理などが対象となる。",
+          "definitionVi": "Là việc phân tích hiện trạng, vấn đề và yêu cầu nghiệp vụ để đề xuất hệ thống phù hợp, phương án triển khai, cơ chế vận hành, chi phí và hiệu quả dự kiến. Ví dụ: hệ thống quản lý bán hàng hoặc nhân sự.",
+          "reading": "ぎょうむしすてむていあん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "solution-business",
+        "business-system-proposal"
+      ]
+    },
+    {
+      "id": "business-package",
+      "order": 4,
+      "titleJa": "業務パッケージ",
+      "titleVi": "Phần mềm đóng gói phục vụ nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "会計、販売、在庫管理など特定の業務に必要な機能をまとめて提供するソフトウェア製品である。",
+      "summaryVi": "Là sản phẩm phần mềm đóng gói các chức năng cần thiết cho một hoặc nhiều nghiệp vụ như kế toán, bán hàng, quản lý tồn kho.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務パッケージとは",
+          "vi": "Phần mềm đóng gói phục vụ nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "会計、販売、在庫管理など特定の業務に必要な機能をまとめて提供するソフトウェア製品である。既製機能を利用して短期間で導入でき、必要に応じて設定変更やカスタマイズを行う。",
+          "vi": "Là sản phẩm phần mềm đóng gói các chức năng cần thiết cho một hoặc nhiều nghiệp vụ như kế toán, bán hàng, quản lý tồn kho. Có thể triển khai nhanh nhờ chức năng có sẵn và điều chỉnh cấu hình hoặc tùy biến khi cần."
+        },
+        {
+          "type": "point",
+          "ja": "既製の業務機能を活用する点が、ゼロからの個別開発と異なる。",
+          "vi": "Khác với phát triển riêng từ đầu, phần mềm đóng gói tận dụng các chức năng nghiệp vụ có sẵn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務パッケージ",
+          "english": "Business Package",
+          "vi": "Phần mềm đóng gói phục vụ nghiệp vụ",
+          "definitionJa": "会計、販売、在庫管理など特定の業務に必要な機能をまとめて提供するソフトウェア製品である。既製機能を利用して短期間で導入でき、必要に応じて設定変更やカスタマイズを行う。",
+          "definitionVi": "Là sản phẩm phần mềm đóng gói các chức năng cần thiết cho một hoặc nhiều nghiệp vụ như kế toán, bán hàng, quản lý tồn kho. Có thể triển khai nhanh nhờ chức năng có sẵn và điều chỉnh cấu hình hoặc tùy biến khi cần.",
+          "reading": "ぎょうむぱっけーじ"
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "business-package"]
+    },
+    {
+      "id": "problem-solving-support",
+      "order": 5,
+      "titleJa": "問題解決支援",
+      "titleVi": "Hỗ trợ giải quyết vấn đề",
+      "importance": "medium",
+      "summaryJa": "顧客や組織が抱える課題を分析し、助言、情報整理、データ分析、ツール提供などを通じて解決策の検討と実施を支援することである。",
+      "summaryVi": "Là việc hỗ trợ khách hàng hoặc tổ chức phân tích vấn đề, cân nhắc và thực hiện giải pháp thông qua tư vấn, tổ chức thông tin, phân tích dữ liệu hoặc cung cấp công cụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "問題解決支援とは",
+          "vi": "Hỗ trợ giải quyết vấn đề là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客や組織が抱える課題を分析し、助言、情報整理、データ分析、ツール提供などを通じて解決策の検討と実施を支援することである。",
+          "vi": "Là việc hỗ trợ khách hàng hoặc tổ chức phân tích vấn đề, cân nhắc và thực hiện giải pháp thông qua tư vấn, tổ chức thông tin, phân tích dữ liệu hoặc cung cấp công cụ."
+        },
+        {
+          "type": "point",
+          "ja": "課題の特定から対策の検討・実行までを支援する。",
+          "vi": "Hỗ trợ từ xác định vấn đề đến xem xét và triển khai biện pháp giải quyết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "問題解決支援",
+          "english": "Problem Solving Support",
+          "vi": "Hỗ trợ giải quyết vấn đề",
+          "definitionJa": "顧客や組織が抱える課題を分析し、助言、情報整理、データ分析、ツール提供などを通じて解決策の検討と実施を支援することである。",
+          "definitionVi": "Là việc hỗ trợ khách hàng hoặc tổ chức phân tích vấn đề, cân nhắc và thực hiện giải pháp thông qua tư vấn, tổ chức thông tin, phân tích dữ liệu hoặc cung cấp công cụ.",
+          "reading": "もんだいかいけつしえん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "solution-business",
+        "problem-solving-support"
+      ]
+    },
+    {
+      "id": "system-integration",
+      "order": 6,
+      "titleJa": "システムインテグレーション",
+      "titleVi": "Tích hợp hệ thống",
+      "importance": "high",
+      "summaryJa": "異なる情報システム、ソフトウェア、データベースなどを連携・統合し、一体として機能するシステムを構築することである。",
+      "summaryVi": "Là việc kết nối, tích hợp các hệ thống thông tin, phần mềm hoặc cơ sở dữ liệu khác nhau để chúng hoạt động như một hệ thống thống nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システムインテグレーションとは",
+          "vi": "Tích hợp hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なる情報システム、ソフトウェア、データベースなどを連携・統合し、一体として機能するシステムを構築することである。例えば営業の顧客管理と製造の在庫管理を接続する。",
+          "vi": "Là việc kết nối, tích hợp các hệ thống thông tin, phần mềm hoặc cơ sở dữ liệu khác nhau để chúng hoạt động như một hệ thống thống nhất. Ví dụ: kết nối hệ thống quản lý khách hàng của bộ phận kinh doanh với hệ thống tồn kho của bộ phận sản xuất."
+        },
+        {
+          "type": "point",
+          "ja": "システム間の連携と全体最適化が中心。",
+          "vi": "Trọng tâm là liên kết giữa các hệ thống và tối ưu hoạt động tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システムインテグレーション",
+          "english": "System Integration",
+          "vi": "Tích hợp hệ thống",
+          "definitionJa": "異なる情報システム、ソフトウェア、データベースなどを連携・統合し、一体として機能するシステムを構築することである。例えば営業の顧客管理と製造の在庫管理を接続する。",
+          "definitionVi": "Là việc kết nối, tích hợp các hệ thống thông tin, phần mềm hoặc cơ sở dữ liệu khác nhau để chúng hoạt động như một hệ thống thống nhất. Ví dụ: kết nối hệ thống quản lý khách hàng của bộ phận kinh doanh với hệ thống tồn kho của bộ phận sản xuất.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "system-integration"]
+    },
+    {
+      "id": "cloud-service",
+      "order": 7,
+      "titleJa": "クラウドサービス",
+      "titleVi": "Dịch vụ điện toán đám mây",
+      "importance": "high",
+      "summaryJa": "インターネットなどのネットワーク経由でソフトウェアや開発基盤、サーバ・ストレージなどのIT資源を利用できるサービスである。",
+      "summaryVi": "Là dịch vụ cung cấp tài nguyên CNTT như phần mềm, nền tảng phát triển, máy chủ và lưu trữ qua mạng, thường là Internet.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドサービスとは",
+          "vi": "Dịch vụ điện toán đám mây là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットなどのネットワーク経由でソフトウェアや開発基盤、サーバ・ストレージなどのIT資源を利用できるサービスである。主な提供形態にSaaS、PaaS、IaaSがある。",
+          "vi": "Là dịch vụ cung cấp tài nguyên CNTT như phần mềm, nền tảng phát triển, máy chủ và lưu trữ qua mạng, thường là Internet. Ba mô hình cung cấp chính gồm SaaS, PaaS và IaaS."
+        },
+        {
+          "type": "point",
+          "ja": "SaaS＝ソフトウェア、PaaS＝開発・実行基盤、IaaS＝インフラ。",
+          "vi": "SaaS cung cấp phần mềm; PaaS cung cấp nền tảng phát triển/chạy ứng dụng; IaaS cung cấp hạ tầng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドサービス",
+          "english": "Cloud Service",
+          "vi": "Dịch vụ điện toán đám mây",
+          "definitionJa": "インターネットなどのネットワーク経由でソフトウェアや開発基盤、サーバ・ストレージなどのIT資源を利用できるサービスである。主な提供形態にSaaS、PaaS、IaaSがある。",
+          "definitionVi": "Là dịch vụ cung cấp tài nguyên CNTT như phần mềm, nền tảng phát triển, máy chủ và lưu trữ qua mạng, thường là Internet. Ba mô hình cung cấp chính gồm SaaS, PaaS và IaaS.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "cloud-service"]
+    },
+    {
+      "id": "public-cloud",
+      "order": 8,
+      "titleJa": "パブリッククラウド",
+      "titleVi": "Đám mây công cộng",
+      "importance": "high",
+      "summaryJa": "クラウド事業者が一般の利用者や複数の組織に提供するクラウド環境である。",
+      "summaryVi": "Là môi trường đám mây do nhà cung cấp dịch vụ cung cấp cho nhiều khách hàng hoặc tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パブリッククラウドとは",
+          "vi": "Đám mây công cộng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラウド事業者が一般の利用者や複数の組織に提供するクラウド環境である。利用者は必要な資源を柔軟に利用でき、初期投資を抑えやすい。",
+          "vi": "Là môi trường đám mây do nhà cung cấp dịch vụ cung cấp cho nhiều khách hàng hoặc tổ chức. Người dùng có thể sử dụng tài nguyên linh hoạt theo nhu cầu và thường giảm được chi phí đầu tư ban đầu."
+        },
+        {
+          "type": "point",
+          "ja": "パブリックは不特定の顧客に提供される形態で、データが誰にでも公開される意味ではない。",
+          "vi": "“Công cộng” nói về mô hình cung cấp cho nhiều khách hàng, không có nghĩa dữ liệu của khách hàng được công khai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パブリッククラウド",
+          "english": "Public Cloud",
+          "vi": "Đám mây công cộng",
+          "definitionJa": "クラウド事業者が一般の利用者や複数の組織に提供するクラウド環境である。利用者は必要な資源を柔軟に利用でき、初期投資を抑えやすい。",
+          "definitionVi": "Là môi trường đám mây do nhà cung cấp dịch vụ cung cấp cho nhiều khách hàng hoặc tổ chức. Người dùng có thể sử dụng tài nguyên linh hoạt theo nhu cầu và thường giảm được chi phí đầu tư ban đầu.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "public-cloud"]
+    },
+    {
+      "id": "private-cloud",
+      "order": 9,
+      "titleJa": "プライベートクラウド",
+      "titleVi": "Đám mây riêng",
+      "importance": "high",
+      "summaryJa": "特定の組織が専用に利用するクラウド環境である。",
+      "summaryVi": "Là môi trường đám mây dành riêng cho một tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プライベートクラウドとは",
+          "vi": "Đám mây riêng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の組織が専用に利用するクラウド環境である。資源や運用方針を組織の要件に合わせやすく、自社施設内だけでなく外部事業者の施設に構築される場合もある。",
+          "vi": "Là môi trường đám mây dành riêng cho một tổ chức. Tài nguyên và chính sách vận hành có thể được điều chỉnh theo yêu cầu của tổ chức; môi trường này có thể đặt tại cơ sở của doanh nghiệp hoặc nhà cung cấp bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "プライベートは専用利用を表し、設置場所が必ず自社内とは限らない。",
+          "vi": "Đám mây riêng nghĩa là sử dụng chuyên biệt, không bắt buộc phải đặt trong trụ sở doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プライベートクラウド",
+          "english": "Private Cloud",
+          "vi": "Đám mây riêng",
+          "definitionJa": "特定の組織が専用に利用するクラウド環境である。資源や運用方針を組織の要件に合わせやすく、自社施設内だけでなく外部事業者の施設に構築される場合もある。",
+          "definitionVi": "Là môi trường đám mây dành riêng cho một tổ chức. Tài nguyên và chính sách vận hành có thể được điều chỉnh theo yêu cầu của tổ chức; môi trường này có thể đặt tại cơ sở của doanh nghiệp hoặc nhà cung cấp bên ngoài.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "private-cloud"]
+    },
+    {
+      "id": "hybrid-cloud",
+      "order": 10,
+      "titleJa": "ハイブリッドクラウド",
+      "titleVi": "Đám mây lai",
+      "importance": "high",
+      "summaryJa": "パブリッククラウドとプライベートクラウドなど異なるクラウド環境を組み合わせ、相互に連携させて利用する形態である。",
+      "summaryVi": "Là mô hình kết hợp và liên kết các môi trường đám mây khác nhau, chẳng hạn đám mây công cộng và đám mây riêng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハイブリッドクラウドとは",
+          "vi": "Đám mây lai là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "パブリッククラウドとプライベートクラウドなど異なるクラウド環境を組み合わせ、相互に連携させて利用する形態である。機密情報と一般業務を分けるなど柔軟な運用ができる。",
+          "vi": "Là mô hình kết hợp và liên kết các môi trường đám mây khác nhau, chẳng hạn đám mây công cộng và đám mây riêng. Có thể đặt dữ liệu nhạy cảm trong môi trường riêng và chạy nghiệp vụ thông thường trên môi trường công cộng."
+        },
+        {
+          "type": "point",
+          "ja": "複数のクラウドを組み合わせて連携運用する。",
+          "vi": "Kết hợp nhiều môi trường đám mây và vận hành chúng có liên kết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハイブリッドクラウド",
+          "english": "Hybrid Cloud",
+          "vi": "Đám mây lai",
+          "definitionJa": "パブリッククラウドとプライベートクラウドなど異なるクラウド環境を組み合わせ、相互に連携させて利用する形態である。機密情報と一般業務を分けるなど柔軟な運用ができる。",
+          "definitionVi": "Là mô hình kết hợp và liên kết các môi trường đám mây khác nhau, chẳng hạn đám mây công cộng và đám mây riêng. Có thể đặt dữ liệu nhạy cảm trong môi trường riêng và chạy nghiệp vụ thông thường trên môi trường công cộng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "hybrid-cloud"]
+    },
+    {
+      "id": "sovereign-cloud",
+      "order": 11,
+      "titleJa": "ソブリンクラウド",
+      "titleVi": "Đám mây chủ quyền dữ liệu",
+      "importance": "medium",
+      "summaryJa": "特定の国・地域の法令やデータ主権に関する要件に対応することを重視したクラウドサービスである。",
+      "summaryVi": "Là dịch vụ đám mây chú trọng đáp ứng luật pháp của quốc gia/khu vực và các yêu cầu về chủ quyền dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソブリンクラウドとは",
+          "vi": "Đám mây chủ quyền dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の国・地域の法令やデータ主権に関する要件に対応することを重視したクラウドサービスである。データの保存場所、アクセス権、運用主体などの管理が重要となる。",
+          "vi": "Là dịch vụ đám mây chú trọng đáp ứng luật pháp của quốc gia/khu vực và các yêu cầu về chủ quyền dữ liệu. Những yếu tố quan trọng gồm vị trí lưu trữ dữ liệu, quyền truy cập và đơn vị vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "データ主権や法規制への対応が焦点。単に国内にサーバがあるだけでは十分とは限らない。",
+          "vi": "Trọng tâm là chủ quyền dữ liệu và tuân thủ quy định; chỉ đặt máy chủ trong nước chưa chắc đã đủ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソブリンクラウド",
+          "english": "Sovereign Cloud",
+          "vi": "Đám mây chủ quyền dữ liệu",
+          "definitionJa": "特定の国・地域の法令やデータ主権に関する要件に対応することを重視したクラウドサービスである。データの保存場所、アクセス権、運用主体などの管理が重要となる。",
+          "definitionVi": "Là dịch vụ đám mây chú trọng đáp ứng luật pháp của quốc gia/khu vực và các yêu cầu về chủ quyền dữ liệu. Những yếu tố quan trọng gồm vị trí lưu trữ dữ liệu, quyền truy cập và đơn vị vận hành.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "sovereign-cloud"]
+    },
+    {
+      "id": "asp",
+      "order": 12,
+      "titleJa": "ASP",
+      "titleVi": "Nhà cung cấp dịch vụ ứng dụng (ASP)",
+      "importance": "high",
+      "summaryJa": "ネットワークを通じてアプリケーションを利用できるよう提供する事業者、またはその提供形態を指す。",
+      "summaryVi": "Là nhà cung cấp ứng dụng để người dùng sử dụng qua mạng, hoặc mô hình cung cấp ứng dụng đó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ASPとは",
+          "vi": "Nhà cung cấp dịch vụ ứng dụng (ASP) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークを通じてアプリケーションを利用できるよう提供する事業者、またはその提供形態を指す。利用者は自社でソフトウェアを一から構築・管理する負担を減らせる。",
+          "vi": "Là nhà cung cấp ứng dụng để người dùng sử dụng qua mạng, hoặc mô hình cung cấp ứng dụng đó. Người dùng có thể giảm công sức tự xây dựng và quản lý phần mềm."
+        },
+        {
+          "type": "point",
+          "ja": "ASPはアプリケーション提供事業者・形態を指し、SaaSと重なる部分がある。",
+          "vi": "ASP nhấn mạnh đơn vị/mô hình cung cấp ứng dụng qua mạng và có phần giao thoa với SaaS."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ASP",
+          "english": "Application Service Provider",
+          "vi": "Nhà cung cấp dịch vụ ứng dụng (ASP)",
+          "definitionJa": "ネットワークを通じてアプリケーションを利用できるよう提供する事業者、またはその提供形態を指す。利用者は自社でソフトウェアを一から構築・管理する負担を減らせる。",
+          "definitionVi": "Là nhà cung cấp ứng dụng để người dùng sử dụng qua mạng, hoặc mô hình cung cấp ứng dụng đó. Người dùng có thể giảm công sức tự xây dựng và quản lý phần mềm.",
+          "reading": "えーえすぴー"
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "asp"]
+    },
+    {
+      "id": "soa",
+      "order": 13,
+      "titleJa": "SOA",
+      "titleVi": "Kiến trúc hướng dịch vụ",
+      "importance": "high",
+      "summaryJa": "システムの機能を独立したサービスとして構成し、標準的なインタフェースなどを通じて連携させる設計思想である。",
+      "summaryVi": "Là tư tưởng thiết kế trong đó chức năng hệ thống được tổ chức thành các dịch vụ độc lập và liên kết qua giao diện, giao thức thích hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SOAとは",
+          "vi": "Kiến trúc hướng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの機能を独立したサービスとして構成し、標準的なインタフェースなどを通じて連携させる設計思想である。サービスの再利用やシステム変更への柔軟な対応を目指す。",
+          "vi": "Là tư tưởng thiết kế trong đó chức năng hệ thống được tổ chức thành các dịch vụ độc lập và liên kết qua giao diện, giao thức thích hợp. Mục tiêu là tái sử dụng dịch vụ và dễ thích ứng khi hệ thống thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "SOAはサービスを単位とする設計思想であり、クラウドの提供形態そのものではない。",
+          "vi": "SOA là cách thiết kế hệ thống theo dịch vụ, không phải một mô hình cung cấp dịch vụ đám mây."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SOA",
+          "english": "Service-Oriented Architecture",
+          "vi": "Kiến trúc hướng dịch vụ",
+          "definitionJa": "システムの機能を独立したサービスとして構成し、標準的なインタフェースなどを通じて連携させる設計思想である。サービスの再利用やシステム変更への柔軟な対応を目指す。",
+          "definitionVi": "Là tư tưởng thiết kế trong đó chức năng hệ thống được tổ chức thành các dịch vụ độc lập và liên kết qua giao diện, giao thức thích hợp. Mục tiêu là tái sử dụng dịch vụ và dễ thích ứng khi hệ thống thay đổi.",
+          "reading": "えすおーえー"
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "soa"]
+    },
+    {
+      "id": "cloud-native",
+      "order": 14,
+      "titleJa": "クラウドネイティブ",
+      "titleVi": "Thiết kế và phát triển ứng dụng theo hướng cloud-native",
+      "importance": "high",
+      "summaryJa": "クラウド環境の特性を生かすことを前提にアプリケーションを設計・開発・運用する考え方である。",
+      "summaryVi": "Là cách thiết kế, phát triển và vận hành ứng dụng nhằm tận dụng các đặc tính của môi trường đám mây.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドネイティブとは",
+          "vi": "Thiết kế và phát triển ứng dụng theo hướng cloud-native là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラウド環境の特性を生かすことを前提にアプリケーションを設計・開発・運用する考え方である。コンテナ、マイクロサービス、自動化などを活用し、迅速な変更や柔軟な拡張を実現する。",
+          "vi": "Là cách thiết kế, phát triển và vận hành ứng dụng nhằm tận dụng các đặc tính của môi trường đám mây. Thường sử dụng container, microservices và tự động hóa để thay đổi nhanh và mở rộng linh hoạt."
+        },
+        {
+          "type": "point",
+          "ja": "クラウド上で動くだけでなく、クラウドの利点を活用する設計が重要。",
+          "vi": "Không chỉ đơn thuần chạy trên cloud; điều quan trọng là thiết kế tận dụng ưu điểm của cloud."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドネイティブ",
+          "english": "Cloud Native",
+          "vi": "Thiết kế và phát triển ứng dụng theo hướng cloud-native",
+          "definitionJa": "クラウド環境の特性を生かすことを前提にアプリケーションを設計・開発・運用する考え方である。コンテナ、マイクロサービス、自動化などを活用し、迅速な変更や柔軟な拡張を実現する。",
+          "definitionVi": "Là cách thiết kế, phát triển và vận hành ứng dụng nhằm tận dụng các đặc tính của môi trường đám mây. Thường sử dụng container, microservices và tự động hóa để thay đổi nhanh và mở rộng linh hoạt.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "cloud-native"]
+    },
+    {
+      "id": "cloud-by-default",
+      "order": 15,
+      "titleJa": "クラウドバイデフォルト",
+      "titleVi": "Ưu tiên lựa chọn đám mây theo mặc định",
+      "importance": "medium",
+      "summaryJa": "新しい情報システムの導入や更新を検討するとき、クラウドサービスの利用を基本的な選択肢として優先的に検討する方針である。",
+      "summaryVi": "Là chính sách ưu tiên xem xét sử dụng dịch vụ đám mây khi xây dựng hoặc thay mới hệ thống thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドバイデフォルトとは",
+          "vi": "Ưu tiên lựa chọn đám mây theo mặc định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新しい情報システムの導入や更新を検討するとき、クラウドサービスの利用を基本的な選択肢として優先的に検討する方針である。要件によっては他の方式も選択できる。",
+          "vi": "Là chính sách ưu tiên xem xét sử dụng dịch vụ đám mây khi xây dựng hoặc thay mới hệ thống thông tin. Vẫn có thể chọn phương án khác nếu yêu cầu thực tế phù hợp hơn."
+        },
+        {
+          "type": "point",
+          "ja": "クラウドを優先的に検討する方針であり、必ずクラウドを採用するという意味ではない。",
+          "vi": "Đây là chính sách ưu tiên xem xét cloud, không phải bắt buộc mọi hệ thống đều dùng cloud."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドバイデフォルト",
+          "english": "Cloud by Default",
+          "vi": "Ưu tiên lựa chọn đám mây theo mặc định",
+          "definitionJa": "新しい情報システムの導入や更新を検討するとき、クラウドサービスの利用を基本的な選択肢として優先的に検討する方針である。要件によっては他の方式も選択できる。",
+          "definitionVi": "Là chính sách ưu tiên xem xét sử dụng dịch vụ đám mây khi xây dựng hoặc thay mới hệ thống thông tin. Vẫn có thể chọn phương án khác nếu yêu cầu thực tế phù hợp hơn.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "cloud-by-default"]
+    },
+    {
+      "id": "outsourcing-service",
+      "order": 16,
+      "titleJa": "アウトソーシングサービス",
+      "titleVi": "Dịch vụ thuê ngoài",
+      "importance": "medium",
+      "summaryJa": "自社で行っていた業務や機能の全部または一部を外部の専門事業者に委託するサービスである。",
+      "summaryVi": "Là dịch vụ giao toàn bộ hoặc một phần công việc/chức năng của doanh nghiệp cho đơn vị chuyên môn bên ngoài thực hiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アウトソーシングサービスとは",
+          "vi": "Dịch vụ thuê ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自社で行っていた業務や機能の全部または一部を外部の専門事業者に委託するサービスである。人事、経理、IT運用などで利用され、専門性の活用やコスト最適化を目指す。",
+          "vi": "Là dịch vụ giao toàn bộ hoặc một phần công việc/chức năng của doanh nghiệp cho đơn vị chuyên môn bên ngoài thực hiện. Thường áp dụng cho nhân sự, kế toán, vận hành CNTT nhằm tận dụng chuyên môn và tối ưu chi phí."
+        },
+        {
+          "type": "point",
+          "ja": "アウトソーシングは外部委託全般、BPOは業務プロセスの委託に焦点を当てる。",
+          "vi": "Outsourcing là thuê ngoài nói chung; BPO tập trung vào thuê ngoài quy trình nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アウトソーシングサービス",
+          "english": "Outsourcing Service",
+          "vi": "Dịch vụ thuê ngoài",
+          "definitionJa": "自社で行っていた業務や機能の全部または一部を外部の専門事業者に委託するサービスである。人事、経理、IT運用などで利用され、専門性の活用やコスト最適化を目指す。",
+          "definitionVi": "Là dịch vụ giao toàn bộ hoặc một phần công việc/chức năng của doanh nghiệp cho đơn vị chuyên môn bên ngoài thực hiện. Thường áp dụng cho nhân sự, kế toán, vận hành CNTT nhằm tận dụng chuyên môn và tối ưu chi phí.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "outsourcing-service"]
+    },
+    {
+      "id": "hosting-service",
+      "order": 17,
+      "titleJa": "ホスティングサービス",
+      "titleVi": "Dịch vụ cho thuê máy chủ/lưu trữ để vận hành hệ thống",
+      "importance": "high",
+      "summaryJa": "事業者が保有・管理するサーバやストレージなどを利用者に提供し、Webサイトやアプリケーションの公開・運用を支援するサービスである。",
+      "summaryVi": "Là dịch vụ nhà cung cấp cho khách hàng sử dụng máy chủ, dung lượng lưu trữ hoặc tài nguyên do nhà cung cấp sở hữu/quản lý để công bố và vận hành website hay ứng dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ホスティングサービスとは",
+          "vi": "Dịch vụ cho thuê máy chủ/lưu trữ để vận hành hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業者が保有・管理するサーバやストレージなどを利用者に提供し、Webサイトやアプリケーションの公開・運用を支援するサービスである。",
+          "vi": "Là dịch vụ nhà cung cấp cho khách hàng sử dụng máy chủ, dung lượng lưu trữ hoặc tài nguyên do nhà cung cấp sở hữu/quản lý để công bố và vận hành website hay ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "ホスティングは事業者側のサーバ資源を利用する。",
+          "vi": "Hosting: khách hàng sử dụng tài nguyên máy chủ do nhà cung cấp cung cấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ホスティングサービス",
+          "english": "Hosting Service",
+          "vi": "Dịch vụ cho thuê máy chủ/lưu trữ để vận hành hệ thống",
+          "definitionJa": "事業者が保有・管理するサーバやストレージなどを利用者に提供し、Webサイトやアプリケーションの公開・運用を支援するサービスである。",
+          "definitionVi": "Là dịch vụ nhà cung cấp cho khách hàng sử dụng máy chủ, dung lượng lưu trữ hoặc tài nguyên do nhà cung cấp sở hữu/quản lý để công bố và vận hành website hay ứng dụng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "hosting-service"]
+    },
+    {
+      "id": "housing-service",
+      "order": 18,
+      "titleJa": "ハウジングサービス",
+      "titleVi": "Dịch vụ đặt máy chủ tại trung tâm dữ liệu",
+      "importance": "high",
+      "summaryJa": "利用者が所有するサーバなどの機器を事業者のデータセンターに設置し、設置場所、電源、空調、回線などの設備を利用するサービスである。",
+      "summaryVi": "Là dịch vụ đặt máy chủ hoặc thiết bị do khách hàng sở hữu tại trung tâm dữ liệu của nhà cung cấp, đồng thời sử dụng không gian, điện, điều hòa, đường truyền và hạ tầng đi kèm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハウジングサービスとは",
+          "vi": "Dịch vụ đặt máy chủ tại trung tâm dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者が所有するサーバなどの機器を事業者のデータセンターに設置し、設置場所、電源、空調、回線などの設備を利用するサービスである。",
+          "vi": "Là dịch vụ đặt máy chủ hoặc thiết bị do khách hàng sở hữu tại trung tâm dữ liệu của nhà cung cấp, đồng thời sử dụng không gian, điện, điều hòa, đường truyền và hạ tầng đi kèm."
+        },
+        {
+          "type": "point",
+          "ja": "ホスティングはサーバを借り、ハウジングは原則として自社所有のサーバを預ける。",
+          "vi": "Hosting: thuê tài nguyên máy chủ; housing: đặt máy chủ thuộc sở hữu của mình tại cơ sở nhà cung cấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハウジングサービス",
+          "english": "Housing Service",
+          "vi": "Dịch vụ đặt máy chủ tại trung tâm dữ liệu",
+          "definitionJa": "利用者が所有するサーバなどの機器を事業者のデータセンターに設置し、設置場所、電源、空調、回線などの設備を利用するサービスである。",
+          "definitionVi": "Là dịch vụ đặt máy chủ hoặc thiết bị do khách hàng sở hữu tại trung tâm dữ liệu của nhà cung cấp, đồng thời sử dụng không gian, điện, điều hòa, đường truyền và hạ tầng đi kèm.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "housing-service"]
+    },
+    {
+      "id": "on-premises",
+      "order": 19,
+      "titleJa": "オンプレミス",
+      "titleVi": "Triển khai tại chỗ (on-premises)",
+      "importance": "high",
+      "summaryJa": "企業や組織が自社の施設などにサーバやソフトウェアを設置し、自ら運用・管理する形態である。",
+      "summaryVi": "Là mô hình doanh nghiệp/tổ chức lắp đặt máy chủ và phần mềm tại cơ sở của mình và tự vận hành, quản lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オンプレミスとは",
+          "vi": "Triển khai tại chỗ (on-premises) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が自社の施設などにサーバやソフトウェアを設置し、自ら運用・管理する形態である。構成を細かく制御できる一方、導入費用や保守負担が発生する。",
+          "vi": "Là mô hình doanh nghiệp/tổ chức lắp đặt máy chủ và phần mềm tại cơ sở của mình và tự vận hành, quản lý. Có thể chủ động kiểm soát cấu hình nhưng phải chịu chi phí triển khai và bảo trì."
+        },
+        {
+          "type": "point",
+          "ja": "オンプレミスは自社設備で運用し、クラウドは外部提供のIT資源をサービスとして利用する。",
+          "vi": "On-premises vận hành trên hạ tầng tại chỗ; cloud sử dụng tài nguyên CNTT được cung cấp dưới dạng dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オンプレミス",
+          "english": "On-Premises",
+          "vi": "Triển khai tại chỗ (on-premises)",
+          "definitionJa": "企業や組織が自社の施設などにサーバやソフトウェアを設置し、自ら運用・管理する形態である。構成を細かく制御できる一方、導入費用や保守負担が発生する。",
+          "definitionVi": "Là mô hình doanh nghiệp/tổ chức lắp đặt máy chủ và phần mềm tại cơ sở của mình và tự vận hành, quản lý. Có thể chủ động kiểm soát cấu hình nhưng phải chịu chi phí triển khai và bảo trì.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "on-premises"]
+    },
+    {
+      "id": "crm-solution",
+      "order": 20,
+      "titleJa": "CRMソリューション",
+      "titleVi": "Giải pháp quản lý quan hệ khách hàng (CRM)",
+      "importance": "medium",
+      "summaryJa": "顧客情報、購入履歴、問い合わせ履歴などを一元管理し、営業・マーケティング・顧客対応を支援して顧客との関係を維持・改善する仕組みである。",
+      "summaryVi": "Là giải pháp quản lý tập trung thông tin khách hàng, lịch sử mua hàng, lịch sử liên hệ nhằm hỗ trợ bán hàng, marketing, chăm sóc khách hàng và duy trì, cải thiện quan hệ với khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CRMソリューションとは",
+          "vi": "Giải pháp quản lý quan hệ khách hàng (CRM) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客情報、購入履歴、問い合わせ履歴などを一元管理し、営業・マーケティング・顧客対応を支援して顧客との関係を維持・改善する仕組みである。",
+          "vi": "Là giải pháp quản lý tập trung thông tin khách hàng, lịch sử mua hàng, lịch sử liên hệ nhằm hỗ trợ bán hàng, marketing, chăm sóc khách hàng và duy trì, cải thiện quan hệ với khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "CRMは顧客との関係全体を重視し、SFAは主に営業活動の効率化を支援する。",
+          "vi": "CRM tập trung vào quan hệ khách hàng tổng thể; SFA chủ yếu hỗ trợ hiệu quả hoạt động bán hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CRMソリューション",
+          "english": "Customer Relationship Management Solution",
+          "vi": "Giải pháp quản lý quan hệ khách hàng (CRM)",
+          "definitionJa": "顧客情報、購入履歴、問い合わせ履歴などを一元管理し、営業・マーケティング・顧客対応を支援して顧客との関係を維持・改善する仕組みである。",
+          "definitionVi": "Là giải pháp quản lý tập trung thông tin khách hàng, lịch sử mua hàng, lịch sử liên hệ nhằm hỗ trợ bán hàng, marketing, chăm sóc khách hàng và duy trì, cải thiện quan hệ với khách hàng.",
+          "reading": "しーあーるえむそりゅーしょん"
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "crm-solution"]
+    },
+    {
+      "id": "security-solution",
+      "order": 21,
+      "titleJa": "セキュリティソリューション",
+      "titleVi": "Giải pháp bảo mật thông tin",
+      "importance": "medium",
+      "summaryJa": "情報やシステムを脅威から守るための技術、製品、サービス、運用対策の組合せである。",
+      "summaryVi": "Là sự kết hợp công nghệ, sản phẩm, dịch vụ và biện pháp vận hành nhằm bảo vệ thông tin, hệ thống trước các mối đe dọa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "セキュリティソリューションとは",
+          "vi": "Giải pháp bảo mật thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報やシステムを脅威から守るための技術、製品、サービス、運用対策の組合せである。ウイルス対策、ファイアウォール、暗号化、認証、アクセス制御などが含まれる。",
+          "vi": "Là sự kết hợp công nghệ, sản phẩm, dịch vụ và biện pháp vận hành nhằm bảo vệ thông tin, hệ thống trước các mối đe dọa. Bao gồm chống mã độc, tường lửa, mã hóa, xác thực và kiểm soát truy cập."
+        },
+        {
+          "type": "point",
+          "ja": "機密性・完全性・可用性の確保に向けて複数の対策を組み合わせる。",
+          "vi": "Kết hợp nhiều biện pháp nhằm bảo đảm tính bí mật, toàn vẹn và sẵn sàng của thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "セキュリティソリューション",
+          "english": "Security Solution",
+          "vi": "Giải pháp bảo mật thông tin",
+          "definitionJa": "情報やシステムを脅威から守るための技術、製品、サービス、運用対策の組合せである。ウイルス対策、ファイアウォール、暗号化、認証、アクセス制御などが含まれる。",
+          "definitionVi": "Là sự kết hợp công nghệ, sản phẩm, dịch vụ và biện pháp vận hành nhằm bảo vệ thông tin, hệ thống trước các mối đe dọa. Bao gồm chống mã độc, tường lửa, mã hóa, xác thực và kiểm soát truy cập.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-strategy", "solution-business", "security-solution"]
+    }
+  ]
 }

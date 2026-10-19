@@ -4,5 +4,984 @@
   "titleJa": "民生機器",
   "titleVi": "Thiết bị dân dụng",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "microcomputer",
+      "order": 1,
+      "titleJa": "マイクロコンピュータ",
+      "titleVi": "Vi điều khiển / máy tính siêu nhỏ",
+      "importance": "medium",
+      "summaryJa": "CPUやメモリなどを小型のチップに集積し、機器の制御やデータ処理を行うコンピュータ。",
+      "summaryVi": "CPU, bộ nhớ và giao tiếp được tích hợp trong một hệ thống nhỏ để điều khiển thiết bị điện tử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイクロコンピュータとは",
+          "vi": "Vi điều khiển / máy tính siêu nhỏ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "CPUやメモリなどを小型のチップに集積し、機器の制御やデータ処理を行うコンピュータ。 家電や自動車の制御に用いられ、低消費電力で動作する。",
+          "vi": "CPU, bộ nhớ và giao tiếp được tích hợp trong một hệ thống nhỏ để điều khiển thiết bị điện tử."
+        },
+        {
+          "type": "point",
+          "ja": "マイコンは組込み機器の制御に使われる。",
+          "vi": "Nhớ: vi điều khiển thường nằm bên trong thiết bị, không phải máy tính cá nhân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイクロコンピュータ",
+          "english": "Microcomputer",
+          "vi": "Vi điều khiển / máy tính siêu nhỏ",
+          "definitionJa": "CPUやメモリなどを小型のチップに集積し、機器の制御やデータ処理を行うコンピュータ。 家電や自動車の制御に用いられ、低消費電力で動作する。",
+          "definitionVi": "CPU, bộ nhớ và giao tiếp được tích hợp trong một hệ thống nhỏ để điều khiển thiết bị điện tử.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "microcomputer"]
+    },
+    {
+      "id": "edge-computing",
+      "order": 2,
+      "titleJa": "エッジコンピューティング",
+      "titleVi": "Điện toán biên",
+      "importance": "high",
+      "summaryJa": "データの発生源に近い端末やサーバで処理する技術。",
+      "summaryVi": "Xử lý dữ liệu gần nơi phát sinh thay vì luôn gửi lên đám mây, giảm độ trễ và lưu lượng mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エッジコンピューティングとは",
+          "vi": "Điện toán biên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの発生源に近い端末やサーバで処理する技術。 クラウドへの通信量や遅延を減らし、迅速に応答できる。",
+          "vi": "Xử lý dữ liệu gần nơi phát sinh thay vì luôn gửi lên đám mây, giảm độ trễ và lưu lượng mạng."
+        },
+        {
+          "type": "point",
+          "ja": "エッジは処理場所、クラウドは遠隔の計算資源。",
+          "vi": "Phân biệt: edge xử lý gần thiết bị; cloud xử lý trên hạ tầng từ xa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エッジコンピューティング",
+          "english": "Edge Computing",
+          "vi": "Điện toán biên",
+          "definitionJa": "データの発生源に近い端末やサーバで処理する技術。 クラウドへの通信量や遅延を減らし、迅速に応答できる。",
+          "definitionVi": "Xử lý dữ liệu gần nơi phát sinh thay vì luôn gửi lên đám mây, giảm độ trễ và lưu lượng mạng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "edge-computing"]
+    },
+    {
+      "id": "edge-ai",
+      "order": 3,
+      "titleJa": "エッジAI",
+      "titleVi": "AI tại biên",
+      "importance": "high",
+      "summaryJa": "端末やネットワークの端でAIによる推論・解析を実行する技術。",
+      "summaryVi": "Thực hiện suy luận AI trên thiết bị hoặc gần thiết bị để phản hồi nhanh và giảm truyền dữ liệu nhạy cảm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エッジAIとは",
+          "vi": "AI tại biên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "端末やネットワークの端でAIによる推論・解析を実行する技術。 監視カメラの映像解析などを現場で行い、通信遅延を抑える。",
+          "vi": "Thực hiện suy luận AI trên thiết bị hoặc gần thiết bị để phản hồi nhanh và giảm truyền dữ liệu nhạy cảm."
+        },
+        {
+          "type": "point",
+          "ja": "エッジAIはエッジコンピューティングのAI活用例。",
+          "vi": "Edge AI là ứng dụng AI của điện toán biên, không đồng nghĩa với toàn bộ edge computing."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エッジAI",
+          "english": "Edge AI",
+          "vi": "AI tại biên",
+          "definitionJa": "端末やネットワークの端でAIによる推論・解析を実行する技術。 監視カメラの映像解析などを現場で行い、通信遅延を抑える。",
+          "definitionVi": "Thực hiện suy luận AI trên thiết bị hoặc gần thiết bị để phản hồi nhanh và giảm truyền dữ liệu nhạy cảm.",
+          "reading": "えっじえーあい"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "edge-ai"]
+    },
+    {
+      "id": "embedded-os",
+      "order": 4,
+      "titleJa": "組込みOS",
+      "titleVi": "Hệ điều hành nhúng",
+      "importance": "high",
+      "summaryJa": "家電や車載装置など、特定用途の機器に組み込んで使うOS。",
+      "summaryVi": "Hệ điều hành dành cho thiết bị có chức năng chuyên dụng, thường tối ưu cho tài nguyên hạn chế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "組込みOSとは",
+          "vi": "Hệ điều hành nhúng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "家電や車載装置など、特定用途の機器に組み込んで使うOS。 限られたメモリや処理能力で安定して動作するよう設計される。",
+          "vi": "Hệ điều hành dành cho thiết bị có chức năng chuyên dụng, thường tối ưu cho tài nguyên hạn chế."
+        },
+        {
+          "type": "point",
+          "ja": "組込みOSのすべてがリアルタイムOSとは限らない。",
+          "vi": "Không phải mọi hệ điều hành nhúng đều bảo đảm thời hạn thời gian thực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "組込みOS",
+          "english": "Embedded Operating System",
+          "vi": "Hệ điều hành nhúng",
+          "definitionJa": "家電や車載装置など、特定用途の機器に組み込んで使うOS。 限られたメモリや処理能力で安定して動作するよう設計される。",
+          "definitionVi": "Hệ điều hành dành cho thiết bị có chức năng chuyên dụng, thường tối ưu cho tài nguyên hạn chế.",
+          "reading": "くみこみおーえす"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "embedded-os"]
+    },
+    {
+      "id": "real-time-os",
+      "order": 5,
+      "titleJa": "リアルタイムOS",
+      "titleVi": "Hệ điều hành thời gian thực (RTOS)",
+      "importance": "high",
+      "summaryJa": "決められた時間内に処理を完了できるようタスクを管理するOS。",
+      "summaryVi": "Hệ điều hành lập lịch để các tác vụ đáp ứng đúng giới hạn thời gian quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リアルタイムOSとは",
+          "vi": "Hệ điều hành thời gian thực (RTOS) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "決められた時間内に処理を完了できるようタスクを管理するOS。 自動車制御や医療機器など、応答期限が重要な用途で使われる。",
+          "vi": "Hệ điều hành lập lịch để các tác vụ đáp ứng đúng giới hạn thời gian quy định."
+        },
+        {
+          "type": "point",
+          "ja": "リアルタイム性は単なる高速性ではなく期限の保証が重要。",
+          "vi": "RTOS quan trọng ở khả năng đáp ứng deadline, không chỉ tốc độ nhanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リアルタイムOS",
+          "english": "Real-Time Operating System",
+          "vi": "Hệ điều hành thời gian thực (RTOS)",
+          "definitionJa": "決められた時間内に処理を完了できるようタスクを管理するOS。 自動車制御や医療機器など、応答期限が重要な用途で使われる。",
+          "definitionVi": "Hệ điều hành lập lịch để các tác vụ đáp ứng đúng giới hạn thời gian quy định.",
+          "reading": "りあるたいむおーえす"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "real-time-os"]
+    },
+    {
+      "id": "real-time-control",
+      "order": 6,
+      "titleJa": "リアルタイム制御",
+      "titleVi": "Điều khiển thời gian thực",
+      "importance": "high",
+      "summaryJa": "センサー入力に対し、定められた時間内に制御出力を行う方式。",
+      "summaryVi": "Điều khiển hệ thống sao cho việc nhận tín hiệu, tính toán và phản hồi đáp ứng thời hạn xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リアルタイム制御とは",
+          "vi": "Điều khiển thời gian thực là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサー入力に対し、定められた時間内に制御出力を行う方式。 ロボットや車両などで処理の遅れが問題になる場合に重要。",
+          "vi": "Điều khiển hệ thống sao cho việc nhận tín hiệu, tính toán và phản hồi đáp ứng thời hạn xác định."
+        },
+        {
+          "type": "point",
+          "ja": "リアルタイム制御は期限内の応答が条件。",
+          "vi": "Phân biệt: RTOS là hệ điều hành; điều khiển thời gian thực là yêu cầu của quá trình điều khiển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リアルタイム制御",
+          "english": "Real-Time Control",
+          "vi": "Điều khiển thời gian thực",
+          "definitionJa": "センサー入力に対し、定められた時間内に制御出力を行う方式。 ロボットや車両などで処理の遅れが問題になる場合に重要。",
+          "definitionVi": "Điều khiển hệ thống sao cho việc nhận tín hiệu, tính toán và phản hồi đáp ứng thời hạn xác định.",
+          "reading": "りあるたいむせいぎょ"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "real-time-control"]
+    },
+    {
+      "id": "event",
+      "order": 7,
+      "titleJa": "イベント",
+      "titleVi": "Sự kiện",
+      "importance": "medium",
+      "summaryJa": "ボタン押下や温度上昇など、システムに処理を起こさせる出来事。",
+      "summaryVi": "Tín hiệu hoặc trạng thái xảy ra khiến hệ thống kích hoạt một xử lý tương ứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "イベントとは",
+          "vi": "Sự kiện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ボタン押下や温度上昇など、システムに処理を起こさせる出来事。 イベント駆動方式では発生したイベントに応じて処理を実行する。",
+          "vi": "Tín hiệu hoặc trạng thái xảy ra khiến hệ thống kích hoạt một xử lý tương ứng."
+        },
+        {
+          "type": "point",
+          "ja": "イベントは処理のきっかけとなる。",
+          "vi": "Ví dụ: nhấn nút là event; hàm xử lý nút là phản ứng với event."
+        }
+      ],
+      "terms": [
+        {
+          "term": "イベント",
+          "english": "Event",
+          "vi": "Sự kiện",
+          "definitionJa": "ボタン押下や温度上昇など、システムに処理を起こさせる出来事。 イベント駆動方式では発生したイベントに応じて処理を実行する。",
+          "definitionVi": "Tín hiệu hoặc trạng thái xảy ra khiến hệ thống kích hoạt một xử lý tương ứng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "event"]
+    },
+    {
+      "id": "sensor",
+      "order": 8,
+      "titleJa": "センサー",
+      "titleVi": "Cảm biến",
+      "importance": "high",
+      "summaryJa": "温度や光、圧力などの物理量を検知し、電気信号などに変換する装置。",
+      "summaryVi": "Thiết bị phát hiện nhiệt độ, ánh sáng, chuyển động hoặc đại lượng vật lý rồi chuyển thành tín hiệu đo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "センサーとは",
+          "vi": "Cảm biến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "温度や光、圧力などの物理量を検知し、電気信号などに変換する装置。 IoT機器や制御システムで周囲の状態を把握するために使う。",
+          "vi": "Thiết bị phát hiện nhiệt độ, ánh sáng, chuyển động hoặc đại lượng vật lý rồi chuyển thành tín hiệu đo."
+        },
+        {
+          "type": "point",
+          "ja": "センサーは入力側、アクチュエータは動作する出力側。",
+          "vi": "Cảm biến nhận thông tin; actuator thực hiện hành động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "センサー",
+          "english": "Sensor",
+          "vi": "Cảm biến",
+          "definitionJa": "温度や光、圧力などの物理量を検知し、電気信号などに変換する装置。 IoT機器や制御システムで周囲の状態を把握するために使う。",
+          "definitionVi": "Thiết bị phát hiện nhiệt độ, ánh sáng, chuyển động hoặc đại lượng vật lý rồi chuyển thành tín hiệu đo.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "sensor"]
+    },
+    {
+      "id": "sequence-control",
+      "order": 9,
+      "titleJa": "シーケンス制御",
+      "titleVi": "Điều khiển tuần tự",
+      "importance": "medium",
+      "summaryJa": "機器の動作をあらかじめ定めた順序や条件に従って進める制御方式。",
+      "summaryVi": "Điều khiển máy móc thực hiện các bước theo thứ tự hoặc điều kiện đã định trước.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シーケンス制御とは",
+          "vi": "Điều khiển tuần tự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機器の動作をあらかじめ定めた順序や条件に従って進める制御方式。 生産ラインや洗濯機などの工程制御に使われる。",
+          "vi": "Điều khiển máy móc thực hiện các bước theo thứ tự hoặc điều kiện đã định trước."
+        },
+        {
+          "type": "point",
+          "ja": "シーケンス制御は動作順序が重要。",
+          "vi": "Nhớ: sequence = trình tự; khác với điều khiển phản hồi liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シーケンス制御",
+          "english": "Sequence Control",
+          "vi": "Điều khiển tuần tự",
+          "definitionJa": "機器の動作をあらかじめ定めた順序や条件に従って進める制御方式。 生産ラインや洗濯機などの工程制御に使われる。",
+          "definitionVi": "Điều khiển máy móc thực hiện các bước theo thứ tự hoặc điều kiện đã định trước.",
+          "reading": "しーけんすせいぎょ"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "sequence-control"]
+    },
+    {
+      "id": "robotics",
+      "order": 10,
+      "titleJa": "ロボティクス",
+      "titleVi": "Công nghệ robot",
+      "importance": "medium",
+      "summaryJa": "ロボットの設計、製造、制御、運用に関する技術や学問の総称。",
+      "summaryVi": "Lĩnh vực nghiên cứu, thiết kế, chế tạo và điều khiển robot, kết hợp cơ khí, điện tử và tin học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロボティクスとは",
+          "vi": "Công nghệ robot là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ロボットの設計、製造、制御、運用に関する技術や学問の総称。 工場の自動化やサービスロボットなどに応用される。",
+          "vi": "Lĩnh vực nghiên cứu, thiết kế, chế tạo và điều khiển robot, kết hợp cơ khí, điện tử và tin học."
+        },
+        {
+          "type": "point",
+          "ja": "ロボティクスは機械・電子・情報技術を組み合わせる。",
+          "vi": "Robot không chỉ là phần mềm AI; còn gồm cơ cấu cơ khí, cảm biến và điều khiển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロボティクス",
+          "english": "Robotics",
+          "vi": "Công nghệ robot",
+          "definitionJa": "ロボットの設計、製造、制御、運用に関する技術や学問の総称。 工場の自動化やサービスロボットなどに応用される。",
+          "definitionVi": "Lĩnh vực nghiên cứu, thiết kế, chế tạo và điều khiển robot, kết hợp cơ khí, điện tử và tin học.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "robotics"]
+    },
+    {
+      "id": "firmware",
+      "order": 11,
+      "titleJa": "ファームウェア",
+      "titleVi": "Phần mềm điều khiển thiết bị (firmware)",
+      "importance": "medium",
+      "summaryJa": "機器のハードウェアを直接制御するために組み込まれたソフトウェア。",
+      "summaryVi": "Chương trình gắn chặt với phần cứng, điều khiển các chức năng cơ bản của thiết bị và có thể cập nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ファームウェアとは",
+          "vi": "Phần mềm điều khiển thiết bị (firmware) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機器のハードウェアを直接制御するために組み込まれたソフトウェア。 不揮発性メモリに保存され、機能追加や不具合修正のため更新されることもある。",
+          "vi": "Chương trình gắn chặt với phần cứng, điều khiển các chức năng cơ bản của thiết bị và có thể cập nhật."
+        },
+        {
+          "type": "point",
+          "ja": "ファームウェアはハードウェアに密接に結びつく。",
+          "vi": "Firmware là phần mềm, không phải bản thân phần cứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファームウェア",
+          "english": "Firmware",
+          "vi": "Phần mềm điều khiển thiết bị (firmware)",
+          "definitionJa": "機器のハードウェアを直接制御するために組み込まれたソフトウェア。 不揮発性メモリに保存され、機能追加や不具合修正のため更新されることもある。",
+          "definitionVi": "Chương trình gắn chặt với phần cứng, điều khiển các chức năng cơ bản của thiết bị và có thể cập nhật.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "firmware"]
+    },
+    {
+      "id": "ble-beacon",
+      "order": 12,
+      "titleJa": "BLEビーコン",
+      "titleVi": "Thiết bị phát tín hiệu BLE",
+      "importance": "medium",
+      "summaryJa": "Bluetooth Low Energyを利用して近距離に識別情報などを発信する小型装置。",
+      "summaryVi": "Thiết bị nhỏ phát tín hiệu Bluetooth năng lượng thấp để thiết bị ở gần nhận diện vị trí hoặc kích hoạt dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BLEビーコンとは",
+          "vi": "Thiết bị phát tín hiệu BLE là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Bluetooth Low Energyを利用して近距離に識別情報などを発信する小型装置。 店舗案内や位置に応じた通知などに使われる。",
+          "vi": "Thiết bị nhỏ phát tín hiệu Bluetooth năng lượng thấp để thiết bị ở gần nhận diện vị trí hoặc kích hoạt dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "ビーコンは主に信号を発信し、受信側が活用する。",
+          "vi": "BLE tiết kiệm điện; beacon phát tín hiệu, điện thoại nhận và xử lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BLEビーコン",
+          "english": "Bluetooth Low Energy Beacon",
+          "vi": "Thiết bị phát tín hiệu BLE",
+          "definitionJa": "Bluetooth Low Energyを利用して近距離に識別情報などを発信する小型装置。 店舗案内や位置に応じた通知などに使われる。",
+          "definitionVi": "Thiết bị nhỏ phát tín hiệu Bluetooth năng lượng thấp để thiết bị ở gần nhận diện vị trí hoặc kích hoạt dịch vụ.",
+          "reading": "びーえるいーびーこん"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "ble-beacon"]
+    },
+    {
+      "id": "information-home-appliance",
+      "order": 13,
+      "titleJa": "情報家電",
+      "titleVi": "Thiết bị gia dụng thông minh",
+      "importance": "medium",
+      "summaryJa": "ネットワークや情報処理機能を備えた家庭用電気製品。",
+      "summaryVi": "Đồ gia dụng có chức năng xử lý thông tin hoặc kết nối mạng để cung cấp dịch vụ tiện lợi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報家電とは",
+          "vi": "Thiết bị gia dụng thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワークや情報処理機能を備えた家庭用電気製品。 スマートテレビやネット対応冷蔵庫などがある。",
+          "vi": "Đồ gia dụng có chức năng xử lý thông tin hoặc kết nối mạng để cung cấp dịch vụ tiện lợi."
+        },
+        {
+          "type": "point",
+          "ja": "情報家電は家電と情報通信技術の組合せ。",
+          "vi": "Ví dụ: tủ lạnh kết nối mạng, TV thông minh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報家電",
+          "english": "Information Home Appliance",
+          "vi": "Thiết bị gia dụng thông minh",
+          "definitionJa": "ネットワークや情報処理機能を備えた家庭用電気製品。 スマートテレビやネット対応冷蔵庫などがある。",
+          "definitionVi": "Đồ gia dụng có chức năng xử lý thông tin hoặc kết nối mạng để cung cấp dịch vụ tiện lợi.",
+          "reading": "じょうほうかでん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "consumer-equipment",
+        "information-home-appliance"
+      ]
+    },
+    {
+      "id": "ubiquitous-computing",
+      "order": 14,
+      "titleJa": "ユビキタスコンピューティング",
+      "titleVi": "Điện toán phổ cập mọi nơi",
+      "importance": "medium",
+      "summaryJa": "生活環境のさまざまな場所に計算機が存在し、いつでも利用できる考え方。",
+      "summaryVi": "Khái niệm máy tính được tích hợp khắp môi trường sống và có thể sử dụng dịch vụ mọi lúc, mọi nơi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユビキタスコンピューティングとは",
+          "vi": "Điện toán phổ cập mọi nơi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "生活環境のさまざまな場所に計算機が存在し、いつでも利用できる考え方。 身近な機器が連携し、利用者が計算機の存在を強く意識せずに使える。",
+          "vi": "Khái niệm máy tính được tích hợp khắp môi trường sống và có thể sử dụng dịch vụ mọi lúc, mọi nơi."
+        },
+        {
+          "type": "point",
+          "ja": "ユビキタスはいつでもどこでも利用できる環境。",
+          "vi": "Khác IoT: ubiquitous là tầm nhìn về môi trường điện toán; IoT là kết nối các vật qua mạng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユビキタスコンピューティング",
+          "english": "Ubiquitous Computing",
+          "vi": "Điện toán phổ cập mọi nơi",
+          "definitionJa": "生活環境のさまざまな場所に計算機が存在し、いつでも利用できる考え方。 身近な機器が連携し、利用者が計算機の存在を強く意識せずに使える。",
+          "definitionVi": "Khái niệm máy tính được tích hợp khắp môi trường sống và có thể sử dụng dịch vụ mọi lúc, mọi nơi.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "consumer-equipment",
+        "ubiquitous-computing"
+      ]
+    },
+    {
+      "id": "iot",
+      "order": 15,
+      "titleJa": "IoT",
+      "titleVi": "Internet vạn vật",
+      "importance": "high",
+      "summaryJa": "さまざまなモノをネットワークに接続し、データ収集や遠隔制御を行う仕組み。",
+      "summaryVi": "Kết nối đồ vật và thiết bị qua mạng để thu thập, trao đổi dữ liệu và điều khiển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IoTとは",
+          "vi": "Internet vạn vật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "さまざまなモノをネットワークに接続し、データ収集や遠隔制御を行う仕組み。 家電、工場、農業などで活用される。",
+          "vi": "Kết nối đồ vật và thiết bị qua mạng để thu thập, trao đổi dữ liệu và điều khiển."
+        },
+        {
+          "type": "point",
+          "ja": "IoTはモノのネットワーク接続が中心。",
+          "vi": "Ví dụ: cảm biến gửi nhiệt độ qua mạng; không phải mọi thiết bị điện tử đều là IoT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IoT",
+          "english": "Internet of Things",
+          "vi": "Internet vạn vật",
+          "definitionJa": "さまざまなモノをネットワークに接続し、データ収集や遠隔制御を行う仕組み。 家電、工場、農業などで活用される。",
+          "definitionVi": "Kết nối đồ vật và thiết bị qua mạng để thu thập, trao đổi dữ liệu và điều khiển.",
+          "reading": "あいおーてぃー"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "iot"]
+    },
+    {
+      "id": "computer-peripherals-oa-equipment",
+      "order": 16,
+      "titleJa": "コンピュータ周辺／OA機器",
+      "titleVi": "Thiết bị ngoại vi và thiết bị văn phòng",
+      "importance": "medium",
+      "summaryJa": "コンピュータの入出力や事務作業を補助する周辺機器・OA機器。",
+      "summaryVi": "Máy in, máy quét, màn hình và thiết bị hỗ trợ nhập, xuất, lưu trữ hoặc tự động hóa công việc văn phòng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンピュータ周辺／OA機器とは",
+          "vi": "Thiết bị ngoại vi và thiết bị văn phòng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータの入出力や事務作業を補助する周辺機器・OA機器。 プリンタ、スキャナ、ディスプレイなどが該当する。",
+          "vi": "Máy in, máy quét, màn hình và thiết bị hỗ trợ nhập, xuất, lưu trữ hoặc tự động hóa công việc văn phòng."
+        },
+        {
+          "type": "point",
+          "ja": "周辺機器は本体の機能を補う。",
+          "vi": "Nhớ OA = Office Automation, tự động hóa văn phòng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンピュータ周辺／OA機器",
+          "english": "Computer Peripheral / Office Automation Equipment",
+          "vi": "Thiết bị ngoại vi và thiết bị văn phòng",
+          "definitionJa": "コンピュータの入出力や事務作業を補助する周辺機器・OA機器。 プリンタ、スキャナ、ディスプレイなどが該当する。",
+          "definitionVi": "Máy in, máy quét, màn hình và thiết bị hỗ trợ nhập, xuất, lưu trữ hoặc tự động hóa công việc văn phòng.",
+          "reading": "こんぴゅーたしゅうへん／おーえーきき"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "consumer-equipment",
+        "computer-peripherals-oa-equipment"
+      ]
+    },
+    {
+      "id": "consumer-communication-devices",
+      "order": 17,
+      "titleJa": "民生用通信端末機器",
+      "titleVi": "Thiết bị đầu cuối liên lạc dân dụng",
+      "importance": "medium",
+      "summaryJa": "一般消費者が通信や情報サービスを利用するための端末機器。",
+      "summaryVi": "Thiết bị truyền thông dành cho người dùng phổ thông như điện thoại thông minh và máy tính bảng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "民生用通信端末機器とは",
+          "vi": "Thiết bị đầu cuối liên lạc dân dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "一般消費者が通信や情報サービスを利用するための端末機器。 スマートフォンやタブレットなどが代表例。",
+          "vi": "Thiết bị truyền thông dành cho người dùng phổ thông như điện thoại thông minh và máy tính bảng."
+        },
+        {
+          "type": "point",
+          "ja": "民生用は一般消費者向けという意味。",
+          "vi": "Phân biệt 民生用 (dân dụng) với 産業用 (công nghiệp)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "民生用通信端末機器",
+          "english": "Consumer Communication Devices",
+          "vi": "Thiết bị đầu cuối liên lạc dân dụng",
+          "definitionJa": "一般消費者が通信や情報サービスを利用するための端末機器。 スマートフォンやタブレットなどが代表例。",
+          "definitionVi": "Thiết bị truyền thông dành cho người dùng phổ thông như điện thoại thông minh và máy tính bảng.",
+          "reading": "みんせいようつうしんたんまつきき"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "consumer-equipment",
+        "consumer-communication-devices"
+      ]
+    },
+    {
+      "id": "home-network",
+      "order": 18,
+      "titleJa": "ホームネットワーク",
+      "titleVi": "Mạng gia đình",
+      "importance": "medium",
+      "summaryJa": "家庭内のPC、スマートフォン、家電などを接続するネットワーク。",
+      "summaryVi": "Mạng kết nối các thiết bị trong nhà để chia sẻ dữ liệu, Internet và điều khiển thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ホームネットワークとは",
+          "vi": "Mạng gia đình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "家庭内のPC、スマートフォン、家電などを接続するネットワーク。 Wi-Fiや有線LANを利用して情報共有や機器連携を行う。",
+          "vi": "Mạng kết nối các thiết bị trong nhà để chia sẻ dữ liệu, Internet và điều khiển thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "ホームネットワークは家庭内の機器間接続。",
+          "vi": "Wi-Fi là một công nghệ kết nối; home network có thể dùng cả mạng dây."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ホームネットワーク",
+          "english": "Home Network",
+          "vi": "Mạng gia đình",
+          "definitionJa": "家庭内のPC、スマートフォン、家電などを接続するネットワーク。 Wi-Fiや有線LANを利用して情報共有や機器連携を行う。",
+          "definitionVi": "Mạng kết nối các thiết bị trong nhà để chia sẻ dữ liệu, Internet và điều khiển thiết bị.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "home-network"]
+    },
+    {
+      "id": "wearable-computer",
+      "order": 19,
+      "titleJa": "ウェアラブルコンピュータ",
+      "titleVi": "Máy tính đeo trên người",
+      "importance": "medium",
+      "summaryJa": "身体に装着して利用するコンピュータ機器。",
+      "summaryVi": "Thiết bị tính toán đeo trên cơ thể như đồng hồ thông minh, kính thông minh và vòng theo dõi vận động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ウェアラブルコンピュータとは",
+          "vi": "Máy tính đeo trên người là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "身体に装着して利用するコンピュータ機器。 スマートウォッチなどで健康情報の計測や通知を行う。",
+          "vi": "Thiết bị tính toán đeo trên cơ thể như đồng hồ thông minh, kính thông minh và vòng theo dõi vận động."
+        },
+        {
+          "type": "point",
+          "ja": "ウェアラブルは身に着けて使うことが特徴。",
+          "vi": "Smartwatch và fitness tracker là ví dụ tiêu biểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウェアラブルコンピュータ",
+          "english": "Wearable Computer",
+          "vi": "Máy tính đeo trên người",
+          "definitionJa": "身体に装着して利用するコンピュータ機器。 スマートウォッチなどで健康情報の計測や通知を行う。",
+          "definitionVi": "Thiết bị tính toán đeo trên cơ thể như đồng hồ thông minh, kính thông minh và vòng theo dõi vận động.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "wearable-computer"]
+    },
+    {
+      "id": "ar-glasses",
+      "order": 20,
+      "titleJa": "ARグラス",
+      "titleVi": "Kính thực tế tăng cường (AR)",
+      "importance": "high",
+      "summaryJa": "現実の風景にデジタル情報を重ねて表示する眼鏡型装置。",
+      "summaryVi": "Kính hiển thị nội dung số chồng lên cảnh vật thật mà người đeo vẫn nhìn thấy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ARグラスとは",
+          "vi": "Kính thực tế tăng cường (AR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "現実の風景にデジタル情報を重ねて表示する眼鏡型装置。 作業支援やナビゲーションなどに用いられる。",
+          "vi": "Kính hiển thị nội dung số chồng lên cảnh vật thật mà người đeo vẫn nhìn thấy."
+        },
+        {
+          "type": "point",
+          "ja": "ARは現実に情報を付加する。",
+          "vi": "AR bổ sung lớp thông tin vào thế giới thật; khác VR tạo môi trường ảo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ARグラス",
+          "english": "AR Glasses",
+          "vi": "Kính thực tế tăng cường (AR)",
+          "definitionJa": "現実の風景にデジタル情報を重ねて表示する眼鏡型装置。 作業支援やナビゲーションなどに用いられる。",
+          "definitionVi": "Kính hiển thị nội dung số chồng lên cảnh vật thật mà người đeo vẫn nhìn thấy.",
+          "reading": "えーあーるぐらす"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "ar-glasses"]
+    },
+    {
+      "id": "mr-glasses",
+      "order": 21,
+      "titleJa": "MRグラス",
+      "titleVi": "Kính thực tế hỗn hợp (MR)",
+      "importance": "high",
+      "summaryJa": "現実空間と仮想オブジェクトを融合し、相互作用を可能にする眼鏡型装置。",
+      "summaryVi": "Kính kết hợp vật thể số với không gian thật, cho phép tương tác và liên kết vị trí trong môi trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MRグラスとは",
+          "vi": "Kính thực tế hỗn hợp (MR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "現実空間と仮想オブジェクトを融合し、相互作用を可能にする眼鏡型装置。 仮想物体を現実の位置や形状に合わせて表示できる。",
+          "vi": "Kính kết hợp vật thể số với không gian thật, cho phép tương tác và liên kết vị trí trong môi trường."
+        },
+        {
+          "type": "point",
+          "ja": "MRは現実と仮想の空間的な融合・相互作用を重視する。",
+          "vi": "MR thường có tương tác giữa vật thể ảo và môi trường thật sâu hơn AR đơn giản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MRグラス",
+          "english": "MR Glasses",
+          "vi": "Kính thực tế hỗn hợp (MR)",
+          "definitionJa": "現実空間と仮想オブジェクトを融合し、相互作用を可能にする眼鏡型装置。 仮想物体を現実の位置や形状に合わせて表示できる。",
+          "definitionVi": "Kính kết hợp vật thể số với không gian thật, cho phép tương tác và liên kết vị trí trong môi trường.",
+          "reading": "えむあーるぐらす"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "mr-glasses"]
+    },
+    {
+      "id": "vr-goggles",
+      "order": 22,
+      "titleJa": "VRゴーグル",
+      "titleVi": "Kính thực tế ảo (VR)",
+      "importance": "high",
+      "summaryJa": "仮想空間の映像を表示し、利用者に没入感を与えるヘッドセット。",
+      "summaryVi": "Thiết bị đeo đầu tạo môi trường ảo nhập vai, thay thế phần lớn hình ảnh thế giới thực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VRゴーグルとは",
+          "vi": "Kính thực tế ảo (VR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仮想空間の映像を表示し、利用者に没入感を与えるヘッドセット。 ゲームや訓練シミュレーションに利用される。",
+          "vi": "Thiết bị đeo đầu tạo môi trường ảo nhập vai, thay thế phần lớn hình ảnh thế giới thực."
+        },
+        {
+          "type": "point",
+          "ja": "VRは仮想空間への没入が中心。",
+          "vi": "VR = môi trường ảo; AR = phủ thông tin lên thực tế; MR = hòa trộn và tương tác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VRゴーグル",
+          "english": "VR Goggles",
+          "vi": "Kính thực tế ảo (VR)",
+          "definitionJa": "仮想空間の映像を表示し、利用者に没入感を与えるヘッドセット。 ゲームや訓練シミュレーションに利用される。",
+          "definitionVi": "Thiết bị đeo đầu tạo môi trường ảo nhập vai, thay thế phần lớn hình ảnh thế giới thực.",
+          "reading": "ぶいあーるごーぐる"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "vr-goggles"]
+    },
+    {
+      "id": "smart-glasses",
+      "order": 23,
+      "titleJa": "スマートグラス",
+      "titleVi": "Kính thông minh",
+      "importance": "medium",
+      "summaryJa": "通信、撮影、音声操作、情報表示などの機能を備えた眼鏡型端末。",
+      "summaryVi": "Kính đeo có chức năng điện tử như thông báo, chụp ảnh, âm thanh hoặc hiển thị thông tin; không nhất thiết có AR.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマートグラスとは",
+          "vi": "Kính thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信、撮影、音声操作、情報表示などの機能を備えた眼鏡型端末。 機種によってはAR表示にも対応する。",
+          "vi": "Kính đeo có chức năng điện tử như thông báo, chụp ảnh, âm thanh hoặc hiển thị thông tin; không nhất thiết có AR."
+        },
+        {
+          "type": "point",
+          "ja": "スマートグラスが必ずAR・MRに対応するとは限らない。",
+          "vi": "Smart glasses là khái niệm rộng; kính chỉ có camera/loa vẫn là kính thông minh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマートグラス",
+          "english": "Smart Glasses",
+          "vi": "Kính thông minh",
+          "definitionJa": "通信、撮影、音声操作、情報表示などの機能を備えた眼鏡型端末。 機種によってはAR表示にも対応する。",
+          "definitionVi": "Kính đeo có chức năng điện tử như thông báo, chụp ảnh, âm thanh hoặc hiển thị thông tin; không nhất thiết có AR.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "smart-glasses"]
+    },
+    {
+      "id": "smart-speaker",
+      "order": 24,
+      "titleJa": "スマートスピーカー",
+      "titleVi": "Loa thông minh",
+      "importance": "medium",
+      "summaryJa": "ネットワーク接続と音声アシスタント機能を備えたスピーカー。",
+      "summaryVi": "Loa kết nối mạng, tích hợp trợ lý giọng nói để phát nhạc, trả lời câu hỏi và điều khiển nhà thông minh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマートスピーカーとは",
+          "vi": "Loa thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ネットワーク接続と音声アシスタント機能を備えたスピーカー。 音声で音楽再生や家電操作などを実行する。",
+          "vi": "Loa kết nối mạng, tích hợp trợ lý giọng nói để phát nhạc, trả lời câu hỏi và điều khiển nhà thông minh."
+        },
+        {
+          "type": "point",
+          "ja": "スマートスピーカーは音声操作が特徴。",
+          "vi": "Nhớ: kết hợp loa + nhận dạng giọng nói + dịch vụ mạng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマートスピーカー",
+          "english": "Smart Speaker",
+          "vi": "Loa thông minh",
+          "definitionJa": "ネットワーク接続と音声アシスタント機能を備えたスピーカー。 音声で音楽再生や家電操作などを実行する。",
+          "definitionVi": "Loa kết nối mạng, tích hợp trợ lý giọng nói để phát nhạc, trả lời câu hỏi và điều khiển nhà thông minh.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "smart-speaker"]
+    },
+    {
+      "id": "sensor-network",
+      "order": 25,
+      "titleJa": "センサーネットワーク",
+      "titleVi": "Mạng cảm biến",
+      "importance": "medium",
+      "summaryJa": "複数のセンサーをネットワークで結び、観測データを収集・共有する仕組み。",
+      "summaryVi": "Nhiều cảm biến liên kết để đo, thu thập và truyền dữ liệu môi trường về hệ thống xử lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "センサーネットワークとは",
+          "vi": "Mạng cảm biến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数のセンサーをネットワークで結び、観測データを収集・共有する仕組み。 環境監視、農業、スマートホームなどに使う。",
+          "vi": "Nhiều cảm biến liên kết để đo, thu thập và truyền dữ liệu môi trường về hệ thống xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "センサーネットワークは複数のセンサーの連携。",
+          "vi": "Một cảm biến đơn lẻ không tạo thành mạng cảm biến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "センサーネットワーク",
+          "english": "Sensor Network",
+          "vi": "Mạng cảm biến",
+          "definitionJa": "複数のセンサーをネットワークで結び、観測データを収集・共有する仕組み。 環境監視、農業、スマートホームなどに使う。",
+          "definitionVi": "Nhiều cảm biến liên kết để đo, thu thập và truyền dữ liệu môi trường về hệ thống xử lý.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "sensor-network"]
+    },
+    {
+      "id": "hems",
+      "order": 26,
+      "titleJa": "HEMS",
+      "titleVi": "Hệ thống quản lý năng lượng gia đình",
+      "importance": "high",
+      "summaryJa": "家庭内の電力などの使用状況を可視化し、機器を制御して省エネルギーを図るシステム。",
+      "summaryVi": "Hệ thống giám sát, phân tích và tối ưu sử dụng điện, năng lượng trong nhà.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "HEMSとは",
+          "vi": "Hệ thống quản lý năng lượng gia đình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "家庭内の電力などの使用状況を可視化し、機器を制御して省エネルギーを図るシステム。 家電や発電・蓄電設備と連携し、エネルギー利用を最適化する。",
+          "vi": "Hệ thống giám sát, phân tích và tối ưu sử dụng điện, năng lượng trong nhà."
+        },
+        {
+          "type": "point",
+          "ja": "HEMSは家庭、BEMSはビル、FEMSは工場のエネルギー管理。",
+          "vi": "HEMS = Home; BEMS = Building; FEMS = Factory."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HEMS",
+          "english": "Home Energy Management System",
+          "vi": "Hệ thống quản lý năng lượng gia đình",
+          "definitionJa": "家庭内の電力などの使用状況を可視化し、機器を制御して省エネルギーを図るシステム。 家電や発電・蓄電設備と連携し、エネルギー利用を最適化する。",
+          "definitionVi": "Hệ thống giám sát, phân tích và tối ưu sử dụng điện, năng lượng trong nhà.",
+          "reading": "へむす"
+        }
+      ],
+      "tags": ["business-industry", "consumer-equipment", "hems"]
+    }
+  ]
 }

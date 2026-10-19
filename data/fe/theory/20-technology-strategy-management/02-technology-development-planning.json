@@ -4,5 +4,539 @@
   "titleJa": "技術開発計画",
   "titleVi": "Kế hoạch phát triển công nghệ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "technology-development-investment-plan",
+      "order": 1,
+      "titleJa": "技術開発投資計画",
+      "titleVi": "Kế hoạch đầu tư phát triển công nghệ",
+      "importance": "high",
+      "summaryJa": "研究開発の目標に合わせて、資金・人員・設備・期間などの投資内容を定める計画。",
+      "summaryVi": "Kế hoạch phân bổ vốn, nhân lực, thiết bị và thời gian để đạt mục tiêu nghiên cứu, phát triển công nghệ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術開発投資計画とは",
+          "vi": "Kế hoạch đầu tư phát triển công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "研究開発の目標に合わせて、資金・人員・設備・期間などの投資内容を定める計画。 投資対象、予算、期間、期待効果、リスクを検討して優先順位を決める。",
+          "vi": "Kế hoạch phân bổ vốn, nhân lực, thiết bị và thời gian để đạt mục tiêu nghiên cứu, phát triển công nghệ. Xác định công nghệ ưu tiên đầu tư, ngân sách, tiến độ, lợi ích kỳ vọng và rủi ro."
+        },
+        {
+          "type": "point",
+          "ja": "投資額だけでなく、成果の見込みと投資リスクも評価する。",
+          "vi": "Không chỉ tính số tiền đầu tư mà còn đánh giá hiệu quả dự kiến và rủi ro."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術開発投資計画",
+          "english": "Technology Development Investment Plan",
+          "vi": "Kế hoạch đầu tư phát triển công nghệ",
+          "definitionJa": "研究開発の目標に合わせて、資金・人員・設備・期間などの投資内容を定める計画。",
+          "definitionVi": "Kế hoạch phân bổ vốn, nhân lực, thiết bị và thời gian để đạt mục tiêu nghiên cứu, phát triển công nghệ.",
+          "reading": "ぎじゅつかいはつとうしけいかく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "technology-development-investment-plan"
+      ]
+    },
+    {
+      "id": "technology-development-base-plan",
+      "order": 2,
+      "titleJa": "技術開発拠点計画",
+      "titleVi": "Kế hoạch xây dựng cơ sở phát triển công nghệ",
+      "importance": "medium",
+      "summaryJa": "研究施設や開発拠点の場所・設備・人材・連携体制を計画すること。",
+      "summaryVi": "Lập kế hoạch về vị trí, cơ sở vật chất, nhân sự và mạng lưới hợp tác cho trung tâm nghiên cứu phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術開発拠点計画とは",
+          "vi": "Kế hoạch xây dựng cơ sở phát triển công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "研究施設や開発拠点の場所・設備・人材・連携体制を計画すること。 大学や企業との連携、必要な設備、立地条件、運営費を考慮して開発拠点を整備する。",
+          "vi": "Lập kế hoạch về vị trí, cơ sở vật chất, nhân sự và mạng lưới hợp tác cho trung tâm nghiên cứu phát triển. Cân nhắc vị trí, thiết bị, chi phí vận hành và hợp tác với doanh nghiệp, trường đại học để xây dựng cơ sở R&D."
+        },
+        {
+          "type": "point",
+          "ja": "投資計画が「何にいくら使うか」なら、拠点計画は「どこでどう開発するか」。",
+          "vi": "Phân biệt: kế hoạch đầu tư tập trung vào vốn; kế hoạch cơ sở tập trung vào nơi và điều kiện thực hiện R&D."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術開発拠点計画",
+          "english": "Technological Development Base Plan",
+          "vi": "Kế hoạch xây dựng cơ sở phát triển công nghệ",
+          "definitionJa": "研究施設や開発拠点の場所・設備・人材・連携体制を計画すること。",
+          "definitionVi": "Lập kế hoạch về vị trí, cơ sở vật chất, nhân sự và mạng lưới hợp tác cho trung tâm nghiên cứu phát triển.",
+          "reading": "ぎじゅつかいはつきょてんけいかく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "technology-development-base-plan"
+      ]
+    },
+    {
+      "id": "human-resource-planning",
+      "order": 3,
+      "titleJa": "人材計画",
+      "titleVi": "Kế hoạch nhân sự",
+      "importance": "high",
+      "summaryJa": "将来必要な人材の人数・技能を予測し、採用・育成・配置を計画すること。",
+      "summaryVi": "Dự báo số lượng và kỹ năng nhân sự cần thiết, từ đó lên kế hoạch tuyển dụng, đào tạo và bố trí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "人材計画とは",
+          "vi": "Kế hoạch nhân sự là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "将来必要な人材の人数・技能を予測し、採用・育成・配置を計画すること。 新製品開発に必要な技術者や設計者を見積もり、採用・研修・異動などで確保する。",
+          "vi": "Dự báo số lượng và kỹ năng nhân sự cần thiết, từ đó lên kế hoạch tuyển dụng, đào tạo và bố trí. Ước tính nhu cầu kỹ sư, nhà thiết kế cho dự án mới rồi tuyển dụng, đào tạo hoặc điều chuyển phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "人材計画は人数の確保だけでなく、必要なスキルと配置も対象。",
+          "vi": "Kế hoạch nhân sự bao gồm cả số lượng, năng lực và phân công nhân sự."
+        }
+      ],
+      "terms": [
+        {
+          "term": "人材計画",
+          "english": "Human Resource Planning",
+          "vi": "Kế hoạch nhân sự",
+          "definitionJa": "将来必要な人材の人数・技能を予測し、採用・育成・配置を計画すること。",
+          "definitionVi": "Dự báo số lượng và kỹ năng nhân sự cần thiết, từ đó lên kế hoạch tuyển dụng, đào tạo và bố trí.",
+          "reading": "じんざいけいかく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "human-resource-planning"
+      ]
+    },
+    {
+      "id": "optimal-resource-allocation",
+      "order": 4,
+      "titleJa": "経営資源の最適配分",
+      "titleVi": "Phân bổ tối ưu nguồn lực quản lý",
+      "importance": "high",
+      "summaryJa": "限られた人・物・金・情報・時間を、経営目標に最も効果的な形で配分すること。",
+      "summaryVi": "Phân bổ nhân lực, vật lực, tài chính, thông tin và thời gian hữu hạn để đạt mục tiêu kinh doanh hiệu quả nhất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "経営資源の最適配分とは",
+          "vi": "Phân bổ tối ưu nguồn lực quản lý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "限られた人・物・金・情報・時間を、経営目標に最も効果的な形で配分すること。 複数の開発案件の収益性、緊急度、リスクを比較し、優先度の高い案件へ資源を振り向ける。",
+          "vi": "Phân bổ nhân lực, vật lực, tài chính, thông tin và thời gian hữu hạn để đạt mục tiêu kinh doanh hiệu quả nhất. So sánh lợi nhuận, mức khẩn cấp và rủi ro của các dự án để ưu tiên nguồn lực cho dự án quan trọng."
+        },
+        {
+          "type": "point",
+          "ja": "すべての案件へ均等配分することが最適とは限らない。",
+          "vi": "Phân bổ tối ưu không đồng nghĩa với chia đều nguồn lực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "経営資源の最適配分",
+          "english": "Optimal Allocation of Management Resources",
+          "vi": "Phân bổ tối ưu nguồn lực quản lý",
+          "definitionJa": "限られた人・物・金・情報・時間を、経営目標に最も効果的な形で配分すること。",
+          "definitionVi": "Phân bổ nhân lực, vật lực, tài chính, thông tin và thời gian hữu hạn để đạt mục tiêu kinh doanh hiệu quả nhất.",
+          "reading": "けいえいしげんのさいてきはいぶん"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "optimal-resource-allocation"
+      ]
+    },
+    {
+      "id": "return-on-investment",
+      "order": 5,
+      "titleJa": "投資対効果",
+      "titleVi": "Hiệu quả đầu tư (ROI)",
+      "importance": "high",
+      "summaryJa": "投じた費用に対してどれだけの利益や効果が得られるかを評価する考え方。",
+      "summaryVi": "Đánh giá lợi nhuận hoặc lợi ích thu được so với chi phí đã đầu tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "投資対効果とは",
+          "vi": "Hiệu quả đầu tư (ROI) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "投じた費用に対してどれだけの利益や効果が得られるかを評価する考え方。 ROIは一般に「投資による利益÷投資額×100％」で表す。例：投資100万円で利益20万円ならROIは20％。",
+          "vi": "Đánh giá lợi nhuận hoặc lợi ích thu được so với chi phí đã đầu tư. ROI thường được tính: lợi nhuận từ đầu tư / vốn đầu tư × 100%. Ví dụ đầu tư 1 triệu yên, lãi 200 nghìn yên thì ROI = 20%."
+        },
+        {
+          "type": "point",
+          "ja": "売上高そのものではなく、投資に対する利益を使う。効果には定量化しにくいものもある。",
+          "vi": "Không nhầm doanh thu với lợi nhuận; một số lợi ích phi tài chính khó quy đổi thành tiền."
+        }
+      ],
+      "terms": [
+        {
+          "term": "投資対効果",
+          "english": "Return on Investment",
+          "vi": "Hiệu quả đầu tư (ROI)",
+          "definitionJa": "投じた費用に対してどれだけの利益や効果が得られるかを評価する考え方。",
+          "definitionVi": "Đánh giá lợi nhuận hoặc lợi ích thu được so với chi phí đã đầu tư.",
+          "reading": "とうしたいこうか"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "return-on-investment"
+      ]
+    },
+    {
+      "id": "concurrent-engineering",
+      "order": 6,
+      "titleJa": "コンカレントエンジニアリング",
+      "titleVi": "Kỹ thuật đồng thời",
+      "importance": "high",
+      "summaryJa": "設計・製造・品質管理などの工程を並行させ、部門間で情報共有して開発する手法。",
+      "summaryVi": "Phương pháp phối hợp song song thiết kế, sản xuất, quản lý chất lượng và các bộ phận để rút ngắn thời gian phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンカレントエンジニアリングとは",
+          "vi": "Kỹ thuật đồng thời là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "設計・製造・品質管理などの工程を並行させ、部門間で情報共有して開発する手法。 設計段階から製造部門や品質部門も参加し、後工程の問題を早期に発見する。",
+          "vi": "Phương pháp phối hợp song song thiết kế, sản xuất, quản lý chất lượng và các bộ phận để rút ngắn thời gian phát triển. Ngay từ giai đoạn thiết kế, bộ phận sản xuất và chất lượng cùng tham gia để phát hiện vấn đề sớm."
+        },
+        {
+          "type": "point",
+          "ja": "逐次的に工程を進める方式と対比し、開発期間短縮と手戻り削減が狙い。",
+          "vi": "Khác quy trình tuần tự: các công đoạn phối hợp song song nhằm giảm thời gian và việc phải làm lại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンカレントエンジニアリング",
+          "english": "Concurrent Engineering",
+          "vi": "Kỹ thuật đồng thời",
+          "definitionJa": "設計・製造・品質管理などの工程を並行させ、部門間で情報共有して開発する手法。",
+          "definitionVi": "Phương pháp phối hợp song song thiết kế, sản xuất, quản lý chất lượng và các bộ phận để rút ngắn thời gian phát triển.",
+          "reading": "こんかれんとえんじにありんぐ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "concurrent-engineering"
+      ]
+    },
+    {
+      "id": "pilot-production",
+      "order": 7,
+      "titleJa": "パイロット生産",
+      "titleVi": "Sản xuất thử nghiệm quy mô nhỏ",
+      "importance": "high",
+      "summaryJa": "本格的な量産に先立ち、小規模に生産して工程・品質・設備の問題を確認すること。",
+      "summaryVi": "Sản xuất thử ở quy mô nhỏ trước khi sản xuất hàng loạt để kiểm tra quy trình, chất lượng và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "パイロット生産とは",
+          "vi": "Sản xuất thử nghiệm quy mô nhỏ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "本格的な量産に先立ち、小規模に生産して工程・品質・設備の問題を確認すること。 試験的な生産ラインで歩留まりや作業時間を測り、量産条件を調整する。",
+          "vi": "Sản xuất thử ở quy mô nhỏ trước khi sản xuất hàng loạt để kiểm tra quy trình, chất lượng và thiết bị. Dùng dây chuyền thử để đo tỷ lệ sản phẩm đạt chuẩn, thời gian sản xuất và điều chỉnh điều kiện sản xuất hàng loạt."
+        },
+        {
+          "type": "point",
+          "ja": "試作品を作るだけでなく、量産工程の実現性を検証する。",
+          "vi": "Không chỉ làm mẫu sản phẩm mà còn xác minh khả năng vận hành quy trình sản xuất hàng loạt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "パイロット生産",
+          "english": "Pilot Production",
+          "vi": "Sản xuất thử nghiệm quy mô nhỏ",
+          "definitionJa": "本格的な量産に先立ち、小規模に生産して工程・品質・設備の問題を確認すること。",
+          "definitionVi": "Sản xuất thử ở quy mô nhỏ trước khi sản xuất hàng loạt để kiểm tra quy trình, chất lượng và thiết bị.",
+          "reading": "ぱいろっとせいさん"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "pilot-production"
+      ]
+    },
+    {
+      "id": "intellectual-property-management",
+      "order": 8,
+      "titleJa": "知的財産権管理",
+      "titleVi": "Quản lý quyền sở hữu trí tuệ",
+      "importance": "high",
+      "summaryJa": "特許権・著作権・商標権などの権利を把握し、取得・保護・活用すること。",
+      "summaryVi": "Theo dõi, đăng ký khi cần, bảo vệ và khai thác quyền sáng chế, quyền tác giả, nhãn hiệu và các quyền sở hữu trí tuệ khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "知的財産権管理とは",
+          "vi": "Quản lý quyền sở hữu trí tuệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特許権・著作権・商標権などの権利を把握し、取得・保護・活用すること。 研究成果について権利化の要否を検討し、出願・契約・期限管理や他者の権利侵害防止を行う。",
+          "vi": "Theo dõi, đăng ký khi cần, bảo vệ và khai thác quyền sáng chế, quyền tác giả, nhãn hiệu và các quyền sở hữu trí tuệ khác. Đánh giá khả năng bảo hộ kết quả R&D, quản lý đơn đăng ký, hợp đồng, thời hạn và tránh xâm phạm quyền của bên khác."
+        },
+        {
+          "type": "point",
+          "ja": "特許権は原則として出願・登録が必要だが、著作権は原則として創作時に発生する。",
+          "vi": "Bằng sáng chế thường cần đăng ký; quyền tác giả về nguyên tắc phát sinh khi tác phẩm được sáng tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "知的財産権管理",
+          "english": "Intellectual Property Rights Management",
+          "vi": "Quản lý quyền sở hữu trí tuệ",
+          "definitionJa": "特許権・著作権・商標権などの権利を把握し、取得・保護・活用すること。",
+          "definitionVi": "Theo dõi, đăng ký khi cần, bảo vệ và khai thác quyền sáng chế, quyền tác giả, nhãn hiệu và các quyền sở hữu trí tuệ khác.",
+          "reading": "ちてきざいさんけんかんり"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "intellectual-property-management"
+      ]
+    },
+    {
+      "id": "market-needs",
+      "order": 9,
+      "titleJa": "市場ニーズ",
+      "titleVi": "Nhu cầu thị trường",
+      "importance": "high",
+      "summaryJa": "市場にいる顧客が製品やサービスに求める課題解決や価値のこと。",
+      "summaryVi": "Những vấn đề khách hàng trên thị trường muốn giải quyết và giá trị họ kỳ vọng từ sản phẩm, dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "市場ニーズとは",
+          "vi": "Nhu cầu thị trường là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "市場にいる顧客が製品やサービスに求める課題解決や価値のこと。 調査や顧客の声から必要な機能・価格・品質を把握し、技術開発の方向性を決める。",
+          "vi": "Những vấn đề khách hàng trên thị trường muốn giải quyết và giá trị họ kỳ vọng từ sản phẩm, dịch vụ. Dùng khảo sát và phản hồi khách hàng để xác định tính năng, mức giá, chất lượng và hướng phát triển công nghệ."
+        },
+        {
+          "type": "point",
+          "ja": "技術的に作れるものと、市場が求めるものは必ずしも一致しない。",
+          "vi": "Sản phẩm làm được về mặt kỹ thuật chưa chắc là thứ thị trường cần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "市場ニーズ",
+          "english": "Market Needs",
+          "vi": "Nhu cầu thị trường",
+          "definitionJa": "市場にいる顧客が製品やサービスに求める課題解決や価値のこと。",
+          "definitionVi": "Những vấn đề khách hàng trên thị trường muốn giải quyết và giá trị họ kỳ vọng từ sản phẩm, dịch vụ.",
+          "reading": "しじょうにーず"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "market-needs"
+      ]
+    },
+    {
+      "id": "technology-roadmap",
+      "order": 10,
+      "titleJa": "技術ロードマップ",
+      "titleVi": "Lộ trình công nghệ",
+      "importance": "high",
+      "summaryJa": "将来必要となる技術と、その開発時期・段階・目標を時系列で示す計画。",
+      "summaryVi": "Lộ trình theo thời gian thể hiện công nghệ cần phát triển, các giai đoạn, thời điểm và mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術ロードマップとは",
+          "vi": "Lộ trình công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "将来必要となる技術と、その開発時期・段階・目標を時系列で示す計画。 市場の変化と製品計画を見据え、必要な技術の獲得・改良の時期を整理する。",
+          "vi": "Lộ trình theo thời gian thể hiện công nghệ cần phát triển, các giai đoạn, thời điểm và mục tiêu. Liên kết xu hướng thị trường và kế hoạch sản phẩm để xác định khi nào phải có hoặc nâng cấp công nghệ."
+        },
+        {
+          "type": "point",
+          "ja": "技術ロードマップは技術の進化・獲得に重点を置く。",
+          "vi": "Lộ trình công nghệ tập trung vào quá trình phát triển và tiếp nhận công nghệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術ロードマップ",
+          "english": "Technology Roadmap",
+          "vi": "Lộ trình công nghệ",
+          "definitionJa": "将来必要となる技術と、その開発時期・段階・目標を時系列で示す計画。",
+          "definitionVi": "Lộ trình theo thời gian thể hiện công nghệ cần phát triển, các giai đoạn, thời điểm và mục tiêu.",
+          "reading": "ぎじゅつろーどまっぷ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "technology-roadmap"
+      ]
+    },
+    {
+      "id": "product-application-roadmap",
+      "order": 11,
+      "titleJa": "製品応用ロードマップ",
+      "titleVi": "Lộ trình ứng dụng công nghệ vào sản phẩm",
+      "importance": "medium",
+      "summaryJa": "技術をどの製品に、いつ、どのように応用するかを時系列で示す計画。",
+      "summaryVi": "Lộ trình chỉ rõ công nghệ sẽ được ứng dụng vào sản phẩm nào, khi nào và theo cách nào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "製品応用ロードマップとは",
+          "vi": "Lộ trình ứng dụng công nghệ vào sản phẩm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術をどの製品に、いつ、どのように応用するかを時系列で示す計画。 顧客ニーズと製品投入時期を踏まえ、必要な機能や技術の実装順序を定める。",
+          "vi": "Lộ trình chỉ rõ công nghệ sẽ được ứng dụng vào sản phẩm nào, khi nào và theo cách nào. Dựa trên nhu cầu khách hàng và lịch tung sản phẩm để sắp xếp thứ tự triển khai chức năng và công nghệ."
+        },
+        {
+          "type": "point",
+          "ja": "技術ロードマップが技術中心なら、製品応用ロードマップは製品への適用中心。",
+          "vi": "Lộ trình công nghệ chú trọng bản thân công nghệ; lộ trình ứng dụng chú trọng việc đưa công nghệ vào sản phẩm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "製品応用ロードマップ",
+          "english": "Product Application Roadmap",
+          "vi": "Lộ trình ứng dụng công nghệ vào sản phẩm",
+          "definitionJa": "技術をどの製品に、いつ、どのように応用するかを時系列で示す計画。",
+          "definitionVi": "Lộ trình chỉ rõ công nghệ sẽ được ứng dụng vào sản phẩm nào, khi nào và theo cách nào.",
+          "reading": "せいひんおうようろーどまっぷ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "product-application-roadmap"
+      ]
+    },
+    {
+      "id": "patent-acquisition-roadmap",
+      "order": 12,
+      "titleJa": "特許取得ロードマップ",
+      "titleVi": "Lộ trình đăng ký và取得 bằng sáng chế",
+      "importance": "medium",
+      "summaryJa": "技術開発の進捗に合わせ、特許出願・権利化の対象と時期を計画すること。",
+      "summaryVi": "Kế hoạch xác định sáng chế nào cần đăng ký, thời điểm nộp đơn và các bước đạt được quyền bảo hộ theo tiến độ R&D.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特許取得ロードマップとは",
+          "vi": "Lộ trình đăng ký và取得 bằng sáng chế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術開発の進捗に合わせ、特許出願・権利化の対象と時期を計画すること。 新技術の公開前に出願時期を検討し、先行技術調査や出願・審査対応を計画する。",
+          "vi": "Kế hoạch xác định sáng chế nào cần đăng ký, thời điểm nộp đơn và các bước đạt được quyền bảo hộ theo tiến độ R&D. Trước khi công bố công nghệ mới, xem xét thời điểm nộp đơn, tra cứu kỹ thuật trước đó và chuẩn bị thủ tục thẩm định."
+        },
+        {
+          "type": "point",
+          "ja": "出願しただけでは特許権の取得が確定しない。審査を経て登録される必要がある。",
+          "vi": "Nộp đơn không đồng nghĩa đã có bằng sáng chế; cần qua thẩm định và đăng ký."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特許取得ロードマップ",
+          "english": "Patent Acquisition Roadmap",
+          "vi": "Lộ trình đăng ký và取得 bằng sáng chế",
+          "definitionJa": "技術開発の進捗に合わせ、特許出願・権利化の対象と時期を計画すること。",
+          "definitionVi": "Kế hoạch xác định sáng chế nào cần đăng ký, thời điểm nộp đơn và các bước đạt được quyền bảo hộ theo tiến độ R&D.",
+          "reading": "とっきょしゅとくろーどまっぷ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "patent-acquisition-roadmap"
+      ]
+    },
+    {
+      "id": "market-needs-duplicate",
+      "order": 13,
+      "titleJa": "市場ニーズ",
+      "titleVi": "Nhu cầu thị trường (mục lặp trong nguồn)",
+      "importance": "high",
+      "summaryJa": "市場における顧客の要求・期待を把握し、開発すべき技術や製品を決めるための情報。",
+      "summaryVi": "Xác định yêu cầu và kỳ vọng của khách hàng để lựa chọn công nghệ, sản phẩm cần phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "市場ニーズとは",
+          "vi": "Nhu cầu thị trường (mục lặp trong nguồn) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "市場における顧客の要求・期待を把握し、開発すべき技術や製品を決めるための情報。 市場調査や利用者の意見を分析して、顧客が重視する機能・品質・価格を開発計画に反映する。",
+          "vi": "Xác định yêu cầu và kỳ vọng của khách hàng để lựa chọn công nghệ, sản phẩm cần phát triển. Phân tích khảo sát thị trường và ý kiến người dùng, đưa các yêu cầu về tính năng, chất lượng, giá vào kế hoạch phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "原資料では「市場ニーズ」が9番目と13番目に重複掲載されている。",
+          "vi": "Tài liệu gốc liệt kê 市場ニーズ hai lần ở vị trí 9 và 13; giữ cả hai với ID riêng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "市場ニーズ",
+          "english": "Market Needs",
+          "vi": "Nhu cầu thị trường (mục lặp trong nguồn)",
+          "definitionJa": "市場における顧客の要求・期待を把握し、開発すべき技術や製品を決めるための情報。",
+          "definitionVi": "Xác định yêu cầu và kỳ vọng của khách hàng để lựa chọn công nghệ, sản phẩm cần phát triển.",
+          "reading": "しじょうにーず"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-planning",
+        "market-needs-duplicate"
+      ]
+    }
+  ]
 }

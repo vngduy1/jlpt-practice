@@ -4,5 +4,304 @@
   "titleJa": "業務プロセス",
   "titleVi": "Quy trình nghiệp vụ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "process-visualization-standardization-automation",
+      "order": 1,
+      "titleJa": "プロセスの可視化／標準化／自動化",
+      "titleVi": "Trực quan hóa / tiêu chuẩn hóa / tự động hóa quy trình",
+      "importance": "high",
+      "summaryJa": "業務の効率化や問題解決を目指すための手法の一連である。",
+      "summaryVi": "Đây là ba phương pháp nhằm nâng cao hiệu quả nghiệp vụ và giải quyết vấn đề.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロセスの可視化／標準化／自動化とは",
+          "vi": "Trực quan hóa / tiêu chuẩn hóa / tự động hóa quy trình là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務の効率化や問題解決を目指すための手法の一連である。プロセスの可視化は、業務の流れや手順を明確に示し、関係者が理解しやすくすることを指す。これにより、無駄な作業や改善点が見えやすくなる。続いて、標準化は、業務手順を規定化し、一貫性を持たせるプロセスである。同じ作業を行う際に、誰もが同じ方法で進められるようになり、エラーを減少させることができる。最後に、自動化は、特定の業務プロセスをソフトウェアやツールを用いて自動で実行させることで、手作業を省き効率を大幅に向上させる手法である。これらを組み合わせることで、企業は時間やコストを削減し、業務の質を高めることが可能となる。",
+          "vi": "Đây là ba phương pháp nhằm nâng cao hiệu quả nghiệp vụ và giải quyết vấn đề. Trực quan hóa quy trình là thể hiện rõ luồng công việc và các bước thực hiện để những người liên quan dễ hiểu, qua đó nhận ra thao tác thừa và điểm cần cải tiến. Tiêu chuẩn hóa là quy định thống nhất cách thực hiện công việc để bất kỳ ai cũng có thể làm theo cùng một phương pháp, giảm sai sót. Tự động hóa là dùng phần mềm hoặc công cụ thực hiện tự động một số quy trình thay cho thao tác thủ công. Kết hợp cả ba giúp doanh nghiệp tiết kiệm thời gian, chi phí và nâng cao chất lượng công việc."
+        },
+        {
+          "type": "point",
+          "ja": "可視化は流れを見えるようにし、標準化は手順を統一し、自動化は作業を機械に任せる。",
+          "vi": "Trực quan hóa = nhìn rõ quy trình; tiêu chuẩn hóa = thống nhất cách làm; tự động hóa = để công cụ thực hiện thay con người."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロセスの可視化／標準化／自動化",
+          "english": "Process Visualization / Standardization / Automation",
+          "vi": "Trực quan hóa / tiêu chuẩn hóa / tự động hóa quy trình",
+          "definitionJa": "業務の効率化や問題解決を目指すための手法の一連である。プロセスの可視化は、業務の流れや手順を明確に示し、関係者が理解しやすくすることを指す。これにより、無駄な作業や改善点が見えやすくなる。続いて、標準化は、業務手順を規定化し、一貫性を持たせるプロセスである。同じ作業を行う際に、誰もが同じ方法で進められるようになり、エラーを減少させることができる。最後に、自動化は、特定の業務プロセスをソフトウェアやツールを用いて自動で実行させることで、手作業を省き効率を大幅に向上させる手法である。これらを組み合わせることで、企業は時間やコストを削減し、業務の質を高めることが可能となる。",
+          "definitionVi": "Đây là ba phương pháp nhằm nâng cao hiệu quả nghiệp vụ và giải quyết vấn đề. Trực quan hóa quy trình là thể hiện rõ luồng công việc và các bước thực hiện để những người liên quan dễ hiểu, qua đó nhận ra thao tác thừa và điểm cần cải tiến. Tiêu chuẩn hóa là quy định thống nhất cách thực hiện công việc để bất kỳ ai cũng có thể làm theo cùng một phương pháp, giảm sai sót. Tự động hóa là dùng phần mềm hoặc công cụ thực hiện tự động một số quy trình thay cho thao tác thủ công. Kết hợp cả ba giúp doanh nghiệp tiết kiệm thời gian, chi phí và nâng cao chất lượng công việc.",
+          "reading": "ぷろせすのかしか／ひょうじゅんか／じどうか"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "business-process",
+        "process-visualization-standardization-automation"
+      ]
+    },
+    {
+      "id": "bpr",
+      "order": 2,
+      "titleJa": "BPR",
+      "titleVi": "Tái thiết kế căn bản quy trình nghiệp vụ",
+      "importance": "high",
+      "summaryJa": "業務プロセスの再設計を指し、効果的な業務運営を目指す手法である。",
+      "summaryVi": "BPR là phương pháp thiết kế lại quy trình nghiệp vụ từ gốc nhằm vận hành hiệu quả hơn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BPRとは",
+          "vi": "Tái thiết kế căn bản quy trình nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務プロセスの再設計を指し、効果的な業務運営を目指す手法である。これにより、企業はプロセスを根本から見直すことで、効率を高め、生産性を向上させることができる。例えば、手作業で行っていた業務を自動化することや、部署間の情報共有を改善することが挙げられる。新たなテクノロジーやシステムを活用し、顧客に対するサービス向上やコスト削減を実現するための手段として広く用いられている。その目的は、単に業務の効率化にとどまらず、企業全体の競争力を強化することにもつながる。",
+          "vi": "BPR là phương pháp thiết kế lại quy trình nghiệp vụ từ gốc nhằm vận hành hiệu quả hơn. Doanh nghiệp xem xét lại căn bản cách làm hiện tại để tăng năng suất, chẳng hạn tự động hóa công việc thủ công hoặc cải thiện chia sẻ thông tin giữa các phòng ban. Việc ứng dụng công nghệ và hệ thống mới giúp nâng cao dịch vụ khách hàng, giảm chi phí và tăng sức cạnh tranh của toàn doanh nghiệp, chứ không chỉ cải thiện một thao tác riêng lẻ."
+        },
+        {
+          "type": "point",
+          "ja": "BPRは既存の業務手順を部分的に修正するだけでなく、根本から再設計する。",
+          "vi": "BPR nhấn mạnh thiết kế lại tận gốc quy trình, không chỉ chỉnh sửa nhỏ từng bước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BPR",
+          "english": "Business Process Reengineering",
+          "vi": "Tái thiết kế căn bản quy trình nghiệp vụ",
+          "definitionJa": "業務プロセスの再設計を指し、効果的な業務運営を目指す手法である。これにより、企業はプロセスを根本から見直すことで、効率を高め、生産性を向上させることができる。例えば、手作業で行っていた業務を自動化することや、部署間の情報共有を改善することが挙げられる。新たなテクノロジーやシステムを活用し、顧客に対するサービス向上やコスト削減を実現するための手段として広く用いられている。その目的は、単に業務の効率化にとどまらず、企業全体の競争力を強化することにもつながる。",
+          "definitionVi": "BPR là phương pháp thiết kế lại quy trình nghiệp vụ từ gốc nhằm vận hành hiệu quả hơn. Doanh nghiệp xem xét lại căn bản cách làm hiện tại để tăng năng suất, chẳng hạn tự động hóa công việc thủ công hoặc cải thiện chia sẻ thông tin giữa các phòng ban. Việc ứng dụng công nghệ và hệ thống mới giúp nâng cao dịch vụ khách hàng, giảm chi phí và tăng sức cạnh tranh của toàn doanh nghiệp, chứ không chỉ cải thiện một thao tác riêng lẻ.",
+          "reading": "びーぴーあーる"
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "bpr"]
+    },
+    {
+      "id": "bpms",
+      "order": 3,
+      "titleJa": "BPMS",
+      "titleVi": "Hệ thống quản lý quy trình nghiệp vụ",
+      "importance": "high",
+      "summaryJa": "業務プロセスの管理と最適化を支援するシステムである。",
+      "summaryVi": "BPMS là hệ thống hỗ trợ quản lý và tối ưu hóa quy trình nghiệp vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BPMSとは",
+          "vi": "Hệ thống quản lý quy trình nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務プロセスの管理と最適化を支援するシステムである。企業や組織の業務フローを可視化し、分析することで、効率化や効果的な運用を目指す。例えば、ある企業が製品の受注から納品までの流れをBPMSで管理することで、ボトルネックを特定し、処理時間を短縮できる。さらに、自動化機能を持ち、業務プロセスのリーダーが簡単にワークフローを新たに設計したり、変更したりできるようにサポートする。これにより、業務全体の改善が促進され、柔軟性と迅速性が向上する。",
+          "vi": "BPMS là hệ thống hỗ trợ quản lý và tối ưu hóa quy trình nghiệp vụ. Hệ thống giúp trực quan hóa và phân tích luồng công việc để vận hành hiệu quả hơn. Ví dụ, theo dõi toàn bộ quá trình từ nhận đơn hàng đến giao hàng để phát hiện khâu tắc nghẽn và rút ngắn thời gian xử lý. BPMS còn hỗ trợ tự động hóa, thiết kế mới và chỉnh sửa luồng công việc, nhờ đó thúc đẩy cải tiến toàn diện và tăng tính linh hoạt, tốc độ xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "BPMSは業務フローの可視化・分析・設計・自動化を支援するシステムである。",
+          "vi": "BPMS là hệ thống quản lý cả vòng đời quy trình; khác với BPR là phương pháp tái thiết kế quy trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BPMS",
+          "english": "Business Process Management System",
+          "vi": "Hệ thống quản lý quy trình nghiệp vụ",
+          "definitionJa": "業務プロセスの管理と最適化を支援するシステムである。企業や組織の業務フローを可視化し、分析することで、効率化や効果的な運用を目指す。例えば、ある企業が製品の受注から納品までの流れをBPMSで管理することで、ボトルネックを特定し、処理時間を短縮できる。さらに、自動化機能を持ち、業務プロセスのリーダーが簡単にワークフローを新たに設計したり、変更したりできるようにサポートする。これにより、業務全体の改善が促進され、柔軟性と迅速性が向上する。",
+          "definitionVi": "BPMS là hệ thống hỗ trợ quản lý và tối ưu hóa quy trình nghiệp vụ. Hệ thống giúp trực quan hóa và phân tích luồng công việc để vận hành hiệu quả hơn. Ví dụ, theo dõi toàn bộ quá trình từ nhận đơn hàng đến giao hàng để phát hiện khâu tắc nghẽn và rút ngắn thời gian xử lý. BPMS còn hỗ trợ tự động hóa, thiết kế mới và chỉnh sửa luồng công việc, nhờ đó thúc đẩy cải tiến toàn diện và tăng tính linh hoạt, tốc độ xử lý.",
+          "reading": "びーぴーえむえす"
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "bpms"]
+    },
+    {
+      "id": "bpo",
+      "order": 4,
+      "titleJa": "BPO",
+      "titleVi": "Thuê ngoài quy trình nghiệp vụ",
+      "importance": "high",
+      "summaryJa": "企業が自社の業務プロセスの一部を外部の専門業者に委託する手法である。",
+      "summaryVi": "BPO là phương thức doanh nghiệp giao một phần quy trình nghiệp vụ của mình cho nhà cung cấp chuyên môn bên ngoài thực hiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BPOとは",
+          "vi": "Thuê ngoài quy trình nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の業務プロセスの一部を外部の専門業者に委託する手法である。これにより、企業はコスト削減や業務効率の向上を図ることができる。例えば、カスタマーサポートや人事業務を外部のBPO業者に任せることで、企業は本業に集中できるようになる。また、専門業者はその分野におけるノウハウを持っているため、業務の質が向上する可能性も高い。このように、BPOは企業の競争力を高めるための重要な戦略となっている。",
+          "vi": "BPO là phương thức doanh nghiệp giao một phần quy trình nghiệp vụ của mình cho nhà cung cấp chuyên môn bên ngoài thực hiện. Mục tiêu là giảm chi phí, tăng hiệu quả và tập trung nguồn lực vào hoạt động kinh doanh cốt lõi. Ví dụ, thuê công ty bên ngoài xử lý hỗ trợ khách hàng hoặc nghiệp vụ nhân sự. Nhờ kiến thức chuyên môn của đơn vị nhận thuê ngoài, chất lượng công việc cũng có thể được cải thiện và sức cạnh tranh được nâng cao."
+        },
+        {
+          "type": "point",
+          "ja": "BPOは業務プロセスの一部を外部の専門事業者に委託する。",
+          "vi": "BPO = thuê ngoài quy trình nghiệp vụ; không đồng nghĩa với BPR (tái thiết kế quy trình)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BPO",
+          "english": "Business Process Outsourcing",
+          "vi": "Thuê ngoài quy trình nghiệp vụ",
+          "definitionJa": "企業が自社の業務プロセスの一部を外部の専門業者に委託する手法である。これにより、企業はコスト削減や業務効率の向上を図ることができる。例えば、カスタマーサポートや人事業務を外部のBPO業者に任せることで、企業は本業に集中できるようになる。また、専門業者はその分野におけるノウハウを持っているため、業務の質が向上する可能性も高い。このように、BPOは企業の競争力を高めるための重要な戦略となっている。",
+          "definitionVi": "BPO là phương thức doanh nghiệp giao một phần quy trình nghiệp vụ của mình cho nhà cung cấp chuyên môn bên ngoài thực hiện. Mục tiêu là giảm chi phí, tăng hiệu quả và tập trung nguồn lực vào hoạt động kinh doanh cốt lõi. Ví dụ, thuê công ty bên ngoài xử lý hỗ trợ khách hàng hoặc nghiệp vụ nhân sự. Nhờ kiến thức chuyên môn của đơn vị nhận thuê ngoài, chất lượng công việc cũng có thể được cải thiện và sức cạnh tranh được nâng cao.",
+          "reading": "びーぴーおー"
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "bpo"]
+    },
+    {
+      "id": "offshore",
+      "order": 5,
+      "titleJa": "オフショア",
+      "titleVi": "Thuê ngoài hoặc chuyển công việc ra nước ngoài",
+      "importance": "medium",
+      "summaryJa": "企業が自国以外の地域に業務を外注することを指す。",
+      "summaryVi": "Trong nội dung này, offshore chỉ việc doanh nghiệp thuê bên ngoài thực hiện công việc tại quốc gia hoặc khu vực khác với nước mình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オフショアとは",
+          "vi": "Thuê ngoài hoặc chuyển công việc ra nước ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自国以外の地域に業務を外注することを指す。特に、人件費が安い国や地域に業務を移すことで、コスト削減を図ることが目的である。例えば、IT業界ではソフトウェア開発やカスタマーサポートを海外に委託するケースが多く見られる。このようにすることで、企業はより低いコストでサービスを提供できる上、専門的な技術を持つ人材を活用することで、品質の向上も期待できる。また、オフショアにはリスクも伴い、文化や言語の違いから生じるコミュニケーションの課題に注意が必要である。",
+          "vi": "Trong nội dung này, offshore chỉ việc doanh nghiệp thuê bên ngoài thực hiện công việc tại quốc gia hoặc khu vực khác với nước mình. Một mục đích phổ biến là chuyển công việc đến nơi có chi phí nhân công thấp hơn để giảm chi phí. Trong ngành IT, ví dụ thường gặp là thuê phát triển phần mềm hoặc hỗ trợ khách hàng ở nước ngoài. Doanh nghiệp có thể tận dụng nhân lực chuyên môn và cải thiện chất lượng, nhưng phải lưu ý rủi ro giao tiếp do khác biệt ngôn ngữ, văn hóa."
+        },
+        {
+          "type": "point",
+          "ja": "オフショアは海外への業務委託であり、言語・文化・時差などの課題がある。",
+          "vi": "Offshore nhấn mạnh địa điểm ở nước ngoài; BPO nhấn mạnh việc thuê ngoài một quy trình nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オフショア",
+          "english": "Offshore",
+          "vi": "Thuê ngoài hoặc chuyển công việc ra nước ngoài",
+          "definitionJa": "企業が自国以外の地域に業務を外注することを指す。特に、人件費が安い国や地域に業務を移すことで、コスト削減を図ることが目的である。例えば、IT業界ではソフトウェア開発やカスタマーサポートを海外に委託するケースが多く見られる。このようにすることで、企業はより低いコストでサービスを提供できる上、専門的な技術を持つ人材を活用することで、品質の向上も期待できる。また、オフショアにはリスクも伴い、文化や言語の違いから生じるコミュニケーションの課題に注意が必要である。",
+          "definitionVi": "Trong nội dung này, offshore chỉ việc doanh nghiệp thuê bên ngoài thực hiện công việc tại quốc gia hoặc khu vực khác với nước mình. Một mục đích phổ biến là chuyển công việc đến nơi có chi phí nhân công thấp hơn để giảm chi phí. Trong ngành IT, ví dụ thường gặp là thuê phát triển phần mềm hoặc hỗ trợ khách hàng ở nước ngoài. Doanh nghiệp có thể tận dụng nhân lực chuyên môn và cải thiện chất lượng, nhưng phải lưu ý rủi ro giao tiếp do khác biệt ngôn ngữ, văn hóa."
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "offshore"]
+    },
+    {
+      "id": "workflow-system",
+      "order": 6,
+      "titleJa": "ワークフローシステム",
+      "titleVi": "Hệ thống luồng công việc",
+      "importance": "high",
+      "summaryJa": "業務プロセスを効率化し、可視化するための仕組みである。",
+      "summaryVi": "Hệ thống workflow là cơ chế giúp trực quan hóa và nâng cao hiệu quả quy trình nghiệp vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークフローシステムとは",
+          "vi": "Hệ thống luồng công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務プロセスを効率化し、可視化するための仕組みである。このシステムは、さまざまなタスクや情報の流れを自動化し、関与する人々の役割や責任を明確にする。それにより、業務の進捗状況を追跡しやすくなり、作業の重複やミスを減少させる。たとえば、社員が承認を必要とする書類の処理をワークフローシステムで管理する場合、申請から承認までのステップが自動化され、必要な担当者に通知される。これにより、時間の短縮と業務の効率化が図られる。また、問題が発生した際にも迅速に対処できるため、業務改善に寄与する重要な役割を果たす。",
+          "vi": "Hệ thống workflow là cơ chế giúp trực quan hóa và nâng cao hiệu quả quy trình nghiệp vụ. Hệ thống tự động hóa việc chuyển giao tác vụ và thông tin, làm rõ vai trò và trách nhiệm của người tham gia, đồng thời giúp theo dõi tiến độ, giảm công việc trùng lặp và sai sót. Ví dụ, với hồ sơ cần phê duyệt, hệ thống tự chuyển hồ sơ từ bước nộp đơn sang người duyệt và gửi thông báo. Nhờ đó rút ngắn thời gian xử lý, xử lý vấn đề nhanh hơn và hỗ trợ cải tiến nghiệp vụ."
+        },
+        {
+          "type": "point",
+          "ja": "申請から承認までの流れを自動化し、担当者への通知や進捗管理を行う。",
+          "vi": "Ví dụ tiêu biểu trong FE: quy trình xin phép → phê duyệt → thông báo kết quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークフローシステム",
+          "english": "Workflow System",
+          "vi": "Hệ thống luồng công việc",
+          "definitionJa": "業務プロセスを効率化し、可視化するための仕組みである。このシステムは、さまざまなタスクや情報の流れを自動化し、関与する人々の役割や責任を明確にする。それにより、業務の進捗状況を追跡しやすくなり、作業の重複やミスを減少させる。たとえば、社員が承認を必要とする書類の処理をワークフローシステムで管理する場合、申請から承認までのステップが自動化され、必要な担当者に通知される。これにより、時間の短縮と業務の効率化が図られる。また、問題が発生した際にも迅速に対処できるため、業務改善に寄与する重要な役割を果たす。",
+          "definitionVi": "Hệ thống workflow là cơ chế giúp trực quan hóa và nâng cao hiệu quả quy trình nghiệp vụ. Hệ thống tự động hóa việc chuyển giao tác vụ và thông tin, làm rõ vai trò và trách nhiệm của người tham gia, đồng thời giúp theo dõi tiến độ, giảm công việc trùng lặp và sai sót. Ví dụ, với hồ sơ cần phê duyệt, hệ thống tự chuyển hồ sơ từ bước nộp đơn sang người duyệt và gửi thông báo. Nhờ đó rút ngắn thời gian xử lý, xử lý vấn đề nhanh hơn và hỗ trợ cải tiến nghiệp vụ."
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "workflow-system"]
+    },
+    {
+      "id": "sfa",
+      "order": 7,
+      "titleJa": "SFA",
+      "titleVi": "Hệ thống hỗ trợ và tự động hóa hoạt động bán hàng",
+      "importance": "high",
+      "summaryJa": "営業活動を効率化するためのシステムやツールである。",
+      "summaryVi": "SFA là hệ thống hoặc công cụ nâng cao hiệu quả hoạt động bán hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SFAとは",
+          "vi": "Hệ thống hỗ trợ và tự động hóa hoạt động bán hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "営業活動を効率化するためのシステムやツールである。これにより、営業部門の業務プロセスが自動化され、情報の管理や共有がスムーズに行われる。具体的には、顧客情報の管理、営業日報の作成、商談の進捗管理などが含まれる。例えば、営業担当者はSFAを利用することで、案件の履歴を簡単に確認でき、次のアクションを迅速に決定することが可能になる。また、データ分析機能により、営業戦略を改善し、より良い成果を上げるための資源配分を見直すこともできる。このように営業の効率を向上させ、企業の競争力強化にも寄与している。",
+          "vi": "SFA là hệ thống hoặc công cụ nâng cao hiệu quả hoạt động bán hàng. Hệ thống tự động hóa một số quy trình của bộ phận kinh doanh và giúp quản lý, chia sẻ thông tin thuận tiện hơn. Các chức năng gồm quản lý thông tin khách hàng, lập báo cáo bán hàng hằng ngày và theo dõi tiến độ thương vụ. Nhân viên có thể xem lịch sử vụ việc để quyết định bước tiếp theo; dữ liệu phân tích còn giúp điều chỉnh chiến lược và phân bổ nguồn lực, góp phần tăng hiệu quả bán hàng và sức cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "SFAは営業活動や商談の進捗を管理し、営業担当者の業務を支援する。",
+          "vi": "SFA tập trung vào hoạt động và tiến độ bán hàng; CRM chú trọng quản lý quan hệ khách hàng rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SFA",
+          "english": "Sales Force Automation",
+          "vi": "Hệ thống hỗ trợ và tự động hóa hoạt động bán hàng",
+          "definitionJa": "営業活動を効率化するためのシステムやツールである。これにより、営業部門の業務プロセスが自動化され、情報の管理や共有がスムーズに行われる。具体的には、顧客情報の管理、営業日報の作成、商談の進捗管理などが含まれる。例えば、営業担当者はSFAを利用することで、案件の履歴を簡単に確認でき、次のアクションを迅速に決定することが可能になる。また、データ分析機能により、営業戦略を改善し、より良い成果を上げるための資源配分を見直すこともできる。このように営業の効率を向上させ、企業の競争力強化にも寄与している。",
+          "definitionVi": "SFA là hệ thống hoặc công cụ nâng cao hiệu quả hoạt động bán hàng. Hệ thống tự động hóa một số quy trình của bộ phận kinh doanh và giúp quản lý, chia sẻ thông tin thuận tiện hơn. Các chức năng gồm quản lý thông tin khách hàng, lập báo cáo bán hàng hằng ngày và theo dõi tiến độ thương vụ. Nhân viên có thể xem lịch sử vụ việc để quyết định bước tiếp theo; dữ liệu phân tích còn giúp điều chỉnh chiến lược và phân bổ nguồn lực, góp phần tăng hiệu quả bán hàng và sức cạnh tranh.",
+          "reading": "えすえふえー"
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "sfa"]
+    },
+    {
+      "id": "rpa",
+      "order": 8,
+      "titleJa": "RPA",
+      "titleVi": "Tự động hóa quy trình bằng rô-bốt phần mềm",
+      "importance": "high",
+      "summaryJa": "業務プロセスを自動化する技術である。",
+      "summaryVi": "RPA là công nghệ tự động hóa quy trình nghiệp vụ bằng rô-bốt phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RPAとは",
+          "vi": "Tự động hóa quy trình bằng rô-bốt phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務プロセスを自動化する技術である。具体的には、コンピュータ上で行われる反復的な作業をソフトウェアのロボットが代わりに実行する仕組みである。例えば、データの入力や集計、報告書の生成などの定型的な業務を自動で行うことで、人的ミスを減少させ、効率を向上させることができる。また、RPAを導入することで、従業員はより価値の高い業務に集中することが可能となり、全体の生産性が向上する。これは特に多くのデータを扱う業界や、大量の書類処理を必要とする企業において効果的である。",
+          "vi": "RPA là công nghệ tự động hóa quy trình nghiệp vụ bằng rô-bốt phần mềm. Rô-bốt thực hiện thay con người các thao tác lặp đi lặp lại trên máy tính, chẳng hạn nhập dữ liệu, tổng hợp số liệu hoặc tạo báo cáo theo mẫu. Nhờ tự động hóa công việc có quy tắc, doanh nghiệp có thể giảm sai sót do con người và tăng hiệu suất. Nhân viên có thêm thời gian tập trung vào công việc có giá trị cao hơn; công nghệ đặc biệt hữu ích ở nơi phải xử lý lượng lớn dữ liệu hoặc chứng từ."
+        },
+        {
+          "type": "point",
+          "ja": "RPAはソフトウェアロボットによって定型的・反復的なPC操作を自動化する。",
+          "vi": "RPA tự động hóa thao tác lặp lại theo quy tắc; không mặc nhiên có khả năng tự suy luận như AI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RPA",
+          "english": "Robotic Process Automation",
+          "vi": "Tự động hóa quy trình bằng rô-bốt phần mềm",
+          "definitionJa": "業務プロセスを自動化する技術である。具体的には、コンピュータ上で行われる反復的な作業をソフトウェアのロボットが代わりに実行する仕組みである。例えば、データの入力や集計、報告書の生成などの定型的な業務を自動で行うことで、人的ミスを減少させ、効率を向上させることができる。また、RPAを導入することで、従業員はより価値の高い業務に集中することが可能となり、全体の生産性が向上する。これは特に多くのデータを扱う業界や、大量の書類処理を必要とする企業において効果的である。",
+          "definitionVi": "RPA là công nghệ tự động hóa quy trình nghiệp vụ bằng rô-bốt phần mềm. Rô-bốt thực hiện thay con người các thao tác lặp đi lặp lại trên máy tính, chẳng hạn nhập dữ liệu, tổng hợp số liệu hoặc tạo báo cáo theo mẫu. Nhờ tự động hóa công việc có quy tắc, doanh nghiệp có thể giảm sai sót do con người và tăng hiệu suất. Nhân viên có thêm thời gian tập trung vào công việc có giá trị cao hơn; công nghệ đặc biệt hữu ích ở nơi phải xử lý lượng lớn dữ liệu hoặc chứng từ.",
+          "reading": "あーるぴーえー"
+        }
+      ],
+      "tags": ["system-strategy", "business-process", "rpa"]
+    }
+  ]
 }

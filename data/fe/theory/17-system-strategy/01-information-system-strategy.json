@@ -4,5 +4,2044 @@
   "titleJa": "情報システム戦略",
   "titleVi": "Chiến lược hệ thống thông tin",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "information-system-strategy-evaluation",
+      "order": 1,
+      "titleJa": "情報システム戦略評価",
+      "titleVi": "Đánh giá chiến lược hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "組織が情報システムの戦略に対する効果や適切性を評価するプロセスを指す。",
+      "summaryVi": "Đánh giá mức độ hiệu quả và phù hợp của chiến lược hệ thống thông tin, xác định hệ thống đóng góp bao nhiêu cho mục tiêu kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム戦略評価とは",
+          "vi": "Đánh giá chiến lược hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織が情報システムの戦略に対する効果や適切性を評価するプロセスを指す。これにより、企業は情報システムがビジネス目標にどれだけ貢献しているかを確認し、必要に応じて戦略を見直すことができる。たとえば、新しい技術導入後にシステムのパフォーマンスやコスト効果を評価することで、どの程度の投資が得られたかを明らかにし、次の戦略的な決定に活用することが可能である。この評価は、持続的な競争力を維持するために欠かせない要素であり、情報システムが組織の全体戦略と整合しているかどうかを確認するために重要である。",
+          "vi": "Đánh giá mức độ hiệu quả và phù hợp của chiến lược hệ thống thông tin, xác định hệ thống đóng góp bao nhiêu cho mục tiêu kinh doanh. Sau khi triển khai công nghệ mới, doanh nghiệp xem xét hiệu năng, chi phí và lợi ích đầu tư để quyết định có cần điều chỉnh chiến lược hay không."
+        },
+        {
+          "type": "point",
+          "ja": "組織が情報システムの戦略に対する効果や適切性を評価するプロセスを指す。",
+          "vi": "Kiểm tra sự phù hợp với chiến lược chung và hiệu quả đầu tư."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム戦略評価",
+          "english": "Information System Strategy Evaluation",
+          "vi": "Đánh giá chiến lược hệ thống thông tin",
+          "definitionJa": "組織が情報システムの戦略に対する効果や適切性を評価するプロセスを指す。これにより、企業は情報システムがビジネス目標にどれだけ貢献しているかを確認し、必要に応じて戦略を見直すことができる。たとえば、新しい技術導入後にシステムのパフォーマンスやコスト効果を評価することで、どの程度の投資が得られたかを明らかにし、次の戦略的な決定に活用することが可能である。この評価は、持続的な競争力を維持するために欠かせない要素であり、情報システムが組織の全体戦略と整合しているかどうかを確認するために重要である。",
+          "definitionVi": "Đánh giá mức độ hiệu quả và phù hợp của chiến lược hệ thống thông tin, xác định hệ thống đóng góp bao nhiêu cho mục tiêu kinh doanh. Sau khi triển khai công nghệ mới, doanh nghiệp xem xét hiệu năng, chi phí và lợi ích đầu tư để quyết định có cần điều chỉnh chiến lược hay không.",
+          "reading": "じょうほうしすてむせんりゃくひょうか"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-system-strategy-evaluation"
+      ]
+    },
+    {
+      "id": "it-governance",
+      "order": 2,
+      "titleJa": "ITガバナンス",
+      "titleVi": "Quản trị CNTT",
+      "importance": "high",
+      "summaryJa": "情報技術（IT）を戦略的な目標にどう組み込むかを管理・監視する仕組みである。",
+      "summaryVi": "Cơ chế quản lý, giám sát và ra quyết định để việc sử dụng CNTT phù hợp với mục tiêu chiến lược của tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITガバナンスとは",
+          "vi": "Quản trị CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術（IT）を戦略的な目標にどう組み込むかを管理・監視する仕組みである。この考え方は、企業や組織がITを有効に活用し、リスクを管理しながら目標を達成するためのフレームワークを提供する。具体的には、プロジェクトの優先順位付けやリソース配分、監査の実施などを通じて、組織のビジョンや目標とITの整合性を保つことが重視される。たとえば、ITガバナンスを強化することで、システムの導入や運用に関する意思決定がよりスムーズになり、企業の競争力向上につながることが期待される。このように、ITガバナンスは情報システム化基本計画においても重要な要素である。",
+          "vi": "Cơ chế quản lý, giám sát và ra quyết định để việc sử dụng CNTT phù hợp với mục tiêu chiến lược của tổ chức. Bao gồm ưu tiên dự án, phân bổ nguồn lực, kiểm soát rủi ro và kiểm toán nhằm nâng cao giá trị CNTT cho doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "情報技術（IT）を戦略的な目標にどう組み込むかを管理・監視する仕組みである。",
+          "vi": "IT Governance là quản trị và giám sát ở cấp tổ chức, không chỉ vận hành kỹ thuật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITガバナンス",
+          "english": "IT Governance",
+          "vi": "Quản trị CNTT",
+          "definitionJa": "情報技術（IT）を戦略的な目標にどう組み込むかを管理・監視する仕組みである。この考え方は、企業や組織がITを有効に活用し、リスクを管理しながら目標を達成するためのフレームワークを提供する。具体的には、プロジェクトの優先順位付けやリソース配分、監査の実施などを通じて、組織のビジョンや目標とITの整合性を保つことが重視される。たとえば、ITガバナンスを強化することで、システムの導入や運用に関する意思決定がよりスムーズになり、企業の競争力向上につながることが期待される。このように、ITガバナンスは情報システム化基本計画においても重要な要素である。",
+          "definitionVi": "Cơ chế quản lý, giám sát và ra quyết định để việc sử dụng CNTT phù hợp với mục tiêu chiến lược của tổ chức. Bao gồm ưu tiên dự án, phân bổ nguồn lực, kiểm soát rủi ro và kiểm toán nhằm nâng cao giá trị CNTT cho doanh nghiệp.",
+          "reading": "あいてぃーがばなんす"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "it-governance"
+      ]
+    },
+    {
+      "id": "information-security-policy",
+      "order": 3,
+      "titleJa": "情報セキュリティ方針",
+      "titleVi": "Chính sách an toàn thông tin",
+      "importance": "medium",
+      "summaryJa": "組織が情報資産を保護するために策定する基本的な指針を指す。",
+      "summaryVi": "Định hướng và nguyên tắc cơ bản do tổ chức ban hành để bảo vệ tài sản thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ方針とは",
+          "vi": "Chính sách an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織が情報資産を保護するために策定する基本的な指針を指す。この方針には、情報の取り扱いや管理に関するルールや手順が含まれており、情報漏洩や不正アクセスなどのリスクを軽減する目的がある。具体的には、機密情報の取扱い、アクセス権の管理、従業員への教育などが含まれる。また、組織全体で情報セキュリティを維持するための基盤となり、法律や規制の遵守を確保する役割も果たす。このように、しっかりとした方針を持つことは、情報システムを安全に運用するために非常に重要である。",
+          "vi": "Định hướng và nguyên tắc cơ bản do tổ chức ban hành để bảo vệ tài sản thông tin. Quy định cách xử lý thông tin mật, phân quyền truy cập, đào tạo nhân viên và phòng tránh rò rỉ dữ liệu hoặc truy cập trái phép, đồng thời hỗ trợ tuân thủ pháp luật."
+        },
+        {
+          "type": "point",
+          "ja": "組織が情報資産を保護するために策定する基本的な指針を指す。",
+          "vi": "Là nền tảng cho các quy định và biện pháp bảo mật cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ方針",
+          "english": "Information Security Policy",
+          "vi": "Chính sách an toàn thông tin",
+          "definitionJa": "組織が情報資産を保護するために策定する基本的な指針を指す。この方針には、情報の取り扱いや管理に関するルールや手順が含まれており、情報漏洩や不正アクセスなどのリスクを軽減する目的がある。具体的には、機密情報の取扱い、アクセス権の管理、従業員への教育などが含まれる。また、組織全体で情報セキュリティを維持するための基盤となり、法律や規制の遵守を確保する役割も果たす。このように、しっかりとした方針を持つことは、情報システムを安全に運用するために非常に重要である。",
+          "definitionVi": "Định hướng và nguyên tắc cơ bản do tổ chức ban hành để bảo vệ tài sản thông tin. Quy định cách xử lý thông tin mật, phân quyền truy cập, đào tạo nhân viên và phòng tránh rò rỉ dữ liệu hoặc truy cập trái phép, đồng thời hỗ trợ tuân thủ pháp luật.",
+          "reading": "じょうほうせきゅりてぃほうしん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-security-policy"
+      ]
+    },
+    {
+      "id": "standardization-policy-and-quality-policy-for-system-construction-and-operation",
+      "order": 4,
+      "titleJa": "システム構築・運用のための標準化方針及び品質方針",
+      "titleVi": "Chính sách tiêu chuẩn hóa và chất lượng trong xây dựng, vận hành hệ thống",
+      "importance": "medium",
+      "summaryJa": "情報システムの設計、開発、運用において、一定の基準や品質を維持するための方針である。",
+      "summaryVi": "Chính sách nhằm thống nhất các tiêu chuẩn khi thiết kế, phát triển và vận hành hệ thống, đồng thời bảo đảm mức chất lượng yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム構築・運用のための標準化方針及び品質方針とは",
+          "vi": "Chính sách tiêu chuẩn hóa và chất lượng trong xây dựng, vận hành hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの設計、開発、運用において、一定の基準や品質を維持するための方針である。この方針は、プロジェクトの効率性や成果物の信頼性を高める役割を果たす。たとえば、開発プロセスにおいては、使用する技術やツールの標準化を促進し、作業の統一性を図ることが含まれる。また、品質方針としては、テストやレビューの実施基準を設定することで、システムの性能や安全性を確保するための基盤を提供する。これにより、組織全体での品質向上が期待でき、持続的な改善活動に貢献する。",
+          "vi": "Chính sách nhằm thống nhất các tiêu chuẩn khi thiết kế, phát triển và vận hành hệ thống, đồng thời bảo đảm mức chất lượng yêu cầu. Ví dụ, chuẩn hóa công nghệ và công cụ, quy định tiêu chí kiểm thử và đánh giá để nâng cao tính nhất quán, độ tin cậy và khả năng cải tiến."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの設計、開発、運用において、一定の基準や品質を維持するための方針である。",
+          "vi": "Tiêu chuẩn hóa cách làm; chính sách chất lượng xác định yêu cầu và cách bảo đảm chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム構築・運用のための標準化方針及び品質方針",
+          "english": "Standardization Policy and Quality Policy for System Construction and Operation",
+          "vi": "Chính sách tiêu chuẩn hóa và chất lượng trong xây dựng, vận hành hệ thống",
+          "definitionJa": "情報システムの設計、開発、運用において、一定の基準や品質を維持するための方針である。この方針は、プロジェクトの効率性や成果物の信頼性を高める役割を果たす。たとえば、開発プロセスにおいては、使用する技術やツールの標準化を促進し、作業の統一性を図ることが含まれる。また、品質方針としては、テストやレビューの実施基準を設定することで、システムの性能や安全性を確保するための基盤を提供する。これにより、組織全体での品質向上が期待でき、持続的な改善活動に貢献する。",
+          "definitionVi": "Chính sách nhằm thống nhất các tiêu chuẩn khi thiết kế, phát triển và vận hành hệ thống, đồng thời bảo đảm mức chất lượng yêu cầu. Ví dụ, chuẩn hóa công nghệ và công cụ, quy định tiêu chí kiểm thử và đánh giá để nâng cao tính nhất quán, độ tin cậy và khả năng cải tiến.",
+          "reading": "しすてむこうちく・うんようのためのひょうじゅんかほうしんおよびひんしつほうしん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "standardization-policy-and-quality-policy-for-system-construction-and-operation"
+      ]
+    },
+    {
+      "id": "system-management-standards",
+      "order": 5,
+      "titleJa": "システム管理基準",
+      "titleVi": "Tiêu chuẩn quản lý hệ thống",
+      "importance": "medium",
+      "summaryJa": "情報システムの運用や管理における基準やガイドラインを指す。",
+      "summaryVi": "Các tiêu chuẩn và hướng dẫn quản lý hệ thống thông tin xuyên suốt thiết kế, phát triển, vận hành và bảo trì.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム管理基準とは",
+          "vi": "Tiêu chuẩn quản lý hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの運用や管理における基準やガイドラインを指す。これにより、組織は情報システムの安定性や安全性を確保し、効率的な運用が可能になる。具体的には、システムの設計、開発、運用、保守に関するルールや手続きを定め、それに基づいて管理を行う。たとえば、定期的なバックアップやシステムの監視、リスク評価が含まれる。組織内での情報の整合性を保つだけでなく、法的な要件や業界標準を遵守するためにも重要であり、こうした基準に従うことで、より高い信頼性とパフォーマンスを実現する。",
+          "vi": "Các tiêu chuẩn và hướng dẫn quản lý hệ thống thông tin xuyên suốt thiết kế, phát triển, vận hành và bảo trì. Chúng quy định cách quản lý, giám sát, sao lưu và đánh giá rủi ro để hệ thống hoạt động an toàn, ổn định, hiệu quả và tuân thủ yêu cầu liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの運用や管理における基準やガイドラインを指す。",
+          "vi": "Tập trung vào quy tắc và chuẩn mực quản lý hệ thống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム管理基準",
+          "english": "System Management Standards",
+          "vi": "Tiêu chuẩn quản lý hệ thống",
+          "definitionJa": "情報システムの運用や管理における基準やガイドラインを指す。これにより、組織は情報システムの安定性や安全性を確保し、効率的な運用が可能になる。具体的には、システムの設計、開発、運用、保守に関するルールや手続きを定め、それに基づいて管理を行う。たとえば、定期的なバックアップやシステムの監視、リスク評価が含まれる。組織内での情報の整合性を保つだけでなく、法的な要件や業界標準を遵守するためにも重要であり、こうした基準に従うことで、より高い信頼性とパフォーマンスを実現する。",
+          "definitionVi": "Các tiêu chuẩn và hướng dẫn quản lý hệ thống thông tin xuyên suốt thiết kế, phát triển, vận hành và bảo trì. Chúng quy định cách quản lý, giám sát, sao lưu và đánh giá rủi ro để hệ thống hoạt động an toàn, ổn định, hiệu quả và tuân thủ yêu cầu liên quan.",
+          "reading": "しすてむかんりきじゅん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "system-management-standards"
+      ]
+    },
+    {
+      "id": "chief-information-officer",
+      "order": 6,
+      "titleJa": "CIO",
+      "titleVi": "Giám đốc thông tin",
+      "importance": "high",
+      "summaryJa": "企業や組織において情報技術（IT）戦略を策定し、実行する責任を持つ役職である。",
+      "summaryVi": "CIO là người chịu trách nhiệm cao nhất về chiến lược CNTT và việc thực thi chiến lược đó trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CIOとは",
+          "vi": "Giám đốc thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において情報技術（IT）戦略を策定し、実行する責任を持つ役職である。IT資源の管理や情報システムの最適化を通じて、企業の競争力を高めることに寄与する。具体的には、ITシステムの導入や運用を監督し、ビジネスニーズに応じた技術の選定を行う。また、データ管理や情報セキュリティの確保といった重要な課題にも直面するため、戦略的思考と幅広い技術知識が求められる。経営陣の一員としてITの重要性を経営全体に伝え、企業の成長を支える役割を果たす。",
+          "vi": "CIO là người chịu trách nhiệm cao nhất về chiến lược CNTT và việc thực thi chiến lược đó trong tổ chức. CIO quản lý nguồn lực CNTT, giám sát triển khai hệ thống, lựa chọn công nghệ phù hợp với nhu cầu kinh doanh và phối hợp với ban lãnh đạo."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織において情報技術（IT）戦略を策定し、実行する責任を持つ役職である。",
+          "vi": "CIO phụ trách chiến lược CNTT tổng thể; phân biệt với CDO phụ trách chiến lược dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CIO",
+          "english": "Chief Information Officer",
+          "vi": "Giám đốc thông tin",
+          "definitionJa": "企業や組織において情報技術（IT）戦略を策定し、実行する責任を持つ役職である。IT資源の管理や情報システムの最適化を通じて、企業の競争力を高めることに寄与する。具体的には、ITシステムの導入や運用を監督し、ビジネスニーズに応じた技術の選定を行う。また、データ管理や情報セキュリティの確保といった重要な課題にも直面するため、戦略的思考と幅広い技術知識が求められる。経営陣の一員としてITの重要性を経営全体に伝え、企業の成長を支える役割を果たす。",
+          "definitionVi": "CIO là người chịu trách nhiệm cao nhất về chiến lược CNTT và việc thực thi chiến lược đó trong tổ chức. CIO quản lý nguồn lực CNTT, giám sát triển khai hệ thống, lựa chọn công nghệ phù hợp với nhu cầu kinh doanh và phối hợp với ban lãnh đạo.",
+          "reading": "しーあいおー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "chief-information-officer"
+      ]
+    },
+    {
+      "id": "chief-data-officer",
+      "order": 7,
+      "titleJa": "CDO",
+      "titleVi": "Giám đốc dữ liệu",
+      "importance": "high",
+      "summaryJa": "企業や組織におけるデータ戦略を主導する役職である。",
+      "summaryVi": "CDO là người lãnh đạo chiến lược dữ liệu của tổ chức, chịu trách nhiệm tổ chức thu thập, quản lý, phân tích và khai thác giá trị dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CDOとは",
+          "vi": "Giám đốc dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織におけるデータ戦略を主導する役職である。データの収集、管理、分析を行い、それを基にした意思決定を支援することを目的としている。情報が豊富にある現代において、データは重要な資産であり、CDOはその価値を最大限に引き出す役割を担う。具体的には、データの品質を向上させ、データプライバシーやセキュリティの基準を設定することが求められる。また、マーケティングや営業部門との連携を図り、データを活用した戦略的な施策を推進することで、企業全体の競争力向上にも寄与する。",
+          "vi": "CDO là người lãnh đạo chiến lược dữ liệu của tổ chức, chịu trách nhiệm tổ chức thu thập, quản lý, phân tích và khai thác giá trị dữ liệu. CDO chú trọng chất lượng dữ liệu, quyền riêng tư, bảo mật và thúc đẩy quyết định kinh doanh dựa trên dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織におけるデータ戦略を主導する役職である。",
+          "vi": "CDO trong nguồn này là Chief Data Officer, không phải Chief Digital Officer."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CDO",
+          "english": "Chief Data Officer",
+          "vi": "Giám đốc dữ liệu",
+          "definitionJa": "企業や組織におけるデータ戦略を主導する役職である。データの収集、管理、分析を行い、それを基にした意思決定を支援することを目的としている。情報が豊富にある現代において、データは重要な資産であり、CDOはその価値を最大限に引き出す役割を担う。具体的には、データの品質を向上させ、データプライバシーやセキュリティの基準を設定することが求められる。また、マーケティングや営業部門との連携を図り、データを活用した戦略的な施策を推進することで、企業全体の競争力向上にも寄与する。",
+          "definitionVi": "CDO là người lãnh đạo chiến lược dữ liệu của tổ chức, chịu trách nhiệm tổ chức thu thập, quản lý, phân tích và khai thác giá trị dữ liệu. CDO chú trọng chất lượng dữ liệu, quyền riêng tư, bảo mật và thúc đẩy quyết định kinh doanh dựa trên dữ liệu.",
+          "reading": "しーでぃーおー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "chief-data-officer"
+      ]
+    },
+    {
+      "id": "information-systems-strategy-committee",
+      "order": 8,
+      "titleJa": "情報システム戦略委員会",
+      "titleVi": "Ủy ban chiến lược hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "企業や組織において、情報システムの戦略的な計画や運用を担うための委員会である。",
+      "summaryVi": "Ủy ban xem xét kế hoạch chiến lược và các quyết định quan trọng về hệ thống thông tin của tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム戦略委員会とは",
+          "vi": "Ủy ban chiến lược hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において、情報システムの戦略的な計画や運用を担うための委員会である。この委員会は、情報システムに関連する重要な意思決定を行い、業務ニーズに応じたシステムの導入や運用を支援する役割を果たす。たとえば、経営目標を達成するためにどのような技術を採用するかを検討し、情報システムの最適化を図ることが求められる。また、関係者間の調整やコミュニケーションを円滑にするための情報共有の場でもある。これにより、企業全体の情報戦略を整えることが可能になる。",
+          "vi": "Ủy ban xem xét kế hoạch chiến lược và các quyết định quan trọng về hệ thống thông tin của tổ chức. Ủy ban cân nhắc công nghệ phù hợp mục tiêu kinh doanh, hỗ trợ tối ưu hóa hệ thống và điều phối, chia sẻ thông tin giữa các bên liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織において、情報システムの戦略的な計画や運用を担うための委員会である。",
+          "vi": "Vai trò trọng tâm là điều phối và quyết định ở cấp chiến lược."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム戦略委員会",
+          "english": "Information Systems Strategy Committee",
+          "vi": "Ủy ban chiến lược hệ thống thông tin",
+          "definitionJa": "企業や組織において、情報システムの戦略的な計画や運用を担うための委員会である。この委員会は、情報システムに関連する重要な意思決定を行い、業務ニーズに応じたシステムの導入や運用を支援する役割を果たす。たとえば、経営目標を達成するためにどのような技術を採用するかを検討し、情報システムの最適化を図ることが求められる。また、関係者間の調整やコミュニケーションを円滑にするための情報共有の場でもある。これにより、企業全体の情報戦略を整えることが可能になる。",
+          "definitionVi": "Ủy ban xem xét kế hoạch chiến lược và các quyết định quan trọng về hệ thống thông tin của tổ chức. Ủy ban cân nhắc công nghệ phù hợp mục tiêu kinh doanh, hỗ trợ tối ưu hóa hệ thống và điều phối, chia sẻ thông tin giữa các bên liên quan.",
+          "reading": "じょうほうしすてむせんりゃくいいんかい"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-systems-strategy-committee"
+      ]
+    },
+    {
+      "id": "information-systems-department",
+      "order": 9,
+      "titleJa": "情報システム部門",
+      "titleVi": "Bộ phận hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "企業や組織において情報システムを管理し、運用するための専門的な部門である。",
+      "summaryVi": "Bộ phận chuyên trách quản lý, triển khai và vận hành hệ thống thông tin trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム部門とは",
+          "vi": "Bộ phận hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において情報システムを管理し、運用するための専門的な部門である。この部門は、情報技術（IT）の活用を通じて、業務の効率化や競争力の向上を図る役割を担っている。たとえば、業務プロセスの分析やシステムの導入・運用を行い、適切な情報を基に意思決定ができるよう支援する。さらに、セキュリティの確保やデータ管理も重要な任務であり、トラブルシューティングやユーザーサポートを行うことで、全体として組織の情報基盤を強化することが期待される。",
+          "vi": "Bộ phận chuyên trách quản lý, triển khai và vận hành hệ thống thông tin trong tổ chức. Công việc gồm phân tích quy trình nghiệp vụ, hỗ trợ triển khai hệ thống, bảo vệ thông tin, quản lý dữ liệu, xử lý sự cố và hỗ trợ người dùng."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織において情報システムを管理し、運用するための専門的な部門である。",
+          "vi": "Là đơn vị thực hiện và hỗ trợ hoạt động CNTT hằng ngày."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム部門",
+          "english": "Information Systems Department",
+          "vi": "Bộ phận hệ thống thông tin",
+          "definitionJa": "企業や組織において情報システムを管理し、運用するための専門的な部門である。この部門は、情報技術（IT）の活用を通じて、業務の効率化や競争力の向上を図る役割を担っている。たとえば、業務プロセスの分析やシステムの導入・運用を行い、適切な情報を基に意思決定ができるよう支援する。さらに、セキュリティの確保やデータ管理も重要な任務であり、トラブルシューティングやユーザーサポートを行うことで、全体として組織の情報基盤を強化することが期待される。",
+          "definitionVi": "Bộ phận chuyên trách quản lý, triển khai và vận hành hệ thống thông tin trong tổ chức. Công việc gồm phân tích quy trình nghiệp vụ, hỗ trợ triển khai hệ thống, bảo vệ thông tin, quản lý dữ liệu, xử lý sự cố và hỗ trợ người dùng.",
+          "reading": "じょうほうしすてむぶもん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-systems-department"
+      ]
+    },
+    {
+      "id": "information-system-investment-policy",
+      "order": 10,
+      "titleJa": "情報システム投資方針",
+      "titleVi": "Chính sách đầu tư hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "企業や組織が情報システムに対して行う投資の方針や戦略を示すものである。",
+      "summaryVi": "Định hướng về việc tổ chức sẽ đầu tư vào hệ thống và công nghệ nào, phân bổ ngân sách ra sao và đánh giá rủi ro, chi phí, lợi ích thế nào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム投資方針とは",
+          "vi": "Chính sách đầu tư hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が情報システムに対して行う投資の方針や戦略を示すものである。この方針は、情報システムに関連するリソースの最適な配分や、投資効果の最大化を目的としている。具体的には、どの技術やシステムに投資するか、どのようにコストを管理するか、または新たなシステム導入に伴うリスクをどう評価するかを含む。たとえば、新しいクラウドサービスの導入に際しては、そのサービスが業務の効率化につながるかどうかを検討しながら、予算を設定することが重要である。このように、組織の目標達成に向けた情報技術の活用を円滑にするための基本的な枠組みを提供する。",
+          "vi": "Định hướng về việc tổ chức sẽ đầu tư vào hệ thống và công nghệ nào, phân bổ ngân sách ra sao và đánh giá rủi ro, chi phí, lợi ích thế nào. Mục đích là sử dụng nguồn lực hợp lý và tối đa hóa hiệu quả đầu tư để phục vụ mục tiêu kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織が情報システムに対して行う投資の方針や戦略を示すものである。",
+          "vi": "Chính sách xác định nguyên tắc và ưu tiên đầu tư."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム投資方針",
+          "english": "Information System Investment Policy",
+          "vi": "Chính sách đầu tư hệ thống thông tin",
+          "definitionJa": "企業や組織が情報システムに対して行う投資の方針や戦略を示すものである。この方針は、情報システムに関連するリソースの最適な配分や、投資効果の最大化を目的としている。具体的には、どの技術やシステムに投資するか、どのようにコストを管理するか、または新たなシステム導入に伴うリスクをどう評価するかを含む。たとえば、新しいクラウドサービスの導入に際しては、そのサービスが業務の効率化につながるかどうかを検討しながら、予算を設定することが重要である。このように、組織の目標達成に向けた情報技術の活用を円滑にするための基本的な枠組みを提供する。",
+          "definitionVi": "Định hướng về việc tổ chức sẽ đầu tư vào hệ thống và công nghệ nào, phân bổ ngân sách ra sao và đánh giá rủi ro, chi phí, lợi ích thế nào. Mục đích là sử dụng nguồn lực hợp lý và tối đa hóa hiệu quả đầu tư để phục vụ mục tiêu kinh doanh.",
+          "reading": "じょうほうしすてむとうしほうしん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-system-investment-policy"
+      ]
+    },
+    {
+      "id": "it-investment-management",
+      "order": 11,
+      "titleJa": "IT投資マネジメント",
+      "titleVi": "Quản lý đầu tư CNTT",
+      "importance": "medium",
+      "summaryJa": "情報技術に関連する資源やプロジェクトに対する投資を計画、実行、評価するためのプロセスである。",
+      "summaryVi": "Quá trình lập kế hoạch, triển khai và đánh giá các khoản đầu tư vào CNTT như mua phần cứng, triển khai phần mềm hoặc cải tạo hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IT投資マネジメントとは",
+          "vi": "Quản lý đầu tư CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術に関連する資源やプロジェクトに対する投資を計画、実行、評価するためのプロセスである。このプロセスでは、企業がITに関連する投資の情報を整理し、適切な資源を配分することで、ビジネスの目標達成を支援する役割を果たす。具体的には、新しいソフトウェアの導入やハードウェアの購入、システムの改修などが含まれ、これらの投資が期待される成果と費用を考慮しながら判断される。また、投資後のパフォーマンス評価を通じて、効果的な資源配分や将来的な投資戦略を見直すことも重要である。これにより、企業は競争力を高めるための有効な手段としてITを活用できる。",
+          "vi": "Quá trình lập kế hoạch, triển khai và đánh giá các khoản đầu tư vào CNTT như mua phần cứng, triển khai phần mềm hoặc cải tạo hệ thống. Tổ chức so sánh chi phí với kết quả kỳ vọng và đánh giá sau đầu tư để điều chỉnh việc phân bổ nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "情報技術に関連する資源やプロジェクトに対する投資を計画、実行、評価するためのプロセスである。",
+          "vi": "Không chỉ duyệt chi phí ban đầu mà còn đo lường hiệu quả sau đầu tư."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IT投資マネジメント",
+          "english": "IT Investment Management",
+          "vi": "Quản lý đầu tư CNTT",
+          "definitionJa": "情報技術に関連する資源やプロジェクトに対する投資を計画、実行、評価するためのプロセスである。このプロセスでは、企業がITに関連する投資の情報を整理し、適切な資源を配分することで、ビジネスの目標達成を支援する役割を果たす。具体的には、新しいソフトウェアの導入やハードウェアの購入、システムの改修などが含まれ、これらの投資が期待される成果と費用を考慮しながら判断される。また、投資後のパフォーマンス評価を通じて、効果的な資源配分や将来的な投資戦略を見直すことも重要である。これにより、企業は競争力を高めるための有効な手段としてITを活用できる。",
+          "definitionVi": "Quá trình lập kế hoạch, triển khai và đánh giá các khoản đầu tư vào CNTT như mua phần cứng, triển khai phần mềm hoặc cải tạo hệ thống. Tổ chức so sánh chi phí với kết quả kỳ vọng và đánh giá sau đầu tư để điều chỉnh việc phân bổ nguồn lực.",
+          "reading": "あいてぃーとうしまねじめんと"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "it-investment-management"
+      ]
+    },
+    {
+      "id": "mission-critical-system",
+      "order": 12,
+      "titleJa": "基幹系システム",
+      "titleVi": "Hệ thống nghiệp vụ cốt lõi",
+      "importance": "high",
+      "summaryJa": "企業や組織の業務運営において、中心的な役割を果たす情報システムである。",
+      "summaryVi": "Hệ thống thông tin giữ vai trò trung tâm đối với hoạt động kinh doanh, chẳng hạn quản lý tài chính, bán hàng, tồn kho, sản xuất hoặc đơn hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "基幹系システムとは",
+          "vi": "Hệ thống nghiệp vụ cốt lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の業務運営において、中心的な役割を果たす情報システムである。これらのシステムは、経営や運営に直接影響を及ぼすデータや機能を提供し、主に財務管理、販売管理、在庫管理などの重要な業務プロセスをサポートする。たとえば、製造業においては、生産計画や受発注管理が基幹系システムに依存していることが多い。これにより、業務の効率化と信頼性の向上が図られる。一方で、基幹系システムが障害を起こすと、業務が停止するリスクが高まるため、その堅牢性とセキュリティが特に重要とされている。",
+          "vi": "Hệ thống thông tin giữ vai trò trung tâm đối với hoạt động kinh doanh, chẳng hạn quản lý tài chính, bán hàng, tồn kho, sản xuất hoặc đơn hàng. Khi hệ thống này gặp sự cố, hoạt động chính của doanh nghiệp có nguy cơ bị gián đoạn nên cần độ tin cậy và bảo mật cao."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織の業務運営において、中心的な役割を果たす情報システムである。",
+          "vi": "Hệ thống phục vụ nghiệp vụ thiết yếu, thường đòi hỏi tính sẵn sàng cao."
+        }
+      ],
+      "terms": [
+        {
+          "term": "基幹系システム",
+          "english": "Mission-Critical System",
+          "vi": "Hệ thống nghiệp vụ cốt lõi",
+          "definitionJa": "企業や組織の業務運営において、中心的な役割を果たす情報システムである。これらのシステムは、経営や運営に直接影響を及ぼすデータや機能を提供し、主に財務管理、販売管理、在庫管理などの重要な業務プロセスをサポートする。たとえば、製造業においては、生産計画や受発注管理が基幹系システムに依存していることが多い。これにより、業務の効率化と信頼性の向上が図られる。一方で、基幹系システムが障害を起こすと、業務が停止するリスクが高まるため、その堅牢性とセキュリティが特に重要とされている。",
+          "definitionVi": "Hệ thống thông tin giữ vai trò trung tâm đối với hoạt động kinh doanh, chẳng hạn quản lý tài chính, bán hàng, tồn kho, sản xuất hoặc đơn hàng. Khi hệ thống này gặp sự cố, hoạt động chính của doanh nghiệp có nguy cơ bị gián đoạn nên cần độ tin cậy và bảo mật cao.",
+          "reading": "きかんけいしすてむ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "mission-critical-system"
+      ]
+    },
+    {
+      "id": "enterprise-resource-planning",
+      "order": 13,
+      "titleJa": "ERP",
+      "titleVi": "Hoạch định nguồn lực doanh nghiệp",
+      "importance": "high",
+      "summaryJa": "企業の資源を効率的に管理するためのシステムである。",
+      "summaryVi": "ERP là phương pháp hoặc hệ thống tích hợp quản lý các nguồn lực và nghiệp vụ như tài chính, nhân sự, tồn kho, bán hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ERPとは",
+          "vi": "Hoạch định nguồn lực doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の資源を効率的に管理するためのシステムである。これにより、財務、在庫、人事など様々な部門が統合され、情報がリアルタイムで共有される。たとえば、在庫の状況を確認しながら、売上データに基づいた適切な発注を行うことが可能となり、業務の効率化が図られる。また、部門間の連携を強化し、意思決定を迅速かつ正確に行うために必要なデータを提供するため、企業全体の成長をサポートする重要なツールである。導入することで、経営資源の最適化を図り、競争力を向上させることができる。",
+          "vi": "ERP là phương pháp hoặc hệ thống tích hợp quản lý các nguồn lực và nghiệp vụ như tài chính, nhân sự, tồn kho, bán hàng. Dữ liệu giữa các bộ phận được chia sẻ, giúp phối hợp công việc và ra quyết định nhanh, chính xác hơn."
+        },
+        {
+          "type": "point",
+          "ja": "企業の資源を効率的に管理するためのシステムである。",
+          "vi": "ERP chú trọng tích hợp nguồn lực và dữ liệu trong toàn doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ERP",
+          "english": "Enterprise Resource Planning",
+          "vi": "Hoạch định nguồn lực doanh nghiệp",
+          "definitionJa": "企業の資源を効率的に管理するためのシステムである。これにより、財務、在庫、人事など様々な部門が統合され、情報がリアルタイムで共有される。たとえば、在庫の状況を確認しながら、売上データに基づいた適切な発注を行うことが可能となり、業務の効率化が図られる。また、部門間の連携を強化し、意思決定を迅速かつ正確に行うために必要なデータを提供するため、企業全体の成長をサポートする重要なツールである。導入することで、経営資源の最適化を図り、競争力を向上させることができる。",
+          "definitionVi": "ERP là phương pháp hoặc hệ thống tích hợp quản lý các nguồn lực và nghiệp vụ như tài chính, nhân sự, tồn kho, bán hàng. Dữ liệu giữa các bộ phận được chia sẻ, giúp phối hợp công việc và ra quyết định nhanh, chính xác hơn.",
+          "reading": "いーあーるぴー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "enterprise-resource-planning"
+      ]
+    },
+    {
+      "id": "supply-chain-management",
+      "order": 14,
+      "titleJa": "SCM",
+      "titleVi": "Quản lý chuỗi cung ứng",
+      "importance": "high",
+      "summaryJa": "商品やサービスが生産されてから顧客に届くまでの過程を最適化する管理手法である。",
+      "summaryVi": "SCM quản lý và tối ưu toàn bộ chuỗi từ mua nguyên vật liệu, sản xuất, vận chuyển đến phân phối và bán hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SCMとは",
+          "vi": "Quản lý chuỗi cung ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品やサービスが生産されてから顧客に届くまでの過程を最適化する管理手法である。具体的には、原材料の調達から製造、物流、販売に至るまでの全てのプロセスを統合的に管理し、効率を高めることを目指す。たとえば、製造業では必要な部品を適切なタイミングで調達し、生産ラインのスムーズな運営をサポートする。これにより、在庫コストの削減や納期短縮が実現でき、顧客満足度の向上につながる。さらに、情報技術を活用することで、各プロセスのデータをリアルタイムで把握し、迅速な意思決定を可能にする点もSCMの大きな特徴である。",
+          "vi": "SCM quản lý và tối ưu toàn bộ chuỗi từ mua nguyên vật liệu, sản xuất, vận chuyển đến phân phối và bán hàng. Việc chia sẻ dữ liệu giúp giảm tồn kho, rút ngắn thời gian giao hàng và đáp ứng nhu cầu khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "商品やサービスが生産されてから顧客に届くまでの過程を最適化する管理手法である。",
+          "vi": "SCM bao quát dòng hàng hóa và thông tin giữa các mắt xích của chuỗi cung ứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SCM",
+          "english": "Supply Chain Management",
+          "vi": "Quản lý chuỗi cung ứng",
+          "definitionJa": "商品やサービスが生産されてから顧客に届くまでの過程を最適化する管理手法である。具体的には、原材料の調達から製造、物流、販売に至るまでの全てのプロセスを統合的に管理し、効率を高めることを目指す。たとえば、製造業では必要な部品を適切なタイミングで調達し、生産ラインのスムーズな運営をサポートする。これにより、在庫コストの削減や納期短縮が実現でき、顧客満足度の向上につながる。さらに、情報技術を活用することで、各プロセスのデータをリアルタイムで把握し、迅速な意思決定を可能にする点もSCMの大きな特徴である。",
+          "definitionVi": "SCM quản lý và tối ưu toàn bộ chuỗi từ mua nguyên vật liệu, sản xuất, vận chuyển đến phân phối và bán hàng. Việc chia sẻ dữ liệu giúp giảm tồn kho, rút ngắn thời gian giao hàng và đáp ứng nhu cầu khách hàng.",
+          "reading": "えすしーえむ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "supply-chain-management"
+      ]
+    },
+    {
+      "id": "customer-relationship-management",
+      "order": 15,
+      "titleJa": "CRM",
+      "titleVi": "Quản lý quan hệ khách hàng",
+      "importance": "high",
+      "summaryJa": "顧客との関係を管理し、向上させるための戦略やツールを指す。",
+      "summaryVi": "CRM là chiến lược và công cụ quản lý, cải thiện quan hệ với khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CRMとは",
+          "vi": "Quản lý quan hệ khách hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客との関係を管理し、向上させるための戦略やツールを指す。主に、顧客の情報を集約し、分析することで、顧客ニーズに応じたサービスや提案を行うことが目的である。例えば、企業が顧客の購入履歴や問い合わせ内容を把握することで、特定の顧客に対してパーソナライズされたサービスを提供できる。これにより顧客満足度が向上し、長期的な関係構築につながる。また、CRMは営業やマーケティングの効率化にも寄与し、データを基にした意思決定を行いやすくする効果がある。",
+          "vi": "CRM là chiến lược và công cụ quản lý, cải thiện quan hệ với khách hàng. Doanh nghiệp tập hợp lịch sử mua hàng, liên hệ và nhu cầu để cung cấp dịch vụ phù hợp, nâng cao mức hài lòng và duy trì quan hệ lâu dài."
+        },
+        {
+          "type": "point",
+          "ja": "顧客との関係を管理し、向上させるための戦略やツールを指す。",
+          "vi": "CRM tập trung vào khách hàng và quan hệ lâu dài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CRM",
+          "english": "Customer Relationship Management",
+          "vi": "Quản lý quan hệ khách hàng",
+          "definitionJa": "顧客との関係を管理し、向上させるための戦略やツールを指す。主に、顧客の情報を集約し、分析することで、顧客ニーズに応じたサービスや提案を行うことが目的である。例えば、企業が顧客の購入履歴や問い合わせ内容を把握することで、特定の顧客に対してパーソナライズされたサービスを提供できる。これにより顧客満足度が向上し、長期的な関係構築につながる。また、CRMは営業やマーケティングの効率化にも寄与し、データを基にした意思決定を行いやすくする効果がある。",
+          "definitionVi": "CRM là chiến lược và công cụ quản lý, cải thiện quan hệ với khách hàng. Doanh nghiệp tập hợp lịch sử mua hàng, liên hệ và nhu cầu để cung cấp dịch vụ phù hợp, nâng cao mức hài lòng và duy trì quan hệ lâu dài.",
+          "reading": "しーあーるえむ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "customer-relationship-management"
+      ]
+    },
+    {
+      "id": "sales-force-automation",
+      "order": 16,
+      "titleJa": "SFA",
+      "titleVi": "Tự động hóa hoạt động bán hàng",
+      "importance": "high",
+      "summaryJa": "営業活動を効率化するための管理システムを指す。",
+      "summaryVi": "SFA là hệ thống hỗ trợ và nâng cao hiệu quả công việc của đội ngũ kinh doanh bằng cách tập trung thông tin khách hàng, lịch sử tiếp xúc, tình trạng thương vụ và kết quả bán hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SFAとは",
+          "vi": "Tự động hóa hoạt động bán hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "営業活動を効率化するための管理システムを指す。営業チームが顧客情報や商談状況を一元管理できるため、情報の共有がスムーズになり、営業の効率が向上する。例えば、顧客との接触履歴や提案内容を記録することで、担当者は次回のアプローチを計画しやすくなり、顧客のニーズに迅速に応えることが可能になる。また、データ分析機能を用いてパフォーマンスを測定することで、効果的な営業戦略を立てる手助けもする。これにより、企業全体の売上向上に寄与することになる。",
+          "vi": "SFA là hệ thống hỗ trợ và nâng cao hiệu quả công việc của đội ngũ kinh doanh bằng cách tập trung thông tin khách hàng, lịch sử tiếp xúc, tình trạng thương vụ và kết quả bán hàng. Nhờ đó nhân viên dễ lập kế hoạch tiếp cận và quản lý tiến độ."
+        },
+        {
+          "type": "point",
+          "ja": "営業活動を効率化するための管理システムを指す。",
+          "vi": "SFA tập trung vào quy trình và năng suất bán hàng; CRM rộng hơn về quan hệ khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SFA",
+          "english": "Sales Force Automation",
+          "vi": "Tự động hóa hoạt động bán hàng",
+          "definitionJa": "営業活動を効率化するための管理システムを指す。営業チームが顧客情報や商談状況を一元管理できるため、情報の共有がスムーズになり、営業の効率が向上する。例えば、顧客との接触履歴や提案内容を記録することで、担当者は次回のアプローチを計画しやすくなり、顧客のニーズに迅速に応えることが可能になる。また、データ分析機能を用いてパフォーマンスを測定することで、効果的な営業戦略を立てる手助けもする。これにより、企業全体の売上向上に寄与することになる。",
+          "definitionVi": "SFA là hệ thống hỗ trợ và nâng cao hiệu quả công việc của đội ngũ kinh doanh bằng cách tập trung thông tin khách hàng, lịch sử tiếp xúc, tình trạng thương vụ và kết quả bán hàng. Nhờ đó nhân viên dễ lập kế hoạch tiếp cận và quản lý tiến độ.",
+          "reading": "えすえふえー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "sales-force-automation"
+      ]
+    },
+    {
+      "id": "knowledge-management-system",
+      "order": 17,
+      "titleJa": "KMS",
+      "titleVi": "Hệ thống quản lý tri thức",
+      "importance": "medium",
+      "summaryJa": "組織内の知識を効率的に管理し、共有するためのシステムである。",
+      "summaryVi": "KMS là hệ thống thu thập, lưu trữ, cập nhật, tìm kiếm và chia sẻ kiến thức, tài liệu và kinh nghiệm trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KMSとは",
+          "vi": "Hệ thống quản lý tri thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内の知識を効率的に管理し、共有するためのシステムである。これにより、必要な情報を迅速に取得でき、意思決定や業務の効率化を図ることが可能となる。たとえば、企業内でのプロジェクト管理やノウハウの共有を目的とした文書庫のような機能を持ち、従業員が自由にアクセスできる環境を提供する。また、知識の蓄積や更新が簡単に行えるため、新しいアイデアや best practices の導入を促進し、組織全体の競争力を高める役割を果たす。特に知識の活用が重視される個別の開発計画において、重要なツールとなっている。",
+          "vi": "KMS là hệ thống thu thập, lưu trữ, cập nhật, tìm kiếm và chia sẻ kiến thức, tài liệu và kinh nghiệm trong tổ chức. Nhân viên có thể tái sử dụng cách giải quyết vấn đề và thực tiễn tốt, hỗ trợ ra quyết định và nâng cao hiệu quả công việc."
+        },
+        {
+          "type": "point",
+          "ja": "組織内の知識を効率的に管理し、共有するためのシステムである。",
+          "vi": "KMS quản lý tri thức và kinh nghiệm, không chỉ dữ liệu thô."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KMS",
+          "english": "Knowledge Management System",
+          "vi": "Hệ thống quản lý tri thức",
+          "definitionJa": "組織内の知識を効率的に管理し、共有するためのシステムである。これにより、必要な情報を迅速に取得でき、意思決定や業務の効率化を図ることが可能となる。たとえば、企業内でのプロジェクト管理やノウハウの共有を目的とした文書庫のような機能を持ち、従業員が自由にアクセスできる環境を提供する。また、知識の蓄積や更新が簡単に行えるため、新しいアイデアや best practices の導入を促進し、組織全体の競争力を高める役割を果たす。特に知識の活用が重視される個別の開発計画において、重要なツールとなっている。",
+          "definitionVi": "KMS là hệ thống thu thập, lưu trữ, cập nhật, tìm kiếm và chia sẻ kiến thức, tài liệu và kinh nghiệm trong tổ chức. Nhân viên có thể tái sử dụng cách giải quyết vấn đề và thực tiễn tốt, hỗ trợ ra quyết định và nâng cao hiệu quả công việc.",
+          "reading": "けーえむえす"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "knowledge-management-system"
+      ]
+    },
+    {
+      "id": "enterprise-search",
+      "order": 18,
+      "titleJa": "エンタープライズサーチ",
+      "titleVi": "Tìm kiếm thông tin trong doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業や組織内で利用される情報検索システムを指す。",
+      "summaryVi": "Công nghệ tìm kiếm thống nhất thông tin nằm ở nhiều nguồn nội bộ như tài liệu, cơ sở dữ liệu, thư điện tử và trang web.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エンタープライズサーチとは",
+          "vi": "Tìm kiếm thông tin trong doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織内で利用される情報検索システムを指す。これは、社内の文書、データベース、メール、Webコンテンツなど、さまざまな情報源から必要な情報を効率的に探し出すための技術である。例えば、社員が社内ドキュメントや過去のプロジェクト報告書を検索する際に、キーワードを入力するだけで関連情報を簡単に取得できるようにする。このようなシステムは、企業内の情報の流通を促進し、効率的な意思決定を助ける役割を果たす。また、検索結果はユーザーのニーズに応じてカスタマイズされることが多く、特定の権限のあるユーザーにのみアクセス可能な情報を提供することも可能である。",
+          "vi": "Công nghệ tìm kiếm thống nhất thông tin nằm ở nhiều nguồn nội bộ như tài liệu, cơ sở dữ liệu, thư điện tử và trang web. Người dùng nhập từ khóa để tìm nhanh thông tin cần thiết; kết quả có thể giới hạn theo quyền truy cập."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織内で利用される情報検索システムを指す。",
+          "vi": "Tìm kiếm xuyên nhiều nguồn dữ liệu nội bộ, có xét quyền truy cập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エンタープライズサーチ",
+          "english": "Enterprise Search",
+          "vi": "Tìm kiếm thông tin trong doanh nghiệp",
+          "definitionJa": "企業や組織内で利用される情報検索システムを指す。これは、社内の文書、データベース、メール、Webコンテンツなど、さまざまな情報源から必要な情報を効率的に探し出すための技術である。例えば、社員が社内ドキュメントや過去のプロジェクト報告書を検索する際に、キーワードを入力するだけで関連情報を簡単に取得できるようにする。このようなシステムは、企業内の情報の流通を促進し、効率的な意思決定を助ける役割を果たす。また、検索結果はユーザーのニーズに応じてカスタマイズされることが多く、特定の権限のあるユーザーにのみアクセス可能な情報を提供することも可能である。",
+          "definitionVi": "Công nghệ tìm kiếm thống nhất thông tin nằm ở nhiều nguồn nội bộ như tài liệu, cơ sở dữ liệu, thư điện tử và trang web. Người dùng nhập từ khóa để tìm nhanh thông tin cần thiết; kết quả có thể giới hạn theo quyền truy cập.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "enterprise-search"
+      ]
+    },
+    {
+      "id": "business-model",
+      "order": 19,
+      "titleJa": "ビジネスモデル",
+      "titleVi": "Mô hình kinh doanh",
+      "importance": "medium",
+      "summaryJa": "企業がどのようにして価値を提供し、収益を得るかを示す枠組みのことである。",
+      "summaryVi": "Khung mô tả doanh nghiệp tạo ra giá trị cho ai, cung cấp sản phẩm hoặc dịch vụ bằng cách nào và thu doanh thu ra sao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ビジネスモデルとは",
+          "vi": "Mô hình kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業がどのようにして価値を提供し、収益を得るかを示す枠組みのことである。具体的には、企業の製品やサービスの特徴、顧客ターゲット、競争優位性、収益の仕組みなどを定義する。たとえば、サブスクリプションモデルでは、顧客が定期的に料金を支払うことでサービスを利用できる形態が取られている。また、フリーミアムモデルでは基本的なサービスを無料で提供し、高度な機能に対して料金を設定することで収益を上げる。企業の戦略を検討する上で重要な要素であり、適切なモデルの選定により、市場での競争力や成長の可能性が大きく左右される。",
+          "vi": "Khung mô tả doanh nghiệp tạo ra giá trị cho ai, cung cấp sản phẩm hoặc dịch vụ bằng cách nào và thu doanh thu ra sao. Ví dụ: mô hình thuê bao thu phí định kỳ; mô hình freemium cung cấp chức năng cơ bản miễn phí và thu phí tính năng nâng cao."
+        },
+        {
+          "type": "point",
+          "ja": "企業がどのようにして価値を提供し、収益を得るかを示す枠組みのことである。",
+          "vi": "Trọng tâm là cơ chế tạo giá trị và doanh thu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビジネスモデル",
+          "english": "Business Model",
+          "vi": "Mô hình kinh doanh",
+          "definitionJa": "企業がどのようにして価値を提供し、収益を得るかを示す枠組みのことである。具体的には、企業の製品やサービスの特徴、顧客ターゲット、競争優位性、収益の仕組みなどを定義する。たとえば、サブスクリプションモデルでは、顧客が定期的に料金を支払うことでサービスを利用できる形態が取られている。また、フリーミアムモデルでは基本的なサービスを無料で提供し、高度な機能に対して料金を設定することで収益を上げる。企業の戦略を検討する上で重要な要素であり、適切なモデルの選定により、市場での競争力や成長の可能性が大きく左右される。",
+          "definitionVi": "Khung mô tả doanh nghiệp tạo ra giá trị cho ai, cung cấp sản phẩm hoặc dịch vụ bằng cách nào và thu doanh thu ra sao. Ví dụ: mô hình thuê bao thu phí định kỳ; mô hình freemium cung cấp chức năng cơ bản miễn phí và thu phí tính năng nâng cao.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "business-model"
+      ]
+    },
+    {
+      "id": "business-model-20",
+      "order": 20,
+      "titleJa": "業務モデル",
+      "titleVi": "Mô hình nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "企業や組織がどのように価値を創造し、提供し、収益を上げるかを示す枠組みを指す。",
+      "summaryVi": "Theo tài liệu nguồn, đây là khung mô tả thị trường, khách hàng, sản phẩm, phương thức bán hàng và cơ chế tạo doanh thu của tổ chức, nhằm làm rõ chiến lược và lợi thế cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務モデルとは",
+          "vi": "Mô hình nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織がどのように価値を創造し、提供し、収益を上げるかを示す枠組みを指す。具体的には、対象となる市場、顧客、製品やサービスの種類、販売方法、収益の仕組みなどが含まれる。この枠組みを用いることで、企業は戦略を明確にし、競争優位性を確立するための指針を得ることができる。たとえば、サブスクリプションモデルでは、定期的な料金を支払うことで顧客にサービスを提供し、安定した収益を獲得する仕組みが存在する。ビジネスを持続可能にし、成長させるための重要な要素である。",
+          "vi": "Theo tài liệu nguồn, đây là khung mô tả thị trường, khách hàng, sản phẩm, phương thức bán hàng và cơ chế tạo doanh thu của tổ chức, nhằm làm rõ chiến lược và lợi thế cạnh tranh. Ví dụ: cung cấp dịch vụ theo hình thức thu phí định kỳ."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織がどのように価値を創造し、提供し、収益を上げるかを示す枠組みを指す。",
+          "vi": "Nguồn mô tả khá giống ビジネスモデル; cần phân biệt theo ngữ cảnh đề thi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務モデル",
+          "english": "Business Model",
+          "vi": "Mô hình nghiệp vụ",
+          "definitionJa": "企業や組織がどのように価値を創造し、提供し、収益を上げるかを示す枠組みを指す。具体的には、対象となる市場、顧客、製品やサービスの種類、販売方法、収益の仕組みなどが含まれる。この枠組みを用いることで、企業は戦略を明確にし、競争優位性を確立するための指針を得ることができる。たとえば、サブスクリプションモデルでは、定期的な料金を支払うことで顧客にサービスを提供し、安定した収益を獲得する仕組みが存在する。ビジネスを持続可能にし、成長させるための重要な要素である。",
+          "definitionVi": "Theo tài liệu nguồn, đây là khung mô tả thị trường, khách hàng, sản phẩm, phương thức bán hàng và cơ chế tạo doanh thu của tổ chức, nhằm làm rõ chiến lược và lợi thế cạnh tranh. Ví dụ: cung cấp dịch vụ theo hình thức thu phí định kỳ.",
+          "reading": "ぎょうむもでる"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "business-model-20"
+      ]
+    },
+    {
+      "id": "information-system-model",
+      "order": 21,
+      "titleJa": "情報システムモデル",
+      "titleVi": "Mô hình hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "情報システムの構成や動作を視覚的に表現したモデルのことである。",
+      "summaryVi": "Mô hình thể hiện trực quan cấu trúc, thành phần và cách hệ thống thông tin hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システムモデルとは",
+          "vi": "Mô hình hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの構成や動作を視覚的に表現したモデルのことである。これにより、システムの各要素やその関係性を理解しやすくすることが目的である。たとえば、データベース、ユーザーインターフェース、ネットワークなどの構成要素がどのように相互作用するかを示す図やフローチャートが使われる場合が多い。システム開発や運用において、設計や改善のプロセスを効率化するための重要なツールであり、関与するすべての人々が共通の理解を持つことに役立つ。",
+          "vi": "Mô hình thể hiện trực quan cấu trúc, thành phần và cách hệ thống thông tin hoạt động. Các sơ đồ có thể cho thấy quan hệ giữa cơ sở dữ liệu, giao diện người dùng, mạng và các bộ phận khác, giúp các bên hiểu chung khi thiết kế hoặc cải tiến hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの構成や動作を視覚的に表現したモデルのことである。",
+          "vi": "Biểu diễn hệ thống ở mức mô hình để hỗ trợ phân tích và thiết kế."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システムモデル",
+          "english": "Information System Model",
+          "vi": "Mô hình hệ thống thông tin",
+          "definitionJa": "情報システムの構成や動作を視覚的に表現したモデルのことである。これにより、システムの各要素やその関係性を理解しやすくすることが目的である。たとえば、データベース、ユーザーインターフェース、ネットワークなどの構成要素がどのように相互作用するかを示す図やフローチャートが使われる場合が多い。システム開発や運用において、設計や改善のプロセスを効率化するための重要なツールであり、関与するすべての人々が共通の理解を持つことに役立つ。",
+          "definitionVi": "Mô hình thể hiện trực quan cấu trúc, thành phần và cách hệ thống thông tin hoạt động. Các sơ đồ có thể cho thấy quan hệ giữa cơ sở dữ liệu, giao diện người dùng, mạng và các bộ phận khác, giúp các bên hiểu chung khi thiết kế hoặc cải tiến hệ thống.",
+          "reading": "じょうほうしすてむもでる"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-system-model"
+      ]
+    },
+    {
+      "id": "zachman-framework",
+      "order": 22,
+      "titleJa": "ザックマンフレームワーク",
+      "titleVi": "Khung kiến trúc Zachman",
+      "importance": "high",
+      "summaryJa": "エンタープライズアーキテクチャを構築するためのフレームワークであり、情報システムの全体像を把握し、整理する基盤を提供するものである。",
+      "summaryVi": "Khung phân loại và tổ chức kiến trúc doanh nghiệp dưới dạng ma trận, xét các câu hỏi Cái gì, Như thế nào, Ở đâu, Ai, Khi nào, Tại sao theo các góc nhìn hoặc cấp độ khác nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ザックマンフレームワークとは",
+          "vi": "Khung kiến trúc Zachman là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "エンタープライズアーキテクチャを構築するためのフレームワークであり、情報システムの全体像を把握し、整理する基盤を提供するものである。このフレームワークは、さまざまな観点からビジネスや情報システムを分析するためのマトリックスを用いており、6つの視点（何、どのように、どこで、誰が、いつ、なぜ）と、6つの階層（エンタープライズ、システム、技術など）で構成されている。具体的には、企業が持つ情報や資源を整理し、各部門やシステムの相互関係を明確にすることができるため、戦略的な意思決定を支援する上で非常に重要である。これにより、組織全体の整合性と効率性が向上し、プロジェクトの成功率を高める効果をもたらす。",
+          "vi": "Khung phân loại và tổ chức kiến trúc doanh nghiệp dưới dạng ma trận, xét các câu hỏi Cái gì, Như thế nào, Ở đâu, Ai, Khi nào, Tại sao theo các góc nhìn hoặc cấp độ khác nhau. Giúp sắp xếp thông tin và làm rõ quan hệ giữa các bộ phận, hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "エンタープライズアーキテクチャを構築するためのフレームワークであり、情報システムの全体像を把握し、整理する基盤を提供するものである。",
+          "vi": "Zachman là khung phân loại các góc nhìn kiến trúc doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ザックマンフレームワーク",
+          "english": "Zachman Framework",
+          "vi": "Khung kiến trúc Zachman",
+          "definitionJa": "エンタープライズアーキテクチャを構築するためのフレームワークであり、情報システムの全体像を把握し、整理する基盤を提供するものである。このフレームワークは、さまざまな観点からビジネスや情報システムを分析するためのマトリックスを用いており、6つの視点（何、どのように、どこで、誰が、いつ、なぜ）と、6つの階層（エンタープライズ、システム、技術など）で構成されている。具体的には、企業が持つ情報や資源を整理し、各部門やシステムの相互関係を明確にすることができるため、戦略的な意思決定を支援する上で非常に重要である。これにより、組織全体の整合性と効率性が向上し、プロジェクトの成功率を高める効果をもたらす。",
+          "definitionVi": "Khung phân loại và tổ chức kiến trúc doanh nghiệp dưới dạng ma trận, xét các câu hỏi Cái gì, Như thế nào, Ở đâu, Ai, Khi nào, Tại sao theo các góc nhìn hoặc cấp độ khác nhau. Giúp sắp xếp thông tin và làm rõ quan hệ giữa các bộ phận, hệ thống.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "zachman-framework"
+      ]
+    },
+    {
+      "id": "business-and-system-optimization",
+      "order": 23,
+      "titleJa": "業務・システム最適化",
+      "titleVi": "Tối ưu hóa nghiệp vụ và hệ thống",
+      "importance": "medium",
+      "summaryJa": "企業の業務やシステムの効率を最大化し、コストの削減や品質の向上を図る取り組みである。",
+      "summaryVi": "Hoạt động rà soát và cải tiến quy trình nghiệp vụ cùng hệ thống CNTT để nâng hiệu suất, giảm chi phí và cải thiện chất lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務・システム最適化とは",
+          "vi": "Tối ưu hóa nghiệp vụ và hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の業務やシステムの効率を最大化し、コストの削減や品質の向上を図る取り組みである。具体的には、業務プロセスの見直しやシステムの統合、IT技術の適用を通じて、業務の流れをスムーズにすることが目的である。このような取り組みは、エンタープライズアーキテクチャの観点からも重要で、企業全体の最適化が進むことにより、競争力を高めることが可能となる。また、業務・システム最適化では、データ分析を活用して問題点を特定し、改善策を実施することで、持続可能な成長を支える基盤を構築する役割も果たす。これにより、企業内外のリソースを有効に活用し、成果を最大化することが期待される。",
+          "vi": "Hoạt động rà soát và cải tiến quy trình nghiệp vụ cùng hệ thống CNTT để nâng hiệu suất, giảm chi phí và cải thiện chất lượng. Có thể thực hiện bằng cách tích hợp hệ thống, áp dụng công nghệ và phân tích dữ liệu để phát hiện vấn đề, hướng đến tối ưu toàn doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "企業の業務やシステムの効率を最大化し、コストの削減や品質の向上を図る取り組みである。",
+          "vi": "Tối ưu đồng thời quy trình nghiệp vụ và hệ thống, tránh tối ưu cục bộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務・システム最適化",
+          "english": "Business and System Optimization",
+          "vi": "Tối ưu hóa nghiệp vụ và hệ thống",
+          "definitionJa": "企業の業務やシステムの効率を最大化し、コストの削減や品質の向上を図る取り組みである。具体的には、業務プロセスの見直しやシステムの統合、IT技術の適用を通じて、業務の流れをスムーズにすることが目的である。このような取り組みは、エンタープライズアーキテクチャの観点からも重要で、企業全体の最適化が進むことにより、競争力を高めることが可能となる。また、業務・システム最適化では、データ分析を活用して問題点を特定し、改善策を実施することで、持続可能な成長を支える基盤を構築する役割も果たす。これにより、企業内外のリソースを有効に活用し、成果を最大化することが期待される。",
+          "definitionVi": "Hoạt động rà soát và cải tiến quy trình nghiệp vụ cùng hệ thống CNTT để nâng hiệu suất, giảm chi phí và cải thiện chất lượng. Có thể thực hiện bằng cách tích hợp hệ thống, áp dụng công nghệ và phân tích dữ liệu để phát hiện vấn đề, hướng đến tối ưu toàn doanh nghiệp.",
+          "reading": "ぎょうむ・しすてむさいてきか"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "business-and-system-optimization"
+      ]
+    },
+    {
+      "id": "as-is-model",
+      "order": 24,
+      "titleJa": "As-isモデル",
+      "titleVi": "Mô hình hiện trạng",
+      "importance": "high",
+      "summaryJa": "現在のプロセスやシステムの状態を正確に把握するためのモデルである。",
+      "summaryVi": "As-is là mô hình mô tả trung thực trạng thái hiện tại của quy trình, cơ cấu tổ chức, luồng thông tin hoặc hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "As-isモデルとは",
+          "vi": "Mô hình hiện trạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "現在のプロセスやシステムの状態を正確に把握するためのモデルである。このモデルは、業務プロセス、組織構造、情報フローなどを視覚的に表現し、現状分析の基盤を提供する。例えば、企業が新しいシステムを導入する際に、既存の業務プロセスを理解するためにAs-isモデルを作成することで、問題点や改善点を明らかにしやすくなる。この分析が行われることで、将来の目指すべき姿、すなわちTo-beモデルとの比較が可能になり、具体的な改善策の導入に繋がる。また、As-isモデルを用いることで、関係者とのコミュニケーションが円滑になり、プロジェクトの成功率を高める効果も期待できる。",
+          "vi": "As-is là mô hình mô tả trung thực trạng thái hiện tại của quy trình, cơ cấu tổ chức, luồng thông tin hoặc hệ thống. Nó được dùng để nhận diện vấn đề trước khi so sánh với mô hình mục tiêu To-be và đề xuất cải tiến."
+        },
+        {
+          "type": "point",
+          "ja": "現在のプロセスやシステムの状態を正確に把握するためのモデルである。",
+          "vi": "As-is = hiện trạng, trước khi cải tiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "As-isモデル",
+          "english": "As-is Model",
+          "vi": "Mô hình hiện trạng",
+          "definitionJa": "現在のプロセスやシステムの状態を正確に把握するためのモデルである。このモデルは、業務プロセス、組織構造、情報フローなどを視覚的に表現し、現状分析の基盤を提供する。例えば、企業が新しいシステムを導入する際に、既存の業務プロセスを理解するためにAs-isモデルを作成することで、問題点や改善点を明らかにしやすくなる。この分析が行われることで、将来の目指すべき姿、すなわちTo-beモデルとの比較が可能になり、具体的な改善策の導入に繋がる。また、As-isモデルを用いることで、関係者とのコミュニケーションが円滑になり、プロジェクトの成功率を高める効果も期待できる。",
+          "definitionVi": "As-is là mô hình mô tả trung thực trạng thái hiện tại của quy trình, cơ cấu tổ chức, luồng thông tin hoặc hệ thống. Nó được dùng để nhận diện vấn đề trước khi so sánh với mô hình mục tiêu To-be và đề xuất cải tiến.",
+          "reading": "あずいずもでる"
+        }
+      ],
+      "tags": ["system-strategy", "information-system-strategy", "as-is-model"]
+    },
+    {
+      "id": "to-be-model",
+      "order": 25,
+      "titleJa": "To-beモデル",
+      "titleVi": "Mô hình trạng thái mục tiêu",
+      "importance": "high",
+      "summaryJa": "企業や組織が目指す理想の状態やプロセスを表現したモデルである。",
+      "summaryVi": "To-be mô tả trạng thái lý tưởng hoặc mục tiêu của nghiệp vụ và hệ thống trong tương lai.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "To-beモデルとは",
+          "vi": "Mô hình trạng thái mục tiêu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が目指す理想の状態やプロセスを表現したモデルである。これは、現在の運営状態（As-isモデル）との対比を通じて、改善点や変革の目標を明確にするために用いられる。具体的には、業務フローやシステム構成の設計を見直し、効率的な運営を実現するための指針を提供する。また、To-beモデルはエンタープライズアーキテクチャの一部として活用され、組織全体のコーディネーションを促進する。これにより、各部門が一貫したビジョンのもとで行動し、目標達成のための戦略的な計画を立てることが可能になる。組織の長期的な発展に寄与するための重要なツールとなる。",
+          "vi": "To-be mô tả trạng thái lý tưởng hoặc mục tiêu của nghiệp vụ và hệ thống trong tương lai. Bằng cách so sánh với As-is, tổ chức xác định khoảng cách, mục tiêu thay đổi và kế hoạch cải tiến phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織が目指す理想の状態やプロセスを表現したモデルである。",
+          "vi": "To-be = trạng thái mong muốn sau cải tiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "To-beモデル",
+          "english": "To-be Model",
+          "vi": "Mô hình trạng thái mục tiêu",
+          "definitionJa": "企業や組織が目指す理想の状態やプロセスを表現したモデルである。これは、現在の運営状態（As-isモデル）との対比を通じて、改善点や変革の目標を明確にするために用いられる。具体的には、業務フローやシステム構成の設計を見直し、効率的な運営を実現するための指針を提供する。また、To-beモデルはエンタープライズアーキテクチャの一部として活用され、組織全体のコーディネーションを促進する。これにより、各部門が一貫したビジョンのもとで行動し、目標達成のための戦略的な計画を立てることが可能になる。組織の長期的な発展に寄与するための重要なツールとなる。",
+          "definitionVi": "To-be mô tả trạng thái lý tưởng hoặc mục tiêu của nghiệp vụ và hệ thống trong tương lai. Bằng cách so sánh với As-is, tổ chức xác định khoảng cách, mục tiêu thay đổi và kế hoạch cải tiến phù hợp.",
+          "reading": "とぅーびーもでる"
+        }
+      ],
+      "tags": ["system-strategy", "information-system-strategy", "to-be-model"]
+    },
+    {
+      "id": "business-requirements-document",
+      "order": 26,
+      "titleJa": "業務説明書",
+      "titleVi": "Tài liệu mô tả nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務に関する要求事項を明文化した文書である。",
+      "summaryVi": "Tài liệu ghi rõ mục đích, yêu cầu, quy trình, kết quả mong đợi và trách nhiệm của các bên liên quan trong một nghiệp vụ hoặc dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務説明書とは",
+          "vi": "Tài liệu mô tả nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務に関する要求事項を明文化した文書である。この文書は、関係者間で共通の理解を持つことを目的としており、業務の目的、要件、期待される成果などを詳しく記載する。特に新しいシステムやプロセスを導入する際に、その方向性を明確にするために用いられる。具体的には、業務フローや機能仕様、関与するステークホルダーの役割などが含まれ、プロジェクトの進行や評価において重要な指針となる。このため、業務説明書はプロジェクト管理やソフトウェア開発の初期段階で特に重視され、成功に向けた基盤を築く役割を果たす。",
+          "vi": "Tài liệu ghi rõ mục đích, yêu cầu, quy trình, kết quả mong đợi và trách nhiệm của các bên liên quan trong một nghiệp vụ hoặc dự án. Giúp thống nhất nhận thức khi triển khai hệ thống hay quy trình mới và làm cơ sở theo dõi, đánh giá."
+        },
+        {
+          "type": "point",
+          "ja": "プロジェクトや業務に関する要求事項を明文化した文書である。",
+          "vi": "Làm rõ yêu cầu và cách vận hành nghiệp vụ cho các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務説明書",
+          "english": "Business Requirements Document",
+          "vi": "Tài liệu mô tả nghiệp vụ",
+          "definitionJa": "プロジェクトや業務に関する要求事項を明文化した文書である。この文書は、関係者間で共通の理解を持つことを目的としており、業務の目的、要件、期待される成果などを詳しく記載する。特に新しいシステムやプロセスを導入する際に、その方向性を明確にするために用いられる。具体的には、業務フローや機能仕様、関与するステークホルダーの役割などが含まれ、プロジェクトの進行や評価において重要な指針となる。このため、業務説明書はプロジェクト管理やソフトウェア開発の初期段階で特に重視され、成功に向けた基盤を築く役割を果たす。",
+          "definitionVi": "Tài liệu ghi rõ mục đích, yêu cầu, quy trình, kết quả mong đợi và trách nhiệm của các bên liên quan trong một nghiệp vụ hoặc dự án. Giúp thống nhất nhận thức khi triển khai hệ thống hay quy trình mới và làm cơ sở theo dõi, đánh giá.",
+          "reading": "ぎょうむせつめいしょ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "business-requirements-document"
+      ]
+    },
+    {
+      "id": "data-flow-diagram",
+      "order": 27,
+      "titleJa": "DFD",
+      "titleVi": "Sơ đồ luồng dữ liệu",
+      "importance": "high",
+      "summaryJa": "システムやプロセスにおけるデータの流れを視覚化するための図である。",
+      "summaryVi": "DFD biểu diễn dữ liệu đi vào, được xử lý, lưu trữ và đi ra khỏi hệ thống như thế nào.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DFDとは",
+          "vi": "Sơ đồ luồng dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスにおけるデータの流れを視覚化するための図である。DFDでは、データの入力、処理、出力の過程が示されており、各要素がどのように相互に関連しているかを理解しやすくする役割を果たす。主にビジネスプロセスの分析や改善を行う際に用いられ、特定の業務フローや情報の流れを把握するのに役立つ。通常、プロセスを円で表し、データが流れる方向を矢印で示すことで、視覚的に理解しやすくなっている。この手法は、複雑なシステムやプロジェクトを整理し、関与するステークホルダーと共有する際にも非常に有効である。そのため、IT開発や業務改善を行う際の重要な分析ツールとされている。",
+          "vi": "DFD biểu diễn dữ liệu đi vào, được xử lý, lưu trữ và đi ra khỏi hệ thống như thế nào. Sơ đồ dùng các ký hiệu cho tiến trình, luồng dữ liệu, kho dữ liệu và tác nhân ngoài để phân tích cách thông tin di chuyển trong nghiệp vụ."
+        },
+        {
+          "type": "point",
+          "ja": "システムやプロセスにおけるデータの流れを視覚化するための図である。",
+          "vi": "DFD nhấn mạnh luồng dữ liệu, không phải trình tự điều khiển chương trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DFD",
+          "english": "Data Flow Diagram",
+          "vi": "Sơ đồ luồng dữ liệu",
+          "definitionJa": "システムやプロセスにおけるデータの流れを視覚化するための図である。DFDでは、データの入力、処理、出力の過程が示されており、各要素がどのように相互に関連しているかを理解しやすくする役割を果たす。主にビジネスプロセスの分析や改善を行う際に用いられ、特定の業務フローや情報の流れを把握するのに役立つ。通常、プロセスを円で表し、データが流れる方向を矢印で示すことで、視覚的に理解しやすくなっている。この手法は、複雑なシステムやプロジェクトを整理し、関与するステークホルダーと共有する際にも非常に有効である。そのため、IT開発や業務改善を行う際の重要な分析ツールとされている。",
+          "definitionVi": "DFD biểu diễn dữ liệu đi vào, được xử lý, lưu trữ và đi ra khỏi hệ thống như thế nào. Sơ đồ dùng các ký hiệu cho tiến trình, luồng dữ liệu, kho dữ liệu và tác nhân ngoài để phân tích cách thông tin di chuyển trong nghiệp vụ.",
+          "reading": "でぃーえふでぃ"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "data-flow-diagram"
+      ]
+    },
+    {
+      "id": "workflow-architecture",
+      "order": 28,
+      "titleJa": "WFA",
+      "titleVi": "Kiến trúc luồng công việc",
+      "importance": "medium",
+      "summaryJa": "業務の流れを視覚的に表現した図のことである。",
+      "summaryVi": "Theo nguồn, WFA biểu diễn trực quan các bước, nhiệm vụ và quan hệ trong một quy trình công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "WFAとは",
+          "vi": "Kiến trúc luồng công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務の流れを視覚的に表現した図のことである。この図は、業務プロセスを構成する各ステップやタスクの関係性を明確に示す役割を果たす。たとえば、受注から納品までの流れを可視化することで、業務の効率化や問題点の特定が容易になる。また、WFAは関係者間でのコミュニケーションを促進するためのツールとしても有用で、チーム全体が業務の流れを共通認識する手助けをする。さらに、業務フローを定期的に見直すことで、改善点を見つけやすくなり、持続的な業務の最適化を推進することが可能である。",
+          "vi": "Theo nguồn, WFA biểu diễn trực quan các bước, nhiệm vụ và quan hệ trong một quy trình công việc. Ví dụ, sơ đồ từ tiếp nhận đơn hàng đến giao hàng giúp nhận diện nút thắt và cải thiện phối hợp giữa các bộ phận."
+        },
+        {
+          "type": "point",
+          "ja": "業務の流れを視覚的に表現した図のことである。",
+          "vi": "Dùng để hình dung và cải tiến luồng nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "WFA",
+          "english": "Workflow Architecture",
+          "vi": "Kiến trúc luồng công việc",
+          "definitionJa": "業務の流れを視覚的に表現した図のことである。この図は、業務プロセスを構成する各ステップやタスクの関係性を明確に示す役割を果たす。たとえば、受注から納品までの流れを可視化することで、業務の効率化や問題点の特定が容易になる。また、WFAは関係者間でのコミュニケーションを促進するためのツールとしても有用で、チーム全体が業務の流れを共通認識する手助けをする。さらに、業務フローを定期的に見直すことで、改善点を見つけやすくなり、持続的な業務の最適化を推進することが可能である。",
+          "definitionVi": "Theo nguồn, WFA biểu diễn trực quan các bước, nhiệm vụ và quan hệ trong một quy trình công việc. Ví dụ, sơ đồ từ tiếp nhận đơn hàng đến giao hàng giúp nhận diện nút thắt và cải thiện phối hợp giữa các bộ phận.",
+          "reading": "だぶるえふえー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "workflow-architecture"
+      ]
+    },
+    {
+      "id": "unified-modeling-language",
+      "order": 29,
+      "titleJa": "UML",
+      "titleVi": "Ngôn ngữ mô hình hóa thống nhất",
+      "importance": "high",
+      "summaryJa": "ソフトウェア開発やビジネスプロセスの設計に使用される統一モデリング言語である。",
+      "summaryVi": "UML là ngôn ngữ mô hình hóa bằng sơ đồ và ký hiệu tiêu chuẩn, dùng biểu diễn yêu cầu, cấu trúc và hành vi của hệ thống phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UMLとは",
+          "vi": "Ngôn ngữ mô hình hóa thống nhất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発やビジネスプロセスの設計に使用される統一モデリング言語である。これは、システムやプロセスを視覚的に表現するための図や記号の集合であり、開発者やビジネスアナリストが共通理解を持つ手助けをする。UMLの主な目的は、コミュニケーションを向上させることであり、システムの要件、構造、動作を明確に示すことができる。例えば、クラス図やシーケンス図といったさまざまな図を使用することで、システム内の要素やその相互作用を視覚化しやすくなる。これにより、チーム間での議論がスムーズに進み、より良い設計が生まれる基盤となる。特にビジネスアーキテクチャにおいては、業務プロセスの改善や最適化を図る際にUMLが非常に役立つことがある。",
+          "vi": "UML là ngôn ngữ mô hình hóa bằng sơ đồ và ký hiệu tiêu chuẩn, dùng biểu diễn yêu cầu, cấu trúc và hành vi của hệ thống phần mềm. Ví dụ, sơ đồ lớp mô tả cấu trúc; sơ đồ tuần tự mô tả tương tác theo thời gian."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェア開発やビジネスプロセスの設計に使用される統一モデリング言語である。",
+          "vi": "UML là ngôn ngữ mô hình hóa, không phải ngôn ngữ lập trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UML",
+          "english": "Unified Modeling Language",
+          "vi": "Ngôn ngữ mô hình hóa thống nhất",
+          "definitionJa": "ソフトウェア開発やビジネスプロセスの設計に使用される統一モデリング言語である。これは、システムやプロセスを視覚的に表現するための図や記号の集合であり、開発者やビジネスアナリストが共通理解を持つ手助けをする。UMLの主な目的は、コミュニケーションを向上させることであり、システムの要件、構造、動作を明確に示すことができる。例えば、クラス図やシーケンス図といったさまざまな図を使用することで、システム内の要素やその相互作用を視覚化しやすくなる。これにより、チーム間での議論がスムーズに進み、より良い設計が生まれる基盤となる。特にビジネスアーキテクチャにおいては、業務プロセスの改善や最適化を図る際にUMLが非常に役立つことがある。",
+          "definitionVi": "UML là ngôn ngữ mô hình hóa bằng sơ đồ và ký hiệu tiêu chuẩn, dùng biểu diễn yêu cầu, cấu trúc và hành vi của hệ thống phần mềm. Ví dụ, sơ đồ lớp mô tả cấu trúc; sơ đồ tuần tự mô tả tương tác theo thời gian.",
+          "reading": "ゆーえむえる"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "unified-modeling-language"
+      ]
+    },
+    {
+      "id": "data-definition-table",
+      "order": 30,
+      "titleJa": "データ定義表",
+      "titleVi": "Bảng định nghĩa dữ liệu",
+      "importance": "medium",
+      "summaryJa": "システムにおいて使用されるデータの構造や内容を明確に示す文書である。",
+      "summaryVi": "Tài liệu liệt kê các trường dữ liệu và thuộc tính của chúng như tên, kiểu, độ dài và ràng buộc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データ定義表とは",
+          "vi": "Bảng định nghĩa dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムにおいて使用されるデータの構造や内容を明確に示す文書である。通常、各データ項目について、その名称、タイプ、長さ、制約などの情報を整理して記載されている。これにより、開発者やデータベース管理者は、データがどのように取り扱われるべきかを理解しやすくなる。また、データベース設計やシステム開発の初期段階で作成され、後の作業での参照資料としても重要である。さらに、プロジェクトの関係者間でのコミュニケーションを円滑にし、データの整合性を保つための基盤を提供する役割も果たしている。要するに、データ管理やシステム全体の理解を深めるために不可欠なツールである。",
+          "vi": "Tài liệu liệt kê các trường dữ liệu và thuộc tính của chúng như tên, kiểu, độ dài và ràng buộc. Bảng này hỗ trợ thiết kế cơ sở dữ liệu, thống nhất cách hiểu dữ liệu giữa các bên và duy trì tính nhất quán."
+        },
+        {
+          "type": "point",
+          "ja": "システムにおいて使用されるデータの構造や内容を明確に示す文書である。",
+          "vi": "Chú ý tên trường, kiểu dữ liệu, độ dài và ràng buộc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データ定義表",
+          "english": "Data Definition Table",
+          "vi": "Bảng định nghĩa dữ liệu",
+          "definitionJa": "システムにおいて使用されるデータの構造や内容を明確に示す文書である。通常、各データ項目について、その名称、タイプ、長さ、制約などの情報を整理して記載されている。これにより、開発者やデータベース管理者は、データがどのように取り扱われるべきかを理解しやすくなる。また、データベース設計やシステム開発の初期段階で作成され、後の作業での参照資料としても重要である。さらに、プロジェクトの関係者間でのコミュニケーションを円滑にし、データの整合性を保つための基盤を提供する役割も果たしている。要するに、データ管理やシステム全体の理解を深めるために不可欠なツールである。",
+          "definitionVi": "Tài liệu liệt kê các trường dữ liệu và thuộc tính của chúng như tên, kiểu, độ dài và ràng buộc. Bảng này hỗ trợ thiết kế cơ sở dữ liệu, thống nhất cách hiểu dữ liệu giữa các bên và duy trì tính nhất quán.",
+          "reading": "でーたていぎひょう"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "data-definition-table"
+      ]
+    },
+    {
+      "id": "information-architecture-diagram",
+      "order": 31,
+      "titleJa": "情報体系整理図",
+      "titleVi": "Sơ đồ tổ chức cấu trúc thông tin",
+      "importance": "medium",
+      "summaryJa": "データアーキテクチャにおいて、システム内の情報の構造や関係性を視覚的に表現するための図である。",
+      "summaryVi": "Sơ đồ thể hiện cấu trúc và mối quan hệ giữa các loại thông tin trong hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報体系整理図とは",
+          "vi": "Sơ đồ tổ chức cấu trúc thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データアーキテクチャにおいて、システム内の情報の構造や関係性を視覚的に表現するための図である。特にUMLのクラス図は、オブジェクト指向の設計手法に基づいており、クラス（データの設計図）やその属性（データの特徴）やメソッド（データに対する操作）の関係を示す。具体的には、クラス間の継承や関連、依存関係を示すことで、システム全体の情報フローを把握しやすくする。そのため、開発者やデザイナーは、複雑なシステムを理解しやすくなり、効果的な設計を行うための補助となる。また、情報体系整理図を用いることで、システムの拡張や変更が容易になり、今後のメンテナンスを円滑に進めることが可能になる。",
+          "vi": "Sơ đồ thể hiện cấu trúc và mối quan hệ giữa các loại thông tin trong hệ thống. Theo nguồn, có thể sử dụng sơ đồ lớp UML để mô tả lớp, thuộc tính, phương thức và các quan hệ như kế thừa hoặc liên kết, giúp hiểu và thiết kế hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "データアーキテクチャにおいて、システム内の情報の構造や関係性を視覚的に表現するための図である。",
+          "vi": "Trọng tâm là cấu trúc và quan hệ thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報体系整理図",
+          "english": "Information Architecture Diagram",
+          "vi": "Sơ đồ tổ chức cấu trúc thông tin",
+          "definitionJa": "データアーキテクチャにおいて、システム内の情報の構造や関係性を視覚的に表現するための図である。特にUMLのクラス図は、オブジェクト指向の設計手法に基づいており、クラス（データの設計図）やその属性（データの特徴）やメソッド（データに対する操作）の関係を示す。具体的には、クラス間の継承や関連、依存関係を示すことで、システム全体の情報フローを把握しやすくする。そのため、開発者やデザイナーは、複雑なシステムを理解しやすくなり、効果的な設計を行うための補助となる。また、情報体系整理図を用いることで、システムの拡張や変更が容易になり、今後のメンテナンスを円滑に進めることが可能になる。",
+          "definitionVi": "Sơ đồ thể hiện cấu trúc và mối quan hệ giữa các loại thông tin trong hệ thống. Theo nguồn, có thể sử dụng sơ đồ lớp UML để mô tả lớp, thuộc tính, phương thức và các quan hệ như kế thừa hoặc liên kết, giúp hiểu và thiết kế hệ thống.",
+          "reading": "じょうほうたいけいせいりず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-architecture-diagram"
+      ]
+    },
+    {
+      "id": "entity-relationship-diagram",
+      "order": 32,
+      "titleJa": "E-R図",
+      "titleVi": "Sơ đồ thực thể – quan hệ",
+      "importance": "high",
+      "summaryJa": "データベースの設計を視覚的に表現するための図である。",
+      "summaryVi": "E-R図 biểu diễn các thực thể dữ liệu và mối quan hệ giữa chúng để hỗ trợ thiết kế cơ sở dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "E-R図とは",
+          "vi": "Sơ đồ thực thể – quan hệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データベースの設計を視覚的に表現するための図である。これは、エンティティ（実体）とその関係性を示すことで、データ同士のつながりや構造を一目で理解できるようにする。例えば、学校のデータベースを考えると「学生」というエンティティや「授業」というエンティティがあり、それらの間には「受講」という関係が存在する。このE-R図を使うことで、システムがどのデータを扱うのか、どのように関連しているのかが明確になるため、データベースを構築するときの設計がスムーズになる。また、E-R図はデータベースだけでなく、情報システム全体の概要を把握する上でも非常に役立つツールである。",
+          "vi": "E-R図 biểu diễn các thực thể dữ liệu và mối quan hệ giữa chúng để hỗ trợ thiết kế cơ sở dữ liệu. Ví dụ, thực thể Sinh viên và Môn học liên kết qua quan hệ Đăng ký học."
+        },
+        {
+          "type": "point",
+          "ja": "データベースの設計を視覚的に表現するための図である。",
+          "vi": "ERD dùng thực thể, thuộc tính và quan hệ trong thiết kế dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "E-R図",
+          "english": "Entity-Relationship Diagram",
+          "vi": "Sơ đồ thực thể – quan hệ",
+          "definitionJa": "データベースの設計を視覚的に表現するための図である。これは、エンティティ（実体）とその関係性を示すことで、データ同士のつながりや構造を一目で理解できるようにする。例えば、学校のデータベースを考えると「学生」というエンティティや「授業」というエンティティがあり、それらの間には「受講」という関係が存在する。このE-R図を使うことで、システムがどのデータを扱うのか、どのように関連しているのかが明確になるため、データベースを構築するときの設計がスムーズになる。また、E-R図はデータベースだけでなく、情報システム全体の概要を把握する上でも非常に役立つツールである。",
+          "definitionVi": "E-R図 biểu diễn các thực thể dữ liệu và mối quan hệ giữa chúng để hỗ trợ thiết kế cơ sở dữ liệu. Ví dụ, thực thể Sinh viên và Môn học liên kết qua quan hệ Đăng ký học.",
+          "reading": "いーあーるず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "entity-relationship-diagram"
+      ]
+    },
+    {
+      "id": "information-system-related-diagram",
+      "order": 33,
+      "titleJa": "情報システム関連図",
+      "titleVi": "Sơ đồ quan hệ giữa các hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "情報システムの構成要素やその関連性を視覚的に表現する図である。",
+      "summaryVi": "Sơ đồ thể hiện các thành phần hệ thống, quan hệ kết nối và tương tác, chẳng hạn giữa ứng dụng, cơ sở dữ liệu, người dùng và hệ thống bên ngoài.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム関連図とは",
+          "vi": "Sơ đồ quan hệ giữa các hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの構成要素やその関連性を視覚的に表現する図である。この図は、システム開発や運用において、対象となる情報やデータの流れ、ユーザーとのインターフェース、システム間の相互作用を理解するために重要な役割を果たす。たとえば、データベースとアプリケーションソフトウェアの関係を示すことで、データの処理がどのように行われるかを明確にすることができる。また、関係者間のコミュニケーションを円滑にし、システムの改善や変更をスムーズに行うための基盤を提供する。これにより、プロジェクトの進行状況や問題点を可視化することができ、効果的な意思決定を促進する。",
+          "vi": "Sơ đồ thể hiện các thành phần hệ thống, quan hệ kết nối và tương tác, chẳng hạn giữa ứng dụng, cơ sở dữ liệu, người dùng và hệ thống bên ngoài. Hữu ích để hiểu phạm vi liên kết và hỗ trợ thay đổi, cải tiến hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの構成要素やその関連性を視覚的に表現する図である。",
+          "vi": "Làm rõ hệ thống nào liên hệ với hệ thống nào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム関連図",
+          "english": "Information System Related Diagram",
+          "vi": "Sơ đồ quan hệ giữa các hệ thống thông tin",
+          "definitionJa": "情報システムの構成要素やその関連性を視覚的に表現する図である。この図は、システム開発や運用において、対象となる情報やデータの流れ、ユーザーとのインターフェース、システム間の相互作用を理解するために重要な役割を果たす。たとえば、データベースとアプリケーションソフトウェアの関係を示すことで、データの処理がどのように行われるかを明確にすることができる。また、関係者間のコミュニケーションを円滑にし、システムの改善や変更をスムーズに行うための基盤を提供する。これにより、プロジェクトの進行状況や問題点を可視化することができ、効果的な意思決定を促進する。",
+          "definitionVi": "Sơ đồ thể hiện các thành phần hệ thống, quan hệ kết nối và tương tác, chẳng hạn giữa ứng dụng, cơ sở dữ liệu, người dùng và hệ thống bên ngoài. Hữu ích để hiểu phạm vi liên kết và hỗ trợ thay đổi, cải tiến hệ thống.",
+          "reading": "じょうほうしすてむかんれんず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-system-related-diagram"
+      ]
+    },
+    {
+      "id": "information-system-functional-configuration-diagram",
+      "order": 34,
+      "titleJa": "情報システム機能構成図",
+      "titleVi": "Sơ đồ cấu thành chức năng hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "情報システムの各機能や部品がどのように相互に関わり合い、システム全体の機能が構成されているかを視覚的に表現した図である。",
+      "summaryVi": "Sơ đồ cho thấy hệ thống gồm những chức năng hay thành phần nào và chúng liên hệ, phối hợp ra sao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム機能構成図とは",
+          "vi": "Sơ đồ cấu thành chức năng hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの各機能や部品がどのように相互に関わり合い、システム全体の機能が構成されているかを視覚的に表現した図である。この図は、システムの設計や開発プロセスにおいて、各コンポーネントの役割や相互作用を明確に示すために利用される。たとえば、ユーザーインターフェース、データベース、アプリケーションサーバなどの関係性を表すことで、システム全体の流れを理解しやすくする。また、開発者やプロジェクトの関係者が一目でシステムの構成を把握できるため、コミュニケーションの円滑化にも寄与する。このため、効果的な情報システムの設計や改善において、重要な役割を果たす。",
+          "vi": "Sơ đồ cho thấy hệ thống gồm những chức năng hay thành phần nào và chúng liên hệ, phối hợp ra sao. Ví dụ, biểu diễn chức năng giao diện, xử lý nghiệp vụ và truy cập dữ liệu để các bên nắm được cấu trúc chức năng tổng thể."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの各機能や部品がどのように相互に関わり合い、システム全体の機能が構成されているかを視覚的に表現した図である。",
+          "vi": "Tập trung vào phân rã và quan hệ giữa các chức năng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム機能構成図",
+          "english": "Information System Functional Configuration Diagram",
+          "vi": "Sơ đồ cấu thành chức năng hệ thống thông tin",
+          "definitionJa": "情報システムの各機能や部品がどのように相互に関わり合い、システム全体の機能が構成されているかを視覚的に表現した図である。この図は、システムの設計や開発プロセスにおいて、各コンポーネントの役割や相互作用を明確に示すために利用される。たとえば、ユーザーインターフェース、データベース、アプリケーションサーバなどの関係性を表すことで、システム全体の流れを理解しやすくする。また、開発者やプロジェクトの関係者が一目でシステムの構成を把握できるため、コミュニケーションの円滑化にも寄与する。このため、効果的な情報システムの設計や改善において、重要な役割を果たす。",
+          "definitionVi": "Sơ đồ cho thấy hệ thống gồm những chức năng hay thành phần nào và chúng liên hệ, phối hợp ra sao. Ví dụ, biểu diễn chức năng giao diện, xử lý nghiệp vụ và truy cập dữ liệu để các bên nắm được cấu trúc chức năng tổng thể.",
+          "reading": "じょうほうしすてむきのうこうせいず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-system-functional-configuration-diagram"
+      ]
+    },
+    {
+      "id": "service-oriented-architecture",
+      "order": 35,
+      "titleJa": "SOA",
+      "titleVi": "Kiến trúc hướng dịch vụ",
+      "importance": "high",
+      "summaryJa": "異なるシステムやサービスを組み合わせて業務を実現するためのアーキテクチャの考え方である。",
+      "summaryVi": "SOA là cách thiết kế hệ thống bằng các dịch vụ có chức năng độc lập, giao tiếp qua mạng và có thể kết hợp để thực hiện nghiệp vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SOAとは",
+          "vi": "Kiến trúc hướng dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なるシステムやサービスを組み合わせて業務を実現するためのアーキテクチャの考え方である。具体的には、機能や役割をサービスという独立した単位として分割し、これらのサービスがネットワークを通じて相互に連携することを目指す。例えば、オンラインショッピングサイトにおいて、商品検索や決済、ユーザー管理をそれぞれ別のサービスとして実装することができる。こうすることで、各サービスを独立して開発、変更、拡張できるため、開発効率の向上やメンテナンスの容易さが実現される。また、異なるプラットフォーム間でもサービスを共有できるため、企業全体での柔軟なシステム構成が可能となる。これにより、ビジネスのニーズに応じた迅速な対応が可能になる。",
+          "vi": "SOA là cách thiết kế hệ thống bằng các dịch vụ có chức năng độc lập, giao tiếp qua mạng và có thể kết hợp để thực hiện nghiệp vụ. Ví dụ, dịch vụ tìm kiếm sản phẩm, thanh toán và quản lý người dùng được triển khai riêng nhưng phối hợp trong trang thương mại điện tử."
+        },
+        {
+          "type": "point",
+          "ja": "異なるシステムやサービスを組み合わせて業務を実現するためのアーキテクチャの考え方である。",
+          "vi": "Tái sử dụng và kết hợp các dịch vụ độc lập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SOA",
+          "english": "Service-Oriented Architecture",
+          "vi": "Kiến trúc hướng dịch vụ",
+          "definitionJa": "異なるシステムやサービスを組み合わせて業務を実現するためのアーキテクチャの考え方である。具体的には、機能や役割をサービスという独立した単位として分割し、これらのサービスがネットワークを通じて相互に連携することを目指す。例えば、オンラインショッピングサイトにおいて、商品検索や決済、ユーザー管理をそれぞれ別のサービスとして実装することができる。こうすることで、各サービスを独立して開発、変更、拡張できるため、開発効率の向上やメンテナンスの容易さが実現される。また、異なるプラットフォーム間でもサービスを共有できるため、企業全体での柔軟なシステム構成が可能となる。これにより、ビジネスのニーズに応じた迅速な対応が可能になる。",
+          "definitionVi": "SOA là cách thiết kế hệ thống bằng các dịch vụ có chức năng độc lập, giao tiếp qua mạng và có thể kết hợp để thực hiện nghiệp vụ. Ví dụ, dịch vụ tìm kiếm sản phẩm, thanh toán và quản lý người dùng được triển khai riêng nhưng phối hợp trong trang thương mại điện tử.",
+          "reading": "えすおーえー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "service-oriented-architecture"
+      ]
+    },
+    {
+      "id": "hardware-configuration-diagram",
+      "order": 36,
+      "titleJa": "ハードウェア構成図",
+      "titleVi": "Sơ đồ cấu hình phần cứng",
+      "importance": "medium",
+      "summaryJa": "システムやネットワークにおけるハードウェアの構成を視覚的に示す図である。",
+      "summaryVi": "Sơ đồ thể hiện các thiết bị vật lý trong hệ thống như máy chủ, bộ định tuyến, bộ chuyển mạch, thiết bị lưu trữ cùng vị trí và kết nối giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハードウェア構成図とは",
+          "vi": "Sơ đồ cấu hình phần cứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやネットワークにおけるハードウェアの構成を視覚的に示す図である。この図は、コンピュータやネットワーク機器、ストレージデバイスなどの各要素がどのように接続され、相互作用するかを理解するために役立つ。具体例としては、サーバ、ルーター、スイッチの配置と接続関係を示した図を挙げることができる。システムの設計やトラブルシューティングの際に非常に重要な情報を提供し、関係者がシステム全体を把握するのに役立つことで、効率的な運用や改善につながる。",
+          "vi": "Sơ đồ thể hiện các thiết bị vật lý trong hệ thống như máy chủ, bộ định tuyến, bộ chuyển mạch, thiết bị lưu trữ cùng vị trí và kết nối giữa chúng. Hỗ trợ thiết kế, vận hành và xử lý sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "システムやネットワークにおけるハードウェアの構成を視覚的に示す図である。",
+          "vi": "Thể hiện phần cứng và kết nối vật lý."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハードウェア構成図",
+          "english": "Hardware Configuration Diagram",
+          "vi": "Sơ đồ cấu hình phần cứng",
+          "definitionJa": "システムやネットワークにおけるハードウェアの構成を視覚的に示す図である。この図は、コンピュータやネットワーク機器、ストレージデバイスなどの各要素がどのように接続され、相互作用するかを理解するために役立つ。具体例としては、サーバ、ルーター、スイッチの配置と接続関係を示した図を挙げることができる。システムの設計やトラブルシューティングの際に非常に重要な情報を提供し、関係者がシステム全体を把握するのに役立つことで、効率的な運用や改善につながる。",
+          "definitionVi": "Sơ đồ thể hiện các thiết bị vật lý trong hệ thống như máy chủ, bộ định tuyến, bộ chuyển mạch, thiết bị lưu trữ cùng vị trí và kết nối giữa chúng. Hỗ trợ thiết kế, vận hành và xử lý sự cố.",
+          "reading": "はーどうぇあこうせいず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "hardware-configuration-diagram"
+      ]
+    },
+    {
+      "id": "software-architecture-diagram",
+      "order": 37,
+      "titleJa": "ソフトウェア構成図",
+      "titleVi": "Sơ đồ cấu hình phần mềm",
+      "importance": "medium",
+      "summaryJa": "ソフトウェアシステムの全体構造や環境を視覚的に示す図である。",
+      "summaryVi": "Sơ đồ biểu diễn cấu trúc phần mềm gồm các thành phần, mô-đun, quan hệ phụ thuộc, luồng dữ liệu và giao diện với hệ thống khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア構成図とは",
+          "vi": "Sơ đồ cấu hình phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアシステムの全体構造や環境を視覚的に示す図である。この図は、システムの各コンポーネントやモジュールがどのように連携し、相互作用するかを理解するための重要なツールである。具体的には、データの流れや依存関係、外部システムとのインターフェースなどが明示されている。ソフトウェア構成図を用いることで、開発者や関係者はシステムの設計を把握しやすくなり、問題発生時の原因究明や新しい機能設計の際にも役立つ。また、アジャイル開発などの手法において、すばやく変更を加える必要がある場合にも、この図が効率的なコミュニケーションを促進する。",
+          "vi": "Sơ đồ biểu diễn cấu trúc phần mềm gồm các thành phần, mô-đun, quan hệ phụ thuộc, luồng dữ liệu và giao diện với hệ thống khác. Giúp nhóm phát triển hiểu thiết kế, phân tích lỗi và lên kế hoạch thay đổi."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェアシステムの全体構造や環境を視覚的に示す図である。",
+          "vi": "Thể hiện thành phần phần mềm và quan hệ giữa chúng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア構成図",
+          "english": "Software Architecture Diagram",
+          "vi": "Sơ đồ cấu hình phần mềm",
+          "definitionJa": "ソフトウェアシステムの全体構造や環境を視覚的に示す図である。この図は、システムの各コンポーネントやモジュールがどのように連携し、相互作用するかを理解するための重要なツールである。具体的には、データの流れや依存関係、外部システムとのインターフェースなどが明示されている。ソフトウェア構成図を用いることで、開発者や関係者はシステムの設計を把握しやすくなり、問題発生時の原因究明や新しい機能設計の際にも役立つ。また、アジャイル開発などの手法において、すばやく変更を加える必要がある場合にも、この図が効率的なコミュニケーションを促進する。",
+          "definitionVi": "Sơ đồ biểu diễn cấu trúc phần mềm gồm các thành phần, mô-đun, quan hệ phụ thuộc, luồng dữ liệu và giao diện với hệ thống khác. Giúp nhóm phát triển hiểu thiết kế, phân tích lỗi và lên kế hoạch thay đổi.",
+          "reading": "そふとうぇあこうせいず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "software-architecture-diagram"
+      ]
+    },
+    {
+      "id": "network-diagram",
+      "order": 38,
+      "titleJa": "ネットワーク構成図",
+      "titleVi": "Sơ đồ cấu hình mạng",
+      "importance": "medium",
+      "summaryJa": "情報システムやネットワークの構造を視覚的に表現した図である。",
+      "summaryVi": "Sơ đồ thể hiện cấu trúc mạng, các thiết bị như máy chủ, router, switch và đường kết nối giữa chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ネットワーク構成図とは",
+          "vi": "Sơ đồ cấu hình mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムやネットワークの構造を視覚的に表現した図である。この図は、各機器やシステムの関係、配置、接続状況を示し、全体のフローや情報の流れを理解しやすくする役割を果たす。例えば、サーバ、ルーター、スイッチなどのデバイスがどう接続されているかを示すことで、ネットワークのトラブルシューティングや設計を効率的に行える。ITプロジェクトやシステム管理において、ネットワーク構成図は重要なドキュメントであり、関係者が共通の理解を持つためのコミュニケーションツールとしても利用される。そのため、具体的な図形や記号を用いて、視覚的に直感的に理解できるよう工夫されていることが多い。",
+          "vi": "Sơ đồ thể hiện cấu trúc mạng, các thiết bị như máy chủ, router, switch và đường kết nối giữa chúng. Được dùng để thiết kế mạng, giám sát và khoanh vùng nguyên nhân khi xảy ra sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムやネットワークの構造を視覚的に表現した図である。",
+          "vi": "Nhìn sơ đồ để biết thiết bị mạng kết nối như thế nào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ネットワーク構成図",
+          "english": "Network Diagram",
+          "vi": "Sơ đồ cấu hình mạng",
+          "definitionJa": "情報システムやネットワークの構造を視覚的に表現した図である。この図は、各機器やシステムの関係、配置、接続状況を示し、全体のフローや情報の流れを理解しやすくする役割を果たす。例えば、サーバ、ルーター、スイッチなどのデバイスがどう接続されているかを示すことで、ネットワークのトラブルシューティングや設計を効率的に行える。ITプロジェクトやシステム管理において、ネットワーク構成図は重要なドキュメントであり、関係者が共通の理解を持つためのコミュニケーションツールとしても利用される。そのため、具体的な図形や記号を用いて、視覚的に直感的に理解できるよう工夫されていることが多い。",
+          "definitionVi": "Sơ đồ thể hiện cấu trúc mạng, các thiết bị như máy chủ, router, switch và đường kết nối giữa chúng. Được dùng để thiết kế mạng, giám sát và khoanh vùng nguyên nhân khi xảy ra sự cố.",
+          "reading": "ねっとわーくこうせいず"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "network-diagram"
+      ]
+    },
+    {
+      "id": "program-management-office",
+      "order": 39,
+      "titleJa": "PMO",
+      "titleVi": "Văn phòng quản lý chương trình/dự án",
+      "importance": "medium",
+      "summaryJa": "プログラムやプロジェクトの管理を支援する専門の組織や部門のことである。",
+      "summaryVi": "PMO là bộ phận hỗ trợ quản lý chương trình hoặc dự án, giúp chuẩn hóa quy trình, tổng hợp tiến độ, phối hợp nguồn lực, quản lý rủi ro và trao đổi với các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PMOとは",
+          "vi": "Văn phòng quản lý chương trình/dự án là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プログラムやプロジェクトの管理を支援する専門の組織や部門のことである。資源の最適化やリスクの管理、ステークホルダーとのコミュニケーションを円滑にする役割を果たす。たとえば、大規模なシステム開発や新製品の導入において、複数のプロジェクトが絡む場合、PMOが全体を見渡し、各プロジェクトの進捗状況をとりまとめて一貫性を持たせる。このように、PMOはプロジェクトの成功に向けた戦略的な支援を行い、効率的な実行を促進する。また、標準化されたプロセスやベストプラクティスを導入することで、組織全体のプロジェクト管理能力を向上させる役割も担っている。",
+          "vi": "PMO là bộ phận hỗ trợ quản lý chương trình hoặc dự án, giúp chuẩn hóa quy trình, tổng hợp tiến độ, phối hợp nguồn lực, quản lý rủi ro và trao đổi với các bên liên quan. Đặc biệt hữu ích khi có nhiều dự án cần điều phối thống nhất."
+        },
+        {
+          "type": "point",
+          "ja": "プログラムやプロジェクトの管理を支援する専門の組織や部門のことである。",
+          "vi": "PMO hỗ trợ và chuẩn hóa công tác quản lý, không nhất thiết trực tiếp thực hiện mọi dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PMO",
+          "english": "Program Management Office",
+          "vi": "Văn phòng quản lý chương trình/dự án",
+          "definitionJa": "プログラムやプロジェクトの管理を支援する専門の組織や部門のことである。資源の最適化やリスクの管理、ステークホルダーとのコミュニケーションを円滑にする役割を果たす。たとえば、大規模なシステム開発や新製品の導入において、複数のプロジェクトが絡む場合、PMOが全体を見渡し、各プロジェクトの進捗状況をとりまとめて一貫性を持たせる。このように、PMOはプロジェクトの成功に向けた戦略的な支援を行い、効率的な実行を促進する。また、標準化されたプロセスやベストプラクティスを導入することで、組織全体のプロジェクト管理能力を向上させる役割も担っている。",
+          "definitionVi": "PMO là bộ phận hỗ trợ quản lý chương trình hoặc dự án, giúp chuẩn hóa quy trình, tổng hợp tiến độ, phối hợp nguồn lực, quản lý rủi ro và trao đổi với các bên liên quan. Đặc biệt hữu ích khi có nhiều dự án cần điều phối thống nhất.",
+          "reading": "ぴーえむおー"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "program-management-office"
+      ]
+    },
+    {
+      "id": "control-objectives-for-information-and-related-technologies",
+      "order": 40,
+      "titleJa": "COBIT",
+      "titleVi": "Khung quản trị và quản lý CNTT COBIT",
+      "importance": "high",
+      "summaryJa": "情報技術（IT）ガバナンスと管理のためのフレームワークである。",
+      "summaryVi": "COBIT là khung hướng dẫn quản trị và quản lý CNTT doanh nghiệp, giúp liên kết CNTT với mục tiêu kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "COBITとは",
+          "vi": "Khung quản trị và quản lý CNTT COBIT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術（IT）ガバナンスと管理のためのフレームワークである。このフレームワークは、企業がITを効果的に管理し、戦略目標に沿った形で運用するための指針を提供する。具体的には、リスク管理、パフォーマンス測定、資源の最適化などを通じて、ITの価値を最大限に引き出すことを目的としている。また、さまざまな業界や規模の組織に適用できる設計になっており、ベストプラクティスや業界標準を取り入れた手法を提供することで、ITプロセスの改善やコンプライアンスの強化に寄与する。これにより、企業は効率的に活動を進めつつ、法令遵守や顧客満足度の向上を図ることができる。",
+          "vi": "COBIT là khung hướng dẫn quản trị và quản lý CNTT doanh nghiệp, giúp liên kết CNTT với mục tiêu kinh doanh. Nội dung chú trọng quản lý rủi ro, đo lường kết quả, tối ưu nguồn lực, cải tiến quy trình và tuân thủ."
+        },
+        {
+          "type": "point",
+          "ja": "情報技術（IT）ガバナンスと管理のためのフレームワークである。",
+          "vi": "COBIT chủ yếu phục vụ quản trị và quản lý CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COBIT",
+          "english": "Control Objectives for Information and Related Technologies",
+          "vi": "Khung quản trị và quản lý CNTT COBIT",
+          "definitionJa": "情報技術（IT）ガバナンスと管理のためのフレームワークである。このフレームワークは、企業がITを効果的に管理し、戦略目標に沿った形で運用するための指針を提供する。具体的には、リスク管理、パフォーマンス測定、資源の最適化などを通じて、ITの価値を最大限に引き出すことを目的としている。また、さまざまな業界や規模の組織に適用できる設計になっており、ベストプラクティスや業界標準を取り入れた手法を提供することで、ITプロセスの改善やコンプライアンスの強化に寄与する。これにより、企業は効率的に活動を進めつつ、法令遵守や顧客満足度の向上を図ることができる。",
+          "definitionVi": "COBIT là khung hướng dẫn quản trị và quản lý CNTT doanh nghiệp, giúp liên kết CNTT với mục tiêu kinh doanh. Nội dung chú trọng quản lý rủi ro, đo lường kết quả, tối ưu nguồn lực, cải tiến quy trình và tuân thủ.",
+          "reading": "こびっと"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "control-objectives-for-information-and-related-technologies"
+      ]
+    },
+    {
+      "id": "information-technology-infrastructure-library",
+      "order": 41,
+      "titleJa": "ITIL",
+      "titleVi": "Khung thực hành quản lý dịch vụ CNTT ITIL",
+      "importance": "high",
+      "summaryJa": "情報技術（IT）サービス管理のベストプラクティスをまとめたフレームワークである。",
+      "summaryVi": "ITIL tập hợp các thực hành tốt để quản lý dịch vụ CNTT từ thiết kế, cung cấp, vận hành đến cải tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITILとは",
+          "vi": "Khung thực hành quản lý dịch vụ CNTT ITIL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報技術（IT）サービス管理のベストプラクティスをまとめたフレームワークである。このフレームワークは、ITサービスの提供を効率的かつ高品質に行うためのプロセスや手法を提供し、組織が顧客のニーズに応じたサービスを適切に管理できるよう支援する。具体的には、サービスの設計、提供、運用、それに伴う改善のための指針が含まれている。また、各組織の特性に応じた柔軟な適用が可能であり、多くの企業で採用されている。これにより、コストの最適化や業務プロセスの円滑化が図れるため、IT部門がビジネスに与える価値を向上させることが期待される。",
+          "vi": "ITIL tập hợp các thực hành tốt để quản lý dịch vụ CNTT từ thiết kế, cung cấp, vận hành đến cải tiến. Mục tiêu là nâng cao chất lượng dịch vụ, đáp ứng nhu cầu người dùng và sử dụng chi phí hợp lý."
+        },
+        {
+          "type": "point",
+          "ja": "情報技術（IT）サービス管理のベストプラクティスをまとめたフレームワークである。",
+          "vi": "ITIL thiên về quản lý dịch vụ CNTT; COBIT thiên về quản trị CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITIL",
+          "english": "Information Technology Infrastructure Library",
+          "vi": "Khung thực hành quản lý dịch vụ CNTT ITIL",
+          "definitionJa": "情報技術（IT）サービス管理のベストプラクティスをまとめたフレームワークである。このフレームワークは、ITサービスの提供を効率的かつ高品質に行うためのプロセスや手法を提供し、組織が顧客のニーズに応じたサービスを適切に管理できるよう支援する。具体的には、サービスの設計、提供、運用、それに伴う改善のための指針が含まれている。また、各組織の特性に応じた柔軟な適用が可能であり、多くの企業で採用されている。これにより、コストの最適化や業務プロセスの円滑化が図れるため、IT部門がビジネスに与える価値を向上させることが期待される。",
+          "definitionVi": "ITIL tập hợp các thực hành tốt để quản lý dịch vụ CNTT từ thiết kế, cung cấp, vận hành đến cải tiến. Mục tiêu là nâng cao chất lượng dịch vụ, đáp ứng nhu cầu người dùng và sử dụng chi phí hợp lý.",
+          "reading": "あいてぃる"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "information-technology-infrastructure-library"
+      ]
+    },
+    {
+      "id": "system-management-standards-42",
+      "order": 42,
+      "titleJa": "システム管理基準",
+      "titleVi": "Tiêu chuẩn quản lý hệ thống",
+      "importance": "medium",
+      "summaryJa": "情報システムの運用や管理における基準やガイドラインを指す。",
+      "summaryVi": "Các tiêu chuẩn, hướng dẫn về quản lý hệ thống thông tin nhằm duy trì hoạt động ổn định, an toàn và hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム管理基準とは",
+          "vi": "Tiêu chuẩn quản lý hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの運用や管理における基準やガイドラインを指す。これにより、組織は情報システムの安定性や安全性を確保し、効率的な運用が可能になる。具体的には、システムの設計、開発、運用、保守に関するルールや手続きを定め、それに基づいて管理を行う。たとえば、定期的なバックアップやシステムの監視、リスク評価が含まれる。組織内での情報の整合性を保つだけでなく、法的な要件や業界標準を遵守するためにも重要であり、こうした基準に従うことで、より高い信頼性とパフォーマンスを実現する。",
+          "vi": "Các tiêu chuẩn, hướng dẫn về quản lý hệ thống thông tin nhằm duy trì hoạt động ổn định, an toàn và hiệu quả. Bao gồm quy định liên quan đến thiết kế, phát triển, vận hành, bảo trì, sao lưu, giám sát và đánh giá rủi ro."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの運用や管理における基準やガイドラインを指す。",
+          "vi": "Thuật ngữ này xuất hiện hai lần trong tài liệu nguồn (mục 5 và 42)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム管理基準",
+          "english": "System Management Standards",
+          "vi": "Tiêu chuẩn quản lý hệ thống",
+          "definitionJa": "情報システムの運用や管理における基準やガイドラインを指す。これにより、組織は情報システムの安定性や安全性を確保し、効率的な運用が可能になる。具体的には、システムの設計、開発、運用、保守に関するルールや手続きを定め、それに基づいて管理を行う。たとえば、定期的なバックアップやシステムの監視、リスク評価が含まれる。組織内での情報の整合性を保つだけでなく、法的な要件や業界標準を遵守するためにも重要であり、こうした基準に従うことで、より高い信頼性とパフォーマンスを実現する。",
+          "definitionVi": "Các tiêu chuẩn, hướng dẫn về quản lý hệ thống thông tin nhằm duy trì hoạt động ổn định, an toàn và hiệu quả. Bao gồm quy định liên quan đến thiết kế, phát triển, vận hành, bảo trì, sao lưu, giám sát và đánh giá rủi ro.",
+          "reading": "しすてむかんりきじゅん"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "system-management-standards-42"
+      ]
+    },
+    {
+      "id": "slcp-jcf",
+      "order": 43,
+      "titleJa": "SLCP-JCF",
+      "titleVi": "Khung quy trình vòng đời phần mềm chung tại Nhật Bản",
+      "importance": "medium",
+      "summaryJa": "日本におけるソフトウェア開発において、共通のフレームワークとして設定されたモデルである。",
+      "summaryVi": "SLCP-JCF là khung chung tại Nhật Bản nhằm chuẩn hóa các quy trình trong vòng đời phần mềm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SLCP-JCFとは",
+          "vi": "Khung quy trình vòng đời phần mềm chung tại Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本におけるソフトウェア開発において、共通のフレームワークとして設定されたモデルである。このフレームワークは、システムライフサイクル全体にわたる開発プロセスの標準化を目指しており、開発者や関係者が共通の理解を持ちやすくするための基盤を提供する。具体的には、開発工程や管理手法、成果物の基準を明文化することで、プロジェクトの効率や品質の向上を図ることができる。また、SLCP-JCFは他のフレームワークや手法とも連携可能で、柔軟性があるため、企業やプロジェクトのニーズに応じて適用することができる。このように、より効果的なソフトウェア開発を支援する重要な資源である。",
+          "vi": "SLCP-JCF là khung chung tại Nhật Bản nhằm chuẩn hóa các quy trình trong vòng đời phần mềm. Khung làm rõ các công đoạn phát triển, phương pháp quản lý và tiêu chí sản phẩm bàn giao để các bên có cách hiểu thống nhất, nâng cao hiệu quả và chất lượng."
+        },
+        {
+          "type": "point",
+          "ja": "日本におけるソフトウェア開発において、共通のフレームワークとして設定されたモデルである。",
+          "vi": "Chuẩn hóa các hoạt động trong vòng đời phần mềm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SLCP-JCF",
+          "english": "SLCP-JCF",
+          "vi": "Khung quy trình vòng đời phần mềm chung tại Nhật Bản",
+          "definitionJa": "日本におけるソフトウェア開発において、共通のフレームワークとして設定されたモデルである。このフレームワークは、システムライフサイクル全体にわたる開発プロセスの標準化を目指しており、開発者や関係者が共通の理解を持ちやすくするための基盤を提供する。具体的には、開発工程や管理手法、成果物の基準を明文化することで、プロジェクトの効率や品質の向上を図ることができる。また、SLCP-JCFは他のフレームワークや手法とも連携可能で、柔軟性があるため、企業やプロジェクトのニーズに応じて適用することができる。このように、より効果的なソフトウェア開発を支援する重要な資源である。",
+          "definitionVi": "SLCP-JCF là khung chung tại Nhật Bản nhằm chuẩn hóa các quy trình trong vòng đời phần mềm. Khung làm rõ các công đoạn phát triển, phương pháp quản lý và tiêu chí sản phẩm bàn giao để các bên có cách hiểu thống nhất, nâng cao hiệu quả và chất lượng.",
+          "reading": "えすえるしーぴーじぇいしーえふ"
+        }
+      ],
+      "tags": ["system-strategy", "information-system-strategy", "slcp-jcf"]
+    },
+    {
+      "id": "key-goal-indicator",
+      "order": 44,
+      "titleJa": "KGI",
+      "titleVi": "Chỉ số mục tiêu then chốt",
+      "importance": "high",
+      "summaryJa": "組織やプロジェクトが達成すべき重要な目標を測定するための指標である。",
+      "summaryVi": "KGI là chỉ số định lượng dùng để xác định mức độ đạt được mục tiêu cuối cùng của tổ chức hoặc dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KGIとは",
+          "vi": "Chỉ số mục tiêu then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織やプロジェクトが達成すべき重要な目標を測定するための指標である。成功を評価するための具体的な数値や達成基準を提供し、全体の戦略目標に直結しているため、重要な役割を果たす。例えば、企業が新製品の市場シェアを20%に引き上げることを目指す場合、その数値がKGIとして機能する。企業の進捗状況を確認するための一つの道標となり、目標への到達度を測定することで、戦略の見直しや改善のヒントを得ることができる。また、KGIはKPI（Key Performance Indicator）と連携して使用されることが多く、具体的な活動やパフォーマンスを評価するための基礎となる。これにより、組織全体が目標達成に向けて一丸となりやすくなる。",
+          "vi": "KGI là chỉ số định lượng dùng để xác định mức độ đạt được mục tiêu cuối cùng của tổ chức hoặc dự án. Ví dụ, mục tiêu nâng thị phần sản phẩm mới lên 20% là một KGI, dùng để đánh giá kết quả chiến lược."
+        },
+        {
+          "type": "point",
+          "ja": "組織やプロジェクトが達成すべき重要な目標を測定するための指標である。",
+          "vi": "KGI đo kết quả mục tiêu cuối cùng; KPI theo dõi quá trình đạt mục tiêu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KGI",
+          "english": "Key Goal Indicator",
+          "vi": "Chỉ số mục tiêu then chốt",
+          "definitionJa": "組織やプロジェクトが達成すべき重要な目標を測定するための指標である。成功を評価するための具体的な数値や達成基準を提供し、全体の戦略目標に直結しているため、重要な役割を果たす。例えば、企業が新製品の市場シェアを20%に引き上げることを目指す場合、その数値がKGIとして機能する。企業の進捗状況を確認するための一つの道標となり、目標への到達度を測定することで、戦略の見直しや改善のヒントを得ることができる。また、KGIはKPI（Key Performance Indicator）と連携して使用されることが多く、具体的な活動やパフォーマンスを評価するための基礎となる。これにより、組織全体が目標達成に向けて一丸となりやすくなる。",
+          "definitionVi": "KGI là chỉ số định lượng dùng để xác định mức độ đạt được mục tiêu cuối cùng của tổ chức hoặc dự án. Ví dụ, mục tiêu nâng thị phần sản phẩm mới lên 20% là một KGI, dùng để đánh giá kết quả chiến lược.",
+          "reading": "けーじーあい"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "key-goal-indicator"
+      ]
+    },
+    {
+      "id": "key-performance-indicator",
+      "order": 45,
+      "titleJa": "KPI",
+      "titleVi": "Chỉ số hiệu quả then chốt",
+      "importance": "high",
+      "summaryJa": "企業や組織の業績を評価するための重要な指標である。",
+      "summaryVi": "KPI là chỉ số định lượng theo dõi hiệu quả hoạt động và tiến độ hướng tới mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KPIとは",
+          "vi": "Chỉ số hiệu quả then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の業績を評価するための重要な指標である。具体的には、目標達成度や業務の効率性を測るために用いられる定量的な数値で、企業の戦略や方針に基づいた目標設定が行われる。例えば、売上高、顧客満足度、業務プロセスの効率性などがKPIとして設定されることが多い。これらの指標を定期的に観察することで、組織のパフォーマンスを把握し、改善や調整が必要な領域を特定することが可能となる。目標に対する進捗を可視化するため、経営者や従業員間での共通認識を促進し、戦略的な計画や意思決定に役立つ重要なツールである。",
+          "vi": "KPI là chỉ số định lượng theo dõi hiệu quả hoạt động và tiến độ hướng tới mục tiêu. Ví dụ, doanh số theo tháng, tỷ lệ chuyển đổi hoặc mức hài lòng khách hàng; việc giám sát thường xuyên giúp phát hiện điểm cần cải thiện."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織の業績を評価するための重要な指標である。",
+          "vi": "KPI theo dõi hiệu suất và tiến độ; kết hợp với KGI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KPI",
+          "english": "Key Performance Indicator",
+          "vi": "Chỉ số hiệu quả then chốt",
+          "definitionJa": "企業や組織の業績を評価するための重要な指標である。具体的には、目標達成度や業務の効率性を測るために用いられる定量的な数値で、企業の戦略や方針に基づいた目標設定が行われる。例えば、売上高、顧客満足度、業務プロセスの効率性などがKPIとして設定されることが多い。これらの指標を定期的に観察することで、組織のパフォーマンスを把握し、改善や調整が必要な領域を特定することが可能となる。目標に対する進捗を可視化するため、経営者や従業員間での共通認識を促進し、戦略的な計画や意思決定に役立つ重要なツールである。",
+          "definitionVi": "KPI là chỉ số định lượng theo dõi hiệu quả hoạt động và tiến độ hướng tới mục tiêu. Ví dụ, doanh số theo tháng, tỷ lệ chuyển đổi hoặc mức hài lòng khách hàng; việc giám sát thường xuyên giúp phát hiện điểm cần cải thiện.",
+          "reading": "けーぴーあい"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "key-performance-indicator"
+      ]
+    },
+    {
+      "id": "quality-control-framework",
+      "order": 46,
+      "titleJa": "品質統制フレームワーク",
+      "titleVi": "Khung kiểm soát chất lượng",
+      "importance": "medium",
+      "summaryJa": "製品やサービスの品質を一貫して管理・向上させるための枠組みである。",
+      "summaryVi": "Khung gồm các nguyên tắc, quy trình và tiêu chí để quản lý, kiểm tra và liên tục cải thiện chất lượng sản phẩm hoặc dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "品質統制フレームワークとは",
+          "vi": "Khung kiểm soát chất lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品やサービスの品質を一貫して管理・向上させるための枠組みである。このフレームワークは、品質基準を設定し、プロセスの定義、実施、モニタリングを行うための手法や手順を含む。具体的には、製品開発の各段階でチェックポイントを設け、問題点を早期に発見して修正することにより、消費者に高品質な成果物を提供することを目指す。また、品質管理手法として、データ分析やトレンドの把握を行い、改善策を講じることで、持続的な品質向上を図ることができる。これにより、企業は顧客満足度を高め、競争力を維持することが可能となる。",
+          "vi": "Khung gồm các nguyên tắc, quy trình và tiêu chí để quản lý, kiểm tra và liên tục cải thiện chất lượng sản phẩm hoặc dịch vụ. Ví dụ, đặt các điểm kiểm tra trong từng giai đoạn phát triển để phát hiện và sửa lỗi sớm."
+        },
+        {
+          "type": "point",
+          "ja": "製品やサービスの品質を一貫して管理・向上させるための枠組みである。",
+          "vi": "Đặt tiêu chuẩn, theo dõi, phát hiện sai lệch và cải tiến chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "品質統制フレームワーク",
+          "english": "Quality Control Framework",
+          "vi": "Khung kiểm soát chất lượng",
+          "definitionJa": "製品やサービスの品質を一貫して管理・向上させるための枠組みである。このフレームワークは、品質基準を設定し、プロセスの定義、実施、モニタリングを行うための手法や手順を含む。具体的には、製品開発の各段階でチェックポイントを設け、問題点を早期に発見して修正することにより、消費者に高品質な成果物を提供することを目指す。また、品質管理手法として、データ分析やトレンドの把握を行い、改善策を講じることで、持続的な品質向上を図ることができる。これにより、企業は顧客満足度を高め、競争力を維持することが可能となる。",
+          "definitionVi": "Khung gồm các nguyên tắc, quy trình và tiêu chí để quản lý, kiểm tra và liên tục cải thiện chất lượng sản phẩm hoặc dịch vụ. Ví dụ, đặt các điểm kiểm tra trong từng giai đoạn phát triển để phát hiện và sửa lỗi sớm.",
+          "reading": "ひんしつとうせいふれーむわーく"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "quality-control-framework"
+      ]
+    },
+    {
+      "id": "management-process",
+      "order": 47,
+      "titleJa": "管理プロセス",
+      "titleVi": "Quy trình quản lý",
+      "importance": "medium",
+      "summaryJa": "組織内での業務やプロジェクトを効果的に運営するための一連の手続きや方法である。",
+      "summaryVi": "Chuỗi hoạt động lập kế hoạch, giám sát, đánh giá và cải tiến để quản lý công việc hoặc dự án hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "管理プロセスとは",
+          "vi": "Quy trình quản lý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内での業務やプロジェクトを効果的に運営するための一連の手続きや方法である。特に品質統制の分野においては、製品やサービスが所定の品質基準を満たすように管理するプロセスを指す。このプロセスには、計画、監視、評価、改善といった段階が含まれ、各段階でのデータ収集や分析が必要である。例えば、製品開発においては、初期段階で設定した品質基準に対して定期的なレビューを行い、問題点があれば速やかに修正することが求められる。これにより、最終的に顧客満足度を高め、企業の信頼性を向上させることが可能となる。組織全体の効率性や成果を最大限に引き出すために欠かせない要素である。",
+          "vi": "Chuỗi hoạt động lập kế hoạch, giám sát, đánh giá và cải tiến để quản lý công việc hoặc dự án hiệu quả. Trong kiểm soát chất lượng, quy trình này nhằm bảo đảm sản phẩm hay dịch vụ đáp ứng tiêu chuẩn đã xác định."
+        },
+        {
+          "type": "point",
+          "ja": "組織内での業務やプロジェクトを効果的に運営するための一連の手続きや方法である。",
+          "vi": "Quản lý theo chu trình kế hoạch – theo dõi – đánh giá – cải tiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "管理プロセス",
+          "english": "Management Process",
+          "vi": "Quy trình quản lý",
+          "definitionJa": "組織内での業務やプロジェクトを効果的に運営するための一連の手続きや方法である。特に品質統制の分野においては、製品やサービスが所定の品質基準を満たすように管理するプロセスを指す。このプロセスには、計画、監視、評価、改善といった段階が含まれ、各段階でのデータ収集や分析が必要である。例えば、製品開発においては、初期段階で設定した品質基準に対して定期的なレビューを行い、問題点があれば速やかに修正することが求められる。これにより、最終的に顧客満足度を高め、企業の信頼性を向上させることが可能となる。組織全体の効率性や成果を最大限に引き出すために欠かせない要素である。",
+          "definitionVi": "Chuỗi hoạt động lập kế hoạch, giám sát, đánh giá và cải tiến để quản lý công việc hoặc dự án hiệu quả. Trong kiểm soát chất lượng, quy trình này nhằm bảo đảm sản phẩm hay dịch vụ đáp ứng tiêu chuẩn đã xác định.",
+          "reading": "かんりぷろせす"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "management-process"
+      ]
+    },
+    {
+      "id": "monitoring-indicator",
+      "order": 48,
+      "titleJa": "モニタリング指標",
+      "titleVi": "Chỉ số giám sát",
+      "importance": "medium",
+      "summaryJa": "プロジェクトや業務の進捗状況、成果を評価するための数値や基準を指す。",
+      "summaryVi": "Các giá trị hoặc tiêu chí dùng để theo dõi tiến độ, kết quả và mức độ hoàn thành mục tiêu của nghiệp vụ hay dự án.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モニタリング指標とは",
+          "vi": "Chỉ số giám sát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトや業務の進捗状況、成果を評価するための数値や基準を指す。これらの指標は、プロジェクトが設定した目標に対してどの程度達成されているかを測定するために用いられる。たとえば、プロジェクトの進行状況を示すためのタイムラインや、コストの管理に関連する予算と実績の比較などが挙げられる。モニタリング指標を適切に設定することで、効率的なリソース管理や問題の早期発見が可能になり、戦略的な意思決定をサポートする。さらに、状況に応じて指標を見直すことにより、プロジェクトの改善や最適化を図ることも促されるため、企業の競争力を高める要素となる。",
+          "vi": "Các giá trị hoặc tiêu chí dùng để theo dõi tiến độ, kết quả và mức độ hoàn thành mục tiêu của nghiệp vụ hay dự án. Ví dụ, so sánh chi phí thực tế với ngân sách, theo dõi tiến độ so với kế hoạch để phát hiện vấn đề sớm."
+        },
+        {
+          "type": "point",
+          "ja": "プロジェクトや業務の進捗状況、成果を評価するための数値や基準を指す。",
+          "vi": "Chỉ số cần đo được và hỗ trợ quyết định điều chỉnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モニタリング指標",
+          "english": "Monitoring Indicator",
+          "vi": "Chỉ số giám sát",
+          "definitionJa": "プロジェクトや業務の進捗状況、成果を評価するための数値や基準を指す。これらの指標は、プロジェクトが設定した目標に対してどの程度達成されているかを測定するために用いられる。たとえば、プロジェクトの進行状況を示すためのタイムラインや、コストの管理に関連する予算と実績の比較などが挙げられる。モニタリング指標を適切に設定することで、効率的なリソース管理や問題の早期発見が可能になり、戦略的な意思決定をサポートする。さらに、状況に応じて指標を見直すことにより、プロジェクトの改善や最適化を図ることも促されるため、企業の競争力を高める要素となる。",
+          "definitionVi": "Các giá trị hoặc tiêu chí dùng để theo dõi tiến độ, kết quả và mức độ hoàn thành mục tiêu của nghiệp vụ hay dự án. Ví dụ, so sánh chi phí thực tế với ngân sách, theo dõi tiến độ so với kế hoạch để phát hiện vấn đề sớm.",
+          "reading": "もにたりんぐしひょう"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "monitoring-indicator"
+      ]
+    },
+    {
+      "id": "variance-analysis",
+      "order": 49,
+      "titleJa": "差異分析",
+      "titleVi": "Phân tích sai lệch",
+      "importance": "high",
+      "summaryJa": "実績と計画の差異を評価し、その原因を特定する手法である。",
+      "summaryVi": "Phương pháp so sánh kết quả thực tế với kế hoạch hoặc ngân sách để xác định độ chênh và nguyên nhân.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "差異分析とは",
+          "vi": "Phân tích sai lệch là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "実績と計画の差異を評価し、その原因を特定する手法である。この分析は、企業の予算管理や業績評価において重要な役割を果たす。例えば、予算では売上の目標を100万円と設定していたのに、実績が80万円だった場合、差異分析によってその20万円の差がどこから来たのか、例えば販売数の減少や市場の変化などを探ることができる。このように、差異分析は経営者に対して具体的な改善点を提供し、資源の最適化や戦略の見直しを促進するために利用される。結果として、企業は業績を向上させるための有効な手段を見いだすことが可能になる。",
+          "vi": "Phương pháp so sánh kết quả thực tế với kế hoạch hoặc ngân sách để xác định độ chênh và nguyên nhân. Ví dụ, doanh thu dự kiến 1 triệu yên nhưng thực tế 800 nghìn yên thì cần phân tích nguyên nhân chênh 200 nghìn yên."
+        },
+        {
+          "type": "point",
+          "ja": "実績と計画の差異を評価し、その原因を特定する手法である。",
+          "vi": "Không chỉ tính chênh lệch mà còn tìm nguyên nhân và hướng cải thiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "差異分析",
+          "english": "Variance Analysis",
+          "vi": "Phân tích sai lệch",
+          "definitionJa": "実績と計画の差異を評価し、その原因を特定する手法である。この分析は、企業の予算管理や業績評価において重要な役割を果たす。例えば、予算では売上の目標を100万円と設定していたのに、実績が80万円だった場合、差異分析によってその20万円の差がどこから来たのか、例えば販売数の減少や市場の変化などを探ることができる。このように、差異分析は経営者に対して具体的な改善点を提供し、資源の最適化や戦略の見直しを促進するために利用される。結果として、企業は業績を向上させるための有効な手段を見いだすことが可能になる。",
+          "definitionVi": "Phương pháp so sánh kết quả thực tế với kế hoạch hoặc ngân sách để xác định độ chênh và nguyên nhân. Ví dụ, doanh thu dự kiến 1 triệu yên nhưng thực tế 800 nghìn yên thì cần phân tích nguyên nhân chênh 200 nghìn yên.",
+          "reading": "さいぶんせき"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "variance-analysis"
+      ]
+    },
+    {
+      "id": "risk-response",
+      "order": 50,
+      "titleJa": "リスクへの対応",
+      "titleVi": "Ứng phó rủi ro",
+      "importance": "high",
+      "summaryJa": "特定されたリスクに対して、どのような行動を取るかを決定するプロセスである。",
+      "summaryVi": "Quá trình quyết định biện pháp đối với rủi ro đã xác định, chẳng hạn tránh, giảm thiểu, chấp nhận hoặc chuyển giao rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リスクへの対応とは",
+          "vi": "Ứng phó rủi ro là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定されたリスクに対して、どのような行動を取るかを決定するプロセスである。これにはリスクを回避する、軽減する、受け入れる、または転嫁する方法が含まれる。例えば、プロジェクトにおいて納期遅延のリスクがある場合、納期を見直すことや、追加のリソースを投入して進行を早めることが考えられる。リスクを受け入れる場合は、その影響に備えた計画を立てることが重要であり、リスクの転嫁は保険などで行われる。このような対応策を策定することで、プロジェクトや組織がより安定して運営できるようになる。",
+          "vi": "Quá trình quyết định biện pháp đối với rủi ro đã xác định, chẳng hạn tránh, giảm thiểu, chấp nhận hoặc chuyển giao rủi ro. Ví dụ, bổ sung nguồn lực để giảm nguy cơ chậm tiến độ hoặc mua bảo hiểm để chuyển giao một phần thiệt hại tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "特定されたリスクに対して、どのような行動を取るかを決定するプロセスである。",
+          "vi": "Bốn hướng xử lý thường gặp: tránh, giảm, chấp nhận, chuyển giao."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクへの対応",
+          "english": "Risk Response",
+          "vi": "Ứng phó rủi ro",
+          "definitionJa": "特定されたリスクに対して、どのような行動を取るかを決定するプロセスである。これにはリスクを回避する、軽減する、受け入れる、または転嫁する方法が含まれる。例えば、プロジェクトにおいて納期遅延のリスクがある場合、納期を見直すことや、追加のリソースを投入して進行を早めることが考えられる。リスクを受け入れる場合は、その影響に備えた計画を立てることが重要であり、リスクの転嫁は保険などで行われる。このような対応策を策定することで、プロジェクトや組織がより安定して運営できるようになる。",
+          "definitionVi": "Quá trình quyết định biện pháp đối với rủi ro đã xác định, chẳng hạn tránh, giảm thiểu, chấp nhận hoặc chuyển giao rủi ro. Ví dụ, bổ sung nguồn lực để giảm nguy cơ chậm tiến độ hoặc mua bảo hiểm để chuyển giao một phần thiệt hại tài chính.",
+          "reading": "りすくへのたいおう"
+        }
+      ],
+      "tags": [
+        "system-strategy",
+        "information-system-strategy",
+        "risk-response"
+      ]
+    }
+  ]
 }

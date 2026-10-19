@@ -4,5 +4,228 @@
   "titleJa": "経営管理システム",
   "titleVi": "Hệ thống quản lý kinh doanh",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "crm",
+      "order": 1,
+      "titleJa": "CRM",
+      "titleVi": "Quản lý quan hệ khách hàng",
+      "importance": "high",
+      "summaryJa": "顧客情報や購買履歴、問い合わせ履歴などを一元管理し、顧客との関係を維持・強化する考え方や仕組み。",
+      "summaryVi": "CRM là chiến lược và hệ thống quản lý tập trung thông tin, lịch sử mua hàng và tương tác để duy trì, cải thiện quan hệ với khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CRMとは",
+          "vi": "Quản lý quan hệ khách hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客情報や購買履歴、問い合わせ履歴などを一元管理し、顧客との関係を維持・強化する考え方や仕組み。 顧客の行動やニーズを分析し、顧客ごとに適切な提案やサポートを行うことで、満足度や継続利用率の向上を目指す。",
+          "vi": "CRM là chiến lược và hệ thống quản lý tập trung thông tin, lịch sử mua hàng và tương tác để duy trì, cải thiện quan hệ với khách hàng. Doanh nghiệp phân tích nhu cầu, lịch sử giao dịch để cá nhân hóa tư vấn, hỗ trợ, từ đó tăng mức hài lòng và tỷ lệ khách hàng quay lại."
+        },
+        {
+          "type": "point",
+          "ja": "CRMは顧客との関係を重視する。SFAは営業担当者の活動管理・効率化を重視する。",
+          "vi": "CRM tập trung vào quan hệ khách hàng lâu dài; SFA tập trung quản lý và tối ưu hoạt động bán hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CRM",
+          "english": "Customer Relationship Management",
+          "vi": "Quản lý quan hệ khách hàng",
+          "definitionJa": "顧客情報や購買履歴、問い合わせ履歴などを一元管理し、顧客との関係を維持・強化する考え方や仕組み。 顧客の行動やニーズを分析し、顧客ごとに適切な提案やサポートを行うことで、満足度や継続利用率の向上を目指す。",
+          "definitionVi": "CRM là chiến lược và hệ thống quản lý tập trung thông tin, lịch sử mua hàng và tương tác để duy trì, cải thiện quan hệ với khách hàng. Doanh nghiệp phân tích nhu cầu, lịch sử giao dịch để cá nhân hóa tư vấn, hỗ trợ, từ đó tăng mức hài lòng và tỷ lệ khách hàng quay lại.",
+          "reading": "しーあーるえむ"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "crm"]
+    },
+    {
+      "id": "seci-model",
+      "order": 2,
+      "titleJa": "SECIモデル",
+      "titleVi": "Mô hình SECI – chuyển hóa tri thức",
+      "importance": "high",
+      "summaryJa": "組織内の暗黙知と形式知が相互に変換され、知識が創造・共有される過程を示すモデル。",
+      "summaryVi": "Mô hình giải thích cách tri thức ngầm và tri thức hiện (được diễn đạt thành tài liệu, lời nói) chuyển hóa qua lại để tạo và chia sẻ kiến thức trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SECIモデルとは",
+          "vi": "Mô hình SECI – chuyển hóa tri thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内の暗黙知と形式知が相互に変換され、知識が創造・共有される過程を示すモデル。 共同化（暗黙知→暗黙知）、表出化（暗黙知→形式知）、連結化（形式知→形式知）、内面化（形式知→暗黙知）の4段階を循環する。",
+          "vi": "Mô hình giải thích cách tri thức ngầm và tri thức hiện (được diễn đạt thành tài liệu, lời nói) chuyển hóa qua lại để tạo và chia sẻ kiến thức trong tổ chức. Bốn bước: Socialization – chia sẻ kinh nghiệm (ngầm → ngầm); Externalization – diễn đạt thành tài liệu (ngầm → hiện); Combination – kết hợp tài liệu (hiện → hiện); Internalization – học qua áp dụng (hiện → ngầm)."
+        },
+        {
+          "type": "point",
+          "ja": "順番は「共同化→表出化→連結化→内面化」。暗黙知と形式知の変換方向を覚える。",
+          "vi": "Nhớ đúng thứ tự và chiều chuyển hóa của 4 bước SECI; đây là điểm dễ ra câu hỏi FE."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SECIモデル",
+          "english": "SECI Model",
+          "vi": "Mô hình SECI – chuyển hóa tri thức",
+          "definitionJa": "組織内の暗黙知と形式知が相互に変換され、知識が創造・共有される過程を示すモデル。 共同化（暗黙知→暗黙知）、表出化（暗黙知→形式知）、連結化（形式知→形式知）、内面化（形式知→暗黙知）の4段階を循環する。",
+          "definitionVi": "Mô hình giải thích cách tri thức ngầm và tri thức hiện (được diễn đạt thành tài liệu, lời nói) chuyển hóa qua lại để tạo và chia sẻ kiến thức trong tổ chức. Bốn bước: Socialization – chia sẻ kinh nghiệm (ngầm → ngầm); Externalization – diễn đạt thành tài liệu (ngầm → hiện); Combination – kết hợp tài liệu (hiện → hiện); Internalization – học qua áp dụng (hiện → ngầm).",
+          "reading": "せきもでる"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "seci-model"]
+    },
+    {
+      "id": "scm",
+      "order": 3,
+      "titleJa": "SCM",
+      "titleVi": "Quản lý chuỗi cung ứng",
+      "importance": "high",
+      "summaryJa": "原材料の調達から製造、物流、販売までの供給連鎖を全体として管理・最適化する手法。",
+      "summaryVi": "SCM quản lý và tối ưu toàn bộ chuỗi cung ứng từ mua nguyên liệu, sản xuất, vận chuyển đến phân phối, bán hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SCMとは",
+          "vi": "Quản lý chuỗi cung ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "原材料の調達から製造、物流、販売までの供給連鎖を全体として管理・最適化する手法。 企業間で需要・在庫・納期などの情報を共有し、過剰在庫や欠品を減らして、コストとリードタイムを削減する。",
+          "vi": "SCM quản lý và tối ưu toàn bộ chuỗi cung ứng từ mua nguyên liệu, sản xuất, vận chuyển đến phân phối, bán hàng. Chia sẻ thông tin nhu cầu, tồn kho và thời gian giao hàng giữa các bên để giảm dư hàng, thiếu hàng, chi phí và thời gian đáp ứng đơn hàng."
+        },
+        {
+          "type": "point",
+          "ja": "SCMは供給連鎖全体の最適化。CRMは顧客関係の管理。ECRは消費者需要に応じた流通の効率化。",
+          "vi": "SCM tối ưu toàn chuỗi cung ứng; CRM quản lý quan hệ khách hàng; ECR nhấn mạnh đáp ứng nhu cầu người tiêu dùng trong phân phối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SCM",
+          "english": "Supply Chain Management",
+          "vi": "Quản lý chuỗi cung ứng",
+          "definitionJa": "原材料の調達から製造、物流、販売までの供給連鎖を全体として管理・最適化する手法。 企業間で需要・在庫・納期などの情報を共有し、過剰在庫や欠品を減らして、コストとリードタイムを削減する。",
+          "definitionVi": "SCM quản lý và tối ưu toàn bộ chuỗi cung ứng từ mua nguyên liệu, sản xuất, vận chuyển đến phân phối, bán hàng. Chia sẻ thông tin nhu cầu, tồn kho và thời gian giao hàng giữa các bên để giảm dư hàng, thiếu hàng, chi phí và thời gian đáp ứng đơn hàng.",
+          "reading": "えすしーえむ"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "scm"]
+    },
+    {
+      "id": "ecr",
+      "order": 4,
+      "titleJa": "ECR",
+      "titleVi": "Đáp ứng người tiêu dùng hiệu quả",
+      "importance": "medium",
+      "summaryJa": "メーカー・卸売業者・小売業者が連携し、消費者の需要に合わせて商品補充や流通を効率化する考え方。",
+      "summaryVi": "ECR là cách nhà sản xuất, nhà bán buôn và bán lẻ phối hợp để bổ sung hàng, phân phối hiệu quả theo nhu cầu thực tế của người tiêu dùng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ECRとは",
+          "vi": "Đáp ứng người tiêu dùng hiệu quả là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "メーカー・卸売業者・小売業者が連携し、消費者の需要に合わせて商品補充や流通を効率化する考え方。 販売時点情報などを共有し、売れ筋商品を適時に補充して、欠品や過剰在庫を抑え、顧客満足度を高める。",
+          "vi": "ECR là cách nhà sản xuất, nhà bán buôn và bán lẻ phối hợp để bổ sung hàng, phân phối hiệu quả theo nhu cầu thực tế của người tiêu dùng. Ví dụ: dùng dữ liệu bán hàng POS để nhanh chóng bổ sung sản phẩm bán chạy, tránh hết hàng hoặc tồn kho quá nhiều."
+        },
+        {
+          "type": "point",
+          "ja": "ECRは「消費者への効率的な対応」に着目し、SCMの供給連鎖全体の管理とは重点が異なる。",
+          "vi": "ECR lấy phản ứng trước nhu cầu người tiêu dùng làm trọng tâm; SCM bao quát quản lý toàn chuỗi cung ứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ECR",
+          "english": "Efficient Consumer Response",
+          "vi": "Đáp ứng người tiêu dùng hiệu quả",
+          "definitionJa": "メーカー・卸売業者・小売業者が連携し、消費者の需要に合わせて商品補充や流通を効率化する考え方。 販売時点情報などを共有し、売れ筋商品を適時に補充して、欠品や過剰在庫を抑え、顧客満足度を高める。",
+          "definitionVi": "ECR là cách nhà sản xuất, nhà bán buôn và bán lẻ phối hợp để bổ sung hàng, phân phối hiệu quả theo nhu cầu thực tế của người tiêu dùng. Ví dụ: dùng dữ liệu bán hàng POS để nhanh chóng bổ sung sản phẩm bán chạy, tránh hết hàng hoặc tồn kho quá nhiều.",
+          "reading": "いーしーあーる"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "ecr"]
+    },
+    {
+      "id": "sfa",
+      "order": 5,
+      "titleJa": "SFA",
+      "titleVi": "Tự động hóa và hỗ trợ hoạt động bán hàng",
+      "importance": "high",
+      "summaryJa": "営業案件、商談履歴、訪問予定、見込み売上などを管理し、営業活動を効率化するシステムや仕組み。",
+      "summaryVi": "SFA là hệ thống hỗ trợ quản lý cơ hội bán hàng, lịch sử trao đổi, lịch gặp khách và doanh số dự kiến nhằm tăng hiệu suất đội ngũ kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SFAとは",
+          "vi": "Tự động hóa và hỗ trợ hoạt động bán hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "営業案件、商談履歴、訪問予定、見込み売上などを管理し、営業活動を効率化するシステムや仕組み。 営業担当者の活動状況や商談の進捗を共有・可視化し、案件の対応漏れを防いで成約率向上を目指す。",
+          "vi": "SFA là hệ thống hỗ trợ quản lý cơ hội bán hàng, lịch sử trao đổi, lịch gặp khách và doanh số dự kiến nhằm tăng hiệu suất đội ngũ kinh doanh. Ví dụ: nhân viên ghi lại tình trạng từng thương vụ, thời điểm cần liên hệ lại; quản lý theo dõi tiến độ và dự báo doanh thu."
+        },
+        {
+          "type": "point",
+          "ja": "SFAは営業プロセスの効率化。CRMは顧客との継続的な関係管理。両者は連携することが多い。",
+          "vi": "SFA = tối ưu quy trình bán hàng; CRM = quản lý quan hệ khách hàng. Hai hệ thống thường tích hợp với nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SFA",
+          "english": "Sales Force Automation",
+          "vi": "Tự động hóa và hỗ trợ hoạt động bán hàng",
+          "definitionJa": "営業案件、商談履歴、訪問予定、見込み売上などを管理し、営業活動を効率化するシステムや仕組み。 営業担当者の活動状況や商談の進捗を共有・可視化し、案件の対応漏れを防いで成約率向上を目指す。",
+          "definitionVi": "SFA là hệ thống hỗ trợ quản lý cơ hội bán hàng, lịch sử trao đổi, lịch gặp khách và doanh số dự kiến nhằm tăng hiệu suất đội ngũ kinh doanh. Ví dụ: nhân viên ghi lại tình trạng từng thương vụ, thời điểm cần liên hệ lại; quản lý theo dõi tiến độ và dự báo doanh thu.",
+          "reading": "えすえふえー"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "sfa"]
+    },
+    {
+      "id": "km",
+      "order": 6,
+      "titleJa": "KM",
+      "titleVi": "Quản trị tri thức",
+      "importance": "high",
+      "summaryJa": "個人や組織が持つ知識・経験・ノウハウを蓄積、共有、活用し、組織の成果につなげる管理手法。",
+      "summaryVi": "KM là phương pháp thu thập, lưu giữ, chia sẻ và ứng dụng kiến thức, kinh nghiệm, bí quyết của cá nhân và tổ chức để cải thiện kết quả làm việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KMとは",
+          "vi": "Quản trị tri thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人や組織が持つ知識・経験・ノウハウを蓄積、共有、活用し、組織の成果につなげる管理手法。 成功事例、障害対応記録、業務手順などをナレッジベースに整理し、属人化を防ぎ、教育や問題解決に役立てる。",
+          "vi": "KM là phương pháp thu thập, lưu giữ, chia sẻ và ứng dụng kiến thức, kinh nghiệm, bí quyết của cá nhân và tổ chức để cải thiện kết quả làm việc. Ví dụ: xây kho tri thức nội bộ gồm cách xử lý sự cố, bài học dự án và quy trình làm việc để nhân viên tra cứu, giảm phụ thuộc vào một cá nhân."
+        },
+        {
+          "type": "point",
+          "ja": "KMは知識を組織全体で活用する活動。SECIモデルは知識が変換・創造される仕組みを説明する。",
+          "vi": "KM là hoạt động quản trị tri thức tổng thể; SECI mô tả cơ chế hình thành và chuyển đổi tri thức."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KM",
+          "english": "Knowledge Management",
+          "vi": "Quản trị tri thức",
+          "definitionJa": "個人や組織が持つ知識・経験・ノウハウを蓄積、共有、活用し、組織の成果につなげる管理手法。 成功事例、障害対応記録、業務手順などをナレッジベースに整理し、属人化を防ぎ、教育や問題解決に役立てる。",
+          "definitionVi": "KM là phương pháp thu thập, lưu giữ, chia sẻ và ứng dụng kiến thức, kinh nghiệm, bí quyết của cá nhân và tổ chức để cải thiện kết quả làm việc. Ví dụ: xây kho tri thức nội bộ gồm cách xử lý sự cố, bài học dự án và quy trình làm việc để nhân viên tra cứu, giảm phụ thuộc vào một cá nhân.",
+          "reading": "なれっじまねじめんと"
+        }
+      ],
+      "tags": ["business-strategy", "business-management-systems", "km"]
+    }
+  ]
 }

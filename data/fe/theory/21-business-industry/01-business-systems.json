@@ -4,5 +4,2581 @@
   "titleJa": "ビジネスシステム",
   "titleVi": "Hệ thống kinh doanh",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "distribution-information-system",
+      "order": 1,
+      "titleJa": "流通情報システム",
+      "titleVi": "Hệ thống thông tin phân phối",
+      "importance": "medium",
+      "summaryJa": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。",
+      "summaryVi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流通情報システムとは",
+          "vi": "Hệ thống thông tin phân phối là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。このシステムは、商品が生産者から消費者へどのように移動するかを追跡し、在庫管理や配送計画を効率化する役割を担っている。具体的には、発注から納品までのプロセスをデジタル化し、リアルタイムで在庫レベルや販売動向を把握できるようにする。これにより、無駄なコストを削減しながら、顧客へのサービス向上を図ることが可能となる。また、データ分析を行うことで市場のトレンドを把握し、戦略的な意思決定をサポートする重要なツールとしても利用されている。",
+          "vi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：流通情報システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Phân phối bao quát luồng hàng và thông tin thương mại; logistics tập trung vào vận chuyển và lưu kho."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流通情報システム",
+          "english": "Distribution Information System",
+          "vi": "Hệ thống thông tin phân phối",
+          "definitionJa": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。",
+          "definitionVi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng.",
+          "reading": "りゅうつうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "distribution-information-system"
+      ]
+    },
+    {
+      "id": "accounting-finance-system",
+      "order": 2,
+      "titleJa": "会計・経理・財務システム",
+      "titleVi": "Hệ thống kế toán, hạch toán và tài chính",
+      "importance": "medium",
+      "summaryJa": "企業や団体が財務管理を効率的に行うための情報システムである。",
+      "summaryVi": "Tự động ghi nhận giao dịch, quản lý chi phí, lập báo cáo tài chính và hỗ trợ dự toán ngân sách.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "会計・経理・財務システムとは",
+          "vi": "Hệ thống kế toán, hạch toán và tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や団体が財務管理を効率的に行うための情報システムである。このシステムは、日々の取引や経費の記録を自動化し、財務状況の把握やレポート作成を支援する役割を果たす。例えば、売上や支出の情報を入力することで、自動的に帳簿が更新され、月末や年度末の決算作業を迅速化することができる。また、予算の管理や資金繰りのシミュレーション機能を搭載していることも多く、戦略的な経営判断を支援する重要なツールとなる。企業の透明性や信頼性を向上させるための基盤としても利用される。",
+          "vi": "Tự động ghi nhận giao dịch, quản lý chi phí, lập báo cáo tài chính và hỗ trợ dự toán ngân sách."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：会計・経理・財務システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Kế toán ghi sổ và báo cáo; tài chính chú trọng dòng tiền, vốn và kế hoạch tài chính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "会計・経理・財務システム",
+          "english": "Accounting, Finance, and Management System",
+          "vi": "Hệ thống kế toán, hạch toán và tài chính",
+          "definitionJa": "企業や団体が財務管理を効率的に行うための情報システムである。",
+          "definitionVi": "Tự động ghi nhận giao dịch, quản lý chi phí, lập báo cáo tài chính và hỗ trợ dự toán ngân sách.",
+          "reading": "かいけい・けいり・ざいむしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "accounting-finance-system"
+      ]
+    },
+    {
+      "id": "xbrl",
+      "order": 3,
+      "titleJa": "XBRL",
+      "titleVi": "Ngôn ngữ báo cáo kinh doanh mở rộng XBRL",
+      "importance": "high",
+      "summaryJa": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。",
+      "summaryVi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XBRLとは",
+          "vi": "Ngôn ngữ báo cáo kinh doanh mở rộng XBRL là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。数値やテキスト情報をタグ付けして構造化し、データの一貫性や透明性を高める。この技術を利用することで、企業は報告書やデータを簡単に作成・共有できるため、投資家や規制当局との情報交換がスムーズになる。たとえば、XBRLを用いた財務諸表は、自動的に解析や比較が可能で、効率的に情報を把握する手助けとなる。また、会計士やアナリストは、異なる企業のデータを容易に比較し、分析することができ、ビジネス判断の迅速化につながる。",
+          "vi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：XBRLの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "XBRL là chuẩn định dạng dữ liệu báo cáo, không phải phần mềm kế toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XBRL",
+          "english": "eXtensible Business Reporting Language",
+          "vi": "Ngôn ngữ báo cáo kinh doanh mở rộng XBRL",
+          "definitionJa": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。",
+          "definitionVi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh.",
+          "reading": "えっくすびーあーるえる"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "xbrl"]
+    },
+    {
+      "id": "human-resources-payroll-system",
+      "order": 4,
+      "titleJa": "人事・給与システム",
+      "titleVi": "Hệ thống nhân sự và tiền lương",
+      "importance": "medium",
+      "summaryJa": "企業の人事管理や給与計算を効率的に行うためのソフトウェアである。",
+      "summaryVi": "Quản lý hồ sơ nhân viên, chấm công, tính lương, thưởng, thuế và các khoản bảo hiểm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "人事・給与システムとは",
+          "vi": "Hệ thống nhân sự và tiền lương là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の人事管理や給与計算を効率的に行うためのソフトウェアである。このシステムは、従業員の情報管理、勤怠管理、給与計算、賞与支給などの業務を自動化し、正確かつ迅速に処理することを可能にする。例えば、社員が出勤した時間や休暇の取得状況を記録し、これに基づいて給与を算出することができる。また、税金や社会保険料の計算も自動的に行うため、法令遵守の面でも役立つ。多くの企業で導入されるこのシステムは、人的ミスを減らし、管理業務の負担を軽減する役割を果たしている。",
+          "vi": "Quản lý hồ sơ nhân viên, chấm công, tính lương, thưởng, thuế và các khoản bảo hiểm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：人事・給与システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Tự động hóa tính lương dựa trên dữ liệu chấm công và quy định liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "人事・給与システム",
+          "english": "Human Resource and Salary System",
+          "vi": "Hệ thống nhân sự và tiền lương",
+          "definitionJa": "企業の人事管理や給与計算を効率的に行うためのソフトウェアである。",
+          "definitionVi": "Quản lý hồ sơ nhân viên, chấm công, tính lương, thưởng, thuế và các khoản bảo hiểm.",
+          "reading": "じんじ・きゅうよしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "human-resources-payroll-system"
+      ]
+    },
+    {
+      "id": "sales-support-system",
+      "order": 5,
+      "titleJa": "営業支援システム",
+      "titleVi": "Hệ thống hỗ trợ bán hàng",
+      "importance": "medium",
+      "summaryJa": "営業活動を効率化し、成果を向上させるために使用される情報システムである。",
+      "summaryVi": "Hỗ trợ nhân viên kinh doanh quản lý khách hàng, theo dõi cơ hội bán hàng và dự báo doanh số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "営業支援システムとは",
+          "vi": "Hệ thống hỗ trợ bán hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "営業活動を効率化し、成果を向上させるために使用される情報システムである。このシステムは、顧客情報の管理、営業プロセスの追跡、売上予測などの機能を提供し、営業チームがより効果的に働けるようサポートする。例えば、営業支援システムを使うことで、営業担当者は顧客とのやり取りを記録し、適切なタイミングでフォローアップを行うことが容易になる。また、データ分析機能により、過去の販売データを基に売上予測を立てることも可能で、戦略的な営業活動が行えるようになる。これにより、営業の効率が上がり、企業の業績向上につながる。",
+          "vi": "Hỗ trợ nhân viên kinh doanh quản lý khách hàng, theo dõi cơ hội bán hàng và dự báo doanh số."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：営業支援システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Hệ thống hỗ trợ bán hàng có chức năng gần với SFA; CRM tập trung rộng hơn vào quan hệ khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "営業支援システム",
+          "english": "Sales Support System",
+          "vi": "Hệ thống hỗ trợ bán hàng",
+          "definitionJa": "営業活動を効率化し、成果を向上させるために使用される情報システムである。",
+          "definitionVi": "Hỗ trợ nhân viên kinh doanh quản lý khách hàng, theo dõi cơ hội bán hàng và dự báo doanh số.",
+          "reading": "えいぎょうしえんしすてむ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "sales-support-system"]
+    },
+    {
+      "id": "groupware",
+      "order": 6,
+      "titleJa": "グループウェア",
+      "titleVi": "Phần mềm cộng tác nhóm",
+      "importance": "medium",
+      "summaryJa": "チームや組織内のコミュニケーションや協力を支援するためのソフトウェアである。",
+      "summaryVi": "Cung cấp lịch chung, chia sẻ tài liệu, nhắn tin và quản lý công việc để các thành viên phối hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グループウェアとは",
+          "vi": "Phần mềm cộng tác nhóm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "チームや組織内のコミュニケーションや協力を支援するためのソフトウェアである。主に、メンバー間の情報共有やタスク管理、スケジュール調整を円滑に行うことを目的としている。例えば、ファイル共有機能を使ってプロジェクトの進捗状況をリアルタイムで確認したり、カレンダー機能を利用して会議の日程を調整することができる。このように、時間や場所にとらわれず、効率的に業務を進めるための重要なツールであり、リモートワークの普及に伴い、ますますその利用が拡大している。また、プロジェクトの進行状況を可視化することで、チーム内の情報伝達をスムーズにし、全体の生産性向上に寄与する。",
+          "vi": "Cung cấp lịch chung, chia sẻ tài liệu, nhắn tin và quản lý công việc để các thành viên phối hợp."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：グループウェアの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Groupware chú trọng cộng tác và chia sẻ thông tin trong tổ chức."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グループウェア",
+          "english": "Groupware",
+          "vi": "Phần mềm cộng tác nhóm",
+          "definitionJa": "チームや組織内のコミュニケーションや協力を支援するためのソフトウェアである。",
+          "definitionVi": "Cung cấp lịch chung, chia sẻ tài liệu, nhắn tin và quản lý công việc để các thành viên phối hợp.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "groupware"]
+    },
+    {
+      "id": "workflow-system",
+      "order": 7,
+      "titleJa": "ワークフローシステム",
+      "titleVi": "Hệ thống luồng công việc",
+      "importance": "high",
+      "summaryJa": "業務プロセスを自動化し、効率的に管理するための情報システムである。",
+      "summaryVi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークフローシステムとは",
+          "vi": "Hệ thống luồng công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務プロセスを自動化し、効率的に管理するための情報システムである。このシステムは、タスクの流れを可視化し、各業務の進行状況を追跡することが可能で、時間やコストを削減する効果がある。例えば、社内での書類承認やプロジェクトの進行において、関係者が適切なタイミングで必要なアクションを行えるよう、フローを設定することができる。また、業務の標準化や情報の一元管理を実現し、チーム間のコミュニケーションを円滑にする役割を果たす。これにより、企業は業務の効率を高めることができる。",
+          "vi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ワークフローシステムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Workflow giúp định tuyến, theo dõi và chuẩn hóa quy trình phê duyệt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークフローシステム",
+          "english": "Workflow System",
+          "vi": "Hệ thống luồng công việc",
+          "definitionJa": "業務プロセスを自動化し、効率的に管理するための情報システムである。",
+          "definitionVi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "workflow-system"]
+    },
+    {
+      "id": "web-conference-system",
+      "order": 8,
+      "titleJa": "Web会議システム",
+      "titleVi": "Hệ thống họp trực tuyến",
+      "importance": "medium",
+      "summaryJa": "インターネットを通じてリアルタイムで会議や打ち合わせを行うためのツールである。",
+      "summaryVi": "Cho phép nhiều người họp từ xa qua Internet bằng âm thanh, video, chia sẻ màn hình và trò chuyện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Web会議システムとは",
+          "vi": "Hệ thống họp trực tuyến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットを通じてリアルタイムで会議や打ち合わせを行うためのツールである。このシステムを使用することで、物理的な距離を超えて複数の場所にいる参加者同士が音声や映像でコミュニケーションを取ることが可能になる。例えば、リモートワークが普及する中で、Web会議システムはチームの連携を強化するために不可欠な存在となっている。このシステムには、画面共有や資料のアップロード、チャット機能など様々な機能が備わっており、効率的な情報共有や意思決定をサポートする。また、設定が簡単で、ユーザーが使いやすいインターフェースを持つものが多いため、初めての人でも直感的に利用できる点が魅力である。",
+          "vi": "Cho phép nhiều người họp từ xa qua Internet bằng âm thanh, video, chia sẻ màn hình và trò chuyện."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：Web会議システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Web会議システム dùng để giao tiếp đồng thời theo thời gian thực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Web会議システム",
+          "english": "Web Conference System",
+          "vi": "Hệ thống họp trực tuyến",
+          "definitionJa": "インターネットを通じてリアルタイムで会議や打ち合わせを行うためのツールである。",
+          "definitionVi": "Cho phép nhiều người họp từ xa qua Internet bằng âm thanh, video, chia sẻ màn hình và trò chuyện.",
+          "reading": "うぇぶかいぎしすてむ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "web-conference-system"]
+    },
+    {
+      "id": "distribution-information-system-2",
+      "order": 9,
+      "titleJa": "流通情報システム",
+      "titleVi": "Hệ thống thông tin phân phối",
+      "importance": "medium",
+      "summaryJa": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。",
+      "summaryVi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "流通情報システムとは",
+          "vi": "Hệ thống thông tin phân phối là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。このシステムは、商品が生産者から消費者へどのように移動するかを追跡し、在庫管理や配送計画を効率化する役割を担っている。具体的には、発注から納品までのプロセスをデジタル化し、リアルタイムで在庫レベルや販売動向を把握できるようにする。これにより、無駄なコストを削減しながら、顧客へのサービス向上を図ることが可能となる。また、データ分析を行うことで市場のトレンドを把握し、戦略的な意思決定をサポートする重要なツールとしても利用されている。",
+          "vi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng."
+        },
+        {
+          "type": "point",
+          "ja": "原資料では「流通情報システム」が1番と9番に重複している。",
+          "vi": "Mục này lặp lại mục 1 trong nguồn; giữ nguyên vị trí để khớp tài liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "流通情報システム",
+          "english": "Distribution Information System",
+          "vi": "Hệ thống thông tin phân phối",
+          "definitionJa": "商品やサービスの流通過程に関する情報を管理・分析するためのシステムである。",
+          "definitionVi": "Quản lý dữ liệu về dòng lưu thông hàng hóa từ nhà sản xuất đến người tiêu dùng, hỗ trợ tồn kho, đơn hàng và giao hàng.",
+          "reading": "りゅうつうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "distribution-information-system-2"
+      ]
+    },
+    {
+      "id": "logistics-information-system",
+      "order": 10,
+      "titleJa": "物流情報システム",
+      "titleVi": "Hệ thống thông tin logistics",
+      "importance": "medium",
+      "summaryJa": "製品の配送や在庫管理を効率良く行うための情報システムである。",
+      "summaryVi": "Quản lý nhập kho, lưu kho, xuất kho và vận chuyển nhằm giảm chi phí và tránh thiếu hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "物流情報システムとは",
+          "vi": "Hệ thống thông tin logistics là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品の配送や在庫管理を効率良く行うための情報システムである。このシステムは、製品の入荷、保管、出荷の全過程を管理し、必要なデータをリアルタイムで提供することで、業務効率の向上を図る。例えば、企業が在庫の状況を把握することで、過剰在庫や欠品を防ぎ、スムーズな供給を維持する。さらに、顧客の注文状況や配送の状態を把握することで、サービス向上にもつながる。基幹業務支援システムの一部として、企業の運営全般を支える重要な役割を果たしている。",
+          "vi": "Quản lý nhập kho, lưu kho, xuất kho và vận chuyển nhằm giảm chi phí và tránh thiếu hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：物流情報システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "物流 chú trọng dòng vận động vật lý và lưu trữ hàng hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "物流情報システム",
+          "english": "Logistics Information System",
+          "vi": "Hệ thống thông tin logistics",
+          "definitionJa": "製品の配送や在庫管理を効率良く行うための情報システムである。",
+          "definitionVi": "Quản lý nhập kho, lưu kho, xuất kho và vận chuyển nhằm giảm chi phí và tránh thiếu hàng.",
+          "reading": "ぶつりゅうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "logistics-information-system"
+      ]
+    },
+    {
+      "id": "retail-sales-management",
+      "order": 11,
+      "titleJa": "店頭販売管理",
+      "titleVi": "Quản lý bán hàng tại cửa hàng",
+      "importance": "medium",
+      "summaryJa": "小売業において商品の販売を効率的に行うための管理手法である。",
+      "summaryVi": "Theo dõi hoạt động bán lẻ tại điểm bán, tồn kho, doanh số và dữ liệu khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "店頭販売管理とは",
+          "vi": "Quản lý bán hàng tại cửa hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "小売業において商品の販売を効率的に行うための管理手法である。このシステムは、在庫の管理、売上の分析、顧客情報の収集など、様々な業務を統合して行うことを目指している。例えば、リアルタイムで在庫状況を把握することで、品切れを防ぎ、顧客のニーズに応えることができる。また、過去の販売データを基に売上予測を行い、効果的なプロモーションやキャンペーンを展開することも可能である。業務全体の効率化を図るために、基幹業務支援システムや業務パッケージと連携し、よりスマートな運営を支援する役割を果たしている。",
+          "vi": "Theo dõi hoạt động bán lẻ tại điểm bán, tồn kho, doanh số và dữ liệu khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：店頭販売管理の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Quản lý tại cửa hàng là phạm vi nghiệp vụ; POS là hệ thống ghi nhận giao dịch tại điểm bán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "店頭販売管理",
+          "english": "Retail Sales Management",
+          "vi": "Quản lý bán hàng tại cửa hàng",
+          "definitionJa": "小売業において商品の販売を効率的に行うための管理手法である。",
+          "definitionVi": "Theo dõi hoạt động bán lẻ tại điểm bán, tồn kho, doanh số và dữ liệu khách hàng.",
+          "reading": "てんとうはんばいかんり"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "retail-sales-management"
+      ]
+    },
+    {
+      "id": "sales-management",
+      "order": 12,
+      "titleJa": "販売管理",
+      "titleVi": "Quản lý bán hàng",
+      "importance": "medium",
+      "summaryJa": "企業が製品やサービスを販売する過程において、営業活動を計画、実行、評価するための手法やシステムである。",
+      "summaryVi": "Lập kế hoạch, thực hiện và đánh giá hoạt động bán hàng dựa trên dữ liệu doanh thu và khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "販売管理とは",
+          "vi": "Quản lý bán hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が製品やサービスを販売する過程において、営業活動を計画、実行、評価するための手法やシステムである。販売管理の目的は、販売目標の達成や顧客満足の向上を図ることであり、効果的な営業戦略を立てるために必要なデータや情報を集約し、分析する役割を果たす。たとえば、販売管理システムを使用することで、売上のトレンドを把握し、在庫管理や顧客情報を効率的に管理できる。これにより、販売チームはより迅速かつ効果的に市場に対応し、競争力を高めることが可能となる。さらに、販売データの分析結果を基に、次の戦略を見直すことで、継続的な改善が期待できる。",
+          "vi": "Lập kế hoạch, thực hiện và đánh giá hoạt động bán hàng dựa trên dữ liệu doanh thu và khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：販売管理の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "販売管理 bao gồm quy trình bán hàng, không chỉ thao tác thanh toán tại quầy."
+        }
+      ],
+      "terms": [
+        {
+          "term": "販売管理",
+          "english": "Sales Management",
+          "vi": "Quản lý bán hàng",
+          "definitionJa": "企業が製品やサービスを販売する過程において、営業活動を計画、実行、評価するための手法やシステムである。",
+          "definitionVi": "Lập kế hoạch, thực hiện và đánh giá hoạt động bán hàng dựa trên dữ liệu doanh thu và khách hàng.",
+          "reading": "はんばいかんり"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "sales-management"]
+    },
+    {
+      "id": "order-management",
+      "order": 13,
+      "titleJa": "受発注管理",
+      "titleVi": "Quản lý đơn mua và đơn bán",
+      "importance": "high",
+      "summaryJa": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。",
+      "summaryVi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "受発注管理とは",
+          "vi": "Quản lý đơn mua và đơn bán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。これにより、顧客からの注文を受け取り、在庫の状況を確認し、出荷手続きを行うことがスムーズに行える。具体例としては、小売業や製造業において、受発注管理システムを導入することにより、在庫の適正化やデータの一元管理が実現され、誤発注や納期遅延のリスクが軽減される。これにより、顧客満足度の向上や業務効率化が図られ、企業の競争力が強化される。基幹業務支援システムの中心的な機能の一つと位置づけられ、ビジネス全体の流れをサポートする重要な役割を果たしている。",
+          "vi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao."
+        },
+        {
+          "type": "point",
+          "ja": "受注は顧客から注文を受けること、発注は仕入先などに注文すること。",
+          "vi": "受注 là nhận đơn bán; 発注 là đặt mua hàng hoặc vật tư."
+        }
+      ],
+      "terms": [
+        {
+          "term": "受発注管理",
+          "english": "Order Management",
+          "vi": "Quản lý đơn mua và đơn bán",
+          "definitionJa": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。",
+          "definitionVi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao.",
+          "reading": "じゅはっちゅうかんり"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "order-management"]
+    },
+    {
+      "id": "inventory-management",
+      "order": 14,
+      "titleJa": "在庫管理",
+      "titleVi": "Quản lý hàng tồn kho",
+      "importance": "high",
+      "summaryJa": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。",
+      "summaryVi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "在庫管理とは",
+          "vi": "Quản lý hàng tồn kho là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。具体的には、商品がどれだけあるかを把握し、適切な量を維持するために、発注や補充を行うことを指す。過剰在庫を防ぎつつ、欠品による販売機会の損失を避けるために重要である。たとえば、小売業では、シーズンごとの需要に応じて商品を調整し、どの商品が売れ筋であるかを分析することで、在庫の回転率を高める。業務システムの中では、在庫管理機能が搭載されることが多く、データをもとに自動発注や在庫評価を行い、効率を上げることができる。これにより、資金の無駄を減らし、経営の安定化を図ることが可能となる。",
+          "vi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：在庫管理の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Mục tiêu là cân bằng chi phí lưu kho với rủi ro thiếu hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "在庫管理",
+          "english": "Inventory Management",
+          "vi": "Quản lý hàng tồn kho",
+          "definitionJa": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。",
+          "definitionVi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng.",
+          "reading": "ざいこかんり"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "inventory-management"]
+    },
+    {
+      "id": "customer-management",
+      "order": 15,
+      "titleJa": "顧客管理",
+      "titleVi": "Quản lý khách hàng",
+      "importance": "medium",
+      "summaryJa": "企業が顧客との関係を効果的に築き、維持するための手法およびシステムである。",
+      "summaryVi": "Lưu trữ và phân tích thông tin, lịch sử mua hàng để chăm sóc và duy trì quan hệ khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "顧客管理とは",
+          "vi": "Quản lý khách hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が顧客との関係を効果的に築き、維持するための手法およびシステムである。顧客管理では、顧客の情報や購買履歴を収集し、分析することで、顧客のニーズを理解し、サービスや製品を最適化することが目指される。例えば、基幹業務支援システムにおいては、顧客情報が一元管理され、営業チームが迅速に情報を共有できるようになる。さらに、顧客管理を通じて、リピート購入の促進や新たなマーケティング戦略の立案が可能になり、顧客満足度の向上にも繋がる。このように、顧客管理は企業の成長や競争力を支える重要な要素であり、多くの業務パッケージに組み込まれている。",
+          "vi": "Lưu trữ và phân tích thông tin, lịch sử mua hàng để chăm sóc và duy trì quan hệ khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：顧客管理の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "顧客管理 là nghiệp vụ nền tảng của CRM."
+        }
+      ],
+      "terms": [
+        {
+          "term": "顧客管理",
+          "english": "Customer Management",
+          "vi": "Quản lý khách hàng",
+          "definitionJa": "企業が顧客との関係を効果的に築き、維持するための手法およびシステムである。",
+          "definitionVi": "Lưu trữ và phân tích thông tin, lịch sử mua hàng để chăm sóc và duy trì quan hệ khách hàng.",
+          "reading": "こきゃくかんり"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "customer-management"]
+    },
+    {
+      "id": "financial-information-system",
+      "order": 16,
+      "titleJa": "金融情報システム",
+      "titleVi": "Hệ thống thông tin tài chính",
+      "importance": "medium",
+      "summaryJa": "金融機関や企業が財務データを管理・分析し、意思決定を支援するための情報システムである。",
+      "summaryVi": "Thu thập và phân tích dữ liệu giao dịch, rủi ro và tài chính để hỗ trợ quyết định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "金融情報システムとは",
+          "vi": "Hệ thống thông tin tài chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "金融機関や企業が財務データを管理・分析し、意思決定を支援するための情報システムである。このシステムは、取引データの集計やレポート作成、予算管理、リスク評価など、さまざまな機能を持っている。たとえば、銀行が融資を行う際には、金融情報システムを用いて顧客の信用情報を確認し、適切な判断を下すことができる。また、企業の経理部門では、経費の追跡や収益の分析を行う際にもこのシステムが重要で、データの可視化やリアルタイムの情報提供が求められる。これにより、経営陣は迅速かつ正確な意思決定を行いやすくなり、結果として業務の効率化を図ることができる。",
+          "vi": "Thu thập và phân tích dữ liệu giao dịch, rủi ro và tài chính để hỗ trợ quyết định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：金融情報システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Có thể phục vụ ngân hàng, tổ chức tài chính và bộ phận tài chính doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "金融情報システム",
+          "english": "Financial Information System",
+          "vi": "Hệ thống thông tin tài chính",
+          "definitionJa": "金融機関や企業が財務データを管理・分析し、意思決定を支援するための情報システムである。",
+          "definitionVi": "Thu thập và phân tích dữ liệu giao dịch, rủi ro và tài chính để hỗ trợ quyết định.",
+          "reading": "きんゆうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "financial-information-system"
+      ]
+    },
+    {
+      "id": "medical-information-system",
+      "order": 17,
+      "titleJa": "医療情報システム",
+      "titleVi": "Hệ thống thông tin y tế",
+      "importance": "medium",
+      "summaryJa": "医療機関での情報の管理や共有を効率的に行うためのシステムである。",
+      "summaryVi": "Quản lý thông tin khám chữa bệnh, kết quả xét nghiệm, thuốc và hồ sơ bệnh án điện tử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "医療情報システムとは",
+          "vi": "Hệ thống thông tin y tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "医療機関での情報の管理や共有を効率的に行うためのシステムである。これにより、患者の診療情報や検査結果、薬剤情報などが一元管理され、医療従事者が迅速に必要な情報にアクセスできるようになる。具体的には、電子カルテやレセプト支援システムなどが含まれ、患者の診療過程を支援するために必要な機能を提供する。これらのシステムは、業務の効率化を図るだけでなく、情報の正確性やセキュリティを向上させ、医療の質を高める役割も担っている。医療情報システムを導入することで、治療の安全性が向上し、医療従事者の業務負担軽減にもつながるため、多くの医療機関での導入が進められている。",
+          "vi": "Quản lý thông tin khám chữa bệnh, kết quả xét nghiệm, thuốc và hồ sơ bệnh án điện tử."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：医療情報システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Cần chú trọng độ chính xác và bảo mật dữ liệu bệnh nhân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "医療情報システム",
+          "english": "Medical Information System",
+          "vi": "Hệ thống thông tin y tế",
+          "definitionJa": "医療機関での情報の管理や共有を効率的に行うためのシステムである。",
+          "definitionVi": "Quản lý thông tin khám chữa bệnh, kết quả xét nghiệm, thuốc và hồ sơ bệnh án điện tử.",
+          "reading": "いりょうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "medical-information-system"
+      ]
+    },
+    {
+      "id": "pos-system",
+      "order": 18,
+      "titleJa": "POSシステム",
+      "titleVi": "Hệ thống điểm bán hàng POS",
+      "importance": "high",
+      "summaryJa": "販売の際に取引を管理するためのシステムである。",
+      "summaryVi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "POSシステムとは",
+          "vi": "Hệ thống điểm bán hàng POS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "販売の際に取引を管理するためのシステムである。主に小売店や飲食店で使用され、商品やサービスの販売、在庫管理、顧客情報の処理を効率化する役割を果たす。例えば、レジスターとして機能し、商品のバーコードをスキャンすることで、迅速な会計処理が行える。また、リアルタイムで在庫レベルを確認し、必要な商品を自動的に発注する機能も持つ。これにより、業務の効率化だけでなく、顧客サービスの向上にも寄与する。さらに、一部の売上データを分析し、ビジネス戦略の改善に役立てることもできる。これは、小売業や飲食業など忙しい現場で特に価値がある。",
+          "vi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：POSシステムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "POS là Point of Sale; trọng tâm là thu thập thông tin giao dịch tại điểm bán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "POSシステム",
+          "english": "Point of Sale System",
+          "vi": "Hệ thống điểm bán hàng POS",
+          "definitionJa": "販売の際に取引を管理するためのシステムである。",
+          "definitionVi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho.",
+          "reading": "ぽすしすてむ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "pos-system"]
+    },
+    {
+      "id": "production-management-system",
+      "order": 19,
+      "titleJa": "生産管理システム",
+      "titleVi": "Hệ thống quản lý sản xuất",
+      "importance": "medium",
+      "summaryJa": "製造業において効率的に生産を行うための情報システムである。",
+      "summaryVi": "Quản lý kế hoạch sản xuất, nguyên vật liệu, công đoạn và tồn kho trong doanh nghiệp sản xuất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生産管理システムとは",
+          "vi": "Hệ thống quản lý sản xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製造業において効率的に生産を行うための情報システムである。このシステムは、原材料の調達、生産計画、工程管理、在庫管理など、製造プロセス全体を一元的に管理する機能を持つ。例えば、企業が生産ラインで製品を作る際、このシステムを利用することで、必要な資材の購入タイミングや生産スケジュールを最適化し、無駄を削減できる。また、リアルタイムでのデータ収集や分析が行えるため、問題が発生した際に迅速に対応できる点も特徴である。企業の競争力を高めるために欠かせない重要なツールであり、質の高い製品を効率よく提供することを可能にする。",
+          "vi": "Quản lý kế hoạch sản xuất, nguyên vật liệu, công đoạn và tồn kho trong doanh nghiệp sản xuất."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：生産管理システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Giúp điều phối vật tư và lịch sản xuất để giảm lãng phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生産管理システム",
+          "english": "Production Management System",
+          "vi": "Hệ thống quản lý sản xuất",
+          "definitionJa": "製造業において効率的に生産を行うための情報システムである。",
+          "definitionVi": "Quản lý kế hoạch sản xuất, nguyên vật liệu, công đoạn và tồn kho trong doanh nghiệp sản xuất.",
+          "reading": "せいさんかんりしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "production-management-system"
+      ]
+    },
+    {
+      "id": "cdn",
+      "order": 20,
+      "titleJa": "CDN",
+      "titleVi": "Mạng phân phối nội dung CDN",
+      "importance": "high",
+      "summaryJa": "コンテンツを迅速かつ効果的に配信するためのネットワークである。",
+      "summaryVi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CDNとは",
+          "vi": "Mạng phân phối nội dung CDN là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンテンツを迅速かつ効果的に配信するためのネットワークである。Webサイトやアプリケーションのデータを、ユーザーの地理的な位置に近いサーバから提供する仕組みを持っており、これにより読み込み時間を短縮し、ユーザー体験を向上させることができる。例えば、人気のある動画配信サービスでは、CDNを活用して動画データを世界中の複数のサーバに分散させることで、視聴者がどこにいてもスムーズにコンテンツを楽しむことが可能になる。また、CDNはトラフィックやロードバランシングを最適化する機能を持ち、サーバへの負荷を軽減することで、サービスの安定性や可用性を高める役割も果たしている。",
+          "vi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CDNの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "CDN tăng tốc cung cấp nội dung; không đồng nghĩa với hệ thống lưu trữ dự phòng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CDN",
+          "english": "Content Delivery Network",
+          "vi": "Mạng phân phối nội dung CDN",
+          "definitionJa": "コンテンツを迅速かつ効果的に配信するためのネットワークである。",
+          "definitionVi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc.",
+          "reading": "しーでぃーえぬ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "cdn"]
+    },
+    {
+      "id": "erp",
+      "order": 21,
+      "titleJa": "ERP",
+      "titleVi": "Hoạch định nguồn lực doanh nghiệp ERP",
+      "importance": "high",
+      "summaryJa": "企業の基幹業務を統合的に管理するためのシステムである。",
+      "summaryVi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ERPとは",
+          "vi": "Hoạch định nguồn lực doanh nghiệp ERP là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の基幹業務を統合的に管理するためのシステムである。具体的には、販売、在庫、人事、財務などのさまざまな業務プロセスを一元化し、情報の流れをスムーズにする。ERPを導入することで、部門間の情報共有が容易になり、業務の効率化やコスト削減が期待できる。例えば、小売業においては、在庫管理と販売データをもとに、需要予測を行い、必要な資材を事前に発注することで無駄を省くことが可能である。また、ERPは組織全体での戦略的意思決定を支える情報基盤となり、競争力を加速させる役割も果たす。",
+          "vi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ERPの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "ERP liên kết nhiều bộ phận, khác phần mềm chỉ dành cho một nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ERP",
+          "english": "Enterprise Resource Planning",
+          "vi": "Hoạch định nguồn lực doanh nghiệp ERP",
+          "definitionJa": "企業の基幹業務を統合的に管理するためのシステムである。",
+          "definitionVi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung.",
+          "reading": "いーあーるぴー"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "erp"]
+    },
+    {
+      "id": "business-specific-package",
+      "order": 22,
+      "titleJa": "業務別パッケージ",
+      "titleVi": "Gói phần mềm theo nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "特定の業種や業務に特化して設計されたソフトウェアの集合体である。",
+      "summaryVi": "Phần mềm đóng gói được thiết kế cho một loại công việc hoặc ngành nghề cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務別パッケージとは",
+          "vi": "Gói phần mềm theo nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の業種や業務に特化して設計されたソフトウェアの集合体である。これらのパッケージは、企業の基幹業務を支援し、効率的な業務運営を可能にするために開発されている。例えば、製造業向けの業務別パッケージでは、生産管理や在庫管理などの機能が組み込まれており、業界特有のニーズに応じた機能が提供される。業務別パッケージを導入することで、企業は自社の業務フローに合った最適なツールを使用でき、作業の効率化やミスの軽減が図れる。また、カスタマイズ可能な場合も多く、事業の成長や変化に柔軟に対応することができる点も大きな利点である。",
+          "vi": "Phần mềm đóng gói được thiết kế cho một loại công việc hoặc ngành nghề cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：業務別パッケージの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "業務別パッケージ có phạm vi hẹp hơn ERP tích hợp toàn doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務別パッケージ",
+          "english": "Business-Specific Package",
+          "vi": "Gói phần mềm theo nghiệp vụ",
+          "definitionJa": "特定の業種や業務に特化して設計されたソフトウェアの集合体である。",
+          "definitionVi": "Phần mềm đóng gói được thiết kế cho một loại công việc hoặc ngành nghề cụ thể.",
+          "reading": "ぎょうむべつぱっけーじ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "business-specific-package"
+      ]
+    },
+    {
+      "id": "ubiquitous-computing",
+      "order": 23,
+      "titleJa": "ユビキタスコンピューティング",
+      "titleVi": "Điện toán hiện diện khắp nơi",
+      "importance": "medium",
+      "summaryJa": "あらゆる場所でコンピュータとインターネットが使える環境を実現する概念である。",
+      "summaryVi": "Khái niệm máy tính được tích hợp vào môi trường sống để có thể sử dụng công nghệ mọi lúc, mọi nơi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユビキタスコンピューティングとは",
+          "vi": "Điện toán hiện diện khắp nơi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "あらゆる場所でコンピュータとインターネットが使える環境を実現する概念である。これは、ユーザーが意識しなくてもコンピュータが様々な場面で働くことを目指している。例えば、スマートフォンやスマート家電が常にインターネットに接続され、ユーザーの生活を便利にすることが挙げられる。情報やデータを瞬時に利用できるため、効率的な業務管理や迅速な意思決定をサポートする。基幹業務支援システムや業務パッケージの分野においては、業務プロセスの自動化やデータのリアルタイム分析が可能となり、競争力の向上につながる。このように、私たちの日常生活やビジネスにおいて、ますます重要な役割を果たしている。",
+          "vi": "Khái niệm máy tính được tích hợp vào môi trường sống để có thể sử dụng công nghệ mọi lúc, mọi nơi."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ユビキタスコンピューティングの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Ubiquitous computing nhấn mạnh môi trường điện toán hiện diện phổ biến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユビキタスコンピューティング",
+          "english": "Ubiquitous Computing",
+          "vi": "Điện toán hiện diện khắp nơi",
+          "definitionJa": "あらゆる場所でコンピュータとインターネットが使える環境を実現する概念である。",
+          "definitionVi": "Khái niệm máy tính được tích hợp vào môi trường sống để có thể sử dụng công nghệ mọi lúc, mọi nơi.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "ubiquitous-computing"]
+    },
+    {
+      "id": "iot",
+      "order": 24,
+      "titleJa": "IoT",
+      "titleVi": "Internet vạn vật IoT",
+      "importance": "high",
+      "summaryJa": "インターネットに接続されたさまざまな物やデバイスのことを指す。",
+      "summaryVi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IoTとは",
+          "vi": "Internet vạn vật IoT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "インターネットに接続されたさまざまな物やデバイスのことを指す。これにより、物同士が情報をやり取りし、相互に連携することが可能になる。例えば、スマートホームのデバイスでは、温度センサーがユーザーの設定に基づいてエアコンを自動で調整するなど、生活を便利にする場面が多く見られる。この技術は、業務支援システムにおいても重要な役割を果たしており、設備の稼働状況をリアルタイムで監視することで、効率的な運用や予防保守が可能になる。さらに、データ解析を通じて業務の改善点を見つけ出し、経営判断を支える情報を提供することができる。私たちの生活やビジネスにおいて、ますます重要性を増している。",
+          "vi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：IoTの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "IoT cung cấp kết nối và dữ liệu; digital twin tạo bản sao số để phân tích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IoT",
+          "english": "Internet of Things",
+          "vi": "Internet vạn vật IoT",
+          "definitionJa": "インターネットに接続されたさまざまな物やデバイスのことを指す。",
+          "definitionVi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị.",
+          "reading": "あいおーてぃー"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "iot"]
+    },
+    {
+      "id": "digital-twin",
+      "order": 25,
+      "titleJa": "デジタルツイン",
+      "titleVi": "Bản sao số Digital Twin",
+      "importance": "high",
+      "summaryJa": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。",
+      "summaryVi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルツインとは",
+          "vi": "Bản sao số Digital Twin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。これは、センサーやデータ収集技術を用いて、実際の状態を正確に再現し、シミュレーションや分析を行うための手法である。例えば、製造業においては、工場の機械や生産ラインのデジタルツインを作成し、稼働状況を常に監視することで、効率的な運用やメンテナンスの計画を立てることができる。また、デジタルツインを活用することで、製品開発や市場予測において迅速な意思決定を支援し、リスクを低減させることも可能である。この技術は、IoT（モノのインターネット）との関連が強く、今後ますます多くの分野で利用されると期待されている。",
+          "vi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：デジタルツインの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Digital twin phục vụ giám sát và mô phỏng; không chỉ là mô hình 3D tĩnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルツイン",
+          "english": "Digital Twin",
+          "vi": "Bản sao số Digital Twin",
+          "definitionJa": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。",
+          "definitionVi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "digital-twin"]
+    },
+    {
+      "id": "cyber-physical-system",
+      "order": 26,
+      "titleJa": "サイバーフィジカルシステム",
+      "titleVi": "Hệ thống không gian mạng – vật lý CPS",
+      "importance": "high",
+      "summaryJa": "物理的な現実とサイバー空間が連携したシステムのことである。",
+      "summaryVi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サイバーフィジカルシステムとは",
+          "vi": "Hệ thống không gian mạng – vật lý CPS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "物理的な現実とサイバー空間が連携したシステムのことである。このシステムは、センサーやアクチュエーターを使用して物理的な情報を収集し、それをコンピュータで分析してリアルタイムで判断を行う仕組みを持つ。具体的には、自動運転車やスマート工場などがこれに該当し、物理的な環境をデジタルで制御することが可能である。基幹業務支援システムや業務パッケージにも応用され、効率的なデータ管理やプロセスの自動化、さらにはエラーの早期発見と対策といった利点を提供することで、企業の業務改革を促進する役割を果たしている。",
+          "vi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：サイバーフィジカルシステムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "CPS có vòng tương tác giữa không gian thực và không gian số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サイバーフィジカルシステム",
+          "english": "Cyber-Physical System",
+          "vi": "Hệ thống không gian mạng – vật lý CPS",
+          "definitionJa": "物理的な現実とサイバー空間が連携したシステムのことである。",
+          "definitionVi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "cyber-physical-system"]
+    },
+    {
+      "id": "blockchain-applications",
+      "order": 27,
+      "titleJa": "ブロックチェーンの活用",
+      "titleVi": "Ứng dụng blockchain",
+      "importance": "high",
+      "summaryJa": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。",
+      "summaryVi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ブロックチェーンの活用とは",
+          "vi": "Ứng dụng blockchain là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。例えば、トレーサビリティ確保の分野では、製品の製造から消費者に届くまでの過程を記録し、情報が改ざんされることなく追跡できるようにする。このことで、食品の安全性やサプライチェーンの管理が強化される。また、スマートコントラクトは、契約内容を自動執行するプログラムで、従来の契約に比べて迅速かつコスト削減が可能である。これにより、例えば不動産や金融取引においても、信頼性が向上する。これらの活用により、業務の効率化や透明性の向上が期待され、企業の競争力強化につながる。",
+          "vi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ブロックチェーンの活用の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Blockchain hỗ trợ truy xuất nguồn gốc và hợp đồng thông minh; không đảm bảo dữ liệu đầu vào luôn đúng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ブロックチェーンの活用",
+          "english": "Utilization of Blockchain",
+          "vi": "Ứng dụng blockchain",
+          "definitionJa": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。",
+          "definitionVi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu.",
+          "reading": "ぶろっくちぇーんのかつよう"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "blockchain-applications"
+      ]
+    },
+    {
+      "id": "e-gov",
+      "order": 28,
+      "titleJa": "e-Gov",
+      "titleVi": "Cổng dịch vụ hành chính điện tử e-Gov",
+      "importance": "high",
+      "summaryJa": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。",
+      "summaryVi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "e-Govとは",
+          "vi": "Cổng dịch vụ hành chính điện tử e-Gov là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。このシステムでは、オンラインでの手続きや情報提供が可能になり、市民が簡単にサービスを利用できるようになる。例えば、税金の支払いや住民票の取得をWebサイトを通じて行えるため、時間や手間を大幅に削減できる。e-Govの導入は、透明性の向上や行政の効率化に寄与し、国民と政府との信頼関係を深める重要な手段となっている。また、行政機関のデジタル化は、災害時や緊急時の迅速な対応にも役立つ。",
+          "vi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản."
+        },
+        {
+          "type": "point",
+          "ja": "e-Govは行政手続などの電子サービスであり、電子政府は行政のデジタル化全体を指す。",
+          "vi": "e-Gov là tên cổng dịch vụ cụ thể; 電子政府 là khái niệm chính phủ điện tử rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "e-Gov",
+          "english": "e-Government",
+          "vi": "Cổng dịch vụ hành chính điện tử e-Gov",
+          "definitionJa": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。",
+          "definitionVi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản.",
+          "reading": "いーがぶ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "e-gov"]
+    },
+    {
+      "id": "electronic-government",
+      "order": 29,
+      "titleJa": "電子政府",
+      "titleVi": "Chính phủ điện tử",
+      "importance": "high",
+      "summaryJa": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。",
+      "summaryVi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子政府とは",
+          "vi": "Chính phủ điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。これにより、従来の対面での手続きがデジタル化され、インターネット上で各種サービスを簡単に利用できるようになる。たとえば、住民票の取得や納税手続きがオンラインで行えるようになり、時間や場所を選ばずに手続きできる便利さがある。また、行政情報の透明性が向上し、市民が公開されたデータにアクセスすることで、行政の信頼性が高まることも期待される。行政の効率化や市民の利便性向上に寄与し、全体的な行政サービスの質を向上させる重要な取り組みである。",
+          "vi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：電子政府の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "電子政府 bao quát số hóa hoạt động hành chính cấp quốc gia."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子政府",
+          "english": "Electronic Government",
+          "vi": "Chính phủ điện tử",
+          "definitionJa": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。",
+          "definitionVi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước.",
+          "reading": "でんしせいふ"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "electronic-government"]
+    },
+    {
+      "id": "electronic-local-government",
+      "order": 30,
+      "titleJa": "電子自治体",
+      "titleVi": "Chính quyền địa phương điện tử",
+      "importance": "high",
+      "summaryJa": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。",
+      "summaryVi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "電子自治体とは",
+          "vi": "Chính quyền địa phương điện tử là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。これにより、市民や企業は、役所に行かずとも自宅からインターネットを通じて各種手続きや情報の取得が可能となる。例えば、住民票の請求や税金の申告など、従来は窓口で行っていた業務が、24時間いつでも利用できるようになる。また、行政の透明性を高め、市民とのコミュニケーションの強化としても機能し、地域の活性化や住民サービスの向上につながる。さらに、データ分析や集中管理が可能となり、業務の効率化も促進されるため、行政の現代化において重要な役割を果たしている。",
+          "vi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：電子自治体の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "電子自治体 tập trung vào chính quyền địa phương, khác phạm vi quốc gia của 電子政府."
+        }
+      ],
+      "terms": [
+        {
+          "term": "電子自治体",
+          "english": "Electronic Government",
+          "vi": "Chính quyền địa phương điện tử",
+          "definitionJa": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。",
+          "definitionVi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến.",
+          "reading": "でんしじちたい"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "electronic-local-government"
+      ]
+    },
+    {
+      "id": "lgwan",
+      "order": 31,
+      "titleJa": "LGWAN",
+      "titleVi": "Mạng diện rộng chính quyền địa phương LGWAN",
+      "importance": "high",
+      "summaryJa": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。",
+      "summaryVi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "LGWANとは",
+          "vi": "Mạng diện rộng chính quyền địa phương LGWAN là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。このネットワークは、地方自治体間での情報共有や通信を円滑にするために設計されており、公的なデータの安全なやり取りを実現している。住民サービスの向上や行政業務の効率化を目指しており、例えば、異なる市町村が連携して地域情報を交換する際に利用される。また、LGWANはセキュリティ対策が強化されており、外部からの不正アクセスを防止し、安全な環境で公共サービスを提供することが可能である。このように、LGWANは地方自治体の業務運営を支える重要なインフラとなっている。",
+          "vi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：LGWANの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "LGWAN là hạ tầng mạng hành chính, không phải cổng dịch vụ công cho người dân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "LGWAN",
+          "english": "Local Government Wide Area Network",
+          "vi": "Mạng diện rộng chính quyền địa phương LGWAN",
+          "definitionJa": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。",
+          "definitionVi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản.",
+          "reading": "えるじーわん"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "lgwan"]
+    },
+    {
+      "id": "basic-resident-register-network",
+      "order": 32,
+      "titleJa": "住民基本台帳ネットワークシステム",
+      "titleVi": "Hệ thống mạng sổ đăng ký cư dân cơ bản",
+      "importance": "medium",
+      "summaryJa": "日本の各自治体が住民に関する情報を効率的に管理するためのシステムである。",
+      "summaryVi": "Liên kết dữ liệu cư dân cần thiết giữa các cơ quan hành chính Nhật Bản để hỗ trợ xác minh và thủ tục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "住民基本台帳ネットワークシステムとは",
+          "vi": "Hệ thống mạng sổ đăng ký cư dân cơ bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本の各自治体が住民に関する情報を効率的に管理するためのシステムである。このシステムでは、住民基本台帳に登録されている情報がネットワークを通じて共有され、全国の自治体で迅速に利用できるようになっている。例えば、転居や出生の届け出を行う際に、新しい居住地の自治体でスムーズに手続きができるようにする。このネットワークにより、行政サービスの向上や住民の利便性の向上が図られ、より効率的な公共サービスの提供が実現されている。",
+          "vi": "Liên kết dữ liệu cư dân cần thiết giữa các cơ quan hành chính Nhật Bản để hỗ trợ xác minh và thủ tục."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：住民基本台帳ネットワークシステムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "住基ネット là hệ thống liên kết thông tin đăng ký cư dân, khác mã My Number."
+        }
+      ],
+      "terms": [
+        {
+          "term": "住民基本台帳ネットワークシステム",
+          "english": "Basic Resident Register Network System",
+          "vi": "Hệ thống mạng sổ đăng ký cư dân cơ bản",
+          "definitionJa": "日本の各自治体が住民に関する情報を効率的に管理するためのシステムである。",
+          "definitionVi": "Liên kết dữ liệu cư dân cần thiết giữa các cơ quan hành chính Nhật Bản để hỗ trợ xác minh và thủ tục.",
+          "reading": "じゅうみんきほんだいちょうねっとわーくしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "basic-resident-register-network"
+      ]
+    },
+    {
+      "id": "edinet",
+      "order": 33,
+      "titleJa": "EDINET",
+      "titleVi": "Hệ thống công bố thông tin điện tử EDINET",
+      "importance": "high",
+      "summaryJa": "投資者向けの電子情報開示ネットワークのことである。",
+      "summaryVi": "Hệ thống tiếp nhận và công bố trực tuyến các hồ sơ theo quy định về công bố thông tin tài chính ở Nhật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "EDINETとは",
+          "vi": "Hệ thống công bố thông tin điện tử EDINET là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "投資者向けの電子情報開示ネットワークのことである。これは、日本における上場企業が金融情報や経営情報を迅速に公開するためのシステムである。具体的には、企業が提出した財務諸表や業績報告、株主総会資料などをオンラインで提供し、投資家が容易にアクセスできるようにする役割を果たす。こうした情報公開は、投資家が企業の状況を理解し、適切な投資判断を行うための重要な基盤となる。また、透明性を高めることで、企業への信頼を向上させる効果も持つ。",
+          "vi": "Hệ thống tiếp nhận và công bố trực tuyến các hồ sơ theo quy định về công bố thông tin tài chính ở Nhật."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：EDINETの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "EDINET phục vụ công bố hồ sơ chứng khoán; XBRL là chuẩn dữ liệu có thể dùng trong hồ sơ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "EDINET",
+          "english": "Electronic Disclosure for Investors' NETwork",
+          "vi": "Hệ thống công bố thông tin điện tử EDINET",
+          "definitionJa": "投資者向けの電子情報開示ネットワークのことである。",
+          "definitionVi": "Hệ thống tiếp nhận và công bố trực tuyến các hồ sơ theo quy định về công bố thông tin tài chính ở Nhật.",
+          "reading": "えでぃねっと"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "edinet"]
+    },
+    {
+      "id": "public-information-system",
+      "order": 34,
+      "titleJa": "公共情報システム",
+      "titleVi": "Hệ thống thông tin công cộng",
+      "importance": "medium",
+      "summaryJa": "行政機関や公共団体が提供する情報を管理し、広く市民に提供するためのシステムである。",
+      "summaryVi": "Cung cấp và quản lý thông tin công ích về giao thông, y tế, giáo dục và dịch vụ hành chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "公共情報システムとは",
+          "vi": "Hệ thống thông tin công cộng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "行政機関や公共団体が提供する情報を管理し、広く市民に提供するためのシステムである。このシステムは、住民のニーズに応じた情報を迅速かつ正確に届けることを目的としており、交通、福祉、教育、環境など、さまざまな分野のデータを含む。例えば、自治体のホームページ上で、行政サービスの利用方法や地域のイベント情報を提供することが挙げられる。また、市民とのコミュニケーションを促進し、透明性を高めることで、信頼性のある行政運営に寄与する。",
+          "vi": "Cung cấp và quản lý thông tin công ích về giao thông, y tế, giáo dục và dịch vụ hành chính."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：公共情報システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Mục tiêu là truyền tải thông tin chính xác và dễ tiếp cận cho cộng đồng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "公共情報システム",
+          "english": "Public Information System",
+          "vi": "Hệ thống thông tin công cộng",
+          "definitionJa": "行政機関や公共団体が提供する情報を管理し、広く市民に提供するためのシステムである。",
+          "definitionVi": "Cung cấp và quản lý thông tin công ích về giao thông, y tế, giáo dục và dịch vụ hành chính.",
+          "reading": "こうきょうじょうほうしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "public-information-system"
+      ]
+    },
+    {
+      "id": "smart-grid",
+      "order": 35,
+      "titleJa": "スマートグリッド",
+      "titleVi": "Lưới điện thông minh",
+      "importance": "high",
+      "summaryJa": "電力供給と利用に関する新しい技術やシステムを統合したものである。",
+      "summaryVi": "Kết hợp lưới điện với công nghệ thông tin để theo dõi và tối ưu cung – cầu điện năng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマートグリッドとは",
+          "vi": "Lưới điện thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電力供給と利用に関する新しい技術やシステムを統合したものである。従来の電力網に対して、情報通信技術を活用し、電力の供給と需要をリアルタイムで管理することができる。具体的には、発電所から家庭や企業までの電力の流れを最適化し、エネルギー効率を高めることが目的である。例えば、電気自動車が充電されている時間帯や再生可能エネルギーが生成されている際に、電力使用を調整することで、電力の無駄を減少させる。持続可能なエネルギー社会を実現するための重要な基盤となっており、より安心で安定した電力供給を目指している。",
+          "vi": "Kết hợp lưới điện với công nghệ thông tin để theo dõi và tối ưu cung – cầu điện năng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：スマートグリッドの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Smart Grid tối ưu toàn mạng điện; EMS quản lý mức sử dụng năng lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマートグリッド",
+          "english": "Smart Grid",
+          "vi": "Lưới điện thông minh",
+          "definitionJa": "電力供給と利用に関する新しい技術やシステムを統合したものである。",
+          "definitionVi": "Kết hợp lưới điện với công nghệ thông tin để theo dõi và tối ưu cung – cầu điện năng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "smart-grid"]
+    },
+    {
+      "id": "ems",
+      "order": 36,
+      "titleJa": "EMS",
+      "titleVi": "Hệ thống quản lý năng lượng EMS",
+      "importance": "high",
+      "summaryJa": "エネルギーの使用状況を監視し、管理するためのシステムである。",
+      "summaryVi": "Giám sát và điều chỉnh tiêu thụ điện, khí và các nguồn năng lượng trong tòa nhà, nhà máy hoặc khu vực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "EMSとは",
+          "vi": "Hệ thống quản lý năng lượng EMS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "エネルギーの使用状況を監視し、管理するためのシステムである。具体的には、建物や工場、地域全体のエネルギー消費をリアルタイムで把握し、効率的な利用を促進するために用いられる。例えば、電力やガスの消費量を測定し、無駄なエネルギーを削減するための提案を行うことができる。また、再生可能エネルギーの活用や、電力ピーク時の調整なども支援する。こうしたシステムは、エネルギーコストの削減や環境負荷の軽減に貢献し、持続可能な社会の実現に重要な役割を果たす。",
+          "vi": "Giám sát và điều chỉnh tiêu thụ điện, khí và các nguồn năng lượng trong tòa nhà, nhà máy hoặc khu vực."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：EMSの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "EMS giúp tiết kiệm năng lượng và quản lý phụ tải."
+        }
+      ],
+      "terms": [
+        {
+          "term": "EMS",
+          "english": "Energy Management System",
+          "vi": "Hệ thống quản lý năng lượng EMS",
+          "definitionJa": "エネルギーの使用状況を監視し、管理するためのシステムである。",
+          "definitionVi": "Giám sát và điều chỉnh tiêu thụ điện, khí và các nguồn năng lượng trong tòa nhà, nhà máy hoặc khu vực.",
+          "reading": "いーえむえす"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "ems"]
+    },
+    {
+      "id": "gps-application-system",
+      "order": 37,
+      "titleJa": "GPS応用システム",
+      "titleVi": "Hệ thống ứng dụng GPS",
+      "importance": "medium",
+      "summaryJa": "全地球測位システムを利用して、位置情報を様々な用途に活用するシステムである。",
+      "summaryVi": "Sử dụng tín hiệu định vị vệ tinh để xác định vị trí và hỗ trợ dẫn đường, theo dõi phương tiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "GPS応用システムとは",
+          "vi": "Hệ thống ứng dụng GPS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "全地球測位システムを利用して、位置情報を様々な用途に活用するシステムである。GPSは、衛星からの信号を受信して、地球上の正確な位置を測定する技術である。これにより、地図、ナビゲーション、運輸、農業、災害管理など多くの分野での応用が可能となる。たとえば、交通管理システムでは、車両の位置をリアルタイムで追跡し、効率的なルートを計算することができる。また、災害時の救助活動においても、被災地の位置情報を迅速に把握し、適切な対応ができるようになる。このように、公共の利益を促進し、人々の生活を便利にする重要な役割を果たしている。",
+          "vi": "Sử dụng tín hiệu định vị vệ tinh để xác định vị trí và hỗ trợ dẫn đường, theo dõi phương tiện."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：GPS応用システムの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "GPS cung cấp vị trí; các hệ thống ứng dụng khai thác dữ liệu vị trí cho nghiệp vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "GPS応用システム",
+          "english": "Global Positioning System",
+          "vi": "Hệ thống ứng dụng GPS",
+          "definitionJa": "全地球測位システムを利用して、位置情報を様々な用途に活用するシステムである。",
+          "definitionVi": "Sử dụng tín hiệu định vị vệ tinh để xác định vị trí và hỗ trợ dẫn đường, theo dõi phương tiện.",
+          "reading": "じーぴーえすおうようしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "gps-application-system"
+      ]
+    },
+    {
+      "id": "its",
+      "order": 38,
+      "titleJa": "ITS",
+      "titleVi": "Hệ thống giao thông thông minh ITS",
+      "importance": "high",
+      "summaryJa": "高度道路交通システムのことであり、交通の効率化や安全性向上を目的とした情報通信技術を活用した交通管理システムである。",
+      "summaryVi": "Áp dụng công nghệ thông tin và truyền thông để tăng an toàn, giảm ùn tắc và điều hành giao thông.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITSとは",
+          "vi": "Hệ thống giao thông thông minh ITS là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "高度道路交通システムのことであり、交通の効率化や安全性向上を目的とした情報通信技術を活用した交通管理システムである。道路状況のリアルタイム情報を提供し、交通渋滞や事故の軽減に寄与する。例えば、ナビゲーションシステムが交通量を分析し、最適なルートを提示したり、信号機が交通状況に応じて変化することでスムーズな流れを促進する。これにより、運転者は安全に目的地へ到達できるよう支援される。また、ITSは公共交通機関の運行管理や事故への迅速な対応にも役立ち、地域全体の交通環境の改善に寄与している。",
+          "vi": "Áp dụng công nghệ thông tin và truyền thông để tăng an toàn, giảm ùn tắc và điều hành giao thông."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ITSの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "ITS bao gồm dẫn đường, quản lý giao thông và thông tin đường bộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITS",
+          "english": "Intelligent Transport Systems",
+          "vi": "Hệ thống giao thông thông minh ITS",
+          "definitionJa": "高度道路交通システムのことであり、交通の効率化や安全性向上を目的とした情報通信技術を活用した交通管理システムである。",
+          "definitionVi": "Áp dụng công nghệ thông tin và truyền thông để tăng an toàn, giảm ùn tắc và điều hành giao thông.",
+          "reading": "あいてぃえす"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "its"]
+    },
+    {
+      "id": "emergency-alert",
+      "order": 39,
+      "titleJa": "緊急速報",
+      "titleVi": "Thông báo khẩn cấp",
+      "importance": "medium",
+      "summaryJa": "災害や事故などの緊急事態に際し、迅速に重要情報を伝達するためのシステムである。",
+      "summaryVi": "Truyền nhanh thông tin cảnh báo về thiên tai hoặc sự cố qua các kênh liên lạc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "緊急速報とは",
+          "vi": "Thông báo khẩn cấp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "災害や事故などの緊急事態に際し、迅速に重要情報を伝達するためのシステムである。この速報は、地震や津波、台風などの自然災害だけでなく、火災やテロなどの人為的な危機にも対応している。テレビ、ラジオ、携帯電話、インターネットなど多様なメディアを通じて配信され、迅速に住民の注意を喚起する役割を果たしている。これにより、人々は危険を回避したり、適切な行動を取ることが可能となるため、緊急時の安全確保において極めて重要な仕組みである。",
+          "vi": "Truyền nhanh thông tin cảnh báo về thiên tai hoặc sự cố qua các kênh liên lạc."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：緊急速報の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "緊急速報 là loại thông báo khẩn cấp nói chung; Jアラート là hệ thống cảnh báo quốc gia."
+        }
+      ],
+      "terms": [
+        {
+          "term": "緊急速報",
+          "english": "Emergency Alert",
+          "vi": "Thông báo khẩn cấp",
+          "definitionJa": "災害や事故などの緊急事態に際し、迅速に重要情報を伝達するためのシステムである。",
+          "definitionVi": "Truyền nhanh thông tin cảnh báo về thiên tai hoặc sự cố qua các kênh liên lạc.",
+          "reading": "きんきゅうそくほう"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "emergency-alert"]
+    },
+    {
+      "id": "j-alert",
+      "order": 40,
+      "titleJa": "Jアラート",
+      "titleVi": "Hệ thống cảnh báo J-Alert",
+      "importance": "high",
+      "summaryJa": "日本で導入されている全国瞬時警報システムのことである。",
+      "summaryVi": "Hệ thống cảnh báo tức thời toàn quốc của Nhật Bản truyền thông tin khẩn cấp qua chính quyền và hạ tầng truyền tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Jアラートとは",
+          "vi": "Hệ thống cảnh báo J-Alert là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本で導入されている全国瞬時警報システムのことである。このシステムは、自然災害や緊急事態が発生した際に、瞬時に全国の住民に対して警報を発信する仕組みを持つ。例えば、地震、津波、ミサイル発射などの情報が発信されると、テレビやラジオ、携帯電話の音声などを通じて住民に迅速に通知される。これにより、危険を避けるための行動を早期に取ることが可能となる。国や地方自治体が協力して運用しており、公共の安全を確保するための重要な役割を果たしている。",
+          "vi": "Hệ thống cảnh báo tức thời toàn quốc của Nhật Bản truyền thông tin khẩn cấp qua chính quyền và hạ tầng truyền tin."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：Jアラートの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "J-Alert là 全国瞬時警報システム; không đồng nhất với mọi tin cảnh báo khẩn cấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Jアラート",
+          "english": "J-Alert",
+          "vi": "Hệ thống cảnh báo J-Alert",
+          "definitionJa": "日本で導入されている全国瞬時警報システムのことである。",
+          "definitionVi": "Hệ thống cảnh báo tức thời toàn quốc của Nhật Bản truyền thông tin khẩn cấp qua chính quyền và hạ tầng truyền tin.",
+          "reading": "じぇいあらーと"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "j-alert"]
+    },
+    {
+      "id": "my-number",
+      "order": 41,
+      "titleJa": "マイナンバー",
+      "titleVi": "Mã số cá nhân My Number",
+      "importance": "high",
+      "summaryJa": "日本における個人番号制度を指し、全ての住民に割り当てられる12桁の番号である。",
+      "summaryVi": "Mã định danh cá nhân 12 chữ số tại Nhật dùng trong các lĩnh vực hành chính được pháp luật quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイナンバーとは",
+          "vi": "Mã số cá nhân My Number là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本における個人番号制度を指し、全ての住民に割り当てられる12桁の番号である。これは、社会保障や税、災害対策などの行政手続きを効率化することを目的としている。例えば、マイナンバーを利用することで、健康保険の手続きや年金の受給手続きがスムーズに行えるようになる。また、個人の識別情報であるため、プライバシー保護が重要視されており、適切な管理と利用が求められている。この制度により、行政サービスの効率化だけでなく、税収の向上や不正受給の防止にも寄与することを目指している。",
+          "vi": "Mã định danh cá nhân 12 chữ số tại Nhật dùng trong các lĩnh vực hành chính được pháp luật quy định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：マイナンバーの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Phân biệt mã My Number với thẻ My Number và cổng Mynaportal."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイナンバー",
+          "english": "My Number",
+          "vi": "Mã số cá nhân My Number",
+          "definitionJa": "日本における個人番号制度を指し、全ての住民に割り当てられる12桁の番号である。",
+          "definitionVi": "Mã định danh cá nhân 12 chữ số tại Nhật dùng trong các lĩnh vực hành chính được pháp luật quy định.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "my-number"]
+    },
+    {
+      "id": "mynaportal",
+      "order": 42,
+      "titleJa": "マイナポータル",
+      "titleVi": "Cổng thông tin Mynaportal",
+      "importance": "high",
+      "summaryJa": "日本の行政サービスをオンラインで利用できるためのプラットフォームである。",
+      "summaryVi": "Dịch vụ trực tuyến giúp cá nhân tra cứu thông tin và thực hiện các thủ tục hành chính liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マイナポータルとは",
+          "vi": "Cổng thông tin Mynaportal là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本の行政サービスをオンラインで利用できるためのプラットフォームである。このシステムを通じて、マイナンバーと関連する情報や手続きを一元管理することが可能である。たとえば、住民票や年金の状況確認、各種申請手続きのオンライン申請などが行え、利用者にとって非常に便利である。また、マイナンバー制度の趣旨に基づき、個人情報の取り扱いが適切に行われるよう配慮されている。情報の透明性を高め、行政サービスの効率化を促進する重要な役割を果たしている。",
+          "vi": "Dịch vụ trực tuyến giúp cá nhân tra cứu thông tin và thực hiện các thủ tục hành chính liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：マイナポータルの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "マイナポータル là cổng dịch vụ, không phải chính mã định danh My Number."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マイナポータル",
+          "english": "My Number Portal",
+          "vi": "Cổng thông tin Mynaportal",
+          "definitionJa": "日本の行政サービスをオンラインで利用できるためのプラットフォームである。",
+          "definitionVi": "Dịch vụ trực tuyến giúp cá nhân tra cứu thông tin và thực hiện các thủ tục hành chính liên quan.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "mynaportal"]
+    },
+    {
+      "id": "local-government-cashless-payment",
+      "order": 43,
+      "titleJa": "自治体窓口のキャッシュレス化",
+      "titleVi": "Thanh toán không tiền mặt tại quầy hành chính",
+      "importance": "medium",
+      "summaryJa": "地方自治体の窓口サービスにおいて、現金を使わずに電子的な方法で支払いを行う仕組みを指す。",
+      "summaryVi": "Cho phép trả phí dịch vụ hành chính bằng thẻ hoặc phương tiện điện tử thay vì tiền mặt.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自治体窓口のキャッシュレス化とは",
+          "vi": "Thanh toán không tiền mặt tại quầy hành chính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "地方自治体の窓口サービスにおいて、現金を使わずに電子的な方法で支払いを行う仕組みを指す。これにより、住民は交通系ICカードやクレジットカード、スマートフォンアプリを利用して、手数料や税金、各種サービス料を簡単に支払えるようになる。例えば、自動車税の納付や住民票の発行手数料などがキャッシュレスで行えることで、時間を節約し、窓口の混雑を緩和する効果が期待される。また、キャッシュレス決済を導入することで、自治体側も入金管理や処理の効率が向上し、コスト削減が可能となる。このような取り組みは、デジタル化の進展に伴い、地域の利便性を高める重要な施策となっている。",
+          "vi": "Cho phép trả phí dịch vụ hành chính bằng thẻ hoặc phương tiện điện tử thay vì tiền mặt."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：自治体窓口のキャッシュレス化の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Lợi ích gồm giảm thời gian xử lý tiền mặt và thuận tiện cho người dân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自治体窓口のキャッシュレス化",
+          "english": "Cashless Payment in Local Government Offices",
+          "vi": "Thanh toán không tiền mặt tại quầy hành chính",
+          "definitionJa": "地方自治体の窓口サービスにおいて、現金を使わずに電子的な方法で支払いを行う仕組みを指す。",
+          "definitionVi": "Cho phép trả phí dịch vụ hành chính bằng thẻ hoặc phương tiện điện tử thay vì tiền mặt.",
+          "reading": "じちたいまどぐちのきゃっしゅれすか"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "local-government-cashless-payment"
+      ]
+    },
+    {
+      "id": "universal-design",
+      "order": 44,
+      "titleJa": "ユニバーサルデザイン",
+      "titleVi": "Thiết kế phổ quát",
+      "importance": "high",
+      "summaryJa": "すべての人が利用しやすい製品やサービスを提供するためのデザイン思想である。",
+      "summaryVi": "Thiết kế sản phẩm và dịch vụ để nhiều nhóm người có thể sử dụng thuận tiện bất kể tuổi tác hay khả năng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユニバーサルデザインとは",
+          "vi": "Thiết kế phổ quát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "すべての人が利用しやすい製品やサービスを提供するためのデザイン思想である。特に公共施設や行政サービスにおいて、年齢や身体的な特性、言語に関係なく、誰もが平等に利用できるような環境を作ることを目的とする。例えば、バリアフリー設計の建物や、視覚障害者向けの音声案内システムなどがその一例である。また、多様なニーズに応えるためのアプローチであり、利用者の体験を向上させるだけでなく、社会全体の inclusiveness（包括性）を高める役割も果たしている。",
+          "vi": "Thiết kế sản phẩm và dịch vụ để nhiều nhóm người có thể sử dụng thuận tiện bất kể tuổi tác hay khả năng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ユニバーサルデザインの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Universal Design hướng đến mọi người ngay từ khâu thiết kế, không chỉ cải tạo cho người khuyết tật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユニバーサルデザイン",
+          "english": "Universal Design",
+          "vi": "Thiết kế phổ quát",
+          "definitionJa": "すべての人が利用しやすい製品やサービスを提供するためのデザイン思想である。",
+          "definitionVi": "Thiết kế sản phẩm và dịch vụ để nhiều nhóm người có thể sử dụng thuận tiện bất kể tuổi tác hay khả năng.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "universal-design"]
+    },
+    {
+      "id": "digital-divide",
+      "order": 45,
+      "titleJa": "デジタルディバイド",
+      "titleVi": "Khoảng cách số",
+      "importance": "high",
+      "summaryJa": "情報通信技術に対するアクセスや利用の格差を指す用語である。",
+      "summaryVi": "Chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin giữa các nhóm người hoặc khu vực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルディバイドとは",
+          "vi": "Khoảng cách số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報通信技術に対するアクセスや利用の格差を指す用語である。この現象は、技術を利用できる人とそうでない人との間に生じる不平等を意味する。例えば、インターネットの接続ができない地域や、技術を使いこなせない高齢者などが影響を受けやすい。教育や経済活動、行政サービスの利用においても障壁となり、地域や世代による情報格差を拡大させる要因となる。行政や公共情報システムにおいては、この格差を解消するための施策が求められており、情報教育やインフラ整備などが重要な役割を果たす。デジタルディバイドを克服することにより、すべての人が平等に情報を享受できる社会を目指すことができる。",
+          "vi": "Chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin giữa các nhóm người hoặc khu vực."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：デジタルディバイドの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Digital Divide gây bất bình đẳng cơ hội tiếp cận thông tin và dịch vụ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルディバイド",
+          "english": "Digital Divide",
+          "vi": "Khoảng cách số",
+          "definitionJa": "情報通信技術に対するアクセスや利用の格差を指す用語である。",
+          "definitionVi": "Chênh lệch về khả năng tiếp cận và sử dụng công nghệ thông tin giữa các nhóm người hoặc khu vực.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "digital-divide"]
+    },
+    {
+      "id": "human-centered-ai-principles",
+      "order": 46,
+      "titleJa": "人間中心のAI社会原則",
+      "titleVi": "Nguyên tắc xã hội AI lấy con người làm trung tâm",
+      "importance": "high",
+      "summaryJa": "人工知能（AI）を社会に適切に導入するための指針である。",
+      "summaryVi": "Bộ nguyên tắc định hướng phát triển và sử dụng AI có trách nhiệm, tôn trọng con người, công bằng và minh bạch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "人間中心のAI社会原則とは",
+          "vi": "Nguyên tắc xã hội AI lấy con người làm trung tâm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）を社会に適切に導入するための指針である。この原則は、公平性・説明責任・透明性に重点を置き、すべての人が平等にAIの恩恵を受けられるようにすることを目指している。例えば、データの偏りに基づいた差別的なアルゴリズムの使用を避け、正直な情報提供を行うことが求められる。また、AIがどのように意思決定を行ったのかを説明できるようにすることで、その結果に対する責任が明確化される。さらに、イノベーションの原則を通じて、AI技術の進化を促進しつつ、それが社会に与える影響を常に評価することが求められている。このように、人間中心の原則は、安全で持続可能なAI社会を築くために不可欠なものである。",
+          "vi": "Bộ nguyên tắc định hướng phát triển và sử dụng AI có trách nhiệm, tôn trọng con người, công bằng và minh bạch."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：人間中心のAI社会原則の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Chú ý các giá trị: con người, quyền riêng tư, công bằng và trách nhiệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "人間中心のAI社会原則",
+          "english": "Human-Centered AI Social Principles",
+          "vi": "Nguyên tắc xã hội AI lấy con người làm trung tâm",
+          "definitionJa": "人工知能（AI）を社会に適切に導入するための指針である。",
+          "definitionVi": "Bộ nguyên tắc định hướng phát triển và sử dụng AI có trách nhiệm, tôn trọng con người, công bằng và minh bạch.",
+          "reading": "にんげんちゅうしんのえーあいしゃかいげんそく"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "human-centered-ai-principles"
+      ]
+    },
+    {
+      "id": "ai-utilization-guidelines",
+      "order": 47,
+      "titleJa": "AI利活用ガイドライン",
+      "titleVi": "Hướng dẫn khai thác và sử dụng AI",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）を適切に活用するための原則や指針を示したものである。",
+      "summaryVi": "Các chỉ dẫn để triển khai và sử dụng AI an toàn, có trách nhiệm, bảo vệ dữ liệu và giảm thiên lệch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AI利活用ガイドラインとは",
+          "vi": "Hướng dẫn khai thác và sử dụng AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）を適切に活用するための原則や指針を示したものである。これらのガイドラインは、AIの利用における倫理的な側面や透明性、安全性を考慮し、信頼性の高いAIシステムの構築を促進することを目的としている。例えば、個人情報の保護やバイアスの排除、結果の説明可能性を重視した基準が策定されている。また、企業や開発者がAIを導入する際に踏まえるべきポイントとして、社会的責任を果たしつつ、技術の進化を活かすために重要な役割を果たしている。これにより、AI技術の発展と社会への貢献の両立が期待される。",
+          "vi": "Các chỉ dẫn để triển khai và sử dụng AI an toàn, có trách nhiệm, bảo vệ dữ liệu và giảm thiên lệch."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AI利活用ガイドラインの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Phân biệt hướng dẫn sử dụng AI với các nguyên tắc đạo đức AI tổng quát."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AI利活用ガイドライン",
+          "english": "AI Utilization Guidelines",
+          "vi": "Hướng dẫn khai thác và sử dụng AI",
+          "definitionJa": "人工知能（AI）を適切に活用するための原則や指針を示したものである。",
+          "definitionVi": "Các chỉ dẫn để triển khai và sử dụng AI an toàn, có trách nhiệm, bảo vệ dữ liệu và giảm thiên lệch.",
+          "reading": "えーあいりかつようがいどらいん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "ai-utilization-guidelines"
+      ]
+    },
+    {
+      "id": "trustworthy-ai-ethics-guidelines",
+      "order": 48,
+      "titleJa": "信頼できるAIのための倫理ガイドライン",
+      "titleVi": "Hướng dẫn đạo đức cho AI đáng tin cậy",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）の開発や運用において遵守すべき原則や指針を示したものである。",
+      "summaryVi": "Đề ra các yêu cầu đạo đức như minh bạch, công bằng, an toàn và tôn trọng quyền con người.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "信頼できるAIのための倫理ガイドラインとは",
+          "vi": "Hướng dẫn đạo đức cho AI đáng tin cậy là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）の開発や運用において遵守すべき原則や指針を示したものである。このガイドラインは、AIが人間社会において安全かつ倫理的に利用されることを目指しており、透明性、公正性、プライバシーの保護、持続可能性などの重要な要素を含んでいる。具体的には、AIの意思決定が透明で理解可能であること、人権を尊重し差別を防ぐこと、データの適切な取り扱いを行うことが求められる。また、信頼できるAIは、技術の健全な発展と、社会のニーズに応じた応用が調和することを目指している。このように、AIが社会にもたらす影響を考慮した上で、責任ある技術の利用が促進されることが重要である。",
+          "vi": "Đề ra các yêu cầu đạo đức như minh bạch, công bằng, an toàn và tôn trọng quyền con người."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：信頼できるAIのための倫理ガイドラインの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Độ tin cậy của AI không chỉ phụ thuộc độ chính xác mà còn vào đạo đức và quản trị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "信頼できるAIのための倫理ガイドライン",
+          "english": "Ethics Guidelines for Trustworthy AI",
+          "vi": "Hướng dẫn đạo đức cho AI đáng tin cậy",
+          "definitionJa": "人工知能（AI）の開発や運用において遵守すべき原則や指針を示したものである。",
+          "definitionVi": "Đề ra các yêu cầu đạo đức như minh bạch, công bằng, an toàn và tôn trọng quyền con người.",
+          "reading": "しんらいできるえーあいのためのりんりがいどらいん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "trustworthy-ai-ethics-guidelines"
+      ]
+    },
+    {
+      "id": "jsai-ethics-guidelines",
+      "order": 49,
+      "titleJa": "人工知能学会倫理指針",
+      "titleVi": "Quy tắc đạo đức của Hội Trí tuệ nhân tạo Nhật Bản",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）の研究や開発、利用に際して遵守すべき倫理的な原則をまとめたものである。",
+      "summaryVi": "Nguyên tắc ứng xử đạo đức dành cho cộng đồng nghiên cứu, phát triển và ứng dụng AI.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "人工知能学会倫理指針とは",
+          "vi": "Quy tắc đạo đức của Hội Trí tuệ nhân tạo Nhật Bản là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）の研究や開発、利用に際して遵守すべき倫理的な原則をまとめたものである。この指針は、安全性、公正性、説明責任など、AI技術が社会に与える影響を考慮し、持続可能な発展を促進することを目的としている。具体的には、AIの開発者や利用者が倫理的な判断基準に基づいて行動し、社会と調和した形でAI技術を活用するためのガイドラインを提供している。また、これによって、技術の進化とともに新たに生じる倫理的な問題や課題に対する対策を講じることが可能となり、AIの健全な発展を支えている。",
+          "vi": "Nguyên tắc ứng xử đạo đức dành cho cộng đồng nghiên cứu, phát triển và ứng dụng AI."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：人工知能学会倫理指針の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Chú trọng trách nhiệm của nhà nghiên cứu và tác động xã hội của AI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "人工知能学会倫理指針",
+          "english": "Ethical Guidelines of the Japanese Society for Artificial Intelligence",
+          "vi": "Quy tắc đạo đức của Hội Trí tuệ nhân tạo Nhật Bản",
+          "definitionJa": "人工知能（AI）の研究や開発、利用に際して遵守すべき倫理的な原則をまとめたものである。",
+          "definitionVi": "Nguyên tắc ứng xử đạo đức dành cho cộng đồng nghiên cứu, phát triển và ứng dụng AI.",
+          "reading": "じんこうちのうがっかいりんりししん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "jsai-ethics-guidelines"
+      ]
+    },
+    {
+      "id": "social-acceptance-of-ai",
+      "order": 50,
+      "titleJa": "AIの社会的受容性",
+      "titleVi": "Mức độ chấp nhận AI của xã hội",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）が社会でどれだけ受け入れられているかを示す概念である。",
+      "summaryVi": "Mức độ xã hội tin tưởng, hiểu và sẵn sàng chấp nhận các ứng dụng trí tuệ nhân tạo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIの社会的受容性とは",
+          "vi": "Mức độ chấp nhận AI của xã hội là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）が社会でどれだけ受け入れられているかを示す概念である。これは、技術の理解や信頼、そして実際の利用に対する人々の意見や感情を反映している。例えば、AIによる自動運転車や顔認識技術が普及する中で、安全性やプライバシーへの懸念が高まることがある。このような懸念が払拭されることで、より多くの人々がAI技術を受け入れやすくなる。また、社会的受容性を高めるためには、透明性や倫理的配慮が重要であり、技術の発展とともにこれらの側面が討議されるべきである。AI技術が広がることで、生活の質向上に寄与するだけでなく、信頼の構築が未来への鍵となる。",
+          "vi": "Mức độ xã hội tin tưởng, hiểu và sẵn sàng chấp nhận các ứng dụng trí tuệ nhân tạo."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIの社会的受容性の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Minh bạch, an toàn và bảo vệ quyền riêng tư ảnh hưởng đến sự chấp nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIの社会的受容性",
+          "english": "Societal Acceptance of AI",
+          "vi": "Mức độ chấp nhận AI của xã hội",
+          "definitionJa": "人工知能（AI）が社会でどれだけ受け入れられているかを示す概念である。",
+          "definitionVi": "Mức độ xã hội tin tưởng, hiểu và sẵn sàng chấp nhận các ứng dụng trí tuệ nhân tạo.",
+          "reading": "えーあいのしゃかいてきじゅようせい"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "social-acceptance-of-ai"
+      ]
+    },
+    {
+      "id": "narrow-ai",
+      "order": 51,
+      "titleJa": "特化型AI",
+      "titleVi": "AI chuyên biệt",
+      "importance": "high",
+      "summaryJa": "特定の課題や分野に対応するために設計された人工知能のことを指す。",
+      "summaryVi": "AI được tối ưu cho một nhiệm vụ hoặc phạm vi hẹp, chẳng hạn nhận dạng hình ảnh y tế.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "特化型AIとは",
+          "vi": "AI chuyên biệt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の課題や分野に対応するために設計された人工知能のことを指す。一般的な人工知能とは異なり、特化型AIは特定のタスクに特化して最適化されており、その領域において高い精度を実現する。例えば、医療の分野では病気の診断を行う特化型AIがあり、画像データを解析して早期に異常を見つけることが可能である。また、顧客サービス分野では、チャットボットが特定の質問に対して迅速かつ適切に応える特化型AIとして活用されている。このように、特化型AIは様々な業界で効率を向上させるために利用されている。",
+          "vi": "AI được tối ưu cho một nhiệm vụ hoặc phạm vi hẹp, chẳng hạn nhận dạng hình ảnh y tế."
+        },
+        {
+          "type": "point",
+          "ja": "特化型AIは限定されたタスクを対象とし、汎用AIとは異なる。",
+          "vi": "特化型AI giỏi một nhóm tác vụ, không có năng lực tổng quát như con người."
+        }
+      ],
+      "terms": [
+        {
+          "term": "特化型AI",
+          "english": "Specialized AI",
+          "vi": "AI chuyên biệt",
+          "definitionJa": "特定の課題や分野に対応するために設計された人工知能のことを指す。",
+          "definitionVi": "AI được tối ưu cho một nhiệm vụ hoặc phạm vi hẹp, chẳng hạn nhận dạng hình ảnh y tế.",
+          "reading": "とっかがたえーあい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "narrow-ai"]
+    },
+    {
+      "id": "general-ai",
+      "order": 52,
+      "titleJa": "汎用AI",
+      "titleVi": "AI tổng quát",
+      "importance": "high",
+      "summaryJa": "人間のように幅広い知識や能力を持ち、さまざまなタスクを自律的に行うことができる人工知能を指す。",
+      "summaryVi": "Khái niệm AI có thể học và xử lý linh hoạt nhiều loại nhiệm vụ trí tuệ khác nhau.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "汎用AIとは",
+          "vi": "AI tổng quát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人間のように幅広い知識や能力を持ち、さまざまなタスクを自律的に行うことができる人工知能を指す。汎用AIは特定のタスクに特化した狭義のAIとは異なり、異なる分野や状況に応じて自ら学習し、適応できる柔軟性を持つことが期待される。例えば、ある自然言語処理を用いて人間と会話し、画像認識技術を使って写真を分析することができる。また、汎用AIは教育、医療、ビジネスなどさまざまな分野での応用が期待されており、将来的には人間の補助や代替としての役割も担う可能性がある。現在の技術では完全な汎用AIの実現には至っていないが、研究が進んでいる分野である。",
+          "vi": "Khái niệm AI có thể học và xử lý linh hoạt nhiều loại nhiệm vụ trí tuệ khác nhau."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：汎用AIの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "汎用AI khác AI chuyên biệt; không được coi mọi mô hình AI hiện tại là AGI hoàn chỉnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "汎用AI",
+          "english": "General AI",
+          "vi": "AI tổng quát",
+          "definitionJa": "人間のように幅広い知識や能力を持ち、さまざまなタスクを自律的に行うことができる人工知能を指す。",
+          "definitionVi": "Khái niệm AI có thể học và xử lý linh hoạt nhiều loại nhiệm vụ trí tuệ khác nhau.",
+          "reading": "はんようえーあい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "general-ai"]
+    },
+    {
+      "id": "frame-problem",
+      "order": 53,
+      "titleJa": "フレーム問題",
+      "titleVi": "Bài toán khung",
+      "importance": "high",
+      "summaryJa": "人工知能において、環境の変化を理解するための課題である。",
+      "summaryVi": "Vấn đề xác định những điều gì thay đổi và không thay đổi khi một hành động xảy ra trong môi trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フレーム問題とは",
+          "vi": "Bài toán khung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能において、環境の変化を理解するための課題である。具体的には、ある状態から別の状態に移行する際に、変わらない要素を正確に把握し、その影響を無視することが求められる。この問題は、AIが現実の世界を効果的にモデル化するための障壁となっている。例えば、ロボットが物体を移動させる際、周囲の他の物体や状況に対してどの情報を考慮し、どの情報を無視すべきかを正しく判断することが難しい。フレーム問題を克服することは、AIがより自然で柔軟な思考を実現するための重要なステップとなる。",
+          "vi": "Vấn đề xác định những điều gì thay đổi và không thay đổi khi một hành động xảy ra trong môi trường."
+        },
+        {
+          "type": "point",
+          "ja": "フレーム問題は、行動によって変化する事柄と変化しない事柄の扱いに関する問題。",
+          "vi": "Frame Problem liên quan biểu diễn hệ quả của hành động và thông tin liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フレーム問題",
+          "english": "Frame Problem",
+          "vi": "Bài toán khung",
+          "definitionJa": "人工知能において、環境の変化を理解するための課題である。",
+          "definitionVi": "Vấn đề xác định những điều gì thay đổi và không thay đổi khi một hành động xảy ra trong môi trường.",
+          "reading": "ふれーむもんだい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "frame-problem"]
+    },
+    {
+      "id": "symbol-grounding-problem",
+      "order": 54,
+      "titleJa": "シンボルグラウンディング問題",
+      "titleVi": "Bài toán gắn ký hiệu với thực tại",
+      "importance": "high",
+      "summaryJa": "人工知能が人間の言語や概念を理解する際に直面する課題である。",
+      "summaryVi": "Vấn đề làm thế nào ký hiệu và từ ngữ của AI có ý nghĩa gắn với đối tượng hoặc trải nghiệm thực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シンボルグラウンディング問題とは",
+          "vi": "Bài toán gắn ký hiệu với thực tại là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能が人間の言語や概念を理解する際に直面する課題である。具体的には、言葉やシンボルがどのようにして現実世界の具体的な事物や経験と結びつくかが問題となる。例えば、「犬」という言葉を持つAIが、実際の犬やその特性をどのように理解するかが焦点である。この問題は、AIが単なるシンボルの操作ではなく、実際の世界と関連付けて情報を処理する必要があることを示している。シンボルグラウンディング問題の解決は、より人間に近い知能を持つAIの実現に向けて重要な課題となっている。",
+          "vi": "Vấn đề làm thế nào ký hiệu và từ ngữ của AI có ý nghĩa gắn với đối tượng hoặc trải nghiệm thực."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：シンボルグラウンディング問題の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Symbol Grounding khác Frame Problem: một bên là ý nghĩa ký hiệu, một bên là hệ quả thay đổi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シンボルグラウンディング問題",
+          "english": "Symbol Grounding Problem",
+          "vi": "Bài toán gắn ký hiệu với thực tại",
+          "definitionJa": "人工知能が人間の言語や概念を理解する際に直面する課題である。",
+          "definitionVi": "Vấn đề làm thế nào ký hiệu và từ ngữ của AI có ý nghĩa gắn với đối tượng hoặc trải nghiệm thực.",
+          "reading": "しんぼるぐらうんでぃんぐもんだい"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "symbol-grounding-problem"
+      ]
+    },
+    {
+      "id": "ai-recognition",
+      "order": 55,
+      "titleJa": "AIによる認識",
+      "titleVi": "Nhận thức bằng AI",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）がデータを分析し、特定の情報やパターンを識別するプロセスである。",
+      "summaryVi": "AI phân tích dữ liệu để nhận dạng hình ảnh, âm thanh, vật thể hoặc mẫu thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIによる認識とは",
+          "vi": "Nhận thức bằng AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）がデータを分析し、特定の情報やパターンを識別するプロセスである。たとえば、画像認識では、AIが写真の中から特定の物体や顔を認識することができる。この技術は、スマートフォンの顔認証や自動運転車の周囲の物体の検知など、さまざまな分野で利用されている。また、音声認識においても、AIは話し手の言葉を理解し、テキストに変換することが可能であり、スマートスピーカーや音声アシスタントに応用されている。このように、日常生活や産業分野での自動化や効率化に寄与している。",
+          "vi": "AI phân tích dữ liệu để nhận dạng hình ảnh, âm thanh, vật thể hoặc mẫu thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIによる認識の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Nhận thức tập trung vào phát hiện và phân loại thông tin đầu vào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIによる認識",
+          "english": "AI Recognition",
+          "vi": "Nhận thức bằng AI",
+          "definitionJa": "人工知能（AI）がデータを分析し、特定の情報やパターンを識別するプロセスである。",
+          "definitionVi": "AI phân tích dữ liệu để nhận dạng hình ảnh, âm thanh, vật thể hoặc mẫu thông tin.",
+          "reading": "えーあいによるにんしき"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "ai-recognition"]
+    },
+    {
+      "id": "ai-automation",
+      "order": 56,
+      "titleJa": "AIによる自動化",
+      "titleVi": "Tự động hóa bằng AI",
+      "importance": "medium",
+      "summaryJa": "人工知能（AI）を利用して、業務やプロセスを自動的に行う仕組みである。",
+      "summaryVi": "Dùng AI để thực hiện hoặc hỗ trợ tự động các công việc vốn cần thao tác hay quyết định của con người.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIによる自動化とは",
+          "vi": "Tự động hóa bằng AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）を利用して、業務やプロセスを自動的に行う仕組みである。これにより、人間が手作業で行っていたタスクをAIが処理するため、効率的かつ迅速な成果が得られるようになる。例えば、顧客対応のチャットボットや、製造業におけるロボットによる組み立て作業などが挙げられる。このような自動化は、業務の労力軽減やコスト削減につながり、より創造的な業務に人間が集中できる環境を提供する。また、データ分析や予測などの高度な処理もAIによって行われ、意思決定をサポートする役割も果たしている。",
+          "vi": "Dùng AI để thực hiện hoặc hỗ trợ tự động các công việc vốn cần thao tác hay quyết định của con người."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIによる自動化の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "AI tự động hóa có thể bao gồm dự đoán và xử lý thông minh, không chỉ quy tắc cố định."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIによる自動化",
+          "english": "AI Automation",
+          "vi": "Tự động hóa bằng AI",
+          "definitionJa": "人工知能（AI）を利用して、業務やプロセスを自動的に行う仕組みである。",
+          "definitionVi": "Dùng AI để thực hiện hoặc hỗ trợ tự động các công việc vốn cần thao tác hay quyết định của con người.",
+          "reading": "えーあいによるじどうか"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "ai-automation"]
+    },
+    {
+      "id": "ai-assistant",
+      "order": 57,
+      "titleJa": "AIアシスタント",
+      "titleVi": "Trợ lý AI",
+      "importance": "medium",
+      "summaryJa": "人工知能を用いたプログラムやサービスであり、人間のリクエストに対して支援や情報を提供するものである。",
+      "summaryVi": "Chương trình dùng AI để hỗ trợ người dùng trả lời câu hỏi, tìm thông tin và thực hiện tác vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIアシスタントとは",
+          "vi": "Trợ lý AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能を用いたプログラムやサービスであり、人間のリクエストに対して支援や情報を提供するものである。音声認識や自然言語処理技術を使い、ユーザーが話しかけたり、テキストで入力したりすることで様々なタスクを行うことができる。具体的には、スケジュール管理、質問応答、情報検索、電子メールの整理など、日常生活をサポートする機能を持つ。代表的なAIアシスタントには、Google アシスタント、Amazon Alexa、AppleのSiriなどがあり、これらは家庭やビジネス環境で広く利用されている。また、AIアシスタントはユーザーの好みや習慣を学習し、よりパーソナライズされた体験を提供することが可能である。",
+          "vi": "Chương trình dùng AI để hỗ trợ người dùng trả lời câu hỏi, tìm thông tin và thực hiện tác vụ."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIアシスタントの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "AIアシスタント là ứng dụng hỗ trợ tương tác; không đồng nghĩa với toàn bộ 生成AI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIアシスタント",
+          "english": "AI Assistant",
+          "vi": "Trợ lý AI",
+          "definitionJa": "人工知能を用いたプログラムやサービスであり、人間のリクエストに対して支援や情報を提供するものである。",
+          "definitionVi": "Chương trình dùng AI để hỗ trợ người dùng trả lời câu hỏi, tìm thông tin và thực hiện tác vụ.",
+          "reading": "えーあいあしすたんと"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "ai-assistant"]
+    },
+    {
+      "id": "generative-ai",
+      "order": 58,
+      "titleJa": "生成AI",
+      "titleVi": "AI tạo sinh",
+      "importance": "high",
+      "summaryJa": "データを学習して新しい情報やコンテンツを自動的に生成する人工知能技術である。",
+      "summaryVi": "AI học từ dữ liệu để tạo nội dung mới như văn bản, hình ảnh, âm thanh hoặc mã nguồn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生成AIとは",
+          "vi": "AI tạo sinh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを学習して新しい情報やコンテンツを自動的に生成する人工知能技術である。画像、音声、テキストなど幅広い形式のコンテンツを創り出すことができ、例えば、物語や詩の執筆、絵画の制作、音楽の作曲などに利用される。また、生成AIは広告やマーケティング、デザイン、教育など様々な分野で活用されており、クリエイティブな作業のサポートや効率化を実現する。近年、生成AIは進化を遂げており、ユーザーの要望に応じたカスタマイズも可能になっている。この技術は、人間の創造性を引き出すツールとして注目されている。",
+          "vi": "AI học từ dữ liệu để tạo nội dung mới như văn bản, hình ảnh, âm thanh hoặc mã nguồn."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：生成AIの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "生成AI tập trung tạo nội dung; cần kiểm chứng vì có thể sinh thông tin sai."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生成AI",
+          "english": "Generative AI",
+          "vi": "AI tạo sinh",
+          "definitionJa": "データを学習して新しい情報やコンテンツを自動的に生成する人工知能技術である。",
+          "definitionVi": "AI học từ dữ liệu để tạo nội dung mới như văn bản, hình ảnh, âm thanh hoặc mã nguồn.",
+          "reading": "せいせいえーあい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "generative-ai"]
+    },
+    {
+      "id": "multimodal-ai",
+      "order": 59,
+      "titleJa": "マルチモーダルAI",
+      "titleVi": "AI đa phương thức",
+      "importance": "high",
+      "summaryJa": "異なる種類のデータを同時に処理し理解することができる人工知能の一形態である。",
+      "summaryVi": "AI xử lý hoặc kết hợp nhiều loại dữ liệu như văn bản, hình ảnh và âm thanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マルチモーダルAIとは",
+          "vi": "AI đa phương thức là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "異なる種類のデータを同時に処理し理解することができる人工知能の一形態である。例えば、テキスト、画像、音声などの情報を組み合わせて解析することで、より豊かな意味を理解したり、適切な応答を生成したりする。具体的には、画像を分析してその内容を説明するキャプション生成や、音声認識を用いて自然な対話を行うチャットボットなどがある。この技術は、ユーザーとのインタラクションをより直感的にし、さまざまなシチュエーションでの応用が期待されている。複数のデータ形式を生かすことで、より人間に近い理解を実現することを目指している。",
+          "vi": "AI xử lý hoặc kết hợp nhiều loại dữ liệu như văn bản, hình ảnh và âm thanh."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：マルチモーダルAIの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Multimodal nói về loại dữ liệu xử lý, khác Generative nói về chức năng tạo nội dung."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マルチモーダルAI",
+          "english": "Multimodal AI",
+          "vi": "AI đa phương thức",
+          "definitionJa": "異なる種類のデータを同時に処理し理解することができる人工知能の一形態である。",
+          "definitionVi": "AI xử lý hoặc kết hợp nhiều loại dữ liệu như văn bản, hình ảnh và âm thanh.",
+          "reading": "まるちもーだるえーあい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "multimodal-ai"]
+    },
+    {
+      "id": "randomness",
+      "order": 60,
+      "titleJa": "ランダム性",
+      "titleVi": "Tính ngẫu nhiên",
+      "importance": "medium",
+      "summaryJa": "予測ができないような不規則な変動や結果を指す概念である。",
+      "summaryVi": "Yếu tố không cố định được dùng trong lấy mẫu, huấn luyện hoặc sinh đầu ra để tạo tính đa dạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ランダム性とは",
+          "vi": "Tính ngẫu nhiên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "予測ができないような不規則な変動や結果を指す概念である。これは、特定のパターンや法則が見られない状態を意味し、特にAIの活用領域では重要な役割を果たす。例えば、機械学習においては、トレーニングデータを用いてモデルを学習させる際に、ランダム性を用いてデータのサンプリングを行うことがある。この手法により、より汎用的で強靱なモデルの構築が可能となる。また、生成モデルやゲームAIの分野においても、ランダム性を取り入れることで多様性のある出力を得ることができ、より自然な動作や反応を実現することができる。結果の予測や戦略の多様化を促進し、結果的にAIの機能を向上させる要素となっている。",
+          "vi": "Yếu tố không cố định được dùng trong lấy mẫu, huấn luyện hoặc sinh đầu ra để tạo tính đa dạng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ランダム性の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Tính ngẫu nhiên không tự bảo đảm mô hình chính xác hay công bằng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ランダム性",
+          "english": "Randomness",
+          "vi": "Tính ngẫu nhiên",
+          "definitionJa": "予測ができないような不規則な変動や結果を指す概念である。",
+          "definitionVi": "Yếu tố không cố định được dùng trong lấy mẫu, huấn luyện hoặc sinh đầu ra để tạo tính đa dạng.",
+          "reading": "らんだむせい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "randomness"]
+    },
+    {
+      "id": "explainable-ai",
+      "order": 61,
+      "titleJa": "説明可能なAI",
+      "titleVi": "AI có khả năng giải thích XAI",
+      "importance": "high",
+      "summaryJa": "AIの決定や行動の根拠を人間が理解できるように示す技術や手法のことである。",
+      "summaryVi": "Phương pháp giúp con người hiểu lý do hoặc yếu tố ảnh hưởng đến quyết định của AI.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "説明可能なAIとは",
+          "vi": "AI có khả năng giải thích XAI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AIの決定や行動の根拠を人間が理解できるように示す技術や手法のことである。AIがどのようにして判断を下したのかを説明することで、その信頼性や透明性が向上する。例えば、医療分野での診断支援AIが、特定の症状に基づいて出した診断結果の理由を明示することで、医師がその判断をより納得して受け入れることができるようになる。また、企業においても、AIの評価やフィードバックに対する説明が必要で、これにより従業員がAIの利用に対して安心感を持てるようになる。倫理的な使用を促進し、AI技術のさらなる普及を支える重要な要素である。",
+          "vi": "Phương pháp giúp con người hiểu lý do hoặc yếu tố ảnh hưởng đến quyết định của AI."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：説明可能なAIの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Explainable AI hướng tới tính minh bạch và khả năng giải thích kết quả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "説明可能なAI",
+          "english": "Explainable AI",
+          "vi": "AI có khả năng giải thích XAI",
+          "definitionJa": "AIの決定や行動の根拠を人間が理解できるように示す技術や手法のことである。",
+          "definitionVi": "Phương pháp giúp con người hiểu lý do hoặc yếu tố ảnh hưởng đến quyết định của AI.",
+          "reading": "せつめいかのうなえーあい"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "explainable-ai"]
+    },
+    {
+      "id": "human-in-the-loop",
+      "order": 62,
+      "titleJa": "ヒューマンインザループ",
+      "titleVi": "Con người tham gia vòng xử lý AI",
+      "importance": "high",
+      "summaryJa": "人工知能（AI）や機械学習のプロセスに人間が関与することを指す。",
+      "summaryVi": "Mô hình có người đánh giá, giám sát hoặc can thiệp vào các bước học và ra quyết định của AI.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ヒューマンインザループとは",
+          "vi": "Con người tham gia vòng xử lý AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能（AI）や機械学習のプロセスに人間が関与することを指す。これにより、AIシステムの判断や結果に人間の洞察や経験を加えることで、より精度の高い結果を得ることが可能になる。例えば、自動運転車の開発において、AIが運転する際に人間が状況を監視し、必要に応じて介入するケースが挙げられる。このように、人間がフィードバックを行うことで、AIは学習し、将来的により良い判断ができるようになる。この取り組みは特に、高度な判断や倫理的な配慮が求められる場面で重要で、AIの利用が安全で信頼性のあるものになる助けとなる。",
+          "vi": "Mô hình có người đánh giá, giám sát hoặc can thiệp vào các bước học và ra quyết định của AI."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ヒューマンインザループの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Human-in-the-Loop giữ vai trò phản hồi và kiểm soát của con người."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ヒューマンインザループ",
+          "english": "Human-in-the-Loop",
+          "vi": "Con người tham gia vòng xử lý AI",
+          "definitionJa": "人工知能（AI）や機械学習のプロセスに人間が関与することを指す。",
+          "definitionVi": "Mô hình có người đánh giá, giám sát hoặc can thiệp vào các bước học và ra quyết định của AI.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "human-in-the-loop"]
+    },
+    {
+      "id": "user-involvement-bias",
+      "order": 63,
+      "titleJa": "AI利用者の関与によるバイアス",
+      "titleVi": "Thiên lệch do người dùng AI tham gia",
+      "importance": "medium",
+      "summaryJa": "人工知能を利用する過程で、ユーザー自身が持つ意見や価値観がAIの結果に影響を及ぼす現象である。",
+      "summaryVi": "Thiên lệch xuất hiện khi lựa chọn, đánh giá hoặc tương tác của người dùng ảnh hưởng kết quả AI.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AI利用者の関与によるバイアスとは",
+          "vi": "Thiên lệch do người dùng AI tham gia là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能を利用する過程で、ユーザー自身が持つ意見や価値観がAIの結果に影響を及ぼす現象である。具体的には、ユーザーがデータを収集したり、モデルを選定する際の判断が、AIの学習結果に偏りを生じさせることがある。例えば、ある特定の情報を重視することで、それ以外の情報が過小評価される場合がある。このようなバイアスは、AIの決定が公平でない結果を導く原因となるため、注意が必要である。AIを効果的に運用するためには、データの選定や評価方法に多様性を持たせ、ユーザーが意識的に公平性を考えることが重要である。",
+          "vi": "Thiên lệch xuất hiện khi lựa chọn, đánh giá hoặc tương tác của người dùng ảnh hưởng kết quả AI."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AI利用者の関与によるバイアスの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Nguồn sai lệch có thể nằm ở hành vi con người, không chỉ thuật toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AI利用者の関与によるバイアス",
+          "english": "Bias Due to User Involvement in AI",
+          "vi": "Thiên lệch do người dùng AI tham gia",
+          "definitionJa": "人工知能を利用する過程で、ユーザー自身が持つ意見や価値観がAIの結果に影響を及ぼす現象である。",
+          "definitionVi": "Thiên lệch xuất hiện khi lựa chọn, đánh giá hoặc tương tác của người dùng ảnh hưởng kết quả AI.",
+          "reading": "えーあいりようしゃのかんよによるばいあす"
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "user-involvement-bias"]
+    },
+    {
+      "id": "algorithmic-bias",
+      "order": 64,
+      "titleJa": "アルゴリズムのバイアス",
+      "titleVi": "Thiên lệch thuật toán",
+      "importance": "high",
+      "summaryJa": "データやモデルの設計に起因して生じる偏りのことである。",
+      "summaryVi": "Kết quả AI bị lệch do dữ liệu, thiết kế hoặc cách huấn luyện mô hình, có thể gây bất công.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アルゴリズムのバイアスとは",
+          "vi": "Thiên lệch thuật toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データやモデルの設計に起因して生じる偏りのことである。これは、特定のグループや個人に対して不公平な結果をもたらすことがある。例えば、機械学習アルゴリズムが使用するデータが偏っている場合、その結果も偏ったものとなり、特定の人々に対して不利益をもたらす可能性がある。具体的には、ある顔認識システムが特定の人種や性別に対して高い精度を持つ一方で、他の人種や性別に対して低い精度を示すことがある。このような社会的な公平性に影響を与え、AIの導入に際して注意が必要である。技術者や研究者は、バイアスを減らす努力をすることが求められ、より公平なシステムを構築することが重要である。",
+          "vi": "Kết quả AI bị lệch do dữ liệu, thiết kế hoặc cách huấn luyện mô hình, có thể gây bất công."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：アルゴリズムのバイアスの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Cần xem xét dữ liệu huấn luyện, tiêu chí đánh giá và mức độ công bằng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アルゴリズムのバイアス",
+          "english": "Algorithmic Bias",
+          "vi": "Thiên lệch thuật toán",
+          "definitionJa": "データやモデルの設計に起因して生じる偏りのことである。",
+          "definitionVi": "Kết quả AI bị lệch do dữ liệu, thiết kế hoặc cách huấn luyện mô hình, có thể gây bất công.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "algorithmic-bias"]
+    },
+    {
+      "id": "ai-service-accountability",
+      "order": 65,
+      "titleJa": "AIサービスの責任論",
+      "titleVi": "Trách nhiệm đối với dịch vụ AI",
+      "importance": "medium",
+      "summaryJa": "人工知能を利用する際に発生する責任について議論する概念である。",
+      "summaryVi": "Vấn đề xác định nghĩa vụ và trách nhiệm của bên phát triển, vận hành và sử dụng khi AI gây hậu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIサービスの責任論とは",
+          "vi": "Trách nhiệm đối với dịch vụ AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人工知能を利用する際に発生する責任について議論する概念である。これには、AIを開発・運用する企業や人々が、AIの行動や判断がもたらす結果に対してどのように責任を持つべきかという問いが含まれる。特に、AIが自動的に行動する場合、問題や事故が発生したときに、誰がその責任を負うのかが重要な課題となる。例えば、自動運転車が事故を起こした場合、車の製造者、プログラマー、さらにはユーザーなど、複数の主体が責任を問われる可能性がある。このため、法律や倫理の枠組みを考慮し、責任の所在を明確にすることが求められる。信頼性や社会的受容性を確保するために、ますます重要なテーマである。",
+          "vi": "Vấn đề xác định nghĩa vụ và trách nhiệm của bên phát triển, vận hành và sử dụng khi AI gây hậu quả."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIサービスの責任論の目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Không mặc định AI tự chịu trách nhiệm pháp lý; phải xét vai trò các chủ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIサービスの責任論",
+          "english": "AI Service Accountability",
+          "vi": "Trách nhiệm đối với dịch vụ AI",
+          "definitionJa": "人工知能を利用する際に発生する責任について議論する概念である。",
+          "definitionVi": "Vấn đề xác định nghĩa vụ và trách nhiệm của bên phát triển, vận hành và sử dụng khi AI gây hậu quả.",
+          "reading": "えーあいさーびすのせきにんろん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "ai-service-accountability"
+      ]
+    },
+    {
+      "id": "deepfake",
+      "order": 66,
+      "titleJa": "ディープフェイク",
+      "titleVi": "Nội dung giả mạo bằng AI Deepfake",
+      "importance": "high",
+      "summaryJa": "AI技術を利用して作成された偽の映像や音声を指す。",
+      "summaryVi": "Hình ảnh, video hoặc âm thanh tổng hợp bằng AI khiến người xem nhầm là thật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ディープフェイクとは",
+          "vi": "Nội dung giả mạo bằng AI Deepfake là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AI技術を利用して作成された偽の映像や音声を指す。具体的には、機械学習の手法を用いて、ある人物の顔や声を別のコンテンツに合成することで、まるでその人物が発言や行動をしているかのように見せる技術である。この技術は、本来の人物が言っていないことをあたかも言っているように見せることができるため、情報の信頼性を揺るがす要因となる。そのため、ディープフェイクは悪用されるリスクが高く、例えば名誉毀損やフェイクニュースの拡散などの問題を引き起こす可能性がある。しかし一方で、映画やエンターテインメント業界では、新たな創造的表現の手段としても注目されており、倫理的な利用が求められる分野でもある。",
+          "vi": "Hình ảnh, video hoặc âm thanh tổng hợp bằng AI khiến người xem nhầm là thật."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ディープフェイクの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Deepfake có ứng dụng sáng tạo nhưng cũng gây rủi ro lừa đảo và tin giả."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ディープフェイク",
+          "english": "Deepfake",
+          "vi": "Nội dung giả mạo bằng AI Deepfake",
+          "definitionJa": "AI技術を利用して作成された偽の映像や音声を指す。",
+          "definitionVi": "Hình ảnh, video hoặc âm thanh tổng hợp bằng AI khiến người xem nhầm là thật.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "business-systems", "deepfake"]
+    },
+    {
+      "id": "ai-service-opt-out-policy",
+      "order": 67,
+      "titleJa": "AIサービスのオプトアウトポリシー",
+      "titleVi": "Chính sách từ chối sử dụng dữ liệu trong dịch vụ AI",
+      "importance": "high",
+      "summaryJa": "ユーザーがAIサービスに自分のデータの使用を拒否する権利を明示する規定である。",
+      "summaryVi": "Quy định cho phép người dùng lựa chọn không cho sử dụng dữ liệu của mình vào một mục đích AI nhất định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AIサービスのオプトアウトポリシーとは",
+          "vi": "Chính sách từ chối sử dụng dữ liệu trong dịch vụ AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ユーザーがAIサービスに自分のデータの使用を拒否する権利を明示する規定である。これにより、ユーザーは自分の個人情報がどのように利用されるかをコントロールできる。具体的には、AIサービスがユーザーのデータを学習や分析に使用することを望まない場合、オプトアウトすることが可能である。このポリシーは特にプライバシー保護が重要な現代において、倫理的な利用を促進するために必要不可欠なものである。また、オプトアウトの手続きは簡便であるべきで、ユーザーが容易に自分の意向を示せることが求められている。このような取り組みは、ユーザーの信頼を得るためにも重要である。",
+          "vi": "Quy định cho phép người dùng lựa chọn không cho sử dụng dữ liệu của mình vào một mục đích AI nhất định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AIサービスのオプトアウトポリシーの目的と特徴を理解し、関連する用語と区別する。",
+          "vi": "Opt-out là cơ chế từ chối; phạm vi quyền phụ thuộc chính sách và pháp luật áp dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AIサービスのオプトアウトポリシー",
+          "english": "AI Service Opt-Out Policy",
+          "vi": "Chính sách từ chối sử dụng dữ liệu trong dịch vụ AI",
+          "definitionJa": "ユーザーがAIサービスに自分のデータの使用を拒否する権利を明示する規定である。",
+          "definitionVi": "Quy định cho phép người dùng lựa chọn không cho sử dụng dữ liệu của mình vào một mục đích AI nhất định.",
+          "reading": "えーあいさーびすのおぷとあうとぽりしー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "business-systems",
+        "ai-service-opt-out-policy"
+      ]
+    }
+  ]
 }

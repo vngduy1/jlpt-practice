@@ -4,5 +4,773 @@
   "titleJa": "エンジニアリングシステム",
   "titleVi": "Hệ thống kỹ thuật",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "production-method",
+      "order": 1,
+      "titleJa": "生産方式",
+      "titleVi": "Phương thức sản xuất",
+      "importance": "medium",
+      "summaryJa": "製品の種類や需要に応じ、生産工程と作業の進め方を決める方式。JIT、リーン生産、セル生産などがある。",
+      "summaryVi": "Cách tổ chức quy trình và công việc sản xuất phù hợp với sản phẩm và nhu cầu; gồm JIT, sản xuất tinh gọn và sản xuất theo ô.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生産方式とは",
+          "vi": "Phương thức sản xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品の種類や需要に応じ、生産工程と作業の進め方を決める方式。JIT、リーン生産、セル生産などがある。",
+          "vi": "Cách tổ chức quy trình và công việc sản xuất phù hợp với sản phẩm và nhu cầu; gồm JIT, sản xuất tinh gọn và sản xuất theo ô."
+        },
+        {
+          "type": "point",
+          "ja": "生産方式は生産全体の進め方を指し、個々の装置の制御とは異なる。",
+          "vi": "Phương thức sản xuất nói về cách tổ chức toàn bộ quá trình, không phải điều khiển riêng một máy."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生産方式",
+          "english": "Production Method",
+          "vi": "Phương thức sản xuất",
+          "definitionJa": "製品の種類や需要に応じ、生産工程と作業の進め方を決める方式。JIT、リーン生産、セル生産などがある。",
+          "definitionVi": "Cách tổ chức quy trình và công việc sản xuất phù hợp với sản phẩm và nhu cầu; gồm JIT, sản xuất tinh gọn và sản xuất theo ô.",
+          "reading": "せいさんほうしき"
+        }
+      ],
+      "tags": ["business-industry", "engineering-systems", "production-method"]
+    },
+    {
+      "id": "production-line-configuration",
+      "order": 2,
+      "titleJa": "生産ラインの編成",
+      "titleVi": "Bố trí dây chuyền sản xuất",
+      "importance": "medium",
+      "summaryJa": "機械、作業者、工程の順序や配置を設計し、待ち時間や移動の無駄を減らすこと。",
+      "summaryVi": "Thiết kế thứ tự và vị trí máy móc, nhân công, công đoạn nhằm giảm thời gian chờ và di chuyển lãng phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生産ラインの編成とは",
+          "vi": "Bố trí dây chuyền sản xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機械、作業者、工程の順序や配置を設計し、待ち時間や移動の無駄を減らすこと。",
+          "vi": "Thiết kế thứ tự và vị trí máy móc, nhân công, công đoạn nhằm giảm thời gian chờ và di chuyển lãng phí."
+        },
+        {
+          "type": "point",
+          "ja": "工程間の作業時間の偏りを小さくするラインバランシングが重要。",
+          "vi": "Cân bằng thời gian giữa các công đoạn (line balancing) là trọng điểm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生産ラインの編成",
+          "english": "Production Line Configuration",
+          "vi": "Bố trí dây chuyền sản xuất",
+          "definitionJa": "機械、作業者、工程の順序や配置を設計し、待ち時間や移動の無駄を減らすこと。",
+          "definitionVi": "Thiết kế thứ tự và vị trí máy móc, nhân công, công đoạn nhằm giảm thời gian chờ và di chuyển lãng phí.",
+          "reading": "せいさんらいんのへんせい"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "production-line-configuration"
+      ]
+    },
+    {
+      "id": "jit",
+      "order": 3,
+      "titleJa": "JIT",
+      "titleVi": "Sản xuất đúng lúc",
+      "importance": "high",
+      "summaryJa": "必要なものを必要な時に必要な量だけ供給・生産し、仕掛品や在庫を抑える考え方。",
+      "summaryVi": "Chỉ cung ứng và sản xuất đúng loại, đúng thời điểm, đúng số lượng cần thiết để giảm hàng tồn kho.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JITとは",
+          "vi": "Sản xuất đúng lúc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "必要なものを必要な時に必要な量だけ供給・生産し、仕掛品や在庫を抑える考え方。",
+          "vi": "Chỉ cung ứng và sản xuất đúng loại, đúng thời điểm, đúng số lượng cần thiết để giảm hàng tồn kho."
+        },
+        {
+          "type": "point",
+          "ja": "在庫削減に有効だが、供給の遅延や停止に弱くなる場合がある。",
+          "vi": "Giảm tồn kho nhưng có thể dễ bị ảnh hưởng khi nguồn cung gián đoạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIT",
+          "english": "Just In Time",
+          "vi": "Sản xuất đúng lúc",
+          "definitionJa": "必要なものを必要な時に必要な量だけ供給・生産し、仕掛品や在庫を抑える考え方。",
+          "definitionVi": "Chỉ cung ứng và sản xuất đúng loại, đúng thời điểm, đúng số lượng cần thiết để giảm hàng tồn kho.",
+          "reading": "じっと"
+        }
+      ],
+      "tags": ["business-industry", "engineering-systems", "jit"]
+    },
+    {
+      "id": "numerical-control",
+      "order": 4,
+      "titleJa": "NC",
+      "titleVi": "Điều khiển số",
+      "importance": "high",
+      "summaryJa": "数値で指定した位置、速度、加工手順などに従って工作機械を制御する技術。",
+      "summaryVi": "Kỹ thuật điều khiển máy gia công bằng các chỉ thị số như vị trí, tốc độ và trình tự gia công.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "NCとは",
+          "vi": "Điều khiển số là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "数値で指定した位置、速度、加工手順などに従って工作機械を制御する技術。",
+          "vi": "Kỹ thuật điều khiển máy gia công bằng các chỉ thị số như vị trí, tốc độ và trình tự gia công."
+        },
+        {
+          "type": "point",
+          "ja": "NCは数値制御、CNCはコンピュータによる数値制御。",
+          "vi": "NC là điều khiển số; CNC là điều khiển số bằng máy tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "NC",
+          "english": "Numerical Control",
+          "vi": "Điều khiển số",
+          "definitionJa": "数値で指定した位置、速度、加工手順などに従って工作機械を制御する技術。",
+          "definitionVi": "Kỹ thuật điều khiển máy gia công bằng các chỉ thị số như vị trí, tốc độ và trình tự gia công.",
+          "reading": "えぬしー"
+        }
+      ],
+      "tags": ["business-industry", "engineering-systems", "numerical-control"]
+    },
+    {
+      "id": "automatic-monitoring-device",
+      "order": 5,
+      "titleJa": "自動監視装置",
+      "titleVi": "Thiết bị giám sát tự động",
+      "importance": "medium",
+      "summaryJa": "センサーで設備の温度、圧力、稼働状態などを測定し、異常を検知・通知する装置。",
+      "summaryVi": "Thiết bị dùng cảm biến đo nhiệt độ, áp suất và tình trạng hoạt động để phát hiện, cảnh báo bất thường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動監視装置とは",
+          "vi": "Thiết bị giám sát tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサーで設備の温度、圧力、稼働状態などを測定し、異常を検知・通知する装置。",
+          "vi": "Thiết bị dùng cảm biến đo nhiệt độ, áp suất và tình trạng hoạt động để phát hiện, cảnh báo bất thường."
+        },
+        {
+          "type": "point",
+          "ja": "監視は状態の把握が中心であり、自動制御とは役割が異なる。",
+          "vi": "Giám sát tập trung theo dõi trạng thái; khác với tự động điều khiển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動監視装置",
+          "english": "Automatic Monitoring Device",
+          "vi": "Thiết bị giám sát tự động",
+          "definitionJa": "センサーで設備の温度、圧力、稼働状態などを測定し、異常を検知・通知する装置。",
+          "definitionVi": "Thiết bị dùng cảm biến đo nhiệt độ, áp suất và tình trạng hoạt động để phát hiện, cảnh báo bất thường.",
+          "reading": "じどうかんしそうち"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "automatic-monitoring-device"
+      ]
+    },
+    {
+      "id": "automated-guided-vehicle",
+      "order": 6,
+      "titleJa": "無人搬送車",
+      "titleVi": "Xe vận chuyển tự động (AGV)",
+      "importance": "medium",
+      "summaryJa": "工場や倉庫で材料や製品を無人で運ぶ車両。誘導経路などに沿って走行する。",
+      "summaryVi": "Xe vận chuyển vật tư và sản phẩm không cần người lái trong nhà máy, kho, thường theo tuyến dẫn hướng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "無人搬送車とは",
+          "vi": "Xe vận chuyển tự động (AGV) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "工場や倉庫で材料や製品を無人で運ぶ車両。誘導経路などに沿って走行する。",
+          "vi": "Xe vận chuyển vật tư và sản phẩm không cần người lái trong nhà máy, kho, thường theo tuyến dẫn hướng."
+        },
+        {
+          "type": "point",
+          "ja": "AGVは搬送の自動化に使う。自律走行型のAMRとは区別する。",
+          "vi": "AGV tự động vận chuyển theo đường dẫn; phân biệt với AMR tự định hướng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "無人搬送車",
+          "english": "Automated Guided Vehicle",
+          "vi": "Xe vận chuyển tự động (AGV)",
+          "definitionJa": "工場や倉庫で材料や製品を無人で運ぶ車両。誘導経路などに沿って走行する。",
+          "definitionVi": "Xe vận chuyển vật tư và sản phẩm không cần người lái trong nhà máy, kho, thường theo tuyến dẫn hướng.",
+          "reading": "むじんはんそうしゃ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "automated-guided-vehicle"
+      ]
+    },
+    {
+      "id": "automated-warehouse",
+      "order": 7,
+      "titleJa": "自動倉庫",
+      "titleVi": "Kho tự động",
+      "importance": "medium",
+      "summaryJa": "保管場所の管理、入庫、出庫、搬送などを機械と情報システムで自動化した倉庫。",
+      "summaryVi": "Kho tự động hóa quản lý vị trí lưu trữ, nhập kho, xuất kho và vận chuyển bằng thiết bị và hệ thống thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動倉庫とは",
+          "vi": "Kho tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "保管場所の管理、入庫、出庫、搬送などを機械と情報システムで自動化した倉庫。",
+          "vi": "Kho tự động hóa quản lý vị trí lưu trữ, nhập kho, xuất kho và vận chuyển bằng thiết bị và hệ thống thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "自動倉庫は保管・入出庫を扱い、AGVは主に搬送を担う。",
+          "vi": "Kho tự động quản lý lưu trữ và nhập/xuất; AGV chủ yếu vận chuyển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動倉庫",
+          "english": "Automated Warehouse",
+          "vi": "Kho tự động",
+          "definitionJa": "保管場所の管理、入庫、出庫、搬送などを機械と情報システムで自動化した倉庫。",
+          "definitionVi": "Kho tự động hóa quản lý vị trí lưu trữ, nhập kho, xuất kho và vận chuyển bằng thiết bị và hệ thống thông tin.",
+          "reading": "じどうそうこ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "automated-warehouse"
+      ]
+    },
+    {
+      "id": "factory-automation-system",
+      "order": 8,
+      "titleJa": "FAシステム",
+      "titleVi": "Hệ thống tự động hóa nhà máy",
+      "importance": "high",
+      "summaryJa": "製造設備、ロボット、センサー、制御装置などを組み合わせ、工場の生産作業を自動化するシステム。",
+      "summaryVi": "Hệ thống kết hợp thiết bị sản xuất, robot, cảm biến và bộ điều khiển để tự động hóa hoạt động nhà máy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FAシステムとは",
+          "vi": "Hệ thống tự động hóa nhà máy là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製造設備、ロボット、センサー、制御装置などを組み合わせ、工場の生産作業を自動化するシステム。",
+          "vi": "Hệ thống kết hợp thiết bị sản xuất, robot, cảm biến và bộ điều khiển để tự động hóa hoạt động nhà máy."
+        },
+        {
+          "type": "point",
+          "ja": "原文の読み「いんしぶんせきほうしすてむ」は用語と一致しないため訂正した。",
+          "vi": "Nguồn ghi sai cách đọc; sử dụng えふえーしすてむ cho FAシステム."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FAシステム",
+          "english": "Factory Automation",
+          "vi": "Hệ thống tự động hóa nhà máy",
+          "definitionJa": "製造設備、ロボット、センサー、制御装置などを組み合わせ、工場の生産作業を自動化するシステム。",
+          "definitionVi": "Hệ thống kết hợp thiết bị sản xuất, robot, cảm biến và bộ điều khiển để tự động hóa hoạt động nhà máy.",
+          "reading": "えふえーしすてむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "factory-automation-system"
+      ]
+    },
+    {
+      "id": "computer-aided-planning",
+      "order": 9,
+      "titleJa": "CAP",
+      "titleVi": "Lập kế hoạch có máy tính hỗ trợ",
+      "importance": "medium",
+      "summaryJa": "コンピュータを利用して生産量、日程、設備や資源の配分などの計画を支援する仕組み。",
+      "summaryVi": "Sử dụng máy tính hỗ trợ lập kế hoạch sản lượng, lịch trình, thiết bị và phân bổ nguồn lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CAPとは",
+          "vi": "Lập kế hoạch có máy tính hỗ trợ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータを利用して生産量、日程、設備や資源の配分などの計画を支援する仕組み。",
+          "vi": "Sử dụng máy tính hỗ trợ lập kế hoạch sản lượng, lịch trình, thiết bị và phân bổ nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "CAPは計画全般の支援。CAPPは特に製造工程の計画を扱う。",
+          "vi": "CAP hỗ trợ lập kế hoạch chung; CAPP tập trung lập kế hoạch quy trình gia công."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAP",
+          "english": "Computer-Aided Planning",
+          "vi": "Lập kế hoạch có máy tính hỗ trợ",
+          "definitionJa": "コンピュータを利用して生産量、日程、設備や資源の配分などの計画を支援する仕組み。",
+          "definitionVi": "Sử dụng máy tính hỗ trợ lập kế hoạch sản lượng, lịch trình, thiết bị và phân bổ nguồn lực.",
+          "reading": "きゃっぷ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-aided-planning"
+      ]
+    },
+    {
+      "id": "computer-aided-process-planning",
+      "order": 10,
+      "titleJa": "CAPP",
+      "titleVi": "Lập kế hoạch quy trình gia công có máy tính hỗ trợ",
+      "importance": "medium",
+      "summaryJa": "加工順序、使用工具、設備、加工条件などの工程設計をコンピュータで支援する技術。",
+      "summaryVi": "Công nghệ dùng máy tính hỗ trợ xác định thứ tự gia công, dụng cụ, thiết bị và điều kiện gia công.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CAPPとは",
+          "vi": "Lập kế hoạch quy trình gia công có máy tính hỗ trợ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "加工順序、使用工具、設備、加工条件などの工程設計をコンピュータで支援する技術。",
+          "vi": "Công nghệ dùng máy tính hỗ trợ xác định thứ tự gia công, dụng cụ, thiết bị và điều kiện gia công."
+        },
+        {
+          "type": "point",
+          "ja": "CADは設計、CAPPは工程計画、CAMは製造支援。",
+          "vi": "CAD thiết kế; CAPP lập quy trình; CAM hỗ trợ chế tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAPP",
+          "english": "Computer Aided Process Planning",
+          "vi": "Lập kế hoạch quy trình gia công có máy tính hỗ trợ",
+          "definitionJa": "加工順序、使用工具、設備、加工条件などの工程設計をコンピュータで支援する技術。",
+          "definitionVi": "Công nghệ dùng máy tính hỗ trợ xác định thứ tự gia công, dụng cụ, thiết bị và điều kiện gia công.",
+          "reading": "しーえーぴーぴー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-aided-process-planning"
+      ]
+    },
+    {
+      "id": "material-requirements-planning",
+      "order": 11,
+      "titleJa": "MRP",
+      "titleVi": "Hoạch định nhu cầu vật tư",
+      "importance": "high",
+      "summaryJa": "生産計画、部品表、在庫情報から、必要な資材の種類・数量・時期を計算する手法。",
+      "summaryVi": "Phương pháp tính loại, số lượng và thời điểm cần vật tư từ kế hoạch sản xuất, định mức nguyên vật liệu và tồn kho.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MRPとは",
+          "vi": "Hoạch định nhu cầu vật tư là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "生産計画、部品表、在庫情報から、必要な資材の種類・数量・時期を計算する手法。",
+          "vi": "Phương pháp tính loại, số lượng và thời điểm cần vật tư từ kế hoạch sản xuất, định mức nguyên vật liệu và tồn kho."
+        },
+        {
+          "type": "point",
+          "ja": "MRPの主要入力は生産計画・BOM・在庫記録。ERPは企業資源をより広く統合する。",
+          "vi": "Đầu vào quan trọng: kế hoạch sản xuất, BOM, hồ sơ tồn kho; ERP có phạm vi toàn doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MRP",
+          "english": "Material Requirements Planning",
+          "vi": "Hoạch định nhu cầu vật tư",
+          "definitionJa": "生産計画、部品表、在庫情報から、必要な資材の種類・数量・時期を計算する手法。",
+          "definitionVi": "Phương pháp tính loại, số lượng và thời điểm cần vật tư từ kế hoạch sản xuất, định mức nguyên vật liệu và tồn kho.",
+          "reading": "えむあーるぴー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "material-requirements-planning"
+      ]
+    },
+    {
+      "id": "flexible-manufacturing-system",
+      "order": 12,
+      "titleJa": "FMS",
+      "titleVi": "Hệ thống sản xuất linh hoạt",
+      "importance": "high",
+      "summaryJa": "複数の加工設備、搬送装置、制御システムを連携させ、多品種の製品を柔軟に製造する仕組み。",
+      "summaryVi": "Hệ thống kết nối nhiều máy gia công, thiết bị vận chuyển và điều khiển để sản xuất linh hoạt nhiều loại sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FMSとは",
+          "vi": "Hệ thống sản xuất linh hoạt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の加工設備、搬送装置、制御システムを連携させ、多品種の製品を柔軟に製造する仕組み。",
+          "vi": "Hệ thống kết nối nhiều máy gia công, thiết bị vận chuyển và điều khiển để sản xuất linh hoạt nhiều loại sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "FMSは複数のセルや設備を統合するシステムで、FMCより広い概念。",
+          "vi": "FMS có phạm vi rộng hơn FMC, thường tích hợp nhiều ô sản xuất và thiết bị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FMS",
+          "english": "Flexible Manufacturing System",
+          "vi": "Hệ thống sản xuất linh hoạt",
+          "definitionJa": "複数の加工設備、搬送装置、制御システムを連携させ、多品種の製品を柔軟に製造する仕組み。",
+          "definitionVi": "Hệ thống kết nối nhiều máy gia công, thiết bị vận chuyển và điều khiển để sản xuất linh hoạt nhiều loại sản phẩm.",
+          "reading": "えふえむえす"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "flexible-manufacturing-system"
+      ]
+    },
+    {
+      "id": "flexible-manufacturing-cell",
+      "order": 13,
+      "titleJa": "FMC",
+      "titleVi": "Ô sản xuất linh hoạt",
+      "importance": "high",
+      "summaryJa": "工作機械やロボットなどを組み合わせ、限られた範囲の加工を柔軟に行う製造セル。",
+      "summaryVi": "Ô sản xuất kết hợp máy gia công và robot để linh hoạt xử lý một nhóm công đoạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "FMCとは",
+          "vi": "Ô sản xuất linh hoạt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "工作機械やロボットなどを組み合わせ、限られた範囲の加工を柔軟に行う製造セル。",
+          "vi": "Ô sản xuất kết hợp máy gia công và robot để linh hoạt xử lý một nhóm công đoạn."
+        },
+        {
+          "type": "point",
+          "ja": "FMCは製造セル単位、FMSは複数セルなどを含む製造システム全体。",
+          "vi": "FMC là một ô sản xuất; FMS là hệ thống rộng hơn gồm nhiều ô hoặc thiết bị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "FMC",
+          "english": "Flexible Manufacturing Cell",
+          "vi": "Ô sản xuất linh hoạt",
+          "definitionJa": "工作機械やロボットなどを組み合わせ、限られた範囲の加工を柔軟に行う製造セル。",
+          "definitionVi": "Ô sản xuất kết hợp máy gia công và robot để linh hoạt xử lý một nhóm công đoạn.",
+          "reading": "えふえむしー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "flexible-manufacturing-cell"
+      ]
+    },
+    {
+      "id": "productivity-metrics",
+      "order": 14,
+      "titleJa": "生産性指標",
+      "titleVi": "Chỉ số năng suất",
+      "importance": "medium",
+      "summaryJa": "投入した労働時間、資本、材料などに対して得られた産出量や付加価値を測る指標。",
+      "summaryVi": "Chỉ số đo sản lượng hoặc giá trị gia tăng tạo ra trên nguồn lực đầu vào như giờ công, vốn và vật tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "生産性指標とは",
+          "vi": "Chỉ số năng suất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "投入した労働時間、資本、材料などに対して得られた産出量や付加価値を測る指標。",
+          "vi": "Chỉ số đo sản lượng hoặc giá trị gia tăng tạo ra trên nguồn lực đầu vào như giờ công, vốn và vật tư."
+        },
+        {
+          "type": "point",
+          "ja": "基本は「生産性＝産出量÷投入量」。",
+          "vi": "Công thức cơ bản: Năng suất = Đầu ra / Đầu vào."
+        }
+      ],
+      "terms": [
+        {
+          "term": "生産性指標",
+          "english": "Productivity Metrics",
+          "vi": "Chỉ số năng suất",
+          "definitionJa": "投入した労働時間、資本、材料などに対して得られた産出量や付加価値を測る指標。",
+          "definitionVi": "Chỉ số đo sản lượng hoặc giá trị gia tăng tạo ra trên nguồn lực đầu vào như giờ công, vốn và vật tư.",
+          "reading": "せいさんせいしひょう"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "productivity-metrics"
+      ]
+    },
+    {
+      "id": "computer-aided-design",
+      "order": 15,
+      "titleJa": "CAD",
+      "titleVi": "Thiết kế có máy tính hỗ trợ",
+      "importance": "high",
+      "summaryJa": "コンピュータで製品の図面や三次元モデルを作成・編集する設計支援システム。",
+      "summaryVi": "Hệ thống hỗ trợ tạo, chỉnh sửa bản vẽ và mô hình 3D sản phẩm bằng máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CADとは",
+          "vi": "Thiết kế có máy tính hỗ trợ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータで製品の図面や三次元モデルを作成・編集する設計支援システム。",
+          "vi": "Hệ thống hỗ trợ tạo, chỉnh sửa bản vẽ và mô hình 3D sản phẩm bằng máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "CAD＝設計、CAE＝解析、CAM＝製造。",
+          "vi": "CAD = thiết kế; CAE = phân tích mô phỏng; CAM = chế tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAD",
+          "english": "Computer-Aided Design",
+          "vi": "Thiết kế có máy tính hỗ trợ",
+          "definitionJa": "コンピュータで製品の図面や三次元モデルを作成・編集する設計支援システム。",
+          "definitionVi": "Hệ thống hỗ trợ tạo, chỉnh sửa bản vẽ và mô hình 3D sản phẩm bằng máy tính.",
+          "reading": "しーえーでぃー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-aided-design"
+      ]
+    },
+    {
+      "id": "computer-aided-manufacturing",
+      "order": 16,
+      "titleJa": "CAM",
+      "titleVi": "Chế tạo có máy tính hỗ trợ",
+      "importance": "high",
+      "summaryJa": "コンピュータで加工手順や工具経路などを作成し、製造設備の稼働を支援するシステム。",
+      "summaryVi": "Hệ thống tạo quy trình gia công và đường chạy dao, hỗ trợ vận hành máy chế tạo bằng máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CAMとは",
+          "vi": "Chế tạo có máy tính hỗ trợ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータで加工手順や工具経路などを作成し、製造設備の稼働を支援するシステム。",
+          "vi": "Hệ thống tạo quy trình gia công và đường chạy dao, hỗ trợ vận hành máy chế tạo bằng máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "CADデータから加工用データを生成し、NC工作機械などで利用する。",
+          "vi": "Dữ liệu CAD có thể được chuyển thành dữ liệu gia công cho máy NC."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAM",
+          "english": "Computer-Aided Manufacturing",
+          "vi": "Chế tạo có máy tính hỗ trợ",
+          "definitionJa": "コンピュータで加工手順や工具経路などを作成し、製造設備の稼働を支援するシステム。",
+          "definitionVi": "Hệ thống tạo quy trình gia công và đường chạy dao, hỗ trợ vận hành máy chế tạo bằng máy tính.",
+          "reading": "きゃむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-aided-manufacturing"
+      ]
+    },
+    {
+      "id": "computer-aided-engineering",
+      "order": 17,
+      "titleJa": "CAE",
+      "titleVi": "Kỹ thuật phân tích mô phỏng có máy tính hỗ trợ",
+      "importance": "high",
+      "summaryJa": "コンピュータによる構造、熱、流体などの解析・シミュレーションで設計の妥当性を検証する技術。",
+      "summaryVi": "Công nghệ kiểm chứng thiết kế bằng mô phỏng, phân tích kết cấu, nhiệt, dòng chảy trên máy tính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CAEとは",
+          "vi": "Kỹ thuật phân tích mô phỏng có máy tính hỗ trợ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "コンピュータによる構造、熱、流体などの解析・シミュレーションで設計の妥当性を検証する技術。",
+          "vi": "Công nghệ kiểm chứng thiết kế bằng mô phỏng, phân tích kết cấu, nhiệt, dòng chảy trên máy tính."
+        },
+        {
+          "type": "point",
+          "ja": "実物試作前に問題を発見し、試作回数や費用を減らせる。",
+          "vi": "Phát hiện lỗi trước khi chế tạo mẫu thực, giảm số lần thử nghiệm và chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CAE",
+          "english": "Computer Aided Engineering",
+          "vi": "Kỹ thuật phân tích mô phỏng có máy tính hỗ trợ",
+          "definitionJa": "コンピュータによる構造、熱、流体などの解析・シミュレーションで設計の妥当性を検証する技術。",
+          "definitionVi": "Công nghệ kiểm chứng thiết kế bằng mô phỏng, phân tích kết cấu, nhiệt, dòng chảy trên máy tính.",
+          "reading": "しーえーいー"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-aided-engineering"
+      ]
+    },
+    {
+      "id": "product-data-management",
+      "order": 18,
+      "titleJa": "PDM",
+      "titleVi": "Quản lý dữ liệu sản phẩm",
+      "importance": "high",
+      "summaryJa": "設計図、仕様書、部品表、改訂履歴などの製品データを一元管理する仕組み。",
+      "summaryVi": "Hệ thống quản lý tập trung bản vẽ, đặc tả, BOM và lịch sử phiên bản của sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PDMとは",
+          "vi": "Quản lý dữ liệu sản phẩm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "設計図、仕様書、部品表、改訂履歴などの製品データを一元管理する仕組み。",
+          "vi": "Hệ thống quản lý tập trung bản vẽ, đặc tả, BOM và lịch sử phiên bản của sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "PDMは製品データの管理。PLMは製品ライフサイクル全体を対象とする。",
+          "vi": "PDM quản lý dữ liệu sản phẩm; PLM bao quát toàn bộ vòng đời sản phẩm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PDM",
+          "english": "Product Data Management",
+          "vi": "Quản lý dữ liệu sản phẩm",
+          "definitionJa": "設計図、仕様書、部品表、改訂履歴などの製品データを一元管理する仕組み。",
+          "definitionVi": "Hệ thống quản lý tập trung bản vẽ, đặc tả, BOM và lịch sử phiên bản của sản phẩm.",
+          "reading": "ぴーでぃーえむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "product-data-management"
+      ]
+    },
+    {
+      "id": "computer-integrated-manufacturing",
+      "order": 19,
+      "titleJa": "CIM",
+      "titleVi": "Sản xuất tích hợp bằng máy tính",
+      "importance": "high",
+      "summaryJa": "設計、生産計画、製造、検査、在庫管理などをコンピュータと情報ネットワークで統合する考え方・仕組み。",
+      "summaryVi": "Cách tổ chức tích hợp thiết kế, lập kế hoạch, sản xuất, kiểm tra và quản lý tồn kho bằng máy tính và mạng thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CIMとは",
+          "vi": "Sản xuất tích hợp bằng máy tính là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "設計、生産計画、製造、検査、在庫管理などをコンピュータと情報ネットワークで統合する考え方・仕組み。",
+          "vi": "Cách tổ chức tích hợp thiết kế, lập kế hoạch, sản xuất, kiểm tra và quản lý tồn kho bằng máy tính và mạng thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "原文の「Common Information Model」は別分野のCIM。FEのエンジニアリングシステムでは「Computer Integrated Manufacturing」を用いる。",
+          "vi": "Nguồn nhầm sang Common Information Model (lĩnh vực quản trị CNTT); trong FE phần sản xuất, CIM là Computer Integrated Manufacturing."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CIM",
+          "english": "Computer Integrated Manufacturing",
+          "vi": "Sản xuất tích hợp bằng máy tính",
+          "definitionJa": "設計、生産計画、製造、検査、在庫管理などをコンピュータと情報ネットワークで統合する考え方・仕組み。",
+          "definitionVi": "Cách tổ chức tích hợp thiết kế, lập kế hoạch, sản xuất, kiểm tra và quản lý tồn kho bằng máy tính và mạng thông tin.",
+          "reading": "しーあいえむ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "engineering-systems",
+        "computer-integrated-manufacturing"
+      ]
+    }
+  ]
 }

@@ -4,5 +4,3267 @@
   "titleJa": "知的財産権",
   "titleVi": "Quyền sở hữu trí tuệ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "corporate-philosophy",
+      "order": 1,
+      "titleJa": "企業理念",
+      "titleVi": "Triết lý doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業の根本的な考え方や価値観を示すものである。",
+      "summaryVi": "Hệ giá trị, lý do tồn tại và nguyên tắc chỉ đạo mọi hoạt động, quyết định của doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "企業理念とは",
+          "vi": "Triết lý doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の根本的な考え方や価値観を示すものである。これは、企業の存在意義や目的、経営方針を明確にするものであり、全ての活動の指針となる。例えば、企業が「顧客第一」を掲げる場合、全ての業務は顧客の満足を最優先に考えることが求められる。また、社会貢献や環境保護を重視する企業理念も多く、これに基づいて行動することで、企業のブランドイメージや社員の意識向上にも寄与する。企業文化を形成し、経営資源の共有や意思決定においても重要な役割を果たすものである。",
+          "vi": "Hệ giá trị, lý do tồn tại và nguyên tắc chỉ đạo mọi hoạt động, quyết định của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：企業理念の定義、目的と関連用語との違いを確認する。",
+          "vi": "Phân biệt triết lý doanh nghiệp (giá trị nền tảng) với mục tiêu kinh doanh (kết quả cụ thể)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "企業理念",
+          "english": "Corporate Philosophy",
+          "vi": "Triết lý doanh nghiệp",
+          "definitionJa": "企業の根本的な考え方や価値観を示すものである。",
+          "definitionVi": "Hệ giá trị, lý do tồn tại và nguyên tắc chỉ đạo mọi hoạt động, quyết định của doanh nghiệp.",
+          "reading": "きぎょうりねん"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-philosophy"
+      ]
+    },
+    {
+      "id": "csr",
+      "order": 2,
+      "titleJa": "企業の社会的責任",
+      "titleVi": "Trách nhiệm xã hội của doanh nghiệp (CSR)",
+      "importance": "high",
+      "summaryJa": "企業が社会に対する責任を果たすことを指す。",
+      "summaryVi": "Doanh nghiệp chịu trách nhiệm với xã hội, môi trường, nhân viên và các bên liên quan, không chỉ theo đuổi lợi nhuận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "企業の社会的責任とは",
+          "vi": "Trách nhiệm xã hội của doanh nghiệp (CSR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が社会に対する責任を果たすことを指す。この概念は、単に利益を追求するだけでなく、環境保護や地域社会の発展、従業員の福祉に配慮することが求められる。例えば、企業が環境にやさしい製品を生産したり、地域の教育支援を行ったりすることが挙げられる。CSRは、企業のイメージ向上にも寄与し、消費者からの信頼を得る要素となる。また、社員のモチベーション向上や、取引先からの評価にも好影響を及ぼすため、企業にとって重要な経営戦略の一部となっている。これは持続可能な発展を実現するために欠かせない考え方である。",
+          "vi": "Doanh nghiệp chịu trách nhiệm với xã hội, môi trường, nhân viên và các bên liên quan, không chỉ theo đuổi lợi nhuận."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：企業の社会的責任の定義、目的と関連用語との違いを確認する。",
+          "vi": "CSR bao gồm môi trường, lao động, cộng đồng và đạo đức kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "企業の社会的責任",
+          "english": "Corporate Social Responsibility",
+          "vi": "Trách nhiệm xã hội của doanh nghiệp (CSR)",
+          "definitionJa": "企業が社会に対する責任を果たすことを指す。",
+          "definitionVi": "Doanh nghiệp chịu trách nhiệm với xã hội, môi trường, nhân viên và các bên liên quan, không chỉ theo đuổi lợi nhuận.",
+          "reading": "きぎょうのしゃかいてきせきにん"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "csr"]
+    },
+    {
+      "id": "green-it",
+      "order": 3,
+      "titleJa": "グリーンIT",
+      "titleVi": "CNTT xanh (Green IT)",
+      "importance": "medium",
+      "summaryJa": "IT関連の活動において環境負荷を低減することを目指す取り組みである。",
+      "summaryVi": "Giảm tác động môi trường của hoạt động CNTT qua tiết kiệm điện, ảo hóa máy chủ, tái chế thiết bị và vận hành trung tâm dữ liệu hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グリーンITとは",
+          "vi": "CNTT xanh (Green IT) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IT関連の活動において環境負荷を低減することを目指す取り組みである。具体的には、エネルギー効率の良い設備や、リサイクル可能な資材の使用、さらには省エネ技術を活用したデータセンターの運用などが含まれる。例えば、エネルギーを節約するための仮想化技術を用いることで、サーバの数を減らすことができ、結果として電力消費や冷却にかかるコストの削減に寄与する。また、環境に配慮した企業活動を行うことで、企業のブランド価値向上やコスト削減にもつながるため、持続可能な経営を実現するための戦略としても注目されている。",
+          "vi": "Giảm tác động môi trường của hoạt động CNTT qua tiết kiệm điện, ảo hóa máy chủ, tái chế thiết bị và vận hành trung tâm dữ liệu hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：グリーンITの定義、目的と関連用語との違いを確認する。",
+          "vi": "Phân biệt giảm tác động của CNTT với dùng CNTT để giảm tác động môi trường trong các ngành khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グリーンIT",
+          "english": "Green IT",
+          "vi": "CNTT xanh (Green IT)",
+          "definitionJa": "IT関連の活動において環境負荷を低減することを目指す取り組みである。",
+          "definitionVi": "Giảm tác động môi trường của hoạt động CNTT qua tiết kiệm điện, ảo hóa máy chủ, tái chế thiết bị và vận hành trung tâm dữ liệu hiệu quả.",
+          "reading": "ぐりーんあいてぃ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "green-it"
+      ]
+    },
+    {
+      "id": "carbon-footprint",
+      "order": 4,
+      "titleJa": "カーボンフットプリント",
+      "titleVi": "Dấu chân carbon",
+      "importance": "medium",
+      "summaryJa": "企業や個人が活動を通じて排出する温室効果ガスの総量を示す指標である。",
+      "summaryVi": "Tổng phát thải khí nhà kính quy đổi tương đương CO₂ gắn với sản phẩm, tổ chức hoặc hoạt động trong phạm vi đánh giá xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "カーボンフットプリントとは",
+          "vi": "Dấu chân carbon là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や個人が活動を通じて排出する温室効果ガスの総量を示す指標である。これは主に二酸化炭素（CO2）の量で表され、製品の製造から使用、廃棄に至るまでの全過程における温室効果ガスの排出を含む。例えば、製品の生産に使うエネルギーや輸送時の燃料消費などが該当する。カーボンフットプリントを把握することで、企業は環境負荷を低減するための戦略を策定し、効率的な資源の利用や、持続可能な経営を実現することができる。また、消費者にとっても、環境に配慮した選択を意識する手助けとなり、企業と社会全体が持続可能性を追求する重要な一歩となる。",
+          "vi": "Tổng phát thải khí nhà kính quy đổi tương đương CO₂ gắn với sản phẩm, tổ chức hoặc hoạt động trong phạm vi đánh giá xác định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：カーボンフットプリントの定義、目的と関連用語との違いを確認する。",
+          "vi": "Chú ý vòng đời sản phẩm: nguyên liệu, sản xuất, vận chuyển, sử dụng và thải bỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カーボンフットプリント",
+          "english": "Carbon Footprint",
+          "vi": "Dấu chân carbon",
+          "definitionJa": "企業や個人が活動を通じて排出する温室効果ガスの総量を示す指標である。",
+          "definitionVi": "Tổng phát thải khí nhà kính quy đổi tương đương CO₂ gắn với sản phẩm, tổ chức hoặc hoạt động trong phạm vi đánh giá xác định.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "carbon-footprint"
+      ]
+    },
+    {
+      "id": "membership-company",
+      "order": 5,
+      "titleJa": "持分会社",
+      "titleVi": "Công ty hợp danh / công ty góp vốn theo luật Nhật",
+      "importance": "high",
+      "summaryJa": "複数の人が出資して事業を行う企業形態の一つである。",
+      "summaryVi": "持分会社 là nhóm công ty theo Luật công ty Nhật, bao gồm 合名会社, 合資会社 và 合同会社; trách nhiệm thành viên tùy loại hình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "持分会社とは",
+          "vi": "Công ty hợp danh / công ty góp vốn theo luật Nhật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の人が出資して事業を行う企業形態の一つである。出資者が経営に参加し、利益を共有することが特色である。例えば、個人事業主が数人で共同で事業を行う際に設立されることが多く、それぞれの出資比率に応じて利益や損失が分配される。また、持分会社は法人格を持たず、出資者は会社の債務に対して無限に責任を負うため、信頼性の確保が重要である。小規模なビジネスにおいて、柔軟性や経営の自由度が求められる場面で活用されることが多い。",
+          "vi": "持分会社 là nhóm công ty theo Luật công ty Nhật, bao gồm 合名会社, 合資会社 và 合同会社; trách nhiệm thành viên tùy loại hình."
+        },
+        {
+          "type": "point",
+          "ja": "原文注意：持分会社は法人格を持ち、合同会社の社員は有限責任である。",
+          "vi": "Lưu ý: nguồn nói 持分会社 không có tư cách pháp nhân và mọi thành viên chịu trách nhiệm vô hạn là không chính xác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "持分会社",
+          "english": "Partnership",
+          "vi": "Công ty hợp danh / công ty góp vốn theo luật Nhật",
+          "definitionJa": "複数の人が出資して事業を行う企業形態の一つである。",
+          "definitionVi": "持分会社 là nhóm công ty theo Luật công ty Nhật, bao gồm 合名会社, 合資会社 và 合同会社; trách nhiệm thành viên tùy loại hình.",
+          "reading": "もちぶんかいしゃ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "membership-company"
+      ]
+    },
+    {
+      "id": "joint-stock-company",
+      "order": 6,
+      "titleJa": "株式会社",
+      "titleVi": "Công ty cổ phần",
+      "importance": "high",
+      "summaryJa": "出資者が資本金を出し合い、法人格を持つ企業形態である。",
+      "summaryVi": "Doanh nghiệp có tư cách pháp nhân, huy động vốn bằng cổ phần; cổ đông về nguyên tắc chịu trách nhiệm hữu hạn trong số vốn góp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "株式会社とは",
+          "vi": "Công ty cổ phần là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "出資者が資本金を出し合い、法人格を持つ企業形態である。この形態の企業は、出資者が持つ株式に応じて利益を分配される仕組みを持ち、出資者の責任は自身の出資額に限定される。このため、株式会社ではリスクを分散しやすく、融資を受けやすい特徴がある。例えば、大きなプロジェクトを行うための資金調達がしやすく、多くの投資家から資金を集めることが可能である。また、株式は市場で売買されることが多く、企業の成長に伴い株価が上昇することが期待されるため、投資家にとっても魅力的な投資先となる。これは企業の発展を支える重要な仕組みである。",
+          "vi": "Doanh nghiệp có tư cách pháp nhân, huy động vốn bằng cổ phần; cổ đông về nguyên tắc chịu trách nhiệm hữu hạn trong số vốn góp."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：株式会社の定義、目的と関連用語との違いを確認する。",
+          "vi": "Không phải công ty cổ phần nào cũng niêm yết trên sàn giao dịch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "株式会社",
+          "english": "Joint-stock Company",
+          "vi": "Công ty cổ phần",
+          "definitionJa": "出資者が資本金を出し合い、法人格を持つ企業形態である。",
+          "definitionVi": "Doanh nghiệp có tư cách pháp nhân, huy động vốn bằng cổ phần; cổ đông về nguyên tắc chịu trách nhiệm hữu hạn trong số vốn góp.",
+          "reading": "かぶしきがいしゃ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "joint-stock-company"
+      ]
+    },
+    {
+      "id": "ipo",
+      "order": 7,
+      "titleJa": "株式公開",
+      "titleVi": "Phát hành cổ phiếu lần đầu ra công chúng (IPO)",
+      "importance": "high",
+      "summaryJa": "企業が自社の株式を一般の投資家に売り出すことを指す。",
+      "summaryVi": "Doanh nghiệp lần đầu chào bán cổ phiếu ra công chúng, thường gắn với việc trở thành công ty đại chúng và mở rộng huy động vốn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "株式公開とは",
+          "vi": "Phát hành cổ phiếu lần đầu ra công chúng (IPO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の株式を一般の投資家に売り出すことを指す。IPOとも呼ばれる。これにより、企業は資金を調達し、成長や拡大のための資本を得ることが可能となる。例えば、スタートアップ企業が新たに開発した製品やサービスの普及を目指す際に、多額の資金が必要な場合にIPOを選択することが多い。また、株式を公開することで企業の信頼性が高まり、ブランド価値の向上にもつながる。しかし、一方で株主に対する情報開示や経営の透明性が求められるため、企業には一定の責任が伴うことになる。成長を目指す企業にとって重要なステップである。",
+          "vi": "Doanh nghiệp lần đầu chào bán cổ phiếu ra công chúng, thường gắn với việc trở thành công ty đại chúng và mở rộng huy động vốn."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：株式公開の定義、目的と関連用語との違いを確認する。",
+          "vi": "IPO khác với việc mua bán cổ phiếu đã lưu hành trên thị trường thứ cấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "株式公開",
+          "english": "Initial Public Offering",
+          "vi": "Phát hành cổ phiếu lần đầu ra công chúng (IPO)",
+          "definitionJa": "企業が自社の株式を一般の投資家に売り出すことを指す。",
+          "definitionVi": "Doanh nghiệp lần đầu chào bán cổ phiếu ra công chúng, thường gắn với việc trở thành công ty đại chúng và mở rộng huy động vốn.",
+          "reading": "かぶしきこうかい"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "ipo"]
+    },
+    {
+      "id": "ownership-management-separation",
+      "order": 8,
+      "titleJa": "所有と経営の分離",
+      "titleVi": "Tách biệt quyền sở hữu và quyền quản lý",
+      "importance": "medium",
+      "summaryJa": "企業において、資本を持つ株主（所有者）と実際に経営を行う経営者との間で権限や責任が異なる状態を指す。",
+      "summaryVi": "Cổ đông sở hữu vốn nhưng giao quyền điều hành thực tế cho nhà quản lý chuyên nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "所有と経営の分離とは",
+          "vi": "Tách biệt quyền sở hữu và quyền quản lý là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業において、資本を持つ株主（所有者）と実際に経営を行う経営者との間で権限や責任が異なる状態を指す。この状態は、特に大規模な企業に見られ、自分が投資した資本に対して経営者の判断に依存することを意味する。例として、上場企業では多くの株主が存在し、その中には会社の経営に直接関与しない者も多い。これにより、経営者は専門的な知識を活かして経営戦略を立案し、効率化や利益最大化を追求することが可能となる。一方で、所有者である株主は業績に基づいて配当を受け取る一方、経営者との情報の非対称性や利益相反の問題も抱えることがある。このような構造は、企業の成長や持続可能な経営にも影響を与える重要な概念である。",
+          "vi": "Cổ đông sở hữu vốn nhưng giao quyền điều hành thực tế cho nhà quản lý chuyên nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：所有と経営の分離の定義、目的と関連用語との違いを確認する。",
+          "vi": "Có thể phát sinh xung đột lợi ích giữa cổ đông và người điều hành (vấn đề đại diện)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "所有と経営の分離",
+          "english": "Separation of Ownership and Management",
+          "vi": "Tách biệt quyền sở hữu và quyền quản lý",
+          "definitionJa": "企業において、資本を持つ株主（所有者）と実際に経営を行う経営者との間で権限や責任が異なる状態を指す。",
+          "definitionVi": "Cổ đông sở hữu vốn nhưng giao quyền điều hành thực tế cho nhà quản lý chuyên nghiệp.",
+          "reading": "しょゆうとけいえいのぶんり"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "ownership-management-separation"
+      ]
+    },
+    {
+      "id": "going-concern",
+      "order": 9,
+      "titleJa": "ゴーイングコンサーン",
+      "titleVi": "Giả định hoạt động liên tục",
+      "importance": "medium",
+      "summaryJa": "企業や事業が将来にわたって継続して運営されるという前提を指す。",
+      "summaryVi": "Giả định doanh nghiệp tiếp tục hoạt động trong tương lai có thể dự đoán, làm cơ sở lập báo cáo tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ゴーイングコンサーンとは",
+          "vi": "Giả định hoạt động liên tục là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や事業が将来にわたって継続して運営されるという前提を指す。この概念は、財務諸表の作成において非常に重要であり、企業が解散せずに正常に業務を続ける見込みがあると認識されていることを示す。企業がゴーイングコンサーンの状態にある場合、資産や負債を現在の評価基準に基づいて記載することができ、将来的な事業計画に基づいて投資や資金調達を行うことが可能である。一方で、もし企業が続けていくことができない状況にあると判断されると、評価基準が変わり、資産の評価額や負債の取り扱いにも影響を及ぼす。これにより、企業の財務状態や経営戦略が大きく変わるため、ステークホルダーにとっても重要な要素とされている。",
+          "vi": "Giả định doanh nghiệp tiếp tục hoạt động trong tương lai có thể dự đoán, làm cơ sở lập báo cáo tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ゴーイングコンサーンの定義、目的と関連用語との違いを確認する。",
+          "vi": "Going concern là giả định kế toán, không phải lời bảo đảm doanh nghiệp không bao giờ phá sản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ゴーイングコンサーン",
+          "english": "Going Concern",
+          "vi": "Giả định hoạt động liên tục",
+          "definitionJa": "企業や事業が将来にわたって継続して運営されるという前提を指す。",
+          "definitionVi": "Giả định doanh nghiệp tiếp tục hoạt động trong tương lai có thể dự đoán, làm cơ sở lập báo cáo tài chính.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "going-concern"
+      ]
+    },
+    {
+      "id": "corporate-governance",
+      "order": 10,
+      "titleJa": "コーポレートガバナンス",
+      "titleVi": "Quản trị công ty",
+      "importance": "high",
+      "summaryJa": "企業の運営と管理の仕組みを指す用語である。",
+      "summaryVi": "Cơ chế giám sát, kiểm soát và phân định trách nhiệm nhằm đảm bảo doanh nghiệp được điều hành minh bạch, có trách nhiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートガバナンスとは",
+          "vi": "Quản trị công ty là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の運営と管理の仕組みを指す用語である。この仕組みは、株主や取締役、経営陣などの利害関係者の間での責任の明確化や権限の配分を重視する。例えば、取締役会が経営の監視を行い、株主が意思決定に参加することで、企業の透明性と公平性を保つことを目的としている。また、ガバナンスの強化は、企業の持続的な成長や信頼性の向上に寄与し、投資家や顧客の信頼を得るためにも重要である。これは、企業が長期的な視野で経営を行う上で欠かせない要素となっている。",
+          "vi": "Cơ chế giám sát, kiểm soát và phân định trách nhiệm nhằm đảm bảo doanh nghiệp được điều hành minh bạch, có trách nhiệm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーポレートガバナンスの定義、目的と関連用語との違いを確認する。",
+          "vi": "Governance tập trung giám sát và kiểm soát quản lý, không chỉ vận hành công việc hằng ngày."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートガバナンス",
+          "english": "Corporate Governance",
+          "vi": "Quản trị công ty",
+          "definitionJa": "企業の運営と管理の仕組みを指す用語である。",
+          "definitionVi": "Cơ chế giám sát, kiểm soát và phân định trách nhiệm nhằm đảm bảo doanh nghiệp được điều hành minh bạch, có trách nhiệm.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-governance"
+      ]
+    },
+    {
+      "id": "corporate-governance-code",
+      "order": 11,
+      "titleJa": "コーポレートガバナンス・コード",
+      "titleVi": "Bộ nguyên tắc quản trị công ty",
+      "importance": "medium",
+      "summaryJa": "企業が健全に経営を行うための指針を示したものである。",
+      "summaryVi": "Các nguyên tắc định hướng quản trị doanh nghiệp, bao gồm quyền cổ đông, minh bạch thông tin và hiệu quả hội đồng quản trị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートガバナンス・コードとは",
+          "vi": "Bộ nguyên tắc quản trị công ty là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が健全に経営を行うための指針を示したものである。このコードは、企業の経営者が株主やその他の利害関係者に対して責任を持つことを促進する。その主な目的は、企業の透明性を高めることや、不正行為を防止するためのルールを設けることである。例えば、取締役会の構成や、経営の監視体制について具体的な基準が示され、企業が持続的に成長するために必要なガバナンスの枠組みが提供される。また、企業が社会的責任を果たし、信頼される存在となることを支援する。これにより、投資家の信頼を獲得し、長期的な成長を促進すると言われている。",
+          "vi": "Các nguyên tắc định hướng quản trị doanh nghiệp, bao gồm quyền cổ đông, minh bạch thông tin và hiệu quả hội đồng quản trị."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーポレートガバナンス・コードの定義、目的と関連用語との違いを確認する。",
+          "vi": "Phân biệt nguyên tắc quản trị với luật bắt buộc; tại Nhật thường áp dụng cách tiếp cận comply or explain."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートガバナンス・コード",
+          "english": "Corporate Governance Code",
+          "vi": "Bộ nguyên tắc quản trị công ty",
+          "definitionJa": "企業が健全に経営を行うための指針を示したものである。",
+          "definitionVi": "Các nguyên tắc định hướng quản trị doanh nghiệp, bao gồm quyền cổ đông, minh bạch thông tin và hiệu quả hội đồng quản trị.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-governance-code"
+      ]
+    },
+    {
+      "id": "investor-relations",
+      "order": 12,
+      "titleJa": "IR",
+      "titleVi": "Quan hệ nhà đầu tư (IR)",
+      "importance": "medium",
+      "summaryJa": "企業が投資家や株主に対して情報を提供し、良好な関係を築くための活動である。",
+      "summaryVi": "Hoạt động công bố và trao đổi thông tin tài chính, chiến lược, triển vọng với cổ đông và nhà đầu tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IRとは",
+          "vi": "Quan hệ nhà đầu tư (IR) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が投資家や株主に対して情報を提供し、良好な関係を築くための活動である。これには、企業の業績や戦略、将来の見通しなどの情報を適切に伝えることが含まれ、投資家に対する透明性を高める役割を果たす。例えば、四半期ごとの決算発表や株主総会を通じて、投資家に対して企業の進捗状況を報告し、信頼を得ることが目的である。また、IR活動を通じて、企業の価値を正しく理解してもらうことができ、結果として株価の安定や向上につながることが期待される。これは投資家が長期的に企業に関心を持つために重要な要素である。",
+          "vi": "Hoạt động công bố và trao đổi thông tin tài chính, chiến lược, triển vọng với cổ đông và nhà đầu tư."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：IRの定義、目的と関連用語との違いを確認する。",
+          "vi": "IR hướng đến nhà đầu tư; PR hướng đến công chúng rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IR",
+          "english": "Investor Relations",
+          "vi": "Quan hệ nhà đầu tư (IR)",
+          "definitionJa": "企業が投資家や株主に対して情報を提供し、良好な関係を築くための活動である。",
+          "definitionVi": "Hoạt động công bố và trao đổi thông tin tài chính, chiến lược, triển vọng với cổ đông và nhà đầu tư.",
+          "reading": "あいあーる"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "investor-relations"
+      ]
+    },
+    {
+      "id": "integrated-report",
+      "order": 13,
+      "titleJa": "統合報告書",
+      "titleVi": "Báo cáo tích hợp",
+      "importance": "medium",
+      "summaryJa": "企業の財務情報と非財務情報を統合して整理した報告書である。",
+      "summaryVi": "Báo cáo kết hợp thông tin tài chính và phi tài chính để giải thích cách doanh nghiệp tạo ra giá trị dài hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "統合報告書とは",
+          "vi": "Báo cáo tích hợp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務情報と非財務情報を統合して整理した報告書である。この報告書は、企業の戦略、ガバナンス、業績および価値創造のプロセスを示し、ステークホルダーに向けて透明性を提供することを目的としている。例えば、財務データだけでなく、環境への配慮や社会貢献活動についても詳しく述べられることが多く、企業の持続可能性を強調する重要な役割を果たす。このように、投資家や消費者に企業の全体像を理解させ、信頼関係の構築に寄与するものである。",
+          "vi": "Báo cáo kết hợp thông tin tài chính và phi tài chính để giải thích cách doanh nghiệp tạo ra giá trị dài hạn."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：統合報告書の定義、目的と関連用語との違いを確認する。",
+          "vi": "Nhớ tích hợp chiến lược, quản trị, vốn, môi trường và hiệu quả tài chính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "統合報告書",
+          "english": "Integrated Report",
+          "vi": "Báo cáo tích hợp",
+          "definitionJa": "企業の財務情報と非財務情報を統合して整理した報告書である。",
+          "definitionVi": "Báo cáo kết hợp thông tin tài chính và phi tài chính để giải thích cách doanh nghiệp tạo ra giá trị dài hạn.",
+          "reading": "とうごうほうこくしょ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "integrated-report"
+      ]
+    },
+    {
+      "id": "annual-report",
+      "order": 14,
+      "titleJa": "アニュアルレポート",
+      "titleVi": "Báo cáo thường niên",
+      "importance": "medium",
+      "summaryJa": "企業が1年間の業績や活動をまとめ、株主や投資家に提示する報告書である。",
+      "summaryVi": "Tài liệu tổng kết kết quả hoạt động, tài chính và định hướng doanh nghiệp trong một năm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アニュアルレポートとは",
+          "vi": "Báo cáo thường niên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が1年間の業績や活動をまとめ、株主や投資家に提示する報告書である。このレポートには、収益や利益、財務状況といった経済的なデータが含まれ、企業の透明性を高める役割を果たす。また、企業のビジョンや戦略、社会的な取り組みについても説明され、経営方針を理解する手助けとなる。企業の信頼性を示し投資判断を行う重要な資料であり、外部の利害関係者に向けた重要なコミュニケーション手段でもある。これは、企業の成長戦略や市場でのポジションを示す指標としても活用される。",
+          "vi": "Tài liệu tổng kết kết quả hoạt động, tài chính và định hướng doanh nghiệp trong một năm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：アニュアルレポートの定義、目的と関連用語との違いを確認する。",
+          "vi": "Annual report tập trung tổng kết năm; integrated report nhấn mạnh kết nối các yếu tố tạo giá trị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アニュアルレポート",
+          "english": "Annual Report",
+          "vi": "Báo cáo thường niên",
+          "definitionJa": "企業が1年間の業績や活動をまとめ、株主や投資家に提示する報告書である。",
+          "definitionVi": "Tài liệu tổng kết kết quả hoạt động, tài chính và định hướng doanh nghiệp trong một năm.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "annual-report"
+      ]
+    },
+    {
+      "id": "csr-report",
+      "order": 15,
+      "titleJa": "CSR報告書",
+      "titleVi": "Báo cáo CSR",
+      "importance": "medium",
+      "summaryJa": "企業が社会的責任に関する活動や影響を報告する文書である。",
+      "summaryVi": "Tài liệu công bố các hoạt động và kết quả thực hiện trách nhiệm xã hội, môi trường và đối với người lao động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CSR報告書とは",
+          "vi": "Báo cáo CSR là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が社会的責任に関する活動や影響を報告する文書である。この報告書は、環境への配慮、社会的貢献、労働条件の改善など、企業の倫理や持続可能性に関する情報を提供する。例えば、企業が行った環境保護活動や地域社会への寄付活動が具体的に記載されており、ステakeホルダーに対して透明性を確保する役割を果たす。また、企業の評判を向上させるだけでなく、投資家や消費者の信頼を得るための重要なツールでもある。これにより、企業は社会全体にポジティブな影響を与えることを目的としている。",
+          "vi": "Tài liệu công bố các hoạt động và kết quả thực hiện trách nhiệm xã hội, môi trường và đối với người lao động."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CSR報告書の定義、目的と関連用語との違いを確認する。",
+          "vi": "CSR report chủ yếu về tác động xã hội, không thay thế báo cáo tài chính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CSR報告書",
+          "english": "Corporate Social Responsibility Report",
+          "vi": "Báo cáo CSR",
+          "definitionJa": "企業が社会的責任に関する活動や影響を報告する文書である。",
+          "definitionVi": "Tài liệu công bố các hoạt động và kết quả thực hiện trách nhiệm xã hội, môi trường và đối với người lao động.",
+          "reading": "しーえすあーるほうこくしょ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "csr-report"
+      ]
+    },
+    {
+      "id": "bcp",
+      "order": 16,
+      "titleJa": "BCP",
+      "titleVi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
+      "importance": "high",
+      "summaryJa": "事業継続計画のことである。",
+      "summaryVi": "Kế hoạch quy định cách tiếp tục hoặc khôi phục nhanh các nghiệp vụ quan trọng khi xảy ra thiên tai, sự cố hay tấn công mạng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BCPとは",
+          "vi": "Kế hoạch duy trì hoạt động kinh doanh (BCP) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業継続計画のことである。この計画は、自然災害や事故など、予期しない事態が発生した際に、企業の重要な業務を継続または迅速に再開するための方針や手順を定めたものである。例えば、地震によってオフィスが使用できなくなった場合、代替の業務拠点を用意したり、従業員がリモートで作業できる体制を整えたりすることがBCPに含まれる。また、情報システムのバックアップやデータ復旧の手段を明確にすることで、業務への影響を最小限に抑えることが可能になる。これにより、企業は顧客や取引先への信頼を維持し、競争力を保つことができる。",
+          "vi": "Kế hoạch quy định cách tiếp tục hoặc khôi phục nhanh các nghiệp vụ quan trọng khi xảy ra thiên tai, sự cố hay tấn công mạng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：BCPの定義、目的と関連用語との違いを確認する。",
+          "vi": "BCP là kế hoạch cụ thể; BCM là quá trình quản lý duy trì hoạt động liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BCP",
+          "english": "Business Continuity Plan",
+          "vi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
+          "definitionJa": "事業継続計画のことである。",
+          "definitionVi": "Kế hoạch quy định cách tiếp tục hoặc khôi phục nhanh các nghiệp vụ quan trọng khi xảy ra thiên tai, sự cố hay tấn công mạng.",
+          "reading": "びーしーぴー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "bcp"]
+    },
+    {
+      "id": "corporate-identity",
+      "order": 17,
+      "titleJa": "コーポレートアイデンティティ",
+      "titleVi": "Bản sắc doanh nghiệp (CI)",
+      "importance": "medium",
+      "summaryJa": "企業の独自性や特徴を表現するための一連の要素を指す。",
+      "summaryVi": "Hệ thống nhận diện và định hướng hình ảnh nhất quán của doanh nghiệp, gồm biểu trưng, màu sắc, thông điệp và giá trị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートアイデンティティとは",
+          "vi": "Bản sắc doanh nghiệp (CI) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の独自性や特徴を表現するための一連の要素を指す。これには、企業のロゴ、カラー、フォント、スローガンなどが含まれ、これらが統一感を持って使用されることで、企業のイメージを形成する役割を果たす。例えば、ある企業が特定の色をブランドカラーとして使うことで、その色を見ただけでその企業を思い出させることができる。マーケティングや広告戦略にも影響を与え、顧客との信頼関係を築く重要な要素である。また、企業のビジョンや価値観をも反映し、内部の社員にも共通理解を促すことで、企業文化の一部ともなる。",
+          "vi": "Hệ thống nhận diện và định hướng hình ảnh nhất quán của doanh nghiệp, gồm biểu trưng, màu sắc, thông điệp và giá trị."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーポレートアイデンティティの定義、目的と関連用語との違いを確認する。",
+          "vi": "CI là cách doanh nghiệp thể hiện bản sắc; thương hiệu doanh nghiệp là hình ảnh và giá trị được nhận biết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートアイデンティティ",
+          "english": "Corporate Identity",
+          "vi": "Bản sắc doanh nghiệp (CI)",
+          "definitionJa": "企業の独自性や特徴を表現するための一連の要素を指す。",
+          "definitionVi": "Hệ thống nhận diện và định hướng hình ảnh nhất quán của doanh nghiệp, gồm biểu trưng, màu sắc, thông điệp và giá trị.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-identity"
+      ]
+    },
+    {
+      "id": "corporate-brand",
+      "order": 18,
+      "titleJa": "コーポレートブランド",
+      "titleVi": "Thương hiệu doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業全体のイメージや価値観を表現するためのブランドである。",
+      "summaryVi": "Uy tín, hình ảnh và giá trị gắn với toàn bộ doanh nghiệp trong nhận thức của các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートブランドとは",
+          "vi": "Thương hiệu doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業全体のイメージや価値観を表現するためのブランドである。このブランドは、企業の製品やサービスだけでなく、企業の理念、文化、社会的責任なども反映される。例えば、ある企業が環境に配慮した製品を提供し、社会貢献活動を行っている場合、その企業のコーポレートブランドは「持続可能性」を強調することになる。コーポレートブランドは顧客の信頼を築き、競争優位性を持たせる重要な要素であり、企業の全体的なマーケティング戦略において中心的な役割を果たす。",
+          "vi": "Uy tín, hình ảnh và giá trị gắn với toàn bộ doanh nghiệp trong nhận thức của các bên liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーポレートブランドの定義、目的と関連用語との違いを確認する。",
+          "vi": "Phân biệt thương hiệu công ty với thương hiệu của một sản phẩm riêng lẻ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートブランド",
+          "english": "Corporate Brand",
+          "vi": "Thương hiệu doanh nghiệp",
+          "definitionJa": "企業全体のイメージや価値観を表現するためのブランドである。",
+          "definitionVi": "Uy tín, hình ảnh và giá trị gắn với toàn bộ doanh nghiệp trong nhận thức của các bên liên quan.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-brand"
+      ]
+    },
+    {
+      "id": "management-objectives",
+      "order": 19,
+      "titleJa": "経営目標",
+      "titleVi": "Mục tiêu quản trị",
+      "importance": "medium",
+      "summaryJa": "組織や企業が達成を目指す具体的な成果や方向性を示すものである。",
+      "summaryVi": "Kết quả cụ thể doanh nghiệp muốn đạt, chẳng hạn tăng doanh thu, giảm chi phí hoặc nâng mức hài lòng khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "経営目標とは",
+          "vi": "Mục tiêu quản trị là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織や企業が達成を目指す具体的な成果や方向性を示すものである。これには売上の向上や顧客満足度の向上、コスト削減などが含まれる。企業の戦略や計画の基盤となり、全体の方針を決定する際の指針として機能するため、全ての部門が共通の目標に向かって活動することを促進する。例えば、ある企業が「今年度の売上を10%増加させる」という目標を設定した場合、各部門はこの目標を達成するための具体的なアクションプランを策定し、実行する必要がある。このように、明確な企業の成長や進歩を促進する重要な要素となる。",
+          "vi": "Kết quả cụ thể doanh nghiệp muốn đạt, chẳng hạn tăng doanh thu, giảm chi phí hoặc nâng mức hài lòng khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：経営目標の定義、目的と関連用語との違いを確認する。",
+          "vi": "Mục tiêu tốt cần đo lường được và có thời hạn, ví dụ tăng doanh thu 10% trong năm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "経営目標",
+          "english": "Management Objectives",
+          "vi": "Mục tiêu quản trị",
+          "definitionJa": "組織や企業が達成を目指す具体的な成果や方向性を示すものである。",
+          "definitionVi": "Kết quả cụ thể doanh nghiệp muốn đạt, chẳng hạn tăng doanh thu, giảm chi phí hoặc nâng mức hài lòng khách hàng.",
+          "reading": "けいえいもくひょう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "management-objectives"
+      ]
+    },
+    {
+      "id": "resource-management",
+      "order": 20,
+      "titleJa": "財務・資産・人事・情報管理",
+      "titleVi": "Quản lý tài chính, tài sản, nhân sự và thông tin",
+      "importance": "medium",
+      "summaryJa": "企業や組織の管理における重要な領域を指すものである。",
+      "summaryVi": "Bốn hoạt động quản lý nguồn lực: dòng tiền, tài sản, nhân lực và dữ liệu để hỗ trợ vận hành và quyết định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "財務・資産・人事・情報管理とは",
+          "vi": "Quản lý tài chính, tài sản, nhân sự và thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の管理における重要な領域を指すものである。財務管理は、企業の収益や費用を管理し、資金の流れを最適化する役割を持つ。一方、資産管理は、企業が所有する資産を効率的に活用し、価値を最大限に引き出すことを目的とする。人事管理は、従業員の採用、育成、評価などを行い、組織の人材を効果的に活用するプロセスである。また、情報管理は、データや情報を整理し、必要な時にアクセスできるようにすることを意味する。これらの管理手法は、企業の戦略的な意思決定を支える基盤となり、効率的な運営を促進する。",
+          "vi": "Bốn hoạt động quản lý nguồn lực: dòng tiền, tài sản, nhân lực và dữ liệu để hỗ trợ vận hành và quyết định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：財務・資産・人事・情報管理の定義、目的と関連用語との違いを確認する。",
+          "vi": "Phân biệt tài chính (tiền và vốn) với tài sản (nguồn lực sở hữu), nhân sự và thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "財務・資産・人事・情報管理",
+          "english": "Financial, Asset, Human Resource, and Information Management",
+          "vi": "Quản lý tài chính, tài sản, nhân sự và thông tin",
+          "definitionJa": "企業や組織の管理における重要な領域を指すものである。",
+          "definitionVi": "Bốn hoạt động quản lý nguồn lực: dòng tiền, tài sản, nhân lực và dữ liệu để hỗ trợ vận hành và quyết định.",
+          "reading": "ざいむ・しさん・じんじ・じょうほうかんり"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "resource-management"
+      ]
+    },
+    {
+      "id": "pdca",
+      "order": 21,
+      "titleJa": "PDCA",
+      "titleVi": "Chu trình PDCA",
+      "importance": "high",
+      "summaryJa": "業務やプロジェクトの改善を目的とした管理手法の一つである。",
+      "summaryVi": "Cải tiến liên tục qua bốn bước: lập kế hoạch Plan, thực hiện Do, kiểm tra Check và hành động cải tiến Act.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PDCAとは",
+          "vi": "Chu trình PDCA là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務やプロジェクトの改善を目的とした管理手法の一つである。このサイクルは、計画（Plan）、実行（Do）、確認（Check）、改善（Act）の4つのステップから成り立っており、持続的な品質向上を図るために用いられる。まず、目標や課題を設定して計画を立てる段階があり、その後計画に基づいて実行を行う。次に、実行結果を評価し、必要な改善点を見つけ出す。このプロセスを繰り返すことで、業務の効率化や品質向上が期待できる。製造業だけでなく、さまざまな業界で幅広く利用されており、組織の成長に貢献する重要な手法である。",
+          "vi": "Cải tiến liên tục qua bốn bước: lập kế hoạch Plan, thực hiện Do, kiểm tra Check và hành động cải tiến Act."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：PDCAの定義、目的と関連用語との違いを確認する。",
+          "vi": "Thứ tự bắt buộc Plan → Do → Check → Act; Act không phải dừng lại mà tiếp tục vòng mới."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PDCA",
+          "english": "Plan-Do-Check-Act",
+          "vi": "Chu trình PDCA",
+          "definitionJa": "業務やプロジェクトの改善を目的とした管理手法の一つである。",
+          "definitionVi": "Cải tiến liên tục qua bốn bước: lập kế hoạch Plan, thực hiện Do, kiểm tra Check và hành động cải tiến Act.",
+          "reading": "ぴーでぃーしーえー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "pdca"]
+    },
+    {
+      "id": "tqm",
+      "order": 22,
+      "titleJa": "TQM",
+      "titleVi": "Quản lý chất lượng toàn diện (TQM)",
+      "importance": "high",
+      "summaryJa": "企業が全体的な品質の向上を目指す経営手法である。",
+      "summaryVi": "Phương pháp quản lý huy động toàn tổ chức cùng cải thiện chất lượng sản phẩm, dịch vụ và quy trình, hướng tới khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TQMとは",
+          "vi": "Quản lý chất lượng toàn diện (TQM) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が全体的な品質の向上を目指す経営手法である。製品やサービスの品質管理を単なる工程の一部ではなく、組織全体の文化として位置づける。具体的には、全社員が品質改善に関与し、顧客のニーズを把握し、それに応じた改善を行うことが重要である。例えば、製造業では、製品の設計段階から顧客の声を反映させ、品質向上に努める。顧客満足を向上させるだけでなく、業務プロセスの効率化やコスト削減にも寄与するため、持続的な競争力を確保するために不可欠な手法とされている。",
+          "vi": "Phương pháp quản lý huy động toàn tổ chức cùng cải thiện chất lượng sản phẩm, dịch vụ và quy trình, hướng tới khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：TQMの定義、目的と関連用語との違いを確認する。",
+          "vi": "TQM là trách nhiệm toàn doanh nghiệp, không chỉ của bộ phận kiểm tra chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TQM",
+          "english": "Total Quality Management",
+          "vi": "Quản lý chất lượng toàn diện (TQM)",
+          "definitionJa": "企業が全体的な品質の向上を目指す経営手法である。",
+          "definitionVi": "Phương pháp quản lý huy động toàn tổ chức cùng cải thiện chất lượng sản phẩm, dịch vụ và quy trình, hướng tới khách hàng.",
+          "reading": "てぃーきゅーえむ"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "tqm"]
+    },
+    {
+      "id": "competency",
+      "order": 23,
+      "titleJa": "コンピテンシー",
+      "titleVi": "Năng lực hành vi (Competency)",
+      "importance": "medium",
+      "summaryJa": "特定の職務や役割を効果的に遂行するために必要な知識、スキル、態度を総称したものである。",
+      "summaryVi": "Những đặc điểm, kỹ năng và hành vi giúp một cá nhân đạt hiệu quả cao trong công việc, dùng cho tuyển dụng và phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンピテンシーとは",
+          "vi": "Năng lực hành vi (Competency) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の職務や役割を効果的に遂行するために必要な知識、スキル、態度を総称したものである。例えば、リーダーシップやコミュニケーション能力、問題解決能力などがその一部である。企業や組織では、コンピテンシーを基にした人材の評価や育成が行われ、職務に最適な人材を選抜するための基準となる。これにより、適切な人材を配置し、組織全体のパフォーマンスを向上させることが目指される。コンピテンシーの概念は、労働市場においても重要で、求職者が求められる能力を明確にし、自身のキャリア形成にも役立つ。",
+          "vi": "Những đặc điểm, kỹ năng và hành vi giúp một cá nhân đạt hiệu quả cao trong công việc, dùng cho tuyển dụng và phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コンピテンシーの定義、目的と関連用語との違いを確認する。",
+          "vi": "Competency không chỉ là kiến thức lý thuyết mà gắn với hành vi và hiệu quả thực hiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンピテンシー",
+          "english": "Competency",
+          "vi": "Năng lực hành vi (Competency)",
+          "definitionJa": "特定の職務や役割を効果的に遂行するために必要な知識、スキル、態度を総称したものである。",
+          "definitionVi": "Những đặc điểm, kỹ năng và hành vi giúp một cá nhân đạt hiệu quả cao trong công việc, dùng cho tuyển dụng và phát triển.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "competency"
+      ]
+    },
+    {
+      "id": "coaching",
+      "order": 24,
+      "titleJa": "コーチング",
+      "titleVi": "Huấn luyện khai vấn (Coaching)",
+      "importance": "high",
+      "summaryJa": "個人やチームが目標を達成するために行う支援の一つである。",
+      "summaryVi": "Người hướng dẫn đặt câu hỏi, phản hồi và hỗ trợ để người được huấn luyện tự tìm giải pháp và đạt mục tiêu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーチングとは",
+          "vi": "Huấn luyện khai vấn (Coaching) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人やチームが目標を達成するために行う支援の一つである。コーチは、相手が自分の強みや弱みを理解し、自己成長を促すための質問やフィードバックを提供する役割を担う。例えば、仕事での成果を向上させたいと考える社員がコーチとともに具体的なアクションプランを練り、定期的に進捗を確認し合うことがコーチングの一例である。また、コーチングはマネジメントやリーダーシップ向上に役立ち、業務の効率化や職場のコミュニケーション改善にも貢献する。これは、個々のニーズに応じて柔軟に対応できることから、現代のヒューマンリソースマネジメントにおいて非常に重要な手法となっている。",
+          "vi": "Người hướng dẫn đặt câu hỏi, phản hồi và hỗ trợ để người được huấn luyện tự tìm giải pháp và đạt mục tiêu."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーチングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Coaching khơi gợi khả năng tự giải quyết; mentoring truyền kinh nghiệm từ người đi trước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーチング",
+          "english": "Coaching",
+          "vi": "Huấn luyện khai vấn (Coaching)",
+          "definitionJa": "個人やチームが目標を達成するために行う支援の一つである。",
+          "definitionVi": "Người hướng dẫn đặt câu hỏi, phản hồi và hỗ trợ để người được huấn luyện tự tìm giải pháp và đạt mục tiêu.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "coaching"
+      ]
+    },
+    {
+      "id": "mentoring",
+      "order": 25,
+      "titleJa": "メンタリング",
+      "titleVi": "Cố vấn (Mentoring)",
+      "importance": "high",
+      "summaryJa": "より経験豊かな人物が、未経験者や初心者に対して指導や助言を行うプロセスである。",
+      "summaryVi": "Người giàu kinh nghiệm hướng dẫn, chia sẻ kiến thức và hỗ trợ phát triển nghề nghiệp cho người ít kinh nghiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "メンタリングとは",
+          "vi": "Cố vấn (Mentoring) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "より経験豊かな人物が、未経験者や初心者に対して指導や助言を行うプロセスである。この関係性は、通常、知識やスキルの向上を目的としており、メンターは mentee に対してキャリアの方向性や問題解決のアドバイスを提供することが多い。例えば、職場でのメンタリングでは、先輩社員が新入社員に業務の進め方や人間関係の築き方を教えることがある。人材育成や組織の文化を育む重要な手段であり、社員の成長を促進し、組織全体のパフォーマンス向上に寄与する。",
+          "vi": "Người giàu kinh nghiệm hướng dẫn, chia sẻ kiến thức và hỗ trợ phát triển nghề nghiệp cho người ít kinh nghiệm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：メンタリングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Mentoring thường mang tính dài hạn, chú trọng kinh nghiệm và định hướng nghề nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "メンタリング",
+          "english": "Mentoring",
+          "vi": "Cố vấn (Mentoring)",
+          "definitionJa": "より経験豊かな人物が、未経験者や初心者に対して指導や助言を行うプロセスである。",
+          "definitionVi": "Người giàu kinh nghiệm hướng dẫn, chia sẻ kiến thức và hỗ trợ phát triển nghề nghiệp cho người ít kinh nghiệm.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "mentoring"
+      ]
+    },
+    {
+      "id": "case-study",
+      "order": 26,
+      "titleJa": "ケーススタディ",
+      "titleVi": "Nghiên cứu tình huống",
+      "importance": "medium",
+      "summaryJa": "特定の状況や事例を詳細に分析し、その結果から学びを得る手法である。",
+      "summaryVi": "Phân tích một tình huống thực tế để rút ra bài học, phương án xử lý hoặc nguyên tắc áp dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ケーススタディとは",
+          "vi": "Nghiên cứu tình huống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の状況や事例を詳細に分析し、その結果から学びを得る手法である。主にビジネスや教育、医療などの分野で用いられ、実際の事例を基に課題解決や戦略の立案を行う際に効果的である。例えば、企業の人材管理においては、成功した採用方法や社員の育成プログラムをケーススタディとして研究することで、他の企業でも役立つ知見を得ることができる。この手法は、理論だけでなく実践に基づいたアプローチを重視するため、より現実的な解決策を導き出すのに役立つ。",
+          "vi": "Phân tích một tình huống thực tế để rút ra bài học, phương án xử lý hoặc nguyên tắc áp dụng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ケーススタディの定義、目的と関連用語との違いを確認する。",
+          "vi": "Case study sử dụng trường hợp cụ thể thay vì chỉ học lý thuyết trừu tượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ケーススタディ",
+          "english": "Case Study",
+          "vi": "Nghiên cứu tình huống",
+          "definitionJa": "特定の状況や事例を詳細に分析し、その結果から学びを得る手法である。",
+          "definitionVi": "Phân tích một tình huống thực tế để rút ra bài học, phương án xử lý hoặc nguyên tắc áp dụng.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "case-study"
+      ]
+    },
+    {
+      "id": "e-learning",
+      "order": 27,
+      "titleJa": "e-ラーニング",
+      "titleVi": "Học trực tuyến (e-learning)",
+      "importance": "medium",
+      "summaryJa": "電子的な手段を利用して行う学習のことを指す。",
+      "summaryVi": "Hình thức học bằng hệ thống và nội dung điện tử, cho phép học từ xa và theo tiến độ cá nhân.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "e-ラーニングとは",
+          "vi": "Học trực tuyến (e-learning) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "電子的な手段を利用して行う学習のことを指す。具体的には、インターネットを通じて提供されるオンラインコースやウェビナー、ビデオ講義などが該当する。人材育成や職業教育において、e-ラーニングは時間や場所の制約を受けず、受講者が自分のペースで学習できるメリットがある。また、企業は従業員のスキルアップを図るために、e-ラーニングを取り入れることで、コストの削減や効率的な教育を実現できる。これにより、必要な知識や技能を短期間で習得できる環境が整えられる。",
+          "vi": "Hình thức học bằng hệ thống và nội dung điện tử, cho phép học từ xa và theo tiến độ cá nhân."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：e-ラーニングの定義、目的と関連用語との違いを確認する。",
+          "vi": "e-learning là phương thức học; adaptive learning là cách cá nhân hóa nội dung."
+        }
+      ],
+      "terms": [
+        {
+          "term": "e-ラーニング",
+          "english": "e-Learning",
+          "vi": "Học trực tuyến (e-learning)",
+          "definitionJa": "電子的な手段を利用して行う学習のことを指す。",
+          "definitionVi": "Hình thức học bằng hệ thống và nội dung điện tử, cho phép học từ xa và theo tiến độ cá nhân.",
+          "reading": "いーらーにんぐ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "e-learning"
+      ]
+    },
+    {
+      "id": "reskilling",
+      "order": 28,
+      "titleJa": "リスキリング",
+      "titleVi": "Đào tạo lại kỹ năng (Reskilling)",
+      "importance": "high",
+      "summaryJa": "従業員が新しいスキルや知識を習得するためのプロセスを指す。",
+      "summaryVi": "Học kỹ năng mới để thích ứng với thay đổi nghề nghiệp, nhiệm vụ hoặc công nghệ, chẳng hạn chuyển sang vận hành hệ thống tự động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リスキリングとは",
+          "vi": "Đào tạo lại kỹ năng (Reskilling) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "従業員が新しいスキルや知識を習得するためのプロセスを指す。主に、仕事の変化や新しい技術の導入に対応するために行われる。例えば、製造業の従業員が新しい機械を操作するために必要な技術を学ぶ場合がある。企業が競争力を維持するためや、従業員のキャリア成長を支援するために重要な取り組みである。また、テクノロジーの進化によって求められるスキルが変わる中で、リスキリングを通じて、従業員が柔軟にキャリアを築ける環境を整えることが必要とされている。これは、企業の持続可能な成長にも寄与する。",
+          "vi": "Học kỹ năng mới để thích ứng với thay đổi nghề nghiệp, nhiệm vụ hoặc công nghệ, chẳng hạn chuyển sang vận hành hệ thống tự động."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：リスキリングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Reskilling nhấn mạnh kỹ năng mới cho vai trò thay đổi, khác với chỉ nâng cao kỹ năng đang có."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスキリング",
+          "english": "Reskilling",
+          "vi": "Đào tạo lại kỹ năng (Reskilling)",
+          "definitionJa": "従業員が新しいスキルや知識を習得するためのプロセスを指す。",
+          "definitionVi": "Học kỹ năng mới để thích ứng với thay đổi nghề nghiệp, nhiệm vụ hoặc công nghệ, chẳng hạn chuyển sang vận hành hệ thống tự động.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "reskilling"
+      ]
+    },
+    {
+      "id": "adaptive-learning",
+      "order": 29,
+      "titleJa": "アダプティブラーニング",
+      "titleVi": "Học tập thích ứng",
+      "importance": "medium",
+      "summaryJa": "学習者の個々のニーズや理解度に応じて、教材や学習方法を自動的に調整する教育手法である。",
+      "summaryVi": "Hệ thống điều chỉnh bài học, câu hỏi và lộ trình theo năng lực, tiến độ và phản hồi của từng người học.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アダプティブラーニングとは",
+          "vi": "Học tập thích ứng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "学習者の個々のニーズや理解度に応じて、教材や学習方法を自動的に調整する教育手法である。この技術は、学習者の進捗や反応をリアルタイムで分析し、最適な学習パスを提供することで、効果的な学習を促進する。例えば、ある学習者が特定のトピックで苦手とする場合、その理解を深めるために追加の練習問題や説明を提供することで、パーソナライズされた学習体験を実現する。教育機関や企業の研修プログラムにおいて、個々の学びを支援し、効率的なスキル習得を可能にする重要なアプローチである。",
+          "vi": "Hệ thống điều chỉnh bài học, câu hỏi và lộ trình theo năng lực, tiến độ và phản hồi của từng người học."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：アダプティブラーニングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Từ khóa nhận diện: cá nhân hóa tự động dựa trên dữ liệu học tập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アダプティブラーニング",
+          "english": "Adaptive Learning",
+          "vi": "Học tập thích ứng",
+          "definitionJa": "学習者の個々のニーズや理解度に応じて、教材や学習方法を自動的に調整する教育手法である。",
+          "definitionVi": "Hệ thống điều chỉnh bài học, câu hỏi và lộ trình theo năng lực, tiến độ và phản hồi của từng người học.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "adaptive-learning"
+      ]
+    },
+    {
+      "id": "hr-tech",
+      "order": 30,
+      "titleJa": "HRテック",
+      "titleVi": "Công nghệ nhân sự (HR Tech)",
+      "importance": "medium",
+      "summaryJa": "人材管理や人事業務を支援するための技術やツールを指すものである。",
+      "summaryVi": "Ứng dụng AI, phần mềm và phân tích dữ liệu để tuyển dụng, quản lý, đánh giá và đào tạo nhân viên.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "HRテックとは",
+          "vi": "Công nghệ nhân sự (HR Tech) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人材管理や人事業務を支援するための技術やツールを指すものである。具体的には、採用管理システムや社員のパフォーマンス評価を行うソフトウェアなどが含まれる。HRテックを導入することで、企業は人事プロセスの自動化やデータ分析を行い、より効率的な人材管理が可能となる。例えば、AIを活用した履歴書の選考や、オンライン面接ツールの利用などが増えている。これにより、企業は人材採用の時間を短縮し、高度なデータを基にした意思決定を支援することができるため、競争力の向上につながる。効果的な人事戦略の実現を助ける重要な要素である。",
+          "vi": "Ứng dụng AI, phần mềm và phân tích dữ liệu để tuyển dụng, quản lý, đánh giá và đào tạo nhân viên."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：HRテックの定義、目的と関連用語との違いを確認する。",
+          "vi": "HR Tech là công nghệ hỗ trợ nghiệp vụ nhân sự; talent management là chiến lược quản lý nhân tài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HRテック",
+          "english": "HR Technology",
+          "vi": "Công nghệ nhân sự (HR Tech)",
+          "definitionJa": "人材管理や人事業務を支援するための技術やツールを指すものである。",
+          "definitionVi": "Ứng dụng AI, phần mềm và phân tích dữ liệu để tuyển dụng, quản lý, đánh giá và đào tạo nhân viên.",
+          "reading": "えいちあーるてっく"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "hr-tech"
+      ]
+    },
+    {
+      "id": "retention",
+      "order": 31,
+      "titleJa": "リテンション",
+      "titleVi": "Giữ chân nhân viên",
+      "importance": "medium",
+      "summaryJa": "企業や組織が従業員を維持・定着させるための戦略やプロセスのことである。",
+      "summaryVi": "Các biện pháp giúp nhân viên tiếp tục gắn bó với doanh nghiệp, giảm nghỉ việc và chi phí tuyển dụng lại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リテンションとは",
+          "vi": "Giữ chân nhân viên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が従業員を維持・定着させるための戦略やプロセスのことである。特に人材の流出を防ぐために重要な要素とされ、従業員満足度の向上や職場環境の改善が含まれる。例えば、良好なコミュニケーションやキャリアパスの明示、福利厚生の充実などが、リテンション戦略において効果的である。また、リテンションに成功することで、企業は優秀な人材を保持でき、チーム全体の生産性を向上させることができる。これにより、転職によるコストや労力を削減し、組織の成長を促進する要因となる。",
+          "vi": "Các biện pháp giúp nhân viên tiếp tục gắn bó với doanh nghiệp, giảm nghỉ việc và chi phí tuyển dụng lại."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：リテンションの定義、目的と関連用語との違いを確認する。",
+          "vi": "Retention thường gắn với phúc lợi, môi trường làm việc và lộ trình thăng tiến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リテンション",
+          "english": "Retention",
+          "vi": "Giữ chân nhân viên",
+          "definitionJa": "企業や組織が従業員を維持・定着させるための戦略やプロセスのことである。",
+          "definitionVi": "Các biện pháp giúp nhân viên tiếp tục gắn bó với doanh nghiệp, giảm nghỉ việc và chi phí tuyển dụng lại.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "retention"
+      ]
+    },
+    {
+      "id": "talent-management",
+      "order": 32,
+      "titleJa": "タレントマネジメント",
+      "titleVi": "Quản trị nhân tài",
+      "importance": "medium",
+      "summaryJa": "企業や組織において人材を効果的に管理し、育成するための戦略や手法を指すものである。",
+      "summaryVi": "Nhận diện, tuyển chọn, phát triển, bố trí và giữ chân nhân lực có giá trị nhằm đáp ứng mục tiêu dài hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "タレントマネジメントとは",
+          "vi": "Quản trị nhân tài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において人材を効果的に管理し、育成するための戦略や手法を指すものである。具体的には、優れた人材を見つけ出し、その能力を最大限に引き出すためのプロセスを常に行うことを意味する。例えば、新入社員の教育プログラムや、リーダーシップ研修がこれにあたる。また、人材の適正を見極め、適切なポジションに配置することで、従業員の満足度向上や業務の効率化を図ることが可能である。企業の成長と持続可能性を支える重要な要素とも言える。",
+          "vi": "Nhận diện, tuyển chọn, phát triển, bố trí và giữ chân nhân lực có giá trị nhằm đáp ứng mục tiêu dài hạn."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：タレントマネジメントの定義、目的と関連用語との違いを確認する。",
+          "vi": "Talent management bao quát cả vòng đời nhân sự, không chỉ tuyển người giỏi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "タレントマネジメント",
+          "english": "Talent Management",
+          "vi": "Quản trị nhân tài",
+          "definitionJa": "企業や組織において人材を効果的に管理し、育成するための戦略や手法を指すものである。",
+          "definitionVi": "Nhận diện, tuyển chọn, phát triển, bố trí và giữ chân nhân lực có giá trị nhằm đáp ứng mục tiêu dài hạn.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "talent-management"
+      ]
+    },
+    {
+      "id": "empowerment",
+      "order": 33,
+      "titleJa": "エンパワーメント",
+      "titleVi": "Trao quyền",
+      "importance": "medium",
+      "summaryJa": "個人やチームが自らの能力を発揮し、意思決定や行動を行う力を与えることを指す。",
+      "summaryVi": "Giao quyền quyết định và trách nhiệm phù hợp để nhân viên chủ động thực hiện và cải tiến công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エンパワーメントとは",
+          "vi": "Trao quyền là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人やチームが自らの能力を発揮し、意思決定や行動を行う力を与えることを指す。これは主に組織や企業内での人材育成や役割の明確化に関連している。例えば、社員が自分の仕事に対して提案や改善を行える環境が整えられると、モチベーションが向上し、生産性が高まることが期待される。また、エンパワーメントはリーダーシップの一環として重要視されており、上司が部下に自由に意見を表明させたり、責任を持たせることで、より良い職場環境の構築に寄与する。これは組織全体の活性化にもつながり、競争力を高める要素ともなり得る。",
+          "vi": "Giao quyền quyết định và trách nhiệm phù hợp để nhân viên chủ động thực hiện và cải tiến công việc."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：エンパワーメントの定義、目的と関連用語との違いを確認する。",
+          "vi": "Trao quyền cần đi cùng trách nhiệm và nguồn lực, không phải bỏ mặc nhân viên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エンパワーメント",
+          "english": "Empowerment",
+          "vi": "Trao quyền",
+          "definitionJa": "個人やチームが自らの能力を発揮し、意思決定や行動を行う力を与えることを指す。",
+          "definitionVi": "Giao quyền quyết định và trách nhiệm phù hợp để nhân viên chủ động thực hiện và cải tiến công việc.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "empowerment"
+      ]
+    },
+    {
+      "id": "high-potential-individual",
+      "order": 34,
+      "titleJa": "HPI",
+      "titleVi": "Nhân sự tiềm năng cao (HPI)",
+      "importance": "medium",
+      "summaryJa": "高い潜在能力を持つ個人を指す言葉である。",
+      "summaryVi": "Người có năng lực phát triển lớn, có khả năng đảm nhiệm vị trí quan trọng hoặc lãnh đạo trong tương lai.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "HPIとは",
+          "vi": "Nhân sự tiềm năng cao (HPI) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "高い潜在能力を持つ個人を指す言葉である。これらの人材は、将来的にリーダーシップや重要な役割を担う可能性が非常に高いとされている。企業は、HPIを特定し育成することで、組織の成長や競争力を向上させることを目指している。例えば、新入社員の中から特に能力や適性が高い者を早期に見込み、その人に特別な研修やキャリアプランを提供することで、次世代のリーダーを育成することが挙げられる。このように、HPIに焦点を当てることで、組織は長期的な成功を確保できる。",
+          "vi": "Người có năng lực phát triển lớn, có khả năng đảm nhiệm vị trí quan trọng hoặc lãnh đạo trong tương lai."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：HPIの定義、目的と関連用語との違いを確認する。",
+          "vi": "HPI nhấn mạnh tiềm năng tương lai, không chỉ thành tích hiện tại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "HPI",
+          "english": "High Potential Individual",
+          "vi": "Nhân sự tiềm năng cao (HPI)",
+          "definitionJa": "高い潜在能力を持つ個人を指す言葉である。",
+          "definitionVi": "Người có năng lực phát triển lớn, có khả năng đảm nhiệm vị trí quan trọng hoặc lãnh đạo trong tương lai.",
+          "reading": "えいちぴーあい"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "high-potential-individual"
+      ]
+    },
+    {
+      "id": "work-engagement",
+      "order": 35,
+      "titleJa": "ワークエンゲージメント",
+      "titleVi": "Mức độ gắn kết với công việc",
+      "importance": "medium",
+      "summaryJa": "仕事に対する積極的な態度や情熱を指す概念である。",
+      "summaryVi": "Trạng thái tích cực khi người lao động nhiệt tình, tận tâm và tập trung vào công việc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークエンゲージメントとは",
+          "vi": "Mức độ gắn kết với công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仕事に対する積極的な態度や情熱を指す概念である。具体的には、従業員が自らの業務に深く関与し、やりがいを感じ、ポジティブな感情を持って業務に取り組む状態を表す。たとえば、プロジェクトに対して意欲的に取り組み、チームとの協力を楽しむ姿勢はワークエンゲージメントの一例である。高い従業員の生産性向上や離職率の低下に寄与し、企業全体のパフォーマンスを高める要因となる。また、良好な職場環境や適切なフィードバックも、このエンゲージメントを高める重要な要素である。",
+          "vi": "Trạng thái tích cực khi người lao động nhiệt tình, tận tâm và tập trung vào công việc."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ワークエンゲージメントの定義、目的と関連用語との違いを確認する。",
+          "vi": "Work engagement thường gồm nhiệt huyết, cống hiến và say mê công việc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークエンゲージメント",
+          "english": "Work Engagement",
+          "vi": "Mức độ gắn kết với công việc",
+          "definitionJa": "仕事に対する積極的な態度や情熱を指す概念である。",
+          "definitionVi": "Trạng thái tích cực khi người lao động nhiệt tình, tận tâm và tập trung vào công việc.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "work-engagement"
+      ]
+    },
+    {
+      "id": "work-life-balance",
+      "order": 36,
+      "titleJa": "ワークライフバランス",
+      "titleVi": "Cân bằng công việc và cuộc sống",
+      "importance": "medium",
+      "summaryJa": "仕事と私生活の調和を保つことを指す概念である。",
+      "summaryVi": "Duy trì sự hài hòa giữa trách nhiệm nghề nghiệp và đời sống cá nhân để tăng sức khỏe, sự hài lòng và hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークライフバランスとは",
+          "vi": "Cân bằng công việc và cuộc sống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仕事と私生活の調和を保つことを指す概念である。これは、仕事の時間と家庭や趣味との時間をうまく配分し、両方を充実させることを目的としている。例えば、働く時間が長すぎると家庭の時間が蔑ろになりがちなため、企業はフレックスタイム制度やリモートワークを導入することで、従業員がより自由に時間を使える環境を整えている。また、ワークライフバランスの向上は、従業員のモチベーションや生産性にも良い影響を与えるため、企業にとっても重要な課題となっている。このように、ワークライフバランスは現代の働き方において非常に重要な要素である。",
+          "vi": "Duy trì sự hài hòa giữa trách nhiệm nghề nghiệp và đời sống cá nhân để tăng sức khỏe, sự hài lòng và hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ワークライフバランスの定義、目的と関連用語との違いを確認する。",
+          "vi": "Không có nghĩa bắt buộc chia thời gian 50–50; trọng tâm là sự hài hòa phù hợp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークライフバランス",
+          "english": "Work-Life Balance",
+          "vi": "Cân bằng công việc và cuộc sống",
+          "definitionJa": "仕事と私生活の調和を保つことを指す概念である。",
+          "definitionVi": "Duy trì sự hài hòa giữa trách nhiệm nghề nghiệp và đời sống cá nhân để tăng sức khỏe, sự hài lòng và hiệu quả.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "work-life-balance"
+      ]
+    },
+    {
+      "id": "work-sharing",
+      "order": 37,
+      "titleJa": "ワークシェアリング",
+      "titleVi": "Chia sẻ việc làm",
+      "importance": "medium",
+      "summaryJa": "仕事の分担を通じて雇用の維持や労働時間の短縮を目指す制度である。",
+      "summaryVi": "Phân chia khối lượng công việc hoặc giờ làm giữa nhiều người để duy trì hay tạo thêm việc làm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ワークシェアリングとは",
+          "vi": "Chia sẻ việc làm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仕事の分担を通じて雇用の維持や労働時間の短縮を目指す制度である。これは、複数の人が同じ仕事を分け合うことで、一人あたりの労働時間を減らし、雇用を創出する方法である。たとえば、会社が業務量の減少に直面した際、フルタイムの従業員を解雇する代わりに、労働時間を短縮し、複数のパートタイムの従業員でその業務を担うケースがある。労働市場の安定を図るとともに、働きやすい環境の整備にも寄与するため、特に不況時に活用されることが多い。",
+          "vi": "Phân chia khối lượng công việc hoặc giờ làm giữa nhiều người để duy trì hay tạo thêm việc làm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ワークシェアリングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Work sharing là chia công việc, khác với work-life balance là cân bằng cuộc sống."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ワークシェアリング",
+          "english": "Work Sharing",
+          "vi": "Chia sẻ việc làm",
+          "definitionJa": "仕事の分担を通じて雇用の維持や労働時間の短縮を目指す制度である。",
+          "definitionVi": "Phân chia khối lượng công việc hoặc giờ làm giữa nhiều người để duy trì hay tạo thêm việc làm.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "work-sharing"
+      ]
+    },
+    {
+      "id": "telework",
+      "order": 38,
+      "titleJa": "テレワーク",
+      "titleVi": "Làm việc từ xa",
+      "importance": "high",
+      "summaryJa": "企業が従業員に対して自宅や他の場所で業務を行うことを許可する働き方である。",
+      "summaryVi": "Làm việc ngoài văn phòng chính nhờ công nghệ thông tin, có thể tại nhà hoặc văn phòng vệ tinh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "テレワークとは",
+          "vi": "Làm việc từ xa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が従業員に対して自宅や他の場所で業務を行うことを許可する働き方である。テレワークでは、インターネットや通信ツールを使って、物理的なオフィスに出勤することなく仕事を進める。この働き方は、通勤時間の削減や柔軟な勤務時間を提供するため、特に家族の事情や健康上の理由からオフィスでの勤務が難しい人にとって利便性が高い。最近では、コロナウイルスの影響により多くの企業がテレワークを導入し、従業員の安全を確保しつつも業務を継続する方法として広まりつつある。業務の効率化やワークライフバランスの向上にも寄与する重要な働き方となっている。",
+          "vi": "Làm việc ngoài văn phòng chính nhờ công nghệ thông tin, có thể tại nhà hoặc văn phòng vệ tinh."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：テレワークの定義、目的と関連用語との違いを確認する。",
+          "vi": "Telework bao gồm làm tại nhà, di động và văn phòng vệ tinh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "テレワーク",
+          "english": "Telework",
+          "vi": "Làm việc từ xa",
+          "definitionJa": "企業が従業員に対して自宅や他の場所で業務を行うことを許可する働き方である。",
+          "definitionVi": "Làm việc ngoài văn phòng chính nhờ công nghệ thông tin, có thể tại nhà hoặc văn phòng vệ tinh.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "telework"
+      ]
+    },
+    {
+      "id": "dei",
+      "order": 39,
+      "titleJa": "DE&I",
+      "titleVi": "Đa dạng, công bằng và hòa nhập (DE&I)",
+      "importance": "high",
+      "summaryJa": "多様性、公平性、包括性を重視する考え方であり、主に企業や組織の人材管理に関連する。",
+      "summaryVi": "Xây dựng tổ chức coi trọng sự khác biệt, bảo đảm cơ hội công bằng theo nhu cầu và tạo điều kiện mọi người tham gia.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DE&Iとは",
+          "vi": "Đa dạng, công bằng và hòa nhập (DE&I) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多様性、公平性、包括性を重視する考え方であり、主に企業や組織の人材管理に関連する。多様性は、さまざまなバックグラウンドや視点を持つ人々の存在を指し、公平性は全ての人に平等な機会を提供することを意味する。そして、包括性は、全ての人が参加し、意見を表明できる環境を整えることを重視する。この考え方が浸透すると、創造性や革新性が高まり、組織全体のパフォーマンス向上に繋がる。例えば、様々な文化や価値観を持つ社員が共に働くことで、より多角的な解決策が生まれるため、企業の競争力を高めることが期待される。",
+          "vi": "Xây dựng tổ chức coi trọng sự khác biệt, bảo đảm cơ hội công bằng theo nhu cầu và tạo điều kiện mọi người tham gia."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：DE&Iの定義、目的と関連用語との違いを確認する。",
+          "vi": "Diversity = đa dạng; Equity = công bằng phù hợp hoàn cảnh; Inclusion = hòa nhập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DE&I",
+          "english": "Diversity, Equity & Inclusion",
+          "vi": "Đa dạng, công bằng và hòa nhập (DE&I)",
+          "definitionJa": "多様性、公平性、包括性を重視する考え方であり、主に企業や組織の人材管理に関連する。",
+          "definitionVi": "Xây dựng tổ chức coi trọng sự khác biệt, bảo đảm cơ hội công bằng theo nhu cầu và tạo điều kiện mọi người tham gia.",
+          "reading": "でぃーいーあんどあい"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "dei"]
+    },
+    {
+      "id": "well-being",
+      "order": 40,
+      "titleJa": "ウェルビーイング",
+      "titleVi": "An sinh và hạnh phúc toàn diện",
+      "importance": "medium",
+      "summaryJa": "心身の健康や幸福感を含む総合的な状態を指す概念である。",
+      "summaryVi": "Trạng thái tốt về thể chất, tinh thần và xã hội, bao gồm cảm giác hài lòng, có ý nghĩa và được hỗ trợ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ウェルビーイングとは",
+          "vi": "An sinh và hạnh phúc toàn diện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "心身の健康や幸福感を含む総合的な状態を指す概念である。個人が身体的、精神的、社会的に満たされた状態であることを強調しており、単なる健康の維持だけでなく、充実感や自己実現の感覚も重要視される。例えば、職場におけるウェルビーイングの向上は、従業員の生産性や満足度にも影響を与えるため、企業はいかにして良好な労働環境を整えるかを考えるべきである。また、メンタルヘルス支援やワークライフバランスの促進もウェルビーイングの一環として重要であり、個人や組織の成長にとって不可欠な要素とされている。",
+          "vi": "Trạng thái tốt về thể chất, tinh thần và xã hội, bao gồm cảm giác hài lòng, có ý nghĩa và được hỗ trợ."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ウェルビーイングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Well-being rộng hơn sức khỏe thể chất hoặc chỉ không mắc bệnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ウェルビーイング",
+          "english": "Well-being",
+          "vi": "An sinh và hạnh phúc toàn diện",
+          "definitionJa": "心身の健康や幸福感を含む総合的な状態を指す概念である。",
+          "definitionVi": "Trạng thái tốt về thể chất, tinh thần và xã hội, bao gồm cảm giác hài lòng, có ý nghĩa và được hỗ trợ.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "well-being"
+      ]
+    },
+    {
+      "id": "logical-thinking",
+      "order": 41,
+      "titleJa": "ロジカルシンキング",
+      "titleVi": "Tư duy logic",
+      "importance": "medium",
+      "summaryJa": "論理的な思考方法を意味するものである。",
+      "summaryVi": "Sắp xếp luận điểm và bằng chứng nhất quán để phân tích nguyên nhân, giải quyết vấn đề và ra quyết định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロジカルシンキングとは",
+          "vi": "Tư duy logic là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "論理的な思考方法を意味するものである。この考え方は、物事を筋道を立てて考えることで、問題解決や意思決定をより効果的に行うための技術である。例えば、何かの問題に直面した際に、その原因を特定し、解決策を見出すために、情報を整理し、関係性を明確にすることが求められる。一般的には、フレームワークや分析手法を使用して、論理的な流れを作り出し、思考の精度を向上させる手法が含まれる。ビジネスや学問の場面で幅広く利用され、効果的なコミュニケーションやアイデアの表現にも役立つ。",
+          "vi": "Sắp xếp luận điểm và bằng chứng nhất quán để phân tích nguyên nhân, giải quyết vấn đề và ra quyết định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ロジカルシンキングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Nhận diện quan hệ nhân quả, giả định và bằng chứng; tránh suy luận thiếu cơ sở."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロジカルシンキング",
+          "english": "Logical Thinking",
+          "vi": "Tư duy logic",
+          "definitionJa": "論理的な思考方法を意味するものである。",
+          "definitionVi": "Sắp xếp luận điểm và bằng chứng nhất quán để phân tích nguyên nhân, giải quyết vấn đề và ra quyết định.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "logical-thinking"
+      ]
+    },
+    {
+      "id": "vertical-thinking",
+      "order": 42,
+      "titleJa": "垂直思考",
+      "titleVi": "Tư duy chiều dọc",
+      "importance": "medium",
+      "summaryJa": "問題解決や意思決定において、論理的かつ体系的に情報を整理しながら進める思考方法である。",
+      "summaryVi": "Đào sâu từng bước theo logic và dữ kiện để tìm lời giải trong một hướng tiếp cận xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "垂直思考とは",
+          "vi": "Tư duy chiều dọc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題解決や意思決定において、論理的かつ体系的に情報を整理しながら進める思考方法である。このアプローチでは、根拠に基づいて一つの方向に向けて深掘りをし、効果的な解決策を見出すことを目指す。例えば、ある課題に対して様々な選択肢を整理し、それぞれのメリットとデメリットを比較した後、最も適した解決策を見つけるプロセスが挙げられる。この思考法は、特にビジネスや学問において広く用いられ、効率よく問題を解決するための強力な手段となる。また、クリエイティブなアプローチとは対照的に、明確な手順に沿った思考を重視するため、一定のフレームワーク内での問題解決に適している。",
+          "vi": "Đào sâu từng bước theo logic và dữ kiện để tìm lời giải trong một hướng tiếp cận xác định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：垂直思考の定義、目的と関連用語との違いを確認する。",
+          "vi": "Vertical thinking đào sâu có hệ thống; lateral thinking tìm hướng mới."
+        }
+      ],
+      "terms": [
+        {
+          "term": "垂直思考",
+          "english": "Vertical Thinking",
+          "vi": "Tư duy chiều dọc",
+          "definitionJa": "問題解決や意思決定において、論理的かつ体系的に情報を整理しながら進める思考方法である。",
+          "definitionVi": "Đào sâu từng bước theo logic và dữ kiện để tìm lời giải trong một hướng tiếp cận xác định.",
+          "reading": "すいちょくしこう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "vertical-thinking"
+      ]
+    },
+    {
+      "id": "lateral-thinking",
+      "order": 43,
+      "titleJa": "水平思考",
+      "titleVi": "Tư duy chiều ngang",
+      "importance": "medium",
+      "summaryJa": "問題を解決するために新しい視点やアプローチを用いる方法論である。",
+      "summaryVi": "Phá bỏ khuôn mẫu và thay đổi góc nhìn để tạo ý tưởng, giải pháp sáng tạo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "水平思考とは",
+          "vi": "Tư duy chiều ngang là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題を解決するために新しい視点やアプローチを用いる方法論である。従来の論理的思考とは異なり、既成概念にとらわれず、創造的に考えることを強調する。例えば、ビジネスの場で新しい製品を開発する際、顧客のニーズを満たすだけでなく、全く違った分野やアイデアを組み合わせることで新たな価値を生むことができる。このように、水平思考は斬新なアイデアを出すために非常に有効な手法であり、個人やチームが直面するクリエイティブな課題の解決に役立つ。",
+          "vi": "Phá bỏ khuôn mẫu và thay đổi góc nhìn để tạo ý tưởng, giải pháp sáng tạo."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：水平思考の定義、目的と関連用語との違いを確認する。",
+          "vi": "Horizontal/lateral thinking khuyến khích liên tưởng và phương án khác thường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "水平思考",
+          "english": "Lateral Thinking",
+          "vi": "Tư duy chiều ngang",
+          "definitionJa": "問題を解決するために新しい視点やアプローチを用いる方法論である。",
+          "definitionVi": "Phá bỏ khuôn mẫu và thay đổi góc nhìn để tạo ý tưởng, giải pháp sáng tạo.",
+          "reading": "すいへいしこう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "lateral-thinking"
+      ]
+    },
+    {
+      "id": "hypothesis-thinking",
+      "order": 44,
+      "titleJa": "仮説思考",
+      "titleVi": "Tư duy giả thuyết",
+      "importance": "medium",
+      "summaryJa": "問題を解決するための方法論の一つである。",
+      "summaryVi": "Đưa ra giả thuyết ban đầu, thu thập bằng chứng kiểm chứng rồi điều chỉnh kết luận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "仮説思考とは",
+          "vi": "Tư duy giả thuyết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "問題を解決するための方法論の一つである。これは、ある現象や状況に対して仮説を立て、それを検証していくプロセスを指す。仮説思考では、まず特定の問題についての予想や推測を行い、その後、実験や観察を通じてその仮説が正しいかどうかを確認する。このアプローチは、科学的な研究やビジネスの戦略策定において非常に有効であり、実際のデータに基づいた判断を促進する。また、仮説思考を用いることで、柔軟な思考を育むことができ、新たな視点から問題を分析する助けとなる。",
+          "vi": "Đưa ra giả thuyết ban đầu, thu thập bằng chứng kiểm chứng rồi điều chỉnh kết luận."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：仮説思考の定義、目的と関連用語との違いを確認する。",
+          "vi": "Chu trình: đặt giả thuyết → kiểm chứng bằng dữ liệu → chấp nhận hoặc bác bỏ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "仮説思考",
+          "english": "Hypothetical Thinking",
+          "vi": "Tư duy giả thuyết",
+          "definitionJa": "問題を解決するための方法論の一つである。",
+          "definitionVi": "Đưa ra giả thuyết ban đầu, thu thập bằng chứng kiểm chứng rồi điều chỉnh kết luận.",
+          "reading": "かせつしこう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "hypothesis-thinking"
+      ]
+    },
+    {
+      "id": "hygiene-theory",
+      "order": 45,
+      "titleJa": "衛生理論",
+      "titleVi": "Thuyết hai nhân tố Herzberg (động lực – duy trì)",
+      "importance": "high",
+      "summaryJa": "職場の動機付けにおける衛生要因と動機付け要因の違いを考える概念（原文の説明には注意が必要）。",
+      "summaryVi": "Trong quản trị nhân sự, phân biệt nhân tố duy trì như lương, điều kiện làm việc với nhân tố tạo động lực như thành tựu và sự ghi nhận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "衛生理論とは",
+          "vi": "Thuyết hai nhân tố Herzberg (động lực – duy trì) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人間の行動や心理が健康に与える影響を研究する学問の一分野である。この理論は、個人や集団の健康を促進するために、どういった行動が有効であるかを探求するもので、予防医療や公共衛生の施策にも関連している。具体的には、生活習慣や環境要因が健康に及ぼす影響を分析し、効果的な介入方法を提案することが目的である。衛生理論を理解することで、人々がより健全な生活を送るための行動変容を促すことができる。そのため、教育や啓発活動においても重要な役割を果たしている。",
+          "vi": "Trong quản trị nhân sự, phân biệt nhân tố duy trì như lương, điều kiện làm việc với nhân tố tạo động lực như thành tựu và sự ghi nhận."
+        },
+        {
+          "type": "point",
+          "ja": "原文注意：FEの経営学でいう衛生理論はハーズバーグの二要因理論と関連する。原文の公衆衛生に関する説明は文脈に合わない可能性がある。",
+          "vi": "CẢNH BÁO: phần giải thích 衛生理論 trong nguồn mô tả sức khỏe cộng đồng, có dấu hiệu sai ngữ cảnh FE; cần đối chiếu thuyết Herzberg."
+        }
+      ],
+      "terms": [
+        {
+          "term": "衛生理論",
+          "english": "Health Theory",
+          "vi": "Thuyết hai nhân tố Herzberg (động lực – duy trì)",
+          "definitionJa": "職場の動機付けにおける衛生要因と動機付け要因の違いを考える概念（原文の説明には注意が必要）。",
+          "definitionVi": "Trong quản trị nhân sự, phân biệt nhân tố duy trì như lương, điều kiện làm việc với nhân tố tạo động lực như thành tựu và sự ghi nhận.",
+          "reading": "えいせいりろん"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "hygiene-theory"
+      ]
+    },
+    {
+      "id": "xy-theory",
+      "order": 46,
+      "titleJa": "XY理論",
+      "titleVi": "Thuyết X và thuyết Y",
+      "importance": "high",
+      "summaryJa": "組織における人間の行動やモチベーションを説明する理論の一つである。",
+      "summaryVi": "McGregor đưa ra hai quan điểm quản lý: X cho rằng nhân viên cần giám sát chặt; Y cho rằng họ có thể tự chủ và phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "XY理論とは",
+          "vi": "Thuyết X và thuyết Y là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織における人間の行動やモチベーションを説明する理論の一つである。この理論は、2つの異なる人間観に基づき、管理スタイルの違いを示す。一方のX理論は、人間を働くことを嫌い、自発性がないと見なし、厳しい管理で動機付ける必要があると考える。もう一方のY理論は、人間を自発的で成長を求める存在として捉え、自由な環境を提供することで自然に成果を上げるとする。この2つの理論は、マネジメントにおけるアプローチを見直すための重要な視点を提供し、組織の文化や人材育成に影響を与えている。",
+          "vi": "McGregor đưa ra hai quan điểm quản lý: X cho rằng nhân viên cần giám sát chặt; Y cho rằng họ có thể tự chủ và phát triển."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：XY理論の定義、目的と関連用語との違いを確認する。",
+          "vi": "X thiên về kiểm soát; Y thiên về tin tưởng, trao quyền và khuyến khích chủ động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "XY理論",
+          "english": "XY Theory",
+          "vi": "Thuyết X và thuyết Y",
+          "definitionJa": "組織における人間の行動やモチベーションを説明する理論の一つである。",
+          "definitionVi": "McGregor đưa ra hai quan điểm quản lý: X cho rằng nhân viên cần giám sát chặt; Y cho rằng họ có thể tự chủ và phát triển.",
+          "reading": "えっくすわいりろん"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "xy-theory"
+      ]
+    },
+    {
+      "id": "bcp-second",
+      "order": 47,
+      "titleJa": "BCP",
+      "titleVi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
+      "importance": "high",
+      "summaryJa": "事業継続計画のことである。",
+      "summaryVi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BCPとは",
+          "vi": "Kế hoạch duy trì hoạt động kinh doanh (BCP) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業継続計画のことである。この計画は、自然災害や事故など、予期しない事態が発生した際に、企業の重要な業務を継続または迅速に再開するための方針や手順を定めたものである。例えば、地震によってオフィスが使用できなくなった場合、代替の業務拠点を用意したり、従業員がリモートで作業できる体制を整えたりすることがBCPに含まれる。また、情報システムのバックアップやデータ復旧の手段を明確にすることで、業務への影響を最小限に抑えることが可能になる。これにより、企業は顧客や取引先への信頼を維持し、競争力を保つことができる。",
+          "vi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống."
+        },
+        {
+          "type": "point",
+          "ja": "原文ではBCPが2回掲載されているため、両方の項目を保持する。",
+          "vi": "Thuật ngữ BCP xuất hiện hai lần trong tài liệu gốc; giữ nguyên cả hai bài để đủ 81 mục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BCP",
+          "english": "Business Continuity Plan",
+          "vi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
+          "definitionJa": "事業継続計画のことである。",
+          "definitionVi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống.",
+          "reading": "びーしーぴー"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "bcp-second"
+      ]
+    },
+    {
+      "id": "bcm",
+      "order": 48,
+      "titleJa": "BCM",
+      "titleVi": "Quản lý duy trì hoạt động kinh doanh (BCM)",
+      "importance": "high",
+      "summaryJa": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。",
+      "summaryVi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BCMとは",
+          "vi": "Quản lý duy trì hoạt động kinh doanh (BCM) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。リスクを識別・評価し、それに対する対策を策定することで、業務の再開を迅速に行うことを目的としている。たとえば、自然災害やサイバー攻撃が発生した場合でも、重要な業務が継続できるように、代替手段やバックアップ体制を構築することが求められる。BCMの取り組みを通じて、企業はリスクを最小限に抑え、信頼性を高め、顧客やステークホルダーに対しても安心感を提供することができる。",
+          "vi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：BCMの定義、目的と関連用語との違いを確認する。",
+          "vi": "BCM là hệ thống hoạt động quản lý; BCP là tài liệu kế hoạch cụ thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BCM",
+          "english": "Business Continuity Management",
+          "vi": "Quản lý duy trì hoạt động kinh doanh (BCM)",
+          "definitionJa": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。",
+          "definitionVi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP.",
+          "reading": "びーしーえむ"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "bcm"]
+    },
+    {
+      "id": "jis-q-22301",
+      "order": 49,
+      "titleJa": "JIS Q 22301",
+      "titleVi": "Tiêu chuẩn JIS Q 22301",
+      "importance": "medium",
+      "summaryJa": "組織の事業継続マネジメントシステムに関する国際規格ISO 22301のJIS版である。",
+      "summaryVi": "Tiêu chuẩn Nhật dựa trên ISO 22301 về hệ thống quản lý duy trì hoạt động kinh doanh (BCMS).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 22301とは",
+          "vi": "Tiêu chuẩn JIS Q 22301 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の事業継続マネジメントシステムに関する国際規格ISO 22301のJIS版である。これにより、自然災害や人為的な事件などのリスクにより業務が中断した際にも、早期に回復するための計画を策定し、実行する枠組みが提供される。この規格は、組織が持続的に運営されるために必要な措置を講じることを重視しており、リスクの評価、対応策の策定、演習の実施などのプロセスが含まれる。また、ISO 22301は国際的に認知された基準であり、企業が信頼性の高いサービスを提供することを目的としている。",
+          "vi": "Tiêu chuẩn Nhật dựa trên ISO 22301 về hệ thống quản lý duy trì hoạt động kinh doanh (BCMS)."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：JIS Q 22301の定義、目的と関連用語との違いを確認する。",
+          "vi": "Liên hệ JIS Q 22301 ↔ ISO 22301 ↔ BCM/BCMS; chú trọng chuẩn bị và cải tiến liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 22301",
+          "english": "JIS Q 22301",
+          "vi": "Tiêu chuẩn JIS Q 22301",
+          "definitionJa": "組織の事業継続マネジメントシステムに関する国際規格ISO 22301のJIS版である。",
+          "definitionVi": "Tiêu chuẩn Nhật dựa trên ISO 22301 về hệ thống quản lý duy trì hoạt động kinh doanh (BCMS).",
+          "reading": "じすきゅー22301"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "jis-q-22301"
+      ]
+    },
+    {
+      "id": "business-impact-analysis",
+      "order": 50,
+      "titleJa": "事業影響度分析",
+      "titleVi": "Phân tích tác động kinh doanh (BIA)",
+      "importance": "high",
+      "summaryJa": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。",
+      "summaryVi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "事業影響度分析とは",
+          "vi": "Phân tích tác động kinh doanh (BIA) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。この分析によって、重要な業務プロセスやサービス、リソースが特定され、それらが中断した場合の損失や影響を定量的に評価することが可能になる。たとえば、システム障害や自然災害などが発生した場合に、どの業務が最も影響を受けるかを事前に把握することで、適切な対策を講じたり、復旧計画を策定したりするのに役立つ。リスク管理の一環として、企業の継続性を確保するための重要なプロセスである。",
+          "vi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：事業影響度分析の定義、目的と関連用語との違いを確認する。",
+          "vi": "BIA giúp xác định nghiệp vụ trọng yếu, mức thiệt hại và thời gian gián đoạn chấp nhận được."
+        }
+      ],
+      "terms": [
+        {
+          "term": "事業影響度分析",
+          "english": "Business Impact Analysis",
+          "vi": "Phân tích tác động kinh doanh (BIA)",
+          "definitionJa": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。",
+          "definitionVi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục.",
+          "reading": "じぎょうえいきょうどぶんせき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "business-impact-analysis"
+      ]
+    },
+    {
+      "id": "hierarchical-organization",
+      "order": 51,
+      "titleJa": "階層型組織",
+      "titleVi": "Tổ chức phân cấp",
+      "importance": "medium",
+      "summaryJa": "組織内の役職や職務が階層的に配置される構造を指す。",
+      "summaryVi": "Cơ cấu nhiều cấp quản lý, chỉ huy theo tuyến trên–dưới với quyền hạn và trách nhiệm rõ ràng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "階層型組織とは",
+          "vi": "Tổ chức phân cấp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内の役職や職務が階層的に配置される構造を指す。上位の管理職が戦略的な意思決定を行い、下位の職員がその指示に従い具体的な業務を遂行する仕組みである。このような構造により、役割や責任が明確になり、指揮命令系統が整然と保たれる。典型的な例として、大企業の部門や部署が挙げられるが、効率的な業務運営や目標達成に貢献する一方、情報伝達の遅れや柔軟性の欠如といった課題も存在する。そのため、チームワークやコミュニケーションの工夫が求められることがある。",
+          "vi": "Cơ cấu nhiều cấp quản lý, chỉ huy theo tuyến trên–dưới với quyền hạn và trách nhiệm rõ ràng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：階層型組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "Ưu điểm: mệnh lệnh rõ; nhược điểm: phản hồi chậm, ít linh hoạt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "階層型組織",
+          "english": "Hierarchical Organization",
+          "vi": "Tổ chức phân cấp",
+          "definitionJa": "組織内の役職や職務が階層的に配置される構造を指す。",
+          "definitionVi": "Cơ cấu nhiều cấp quản lý, chỉ huy theo tuyến trên–dưới với quyền hạn và trách nhiệm rõ ràng.",
+          "reading": "かいそうがたそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "hierarchical-organization"
+      ]
+    },
+    {
+      "id": "divisional-organization",
+      "order": 52,
+      "titleJa": "事業部制組織",
+      "titleVi": "Tổ chức theo đơn vị kinh doanh",
+      "importance": "high",
+      "summaryJa": "企業が事業ごとに独立した部門を設ける組織形態である。",
+      "summaryVi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "事業部制組織とは",
+          "vi": "Tổ chức theo đơn vị kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が事業ごとに独立した部門を設ける組織形態である。このシステムでは、各事業部がそれぞれの製品やサービスの開発、販売、マーケティングを担当し、特有の市場ニーズに応えることが可能となる。たとえば、自動車製造会社が乗用車部門、トラック部門、バス部門を持つことで、それぞれの市場に迅速に対応できるようになる。このように、事業部制は企業が複数の製品ラインを扱う際に効果的であり、責任範囲が明確になるため、柔軟性や迅速な意思決定を実現しやすい利点がある。",
+          "vi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：事業部制組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "事業部制 theo đơn vị kinh doanh; 職能別 theo chức năng chuyên môn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "事業部制組織",
+          "english": "Divisional Organization",
+          "vi": "Tổ chức theo đơn vị kinh doanh",
+          "definitionJa": "企業が事業ごとに独立した部門を設ける組織形態である。",
+          "definitionVi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả.",
+          "reading": "じぎょうぶせいそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "divisional-organization"
+      ]
+    },
+    {
+      "id": "functional-organization",
+      "order": 53,
+      "titleJa": "職能別組織",
+      "titleVi": "Tổ chức theo chức năng",
+      "importance": "high",
+      "summaryJa": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。",
+      "summaryVi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "職能別組織とは",
+          "vi": "Tổ chức theo chức năng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。例えば、営業、経理、製造などの部門が独立して存在し、それぞれが専門的な職務を遂行する。この仕組みにより、各部門は専門的な知識を活用して効率的に業務を行うことができる。また、職能別組織は専門性の向上や情報の共有が進む一方で、部門間のコミュニケーションが不足する可能性もある。これにより、組織全体の統一性を保つためには、適切な調整が必要である。",
+          "vi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：職能別組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "Tăng chuyên môn hóa nhưng dễ phát sinh chia cắt thông tin giữa phòng ban."
+        }
+      ],
+      "terms": [
+        {
+          "term": "職能別組織",
+          "english": "Functional Organization",
+          "vi": "Tổ chức theo chức năng",
+          "definitionJa": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。",
+          "definitionVi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự.",
+          "reading": "しょくのうべつそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "functional-organization"
+      ]
+    },
+    {
+      "id": "matrix-organization",
+      "order": 54,
+      "titleJa": "マトリックス組織",
+      "titleVi": "Tổ chức ma trận",
+      "importance": "high",
+      "summaryJa": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。",
+      "summaryVi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "マトリックス組織とは",
+          "vi": "Tổ chức ma trận là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。この構造は、特に大規模なプロジェクトや複雑な業務において、柔軟性と協力を促進することを目指す。例えば、製品開発においては、技術部門と営業部門の両方から支援を受けることで、製品の市場適応性を高めることができる。また、マトリックス組織は情報共有を円滑にし、専門知識を活かして迅速な意思決定を支援する役割も持つ反面、役割や責任の不明確さから混乱を招く可能性もあるため、注意が必要である。",
+          "vi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：マトリックス組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "Dấu hiệu nhận diện: hai tuyến chỉ huy; ưu điểm linh hoạt, nhược điểm xung đột chỉ đạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "マトリックス組織",
+          "english": "Matrix Organization",
+          "vi": "Tổ chức ma trận",
+          "definitionJa": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。",
+          "definitionVi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm.",
+          "reading": "まとりっくすそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "matrix-organization"
+      ]
+    },
+    {
+      "id": "project-organization",
+      "order": 55,
+      "titleJa": "プロジェクト組織",
+      "titleVi": "Tổ chức dự án",
+      "importance": "medium",
+      "summaryJa": "特定のプロジェクトを円滑に進めるために設計された一時的な組織形態である。",
+      "summaryVi": "Nhóm tạm thời gồm người từ nhiều chuyên môn để thực hiện mục tiêu trong thời hạn nhất định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プロジェクト組織とは",
+          "vi": "Tổ chức dự án là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定のプロジェクトを円滑に進めるために設計された一時的な組織形態である。この組織は、プロジェクトの目標達成に向けて必要な専門知識や技術を持つメンバーを集めて構成される。通常、プロジェクトには期間が定められており、目的を達成するとメンバーは解散するか、他のプロジェクトへ移る。タスクを効率的に管理し、迅速に意思決定を行うことができるため、限られた時間内に成果を出すための手段として広く採用されている。さらに、クロスファンクショナルチームを形成することで、異なる専門分野の知識を活用し、創造的な解決策を生み出すことが期待されている。",
+          "vi": "Nhóm tạm thời gồm người từ nhiều chuyên môn để thực hiện mục tiêu trong thời hạn nhất định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：プロジェクト組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "Dự án kết thúc thì nhóm có thể giải thể; khác phòng ban thường trực."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プロジェクト組織",
+          "english": "Project Organization",
+          "vi": "Tổ chức dự án",
+          "definitionJa": "特定のプロジェクトを円滑に進めるために設計された一時的な組織形態である。",
+          "definitionVi": "Nhóm tạm thời gồm người từ nhiều chuyên môn để thực hiện mục tiêu trong thời hạn nhất định.",
+          "reading": "ぷろじぇくとそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "project-organization"
+      ]
+    },
+    {
+      "id": "company-system",
+      "order": 56,
+      "titleJa": "カンパニー制組織",
+      "titleVi": "Cơ cấu công ty nội bộ (Company system)",
+      "importance": "medium",
+      "summaryJa": "企業がより効率的に業務を遂行するために採用する組織形態の一つである。",
+      "summaryVi": "Chia doanh nghiệp thành các đơn vị kinh doanh có quyền tự chủ cao và trách nhiệm về kết quả tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "カンパニー制組織とは",
+          "vi": "Cơ cấu công ty nội bộ (Company system) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業がより効率的に業務を遂行するために採用する組織形態の一つである。このシステムでは、企業を小規模な独立した部門に分割し、各部門が自らの責任で業務を運営する。これにより、迅速な意思決定と柔軟な対応が可能になり、各部門間の競争が生まれて成果の向上が期待される。例えば、製品別や地域別のカンパニーを設置することで、特定の市場ニーズにより適した戦略を展開できる。また、各カンパニーが財務的な責任を持つことで、リーダーシップの強化にも寄与する。",
+          "vi": "Chia doanh nghiệp thành các đơn vị kinh doanh có quyền tự chủ cao và trách nhiệm về kết quả tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：カンパニー制組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "カンパニー制 thường phân quyền mạnh hơn mô hình 事業部制 thông thường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カンパニー制組織",
+          "english": "Company System Organization",
+          "vi": "Cơ cấu công ty nội bộ (Company system)",
+          "definitionJa": "企業がより効率的に業務を遂行するために採用する組織形態の一つである。",
+          "definitionVi": "Chia doanh nghiệp thành các đơn vị kinh doanh có quyền tự chủ cao và trách nhiệm về kết quả tài chính.",
+          "reading": "かんぱにーせいそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "company-system"
+      ]
+    },
+    {
+      "id": "line-and-staff-organization",
+      "order": 57,
+      "titleJa": "ラインアンドスタッフ組織",
+      "titleVi": "Tổ chức tuyến và tham mưu",
+      "importance": "medium",
+      "summaryJa": "企業や組織の構造の一つで、業務の指揮命令系統（ライン）と専門的な支援部門（スタッフ）を組み合わせた形態である。",
+      "summaryVi": "Kết hợp bộ phận tuyến trực tiếp ra lệnh, vận hành với bộ phận tham mưu cung cấp tư vấn chuyên môn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ラインアンドスタッフ組織とは",
+          "vi": "Tổ chức tuyến và tham mưu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の構造の一つで、業務の指揮命令系統（ライン）と専門的な支援部門（スタッフ）を組み合わせた形態である。ライン部門は主に製品やサービスの運営に直接関与し、スタッフ部門は戦略的な助言や支援を提供する役割を担う。例えば、ライン部門は製造や販売を行う一方、スタッフ部門は人事や財務、マーケティングなどの専門知識を持ち、ラインの意思決定をサポートする。これにより、組織は効率的に機能し、専門性を生かした意思決定が可能となる。結果として、業務のスピードと質が向上し、競争力を維持する手助けとなる。",
+          "vi": "Kết hợp bộ phận tuyến trực tiếp ra lệnh, vận hành với bộ phận tham mưu cung cấp tư vấn chuyên môn."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：ラインアンドスタッフ組織の定義、目的と関連用語との違いを確認する。",
+          "vi": "Line có quyền chỉ huy; Staff hỗ trợ tư vấn, không tự động chỉ huy tuyến."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ラインアンドスタッフ組織",
+          "english": "Line and Staff Organization",
+          "vi": "Tổ chức tuyến và tham mưu",
+          "definitionJa": "企業や組織の構造の一つで、業務の指揮命令系統（ライン）と専門的な支援部門（スタッフ）を組み合わせた形態である。",
+          "definitionVi": "Kết hợp bộ phận tuyến trực tiếp ra lệnh, vận hành với bộ phận tham mưu cung cấp tư vấn chuyên môn.",
+          "reading": "らいんあんどすたっふそしき"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "line-and-staff-organization"
+      ]
+    },
+    {
+      "id": "ceo",
+      "order": 58,
+      "titleJa": "CEO",
+      "titleVi": "Giám đốc điều hành (CEO)",
+      "importance": "high",
+      "summaryJa": "企業や組織の最高経営責任者を指す役職である。",
+      "summaryVi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CEOとは",
+          "vi": "Giám đốc điều hành (CEO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の最高経営責任者を指す役職である。CEOは経営戦略の策定や実行、全体の運営管理、重要な意思決定など、組織の成長と成功に大きな影響を与える役割を担っている。具体的には、財務計画、マーケティング戦略、人材管理など、組織内のさまざまな分野におけるリーダーシップを発揮し、取締役会やステークホルダーと連携することが求められる。また、CEOは組織のビジョンやミッションを実現するために長期的な目標を設定し、従業員や関係者にその方向性を示す重要な役割も果たす。",
+          "vi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CEOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CEO = chiến lược và điều hành tổng thể; COO = vận hành thường nhật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CEO",
+          "english": "Chief Executive Officer",
+          "vi": "Giám đốc điều hành (CEO)",
+          "definitionJa": "企業や組織の最高経営責任者を指す役職である。",
+          "definitionVi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể.",
+          "reading": "しーいーおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "ceo"]
+    },
+    {
+      "id": "cio",
+      "order": 59,
+      "titleJa": "CIO",
+      "titleVi": "Giám đốc thông tin (CIO)",
+      "importance": "high",
+      "summaryJa": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。",
+      "summaryVi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CIOとは",
+          "vi": "Giám đốc thông tin (CIO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。主に、情報システムの導入や管理、データのセキュリティ確保、そして業務プロセスの改善を通じて、組織の競争力を高める役割を果たす。CIOは経営層の一員として、IT投資の優先順位を決め、ビジネス全体の戦略と整合させることが求められる。例えば、新たなテクノロジーの導入によって顧客サービスを向上させたり、効率を上げたりするための計画を立案することが重要な任務であり、その成果は組織の成長に直接的な影響を与える。",
+          "vi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CIOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CIO = chiến lược thông tin; CISO = an ninh thông tin; CDO = chuyển đổi số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CIO",
+          "english": "Chief Information Officer",
+          "vi": "Giám đốc thông tin (CIO)",
+          "definitionJa": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。",
+          "definitionVi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh.",
+          "reading": "しーあいおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "cio"]
+    },
+    {
+      "id": "cdo",
+      "order": 60,
+      "titleJa": "CDO",
+      "titleVi": "Giám đốc chuyển đổi số (CDO)",
+      "importance": "high",
+      "summaryJa": "企業におけるデジタル戦略を推進する最高責任者である。",
+      "summaryVi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CDOとは",
+          "vi": "Giám đốc chuyển đổi số (CDO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業におけるデジタル戦略を推進する最高責任者である。デジタル技術を活用して企業のビジネスモデルやプロセスを革新し、競争力を向上させる役割を担っている。例えば、顧客とのコミュニケーションをデジタル化したり、データ分析を通じて市場のニーズを把握することで、企業の経営戦略に貢献する。このポジションは、IT部門だけでなく、マーケティングや営業など様々な部門と連携しながら、全体としてのデジタルトランスフォーメーションを実現することが求められる。企業がデジタル化を進める中で、CDOの重要性はますます高まっている。",
+          "vi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CDOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CDO trong tài liệu = Chief Digital Officer; có nơi CDO còn là Chief Data Officer, phải xem ngữ cảnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CDO",
+          "english": "Chief Digital Officer",
+          "vi": "Giám đốc chuyển đổi số (CDO)",
+          "definitionJa": "企業におけるデジタル戦略を推進する最高責任者である。",
+          "definitionVi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số.",
+          "reading": "しーでぃーおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "cdo"]
+    },
+    {
+      "id": "ciso",
+      "order": 61,
+      "titleJa": "CISO",
+      "titleVi": "Giám đốc an ninh thông tin (CISO)",
+      "importance": "high",
+      "summaryJa": "企業や組織における最高情報セキュリティ責任者である。",
+      "summaryVi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CISOとは",
+          "vi": "Giám đốc an ninh thông tin (CISO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織における最高情報セキュリティ責任者である。情報セキュリティ戦略の立案や実施、情報資産の保護、リスク管理などを担当する重要な役割を果たす。このポジションには、サイバー攻撃やデータ漏洩などのリスクから組織を守るための専門知識が求められ、セキュリティ体制の強化や意識向上を図るための施策を推進することが期待されている。CISOは経営層と連携し、セキュリティがビジネスに与える影響を考慮しながら戦略的な決定を行うことが重要である。",
+          "vi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CISOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CISO chuyên an ninh thông tin; CPO chuyên quyền riêng tư và dữ liệu cá nhân."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CISO",
+          "english": "Chief Information Security Officer",
+          "vi": "Giám đốc an ninh thông tin (CISO)",
+          "definitionJa": "企業や組織における最高情報セキュリティ責任者である。",
+          "definitionVi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin.",
+          "reading": "しーあいえすおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "ciso"]
+    },
+    {
+      "id": "cpo",
+      "order": 62,
+      "titleJa": "CPO",
+      "titleVi": "Giám đốc bảo vệ quyền riêng tư (CPO)",
+      "importance": "high",
+      "summaryJa": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。",
+      "summaryVi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CPOとは",
+          "vi": "Giám đốc bảo vệ quyền riêng tư (CPO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。個人情報の収集、利用、保存に関する方針を策定し、法令遵守やリスク管理を行う役割を担う。これにより、顧客や従業員の個人情報が適切に保護され、企業の信頼性を高めることに貢献する。特に、個人情報の漏洩や不正使用が問題視される現代において、CPOの職務はますます重要になってきている。また、プライバシーに関連する社内教育や啓発活動も推進し、組織全体のプライバシー意識を向上させる役割も果たす。",
+          "vi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CPOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CPO ở đây = Chief Privacy Officer, không nhầm với các cách mở rộng khác."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CPO",
+          "english": "Chief Privacy Officer",
+          "vi": "Giám đốc bảo vệ quyền riêng tư (CPO)",
+          "definitionJa": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。",
+          "definitionVi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư.",
+          "reading": "しーぴーおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "cpo"]
+    },
+    {
+      "id": "cfo",
+      "order": 63,
+      "titleJa": "CFO",
+      "titleVi": "Giám đốc tài chính (CFO)",
+      "importance": "high",
+      "summaryJa": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。",
+      "summaryVi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CFOとは",
+          "vi": "Giám đốc tài chính (CFO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。企業の資金管理、財務報告、予算計画、投資分析など幅広い業務を行い、経営陣に対して財務状況の報告や助言を行う。これにより、企業が健全な財務状態を維持し、成長戦略を効果的に推進できるよう支援する役割を果たす。また、株主や投資家との関係も重視し、信頼性の高い情報を提供することで企業の信用を高めることが求められる。この役職は、企業の持続的な成功に不可欠である。",
+          "vi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：CFOの定義、目的と関連用語との違いを確認する。",
+          "vi": "CFO = tài chính; COO = vận hành; CEO = quản trị tổng thể."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CFO",
+          "english": "Chief Financial Officer",
+          "vi": "Giám đốc tài chính (CFO)",
+          "definitionJa": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。",
+          "definitionVi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư.",
+          "reading": "しーえふおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "cfo"]
+    },
+    {
+      "id": "coo",
+      "order": 64,
+      "titleJa": "COO",
+      "titleVi": "Giám đốc vận hành (COO)",
+      "importance": "high",
+      "summaryJa": "最高執行責任者を指し、企業や組織の運営を管理する役職である。",
+      "summaryVi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "COOとは",
+          "vi": "Giám đốc vận hành (COO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "最高執行責任者を指し、企業や組織の運営を管理する役職である。日常の業務を効率的に行うための戦略を策定し、実行に移す責任を負う。具体的には、部門間の調整や業務プロセスの最適化、人材の管理などが含まれる。CEO（最高経営責任者）と連携し、企業のビジョンを実現するために重要な役割を果たす。特に大企業では、業務全般に対する深い理解が求められ、経営方針に基づいた具体的な施策の実施が期待される。これにより、効率的な運営と持続可能な成長が促進される。",
+          "vi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：COOの定義、目的と関連用語との違いを確認する。",
+          "vi": "COO triển khai vận hành theo định hướng chiến lược của CEO."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COO",
+          "english": "Chief Operating Officer",
+          "vi": "Giám đốc vận hành (COO)",
+          "definitionJa": "最高執行責任者を指し、企業や組織の運営を管理する役職である。",
+          "definitionVi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày.",
+          "reading": "しーおーおー"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "coo"]
+    },
+    {
+      "id": "reputation-risk",
+      "order": 65,
+      "titleJa": "レピュテーションリスク",
+      "titleVi": "Rủi ro danh tiếng",
+      "importance": "medium",
+      "summaryJa": "企業や組織の評判や信頼性が損なわれることによって生じるリスクである。",
+      "summaryVi": "Nguy cơ doanh nghiệp mất uy tín do sự cố, sai phạm, phản hồi tiêu cực hoặc thông tin lan truyền.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "レピュテーションリスクとは",
+          "vi": "Rủi ro danh tiếng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の評判や信頼性が損なわれることによって生じるリスクである。予期せぬ事件や不正行為、顧客の不満が原因でブランドイメージが悪化する場合があり、結果として売上の減少や投資のリスクが高まることがある。このリスクは、特に情報が瞬時に拡散する現代では重要視されており、SNSなどのプラットフォームがその影響を一層大きくしている。企業は、危機管理やコミュニケーション戦略を通じて、このリスクを軽減する必要がある。",
+          "vi": "Nguy cơ doanh nghiệp mất uy tín do sự cố, sai phạm, phản hồi tiêu cực hoặc thông tin lan truyền."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：レピュテーションリスクの定義、目的と関連用語との違いを確認する。",
+          "vi": "Tác động có thể là mất khách hàng, doanh thu và lòng tin của nhà đầu tư."
+        }
+      ],
+      "terms": [
+        {
+          "term": "レピュテーションリスク",
+          "english": "Reputation Risk",
+          "vi": "Rủi ro danh tiếng",
+          "definitionJa": "企業や組織の評判や信頼性が損なわれることによって生じるリスクである。",
+          "definitionVi": "Nguy cơ doanh nghiệp mất uy tín do sự cố, sai phạm, phản hồi tiêu cực hoặc thông tin lan truyền.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "reputation-risk"
+      ]
+    },
+    {
+      "id": "sri",
+      "order": 66,
+      "titleJa": "SRI",
+      "titleVi": "Đầu tư có trách nhiệm xã hội (SRI)",
+      "importance": "medium",
+      "summaryJa": "社会的責任投資を指し、単に経済的なリターンではなく、社会や環境にも配慮した投資戦略である。",
+      "summaryVi": "Chọn đầu tư không chỉ theo lợi nhuận mà còn cân nhắc tác động xã hội, môi trường và đạo đức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SRIとは",
+          "vi": "Đầu tư có trách nhiệm xã hội (SRI) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "社会的責任投資を指し、単に経済的なリターンではなく、社会や環境にも配慮した投資戦略である。これは、企業が倫理的または持続可能な活動を行っているかどうかを考慮し、投資先を選定するアプローチである。例えば、環境への影響が少ない企業や、労働条件が良好な企業に投資されることが多い。投資家が財務的利益だけでなく、社会的及び環境的な価値を追求することを可能にし、持続可能な経済成長を促進する役割を果たす。近年、多くの機関投資家や個人がこの方法を採用しており、社会課題への意識が高まっていることを反映している。",
+          "vi": "Chọn đầu tư không chỉ theo lợi nhuận mà còn cân nhắc tác động xã hội, môi trường và đạo đức."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：SRIの定義、目的と関連用語との違いを確認する。",
+          "vi": "SRI gắn với tiêu chí trách nhiệm xã hội và phát triển bền vững."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SRI",
+          "english": "Socially Responsible Investment",
+          "vi": "Đầu tư có trách nhiệm xã hội (SRI)",
+          "definitionJa": "社会的責任投資を指し、単に経済的なリターンではなく、社会や環境にも配慮した投資戦略である。",
+          "definitionVi": "Chọn đầu tư không chỉ theo lợi nhuận mà còn cân nhắc tác động xã hội, môi trường và đạo đức.",
+          "reading": "えすあーるあい"
+        }
+      ],
+      "tags": ["corporate-activities", "management-organization-theory", "sri"]
+    },
+    {
+      "id": "satellite-office",
+      "order": 67,
+      "titleJa": "サテライトオフィス",
+      "titleVi": "Văn phòng vệ tinh",
+      "importance": "medium",
+      "summaryJa": "企業の本社やメインオフィスとは別の場所に設けられた小規模なオフィスである。",
+      "summaryVi": "Địa điểm làm việc nhỏ tách khỏi trụ sở chính để giảm thời gian đi lại và hỗ trợ làm việc linh hoạt.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サテライトオフィスとは",
+          "vi": "Văn phòng vệ tinh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の本社やメインオフィスとは別の場所に設けられた小規模なオフィスである。このオフィスは、地方や郊外など多様な地域に設置されることが多く、主に業務の効率化や通勤の負担軽減を目的としている。企業がリモートワークを推進する中で、社員が自宅や近隣のサテライトオフィスで仕事をすることで、柔軟な働き方を実現できる。また、地方の人材を活用することで、地域活性化にも寄与することが期待されている。企業の働き方改革を支える重要な施設と位置付けられている。",
+          "vi": "Địa điểm làm việc nhỏ tách khỏi trụ sở chính để giảm thời gian đi lại và hỗ trợ làm việc linh hoạt."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：サテライトオフィスの定義、目的と関連用語との違いを確認する。",
+          "vi": "Satellite office là một địa điểm làm telework, không đồng nghĩa làm tại nhà."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サテライトオフィス",
+          "english": "Satellite Office",
+          "vi": "Văn phòng vệ tinh",
+          "definitionJa": "企業の本社やメインオフィスとは別の場所に設けられた小規模なオフィスである。",
+          "definitionVi": "Địa điểm làm việc nhỏ tách khỏi trụ sở chính để giảm thời gian đi lại và hỗ trợ làm việc linh hoạt.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "satellite-office"
+      ]
+    },
+    {
+      "id": "work-from-home",
+      "order": 68,
+      "titleJa": "在宅勤務",
+      "titleVi": "Làm việc tại nhà",
+      "importance": "medium",
+      "summaryJa": "従業員が会社のオフィスに出勤せず、自宅で業務を行う働き方である。",
+      "summaryVi": "Nhân viên làm việc tại nhà qua mạng và công cụ cộng tác thay vì đến văn phòng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "在宅勤務とは",
+          "vi": "Làm việc tại nhà là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "従業員が会社のオフィスに出勤せず、自宅で業務を行う働き方である。この形態は、特にテクノロジーの進化により、インターネットを通じて仕事のコミュニケーションやデータのやり取りが容易になったことから普及している。例えば、ビデオ会議ツールや共同作業アプリを利用することで、チームメンバーとリアルタイムでやり取りが可能となり、効率的に業務を遂行できる。また、在宅勤務は通勤時間の削減や柔軟な働き方を実現する一方、仕事とプライベートの境界が曖昧になるなどの課題も存在する。最近の傾向として、企業はこの働き方を取り入れることで、従業員のワークライフバランスの向上を目指している。",
+          "vi": "Nhân viên làm việc tại nhà qua mạng và công cụ cộng tác thay vì đến văn phòng."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：在宅勤務の定義、目的と関連用語との違いを確認する。",
+          "vi": "在宅勤務 là một hình thức telework; telework có phạm vi rộng hơn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "在宅勤務",
+          "english": "Remote Work",
+          "vi": "Làm việc tại nhà",
+          "definitionJa": "従業員が会社のオフィスに出勤せず、自宅で業務を行う働き方である。",
+          "definitionVi": "Nhân viên làm việc tại nhà qua mạng và công cụ cộng tác thay vì đến văn phòng.",
+          "reading": "ざいたくきんむ"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "work-from-home"
+      ]
+    },
+    {
+      "id": "ai-scaling-laws",
+      "order": 69,
+      "titleJa": "AI言語モデルのスケーリング則",
+      "titleVi": "Quy luật mở rộng quy mô mô hình ngôn ngữ AI",
+      "importance": "medium",
+      "summaryJa": "AIの学習モデルの性能が、モデルのサイズ（パラメータ数やデータ量など）が増加することでどのように向上するかを示す原則である。",
+      "summaryVi": "Mối quan hệ thực nghiệm giữa hiệu năng mô hình và quy mô tham số, dữ liệu huấn luyện, năng lực tính toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "AI言語モデルのスケーリング則とは",
+          "vi": "Quy luật mở rộng quy mô mô hình ngôn ngữ AI là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "AIの学習モデルの性能が、モデルのサイズ（パラメータ数やデータ量など）が増加することでどのように向上するかを示す原則である。このスケーリング則により、より大きなモデルや大量のデータを使用することで、テキストの生成や理解能力が向上することが確認されている。たとえば、OpenAIのGPTシリーズやGoogleのBERTなど、大規模な言語モデルは、トレーニングに用いるデータと計算資源を増やすことで、精度や対応可能なタスクの幅が飛躍的に広がる。これは、AI技術が進展することで、さまざまな分野での応用可能性を高め、社会に大きな影響を与える要因となっている。",
+          "vi": "Mối quan hệ thực nghiệm giữa hiệu năng mô hình và quy mô tham số, dữ liệu huấn luyện, năng lực tính toán."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：AI言語モデルのスケーリング則の定義、目的と関連用語との違いを確認する。",
+          "vi": "Hiệu quả phụ thuộc cách cân bằng tài nguyên; không phải cứ tăng tham số là mọi bài toán đều cải thiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "AI言語モデルのスケーリング則",
+          "english": "Scaling Law of AI Language Models",
+          "vi": "Quy luật mở rộng quy mô mô hình ngôn ngữ AI",
+          "definitionJa": "AIの学習モデルの性能が、モデルのサイズ（パラメータ数やデータ量など）が増加することでどのように向上するかを示す原則である。",
+          "definitionVi": "Mối quan hệ thực nghiệm giữa hiệu năng mô hình và quy mô tham số, dữ liệu huấn luyện, năng lực tính toán.",
+          "reading": "あいげんごもでるのすけーりんぐそく"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "ai-scaling-laws"
+      ]
+    },
+    {
+      "id": "fourth-industrial-revolution",
+      "order": 70,
+      "titleJa": "第4次産業革命",
+      "titleVi": "Cuộc cách mạng công nghiệp lần thứ tư",
+      "importance": "high",
+      "summaryJa": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。",
+      "summaryVi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "第4次産業革命とは",
+          "vi": "Cuộc cách mạng công nghiệp lần thứ tư là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。この革命は、人工知能（AI）、IoT（モノのインターネット）、ビッグデータ、ロボティクスなどの技術進化によって推進されている。例えば、製造業では、自動化されたロボットが働き手の補完を行い、より高効率な生産が実現されている。また、これまでの産業モデルとは異なり、デジタル技術を活用することで新たなビジネスモデルが登場し、企業は顧客との関係をより密接に築くことが可能となっている。経済の発展だけでなく、社会全体のライフスタイルにも大きな影響を与えている。",
+          "vi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：第4次産業革命の定義、目的と関連用語との違いを確認する。",
+          "vi": "Nhận diện qua nhà máy thông minh, tự động hóa và hệ thống kết nối."
+        }
+      ],
+      "terms": [
+        {
+          "term": "第4次産業革命",
+          "english": "Fourth Industrial Revolution",
+          "vi": "Cuộc cách mạng công nghiệp lần thứ tư",
+          "definitionJa": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。",
+          "definitionVi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý.",
+          "reading": "だいよんじさんぎょうかくめい"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "fourth-industrial-revolution"
+      ]
+    },
+    {
+      "id": "society-5-0",
+      "order": 71,
+      "titleJa": "Society5.0",
+      "titleVi": "Xã hội 5.0 (Society 5.0)",
+      "importance": "high",
+      "summaryJa": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。",
+      "summaryVi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "Society5.0とは",
+          "vi": "Xã hội 5.0 (Society 5.0) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。この概念は、情報技術の進化により、持続可能で多様な社会を実現することを目的としている。具体的には、人工知能やIoT（モノのインターネット）を活用し、社会のさまざまなデータを収集・分析することで、より効率的で柔軟なシステムを構築する。このプロセスにより、例えば交通の最適化や医療の効率化、教育や生活支援が進み、人々の質の高い生活をサポートすることが期待されている。Society 5.0は、未来の社会構造における重要なビジョンとなりつつある。",
+          "vi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：Society5.0の定義、目的と関連用語との違いを確認する。",
+          "vi": "Society 5.0 là tầm nhìn xã hội, không phải phiên bản phần mềm hay chỉ nhà máy tự động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "Society5.0",
+          "english": "Society 5.0",
+          "vi": "Xã hội 5.0 (Society 5.0)",
+          "definitionJa": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。",
+          "definitionVi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội.",
+          "reading": "さいてぃ5.0"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "society-5-0"
+      ]
+    },
+    {
+      "id": "super-smart-society",
+      "order": 72,
+      "titleJa": "超スマート社会",
+      "titleVi": "Xã hội siêu thông minh",
+      "importance": "medium",
+      "summaryJa": "IT技術の進展により、さまざまな分野が高度に連携し、効率的かつ快適な生活環境が実現される社会のことである。",
+      "summaryVi": "Xã hội nơi dữ liệu và công nghệ kết nối các lĩnh vực để cung cấp dịch vụ phù hợp nhu cầu con người.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "超スマート社会とは",
+          "vi": "Xã hội siêu thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IT技術の進展により、さまざまな分野が高度に連携し、効率的かつ快適な生活環境が実現される社会のことである。この概念は、IoT（モノのインターネット）やAI（人工知能）といった先進技術を活用して、交通、医療、教育などの分野が統合され、人々の生活を向上させることを目指す。例えば、スマートシティでは、交通渋滞を軽減するためのデータ分析や、エネルギーの効率的な使用が行われ、快適な都市生活が実現される。このように、技術の利活用によって、人々の生活がより豊かになる未来を描いている。",
+          "vi": "Xã hội nơi dữ liệu và công nghệ kết nối các lĩnh vực để cung cấp dịch vụ phù hợp nhu cầu con người."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：超スマート社会の定義、目的と関連用語との違いを確認する。",
+          "vi": "超スマート社会 liên hệ chặt với Society 5.0."
+        }
+      ],
+      "terms": [
+        {
+          "term": "超スマート社会",
+          "english": "Super Smart Society",
+          "vi": "Xã hội siêu thông minh",
+          "definitionJa": "IT技術の進展により、さまざまな分野が高度に連携し、効率的かつ快適な生活環境が実現される社会のことである。",
+          "definitionVi": "Xã hội nơi dữ liệu và công nghệ kết nối các lĩnh vực để cung cấp dịch vụ phù hợp nhu cầu con người.",
+          "reading": "ちょうすまーとしゃかい"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "super-smart-society"
+      ]
+    },
+    {
+      "id": "data-driven-society",
+      "order": 73,
+      "titleJa": "データ駆動型社会",
+      "titleVi": "Xã hội vận hành dựa trên dữ liệu",
+      "importance": "medium",
+      "summaryJa": "データを基に意思決定や行動が行われる社会のことを指す。",
+      "summaryVi": "Xã hội sử dụng dữ liệu và phân tích làm cơ sở cho quyết định, dịch vụ và chính sách.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "データ駆動型社会とは",
+          "vi": "Xã hội vận hành dựa trên dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データを基に意思決定や行動が行われる社会のことを指す。これは、ビッグデータやAI（人工知能）などの技術の発展によって可能となっている。企業や政府は、収集したデータを分析することで、顧客のニーズや市場の動向を正確に把握できるようになる。例えば、オンラインショッピングサイトでは、ユーザーの購買履歴データを元におすすめ商品を表示することで、売上を向上させる工夫がなされている。また、医療分野では患者データを分析することにより、より個別化された治療が可能となるなど、様々な影響を社会全体に与えている。このように、データが中心となることで、私たちの生活やビジネスが変化している。",
+          "vi": "Xã hội sử dụng dữ liệu và phân tích làm cơ sở cho quyết định, dịch vụ và chính sách."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：データ駆動型社会の定義、目的と関連用語との違いを確認する。",
+          "vi": "Từ khóa: thu thập → phân tích → quyết định dựa trên bằng chứng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "データ駆動型社会",
+          "english": "Data-Driven Society",
+          "vi": "Xã hội vận hành dựa trên dữ liệu",
+          "definitionJa": "データを基に意思決定や行動が行われる社会のことを指す。",
+          "definitionVi": "Xã hội sử dụng dữ liệu và phân tích làm cơ sở cho quyết định, dịch vụ và chính sách.",
+          "reading": "でーたくどうがたしゃかい"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "data-driven-society"
+      ]
+    },
+    {
+      "id": "digital-transformation",
+      "order": 74,
+      "titleJa": "デジタルトランスフォーメーション",
+      "titleVi": "Chuyển đổi số (DX)",
+      "importance": "high",
+      "summaryJa": "テクノロジーを利用してビジネスや社会のプロセスを根本的に変革することを指す。",
+      "summaryVi": "Thay đổi quy trình, tổ chức, trải nghiệm khách hàng và mô hình kinh doanh nhờ công nghệ số.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デジタルトランスフォーメーションとは",
+          "vi": "Chuyển đổi số (DX) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "テクノロジーを利用してビジネスや社会のプロセスを根本的に変革することを指す。DXとも呼ばれる。例えば、企業が紙の書類をデジタル化し、クラウドストレージを活用することで情報の共有やアクセスを容易にすることが挙げられる。これにより、業務の効率化やコスト削減が実現できる。また、デジタル技術の進化は、顧客の期待に応えるための新たなサービスやビジネスモデルの創出を促進する。結果的に、企業は競争力を高め、市場での成功を収めやすくなる。単なる技術導入にとどまらず、組織文化や働き方にも影響を与える重要な概念である。",
+          "vi": "Thay đổi quy trình, tổ chức, trải nghiệm khách hàng và mô hình kinh doanh nhờ công nghệ số."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：デジタルトランスフォーメーションの定義、目的と関連用語との違いを確認する。",
+          "vi": "DX không chỉ số hóa giấy tờ; cốt lõi là biến đổi cách tạo giá trị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デジタルトランスフォーメーション",
+          "english": "Digital Transformation",
+          "vi": "Chuyển đổi số (DX)",
+          "definitionJa": "テクノロジーを利用してビジネスや社会のプロセスを根本的に変革することを指す。",
+          "definitionVi": "Thay đổi quy trình, tổ chức, trải nghiệm khách hàng và mô hình kinh doanh nhờ công nghệ số.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "digital-transformation"
+      ]
+    },
+    {
+      "id": "corporate-transformation",
+      "order": 75,
+      "titleJa": "コーポレートトランスフォーメーション",
+      "titleVi": "Chuyển đổi toàn diện doanh nghiệp (CX)",
+      "importance": "medium",
+      "summaryJa": "企業が業務や組織を根本的に見直し、革新するプロセスを指す。",
+      "summaryVi": "Tái cấu trúc tổ chức, văn hóa, quy trình và mô hình kinh doanh để nâng sức cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートトランスフォーメーションとは",
+          "vi": "Chuyển đổi toàn diện doanh nghiệp (CX) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が業務や組織を根本的に見直し、革新するプロセスを指す。これにより、競争力を高めることを目的としている。具体的には、テクノロジーの活用や業務フローの合理化を通じて、効率性を向上させたり、新しい市場への進出を図ったりすることが含まれる。その一例として、デジタルトランスフォーメーション（DX）があり、企業が情報技術を取り入れて従来のビジネスモデルを刷新することを意味する。これにより、製品やサービスの提供方法が変わり、顧客体験向上やコスト削減が実現する。企業が持続可能な成長を追求するために不可欠な戦略である。",
+          "vi": "Tái cấu trúc tổ chức, văn hóa, quy trình và mô hình kinh doanh để nâng sức cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：コーポレートトランスフォーメーションの定義、目的と関連用語との違いを確認する。",
+          "vi": "Corporate transformation có phạm vi rộng; DX là một hướng chuyển đổi bằng công nghệ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートトランスフォーメーション",
+          "english": "Corporate Transformation",
+          "vi": "Chuyển đổi toàn diện doanh nghiệp (CX)",
+          "definitionJa": "企業が業務や組織を根本的に見直し、革新するプロセスを指す。",
+          "definitionVi": "Tái cấu trúc tổ chức, văn hóa, quy trình và mô hình kinh doanh để nâng sức cạnh tranh.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "corporate-transformation"
+      ]
+    },
+    {
+      "id": "green-transformation",
+      "order": 76,
+      "titleJa": "グリーントランスフォーメーション",
+      "titleVi": "Chuyển đổi xanh (GX)",
+      "importance": "high",
+      "summaryJa": "環境保護や持続可能性を重視した社会や企業の変革を指す概念である。",
+      "summaryVi": "Thay đổi nền kinh tế và doanh nghiệp theo hướng giảm phát thải, sử dụng năng lượng sạch và tài nguyên bền vững.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グリーントランスフォーメーションとは",
+          "vi": "Chuyển đổi xanh (GX) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "環境保護や持続可能性を重視した社会や企業の変革を指す概念である。GXとも呼ばれる。温暖化対策や資源の効率的な利用を促進し、エネルギーの再生可能な利用を推進することを目的としている。たとえば、企業が工場の設備を省エネ型に変更したり、再生可能エネルギーを導入することで、二酸化炭素の排出を減らすことが含まれる。このような取り組みは、環境への負荷を軽減するだけでなく、企業の競争力を高める要因ともなる。また、GXはITの活用とも深く関連しており、デジタル技術を駆使した効率的な資源管理や、循環型経済の実現に寄与することが期待されている。",
+          "vi": "Thay đổi nền kinh tế và doanh nghiệp theo hướng giảm phát thải, sử dụng năng lượng sạch và tài nguyên bền vững."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：グリーントランスフォーメーションの定義、目的と関連用語との違いを確認する。",
+          "vi": "GX tập trung chuyển đổi môi trường; DX tập trung chuyển đổi nhờ công nghệ số."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グリーントランスフォーメーション",
+          "english": "Green Transformation",
+          "vi": "Chuyển đổi xanh (GX)",
+          "definitionJa": "環境保護や持続可能性を重視した社会や企業の変革を指す概念である。",
+          "definitionVi": "Thay đổi nền kinh tế và doanh nghiệp theo hướng giảm phát thải, sử dụng năng lượng sạch và tài nguyên bền vững.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "green-transformation"
+      ]
+    },
+    {
+      "id": "gx-league",
+      "order": 77,
+      "titleJa": "GXリーグ基本構想",
+      "titleVi": "Đề án cơ bản Liên minh GX",
+      "importance": "medium",
+      "summaryJa": "地球環境の持続可能性を目指す取り組みの一環である。",
+      "summaryVi": "Khung hợp tác của doanh nghiệp và các bên liên quan ở Nhật nhằm thúc đẩy chuyển đổi xanh và trung hòa carbon.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "GXリーグ基本構想とは",
+          "vi": "Đề án cơ bản Liên minh GX là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "地球環境の持続可能性を目指す取り組みの一環である。この構想は、業界や企業が協力し、環境負荷の低減を目指すための具体的な方針や活動を示すものである。たとえば、カーボンニュートラルを実現するために、新しい技術を導入したり、エネルギー効率を向上させたりすることが挙げられる。このような活動は、ビジネスの競争力を高め、また社会全体の環境意識を向上させることに寄与する。GXリーグは、政府や民間企業と連携することで、持続可能な発展を促進し、次世代により良い環境を引き継ぐための重要な枠組みとなっている。",
+          "vi": "Khung hợp tác của doanh nghiệp và các bên liên quan ở Nhật nhằm thúc đẩy chuyển đổi xanh và trung hòa carbon."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：GXリーグ基本構想の定義、目的と関連用語との違いを確認する。",
+          "vi": "Liên hệ GX League với phối hợp doanh nghiệp, đầu tư giảm phát thải và chuyển đổi kinh tế."
+        }
+      ],
+      "terms": [
+        {
+          "term": "GXリーグ基本構想",
+          "english": "GX League Basic Concept",
+          "vi": "Đề án cơ bản Liên minh GX",
+          "definitionJa": "地球環境の持続可能性を目指す取り組みの一環である。",
+          "definitionVi": "Khung hợp tác của doanh nghiệp và các bên liên quan ở Nhật nhằm thúc đẩy chuyển đổi xanh và trung hòa carbon.",
+          "reading": "じーえっくすりーぐきほんこうそう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "gx-league"
+      ]
+    },
+    {
+      "id": "carbon-neutral",
+      "order": 78,
+      "titleJa": "カーボンニュートラル",
+      "titleVi": "Trung hòa carbon",
+      "importance": "high",
+      "summaryJa": "二酸化炭素の排出量を実質ゼロにすることを指す概念である。",
+      "summaryVi": "Cân bằng phát thải khí nhà kính với lượng được hấp thụ hoặc loại bỏ để đạt phát thải ròng bằng không trong phạm vi xác định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "カーボンニュートラルとは",
+          "vi": "Trung hòa carbon là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "二酸化炭素の排出量を実質ゼロにすることを指す概念である。これは、温室効果ガスの削減と植林などの活動により、排出された二酸化炭素を相殺することで達成される。例えば、企業が製品を製造する際に排出する二酸化炭素を削減するため、省エネルギー技術や再生可能エネルギーを導入することが含まれる。また、カーボンニュートラルを推進することで、気候変動の影響を軽減し、持続可能な社会を実現することが目指されている。この動向は、IT業界においても重要で、データセンターのエネルギー効率向上や、クラウドサービスの環境負荷の軽減などが進められている。",
+          "vi": "Cân bằng phát thải khí nhà kính với lượng được hấp thụ hoặc loại bỏ để đạt phát thải ròng bằng không trong phạm vi xác định."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：カーボンニュートラルの定義、目的と関連用語との違いを確認する。",
+          "vi": "Trung hòa carbon là cân bằng ròng, không nhất thiết tuyệt đối không phát thải."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カーボンニュートラル",
+          "english": "Carbon Neutral",
+          "vi": "Trung hòa carbon",
+          "definitionJa": "二酸化炭素の排出量を実質ゼロにすることを指す概念である。",
+          "definitionVi": "Cân bằng phát thải khí nhà kính với lượng được hấp thụ hoặc loại bỏ để đạt phát thải ròng bằng không trong phạm vi xác định.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "carbon-neutral"
+      ]
+    },
+    {
+      "id": "carbon-tracking",
+      "order": 79,
+      "titleJa": "カーボントレーシング",
+      "titleVi": "Theo dõi phát thải carbon",
+      "importance": "medium",
+      "summaryJa": "企業や組織が自らの二酸化炭素排出量を把握し、管理するための手法である。",
+      "summaryVi": "Đo lường, ghi nhận và giám sát lượng khí nhà kính phát sinh từ hoạt động hoặc vòng đời sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "カーボントレーシングとは",
+          "vi": "Theo dõi phát thải carbon là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が自らの二酸化炭素排出量を把握し、管理するための手法である。このプロセスは、環境問題への対策と持続可能な経営を目指すために重要である。具体的には、エネルギー使用や製品のライフサイクルを通じて発生する炭素排出量を計測し、分析することによって、削減目標を設定したり新たな取り組みを行ったりする。たとえば、製造業では、生産工程におけるエネルギー効率を向上させることで、カーボンフットプリントを減少させる方法が取られている。これにより、企業は環境への負荷を軽減しつつ、社会的な責任を果たすことが期待されている。",
+          "vi": "Đo lường, ghi nhận và giám sát lượng khí nhà kính phát sinh từ hoạt động hoặc vòng đời sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：カーボントレーシングの定義、目的と関連用語との違いを確認する。",
+          "vi": "Carbon tracking là hoạt động theo dõi; carbon footprint là kết quả định lượng phát thải."
+        }
+      ],
+      "terms": [
+        {
+          "term": "カーボントレーシング",
+          "english": "Carbon Tracking",
+          "vi": "Theo dõi phát thải carbon",
+          "definitionJa": "企業や組織が自らの二酸化炭素排出量を把握し、管理するための手法である。",
+          "definitionVi": "Đo lường, ghi nhận và giám sát lượng khí nhà kính phát sinh từ hoạt động hoặc vòng đời sản phẩm.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "carbon-tracking"
+      ]
+    },
+    {
+      "id": "national-strategic-special-zones-act",
+      "order": 80,
+      "titleJa": "国家戦略特別区域法",
+      "titleVi": "Luật khu vực đặc biệt chiến lược quốc gia",
+      "importance": "medium",
+      "summaryJa": "特定の地域で先進的な社会実験やIT技術の活用を促進するための法律である。",
+      "summaryVi": "Luật Nhật tạo cơ chế thử nghiệm và nới quy định có điều kiện trong khu vực đặc biệt nhằm thúc đẩy đổi mới và giải quyết vấn đề xã hội.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "国家戦略特別区域法とは",
+          "vi": "Luật khu vực đặc biệt chiến lược quốc gia là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の地域で先進的な社会実験やIT技術の活用を促進するための法律である。通称は「スーパーシティ法」。この法律は、日本の地域経済の活性化や社会課題の解決を目的としており、特にデジタル技術を用いたスマートシティの実現を目指している。具体的には、健康管理や交通、教育分野などの改善に向けた取り組みが進められ、地域住民の生活を向上させることが期待されている。例えば、ITを活用した分野では、自動運転車の導入やIoTによる生活支援が進む可能性がある。このように、地域の特性に応じたイノベーションを推進するための重要な枠組みとなっている。",
+          "vi": "Luật Nhật tạo cơ chế thử nghiệm và nới quy định có điều kiện trong khu vực đặc biệt nhằm thúc đẩy đổi mới và giải quyết vấn đề xã hội."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：国家戦略特別区域法の定義、目的と関連用語との違いを確認する。",
+          "vi": "Nguồn gọi là スーパーシティ法; đây là cách gọi liên quan sửa đổi luật phục vụ Super City, không phải tên chính thức toàn bộ luật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "国家戦略特別区域法",
+          "english": "National Strategic Special Zones Act",
+          "vi": "Luật khu vực đặc biệt chiến lược quốc gia",
+          "definitionJa": "特定の地域で先進的な社会実験やIT技術の活用を促進するための法律である。",
+          "definitionVi": "Luật Nhật tạo cơ chế thử nghiệm và nới quy định có điều kiện trong khu vực đặc biệt nhằm thúc đẩy đổi mới và giải quyết vấn đề xã hội.",
+          "reading": "こっかせんりゃくとくべつくいきほう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "national-strategic-special-zones-act"
+      ]
+    },
+    {
+      "id": "super-city-concept",
+      "order": 81,
+      "titleJa": "スーパーシティ構想",
+      "titleVi": "Đề án siêu đô thị (Super City)",
+      "importance": "medium",
+      "summaryJa": "先進的な技術やデータを活用して、都市の機能を改善し、住民の生活を向上させるための計画である。",
+      "summaryVi": "Sáng kiến tích hợp dữ liệu và công nghệ tiên tiến trên nhiều lĩnh vực đô thị để nâng chất lượng sống cư dân.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スーパーシティ構想とは",
+          "vi": "Đề án siêu đô thị (Super City) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "先進的な技術やデータを活用して、都市の機能を改善し、住民の生活を向上させるための計画である。この構想は、交通、エネルギー、健康管理などさまざまな分野でITを利用し、市民の利便性を高めることを目指す。例えば、交通システムの効率化を図るために、リアルタイムで交通情報を収集し、最適なルートを提案することが期待されている。また、環境保護や防災対策も考慮され、持続可能な社会を実現するための重要な取り組みとされる。未来の都市像として注目され、各国で模型として進められているプロジェクトでもある。",
+          "vi": "Sáng kiến tích hợp dữ liệu và công nghệ tiên tiến trên nhiều lĩnh vực đô thị để nâng chất lượng sống cư dân."
+        },
+        {
+          "type": "point",
+          "ja": "試験対策：スーパーシティ構想の定義、目的と関連用語との違いを確認する。",
+          "vi": "Super City nhấn mạnh tích hợp nhiều dịch vụ, dữ liệu và cơ chế triển khai vượt một ứng dụng đô thị riêng lẻ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパーシティ構想",
+          "english": "Super City Concept",
+          "vi": "Đề án siêu đô thị (Super City)",
+          "definitionJa": "先進的な技術やデータを活用して、都市の機能を改善し、住民の生活を向上させるための計画である。",
+          "definitionVi": "Sáng kiến tích hợp dữ liệu và công nghệ tiên tiến trên nhiều lĩnh vực đô thị để nâng chất lượng sống cư dân.",
+          "reading": "すーぱーしてぃこうそう"
+        }
+      ],
+      "tags": [
+        "corporate-activities",
+        "management-organization-theory",
+        "super-city-concept"
+      ]
+    }
+  ]
 }

@@ -4,5 +4,466 @@
   "titleJa": "要件定義",
   "titleVi": "Định nghĩa yêu cầu",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "user-needs-assessment",
+      "order": 1,
+      "titleJa": "ユーザーニーズ調査",
+      "titleVi": "Khảo sát nhu cầu người dùng",
+      "importance": "high",
+      "summaryJa": "利用者が求める機能やサービスを把握するため、インタビュー、アンケート、観察などで情報を収集する調査。",
+      "summaryVi": "Khảo sát để xác định những chức năng, dịch vụ mà người dùng mong muốn thông qua phỏng vấn, bảng hỏi và quan sát.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ユーザーニーズ調査とは",
+          "vi": "Khảo sát nhu cầu người dùng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者が求める機能やサービスを把握するため、インタビュー、アンケート、観察などで情報を収集する調査。",
+          "vi": "Khảo sát để xác định những chức năng, dịch vụ mà người dùng mong muốn thông qua phỏng vấn, bảng hỏi và quan sát."
+        },
+        {
+          "type": "point",
+          "ja": "利用者の期待を把握し、要求の洗い出しと顧客満足度の向上につなげる。",
+          "vi": "Xác định kỳ vọng của người dùng để thu thập yêu cầu và nâng cao mức độ hài lòng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ユーザーニーズ調査",
+          "english": "User Needs Assessment",
+          "vi": "Khảo sát nhu cầu người dùng",
+          "definitionJa": "利用者が求める機能やサービスを把握するため、インタビュー、アンケート、観察などで情報を収集する調査。",
+          "definitionVi": "Khảo sát để xác định những chức năng, dịch vụ mà người dùng mong muốn thông qua phỏng vấn, bảng hỏi và quan sát.",
+          "reading": "ゆーざーにーずちょうさ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "requirements-definition",
+        "user-needs-assessment"
+      ]
+    },
+    {
+      "id": "current-state-analysis",
+      "order": 2,
+      "titleJa": "現状分析",
+      "titleVi": "Phân tích hiện trạng",
+      "importance": "high",
+      "summaryJa": "既存の業務やシステムの状態を調査し、問題点と改善の余地を明らかにする作業。関係者への聞き取りや業務観察、データ収集を行う。",
+      "summaryVi": "Hoạt động khảo sát tình trạng nghiệp vụ và hệ thống hiện tại để tìm vấn đề và cơ hội cải tiến, thông qua phỏng vấn, quan sát và thu thập dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "現状分析とは",
+          "vi": "Phân tích hiện trạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "既存の業務やシステムの状態を調査し、問題点と改善の余地を明らかにする作業。関係者への聞き取りや業務観察、データ収集を行う。",
+          "vi": "Hoạt động khảo sát tình trạng nghiệp vụ và hệ thống hiện tại để tìm vấn đề và cơ hội cải tiến, thông qua phỏng vấn, quan sát và thu thập dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "現状（As-is）を把握してから改善後の姿（To-be）や必要な要件を検討する。",
+          "vi": "Nắm rõ hiện trạng (As-is) trước khi xác định trạng thái mong muốn (To-be) và các yêu cầu cần thiết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "現状分析",
+          "english": "Current Analysis",
+          "vi": "Phân tích hiện trạng",
+          "definitionJa": "既存の業務やシステムの状態を調査し、問題点と改善の余地を明らかにする作業。関係者への聞き取りや業務観察、データ収集を行う。",
+          "definitionVi": "Hoạt động khảo sát tình trạng nghiệp vụ và hệ thống hiện tại để tìm vấn đề và cơ hội cải tiến, thông qua phỏng vấn, quan sát và thu thập dữ liệu.",
+          "reading": "げんじょうぶんせき"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "requirements-definition",
+        "current-state-analysis"
+      ]
+    },
+    {
+      "id": "problem-definition",
+      "order": 3,
+      "titleJa": "課題定義",
+      "titleVi": "Xác định vấn đề cần giải quyết",
+      "importance": "high",
+      "summaryJa": "プロジェクトで解決すべき課題の内容、範囲、目標、制約条件を明確にし、関係者間で共通認識を形成すること。",
+      "summaryVi": "Làm rõ vấn đề cần giải quyết, phạm vi, mục tiêu và các ràng buộc của dự án, tạo nhận thức chung giữa các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "課題定義とは",
+          "vi": "Xác định vấn đề cần giải quyết là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトで解決すべき課題の内容、範囲、目標、制約条件を明確にし、関係者間で共通認識を形成すること。",
+          "vi": "Làm rõ vấn đề cần giải quyết, phạm vi, mục tiêu và các ràng buộc của dự án, tạo nhận thức chung giữa các bên liên quan."
+        },
+        {
+          "type": "point",
+          "ja": "問題の特定と要求の具体化は異なる。課題定義は後続の要件定義の土台となる。",
+          "vi": "Phân biệt xác định vấn đề với đặc tả yêu cầu; xác định vấn đề là nền tảng cho bước định nghĩa yêu cầu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "課題定義",
+          "english": "Problem Definition",
+          "vi": "Xác định vấn đề cần giải quyết",
+          "definitionJa": "プロジェクトで解決すべき課題の内容、範囲、目標、制約条件を明確にし、関係者間で共通認識を形成すること。",
+          "definitionVi": "Làm rõ vấn đề cần giải quyết, phạm vi, mục tiêu và các ràng buộc của dự án, tạo nhận thức chung giữa các bên liên quan.",
+          "reading": "かだいていぎ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "requirements-definition",
+        "problem-definition"
+      ]
+    },
+    {
+      "id": "requirements-specification",
+      "order": 4,
+      "titleJa": "要求仕様書",
+      "titleVi": "Tài liệu đặc tả yêu cầu",
+      "importance": "high",
+      "summaryJa": "利用者や顧客がシステムに求める機能、性能、操作性などの要求を文書にまとめたもの。開発者との認識合わせや設計・テストの基準に用いる。",
+      "summaryVi": "Tài liệu ghi rõ yêu cầu của khách hàng hoặc người dùng đối với hệ thống, như chức năng, hiệu năng và khả năng sử dụng; làm căn cứ thống nhất nhận thức, thiết kế và kiểm thử.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "要求仕様書とは",
+          "vi": "Tài liệu đặc tả yêu cầu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者や顧客がシステムに求める機能、性能、操作性などの要求を文書にまとめたもの。開発者との認識合わせや設計・テストの基準に用いる。",
+          "vi": "Tài liệu ghi rõ yêu cầu của khách hàng hoặc người dùng đối với hệ thống, như chức năng, hiệu năng và khả năng sử dụng; làm căn cứ thống nhất nhận thức, thiết kế và kiểm thử."
+        },
+        {
+          "type": "point",
+          "ja": "機能要求だけでなく性能や使いやすさなどの非機能要求にも注意する。",
+          "vi": "Chú ý cả yêu cầu chức năng lẫn yêu cầu phi chức năng như hiệu năng và tính dễ sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "要求仕様書",
+          "english": "Requirements Specification",
+          "vi": "Tài liệu đặc tả yêu cầu",
+          "definitionJa": "利用者や顧客がシステムに求める機能、性能、操作性などの要求を文書にまとめたもの。開発者との認識合わせや設計・テストの基準に用いる。",
+          "definitionVi": "Tài liệu ghi rõ yêu cầu của khách hàng hoặc người dùng đối với hệ thống, như chức năng, hiệu năng và khả năng sử dụng; làm căn cứ thống nhất nhận thức, thiết kế và kiểm thử.",
+          "reading": "ようきゅうしようしょ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "requirements-definition",
+        "requirements-specification"
+      ]
+    },
+    {
+      "id": "questionnaire",
+      "order": 5,
+      "titleJa": "アンケート",
+      "titleVi": "Khảo sát bằng bảng câu hỏi",
+      "importance": "medium",
+      "summaryJa": "複数の対象者に質問票を配布し、選択式や自由記述式の回答を集める調査手法。多数の意見を効率よく収集できる。",
+      "summaryVi": "Phương pháp phát phiếu hoặc biểu mẫu câu hỏi cho nhiều người, thu thập câu trả lời trắc nghiệm hoặc tự luận; phù hợp để lấy ý kiến trên diện rộng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アンケートとは",
+          "vi": "Khảo sát bằng bảng câu hỏi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の対象者に質問票を配布し、選択式や自由記述式の回答を集める調査手法。多数の意見を効率よく収集できる。",
+          "vi": "Phương pháp phát phiếu hoặc biểu mẫu câu hỏi cho nhiều người, thu thập câu trả lời trắc nghiệm hoặc tự luận; phù hợp để lấy ý kiến trên diện rộng."
+        },
+        {
+          "type": "point",
+          "ja": "多数の回答を比較・集計しやすいが、回答の背景を深掘りしにくい場合がある。",
+          "vi": "Dễ tổng hợp và so sánh nhiều câu trả lời, nhưng đôi khi khó tìm hiểu sâu lý do phía sau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アンケート",
+          "english": "Questionnaire",
+          "vi": "Khảo sát bằng bảng câu hỏi",
+          "definitionJa": "複数の対象者に質問票を配布し、選択式や自由記述式の回答を集める調査手法。多数の意見を効率よく収集できる。",
+          "definitionVi": "Phương pháp phát phiếu hoặc biểu mẫu câu hỏi cho nhiều người, thu thập câu trả lời trắc nghiệm hoặc tự luận; phù hợp để lấy ý kiến trên diện rộng.",
+          "reading": "あんけーと"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "questionnaire"]
+    },
+    {
+      "id": "interview",
+      "order": 6,
+      "titleJa": "インタビュー",
+      "titleVi": "Phỏng vấn thu thập yêu cầu",
+      "importance": "high",
+      "summaryJa": "関係者との対話を通じて要求や問題点を聞き出す手法。構造化、半構造化、非構造化の形式がある。",
+      "summaryVi": "Phương pháp đối thoại với các bên liên quan để khai thác yêu cầu và vấn đề; có ba hình thức: có cấu trúc, bán cấu trúc và phi cấu trúc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "インタビューとは",
+          "vi": "Phỏng vấn thu thập yêu cầu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "関係者との対話を通じて要求や問題点を聞き出す手法。構造化、半構造化、非構造化の形式がある。",
+          "vi": "Phương pháp đối thoại với các bên liên quan để khai thác yêu cầu và vấn đề; có ba hình thức: có cấu trúc, bán cấu trúc và phi cấu trúc."
+        },
+        {
+          "type": "point",
+          "ja": "構造化は質問を統一し比較しやすい。半構造化は追加質問が可能。非構造化は自由な対話を重視する。",
+          "vi": "Có cấu trúc: cùng bộ câu hỏi, dễ so sánh; bán cấu trúc: có câu hỏi chính và hỏi sâu thêm; phi cấu trúc: trao đổi tự do."
+        }
+      ],
+      "terms": [
+        {
+          "term": "インタビュー",
+          "english": "Interview",
+          "vi": "Phỏng vấn thu thập yêu cầu",
+          "definitionJa": "関係者との対話を通じて要求や問題点を聞き出す手法。構造化、半構造化、非構造化の形式がある。",
+          "definitionVi": "Phương pháp đối thoại với các bên liên quan để khai thác yêu cầu và vấn đề; có ba hình thức: có cấu trúc, bán cấu trúc và phi cấu trúc.",
+          "reading": "いんたびゅー"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "interview"]
+    },
+    {
+      "id": "dfd",
+      "order": 7,
+      "titleJa": "DFD",
+      "titleVi": "Sơ đồ luồng dữ liệu",
+      "importance": "high",
+      "summaryJa": "システム内外のデータの流れを、プロセス、データフロー、データストア、外部実体などの記号で表す図。",
+      "summaryVi": "Sơ đồ thể hiện luồng dữ liệu trong và ngoài hệ thống bằng các thành phần như tiến trình xử lý, luồng dữ liệu, kho dữ liệu và tác nhân bên ngoài.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DFDとは",
+          "vi": "Sơ đồ luồng dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム内外のデータの流れを、プロセス、データフロー、データストア、外部実体などの記号で表す図。",
+          "vi": "Sơ đồ thể hiện luồng dữ liệu trong và ngoài hệ thống bằng các thành phần như tiến trình xử lý, luồng dữ liệu, kho dữ liệu và tác nhân bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "DFDはデータの流れを表す。処理の実行順序や制御フローを示すフローチャートとは異なる。",
+          "vi": "DFD mô tả dữ liệu đi đâu và được xử lý ra sao; không phải lưu đồ mô tả thứ tự thực hiện hay luồng điều khiển."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DFD",
+          "english": "Data Flow Diagram",
+          "vi": "Sơ đồ luồng dữ liệu",
+          "definitionJa": "システム内外のデータの流れを、プロセス、データフロー、データストア、外部実体などの記号で表す図。",
+          "definitionVi": "Sơ đồ thể hiện luồng dữ liệu trong và ngoài hệ thống bằng các thành phần như tiến trình xử lý, luồng dữ liệu, kho dữ liệu và tác nhân bên ngoài.",
+          "reading": "でぃーえふでぃ"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "dfd"]
+    },
+    {
+      "id": "decision-table",
+      "order": 8,
+      "titleJa": "デシジョンテーブル",
+      "titleVi": "Bảng quyết định",
+      "importance": "high",
+      "summaryJa": "複数の条件の組合せと、それぞれに対応する処理や動作を表形式で整理する手法。複雑な業務ルールを明確にする。",
+      "summaryVi": "Phương pháp lập bảng kết hợp các điều kiện với hành động hoặc cách xử lý tương ứng, giúp làm rõ quy tắc nghiệp vụ phức tạp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デシジョンテーブルとは",
+          "vi": "Bảng quyết định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の条件の組合せと、それぞれに対応する処理や動作を表形式で整理する手法。複雑な業務ルールを明確にする。",
+          "vi": "Phương pháp lập bảng kết hợp các điều kiện với hành động hoặc cách xử lý tương ứng, giúp làm rõ quy tắc nghiệp vụ phức tạp."
+        },
+        {
+          "type": "point",
+          "ja": "条件の組合せに対する処理漏れや矛盾を確認できる。",
+          "vi": "Có thể kiểm tra các trường hợp bị bỏ sót hoặc mâu thuẫn giữa điều kiện và hành động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デシジョンテーブル",
+          "english": "Decision Table",
+          "vi": "Bảng quyết định",
+          "definitionJa": "複数の条件の組合せと、それぞれに対応する処理や動作を表形式で整理する手法。複雑な業務ルールを明確にする。",
+          "definitionVi": "Phương pháp lập bảng kết hợp các điều kiện với hành động hoặc cách xử lý tương ứng, giúp làm rõ quy tắc nghiệp vụ phức tạp.",
+          "reading": "でしじょんてーぶる"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "decision-table"]
+    },
+    {
+      "id": "uml",
+      "order": 9,
+      "titleJa": "UML",
+      "titleVi": "Ngôn ngữ mô hình hóa thống nhất",
+      "importance": "high",
+      "summaryJa": "システムの構造や振る舞いを複数の種類の図で表す標準的なモデリング言語。クラス図やシーケンス図などを用いる。",
+      "summaryVi": "Ngôn ngữ mô hình hóa tiêu chuẩn dùng nhiều loại sơ đồ để biểu diễn cấu trúc và hành vi của hệ thống, chẳng hạn sơ đồ lớp và sơ đồ tuần tự.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "UMLとは",
+          "vi": "Ngôn ngữ mô hình hóa thống nhất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムの構造や振る舞いを複数の種類の図で表す標準的なモデリング言語。クラス図やシーケンス図などを用いる。",
+          "vi": "Ngôn ngữ mô hình hóa tiêu chuẩn dùng nhiều loại sơ đồ để biểu diễn cấu trúc và hành vi của hệ thống, chẳng hạn sơ đồ lớp và sơ đồ tuần tự."
+        },
+        {
+          "type": "point",
+          "ja": "クラス図は静的な構造、シーケンス図はオブジェクト間のメッセージの時間的な順序を示す。",
+          "vi": "Sơ đồ lớp thể hiện cấu trúc tĩnh; sơ đồ tuần tự thể hiện thứ tự trao đổi thông điệp theo thời gian."
+        }
+      ],
+      "terms": [
+        {
+          "term": "UML",
+          "english": "Unified Modeling Language",
+          "vi": "Ngôn ngữ mô hình hóa thống nhất",
+          "definitionJa": "システムの構造や振る舞いを複数の種類の図で表す標準的なモデリング言語。クラス図やシーケンス図などを用いる。",
+          "definitionVi": "Ngôn ngữ mô hình hóa tiêu chuẩn dùng nhiều loại sơ đồ để biểu diễn cấu trúc và hành vi của hệ thống, chẳng hạn sơ đồ lớp và sơ đồ tuần tự.",
+          "reading": "ゆーえむえる"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "uml"]
+    },
+    {
+      "id": "doa",
+      "order": 10,
+      "titleJa": "DOA",
+      "titleVi": "Phương pháp tiếp cận hướng dữ liệu",
+      "importance": "medium",
+      "summaryJa": "データの構造や関係を中心に分析・設計するシステム開発手法。必要なデータを定義し、整合性を保ちながら管理することを重視する。",
+      "summaryVi": "Cách tiếp cận phát triển hệ thống lấy cấu trúc và mối quan hệ dữ liệu làm trung tâm; chú trọng định nghĩa dữ liệu cần thiết và bảo đảm tính nhất quán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "DOAとは",
+          "vi": "Phương pháp tiếp cận hướng dữ liệu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データの構造や関係を中心に分析・設計するシステム開発手法。必要なデータを定義し、整合性を保ちながら管理することを重視する。",
+          "vi": "Cách tiếp cận phát triển hệ thống lấy cấu trúc và mối quan hệ dữ liệu làm trung tâm; chú trọng định nghĩa dữ liệu cần thiết và bảo đảm tính nhất quán."
+        },
+        {
+          "type": "point",
+          "ja": "DOAはデータ中心の設計であり、処理中心のアプローチと区別する。",
+          "vi": "DOA lấy dữ liệu làm trọng tâm, cần phân biệt với phương pháp thiết kế lấy xử lý làm trung tâm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "DOA",
+          "english": "Data Oriented Approach",
+          "vi": "Phương pháp tiếp cận hướng dữ liệu",
+          "definitionJa": "データの構造や関係を中心に分析・設計するシステム開発手法。必要なデータを定義し、整合性を保ちながら管理することを重視する。",
+          "definitionVi": "Cách tiếp cận phát triển hệ thống lấy cấu trúc và mối quan hệ dữ liệu làm trung tâm; chú trọng định nghĩa dữ liệu cần thiết và bảo đảm tính nhất quán.",
+          "reading": "でぃーおーえー"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "doa"]
+    },
+    {
+      "id": "stakeholder",
+      "order": 11,
+      "titleJa": "ステークホルダ",
+      "titleVi": "Bên liên quan",
+      "importance": "high",
+      "summaryJa": "プロジェクトに影響を与える、またはプロジェクトから影響を受ける個人や組織。顧客、利用者、従業員、取引先などが含まれる。",
+      "summaryVi": "Cá nhân hoặc tổ chức có thể tác động đến dự án hoặc chịu tác động từ dự án, bao gồm khách hàng, người dùng, nhân viên và đối tác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ステークホルダとは",
+          "vi": "Bên liên quan là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "プロジェクトに影響を与える、またはプロジェクトから影響を受ける個人や組織。顧客、利用者、従業員、取引先などが含まれる。",
+          "vi": "Cá nhân hoặc tổ chức có thể tác động đến dự án hoặc chịu tác động từ dự án, bao gồm khách hàng, người dùng, nhân viên và đối tác."
+        },
+        {
+          "type": "point",
+          "ja": "要求定義では関係者ごとに異なる要求や利害を把握し、調整する必要がある。",
+          "vi": "Trong định nghĩa yêu cầu, phải nhận diện và điều phối các nhu cầu, lợi ích khác nhau của từng bên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ステークホルダ",
+          "english": "Stakeholder",
+          "vi": "Bên liên quan",
+          "definitionJa": "プロジェクトに影響を与える、またはプロジェクトから影響を受ける個人や組織。顧客、利用者、従業員、取引先などが含まれる。",
+          "definitionVi": "Cá nhân hoặc tổ chức có thể tác động đến dự án hoặc chịu tác động từ dự án, bao gồm khách hàng, người dùng, nhân viên và đối tác.",
+          "reading": "すてーくほるだ"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "stakeholder"]
+    },
+    {
+      "id": "facilitation",
+      "order": 12,
+      "titleJa": "ファシリテーション",
+      "titleVi": "Điều phối và thúc đẩy thảo luận",
+      "importance": "medium",
+      "summaryJa": "会議やワークショップで参加者の意見を引き出し、議論を円滑に進め、合意形成を支援する技術。進行役は中立的な立場を保つ。",
+      "summaryVi": "Kỹ năng hỗ trợ cuộc họp hoặc workshop bằng cách khuyến khích ý kiến, điều phối thảo luận và thúc đẩy đồng thuận; người điều phối giữ lập trường trung lập.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ファシリテーションとは",
+          "vi": "Điều phối và thúc đẩy thảo luận là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "会議やワークショップで参加者の意見を引き出し、議論を円滑に進め、合意形成を支援する技術。進行役は中立的な立場を保つ。",
+          "vi": "Kỹ năng hỗ trợ cuộc họp hoặc workshop bằng cách khuyến khích ý kiến, điều phối thảo luận và thúc đẩy đồng thuận; người điều phối giữ lập trường trung lập."
+        },
+        {
+          "type": "point",
+          "ja": "ファシリテーターは結論を一方的に決める人ではなく、参加者の合意形成を助ける人。",
+          "vi": "Facilitator không tự áp đặt kết luận mà giúp các bên cùng trao đổi và đạt đồng thuận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ファシリテーション",
+          "english": "Facilitation",
+          "vi": "Điều phối và thúc đẩy thảo luận",
+          "definitionJa": "会議やワークショップで参加者の意見を引き出し、議論を円滑に進め、合意形成を支援する技術。進行役は中立的な立場を保つ。",
+          "definitionVi": "Kỹ năng hỗ trợ cuộc họp hoặc workshop bằng cách khuyến khích ý kiến, điều phối thảo luận và thúc đẩy đồng thuận; người điều phối giữ lập trường trung lập.",
+          "reading": "ふぁしりてーしょん"
+        }
+      ],
+      "tags": ["system-planning", "requirements-definition", "facilitation"]
+    }
+  ]
 }

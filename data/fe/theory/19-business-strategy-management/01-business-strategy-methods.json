@@ -4,5 +4,1450 @@
   "titleJa": "経営戦略手法",
   "titleVi": "Phương pháp chiến lược kinh doanh",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "corporate-philosophy",
+      "order": 1,
+      "titleJa": "企業理念",
+      "titleVi": "Triết lý doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業が存在する目的や価値観を示す基本的な考え方である。",
+      "summaryVi": "Những giá trị và mục đích tồn tại cốt lõi định hướng quyết định, chiến lược và hành vi của nhân viên; ví dụ lấy khách hàng làm trung tâm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "企業理念とは",
+          "vi": "Triết lý doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が存在する目的や価値観を示す基本的な考え方である。これは、企業の方針や戦略を決定する際の指針となり、社員の行動や判断に影響を与える。例えば、ある企業が「顧客第一主義」を掲げている場合、その企業の全ての活動は顧客の満足度を最優先に考えるように設計される。このように、企業理念は企業文化の形成にも寄与し、外部の利害関係者に対してもその企業の姿勢を明確に伝える役割を果たすため、長期的な成長と持続可能性にとって重要である。",
+          "vi": "Những giá trị và mục đích tồn tại cốt lõi định hướng quyết định, chiến lược và hành vi của nhân viên; ví dụ lấy khách hàng làm trung tâm."
+        },
+        {
+          "type": "point",
+          "ja": "企業が存在する目的や価値観を示す基本的な考え方である。",
+          "vi": "企業理念 là kim chỉ nam dài hạn, không phải mục tiêu doanh thu ngắn hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "企業理念",
+          "english": "Corporate Philosophy",
+          "vi": "Triết lý doanh nghiệp",
+          "definitionJa": "企業が存在する目的や価値観を示す基本的な考え方である。",
+          "definitionVi": "Những giá trị và mục đích tồn tại cốt lõi định hướng quyết định, chiến lược và hành vi của nhân viên; ví dụ lấy khách hàng làm trung tâm.",
+          "reading": "きぎょうりねん"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "corporate-philosophy"
+      ]
+    },
+    {
+      "id": "diversification",
+      "order": 2,
+      "titleJa": "多角化",
+      "titleVi": "Đa dạng hóa kinh doanh",
+      "importance": "medium",
+      "summaryJa": "企業が新しい市場や製品に進出することで経営のリスクを分散させ、成長を図る戦略である。",
+      "summaryVi": "Chiến lược mở rộng sang sản phẩm hoặc thị trường mới nhằm tăng trưởng và phân tán rủi ro phụ thuộc vào một ngành kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "多角化とは",
+          "vi": "Đa dạng hóa kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が新しい市場や製品に進出することで経営のリスクを分散させ、成長を図る戦略である。企業が一つの事業に依存せず、異なる分野に投資することで、景気の変動や市場の競争に柔軟に対応できるようになる。例えば、自動車メーカーが電動自転車の製造に進出したり、飲料企業が健康食品市場に参入したりすることが多角化の一例である。このように、多角化は企業の競争力を高め、収益の安定を目指すための重要な手法である。",
+          "vi": "Chiến lược mở rộng sang sản phẩm hoặc thị trường mới nhằm tăng trưởng và phân tán rủi ro phụ thuộc vào một ngành kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "企業が新しい市場や製品に進出することで経営のリスクを分散させ、成長を図る戦略である。",
+          "vi": "Đa dạng hóa là mở sang lĩnh vực khác, không đơn thuần tăng sản lượng sản phẩm hiện có."
+        }
+      ],
+      "terms": [
+        {
+          "term": "多角化",
+          "english": "Diversification",
+          "vi": "Đa dạng hóa kinh doanh",
+          "definitionJa": "企業が新しい市場や製品に進出することで経営のリスクを分散させ、成長を図る戦略である。",
+          "definitionVi": "Chiến lược mở rộng sang sản phẩm hoặc thị trường mới nhằm tăng trưởng và phân tán rủi ro phụ thuộc vào một ngành kinh doanh.",
+          "reading": "たかくか"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "diversification"
+      ]
+    },
+    {
+      "id": "synergy-effect",
+      "order": 3,
+      "titleJa": "シナジー効果",
+      "titleVi": "Hiệu ứng cộng hưởng",
+      "importance": "medium",
+      "summaryJa": "複数の要素や組織が協力することによって、単独での効果よりも大きな成果を生み出す現象である。",
+      "summaryVi": "Khi kết hợp các bộ phận hoặc doanh nghiệp, kết quả chung lớn hơn tổng hiệu quả nếu từng bên hoạt động riêng lẻ; ví dụ chia sẻ công nghệ và kênh bán hàng sau sáp nhập.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シナジー効果とは",
+          "vi": "Hiệu ứng cộng hưởng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の要素や組織が協力することによって、単独での効果よりも大きな成果を生み出す現象である。例えば、二つの企業が合併することで、両者の技術やリソースを活用し、コスト削減や市場拡大を実現できる場合がある。このように、一緒に働くことで得られるメリットは、単独行動では得られない価値をもたらすため、企業戦略において重要な概念である。特にチームワークやパートナーシップの向上に寄与し、より高い競争力を生み出す基盤となる。",
+          "vi": "Khi kết hợp các bộ phận hoặc doanh nghiệp, kết quả chung lớn hơn tổng hiệu quả nếu từng bên hoạt động riêng lẻ; ví dụ chia sẻ công nghệ và kênh bán hàng sau sáp nhập."
+        },
+        {
+          "type": "point",
+          "ja": "複数の要素や組織が協力することによって、単独での効果よりも大きな成果を生み出す現象である。",
+          "vi": "Nhớ 1 + 1 lớn hơn 2 về giá trị tạo ra."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シナジー効果",
+          "english": "Synergy Effect",
+          "vi": "Hiệu ứng cộng hưởng",
+          "definitionJa": "複数の要素や組織が協力することによって、単独での効果よりも大きな成果を生み出す現象である。",
+          "definitionVi": "Khi kết hợp các bộ phận hoặc doanh nghiệp, kết quả chung lớn hơn tổng hiệu quả nếu từng bên hoạt động riêng lẻ; ví dụ chia sẻ công nghệ và kênh bán hàng sau sáp nhập.",
+          "reading": "しなじーこうか"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "synergy-effect"
+      ]
+    },
+    {
+      "id": "economies-of-scale",
+      "order": 4,
+      "titleJa": "規模の経済",
+      "titleVi": "Lợi thế kinh tế theo quy mô",
+      "importance": "high",
+      "summaryJa": "企業が生産を拡大することで、単位あたりのコストが低下する現象である。",
+      "summaryVi": "Khi tăng quy mô sản xuất, chi phí bình quân trên mỗi sản phẩm giảm nhờ mua nguyên liệu số lượng lớn và khai thác thiết bị hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "規模の経済とは",
+          "vi": "Lợi thế kinh tế theo quy mô là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が生産を拡大することで、単位あたりのコストが低下する現象である。例えば、大量に製品を製造する企業は、資材の仕入れを一括で行うことでコストを抑えたり、生産設備を効率的に運用することができる。この結果、販売価格を引き下げることが可能になり、競争力が向上する。特に製造業や流通業において重要で、大きな市場シェアを持つ企業には高い利益率をもたらす傾向がある。これにより、小規模な企業は競争で不利になることがあるため、業界全体の構造に影響を与える要因ともなっている。",
+          "vi": "Khi tăng quy mô sản xuất, chi phí bình quân trên mỗi sản phẩm giảm nhờ mua nguyên liệu số lượng lớn và khai thác thiết bị hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "生産規模が大きいほど単位当たりコストが低下する。",
+          "vi": "Quy mô: sản xuất nhiều hơn cùng loại để giảm chi phí đơn vị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "規模の経済",
+          "english": "Economies of Scale",
+          "vi": "Lợi thế kinh tế theo quy mô",
+          "definitionJa": "企業が生産を拡大することで、単位あたりのコストが低下する現象である。",
+          "definitionVi": "Khi tăng quy mô sản xuất, chi phí bình quân trên mỗi sản phẩm giảm nhờ mua nguyên liệu số lượng lớn và khai thác thiết bị hiệu quả.",
+          "reading": "きぼのけいざい"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "economies-of-scale"
+      ]
+    },
+    {
+      "id": "economies-of-scope",
+      "order": 5,
+      "titleJa": "範囲の経済",
+      "titleVi": "Lợi thế kinh tế theo phạm vi",
+      "importance": "high",
+      "summaryJa": "企業が異なる製品やサービスを同時に生産することによって得られるコストの削減効果を指す。",
+      "summaryVi": "Tiết kiệm chi phí nhờ cùng sản xuất hoặc cung cấp nhiều loại sản phẩm, dùng chung tài nguyên, công nghệ, hệ thống phân phối.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "範囲の経済とは",
+          "vi": "Lợi thế kinh tế theo phạm vi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が異なる製品やサービスを同時に生産することによって得られるコストの削減効果を指す。これは、共有リソースや技術を活用することで達成されるもので、例えば、ある食品メーカーが飲料とスナックを製造する際、共通の原材料や設備を利用することで生産コストを削減できる。さらに、顧客への多様な提供が可能になるため、マーケティングや販売の効率が向上することにも寄与する。このように、企業は範囲の経済を活用することで競争力を強化し、利益を最大化することを目指す。",
+          "vi": "Tiết kiệm chi phí nhờ cùng sản xuất hoặc cung cấp nhiều loại sản phẩm, dùng chung tài nguyên, công nghệ, hệ thống phân phối."
+        },
+        {
+          "type": "point",
+          "ja": "複数の製品や事業で資源を共用し、総コストを削減する。",
+          "vi": "Phạm vi: chia sẻ nguồn lực giữa nhiều loại sản phẩm; khác với quy mô."
+        }
+      ],
+      "terms": [
+        {
+          "term": "範囲の経済",
+          "english": "Economies of Scope",
+          "vi": "Lợi thế kinh tế theo phạm vi",
+          "definitionJa": "企業が異なる製品やサービスを同時に生産することによって得られるコストの削減効果を指す。",
+          "definitionVi": "Tiết kiệm chi phí nhờ cùng sản xuất hoặc cung cấp nhiều loại sản phẩm, dùng chung tài nguyên, công nghệ, hệ thống phân phối.",
+          "reading": "はんいのけいざい"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "economies-of-scope"
+      ]
+    },
+    {
+      "id": "innovation",
+      "order": 6,
+      "titleJa": "イノベーション",
+      "titleVi": "Đổi mới sáng tạo",
+      "importance": "medium",
+      "summaryJa": "既存の製品やサービス、プロセスを改良したり、新たに創出したりすることを指す。",
+      "summaryVi": "Tạo mới hoặc cải tiến sản phẩm, dịch vụ, quy trình và mô hình kinh doanh nhằm đem lại giá trị mới và tăng sức cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "イノベーションとは",
+          "vi": "Đổi mới sáng tạo là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "既存の製品やサービス、プロセスを改良したり、新たに創出したりすることを指す。主に企業や組織の経営戦略において重要な概念である。イノベーションにより、競争力を高めたり、市場ニーズに応える新たな価値を提供したりすることができる。例えば、スマートフォンの登場は、通信や情報の取り扱い方を根本的に変え、多くの企業に新しいビジネスモデルを生み出す契機となった。このように、イノベーションは企業の成長や持続可能性に密接に関連しており、様々な分野での進展を促進する原動力となる。",
+          "vi": "Tạo mới hoặc cải tiến sản phẩm, dịch vụ, quy trình và mô hình kinh doanh nhằm đem lại giá trị mới và tăng sức cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "既存の製品やサービス、プロセスを改良したり、新たに創出したりすることを指す。",
+          "vi": "Đổi mới không chỉ là phát minh công nghệ mà còn là thay đổi cách kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "イノベーション",
+          "english": "Innovation",
+          "vi": "Đổi mới sáng tạo",
+          "definitionJa": "既存の製品やサービス、プロセスを改良したり、新たに創出したりすることを指す。",
+          "definitionVi": "Tạo mới hoặc cải tiến sản phẩm, dịch vụ, quy trình và mô hình kinh doanh nhằm đem lại giá trị mới và tăng sức cạnh tranh.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "innovation"]
+    },
+    {
+      "id": "change-management",
+      "order": 7,
+      "titleJa": "チェンジマネジメント",
+      "titleVi": "Quản lý thay đổi",
+      "importance": "medium",
+      "summaryJa": "組織内での変革や新しい取り組みを効果的に導入するためのプロセスである。",
+      "summaryVi": "Quản lý tác động của việc thay đổi trong tổ chức, hỗ trợ nhân viên tiếp nhận quy trình hoặc hệ thống mới qua truyền thông, đào tạo và phối hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "チェンジマネジメントとは",
+          "vi": "Quản lý thay đổi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織内での変革や新しい取り組みを効果的に導入するためのプロセスである。これは、変化によって生じる影響を管理し、従業員の抵抗を軽減し、スムーズに移行できるよう支援することを目的としている。例えば、新しいシステムの導入や業務プロセスの変更があるとき、従業員がその変更を受け入れやすくするために、トレーニングや情報提供を行う。このように、組織が変化に適応し、戦略を成功裏に実行するために欠かせない要素である。",
+          "vi": "Quản lý tác động của việc thay đổi trong tổ chức, hỗ trợ nhân viên tiếp nhận quy trình hoặc hệ thống mới qua truyền thông, đào tạo và phối hợp."
+        },
+        {
+          "type": "point",
+          "ja": "組織内での変革や新しい取り組みを効果的に導入するためのプロセスである。",
+          "vi": "Trọng tâm là giúp con người và tổ chức chuyển đổi thuận lợi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "チェンジマネジメント",
+          "english": "Change Management",
+          "vi": "Quản lý thay đổi",
+          "definitionJa": "組織内での変革や新しい取り組みを効果的に導入するためのプロセスである。",
+          "definitionVi": "Quản lý tác động của việc thay đổi trong tổ chức, hỗ trợ nhân viên tiếp nhận quy trình hoặc hệ thống mới qua truyền thông, đào tạo và phối hợp.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "change-management"
+      ]
+    },
+    {
+      "id": "dynamic-capability",
+      "order": 8,
+      "titleJa": "ダイナミックケイパビリティ",
+      "titleVi": "Năng lực thích ứng động",
+      "importance": "medium",
+      "summaryJa": "企業が変化する環境に適応し、新たな機会を捉える能力を指す経営概念である。",
+      "summaryVi": "Khả năng nhận biết biến động môi trường, nắm bắt cơ hội và tái cấu hình nguồn lực nhanh để duy trì lợi thế cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ダイナミックケイパビリティとは",
+          "vi": "Năng lực thích ứng động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が変化する環境に適応し、新たな機会を捉える能力を指す経営概念である。具体的には、資源を迅速に再配置したり、新技術を取り入れたりすることで、競争優位性を維持・向上させることが求められる。例えば、ある企業が市場のニーズ変化に対して新製品を迅速に開発し、競合他社よりも早く提供することができれば、それはダイナミックケイパビリティの一例である。このように、柔軟性と迅速な対応力が、企業の持続的な成功に重要な役割を果たす。",
+          "vi": "Khả năng nhận biết biến động môi trường, nắm bắt cơ hội và tái cấu hình nguồn lực nhanh để duy trì lợi thế cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "企業が変化する環境に適応し、新たな機会を捉える能力を指す経営概念である。",
+          "vi": "Khác năng lực vận hành thường ngày: nhấn mạnh thay đổi và tái cấu hình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ダイナミックケイパビリティ",
+          "english": "Dynamic Capability",
+          "vi": "Năng lực thích ứng động",
+          "definitionJa": "企業が変化する環境に適応し、新たな機会を捉える能力を指す経営概念である。",
+          "definitionVi": "Khả năng nhận biết biến động môi trường, nắm bắt cơ hội và tái cấu hình nguồn lực nhanh để duy trì lợi thế cạnh tranh.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "dynamic-capability"
+      ]
+    },
+    {
+      "id": "benchmarking",
+      "order": 9,
+      "titleJa": "ベンチマーキング",
+      "titleVi": "Đối sánh chuẩn",
+      "importance": "medium",
+      "summaryJa": "他社や業界のベストプラクティスを比較し、自社のパフォーマンスやプロセスを改善するための手法である。",
+      "summaryVi": "So sánh quy trình và chỉ tiêu hoạt động của doanh nghiệp với đơn vị hoặc thực tiễn tốt để tìm khoảng cách và cải tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベンチマーキングとは",
+          "vi": "Đối sánh chuẩn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "他社や業界のベストプラクティスを比較し、自社のパフォーマンスやプロセスを改善するための手法である。このプロセスでは、特定の指標や業務方法を分析し、自社の現状と比較することで、効果的な改善策を導き出すことが目的である。例えば、企業が競合他社の生産効率を調べることで、自社の不足点や強みを明確にし、戦略を見直すことができる。また、ベンチマーキングには、業内の競争相手だけでなく、他業界の成功事例を参考にすることも含まれるため、イノベーションの促進にもつながる。これは、企業が市場で競争力を維持するために重要な手法となっている。",
+          "vi": "So sánh quy trình và chỉ tiêu hoạt động của doanh nghiệp với đơn vị hoặc thực tiễn tốt để tìm khoảng cách và cải tiến."
+        },
+        {
+          "type": "point",
+          "ja": "他社や業界のベストプラクティスを比較し、自社のパフォーマンスやプロセスを改善するための手法である。",
+          "vi": "Benchmarking là hoạt động so sánh, còn best practice là cách làm tốt được tham chiếu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベンチマーキング",
+          "english": "Benchmarking",
+          "vi": "Đối sánh chuẩn",
+          "definitionJa": "他社や業界のベストプラクティスを比較し、自社のパフォーマンスやプロセスを改善するための手法である。",
+          "definitionVi": "So sánh quy trình và chỉ tiêu hoạt động của doanh nghiệp với đơn vị hoặc thực tiễn tốt để tìm khoảng cách và cải tiến.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "benchmarking"]
+    },
+    {
+      "id": "best-practice",
+      "order": 10,
+      "titleJa": "ベストプラクティス",
+      "titleVi": "Thực tiễn tốt nhất",
+      "importance": "medium",
+      "summaryJa": "ある分野や業務において、最も優れた手法や取り組みのことである。",
+      "summaryVi": "Phương pháp hoặc cách làm đã chứng tỏ hiệu quả cao trong một lĩnh vực, được dùng làm tham khảo để cải tiến hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベストプラクティスとは",
+          "vi": "Thực tiễn tốt nhất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ある分野や業務において、最も優れた手法や取り組みのことである。この考え方は、効率性や成果を最大化するために、成功した事例や方法論を基にしている。そのため、企業や組織は他社の成功例を参考にし、自社に適したベストプラクティスを導入することで、競争力を高めることができる。例えば、プロジェクト管理においては、定期的な進捗報告やフィードバックセッションを組み込むことがベストプラクティスとされ、これによりチームの生産性が向上する場合が多い。このように、ベストプラクティスは業務の質を向上させるために重要な枠組みとなっている。",
+          "vi": "Phương pháp hoặc cách làm đã chứng tỏ hiệu quả cao trong một lĩnh vực, được dùng làm tham khảo để cải tiến hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "ある分野や業務において、最も優れた手法や取り組みのことである。",
+          "vi": "Không nhất thiết sao chép nguyên xi; cần điều chỉnh theo hoàn cảnh doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベストプラクティス",
+          "english": "Best Practice",
+          "vi": "Thực tiễn tốt nhất",
+          "definitionJa": "ある分野や業務において、最も優れた手法や取り組みのことである。",
+          "definitionVi": "Phương pháp hoặc cách làm đã chứng tỏ hiệu quả cao trong một lĩnh vực, được dùng làm tham khảo để cải tiến hoạt động.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "best-practice"
+      ]
+    },
+    {
+      "id": "sdgs",
+      "order": 11,
+      "titleJa": "SDGs",
+      "titleVi": "Các mục tiêu phát triển bền vững",
+      "importance": "medium",
+      "summaryJa": "持続可能な開発のための国際的な目標のことである。",
+      "summaryVi": "Bộ 17 mục tiêu phát triển bền vững của Liên Hợp Quốc hướng đến năm 2030, gồm xóa nghèo, giáo dục, sức khỏe, môi trường và bình đẳng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SDGsとは",
+          "vi": "Các mục tiêu phát triển bền vững là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "持続可能な開発のための国際的な目標のことである。これは、2030年までに貧困をなくし、教育や健康を改善し、環境保護を進めるための具体的な17の目標から成り立っている。企業や組織は、SDGsを経営戦略に取り入れることで、社会的責任を果たしながら持続可能な成長を目指すことができる。例えば、再生可能エネルギーの利用促進や男女平等を進める取り組みは、SDGsに直接関連している。また、SDGsを意識した経営は、消費者や投資家からの支持を得やすく、競争力を高めるための重要な要素ともなっている。",
+          "vi": "Bộ 17 mục tiêu phát triển bền vững của Liên Hợp Quốc hướng đến năm 2030, gồm xóa nghèo, giáo dục, sức khỏe, môi trường và bình đẳng."
+        },
+        {
+          "type": "point",
+          "ja": "持続可能な開発のための国際的な目標のことである。",
+          "vi": "SDGs có 17 mục tiêu; doanh nghiệp có thể lồng ghép vào chiến lược."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SDGs",
+          "english": "Sustainable Development Goals",
+          "vi": "Các mục tiêu phát triển bền vững",
+          "definitionJa": "持続可能な開発のための国際的な目標のことである。",
+          "definitionVi": "Bộ 17 mục tiêu phát triển bền vững của Liên Hợp Quốc hướng đến năm 2030, gồm xóa nghèo, giáo dục, sức khỏe, môi trường và bình đẳng.",
+          "reading": "えすでぃーじーず"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "sdgs"]
+    },
+    {
+      "id": "circular-economy",
+      "order": 12,
+      "titleJa": "サーキュラーエコノミー",
+      "titleVi": "Kinh tế tuần hoàn",
+      "importance": "medium",
+      "summaryJa": "資源の無駄を減らし、再利用やリサイクルを促進する経済のモデルである。",
+      "summaryVi": "Mô hình kinh tế giảm chất thải và duy trì giá trị tài nguyên bằng tái sử dụng, sửa chữa, tái chế, thay cho sản xuất–tiêu dùng–vứt bỏ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "サーキュラーエコノミーとは",
+          "vi": "Kinh tế tuần hoàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "資源の無駄を減らし、再利用やリサイクルを促進する経済のモデルである。循環経済とも呼ばれる。このモデルは、従来の「作って使って捨てる」という線形経済からの転換を目指しており、持続可能な発展を重視する。たとえば、企業が製品の製造過程で生じる廃棄物を再利用したり、使用済み製品を回収して新しい商品に生まれ変わらせることで、資源の効率的な利用が図られる。環境への負荷を軽減するだけでなく、ビジネスの競争力を高めることにもつながるため、現代の経営戦略において重要な考え方とされている。",
+          "vi": "Mô hình kinh tế giảm chất thải và duy trì giá trị tài nguyên bằng tái sử dụng, sửa chữa, tái chế, thay cho sản xuất–tiêu dùng–vứt bỏ."
+        },
+        {
+          "type": "point",
+          "ja": "資源の無駄を減らし、再利用やリサイクルを促進する経済のモデルである。",
+          "vi": "Khác kinh tế tuyến tính: ưu tiên tuần hoàn tài nguyên."
+        }
+      ],
+      "terms": [
+        {
+          "term": "サーキュラーエコノミー",
+          "english": "Circular Economy",
+          "vi": "Kinh tế tuần hoàn",
+          "definitionJa": "資源の無駄を減らし、再利用やリサイクルを促進する経済のモデルである。",
+          "definitionVi": "Mô hình kinh tế giảm chất thải và duy trì giá trị tài nguyên bằng tái sử dụng, sửa chữa, tái chế, thay cho sản xuất–tiêu dùng–vứt bỏ.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "circular-economy"
+      ]
+    },
+    {
+      "id": "competitive-advantage",
+      "order": 13,
+      "titleJa": "競争優位",
+      "titleVi": "Lợi thế cạnh tranh",
+      "importance": "medium",
+      "summaryJa": "ある企業が競争相手に対して持つ、持続的な優位性のことである。",
+      "summaryVi": "Điểm mạnh giúp doanh nghiệp vượt đối thủ về chi phí, chất lượng, công nghệ hoặc trải nghiệm khách hàng và tạo giá trị bền vững.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "競争優位とは",
+          "vi": "Lợi thế cạnh tranh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ある企業が競争相手に対して持つ、持続的な優位性のことである。これは、特定の製品やサービスの質、コスト、顧客サービスなど、様々な要因によって形成される。たとえば、ある企業が独自の技術を持っている場合、その技術を使用して高品質の製品を生産することで、顧客の信頼を得ることができ、競争相手よりも優位に立つことができる。こうした競争優位を持つことで、企業は市場での位置を強化し、収益を向上させることが可能になり、持続的な成長を実現するための鍵となる。",
+          "vi": "Điểm mạnh giúp doanh nghiệp vượt đối thủ về chi phí, chất lượng, công nghệ hoặc trải nghiệm khách hàng và tạo giá trị bền vững."
+        },
+        {
+          "type": "point",
+          "ja": "ある企業が競争相手に対して持つ、持続的な優位性のことである。",
+          "vi": "Lợi thế có thể đến từ chi phí thấp hoặc khác biệt hóa."
+        }
+      ],
+      "terms": [
+        {
+          "term": "競争優位",
+          "english": "Competitive Advantage",
+          "vi": "Lợi thế cạnh tranh",
+          "definitionJa": "ある企業が競争相手に対して持つ、持続的な優位性のことである。",
+          "definitionVi": "Điểm mạnh giúp doanh nghiệp vượt đối thủ về chi phí, chất lượng, công nghệ hoặc trải nghiệm khách hàng và tạo giá trị bền vững.",
+          "reading": "きょうそうゆうい"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "competitive-advantage"
+      ]
+    },
+    {
+      "id": "experience-curve",
+      "order": 14,
+      "titleJa": "経験曲線",
+      "titleVi": "Đường cong kinh nghiệm",
+      "importance": "high",
+      "summaryJa": "製品の生産量が増加するにしたがって、一つあたりのコストが低下する現象である。",
+      "summaryVi": "Khi sản lượng tích lũy tăng, chi phí đơn vị có xu hướng giảm do học hỏi, tích lũy kỹ năng và cải tiến quy trình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "経験曲線とは",
+          "vi": "Đường cong kinh nghiệm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品の生産量が増加するにしたがって、一つあたりのコストが低下する現象である。これは、生産に伴う効率化や技術の習得が進むため、作業がスムーズになりコストが削減されることを示す。例えば、新しい製品を導入した企業が、初めは高いコストで製造していたが、生産を重ねるごとに従業員がスキルを向上させ、作業が効率化されることで、コストが徐々に低下していく場合がある。経験曲線の概念は、企業が長期的に競争力を維持するための戦略を策定する際に重要な要素となっており、コスト優位性を得ることで市場シェアを拡大することを目指す。",
+          "vi": "Khi sản lượng tích lũy tăng, chi phí đơn vị có xu hướng giảm do học hỏi, tích lũy kỹ năng và cải tiến quy trình."
+        },
+        {
+          "type": "point",
+          "ja": "経験曲線は累積生産量による習熟効果、規模の経済は生産規模の拡大に着目する。",
+          "vi": "Khác kinh tế theo quy mô: nhấn mạnh sản lượng tích lũy và hiệu ứng học hỏi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "経験曲線",
+          "english": "Experience Curve",
+          "vi": "Đường cong kinh nghiệm",
+          "definitionJa": "製品の生産量が増加するにしたがって、一つあたりのコストが低下する現象である。",
+          "definitionVi": "Khi sản lượng tích lũy tăng, chi phí đơn vị có xu hướng giảm do học hỏi, tích lũy kỹ năng và cải tiến quy trình.",
+          "reading": "けいけんきょくせん"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "experience-curve"
+      ]
+    },
+    {
+      "id": "customer-satisfaction",
+      "order": 15,
+      "titleJa": "CS",
+      "titleVi": "Mức độ hài lòng khách hàng",
+      "importance": "medium",
+      "summaryJa": "顧客満足を指し、顧客が製品やサービスに対して抱く満足度を示す指標である。",
+      "summaryVi": "Chỉ số phản ánh khách hàng hài lòng đến đâu với sản phẩm, dịch vụ; có thể ảnh hưởng đến việc mua lại và giới thiệu cho người khác.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CSとは",
+          "vi": "Mức độ hài lòng khách hàng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客満足を指し、顧客が製品やサービスに対して抱く満足度を示す指標である。企業にとって、顧客の期待に応えることが重要であり、高いCSは顧客のリピート購入や推奨を促進する。例えば、ある飲食店が顧客の声を集め、料理やサービスを改善することで、顧客満足度が向上し、結果的に売上が増加することが考えられる。また、CSを評価することで、企業は顧客ニーズを把握し、戦略的なサービス向上に繋がるため、全社的に重視されるべき要素である。",
+          "vi": "Chỉ số phản ánh khách hàng hài lòng đến đâu với sản phẩm, dịch vụ; có thể ảnh hưởng đến việc mua lại và giới thiệu cho người khác."
+        },
+        {
+          "type": "point",
+          "ja": "顧客満足を指し、顧客が製品やサービスに対して抱く満足度を示す指標である。",
+          "vi": "CS = Customer Satisfaction, không phải Customer Service."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CS",
+          "english": "Customer Satisfaction",
+          "vi": "Mức độ hài lòng khách hàng",
+          "definitionJa": "顧客満足を指し、顧客が製品やサービスに対して抱く満足度を示す指標である。",
+          "definitionVi": "Chỉ số phản ánh khách hàng hài lòng đến đâu với sản phẩm, dịch vụ; có thể ảnh hưởng đến việc mua lại và giới thiệu cho người khác.",
+          "reading": "しーえす"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "customer-satisfaction"
+      ]
+    },
+    {
+      "id": "group-management",
+      "order": 16,
+      "titleJa": "グループ経営",
+      "titleVi": "Quản trị tập đoàn",
+      "importance": "medium",
+      "summaryJa": "複数の企業や事業が一つのグループとして連携し、全体としての戦略を策定・実行する経営手法である。",
+      "summaryVi": "Quản lý nhiều công ty hoặc đơn vị trong cùng nhóm theo chiến lược chung, phối hợp nguồn lực và tạo hiệu ứng cộng hưởng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "グループ経営とは",
+          "vi": "Quản trị tập đoàn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の企業や事業が一つのグループとして連携し、全体としての戦略を策定・実行する経営手法である。これは、グループ内の各企業が持つリソースやノウハウを効果的に活用し、シナジーを生むことを目的としている。例えば、親会社が子会社に対して経営方針を示し、それぞれの業務が協力して製品開発やマーケティングを行うことで、コスト削減や競争力向上が図れる。規模の経済や市場における競争力を強化するために重要な手法となっている。",
+          "vi": "Quản lý nhiều công ty hoặc đơn vị trong cùng nhóm theo chiến lược chung, phối hợp nguồn lực và tạo hiệu ứng cộng hưởng."
+        },
+        {
+          "type": "point",
+          "ja": "複数の企業や事業が一つのグループとして連携し、全体としての戦略を策定・実行する経営手法である。",
+          "vi": "Tập trung tối ưu toàn nhóm chứ không chỉ từng công ty riêng lẻ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "グループ経営",
+          "english": "Group Management",
+          "vi": "Quản trị tập đoàn",
+          "definitionJa": "複数の企業や事業が一つのグループとして連携し、全体としての戦略を策定・実行する経営手法である。",
+          "definitionVi": "Quản lý nhiều công ty hoặc đơn vị trong cùng nhóm theo chiến lược chung, phối hợp nguồn lực và tạo hiệu ứng cộng hưởng.",
+          "reading": "ぐるーぷけいえい"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "group-management"
+      ]
+    },
+    {
+      "id": "core-competence",
+      "order": 17,
+      "titleJa": "コアコンピタンス",
+      "titleVi": "Năng lực cốt lõi",
+      "importance": "high",
+      "summaryJa": "企業が競争優位を維持するために持つ、特有の技術や能力である。",
+      "summaryVi": "Năng lực, tri thức hoặc công nghệ đặc thù khó bị đối thủ bắt chước, giúp tạo giá trị cho khách hàng và duy trì lợi thế cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コアコンピタンスとは",
+          "vi": "Năng lực cốt lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が競争優位を維持するために持つ、特有の技術や能力である。これは、他社には真似できない独自性を持っており、顧客に提供する価値を生む原動力となる。例えば、ある企業が新技術の開発に長けている場合、その技術を活かして製品を改良したり、新たな市場を開拓することが可能になる。コアコンピタンスを明確にすることで、企業はリソースを集中させるべき領域が分かり、戦略を効果的に策定できる。これにより、マーケットでの競争力を高め、持続的な成長を実現するための基盤を築くことができる。",
+          "vi": "Năng lực, tri thức hoặc công nghệ đặc thù khó bị đối thủ bắt chước, giúp tạo giá trị cho khách hàng và duy trì lợi thế cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "企業が競争優位を維持するために持つ、特有の技術や能力である。",
+          "vi": "Core competence là thế mạnh đặc biệt của doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コアコンピタンス",
+          "english": "Core Competence",
+          "vi": "Năng lực cốt lõi",
+          "definitionJa": "企業が競争優位を維持するために持つ、特有の技術や能力である。",
+          "definitionVi": "Năng lực, tri thức hoặc công nghệ đặc thù khó bị đối thủ bắt chước, giúp tạo giá trị cho khách hàng và duy trì lợi thế cạnh tranh.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "core-competence"
+      ]
+    },
+    {
+      "id": "outsourcing",
+      "order": 18,
+      "titleJa": "アウトソーシング",
+      "titleVi": "Thuê ngoài",
+      "importance": "medium",
+      "summaryJa": "企業が自社の業務やサービスの一部を外部の専門業者に委託することを指す。",
+      "summaryVi": "Giao một phần hoạt động như hỗ trợ IT, nhập liệu hoặc logistics cho nhà cung cấp bên ngoài để tận dụng chuyên môn và tập trung vào hoạt động cốt lõi.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アウトソーシングとは",
+          "vi": "Thuê ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の業務やサービスの一部を外部の専門業者に委託することを指す。これにより、企業はコスト削減や効率化を図ることができる。たとえば、データ入力業務やITサポート、物流業務などは、外部の専門企業に任せることで、企業内部のリソースを他の重要な業務に集中させることが可能である。また、専門業者が持つ知識や技術を活用することで、品質の向上や迅速なサービス提供が実現できる場合も多い。ただし、アウトソーシングには適切な業者の選定や、委託した業務の管理が必要であり、それによってリスク管理も重要な課題となる。これをうまく活用することで、競争力を向上させることが期待される。",
+          "vi": "Giao một phần hoạt động như hỗ trợ IT, nhập liệu hoặc logistics cho nhà cung cấp bên ngoài để tận dụng chuyên môn và tập trung vào hoạt động cốt lõi."
+        },
+        {
+          "type": "point",
+          "ja": "企業が自社の業務やサービスの一部を外部の専門業者に委託することを指す。",
+          "vi": "Cần cân nhắc rủi ro phụ thuộc nhà cung cấp và kiểm soát chất lượng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アウトソーシング",
+          "english": "Outsourcing",
+          "vi": "Thuê ngoài",
+          "definitionJa": "企業が自社の業務やサービスの一部を外部の専門業者に委託することを指す。",
+          "definitionVi": "Giao một phần hoạt động như hỗ trợ IT, nhập liệu hoặc logistics cho nhà cung cấp bên ngoài để tận dụng chuyên môn và tập trung vào hoạt động cốt lõi.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "outsourcing"]
+    },
+    {
+      "id": "mergers-and-acquisitions",
+      "order": 19,
+      "titleJa": "M&A",
+      "titleVi": "Sáp nhập và mua lại",
+      "importance": "high",
+      "summaryJa": "企業の合併と買収を指す用語である。",
+      "summaryVi": "Hoạt động kết hợp doanh nghiệp thông qua sáp nhập hoặc mua lại nhằm mở rộng thị phần, tiếp cận công nghệ, nhân lực hay thị trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "M&Aとは",
+          "vi": "Sáp nhập và mua lại là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の合併と買収を指す用語である。このプロセスでは、一つの企業が他の企業を買収したり、二つの企業が合併して新しい企業を形成したりする。M&Aの目的は、市場シェアの拡大、コスト削減、技術や人材の獲得、新たな市場への進出など多岐にわたる。例えば、あるテクノロジー企業が競合他社を買収することで、独自の技術を強化し、製品の改善を図る場合がある。また、異なる業界の企業が合併することで、相互に補完し合うビジネスモデルを構築することも可能だ。戦略的な全社戦略の一環として行われることが多く、成功すれば企業の競争力を大きく向上させることができる。",
+          "vi": "Hoạt động kết hợp doanh nghiệp thông qua sáp nhập hoặc mua lại nhằm mở rộng thị phần, tiếp cận công nghệ, nhân lực hay thị trường."
+        },
+        {
+          "type": "point",
+          "ja": "企業の合併と買収を指す用語である。",
+          "vi": "M&A bao gồm cả merger và acquisition; không đồng nghĩa với riêng TOB."
+        }
+      ],
+      "terms": [
+        {
+          "term": "M&A",
+          "english": "Mergers and Acquisitions",
+          "vi": "Sáp nhập và mua lại",
+          "definitionJa": "企業の合併と買収を指す用語である。",
+          "definitionVi": "Hoạt động kết hợp doanh nghiệp thông qua sáp nhập hoặc mua lại nhằm mở rộng thị phần, tiếp cận công nghệ, nhân lực hay thị trường.",
+          "reading": "えむあんどえー"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "mergers-and-acquisitions"
+      ]
+    },
+    {
+      "id": "takeover-bid",
+      "order": 20,
+      "titleJa": "TOB",
+      "titleVi": "Chào mua công khai cổ phiếu",
+      "importance": "high",
+      "summaryJa": "企業が他の企業の株式を一定数以上取得するために行う公開買付けのことを指す。",
+      "summaryVi": "Hình thức công bố điều kiện mua cổ phiếu từ cổ đông để giành tỷ lệ sở hữu hoặc quyền kiểm soát doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TOBとは",
+          "vi": "Chào mua công khai cổ phiếu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が他の企業の株式を一定数以上取得するために行う公開買付けのことを指す。これにより、買収したい企業の経営権を獲得しようとするものであり、通常は相手企業に対する価格を提示し、株主の同意を求める。敵対的買収や友好的買収の手法として利用されることがあり、買収後のシナジー効果やコスト削減を狙う戦略の一環である。特に企業の成長や競争力を強化するための全社戦略として重要視される場合も多く、成功すれば市場での地位を大きく向上させる可能性がある。ただし、TOBには法的規制や市場の反応など多くのリスクも伴うため、十分な検討が求められる。",
+          "vi": "Hình thức công bố điều kiện mua cổ phiếu từ cổ đông để giành tỷ lệ sở hữu hoặc quyền kiểm soát doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "企業が他の企業の株式を一定数以上取得するために行う公開買付けのことを指す。",
+          "vi": "TOB là một phương thức mua cổ phiếu, có thể phục vụ thương vụ M&A."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TOB",
+          "english": "Takeover Bid",
+          "vi": "Chào mua công khai cổ phiếu",
+          "definitionJa": "企業が他の企業の株式を一定数以上取得するために行う公開買付けのことを指す。",
+          "definitionVi": "Hình thức công bố điều kiện mua cổ phiếu từ cổ đông để giành tỷ lệ sở hữu hoặc quyền kiểm soát doanh nghiệp.",
+          "reading": "てぃおーびー"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "takeover-bid"]
+    },
+    {
+      "id": "ecosystem",
+      "order": 21,
+      "titleJa": "エコシステム",
+      "titleVi": "Hệ sinh thái kinh doanh",
+      "importance": "medium",
+      "summaryJa": "特定の環境や産業内で相互に作用し合う様々な要素の集合体を指す。",
+      "summaryVi": "Mạng lưới doanh nghiệp, khách hàng và đối tác liên kết, hợp tác và cạnh tranh để tạo giá trị chung, ví dụ nền tảng kết nối nhà phát triển và nhà cung cấp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "エコシステムとは",
+          "vi": "Hệ sinh thái kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の環境や産業内で相互に作用し合う様々な要素の集合体を指す。これは、企業、顧客、パートナー、競争相手などが協力や競争を通じて形成されるため、全体としての活動が重要である。例えば、IT業界において、ソフトウェア開発会社、ハードウェアメーカー、クラウドサービス提供者がそれぞれのサービスや製品を連携させることで、市場全体の革新や成長を促進する。企業が競争力を維持するために重要な概念であり、他の企業と連携することで新たなビジネスチャンスを生み出す可能性を提供する。また、持続可能なビジネスモデルを構築するために、社会的、環境的な側面にも注目されることが増えている。このように、エコシステムを理解し、活用することは、企業戦略の策定において非常に重要である。",
+          "vi": "Mạng lưới doanh nghiệp, khách hàng và đối tác liên kết, hợp tác và cạnh tranh để tạo giá trị chung, ví dụ nền tảng kết nối nhà phát triển và nhà cung cấp."
+        },
+        {
+          "type": "point",
+          "ja": "特定の環境や産業内で相互に作用し合う様々な要素の集合体を指す。",
+          "vi": "Ecosystem là mạng lưới nhiều chủ thể phụ thuộc lẫn nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "エコシステム",
+          "english": "Ecosystem",
+          "vi": "Hệ sinh thái kinh doanh",
+          "definitionJa": "特定の環境や産業内で相互に作用し合う様々な要素の集合体を指す。",
+          "definitionVi": "Mạng lưới doanh nghiệp, khách hàng và đối tác liên kết, hợp tác và cạnh tranh để tạo giá trị chung, ví dụ nền tảng kết nối nhà phát triển và nhà cung cấp.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "ecosystem"]
+    },
+    {
+      "id": "alliance",
+      "order": 22,
+      "titleJa": "アライアンス",
+      "titleVi": "Liên minh chiến lược",
+      "importance": "medium",
+      "summaryJa": "企業や団体が互いに協力し、共通の目標を達成するために結成する連携関係である。",
+      "summaryVi": "Quan hệ hợp tác giữa các doanh nghiệp độc lập để đạt mục tiêu chung, chia sẻ nguồn lực, kiến thức hoặc phân tán rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アライアンスとは",
+          "vi": "Liên minh chiến lược là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や団体が互いに協力し、共通の目標を達成するために結成する連携関係である。このリソースの共有や情報交換を促進し、単独では達成できない成果を目指すことが目的となる。例えば、異なる技術を持つ企業が連携して新しい製品を開発したり、競争相手同士が共同で市場に進出したりするケースがある。アライアンスを組むことで、コスト削減やリスク分散などのメリットが得られ、全社戦略の強化につながる。特にグローバル市場においては、さまざまな文化的背景やビジネス慣習を持つパートナーと連携することで、新しい機会や市場へのアクセスを得ることも可能である。",
+          "vi": "Quan hệ hợp tác giữa các doanh nghiệp độc lập để đạt mục tiêu chung, chia sẻ nguồn lực, kiến thức hoặc phân tán rủi ro."
+        },
+        {
+          "type": "point",
+          "ja": "企業や団体が互いに協力し、共通の目標を達成するために結成する連携関係である。",
+          "vi": "Alliance không nhất thiết sáp nhập hoặc thay đổi quyền sở hữu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アライアンス",
+          "english": "Alliance",
+          "vi": "Liên minh chiến lược",
+          "definitionJa": "企業や団体が互いに協力し、共通の目標を達成するために結成する連携関係である。",
+          "definitionVi": "Quan hệ hợp tác giữa các doanh nghiệp độc lập để đạt mục tiêu chung, chia sẻ nguồn lực, kiến thức hoặc phân tán rủi ro.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "alliance"]
+    },
+    {
+      "id": "product-portfolio-management",
+      "order": 23,
+      "titleJa": "PPM",
+      "titleVi": "Quản lý danh mục sản phẩm",
+      "importance": "high",
+      "summaryJa": "企業が自社の製品やサービスのポートフォリオを管理し、戦略的に最適化するプロセスである。",
+      "summaryVi": "Phương pháp đánh giá và phân bổ nguồn lực cho các sản phẩm hoặc đơn vị kinh doanh dựa trên sức hấp dẫn thị trường và vị thế cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PPMとは",
+          "vi": "Quản lý danh mục sản phẩm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の製品やサービスのポートフォリオを管理し、戦略的に最適化するプロセスである。これは、どの製品を強化するべきか、またはどの製品を市場から撤退させるべきかを判断するための重要な手段であり、全社的な戦略を策定する上で欠かせない要素である。製品の売上や利益、市場シェアなどのデータを分析し、製品間の相対的な強みや弱みを明確にすることで、リソースの配分を最適化する。例えば、新製品の開発に投資するべきか、既存製品の改善に集中するべきかを考える際に、PPMの視点が役立つ。また、競争環境や市場トレンドの変化にも迅速に対応できるようになり、企業の長期的な成功を支える戦略を形成する助けとなる。",
+          "vi": "Phương pháp đánh giá và phân bổ nguồn lực cho các sản phẩm hoặc đơn vị kinh doanh dựa trên sức hấp dẫn thị trường và vị thế cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "PPMの代表的な軸は市場成長率と相対的市場シェアである。",
+          "vi": "Trong mô hình PPM kinh điển, hai trục là tăng trưởng thị trường và thị phần tương đối; bốn nhóm gồm ngôi sao, bò sữa, dấu hỏi, chó."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PPM",
+          "english": "Product Portfolio Management",
+          "vi": "Quản lý danh mục sản phẩm",
+          "definitionJa": "企業が自社の製品やサービスのポートフォリオを管理し、戦略的に最適化するプロセスである。",
+          "definitionVi": "Phương pháp đánh giá và phân bổ nguồn lực cho các sản phẩm hoặc đơn vị kinh doanh dựa trên sức hấp dẫn thị trường và vị thế cạnh tranh.",
+          "reading": "ぴーぴーえむ"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "product-portfolio-management"
+      ]
+    },
+    {
+      "id": "shared-services",
+      "order": 24,
+      "titleJa": "シェアードサービス",
+      "titleVi": "Dịch vụ dùng chung",
+      "importance": "medium",
+      "summaryJa": "企業内の複数の部門や部局が共通して利用するサービスや機能を指す。",
+      "summaryVi": "Tập trung các chức năng hỗ trợ như nhân sự, kế toán hoặc IT để nhiều bộ phận trong doanh nghiệp hoặc tập đoàn cùng sử dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シェアードサービスとは",
+          "vi": "Dịch vụ dùng chung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業内の複数の部門や部局が共通して利用するサービスや機能を指す。これにより、各部門が独自にサービスを持つ必要がなくなり、資源の効率的な利用を促進することができる。例えば、人事や経理、ITサポートなどのバックオフィス機能を一元化することが多い。このような取り組みはコスト削減やサービスの標準化を可能にし、業務の効率を向上させる。また、全社戦略に基づいて設計されることが重要であり、企業全体の目標に合致した形でサービスが提供されることで、組織全体の競争力を高める効果がある。",
+          "vi": "Tập trung các chức năng hỗ trợ như nhân sự, kế toán hoặc IT để nhiều bộ phận trong doanh nghiệp hoặc tập đoàn cùng sử dụng."
+        },
+        {
+          "type": "point",
+          "ja": "企業内の複数の部門や部局が共通して利用するサービスや機能を指す。",
+          "vi": "Shared services thường được tổ chức dùng chung nội bộ, khác thuê ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シェアードサービス",
+          "english": "Shared Services",
+          "vi": "Dịch vụ dùng chung",
+          "definitionJa": "企業内の複数の部門や部局が共通して利用するサービスや機能を指す。",
+          "definitionVi": "Tập trung các chức năng hỗ trợ như nhân sự, kế toán hoặc IT để nhiều bộ phận trong doanh nghiệp hoặc tập đoàn cùng sử dụng.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "shared-services"
+      ]
+    },
+    {
+      "id": "venture-business",
+      "order": 25,
+      "titleJa": "ベンチャービジネス",
+      "titleVi": "Kinh doanh khởi nghiệp đổi mới",
+      "importance": "medium",
+      "summaryJa": "新しいアイデアや技術を基にして創業される企業形態のことである。",
+      "summaryVi": "Hoạt động kinh doanh dựa trên ý tưởng hoặc công nghệ mới, hướng tới tăng trưởng cao nhưng đi kèm rủi ro và nhu cầu huy động vốn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ベンチャービジネスとは",
+          "vi": "Kinh doanh khởi nghiệp đổi mới là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新しいアイデアや技術を基にして創業される企業形態のことである。このタイプのビジネスは、主に革新性や高成長を目指しており、リスクを取ることが特徴的である。多くの新市場を開拓したり、既存の市場で新しい価値を提供したりすることに重きを置く。また、資金調達の段階では、ベンチャーキャピタルやエンジェル投資家など、外部からの投資が重要な役割を果たす。これにより、必要な資金を集め、成長を加速させることができる。成功すれば、企業は大きな利益を上げることが可能だが、同時に失敗のリスクも高いため、慎重な戦略策定が求められる。",
+          "vi": "Hoạt động kinh doanh dựa trên ý tưởng hoặc công nghệ mới, hướng tới tăng trưởng cao nhưng đi kèm rủi ro và nhu cầu huy động vốn."
+        },
+        {
+          "type": "point",
+          "ja": "新しいアイデアや技術を基にして創業される企業形態のことである。",
+          "vi": "Venture business nhấn mạnh đổi mới và tiềm năng tăng trưởng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ベンチャービジネス",
+          "english": "Venture Business",
+          "vi": "Kinh doanh khởi nghiệp đổi mới",
+          "definitionJa": "新しいアイデアや技術を基にして創業される企業形態のことである。",
+          "definitionVi": "Hoạt động kinh doanh dựa trên ý tưởng hoặc công nghệ mới, hướng tới tăng trưởng cao nhưng đi kèm rủi ro và nhu cầu huy động vốn.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "venture-business"
+      ]
+    },
+    {
+      "id": "crowdfunding",
+      "order": 26,
+      "titleJa": "クラウドファンディング",
+      "titleVi": "Huy động vốn cộng đồng",
+      "importance": "medium",
+      "summaryJa": "多くの人々から資金を集めてプロジェクトを実現する手法である。",
+      "summaryVi": "Hình thức kêu gọi nhiều cá nhân góp tiền, thường qua nền tảng trực tuyến, để tài trợ dự án, sản phẩm hoặc doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウドファンディングとは",
+          "vi": "Huy động vốn cộng đồng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "多くの人々から資金を集めてプロジェクトを実現する手法である。特に新しいアイデアやビジネスの立ち上げにおいて、個人や企業がインターネットを通じて資金提供を募ることが一般的である。支援者は、プロジェクトの成功に共感して出資し、見返りとして製品やサービスを受け取ることが多い。資金を必要とする側と投資を希望する側を直接結びつけるため、伝統的な資金調達手法に比べて迅速で柔軟な選択肢を提供する。また、この手法はプロジェクトの市場性を早期に検証する機会ともなり、多くのスタートアップが利用する手段として定着している。",
+          "vi": "Hình thức kêu gọi nhiều cá nhân góp tiền, thường qua nền tảng trực tuyến, để tài trợ dự án, sản phẩm hoặc doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "多くの人々から資金を集めてプロジェクトを実現する手法である。",
+          "vi": "Có nhiều mô hình như quyên góp, nhận phần thưởng, cho vay hoặc góp vốn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウドファンディング",
+          "english": "Crowdfunding",
+          "vi": "Huy động vốn cộng đồng",
+          "definitionJa": "多くの人々から資金を集めてプロジェクトを実現する手法である。",
+          "definitionVi": "Hình thức kêu gọi nhiều cá nhân góp tiền, thường qua nền tảng trực tuyến, để tài trợ dự án, sản phẩm hoặc doanh nghiệp.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-methods", "crowdfunding"]
+    },
+    {
+      "id": "cost-leadership-strategy",
+      "order": 27,
+      "titleJa": "コストリーダーシップ戦略",
+      "titleVi": "Chiến lược dẫn đầu về chi phí",
+      "importance": "high",
+      "summaryJa": "企業が市場において最も低いコストで商品やサービスを提供することを目指す競争戦略である。",
+      "summaryVi": "Tạo lợi thế cạnh tranh bằng cách duy trì chi phí hoạt động thấp hơn đối thủ, thông qua quy mô và vận hành hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コストリーダーシップ戦略とは",
+          "vi": "Chiến lược dẫn đầu về chi phí là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が市場において最も低いコストで商品やサービスを提供することを目指す競争戦略である。この戦略を採用することで、企業は価格競争で優位性を持ち、競合他社よりも多くの顧客を獲得することが可能となる。例えば、大量生産を行うことで生産コストを抑えたり、効率的なオペレーションを行う企業がこれに該当する。結果として、企業はコストを低く保ちながらも収益性を確保し、経済的な規模のメリットを享受することができる。この戦略は特に、価格を重視する消費者層をターゲットにする際に効果的である。",
+          "vi": "Tạo lợi thế cạnh tranh bằng cách duy trì chi phí hoạt động thấp hơn đối thủ, thông qua quy mô và vận hành hiệu quả."
+        },
+        {
+          "type": "point",
+          "ja": "企業が市場において最も低いコストで商品やサービスを提供することを目指す競争戦略である。",
+          "vi": "Chi phí thấp không nhất thiết luôn bán giá thấp nhất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コストリーダーシップ戦略",
+          "english": "Cost Leadership Strategy",
+          "vi": "Chiến lược dẫn đầu về chi phí",
+          "definitionJa": "企業が市場において最も低いコストで商品やサービスを提供することを目指す競争戦略である。",
+          "definitionVi": "Tạo lợi thế cạnh tranh bằng cách duy trì chi phí hoạt động thấp hơn đối thủ, thông qua quy mô và vận hành hiệu quả.",
+          "reading": "こすとりーだーしっぷせんりゃく"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "cost-leadership-strategy"
+      ]
+    },
+    {
+      "id": "differentiation-strategy",
+      "order": 28,
+      "titleJa": "差別化戦略",
+      "titleVi": "Chiến lược khác biệt hóa",
+      "importance": "high",
+      "summaryJa": "競合他社と差別化を図り、自社の商品やサービスの独自性を強調する戦略である。",
+      "summaryVi": "Tạo giá trị riêng về chất lượng, thiết kế, công nghệ hoặc dịch vụ để khách hàng phân biệt sản phẩm với đối thủ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "差別化戦略とは",
+          "vi": "Chiến lược khác biệt hóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "競合他社と差別化を図り、自社の商品やサービスの独自性を強調する戦略である。この戦略を採用することで、顧客に対して独自の価値を提供し、市場での競争優位を確立することが可能となる。例えば、特定の品質やデザイン、技術的な優位性を持つ製品を提供することが挙げられる。これにより、価格競争に巻き込まれることなく、より高い利益を得ることができる。また、顧客に特別な体験や感情を提供することで、ブランドの忠誠心を高める効果も期待される。",
+          "vi": "Tạo giá trị riêng về chất lượng, thiết kế, công nghệ hoặc dịch vụ để khách hàng phân biệt sản phẩm với đối thủ."
+        },
+        {
+          "type": "point",
+          "ja": "競合他社と差別化を図り、自社の商品やサービスの独自性を強調する戦略である。",
+          "vi": "Nhấn mạnh tính độc đáo và giá trị cảm nhận, thay vì chỉ giảm giá."
+        }
+      ],
+      "terms": [
+        {
+          "term": "差別化戦略",
+          "english": "Differentiation Strategy",
+          "vi": "Chiến lược khác biệt hóa",
+          "definitionJa": "競合他社と差別化を図り、自社の商品やサービスの独自性を強調する戦略である。",
+          "definitionVi": "Tạo giá trị riêng về chất lượng, thiết kế, công nghệ hoặc dịch vụ để khách hàng phân biệt sản phẩm với đối thủ.",
+          "reading": "さべつかせんりゃく"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "differentiation-strategy"
+      ]
+    },
+    {
+      "id": "focus-strategy",
+      "order": 29,
+      "titleJa": "集中戦略",
+      "titleVi": "Chiến lược tập trung",
+      "importance": "high",
+      "summaryJa": "特定の市場や顧客群に対してリソースを集中させ、競争優位を築く戦略である。",
+      "summaryVi": "Dồn nguồn lực vào một phân khúc thị trường hoặc nhóm khách hàng hẹp, phục vụ nhu cầu riêng bằng chi phí thấp hoặc khác biệt hóa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "集中戦略とは",
+          "vi": "Chiến lược tập trung là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特定の市場や顧客群に対してリソースを集中させ、競争優位を築く戦略である。この戦略は、特定のニーズを持つ顧客に対し、より良い製品やサービスを提供することを目的とする。例えば、ある企業が高級製品市場に特化し、品質や独自性を強調することで、競合他社と差別化を図るといった形で実践される。また、ニッチ市場に特化することで、他の企業よりも優れた専門知識や経験を持つことが可能となり、その結果として、顧客から強い支持を得ることができる。これにより、持続的な競争力を確保することが期待される。",
+          "vi": "Dồn nguồn lực vào một phân khúc thị trường hoặc nhóm khách hàng hẹp, phục vụ nhu cầu riêng bằng chi phí thấp hoặc khác biệt hóa."
+        },
+        {
+          "type": "point",
+          "ja": "特定の市場や顧客群に対してリソースを集中させ、競争優位を築く戦略である。",
+          "vi": "Focus là chọn phạm vi thị trường hẹp, khác với chiến lược phủ toàn thị trường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "集中戦略",
+          "english": "Focus Strategy",
+          "vi": "Chiến lược tập trung",
+          "definitionJa": "特定の市場や顧客群に対してリソースを集中させ、競争優位を築く戦略である。",
+          "definitionVi": "Dồn nguồn lực vào một phân khúc thị trường hoặc nhóm khách hàng hẹp, phục vụ nhu cầu riêng bằng chi phí thấp hoặc khác biệt hóa.",
+          "reading": "しゅうちゅうせんりゃく"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "focus-strategy"
+      ]
+    },
+    {
+      "id": "homogenization-strategy",
+      "order": 30,
+      "titleJa": "同質化戦略",
+      "titleVi": "Chiến lược đồng nhất hóa",
+      "importance": "medium",
+      "summaryJa": "企業が市場の競争を勝ち抜くために、製品やサービスを他社と似たものにする戦略である。",
+      "summaryVi": "Điều chỉnh sản phẩm hoặc dịch vụ để có đặc điểm tương tự đối thủ hay tiêu chuẩn phổ biến trên thị trường nhằm giảm khác biệt và đáp ứng kỳ vọng khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "同質化戦略とは",
+          "vi": "Chiến lược đồng nhất hóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が市場の競争を勝ち抜くために、製品やサービスを他社と似たものにする戦略である。この戦略は、特に競争が激しい市場において、価格競争や顧客獲得において有効とされている。例えば、同じカテゴリの製品が多くの企業によって提供されると、消費者はその中から価格やブランドなどの要素で選択することが多くなる。したがって、企業は自社の製品やサービスを標準化し、消費者に受け入れられやすくするために、機能やデザインを似せることがある。しかし、あまりにも同質化が進むと、差別化が難しくなり、競争力を失うリスクも伴うため、注意が必要である。また、消費者にとって選択肢を増やす一方で、価格競争の激化を招く要因ともなる。",
+          "vi": "Điều chỉnh sản phẩm hoặc dịch vụ để có đặc điểm tương tự đối thủ hay tiêu chuẩn phổ biến trên thị trường nhằm giảm khác biệt và đáp ứng kỳ vọng khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "企業が市場の競争を勝ち抜くために、製品やサービスを他社と似たものにする戦略である。",
+          "vi": "Có nguy cơ cạnh tranh giá mạnh khi sản phẩm quá giống nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "同質化戦略",
+          "english": "Homogenization Strategy",
+          "vi": "Chiến lược đồng nhất hóa",
+          "definitionJa": "企業が市場の競争を勝ち抜くために、製品やサービスを他社と似たものにする戦略である。",
+          "definitionVi": "Điều chỉnh sản phẩm hoặc dịch vụ để có đặc điểm tương tự đối thủ hay tiêu chuẩn phổ biến trên thị trường nhằm giảm khác biệt và đáp ứng kỳ vọng khách hàng.",
+          "reading": "どうしつかせんりゃく"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "homogenization-strategy"
+      ]
+    },
+    {
+      "id": "blue-ocean-strategy",
+      "order": 31,
+      "titleJa": "ブルーオーシャン戦略",
+      "titleVi": "Chiến lược đại dương xanh",
+      "importance": "high",
+      "summaryJa": "企業が競争の激しい市場（レッドオーシャン）ではなく、競争が存在しない新しい市場（ブルーオーシャン）を創造するための戦略である。",
+      "summaryVi": "Tạo không gian thị trường mới với ít cạnh tranh trực tiếp bằng cách đem đến giá trị khác biệt và khai phá nhu cầu chưa được đáp ứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ブルーオーシャン戦略とは",
+          "vi": "Chiến lược đại dương xanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が競争の激しい市場（レッドオーシャン）ではなく、競争が存在しない新しい市場（ブルーオーシャン）を創造するための戦略である。このアプローチでは、既存の市場を分析するのではなく、顧客の未解決のニーズや潜在的な価値を見つけ出し、まったく新しい製品やサービスを提供することを目指す。たとえば、ある企業が全く新しいジャンルのスイーツを開発し、独自の顧客体験を提供することで、競争相手が存在しない市場を作り出すことができる。ブルーオーシャン戦略を利用することで、企業は差別化を図りながら、利益の最大化を目指すことが可能となる。さらに、この戦略は、ビジョンを明確にし、革新を促進することにも寄与する。",
+          "vi": "Tạo không gian thị trường mới với ít cạnh tranh trực tiếp bằng cách đem đến giá trị khác biệt và khai phá nhu cầu chưa được đáp ứng."
+        },
+        {
+          "type": "point",
+          "ja": "企業が競争の激しい市場（レッドオーシャン）ではなく、競争が存在しない新しい市場（ブルーオーシャン）を創造するための戦略である。",
+          "vi": "Đối lập đại dương đỏ: cạnh tranh gay gắt trong thị trường hiện có."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ブルーオーシャン戦略",
+          "english": "Blue Ocean Strategy",
+          "vi": "Chiến lược đại dương xanh",
+          "definitionJa": "企業が競争の激しい市場（レッドオーシャン）ではなく、競争が存在しない新しい市場（ブルーオーシャン）を創造するための戦略である。",
+          "definitionVi": "Tạo không gian thị trường mới với ít cạnh tranh trực tiếp bằng cách đem đến giá trị khác biệt và khai phá nhu cầu chưa được đáp ứng.",
+          "reading": "ぶるーおーしゃんせんりゃく"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "blue-ocean-strategy"
+      ]
+    },
+    {
+      "id": "esg-investment",
+      "order": 32,
+      "titleJa": "ESG投資",
+      "titleVi": "Đầu tư ESG",
+      "importance": "medium",
+      "summaryJa": "環境（Environmental）、社会（Social）、ガバナンス（Governance）の要素を考慮した投資のことである。",
+      "summaryVi": "Đánh giá khoản đầu tư dựa trên môi trường, xã hội và quản trị doanh nghiệp bên cạnh yếu tố tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ESG投資とは",
+          "vi": "Đầu tư ESG là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "環境（Environmental）、社会（Social）、ガバナンス（Governance）の要素を考慮した投資のことである。この投資手法は、企業の持続可能性や社会的責任を評価基準に加え、リスクとリターンを両立させることを目的としている。例えば、環境に配慮した事業運営を行っている企業や、労働条件に注意を払う企業、透明性のある経営を実践する企業がESG投資の対象となることが多い。投資家は、こうした基準を重視することで、社会的な影響を考えつつも、長期的な利益を追求できると考えられている。近年、ESG投資は企業の資金調達において重要な要素となっており、特に若い世代の投資家に人気が高まっている。",
+          "vi": "Đánh giá khoản đầu tư dựa trên môi trường, xã hội và quản trị doanh nghiệp bên cạnh yếu tố tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "環境（Environmental）、社会（Social）、ガバナンス（Governance）の要素を考慮した投資のことである。",
+          "vi": "E = Environmental; S = Social; G = Governance."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ESG投資",
+          "english": "ESG Investment",
+          "vi": "Đầu tư ESG",
+          "definitionJa": "環境（Environmental）、社会（Social）、ガバナンス（Governance）の要素を考慮した投資のことである。",
+          "definitionVi": "Đánh giá khoản đầu tư dựa trên môi trường, xã hội và quản trị doanh nghiệp bên cạnh yếu tố tài chính.",
+          "reading": "いーえすじーとうし"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "esg-investment"
+      ]
+    },
+    {
+      "id": "swot-analysis",
+      "order": 33,
+      "titleJa": "SWOT分析",
+      "titleVi": "Phân tích SWOT",
+      "importance": "high",
+      "summaryJa": "企業やプロジェクトの戦略を評価するための手法である。",
+      "summaryVi": "Khung phân tích chiến lược gồm điểm mạnh, điểm yếu thuộc nội bộ và cơ hội, đe dọa từ môi trường bên ngoài.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "SWOT分析とは",
+          "vi": "Phân tích SWOT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業やプロジェクトの戦略を評価するための手法である。この分析は、内部の強み（Strength）と弱み（Weakness）、外部の機会（Opportunity）と脅威（Threat）を整理し、現状を把握することを目的としている。具体的には、まず企業の持つリソースや能力といった強みと、改善が必要な点である弱みを明確にする。また、外部環境から得られるビジネスチャンスや競争の激化、経済の変化などの脅威を把握することで、戦略立案の基礎を築くことができる。ビジネス戦略だけでなく、個人のキャリア計画やプロジェクト運営など、様々な場面で利用され、効果的な意思決定のサポートを行う。",
+          "vi": "Khung phân tích chiến lược gồm điểm mạnh, điểm yếu thuộc nội bộ và cơ hội, đe dọa từ môi trường bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "企業やプロジェクトの戦略を評価するための手法である。",
+          "vi": "S/W = nội bộ; O/T = bên ngoài."
+        }
+      ],
+      "terms": [
+        {
+          "term": "SWOT分析",
+          "english": "SWOT Analysis",
+          "vi": "Phân tích SWOT",
+          "definitionJa": "企業やプロジェクトの戦略を評価するための手法である。",
+          "definitionVi": "Khung phân tích chiến lược gồm điểm mạnh, điểm yếu thuộc nội bộ và cơ hội, đe dọa từ môi trường bên ngoài.",
+          "reading": "すおっとぶんせき"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "swot-analysis"
+      ]
+    },
+    {
+      "id": "vrio-analysis",
+      "order": 34,
+      "titleJa": "VRIO分析",
+      "titleVi": "Phân tích VRIO",
+      "importance": "high",
+      "summaryJa": "企業の競争力を評価するためのフレームワークである。",
+      "summaryVi": "Đánh giá nguồn lực doanh nghiệp theo giá trị, độ hiếm, khả năng bị bắt chước và mức độ tổ chức khai thác nguồn lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VRIO分析とは",
+          "vi": "Phân tích VRIO là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の競争力を評価するためのフレームワークである。この分析は、企業が持つ資源や能力が「価値（Value）」、「希少性（Rarity）」、「模倣可能性（Imitability）」、「組織（Organization）」の4つの要素で評価される。例えば、ある企業が革新的な技術を持っている場合、その技術が顧客に経済的な価値を提供するならば、競争優位性を持つ可能性が高い。また、その技術が競合他社にはない場合、希少性も確保される。さらに、その技術が容易に模倣できない場合、長期的な競争優位を持続できる。しかし、これらの資源や能力を適切に活用するためには、組織内での効果的なマネジメントが不可欠である。これらの観点から企業戦略を見直す際に有用な手法となる。",
+          "vi": "Đánh giá nguồn lực doanh nghiệp theo giá trị, độ hiếm, khả năng bị bắt chước và mức độ tổ chức khai thác nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "企業の競争力を評価するためのフレームワークである。",
+          "vi": "V = Value, R = Rarity, I = Imitability, O = Organization."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VRIO分析",
+          "english": "VRIO Analysis",
+          "vi": "Phân tích VRIO",
+          "definitionJa": "企業の競争力を評価するためのフレームワークである。",
+          "definitionVi": "Đánh giá nguồn lực doanh nghiệp theo giá trị, độ hiếm, khả năng bị bắt chước và mức độ tổ chức khai thác nguồn lực.",
+          "reading": "ぶりおぶんせき"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "vrio-analysis"
+      ]
+    },
+    {
+      "id": "value-chain-analysis",
+      "order": 35,
+      "titleJa": "バリューチェーン分析",
+      "titleVi": "Phân tích chuỗi giá trị",
+      "importance": "high",
+      "summaryJa": "企業が自社の活動を評価し、競争優位を確立するための手法である。",
+      "summaryVi": "Phân tách hoạt động từ mua nguyên liệu, sản xuất, phân phối đến dịch vụ hậu mãi để xác định nơi tạo giá trị và nơi cần giảm chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バリューチェーン分析とは",
+          "vi": "Phân tích chuỗi giá trị là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が自社の活動を評価し、競争優位を確立するための手法である。この分析は、製品やサービスが顧客に届くまでの一連のプロセスを細かく分解し、各活動がどのように価値を生み出すかを考察することで行われる。例えば、製造業では、原材料調達から生産、販売、アフターサービスに至るまでの各ステップが含まれる。これにより、効率が悪い部分やコストが高い部分を特定し、改善策を講じることができる。また、顧客にとっての価値を最大化するために、どの活動に重点を置くべきかを導き出すことが可能で、戦略的な意思決定に役立つ。",
+          "vi": "Phân tách hoạt động từ mua nguyên liệu, sản xuất, phân phối đến dịch vụ hậu mãi để xác định nơi tạo giá trị và nơi cần giảm chi phí."
+        },
+        {
+          "type": "point",
+          "ja": "企業が自社の活動を評価し、競争優位を確立するための手法である。",
+          "vi": "Value chain xem xét hoạt động chính và hoạt động hỗ trợ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バリューチェーン分析",
+          "english": "Value Chain Analysis",
+          "vi": "Phân tích chuỗi giá trị",
+          "definitionJa": "企業が自社の活動を評価し、競争優位を確立するための手法である。",
+          "definitionVi": "Phân tách hoạt động từ mua nguyên liệu, sản xuất, phân phối đến dịch vụ hậu mãi để xác định nơi tạo giá trị và nơi cần giảm chi phí.",
+          "reading": "ばりゅーちぇーんぶんせき"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "value-chain-analysis"
+      ]
+    },
+    {
+      "id": "growth-matrix",
+      "order": 36,
+      "titleJa": "成長マトリクス",
+      "titleVi": "Ma trận tăng trưởng",
+      "importance": "high",
+      "summaryJa": "企業が市場での成長戦略を分析するためのツールである。",
+      "summaryVi": "Công cụ hoạch định hướng tăng trưởng dựa trên sự kết hợp giữa thị trường và sản phẩm hiện tại hoặc mới, giúp chọn thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm hoặc đa dạng hóa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "成長マトリクスとは",
+          "vi": "Ma trận tăng trưởng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業が市場での成長戦略を分析するためのツールである。このマトリクスは、特定の製品やサービスを対象とし、市場の成長率と自社の市場占有率を基にさまざまな戦略を導き出す。たとえば、マトリクスによって、自社が新しい市場に進出するか、既存市場でのシェアを拡大することが得策であるかが評価される。数種類の成長戦略があり、既存製品の改良や新製品の導入、あるいは他の企業との提携といった選択肢が考えられる。成長マトリクスを利用することで、企業は効果的な意思決定を行い、競争力を向上させることができる。",
+          "vi": "Công cụ hoạch định hướng tăng trưởng dựa trên sự kết hợp giữa thị trường và sản phẩm hiện tại hoặc mới, giúp chọn thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm hoặc đa dạng hóa."
+        },
+        {
+          "type": "point",
+          "ja": "資料の説明にはPPMの軸との混同が見られる。アンゾフの成長マトリクスは既存／新規の製品と市場を軸にする。",
+          "vi": "Chú ý: đoạn nguồn có mô tả trục tăng trưởng thị trường và thị phần giống PPM; ma trận tăng trưởng Ansoff dùng trục sản phẩm và thị trường hiện tại/mới."
+        }
+      ],
+      "terms": [
+        {
+          "term": "成長マトリクス",
+          "english": "Growth Matrix",
+          "vi": "Ma trận tăng trưởng",
+          "definitionJa": "企業が市場での成長戦略を分析するためのツールである。",
+          "definitionVi": "Công cụ hoạch định hướng tăng trưởng dựa trên sự kết hợp giữa thị trường và sản phẩm hiện tại hoặc mới, giúp chọn thâm nhập thị trường, phát triển thị trường, phát triển sản phẩm hoặc đa dạng hóa.",
+          "reading": "せいちょうまとりくす"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-methods",
+        "growth-matrix"
+      ]
+    }
+  ]
 }

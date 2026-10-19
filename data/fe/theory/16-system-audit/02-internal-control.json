@@ -4,5 +4,692 @@
   "titleJa": "内部統制",
   "titleVi": "Kiểm soát nội bộ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "limitations-of-internal-control",
+      "order": 1,
+      "titleJa": "内部統制の限界",
+      "titleVi": "Giới hạn của kiểm soát nội bộ",
+      "importance": "medium",
+      "summaryJa": "内部統制は有効性を高める仕組みだが、人的ミスや不正、環境変化などによって完全には機能しない場合がある。",
+      "summaryVi": "Kiểm soát nội bộ nhằm nâng cao độ tin cậy của báo cáo tài chính và hiệu quả hoạt động nhưng không thể bảo đảm tuyệt đối do sai sót con người, gian lận và biến động môi trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部統制の限界とは",
+          "vi": "Giới hạn của kiểm soát nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部統制は有効性を高める仕組みだが、人的ミスや不正、環境変化などによって完全には機能しない場合がある。",
+          "vi": "Kiểm soát nội bộ được thiết kế để cải thiện độ tin cậy của báo cáo tài chính và hiệu quả công việc, nhưng vẫn có những giới hạn. Nhân viên có thể mắc lỗi hoặc cố tình gian lận; điều kiện kinh doanh thay đổi và rủi ro mới xuất hiện cũng có thể làm biện pháp kiểm soát mất tác dụng. Ngoài ra, việc kiểm soát quá mức tốn nguồn lực và có thể cản trở công việc. Vì vậy doanh nghiệp phải nhận thức được các giới hạn và liên tục cải tiến hệ thống kiểm soát."
+        },
+        {
+          "type": "point",
+          "ja": "人的ミス、不正、環境変化、コストが内部統制の限界となる。",
+          "vi": "Không thể loại bỏ 100% rủi ro chỉ bằng kiểm soát nội bộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部統制の限界",
+          "english": "Limitations of Internal Control",
+          "vi": "Giới hạn của kiểm soát nội bộ",
+          "definitionJa": "内部統制は有効性を高める仕組みだが、人的ミスや不正、環境変化などによって完全には機能しない場合がある。",
+          "definitionVi": "Kiểm soát nội bộ nhằm nâng cao độ tin cậy của báo cáo tài chính và hiệu quả hoạt động nhưng không thể bảo đảm tuyệt đối do sai sót con người, gian lận và biến động môi trường.",
+          "reading": "ないぶとうせいのげんかい"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "internal-control",
+        "limitations-of-internal-control"
+      ]
+    },
+    {
+      "id": "internal-control-reporting-system",
+      "order": 2,
+      "titleJa": "内部統制報告制度",
+      "titleVi": "Chế độ báo cáo kiểm soát nội bộ",
+      "importance": "high",
+      "summaryJa": "経営者が内部統制の整備・運用状況と有効性を評価し、その結果を報告する制度である。",
+      "summaryVi": "Chế độ yêu cầu ban lãnh đạo đánh giá việc thiết lập, vận hành và tính hữu hiệu của kiểm soát nội bộ rồi báo cáo kết quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部統制報告制度とは",
+          "vi": "Chế độ báo cáo kiểm soát nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "経営者が内部統制の整備・運用状況と有効性を評価し、その結果を報告する制度である。",
+          "vi": "Doanh nghiệp đánh giá hệ thống kiểm soát nội bộ có được thiết kế và vận hành phù hợp hay không, đặc biệt trong việc bảo đảm độ tin cậy của báo cáo tài chính. Ban lãnh đạo thực hiện đánh giá và báo cáo kết quả để nâng cao tính minh bạch và niềm tin của nhà đầu tư, các bên liên quan. Việc kiểm tra quy trình nghiệp vụ, quản lý rủi ro và phát hiện điểm yếu giúp đề xuất biện pháp khắc phục. Trong bối cảnh Nhật Bản, chế độ theo 金融商品取引法 chủ yếu tập trung vào kiểm soát nội bộ đối với báo cáo tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "財務報告に係る内部統制の評価・報告を中心に理解する。",
+          "vi": "Phân biệt báo cáo kiểm soát nội bộ với kiểm toán hệ thống nói chung."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部統制報告制度",
+          "english": "Internal Control Reporting System",
+          "vi": "Chế độ báo cáo kiểm soát nội bộ",
+          "definitionJa": "経営者が内部統制の整備・運用状況と有効性を評価し、その結果を報告する制度である。",
+          "definitionVi": "Chế độ yêu cầu ban lãnh đạo đánh giá việc thiết lập, vận hành và tính hữu hiệu của kiểm soát nội bộ rồi báo cáo kết quả.",
+          "reading": "ないぶとうせいほうこくせいど"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "internal-control",
+        "internal-control-reporting-system"
+      ]
+    },
+    {
+      "id": "response-to-it",
+      "order": 3,
+      "titleJa": "ITへの対応",
+      "titleVi": "Ứng phó và thích ứng với CNTT",
+      "importance": "high",
+      "summaryJa": "組織がIT環境を把握し、ITの利用、ITに係る全般統制及び業務処理統制を適切に整備・運用することである。",
+      "summaryVi": "Việc tổ chức thích ứng với môi trường CNTT, sử dụng CNTT và thiết lập, vận hành kiểm soát chung cùng kiểm soát xử lý nghiệp vụ liên quan đến CNTT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITへの対応とは",
+          "vi": "Ứng phó và thích ứng với CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織がIT環境を把握し、ITの利用、ITに係る全般統制及び業務処理統制を適切に整備・運用することである。",
+          "vi": "Khi hoạt động phụ thuộc vào hệ thống thông tin, doanh nghiệp cần hiểu môi trường CNTT, cách sử dụng CNTT trong công việc và rủi ro đi kèm. Kiểm soát chung về CNTT (IT全般統制) bao gồm quản lý truy cập, thay đổi hệ thống, vận hành và bảo mật; kiểm soát xử lý nghiệp vụ bằng CNTT (IT業務処理統制) bao gồm kiểm tra dữ liệu đầu vào, xử lý và kết quả đầu ra. Hai nhóm kiểm soát phối hợp để bảo đảm dữ liệu chính xác, an toàn và nghiệp vụ vận hành đúng."
+        },
+        {
+          "type": "point",
+          "ja": "IT全般統制とIT業務処理統制の違いを押さえる。",
+          "vi": "ITへの対応 không đồng nghĩa hoàn toàn với IT governance; cần nhớ hai loại kiểm soát CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITへの対応",
+          "english": "Response to IT",
+          "vi": "Ứng phó và thích ứng với CNTT",
+          "definitionJa": "組織がIT環境を把握し、ITの利用、ITに係る全般統制及び業務処理統制を適切に整備・運用することである。",
+          "definitionVi": "Việc tổ chức thích ứng với môi trường CNTT, sử dụng CNTT và thiết lập, vận hành kiểm soát chung cùng kiểm soát xử lý nghiệp vụ liên quan đến CNTT.",
+          "reading": "あいてぃーへのたいおう"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "response-to-it"]
+    },
+    {
+      "id": "role-of-it-in-internal-control",
+      "order": 4,
+      "titleJa": "ITが内部統制に果たす役割",
+      "titleVi": "Vai trò của CNTT trong kiểm soát nội bộ",
+      "importance": "medium",
+      "summaryJa": "ITは業務の自動化、アクセス管理、操作記録、データ分析などによって内部統制の有効性を高める。",
+      "summaryVi": "CNTT giúp tăng hiệu quả kiểm soát nội bộ thông qua tự động hóa nghiệp vụ, quản lý truy cập, ghi nhật ký và phân tích dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ITが内部統制に果たす役割とは",
+          "vi": "Vai trò của CNTT trong kiểm soát nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ITは業務の自動化、アクセス管理、操作記録、データ分析などによって内部統制の有効性を高める。",
+          "vi": "Hệ thống CNTT hỗ trợ tổ chức quản lý hoạt động và giảm rủi ro. Tự động hóa quy trình làm giảm sai sót thao tác; phân quyền truy cập ngăn người không có thẩm quyền sử dụng dữ liệu; nhật ký thao tác (audit trail) hỗ trợ truy vết; phân tích dữ liệu giúp phát hiện dấu hiệu bất thường sớm. Tuy nhiên, hệ thống CNTT cũng tạo ra rủi ro mới nên phải có kiểm soát phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "自動化、アクセス制御、監査証跡が代表例である。",
+          "vi": "Ví dụ FE: nhật ký thao tác hỗ trợ phát hiện và truy vết hành vi bất thường."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ITが内部統制に果たす役割",
+          "english": "Role of IT in Internal Control",
+          "vi": "Vai trò của CNTT trong kiểm soát nội bộ",
+          "definitionJa": "ITは業務の自動化、アクセス管理、操作記録、データ分析などによって内部統制の有効性を高める。",
+          "definitionVi": "CNTT giúp tăng hiệu quả kiểm soát nội bộ thông qua tự động hóa nghiệp vụ, quản lý truy cập, ghi nhật ký và phân tích dữ liệu.",
+          "reading": "あいてぃーがないぶとうせいにはたすやくわり"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "internal-control",
+        "role-of-it-in-internal-control"
+      ]
+    },
+    {
+      "id": "business-process-clarification",
+      "order": 5,
+      "titleJa": "業務プロセスの明確化",
+      "titleVi": "Làm rõ quy trình nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "業務の流れ、手順、担当部署及び責任を明確にし、文書化することである。",
+      "summaryVi": "Xác định rõ và tài liệu hóa luồng công việc, thủ tục, bộ phận phụ trách và trách nhiệm trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務プロセスの明確化とは",
+          "vi": "Làm rõ quy trình nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務の流れ、手順、担当部署及び責任を明確にし、文書化することである。",
+          "vi": "Việc mô tả cụ thể từng bước xử lý công việc giúp mọi người hiểu ai thực hiện, ai kiểm tra và kết quả được chuyển đến đâu. Chẳng hạn, quy trình tiếp nhận đơn hàng được biểu diễn từ lúc nhận yêu cầu đến phê duyệt, xuất hàng và ghi nhận doanh thu. Khi luồng xử lý rõ ràng, doanh nghiệp dễ phát hiện điểm nghẽn, sai sót, sự chồng chéo trách nhiệm và đào tạo nhân viên mới; đây cũng là cơ sở để xây dựng kiểm soát nội bộ."
+        },
+        {
+          "type": "point",
+          "ja": "業務フローの可視化は問題点の発見につながる。",
+          "vi": "Cần phân biệt việc làm rõ quy trình với việc phân chia trách nhiệm (職務分掌)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務プロセスの明確化",
+          "english": "Clarification of Business Processes",
+          "vi": "Làm rõ quy trình nghiệp vụ",
+          "definitionJa": "業務の流れ、手順、担当部署及び責任を明確にし、文書化することである。",
+          "definitionVi": "Xác định rõ và tài liệu hóa luồng công việc, thủ tục, bộ phận phụ trách và trách nhiệm trong tổ chức.",
+          "reading": "ぎょうむぷろせすのめいかくか"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "internal-control",
+        "business-process-clarification"
+      ]
+    },
+    {
+      "id": "segregation-of-duties",
+      "order": 6,
+      "titleJa": "職務分掌",
+      "titleVi": "Phân chia chức trách, nhiệm vụ",
+      "importance": "high",
+      "summaryJa": "部署や担当者ごとの役割と責任を明確にし、特定の人に権限が集中しないようにすることである。",
+      "summaryVi": "Phân định nhiệm vụ và trách nhiệm giữa các bộ phận, nhân viên để công việc rõ ràng và hạn chế tập trung quyền hạn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "職務分掌とは",
+          "vi": "Phân chia chức trách, nhiệm vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "部署や担当者ごとの役割と責任を明確にし、特定の人に権限が集中しないようにすることである。",
+          "vi": "Tổ chức phân công ai thực hiện nghiệp vụ, ai phê duyệt và ai kiểm tra. Ví dụ, người lập lệnh thanh toán không đồng thời là người phê duyệt và đối chiếu thanh toán; nhờ đó giảm nguy cơ một người tự ý thao túng toàn bộ quy trình. Phân chia chức trách cũng giúp xác định trách nhiệm khi có sai sót và nâng cao tính minh bạch. Đây là biện pháp kiểm soát quan trọng để phòng ngừa gian lận."
+        },
+        {
+          "type": "point",
+          "ja": "起票、承認、照合を別の担当者に分ける。",
+          "vi": "Ví dụ trọng tâm: tách người lập, người duyệt và người đối chiếu giao dịch."
+        }
+      ],
+      "terms": [
+        {
+          "term": "職務分掌",
+          "english": "Segregation of Duties",
+          "vi": "Phân chia chức trách, nhiệm vụ",
+          "definitionJa": "部署や担当者ごとの役割と責任を明確にし、特定の人に権限が集中しないようにすることである。",
+          "definitionVi": "Phân định nhiệm vụ và trách nhiệm giữa các bộ phận, nhân viên để công việc rõ ràng và hạn chế tập trung quyền hạn.",
+          "reading": "しょくむぶんしょう"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "segregation-of-duties"]
+    },
+    {
+      "id": "implementation-rules",
+      "order": 7,
+      "titleJa": "実施ルールの設定",
+      "titleVi": "Thiết lập quy tắc thực hiện",
+      "importance": "medium",
+      "summaryJa": "業務を適切かつ一貫して進めるため、具体的な手順、承認条件、確認方法などを定めることである。",
+      "summaryVi": "Quy định cụ thể cách thực hiện, điều kiện phê duyệt và phương pháp kiểm tra để nghiệp vụ được tiến hành nhất quán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "実施ルールの設定とは",
+          "vi": "Thiết lập quy tắc thực hiện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務を適切かつ一貫して進めるため、具体的な手順、承認条件、確認方法などを定めることである。",
+          "vi": "Doanh nghiệp thiết lập quy định để nhân viên biết phải xử lý công việc theo trình tự nào, sử dụng biểu mẫu gì, ai có quyền phê duyệt và cần kiểm tra thông tin gì. Ví dụ, trong quy trình lập báo cáo tài chính, quy tắc về thu thập và đối chiếu số liệu giúp hạn chế sai sót. Quy tắc rõ ràng góp phần bảo đảm tuân thủ pháp luật, nâng cao độ tin cậy và giảm rủi ro vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "手順と承認条件を明文化する。",
+          "vi": "Quy tắc phải cụ thể, dễ áp dụng và có thể kiểm tra việc tuân thủ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "実施ルールの設定",
+          "english": "Establishment of Implementation Rules",
+          "vi": "Thiết lập quy tắc thực hiện",
+          "definitionJa": "業務を適切かつ一貫して進めるため、具体的な手順、承認条件、確認方法などを定めることである。",
+          "definitionVi": "Quy định cụ thể cách thực hiện, điều kiện phê duyệt và phương pháp kiểm tra để nghiệp vụ được tiến hành nhất quán.",
+          "reading": "じっしるーるのせってい"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "implementation-rules"]
+    },
+    {
+      "id": "checking-system",
+      "order": 8,
+      "titleJa": "チェック体制の確立",
+      "titleVi": "Thiết lập cơ chế kiểm tra, giám sát",
+      "importance": "medium",
+      "summaryJa": "業務や手続が正しく行われているかを確認する仕組みを整備し、誤りや不正を発見・是正することである。",
+      "summaryVi": "Xây dựng cơ chế kiểm tra để xác nhận nghiệp vụ thực hiện đúng, qua đó phát hiện và sửa sai sót hoặc gian lận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "チェック体制の確立とは",
+          "vi": "Thiết lập cơ chế kiểm tra, giám sát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務や手続が正しく行われているかを確認する仕組みを整備し、誤りや不正を発見・是正することである。",
+          "vi": "Cơ chế kiểm tra có thể gồm người duyệt độc lập, đối chiếu số liệu, rà soát định kỳ và kiểm toán nội bộ. Ví dụ, một người lập chứng từ thanh toán và người khác kiểm tra số tiền, tài khoản nhận trước khi phê duyệt. Việc kiểm tra giúp phát hiện sớm thanh toán sai, giao dịch bất thường và lỗ hổng trong quy trình; từ đó bảo vệ tài sản và nâng cao độ tin cậy của hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "独立した確認や定期的なレビューが有効である。",
+          "vi": "Phân chia chức trách và cơ chế kiểm tra thường được kết hợp với nhau."
+        }
+      ],
+      "terms": [
+        {
+          "term": "チェック体制の確立",
+          "english": "Establishment of Checking System",
+          "vi": "Thiết lập cơ chế kiểm tra, giám sát",
+          "definitionJa": "業務や手続が正しく行われているかを確認する仕組みを整備し、誤りや不正を発見・是正することである。",
+          "definitionVi": "Xây dựng cơ chế kiểm tra để xác nhận nghiệp vụ thực hiện đúng, qua đó phát hiện và sửa sai sót hoặc gian lận.",
+          "reading": "ちぇっくたいせいのかくりつ"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "checking-system"]
+    },
+    {
+      "id": "compliance",
+      "order": 9,
+      "titleJa": "コンプライアンス",
+      "titleVi": "Tuân thủ pháp luật và quy định",
+      "importance": "medium",
+      "summaryJa": "企業や組織が法令、規則、社内規程及び社会的な規範を守って活動することである。",
+      "summaryVi": "Việc doanh nghiệp tuân thủ luật pháp, quy định, quy tắc nội bộ và các chuẩn mực liên quan khi hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コンプライアンスとは",
+          "vi": "Tuân thủ pháp luật và quy định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が法令、規則、社内規程及び社会的な規範を守って活動することである。",
+          "vi": "Tuân thủ (compliance) không chỉ là tránh vi phạm pháp luật mà còn thực hiện đúng quy định ngành, nội quy doanh nghiệp và các chuẩn mực đạo đức liên quan. Ví dụ, tổ chức tài chính phải xác minh danh tính khách hàng theo yêu cầu phòng chống rửa tiền. Đào tạo nhân viên, ban hành quy định và kiểm toán nội bộ giúp duy trì việc tuân thủ, hạn chế tranh chấp pháp lý và bảo vệ uy tín doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "法令遵守に加え、社内規程や倫理も重要である。",
+          "vi": "Compliance là tuân thủ; không đồng nghĩa với bảo mật thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コンプライアンス",
+          "english": "Compliance",
+          "vi": "Tuân thủ pháp luật và quy định",
+          "definitionJa": "企業や組織が法令、規則、社内規程及び社会的な規範を守って活動することである。",
+          "definitionVi": "Việc doanh nghiệp tuân thủ luật pháp, quy định, quy tắc nội bộ và các chuẩn mực liên quan khi hoạt động.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "compliance"]
+    },
+    {
+      "id": "coso-framework",
+      "order": 10,
+      "titleJa": "COSOフレームワーク",
+      "titleVi": "Khung kiểm soát nội bộ COSO",
+      "importance": "high",
+      "summaryJa": "内部統制の整備と評価に用いる枠組みであり、統制環境、リスク評価、統制活動、情報と伝達、モニタリングの五つの構成要素を持つ。",
+      "summaryVi": "Khung COSO dùng để thiết lập và đánh giá kiểm soát nội bộ, gồm năm thành phần: môi trường kiểm soát, đánh giá rủi ro, hoạt động kiểm soát, thông tin và truyền thông, giám sát.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "COSOフレームワークとは",
+          "vi": "Khung kiểm soát nội bộ COSO là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部統制の整備と評価に用いる枠組みであり、統制環境、リスク評価、統制活動、情報と伝達、モニタリングの五つの構成要素を持つ。",
+          "vi": "COSO cung cấp khuôn khổ để doanh nghiệp thiết kế và cải thiện kiểm soát nội bộ, phục vụ việc đạt mục tiêu, quản lý rủi ro, tăng độ tin cậy của báo cáo và tuân thủ quy định. Năm thành phần gồm: (1) 統制環境 – môi trường kiểm soát, (2) リスク評価 – đánh giá rủi ro, (3) 統制活動 – hoạt động kiểm soát, (4) 情報と伝達 – thông tin và truyền thông, (5) モニタリング – giám sát. Năm yếu tố phải phối hợp, không thể chỉ dựa vào một biện pháp riêng lẻ."
+        },
+        {
+          "type": "point",
+          "ja": "COSOの五つの構成要素を正確に覚える。",
+          "vi": "Cần thuộc đủ năm thành phần COSO và vai trò của từng thành phần."
+        }
+      ],
+      "terms": [
+        {
+          "term": "COSOフレームワーク",
+          "english": "COSO Internal Control Framework",
+          "vi": "Khung kiểm soát nội bộ COSO",
+          "definitionJa": "内部統制の整備と評価に用いる枠組みであり、統制環境、リスク評価、統制活動、情報と伝達、モニタリングの五つの構成要素を持つ。",
+          "definitionVi": "Khung COSO dùng để thiết lập và đánh giá kiểm soát nội bộ, gồm năm thành phần: môi trường kiểm soát, đánh giá rủi ro, hoạt động kiểm soát, thông tin và truyền thông, giám sát.",
+          "reading": "こそふれーむわーく"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "coso-framework"]
+    },
+    {
+      "id": "jis-q-38500",
+      "order": 11,
+      "titleJa": "JIS Q 38500",
+      "titleVi": "Tiêu chuẩn JIS Q 38500 về quản trị CNTT",
+      "importance": "medium",
+      "summaryJa": "組織におけるITガバナンスの原則と指針を示し、ITの利用を経営戦略と整合させるための規格である。",
+      "summaryVi": "Tiêu chuẩn Nhật Bản đưa ra nguyên tắc và hướng dẫn quản trị CNTT trong tổ chức, nhằm gắn việc sử dụng CNTT với chiến lược kinh doanh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 38500とは",
+          "vi": "Tiêu chuẩn JIS Q 38500 về quản trị CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織におけるITガバナンスの原則と指針を示し、ITの利用を経営戦略と整合させるための規格である。",
+          "vi": "JIS Q 38500 hướng dẫn cấp lãnh đạo đánh giá, chỉ đạo và giám sát việc sử dụng CNTT để bảo đảm đầu tư công nghệ hỗ trợ mục tiêu tổ chức. Khi đưa hệ thống mới vào sử dụng, ban lãnh đạo cần xem xét hiệu quả đầu tư, rủi ro, nguồn lực và trách nhiệm quản lý. Đây là tiêu chuẩn về quản trị CNTT ở cấp tổ chức, không phải tài liệu hướng dẫn thao tác vận hành máy chủ."
+        },
+        {
+          "type": "point",
+          "ja": "ITガバナンスの経営層による評価・指示・監視を理解する。",
+          "vi": "JIS Q 38500 liên quan đến quản trị CNTT, khác với kiểm soát nghiệp vụ hằng ngày."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 38500",
+          "english": "JIS Q 38500",
+          "vi": "Tiêu chuẩn JIS Q 38500 về quản trị CNTT",
+          "definitionJa": "組織におけるITガバナンスの原則と指針を示し、ITの利用を経営戦略と整合させるための規格である。",
+          "definitionVi": "Tiêu chuẩn Nhật Bản đưa ra nguyên tắc và hướng dẫn quản trị CNTT trong tổ chức, nhằm gắn việc sử dụng CNTT với chiến lược kinh doanh.",
+          "reading": "じすきゅー38500"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "jis-q-38500"]
+    },
+    {
+      "id": "cio",
+      "order": 12,
+      "titleJa": "CIO",
+      "titleVi": "Giám đốc thông tin (CIO)",
+      "importance": "high",
+      "summaryJa": "組織の情報戦略やIT資源の活用を統括し、経営目標に沿った情報システムの導入・運用を推進する責任者である。",
+      "summaryVi": "Lãnh đạo cấp cao phụ trách chiến lược thông tin và sử dụng nguồn lực CNTT theo mục tiêu kinh doanh của tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CIOとは",
+          "vi": "Giám đốc thông tin (CIO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の情報戦略やIT資源の活用を統括し、経営目標に沿った情報システムの導入・運用を推進する責任者である。",
+          "vi": "CIO (Chief Information Officer) chịu trách nhiệm định hướng chiến lược CNTT và thông tin, phối hợp với ban điều hành để lựa chọn công nghệ, quản lý đầu tư hệ thống và thúc đẩy chuyển đổi số. Ví dụ, CIO quyết định ưu tiên đầu tư nền tảng dữ liệu hoặc hiện đại hóa hạ tầng nhằm nâng cao hiệu quả hoạt động. Trọng tâm là giá trị kinh doanh và quản trị thông tin, không chỉ xử lý sự cố kỹ thuật."
+        },
+        {
+          "type": "point",
+          "ja": "CIOは情報戦略・IT投資を統括する。",
+          "vi": "CIO tập trung chiến lược CNTT; CISO tập trung bảo mật thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CIO",
+          "english": "Chief Information Officer",
+          "vi": "Giám đốc thông tin (CIO)",
+          "definitionJa": "組織の情報戦略やIT資源の活用を統括し、経営目標に沿った情報システムの導入・運用を推進する責任者である。",
+          "definitionVi": "Lãnh đạo cấp cao phụ trách chiến lược thông tin và sử dụng nguồn lực CNTT theo mục tiêu kinh doanh của tổ chức.",
+          "reading": "しーあいおー"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "cio"]
+    },
+    {
+      "id": "ciso",
+      "order": 13,
+      "titleJa": "CISO",
+      "titleVi": "Giám đốc an toàn thông tin (CISO)",
+      "importance": "high",
+      "summaryJa": "組織の情報セキュリティ方針、リスク対策及び教育を統括する最高情報セキュリティ責任者である。",
+      "summaryVi": "Lãnh đạo cao nhất phụ trách chính sách, quản lý rủi ro và biện pháp bảo mật thông tin trong tổ chức.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CISOとは",
+          "vi": "Giám đốc an toàn thông tin (CISO) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織の情報セキュリティ方針、リスク対策及び教育を統括する最高情報セキュリティ責任者である。",
+          "vi": "CISO (Chief Information Security Officer) chỉ đạo chiến lược bảo vệ thông tin, xây dựng chính sách an ninh, đánh giá rủi ro, tổ chức ứng phó sự cố và đào tạo nhân viên. Ví dụ, CISO giám sát kế hoạch bảo vệ hệ thống trước tấn công mạng và quy trình xử lý khi dữ liệu bị rò rỉ. CISO làm việc với lãnh đạo doanh nghiệp để duy trì môi trường thông tin an toàn và đáng tin cậy."
+        },
+        {
+          "type": "point",
+          "ja": "CISOは情報セキュリティの責任者である。",
+          "vi": "CISO = bảo mật thông tin; CIO = chiến lược thông tin/CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CISO",
+          "english": "Chief Information Security Officer",
+          "vi": "Giám đốc an toàn thông tin (CISO)",
+          "definitionJa": "組織の情報セキュリティ方針、リスク対策及び教育を統括する最高情報セキュリティ責任者である。",
+          "definitionVi": "Lãnh đạo cao nhất phụ trách chính sách, quản lý rủi ro và biện pháp bảo mật thông tin trong tổ chức.",
+          "reading": "しーあいえすおー"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "ciso"]
+    },
+    {
+      "id": "it-control",
+      "order": 14,
+      "titleJa": "IT統制",
+      "titleVi": "Kiểm soát CNTT",
+      "importance": "high",
+      "summaryJa": "ITを安全かつ適切に利用するため、アクセス管理、変更管理、データ管理などの統制を実施することである。",
+      "summaryVi": "Việc thực hiện các biện pháp kiểm soát như quản lý truy cập, thay đổi hệ thống và dữ liệu để sử dụng CNTT an toàn, đúng mục đích.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "IT統制とは",
+          "vi": "Kiểm soát CNTT là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ITを安全かつ適切に利用するため、アクセス管理、変更管理、データ管理などの統制を実施することである。",
+          "vi": "Kiểm soát CNTT là tập hợp các quy tắc, quy trình và biện pháp nhằm hạn chế rủi ro khi sử dụng hệ thống thông tin. Ví dụ, tài khoản phải được phân quyền phù hợp, thay đổi chương trình cần được phê duyệt và dữ liệu phải được sao lưu, đối chiếu. Các biện pháp này giúp bảo đảm tính an toàn, độ chính xác và tính liên tục của nghiệp vụ, đồng thời hỗ trợ tuân thủ quy định. Trong nội bộ, cần phân biệt IT全般統制 với IT業務処理統制."
+        },
+        {
+          "type": "point",
+          "ja": "アクセス管理、変更管理、バックアップが代表的なIT統制である。",
+          "vi": "IT統制 là kiểm soát CNTT; ITガバナンス là quản trị CNTT ở cấp định hướng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "IT統制",
+          "english": "IT Control",
+          "vi": "Kiểm soát CNTT",
+          "definitionJa": "ITを安全かつ適切に利用するため、アクセス管理、変更管理、データ管理などの統制を実施することである。",
+          "definitionVi": "Việc thực hiện các biện pháp kiểm soát như quản lý truy cập, thay đổi hệ thống và dữ liệu để sử dụng CNTT an toàn, đúng mục đích.",
+          "reading": "あいてぃーとうせい"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "it-control"]
+    },
+    {
+      "id": "corporate-governance",
+      "order": 15,
+      "titleJa": "コーポレートガバナンス",
+      "titleVi": "Quản trị doanh nghiệp",
+      "importance": "medium",
+      "summaryJa": "企業経営を監督し、透明性と説明責任を確保して株主などの利害関係者の利益を守る仕組みである。",
+      "summaryVi": "Cơ chế giám sát hoạt động quản lý doanh nghiệp, bảo đảm minh bạch và trách nhiệm giải trình để bảo vệ lợi ích các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コーポレートガバナンスとは",
+          "vi": "Quản trị doanh nghiệp là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業経営を監督し、透明性と説明責任を確保して株主などの利害関係者の利益を守る仕組みである。",
+          "vi": "Quản trị doanh nghiệp (corporate governance) quy định cách doanh nghiệp được định hướng, điều hành và giám sát. Ví dụ, hội đồng quản trị giám sát ban điều hành, thiết lập cơ chế quản lý rủi ro và bảo đảm công bố thông tin phù hợp. Mục tiêu là tránh lạm quyền, tăng trách nhiệm giải trình và tạo niềm tin với cổ đông, nhà đầu tư, nhân viên và đối tác. Quản trị CNTT là một phần liên quan trong cơ chế quản trị chung của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "取締役会の監督、透明性、説明責任が重要である。",
+          "vi": "Corporate governance rộng hơn IT governance."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コーポレートガバナンス",
+          "english": "Corporate Governance",
+          "vi": "Quản trị doanh nghiệp",
+          "definitionJa": "企業経営を監督し、透明性と説明責任を確保して株主などの利害関係者の利益を守る仕組みである。",
+          "definitionVi": "Cơ chế giám sát hoạt động quản lý doanh nghiệp, bảo đảm minh bạch và trách nhiệm giải trình để bảo vệ lợi ích các bên liên quan.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "corporate-governance"]
+    },
+    {
+      "id": "companies-act",
+      "order": 16,
+      "titleJa": "会社法",
+      "titleVi": "Luật Công ty (Nhật Bản)",
+      "importance": "medium",
+      "summaryJa": "会社の設立、組織、運営、役員や株主の権利義務、解散などを定める法律である。",
+      "summaryVi": "Luật quy định việc thành lập, tổ chức, hoạt động và giải thể công ty cùng quyền, nghĩa vụ của lãnh đạo và cổ đông.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "会社法とは",
+          "vi": "Luật Công ty (Nhật Bản) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "会社の設立、組織、運営、役員や株主の権利義務、解散などを定める法律である。",
+          "vi": "会社法 (Luật Công ty Nhật Bản) đặt ra khuôn khổ pháp lý cho việc thành lập và điều hành công ty, quyền hạn của giám đốc và cổ đông, đại hội cổ đông, tổ chức quản trị và thủ tục giải thể. Doanh nghiệp cần tuân thủ các quy định liên quan đến cơ cấu quản lý và công bố, phê duyệt thông tin theo trường hợp áp dụng. Đây là cơ sở quan trọng để xây dựng cơ chế quản trị và kiểm soát nội bộ phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "会社の組織・運営と役員・株主の権利義務を定める。",
+          "vi": "Phân biệt 会社法 với 金融商品取引法 (luật thị trường và giao dịch tài chính)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "会社法",
+          "english": "Companies Act",
+          "vi": "Luật Công ty (Nhật Bản)",
+          "definitionJa": "会社の設立、組織、運営、役員や株主の権利義務、解散などを定める法律である。",
+          "definitionVi": "Luật quy định việc thành lập, tổ chức, hoạt động và giải thể công ty cùng quyền, nghĩa vụ của lãnh đạo và cổ đông.",
+          "reading": "かいしゃほう"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "companies-act"]
+    },
+    {
+      "id": "financial-instruments-exchange-act",
+      "order": 17,
+      "titleJa": "金融商品取引法",
+      "titleVi": "Luật Công cụ tài chính và Giao dịch (Nhật Bản)",
+      "importance": "medium",
+      "summaryJa": "金融商品の公正な取引、適切な情報開示及び投資者保護などを定める日本の法律である。",
+      "summaryVi": "Luật Nhật Bản điều chỉnh giao dịch công cụ tài chính, công bố thông tin và bảo vệ nhà đầu tư nhằm duy trì thị trường minh bạch, công bằng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "金融商品取引法とは",
+          "vi": "Luật Công cụ tài chính và Giao dịch (Nhật Bản) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "金融商品の公正な取引、適切な情報開示及び投資者保護などを定める日本の法律である。",
+          "vi": "金融商品取引法 điều chỉnh các hoạt động liên quan đến cổ phiếu, trái phiếu và các công cụ tài chính khác, đặt ra yêu cầu công bố thông tin, quản lý hoạt động kinh doanh chứng khoán và ngăn chặn giao dịch gian lận. Trong bối cảnh kiểm soát nội bộ, luật là cơ sở của chế độ báo cáo kiểm soát nội bộ đối với báo cáo tài chính (thường gọi J-SOX) ở những đối tượng thuộc phạm vi áp dụng. Mục tiêu là giúp nhà đầu tư có thông tin đáng tin cậy để quyết định."
+        },
+        {
+          "type": "point",
+          "ja": "投資者保護、情報開示、財務報告に係る内部統制報告が重要である。",
+          "vi": "Ghi nhớ mối liên hệ giữa 金融商品取引法 và 内部統制報告制度."
+        }
+      ],
+      "terms": [
+        {
+          "term": "金融商品取引法",
+          "english": "Financial Instruments and Exchange Act",
+          "vi": "Luật Công cụ tài chính và Giao dịch (Nhật Bản)",
+          "definitionJa": "金融商品の公正な取引、適切な情報開示及び投資者保護などを定める日本の法律である。",
+          "definitionVi": "Luật Nhật Bản điều chỉnh giao dịch công cụ tài chính, công bố thông tin và bảo vệ nhà đầu tư nhằm duy trì thị trường minh bạch, công bằng.",
+          "reading": "きんゆうしょうひんとりひきほう"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "internal-control",
+        "financial-instruments-exchange-act"
+      ]
+    },
+    {
+      "id": "csa",
+      "order": 18,
+      "titleJa": "CSA",
+      "titleVi": "Tự đánh giá kiểm soát (CSA)",
+      "importance": "high",
+      "summaryJa": "業務担当者が自らの業務に関するリスクと内部統制の状況を評価し、改善点を明らかにする手法である。",
+      "summaryVi": "Phương pháp để chính nhân viên hoặc bộ phận thực hiện nghiệp vụ tự đánh giá rủi ro và tình trạng kiểm soát trong công việc của mình.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CSAとは",
+          "vi": "Tự đánh giá kiểm soát (CSA) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務担当者が自らの業務に関するリスクと内部統制の状況を評価し、改善点を明らかにする手法である。",
+          "vi": "CSA (Control Self Assessment), còn gọi là 統制自己評価, cho phép bộ phận nghiệp vụ tự xem xét việc tuân thủ quy định, các rủi ro và hiệu quả của biện pháp kiểm soát đang áp dụng. Ví dụ, nhân viên điền bảng tự đánh giá xem các bước phê duyệt, đối chiếu dữ liệu và phân quyền có được thực hiện đúng hay không. Kết quả giúp xác định điểm yếu và đề xuất cải tiến. Đây là tự đánh giá của người trong quy trình, khác với đánh giá độc lập do kiểm toán viên thực hiện."
+        },
+        {
+          "type": "point",
+          "ja": "CSAは業務担当者による統制の自己評価である。",
+          "vi": "CSA = tự đánh giá kiểm soát, không phải cuộc kiểm toán độc lập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CSA",
+          "english": "Control Self Assessment",
+          "vi": "Tự đánh giá kiểm soát (CSA)",
+          "definitionJa": "業務担当者が自らの業務に関するリスクと内部統制の状況を評価し、改善点を明らかにする手法である。",
+          "definitionVi": "Phương pháp để chính nhân viên hoặc bộ phận thực hiện nghiệp vụ tự đánh giá rủi ro và tình trạng kiểm soát trong công việc của mình.",
+          "reading": "しーえすえー"
+        }
+      ],
+      "tags": ["system-audit", "internal-control", "csa"]
+    }
+  ]
 }

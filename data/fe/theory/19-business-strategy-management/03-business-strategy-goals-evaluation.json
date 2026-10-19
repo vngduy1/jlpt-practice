@@ -4,5 +4,437 @@
   "titleJa": "ビジネス戦略と目標・評価",
   "titleVi": "Chiến lược kinh doanh, mục tiêu và đánh giá",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "mvv",
+      "order": 1,
+      "titleJa": "MVV",
+      "titleVi": "Sứ mệnh, tầm nhìn và giá trị cốt lõi",
+      "importance": "high",
+      "summaryJa": "企業や組織のミッション（存在意義・使命）、ビジョン（将来の理想像）、バリュー（大切にする価値観・行動基準）を示す枠組み。",
+      "summaryVi": "MVV gồm Mission (sứ mệnh: tổ chức tồn tại để làm gì), Vision (tầm nhìn: muốn trở thành gì trong tương lai) và Values (giá trị cốt lõi: nguyên tắc, chuẩn mực hành động).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MVVとは",
+          "vi": "Sứ mệnh, tầm nhìn và giá trị cốt lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織のミッション（存在意義・使命）、ビジョン（将来の理想像）、バリュー（大切にする価値観・行動基準）を示す枠組み。戦略や目標の方向性を統一する。",
+          "vi": "MVV gồm Mission (sứ mệnh: tổ chức tồn tại để làm gì), Vision (tầm nhìn: muốn trở thành gì trong tương lai) và Values (giá trị cốt lõi: nguyên tắc, chuẩn mực hành động). Đây là nền tảng thống nhất định hướng chiến lược."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織のミッション（存在意義・使命）、ビジョン（将来の理想像）、バリュー（大切にする価値観・行動基準）を示す枠組み。",
+          "vi": "Mission = lý do tồn tại; Vision = đích đến; Values = cách hành động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MVV",
+          "english": "Mission, Vision, Values",
+          "vi": "Sứ mệnh, tầm nhìn và giá trị cốt lõi",
+          "definitionJa": "企業や組織のミッション（存在意義・使命）、ビジョン（将来の理想像）、バリュー（大切にする価値観・行動基準）を示す枠組み。戦略や目標の方向性を統一する。",
+          "definitionVi": "MVV gồm Mission (sứ mệnh: tổ chức tồn tại để làm gì), Vision (tầm nhìn: muốn trở thành gì trong tương lai) và Values (giá trị cốt lõi: nguyên tắc, chuẩn mực hành động). Đây là nền tảng thống nhất định hướng chiến lược.",
+          "reading": "えむぶいぶい"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-goals-evaluation", "mvv"]
+    },
+    {
+      "id": "business-model-canvas",
+      "order": 2,
+      "titleJa": "ビジネスモデルキャンバス",
+      "titleVi": "Khung mô hình kinh doanh",
+      "importance": "high",
+      "summaryJa": "ビジネスモデルを9要素で可視化するフレームワーク。",
+      "summaryVi": "Business Model Canvas (BMC) mô tả toàn bộ mô hình kinh doanh bằng 9 ô: phân khúc khách hàng, giá trị cung cấp, kênh, quan hệ khách hàng, dòng doanh thu, hoạt động chính, nguồn lực chính, đối tác chính và cơ cấu chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ビジネスモデルキャンバスとは",
+          "vi": "Khung mô hình kinh doanh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ビジネスモデルを9要素で可視化するフレームワーク。顧客セグメント、価値提案、チャネル、顧客との関係、収益の流れ、主要活動、主要資源、主要パートナー、コスト構造から成る。",
+          "vi": "Business Model Canvas (BMC) mô tả toàn bộ mô hình kinh doanh bằng 9 ô: phân khúc khách hàng, giá trị cung cấp, kênh, quan hệ khách hàng, dòng doanh thu, hoạt động chính, nguồn lực chính, đối tác chính và cơ cấu chi phí. Dùng để thiết kế, đánh giá mô hình kinh doanh mới."
+        },
+        {
+          "type": "point",
+          "ja": "ビジネスモデルを9要素で可視化するフレームワーク。",
+          "vi": "BMC có 9 thành phần; không nhầm với SWOT hay 4P."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ビジネスモデルキャンバス",
+          "english": "Business Model Canvas",
+          "vi": "Khung mô hình kinh doanh",
+          "definitionJa": "ビジネスモデルを9要素で可視化するフレームワーク。顧客セグメント、価値提案、チャネル、顧客との関係、収益の流れ、主要活動、主要資源、主要パートナー、コスト構造から成る。",
+          "definitionVi": "Business Model Canvas (BMC) mô tả toàn bộ mô hình kinh doanh bằng 9 ô: phân khúc khách hàng, giá trị cung cấp, kênh, quan hệ khách hàng, dòng doanh thu, hoạt động chính, nguồn lực chính, đối tác chính và cơ cấu chi phí. Dùng để thiết kế, đánh giá mô hình kinh doanh mới.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "business-model-canvas"
+      ]
+    },
+    {
+      "id": "kgi",
+      "order": 3,
+      "titleJa": "KGI",
+      "titleVi": "Chỉ số mục tiêu then chốt",
+      "importance": "high",
+      "summaryJa": "企業や組織が最終的に達成したい目標を数値で表す重要目標達成指標。",
+      "summaryVi": "KGI là chỉ số đo kết quả cuối cùng mà tổ chức muốn đạt, ví dụ doanh thu năm đạt 100 triệu yên hoặc thị phần đạt 20%.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KGIとは",
+          "vi": "Chỉ số mục tiêu then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が最終的に達成したい目標を数値で表す重要目標達成指標。売上高や市場シェアなどの最終成果を測る。",
+          "vi": "KGI là chỉ số đo kết quả cuối cùng mà tổ chức muốn đạt, ví dụ doanh thu năm đạt 100 triệu yên hoặc thị phần đạt 20%. Cần có mục tiêu đo lường được và thời hạn rõ ràng."
+        },
+        {
+          "type": "point",
+          "ja": "企業や組織が最終的に達成したい目標を数値で表す重要目標達成指標。",
+          "vi": "KGI = kết quả cuối cùng; KPI = chỉ số theo dõi quá trình để đạt KGI."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KGI",
+          "english": "Key Goal Indicator",
+          "vi": "Chỉ số mục tiêu then chốt",
+          "definitionJa": "企業や組織が最終的に達成したい目標を数値で表す重要目標達成指標。売上高や市場シェアなどの最終成果を測る。",
+          "definitionVi": "KGI là chỉ số đo kết quả cuối cùng mà tổ chức muốn đạt, ví dụ doanh thu năm đạt 100 triệu yên hoặc thị phần đạt 20%. Cần có mục tiêu đo lường được và thời hạn rõ ràng.",
+          "reading": "けーじーあい"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-goals-evaluation", "kgi"]
+    },
+    {
+      "id": "kpi",
+      "order": 4,
+      "titleJa": "KPI",
+      "titleVi": "Chỉ số hiệu suất then chốt",
+      "importance": "high",
+      "summaryJa": "最終目標の達成に向けた業務の進捗や成果を測る重要業績評価指標。",
+      "summaryVi": "KPI đo hiệu quả của các hoạt động then chốt giúp đạt mục tiêu, chẳng hạn số khách hàng tiềm năng mỗi tháng, tỷ lệ chuyển đổi hoặc số đơn hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "KPIとは",
+          "vi": "Chỉ số hiệu suất then chốt là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "最終目標の達成に向けた業務の進捗や成果を測る重要業績評価指標。定期的に数値を確認して改善につなげる。",
+          "vi": "KPI đo hiệu quả của các hoạt động then chốt giúp đạt mục tiêu, chẳng hạn số khách hàng tiềm năng mỗi tháng, tỷ lệ chuyển đổi hoặc số đơn hàng. Theo dõi KPI định kỳ để phát hiện vấn đề và điều chỉnh hành động."
+        },
+        {
+          "type": "point",
+          "ja": "最終目標の達成に向けた業務の進捗や成果を測る重要業績評価指標。",
+          "vi": "Ví dụ: KGI = doanh thu năm; KPI = số đơn hàng tháng và tỷ lệ chuyển đổi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "KPI",
+          "english": "Key Performance Indicator",
+          "vi": "Chỉ số hiệu suất then chốt",
+          "definitionJa": "最終目標の達成に向けた業務の進捗や成果を測る重要業績評価指標。定期的に数値を確認して改善につなげる。",
+          "definitionVi": "KPI đo hiệu quả của các hoạt động then chốt giúp đạt mục tiêu, chẳng hạn số khách hàng tiềm năng mỗi tháng, tỷ lệ chuyển đổi hoặc số đơn hàng. Theo dõi KPI định kỳ để phát hiện vấn đề và điều chỉnh hành động.",
+          "reading": "けーぴーあい"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-goals-evaluation", "kpi"]
+    },
+    {
+      "id": "monitoring",
+      "order": 5,
+      "titleJa": "モニタリング",
+      "titleVi": "Giám sát, theo dõi",
+      "importance": "medium",
+      "summaryJa": "業務やプロジェクト、目標の進捗状況を継続的に観察・測定し、問題の早期発見や改善に役立てること。",
+      "summaryVi": "Monitoring là theo dõi, đo lường liên tục tiến độ và kết quả hoạt động, so sánh với mục tiêu để phát hiện sai lệch sớm và kịp thời đưa ra biện pháp khắc phục.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "モニタリングとは",
+          "vi": "Giám sát, theo dõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "業務やプロジェクト、目標の進捗状況を継続的に観察・測定し、問題の早期発見や改善に役立てること。",
+          "vi": "Monitoring là theo dõi, đo lường liên tục tiến độ và kết quả hoạt động, so sánh với mục tiêu để phát hiện sai lệch sớm và kịp thời đưa ra biện pháp khắc phục. Ví dụ kiểm tra KPI hằng tuần."
+        },
+        {
+          "type": "point",
+          "ja": "業務やプロジェクト、目標の進捗状況を継続的に観察・測定し、問題の早期発見や改善に役立てること。",
+          "vi": "Monitoring = theo dõi liên tục; đánh giá kết quả chỉ tại cuối kỳ là chưa đủ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "モニタリング",
+          "english": "Monitoring",
+          "vi": "Giám sát, theo dõi",
+          "definitionJa": "業務やプロジェクト、目標の進捗状況を継続的に観察・測定し、問題の早期発見や改善に役立てること。",
+          "definitionVi": "Monitoring là theo dõi, đo lường liên tục tiến độ và kết quả hoạt động, so sánh với mục tiêu để phát hiện sai lệch sớm và kịp thời đưa ra biện pháp khắc phục. Ví dụ kiểm tra KPI hằng tuần.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "bsc",
+      "order": 6,
+      "titleJa": "BSC",
+      "titleVi": "Thẻ điểm cân bằng",
+      "importance": "high",
+      "summaryJa": "財務、顧客、内部業務プロセス、学習と成長の4視点から戦略目標と業績をバランスよく管理・評価する手法。",
+      "summaryVi": "BSC (Balanced Scorecard) chuyển chiến lược thành mục tiêu và chỉ số đo lường theo 4 góc nhìn: tài chính, khách hàng, quy trình nội bộ, học hỏi và phát triển.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "BSCとは",
+          "vi": "Thẻ điểm cân bằng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "財務、顧客、内部業務プロセス、学習と成長の4視点から戦略目標と業績をバランスよく管理・評価する手法。",
+          "vi": "BSC (Balanced Scorecard) chuyển chiến lược thành mục tiêu và chỉ số đo lường theo 4 góc nhìn: tài chính, khách hàng, quy trình nội bộ, học hỏi và phát triển. Giúp tránh chỉ đánh giá thành công bằng lợi nhuận ngắn hạn."
+        },
+        {
+          "type": "point",
+          "ja": "財務、顧客、内部業務プロセス、学習と成長の4視点から戦略目標と業績をバランスよく管理・評価する手法。",
+          "vi": "BSC = 4 góc nhìn: 財務・顧客・内部プロセス・学習と成長."
+        }
+      ],
+      "terms": [
+        {
+          "term": "BSC",
+          "english": "Balanced Scorecard",
+          "vi": "Thẻ điểm cân bằng",
+          "definitionJa": "財務、顧客、内部業務プロセス、学習と成長の4視点から戦略目標と業績をバランスよく管理・評価する手法。",
+          "definitionVi": "BSC (Balanced Scorecard) chuyển chiến lược thành mục tiêu và chỉ số đo lường theo 4 góc nhìn: tài chính, khách hàng, quy trình nội bộ, học hỏi và phát triển. Giúp tránh chỉ đánh giá thành công bằng lợi nhuận ngắn hạn.",
+          "reading": "びーえすしー"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-goals-evaluation", "bsc"]
+    },
+    {
+      "id": "needs-wants-analysis",
+      "order": 7,
+      "titleJa": "ニーズ・ウォンツ分析",
+      "titleVi": "Phân tích nhu cầu và mong muốn",
+      "importance": "high",
+      "summaryJa": "顧客が本質的に必要としていること（ニーズ）と、その必要性を満たすために具体的に欲しいもの（ウォンツ）を区別して分析する手法。",
+      "summaryVi": "Phân biệt Needs (nhu cầu gốc cần được đáp ứng) và Wants (mong muốn cụ thể để thỏa mãn nhu cầu).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ニーズ・ウォンツ分析とは",
+          "vi": "Phân tích nhu cầu và mong muốn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客が本質的に必要としていること（ニーズ）と、その必要性を満たすために具体的に欲しいもの（ウォンツ）を区別して分析する手法。",
+          "vi": "Phân biệt Needs (nhu cầu gốc cần được đáp ứng) và Wants (mong muốn cụ thể để thỏa mãn nhu cầu). Ví dụ: cần giải khát là Needs, muốn uống nước khoáng lạnh của thương hiệu cụ thể là Wants. Từ đó thiết kế sản phẩm phù hợp."
+        },
+        {
+          "type": "point",
+          "ja": "顧客が本質的に必要としていること（ニーズ）と、その必要性を満たすために具体的に欲しいもの（ウォンツ）を区別して分析する手法。",
+          "vi": "Needs = điều cần giải quyết; Wants = cách thức/sản phẩm cụ thể mong muốn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ニーズ・ウォンツ分析",
+          "english": "Needs-Wants Analysis",
+          "vi": "Phân tích nhu cầu và mong muốn",
+          "definitionJa": "顧客が本質的に必要としていること（ニーズ）と、その必要性を満たすために具体的に欲しいもの（ウォンツ）を区別して分析する手法。",
+          "definitionVi": "Phân biệt Needs (nhu cầu gốc cần được đáp ứng) và Wants (mong muốn cụ thể để thỏa mãn nhu cầu). Ví dụ: cần giải khát là Needs, muốn uống nước khoáng lạnh của thương hiệu cụ thể là Wants. Từ đó thiết kế sản phẩm phù hợp.",
+          "reading": "にーず・うぉんつぶんせき"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "needs-wants-analysis"
+      ]
+    },
+    {
+      "id": "competitive-analysis",
+      "order": 8,
+      "titleJa": "競合分析",
+      "titleVi": "Phân tích đối thủ cạnh tranh",
+      "importance": "medium",
+      "summaryJa": "競合企業の製品、価格、強み・弱み、販売方法などを調査し、自社の競争力や差別化の方向性を明確にする分析。",
+      "summaryVi": "Thu thập và so sánh thông tin về đối thủ như sản phẩm, giá bán, điểm mạnh/yếu, kênh phân phối và chiến lược tiếp thị để tìm lợi thế cạnh tranh và cơ hội khác biệt hóa của doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "競合分析とは",
+          "vi": "Phân tích đối thủ cạnh tranh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "競合企業の製品、価格、強み・弱み、販売方法などを調査し、自社の競争力や差別化の方向性を明確にする分析。",
+          "vi": "Thu thập và so sánh thông tin về đối thủ như sản phẩm, giá bán, điểm mạnh/yếu, kênh phân phối và chiến lược tiếp thị để tìm lợi thế cạnh tranh và cơ hội khác biệt hóa của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "競合企業の製品、価格、強み・弱み、販売方法などを調査し、自社の競争力や差別化の方向性を明確にする分析。",
+          "vi": "競合分析 tập trung vào đối thủ; 3C分析 còn xét khách hàng và chính doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "競合分析",
+          "english": "Competitive Analysis",
+          "vi": "Phân tích đối thủ cạnh tranh",
+          "definitionJa": "競合企業の製品、価格、強み・弱み、販売方法などを調査し、自社の競争力や差別化の方向性を明確にする分析。",
+          "definitionVi": "Thu thập và so sánh thông tin về đối thủ như sản phẩm, giá bán, điểm mạnh/yếu, kênh phân phối và chiến lược tiếp thị để tìm lợi thế cạnh tranh và cơ hội khác biệt hóa của doanh nghiệp.",
+          "reading": "きょうごうぶんせき"
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "competitive-analysis"
+      ]
+    },
+    {
+      "id": "value-engineering",
+      "order": 9,
+      "titleJa": "バリューエンジニアリング",
+      "titleVi": "Kỹ thuật phân tích giá trị (VE)",
+      "importance": "high",
+      "summaryJa": "製品・サービスに必要な機能を分析し、機能や品質を維持・向上させながらコストを最適化し、価値を高める手法。",
+      "summaryVi": "Value Engineering (VE) phân tích chức năng sản phẩm/dịch vụ nhằm nâng cao giá trị bằng cách duy trì hoặc cải thiện chức năng, chất lượng trong khi tối ưu chi phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "バリューエンジニアリングとは",
+          "vi": "Kỹ thuật phân tích giá trị (VE) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品・サービスに必要な機能を分析し、機能や品質を維持・向上させながらコストを最適化し、価値を高める手法。",
+          "vi": "Value Engineering (VE) phân tích chức năng sản phẩm/dịch vụ nhằm nâng cao giá trị bằng cách duy trì hoặc cải thiện chức năng, chất lượng trong khi tối ưu chi phí. Không đơn thuần cắt giảm chi phí bằng mọi giá."
+        },
+        {
+          "type": "point",
+          "ja": "製品・サービスに必要な機能を分析し、機能や品質を維持・向上させながらコストを最適化し、価値を高める手法。",
+          "vi": "VE: Giá trị (Value) thường được hiểu là Chức năng (Function) / Chi phí (Cost)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "バリューエンジニアリング",
+          "english": "Value Engineering",
+          "vi": "Kỹ thuật phân tích giá trị (VE)",
+          "definitionJa": "製品・サービスに必要な機能を分析し、機能や品質を維持・向上させながらコストを最適化し、価値を高める手法。",
+          "definitionVi": "Value Engineering (VE) phân tích chức năng sản phẩm/dịch vụ nhằm nâng cao giá trị bằng cách duy trì hoặc cải thiện chức năng, chất lượng trong khi tối ưu chi phí. Không đơn thuần cắt giảm chi phí bằng mọi giá.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "value-engineering"
+      ]
+    },
+    {
+      "id": "six-sigma",
+      "order": 10,
+      "titleJa": "シックスシグマ",
+      "titleVi": "Phương pháp Six Sigma",
+      "importance": "high",
+      "summaryJa": "データと統計的手法を活用して工程のばらつきや不良を減らし、品質と業務プロセスを改善する管理手法。",
+      "summaryVi": "Six Sigma là phương pháp cải tiến quy trình dựa trên dữ liệu và thống kê nhằm giảm biến động, sai lỗi và nâng cao chất lượng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "シックスシグマとは",
+          "vi": "Phương pháp Six Sigma là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データと統計的手法を活用して工程のばらつきや不良を減らし、品質と業務プロセスを改善する管理手法。",
+          "vi": "Six Sigma là phương pháp cải tiến quy trình dựa trên dữ liệu và thống kê nhằm giảm biến động, sai lỗi và nâng cao chất lượng. Thường gắn với chu trình DMAIC: Define, Measure, Analyze, Improve, Control."
+        },
+        {
+          "type": "point",
+          "ja": "データと統計的手法を活用して工程のばらつきや不良を減らし、品質と業務プロセスを改善する管理手法。",
+          "vi": "Six Sigma tập trung giảm sai lỗi và biến động; DMAIC là quy trình cải tiến thường dùng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "シックスシグマ",
+          "english": "Six Sigma",
+          "vi": "Phương pháp Six Sigma",
+          "definitionJa": "データと統計的手法を活用して工程のばらつきや不良を減らし、品質と業務プロセスを改善する管理手法。",
+          "definitionVi": "Six Sigma là phương pháp cải tiến quy trình dựa trên dữ liệu và thống kê nhằm giảm biến động, sai lỗi và nâng cao chất lượng. Thường gắn với chu trình DMAIC: Define, Measure, Analyze, Improve, Control.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "business-strategy",
+        "business-strategy-goals-evaluation",
+        "six-sigma"
+      ]
+    },
+    {
+      "id": "tqm",
+      "order": 11,
+      "titleJa": "TQM",
+      "titleVi": "Quản lý chất lượng toàn diện",
+      "importance": "high",
+      "summaryJa": "顧客満足を重視し、経営者から現場の従業員まで組織全体が参加して、品質を継続的に改善する総合的な品質管理の考え方。",
+      "summaryVi": "TQM là quản lý chất lượng toàn diện, huy động toàn bộ tổ chức từ lãnh đạo đến nhân viên cùng liên tục cải tiến chất lượng sản phẩm, dịch vụ và quy trình, hướng đến sự hài lòng của khách hàng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "TQMとは",
+          "vi": "Quản lý chất lượng toàn diện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "顧客満足を重視し、経営者から現場の従業員まで組織全体が参加して、品質を継続的に改善する総合的な品質管理の考え方。",
+          "vi": "TQM là quản lý chất lượng toàn diện, huy động toàn bộ tổ chức từ lãnh đạo đến nhân viên cùng liên tục cải tiến chất lượng sản phẩm, dịch vụ và quy trình, hướng đến sự hài lòng của khách hàng. PDCA là một công cụ thường dùng."
+        },
+        {
+          "type": "point",
+          "ja": "顧客満足を重視し、経営者から現場の従業員まで組織全体が参加して、品質を継続的に改善する総合的な品質管理の考え方。",
+          "vi": "TQM = toàn tổ chức tham gia cải tiến liên tục; Six Sigma = phương pháp định lượng giảm sai lỗi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "TQM",
+          "english": "Total Quality Management",
+          "vi": "Quản lý chất lượng toàn diện",
+          "definitionJa": "顧客満足を重視し、経営者から現場の従業員まで組織全体が参加して、品質を継続的に改善する総合的な品質管理の考え方。",
+          "definitionVi": "TQM là quản lý chất lượng toàn diện, huy động toàn bộ tổ chức từ lãnh đạo đến nhân viên cùng liên tục cải tiến chất lượng sản phẩm, dịch vụ và quy trình, hướng đến sự hài lòng của khách hàng. PDCA là một công cụ thường dùng.",
+          "reading": "てぃーきゅーえむ"
+        }
+      ],
+      "tags": ["business-strategy", "business-strategy-goals-evaluation", "tqm"]
+    }
+  ]
 }

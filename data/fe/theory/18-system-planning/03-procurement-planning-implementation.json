@@ -4,5 +4,609 @@
   "titleJa": "調達計画・実施",
   "titleVi": "Lập kế hoạch và thực hiện mua sắm",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "internal-external-production-criteria",
+      "order": 1,
+      "titleJa": "内外作基準",
+      "titleVi": "Tiêu chí lựa chọn tự thực hiện hay thuê ngoài",
+      "importance": "high",
+      "summaryJa": "システムや業務を自社で実施するか、外部に委託するかを品質・コスト・納期・リスクなどで判断する基準。",
+      "summaryVi": "Tiêu chí quyết định tự thực hiện trong doanh nghiệp hay thuê bên ngoài dựa trên chất lượng, chi phí, thời hạn và rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内外作基準とは",
+          "vi": "Tiêu chí lựa chọn tự thực hiện hay thuê ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムや業務を自社で実施するか、外部に委託するかを品質・コスト・納期・リスクなどで判断する基準。",
+          "vi": "Tiêu chí quyết định tự thực hiện trong doanh nghiệp hay thuê bên ngoài dựa trên chất lượng, chi phí, thời hạn và rủi ro."
+        },
+        {
+          "type": "point",
+          "ja": "内作は自社で行い、外作は外部へ委託する。",
+          "vi": "Nội bộ tự làm là 内作; giao nhà cung cấp bên ngoài là 外作."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内外作基準",
+          "english": "Internal and External Procurement Standards",
+          "vi": "Tiêu chí lựa chọn tự thực hiện hay thuê ngoài",
+          "definitionJa": "システムや業務を自社で実施するか、外部に委託するかを品質・コスト・納期・リスクなどで判断する基準。",
+          "definitionVi": "Tiêu chí quyết định tự thực hiện trong doanh nghiệp hay thuê bên ngoài dựa trên chất lượng, chi phí, thời hạn và rủi ro.",
+          "reading": "ないがいさくきじゅん"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "internal-external-production-criteria"
+      ]
+    },
+    {
+      "id": "software-supply-chain-management",
+      "order": 2,
+      "titleJa": "ソフトウェアのサプライチェーンマネジメント",
+      "titleVi": "Quản lý chuỗi cung ứng phần mềm",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの部品調達、開発、テスト、配布、保守までの供給過程を管理し、品質・安全性・ライセンス・納期を確保する。",
+      "summaryVi": "Quản lý chuỗi cung ứng phần mềm từ mua thành phần, phát triển, kiểm thử, phân phối đến bảo trì nhằm bảo đảm chất lượng, an toàn, giấy phép và tiến độ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェアのサプライチェーンマネジメントとは",
+          "vi": "Quản lý chuỗi cung ứng phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの部品調達、開発、テスト、配布、保守までの供給過程を管理し、品質・安全性・ライセンス・納期を確保する。",
+          "vi": "Quản lý chuỗi cung ứng phần mềm từ mua thành phần, phát triển, kiểm thử, phân phối đến bảo trì nhằm bảo đảm chất lượng, an toàn, giấy phép và tiến độ."
+        },
+        {
+          "type": "point",
+          "ja": "外部ライブラリや委託先も管理対象であり、脆弱性やライセンス違反に注意する。",
+          "vi": "Thư viện bên thứ ba và nhà thầu cũng nằm trong phạm vi quản lý; cần kiểm soát lỗ hổng và vi phạm giấy phép."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェアのサプライチェーンマネジメント",
+          "english": "Software Supply Chain Management",
+          "vi": "Quản lý chuỗi cung ứng phần mềm",
+          "definitionJa": "ソフトウェアの部品調達、開発、テスト、配布、保守までの供給過程を管理し、品質・安全性・ライセンス・納期を確保する。",
+          "definitionVi": "Quản lý chuỗi cung ứng phần mềm từ mua thành phần, phát triển, kiểm thử, phân phối đến bảo trì nhằm bảo đảm chất lượng, an toàn, giấy phép và tiến độ.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "software-supply-chain-management"
+      ]
+    },
+    {
+      "id": "license-management",
+      "order": 3,
+      "titleJa": "ライセンス管理",
+      "titleVi": "Quản lý giấy phép sử dụng",
+      "importance": "high",
+      "summaryJa": "ソフトウェアの利用数、利用者、契約条件、期限などを把握し、許諾範囲内で適法に利用するための管理。",
+      "summaryVi": "Theo dõi số lượng sử dụng, người dùng, điều kiện hợp đồng và thời hạn để sử dụng phần mềm hợp pháp trong phạm vi được cấp phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ライセンス管理とは",
+          "vi": "Quản lý giấy phép sử dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアの利用数、利用者、契約条件、期限などを把握し、許諾範囲内で適法に利用するための管理。",
+          "vi": "Theo dõi số lượng sử dụng, người dùng, điều kiện hợp đồng và thời hạn để sử dụng phần mềm hợp pháp trong phạm vi được cấp phép."
+        },
+        {
+          "type": "point",
+          "ja": "インストール数や利用人数が契約上限を超えないか確認する。",
+          "vi": "Kiểm tra số bản cài đặt hoặc số người dùng có vượt giới hạn hợp đồng không."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライセンス管理",
+          "english": "License Management",
+          "vi": "Quản lý giấy phép sử dụng",
+          "definitionJa": "ソフトウェアの利用数、利用者、契約条件、期限などを把握し、許諾範囲内で適法に利用するための管理。",
+          "definitionVi": "Theo dõi số lượng sử dụng, người dùng, điều kiện hợp đồng và thời hạn để sử dụng phần mềm hợp pháp trong phạm vi được cấp phép.",
+          "reading": "らいせんすかんり"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "license-management"
+      ]
+    },
+    {
+      "id": "rfi",
+      "order": 4,
+      "titleJa": "RFI",
+      "titleVi": "Yêu cầu cung cấp thông tin",
+      "importance": "high",
+      "summaryJa": "調達の初期段階で、候補となるベンダーに製品・技術・サービスなどの情報提供を依頼する文書。",
+      "summaryVi": "Văn bản yêu cầu các nhà cung cấp tiềm năng cung cấp thông tin về sản phẩm, công nghệ và dịch vụ ở giai đoạn đầu mua sắm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RFIとは",
+          "vi": "Yêu cầu cung cấp thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "調達の初期段階で、候補となるベンダーに製品・技術・サービスなどの情報提供を依頼する文書。",
+          "vi": "Văn bản yêu cầu các nhà cung cấp tiềm năng cung cấp thông tin về sản phẩm, công nghệ và dịch vụ ở giai đoạn đầu mua sắm."
+        },
+        {
+          "type": "point",
+          "ja": "RFIは情報収集、RFPは提案依頼、RFQは見積依頼。",
+          "vi": "RFI hỏi thông tin; RFP yêu cầu đề xuất; RFQ yêu cầu báo giá."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RFI",
+          "english": "Request for Information",
+          "vi": "Yêu cầu cung cấp thông tin",
+          "definitionJa": "調達の初期段階で、候補となるベンダーに製品・技術・サービスなどの情報提供を依頼する文書。",
+          "definitionVi": "Văn bản yêu cầu các nhà cung cấp tiềm năng cung cấp thông tin về sản phẩm, công nghệ và dịch vụ ở giai đoạn đầu mua sắm.",
+          "reading": "あーるえふあい"
+        }
+      ],
+      "tags": ["system-planning", "procurement-planning-implementation", "rfi"]
+    },
+    {
+      "id": "rfp",
+      "order": 5,
+      "titleJa": "RFP",
+      "titleVi": "Yêu cầu đề xuất",
+      "importance": "high",
+      "summaryJa": "発注側が要件や条件を示し、ベンダーに実現方法、体制、費用などの具体的な提案を求める文書。",
+      "summaryVi": "Văn bản bên mua nêu yêu cầu, điều kiện và đề nghị nhà cung cấp đưa ra phương án triển khai, tổ chức thực hiện, chi phí cụ thể.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RFPとは",
+          "vi": "Yêu cầu đề xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "発注側が要件や条件を示し、ベンダーに実現方法、体制、費用などの具体的な提案を求める文書。",
+          "vi": "Văn bản bên mua nêu yêu cầu, điều kiện và đề nghị nhà cung cấp đưa ra phương án triển khai, tổ chức thực hiện, chi phí cụ thể."
+        },
+        {
+          "type": "point",
+          "ja": "複数社の提案を品質・実現性・費用などで比較する。",
+          "vi": "So sánh đề xuất của nhiều nhà cung cấp về chất lượng, tính khả thi và chi phí."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RFP",
+          "english": "Request for Proposal",
+          "vi": "Yêu cầu đề xuất",
+          "definitionJa": "発注側が要件や条件を示し、ベンダーに実現方法、体制、費用などの具体的な提案を求める文書。",
+          "definitionVi": "Văn bản bên mua nêu yêu cầu, điều kiện và đề nghị nhà cung cấp đưa ra phương án triển khai, tổ chức thực hiện, chi phí cụ thể.",
+          "reading": "あーるえふぴー"
+        }
+      ],
+      "tags": ["system-planning", "procurement-planning-implementation", "rfp"]
+    },
+    {
+      "id": "rfq",
+      "order": 6,
+      "titleJa": "RFQ",
+      "titleVi": "Yêu cầu báo giá",
+      "importance": "high",
+      "summaryJa": "仕様や数量などの条件を示し、ベンダーに価格、納期、取引条件の見積りを求める文書。",
+      "summaryVi": "Văn bản đưa ra thông số, số lượng và yêu cầu nhà cung cấp báo giá, thời gian giao hàng cùng điều kiện giao dịch.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "RFQとは",
+          "vi": "Yêu cầu báo giá là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "仕様や数量などの条件を示し、ベンダーに価格、納期、取引条件の見積りを求める文書。",
+          "vi": "Văn bản đưa ra thông số, số lượng và yêu cầu nhà cung cấp báo giá, thời gian giao hàng cùng điều kiện giao dịch."
+        },
+        {
+          "type": "point",
+          "ja": "仕様が明確な調達で価格や納期を比較するときに用いる。",
+          "vi": "Thường dùng khi yêu cầu đã rõ và cần so sánh giá, thời hạn giao hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "RFQ",
+          "english": "Request for Quotation",
+          "vi": "Yêu cầu báo giá",
+          "definitionJa": "仕様や数量などの条件を示し、ベンダーに価格、納期、取引条件の見積りを求める文書。",
+          "definitionVi": "Văn bản đưa ra thông số, số lượng và yêu cầu nhà cung cấp báo giá, thời gian giao hàng cùng điều kiện giao dịch.",
+          "reading": "あーるえふきゅー"
+        }
+      ],
+      "tags": ["system-planning", "procurement-planning-implementation", "rfq"]
+    },
+    {
+      "id": "proposal-competition",
+      "order": 7,
+      "titleJa": "企画競争入札",
+      "titleVi": "Đấu thầu cạnh tranh bằng phương án đề xuất",
+      "importance": "medium",
+      "summaryJa": "複数の事業者から企画・技術・実施方法などの提案を募り、価格だけでなく内容や実現可能性を評価して選定する方式。",
+      "summaryVi": "Phương thức mời nhiều nhà cung cấp đề xuất phương án, kỹ thuật, cách thực hiện; lựa chọn theo chất lượng và tính khả thi chứ không chỉ giá.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "企画競争入札とは",
+          "vi": "Đấu thầu cạnh tranh bằng phương án đề xuất là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の事業者から企画・技術・実施方法などの提案を募り、価格だけでなく内容や実現可能性を評価して選定する方式。",
+          "vi": "Phương thức mời nhiều nhà cung cấp đề xuất phương án, kỹ thuật, cách thực hiện; lựa chọn theo chất lượng và tính khả thi chứ không chỉ giá."
+        },
+        {
+          "type": "point",
+          "ja": "提案内容を重視する点が価格中心の比較と異なる。",
+          "vi": "Khác với so sánh chủ yếu theo giá: trọng tâm là chất lượng phương án đề xuất."
+        }
+      ],
+      "terms": [
+        {
+          "term": "企画競争入札",
+          "english": "Competitive Bidding for Planning",
+          "vi": "Đấu thầu cạnh tranh bằng phương án đề xuất",
+          "definitionJa": "複数の事業者から企画・技術・実施方法などの提案を募り、価格だけでなく内容や実現可能性を評価して選定する方式。",
+          "definitionVi": "Phương thức mời nhiều nhà cung cấp đề xuất phương án, kỹ thuật, cách thực hiện; lựa chọn theo chất lượng và tính khả thi chứ không chỉ giá.",
+          "reading": "きかくきょうそうにゅうさつ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "proposal-competition"
+      ]
+    },
+    {
+      "id": "open-competitive-bidding",
+      "order": 8,
+      "titleJa": "一般競争入札",
+      "titleVi": "Đấu thầu cạnh tranh rộng rãi",
+      "importance": "high",
+      "summaryJa": "参加条件を公表し、条件を満たす事業者が広く参加できる競争入札方式。",
+      "summaryVi": "Phương thức công khai điều kiện dự thầu để nhiều doanh nghiệp đáp ứng điều kiện được tham gia cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "一般競争入札とは",
+          "vi": "Đấu thầu cạnh tranh rộng rãi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "参加条件を公表し、条件を満たす事業者が広く参加できる競争入札方式。",
+          "vi": "Phương thức công khai điều kiện dự thầu để nhiều doanh nghiệp đáp ứng điều kiện được tham gia cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "誰でも無条件に参加できるわけではなく、公告された参加資格を満たす必要がある。",
+          "vi": "Không phải ai cũng được dự thầu vô điều kiện: phải đáp ứng tiêu chuẩn tham gia đã công bố."
+        }
+      ],
+      "terms": [
+        {
+          "term": "一般競争入札",
+          "english": "Open Competitive Bidding",
+          "vi": "Đấu thầu cạnh tranh rộng rãi",
+          "definitionJa": "参加条件を公表し、条件を満たす事業者が広く参加できる競争入札方式。",
+          "definitionVi": "Phương thức công khai điều kiện dự thầu để nhiều doanh nghiệp đáp ứng điều kiện được tham gia cạnh tranh.",
+          "reading": "いっぱんきょうそうにゅうさつ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "open-competitive-bidding"
+      ]
+    },
+    {
+      "id": "software-outsourcing-model-contract",
+      "order": 9,
+      "titleJa": "ソフトウェア開発委託モデル契約",
+      "titleVi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm",
+      "importance": "medium",
+      "summaryJa": "ソフトウェア開発を外部に委託する際、作業範囲、役割、成果物、費用、納期、知的財産権などを定めるための契約モデル。",
+      "summaryVi": "Mẫu hợp đồng dùng khi thuê bên ngoài phát triển phần mềm, quy định phạm vi, trách nhiệm, sản phẩm bàn giao, chi phí, tiến độ và quyền sở hữu trí tuệ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア開発委託モデル契約とは",
+          "vi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェア開発を外部に委託する際、作業範囲、役割、成果物、費用、納期、知的財産権などを定めるための契約モデル。",
+          "vi": "Mẫu hợp đồng dùng khi thuê bên ngoài phát triển phần mềm, quy định phạm vi, trách nhiệm, sản phẩm bàn giao, chi phí, tiến độ và quyền sở hữu trí tuệ."
+        },
+        {
+          "type": "point",
+          "ja": "モデル契約はひな型であり、案件ごとに契約条件を調整する。",
+          "vi": "Hợp đồng mẫu là khung tham khảo, cần điều chỉnh theo từng dự án."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア開発委託モデル契約",
+          "english": "Software Development Outsourcing Model Contract",
+          "vi": "Hợp đồng mẫu thuê ngoài phát triển phần mềm",
+          "definitionJa": "ソフトウェア開発を外部に委託する際、作業範囲、役割、成果物、費用、納期、知的財産権などを定めるための契約モデル。",
+          "definitionVi": "Mẫu hợp đồng dùng khi thuê bên ngoài phát triển phần mềm, quy định phạm vi, trách nhiệm, sản phẩm bàn giao, chi phí, tiến độ và quyền sở hữu trí tuệ.",
+          "reading": "そふとうぇあかいはついたくもでるけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "software-outsourcing-model-contract"
+      ]
+    },
+    {
+      "id": "information-system-model-contract",
+      "order": 10,
+      "titleJa": "情報システム・モデル取引・契約書",
+      "titleVi": "Mẫu giao dịch và hợp đồng hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "情報システム取引での業務範囲、責任分担、契約条件などを明確にするためのモデル契約書。",
+      "summaryVi": "Mẫu hợp đồng nhằm làm rõ phạm vi công việc, phân chia trách nhiệm và điều kiện giao dịch trong dự án hệ thống thông tin.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システム・モデル取引・契約書とは",
+          "vi": "Mẫu giao dịch và hợp đồng hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システム取引での業務範囲、責任分担、契約条件などを明確にするためのモデル契約書。",
+          "vi": "Mẫu hợp đồng nhằm làm rõ phạm vi công việc, phân chia trách nhiệm và điều kiện giao dịch trong dự án hệ thống thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "発注者と受注者の責任分担を明確にし、紛争を予防する。",
+          "vi": "Phân định rõ trách nhiệm bên đặt hàng và bên nhận thầu để hạn chế tranh chấp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システム・モデル取引・契約書",
+          "english": "Information System Model Transaction Contract",
+          "vi": "Mẫu giao dịch và hợp đồng hệ thống thông tin",
+          "definitionJa": "情報システム取引での業務範囲、責任分担、契約条件などを明確にするためのモデル契約書。",
+          "definitionVi": "Mẫu hợp đồng nhằm làm rõ phạm vi công việc, phân chia trách nhiệm và điều kiện giao dịch trong dự án hệ thống thông tin.",
+          "reading": "じょうほうしすてむ・もでるとりひき・けいやくしょ"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "information-system-model-contract"
+      ]
+    },
+    {
+      "id": "quasi-mandate-contract",
+      "order": 11,
+      "titleJa": "準委任契約",
+      "titleVi": "Hợp đồng ủy thác thực hiện công việc (quasi-mandate)",
+      "importance": "high",
+      "summaryJa": "法律行為以外の事務処理を委託する契約。原則として成果物の完成ではなく、善良な管理者の注意をもって業務を遂行する義務を負う。",
+      "summaryVi": "Hợp đồng giao thực hiện công việc không phải hành vi pháp lý; về nguyên tắc nghĩa vụ chính là thực hiện công việc với sự cẩn trọng cần thiết, không phải bảo đảm hoàn thành sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "準委任契約とは",
+          "vi": "Hợp đồng ủy thác thực hiện công việc (quasi-mandate) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "法律行為以外の事務処理を委託する契約。原則として成果物の完成ではなく、善良な管理者の注意をもって業務を遂行する義務を負う。",
+          "vi": "Hợp đồng giao thực hiện công việc không phải hành vi pháp lý; về nguyên tắc nghĩa vụ chính là thực hiện công việc với sự cẩn trọng cần thiết, không phải bảo đảm hoàn thành sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "準委任は業務遂行、請負は仕事の完成が中心。法律相談を委任する例は通常「委任」と区別する。",
+          "vi": "準委任 chú trọng thực hiện công việc; 請負 chú trọng hoàn thành công việc. Ủy quyền tư vấn pháp lý cần phân biệt với 委任."
+        }
+      ],
+      "terms": [
+        {
+          "term": "準委任契約",
+          "english": "Quasi-Mandate Contract",
+          "vi": "Hợp đồng ủy thác thực hiện công việc (quasi-mandate)",
+          "definitionJa": "法律行為以外の事務処理を委託する契約。原則として成果物の完成ではなく、善良な管理者の注意をもって業務を遂行する義務を負う。",
+          "definitionVi": "Hợp đồng giao thực hiện công việc không phải hành vi pháp lý; về nguyên tắc nghĩa vụ chính là thực hiện công việc với sự cẩn trọng cần thiết, không phải bảo đảm hoàn thành sản phẩm.",
+          "reading": "じゅんいにんけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "quasi-mandate-contract"
+      ]
+    },
+    {
+      "id": "contract-for-work",
+      "order": 12,
+      "titleJa": "請負契約",
+      "titleVi": "Hợp đồng nhận thầu hoàn thành công việc",
+      "importance": "high",
+      "summaryJa": "受注者が仕事を完成させ、発注者がその完成に対して報酬を支払うことを約する契約。",
+      "summaryVi": "Hợp đồng mà bên nhận thầu cam kết hoàn thành công việc và bên đặt hàng trả thù lao cho việc hoàn thành đó.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "請負契約とは",
+          "vi": "Hợp đồng nhận thầu hoàn thành công việc là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "受注者が仕事を完成させ、発注者がその完成に対して報酬を支払うことを約する契約。",
+          "vi": "Hợp đồng mà bên nhận thầu cam kết hoàn thành công việc và bên đặt hàng trả thù lao cho việc hoàn thành đó."
+        },
+        {
+          "type": "point",
+          "ja": "成果物の完成義務が準委任契約との大きな違い。",
+          "vi": "Nghĩa vụ hoàn thành công việc là điểm khác biệt chính so với 準委任契約."
+        }
+      ],
+      "terms": [
+        {
+          "term": "請負契約",
+          "english": "Contract for Work",
+          "vi": "Hợp đồng nhận thầu hoàn thành công việc",
+          "definitionJa": "受注者が仕事を完成させ、発注者がその完成に対して報酬を支払うことを約する契約。",
+          "definitionVi": "Hợp đồng mà bên nhận thầu cam kết hoàn thành công việc và bên đặt hàng trả thù lao cho việc hoàn thành đó.",
+          "reading": "うけおいけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "contract-for-work"
+      ]
+    },
+    {
+      "id": "intellectual-property-license",
+      "order": 13,
+      "titleJa": "知的財産権利用許諾契約",
+      "titleVi": "Hợp đồng cấp phép sử dụng quyền sở hữu trí tuệ",
+      "importance": "medium",
+      "summaryJa": "特許権、著作権、商標権などの権利者が、利用範囲・期間・対価などを定めて第三者に利用を許す契約。",
+      "summaryVi": "Hợp đồng chủ sở hữu sáng chế, bản quyền, nhãn hiệu cho phép bên khác sử dụng trong phạm vi, thời hạn và mức phí đã thỏa thuận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "知的財産権利用許諾契約とは",
+          "vi": "Hợp đồng cấp phép sử dụng quyền sở hữu trí tuệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "特許権、著作権、商標権などの権利者が、利用範囲・期間・対価などを定めて第三者に利用を許す契約。",
+          "vi": "Hợp đồng chủ sở hữu sáng chế, bản quyền, nhãn hiệu cho phép bên khác sử dụng trong phạm vi, thời hạn và mức phí đã thỏa thuận."
+        },
+        {
+          "type": "point",
+          "ja": "利用許諾は権利そのものの譲渡とは異なる。",
+          "vi": "Cấp phép sử dụng không đồng nghĩa với chuyển nhượng quyền sở hữu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "知的財産権利用許諾契約",
+          "english": "Intellectual Property License Agreement",
+          "vi": "Hợp đồng cấp phép sử dụng quyền sở hữu trí tuệ",
+          "definitionJa": "特許権、著作権、商標権などの権利者が、利用範囲・期間・対価などを定めて第三者に利用を許す契約。",
+          "definitionVi": "Hợp đồng chủ sở hữu sáng chế, bản quyền, nhãn hiệu cho phép bên khác sử dụng trong phạm vi, thời hạn và mức phí đã thỏa thuận.",
+          "reading": "ちてきざいさんけんりようきょだくけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "intellectual-property-license"
+      ]
+    },
+    {
+      "id": "software-license-agreement",
+      "order": 14,
+      "titleJa": "ソフトウェア使用許諾契約",
+      "titleVi": "Hợp đồng cấp phép sử dụng phần mềm",
+      "importance": "high",
+      "summaryJa": "ソフトウェアを利用するための条件や制限（利用者数、複製、再配布など）を定める契約。",
+      "summaryVi": "Hợp đồng quy định điều kiện và hạn chế sử dụng phần mềm, như số người dùng, sao chép và phân phối lại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ソフトウェア使用許諾契約とは",
+          "vi": "Hợp đồng cấp phép sử dụng phần mềm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ソフトウェアを利用するための条件や制限（利用者数、複製、再配布など）を定める契約。",
+          "vi": "Hợp đồng quy định điều kiện và hạn chế sử dụng phần mềm, như số người dùng, sao chép và phân phối lại."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェアを購入しても著作権を取得するとは限らない。",
+          "vi": "Mua quyền sử dụng phần mềm không có nghĩa là sở hữu bản quyền phần mềm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ソフトウェア使用許諾契約",
+          "english": "Software License Agreement",
+          "vi": "Hợp đồng cấp phép sử dụng phần mềm",
+          "definitionJa": "ソフトウェアを利用するための条件や制限（利用者数、複製、再配布など）を定める契約。",
+          "definitionVi": "Hợp đồng quy định điều kiện và hạn chế sử dụng phần mềm, như số người dùng, sao chép và phân phối lại.",
+          "reading": "そふとうぇあしようきょだくけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "software-license-agreement"
+      ]
+    },
+    {
+      "id": "license-agreement",
+      "order": 15,
+      "titleJa": "ライセンス契約",
+      "titleVi": "Hợp đồng cấp phép sử dụng",
+      "importance": "medium",
+      "summaryJa": "知的財産などの権利について、権利者が利用条件、期間、対価を定めて相手方に使用を許諾する契約。",
+      "summaryVi": "Hợp đồng chủ sở hữu quyền cho phép bên khác sử dụng quyền, quy định điều kiện, thời hạn và khoản phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ライセンス契約とは",
+          "vi": "Hợp đồng cấp phép sử dụng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "知的財産などの権利について、権利者が利用条件、期間、対価を定めて相手方に使用を許諾する契約。",
+          "vi": "Hợp đồng chủ sở hữu quyền cho phép bên khác sử dụng quyền, quy định điều kiện, thời hạn và khoản phí."
+        },
+        {
+          "type": "point",
+          "ja": "ソフトウェア使用許諾契約はライセンス契約の一種。",
+          "vi": "Hợp đồng cấp phép phần mềm là một loại hợp đồng cấp phép sử dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ライセンス契約",
+          "english": "License Agreement",
+          "vi": "Hợp đồng cấp phép sử dụng",
+          "definitionJa": "知的財産などの権利について、権利者が利用条件、期間、対価を定めて相手方に使用を許諾する契約。",
+          "definitionVi": "Hợp đồng chủ sở hữu quyền cho phép bên khác sử dụng quyền, quy định điều kiện, thời hạn và khoản phí.",
+          "reading": "らいせんすけいやく"
+        }
+      ],
+      "tags": [
+        "system-planning",
+        "procurement-planning-implementation",
+        "license-agreement"
+      ]
+    }
+  ]
 }

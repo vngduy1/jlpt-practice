@@ -4,5 +4,1879 @@
   "titleJa": "システム監査",
   "titleVi": "Kiểm toán hệ thống",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "business-audit",
+      "order": 1,
+      "titleJa": "業務監査",
+      "titleVi": "Kiểm toán nghiệp vụ",
+      "importance": "medium",
+      "summaryJa": "企業や組織の業務プロセスや内部管理の適正性を評価する活動である。",
+      "summaryVi": "Hoạt động đánh giá tính phù hợp của quy trình nghiệp vụ và quản lý nội bộ, đồng thời xem xét hiệu quả, hiệu suất và việc tuân thủ pháp luật, quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "業務監査とは",
+          "vi": "Kiểm toán nghiệp vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の業務プロセスや内部管理の適正性を評価する活動である。監査は、業務の効率性や効果を向上させるために行われ、遵守すべき法律や規則の適用状況を確認する役割も果たす。例えば、財務監査と連携して、資金の流れや内部統制が正確に機能しているかを検証することがある。また、業務監査の結果は、経営者に対して改善点やリスクを報告するため、企業戦略の策定や業務の最適化に寄与する重要な情報となる。これにより、企業は持続的な成長を促進できる。",
+          "vi": "Hoạt động đánh giá tính phù hợp của quy trình nghiệp vụ và quản lý nội bộ, đồng thời xem xét hiệu quả, hiệu suất và việc tuân thủ pháp luật, quy định. Ví dụ: Kiểm tra quy trình phê duyệt chi phí để phát hiện sai sót và đề xuất cải tiến."
+        },
+        {
+          "type": "point",
+          "ja": "業務監査の目的と監査における役割を理解する。",
+          "vi": "Đối tượng chính là quy trình và hoạt động nghiệp vụ, không chỉ hệ thống CNTT."
+        }
+      ],
+      "terms": [
+        {
+          "term": "業務監査",
+          "english": "Business Audit",
+          "vi": "Kiểm toán nghiệp vụ",
+          "definitionJa": "企業や組織の業務プロセスや内部管理の適正性を評価する活動である。監査は、業務の効率性や効果を向上させるために行われ、遵守すべき法律や規則の適用状況を確認する役割も果たす。例えば、財務監査と連携して、資金の流れや内部統制が正確に機能しているかを検証することがある。また、業務監査の結果は、経営者に対して改善点やリスクを報告するため、企業戦略の策定や業務の最適化に寄与する重要な情報となる。これにより、企業は持続的な成長を促進できる。",
+          "definitionVi": "Hoạt động đánh giá tính phù hợp của quy trình nghiệp vụ và quản lý nội bộ, đồng thời xem xét hiệu quả, hiệu suất và việc tuân thủ pháp luật, quy định.",
+          "reading": "ぎょうむかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "business-audit"]
+    },
+    {
+      "id": "information-security-audit",
+      "order": 2,
+      "titleJa": "情報セキュリティ監査",
+      "titleVi": "Kiểm toán an toàn thông tin",
+      "importance": "high",
+      "summaryJa": "組織が保有する情報やシステムに対するセキュリティ対策の有効性を評価するプロセスである。",
+      "summaryVi": "Quá trình đánh giá hiệu quả của các biện pháp bảo mật đối với thông tin và hệ thống, kiểm tra chính sách, thủ tục, biện pháp kỹ thuật và việc quản lý rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ監査とは",
+          "vi": "Kiểm toán an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織が保有する情報やシステムに対するセキュリティ対策の有効性を評価するプロセスである。具体的には、情報資産が適切に保護されているか、リスクが適切に管理されているかを確認するために、既存のポリシーや手続き、技術的な対策を点検する。監査は、情報漏洩や不正アクセスを防ぐための重要な手段であり、定期的に実施されることで、組織のセキュリティ体制を強化する役割を果たす。例えば、外部の専門家による監査を通じて、潜在的な脆弱性を発見し、改善策を提案してもらうことが可能である。これにより、組織の信頼性や顧客の安心感を向上させることができる。",
+          "vi": "Quá trình đánh giá hiệu quả của các biện pháp bảo mật đối với thông tin và hệ thống, kiểm tra chính sách, thủ tục, biện pháp kỹ thuật và việc quản lý rủi ro. Ví dụ: Kiểm tra quyền truy cập, chính sách mật khẩu và biện pháp chống rò rỉ dữ liệu."
+        },
+        {
+          "type": "point",
+          "ja": "情報セキュリティ監査の目的と監査における役割を理解する。",
+          "vi": "Tập trung vào việc bảo vệ tài sản thông tin và hiệu quả kiểm soát bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ監査",
+          "english": "Information Security Audit",
+          "vi": "Kiểm toán an toàn thông tin",
+          "definitionJa": "組織が保有する情報やシステムに対するセキュリティ対策の有効性を評価するプロセスである。具体的には、情報資産が適切に保護されているか、リスクが適切に管理されているかを確認するために、既存のポリシーや手続き、技術的な対策を点検する。監査は、情報漏洩や不正アクセスを防ぐための重要な手段であり、定期的に実施されることで、組織のセキュリティ体制を強化する役割を果たす。例えば、外部の専門家による監査を通じて、潜在的な脆弱性を発見し、改善策を提案してもらうことが可能である。これにより、組織の信頼性や顧客の安心感を向上させることができる。",
+          "definitionVi": "Quá trình đánh giá hiệu quả của các biện pháp bảo mật đối với thông tin và hệ thống, kiểm tra chính sách, thủ tục, biện pháp kỹ thuật và việc quản lý rủi ro.",
+          "reading": "じょうほうせきゅりてぃかんさ"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "information-security-audit"
+      ]
+    },
+    {
+      "id": "system-audit",
+      "order": 3,
+      "titleJa": "システム監査",
+      "titleVi": "Kiểm toán hệ thống",
+      "importance": "high",
+      "summaryJa": "情報システムの運用状況やセキュリティ、業務効率を評価するプロセスである。",
+      "summaryVi": "Quá trình đánh giá tình trạng vận hành, an toàn thông tin và hiệu quả nghiệp vụ của hệ thống thông tin, đồng thời kiểm tra tính phù hợp với quy định và pháp luật.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査とは",
+          "vi": "Kiểm toán hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの運用状況やセキュリティ、業務効率を評価するプロセスである。主な目的は、システムが適切に機能しているか、規定や法律に準拠しているかを確認することである。例えば、企業が顧客情報を扱うシステムを持つ場合、そのシステムがデータを安全に保護しているか、使いやすいかを監査することで、リスクを減らし、効率の向上を図る。さらに、定期的なシステム監査を行うことで、技術の進化や業務の変化に対応した改善策を見つけることも可能であり、企業の信頼性の向上につながる。",
+          "vi": "Quá trình đánh giá tình trạng vận hành, an toàn thông tin và hiệu quả nghiệp vụ của hệ thống thông tin, đồng thời kiểm tra tính phù hợp với quy định và pháp luật. Ví dụ: Đánh giá hệ thống quản lý khách hàng có bảo vệ dữ liệu và vận hành đúng yêu cầu hay không."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査の目的と監査における役割を理解する。",
+          "vi": "Phạm vi rộng hơn kiểm toán an toàn thông tin: cả vận hành, hiệu quả và tuân thủ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査",
+          "english": "System Audit",
+          "vi": "Kiểm toán hệ thống",
+          "definitionJa": "情報システムの運用状況やセキュリティ、業務効率を評価するプロセスである。主な目的は、システムが適切に機能しているか、規定や法律に準拠しているかを確認することである。例えば、企業が顧客情報を扱うシステムを持つ場合、そのシステムがデータを安全に保護しているか、使いやすいかを監査することで、リスクを減らし、効率の向上を図る。さらに、定期的なシステム監査を行うことで、技術の進化や業務の変化に対応した改善策を見つけることも可能であり、企業の信頼性の向上につながる。",
+          "definitionVi": "Quá trình đánh giá tình trạng vận hành, an toàn thông tin và hiệu quả nghiệp vụ của hệ thống thông tin, đồng thời kiểm tra tính phù hợp với quy định và pháp luật.",
+          "reading": "しすてむかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "system-audit"]
+    },
+    {
+      "id": "accounting-audit",
+      "order": 4,
+      "titleJa": "会計監査",
+      "titleVi": "Kiểm toán kế toán",
+      "importance": "medium",
+      "summaryJa": "企業や組織の財務諸表が適正に表示されているかを確認するための一連の調査作業である。",
+      "summaryVi": "Hoạt động kiểm tra xem báo cáo tài chính có được trình bày phù hợp hay không thông qua việc xác minh sổ sách, giao dịch, tính hợp lệ và tuân thủ quy định.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "会計監査とは",
+          "vi": "Kiểm toán kế toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織の財務諸表が適正に表示されているかを確認するための一連の調査作業である。このプロセスでは、会計記録や取引の妥当性、法令遵守などがチェックされ、不正や誤りがないかが検証される。主に外部の監査人が行うことが多いが、内部監査として自社内で実施されることもある。会計監査の目的は、信頼性のある財務情報を関係者に提供し、透明性を確保することで、企業の信用や投資家の判断材料となることが重要である。これにより、経営者や投資者が適切な意思決定を行うための基盤が整えられる。",
+          "vi": "Hoạt động kiểm tra xem báo cáo tài chính có được trình bày phù hợp hay không thông qua việc xác minh sổ sách, giao dịch, tính hợp lệ và tuân thủ quy định. Ví dụ: Đối chiếu chứng từ với số liệu trên báo cáo tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "会計監査の目的と監査における役割を理解する。",
+          "vi": "Trọng tâm là độ tin cậy của thông tin tài chính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "会計監査",
+          "english": "Accounting Audit",
+          "vi": "Kiểm toán kế toán",
+          "definitionJa": "企業や組織の財務諸表が適正に表示されているかを確認するための一連の調査作業である。このプロセスでは、会計記録や取引の妥当性、法令遵守などがチェックされ、不正や誤りがないかが検証される。主に外部の監査人が行うことが多いが、内部監査として自社内で実施されることもある。会計監査の目的は、信頼性のある財務情報を関係者に提供し、透明性を確保することで、企業の信用や投資家の判断材料となることが重要である。これにより、経営者や投資者が適切な意思決定を行うための基盤が整えられる。",
+          "definitionVi": "Hoạt động kiểm tra xem báo cáo tài chính có được trình bày phù hợp hay không thông qua việc xác minh sổ sách, giao dịch, tính hợp lệ và tuân thủ quy định.",
+          "reading": "かいけいかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "accounting-audit"]
+    },
+    {
+      "id": "statutory-audit",
+      "order": 5,
+      "titleJa": "法定監査",
+      "titleVi": "Kiểm toán theo luật định",
+      "importance": "medium",
+      "summaryJa": "法令や規制に基づいて行われる監査のことを指すである。",
+      "summaryVi": "Cuộc kiểm toán được thực hiện theo yêu cầu của pháp luật hoặc quy định; thường nhằm kiểm tra tính phù hợp của báo cáo tài chính.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "法定監査とは",
+          "vi": "Kiểm toán theo luật định là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "法令や規制に基づいて行われる監査のことを指すである。この監査は、主に企業の財務諸表が適正に作成されているかを確認するために実施される。具体的には、外部の監査法人や専門家が企業の財務情報を検証し、経営の透明性を高める役割を果たす。株主や取引先などの利害関係者に対して、企業が正確な情報を提供していることの証明となり、信頼性を確保するために非常に重要である。また、国や地域によって監査の基準や範囲が異なるため、各国の法律に従った適切な手続きが求められる。",
+          "vi": "Cuộc kiểm toán được thực hiện theo yêu cầu của pháp luật hoặc quy định; thường nhằm kiểm tra tính phù hợp của báo cáo tài chính. Ví dụ: Doanh nghiệp thuộc diện bắt buộc phải được kiểm toán báo cáo tài chính."
+        },
+        {
+          "type": "point",
+          "ja": "法定監査の目的と監査における役割を理解する。",
+          "vi": "Tiêu chí phân loại là nghĩa vụ pháp lý, không phải người thực hiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "法定監査",
+          "english": "Statutory Audit",
+          "vi": "Kiểm toán theo luật định",
+          "definitionJa": "法令や規制に基づいて行われる監査のことを指すである。この監査は、主に企業の財務諸表が適正に作成されているかを確認するために実施される。具体的には、外部の監査法人や専門家が企業の財務情報を検証し、経営の透明性を高める役割を果たす。株主や取引先などの利害関係者に対して、企業が正確な情報を提供していることの証明となり、信頼性を確保するために非常に重要である。また、国や地域によって監査の基準や範囲が異なるため、各国の法律に従った適切な手続きが求められる。",
+          "definitionVi": "Cuộc kiểm toán được thực hiện theo yêu cầu của pháp luật hoặc quy định; thường nhằm kiểm tra tính phù hợp của báo cáo tài chính.",
+          "reading": "ほうていかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "statutory-audit"]
+    },
+    {
+      "id": "voluntary-audit",
+      "order": 6,
+      "titleJa": "任意監査",
+      "titleVi": "Kiểm toán tự nguyện",
+      "importance": "medium",
+      "summaryJa": "企業や組織が自らの判断で実施する監査のことである。",
+      "summaryVi": "Cuộc kiểm toán do tổ chức tự quyết định thực hiện, không xuất phát từ nghĩa vụ bắt buộc theo pháp luật, nhằm phát hiện rủi ro hoặc cải thiện hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "任意監査とは",
+          "vi": "Kiểm toán tự nguyện là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が自らの判断で実施する監査のことである。通常の監査は法律や規則に基づいて行われるが、任意監査は特定のリスクや問題点を明確にするために行われる。例えば、財務状況の確認や業務プロセスの改善を目的とする場合が多い。任意監査を実施することで、内部の管理体制を強化し、経営の意思決定に役立てることができる。また、外部からの信頼性向上にもつながり、ステークホルダーとの関係改善に寄与することが期待される。",
+          "vi": "Cuộc kiểm toán do tổ chức tự quyết định thực hiện, không xuất phát từ nghĩa vụ bắt buộc theo pháp luật, nhằm phát hiện rủi ro hoặc cải thiện hoạt động. Ví dụ: Doanh nghiệp chủ động thuê đơn vị kiểm toán để đánh giá quy trình nội bộ."
+        },
+        {
+          "type": "point",
+          "ja": "任意監査の目的と監査における役割を理解する。",
+          "vi": "Đối lập với 法定監査 về tính bắt buộc."
+        }
+      ],
+      "terms": [
+        {
+          "term": "任意監査",
+          "english": "Discretionary Audit",
+          "vi": "Kiểm toán tự nguyện",
+          "definitionJa": "企業や組織が自らの判断で実施する監査のことである。通常の監査は法律や規則に基づいて行われるが、任意監査は特定のリスクや問題点を明確にするために行われる。例えば、財務状況の確認や業務プロセスの改善を目的とする場合が多い。任意監査を実施することで、内部の管理体制を強化し、経営の意思決定に役立てることができる。また、外部からの信頼性向上にもつながり、ステークホルダーとの関係改善に寄与することが期待される。",
+          "definitionVi": "Cuộc kiểm toán do tổ chức tự quyết định thực hiện, không xuất phát từ nghĩa vụ bắt buộc theo pháp luật, nhằm phát hiện rủi ro hoặc cải thiện hoạt động.",
+          "reading": "にんいかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "voluntary-audit"]
+    },
+    {
+      "id": "internal-audit",
+      "order": 7,
+      "titleJa": "内部監査",
+      "titleVi": "Kiểm toán nội bộ",
+      "importance": "high",
+      "summaryJa": "企業や組織内で実施される監査のことを指す。",
+      "summaryVi": "Hoạt động kiểm toán do bộ phận hoặc nhân sự có tính độc lập trong tổ chức thực hiện nhằm đánh giá quản trị, quản lý rủi ro, tuân thủ và hiệu quả nghiệp vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部監査とは",
+          "vi": "Kiểm toán nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織内で実施される監査のことを指す。これは、組織の内部プロセスや運営状況を評価し、規制や業務の効率性を確保することを目的とする。独立した部門や専門の担当者が行い、しばしば財務報告やリスク管理、業務プロセスの改善に焦点を当てる。例えば、企業が新たなシステムを導入する際に、そのシステムが適切に機能しているかどうかを確認することが内部監査の一例である。この監査により、問題点を早期に発見し、改善策を講じることで組織全体の信頼性や効率性を高めることが期待されている。",
+          "vi": "Hoạt động kiểm toán do bộ phận hoặc nhân sự có tính độc lập trong tổ chức thực hiện nhằm đánh giá quản trị, quản lý rủi ro, tuân thủ và hiệu quả nghiệp vụ. Ví dụ: Bộ phận kiểm toán nội bộ đánh giá kiểm soát của hệ thống mới."
+        },
+        {
+          "type": "point",
+          "ja": "内部監査の目的と監査における役割を理解する。",
+          "vi": "Được thực hiện trong tổ chức nhưng vẫn cần độc lập với hoạt động được kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部監査",
+          "english": "Internal Audit",
+          "vi": "Kiểm toán nội bộ",
+          "definitionJa": "企業や組織内で実施される監査のことを指す。これは、組織の内部プロセスや運営状況を評価し、規制や業務の効率性を確保することを目的とする。独立した部門や専門の担当者が行い、しばしば財務報告やリスク管理、業務プロセスの改善に焦点を当てる。例えば、企業が新たなシステムを導入する際に、そのシステムが適切に機能しているかどうかを確認することが内部監査の一例である。この監査により、問題点を早期に発見し、改善策を講じることで組織全体の信頼性や効率性を高めることが期待されている。",
+          "definitionVi": "Hoạt động kiểm toán do bộ phận hoặc nhân sự có tính độc lập trong tổ chức thực hiện nhằm đánh giá quản trị, quản lý rủi ro, tuân thủ và hiệu quả nghiệp vụ.",
+          "reading": "ないぶかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "internal-audit"]
+    },
+    {
+      "id": "external-audit",
+      "order": 8,
+      "titleJa": "外部監査",
+      "titleVi": "Kiểm toán bên ngoài",
+      "importance": "high",
+      "summaryJa": "企業の財務情報や業務プロセスに対する独立した第三者による評価を指す。",
+      "summaryVi": "Hoạt động đánh giá do bên thứ ba độc lập ngoài tổ chức thực hiện, thường kiểm tra báo cáo tài chính, quy trình và kiểm soát nội bộ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "外部監査とは",
+          "vi": "Kiểm toán bên ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の財務情報や業務プロセスに対する独立した第三者による評価を指す。一般的に、外部の会計士や監査法人が実施し、企業の財務状況や内部統制が適切であるかを確認する役割を果たす。例えば、企業が決算書を作成した際、その内容が正確であるかどうかを判断するために外部監査が行われる。外部監査の結果は、株主や投資家へ企業の信頼性を示す重要なものであり、法規制や企業の透明性を確保するためにも必要である。そのため、外部監査は経営者にとって信用を高める手段とも言える。",
+          "vi": "Hoạt động đánh giá do bên thứ ba độc lập ngoài tổ chức thực hiện, thường kiểm tra báo cáo tài chính, quy trình và kiểm soát nội bộ. Ví dụ: Công ty kiểm toán độc lập kiểm tra báo cáo tài chính của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "外部監査の目的と監査における役割を理解する。",
+          "vi": "Phân biệt với 内部監査 theo vị trí của chủ thể kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "外部監査",
+          "english": "External Audit",
+          "vi": "Kiểm toán bên ngoài",
+          "definitionJa": "企業の財務情報や業務プロセスに対する独立した第三者による評価を指す。一般的に、外部の会計士や監査法人が実施し、企業の財務状況や内部統制が適切であるかを確認する役割を果たす。例えば、企業が決算書を作成した際、その内容が正確であるかどうかを判断するために外部監査が行われる。外部監査の結果は、株主や投資家へ企業の信頼性を示す重要なものであり、法規制や企業の透明性を確保するためにも必要である。そのため、外部監査は経営者にとって信用を高める手段とも言える。",
+          "definitionVi": "Hoạt động đánh giá do bên thứ ba độc lập ngoài tổ chức thực hiện, thường kiểm tra báo cáo tài chính, quy trình và kiểm soát nội bộ.",
+          "reading": "がいぶかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "external-audit"]
+    },
+    {
+      "id": "auditor-authority-responsibility",
+      "order": 9,
+      "titleJa": "システム監査人の権限と責任",
+      "titleVi": "Quyền hạn và trách nhiệm của kiểm toán viên hệ thống",
+      "importance": "medium",
+      "summaryJa": "システム監査人が情報システムやその運用について評価する際に持つ権限と、果たすべき責任のことを指す。",
+      "summaryVi": "Các quyền cần thiết để kiểm tra tài liệu, phỏng vấn người liên quan và đánh giá hệ thống, cùng trách nhiệm báo cáo kết quả và đề xuất cải tiến.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査人の権限と責任とは",
+          "vi": "Quyền hạn và trách nhiệm của kiểm toán viên hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査人が情報システムやその運用について評価する際に持つ権限と、果たすべき責任のことを指す。システム監査人は、企業内の情報資産の保護や運用の適正を確認するため、関連する資料の検査や関係者への質問を行う権利がある。また、監査の結果を報告し、改善点を提案する責任も負っている。このような業務を通じて、企業の情報システムが正しく効率的に運用されているかを評価し、リスクの軽減に貢献する役割を果たしている。システム監査人の活動は、企業の内部統制やコンプライアンス遵守において重要である。",
+          "vi": "Các quyền cần thiết để kiểm tra tài liệu, phỏng vấn người liên quan và đánh giá hệ thống, cùng trách nhiệm báo cáo kết quả và đề xuất cải tiến. Ví dụ: Kiểm toán viên yêu cầu nhật ký truy cập và báo cáo điểm yếu phát hiện được."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査人の権限と責任の目的と監査における役割を理解する。",
+          "vi": "Quyền thu thập thông tin đi kèm trách nhiệm đánh giá và báo cáo khách quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査人の権限と責任",
+          "english": "System Auditor's Authority and Responsibility",
+          "vi": "Quyền hạn và trách nhiệm của kiểm toán viên hệ thống",
+          "definitionJa": "システム監査人が情報システムやその運用について評価する際に持つ権限と、果たすべき責任のことを指す。システム監査人は、企業内の情報資産の保護や運用の適正を確認するため、関連する資料の検査や関係者への質問を行う権利がある。また、監査の結果を報告し、改善点を提案する責任も負っている。このような業務を通じて、企業の情報システムが正しく効率的に運用されているかを評価し、リスクの軽減に貢献する役割を果たしている。システム監査人の活動は、企業の内部統制やコンプライアンス遵守において重要である。",
+          "definitionVi": "Các quyền cần thiết để kiểm tra tài liệu, phỏng vấn người liên quan và đánh giá hệ thống, cùng trách nhiệm báo cáo kết quả và đề xuất cải tiến.",
+          "reading": "しすてむかんざにんのけんげんとせきにん"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "auditor-authority-responsibility"
+      ]
+    },
+    {
+      "id": "auditor-ethics",
+      "order": 10,
+      "titleJa": "監査人の倫理",
+      "titleVi": "Đạo đức nghề nghiệp của kiểm toán viên",
+      "importance": "high",
+      "summaryJa": "システム監査において監査人が遵守すべき価値観や行動基準を指す言葉である。",
+      "summaryVi": "Các giá trị và chuẩn mực hành vi mà kiểm toán viên phải tuân thủ để làm việc công bằng, trung thực, bảo mật thông tin và tránh xung đột lợi ích.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査人の倫理とは",
+          "vi": "Đạo đức nghề nghiệp của kiểm toán viên là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において監査人が遵守すべき価値観や行動基準を指す言葉である。監査人は、企業や組織の情報システムの妥当性や信頼性を評価する役割を担っており、その業務を公正かつ誠実に行うことが求められる。この倫理基準には、守秘義務、利益相反の回避、及び透明性が含まれ、監査の信頼性を保つために重要である。また、監査人が倫理を守ることで、関係者からの信頼を得ることができ、効果的な監査業務を実現することが可能となる。倫理的な行動が基盤にあることで、システム監査は組織の健全な運営に寄与する。",
+          "vi": "Các giá trị và chuẩn mực hành vi mà kiểm toán viên phải tuân thủ để làm việc công bằng, trung thực, bảo mật thông tin và tránh xung đột lợi ích. Ví dụ: Không tiết lộ dữ liệu khách hàng biết được trong quá trình kiểm toán."
+        },
+        {
+          "type": "point",
+          "ja": "監査人の倫理の目的と監査における役割を理解する。",
+          "vi": "Trọng tâm là tính trung thực, công bằng, bảo mật và tránh xung đột lợi ích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査人の倫理",
+          "english": "Ethics of Auditors",
+          "vi": "Đạo đức nghề nghiệp của kiểm toán viên",
+          "definitionJa": "システム監査において監査人が遵守すべき価値観や行動基準を指す言葉である。監査人は、企業や組織の情報システムの妥当性や信頼性を評価する役割を担っており、その業務を公正かつ誠実に行うことが求められる。この倫理基準には、守秘義務、利益相反の回避、及び透明性が含まれ、監査の信頼性を保つために重要である。また、監査人が倫理を守ることで、関係者からの信頼を得ることができ、効果的な監査業務を実現することが可能となる。倫理的な行動が基盤にあることで、システム監査は組織の健全な運営に寄与する。",
+          "definitionVi": "Các giá trị và chuẩn mực hành vi mà kiểm toán viên phải tuân thủ để làm việc công bằng, trung thực, bảo mật thông tin và tránh xung đột lợi ích.",
+          "reading": "かんさにんのりんり"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "auditor-ethics"]
+    },
+    {
+      "id": "integrity-source-ambiguity",
+      "order": 11,
+      "titleJa": "誠実性",
+      "titleVi": "Tính toàn vẹn",
+      "importance": "high",
+      "summaryJa": "データや情報が正確で完全であることを保証する特性を指す言葉である。",
+      "summaryVi": "Theo đoạn giải thích trong nguồn, đây là đặc tính bảo đảm dữ liệu chính xác, đầy đủ và được bảo vệ khỏi thay đổi trái phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "誠実性とは",
+          "vi": "Tính toàn vẹn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "データや情報が正確で完全であることを保証する特性を指す言葉である。システム監査においては、情報が未承認の変更から保護されているか、または不正なアクセスから守られているかを評価するために重要な要素となる。例えば、金融システムにおいては、取引データの誠実性が損なわれると、計算結果が不正確になり、最終的には経営判断に影響を与える可能性がある。そのため、アクセス制御やデータのバックアップ、変更管理のプロセスを整備することで、誠実性を確保することが求められる。これは、信頼性の高いシステム運用を維持するために必須である。",
+          "vi": "Theo đoạn giải thích trong nguồn, đây là đặc tính bảo đảm dữ liệu chính xác, đầy đủ và được bảo vệ khỏi thay đổi trái phép. Ví dụ: Kiểm tra quyền sửa dữ liệu giao dịch để tránh bị thay đổi trái phép."
+        },
+        {
+          "type": "point",
+          "ja": "注意：見出しの「誠実性」は監査人の倫理上の誠実さを表すが、原文の説明はデータの「完全性（Integrity）」に相当する。",
+          "vi": "Lưu ý: tiêu đề 誠実性 thường mang nghĩa sự trung thực/liêm chính của kiểm toán viên; nội dung nguồn lại mô tả tính toàn vẹn dữ liệu (完全性). Cần phân biệt hai khái niệm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "誠実性",
+          "english": "Integrity",
+          "vi": "Tính toàn vẹn",
+          "definitionJa": "データや情報が正確で完全であることを保証する特性を指す言葉である。システム監査においては、情報が未承認の変更から保護されているか、または不正なアクセスから守られているかを評価するために重要な要素となる。例えば、金融システムにおいては、取引データの誠実性が損なわれると、計算結果が不正確になり、最終的には経営判断に影響を与える可能性がある。そのため、アクセス制御やデータのバックアップ、変更管理のプロセスを整備することで、誠実性を確保することが求められる。これは、信頼性の高いシステム運用を維持するために必須である。",
+          "definitionVi": "Theo đoạn giải thích trong nguồn, đây là đặc tính bảo đảm dữ liệu chính xác, đầy đủ và được bảo vệ khỏi thay đổi trái phép.",
+          "reading": "せいじつせい"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "integrity-source-ambiguity"
+      ]
+    },
+    {
+      "id": "professional-competence",
+      "order": 12,
+      "titleJa": "専門的能力の保持と向上",
+      "titleVi": "Duy trì và nâng cao năng lực chuyên môn",
+      "importance": "medium",
+      "summaryJa": "システム監査において、監査業務を適切に実施するために必要な知識や技術を継続的に維持し、さらに向上させることを指す。",
+      "summaryVi": "Việc liên tục duy trì và nâng cao kiến thức, kỹ năng cần thiết để thực hiện kiểm toán, bao gồm cập nhật công nghệ, quy định và phương pháp mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "専門的能力の保持と向上とは",
+          "vi": "Duy trì và nâng cao năng lực chuyên môn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において、監査業務を適切に実施するために必要な知識や技術を継続的に維持し、さらに向上させることを指す。この能力の維持と向上は、監査人が最新の技術や規制に精通し、品質の高い監査を提供するために不可欠である。具体的には、定期的な教育研修や資格取得、業界の動向に関する情報収集などが含まれる。これにより、監査業務の信頼性が確保され、企業のガバナンスやリスク管理に対する評価が一層強化される。",
+          "vi": "Việc liên tục duy trì và nâng cao kiến thức, kỹ năng cần thiết để thực hiện kiểm toán, bao gồm cập nhật công nghệ, quy định và phương pháp mới. Ví dụ: Kiểm toán viên tham gia đào tạo định kỳ về bảo mật và quy định mới."
+        },
+        {
+          "type": "point",
+          "ja": "専門的能力の保持と向上の目的と監査における役割を理解する。",
+          "vi": "Năng lực chuyên môn phải được cập nhật liên tục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "専門的能力の保持と向上",
+          "english": "Maintenance and Improvement of Professional Competence",
+          "vi": "Duy trì và nâng cao năng lực chuyên môn",
+          "definitionJa": "システム監査において、監査業務を適切に実施するために必要な知識や技術を継続的に維持し、さらに向上させることを指す。この能力の維持と向上は、監査人が最新の技術や規制に精通し、品質の高い監査を提供するために不可欠である。具体的には、定期的な教育研修や資格取得、業界の動向に関する情報収集などが含まれる。これにより、監査業務の信頼性が確保され、企業のガバナンスやリスク管理に対する評価が一層強化される。",
+          "definitionVi": "Việc liên tục duy trì và nâng cao kiến thức, kỹ năng cần thiết để thực hiện kiểm toán, bao gồm cập nhật công nghệ, quy định và phương pháp mới.",
+          "reading": "せんもんてきのうりょくのほじとこうじょう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "professional-competence"]
+    },
+    {
+      "id": "due-care-confidentiality",
+      "order": 13,
+      "titleJa": "正当な注意と秘密の保持",
+      "titleVi": "Sự thận trọng thích đáng và giữ bí mật",
+      "importance": "medium",
+      "summaryJa": "システム監査において重要な概念である。",
+      "summaryVi": "Yêu cầu kiểm toán viên thận trọng, đánh giá đầy đủ rủi ro trong quá trình làm việc và không tiết lộ thông tin nhạy cảm thu được khi kiểm toán.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "正当な注意と秘密の保持とは",
+          "vi": "Sự thận trọng thích đáng và giữ bí mật là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において重要な概念である。正当な注意は、監査を実施する際に、企業やシステムの状態を適切に評価したり、リスクを見極めたりするための慎重さを指す。例えば、新しいシステムを導入する際には、そのシステムの影響を事前に調査し、必要な対策を講じることが求められる。一方、秘密の保持は、監査過程で得られた敏感な情報を外部に漏らさないことを意味し、情報の保護と信頼性を維持するために欠かせない。これら二つの要素は、システム監査が正確かつ信頼のおけるものであるために必須であり、適切に実施されなければ、企業の評価や競争力に悪影響を及ぼす可能性がある。",
+          "vi": "Yêu cầu kiểm toán viên thận trọng, đánh giá đầy đủ rủi ro trong quá trình làm việc và không tiết lộ thông tin nhạy cảm thu được khi kiểm toán. Ví dụ: Xác minh chứng cứ cẩn thận và bảo mật hồ sơ kiểm toán."
+        },
+        {
+          "type": "point",
+          "ja": "正当な注意と秘密の保持の目的と監査における役割を理解する。",
+          "vi": "Gồm hai nghĩa vụ riêng: thận trọng nghề nghiệp và bảo mật thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "正当な注意と秘密の保持",
+          "english": "Due Diligence and Confidentiality",
+          "vi": "Sự thận trọng thích đáng và giữ bí mật",
+          "definitionJa": "システム監査において重要な概念である。正当な注意は、監査を実施する際に、企業やシステムの状態を適切に評価したり、リスクを見極めたりするための慎重さを指す。例えば、新しいシステムを導入する際には、そのシステムの影響を事前に調査し、必要な対策を講じることが求められる。一方、秘密の保持は、監査過程で得られた敏感な情報を外部に漏らさないことを意味し、情報の保護と信頼性を維持するために欠かせない。これら二つの要素は、システム監査が正確かつ信頼のおけるものであるために必須であり、適切に実施されなければ、企業の評価や競争力に悪影響を及ぼす可能性がある。",
+          "definitionVi": "Yêu cầu kiểm toán viên thận trọng, đánh giá đầy đủ rủi ro trong quá trình làm việc và không tiết lộ thông tin nhạy cảm thu được khi kiểm toán.",
+          "reading": "せいとうなちゅういとひみつのほじ"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "due-care-confidentiality"
+      ]
+    },
+    {
+      "id": "audit-needs-quality",
+      "order": 14,
+      "titleJa": "システム監査に対するニーズの把握と品質の確保",
+      "titleVi": "Xác định nhu cầu kiểm toán hệ thống và bảo đảm chất lượng",
+      "importance": "medium",
+      "summaryJa": "システム監査を行う際に、必要な要件や品質基準を明確にするプロセスである。",
+      "summaryVi": "Quá trình làm rõ nhu cầu, yêu cầu và tiêu chuẩn chất lượng của cuộc kiểm toán để lựa chọn phạm vi, kế hoạch, phương pháp và bảo đảm kết quả đáng tin cậy.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査に対するニーズの把握と品質の確保とは",
+          "vi": "Xác định nhu cầu kiểm toán hệ thống và bảo đảm chất lượng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査を行う際に、必要な要件や品質基準を明確にするプロセスである。これは、システムが効果的かつ効率的に運用されることを保証し、その目的に対する適切な成果を出すために重要である。具体的には、監査対象のシステムやその利用者のニーズを理解することで、監査計画や方法論を決定し、必要な改善点を洗い出すことができる。また、品質の確保は、監査結果の信頼性や妥当性を高めるために不可欠で、標準的な手法や評価基準に基づいて監査を実施することで、システムの不具合やリスクを早期に発見することが可能となる。これにより、組織全体の情報セキュリティや業務継続性を向上させることができる。",
+          "vi": "Quá trình làm rõ nhu cầu, yêu cầu và tiêu chuẩn chất lượng của cuộc kiểm toán để lựa chọn phạm vi, kế hoạch, phương pháp và bảo đảm kết quả đáng tin cậy. Ví dụ: Xác định hệ thống trọng yếu cần kiểm toán và tiêu chí đánh giá trước khi bắt đầu."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査に対するニーズの把握と品質の確保の目的と監査における役割を理解する。",
+          "vi": "Hiểu nhu cầu kiểm toán trước, sau đó kiểm soát chất lượng thực hiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査に対するニーズの把握と品質の確保",
+          "english": "Needs Assessment and Quality Assurance for System Auditing",
+          "vi": "Xác định nhu cầu kiểm toán hệ thống và bảo đảm chất lượng",
+          "definitionJa": "システム監査を行う際に、必要な要件や品質基準を明確にするプロセスである。これは、システムが効果的かつ効率的に運用されることを保証し、その目的に対する適切な成果を出すために重要である。具体的には、監査対象のシステムやその利用者のニーズを理解することで、監査計画や方法論を決定し、必要な改善点を洗い出すことができる。また、品質の確保は、監査結果の信頼性や妥当性を高めるために不可欠で、標準的な手法や評価基準に基づいて監査を実施することで、システムの不具合やリスクを早期に発見することが可能となる。これにより、組織全体の情報セキュリティや業務継続性を向上させることができる。",
+          "definitionVi": "Quá trình làm rõ nhu cầu, yêu cầu và tiêu chuẩn chất lượng của cuộc kiểm toán để lựa chọn phạm vi, kế hoạch, phương pháp và bảo đảm kết quả đáng tin cậy.",
+          "reading": "しすてむかんさにたいするにーずのはあくとひんしつのかくほ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-needs-quality"]
+    },
+    {
+      "id": "independence-objectivity",
+      "order": 15,
+      "titleJa": "監査の独立性と客観性の保持",
+      "titleVi": "Duy trì tính độc lập và khách quan của kiểm toán",
+      "importance": "high",
+      "summaryJa": "監査が信頼性を持つために必要な原則である。",
+      "summaryVi": "Nguyên tắc yêu cầu kiểm toán viên tránh quan hệ lợi ích và thành kiến có thể ảnh hưởng đến phán đoán, để đưa ra đánh giá dựa trên chứng cứ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査の独立性と客観性の保持とは",
+          "vi": "Duy trì tính độc lập và khách quan của kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "監査が信頼性を持つために必要な原則である。監査を行う際、監査人は自らの判断に影響を及ぼす可能性のある利害関係や偏見から完全に独立していることが求められる。例えば、企業の財務状態を監査する場合、監査人がその企業と密接な関係を持っていると、結果が誤ってしまう恐れがある。したがって、監査人は客観的な視点を保ち、透明性のある評価を行うことが必要である。この保持により、ユーザーは監査報告書に対して信頼を置くことができ、企業のガバナンスを強化することにも寄与する。客観的な監査は、適切なリスク管理やコンプライアンスの遵守を確認するための基本でもある。",
+          "vi": "Nguyên tắc yêu cầu kiểm toán viên tránh quan hệ lợi ích và thành kiến có thể ảnh hưởng đến phán đoán, để đưa ra đánh giá dựa trên chứng cứ. Ví dụ: Không để người trực tiếp vận hành hệ thống tự kiểm toán công việc của mình."
+        },
+        {
+          "type": "point",
+          "ja": "監査の独立性と客観性の保持の目的と監査における役割を理解する。",
+          "vi": "Độc lập là vị thế không bị chi phối; khách quan là đánh giá không thiên vị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査の独立性と客観性の保持",
+          "english": "Maintaining Auditor Independence and Objectivity",
+          "vi": "Duy trì tính độc lập và khách quan của kiểm toán",
+          "definitionJa": "監査が信頼性を持つために必要な原則である。監査を行う際、監査人は自らの判断に影響を及ぼす可能性のある利害関係や偏見から完全に独立していることが求められる。例えば、企業の財務状態を監査する場合、監査人がその企業と密接な関係を持っていると、結果が誤ってしまう恐れがある。したがって、監査人は客観的な視点を保ち、透明性のある評価を行うことが必要である。この保持により、ユーザーは監査報告書に対して信頼を置くことができ、企業のガバナンスを強化することにも寄与する。客観的な監査は、適切なリスク管理やコンプライアンスの遵守を確認するための基本でもある。",
+          "definitionVi": "Nguyên tắc yêu cầu kiểm toán viên tránh quan hệ lợi ích và thành kiến có thể ảnh hưởng đến phán đoán, để đưa ra đánh giá dựa trên chứng cứ.",
+          "reading": "かんさのどくりつせいときゃっかんせいのほじ"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "independence-objectivity"
+      ]
+    },
+    {
+      "id": "audit-criteria",
+      "order": 16,
+      "titleJa": "システム監査上の判断尺度",
+      "titleVi": "Tiêu chí đánh giá trong kiểm toán hệ thống",
+      "importance": "medium",
+      "summaryJa": "監査を行う際に用いる評価基準のことを指す。",
+      "summaryVi": "Các tiêu chuẩn và thước đo dùng để xác định hệ thống và cơ chế quản lý có phù hợp hay cần cải tiến, xét đến an toàn, độ tin cậy và hiệu quả.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査上の判断尺度とは",
+          "vi": "Tiêu chí đánh giá trong kiểm toán hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "監査を行う際に用いる評価基準のことを指す。この尺度は、システムの運用状況や管理体制が適切であるか、または改善が必要かを判断するために必要である。具体的には、監査人はシステムの信頼性や安全性、効率性などを多角的に評価し、その結果をもとに報告書を作成する。例えば、情報セキュリティに関する基準を満たしているか、ユーザーのニーズに応じた機能が提供されているかなどが考慮される。このように、判断尺度は監査結果が信頼性高く、公正であることを保証するために重要な役割を果たす。",
+          "vi": "Các tiêu chuẩn và thước đo dùng để xác định hệ thống và cơ chế quản lý có phù hợp hay cần cải tiến, xét đến an toàn, độ tin cậy và hiệu quả. Ví dụ: So sánh việc phân quyền thực tế với chính sách bảo mật đã quy định."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査上の判断尺度の目的と監査における役割を理解する。",
+          "vi": "Phải xác định tiêu chí trước khi kết luận đạt hay không đạt."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査上の判断尺度",
+          "english": "Judgment Criteria for System Auditing",
+          "vi": "Tiêu chí đánh giá trong kiểm toán hệ thống",
+          "definitionJa": "監査を行う際に用いる評価基準のことを指す。この尺度は、システムの運用状況や管理体制が適切であるか、または改善が必要かを判断するために必要である。具体的には、監査人はシステムの信頼性や安全性、効率性などを多角的に評価し、その結果をもとに報告書を作成する。例えば、情報セキュリティに関する基準を満たしているか、ユーザーのニーズに応じた機能が提供されているかなどが考慮される。このように、判断尺度は監査結果が信頼性高く、公正であることを保証するために重要な役割を果たす。",
+          "definitionVi": "Các tiêu chuẩn và thước đo dùng để xác định hệ thống và cơ chế quản lý có phù hợp hay cần cải tiến, xét đến an toàn, độ tin cậy và hiệu quả.",
+          "reading": "しすてむかんさじょうのはんだんしゃくど"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-criteria"]
+    },
+    {
+      "id": "information-system-utilization",
+      "order": 17,
+      "titleJa": "情報システムの利活用に係る検証・評価",
+      "titleVi": "Kiểm chứng và đánh giá việc khai thác, sử dụng hệ thống thông tin",
+      "importance": "medium",
+      "summaryJa": "企業や組織が導入した情報システムが、目的に対して効果的に機能しているかを確認するプロセスである。",
+      "summaryVi": "Hoạt động xác minh hệ thống thông tin có được sử dụng hiệu quả, đạt mục tiêu đầu tư và góp phần cải thiện nghiệp vụ hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報システムの利活用に係る検証・評価とは",
+          "vi": "Kiểm chứng và đánh giá việc khai thác, sử dụng hệ thống thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が導入した情報システムが、目的に対して効果的に機能しているかを確認するプロセスである。これには、システムの運用状況や成果を詳細に分析し、使用効率や業務改善への貢献度を評価することが含まれる。例えば、業務プロセスの改善を目的として新しいシステムを導入した場合、その後の業務の効率化やコスト削減といった成果を検証し、必要な改良点を特定することが求められる。このような評価によって、情報システムの価値を最大化し、投資の効果を高めることが可能になる。また、システム監査の一環としても行われ、情報セキュリティやコンプライアンスの観点からも重要な役割を果たしている。",
+          "vi": "Hoạt động xác minh hệ thống thông tin có được sử dụng hiệu quả, đạt mục tiêu đầu tư và góp phần cải thiện nghiệp vụ hay không. Ví dụ: Đánh giá hệ thống mới có thật sự giảm thời gian xử lý đơn hàng."
+        },
+        {
+          "type": "point",
+          "ja": "情報システムの利活用に係る検証・評価の目的と監査における役割を理解する。",
+          "vi": "Không chỉ kiểm tra hệ thống hoạt động mà còn kiểm tra giá trị mang lại."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報システムの利活用に係る検証・評価",
+          "english": "Verification and Evaluation of Information System Utilization",
+          "vi": "Kiểm chứng và đánh giá việc khai thác, sử dụng hệ thống thông tin",
+          "definitionJa": "企業や組織が導入した情報システムが、目的に対して効果的に機能しているかを確認するプロセスである。これには、システムの運用状況や成果を詳細に分析し、使用効率や業務改善への貢献度を評価することが含まれる。例えば、業務プロセスの改善を目的として新しいシステムを導入した場合、その後の業務の効率化やコスト削減といった成果を検証し、必要な改良点を特定することが求められる。このような評価によって、情報システムの価値を最大化し、投資の効果を高めることが可能になる。また、システム監査の一環としても行われ、情報セキュリティやコンプライアンスの観点からも重要な役割を果たしている。",
+          "definitionVi": "Hoạt động xác minh hệ thống thông tin có được sử dụng hiệu quả, đạt mục tiêu đầu tư và góp phần cải thiện nghiệp vụ hay không.",
+          "reading": "じょうほうしすてむのりかつようにかかるけんしょう・ひょうか"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "information-system-utilization"
+      ]
+    },
+    {
+      "id": "risk-based-approach",
+      "order": 18,
+      "titleJa": "リスクアプローチ",
+      "titleVi": "Phương pháp tiếp cận dựa trên rủi ro",
+      "importance": "high",
+      "summaryJa": "システム監査においてリスクの評価に基づいて監査計画を策定する手法である。",
+      "summaryVi": "Cách lập kế hoạch kiểm toán dựa vào nhận diện và đánh giá mức độ rủi ro, ưu tiên nguồn lực cho hệ thống hoặc quy trình có rủi ro cao.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リスクアプローチとは",
+          "vi": "Phương pháp tiếp cận dựa trên rủi ro là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査においてリスクの評価に基づいて監査計画を策定する手法である。この方法では、組織が抱えるリスクを特定し、その重要度や影響を評価することで、監査の焦点を絞る。例えば、高いリスクが存在するシステムやプロセスに対して優先的に監査を実施し、リスク低減に繋がる情報を提供する。これにより、効率的で効果的な監査が可能となり、資源の最適配分が実現できる。定量的なデータや専門的な知識を駆使し、監査の質を向上させるために重要な手法である。",
+          "vi": "Cách lập kế hoạch kiểm toán dựa vào nhận diện và đánh giá mức độ rủi ro, ưu tiên nguồn lực cho hệ thống hoặc quy trình có rủi ro cao. Ví dụ: Ưu tiên kiểm toán hệ thống thanh toán trước hệ thống thông báo nội bộ."
+        },
+        {
+          "type": "point",
+          "ja": "リスクアプローチの目的と監査における役割を理解する。",
+          "vi": "Rủi ro càng cao thì mức ưu tiên kiểm toán thường càng lớn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスクアプローチ",
+          "english": "Risk-Based Approach",
+          "vi": "Phương pháp tiếp cận dựa trên rủi ro",
+          "definitionJa": "システム監査においてリスクの評価に基づいて監査計画を策定する手法である。この方法では、組織が抱えるリスクを特定し、その重要度や影響を評価することで、監査の焦点を絞る。例えば、高いリスクが存在するシステムやプロセスに対して優先的に監査を実施し、リスク低減に繋がる情報を提供する。これにより、効率的で効果的な監査が可能となり、資源の最適配分が実現できる。定量的なデータや専門的な知識を駆使し、監査の質を向上させるために重要な手法である。",
+          "definitionVi": "Cách lập kế hoạch kiểm toán dựa vào nhận diện và đánh giá mức độ rủi ro, ưu tiên nguồn lực cho hệ thống hoặc quy trình có rủi ro cao.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "risk-based-approach"]
+    },
+    {
+      "id": "audit-evidence-collection",
+      "order": 19,
+      "titleJa": "監査証拠の入手と評価",
+      "titleVi": "Thu thập và đánh giá bằng chứng kiểm toán",
+      "importance": "high",
+      "summaryJa": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。",
+      "summaryVi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査証拠の入手と評価とは",
+          "vi": "Thu thập và đánh giá bằng chứng kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。監査証拠は、システムの安全性や効果性を確認するための根拠であり、収集された証拠は監査結果を支える重要な要素となる。例えば、ログファイルや取引記録、ユーザーインタビューの結果などが監査証拠として利用される。これらの証拠は、適切な方法で収集され、評価される必要があり、その信頼性を高めるために、証拠の出所や収集方法を明確にすることが求められる。監査証拠の質によって、監査結果の妥当性が左右されるため、正確な入手と評価が不可欠である。",
+          "vi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng. Ví dụ: Kiểm tra nhật ký hệ thống, chứng từ giao dịch và biên bản phỏng vấn."
+        },
+        {
+          "type": "point",
+          "ja": "監査証拠の入手と評価の目的と監査における役割を理解する。",
+          "vi": "Bằng chứng cần đủ và đáng tin cậy để hỗ trợ kết luận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査証拠の入手と評価",
+          "english": "Acquisition and Evaluation of Audit Evidence",
+          "vi": "Thu thập và đánh giá bằng chứng kiểm toán",
+          "definitionJa": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。監査証拠は、システムの安全性や効果性を確認するための根拠であり、収集された証拠は監査結果を支える重要な要素となる。例えば、ログファイルや取引記録、ユーザーインタビューの結果などが監査証拠として利用される。これらの証拠は、適切な方法で収集され、評価される必要があり、その信頼性を高めるために、証拠の出所や収集方法を明確にすることが求められる。監査証拠の質によって、監査結果の妥当性が左右されるため、正確な入手と評価が不可欠である。",
+          "definitionVi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng.",
+          "reading": "かんさしょうこのにゅうしゅとひょうか"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "audit-evidence-collection"
+      ]
+    },
+    {
+      "id": "audit-working-papers",
+      "order": 20,
+      "titleJa": "監査調書の作成と保管",
+      "titleVi": "Lập và lưu trữ hồ sơ làm việc kiểm toán",
+      "importance": "high",
+      "summaryJa": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。",
+      "summaryVi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査調書の作成と保管とは",
+          "vi": "Lập và lưu trữ hồ sơ làm việc kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。このプロセスは、監査の透明性や信頼性を高めるために重要である。具体的には、監査員は監査の目的、範囲、手続き、結果を詳細に記録し、それらの情報を整理して文書にまとめる。さらに、この監査調書は、関係者間での情報共有や、将来の監査の参考資料として役立つため、適切な場所に保管される必要がある。保管方法には、電子的なデータベースや物理的なファイルシステムがあるが、いずれも情報の機密性を保つための措置が求められる。正確な記録と適切な保管は、監査の信頼性を高め、組織のリスク管理にも寄与する。",
+          "vi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng. Ví dụ: Lưu bảng kiểm tra, log và ghi chú đánh giá trong kho hồ sơ có phân quyền."
+        },
+        {
+          "type": "point",
+          "ja": "監査調書の作成と保管の目的と監査における役割を理解する。",
+          "vi": "Hồ sơ làm việc khác với báo cáo kết quả gửi cho các bên liên quan."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査調書の作成と保管",
+          "english": "Audit Document Creation and Storage",
+          "vi": "Lập và lưu trữ hồ sơ làm việc kiểm toán",
+          "definitionJa": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。このプロセスは、監査の透明性や信頼性を高めるために重要である。具体的には、監査員は監査の目的、範囲、手続き、結果を詳細に記録し、それらの情報を整理して文書にまとめる。さらに、この監査調書は、関係者間での情報共有や、将来の監査の参考資料として役立つため、適切な場所に保管される必要がある。保管方法には、電子的なデータベースや物理的なファイルシステムがあるが、いずれも情報の機密性を保つための措置が求められる。正確な記録と適切な保管は、監査の信頼性を高め、組織のリスク管理にも寄与する。",
+          "definitionVi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng.",
+          "reading": "かんさちょうしょのさくせいとほかん"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-working-papers"]
+    },
+    {
+      "id": "audit-conclusions",
+      "order": 21,
+      "titleJa": "監査の結論の形成",
+      "titleVi": "Hình thành kết luận kiểm toán",
+      "importance": "high",
+      "summaryJa": "システム監査の過程で得られた情報やデータをもとに、最終的な評価や結論を導き出すプロセスである。",
+      "summaryVi": "Quá trình phân tích bằng chứng thu được theo mục tiêu và tiêu chí kiểm toán để đưa ra đánh giá cuối cùng về hệ thống, rủi ro và điểm cần cải thiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査の結論の形成とは",
+          "vi": "Hình thành kết luận kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査の過程で得られた情報やデータをもとに、最終的な評価や結論を導き出すプロセスである。このプロセスでは、監査の目的や基準に照らし合わせて、システムの有効性や信頼性を判断することが求められる。具体的には、監査で収集した証拠や観察結果を分析し、リスク評価や改善点を明確にすることが中心となる。例えば、監査結果が特定の内部統制が不十分であることを示している場合、結論として、その統制を強化すべきであるといった提案がされる。また、監査の結論は、関係者に報告され、経営や運営において改善の指針となる重要な役割を果たすため、正確かつ明確な説明が不可欠である。",
+          "vi": "Quá trình phân tích bằng chứng thu được theo mục tiêu và tiêu chí kiểm toán để đưa ra đánh giá cuối cùng về hệ thống, rủi ro và điểm cần cải thiện. Ví dụ: Kết luận kiểm soát truy cập chưa đủ chặt dựa trên log và hồ sơ quyền hạn."
+        },
+        {
+          "type": "point",
+          "ja": "監査の結論の形成の目的と監査における役割を理解する。",
+          "vi": "Kết luận phải dựa trên bằng chứng và tiêu chí, không chỉ cảm nhận."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査の結論の形成",
+          "english": "Formation of Audit Conclusions",
+          "vi": "Hình thành kết luận kiểm toán",
+          "definitionJa": "システム監査の過程で得られた情報やデータをもとに、最終的な評価や結論を導き出すプロセスである。このプロセスでは、監査の目的や基準に照らし合わせて、システムの有効性や信頼性を判断することが求められる。具体的には、監査で収集した証拠や観察結果を分析し、リスク評価や改善点を明確にすることが中心となる。例えば、監査結果が特定の内部統制が不十分であることを示している場合、結論として、その統制を強化すべきであるといった提案がされる。また、監査の結論は、関係者に報告され、経営や運営において改善の指針となる重要な役割を果たすため、正確かつ明確な説明が不可欠である。",
+          "definitionVi": "Quá trình phân tích bằng chứng thu được theo mục tiêu và tiêu chí kiểm toán để đưa ra đánh giá cuối cùng về hệ thống, rủi ro và điểm cần cải thiện.",
+          "reading": "かんさのけつろんのけいせい"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-conclusions"]
+    },
+    {
+      "id": "audit-reporting",
+      "order": 22,
+      "titleJa": "監査報告書の作成と報告",
+      "titleVi": "Lập báo cáo và báo cáo kết quả kiểm toán",
+      "importance": "high",
+      "summaryJa": "システム監査の結果を文書にまとめ、関係者に報告するプロセスである。",
+      "summaryVi": "Quá trình tổng hợp mục đích, phạm vi, phương pháp, kết quả, vấn đề phát hiện và đề xuất cải tiến thành báo cáo gửi các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査報告書の作成と報告とは",
+          "vi": "Lập báo cáo và báo cáo kết quả kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査の結果を文書にまとめ、関係者に報告するプロセスである。この報告書は監査が行われた目的、手法、結果、そして発見された問題点や改善策を含む。具体的には、監査の範囲や対象、評価基準を明示し、調査結果に基づいた推奨事項を示すことで、経営者や関係者がシステムの信頼性やセキュリティを改善するための手助けとなる。例えば、企業のITシステムに対する監査を行った場合、その結果を集約し、どの部分にリスクが存在するかを示し、適切な対策を提案することで、企業全体の業務運営の透明性や効率性を向上させることが目指される。報告書は、監査の信頼性を確保し、後の監査活動においても重要な資料となる。",
+          "vi": "Quá trình tổng hợp mục đích, phạm vi, phương pháp, kết quả, vấn đề phát hiện và đề xuất cải tiến thành báo cáo gửi các bên liên quan. Ví dụ: Gửi báo cáo về lỗ hổng phân quyền cùng kiến nghị xử lý cho ban quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "監査報告書の作成と報告の目的と監査における役割を理解する。",
+          "vi": "Báo cáo kiểm toán là đầu ra chính thức của cuộc kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査報告書の作成と報告",
+          "english": "Audit Report Creation and Reporting",
+          "vi": "Lập báo cáo và báo cáo kết quả kiểm toán",
+          "definitionJa": "システム監査の結果を文書にまとめ、関係者に報告するプロセスである。この報告書は監査が行われた目的、手法、結果、そして発見された問題点や改善策を含む。具体的には、監査の範囲や対象、評価基準を明示し、調査結果に基づいた推奨事項を示すことで、経営者や関係者がシステムの信頼性やセキュリティを改善するための手助けとなる。例えば、企業のITシステムに対する監査を行った場合、その結果を集約し、どの部分にリスクが存在するかを示し、適切な対策を提案することで、企業全体の業務運営の透明性や効率性を向上させることが目指される。報告書は、監査の信頼性を確保し、後の監査活動においても重要な資料となる。",
+          "definitionVi": "Quá trình tổng hợp mục đích, phạm vi, phương pháp, kết quả, vấn đề phát hiện và đề xuất cải tiến thành báo cáo gửi các bên liên quan.",
+          "reading": "かんさほうこくしょのさくせいとほうこく"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-reporting"]
+    },
+    {
+      "id": "improvement-follow-up",
+      "order": 23,
+      "titleJa": "改善提案のフォローアップ",
+      "titleVi": "Theo dõi việc thực hiện đề xuất cải tiến",
+      "importance": "medium",
+      "summaryJa": "システム監査の結果に基づいて行われる改善提案を、実施状況や効果を確認するために追跡するプロセスである。",
+      "summaryVi": "Quá trình kiểm tra các đề xuất sau kiểm toán đã được triển khai đến đâu và có đạt hiệu quả mong đợi hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "改善提案のフォローアップとは",
+          "vi": "Theo dõi việc thực hiện đề xuất cải tiến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査の結果に基づいて行われる改善提案を、実施状況や効果を確認するために追跡するプロセスである。このフォローアップは、提案が実際に実行され、期待どおりの効果が得られているかを検証する目的を持つ。具体的には、提案が反映されたシステムやプロセスの運用状況を定期的にレビューし、必要に応じて追加の改善策を講じることが求められる。これにより、監査で指摘された課題が解消されるだけでなく、組織全体の業務効率を高めることができる。また、フォローアップの結果は次回の監査活動にも活かされ、継続的な改善に寄与するため、重要なステップとされている。",
+          "vi": "Quá trình kiểm tra các đề xuất sau kiểm toán đã được triển khai đến đâu và có đạt hiệu quả mong đợi hay không. Ví dụ: Kiểm tra lại sau một tháng xem quyền truy cập thừa đã được thu hồi chưa."
+        },
+        {
+          "type": "point",
+          "ja": "改善提案のフォローアップの目的と監査における役割を理解する。",
+          "vi": "Không dừng ở đề xuất; phải xác minh tình trạng và hiệu quả thực hiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "改善提案のフォローアップ",
+          "english": "Improvement Proposal Follow-Up",
+          "vi": "Theo dõi việc thực hiện đề xuất cải tiến",
+          "definitionJa": "システム監査の結果に基づいて行われる改善提案を、実施状況や効果を確認するために追跡するプロセスである。このフォローアップは、提案が実際に実行され、期待どおりの効果が得られているかを検証する目的を持つ。具体的には、提案が反映されたシステムやプロセスの運用状況を定期的にレビューし、必要に応じて追加の改善策を講じることが求められる。これにより、監査で指摘された課題が解消されるだけでなく、組織全体の業務効率を高めることができる。また、フォローアップの結果は次回の監査活動にも活かされ、継続的な改善に寄与するため、重要なステップとされている。",
+          "definitionVi": "Quá trình kiểm tra các đề xuất sau kiểm toán đã được triển khai đến đâu và có đạt hiệu quả mong đợi hay không.",
+          "reading": "かいぜんていあんのふぉろーあっぷ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "improvement-follow-up"]
+    },
+    {
+      "id": "risk",
+      "order": 24,
+      "titleJa": "リスク",
+      "titleVi": "Rủi ro",
+      "importance": "high",
+      "summaryJa": "システム監査において、目標達成を妨げる可能性がある不確実な事象を指す。",
+      "summaryVi": "Khả năng một sự kiện không chắc chắn ảnh hưởng đến mục tiêu; trong hệ thống thông tin có thể là tấn công mạng, sự cố hoặc mất dữ liệu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リスクとは",
+          "vi": "Rủi ro là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において、目標達成を妨げる可能性がある不確実な事象を指す。リスクは業務やプロジェクトにおける脅威や機会の両方を含み、通常、発生する可能性と影響の大きさで評価される。例えば、情報システムにおいては、サイバー攻撃やシステム障害がリスクとして挙げられるが、これらが発生すると、データの損失や業務の停止など重大な影響を及ぼすことがある。そのため、リスク管理は組織にとって重要な要素であり、リスクを特定し、評価、優先順位付けを行った上で、対策を講じることが求められる。これによって、リスクの低減や回避が図られ、より安全で信頼性の高いシステム運用が実現できる。",
+          "vi": "Khả năng một sự kiện không chắc chắn ảnh hưởng đến mục tiêu; trong hệ thống thông tin có thể là tấn công mạng, sự cố hoặc mất dữ liệu. Ví dụ: Sự cố máy chủ có thể làm gián đoạn hoạt động kinh doanh."
+        },
+        {
+          "type": "point",
+          "ja": "リスクの目的と監査における役割を理解する。",
+          "vi": "Thường đánh giá dựa trên khả năng xảy ra và mức độ tác động."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リスク",
+          "english": "Risk",
+          "vi": "Rủi ro",
+          "definitionJa": "システム監査において、目標達成を妨げる可能性がある不確実な事象を指す。リスクは業務やプロジェクトにおける脅威や機会の両方を含み、通常、発生する可能性と影響の大きさで評価される。例えば、情報システムにおいては、サイバー攻撃やシステム障害がリスクとして挙げられるが、これらが発生すると、データの損失や業務の停止など重大な影響を及ぼすことがある。そのため、リスク管理は組織にとって重要な要素であり、リスクを特定し、評価、優先順位付けを行った上で、対策を講じることが求められる。これによって、リスクの低減や回避が図られ、より安全で信頼性の高いシステム運用が実現できる。",
+          "definitionVi": "Khả năng một sự kiện không chắc chắn ảnh hưởng đến mục tiêu; trong hệ thống thông tin có thể là tấn công mạng, sự cố hoặc mất dữ liệu.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "risk"]
+    },
+    {
+      "id": "control",
+      "order": 25,
+      "titleJa": "コントロール",
+      "titleVi": "Biện pháp kiểm soát",
+      "importance": "high",
+      "summaryJa": "システムやプロセスの運用が適切に行われるように監視し、調整することを指す。",
+      "summaryVi": "Các cơ chế, thủ tục hoặc hoạt động nhằm giám sát, điều chỉnh và giữ cho hệ thống, quy trình vận hành đúng yêu cầu, qua đó giảm rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コントロールとは",
+          "vi": "Biện pháp kiểm soát là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システムやプロセスの運用が適切に行われるように監視し、調整することを指す。特にシステム監査においては、企業の情報システムが効率的かつ安全に運用されているかを確かめる重要な概念である。例えば、アクセス制御やデータバックアップのプロセスが確立されているかどうかを評価することで、不正アクセスや情報の喪失を防ぐ手助けを行う。また、効果的なコントロールが実施されていれば、業務の信頼性が向上し、法令遵守やリスク管理の強化にも寄与する。要するに、コントロールは組織の目標を達成するために不可欠な要素であり、適切な運用を支える基盤である。",
+          "vi": "Các cơ chế, thủ tục hoặc hoạt động nhằm giám sát, điều chỉnh và giữ cho hệ thống, quy trình vận hành đúng yêu cầu, qua đó giảm rủi ro. Ví dụ: Phân quyền truy cập và sao lưu dữ liệu là các biện pháp kiểm soát."
+        },
+        {
+          "type": "point",
+          "ja": "コントロールの目的と監査における役割を理解する。",
+          "vi": "Control trong kiểm toán không chỉ là thao tác điều khiển máy tính."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コントロール",
+          "english": "Control",
+          "vi": "Biện pháp kiểm soát",
+          "definitionJa": "システムやプロセスの運用が適切に行われるように監視し、調整することを指す。特にシステム監査においては、企業の情報システムが効率的かつ安全に運用されているかを確かめる重要な概念である。例えば、アクセス制御やデータバックアップのプロセスが確立されているかどうかを評価することで、不正アクセスや情報の喪失を防ぐ手助けを行う。また、効果的なコントロールが実施されていれば、業務の信頼性が向上し、法令遵守やリスク管理の強化にも寄与する。要するに、コントロールは組織の目標を達成するために不可欠な要素であり、適切な運用を支える基盤である。",
+          "definitionVi": "Các cơ chế, thủ tục hoặc hoạt động nhằm giám sát, điều chỉnh và giữ cho hệ thống, quy trình vận hành đúng yêu cầu, qua đó giảm rủi ro.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "control"]
+    },
+    {
+      "id": "internal-audit-regulations",
+      "order": 26,
+      "titleJa": "内部監査規程",
+      "titleVi": "Quy chế kiểm toán nội bộ",
+      "importance": "medium",
+      "summaryJa": "内部監査の実施に関するルールや手順を定めた文書である。",
+      "summaryVi": "Văn bản quy định nguyên tắc, phạm vi, mục tiêu, vai trò, trách nhiệm và quy trình thực hiện kiểm toán nội bộ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "内部監査規程とは",
+          "vi": "Quy chế kiểm toán nội bộ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "内部監査の実施に関するルールや手順を定めた文書である。この規程は、組織が内部監査を適切に行うために必要な指針を提供し、業務の効率性や適正性を評価するための基準を明確にするものである。例えば、監査の目的、範囲、監査人の役割や責任、及び報告書の作成方法などが含まれることが一般的である。この規程に基づいて実施される内部監査は、リスク管理や業務の改善、法令遵守の確認など多岐にわたる重要な役割を果たす。また、これにより組織は透明性を向上させ、経営管理の健全性を高めることができる。",
+          "vi": "Văn bản quy định nguyên tắc, phạm vi, mục tiêu, vai trò, trách nhiệm và quy trình thực hiện kiểm toán nội bộ. Ví dụ: Quy chế quy định ai phê duyệt kế hoạch và ai nhận báo cáo kiểm toán."
+        },
+        {
+          "type": "point",
+          "ja": "内部監査規程の目的と監査における役割を理解する。",
+          "vi": "Là văn bản nền tảng giúp kiểm toán nội bộ được thực hiện nhất quán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "内部監査規程",
+          "english": "Internal Audit Regulations",
+          "vi": "Quy chế kiểm toán nội bộ",
+          "definitionJa": "内部監査の実施に関するルールや手順を定めた文書である。この規程は、組織が内部監査を適切に行うために必要な指針を提供し、業務の効率性や適正性を評価するための基準を明確にするものである。例えば、監査の目的、範囲、監査人の役割や責任、及び報告書の作成方法などが含まれることが一般的である。この規程に基づいて実施される内部監査は、リスク管理や業務の改善、法令遵守の確認など多岐にわたる重要な役割を果たす。また、これにより組織は透明性を向上させ、経営管理の健全性を高めることができる。",
+          "definitionVi": "Văn bản quy định nguyên tắc, phạm vi, mục tiêu, vai trò, trách nhiệm và quy trình thực hiện kiểm toán nội bộ.",
+          "reading": "ないぶかんさきてい"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "internal-audit-regulations"
+      ]
+    },
+    {
+      "id": "audit-outsourcing-agreement",
+      "order": 27,
+      "titleJa": "システム監査委託契約書",
+      "titleVi": "Hợp đồng thuê kiểm toán hệ thống",
+      "importance": "medium",
+      "summaryJa": "システム監査を第三者に委託する際に交わされる契約書のことである。",
+      "summaryVi": "Hợp đồng ký với bên thứ ba khi thuê thực hiện kiểm toán hệ thống, quy định phạm vi, mục tiêu, cách thực hiện, báo cáo, chi phí và trách nhiệm các bên.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査委託契約書とは",
+          "vi": "Hợp đồng thuê kiểm toán hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査を第三者に委託する際に交わされる契約書のことである。この契約書には、監査対象となるシステムの範囲や目的、監査の実施方法、報告書の提出形式、料金などが明記される。例えば、企業が自社の情報システムの安全性を確認するために外部の専門家に監査を依頼する場合、この契約書に基づいて業務が進められる。契約書を交わすことで、双方の責任や権利が明確になり、トラブルを未然に防ぐことができる。また、システム監査を通じて、業務プロセスの改善点やリスクの特定が行われるため、企業の信頼性向上にも寄与する。",
+          "vi": "Hợp đồng ký với bên thứ ba khi thuê thực hiện kiểm toán hệ thống, quy định phạm vi, mục tiêu, cách thực hiện, báo cáo, chi phí và trách nhiệm các bên. Ví dụ: Doanh nghiệp ký hợp đồng với công ty kiểm toán CNTT bên ngoài."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査委託契約書の目的と監査における役割を理解する。",
+          "vi": "Làm rõ quyền và nghĩa vụ giữa bên thuê và bên được thuê kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査委託契約書",
+          "english": "System Audit Outsourcing Agreement",
+          "vi": "Hợp đồng thuê kiểm toán hệ thống",
+          "definitionJa": "システム監査を第三者に委託する際に交わされる契約書のことである。この契約書には、監査対象となるシステムの範囲や目的、監査の実施方法、報告書の提出形式、料金などが明記される。例えば、企業が自社の情報システムの安全性を確認するために外部の専門家に監査を依頼する場合、この契約書に基づいて業務が進められる。契約書を交わすことで、双方の責任や権利が明確になり、トラブルを未然に防ぐことができる。また、システム監査を通じて、業務プロセスの改善点やリスクの特定が行われるため、企業の信頼性向上にも寄与する。",
+          "definitionVi": "Hợp đồng ký với bên thứ ba khi thuê thực hiện kiểm toán hệ thống, quy định phạm vi, mục tiêu, cách thực hiện, báo cáo, chi phí và trách nhiệm các bên.",
+          "reading": "しすてむかんさいたくけいやくしょ"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "audit-outsourcing-agreement"
+      ]
+    },
+    {
+      "id": "system-audit-plan",
+      "order": 28,
+      "titleJa": "システム監査計画",
+      "titleVi": "Kế hoạch kiểm toán hệ thống",
+      "importance": "high",
+      "summaryJa": "システム監査を実施するための具体的な計画を指す。",
+      "summaryVi": "Kế hoạch xác định mục tiêu, phạm vi, phương pháp, lịch trình, nhân sự, nguồn lực và tiêu chí đánh giá của cuộc kiểm toán hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査計画とは",
+          "vi": "Kế hoạch kiểm toán hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査を実施するための具体的な計画を指す。この計画には、監査の目的、範囲、方法、スケジュール、および必要なリソースが明示される。たとえば、企業が新しい情報システムを導入する際、そのシステムが適切に機能しているか、セキュリティが確保されているかを確認するために、システム監査計画が策定される。計画には、監査チームのメンバーや、監査の対象となるシステムの詳細、評価基準なども含まれ、監査の透明性と効率性を高める役割を果たす。このプロセスを通じて、企業はリスクを管理し、業務の信頼性を向上させることができる。",
+          "vi": "Kế hoạch xác định mục tiêu, phạm vi, phương pháp, lịch trình, nhân sự, nguồn lực và tiêu chí đánh giá của cuộc kiểm toán hệ thống. Ví dụ: Lập lịch kiểm toán hệ thống nhân sự, chỉ định người phụ trách và tài liệu cần xem."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査計画の目的と監査における役割を理解する。",
+          "vi": "Kế hoạch là cơ sở để triển khai và kiểm soát cuộc kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査計画",
+          "english": "System Audit Plan",
+          "vi": "Kế hoạch kiểm toán hệ thống",
+          "definitionJa": "システム監査を実施するための具体的な計画を指す。この計画には、監査の目的、範囲、方法、スケジュール、および必要なリソースが明示される。たとえば、企業が新しい情報システムを導入する際、そのシステムが適切に機能しているか、セキュリティが確保されているかを確認するために、システム監査計画が策定される。計画には、監査チームのメンバーや、監査の対象となるシステムの詳細、評価基準なども含まれ、監査の透明性と効率性を高める役割を果たす。このプロセスを通じて、企業はリスクを管理し、業務の信頼性を向上させることができる。",
+          "definitionVi": "Kế hoạch xác định mục tiêu, phạm vi, phương pháp, lịch trình, nhân sự, nguồn lực và tiêu chí đánh giá của cuộc kiểm toán hệ thống.",
+          "reading": "しすてむかんさけいかく"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "system-audit-plan"]
+    },
+    {
+      "id": "audit-procedures",
+      "order": 29,
+      "titleJa": "監査手続の適用",
+      "titleVi": "Áp dụng thủ tục kiểm toán",
+      "importance": "medium",
+      "summaryJa": "システム監査を行う際に、特定の目的に応じて適切な監査手続きを実施するプロセスである。",
+      "summaryVi": "Việc thực hiện các thủ tục kiểm toán phù hợp với mục tiêu, từ khảo sát sơ bộ đến kiểm tra chi tiết, nhằm thu thập bằng chứng và đánh giá hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査手続の適用とは",
+          "vi": "Áp dụng thủ tục kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査を行う際に、特定の目的に応じて適切な監査手続きを実施するプロセスである。これには、予備調査や本調査が含まれ、情報システムの有効性や安全性を評価することが目的である。例えば、予備調査では監査対象のシステムの概要やリスクを把握し、必要な監査手続を洗い出す。一方、本調査では具体的な手続きを適用し、システムの運用状況や内部統制のチェックを行う。そして最終的に、評価と結論を導くための根拠となるデータを収集することが求められる。このように、システムの信頼性を確保し、改善点を明確にするための重要なステップである。",
+          "vi": "Việc thực hiện các thủ tục kiểm toán phù hợp với mục tiêu, từ khảo sát sơ bộ đến kiểm tra chi tiết, nhằm thu thập bằng chứng và đánh giá hệ thống. Ví dụ: Khảo sát cấu trúc hệ thống rồi kiểm tra quyền truy cập thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "監査手続の適用の目的と監査における役割を理解する。",
+          "vi": "Phân biệt khảo sát sơ bộ (予備調査) và khảo sát chính (本調査)."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査手続の適用",
+          "english": "Application of Audit Procedures",
+          "vi": "Áp dụng thủ tục kiểm toán",
+          "definitionJa": "システム監査を行う際に、特定の目的に応じて適切な監査手続きを実施するプロセスである。これには、予備調査や本調査が含まれ、情報システムの有効性や安全性を評価することが目的である。例えば、予備調査では監査対象のシステムの概要やリスクを把握し、必要な監査手続を洗い出す。一方、本調査では具体的な手続きを適用し、システムの運用状況や内部統制のチェックを行う。そして最終的に、評価と結論を導くための根拠となるデータを収集することが求められる。このように、システムの信頼性を確保し、改善点を明確にするための重要なステップである。",
+          "definitionVi": "Việc thực hiện các thủ tục kiểm toán phù hợp với mục tiêu, từ khảo sát sơ bộ đến kiểm tra chi tiết, nhằm thu thập bằng chứng và đánh giá hệ thống.",
+          "reading": "かんさてつづきのてきよう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-procedures"]
+    },
+    {
+      "id": "audit-evidence-collection-procedures",
+      "order": 30,
+      "titleJa": "監査証拠の入手と評価",
+      "titleVi": "Thu thập và đánh giá bằng chứng kiểm toán",
+      "importance": "medium",
+      "summaryJa": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。",
+      "summaryVi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査証拠の入手と評価とは",
+          "vi": "Thu thập và đánh giá bằng chứng kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。監査証拠は、システムの安全性や効果性を確認するための根拠であり、収集された証拠は監査結果を支える重要な要素となる。例えば、ログファイルや取引記録、ユーザーインタビューの結果などが監査証拠として利用される。これらの証拠は、適切な方法で収集され、評価される必要があり、その信頼性を高めるために、証拠の出所や収集方法を明確にすることが求められる。監査証拠の質によって、監査結果の妥当性が左右されるため、正確な入手と評価が不可欠である。",
+          "vi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng. Ví dụ: Kiểm tra nhật ký hệ thống, chứng từ giao dịch và biên bản phỏng vấn."
+        },
+        {
+          "type": "point",
+          "ja": "監査証拠の入手と評価の目的と監査における役割を理解する。",
+          "vi": "Đây là thuật ngữ lặp lại trong nguồn; giữ cùng bản dịch với mục 19."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査証拠の入手と評価",
+          "english": "Acquisition and Evaluation of Audit Evidence",
+          "vi": "Thu thập và đánh giá bằng chứng kiểm toán",
+          "definitionJa": "システム監査において監査を行うために必要な情報やデータを収集し、その信頼性や妥当性を評価する過程を指す。監査証拠は、システムの安全性や効果性を確認するための根拠であり、収集された証拠は監査結果を支える重要な要素となる。例えば、ログファイルや取引記録、ユーザーインタビューの結果などが監査証拠として利用される。これらの証拠は、適切な方法で収集され、評価される必要があり、その信頼性を高めるために、証拠の出所や収集方法を明確にすることが求められる。監査証拠の質によって、監査結果の妥当性が左右されるため、正確な入手と評価が不可欠である。",
+          "definitionVi": "Quá trình thu thập dữ liệu, tài liệu và thông tin làm căn cứ cho kết luận kiểm toán, đồng thời đánh giá độ tin cậy và tính phù hợp của chúng.",
+          "reading": "かんさしょうこのにゅうしゅとひょうか"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "audit-evidence-collection-procedures"
+      ]
+    },
+    {
+      "id": "audit-working-papers-procedures",
+      "order": 31,
+      "titleJa": "監査調書の作成と保管",
+      "titleVi": "Lập và lưu trữ hồ sơ làm việc kiểm toán",
+      "importance": "medium",
+      "summaryJa": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。",
+      "summaryVi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "監査調書の作成と保管とは",
+          "vi": "Lập và lưu trữ hồ sơ làm việc kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。このプロセスは、監査の透明性や信頼性を高めるために重要である。具体的には、監査員は監査の目的、範囲、手続き、結果を詳細に記録し、それらの情報を整理して文書にまとめる。さらに、この監査調書は、関係者間での情報共有や、将来の監査の参考資料として役立つため、適切な場所に保管される必要がある。保管方法には、電子的なデータベースや物理的なファイルシステムがあるが、いずれも情報の機密性を保つための措置が求められる。正確な記録と適切な保管は、監査の信頼性を高め、組織のリスク管理にも寄与する。",
+          "vi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng. Ví dụ: Lưu bảng kiểm tra, log và ghi chú đánh giá trong kho hồ sơ có phân quyền."
+        },
+        {
+          "type": "point",
+          "ja": "監査調書の作成と保管の目的と監査における役割を理解する。",
+          "vi": "Đây là thuật ngữ lặp lại trong nguồn; giữ cùng bản dịch với mục 20."
+        }
+      ],
+      "terms": [
+        {
+          "term": "監査調書の作成と保管",
+          "english": "Audit Document Creation and Storage",
+          "vi": "Lập và lưu trữ hồ sơ làm việc kiểm toán",
+          "definitionJa": "システム監査において、監査の過程や結果を文書化し、その文書を適切に保存することを指す。このプロセスは、監査の透明性や信頼性を高めるために重要である。具体的には、監査員は監査の目的、範囲、手続き、結果を詳細に記録し、それらの情報を整理して文書にまとめる。さらに、この監査調書は、関係者間での情報共有や、将来の監査の参考資料として役立つため、適切な場所に保管される必要がある。保管方法には、電子的なデータベースや物理的なファイルシステムがあるが、いずれも情報の機密性を保つための措置が求められる。正確な記録と適切な保管は、監査の信頼性を高め、組織のリスク管理にも寄与する。",
+          "definitionVi": "Việc ghi chép mục tiêu, phạm vi, thủ tục, bằng chứng và kết quả kiểm toán vào hồ sơ, sau đó lưu giữ an toàn để có thể tra cứu và kiểm chứng.",
+          "reading": "かんさちょうしょのさくせいとほかん"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "audit-working-papers-procedures"
+      ]
+    },
+    {
+      "id": "system-audit-techniques",
+      "order": 32,
+      "titleJa": "代表的なシステム監査技法",
+      "titleVi": "Các kỹ thuật kiểm toán hệ thống tiêu biểu",
+      "importance": "medium",
+      "summaryJa": "システム監査において用いられる分析手法や評価基準のことを指す。",
+      "summaryVi": "Các phương pháp phân tích và kiểm tra được lựa chọn theo từng giai đoạn kiểm toán nhằm đánh giá tính phù hợp, an toàn và hiệu quả của hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "代表的なシステム監査技法とは",
+          "vi": "Các kỹ thuật kiểm toán hệ thống tiêu biểu là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において用いられる分析手法や評価基準のことを指す。これらの技法は、監査の各ステージ、つまり予備調査、本調査、評価、結論の過程で活用され、システムの適正性や効率性を評価するための重要な手段となる。例えば、予備調査ではシステム全体のリスクを特定するために、リスクアセスメント技法が利用される。一方、本調査の段階では、具体的なシステム設計や運用手順の詳細分析が行われ、特定のコントロールが実施されているかを確認する。このように、各技法は監査の目的に応じて選択され、監査結果の信頼性や精度を高めることに寄与する。",
+          "vi": "Các phương pháp phân tích và kiểm tra được lựa chọn theo từng giai đoạn kiểm toán nhằm đánh giá tính phù hợp, an toàn và hiệu quả của hệ thống. Ví dụ: Dùng đánh giá rủi ro ở bước khảo sát sơ bộ và kiểm tra kiểm soát ở bước chính."
+        },
+        {
+          "type": "point",
+          "ja": "代表的なシステム監査技法の目的と監査における役割を理解する。",
+          "vi": "Lựa chọn kỹ thuật phù hợp với mục tiêu và giai đoạn kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "代表的なシステム監査技法",
+          "english": "Representative System Audit Techniques",
+          "vi": "Các kỹ thuật kiểm toán hệ thống tiêu biểu",
+          "definitionJa": "システム監査において用いられる分析手法や評価基準のことを指す。これらの技法は、監査の各ステージ、つまり予備調査、本調査、評価、結論の過程で活用され、システムの適正性や効率性を評価するための重要な手段となる。例えば、予備調査ではシステム全体のリスクを特定するために、リスクアセスメント技法が利用される。一方、本調査の段階では、具体的なシステム設計や運用手順の詳細分析が行われ、特定のコントロールが実施されているかを確認する。このように、各技法は監査の目的に応じて選択され、監査結果の信頼性や精度を高めることに寄与する。",
+          "definitionVi": "Các phương pháp phân tích và kiểm tra được lựa chọn theo từng giai đoạn kiểm toán nhằm đánh giá tính phù hợp, an toàn và hiệu quả của hệ thống.",
+          "reading": "だいひょうてきなしすてむかんさぎほう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "system-audit-techniques"]
+    },
+    {
+      "id": "system-audit-report",
+      "order": 33,
+      "titleJa": "システム監査報告書",
+      "titleVi": "Báo cáo kiểm toán hệ thống",
+      "importance": "medium",
+      "summaryJa": "情報システムの運用や管理に関する監査の結果をまとめた文書である。",
+      "summaryVi": "Văn bản tổng hợp kết quả kiểm toán hệ thống, bao gồm vấn đề phát hiện, đánh giá rủi ro và các biện pháp được khuyến nghị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "システム監査報告書とは",
+          "vi": "Báo cáo kiểm toán hệ thống là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムの運用や管理に関する監査の結果をまとめた文書である。この報告書は、システムが適切に機能しているか、リスクが管理されているか、またセキュリティが確保されているかを評価する目的で作成される。具体的には、監査の過程で発見された問題点や改善点、リスク評価、さらには推奨される対策が詳細に記載されている。報告書は、経営層やIT部門に対して提出され、問題解決や体制の改善を促進する重要な役割を果たす。また、これに基づくフォローアップが行われることで、企業全体の情報セキュリティや業務効率の向上に寄与することが期待される。",
+          "vi": "Văn bản tổng hợp kết quả kiểm toán hệ thống, bao gồm vấn đề phát hiện, đánh giá rủi ro và các biện pháp được khuyến nghị. Ví dụ: Báo cáo cho lãnh đạo về điểm yếu bảo mật và hướng khắc phục."
+        },
+        {
+          "type": "point",
+          "ja": "システム監査報告書の目的と監査における役割を理解する。",
+          "vi": "Đây là tài liệu kết quả; khác với hồ sơ làm việc kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "システム監査報告書",
+          "english": "System Audit Report",
+          "vi": "Báo cáo kiểm toán hệ thống",
+          "definitionJa": "情報システムの運用や管理に関する監査の結果をまとめた文書である。この報告書は、システムが適切に機能しているか、リスクが管理されているか、またセキュリティが確保されているかを評価する目的で作成される。具体的には、監査の過程で発見された問題点や改善点、リスク評価、さらには推奨される対策が詳細に記載されている。報告書は、経営層やIT部門に対して提出され、問題解決や体制の改善を促進する重要な役割を果たす。また、これに基づくフォローアップが行われることで、企業全体の情報セキュリティや業務効率の向上に寄与することが期待される。",
+          "definitionVi": "Văn bản tổng hợp kết quả kiểm toán hệ thống, bao gồm vấn đề phát hiện, đánh giá rủi ro và các biện pháp được khuyến nghị.",
+          "reading": "しすてむかんさほうこくしょ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "system-audit-report"]
+    },
+    {
+      "id": "audit-findings",
+      "order": 34,
+      "titleJa": "指摘事項",
+      "titleVi": "Các vấn đề được chỉ ra qua kiểm toán",
+      "importance": "high",
+      "summaryJa": "システム監査において、評価や検査の結果として明らかになった問題点や改善点を指す用語である。",
+      "summaryVi": "Những vấn đề, thiếu sót, rủi ro hoặc điểm cần cải thiện được phát hiện qua hoạt động kiểm toán và nêu trong báo cáo.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "指摘事項とは",
+          "vi": "Các vấn đề được chỉ ra qua kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査において、評価や検査の結果として明らかになった問題点や改善点を指す用語である。監査の過程で見つかったリスクや不正確な手続き、セキュリティ上の脆弱性などが含まれ、これらは必ず報告書にまとめられる。例えば、企業の情報システムにおいて、データのバックアップが適切に行われていない場合、その点が指摘事項として取り上げられることになる。この改善のためのアクションプランを策定する際の基となり、組織の運営や情報セキュリティの向上に貢献する。また、フォローアップの際には、この指摘事項がどのように対応されたのかを確認するプロセスも重要で、これにより継続的な改善活動が推進される。",
+          "vi": "Những vấn đề, thiếu sót, rủi ro hoặc điểm cần cải thiện được phát hiện qua hoạt động kiểm toán và nêu trong báo cáo. Ví dụ: Phát hiện quy trình sao lưu không được thực hiện theo quy định."
+        },
+        {
+          "type": "point",
+          "ja": "指摘事項の目的と監査における役割を理解する。",
+          "vi": "Là phát hiện kiểm toán, không phải bản thân kế hoạch khắc phục."
+        }
+      ],
+      "terms": [
+        {
+          "term": "指摘事項",
+          "english": "Finding",
+          "vi": "Các vấn đề được chỉ ra qua kiểm toán",
+          "definitionJa": "システム監査において、評価や検査の結果として明らかになった問題点や改善点を指す用語である。監査の過程で見つかったリスクや不正確な手続き、セキュリティ上の脆弱性などが含まれ、これらは必ず報告書にまとめられる。例えば、企業の情報システムにおいて、データのバックアップが適切に行われていない場合、その点が指摘事項として取り上げられることになる。この改善のためのアクションプランを策定する際の基となり、組織の運営や情報セキュリティの向上に貢献する。また、フォローアップの際には、この指摘事項がどのように対応されたのかを確認するプロセスも重要で、これにより継続的な改善活動が推進される。",
+          "definitionVi": "Những vấn đề, thiếu sót, rủi ro hoặc điểm cần cải thiện được phát hiện qua hoạt động kiểm toán và nêu trong báo cáo.",
+          "reading": "してきじこう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "audit-findings"]
+    },
+    {
+      "id": "assurance-audit",
+      "order": 35,
+      "titleJa": "保証を目的としたシステム監査",
+      "titleVi": "Kiểm toán hệ thống nhằm mục đích bảo đảm",
+      "importance": "high",
+      "summaryJa": "情報システムが正確かつ信頼できる運用を行っているかどうかを検証するための監査手法である。",
+      "summaryVi": "Loại kiểm toán nhằm xác minh độ tin cậy của hệ thống và mức độ phù hợp của các biện pháp quản lý rủi ro, để cung cấp sự bảo đảm cho các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "保証を目的としたシステム監査とは",
+          "vi": "Kiểm toán hệ thống nhằm mục đích bảo đảm là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報システムが正確かつ信頼できる運用を行っているかどうかを検証するための監査手法である。この監査は、システムの設計や運用におけるリスクを特定し、それに対する対策が適切に講じられているかを確認することに重点が置かれる。このプロセスにより、関係者が情報の信頼性に対する確信を得ることができる。例えば、金融機関などでは、顧客情報や取引データの正確性が重要であるため、このような監査が定期的に行われることが多い。監査結果は報告書としてまとめられ、必要に応じて改善策が提案される。また、監査に基づくフォローアップが行われることで、持続的な改善を図ることができる。",
+          "vi": "Loại kiểm toán nhằm xác minh độ tin cậy của hệ thống và mức độ phù hợp của các biện pháp quản lý rủi ro, để cung cấp sự bảo đảm cho các bên liên quan. Ví dụ: Kiểm tra cơ chế bảo vệ dữ liệu giao dịch để đưa ra đánh giá tin cậy."
+        },
+        {
+          "type": "point",
+          "ja": "保証を目的としたシステム監査の目的と監査における役割を理解する。",
+          "vi": "Mục đích chính là đưa ra sự bảo đảm dựa trên kết quả đánh giá."
+        }
+      ],
+      "terms": [
+        {
+          "term": "保証を目的としたシステム監査",
+          "english": "Audit for Assurance",
+          "vi": "Kiểm toán hệ thống nhằm mục đích bảo đảm",
+          "definitionJa": "情報システムが正確かつ信頼できる運用を行っているかどうかを検証するための監査手法である。この監査は、システムの設計や運用におけるリスクを特定し、それに対する対策が適切に講じられているかを確認することに重点が置かれる。このプロセスにより、関係者が情報の信頼性に対する確信を得ることができる。例えば、金融機関などでは、顧客情報や取引データの正確性が重要であるため、このような監査が定期的に行われることが多い。監査結果は報告書としてまとめられ、必要に応じて改善策が提案される。また、監査に基づくフォローアップが行われることで、持続的な改善を図ることができる。",
+          "definitionVi": "Loại kiểm toán nhằm xác minh độ tin cậy của hệ thống và mức độ phù hợp của các biện pháp quản lý rủi ro, để cung cấp sự bảo đảm cho các bên liên quan.",
+          "reading": "ほしょうをもくてきとしたしすてむかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "assurance-audit"]
+    },
+    {
+      "id": "advisory-audit",
+      "order": 36,
+      "titleJa": "助言を目的としたシステム監査",
+      "titleVi": "Kiểm toán hệ thống nhằm mục đích tư vấn",
+      "importance": "high",
+      "summaryJa": "主にシステムの改善や効率化を目的として実施される監査のことを指す。",
+      "summaryVi": "Loại kiểm toán tập trung đánh giá thực trạng và đưa ra lời khuyên nhằm cải thiện hiệu quả, an toàn và quy trình vận hành hệ thống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "助言を目的としたシステム監査とは",
+          "vi": "Kiểm toán hệ thống nhằm mục đích tư vấn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "主にシステムの改善や効率化を目的として実施される監査のことを指す。この監査では、システムの運用状況や管理体制を評価し、問題点や改善点を具体的に指摘することが重要である。例えば、ITシステムのセキュリティや業務プロセスに関して助言を行うことで、企業の運営に貢献する役割がある。助言を目的とした監査は、単なる違反点の指摘にとどまらず、効率的な業務フローやコスト削減の提案を行うことで、企業の戦略的な意思決定を支援することが求められる。その結果、持続的な改善が促進され、企業全体のパフォーマンス向上に寄与することが期待される。",
+          "vi": "Loại kiểm toán tập trung đánh giá thực trạng và đưa ra lời khuyên nhằm cải thiện hiệu quả, an toàn và quy trình vận hành hệ thống. Ví dụ: Đề xuất tối ưu quy trình xử lý yêu cầu để giảm thời gian và chi phí."
+        },
+        {
+          "type": "point",
+          "ja": "助言を目的としたシステム監査の目的と監査における役割を理解する。",
+          "vi": "Khác với kiểm toán bảo đảm: trọng tâm là khuyến nghị cải thiện."
+        }
+      ],
+      "terms": [
+        {
+          "term": "助言を目的としたシステム監査",
+          "english": "Advisory System Audit",
+          "vi": "Kiểm toán hệ thống nhằm mục đích tư vấn",
+          "definitionJa": "主にシステムの改善や効率化を目的として実施される監査のことを指す。この監査では、システムの運用状況や管理体制を評価し、問題点や改善点を具体的に指摘することが重要である。例えば、ITシステムのセキュリティや業務プロセスに関して助言を行うことで、企業の運営に貢献する役割がある。助言を目的とした監査は、単なる違反点の指摘にとどまらず、効率的な業務フローやコスト削減の提案を行うことで、企業の戦略的な意思決定を支援することが求められる。その結果、持続的な改善が促進され、企業全体のパフォーマンス向上に寄与することが期待される。",
+          "definitionVi": "Loại kiểm toán tập trung đánh giá thực trạng và đưa ra lời khuyên nhằm cải thiện hiệu quả, an toàn và quy trình vận hành hệ thống.",
+          "reading": "じょげんをもくてきとしたしすてむかんさ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "advisory-audit"]
+    },
+    {
+      "id": "improvement-proposal",
+      "order": 37,
+      "titleJa": "改善提案",
+      "titleVi": "Đề xuất cải tiến",
+      "importance": "medium",
+      "summaryJa": "システム監査の結果に基づいて、業務やシステムの効率を向上させるための具体的な提案のことである。",
+      "summaryVi": "Kiến nghị cụ thể dựa trên kết quả kiểm toán nhằm khắc phục vấn đề, giảm rủi ro hoặc nâng cao hiệu quả hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "改善提案とは",
+          "vi": "Đề xuất cải tiến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査の結果に基づいて、業務やシステムの効率を向上させるための具体的な提案のことである。監査を通じて明らかになった問題点やリスクに対して、効果的な改善策を示すもので、企業や組織がより良く運営されることを目的としている。例えば、業務プロセスに無駄が見つかった場合、その部分を改善するための方法を提案することがある。また、情報セキュリティの強化が必要とされる場合は、具体的な対策や手順を示すことで、関係者が実施しやすくすることも重要である。業務の成果を向上させるだけでなく、リスクの低減にも寄与するため、経営判断にも大きな影響を与える場合がある。",
+          "vi": "Kiến nghị cụ thể dựa trên kết quả kiểm toán nhằm khắc phục vấn đề, giảm rủi ro hoặc nâng cao hiệu quả hoạt động. Ví dụ: Đề xuất áp dụng xác thực đa yếu tố khi phát hiện rủi ro đăng nhập."
+        },
+        {
+          "type": "point",
+          "ja": "改善提案の目的と監査における役割を理解する。",
+          "vi": "Là nội dung kiến nghị; chưa phải kế hoạch triển khai chi tiết."
+        }
+      ],
+      "terms": [
+        {
+          "term": "改善提案",
+          "english": "Improvement Proposal",
+          "vi": "Đề xuất cải tiến",
+          "definitionJa": "システム監査の結果に基づいて、業務やシステムの効率を向上させるための具体的な提案のことである。監査を通じて明らかになった問題点やリスクに対して、効果的な改善策を示すもので、企業や組織がより良く運営されることを目的としている。例えば、業務プロセスに無駄が見つかった場合、その部分を改善するための方法を提案することがある。また、情報セキュリティの強化が必要とされる場合は、具体的な対策や手順を示すことで、関係者が実施しやすくすることも重要である。業務の成果を向上させるだけでなく、リスクの低減にも寄与するため、経営判断にも大きな影響を与える場合がある。",
+          "definitionVi": "Kiến nghị cụ thể dựa trên kết quả kiểm toán nhằm khắc phục vấn đề, giảm rủi ro hoặc nâng cao hiệu quả hoạt động.",
+          "reading": "かいぜんていあん"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "improvement-proposal"]
+    },
+    {
+      "id": "improvement-plan",
+      "order": 38,
+      "titleJa": "改善計画",
+      "titleVi": "Kế hoạch cải tiến",
+      "importance": "medium",
+      "summaryJa": "組織やプロジェクトにおいて、現状の問題点を把握し、それを解決するための具体的な手順や目標を定めた計画のことである。",
+      "summaryVi": "Kế hoạch xác định mục tiêu, các bước thực hiện, người chịu trách nhiệm và thời hạn để xử lý những thiếu sót hoặc rủi ro được phát hiện.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "改善計画とは",
+          "vi": "Kế hoạch cải tiến là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織やプロジェクトにおいて、現状の問題点を把握し、それを解決するための具体的な手順や目標を定めた計画のことである。この計画は、システム監査などを通じて明らかになった不備やリスクを改善するために不可欠である。例えば、監査で指摘されたセキュリティの弱点に対して、新たな対策を講じるための計画が立てられる。この改善計画には、具体的な改善活動や期限、責任者を明記することで、実行可能なものとする。また、計画の進捗状況を定期的にレビューし、必要に応じて修正することで、持続的な改善を図ることができる。これにより、組織全体の強化や効率化が促進され、リスク管理がより効果的になる。",
+          "vi": "Kế hoạch xác định mục tiêu, các bước thực hiện, người chịu trách nhiệm và thời hạn để xử lý những thiếu sót hoặc rủi ro được phát hiện. Ví dụ: Giao nhóm IT triển khai MFA trong hai tuần và kiểm tra kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "改善計画の目的と監査における役割を理解する。",
+          "vi": "Chuyển đề xuất cải tiến thành hoạt động có người phụ trách và thời hạn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "改善計画",
+          "english": "Improvement Plan",
+          "vi": "Kế hoạch cải tiến",
+          "definitionJa": "組織やプロジェクトにおいて、現状の問題点を把握し、それを解決するための具体的な手順や目標を定めた計画のことである。この計画は、システム監査などを通じて明らかになった不備やリスクを改善するために不可欠である。例えば、監査で指摘されたセキュリティの弱点に対して、新たな対策を講じるための計画が立てられる。この改善計画には、具体的な改善活動や期限、責任者を明記することで、実行可能なものとする。また、計画の進捗状況を定期的にレビューし、必要に応じて修正することで、持続的な改善を図ることができる。これにより、組織全体の強化や効率化が促進され、リスク管理がより効果的になる。",
+          "definitionVi": "Kế hoạch xác định mục tiêu, các bước thực hiện, người chịu trách nhiệm và thời hạn để xử lý những thiếu sót hoặc rủi ro được phát hiện.",
+          "reading": "かいぜんけいかく"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "improvement-plan"]
+    },
+    {
+      "id": "follow-up",
+      "order": 39,
+      "titleJa": "フォローアップ",
+      "titleVi": "Theo dõi sau kiểm toán",
+      "importance": "medium",
+      "summaryJa": "システム監査後に実施される確認作業を指す。",
+      "summaryVi": "Hoạt động kiểm tra tiến độ và kết quả xử lý các vấn đề đã được nêu trong cuộc kiểm toán trước.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォローアップとは",
+          "vi": "Theo dõi sau kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査後に実施される確認作業を指す。具体的には、監査で指摘された問題や改善点に対して、その後の進捗や対応状況を確認するプロセスである。このプロセスは、監査の結果が実際にどのように実行され、改善がどれほど達成されているかを評価するために重要である。例えば、システム監査でセキュリティの脆弱性が指摘された際、フォローアップを行うことで、その脆弱性が修正されたかどうかを確認し、必要に応じてさらなる対策を講じる。これにより、組織のシステムが継続的に改善され、リスクを低減することが可能となる。監査の有効性を高め、組織全体の信頼性を向上させるために欠かせないステップである。",
+          "vi": "Hoạt động kiểm tra tiến độ và kết quả xử lý các vấn đề đã được nêu trong cuộc kiểm toán trước. Ví dụ: Xác nhận lỗi cấu hình đã được sửa và không còn tái diễn."
+        },
+        {
+          "type": "point",
+          "ja": "フォローアップの目的と監査における役割を理解する。",
+          "vi": "フォローアップ là hành động theo dõi, không phải báo cáo theo dõi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォローアップ",
+          "english": "Follow-Up",
+          "vi": "Theo dõi sau kiểm toán",
+          "definitionJa": "システム監査後に実施される確認作業を指す。具体的には、監査で指摘された問題や改善点に対して、その後の進捗や対応状況を確認するプロセスである。このプロセスは、監査の結果が実際にどのように実行され、改善がどれほど達成されているかを評価するために重要である。例えば、システム監査でセキュリティの脆弱性が指摘された際、フォローアップを行うことで、その脆弱性が修正されたかどうかを確認し、必要に応じてさらなる対策を講じる。これにより、組織のシステムが継続的に改善され、リスクを低減することが可能となる。監査の有効性を高め、組織全体の信頼性を向上させるために欠かせないステップである。",
+          "definitionVi": "Hoạt động kiểm tra tiến độ và kết quả xử lý các vấn đề đã được nêu trong cuộc kiểm toán trước.",
+          "reading": ""
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "follow-up"]
+    },
+    {
+      "id": "follow-up-report",
+      "order": 40,
+      "titleJa": "フォローアップ報告書",
+      "titleVi": "Báo cáo theo dõi sau kiểm toán",
+      "importance": "medium",
+      "summaryJa": "システム監査などの評価に基づいて、改善点や対策の実施状況を確認するための文書である。",
+      "summaryVi": "Văn bản tổng hợp tình trạng thực hiện và kết quả của các biện pháp cải tiến sau kiểm toán để thông báo cho các bên liên quan.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "フォローアップ報告書とは",
+          "vi": "Báo cáo theo dõi sau kiểm toán là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "システム監査などの評価に基づいて、改善点や対策の実施状況を確認するための文書である。この報告書は、監査後に発見された問題点に対する取り組みがどの程度進んでいるのかを整理し、関係者に対して説明責任を果たす目的で作成される。具体的には、前回の監査結果に対して改善が行われたか、新たな問題が出ていないかを示すデータや具体的なアクションプランが含まれる。これにより、組織は監査から得た教訓を有効活用し、より良い業務運営を行うための基盤を築くことができる。特に、システム監査においては、情報システムの安全性や効率を高めるために重要な役割を果たす。",
+          "vi": "Văn bản tổng hợp tình trạng thực hiện và kết quả của các biện pháp cải tiến sau kiểm toán để thông báo cho các bên liên quan. Ví dụ: Báo cáo rằng 8/10 điểm yếu đã khắc phục, 2 điểm đang xử lý."
+        },
+        {
+          "type": "point",
+          "ja": "フォローアップ報告書の目的と監査における役割を理解する。",
+          "vi": "Ghi nhận kết quả follow-up bằng văn bản."
+        }
+      ],
+      "terms": [
+        {
+          "term": "フォローアップ報告書",
+          "english": "Follow-Up Report",
+          "vi": "Báo cáo theo dõi sau kiểm toán",
+          "definitionJa": "システム監査などの評価に基づいて、改善点や対策の実施状況を確認するための文書である。この報告書は、監査後に発見された問題点に対する取り組みがどの程度進んでいるのかを整理し、関係者に対して説明責任を果たす目的で作成される。具体的には、前回の監査結果に対して改善が行われたか、新たな問題が出ていないかを示すデータや具体的なアクションプランが含まれる。これにより、組織は監査から得た教訓を有効活用し、より良い業務運営を行うための基盤を築くことができる。特に、システム監査においては、情報システムの安全性や効率を高めるために重要な役割を果たす。",
+          "definitionVi": "Văn bản tổng hợp tình trạng thực hiện và kết quả của các biện pháp cải tiến sau kiểm toán để thông báo cho các bên liên quan.",
+          "reading": "ふぉろーあっぷほうこくしょ"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "follow-up-report"]
+    },
+    {
+      "id": "information-security-audit-standards",
+      "order": 41,
+      "titleJa": "情報セキュリティ監査基準",
+      "titleVi": "Chuẩn mực kiểm toán an toàn thông tin",
+      "importance": "high",
+      "summaryJa": "情報資産を保護するためのセキュリティ対策が適切に実施されているかを評価するための基準である。",
+      "summaryVi": "Các tiêu chuẩn dùng để đánh giá liệu các biện pháp bảo vệ tài sản thông tin có được thực hiện phù hợp và hiệu quả hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ監査基準とは",
+          "vi": "Chuẩn mực kiểm toán an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "情報資産を保護するためのセキュリティ対策が適切に実施されているかを評価するための基準である。これらの基準は、企業や組織が情報セキュリティの状況を客観的に確認し、必要な改善点やリスクを洗い出すのに役立つ。例えば、定期的に実施される監査によって、パスワードの管理や物理的なアクセス制御、データの暗号化の状況などがチェックされることが多い。その結果、セキュリティの脆弱性や問題が早期に発見され、適切な対策を講じることで情報漏洩やサイバー攻撃のリスクを軽減することができる。組織が安全な情報管理を実現するために重要な役割を果たしている。",
+          "vi": "Các tiêu chuẩn dùng để đánh giá liệu các biện pháp bảo vệ tài sản thông tin có được thực hiện phù hợp và hiệu quả hay không. Ví dụ: Đối chiếu việc quản lý mật khẩu và mã hóa với tiêu chí kiểm toán."
+        },
+        {
+          "type": "point",
+          "ja": "情報セキュリティ監査基準の目的と監査における役割を理解する。",
+          "vi": "Là chuẩn mực dùng để kiểm toán, khác với chuẩn quản lý an toàn thông tin."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ監査基準",
+          "english": "Information Security Audit Standards",
+          "vi": "Chuẩn mực kiểm toán an toàn thông tin",
+          "definitionJa": "情報資産を保護するためのセキュリティ対策が適切に実施されているかを評価するための基準である。これらの基準は、企業や組織が情報セキュリティの状況を客観的に確認し、必要な改善点やリスクを洗い出すのに役立つ。例えば、定期的に実施される監査によって、パスワードの管理や物理的なアクセス制御、データの暗号化の状況などがチェックされることが多い。その結果、セキュリティの脆弱性や問題が早期に発見され、適切な対策を講じることで情報漏洩やサイバー攻撃のリスクを軽減することができる。組織が安全な情報管理を実現するために重要な役割を果たしている。",
+          "definitionVi": "Các tiêu chuẩn dùng để đánh giá liệu các biện pháp bảo vệ tài sản thông tin có được thực hiện phù hợp và hiệu quả hay không.",
+          "reading": "じょうほうせきゅりてぃかんさきじゅん"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "information-security-audit-standards"
+      ]
+    },
+    {
+      "id": "information-security-management-standards",
+      "order": 42,
+      "titleJa": "情報セキュリティ管理基準",
+      "titleVi": "Chuẩn quản lý an toàn thông tin",
+      "importance": "high",
+      "summaryJa": "組織が情報を安全に管理するためのルールやガイドラインを示すものである。",
+      "summaryVi": "Các quy tắc, hướng dẫn và phương pháp giúp tổ chức thiết lập, vận hành và quản lý bảo mật thông tin, bao gồm chính sách và quản trị rủi ro.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "情報セキュリティ管理基準とは",
+          "vi": "Chuẩn quản lý an toàn thông tin là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "組織が情報を安全に管理するためのルールやガイドラインを示すものである。これらの基準は、情報資産を守るために必要なポリシーや手続き、リスク管理の手法を含む。例えば、ISO 27001という国際的な基準があり、これは情報セキュリティのシステムを構築し、運用するためのフレームワークを提供している。このような基準を採用することで、企業はデータ漏洩や不正アクセスのリスクを低減し、顧客や取引先からの信頼を得ることが可能になる。情報セキュリティの確保は、現代の社会において非常に重要な課題であり、基準を遵守することは組織の持続可能な運営に寄与する。",
+          "vi": "Các quy tắc, hướng dẫn và phương pháp giúp tổ chức thiết lập, vận hành và quản lý bảo mật thông tin, bao gồm chính sách và quản trị rủi ro. Ví dụ: Dựa vào yêu cầu ISO/IEC 27001 để xây dựng hệ thống quản lý an toàn thông tin."
+        },
+        {
+          "type": "point",
+          "ja": "情報セキュリティ管理基準の目的と監査における役割を理解する。",
+          "vi": "Phục vụ thiết lập và vận hành quản lý bảo mật, không phải chỉ để đánh giá kiểm toán."
+        }
+      ],
+      "terms": [
+        {
+          "term": "情報セキュリティ管理基準",
+          "english": "Information Security Management Standards",
+          "vi": "Chuẩn quản lý an toàn thông tin",
+          "definitionJa": "組織が情報を安全に管理するためのルールやガイドラインを示すものである。これらの基準は、情報資産を守るために必要なポリシーや手続き、リスク管理の手法を含む。例えば、ISO 27001という国際的な基準があり、これは情報セキュリティのシステムを構築し、運用するためのフレームワークを提供している。このような基準を採用することで、企業はデータ漏洩や不正アクセスのリスクを低減し、顧客や取引先からの信頼を得ることが可能になる。情報セキュリティの確保は、現代の社会において非常に重要な課題であり、基準を遵守することは組織の持続可能な運営に寄与する。",
+          "definitionVi": "Các quy tắc, hướng dẫn và phương pháp giúp tổ chức thiết lập, vận hành và quản lý bảo mật thông tin, bao gồm chính sách và quản trị rủi ro.",
+          "reading": "じょうほうせきゅりてぃかんりきじゅん"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "information-security-management-standards"
+      ]
+    },
+    {
+      "id": "cloud-security-management-standards",
+      "order": 43,
+      "titleJa": "クラウド情報セキュリティ管理基準",
+      "titleVi": "Chuẩn quản lý an toàn thông tin trên đám mây",
+      "importance": "medium",
+      "summaryJa": "クラウド環境における情報の安全性を確保するための指針やルールを指す。",
+      "summaryVi": "Các yêu cầu và hướng dẫn về bảo vệ dữ liệu, quản lý truy cập và đánh giá rủi ro trong môi trường dịch vụ đám mây.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "クラウド情報セキュリティ管理基準とは",
+          "vi": "Chuẩn quản lý an toàn thông tin trên đám mây là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "クラウド環境における情報の安全性を確保するための指針やルールを指す。これらの基準は、データ保護、アクセス管理、リスク評価など、さまざまなセキュリティ対策を含んでいる。具体的には、クラウド上で扱うデータに対してどのように暗号化を行うかや、不正アクセスを防ぐための認証プロセスをどのように設計するかが挙げられる。これにより、企業はクラウドサービスを利用する際に安全にデータを運用し、リスクを低減することが可能になる。データの漏洩や不正利用を防ぐために、業界全体で広く採用されている重要な基準である。",
+          "vi": "Các yêu cầu và hướng dẫn về bảo vệ dữ liệu, quản lý truy cập và đánh giá rủi ro trong môi trường dịch vụ đám mây. Ví dụ: Quy định mã hóa dữ liệu và xác thực người dùng khi sử dụng cloud."
+        },
+        {
+          "type": "point",
+          "ja": "クラウド情報セキュリティ管理基準の目的と監査における役割を理解する。",
+          "vi": "Áp dụng các nguyên tắc quản lý bảo mật cho môi trường đám mây."
+        }
+      ],
+      "terms": [
+        {
+          "term": "クラウド情報セキュリティ管理基準",
+          "english": "Cloud Information Security Management Standard",
+          "vi": "Chuẩn quản lý an toàn thông tin trên đám mây",
+          "definitionJa": "クラウド環境における情報の安全性を確保するための指針やルールを指す。これらの基準は、データ保護、アクセス管理、リスク評価など、さまざまなセキュリティ対策を含んでいる。具体的には、クラウド上で扱うデータに対してどのように暗号化を行うかや、不正アクセスを防ぐための認証プロセスをどのように設計するかが挙げられる。これにより、企業はクラウドサービスを利用する際に安全にデータを運用し、リスクを低減することが可能になる。データの漏洩や不正利用を防ぐために、業界全体で広く採用されている重要な基準である。",
+          "definitionVi": "Các yêu cầu và hướng dẫn về bảo vệ dữ liệu, quản lý truy cập và đánh giá rủi ro trong môi trường dịch vụ đám mây.",
+          "reading": "くらうどじょうほうせきゅりてぃかんりきじゅん"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "cloud-security-management-standards"
+      ]
+    },
+    {
+      "id": "jis-q-15001",
+      "order": 44,
+      "titleJa": "JIS Q 15001",
+      "titleVi": "Tiêu chuẩn JIS Q 15001",
+      "importance": "high",
+      "summaryJa": "日本の情報セキュリティマネジメントシステムに関する規格である。",
+      "summaryVi": "Tiêu chuẩn Nhật Bản quy định yêu cầu đối với hệ thống quản lý bảo vệ thông tin cá nhân, giúp tổ chức xử lý và bảo vệ dữ liệu cá nhân phù hợp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 15001とは",
+          "vi": "Tiêu chuẩn JIS Q 15001 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本の情報セキュリティマネジメントシステムに関する規格である。この規格は、プライバシー保護についてのフレームワークを提供し、個人情報の取り扱いに関する基準を定めている。例えば、企業が顧客の個人情報を収集した際には、その情報を適切に管理し、使用目的を明示したり、第三者に提供しないための対策が求められる。このように、組織が個人情報を安全に取り扱い、信頼を築くための指針となっている。適用することで、企業は法令遵守を強化し、顧客の信頼を得ることが可能となるため、特に情報を扱う企業にとって重要な規格である。",
+          "vi": "Tiêu chuẩn Nhật Bản quy định yêu cầu đối với hệ thống quản lý bảo vệ thông tin cá nhân, giúp tổ chức xử lý và bảo vệ dữ liệu cá nhân phù hợp. Ví dụ: Xác định mục đích thu thập và quản lý quyền truy cập dữ liệu khách hàng."
+        },
+        {
+          "type": "point",
+          "ja": "JIS Q 15001は個人情報保護マネジメントシステム（PMS）に関する規格であり、ISMS一般の規格ではない。",
+          "vi": "JIS Q 15001 liên quan quản lý bảo vệ thông tin cá nhân, không phải tiêu chuẩn ISMS tổng quát."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 15001",
+          "english": "JIS Q 15001",
+          "vi": "Tiêu chuẩn JIS Q 15001",
+          "definitionJa": "日本の情報セキュリティマネジメントシステムに関する規格である。この規格は、プライバシー保護についてのフレームワークを提供し、個人情報の取り扱いに関する基準を定めている。例えば、企業が顧客の個人情報を収集した際には、その情報を適切に管理し、使用目的を明示したり、第三者に提供しないための対策が求められる。このように、組織が個人情報を安全に取り扱い、信頼を築くための指針となっている。適用することで、企業は法令遵守を強化し、顧客の信頼を得ることが可能となるため、特に情報を扱う企業にとって重要な規格である。",
+          "definitionVi": "Tiêu chuẩn Nhật Bản quy định yêu cầu đối với hệ thống quản lý bảo vệ thông tin cá nhân, giúp tổ chức xử lý và bảo vệ dữ liệu cá nhân phù hợp.",
+          "reading": "じすきゅー15001"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "jis-q-15001"]
+    },
+    {
+      "id": "privacy-mark",
+      "order": 45,
+      "titleJa": "プライバシーマーク制度",
+      "titleVi": "Chế độ Privacy Mark",
+      "importance": "high",
+      "summaryJa": "個人情報の適切な取り扱いを評価し、認証する制度である。",
+      "summaryVi": "Hệ thống đánh giá và cấp dấu chứng nhận cho tổ chức có cơ chế xử lý, bảo vệ thông tin cá nhân phù hợp với yêu cầu áp dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "プライバシーマーク制度とは",
+          "vi": "Chế độ Privacy Mark là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "個人情報の適切な取り扱いを評価し、認証する制度である。この制度は、企業や団体が個人情報を守るための対策を講じていることを示すもので、消費者に対して安心感を提供する役割を果たす。具体的には、プライバシーマークを取得するには、個人情報保護に関する法律やガイドラインに則った運用が行われていることを第三者機関が審査する必要がある。認証を受けた組織は、プライバシーマークを使用することで、顧客や取引先に対して信頼性をアピールできる。この制度は、個人情報の保護が求められる現代において、重要な役割を担っている。",
+          "vi": "Hệ thống đánh giá và cấp dấu chứng nhận cho tổ chức có cơ chế xử lý, bảo vệ thông tin cá nhân phù hợp với yêu cầu áp dụng. Ví dụ: Doanh nghiệp được thẩm định và cấp quyền sử dụng dấu Privacy Mark."
+        },
+        {
+          "type": "point",
+          "ja": "プライバシーマーク制度の目的と監査における役割を理解する。",
+          "vi": "Là chế độ chứng nhận, khác với tiêu chuẩn JIS Q 15001."
+        }
+      ],
+      "terms": [
+        {
+          "term": "プライバシーマーク制度",
+          "english": "Privacy Mark System",
+          "vi": "Chế độ Privacy Mark",
+          "definitionJa": "個人情報の適切な取り扱いを評価し、認証する制度である。この制度は、企業や団体が個人情報を守るための対策を講じていることを示すもので、消費者に対して安心感を提供する役割を果たす。具体的には、プライバシーマークを取得するには、個人情報保護に関する法律やガイドラインに則った運用が行われていることを第三者機関が審査する必要がある。認証を受けた組織は、プライバシーマークを使用することで、顧客や取引先に対して信頼性をアピールできる。この制度は、個人情報の保護が求められる現代において、重要な役割を担っている。",
+          "definitionVi": "Hệ thống đánh giá và cấp dấu chứng nhận cho tổ chức có cơ chế xử lý, bảo vệ thông tin cá nhân phù hợp với yêu cầu áp dụng.",
+          "reading": "ぷらいばしーまーくせいど"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "privacy-mark"]
+    },
+    {
+      "id": "jis-q-19011",
+      "order": 46,
+      "titleJa": "JIS Q 19011",
+      "titleVi": "Tiêu chuẩn JIS Q 19011",
+      "importance": "high",
+      "summaryJa": "マネジメントシステムの監査を行うための指針である。",
+      "summaryVi": "Tiêu chuẩn hướng dẫn kiểm toán các hệ thống quản lý, bao gồm nguyên tắc, lập kế hoạch, thực hiện, báo cáo và năng lực kiểm toán viên.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "JIS Q 19011とは",
+          "vi": "Tiêu chuẩn JIS Q 19011 là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "マネジメントシステムの監査を行うための指針である。この規格は、監査の計画、実施、報告、フォローアップのプロセスを体系的に定義しており、監査人が効果的に評価を行えるようにすることを目的としている。具体的には、監査の目的や範囲を明確にし、適切な手順を踏むことで、組織のマネジメントシステムの適合性や有効性を確認する手助けをする。例えば、品質管理や環境管理、労働安全に関連した監査においても、JIS Q 19011が適用されることで一貫性のある評価が可能となり、組織全体の改善点を見つけ易くする。これにより、持続可能な運営をサポートする重要な要素となっている。",
+          "vi": "Tiêu chuẩn hướng dẫn kiểm toán các hệ thống quản lý, bao gồm nguyên tắc, lập kế hoạch, thực hiện, báo cáo và năng lực kiểm toán viên. Ví dụ: Áp dụng hướng dẫn JIS Q 19011 khi kiểm toán hệ thống quản lý chất lượng."
+        },
+        {
+          "type": "point",
+          "ja": "JIS Q 19011の目的と監査における役割を理解する。",
+          "vi": "Là hướng dẫn kiểm toán hệ thống quản lý, không phải chứng nhận bảo mật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "JIS Q 19011",
+          "english": "Guidelines for Auditing Management Systems",
+          "vi": "Tiêu chuẩn JIS Q 19011",
+          "definitionJa": "マネジメントシステムの監査を行うための指針である。この規格は、監査の計画、実施、報告、フォローアップのプロセスを体系的に定義しており、監査人が効果的に評価を行えるようにすることを目的としている。具体的には、監査の目的や範囲を明確にし、適切な手順を踏むことで、組織のマネジメントシステムの適合性や有効性を確認する手助けをする。例えば、品質管理や環境管理、労働安全に関連した監査においても、JIS Q 19011が適用されることで一貫性のある評価が可能となり、組織全体の改善点を見つけ易くする。これにより、持続可能な運営をサポートする重要な要素となっている。",
+          "definitionVi": "Tiêu chuẩn hướng dẫn kiểm toán các hệ thống quản lý, bao gồm nguyên tắc, lập kế hoạch, thực hiện, báo cáo và năng lực kiểm toán viên.",
+          "reading": "じすきゅー19011"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "jis-q-19011"]
+    },
+    {
+      "id": "copyright-law",
+      "order": 47,
+      "titleJa": "著作権法",
+      "titleVi": "Luật Bản quyền",
+      "importance": "medium",
+      "summaryJa": "創作された作品に対する権利を保護する法律である。",
+      "summaryVi": "Luật bảo vệ quyền đối với các tác phẩm sáng tạo như sách, âm nhạc, phim và phần mềm, điều chỉnh việc sao chép, phân phối và sử dụng tác phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "著作権法とは",
+          "vi": "Luật Bản quyền là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "創作された作品に対する権利を保護する法律である。具体的には、文学、音楽、映像、ソフトウェアなどの著作物が不正に使用されないよう、その制作者に対して独占的な権利を与える。例えば、作家が書いた本や音楽家が作曲した曲は、その著作権により、他者が無断でコピーしたり配布したりすることが禁じられている。作品の独自性と創作活動を奨励しつつ、消費者や利用者にも公正な利用を可能にする役割を果たしている。この法律の適用は国によって異なるが、多くの国で国際的な基準に基づいて遵守されている。",
+          "vi": "Luật bảo vệ quyền đối với các tác phẩm sáng tạo như sách, âm nhạc, phim và phần mềm, điều chỉnh việc sao chép, phân phối và sử dụng tác phẩm. Ví dụ: Không tự ý sao chép và phân phối phần mềm có bản quyền."
+        },
+        {
+          "type": "point",
+          "ja": "著作権法の目的と監査における役割を理解する。",
+          "vi": "Bảo vệ quyền tác giả đối với tác phẩm sáng tạo."
+        }
+      ],
+      "terms": [
+        {
+          "term": "著作権法",
+          "english": "Copyright Law",
+          "vi": "Luật Bản quyền",
+          "definitionJa": "創作された作品に対する権利を保護する法律である。具体的には、文学、音楽、映像、ソフトウェアなどの著作物が不正に使用されないよう、その制作者に対して独占的な権利を与える。例えば、作家が書いた本や音楽家が作曲した曲は、その著作権により、他者が無断でコピーしたり配布したりすることが禁じられている。作品の独自性と創作活動を奨励しつつ、消費者や利用者にも公正な利用を可能にする役割を果たしている。この法律の適用は国によって異なるが、多くの国で国際的な基準に基づいて遵守されている。",
+          "definitionVi": "Luật bảo vệ quyền đối với các tác phẩm sáng tạo như sách, âm nhạc, phim và phần mềm, điều chỉnh việc sao chép, phân phối và sử dụng tác phẩm.",
+          "reading": "ちょさくけんほう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "copyright-law"]
+    },
+    {
+      "id": "unfair-competition-prevention-act",
+      "order": 48,
+      "titleJa": "不正競争防止法",
+      "titleVi": "Luật Phòng chống cạnh tranh không lành mạnh",
+      "importance": "medium",
+      "summaryJa": "商業活動における不正な競争を防止するための法律である。",
+      "summaryVi": "Luật Nhật Bản nhằm ngăn chặn hành vi cạnh tranh không công bằng như chiếm đoạt bí mật kinh doanh hoặc sử dụng cách thể hiện gây nhầm lẫn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "不正競争防止法とは",
+          "vi": "Luật Phòng chống cạnh tranh không lành mạnh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "商業活動における不正な競争を防止するための法律である。この法律は、著作権や特許といった知的財産権の侵害を防ぎ、企業の公正な競争を保障することを目的としている。具体的には、他社の秘密情報を不正に取得したり、誤解を招く広告を行ったりする行為が禁止されている。この法律により、企業は創造的な価値を守ることができ、健全な市場環境を維持することが求められている。不正行為の被害を受けた企業は、法的手段を用いて損害賠償を求めることも可能であり、コンプライアンスの重要性が再認識される。",
+          "vi": "Luật Nhật Bản nhằm ngăn chặn hành vi cạnh tranh không công bằng như chiếm đoạt bí mật kinh doanh hoặc sử dụng cách thể hiện gây nhầm lẫn. Ví dụ: Lấy cắp bí mật kinh doanh của đối thủ có thể vi phạm luật này."
+        },
+        {
+          "type": "point",
+          "ja": "不正競争防止法の目的と監査における役割を理解する。",
+          "vi": "Khác với Luật Bản quyền: tập trung vào các hành vi cạnh tranh không lành mạnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "不正競争防止法",
+          "english": "Unfair Competition Prevention Act",
+          "vi": "Luật Phòng chống cạnh tranh không lành mạnh",
+          "definitionJa": "商業活動における不正な競争を防止するための法律である。この法律は、著作権や特許といった知的財産権の侵害を防ぎ、企業の公正な競争を保障することを目的としている。具体的には、他社の秘密情報を不正に取得したり、誤解を招く広告を行ったりする行為が禁止されている。この法律により、企業は創造的な価値を守ることができ、健全な市場環境を維持することが求められている。不正行為の被害を受けた企業は、法的手段を用いて損害賠償を求めることも可能であり、コンプライアンスの重要性が再認識される。",
+          "definitionVi": "Luật Nhật Bản nhằm ngăn chặn hành vi cạnh tranh không công bằng như chiếm đoạt bí mật kinh doanh hoặc sử dụng cách thể hiện gây nhầm lẫn.",
+          "reading": "ふせいきょうそうぼうしほう"
+        }
+      ],
+      "tags": [
+        "system-audit",
+        "system-audit-basics",
+        "unfair-competition-prevention-act"
+      ]
+    },
+    {
+      "id": "labor-standards-act",
+      "order": 49,
+      "titleJa": "労働基準法",
+      "titleVi": "Luật Tiêu chuẩn lao động",
+      "importance": "medium",
+      "summaryJa": "労働者の権利を保護し、最低限の労働条件を定める法律である。",
+      "summaryVi": "Luật Nhật Bản quy định các điều kiện lao động tối thiểu như thời giờ làm việc, tiền lương và nghỉ phép nhằm bảo vệ người lao động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "労働基準法とは",
+          "vi": "Luật Tiêu chuẩn lao động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "労働者の権利を保護し、最低限の労働条件を定める法律である。この法律は、労働時間、賃金、休暇、解雇などの基本的な労働条件を規定し、全ての労働者が安全で公正な労働環境で働けるようにすることを目的としている。たとえば、時間外労働に対する賃金の割増や、労働者の健康を守るための労働安全衛生に関する規定が含まれている。このため、労働基準法は企業や組織が遵守すべき重要な法律であり、労働者の権利を守るための重要な枠組みを提供している。これにより、労働者は安心して働くことができ、また企業は倫理的な経営を実現することが期待される。",
+          "vi": "Luật Nhật Bản quy định các điều kiện lao động tối thiểu như thời giờ làm việc, tiền lương và nghỉ phép nhằm bảo vệ người lao động. Ví dụ: Kiểm tra việc trả lương làm thêm giờ theo quy định."
+        },
+        {
+          "type": "point",
+          "ja": "労働基準法の目的と監査における役割を理解する。",
+          "vi": "Là căn cứ pháp lý về điều kiện lao động tối thiểu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "労働基準法",
+          "english": "Labor Standards Act",
+          "vi": "Luật Tiêu chuẩn lao động",
+          "definitionJa": "労働者の権利を保護し、最低限の労働条件を定める法律である。この法律は、労働時間、賃金、休暇、解雇などの基本的な労働条件を規定し、全ての労働者が安全で公正な労働環境で働けるようにすることを目的としている。たとえば、時間外労働に対する賃金の割増や、労働者の健康を守るための労働安全衛生に関する規定が含まれている。このため、労働基準法は企業や組織が遵守すべき重要な法律であり、労働者の権利を守るための重要な枠組みを提供している。これにより、労働者は安心して働くことができ、また企業は倫理的な経営を実現することが期待される。",
+          "definitionVi": "Luật Nhật Bản quy định các điều kiện lao động tối thiểu như thời giờ làm việc, tiền lương và nghỉ phép nhằm bảo vệ người lao động.",
+          "reading": "ろうどうきじゅんほう"
+        }
+      ],
+      "tags": ["system-audit", "system-audit-basics", "labor-standards-act"]
+    }
+  ]
 }

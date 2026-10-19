@@ -4,5 +4,651 @@
   "titleJa": "産業機器",
   "titleVi": "Thiết bị công nghiệp",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "m2m",
+      "order": 1,
+      "titleJa": "M2M",
+      "titleVi": "Giao tiếp máy với máy",
+      "importance": "high",
+      "summaryJa": "機器同士が人の操作を介さずに通信し、データを交換する仕組み。",
+      "summaryVi": "Công nghệ cho phép máy móc và thiết bị tự động trao đổi dữ liệu với nhau, ví dụ máy sản xuất gửi trạng thái hoạt động tới hệ thống giám sát.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "M2Mとは",
+          "vi": "Giao tiếp máy với máy là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "機器同士が人の操作を介さずに通信し、データを交換する仕組み。工場の設備が稼働状態を監視システムに送るなど、機械間の自動連携に使われる。",
+          "vi": "Công nghệ cho phép máy móc và thiết bị tự động trao đổi dữ liệu với nhau, ví dụ máy sản xuất gửi trạng thái hoạt động tới hệ thống giám sát. M2M có thể dùng mạng riêng, không bắt buộc phải kết nối Internet."
+        },
+        {
+          "type": "point",
+          "ja": "M2Mは機器間通信に着目し、IoTはモノをネットワークにつないでデータ活用する広い概念である。",
+          "vi": "M2M nhấn mạnh giao tiếp giữa máy; IoT rộng hơn, bao gồm kết nối, thu thập và khai thác dữ liệu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "M2M",
+          "english": "Machine to Machine",
+          "vi": "Giao tiếp máy với máy",
+          "definitionJa": "機器同士が人の操作を介さずに通信し、データを交換する仕組み。工場の設備が稼働状態を監視システムに送るなど、機械間の自動連携に使われる。",
+          "definitionVi": "Công nghệ cho phép máy móc và thiết bị tự động trao đổi dữ liệu với nhau, ví dụ máy sản xuất gửi trạng thái hoạt động tới hệ thống giám sát. M2M có thể dùng mạng riêng, không bắt buộc phải kết nối Internet.",
+          "reading": "えむつーえむ"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "m2m"]
+    },
+    {
+      "id": "smart-city",
+      "order": 2,
+      "titleJa": "スマートシティ",
+      "titleVi": "Thành phố thông minh",
+      "importance": "high",
+      "summaryJa": "ICTやIoT、データを活用して、交通、エネルギー、防災など都市の課題を解決し、住民の利便性や持続可能性を高める都市づくり。",
+      "summaryVi": "Mô hình phát triển đô thị dùng ICT, IoT và dữ liệu để tối ưu giao thông, năng lượng, môi trường, phòng chống thiên tai và chất lượng sống.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマートシティとは",
+          "vi": "Thành phố thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "ICTやIoT、データを活用して、交通、エネルギー、防災など都市の課題を解決し、住民の利便性や持続可能性を高める都市づくり。",
+          "vi": "Mô hình phát triển đô thị dùng ICT, IoT và dữ liệu để tối ưu giao thông, năng lượng, môi trường, phòng chống thiên tai và chất lượng sống. Ví dụ điều chỉnh đèn giao thông dựa trên lưu lượng thực tế."
+        },
+        {
+          "type": "point",
+          "ja": "スマートシティは都市課題の解決全般を指す。スーパーシティとは制度上の位置付けも異なる。",
+          "vi": "Smart City là khái niệm đô thị thông minh nói chung; Super City ở Nhật gắn với sáng kiến và khuôn khổ triển khai dịch vụ tiên tiến liên ngành."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマートシティ",
+          "english": "Smart City",
+          "vi": "Thành phố thông minh",
+          "definitionJa": "ICTやIoT、データを活用して、交通、エネルギー、防災など都市の課題を解決し、住民の利便性や持続可能性を高める都市づくり。",
+          "definitionVi": "Mô hình phát triển đô thị dùng ICT, IoT và dữ liệu để tối ưu giao thông, năng lượng, môi trường, phòng chống thiên tai và chất lượng sống. Ví dụ điều chỉnh đèn giao thông dựa trên lưu lượng thực tế.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "smart-city"]
+    },
+    {
+      "id": "super-city",
+      "order": 3,
+      "titleJa": "スーパーシティ",
+      "titleVi": "Siêu đô thị thông minh",
+      "importance": "medium",
+      "summaryJa": "日本のスーパーシティ構想は、国家戦略特区の枠組みなどを活用し、先端的サービスを複数分野で一体的に実装することを目指す取組。",
+      "summaryVi": "Sáng kiến Super City tại Nhật hướng đến triển khai đồng bộ nhiều dịch vụ tiên tiến như di chuyển, y tế, hành chính và thanh toán, có liên kết dữ liệu giữa các lĩnh vực; không đơn thuần là thành phố có nhiều thiết bị IoT.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スーパーシティとは",
+          "vi": "Siêu đô thị thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "日本のスーパーシティ構想は、国家戦略特区の枠組みなどを活用し、先端的サービスを複数分野で一体的に実装することを目指す取組。",
+          "vi": "Sáng kiến Super City tại Nhật hướng đến triển khai đồng bộ nhiều dịch vụ tiên tiến như di chuyển, y tế, hành chính và thanh toán, có liên kết dữ liệu giữa các lĩnh vực; không đơn thuần là thành phố có nhiều thiết bị IoT."
+        },
+        {
+          "type": "point",
+          "ja": "スーパーシティはスマートシティの単なる別名ではなく、分野横断的な先端サービスの実装を重視する。",
+          "vi": "Phân biệt: Smart City là mục tiêu đô thị thông minh rộng; Super City nhấn mạnh triển khai tích hợp nhiều dịch vụ tiên tiến trong khuôn khổ chính sách Nhật."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スーパーシティ",
+          "english": "Super City",
+          "vi": "Siêu đô thị thông minh",
+          "definitionJa": "日本のスーパーシティ構想は、国家戦略特区の枠組みなどを活用し、先端的サービスを複数分野で一体的に実装することを目指す取組。",
+          "definitionVi": "Sáng kiến Super City tại Nhật hướng đến triển khai đồng bộ nhiều dịch vụ tiên tiến như di chuyển, y tế, hành chính và thanh toán, có liên kết dữ liệu giữa các lĩnh vực; không đơn thuần là thành phố có nhiều thiết bị IoT.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "super-city"]
+    },
+    {
+      "id": "smart-factory",
+      "order": 4,
+      "titleJa": "スマートファクトリー",
+      "titleVi": "Nhà máy thông minh",
+      "importance": "high",
+      "summaryJa": "IoT、AI、センサー、ロボットなどを活用し、製造設備の状態や生産データを収集・分析して、生産性や品質を高める工場。",
+      "summaryVi": "Nhà máy tích hợp IoT, cảm biến, robot và AI để theo dõi thiết bị, phân tích dữ liệu sản xuất, dự báo hỏng hóc và tối ưu chất lượng, chi phí, thời gian.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマートファクトリーとは",
+          "vi": "Nhà máy thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "IoT、AI、センサー、ロボットなどを活用し、製造設備の状態や生産データを収集・分析して、生産性や品質を高める工場。",
+          "vi": "Nhà máy tích hợp IoT, cảm biến, robot và AI để theo dõi thiết bị, phân tích dữ liệu sản xuất, dự báo hỏng hóc và tối ưu chất lượng, chi phí, thời gian."
+        },
+        {
+          "type": "point",
+          "ja": "FAは工場の自動化、スマートファクトリーはデータの連携・分析による全体最適化まで重視する。",
+          "vi": "FA tập trung tự động hóa; Smart Factory còn liên kết và phân tích dữ liệu để tối ưu toàn bộ nhà máy."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマートファクトリー",
+          "english": "Smart Factory",
+          "vi": "Nhà máy thông minh",
+          "definitionJa": "IoT、AI、センサー、ロボットなどを活用し、製造設備の状態や生産データを収集・分析して、生産性や品質を高める工場。",
+          "definitionVi": "Nhà máy tích hợp IoT, cảm biến, robot và AI để theo dõi thiết bị, phân tích dữ liệu sản xuất, dự báo hỏng hóc và tối ưu chất lượng, chi phí, thời gian.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "smart-factory"]
+    },
+    {
+      "id": "smart-agriculture",
+      "order": 5,
+      "titleJa": "スマート農業",
+      "titleVi": "Nông nghiệp thông minh",
+      "importance": "medium",
+      "summaryJa": "センサー、IoT、AI、ドローンなどを利用して、作物の生育や土壌の状態を把握し、農作業の省力化や収量・品質の向上を図る取組。",
+      "summaryVi": "Ứng dụng cảm biến, IoT, AI, drone và máy móc tự động để theo dõi đất, độ ẩm, sinh trưởng cây trồng; tưới, bón phân đúng nhu cầu nhằm giảm công lao động và tăng năng suất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "スマート農業とは",
+          "vi": "Nông nghiệp thông minh là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサー、IoT、AI、ドローンなどを利用して、作物の生育や土壌の状態を把握し、農作業の省力化や収量・品質の向上を図る取組。",
+          "vi": "Ứng dụng cảm biến, IoT, AI, drone và máy móc tự động để theo dõi đất, độ ẩm, sinh trưởng cây trồng; tưới, bón phân đúng nhu cầu nhằm giảm công lao động và tăng năng suất."
+        },
+        {
+          "type": "point",
+          "ja": "データに基づく栽培管理や農作業の自動化が代表例。",
+          "vi": "Nhớ ví dụ: cảm biến độ ẩm điều khiển tưới tự động, drone khảo sát ruộng và AI dự báo sâu bệnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "スマート農業",
+          "english": "Smart Agriculture",
+          "vi": "Nông nghiệp thông minh",
+          "definitionJa": "センサー、IoT、AI、ドローンなどを利用して、作物の生育や土壌の状態を把握し、農作業の省力化や収量・品質の向上を図る取組。",
+          "definitionVi": "Ứng dụng cảm biến, IoT, AI, drone và máy móc tự động để theo dõi đất, độ ẩm, sinh trưởng cây trồng; tưới, bón phân đúng nhu cầu nhằm giảm công lao động và tăng năng suất.",
+          "reading": "すまーとのうぎょう"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "smart-agriculture"]
+    },
+    {
+      "id": "maas",
+      "order": 6,
+      "titleJa": "MaaS",
+      "titleVi": "Di chuyển như một dịch vụ",
+      "importance": "high",
+      "summaryJa": "鉄道、バス、タクシー、カーシェアなど複数の移動サービスを統合し、検索・予約・決済などを一体的に利用できる仕組み。",
+      "summaryVi": "Nền tảng tích hợp nhiều phương tiện như tàu, xe buýt, taxi, xe đạp/ô tô chia sẻ để người dùng tra cứu hành trình, đặt chỗ và thanh toán thuận tiện trong một dịch vụ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MaaSとは",
+          "vi": "Di chuyển như một dịch vụ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "鉄道、バス、タクシー、カーシェアなど複数の移動サービスを統合し、検索・予約・決済などを一体的に利用できる仕組み。",
+          "vi": "Nền tảng tích hợp nhiều phương tiện như tàu, xe buýt, taxi, xe đạp/ô tô chia sẻ để người dùng tra cứu hành trình, đặt chỗ và thanh toán thuận tiện trong một dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "MaaSは移動サービスの統合であり、自動運転技術そのものではない。",
+          "vi": "MaaS = tích hợp dịch vụ di chuyển, không đồng nghĩa với xe tự lái hay chỉ một ứng dụng gọi taxi."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MaaS",
+          "english": "Mobility as a Service",
+          "vi": "Di chuyển như một dịch vụ",
+          "definitionJa": "鉄道、バス、タクシー、カーシェアなど複数の移動サービスを統合し、検索・予約・決済などを一体的に利用できる仕組み。",
+          "definitionVi": "Nền tảng tích hợp nhiều phương tiện như tàu, xe buýt, taxi, xe đạp/ô tô chia sẻ để người dùng tra cứu hành trình, đặt chỗ và thanh toán thuận tiện trong một dịch vụ.",
+          "reading": "まーす"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "maas"]
+    },
+    {
+      "id": "robot",
+      "order": 7,
+      "titleJa": "ロボット",
+      "titleVi": "Robot",
+      "importance": "medium",
+      "summaryJa": "センサー、制御装置、駆動機構などを用いて、あらかじめ設定された処理や状況に応じた作業を行う機械・システム。",
+      "summaryVi": "Máy hoặc hệ thống sử dụng cảm biến, bộ điều khiển và cơ cấu chấp hành để thực hiện công việc theo chương trình hoặc theo môi trường; ứng dụng trong công nghiệp, y tế, chăm sóc và cứu hộ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ロボットとは",
+          "vi": "Robot là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサー、制御装置、駆動機構などを用いて、あらかじめ設定された処理や状況に応じた作業を行う機械・システム。製造、医療、介護、災害対応などに利用される。",
+          "vi": "Máy hoặc hệ thống sử dụng cảm biến, bộ điều khiển và cơ cấu chấp hành để thực hiện công việc theo chương trình hoặc theo môi trường; ứng dụng trong công nghiệp, y tế, chăm sóc và cứu hộ."
+        },
+        {
+          "type": "point",
+          "ja": "ロボットは必ずしも人型ではなく、産業用アームや搬送ロボットも含む。",
+          "vi": "Robot không nhất thiết có hình người; cánh tay công nghiệp và robot vận chuyển cũng là robot."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ロボット",
+          "english": "Robot",
+          "vi": "Robot",
+          "definitionJa": "センサー、制御装置、駆動機構などを用いて、あらかじめ設定された処理や状況に応じた作業を行う機械・システム。製造、医療、介護、災害対応などに利用される。",
+          "definitionVi": "Máy hoặc hệ thống sử dụng cảm biến, bộ điều khiển và cơ cấu chấp hành để thực hiện công việc theo chương trình hoặc theo môi trường; ứng dụng trong công nghiệp, y tế, chăm sóc và cứu hộ.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "robot"]
+    },
+    {
+      "id": "drone",
+      "order": 8,
+      "titleJa": "ドローン",
+      "titleVi": "Máy bay không người lái (drone)",
+      "importance": "medium",
+      "summaryJa": "人が搭乗せず、遠隔操作または自律制御によって飛行する無人航空機。",
+      "summaryVi": "Thiết bị bay không người lái, có thể điều khiển từ xa hoặc bay tự động; dùng để chụp ảnh, khảo sát, kiểm tra công trình, phun thuốc và đánh giá vùng thiên tai.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ドローンとは",
+          "vi": "Máy bay không người lái (drone) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "人が搭乗せず、遠隔操作または自律制御によって飛行する無人航空機。空撮、点検、測量、農業、防災などに活用される。",
+          "vi": "Thiết bị bay không người lái, có thể điều khiển từ xa hoặc bay tự động; dùng để chụp ảnh, khảo sát, kiểm tra công trình, phun thuốc và đánh giá vùng thiên tai."
+        },
+        {
+          "type": "point",
+          "ja": "ドローンは無人航空機の一種で、すべてが完全自律飛行するわけではない。",
+          "vi": "Drone có thể điều khiển từ xa; không phải drone nào cũng bay tự hành hoàn toàn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ドローン",
+          "english": "Drone",
+          "vi": "Máy bay không người lái (drone)",
+          "definitionJa": "人が搭乗せず、遠隔操作または自律制御によって飛行する無人航空機。空撮、点検、測量、農業、防災などに活用される。",
+          "definitionVi": "Thiết bị bay không người lái, có thể điều khiển từ xa hoặc bay tự động; dùng để chụp ảnh, khảo sát, kiểm tra công trình, phun thuốc và đánh giá vùng thiên tai.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "drone"]
+    },
+    {
+      "id": "automated-warehouse",
+      "order": 9,
+      "titleJa": "自動倉庫",
+      "titleVi": "Kho tự động",
+      "importance": "medium",
+      "summaryJa": "入庫、保管、搬送、出庫などの作業を搬送装置やロボット、管理システムによって自動化する倉庫。",
+      "summaryVi": "Hệ thống kho tự động hóa việc nhập kho, lưu trữ, lấy hàng và vận chuyển bằng robot, băng chuyền, thiết bị nâng và phần mềm quản lý, giúp giảm sai sót và nâng hiệu suất.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動倉庫とは",
+          "vi": "Kho tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "入庫、保管、搬送、出庫などの作業を搬送装置やロボット、管理システムによって自動化する倉庫。作業効率や在庫管理の精度を向上させる。",
+          "vi": "Hệ thống kho tự động hóa việc nhập kho, lưu trữ, lấy hàng và vận chuyển bằng robot, băng chuyền, thiết bị nâng và phần mềm quản lý, giúp giảm sai sót và nâng hiệu suất."
+        },
+        {
+          "type": "point",
+          "ja": "自動倉庫は保管・入出庫の自動化、無人搬送車は物品の移動を担う装置である。",
+          "vi": "Kho tự động là hệ thống tổng thể; AGV là phương tiện vận chuyển có thể hoạt động bên trong kho."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動倉庫",
+          "english": "Automated Warehouse",
+          "vi": "Kho tự động",
+          "definitionJa": "入庫、保管、搬送、出庫などの作業を搬送装置やロボット、管理システムによって自動化する倉庫。作業効率や在庫管理の精度を向上させる。",
+          "definitionVi": "Hệ thống kho tự động hóa việc nhập kho, lưu trữ, lấy hàng và vận chuyển bằng robot, băng chuyền, thiết bị nâng và phần mềm quản lý, giúp giảm sai sót và nâng hiệu suất.",
+          "reading": "じどうそうこ"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "industrial-equipment",
+        "automated-warehouse"
+      ]
+    },
+    {
+      "id": "vending-machine",
+      "order": 10,
+      "titleJa": "自動販売機",
+      "titleVi": "Máy bán hàng tự động",
+      "importance": "low",
+      "summaryJa": "利用者が商品を選択して代金を支払うと、販売員を介さずに商品を提供する機械。",
+      "summaryVi": "Máy tự động bán hàng khi khách chọn sản phẩm và thanh toán, không cần nhân viên trực tiếp; có thể hỗ trợ tiền mặt, thẻ hoặc thanh toán mã QR.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動販売機とは",
+          "vi": "Máy bán hàng tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者が商品を選択して代金を支払うと、販売員を介さずに商品を提供する機械。現金、電子マネー、QRコード決済などに対応する機種がある。",
+          "vi": "Máy tự động bán hàng khi khách chọn sản phẩm và thanh toán, không cần nhân viên trực tiếp; có thể hỗ trợ tiền mặt, thẻ hoặc thanh toán mã QR."
+        },
+        {
+          "type": "point",
+          "ja": "自動販売機は商品の販売、自動倉庫は商品の保管・搬送を目的とする。",
+          "vi": "Máy bán hàng tự động cung cấp hàng cho khách; kho tự động phục vụ lưu trữ và luân chuyển hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動販売機",
+          "english": "Vending Machine",
+          "vi": "Máy bán hàng tự động",
+          "definitionJa": "利用者が商品を選択して代金を支払うと、販売員を介さずに商品を提供する機械。現金、電子マネー、QRコード決済などに対応する機種がある。",
+          "definitionVi": "Máy tự động bán hàng khi khách chọn sản phẩm và thanh toán, không cần nhân viên trực tiếp; có thể hỗ trợ tiền mặt, thẻ hoặc thanh toán mã QR.",
+          "reading": "じどうはんばいき"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "vending-machine"]
+    },
+    {
+      "id": "atm",
+      "order": 11,
+      "titleJa": "ATM",
+      "titleVi": "Máy giao dịch ngân hàng tự động",
+      "importance": "low",
+      "summaryJa": "金融機関の窓口担当者を介さずに、現金の引出し・預入れ、残高照会、振込などの取引を行う端末。",
+      "summaryVi": "Thiết bị giao dịch ngân hàng tự động cho phép rút/nộp tiền, kiểm tra số dư, chuyển khoản tùy ngân hàng và thiết bị.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ATMとは",
+          "vi": "Máy giao dịch ngân hàng tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "金融機関の窓口担当者を介さずに、現金の引出し・預入れ、残高照会、振込などの取引を行う端末。利用できる機能や時間は機種・金融機関によって異なる。",
+          "vi": "Thiết bị giao dịch ngân hàng tự động cho phép rút/nộp tiền, kiểm tra số dư, chuyển khoản tùy ngân hàng và thiết bị. Việc xác thực có thể bằng thẻ, mã PIN hoặc phương thức khác."
+        },
+        {
+          "type": "point",
+          "ja": "ATMは金融取引を扱う。すべてのATMが24時間稼働するわけではない。",
+          "vi": "ATM xử lý giao dịch tài chính; không phải ATM nào cũng hoạt động 24/7."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ATM",
+          "english": "Automated Teller Machine",
+          "vi": "Máy giao dịch ngân hàng tự động",
+          "definitionJa": "金融機関の窓口担当者を介さずに、現金の引出し・預入れ、残高照会、振込などの取引を行う端末。利用できる機能や時間は機種・金融機関によって異なる。",
+          "definitionVi": "Thiết bị giao dịch ngân hàng tự động cho phép rút/nộp tiền, kiểm tra số dư, chuyển khoản tùy ngân hàng và thiết bị. Việc xác thực có thể bằng thẻ, mã PIN hoặc phương thức khác.",
+          "reading": "えーてぃーえむ"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "atm"]
+    },
+    {
+      "id": "medical-devices",
+      "order": 12,
+      "titleJa": "医療機器",
+      "titleVi": "Thiết bị y tế",
+      "importance": "medium",
+      "summaryJa": "疾病の診断、治療、予防や身体の状態の把握などに用いる機器・器具。",
+      "summaryVi": "Thiết bị và dụng cụ phục vụ chẩn đoán, điều trị, phòng bệnh hoặc theo dõi sức khỏe như máy điện tim, máy chẩn đoán hình ảnh, dụng cụ phẫu thuật, bộ xét nghiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "医療機器とは",
+          "vi": "Thiết bị y tế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "疾病の診断、治療、予防や身体の状態の把握などに用いる機器・器具。心電計、画像診断装置、手術器具、検査キットなどがある。",
+          "vi": "Thiết bị và dụng cụ phục vụ chẩn đoán, điều trị, phòng bệnh hoặc theo dõi sức khỏe như máy điện tim, máy chẩn đoán hình ảnh, dụng cụ phẫu thuật, bộ xét nghiệm."
+        },
+        {
+          "type": "point",
+          "ja": "医療機器は用途に応じて安全性・精度・規制への対応が重要となる。",
+          "vi": "Thiết bị y tế phải đáp ứng yêu cầu về an toàn, độ chính xác và quy định phù hợp với loại thiết bị."
+        }
+      ],
+      "terms": [
+        {
+          "term": "医療機器",
+          "english": "Medical Devices",
+          "vi": "Thiết bị y tế",
+          "definitionJa": "疾病の診断、治療、予防や身体の状態の把握などに用いる機器・器具。心電計、画像診断装置、手術器具、検査キットなどがある。",
+          "definitionVi": "Thiết bị và dụng cụ phục vụ chẩn đoán, điều trị, phòng bệnh hoặc theo dõi sức khỏe như máy điện tim, máy chẩn đoán hình ảnh, dụng cụ phẫu thuật, bộ xét nghiệm.",
+          "reading": "いりょうきき"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "medical-devices"]
+    },
+    {
+      "id": "patient-monitoring-device",
+      "order": 13,
+      "titleJa": "患者モニタリング装置",
+      "titleVi": "Thiết bị theo dõi bệnh nhân",
+      "importance": "medium",
+      "summaryJa": "心拍数、血圧、呼吸数、血中酸素飽和度などの生体情報を継続的に測定・表示し、異常時に警報を出す装置。",
+      "summaryVi": "Thiết bị liên tục đo và hiển thị các chỉ số sinh tồn như nhịp tim, huyết áp, nhịp thở, SpO₂ và cảnh báo khi vượt ngưỡng; dùng trong ICU, phòng mổ hoặc theo dõi từ xa.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "患者モニタリング装置とは",
+          "vi": "Thiết bị theo dõi bệnh nhân là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "心拍数、血圧、呼吸数、血中酸素飽和度などの生体情報を継続的に測定・表示し、異常時に警報を出す装置。集中治療室や手術室などで用いられる。",
+          "vi": "Thiết bị liên tục đo và hiển thị các chỉ số sinh tồn như nhịp tim, huyết áp, nhịp thở, SpO₂ và cảnh báo khi vượt ngưỡng; dùng trong ICU, phòng mổ hoặc theo dõi từ xa."
+        },
+        {
+          "type": "point",
+          "ja": "患者モニタリング装置は生体情報の監視が主目的であり、診断・治療をすべて自動で行う装置ではない。",
+          "vi": "Chức năng chính là giám sát và cảnh báo, không phải tự chẩn đoán hay tự điều trị toàn bộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "患者モニタリング装置",
+          "english": "Patient Monitoring Device",
+          "vi": "Thiết bị theo dõi bệnh nhân",
+          "definitionJa": "心拍数、血圧、呼吸数、血中酸素飽和度などの生体情報を継続的に測定・表示し、異常時に警報を出す装置。集中治療室や手術室などで用いられる。",
+          "definitionVi": "Thiết bị liên tục đo và hiển thị các chỉ số sinh tồn như nhịp tim, huyết áp, nhịp thở, SpO₂ và cảnh báo khi vượt ngưỡng; dùng trong ICU, phòng mổ hoặc theo dõi từ xa.",
+          "reading": "かんじゃもにたりんぐそうち"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "industrial-equipment",
+        "patient-monitoring-device"
+      ]
+    },
+    {
+      "id": "case",
+      "order": 14,
+      "titleJa": "CASE",
+      "titleVi": "Bốn xu hướng CASE trong ô tô",
+      "importance": "high",
+      "summaryJa": "自動車産業の四つの変化を示す略語。",
+      "summaryVi": "Từ viết tắt của bốn xu hướng ô tô: C – Connected (kết nối), A – Autonomous (tự lái), S – Shared & Services (chia sẻ và dịch vụ), E – Electric (điện hóa).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CASEとは",
+          "vi": "Bốn xu hướng CASE trong ô tô là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自動車産業の四つの変化を示す略語。Connected（つながる車）、Autonomous（自動運転）、Shared & Services（共有・サービス化）、Electric（電動化）を表す。",
+          "vi": "Từ viết tắt của bốn xu hướng ô tô: C – Connected (kết nối), A – Autonomous (tự lái), S – Shared & Services (chia sẻ và dịch vụ), E – Electric (điện hóa)."
+        },
+        {
+          "type": "point",
+          "ja": "この文脈のCASEは自動車産業の用語であり、ソフトウェア開発のCASEツールとは異なる。",
+          "vi": "CASE trong ngành ô tô khác với CASE = Computer-Aided Software Engineering trong phát triển phần mềm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CASE",
+          "english": "Connected, Autonomous, Shared & Services, Electric",
+          "vi": "Bốn xu hướng CASE trong ô tô",
+          "definitionJa": "自動車産業の四つの変化を示す略語。Connected（つながる車）、Autonomous（自動運転）、Shared & Services（共有・サービス化）、Electric（電動化）を表す。",
+          "definitionVi": "Từ viết tắt của bốn xu hướng ô tô: C – Connected (kết nối), A – Autonomous (tự lái), S – Shared & Services (chia sẻ và dịch vụ), E – Electric (điện hóa).",
+          "reading": "けーす"
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "case"]
+    },
+    {
+      "id": "connected-car",
+      "order": 15,
+      "titleJa": "コネクテッドカー",
+      "titleVi": "Ô tô kết nối mạng",
+      "importance": "high",
+      "summaryJa": "通信機能を備え、車両の状態、位置情報、交通情報などを外部のシステムやサービスとやり取りできる自動車。",
+      "summaryVi": "Ô tô có kết nối mạng, trao đổi dữ liệu với dịch vụ bên ngoài về vị trí, giao thông, trạng thái xe; hỗ trợ dẫn đường, chẩn đoán từ xa và cảnh báo bảo trì.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コネクテッドカーとは",
+          "vi": "Ô tô kết nối mạng là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "通信機能を備え、車両の状態、位置情報、交通情報などを外部のシステムやサービスとやり取りできる自動車。遠隔診断や情報提供などに利用される。",
+          "vi": "Ô tô có kết nối mạng, trao đổi dữ liệu với dịch vụ bên ngoài về vị trí, giao thông, trạng thái xe; hỗ trợ dẫn đường, chẩn đoán từ xa và cảnh báo bảo trì."
+        },
+        {
+          "type": "point",
+          "ja": "コネクテッドカーは通信機能を持つ車であり、自動運転車と同義ではない。",
+          "vi": "Xe kết nối mạng không nhất thiết là xe tự lái; Connected là chữ C trong CASE."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コネクテッドカー",
+          "english": "Connected Car",
+          "vi": "Ô tô kết nối mạng",
+          "definitionJa": "通信機能を備え、車両の状態、位置情報、交通情報などを外部のシステムやサービスとやり取りできる自動車。遠隔診断や情報提供などに利用される。",
+          "definitionVi": "Ô tô có kết nối mạng, trao đổi dữ liệu với dịch vụ bên ngoài về vị trí, giao thông, trạng thái xe; hỗ trợ dẫn đường, chẩn đoán từ xa và cảnh báo bảo trì.",
+          "reading": ""
+        }
+      ],
+      "tags": ["business-industry", "industrial-equipment", "connected-car"]
+    },
+    {
+      "id": "autonomous-driving",
+      "order": 16,
+      "titleJa": "自動運転",
+      "titleVi": "Công nghệ lái xe tự động",
+      "importance": "high",
+      "summaryJa": "センサー、カメラ、制御装置などを用いて、車両が周囲の状況を認識・判断し、加速、制動、操舵などの運転操作を自動化する技術。",
+      "summaryVi": "Công nghệ dùng cảm biến, camera và hệ thống điều khiển để nhận biết môi trường, ra quyết định và tự động thực hiện lái, phanh, tăng tốc.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動運転とは",
+          "vi": "Công nghệ lái xe tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "センサー、カメラ、制御装置などを用いて、車両が周囲の状況を認識・判断し、加速、制動、操舵などの運転操作を自動化する技術。自動化の範囲はレベルによって異なる。",
+          "vi": "Công nghệ dùng cảm biến, camera và hệ thống điều khiển để nhận biết môi trường, ra quyết định và tự động thực hiện lái, phanh, tăng tốc. Mức độ trách nhiệm của người lái tùy cấp độ tự động hóa."
+        },
+        {
+          "type": "point",
+          "ja": "自動運転には段階があり、すべてのシステムが運転者不要というわけではない。",
+          "vi": "Không phải mọi hệ thống tự lái đều cho phép người lái bỏ giám sát; cần xét cấp độ SAE."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動運転",
+          "english": "Autonomous Driving",
+          "vi": "Công nghệ lái xe tự động",
+          "definitionJa": "センサー、カメラ、制御装置などを用いて、車両が周囲の状況を認識・判断し、加速、制動、操舵などの運転操作を自動化する技術。自動化の範囲はレベルによって異なる。",
+          "definitionVi": "Công nghệ dùng cảm biến, camera và hệ thống điều khiển để nhận biết môi trường, ra quyết định và tự động thực hiện lái, phanh, tăng tốc. Mức độ trách nhiệm của người lái tùy cấp độ tự động hóa.",
+          "reading": "じどううんてん"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "industrial-equipment",
+        "autonomous-driving"
+      ]
+    },
+    {
+      "id": "autonomous-driving-levels",
+      "order": 17,
+      "titleJa": "自動運転レベル",
+      "titleVi": "Các cấp độ lái xe tự động",
+      "importance": "high",
+      "summaryJa": "SAE J3016では運転自動化をレベル0～5の6段階に分類する。",
+      "summaryVi": "Chuẩn SAE J3016 chia thành 6 mức: 0 không tự động hóa; 1 hỗ trợ một chức năng; 2 hệ thống điều khiển đồng thời lái ngang và dọc nhưng người lái phải giám sát; 3 tự lái có điều kiện và người lái phải tiếp quản khi được yêu cầu; 4 tự lái trong phạm vi điều kiện vận hành thiết kế mà không cần người lái tiếp quản; 5 tự lái trong mọi điều kiện mà người lái có thể vận hành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "自動運転レベルとは",
+          "vi": "Các cấp độ lái xe tự động là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "SAE J3016では運転自動化をレベル0～5の6段階に分類する。レベル0は運転自動化なし、1は運転支援、2は部分的な運転自動化、3は条件付運転自動化、4は高度運転自動化、5は完全運転自動化を示す。",
+          "vi": "Chuẩn SAE J3016 chia thành 6 mức: 0 không tự động hóa; 1 hỗ trợ một chức năng; 2 hệ thống điều khiển đồng thời lái ngang và dọc nhưng người lái phải giám sát; 3 tự lái có điều kiện và người lái phải tiếp quản khi được yêu cầu; 4 tự lái trong phạm vi điều kiện vận hành thiết kế mà không cần người lái tiếp quản; 5 tự lái trong mọi điều kiện mà người lái có thể vận hành."
+        },
+        {
+          "type": "point",
+          "ja": "レベル2は運転者が監視し、レベル3は作動条件内でシステムが運転を担うが、引継ぎ要求への対応が必要。レベル4は限定条件内、レベル5は条件の限定がない。",
+          "vi": "Dễ thi: cấp 2 người lái vẫn giám sát; cấp 3 có yêu cầu tiếp quản; cấp 4 tự động trong phạm vi ODD; cấp 5 không bị giới hạn bởi ODD."
+        }
+      ],
+      "terms": [
+        {
+          "term": "自動運転レベル",
+          "english": "Automated Driving Levels",
+          "vi": "Các cấp độ lái xe tự động",
+          "definitionJa": "SAE J3016では運転自動化をレベル0～5の6段階に分類する。レベル0は運転自動化なし、1は運転支援、2は部分的な運転自動化、3は条件付運転自動化、4は高度運転自動化、5は完全運転自動化を示す。",
+          "definitionVi": "Chuẩn SAE J3016 chia thành 6 mức: 0 không tự động hóa; 1 hỗ trợ một chức năng; 2 hệ thống điều khiển đồng thời lái ngang và dọc nhưng người lái phải giám sát; 3 tự lái có điều kiện và người lái phải tiếp quản khi được yêu cầu; 4 tự lái trong phạm vi điều kiện vận hành thiết kế mà không cần người lái tiếp quản; 5 tự lái trong mọi điều kiện mà người lái có thể vận hành.",
+          "reading": "じどううんてんれべる"
+        }
+      ],
+      "tags": [
+        "business-industry",
+        "industrial-equipment",
+        "autonomous-driving-levels"
+      ]
+    }
+  ]
 }

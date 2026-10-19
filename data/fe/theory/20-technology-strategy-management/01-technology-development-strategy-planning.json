@@ -4,5 +4,1154 @@
   "titleJa": "技術開発戦略の立案",
   "titleVi": "Lập chiến lược phát triển công nghệ",
   "syllabus": "9.2",
-  "lessons": []
+  "lessons": [
+    {
+      "id": "mot",
+      "order": 1,
+      "titleJa": "MOT",
+      "titleVi": "Quản trị công nghệ",
+      "importance": "high",
+      "summaryJa": "技術を経営戦略と結び付け、研究開発・事業化・競争力向上を総合的に管理すること。",
+      "summaryVi": "Quản trị công nghệ bằng cách gắn nghiên cứu, phát triển và thương mại hóa với chiến lược kinh doanh để nâng cao sức cạnh tranh.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "MOTとは",
+          "vi": "Quản trị công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術を経営戦略と結び付け、研究開発・事業化・競争力向上を総合的に管理すること。 技術経営の略称であり、企業が新しい技術を活用し、競争力を向上させるための戦略的なアプローチである。具体的には、技術の開発や導入、さらには技術をビジネスモデルに統合することを目指している。この手法は、技術の選定や資源配分、研究開発の方向性を決定する際に重要な役割を果たす。企業が持続的な成長を達成するためには、技術の進化を把握し、それを市場ニーズに適応させる必要がある。単に技術を導入するだけでなく、その技術をどう管理し活用するかを重視しており、これによって新しい価値を創造し、ビジネスを成功へと導くことができる。",
+          "vi": "Quản trị công nghệ bằng cách gắn nghiên cứu, phát triển và thương mại hóa với chiến lược kinh doanh để nâng cao sức cạnh tranh."
+        },
+        {
+          "type": "point",
+          "ja": "MOTは技術そのものではなく、技術を経営に生かす考え方。",
+          "vi": "MOT quản lý và khai thác công nghệ, không đơn thuần là phát minh công nghệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "MOT",
+          "english": "Management of Technology",
+          "vi": "Quản trị công nghệ",
+          "definitionJa": "技術を経営戦略と結び付け、研究開発・事業化・競争力向上を総合的に管理すること。",
+          "definitionVi": "Quản trị công nghệ bằng cách gắn nghiên cứu, phát triển và thương mại hóa với chiến lược kinh doanh để nâng cao sức cạnh tranh.",
+          "reading": "えむおーてぃー"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "mot"
+      ]
+    },
+    {
+      "id": "open-innovation",
+      "order": 2,
+      "titleJa": "オープンイノベーション",
+      "titleVi": "Đổi mới sáng tạo mở",
+      "importance": "high",
+      "summaryJa": "社外の企業・大学・研究機関などの知識や技術を社内の資源と組み合わせ、革新を生み出す手法。",
+      "summaryVi": "Kết hợp tri thức, công nghệ từ bên ngoài với nguồn lực nội bộ để tạo ra sản phẩm, dịch vụ hoặc giải pháp mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "オープンイノベーションとは",
+          "vi": "Đổi mới sáng tạo mở là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "社外の企業・大学・研究機関などの知識や技術を社内の資源と組み合わせ、革新を生み出す手法。 企業や組織が自らの研究開発を外部のリソースやアイデアと組み合わせて行う戦略である。これにより、内部だけでなく外部の知識や技術を活用することで、製品やサービスの革新を促進することが可能となる。例えば、企業が外部のスタートアップや大学と協力して新しい技術の開発を進めることで、自社だけでは見つけられなかった新しいアイデアや解決策を得ることができる。このアプローチは、迅速な市場投入や競争優位性を高めるうえでも非常に重要であり、従来の閉じたイノベーションの枠を超えた考え方とされている。オープンイノベーションにより、産業界全体の知識の共有が促進され、より多様な技術革新が実現されることが期待されている。",
+          "vi": "Kết hợp tri thức, công nghệ từ bên ngoài với nguồn lực nội bộ để tạo ra sản phẩm, dịch vụ hoặc giải pháp mới."
+        },
+        {
+          "type": "point",
+          "ja": "自社だけで完結するクローズドイノベーションとの違いを押さえる。",
+          "vi": "Khác đổi mới khép kín: chủ động tận dụng nguồn lực ngoài doanh nghiệp."
+        }
+      ],
+      "terms": [
+        {
+          "term": "オープンイノベーション",
+          "english": "Open Innovation",
+          "vi": "Đổi mới sáng tạo mở",
+          "definitionJa": "社外の企業・大学・研究機関などの知識や技術を社内の資源と組み合わせ、革新を生み出す手法。",
+          "definitionVi": "Kết hợp tri thức, công nghệ từ bên ngoài với nguồn lực nội bộ để tạo ra sản phẩm, dịch vụ hoặc giải pháp mới.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "open-innovation"
+      ]
+    },
+    {
+      "id": "lean-startup",
+      "order": 3,
+      "titleJa": "リーンスタートアップ",
+      "titleVi": "Khởi nghiệp tinh gọn",
+      "importance": "high",
+      "summaryJa": "MVPを素早く作り、顧客の反応を検証しながら仮説と製品を繰り返し改善する方法。",
+      "summaryVi": "Nhanh chóng tạo sản phẩm khả dụng tối thiểu (MVP), kiểm chứng giả thuyết với khách hàng rồi cải tiến liên tục để giảm lãng phí.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "リーンスタートアップとは",
+          "vi": "Khởi nghiệp tinh gọn là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "MVPを素早く作り、顧客の反応を検証しながら仮説と製品を繰り返し改善する方法。 技術開発やビジネスの立ち上げにおいて採用される手法の一つである。このアプローチは、最小限の製品（MVP：Minimum Viable Product）を迅速に作成し、市場からのフィードバックを基に改善を繰り返すことを重視する。具体的には、開発者や起業家が顧客のニーズを早期に検証し、リソースを無駄にすることなく効果的に製品を進化させることを目的としている。このプロセスでは、仮説を立てて実験することが重要であり、成功するまでの時間を短縮し、ビジネスの失敗リスクを低減させることができる。これにより、より迅速かつ効率的な意思決定が可能となり、市場の変化に柔軟に対応できる。",
+          "vi": "Nhanh chóng tạo sản phẩm khả dụng tối thiểu (MVP), kiểm chứng giả thuyết với khách hàng rồi cải tiến liên tục để giảm lãng phí."
+        },
+        {
+          "type": "point",
+          "ja": "構築・計測・学習の反復が重要。",
+          "vi": "Nhớ chu trình xây dựng – đo lường – học hỏi; MVP không phải sản phẩm hoàn chỉnh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "リーンスタートアップ",
+          "english": "Lean Startup",
+          "vi": "Khởi nghiệp tinh gọn",
+          "definitionJa": "MVPを素早く作り、顧客の反応を検証しながら仮説と製品を繰り返し改善する方法。",
+          "definitionVi": "Nhanh chóng tạo sản phẩm khả dụng tối thiểu (MVP), kiểm chứng giả thuyết với khách hàng rồi cải tiến liên tục để giảm lãng phí.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "lean-startup"
+      ]
+    },
+    {
+      "id": "api-economy",
+      "order": 4,
+      "titleJa": "APIエコノミー",
+      "titleVi": "Nền kinh tế API",
+      "importance": "medium",
+      "summaryJa": "APIを通じて外部サービスやデータを連携・提供し、新たな価値やビジネスを生み出す仕組み。",
+      "summaryVi": "Sử dụng API để kết nối, cung cấp hoặc khai thác chức năng và dữ liệu giữa các dịch vụ, tạo mô hình kinh doanh mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "APIエコノミーとは",
+          "vi": "Nền kinh tế API là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "APIを通じて外部サービスやデータを連携・提供し、新たな価値やビジネスを生み出す仕組み。 アプリケーションプログラミングインタフェース（API）を活用して、企業や組織が新しいビジネスモデルを構築する経済のことを指す。APIは異なるソフトウェアやサービス同士が連携するためのインターフェースであり、その利用を通じて、企業は他社の技術やデータを容易に取り入れることができる。例えば、ある会社が提供する決済サービスのAPIを利用することで、他の企業は自社のアプリやWebサイトにその機能を統合できる。これにより、迅速に新たなサービスを市場に提供したり、顧客体験を向上させたりすることが可能になる。競争優位性を確保するための重要な要素となっており、企業間の協業を促進する役割を果たしている。",
+          "vi": "Sử dụng API để kết nối, cung cấp hoặc khai thác chức năng và dữ liệu giữa các dịch vụ, tạo mô hình kinh doanh mới."
+        },
+        {
+          "type": "point",
+          "ja": "APIはサービス連携の窓口であり、APIエコノミーはその事業活用。",
+          "vi": "Ví dụ tích hợp API thanh toán vào website; phân biệt API với mô hình kinh doanh dựa trên API."
+        }
+      ],
+      "terms": [
+        {
+          "term": "APIエコノミー",
+          "english": "API Economy",
+          "vi": "Nền kinh tế API",
+          "definitionJa": "APIを通じて外部サービスやデータを連携・提供し、新たな価値やビジネスを生み出す仕組み。",
+          "definitionVi": "Sử dụng API để kết nối, cung cấp hoặc khai thác chức năng và dữ liệu giữa các dịch vụ, tạo mô hình kinh doanh mới.",
+          "reading": "えーぴーあいえこのみー"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "api-economy"
+      ]
+    },
+    {
+      "id": "research-and-development",
+      "order": 5,
+      "titleJa": "R&D",
+      "titleVi": "Nghiên cứu và phát triển (R&D)",
+      "importance": "medium",
+      "summaryJa": "新技術や新製品の創出に向けて研究と開発を行う活動。",
+      "summaryVi": "Hoạt động nghiên cứu và phát triển nhằm tạo công nghệ, sản phẩm mới hoặc cải tiến sản phẩm hiện có.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "R&Dとは",
+          "vi": "Nghiên cứu và phát triển (R&D) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新技術や新製品の創出に向けて研究と開発を行う活動。 研究開発の略称であり、新しい製品や技術を創出するための活動を指す。企業や団体が市場のニーズに応じて革新を追求する過程で行われるもので、科学的な研究と実用的な開発が組み合わさった形で行われる。例えば、製薬会社が新薬を開発する際には、基礎研究としての化学的分析を行い、その後治験を経て製品として市場に投入する。このプロセスは、高度な専門知識や技術が要求されるため、通常は研究者や技術者のチームが関与する。R&Dは企業の競争力を高め、長期的な成長を支える重要な要素である。",
+          "vi": "Hoạt động nghiên cứu và phát triển nhằm tạo công nghệ, sản phẩm mới hoặc cải tiến sản phẩm hiện có."
+        },
+        {
+          "type": "point",
+          "ja": "RはResearch、DはDevelopment。",
+          "vi": "R = nghiên cứu; D = phát triển; không đồng nhất R&D với riêng khâu lập trình."
+        }
+      ],
+      "terms": [
+        {
+          "term": "R&D",
+          "english": "Research and Development",
+          "vi": "Nghiên cứu và phát triển (R&D)",
+          "definitionJa": "新技術や新製品の創出に向けて研究と開発を行う活動。",
+          "definitionVi": "Hoạt động nghiên cứu và phát triển nhằm tạo công nghệ, sản phẩm mới hoặc cải tiến sản phẩm hiện có.",
+          "reading": "あーるあんどでぃ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "research-and-development"
+      ]
+    },
+    {
+      "id": "venture-capital",
+      "order": 6,
+      "titleJa": "VC",
+      "titleVi": "Vốn đầu tư mạo hiểm (VC)",
+      "importance": "high",
+      "summaryJa": "成長可能性の高い未上場企業などにリスクを取って投資し、成長を支援する投資主体や資金。",
+      "summaryVi": "Nhà đầu tư hoặc nguồn vốn mạo hiểm đầu tư vào startup có tiềm năng tăng trưởng cao để kỳ vọng lợi nhuận.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "VCとは",
+          "vi": "Vốn đầu tư mạo hiểm (VC) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "成長可能性の高い未上場企業などにリスクを取って投資し、成長を支援する投資主体や資金。 新興企業やスタートアップに対して資金を提供する投資形態である。主に、成長の可能性が高い企業にリスクを取って投資し、成功した際にリターンを得ることを目的としている。具体的には、技術革新や新しいビジネスモデルを持つ企業に対して投資されることが多く、新製品の開発や市場拡大に必要な資金を支援する。また、投資に伴い、経営面でのアドバイスやネットワーク提供を行うこともある。これにより、新興企業は資金調達のハードルを乗り越え、成長するための基盤を築くことができる。ベンチャーキャピタルは、企業にとって重要な資金源となり、経済全体のイノベーションを促進する役割も担っている。",
+          "vi": "Nhà đầu tư hoặc nguồn vốn mạo hiểm đầu tư vào startup có tiềm năng tăng trưởng cao để kỳ vọng lợi nhuận."
+        },
+        {
+          "type": "point",
+          "ja": "VCとCVCの違いは投資主体と戦略目的。",
+          "vi": "VC thường nhắm tới lợi nhuận đầu tư; CVC là đầu tư từ doanh nghiệp vì mục tiêu chiến lược."
+        }
+      ],
+      "terms": [
+        {
+          "term": "VC",
+          "english": "Venture Capital",
+          "vi": "Vốn đầu tư mạo hiểm (VC)",
+          "definitionJa": "成長可能性の高い未上場企業などにリスクを取って投資し、成長を支援する投資主体や資金。",
+          "definitionVi": "Nhà đầu tư hoặc nguồn vốn mạo hiểm đầu tư vào startup có tiềm năng tăng trưởng cao để kỳ vọng lợi nhuận.",
+          "reading": "ぶいしー"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "venture-capital"
+      ]
+    },
+    {
+      "id": "corporate-venture-capital",
+      "order": 7,
+      "titleJa": "CVC",
+      "titleVi": "Đầu tư mạo hiểm doanh nghiệp (CVC)",
+      "importance": "high",
+      "summaryJa": "事業会社がスタートアップなどへ出資し、財務的利益に加えて技術獲得や事業連携を目指す活動。",
+      "summaryVi": "Doanh nghiệp đầu tư vào startup nhằm vừa tìm lợi nhuận vừa tiếp cận công nghệ, hợp tác và mở rộng hoạt động.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "CVCとは",
+          "vi": "Đầu tư mạo hiểm doanh nghiệp (CVC) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "事業会社がスタートアップなどへ出資し、財務的利益に加えて技術獲得や事業連携を目指す活動。 企業が外部のスタートアップや新興企業に対して行う投資のことを指す。この手法は、企業が新しい技術やビジネスモデルを獲得するための戦略として利用される。企業が自社の成長を促進するために、外部のイノベーションを取り入れる手段として人気が高まっている。例えば、大手企業が新興企業に資金を投資することで、その企業の技術を取り入れたり、協業を通じて新たな市場を開拓することが可能となる。企業にとってリスクを分散しつつ、迅速な技術革新を実現するための重要な戦略であり、技術開発の加速や競争力の向上に寄与する。",
+          "vi": "Doanh nghiệp đầu tư vào startup nhằm vừa tìm lợi nhuận vừa tiếp cận công nghệ, hợp tác và mở rộng hoạt động."
+        },
+        {
+          "type": "point",
+          "ja": "CVCは事業会社が行うベンチャー投資。",
+          "vi": "Phân biệt: CVC do doanh nghiệp thực hiện; VC có thể là quỹ đầu tư độc lập."
+        }
+      ],
+      "terms": [
+        {
+          "term": "CVC",
+          "english": "Corporate Venture Capital",
+          "vi": "Đầu tư mạo hiểm doanh nghiệp (CVC)",
+          "definitionJa": "事業会社がスタートアップなどへ出資し、財務的利益に加えて技術獲得や事業連携を目指す活動。",
+          "definitionVi": "Doanh nghiệp đầu tư vào startup nhằm vừa tìm lợi nhuận vừa tiếp cận công nghệ, hợp tác và mở rộng hoạt động.",
+          "reading": "しーぶいしー"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "corporate-venture-capital"
+      ]
+    },
+    {
+      "id": "three-elements-value-creation",
+      "order": 8,
+      "titleJa": "価値創出の三要素",
+      "titleVi": "Ba yếu tố tạo giá trị",
+      "importance": "medium",
+      "summaryJa": "価値創造、価値提供、価値獲得の三つの観点で、顧客価値と事業収益の仕組みを捉える考え方。",
+      "summaryVi": "Gồm tạo giá trị (Value Creation), chuyển giao giá trị đến khách hàng (Value Delivery) và thu nhận giá trị/lợi nhuận (Value Capture).",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "価値創出の三要素とは",
+          "vi": "Ba yếu tố tạo giá trị là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "価値創造、価値提供、価値獲得の三つの観点で、顧客価値と事業収益の仕組みを捉える考え方。 企業が持続的に価値を生み出すための重要な要素を指す。まず、技術や製品によって価値を創造する「価値創造」は、革新的なアイデアや高品質な商品を提供することで顧客のニーズに応える過程である。次に、実際に製品が顧客に届く際の「価値実現」では、商品の流通や販売戦略が鍵となる。最後に、提供した価値を利益として取り込む「価値利益化」は、販売価格やマーケティング戦略によって実現され、企業の成長を支える。この三要素は相互に関連しており、企業の成功に不可欠な戦略的な枠組みを構成している。",
+          "vi": "Gồm tạo giá trị (Value Creation), chuyển giao giá trị đến khách hàng (Value Delivery) và thu nhận giá trị/lợi nhuận (Value Capture)."
+        },
+        {
+          "type": "point",
+          "ja": "創造・提供・獲得の順に理解する。",
+          "vi": "Tạo ra giá trị → đưa tới khách hàng → thu về doanh thu/lợi ích."
+        }
+      ],
+      "terms": [
+        {
+          "term": "価値創出の三要素",
+          "english": "Value Creation, Value Delivery, Value Capture",
+          "vi": "Ba yếu tố tạo giá trị",
+          "definitionJa": "価値創造、価値提供、価値獲得の三つの観点で、顧客価値と事業収益の仕組みを捉える考え方。",
+          "definitionVi": "Gồm tạo giá trị (Value Creation), chuyển giao giá trị đến khách hàng (Value Delivery) và thu nhận giá trị/lợi nhuận (Value Capture).",
+          "reading": "かちそうしゅつのさんようそ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "three-elements-value-creation"
+      ]
+    },
+    {
+      "id": "technology-s-curve",
+      "order": 9,
+      "titleJa": "技術のSカーブ",
+      "titleVi": "Đường cong chữ S của công nghệ",
+      "importance": "high",
+      "summaryJa": "技術の性能向上が初期は緩やかで、中期に急速に進み、成熟期に再び鈍化する傾向を示す曲線。",
+      "summaryVi": "Đường cong mô tả hiệu suất công nghệ tăng chậm lúc đầu, tăng nhanh ở giai đoạn phát triển rồi chậm lại khi trưởng thành.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術のSカーブとは",
+          "vi": "Đường cong chữ S của công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術の性能向上が初期は緩やかで、中期に急速に進み、成熟期に再び鈍化する傾向を示す曲線。 技術の発展過程を示すグラフであり、主に時間とパフォーマンスの関係を視覚化したものである。この曲線は、初期の研究開発から商業化に至るまでの進捗を表現し、成長の段階を示す。最初は緩やかに成長し、その後急激に進展、最終的には成長が鈍化するという特性を持つ。そのため、企業や研究機関は技術のSカーブを理解することで、投資戦略や新技術の導入タイミングを評価するための指針とすることができる。これにより、価値創出における最適なタイミングを見極め、競争力を高める手助けとなる。",
+          "vi": "Đường cong mô tả hiệu suất công nghệ tăng chậm lúc đầu, tăng nhanh ở giai đoạn phát triển rồi chậm lại khi trưởng thành."
+        },
+        {
+          "type": "point",
+          "ja": "技術の成熟と投資・切替時期を判断する。",
+          "vi": "Nhớ ba giai đoạn: chậm – nhanh – bão hòa; không nhầm với đường cong doanh thu sản phẩm."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術のSカーブ",
+          "english": "Technology S-Curve",
+          "vi": "Đường cong chữ S của công nghệ",
+          "definitionJa": "技術の性能向上が初期は緩やかで、中期に急速に進み、成熟期に再び鈍化する傾向を示す曲線。",
+          "definitionVi": "Đường cong mô tả hiệu suất công nghệ tăng chậm lúc đầu, tăng nhanh ở giai đoạn phát triển rồi chậm lại khi trưởng thành.",
+          "reading": "ぎじゅつのえすかーぶ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "technology-s-curve"
+      ]
+    },
+    {
+      "id": "chasm",
+      "order": 10,
+      "titleJa": "キャズム",
+      "titleVi": "Hố ngăn cách thị trường (Chasm)",
+      "importance": "high",
+      "summaryJa": "新製品の初期採用者から実用性を重視する主流市場へ普及する際に生じる大きな隔たり。",
+      "summaryVi": "Khoảng cách lớn giữa nhóm người dùng tiên phong và thị trường đại chúng khi phổ biến công nghệ mới.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "キャズムとは",
+          "vi": "Hố ngăn cách thị trường (Chasm) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新製品の初期採用者から実用性を重視する主流市場へ普及する際に生じる大きな隔たり。 技術革新や新しい製品が市場に浸透する際に遭遇する、大きなギャップを指す概念である。このギャップは、初期の採用者と主流市場の消費者との間に存在し、新しい技術が一般消費者に受け入れられるためには克服しなければならない障壁である。例えば、革新的なスマートフォンが登場した際、一部のテクノロジー愛好者が最初に購入する一方で、多くの一般消費者がその利便性や必要性を理解するまでに時間がかかる。このように、キャズムを越えることができれば、製品は主流市場に浸透し、成功を収める可能性が高まるため、企業はこの瞬間に特に注力する必要がある。成功した製品は、初期の支持を基盤にしてリーダーシップを築き、広範な消費者層を獲得することができる。",
+          "vi": "Khoảng cách lớn giữa nhóm người dùng tiên phong và thị trường đại chúng khi phổ biến công nghệ mới."
+        },
+        {
+          "type": "point",
+          "ja": "アーリーアダプターとアーリーマジョリティの間。",
+          "vi": "Chasm nằm giữa Early Adopters và Early Majority."
+        }
+      ],
+      "terms": [
+        {
+          "term": "キャズム",
+          "english": "Chasm",
+          "vi": "Hố ngăn cách thị trường (Chasm)",
+          "definitionJa": "新製品の初期採用者から実用性を重視する主流市場へ普及する際に生じる大きな隔たり。",
+          "definitionVi": "Khoảng cách lớn giữa nhóm người dùng tiên phong và thị trường đại chúng khi phổ biến công nghệ mới.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "chasm"
+      ]
+    },
+    {
+      "id": "devil-river",
+      "order": 11,
+      "titleJa": "魔の川",
+      "titleVi": "Dòng sông ma (rào cản nghiên cứu–phát triển)",
+      "importance": "high",
+      "summaryJa": "基礎研究で得た成果を実用的な技術開発へ進める段階にある障壁。",
+      "summaryVi": "Rào cản khi chuyển kết quả nghiên cứu cơ bản sang giai đoạn phát triển công nghệ có khả năng ứng dụng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "魔の川とは",
+          "vi": "Dòng sông ma (rào cản nghiên cứu–phát triển) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "基礎研究で得た成果を実用的な技術開発へ進める段階にある障壁。 価値創出の三要素に関連する概念の一つである。具体的には、製品やサービスの提供において、顧客がもたらす価値とビジネスの成果との関係を示す。それは、顧客がどれだけの価値を感じるか、つまり顧客満足度と、企業が得られる利益のバランスを考慮したものである。この理解は、企業が持続可能な成長を実現するために、顧客のニーズを的確に把握し、適切な商品開発やマーケティング戦略を策定することに役立つ。また、魔の川の概念を適用することで、企業はより強固な顧客関係を築き、競争優位を確立することが可能になる。",
+          "vi": "Rào cản khi chuyển kết quả nghiên cứu cơ bản sang giai đoạn phát triển công nghệ có khả năng ứng dụng."
+        },
+        {
+          "type": "point",
+          "ja": "魔の川→死の谷→ダーウィンの海の順序。",
+          "vi": "Dòng sông ma = từ nghiên cứu sang phát triển; lưu ý đoạn nguồn gốc giải thích khác với nghĩa chuẩn."
+        }
+      ],
+      "terms": [
+        {
+          "term": "魔の川",
+          "english": "Devil River",
+          "vi": "Dòng sông ma (rào cản nghiên cứu–phát triển)",
+          "definitionJa": "基礎研究で得た成果を実用的な技術開発へ進める段階にある障壁。",
+          "definitionVi": "Rào cản khi chuyển kết quả nghiên cứu cơ bản sang giai đoạn phát triển công nghệ có khả năng ứng dụng.",
+          "reading": "まのかわ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "devil-river"
+      ]
+    },
+    {
+      "id": "valley-of-death",
+      "order": 12,
+      "titleJa": "死の谷",
+      "titleVi": "Thung lũng chết (rào cản thương mại hóa)",
+      "importance": "high",
+      "summaryJa": "研究開発の成果を製品化・事業化するまでに、資金や人材の不足などで生じる障壁。",
+      "summaryVi": "Giai đoạn khó khăn khi đưa kết quả R&D thành sản phẩm hoặc hoạt động kinh doanh, thường thiếu vốn và nguồn lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "死の谷とは",
+          "vi": "Thung lũng chết (rào cản thương mại hóa) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "研究開発の成果を製品化・事業化するまでに、資金や人材の不足などで生じる障壁。 主に新規事業やスタートアップにおいて、資金調達や市場投入の過程で多くの企業が直面する困難な時期を指す。これは、プロジェクトがアイデア段階から実行段階に移る際、資金やリソースが不足し、成功の可能性が低下することから名付けられたものである。この時期には、開発費用やマーケティング費用がかさむ一方で、即座に収益を上げることが難しいため、多くの企業が倒産の危機に直面する。この死の谷を乗り越えるためには、適切な資金調達戦略や市場分析が必要であり、成功するためには耐え忍ぶ時期を設けることが重要である。したがって、新しいアイデアを具現化する際には、リスクを評価し、計画的に進めることが求められる。",
+          "vi": "Giai đoạn khó khăn khi đưa kết quả R&D thành sản phẩm hoặc hoạt động kinh doanh, thường thiếu vốn và nguồn lực."
+        },
+        {
+          "type": "point",
+          "ja": "研究開発から事業化への移行で起きる。",
+          "vi": "Thung lũng chết = từ phát triển sang thương mại hóa; phân biệt với 魔の川."
+        }
+      ],
+      "terms": [
+        {
+          "term": "死の谷",
+          "english": "Valley of Death",
+          "vi": "Thung lũng chết (rào cản thương mại hóa)",
+          "definitionJa": "研究開発の成果を製品化・事業化するまでに、資金や人材の不足などで生じる障壁。",
+          "definitionVi": "Giai đoạn khó khăn khi đưa kết quả R&D thành sản phẩm hoặc hoạt động kinh doanh, thường thiếu vốn và nguồn lực.",
+          "reading": "しのたに"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "valley-of-death"
+      ]
+    },
+    {
+      "id": "darwinian-sea",
+      "order": 13,
+      "titleJa": "ダーウィンの海",
+      "titleVi": "Biển Darwin (cạnh tranh thị trường)",
+      "importance": "high",
+      "summaryJa": "製品化・事業化後に市場での競争や顧客の選択を乗り越え、事業を定着させる際の障壁。",
+      "summaryVi": "Rào cản cạnh tranh khốc liệt sau khi sản phẩm ra thị trường; doanh nghiệp phải thích nghi để tồn tại.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ダーウィンの海とは",
+          "vi": "Biển Darwin (cạnh tranh thị trường) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "製品化・事業化後に市場での競争や顧客の選択を乗り越え、事業を定着させる際の障壁。 価値創出における競争環境を表す概念の一つである。この概念は、生物の進化における自然選択の理論に基づいており、企業や製品が市場で生き残るために、どのように適応するかに焦点を当てている。具体的には、様々な企業やアイデアが競争する中で、成功するものが淘汰される一方で、新たな価値を創造する試みが生まれていく様子を指す。ダーウィンの海の中では、市場の変化や消費者の需要に敏感に反応することが求められ、革新や改善が絶えず試みられる。この環境を生き抜くためには、柔軟性と進化が重要であり、企業は変わりゆく市場に適応し続けることが不可欠である。",
+          "vi": "Rào cản cạnh tranh khốc liệt sau khi sản phẩm ra thị trường; doanh nghiệp phải thích nghi để tồn tại."
+        },
+        {
+          "type": "point",
+          "ja": "市場投入後の競争が中心。",
+          "vi": "Biển Darwin = cạnh tranh sau thương mại hóa; không nhầm với thiếu vốn trong 死の谷."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ダーウィンの海",
+          "english": "Darwinian Sea",
+          "vi": "Biển Darwin (cạnh tranh thị trường)",
+          "definitionJa": "製品化・事業化後に市場での競争や顧客の選択を乗り越え、事業を定着させる際の障壁。",
+          "definitionVi": "Rào cản cạnh tranh khốc liệt sau khi sản phẩm ra thị trường; doanh nghiệp phải thích nghi để tồn tại.",
+          "reading": "だーうぃんのうみ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "darwinian-sea"
+      ]
+    },
+    {
+      "id": "core-technology",
+      "order": 14,
+      "titleJa": "コア技術",
+      "titleVi": "Công nghệ cốt lõi",
+      "importance": "medium",
+      "summaryJa": "企業の製品やサービスの優位性を支える中核的な技術・技術力。",
+      "summaryVi": "Công nghệ hoặc năng lực kỹ thuật then chốt tạo lợi thế cạnh tranh cho sản phẩm, dịch vụ của doanh nghiệp.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "コア技術とは",
+          "vi": "Công nghệ cốt lõi là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業の製品やサービスの優位性を支える中核的な技術・技術力。 企業や組織の競争力を支える基本的な技術や能力を指す。これは、特定の製品やサービスの設計、開発、製造において、その成果を大きく左右するものである。例えば、自動車メーカーの場合、エンジン技術や安全システムはその企業のコア技術となる。また、IT企業においては、特定のソフトウェア開発技術やデータ分析技術がコア技術に該当する。コア技術を明確にすることで、企業は技術開発戦略を効果的に立案し、持続的な競争優位を築く基盤を確立することができる。これにより、新製品の開発や市場への投入を加速し、市場のニーズに応じた革新的なソリューションを提供できる。",
+          "vi": "Công nghệ hoặc năng lực kỹ thuật then chốt tạo lợi thế cạnh tranh cho sản phẩm, dịch vụ của doanh nghiệp."
+        },
+        {
+          "type": "point",
+          "ja": "競争優位の源泉となる技術。",
+          "vi": "Công nghệ cốt lõi là nguồn tạo khác biệt; không phải mọi công nghệ doanh nghiệp đang dùng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "コア技術",
+          "english": "Core Technology",
+          "vi": "Công nghệ cốt lõi",
+          "definitionJa": "企業の製品やサービスの優位性を支える中核的な技術・技術力。",
+          "definitionVi": "Công nghệ hoặc năng lực kỹ thuật then chốt tạo lợi thế cạnh tranh cho sản phẩm, dịch vụ của doanh nghiệp.",
+          "reading": "こあぎじゅつ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "core-technology"
+      ]
+    },
+    {
+      "id": "technical-research",
+      "order": 15,
+      "titleJa": "技術研究",
+      "titleVi": "Nghiên cứu công nghệ",
+      "importance": "medium",
+      "summaryJa": "新しい技術の原理や可能性を調べ、実験や検証によって知識を深める活動。",
+      "summaryVi": "Hoạt động nghiên cứu nguyên lý, khả năng ứng dụng và hướng cải tiến công nghệ thông qua khảo sát, thí nghiệm và kiểm chứng.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術研究とは",
+          "vi": "Nghiên cứu công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新しい技術の原理や可能性を調べ、実験や検証によって知識を深める活動。 新しい技術や改善点を探求し、発展させるためのプロセスである。これは、製品開発や技術革新のための基盤を築く重要な活動である。具体的には、科学的な手法を用いて新しい材料やプロセスの効果を実験し、理論的な背景を深めることを指す。技術開発戦略の立案においては、技術研究が不可欠となり、それにより市場ニーズや競争環境に応じた新しい技術の導入が可能になる。成功する企業が持続的に成長するための新たな機会を生み出し、産業全体の進歩にも寄与することが期待されている。",
+          "vi": "Hoạt động nghiên cứu nguyên lý, khả năng ứng dụng và hướng cải tiến công nghệ thông qua khảo sát, thí nghiệm và kiểm chứng."
+        },
+        {
+          "type": "point",
+          "ja": "技術研究はR&Dの研究側に当たる。",
+          "vi": "Nghiên cứu tập trung tìm hiểu, kiểm chứng; phát triển tập trung hiện thực hóa thành ứng dụng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術研究",
+          "english": "Technical Research",
+          "vi": "Nghiên cứu công nghệ",
+          "definitionJa": "新しい技術の原理や可能性を調べ、実験や検証によって知識を深める活動。",
+          "definitionVi": "Hoạt động nghiên cứu nguyên lý, khả năng ứng dụng và hướng cải tiến công nghệ thông qua khảo sát, thí nghiệm và kiểm chứng.",
+          "reading": "ぎじゅつけんきゅう"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "technical-research"
+      ]
+    },
+    {
+      "id": "contract-research",
+      "order": 16,
+      "titleJa": "委託研究",
+      "titleVi": "Nghiên cứu thuê ngoài",
+      "importance": "medium",
+      "summaryJa": "研究課題を外部の大学・研究機関・企業などに依頼して実施してもらう研究形態。",
+      "summaryVi": "Doanh nghiệp thuê trường đại học, viện nghiên cứu hoặc đơn vị khác thực hiện đề tài nghiên cứu theo yêu cầu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "委託研究とは",
+          "vi": "Nghiên cứu thuê ngoài là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "研究課題を外部の大学・研究機関・企業などに依頼して実施してもらう研究形態。 企業や組織が外部の研究機関や専門家に研究開発を依頼する形態のことである。このプロセスでは、委託元が求める特定の技術や知識に基づいて、委託先が研究を行い、成果物を提供することが期待される。例えば、新薬の開発において製薬会社が大学や研究所に研究を委託することが一般的な例である。このアプローチは、内部のリソースだけでは対応しきれない専門的な知識や技術を活用するために利用される。また、委託研究はコスト効率を高めたり、機敏に市場のニーズに応えるための重要な戦略としても考えられている。",
+          "vi": "Doanh nghiệp thuê trường đại học, viện nghiên cứu hoặc đơn vị khác thực hiện đề tài nghiên cứu theo yêu cầu."
+        },
+        {
+          "type": "point",
+          "ja": "委託研究は依頼者と受託者の関係。",
+          "vi": "Nghiên cứu thuê ngoài có bên giao và bên nhận; khác 共同研究 là các bên cùng nghiên cứu."
+        }
+      ],
+      "terms": [
+        {
+          "term": "委託研究",
+          "english": "Contract Research",
+          "vi": "Nghiên cứu thuê ngoài",
+          "definitionJa": "研究課題を外部の大学・研究機関・企業などに依頼して実施してもらう研究形態。",
+          "definitionVi": "Doanh nghiệp thuê trường đại học, viện nghiên cứu hoặc đơn vị khác thực hiện đề tài nghiên cứu theo yêu cầu.",
+          "reading": "いたくけんきゅう"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "contract-research"
+      ]
+    },
+    {
+      "id": "collaborative-research",
+      "order": 17,
+      "titleJa": "共同研究",
+      "titleVi": "Nghiên cứu hợp tác",
+      "importance": "medium",
+      "summaryJa": "複数の企業・大学・研究者などが知識や資源を持ち寄り、共通の目的で研究すること。",
+      "summaryVi": "Nhiều tổ chức hoặc nhà nghiên cứu cùng đóng góp nguồn lực, tri thức và phối hợp nghiên cứu mục tiêu chung.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "共同研究とは",
+          "vi": "Nghiên cứu hợp tác là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "複数の企業・大学・研究者などが知識や資源を持ち寄り、共通の目的で研究すること。 異なる組織や個人が協力して行う研究活動を指す。このプロセスでは、リソースや知識、技術を共有し、専門家同士が力を合わせることで、より効果的に研究成果を得ることを目指す。たとえば、大学が企業と提携し、新しい技術の開発に取り組むケースがある。このような研究費用を分担できるため、各参加者にとって経済的負担が軽減される。また、異なる視点や専門性を持つ研究者が集まることで、独自のアイデアや革新的な解決策が生まれる可能性が高まる。このため、共同研究は技術開発戦略において重要な手段とされている。",
+          "vi": "Nhiều tổ chức hoặc nhà nghiên cứu cùng đóng góp nguồn lực, tri thức và phối hợp nghiên cứu mục tiêu chung."
+        },
+        {
+          "type": "point",
+          "ja": "共同研究は協力して研究を進める。",
+          "vi": "Nghiên cứu hợp tác = cùng thực hiện; không đơn thuần thuê đối tác làm hộ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "共同研究",
+          "english": "Collaborative Research",
+          "vi": "Nghiên cứu hợp tác",
+          "definitionJa": "複数の企業・大学・研究者などが知識や資源を持ち寄り、共通の目的で研究すること。",
+          "definitionVi": "Nhiều tổ chức hoặc nhà nghiên cứu cùng đóng góp nguồn lực, tri thức và phối hợp nghiên cứu mục tiêu chung.",
+          "reading": "きょうどうけんきゅう"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "collaborative-research"
+      ]
+    },
+    {
+      "id": "design-thinking",
+      "order": 18,
+      "titleJa": "デザイン思考",
+      "titleVi": "Tư duy thiết kế",
+      "importance": "high",
+      "summaryJa": "利用者への共感を起点に課題を定義し、発想・試作・検証を繰り返す問題解決手法。",
+      "summaryVi": "Phương pháp giải quyết vấn đề lấy người dùng làm trung tâm: thấu cảm, xác định vấn đề, phát ý tưởng, tạo mẫu và thử nghiệm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "デザイン思考とは",
+          "vi": "Tư duy thiết kế là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "利用者への共感を起点に課題を定義し、発想・試作・検証を繰り返す問題解決手法。 問題解決のためのアプローチであり、特に技術開発戦略の立案において重要な手法である。具体的には、ユーザーのニーズを深く理解し、それに基づいてアイデアを創出する過程を重視する。このプロセスは、共感、定義、発想、プロトタイプ、テストという段階を含み、各段階で創造的な思考とフィードバックを繰り返すことが求められる。例えば、新しい製品を開発する際には、まずユーザーが直面する問題を理解し、その المعلوماتから解決策を提案する。このため、デザイン思考は単なるデザインに留まらず、ビジネスや教育、社会問題解決にも応用される重要な方法論とされている。",
+          "vi": "Phương pháp giải quyết vấn đề lấy người dùng làm trung tâm: thấu cảm, xác định vấn đề, phát ý tưởng, tạo mẫu và thử nghiệm."
+        },
+        {
+          "type": "point",
+          "ja": "共感→問題定義→発想→試作→テスト。",
+          "vi": "Nhớ 5 bước: Empathize – Define – Ideate – Prototype – Test."
+        }
+      ],
+      "terms": [
+        {
+          "term": "デザイン思考",
+          "english": "Design Thinking",
+          "vi": "Tư duy thiết kế",
+          "definitionJa": "利用者への共感を起点に課題を定義し、発想・試作・検証を繰り返す問題解決手法。",
+          "definitionVi": "Phương pháp giải quyết vấn đề lấy người dùng làm trung tâm: thấu cảm, xác định vấn đề, phát ý tưởng, tạo mẫu và thử nghiệm.",
+          "reading": "でざいんしこう"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "design-thinking"
+      ]
+    },
+    {
+      "id": "persona-method",
+      "order": 19,
+      "titleJa": "ペルソナ法",
+      "titleVi": "Phương pháp chân dung khách hàng (Persona)",
+      "importance": "medium",
+      "summaryJa": "対象利用者を代表する架空の人物像を具体的に設定し、要求や行動を理解して設計に生かす方法。",
+      "summaryVi": "Tạo nhân vật người dùng giả định có đặc điểm, nhu cầu và hành vi cụ thể để định hướng thiết kế sản phẩm.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ペルソナ法とは",
+          "vi": "Phương pháp chân dung khách hàng (Persona) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "対象利用者を代表する架空の人物像を具体的に設定し、要求や行動を理解して設計に生かす方法。 技術開発やマーケティングの戦略を立案する際に用いる手法の一つである。この手法では、対象となる顧客やユーザーの代表的な人物像を作成し、そのニーズや行動パターンを明確にすることを目的としている。例えば、ある新しいアプリを開発する際に、想定されるユーザーの年齢、職業、趣味やライフスタイルを考慮し、具体的なキャラクターを設定する。このようにして描かれたペルソナは、開発チームが設計や機能を決定する際の指針となり、よりユーザー志向の製品開発を促進する。最終的には、ユーザーの期待に応えることで、製品の成功率を高めることができる。",
+          "vi": "Tạo nhân vật người dùng giả định có đặc điểm, nhu cầu và hành vi cụ thể để định hướng thiết kế sản phẩm."
+        },
+        {
+          "type": "point",
+          "ja": "ペルソナは具体的な代表ユーザー像。",
+          "vi": "Persona là chân dung đại diện có thông tin chi tiết, không phải toàn bộ khách hàng."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ペルソナ法",
+          "english": "Persona Method",
+          "vi": "Phương pháp chân dung khách hàng (Persona)",
+          "definitionJa": "対象利用者を代表する架空の人物像を具体的に設定し、要求や行動を理解して設計に生かす方法。",
+          "definitionVi": "Tạo nhân vật người dùng giả định có đặc điểm, nhu cầu và hành vi cụ thể để định hướng thiết kế sản phẩm.",
+          "reading": "ぺるそなほう"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "persona-method"
+      ]
+    },
+    {
+      "id": "proof-of-concept",
+      "order": 20,
+      "titleJa": "PoC",
+      "titleVi": "Kiểm chứng tính khả thi (PoC)",
+      "importance": "high",
+      "summaryJa": "新技術やアイデアが技術的に実現できるかを、小規模な実験や試作で確かめること。",
+      "summaryVi": "Thử nghiệm quy mô nhỏ để kiểm chứng ý tưởng hoặc công nghệ có thực hiện được về mặt kỹ thuật hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PoCとは",
+          "vi": "Kiểm chứng tính khả thi (PoC) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "新技術やアイデアが技術的に実現できるかを、小規模な実験や試作で確かめること。 あるアイデアや技術が実際に機能するかどうかを確認するための実験的なプロセスである。概念実証ともいう。具体的には、新しい技術や製品の基本的な機能を試すために、プロトタイプや試作を作成して評価を行う。このプロセスは、特に技術開発戦略の立案において重要であり、リスクを軽減し、資源を効率的に利用するために役立つ。例えば、ある新しいソフトウェアのアイデアがあった際、そのソフトウェアの一部機能だけを開発してみることで、実際に市場に出す価値があるかどうかを判断することができる。こうした概念実証は、投資者や関係者に対して新しいアイデアの実現可能性を示す重要な手段となる。",
+          "vi": "Thử nghiệm quy mô nhỏ để kiểm chứng ý tưởng hoặc công nghệ có thực hiện được về mặt kỹ thuật hay không."
+        },
+        {
+          "type": "point",
+          "ja": "PoCは実現可能性、PoVは導入価値。",
+          "vi": "PoC hỏi “Có làm được không?”; PoV hỏi “Có mang lại giá trị không?”."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PoC",
+          "english": "Proof of Concept",
+          "vi": "Kiểm chứng tính khả thi (PoC)",
+          "definitionJa": "新技術やアイデアが技術的に実現できるかを、小規模な実験や試作で確かめること。",
+          "definitionVi": "Thử nghiệm quy mô nhỏ để kiểm chứng ý tưởng hoặc công nghệ có thực hiện được về mặt kỹ thuật hay không.",
+          "reading": "ぽっく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "proof-of-concept"
+      ]
+    },
+    {
+      "id": "proof-of-value",
+      "order": 21,
+      "titleJa": "PoV",
+      "titleVi": "Kiểm chứng giá trị (PoV)",
+      "importance": "high",
+      "summaryJa": "技術や製品を導入した場合の業務効果や投資価値を、実データなどで検証すること。",
+      "summaryVi": "Dùng dữ liệu và kết quả thực tế để kiểm tra giải pháp có tạo lợi ích kinh doanh hoặc hiệu quả đầu tư hay không.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "PoVとは",
+          "vi": "Kiểm chứng giá trị (PoV) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術や製品を導入した場合の業務効果や投資価値を、実データなどで検証すること。 新しい技術や製品の価値を証明する手法である。特定の実用的なケーススタディを通じて、提案されているソリューションが本当に効果的であるかを示すことを目的とする。このプロセスでは、実際のデータやフィードバックを集め、導入後の成果を測定することで、その技術や製品の有用性を具体的に判断することができる。例えば、企業が新しいソフトウェアシステムを導入する際に、PoVを実施して短期間での運用データを収集し、それによって効率性やコスト削減を確認することが一般的である。これにより、投資決定をより合理的に行えるようになる。",
+          "vi": "Dùng dữ liệu và kết quả thực tế để kiểm tra giải pháp có tạo lợi ích kinh doanh hoặc hiệu quả đầu tư hay không."
+        },
+        {
+          "type": "point",
+          "ja": "PoVは費用対効果・業務価値を確かめる。",
+          "vi": "PoV đánh giá giá trị/hiệu quả; không chỉ kiểm tra khả năng chạy được như PoC."
+        }
+      ],
+      "terms": [
+        {
+          "term": "PoV",
+          "english": "Proof of Value",
+          "vi": "Kiểm chứng giá trị (PoV)",
+          "definitionJa": "技術や製品を導入した場合の業務効果や投資価値を、実データなどで検証すること。",
+          "definitionVi": "Dùng dữ liệu và kết quả thực tế để kiểm tra giải pháp có tạo lợi ích kinh doanh hoặc hiệu quả đầu tư hay không.",
+          "reading": "ぽぶ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "proof-of-value"
+      ]
+    },
+    {
+      "id": "technology-acquisition",
+      "order": 22,
+      "titleJa": "技術獲得",
+      "titleVi": "Tiếp nhận, sở hữu công nghệ",
+      "importance": "medium",
+      "summaryJa": "自社開発、購入、提携、ライセンスなどによって必要な技術を手に入れること。",
+      "summaryVi": "Doanh nghiệp có được công nghệ cần thiết qua tự phát triển, mua, hợp tác hoặc nhận cấp phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術獲得とは",
+          "vi": "Tiếp nhận, sở hữu công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "自社開発、購入、提携、ライセンスなどによって必要な技術を手に入れること。 企業や組織が新しい技術を取得するためのプロセスである。このプロセスには、研究開発を通じて自社で開発する方法や、他社から技術を購入する方法、さらには提携やライセンス契約を結ぶ方法が含まれる。企業が競争力を維持・向上させるために非常に重要であり、市場の変化に迅速に対応できる能力を高めることができる。例えば、自動車産業においては、新しい環境技術や自動運転技術を獲得するために、他社との提携が活用されることが多い。また、革新を促進し、市場でのリーダーシップを確立するための戦略的な手段ともいえる。",
+          "vi": "Doanh nghiệp có được công nghệ cần thiết qua tự phát triển, mua, hợp tác hoặc nhận cấp phép."
+        },
+        {
+          "type": "point",
+          "ja": "獲得は技術を受け取る側の視点。",
+          "vi": "技術獲得 = bên nhận công nghệ; 技術供与 = bên cung cấp công nghệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術獲得",
+          "english": "Acquisition of Technology",
+          "vi": "Tiếp nhận, sở hữu công nghệ",
+          "definitionJa": "自社開発、購入、提携、ライセンスなどによって必要な技術を手に入れること。",
+          "definitionVi": "Doanh nghiệp có được công nghệ cần thiết qua tự phát triển, mua, hợp tác hoặc nhận cấp phép.",
+          "reading": "ぎじゅつかくとく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "technology-acquisition"
+      ]
+    },
+    {
+      "id": "technology-transfer",
+      "order": 23,
+      "titleJa": "技術供与",
+      "titleVi": "Chuyển giao, cung cấp công nghệ",
+      "importance": "medium",
+      "summaryJa": "保有する技術やノウハウを他者に提供し、利用できるようにすること。",
+      "summaryVi": "Bên sở hữu cung cấp hoặc chuyển giao công nghệ, bí quyết kỹ thuật cho tổ chức khác, có thể thông qua hợp đồng cấp phép.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術供与とは",
+          "vi": "Chuyển giao, cung cấp công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "保有する技術やノウハウを他者に提供し、利用できるようにすること。 ある企業や団体が持つ技術や知識を他の企業や団体に提供することである。これは、新しい製品やサービスの開発を促進するために行われる。特許やライセンス契約を通じて合法的に行われることが多く、供与元は技術を利用した成果物から得られる収益を受け取ることができる。例えば、ある企業が新しい製造技術を開発し、その技術を他社に供与することで、その企業の生産効率を向上させることが可能となる。イノベーションを促進し、経済の発展に寄与する重要な戦略の一つである。",
+          "vi": "Bên sở hữu cung cấp hoặc chuyển giao công nghệ, bí quyết kỹ thuật cho tổ chức khác, có thể thông qua hợp đồng cấp phép."
+        },
+        {
+          "type": "point",
+          "ja": "供与は技術を提供する側の視点。",
+          "vi": "Cung cấp/chuyển giao công nghệ khác với tiếp nhận công nghệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術供与",
+          "english": "Technology Transfer",
+          "vi": "Chuyển giao, cung cấp công nghệ",
+          "definitionJa": "保有する技術やノウハウを他者に提供し、利用できるようにすること。",
+          "definitionVi": "Bên sở hữu cung cấp hoặc chuyển giao công nghệ, bí quyết kỹ thuật cho tổ chức khác, có thể thông qua hợp đồng cấp phép.",
+          "reading": "ぎじゅつきょうよ"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "technology-transfer"
+      ]
+    },
+    {
+      "id": "technology-alliance",
+      "order": 24,
+      "titleJa": "技術提携",
+      "titleVi": "Liên minh công nghệ",
+      "importance": "medium",
+      "summaryJa": "企業や組織が技術やノウハウを持ち寄り、共同開発や相互補完を行う提携。",
+      "summaryVi": "Các doanh nghiệp hoặc tổ chức liên kết, chia sẻ thế mạnh công nghệ để cùng phát triển và bổ trợ năng lực.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "技術提携とは",
+          "vi": "Liên minh công nghệ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業や組織が技術やノウハウを持ち寄り、共同開発や相互補完を行う提携。 異なる企業や組織が特定の技術や知見を共有し、共同で開発を行うための協力関係である。この提携は、各社の技術力を活かしながら新しい製品やサービスを生み出す目的で結ばれる。例えば、ある企業がソフトウェア開発に強く、別の企業がハードウェア技術を持つ場合、双方が提携することで、より高品質な製品を市場に提供できる。また、コストの削減やリスクの分散にもつながるため、競争が激化する現代のビジネス環境において重要な戦略となっている。提携により新たな市場を開拓し、技術革新を加速することが期待される。",
+          "vi": "Các doanh nghiệp hoặc tổ chức liên kết, chia sẻ thế mạnh công nghệ để cùng phát triển và bổ trợ năng lực."
+        },
+        {
+          "type": "point",
+          "ja": "共同研究より広く、開発・事業化を含む場合がある。",
+          "vi": "Liên minh công nghệ có thể bao gồm R&D, chia sẻ công nghệ và hợp tác kinh doanh."
+        }
+      ],
+      "terms": [
+        {
+          "term": "技術提携",
+          "english": "Technology Alliance",
+          "vi": "Liên minh công nghệ",
+          "definitionJa": "企業や組織が技術やノウハウを持ち寄り、共同開発や相互補完を行う提携。",
+          "definitionVi": "Các doanh nghiệp hoặc tổ chức liên kết, chia sẻ thế mạnh công nghệ để cùng phát triển và bổ trợ năng lực.",
+          "reading": "ぎじゅつていけい"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "technology-alliance"
+      ]
+    },
+    {
+      "id": "industry-academia-government",
+      "order": 25,
+      "titleJa": "産学官連携",
+      "titleVi": "Hợp tác doanh nghiệp – đại học – chính phủ",
+      "importance": "medium",
+      "summaryJa": "企業・大学などの研究機関・行政機関が連携し、研究開発や技術の実用化を進めること。",
+      "summaryVi": "Doanh nghiệp, cơ sở học thuật và cơ quan nhà nước phối hợp nghiên cứu, hỗ trợ chính sách và ứng dụng công nghệ.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "産学官連携とは",
+          "vi": "Hợp tác doanh nghiệp – đại học – chính phủ là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "企業・大学などの研究機関・行政機関が連携し、研究開発や技術の実用化を進めること。 産業界、学術界、政府が協力して新しい技術やサービスを開発する取り組みである。これは、各分野の知識やリソースを結集することで、技術革新を促進し、社会課題の解決を目指すものである。例えば、企業が大学と共同で研究開発を行うことで、基礎研究から実用化までの流れがスムーズになり、より迅速に新しい製品を市場に投入することが可能になる。また、政府が資金提供や政策支援を行うことで、この連携をさらに強化し、地域経済の発展につなげることが期待されている。このように、相互の利益を生む重要な仕組みである。",
+          "vi": "Doanh nghiệp, cơ sở học thuật và cơ quan nhà nước phối hợp nghiên cứu, hỗ trợ chính sách và ứng dụng công nghệ."
+        },
+        {
+          "type": "point",
+          "ja": "産＝企業、学＝大学・研究機関、官＝行政。",
+          "vi": "産 = doanh nghiệp; 学 = trường/viện; 官 = cơ quan nhà nước."
+        }
+      ],
+      "terms": [
+        {
+          "term": "産学官連携",
+          "english": "Industry-Academia-Government Collaboration",
+          "vi": "Hợp tác doanh nghiệp – đại học – chính phủ",
+          "definitionJa": "企業・大学などの研究機関・行政機関が連携し、研究開発や技術の実用化を進めること。",
+          "definitionVi": "Doanh nghiệp, cơ sở học thuật và cơ quan nhà nước phối hợp nghiên cứu, hỗ trợ chính sách và ứng dụng công nghệ.",
+          "reading": "さんがくかんれんけい"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "industry-academia-government"
+      ]
+    },
+    {
+      "id": "standardization-strategy",
+      "order": 26,
+      "titleJa": "標準化戦略",
+      "titleVi": "Chiến lược tiêu chuẩn hóa",
+      "importance": "medium",
+      "summaryJa": "技術や製品の仕様を共通の標準として整備・普及させ、互換性や市場競争力を高める戦略。",
+      "summaryVi": "Xây dựng và phổ biến tiêu chuẩn chung về kỹ thuật, sản phẩm để tăng tương thích, giảm chi phí và tạo lợi thế thị trường.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "標準化戦略とは",
+          "vi": "Chiến lược tiêu chuẩn hóa là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "技術や製品の仕様を共通の標準として整備・普及させ、互換性や市場競争力を高める戦略。 製品やサービスの品質や互換性を確保するために、具体的なルールや基準を定める計画である。この戦略は、企業や業界全体が共通の基準に従って技術を開発し、市場の透明性を高めることを目的としている。例えば、通信業界では、異なる企業間での機器の相互接続がスムーズになるように標準化が進められており、これにより消費者は選択肢を広げることができる。また、環境基準に基づいた製品開発も、持続可能な社会を実現するために重要な役割を果たす。標準化戦略を採用することで、コスト削減や市場競争力の向上が期待される。",
+          "vi": "Xây dựng và phổ biến tiêu chuẩn chung về kỹ thuật, sản phẩm để tăng tương thích, giảm chi phí và tạo lợi thế thị trường."
+        },
+        {
+          "type": "point",
+          "ja": "標準化は互換性・普及・市場形成につながる。",
+          "vi": "Từ khóa FE: tiêu chuẩn chung, tương thích, phổ biến công nghệ."
+        }
+      ],
+      "terms": [
+        {
+          "term": "標準化戦略",
+          "english": "Standardization Strategy",
+          "vi": "Chiến lược tiêu chuẩn hóa",
+          "definitionJa": "技術や製品の仕様を共通の標準として整備・普及させ、互換性や市場競争力を高める戦略。",
+          "definitionVi": "Xây dựng và phổ biến tiêu chuẩn chung về kỹ thuật, sản phẩm để tăng tương thích, giảm chi phí và tạo lợi thế thị trường.",
+          "reading": "ひょうじゅんかせんりゃく"
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "standardization-strategy"
+      ]
+    },
+    {
+      "id": "ideathon",
+      "order": 27,
+      "titleJa": "アイディアソン",
+      "titleVi": "Cuộc thi phát triển ý tưởng (Ideathon)",
+      "importance": "high",
+      "summaryJa": "参加者が短時間で特定テーマのアイデアを出し合い、企画を練り上げるイベント。",
+      "summaryVi": "Sự kiện các nhóm cùng đề xuất, thảo luận và hoàn thiện ý tưởng cho một chủ đề trong thời gian ngắn.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "アイディアソンとは",
+          "vi": "Cuộc thi phát triển ý tưởng (Ideathon) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "参加者が短時間で特定テーマのアイデアを出し合い、企画を練り上げるイベント。 特定のテーマに基づいてアイデアを出し合うイベントである。参加者がグループを組み、短時間で新たな製品やサービスのアイデアを創出することを目的としている。この手法は、技術開発戦略の立案において特に有効で、異なるバックグラウンドを持つ人々が集まることで多様な視点が得られる。たとえば、企業が新しい技術を導入する際に、アイディアソンを開催することで社内外から斬新なアイデアを収集し、実現可能性を高めることができる。迅速に想像力をかきたてることが求められるため、短時間での創造的な議論が重視され、参加者同士のコラボレーションが促進される。",
+          "vi": "Sự kiện các nhóm cùng đề xuất, thảo luận và hoàn thiện ý tưởng cho một chủ đề trong thời gian ngắn."
+        },
+        {
+          "type": "point",
+          "ja": "アイディアソンは発想・企画が中心。",
+          "vi": "Ideathon tập trung ý tưởng; Hackathon tập trung tạo sản phẩm/mẫu thử."
+        }
+      ],
+      "terms": [
+        {
+          "term": "アイディアソン",
+          "english": "Ideathon",
+          "vi": "Cuộc thi phát triển ý tưởng (Ideathon)",
+          "definitionJa": "参加者が短時間で特定テーマのアイデアを出し合い、企画を練り上げるイベント。",
+          "definitionVi": "Sự kiện các nhóm cùng đề xuất, thảo luận và hoàn thiện ý tưởng cho một chủ đề trong thời gian ngắn.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "ideathon"
+      ]
+    },
+    {
+      "id": "hackathon",
+      "order": 28,
+      "titleJa": "ハッカソン",
+      "titleVi": "Cuộc thi phát triển sản phẩm (Hackathon)",
+      "importance": "high",
+      "summaryJa": "開発者などが限られた時間内に協力してアプリや試作品などを制作するイベント。",
+      "summaryVi": "Sự kiện các lập trình viên, nhà thiết kế và cộng sự làm việc nhóm trong thời gian giới hạn để tạo ứng dụng hoặc nguyên mẫu.",
+      "content": [
+        {
+          "type": "heading",
+          "ja": "ハッカソンとは",
+          "vi": "Cuộc thi phát triển sản phẩm (Hackathon) là gì?"
+        },
+        {
+          "type": "paragraph",
+          "ja": "開発者などが限られた時間内に協力してアプリや試作品などを制作するイベント。 技術者やデザイナーが集まり、限られた時間内にアイデアを形にするためのイベントである。通常、24時間から数日間の期間内に、参加者はチームを組み、特定のテーマや課題に取り組むことで新しいプロジェクトやプロトタイプを作成する。この形式のイベントは、創造性や協力の促進を目的としており、特にスタートアップ企業やテクノロジー企業でよく行われる。参加者は技術スキルを磨く機会を得られるだけでなく、事業化の可能性を秘めたアイデアを具現化するチャンスもある。最終的には、プレゼンテーションを行い、優れた成果物が評価されることで賞を得ることもできる。",
+          "vi": "Sự kiện các lập trình viên, nhà thiết kế và cộng sự làm việc nhóm trong thời gian giới hạn để tạo ứng dụng hoặc nguyên mẫu."
+        },
+        {
+          "type": "point",
+          "ja": "ハッカソンは動く成果物の制作が中心。",
+          "vi": "Hackathon chú trọng hiện thực hóa ý tưởng bằng sản phẩm hoặc prototype."
+        }
+      ],
+      "terms": [
+        {
+          "term": "ハッカソン",
+          "english": "Hackathon",
+          "vi": "Cuộc thi phát triển sản phẩm (Hackathon)",
+          "definitionJa": "開発者などが限られた時間内に協力してアプリや試作品などを制作するイベント。",
+          "definitionVi": "Sự kiện các lập trình viên, nhà thiết kế và cộng sự làm việc nhóm trong thời gian giới hạn để tạo ứng dụng hoặc nguyên mẫu.",
+          "reading": ""
+        }
+      ],
+      "tags": [
+        "technology-strategy",
+        "technology-development-strategy-planning",
+        "hackathon"
+      ]
+    }
+  ]
 }
