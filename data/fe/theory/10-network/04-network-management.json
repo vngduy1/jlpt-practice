@@ -15,9 +15,29 @@
       "summaryVi": "Quản lý cấu hình và phiên bản mạng để nắm rõ trạng thái thiết bị, kết nối và thiết lập.",
       "content": [
         {
+          "type": "heading",
+          "ja": "構成情報を維持し、変更を追跡する",
+          "vi": "Duy trì thông tin cấu hình và theo dõi thay đổi"
+        },
+        {
           "type": "paragraph",
-          "ja": "ネットワーク構成やバージョンを適切に管理し、機器・接続・設定の状態を把握する。",
-          "vi": "Quản lý cấu hình và phiên bản mạng để nắm rõ trạng thái thiết bị, kết nối và thiết lập."
+          "ja": "構成管理では、機器、接続関係、IPアドレス、経路、設定値、OSやファームウェアのバージョンを記録し、現在の状態と変更履歴を把握する。障害時には影響範囲と直前の変更を確認でき、計画変更では互換性や依存関係を事前に評価できる。構成図と実機の状態を一致させ、誰がいつ何を変更したかを追跡できることが重要である。",
+          "vi": "Quản lý cấu hình ghi nhận thiết bị, quan hệ kết nối, địa chỉ IP, tuyến đường, giá trị thiết lập và phiên bản OS/firmware để nắm trạng thái hiện tại cùng lịch sử thay đổi. Khi có sự cố, dữ liệu này giúp xác định phạm vi ảnh hưởng và thay đổi ngay trước đó; khi lập kế hoạch thay đổi, nó giúp đánh giá trước tính tương thích và quan hệ phụ thuộc. Điều quan trọng là sơ đồ cấu hình phải khớp với thiết bị thực tế và có thể truy vết ai đã thay đổi gì, vào lúc nào."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは、構成管理を単なる機器一覧ではなく、構成情報の維持と変更記録の管理として捉える。正常時の基準となる構成を保存し、変更前後を比較できるようにする。",
+          "vi": "Trong FE, quản lý cấu hình không chỉ là danh sách thiết bị mà còn là duy trì thông tin cấu hình và quản lý lịch sử thay đổi. Cần lưu cấu hình chuẩn khi hệ thống hoạt động bình thường để có thể so sánh trước và sau thay đổi."
+        },
+        {
+          "type": "example",
+          "ja": "ルーター更新後に一部拠点だけ通信できなくなった場合、構成管理台帳でファームウェア版、設定差分、接続先を確認する。旧版との差分から経路設定の欠落を特定し、承認済みの構成へ戻す。",
+          "vi": "Sau khi cập nhật router, nếu chỉ một số chi nhánh mất kết nối, có thể kiểm tra phiên bản firmware, chênh lệch cấu hình và thiết bị kết nối trong hồ sơ cấu hình. Từ khác biệt với phiên bản cũ, xác định tuyến bị thiếu rồi khôi phục cấu hình đã được phê duyệt."
+        },
+        {
+          "type": "warning",
+          "ja": "文書上の構成が最新でも、実機へ反映されたとは限らない。無断変更や反映漏れを防ぐため、実機の状態との定期照合と変更後の動作確認が必要である。",
+          "vi": "Tài liệu cấu hình mới nhất không đồng nghĩa cấu hình đó đã được áp dụng lên thiết bị. Cần định kỳ đối chiếu với trạng thái thực tế và kiểm tra hoạt động sau thay đổi để phát hiện thay đổi ngoài quy trình hoặc thiếu sót khi triển khai."
         }
       ],
       "terms": [
@@ -59,9 +79,29 @@
       "summaryVi": "Hiểu quy trình xử lý sự cố cơ bản: thu thập thông tin, khoanh vùng lỗi, xác định nguyên nhân, khôi phục và ghi chép.",
       "content": [
         {
+          "type": "heading",
+          "ja": "検出から復旧・再発防止までの流れ",
+          "vi": "Quy trình từ phát hiện đến khôi phục và ngăn tái diễn"
+        },
+        {
           "type": "paragraph",
-          "ja": "障害発生時の情報収集、切り分け、原因特定、復旧、記録という基本的な対応手順を理解する。",
-          "vi": "Hiểu quy trình xử lý sự cố cơ bản: thu thập thông tin, khoanh vùng lỗi, xác định nguyên nhân, khôi phục và ghi chép."
+          "ja": "障害管理では、監視通知や利用者報告から事象を検出し、発生時刻、対象、ログ、変更履歴などを収集する。端末、回線、機器、サーバ、アプリケーションの順に確認して影響範囲を切り分け、サービスを復旧した後に原因と対応を記録する。緊急の暫定復旧と、根本原因を除去する恒久対策は分けて考える。",
+          "vi": "Trong quản lý sự cố, sự kiện được phát hiện từ cảnh báo giám sát hoặc báo cáo người dùng; sau đó thu thập thời điểm xảy ra, đối tượng ảnh hưởng, log và lịch sử thay đổi. Tiếp tục kiểm tra lần lượt thiết bị đầu cuối, đường truyền, thiết bị mạng, server và ứng dụng để khoanh vùng; sau khi khôi phục dịch vụ phải ghi lại nguyên nhân và biện pháp xử lý. Cần phân biệt khôi phục tạm thời khẩn cấp với giải pháp lâu dài loại bỏ nguyên nhân gốc."
+        },
+        {
+          "type": "point",
+          "ja": "切り分けでは、正常な範囲と異常な範囲の境界を客観的な証拠で狭める。復旧を優先して予備系へ切り替えた場合も、ログや時刻情報を保存し、後で根本原因を分析できるようにする。",
+          "vi": "Khi khoanh vùng, cần dùng bằng chứng khách quan để thu hẹp ranh giới giữa khu vực bình thường và bất thường. Ngay cả khi ưu tiên khôi phục bằng cách chuyển sang hệ thống dự phòng, vẫn phải lưu log và mốc thời gian để phân tích nguyên nhân gốc sau đó."
+        },
+        {
+          "type": "example",
+          "ja": "ある部署だけ業務サーバへ接続できないとき、利用端末の設定、同一スイッチ配下の他端末、ゲートウェイへの到達性、スイッチポートの状態を順に確認する。同じVLANの端末だけ失敗するなら、対象VLANや接続ポートへ範囲を絞れる。",
+          "vi": "Khi chỉ một phòng ban không kết nối được tới server nghiệp vụ, lần lượt kiểm tra cấu hình máy người dùng, các máy khác dưới cùng switch, khả năng tới gateway và trạng thái cổng switch. Nếu chỉ các máy trong cùng VLAN thất bại, có thể thu hẹp phạm vi vào VLAN hoặc cổng kết nối tương ứng."
+        },
+        {
+          "type": "warning",
+          "ja": "推測だけで複数の設定を同時に変更すると、原因が分からなくなり新たな障害を招く。変更は影響を評価して一つずつ行い、結果と復旧手順を記録する。",
+          "vi": "Nếu đồng thời thay đổi nhiều cấu hình chỉ dựa trên suy đoán, nguyên nhân sẽ khó xác định và có thể phát sinh lỗi mới. Mỗi thay đổi phải được đánh giá ảnh hưởng, thực hiện từng bước và ghi lại kết quả cùng cách hoàn nguyên."
         }
       ],
       "terms": [
@@ -127,9 +167,29 @@
       "summaryVi": "Theo dõi liên tục trạng thái thiết bị và hiệu năng mạng bằng giám sát hoạt động và giám sát lưu lượng.",
       "content": [
         {
+          "type": "heading",
+          "ja": "可用性と性能を別の指標で監視する",
+          "vi": "Giám sát tính sẵn sàng và hiệu năng bằng các chỉ số riêng"
+        },
+        {
           "type": "paragraph",
-          "ja": "死活監視とトラフィック監視によって、機器の稼働状況やネットワーク性能を継続的に確認する。",
-          "vi": "Theo dõi liên tục trạng thái thiết bị và hiệu năng mạng bằng giám sát hoạt động và giám sát lưu lượng."
+          "ja": "死活監視は機器やサービスが応答するかを確認し、トラフィック監視は通信量、帯域使用率、遅延、パケット損失などの推移を測る。応答していても性能が低下している場合があるため、可用性と性能を組み合わせて継続的に観測する。通常時の値を基準に、しきい値超過や急な変化を検知することが重要である。",
+          "vi": "Giám sát trạng thái hoạt động kiểm tra thiết bị hoặc dịch vụ có phản hồi hay không; giám sát lưu lượng đo xu hướng về lượng truyền, mức dùng băng thông, độ trễ và mất gói. Một đối tượng vẫn có thể phản hồi dù hiệu năng đã suy giảm, vì vậy cần quan sát liên tục cả tính sẵn sàng và hiệu năng. Nên dùng giá trị bình thường làm đường cơ sở để phát hiện vượt ngưỡng hoặc thay đổi đột ngột."
+        },
+        {
+          "type": "point",
+          "ja": "死活監視は「動いているか」、性能監視は「十分な品質で動いているか」を見る。瞬間値だけでなく一定期間の傾向を確認すると、容量不足や障害の予兆を捉えやすい。",
+          "vi": "Giám sát hoạt động trả lời “có đang chạy không”, còn giám sát hiệu năng trả lời “có chạy với chất lượng đủ tốt không”. Xem xu hướng trong một khoảng thời gian thay vì chỉ giá trị tức thời giúp phát hiện thiếu dung lượng hoặc dấu hiệu sớm của sự cố."
+        },
+        {
+          "type": "example",
+          "ja": "ルーターはpingに応答していても、回線使用率が長時間95%でパケット損失が増えていれば、利用者の通信は遅くなる。死活監視だけではなく、使用率と損失率のグラフを確認して混雑を判断する。",
+          "vi": "Router vẫn có thể trả lời ping nhưng nếu mức sử dụng đường truyền duy trì 95% và tỷ lệ mất gói tăng, người dùng vẫn thấy mạng chậm. Cần xem biểu đồ mức sử dụng và mất gói, không chỉ giám sát sống/chết, để kết luận có tắc nghẽn."
+        },
+        {
+          "type": "warning",
+          "ja": "ping応答がないだけで機器停止とは断定できない。ICMPがフィルタされている場合があるため、対象サービスの応答や別経路の監視結果も確認する。また、しきい値が厳しすぎると誤警報が増える。",
+          "vi": "Không thể kết luận thiết bị đã dừng chỉ vì không có phản hồi ping; ICMP có thể bị lọc nên cần kiểm tra thêm phản hồi dịch vụ và kết quả giám sát qua đường khác. Ngưỡng quá nghiêm cũng làm tăng cảnh báo giả."
         }
       ],
       "terms": [
@@ -171,9 +231,29 @@
       "summaryVi": "Sử dụng ping, ifconfig, arp, netstat, ip, ss, dig và traceroute để kiểm tra kết nối, tuyến đường, DNS và socket.",
       "content": [
         {
+          "type": "heading",
+          "ja": "目的に応じて確認コマンドを使い分ける",
+          "vi": "Chọn lệnh kiểm tra theo mục đích"
+        },
+        {
           "type": "paragraph",
-          "ja": "ping、ifconfig、arp、netstat、ip、ss、dig、tracerouteなどを使い、通信状態や経路、DNS、ソケット情報を確認する。",
-          "vi": "Sử dụng ping, ifconfig, arp, netstat, ip, ss, dig và traceroute để kiểm tra kết nối, tuyến đường, DNS và socket."
+          "ja": "ネットワーク障害の調査では、確認したい層と情報に応じてコマンドを選ぶ。pingはIP到達性、ipやifconfigはインタフェースとアドレス、arpはIPv4とMACアドレスの対応、ssやnetstatはソケットと待受けポート、digはDNS、tracerouteは宛先までの経路を確認する。複数の結果を組み合わせて、名前解決、端末設定、経路、サービスのどこに問題があるかを切り分ける。",
+          "vi": "Khi điều tra sự cố mạng, cần chọn lệnh theo tầng và loại thông tin muốn kiểm tra. ping kiểm tra khả năng tới đích ở mức IP; ip hoặc ifconfig kiểm tra giao diện và địa chỉ; arp kiểm tra ánh xạ IPv4–MAC; ss hoặc netstat kiểm tra socket và cổng lắng nghe; dig kiểm tra DNS; traceroute kiểm tra đường đi tới đích. Kết hợp nhiều kết quả giúp khoanh vùng vấn đề ở phân giải tên, cấu hình máy, tuyến đường hay dịch vụ."
+        },
+        {
+          "type": "point",
+          "ja": "FEではコマンド名と確認対象の対応を押さえる。`dig`はDNSレコード、`ss`・`netstat`は接続やポート、`traceroute`は中継経路を調べる。`ip`はLinuxでアドレス、リンク、経路、近隣情報を扱える。",
+          "vi": "Trong FE, cần nhớ quan hệ giữa tên lệnh và đối tượng kiểm tra: `dig` xem bản ghi DNS; `ss`/`netstat` xem kết nối và cổng; `traceroute` xem các hop trung gian; `ip` trên Linux quản lý địa chỉ, liên kết, tuyến và thông tin neighbor."
+        },
+        {
+          "type": "example",
+          "ja": "`ping 192.0.2.10`は成功するが`ping server.example`が失敗する場合、IP経路より名前解決を疑い、`dig server.example`でDNS応答を確認する。名前解決できてもWebへ接続できなければ、`ss`などでサーバの待受けポートを調べる。",
+          "vi": "Nếu `ping 192.0.2.10` thành công nhưng `ping server.example` thất bại, nên nghi ngờ phân giải tên hơn là tuyến IP và kiểm tra phản hồi DNS bằng `dig server.example`. Nếu tên đã phân giải được nhưng vẫn không vào được web, có thể dùng `ss` để kiểm tra cổng lắng nghe trên server."
+        },
+        {
+          "type": "warning",
+          "ja": "ping成功はアプリケーションの正常動作を保証せず、ping失敗も必ずしもIP到達不能を意味しない。ファイアウォールがICMPやtracerouteの応答を制限することがあるため、一つのコマンドだけで断定しない。",
+          "vi": "Ping thành công không bảo đảm ứng dụng hoạt động bình thường; ping thất bại cũng không nhất thiết có nghĩa là không thể tới đích ở mức IP. Firewall có thể chặn ICMP hoặc phản hồi traceroute, nên không kết luận chỉ từ một lệnh."
         }
       ],
       "terms": [
@@ -263,9 +343,29 @@
       "summaryVi": "Hiểu vai trò và mối quan hệ giữa SNMP Agent, SNMP Management Station và MIB.",
       "content": [
         {
+          "type": "heading",
+          "ja": "マネージャ、エージェント、MIBの関係",
+          "vi": "Quan hệ giữa manager, agent và MIB"
+        },
+        {
           "type": "paragraph",
-          "ja": "SNMPエージェント、SNMP管理ステーション、MIBの役割と関係を理解する。",
-          "vi": "Hiểu vai trò và mối quan hệ giữa SNMP Agent, SNMP Management Station và MIB."
+          "ja": "SNMPでは、管理ステーションが管理対象機器上のエージェントへ要求を送り、エージェントがMIBで定義された管理オブジェクトの値を返す。各オブジェクトは階層的なOIDで識別され、インタフェースの状態や通信量などを共通の形式で扱える。管理側からの定期取得に加え、エージェントからTrapなどで異常を通知する方式もある。",
+          "vi": "Trong SNMP, trạm quản lý gửi yêu cầu tới agent trên thiết bị được quản lý; agent trả về giá trị của các đối tượng quản lý được định nghĩa trong MIB. Mỗi đối tượng được nhận biết bằng OID phân cấp, nhờ đó trạng thái giao diện hoặc lưu lượng có thể được xử lý theo định dạng chung. Ngoài việc phía quản lý truy vấn định kỳ, agent còn có thể gửi thông báo bất thường bằng Trap."
+        },
+        {
+          "type": "point",
+          "ja": "管理ステーションは監視・操作を行う側、エージェントは機器側で情報を提供する側、MIBは管理項目の構造と識別方法を定義する。ポーリングは管理側から取得し、Trapはエージェント側から自発的に通知する。",
+          "vi": "Management Station là phía giám sát và thao tác; agent là phía thiết bị cung cấp thông tin; MIB định nghĩa cấu trúc và cách nhận biết các mục quản lý. Polling do phía quản lý chủ động lấy dữ liệu, còn Trap là thông báo tự phát từ agent."
+        },
+        {
+          "type": "example",
+          "ja": "管理ステーションがルーターのインタフェース受信バイト数を定期的に取得し、前回値との差からトラフィック量を計算する。リンクダウン時にはエージェントがTrapを送り、管理画面に警報を表示する。",
+          "vi": "Trạm quản lý định kỳ lấy bộ đếm byte nhận của giao diện router và tính lưu lượng từ chênh lệch so với lần trước. Khi liên kết bị down, agent gửi Trap để hệ thống quản lý hiển thị cảnh báo."
+        },
+        {
+          "type": "warning",
+          "ja": "MIBは監視値そのものだけを指すのではなく、管理オブジェクトの構造や意味を定義する。Trapは通知の取りこぼしも考慮し、重要な状態はポーリングと組み合わせて確認する。また、SNMPv1/v2cのcommunity文字列を暗号化通信と誤解しない。",
+          "vi": "MIB không chỉ là chính các giá trị giám sát mà còn định nghĩa cấu trúc và ý nghĩa của đối tượng quản lý. Trap có thể bị thất lạc, vì vậy trạng thái quan trọng nên được kiểm tra kết hợp với polling. Cũng không được nhầm community string của SNMPv1/v2c với truyền thông đã mã hóa."
         }
       ],
       "terms": [
@@ -315,9 +415,29 @@
       "summaryVi": "Hiểu các khái niệm cơ bản và sự khác nhau về vai trò của tunneling, SDN, OpenFlow và NFV.",
       "content": [
         {
+          "type": "heading",
+          "ja": "仮想化、制御分離、機能のソフトウェア化",
+          "vi": "Ảo hóa, tách điều khiển và phần mềm hóa chức năng mạng"
+        },
+        {
           "type": "paragraph",
-          "ja": "トンネリング、SDN、OpenFlow、NFVの基本概念と、それぞれの役割の違いを理解する。",
-          "vi": "Hiểu các khái niệm cơ bản và sự khác nhau về vai trò của tunneling, SDN, OpenFlow và NFV."
+          "ja": "トンネリングはパケットを別のプロトコルでカプセル化して論理的な通信路を作る。SDNは制御機能を転送機能から分離し、ソフトウェアからネットワークを集中的・動的に制御する考え方である。OpenFlowはコントローラが対応スイッチのフローテーブルを操作するための代表的なプロトコルであり、NFVはファイアウォールなどのネットワーク機能を専用機器から分離して汎用基盤上のソフトウェアとして実行する。",
+          "vi": "Tunneling đóng gói gói tin trong một giao thức khác để tạo đường truyền logic. SDN là cách tiếp cận tách chức năng điều khiển khỏi chức năng chuyển tiếp và điều khiển mạng tập trung, linh hoạt bằng phần mềm. OpenFlow là giao thức tiêu biểu để controller thao tác flow table của switch tương thích; NFV tách các chức năng mạng như firewall khỏi thiết bị chuyên dụng để chạy dưới dạng phần mềm trên hạ tầng đa dụng."
+        },
+        {
+          "type": "point",
+          "ja": "SDNはネットワークをどのように制御するかというアーキテクチャ、OpenFlowは制御に使えるプロトコルの一つ、NFVはネットワーク機能をどこでどのように実行するかという仮想化の考え方である。目的と役割を分けて覚える。",
+          "vi": "SDN là kiến trúc về cách điều khiển mạng; OpenFlow là một giao thức có thể dùng cho việc điều khiển; NFV là cách ảo hóa liên quan tới nơi và cách thực thi chức năng mạng. Cần ghi nhớ riêng mục đích và vai trò của từng khái niệm."
+        },
+        {
+          "type": "example",
+          "ja": "混雑を検知したSDNコントローラがOpenFlowスイッチのフローテーブルを更新し、特定通信を別経路へ振り分ける。一方、仮想ファイアウォールを汎用サーバ上で追加起動して処理能力を増やすのはNFVの例である。",
+          "vi": "Khi phát hiện tắc nghẽn, SDN controller cập nhật flow table của switch OpenFlow để chuyển một luồng sang đường khác. Trong khi đó, khởi chạy thêm firewall ảo trên server đa dụng để tăng năng lực xử lý là ví dụ về NFV."
+        },
+        {
+          "type": "warning",
+          "ja": "SDNとOpenFlowは同義ではなく、OpenFlowを使わないSDN実装もあり得る。SDNとNFVも別概念だが組み合わせて利用できる。また、トンネリングはカプセル化であり、それ自体が暗号化や安全性を保証するわけではない。",
+          "vi": "SDN không đồng nghĩa với OpenFlow; có thể tồn tại triển khai SDN không dùng OpenFlow. SDN và NFV cũng là hai khái niệm khác nhau nhưng có thể kết hợp. Tunneling là đóng gói và tự nó không bảo đảm mã hóa hay an toàn."
         }
       ],
       "terms": [

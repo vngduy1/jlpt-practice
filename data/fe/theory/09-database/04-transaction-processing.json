@@ -11,8 +11,8 @@
       "titleJa": "同時実行制御とロック",
       "titleVi": "Điều khiển đồng thời và khóa",
       "importance": "high",
-      "summaryJa": "ロック方式、セマフォ、専有・共有ロック、ロック粒度、デッドロックを理解する。",
-      "summaryVi": "Hiểu cơ chế khóa, semaphore, khóa độc quyền/chia sẻ, độ hạt khóa và deadlock.",
+      "summaryJa": "複数のトランザクションが同じデータを扱うとき、ロックによって整合性を守る仕組みと、粒度・デッドロックの注意点を理解する。",
+      "summaryVi": "Hiểu cách khóa bảo vệ tính nhất quán khi nhiều transaction cùng xử lý một dữ liệu, cùng các điểm cần chú ý về độ hạt khóa và deadlock.",
       "terms": [
         {
           "term": "ロック方式",
@@ -56,7 +56,7 @@
         },
         {
           "term": "デッドロック",
-          "reading": "",
+          "reading": "でっどろっく",
           "english": "Deadlock",
           "vi": "deadlock / khóa chết",
           "definitionJa": "複数のプロセスが互いに相手の保持するリソースの解放を待ち続け、処理を進められなくなる状態。",
@@ -65,9 +65,29 @@
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "排他制御でデータの整合性を守る",
+          "vi": "Bảo vệ tính nhất quán dữ liệu bằng điều khiển tương tranh"
+        },
+        {
           "type": "paragraph",
-          "ja": "ロック方式、セマフォ、専有・共有ロック、ロック粒度、デッドロックを理解する。",
-          "vi": "Hiểu cơ chế khóa, semaphore, khóa độc quyền/chia sẻ, độ hạt khóa và deadlock."
+          "ja": "複数のトランザクションが同じデータを同時に更新すると、更新の消失などが起こり得る。ロック方式は処理中のデータへのアクセスを制限して競合を防ぐ。共有ロックは複数の読取りと両立するが、専有ロックは他の読取り・更新を制限する。ロック対象を行、ページ、表のどの単位にするかというロック粒度は、同時実行性と管理コストの両方に影響する。",
+          "vi": "Khi nhiều transaction đồng thời cập nhật cùng dữ liệu, có thể xảy ra hiện tượng mất cập nhật. Cơ chế khóa hạn chế truy cập vào dữ liệu đang được xử lý để ngăn xung đột. Khóa chia sẻ tương thích với nhiều thao tác đọc, còn khóa độc quyền hạn chế các thao tác đọc hoặc ghi khác. Việc khóa theo hàng, trang hay bảng—tức độ hạt khóa—ảnh hưởng đồng thời đến khả năng xử lý song song và chi phí quản lý."
+        },
+        {
+          "type": "point",
+          "ja": "共有ロック同士は通常両立するが、専有ロックは共有ロックや他の専有ロックと競合する。細かい粒度は同時実行性を高めやすい一方、保持するロック数と管理負荷が増える。",
+          "vi": "Các khóa chia sẻ thường tương thích với nhau, nhưng khóa độc quyền xung đột với khóa chia sẻ và khóa độc quyền khác. Độ hạt càng nhỏ thường giúp tăng mức đồng thời, đổi lại số khóa và chi phí quản lý tăng."
+        },
+        {
+          "type": "example",
+          "ja": "トランザクションT1が口座Aをロックして口座Bを待ち、T2が口座Bをロックして口座Aを待つと、互いに処理を進められずデッドロックになる。両方が常にA、Bの順にロックすれば、この循環待ちを避けられる。",
+          "vi": "Nếu transaction T1 khóa tài khoản A rồi chờ B, còn T2 khóa B rồi chờ A, cả hai không thể tiếp tục và tạo thành deadlock. Nếu cả hai luôn khóa theo cùng thứ tự A rồi B thì có thể tránh vòng chờ này."
+        },
+        {
+          "type": "warning",
+          "ja": "デッドロックは単なる長い待ち時間ではなく、複数の処理が互いの資源を循環して待つ状態である。一般にDBMSは一方のトランザクションを中止して解消するため、アプリケーション側では再実行を考慮する。",
+          "vi": "Deadlock không chỉ là thời gian chờ dài mà là trạng thái nhiều xử lý chờ tài nguyên của nhau theo vòng. DBMS thường hủy một transaction để phá deadlock, vì vậy ứng dụng cần tính đến việc thực hiện lại transaction đó."
         }
       ],
       "tags": ["database", "transaction-processing"]
@@ -78,8 +98,8 @@
       "titleJa": "トランザクションと障害回復",
       "titleVi": "Transaction và phục hồi sự cố",
       "importance": "high",
-      "summaryJa": "2相コミットメント、ジャーナル、チェックポイント、ロールバック、ロールフォワード、ACID特性などを理解する。",
-      "summaryVi": "Hiểu two-phase commitment, journal, checkpoint, rollback, roll forward và các thuộc tính ACID.",
+      "summaryJa": "トランザクションのACID特性と、ログ・チェックポイントを使った障害回復、分散処理の2相コミットを理解する。",
+      "summaryVi": "Hiểu các thuộc tính ACID của transaction, cách phục hồi sự cố bằng log và checkpoint, cùng two-phase commit trong xử lý phân tán.",
       "terms": [
         {
           "term": "2相コミットメント",
@@ -91,7 +111,7 @@
         },
         {
           "term": "ジャーナルファイル",
-          "reading": "",
+          "reading": "じゃーなるふぁいる",
           "english": "Journal File",
           "vi": "tệp nhật ký",
           "definitionJa": "システムやアプリケーションが行った操作やイベント、変更履歴を記録し、障害発生時の回復などに利用するファイル。",
@@ -99,7 +119,7 @@
         },
         {
           "term": "チェックポイント",
-          "reading": "",
+          "reading": "ちぇっくぽいんと",
           "english": "Checkpoint",
           "vi": "điểm kiểm tra",
           "definitionJa": "システムやアプリケーションの状態を特定の時点で記録し、障害発生時にその状態を基準として復旧できるようにする仕組み。",
@@ -107,7 +127,7 @@
         },
         {
           "term": "ロールバック",
-          "reading": "",
+          "reading": "ろーるばっく",
           "english": "Rollback",
           "vi": "rollback / quay lui",
           "definitionJa": "エラーや障害が発生した際に、処理前の正常な状態へ戻す手法。バックワードリカバリとも呼ばれる。",
@@ -115,7 +135,7 @@
         },
         {
           "term": "ロールフォワード",
-          "reading": "",
+          "reading": "ろーるふぉわーど",
           "english": "Roll Forward",
           "vi": "roll forward / phục hồi tiến",
           "definitionJa": "最新のバックアップを基に、その後のトランザクションログを適用して障害直前の状態へ復元する手法。フォワードリカバリとも呼ばれる。",
@@ -123,19 +143,19 @@
         },
         {
           "term": "ウォームスタート",
-          "reading": "",
+          "reading": "うぉーむすたーと",
           "english": "Warm Start",
           "vi": "khởi động ấm",
-          "definitionJa": "障害回復や再起動時に直前の状態を保ちながら処理を再開する方法。",
-          "definitionVi": "Phương pháp khởi động lại hoặc phục hồi trong khi vẫn giữ trạng thái trước đó để nhanh chóng tiếp tục xử lý."
+          "definitionJa": "データベース自体は破損していないシステム障害などで、チェックポイントとジャーナルを基に未完了トランザクションの取消しや必要な再実行を行って再開する方式。",
+          "definitionVi": "Cách khởi động lại khi bản thân cơ sở dữ liệu không bị hỏng, dùng checkpoint và journal để hủy transaction chưa hoàn tất hoặc thực hiện lại phần cần thiết."
         },
         {
           "term": "コールドスタート",
-          "reading": "",
+          "reading": "こーるどすたーと",
           "english": "Cold Start",
           "vi": "khởi động lạnh",
-          "definitionJa": "十分なデータや状態がない初期段階からシステムやサービスを立ち上げることに関連する問題。",
-          "definitionVi": "Vấn đề khi khởi động hệ thống hoặc dịch vụ từ trạng thái ban đầu chưa có đủ dữ liệu hay thông tin cần thiết."
+          "definitionJa": "媒体障害などでデータベースが破損した場合に、バックアップを復元し、その後のジャーナルを適用して回復してから再開する方式。",
+          "definitionVi": "Cách khởi động lại khi cơ sở dữ liệu bị hỏng do sự cố phương tiện lưu trữ: khôi phục bản sao lưu rồi áp dụng journal phát sinh sau đó để phục hồi dữ liệu."
         },
         {
           "term": "ACID特性",
@@ -148,9 +168,29 @@
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "トランザクションの保証と障害からの回復",
+          "vi": "Bảo đảm transaction và phục hồi sau sự cố"
+        },
+        {
           "type": "paragraph",
-          "ja": "2相コミットメント、ジャーナル、チェックポイント、ロールバック、ロールフォワード、ACID特性などを理解する。",
-          "vi": "Hiểu two-phase commitment, journal, checkpoint, rollback, roll forward và các thuộc tính ACID."
+          "ja": "トランザクションは、関連する複数の処理を一つの論理的な単位として扱う。ACIDは、全て実行するか全く実行しない原子性、制約を守る整合性、同時実行の影響を適切に分離する独立性、コミット済み結果を失わない耐久性を表す。DBMSはジャーナルに更新情報を記録し、チェックポイントを回復開始位置の目安として、障害後にデータを整合した状態へ戻す。",
+          "vi": "Transaction coi nhiều xử lý liên quan là một đơn vị logic. ACID gồm tính nguyên tử—hoặc thực hiện toàn bộ hoặc không thực hiện gì; tính nhất quán—tuân thủ các ràng buộc; tính cô lập—tách biệt phù hợp ảnh hưởng của các transaction đồng thời; và tính bền vững—không làm mất kết quả đã commit. DBMS ghi thông tin cập nhật vào journal và dùng checkpoint làm mốc bắt đầu phục hồi để đưa dữ liệu về trạng thái nhất quán sau sự cố."
+        },
+        {
+          "type": "point",
+          "ja": "ロールバックは未完了処理などの更新を取り消すバックワードリカバリである。ロールフォワードはバックアップなどを基点に、ジャーナルの更新を再適用するフォワードリカバリである。2相コミットでは、調整役が各参加先に準備可否を確認した後、全体のコミット又はロールバックを決定する。",
+          "vi": "Rollback là phục hồi lùi, hủy các cập nhật của xử lý chưa hoàn tất. Roll forward là phục hồi tiến, áp dụng lại cập nhật trong journal từ một mốc như bản sao lưu. Trong two-phase commit, điều phối viên hỏi các bên tham gia có sẵn sàng hay không rồi quyết định commit hoặc rollback toàn bộ."
+        },
+        {
+          "type": "example",
+          "ja": "口座振替では、A口座からの減額だけ成功してB口座への加算が失敗してはならない。両方を一つのトランザクションにし、途中で失敗したらロールバックすることで原子性を守る。コミット後にデータページへの反映前に障害が起きても、ログからREDOできれば耐久性を保てる。",
+          "vi": "Trong chuyển khoản, không được phép chỉ trừ tiền ở tài khoản A rồi thất bại khi cộng vào B. Gộp cả hai thao tác thành một transaction và rollback nếu lỗi giữa chừng sẽ bảo đảm tính nguyên tử. Nếu sự cố xảy ra sau commit nhưng trước khi trang dữ liệu được ghi xong, việc REDO từ log giúp duy trì tính bền vững."
+        },
+        {
+          "type": "warning",
+          "ja": "ロールバックとロールフォワードは向きが逆である。また、2相コミットは分散トランザクションの合意手順であり、ロックを拡張・縮小の2段階で扱う2相ロックとは別の概念である。",
+          "vi": "Rollback và roll forward có hướng phục hồi ngược nhau. Ngoài ra, two-phase commit là thủ tục đạt đồng thuận cho transaction phân tán; nó khác với two-phase locking, cơ chế quản lý khóa theo hai giai đoạn tăng và giảm."
         }
       ],
       "tags": ["database", "transaction-processing"]
@@ -161,8 +201,8 @@
       "titleJa": "インデックス",
       "titleVi": "Index",
       "importance": "high",
-      "summaryJa": "インデックスの種類と特徴、検索性能との関係を理解する。",
-      "summaryVi": "Hiểu các loại index, đặc điểm của chúng và mối quan hệ với hiệu năng tìm kiếm.",
+      "summaryJa": "インデックスが検索を高速化する仕組みと、種類ごとの適用条件、更新・記憶領域とのトレードオフを理解する。",
+      "summaryVi": "Hiểu cách index tăng tốc tìm kiếm, điều kiện áp dụng của từng loại và sự đánh đổi với chi phí cập nhật, dung lượng lưu trữ.",
       "terms": [
         {
           "term": "インデックス数",
@@ -174,7 +214,7 @@
         },
         {
           "term": "ユニークインデックス",
-          "reading": "",
+          "reading": "ゆにーくいんでっくす",
           "english": "Unique Index",
           "vi": "index duy nhất",
           "definitionJa": "一意の値を持つ列に設定し、値の重複を防ぐインデックス。",
@@ -198,7 +238,7 @@
         },
         {
           "term": "ビットマップインデックス",
-          "reading": "",
+          "reading": "びっとまっぷいんでっくす",
           "english": "Bitmap Index",
           "vi": "bitmap index",
           "definitionJa": "各値に対してビット列で存在を表現し、特定の列の値を効率的に検索・フィルタリングするためのインデックス。",
@@ -206,7 +246,7 @@
         },
         {
           "term": "ハッシュインデックス",
-          "reading": "",
+          "reading": "はっしゅいんでっくす",
           "english": "Hash Index",
           "vi": "hash index",
           "definitionJa": "ハッシュ関数を使ってキーに対応するデータを迅速に検索するインデックス。特定値の検索に適するが、範囲検索には適さない。",
@@ -214,7 +254,7 @@
         },
         {
           "term": "カバリングインデックス",
-          "reading": "",
+          "reading": "かばりんぐいんでっくす",
           "english": "Covering Index",
           "vi": "covering index",
           "definitionJa": "特定のクエリで必要となるすべてのカラムを含み、実際のデータ行へアクセスせずに結果を返せるように設計されたインデックス。",
@@ -223,9 +263,29 @@
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "検索条件に合うインデックスを選ぶ",
+          "vi": "Chọn index phù hợp với điều kiện tìm kiếm"
+        },
+        {
           "type": "paragraph",
-          "ja": "インデックスの種類と特徴、検索性能との関係を理解する。",
-          "vi": "Hiểu các loại index, đặc điểm của chúng và mối quan hệ với hiệu năng tìm kiếm."
+          "ja": "インデックスは、表の全行を順に調べずに目的の行へ到達しやすくする補助的なデータ構造である。検索を高速化できる一方、インデックス自体の記憶領域が必要で、INSERT、UPDATE、DELETE時には対応する索引情報も保守しなければならない。実際に使われるかどうかは、検索条件、データ分布、表の大きさなどを基にオプティマイザが判断する。",
+          "vi": "Index là cấu trúc dữ liệu phụ giúp tiếp cận hàng cần tìm mà không phải lần lượt kiểm tra toàn bộ bảng. Nó có thể tăng tốc truy vấn nhưng cần thêm dung lượng và phải được bảo trì khi INSERT, UPDATE hoặc DELETE. Việc index có thực sự được dùng hay không do bộ tối ưu quyết định dựa trên điều kiện tìm kiếm, phân bố dữ liệu, kích thước bảng và các yếu tố khác."
+        },
+        {
+          "type": "point",
+          "ja": "B-treeは等値検索と範囲検索に広く使える。ハッシュは主に等値検索向けで、範囲検索には適さない。ビットマップは値の種類が少ない列を組み合わせる分析に向くが、更新が非常に多い用途では保守コストに注意する。カバリングインデックスはクエリに必要な列を索引内に含め、表本体へのアクセスを減らせる場合がある。",
+          "vi": "B-tree được dùng rộng rãi cho cả tìm kiếm bằng và tìm kiếm theo khoảng. Hash chủ yếu phù hợp với so sánh bằng, không phù hợp với khoảng. Bitmap thích hợp cho phân tích kết hợp các cột có ít giá trị phân biệt, nhưng cần lưu ý chi phí bảo trì khi cập nhật rất thường xuyên. Covering index chứa các cột mà truy vấn cần và trong một số trường hợp có thể giảm việc truy cập bảng chính."
+        },
+        {
+          "type": "example",
+          "ja": "顧客表で顧客IDを一意にし、`WHERE customer_id = 1050`を頻繁に実行するなら、顧客IDのユニークB-treeインデックスが候補になる。`WHERE order_date BETWEEN ...`のような日付範囲検索にもB-treeが適する。一方、ハッシュインデックスは後者の範囲条件には適さない。",
+          "vi": "Nếu bảng khách hàng yêu cầu mã khách hàng là duy nhất và thường chạy `WHERE customer_id = 1050`, unique B-tree index trên mã khách hàng là một lựa chọn phù hợp. B-tree cũng thích hợp với tìm kiếm khoảng ngày như `WHERE order_date BETWEEN ...`; hash index không phù hợp với điều kiện khoảng này."
+        },
+        {
+          "type": "warning",
+          "ja": "インデックスは多いほど常に速いわけではない。更新負荷と容量が増え、該当行が表の大部分を占める検索では全表走査が選ばれることもある。複合インデックスでは列の順序も利用可能な検索条件に影響する。",
+          "vi": "Không phải càng nhiều index thì hệ thống luôn càng nhanh. Index làm tăng chi phí cập nhật và dung lượng; với truy vấn trả về phần lớn số hàng, DBMS vẫn có thể chọn quét toàn bảng. Thứ tự cột trong index ghép cũng ảnh hưởng đến các điều kiện tìm kiếm có thể tận dụng index."
         }
       ],
       "tags": ["database", "transaction-processing"]

@@ -21,13 +21,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "業務やプロジェクトの改善を進めるための管理サイクルである。このサイクルは、計画（Plan）、実行（Do）、チェック（Check）、行動（Act）の4つのステップから成り立っており、繰り返し行うことで品質向上や効率化を図ることができる。具体的には、まず目標を設定し計画を立て（Plan）、それに基づいて実際に行動を起こす（Do）。次に、その結果を分析し評価する（Check）、そして改善点を見つけ、次のサイクルに活かす（Act）という流れとなる。このPDCAサイクルは、サービスやプロダクトの品質管理、業務プロセスの見直し、さらには新たな戦略の策定に至るまで様々な領域で有効に活用されている。",
-          "vi": "Chu trình quản lý cải tiến liên tục gồm bốn bước: lập kế hoạch (Plan), thực hiện (Do), kiểm tra kết quả (Check) và hành động cải tiến (Act). Sau bước Act, tổ chức tiếp tục chu trình mới để nâng cao chất lượng và hiệu quả. Ví dụ: lập kế hoạch giảm thời gian xử lý ticket, áp dụng, đo kết quả rồi điều chỉnh quy trình."
+          "ja": "PDCAは、目標と評価方法を定めるPlan、計画を実施するDo、実績を目標と比較するCheck、差異の原因に対して是正又は標準化を行うActから成る。Actの結果を次のPlanに反映し、同じサイクルを継続することで、サービスマネジメントシステムや業務プロセスを改善する。",
+          "vi": "PDCA gồm Plan đặt mục tiêu và cách đánh giá, Do thực hiện kế hoạch, Check so sánh kết quả với mục tiêu, và Act khắc phục nguyên nhân sai lệch hoặc chuẩn hóa cách làm tốt. Kết quả của Act được đưa vào Plan tiếp theo để cải tiến liên tục hệ thống quản lý dịch vụ và quy trình nghiệp vụ."
         },
         {
           "type": "point",
-          "ja": "このサイクルは、計画（Plan）、実行（Do）、チェック（Check）、行動（Act）の4つのステップから成り立っており、繰り返し行うことで品質向上や効率化を図ることができる。",
-          "vi": "Điểm cần nhớ: PDCA lặp liên tục; Act là hành động cải tiến dựa trên kết quả Check."
+          "ja": "FEでは、Checkは実績の評価、Actはその評価に基づく是正・改善であり、Actの後に次のPlanへつながる点を押さえる。",
+          "vi": "Điểm FE: Check là đánh giá kết quả; Act là khắc phục và cải tiến dựa trên đánh giá đó, sau đó chuyển sang Plan của chu trình mới."
+        },
+        {
+          "type": "example",
+          "ja": "ヘルプデスクが初回応答時間を60分から30分に短縮する目標を立て（Plan）、振分け手順を試行し（Do）、平均35分という実績を確認し（Check）、人員配置と手順を見直して次期計画へ反映する（Act）。",
+          "vi": "Ví dụ: Bộ phận hỗ trợ đặt mục tiêu giảm thời gian phản hồi đầu tiên từ 60 xuống 30 phút (Plan), thử quy trình phân loại mới (Do), đo được trung bình 35 phút (Check), rồi điều chỉnh nhân sự và quy trình cho chu trình sau (Act)."
+        },
+        {
+          "type": "warning",
+          "ja": "Actを単なる「実行」と誤解しない。計画の実行はDoであり、ActはCheckの結果を受けた是正、改善又は標準化である。",
+          "vi": "Dễ nhầm: Act không phải là bước thực hiện kế hoạch; đó là Do. Act là khắc phục, cải tiến hoặc chuẩn hóa sau khi đã Check."
         }
       ],
       "terms": [
@@ -36,7 +46,7 @@
           "english": "Plan-Do-Check-Act",
           "vi": "Chu trình PDCA",
           "definitionJa": "業務やプロジェクトの改善を進めるための管理サイクルである。",
-          "definitionVi": "Chu trình cải tiến liên tục gồm Plan (lập kế hoạch), Do (thực hiện), Check (kiểm tra), Act (điều chỉnh).",
+          "definitionVi": "Phương pháp quản lý lặp bốn bước Plan–Do–Check–Act để đánh giá và cải tiến hoạt động.",
           "reading": "ぴーでぃーしーえー"
         }
       ],
@@ -52,7 +62,7 @@
       "titleJa": "JIS Q 9001",
       "titleVi": "Tiêu chuẩn JIS Q 9001",
       "importance": "high",
-      "summaryJa": "品質マネジメントシステムに関する国際規格であり、顧客満足を向上させるための基準を提供するものである。",
+      "summaryJa": "品質マネジメントシステムの要求事項を定めた、ISO 9001に対応する日本産業規格である。",
       "summaryVi": "Tiêu chuẩn công nghiệp Nhật Bản về các yêu cầu đối với hệ thống quản lý chất lượng, tương ứng ISO 9001.",
       "content": [
         {
@@ -62,13 +72,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "品質マネジメントシステムに関する国際規格であり、顧客満足を向上させるための基準を提供するものである。この規格は、組織が製品やサービスの品質を一貫して向上させるために必要なプロセスや手順を定めており、顧客のニーズを満たすための仕組みを構築することを目的としている。例えば、製造業やサービス業においては、この規格を遵守することで、業務の効率化や不具合の低減が期待できる。また、JIS Q 9001を取得することで、組織の信頼性が向上し、市場競争力を強化する効果もあるため、多くの企業が導入を進めている。制度に基づいた計画的な活動が求められ、その結果、顧客に対するサービスの質が向上することとなる。",
-          "vi": "Tiêu chuẩn công nghiệp Nhật Bản JIS Q 9001 quy định các yêu cầu đối với hệ thống quản lý chất lượng, tương ứng với ISO 9001. Tổ chức dùng tiêu chuẩn để kiểm soát quy trình, đáp ứng yêu cầu khách hàng và cải tiến chất lượng sản phẩm, dịch vụ. Tổ chức áp dụng các quy trình kiểm soát chất lượng và đánh giá việc đáp ứng yêu cầu khách hàng."
+          "ja": "JIS Q 9001は、ISO 9001に対応し、品質マネジメントシステム（QMS）を確立、運用、評価及び継続的に改善するための要求事項を定めた日本産業規格である。顧客要求事項及び適用される法令・規制要求事項を満たし、顧客満足の向上を目指すために、プロセスアプローチ、文書化した情報、監視・測定などを用いる。製品そのものの仕様を定める規格ではない。",
+          "vi": "JIS Q 9001 là Tiêu chuẩn Công nghiệp Nhật Bản tương ứng ISO 9001, quy định yêu cầu để thiết lập, vận hành, đánh giá và cải tiến liên tục hệ thống quản lý chất lượng (QMS). Tiêu chuẩn dùng cách tiếp cận theo quá trình, thông tin dạng văn bản và hoạt động theo dõi, đo lường để đáp ứng yêu cầu khách hàng cùng quy định áp dụng; nó không quy định đặc tính kỹ thuật của một sản phẩm cụ thể."
         },
         {
           "type": "point",
-          "ja": "この規格は、組織が製品やサービスの品質を一貫して向上させるために必要なプロセスや手順を定めており、顧客のニーズを満たすための仕組みを構築することを目的としている。",
-          "vi": "Điểm cần nhớ: JIS Q 9001 thuộc quản lý chất lượng; JIS Q 20000-1 thuộc quản lý dịch vụ."
+          "ja": "JIS Q 9001は品質マネジメントシステム、JIS Q 20000-1はサービスマネジメントシステムの要求事項を扱う。対象を区別する。",
+          "vi": "Điểm FE: JIS Q 9001 áp dụng cho hệ thống quản lý chất lượng; JIS Q 20000-1 áp dụng cho hệ thống quản lý dịch vụ."
+        },
+        {
+          "type": "example",
+          "ja": "ITサービス部門が問合せ対応プロセスを定め、処理時間と顧客苦情を測定し、内部監査で見つかった不適合に是正処置を行うことは、QMS運用の例である。",
+          "vi": "Ví dụ: Bộ phận dịch vụ IT quy định quy trình xử lý yêu cầu, đo thời gian xử lý và khiếu nại, rồi thực hiện hành động khắc phục đối với điểm không phù hợp phát hiện qua đánh giá nội bộ."
+        },
+        {
+          "type": "warning",
+          "ja": "認証は、全ての製品やサービスに欠陥がないことを保証するものではない。定めた認証範囲のQMSが規格要求事項に適合していることを評価する。",
+          "vi": "Dễ nhầm: Chứng nhận không bảo đảm mọi sản phẩm hay dịch vụ đều không có lỗi; nó đánh giá QMS trong phạm vi chứng nhận có phù hợp yêu cầu tiêu chuẩn hay không."
         }
       ],
       "terms": [
@@ -76,8 +96,8 @@
           "term": "JIS Q 9001",
           "english": "JIS Q 9001",
           "vi": "Tiêu chuẩn JIS Q 9001",
-          "definitionJa": "品質マネジメントシステムに関する国際規格であり、顧客満足を向上させるための基準を提供するものである。",
-          "definitionVi": "Tiêu chuẩn công nghiệp Nhật Bản về các yêu cầu đối với hệ thống quản lý chất lượng, tương ứng ISO 9001.",
+          "definitionJa": "品質マネジメントシステムの要求事項を定めた、ISO 9001に対応する日本産業規格である。",
+          "definitionVi": "Tiêu chuẩn Công nghiệp Nhật Bản tương ứng ISO 9001, dùng để đánh giá và cải tiến QMS.",
           "reading": "じすきゅー9001"
         }
       ],
@@ -308,13 +328,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "業務やプロセスに関する重要な情報を文書として記録したものである。この文書は、組織内での知識の共有や管理を容易にし、業務の継続性や品質向上に寄与する役割を持つ。たとえば、サービスマネジメントシステムにおいては、手順書やポリシー、会議の議事録などが文書化された情報の一部であり、これらを基に事業活動が行われる。文書化することで、従業員は明確な指針を持ち、一貫性のある業務を遂行できるため、ミスの防止や効率的な運営が実現できる。また、新しいメンバーが組織に参加する際にも、文書化された情報が役立ち、スムーズな業務の引継ぎが可能となる。",
-          "vi": "Thông tin được văn bản hóa là thông tin phải được tổ chức kiểm soát và duy trì trên một phương tiện lưu trữ. Bao gồm tài liệu hướng dẫn và hồ sơ làm bằng chứng; cần quản lý phiên bản, quyền truy cập, cập nhật và lưu giữ. Quy trình vận hành, bản ghi thay đổi và nhật ký sự cố có thể là tài liệu điện tử."
+          "ja": "文書化した情報は、組織が管理し、維持又は保持する必要がある情報と、それを含む媒体である。手順書のように業務を支援するため維持する情報と、実施結果の証拠として保持する記録の両方を含み、紙だけでなく電子ファイル、画像などの媒体も対象となる。識別、版、承認、アクセス、完全性、保存期間及び廃棄を適切に管理する。",
+          "vi": "Thông tin dạng văn bản là thông tin và phương tiện chứa thông tin mà tổ chức phải kiểm soát, duy trì hoặc lưu giữ. Nó gồm cả tài liệu hỗ trợ công việc như quy trình và hồ sơ làm bằng chứng cho kết quả đã thực hiện; phương tiện có thể là giấy, tệp điện tử hoặc hình ảnh. Cần quản lý nhận dạng, phiên bản, phê duyệt, quyền truy cập, tính toàn vẹn, thời hạn lưu và hủy bỏ."
         },
         {
           "type": "point",
-          "ja": "この文書は、組織内での知識の共有や管理を容易にし、業務の継続性や品質向上に寄与する役割を持つ。",
-          "vi": "Điểm cần nhớ: Không chỉ là tài liệu giấy; cần quản lý phiên bản, quyền truy cập và thời hạn lưu giữ."
+          "ja": "業務を支えるために維持する文書と、結果の証拠として保持する記録を区別しつつ、いずれも必要な管理を行う。",
+          "vi": "Điểm FE: Phân biệt tài liệu được duy trì để hỗ trợ công việc với hồ sơ được lưu giữ làm bằng chứng; cả hai đều phải được kiểm soát thích hợp."
+        },
+        {
+          "type": "example",
+          "ja": "運用手順書の第3版を承認して利用者へ公開し、旧版を誤使用できない状態にする。一方、実施済み変更の記録やインシデントログは、結果の証拠として定めた期間保持する。",
+          "vi": "Ví dụ: Phê duyệt và phát hành phiên bản 3 của hướng dẫn vận hành, đồng thời ngăn sử dụng nhầm bản cũ. Bản ghi thay đổi và nhật ký sự cố đã thực hiện được lưu trong thời hạn quy định để làm bằng chứng."
+        },
+        {
+          "type": "warning",
+          "ja": "文書を作成するだけでは十分ではない。旧版が現場に残る、権限のない変更が可能、又は記録を必要期間保持しない状態は、文書化した情報を管理できていない。",
+          "vi": "Dễ nhầm: Chỉ tạo tài liệu là chưa đủ. Bản cũ còn được sử dụng, sửa đổi không được phép hoặc không lưu hồ sơ đủ thời hạn đều là kiểm soát không đạt."
         }
       ],
       "terms": [
@@ -323,7 +353,7 @@
           "english": "Documented Information",
           "vi": "Thông tin dạng văn bản",
           "definitionJa": "業務やプロセスに関する重要な情報を文書として記録したものである。",
-          "definitionVi": "Thông tin cần được tổ chức tạo lập, cập nhật, kiểm soát và lưu giữ dưới dạng phù hợp.",
+          "definitionVi": "Thông tin cùng phương tiện chứa nó mà tổ chức phải duy trì hoặc lưu giữ dưới sự kiểm soát.",
           "reading": "ぶんしょかしたじょうほう"
         }
       ],
@@ -472,13 +502,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "組織が提供する全てのサービスをまとめた資料や概念を指す。これは、提供中のサービス、開発中のサービス、将来のサービス計画を含む。例えば、企業が新しいソフトウェアや顧客サポートサービスを導入する際、既存のサービスと併せてどのように提供するかを整理するのに役立つ。サービスポートフォリオを利用することで、企業は顧客のニーズに応じたサービスを効果的に管理し、戦略的な支援を行うことができる。これにより、リソースの最適化やサービスの改善に繋がり、業務の効率性を高めることが可能となる。",
-          "vi": "Danh mục tổng thể dịch vụ là tập hợp thông tin quản lý mọi dịch vụ trong vòng đời, bao gồm dịch vụ đang phát triển, đang cung cấp và đã ngừng cung cấp. Nó hỗ trợ quyết định đầu tư và phân bổ nguồn lực. Doanh nghiệp dùng danh mục này để quyết định nên đầu tư, duy trì hay loại bỏ dịch vụ nào."
+          "ja": "サービスポートフォリオは、提案・計画中、開発中、稼働中及び廃止済みを含む、サービスのライフサイクル全体を管理する情報の集合である。各サービスの状態、価値、費用、リスク及び資源を把握し、新規サービスの優先順位付け、継続投資又は廃止の意思決定に用いる。",
+          "vi": "Danh mục tổng thể dịch vụ quản lý thông tin của dịch vụ trong toàn bộ vòng đời, gồm đang đề xuất hoặc lập kế hoạch, đang phát triển, đang vận hành và đã ngừng. Tổ chức dùng trạng thái, giá trị, chi phí, rủi ro và nguồn lực của từng dịch vụ để ưu tiên dịch vụ mới, tiếp tục đầu tư hoặc quyết định ngừng dịch vụ."
         },
         {
           "type": "point",
-          "ja": "サービスポートフォリオはサービスカタログより広い範囲を扱う。",
-          "vi": "Điểm cần nhớ: Service portfolio bao quát hơn service catalog."
+          "ja": "サービスポートフォリオはライフサイクル全体を扱い、顧客に提供可能なサービスを示すサービスカタログより範囲が広い。",
+          "vi": "Điểm FE: Service portfolio bao quát toàn bộ vòng đời nên rộng hơn service catalog, vốn trình bày các dịch vụ có thể cung cấp cho khách hàng."
+        },
+        {
+          "type": "example",
+          "ja": "分析サービスを開発候補、電子メールを稼働中、旧オンプレミス共有を廃止済みとして同じポートフォリオで管理し、翌年度の投資配分を検討する。",
+          "vi": "Ví dụ: Quản lý dịch vụ phân tích dữ liệu ở trạng thái ứng viên phát triển, email ở trạng thái đang vận hành và chia sẻ tệp tại chỗ ở trạng thái đã ngừng trong cùng portfolio để quyết định ngân sách năm sau."
+        },
+        {
+          "type": "warning",
+          "ja": "サービスポートフォリオを、利用者向けのサービス一覧だけと考えない。開発前の候補や廃止済みサービスも管理対象になり得る。",
+          "vi": "Dễ nhầm: Service portfolio không chỉ là danh sách cho người dùng; nó còn có thể chứa dịch vụ ứng viên chưa phát triển và dịch vụ đã ngừng."
         }
       ],
       "terms": [
@@ -487,7 +527,7 @@
           "english": "Service Portfolio",
           "vi": "Danh mục tổng thể dịch vụ",
           "definitionJa": "組織が提供する全てのサービスをまとめた資料や概念を指す。",
-          "definitionVi": "Tập hợp thông tin quản lý tất cả dịch vụ đang đề xuất, phát triển, vận hành hoặc đã ngừng.",
+          "definitionVi": "Danh mục quản trị dịch vụ xuyên suốt vòng đời để hỗ trợ quyết định đầu tư, duy trì và ngừng dịch vụ.",
           "reading": "サービスポートフォリオ"
         }
       ],
@@ -595,13 +635,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "組織が提供するサービスを一覧化した文書やデータベースである。このカタログには、各サービスの詳細情報、料金、利用方法、サービス提供の条件などが含まれている。具体的には、ITサービスにおけるヘルプデスク、ソフトウェアのインストールやサポート、ネットワークサービスなどが例として挙げられる。利用者に対して明確な情報を提供し、サービスを効率的に利用できるよう支援する。また、サービスの管理や改善策を検討するための基盤としても重要な役割を果たす。これにより、組織全体のサービスの品質向上にも寄与するのである。",
-          "vi": "Danh mục dịch vụ là danh sách các dịch vụ hiện được cung cấp hoặc sẵn sàng cung cấp, kèm mô tả, điều kiện sử dụng, mức hỗ trợ và cách yêu cầu. Đây là phần thông tin hướng tới khách hàng, người dùng của danh mục tổng thể dịch vụ. Ví dụ: danh mục IT liệt kê dịch vụ email, VPN, hỗ trợ máy tính và cách đăng ký."
+          "ja": "サービスカタログは、顧客に提供中又は提供可能なサービスについて、意図した成果、対象利用者、利用条件、サービスレベル、支援時間、申請方法及び他サービスとの依存関係などを示す、管理された文書化した情報である。利用者が適切なサービスを選び、要求できるよう、内容を正確かつ最新に維持する。",
+          "vi": "Danh mục dịch vụ là thông tin dạng văn bản được kiểm soát về các dịch vụ đang hoặc có thể cung cấp cho khách hàng. Nó nêu kết quả dự kiến, đối tượng sử dụng, điều kiện, mức dịch vụ, thời gian hỗ trợ, cách yêu cầu và quan hệ phụ thuộc với dịch vụ khác; nội dung phải chính xác và được cập nhật để người dùng chọn đúng dịch vụ."
         },
         {
           "type": "point",
-          "ja": "このカタログには、各サービスの詳細情報、料金、利用方法、サービス提供の条件などが含まれている。",
-          "vi": "Điểm cần nhớ: Service catalog thường là tập con hướng tới dịch vụ khả dụng trong portfolio."
+          "ja": "サービスカタログは、サービスポートフォリオのうち顧客・利用者が利用可能なサービスを示すビューである。",
+          "vi": "Điểm FE: Service catalog là góc nhìn về các dịch vụ khách hàng hoặc người dùng có thể sử dụng trong service portfolio."
+        },
+        {
+          "type": "example",
+          "ja": "社内カタログに電子メールとVPNを掲載し、利用対象者、申請リンク、提供時間、問合せ窓口及び両サービスの認証基盤への依存関係を示す。",
+          "vi": "Ví dụ: Danh mục nội bộ liệt kê email và VPN, kèm người đủ điều kiện, liên kết đăng ký, thời gian cung cấp, đầu mối hỗ trợ và việc cả hai phụ thuộc vào hệ thống xác thực."
+        },
+        {
+          "type": "warning",
+          "ja": "サービスカタログは、機器やソフトウェアの単なる在庫一覧ではない。また、SLAや実際の提供能力と矛盾する条件を掲載してはならない。",
+          "vi": "Dễ nhầm: Service catalog không phải danh sách tồn kho thiết bị, phần mềm; điều kiện công bố cũng không được mâu thuẫn với SLA hoặc năng lực cung cấp thực tế."
         }
       ],
       "terms": [
@@ -610,7 +660,7 @@
           "english": "Service Catalog",
           "vi": "Danh mục dịch vụ đang cung cấp",
           "definitionJa": "組織が提供するサービスを一覧化した文書やデータベースである。",
-          "definitionVi": "Thông tin có cấu trúc về các dịch vụ có thể cung cấp cho khách hàng hoặc người dùng.",
+          "definitionVi": "Nguồn thông tin được kiểm soát mô tả dịch vụ khả dụng, điều kiện và cách yêu cầu sử dụng.",
           "reading": "サービスカタログ"
         }
       ],
@@ -759,13 +809,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "構成管理とは、サービスを構成する構成品目とその属性・関係を識別し、正確な情報を維持する活動である。",
-          "vi": "Quản lý cấu hình là hoạt động xác định, ghi nhận, duy trì và kiểm soát thông tin về các hạng mục cấu hình và mối quan hệ giữa chúng. Nhờ đó có thể phân tích tác động thay đổi và xử lý sự cố chính xác. Ví dụ: lưu quan hệ giữa ứng dụng bán hàng, máy chủ, cơ sở dữ liệu và phiên bản đang chạy."
+          "ja": "構成管理は、サービスに関連する構成品目（CI）を識別、記録、制御、追跡及び検証し、その属性、版及び関係を正確に維持する活動である。信頼できる構成情報を用いることで、変更の影響範囲の分析、インシデント原因の調査、サービス復旧などを支援する。定めた間隔や重要な変更後には、実物と記録の整合性を確認する。",
+          "vi": "Quản lý cấu hình là hoạt động nhận diện, ghi nhận, kiểm soát, theo dõi và xác minh các hạng mục cấu hình (CI) liên quan đến dịch vụ, đồng thời duy trì chính xác thuộc tính, phiên bản và quan hệ giữa chúng. Thông tin đáng tin cậy hỗ trợ phân tích tác động thay đổi, điều tra sự cố và khôi phục dịch vụ; cần đối chiếu thực tế với hồ sơ định kỳ hoặc sau thay đổi quan trọng."
         },
         {
           "type": "point",
-          "ja": "構成品目間の依存関係も管理する。",
-          "vi": "Điểm cần nhớ: Trong ITSM, cấu hình quản lý cả mối quan hệ giữa các CI, không chỉ phiên bản mã nguồn."
+          "ja": "FEでは、CIそのものだけでなく、属性、版及びCI間の依存関係を管理し、構成情報の正確性を検証する点が重要である。",
+          "vi": "Điểm FE: Không chỉ quản lý từng CI mà còn quản lý thuộc tính, phiên bản, quan hệ phụ thuộc và xác minh độ chính xác của thông tin cấu hình."
+        },
+        {
+          "type": "example",
+          "ja": "販売サービスについて、Webアプリ、仮想サーバ、データベース及びTLS証明書をCIとして関連付ける。証明書を更新するとき、この関係から影響するサービスと試験範囲を確認できる。",
+          "vi": "Ví dụ: Liên kết ứng dụng web, máy chủ ảo, cơ sở dữ liệu và chứng thư TLS như các CI của dịch vụ bán hàng. Khi thay chứng thư, quan hệ này giúp xác định dịch vụ bị ảnh hưởng và phạm vi kiểm thử."
+        },
+        {
+          "type": "warning",
+          "ja": "ITサービスの構成管理を、ソースコードの版管理だけと考えない。更新されない構成情報は、誤った影響分析や復旧遅延の原因になる。",
+          "vi": "Dễ nhầm: Quản lý cấu hình dịch vụ không chỉ là quản lý phiên bản mã nguồn. Thông tin cấu hình lỗi thời có thể làm sai phân tích tác động và chậm khôi phục."
         }
       ],
       "terms": [
@@ -774,7 +834,7 @@
           "english": "Configuration Management",
           "vi": "Quản lý cấu hình",
           "definitionJa": "構成管理とは、サービスを構成する構成品目とその属性・関係を識別し、正確な情報を維持する活動である。",
-          "definitionVi": "Nhận diện và duy trì thông tin chính xác về các thành phần cấu hình và mối quan hệ giữa chúng.",
+          "definitionVi": "Hoạt động kiểm soát CI, thuộc tính, phiên bản và quan hệ để giữ thông tin cấu hình đáng tin cậy.",
           "reading": "こうせいかんり"
         }
       ],
@@ -790,7 +850,7 @@
       "titleJa": "構成品目",
       "titleVi": "Hạng mục cấu hình",
       "importance": "high",
-      "summaryJa": "システムを構成する各要素のことを指す。",
+      "summaryJa": "サービスを提供するために管理する必要がある、物理的又は論理的な構成要素である。",
       "summaryVi": "Thành phần cần được quản lý để cung cấp và vận hành dịch vụ CNTT.",
       "content": [
         {
@@ -800,13 +860,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムを構成する各要素のことを指す。これには、ハードウェア、ソフトウェア、ドキュメントなどが含まれ、システム全体の管理や運用において重要な役割を果たす。例えば、サーバやアプリケーションソフトウェア、さらにはそれに関連する設定ファイルなどが構成品目として扱われる。構成管理は、これらの品目を追跡し、変更を管理するプロセスであり、品質や効率を向上させるために欠かせない。正確にCIを管理することで、システムの安定性や信頼性を確保し、トラブルシューティングやアップグレード時のリスクを軽減することができる。",
-          "vi": "Hạng mục cấu hình (CI) là thành phần cần được quản lý để cung cấp một dịch vụ IT, ví dụ máy chủ, phần mềm, tài liệu hoặc dịch vụ phụ thuộc. CI được nhận diện và theo dõi trong quản lý cấu hình. Một máy chủ, ứng dụng, hợp đồng hoặc tài liệu vận hành có thể là CI nếu được quản lý cấu hình."
+          "ja": "構成品目（CI）は、サービスを提供するために個別に管理する必要がある構成要素である。ハードウェア、ソフトウェア、クラウド資源、設定、文書、契約など、物理的な物だけでなく論理的な要素も対象になり得る。管理目的に応じて識別単位を定め、固有の識別子、所有者、状態、版及び他CIとの関係を記録する。",
+          "vi": "Hạng mục cấu hình (CI) là thành phần cần được quản lý riêng để cung cấp dịch vụ. CI có thể là phần cứng, phần mềm, tài nguyên đám mây, cấu hình, tài liệu hoặc hợp đồng, tức không chỉ là vật thể. Mức chi tiết được chọn theo mục đích quản lý; mỗi CI được ghi nhận mã định danh, chủ sở hữu, trạng thái, phiên bản và quan hệ với CI khác."
         },
         {
           "type": "point",
-          "ja": "これには、ハードウェア、ソフトウェア、ドキュメントなどが含まれ、システム全体の管理や運用において重要な役割を果たす。",
-          "vi": "Điểm cần nhớ: CI không nhất thiết là thiết bị vật lý."
+          "ja": "CIは物理機器に限られず、サービスへの影響を管理するために必要な論理要素や文書も含む。粒度は管理目的に合わせる。",
+          "vi": "Điểm FE: CI không chỉ là thiết bị vật lý; thành phần logic và tài liệu cũng có thể là CI. Độ chi tiết phải phù hợp mục đích quản lý."
+        },
+        {
+          "type": "example",
+          "ja": "一つのWebサービスについて、アプリケーション、仮想マシン、データベース、TLS証明書及び運用手順書を別々のCIとして登録し、依存関係を記録する。",
+          "vi": "Ví dụ: Với một dịch vụ web, đăng ký ứng dụng, máy ảo, cơ sở dữ liệu, chứng thư TLS và hướng dẫn vận hành thành các CI riêng, rồi ghi quan hệ phụ thuộc."
+        },
+        {
+          "type": "warning",
+          "ja": "全ての資産が必ずCIになるわけではない。資産管理は主に価値・所有・費用を扱い、構成管理はサービスへの影響や関係を扱うが、同じ対象が両方に該当することはある。",
+          "vi": "Dễ nhầm: Không phải mọi tài sản đều bắt buộc là CI. Quản lý tài sản chủ yếu xét giá trị, quyền sở hữu và chi phí; quản lý cấu hình xét tác động và quan hệ dịch vụ, dù một đối tượng có thể thuộc cả hai."
         }
       ],
       "terms": [
@@ -814,8 +884,8 @@
           "term": "構成品目",
           "english": "Configuration Item",
           "vi": "Hạng mục cấu hình",
-          "definitionJa": "システムを構成する各要素のことを指す。",
-          "definitionVi": "Thành phần cần được quản lý để cung cấp và vận hành dịch vụ CNTT.",
+          "definitionJa": "サービスを提供するために管理する必要がある、物理的又は論理的な構成要素である。",
+          "definitionVi": "Thành phần vật lý hoặc logic được nhận diện và quản lý riêng vì có liên quan đến việc cung cấp dịch vụ.",
           "reading": "こうせいひんもく"
         }
       ],
@@ -1128,13 +1198,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "提供するサービスの品質や性能を確保し、顧客の期待に応えるためのプロセスである。具体的には、サービスの目標や基準を設定し、それを維持するための活動を行う。このプロセスでは、サービスの可用性や応答時間、サポートの迅速さなどが重要な要素となる。たとえば、企業が顧客に対して「24時間以内に問題を解決します」といった約束をする際、この管理が必要となる。また、定期的にサービスのパフォーマンスを評価し、必要に応じて改善策を講じることで、顧客満足度を高めることができる。これはITサービスマネジメントの一環として、サービスの効率性を向上させるために不可欠である。",
-          "vi": "Quản lý mức dịch vụ là hoạt động thống nhất, theo dõi, báo cáo và cải tiến mức chất lượng dịch vụ theo yêu cầu khách hàng. Thường dùng SLA, mục tiêu và chỉ số đo lường để kiểm tra mức độ đáp ứng. Ví dụ: đánh giá tỷ lệ sẵn sàng thực tế hằng tháng so với SLA và lập biện pháp cải tiến."
+          "ja": "サービスレベル管理は、顧客と提供サービス及びサービスレベルを定義・合意してSLAに記録し、サービスレベル指標（SLI）による実績をサービスレベル目標（SLO）と比較して、監視、レビュー、報告及び改善する活動である。目標は測定可能で、顧客が得る成果に関係し、測定方法と期間が明確でなければならない。",
+          "vi": "Quản lý mức dịch vụ là hoạt động xác định và thỏa thuận với khách hàng về dịch vụ cùng mức dịch vụ, ghi trong SLA, rồi dùng chỉ số mức dịch vụ (SLI) để so sánh kết quả thực tế với mục tiêu (SLO), theo dõi, rà soát, báo cáo và cải tiến. Mục tiêu phải đo được, liên quan kết quả khách hàng nhận và nêu rõ phương pháp cùng kỳ đo."
         },
         {
           "type": "point",
-          "ja": "合意したサービスレベルを測定し、報告・改善する。",
-          "vi": "Điểm cần nhớ: Quản lý mức dịch vụ gắn với mục tiêu và thỏa thuận dịch vụ."
+          "ja": "合意して終わりではなく、SLOに照らして実績と周期的な変化を監視し、顧客へ報告して改善につなげる。",
+          "vi": "Điểm FE: Không kết thúc ở việc ký SLA; phải theo dõi kết quả và xu hướng so với SLO, báo cáo cho khách hàng và cải tiến."
+        },
+        {
+          "type": "example",
+          "ja": "月間可用性99.9%以上、重大インシデントの初回応答30分以内を合意し、毎月SLIを集計して未達原因と改善計画をサービスレビューで報告する。",
+          "vi": "Ví dụ: Thỏa thuận độ sẵn sàng tháng từ 99,9% và phản hồi đầu tiên với sự cố nghiêm trọng trong 30 phút; hằng tháng tổng hợp SLI, báo cáo nguyên nhân không đạt và kế hoạch cải tiến trong cuộc họp dịch vụ."
+        },
+        {
+          "type": "warning",
+          "ja": "個々のサーバの稼働率が高くても、利用者から見たサービス全体がSLOを満たすとは限らない。測定範囲、除外条件及び測定期間を明示する。",
+          "vi": "Dễ nhầm: Máy chủ riêng lẻ có uptime cao không có nghĩa toàn bộ dịch vụ theo góc nhìn người dùng đạt SLO. Phải nêu phạm vi, điều kiện loại trừ và kỳ đo."
         }
       ],
       "terms": [
@@ -1143,7 +1223,7 @@
           "english": "Service Level Management",
           "vi": "Quản lý mức dịch vụ",
           "definitionJa": "提供するサービスの品質や性能を確保し、顧客の期待に応えるためのプロセスである。",
-          "definitionVi": "Hoạt động thỏa thuận, theo dõi, báo cáo và cải tiến mức dịch vụ với khách hàng.",
+          "definitionVi": "Quá trình quản lý SLA và so sánh SLI thực tế với SLO để báo cáo, rà soát và cải tiến dịch vụ.",
           "reading": "さーびすれべるかんり"
         }
       ],
@@ -1169,13 +1249,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "提供されるサービスの品質やパフォーマンスを示す具体的な基準である。これには、サービスが提供される際の稼働率や応答時間、サポートの可用性などが含まれる。例えば、「99.9%の稼働率を維持する」という目標が設定されると、サービスが常にほぼ正常に稼働していることが求められる。この目標は、サービスプロバイダーと顧客との間で明確に合意されるもので、サービスの期待値を示す重要な指標である。また、問題が発生した際の改善や評価の基準としても活用され、サービス品質を高めるための重要な管理手法の一部である。",
-          "vi": "Mục tiêu mức dịch vụ (SLO) là mức chất lượng cụ thể cần đạt, thường thể hiện bằng con số như tỷ lệ sẵn sàng hay thời gian phản hồi. SLO là mục tiêu; không phải số đo thực tế. Ví dụ: tỷ lệ thành công của yêu cầu API phải đạt ít nhất 99,9% mỗi tháng."
+          "ja": "サービスレベル目標（SLO）は、サービスレベル指標（SLI）で測定するサービス品質について、達成すべき目標値又は範囲を定めたものである。可用性、応答時間、成功率などについて、対象、算出方法、測定期間及び目標値を組み合わせて明確にする。SLOはSLAに含まれる場合も、内部管理目標として設定される場合もある。",
+          "vi": "Mục tiêu mức dịch vụ (SLO) là giá trị hoặc khoảng mục tiêu phải đạt đối với chất lượng dịch vụ được đo bằng SLI. Với độ sẵn sàng, thời gian phản hồi hay tỷ lệ thành công, cần xác định rõ đối tượng, công thức, kỳ đo và giá trị mục tiêu. SLO có thể nằm trong SLA hoặc được dùng như mục tiêu quản lý nội bộ."
         },
         {
           "type": "point",
-          "ja": "SLOは目標値であり、SLIは測定指標である。",
-          "vi": "Điểm cần nhớ: SLO là mục tiêu; SLI là chỉ số dùng để đo."
+          "ja": "SLOはSLIに対する目標値であり、実績値そのものではない。SLI、SLO及びSLAの役割を区別する。",
+          "vi": "Điểm FE: SLO là mục tiêu của SLI, không phải kết quả thực tế. Cần phân biệt vai trò SLI, SLO và SLA."
+        },
+        {
+          "type": "example",
+          "ja": "「正常なAPI要求のうち99.9%以上を月単位で成功させる」は、成功率というSLIに対するSLOである。月末に算出した99.85%はSLOではなく実績値である。",
+          "vi": "Ví dụ: “Ít nhất 99,9% yêu cầu API hợp lệ thành công trong mỗi tháng” là SLO cho SLI tỷ lệ thành công. Kết quả 99,85% tính cuối tháng là số đo thực tế, không phải SLO."
+        },
+        {
+          "type": "warning",
+          "ja": "「可用性99.9%」だけでは、対象サービス、計算式、測定期間、計画停止の扱いが不明である。また、SLOが直ちに契約上のSLAになるわけではない。",
+          "vi": "Dễ nhầm: Chỉ ghi “độ sẵn sàng 99,9%” còn thiếu đối tượng, công thức, kỳ đo và cách xử lý bảo trì kế hoạch. SLO cũng không tự động trở thành cam kết hợp đồng trong SLA."
         }
       ],
       "terms": [
@@ -1184,7 +1274,7 @@
           "english": "Service Level Objective",
           "vi": "Mục tiêu mức dịch vụ",
           "definitionJa": "提供されるサービスの品質やパフォーマンスを示す具体的な基準である。",
-          "definitionVi": "Giá trị cụ thể mà dịch vụ cần đạt đối với một chỉ số chất lượng.",
+          "definitionVi": "Giá trị hoặc khoảng mục tiêu đặt ra cho một SLI trong phạm vi và kỳ đo xác định.",
           "reading": "さーびすれべるもくひょう"
         }
       ],
@@ -1210,13 +1300,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "サービスの提供がどれだけ効果的であるかを測るための具体的な指標である。これにより、サービスの品質や性能を定量的に評価することが可能となる。たとえば、顧客からの問い合わせに対する応答時間や、サービスの稼働率などがサービスレベル指標の一例である。これらの指標は、サービスレベル合意（SLA）の一部として、顧客とサービス提供者が合意した基準を守るために重要であり、定期的に評価されることで、サービスの改善点や問題点を明確にする手助けをする。これにより、顧客満足度を高めることにつながる。",
-          "vi": "Chỉ số mức dịch vụ (SLI) là phép đo cụ thể phản ánh chất lượng dịch vụ, chẳng hạn tỷ lệ yêu cầu thành công hoặc thời gian phản hồi thực tế. SLI được đối chiếu với SLO để đánh giá kết quả. Ví dụ: tỷ lệ request thành công = số request thành công chia tổng request."
+          "ja": "サービスレベル指標（SLI）は、提供されたサービスレベルの一側面を定量的に表す、明確に定義された測定指標である。成功率、可用性、応答時間、処理量などについて、データ源、対象となる要求、算出式及び集計期間を定めて実績を測り、SLOと比較する。利用者の体感に近い指標を選ぶことが重要である。",
+          "vi": "Chỉ số mức dịch vụ (SLI) là phép đo định lượng được định nghĩa rõ cho một khía cạnh của mức dịch vụ thực tế. Với tỷ lệ thành công, độ sẵn sàng, thời gian phản hồi hay thông lượng, cần quy định nguồn dữ liệu, yêu cầu được tính, công thức và kỳ tổng hợp, rồi so sánh kết quả với SLO. Nên chọn chỉ số gần với trải nghiệm người dùng."
         },
         {
           "type": "point",
-          "ja": "SLIは測定指標であり、SLOは目標値である。",
-          "vi": "Điểm cần nhớ: SLI là chỉ số đo; so sánh SLI thực tế với SLO."
+          "ja": "SLIは測定方法と実績を示し、SLOはそのSLIに対する目標を示す。測れる全てのメトリクスが有用なSLIとは限らない。",
+          "vi": "Điểm FE: SLI biểu thị cách đo và kết quả; SLO biểu thị mục tiêu cho SLI đó. Không phải mọi metric đo được đều là SLI hữu ích."
+        },
+        {
+          "type": "example",
+          "ja": "1か月の正常なAPI要求100,000件のうち99,850件が成功した場合、成功率SLIは99,850÷100,000×100＝99.85%である。これをSLOの99.9%と比較する。",
+          "vi": "Ví dụ: Trong tháng có 99.850 yêu cầu API hợp lệ thành công trên tổng 100.000 yêu cầu, SLI tỷ lệ thành công là 99.850 ÷ 100.000 × 100 = 99,85%; kết quả này được so với SLO 99,9%."
+        },
+        {
+          "type": "warning",
+          "ja": "平均応答時間だけでは、一部の極端に遅い要求を隠すことがある。対象要求や除外条件を明確にし、必要に応じてパーセンタイルなど利用者影響を表す集計方法を使う。",
+          "vi": "Dễ nhầm: Thời gian phản hồi trung bình có thể che khuất một nhóm yêu cầu rất chậm. Cần nêu rõ yêu cầu được tính, điều kiện loại trừ và khi phù hợp dùng percentile để phản ánh tác động người dùng."
         }
       ],
       "terms": [
@@ -1225,7 +1325,7 @@
           "english": "Service Level Indicator",
           "vi": "Chỉ số mức dịch vụ",
           "definitionJa": "サービスの提供がどれだけ効果的であるかを測るための具体的な指標である。",
-          "definitionVi": "Đại lượng hoặc phép đo thể hiện mức chất lượng dịch vụ thực tế.",
+          "definitionVi": "Phép đo định lượng được định nghĩa rõ để biểu thị một khía cạnh của mức dịch vụ đã cung cấp.",
           "reading": "さーびすれべるしひょう"
         }
       ],
@@ -1702,13 +1802,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ある資産を所有するために必要な全ての費用を計算したものである。この費用には、購入価格だけでなく、運用や維持管理、廃棄にかかる費用も含まれるため、より正確に資産のコストを把握する手助けとなる。例えば、コンピュータを購入する際には、本体の値段に加え、ソフトウェアのライセンス料やメンテナンス費用、電気代、さらには将来的なアップグレードや廃棄処理費用も考慮する必要がある。このように、総所有費用を理解することで、企業や個人は資産の真のコストを見積もり、より効率的な予算管理や意思決定を行うことができる。",
-          "vi": "Tổng chi phí sở hữu (TCO) là toàn bộ chi phí trong vòng đời tài sản hoặc hệ thống, không chỉ giá mua ban đầu. TCO có thể gồm triển khai, vận hành, bảo trì, giấy phép, nâng cấp và thanh lý. Máy chủ rẻ lúc mua có thể đắt hơn do điện, bảo trì và license trong 5 năm."
+          "ja": "総所有費用（TCO）は、資産又はシステムの取得から廃棄まで、対象期間に発生する直接費と間接費を合計した費用である。購入・導入費だけでなく、ライセンス、運用要員、電力、保守、教育、更新及び廃棄などを、同じ対象範囲と期間で見積もる。代替案をライフサイクル全体で比較するために用いる。",
+          "vi": "Tổng chi phí sở hữu (TCO) là tổng chi phí trực tiếp và gián tiếp phát sinh từ khi mua đến khi loại bỏ tài sản hoặc hệ thống trong một khoảng thời gian xác định. Ngoài mua và triển khai, TCO còn có thể gồm giấy phép, nhân sự vận hành, điện, bảo trì, đào tạo, nâng cấp và thanh lý; các phương án phải được so sánh cùng phạm vi và kỳ tính."
         },
         {
           "type": "point",
-          "ja": "この費用には、購入価格だけでなく、運用や維持管理、廃棄にかかる費用も含まれるため、より正確に資産のコストを把握する手助けとなる。",
-          "vi": "Điểm cần nhớ: TCO không chỉ là giá mua ban đầu."
+          "ja": "TCOは初期費用だけでなく、対象期間中の運用・保守・更新・廃棄費用まで含めて比較する。",
+          "vi": "Điểm FE: TCO không chỉ là chi phí ban đầu; phải tính cả vận hành, bảo trì, nâng cấp và thanh lý trong kỳ so sánh."
+        },
+        {
+          "type": "example",
+          "ja": "5年間で、サーバAは購入100万円・運用200万円でTCO 300万円、サーバBは購入140万円・運用100万円でTCO 240万円と見積もられた。購入価格はAが安いが、TCOはBが低い。",
+          "vi": "Ví dụ: Trong 5 năm, máy chủ A có giá mua 1 triệu yên và vận hành 2 triệu, TCO là 3 triệu; B có giá mua 1,4 triệu và vận hành 1 triệu, TCO là 2,4 triệu. A rẻ khi mua nhưng B có TCO thấp hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "比較期間や対象範囲が異なるTCOをそのまま比べてはならない。また、同じ費用を初期費用と運用費の両方に重複計上しない。",
+          "vi": "Dễ nhầm: Không so trực tiếp TCO có kỳ tính hoặc phạm vi khác nhau, và không tính trùng một khoản ở cả chi phí ban đầu lẫn vận hành."
         }
       ],
       "terms": [
@@ -1717,7 +1827,7 @@
           "english": "Total Cost of Ownership",
           "vi": "Tổng chi phí sở hữu",
           "definitionJa": "ある資産を所有するために必要な全ての費用を計算したものである。",
-          "definitionVi": "Toàn bộ chi phí trong vòng đời tài sản, từ mua sắm đến vận hành và thải bỏ.",
+          "definitionVi": "Tổng chi phí trực tiếp và gián tiếp của tài sản hoặc hệ thống trong một phạm vi và vòng đời xác định.",
           "reading": "そうしょゆうひよう"
         }
       ],
@@ -1774,7 +1884,7 @@
       "titleJa": "需要管理",
       "titleVi": "Quản lý nhu cầu",
       "importance": "high",
-      "summaryJa": "製品やサービスに対する顧客の需要を予測し、適切に調整するプロセスである。",
+      "summaryJa": "サービスに対する現在の需要を把握し、将来需要を予測・監視して供給能力との均衡を図る活動である。",
       "summaryVi": "Phân tích và tác động đến nhu cầu sử dụng dịch vụ để cân đối với năng lực cung cấp.",
       "content": [
         {
@@ -1784,13 +1894,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "製品やサービスに対する顧客の需要を予測し、適切に調整するプロセスである。この管理手法は、販売や生産の計画に役立ち、需要の変動に迅速に対応することで、過剰在庫や欠品を防ぐことを目的とする。具体的には、需要予測、在庫管理、販売計画などが含まれ、これらを通じて顧客満足度を高めることができる。また、情報技術を活用することで、リアルタイムでの需要分析が可能になり、より精密な需要管理が実現される。これにより、企業は効率的な資源配分が可能となり、コスト削減や収益向上に繋がる。",
-          "vi": "Quản lý nhu cầu là hoạt động tìm hiểu, dự báo và tác động đến nhu cầu sử dụng dịch vụ để cân đối với nguồn lực. Có thể điều chỉnh lịch tác vụ hoặc chính sách sử dụng nhằm tránh quá tải. Ví dụ: khuyến khích chạy báo cáo nặng ngoài giờ cao điểm để giảm tải."
+          "ja": "サービスマネジメントにおける需要管理は、サービスに対する現在の需要と消費を定期的に把握・報告し、利用傾向、季節性及び事業計画から将来需要を予測する活動である。必要に応じて、予約、時間帯別の利用誘導、優先順位付けなどで需要パターンに働きかけ、提供可能な容量・能力との均衡を図る。",
+          "vi": "Trong quản lý dịch vụ, quản lý nhu cầu định kỳ xác định và báo cáo nhu cầu cùng mức tiêu thụ hiện tại, rồi dự báo tương lai từ xu hướng sử dụng, mùa vụ và kế hoạch kinh doanh. Khi cần, tổ chức tác động đến mẫu nhu cầu bằng đặt lịch, khuyến khích dùng ngoài giờ cao điểm hoặc ưu tiên công việc để cân bằng với năng lực cung cấp."
         },
         {
           "type": "point",
-          "ja": "需要管理は利用量、キャパシティ管理は供給能力に着目する。",
-          "vi": "Điểm cần nhớ: Demand management tập trung nhu cầu, khác capacity management tập trung năng lực."
+          "ja": "需要管理はサービスをどれだけ利用したいかという需要側、容量・能力管理はその需要に応える資源と性能という供給側に着目する。",
+          "vi": "Điểm FE: Demand management nhìn từ phía nhu cầu sử dụng; capacity management nhìn từ phía tài nguyên và hiệu năng để đáp ứng nhu cầu đó."
+        },
+        {
+          "type": "example",
+          "ja": "月末に集中する分析バッチを予約制にし、緊急性の低い処理を夜間へ移す。需要のピークを平準化し、同じ設備でオンライン処理のSLOを守りやすくする。",
+          "vi": "Ví dụ: Cho tác vụ phân tích cuối tháng chạy theo lịch và chuyển xử lý ít khẩn cấp sang ban đêm. Việc san bằng đỉnh nhu cầu giúp giữ SLO của giao dịch trực tuyến với cùng hạ tầng."
+        },
+        {
+          "type": "warning",
+          "ja": "需要を一律に抑えることが目的ではない。事業価値や顧客への影響を考えずに利用を制限すると、必要なサービス成果まで損なう。",
+          "vi": "Dễ nhầm: Mục tiêu không phải cắt giảm mọi nhu cầu. Hạn chế sử dụng mà không xét giá trị kinh doanh và tác động khách hàng có thể làm mất kết quả cần thiết của dịch vụ."
         }
       ],
       "terms": [
@@ -1799,7 +1919,7 @@
           "english": "Demand Management",
           "vi": "Quản lý nhu cầu",
           "definitionJa": "製品やサービスに対する顧客の需要を予測し、適切に調整するプロセスである。",
-          "definitionVi": "Phân tích và tác động đến nhu cầu sử dụng dịch vụ để cân đối với năng lực cung cấp.",
+          "definitionVi": "Hoạt động theo dõi, dự báo và khi cần điều chỉnh mẫu nhu cầu nhằm cân bằng với khả năng cung cấp dịch vụ.",
           "reading": "じゅようかんり"
         }
       ],
@@ -1866,13 +1986,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムや設備が処理できる最大の能力や容量を指す。具体的には、サーバが同時に処理できるリクエストの数、データベースが保存できるデータ量、ネットワークが扱えるトラフィックの大きさなどを意味する。IT分野においては、適切なキャパシティ管理が求められ、これによりリソースが過不足なく使用され、効率的な運用が可能になる。例えば、サーバのキャパシティが不足すると、Webサイトの表示速度が遅くなったり、システムがダウンしたりする恐れがあるため、予測や計画に基づいて適切なリソースを確保することが重要である。これにより、事業やサービスの安定性が向上する。",
-          "vi": "Năng lực xử lý (capacity) là khả năng hoặc giới hạn về khối lượng công việc mà tài nguyên hay dịch vụ có thể đáp ứng. Năng lực có thể đo bằng số giao dịch mỗi giây, dung lượng lưu trữ hoặc số kết nối. Ví dụ: máy chủ xử lý tối đa 2.000 yêu cầu mỗi giây ở mức đáp ứng yêu cầu hiệu năng."
+          "ja": "キャパシティ（容量・能力）は、定めた条件と要求されるサービスレベルの下で、資源又はサービスが処理・保持できる仕事量の上限である。要求数/秒、同時接続数、保存容量、ネットワーク帯域などで表す。現在の利用量や使用率は実績であり、キャパシティそのものとは区別する。",
+          "vi": "Capacity (dung lượng hoặc năng lực) là giới hạn khối lượng công việc mà tài nguyên hay dịch vụ có thể xử lý hoặc lưu giữ trong điều kiện xác định và vẫn đạt mức dịch vụ yêu cầu. Có thể đo bằng yêu cầu/giây, số kết nối đồng thời, dung lượng lưu trữ hoặc băng thông. Mức sử dụng hiện tại là kết quả thực tế, không phải bản thân capacity."
         },
         {
           "type": "point",
-          "ja": "具体的には、サーバが同時に処理できるリクエストの数、データベースが保存できるデータ量、ネットワークが扱えるトラフィックの大きさなどを意味する。",
-          "vi": "Điểm cần nhớ: Capacity khác với lượng sử dụng thực tế."
+          "ja": "キャパシティ、利用量及びパフォーマンスを区別する。最大処理量でも、応答時間などのSLOを満たさなければ有効なキャパシティとはいえない。",
+          "vi": "Điểm FE: Phân biệt capacity, mức sử dụng và hiệu năng. Mức tải tối đa không còn đáp ứng SLO về thời gian phản hồi thì không phải capacity hữu hiệu."
+        },
+        {
+          "type": "example",
+          "ja": "Webサービスが95パーセンタイル応答時間300ミリ秒以下を保って最大2,000要求/秒を処理でき、現在1,200要求/秒なら、この条件での利用率は1,200÷2,000＝60%である。",
+          "vi": "Ví dụ: Dịch vụ web xử lý tối đa 2.000 yêu cầu/giây mà vẫn giữ thời gian phản hồi percentile 95 không quá 300 ms. Nếu hiện tại là 1.200 yêu cầu/giây thì mức sử dụng theo điều kiện này là 1.200 ÷ 2.000 = 60%."
+        },
+        {
+          "type": "warning",
+          "ja": "機器仕様上の理論最大値を、そのままサービスのキャパシティとしない。ボトルネックとなる依存サービスや、満たすべきSLOを含む条件を確認する。",
+          "vi": "Dễ nhầm: Không lấy cực đại lý thuyết trong thông số thiết bị làm capacity của dịch vụ. Phải xét phụ thuộc gây nghẽn và điều kiện SLO cần đạt."
         }
       ],
       "terms": [
@@ -1881,7 +2011,7 @@
           "english": "Capacity",
           "vi": "Năng lực xử lý",
           "definitionJa": "システムや設備が処理できる最大の能力や容量を指す。",
-          "definitionVi": "Khả năng tối đa mà hệ thống hoặc tài nguyên có thể đáp ứng trong điều kiện xác định.",
+          "definitionVi": "Giới hạn khối lượng công việc có thể xử lý hoặc lưu giữ mà vẫn đáp ứng mức dịch vụ yêu cầu.",
           "reading": "キャパシティ"
         }
       ],
@@ -1907,13 +2037,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "情報システムやネットワークの運用において、必要なリソースの量を予測し、適切な設備や機器を準備するプロセスである。これにより、システムが正常に機能し、ユーザーの要求に応じたパフォーマンスを維持できるようになる。この計画には、現在のリソース使用状況の分析や、将来の需要予測が含まれ、必要に応じて設備の増強や改善が行われる。例えば、Webサーバのトラフィックが増加する見込みがある場合、その増加に耐えられるようにサーバの性能を強化することが求められる。容量・能力計画は、ビジネスの成長や変化に対応し、無駄なコストを抑えるためにも非常に重要である。",
-          "vi": "Kế hoạch năng lực là việc xác định tài nguyên cần thiết trong tương lai dựa trên dự báo nhu cầu và mục tiêu hiệu năng. Kế hoạch giúp mở rộng đúng thời điểm, tránh thiếu năng lực hoặc đầu tư dư thừa. Ví dụ: dự kiến tăng gấp đôi người dùng nên lập kế hoạch mở rộng máy chủ trước mùa cao điểm."
+          "ja": "キャパシティ計画は、現在の使用量と性能、需要予測、サービスレベル目標、資源調達のリードタイムを基に、将来必要となる容量・能力と確保時期を決める活動である。成長、季節変動、新サービス、障害時の余裕などのシナリオを評価し、増強、縮小、調整又は需要の平準化を計画する。",
+          "vi": "Lập kế hoạch năng lực là xác định capacity cần trong tương lai và thời điểm phải chuẩn bị, dựa trên mức sử dụng và hiệu năng hiện tại, dự báo nhu cầu, SLO cùng thời gian mua sắm hoặc triển khai tài nguyên. Cần đánh giá các kịch bản tăng trưởng, mùa vụ, dịch vụ mới và dự phòng khi lỗi để lên kế hoạch mở rộng, thu hẹp, tối ưu hoặc san bằng nhu cầu."
         },
         {
           "type": "point",
-          "ja": "これにより、システムが正常に機能し、ユーザーの要求に応じたパフォーマンスを維持できるようになる。",
-          "vi": "Điểm cần nhớ: Lập kế hoạch dựa trên dự báo, không chờ quá tải mới xử lý."
+          "ja": "しきい値超過後ではなく、需要予測と調達リードタイムから逆算して、必要な容量・能力を利用可能にする時期を計画する。",
+          "vi": "Điểm FE: Không chờ vượt ngưỡng mới xử lý; phải tính ngược từ dự báo nhu cầu và lead time để tài nguyên sẵn sàng đúng lúc."
+        },
+        {
+          "type": "example",
+          "ja": "繁忙期に需要が50%増え、使用率70%で増強を開始し、調達に2か月かかるとする。予測上そのしきい値に達する2か月以上前に増強手続を開始する。",
+          "vi": "Ví dụ: Dự báo nhu cầu mùa cao điểm tăng 50%, quy định bắt đầu mở rộng khi mức sử dụng đạt 70%, và mua sắm cần 2 tháng. Phải khởi động mở rộng ít nhất 2 tháng trước thời điểm dự báo chạm ngưỡng."
+        },
+        {
+          "type": "warning",
+          "ja": "過去の平均値の単純な延長だけで計画しない。季節性、新規施策、障害時の余裕及び調達時間を無視すると不足し、過大な余裕は不要なコストを生む。",
+          "vi": "Dễ nhầm: Không chỉ kéo dài đường trung bình quá khứ. Bỏ qua mùa vụ, chương trình mới, dự phòng lỗi và thời gian mua sắm gây thiếu năng lực; dự phòng quá mức lại tăng chi phí."
         }
       ],
       "terms": [
@@ -1922,7 +2062,7 @@
           "english": "Capacity Planning",
           "vi": "Kế hoạch năng lực",
           "definitionJa": "情報システムやネットワークの運用において、必要なリソースの量を予測し、適切な設備や機器を準備するプロセスである。",
-          "definitionVi": "Xác định năng lực tài nguyên cần có trong tương lai dựa trên nhu cầu và mục tiêu dịch vụ.",
+          "definitionVi": "Hoạt động dự báo capacity cần thiết và thời điểm chuẩn bị tài nguyên từ nhu cầu, SLO và lead time.",
           "reading": "きゃぱしてぃけいかく"
         }
       ],
@@ -1948,13 +2088,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやサービスが必要なリソースを適切に確保し、最適に運用するためのプロセスである。これにより、パフォーマンスが低下したり、システムが過負荷になることを防ぐことが可能である。具体的には、サーバのストレージ、メモリ、CPUなどのリソースを監視し、需要の変化に応じて適切なキャパシティを保つことが求められる。例えば、急激なアクセス増加に備えてリソースを増強したり、平常時に無駄なリソースを削減することが含まれる。これにより、サービスの信頼性や効率が向上し、コスト管理にも寄与するため、企業にとって重要な活動である。",
-          "vi": "Quản lý năng lực là hoạt động giám sát, phân tích và điều chỉnh tài nguyên để đáp ứng nhu cầu hiện tại, tương lai với chi phí phù hợp. Khác với lập kế hoạch, quản lý năng lực bao gồm cả theo dõi và điều chỉnh thường xuyên. Giám sát CPU, bộ nhớ và số kết nối để mở rộng hoặc thu hẹp tài nguyên."
+          "ja": "キャパシティ管理は、現在及び予測される需要に対して必要な容量・能力を計画・提供し、その利用量とパフォーマンスを継続的に監視、分析及び調整する活動である。CPU、メモリ、ディスク、ネットワークなどの資源指標を、サービスの応答時間や処理量と関連付け、品質と費用の均衡を図る。",
+          "vi": "Quản lý năng lực là hoạt động lập kế hoạch và cung cấp capacity cần thiết cho nhu cầu hiện tại lẫn dự báo, đồng thời liên tục theo dõi, phân tích và điều chỉnh mức sử dụng cùng hiệu năng. Các chỉ số CPU, bộ nhớ, đĩa và mạng phải được liên hệ với thời gian phản hồi, thông lượng của dịch vụ để cân bằng chất lượng và chi phí."
         },
         {
           "type": "point",
-          "ja": "過不足のない資源配分で品質とコストを両立する。",
-          "vi": "Điểm cần nhớ: Mục tiêu là đủ năng lực, tránh thiếu tải lẫn đầu tư dư thừa."
+          "ja": "容量・能力計画だけでなく、利用状況の監視、データ分析、調整及びパフォーマンス改善機会の特定までを継続的に行う。",
+          "vi": "Điểm FE: Không chỉ lập kế hoạch; quản lý năng lực còn liên tục theo dõi sử dụng, phân tích dữ liệu, điều chỉnh và tìm cơ hội cải thiện hiệu năng."
+        },
+        {
+          "type": "example",
+          "ja": "データベース接続数と応答時間の上昇傾向を監視し、クエリ調整で改善できるかを確認した上で、必要なら接続上限やサーバ資源を拡張する。",
+          "vi": "Ví dụ: Theo dõi xu hướng tăng số kết nối cơ sở dữ liệu và thời gian phản hồi, kiểm tra khả năng tối ưu truy vấn trước, rồi tăng giới hạn kết nối hoặc tài nguyên máy chủ nếu cần."
+        },
+        {
+          "type": "warning",
+          "ja": "性能低下に対して常にハードウェアを追加するとは限らない。原因が非効率な処理、設定又は別の依存先なら、増強してもサービス全体のボトルネックは解消しない。",
+          "vi": "Dễ nhầm: Không phải suy giảm hiệu năng nào cũng giải quyết bằng thêm phần cứng. Nếu nguyên nhân là xử lý kém hiệu quả, cấu hình hoặc phụ thuộc khác, mở rộng tài nguyên vẫn không gỡ được nút thắt toàn dịch vụ."
         }
       ],
       "terms": [
@@ -1963,7 +2113,7 @@
           "english": "Capacity Management",
           "vi": "Quản lý năng lực",
           "definitionJa": "システムやサービスが必要なリソースを適切に確保し、最適に運用するためのプロセスである。",
-          "definitionVi": "Theo dõi và điều chỉnh tài nguyên để dịch vụ đáp ứng hiệu năng với chi phí phù hợp.",
+          "definitionVi": "Quá trình liên tục lập kế hoạch, giám sát, phân tích và điều chỉnh capacity để cân bằng chất lượng với chi phí.",
           "reading": "きゃぱしてぃかんり"
         }
       ],

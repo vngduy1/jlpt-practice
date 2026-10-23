@@ -1873,8 +1873,8 @@
       "titleJa": "BCP",
       "titleVi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
       "importance": "high",
-      "summaryJa": "事業継続計画のことである。",
-      "summaryVi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống.",
+      "summaryJa": "不測の事態でも重要業務を継続し、中断時には目標時間内の復旧を図るための事業継続計画である。",
+      "summaryVi": "Kế hoạch duy trì nghiệp vụ trọng yếu khi xảy ra gián đoạn và khôi phục chúng trong thời gian mục tiêu.",
       "content": [
         {
           "type": "heading",
@@ -1883,13 +1883,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "事業継続計画のことである。この計画は、自然災害や事故など、予期しない事態が発生した際に、企業の重要な業務を継続または迅速に再開するための方針や手順を定めたものである。例えば、地震によってオフィスが使用できなくなった場合、代替の業務拠点を用意したり、従業員がリモートで作業できる体制を整えたりすることがBCPに含まれる。また、情報システムのバックアップやデータ復旧の手段を明確にすることで、業務への影響を最小限に抑えることが可能になる。これにより、企業は顧客や取引先への信頼を維持し、競争力を保つことができる。",
-          "vi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống."
+          "ja": "BCP（事業継続計画）は、自然災害、感染症、サイバー攻撃、設備事故、供給網の途絶などが起きても、重要業務を継続し、中断した場合は目標時間内に復旧するための方針、体制及び手順を定めた計画である。BIAの結果に基づき、対象業務、指揮命令系統、代替拠点、要員、情報システム・データ、取引先との連絡方法などを具体化する。",
+          "vi": "BCP (kế hoạch duy trì hoạt động kinh doanh) quy định chính sách, cơ cấu và thủ tục để duy trì nghiệp vụ trọng yếu hoặc khôi phục chúng trong thời gian mục tiêu khi xảy ra thiên tai, dịch bệnh, tấn công mạng, sự cố thiết bị hay đứt gãy chuỗi cung ứng. Dựa trên BIA, kế hoạch xác định nghiệp vụ ưu tiên, tuyến chỉ huy, địa điểm thay thế, nhân lực, hệ thống–dữ liệu và cách liên lạc với đối tác."
         },
         {
           "type": "point",
-          "ja": "原文ではBCPが2回掲載されているため、両方の項目を保持する。",
-          "vi": "Thuật ngữ BCP xuất hiện hai lần trong tài liệu gốc; giữ nguyên cả hai bài để đủ 81 mục."
+          "ja": "FEでは、BIAで重要業務と復旧要求を明らかにし、その結果をBCPの具体的な対応手順へ反映する流れを押さえる。",
+          "vi": "Điểm FE: BIA xác định nghiệp vụ trọng yếu và yêu cầu khôi phục; BCP chuyển kết quả đó thành phương án và thủ tục ứng phó cụ thể."
+        },
+        {
+          "type": "example",
+          "ja": "地震で本社が使えない場合に備え、受注業務を重要業務とし、代替拠点とクラウド環境へ切り替えて4時間以内に再開する手順、責任者及び顧客への連絡方法を定める。",
+          "vi": "Ví dụ: Với tình huống trụ sở không thể sử dụng sau động đất, doanh nghiệp xác định xử lý đơn hàng là nghiệp vụ trọng yếu, quy định chuyển sang địa điểm và môi trường đám mây dự phòng để hoạt động lại trong 4 giờ, cùng người phụ trách và cách thông báo khách hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "BCPを情報システムのバックアップ計画だけと考えない。人員、施設、供給者、意思決定及び連絡も含め、訓練と見直しによって実行可能性を保つ必要がある。",
+          "vi": "Dễ nhầm: BCP không chỉ là sao lưu hệ thống. Nó còn bao gồm con người, cơ sở, nhà cung cấp, quyết định và liên lạc; phải diễn tập và cập nhật để bảo đảm khả thi."
         }
       ],
       "terms": [
@@ -1898,7 +1908,7 @@
           "english": "Business Continuity Plan",
           "vi": "Kế hoạch duy trì hoạt động kinh doanh (BCP)",
           "definitionJa": "事業継続計画のことである。",
-          "definitionVi": "Kế hoạch chuẩn bị trước để duy trì hoặc khôi phục hoạt động thiết yếu sau sự cố, thiên tai hay gián đoạn hệ thống.",
+          "definitionVi": "Tài liệu quy định trước phương án, trách nhiệm và thủ tục duy trì hoặc khôi phục nghiệp vụ trọng yếu khi bị gián đoạn.",
           "reading": "びーしーぴー"
         }
       ],
@@ -1914,8 +1924,8 @@
       "titleJa": "BCM",
       "titleVi": "Quản lý duy trì hoạt động kinh doanh (BCM)",
       "importance": "high",
-      "summaryJa": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。",
-      "summaryVi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP.",
+      "summaryJa": "事業中断に備え、BCPの策定・訓練・評価・改善を継続する事業継続マネジメントである。",
+      "summaryVi": "Hệ thống quản lý liên tục từ BIA, chiến lược và BCP đến đào tạo, diễn tập, đánh giá và cải tiến năng lực duy trì hoạt động.",
       "content": [
         {
           "type": "heading",
@@ -1924,13 +1934,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。リスクを識別・評価し、それに対する対策を策定することで、業務の再開を迅速に行うことを目的としている。たとえば、自然災害やサイバー攻撃が発生した場合でも、重要な業務が継続できるように、代替手段やバックアップ体制を構築することが求められる。BCMの取り組みを通じて、企業はリスクを最小限に抑え、信頼性を高め、顧客やステークホルダーに対しても安心感を提供することができる。",
-          "vi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP."
+          "ja": "BCM（事業継続マネジメント）は、事業継続の方針と体制を定め、BIA及びリスク分析を行い、事業継続戦略とBCPを策定・実施する一連の管理活動である。平常時から資源を確保し、教育・訓練、演習、点検、経営者による見直し及び継続的改善を繰り返して、組織の事業継続能力を維持する。",
+          "vi": "BCM (quản lý duy trì hoạt động kinh doanh) là chuỗi hoạt động quản lý gồm thiết lập chính sách và cơ cấu, thực hiện BIA cùng phân tích rủi ro, xây dựng chiến lược và BCP rồi triển khai. Trong thời gian bình thường, tổ chức phải bảo đảm nguồn lực, đào tạo, diễn tập, kiểm tra, rà soát của lãnh đạo và cải tiến liên tục để duy trì năng lực ứng phó."
         },
         {
           "type": "point",
-          "ja": "試験対策：BCMの定義、目的と関連用語との違いを確認する。",
-          "vi": "BCM là hệ thống hoạt động quản lý; BCP là tài liệu kế hoạch cụ thể."
+          "ja": "BCPは緊急時に用いる具体的な計画、BCMはその計画を作り、訓練し、評価して改善し続けるマネジメント活動である。",
+          "vi": "Điểm FE: BCP là kế hoạch cụ thể dùng khi gián đoạn; BCM là hoạt động quản lý liên tục để xây dựng, diễn tập, đánh giá và cải tiến kế hoạch đó."
+        },
+        {
+          "type": "example",
+          "ja": "毎年BIAを更新し、代替拠点への切替演習を行い、復旧が目標時間を超えた原因を分析してBCPと教育内容を改訂する一連の活動がBCMである。",
+          "vi": "Ví dụ: Hằng năm cập nhật BIA, diễn tập chuyển sang địa điểm dự phòng, phân tích nguyên nhân khôi phục vượt thời gian mục tiêu rồi sửa BCP và chương trình đào tạo—toàn bộ chu trình này là BCM."
+        },
+        {
+          "type": "warning",
+          "ja": "BCPを一度作成して保管するだけではBCMにならない。事業、組織、システム又は供給網が変われば、分析・計画・訓練も更新する。",
+          "vi": "Dễ nhầm: Viết BCP một lần rồi cất giữ chưa phải BCM. Khi nghiệp vụ, tổ chức, hệ thống hoặc chuỗi cung ứng thay đổi, phân tích, kế hoạch và diễn tập cũng phải cập nhật."
         }
       ],
       "terms": [
@@ -1939,7 +1959,7 @@
           "english": "Business Continuity Management",
           "vi": "Quản lý duy trì hoạt động kinh doanh (BCM)",
           "definitionJa": "事業が何らかの理由で中断される場合に備えて、企業が事業を継続できるようにするための計画やプロセスを指す。",
-          "definitionVi": "Quá trình tổ chức quản lý liên tục nhằm phân tích rủi ro, xây dựng, diễn tập, đánh giá và cải tiến BCP.",
+          "definitionVi": "Hệ thống hoạt động liên tục nhằm xây dựng và duy trì khả năng ứng phó, phục hồi của tổ chức trước gián đoạn.",
           "reading": "びーしーえむ"
         }
       ],
@@ -1992,8 +2012,8 @@
       "titleJa": "事業影響度分析",
       "titleVi": "Phân tích tác động kinh doanh (BIA)",
       "importance": "high",
-      "summaryJa": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。",
-      "summaryVi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục.",
+      "summaryJa": "業務中断の影響を時間軸で評価し、重要業務、復旧順位、目標時間及び必要資源を決める分析である。",
+      "summaryVi": "Phân tích tác động gián đoạn theo thời gian để xác định nghiệp vụ trọng yếu, thứ tự, mục tiêu và nguồn lực khôi phục.",
       "content": [
         {
           "type": "heading",
@@ -2002,13 +2022,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。この分析によって、重要な業務プロセスやサービス、リソースが特定され、それらが中断した場合の損失や影響を定量的に評価することが可能になる。たとえば、システム障害や自然災害などが発生した場合に、どの業務が最も影響を受けるかを事前に把握することで、適切な対策を講じたり、復旧計画を策定したりするのに役立つ。リスク管理の一環として、企業の継続性を確保するための重要なプロセスである。",
-          "vi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục."
+          "ja": "事業影響度分析（BIA）は、製品・サービスや業務が中断した場合の影響を、時間の経過に沿って評価する。財務、法令・契約、顧客、信用、業務などへの影響から重要業務を特定し、復旧の優先順位、目標復旧時間、必要な最低水準、要員・設備・情報・供給者などの依存資源を明らかにする。結果は事業継続戦略とBCPの基礎になる。",
+          "vi": "BIA đánh giá tác động theo thời gian khi sản phẩm, dịch vụ hoặc nghiệp vụ bị gián đoạn. Từ ảnh hưởng tài chính, pháp lý–hợp đồng, khách hàng, uy tín và vận hành, tổ chức xác định nghiệp vụ trọng yếu, thứ tự khôi phục, thời gian mục tiêu, mức tối thiểu cần duy trì và các nguồn lực phụ thuộc như nhân sự, thiết bị, thông tin, nhà cung cấp. Kết quả là cơ sở cho chiến lược duy trì hoạt động và BCP."
         },
         {
           "type": "point",
-          "ja": "試験対策：事業影響度分析の定義、目的と関連用語との違いを確認する。",
-          "vi": "BIA giúp xác định nghiệp vụ trọng yếu, mức thiệt hại và thời gian gián đoạn chấp nhận được."
+          "ja": "BIAは「何が止まると、時間とともにどの程度の影響が出るか」を分析し、復旧優先度と要求を決める。結果をBCPへ反映する。",
+          "vi": "Điểm FE: BIA trả lời nghiệp vụ nào bị dừng sẽ gây tác động gì theo thời gian, từ đó quyết định ưu tiên và yêu cầu khôi phục để đưa vào BCP."
+        },
+        {
+          "type": "example",
+          "ja": "オンライン受注が停止すると、数時間後から出荷遅延と売上損失が拡大すると評価した。受注を優先業務とし、許容できる中断時間、必要要員、在庫データ及び物流会社への依存を特定する。",
+          "vi": "Ví dụ: Phân tích cho thấy nếu nhận đơn trực tuyến dừng, chậm giao và thất thu sẽ tăng sau vài giờ. Doanh nghiệp ưu tiên nghiệp vụ này, xác định thời gian gián đoạn chấp nhận được, nhân lực, dữ liệu tồn kho và phụ thuộc vào đơn vị logistics."
+        },
+        {
+          "type": "warning",
+          "ja": "BIAとリスク分析を混同しない。BIAは中断した場合の影響と復旧要求を扱い、リスク分析は原因となる脅威の発生可能性や対策優先度を扱う。",
+          "vi": "Dễ nhầm: BIA phân tích hậu quả và yêu cầu khôi phục khi đã xảy ra gián đoạn; phân tích rủi ro đánh giá khả năng của mối đe dọa và ưu tiên biện pháp phòng ngừa."
         }
       ],
       "terms": [
@@ -2017,7 +2047,7 @@
           "english": "Business Impact Analysis",
           "vi": "Phân tích tác động kinh doanh (BIA)",
           "definitionJa": "企業や組織が様々なリスクに直面した際、そのリスクが業務に与える影響を評価する手法である。",
-          "definitionVi": "Đánh giá hậu quả khi nghiệp vụ bị gián đoạn để xác định mức độ ưu tiên và yêu cầu khôi phục.",
+          "definitionVi": "Quá trình phân tích tác động của gián đoạn để xác lập ưu tiên duy trì và các yêu cầu phục hồi nghiệp vụ.",
           "reading": "じぎょうえいきょうどぶんせき"
         }
       ],
@@ -2074,8 +2104,8 @@
       "titleJa": "事業部制組織",
       "titleVi": "Tổ chức theo đơn vị kinh doanh",
       "importance": "high",
-      "summaryJa": "企業が事業ごとに独立した部門を設ける組織形態である。",
-      "summaryVi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả.",
+      "summaryJa": "製品・地域などの事業単位に権限と機能を持たせ、各事業部へ成果責任を負わせる組織形態である。",
+      "summaryVi": "Cơ cấu trao chức năng, quyền quyết định và trách nhiệm kết quả cho từng đơn vị theo sản phẩm, thị trường hoặc khu vực.",
       "content": [
         {
           "type": "heading",
@@ -2084,13 +2114,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業が事業ごとに独立した部門を設ける組織形態である。このシステムでは、各事業部がそれぞれの製品やサービスの開発、販売、マーケティングを担当し、特有の市場ニーズに応えることが可能となる。たとえば、自動車製造会社が乗用車部門、トラック部門、バス部門を持つことで、それぞれの市場に迅速に対応できるようになる。このように、事業部制は企業が複数の製品ラインを扱う際に効果的であり、責任範囲が明確になるため、柔軟性や迅速な意思決定を実現しやすい利点がある。",
-          "vi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả."
+          "ja": "事業部制組織は、製品、地域又は顧客市場などの事業単位ごとに組織を分け、各事業部へ開発・生産・販売などの機能と一定の意思決定権限を持たせる形態である。各事業部の業績責任が明確で市場変化に迅速に対応しやすい一方、同じ職能や設備が重複し、全社最適より事業部最適を優先するおそれがある。",
+          "vi": "Tổ chức theo đơn vị kinh doanh chia doanh nghiệp theo sản phẩm, khu vực hoặc thị trường khách hàng và trao cho từng đơn vị các chức năng như phát triển, sản xuất, bán hàng cùng quyền quyết định nhất định. Kết quả của mỗi đơn vị rõ và phản ứng thị trường nhanh, nhưng chức năng có thể bị trùng lặp và lợi ích đơn vị có thể lấn át tối ưu toàn công ty."
         },
         {
           "type": "point",
-          "ja": "試験対策：事業部制組織の定義、目的と関連用語との違いを確認する。",
-          "vi": "事業部制 theo đơn vị kinh doanh; 職能別 theo chức năng chuyên môn."
+          "ja": "事業部制は事業単位の成果責任と迅速な意思決定を重視する。職能別組織は専門機能の集約と効率を重視する。",
+          "vi": "Điểm FE: Cơ cấu đơn vị kinh doanh nhấn mạnh trách nhiệm kết quả và quyết định nhanh theo từng business; cơ cấu chức năng nhấn mạnh tập trung chuyên môn và hiệu suất."
+        },
+        {
+          "type": "example",
+          "ja": "電機メーカーが家電、医療機器、産業機器の事業部を置き、各事業部に開発・販売・損益の責任を持たせる。",
+          "vi": "Ví dụ: Một hãng điện tử lập các đơn vị đồ gia dụng, thiết bị y tế và thiết bị công nghiệp; mỗi đơn vị chịu trách nhiệm phát triển, bán hàng và kết quả lãi lỗ."
+        },
+        {
+          "type": "warning",
+          "ja": "事業部は必ずしも別法人ではない。また、各事業部が人事・経理などを個別に持つと、資源の重複や部門間の壁が生じる。",
+          "vi": "Dễ nhầm: Đơn vị kinh doanh không nhất thiết là pháp nhân riêng. Nếu mỗi đơn vị tự duy trì nhân sự, kế toán…, nguồn lực dễ trùng lặp và hình thành silo."
         }
       ],
       "terms": [
@@ -2099,7 +2139,7 @@
           "english": "Divisional Organization",
           "vi": "Tổ chức theo đơn vị kinh doanh",
           "definitionJa": "企業が事業ごとに独立した部門を設ける組織形態である。",
-          "definitionVi": "Chia doanh nghiệp thành các đơn vị theo sản phẩm, thị trường hoặc khu vực; mỗi đơn vị chịu trách nhiệm kết quả.",
+          "definitionVi": "Cơ cấu phân quyền theo từng lĩnh vực kinh doanh và giao trách nhiệm về kết quả cho từng đơn vị.",
           "reading": "じぎょうぶせいそしき"
         }
       ],
@@ -2115,8 +2155,8 @@
       "titleJa": "職能別組織",
       "titleVi": "Tổ chức theo chức năng",
       "importance": "high",
-      "summaryJa": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。",
-      "summaryVi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự.",
+      "summaryJa": "研究開発、製造、営業、経理など、同種の専門機能ごとに人員と資源を集約する組織形態である。",
+      "summaryVi": "Cơ cấu tập trung nhân lực và nguồn lực theo từng chức năng chuyên môn như phát triển, sản xuất, bán hàng và kế toán.",
       "content": [
         {
           "type": "heading",
@@ -2125,13 +2165,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。例えば、営業、経理、製造などの部門が独立して存在し、それぞれが専門的な職務を遂行する。この仕組みにより、各部門は専門的な知識を活用して効率的に業務を行うことができる。また、職能別組織は専門性の向上や情報の共有が進む一方で、部門間のコミュニケーションが不足する可能性もある。これにより、組織全体の統一性を保つためには、適切な調整が必要である。",
-          "vi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự."
+          "ja": "職能別組織は、研究開発、製造、営業、人事、経理など、同種の専門機能ごとに人員を集約する組織形態である。専門知識や設備を共有でき、標準化、人材育成及び規模の経済を得やすい。一方、製品や顧客に対する全体責任が見えにくく、部門間調整に時間がかかることがある。",
+          "vi": "Tổ chức theo chức năng tập hợp nhân sự theo chuyên môn giống nhau như R&D, sản xuất, bán hàng, nhân sự và kế toán. Cơ cấu này thuận lợi cho chia sẻ chuyên môn, thiết bị, chuẩn hóa và đào tạo, nhưng trách nhiệm tổng thể với sản phẩm hay khách hàng dễ không rõ và phối hợp liên phòng ban có thể chậm."
         },
         {
           "type": "point",
-          "ja": "試験対策：職能別組織の定義、目的と関連用語との違いを確認する。",
-          "vi": "Tăng chuyên môn hóa nhưng dễ phát sinh chia cắt thông tin giữa phòng ban."
+          "ja": "専門性と機能内の効率が利点であり、部門横断の調整と製品・顧客単位の責任が課題になりやすい。",
+          "vi": "Điểm FE: Ưu điểm là chuyên môn hóa và hiệu suất trong từng chức năng; nhược điểm là phối hợp ngang và trách nhiệm theo sản phẩm, khách hàng."
+        },
+        {
+          "type": "example",
+          "ja": "全製品の技術者を開発部、販売担当者を営業部に集める。技術標準は統一しやすいが、新製品投入には開発・製造・営業の調整が必要になる。",
+          "vi": "Ví dụ: Tập trung kỹ sư của mọi sản phẩm vào phòng phát triển và nhân viên bán hàng vào phòng kinh doanh. Chuẩn kỹ thuật dễ thống nhất, nhưng ra sản phẩm mới cần phối hợp phát triển–sản xuất–bán hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "職能別組織では、各部門の目標達成が全社又は顧客にとって最適とは限らない。部門間の情報分断に注意する。",
+          "vi": "Dễ nhầm: Tối ưu mục tiêu của từng phòng chức năng chưa chắc tối ưu cho toàn công ty hoặc khách hàng; cần tránh chia cắt thông tin giữa phòng ban."
         }
       ],
       "terms": [
@@ -2140,7 +2190,7 @@
           "english": "Functional Organization",
           "vi": "Tổ chức theo chức năng",
           "definitionJa": "企業や組織において、特定の機能や職務ごとに部署を分ける組織形態である。",
-          "definitionVi": "Phân chia bộ phận theo chuyên môn như bán hàng, kế toán, sản xuất và nhân sự.",
+          "definitionVi": "Cơ cấu tập hợp nhân sự và nguồn lực theo các chức năng chuyên môn chung trong toàn tổ chức.",
           "reading": "しょくのうべつそしき"
         }
       ],
@@ -2156,8 +2206,8 @@
       "titleJa": "マトリックス組織",
       "titleVi": "Tổ chức ma trận",
       "importance": "high",
-      "summaryJa": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。",
-      "summaryVi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm.",
+      "summaryJa": "職能とプロジェクトなど二つの編成軸を重ね、専門資源を共有する二元的な組織形態である。",
+      "summaryVi": "Cơ cấu kết hợp hai trục quản lý, thường là chức năng với dự án hoặc sản phẩm, để chia sẻ nguồn lực chuyên môn.",
       "content": [
         {
           "type": "heading",
@@ -2166,13 +2216,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。この構造は、特に大規模なプロジェクトや複雑な業務において、柔軟性と協力を促進することを目指す。例えば、製品開発においては、技術部門と営業部門の両方から支援を受けることで、製品の市場適応性を高めることができる。また、マトリックス組織は情報共有を円滑にし、専門知識を活かして迅速な意思決定を支援する役割も持つ反面、役割や責任の不明確さから混乱を招く可能性もあるため、注意が必要である。",
-          "vi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm."
+          "ja": "マトリックス組織は、職能と製品・事業・プロジェクトなど二つの編成軸を組み合わせる組織形態である。人員は専門部門に所属しながらプロジェクトにも参加し、職能責任者とプロジェクト責任者の双方から調整を受ける。専門人材を複数案件で共有しやすい反面、権限、優先順位及び評価基準が曖昧だと指示の衝突が起きる。",
+          "vi": "Tổ chức ma trận kết hợp hai trục, thường là chức năng với sản phẩm, đơn vị kinh doanh hoặc dự án. Nhân sự vừa thuộc phòng chuyên môn vừa tham gia dự án, chịu điều phối của cả quản lý chức năng và quản lý dự án. Cơ cấu giúp chia sẻ chuyên gia giữa nhiều công việc, nhưng quyền hạn, ưu tiên và tiêu chí đánh giá không rõ sẽ gây xung đột chỉ đạo."
         },
         {
           "type": "point",
-          "ja": "試験対策：マトリックス組織の定義、目的と関連用語との違いを確認する。",
-          "vi": "Dấu hiệu nhận diện: hai tuyến chỉ huy; ưu điểm linh hoạt, nhược điểm xung đột chỉ đạo."
+          "ja": "識別点は二つの編成軸と複数の指揮・調整関係である。資源共有が利点、権限衝突と調整負荷が欠点である。",
+          "vi": "Điểm FE: Dấu hiệu là hai trục tổ chức và nhiều tuyến điều phối. Ưu điểm là chia sẻ nguồn lực; nhược điểm là xung đột quyền hạn và tăng chi phí phối hợp."
+        },
+        {
+          "type": "example",
+          "ja": "AI製品プロジェクトの技術者が、専門能力については開発部長、納期と成果物についてはプロジェクトマネージャの調整を受ける。",
+          "vi": "Ví dụ: Kỹ sư của dự án sản phẩm AI nhận định hướng năng lực chuyên môn từ trưởng phòng phát triển, đồng thời nhận điều phối tiến độ và sản phẩm bàn giao từ quản lý dự án."
+        },
+        {
+          "type": "warning",
+          "ja": "単に複数部門が協力するだけではマトリックス組織とはいえない。二重の権限関係を明確にしないと、担当者が相反する指示を受ける。",
+          "vi": "Dễ nhầm: Nhiều phòng cùng hợp tác chưa đủ để gọi là ma trận. Nếu không làm rõ quan hệ quyền hạn kép, nhân viên có thể nhận chỉ đạo trái ngược."
         }
       ],
       "terms": [
@@ -2181,7 +2241,7 @@
           "english": "Matrix Organization",
           "vi": "Tổ chức ma trận",
           "definitionJa": "従業員が二つ以上の異なる部門やプロジェクトに所属し、複数の上司から指示を受ける組織形態である。",
-          "definitionVi": "Nhân viên cùng chịu quản lý theo hai chiều, thường là chức năng và dự án hoặc sản phẩm.",
+          "definitionVi": "Cơ cấu kết hợp hai chiều quản lý để đồng thời sử dụng chuyên môn chức năng và trách nhiệm theo dự án hoặc sản phẩm.",
           "reading": "まとりっくすそしき"
         }
       ],
@@ -2320,8 +2380,8 @@
       "titleJa": "CEO",
       "titleVi": "Giám đốc điều hành (CEO)",
       "importance": "high",
-      "summaryJa": "企業や組織の最高経営責任者を指す役職である。",
-      "summaryVi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể.",
+      "summaryJa": "組織全体の経営方針、戦略、重要な意思決定及び成果に責任を負う最高経営責任者である。",
+      "summaryVi": "Người chịu trách nhiệm cao nhất về phương hướng, chiến lược, quyết định trọng yếu và kết quả quản trị toàn tổ chức.",
       "content": [
         {
           "type": "heading",
@@ -2330,13 +2390,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織の最高経営責任者を指す役職である。CEOは経営戦略の策定や実行、全体の運営管理、重要な意思決定など、組織の成長と成功に大きな影響を与える役割を担っている。具体的には、財務計画、マーケティング戦略、人材管理など、組織内のさまざまな分野におけるリーダーシップを発揮し、取締役会やステークホルダーと連携することが求められる。また、CEOは組織のビジョンやミッションを実現するために長期的な目標を設定し、従業員や関係者にその方向性を示す重要な役割も果たす。",
-          "vi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể."
+          "ja": "CEO（最高経営責任者）は、組織全体の経営方針と戦略を定め、重要な経営判断と資源配分を統括し、経営成果に責任を負う役職である。取締役会や他の経営責任者と連携し、企業の目的を具体的な目標へ落とし込む。COO、CFO、CIOなどに専門領域を委ねても、全体の方向性と統合はCEOの責任となる。",
+          "vi": "CEO (Chief Executive Officer) định ra phương hướng và chiến lược toàn tổ chức, điều phối quyết định quản trị quan trọng cùng phân bổ nguồn lực và chịu trách nhiệm về kết quả chung. CEO phối hợp với hội đồng quản trị và các lãnh đạo chuyên trách, chuyển mục tiêu doanh nghiệp thành định hướng; dù giao vận hành, tài chính hay CNTT cho COO, CFO, CIO, CEO vẫn chịu trách nhiệm tích hợp toàn cục."
         },
         {
           "type": "point",
-          "ja": "試験対策：CEOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CEO = chiến lược và điều hành tổng thể; COO = vận hành thường nhật."
+          "ja": "CEOは経営全体の最終的な方向付け、COOは業務執行、CFOは財務という役割の違いを押さえる。",
+          "vi": "Điểm FE: CEO định hướng quản trị tổng thể; COO phụ trách thực thi vận hành; CFO phụ trách tài chính."
+        },
+        {
+          "type": "example",
+          "ja": "CEOが新市場への参入を経営方針として決定し、投資枠を配分する。COOは実行体制を整え、CFOは資金計画を評価し、CIOは必要な情報システムを計画する。",
+          "vi": "Ví dụ: CEO quyết định định hướng vào thị trường mới và phân bổ khung đầu tư; COO xây dựng cơ chế thực thi, CFO đánh giá kế hoạch vốn, còn CIO lập kế hoạch hệ thống thông tin cần thiết."
+        },
+        {
+          "type": "warning",
+          "ja": "CEOが全ての実務を直接行うわけではない。経営責任者の名称、権限及び取締役会との関係は組織によって異なるため、FEでは基本的な職能を区別する。",
+          "vi": "Lưu ý: CEO không trực tiếp làm mọi nghiệp vụ. Tên gọi, quyền hạn và quan hệ với hội đồng quản trị khác nhau theo tổ chức; trong FE cần phân biệt chức năng cơ bản."
         }
       ],
       "terms": [
@@ -2345,7 +2415,7 @@
           "english": "Chief Executive Officer",
           "vi": "Giám đốc điều hành (CEO)",
           "definitionJa": "企業や組織の最高経営責任者を指す役職である。",
-          "definitionVi": "Lãnh đạo cao nhất chịu trách nhiệm định hướng chiến lược và các quyết định quản trị tổng thể.",
+          "definitionVi": "Người chịu trách nhiệm cao nhất về định hướng, quyết định và kết quả quản trị tổng thể của tổ chức.",
           "reading": "しーいーおー"
         }
       ],
@@ -2357,8 +2427,8 @@
       "titleJa": "CIO",
       "titleVi": "Giám đốc thông tin (CIO)",
       "importance": "high",
-      "summaryJa": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。",
-      "summaryVi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh.",
+      "summaryJa": "経営戦略に整合する情報システム戦略、ITガバナンス及びIT投資を統括する最高情報責任者である。",
+      "summaryVi": "Lãnh đạo liên kết chiến lược hệ thống thông tin, IT governance và danh mục đầu tư CNTT với mục tiêu kinh doanh.",
       "content": [
         {
           "type": "heading",
@@ -2367,13 +2437,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。主に、情報システムの導入や管理、データのセキュリティ確保、そして業務プロセスの改善を通じて、組織の競争力を高める役割を果たす。CIOは経営層の一員として、IT投資の優先順位を決め、ビジネス全体の戦略と整合させることが求められる。例えば、新たなテクノロジーの導入によって顧客サービスを向上させたり、効率を上げたりするための計画を立案することが重要な任務であり、その成果は組織の成長に直接的な影響を与える。",
-          "vi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh."
+          "ja": "CIO（最高情報責任者）は、経営戦略に整合する情報システム戦略を策定し、ITガバナンス、情報システム投資、全体アーキテクチャ、データ及びIT組織を統括する役職である。単なるシステム運用責任者ではなく、投資の優先順位と効果を経営の観点で判断し、業務部門と情報システム部門を結び付ける。",
+          "vi": "CIO (Chief Information Officer) xây dựng chiến lược hệ thống thông tin phù hợp chiến lược kinh doanh và điều phối quản trị CNTT, đầu tư hệ thống, kiến trúc tổng thể, dữ liệu cùng tổ chức IT. CIO không chỉ quản lý vận hành kỹ thuật mà còn quyết định ưu tiên và hiệu quả đầu tư theo góc nhìn quản trị, nối bộ phận nghiệp vụ với bộ phận hệ thống."
         },
         {
           "type": "point",
-          "ja": "試験対策：CIOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CIO = chiến lược thông tin; CISO = an ninh thông tin; CDO = chuyển đổi số."
+          "ja": "CIOは情報システム戦略とITガバナンス、CISOは情報セキュリティ、CDOはデジタル変革を主に担う。",
+          "vi": "Điểm FE: CIO phụ trách chiến lược hệ thống thông tin và IT governance; CISO phụ trách an ninh thông tin; CDO thúc đẩy chuyển đổi số."
+        },
+        {
+          "type": "example",
+          "ja": "老朽化した基幹システムの刷新について、CIOが経営戦略との整合性、全社アーキテクチャ、費用対効果及び導入順序を評価し、投資計画を経営会議へ提案する。",
+          "vi": "Ví dụ: Khi thay hệ thống lõi cũ, CIO đánh giá sự phù hợp với chiến lược kinh doanh, kiến trúc toàn công ty, hiệu quả chi phí và thứ tự triển khai rồi đề xuất kế hoạch đầu tư với ban lãnh đạo."
+        },
+        {
+          "type": "warning",
+          "ja": "CIOを情報システム部門の技術責任者だけと捉えない。重要なのは、経営とITを整合させ、全社的な投資と統制を行うことである。",
+          "vi": "Dễ nhầm: CIO không chỉ là trưởng kỹ thuật của phòng IT; trọng tâm là gắn kinh doanh với CNTT và quản trị đầu tư, kiểm soát ở cấp toàn công ty."
         }
       ],
       "terms": [
@@ -2382,7 +2462,7 @@
           "english": "Chief Information Officer",
           "vi": "Giám đốc thông tin (CIO)",
           "definitionJa": "企業や組織において情報技術（IT）戦略を策定・推進する責任を持つ役職である。",
-          "definitionVi": "Lãnh đạo chịu trách nhiệm chiến lược hệ thống thông tin, quản trị CNTT và liên kết đầu tư IT với kinh doanh.",
+          "definitionVi": "Lãnh đạo chịu trách nhiệm liên kết chiến lược thông tin và danh mục đầu tư CNTT với mục tiêu kinh doanh.",
           "reading": "しーあいおー"
         }
       ],
@@ -2394,8 +2474,8 @@
       "titleJa": "CDO",
       "titleVi": "Giám đốc chuyển đổi số (CDO)",
       "importance": "high",
-      "summaryJa": "企業におけるデジタル戦略を推進する最高責任者である。",
-      "summaryVi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số.",
+      "summaryJa": "デジタル技術とデータによる事業、業務、顧客価値及び組織文化の変革を横断的に推進する責任者である。",
+      "summaryVi": "Lãnh đạo thúc đẩy chuyển đổi số xuyên toàn công ty để đổi mô hình kinh doanh, quy trình, giá trị khách hàng và văn hóa.",
       "content": [
         {
           "type": "heading",
@@ -2404,13 +2484,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業におけるデジタル戦略を推進する最高責任者である。デジタル技術を活用して企業のビジネスモデルやプロセスを革新し、競争力を向上させる役割を担っている。例えば、顧客とのコミュニケーションをデジタル化したり、データ分析を通じて市場のニーズを把握することで、企業の経営戦略に貢献する。このポジションは、IT部門だけでなく、マーケティングや営業など様々な部門と連携しながら、全体としてのデジタルトランスフォーメーションを実現することが求められる。企業がデジタル化を進める中で、CDOの重要性はますます高まっている。",
-          "vi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số."
+          "ja": "CDO（最高デジタル責任者）は、デジタル技術とデータを活用して、顧客価値、ビジネスモデル、業務プロセス及び組織文化の変革を全社横断で推進する役職である。単なるシステム導入ではなく、営業、製造、マーケティング、ITなどを連携させ、DXの目標、ロードマップ、成果指標を管理する。",
+          "vi": "CDO (Chief Digital Officer) thúc đẩy chuyển đổi xuyên toàn công ty bằng công nghệ số và dữ liệu, bao gồm giá trị khách hàng, mô hình kinh doanh, quy trình và văn hóa tổ chức. Vai trò này không dừng ở cài hệ thống mà kết nối bán hàng, sản xuất, marketing và IT, quản lý mục tiêu, lộ trình và chỉ số kết quả DX."
         },
         {
           "type": "point",
-          "ja": "試験対策：CDOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CDO trong tài liệu = Chief Digital Officer; có nơi CDO còn là Chief Data Officer, phải xem ngữ cảnh."
+          "ja": "FEシラバスのCDOはChief Digital Officerであり、デジタル変革を経営・業務横断で推進する。",
+          "vi": "Điểm FE: CDO trong syllabus là Chief Digital Officer, chịu trách nhiệm thúc đẩy chuyển đổi số xuyên quản trị và nghiệp vụ."
+        },
+        {
+          "type": "example",
+          "ja": "店舗販売中心の企業で、CDOがEC、顧客データ分析、店舗在庫連携を一つの変革計画として統合し、顧客体験と収益モデルを見直す。",
+          "vi": "Ví dụ: Tại doanh nghiệp chủ yếu bán ở cửa hàng, CDO hợp nhất thương mại điện tử, phân tích dữ liệu khách hàng và liên kết tồn kho cửa hàng thành một chương trình chuyển đổi nhằm đổi trải nghiệm khách hàng và mô hình doanh thu."
+        },
+        {
+          "type": "warning",
+          "ja": "CDOは文脈によってChief Data Officerを指す場合もあるが、本項とFEシラバスではChief Digital Officerである。略称だけで判断しない。",
+          "vi": "Dễ nhầm: Ở ngữ cảnh khác CDO có thể là Chief Data Officer, nhưng trong bài này và syllabus FE là Chief Digital Officer. Không suy đoán chỉ từ chữ viết tắt."
         }
       ],
       "terms": [
@@ -2419,7 +2509,7 @@
           "english": "Chief Digital Officer",
           "vi": "Giám đốc chuyển đổi số (CDO)",
           "definitionJa": "企業におけるデジタル戦略を推進する最高責任者である。",
-          "definitionVi": "Lãnh đạo thúc đẩy chiến lược số và thay đổi mô hình kinh doanh, quy trình nhờ công nghệ số.",
+          "definitionVi": "Lãnh đạo điều phối chương trình chuyển đổi số nhằm tạo thay đổi về giá trị, mô hình và cách vận hành doanh nghiệp.",
           "reading": "しーでぃーおー"
         }
       ],
@@ -2431,8 +2521,8 @@
       "titleJa": "CISO",
       "titleVi": "Giám đốc an ninh thông tin (CISO)",
       "importance": "high",
-      "summaryJa": "企業や組織における最高情報セキュリティ責任者である。",
-      "summaryVi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin.",
+      "summaryJa": "情報セキュリティの方針、リスク管理、対策及びインシデント対応体制を統括する最高責任者である。",
+      "summaryVi": "Lãnh đạo cao nhất điều phối chính sách, rủi ro, biện pháp kiểm soát và cơ chế ứng phó sự cố an ninh thông tin.",
       "content": [
         {
           "type": "heading",
@@ -2441,13 +2531,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織における最高情報セキュリティ責任者である。情報セキュリティ戦略の立案や実施、情報資産の保護、リスク管理などを担当する重要な役割を果たす。このポジションには、サイバー攻撃やデータ漏洩などのリスクから組織を守るための専門知識が求められ、セキュリティ体制の強化や意識向上を図るための施策を推進することが期待されている。CISOは経営層と連携し、セキュリティがビジネスに与える影響を考慮しながら戦略的な決定を行うことが重要である。",
-          "vi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin."
+          "ja": "CISO（最高情報セキュリティ責任者）は、事業目標とリスク許容度に基づいて情報セキュリティ方針と戦略を定め、情報資産のリスク管理、対策、教育、監視及びインシデント対応体制を統括する役職である。技術部門だけでなく、経営層、法務、広報、各業務部門と連携し、重大リスクと対応状況を経営へ報告する。",
+          "vi": "CISO (Chief Information Security Officer) thiết lập chính sách và chiến lược an ninh theo mục tiêu kinh doanh và khẩu vị rủi ro, điều phối quản lý rủi ro tài sản thông tin, biện pháp, đào tạo, giám sát và cơ chế ứng phó sự cố. CISO phối hợp không chỉ với kỹ thuật mà cả lãnh đạo, pháp chế, truyền thông và các bộ phận nghiệp vụ để báo cáo rủi ro trọng yếu."
         },
         {
           "type": "point",
-          "ja": "試験対策：CISOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CISO chuyên an ninh thông tin; CPO chuyên quyền riêng tư và dữ liệu cá nhân."
+          "ja": "CISOは情報セキュリティ全般のリスク、CPOはプライバシーと個人情報の取扱いを主に統括する。",
+          "vi": "Điểm FE: CISO điều phối rủi ro an ninh thông tin nói chung; CPO chủ yếu điều phối quyền riêng tư và việc xử lý dữ liệu cá nhân."
+        },
+        {
+          "type": "example",
+          "ja": "CISOがランサムウェアリスクを経営へ報告し、多要素認証、バックアップ訓練、委託先管理及びインシデント対応計画への投資優先度を提案する。",
+          "vi": "Ví dụ: CISO báo cáo rủi ro ransomware cho lãnh đạo và đề xuất ưu tiên đầu tư vào xác thực đa yếu tố, diễn tập sao lưu, quản lý nhà cung cấp và kế hoạch ứng phó sự cố."
+        },
+        {
+          "type": "warning",
+          "ja": "CISOの仕事をセキュリティ製品の導入だけに限定しない。組織全体の方針、リスク受容、役割分担及び対応判断も経営課題として扱う。",
+          "vi": "Dễ nhầm: Công việc CISO không chỉ là triển khai sản phẩm bảo mật; còn bao gồm chính sách, chấp nhận rủi ro, phân công và quyết định ứng phó ở cấp tổ chức."
         }
       ],
       "terms": [
@@ -2456,7 +2556,7 @@
           "english": "Chief Information Security Officer",
           "vi": "Giám đốc an ninh thông tin (CISO)",
           "definitionJa": "企業や組織における最高情報セキュリティ責任者である。",
-          "definitionVi": "Người chịu trách nhiệm cao nhất về chính sách, quản lý rủi ro và bảo vệ tài sản thông tin.",
+          "definitionVi": "Lãnh đạo cao nhất điều phối chiến lược, quản trị rủi ro và cơ chế ứng phó về an ninh thông tin.",
           "reading": "しーあいえすおー"
         }
       ],
@@ -2468,8 +2568,8 @@
       "titleJa": "CPO",
       "titleVi": "Giám đốc bảo vệ quyền riêng tư (CPO)",
       "importance": "high",
-      "summaryJa": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。",
-      "summaryVi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư.",
+      "summaryJa": "個人情報のライフサイクル、プライバシー方針、法令対応及び関連リスクを統括する最高責任者である。",
+      "summaryVi": "Lãnh đạo cao nhất quản trị vòng đời dữ liệu cá nhân, chính sách, tuân thủ và rủi ro quyền riêng tư.",
       "content": [
         {
           "type": "heading",
@@ -2478,13 +2578,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。個人情報の収集、利用、保存に関する方針を策定し、法令遵守やリスク管理を行う役割を担う。これにより、顧客や従業員の個人情報が適切に保護され、企業の信頼性を高めることに貢献する。特に、個人情報の漏洩や不正使用が問題視される現代において、CPOの職務はますます重要になってきている。また、プライバシーに関連する社内教育や啓発活動も推進し、組織全体のプライバシー意識を向上させる役割も果たす。",
-          "vi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư."
+          "ja": "CPO（最高プライバシー責任者）は、顧客や従業員などの個人情報について、取得目的、利用、共有、保管、廃棄までの方針と管理体制を統括する役職である。プライバシーリスクの評価、法令・契約への対応、本人からの問合せ、教育及び事故対応を、法務、CISO、データ利用部門などと連携して進める。",
+          "vi": "CPO (Chief Privacy Officer) điều phối chính sách và cơ chế quản lý dữ liệu cá nhân của khách hàng, nhân viên từ mục đích thu thập, sử dụng, chia sẻ, lưu giữ đến hủy bỏ. Vai trò này phối hợp với pháp chế, CISO và bộ phận dùng dữ liệu trong đánh giá rủi ro riêng tư, tuân thủ, yêu cầu của chủ thể dữ liệu, đào tạo và ứng phó sự cố."
         },
         {
           "type": "point",
-          "ja": "試験対策：CPOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CPO ở đây = Chief Privacy Officer, không nhầm với các cách mở rộng khác."
+          "ja": "FEシラバスのCPOはChief Privacy Officerであり、個人情報のライフサイクルとプライバシーリスクを統括する。",
+          "vi": "Điểm FE: CPO trong syllabus là Chief Privacy Officer, quản trị vòng đời dữ liệu cá nhân và rủi ro quyền riêng tư."
+        },
+        {
+          "type": "example",
+          "ja": "新しい健康管理アプリの導入前に、CPOが取得目的、必要最小限のデータ、第三者提供、保存期間及び利用者への説明を確認し、改善を求める。",
+          "vi": "Ví dụ: Trước khi đưa ứng dụng quản lý sức khỏe vào dùng, CPO kiểm tra mục đích thu thập, dữ liệu tối thiểu cần thiết, chia sẻ bên thứ ba, thời hạn lưu và thông báo cho người dùng, rồi yêu cầu cải thiện."
+        },
+        {
+          "type": "warning",
+          "ja": "CPOは文脈によってChief Product OfficerやChief Procurement Officerを指すこともある。本項ではIPAシラバスどおりChief Privacy Officerを意味する。",
+          "vi": "Dễ nhầm: CPO trong ngữ cảnh khác có thể là Chief Product Officer hoặc Chief Procurement Officer; tại đây theo syllabus IPA là Chief Privacy Officer."
         }
       ],
       "terms": [
@@ -2493,7 +2603,7 @@
           "english": "Chief Privacy Officer",
           "vi": "Giám đốc bảo vệ quyền riêng tư (CPO)",
           "definitionJa": "企業や組織においてプライバシーの保護と管理を担当する最高責任者である。",
-          "definitionVi": "Lãnh đạo phụ trách bảo vệ dữ liệu cá nhân, tuân thủ quy định và quản trị rủi ro riêng tư.",
+          "definitionVi": "Lãnh đạo cao nhất phụ trách chính sách, tuân thủ và kiểm soát rủi ro liên quan quyền riêng tư, dữ liệu cá nhân.",
           "reading": "しーぴーおー"
         }
       ],
@@ -2505,8 +2615,8 @@
       "titleJa": "CFO",
       "titleVi": "Giám đốc tài chính (CFO)",
       "importance": "high",
-      "summaryJa": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。",
-      "summaryVi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư.",
+      "summaryJa": "資金調達、予算、財務報告、投資評価及び財務リスクを経営戦略に沿って統括する最高財務責任者である。",
+      "summaryVi": "Lãnh đạo điều phối chiến lược tài chính, nguồn vốn, ngân sách, báo cáo, đánh giá đầu tư và rủi ro tài chính.",
       "content": [
         {
           "type": "heading",
@@ -2515,13 +2625,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。企業の資金管理、財務報告、予算計画、投資分析など幅広い業務を行い、経営陣に対して財務状況の報告や助言を行う。これにより、企業が健全な財務状態を維持し、成長戦略を効果的に推進できるよう支援する役割を果たす。また、株主や投資家との関係も重視し、信頼性の高い情報を提供することで企業の信用を高めることが求められる。この役職は、企業の持続的な成功に不可欠である。",
-          "vi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư."
+          "ja": "CFO（最高財務責任者）は、経営戦略を財務面から支え、資金調達、資金繰り、予算、会計・財務報告、投資評価及び財務リスクを統括する役職である。経営判断に必要な財務情報と予測を示し、企業価値と財務健全性の両立を図る。CEOや事業責任者へ助言し、株主・金融機関との対話を担う場合もある。",
+          "vi": "CFO (Chief Financial Officer) hỗ trợ chiến lược kinh doanh về mặt tài chính và điều phối huy động vốn, dòng tiền, ngân sách, kế toán–báo cáo, đánh giá đầu tư cùng rủi ro tài chính. CFO cung cấp dữ liệu và dự báo cho quyết định quản trị, cân bằng giá trị doanh nghiệp với sức khỏe tài chính, đồng thời có thể phụ trách quan hệ cổ đông và tổ chức tín dụng."
         },
         {
           "type": "point",
-          "ja": "試験対策：CFOの定義、目的と関連用語との違いを確認する。",
-          "vi": "CFO = tài chính; COO = vận hành; CEO = quản trị tổng thể."
+          "ja": "CFOは財務戦略と財務統制、COOは業務執行、CEOは経営全体を統括する。",
+          "vi": "Điểm FE: CFO phụ trách chiến lược và kiểm soát tài chính; COO phụ trách thực thi vận hành; CEO điều phối toàn bộ quản trị."
+        },
+        {
+          "type": "example",
+          "ja": "新工場への投資案について、CFOが必要資金、将来キャッシュフロー、資金調達方法及び財務リスクを比較し、経営会議の判断材料を提示する。",
+          "vi": "Ví dụ: Với đề án nhà máy mới, CFO so sánh vốn cần thiết, dòng tiền tương lai, phương thức huy động và rủi ro tài chính để cung cấp căn cứ cho ban lãnh đạo quyết định."
+        },
+        {
+          "type": "warning",
+          "ja": "CFOを経理処理の責任者だけと考えない。過去の実績報告に加え、資本政策、投資及び将来の財務戦略にも関与する。",
+          "vi": "Dễ nhầm: CFO không chỉ phụ trách ghi sổ kế toán; ngoài báo cáo quá khứ còn tham gia chính sách vốn, đầu tư và chiến lược tài chính tương lai."
         }
       ],
       "terms": [
@@ -2530,7 +2650,7 @@
           "english": "Chief Financial Officer",
           "vi": "Giám đốc tài chính (CFO)",
           "definitionJa": "最高財務責任者のことで、企業の財務戦略や経営全体に関する意思決定を担当する役職である。",
-          "definitionVi": "Lãnh đạo quản lý tài chính, nguồn vốn, ngân sách, báo cáo và quyết định đầu tư.",
+          "definitionVi": "Lãnh đạo cao nhất phụ trách chiến lược tài chính, nguồn vốn, báo cáo và kiểm soát rủi ro tài chính.",
           "reading": "しーえふおー"
         }
       ],
@@ -2542,8 +2662,8 @@
       "titleJa": "COO",
       "titleVi": "Giám đốc vận hành (COO)",
       "importance": "high",
-      "summaryJa": "最高執行責任者を指し、企業や組織の運営を管理する役職である。",
-      "summaryVi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày.",
+      "summaryJa": "CEOの経営方針を業務プロセスと実行計画へ展開し、日常の事業運営を統括する最高執行責任者である。",
+      "summaryVi": "Lãnh đạo chuyển định hướng của CEO thành quy trình, kế hoạch thực thi và điều phối hoạt động kinh doanh hằng ngày.",
       "content": [
         {
           "type": "heading",
@@ -2552,13 +2672,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "最高執行責任者を指し、企業や組織の運営を管理する役職である。日常の業務を効率的に行うための戦略を策定し、実行に移す責任を負う。具体的には、部門間の調整や業務プロセスの最適化、人材の管理などが含まれる。CEO（最高経営責任者）と連携し、企業のビジョンを実現するために重要な役割を果たす。特に大企業では、業務全般に対する深い理解が求められ、経営方針に基づいた具体的な施策の実施が期待される。これにより、効率的な運営と持続可能な成長が促進される。",
-          "vi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày."
+          "ja": "COO（最高執行責任者）は、CEOが示す経営方針を日常の業務執行へ落とし込み、複数部門の運営、業務プロセス、品質、供給能力及び業績指標を統括する役職である。部門間の資源と優先順位を調整し、計画どおりに製品・サービスを提供できる運営体制を整える。",
+          "vi": "COO (Chief Operating Officer) chuyển phương hướng của CEO thành hoạt động thực thi hằng ngày, điều phối vận hành nhiều bộ phận, quy trình, chất lượng, năng lực cung ứng và KPI. COO cân đối nguồn lực cùng ưu tiên giữa các phòng để bảo đảm sản phẩm, dịch vụ được cung cấp theo kế hoạch."
         },
         {
           "type": "point",
-          "ja": "試験対策：COOの定義、目的と関連用語との違いを確認する。",
-          "vi": "COO triển khai vận hành theo định hướng chiến lược của CEO."
+          "ja": "CEOが全社の方向性を決め、COOがその方針を具体的な業務プロセスと実行計画へ展開する。",
+          "vi": "Điểm FE: CEO quyết định định hướng toàn công ty; COO triển khai định hướng đó thành quy trình nghiệp vụ và kế hoạch thực thi."
+        },
+        {
+          "type": "example",
+          "ja": "CEOが納期短縮を重点方針にすると、COOは調達・製造・物流のプロセスを横断してKPI、責任者及び改善計画を設定し、実行状況を管理する。",
+          "vi": "Ví dụ: Khi CEO chọn rút ngắn thời gian giao hàng làm trọng tâm, COO thiết lập KPI, người chịu trách nhiệm và kế hoạch cải tiến xuyên suốt mua hàng–sản xuất–logistics rồi quản lý việc thực hiện."
+        },
+        {
+          "type": "warning",
+          "ja": "COOとCEOの役割を同一視しない。COOの担当範囲や設置有無は組織によって異なるが、FEでは業務執行の統括者として区別する。",
+          "vi": "Lưu ý: Không đồng nhất COO với CEO. Phạm vi và việc có chức danh COO khác nhau theo tổ chức, nhưng trong FE cần nhận diện COO là người điều phối thực thi vận hành."
         }
       ],
       "terms": [
@@ -2567,7 +2697,7 @@
           "english": "Chief Operating Officer",
           "vi": "Giám đốc vận hành (COO)",
           "definitionJa": "最高執行責任者を指し、企業や組織の運営を管理する役職である。",
-          "definitionVi": "Lãnh đạo chịu trách nhiệm tổ chức và tối ưu các hoạt động kinh doanh hằng ngày.",
+          "definitionVi": "Lãnh đạo cao nhất phụ trách biến chiến lược thành hoạt động và điều phối hiệu quả vận hành hằng ngày.",
           "reading": "しーおーおー"
         }
       ],
@@ -2780,8 +2910,8 @@
       "titleJa": "第4次産業革命",
       "titleVi": "Cuộc cách mạng công nghiệp lần thứ tư",
       "importance": "high",
-      "summaryJa": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。",
-      "summaryVi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý.",
+      "summaryJa": "IoT、ビッグデータ、AI、ロボットなどの融合によって産業構造や生産・サービスを変革する動きである。",
+      "summaryVi": "Làn sóng chuyển đổi công nghiệp kết hợp IoT, dữ liệu lớn, AI, đám mây và robot để nối dữ liệu với điều khiển thực tế.",
       "content": [
         {
           "type": "heading",
@@ -2790,13 +2920,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。この革命は、人工知能（AI）、IoT（モノのインターネット）、ビッグデータ、ロボティクスなどの技術進化によって推進されている。例えば、製造業では、自動化されたロボットが働き手の補完を行い、より高効率な生産が実現されている。また、これまでの産業モデルとは異なり、デジタル技術を活用することで新たなビジネスモデルが登場し、企業は顧客との関係をより密接に築くことが可能となっている。経済の発展だけでなく、社会全体のライフスタイルにも大きな影響を与えている。",
-          "vi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý."
+          "ja": "第4次産業革命は、IoTで現実世界の機器や活動を接続してデータを収集し、ビッグデータ、クラウド、AIで分析し、ロボットなどを自律的・協調的に制御する技術の融合によって、産業構造や価値提供を変える動きである。スマート工場、予知保全、需要に応じた個別生産、製品のサービス化など、新しい生産方式やビジネスモデルにつながる。",
+          "vi": "Cuộc cách mạng công nghiệp lần thứ tư là sự chuyển đổi cấu trúc công nghiệp và cách tạo giá trị nhờ kết hợp công nghệ: IoT kết nối thiết bị, hoạt động thực để thu dữ liệu; dữ liệu lớn, đám mây và AI phân tích; robot hoặc hệ thống tự động phối hợp điều khiển. Nó tạo nền cho nhà máy thông minh, bảo trì dự đoán, sản xuất theo nhu cầu và mô hình sản phẩm–dịch vụ mới."
         },
         {
           "type": "point",
-          "ja": "試験対策：第4次産業革命の定義、目的と関連用語との違いを確認する。",
-          "vi": "Nhận diện qua nhà máy thông minh, tự động hóa và hệ thống kết nối."
+          "ja": "技術要素を個別に暗記するだけでなく、現実のデータ収集、分析・判断、現実への制御がつながり、産業と事業モデルを変える点を押さえる。",
+          "vi": "Điểm FE: Không chỉ nhớ từng công nghệ; cần hiểu chuỗi thu dữ liệu thực tế → phân tích, quyết định → điều khiển trở lại thế giới thực làm thay đổi công nghiệp và mô hình kinh doanh."
+        },
+        {
+          "type": "example",
+          "ja": "工場設備のセンサデータをIoTで収集し、AIが故障兆候を分析して保守時期を指示する。生産計画とロボットの動作も受注状況に合わせて調整する。",
+          "vi": "Ví dụ: Thu dữ liệu cảm biến thiết bị nhà máy qua IoT, AI phân tích dấu hiệu hỏng để đề xuất thời điểm bảo trì; kế hoạch sản xuất và hoạt động robot cũng được điều chỉnh theo đơn hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "紙の情報を電子化するだけ、又は一台の機械を自動化するだけでは、第4次産業革命の特徴を十分に表さない。データ連携、分析、自律化及び価値提供の変化が重要である。",
+          "vi": "Dễ nhầm: Chỉ số hóa tài liệu giấy hoặc tự động hóa một máy chưa thể hiện đầy đủ Cách mạng 4.0; trọng tâm là liên kết dữ liệu, phân tích, tự chủ và thay đổi cách tạo giá trị."
         }
       ],
       "terms": [
@@ -2805,7 +2945,7 @@
           "english": "Fourth Industrial Revolution",
           "vi": "Cuộc cách mạng công nghiệp lần thứ tư",
           "definitionJa": "さまざまな先端技術が融合し、私たちの生活や産業が根本的に変革される時代を指す。",
-          "definitionVi": "Chuyển đổi công nghiệp dựa trên kết hợp AI, IoT, dữ liệu lớn, robot và kết nối số–vật lý.",
+          "definitionVi": "Làn sóng đổi mới công nghiệp kết nối dữ liệu, AI và hệ thống tự động để tạo phương thức sản xuất, dịch vụ mới.",
           "reading": "だいよんじさんぎょうかくめい"
         }
       ],
@@ -2821,8 +2961,8 @@
       "titleJa": "Society5.0",
       "titleVi": "Xã hội 5.0 (Society 5.0)",
       "importance": "high",
-      "summaryJa": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。",
-      "summaryVi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội.",
+      "summaryJa": "サイバー空間とフィジカル空間を高度に融合し、経済発展と社会課題の解決を両立する人間中心の未来社会である。",
+      "summaryVi": "Tầm nhìn tương lai lấy con người làm trung tâm, hội tụ không gian mạng–vật lý để đồng thời phát triển kinh tế và giải quyết vấn đề xã hội.",
       "content": [
         {
           "type": "heading",
@@ -2831,13 +2971,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。この概念は、情報技術の進化により、持続可能で多様な社会を実現することを目的としている。具体的には、人工知能やIoT（モノのインターネット）を活用し、社会のさまざまなデータを収集・分析することで、より効率的で柔軟なシステムを構築する。このプロセスにより、例えば交通の最適化や医療の効率化、教育や生活支援が進み、人々の質の高い生活をサポートすることが期待されている。Society 5.0は、未来の社会構造における重要なビジョンとなりつつある。",
-          "vi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội."
+          "ja": "Society 5.0は、狩猟社会、農耕社会、工業社会、情報社会に続く、日本が目指す人間中心の未来社会である。フィジカル空間のデータをサイバー空間に集約し、AIなどで分析した結果を現実のサービスや制御へ戻す高度な融合によって、経済発展と社会的課題の解決を両立する。技術導入そのものではなく、安全・安心、多様なwell-being、持続可能性といった人への価値を目標とする。",
+          "vi": "Society 5.0 là tầm nhìn xã hội tương lai lấy con người làm trung tâm của Nhật Bản, tiếp sau xã hội săn bắt, nông nghiệp, công nghiệp và thông tin. Dữ liệu từ không gian vật lý được đưa vào không gian mạng, phân tích bằng AI rồi phản hồi thành dịch vụ hoặc điều khiển trong đời thực, nhằm đồng thời phát triển kinh tế và giải quyết vấn đề xã hội. Mục tiêu là giá trị cho con người như an toàn, hạnh phúc đa dạng và bền vững, không phải triển khai công nghệ vì chính nó."
         },
         {
           "type": "point",
-          "ja": "試験対策：Society5.0の定義、目的と関連用語との違いを確認する。",
-          "vi": "Society 5.0 là tầm nhìn xã hội, không phải phiên bản phần mềm hay chỉ nhà máy tự động."
+          "ja": "Society 5.0は社会全体の人間中心の将来像であり、第4次産業革命は主に産業を変える技術革新の潮流として区別する。",
+          "vi": "Điểm FE: Society 5.0 là tầm nhìn lấy con người làm trung tâm cho toàn xã hội; Cách mạng công nghiệp 4.0 là làn sóng đổi mới công nghệ chủ yếu làm biến đổi công nghiệp."
+        },
+        {
+          "type": "example",
+          "ja": "過疎地域で交通需要と車両位置を収集し、AIで配車を最適化してオンデマンド交通を提供する。技術の利用目的は、高齢者を含む住民の移動課題を解決することである。",
+          "vi": "Ví dụ: Ở khu vực thưa dân, thu thập nhu cầu đi lại và vị trí xe, dùng AI tối ưu điều phối để cung cấp giao thông theo yêu cầu. Mục đích của công nghệ là giải quyết khó khăn di chuyển của người dân, kể cả người cao tuổi."
+        },
+        {
+          "type": "warning",
+          "ja": "Society 5.0を単なるIT化、ソフトウェアの版番号又はスマート工場だけと捉えない。社会課題の解決と人間中心の価値が判断基準である。",
+          "vi": "Dễ nhầm: Society 5.0 không phải chỉ là tin học hóa, phiên bản phần mềm hay nhà máy thông minh; tiêu chí cốt lõi là giải quyết vấn đề xã hội và giá trị lấy con người làm trung tâm."
         }
       ],
       "terms": [
@@ -2846,7 +2996,7 @@
           "english": "Society 5.0",
           "vi": "Xã hội 5.0 (Society 5.0)",
           "definitionJa": "Society 5.0とは、システムによってサイバー空間とフィジカル空間を高度に融合させ、経済発展と社会的課題の解決を同時に目指す人間中心の社会である。",
-          "definitionVi": "Tầm nhìn xã hội lấy con người làm trung tâm, kết hợp không gian mạng và thế giới thực để phát triển kinh tế và giải quyết vấn đề xã hội.",
+          "definitionVi": "Mô hình xã hội tương lai của Nhật Bản dùng sự hội tụ cyber–physical để tạo phát triển, bền vững và hạnh phúc cho con người.",
           "reading": "さいてぃ5.0"
         }
       ],

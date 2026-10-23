@@ -11,39 +11,59 @@
       "titleJa": "関係代数とデータ操作",
       "titleVi": "Đại số quan hệ và thao tác dữ liệu",
       "importance": "high",
-      "summaryJa": "関係代数、集合演算、関係演算の基本を理解する。",
-      "summaryVi": "Hiểu các khái niệm cơ bản về đại số quan hệ, phép toán tập hợp và phép toán quan hệ.",
+      "summaryJa": "関係代数は、表を関係として扱い、集合演算や選択・射影・結合などの関係演算によって別の関係を導く理論である。各演算が行・列・表のどれを操作するかを理解する。",
+      "summaryVi": "Đại số quan hệ xem bảng như một quan hệ và tạo ra quan hệ mới bằng phép toán tập hợp hoặc các phép chọn, chiếu, kết nối. Cần phân biệt mỗi phép tác động lên hàng, cột hay nhiều bảng.",
       "terms": [
         {
           "term": "関係代数",
           "reading": "かんけいだいすう",
           "english": "Relational Algebra",
           "vi": "đại số quan hệ",
-          "definitionJa": "データベースにおいてデータを操作するための数学的手法。リレーショナルデータベースで、選択や結合などの操作を表す基礎となる。",
-          "definitionVi": "Phương pháp toán học dùng để thao tác dữ liệu trong cơ sở dữ liệu quan hệ; là nền tảng cho các phép như chọn và kết hợp."
+          "definitionJa": "関係を入力とし、集合演算や関係演算を適用して新しい関係を得る数学的な体系。リレーショナルデータベースの問合せを考える基礎となる。",
+          "definitionVi": "Hệ thống toán học nhận quan hệ làm đầu vào và tạo quan hệ mới bằng các phép toán tập hợp hoặc quan hệ; là nền tảng để biểu diễn truy vấn trong cơ sở dữ liệu quan hệ."
         },
         {
           "term": "集合演算",
           "reading": "しゅうごうえんざん",
           "english": "Set Operations",
           "vi": "phép toán tập hợp",
-          "definitionJa": "複数の集合に対して行う演算。代表的なものに和、差、積があり、データの抽出や分析に利用される。",
-          "definitionVi": "Các phép toán thực hiện trên nhiều tập hợp. Những phép cơ bản gồm hợp, hiệu và giao, được dùng để trích xuất và phân tích dữ liệu."
+          "definitionJa": "和・差・積（共通）など、複数の集合を組み合わせる演算。関係に適用する場合、和・差・積では対応する列の数や定義域が一致している必要がある。",
+          "definitionVi": "Các phép kết hợp nhiều tập hợp như hợp, hiệu và giao. Khi áp dụng cho quan hệ, các toán hạng của hợp, hiệu và giao phải tương thích về số cột và miền dữ liệu tương ứng."
         },
         {
           "term": "関係演算",
           "reading": "かんけいえんざん",
           "english": "Relational Operations",
           "vi": "phép toán quan hệ",
-          "definitionJa": "リレーショナルデータベースにおけるデータ操作の基礎となる手法の総称。選択、射影、結合、商、直積などがある。",
-          "definitionVi": "Tên gọi chung cho các phép thao tác dữ liệu cơ bản trong CSDL quan hệ, gồm chọn, chiếu, kết, thương và tích Descartes."
+          "definitionJa": "関係から条件に合う行を取り出す選択、必要な列を取り出す射影、複数の関係を関連付ける結合のほか、商や直積などを含む演算の総称。",
+          "definitionVi": "Tên gọi chung cho các phép như chọn hàng thỏa điều kiện, chiếu các cột cần thiết, kết nối nhiều quan hệ, cùng với phép chia và tích Descartes."
         }
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "集合演算と関係演算の役割",
+          "vi": "Vai trò của phép toán tập hợp và phép toán quan hệ"
+        },
+        {
           "type": "paragraph",
-          "ja": "関係代数、集合演算、関係演算の基本を理解する。",
-          "vi": "Hiểu các khái niệm cơ bản về đại số quan hệ, phép toán tập hợp và phép toán quan hệ."
+          "ja": "和・差・積（共通）は、互換性のある関係を集合として組み合わせる。これに対し、選択は条件に合う行、射影は指定した列を取り出し、結合は共通する属性などを用いて複数の関係を関連付ける。直積は二つの関係の行の全組合せを作り、商は「別の関係に含まれる全ての値と対応する値」を求めるときに用いられる。演算結果も関係になるため、複数の演算を順に組み合わせられる。",
+          "vi": "Phép hợp, hiệu và giao kết hợp các quan hệ tương thích theo cách của tập hợp. Ngược lại, phép chọn lấy các hàng thỏa điều kiện, phép chiếu lấy các cột được chỉ định, còn phép kết nối liên hệ nhiều quan hệ thông qua thuộc tính chung. Tích Descartes tạo mọi tổ hợp hàng của hai quan hệ; phép chia tìm những giá trị liên hệ với toàn bộ giá trị trong quan hệ còn lại. Kết quả vẫn là một quan hệ nên có thể tiếp tục kết hợp nhiều phép toán."
+        },
+        {
+          "type": "point",
+          "ja": "FEでは「選択＝行」「射影＝列」「結合＝表同士」をまず対応付ける。SQLでは、おおむねWHERE句が選択、SELECT句の列指定が射影、JOINが結合に対応する。",
+          "vi": "Trong FE, trước hết hãy nhớ “chọn = hàng”, “chiếu = cột”, “kết nối = liên hệ giữa các bảng”. Trong SQL, chúng lần lượt gần tương ứng với WHERE, danh sách cột của SELECT và JOIN."
+        },
+        {
+          "type": "example",
+          "ja": "学生表（学生番号、学科）から情報学科の行だけを取り出すのは選択、学生番号だけを取り出すのは射影である。学生表と履修表（学生番号、科目）を学生番号で結ぶのは結合であり、必修科目表にある全科目を履修した学生を求める処理は商で表せる。",
+          "vi": "Với bảng SinhVien(mã_sinh_viên, khoa), lấy riêng các hàng thuộc khoa CNTT là phép chọn, còn chỉ lấy cột mã_sinh_viên là phép chiếu. Nối bảng SinhVien với bảng DangKy(mã_sinh_viên, môn_học) theo mã sinh viên là phép kết nối; tìm sinh viên đã đăng ký mọi môn trong bảng môn bắt buộc có thể biểu diễn bằng phép chia."
+        },
+        {
+          "type": "warning",
+          "ja": "関係代数の「選択」とSQLのSELECTという語を同一視しない。SQLのSELECT文で行を絞る役割はWHERE句である。また、関係代数は集合なので重複を含まないが、SQLの検索結果はDISTINCTを指定しない限り重複行を含み得る。",
+          "vi": "Không đồng nhất “phép chọn” trong đại số quan hệ với từ khóa SELECT của SQL: trong câu SELECT, WHERE mới đảm nhiệm việc lọc hàng. Ngoài ra, quan hệ trong đại số quan hệ là tập hợp không có phần tử trùng, trong khi kết quả SQL có thể chứa hàng trùng nếu không dùng DISTINCT."
         }
       ],
       "tags": ["database", "data-operations"]
@@ -54,71 +74,91 @@
       "titleJa": "SQLと言語方式",
       "titleVi": "SQL và các phương thức ngôn ngữ",
       "importance": "high",
-      "summaryJa": "DDL、DML、SQLと、会話型SQL・埋込みSQLなどの利用方式を理解する。",
-      "summaryVi": "Hiểu DDL, DML, SQL và các cách sử dụng như SQL hội thoại, SQL nhúng.",
+      "summaryJa": "SQLは、スキーマや表などを定義するDDLと、データを検索・追加・更新・削除するDMLを含む。単独で対話的に使う方式と、親言語のプログラムから使う方式の違いも理解する。",
+      "summaryVi": "SQL bao gồm DDL để định nghĩa schema, bảng và các đối tượng, cùng DML để truy vấn, thêm, cập nhật hoặc xóa dữ liệu. Cần phân biệt cách dùng SQL độc lập, tương tác với cách gọi SQL từ chương trình ngôn ngữ chủ.",
       "terms": [
         {
           "term": "DDL",
           "reading": "でぃーでぃーえる",
           "english": "Data Definition Language",
           "vi": "ngôn ngữ định nghĩa dữ liệu",
-          "definitionJa": "データベースの構造を定義、変更、削除するための言語。CREATE文やDROP文などが含まれる。",
-          "definitionVi": "Ngôn ngữ dùng để định nghĩa, thay đổi và xóa cấu trúc cơ sở dữ liệu; bao gồm các lệnh như CREATE và DROP."
+          "definitionJa": "スキーマ、表、ビュー、制約などのデータベース構造を定義・変更・削除する言語。代表的なSQL文はCREATE、ALTER、DROPである。",
+          "definitionVi": "Ngôn ngữ dùng để định nghĩa, thay đổi hoặc xóa cấu trúc cơ sở dữ liệu như schema, bảng, view và ràng buộc; các câu lệnh tiêu biểu là CREATE, ALTER và DROP."
         },
         {
           "term": "DML",
           "reading": "でぃーえむえる",
           "english": "Data Manipulation Language",
           "vi": "ngôn ngữ thao tác dữ liệu",
-          "definitionJa": "データベース内のデータを操作するための言語。データの挿入、更新、削除、検索などに用いられる。",
-          "definitionVi": "Ngôn ngữ dùng để thao tác dữ liệu trong cơ sở dữ liệu như thêm, cập nhật, xóa và tìm kiếm."
+          "definitionJa": "表に格納されたデータを検索・追加・更新・削除する言語。代表的なSQL文はSELECT、INSERT、UPDATE、DELETEである。",
+          "definitionVi": "Ngôn ngữ dùng để truy vấn, thêm, cập nhật và xóa dữ liệu lưu trong bảng; các câu lệnh tiêu biểu là SELECT, INSERT, UPDATE và DELETE."
         },
         {
           "term": "SQL",
           "reading": "えすきゅーえる",
           "english": "Structured Query Language",
           "vi": "ngôn ngữ truy vấn có cấu trúc",
-          "definitionJa": "リレーショナルデータベースのデータ取得、追加、更新、削除などに用いられる標準的な言語。",
-          "definitionVi": "Ngôn ngữ tiêu chuẩn dùng để truy xuất, thêm, cập nhật và xóa dữ liệu trong cơ sở dữ liệu quan hệ."
+          "definitionJa": "リレーショナルデータベースで、データ定義、問合せ、データ更新、アクセス権の設定などを記述する標準化されたデータベース言語。",
+          "definitionVi": "Ngôn ngữ cơ sở dữ liệu đã được tiêu chuẩn hóa, dùng để mô tả định nghĩa dữ liệu, truy vấn, cập nhật dữ liệu và thiết lập quyền truy cập trong cơ sở dữ liệu quan hệ."
         },
         {
           "term": "会話型SQL",
           "reading": "かいわがたえすきゅーえる",
           "english": "Conversational SQL",
           "vi": "SQL hội thoại",
-          "definitionJa": "ユーザーが対話的にデータベースへ問い合わせを行うためのSQLの利用形態。",
-          "definitionVi": "Hình thức sử dụng SQL cho phép người dùng tương tác và gửi truy vấn tới cơ sở dữ liệu theo kiểu đối thoại."
+          "definitionJa": "端末やSQLクライアントからSQL文を入力し、その実行結果を確認しながら対話的にデータベースを操作する利用形態。",
+          "definitionVi": "Hình thức người dùng nhập câu SQL từ terminal hoặc SQL client và thao tác cơ sở dữ liệu một cách tương tác trong khi xem kết quả thực thi."
         },
         {
           "term": "埋込みSQL",
           "reading": "うめこみえすきゅーえる",
           "english": "Embedded SQL",
           "vi": "SQL nhúng",
-          "definitionJa": "C言語やJavaなどの一般的なプログラムの中にSQL文を埋め込み、データベースとのやり取りを行う手法。",
-          "definitionVi": "Kỹ thuật nhúng câu lệnh SQL vào chương trình như C hoặc Java để chương trình trực tiếp làm việc với cơ sở dữ liệu."
+          "definitionJa": "C言語などの親言語のソースコードにSQL文を記述し、ホスト変数やカーソルを介してプログラムとデータベースの間でデータを受け渡す方式。",
+          "definitionVi": "Phương thức viết câu SQL trong mã nguồn của ngôn ngữ chủ như C, truyền dữ liệu giữa chương trình và cơ sở dữ liệu thông qua biến chủ hoặc cursor."
         },
         {
           "term": "モジュール言語",
           "reading": "もじゅーるげんご",
           "english": "Module Language",
           "vi": "ngôn ngữ mô-đun",
-          "definitionJa": "プログラムやデータベースを部品単位に分け、各部分を独立して開発、テスト、管理しやすくする考え方を持つ言語。",
-          "definitionVi": "Ngôn ngữ cho phép chia chương trình hoặc hệ thống thành các mô-đun để phát triển, kiểm thử và quản lý từng phần độc lập."
+          "definitionJa": "SQL文を手続としてモジュール内にまとめ、親言語のプログラムとは別に定義・コンパイルし、親言語側からその手続を呼び出す方式。",
+          "definitionVi": "Phương thức gom các câu SQL thành thủ tục trong một module, định nghĩa và biên dịch tách biệt với chương trình ngôn ngữ chủ, rồi gọi thủ tục đó từ chương trình."
         },
         {
           "term": "コマンド方式",
           "reading": "こまんどほうしき",
           "english": "Command Method",
           "vi": "phương thức lệnh",
-          "definitionJa": "ユーザーが具体的なコマンドを入力して処理を指示する操作方式。",
-          "definitionVi": "Phương thức thao tác trong đó người dùng nhập các lệnh cụ thể để yêu cầu hệ thống thực hiện xử lý."
+          "definitionJa": "SQLクライアントなどで、利用者がSQL文や専用コマンドを直接入力して処理を実行する操作方式。",
+          "definitionVi": "Phương thức người dùng trực tiếp nhập câu SQL hoặc lệnh chuyên dụng trong SQL client để yêu cầu thực hiện xử lý."
         }
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "SQLの目的による分類と利用方式",
+          "vi": "Phân loại SQL theo mục đích và cách sử dụng"
+        },
+        {
           "type": "paragraph",
-          "ja": "DDL、DML、SQLと、会話型SQL・埋込みSQLなどの利用方式を理解する。",
-          "vi": "Hiểu DDL, DML, SQL và các cách sử dụng như SQL hội thoại, SQL nhúng."
+          "ja": "DDLはCREATE、ALTER、DROPなどでスキーマや表の構造を定義し、DMLはSELECT、INSERT、UPDATE、DELETEなどで表のデータを操作する。一方、利用方式の分類では、SQLを単独で実行する独立言語方式と、他のプログラム言語から利用する親言語方式を区別する。会話型SQLはSQLクライアントから対話的に実行し、埋込みSQLは親言語のソース中にSQLを記述する。モジュール言語ではSQL手続を別のモジュールとして定義し、親言語から呼び出す。",
+          "vi": "DDL dùng CREATE, ALTER, DROP để định nghĩa cấu trúc như schema và bảng; DML dùng SELECT, INSERT, UPDATE, DELETE để thao tác dữ liệu trong bảng. Theo cách sử dụng, cần phân biệt SQL được chạy độc lập với SQL được dùng từ một ngôn ngữ chủ. SQL hội thoại chạy tương tác từ SQL client; SQL nhúng đặt câu SQL trong mã nguồn ngôn ngữ chủ; còn ngôn ngữ module định nghĩa thủ tục SQL thành module riêng để chương trình ngôn ngữ chủ gọi đến."
+        },
+        {
+          "type": "point",
+          "ja": "DDL/DMLはSQL文の目的による分類、会話型SQL/埋込みSQL/モジュール言語は利用方式による分類であり、分類軸が異なる。SELECTは検索を行うDMLで、表を作るCREATEはDDLである。",
+          "vi": "DDL/DML phân loại theo mục đích của câu SQL, còn SQL hội thoại/SQL nhúng/ngôn ngữ module phân loại theo cách sử dụng; đây là hai tiêu chí khác nhau. SELECT là DML dùng để truy vấn, còn CREATE tạo bảng là DDL."
+        },
+        {
+          "type": "example",
+          "ja": "`CREATE TABLE Product (product_id INTEGER, product_name VARCHAR(50))`は表を定義するDDLである。INSERTで商品を登録し、SELECTで検索する処理はDMLである。同じSELECT文でも、SQLクライアントで直接実行すれば会話型SQL、Cプログラム内に記述してホスト変数へ結果を渡せば埋込みSQLとなる。",
+          "vi": "`CREATE TABLE SanPham (ma INTEGER, ten VARCHAR(50))` là DDL vì định nghĩa bảng. Đăng ký sản phẩm bằng INSERT và truy vấn bằng SELECT là DML. Cùng một câu SELECT, nếu chạy trực tiếp trong SQL client thì là SQL hội thoại; nếu viết trong chương trình C và trả kết quả vào biến chủ thì là SQL nhúng."
+        },
+        {
+          "type": "warning",
+          "ja": "「埋込みSQL」は単にアプリケーションからSQLを送信すること全般を指す語ではなく、SQL文を親言語のソースに埋め込む方式を指す。また、モジュール言語を一般的なモジュール化プログラミングの意味と混同しない。",
+          "vi": "“SQL nhúng” không phải tên gọi chung cho mọi trường hợp ứng dụng gửi SQL; nó chỉ phương thức đặt câu SQL trong mã nguồn ngôn ngữ chủ. Cũng không được nhầm ngôn ngữ module trong ngữ cảnh SQL với kỹ thuật lập trình mô-đun nói chung."
         }
       ],
       "tags": ["database", "data-operations"]
@@ -129,63 +169,83 @@
       "titleJa": "データ操作インタフェースとデータ型",
       "titleVi": "Giao diện thao tác và kiểu dữ liệu",
       "importance": "medium",
-      "summaryJa": "フォーム、問合せ、実表と、文字型・数値型・日付型を理解する。",
-      "summaryVi": "Hiểu form, query, bảng thực và các kiểu dữ liệu ký tự, số, ngày.",
+      "summaryJa": "フォームと問合せは入力・検索のインタフェース、実表はデータを保持する表である。文字型・数値型・日付型は、値の性質と必要な演算に合わせて選択する。",
+      "summaryVi": "Form và truy vấn là giao diện để nhập hoặc tìm dữ liệu, còn bảng thực là bảng lưu giữ dữ liệu. Kiểu ký tự, kiểu số và kiểu ngày phải được chọn theo bản chất của giá trị và phép toán cần thực hiện.",
       "terms": [
         {
           "term": "フォーム",
-          "reading": "",
+          "reading": "ふぉーむ",
           "english": "Form",
           "vi": "biểu mẫu",
-          "definitionJa": "ユーザーがデータを入力するための構造を持つ画面や文書。入力データの整理やデータベースへの登録に利用される。",
-          "definitionVi": "Màn hình hoặc tài liệu có cấu trúc để người dùng nhập dữ liệu, thường dùng để tổ chức và lưu dữ liệu vào cơ sở dữ liệu."
+          "definitionJa": "利用者が項目ごとにデータを入力・表示するための画面形式。入力規則や選択肢を設け、データベースへの登録や更新を支援する。",
+          "definitionVi": "Dạng màn hình cho phép người dùng nhập hoặc xem dữ liệu theo từng trường; có thể đặt quy tắc nhập và lựa chọn để hỗ trợ đăng ký hoặc cập nhật cơ sở dữ liệu."
         },
         {
           "term": "問合せ",
-          "reading": "くえり",
+          "reading": "といあわせ",
           "english": "Query",
           "vi": "truy vấn",
-          "definitionJa": "データベースに対して情報を検索・抽出するための命令や質問。一般にSQLなどを使って記述する。",
-          "definitionVi": "Lệnh hoặc câu hỏi dùng để tìm kiếm và trích xuất thông tin từ cơ sở dữ liệu, thường được viết bằng SQL."
+          "definitionJa": "条件や取得する列を指定し、データベースから必要な情報を検索・抽出する要求。リレーショナルデータベースでは主にSQLで記述する。",
+          "definitionVi": "Yêu cầu chỉ định điều kiện và các cột cần lấy để tìm, trích xuất thông tin từ cơ sở dữ liệu; trong cơ sở dữ liệu quan hệ thường được viết bằng SQL."
         },
         {
           "term": "実表",
           "reading": "じつひょう",
-          "english": "Actual Table",
+          "english": "Base Table",
           "vi": "bảng thực",
-          "definitionJa": "データベースに実際に存在し、実データを格納する表。論理モデルを基に作成される。",
-          "definitionVi": "Bảng thực sự tồn tại trong cơ sở dữ liệu và lưu dữ liệu thực tế, được tạo dựa trên mô hình logic."
+          "definitionJa": "CREATE TABLEなどで定義され、データを保持する基礎となる表。問合せ結果から導かれるビュー（導出表）と区別される。",
+          "definitionVi": "Bảng cơ sở được định nghĩa bằng CREATE TABLE và lưu giữ dữ liệu; được phân biệt với view, tức bảng dẫn xuất từ kết quả truy vấn."
         },
         {
           "term": "文字型",
           "reading": "もじがた",
           "english": "Character Type",
           "vi": "kiểu ký tự",
-          "definitionJa": "文字列や文字の集合を格納するためのデータ型。固定長と可変長などの形式がある。",
-          "definitionVi": "Kiểu dữ liệu dùng để lưu chuỗi hoặc tập hợp ký tự; có dạng độ dài cố định và độ dài thay đổi."
+          "definitionJa": "文字列を格納するデータ型。代表例として固定長のCHARと可変長のVARCHARがあり、コードや名称などに用いる。",
+          "definitionVi": "Kiểu dữ liệu lưu chuỗi ký tự. Các dạng tiêu biểu là CHAR có độ dài cố định và VARCHAR có độ dài thay đổi, thường dùng cho mã và tên."
         },
         {
           "term": "数値型",
           "reading": "すうちがた",
           "english": "Numeric Type",
           "vi": "kiểu số",
-          "definitionJa": "整数や浮動小数点数などの数値を表現するためのデータ型。計算や比較に使用される。",
-          "definitionVi": "Kiểu dữ liệu dùng để biểu diễn số như số nguyên và số thực dấu phẩy động, phục vụ tính toán và so sánh."
+          "definitionJa": "整数、小数、浮動小数点数など、算術演算や大小比較の対象となる数値を格納するデータ型。必要な範囲や精度に合わせて選ぶ。",
+          "definitionVi": "Kiểu dữ liệu lưu số nguyên, số thập phân hoặc số dấu phẩy động để tính toán và so sánh; cần chọn theo phạm vi và độ chính xác yêu cầu."
         },
         {
           "term": "日付型",
           "reading": "ひづけがた",
           "english": "Date Type",
           "vi": "kiểu ngày",
-          "definitionJa": "年、月、日などを組み合わせた日付を表現・保存するためのデータ型。日付計算や比較にも利用される。",
-          "definitionVi": "Kiểu dữ liệu dùng để biểu diễn và lưu ngày tháng, đồng thời hỗ trợ tính toán và so sánh ngày."
+          "definitionJa": "年・月・日からなる暦日を格納するデータ型。日付として妥当な値を扱い、日付の比較や期間計算に利用できる。",
+          "definitionVi": "Kiểu dữ liệu lưu ngày lịch gồm năm, tháng và ngày; cho phép xử lý giá trị ngày hợp lệ, so sánh ngày và tính khoảng thời gian."
         }
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "入力・検索のインタフェースとデータ型",
+          "vi": "Giao diện nhập, tìm kiếm và kiểu dữ liệu"
+        },
+        {
           "type": "paragraph",
-          "ja": "フォーム、問合せ、実表と、文字型・数値型・日付型を理解する。",
-          "vi": "Hiểu form, query, bảng thực và các kiểu dữ liệu ký tự, số, ngày."
+          "ja": "フォームは利用者に入力欄や選択肢を示し、データの登録・更新を支援する。問合せは条件や取得項目を指定して必要なデータを取り出す要求である。実表はデータを保持する基礎表であり、実表などへの問合せから得るビューとは役割が異なる。列のデータ型は、保持する値だけでなく、比較・計算・日付処理など許可する操作も決める。文字型には固定長と可変長、数値型には整数・正確な小数・近似数、日付型には暦日を扱う型がある。",
+          "vi": "Form hiển thị ô nhập và lựa chọn để hỗ trợ người dùng đăng ký hoặc cập nhật dữ liệu. Truy vấn là yêu cầu chỉ định điều kiện và trường cần lấy để thu được dữ liệu cần thiết. Bảng thực là bảng cơ sở giữ dữ liệu, có vai trò khác với view được dẫn xuất từ truy vấn trên bảng thực hoặc nguồn khác. Kiểu dữ liệu của cột không chỉ quy định giá trị được lưu mà còn quyết định các thao tác như so sánh, tính toán và xử lý ngày. Kiểu ký tự có dạng cố định hoặc biến đổi; kiểu số có số nguyên, số thập phân chính xác và số gần đúng; kiểu ngày biểu diễn ngày lịch."
+        },
+        {
+          "type": "point",
+          "ja": "計算する量は数値型、暦日として比較・計算する値は日付型を使う。一方、郵便番号や社員コードのように数字だけで構成されても計算せず、先頭の0を保持する値は文字型が適切である。",
+          "vi": "Dùng kiểu số cho đại lượng cần tính toán và kiểu ngày cho giá trị cần so sánh hoặc tính theo lịch. Ngược lại, mã bưu chính hay mã nhân viên dù chỉ gồm chữ số vẫn nên dùng kiểu ký tự nếu không tính toán và cần giữ số 0 ở đầu."
+        },
+        {
+          "type": "example",
+          "ja": "社員登録フォームで、社員コードをVARCHAR、氏名をVARCHAR、入社日をDATE、月給をDECIMALとして実表「社員」に登録する。『2026年4月以降に入社した社員』という問合せでは、DATE型の入社日を日付として比較できる。",
+          "vi": "Trong form đăng ký nhân viên, có thể lưu mã nhân viên bằng VARCHAR, họ tên bằng VARCHAR, ngày vào công ty bằng DATE và lương tháng bằng DECIMAL vào bảng thực NhanVien. Truy vấn “nhân viên vào công ty từ tháng 4/2026” có thể so sánh trực tiếp cột ngày vào công ty dưới dạng DATE."
+        },
+        {
+          "type": "warning",
+          "ja": "フォームは入力用の画面であり、データを保持する実表そのものではない。また、日付を単なる文字列で保存すると、存在しない日付の混入や並べ替え・期間計算の誤りにつながる。値の見た目だけで型を決めない。",
+          "vi": "Form là màn hình nhập liệu, không phải bản thân bảng thực lưu dữ liệu. Nếu lưu ngày như chuỗi thông thường, dữ liệu có thể chứa ngày không tồn tại hoặc gây sai khi sắp xếp và tính khoảng thời gian. Không chọn kiểu chỉ dựa vào hình thức bên ngoài của giá trị."
         }
       ],
       "tags": ["database", "data-operations"]
@@ -196,79 +256,99 @@
       "titleJa": "制約と検索",
       "titleVi": "Ràng buộc và truy vấn",
       "importance": "high",
-      "summaryJa": "各種制約、アクセス権、SELECT文、集約関数、パターン文字列を理解する。",
-      "summaryVi": "Hiểu các ràng buộc, quyền truy cập, SELECT, hàm tổng hợp và chuỗi mẫu.",
+      "summaryJa": "一意性・参照・検査・非NULL制約はデータの整合性を守り、アクセス権は利用可能な操作を制限する。SELECT文では行・列の選択、結合、グループ化、集約、パターン検索などを組み合わせる。",
+      "summaryVi": "Các ràng buộc duy nhất, tham chiếu, kiểm tra và NOT NULL bảo vệ tính toàn vẹn dữ liệu; quyền truy cập giới hạn thao tác được phép. SELECT kết hợp chọn hàng/cột, kết nối, nhóm, tổng hợp và tìm kiếm theo mẫu.",
       "terms": [
         {
           "term": "一意性制約",
           "reading": "いちいせいせいやく",
           "english": "Unique Constraint",
           "vi": "ràng buộc duy nhất",
-          "definitionJa": "特定の列の値がテーブル内で重複しないことを保証する制約。",
-          "definitionVi": "Ràng buộc bảo đảm giá trị của một cột không bị trùng lặp trong bảng."
+          "definitionJa": "指定した一つの列、又は列の組合せについて、同じ値の組合せが表内で重複しないことを保証する制約。",
+          "definitionVi": "Ràng buộc bảo đảm giá trị của một cột hoặc tổ hợp nhiều cột không bị trùng lặp trong bảng."
         },
         {
           "term": "参照制約",
           "reading": "さんしょうせいやく",
           "english": "Referential Constraint",
           "vi": "ràng buộc tham chiếu",
-          "definitionJa": "関連するテーブル間でデータの整合性を保ち、子テーブルのデータが親テーブルに存在するデータを正しく参照するようにする制約。",
-          "definitionVi": "Ràng buộc duy trì tính nhất quán giữa các bảng liên quan, bảo đảm dữ liệu bảng con tham chiếu đúng dữ liệu tồn tại ở bảng cha."
+          "definitionJa": "外部キーの値が、参照先の表に存在するキー値と対応することなどを保証し、表間の参照整合性を維持する制約。",
+          "definitionVi": "Ràng buộc duy trì tính toàn vẹn tham chiếu giữa các bảng, chẳng hạn bảo đảm giá trị khóa ngoại tương ứng với một giá trị khóa tồn tại ở bảng được tham chiếu."
         },
         {
           "term": "検査制約",
           "reading": "けんさせいやく",
-          "english": "Constraint",
+          "english": "Check Constraint",
           "vi": "ràng buộc kiểm tra",
-          "definitionJa": "格納するデータが特定の条件を満たすことを要求し、不正な値の入力を防ぐための制約。",
-          "definitionVi": "Ràng buộc yêu cầu dữ liệu lưu vào phải thỏa điều kiện xác định, nhằm ngăn nhập giá trị không hợp lệ."
+          "definitionJa": "列の値や行内の値の関係が、指定した論理条件を満たすことを要求する制約。値の範囲などの業務規則を表現できる。",
+          "definitionVi": "Ràng buộc yêu cầu giá trị cột hoặc quan hệ giữa các giá trị trong một hàng thỏa điều kiện logic đã chỉ định, qua đó biểu diễn quy tắc như phạm vi giá trị hợp lệ."
         },
         {
           "term": "非NULL制約",
           "reading": "ひぬるせいやく",
           "english": "NOT NULL Constraint",
           "vi": "ràng buộc NOT NULL",
-          "definitionJa": "特定のフィールドに必ず値が存在することを保証し、NULLを許可しない制約。",
-          "definitionVi": "Ràng buộc bảo đảm một field bắt buộc phải có giá trị và không cho phép NULL."
+          "definitionJa": "指定した列にNULLを格納することを禁止し、その列に値が存在することを要求する制約。",
+          "definitionVi": "Ràng buộc cấm lưu NULL trong cột được chỉ định và yêu cầu cột đó phải có giá trị."
         },
         {
           "term": "アクセス権",
           "reading": "あくせすけん",
           "english": "Access Rights",
           "vi": "quyền truy cập",
-          "definitionJa": "情報システムやデータに対して、ユーザーやグループが読み取り、書き込み、削除などを行える範囲を定める権利。",
-          "definitionVi": "Quyền xác định người dùng hoặc nhóm được phép đọc, ghi, xóa hay thực hiện các thao tác nào đối với hệ thống và dữ liệu."
+          "definitionJa": "利用者やロールごとに、表などのデータベースオブジェクトに対してSELECT、INSERT、UPDATE、DELETEなどのどの操作を実行できるかを定める権限。",
+          "definitionVi": "Quyền xác định theo người dùng hoặc role những thao tác như SELECT, INSERT, UPDATE và DELETE được phép thực hiện trên bảng hay đối tượng cơ sở dữ liệu."
         },
         {
           "term": "SELECT文",
           "reading": "せれくとぶん",
           "english": "SELECT Statement",
           "vi": "câu lệnh SELECT",
-          "definitionJa": "データベースから必要な情報を取得するためのSQL文。列や条件を指定してデータを選択できる。",
-          "definitionVi": "Câu lệnh SQL dùng để lấy thông tin cần thiết từ cơ sở dữ liệu bằng cách chỉ định cột và điều kiện."
+          "definitionJa": "データベースから必要な行・列を取得するSQL文。FROM、WHERE、GROUP BY、HAVING、ORDER BYなどの句を組み合わせて問合せを記述する。",
+          "definitionVi": "Câu lệnh SQL lấy các hàng và cột cần thiết từ cơ sở dữ liệu, kết hợp các mệnh đề như FROM, WHERE, GROUP BY, HAVING và ORDER BY để mô tả truy vấn."
         },
         {
           "term": "集約関数",
           "reading": "しゅうやくかんすう",
           "english": "Aggregate Function",
           "vi": "hàm tổng hợp",
-          "definitionJa": "複数行のデータをまとめて一つの値に変換する関数。SUM、AVG、MAX、MINなどがある。",
-          "definitionVi": "Hàm tổng hợp dữ liệu từ nhiều hàng thành một giá trị, ví dụ SUM, AVG, MAX và MIN."
+          "definitionJa": "複数行の値を集計して一つの結果を返す関数。COUNT、SUM、AVG、MAX、MINなどがあり、GROUP BYで分けたグループごとにも計算できる。",
+          "definitionVi": "Hàm tổng hợp giá trị từ nhiều hàng và trả về một kết quả, như COUNT, SUM, AVG, MAX và MIN; cũng có thể tính riêng cho từng nhóm tạo bởi GROUP BY."
         },
         {
           "term": "パターン文字列",
           "reading": "ぱたーんもじれつ",
           "english": "Pattern String",
           "vi": "chuỗi mẫu",
-          "definitionJa": "一定の形式や規則に基づいて文字列を検索・識別するための表現。SQLではLIKE演算子と「%」「_」などを組み合わせて使用する。",
-          "definitionVi": "Biểu thức dùng để tìm kiếm hoặc nhận dạng chuỗi theo mẫu; trong SQL thường dùng với LIKE cùng ký tự đại diện % và _."
+          "definitionJa": "文字列の一部をワイルドカードで表して検索するための文字列。SQLのLIKEでは、一般に「%」が0文字以上、「_」が任意の1文字を表す。",
+          "definitionVi": "Chuỗi dùng ký tự đại diện để tìm kiếm một phần văn bản. Với LIKE trong SQL, `%` thường đại diện cho từ 0 ký tự trở lên và `_` đại diện cho đúng một ký tự bất kỳ."
         }
       ],
       "content": [
         {
+          "type": "heading",
+          "ja": "整合性を守る制約とSELECT文による検索",
+          "vi": "Ràng buộc bảo vệ tính toàn vẹn và truy vấn bằng SELECT"
+        },
+        {
           "type": "paragraph",
-          "ja": "各種制約、アクセス権、SELECT文、集約関数、パターン文字列を理解する。",
-          "vi": "Hiểu các ràng buộc, quyền truy cập, SELECT, hàm tổng hợp và chuỗi mẫu."
+          "ja": "制約は不正なデータの格納をDBMS側で防ぐ仕組みである。一意性制約は値の重複、参照制約は存在しないキーへの参照、検査制約は条件外の値、非NULL制約はNULLの格納を防ぐ。アクセス権は利用者ごとに実行可能な操作を限定する。SELECT文では、FROMで対象を定め、WHEREで集約前の行を絞り、GROUP BYで行をグループ化し、集約関数でグループごとの値を求める。HAVINGは集約後のグループを絞り、ORDER BYは結果を並べ替える。",
+          "vi": "Ràng buộc là cơ chế để DBMS ngăn dữ liệu không hợp lệ: UNIQUE ngăn giá trị trùng, ràng buộc tham chiếu ngăn tham chiếu tới khóa không tồn tại, CHECK ngăn giá trị ngoài điều kiện và NOT NULL ngăn lưu NULL. Quyền truy cập giới hạn thao tác theo từng người dùng. Trong SELECT, FROM xác định nguồn, WHERE lọc hàng trước khi tổng hợp, GROUP BY gom các hàng thành nhóm và hàm tổng hợp tính giá trị cho từng nhóm. HAVING lọc nhóm sau tổng hợp, còn ORDER BY sắp xếp kết quả."
+        },
+        {
+          "type": "point",
+          "ja": "個々の行に対する条件はWHERE、COUNTやAVGなどで集約したグループに対する条件はHAVINGに記述する。アクセス権と整合性制約も区別し、権限があっても制約に違反するデータは登録できない。",
+          "vi": "Điều kiện áp dụng cho từng hàng được viết trong WHERE; điều kiện áp dụng cho nhóm sau khi dùng COUNT, AVG… được viết trong HAVING. Cũng cần phân biệt quyền truy cập với ràng buộc toàn vẹn: có quyền thao tác không có nghĩa là được lưu dữ liệu vi phạm ràng buộc."
+        },
+        {
+          "type": "example",
+          "ja": "社員表で社員番号をUNIQUEかつNOT NULL、部門番号を部門表への外部キー、給与をCHECK制約で0以上とする。部門別の在籍社員の平均給与を求め、社員が5人以上の部門だけを表示する問合せは、`SELECT department_id, AVG(salary) FROM Employee WHERE active = TRUE GROUP BY department_id HAVING COUNT(*) >= 5`と表せる。",
+          "vi": "Trong bảng NhanVien, đặt mã nhân viên là UNIQUE và NOT NULL, mã phòng ban là khóa ngoại tới bảng PhongBan, lương có CHECK(lương >= 0). Truy vấn tính lương trung bình theo phòng ban và chỉ hiển thị phòng có ít nhất 5 nhân viên có thể viết: `SELECT ma_phong, AVG(luong) FROM NhanVien WHERE dang_lam = TRUE GROUP BY ma_phong HAVING COUNT(*) >= 5`."
+        },
+        {
+          "type": "warning",
+          "ja": "NULLは通常の値ではないので「列 = NULL」ではなくIS NULLを用いる。COUNT(*)は行数を数えるが、COUNT(列名)はその列がNULLの行を数えない。また、LIKEの「%」は0文字以上、「_」は1文字だけに一致する。",
+          "vi": "NULL không phải giá trị thông thường nên phải dùng IS NULL thay vì `cột = NULL`. COUNT(*) đếm số hàng, còn COUNT(tên_cột) không đếm hàng mà cột đó là NULL. Với LIKE, `%` khớp từ 0 ký tự trở lên, còn `_` chỉ khớp đúng một ký tự."
         }
       ],
       "tags": ["database", "data-operations"]

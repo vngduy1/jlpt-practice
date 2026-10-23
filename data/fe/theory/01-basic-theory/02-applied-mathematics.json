@@ -112,6 +112,11 @@
       "summaryVi": "Hiểu đặc điểm của các phân phối xác suất tiêu biểu và loại hiện tượng mà mỗi phân phối dùng để mô hình hóa.",
       "content": [
         {
+          "type": "heading",
+          "ja": "代表的な確率分布と適用場面",
+          "vi": "Các phân phối xác suất tiêu biểu và tình huống áp dụng"
+        },
+        {
           "type": "paragraph",
           "ja": "確率分布は、確率変数がどの値をどの程度の確率で取るかを表す。FEでは、分布名と典型的な利用場面を対応付けて覚えることが重要である。",
           "vi": "Phân phối xác suất biểu diễn một biến ngẫu nhiên nhận các giá trị với xác suất như thế nào. Trong FE, cần liên kết tên phân phối với tình huống điển hình mà nó mô hình hóa."
@@ -645,6 +650,16 @@
       "summaryVi": "Hiểu quy luật của cấp số cộng, cấp số nhân và dãy Fibonacci, đồng thời nắm cách tìm số hạng tiếp theo hoặc số hạng tổng quát.",
       "content": [
         {
+          "type": "heading",
+          "ja": "規則から数列の項を求める",
+          "vi": "Tìm số hạng của dãy từ quy luật"
+        },
+        {
+          "type": "paragraph",
+          "ja": "数列は、一定の順序で並ぶ数の列であり、添字nによって第n項a_nを表す。等差数列は前の項に公差dを加え、等比数列は前の項に公比rを掛けて次項を得るため、初項と公差又は公比から一般項を直接求められる。フィボナッチ数列のように前の項との関係で定める式は漸化式と呼ばれ、値を求めるには初期値も必要である。",
+          "vi": "Dãy số là một chuỗi số có thứ tự, trong đó số hạng thứ n được ký hiệu a_n. Cấp số cộng tạo số hạng tiếp theo bằng cách cộng công sai d, còn cấp số nhân nhân với công bội r; vì vậy có thể tìm trực tiếp số hạng tổng quát từ số hạng đầu và công sai hoặc công bội. Công thức xác định số hạng qua các số hạng trước, như dãy Fibonacci, được gọi là hệ thức truy hồi và phải đi kèm giá trị khởi đầu."
+        },
+        {
           "type": "point",
           "ja": "等差数列は差が一定。一般項は a_n=a_1+(n-1)d。",
           "vi": "Cấp số cộng có công sai không đổi. Số hạng tổng quát: a_n=a_1+(n-1)d."
@@ -663,6 +678,11 @@
           "type": "point",
           "ja": "フィボナッチ数列は F_n=F_(n-1)+F_(n-2) のように直前2項の和で次項を定義する。",
           "vi": "Dãy Fibonacci định nghĩa số hạng tiếp theo bằng tổng hai số hạng ngay trước: F_n=F_(n-1)+F_(n-2)."
+        },
+        {
+          "type": "warning",
+          "ja": "一般項の(n-1)は第1項をa_1とするために現れる。添字を0から始める定義では式が変わる。また、フィボナッチ数列は0,1から始める場合と1,1から始める場合があるので、問題で与えられた初期値を確認する。",
+          "vi": "Thừa số (n-1) trong số hạng tổng quát xuất hiện vì số hạng đầu được ký hiệu a_1; nếu đánh chỉ số từ 0 thì công thức sẽ khác. Dãy Fibonacci có thể bắt đầu bằng 0,1 hoặc 1,1, nên phải kiểm tra các giá trị khởi đầu mà đề bài cho."
         }
       ],
       "terms": [
@@ -703,6 +723,16 @@
       "summaryVi": "Hiểu ý nghĩa và cách tính cơ bản của hàm lượng giác, phân tích nhân tử, đạo hàm và tích phân.",
       "content": [
         {
+          "type": "heading",
+          "ja": "式の変形と変化・累積の捉え方",
+          "vi": "Biến đổi biểu thức và cách nhìn về biến thiên, tích lũy"
+        },
+        {
+          "type": "paragraph",
+          "ja": "関数は入力に対して出力を対応付ける規則であり、三角関数は角度と辺の比などを表す。因数分解は式を積の形に直し、方程式の解や式の性質を調べやすくする。微分は関数の局所的な変化率、積分は変化量の累積を扱い、両者は基本的に逆向きの操作として関係する。コンピュータによる数式処理では、これらを数値の近似ではなく記号のまま変形する場合がある。",
+          "vi": "Hàm số là quy tắc ánh xạ đầu vào thành đầu ra; hàm lượng giác biểu diễn các quan hệ như giữa góc và tỷ lệ cạnh. Phân tích nhân tử đưa biểu thức về dạng tích để dễ tìm nghiệm hoặc khảo sát tính chất. Đạo hàm xử lý tốc độ biến thiên cục bộ, còn tích phân xử lý lượng tích lũy; về cơ bản chúng liên hệ như hai phép toán ngược chiều. Trong xử lý biểu thức bằng máy tính, các phép này có thể được thực hiện trên ký hiệu thay vì chỉ tính gần đúng bằng số."
+        },
+        {
           "type": "point",
           "ja": "三角関数の基本は sin、cos、tan。直角三角形では角度と辺の比を結び付ける。",
           "vi": "Ba hàm lượng giác cơ bản là sin, cos và tan; trong tam giác vuông chúng liên hệ góc với tỷ lệ các cạnh."
@@ -721,6 +751,11 @@
           "type": "example",
           "ja": "f(x)=x^2 なら f'(x)=2x。x=3での接線の傾きは6。",
           "vi": "Nếu f(x)=x^2 thì f'(x)=2x. Tại x=3, độ dốc tiếp tuyến bằng 6."
+        },
+        {
+          "type": "warning",
+          "ja": "微分値はある点での変化率であり、関数値そのものではない。不定積分では同じ導関数をもつ関数が複数あるため積分定数Cが必要である。また、定積分は符号付きの累積量なので、常に図形の面積と同じ正の値になるとは限らない。",
+          "vi": "Giá trị đạo hàm là tốc độ biến thiên tại một điểm, không phải chính giá trị của hàm. Tích phân bất định cần hằng số tích phân C vì nhiều hàm có cùng đạo hàm. Tích phân xác định là lượng tích lũy có dấu nên không phải lúc nào cũng bằng một diện tích hình học dương."
         }
       ],
       "terms": [
@@ -769,6 +804,11 @@
       "summaryVi": "Hiểu cách Newton tìm nghiệm gần đúng và phân biệt sai số tuyệt đối, tương đối, làm tròn và cắt cụt.",
       "content": [
         {
+          "type": "heading",
+          "ja": "近似解法と誤差の原因",
+          "vi": "Phương pháp nghiệm gần đúng và nguyên nhân sai số"
+        },
+        {
           "type": "paragraph",
           "ja": "コンピュータの数値計算では、真の値を厳密に扱えず近似を使う場合がある。そのため、誤差の種類と原因を区別することが重要である。",
           "vi": "Trong tính toán số trên máy tính, nhiều trường hợp không thể giữ giá trị chính xác và phải dùng xấp xỉ. Vì vậy cần phân biệt các loại sai số và nguyên nhân của chúng."
@@ -790,8 +830,8 @@
         },
         {
           "type": "warning",
-          "ja": "丸め誤差は有限桁へ丸めることで生じる。打切り誤差は、本来無限に続く計算過程や級数などを有限の段階で打ち切ることで生じる。",
-          "vi": "Sai số làm tròn sinh ra khi làm tròn về số chữ số hữu hạn. Sai số cắt cụt sinh ra khi dừng một quá trình vốn cần vô hạn bước hoặc chuỗi vô hạn ở một số bước hữu hạn."
+          "ja": "丸め誤差は有限桁へ丸めることで生じる。打切り誤差は、本来無限に続く計算過程や級数などを有限の段階で打ち切ることで生じる。また、ニュートン法は初期値によって収束しない場合があり、反復点でf'(x_n)=0なら更新式を適用できない。",
+          "vi": "Sai số làm tròn sinh ra khi làm tròn về số chữ số hữu hạn. Sai số cắt cụt sinh ra khi dừng một quá trình vốn cần vô hạn bước hoặc chuỗi vô hạn ở một số bước hữu hạn. Ngoài ra, phương pháp Newton có thể không hội tụ tùy giá trị khởi đầu và không áp dụng được công thức cập nhật nếu f'(x_n)=0 tại bước lặp."
         }
       ],
       "terms": [
@@ -901,9 +941,14 @@
       "summaryVi": "Hiểu các khái niệm cơ bản dùng quan hệ giữa lượt đến và phục vụ để phân tích mức tải và thời gian chờ của hệ thống.",
       "content": [
         {
+          "type": "heading",
+          "ja": "到着率・サービス率とM/M/1モデル",
+          "vi": "Tốc độ đến, tốc độ phục vụ và mô hình M/M/1"
+        },
+        {
           "type": "paragraph",
-          "ja": "待ち行列モデルは、要求が到着し、サービス設備で処理され、必要なら待つという流れを数理的に表す。サーバや窓口の性能評価に使われる。",
-          "vi": "Mô hình hàng đợi biểu diễn bằng toán học quá trình yêu cầu đến, được phục vụ và phải chờ nếu cần. Nó được dùng để đánh giá hiệu năng server hoặc quầy phục vụ."
+          "ja": "待ち行列モデルは、要求が到着し、サービス設備で処理され、必要なら待つという流れを数理的に表す。サーバや窓口の性能評価に使われる。代表的なM/M/1モデルは、到着間隔とサービス時間が指数分布に従い、サービス設備が1台であるモデルを表す。",
+          "vi": "Mô hình hàng đợi biểu diễn bằng toán học quá trình yêu cầu đến, được phục vụ và phải chờ nếu cần. Nó được dùng để đánh giá hiệu năng server hoặc quầy phục vụ. Mô hình M/M/1 tiêu biểu giả định khoảng thời gian giữa các lượt đến và thời gian phục vụ tuân theo phân phối mũ, với một bộ phục vụ."
         },
         {
           "type": "point",
@@ -917,8 +962,8 @@
         },
         {
           "type": "warning",
-          "ja": "待ち時間はサービス開始までの時間、サービス時間は実際の処理に要する時間であり、同じではない。",
-          "vi": "Thời gian chờ là thời gian đến khi bắt đầu được phục vụ; thời gian phục vụ là thời gian thực tế cần để xử lý. Hai khái niệm này khác nhau."
+          "ja": "待ち時間はサービス開始までの時間、サービス時間は実際の処理に要する時間であり、同じではない。M/M/1モデルが定常状態になるにはλ<μ、すなわちρ<1が必要であり、ρが1に近づくほど待ち時間は急増する。",
+          "vi": "Thời gian chờ là thời gian đến khi bắt đầu được phục vụ; thời gian phục vụ là thời gian thực tế cần để xử lý. Hai khái niệm này khác nhau. Để mô hình M/M/1 có trạng thái ổn định, cần λ<μ, tức ρ<1; khi ρ tiến gần 1, thời gian chờ tăng rất nhanh."
         }
       ],
       "terms": [
