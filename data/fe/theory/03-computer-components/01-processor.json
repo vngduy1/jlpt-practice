@@ -67,8 +67,8 @@
       "titleJa": "ワークステーション",
       "titleVi": "Máy trạm",
       "importance": "high",
-      "summaryJa": "科学技術計算や設計、画像処理などの専門的な作業向けに高い処理性能を備えたワークステーションについて理解する。",
-      "summaryVi": "Tìm hiểu workstation, loại máy tính có hiệu năng cao dành cho các công việc chuyên môn như tính toán kỹ thuật, thiết kế và xử lý đồ họa.",
+      "summaryJa": "ワークステーションは、CADや科学技術計算など、対話性と高い処理性能の両方を求める専門業務向けのコンピュータである。用途に適したCPU、GPU、メモリ、信頼性を一体で捉える。",
+      "summaryVi": "Workstation là máy tính dành cho công việc chuyên môn như CAD và tính toán khoa học, nơi cần cả khả năng tương tác và hiệu năng cao. Cần xem xét tổng thể CPU, GPU, bộ nhớ và độ tin cậy theo đúng tải công việc.",
       "content": [
         {
           "type": "heading",
@@ -87,8 +87,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "大容量のメモリ、高性能なプロセッサやグラフィックス機能などを備えることが多く、高負荷な処理を効率的に実行できる。",
-          "vi": "Workstation thường được trang bị bộ nhớ lớn, bộ xử lý hiệu năng cao và khả năng xử lý đồ họa mạnh, giúp thực hiện hiệu quả các tác vụ nặng."
+          "ja": "大容量メモリ、高性能なCPUやGPUに加え、ECCメモリ、拡張性、長時間運用を考慮した構成を採る場合がある。ただし、必要な性能はCAD、解析、映像制作などのワークロードによって異なる。",
+          "vi": "Ngoài bộ nhớ lớn, CPU và GPU hiệu năng cao, workstation có thể dùng bộ nhớ ECC, khả năng mở rộng và cấu hình phù hợp vận hành lâu dài. Tuy nhiên, hiệu năng cần thiết phụ thuộc vào tải như CAD, mô phỏng hay sản xuất video."
         },
         {
           "type": "heading",
@@ -102,8 +102,18 @@
         },
         {
           "type": "point",
-          "ja": "ワークステーションは、一般的なPCより高性能で、専門的な処理に適したコンピュータである。",
-          "vi": "Workstation có hiệu năng cao hơn PC thông thường và phù hợp với các công việc chuyên môn."
+          "ja": "FEでは、個人が対話的に使う専門業務向けコンピュータという位置付けを、複数利用者へサービスを提供するサーバと区別する。",
+          "vi": "Trong FE, cần phân biệt workstation — máy chuyên dụng cho một người dùng tương tác — với server cung cấp dịch vụ cho nhiều client."
+        },
+        {
+          "type": "example",
+          "ja": "例：設計者が3次元CADモデルを編集し、GPUで表示しながらCPUで構造解析を行う端末は、ワークステーションの典型的な利用例である。",
+          "vi": "Ví dụ: một kỹ sư chỉnh sửa mô hình CAD 3D, dùng GPU để hiển thị và CPU để phân tích kết cấu trên cùng máy; đây là cách dùng workstation điển hình."
+        },
+        {
+          "type": "warning",
+          "ja": "「ワークステーション」という名称だけで常に一般PCより高速とは限らない。試験では製品名ではなく、専門用途、単一利用者、構成の特徴から判断する。",
+          "vi": "Không phải thiết bị mang tên “workstation” lúc nào cũng nhanh hơn mọi PC phổ thông. Khi làm bài, hãy nhận diện bằng mục đích chuyên môn, người dùng đơn lẻ và đặc điểm cấu hình, không dựa vào tên sản phẩm."
         }
       ],
       "terms": [
@@ -124,8 +134,8 @@
       "titleJa": "スーパーコンピュータ",
       "titleVi": "Siêu máy tính",
       "importance": "high",
-      "summaryJa": "多数のプロセッサを利用して非常に大規模な計算を高速に処理するスーパーコンピュータについて理解する。",
-      "summaryVi": "Tìm hiểu siêu máy tính, hệ thống sử dụng số lượng lớn bộ xử lý để thực hiện các phép tính quy mô rất lớn với tốc độ cao.",
+      "summaryJa": "スーパーコンピュータは、多数の演算ノードを高速なネットワークで連携させ、分割可能な大規模計算を並列実行する高性能計算システムである。",
+      "summaryVi": "Siêu máy tính là hệ thống tính toán hiệu năng cao liên kết nhiều nút tính toán bằng mạng tốc độ cao để xử lý song song những bài toán quy mô lớn có thể phân chia.",
       "content": [
         {
           "type": "heading",
@@ -159,8 +169,18 @@
         },
         {
           "type": "point",
-          "ja": "スーパーコンピュータは、多数のプロセッサによる並列処理で大規模計算を高速化する。",
-          "vi": "Siêu máy tính tăng tốc các phép tính quy mô lớn bằng xử lý song song với nhiều bộ xử lý."
+          "ja": "FEでは、多数のプロセッサによる並列処理と、気象予測やシミュレーションなどの大規模計算への適用を結び付けて理解する。",
+          "vi": "Trong FE, cần liên hệ xử lý song song bằng nhiều bộ xử lý với các bài toán quy mô lớn như dự báo thời tiết và mô phỏng."
+        },
+        {
+          "type": "example",
+          "ja": "例：気象領域を多数の小領域に分割し、各ノードが担当領域の計算を行い、境界データを交換しながら次時刻の状態を求める。",
+          "vi": "Ví dụ: chia khu vực khí tượng thành nhiều ô nhỏ; mỗi nút tính phần của mình rồi trao đổi dữ liệu biên để tính trạng thái ở thời điểm tiếp theo."
+        },
+        {
+          "type": "warning",
+          "ja": "プロセッサ数を増やしても、逐次部分やノード間通信があるため性能が台数に比例して向上するとは限らない。並列化できる割合が重要である。",
+          "vi": "Tăng số bộ xử lý không bảo đảm hiệu năng tăng tỷ lệ thuận vì vẫn có phần tuần tự và chi phí truyền thông giữa các nút. Tỷ lệ có thể song song hóa mới là yếu tố quan trọng."
         }
       ],
       "terms": [
@@ -248,8 +268,8 @@
       "titleJa": "ノートPC",
       "titleVi": "Máy tính xách tay",
       "importance": "high",
-      "summaryJa": "持ち運びが容易で、ディスプレイやキーボードなどが一体化されたノートPCについて理解する。",
-      "summaryVi": "Tìm hiểu notebook PC, loại máy tính có tính di động cao với màn hình, bàn phím và các thành phần chính được tích hợp trong một thiết bị.",
+      "summaryJa": "ノートPCは、表示装置、入力装置、バッテリなどを一体化し、移動先でも利用できるようにしたパーソナルコンピュータである。携帯性と性能・拡張性のトレードオフを理解する。",
+      "summaryVi": "Notebook PC là máy tính cá nhân tích hợp màn hình, thiết bị nhập và pin để có thể dùng khi di chuyển. Cần hiểu sự đánh đổi giữa tính di động với hiệu năng và khả năng mở rộng.",
       "content": [
         {
           "type": "heading",
@@ -273,8 +293,18 @@
         },
         {
           "type": "point",
-          "ja": "ノートPCの重要な特徴は、携帯性と省スペース性である。",
-          "vi": "Đặc điểm quan trọng của notebook PC là tính di động và tiết kiệm không gian."
+          "ja": "携帯性、省スペース性、バッテリ駆動が長所であり、一般に冷却能力や部品交換・拡張の自由度には制約がある。",
+          "vi": "Ưu điểm là tính di động, tiết kiệm chỗ và chạy bằng pin; nhìn chung khả năng tản nhiệt, thay thế linh kiện và mở rộng bị hạn chế hơn."
+        },
+        {
+          "type": "example",
+          "ja": "例：外出先ではバッテリで資料を編集し、オフィスでは外部ディスプレイやネットワークへ接続して使う。",
+          "vi": "Ví dụ: chỉnh sửa tài liệu bằng pin khi đi ra ngoài, rồi kết nối màn hình ngoài và mạng khi trở lại văn phòng."
+        },
+        {
+          "type": "warning",
+          "ja": "ノートPCは形状による分類であり、必ず低性能とは限らない。また、携帯できてもバッテリを内蔵しない機器を同一視しない。",
+          "vi": "Notebook PC là phân loại theo kiểu dáng, không đồng nghĩa với hiệu năng thấp. Cũng không nên coi mọi thiết bị mang đi được nhưng không có pin tích hợp là notebook PC."
         }
       ],
       "terms": [
@@ -295,8 +325,8 @@
       "titleJa": "サーバ",
       "titleVi": "Máy chủ",
       "importance": "high",
-      "summaryJa": "ネットワークを通じて他のコンピュータや端末にサービスやデータを提供するサーバについて理解する。",
-      "summaryVi": "Tìm hiểu server, máy tính cung cấp dịch vụ hoặc dữ liệu cho các máy tính và thiết bị khác qua mạng.",
+      "summaryJa": "サーバは、クライアントからの要求を受けてデータや機能を提供する役割を担う。専用機だけでなく、同じコンピュータ上で動くサーバソフトウェアも含む概念である。",
+      "summaryVi": "Server là vai trò tiếp nhận yêu cầu từ client và cung cấp dữ liệu hoặc chức năng. Khái niệm này bao gồm cả máy chuyên dụng lẫn phần mềm server chạy trên một máy tính.",
       "content": [
         {
           "type": "heading",
@@ -305,8 +335,8 @@
         },
         {
           "type": "paragraph",
-          "ja": "サーバ（Server）は、ネットワーク上の他のコンピュータやデバイスからの要求に応じて、サービスやデータを提供するコンピュータである。",
-          "vi": "Server là máy tính cung cấp dịch vụ hoặc dữ liệu theo yêu cầu của các máy tính và thiết bị khác trên mạng."
+          "ja": "サーバ（Server）は、ネットワーク上のクライアントから要求を受け、Webページ、ファイル、データベース処理などを提供するコンピュータ又はソフトウェアである。要求と応答の関係で役割が決まる。",
+          "vi": "Server là máy tính hoặc phần mềm nhận yêu cầu từ client qua mạng và cung cấp trang web, tệp, xử lý cơ sở dữ liệu hoặc dịch vụ khác. Vai trò được xác định bởi quan hệ yêu cầu–đáp ứng."
         },
         {
           "type": "heading",
@@ -320,8 +350,18 @@
         },
         {
           "type": "point",
-          "ja": "サーバは、ネットワーク上のクライアントからの要求に応じてサービスを提供する。",
-          "vi": "Server cung cấp dịch vụ để đáp ứng yêu cầu từ client trên mạng."
+          "ja": "FEでは、サーバを高性能な機種名ではなく、クライアントへサービスを提供する役割として捉える。可用性、同時処理能力、保守性が重視される。",
+          "vi": "Trong FE, hãy hiểu server là vai trò cung cấp dịch vụ cho client, không phải tên của một loại máy luôn có cấu hình cao. Tính sẵn sàng, khả năng xử lý đồng thời và bảo trì thường được coi trọng."
+        },
+        {
+          "type": "example",
+          "ja": "例：ブラウザがHTTP要求を送ると、Webサーバソフトウェアが要求されたHTMLやAPIの応答を返す。",
+          "vi": "Ví dụ: khi trình duyệt gửi yêu cầu HTTP, phần mềm web server trả về HTML được yêu cầu hoặc phản hồi của API."
+        },
+        {
+          "type": "warning",
+          "ja": "一台の物理サーバが複数のサーバ機能を提供することも、一つのサービスを複数台で構成することもある。「サーバ＝一台の専用機」と決め付けない。",
+          "vi": "Một máy vật lý có thể cung cấp nhiều chức năng server, và một dịch vụ cũng có thể chạy trên nhiều máy. Không nên đồng nhất “server” với đúng một máy chuyên dụng."
         }
       ],
       "terms": [
@@ -330,8 +370,8 @@
           "reading": "さーば",
           "english": "Server",
           "vi": "máy chủ",
-          "definitionJa": "ネットワークを通じて他のコンピュータにサービスやデータを提供するコンピュータ。",
-          "definitionVi": "Máy tính cung cấp dịch vụ hoặc dữ liệu cho các máy tính khác thông qua mạng."
+          "definitionJa": "クライアントからの要求に応じて、ネットワーク経由でサービスやデータを提供するコンピュータ又はソフトウェア。",
+          "definitionVi": "Máy tính hoặc phần mềm cung cấp dịch vụ và dữ liệu qua mạng theo yêu cầu của client."
         }
       ],
       "tags": ["computer-components", "processor", "server"]
@@ -498,8 +538,18 @@
         },
         {
           "type": "point",
-          "ja": "制御用コンピュータは、機械やシステムの制御を目的としたコンピュータである。",
-          "vi": "Máy tính điều khiển được thiết kế với mục đích điều khiển máy móc hoặc hệ thống."
+          "ja": "制御では、センサー入力を読み取り、規定時間内に判断し、アクチュエーターへ出力する一連の流れが重要である。用途によってリアルタイム性や高信頼性が求められる。",
+          "vi": "Trong điều khiển, chuỗi xử lý quan trọng là đọc đầu vào cảm biến, ra quyết định trong thời hạn quy định rồi xuất lệnh đến cơ cấu chấp hành. Tùy ứng dụng, tính thời gian thực và độ tin cậy cao có thể là yêu cầu bắt buộc."
+        },
+        {
+          "type": "example",
+          "ja": "例：自動車の制御用コンピュータは、回転数や温度をセンサーから読み取り、点火や燃料噴射を所定の周期で調整する。",
+          "vi": "Ví dụ: máy tính điều khiển trên ô tô đọc số vòng quay và nhiệt độ từ cảm biến, rồi điều chỉnh đánh lửa và phun nhiên liệu theo chu kỳ quy định."
+        },
+        {
+          "type": "warning",
+          "ja": "平均処理速度が高くても、応答期限を守れなければリアルタイム制御には不適切である。高速性と期限内応答を混同しない。",
+          "vi": "Dù tốc độ xử lý trung bình cao, hệ thống vẫn không phù hợp điều khiển thời gian thực nếu bỏ lỡ hạn đáp ứng. Không được nhầm “nhanh” với “đáp ứng đúng hạn”."
         }
       ],
       "terms": [
@@ -540,8 +590,18 @@
         },
         {
           "type": "point",
-          "ja": "マイクロコンピュータは、マイクロプロセッサを中心に構成された小型コンピュータである。",
-          "vi": "Microcomputer là máy tính nhỏ được cấu thành chủ yếu quanh một bộ vi xử lý."
+          "ja": "マイクロコンピュータは、CPU、メモリ、入出力機能を組み合わせたコンピュータシステムである。マイクロプロセッサは主にCPU機能を1チップ化した部品を指す。",
+          "vi": "Microcomputer là một hệ thống máy tính kết hợp CPU, bộ nhớ và chức năng vào/ra. Microprocessor chủ yếu chỉ linh kiện tích hợp chức năng CPU trên một chip."
+        },
+        {
+          "type": "example",
+          "ja": "例：家電の制御基板では、マイクロコンピュータがスイッチ入力を読み取り、表示器やモーターを制御する。",
+          "vi": "Ví dụ: trên bo mạch điều khiển đồ gia dụng, microcomputer đọc tín hiệu từ nút bấm rồi điều khiển màn hình và động cơ."
+        },
+        {
+          "type": "warning",
+          "ja": "マイクロコンピュータ、マイクロプロセッサ、マイクロコントローラは同義ではない。特にマイクロコントローラはCPU、メモリ、周辺回路を一つのICに集積したものを指す。",
+          "vi": "Microcomputer, microprocessor và microcontroller không đồng nghĩa. Đặc biệt, microcontroller thường tích hợp CPU, bộ nhớ và mạch ngoại vi trong một IC."
         }
       ],
       "terms": [
@@ -587,8 +647,18 @@
         },
         {
           "type": "point",
-          "ja": "五大装置は「演算・制御・記憶・入力・出力」の五つである。",
-          "vi": "Cần nhớ 5 bộ phận: tính toán – điều khiển – bộ nhớ – nhập – xuất."
+          "ja": "五大装置は「演算・制御・記憶・入力・出力」である。CPUは主に演算装置と制御装置を担い、記憶装置には主記憶と補助記憶がある。",
+          "vi": "Năm bộ phận là tính toán, điều khiển, bộ nhớ, nhập và xuất. CPU chủ yếu đảm nhiệm tính toán và điều khiển; bộ nhớ gồm bộ nhớ chính và bộ nhớ phụ."
+        },
+        {
+          "type": "example",
+          "ja": "例：キーボードから数値を入力し、主記憶のプログラムに従ってCPUが加算し、結果をディスプレイへ表示する流れには五大装置がすべて関与する。",
+          "vi": "Ví dụ: nhập số từ bàn phím, CPU cộng theo chương trình trong bộ nhớ chính rồi hiển thị kết quả lên màn hình; cả năm bộ phận đều tham gia luồng này."
+        },
+        {
+          "type": "warning",
+          "ja": "「五大装置」は物理部品を必ず五個に分けるという意味ではない。一つのLSIが複数の機能を担う場合でも、機能上の分類は変わらない。",
+          "vi": "“Năm bộ phận” không có nghĩa máy tính bắt buộc phải có đúng năm linh kiện vật lý. Một LSI có thể đảm nhiệm nhiều chức năng nhưng cách phân loại theo chức năng vẫn không đổi."
         }
       ],
       "terms": [
@@ -639,13 +709,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "CPUの性能は、クロック周波数、コア数、キャッシュメモリなどの要素に影響される。マルチコアプロセッサでは複数の処理を並行して実行できる。",
-          "vi": "Hiệu năng CPU chịu ảnh hưởng bởi các yếu tố như xung nhịp, số lõi và bộ nhớ cache. CPU đa lõi có thể thực hiện nhiều xử lý song song."
+          "ja": "CPUの性能は、クロック周波数だけでなく、CPI、命令セット、コア数、キャッシュ、メモリ待ち時間、実行するプログラムの性質にも左右される。マルチコアの効果は処理を並列化できる割合に依存する。",
+          "vi": "Hiệu năng CPU không chỉ phụ thuộc xung nhịp mà còn vào CPI, tập lệnh, số lõi, cache, độ trễ bộ nhớ và đặc điểm chương trình. Hiệu quả của đa lõi phụ thuộc vào tỷ lệ công việc có thể song song hóa."
         },
         {
           "type": "point",
-          "ja": "CPUは命令の解釈・実行、演算、コンピュータ全体の制御を担う。",
-          "vi": "CPU đảm nhiệm giải mã/thực thi lệnh, tính toán và điều khiển hoạt động của máy tính."
+          "ja": "CPUは命令を取出し、解読し、必要なデータを取得して実行する。この命令サイクルを、演算装置、制御装置、レジスタが連携して進める。",
+          "vi": "CPU lấy lệnh, giải mã, lấy dữ liệu cần thiết rồi thực thi. ALU, bộ điều khiển và các thanh ghi phối hợp để thực hiện chu kỳ lệnh này."
+        },
+        {
+          "type": "example",
+          "ja": "例：二つの値を加算する命令では、CPUが命令を解読し、オペランドをレジスタへ取り込み、演算装置で加算して結果を保存する。",
+          "vi": "Ví dụ: với lệnh cộng hai giá trị, CPU giải mã lệnh, nạp toán hạng vào thanh ghi, cộng bằng ALU rồi lưu kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "クロック周波数が高いCPUほど必ず高速とは限らない。異なるアーキテクチャ間では、CPIや命令数、メモリ性能なども含めて比較する。",
+          "vi": "CPU có xung nhịp cao hơn không nhất thiết luôn nhanh hơn. Khi so sánh kiến trúc khác nhau, phải xét cả CPI, số lệnh, hiệu năng bộ nhớ và các yếu tố khác."
         }
       ],
       "terms": [
@@ -701,8 +781,18 @@
         },
         {
           "type": "point",
-          "ja": "CPUは汎用処理、GPUは大量の並列処理を得意とする。",
-          "vi": "Điểm cần nhớ: CPU mạnh về xử lý đa dụng, còn GPU mạnh về xử lý song song quy mô lớn."
+          "ja": "CPUは複雑な制御を含む低遅延の逐次処理、GPUは同種の演算を多数のデータへ適用する高スループットの並列処理を得意とする。",
+          "vi": "CPU phù hợp xử lý tuần tự độ trễ thấp với luồng điều khiển phức tạp; GPU phù hợp xử lý song song thông lượng cao khi áp dụng phép tính tương tự lên nhiều dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "例：画像の各画素へ同じフィルタ計算を適用する処理はデータ並列性が高く、GPUで多数の画素を同時に処理しやすい。",
+          "vi": "Ví dụ: áp dụng cùng một phép lọc lên từng pixel có tính song song dữ liệu cao, nên GPU dễ xử lý đồng thời nhiều pixel."
+        },
+        {
+          "type": "warning",
+          "ja": "GPUがすべての処理でCPUより高速なわけではない。分岐が多い処理、小規模な処理、CPUとGPU間の転送が支配的な処理では利点が小さくなる。",
+          "vi": "GPU không nhanh hơn CPU trong mọi tác vụ. Lợi thế giảm khi xử lý có nhiều nhánh, quy mô nhỏ hoặc chi phí truyền dữ liệu CPU–GPU chiếm ưu thế."
         }
       ],
       "terms": [
@@ -743,13 +833,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "命令の種類を比較的少なくし、各命令の処理を単純にすることで、パイプライン処理などを効率よく行いやすい。",
-          "vi": "RISC sử dụng số loại lệnh tương đối ít và đơn giản hóa cách xử lý từng lệnh, nhờ đó thuận lợi cho các kỹ thuật như pipeline."
+          "ja": "RISCは、単純で規則的な命令形式、豊富なレジスタ、メモリアクセスをロード／ストア命令へ分離する設計を採ることが多い。命令処理を規則化し、パイプラインを構成しやすくする。",
+          "vi": "RISC thường dùng định dạng lệnh đơn giản, đều đặn, nhiều thanh ghi và tách truy cập bộ nhớ thành lệnh load/store. Sự đều đặn giúp xây dựng pipeline thuận lợi hơn."
         },
         {
           "type": "point",
-          "ja": "RISCは、単純な命令を高速に処理する設計思想を持つ。CISCとの違いを押さえる。",
-          "vi": "RISC nhấn mạnh các lệnh đơn giản và thực thi nhanh. Cần phân biệt với CISC."
+          "ja": "FEでは、RISCを「単純で規則的な命令を組み合わせる」、CISCを「複雑で多機能な命令を備える」という設計上の対比で理解する。",
+          "vi": "Trong FE, hãy hiểu sự đối lập về thiết kế: RISC kết hợp các lệnh đơn giản, đều đặn; CISC cung cấp các lệnh phức tạp, đa chức năng."
+        },
+        {
+          "type": "example",
+          "ja": "例：ロード／ストア型RISCでは、主記憶の値をレジスタへロードし、レジスタ同士で加算し、結果を主記憶へストアする。",
+          "vi": "Ví dụ: trong RISC kiểu load/store, dữ liệu được load từ bộ nhớ vào thanh ghi, cộng giữa các thanh ghi rồi store kết quả trở lại bộ nhớ."
+        },
+        {
+          "type": "warning",
+          "ja": "RISCを「命令数が必ず少ない」「全命令が必ず1クロック」と暗記しない。現代の実装は複雑であり、区別は主に命令セットの設計思想にある。",
+          "vi": "Không học thuộc rằng RISC “luôn có ít lệnh” hay “mọi lệnh luôn chạy trong một chu kỳ”. Cách triển khai hiện đại rất phức tạp; khác biệt chủ yếu nằm ở triết lý thiết kế tập lệnh."
         }
       ],
       "terms": [
@@ -790,13 +890,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "高度な命令を利用できるため、プログラムの命令数を減らしやすい一方、命令の処理やハードウェア構成は複雑になりやすい。",
-          "vi": "Do có thể sử dụng các lệnh phức tạp, CISC có thể giảm số lệnh trong chương trình, nhưng việc xử lý lệnh và cấu trúc phần cứng thường phức tạp hơn."
+          "ja": "CISCは、命令長やアドレッシング方式が多様で、一命令でメモリアクセスと演算などをまとめて指定できる場合がある。プログラムの命令数を抑えやすい一方、命令解読や実行制御は複雑になりやすい。",
+          "vi": "CISC có thể có độ dài lệnh và nhiều chế độ định địa chỉ, cho phép một lệnh chỉ định cả truy cập bộ nhớ lẫn phép toán. Điều này có thể giảm số lệnh chương trình nhưng làm giải mã và điều khiển thực thi phức tạp hơn."
         },
         {
           "type": "point",
           "ja": "RISCは命令を単純化するのに対し、CISCは一つの命令に多くの機能を持たせる考え方である。",
           "vi": "RISC đơn giản hóa lệnh, còn CISC đưa nhiều chức năng vào một lệnh."
+        },
+        {
+          "type": "example",
+          "ja": "例：CISCでは、主記憶上の値を読み出してレジスタへ加算する処理を、メモリオペランドを取る一つの命令で表現できる場合がある。",
+          "vi": "Ví dụ: CISC có thể biểu diễn việc đọc một giá trị trong bộ nhớ rồi cộng vào thanh ghi bằng một lệnh nhận toán hạng bộ nhớ."
+        },
+        {
+          "type": "warning",
+          "ja": "RISCとCISCだけで実際のCPU性能を順位付けできない。CISC命令を内部で単純な処理へ分解する実装もあり、性能はマイクロアーキテクチャや処理内容に依存する。",
+          "vi": "Không thể xếp hạng hiệu năng CPU chỉ bằng nhãn RISC hay CISC. Có CPU phân rã lệnh CISC thành các thao tác nội bộ đơn giản; hiệu năng còn phụ thuộc vi kiến trúc và tải xử lý."
         }
       ],
       "terms": [
@@ -842,8 +952,18 @@
         },
         {
           "type": "point",
-          "ja": "ワイヤドロジック制御方式は高速だが変更しにくく、マイクロプログラム制御方式は比較的柔軟である。",
-          "vi": "Điều khiển nối cứng nhanh nhưng khó thay đổi; điều khiển vi chương trình linh hoạt hơn."
+          "ja": "ワイヤドロジック制御方式は、命令デコーダや状態回路から制御信号を直接生成するため高速化しやすいが、制御仕様の変更には回路の再設計が必要になる。",
+          "vi": "Điều khiển logic nối cứng tạo trực tiếp tín hiệu điều khiển từ bộ giải mã lệnh và mạch trạng thái nên dễ đạt tốc độ cao, nhưng thay đổi đặc tả điều khiển thường đòi hỏi thiết kế lại mạch."
+        },
+        {
+          "type": "example",
+          "ja": "例：命令コードと現在の処理段階を論理回路へ入力し、ALUの演算選択やレジスタ書込みを許可する信号を直接出力する。",
+          "vi": "Ví dụ: đưa mã lệnh và giai đoạn xử lý hiện tại vào mạch logic để trực tiếp tạo tín hiệu chọn phép toán ALU và cho phép ghi thanh ghi."
+        },
+        {
+          "type": "warning",
+          "ja": "「ワイヤド」は配線が物理的に見えるという意味ではなく、制御手順をマイクロプログラムとして読み出さず、論理回路で実現する方式を指す。",
+          "vi": "“Nối cứng” không có nghĩa phải nhìn thấy dây nối vật lý; nó chỉ cách hiện thực điều khiển bằng mạch logic thay vì đọc trình tự từ microprogram."
         }
       ],
       "terms": [
@@ -889,8 +1009,18 @@
         },
         {
           "type": "point",
-          "ja": "マイクロプログラム制御方式は、複雑な命令をマイクロ命令の組合せとして実現する。",
-          "vi": "Điều khiển vi chương trình thực hiện các lệnh phức tạp bằng tổ hợp các vi lệnh."
+          "ja": "機械語命令ごとの制御手順を制御記憶に保持し、マイクロ命令を順次読み出してデータ経路を制御する。複雑な命令を体系的に実装しやすい。",
+          "vi": "Trình tự điều khiển cho từng lệnh máy được lưu trong bộ nhớ điều khiển; các vi lệnh được đọc tuần tự để điều khiển đường dữ liệu. Cách này thuận lợi để triển khai có hệ thống các lệnh phức tạp."
+        },
+        {
+          "type": "example",
+          "ja": "例：一つの機械語命令を、レジスタ転送、ALU演算、結果書込みを指示する複数のマイクロ命令へ展開して実行する。",
+          "vi": "Ví dụ: một lệnh máy được triển khai thành nhiều vi lệnh lần lượt chỉ thị truyền thanh ghi, phép toán ALU và ghi kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "マイクロ命令は利用者が通常記述する機械語命令より下位の内部制御であり、一般のプログラムから直接実行する命令と混同しない。",
+          "vi": "Vi lệnh là điều khiển nội bộ ở mức thấp hơn lệnh máy mà người dùng thường lập trình; không được nhầm nó với lệnh được chương trình thông thường gọi trực tiếp."
         }
       ],
       "terms": [
@@ -921,13 +1051,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "レジスタ（Register）は、CPU内部にある非常に高速な記憶領域であり、演算に使用するデータや命令、アドレスなどを一時的に保持する。",
-          "vi": "Thanh ghi là vùng nhớ tốc độ rất cao bên trong CPU, dùng để tạm giữ dữ liệu, lệnh hoặc địa chỉ cần cho quá trình xử lý."
+          "ja": "レジスタ（Register）は、CPU内部にある小容量で高速な記憶領域であり、演算対象、演算結果、実行中の命令、次に実行する命令のアドレスなどを保持する。用途に応じて複数の種類がある。",
+          "vi": "Thanh ghi là vùng nhớ nhỏ, tốc độ cao bên trong CPU, giữ toán hạng, kết quả, lệnh đang thực thi hoặc địa chỉ lệnh tiếp theo. Có nhiều loại thanh ghi theo chức năng."
         },
         {
           "type": "point",
-          "ja": "レジスタは容量は小さいが非常に高速であり、CPUが頻繁に利用する情報を保持する。",
-          "vi": "Thanh ghi có dung lượng nhỏ nhưng rất nhanh và giữ các thông tin CPU thường xuyên sử dụng."
+          "ja": "汎用レジスタ、命令レジスタ、プログラムカウンタなどは保持する情報が異なる。FEでは名称と役割を対応付ける。",
+          "vi": "Thanh ghi đa dụng, thanh ghi lệnh và bộ đếm chương trình giữ những thông tin khác nhau. Trong FE, cần ghép đúng tên với vai trò."
+        },
+        {
+          "type": "example",
+          "ja": "例：加算命令では、オペランドを汎用レジスタへ置き、ALUが演算し、結果をレジスタへ戻す。プログラムカウンタは次の命令アドレスを示す。",
+          "vi": "Ví dụ: với lệnh cộng, toán hạng được đặt trong thanh ghi đa dụng, ALU tính toán rồi trả kết quả vào thanh ghi; bộ đếm chương trình chỉ địa chỉ lệnh tiếp theo."
+        },
+        {
+          "type": "warning",
+          "ja": "レジスタ、キャッシュメモリ、主記憶はすべて情報を保持するが、CPUからの見え方、役割、容量、速度が異なるため同一視しない。",
+          "vi": "Thanh ghi, cache và bộ nhớ chính đều lưu thông tin nhưng khác nhau về cách CPU truy cập, vai trò, dung lượng và tốc độ; không được coi là một."
         }
       ],
       "terms": [
@@ -958,13 +1098,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "アキュムレータ（Accumulator）は、算術演算や論理演算の途中結果などを一時的に保持するためのレジスタである。",
-          "vi": "Accumulator là thanh ghi dùng để tạm lưu kết quả trung gian của các phép toán số học hoặc logic."
+          "ja": "アキュムレータ（Accumulator）は、算術演算や論理演算のオペランド及び途中結果を保持するためのレジスタである。アキュムレータ型の命令では、一方のオペランドと結果の格納先を兼ねる。",
+          "vi": "Accumulator là thanh ghi giữ toán hạng và kết quả trung gian của phép toán số học hoặc logic. Trong kiến trúc kiểu accumulator, nó vừa là một toán hạng vừa là nơi lưu kết quả."
         },
         {
           "type": "point",
-          "ja": "演算結果を一時保存し、次の演算に利用するためのレジスタである。",
-          "vi": "Đây là thanh ghi tạm giữ kết quả phép tính để tiếp tục sử dụng ở bước xử lý sau."
+          "ja": "連続する演算では、前の演算結果をアキュムレータに残し、次の演算の入力として再利用できる。",
+          "vi": "Trong chuỗi phép toán, kết quả trước có thể được giữ trong accumulator và tái sử dụng làm đầu vào cho phép toán kế tiếp."
+        },
+        {
+          "type": "example",
+          "ja": "例：A+B+Cを求めるとき、Aをアキュムレータへ読み込み、Bを加算した途中結果へさらにCを加算する。",
+          "vi": "Ví dụ: để tính A+B+C, nạp A vào accumulator, cộng B để có kết quả trung gian rồi cộng tiếp C."
+        },
+        {
+          "type": "warning",
+          "ja": "すべてのCPUが独立した専用アキュムレータを持つとは限らない。汎用レジスタが同じ役割を担うアーキテクチャもある。",
+          "vi": "Không phải CPU nào cũng có một accumulator chuyên dụng riêng. Có kiến trúc dùng thanh ghi đa dụng để đảm nhiệm vai trò tương đương."
         }
       ],
       "terms": [
@@ -1047,8 +1197,18 @@
         },
         {
           "type": "point",
-          "ja": "命令アドレスレジスタは「次に実行する命令の場所」を保持する。",
-          "vi": "Thanh ghi địa chỉ lệnh lưu \"vị trí của lệnh tiếp theo\"."
+          "ja": "FEでは、命令アドレスレジスタが指すアドレスから命令を取り出し、通常は次の命令へ進むが、分岐命令では分岐先アドレスへ更新される流れを押さえる。",
+          "vi": "Trong FE, cần nắm luồng: CPU lấy lệnh tại địa chỉ do thanh ghi địa chỉ lệnh chỉ ra; bình thường thanh ghi chuyển sang lệnh kế tiếp, còn lệnh rẽ nhánh sẽ cập nhật nó bằng địa chỉ đích."
+        },
+        {
+          "type": "example",
+          "ja": "命令アドレスレジスタが0x1000を保持し、命令長が4バイトなら、逐次実行では命令取出し後に0x1004へ進む。分岐が成立して分岐先が0x2000なら、次の取出し先は0x2000になる。",
+          "vi": "Nếu thanh ghi giữ 0x1000 và lệnh dài 4 byte, khi thực thi tuần tự nó chuyển tới 0x1004 sau khi lấy lệnh. Nếu nhánh được thực hiện tới 0x2000, địa chỉ lấy lệnh kế tiếp sẽ là 0x2000."
+        },
+        {
+          "type": "warning",
+          "ja": "プログラムカウンタ（PC）や命令ポインタとも呼ばれる。パイプライン方式では、外部から見えるPC値と実行中命令の位置関係が処理系によって異なるため、「常に現在実行中の命令を指す」と断定しない。",
+          "vi": "Thanh ghi này còn được gọi là program counter (PC) hoặc instruction pointer. Với bộ xử lý pipeline, quan hệ giữa giá trị PC quan sát được và lệnh đang thực thi tùy kiến trúc, nên không được mặc định PC luôn chỉ đúng lệnh hiện tại."
         }
       ],
       "terms": [
@@ -1091,6 +1251,16 @@
           "type": "point",
           "ja": "命令アドレスレジスタは命令の「場所」、命令レジスタは命令そのものを保持する。",
           "vi": "Thanh ghi địa chỉ lệnh giữ \"địa chỉ\", còn thanh ghi lệnh giữ chính lệnh đó."
+        },
+        {
+          "type": "example",
+          "ja": "メモリアドレス0x1000から読み出したADD命令のビット列を命令レジスタへ格納する。デコーダはオペコードとオペランド指定を解読し、ALUやレジスタへ制御信号を送る。",
+          "vi": "CPU đọc chuỗi bit của lệnh ADD tại địa chỉ 0x1000 vào thanh ghi lệnh. Decoder giải mã opcode và phần chỉ định toán hạng rồi gửi tín hiệu điều khiển tới ALU và các thanh ghi."
+        },
+        {
+          "type": "warning",
+          "ja": "命令レジスタに入るのは命令の符号であり、その命令が置かれたメモリアドレスではない。命令の場所を保持する命令アドレスレジスタと混同しない。",
+          "vi": "Thanh ghi lệnh chứa mã lệnh, không chứa địa chỉ bộ nhớ nơi lệnh được đặt. Không nhầm với thanh ghi địa chỉ lệnh vốn giữ vị trí của lệnh."
         }
       ],
       "terms": [
@@ -1131,8 +1301,18 @@
         },
         {
           "type": "point",
-          "ja": "デコーダは、命令を解読して実行に必要な制御信号へ変換する。",
-          "vi": "Decoder giải mã lệnh và chuyển nó thành các tín hiệu điều khiển cần thiết để thực thi."
+          "ja": "CPUの命令デコーダは、命令語のオペコードなどを解読し、レジスタ読出し、ALUの演算選択、メモリアクセスなどを制御する信号を生成する。",
+          "vi": "Decoder lệnh của CPU giải mã opcode và các trường liên quan, sau đó tạo tín hiệu điều khiển việc đọc thanh ghi, chọn phép toán ALU và truy cập bộ nhớ."
+        },
+        {
+          "type": "example",
+          "ja": "ADD命令を解読すると、二つのオペランドを読み出し、ALUに加算を選択させ、結果を宛先レジスタへ書き戻すための制御信号が生成される。",
+          "vi": "Khi giải mã lệnh ADD, decoder tạo tín hiệu để đọc hai toán hạng, chọn phép cộng trong ALU và ghi kết quả về thanh ghi đích."
+        },
+        {
+          "type": "warning",
+          "ja": "デコーダ自身が加算などの演算を行うわけではない。解読結果に基づいて各回路を動かす制御信号を作り、実際の算術・論理演算は主にALUが行う。",
+          "vi": "Decoder không tự thực hiện phép cộng hay phép toán khác. Nó tạo tín hiệu điều khiển; phép toán số học và logic thực tế chủ yếu do ALU thực hiện."
         }
       ],
       "terms": [
@@ -1167,9 +1347,24 @@
           "vi": "Thanh ghi đa dụng là thanh ghi không bị giới hạn vào một chức năng duy nhất và có thể giữ toán hạng hoặc dữ liệu tạm thời cho nhiều loại xử lý."
         },
         {
+          "type": "paragraph",
+          "ja": "主記憶より高速にアクセスでき、算術・論理演算のオペランド、中間結果、アドレスなどを保持する。利用できる本数、ビット幅、各命令での役割は命令セットアーキテクチャによって異なる。",
+          "vi": "CPU truy cập chúng nhanh hơn bộ nhớ chính; chúng có thể giữ toán hạng số học/logic, kết quả trung gian hoặc địa chỉ. Số lượng, độ rộng bit và vai trò trong từng lệnh phụ thuộc kiến trúc tập lệnh."
+        },
+        {
           "type": "point",
           "ja": "汎用レジスタは、算術演算、論理演算、データ移動など様々な処理で利用される。",
           "vi": "Thanh ghi đa dụng được dùng trong phép toán số học, logic, di chuyển dữ liệu và nhiều xử lý khác."
+        },
+        {
+          "type": "example",
+          "ja": "R1に20、R2に7を保持し、加算命令でR3へ27を書き込む。このときR1とR2はオペランド、R3は演算結果を保持する汎用レジスタとして使われる。",
+          "vi": "Giả sử R1 giữ 20 và R2 giữ 7; lệnh cộng ghi 27 vào R3. R1 và R2 là các thanh ghi đa dụng chứa toán hạng, còn R3 chứa kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "「汎用」は全ての命令で完全に同じように使えるという意味ではない。特定の命令が特定レジスタを暗黙に使うなど、命令セット固有の制約がある。",
+          "vi": "“Đa dụng” không có nghĩa mọi thanh ghi đều dùng giống nhau trong mọi lệnh. Một kiến trúc có thể quy định lệnh cụ thể ngầm sử dụng một thanh ghi nhất định."
         }
       ],
       "terms": [
@@ -1210,8 +1405,18 @@
         },
         {
           "type": "point",
-          "ja": "インデックスレジスタは、配列要素などの位置を指定するためのオフセットとして利用される。",
-          "vi": "Thanh ghi chỉ số thường đóng vai trò offset để xác định vị trí phần tử như trong mảng."
+          "ja": "インデックスアドレス指定では、命令のアドレス部とインデックスレジスタの値から実効アドレスを求める。配列の要素位置を変えながら繰り返しアクセスする処理に適する。",
+          "vi": "Trong định địa chỉ chỉ số, địa chỉ hiệu dụng được tính từ phần địa chỉ của lệnh và giá trị thanh ghi chỉ số. Cách này phù hợp khi lặp qua các vị trí của mảng."
+        },
+        {
+          "type": "example",
+          "ja": "配列の先頭アドレスが1000で、4バイト要素の4番目（添字3）を読む場合、インデックス値を3×4=12として、実効アドレス1000+12=1012を求める。",
+          "vi": "Nếu mảng bắt đầu tại 1000 và mỗi phần tử dài 4 byte, phần tử thứ tư (chỉ số 3) có offset 3×4=12; địa chỉ hiệu dụng là 1000+12=1012."
+        },
+        {
+          "type": "warning",
+          "ja": "インデックス値が要素番号かバイト単位の変位か、CPUが自動的に尺度変換するかは命令形式による。問題文のアドレス単位と要素サイズを確認する。",
+          "vi": "Giá trị chỉ số là số thứ tự phần tử hay độ dời theo byte, và CPU có tự scale hay không, phụ thuộc dạng lệnh. Phải kiểm tra đơn vị địa chỉ và kích thước phần tử trong đề."
         }
       ],
       "terms": [
@@ -1252,8 +1457,18 @@
         },
         {
           "type": "point",
-          "ja": "ベースレジスタは「基準アドレス」を保持する。",
-          "vi": "Base register giữ \"địa chỉ cơ sở\"."
+          "ja": "ベースアドレス指定では、ベースレジスタの基準アドレスに命令中の変位を加えて実効アドレスを求める。プログラムやデータを再配置しやすい。",
+          "vi": "Trong định địa chỉ cơ sở, địa chỉ hiệu dụng bằng địa chỉ mốc trong base register cộng độ dời trong lệnh, giúp chương trình hoặc dữ liệu dễ được bố trí lại."
+        },
+        {
+          "type": "example",
+          "ja": "ベースレジスタが8000、命令の変位が120なら、実効アドレスは8120となる。領域全体を別の場所へ移しても、ベース値を変更すれば同じ変位を利用できる。",
+          "vi": "Nếu base register là 8000 và displacement trong lệnh là 120, địa chỉ hiệu dụng là 8120. Khi chuyển cả vùng sang vị trí khác, có thể giữ nguyên displacement và chỉ đổi giá trị base."
+        },
+        {
+          "type": "warning",
+          "ja": "ベースレジスタとインデックスレジスタはいずれも実効アドレス計算に使われるが、典型的には前者が領域の基準、後者が要素位置を表す。名称や組合せ方はCPUによって異なる。",
+          "vi": "Cả base register và index register đều tham gia tính địa chỉ hiệu dụng; thông thường base chỉ mốc vùng, index chỉ vị trí phần tử. Tên gọi và cách kết hợp có thể khác theo CPU."
         }
       ],
       "terms": [
@@ -1294,8 +1509,18 @@
         },
         {
           "type": "point",
-          "ja": "スタックポインタは、スタックの最上部を指し示す。",
-          "vi": "Stack pointer chỉ đỉnh của stack."
+          "ja": "PUSHや関数呼出しでデータを積み、POPや復帰で取り出すたびにスタックポインタが更新される。戻りアドレス、退避レジスタ、局所変数などの管理に関係する。",
+          "vi": "Stack pointer được cập nhật khi PUSH/lời gọi hàm đưa dữ liệu vào stack và khi POP/trả về lấy dữ liệu ra. Nó liên quan đến địa chỉ trả về, thanh ghi được lưu và biến cục bộ."
+        },
+        {
+          "type": "example",
+          "ja": "下位アドレス方向へ伸びる32ビット幅のスタックでSP=1000のとき、1語をPUSHするとSPを996へ更新して値を格納する。POPでは値を読み出してSPを1000へ戻す。",
+          "vi": "Với stack 32 bit tăng về phía địa chỉ thấp và SP=1000, PUSH một từ sẽ cập nhật SP thành 996 rồi lưu giá trị; POP đọc giá trị và đưa SP về 1000."
+        },
+        {
+          "type": "warning",
+          "ja": "スタックが上位・下位のどちらへ伸びるか、SPが使用中要素と次の空き位置のどちらを指すかは処理系による。境界整列やスタックオーバーフローにも注意する。",
+          "vi": "Hướng tăng của stack và việc SP chỉ phần tử đang dùng hay ô trống kế tiếp tùy kiến trúc. Cũng phải chú ý căn chỉnh và stack overflow."
         }
       ],
       "terms": [
@@ -1338,6 +1563,16 @@
           "type": "point",
           "ja": "順序回路は過去の状態を保持する。組合せ回路は現在の入力だけで出力が決まる。",
           "vi": "Mạch tuần tự có nhớ trạng thái trước; mạch tổ hợp chỉ phụ thuộc đầu vào hiện tại."
+        },
+        {
+          "type": "example",
+          "ja": "2ビットカウンタは、クロック入力のたびに状態を00→01→10→11→00と変化させる。同じ入力値でも、直前の状態が異なれば次の出力状態も異なる。",
+          "vi": "Bộ đếm 2 bit đổi trạng thái 00→01→10→11→00 theo mỗi xung clock. Với cùng một đầu vào, trạng thái đầu ra kế tiếp có thể khác nếu trạng thái trước đó khác."
+        },
+        {
+          "type": "warning",
+          "ja": "順序回路の出力は入力だけでは決められない。状態遷移、クロック、リセット条件も含めて考え、組合せ回路の真理値表だけで判断しない。",
+          "vi": "Không thể xác định đầu ra mạch tuần tự chỉ từ đầu vào. Phải xét chuyển trạng thái, clock và reset, không chỉ dùng bảng chân trị như mạch tổ hợp."
         }
       ],
       "terms": [
@@ -1380,13 +1615,23 @@
           "type": "point",
           "ja": "組合せ回路には状態を記憶する機能がなく、同じ入力には常に同じ出力を返す。",
           "vi": "Mạch tổ hợp không lưu trạng thái; cùng một đầu vào luôn tạo cùng một đầu ra."
+        },
+        {
+          "type": "example",
+          "ja": "半加算器では入力A、Bに対し、和S=A XOR B、桁上がりC=A AND Bとなる。A=1、B=1ならS=0、C=1で、過去の入力は結果に影響しない。",
+          "vi": "Trong half adder, với đầu vào A và B, tổng S=A XOR B và bit nhớ C=A AND B. Khi A=1, B=1 thì S=0, C=1; đầu vào trước đó không ảnh hưởng kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "論理モデルでは過去の状態に依存しないが、実回路には伝搬遅延がある。入力変更直後に出力が瞬時に確定すると考えない。",
+          "vi": "Trong mô hình logic, mạch không phụ thuộc trạng thái trước; nhưng mạch thực có độ trễ lan truyền. Không nên cho rằng đầu ra ổn định tức thì ngay khi đầu vào đổi."
         }
       ],
       "terms": [
         {
           "term": "組合せ回路",
           "reading": "くみあわせかいろ",
-          "english": "Combination Circuit",
+          "english": "Combinational Circuit",
           "vi": "mạch tổ hợp",
           "definitionJa": "現在の入力信号の組合せだけで出力が決定される論理回路。",
           "definitionVi": "Mạch logic có đầu ra chỉ được quyết định bởi tổ hợp đầu vào hiện tại."
@@ -1462,8 +1707,18 @@
         },
         {
           "type": "point",
-          "ja": "ANDは「全部が1なら1」と覚える。",
-          "vi": "AND: tất cả đầu vào phải là 1 thì đầu ra mới là 1."
+          "ja": "ANDは全ての条件が同時に成立したときだけ1を出力する。真理値表に加え、複数ビット値では各ビット位置ごとにANDを計算することを押さえる。",
+          "vi": "AND chỉ xuất 1 khi mọi điều kiện đồng thời đúng. Ngoài bảng chân trị, cần nhớ với giá trị nhiều bit thì AND được tính độc lập tại từng vị trí bit."
+        },
+        {
+          "type": "example",
+          "ja": "ビットマスク0110とデータ1101をビットごとにANDすると0100になる。マスクが1の位置だけ、元データのビットを取り出せる。",
+          "vi": "Thực hiện AND từng bit giữa mask 0110 và dữ liệu 1101 cho kết quả 0100. Chỉ các vị trí mask bằng 1 mới giữ lại bit tương ứng của dữ liệu."
+        },
+        {
+          "type": "warning",
+          "ja": "論理ANDとビット単位ANDを区別する。複数ビット値のANDは各桁ごとに計算し、数値全体が0でないという条件判定とは同じではない。",
+          "vi": "Cần phân biệt AND logic với AND theo bit. Với giá trị nhiều bit, phép AND được tính ở từng vị trí, không đồng nghĩa với việc chỉ kiểm tra toàn bộ số có khác 0 hay không."
         }
       ],
       "terms": [
@@ -1501,6 +1756,16 @@
           "type": "point",
           "ja": "NOT回路は入力を反転するため、インバータとも呼ばれる。",
           "vi": "Mạch NOT đảo tín hiệu đầu vào nên còn được gọi là inverter."
+        },
+        {
+          "type": "example",
+          "ja": "1ビットではNOT 0=1、NOT 1=0である。4ビット値0101を各ビットで反転すると1010になる。",
+          "vi": "Với một bit: NOT 0=1 và NOT 1=0. Đảo từng bit của giá trị 4 bit 0101 cho kết quả 1010."
+        },
+        {
+          "type": "warning",
+          "ja": "多ビット値の反転結果はビット幅に依存する。0101を4ビットとして反転する場合と、8ビットの00000101として反転する場合では結果が異なる。",
+          "vi": "Kết quả đảo một giá trị nhiều bit phụ thuộc độ rộng bit. Đảo 0101 ở 4 bit khác với đảo 00000101 ở 8 bit."
         }
       ],
       "terms": [
@@ -1548,6 +1813,16 @@
           "type": "point",
           "ja": "NANDはANDの否定であり、すべての入力が1のときだけ出力が0になる。",
           "vi": "NAND là phủ định của AND: chỉ khi tất cả đầu vào bằng 1 thì đầu ra mới bằng 0."
+        },
+        {
+          "type": "example",
+          "ja": "2入力NANDでは00、01、10の出力は1、11の出力だけ0となる。また二つの入力を同じAへ接続すると、A NAND A=NOT AとなりNOT回路を構成できる。",
+          "vi": "Với NAND hai đầu vào, 00, 01 và 10 cho đầu ra 1, chỉ 11 cho 0. Nếu nối cả hai đầu vào cùng A thì A NAND A=NOT A, tạo được cổng NOT."
+        },
+        {
+          "type": "warning",
+          "ja": "「万能ゲート」とはNANDを組み合わせれば任意の論理関数を構成できるという意味であり、一個のNANDだけで全ての関数を実現できるという意味ではない。",
+          "vi": "“Cổng phổ dụng” nghĩa là có thể kết hợp nhiều NAND để tạo mọi hàm logic, không có nghĩa chỉ một cổng NAND thực hiện được mọi hàm."
         }
       ],
       "terms": [
@@ -1588,8 +1863,18 @@
         },
         {
           "type": "point",
-          "ja": "基本的な流れは「命令取出し → 命令解読 → データ取出し → 実行」である。",
-          "vi": "Luồng cơ bản: lấy lệnh → giải mã → lấy dữ liệu → thực thi."
+          "ja": "基本的な流れは「命令取出し→命令解読→オペランド取出し→実行→結果格納」である。命令アドレスレジスタ、命令レジスタ、デコーダ、ALUなどの役割と対応付けて覚える。",
+          "vi": "Luồng cơ bản là lấy lệnh → giải mã → lấy toán hạng → thực thi → lưu kết quả. Cần liên hệ từng bước với thanh ghi địa chỉ lệnh, thanh ghi lệnh, decoder và ALU."
+        },
+        {
+          "type": "example",
+          "ja": "ADD R1,R2,R3では、命令をメモリから命令レジスタへ取り出し、ADDとレジスタ指定を解読し、R2とR3を読み、ALUで加算して結果をR1へ書き戻す。",
+          "vi": "Với ADD R1,R2,R3, CPU lấy lệnh từ bộ nhớ vào thanh ghi lệnh, giải mã phép ADD và các thanh ghi, đọc R2 và R3, cộng trong ALU rồi ghi kết quả vào R1."
+        },
+        {
+          "type": "warning",
+          "ja": "これは機能上の順序である。パイプラインCPUでは複数命令の取出し、解読、実行が時間的に重なり、命令やCPUによってはオペランド取出しや結果格納の形も異なる。",
+          "vi": "Đây là thứ tự chức năng. Trong CPU pipeline, các giai đoạn của nhiều lệnh có thể chồng lấn; hình thức lấy toán hạng hoặc lưu kết quả cũng khác theo lệnh và kiến trúc."
         }
       ],
       "terms": [
@@ -1630,8 +1915,18 @@
         },
         {
           "type": "point",
-          "ja": "アドレス修飾では、基準となるアドレスに別の値を加えて実効アドレスを求める。",
-          "vi": "Điều chỉnh địa chỉ tính địa chỉ hiệu dụng từ địa chỉ cơ sở cộng thêm một giá trị."
+          "ja": "アドレス修飾では、命令のアドレス部、ベース値、インデックス値、変位などを規定の方法で組み合わせ、実際に参照する実効アドレスを求める。",
+          "vi": "Điều chỉnh địa chỉ kết hợp phần địa chỉ trong lệnh, base, index hoặc displacement theo quy tắc của dạng lệnh để tính địa chỉ hiệu dụng thực sự được truy cập."
+        },
+        {
+          "type": "example",
+          "ja": "配列先頭を示すベース値2000に、インデックス3と要素サイズ4から得た変位12を加えると、4番目の要素の実効アドレスは2012となる。",
+          "vi": "Với base 2000 trỏ đầu mảng, index 3 và kích thước phần tử 4 tạo displacement 12; địa chỉ hiệu dụng của phần tử thứ tư là 2012."
+        },
+        {
+          "type": "warning",
+          "ja": "実効アドレスを計算するアドレス修飾と、そのアドレスに格納された値をさらにアドレスとして使う間接アドレス指定を混同しない。計算式は命令形式に従う。",
+          "vi": "Không nhầm điều chỉnh địa chỉ để tính effective address với định địa chỉ gián tiếp, nơi giá trị lưu tại địa chỉ lại được dùng như một địa chỉ khác. Công thức phải theo dạng lệnh."
         }
       ],
       "terms": [
@@ -1666,9 +1961,24 @@
           "vi": "Arithmetic Operation Instruction là lệnh dùng để thực hiện các phép tính số học như cộng, trừ, nhân và chia."
         },
         {
+          "type": "paragraph",
+          "ja": "オペランドはレジスタ、即値、メモリなどから与えられ、結果は指定された格納先へ書き戻される。演算結果に応じてゼロ、符号、キャリー、オーバーフローなどの状態フラグを更新する命令もある。",
+          "vi": "Toán hạng có thể đến từ thanh ghi, hằng tức thời hoặc bộ nhớ, và kết quả được ghi vào đích đã chỉ định. Một số lệnh còn cập nhật cờ trạng thái như zero, sign, carry và overflow theo kết quả."
+        },
+        {
           "type": "point",
-          "ja": "算術演算命令は数値計算を行うための基本命令である。",
-          "vi": "Lệnh số học là nhóm lệnh cơ bản để xử lý tính toán số."
+          "ja": "FEでは加減乗除の種類だけでなく、オペランドと格納先、固定ビット幅でのキャリーとオーバーフロー、除算時の商・余りにも注意する。",
+          "vi": "Trong FE, ngoài loại phép cộng/trừ/nhân/chia, cần chú ý toán hạng và đích, carry/overflow ở độ rộng bit cố định, cũng như thương và số dư của phép chia."
+        },
+        {
+          "type": "example",
+          "ja": "8ビット符号なし整数で250+10を計算すると、真の値260は範囲0～255を超えるため下位8ビットは4となり、キャリーが発生する。",
+          "vi": "Với số nguyên không dấu 8 bit, 250+10 có giá trị thật 260 vượt phạm vi 0–255; 8 bit thấp cho kết quả 4 và phát sinh carry."
+        },
+        {
+          "type": "warning",
+          "ja": "キャリーは主に符号なし演算の桁あふれ、オーバーフローは符号付き演算で表現範囲を超えたことを示す。両者を同じ意味として扱わず、0除算にも注意する。",
+          "vi": "Carry chủ yếu biểu thị tràn chữ số trong phép toán không dấu, còn overflow cho biết phép toán có dấu vượt phạm vi biểu diễn. Không đồng nhất hai khái niệm và cần chú ý chia cho 0."
         }
       ],
       "terms": [

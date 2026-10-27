@@ -2252,8 +2252,8 @@
       "titleJa": "変更管理",
       "titleVi": "Quản lý thay đổi",
       "importance": "high",
-      "summaryJa": "組織におけるシステムやプロセスに加えられる変更を計画的に管理する手法である。",
-      "summaryVi": "Quy trình đánh giá, phê duyệt, lập lịch và kiểm soát thay đổi đối với dịch vụ.",
+      "summaryJa": "変更管理は、サービスへの変更要求を記録・分類し、価値、リスク、実現可能性、費用を評価して、承認から実施後レビューまでを統制する活動である。",
+      "summaryVi": "Quản lý thay đổi ghi nhận và phân loại yêu cầu thay đổi dịch vụ, đánh giá giá trị, rủi ro, tính khả thi và chi phí, rồi kiểm soát từ phê duyệt đến đánh giá sau triển khai.",
       "content": [
         {
           "type": "heading",
@@ -2267,8 +2267,18 @@
         },
         {
           "type": "point",
-          "ja": "変更の影響とリスクを評価して実施を管理する。",
-          "vi": "Điểm cần nhớ: Mục tiêu là thực hiện thay đổi hữu ích mà giảm gián đoạn dịch vụ."
+          "ja": "変更要求の優先度を定め、リスク、事業利益、実現可能性、財務影響を踏まえて承認し、構築・試験・展開・レビューを追跡する。",
+          "vi": "Cần xác định ưu tiên, phê duyệt dựa trên rủi ro, lợi ích nghiệp vụ, tính khả thi và tác động tài chính, rồi theo dõi xây dựng, kiểm thử, triển khai và đánh giá."
+        },
+        {
+          "type": "example",
+          "ja": "例：認証サーバを更新する場合、影響範囲と停止時間を評価し、試験結果、実施日時、担当者、ロールバック手順を確認してから承認する。",
+          "vi": "Ví dụ: khi nâng cấp máy chủ xác thực, phải đánh giá phạm vi ảnh hưởng và thời gian dừng, rồi kiểm tra kết quả thử nghiệm, lịch thực hiện, người phụ trách và phương án quay lui trước khi phê duyệt."
+        },
+        {
+          "type": "warning",
+          "ja": "変更管理の目的は変更を減らすことではなく、有益な変更を適切な統制下で成功させることである。承認済みでも試験や実施後レビューを省略してよいとは限らない。",
+          "vi": "Mục tiêu không phải giảm số thay đổi mà là giúp thay đổi có ích thành công dưới sự kiểm soát phù hợp. Được phê duyệt không có nghĩa có thể bỏ qua kiểm thử hoặc đánh giá sau triển khai."
         }
       ],
       "terms": [
@@ -2293,8 +2303,8 @@
       "titleJa": "変更要求",
       "titleVi": "Yêu cầu thay đổi",
       "importance": "high",
-      "summaryJa": "システムやプロジェクトにおいて、既存の仕様や機能に対して行われる正式な提案のことである。",
-      "summaryVi": "Đề nghị có ghi nhận nhằm thay đổi dịch vụ hoặc hạng mục cấu hình.",
+      "summaryJa": "変更要求（RFC）は、サービス又はサービス構成品目の変更について、理由、影響、リスク、実施案などを記録して審査に付す正式な提案である。",
+      "summaryVi": "Yêu cầu thay đổi (RFC) là đề xuất chính thức, có ghi nhận lý do, tác động, rủi ro và phương án thực hiện để thay đổi dịch vụ hoặc hạng mục cấu hình.",
       "content": [
         {
           "type": "heading",
@@ -2308,8 +2318,18 @@
         },
         {
           "type": "point",
-          "ja": "この要求は、変更を必要とする理由や背景、影響を含めて文書化され、多くの場合、変更管理プロセスを通じて検討される。",
-          "vi": "Điểm cần nhớ: Gửi RFC không có nghĩa thay đổi đã được phê duyệt."
+          "ja": "RFCは評価と意思決定の入力であり、提出した時点では未承認である。目的、対象、優先度、影響、リスク、試験、実施、切戻しの情報を明確にする。",
+          "vi": "RFC là đầu vào cho đánh giá và quyết định; tại thời điểm gửi vẫn chưa được phê duyệt. Cần nêu rõ mục tiêu, đối tượng, ưu tiên, tác động, rủi ro, kiểm thử, triển khai và quay lui."
+        },
+        {
+          "type": "example",
+          "ja": "例：データベースを新バージョンへ更新するRFCに、対象サーバ、互換性試験、停止予定、バックアップ、切戻し条件を記載する。",
+          "vi": "Ví dụ: RFC nâng cấp cơ sở dữ liệu ghi rõ máy chủ đích, kiểm thử tương thích, thời gian dừng dự kiến, bản sao lưu và điều kiện quay lui."
+        },
+        {
+          "type": "warning",
+          "ja": "RFCの登録と変更の承認は別である。記録があるだけで作業を開始せず、定められた変更権限による判断を待つ。",
+          "vi": "Đăng ký RFC và phê duyệt thay đổi là hai việc khác nhau. Không được bắt đầu công việc chỉ vì đã có bản ghi; phải chờ quyết định của thẩm quyền thay đổi."
         }
       ],
       "terms": [
@@ -2375,8 +2395,8 @@
       "titleJa": "変更のカテゴリー",
       "titleVi": "Phân loại thay đổi",
       "importance": "high",
-      "summaryJa": "変更管理において、様々な変更の種類を分類するための枠組みである。",
-      "summaryVi": "Chia thay đổi thành nhóm để áp dụng cách đánh giá và phê duyệt phù hợp.",
+      "summaryJa": "変更を標準・通常・緊急などに分類し、反復性、リスク、緊急度に応じた評価・承認手順を適用することで、統制と迅速性を両立させる。",
+      "summaryVi": "Phân loại thay đổi thành chuẩn, thông thường, khẩn cấp… để áp dụng đánh giá và phê duyệt phù hợp với tính lặp lại, rủi ro và mức khẩn cấp.",
       "content": [
         {
           "type": "heading",
@@ -2385,13 +2405,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "変更管理において、様々な変更の種類を分類するための枠組みである。この分類には、標準変更、通常の変更、プロジェクト変更、緊急変更などが含まれ、それぞれが異なる手続きや承認プロセスを持つ。標準変更は、事前に承認された範囲内で行われる日常的な変更を指し、迅速かつ効率的に実施できる。通常の変更は、影響の考慮や計画が必要で、より慎重なアプローチが求められる。一方、緊急変更は、重大な問題に対処するために迅速に実施される必要があり、通常のプロセスを省略することがある。これらのカテゴリー分けにより、変更に対する適切なアプローチが選択され、組織全体の安定性と効率性が向上する。",
-          "vi": "Phân loại thay đổi là việc chia thay đổi thành các nhóm để áp dụng quy trình phê duyệt phù hợp. Thay đổi chuẩn thường được phê duyệt trước; thay đổi thông thường cần đánh giá; thay đổi khẩn cấp cần xử lý nhanh nhưng vẫn phải kiểm soát. Thay đổi chuẩn đã được phê duyệt trước; thay đổi thường cần xét duyệt; thay đổi khẩn cấp xử lý nhanh."
+          "ja": "標準変更は手順とリスクが十分に把握され、あらかじめ承認された反復的な変更である。通常変更は個別に評価・承認し、緊急変更は重大障害や脆弱性へ迅速に対応するため、短縮した手順で評価・承認する。プロジェクト変更も組織の規則に従って管理する。",
+          "vi": "Thay đổi chuẩn là thay đổi lặp lại, có thủ tục và rủi ro đã hiểu rõ, được phê duyệt trước. Thay đổi thông thường được đánh giá riêng; thay đổi khẩn cấp dùng thủ tục rút gọn để xử lý sự cố nghiêm trọng hoặc lỗ hổng. Thay đổi dự án vẫn phải theo quy tắc của tổ chức."
         },
         {
           "type": "point",
           "ja": "標準変更・通常変更・緊急変更では承認手順が異なる。",
           "vi": "Điểm cần nhớ: Standard, normal và emergency change có thủ tục khác nhau."
+        },
+        {
+          "type": "example",
+          "ja": "例：承認済み手順による定例アカウント追加は標準変更、基幹OSの更新は通常変更、悪用中の脆弱性への緊急パッチは緊急変更として扱う。",
+          "vi": "Ví dụ: thêm tài khoản định kỳ theo thủ tục đã duyệt là thay đổi chuẩn; nâng cấp OS trọng yếu là thay đổi thông thường; vá khẩn lỗ hổng đang bị khai thác là thay đổi khẩn cấp."
+        },
+        {
+          "type": "warning",
+          "ja": "緊急変更は無統制な変更ではない。迅速化しても、権限者の承認、実施記録、試験可能性の検討、事後レビューは必要である。",
+          "vi": "Thay đổi khẩn cấp không phải thay đổi không kiểm soát. Dù rút ngắn thủ tục, vẫn cần thẩm quyền phê duyệt, ghi nhận thực hiện, cân nhắc kiểm thử và đánh giá sau đó."
         }
       ],
       "terms": [
@@ -2416,8 +2446,8 @@
       "titleJa": "ロールバック",
       "titleVi": "Quay lui",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの変更を元の状態に戻す操作を指す。",
-      "summaryVi": "Đưa hệ thống trở về trạng thái trước khi thực hiện thay đổi khi cần.",
+      "summaryJa": "ロールバック（切戻し）は、変更が失敗又は受入れ条件を満たさない場合に、サービスを確認済みの安定状態へ戻すための手順である。",
+      "summaryVi": "Rollback (quay lui) là thủ tục đưa dịch vụ trở về trạng thái ổn định đã xác nhận khi thay đổi thất bại hoặc không đạt điều kiện chấp nhận.",
       "content": [
         {
           "type": "heading",
@@ -2431,8 +2461,18 @@
         },
         {
           "type": "point",
-          "ja": "主に新しいバージョンの導入中や、変更によって問題が発生した場合に行われる。",
-          "vi": "Điểm cần nhớ: Rollback phải được lên kế hoạch và kiểm tra khả năng thực hiện."
+          "ja": "実施前に、切戻しの判断基準、必要なバックアップ、担当者、所要時間、データ整合性の確認方法を定め、可能であれば試験する。",
+          "vi": "Trước khi triển khai phải xác định tiêu chí quay lui, bản sao lưu cần thiết, người phụ trách, thời gian và cách kiểm tra tính nhất quán dữ liệu; nên thử trước nếu có thể."
+        },
+        {
+          "type": "example",
+          "ja": "例：アプリ更新後に重大な応答遅延が発生し、事前に定めたしきい値を超えたため、旧イメージを再展開してデータ整合性を確認する。",
+          "vi": "Ví dụ: sau cập nhật ứng dụng xuất hiện độ trễ nghiêm trọng vượt ngưỡng đã định, nên triển khai lại image cũ và kiểm tra tính nhất quán dữ liệu."
+        },
+        {
+          "type": "warning",
+          "ja": "アプリケーションを旧版へ戻すだけでデータも自動的に元へ戻るとは限らない。不可逆なデータ変換では、復元又は前進修正を別途計画する。",
+          "vi": "Hạ ứng dụng về bản cũ không đồng nghĩa dữ liệu tự động trở lại. Với biến đổi dữ liệu không thể đảo ngược, phải lập kế hoạch khôi phục hoặc sửa tiến về phía trước riêng."
         }
       ],
       "terms": [
@@ -2457,8 +2497,8 @@
       "titleJa": "変更諮問委員会",
       "titleVi": "Hội đồng tư vấn thay đổi",
       "importance": "high",
-      "summaryJa": "変更管理における重要な組織である。",
-      "summaryVi": "Nhóm cung cấp đánh giá và khuyến nghị về rủi ro, tác động và lịch thay đổi.",
+      "summaryJa": "変更諮問委員会（CAB）は、技術、運用、事業、セキュリティなどの観点から変更を評価し、変更権限者の意思決定を支援する助言組織である。",
+      "summaryVi": "Hội đồng tư vấn thay đổi (CAB) đánh giá thay đổi từ góc độ kỹ thuật, vận hành, nghiệp vụ và bảo mật để hỗ trợ thẩm quyền thay đổi ra quyết định.",
       "content": [
         {
           "type": "heading",
@@ -2472,8 +2512,18 @@
         },
         {
           "type": "point",
-          "ja": "CABは助言を行い、必ずしも最終承認者ではない。",
-          "vi": "Điểm cần nhớ: CAB tư vấn đánh giá; thẩm quyền phê duyệt tùy quy trình của tổ chức."
+          "ja": "CABは影響、リスク、競合する変更、実施時期、資源を多面的に検討する。構成員は変更の内容に応じて選び、最終承認権限は組織の手順で定める。",
+          "vi": "CAB xem xét tác động, rủi ro, xung đột giữa các thay đổi, lịch và nguồn lực. Thành viên được chọn theo nội dung thay đổi; quyền phê duyệt cuối cùng do quy trình tổ chức quy định."
+        },
+        {
+          "type": "example",
+          "ja": "例：決済基盤の更新について、運用、開発、情報セキュリティ、業務部門が停止影響と切戻し案を確認し、変更権限者へ助言する。",
+          "vi": "Ví dụ: với nâng cấp nền tảng thanh toán, đại diện vận hành, phát triển, an toàn thông tin và nghiệp vụ xem xét ảnh hưởng dừng dịch vụ cùng phương án quay lui rồi tư vấn cho thẩm quyền thay đổi."
+        },
+        {
+          "type": "warning",
+          "ja": "CABがすべての変更を一律に承認するとは限らない。標準変更や緊急変更を含め、変更カテゴリーと権限モデルに応じて判断経路は異なる。",
+          "vi": "CAB không nhất thiết phê duyệt mọi thay đổi. Tuyến quyết định khác nhau tùy loại thay đổi và mô hình thẩm quyền, kể cả thay đổi chuẩn hoặc khẩn cấp."
         }
       ],
       "terms": [
@@ -2481,8 +2531,8 @@
           "term": "変更諮問委員会",
           "english": "Change Advisory Board",
           "vi": "Hội đồng tư vấn thay đổi",
-          "definitionJa": "変更管理における重要な組織である。",
-          "definitionVi": "Nhóm cung cấp đánh giá và khuyến nghị về rủi ro, tác động và lịch thay đổi.",
+          "definitionJa": "複数の関係者の観点から変更を評価し、変更権限者へ助言する組織。",
+          "definitionVi": "Nhóm các bên liên quan đánh giá thay đổi và tư vấn cho thẩm quyền ra quyết định.",
           "reading": "へんこうしもんいいんかい"
         }
       ],
@@ -2539,8 +2589,8 @@
       "titleJa": "サービスの設計及び移行",
       "titleVi": "Thiết kế và chuyển giao dịch vụ",
       "importance": "high",
-      "summaryJa": "新規サービスや既存サービスの変更を効果的に計画、設計し、実施するプロセスである。",
-      "summaryVi": "Hoạt động thiết kế dịch vụ mới hoặc thay đổi rồi chuẩn bị đưa vào vận hành.",
+      "summaryJa": "サービスの設計及び移行は、合意した要求事項をサービス設計へ落とし込み、構築・試験・知識移転を経て、安全に稼働環境へ移す活動である。",
+      "summaryVi": "Thiết kế và chuyển giao dịch vụ chuyển các yêu cầu đã thống nhất thành thiết kế dịch vụ, rồi xây dựng, kiểm thử, chuyển giao tri thức và đưa an toàn vào môi trường vận hành.",
       "content": [
         {
           "type": "heading",
@@ -2554,8 +2604,18 @@
         },
         {
           "type": "point",
-          "ja": "このプロセスでは、サービスの要件を明確にし、必要なリソースや手順を整えることで、サービス提供が円滑に進むようにする。",
-          "vi": "Điểm cần nhớ: Không chỉ thiết kế phần mềm mà còn thiết kế cách cung cấp dịch vụ."
+          "ja": "設計対象には技術だけでなく、プロセス、役割、供給者、情報、測定方法、運用・支援体制も含む。構築後はサービス受入れ基準への適合を試験する。",
+          "vi": "Đối tượng thiết kế không chỉ có kỹ thuật mà còn gồm quy trình, vai trò, nhà cung cấp, thông tin, phép đo và cơ chế vận hành–hỗ trợ. Sau khi xây dựng phải kiểm thử theo tiêu chí chấp nhận dịch vụ."
+        },
+        {
+          "type": "example",
+          "ja": "例：新しい社内申請サービスについて、可用性とセキュリティ、監視、問い合わせ窓口、運用手順、教育を設計し、受入れ試験後に運用へ引き継ぐ。",
+          "vi": "Ví dụ: với dịch vụ phê duyệt nội bộ mới, thiết kế tính sẵn sàng, bảo mật, giám sát, đầu mối hỗ trợ, thủ tục vận hành và đào tạo, rồi bàn giao sau kiểm thử chấp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "サービス設計をアプリケーション機能の設計だけと考えない。運用者、利用者、供給者がサービスを継続して提供・利用できる状態まで設計する。",
+          "vi": "Không được coi thiết kế dịch vụ chỉ là thiết kế chức năng ứng dụng. Phải thiết kế đến trạng thái mà đội vận hành, người dùng và nhà cung cấp có thể duy trì cung cấp và sử dụng dịch vụ."
         }
       ],
       "terms": [
@@ -2621,8 +2681,8 @@
       "titleJa": "サービス受入れ基準",
       "titleVi": "Tiêu chí chấp nhận dịch vụ",
       "importance": "high",
-      "summaryJa": "製品やサービスがクライアントやユーザーに受け入れられるために満たすべき条件や基準のことである。",
-      "summaryVi": "Điều kiện phải đáp ứng trước khi dịch vụ được chấp nhận đưa vào cung cấp.",
+      "summaryJa": "サービス受入れ基準は、新規又は変更サービスを稼働環境へ移す前に満たすべき、合意済みで検証可能な機能・品質・運用条件である。",
+      "summaryVi": "Tiêu chí chấp nhận dịch vụ là các điều kiện chức năng, chất lượng và vận hành đã thống nhất, có thể kiểm chứng trước khi đưa dịch vụ mới hoặc thay đổi vào môi trường hoạt động.",
       "content": [
         {
           "type": "heading",
@@ -2636,8 +2696,18 @@
         },
         {
           "type": "point",
-          "ja": "これらの基準は、品質、性能、機能性、セキュリティなど、さまざまな要素が含まれる。",
-          "vi": "Điểm cần nhớ: Tiêu chí cần kiểm tra được trước khi nghiệm thu."
+          "ja": "基準は要求事項から導き、合否を客観的に判断できるようにする。機能、性能、可用性、セキュリティに加え、監視、バックアップ、文書、支援体制も対象になり得る。",
+          "vi": "Tiêu chí phải xuất phát từ yêu cầu và cho phép quyết định đạt/không đạt khách quan. Ngoài chức năng, hiệu năng, sẵn sàng và bảo mật, còn có thể gồm giám sát, sao lưu, tài liệu và cơ chế hỗ trợ."
+        },
+        {
+          "type": "example",
+          "ja": "例：「ピーク時200件/秒を処理する」「復旧手順が試験済み」「運用手順書と連絡先が承認済み」を受入れ条件として試験する。",
+          "vi": "Ví dụ: kiểm thử các điều kiện “xử lý 200 giao dịch/giây lúc cao điểm”, “thủ tục khôi phục đã được thử” và “tài liệu vận hành cùng danh sách liên hệ đã được duyệt”."
+        },
+        {
+          "type": "warning",
+          "ja": "「使いやすい」「十分に高速」のような測定不能な表現だけでは合否を判定できない。基準と試験結果を混同せず、先に基準を合意する。",
+          "vi": "Các câu mơ hồ như “dễ dùng” hay “đủ nhanh” không cho phép phán định đạt/không đạt. Không nhầm tiêu chí với kết quả kiểm thử; phải thống nhất tiêu chí trước."
         }
       ],
       "terms": [
@@ -2744,8 +2814,8 @@
       "titleJa": "非機能要件",
       "titleVi": "Yêu cầu phi chức năng",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの機能以外の特性や制約に関する要件を指す。",
-      "summaryVi": "Yêu cầu về thuộc tính chất lượng hoặc ràng buộc thay vì chức năng nghiệp vụ.",
+      "summaryJa": "非機能要件は、システムが機能をどの程度の品質で提供するか、また設計・運用上どの制約を守るかを示す測定可能な要求事項である。",
+      "summaryVi": "Yêu cầu phi chức năng quy định mức chất lượng khi hệ thống cung cấp chức năng và các ràng buộc phải tuân thủ trong thiết kế, vận hành; nên được diễn đạt có thể đo lường.",
       "content": [
         {
           "type": "heading",
@@ -2759,8 +2829,18 @@
         },
         {
           "type": "point",
-          "ja": "具体的には、性能、信頼性、セキュリティ、可用性などが含まれる。",
-          "vi": "Điểm cần nhớ: Chức năng là hệ thống làm gì; phi chức năng là làm tốt đến mức nào."
+          "ja": "機能要件が「何をするか」を示すのに対し、非機能要件は性能効率性、信頼性、可用性、セキュリティ、保守性などの品質と制約を示す。試験可能なしきい値を設定する。",
+          "vi": "Yêu cầu chức năng mô tả hệ thống làm gì; yêu cầu phi chức năng mô tả chất lượng và ràng buộc như hiệu năng, độ tin cậy, sẵn sàng, bảo mật và bảo trì. Cần đặt ngưỡng có thể kiểm thử."
+        },
+        {
+          "type": "example",
+          "ja": "例：「検索できる」は機能要件であり、「通常負荷で検索結果を2秒以内に返す」は性能に関する非機能要件である。",
+          "vi": "Ví dụ: “có thể tìm kiếm” là yêu cầu chức năng; “trả kết quả tìm kiếm trong 2 giây ở tải thông thường” là yêu cầu phi chức năng về hiệu năng."
+        },
+        {
+          "type": "warning",
+          "ja": "「非機能」は重要でないという意味ではない。曖昧なままにすると、受入れ時に性能や可用性の合否を判断できない。",
+          "vi": "“Phi chức năng” không có nghĩa là không quan trọng. Nếu mô tả mơ hồ, khi nghiệm thu sẽ không thể đánh giá đạt hay không về hiệu năng và tính sẵn sàng."
         }
       ],
       "terms": [
@@ -2949,8 +3029,8 @@
       "titleJa": "移行計画",
       "titleVi": "Kế hoạch chuyển đổi",
       "importance": "high",
-      "summaryJa": "システムやデータを新しい環境へ移すための具体的な手順や戦略を示す文書である。",
-      "summaryVi": "Tài liệu xác định trình tự, trách nhiệm, thời gian và phương án dự phòng khi chuyển đổi.",
+      "summaryJa": "移行計画は、業務・システム・データを旧環境から新環境へ切り替えるため、範囲、順序、責任、日程、検証、通知、切戻しを定める文書である。",
+      "summaryVi": "Kế hoạch chuyển đổi quy định phạm vi, trình tự, trách nhiệm, lịch, kiểm chứng, thông báo và quay lui khi chuyển nghiệp vụ, hệ thống và dữ liệu từ môi trường cũ sang mới.",
       "content": [
         {
           "type": "heading",
@@ -2964,8 +3044,18 @@
         },
         {
           "type": "point",
-          "ja": "この計画は、移行の目的、範囲、スケジュール、リスク管理の方法などを詳細に記載し、プロジェクトの成功を確実にするために重要である。",
-          "vi": "Điểm cần nhớ: Phải có tiêu chí quyết định tiếp tục hoặc quay về hệ thống cũ."
+          "ja": "計画には、移行方式、データ変換、停止時間、要員、リハーサル、バックアップ、完了確認、Go/No-Go基準、切戻し条件を含め、関係者への通知と業務継続も考慮する。",
+          "vi": "Kế hoạch cần gồm phương thức chuyển đổi, biến đổi dữ liệu, thời gian dừng, nhân sự, diễn tập, sao lưu, xác nhận hoàn tất, tiêu chí Go/No-Go và điều kiện quay lui, đồng thời xét thông báo và duy trì nghiệp vụ."
+        },
+        {
+          "type": "example",
+          "ja": "例：金曜夜に受注を停止し、データを抽出・変換・取込み後、件数と金額を照合し、基準未達なら日曜朝までに旧システムへ戻す。",
+          "vi": "Ví dụ: tối thứ Sáu dừng nhận đơn, trích xuất–chuyển đổi–nạp dữ liệu, đối chiếu số bản ghi và tổng tiền; nếu không đạt tiêu chí thì trở lại hệ thống cũ trước sáng Chủ nhật."
+        },
+        {
+          "type": "warning",
+          "ja": "バックアップ取得だけでは移行計画にならない。復元所要時間、データ同期、業務再開の判断、責任者まで具体化する。",
+          "vi": "Chỉ tạo bản sao lưu chưa phải là kế hoạch chuyển đổi. Phải cụ thể hóa thời gian khôi phục, đồng bộ dữ liệu, quyết định tiếp tục nghiệp vụ và người chịu trách nhiệm."
         }
       ],
       "terms": [
@@ -2990,8 +3080,8 @@
       "titleJa": "移行リハーサル",
       "titleVi": "Diễn tập chuyển đổi",
       "importance": "high",
-      "summaryJa": "新しいシステムや環境へのデータやアプリケーションの移行作業を行う前に、そのプロセスを事前にテストする手法である。",
-      "summaryVi": "Thực hành thử các bước chuyển đổi trước khi thực hiện trên môi trường thật.",
+      "summaryJa": "移行リハーサルは、本番移行前に本番に近い条件で手順を通して実行し、所要時間、役割、データ変換、検証、切戻しの実行可能性を確認する活動である。",
+      "summaryVi": "Diễn tập chuyển đổi chạy thử toàn bộ thủ tục trong điều kiện gần thực tế để xác nhận thời gian, vai trò, biến đổi dữ liệu, kiểm chứng và khả năng quay lui trước khi chuyển thật.",
       "content": [
         {
           "type": "heading",
@@ -3005,8 +3095,18 @@
         },
         {
           "type": "point",
-          "ja": "これは、実際の移行作業時に想定外のトラブルを避けるために重要である。",
-          "vi": "Điểm cần nhớ: Diễn tập không thay thế kiểm tra sau chuyển đổi thật."
+          "ja": "リハーサルでは、手順の抜け、依存関係、権限不足、処理時間超過などを記録し、移行計画とGo/No-Go基準を更新する。",
+          "vi": "Trong diễn tập, ghi lại bước thiếu, quan hệ phụ thuộc, thiếu quyền và vượt thời gian, rồi cập nhật kế hoạch chuyển đổi cùng tiêu chí Go/No-Go."
+        },
+        {
+          "type": "example",
+          "ja": "例：匿名化した本番相当データで移行を通し、予定6時間に対して実測8時間だったため、並列処理と開始時刻を見直す。",
+          "vi": "Ví dụ: diễn tập bằng dữ liệu đã ẩn danh có quy mô tương đương thực tế; thời gian đo được 8 giờ thay vì 6 giờ dự kiến nên phải điều chỉnh xử lý song song và giờ bắt đầu."
+        },
+        {
+          "type": "warning",
+          "ja": "小規模なテストデータだけで成功しても、本番のデータ量、外部接続、権限、担当者連携で失敗し得る。本番条件との差を明示する。",
+          "vi": "Thành công với ít dữ liệu thử không bảo đảm thành công thật; khối lượng dữ liệu, kết nối ngoài, quyền và phối hợp nhân sự có thể gây lỗi. Phải nêu rõ khác biệt với điều kiện sản xuất."
         }
       ],
       "terms": [
@@ -3031,8 +3131,8 @@
       "titleJa": "移行判断",
       "titleVi": "Quyết định chuyển đổi",
       "importance": "high",
-      "summaryJa": "システムやサービスを新しい環境へ移行する際に、その実施可否やタイミングを判断するプロセスである。",
-      "summaryVi": "Quyết định có thực hiện chuyển đổi hay hoãn dựa trên mức sẵn sàng và rủi ro.",
+      "summaryJa": "移行判断は、受入れ基準、試験結果、データ、要員、運用準備、リスク、切戻し可能性を確認し、本番移行を実施するか延期するかを決めるGo/No-Go判断である。",
+      "summaryVi": "Quyết định chuyển đổi là quyết định Go/No-Go dựa trên tiêu chí chấp nhận, kết quả thử, dữ liệu, nhân sự, mức sẵn sàng vận hành, rủi ro và khả năng quay lui.",
       "content": [
         {
           "type": "heading",
@@ -3046,8 +3146,18 @@
         },
         {
           "type": "point",
-          "ja": "この判断は、新しいシステムの準備状況や要件の適合性、業務への影響を考慮することが求められる。",
-          "vi": "Điểm cần nhớ: Không triển khai chỉ vì đã đến lịch nếu chưa đạt tiêu chí."
+          "ja": "判断は事前に合意した客観的基準に基づき、未解決障害、業務影響、支援体制、切戻し期限を含めて権限者が行う。延期時の次の対応も決める。",
+          "vi": "Người có thẩm quyền phải quyết định theo tiêu chí khách quan đã thống nhất, xét lỗi chưa giải quyết, tác động nghiệp vụ, cơ chế hỗ trợ và hạn quay lui; nếu hoãn cũng phải xác định bước tiếp theo."
+        },
+        {
+          "type": "example",
+          "ja": "例：照合差異が許容値を超え、切戻し試験も未完了であるため、予定日時になってもNo-Goとして移行を延期する。",
+          "vi": "Ví dụ: chênh lệch đối chiếu vượt mức cho phép và thử quay lui chưa hoàn tất, nên dù đã đến lịch vẫn quyết định No-Go và hoãn chuyển đổi."
+        },
+        {
+          "type": "warning",
+          "ja": "日程や投入済みコストを理由に基準未達を無視しない。Go判定後も、移行中の中止条件と切戻し権限を明確にしておく。",
+          "vi": "Không bỏ qua tiêu chí chưa đạt chỉ vì lịch trình hay chi phí đã bỏ ra. Ngay cả sau quyết định Go, vẫn phải quy định điều kiện dừng và quyền quyết định quay lui trong lúc chuyển đổi."
         }
       ],
       "terms": [
@@ -3154,8 +3264,8 @@
       "titleJa": "運用テスト",
       "titleVi": "Kiểm thử vận hành",
       "importance": "high",
-      "summaryJa": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するプロセスである。",
-      "summaryVi": "Kiểm tra hệ thống và quy trình có thể vận hành ổn định theo yêu cầu thực tế.",
+      "summaryJa": "運用テストは、運用担当者が監視、ジョブ、バックアップ、復旧、障害対応、権限管理などを実際の運用手順に沿って実行できるか確認する試験である。",
+      "summaryVi": "Kiểm thử vận hành xác nhận đội vận hành có thể thực hiện giám sát, job, sao lưu, khôi phục, xử lý sự cố và quản lý quyền theo đúng thủ tục thực tế.",
       "content": [
         {
           "type": "heading",
@@ -3169,8 +3279,18 @@
         },
         {
           "type": "point",
-          "ja": "運用テストは監視・バックアップ・復旧など運用手順も確認する。",
-          "vi": "Điểm cần nhớ: Không chỉ kiểm thử chức năng ứng dụng."
+          "ja": "アプリケーション機能だけでなく、監視通知が届くか、バックアップから復元できるか、定例ジョブとエスカレーションが手順どおり動くかを確認する。",
+          "vi": "Không chỉ kiểm tra chức năng ứng dụng mà còn xác nhận cảnh báo giám sát được nhận, có thể phục hồi từ backup, job định kỳ và escalation chạy đúng thủ tục."
+        },
+        {
+          "type": "example",
+          "ja": "例：データベース停止を模擬し、監視検知、担当者通知、復旧手順、利用者への連絡、記録作成までを運用担当者が通して実施する。",
+          "vi": "Ví dụ: mô phỏng cơ sở dữ liệu dừng; đội vận hành thực hiện trọn luồng phát hiện giám sát, thông báo phụ trách, khôi phục, liên lạc người dùng và lập bản ghi."
+        },
+        {
+          "type": "warning",
+          "ja": "運用テストは負荷テストや受入れテストと同義ではない。相互に重なる項目はあっても、主眼はサービスを継続運用・支援できることにある。",
+          "vi": "Kiểm thử vận hành không đồng nghĩa với kiểm thử tải hay kiểm thử chấp nhận. Dù có phần giao nhau, trọng tâm là khả năng vận hành và hỗ trợ dịch vụ liên tục."
         }
       ],
       "terms": [
@@ -3195,8 +3315,8 @@
       "titleJa": "受入れテスト",
       "titleVi": "Kiểm thử chấp nhận",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアが仕様通りに機能しているかを確認するための試験である。",
-      "summaryVi": "Kiểm tra giải pháp có đáp ứng tiêu chí và nhu cầu đã thống nhất để được nghiệm thu.",
+      "summaryJa": "受入れテストは、顧客又は利用者の立場から、サービスやシステムが合意済みの要求事項・受入れ基準を満たすか確認し、受入れ判断の根拠とする試験である。",
+      "summaryVi": "Kiểm thử chấp nhận xác nhận từ góc nhìn khách hàng hoặc người dùng rằng dịch vụ/hệ thống đáp ứng yêu cầu và tiêu chí đã thống nhất, làm căn cứ nghiệm thu.",
       "content": [
         {
           "type": "heading",
@@ -3210,8 +3330,18 @@
         },
         {
           "type": "point",
-          "ja": "受入れテストは事前に定めた受入れ基準への適合を確認する。",
-          "vi": "Điểm cần nhớ: Acceptance testing dựa trên yêu cầu chấp nhận, khác kiểm thử đơn vị."
+          "ja": "実業務のシナリオと期待結果を用い、機能だけでなく必要な品質条件も確認する。合否、未解決事項、条件付き受入れなどを記録する。",
+          "vi": "Dùng kịch bản nghiệp vụ thực tế và kết quả mong đợi để kiểm tra cả chức năng lẫn điều kiện chất lượng cần thiết; ghi nhận đạt/không đạt, vấn đề tồn đọng và chấp nhận có điều kiện nếu có."
+        },
+        {
+          "type": "example",
+          "ja": "例：受注担当者が、注文登録から在庫引当、請求までの業務シナリオを実行し、金額計算と権限制御が受入れ基準どおりか確認する。",
+          "vi": "Ví dụ: nhân viên đơn hàng chạy quy trình từ đăng ký đơn, giữ tồn kho đến xuất hóa đơn, rồi xác nhận tính tiền và kiểm soát quyền đúng tiêu chí chấp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "開発者の内部テストが成功しても受入れ完了とはならない。誰が受入れ権限を持つか、どの基準で判断するかを事前に合意する。",
+          "vi": "Kiểm thử nội bộ của đội phát triển thành công chưa có nghĩa đã nghiệm thu. Phải thống nhất trước ai có quyền chấp nhận và quyết định theo tiêu chí nào."
         }
       ],
       "terms": [
@@ -3277,8 +3407,8 @@
       "titleJa": "リリース及び展開管理",
       "titleVi": "Quản lý phát hành và triển khai",
       "importance": "high",
-      "summaryJa": "ソフトウェアやシステムの新しいバージョンを適切に計画し、実施するプロセスである。",
-      "summaryVi": "Lập kế hoạch, kiểm soát việc cung cấp phiên bản và đưa thành phần vào môi trường sử dụng.",
+      "summaryJa": "リリース及び展開管理は、承認・試験済みの変更をリリース単位にまとめ、対象環境への展開、確認、通知、必要時の切戻しを計画・統制する活動である。",
+      "summaryVi": "Quản lý phát hành và triển khai gom các thay đổi đã duyệt và kiểm thử thành đơn vị release, rồi lập kế hoạch và kiểm soát triển khai, xác nhận, thông báo và quay lui khi cần.",
       "content": [
         {
           "type": "heading",
@@ -3292,8 +3422,18 @@
         },
         {
           "type": "point",
-          "ja": "リリースは提供する版、展開は環境へ導入する行為である。",
-          "vi": "Điểm cần nhớ: Release và deployment liên quan nhưng không đồng nghĩa."
+          "ja": "リリースは提供する変更のまとまり、展開はその構成要素を受入れ試験環境や稼働環境へ導入する行為である。対象、順序、方式、確認、切戻しを管理する。",
+          "vi": "Release là tập hợp thay đổi được cung cấp; deployment là hành động đưa các thành phần vào môi trường kiểm thử chấp nhận hoặc vận hành. Cần quản lý đối tượng, thứ tự, phương thức, xác nhận và quay lui."
+        },
+        {
+          "type": "example",
+          "ja": "例：リリース2.4を構成するアプリ、DBスクリプト、手順書を確定し、検証環境後に本番へ段階展開して監視指標を確認する。",
+          "vi": "Ví dụ: chốt ứng dụng, script DB và tài liệu tạo nên release 2.4; sau môi trường kiểm chứng thì triển khai theo từng đợt vào production và theo dõi chỉ số giám sát."
+        },
+        {
+          "type": "warning",
+          "ja": "リリースと展開を同義にしない。リリースを準備しても展開時期は環境や利用者群ごとに異なり、展開後も機能を直ちに有効化しない場合がある。",
+          "vi": "Không đồng nhất release với deployment. Một release đã chuẩn bị có thể được triển khai vào thời điểm khác nhau theo môi trường hoặc nhóm người dùng, và tính năng có thể chưa được bật ngay sau deployment."
         }
       ],
       "terms": [
@@ -3318,8 +3458,8 @@
       "titleJa": "リリース",
       "titleVi": "Bản phát hành",
       "importance": "high",
-      "summaryJa": "ソフトウェアや製品が開発プロセスを経て、ユーザーに提供される準備が整った状態を指す。",
-      "summaryVi": "Tập hợp phần mềm hoặc thành phần được chuẩn bị và cung cấp dưới một phiên bản xác định.",
+      "summaryJa": "リリースは、提供することを承認された一つ以上の変更を、ソフトウェア、設定、文書などの識別可能な単位としてまとめたものである。",
+      "summaryVi": "Release là đơn vị có thể nhận diện gồm một hoặc nhiều thay đổi đã được phép cung cấp, chẳng hạn phần mềm, cấu hình và tài liệu.",
       "content": [
         {
           "type": "heading",
@@ -3333,8 +3473,18 @@
         },
         {
           "type": "point",
-          "ja": "リリースと展開は同じ意味ではない。",
-          "vi": "Điểm cần nhớ: Release là gói hoặc phiên bản cung cấp; deployment là hành động triển khai."
+          "ja": "リリースには版番号、構成内容、既知の問題、導入条件などを記録し、何を提供する単位かを識別可能にする。展開はその単位を環境へ導入する活動である。",
+          "vi": "Release cần ghi phiên bản, thành phần, vấn đề đã biết và điều kiện cài đặt để nhận diện rõ đơn vị được cung cấp. Deployment là hoạt động đưa đơn vị đó vào môi trường."
+        },
+        {
+          "type": "example",
+          "ja": "例：リリース2.4.0に、実行ファイル、設定テンプレート、DB更新スクリプト、リリースノートを含め、構成を一意に管理する。",
+          "vi": "Ví dụ: release 2.4.0 gồm tệp thực thi, mẫu cấu hình, script cập nhật DB và release note; toàn bộ cấu hình được quản lý duy nhất."
+        },
+        {
+          "type": "warning",
+          "ja": "ソースコードを完成させただけでは運用可能なリリースとは限らない。必要な設定、文書、試験結果、承認、導入・切戻し情報も確認する。",
+          "vi": "Hoàn thành mã nguồn chưa chắc đã tạo thành release có thể vận hành. Cần kiểm tra cả cấu hình, tài liệu, kết quả thử, phê duyệt và thông tin triển khai–quay lui."
         }
       ],
       "terms": [
@@ -3342,8 +3492,8 @@
           "term": "リリース",
           "english": "Release",
           "vi": "Bản phát hành",
-          "definitionJa": "ソフトウェアや製品が開発プロセスを経て、ユーザーに提供される準備が整った状態を指す。",
-          "definitionVi": "Tập hợp phần mềm hoặc thành phần được chuẩn bị và cung cấp dưới một phiên bản xác định.",
+          "definitionJa": "提供を承認された変更を、ソフトウェア、設定、文書などの識別可能な単位にまとめたもの。",
+          "definitionVi": "Đơn vị nhận diện được gồm phần mềm, cấu hình, tài liệu và các thay đổi đã được phép cung cấp.",
           "reading": "リリース"
         }
       ],
@@ -3374,8 +3524,18 @@
         },
         {
           "type": "point",
-          "ja": "展開は技術的な導入作業を指す。",
-          "vi": "Điểm cần nhớ: Triển khai kỹ thuật không luôn đồng nghĩa đã công bố tính năng cho người dùng."
+          "ja": "展開は、承認されたリリース構成要素を対象環境へ配置し、導入、設定、データ移行、動作確認などを行う技術的活動である。利用者への公開時点を表すリリースとは区別する。",
+          "vi": "Deployment là hoạt động kỹ thuật đưa các thành phần release đã phê duyệt vào môi trường đích, gồm cài đặt, cấu hình, chuyển dữ liệu và xác nhận hoạt động. Cần phân biệt với release là quyết định/thời điểm cung cấp cho người dùng."
+        },
+        {
+          "type": "example",
+          "ja": "新バージョンを本番サーバへ配置し、DBスキーマを移行してヘルスチェックを行う。ただし機能フラグは無効のままとし、業務承認後に利用者へ公開する。",
+          "vi": "Phiên bản mới được cài lên máy chủ production, migration schema cơ sở dữ liệu và chạy health check; feature flag vẫn tắt và chỉ mở cho người dùng sau phê duyệt nghiệp vụ."
+        },
+        {
+          "type": "warning",
+          "ja": "本番環境へのコピーだけで完了と考えない。バックアップ、ロールバック条件、設定差分、権限、監視、展開後検証を計画し、失敗時に既知の正常状態へ戻せるようにする。",
+          "vi": "Không coi deployment chỉ là sao chép lên production. Phải lập kế hoạch backup, điều kiện rollback, chênh lệch cấu hình, quyền, giám sát và kiểm tra sau triển khai để có thể trở về trạng thái tốt đã biết khi thất bại."
         }
       ],
       "terms": [
@@ -3384,7 +3544,7 @@
           "english": "Deployment",
           "vi": "Triển khai",
           "definitionJa": "ソフトウェアやシステムを開発環境から実際の運用環境に移行し、利用可能な状態にするプロセスである。",
-          "definitionVi": "Đưa phần mềm hoặc cấu hình vào môi trường mục tiêu để có thể vận hành.",
+          "definitionVi": "Hoạt động cài đặt, cấu hình và xác minh các thành phần release trong môi trường đích, có chuẩn bị rollback khi cần.",
           "reading": "てんかい"
         }
       ],
@@ -3538,8 +3698,18 @@
         },
         {
           "type": "point",
-          "ja": "例えば、サービス停止時には原因の完全解明を待たず、暫定対応で復旧を優先する。",
-          "vi": "Điểm cần nhớ: Incident management ưu tiên khôi phục dịch vụ; problem management tìm nguyên nhân gốc."
+          "ja": "インシデント管理は、記録、分類、影響と緊急度による優先順位付け、初期診断、必要なエスカレーション、復旧、終了確認を行う。目的は原因の完全解明より正常サービスの早期復旧である。",
+          "vi": "Incident management ghi nhận, phân loại, ưu tiên theo impact và urgency, chẩn đoán ban đầu, escalation khi cần, khôi phục và xác nhận đóng ticket. Mục tiêu là phục hồi dịch vụ bình thường sớm hơn việc điều tra hoàn toàn nguyên nhân."
+        },
+        {
+          "type": "example",
+          "ja": "認証サービス停止を高優先度で記録し、担当チームへ機能的エスカレーションする。直前版へロールバックしてログインを復旧し、原因調査は問題管理へ引き継ぐ。",
+          "vi": "Sự cố dịch vụ xác thực được ghi nhận với ưu tiên cao và chuyển cho nhóm chuyên môn. Nhóm rollback phiên bản trước để khôi phục đăng nhập, còn điều tra nguyên nhân được chuyển sang problem management."
+        },
+        {
+          "type": "warning",
+          "ja": "インシデントを閉じることと根本原因を除去することは同じではない。利用者と復旧を確認し、記録を残し、再発調査が必要なら問題管理へ関連付ける。",
+          "vi": "Đóng incident không đồng nghĩa đã loại bỏ nguyên nhân gốc. Cần xác nhận khôi phục với người dùng, lưu hồ sơ và liên kết sang problem management nếu phải điều tra tái diễn."
         }
       ],
       "terms": [
@@ -3548,7 +3718,7 @@
           "english": "Incident Management",
           "vi": "Quản lý sự cố dịch vụ",
           "definitionJa": "インシデント管理は、サービスの中断又は品質低下の影響を最小限に抑え、正常なサービスを迅速に復旧する活動である。",
-          "definitionVi": "Hoạt động khôi phục dịch vụ bình thường nhanh nhất và giảm tác động của gián đoạn.",
+          "definitionVi": "Thực hành quản lý vòng đời incident nhằm giảm tác động và đưa dịch vụ trở lại hoạt động bình thường nhanh nhất có thể.",
           "reading": "いんしでんとかんり"
         }
       ],
@@ -3579,8 +3749,18 @@
         },
         {
           "type": "point",
-          "ja": "例えば、Webサービスの予期しない停止や著しい応答遅延が該当する。",
-          "vi": "Điểm cần nhớ: Incident không nhất thiết đã xác định được nguyên nhân."
+          "ja": "インシデントは、計画外の停止、品質低下、又はまだ利用者影響が出ていなくても停止につながり得る構成要素の故障である。原因が判明している必要はない。",
+          "vi": "Incident là gián đoạn ngoài kế hoạch, suy giảm chất lượng hoặc lỗi thành phần có thể dẫn tới gián đoạn dù người dùng chưa bị ảnh hưởng. Không cần biết nguyên nhân trước khi ghi nhận incident."
+        },
+        {
+          "type": "example",
+          "ja": "利用者がログインできない、応答時間がSLAを大きく超えた、冗長構成の片系が故障して耐障害性が失われた、といった事象をインシデントとして記録する。",
+          "vi": "Không đăng nhập được, thời gian đáp ứng vượt xa SLA, hoặc một nhánh dự phòng hỏng làm mất khả năng chịu lỗi đều có thể được ghi nhận là incident."
+        },
+        {
+          "type": "warning",
+          "ja": "情報セキュリティ分野の「セキュリティインシデント」と常に同義ではない。また、計画済み保守による合意済み停止は通常、計画外中断としてのインシデントではない。",
+          "vi": "Không phải lúc nào incident dịch vụ cũng đồng nghĩa security incident. Thời gian ngừng đã lên kế hoạch và được thỏa thuận cho bảo trì thường không phải gián đoạn ngoài kế hoạch."
         }
       ],
       "terms": [
@@ -3589,7 +3769,7 @@
           "english": "Incident",
           "vi": "Sự cố dịch vụ",
           "definitionJa": "インシデントとは、サービスの計画外の中断、品質低下、又はそれらにつながる事象である。",
-          "definitionVi": "Gián đoạn ngoài dự kiến hoặc suy giảm chất lượng dịch vụ, kể cả sự kiện có thể gây gián đoạn.",
+          "definitionVi": "Một gián đoạn ngoài kế hoạch, sự suy giảm chất lượng, hoặc lỗi thành phần chưa gây gián đoạn nhưng có thể ảnh hưởng dịch vụ.",
           "reading": "インシデント"
         }
       ],
@@ -3702,8 +3882,18 @@
         },
         {
           "type": "point",
-          "ja": "これは、企業や組織がサービス品質を維持し、顧客の満足度を向上させるために重要な指標である。",
-          "vi": "Điểm cần nhớ: Thời hạn mục tiêu khác thời gian giải quyết thực tế."
+          "ja": "解決目標時間は、優先順位などに応じて定める目標値であり、実際に解決へ要した時間とは異なる。SLAや内部目標で起算点、対象時間帯、計測停止条件を明確にする。",
+          "vi": "Target resolution time là giá trị mục tiêu theo mức ưu tiên, khác thời gian thực tế đã dùng. SLA hoặc mục tiêu nội bộ phải nêu rõ thời điểm bắt đầu, khung giờ tính và điều kiện tạm dừng đồng hồ."
+        },
+        {
+          "type": "example",
+          "ja": "優先度P1は受付から2時間以内、P2は8営業時間以内を復旧目標とする。P1を90分で復旧した場合、目標2時間と実績90分を別々に記録する。",
+          "vi": "Quy định P1 khôi phục trong 2 giờ từ lúc tiếp nhận, P2 trong 8 giờ làm việc. Nếu P1 được khôi phục sau 90 phút, mục tiêu 2 giờ và thực tế 90 phút được ghi riêng."
+        },
+        {
+          "type": "warning",
+          "ja": "目標時間は全件の解決を保証する値ではない。「応答目標」「復旧目標」「恒久解決目標」を混同せず、SLAでどの時点を解決とみなすか確認する。",
+          "vi": "Mục tiêu không bảo đảm mọi ticket sẽ hoàn tất đúng hạn. Không nhầm response target, restoration target và permanent-resolution target; phải kiểm tra SLA định nghĩa thời điểm nào là đã giải quyết."
         }
       ],
       "terms": [
@@ -3712,7 +3902,7 @@
           "english": "Target Resolution Time",
           "vi": "Thời hạn mục tiêu giải quyết",
           "definitionJa": "インシデントや問題が発生した際に、それを解決するために設定される目標の時間を指す。",
-          "definitionVi": "Khoảng thời gian mục tiêu để giải quyết sự cố hoặc khôi phục dịch vụ theo cam kết.",
+          "definitionVi": "Mốc thời gian đặt ra theo priority để đạt trạng thái giải quyết hoặc phục hồi đã được định nghĩa trong SLA hay quy tắc nội bộ.",
           "reading": "かいけつもくひょうじかん"
         }
       ],
@@ -3743,8 +3933,18 @@
         },
         {
           "type": "point",
-          "ja": "機能的エスカレーションと階層的エスカレーションを区別する。",
-          "vi": "Điểm cần nhớ: Functional escalation chuyển chuyên môn; hierarchical escalation chuyển cấp quản lý."
+          "ja": "機能的エスカレーションは、必要な専門知識・権限を持つ支援グループへ引き継ぐ。階層的エスカレーションは、重大な影響、期限超過、追加資源や意思決定の必要性を管理層へ通知する。",
+          "vi": "Functional escalation chuyển việc cho nhóm hỗ trợ có chuyên môn hoặc quyền kỹ thuật cần thiết. Hierarchical escalation thông báo cấp quản lý khi tác động nghiêm trọng, sắp quá hạn hoặc cần thêm nguồn lực/quyết định."
+        },
+        {
+          "type": "example",
+          "ja": "サービスデスクで解決できないDB障害をDB担当へ渡すのは機能的エスカレーションである。同時にSLA違反の恐れをインシデントマネージャへ報告するのは階層的エスカレーションである。",
+          "vi": "Chuyển lỗi cơ sở dữ liệu mà service desk không xử lý được cho đội DBA là functional escalation; đồng thời báo nguy cơ vi phạm SLA cho incident manager là hierarchical escalation."
+        },
+        {
+          "type": "warning",
+          "ja": "エスカレーションは責任放棄ではない。引継ぎ先、期限、連絡経路、現在までの診断結果を記録し、利用者への連絡責任が誰にあるかを明確にする。",
+          "vi": "Escalation không phải đẩy bỏ trách nhiệm. Phải ghi nhóm nhận, thời hạn, kênh liên lạc, kết quả chẩn đoán hiện có và xác định ai tiếp tục cập nhật cho người dùng."
         }
       ],
       "terms": [
@@ -3753,7 +3953,7 @@
           "english": "Escalation",
           "vi": "Chuyển cấp xử lý",
           "definitionJa": "インシデント管理において問題が解決できない場合、より上位の専門家や管理者に報告し対応を依頼するプロセスである。",
-          "definitionVi": "Chuyển sự cố đến nhóm chuyên môn hoặc cấp quản lý phù hợp để được hỗ trợ.",
+          "definitionVi": "Việc chuyển xử lý theo chuyên môn hoặc báo lên cấp quản lý khi cần năng lực, thẩm quyền hay nguồn lực cao hơn.",
           "reading": "エスカレーション"
         }
       ],
@@ -3784,8 +3984,18 @@
         },
         {
           "type": "point",
-          "ja": "例えば、故障した主系から予備系に切り替え、原因調査中もサービスを継続する。",
-          "vi": "Điểm cần nhớ: Workaround khôi phục khả năng sử dụng, không đồng nghĩa sửa tận gốc."
+          "ja": "回避策は、根本原因を除去せずにインシデントの影響を軽減し、サービス利用を回復させる方法である。再利用できる手順は既知の誤りやナレッジとして記録する。",
+          "vi": "Workaround giảm tác động và khôi phục khả năng sử dụng mà chưa loại bỏ nguyên nhân gốc. Quy trình có thể tái sử dụng nên được ghi trong known error hoặc kho tri thức."
+        },
+        {
+          "type": "example",
+          "ja": "新しいドライバで印刷が失敗するため、影響端末を安定版ドライバへ一時的に戻して業務を再開し、恒久修正版の配布は別途変更として計画する。",
+          "vi": "Do driver mới làm in thất bại, các máy bị ảnh hưởng tạm quay về driver ổn định để tiếp tục công việc; bản sửa vĩnh viễn được lập kế hoạch riêng như một thay đổi."
+        },
+        {
+          "type": "warning",
+          "ja": "回避策には副作用や適用条件がある。暫定対応を恒久解決と誤認せず、リスク、解除方法、有効期限を記録し、根本原因への対応を追跡する。",
+          "vi": "Workaround có thể có tác dụng phụ và điều kiện áp dụng. Không coi xử lý tạm là sửa vĩnh viễn; phải ghi rủi ro, cách gỡ bỏ, thời hạn và tiếp tục theo dõi xử lý nguyên nhân gốc."
         }
       ],
       "terms": [
@@ -3794,7 +4004,7 @@
           "english": "Workaround",
           "vi": "Biện pháp xử lý tạm thời",
           "definitionJa": "回避策とは、根本原因の修正前にインシデントの影響を軽減又は除去するための一時的な対処方法である。",
-          "definitionVi": "Giải pháp tạm giảm hoặc loại bỏ tác động của sự cố khi chưa sửa được nguyên nhân gốc.",
+          "definitionVi": "Cách xử lý làm giảm tác động hoặc khôi phục sử dụng dịch vụ mà chưa loại bỏ nguyên nhân nền tảng của problem.",
           "reading": "かいひさく"
         }
       ],
@@ -3825,8 +4035,18 @@
         },
         {
           "type": "point",
-          "ja": "このようなインシデントは、通常の業務が停止または大幅に制限されることがあるため、迅速かつ効果的な対応が求められる。",
-          "vi": "Điểm cần nhớ: Major incident cần cơ chế phối hợp và truyền thông đặc biệt."
+          "ja": "重大なインシデントは、事業への影響が特に大きく、通常より高い緊急度と特別な調整を要するインシデントである。専任の指揮、迅速なエスカレーション、定期的な状況連絡を行う。",
+          "vi": "Major incident là incident có tác động kinh doanh đặc biệt lớn, cần mức khẩn cấp và điều phối cao hơn thông thường. Phải có đầu mối chỉ huy, escalation nhanh và cập nhật trạng thái định kỳ."
+        },
+        {
+          "type": "example",
+          "ja": "全店舗の決済サービスが停止したため重大インシデントを宣言し、技術復旧、事業判断、顧客連絡の担当を分け、30分ごとに状況を共有する。",
+          "vi": "Khi dịch vụ thanh toán của toàn bộ cửa hàng ngừng, tổ chức tuyên bố major incident, phân công riêng phục hồi kỹ thuật, quyết định kinh doanh và truyền thông khách hàng, rồi cập nhật mỗi 30 phút."
+        },
+        {
+          "type": "warning",
+          "ja": "重大性は技術障害の大きさだけでなく、利用者数、重要業務、時間帯、法令・信用への影響など組織の基準で判定する。全ての高優先度インシデントが自動的に重大インシデントとは限らない。",
+          "vi": "Mức nghiêm trọng được xác định theo tiêu chí tổ chức như số người dùng, nghiệp vụ trọng yếu, thời điểm, tác động pháp lý và uy tín, chứ không chỉ theo độ lớn kỹ thuật. Không phải mọi incident ưu tiên cao tự động là major incident."
         }
       ],
       "terms": [
@@ -3835,7 +4055,7 @@
           "english": "Major Incident",
           "vi": "Sự cố nghiêm trọng",
           "definitionJa": "企業や組織の運営に深刻な影響を及ぼすような事象や事故を指すものである。",
-          "definitionVi": "Sự cố gây tác động lớn đến hoạt động kinh doanh và cần phối hợp xử lý khẩn cấp.",
+          "definitionVi": "Incident có tác động kinh doanh đặc biệt lớn, được áp dụng quy trình điều phối, escalation và truyền thông khẩn cấp riêng.",
           "reading": "じゅうだいないんしでんと"
         }
       ],
@@ -3866,8 +4086,18 @@
         },
         {
           "type": "point",
-          "ja": "例えば、アカウント発行やパスワード再設定の依頼を定型手順で処理する。",
-          "vi": "Điểm cần nhớ: Service request khác incident: yêu cầu thông thường không nhất thiết có sự cố."
+          "ja": "サービス要求管理では、利用者起点の事前定義された要求を、受付、分類、必要な承認、実現、完了確認まで一貫して処理する。要求モデルや自動化により品質と処理時間を安定させる。",
+          "vi": "Service request management xử lý nhất quán yêu cầu định nghĩa trước do người dùng khởi tạo: tiếp nhận, phân loại, phê duyệt nếu cần, thực hiện và xác nhận hoàn tất. Request model và tự động hóa giúp ổn định chất lượng, thời gian xử lý."
+        },
+        {
+          "type": "example",
+          "ja": "入社者アカウント要求をポータルで受け付け、上長承認後に標準権限を自動付与し、本人へ完了通知して記録を閉じる。",
+          "vi": "Yêu cầu tài khoản nhân viên mới được nhận qua portal; sau phê duyệt của quản lý, hệ thống tự cấp quyền chuẩn, thông báo hoàn tất và đóng hồ sơ."
+        },
+        {
+          "type": "warning",
+          "ja": "定型要求でも、アクセス権や費用を伴う場合は承認と職務分離を省略しない。サービス中断の復旧はインシデント管理、サービス仕様そのものの変更は変更管理と連携する。",
+          "vi": "Dù là yêu cầu chuẩn, không được bỏ phê duyệt và phân tách nhiệm vụ khi liên quan quyền truy cập hoặc chi phí. Khôi phục gián đoạn thuộc incident management; thay đổi bản thân dịch vụ phải phối hợp change management."
         }
       ],
       "terms": [
@@ -3876,7 +4106,7 @@
           "english": "Service Request Management",
           "vi": "Quản lý yêu cầu dịch vụ",
           "definitionJa": "サービス要求管理は、利用者からの定型的なサービス要求を受け付け、承認し、実現する活動である。",
-          "definitionVi": "Tiếp nhận và xử lý các yêu cầu dịch vụ tiêu chuẩn của người dùng.",
+          "definitionVi": "Thực hành tiếp nhận, phê duyệt, thực hiện và xác nhận hoàn tất các yêu cầu chuẩn do người dùng khởi tạo.",
           "reading": "さーびすようきゅうかんり"
         }
       ],
@@ -3907,8 +4137,18 @@
         },
         {
           "type": "point",
-          "ja": "この要求は、ITサービスマネジメントの一部として扱われ、通常はサポートデスクを通じて処理される。",
-          "vi": "Điểm cần nhớ: Không nhầm service request với RFC thay đổi hệ thống."
+          "ja": "サービス要求は、情報提供、アクセス、標準サービス、事前承認済みの変更などを求める利用者起点の要求である。故障の報告であるインシデントや、変更を審査するRFCとは目的が異なる。",
+          "vi": "Service request là yêu cầu do người dùng khởi tạo về thông tin, quyền truy cập, dịch vụ chuẩn hoặc thay đổi đã được phê duyệt trước. Nó khác incident báo hỏng và RFC dùng để đánh giá một thay đổi."
+        },
+        {
+          "type": "example",
+          "ja": "利用者が承認済みソフトウェアのインストールを依頼するのはサービス要求である。一方、そのソフトウェアが起動しないという報告はインシデントである。",
+          "vi": "Người dùng đề nghị cài phần mềm đã được phê duyệt là service request; báo rằng phần mềm đó không khởi động được là incident."
+        },
+        {
+          "type": "warning",
+          "ja": "同じ窓口で受け付けても、サービス要求とインシデントを同じ分類にしない。分類を誤ると、承認経路、優先順位、SLA、報告指標が不適切になる。",
+          "vi": "Dù nhận qua cùng service desk, không phân loại service request và incident như nhau. Phân loại sai làm lệch luồng phê duyệt, priority, SLA và chỉ số báo cáo."
         }
       ],
       "terms": [
@@ -3917,7 +4157,7 @@
           "english": "Service Request",
           "vi": "Yêu cầu dịch vụ từ người dùng",
           "definitionJa": "ユーザーが特定のサービスやリソースを必要とする際に提出する正式なリクエストである。",
-          "definitionVi": "Đề nghị được cung cấp thông tin, quyền truy cập hoặc thao tác dịch vụ đã quy định.",
+          "definitionVi": "Yêu cầu do người dùng khởi tạo về thông tin, quyền truy cập, dịch vụ chuẩn hoặc thay đổi đã phê duyệt trước.",
           "reading": "さーびすようきゅう"
         }
       ],
@@ -3989,8 +4229,18 @@
         },
         {
           "type": "point",
-          "ja": "緊急度は対応の速さ、影響は被害の大きさを示す。",
-          "vi": "Điểm cần nhớ: Urgency là mức cần xử lý nhanh; impact là phạm vi ảnh hưởng."
+          "ja": "緊急度は、対応を遅らせた場合に悪影響が拡大するまでの速さを表す。影響が及ぶ範囲や大きさを示す影響度と組み合わせ、優先順位を決める。",
+          "vi": "Urgency biểu thị hậu quả sẽ tăng nhanh tới mức nào nếu trì hoãn xử lý. Nó được kết hợp với impact—phạm vi và mức độ ảnh hưởng—để xác định priority."
+        },
+        {
+          "type": "example",
+          "ja": "月末締めの直前に一人の担当者だけが処理できない障害は、影響範囲は小さくても期限が迫るため緊急度が高い。一方、軽微な表示崩れは利用者が多くても緊急度が低い場合がある。",
+          "vi": "Lỗi chỉ ảnh hưởng một nhân viên nhưng xảy ra ngay trước hạn chốt tháng có thể impact nhỏ mà urgency cao. Ngược lại, lỗi hiển thị nhẹ dù nhiều người thấy có thể urgency thấp."
+        },
+        {
+          "type": "warning",
+          "ja": "緊急度を申告者の役職や声の大きさだけで決めない。業務期限、回避策の有無、時間経過による損失など、合意した客観基準で評価する。",
+          "vi": "Không xác định urgency chỉ theo chức vụ hoặc mức độ thúc giục của người báo. Hãy dùng tiêu chí đã thống nhất như hạn nghiệp vụ, có workaround hay không và thiệt hại tăng theo thời gian."
         }
       ],
       "terms": [
@@ -3999,7 +4249,7 @@
           "english": "Urgency",
           "vi": "Tính khẩn cấp",
           "definitionJa": "サービス要求に対する解決や対応の必要性を示す指標である。",
-          "definitionVi": "Mức độ nhanh chóng cần thực hiện hành động để tránh hậu quả không mong muốn.",
+          "definitionVi": "Chỉ báo tốc độ cần xử lý trước khi tác động kinh doanh hoặc hậu quả của incident hay request tăng lên.",
           "reading": "きんきゅうど"
         }
       ],
@@ -4030,8 +4280,18 @@
         },
         {
           "type": "point",
-          "ja": "優先順位は影響と緊急度などを基に決める。",
-          "vi": "Điểm cần nhớ: Priority thường được xác định từ impact và urgency, không chỉ một yếu tố."
+          "ja": "優先順位は、一般に影響度と緊急度の組合せから決定し、対応順序、目標時間、投入資源を管理する。組織で定義した優先度マトリクスを一貫して適用する。",
+          "vi": "Priority thường được xác định từ tổ hợp impact và urgency, dùng để quản lý thứ tự xử lý, thời hạn mục tiêu và nguồn lực. Ma trận priority của tổ chức phải được áp dụng nhất quán."
+        },
+        {
+          "type": "example",
+          "ja": "全社サービス停止は影響度・緊急度とも高くP1、一部利用者の軽微な表示不具合は影響度中・緊急度低でP3とする。ただし具体的な番号体系は組織の定義に従う。",
+          "vi": "Ngừng dịch vụ toàn công ty có impact và urgency cao nên xếp P1; lỗi hiển thị nhẹ của một số người có thể impact trung bình, urgency thấp và xếp P3. Cách đánh số cụ thể tùy tổ chức."
+        },
+        {
+          "type": "warning",
+          "ja": "優先順位と重大度を無条件に同一視しない。調査で影響や緊急度が変われば再評価し、受付順だけで固定しない。また、組織によってP1が最高とは限らないため定義を確認する。",
+          "vi": "Không mặc định priority và severity là một. Khi điều tra làm thay đổi impact hoặc urgency phải đánh giá lại, không cố định theo thứ tự tiếp nhận. Cũng cần kiểm tra quy ước vì không phải tổ chức nào P1 cũng cao nhất."
         }
       ],
       "terms": [
@@ -4040,7 +4300,7 @@
           "english": "Priority",
           "vi": "Thứ tự ưu tiên",
           "definitionJa": "タスクや要求を重要性や緊急性に基づいてランク付けする手法である。",
-          "definitionVi": "Thứ hạng quyết định yêu cầu hoặc sự cố nào được xử lý trước.",
+          "definitionVi": "Mức xếp hạng, thường suy ra từ impact và urgency, dùng để quyết định thứ tự xử lý và mục tiêu thời gian.",
           "reading": "ゆうせんじゅんい"
         }
       ],
@@ -4112,8 +4372,18 @@
         },
         {
           "type": "point",
-          "ja": "インシデント管理が早期復旧を重視するのに対し、問題管理は根本原因と再発防止を重視する。",
-          "vi": "Điểm cần nhớ: Problem management hướng đến nguyên nhân và phòng ngừa; incident management hướng phục hồi nhanh."
+          "ja": "問題管理は、関連インシデントや傾向を分析して問題を特定し、根本原因、回避策、既知の誤り、恒久対策を管理する。発生後の分析だけでなく、再発前に傾向から問題を見つける予防的活動も含む。",
+          "vi": "Problem management phân tích incident và xu hướng để xác định problem, rồi quản lý root cause, workaround, known error và giải pháp lâu dài. Nó gồm cả phản ứng sau sự cố lẫn chủ động phát hiện vấn đề từ xu hướng trước khi tái diễn."
+        },
+        {
+          "type": "example",
+          "ja": "毎週発生する短時間のDB停止を一つの問題として登録し、ログと変更履歴を分析して接続プール設定を根本原因と特定する。回避策を共有し、恒久変更を計画する。",
+          "vi": "Các lần cơ sở dữ liệu ngừng ngắn hằng tuần được gom thành một problem; nhóm phân tích log và lịch sử thay đổi, xác định cấu hình connection pool là nguyên nhân, chia sẻ workaround rồi lập thay đổi lâu dài."
+        },
+        {
+          "type": "warning",
+          "ja": "全てのインシデントで完全な根本原因分析を行うとは限らない。事業影響、再発頻度、分析・修正コストを比較して問題を優先順位付けし、受容するリスクも記録する。",
+          "vi": "Không phải mọi incident đều cần phân tích root cause đầy đủ. Cần ưu tiên problem theo tác động kinh doanh, tần suất tái diễn và chi phí phân tích/sửa; rủi ro được chấp nhận cũng phải ghi lại."
         }
       ],
       "terms": [
@@ -4122,7 +4392,7 @@
           "english": "Problem Management",
           "vi": "Quản lý vấn đề",
           "definitionJa": "問題管理は、インシデントの根本原因を特定し、発生や再発の可能性と影響を低減する活動である。",
-          "definitionVi": "Hoạt động xác định, phân tích nguyên nhân gốc và giảm nguy cơ sự cố lặp lại.",
+          "definitionVi": "Thực hành quản lý nguyên nhân tiềm ẩn hoặc thực tế của incident, gồm phân tích, workaround, known error và biện pháp lâu dài.",
           "reading": "もんだいかんり"
         }
       ],
@@ -4153,8 +4423,18 @@
         },
         {
           "type": "point",
-          "ja": "これを特定することで、問題を表面的に対処するのではなく、再発を防止するための根本的な解決策を講じることが可能である。",
-          "vi": "Điểm cần nhớ: Sửa triệu chứng không đảm bảo loại bỏ nguyên nhân gốc."
+          "ja": "根本原因は、除去又は制御すれば同種インシデントの発生・再発可能性を下げられる基礎的要因である。症状、直接原因、寄与要因を分け、証拠に基づいて分析する。",
+          "vi": "Root cause là yếu tố nền tảng mà nếu loại bỏ hoặc kiểm soát sẽ giảm khả năng phát sinh/tái diễn incident cùng loại. Cần tách triệu chứng, nguyên nhân trực tiếp và yếu tố góp phần, dựa trên bằng chứng."
+        },
+        {
+          "type": "example",
+          "ja": "「応答が遅い」は症状、「DB待ちが増えた」は直接原因である。実行計画を確認し、リリース時に必要な索引が適用されなかった手順不備まで特定して再発防止策を決める。",
+          "vi": "“Phản hồi chậm” là triệu chứng; “thời gian chờ DB tăng” là nguyên nhân trực tiếp. Kiểm tra execution plan cho thấy quy trình release bỏ sót index cần thiết, từ đó mới xác định biện pháp ngăn tái diễn."
+        },
+        {
+          "type": "warning",
+          "ja": "複雑な障害に根本原因が一つだけとは限らない。最初に見つかった人的ミスで分析を止めず、なぜ検出・防止できなかったかというプロセスや技術上の要因も調べる。",
+          "vi": "Sự cố phức tạp có thể có nhiều root cause. Không dừng ở “lỗi con người” đầu tiên; cần điều tra cả yếu tố quy trình và kỹ thuật khiến lỗi không được ngăn chặn hoặc phát hiện."
         }
       ],
       "terms": [
@@ -4163,7 +4443,7 @@
           "english": "Root Cause",
           "vi": "Nguyên nhân gốc",
           "definitionJa": "問題が発生する際の最も基本的な原因を指すものである。",
-          "definitionVi": "Nguyên nhân nền tảng gây ra hoặc góp phần gây ra một vấn đề.",
+          "definitionVi": "Yếu tố nền tảng mà việc loại bỏ hoặc kiểm soát nó có thể giảm khả năng incident cùng loại phát sinh hay tái diễn.",
           "reading": "こんぽんげんいん"
         }
       ],
@@ -4235,8 +4515,18 @@
         },
         {
           "type": "point",
-          "ja": "既知の誤りは、恒久的な修正が完了していなくても記録・管理できる。",
-          "vi": "Điểm cần nhớ: Known error có thể chưa được sửa triệt để."
+          "ja": "既知の誤りは、分析済みで原因又は回避策が記録された問題であり、恒久解決前でも登録できる。再発インシデントを既知の誤りへ関連付け、復旧を速める。",
+          "vi": "Known error là problem đã được phân tích và ghi nhận nguyên nhân hoặc workaround; có thể đăng ký trước khi sửa vĩnh viễn. Liên kết incident tái diễn với known error giúp khôi phục nhanh hơn."
+        },
+        {
+          "type": "example",
+          "ja": "特定ドライバ版で接続が切れる原因と、サービス再起動による回避策を既知の誤りレコードへ記録する。次回の同一症状ではサービスデスクが直ちに回避策を案内する。",
+          "vi": "Nguyên nhân mất kết nối ở một phiên bản driver và workaround khởi động lại dịch vụ được ghi vào known-error record. Khi triệu chứng lặp lại, service desk có thể hướng dẫn ngay."
+        },
+        {
+          "type": "warning",
+          "ja": "「既知」とは恒久修正済みという意味ではない。また、ベンダーが公開した一般的な製品不具合だけを指す語でもない。適用条件、回避策のリスク、修正状況を更新する。",
+          "vi": "“Known” không có nghĩa đã sửa vĩnh viễn, cũng không chỉ là lỗi sản phẩm công khai bởi nhà cung cấp. Phải cập nhật điều kiện áp dụng, rủi ro của workaround và trạng thái sửa chữa."
         }
       ],
       "terms": [
@@ -4245,7 +4535,7 @@
           "english": "Known Error",
           "vi": "Lỗi đã biết",
           "definitionJa": "既知の誤りとは、分析が行われ、原因又は回避策などが記録された問題である。",
-          "definitionVi": "Vấn đề đã được phân tích và có thông tin nguyên nhân hoặc cách xử lý tạm thời được ghi nhận.",
+          "definitionVi": "Problem đã qua phân tích, trong đó nguyên nhân hoặc workaround đã được ghi lại dù giải pháp vĩnh viễn có thể chưa hoàn tất.",
           "reading": "きちのあやまり"
         }
       ],
@@ -4276,8 +4566,18 @@
         },
         {
           "type": "point",
-          "ja": "可用性は必要なときにサービスを利用できる程度である。",
-          "vi": "Điểm cần nhớ: Availability management hướng đến mức sẵn sàng cam kết."
+          "ja": "サービス可用性管理は、事業要求から可用性目標を定め、測定・監視し、信頼性、保守性、回復力、単一障害点などを分析して改善する。必要なときに合意条件で機能を利用できる状態を扱う。",
+          "vi": "Availability management xác định mục tiêu từ yêu cầu kinh doanh, đo lường/giám sát và cải tiến dựa trên reliability, maintainability, resilience và single point of failure. Nó quản lý khả năng dùng chức năng khi cần theo điều kiện đã thỏa thuận."
+        },
+        {
+          "type": "example",
+          "ja": "30日間を常時提供するサービスで可用性目標99.9%なら、単純計算の許容停止時間は月43.2分である。実測停止を集計し、単一障害点には冗長化や迅速な切替えを計画する。",
+          "vi": "Với dịch vụ hoạt động liên tục trong 30 ngày và mục tiêu 99,9%, downtime cho phép theo phép tính đơn giản là 43,2 phút/tháng. Tổ chức đo downtime và lập dự phòng/chuyển đổi nhanh cho điểm lỗi đơn."
+        },
+        {
+          "type": "warning",
+          "ja": "可用性100%を無条件に目指すのではなく、事業価値と費用を考慮して合意する。計画停止を算入するか、測定時間帯や除外条件は契約ごとに異なるため、計算式の前提を確認する。",
+          "vi": "Không mặc định phải đạt 100%; mục tiêu cần cân bằng giá trị kinh doanh và chi phí. Việc tính planned downtime, khung giờ đo và điều kiện loại trừ khác nhau theo thỏa thuận, nên phải kiểm tra giả định của công thức."
         }
       ],
       "terms": [
@@ -4286,7 +4586,7 @@
           "english": "Service Availability Management",
           "vi": "Quản lý tính sẵn sàng dịch vụ",
           "definitionJa": "提供されるサービスが適切に稼働し、利用者が常にアクセスできる状態を維持するためのプロセスである。",
-          "definitionVi": "Hoạt động lập kế hoạch, đo lường và cải tiến khả năng sử dụng dịch vụ theo yêu cầu.",
+          "definitionVi": "Thực hành xác định mục tiêu, đo lường, phân tích rủi ro và cải tiến khả năng dịch vụ hoạt động khi được yêu cầu.",
           "reading": "さーびすかようせいかんり"
         }
       ],

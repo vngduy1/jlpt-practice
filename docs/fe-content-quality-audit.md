@@ -5,11 +5,11 @@
 ## Kết luận chính
 
 - Tổng số bài học logic: **2596** trong **96** chapter và **23** nhóm.
-- Phân loại cấu trúc: **A 191**, **B 2405**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
-- Thiếu block: point **36**, example **2482**, warning **2473**, terms **0**.
-- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **447** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
-- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **4** bài; có phần Việt lặp nguyên văn trong cùng bài: **1610** bài.
-- Có dấu hiệu nội dung khuôn mẫu/chung chung: **2082** bài; có trùng chính xác với bài khác: **234** bài.
+- Phân loại cấu trúc: **A 311**, **B 2285**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
+- Thiếu block: point **36**, example **2363**, warning **2353**, terms **0**.
+- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **431** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
+- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **4** bài; có phần Việt lặp nguyên văn trong cùng bài: **1535** bài.
+- Có dấu hiệu nội dung khuôn mẫu/chung chung: **1987** bài; có trùng chính xác với bài khác: **203** bài.
 - Phát hiện **0** lỗi cấu trúc file; đáng chú ý có **0** bài nằm trong mảng `lessons` bị lồng và không tương thích loader hiện tại.
 
 ## Bước 1 — Cấu trúc được hỗ trợ
@@ -36,7 +36,7 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 基礎理論 / Lý thuyết cơ bản | 47 | 37 | 10 | 0 | 0 | 7 | 4 | 0 | 0 | 0 |
 | アルゴリズムとプログラミング / Thuật toán và lập trình | 102 | 49 | 53 | 0 | 0 | 86 | 99 | 0 | 0 | 0 |
-| コンピュータ構成要素 / Các thành phần cấu tạo máy tính | 191 | 36 | 155 | 0 | 0 | 186 | 191 | 0 | 0 | 0 |
+| コンピュータ構成要素 / Các thành phần cấu tạo máy tính | 191 | 66 | 125 | 0 | 0 | 157 | 161 | 0 | 0 | 0 |
 | システム構成要素 / Các thành phần cấu thành hệ thống | 87 | 16 | 71 | 0 | 0 | 87 | 87 | 0 | 0 | 0 |
 | ソフトウェア / Phần mềm | 38 | 0 | 38 | 0 | 1 | 38 | 32 | 0 | 0 | 0 |
 | ハードウェア / Phần cứng | 4 | 0 | 4 | 0 | 0 | 4 | 2 | 0 | 0 | 0 |
@@ -46,17 +46,17 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 | ネットワーク / Mạng máy tính | 38 | 6 | 32 | 0 | 32 | 32 | 32 | 0 | 0 | 0 |
 | セキュリティ / Bảo mật | 149 | 0 | 149 | 0 | 0 | 149 | 149 | 0 | 0 | 0 |
 | システム開発技術 / Công nghệ phát triển hệ thống | 402 | 0 | 402 | 0 | 0 | 402 | 402 | 0 | 0 | 0 |
-| ソフトウェア開発管理技術 / Công nghệ quản lý phát triển phần mềm | 90 | 0 | 90 | 0 | 0 | 90 | 90 | 0 | 0 | 0 |
+| ソフトウェア開発管理技術 / Công nghệ quản lý phát triển phần mềm | 90 | 15 | 75 | 0 | 0 | 75 | 75 | 0 | 0 | 0 |
 | プロジェクトマネジメント / Quản lý dự án | 167 | 0 | 167 | 0 | 0 | 167 | 167 | 0 | 0 | 0 |
-| サービスマネジメント / Quản lý dịch vụ | 179 | 15 | 164 | 0 | 0 | 164 | 164 | 0 | 0 | 0 |
+| サービスマネジメント / Quản lý dịch vụ | 179 | 45 | 134 | 0 | 0 | 134 | 134 | 0 | 0 | 0 |
 | システム監査 / Kiểm toán hệ thống | 67 | 0 | 67 | 0 | 0 | 67 | 67 | 0 | 0 | 0 |
 | システム戦略 / Chiến lược hệ thống | 97 | 0 | 97 | 0 | 0 | 97 | 97 | 0 | 0 | 0 |
 | システム企画 / Hoạch định hệ thống | 45 | 0 | 45 | 0 | 0 | 45 | 45 | 0 | 0 | 0 |
 | 経営戦略マネジメント / Quản lý chiến lược kinh doanh | 116 | 10 | 106 | 0 | 0 | 106 | 106 | 0 | 0 | 2 |
 | 技術戦略マネジメント / Quản lý chiến lược công nghệ | 41 | 0 | 41 | 0 | 0 | 41 | 41 | 0 | 0 | 0 |
-| ビジネスインダストリ / Công nghiệp kinh doanh | 180 | 0 | 180 | 0 | 0 | 180 | 180 | 0 | 0 | 0 |
+| ビジネスインダストリ / Công nghiệp kinh doanh | 180 | 15 | 165 | 0 | 0 | 165 | 165 | 0 | 0 | 0 |
 | 企業活動 / Hoạt động doanh nghiệp | 247 | 15 | 232 | 0 | 0 | 232 | 232 | 0 | 0 | 0 |
-| 法務 / Pháp vụ | 268 | 0 | 268 | 0 | 0 | 268 | 268 | 0 | 0 | 2 |
+| 法務 / Pháp vụ | 268 | 30 | 238 | 0 | 0 | 238 | 238 | 0 | 0 | 2 |
 
 ## Trường hợp không nên thêm block chỉ để đủ cấu trúc
 
@@ -64,15 +64,15 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 - Không bắt buộc tách `example` thành block riêng nếu paragraph/point đã có ví dụ cụ thể, đúng và đủ nổi bật; script đánh dấu `embeddedExample` để biên tập viên quyết định.
 - Không nhân bản summary vào point hay definition chỉ để có đủ field. Point phải chốt mẹo làm bài/quan hệ phân biệt; term definition phải định nghĩa thuật ngữ độc lập.
 - Không thêm heading vào bài rất ngắn chỉ để tăng block; trước tiên cần xác định bài có nên gộp với bài liên quan hay cần mở rộng nội dung.
-- Hiện có **1968** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
-- Hiện có **1629** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
+- Hiện có **1872** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
+- Hiện có **1556** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
 
 ## Kế hoạch nâng cấp ưu tiên
 
 1. **P0 — Khôi phục khả năng dùng dữ liệu (0 bài):** xử lý bài C, trường bắt buộc trống, nội dung Việt trống và lỗi mảng lessons bị lồng. Đây là lỗi dữ liệu/runtime, không chỉ là biên tập.
-2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (1183 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
+2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (1063 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
 3. **P2 — Nâng chiều sâu (1222 bài):** bổ sung ví dụ thực sự có giá trị, thay point chung chung, tách nội dung lặp và cân nhắc warning theo ngữ cảnh.
-4. **P3 — Review chuyên môn cho A (191 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
+4. **P3 — Review chuyên môn cho A (311 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
 
 ## Lỗi cấu trúc file
 
@@ -155,39 +155,9 @@ Cần nâng cấp: **53** (B 53, C 0).
 
 ### 03-computer-components — コンピュータ構成要素 / Các thành phần cấu tạo máy tính
 
-Cần nâng cấp: **155** (B 155, C 0).
+Cần nâng cấp: **125** (B 125, C 0).
 
-- **B/P1** ワークステーション / Máy trạm — `processor/workstation` — thiếu ví dụ
-- **B/P1** スーパーコンピュータ / Siêu máy tính — `processor/supercomputer` — thiếu ví dụ
 - **B/P2** デスクトップPC / Máy tính để bàn — `processor/desktop-pc` — thiếu ví dụ
-- **B/P1** ノートPC / Máy tính xách tay — `processor/notebook-pc` — thiếu ví dụ
-- **B/P1** サーバ / Máy chủ — `processor/server` — thiếu ví dụ
-- **B/P1** 制御用コンピュータ / Máy tính điều khiển — `processor/control-computer` — thiếu ví dụ
-- **B/P1** マイクロコンピュータ / Máy vi tính — `processor/microcomputer` — thiếu ví dụ
-- **B/P1** コンピュータの五大装置 / Năm bộ phận chính của máy tính — `processor/five-major-components` — thiếu ví dụ
-- **B/P1** CPU / Bộ xử lý trung tâm — `processor/cpu` — thiếu ví dụ
-- **B/P1** GPU / Bộ xử lý đồ họa — `processor/gpu` — thiếu ví dụ
-- **B/P1** RISC / Kiến trúc RISC — `processor/risc` — thiếu ví dụ
-- **B/P1** CISC / Kiến trúc CISC — `processor/cisc` — thiếu ví dụ
-- **B/P1** ワイヤドロジック制御方式 / Phương thức điều khiển logic nối cứng — `processor/wired-logic-control` — thiếu ví dụ
-- **B/P1** マイクロプログラム制御方式 / Phương thức điều khiển vi chương trình — `processor/microprogram-control` — thiếu ví dụ
-- **B/P1** レジスタ / Thanh ghi — `processor/register` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** アキュムレータ / Thanh ghi tích lũy — `processor/accumulator` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 命令アドレスレジスタ / Thanh ghi địa chỉ lệnh — `processor/instruction-address-register` — thiếu ví dụ
-- **B/P1** 命令レジスタ / Thanh ghi lệnh — `processor/instruction-register` — thiếu ví dụ
-- **B/P1** デコーダ / Bộ giải mã — `processor/decoder` — thiếu ví dụ
-- **B/P1** 汎用レジスタ / Thanh ghi đa dụng — `processor/general-purpose-register` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** インデックスレジスタ / Thanh ghi chỉ số — `processor/index-register` — thiếu ví dụ
-- **B/P1** ベースレジスタ / Thanh ghi cơ sở — `processor/base-register` — thiếu ví dụ, ngắn
-- **B/P1** スタックポインタ / Con trỏ ngăn xếp — `processor/stack-pointer` — thiếu ví dụ, ngắn
-- **B/P1** 順序回路 / Mạch tuần tự — `processor/sequential-circuit` — thiếu ví dụ
-- **B/P1** 組合せ回路 / Mạch tổ hợp — `processor/combinational-circuit` — thiếu ví dụ
-- **B/P1** AND回路 / Mạch AND — `processor/and-circuit` — ngắn
-- **B/P1** NOT回路 / Mạch NOT — `processor/not-circuit` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** NAND回路 / Mạch NAND — `processor/nand-circuit` — thiếu ví dụ
-- **B/P1** 命令の実行手順 / Trình tự thực thi lệnh — `processor/instruction-execution-sequence` — thiếu ví dụ
-- **B/P1** アドレス修飾 / Điều chỉnh địa chỉ — `processor/address-modification` — thiếu ví dụ
-- **B/P1** 算術演算命令 / Lệnh phép toán số học — `processor/arithmetic-operation-instruction` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** 論理演算命令 / Lệnh phép toán logic — `processor/logical-operation-instruction` — thiếu ví dụ
 - **B/P1** 転送命令 / Lệnh truyền dữ liệu — `processor/transfer-instruction` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** 比較命令 / Lệnh so sánh — `processor/comparison-instruction` — thiếu ví dụ
@@ -1090,30 +1060,15 @@ Cần nâng cấp: **402** (B 402, C 0).
 
 ### 13-software-development-management-technology — ソフトウェア開発管理技術 / Công nghệ quản lý phát triển phần mềm
 
-Cần nâng cấp: **90** (B 90, C 0).
+Cần nâng cấp: **75** (B 75, C 0).
 
-- **B/P1** ウォーターフォールモデル / Mô hình thác nước — `development-process-methods/waterfall-model` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** プロトタイピングモデル / Mô hình tạo mẫu — `development-process-methods/prototyping-model` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** アジャイル / Agile — `development-process-methods/agile` — khuôn mẫu/lặp
-- **B/P1** DevOps / DevOps — `development-process-methods/development-operations` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** MLOps / MLOps — `development-process-methods/machine-learning-operations` — khuôn mẫu/lặp
 - **B/P2** ソフトウェアプロダクトライン / Dòng sản phẩm phần mềm — `development-process-methods/software-product-line` — khuôn mẫu/lặp
-- **B/P1** 段階的モデル / Mô hình tăng dần — `development-process-methods/incremental-model` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 進展的モデル / Mô hình tiến hóa — `development-process-methods/evolutionary-model` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** アジャイルソフトウェア開発宣言 / Tuyên ngôn Phát triển Phần mềm Agile — `development-process-methods/agile-software-development-manifesto` — khuôn mẫu/lặp
 - **B/P2** アジャイルソフトウェアの12の原則 / 12 nguyên tắc của phần mềm Agile — `development-process-methods/twelve-principles-of-agile-software` — khuôn mẫu/lặp
-- **B/P1** XP / Lập trình cực hạn (XP) — `development-process-methods/extreme-programming` — khuôn mẫu/lặp
-- **B/P1** スクラム / Scrum — `development-process-methods/scrum` — khuôn mẫu/lặp
-- **B/P1** テスト駆動開発 / Phát triển hướng kiểm thử (TDD) — `development-process-methods/test-driven-development` — khuôn mẫu/lặp
 - **B/P2** ユーザーストーリー / User Story — `development-process-methods/user-story` — khuôn mẫu/lặp
 - **B/P2** モブプログラミング / Mob Programming — `development-process-methods/mob-programming` — khuôn mẫu/lặp
-- **B/P1** リファクタリング / Tái cấu trúc mã — `development-process-methods/refactoring` — khuôn mẫu/lặp
 - **B/P2** ふりかえり / Họp nhìn lại — `development-process-methods/retrospective` — khuôn mẫu/lặp
-- **B/P1** KPT / KPT (Keep, Problem, Try) — `development-process-methods/keep-problem-try` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
-- **B/P1** 継続的インテグレーション / Tích hợp liên tục (CI) — `development-process-methods/continuous-integration` — khuôn mẫu/lặp
-- **B/P1** ペアプログラミング / Lập trình cặp — `development-process-methods/pair-programming` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** ソースコードの共同所有 / Sở hữu mã nguồn tập thể — `development-process-methods/source-code-ownership` — khuôn mẫu/lặp
-- **B/P1** YAGNI / YAGNI — `development-process-methods/you-arent-gonna-need-it` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** スクラムチーム / Nhóm Scrum — `development-process-methods/scrum-team` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** スプリント / Sprint — `development-process-methods/sprint` — khuôn mẫu/lặp
 - **B/P1** プロダクトバックログ / Product Backlog — `development-process-methods/product-backlog` — thiếu ví dụ, khuôn mẫu/lặp
@@ -1357,7 +1312,7 @@ Cần nâng cấp: **167** (B 167, C 0).
 
 ### 15-service-management — サービスマネジメント / Quản lý dịch vụ
 
-Cần nâng cấp: **164** (B 164, C 0).
+Cần nâng cấp: **134** (B 134, C 0).
 
 - **B/P2** サービス / Dịch vụ — `service-management/service` — khuôn mẫu/lặp
 - **B/P2** サービスコンポーネント / Thành phần dịch vụ — `service-management/service-component` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
@@ -1413,56 +1368,26 @@ Cần nâng cấp: **164** (B 164, C 0).
 - **B/P2** 監視 / Giám sát — `service-management-system-planning-operation/monitoring` — khuôn mẫu/lặp
 - **B/P2** しきい値 / Ngưỡng cảnh báo — `service-management-system-planning-operation/threshold` — khuôn mẫu/lặp
 - **B/P2** 管理指標 / Chỉ số quản lý — `service-management-system-planning-operation/management-metrics` — khuôn mẫu/lặp
-- **B/P1** 変更管理 / Quản lý thay đổi — `service-management-system-planning-operation/change-management` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 変更要求 / Yêu cầu thay đổi — `service-management-system-planning-operation/request-for-change` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 優先度 / Mức ưu tiên — `service-management-system-planning-operation/priority` — khuôn mẫu/lặp
-- **B/P1** 変更のカテゴリー / Phân loại thay đổi — `service-management-system-planning-operation/change-categories` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** ロールバック / Quay lui — `service-management-system-planning-operation/rollback` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 変更諮問委員会 / Hội đồng tư vấn thay đổi — `service-management-system-planning-operation/change-advisory-board` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** 変更実施後のレビュー / Đánh giá sau triển khai thay đổi — `service-management-system-planning-operation/post-implementation-review` — khuôn mẫu/lặp
-- **B/P1** サービスの設計及び移行 / Thiết kế và chuyển giao dịch vụ — `service-management-system-planning-operation/service-design-and-transition` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 新規サービス又はサービス変更の計画 / Lập kế hoạch dịch vụ mới hoặc thay đổi — `service-management-system-planning-operation/plan-for-new-service-or-service-changes` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** サービス受入れ基準 / Tiêu chí chấp nhận dịch vụ — `service-management-system-planning-operation/service-acceptance-criteria` — khuôn mẫu/lặp
 - **B/P2** 設計・開発 / Thiết kế và phát triển — `service-management-system-planning-operation/design-and-development` — khuôn mẫu/lặp
 - **B/P2** サービス設計書 / Tài liệu thiết kế dịch vụ — `service-management-system-planning-operation/service-design-document` — khuôn mẫu/lặp
-- **B/P1** 非機能要件 / Yêu cầu phi chức năng — `service-management-system-planning-operation/non-functional-requirements` — khuôn mẫu/lặp
 - **B/P2** 構築 / Xây dựng hệ thống — `service-management-system-planning-operation/construction` — khuôn mẫu/lặp
 - **B/P2** 移行 / Chuyển đổi môi trường — `service-management-system-planning-operation/migration` — khuôn mẫu/lặp
 - **B/P2** 運用サービス基準 / Tiêu chuẩn vận hành dịch vụ — `service-management-system-planning-operation/operational-service-standards` — khuôn mẫu/lặp
 - **B/P2** 業務及びシステムの移行 / Chuyển đổi nghiệp vụ và hệ thống — `service-management-system-planning-operation/business-and-system-migration` — khuôn mẫu/lặp
-- **B/P1** 移行計画 / Kế hoạch chuyển đổi — `service-management-system-planning-operation/migration-plan` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 移行リハーサル / Diễn tập chuyển đổi — `service-management-system-planning-operation/migration-rehearsal` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 移行判断 / Quyết định chuyển đổi — `service-management-system-planning-operation/transition-decision` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 移行の通知 / Thông báo chuyển đổi — `service-management-system-planning-operation/migration-notification` — khuôn mẫu/lặp
 - **B/P2** 移行評価 / Đánh giá chuyển đổi — `service-management-system-planning-operation/transition-assessment` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 運用テスト / Kiểm thử vận hành — `service-management-system-planning-operation/operational-test` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 受入れテスト / Kiểm thử chấp nhận — `service-management-system-planning-operation/acceptance-testing` — khuôn mẫu/lặp
 - **B/P2** 運用引継ぎ / Bàn giao vận hành — `service-management-system-planning-operation/operation-handover` — khuôn mẫu/lặp
-- **B/P1** リリース及び展開管理 / Quản lý phát hành và triển khai — `service-management-system-planning-operation/release-and-deployment-management` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** リリース / Bản phát hành — `service-management-system-planning-operation/release` — ngắn, khuôn mẫu/lặp
-- **B/P1** 展開 / Triển khai — `service-management-system-planning-operation/deployment` — ngắn, khuôn mẫu/lặp
 - **B/P2** リリースの受入れ基準 / Tiêu chí chấp nhận bản phát hành — `service-management-system-planning-operation/release-acceptance-criteria` — khuôn mẫu/lặp
 - **B/P2** 受入れ試験環境 / Môi trường kiểm thử chấp nhận — `service-management-system-planning-operation/acceptance-testing-environment` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 稼働環境 / Môi trường vận hành — `service-management-system-planning-operation/operating-environment` — khuôn mẫu/lặp
-- **B/P1** インシデント管理 / Quản lý sự cố dịch vụ — `service-management-system-planning-operation/incident-management` — khuôn mẫu/lặp
-- **B/P1** インシデント / Sự cố dịch vụ — `service-management-system-planning-operation/incident` — khuôn mẫu/lặp
 - **B/P2** 記録 / Bản ghi — `service-management-system-planning-operation/record` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 影響 / Mức độ ảnh hưởng — `service-management-system-planning-operation/impact` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 解決目標時間 / Thời hạn mục tiêu giải quyết — `service-management-system-planning-operation/target-resolution-time` — khuôn mẫu/lặp
-- **B/P1** エスカレーション / Chuyển cấp xử lý — `service-management-system-planning-operation/escalation` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 回避策 / Biện pháp xử lý tạm thời — `service-management-system-planning-operation/workaround` — khuôn mẫu/lặp
-- **B/P1** 重大なインシデント / Sự cố nghiêm trọng — `service-management-system-planning-operation/major-incident` — khuôn mẫu/lặp
-- **B/P1** サービス要求管理 / Quản lý yêu cầu dịch vụ — `service-management-system-planning-operation/service-request-management` — khuôn mẫu/lặp
-- **B/P1** サービス要求 / Yêu cầu dịch vụ từ người dùng — `service-management-system-planning-operation/service-request` — khuôn mẫu/lặp
 - **B/P2** 記録 / Bản ghi — `service-management-system-planning-operation/record-2` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 緊急度 / Tính khẩn cấp — `service-management-system-planning-operation/urgency` — khuôn mẫu/lặp
-- **B/P1** 優先順位 / Thứ tự ưu tiên — `service-management-system-planning-operation/priority-2` — khuôn mẫu/lặp
 - **B/P2** 実現 / Thực hiện yêu cầu — `service-management-system-planning-operation/fulfilment` — khuôn mẫu/lặp
-- **B/P1** 問題管理 / Quản lý vấn đề — `service-management-system-planning-operation/problem-management` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 根本原因 / Nguyên nhân gốc — `service-management-system-planning-operation/root-cause` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 予防処置 / Biện pháp phòng ngừa — `service-management-system-planning-operation/preventive-action` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 既知の誤り / Lỗi đã biết — `service-management-system-planning-operation/known-error` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** サービス可用性管理 / Quản lý tính sẵn sàng dịch vụ — `service-management-system-planning-operation/service-availability-management` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** サービス可用性 / Độ sẵn sàng dịch vụ — `service-management-system-planning-operation/service-availability` — ngắn, khuôn mẫu/lặp
 - **B/P1** 信頼性 / Độ tin cậy — `service-management-system-planning-operation/reliability` — khuôn mẫu/lặp
 - **B/P2** 回復力 / Khả năng chống chịu và phục hồi — `service-management-system-planning-operation/resilience` — khuôn mẫu/lặp
@@ -1907,39 +1832,24 @@ Cần nâng cấp: **41** (B 41, C 0).
 
 ### 21-business-industry — ビジネスインダストリ / Công nghiệp kinh doanh
 
-Cần nâng cấp: **180** (B 180, C 0).
+Cần nâng cấp: **165** (B 165, C 0).
 
 - **B/P2** 流通情報システム / Hệ thống thông tin phân phối — `business-systems/distribution-information-system` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 会計・経理・財務システム / Hệ thống kế toán, hạch toán và tài chính — `business-systems/accounting-finance-system` — khuôn mẫu/lặp
-- **B/P1** XBRL / Ngôn ngữ báo cáo kinh doanh mở rộng XBRL — `business-systems/xbrl` — khuôn mẫu/lặp
 - **B/P2** 人事・給与システム / Hệ thống nhân sự và tiền lương — `business-systems/human-resources-payroll-system` — khuôn mẫu/lặp
 - **B/P2** 営業支援システム / Hệ thống hỗ trợ bán hàng — `business-systems/sales-support-system` — khuôn mẫu/lặp
 - **B/P2** グループウェア / Phần mềm cộng tác nhóm — `business-systems/groupware` — schema, khuôn mẫu/lặp
-- **B/P1** ワークフローシステム / Hệ thống luồng công việc — `business-systems/workflow-system` — schema, khuôn mẫu/lặp
 - **B/P2** Web会議システム / Hệ thống họp trực tuyến — `business-systems/web-conference-system` — khuôn mẫu/lặp
 - **B/P2** 流通情報システム / Hệ thống thông tin phân phối — `business-systems/distribution-information-system-2` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 物流情報システム / Hệ thống thông tin logistics — `business-systems/logistics-information-system` — khuôn mẫu/lặp
 - **B/P2** 店頭販売管理 / Quản lý bán hàng tại cửa hàng — `business-systems/retail-sales-management` — khuôn mẫu/lặp
 - **B/P2** 販売管理 / Quản lý bán hàng — `business-systems/sales-management` — khuôn mẫu/lặp
-- **B/P1** 受発注管理 / Quản lý đơn mua và đơn bán — `business-systems/order-management` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 在庫管理 / Quản lý hàng tồn kho — `business-systems/inventory-management` — khuôn mẫu/lặp
 - **B/P2** 顧客管理 / Quản lý khách hàng — `business-systems/customer-management` — khuôn mẫu/lặp
 - **B/P2** 金融情報システム / Hệ thống thông tin tài chính — `business-systems/financial-information-system` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 医療情報システム / Hệ thống thông tin y tế — `business-systems/medical-information-system` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** POSシステム / Hệ thống điểm bán hàng POS — `business-systems/pos-system` — ngắn, khuôn mẫu/lặp
 - **B/P2** 生産管理システム / Hệ thống quản lý sản xuất — `business-systems/production-management-system` — khuôn mẫu/lặp
-- **B/P1** CDN / Mạng phân phối nội dung CDN — `business-systems/cdn` — khuôn mẫu/lặp
-- **B/P1** ERP / Hoạch định nguồn lực doanh nghiệp ERP — `business-systems/erp` — khuôn mẫu/lặp
 - **B/P2** 業務別パッケージ / Gói phần mềm theo nghiệp vụ — `business-systems/business-specific-package` — khuôn mẫu/lặp
 - **B/P2** ユビキタスコンピューティング / Điện toán hiện diện khắp nơi — `business-systems/ubiquitous-computing` — schema, khuôn mẫu/lặp
-- **B/P1** IoT / Internet vạn vật IoT — `business-systems/iot` — khuôn mẫu/lặp
-- **B/P1** デジタルツイン / Bản sao số Digital Twin — `business-systems/digital-twin` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** サイバーフィジカルシステム / Hệ thống không gian mạng – vật lý CPS — `business-systems/cyber-physical-system` — schema, thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** ブロックチェーンの活用 / Ứng dụng blockchain — `business-systems/blockchain-applications` — khuôn mẫu/lặp
-- **B/P1** e-Gov / Cổng dịch vụ hành chính điện tử e-Gov — `business-systems/e-gov` — khuôn mẫu/lặp
-- **B/P1** 電子政府 / Chính phủ điện tử — `business-systems/electronic-government` — khuôn mẫu/lặp
-- **B/P1** 電子自治体 / Chính quyền địa phương điện tử — `business-systems/electronic-local-government` — khuôn mẫu/lặp
-- **B/P1** LGWAN / Mạng diện rộng chính quyền địa phương LGWAN — `business-systems/lgwan` — khuôn mẫu/lặp
 - **B/P2** 住民基本台帳ネットワークシステム / Hệ thống mạng sổ đăng ký cư dân cơ bản — `business-systems/basic-resident-register-network` — khuôn mẫu/lặp
 - **B/P1** EDINET / Hệ thống công bố thông tin điện tử EDINET — `business-systems/edinet` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 公共情報システム / Hệ thống thông tin công cộng — `business-systems/public-information-system` — khuôn mẫu/lặp
@@ -2095,15 +2005,15 @@ Cần nâng cấp: **180** (B 180, C 0).
 Cần nâng cấp: **232** (B 232, C 0).
 
 - **B/P2** 企業理念 / Triết lý doanh nghiệp — `management-organization-theory/corporate-philosophy` — ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 企業の社会的責任 / Trách nhiệm xã hội của doanh nghiệp (CSR) — `management-organization-theory/csr` — ngắn, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** 企業の社会的責任 / Trách nhiệm xã hội của doanh nghiệp (CSR) — `management-organization-theory/csr` — ngắn, khuôn mẫu/lặp
 - **B/P2** グリーンIT / CNTT xanh (Green IT) — `management-organization-theory/green-it` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** カーボンフットプリント / Dấu chân carbon — `management-organization-theory/carbon-footprint` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 持分会社 / Công ty hợp danh / công ty góp vốn theo luật Nhật — `management-organization-theory/membership-company` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 株式会社 / Công ty cổ phần — `management-organization-theory/joint-stock-company` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 株式公開 / Phát hành cổ phiếu lần đầu ra công chúng (IPO) — `management-organization-theory/ipo` — khuôn mẫu/lặp, trùng bài khác
+- **B/P1** 持分会社 / Công ty hợp danh / công ty góp vốn theo luật Nhật — `management-organization-theory/membership-company` — khuôn mẫu/lặp
+- **B/P1** 株式会社 / Công ty cổ phần — `management-organization-theory/joint-stock-company` — cần cân nhắc warning, khuôn mẫu/lặp
+- **B/P1** 株式公開 / Phát hành cổ phiếu lần đầu ra công chúng (IPO) — `management-organization-theory/ipo` — khuôn mẫu/lặp
 - **B/P2** 所有と経営の分離 / Tách biệt quyền sở hữu và quyền quản lý — `management-organization-theory/ownership-management-separation` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ゴーイングコンサーン / Giả định hoạt động liên tục — `management-organization-theory/going-concern` — schema, thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コーポレートガバナンス / Quản trị công ty — `management-organization-theory/corporate-governance` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** コーポレートガバナンス / Quản trị công ty — `management-organization-theory/corporate-governance` — schema, ngắn, khuôn mẫu/lặp
 - **B/P2** コーポレートガバナンス・コード / Bộ nguyên tắc quản trị công ty — `management-organization-theory/corporate-governance-code` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** IR / Quan hệ nhà đầu tư (IR) — `management-organization-theory/investor-relations` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 統合報告書 / Báo cáo tích hợp — `management-organization-theory/integrated-report` — khuôn mẫu/lặp, trùng bài khác
@@ -2114,14 +2024,14 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** コーポレートブランド / Thương hiệu doanh nghiệp — `management-organization-theory/corporate-brand` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 経営目標 / Mục tiêu quản trị — `management-organization-theory/management-objectives` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 財務・資産・人事・情報管理 / Quản lý tài chính, tài sản, nhân sự và thông tin — `management-organization-theory/resource-management` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** PDCA / Chu trình PDCA — `management-organization-theory/pdca` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** TQM / Quản lý chất lượng toàn diện (TQM) — `management-organization-theory/tqm` — ngắn, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** PDCA / Chu trình PDCA — `management-organization-theory/pdca` — thiếu ví dụ, khuôn mẫu/lặp
+- **B/P1** TQM / Quản lý chất lượng toàn diện (TQM) — `management-organization-theory/tqm` — ngắn, khuôn mẫu/lặp
 - **B/P2** コンピテンシー / Năng lực hành vi (Competency) — `management-organization-theory/competency` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コーチング / Huấn luyện khai vấn (Coaching) — `management-organization-theory/coaching` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** メンタリング / Cố vấn (Mentoring) — `management-organization-theory/mentoring` — schema, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** コーチング / Huấn luyện khai vấn (Coaching) — `management-organization-theory/coaching` — schema, khuôn mẫu/lặp
+- **B/P1** メンタリング / Cố vấn (Mentoring) — `management-organization-theory/mentoring` — schema, khuôn mẫu/lặp
 - **B/P2** ケーススタディ / Nghiên cứu tình huống — `management-organization-theory/case-study` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** e-ラーニング / Học trực tuyến (e-learning) — `management-organization-theory/e-learning` — thiếu ví dụ, ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** リスキリング / Đào tạo lại kỹ năng (Reskilling) — `management-organization-theory/reskilling` — schema, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** リスキリング / Đào tạo lại kỹ năng (Reskilling) — `management-organization-theory/reskilling` — schema, khuôn mẫu/lặp
 - **B/P2** アダプティブラーニング / Học tập thích ứng — `management-organization-theory/adaptive-learning` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** HRテック / Công nghệ nhân sự (HR Tech) — `management-organization-theory/hr-tech` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** リテンション / Giữ chân nhân viên — `management-organization-theory/retention` — schema, khuôn mẫu/lặp, trùng bài khác
@@ -2131,15 +2041,15 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** ワークエンゲージメント / Mức độ gắn kết với công việc — `management-organization-theory/work-engagement` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ワークライフバランス / Cân bằng công việc và cuộc sống — `management-organization-theory/work-life-balance` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ワークシェアリング / Chia sẻ việc làm — `management-organization-theory/work-sharing` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** テレワーク / Làm việc từ xa — `management-organization-theory/telework` — schema, thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** DE&I / Đa dạng, công bằng và hòa nhập (DE&I) — `management-organization-theory/dei` — khuôn mẫu/lặp, trùng bài khác
+- **B/P1** テレワーク / Làm việc từ xa — `management-organization-theory/telework` — schema, thiếu ví dụ, khuôn mẫu/lặp
+- **B/P1** DE&I / Đa dạng, công bằng và hòa nhập (DE&I) — `management-organization-theory/dei` — khuôn mẫu/lặp
 - **B/P2** ウェルビーイング / An sinh và hạnh phúc toàn diện — `management-organization-theory/well-being` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ロジカルシンキング / Tư duy logic — `management-organization-theory/logical-thinking` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 垂直思考 / Tư duy chiều dọc — `management-organization-theory/vertical-thinking` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 水平思考 / Tư duy chiều ngang — `management-organization-theory/lateral-thinking` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 仮説思考 / Tư duy giả thuyết — `management-organization-theory/hypothesis-thinking` — thiếu ví dụ, ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 衛生理論 / Thuyết hai nhân tố Herzberg (động lực – duy trì) — `management-organization-theory/hygiene-theory` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** XY理論 / Thuyết X và thuyết Y — `management-organization-theory/xy-theory` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** 衛生理論 / Thuyết hai nhân tố Herzberg (động lực – duy trì) — `management-organization-theory/hygiene-theory` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
+- **B/P1** XY理論 / Thuyết X và thuyết Y — `management-organization-theory/xy-theory` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** JIS Q 22301 / Tiêu chuẩn JIS Q 22301 — `management-organization-theory/jis-q-22301` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 階層型組織 / Tổ chức phân cấp — `management-organization-theory/hierarchical-organization` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** プロジェクト組織 / Tổ chức dự án — `management-organization-theory/project-organization` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
@@ -2329,36 +2239,25 @@ Cần nâng cấp: **232** (B 232, C 0).
 
 ### 23-legal-affairs — 法務 / Pháp vụ
 
-Cần nâng cấp: **268** (B 268, C 0).
+Cần nâng cấp: **238** (B 238, C 0).
 
 - **B/P2** 企業理念 / Triết lý doanh nghiệp — `intellectual-property-rights/corporate-philosophy` — ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 企業の社会的責任 / Trách nhiệm xã hội của doanh nghiệp (CSR) — `intellectual-property-rights/csr` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** グリーンIT / CNTT xanh (Green IT) — `intellectual-property-rights/green-it` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** カーボンフットプリント / Dấu chân carbon — `intellectual-property-rights/carbon-footprint` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 持分会社 / Công ty hợp danh / công ty góp vốn theo luật Nhật — `intellectual-property-rights/membership-company` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 株式会社 / Công ty cổ phần — `intellectual-property-rights/joint-stock-company` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 株式公開 / Phát hành cổ phiếu lần đầu ra công chúng (IPO) — `intellectual-property-rights/ipo` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 所有と経営の分離 / Tách biệt quyền sở hữu và quyền quản lý — `intellectual-property-rights/ownership-management-separation` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ゴーイングコンサーン / Giả định hoạt động liên tục — `intellectual-property-rights/going-concern` — schema, thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コーポレートガバナンス / Quản trị công ty — `intellectual-property-rights/corporate-governance` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** コーポレートガバナンス・コード / Bộ nguyên tắc quản trị công ty — `intellectual-property-rights/corporate-governance-code` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** IR / Quan hệ nhà đầu tư (IR) — `intellectual-property-rights/investor-relations` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 統合報告書 / Báo cáo tích hợp — `intellectual-property-rights/integrated-report` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** アニュアルレポート / Báo cáo thường niên — `intellectual-property-rights/annual-report` — schema, thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** CSR報告書 / Báo cáo CSR — `intellectual-property-rights/csr-report` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** BCP / Kế hoạch duy trì hoạt động kinh doanh (BCP) — `intellectual-property-rights/bcp` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** コーポレートアイデンティティ / Bản sắc doanh nghiệp (CI) — `intellectual-property-rights/corporate-identity` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** コーポレートブランド / Thương hiệu doanh nghiệp — `intellectual-property-rights/corporate-brand` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 経営目標 / Mục tiêu quản trị — `intellectual-property-rights/management-objectives` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 財務・資産・人事・情報管理 / Quản lý tài chính, tài sản, nhân sự và thông tin — `intellectual-property-rights/resource-management` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** PDCA / Chu trình PDCA — `intellectual-property-rights/pdca` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** TQM / Quản lý chất lượng toàn diện (TQM) — `intellectual-property-rights/tqm` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** コンピテンシー / Năng lực hành vi (Competency) — `intellectual-property-rights/competency` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コーチング / Huấn luyện khai vấn (Coaching) — `intellectual-property-rights/coaching` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** メンタリング / Cố vấn (Mentoring) — `intellectual-property-rights/mentoring` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ケーススタディ / Nghiên cứu tình huống — `intellectual-property-rights/case-study` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** e-ラーニング / Học trực tuyến (e-learning) — `intellectual-property-rights/e-learning` — thiếu ví dụ, ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** リスキリング / Đào tạo lại kỹ năng (Reskilling) — `intellectual-property-rights/reskilling` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** アダプティブラーニング / Học tập thích ứng — `intellectual-property-rights/adaptive-learning` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** HRテック / Công nghệ nhân sự (HR Tech) — `intellectual-property-rights/hr-tech` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** リテンション / Giữ chân nhân viên — `intellectual-property-rights/retention` — schema, khuôn mẫu/lặp, trùng bài khác
@@ -2368,15 +2267,11 @@ Cần nâng cấp: **268** (B 268, C 0).
 - **B/P2** ワークエンゲージメント / Mức độ gắn kết với công việc — `intellectual-property-rights/work-engagement` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ワークライフバランス / Cân bằng công việc và cuộc sống — `intellectual-property-rights/work-life-balance` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ワークシェアリング / Chia sẻ việc làm — `intellectual-property-rights/work-sharing` — schema, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** テレワーク / Làm việc từ xa — `intellectual-property-rights/telework` — schema, thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** DE&I / Đa dạng, công bằng và hòa nhập (DE&I) — `intellectual-property-rights/dei` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ウェルビーイング / An sinh và hạnh phúc toàn diện — `intellectual-property-rights/well-being` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ロジカルシンキング / Tư duy logic — `intellectual-property-rights/logical-thinking` — schema, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 垂直思考 / Tư duy chiều dọc — `intellectual-property-rights/vertical-thinking` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 水平思考 / Tư duy chiều ngang — `intellectual-property-rights/lateral-thinking` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 仮説思考 / Tư duy giả thuyết — `intellectual-property-rights/hypothesis-thinking` — thiếu ví dụ, ngắn, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 衛生理論 / Thuyết hai nhân tố Herzberg (động lực – duy trì) — `intellectual-property-rights/hygiene-theory` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** XY理論 / Thuyết X và thuyết Y — `intellectual-property-rights/xy-theory` — thiếu ví dụ, khuôn mẫu/lặp, trùng bài khác
 - **B/P1** BCP / Kế hoạch duy trì hoạt động kinh doanh (BCP) — `intellectual-property-rights/bcp-second` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P1** BCM / Quản lý duy trì hoạt động kinh doanh (BCM) — `intellectual-property-rights/bcm` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** JIS Q 22301 / Tiêu chuẩn JIS Q 22301 — `intellectual-property-rights/jis-q-22301` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
@@ -2492,32 +2387,17 @@ Cần nâng cấp: **268** (B 268, C 0).
 - **B/P2** デジタル社会の形成 / Hình thành xã hội số — `other-laws-guidelines-engineer-ethics/formation-of-the-digital-society` — khuôn mẫu/lặp
 - **B/P2** 多様な主体による情報の円滑な流通の確保 / Bảo đảm luồng thông tin thông suốt giữa nhiều chủ thể — `other-laws-guidelines-engineer-ethics/smooth-flow-of-information-by-diverse-actors` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 高度情報通信ネットワークの利用及び情報通信技術を用いた情報の活用 / Khai thác mạng viễn thông tiên tiến và công nghệ thông tin — `other-laws-guidelines-engineer-ethics/utilization-of-advanced-information-and-communications-networks-and-info` — khuôn mẫu/lặp
-- **B/P1** ベースレジストリ / Cơ sở dữ liệu nền tảng — `other-laws-guidelines-engineer-ethics/base-registry` — schema, khuôn mẫu/lặp
-- **B/P1** サイバーセキュリティの確保 / Bảo đảm an ninh mạng — `other-laws-guidelines-engineer-ethics/cybersecurity-assurance` — khuôn mẫu/lặp
 - **B/P2** デジタル庁の設置 / Thành lập Cơ quan Kỹ thuật số Nhật Bản — `other-laws-guidelines-engineer-ethics/digital-agency-establishment` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 官民データ / Dữ liệu công và tư — `other-laws-guidelines-engineer-ethics/public-private-data` — khuôn mẫu/lặp
 - **B/P2** 行政手続に係るオンライン利用の原則化 / Nguyên tắc ưu tiên thủ tục hành chính trực tuyến — `other-laws-guidelines-engineer-ethics/principle-of-online-use-for-administrative-procedures` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 国・地方公共団体・事業者が自ら保有する官民データの活用の推進 / Thúc đẩy sử dụng dữ liệu do nhà nước, địa phương và doanh nghiệp nắm giữ — `other-laws-guidelines-engineer-ethics/promotion-of-the-use-of-public-private-data-held-by-national-and-local-g` — khuôn mẫu/lặp
 - **B/P2** 情報通信技術の利用機会又は活用に係る格差の是正 / Thu hẹp khoảng cách về cơ hội và khả năng sử dụng ICT — `other-laws-guidelines-engineer-ethics/correction-of-differences-in-opportunities-and-utilization-of-informatio` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 企業理念 / Triết lý doanh nghiệp — `other-laws-guidelines-engineer-ethics/corporate-philosophy` — khuôn mẫu/lặp
-- **B/P1** 企業倫理 / Đạo đức doanh nghiệp — `other-laws-guidelines-engineer-ethics/corporate-ethics` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ビジネスと人権 / Kinh doanh và quyền con người — `other-laws-guidelines-engineer-ethics/business-and-human-rights` — khuôn mẫu/lặp
-- **B/P1** コーポレートガバナンス / Quản trị công ty — `other-laws-guidelines-engineer-ethics/corporate-governance` — schema, khuôn mẫu/lặp
-- **B/P1** CSR / Trách nhiệm xã hội của doanh nghiệp (CSR) — `other-laws-guidelines-engineer-ethics/corporate-social-responsibility` — khuôn mẫu/lặp
-- **B/P1** ステークホルダ / Bên liên quan — `other-laws-guidelines-engineer-ethics/stakeholder` — schema, khuôn mẫu/lặp
-- **B/P1** 内部統制 / Kiểm soát nội bộ — `other-laws-guidelines-engineer-ethics/internal-control` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 輸出関連法規 / Quy định pháp luật về xuất khẩu — `other-laws-guidelines-engineer-ethics/export-related-regulations` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** システム管理基準 / Chuẩn mực quản lý hệ thống — `other-laws-guidelines-engineer-ethics/system-management-standards` — khuôn mẫu/lặp
 - **B/P2** ネチケット / Quy tắc ứng xử trên Internet — `other-laws-guidelines-engineer-ethics/netiquette` — schema, ngắn, khuôn mẫu/lặp
-- **B/P1** データのねつ造・改ざん・盗用 / Bịa đặt, sửa sai lệch và chiếm dụng dữ liệu — `other-laws-guidelines-engineer-ethics/data-fabrication-alteration-and-theft` — ngắn, khuôn mẫu/lặp
 - **B/P2** チェーンメール / Thư dây chuyền — `other-laws-guidelines-engineer-ethics/chain-mail` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** フェイクニュース / Tin giả — `other-laws-guidelines-engineer-ethics/fake-news` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** マルインフォメーション / Thông tin thật bị dùng với mục đích gây hại — `other-laws-guidelines-engineer-ethics/malinformation` — schema, thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** ディスインフォメーション / Thông tin sai lệch được cố ý phát tán — `other-laws-guidelines-engineer-ethics/disinformation` — schema, ngắn, khuôn mẫu/lặp
-- **B/P1** ミスインフォメーション / Thông tin sai lệch được vô ý phát tán — `other-laws-guidelines-engineer-ethics/misinformation` — schema, cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** ヘイトスピーチ / Ngôn từ kích động thù hận — `other-laws-guidelines-engineer-ethics/hate-speech` — schema, thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** エコーチェンバー / Buồng vang thông tin — `other-laws-guidelines-engineer-ethics/echo-chamber` — schema, cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** フィルターバブル / Bong bóng lọc thông tin — `other-laws-guidelines-engineer-ethics/filter-bubble` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** デジタルタトゥー / Dấu vết số khó xóa — `other-laws-guidelines-engineer-ethics/digital-tattoo` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** フィルタリング / Lọc nội dung — `other-laws-guidelines-engineer-ethics/filtering` — schema, khuôn mẫu/lặp
 - **B/P2** ペアレンタルコントロール / Kiểm soát của phụ huynh — `other-laws-guidelines-engineer-ethics/parental-control` — schema, khuôn mẫu/lặp
@@ -2543,7 +2423,7 @@ Cần nâng cấp: **268** (B 268, C 0).
 - **B/P1** 監査役 / Kiểm soát viên công ty — `other-laws-guidelines-engineer-ethics/auditor` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** 委員会設置会社 / Công ty có hệ thống ủy ban — `other-laws-guidelines-engineer-ethics/committee-established-company` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** 事業報告 / Báo cáo hoạt động kinh doanh — `other-laws-guidelines-engineer-ethics/business-report` — VI nghi còn tiếng Nhật, khuôn mẫu/lặp
-- **B/P1** 内部統制 / Kiểm soát nội bộ — `other-laws-guidelines-engineer-ethics/internal-control-2` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** 内部統制 / Kiểm soát nội bộ — `other-laws-guidelines-engineer-ethics/internal-control-2` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 法人税法 / Luật Thuế doanh nghiệp — `other-laws-guidelines-engineer-ethics/corporate-tax-law` — ngắn, khuôn mẫu/lặp
 - **B/P2** 消費税法 / Luật Thuế tiêu dùng — `other-laws-guidelines-engineer-ethics/consumption-tax-act` — khuôn mẫu/lặp
 - **B/P1** 適格請求書等保存方式 / Chế độ lưu trữ hóa đơn đủ điều kiện (Invoice) — `other-laws-guidelines-engineer-ethics/qualified-invoice-storage-method` — ngắn, khuôn mẫu/lặp

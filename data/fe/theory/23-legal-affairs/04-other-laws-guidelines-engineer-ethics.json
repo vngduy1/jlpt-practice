@@ -134,8 +134,8 @@
       "titleJa": "ベースレジストリ",
       "titleVi": "Cơ sở dữ liệu nền tảng",
       "importance": "high",
-      "summaryJa": "デジタル社会の形成において、国や自治体がデータを一元的に管理するための基本的な情報の集まりである。",
-      "summaryVi": "Tập hợp dữ liệu cơ bản, có tính chuẩn hóa và đáng tin cậy, phục vụ dùng chung giữa các dịch vụ hành chính số.",
+      "summaryJa": "住所・所在地や法人名など、多数の行政手続で共通に参照される、正確性と標準性を備えた公的な基礎データベースである。",
+      "summaryVi": "Cơ sở dữ liệu công chứa dữ liệu nền tảng chuẩn hóa và đáng tin cậy, như địa chỉ, địa điểm và tên pháp nhân, được nhiều thủ tục hành chính cùng tham chiếu.",
       "content": [
         {
           "type": "heading",
@@ -144,13 +144,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "デジタル社会の形成において、国や自治体がデータを一元的に管理するための基本的な情報の集まりである。このレジストリには、個人、法人、地域、サービスなどに関する基本情報が含まれており、様々なデジタルサービスでの利用を促進する役割を果たしている。例えば、行政サービスを受ける際には、ベースレジストリに登録された情報をもとに、必要な手続きがスムーズに行える。このシステムにより、情報の重複や不正確さを防ぎ、効率的なデジタル社会の構築が進められる。また、他のデータベースと連携することで、サービス提供者や利用者にとって、より便利で質の高い情報サービスを実現することが期待されている。",
-          "vi": "Tập hợp dữ liệu cơ bản, có tính chuẩn hóa và đáng tin cậy, phục vụ dùng chung giữa các dịch vụ hành chính số."
+          "ja": "ベースレジストリは、住所・所在地、法人名など、制度をまたいで繰り返し利用される基礎情報を、公的機関が信頼できる形で整備するデータベースである。データ項目、識別子、更新責任を明確にし、各システムが共通の情報を参照できるようにすることで、重複入力や表記揺れを減らし、行政手続の効率化とデータ連携を支える。",
+          "vi": "Base registry là cơ sở dữ liệu do cơ quan công quyền duy trì một cách đáng tin cậy cho những thông tin nền tảng được dùng lặp lại giữa nhiều chế độ, như địa chỉ, địa điểm và tên pháp nhân. Việc xác định rõ trường dữ liệu, mã định danh và trách nhiệm cập nhật giúp các hệ thống dùng chung nguồn chuẩn, giảm nhập lặp, sai khác cách ghi và hỗ trợ liên thông thủ tục hành chính."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Ví dụ dữ liệu về tổ chức, địa chỉ; không đồng nghĩa gom toàn bộ dữ liệu cá nhân vào một nơi."
+          "ja": "FEでは、ベースレジストリを個別手続の申請履歴のようなトランザクションデータではなく、複数手続が参照する基礎的なマスタデータとして捉える。",
+          "vi": "Trong FE, cần xem base registry là dữ liệu chủ nền tảng được nhiều thủ tục tham chiếu, không phải dữ liệu giao dịch như lịch sử từng hồ sơ."
+        },
+        {
+          "type": "example",
+          "ja": "例えば、法人が所在地を変更したとき、権限をもつ機関が法人ベースレジストリを更新し、連携する複数の行政サービスが同じ所在地を参照できれば、各手続で同じ情報を再入力する負担を減らせる。",
+          "vi": "Ví dụ, khi pháp nhân đổi địa chỉ, cơ quan có thẩm quyền cập nhật base registry; nhiều dịch vụ hành chính liên thông có thể tham chiếu cùng địa chỉ, giảm việc khai lại ở từng thủ tục."
+        },
+        {
+          "type": "warning",
+          "ja": "ベースレジストリは、すべての個人情報を一つの場所へ無制限に集約する仕組みではない。利用目的、アクセス権、品質管理、個人情報保護を設計した上で連携する。",
+          "vi": "Base registry không có nghĩa tập trung vô hạn mọi dữ liệu cá nhân vào một nơi. Việc liên thông vẫn phải kiểm soát mục đích sử dụng, quyền truy cập, chất lượng và bảo vệ dữ liệu cá nhân."
         }
       ],
       "terms": [
@@ -158,9 +168,9 @@
           "term": "ベースレジストリ",
           "english": "Base Registry",
           "vi": "Cơ sở dữ liệu nền tảng",
-          "definitionJa": "デジタル社会の形成において、国や自治体がデータを一元的に管理するための基本的な情報の集まりである。このレジストリには、個人、法人、地域、サービスなどに関する基本情報が含まれており、様々なデジタルサービスでの利用を促進する役割を果たしている。例えば、行政サービスを受ける際には、ベースレジストリに登録された情報をもとに、必要な手続きがスムーズに行える。このシステムにより、情報の重複や不正確さを防ぎ、効率的なデジタル社会の構築が進められる。また、他のデータベースと連携することで、サービス提供者や利用者にとって、より便利で質の高い情報サービスを実現することが期待されている。",
-          "definitionVi": "Tập hợp dữ liệu cơ bản, có tính chuẩn hóa và đáng tin cậy, phục vụ dùng chung giữa các dịch vụ hành chính số.",
-          "reading": ""
+          "definitionJa": "多数の行政手続で共通に参照される住所・法人などの基礎情報を、正確かつ標準化された形で提供する公的データベース。",
+          "definitionVi": "Cơ sở dữ liệu công cung cấp thông tin nền tảng chuẩn hóa, đáng tin cậy về địa chỉ, pháp nhân và các đối tượng được nhiều thủ tục cùng tham chiếu.",
+          "reading": "べーすれじすとり"
         }
       ],
       "tags": [
@@ -175,8 +185,8 @@
       "titleJa": "サイバーセキュリティの確保",
       "titleVi": "Bảo đảm an ninh mạng",
       "importance": "high",
-      "summaryJa": "情報システムやネットワークに対する攻撃や不正アクセスからデータや情報を守ることを指す。",
-      "summaryVi": "Bảo vệ hệ thống, mạng và thông tin khỏi truy cập trái phép, tấn công, rò rỉ hoặc phá hoại.",
+      "summaryJa": "情報、情報システム、ネットワークの機密性・完全性・可用性を守る措置を講じ、その状態を継続的に維持管理することである。",
+      "summaryVi": "Áp dụng và duy trì liên tục các biện pháp bảo vệ tính bí mật, toàn vẹn và sẵn sàng của thông tin, hệ thống và mạng.",
       "content": [
         {
           "type": "heading",
@@ -185,13 +195,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "情報システムやネットワークに対する攻撃や不正アクセスからデータや情報を守ることを指す。この取り組みは、デジタル社会の発展に伴ってますます重要になっている。たとえば、企業や組織が扱う顧客情報や機密データが漏洩することは、信頼を失うだけでなく、法的な問題を引き起こす可能性もある。サイバーセキュリティを確保するためには、ファイアウォールやアンチウイルスソフトウェアの導入、定期的なシステムの更新、そして従業員への教育が不可欠である。また、サイバー攻撃の手口が進化する中で、最新のセキュリティ技術を取り入れ、脅威に対処する体制を整えることが、デジタル社会をより安全にするための鍵となる。",
-          "vi": "Bảo vệ hệ thống, mạng và thông tin khỏi truy cập trái phép, tấn công, rò rỉ hoặc phá hoại."
+          "ja": "サイバーセキュリティの確保は、外部攻撃だけでなく、内部不正、誤操作、機器故障なども含むリスクに対し、情報とシステムの安全性・信頼性を維持する活動である。リスクを評価し、予防、検知、対応、復旧の各段階に、技術的対策、人的対策、物理的対策、組織的対策を組み合わせる。",
+          "vi": "Bảo đảm an ninh mạng là hoạt động duy trì an toàn và độ tin cậy của thông tin, hệ thống trước cả tấn công bên ngoài, gian lận nội bộ, thao tác sai và hỏng thiết bị. Tổ chức đánh giá rủi ro rồi kết hợp biện pháp kỹ thuật, con người, vật lý và tổ chức trong các giai đoạn phòng ngừa, phát hiện, ứng phó và khôi phục."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Nhớ ba thuộc tính bảo mật, toàn vẹn và sẵn sàng (CIA)."
+          "ja": "FEでは、機密性・完全性・可用性（CIA）と多層防御を結び付けて考える。一つの対策が破られても、別の対策で被害の発生や拡大を抑える。",
+          "vi": "Trong FE, cần liên hệ bộ ba CIA với phòng thủ nhiều lớp: nếu một biện pháp bị vượt qua, lớp khác vẫn có thể ngăn hoặc hạn chế thiệt hại."
+        },
+        {
+          "type": "example",
+          "ja": "標的型メールへの対策として、教育だけでなく、多要素認証、添付ファイル検査、ログ監視、端末隔離手順、復旧用バックアップを組み合わせる。これは予防から復旧までを覆う多層的な対策である。",
+          "vi": "Ví dụ với email lừa đảo có chủ đích, ngoài đào tạo còn kết hợp MFA, kiểm tra tệp đính kèm, giám sát log, quy trình cô lập thiết bị và bản sao lưu phục hồi; đây là phòng thủ nhiều lớp từ phòng ngừa đến khôi phục."
+        },
+        {
+          "type": "warning",
+          "ja": "ファイアウォールやウイルス対策ソフトを導入するだけでは確保できない。設定、更新、監視、教育、インシデント対応を継続して初めて有効に機能する。",
+          "vi": "Chỉ cài tường lửa hay phần mềm chống mã độc chưa đủ. Biện pháp chỉ hiệu quả khi cấu hình, cập nhật, giám sát, đào tạo và ứng phó sự cố được duy trì liên tục."
         }
       ],
       "terms": [
@@ -199,8 +219,8 @@
           "term": "サイバーセキュリティの確保",
           "english": "Cybersecurity Assurance",
           "vi": "Bảo đảm an ninh mạng",
-          "definitionJa": "情報システムやネットワークに対する攻撃や不正アクセスからデータや情報を守ることを指す。この取り組みは、デジタル社会の発展に伴ってますます重要になっている。たとえば、企業や組織が扱う顧客情報や機密データが漏洩することは、信頼を失うだけでなく、法的な問題を引き起こす可能性もある。サイバーセキュリティを確保するためには、ファイアウォールやアンチウイルスソフトウェアの導入、定期的なシステムの更新、そして従業員への教育が不可欠である。また、サイバー攻撃の手口が進化する中で、最新のセキュリティ技術を取り入れ、脅威に対処する体制を整えることが、デジタル社会をより安全にするための鍵となる。",
-          "definitionVi": "Bảo vệ hệ thống, mạng và thông tin khỏi truy cập trái phép, tấn công, rò rỉ hoặc phá hoại.",
+          "definitionJa": "情報、情報システム、ネットワークの安全性と信頼性を守る措置を講じ、適切に維持管理すること。",
+          "definitionVi": "Việc áp dụng và duy trì thích hợp các biện pháp bảo vệ an toàn, độ tin cậy của thông tin, hệ thống và mạng.",
           "reading": "さいばーせきゅりてぃのかくほ"
         }
       ],
@@ -421,8 +441,8 @@
       "titleJa": "企業理念",
       "titleVi": "Triết lý doanh nghiệp",
       "importance": "high",
-      "summaryJa": "企業が存在する目的や価値観を示す基本的な考え方である。",
-      "summaryVi": "Các giá trị, mục đích và nguyên tắc nền tảng định hướng hoạt động của doanh nghiệp.",
+      "summaryJa": "企業の存在意義、目指す姿、重視する価値観を示し、経営判断や組織行動の長期的な基準となる基本的な考え方である。",
+      "summaryVi": "Quan niệm nền tảng nêu lý do tồn tại, hình ảnh hướng tới và giá trị cốt lõi, làm chuẩn dài hạn cho quyết định và hành vi của doanh nghiệp.",
       "content": [
         {
           "type": "heading",
@@ -431,13 +451,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業が存在する目的や価値観を示す基本的な考え方である。これは企業の行動指針や経営方針としての役割を果たし、社員や取引先、顧客などに向けて企業の姿勢を明確に伝えるものである。例えば、ある企業が「顧客第一」を企業理念に掲げている場合、顧客の満足度を最優先に考える姿勢が組織全体に浸透する。企業理念はまた、コンプライアンスの観点からも重要であり、倫理的な行動を促す基盤となる。企業が社会的責任を果たすためには、理念がしっかりと根付いていることが求められ、これにより信頼を築くことができる。経営戦略にも影響を与え、長期的な成長を支える要素として位置づけられる。",
-          "vi": "Các giá trị, mục đích và nguyên tắc nền tảng định hướng hoạt động của doanh nghiệp."
+          "ja": "企業理念は、企業が何のために存在し、社会へどのような価値を提供し、何を大切に行動するかを表す。市場や技術が変化して個別の戦略が見直されても、投資、人材、製品、安全などの判断に一貫した方向を与える。理念を具体的な方針、制度、評価、日常行動へ落とし込むことで組織文化の基盤となる。",
+          "vi": "Triết lý doanh nghiệp diễn đạt doanh nghiệp tồn tại để làm gì, tạo giá trị nào cho xã hội và coi trọng điều gì trong hành động. Dù chiến lược riêng lẻ thay đổi theo thị trường và công nghệ, triết lý vẫn tạo hướng nhất quán cho quyết định về đầu tư, nhân sự, sản phẩm và an toàn. Khi được chuyển thành chính sách, cơ chế đánh giá và hành vi hằng ngày, nó trở thành nền tảng văn hóa tổ chức."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "企業理念 là tư tưởng định hướng; khác 企業倫理 là chuẩn mực hành vi."
+          "ja": "企業理念は存在目的と価値観を示す上位概念であり、経営戦略はその実現方法、行動規範は日々の具体的な判断基準である。",
+          "vi": "企業理念 là khái niệm cấp cao về mục đích và giá trị; chiến lược là cách hiện thực hóa, còn quy tắc ứng xử là tiêu chuẩn cụ thể cho quyết định hằng ngày."
+        },
+        {
+          "type": "example",
+          "ja": "「安全を最優先する」という理念を掲げる企業なら、納期遅延の恐れがあっても重大な欠陥を発見した製品の出荷を止め、原因確認と是正を優先する判断につながる。",
+          "vi": "Ví dụ, doanh nghiệp coi “an toàn là ưu tiên cao nhất” sẽ dừng xuất xưởng sản phẩm có lỗi nghiêm trọng để điều tra và khắc phục, dù có nguy cơ chậm giao hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "理念を掲示するだけでは組織行動は変わらない。経営者の意思決定、人事評価、教育、業務プロセスと矛盾していれば、理念は形骸化する。",
+          "vi": "Chỉ treo khẩu hiệu không làm thay đổi tổ chức. Nếu quyết định của lãnh đạo, đánh giá nhân sự, đào tạo và quy trình trái với triết lý, triết lý sẽ trở thành hình thức."
         }
       ],
       "terms": [
@@ -445,8 +475,8 @@
           "term": "企業理念",
           "english": "Corporate Philosophy",
           "vi": "Triết lý doanh nghiệp",
-          "definitionJa": "企業が存在する目的や価値観を示す基本的な考え方である。これは企業の行動指針や経営方針としての役割を果たし、社員や取引先、顧客などに向けて企業の姿勢を明確に伝えるものである。例えば、ある企業が「顧客第一」を企業理念に掲げている場合、顧客の満足度を最優先に考える姿勢が組織全体に浸透する。企業理念はまた、コンプライアンスの観点からも重要であり、倫理的な行動を促す基盤となる。企業が社会的責任を果たすためには、理念がしっかりと根付いていることが求められ、これにより信頼を築くことができる。経営戦略にも影響を与え、長期的な成長を支える要素として位置づけられる。",
-          "definitionVi": "Các giá trị, mục đích và nguyên tắc nền tảng định hướng hoạt động của doanh nghiệp.",
+          "definitionJa": "企業の存在意義、目指す姿、重視する価値観を示し、経営と行動の長期的な方向を定める基本思想。",
+          "definitionVi": "Tư tưởng nền tảng xác định lý do tồn tại, hình ảnh hướng tới và giá trị cốt lõi, định hướng dài hạn cho quản trị và hành vi doanh nghiệp.",
           "reading": "きぎょうりねん"
         }
       ],
@@ -462,8 +492,8 @@
       "titleJa": "企業倫理",
       "titleVi": "Đạo đức doanh nghiệp",
       "importance": "high",
-      "summaryJa": "企業が社会の一員として遵守すべき道徳的規範や価値観を指す。",
-      "summaryVi": "Những chuẩn mực về hành vi đúng đắn và trách nhiệm của doanh nghiệp với người lao động, khách hàng và xã hội.",
+      "summaryJa": "企業が利益追求だけでなく、公正、人権、安全、環境などに配慮して意思決定・行動するための倫理的な規範である。",
+      "summaryVi": "Chuẩn mực đạo đức định hướng doanh nghiệp ra quyết định và hành động có trách nhiệm về công bằng, nhân quyền, an toàn và môi trường, không chỉ vì lợi nhuận.",
       "content": [
         {
           "type": "heading",
@@ -472,13 +502,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業が社会の一員として遵守すべき道徳的規範や価値観を指す。これは、企業の活動が正当であり、社会に対して責任を持ち、持続可能な発展を目指すためのガイドラインを提供するものである。具体的には、従業員の権利を尊重し、公正な取引を行い、環境保護に配慮することが含まれる。顧客の信頼を得るためや、ブランド価値を向上させるためにも重要である。例えば、ある企業が倫理的なビジネス慣行を守ることで、消費者や取引先からの信頼を築き、長期的な利益を得ることができる。また、企業内部でのコンプライアンス教育を通じて、従業員の意識向上を図ることが、リスク管理の一環としても機能する。",
-          "vi": "Những chuẩn mực về hành vi đúng đắn và trách nhiệm của doanh nghiệp với người lao động, khách hàng và xã hội."
+          "ja": "企業倫理は、法令の最低基準を守るだけでなく、利害関係者に対して何が公正で責任ある行動かを判断する規範である。人権尊重、公正な取引、顧客安全、環境配慮、利益相反の管理、正確な情報開示などを、倫理規程、相談・通報制度、教育、経営者の行動へ反映させる。",
+          "vi": "Đạo đức doanh nghiệp không dừng ở mức tối thiểu của pháp luật mà là chuẩn để phán đoán hành vi công bằng và có trách nhiệm với các bên liên quan. Nội dung như tôn trọng nhân quyền, giao dịch công bằng, an toàn khách hàng, bảo vệ môi trường, quản lý xung đột lợi ích và công bố chính xác cần được thể hiện trong quy tắc đạo đức, kênh tư vấn–tố giác, đào tạo và hành vi của lãnh đạo."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Tuân thủ luật là điều kiện cần nhưng chưa bao trùm toàn bộ đạo đức kinh doanh."
+          "ja": "コンプライアンスは法令・社内規程などの遵守を中心とし、企業倫理は法令に明記されない場面も含めて「何をすべきか」を判断する。遵法は企業倫理の必要条件だが十分条件ではない。",
+          "vi": "Compliance tập trung tuân thủ luật và quy định nội bộ; đạo đức doanh nghiệp còn trả lời “nên làm gì” trong tình huống pháp luật chưa quy định rõ. Tuân thủ là điều kiện cần nhưng chưa đủ."
+        },
+        {
+          "type": "example",
+          "ja": "法的な回収義務が明確でなくても、製品に利用者の安全を脅かす欠陥が判明した場合、販売を止め、事実を説明し、自主回収することは企業倫理に基づく判断となる。",
+          "vi": "Ví dụ, dù nghĩa vụ thu hồi theo luật chưa rõ, khi phát hiện lỗi đe dọa an toàn người dùng, doanh nghiệp dừng bán, công bố sự thật và tự nguyện thu hồi theo phán đoán đạo đức."
+        },
+        {
+          "type": "warning",
+          "ja": "短期利益や上司の指示は、不正確な表示、差別、隠蔽などを正当化しない。目標達成の方法も倫理的である必要がある。",
+          "vi": "Lợi nhuận ngắn hạn hay chỉ thị cấp trên không biện minh cho quảng cáo sai, phân biệt đối xử hoặc che giấu. Cách đạt mục tiêu cũng phải có đạo đức."
         }
       ],
       "terms": [
@@ -486,8 +526,8 @@
           "term": "企業倫理",
           "english": "Corporate Ethics",
           "vi": "Đạo đức doanh nghiệp",
-          "definitionJa": "企業が社会の一員として遵守すべき道徳的規範や価値観を指す。これは、企業の活動が正当であり、社会に対して責任を持ち、持続可能な発展を目指すためのガイドラインを提供するものである。具体的には、従業員の権利を尊重し、公正な取引を行い、環境保護に配慮することが含まれる。顧客の信頼を得るためや、ブランド価値を向上させるためにも重要である。例えば、ある企業が倫理的なビジネス慣行を守ることで、消費者や取引先からの信頼を築き、長期的な利益を得ることができる。また、企業内部でのコンプライアンス教育を通じて、従業員の意識向上を図ることが、リスク管理の一環としても機能する。",
-          "definitionVi": "Những chuẩn mực về hành vi đúng đắn và trách nhiệm của doanh nghiệp với người lao động, khách hàng và xã hội.",
+          "definitionJa": "企業が社会の一員として、公正かつ責任ある意思決定と行動を行うための倫理的規範。",
+          "definitionVi": "Chuẩn mực đạo đức để doanh nghiệp ra quyết định và hành động công bằng, có trách nhiệm với xã hội và các bên liên quan.",
           "reading": "きぎょうりんり"
         }
       ],
@@ -544,8 +584,8 @@
       "titleJa": "コーポレートガバナンス",
       "titleVi": "Quản trị công ty",
       "importance": "high",
-      "summaryJa": "企業の経営や方針に関しての透明性と責任を確保するための仕組みやプロセスである。",
-      "summaryVi": "Cơ chế giám sát, kiểm soát và điều hành giúp quản lý minh bạch, có trách nhiệm với các bên liên quan.",
+      "summaryJa": "経営を監督し、権限と説明責任を明確にして、企業の公正性・透明性と持続的な価値向上を支える統治の仕組みである。",
+      "summaryVi": "Cơ chế quản trị giám sát ban điều hành, làm rõ quyền hạn và trách nhiệm giải trình nhằm bảo đảm tính công bằng, minh bạch và giá trị bền vững của doanh nghiệp.",
       "content": [
         {
           "type": "heading",
@@ -554,13 +594,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業の経営や方針に関しての透明性と責任を確保するための仕組みやプロセスである。これは、企業の利害関係者—株主、従業員、顧客、地域社会など—がそれぞれの利益を保護することを目的としている。例えば、企業の取締役会が透明な運営を行い、適切な情報開示を行うことで、利害関係者が企業の活動を理解しやすくなる。また、コーポレートガバナンスは企業の信頼性を高め、長期的な成長を促進する要素ともなり、特に不祥事を防止するために重要視される。これは、企業全体のコンプライアンス文化の形成にも寄与し、倫理的な経営が実現されるための基盤となる。",
-          "vi": "Cơ chế giám sát, kiểm soát và điều hành giúp quản lý minh bạch, có trách nhiệm với các bên liên quan."
+          "ja": "コーポレートガバナンスは、株主総会、取締役会、監査機関などの役割を定め、経営陣の意思決定と業務執行を監督する仕組みである。取締役会の監督、独立性、内部統制、適切な情報開示、株主との対話などを通じて、権限の濫用や利益相反を抑え、株主を含むステークホルダへの説明責任を果たす。",
+          "vi": "Quản trị công ty xác định vai trò của đại hội cổ đông, hội đồng quản trị và cơ quan kiểm toán để giám sát quyết định và thực thi của ban điều hành. Thông qua giám sát của hội đồng quản trị, tính độc lập, kiểm soát nội bộ, công bố phù hợp và đối thoại với cổ đông, cơ chế này hạn chế lạm quyền, xung đột lợi ích và bảo đảm trách nhiệm giải trình với các bên liên quan."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Phân biệt corporate governance (cơ chế quản trị) và compliance (tuân thủ)."
+          "ja": "ガバナンスは経営を方向付け・監督する仕組み、マネジメントはその枠内で業務を執行する活動、コンプライアンスは法令・規程を守ることである。",
+          "vi": "Governance là cơ chế định hướng và giám sát điều hành; management là hoạt động thực thi trong khuôn khổ đó; compliance là tuân thủ luật và quy định."
+        },
+        {
+          "type": "example",
+          "ja": "経営者と関係の深い会社との大型取引について、独立社外取締役を含む取締役会が利益相反を確認し、条件の妥当性を審議して開示することはガバナンスの例である。",
+          "vi": "Ví dụ, với giao dịch lớn cùng công ty có quan hệ mật thiết với ban điều hành, hội đồng quản trị gồm thành viên độc lập kiểm tra xung đột lợi ích, thẩm định điều kiện và công bố thông tin."
+        },
+        {
+          "type": "warning",
+          "ja": "委員会や規程を設けただけで不祥事を防げるとは限らない。情報が取締役会へ届き、独立した監督と是正が実際に機能しているかが重要である。",
+          "vi": "Chỉ lập ủy ban và quy chế không bảo đảm ngăn được sai phạm. Quan trọng là thông tin đến được hội đồng quản trị và hoạt động giám sát độc lập, khắc phục thực sự vận hành."
         }
       ],
       "terms": [
@@ -568,9 +618,9 @@
           "term": "コーポレートガバナンス",
           "english": "Corporate Governance",
           "vi": "Quản trị công ty",
-          "definitionJa": "企業の経営や方針に関しての透明性と責任を確保するための仕組みやプロセスである。これは、企業の利害関係者—株主、従業員、顧客、地域社会など—がそれぞれの利益を保護することを目的としている。例えば、企業の取締役会が透明な運営を行い、適切な情報開示を行うことで、利害関係者が企業の活動を理解しやすくなる。また、コーポレートガバナンスは企業の信頼性を高め、長期的な成長を促進する要素ともなり、特に不祥事を防止するために重要視される。これは、企業全体のコンプライアンス文化の形成にも寄与し、倫理的な経営が実現されるための基盤となる。",
-          "definitionVi": "Cơ chế giám sát, kiểm soát và điều hành giúp quản lý minh bạch, có trách nhiệm với các bên liên quan.",
-          "reading": ""
+          "definitionJa": "経営を方向付け・監督し、権限、透明性、説明責任を確保する企業統治の仕組み。",
+          "definitionVi": "Cơ chế quản trị định hướng, giám sát ban điều hành và bảo đảm quyền hạn, minh bạch, trách nhiệm giải trình.",
+          "reading": "こーぽれーとがばなんす"
         }
       ],
       "tags": [
@@ -585,8 +635,8 @@
       "titleJa": "CSR",
       "titleVi": "Trách nhiệm xã hội của doanh nghiệp (CSR)",
       "importance": "high",
-      "summaryJa": "企業の社会的責任を意味し、企業がその事業活動を通じて社会や環境に与える影響を考慮し、持続可能な発展に寄与するための行動を指す。",
-      "summaryVi": "Trách nhiệm của doanh nghiệp đối với ảnh hưởng xã hội, môi trường và người lao động bên cạnh mục tiêu lợi nhuận.",
+      "summaryJa": "企業が意思決定と事業活動による社会・環境への影響に責任をもち、透明で倫理的な行動を組織全体へ組み込む考え方である。",
+      "summaryVi": "Quan niệm doanh nghiệp chịu trách nhiệm về tác động của quyết định và hoạt động đối với xã hội, môi trường, đồng thời tích hợp hành vi minh bạch và có đạo đức vào toàn tổ chức.",
       "content": [
         {
           "type": "heading",
@@ -595,13 +645,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業の社会的責任を意味し、企業がその事業活動を通じて社会や環境に与える影響を考慮し、持続可能な発展に寄与するための行動を指す。この概念は単に利益追求にとどまらず、企業が地域社会や環境、従業員に対して責任を持つことを求めるものである。具体的には、教育支援、環境保護、労働条件の改善などが含まれる。たとえば、企業がリサイクルプログラムを導入することで、環境への負荷を減らし、地域社会との関係を深める活動を行うことが挙げられる。企業が倫理的に行動することでブランドの信頼性を高め、競争優位を築くために必要不可欠な要素とされている。",
-          "vi": "Trách nhiệm của doanh nghiệp đối với ảnh hưởng xã hội, môi trường và người lao động bên cạnh mục tiêu lợi nhuận."
+          "ja": "CSRは、企業が製品、サービス、調達、雇用などを通じて社会と環境へ与える影響を把握し、法令遵守を前提に、ステークホルダの期待と持続可能な発展を考慮して責任ある行動をとることである。人権、労働慣行、環境、公正な事業慣行、消費者課題、地域社会への参画などを本業と経営判断へ統合する。",
+          "vi": "CSR yêu cầu doanh nghiệp nhận diện tác động xã hội và môi trường từ sản phẩm, dịch vụ, mua sắm và việc làm; trên nền tảng tuân thủ pháp luật, doanh nghiệp hành động có trách nhiệm, xét đến kỳ vọng của các bên liên quan và phát triển bền vững. Nhân quyền, lao động, môi trường, kinh doanh công bằng, người tiêu dùng và cộng đồng phải được tích hợp vào hoạt động cốt lõi và quyết định quản trị."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "CSR không chỉ là quyên góp từ thiện."
+          "ja": "CSRは寄付やボランティアだけではない。サプライチェーン、製造、販売、雇用を含む日常の事業活動そのものに社会的責任を組み込む点が重要である。",
+          "vi": "CSR không chỉ là quyên góp hay tình nguyện; điểm quan trọng là tích hợp trách nhiệm xã hội vào chuỗi cung ứng, sản xuất, bán hàng, việc làm và hoạt động thường ngày."
+        },
+        {
+          "type": "example",
+          "ja": "衣料品企業が、仕入先の児童労働リスクを調査し、是正計画と監査を実施するとともに、製造時の排出量を測定・削減し、結果を開示する取組はCSRに当たる。",
+          "vi": "Ví dụ, doanh nghiệp may mặc đánh giá rủi ro lao động trẻ em tại nhà cung cấp, thực hiện kế hoạch khắc phục và kiểm tra, đồng thời đo–giảm phát thải sản xuất và công bố kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "ISO 26000は社会的責任の手引であり、要求事項を定める認証用のマネジメントシステム規格ではない。「ISO 26000認証取得」と混同しない。",
+          "vi": "ISO 26000 là hướng dẫn về trách nhiệm xã hội, không phải tiêu chuẩn hệ thống quản lý có yêu cầu để chứng nhận; không nhầm thành “chứng nhận ISO 26000”."
         }
       ],
       "terms": [
@@ -609,8 +669,8 @@
           "term": "CSR",
           "english": "Corporate Social Responsibility",
           "vi": "Trách nhiệm xã hội của doanh nghiệp (CSR)",
-          "definitionJa": "企業の社会的責任を意味し、企業がその事業活動を通じて社会や環境に与える影響を考慮し、持続可能な発展に寄与するための行動を指す。この概念は単に利益追求にとどまらず、企業が地域社会や環境、従業員に対して責任を持つことを求めるものである。具体的には、教育支援、環境保護、労働条件の改善などが含まれる。たとえば、企業がリサイクルプログラムを導入することで、環境への負荷を減らし、地域社会との関係を深める活動を行うことが挙げられる。企業が倫理的に行動することでブランドの信頼性を高め、競争優位を築くために必要不可欠な要素とされている。",
-          "definitionVi": "Trách nhiệm của doanh nghiệp đối với ảnh hưởng xã hội, môi trường và người lao động bên cạnh mục tiêu lợi nhuận.",
+          "definitionJa": "企業が事業活動による社会・環境への影響に責任をもち、透明で倫理的な行動を経営へ統合する考え方。",
+          "definitionVi": "Quan niệm doanh nghiệp chịu trách nhiệm về tác động xã hội, môi trường và tích hợp hành vi minh bạch, có đạo đức vào quản trị.",
           "reading": "しーえすあーる"
         }
       ],
@@ -626,8 +686,8 @@
       "titleJa": "ステークホルダ",
       "titleVi": "Bên liên quan",
       "importance": "high",
-      "summaryJa": "あるプロジェクトや事業に対して直接的または間接的に影響を持つ個人や集団のことである。",
-      "summaryVi": "Cá nhân hoặc tổ chức có thể tác động đến hoặc chịu ảnh hưởng từ doanh nghiệp, dự án.",
+      "summaryJa": "企業やプロジェクトの意思決定・活動に影響を与える、又はその結果から影響を受ける個人・組織・集団である。",
+      "summaryVi": "Cá nhân, tổ chức hoặc nhóm có thể ảnh hưởng đến quyết định, hoạt động của doanh nghiệp/dự án hoặc chịu ảnh hưởng từ kết quả của chúng.",
       "content": [
         {
           "type": "heading",
@@ -636,13 +696,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "あるプロジェクトや事業に対して直接的または間接的に影響を持つ個人や集団のことである。これには、企業の株主、従業員、顧客、取引先、地域社会、規制当局などが含まれる。企業やプロジェクトが成功を収めるためには、さまざまなステークホルダの意見や期待を理解し、適切に対応することが重要である。たとえば、顧客のニーズに応えることで市場の信頼を得たり、従業員の意見を取り入れて働きやすい環境を整えることで生産性を向上させることができる。また、コンプライアンスの観点からは、法律や規制に従うことが、ステークホルダとの信頼関係を築くためにも欠かせない要素である。このように、ステークホルダの管理は、成功に向けた戦略を策定する際に不可欠な側面である。",
-          "vi": "Cá nhân hoặc tổ chức có thể tác động đến hoặc chịu ảnh hưởng từ doanh nghiệp, dự án."
+          "ja": "ステークホルダには、株主、従業員、顧客、取引先、債権者、地域社会、行政機関などが含まれる。組織は、誰がどのような利害、権限、影響力をもつかを分析し、情報提供、協議、参加など関与の方法を設計する。意思決定では、異なる期待やリスクの調整が必要になる。",
+          "vi": "Stakeholder gồm cổ đông, nhân viên, khách hàng, nhà cung cấp, chủ nợ, cộng đồng và cơ quan nhà nước. Tổ chức phân tích lợi ích, quyền hạn và mức ảnh hưởng của từng bên để thiết kế cách cung cấp thông tin, tham vấn hoặc cho tham gia; khi ra quyết định phải điều hòa các kỳ vọng và rủi ro khác nhau."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Bao gồm cổ đông, nhân viên, khách hàng, đối tác và cộng đồng."
+          "ja": "株主（stockholder）はステークホルダの一部である。ステークホルダは資本を保有する者だけでなく、事業から影響を受ける従業員、顧客、地域社会なども含む。",
+          "vi": "Cổ đông chỉ là một nhóm stakeholder. Stakeholder còn gồm người không sở hữu vốn nhưng chịu ảnh hưởng từ hoạt động, như nhân viên, khách hàng và cộng đồng."
+        },
+        {
+          "type": "example",
+          "ja": "病院の予約システムを刷新する場合、患者、医師、受付担当者、システム運用者、経営者、委託先、監督官庁は、それぞれ異なる要求と影響をもつステークホルダである。",
+          "vi": "Ví dụ khi đổi hệ thống đặt lịch bệnh viện, bệnh nhân, bác sĩ, lễ tân, vận hành hệ thống, ban quản lý, nhà thầu và cơ quan giám sát đều là stakeholder với yêu cầu và mức ảnh hưởng khác nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "すべての要求をそのまま採用することがステークホルダ管理ではない。正当性、影響度、緊急性、相互の利害を分析し、判断理由を説明する。",
+          "vi": "Quản lý stakeholder không có nghĩa chấp nhận nguyên trạng mọi yêu cầu. Cần phân tích tính chính đáng, mức ảnh hưởng, độ khẩn cấp và xung đột lợi ích, rồi giải thích căn cứ quyết định."
         }
       ],
       "terms": [
@@ -650,9 +720,9 @@
           "term": "ステークホルダ",
           "english": "Stakeholder",
           "vi": "Bên liên quan",
-          "definitionJa": "あるプロジェクトや事業に対して直接的または間接的に影響を持つ個人や集団のことである。これには、企業の株主、従業員、顧客、取引先、地域社会、規制当局などが含まれる。企業やプロジェクトが成功を収めるためには、さまざまなステークホルダの意見や期待を理解し、適切に対応することが重要である。たとえば、顧客のニーズに応えることで市場の信頼を得たり、従業員の意見を取り入れて働きやすい環境を整えることで生産性を向上させることができる。また、コンプライアンスの観点からは、法律や規制に従うことが、ステークホルダとの信頼関係を築くためにも欠かせない要素である。このように、ステークホルダの管理は、成功に向けた戦略を策定する際に不可欠な側面である。",
-          "definitionVi": "Cá nhân hoặc tổ chức có thể tác động đến hoặc chịu ảnh hưởng từ doanh nghiệp, dự án.",
-          "reading": ""
+          "definitionJa": "組織やプロジェクトの意思決定・活動に影響を与える、又はその結果から影響を受ける利害関係者。",
+          "definitionVi": "Bên liên quan có thể ảnh hưởng đến quyết định, hoạt động của tổ chức/dự án hoặc chịu ảnh hưởng từ kết quả của chúng.",
+          "reading": "すてーくほるだ"
         }
       ],
       "tags": ["legal", "other-laws-guidelines-engineer-ethics", "stakeholder"]
@@ -663,8 +733,8 @@
       "titleJa": "内部統制",
       "titleVi": "Kiểm soát nội bộ",
       "importance": "high",
-      "summaryJa": "組織の業務運営が効率的かつ効果的に行われるようにするための仕組みや手続きを指す。",
-      "summaryVi": "Các quy trình và cơ chế bảo đảm hoạt động hiệu quả, báo cáo đáng tin cậy, tuân thủ và bảo vệ tài sản.",
+      "summaryJa": "業務の有効性・効率性、報告の信頼性、法令遵守、資産保全という目的の達成について合理的な保証を得るため、組織内の全員が遂行するプロセスである。",
+      "summaryVi": "Quy trình do mọi thành viên trong tổ chức thực hiện nhằm tạo bảo đảm hợp lý cho hiệu lực–hiệu quả hoạt động, độ tin cậy báo cáo, tuân thủ và bảo vệ tài sản.",
       "content": [
         {
           "type": "heading",
@@ -673,13 +743,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "組織の業務運営が効率的かつ効果的に行われるようにするための仕組みや手続きを指す。具体的には、資産の保護や信頼性のある財務報告、法令遵守を目的とするものである。たとえば、財務情報の正確性を保つために、従業員による二重チェックや承認プロセスを導入することがある。これにより、不正行為や誤りを未然に防ぐことができる。また、企業のリスク管理にも寄与し、長期的な成長を支える重要な要素となる。組織内の全員が意識して参加することが求められ、定期的な評価と改善が必要である。",
-          "vi": "Các quy trình và cơ chế bảo đảm hoạt động hiệu quả, báo cáo đáng tin cậy, tuân thủ và bảo vệ tài sản."
+          "ja": "内部統制は、四つの目的を達成するために業務へ組み込まれた継続的なプロセスである。統制環境、リスクの評価と対応、統制活動、情報と伝達、モニタリング、ITへの対応という基本的要素を整備・運用する。職務分掌、承認、照合、アクセス制御などの統制活動だけでなく、組織風土や監視・改善も含む。",
+          "vi": "Kiểm soát nội bộ là quy trình liên tục được tích hợp vào công việc để đạt bốn mục tiêu. Nó gồm môi trường kiểm soát, đánh giá và ứng phó rủi ro, hoạt động kiểm soát, thông tin–truyền đạt, giám sát và ứng phó với CNTT. Phạm vi không chỉ có phân nhiệm, phê duyệt, đối chiếu, kiểm soát truy cập mà còn gồm văn hóa tổ chức, theo dõi và cải tiến."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Ví dụ phân quyền, phê duyệt, đối chiếu; khác kiểm toán độc lập."
+          "ja": "内部統制は経営者だけでなく組織内の全員が遂行し、目的達成を絶対保証するものではなく「合理的な保証」を与える。内部監査は内部統制を独立的に評価する機能の一つである。",
+          "vi": "Kiểm soát nội bộ do mọi người trong tổ chức thực hiện và chỉ cung cấp “bảo đảm hợp lý”, không bảo đảm tuyệt đối. Kiểm toán nội bộ là một chức năng đánh giá độc lập hệ thống kiểm soát nội bộ."
+        },
+        {
+          "type": "example",
+          "ja": "購買担当者が発注し、別の責任者が承認し、受入担当者が納品を確認し、経理担当者が請求書と照合して支払う職務分掌は、不正や誤りを抑える内部統制である。",
+          "vi": "Ví dụ, người mua lập đơn, quản lý khác phê duyệt, bộ phận nhận hàng xác nhận giao hàng và kế toán đối chiếu hóa đơn trước khi trả tiền; phân nhiệm này giúp giảm gian lận và sai sót."
+        },
+        {
+          "type": "warning",
+          "ja": "内部統制があっても、共謀、経営者による無効化、判断誤り、費用制約などで機能しない場合がある。リスクをゼロにする制度ではない。",
+          "vi": "Kiểm soát nội bộ vẫn có thể thất bại do thông đồng, lãnh đạo vô hiệu hóa kiểm soát, sai phán đoán hoặc giới hạn chi phí; đây không phải cơ chế đưa rủi ro về 0."
         }
       ],
       "terms": [
@@ -687,8 +767,8 @@
           "term": "内部統制",
           "english": "Internal Control",
           "vi": "Kiểm soát nội bộ",
-          "definitionJa": "組織の業務運営が効率的かつ効果的に行われるようにするための仕組みや手続きを指す。具体的には、資産の保護や信頼性のある財務報告、法令遵守を目的とするものである。たとえば、財務情報の正確性を保つために、従業員による二重チェックや承認プロセスを導入することがある。これにより、不正行為や誤りを未然に防ぐことができる。また、企業のリスク管理にも寄与し、長期的な成長を支える重要な要素となる。組織内の全員が意識して参加することが求められ、定期的な評価と改善が必要である。",
-          "definitionVi": "Các quy trình và cơ chế bảo đảm hoạt động hiệu quả, báo cáo đáng tin cậy, tuân thủ và bảo vệ tài sản.",
+          "definitionJa": "業務、報告、法令遵守、資産保全の目的達成に合理的な保証を得るため、組織内の全員が遂行するプロセス。",
+          "definitionVi": "Quy trình do mọi người trong tổ chức thực hiện nhằm tạo bảo đảm hợp lý cho các mục tiêu hoạt động, báo cáo, tuân thủ và bảo vệ tài sản.",
           "reading": "ないぶとうせい"
         }
       ],
@@ -704,8 +784,8 @@
       "titleJa": "輸出関連法規",
       "titleVi": "Quy định pháp luật về xuất khẩu",
       "importance": "high",
-      "summaryJa": "製品やサービスを外国に送る際に遵守すべき法律や規制のことである。",
-      "summaryVi": "Các quy tắc kiểm soát việc xuất khẩu hàng hóa, công nghệ và dịch vụ, nhất là loại có thể dùng cho mục đích quân sự.",
+      "summaryJa": "国際的な安全保障などのため、貨物の輸出や技術の国外提供を、品目・仕様、仕向地、用途、需要者に応じて管理する法令である。",
+      "summaryVi": "Quy định quản lý xuất khẩu hàng hóa và cung cấp công nghệ ra nước ngoài dựa trên loại–thông số, điểm đến, mục đích và người sử dụng nhằm bảo vệ an ninh quốc tế.",
       "content": [
         {
           "type": "heading",
@@ -714,13 +794,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "製品やサービスを外国に送る際に遵守すべき法律や規制のことである。これらの法規は、国によって異なるが、多くの場合、輸出先の国や地域における安全保障や環境保護の観点からの条件を含んでいる。たとえば、特定の技術や製品が兵器に転用される可能性がある場合、それを制限するための規制が定められている。企業は、輸出関連法規を遵守することで、違法行為を避け、国際的な信頼を築くことができる。さらに、適切な手続きを行うことで、事業のリスクを最小限に抑え、市場拡大の機会も得られるため、この重要性はますます高まっている。",
-          "vi": "Các quy tắc kiểm soát việc xuất khẩu hàng hóa, công nghệ và dịch vụ, nhất là loại có thể dùng cho mục đích quân sự."
+          "ja": "日本の安全保障貿易管理では、外為法に基づき、武器や軍事転用のおそれが高い貨物・技術を対象とするリスト規制と、リスト外でも用途・需要者などに懸念がある場合のキャッチオール規制がある。輸出者は該非判定だけでなく、仕向地、用途、需要者を確認し、必要なら事前に許可を得る。電子メール、クラウド共有、口頭説明などによる技術提供も対象になり得る。",
+          "vi": "Trong kiểm soát thương mại an ninh của Nhật theo Luật Ngoại hối và Ngoại thương, có kiểm soát theo danh sách đối với hàng hóa/công nghệ nhạy cảm có nguy cơ dùng cho quân sự và kiểm soát catch-all khi mục đích hoặc người sử dụng đáng lo ngại dù không thuộc danh sách. Nhà xuất khẩu phải phân loại, kiểm tra điểm đến, mục đích, người dùng và xin phép trước nếu cần. Cung cấp công nghệ qua email, chia sẻ đám mây hoặc giải thích miệng cũng có thể thuộc phạm vi kiểm soát."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Xuất khẩu công nghệ vô hình cũng có thể chịu kiểm soát."
+          "ja": "FEでは「貨物を海外へ送る場合だけ」と考えない。設計図、プログラム、製造ノウハウなどの技術を非居住者等へ提供する取引も確認対象になる。",
+          "vi": "Trong FE, không giới hạn ở việc gửi hàng ra nước ngoài. Việc cung cấp bản thiết kế, chương trình hay bí quyết sản xuất cho đối tượng ở nước ngoài cũng cần kiểm tra."
+        },
+        {
+          "type": "example",
+          "ja": "海外の取引先から高性能装置の設計仕様を求められた場合、担当者はファイルをメール送信する前に、技術の該非、相手先、最終用途を確認し、必要な輸出許可を取得する。",
+          "vi": "Ví dụ, khi đối tác nước ngoài yêu cầu thông số thiết kế thiết bị hiệu năng cao, nhân viên phải kiểm tra phân loại công nghệ, đối tác và mục đích cuối, xin giấy phép cần thiết trước khi gửi tệp qua email."
+        },
+        {
+          "type": "warning",
+          "ja": "民生品又はリスト規制外だから常に許可不要とは限らない。キャッチオール規制や制裁、最新の法令・通達を案件ごとに確認する必要がある。",
+          "vi": "Hàng dân dụng hoặc ngoài danh sách không có nghĩa luôn miễn phép. Cần kiểm tra catch-all, biện pháp trừng phạt và quy định hiện hành cho từng giao dịch."
         }
       ],
       "terms": [
@@ -728,8 +818,8 @@
           "term": "輸出関連法規",
           "english": "Export-Related Regulations",
           "vi": "Quy định pháp luật về xuất khẩu",
-          "definitionJa": "製品やサービスを外国に送る際に遵守すべき法律や規制のことである。これらの法規は、国によって異なるが、多くの場合、輸出先の国や地域における安全保障や環境保護の観点からの条件を含んでいる。たとえば、特定の技術や製品が兵器に転用される可能性がある場合、それを制限するための規制が定められている。企業は、輸出関連法規を遵守することで、違法行為を避け、国際的な信頼を築くことができる。さらに、適切な手続きを行うことで、事業のリスクを最小限に抑え、市場拡大の機会も得られるため、この重要性はますます高まっている。",
-          "definitionVi": "Các quy tắc kiểm soát việc xuất khẩu hàng hóa, công nghệ và dịch vụ, nhất là loại có thể dùng cho mục đích quân sự.",
+          "definitionJa": "貨物の輸出や技術の国外提供を、品目、仕向地、用途、需要者などに応じて管理する法令。",
+          "definitionVi": "Quy định kiểm soát xuất khẩu hàng hóa và cung cấp công nghệ ra nước ngoài theo loại hàng, điểm đến, mục đích và người sử dụng.",
           "reading": "ゆしゅつかんれんほうき"
         }
       ],
@@ -823,8 +913,8 @@
       "titleJa": "データのねつ造・改ざん・盗用",
       "titleVi": "Bịa đặt, sửa sai lệch và chiếm dụng dữ liệu",
       "importance": "high",
-      "summaryJa": "情報倫理において重要な問題である。",
-      "summaryVi": "Ba hành vi sai trái: tạo dữ liệu không có thật, thay đổi dữ liệu trái phép và lấy dữ liệu người khác làm của mình.",
+      "summaryJa": "存在しないデータを作る「ねつ造」、得られたデータを真正でないものへ加工する「改ざん」、他者の成果を適切な表示なく流用する「盗用」を区別する。",
+      "summaryVi": "Phân biệt bịa đặt dữ liệu không tồn tại, làm sai lệch dữ liệu/kết quả có thật và sử dụng thành quả của người khác mà không được phép hoặc ghi nguồn phù hợp.",
       "content": [
         {
           "type": "heading",
@@ -833,22 +923,32 @@
         },
         {
           "type": "paragraph",
-          "ja": "情報倫理において重要な問題である。これは、実際の事実を偽ったり、改変したり、他人の知的財産を無断で使用する行為を指す。たとえば、研究結果を捏造して発表することは、科学の信頼性を損なう。データ改ざんは、既存のデータを不正に変更することで、結果を操作することができる。盗用は、他者が作成したデータやアイデアを、自分のもののように使ってしまう行為である。これらは、企業や個人の信用を失う原因となり、場合によっては法的な問題につながることもあるため、倫理的な責任が求められる。",
-          "vi": "Ba hành vi sai trái: tạo dữ liệu không có thật, thay đổi dữ liệu trái phép và lấy dữ liệu người khác làm của mình."
+          "ja": "ねつ造は、存在しないデータや結果を作成する行為である。改ざんは、資料、機器、過程を不正に変更し、得られたデータや結果を真正でないものへ加工する行為である。盗用は、他者のアイデア、方法、データ、結果、文章などを、了解又は適切な表示なく自分の成果のように利用する行為である。いずれも判断の基礎となる情報の信頼性を損なう。",
+          "vi": "Bịa đặt là tạo dữ liệu hoặc kết quả không tồn tại. Làm sai lệch là can thiệp không chính đáng vào tài liệu, thiết bị hay quá trình để biến dữ liệu/kết quả thành không trung thực. Đạo văn–chiếm dụng là dùng ý tưởng, phương pháp, dữ liệu, kết quả hoặc văn bản của người khác như thành quả của mình mà không được phép hoặc ghi nguồn phù hợp. Cả ba đều phá hủy độ tin cậy của thông tin dùng để ra quyết định."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "ねつ造 = bịa ra; 改ざん = sửa dữ liệu có sẵn; 盗用 = chiếm dụng."
+          "ja": "ねつ造は「ないものを作る」、改ざんは「あるものを不正に変える」、盗用は「他者のものを適切な表示なく使う」と整理する。",
+          "vi": "Ghi nhớ: ねつ造 là tạo cái không có; 改ざん là sửa sai cái đã có; 盗用 là dùng thành quả người khác mà không ghi nhận phù hợp."
+        },
+        {
+          "type": "example",
+          "ja": "実施していない試験結果を表へ追加すればねつ造、期待する結論に合うよう根拠なく測定値を削除すれば改ざん、他者のデータセットを出典なしで自作として公表すれば盗用である。",
+          "vi": "Ví dụ: thêm kết quả thí nghiệm chưa thực hiện là bịa đặt; xóa số đo vô căn cứ để khớp kết luận mong muốn là làm sai lệch; công bố bộ dữ liệu của người khác như của mình mà không dẫn nguồn là chiếm dụng."
+        },
+        {
+          "type": "warning",
+          "ja": "正当な手順に基づくデータ補正や、誠実に行った研究で後から誤りが判明したことを直ちに不正と決め付けない。処理基準、変更履歴、出典を記録して検証可能にする。",
+          "vi": "Không tự động coi việc hiệu chỉnh theo phương pháp hợp lệ hoặc sai sót được phát hiện trong nghiên cứu thiện chí là gian lận. Cần lưu tiêu chí xử lý, lịch sử thay đổi và nguồn để có thể kiểm chứng."
         }
       ],
       "terms": [
         {
           "term": "データのねつ造・改ざん・盗用",
-          "english": "Data Fabrication, Alteration, and Theft",
+          "english": "Fabrication, Falsification, and Plagiarism",
           "vi": "Bịa đặt, sửa sai lệch và chiếm dụng dữ liệu",
-          "definitionJa": "情報倫理において重要な問題である。これは、実際の事実を偽ったり、改変したり、他人の知的財産を無断で使用する行為を指す。たとえば、研究結果を捏造して発表することは、科学の信頼性を損なう。データ改ざんは、既存のデータを不正に変更することで、結果を操作することができる。盗用は、他者が作成したデータやアイデアを、自分のもののように使ってしまう行為である。これらは、企業や個人の信用を失う原因となり、場合によっては法的な問題につながることもあるため、倫理的な責任が求められる。",
-          "definitionVi": "Ba hành vi sai trái: tạo dữ liệu không có thật, thay đổi dữ liệu trái phép và lấy dữ liệu người khác làm của mình.",
+          "definitionJa": "存在しないデータの作成、真正でないデータへの加工、他者の成果の無断・無表示での流用という三つの不正行為。",
+          "definitionVi": "Ba hành vi sai trái: tạo dữ liệu không tồn tại, làm dữ liệu/kết quả không trung thực và sử dụng thành quả người khác mà không được phép hoặc ghi nguồn.",
           "reading": "でーたのねつぞう・かいざん・とうよう"
         }
       ],
@@ -938,8 +1038,8 @@
       "titleJa": "マルインフォメーション",
       "titleVi": "Thông tin thật bị dùng với mục đích gây hại",
       "importance": "high",
-      "summaryJa": "意図的に誤解を招くように操作された情報のことを指す。",
-      "summaryVi": "Thông tin có cơ sở thực tế nhưng bị đưa ra sai bối cảnh hoặc khai thác nhằm gây tổn hại.",
+      "summaryJa": "事実に基づく情報を、個人・組織・社会へ害を与える意図で公開・拡散する情報であり、虚偽であることを要件としない。",
+      "summaryVi": "Thông tin dựa trên sự thật nhưng được công bố hoặc lan truyền với ý định gây hại cho cá nhân, tổ chức hay xã hội; bản thân nội dung không nhất thiết là giả.",
       "content": [
         {
           "type": "heading",
@@ -948,13 +1048,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "意図的に誤解を招くように操作された情報のことを指す。この情報は、主に悪意を持って他者を攻撃したり、社会に混乱を招くために流布されるものである。具体的には、事実に基づいているが、それを特定の文脈で誤って解釈させるような形で使用されることがある。このような情報は、個人の名誉を傷つけたり、不安を煽ったりする可能性があり、情報倫理や技術者倫理の観点から対処が求められる。倫理的な観点を持って情報を扱うことは、信頼性の高いコミュニケーションを維持するために非常に重要である。",
-          "vi": "Thông tin có cơ sở thực tế nhưng bị đưa ra sai bối cảnh hoặc khai thác nhằm gây tổn hại."
+          "ja": "マルインフォメーションは、真正な情報を害意のある目的で利用する情報障害の一種である。私的情報を攻撃目的で公開する、事実の一部だけを文脈から切り離して相手を傷つける、といった形をとる。情報の真偽だけでなく、公開の目的、文脈、対象者への影響、プライバシーを評価する必要がある。",
+          "vi": "Malinformation là một dạng rối loạn thông tin trong đó thông tin xác thực bị dùng với mục đích gây hại. Nó có thể là công khai dữ liệu riêng tư để tấn công hoặc tách một phần sự thật khỏi bối cảnh nhằm làm tổn thương đối tượng. Vì vậy phải đánh giá không chỉ đúng–sai mà còn mục đích công bố, bối cảnh, tác động và quyền riêng tư."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Malinformation: thông tin có thật bị dùng gây hại; không nhất thiết là tin bịa."
+          "ja": "三分類では、ミスインフォメーションとディスインフォメーションは内容が誤りであるのに対し、マルインフォメーションは事実に基づく情報を害する意図で使う点が異なる。",
+          "vi": "Trong ba loại, misinformation và disinformation có nội dung sai; malinformation khác ở chỗ dùng thông tin có thật với ý định gây hại."
+        },
+        {
+          "type": "example",
+          "ja": "公開資料に含まれる個人の住所を抜き出し、その人への嫌がらせを呼び掛ける投稿とともに拡散する行為は、情報自体が真正でもマルインフォメーションになり得る。",
+          "vi": "Ví dụ, lấy địa chỉ thật của một người từ tài liệu công khai rồi phát tán kèm lời kêu gọi quấy rối có thể là malinformation dù địa chỉ là thật."
+        },
+        {
+          "type": "warning",
+          "ja": "不都合な事実や正当な批判をすべてマルインフォメーションと呼ばない。害する意図、文脈の操作、プライバシー侵害などを具体的に検討する。",
+          "vi": "Không gọi mọi sự thật bất lợi hay phê bình chính đáng là malinformation. Phải xem xét cụ thể ý định gây hại, thao túng bối cảnh và xâm phạm riêng tư."
         }
       ],
       "terms": [
@@ -962,9 +1072,9 @@
           "term": "マルインフォメーション",
           "english": "Malinformation",
           "vi": "Thông tin thật bị dùng với mục đích gây hại",
-          "definitionJa": "意図的に誤解を招くように操作された情報のことを指す。この情報は、主に悪意を持って他者を攻撃したり、社会に混乱を招くために流布されるものである。具体的には、事実に基づいているが、それを特定の文脈で誤って解釈させるような形で使用されることがある。このような情報は、個人の名誉を傷つけたり、不安を煽ったりする可能性があり、情報倫理や技術者倫理の観点から対処が求められる。倫理的な観点を持って情報を扱うことは、信頼性の高いコミュニケーションを維持するために非常に重要である。",
-          "definitionVi": "Thông tin có cơ sở thực tế nhưng bị đưa ra sai bối cảnh hoặc khai thác nhằm gây tổn hại.",
-          "reading": ""
+          "definitionJa": "事実に基づく情報を、個人・組織・社会へ害を与える意図で公開・拡散する情報。",
+          "definitionVi": "Thông tin dựa trên sự thật nhưng được công bố hoặc lan truyền với ý định gây hại.",
+          "reading": "まるいんふぉめーしょん"
         }
       ],
       "tags": [
@@ -979,8 +1089,8 @@
       "titleJa": "ディスインフォメーション",
       "titleVi": "Thông tin sai lệch được cố ý phát tán",
       "importance": "high",
-      "summaryJa": "故意に誤った情報を広める行為である。",
-      "summaryVi": "Thông tin sai hoặc bịa đặt được tạo ra hay lan truyền có chủ đích để đánh lừa.",
+      "summaryJa": "虚偽又は不正確な情報を、相手を欺き害を与える意図で作成・共有する情報である。",
+      "summaryVi": "Thông tin giả hoặc không chính xác được tạo ra hay chia sẻ có chủ đích để đánh lừa và gây hại.",
       "content": [
         {
           "type": "heading",
@@ -989,13 +1099,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "故意に誤った情報を広める行為である。この情報は、多くの場合、人々の意見や行動を操作する目的で作成される。例えば、選挙の時期に特定の候補者に関する偽のニュースが流されることがあるが、これは投票行動に影響を与えようとする意図がある。SNSやインターネットを通じて迅速に拡散されるため、その影響力は大きく、社会に混乱を引き起こすこともある。情報倫理の観点から、この問題は深刻であり、技術者は正確な情報の提供に努めるべきである。また、無知や誤解を助長することなく、情報の重要性を理解し、それを広める責任を持つことが求められる。",
-          "vi": "Thông tin sai hoặc bịa đặt được tạo ra hay lan truyền có chủ đích để đánh lừa."
+          "ja": "ディスインフォメーションは、内容が誤っているだけでなく、作成者又は共有者が誤りを認識しながら、人の判断を操作したり害を与えたりする意図をもつ情報である。偽の文書、加工画像、なりすましアカウントなどで信頼できる情報に見せ、SNS等で組織的に拡散される場合がある。",
+          "vi": "Disinformation không chỉ sai về nội dung mà người tạo hoặc chia sẻ còn biết là sai và có ý định thao túng phán đoán hay gây hại. Nó có thể dùng tài liệu giả, ảnh chỉnh sửa hoặc tài khoản mạo danh để trông đáng tin, rồi được phát tán có tổ chức trên mạng xã hội."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Disinformation = sai + cố ý."
+          "ja": "ディスインフォメーションの識別軸は「情報が誤り」と「意図的に欺き害する」の組合せである。悪意のない誤共有はミスインフォメーションに分類する。",
+          "vi": "Trục nhận diện disinformation là kết hợp “thông tin sai” với “cố ý đánh lừa, gây hại”. Chia sẻ sai nhưng không có ác ý thuộc misinformation."
+        },
+        {
+          "type": "example",
+          "ja": "実在する自治体の様式をまねて偽の避難命令画像を作り、混乱させる目的で公式発表のように拡散すれば、ディスインフォメーションである。",
+          "vi": "Ví dụ, tạo ảnh lệnh sơ tán giả bắt chước mẫu của chính quyền rồi phát tán như thông báo chính thức nhằm gây hỗn loạn là disinformation."
+        },
+        {
+          "type": "warning",
+          "ja": "内容が誤っているだけで、直ちにディスインフォメーションとは断定できない。作成・共有した時点の認識と意図を区別して評価する。",
+          "vi": "Không thể kết luận disinformation chỉ vì nội dung sai; cần phân biệt nhận thức và ý định của người tạo/chia sẻ tại thời điểm phát tán."
         }
       ],
       "terms": [
@@ -1003,9 +1123,9 @@
           "term": "ディスインフォメーション",
           "english": "Disinformation",
           "vi": "Thông tin sai lệch được cố ý phát tán",
-          "definitionJa": "故意に誤った情報を広める行為である。この情報は、多くの場合、人々の意見や行動を操作する目的で作成される。例えば、選挙の時期に特定の候補者に関する偽のニュースが流されることがあるが、これは投票行動に影響を与えようとする意図がある。SNSやインターネットを通じて迅速に拡散されるため、その影響力は大きく、社会に混乱を引き起こすこともある。情報倫理の観点から、この問題は深刻であり、技術者は正確な情報の提供に努めるべきである。また、無知や誤解を助長することなく、情報の重要性を理解し、それを広める責任を持つことが求められる。",
-          "definitionVi": "Thông tin sai hoặc bịa đặt được tạo ra hay lan truyền có chủ đích để đánh lừa.",
-          "reading": ""
+          "definitionJa": "虚偽又は不正確な内容を、欺いて害を与える意図で作成・共有する情報。",
+          "definitionVi": "Thông tin giả hoặc không chính xác được tạo hoặc chia sẻ có chủ đích để đánh lừa và gây hại.",
+          "reading": "でぃすいんふぉめーしょん"
         }
       ],
       "tags": [
@@ -1020,8 +1140,8 @@
       "titleJa": "ミスインフォメーション",
       "titleVi": "Thông tin sai lệch được vô ý phát tán",
       "importance": "high",
-      "summaryJa": "誤った情報が意図せずに広まる現象を指す。",
-      "summaryVi": "Thông tin không đúng được chia sẻ do nhầm lẫn hoặc không kiểm chứng, không nhất thiết có ý đồ xấu.",
+      "summaryJa": "虚偽又は不正確な情報を、害を与える意図なしに誤って共有する情報である。",
+      "summaryVi": "Thông tin giả hoặc không chính xác được chia sẻ do nhầm lẫn, không có ý định gây hại.",
       "content": [
         {
           "type": "heading",
@@ -1030,13 +1150,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "誤った情報が意図せずに広まる現象を指す。この情報は、正確性を欠いたデータや誤解を招く内容を含むことが多く、拡散されることで人々の判断や行動に影響を及ぼす場合がある。たとえば、SNSで流れる不正確なニュース記事は、意図しない形で多くの人に拡散されることがある。ミスインフォメーションは特に、難解なトピックや新しい技術に関する情報において発生しやすく、情報源の確認が重要となる。技術者倫理の観点からは、正確で透明な情報提供が求められ、誤情報の流布防止に努めることが責任ある行動の一部である。",
-          "vi": "Thông tin không đúng được chia sẻ do nhầm lẫn hoặc không kiểm chứng, không nhất thiết có ý đồ xấu."
+          "ja": "ミスインフォメーションは、共有者が正しいと信じるなど、害意なしに広めた誤情報である。古い情報を現在も有効だと思って共有する、数字を読み違えて伝えるなどが該当する。意図がなくても、災害、健康、セキュリティなどの場面では重大な被害を生むため、発信前の出典・日付・一次情報の確認が必要である。",
+          "vi": "Misinformation là thông tin sai được lan truyền không có ác ý, chẳng hạn người chia sẻ tin rằng nó đúng, dùng thông tin cũ như còn hiệu lực hoặc đọc nhầm số liệu. Dù không cố ý, nó vẫn có thể gây hại nghiêm trọng trong thiên tai, sức khỏe hoặc an ninh; vì vậy cần kiểm tra nguồn, ngày tháng và thông tin gốc trước khi phát tán."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Misinformation = sai + không chủ ý."
+          "ja": "ミスインフォメーションは「誤りだが害意なし」、ディスインフォメーションは「誤りで害意あり」である。結果の深刻さではなく、共有時の意図が分類を分ける。",
+          "vi": "Misinformation là “sai nhưng không có ý định gây hại”; disinformation là “sai và có ý định gây hại”. Tiêu chí phân loại là ý định khi chia sẻ, không phải mức độ hậu quả."
+        },
+        {
+          "type": "example",
+          "ja": "善意の利用者が、前年の避難所一覧を最新情報だと思い込み、災害時にSNSで共有した場合、内容が現在は誤っていればミスインフォメーションとなる。",
+          "vi": "Ví dụ, người dùng thiện chí tưởng danh sách nơi sơ tán năm trước vẫn mới và chia sẻ trong thiên tai; nếu nội dung hiện đã sai, đó là misinformation."
+        },
+        {
+          "type": "warning",
+          "ja": "善意であれば無害という意味ではない。また、同じ誤情報でも、最初の共有者はミスインフォメーション、虚偽と知って再拡散する者はディスインフォメーションとなり得る。",
+          "vi": "Thiện chí không đồng nghĩa vô hại. Với cùng một nội dung sai, người đầu có thể chia sẻ nhầm thành misinformation, còn người biết là giả nhưng vẫn phát tán có thể là disinformation."
         }
       ],
       "terms": [
@@ -1044,9 +1174,9 @@
           "term": "ミスインフォメーション",
           "english": "Misinformation",
           "vi": "Thông tin sai lệch được vô ý phát tán",
-          "definitionJa": "誤った情報が意図せずに広まる現象を指す。この情報は、正確性を欠いたデータや誤解を招く内容を含むことが多く、拡散されることで人々の判断や行動に影響を及ぼす場合がある。たとえば、SNSで流れる不正確なニュース記事は、意図しない形で多くの人に拡散されることがある。ミスインフォメーションは特に、難解なトピックや新しい技術に関する情報において発生しやすく、情報源の確認が重要となる。技術者倫理の観点からは、正確で透明な情報提供が求められ、誤情報の流布防止に努めることが責任ある行動の一部である。",
-          "definitionVi": "Thông tin không đúng được chia sẻ do nhầm lẫn hoặc không kiểm chứng, không nhất thiết có ý đồ xấu.",
-          "reading": ""
+          "definitionJa": "虚偽又は不正確な内容を、害を与える意図なしに誤って共有する情報。",
+          "definitionVi": "Thông tin sai được một người tin là đúng rồi chia sẻ mà không nhằm đánh lừa hay gây tổn hại; ý định này phân biệt nó với disinformation.",
+          "reading": "みすいんふぉめーしょん"
         }
       ],
       "tags": [
@@ -1098,8 +1228,8 @@
       "titleJa": "エコーチェンバー",
       "titleVi": "Buồng vang thông tin",
       "importance": "high",
-      "summaryJa": "特定の意見や情報が反響し合う環境のことを指す。",
-      "summaryVi": "Môi trường nơi những người có quan điểm giống nhau liên tục củng cố niềm tin của nhau và ít nghe ý kiến trái chiều.",
+      "summaryJa": "似た意見をもつ人々が閉じた情報環境で交流し、同じ主張を反復・増幅して信念や偏りを強める現象である。",
+      "summaryVi": "Hiện tượng những người có quan điểm giống nhau tương tác trong môi trường thông tin khép kín, lặp lại và khuếch đại cùng lập luận, làm niềm tin và thiên lệch mạnh hơn.",
       "content": [
         {
           "type": "heading",
@@ -1108,13 +1238,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定の意見や情報が反響し合う環境のことを指す。これは、主にSNSやオンラインフォーラムで見られ、人々が自分の考えに合致する情報ばかりを受け入れ、異なる視点を排除する傾向がある。この結果、特定の意見が強化され、偏見が助長される可能性がある。例えば、自分の信念に賛成する投稿ばかりに接していると、他の意見を無視しやすくなり、誤った情報を信じ続ける危険がある。そのため、エコーチェンバー現象は情報倫理の観点からも問題視されており、情報の多様性や対話の重要性が強調されている。",
-          "vi": "Môi trường nơi những người có quan điểm giống nhau liên tục củng cố niềm tin của nhau và ít nghe ý kiến trái chiều."
+          "ja": "エコーチェンバーでは、同質的なコミュニティ内で賛同する情報が繰り返し共有され、反対意見が排除・過小評価される。その結果、同じ主張が多数の独立した根拠に見え、確証バイアスや集団の分極化が強まる。利用者の選択や人間関係によっても生じ、必ずしも推薦アルゴリズムだけが原因ではない。",
+          "vi": "Trong echo chamber, thông tin đồng thuận được chia sẻ lặp lại trong cộng đồng đồng nhất, còn ý kiến phản biện bị loại bỏ hoặc xem nhẹ. Cùng một lập luận có thể trông như nhiều bằng chứng độc lập, làm tăng thiên lệch xác nhận và phân cực nhóm. Hiện tượng có thể do lựa chọn và quan hệ của người dùng, không nhất thiết chỉ do thuật toán gợi ý."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Echo chamber nhấn mạnh tương tác trong cộng đồng cùng quan điểm."
+          "ja": "エコーチェンバーは人々の相互作用による意見の反響・増幅を重視する。フィルターバブルはアルゴリズムによる情報選別で接触範囲が狭まる点を重視する。",
+          "vi": "Echo chamber nhấn mạnh sự cộng hưởng và khuếch đại qua tương tác giữa người cùng quan điểm; filter bubble nhấn mạnh phạm vi tiếp xúc bị thu hẹp do thuật toán lọc."
+        },
+        {
+          "type": "example",
+          "ja": "特定の投資法を支持する会員だけのグループで、成功例だけが繰り返し共有され、損失報告や批判者が排除されると、その投資法が確実だという信念が強化される。",
+          "vi": "Ví dụ, trong nhóm chỉ gồm người ủng hộ một phương pháp đầu tư, thành công được lặp lại còn báo cáo thua lỗ và người phản biện bị loại bỏ, khiến niềm tin rằng phương pháp chắc chắn càng mạnh."
+        },
+        {
+          "type": "warning",
+          "ja": "同じ意見を共有する集団が直ちにエコーチェンバーとは限らない。反証や異論へ接触できるか、それらを検討する仕組みがあるかを見る。",
+          "vi": "Một nhóm cùng quan điểm chưa tự động là echo chamber. Cần xem thành viên có tiếp cận và xem xét bằng chứng phản bác, ý kiến khác hay không."
         }
       ],
       "terms": [
@@ -1122,9 +1262,9 @@
           "term": "エコーチェンバー",
           "english": "Echo Chamber",
           "vi": "Buồng vang thông tin",
-          "definitionJa": "特定の意見や情報が反響し合う環境のことを指す。これは、主にSNSやオンラインフォーラムで見られ、人々が自分の考えに合致する情報ばかりを受け入れ、異なる視点を排除する傾向がある。この結果、特定の意見が強化され、偏見が助長される可能性がある。例えば、自分の信念に賛成する投稿ばかりに接していると、他の意見を無視しやすくなり、誤った情報を信じ続ける危険がある。そのため、エコーチェンバー現象は情報倫理の観点からも問題視されており、情報の多様性や対話の重要性が強調されている。",
-          "definitionVi": "Môi trường nơi những người có quan điểm giống nhau liên tục củng cố niềm tin của nhau và ít nghe ý kiến trái chiều.",
-          "reading": ""
+          "definitionJa": "同質的な集団内で同じ意見が反復・増幅され、異論との接触が減って信念や偏りが強まる現象。",
+          "definitionVi": "Hiện tượng ý kiến được lặp lại, khuếch đại trong nhóm đồng nhất, làm giảm tiếp xúc với phản biện và củng cố thiên lệch.",
+          "reading": "えこーちぇんばー"
         }
       ],
       "tags": ["legal", "other-laws-guidelines-engineer-ethics", "echo-chamber"]
@@ -1135,8 +1275,8 @@
       "titleJa": "フィルターバブル",
       "titleVi": "Bong bóng lọc thông tin",
       "importance": "high",
-      "summaryJa": "個人の興味や過去の行動に基づいて、特定の情報だけが提示される状況を指す。",
-      "summaryVi": "Tình trạng thuật toán cá nhân hóa chỉ hiển thị nội dung phù hợp lịch sử, sở thích, làm hạn chế góc nhìn.",
+      "summaryJa": "検索・推薦の個人最適化によって、利用者ごとに情報が選別され、異なる観点へ触れる機会が狭まる状態である。",
+      "summaryVi": "Trạng thái tìm kiếm và gợi ý được cá nhân hóa, khiến thông tin bị lọc theo từng người và cơ hội tiếp xúc với góc nhìn khác bị thu hẹp.",
       "content": [
         {
           "type": "heading",
@@ -1145,13 +1285,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "個人の興味や過去の行動に基づいて、特定の情報だけが提示される状況を指す。主にインターネット上のサービスやSNSが利用者のデータを分析し、その結果として選択的に情報を配信することによって生じる現象である。例えば、あるユーザーが特定のニュース記事を好む場合、同様の記事が多く表示され、異なる視点や意見に触れる機会が減少してしまう。これにより、偏った情報が強化され、利用者の認識が狭まるリスクがあるため、情報倫理の観点から注意が必要である。多様な意見を受け入れる能力を損なう可能性があるため、意識的に異なる情報ソースを追求することが重要である。",
-          "vi": "Tình trạng thuật toán cá nhân hóa chỉ hiển thị nội dung phù hợp lịch sử, sở thích, làm hạn chế góc nhìn."
+          "ja": "フィルターバブルは、検索履歴、閲覧、クリック、位置などのデータを用いる推薦・順位付けによって、利用者が好みそうな情報が優先され、反対の観点や未知の話題が見えにくくなる現象である。利便性を高める個人最適化の副作用として、利用者が自分の情報環境の偏りに気付きにくい点が問題となる。",
+          "vi": "Filter bubble phát sinh khi hệ thống gợi ý và xếp hạng dùng lịch sử tìm kiếm, xem, nhấp hoặc vị trí để ưu tiên nội dung người dùng có vẻ thích, khiến quan điểm trái chiều và chủ đề chưa biết khó xuất hiện. Đây là tác dụng phụ của cá nhân hóa tiện lợi, đặc biệt vì người dùng khó nhận ra môi trường thông tin của mình bị lệch."
         },
         {
           "type": "point",
-          "ja": "試験対策：用語の意味と類似概念との違いを整理する。",
-          "vi": "Filter bubble nhấn mạnh cơ chế lọc/cá nhân hóa bằng thuật toán."
+          "ja": "フィルターバブルは情報を提示するアルゴリズム側の選別、エコーチェンバーは同質的な人々の相互作用による反響・増幅を中心に捉える。両者は同時に起こり得る。",
+          "vi": "Filter bubble tập trung vào việc thuật toán lựa chọn nội dung hiển thị; echo chamber tập trung vào cộng hưởng qua tương tác của nhóm đồng nhất. Hai hiện tượng có thể xảy ra đồng thời."
+        },
+        {
+          "type": "example",
+          "ja": "利用者がある政策を支持する記事を続けて閲覧すると、ニュース推薦が同じ立場の記事を優先し、反対意見や中立的な分析が表示されにくくなる場合がある。",
+          "vi": "Ví dụ, khi người dùng liên tục đọc bài ủng hộ một chính sách, hệ thống tin tức có thể ưu tiên cùng lập trường, khiến ý kiến phản đối hoặc phân tích trung lập ít xuất hiện."
+        },
+        {
+          "type": "warning",
+          "ja": "個人最適化があるだけで必ずフィルターバブルになるわけではない。推薦の多様性、利用者が設定を変更できるか、他の情報源へ到達できるかも確認する。",
+          "vi": "Có cá nhân hóa không đồng nghĩa chắc chắn tạo filter bubble. Cần xem gợi ý có đa dạng không, người dùng có thể đổi cài đặt và tiếp cận nguồn khác hay không."
         }
       ],
       "terms": [
@@ -1159,9 +1309,9 @@
           "term": "フィルターバブル",
           "english": "Filter Bubble",
           "vi": "Bong bóng lọc thông tin",
-          "definitionJa": "個人の興味や過去の行動に基づいて、特定の情報だけが提示される状況を指す。主にインターネット上のサービスやSNSが利用者のデータを分析し、その結果として選択的に情報を配信することによって生じる現象である。例えば、あるユーザーが特定のニュース記事を好む場合、同様の記事が多く表示され、異なる視点や意見に触れる機会が減少してしまう。これにより、偏った情報が強化され、利用者の認識が狭まるリスクがあるため、情報倫理の観点から注意が必要である。多様な意見を受け入れる能力を損なう可能性があるため、意識的に異なる情報ソースを追求することが重要である。",
-          "definitionVi": "Tình trạng thuật toán cá nhân hóa chỉ hiển thị nội dung phù hợp lịch sử, sở thích, làm hạn chế góc nhìn.",
-          "reading": ""
+          "definitionJa": "アルゴリズムによる情報の個人最適化で、異なる観点へ触れる機会が狭まり、情報環境が偏る状態。",
+          "definitionVi": "Trạng thái cá nhân hóa bằng thuật toán làm giảm cơ hội tiếp xúc với góc nhìn khác và khiến môi trường thông tin bị lệch.",
+          "reading": "ふぃるたーばぶる"
         }
       ],
       "tags": [

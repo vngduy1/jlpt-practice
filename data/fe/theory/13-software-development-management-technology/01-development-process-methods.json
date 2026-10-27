@@ -26,8 +26,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「ウォーターフォールモデル」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình thác nước với các phương pháp phát triển liên quan."
+          "ja": "FEでは、要件定義、設計、実装、テストなどを順に進め、各工程の成果物とレビューで管理する点を押さえる。要求が安定し、工程や承認基準を明確にできる開発に適する。",
+          "vi": "Trong FE, cần nhớ các giai đoạn yêu cầu, thiết kế, triển khai và kiểm thử được tiến hành tuần tự, quản lý bằng sản phẩm bàn giao và review. Mô hình phù hợp khi yêu cầu ổn định và tiêu chí phê duyệt từng giai đoạn rõ ràng."
+        },
+        {
+          "type": "example",
+          "ja": "法令で仕様が定められた給与計算システムで、要件定義書を承認してから基本設計へ進み、設計完了後に実装・結合テスト・受入テストを順に実施する。",
+          "vi": "Với hệ thống tính lương có đặc tả được quy định rõ, nhóm phê duyệt tài liệu yêu cầu rồi mới sang thiết kế; sau đó lần lượt triển khai, kiểm thử tích hợp và kiểm thử chấp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "ウォーターフォールでもレビュー結果による手戻りは起こり得る。「一切戻らない方式」ではないが、後工程で重大な要件漏れが見つかるほど修正範囲とコストが大きくなりやすい。",
+          "vi": "Waterfall vẫn có thể quay lại do kết quả review, không phải mô hình “tuyệt đối không quay lại”. Tuy nhiên, thiếu sót yêu cầu phát hiện càng muộn thường làm phạm vi và chi phí sửa đổi càng lớn."
         }
       ],
       "terms": [
@@ -63,8 +73,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「プロトタイピングモデル」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tạo mẫu với các phương pháp phát triển liên quan."
+          "ja": "プロトタイプを利用者に評価してもらい、曖昧な要求、画面遷移、操作性などを早期に具体化する。試作を捨てる方式と、品質を高めながら製品へ発展させる方式を区別する。",
+          "vi": "Người dùng đánh giá prototype để làm rõ sớm yêu cầu mơ hồ, luồng màn hình và khả năng sử dụng. Cần phân biệt prototype dùng xong bỏ với prototype được nâng chất lượng để phát triển thành sản phẩm."
+        },
+        {
+          "type": "example",
+          "ja": "予約システムの画面遷移だけを動く試作として作り、利用者に検索から予約確定まで操作してもらう。得られた意見で項目や手順を修正してから本設計を確定する。",
+          "vi": "Nhóm tạo prototype chỉ mô phỏng luồng màn hình của hệ thống đặt chỗ, để người dùng thao tác từ tìm kiếm đến xác nhận. Phản hồi được dùng sửa trường dữ liệu và trình tự trước khi chốt thiết kế thật."
+        },
+        {
+          "type": "warning",
+          "ja": "見た目が動く試作でも、性能、セキュリティ、例外処理などが実装済みとは限らない。使い捨てプロトタイプを検証不足のまま本番コードへ流用しない。",
+          "vi": "Prototype nhìn có vẻ hoạt động không có nghĩa hiệu năng, bảo mật và xử lý ngoại lệ đã hoàn chỉnh. Không tái sử dụng prototype dùng thử làm mã production khi chưa thiết kế và kiểm chứng đầy đủ."
         }
       ],
       "terms": [
@@ -100,8 +120,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「アジャイル」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Agile với các phương pháp phát triển liên quan."
+          "ja": "アジャイルは短い反復で動くソフトウェアを提供し、顧客との協働とフィードバックによって優先順位や要求へ適応する考え方である。スクラムやXPは、その考え方を実践する代表的な手法である。",
+          "vi": "Agile cung cấp phần mềm hoạt động theo các vòng lặp ngắn và thích ứng ưu tiên, yêu cầu nhờ hợp tác cùng khách hàng và phản hồi. Scrum và XP là những cách tiêu biểu để thực hành tư duy này."
+        },
+        {
+          "type": "example",
+          "ja": "ECサイトを2週間ごとに開発し、最初に商品検索、次にカート、次に決済を利用可能な形で追加する。各回の利用者評価を次の優先順位へ反映する。",
+          "vi": "Một trang thương mại điện tử được phát triển theo chu kỳ hai tuần: trước tiên tìm sản phẩm, tiếp theo giỏ hàng, rồi thanh toán, mỗi phần đều dùng được. Phản hồi sau mỗi vòng được đưa vào thứ tự ưu tiên tiếp theo."
+        },
+        {
+          "type": "warning",
+          "ja": "アジャイルは計画、設計、文書を不要とする考え方ではない。必要な活動を継続しつつ、変化に応じて計画を更新する。短い反復だけ導入しても、協働や検査・適応がなければ十分ではない。",
+          "vi": "Agile không phủ nhận kế hoạch, thiết kế hay tài liệu. Nhóm vẫn thực hiện những hoạt động cần thiết nhưng cập nhật kế hoạch theo thay đổi. Chỉ chia thời gian thành vòng ngắn mà thiếu hợp tác, kiểm tra và thích ứng thì chưa đủ."
         }
       ],
       "terms": [
@@ -137,8 +167,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「DevOps」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của DevOps với các phương pháp phát triển liên quan."
+          "ja": "DevOpsは開発から運用までの分断を減らし、継続的なフィードバック、自動テスト、CI/CD、監視などによって変更のリードタイム短縮と安定運用の両立を目指す。",
+          "vi": "DevOps giảm khoảng cách giữa phát triển và vận hành; dùng phản hồi liên tục, kiểm thử tự động, CI/CD và giám sát để vừa rút ngắn lead time thay đổi vừa duy trì vận hành ổn định."
+        },
+        {
+          "type": "example",
+          "ja": "開発者が変更を登録するとCIがテストし、承認済み成果物をCDパイプラインが段階的に配備する。運用監視の障害情報は開発バックログへ戻され、次の改善に使われる。",
+          "vi": "Khi lập trình viên gửi thay đổi, CI chạy kiểm thử; artifact đã phê duyệt được pipeline CD triển khai theo từng bước. Sự cố từ giám sát vận hành được đưa lại backlog phát triển để cải tiến."
+        },
+        {
+          "type": "warning",
+          "ja": "DevOpsはツールの導入や部署名の変更だけではない。また、頻繁なリリースを無条件に行う考え方でもない。共同責任、品質ゲート、復旧手順、観測可能性が必要である。",
+          "vi": "DevOps không chỉ là mua công cụ hoặc đổi tên phòng ban, cũng không phải phát hành thường xuyên bằng mọi giá. Cần trách nhiệm chung, quality gate, quy trình khôi phục và observability."
         }
       ],
       "terms": [
@@ -147,8 +187,8 @@
           "reading": "でぶおぷす",
           "english": "Development and Operations",
           "vi": "DevOps",
-          "definitionJa": "ソフトウェア開発と運用が協力して行われる手法や文化を指す。",
-          "definitionVi": "DevOps là cách tiếp cận và văn hóa tăng cường hợp tác giữa phát triển và vận hành."
+          "definitionJa": "開発と運用が責任とフィードバックを共有し、自動化などを用いて変更を迅速かつ安定して提供する文化・実践。",
+          "definitionVi": "Văn hóa và tập hợp thực hành trong đó phát triển và vận hành chia sẻ trách nhiệm, phản hồi và dùng tự động hóa để cung cấp thay đổi nhanh nhưng ổn định."
         }
       ],
       "tags": ["13-1", "開発プロセス・手法", "Development Operations"]
@@ -248,8 +288,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「段階的モデル」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tăng dần với các phương pháp phát triển liên quan."
+          "ja": "段階的モデルでは、完成範囲を複数のインクリメントへ分け、各回で利用可能な機能を既存製品へ追加する。全体を一度に完成させるより早く価値を提供し、リスクを分散できる。",
+          "vi": "Mô hình tăng dần chia phạm vi hoàn chỉnh thành nhiều increment và mỗi lần thêm chức năng dùng được vào sản phẩm hiện có. Nhờ vậy giá trị được cung cấp sớm hơn và rủi ro được phân tán."
+        },
+        {
+          "type": "example",
+          "ja": "販売管理システムを、最初の増分で受注登録、次に在庫引当、最後に請求処理という順で提供し、各増分をテストして既存機能へ統合する。",
+          "vi": "Hệ thống quản lý bán hàng được giao theo increment: đầu tiên đăng ký đơn, tiếp theo phân bổ tồn kho, cuối cùng lập hóa đơn; mỗi increment được kiểm thử và tích hợp với chức năng đã có."
+        },
+        {
+          "type": "warning",
+          "ja": "工程を要件定義、設計、実装に分けただけでは機能の増分にならない。各インクリメントを統合可能にする全体アーキテクチャと、機能間依存の管理が必要である。",
+          "vi": "Chỉ chia công việc thành yêu cầu, thiết kế và triển khai không tạo ra increment chức năng. Cần kiến trúc tổng thể cho phép tích hợp từng increment và quản lý phụ thuộc giữa các chức năng."
         }
       ],
       "terms": [
@@ -270,7 +320,7 @@
       "titleJa": "進展的モデル",
       "titleVi": "Mô hình tiến hóa",
       "importance": "high",
-      "summaryJa": "ソフトウェア開発において、企画から完成までを段階的に進める手法である。",
+      "summaryJa": "動作する初期版を作り、利用者の評価や新しい要求を取り込みながら、要求と製品を反復的に発展させる開発モデルである。",
       "summaryVi": "Mô hình bắt đầu từ một phiên bản cơ bản rồi liên tục bổ sung và cải tiến theo phản hồi và yêu cầu mới.",
       "content": [
         {
@@ -285,8 +335,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「進展的モデル」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Mô hình tiến hóa với các phương pháp phát triển liên quan."
+          "ja": "進展的モデルでは、初期版の評価を通じて要求と解決策の双方を学び、反復ごとに製品を修正・拡張する。要求の不確実性が高い場合に有効である。",
+          "vi": "Trong mô hình tiến hóa, nhóm học về cả yêu cầu lẫn giải pháp qua việc đánh giá phiên bản ban đầu, rồi sửa đổi và mở rộng sản phẩm ở mỗi vòng lặp. Mô hình hữu ích khi yêu cầu còn bất định."
+        },
+        {
+          "type": "example",
+          "ja": "需要予測システムで、まず基本モデルと画面を提供し、実データでの評価から必要な特徴量や表示方法を見直して、版を重ねながら精度と機能を改善する。",
+          "vi": "Với hệ thống dự báo nhu cầu, nhóm trước tiên cung cấp mô hình và màn hình cơ bản; sau đánh giá bằng dữ liệu thật, họ điều chỉnh đặc trưng và cách hiển thị, cải thiện dần độ chính xác và chức năng qua các phiên bản."
+        },
+        {
+          "type": "warning",
+          "ja": "段階的モデルが予定した機能を増分として追加することに重点を置くのに対し、進展的モデルでは評価により要求自体も変化し得る。無計画な修正の繰返しにならないよう構成管理が必要である。",
+          "vi": "Incremental nhấn mạnh bổ sung dần các chức năng đã định, còn evolutionary cho phép chính yêu cầu tiến hóa qua đánh giá. Cần quản lý cấu hình để tránh biến thành chuỗi sửa đổi thiếu kiểm soát."
         }
       ],
       "terms": [
@@ -295,7 +355,7 @@
           "reading": "しんてんてきもでる",
           "english": "Evolutionary Model",
           "vi": "Mô hình tiến hóa",
-          "definitionJa": "ソフトウェア開発において、企画から完成までを段階的に進める手法である。",
+          "definitionJa": "初期版への評価と新しい要求を反映し、要求と製品を反復的に発展させる開発モデル。",
           "definitionVi": "Mô hình tiến hóa là mô hình bắt đầu từ một phiên bản cơ bản rồi liên tục bổ sung và cải tiến theo phản hồi và yêu cầu mới."
         }
       ],
@@ -322,8 +382,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「アジャイルソフトウェア開発宣言」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tuyên ngôn Phát triển Phần mềm Agile với các phương pháp phát triển liên quan."
+          "ja": "宣言の四つの価値は、プロセスやツールより個人と対話、包括的文書より動くソフトウェア、契約交渉より顧客との協調、計画遵守より変化への対応を重視する。右側にも価値がある点が重要である。",
+          "vi": "Bốn giá trị ưu tiên cá nhân và tương tác hơn quy trình và công cụ; phần mềm hoạt động hơn tài liệu toàn diện; hợp tác khách hàng hơn đàm phán hợp đồng; đáp ứng thay đổi hơn bám kế hoạch. Các mục bên phải vẫn có giá trị."
+        },
+        {
+          "type": "example",
+          "ja": "顧客から市場変化に伴う優先順位変更が示されたとき、合意済み計画を機械的に守るのではなく、顧客と協調してバックログとリリース計画を更新する。",
+          "vi": "Khi khách hàng thay đổi ưu tiên do thị trường, nhóm không máy móc giữ nguyên kế hoạch cũ mà hợp tác với khách hàng để cập nhật backlog và kế hoạch phát hành."
+        },
+        {
+          "type": "warning",
+          "ja": "宣言は文書、契約、計画、ツールを否定していない。「左側をより重視する」という比較であり、四つの価値だけでなく12の原則も実践の背景となる。",
+          "vi": "Tuyên ngôn không phủ nhận tài liệu, hợp đồng, kế hoạch hay công cụ; nó nói ưu tiên vế trái hơn. Mười hai nguyên tắc, không chỉ bốn giá trị, cũng là nền tảng thực hành."
         }
       ],
       "terms": [
@@ -333,7 +403,7 @@
           "english": "Agile Software Development Manifesto",
           "vi": "Tuyên ngôn Phát triển Phần mềm Agile",
           "definitionJa": "ソフトウェア開発における価値観や原則を示した文書である。",
-          "definitionVi": "Tuyên ngôn Phát triển Phần mềm Agile là tài liệu nêu các giá trị nền tảng của Agile, nhấn mạnh con người."
+          "definitionVi": "Tài liệu công bố bốn giá trị và định hướng cho mười hai nguyên tắc của phát triển phần mềm Agile."
         }
       ],
       "tags": [
@@ -404,8 +474,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「XP」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Lập trình cực hạn (XP) với các phương pháp phát triển liên quan."
+          "ja": "XPは短い反復と頻繁なフィードバックを支えるため、TDD、ペアプログラミング、リファクタリング、共同所有、CI、シンプルな設計などの技術的実践を組み合わせる。",
+          "vi": "XP kết hợp các thực hành kỹ thuật như TDD, pair programming, refactoring, sở hữu mã tập thể, CI và thiết kế đơn giản để hỗ trợ vòng lặp ngắn cùng phản hồi thường xuyên."
+        },
+        {
+          "type": "example",
+          "ja": "小さなユーザーストーリーを選び、ペアで失敗するテストを書き、実装してCIへ統合し、全テストを保ったままリファクタリングする。この流れを短い単位で繰り返す。",
+          "vi": "Nhóm chọn user story nhỏ, viết một test đang thất bại theo cặp, triển khai, tích hợp qua CI rồi refactor trong khi toàn bộ test vẫn đạt; chu trình được lặp theo đơn vị ngắn."
+        },
+        {
+          "type": "warning",
+          "ja": "XPの「エクストリーム」は無理な速度や長時間労働を意味しない。品質を支える実践を徹底して変化へ対応する考え方であり、個々の実践を孤立して行うだけでは相乗効果が弱い。",
+          "vi": "“Extreme” trong XP không có nghĩa làm việc quá sức hay chạy theo tốc độ bằng mọi giá. XP đẩy mạnh các thực hành hỗ trợ chất lượng; áp dụng từng kỹ thuật rời rạc sẽ làm giảm hiệu quả bổ trợ lẫn nhau."
         }
       ],
       "terms": [
@@ -414,7 +494,7 @@
           "reading": "えっくすぴー",
           "english": "Extreme Programming",
           "vi": "Lập trình cực hạn (XP)",
-          "definitionJa": "ソフトウェア開発におけるアジャイル手法の一つである。",
+          "definitionJa": "短い反復と頻繁なフィードバックを、TDD、ペアプログラミング、CIなどの実践で支えるアジャイル開発手法。",
           "definitionVi": "Lập trình cực hạn (XP) là một phương pháp Agile sử dụng chu kỳ phát triển ngắn và các thực hành như lập trình cặp, kiểm thử trước và phát hành thường xuyên."
         }
       ],
@@ -441,8 +521,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「スクラム」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Scrum với các phương pháp phát triển liên quan."
+          "ja": "スクラムは、プロダクトオーナー、スクラムマスター、開発者からなる自己管理型チームが、1か月以内のスプリントで価値あるインクリメントを作り、透明性・検査・適応を繰り返す枠組みである。",
+          "vi": "Scrum là khung trong đó đội tự quản gồm Product Owner, Scrum Master và Developers tạo Increment có giá trị trong Sprint dài tối đa một tháng, lặp lại minh bạch, kiểm tra và thích ứng."
+        },
+        {
+          "type": "example",
+          "ja": "スプリントプランニングでプロダクトバックログから項目を選び、スプリントゴールと計画をスプリントバックログにまとめる。完成したインクリメントをレビューし、レトロスペクティブで進め方を改善する。",
+          "vi": "Trong Sprint Planning, đội chọn hạng mục từ Product Backlog, lập Sprint Goal và kế hoạch trong Sprint Backlog. Increment hoàn thành được xem xét tại Sprint Review, còn cách làm được cải tiến trong Retrospective."
+        },
+        {
+          "type": "warning",
+          "ja": "デイリースクラムは上司への進捗報告会ではなく、開発者がスプリントゴールへ向けた計画を検査・調整する機会である。スプリント中も品質を下げたり、ゴールを危険にする変更をしたりしない。",
+          "vi": "Daily Scrum không phải buổi báo cáo tiến độ cho cấp trên mà là dịp Developers kiểm tra và điều chỉnh kế hoạch hướng tới Sprint Goal. Trong Sprint không được hạ chất lượng hoặc thay đổi gây nguy hiểm cho mục tiêu."
         }
       ],
       "terms": [
@@ -478,8 +568,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「テスト駆動開発」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Phát triển hướng kiểm thử (TDD) với các phương pháp phát triển liên quan."
+          "ja": "TDDは、要求する振る舞いを表す失敗テストを書く（Red）、最小限の実装で通す（Green）、動作を保って構造を改善する（Refactor）という短いサイクルを繰り返す。",
+          "vi": "TDD lặp chu trình ngắn: viết test mô tả hành vi mong muốn và thấy nó thất bại (Red), viết mã tối thiểu để test đạt (Green), rồi cải thiện cấu trúc mà vẫn giữ hành vi (Refactor)."
+        },
+        {
+          "type": "example",
+          "ja": "合計金額に10%割引を適用する関数で、まず1000円が900円になるテストを書いて失敗を確認し、最小実装で通した後、重複する計算処理を整理する。",
+          "vi": "Với hàm giảm giá 10%, trước tiên viết test 1.000 thành 900 và xác nhận test thất bại; sau đó viết mã tối thiểu để đạt rồi loại bỏ phần tính toán trùng lặp."
+        },
+        {
+          "type": "warning",
+          "ja": "テストが全て通っても、未記述の要求、性能、セキュリティ、システム間連携まで保証されるわけではない。TDDはテスト工程全体の代替ではなく、実装と設計を導く開発技法である。",
+          "vi": "Mọi test TDD đạt không bảo đảm các yêu cầu chưa được viết, hiệu năng, bảo mật hay tích hợp hệ thống. TDD không thay thế toàn bộ hoạt động kiểm thử; nó là kỹ thuật dẫn dắt triển khai và thiết kế."
         }
       ],
       "terms": [
@@ -488,7 +588,7 @@
           "reading": "てすとくどうかいはつ",
           "english": "Test-Driven Development",
           "vi": "Phát triển hướng kiểm thử (TDD)",
-          "definitionJa": "ソフトウェア開発手法の一つであり、まずテストケースを作成し、その後に実装を行うプロセスである。",
+          "definitionJa": "失敗テスト、最小実装、リファクタリングの短いサイクルでコードを発展させる開発技法。",
           "definitionVi": "Phát triển hướng kiểm thử (TDD) là phương pháp viết kiểm thử trước rồi viết mã để vượt qua kiểm thử, qua đó hỗ trợ chất lượng và khả năng bảo trì của chương trình."
         }
       ],
@@ -589,8 +689,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「リファクタリング」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tái cấu trúc mã với các phương pháp phát triển liên quan."
+          "ja": "リファクタリングは、外部から観察できる振る舞いを変えずに内部構造を改善する。小さな変更と自動テストを繰り返し、重複、長い関数、不明瞭な名前などを整理する。",
+          "vi": "Refactoring cải thiện cấu trúc bên trong mà không đổi hành vi quan sát được. Nhóm thực hiện các thay đổi nhỏ kèm test tự động để xử lý mã trùng, hàm quá dài hoặc tên khó hiểu."
+        },
+        {
+          "type": "example",
+          "ja": "一つの長い請求処理から税計算と割引計算を別関数へ抽出し、分かりやすい名前を付ける。変更前後で同じテスト結果になることを確認する。",
+          "vi": "Tách tính thuế và giảm giá khỏi một hàm lập hóa đơn dài thành các hàm có tên rõ ràng, rồi xác nhận kết quả test trước và sau thay đổi giống nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "バグ修正や新機能追加は外部の振る舞いを変えるため、それ自体はリファクタリングではない。大規模に一度で書き換えず、テストで振る舞いを保護しながら小さく進める。",
+          "vi": "Sửa lỗi hoặc thêm chức năng làm đổi hành vi bên ngoài nên bản thân chúng không phải refactoring. Không viết lại quy mô lớn một lần; nên thay đổi nhỏ và dùng test bảo vệ hành vi."
         }
       ],
       "terms": [
@@ -599,7 +709,7 @@
           "reading": "りふぁくたりんぐ",
           "english": "Refactoring",
           "vi": "Tái cấu trúc mã",
-          "definitionJa": "ソフトウェアの内部構造を改善するためのプロセスである。",
+          "definitionJa": "外部から観察できる振る舞いを保ったまま、ソフトウェアの内部構造を改善すること。",
           "definitionVi": "Tái cấu trúc mã là cải thiện cấu trúc bên trong của mã nguồn mà không làm thay đổi hành vi bên ngoài, nhằm tăng tính dễ đọc và dễ bảo trì."
         }
       ],
@@ -648,7 +758,7 @@
       "titleJa": "KPT",
       "titleVi": "KPT (Keep, Problem, Try)",
       "importance": "high",
-      "summaryJa": "アジャイル開発における振り返り手法の一つである。",
+      "summaryJa": "振り返りで得た内容をKeep（続けること）、Problem（問題）、Try（次に試すこと）に分類し、具体的な改善行動へつなげる手法である。",
       "summaryVi": "Phương pháp retrospective phân loại nội dung thành điều nên tiếp tục, vấn đề cần giải quyết và điều muốn thử trong lần tiếp theo.",
       "content": [
         {
@@ -663,8 +773,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「KPT」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của KPT (Keep, Problem, Try) với các phương pháp phát triển liên quan."
+          "ja": "KPTでは、継続したい良い点をKeep、解決すべき問題をProblem、次に試す具体的行動をTryとして整理する。Tryに担当者や期限を付け、次回に結果を確認すると改善へつながる。",
+          "vi": "KPT phân loại điều tốt nên tiếp tục là Keep, vấn đề cần giải quyết là Problem và hành động cụ thể sẽ thử tiếp theo là Try. Gắn người phụ trách, thời hạn và kiểm tra kết quả ở lần sau giúp tạo cải tiến thực tế."
+        },
+        {
+          "type": "example",
+          "ja": "Keepを「レビューを毎日行えた」、Problemを「待ち時間が長い」、Tryを「次スプリントは午前11時までの依頼を当日中に確認する」とし、次回の振り返りで効果を測る。",
+          "vi": "Ví dụ: Keep “review hằng ngày”, Problem “thời gian chờ dài”, Try “ở Sprint tới, yêu cầu gửi trước 11 giờ sẽ được xem trong ngày”; hiệu quả được kiểm tra ở retrospective sau."
+        },
+        {
+          "type": "warning",
+          "ja": "Problemを挙げるだけの反省会にしない。Tryが「頑張る」のように曖昧だったり、多すぎたりすると実行できないため、検証可能な少数の行動へ絞る。",
+          "vi": "Không biến KPT thành buổi chỉ liệt kê lỗi. Try mơ hồ như “cố gắng hơn” hoặc quá nhiều sẽ khó thực hiện; nên chọn ít hành động có thể kiểm chứng."
         }
       ],
       "terms": [
@@ -673,7 +793,7 @@
           "reading": "けぷと",
           "english": "Keep, Problem, Try",
           "vi": "KPT (Keep, Problem, Try)",
-          "definitionJa": "アジャイル開発における振り返り手法の一つである。",
+          "definitionJa": "振り返り内容をKeep、Problem、Tryに整理し、継続的改善の行動を決める手法。",
           "definitionVi": "KPT (Keep, Problem, Try) là phương pháp retrospective phân loại nội dung thành điều nên tiếp tục, vấn đề cần giải quyết và điều muốn thử trong lần tiếp theo."
         }
       ],
@@ -700,8 +820,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「継続的インテグレーション」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Tích hợp liên tục (CI) với các phương pháp phát triển liên quan."
+          "ja": "CIでは各開発者が小さな変更を共有リポジトリへ頻繁に統合し、その都度、自動ビルドとテストで検証する。統合差分を小さくして、競合や不具合を早期に発見する。",
+          "vi": "Trong CI, mỗi lập trình viên thường xuyên tích hợp thay đổi nhỏ vào kho dùng chung; mỗi lần đều được xác minh bằng build và test tự động. Diff tích hợp nhỏ giúp phát hiện sớm xung đột và lỗi."
+        },
+        {
+          "type": "example",
+          "ja": "開発者が小さな変更をメインラインへ統合すると、コンパイル、単体テスト、静的解析が自動実行される。失敗した場合は新しい変更より先に原因を修正または取り消す。",
+          "vi": "Khi lập trình viên tích hợp thay đổi nhỏ vào mainline, hệ thống tự động biên dịch, chạy unit test và phân tích tĩnh. Nếu thất bại, nhóm sửa hoặc hoàn tác nguyên nhân trước khi tiếp tục thay đổi mới."
+        },
+        {
+          "type": "warning",
+          "ja": "CIは継続的デリバリーや継続的デプロイと同義ではない。また、自動化サーバを置くだけでなく、頻繁な統合、再現可能なビルド、十分なテスト、失敗の迅速な修正が必要である。",
+          "vi": "CI không đồng nghĩa continuous delivery hay continuous deployment. Chỉ cài máy chủ tự động là chưa đủ; cần tích hợp thường xuyên, build tái lập được, test đủ mạnh và sửa nhanh khi pipeline hỏng."
         }
       ],
       "terms": [
@@ -737,8 +867,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「ペアプログラミング」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của Lập trình cặp với các phương pháp phát triển liên quan."
+          "ja": "ペアプログラミングでは、ドライバーがコードを操作し、ナビゲーターが方針、欠陥、次の手順を考える。短い間隔で役割と組合せを替え、即時レビューと知識共有を行う。",
+          "vi": "Trong pair programming, Driver thao tác mã còn Navigator suy nghĩ về hướng đi, lỗi và bước tiếp theo. Hai người đổi vai, đổi cặp định kỳ để review tức thời và chia sẻ kiến thức."
+        },
+        {
+          "type": "example",
+          "ja": "認証機能を実装するとき、一人がテストとコードを入力し、もう一人が境界条件や設計を確認する。20分後に役割を交替し、判断の背景も共有する。",
+          "vi": "Khi triển khai xác thực, một người viết test và mã, người kia kiểm tra điều kiện biên và thiết kế. Sau 20 phút họ đổi vai và chia sẻ cả lý do của các quyết định."
+        },
+        {
+          "type": "warning",
+          "ja": "一人が作業し、もう一人が受動的に見るだけでは効果が低い。ペアプログラミングは組織のコードレビュー、テスト、セキュリティ確認を全て不要にするものでもない。",
+          "vi": "Hiệu quả thấp nếu một người làm còn người kia chỉ nhìn thụ động. Pair programming cũng không loại bỏ nhu cầu code review, kiểm thử hoặc kiểm tra bảo mật ở cấp tổ chức."
         }
       ],
       "terms": [
@@ -811,8 +951,18 @@
         },
         {
           "type": "point",
-          "ja": "FEでは「YAGNI」の目的・特徴・関連する開発手法を区別して理解する。",
-          "vi": "Khi ôn FE, cần phân biệt mục đích, đặc điểm và mối liên hệ của YAGNI với các phương pháp phát triển liên quan."
+          "ja": "YAGNIは、将来必要になるかもしれないという推測だけで機能や抽象化を作らず、現在確認された要求に集中する原則である。不要コードの実装・テスト・保守コストを避ける。",
+          "vi": "YAGNI yêu cầu không xây chức năng hoặc abstraction chỉ vì suy đoán có thể cần trong tương lai, mà tập trung vào yêu cầu đã được xác nhận hiện tại, tránh chi phí triển khai, kiểm thử và bảo trì mã không cần thiết."
+        },
+        {
+          "type": "example",
+          "ja": "国内通貨だけを扱う要件に対し、根拠なく数十通貨の換算基盤を先に実装しない。複数通貨が優先要求として確認された時点で、テストと設計を追加する。",
+          "vi": "Nếu yêu cầu hiện tại chỉ xử lý nội tệ, không xây trước nền tảng chuyển đổi hàng chục loại tiền khi chưa có căn cứ. Khi đa tiền tệ trở thành yêu cầu ưu tiên đã xác nhận, nhóm mới bổ sung thiết kế và test."
+        },
+        {
+          "type": "warning",
+          "ja": "YAGNIは、確認済みの非機能要件、法令対応、セキュリティ、明確な拡張計画を無視する理由ではない。必要性を評価し、投機的な過剰設計と将来変更に耐える基本設計を区別する。",
+          "vi": "YAGNI không phải lý do bỏ qua yêu cầu phi chức năng đã xác nhận, pháp luật, bảo mật hoặc kế hoạch mở rộng rõ ràng. Cần phân biệt overengineering mang tính suy đoán với thiết kế nền tảng đủ sức thay đổi."
         }
       ],
       "terms": [
@@ -821,7 +971,7 @@
           "reading": "やぐに",
           "english": "You Aren't Gonna Need It",
           "vi": "YAGNI",
-          "definitionJa": "プログラム開発において「あなたはそれを必要としない」と訳される原則である。",
+          "definitionJa": "将来の推測だけで不要な機能を先行実装せず、現在確認された要求に集中する原則。",
           "definitionVi": "YAGNI là nguyên tắc không triển khai trước những chức năng chưa thực sự cần thiết, tránh thiết kế quá mức và chi phí không cần thiết."
         }
       ],

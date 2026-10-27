@@ -93,8 +93,8 @@
       "titleJa": "XBRL",
       "titleVi": "Ngôn ngữ báo cáo kinh doanh mở rộng XBRL",
       "importance": "high",
-      "summaryJa": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。",
-      "summaryVi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh.",
+      "summaryJa": "財務・事業報告の各項目へ意味を表すタグを付け、機械可読な形で作成・交換・比較するための国際的なデータ記述標準である。",
+      "summaryVi": "Chuẩn dữ liệu quốc tế gắn thẻ ngữ nghĩa cho từng mục trong báo cáo tài chính–kinh doanh để máy có thể tạo, trao đổi, xử lý và so sánh.",
       "content": [
         {
           "type": "heading",
@@ -103,13 +103,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。数値やテキスト情報をタグ付けして構造化し、データの一貫性や透明性を高める。この技術を利用することで、企業は報告書やデータを簡単に作成・共有できるため、投資家や規制当局との情報交換がスムーズになる。たとえば、XBRLを用いた財務諸表は、自動的に解析や比較が可能で、効率的に情報を把握する手助けとなる。また、会計士やアナリストは、異なる企業のデータを容易に比較し、分析することができ、ビジネス判断の迅速化につながる。",
-          "vi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh."
+          "ja": "XBRLでは、売上高、資産、会計期間、通貨などの意味をタグで表す。項目の定義や関係を定めるタクソノミと、企業の実際の報告値を記述するインスタンス文書を組み合わせることで、表示形式からデータの意味を分離し、異なる企業・期間の検索、集計、検証、比較を自動化しやすくする。",
+          "vi": "XBRL dùng thẻ để biểu diễn ý nghĩa của doanh thu, tài sản, kỳ kế toán, đơn vị tiền tệ... Taxonomy quy định khái niệm và quan hệ giữa các mục; instance document chứa giá trị báo cáo thực tế của doanh nghiệp. Việc tách ý nghĩa dữ liệu khỏi hình thức trình bày giúp tự động hóa tìm kiếm, tổng hợp, kiểm tra và so sánh giữa doanh nghiệp hoặc kỳ báo cáo."
         },
         {
           "type": "point",
-          "ja": "試験対策：XBRLの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "XBRL là chuẩn định dạng dữ liệu báo cáo, không phải phần mềm kế toán."
+          "ja": "FEでは、XBRLは会計処理を行うソフトウェアではなく、報告データを意味付きで交換する標準である点を押さえる。タクソノミは語彙・関係、インスタンスは報告値を表す。",
+          "vi": "Trong FE, XBRL không phải phần mềm hạch toán mà là chuẩn trao đổi dữ liệu báo cáo có ngữ nghĩa. Taxonomy mô tả từ vựng–quan hệ; instance chứa số liệu được báo cáo."
+        },
+        {
+          "type": "example",
+          "ja": "2社が売上高を異なる表レイアウトで開示していても、同じタクソノミ概念へタグ付けされていれば、分析プログラムは該当値、期間、通貨を抽出して比較できる。",
+          "vi": "Ví dụ, dù hai công ty trình bày doanh thu bằng bố cục bảng khác nhau, nếu cùng gắn thẻ theo một khái niệm taxonomy thì chương trình phân tích có thể lấy giá trị, kỳ và tiền tệ để so sánh."
+        },
+        {
+          "type": "warning",
+          "ja": "XBRL化しても報告値そのものの正しさが保証されるわけではない。また、似た名称でも異なるタクソノミ要素へタグ付けすれば単純比較できないため、定義とコンテキストを確認する。",
+          "vi": "Chuyển sang XBRL không bảo đảm số liệu tự động đúng. Các mục tên giống nhau nhưng gắn taxonomy khác có thể không so sánh trực tiếp; phải kiểm tra định nghĩa và context."
         }
       ],
       "terms": [
@@ -117,8 +127,8 @@
           "term": "XBRL",
           "english": "eXtensible Business Reporting Language",
           "vi": "Ngôn ngữ báo cáo kinh doanh mở rộng XBRL",
-          "definitionJa": "企業の財務報告やビジネスデータを電子的に表現するための標準規格である。",
-          "definitionVi": "Chuẩn biểu diễn dữ liệu báo cáo tài chính bằng các thẻ có cấu trúc để máy có thể xử lý và so sánh.",
+          "definitionJa": "財務・事業報告の項目へ意味を表すタグを付け、機械可読な形で交換・比較するためのデータ記述標準。",
+          "definitionVi": "Chuẩn mô tả dữ liệu gắn thẻ ngữ nghĩa cho các mục báo cáo tài chính–kinh doanh để máy trao đổi và so sánh.",
           "reading": "えっくすびーあーるえる"
         }
       ],
@@ -245,8 +255,8 @@
       "titleJa": "ワークフローシステム",
       "titleVi": "Hệ thống luồng công việc",
       "importance": "high",
-      "summaryJa": "業務プロセスを自動化し、効率的に管理するための情報システムである。",
-      "summaryVi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định.",
+      "summaryJa": "業務の処理順序、担当者、分岐条件、承認規則を定義し、案件の回付・進捗・履歴を電子的に管理するシステムである。",
+      "summaryVi": "Hệ thống định nghĩa thứ tự xử lý, người phụ trách, điều kiện rẽ nhánh và quy tắc phê duyệt, đồng thời quản lý luân chuyển, tiến độ và lịch sử hồ sơ điện tử.",
       "content": [
         {
           "type": "heading",
@@ -255,13 +265,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "業務プロセスを自動化し、効率的に管理するための情報システムである。このシステムは、タスクの流れを可視化し、各業務の進行状況を追跡することが可能で、時間やコストを削減する効果がある。例えば、社内での書類承認やプロジェクトの進行において、関係者が適切なタイミングで必要なアクションを行えるよう、フローを設定することができる。また、業務の標準化や情報の一元管理を実現し、チーム間のコミュニケーションを円滑にする役割を果たす。これにより、企業は業務の効率を高めることができる。",
-          "vi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định."
+          "ja": "ワークフローシステムは、申請、審査、承認、差戻しなどの流れをモデル化し、役割や条件に従って案件を次の担当者へ自動回付する。処理状況、滞留、期限、操作履歴を可視化するため、業務の標準化、進捗管理、監査証跡の確保に役立つ。並列承認や金額に応じた分岐なども設定できる。",
+          "vi": "Workflow system mô hình hóa các bước nộp, thẩm tra, phê duyệt và trả lại, rồi tự động chuyển hồ sơ đến người tiếp theo theo vai trò và điều kiện. Việc hiển thị trạng thái, điểm nghẽn, thời hạn và lịch sử thao tác hỗ trợ chuẩn hóa quy trình, quản lý tiến độ và tạo dấu vết kiểm toán; hệ thống cũng có thể xử lý phê duyệt song song hoặc rẽ nhánh theo giá trị."
         },
         {
           "type": "point",
-          "ja": "試験対策：ワークフローシステムの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "Workflow giúp định tuyến, theo dõi và chuẩn hóa quy trình phê duyệt."
+          "ja": "単なる文書保管ではなく、誰が・どの条件で・次に何を処理するかを制御する点が中心である。履歴は内部統制や監査でも利用できる。",
+          "vi": "Trọng tâm không phải chỉ lưu tài liệu mà là kiểm soát ai xử lý gì tiếp theo và theo điều kiện nào. Lịch sử quy trình còn hỗ trợ kiểm soát nội bộ và kiểm toán."
+        },
+        {
+          "type": "example",
+          "ja": "購買申請が10万円未満なら課長承認後に購買部へ、10万円以上なら部長承認も追加し、否認時は理由付きで申請者へ差し戻す流れを自動化する。",
+          "vi": "Ví dụ, yêu cầu mua dưới 100.000 yên được chuyển từ trưởng phòng đến bộ phận mua hàng; từ mức đó trở lên cần thêm giám đốc phê duyệt, còn hồ sơ bị từ chối được trả lại người nộp kèm lý do."
+        },
+        {
+          "type": "warning",
+          "ja": "非効率な手順をそのまま電子化しても改善にはならない。例外処理、代理承認、職務分掌、アクセス権を含めて業務を見直してから設計する。",
+          "vi": "Số hóa nguyên trạng quy trình kém hiệu quả không tạo ra cải tiến. Cần xem lại nghiệp vụ và thiết kế cả ngoại lệ, phê duyệt thay, phân nhiệm, quyền truy cập."
         }
       ],
       "terms": [
@@ -269,9 +289,9 @@
           "term": "ワークフローシステム",
           "english": "Workflow System",
           "vi": "Hệ thống luồng công việc",
-          "definitionJa": "業務プロセスを自動化し、効率的に管理するための情報システムである。",
-          "definitionVi": "Số hóa quy trình xử lý và phê duyệt công việc theo các bước, người phụ trách và điều kiện xác định.",
-          "reading": ""
+          "definitionJa": "業務の順序、担当、条件、承認規則を定義し、案件の回付・進捗・履歴を管理する情報システム。",
+          "definitionVi": "Hệ thống định nghĩa bước, người phụ trách, điều kiện, quy tắc phê duyệt và quản lý luân chuyển, tiến độ, lịch sử hồ sơ.",
+          "reading": "わーくふろーしすてむ"
         }
       ],
       "tags": ["business-industry", "business-systems", "workflow-system"]
@@ -479,8 +499,8 @@
       "titleJa": "受発注管理",
       "titleVi": "Quản lý đơn mua và đơn bán",
       "importance": "high",
-      "summaryJa": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。",
-      "summaryVi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao.",
+      "summaryJa": "顧客から注文を受ける受注と、仕入先へ商品・資材を注文する発注を、在庫・納期・出荷・請求と連携して管理する。",
+      "summaryVi": "Quản lý đơn bán nhận từ khách và đơn mua gửi nhà cung cấp, liên kết với tồn kho, thời hạn giao, xuất hàng và thanh toán.",
       "content": [
         {
           "type": "heading",
@@ -489,13 +509,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。これにより、顧客からの注文を受け取り、在庫の状況を確認し、出荷手続きを行うことがスムーズに行える。具体例としては、小売業や製造業において、受発注管理システムを導入することにより、在庫の適正化やデータの一元管理が実現され、誤発注や納期遅延のリスクが軽減される。これにより、顧客満足度の向上や業務効率化が図られ、企業の競争力が強化される。基幹業務支援システムの中心的な機能の一つと位置づけられ、ビジネス全体の流れをサポートする重要な役割を果たしている。",
-          "vi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao."
+          "ja": "受発注管理では、受注番号・発注番号、商品、数量、価格、取引先、希望納期、状態を記録する。受注後の在庫引当、出荷、売上・請求と、補充や生産に必要な発注、入荷、仕入・支払を結び付けることで、二重入力、手配漏れ、数量・納期の不整合を防ぎ、注文の進捗を追跡できる。",
+          "vi": "Quản lý nhận–đặt hàng ghi số đơn bán/đơn mua, mặt hàng, số lượng, giá, đối tác, ngày yêu cầu và trạng thái. Nó liên kết đơn bán với giữ tồn, xuất hàng, doanh thu–hóa đơn; đồng thời liên kết đơn mua phục vụ bổ sung/sản xuất với nhập hàng, mua vào–thanh toán, giúp tránh nhập lặp, bỏ sót và sai lệch số lượng hoặc hạn giao."
         },
         {
           "type": "point",
-          "ja": "受注は顧客から注文を受けること、発注は仕入先などに注文すること。",
-          "vi": "受注 là nhận đơn bán; 発注 là đặt mua hàng hoặc vật tư."
+          "ja": "受注は顧客から注文を受けること、発注は自社が仕入先へ注文を出すことである。発注は出荷ではない。受注残と発注残の状態管理も重要となる。",
+          "vi": "受注 là nhận đơn từ khách; 発注 là doanh nghiệp gửi đơn mua cho nhà cung cấp, không phải xuất hàng. Cần theo dõi cả đơn bán và đơn mua còn tồn đọng."
+        },
+        {
+          "type": "example",
+          "ja": "通販会社が顧客から10台の受注を登録し、在庫6台を引き当てて出荷する。残り4台は仕入先へ発注し、入荷後に残送するまで、各注文を同じシステムで追跡する。",
+          "vi": "Ví dụ, công ty bán trực tuyến nhận đơn 10 chiếc, giữ và giao 6 chiếc có sẵn; 4 chiếc còn lại được đặt nhà cung cấp và theo dõi trong cùng hệ thống đến khi nhập rồi giao bổ sung."
+        },
+        {
+          "type": "warning",
+          "ja": "受注登録だけで在庫が実際に確保されたとは限らない。利用可能在庫、引当済数量、入荷予定、納期回答を区別しないと、二重販売や納期遅延が起こる。",
+          "vi": "Ghi nhận đơn bán chưa có nghĩa hàng đã được bảo đảm. Nếu không phân biệt tồn khả dụng, lượng đã giữ, lịch nhập và ngày cam kết, có thể bán trùng hoặc giao chậm."
         }
       ],
       "terms": [
@@ -503,8 +533,8 @@
           "term": "受発注管理",
           "english": "Order Management",
           "vi": "Quản lý đơn mua và đơn bán",
-          "definitionJa": "商品の注文（受注）と出荷（発注）に関する一連の業務プロセスを効果的に管理するシステムや手法である。",
-          "definitionVi": "Quản lý đơn hàng nhận từ khách và đơn đặt mua với nhà cung cấp, kèm kiểm tra tồn kho và thời hạn giao.",
+          "definitionJa": "顧客からの受注と仕入先への発注を、在庫、納期、出荷、請求、入荷、支払と連携して管理すること。",
+          "definitionVi": "Quản lý đơn bán từ khách và đơn mua gửi nhà cung cấp, liên kết tồn kho, hạn giao, xuất–nhập hàng, hóa đơn và thanh toán.",
           "reading": "じゅはっちゅうかんり"
         }
       ],
@@ -516,8 +546,8 @@
       "titleJa": "在庫管理",
       "titleVi": "Quản lý hàng tồn kho",
       "importance": "high",
-      "summaryJa": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。",
-      "summaryVi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng.",
+      "summaryJa": "品目ごとの入出庫・保管・引当・棚卸を記録し、欠品リスクと在庫保有コストのバランスを取りながら適正在庫を維持する活動である。",
+      "summaryVi": "Hoạt động ghi nhận nhập–xuất, lưu kho, giữ hàng và kiểm kê theo từng mặt hàng để duy trì mức tồn phù hợp, cân bằng nguy cơ thiếu hàng với chi phí nắm giữ.",
       "content": [
         {
           "type": "heading",
@@ -526,13 +556,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。具体的には、商品がどれだけあるかを把握し、適切な量を維持するために、発注や補充を行うことを指す。過剰在庫を防ぎつつ、欠品による販売機会の損失を避けるために重要である。たとえば、小売業では、シーズンごとの需要に応じて商品を調整し、どの商品が売れ筋であるかを分析することで、在庫の回転率を高める。業務システムの中では、在庫管理機能が搭載されることが多く、データをもとに自動発注や在庫評価を行い、効率を上げることができる。これにより、資金の無駄を減らし、経営の安定化を図ることが可能となる。",
-          "vi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng."
+          "ja": "在庫管理では、帳簿在庫と実在庫、利用可能数、引当数、発注残を品目・保管場所ごとに把握する。需要、調達期間、需要変動に基づいて安全在庫や発注点を設定し、補充する。過剰在庫は保管費、資金拘束、陳腐化を招き、過少在庫は欠品と販売機会損失を招くため、両者を最適化する。",
+          "vi": "Quản lý tồn kho theo dõi tồn sổ sách và tồn thực tế, lượng khả dụng, lượng đã giữ và đơn mua chưa về theo từng mặt hàng, địa điểm. Doanh nghiệp đặt tồn an toàn và điểm đặt hàng dựa trên nhu cầu, thời gian cung ứng và biến động. Tồn quá nhiều gây phí lưu kho, đọng vốn, lỗi thời; quá ít gây hết hàng và mất cơ hội bán."
         },
         {
           "type": "point",
-          "ja": "試験対策：在庫管理の目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "Mục tiêu là cân bằng chi phí lưu kho với rủi ro thiếu hàng."
+          "ja": "在庫量をゼロにすることが目的ではない。サービス水準を保ちながら、発注費、保管費、欠品費用を考慮して、いつ・いくつ補充するかを決める。",
+          "vi": "Mục tiêu không phải đưa tồn kho về 0, mà quyết định khi nào và bao nhiêu cần bổ sung trong khi giữ mức phục vụ và cân nhắc chi phí đặt hàng, lưu kho, thiếu hàng."
+        },
+        {
+          "type": "example",
+          "ja": "1日平均20個売れ、調達に5日かかり、安全在庫を30個とする商品では、在庫ポジションが130個付近まで下がった時点を補充判断の目安にできる。",
+          "vi": "Ví dụ, mặt hàng bán trung bình 20 chiếc/ngày, thời gian cung ứng 5 ngày và tồn an toàn 30 chiếc có thể dùng mức khoảng 130 chiếc của vị thế tồn kho làm mốc xem xét bổ sung."
+        },
+        {
+          "type": "warning",
+          "ja": "システム上の数量だけを信用しない。破損、盗難、入力漏れ、誤出荷で帳簿と現物がずれるため、循環棚卸や実地棚卸で差異を確認・是正する。",
+          "vi": "Không chỉ tin số trên hệ thống. Hư hỏng, mất cắp, bỏ sót nhập liệu hoặc giao nhầm làm tồn sổ lệch tồn thật; cần kiểm kê luân phiên hoặc thực tế để đối chiếu và sửa."
         }
       ],
       "terms": [
@@ -540,8 +580,8 @@
           "term": "在庫管理",
           "english": "Inventory Management",
           "vi": "Quản lý hàng tồn kho",
-          "definitionJa": "企業が商品の在庫を効率的に管理するためのプロセスや方法である。",
-          "definitionVi": "Theo dõi số lượng hàng, quyết định mức tồn và thời điểm bổ sung để tránh dư thừa hoặc hết hàng.",
+          "definitionJa": "入出庫、保管、引当、棚卸を把握し、欠品と保有コストを考慮して適正在庫を維持する活動。",
+          "definitionVi": "Hoạt động theo dõi nhập–xuất, lưu kho, giữ hàng, kiểm kê và duy trì mức tồn phù hợp giữa nguy cơ thiếu hàng với chi phí nắm giữ.",
           "reading": "ざいこかんり"
         }
       ],
@@ -672,8 +712,8 @@
       "titleJa": "POSシステム",
       "titleVi": "Hệ thống điểm bán hàng POS",
       "importance": "high",
-      "summaryJa": "販売の際に取引を管理するためのシステムである。",
-      "summaryVi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho.",
+      "summaryJa": "商品が販売された時点で、商品、数量、価格、時刻、店舗などの販売情報を収集し、会計・在庫・分析へ連携するシステムである。",
+      "summaryVi": "Hệ thống thu thập thông tin mặt hàng, số lượng, giá, thời điểm và cửa hàng ngay lúc bán, rồi liên kết với thanh toán, tồn kho và phân tích.",
       "content": [
         {
           "type": "heading",
@@ -682,13 +722,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "販売の際に取引を管理するためのシステムである。主に小売店や飲食店で使用され、商品やサービスの販売、在庫管理、顧客情報の処理を効率化する役割を果たす。例えば、レジスターとして機能し、商品のバーコードをスキャンすることで、迅速な会計処理が行える。また、リアルタイムで在庫レベルを確認し、必要な商品を自動的に発注する機能も持つ。これにより、業務の効率化だけでなく、顧客サービスの向上にも寄与する。さらに、一部の売上データを分析し、ビジネス戦略の改善に役立てることもできる。これは、小売業や飲食業など忙しい現場で特に価値がある。",
-          "vi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho."
+          "ja": "POSシステムは、バーコード等で商品を識別し、販売時点の単価、数量、値引き、時刻、店舗、決済方法などを記録する。レジ会計と同時に在庫を減算し、売上集計、商品別・時間帯別分析、補充判断へデータを連携できる。販売時点情報を速やかに本部へ集約できる点が特徴である。",
+          "vi": "POS nhận diện hàng bằng mã vạch và ghi đơn giá, số lượng, giảm giá, thời điểm, cửa hàng, phương thức thanh toán tại lúc bán. Đồng thời với tính tiền, hệ thống có thể trừ tồn và chuyển dữ liệu sang tổng hợp doanh số, phân tích theo sản phẩm–khung giờ và quyết định bổ sung; đặc trưng là tập trung nhanh dữ liệu điểm bán về trung tâm."
         },
         {
           "type": "point",
-          "ja": "試験対策：POSシステムの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "POS là Point of Sale; trọng tâm là thu thập thông tin giao dịch tại điểm bán."
+          "ja": "POSはPoint of Sale（販売時点情報管理）であり、単なる金銭登録機ではない。販売データを商品・在庫・顧客・店舗の管理へ活用する。",
+          "vi": "POS là Point of Sale—quản lý thông tin tại thời điểm bán, không chỉ là máy tính tiền; dữ liệu bán được dùng cho quản lý hàng, tồn kho, khách hàng và cửa hàng."
+        },
+        {
+          "type": "example",
+          "ja": "コンビニが商品コード、販売時刻、店舗、数量を集計し、昼に売れる弁当と雨天時に売れる商品の傾向を分析して、店舗別の発注量を調整する。",
+          "vi": "Ví dụ, cửa hàng tiện lợi tổng hợp mã hàng, giờ bán, cửa hàng và số lượng để phân tích cơm hộp bán vào buổi trưa hay mặt hàng bán khi mưa, rồi điều chỉnh lượng đặt theo từng cửa hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "POSが示すのは実際に成立した販売であり、欠品のため買えなかった潜在需要は直接記録されない。また、POS導入だけで自動発注まで必ず行うとは限らない。",
+          "vi": "POS phản ánh giao dịch đã bán, không trực tiếp ghi nhu cầu bị mất do hết hàng. Việc có POS cũng không đồng nghĩa hệ thống nhất thiết tự động đặt hàng."
         }
       ],
       "terms": [
@@ -696,8 +746,8 @@
           "term": "POSシステム",
           "english": "Point of Sale System",
           "vi": "Hệ thống điểm bán hàng POS",
-          "definitionJa": "販売の際に取引を管理するためのシステムである。",
-          "definitionVi": "Ghi nhận dữ liệu bán hàng ngay tại thời điểm thanh toán và hỗ trợ phân tích doanh số, tồn kho.",
+          "definitionJa": "販売時点の商品、数量、価格、時刻、店舗などを収集し、会計・在庫・分析へ連携するシステム。",
+          "definitionVi": "Hệ thống thu thập dữ liệu mặt hàng, số lượng, giá, thời điểm, cửa hàng tại lúc bán và liên kết với thanh toán, tồn kho, phân tích.",
           "reading": "ぽすしすてむ"
         }
       ],
@@ -750,8 +800,8 @@
       "titleJa": "CDN",
       "titleVi": "Mạng phân phối nội dung CDN",
       "importance": "high",
-      "summaryJa": "コンテンツを迅速かつ効果的に配信するためのネットワークである。",
-      "summaryVi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc.",
+      "summaryJa": "分散配置した配信拠点へコンテンツを複製・キャッシュし、利用者を適切な拠点へ振り分けて高速かつ安定的に届けるネットワークである。",
+      "summaryVi": "Mạng sao chép hoặc lưu đệm nội dung tại các điểm phân phối phân tán và định tuyến người dùng đến điểm phù hợp để cung cấp nhanh, ổn định.",
       "content": [
         {
           "type": "heading",
@@ -760,13 +810,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "コンテンツを迅速かつ効果的に配信するためのネットワークである。Webサイトやアプリケーションのデータを、ユーザーの地理的な位置に近いサーバから提供する仕組みを持っており、これにより読み込み時間を短縮し、ユーザー体験を向上させることができる。例えば、人気のある動画配信サービスでは、CDNを活用して動画データを世界中の複数のサーバに分散させることで、視聴者がどこにいてもスムーズにコンテンツを楽しむことが可能になる。また、CDNはトラフィックやロードバランシングを最適化する機能を持ち、サーバへの負荷を軽減することで、サービスの安定性や可用性を高める役割も果たしている。",
-          "vi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc."
+          "ja": "CDNは、画像、動画、Webファイルなどをエッジ又はサロゲートと呼ばれる配信拠点へ置き、DNSやリクエストルーティングによって、距離、負荷、障害状況などに応じた拠点から応答する。オリジンサーバへのアクセス集中と長距離通信を減らし、応答時間、可用性、同時配信能力を改善する。キャッシュにない内容はオリジンから取得する。",
+          "vi": "CDN đặt ảnh, video và tệp web tại các điểm edge/surrogate, rồi dùng DNS hoặc request routing để trả lời từ điểm phù hợp theo khoảng cách, tải và tình trạng lỗi. Cách này giảm truy cập dồn vào origin và truyền đường dài, cải thiện thời gian phản hồi, tính sẵn sàng và năng lực phân phối đồng thời; nội dung chưa có trong cache được lấy từ origin."
         },
         {
           "type": "point",
-          "ja": "試験対策：CDNの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "CDN tăng tốc cung cấp nội dung; không đồng nghĩa với hệ thống lưu trữ dự phòng."
+          "ja": "CDNの中心はコンテンツ配信の最適化であり、利用者に近い拠点、キャッシュ、負荷分散を組み合わせる。オリジンサーバそのものを不要にする仕組みではない。",
+          "vi": "Trọng tâm CDN là tối ưu phân phối bằng điểm gần người dùng, cache và phân tải; nó không làm origin server trở nên không cần thiết."
+        },
+        {
+          "type": "example",
+          "ja": "世界同時公開する動画を各地域のCDN拠点へ事前配置し、視聴者を近くて空いている拠点へ誘導すれば、開始時の集中負荷と再生遅延を抑えられる。",
+          "vi": "Ví dụ, video phát hành toàn cầu được đặt trước tại các điểm CDN theo vùng; người xem được đưa đến điểm gần và ít tải, giúp giảm tải đột biến và độ trễ phát."
+        },
+        {
+          "type": "warning",
+          "ja": "CDNはバックアップそのものではない。キャッシュ期限や無効化を誤ると古い内容を配信し、オリジン障害時に未キャッシュの動的処理まで継続できるとは限らない。",
+          "vi": "CDN không phải bản sao lưu. Cấu hình hết hạn hoặc vô hiệu cache sai có thể phát nội dung cũ; khi origin lỗi, xử lý động chưa cache không nhất thiết vẫn hoạt động."
         }
       ],
       "terms": [
@@ -774,8 +834,8 @@
           "term": "CDN",
           "english": "Content Delivery Network",
           "vi": "Mạng phân phối nội dung CDN",
-          "definitionJa": "コンテンツを迅速かつ効果的に配信するためのネットワークである。",
-          "definitionVi": "Phân phối nội dung từ các máy chủ phân tán gần người dùng để giảm độ trễ và tải máy chủ gốc.",
+          "definitionJa": "分散した配信拠点とリクエストルーティングを用い、コンテンツを効率的・安定的に利用者へ届けるネットワーク。",
+          "definitionVi": "Mạng dùng các điểm phân phối phân tán và định tuyến yêu cầu để cung cấp nội dung hiệu quả, ổn định đến người dùng.",
           "reading": "しーでぃーえぬ"
         }
       ],
@@ -787,8 +847,8 @@
       "titleJa": "ERP",
       "titleVi": "Hoạch định nguồn lực doanh nghiệp ERP",
       "importance": "high",
-      "summaryJa": "企業の基幹業務を統合的に管理するためのシステムである。",
-      "summaryVi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung.",
+      "summaryJa": "会計、販売、購買、在庫、生産、人事などの基幹業務とデータを統合し、企業全体の経営資源を一元的に計画・管理する仕組みである。",
+      "summaryVi": "Cơ chế tích hợp nghiệp vụ và dữ liệu cốt lõi như kế toán, bán hàng, mua sắm, kho, sản xuất, nhân sự để hoạch định và quản lý nguồn lực toàn doanh nghiệp.",
       "content": [
         {
           "type": "heading",
@@ -797,13 +857,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "企業の基幹業務を統合的に管理するためのシステムである。具体的には、販売、在庫、人事、財務などのさまざまな業務プロセスを一元化し、情報の流れをスムーズにする。ERPを導入することで、部門間の情報共有が容易になり、業務の効率化やコスト削減が期待できる。例えば、小売業においては、在庫管理と販売データをもとに、需要予測を行い、必要な資材を事前に発注することで無駄を省くことが可能である。また、ERPは組織全体での戦略的意思決定を支える情報基盤となり、競争力を加速させる役割も果たす。",
-          "vi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung."
+          "ja": "ERPは、部門ごとに分断されていた基幹業務を共通のデータモデルと業務プロセスで連携する。受注を登録すると、在庫引当、出荷、売上、売掛金、会計仕訳などへ同じマスタと取引データを引き継げるため、二重入力を減らし、企業全体の状況を適時に把握できる。ERPパッケージは標準機能を組み合わせて導入することが多い。",
+          "vi": "ERP liên kết các nghiệp vụ cốt lõi vốn tách rời theo phòng ban bằng mô hình dữ liệu và quy trình chung. Khi ghi đơn bán, cùng dữ liệu chủ và giao dịch có thể đi tiếp sang giữ tồn, giao hàng, doanh thu, khoản phải thu và bút toán, nhờ đó giảm nhập lặp và nắm tình hình toàn doanh nghiệp kịp thời. Gói ERP thường được triển khai bằng cách kết hợp các chức năng chuẩn."
         },
         {
           "type": "point",
-          "ja": "試験対策：ERPの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "ERP liên kết nhiều bộ phận, khác phần mềm chỉ dành cho một nghiệp vụ."
+          "ja": "ERPの目的は部門最適ではなく、基幹業務と経営資源の全体最適である。単一業務だけを支援する業務別パッケージと区別する。",
+          "vi": "ERP hướng đến tối ưu toàn thể nghiệp vụ cốt lõi và nguồn lực, không chỉ tối ưu từng phòng ban; khác gói phần mềm chỉ hỗ trợ một nghiệp vụ."
+        },
+        {
+          "type": "example",
+          "ja": "営業が受注を入力すると、在庫が引き当てられ、倉庫へ出荷指示が出て、出荷実績から請求書と売上仕訳が作成される一連の処理を共通データで連携する。",
+          "vi": "Ví dụ, khi bán hàng nhập đơn, tồn được giữ, kho nhận lệnh giao; từ kết quả giao hàng hệ thống lập hóa đơn và bút toán doanh thu bằng cùng dữ liệu chung."
+        },
+        {
+          "type": "warning",
+          "ja": "ERP導入はソフトウェアを入れるだけでは成功しない。マスタ統合、データ移行、業務標準化、権限設計、教育が必要であり、過度な個別改修は費用と更新負担を増やす。",
+          "vi": "Triển khai ERP không chỉ là cài phần mềm. Cần hợp nhất master, chuyển dữ liệu, chuẩn hóa nghiệp vụ, thiết kế quyền và đào tạo; tùy biến quá mức làm tăng chi phí và gánh nặng nâng cấp."
         }
       ],
       "terms": [
@@ -811,8 +881,8 @@
           "term": "ERP",
           "english": "Enterprise Resource Planning",
           "vi": "Hoạch định nguồn lực doanh nghiệp ERP",
-          "definitionJa": "企業の基幹業務を統合的に管理するためのシステムである。",
-          "definitionVi": "Tích hợp dữ liệu và quy trình cốt lõi như bán hàng, kế toán, nhân sự và kho trên nền tảng chung.",
+          "definitionJa": "基幹業務とデータを統合し、企業全体の人・物・金・情報などの経営資源を一元管理する仕組み。",
+          "definitionVi": "Cơ chế tích hợp nghiệp vụ, dữ liệu cốt lõi và quản lý tập trung nguồn lực con người, vật tư, tài chính, thông tin của toàn doanh nghiệp.",
           "reading": "いーあーるぴー"
         }
       ],
@@ -902,8 +972,8 @@
       "titleJa": "IoT",
       "titleVi": "Internet vạn vật IoT",
       "importance": "high",
-      "summaryJa": "インターネットに接続されたさまざまな物やデバイスのことを指す。",
-      "summaryVi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị.",
+      "summaryJa": "センサやアクチュエータを備えたモノをネットワークへ接続し、状態データの収集・交換や遠隔監視・制御を行う仕組みである。",
+      "summaryVi": "Cơ chế kết nối đồ vật có cảm biến hoặc cơ cấu chấp hành vào mạng để thu thập–trao đổi trạng thái, giám sát và điều khiển từ xa.",
       "content": [
         {
           "type": "heading",
@@ -912,13 +982,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "インターネットに接続されたさまざまな物やデバイスのことを指す。これにより、物同士が情報をやり取りし、相互に連携することが可能になる。例えば、スマートホームのデバイスでは、温度センサーがユーザーの設定に基づいてエアコンを自動で調整するなど、生活を便利にする場面が多く見られる。この技術は、業務支援システムにおいても重要な役割を果たしており、設備の稼働状況をリアルタイムで監視することで、効率的な運用や予防保守が可能になる。さらに、データ解析を通じて業務の改善点を見つけ出し、経営判断を支える情報を提供することができる。私たちの生活やビジネスにおいて、ますます重要性を増している。",
-          "vi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị."
+          "ja": "IoTシステムでは、デバイスが温度、位置、稼働状態などを計測し、ゲートウェイやネットワークを通じてエッジ又はクラウドへ送る。サービス側は蓄積・分析した結果を可視化、通知、制御命令として現場へ返す。設備保全、物流追跡、スマートホームなどで、現実世界の状態を継続的に把握し業務へ活用する。",
+          "vi": "Trong hệ thống IoT, thiết bị đo nhiệt độ, vị trí, trạng thái vận hành rồi gửi qua gateway và mạng đến edge hoặc cloud. Dịch vụ lưu trữ, phân tích và trả kết quả dưới dạng hiển thị, cảnh báo hay lệnh điều khiển. Nhờ đó bảo trì thiết bị, theo dõi logistics và nhà thông minh có thể liên tục nắm trạng thái thế giới thực để ứng dụng vào nghiệp vụ."
         },
         {
           "type": "point",
-          "ja": "試験対策：IoTの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "IoT cung cấp kết nối và dữ liệu; digital twin tạo bản sao số để phân tích."
+          "ja": "IoTはモノからデータを取得し接続・制御する基盤であり、デジタルツインはそのデータなどで現実対象をサイバー空間に再現・分析するモデルである。",
+          "vi": "IoT là nền tảng kết nối, lấy dữ liệu và điều khiển đồ vật; digital twin dùng dữ liệu đó để tái hiện, phân tích đối tượng thực trong không gian số."
+        },
+        {
+          "type": "example",
+          "ja": "工場のモータに振動・温度センサを付け、測定値をクラウドで分析し、異常傾向を検知したら故障前に保守担当へ通知する予知保全に利用する。",
+          "vi": "Ví dụ, gắn cảm biến rung và nhiệt cho động cơ, phân tích dữ liệu trên cloud và cảnh báo bảo trì khi thấy xu hướng bất thường trước lúc hỏng."
+        },
+        {
+          "type": "warning",
+          "ja": "IoT機器は長期運用され更新しにくい場合があり、初期パスワード、脆弱性、通信断、プライバシー、物理的安全を設計時から考慮する。接続するだけで価値が生まれるわけではない。",
+          "vi": "Thiết bị IoT thường vận hành lâu và khó cập nhật; phải tính từ thiết kế các vấn đề mật khẩu mặc định, lỗ hổng, mất kết nối, riêng tư và an toàn vật lý. Chỉ kết nối chưa tự tạo ra giá trị."
         }
       ],
       "terms": [
@@ -926,8 +1006,8 @@
           "term": "IoT",
           "english": "Internet of Things",
           "vi": "Internet vạn vật IoT",
-          "definitionJa": "インターネットに接続されたさまざまな物やデバイスのことを指す。",
-          "definitionVi": "Kết nối các đồ vật và cảm biến với mạng để thu thập, truyền dữ liệu và điều khiển thiết bị.",
+          "definitionJa": "センサやアクチュエータを備えたモノをネットワークへ接続し、データ収集・交換、監視、制御を行う仕組み。",
+          "definitionVi": "Cơ chế kết nối đồ vật có cảm biến/cơ cấu chấp hành vào mạng để thu thập, trao đổi dữ liệu, giám sát và điều khiển.",
           "reading": "あいおーてぃー"
         }
       ],
@@ -939,8 +1019,8 @@
       "titleJa": "デジタルツイン",
       "titleVi": "Bản sao số Digital Twin",
       "importance": "high",
-      "summaryJa": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。",
-      "summaryVi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế.",
+      "summaryJa": "現実の物体・設備・業務などをデータで継続的に反映するデジタルモデルを作り、監視、予測、シミュレーションへ利用する仕組みである。",
+      "summaryVi": "Cơ chế tạo mô hình số liên tục phản ánh vật thể, thiết bị hoặc quy trình thực bằng dữ liệu để giám sát, dự báo và mô phỏng.",
       "content": [
         {
           "type": "heading",
@@ -949,13 +1029,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。これは、センサーやデータ収集技術を用いて、実際の状態を正確に再現し、シミュレーションや分析を行うための手法である。例えば、製造業においては、工場の機械や生産ラインのデジタルツインを作成し、稼働状況を常に監視することで、効率的な運用やメンテナンスの計画を立てることができる。また、デジタルツインを活用することで、製品開発や市場予測において迅速な意思決定を支援し、リスクを低減させることも可能である。この技術は、IoT（モノのインターネット）との関連が強く、今後ますます多くの分野で利用されると期待されている。",
-          "vi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế."
+          "ja": "デジタルツインは、設計情報、センサ値、稼働履歴、環境条件などを用いて、現実対象の構造・状態・挙動をサイバー空間へ対応付ける。現実からのデータでモデルを更新し、故障予測、条件変更の影響分析、運用最適化を現物へ適用する前に試せる。対象は単一設備だけでなく、生産ラインや物流、都市などにも広がる。",
+          "vi": "Digital twin ánh xạ cấu trúc, trạng thái và hành vi của đối tượng thực vào không gian số bằng dữ liệu thiết kế, cảm biến, lịch sử vận hành và điều kiện môi trường. Mô hình được cập nhật từ thực tế để dự báo hỏng, phân tích ảnh hưởng của thay đổi và thử tối ưu trước khi áp dụng lên vật thật; đối tượng có thể là máy, dây chuyền, logistics hoặc thành phố."
         },
         {
           "type": "point",
-          "ja": "試験対策：デジタルツインの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "Digital twin phục vụ giám sát và mô phỏng; không chỉ là mô hình 3D tĩnh."
+          "ja": "静的な3D図面や一度だけ作ったシミュレーションと異なり、現実対象との対応関係を保ち、実データで状態を更新して分析へ使う点が特徴である。",
+          "vi": "Khác bản vẽ 3D tĩnh hay mô phỏng dùng một lần, digital twin duy trì liên hệ với đối tượng thực và cập nhật trạng thái bằng dữ liệu thật để phân tích."
+        },
+        {
+          "type": "example",
+          "ja": "風力発電機の回転数、振動、風速をデジタルツインへ反映し、部品劣化を予測して、発電損失と保守費用が小さくなる停止時期をシミュレーションする。",
+          "vi": "Ví dụ, phản ánh tốc độ quay, độ rung và gió của turbine vào digital twin để dự báo hao mòn, mô phỏng thời điểm dừng bảo trì giảm tổn thất điện và chi phí."
+        },
+        {
+          "type": "warning",
+          "ja": "デジタルツインの予測は、センサ品質、更新頻度、モデルの仮定に左右される。現実との差を検証せず、モデル結果をそのまま事実として扱わない。",
+          "vi": "Dự báo của digital twin phụ thuộc chất lượng cảm biến, tần suất cập nhật và giả định mô hình. Không coi kết quả mô hình là sự thật nếu chưa kiểm chứng chênh lệch với thực tế."
         }
       ],
       "terms": [
@@ -963,9 +1053,9 @@
           "term": "デジタルツイン",
           "english": "Digital Twin",
           "vi": "Bản sao số Digital Twin",
-          "definitionJa": "物理的な物体やシステムのリアルタイムなデジタル表現を指す。",
-          "definitionVi": "Mô hình số phản ánh trạng thái của đối tượng hoặc hệ thống vật lý bằng dữ liệu thực tế.",
-          "reading": ""
+          "definitionJa": "現実対象をデータで継続的に反映するデジタルモデルを作り、監視、予測、シミュレーションへ利用する仕組み。",
+          "definitionVi": "Cơ chế tạo mô hình số liên tục phản ánh đối tượng thực bằng dữ liệu để giám sát, dự báo và mô phỏng.",
+          "reading": "でじたるついん"
         }
       ],
       "tags": ["business-industry", "business-systems", "digital-twin"]
@@ -976,8 +1066,8 @@
       "titleJa": "サイバーフィジカルシステム",
       "titleVi": "Hệ thống không gian mạng – vật lý CPS",
       "importance": "high",
-      "summaryJa": "物理的な現実とサイバー空間が連携したシステムのことである。",
-      "summaryVi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý.",
+      "summaryJa": "センサで物理世界を計測し、サイバー空間で分析・判断し、アクチュエータで物理世界へ働き掛ける閉ループ型のシステムである。",
+      "summaryVi": "Hệ thống vòng kín đo thế giới vật lý bằng cảm biến, phân tích–ra quyết định trong không gian mạng và tác động ngược bằng cơ cấu chấp hành.",
       "content": [
         {
           "type": "heading",
@@ -986,13 +1076,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "物理的な現実とサイバー空間が連携したシステムのことである。このシステムは、センサーやアクチュエーターを使用して物理的な情報を収集し、それをコンピュータで分析してリアルタイムで判断を行う仕組みを持つ。具体的には、自動運転車やスマート工場などがこれに該当し、物理的な環境をデジタルで制御することが可能である。基幹業務支援システムや業務パッケージにも応用され、効率的なデータ管理やプロセスの自動化、さらにはエラーの早期発見と対策といった利点を提供することで、企業の業務改革を促進する役割を果たしている。",
-          "vi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý."
+          "ja": "CPSでは、センサが設備や環境の状態を取得し、通信・計算系がモデルや制御則に基づいて判断し、アクチュエータが機械、車両、電力設備などを動かす。この計測―計算―制御の循環を、現実の時間制約や安全要求の下で繰り返す。IoTの接続・データ収集に加え、サイバー側から物理側への制御が本質となる。",
+          "vi": "Trong CPS, cảm biến lấy trạng thái thiết bị/môi trường; hệ thống truyền thông–tính toán quyết định theo mô hình hoặc luật điều khiển; actuator tác động lên máy, xe, lưới điện... Vòng đo–tính–điều khiển lặp dưới ràng buộc thời gian và an toàn thực tế. Ngoài kết nối và thu thập kiểu IoT, điều khiển từ phía cyber trở lại phía vật lý là cốt lõi."
         },
         {
           "type": "point",
-          "ja": "試験対策：サイバーフィジカルシステムの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "CPS có vòng tương tác giữa không gian thực và không gian số."
+          "ja": "CPSはフィジカル→サイバーの収集だけでなく、判断結果をサイバー→フィジカルへフィードバックする双方向ループとして理解する。",
+          "vi": "Hiểu CPS là vòng hai chiều: không chỉ thu thập physical→cyber mà còn phản hồi kết quả cyber→physical."
+        },
+        {
+          "type": "example",
+          "ja": "自動倉庫でセンサが搬送車の位置と障害物を検出し、制御システムが経路を再計算して速度・進行方向を指示し、その結果を再び計測する。",
+          "vi": "Ví dụ, trong kho tự động, cảm biến phát hiện vị trí xe và vật cản; hệ thống tính lại đường đi, ra lệnh tốc độ–hướng rồi tiếp tục đo kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "CPSのサイバー障害や攻撃は、停止、衝突、設備損傷など物理被害につながる。情報セキュリティだけでなく、リアルタイム性、機能安全、フェールセーフを考慮する。",
+          "vi": "Lỗi hoặc tấn công mạng trong CPS có thể gây dừng máy, va chạm, hỏng thiết bị. Phải xét cả an ninh thông tin, thời gian thực, an toàn chức năng và fail-safe."
         }
       ],
       "terms": [
@@ -1000,9 +1100,9 @@
           "term": "サイバーフィジカルシステム",
           "english": "Cyber-Physical System",
           "vi": "Hệ thống không gian mạng – vật lý CPS",
-          "definitionJa": "物理的な現実とサイバー空間が連携したシステムのことである。",
-          "definitionVi": "Liên kết cảm biến, tính toán và cơ cấu điều khiển để tác động ngược lại thế giới vật lý.",
-          "reading": ""
+          "definitionJa": "物理世界の計測、サイバー空間での分析・判断、物理世界への制御を閉ループで連携するシステム。",
+          "definitionVi": "Hệ thống liên kết vòng kín giữa đo thế giới vật lý, phân tích–quyết định trong không gian mạng và điều khiển trở lại vật lý.",
+          "reading": "さいばーふぃじかるしすてむ"
         }
       ],
       "tags": ["business-industry", "business-systems", "cyber-physical-system"]
@@ -1013,8 +1113,8 @@
       "titleJa": "ブロックチェーンの活用",
       "titleVi": "Ứng dụng blockchain",
       "importance": "high",
-      "summaryJa": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。",
-      "summaryVi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu.",
+      "summaryJa": "複数の参加者が共有する分散型台帳に取引履歴を記録し、暗号技術や合意形成によって改ざんを困難にする特性を、トレーサビリティや契約処理などに活用することである。",
+      "summaryVi": "Ứng dụng sổ cái phân tán được nhiều bên cùng chia sẻ, kết hợp mật mã và cơ chế đồng thuận để làm cho việc sửa đổi lịch sử trở nên khó khăn, chẳng hạn trong truy xuất nguồn gốc và tự động hóa giao dịch.",
       "content": [
         {
           "type": "heading",
@@ -1023,13 +1123,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。例えば、トレーサビリティ確保の分野では、製品の製造から消費者に届くまでの過程を記録し、情報が改ざんされることなく追跡できるようにする。このことで、食品の安全性やサプライチェーンの管理が強化される。また、スマートコントラクトは、契約内容を自動執行するプログラムで、従来の契約に比べて迅速かつコスト削減が可能である。これにより、例えば不動産や金融取引においても、信頼性が向上する。これらの活用により、業務の効率化や透明性の向上が期待され、企業の競争力強化につながる。",
-          "vi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu."
+          "ja": "ブロックチェーンでは、取引をまとめたブロックを暗号学的に連結し、参加者間の合意に基づいて台帳の複製を更新する。このため、過去の記録を一方的に書き換えることが難しく、組織をまたぐ履歴共有に適している。代表的な活用例は、製品の流通履歴を追うトレーサビリティ、デジタル資産の移転、所定の条件で処理を実行するスマートコントラクトである。参加者を限定する方式もあり、用途に応じて公開範囲、性能、プライバシーを設計する必要がある。",
+          "vi": "Trong blockchain, các giao dịch được gom thành khối, liên kết bằng kỹ thuật mật mã và bản sao sổ cái được cập nhật theo sự đồng thuận giữa các bên tham gia. Vì vậy, một bên khó có thể đơn phương sửa lịch sử, phù hợp với việc chia sẻ dấu vết giao dịch giữa nhiều tổ chức. Các ứng dụng tiêu biểu gồm truy xuất hành trình hàng hóa, chuyển giao tài sản số và smart contract tự thực hiện xử lý khi điều kiện đã định được thỏa mãn. Hệ thống cũng có thể giới hạn người tham gia; phạm vi công khai, hiệu năng và quyền riêng tư phải được thiết kế theo mục đích."
         },
         {
           "type": "point",
-          "ja": "試験対策：ブロックチェーンの活用の目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "Blockchain hỗ trợ truy xuất nguồn gốc và hợp đồng thông minh; không đảm bảo dữ liệu đầu vào luôn đúng."
+          "ja": "FEでは、分散型台帳、改ざん困難性、トレーサビリティ、スマートコントラクトの関係を押さえる。スマートコントラクトは条件に従って処理するプログラムであり、必ずしも法的な契約そのものを意味しない。",
+          "vi": "Trong FE, cần liên hệ sổ cái phân tán, đặc tính khó sửa đổi, truy xuất nguồn gốc và smart contract. Smart contract là chương trình xử lý theo điều kiện, không nhất thiết đồng nghĩa với một hợp đồng pháp lý."
+        },
+        {
+          "type": "example",
+          "ja": "食品の生産、加工、輸送、販売の各事業者が、ロット番号と受渡し時刻を同じ台帳に記録する。問題が起きたとき、対象ロットの経路を組織横断で追跡できる。",
+          "vi": "Các bên sản xuất, chế biến, vận chuyển và bán thực phẩm ghi mã lô cùng thời điểm bàn giao vào một sổ cái chung. Khi có sự cố, họ có thể lần theo đường đi của lô hàng qua nhiều tổ chức."
+        },
+        {
+          "type": "warning",
+          "ja": "台帳への記録が改ざんしにくくても、入力データの真偽までは自動的に保証されない。秘密鍵の管理、外部データを取り込む仕組み、処理性能、個人情報の扱いも別途検討する。",
+          "vi": "Dù bản ghi khó bị sửa, blockchain không tự bảo đảm dữ liệu đầu vào là đúng. Vẫn phải quản lý khóa bí mật, nguồn dữ liệu bên ngoài, hiệu năng và dữ liệu cá nhân."
         }
       ],
       "terms": [
@@ -1037,8 +1147,8 @@
           "term": "ブロックチェーンの活用",
           "english": "Utilization of Blockchain",
           "vi": "Ứng dụng blockchain",
-          "definitionJa": "情報を分散型のネットワークで安全に管理し、透明性や信頼性を確保する技術を様々な業界に応用することである。",
-          "definitionVi": "Dùng sổ cái phân tán và cơ chế khó sửa đổi để tăng khả năng truy xuất và minh bạch dữ liệu.",
+          "definitionJa": "分散型台帳と暗号技術による改ざん困難性を、履歴共有、トレーサビリティ、スマートコントラクトなどの業務に利用すること。",
+          "definitionVi": "Việc dùng sổ cái phân tán và đặc tính khó sửa đổi nhờ mật mã cho các nghiệp vụ như chia sẻ lịch sử, truy xuất nguồn gốc và smart contract.",
           "reading": "ぶろっくちぇーんのかつよう"
         }
       ],
@@ -1054,8 +1164,8 @@
       "titleJa": "e-Gov",
       "titleVi": "Cổng dịch vụ hành chính điện tử e-Gov",
       "importance": "high",
-      "summaryJa": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。",
-      "summaryVi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản.",
+      "summaryJa": "日本政府が運営する行政情報のポータルサイトで、電子申請、法令検索、パブリックコメント、行政データの案内などを提供する。",
+      "summaryVi": "Cổng thông tin hành chính do Chính phủ Nhật Bản vận hành, cung cấp các dịch vụ như thủ tục điện tử, tra cứu pháp luật, lấy ý kiến công chúng và hướng dẫn dữ liệu hành chính.",
       "content": [
         {
           "type": "heading",
@@ -1064,22 +1174,32 @@
         },
         {
           "type": "paragraph",
-          "ja": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。このシステムでは、オンラインでの手続きや情報提供が可能になり、市民が簡単にサービスを利用できるようになる。例えば、税金の支払いや住民票の取得をWebサイトを通じて行えるため、時間や手間を大幅に削減できる。e-Govの導入は、透明性の向上や行政の効率化に寄与し、国民と政府との信頼関係を深める重要な手段となっている。また、行政機関のデジタル化は、災害時や緊急時の迅速な対応にも役立つ。",
-          "vi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản."
+          "ja": "e-Govは、デジタル庁が整備・運営する日本の行政情報ポータルである。対象となる行政手続の検索・電子申請、法令の検索、パブリックコメントの案件確認や意見提出、行政機関が保有するデータの案内など、複数の行政サービスへの入口をまとめている。利用者は手続の担当機関や必要書類を確認し、対応する手続であればオンラインで申請できる。",
+          "vi": "e-Gov là cổng thông tin hành chính của Nhật Bản do Cơ quan Kỹ thuật số xây dựng và vận hành. Cổng tập hợp lối vào nhiều dịch vụ: tìm kiếm và nộp trực tuyến các thủ tục thuộc phạm vi hỗ trợ, tra cứu pháp luật, xem hoặc gửi ý kiến trong quy trình public comment và tìm dữ liệu do cơ quan hành chính nắm giữ. Người dùng có thể xác định cơ quan phụ trách, giấy tờ cần thiết và nộp trực tuyến khi thủ tục đó được hỗ trợ."
         },
         {
           "type": "point",
-          "ja": "e-Govは行政手続などの電子サービスであり、電子政府は行政のデジタル化全体を指す。",
-          "vi": "e-Gov là tên cổng dịch vụ cụ thể; 電子政府 là khái niệm chính phủ điện tử rộng hơn."
+          "ja": "e-Govは固有のポータル名であり、電子政府は行政全体のデジタル化を表す一般概念である。FEでは、この固有名詞と一般概念を区別する。",
+          "vi": "e-Gov là tên riêng của một cổng dịch vụ; 電子政府 là khái niệm chung về số hóa toàn bộ hành chính. Trong FE phải phân biệt hai phạm vi này."
+        },
+        {
+          "type": "example",
+          "ja": "事業者がe-Govで所管省庁の届出を検索し、必要な添付書類を確認して電子申請する。また、関連する法令をe-Gov法令検索で調べる。",
+          "vi": "Một doanh nghiệp tìm thủ tục khai báo của bộ phụ trách trên e-Gov, kiểm tra tệp đính kèm cần thiết rồi nộp hồ sơ điện tử; đồng thời có thể tra cứu văn bản liên quan bằng e-Gov Law Search."
+        },
+        {
+          "type": "warning",
+          "ja": "すべての国・地方公共団体の手続がe-Govで完結するわけではない。税、住民票などは別の国税・地方自治体サービスが窓口となる場合があるため、対象手続と所管機関を確認する。",
+          "vi": "Không phải mọi thủ tục trung ương và địa phương đều hoàn tất trên e-Gov. Thuế hoặc giấy tờ cư trú có thể thuộc cổng của cơ quan thuế hay chính quyền địa phương, nên phải kiểm tra đúng thủ tục và cơ quan phụ trách."
         }
       ],
       "terms": [
         {
           "term": "e-Gov",
-          "english": "e-Government",
+          "english": "e-Gov Portal",
           "vi": "Cổng dịch vụ hành chính điện tử e-Gov",
-          "definitionJa": "電子政府を指し、情報通信技術を利用して政府や公共機関の業務を効率化し、市民とのコミュニケーションを改善する取り組みである。",
-          "definitionVi": "Cổng và hệ thống điện tử hỗ trợ cung cấp thông tin, thủ tục hành chính trực tuyến tại Nhật Bản.",
+          "definitionJa": "電子申請、法令検索、パブリックコメントなどの行政情報・サービスをまとめて提供する日本政府のポータルサイト。",
+          "definitionVi": "Cổng của Chính phủ Nhật Bản tập hợp thông tin và dịch vụ hành chính như thủ tục điện tử, tra cứu pháp luật và lấy ý kiến công chúng.",
           "reading": "いーがぶ"
         }
       ],
@@ -1091,8 +1211,8 @@
       "titleJa": "電子政府",
       "titleVi": "Chính phủ điện tử",
       "importance": "high",
-      "summaryJa": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。",
-      "summaryVi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước.",
+      "summaryJa": "情報通信技術を用いて国の行政手続、内部業務、機関間の情報連携をデジタル化し、利便性、効率性、透明性を高める取組である。",
+      "summaryVi": "Sử dụng công nghệ thông tin và truyền thông để số hóa thủ tục cấp quốc gia, nghiệp vụ nội bộ và trao đổi dữ liệu giữa cơ quan, nhằm tăng tính thuận tiện, hiệu quả và minh bạch.",
       "content": [
         {
           "type": "heading",
@@ -1101,13 +1221,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。これにより、従来の対面での手続きがデジタル化され、インターネット上で各種サービスを簡単に利用できるようになる。たとえば、住民票の取得や納税手続きがオンラインで行えるようになり、時間や場所を選ばずに手続きできる便利さがある。また、行政情報の透明性が向上し、市民が公開されたデータにアクセスすることで、行政の信頼性が高まることも期待される。行政の効率化や市民の利便性向上に寄与し、全体的な行政サービスの質を向上させる重要な取り組みである。",
-          "vi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước."
+          "ja": "電子政府は、国民向け（G2C）、企業向け（G2B）、行政機関間（G2G）のサービスと業務を、情報通信技術で改善する考え方である。単に紙の申請書をWeb化するだけでなく、本人確認、データ連携、共通基盤、ワークフロー、オープンデータまで含めて一連の処理を見直す。利用者の負担を減らすと同時に、重複入力や転記を抑え、行政運営の効率性と透明性を高めることを目指す。",
+          "vi": "Chính phủ điện tử là cách cải tiến dịch vụ và nghiệp vụ bằng ICT trong các quan hệ với người dân (G2C), doanh nghiệp (G2B) và giữa cơ quan nhà nước (G2G). Phạm vi không chỉ là đưa mẫu giấy lên web mà còn xem xét lại toàn bộ quy trình, gồm xác thực danh tính, liên thông dữ liệu, hạ tầng dùng chung, workflow và dữ liệu mở. Mục tiêu là giảm gánh nặng cho người dùng, hạn chế nhập hoặc sao chép dữ liệu lặp lại, đồng thời nâng hiệu quả và minh bạch của hành chính."
         },
         {
           "type": "point",
-          "ja": "試験対策：電子政府の目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "電子政府 bao quát số hóa hoạt động hành chính cấp quốc gia."
+          "ja": "FEでは、国の行政を対象とする電子政府、地方公共団体を対象とする電子自治体、具体的なポータルであるe-Govを区別する。",
+          "vi": "Trong FE, cần phân biệt 電子政府 áp dụng cho hành chính cấp quốc gia, 電子自治体 áp dụng cho chính quyền địa phương và e-Gov là một cổng cụ thể."
+        },
+        {
+          "type": "example",
+          "ja": "企業が許認可をオンライン申請すると、電子的な本人確認が行われ、既に行政が保有する基本情報を再利用し、審査結果もオンラインで通知される。",
+          "vi": "Khi doanh nghiệp nộp hồ sơ xin phép trực tuyến, hệ thống xác thực điện tử, tái sử dụng thông tin cơ bản mà cơ quan nhà nước đã có và gửi kết quả thẩm định trực tuyến."
+        },
+        {
+          "type": "warning",
+          "ja": "非効率な紙の手順をそのまま電子化しても効果は限定的である。業務プロセスの見直しに加え、情報セキュリティ、プライバシー、アクセシビリティ、デジタル格差への配慮が必要である。",
+          "vi": "Chỉ chuyển nguyên quy trình giấy kém hiệu quả sang dạng điện tử sẽ cho hiệu quả hạn chế. Cần cải tổ quy trình đồng thời xem xét an toàn thông tin, quyền riêng tư, khả năng tiếp cận và khoảng cách số."
         }
       ],
       "terms": [
@@ -1115,8 +1245,8 @@
           "term": "電子政府",
           "english": "Electronic Government",
           "vi": "Chính phủ điện tử",
-          "definitionJa": "IT技術を活用して行政サービスを提供し、市民や企業とのやり取りを効率化する仕組みである。",
-          "definitionVi": "Ứng dụng công nghệ thông tin vào hoạt động và dịch vụ của cơ quan nhà nước.",
+          "definitionJa": "情報通信技術によって国の行政サービス、内部業務、機関間連携を改善する取組。",
+          "definitionVi": "Hoạt động cải tiến dịch vụ, nghiệp vụ nội bộ và phối hợp liên cơ quan của chính phủ bằng công nghệ thông tin và truyền thông.",
           "reading": "でんしせいふ"
         }
       ],
@@ -1128,8 +1258,8 @@
       "titleJa": "電子自治体",
       "titleVi": "Chính quyền địa phương điện tử",
       "importance": "high",
-      "summaryJa": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。",
-      "summaryVi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến.",
+      "summaryJa": "地方公共団体が情報通信技術を活用し、住民・企業向けサービス、内部業務、自治体間連携を改善する取組である。",
+      "summaryVi": "Chính quyền địa phương sử dụng ICT để cải tiến dịch vụ cho người dân và doanh nghiệp, nghiệp vụ nội bộ và phối hợp giữa các địa phương.",
       "content": [
         {
           "type": "heading",
@@ -1138,22 +1268,32 @@
         },
         {
           "type": "paragraph",
-          "ja": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。これにより、市民や企業は、役所に行かずとも自宅からインターネットを通じて各種手続きや情報の取得が可能となる。例えば、住民票の請求や税金の申告など、従来は窓口で行っていた業務が、24時間いつでも利用できるようになる。また、行政の透明性を高め、市民とのコミュニケーションの強化としても機能し、地域の活性化や住民サービスの向上につながる。さらに、データ分析や集中管理が可能となり、業務の効率化も促進されるため、行政の現代化において重要な役割を果たしている。",
-          "vi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến."
+          "ja": "電子自治体は、都道府県や市区町村が、電子申請、情報提供、防災情報、窓口支援などの住民サービスと、文書管理、税務、庁内情報共有などの内部業務をデジタル化する考え方である。オンライン化に加えて、自治体間で共通化できる仕組みや安全なネットワークを利用し、地域ごとの課題に応じてサービスを改善する。対象が地方公共団体である点で、国の行政を対象とする電子政府と区別される。",
+          "vi": "Chính quyền địa phương điện tử là việc tỉnh, thành phố, quận và địa phương số hóa cả dịch vụ cư dân như nộp hồ sơ điện tử, cung cấp thông tin, thông tin phòng chống thiên tai, hỗ trợ tại quầy lẫn nghiệp vụ nội bộ như quản lý văn bản, thuế và chia sẻ thông tin trong cơ quan. Ngoài cung cấp trực tuyến, địa phương có thể dùng cơ chế chuẩn hóa chung và mạng an toàn để cải tiến dịch vụ theo vấn đề của từng vùng. Khái niệm này khác chính phủ điện tử ở chỗ chủ thể là chính quyền địa phương."
         },
         {
           "type": "point",
-          "ja": "試験対策：電子自治体の目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "電子自治体 tập trung vào chính quyền địa phương, khác phạm vi quốc gia của 電子政府."
+          "ja": "電子自治体は、住民向けWebサービスだけでなく、自治体内部の業務改革や自治体間連携も含む。電子政府との違いは、主な対象が地方公共団体であることである。",
+          "vi": "電子自治体 không chỉ là dịch vụ web cho cư dân mà còn gồm cải tổ nghiệp vụ nội bộ và phối hợp giữa địa phương. Điểm phân biệt với 電子政府 là đối tượng chính là chính quyền địa phương."
+        },
+        {
+          "type": "example",
+          "ja": "市が子育て支援の申請をオンライン化し、申請内容を庁内ワークフローで担当部署へ連携する。同時に、災害時には地域別の避難情報をWebや通知サービスで提供する。",
+          "vi": "Một thành phố cho phép nộp hồ sơ hỗ trợ nuôi con trực tuyến và chuyển nội dung tới phòng phụ trách bằng workflow nội bộ; khi có thiên tai, thành phố cung cấp thông tin sơ tán theo khu vực qua web và dịch vụ thông báo."
+        },
+        {
+          "type": "warning",
+          "ja": "オンライン窓口だけを整備すればよいわけではない。高齢者やデジタル機器を使いにくい住民にも利用できるよう、対面・電話など複数の手段とアクセシビリティを確保する。",
+          "vi": "Không thể chỉ xây cổng trực tuyến. Cần duy trì nhiều kênh như trực tiếp và điện thoại, đồng thời bảo đảm khả năng tiếp cận cho người cao tuổi hoặc người khó sử dụng thiết bị số."
         }
       ],
       "terms": [
         {
           "term": "電子自治体",
-          "english": "Electronic Government",
+          "english": "Electronic Local Government",
           "vi": "Chính quyền địa phương điện tử",
-          "definitionJa": "地方自治体が提供する行政サービスを情報通信技術を用いてオンラインで提供する仕組みである。",
-          "definitionVi": "Số hóa các thủ tục và dịch vụ của chính quyền địa phương để người dân thực hiện trực tuyến.",
+          "definitionJa": "地方公共団体が情報通信技術を用いて住民サービス、内部業務、自治体間連携を改善する取組。",
+          "definitionVi": "Hoạt động chính quyền địa phương dùng ICT để cải tiến dịch vụ cư dân, nghiệp vụ nội bộ và phối hợp giữa các địa phương.",
           "reading": "でんしじちたい"
         }
       ],
@@ -1169,8 +1309,8 @@
       "titleJa": "LGWAN",
       "titleVi": "Mạng diện rộng chính quyền địa phương LGWAN",
       "importance": "high",
-      "summaryJa": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。",
-      "summaryVi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản.",
+      "summaryJa": "地方公共団体の庁内LANを相互接続し、自治体間や国の機関との情報交換を安全に行うための行政専用ネットワークである。",
+      "summaryVi": "Mạng hành chính chuyên dụng kết nối các LAN nội bộ của chính quyền địa phương Nhật Bản, phục vụ trao đổi thông tin an toàn giữa địa phương và với cơ quan trung ương.",
       "content": [
         {
           "type": "heading",
@@ -1179,13 +1319,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。このネットワークは、地方自治体間での情報共有や通信を円滑にするために設計されており、公的なデータの安全なやり取りを実現している。住民サービスの向上や行政業務の効率化を目指しており、例えば、異なる市町村が連携して地域情報を交換する際に利用される。また、LGWANはセキュリティ対策が強化されており、外部からの不正アクセスを防止し、安全な環境で公共サービスを提供することが可能である。このように、LGWANは地方自治体の業務運営を支える重要なインフラとなっている。",
-          "vi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản."
+          "ja": "LGWAN（Local Government Wide Area Network）は、地方公共団体の庁内LANを全国規模で相互接続する高いセキュリティを備えた行政ネットワークである。自治体間の情報共有に加え、国の行政機関との通信、電子メールやWeb、地方公共団体組織認証基盤（LGPKI）、LGWAN-ASPによる行政向けアプリケーションの利用を支える。住民が直接アクセスする一般向けポータルではなく、行政機関の業務基盤である。",
+          "vi": "LGWAN (Local Government Wide Area Network) là mạng hành chính có mức bảo mật cao, kết nối các LAN nội bộ của chính quyền địa phương trên toàn Nhật Bản. Ngoài chia sẻ thông tin giữa địa phương, mạng hỗ trợ liên lạc với cơ quan trung ương, thư điện tử và web, hạ tầng chứng thực tổ chức địa phương LGPKI, cùng các ứng dụng hành chính qua LGWAN-ASP. Đây là hạ tầng nghiệp vụ cho cơ quan hành chính, không phải cổng công cộng để cư dân truy cập trực tiếp."
         },
         {
           "type": "point",
-          "ja": "試験対策：LGWANの目的と特徴を理解し、関連する用語と区別する。",
-          "vi": "LGWAN là hạ tầng mạng hành chính, không phải cổng dịch vụ công cho người dân."
+          "ja": "FEでは、LGWANを地方公共団体を結ぶネットワーク基盤として理解し、行政サービスのポータルであるe-Govや、概念である電子自治体と区別する。",
+          "vi": "Trong FE, cần hiểu LGWAN là hạ tầng mạng kết nối chính quyền địa phương và phân biệt với e-Gov là cổng dịch vụ, cũng như 電子自治体 là một khái niệm số hóa hành chính địa phương."
+        },
+        {
+          "type": "example",
+          "ja": "複数の自治体がLGWAN経由でLGWAN-ASPの共同システムを利用し、認証された行政文書を交換する。インターネットを経由する一般利用者向け通信とは経路を分ける。",
+          "vi": "Nhiều địa phương dùng chung một hệ thống LGWAN-ASP qua LGWAN và trao đổi văn bản hành chính đã được xác thực; luồng này được tách khỏi truy cập Internet dành cho người dùng thông thường."
+        },
+        {
+          "type": "warning",
+          "ja": "専用ネットワークであっても安全が自動的に保証されるわけではない。端末、アカウント、接続設定、インターネット系との分離など、運用上のセキュリティ対策が必要である。",
+          "vi": "Mạng chuyên dụng không tự động bảo đảm an toàn tuyệt đối. Vẫn phải bảo vệ thiết bị đầu cuối, tài khoản, cấu hình kết nối và việc phân tách với vùng Internet."
         }
       ],
       "terms": [
@@ -1193,8 +1343,8 @@
           "term": "LGWAN",
           "english": "Local Government Wide Area Network",
           "vi": "Mạng diện rộng chính quyền địa phương LGWAN",
-          "definitionJa": "日本の地方自治体が情報システムを効率的に連携させるための専用ネットワークである。",
-          "definitionVi": "Mạng hành chính chuyên dụng kết nối các cơ quan chính quyền địa phương Nhật Bản.",
+          "definitionJa": "地方公共団体の庁内LANを相互接続し、自治体間や国の機関との安全な情報交換を支える行政専用ネットワーク。",
+          "definitionVi": "Mạng hành chính chuyên dụng liên kết LAN nội bộ của chính quyền địa phương và hỗ trợ trao đổi thông tin an toàn giữa các địa phương cũng như với cơ quan trung ương.",
           "reading": "えるじーわん"
         }
       ],
