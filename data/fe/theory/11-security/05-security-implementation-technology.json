@@ -11,38 +11,33 @@
       "titleJa": "IPsec",
       "titleVi": "IPsec",
       "importance": "high",
-      "summaryJa": "IPパケット単位で暗号化・認証を行い、盗聴や改ざんを防ぐ技術。VPNで利用され、トンネルモードとトランスポートモードがある。",
-      "summaryVi": "Kỹ thuật thực hiện mã hóa và xác thực theo từng gói IP để ngăn nghe lén và sửa đổi. Được sử dụng trong VPN và có chế độ tunnel và chế độ transport.",
+      "summaryJa": "IPsecは、ネットワーク層でIPパケットの認証・完全性保護・暗号化を行うプロトコル群で、拠点間VPNやリモートアクセスVPNに利用される。",
+      "summaryVi": "IPsec là bộ giao thức bảo vệ gói IP ở tầng mạng bằng xác thực, toàn vẹn và mã hóa; thường dùng cho VPN giữa các cơ sở hoặc truy cập từ xa.",
       "content": [
         {
           "type": "heading",
-          "ja": "IPsecとは",
-          "vi": "IPsec là gì?"
+          "ja": "IPパケットをネットワーク層で保護",
+          "vi": "Bảo vệ gói IP tại tầng mạng"
         },
         {
           "type": "paragraph",
-          "ja": "IPパケット単位で暗号化・認証を行い、盗聴や改ざんを防ぐ技術。VPNで利用され、トンネルモードとトランスポートモードがある。",
-          "vi": "Kỹ thuật thực hiện mã hóa và xác thực theo từng gói IP để ngăn nghe lén và sửa đổi. Được sử dụng trong VPN và có chế độ tunnel và chế độ transport."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "ネットワーク層でIPパケットを保護する。トランスポートモードは主にデータ部分、トンネルモードは元のIPパケット全体を保護する。",
-          "vi": "Bảo vệ gói IP ở tầng mạng. Transport mode chủ yếu bảo vệ phần dữ liệu; tunnel mode bảo vệ toàn bộ gói IP ban đầu."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "ESPはペイロードの暗号化に加えて認証・完全性保護を提供でき、AHは暗号化せず認証・完全性を扱う。トランスポートモードは主に上位層部分を、トンネルモードは元のIPパケット全体を新しいIPパケットに包んで保護する。",
+          "vi": "ESP có thể mã hóa payload đồng thời bảo vệ xác thực và toàn vẹn; AH không mã hóa mà bảo vệ xác thực/toàn vẹn. Transport mode chủ yếu bảo vệ phần tầng trên, còn tunnel mode bọc toàn bộ gói IP gốc trong gói IP mới."
         },
         {
           "type": "point",
-          "ja": "IPsec＝IP通信を保護。VPNでよく利用される。",
-          "vi": "IPsec = bảo vệ giao tiếp IP, thường dùng cho VPN."
+          "ja": "FEでは、IPsecがネットワーク層で動作すること、ESPとAH、トランスポートモードとトンネルモードの役割を区別する。",
+          "vi": "Trong FE, cần nhớ IPsec hoạt động ở tầng mạng và phân biệt ESP/AH cũng như transport mode/tunnel mode."
+        },
+        {
+          "type": "example",
+          "ja": "東京拠点のゲートウェイが社内向けIPパケット全体をESPトンネルで包み、大阪拠点のゲートウェイまで暗号化して送る。",
+          "vi": "Gateway Tokyo bọc toàn bộ gói IP nội bộ trong tunnel ESP và truyền mã hóa tới gateway Osaka."
+        },
+        {
+          "type": "warning",
+          "ja": "IPsecを使うだけで端末やアプリケーション自体の安全が保証されるわけではない。暗号方式、鍵交換、認証相手、通信許可範囲を正しく設定する必要がある。",
+          "vi": "Dùng IPsec không tự bảo đảm endpoint hay ứng dụng an toàn; phải cấu hình đúng thuật toán, trao đổi khóa, bên được xác thực và phạm vi lưu lượng."
         }
       ],
       "terms": [
@@ -51,8 +46,8 @@
           "reading": "あいぴーせっく",
           "english": "Internet Protocol Security",
           "vi": "IPsec",
-          "definitionJa": "IPパケット単位で暗号化・認証を行い、盗聴や改ざんを防ぐ技術。VPNで利用され、トンネルモードとトランスポートモードがある。",
-          "definitionVi": "Kỹ thuật thực hiện mã hóa và xác thực theo từng gói IP để ngăn nghe lén và sửa đổi. Được sử dụng trong VPN và có chế độ tunnel và chế độ transport."
+          "definitionJa": "IPパケットをネットワーク層で認証・完全性保護・暗号化し、VPNなどを構成するプロトコル群。",
+          "definitionVi": "Bộ giao thức xác thực, bảo vệ toàn vẹn và mã hóa gói IP ở tầng mạng để xây dựng VPN và các kênh bảo vệ khác."
         }
       ],
       "tags": ["security-implementation", "internet-protocol-security"]
@@ -63,38 +58,33 @@
       "titleJa": "SSL/TLS",
       "titleVi": "SSL/TLS",
       "importance": "high",
-      "summaryJa": "インターネット通信を暗号化し、盗聴や改ざんを防ぐプロトコル。現在は主にTLSが利用される。",
-      "summaryVi": "Giao thức mã hóa thông tin liên lạc trên Internet để ngăn nghe lén và sửa đổi. Hiện nay chủ yếu sử dụng TLS.",
+      "summaryJa": "TLSは、ハンドシェイクで通信相手と暗号方式・鍵を確立し、その後の通信に機密性と完全性を与えるプロトコルである。SSLは旧世代の名称・方式である。",
+      "summaryVi": "TLS là giao thức dùng bắt tay để xác thực bên giao tiếp, thỏa thuận thuật toán và thiết lập khóa, sau đó bảo vệ tính bí mật và toàn vẹn của dữ liệu; SSL là thế hệ cũ.",
       "content": [
         {
           "type": "heading",
-          "ja": "SSL/TLSとは",
-          "vi": "SSL/TLS là gì?"
+          "ja": "ハンドシェイクとレコード保護",
+          "vi": "Bắt tay và bảo vệ bản ghi"
         },
         {
           "type": "paragraph",
-          "ja": "インターネット通信を暗号化し、盗聴や改ざんを防ぐプロトコル。現在は主にTLSが利用される。",
-          "vi": "Giao thức mã hóa thông tin liên lạc trên Internet để ngăn nghe lén và sửa đổi. Hiện nay chủ yếu sử dụng TLS."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "現在は主にTLSを利用する。通信相手の確認、暗号化、改ざん検知に使われる。",
-          "vi": "Hiện nay chủ yếu dùng TLS để xác minh đối tác, mã hóa và phát hiện sửa đổi dữ liệu."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "クライアントとサーバはハンドシェイクでバージョンや暗号方式を決め、通常はサーバ証明書を検証して共有鍵を確立する。以後は共通鍵暗号と認証付き暗号などでアプリケーションデータを保護する。",
+          "vi": "Client và server dùng handshake để chọn phiên bản, thuật toán, thường xác minh chứng chỉ server và thiết lập khóa chung. Sau đó dữ liệu ứng dụng được bảo vệ bằng khóa đối xứng và mã hóa có xác thực."
         },
         {
           "type": "point",
-          "ja": "HTTPS＝HTTP＋TLS。SSLは旧規格。",
-          "vi": "HTTPS = HTTP + TLS; SSL là chuẩn cũ."
+          "ja": "FEでは、公開鍵技術を主に認証・鍵確立へ、共通鍵を大量データの暗号化へ用いる組合せを理解する。",
+          "vi": "Trong FE, cần hiểu khóa công khai chủ yếu phục vụ xác thực/thiết lập khóa, còn khóa đối xứng bảo vệ lượng dữ liệu lớn."
+        },
+        {
+          "type": "example",
+          "ja": "ブラウザはサーバ証明書の署名とホスト名を検証し、TLS鍵を確立してからHTTPデータを暗号化して送受信する。",
+          "vi": "Trình duyệt kiểm tra chữ ký và tên máy trong chứng chỉ server, thiết lập khóa TLS rồi mới truyền dữ liệu HTTP đã mã hóa."
+        },
+        {
+          "type": "warning",
+          "ja": "現在の通信保護にはTLSを用い、旧式SSLを安全な方式として扱わない。またTLSが保護するのは通信端点間であり、端点で復号された後のデータまでは守らない。",
+          "vi": "Hiện nay phải dùng TLS, không coi SSL cũ là an toàn. TLS bảo vệ giữa hai endpoint; dữ liệu sau khi giải mã tại endpoint nằm ngoài phạm vi đó."
         }
       ],
       "terms": [
@@ -103,14 +93,11 @@
           "reading": "えすえすえる/てぃーえるえす",
           "english": "Secure Sockets Layer / Transport Layer Security",
           "vi": "SSL/TLS",
-          "definitionJa": "インターネット通信を暗号化し、盗聴や改ざんを防ぐプロトコル。現在は主にTLSが利用される。",
-          "definitionVi": "Giao thức mã hóa thông tin liên lạc trên Internet để ngăn nghe lén và sửa đổi. Hiện nay chủ yếu sử dụng TLS."
+          "definitionJa": "通信相手の認証と鍵確立を行い、通信データの機密性・完全性を保護するプロトコル。",
+          "definitionVi": "Giao thức xác thực bên giao tiếp, thiết lập khóa và bảo vệ tính bí mật, toàn vẹn của dữ liệu truyền."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "secure-sockets-layer-transport-layer-security"
-      ]
+      "tags": ["security-implementation", "secure-sockets-layer-transport-layer-security"]
     },
     {
       "id": "secure-shell",
@@ -170,38 +157,33 @@
       "titleJa": "HTTPS",
       "titleVi": "HTTPS",
       "importance": "high",
-      "summaryJa": "HTTPにTLSを組み合わせ、WebブラウザとWebサーバ間の通信を暗号化する。",
-      "summaryVi": "Kết hợp TLS với HTTP để mã hóa thông tin liên lạc giữa trình duyệt Web và máy chủ Web.",
+      "summaryJa": "HTTPSはHTTPをTLS上で運ぶ仕組みで、ブラウザとWebサーバ間の要求・応答を暗号化し、改ざん検知とサーバ認証を可能にする。",
+      "summaryVi": "HTTPS là HTTP chạy trên TLS, mã hóa yêu cầu/phản hồi giữa trình duyệt và máy chủ Web, đồng thời hỗ trợ phát hiện sửa đổi và xác thực server.",
       "content": [
         {
           "type": "heading",
-          "ja": "HTTPSとは",
-          "vi": "HTTPS là gì?"
+          "ja": "HTTPをTLSで保護する",
+          "vi": "Bảo vệ HTTP bằng TLS"
         },
         {
           "type": "paragraph",
-          "ja": "HTTPにTLSを組み合わせ、WebブラウザとWebサーバ間の通信を暗号化する。",
-          "vi": "Kết hợp TLS với HTTP để mã hóa thông tin liên lạc giữa trình duyệt Web và máy chủ Web."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "HTTP通信をTLSで保護し、WebブラウザとWebサーバ間のデータを暗号化する。",
-          "vi": "Bảo vệ HTTP bằng TLS và mã hóa dữ liệu giữa trình duyệt với web server."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "接続開始時にTLSハンドシェイクを行い、証明書の検証とセッション鍵の確立後にHTTPメッセージを送る。URLのパス、ヘッダ、Cookie、本文は暗号化されるが、接続先IPなど通信に必要な情報は外から見える場合がある。",
+          "vi": "Kết nối thực hiện TLS handshake, xác minh chứng chỉ và thiết lập khóa phiên trước khi gửi HTTP. Đường dẫn URL, header, cookie và body được mã hóa, nhưng thông tin cần định tuyến như IP đích vẫn có thể lộ."
         },
         {
           "type": "point",
-          "ja": "HTTPS＝HTTP＋TLS。標準ポートは443。",
-          "vi": "HTTPS = HTTP + TLS; cổng chuẩn là 443."
+          "ja": "FEでは、HTTPSは独立したWeb内容の暗号方式ではなく、HTTPとTLSの組合せであると理解する。",
+          "vi": "Trong FE, HTTPS không phải thuật toán mã hóa nội dung Web độc lập mà là sự kết hợp HTTP với TLS."
+        },
+        {
+          "type": "example",
+          "ja": "利用者がhttpsのサイトへパスワードを送ると、HTTP要求はTLSレコード内で暗号化されてサーバへ届く。",
+          "vi": "Khi người dùng gửi mật khẩu tới trang https, yêu cầu HTTP được mã hóa trong bản ghi TLS trước khi tới server."
+        },
+        {
+          "type": "warning",
+          "ja": "鍵マークは通信路がTLSで保護され、証明書が検証されたことを示すが、サイトの内容や事業者が常に信頼できることまでは保証しない。",
+          "vi": "Biểu tượng khóa cho biết kênh TLS và chứng chỉ đã được xác minh, nhưng không bảo đảm nội dung hoặc chủ trang luôn đáng tin."
         }
       ],
       "terms": [
@@ -210,8 +192,8 @@
           "reading": "えいちてぃーてぃーぴーえす",
           "english": "HTTP over TLS",
           "vi": "HTTPS",
-          "definitionJa": "HTTPにTLSを組み合わせ、WebブラウザとWebサーバ間の通信を暗号化する。",
-          "definitionVi": "Kết hợp TLS với HTTP để mã hóa thông tin liên lạc giữa trình duyệt Web và máy chủ Web."
+          "definitionJa": "HTTP通信をTLSで保護し、Webクライアントとサーバ間の機密性・完全性・サーバ認証を提供する仕組み。",
+          "definitionVi": "Cơ chế bảo vệ HTTP bằng TLS để cung cấp bí mật, toàn vẹn và xác thực server giữa Web client và server."
         }
       ],
       "tags": ["security-implementation", "http-over-tls"]
@@ -222,38 +204,33 @@
       "titleJa": "WPA2",
       "titleVi": "WPA2",
       "importance": "high",
-      "summaryJa": "無線LANの暗号化・認証規格。AESを利用してWi-Fi通信を保護する。",
-      "summaryVi": "Tiêu chuẩn mã hóa và xác thực cho mạng LAN không dây. Sử dụng AES để bảo vệ thông tin liên lạc Wi-Fi.",
+      "summaryJa": "WPA2は無線LANの認証・暗号化規格で、一般にAESを用いるCCMPによって無線区間の機密性と完全性を保護する。",
+      "summaryVi": "WPA2 là tiêu chuẩn xác thực và mã hóa Wi-Fi, thường dùng CCMP dựa trên AES để bảo vệ bí mật và toàn vẹn trên đoạn vô tuyến.",
       "content": [
         {
           "type": "heading",
-          "ja": "WPA2とは",
-          "vi": "WPA2 là gì?"
+          "ja": "PersonalとEnterprise",
+          "vi": "Chế độ Personal và Enterprise"
         },
         {
           "type": "paragraph",
-          "ja": "無線LANの暗号化・認証規格。AESを利用してWi-Fi通信を保護する。",
-          "vi": "Tiêu chuẩn mã hóa và xác thực cho mạng LAN không dây. Sử dụng AES để bảo vệ thông tin liên lạc Wi-Fi."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "無線LANを保護する規格で、一般にAESを用いるCCMPで通信を保護する。",
-          "vi": "Chuẩn bảo vệ Wi-Fi, thường sử dụng CCMP dựa trên AES."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "WPA2-Personalは事前共有鍵から接続用鍵を導き、WPA2-EnterpriseはIEEE 802.1Xと認証サーバを用いて利用者・端末ごとに認証する。通信ごとの鍵を生成し、無線フレームをCCMPで保護する。",
+          "vi": "WPA2-Personal suy ra khóa kết nối từ khóa chia sẻ trước; WPA2-Enterprise dùng IEEE 802.1X và máy chủ xác thực cho từng người/thiết bị. Khóa theo phiên bảo vệ frame Wi-Fi bằng CCMP."
         },
         {
           "type": "point",
-          "ja": "WEPより安全。WPA3はWPA2をさらに強化した規格。",
-          "vi": "An toàn hơn WEP; WPA3 là phiên bản tăng cường hơn WPA2."
+          "ja": "FEでは、WEPの弱点を改善した規格として、WPA2とAES-CCMPの対応、およびPersonalとEnterpriseの違いを押さえる。",
+          "vi": "Trong FE, cần liên hệ WPA2 với AES-CCMP và phân biệt Personal/Enterprise, đồng thời biết WPA2 khắc phục nhiều điểm yếu của WEP."
+        },
+        {
+          "type": "example",
+          "ja": "家庭では強い事前共有パスフレーズを設定し、企業では802.1XとRADIUSで社員ごとに無線LAN接続を認証する。",
+          "vi": "Gia đình dùng passphrase chia sẻ mạnh; doanh nghiệp dùng 802.1X và RADIUS để xác thực kết nối Wi-Fi theo từng nhân viên."
+        },
+        {
+          "type": "warning",
+          "ja": "短い・推測可能なPersonalのパスフレーズは辞書攻撃の対象になる。WPA2を選ぶだけで、弱い共有鍵や不正アクセスポイントの問題は解消しない。",
+          "vi": "Passphrase Personal ngắn, dễ đoán có thể bị tấn công từ điển. Chọn WPA2 không tự khắc phục khóa yếu hay điểm truy cập giả."
         }
       ],
       "terms": [
@@ -262,8 +239,8 @@
           "reading": "だぶるぴーえーつー",
           "english": "Wi-Fi Protected Access 2",
           "vi": "WPA2",
-          "definitionJa": "無線LANの暗号化・認証規格。AESを利用してWi-Fi通信を保護する。",
-          "definitionVi": "Tiêu chuẩn mã hóa và xác thực cho mạng LAN không dây. Sử dụng AES để bảo vệ thông tin liên lạc Wi-Fi."
+          "definitionJa": "AES-CCMPを中心に無線LANの認証と通信の機密性・完全性を保護する規格。",
+          "definitionVi": "Tiêu chuẩn bảo vệ xác thực, bí mật và toàn vẹn Wi-Fi, chủ yếu bằng AES-CCMP."
         }
       ],
       "tags": ["security-implementation", "wi-fi-protected-access-2"]
@@ -274,38 +251,33 @@
       "titleJa": "WPA3",
       "titleVi": "WPA3",
       "importance": "high",
-      "summaryJa": "WPA2より強化された無線LANセキュリティ規格で、認証・暗号化を強化する。",
-      "summaryVi": "Tiêu chuẩn bảo mật mạng LAN không dây được tăng cường so với WPA2, với khả năng xác thực và mã hóa được tăng cường.",
+      "summaryJa": "WPA3はWPA2の後継となる無線LANセキュリティ規格で、PersonalではSAEを採用し、パスワード認証と鍵確立を強化する。",
+      "summaryVi": "WPA3 là tiêu chuẩn bảo mật Wi-Fi kế nhiệm WPA2; chế độ Personal dùng SAE để tăng cường xác thực mật khẩu và thiết lập khóa.",
       "content": [
         {
           "type": "heading",
-          "ja": "WPA3とは",
-          "vi": "WPA3 là gì?"
+          "ja": "SAEによるPersonal認証",
+          "vi": "Xác thực Personal bằng SAE"
         },
         {
           "type": "paragraph",
-          "ja": "WPA2より強化された無線LANセキュリティ規格で、認証・暗号化を強化する。",
-          "vi": "Tiêu chuẩn bảo mật mạng LAN không dây được tăng cường so với WPA2, với khả năng xác thực và mã hóa được tăng cường."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "WPA2の後継規格で、PersonalではSAEなどによりパスワード認証を強化する。",
-          "vi": "Chuẩn kế nhiệm WPA2; chế độ Personal tăng cường xác thực mật khẩu bằng SAE."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "WPA3-PersonalのSAEは、事前共有パスワードをそのまま全端末の固定鍵として扱わず、接続ごとに鍵を確立する。オフラインで大量の候補を一括検証する辞書攻撃への耐性と、過去通信の保護を高める。",
+          "vi": "SAE trong WPA3-Personal không dùng trực tiếp mật khẩu chia sẻ làm khóa cố định cho mọi máy mà thiết lập khóa theo từng kết nối, tăng khả năng chống thử từ điển ngoại tuyến hàng loạt và bảo vệ phiên cũ."
         },
         {
           "type": "point",
-          "ja": "WPA3＝WPA2より新しく強化された無線LANセキュリティ規格。",
-          "vi": "WPA3 = chuẩn Wi-Fi mới hơn và mạnh hơn WPA2."
+          "ja": "FEでは、WPA3-PersonalとSAEの組合せ、およびWPA2から認証・暗号機能が強化された点を押さえる。",
+          "vi": "Trong FE, cần nhớ WPA3-Personal đi với SAE và tăng cường cơ chế xác thực/bảo vệ so với WPA2."
+        },
+        {
+          "type": "example",
+          "ja": "同じパスフレーズを知る利用者同士でも、SAEによって接続ごとに異なる鍵材料を確立して無線通信を保護する。",
+          "vi": "Ngay cả người dùng biết cùng passphrase, SAE vẫn thiết lập vật liệu khóa riêng cho từng kết nối để bảo vệ Wi-Fi."
+        },
+        {
+          "type": "warning",
+          "ja": "WPA2/WPA3移行モードや弱いパスワード、未更新端末が残ると、WPA3本来の強度を十分に得られない。規格名だけでなく実際の構成を確認する。",
+          "vi": "Nếu dùng chế độ chuyển tiếp WPA2/WPA3, mật khẩu yếu hoặc thiết bị chưa cập nhật, có thể không đạt đầy đủ mức bảo vệ WPA3; phải xem cấu hình thực tế."
         }
       ],
       "terms": [
@@ -314,8 +286,8 @@
           "reading": "だぶるぴーえーすりー",
           "english": "Wi-Fi Protected Access 3",
           "vi": "WPA3",
-          "definitionJa": "WPA2より強化された無線LANセキュリティ規格で、認証・暗号化を強化する。",
-          "definitionVi": "Tiêu chuẩn bảo mật mạng LAN không dây được tăng cường so với WPA2, với khả năng xác thực và mã hóa được tăng cường."
+          "definitionJa": "PersonalでSAEを用いるなど、WPA2より認証と鍵確立を強化した無線LANセキュリティ規格。",
+          "definitionVi": "Tiêu chuẩn bảo mật Wi-Fi kế nhiệm WPA2, tăng cường xác thực và thiết lập khóa, đặc biệt dùng SAE ở chế độ Personal."
         }
       ],
       "tags": ["security-implementation", "wi-fi-protected-access-3"]
@@ -378,38 +350,33 @@
       "titleJa": "SPF",
       "titleVi": "SPF",
       "importance": "high",
-      "summaryJa": "DNSに送信許可メールサーバを登録し、送信元ドメインのなりすましを検出する。",
-      "summaryVi": "Đăng ký trên DNS các máy chủ thư được phép gửi để phát hiện giả mạo miền của nguồn gửi.",
+      "summaryJa": "SPFは、ドメイン管理者がメール送信を許可するIPアドレスをDNSに公開し、受信側がSMTP接続元とエンベロープ送信者ドメインを照合する送信ドメイン認証方式である。",
+      "summaryVi": "SPF là cơ chế xác thực miền gửi: quản trị miền công bố IP được phép trong DNS, bên nhận đối chiếu IP kết nối SMTP với miền người gửi phong bì.",
       "content": [
         {
           "type": "heading",
-          "ja": "SPFとは",
-          "vi": "SPF là gì?"
+          "ja": "送信元IPをDNSポリシーと照合",
+          "vi": "Đối chiếu IP gửi với chính sách DNS"
         },
         {
           "type": "paragraph",
-          "ja": "DNSに送信許可メールサーバを登録し、送信元ドメインのなりすましを検出する。",
-          "vi": "Đăng ký trên DNS các máy chủ thư được phép gửi để phát hiện giả mạo miền của nguồn gửi."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "受信側が、送信元IPアドレスがDNSに登録された許可サーバか確認する。",
-          "vi": "Bên nhận kiểm tra IP gửi có thuộc máy chủ được phép công bố trong DNS hay không."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "受信サーバはMAIL FROMなどのドメインにあるSPF TXTレコードを取得し、接続元IPがip4、ip6、includeなどの機構に一致するか評価する。結果はpass、fail、softfailなどで表される。",
+          "vi": "Máy nhận lấy bản ghi SPF TXT của miền trong MAIL FROM rồi xét IP nguồn có khớp cơ chế ip4, ip6, include… hay không. Kết quả có thể là pass, fail, softfail và các trạng thái khác."
         },
         {
           "type": "point",
-          "ja": "SPF＝送信元IP。DKIM＝電子署名。DMARC＝SPF/DKIMを使う方針。",
-          "vi": "SPF = IP gửi; DKIM = chữ ký số; DMARC = chính sách dùng SPF/DKIM."
+          "ja": "FEでは、SPFは送信元IPの認可を確認し、本文の改ざん検知や暗号化は行わないと整理する。",
+          "vi": "Trong FE, SPF kiểm tra IP được phép gửi; nó không phát hiện sửa nội dung và không mã hóa thư."
+        },
+        {
+          "type": "example",
+          "ja": "example.jpがDNSで203.0.113.10を許可し、受信サーバがそのIPから届いたMAIL FROMのexample.jpをSPF passと判定する。",
+          "vi": "Miền example.jp cho phép IP 203.0.113.10 trong DNS; máy nhận đánh giá thư dùng MAIL FROM example.jp từ IP đó là SPF pass."
+        },
+        {
+          "type": "warning",
+          "ja": "SPFだけでは利用者に見えるFromヘッダの詐称を直接防げず、転送で接続元IPが変わると失敗することもある。DMARCのアラインメントと区別する。",
+          "vi": "SPF một mình không trực tiếp chống giả mạo From hiển thị và có thể fail khi chuyển tiếp làm đổi IP nguồn; cần phân biệt với alignment của DMARC."
         }
       ],
       "terms": [
@@ -418,8 +385,8 @@
           "reading": "えすぴーえふ",
           "english": "Sender Policy Framework",
           "vi": "SPF",
-          "definitionJa": "DNSに送信許可メールサーバを登録し、送信元ドメインのなりすましを検出する。",
-          "definitionVi": "Đăng ký trên DNS các máy chủ thư được phép gửi để phát hiện giả mạo miền của nguồn gửi."
+          "definitionJa": "DNSに公開した許可送信元IPとSMTP接続元を照合する送信ドメイン認証方式。",
+          "definitionVi": "Cơ chế xác thực miền gửi bằng cách so IP kết nối SMTP với danh sách IP được miền công bố trong DNS."
         }
       ],
       "tags": ["security-implementation", "sender-policy-framework"]
@@ -430,38 +397,33 @@
       "titleJa": "DKIM",
       "titleVi": "DKIM",
       "importance": "high",
-      "summaryJa": "電子署名をメールに付加し、送信ドメインの認証とメール内容の改ざん検知を行う。",
-      "summaryVi": "Gắn chữ ký điện tử vào email để xác thực miền gửi và phát hiện việc nội dung email bị sửa đổi.",
+      "summaryJa": "DKIMは、送信側がメールのヘッダと本文に対するデジタル署名を付け、受信側がDNS公開鍵で送信ドメインと内容の完全性を検証する方式である。",
+      "summaryVi": "DKIM cho bên gửi ký số header và nội dung thư; bên nhận dùng khóa công khai trong DNS để xác minh miền ký và tính toàn vẹn.",
       "content": [
         {
           "type": "heading",
-          "ja": "DKIMとは",
-          "vi": "DKIM là gì?"
+          "ja": "メール署名をDNS公開鍵で検証",
+          "vi": "Xác minh chữ ký thư bằng khóa DNS"
         },
         {
           "type": "paragraph",
-          "ja": "電子署名をメールに付加し、送信ドメインの認証とメール内容の改ざん検知を行う。",
-          "vi": "Gắn chữ ký điện tử vào email để xác thực miền gửi và phát hiện việc nội dung email bị sửa đổi."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "送信側が秘密鍵で署名し、受信側はDNSから公開鍵を取得して署名を検証する。",
-          "vi": "Bên gửi ký bằng khóa bí mật; bên nhận lấy khóa công khai từ DNS để kiểm tra."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "送信ドメインは秘密鍵で署名し、DKIM-Signatureヘッダへ署名ドメインd=とセレクタs=を付ける。受信側はセレクタからDNS上の公開鍵を求め、対象ヘッダと本文ハッシュを検証する。",
+          "vi": "Miền gửi ký bằng khóa riêng và ghi miền ký d=, selector s= trong header DKIM-Signature. Bên nhận dùng selector lấy khóa công khai từ DNS rồi xác minh header và hash nội dung được ký."
         },
         {
           "type": "point",
-          "ja": "DKIM＝送信ドメインの認証＋改ざん検知。",
-          "vi": "DKIM = xác thực miền gửi + phát hiện sửa đổi."
+          "ja": "FEでは、DKIMは公開鍵暗号による送信ドメイン認証と改ざん検知であり、メール本文の暗号化ではないと押さえる。",
+          "vi": "Trong FE, DKIM dùng chữ ký khóa công khai để xác thực miền ký và phát hiện sửa đổi; nó không mã hóa nội dung thư."
+        },
+        {
+          "type": "example",
+          "ja": "受信サーバはs1._domainkey.example.jpの公開鍵を取得し、d=example.jpの署名と本文ハッシュを検証する。",
+          "vi": "Máy nhận lấy khóa công khai tại s1._domainkey.example.jp để xác minh chữ ký d=example.jp và hash nội dung."
+        },
+        {
+          "type": "warning",
+          "ja": "署名後にメーリングリストなどが件名や本文を変更すると検証に失敗する場合がある。またDKIM passだけで送信者個人の身元までは保証しない。",
+          "vi": "Nếu danh sách thư sửa tiêu đề hoặc nội dung sau khi ký, DKIM có thể fail; DKIM pass cũng không xác nhận danh tính cá nhân người gửi."
         }
       ],
       "terms": [
@@ -470,8 +432,8 @@
           "reading": "でぃーきむ",
           "english": "DomainKeys Identified Mail",
           "vi": "DKIM",
-          "definitionJa": "電子署名をメールに付加し、送信ドメインの認証とメール内容の改ざん検知を行う。",
-          "definitionVi": "Gắn chữ ký điện tử vào email để xác thực miền gửi và phát hiện việc nội dung email bị sửa đổi."
+          "definitionJa": "メールへデジタル署名を付け、DNS公開鍵で送信ドメインと内容の完全性を検証する方式。",
+          "definitionVi": "Cơ chế ký số email và dùng khóa công khai DNS để xác minh miền ký cùng tính toàn vẹn nội dung."
         }
       ],
       "tags": ["security-implementation", "domainkeys-identified-mail"]
@@ -482,38 +444,33 @@
       "titleJa": "DMARC",
       "titleVi": "DMARC",
       "importance": "high",
-      "summaryJa": "SPFとDKIMを利用してメール認証を行い、認証失敗時の処理方針やレポートを定める。",
-      "summaryVi": "Sử dụng SPF và DKIM để xác thực email, đồng thời quy định chính sách xử lý khi xác thực thất bại và cơ chế báo cáo.",
+      "summaryJa": "DMARCは、表示上のFromドメインとSPFまたはDKIMで認証されたドメインの整合を確認し、失敗時の処理方針と集計レポートをDNSで公開する仕組みである。",
+      "summaryVi": "DMARC kiểm tra alignment giữa miền From hiển thị và miền đã xác thực bằng SPF hoặc DKIM, đồng thời công bố chính sách xử lý khi fail và báo cáo tổng hợp qua DNS.",
       "content": [
         {
           "type": "heading",
-          "ja": "DMARCとは",
-          "vi": "DMARC là gì?"
+          "ja": "認証結果とFromのアラインメント",
+          "vi": "Alignment giữa kết quả xác thực và From"
         },
         {
           "type": "paragraph",
-          "ja": "SPFとDKIMを利用してメール認証を行い、認証失敗時の処理方針やレポートを定める。",
-          "vi": "Sử dụng SPF và DKIM để xác thực email, đồng thời quy định chính sách xử lý khi xác thực thất bại và cơ chế báo cáo."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "SPF/DKIMの結果とFromドメインの整合性を確認し、失敗時の扱いとレポート方針を定める。",
-          "vi": "Kiểm tra SPF/DKIM và sự phù hợp với miền From, đồng thời quy định cách xử lý và báo cáo khi lỗi."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "SPFではMAIL FROMドメイン、DKIMでは署名のd=ドメインを、RFC 5322 Fromドメインと比較する。少なくとも一方がpassかつalignedならDMARCはpassし、所有者はnone、quarantine、rejectなどの方針を示せる。",
+          "vi": "DMARC so miền MAIL FROM của SPF hoặc miền d= của DKIM với miền RFC 5322 From. Nếu ít nhất một cơ chế pass và aligned thì DMARC pass; chủ miền có thể công bố none, quarantine hoặc reject."
         },
         {
           "type": "point",
-          "ja": "SPF/DKIMは認証技術、DMARCはそれらを利用するポリシー。",
-          "vi": "SPF/DKIM là kỹ thuật xác thực; DMARC là chính sách sử dụng chúng."
+          "ja": "FEでは、DMARCがSPF・DKIMの結果にFrom整合性、ポリシー、レポートを加える仕組みであると理解する。",
+          "vi": "Trong FE, cần hiểu DMARC bổ sung alignment với From, chính sách và báo cáo lên kết quả SPF/DKIM."
+        },
+        {
+          "type": "example",
+          "ja": "Fromがexample.jpで、DKIMのd=example.jpがpassしたためDMARC passとなり、SPFが転送で失敗しても受理される。",
+          "vi": "From là example.jp và DKIM d=example.jp pass nên DMARC pass dù SPF fail do chuyển tiếp."
+        },
+        {
+          "type": "warning",
+          "ja": "p=rejectを直ちに適用すると正当な委託送信を拒否するおそれがある。まずレポートで送信経路とアラインメントを確認し、段階的に方針を強化する。",
+          "vi": "Áp dụng p=reject ngay có thể từ chối dịch vụ gửi hợp lệ; nên xem báo cáo, kiểm tra luồng gửi/alignment rồi tăng chính sách từng bước."
         }
       ],
       "terms": [
@@ -522,14 +479,11 @@
           "reading": "でぃーまーく",
           "english": "Domain-based Message Authentication, Reporting & Conformance",
           "vi": "DMARC",
-          "definitionJa": "SPFとDKIMを利用してメール認証を行い、認証失敗時の処理方針やレポートを定める。",
-          "definitionVi": "Sử dụng SPF và DKIM để xác thực email, đồng thời quy định chính sách xử lý khi xác thực thất bại và cơ chế báo cáo."
+          "definitionJa": "SPFまたはDKIMとFromドメインの整合を確認し、失敗時ポリシーとレポートを提供するメール認証の仕組み。",
+          "definitionVi": "Cơ chế xác thực email kiểm tra alignment của From với SPF hoặc DKIM, đồng thời cung cấp chính sách xử lý và báo cáo."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "domain-based-message-authentication-reporting-and-conformance"
-      ]
+      "tags": ["security-implementation", "domain-based-message-authentication-reporting-and-conformance"]
     },
     {
       "id": "smtp-authentication",
@@ -748,38 +702,33 @@
       "titleJa": "OAuth",
       "titleVi": "OAuth",
       "importance": "high",
-      "summaryJa": "パスワードを第三者アプリに渡さず、限定されたアクセス権限を委譲する仕組み。",
-      "summaryVi": "Cơ chế ủy quyền truy cập có giới hạn mà không cần chuyển mật khẩu cho ứng dụng của bên thứ ba.",
+      "summaryJa": "OAuthは、利用者のパスワードをクライアントへ渡さず、限定された権限をアクセストークンとして第三者アプリケーションへ委譲する認可フレームワークである。",
+      "summaryVi": "OAuth là khung ủy quyền cấp quyền hạn giới hạn cho ứng dụng bên thứ ba bằng access token mà không trao mật khẩu người dùng cho ứng dụng.",
       "content": [
         {
           "type": "heading",
-          "ja": "OAuthとは",
-          "vi": "OAuth là gì?"
+          "ja": "認証ではなく権限委譲",
+          "vi": "Ủy quyền, không phải xác thực người dùng"
         },
         {
           "type": "paragraph",
-          "ja": "パスワードを第三者アプリに渡さず、限定されたアクセス権限を委譲する仕組み。",
-          "vi": "Cơ chế ủy quyền truy cập có giới hạn mà không cần chuyển mật khẩu cho ứng dụng của bên thứ ba."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "パスワードを第三者アプリに渡さず、アクセストークンで限定された権限を与える。",
-          "vi": "Không đưa mật khẩu cho ứng dụng bên thứ ba; cấp quyền giới hạn bằng access token."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "リソース所有者が認可サーバで同意すると、クライアントはスコープと有効期限を持つアクセストークンを得てリソースサーバへ提示する。認可コードフローではブラウザ経由のコードをバックチャネルでトークンへ交換する。",
+          "vi": "Sau khi chủ tài nguyên đồng ý tại authorization server, client nhận access token có scope và thời hạn để trình resource server. Trong authorization code flow, mã qua trình duyệt được đổi lấy token qua kênh phía sau."
         },
         {
           "type": "point",
-          "ja": "OAuthの中心は認証ではなく認可（Authorization）。",
-          "vi": "Trọng tâm OAuth là ủy quyền (Authorization), không phải xác thực."
+          "ja": "FEでは、OAuthの中心は認可・権限委譲であり、利用者認証を目的とするOpenID Connectとは区別する。",
+          "vi": "Trong FE, trọng tâm OAuth là cấp quyền/ủy quyền; cần phân biệt với OpenID Connect dùng cho xác thực người dùng."
+        },
+        {
+          "type": "example",
+          "ja": "写真印刷アプリに「写真の読取り」スコープだけを許可し、クラウドサービスのパスワードは渡さない。",
+          "vi": "Người dùng chỉ cấp scope “đọc ảnh” cho ứng dụng in ảnh và không cung cấp mật khẩu dịch vụ đám mây."
+        },
+        {
+          "type": "warning",
+          "ja": "アクセストークンは所持者に権限を与えるため、漏えいすると悪用され得る。短い有効期限、必要最小スコープ、正確なリダイレクトURI、PKCEなどが重要である。",
+          "vi": "Access token trao quyền cho người sở hữu nên có thể bị lạm dụng khi lộ; cần hạn ngắn, scope tối thiểu, redirect URI chính xác và PKCE."
         }
       ],
       "terms": [
@@ -788,8 +737,8 @@
           "reading": "おうおーす",
           "english": "OAuth",
           "vi": "OAuth",
-          "definitionJa": "パスワードを第三者アプリに渡さず、限定されたアクセス権限を委譲する仕組み。",
-          "definitionVi": "Cơ chế ủy quyền truy cập có giới hạn mà không cần chuyển mật khẩu cho ứng dụng của bên thứ ba."
+          "definitionJa": "パスワードを第三者へ渡さず、限定されたアクセス権をトークンとして委譲する認可フレームワーク。",
+          "definitionVi": "Khung ủy quyền dùng token để ủy quyền truy cập có giới hạn mà không trao mật khẩu cho bên thứ ba."
         }
       ],
       "tags": ["security-implementation", "oauth"]
@@ -800,38 +749,33 @@
       "titleJa": "DNSSEC",
       "titleVi": "DNSSEC",
       "importance": "high",
-      "summaryJa": "DNS応答にデジタル署名を付け、DNS情報の正当性と完全性を検証する。",
-      "summaryVi": "Gắn chữ ký số vào phản hồi DNS để kiểm chứng tính hợp lệ và tính toàn vẹn của thông tin DNS.",
+      "summaryJa": "DNSSECは、DNSレコードへデジタル署名を付け、信頼の連鎖をたどって応答元の真正性とデータの完全性を検証するDNS拡張である。",
+      "summaryVi": "DNSSEC là phần mở rộng DNS ký số bản ghi và dùng chuỗi tin cậy để xác minh nguồn gốc cùng tính toàn vẹn dữ liệu trả lời.",
       "content": [
         {
           "type": "heading",
-          "ja": "DNSSECとは",
-          "vi": "DNSSEC là gì?"
+          "ja": "DNSの署名と信頼の連鎖",
+          "vi": "Chữ ký DNS và chuỗi tin cậy"
         },
         {
           "type": "paragraph",
-          "ja": "DNS応答にデジタル署名を付け、DNS情報の正当性と完全性を検証する。",
-          "vi": "Gắn chữ ký số vào phản hồi DNS để kiểm chứng tính hợp lệ và tính toàn vẹn của thông tin DNS."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "DNSレコードのデジタル署名を検証し、応答の真正性と完全性を確認する。",
-          "vi": "Kiểm tra chữ ký số của bản ghi DNS để xác minh tính xác thực và toàn vẹn."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "権威DNSはRRsetにRRSIGを付け、検証側はDNSKEYで署名を確認する。親ゾーンのDSレコードから子ゾーンの鍵へ信頼を連結し、NSEC/NSEC3でレコード不存在も認証できる。",
+          "vi": "DNS có thẩm quyền gắn RRSIG cho RRset; bên xác minh dùng DNSKEY kiểm tra chữ ký. Bản ghi DS ở miền cha nối tin cậy tới khóa miền con, còn NSEC/NSEC3 xác thực cả việc bản ghi không tồn tại."
         },
         {
           "type": "point",
-          "ja": "DNSSECはDNS通信を暗号化する仕組みではない。",
-          "vi": "DNSSEC không phải cơ chế mã hóa nội dung DNS."
+          "ja": "FEでは、DNSSECがキャッシュポイズニング対策として真正性・完全性を提供し、DNS通信の暗号化は行わない点を押さえる。",
+          "vi": "Trong FE, DNSSEC cung cấp xác thực nguồn gốc và toàn vẹn để chống giả mạo cache; nó không mã hóa truy vấn DNS."
+        },
+        {
+          "type": "example",
+          "ja": "検証リゾルバがexample.jpのAレコード、RRSIG、DNSKEY、親のDSを検証し、改ざんされていない応答だけを利用する。",
+          "vi": "Resolver xác minh A record, RRSIG, DNSKEY của example.jp và DS ở miền cha, chỉ dùng phản hồi không bị sửa."
+        },
+        {
+          "type": "warning",
+          "ja": "署名が正しくても接続先サービス自体が安全とは限らない。DNSSECは機密性を提供せず、DoHやDoTとも目的が異なる。",
+          "vi": "Chữ ký đúng không bảo đảm dịch vụ đích an toàn. DNSSEC không cung cấp bí mật và có mục đích khác DoH/DoT."
         }
       ],
       "terms": [
@@ -840,8 +784,8 @@
           "reading": "でぃーえぬえすせっく",
           "english": "DNS Security Extensions",
           "vi": "DNSSEC",
-          "definitionJa": "DNS応答にデジタル署名を付け、DNS情報の正当性と完全性を検証する。",
-          "definitionVi": "Gắn chữ ký số vào phản hồi DNS để kiểm chứng tính hợp lệ và tính toàn vẹn của thông tin DNS."
+          "definitionJa": "DNSレコードの署名と信頼の連鎖により、応答の真正性と完全性を検証するDNS拡張。",
+          "definitionVi": "Phần mở rộng DNS dùng chữ ký và chuỗi tin cậy để xác minh nguồn gốc, tính toàn vẹn của phản hồi."
         }
       ],
       "tags": ["security-implementation", "dns-security-extensions"]
@@ -904,38 +848,33 @@
       "titleJa": "EAP-TLS",
       "titleVi": "EAP-TLS",
       "importance": "high",
-      "summaryJa": "TLSと証明書を使い、クライアントとサーバ双方を認証するEAP方式。",
-      "summaryVi": "Một phương thức EAP sử dụng TLS và chứng chỉ để xác thực cả phía client và server.",
+      "summaryJa": "EAP-TLSは、TLSとクライアント・サーバ証明書を用いて相互認証し、IEEE 802.1Xなどのネットワークアクセス認証で利用されるEAP方式である。",
+      "summaryVi": "EAP-TLS là phương thức EAP dùng TLS cùng chứng chỉ client/server để xác thực hai chiều, thường dùng cho kiểm soát truy cập mạng IEEE 802.1X.",
       "content": [
         {
           "type": "heading",
-          "ja": "EAP-TLSとは",
-          "vi": "EAP-TLS là gì?"
+          "ja": "証明書による相互認証",
+          "vi": "Xác thực hai chiều bằng chứng chỉ"
         },
         {
           "type": "paragraph",
-          "ja": "TLSと証明書を使い、クライアントとサーバ双方を認証するEAP方式。",
-          "vi": "Một phương thức EAP sử dụng TLS và chứng chỉ để xác thực cả phía client và server."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "TLSと証明書を使い、クライアントとサーバの双方を認証する。",
-          "vi": "Dùng TLS và chứng chỉ để xác thực cả client lẫn server."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "サプリカントと認証サーバがEAP内でTLSハンドシェイクを行い、双方の証明書を検証する。無線アクセスポイントやスイッチはオーセンティケータとしてEAPを中継し、RADIUSと組み合わせる構成が多い。",
+          "vi": "Supplicant và máy chủ xác thực thực hiện TLS handshake trong EAP, xác minh chứng chỉ hai phía. Access point hoặc switch làm authenticator chuyển tiếp EAP, thường kết hợp RADIUS."
         },
         {
           "type": "point",
-          "ja": "クライアント側にも証明書が必要な点が重要。",
-          "vi": "Điểm quan trọng: phía client cũng cần chứng chỉ."
+          "ja": "FEでは、EAP-TLS、IEEE 802.1X、RADIUSの役割を混同せず、EAP-TLSが証明書ベースの認証方式であると押さえる。",
+          "vi": "Trong FE, không nhầm vai trò EAP-TLS, IEEE 802.1X và RADIUS; EAP-TLS là phương thức xác thực dựa trên chứng chỉ."
+        },
+        {
+          "type": "example",
+          "ja": "社員PCが社内Wi-Fiへ接続すると、端末証明書と認証サーバ証明書を相互検証し、成功後にネットワーク利用を許可する。",
+          "vi": "Khi máy nhân viên kết nối Wi-Fi công ty, hai bên kiểm tra chứng chỉ thiết bị và máy chủ, rồi mới cho phép dùng mạng."
+        },
+        {
+          "type": "warning",
+          "ja": "証明書の失効確認、更新、秘密鍵保護が不十分だと安全性が低下する。サーバ証明書を検証しなければ偽認証サーバへ接続するおそれがある。",
+          "vi": "Nếu kiểm tra thu hồi, gia hạn và bảo vệ khóa riêng kém thì bảo mật giảm; không xác minh chứng chỉ server có thể nối tới máy chủ giả."
         }
       ],
       "terms": [
@@ -944,14 +883,11 @@
           "reading": "いーえーぴーてぃーえるえす",
           "english": "Extensible Authentication Protocol - Transport Layer Security",
           "vi": "EAP-TLS",
-          "definitionJa": "TLSと証明書を使い、クライアントとサーバ双方を認証するEAP方式。",
-          "definitionVi": "Một phương thức EAP sử dụng TLS và chứng chỉ để xác thực cả phía client và server."
+          "definitionJa": "TLSとクライアント・サーバ証明書で相互認証する、ネットワークアクセス向けのEAP方式。",
+          "definitionVi": "Phương thức EAP cho truy cập mạng, dùng TLS và chứng chỉ client/server để xác thực hai chiều."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "extensible-authentication-protocol-transport-layer-security"
-      ]
+      "tags": ["security-implementation", "extensible-authentication-protocol-transport-layer-security"]
     },
     {
       "id": "protected-extensible-authentication-protocol",
@@ -1014,38 +950,33 @@
       "titleJa": "RADIUS",
       "titleVi": "RADIUS",
       "importance": "high",
-      "summaryJa": "ネットワーク接続時の認証・認可・アカウンティングを一元管理するプロトコル。",
-      "summaryVi": "Giao thức quản lý tập trung việc xác thực, cấp quyền và ghi nhận sử dụng khi kết nối mạng.",
+      "summaryJa": "RADIUSは、無線AP、VPN装置、スイッチなどから認証要求を受け、ネットワークアクセスの認証・認可と利用記録を集中管理するプロトコルである。",
+      "summaryVi": "RADIUS là giao thức nhận yêu cầu từ AP Wi-Fi, thiết bị VPN hoặc switch để quản lý tập trung xác thực, cấp quyền và ghi nhận truy cập mạng.",
       "content": [
         {
           "type": "heading",
-          "ja": "RADIUSとは",
-          "vi": "RADIUS là gì?"
+          "ja": "AAAの集中管理",
+          "vi": "Quản lý tập trung AAA"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワーク接続時の認証・認可・アカウンティングを一元管理するプロトコル。",
-          "vi": "Giao thức quản lý tập trung việc xác thực, cấp quyền và ghi nhận sử dụng khi kết nối mạng."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "ネットワーク機器から認証要求を受け、AAA（認証・認可・アカウンティング）を集中管理する。",
-          "vi": "Nhận yêu cầu từ thiết bị mạng và quản lý tập trung AAA: xác thực, cấp quyền, ghi nhận."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "NASはRADIUSクライアントとしてAccess-Requestを送り、サーバは資格情報やポリシーを確認してAccess-Accept、Reject、Challengeなどを返す。AcceptにはVLANや利用条件などの認可属性を含められ、Accountingで接続記録も収集する。",
+          "vi": "NAS làm RADIUS client gửi Access-Request; server kiểm tra thông tin xác thực/chính sách rồi trả Access-Accept, Reject hoặc Challenge. Accept có thể chứa thuộc tính như VLAN; Accounting thu thập bản ghi kết nối."
         },
         {
           "type": "point",
-          "ja": "RADIUS＝AAAの集中管理。802.1X認証でもよく使われる。",
-          "vi": "RADIUS = quản lý tập trung AAA; thường dùng với 802.1X."
+          "ja": "FEでは、RADIUSが利用端末と直接同じ役割ではなく、アクセスポイントなどのNASを介してAAAを集中処理すると理解する。",
+          "vi": "Trong FE, cần hiểu RADIUS xử lý AAA tập trung thông qua NAS như access point, không đồng vai trò với thiết bị người dùng."
+        },
+        {
+          "type": "example",
+          "ja": "無線APが社員のEAP認証をRADIUSサーバへ中継し、成功時に社員用VLAN属性を受け取って接続を許可する。",
+          "vi": "AP Wi-Fi chuyển tiếp xác thực EAP của nhân viên tới RADIUS; khi thành công nhận thuộc tính VLAN nhân viên và cho kết nối."
+        },
+        {
+          "type": "warning",
+          "ja": "RADIUSの共有シークレットや通信経路を不適切に管理すると認証情報を危険にさらす。AAAを集中化しても、端末証明書やパスワードの品質管理は別途必要である。",
+          "vi": "Quản lý kém shared secret hoặc đường truyền RADIUS có thể làm lộ thông tin xác thực. AAA tập trung không thay thế quản lý chất lượng chứng chỉ hay mật khẩu."
         }
       ],
       "terms": [
@@ -1054,14 +985,11 @@
           "reading": "らでぃうす",
           "english": "Remote Authentication Dial-In User Service",
           "vi": "RADIUS",
-          "definitionJa": "ネットワーク接続時の認証・認可・アカウンティングを一元管理するプロトコル。",
-          "definitionVi": "Giao thức quản lý tập trung việc xác thực, cấp quyền và ghi nhận sử dụng khi kết nối mạng."
+          "definitionJa": "ネットワークアクセスの認証・認可・利用記録をNASとサーバ間で集中管理するプロトコル。",
+          "definitionVi": "Giao thức quản lý tập trung xác thực, cấp quyền và ghi nhận sử dụng mạng giữa NAS và máy chủ."
         }
       ],
-      "tags": [
-        "security-implementation",
-        "remote-authentication-dial-in-user-service"
-      ]
+      "tags": ["security-implementation", "remote-authentication-dial-in-user-service"]
     },
     {
       "id": "packet-filtering",
@@ -1069,48 +997,43 @@
       "titleJa": "パケットフィルタリング",
       "titleVi": "Lọc gói tin",
       "importance": "high",
-      "summaryJa": "送信元・宛先IPアドレス、プロトコル、ポート番号などに基づきパケット通過を制御する。",
-      "summaryVi": "Kiểm soát việc cho phép gói tin đi qua dựa trên địa chỉ IP nguồn, địa chỉ IP đích, giao thức, số cổng và các thông tin khác.",
+      "summaryJa": "パケットフィルタリングは、パケットヘッダの送信元・宛先IPアドレス、プロトコル、ポート番号などを規則と照合し、転送または破棄する通信制御方式である。",
+      "summaryVi": "Lọc gói đối chiếu IP nguồn/đích, giao thức, số cổng và các trường header khác với quy tắc để chuyển tiếp hoặc loại bỏ gói.",
       "content": [
         {
           "type": "heading",
-          "ja": "パケットフィルタリングとは",
-          "vi": "Lọc gói tin là gì?"
+          "ja": "ヘッダ条件による許可・拒否",
+          "vi": "Cho phép hoặc từ chối theo header"
         },
         {
           "type": "paragraph",
-          "ja": "送信元・宛先IPアドレス、プロトコル、ポート番号などに基づきパケット通過を制御する。",
-          "vi": "Kiểm soát việc cho phép gói tin đi qua dựa trên địa chỉ IP nguồn, địa chỉ IP đích, giao thức, số cổng và các thông tin khác."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "IPアドレス、プロトコル、ポート番号などをルールと照合して通信を許可・拒否する。",
-          "vi": "Đối chiếu IP, giao thức, cổng... với rule để cho phép hoặc chặn."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "ルータやファイアウォールのアクセス制御リストを上から評価し、一致した規則の処理を適用する。ステートレス方式は各パケットを独立に判断し、ステートフル方式は接続状態も参照する。",
+          "vi": "Router hoặc firewall xét ACL theo thứ tự và áp dụng hành động của quy tắc khớp. Lọc stateless đánh giá từng gói độc lập; stateful còn tham chiếu trạng thái kết nối."
         },
         {
           "type": "point",
-          "ja": "主にパケットのヘッダ情報を条件に制御する。",
-          "vi": "Chủ yếu kiểm soát theo thông tin header gói tin."
+          "ja": "FEでは、IPアドレス・プロトコル・ポート番号を条件にすること、規則順序とデフォルト拒否の考え方を押さえる。",
+          "vi": "Trong FE, cần nhớ điều kiện IP/giao thức/cổng, thứ tự quy tắc và nguyên tắc mặc định từ chối."
+        },
+        {
+          "type": "example",
+          "ja": "外部からWebサーバ宛てTCP 443だけを許可し、それ以外の新規受信パケットを最後の規則で拒否する。",
+          "vi": "Chỉ cho phép TCP 443 từ ngoài tới Web server, rồi quy tắc cuối từ chối mọi gói khởi tạo vào khác."
+        },
+        {
+          "type": "warning",
+          "ja": "ヘッダだけを見るフィルタでは、許可したHTTPS内の攻撃内容を判別できない。規則の順序を誤ると、広い許可が後続の拒否より先に適用される。",
+          "vi": "Bộ lọc chỉ xem header không nhận ra nội dung tấn công trong HTTPS đã cho phép. Sai thứ tự có thể làm quy tắc cho phép rộng khớp trước quy tắc chặn."
         }
       ],
       "terms": [
         {
           "term": "パケットフィルタリング",
-          "reading": "",
+          "reading": "ぱけっとふぃるたりんぐ",
           "english": "Packet Filtering",
           "vi": "Lọc gói tin",
-          "definitionJa": "送信元・宛先IPアドレス、プロトコル、ポート番号などに基づきパケット通過を制御する。",
-          "definitionVi": "Kiểm soát việc cho phép gói tin đi qua dựa trên địa chỉ IP nguồn, địa chỉ IP đích, giao thức, số cổng và các thông tin khác."
+          "definitionJa": "パケットヘッダを規則と照合し、条件に応じて転送または破棄する通信制御方式。",
+          "definitionVi": "Phương thức đối chiếu header gói với quy tắc để chuyển tiếp hoặc loại bỏ theo điều kiện."
         }
       ],
       "tags": ["security-implementation", "packet-filtering"]
@@ -1225,38 +1148,33 @@
       "titleJa": "NAT",
       "titleVi": "NAT",
       "importance": "high",
-      "summaryJa": "プライベートIPアドレスとグローバルIPアドレスを変換する技術。",
-      "summaryVi": "Kỹ thuật chuyển đổi giữa địa chỉ IP riêng và địa chỉ IP toàn cục.",
+      "summaryJa": "NATは、境界ルータでIPパケットの送信元または宛先アドレスを書き換え、内部アドレスと外部アドレスを対応付ける技術である。",
+      "summaryVi": "NAT là kỹ thuật tại router biên sửa địa chỉ nguồn hoặc đích trong gói IP để ánh xạ địa chỉ nội bộ với địa chỉ bên ngoài.",
       "content": [
         {
           "type": "heading",
-          "ja": "NATとは",
-          "vi": "NAT là gì?"
+          "ja": "IPアドレスの変換",
+          "vi": "Chuyển đổi địa chỉ IP"
         },
         {
           "type": "paragraph",
-          "ja": "プライベートIPアドレスとグローバルIPアドレスを変換する技術。",
-          "vi": "Kỹ thuật chuyển đổi giữa địa chỉ IP riêng và địa chỉ IP toàn cục."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "内部のプライベートIPと外部のグローバルIPを対応付けて変換する。",
-          "vi": "Ánh xạ và chuyển đổi giữa IP private bên trong và IP global bên ngoài."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "送信時に内部のプライベートIPを割り当てたグローバルIPへ変換し、応答時は対応表を使って元の内部IPへ戻す。Basic NATは主にアドレス同士を対応付け、静的NATと動的NATがある。",
+          "vi": "Khi gửi ra, NAT đổi IP riêng nội bộ thành IP toàn cục được cấp; khi phản hồi, dùng bảng ánh xạ để đổi về IP nội bộ. Basic NAT chủ yếu ánh xạ địa chỉ, có NAT tĩnh và động."
         },
         {
           "type": "point",
-          "ja": "NAT＝主にIPアドレス。NAPT＝IP＋ポート番号。",
-          "vi": "NAT = chủ yếu đổi IP; NAPT = đổi IP + số cổng."
+          "ja": "FEでは、IPアドレスだけを変換するNATと、ポート番号も変換して一つの外部IPを共有するNAPTを区別する。",
+          "vi": "Trong FE, cần phân biệt NAT đổi địa chỉ IP với NAPT đổi cả cổng để nhiều máy chia sẻ một IP ngoài."
+        },
+        {
+          "type": "example",
+          "ja": "内部10.0.0.10を外部203.0.113.10へ静的に対応付け、送受信パケットのIPアドレスを双方向に書き換える。",
+          "vi": "Ánh xạ tĩnh IP nội bộ 10.0.0.10 với IP ngoài 203.0.113.10 và sửa địa chỉ hai chiều trên gói."
+        },
+        {
+          "type": "warning",
+          "ja": "NATはアドレス変換であり、アクセス制御を目的とするファイアウォールとは別機能である。変換でIPヘッダが変わるため、一部プロトコルには追加処理が必要になる。",
+          "vi": "NAT là chuyển địa chỉ, khác firewall dùng kiểm soát truy cập. Vì sửa IP header, một số giao thức cần xử lý bổ sung."
         }
       ],
       "terms": [
@@ -1265,8 +1183,8 @@
           "reading": "なっと",
           "english": "Network Address Translation",
           "vi": "NAT",
-          "definitionJa": "プライベートIPアドレスとグローバルIPアドレスを変換する技術。",
-          "definitionVi": "Kỹ thuật chuyển đổi giữa địa chỉ IP riêng và địa chỉ IP toàn cục."
+          "definitionJa": "境界でIPアドレスを書き換え、内部と外部のアドレスを対応付ける技術。",
+          "definitionVi": "Kỹ thuật sửa địa chỉ IP tại ranh giới để ánh xạ địa chỉ nội bộ và bên ngoài."
         }
       ],
       "tags": ["security-implementation", "network-address-translation"]
@@ -1277,38 +1195,33 @@
       "titleJa": "NAPT",
       "titleVi": "NAPT",
       "importance": "high",
-      "summaryJa": "IPアドレスに加えてポート番号も変換し、複数端末で一つのグローバルIPアドレスを共有する。",
-      "summaryVi": "Chuyển đổi cả số cổng ngoài địa chỉ IP, cho phép nhiều thiết bị dùng chung một địa chỉ IP toàn cục.",
+      "summaryJa": "NAPTは、IPアドレスに加えてTCP/UDPポート番号も変換し、複数の内部端末を一つまたは少数のグローバルIPアドレスへ多重化する技術である。",
+      "summaryVi": "NAPT chuyển cả địa chỉ IP và cổng TCP/UDP để ghép nhiều thiết bị nội bộ dùng chung một hoặc vài địa chỉ IP toàn cục.",
       "content": [
         {
           "type": "heading",
-          "ja": "NAPTとは",
-          "vi": "NAPT là gì?"
+          "ja": "アドレスとポートの多重化",
+          "vi": "Ghép kênh bằng địa chỉ và cổng"
         },
         {
           "type": "paragraph",
-          "ja": "IPアドレスに加えてポート番号も変換し、複数端末で一つのグローバルIPアドレスを共有する。",
-          "vi": "Chuyển đổi cả số cổng ngoài địa chỉ IP, cho phép nhiều thiết bị dùng chung một địa chỉ IP toàn cục."
-        },
-        {
-          "type": "heading",
-          "ja": "仕組み・具体的な理解",
-          "vi": "Cơ chế và cách hiểu"
-        },
-        {
-          "type": "paragraph",
-          "ja": "IPアドレスとポート番号を変換し、複数端末で一つのグローバルIPを共有できる。",
-          "vi": "Đổi cả IP và số cổng để nhiều thiết bị dùng chung một IP global."
-        },
-        {
-          "type": "heading",
-          "ja": "FE試験ポイント",
-          "vi": "Điểm cần nhớ khi thi FE"
+          "ja": "外向き通信ごとに内部IP・内部ポートと外部IP・割当ポートの対応表を作る。戻りパケットは宛先ポートを手掛かりに元の端末へ転送される。IPマスカレードやPATと呼ばれる実装も同種である。",
+          "vi": "Mỗi kết nối ra tạo ánh xạ IP/cổng nội bộ với IP/cổng ngoài. Gói phản hồi dùng cổng đích để trở về đúng máy. IP masquerade hoặc PAT là cách gọi cùng nhóm cơ chế."
         },
         {
           "type": "point",
-          "ja": "「複数端末で1個のグローバルIPを共有」→ NAPT。",
-          "vi": "'Nhiều thiết bị dùng chung một IP global' → NAPT."
+          "ja": "FEでは、複数端末が一つのグローバルIPを共有できる理由が、ポート番号を含む対応表にあると理解する。",
+          "vi": "Trong FE, cần hiểu nhiều máy chia sẻ một IP toàn cục nhờ bảng ánh xạ có cả số cổng."
+        },
+        {
+          "type": "example",
+          "ja": "10.0.0.10:50000と10.0.0.20:50000を、それぞれ203.0.113.1:40001と:40002へ変換して同時通信させる。",
+          "vi": "Ánh xạ 10.0.0.10:50000 và 10.0.0.20:50000 lần lượt thành 203.0.113.1:40001 và :40002 để truyền đồng thời."
+        },
+        {
+          "type": "warning",
+          "ja": "外部から開始する通信は対応表がないため、そのままでは内部端末へ届かない。公開サービスには静的ポート転送などが必要で、NAPT自体を完全な防御機能とみなさない。",
+          "vi": "Kết nối khởi tạo từ ngoài không có ánh xạ nên không tự tới máy trong; dịch vụ công khai cần port forwarding tĩnh. Không coi NAPT là cơ chế phòng thủ hoàn chỉnh."
         }
       ],
       "terms": [
@@ -1317,8 +1230,8 @@
           "reading": "えぬえーぴーてぃー",
           "english": "Network Address Port Translation",
           "vi": "NAPT",
-          "definitionJa": "IPアドレスに加えてポート番号も変換し、複数端末で一つのグローバルIPアドレスを共有する。",
-          "definitionVi": "Chuyển đổi cả số cổng ngoài địa chỉ IP, cho phép nhiều thiết bị dùng chung một địa chỉ IP toàn cục."
+          "definitionJa": "IPアドレスとTCP/UDPポートを変換し、複数端末を少数の外部IPへ多重化する技術。",
+          "definitionVi": "Kỹ thuật chuyển IP và cổng TCP/UDP để nhiều thiết bị dùng chung một số ít IP bên ngoài."
         }
       ],
       "tags": ["security-implementation", "network-address-port-translation"]

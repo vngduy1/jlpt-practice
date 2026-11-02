@@ -11,23 +11,33 @@
       "titleJa": "JIS",
       "titleVi": "Tiêu chuẩn công nghiệp Nhật Bản",
       "importance": "high",
-      "summaryJa": "日本の産業における標準規格を指すものである。",
-      "summaryVi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ.",
+      "summaryJa": "JISは、産業標準化法に基づいて制定される日本の国家規格であり、製品・サービス・方法などの品質、安全性、互換性や情報伝達の共通基盤を整える。",
+      "summaryVi": "JIS là tiêu chuẩn quốc gia của Nhật Bản được xây dựng theo Luật Tiêu chuẩn hóa Công nghiệp, tạo nền tảng chung về chất lượng, an toàn, tính tương thích và trao đổi thông tin cho sản phẩm, dịch vụ và phương pháp.",
       "content": [
         {
           "type": "heading",
-          "ja": "JISとは",
-          "vi": "Tiêu chuẩn công nghiệp Nhật Bản là gì?"
+          "ja": "JISの役割",
+          "vi": "Vai trò của JIS"
         },
         {
           "type": "paragraph",
-          "ja": "日本の産業における標準規格を指すものである。この規格は、製品やサービスの品質、安全性、互換性を確保することを目的としており、商取引や技術の安定性を高める役割を果たす。例えば、電子機器や建材、自動車などに関する具体的な基準が定められており、企業はこの基準に従って製品を開発することで、消費者に安心して利用できる製品を提供できる。また、JISは国際的な規格とも密接に連携しており、グローバルな市場でも競争力を持つための基盤となっているため、重要な役割を担っている。",
-          "vi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ."
+          "ja": "JIS（日本産業規格）は、製品、サービス、試験方法、管理方法などについて、全国で共通に用いる仕様や評価方法を定める国家規格である。寸法や用語、試験条件を統一することで、異なる事業者の製品の互換性、品質の比較、正確な情報伝達を支える。規格番号は、JIS Xの「X」のような部門記号と分類番号で対象分野を示す。",
+          "vi": "JIS (日本産業規格) là tiêu chuẩn quốc gia quy định đặc tính kỹ thuật và phương pháp đánh giá dùng thống nhất trên toàn Nhật Bản cho sản phẩm, dịch vụ, phương pháp thử và phương pháp quản lý. Việc thống nhất kích thước, thuật ngữ và điều kiện thử giúp bảo đảm khả năng thay thế giữa sản phẩm của các nhà cung cấp, so sánh chất lượng và truyền đạt thông tin chính xác. Trong mã tiêu chuẩn, chữ cái như “X” trong JIS X biểu thị lĩnh vực, còn phần số xác định tiêu chuẩn cụ thể."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：JISの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "JIS là tiêu chuẩn; JISC là hội đồng tiêu chuẩn hóa; JSA là hiệp hội hỗ trợ tiêu chuẩn hóa."
+          "ja": "JISは規格そのもの、JISCは国の標準化政策やJIS案を審議する機関、JSAは規格の普及などを担う団体である。FEでは規格と組織を混同しない。",
+          "vi": "JIS là bản thân hệ thống tiêu chuẩn; JISC là hội đồng thẩm nghị chính sách tiêu chuẩn hóa và dự thảo JIS; JSA là tổ chức hỗ trợ xây dựng, phổ biến tiêu chuẩn. Trong FE cần phân biệt tiêu chuẩn với tổ chức."
+        },
+        {
+          "type": "example",
+          "ja": "例：複数メーカーが同じJISで定めた寸法・試験方法を採用すれば、利用者は部品を交換しやすく、性能も同じ条件で比較できる。",
+          "vi": "Ví dụ: khi nhiều nhà sản xuất áp dụng cùng kích thước và phương pháp thử do JIS quy định, người dùng dễ thay thế linh kiện và có thể so sánh hiệu năng trong cùng điều kiện."
+        },
+        {
+          "type": "warning",
+          "ja": "JISへの適合とJISマークの表示は同義ではない。JISマークは対象となる規格について認証を受けた場合に表示できる制度であり、すべてのJISに自動的に付くものではない。",
+          "vi": "Phù hợp với JIS không đồng nghĩa tự động được gắn dấu JIS. Dấu JIS chỉ được sử dụng khi đã được chứng nhận theo cơ chế áp dụng cho tiêu chuẩn tương ứng, không phải mọi tiêu chuẩn JIS đều mặc nhiên có dấu này."
         }
       ],
       "terms": [
@@ -35,8 +45,8 @@
           "term": "JIS",
           "english": "Japanese Industrial Standards",
           "vi": "Tiêu chuẩn công nghiệp Nhật Bản",
-          "definitionJa": "日本の産業における標準規格を指すものである。",
-          "definitionVi": "Hệ thống tiêu chuẩn công nghiệp Nhật Bản về chất lượng, an toàn và tính tương thích của sản phẩm, dịch vụ.",
+          "definitionJa": "産業標準化法に基づき、主務大臣が制定する日本の国家規格。",
+          "definitionVi": "Tiêu chuẩn quốc gia của Nhật Bản do bộ trưởng có thẩm quyền ban hành theo Luật Tiêu chuẩn hóa Công nghiệp.",
           "reading": "じす"
         }
       ],
@@ -48,23 +58,33 @@
       "titleJa": "JIS X部門",
       "titleVi": "Nhóm JIS X",
       "importance": "high",
-      "summaryJa": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。",
-      "summaryVi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin.",
+      "summaryJa": "JIS X部門は、JISのうち情報処理分野を扱う区分であり、文字コード、通信、ソフトウェア及びシステムのライフサイクルなどの規格を含む。",
+      "summaryVi": "JIS X là nhóm JIS về xử lý thông tin, bao gồm các tiêu chuẩn về mã ký tự, truyền thông, phần mềm và vòng đời hệ thống.",
       "content": [
         {
           "type": "heading",
-          "ja": "JIS X部門とは",
-          "vi": "Nhóm JIS X là gì?"
+          "ja": "情報処理を表す部門記号X",
+          "vi": "Ký hiệu lĩnh vực X cho xử lý thông tin"
         },
         {
           "type": "paragraph",
-          "ja": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。この部門は、コンピュータやソフトウェア、システムの設計・開発・運用に関する基準を詳細に示し、業界全体の品質向上を目的としている。例えば、データ交換のための規格やセキュリティ基準、プログラミング言語の仕様などが含まれる。これにより、異なるシステム間での互換性を確保し、スムーズな情報交換が可能になる。企業や組織がJIS Xの規格に従うことで、一貫した技術基準を持ち、より効率的な運用を実現することができる。",
-          "vi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin."
+          "ja": "JIS番号の先頭に付く部門記号Xは「情報処理」を表す。対象はプログラム言語、文字・文書処理、LANやデータ通信、ソフトウェア及びシステム工学などである。Xは規格の品質等級ではなく、どの技術分野に属するかを分類する記号である。",
+          "vi": "Chữ X ở đầu mã JIS biểu thị lĩnh vực “xử lý thông tin”. Phạm vi gồm ngôn ngữ lập trình, xử lý ký tự và tài liệu, LAN và truyền dữ liệu, kỹ nghệ phần mềm và hệ thống. X không phải cấp chất lượng mà chỉ là ký hiệu phân loại lĩnh vực kỹ thuật."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：JIS X部門の役割と関連する標準・団体との違いを押さえる。",
-          "vi": "JIS X gắn với CNTT; phân biệt với JIS Q liên quan hệ thống quản lý."
+          "ja": "JIS X 0160はソフトウェアライフサイクル、JIS X 0170はシステムライフサイクルを扱う。番号まで含めて初めて個別規格を特定できる。",
+          "vi": "JIS X 0160 đề cập vòng đời phần mềm, còn JIS X 0170 đề cập vòng đời hệ thống. Chỉ khi có cả chữ lĩnh vực và số mới xác định được một tiêu chuẩn cụ thể."
+        },
+        {
+          "type": "example",
+          "ja": "例：文字集合を扱うJIS X 0208と、ソフトウェアライフサイクルプロセスを扱うJIS X 0160は、内容は異なるがどちらも情報処理部門に属する。",
+          "vi": "Ví dụ: JIS X 0208 về bộ ký tự và JIS X 0160 về quy trình vòng đời phần mềm có nội dung khác nhau nhưng đều thuộc nhóm xử lý thông tin."
+        },
+        {
+          "type": "warning",
+          "ja": "「JIS X」だけでは一つの規格名ではない。X部門全体を指す場合と、JIS X 0160のような個別規格を指す場合を区別する。",
+          "vi": "“JIS X” tự nó không phải tên của một tiêu chuẩn duy nhất. Cần phân biệt toàn bộ nhóm X với một tiêu chuẩn cụ thể như JIS X 0160."
         }
       ],
       "terms": [
@@ -72,8 +92,8 @@
           "term": "JIS X部門",
           "english": "JIS X Sector",
           "vi": "Nhóm JIS X",
-          "definitionJa": "日本産業規格（JIS）の中で、情報処理に関連する規格を定めた部門である。",
-          "definitionVi": "Nhóm tiêu chuẩn JIS dành cho xử lý thông tin, phần mềm và công nghệ thông tin.",
+          "definitionJa": "日本産業規格において情報処理分野を示す部門区分。",
+          "definitionVi": "Nhóm phân loại biểu thị lĩnh vực xử lý thông tin trong hệ thống JIS.",
           "reading": "じすえっくすぶもん"
         }
       ],
@@ -85,23 +105,33 @@
       "titleJa": "JIS Q部門",
       "titleVi": "Nhóm JIS Q",
       "importance": "high",
-      "summaryJa": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。",
-      "summaryVi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin.",
+      "summaryJa": "JIS Q部門は、JISのうち管理システムなどを扱う区分であり、品質、環境、情報セキュリティなどのマネジメントシステム規格を含む。",
+      "summaryVi": "JIS Q là nhóm JIS về hệ thống quản lý, gồm các tiêu chuẩn quản lý chất lượng, môi trường, an toàn thông tin và các lĩnh vực liên quan.",
       "content": [
         {
           "type": "heading",
-          "ja": "JIS Q部門とは",
-          "vi": "Nhóm JIS Q là gì?"
+          "ja": "管理システムを表す部門記号Q",
+          "vi": "Ký hiệu lĩnh vực Q cho hệ thống quản lý"
         },
         {
           "type": "paragraph",
-          "ja": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。この規格は、ISO（国際標準化機構）の基準に基づいており、企業や組織が効果的に管理システムを構築するための手助けをする。例えば、ISO 9001は品質管理システムの規格であり、顧客の満足度を向上させるための方法論を提供する。また、ISO 14001は環境管理システムの規格で、環境への負荷を減らすための枠組みを提供する。これにより、企業は持続可能な発展を目指し、効率的な運営が可能となる。",
-          "vi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin."
+          "ja": "JIS番号の部門記号Qは「管理システム」を表す。組織が方針、目標、役割、手順、評価及び改善を体系的に管理するための規格が配置され、国際規格を日本の国家規格として整合採用したものも多い。製品の寸法を直接定める規格ではなく、組織の管理の仕組みに焦点を当てる。",
+          "vi": "Chữ Q trong mã JIS biểu thị “hệ thống quản lý”. Nhóm này gồm các tiêu chuẩn giúp tổ chức quản lý có hệ thống chính sách, mục tiêu, vai trò, quy trình, đánh giá và cải tiến; nhiều tiêu chuẩn là bản chấp nhận tương đương tiêu chuẩn quốc tế tại Nhật Bản. Trọng tâm là cơ chế quản lý của tổ chức, không phải quy định trực tiếp kích thước sản phẩm."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：JIS Q部門の役割と関連する標準・団体との違いを押さえる。",
-          "vi": "Ví dụ JIS Q 14001 về quản lý môi trường; JIS Q 27001 về quản lý an toàn thông tin."
+          "ja": "代表例は品質マネジメントのJIS Q 9001、環境マネジメントのJIS Q 14001、情報セキュリティマネジメントのJIS Q 27001である。",
+          "vi": "Ví dụ tiêu biểu: JIS Q 9001 về quản lý chất lượng, JIS Q 14001 về quản lý môi trường và JIS Q 27001 về quản lý an toàn thông tin."
+        },
+        {
+          "type": "example",
+          "ja": "例：工場が環境方針、環境目標、監視方法、内部監査、是正及び継続的改善の仕組みを構築するときは、JIS Q 14001の要求事項を参照する。",
+          "vi": "Ví dụ: khi nhà máy xây dựng chính sách môi trường, mục tiêu, cách theo dõi, đánh giá nội bộ, khắc phục và cải tiến liên tục, tổ chức tham chiếu các yêu cầu của JIS Q 14001."
+        },
+        {
+          "type": "warning",
+          "ja": "Qは「品質だけ」を意味しない。品質、環境、情報セキュリティなど、複数の管理システム分野を含む部門記号である。",
+          "vi": "Q không chỉ có nghĩa là “chất lượng”. Đây là ký hiệu nhóm bao gồm nhiều hệ thống quản lý như chất lượng, môi trường và an toàn thông tin."
         }
       ],
       "terms": [
@@ -109,8 +139,8 @@
           "term": "JIS Q部門",
           "english": "JIS Q Sector",
           "vi": "Nhóm JIS Q",
-          "definitionJa": "品質管理や環境管理などの各種マネジメントシステムを規定した日本産業規格の一部である。",
-          "definitionVi": "Nhóm tiêu chuẩn JIS về hệ thống quản lý như quản lý chất lượng, môi trường và an toàn thông tin.",
+          "definitionJa": "日本産業規格において管理システムなどの分野を示す部門区分。",
+          "definitionVi": "Nhóm phân loại trong JIS dành cho hệ thống quản lý và các nội dung liên quan.",
           "reading": "じすきゅーぶもん"
         }
       ],
@@ -196,23 +226,33 @@
       "titleJa": "IS",
       "titleVi": "Tiêu chuẩn quốc tế",
       "importance": "high",
-      "summaryJa": "国際的に合意されたルールや基準を指す用語である。",
-      "summaryVi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia.",
+      "summaryJa": "IS（International Standard）は、国際標準化機関の合意手続を経て発行され、各国で共通に利用できるようにした国際規格である。",
+      "summaryVi": "IS (International Standard) là tiêu chuẩn quốc tế được ban hành qua quy trình đồng thuận của tổ chức tiêu chuẩn hóa quốc tế để có thể sử dụng chung giữa các quốc gia.",
       "content": [
         {
           "type": "heading",
-          "ja": "ISとは",
-          "vi": "Tiêu chuẩn quốc tế là gì?"
+          "ja": "国際規格と標準化機関",
+          "vi": "Tiêu chuẩn quốc tế và tổ chức tiêu chuẩn hóa"
         },
         {
           "type": "paragraph",
-          "ja": "国際的に合意されたルールや基準を指す用語である。これらの規格は、製品やサービスの品質を保証し、国際的な取引や協力をスムーズにするための基盤を提供する。たとえば、電子機器の安全性や互換性に関する規格は、異なる国や企業間での製品交換を容易にし、消費者の安全を確保することに寄与する。また、ISに従うことで、企業は国際市場で競争力を高めることができ、技術の進歩や環境保護に対する取り組みを強化することも期待される。このように、ISは国際的なビジネスや技術の標準化において、重要な役割を果たしている。",
-          "vi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia."
+          "ja": "国際規格は、国境を越えて共通に使用する仕様、用語、試験方法、管理方法などを定める。製品やサービスの互換性を高め、重複した試験や技術的な貿易障壁を減らす基盤になる。ISO、IEC、ITUなどの機関が、それぞれの分野で専門家と加盟主体の合意を形成して規格を発行する。",
+          "vi": "Tiêu chuẩn quốc tế quy định đặc tính kỹ thuật, thuật ngữ, phương pháp thử hoặc phương pháp quản lý dùng chung vượt qua biên giới quốc gia. Chúng tạo nền tảng tăng khả năng tương thích, giảm thử nghiệm trùng lặp và giảm rào cản kỹ thuật trong thương mại. ISO, IEC, ITU và các tổ chức khác xây dựng đồng thuận giữa chuyên gia và thành viên trong từng lĩnh vực để ban hành tiêu chuẩn."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：ISの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "IS là tiêu chuẩn, còn ISO, IEC, ITU là các tổ chức tiêu chuẩn hóa."
+          "ja": "ISは「規格」、ISO・IEC・ITUは「規格を策定する機関」である。FEでは成果物と策定主体を対応付ける。",
+          "vi": "IS là “tiêu chuẩn”, còn ISO, IEC và ITU là “tổ chức xây dựng tiêu chuẩn”. Trong FE cần ghép đúng sản phẩm tiêu chuẩn hóa với chủ thể ban hành."
+        },
+        {
+          "type": "example",
+          "ja": "例：ある国際規格を日本が内容を整合させてJISとして採用すれば、国内の利用者も国際的に共通の要求事項や試験方法を参照できる。",
+          "vi": "Ví dụ: khi Nhật Bản chấp nhận một tiêu chuẩn quốc tế thành JIS với nội dung tương đương, người dùng trong nước có thể tham chiếu cùng yêu cầu và phương pháp thử được dùng quốc tế."
+        },
+        {
+          "type": "warning",
+          "ja": "国際規格は通常は任意規格であり、発行された時点で各国の法律になるわけではない。法令、契約、調達条件などから参照された場合は、その範囲で遵守が求められることがある。",
+          "vi": "Tiêu chuẩn quốc tế thường là tiêu chuẩn tự nguyện, không tự động trở thành luật của mỗi quốc gia khi được ban hành. Khi được viện dẫn trong pháp luật, hợp đồng hoặc điều kiện mua sắm, việc tuân thủ có thể trở thành bắt buộc trong phạm vi đó."
         }
       ],
       "terms": [
@@ -220,8 +260,8 @@
           "term": "IS",
           "english": "International Standards",
           "vi": "Tiêu chuẩn quốc tế",
-          "definitionJa": "国際的に合意されたルールや基準を指す用語である。",
-          "definitionVi": "Tiêu chuẩn được xây dựng thông qua cơ chế tiêu chuẩn hóa quốc tế để dùng thống nhất giữa các quốc gia.",
+          "definitionJa": "国際標準化機関が国際的な合意に基づいて発行する、各国で共通利用するための規格。",
+          "definitionVi": "Tiêu chuẩn do tổ chức tiêu chuẩn hóa quốc tế ban hành dựa trên đồng thuận để sử dụng chung giữa các quốc gia.",
           "reading": "あいえす"
         }
       ],
@@ -233,23 +273,33 @@
       "titleJa": "ISO",
       "titleVi": "Tổ chức Tiêu chuẩn hóa Quốc tế",
       "importance": "high",
-      "summaryJa": "国際的に通用する標準を策定するための組織である。",
-      "summaryVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001.",
+      "summaryJa": "ISOは、各国の標準化機関を会員として、幅広い分野の国際規格を策定する独立した非政府の国際組織である。",
+      "summaryVi": "ISO là tổ chức quốc tế độc lập, phi chính phủ, gồm các cơ quan tiêu chuẩn hóa quốc gia và xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực.",
       "content": [
         {
           "type": "heading",
-          "ja": "ISOとは",
-          "vi": "Tổ chức Tiêu chuẩn hóa Quốc tế là gì?"
+          "ja": "ISOの役割",
+          "vi": "Vai trò của ISO"
         },
         {
           "type": "paragraph",
-          "ja": "国際的に通用する標準を策定するための組織である。この機構は、製品やサービスの品質、信頼性、安全性など、さまざまな分野において標準を確立することを目的としている。例えば、ISO9001は品質管理に関する規格であり、多くの企業がこの規格を遵守することで、顧客に対して高品質な製品やサービスを提供することができる。また、ISO標準は国際的な取引やビジネスの一貫性を高め、異なる国や地域間の協力を促進する役割も果たしている。技術的な側面だけでなく、社会的な側面にも配慮した規格を制定することに重点を置いている。",
-          "vi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001."
+          "ja": "ISO（国際標準化機構）は、各国を代表する標準化機関が参加し、専門家の合意に基づいて国際規格を開発・発行する。品質、環境、情報技術、製造、サービスなど対象は広い。電気・電子技術を主に扱うIECや、電気通信を扱うITUと協力して共同規格を作る場合もある。",
+          "vi": "ISO (Tổ chức Tiêu chuẩn hóa Quốc tế) tập hợp các cơ quan tiêu chuẩn hóa đại diện cho từng quốc gia và phát triển, ban hành tiêu chuẩn quốc tế dựa trên đồng thuận chuyên gia. Phạm vi rộng, từ chất lượng, môi trường, CNTT đến sản xuất và dịch vụ. ISO cũng phối hợp với IEC về điện–điện tử và ITU về viễn thông để xây dựng tiêu chuẩn chung khi cần."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：ISOの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "ISO là tổ chức ban hành tiêu chuẩn, không trực tiếp cấp chứng nhận ISO cho doanh nghiệp."
+          "ja": "ISO 9001は品質マネジメントシステム、ISO 14001は環境マネジメントシステムの要求事項を定める。ISOは規格番号ごとの対象を区別して覚える。",
+          "vi": "ISO 9001 quy định yêu cầu của hệ thống quản lý chất lượng; ISO 14001 quy định yêu cầu của hệ thống quản lý môi trường. Cần nhớ đúng phạm vi theo từng mã tiêu chuẩn."
+        },
+        {
+          "type": "example",
+          "ja": "例：海外拠点を含む企業が同じISO規格を基準に業務手順や監査方法をそろえると、拠点間で評価の観点を共有しやすくなる。",
+          "vi": "Ví dụ: một doanh nghiệp có nhiều cơ sở ở các quốc gia khác nhau dùng cùng tiêu chuẩn ISO để thống nhất quy trình và cách đánh giá, nhờ đó các cơ sở chia sẻ được cùng tiêu chí kiểm soát."
+        },
+        {
+          "type": "warning",
+          "ja": "ISOは規格を策定するが、組織の認証や認証書の発行は行わない。認証は独立した認証機関が実施するため、「ISOが企業を認証する」という表現は誤りである。",
+          "vi": "ISO xây dựng tiêu chuẩn nhưng không chứng nhận tổ chức và không cấp chứng chỉ. Việc chứng nhận do tổ chức chứng nhận độc lập thực hiện, vì vậy nói “ISO chứng nhận doanh nghiệp” là sai."
         }
       ],
       "terms": [
@@ -257,8 +307,8 @@
           "term": "ISO",
           "english": "International Organization for Standardization",
           "vi": "Tổ chức Tiêu chuẩn hóa Quốc tế",
-          "definitionJa": "国際的に通用する標準を策定するための組織である。",
-          "definitionVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong nhiều lĩnh vực, chẳng hạn ISO 9001 và ISO 14001.",
+          "definitionJa": "各国の標準化機関を会員として国際規格を開発・発行する、独立した非政府の国際組織。",
+          "definitionVi": "Tổ chức quốc tế độc lập, phi chính phủ, gồm các cơ quan tiêu chuẩn hóa quốc gia và phát triển, ban hành tiêu chuẩn quốc tế.",
           "reading": "あいえすおー"
         }
       ],
@@ -299,11 +349,7 @@
           "reading": "こくさいにんしょう"
         }
       ],
-      "tags": [
-        "legal-affairs",
-        "standardization",
-        "international-certification"
-      ]
+      "tags": ["legal-affairs", "standardization", "international-certification"]
     },
     {
       "id": "itu",
@@ -311,23 +357,33 @@
       "titleJa": "ITU",
       "titleVi": "Liên minh Viễn thông Quốc tế",
       "importance": "high",
-      "summaryJa": "国際的な電気通信に関する制度を整備するための国際連合の機関である。",
-      "summaryVi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông.",
+      "summaryJa": "ITUは、電気通信及びICTを担当する国際連合の専門機関であり、無線通信、電気通信標準化、開発支援の三部門で活動する。",
+      "summaryVi": "ITU là cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và ICT, hoạt động qua ba lĩnh vực: thông tin vô tuyến, tiêu chuẩn hóa viễn thông và phát triển.",
       "content": [
         {
           "type": "heading",
-          "ja": "ITUとは",
-          "vi": "Liên minh Viễn thông Quốc tế là gì?"
+          "ja": "ITUの三つの部門",
+          "vi": "Ba lĩnh vực hoạt động của ITU"
         },
         {
           "type": "paragraph",
-          "ja": "国際的な電気通信に関する制度を整備するための国際連合の機関である。この組織は、世界中の国々が協力して通信技術の標準化や政策の策定を行うことを目的としている。例えば、国際的な電話網やインターネットの仕組みをより効率的かつ互換性のあるものにするための基準を設定している。また、通信の発展を支援するために、さまざまな技術情報の共有や、発展途上国への支援活動も行っている。世界中の通信事業者や政府機関、研究者が参加し、グローバルな発展を促進する重要な役割を果たしている。",
-          "vi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông."
+          "ja": "ITU（国際電気通信連合）は、世界的な通信網の相互接続を支える国連専門機関である。ITU-Rは無線周波数や衛星軌道などの無線通信、ITU-Tは電気通信技術の標準化と勧告、ITU-Dは情報通信基盤の発展支援を担当する。FEでは略称の末尾と役割を対応付ける。",
+          "vi": "ITU (Liên minh Viễn thông Quốc tế) là cơ quan chuyên môn của Liên Hợp Quốc hỗ trợ khả năng kết nối liên thông của mạng truyền thông toàn cầu. ITU-R phụ trách vô tuyến, gồm tần số và quỹ đạo vệ tinh; ITU-T xây dựng khuyến nghị và tiêu chuẩn kỹ thuật viễn thông; ITU-D hỗ trợ phát triển hạ tầng ICT. Trong FE cần ghép đúng hậu tố với chức năng."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：ITUの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "ITU-T tập trung tiêu chuẩn viễn thông; ITU-R liên quan thông tin vô tuyến."
+          "ja": "TはTelecommunication Standardization、RはRadiocommunication、DはDevelopmentを表す。通信規格の設問ではISOやIECとの分野の違いも確認する。",
+          "vi": "T là Telecommunication Standardization, R là Radiocommunication, D là Development. Khi gặp câu hỏi về tiêu chuẩn truyền thông, cũng cần phân biệt phạm vi của ITU với ISO và IEC."
+        },
+        {
+          "type": "example",
+          "ja": "例：国をまたぐ電話番号体系や通信網の相互接続に関する技術はITU-T、無線周波数の国際的な利用調整はITU-Rの領域として整理できる。",
+          "vi": "Ví dụ: kỹ thuật về hệ thống số điện thoại xuyên quốc gia và kết nối mạng thuộc phạm vi ITU-T; điều phối quốc tế việc sử dụng tần số vô tuyến thuộc ITU-R."
+        },
+        {
+          "type": "warning",
+          "ja": "ITU-TやITU-Rの文書は「勧告」と呼ばれるものが多く、すべてが各国で直ちに法的強制力をもつわけではない。規格の技術的役割と法令を区別する。",
+          "vi": "Nhiều tài liệu của ITU-T và ITU-R được gọi là “Khuyến nghị”; không phải tất cả đều lập tức có hiệu lực pháp lý tại mọi quốc gia. Cần phân biệt vai trò kỹ thuật của tiêu chuẩn với pháp luật."
         }
       ],
       "terms": [
@@ -335,8 +391,8 @@
           "term": "ITU",
           "english": "International Telecommunication Union",
           "vi": "Liên minh Viễn thông Quốc tế",
-          "definitionJa": "国際的な電気通信に関する制度を整備するための国際連合の機関である。",
-          "definitionVi": "Cơ quan chuyên môn của Liên Hợp Quốc về viễn thông và công nghệ thông tin truyền thông.",
+          "definitionJa": "電気通信及びICTを担当し、無線通信・標準化・開発支援を行う国際連合の専門機関。",
+          "definitionVi": "Cơ quan chuyên môn của Liên Hợp Quốc phụ trách viễn thông và ICT, gồm hoạt động vô tuyến, tiêu chuẩn hóa và hỗ trợ phát triển.",
           "reading": "あいてぃーゆう"
         }
       ],
@@ -348,23 +404,33 @@
       "titleJa": "IEC",
       "titleVi": "Ủy ban Kỹ thuật Điện Quốc tế",
       "importance": "high",
-      "summaryJa": "電気・電子・関連技術の国際規格を策定する組織である。",
-      "summaryVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan.",
+      "summaryJa": "IECは、電気・電子及び関連技術の国際規格を策定し、適合性評価の仕組みも運営する国際標準化機関である。",
+      "summaryVi": "IEC là tổ chức tiêu chuẩn hóa quốc tế xây dựng tiêu chuẩn cho công nghệ điện, điện tử và lĩnh vực liên quan, đồng thời vận hành các hệ thống đánh giá sự phù hợp.",
       "content": [
         {
           "type": "heading",
-          "ja": "IECとは",
-          "vi": "Ủy ban Kỹ thuật Điện Quốc tế là gì?"
+          "ja": "電気・電子分野の国際標準化",
+          "vi": "Tiêu chuẩn hóa quốc tế trong điện–điện tử"
         },
         {
           "type": "paragraph",
-          "ja": "電気・電子・関連技術の国際規格を策定する組織である。この機関は、世界中の専門家や企業が参加し、さまざまな電気機器やシステムに関する標準基準を作成することを目的としている。例えば、家庭用電化製品や工業用機器の安全性、性能、環境基準などを規定することで、製品の互換性や品質を向上させる役割を果たしている。また、IECの規格は国際的に広く受け入れられ、輸出入の際のバリアを低くし、技術の進展を支えている。これにより、消費者は安心して製品を使用でき、企業はグローバルマーケットでの競争力を高めることができる。",
-          "vi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan."
+          "ja": "IEC（国際電気標準会議）は、電気機器、電子部品、電力、電磁両立性、安全性などの国際規格を開発する。共通の安全要件、試験方法、インターフェースを定めることで、製品の安全な利用と国際的な相互運用を支える。情報技術などISOと領域が重なる分野では、ISO/IEC共同規格として発行されることがある。",
+          "vi": "IEC (Ủy ban Kỹ thuật Điện Quốc tế) phát triển tiêu chuẩn quốc tế cho thiết bị điện, linh kiện điện tử, năng lượng điện, tương thích điện từ và an toàn. Các yêu cầu an toàn, phương pháp thử và giao diện chung hỗ trợ sử dụng sản phẩm an toàn và liên thông quốc tế. Ở lĩnh vực giao thoa với ISO như CNTT, tiêu chuẩn có thể được ban hành chung dưới dạng ISO/IEC."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：IECの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "IEC: điện/điện tử; ISO: nhiều lĩnh vực; ITU: viễn thông."
+          "ja": "IECは電気・電子、ISOはそれ以外も含む広い分野、ITUは電気通信を中心に扱う。ISO/IEC 15408のような共同規格では両機関名が付く。",
+          "vi": "IEC tập trung điện–điện tử; ISO bao phủ nhiều lĩnh vực rộng hơn; ITU tập trung viễn thông. Tiêu chuẩn chung như ISO/IEC 15408 mang tên cả hai tổ chức."
+        },
+        {
+          "type": "example",
+          "ja": "例：各国のメーカーが同じIECの安全試験方法を用いれば、電気製品を同じ条件で評価し、試験結果を比較しやすくなる。",
+          "vi": "Ví dụ: khi các nhà sản xuất ở nhiều nước dùng cùng phương pháp thử an toàn của IEC, sản phẩm điện được đánh giá trong cùng điều kiện và kết quả dễ so sánh hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "ISO/IECという表記を一つの組織名と考えない。ISOとIECが共同で策定した規格であることを示す。",
+          "vi": "Không hiểu “ISO/IEC” là tên của một tổ chức duy nhất; ký hiệu này cho biết tiêu chuẩn được ISO và IEC cùng xây dựng."
         }
       ],
       "terms": [
@@ -372,8 +438,8 @@
           "term": "IEC",
           "english": "International Electrotechnical Commission",
           "vi": "Ủy ban Kỹ thuật Điện Quốc tế",
-          "definitionJa": "電気・電子・関連技術の国際規格を策定する組織である。",
-          "definitionVi": "Tổ chức xây dựng tiêu chuẩn quốc tế trong lĩnh vực điện, điện tử và công nghệ liên quan.",
+          "definitionJa": "電気・電子及び関連技術の国際規格を開発する国際標準化機関。",
+          "definitionVi": "Tổ chức tiêu chuẩn hóa quốc tế phát triển tiêu chuẩn cho công nghệ điện, điện tử và các lĩnh vực liên quan.",
           "reading": "あいいーしー"
         }
       ],
@@ -385,23 +451,33 @@
       "titleJa": "IETF",
       "titleVi": "Nhóm đặc trách kỹ thuật Internet",
       "importance": "high",
-      "summaryJa": "インターネットの技術や標準を策定するための国際的な組織である。",
-      "summaryVi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet.",
+      "summaryJa": "IETFは、インターネット技術の設計、運用及び標準化を、開かれた参加と技術的合意によって進める国際的な技術コミュニティである。",
+      "summaryVi": "IETF là cộng đồng kỹ thuật quốc tế, mở, phát triển thiết kế, vận hành và tiêu chuẩn Internet dựa trên thảo luận và đồng thuận kỹ thuật.",
       "content": [
         {
           "type": "heading",
-          "ja": "IETFとは",
-          "vi": "Nhóm đặc trách kỹ thuật Internet là gì?"
+          "ja": "インターネット標準とRFC",
+          "vi": "Tiêu chuẩn Internet và RFC"
         },
         {
           "type": "paragraph",
-          "ja": "インターネットの技術や標準を策定するための国際的な組織である。この組織は、様々な分野の専門家が集まり、インターネットプロトコルや技術の改善、開発を行うことを目的としている。例えば、IETFは新しいネットワークプロトコルや仕様書を作成し、これに基づいてインターネットの機能向上を図る。特に、RFC（Request for Comments）という文書を通じて、技術的なアイデアや提案が共有され、広く意見を募る仕組みがある。IETFの活動は、インターネットの普及や安全性、効率性を高めるために重要な役割を果たしており、ユーザーや企業にとっても大きな影響を与えている。",
-          "vi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet."
+          "ja": "IETF（Internet Engineering Task Force）は、企業や国家の代表資格ではなく、個人として参加する専門家がワーキンググループでインターネット技術を検討するコミュニティである。提案はInternet-Draftとして議論され、合意と審査を経た文書はRFCとして公開される。標準化の中心は、異なる実装が相互接続できる明確なプロトコル仕様である。",
+          "vi": "IETF (Internet Engineering Task Force) là cộng đồng nơi chuyên gia tham gia với tư cách cá nhân, không phải đoàn đại diện doanh nghiệp hay quốc gia, để thảo luận công nghệ Internet trong các nhóm làm việc. Đề xuất được thảo luận dưới dạng Internet-Draft; tài liệu đạt đồng thuận và qua thẩm định được công bố thành RFC. Trọng tâm tiêu chuẩn hóa là đặc tả giao thức đủ rõ để các triển khai khác nhau kết nối được."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：IETFの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "IETF gắn với RFC và các giao thức Internet; phân biệt W3C về Web."
+          "ja": "IETFはIP、TCP、HTTPなどインターネットプロトコルの仕様と深く関係する。Webコンテンツの仕様を扱うW3Cとは主対象が異なる。",
+          "vi": "IETF gắn chặt với đặc tả các giao thức Internet như IP, TCP và HTTP. Phạm vi chính khác W3C, tổ chức tập trung vào tiêu chuẩn nội dung và nền tảng Web."
+        },
+        {
+          "type": "example",
+          "ja": "例：新しい通信プロトコルを複数ベンダーが相互運用できる形にするには、メッセージ形式や処理手順をInternet-Draftで検討し、合意後にRFCとして公開する。",
+          "vi": "Ví dụ: để một giao thức truyền thông mới có thể liên thông giữa nhiều nhà cung cấp, định dạng thông điệp và trình tự xử lý được thảo luận trong Internet-Draft rồi công bố dưới dạng RFC sau khi đạt đồng thuận."
+        },
+        {
+          "type": "warning",
+          "ja": "RFCは文書シリーズの名称であり、すべてのRFCがInternet Standardではない。Standards Trackのほか、Informational、Experimentalなど標準ではない分類もある。",
+          "vi": "RFC là tên của một chuỗi tài liệu; không phải mọi RFC đều là Internet Standard. Ngoài Standards Track còn có các loại không phải tiêu chuẩn như Informational và Experimental."
         }
       ],
       "terms": [
@@ -409,8 +485,8 @@
           "term": "IETF",
           "english": "Internet Engineering Task Force",
           "vi": "Nhóm đặc trách kỹ thuật Internet",
-          "definitionJa": "インターネットの技術や標準を策定するための国際的な組織である。",
-          "definitionVi": "Cộng đồng kỹ thuật phát triển và chuẩn hóa các giao thức, cơ chế vận hành Internet.",
+          "definitionJa": "インターネットプロトコルの技術仕様と標準を、公開された参加・合意プロセスで策定するコミュニティ。",
+          "definitionVi": "Cộng đồng xây dựng đặc tả và tiêu chuẩn giao thức Internet qua quy trình tham gia và đồng thuận mở.",
           "reading": "あいいーてぃーえふ"
         }
       ],
@@ -459,23 +535,33 @@
       "titleJa": "IEEE",
       "titleVi": "Hiệp hội Kỹ sư Điện và Điện tử",
       "importance": "high",
-      "summaryJa": "電気・電子に関する技術の発展を促進するための国際的な学会である。",
-      "summaryVi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính.",
+      "summaryJa": "IEEEは、電気・電子・コンピュータ分野の専門家団体であり、IEEE Standards Associationを通じて国際的に利用される技術標準を策定する。",
+      "summaryVi": "IEEE là hiệp hội nghề nghiệp trong điện, điện tử và máy tính, xây dựng nhiều tiêu chuẩn kỹ thuật được dùng quốc tế thông qua IEEE Standards Association.",
       "content": [
         {
           "type": "heading",
-          "ja": "IEEEとは",
-          "vi": "Hiệp hội Kỹ sư Điện và Điện tử là gì?"
+          "ja": "IEEEの標準化活動",
+          "vi": "Hoạt động tiêu chuẩn hóa của IEEE"
         },
         {
           "type": "paragraph",
-          "ja": "電気・電子に関する技術の発展を促進するための国際的な学会である。この団体は、エンジニアや研究者が集まり、新しい技術や基準を制定し、業界の発展に寄与している。特に通信、コンピュータ技術、ロボティクスなどの分野で多くの規格を策定しており、これにより製品の相互運用性や安全性が向上する。例えば、Wi-FiやBluetoothなどの無線通信技術も、IEEEが制定した標準に基づいている。これにより、異なるメーカーのデバイス同士がスムーズに連携できるようになっている。技術者にとって欠かせない学術的なプラットフォームとして、継続的な革新を支えている。",
-          "vi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính."
+          "ja": "IEEE（Institute of Electrical and Electronics Engineers）は、研究発表、専門家交流に加えて技術標準を策定する。IEEE 802委員会はLAN/MAN関連規格を扱い、802.3はEthernet、802.11は無線LANを規定する。また、IEEE 754は浮動小数点演算の形式や処理を規定する。規格番号と技術を対応付けることがFEで重要である。",
+          "vi": "IEEE (Institute of Electrical and Electronics Engineers) vừa hỗ trợ công bố nghiên cứu và trao đổi chuyên môn, vừa xây dựng tiêu chuẩn kỹ thuật. Ủy ban IEEE 802 phụ trách các tiêu chuẩn LAN/MAN: 802.3 quy định Ethernet và 802.11 quy định mạng LAN không dây. IEEE 754 quy định định dạng và phép toán số dấu phẩy động. Trong FE cần ghép đúng mã tiêu chuẩn với công nghệ."
         },
         {
           "type": "point",
-          "ja": "Bluetoothの標準化主体はBluetooth SIGです。IEEEがすべてのBluetooth仕様を策定するわけではありません。 試験対策：IEEEと関連規格・機関の役割を区別する。",
-          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: IEEE 802.3: Ethernet; IEEE 802.11: WLAN/Wi-Fi; Bluetooth liên quan IEEE 802.15.1 lịch sử nhưng không phải mọi chuẩn Bluetooth do IEEE ban hành."
+          "ja": "IEEE 802.3＝Ethernet、IEEE 802.11＝無線LAN、IEEE 754＝浮動小数点演算という対応を押さえる。",
+          "vi": "Cần nhớ các cặp: IEEE 802.3 = Ethernet, IEEE 802.11 = LAN không dây, IEEE 754 = phép toán dấu phẩy động."
+        },
+        {
+          "type": "example",
+          "ja": "例：異なるメーカーの有線LAN機器がIEEE 802.3に準拠すれば、共通のMAC及び物理層仕様に基づいて相互接続できる。",
+          "vi": "Ví dụ: thiết bị LAN có dây của nhiều hãng tuân theo IEEE 802.3 có thể kết nối với nhau dựa trên đặc tả MAC và tầng vật lý chung."
+        },
+        {
+          "type": "warning",
+          "ja": "IEEE 802.11は無線LANの技術規格だが、Wi-Fiの相互接続認証はWi-Fi Allianceが行う。また、Bluetooth仕様の策定主体はBluetooth SIGであり、IEEEと同一ではない。",
+          "vi": "IEEE 802.11 là tiêu chuẩn kỹ thuật LAN không dây, còn chứng nhận tương thích Wi-Fi do Wi-Fi Alliance thực hiện. Đặc tả Bluetooth do Bluetooth SIG xây dựng, không phải chính IEEE."
         }
       ],
       "terms": [
@@ -483,8 +569,8 @@
           "term": "IEEE",
           "english": "Institute of Electrical and Electronics Engineers",
           "vi": "Hiệp hội Kỹ sư Điện và Điện tử",
-          "definitionJa": "電気・電子に関する技術の発展を促進するための国際的な学会である。",
-          "definitionVi": "Tổ chức nghề nghiệp và tiêu chuẩn hóa trong kỹ thuật điện, điện tử và máy tính.",
+          "definitionJa": "電気・電子・コンピュータ分野の研究・専門活動及び技術標準化を行う国際的な専門家団体。",
+          "definitionVi": "Hiệp hội nghề nghiệp quốc tế hoạt động trong nghiên cứu, chuyên môn và tiêu chuẩn hóa kỹ thuật điện, điện tử và máy tính.",
           "reading": "あいとりぷるいー"
         }
       ],
@@ -496,23 +582,33 @@
       "titleJa": "W3C",
       "titleVi": "Liên minh World Wide Web",
       "importance": "high",
-      "summaryJa": "Web技術の標準化を促進するための国際的な団体である。",
-      "summaryVi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web.",
+      "summaryJa": "W3Cは、相互運用可能でアクセシブルなWebを実現するため、CSSやWCAGなどのWeb標準を公開プロセスで策定する国際的な標準化団体である。",
+      "summaryVi": "W3C là tổ chức tiêu chuẩn hóa quốc tế xây dựng các tiêu chuẩn Web như CSS và WCAG qua quy trình mở nhằm bảo đảm khả năng tương tác và khả năng tiếp cận.",
       "content": [
         {
           "type": "heading",
-          "ja": "W3Cとは",
-          "vi": "Liên minh World Wide Web là gì?"
+          "ja": "Web技術の相互運用性",
+          "vi": "Khả năng tương tác của công nghệ Web"
         },
         {
           "type": "paragraph",
-          "ja": "Web技術の標準化を促進するための国際的な団体である。この団体は、Webの発展に寄与するために、さまざまな技術やプロトコルの規則を策定している。たとえば、HTMLやCSSなどのWebページを作成するための基本的な言語や、アクセシビリティの基準を定めていることが挙げられる。W3Cが策定した標準に従うことで、Webサイトやアプリケーションは異なるブラウザやデバイスでも一貫して表示され、ユーザーにとっての利便性が向上する。これにより、開発者はより良いインターネット環境を提供できるようになるため、W3Cの活動はWebのエコシステムにとって極めて重要である。",
-          "vi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web."
+          "ja": "W3C（World Wide Web Consortium）は、ブラウザ、開発者、利用者が共通に参照できるWeb技術仕様を策定する。CSS、DOM、アクセシビリティ指針であるWCAGなどが代表例で、成熟した仕様はW3C Recommendationとして公開される。共通仕様は、異なるブラウザや支援技術でWebコンテンツを利用できる基盤になる。",
+          "vi": "W3C (World Wide Web Consortium) xây dựng đặc tả công nghệ Web để trình duyệt, nhà phát triển và người dùng cùng tham chiếu. Ví dụ tiêu biểu gồm CSS, DOM và WCAG về khả năng tiếp cận; đặc tả trưởng thành được công bố dưới dạng W3C Recommendation. Đặc tả chung tạo nền tảng để nội dung Web hoạt động trên nhiều trình duyệt và công nghệ hỗ trợ."
         },
         {
           "type": "point",
-          "ja": "HTML Living Standardの維持主体はWHATWGです。 試験対策：W3Cと関連規格・機関の役割を区別する。",
-          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: W3C liên quan Web; IETF liên quan giao thức Internet. HTML hiện được WHATWG duy trì như Living Standard."
+          "ja": "IETFはインターネットの通信プロトコル、W3CはWebプラットフォームやアクセシビリティの仕様を主に扱う。ネットワークとWebを分けて整理する。",
+          "vi": "IETF chủ yếu xử lý giao thức truyền thông Internet; W3C chủ yếu xử lý nền tảng Web và đặc tả khả năng tiếp cận. Cần phân biệt lớp mạng với Web."
+        },
+        {
+          "type": "example",
+          "ja": "例：開発者がCSSのW3C仕様に沿ってスタイルを記述すれば、複数のブラウザが同じプロパティの意味を共有し、一貫した表示を実装しやすい。",
+          "vi": "Ví dụ: khi lập trình viên viết kiểu trình bày theo đặc tả CSS của W3C, nhiều trình duyệt có thể hiểu cùng ý nghĩa của thuộc tính và dễ triển khai hiển thị nhất quán."
+        },
+        {
+          "type": "warning",
+          "ja": "現在のHTML Living Standardの維持主体はWHATWGである。W3Cを「現在のHTML仕様を単独で維持する団体」と断定せず、CSSやWCAGなどを含むWeb標準化全体の役割で理解する。",
+          "vi": "HTML Living Standard hiện do WHATWG duy trì. Không nên khẳng định W3C là tổ chức duy nhất duy trì đặc tả HTML hiện hành; hãy hiểu vai trò rộng hơn của W3C trong tiêu chuẩn Web, gồm CSS và WCAG."
         }
       ],
       "terms": [
@@ -520,8 +616,8 @@
           "term": "W3C",
           "english": "World Wide Web Consortium",
           "vi": "Liên minh World Wide Web",
-          "definitionJa": "Web技術の標準化を促進するための国際的な団体である。",
-          "definitionVi": "Tổ chức xây dựng và thúc đẩy tiêu chuẩn cho Web, như CSS và hướng dẫn tiếp cận Web.",
+          "definitionJa": "Webの相互運用性、アクセシビリティ及び長期的発展のための技術仕様を策定する国際的な標準化団体。",
+          "definitionVi": "Tổ chức tiêu chuẩn hóa quốc tế xây dựng đặc tả kỹ thuật cho khả năng tương tác, khả năng tiếp cận và phát triển lâu dài của Web.",
           "reading": "だぶるすりーしー"
         }
       ],
@@ -570,23 +666,33 @@
       "titleJa": "デジュレスタンダード",
       "titleVi": "Tiêu chuẩn chính thức",
       "importance": "high",
-      "summaryJa": "正式に認められた基準や規格のことである。",
-      "summaryVi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành.",
+      "summaryJa": "デジュレスタンダードは、法律上又は公的な標準化手続を経て、標準化機関によって正式に制定・承認された規格である。",
+      "summaryVi": "De jure standard là tiêu chuẩn được cơ quan tiêu chuẩn hóa chính thức ban hành hoặc công nhận qua thủ tục pháp lý hay thủ tục tiêu chuẩn hóa chính thức.",
       "content": [
         {
           "type": "heading",
-          "ja": "デジュレスタンダードとは",
-          "vi": "Tiêu chuẩn chính thức là gì?"
+          "ja": "デジュレとデファクト",
+          "vi": "Tiêu chuẩn de jure và de facto"
         },
         {
           "type": "paragraph",
-          "ja": "正式に認められた基準や規格のことである。これは特定の機関や団体によって制定され、法律や規則に基づいて機能することが特徴である。つまり、製品やサービスがこの基準に従っていることが求められる。例えば、国際的な規格を制定するISO（国際標準化機構）によって定められる規格がデジュレスタンダードに該当する。これに対して、実際に広く使われているが正式には認められていない基準はデファクトスタンダードと呼ばれる。業界の信頼性や互換性を高め、消費者や企業が安心して製品を利用できる環境を整える役割を果たしている。",
-          "vi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành."
+          "ja": "デジュレスタンダードは、ISO、IEC、JISなど、認められた標準化機関の正式な審議・承認手続によって成立する規格である。これに対し、デファクトスタンダードは、市場競争や普及の結果として事実上広く使われるようになった仕様や製品を指す。成立の根拠が「正式な手続」か「市場での普及」かが区別の軸になる。",
+          "vi": "De jure standard được hình thành qua quy trình thẩm nghị và phê duyệt chính thức của tổ chức tiêu chuẩn hóa được công nhận như ISO, IEC hay hệ thống JIS. Ngược lại, de facto standard là đặc tả hoặc sản phẩm trở thành chuẩn trên thực tế nhờ cạnh tranh và mức độ phổ biến trên thị trường. Điểm phân biệt là “thủ tục chính thức” hay “sự phổ biến thực tế”."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：デジュレスタンダードの役割と関連する標準・団体との違いを押さえる。",
-          "vi": "De jure khác de facto: de facto phổ biến nhờ sử dụng thực tế, không nhất thiết được công nhận chính thức."
+          "ja": "デジュレ＝公的・公式な手続で制定、デファクト＝市場で事実上普及、フォーラム標準＝複数企業などの団体で合意、という成立過程を比較する。",
+          "vi": "Hãy so sánh quá trình hình thành: de jure = ban hành qua thủ tục công nhận chính thức; de facto = phổ biến thực tế trên thị trường; forum standard = thống nhất trong một liên minh hoặc diễn đàn doanh nghiệp."
+        },
+        {
+          "type": "example",
+          "ja": "例：JISやISO規格は正式な標準化手続を経るためデジュレスタンダードの例となる。一方、特定製品の圧倒的な普及によって互換仕様が事実上の標準になる場合はデファクトである。",
+          "vi": "Ví dụ: JIS và tiêu chuẩn ISO là de jure vì trải qua thủ tục tiêu chuẩn hóa chính thức. Nếu một đặc tả tương thích trở thành chuẩn do một sản phẩm áp đảo thị trường thì đó là de facto."
+        },
+        {
+          "type": "warning",
+          "ja": "デジュレスタンダードだから必ず法的強制力があるとは限らない。規格自体は任意でも、法令、契約、調達条件に引用されると、その範囲で遵守が必要になる場合がある。",
+          "vi": "De jure không có nghĩa mọi trường hợp đều bắt buộc theo pháp luật. Bản thân tiêu chuẩn có thể tự nguyện, nhưng khi được viện dẫn trong luật, hợp đồng hoặc điều kiện mua sắm thì có thể phải tuân thủ trong phạm vi đó."
         }
       ],
       "terms": [
@@ -594,9 +700,9 @@
           "term": "デジュレスタンダード",
           "english": "De Jure Standard",
           "vi": "Tiêu chuẩn chính thức",
-          "definitionJa": "正式に認められた基準や規格のことである。",
-          "definitionVi": "Tiêu chuẩn được cơ quan hoặc tổ chức tiêu chuẩn hóa chính thức thừa nhận và ban hành.",
-          "reading": ""
+          "definitionJa": "認められた標準化機関の正式な手続によって制定又は承認された標準。",
+          "definitionVi": "Tiêu chuẩn được ban hành hoặc phê duyệt qua quy trình chính thức của một tổ chức tiêu chuẩn hóa được công nhận.",
+          "reading": "でじゅれすたんだーど"
         }
       ],
       "tags": ["legal-affairs", "standardization", "de-jure-standard"]
@@ -644,23 +750,33 @@
       "titleJa": "JIS X 0160",
       "titleVi": "JIS X 0160",
       "importance": "high",
-      "summaryJa": "日本で制定された標準化の一つである。",
-      "summaryVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207.",
+      "summaryJa": "JIS X 0160は、ソフトウェアライフサイクルプロセスの共通的な枠組みと用語を規定し、取得、供給、開発、運用、保守などの活動を整理する規格である。",
+      "summaryVi": "JIS X 0160 quy định khung và thuật ngữ chung cho các quy trình vòng đời phần mềm, sắp xếp các hoạt động như mua sắm, cung cấp, phát triển, vận hành và bảo trì.",
       "content": [
         {
           "type": "heading",
-          "ja": "JIS X 0160とは",
-          "vi": "JIS X 0160 là gì?"
+          "ja": "ソフトウェアライフサイクルの共通枠組み",
+          "vi": "Khung chung cho vòng đời phần mềm"
         },
         {
           "type": "paragraph",
-          "ja": "日本で制定された標準化の一つである。この標準は、主に開発プロセスや取引プロセスの効率化を目的としている。具体的には、ソフトウェアやシステムの開発における要件定義や設計、テストなどの各ステージにおける方法論や記述形式を定めている。例えば、標準に従うことで、チーム間のコミュニケーションや情報共有がスムーズになり、品質の向上やコストの削減が促進される。また、国際的な基準と整合性を持たせることで、海外との取引や協力を行う際にも有利に働くことが期待されている。しっかりとした基準を持つことで、開発の効率化と信頼性を高めることが可能である。",
-          "vi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207."
+          "ja": "JIS X 0160は、ソフトウェアの構想から廃止までに関係する組織が、必要なライフサイクルプロセスを共通の用語で選択・適用できるようにする。取得、供給、開発、運用、保守、支援、管理などのプロセスについて、目的や成果を体系化する。ISO/IEC/IEEE 12207に対応する日本産業規格である。",
+          "vi": "JIS X 0160 giúp các tổ chức liên quan từ ý tưởng đến loại bỏ phần mềm lựa chọn và áp dụng quy trình vòng đời bằng thuật ngữ chung. Tiêu chuẩn hệ thống hóa mục đích và kết quả của các quy trình như mua sắm, cung cấp, phát triển, vận hành, bảo trì, hỗ trợ và quản lý. Đây là JIS tương ứng với ISO/IEC/IEEE 12207."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：JIS X 0160の役割と関連する標準・団体との違いを押さえる。",
-          "vi": "JIS X 0160: vòng đời phần mềm; JIS X 0170: vòng đời hệ thống."
+          "ja": "JIS X 0160はソフトウェア、JIS X 0170はソフトウェアを含み得る「システム」全体のライフサイクルプロセスを扱う。対象範囲を区別する。",
+          "vi": "JIS X 0160 tập trung phần mềm; JIS X 0170 tập trung toàn bộ hệ thống, trong đó có thể bao gồm phần mềm. Cần phân biệt phạm vi đối tượng."
+        },
+        {
+          "type": "example",
+          "ja": "例：発注者と受注者が、要求分析、設計、実装、検証、運用、保守で誰がどの成果を担うかを合意するとき、JIS X 0160のプロセス枠組みを共通語として利用できる。",
+          "vi": "Ví dụ: khi bên đặt hàng và bên nhận thầu thống nhất ai chịu trách nhiệm về kết quả ở các bước phân tích yêu cầu, thiết kế, cài đặt, kiểm chứng, vận hành và bảo trì, họ có thể dùng khung quy trình JIS X 0160 làm ngôn ngữ chung."
+        },
+        {
+          "type": "warning",
+          "ja": "この規格は一つの逐次型開発手法や固定された工程順序を強制するものではない。プロジェクトの状況に応じてプロセスを選択し、テーラリングして適用する。",
+          "vi": "Tiêu chuẩn không bắt buộc một phương pháp phát triển tuần tự hay một thứ tự công đoạn cố định. Các quy trình được lựa chọn và điều chỉnh để phù hợp hoàn cảnh dự án."
         }
       ],
       "terms": [
@@ -668,8 +784,8 @@
           "term": "JIS X 0160",
           "english": "Japanese Industrial Standards X 0160",
           "vi": "JIS X 0160",
-          "definitionJa": "日本で制定された標準化の一つである。",
-          "definitionVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời phần mềm, tương ứng bộ tiêu chuẩn quốc tế liên quan ISO/IEC 12207.",
+          "definitionJa": "ソフトウェアライフサイクルプロセスの共通的な枠組みを規定し、ISO/IEC/IEEE 12207に対応するJIS。",
+          "definitionVi": "JIS quy định khung chung cho quy trình vòng đời phần mềm, tương ứng ISO/IEC/IEEE 12207.",
           "reading": "じすえっくす0160"
         }
       ],
@@ -681,23 +797,33 @@
       "titleJa": "JIS X 0170",
       "titleVi": "JIS X 0170",
       "importance": "high",
-      "summaryJa": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。",
-      "summaryVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288.",
+      "summaryJa": "JIS X 0170は、人が作り出すシステムについて、構想から廃止までのシステムライフサイクルプロセスと共通用語を規定する規格である。",
+      "summaryVi": "JIS X 0170 quy định các quy trình và thuật ngữ chung cho vòng đời của hệ thống do con người tạo ra, từ hình thành ý tưởng đến loại bỏ.",
       "content": [
         {
           "type": "heading",
-          "ja": "JIS X 0170とは",
-          "vi": "JIS X 0170 là gì?"
+          "ja": "システムライフサイクルプロセス",
+          "vi": "Quy trình vòng đời hệ thống"
         },
         {
           "type": "paragraph",
-          "ja": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。この規格は、企業間やシステム間での情報のやり取りを円滑にするために設けられており、共通のルールや手法を提供することで、効率を向上させる役割を果たす。例えば、調達や請求書の発行といった取引プロセスに関する具体的なフォーマットや手順が定められており、これにより異なるシステムを使用している企業間でもスムーズな連携が可能となる。このように、JIS X 0170はビジネスのデジタル化を促進し、業務を最適化するために非常に重要な規格である。",
-          "vi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288."
+          "ja": "JIS X 0170は、対象システム、システム要素及びシステム・オブ・システムズに適用できるライフサイクルプロセスの共通枠組みを定める。利害関係者のニーズ、要求事項、アーキテクチャ、統合、検証、妥当性確認、移行、運用、保守、廃棄などを、組織横断で扱うためのプロセスと用語を提供する。ISO/IEC/IEEE 15288に対応する。",
+          "vi": "JIS X 0170 quy định khung chung cho các quy trình vòng đời có thể áp dụng cho hệ thống mục tiêu, phần tử hệ thống và hệ thống của các hệ thống. Tiêu chuẩn cung cấp quy trình và thuật ngữ để nhiều tổ chức cùng xử lý nhu cầu của bên liên quan, yêu cầu, kiến trúc, tích hợp, kiểm chứng, xác nhận, chuyển giao, vận hành, bảo trì và loại bỏ. Tiêu chuẩn tương ứng ISO/IEC/IEEE 15288."
         },
         {
           "type": "point",
-          "ja": "原文は取引帳票の標準化として説明していますが、JIS X 0170の中心はシステムライフサイクルプロセスです。 試験対策：JIS X 0170と関連規格・機関の役割を区別する。",
-          "vi": "Lưu ý nội dung nguồn có điểm chưa chính xác: Nguồn mô tả nhầm sang định dạng hóa đơn và giao dịch; cần nhớ trọng tâm là vòng đời hệ thống."
+          "ja": "0160＝ソフトウェアライフサイクル、0170＝システムライフサイクルである。システムにはハードウェア、ソフトウェア、人、手順などを含み得る。",
+          "vi": "0160 = vòng đời phần mềm; 0170 = vòng đời hệ thống. Một hệ thống có thể bao gồm phần cứng, phần mềm, con người và quy trình."
+        },
+        {
+          "type": "example",
+          "ja": "例：交通管制システムでは、ソフトウェアだけでなく、センサー、通信設備、運用者、保守体制まで含め、構想・開発・運用・廃棄を通したプロセスをJIS X 0170で整理できる。",
+          "vi": "Ví dụ: với hệ thống điều khiển giao thông, không chỉ phần mềm mà cả cảm biến, thiết bị truyền thông, người vận hành và cơ chế bảo trì đều có thể được tổ chức theo JIS X 0170 xuyên suốt từ ý tưởng, phát triển, vận hành đến loại bỏ."
+        },
+        {
+          "type": "warning",
+          "ja": "JIS X 0170は請求書形式や企業間取引データの規格ではない。中心はシステムのライフサイクル全体にわたるプロセスである。",
+          "vi": "JIS X 0170 không phải tiêu chuẩn về định dạng hóa đơn hay dữ liệu giao dịch doanh nghiệp. Trọng tâm là các quy trình xuyên suốt toàn bộ vòng đời hệ thống."
         }
       ],
       "terms": [
@@ -705,8 +831,8 @@
           "term": "JIS X 0170",
           "english": "JIS X 0170",
           "vi": "JIS X 0170",
-          "definitionJa": "情報処理に関する標準規格の一つであり、特に取引プロセスと開発プロセスの標準化を目的としている。",
-          "definitionVi": "Tiêu chuẩn Nhật Bản về các quá trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288.",
+          "definitionJa": "システムライフサイクルプロセスの共通枠組みを規定し、ISO/IEC/IEEE 15288に対応するJIS。",
+          "definitionVi": "JIS quy định khung chung cho quy trình vòng đời hệ thống, tương ứng ISO/IEC/IEEE 15288.",
           "reading": "じすえっくす0170"
         }
       ],
@@ -718,23 +844,33 @@
       "titleJa": "ISO 14000",
       "titleVi": "Bộ tiêu chuẩn ISO 14000",
       "importance": "high",
-      "summaryJa": "環境マネジメントのための国際的な標準規格群である。",
-      "summaryVi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường.",
+      "summaryJa": "ISO 14000は、環境マネジメントを支える国際規格群の総称であり、環境マネジメントシステム、監査、ラベル、ライフサイクル評価などを扱う。",
+      "summaryVi": "ISO 14000 là tên chung của họ tiêu chuẩn quốc tế hỗ trợ quản lý môi trường, gồm hệ thống quản lý môi trường, đánh giá, nhãn môi trường và đánh giá vòng đời.",
       "content": [
         {
           "type": "heading",
-          "ja": "ISO 14000とは",
-          "vi": "Bộ tiêu chuẩn ISO 14000 là gì?"
+          "ja": "環境マネジメントの規格群",
+          "vi": "Họ tiêu chuẩn quản lý môi trường"
         },
         {
           "type": "paragraph",
-          "ja": "環境マネジメントのための国際的な標準規格群である。このシリーズは、環境に配慮した企業活動を推進するために策定されたもので、企業が環境保護に積極的に取り組むことを促すことを目的としている。例えば、ISO 14001は、環境マネジメントシステムの要件を示しており、企業が持続可能な方法で運営されるようにするためのフレームワークを提供する。これは、資源の無駄を減らし、廃棄物を管理する手助けをするため、環境への影響を最小限に抑える取り組みを求めるものである。結果として、企業の信頼性向上やコスト削減にもつながることから、ISO 14000の導入が進む背景には、環境意識の高まりがある。",
-          "vi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường."
+          "ja": "ISO 14000は一つの規格番号ではなく、組織が環境責任を体系的に管理するための規格群である。中心となるISO 14001は環境マネジメントシステム（EMS）の要求事項を示し、ISO 14004などは実施の指針を提供する。そのほか、監査、環境コミュニケーション、ラベル、ライフサイクル評価などのテーマを扱う規格が含まれる。",
+          "vi": "ISO 14000 không phải một mã tiêu chuẩn duy nhất mà là cả họ tiêu chuẩn giúp tổ chức quản lý trách nhiệm môi trường có hệ thống. ISO 14001 là tiêu chuẩn trung tâm nêu yêu cầu đối với hệ thống quản lý môi trường (EMS), còn ISO 14004 và các tiêu chuẩn khác cung cấp hướng dẫn triển khai. Họ này còn bao gồm đánh giá, truyền thông môi trường, nhãn môi trường và đánh giá vòng đời."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：ISO 14000の役割と関連する標準・団体との違いを押さえる。",
-          "vi": "ISO 14000 là họ tiêu chuẩn; ISO 14001 nêu yêu cầu hệ thống quản lý môi trường."
+          "ja": "ISO 14000＝規格群、ISO 14001＝認証にも用いられる要求事項規格、ISO 14004＝実施の指針、という位置付けを区別する。",
+          "vi": "Cần phân biệt: ISO 14000 = họ tiêu chuẩn; ISO 14001 = tiêu chuẩn yêu cầu có thể dùng cho chứng nhận; ISO 14004 = hướng dẫn triển khai."
+        },
+        {
+          "type": "example",
+          "ja": "例：組織はISO 14001を用いてEMSの要求事項を確認し、ISO 14004の指針を参考にして環境目標、運用管理、監視及び改善の仕組みを具体化できる。",
+          "vi": "Ví dụ: tổ chức dùng ISO 14001 để xác định các yêu cầu của EMS và tham khảo ISO 14004 để cụ thể hóa mục tiêu môi trường, kiểm soát vận hành, theo dõi và cải tiến."
+        },
+        {
+          "type": "warning",
+          "ja": "「ISO 14000認証」という覚え方は不正確である。ISO 14000は規格群であり、その中で認証の対象となる要求事項規格はISO 14001である。",
+          "vi": "Cách nói “chứng nhận ISO 14000” là không chính xác. ISO 14000 là họ tiêu chuẩn; tiêu chuẩn yêu cầu dùng làm đối tượng chứng nhận trong họ này là ISO 14001."
         }
       ],
       "terms": [
@@ -742,8 +878,8 @@
           "term": "ISO 14000",
           "english": "ISO 14000",
           "vi": "Bộ tiêu chuẩn ISO 14000",
-          "definitionJa": "環境マネジメントのための国際的な標準規格群である。",
-          "definitionVi": "Họ tiêu chuẩn quốc tế về quản lý môi trường, hỗ trợ tổ chức kiểm soát tác động môi trường.",
+          "definitionJa": "環境マネジメントシステム及び関連する環境管理手法を扱うISO規格群の総称。",
+          "definitionVi": "Tên chung của họ tiêu chuẩn ISO về hệ thống quản lý môi trường và các phương pháp quản lý môi trường liên quan.",
           "reading": "あいえすおー14000"
         }
       ],
@@ -755,23 +891,33 @@
       "titleJa": "JIS Q 14001",
       "titleVi": "JIS Q 14001",
       "importance": "high",
-      "summaryJa": "環境マネジメントシステムに関する国際規格である。",
-      "summaryVi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001.",
+      "summaryJa": "JIS Q 14001は、組織が環境パフォーマンスを向上させるための環境マネジメントシステムの要求事項と利用の手引を定め、ISO 14001と一致する日本産業規格である。",
+      "summaryVi": "JIS Q 14001 là tiêu chuẩn Nhật Bản tương đương ISO 14001, quy định yêu cầu và hướng dẫn sử dụng hệ thống quản lý môi trường nhằm cải thiện kết quả hoạt động môi trường.",
       "content": [
         {
           "type": "heading",
-          "ja": "JIS Q 14001とは",
-          "vi": "JIS Q 14001 là gì?"
+          "ja": "環境マネジメントシステムの要求事項",
+          "vi": "Yêu cầu đối với hệ thống quản lý môi trường"
         },
         {
           "type": "paragraph",
-          "ja": "環境マネジメントシステムに関する国際規格である。この規格は、組織が環境に対する影響を管理し、改善するためのフレームワークを提供する。具体的には、組織が自らの環境方針を定め、目標を設定し、それを実行するための手順や評価方法を規定している。例えば、企業が廃棄物の削減やエネルギーの効率的な使用を目指す場合、この規格に基づいてシステムを構築することで、環境負荷を低減し、持続可能な運営が可能になる。また、JIS Q 14001は国際的にも認知されており、環境への配慮を示す手段として企業の信頼性を向上させる効果がある。",
-          "vi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001."
+          "ja": "JIS Q 14001は、組織が環境側面と環境影響を把握し、方針と目標を定め、運用、監視、内部監査、マネジメントレビュー及び改善を継続するためのEMS要求事項を規定する。組織の規模や業種を問わず適用でき、ISO 14001を内容変更なく採用した一致規格である。特定製品の性能値を一律に定める製品規格ではない。",
+          "vi": "JIS Q 14001 quy định yêu cầu EMS để tổ chức nhận diện khía cạnh và tác động môi trường, thiết lập chính sách và mục tiêu, rồi duy trì vận hành, theo dõi, đánh giá nội bộ, xem xét của lãnh đạo và cải tiến. Tiêu chuẩn áp dụng cho tổ chức thuộc mọi quy mô và ngành nghề, đồng thời là bản chấp nhận tương đương ISO 14001. Đây không phải tiêu chuẩn sản phẩm ấn định một mức hiệu năng chung cho mọi sản phẩm."
         },
         {
           "type": "point",
-          "ja": "FE試験対策：JIS Q 14001の役割と関連する標準・団体との違いを押さえる。",
-          "vi": "Phân biệt ISO 14000 (họ tiêu chuẩn) với JIS Q 14001 (tiêu chuẩn yêu cầu cụ thể)."
+          "ja": "JIS Q 14001はEMSという「管理の仕組み」の要求事項であり、ISO 14000という規格群全体や、個別製品の環境性能基準とは異なる。",
+          "vi": "JIS Q 14001 quy định yêu cầu cho “cơ chế quản lý” EMS; khác với toàn bộ họ ISO 14000 và khác tiêu chí hiệu năng môi trường của từng sản phẩm."
+        },
+        {
+          "type": "example",
+          "ja": "例：工場が電力使用と廃棄物を重要な環境側面として特定し、削減目標、担当者、測定方法を決め、結果を監視して未達の原因を是正する仕組みを運用する。",
+          "vi": "Ví dụ: nhà máy xác định điện năng và chất thải là các khía cạnh môi trường quan trọng, đặt mục tiêu giảm, người phụ trách và cách đo, sau đó theo dõi kết quả và khắc phục nguyên nhân nếu chưa đạt."
+        },
+        {
+          "type": "warning",
+          "ja": "JIS Q 14001の認証はEMSが規格要求事項に適合することを示すもので、すべての製品が環境に優しいことや環境事故が起きないことを保証しない。認証もISO自身ではなく認証機関が行う。",
+          "vi": "Chứng nhận JIS Q 14001 cho thấy EMS phù hợp yêu cầu tiêu chuẩn; không bảo đảm mọi sản phẩm đều thân thiện môi trường hoặc không bao giờ xảy ra sự cố môi trường. Việc chứng nhận do tổ chức chứng nhận thực hiện, không phải chính ISO."
         }
       ],
       "terms": [
@@ -779,8 +925,8 @@
           "term": "JIS Q 14001",
           "english": "JIS Q 14001",
           "vi": "JIS Q 14001",
-          "definitionJa": "環境マネジメントシステムに関する国際規格である。",
-          "definitionVi": "Tiêu chuẩn JIS quy định yêu cầu đối với hệ thống quản lý môi trường, tương ứng ISO 14001.",
+          "definitionJa": "環境マネジメントシステムの要求事項と利用の手引を定め、ISO 14001と一致する日本産業規格。",
+          "definitionVi": "Tiêu chuẩn JIS tương đương ISO 14001, quy định yêu cầu và hướng dẫn sử dụng hệ thống quản lý môi trường.",
           "reading": "じすきゅー14001"
         }
       ],

@@ -371,23 +371,33 @@
       "titleJa": "ランサムウェア対策",
       "titleVi": "Biện pháp chống ransomware",
       "importance": "high",
-      "summaryJa": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。",
-      "summaryVi": "Chỉ các phương pháp và quy trình nhằm phòng ngừa hoặc xử lý trường hợp dữ liệu bị mã hóa hoặc hệ thống bị khóa bởi phần mềm độc hại.",
+      "summaryJa": "ランサムウェア対策は、侵入・実行・横展開を防ぐ予防策、感染時の封じ込め、検証済みバックアップからの復旧を組み合わせて被害を抑える多層的な取組である。",
+      "summaryVi": "Biện pháp chống ransomware là cách tiếp cận nhiều lớp: ngăn xâm nhập, thực thi và lan truyền; cô lập khi nhiễm; rồi khôi phục từ bản sao lưu đã kiểm thử.",
       "content": [
         {
           "type": "heading",
-          "ja": "ランサムウェア対策とは",
-          "vi": "Biện pháp chống ransomware là gì?"
+          "ja": "予防・封じ込め・復旧",
+          "vi": "Phòng ngừa, cô lập và khôi phục"
         },
         {
           "type": "paragraph",
-          "ja": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。ランサムウェアは、ユーザーのデータを人質に取り、復旧のために金銭を要求するため、特に企業や個人にとって大きな脅威となる。対策としては、定期的なデータバックアップ、最新のセキュリティソフトの導入、メールやWebサイトの危険なリンクを避ける教育が挙げられる。また、ネットワークの監視や侵入検知システムを導入することで、異常な動きを早期に発見し、被害を最小限に抑えることが可能となる。このように、総合的なランサムウェア対策を実施することが重要である。",
-          "vi": "Chỉ các phương pháp và quy trình nhằm phòng ngừa hoặc xử lý trường hợp dữ liệu bị mã hóa hoặc hệ thống bị khóa bởi phần mềm độc hại. Ransomware bắt dữ liệu của người dùng làm con tin và yêu cầu tiền để khôi phục, vì vậy là mối đe dọa lớn đặc biệt đối với doanh nghiệp và cá nhân. Các biện pháp gồm sao lưu dữ liệu định kỳ, cài đặt phần mềm an toàn mới nhất và giáo dục để tránh các liên kết nguy hiểm trong email hoặc website. Ngoài ra, bằng cách triển khai giám sát mạng và hệ thống phát hiện xâm nhập, có thể phát hiện sớm hoạt động bất thường và giảm thiểu thiệt hại. Vì vậy, điều quan trọng là thực hiện các biện pháp chống ransomware một cách tổng hợp."
+          "ja": "脆弱性修正、多要素認証、権限の最小化、メール対策、ネットワーク分割などで侵入と拡大を抑える。感染を検知したら端末を隔離し、影響範囲と情報流出を調査して、安全を確認したバックアップから復旧する。",
+          "vi": "Cần vá lỗ hổng, dùng xác thực đa yếu tố, giảm quyền, bảo vệ email và phân đoạn mạng để hạn chế xâm nhập và lan rộng. Khi phát hiện, cô lập máy, điều tra phạm vi cùng khả năng rò rỉ rồi phục hồi từ bản sao đã xác minh an toàn."
         },
         {
           "type": "point",
-          "ja": "試験では「ランサムウェア対策」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Biện pháp chống ransomware”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、バックアップだけでなく、予防、検知、初動対応、事業復旧までを含む多層防御として整理する。",
+          "vi": "Trong FE, cần hiểu đây là phòng thủ nhiều lớp gồm phòng ngừa, phát hiện, ứng phó ban đầu và phục hồi hoạt động, không chỉ riêng sao lưu."
+        },
+        {
+          "type": "example",
+          "ja": "共有フォルダの大量暗号化を検知したら端末をネットワークから隔離し、認証情報を保護した上で、感染前の復旧点からデータを戻す。",
+          "vi": "Khi phát hiện mã hóa hàng loạt thư mục dùng chung, tổ chức cô lập thiết bị khỏi mạng, bảo vệ thông tin xác thực rồi phục hồi từ điểm trước khi nhiễm."
+        },
+        {
+          "type": "warning",
+          "ja": "身代金を支払っても復号や情報非公開は保証されない。またオンラインで常時接続されたバックアップは攻撃者に暗号化・削除される可能性があるため、分離と復旧試験が必要である。",
+          "vi": "Trả tiền chuộc không bảo đảm giải mã hay không công bố dữ liệu. Bản sao luôn kết nối cũng có thể bị mã hóa hoặc xóa, nên cần cách ly và kiểm thử phục hồi."
         }
       ],
       "terms": [
@@ -396,14 +406,11 @@
           "reading": "らんさむうぇあたいさく",
           "english": "Ransomware Countermeasures",
           "vi": "Biện pháp chống ransomware",
-          "definitionJa": "悪意のあるソフトウェアによってデータが暗号化されたり、システムがロックされたりした場合に、それを防止または対処するための方法やプロセスを指す。",
-          "definitionVi": "Chỉ các phương pháp và quy trình nhằm phòng ngừa hoặc xử lý trường hợp dữ liệu bị mã hóa hoặc hệ thống bị khóa bởi phần mềm độc hại."
+          "definitionJa": "ランサムウェアの侵入・拡大を抑え、感染を封じ込め、検証済みデータから安全に復旧するための多層的な対策。",
+          "definitionVi": "Tập hợp biện pháp nhiều lớp để hạn chế ransomware xâm nhập và lan rộng, cô lập sự cố và khôi phục an toàn từ dữ liệu đã xác minh."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "ransomware-countermeasures"
-      ]
+      "tags": ["information-security-countermeasures", "ransomware-countermeasures"]
     },
     {
       "id": "backup-3-2-1-rule",
@@ -411,23 +418,33 @@
       "titleJa": "3-2-1ルール",
       "titleVi": "Quy tắc sao lưu 3-2-1",
       "importance": "high",
-      "summaryJa": "データのバックアップを効果的に管理するための原則である。",
-      "summaryVi": "Đây là nguyên tắc để quản lý hiệu quả việc sao lưu dữ liệu.",
+      "summaryJa": "3-2-1ルールは、重要データを合計3コピー保持し、2種類の媒体に分散し、そのうち1コピーを別拠点に置くバックアップ設計の原則である。",
+      "summaryVi": "Quy tắc 3-2-1 yêu cầu giữ tổng cộng ba bản dữ liệu, phân bố trên hai loại phương tiện và đặt một bản ở địa điểm khác.",
       "content": [
         {
           "type": "heading",
-          "ja": "3-2-1ルールとは",
-          "vi": "Quy tắc sao lưu 3-2-1 là gì?"
+          "ja": "三つの数字の意味",
+          "vi": "Ý nghĩa ba con số"
         },
         {
           "type": "paragraph",
-          "ja": "データのバックアップを効果的に管理するための原則である。このルールは、データを保護するために「3つのコピー」、すなわちオリジナルのデータとそのバックアップを2つ持つことを推奨する。その際、これらのコピーを異なる場所、つまり「2つの異なるメディア」に保存し、さらに「1つはオフサイト」で管理することが重要とされる。たとえば、自宅のハードドライブにデータを保存し、そのバックアップを外付けハードドライブに取り、さらにクラウドストレージに1つ保存するといった方法が挙げられる。このアプローチにより、災害やデバイスの故障によるデータ損失から比較的安全に守ることができるため、情報セキュリティの向上が図られる。",
-          "vi": "Đây là nguyên tắc để quản lý hiệu quả việc sao lưu dữ liệu. Quy tắc này khuyến nghị có “3 bản sao” để bảo vệ dữ liệu, tức dữ liệu gốc và hai bản sao lưu. Khi đó, điều quan trọng là lưu các bản sao trên “2 loại phương tiện khác nhau” và quản lý “1 bản ở ngoài địa điểm”. Ví dụ, có thể lưu dữ liệu trên ổ cứng tại nhà, tạo một bản sao lưu trên ổ cứng ngoài và lưu thêm một bản trên lưu trữ đám mây. Cách tiếp cận này giúp bảo vệ dữ liệu tương đối an toàn khỏi mất mát do thiên tai hoặc hỏng thiết bị, qua đó nâng cao an toàn thông tin."
+          "ja": "3は本番データ1部とバックアップ2部、2は障害要因を分散する異なる媒体、1は火災や災害など同一拠点の事故から守るオフサイトコピーを表す。復旧可能性を高めるため、世代管理と定期的な復元試験も行う。",
+          "vi": "Số 3 là một bản đang dùng cộng hai bản sao; số 2 là hai loại phương tiện để phân tán nguyên nhân hỏng; số 1 là một bản ngoài địa điểm để tránh sự cố chung như cháy hoặc thiên tai. Cần quản lý phiên bản và thử khôi phục định kỳ."
         },
         {
           "type": "point",
-          "ja": "試験では「3-2-1ルール」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Quy tắc sao lưu 3-2-1”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは「3コピー・2媒体・1オフサイト」を正確に対応付ける。三つのバックアップを追加するという意味ではない。",
+          "vi": "Trong FE phải ghép đúng “3 bản – 2 loại phương tiện – 1 bản ngoài địa điểm”; không có nghĩa là tạo thêm ba bản sao ngoài bản gốc."
+        },
+        {
+          "type": "example",
+          "ja": "業務サーバの原本、別装置のバックアップ、遠隔拠点のバックアップを保持し、後二者を異なる媒体・障害領域に配置する。",
+          "vi": "Giữ dữ liệu gốc trên máy chủ, một bản trên thiết bị khác và một bản tại cơ sở từ xa, với hai bản sao thuộc các phương tiện hoặc miền sự cố khác nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "同じ端末に接続した二つの論理ドライブや、同じ資格情報で同期するクラウドだけでは障害・攻撃が同時に及ぶことがある。コピー数だけで安全性を判断しない。",
+          "vi": "Hai ổ logic trên cùng máy hoặc đám mây đồng bộ bằng cùng thông tin xác thực có thể cùng bị ảnh hưởng; không đánh giá an toàn chỉ bằng số lượng bản."
         }
       ],
       "terms": [
@@ -436,14 +453,11 @@
           "reading": "さんにいちるーる",
           "english": "3-2-1 Rule",
           "vi": "Quy tắc sao lưu 3-2-1",
-          "definitionJa": "データのバックアップを効果的に管理するための原則である。",
-          "definitionVi": "Đây là nguyên tắc để quản lý hiệu quả việc sao lưu dữ liệu."
+          "definitionJa": "データを3コピー、2種類の媒体、1コピーを別拠点に保持して単一障害による全損を避けるバックアップ原則。",
+          "definitionVi": "Nguyên tắc sao lưu giữ ba bản trên hai loại phương tiện, trong đó một bản ở nơi khác, nhằm tránh mất toàn bộ do một sự cố."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "backup-3-2-1-rule"
-      ]
+      "tags": ["information-security-countermeasures", "backup-3-2-1-rule"]
     },
     {
       "id": "worm",
@@ -451,23 +465,33 @@
       "titleJa": "WORM",
       "titleVi": "WORM (ghi một lần, đọc nhiều lần)",
       "importance": "high",
-      "summaryJa": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。",
-      "summaryVi": "Chỉ đặc tính của phương tiện lưu trữ mà dữ liệu sau khi được ghi một lần thì không thể thay đổi nhưng có thể đọc bao nhiêu lần cũng được.",
+      "summaryJa": "WORMはWrite Once Read Manyの略で、いったん記録したデータを変更・上書きせず、繰り返し読み出せるようにする記録方式またはストレージ特性である。",
+      "summaryVi": "WORM là viết tắt của Write Once Read Many: dữ liệu sau khi ghi không bị sửa hoặc ghi đè nhưng có thể được đọc nhiều lần.",
       "content": [
         {
           "type": "heading",
-          "ja": "WORMとは",
-          "vi": "WORM (ghi một lần, đọc nhiều lần) là gì?"
+          "ja": "追記ではなく既存記録を保護",
+          "vi": "Bảo vệ dữ liệu đã ghi"
         },
         {
           "type": "paragraph",
-          "ja": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。これは、主にデータの改ざんを防ぐために使用される技術である。例えば、金融機関や医療機関において、重要なトランザクションや記録を安全に保管する必要がある場合、WORMメディアが利用される。データが一度書かれると、削除や上書きができないため、情報の信頼性が高まり、法的な証拠としても有効である。また、WORMストレージはバックアップやアーカイブの目的でも重宝され、長期間にわたってデータの保存が求められる場面で特に効果を発揮する。",
-          "vi": "Chỉ đặc tính của phương tiện lưu trữ mà dữ liệu sau khi được ghi một lần thì không thể thay đổi nhưng có thể đọc bao nhiêu lần cũng được. Đây là kỹ thuật chủ yếu được sử dụng để ngăn dữ liệu bị sửa đổi. Ví dụ, tại tổ chức tài chính hoặc cơ sở y tế, khi cần lưu trữ an toàn các giao dịch hoặc hồ sơ quan trọng, phương tiện WORM được sử dụng. Vì dữ liệu sau khi ghi không thể xóa hoặc ghi đè nên độ tin cậy của thông tin được nâng cao và cũng có hiệu lực như chứng cứ pháp lý. Ngoài ra, lưu trữ WORM còn hữu ích cho mục đích sao lưu và lưu trữ dài hạn, đặc biệt hiệu quả trong những trường hợp cần bảo quản dữ liệu trong thời gian dài."
+          "ja": "光ディスクなどの物理媒体で実現する場合と、保持期間中の変更・削除をストレージ制御で禁止する場合がある。監査ログや取引記録など、後から改変されてはならない情報の保存に用いる。",
+          "vi": "Có thể thực hiện bằng đặc tính vật lý của đĩa quang hoặc bằng điều khiển lưu trữ cấm sửa/xóa trong thời hạn giữ. WORM phù hợp với nhật ký kiểm toán và hồ sơ giao dịch không được phép thay đổi về sau."
         },
         {
           "type": "point",
-          "ja": "試験では「WORM」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “WORM (ghi một lần, đọc nhiều lần)”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、WORMを記録済みデータの改ざん防止・長期保存に使うストレージ特性として理解する。",
+          "vi": "Trong FE, cần hiểu WORM là đặc tính lưu trữ dùng chống sửa đổi dữ liệu đã ghi và hỗ trợ lưu giữ dài hạn."
+        },
+        {
+          "type": "example",
+          "ja": "監査ログを日単位でWORM領域へ確定し、保持期間中は管理者であっても既存ログを上書きできないようにする。",
+          "vi": "Nhật ký kiểm toán được chốt hàng ngày vào vùng WORM; trong thời hạn giữ, ngay cả quản trị viên cũng không thể ghi đè bản ghi cũ."
+        },
+        {
+          "type": "warning",
+          "ja": "マルウェアのワームとは同じつづりでも別概念である。またWORMに保存しただけで証拠能力が自動的に保証されるわけではなく、時刻・権限・運用記録も必要である。",
+          "vi": "WORM lưu trữ khác hoàn toàn sâu máy tính dù cùng cách viết. Chỉ lưu vào WORM chưa tự động bảo đảm giá trị chứng cứ; còn cần thời gian, quyền và hồ sơ vận hành đáng tin cậy."
         }
       ],
       "terms": [
@@ -476,14 +500,11 @@
           "reading": "わーむ",
           "english": "Write Once Read Many",
           "vi": "WORM (ghi một lần, đọc nhiều lần)",
-          "definitionJa": "一度書き込んだデータを変更できず、何度でも読み取ることができるストレージの特性を指す。",
-          "definitionVi": "Chỉ đặc tính của phương tiện lưu trữ mà dữ liệu sau khi được ghi một lần thì không thể thay đổi nhưng có thể đọc bao nhiêu lần cũng được."
+          "definitionJa": "一度記録したデータの変更や上書きを防ぎ、繰り返し読出し可能にする記録方式またはストレージ特性。",
+          "definitionVi": "Phương thức hoặc đặc tính lưu trữ ngăn sửa và ghi đè dữ liệu sau khi ghi nhưng cho phép đọc lại nhiều lần."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "worm"
-      ]
+      "tags": ["information-security-countermeasures", "worm"]
     },
     {
       "id": "immutable-backup",
@@ -491,39 +512,46 @@
       "titleJa": "イミュータブルバックアップ",
       "titleVi": "Sao lưu bất biến",
       "importance": "high",
-      "summaryJa": "データが変更されず、書き込みや削除ができない状態のバックアップである。",
-      "summaryVi": "Đây là phương pháp sao lưu mà dữ liệu sau khi đã lưu thì không thể thay đổi hoặc xóa.",
+      "summaryJa": "イミュータブルバックアップは、設定した保持期間中、バックアップデータを変更・上書き・削除できない状態に固定して攻撃や誤操作から守る仕組みである。",
+      "summaryVi": "Sao lưu bất biến khóa dữ liệu sao lưu để không thể sửa, ghi đè hoặc xóa trong thời hạn giữ, qua đó chống tấn công và thao tác nhầm.",
       "content": [
         {
           "type": "heading",
-          "ja": "イミュータブルバックアップとは",
-          "vi": "Sao lưu bất biến là gì?"
+          "ja": "保持期間中の変更を禁止",
+          "vi": "Cấm thay đổi trong thời hạn lưu giữ"
         },
         {
           "type": "paragraph",
-          "ja": "データが変更されず、書き込みや削除ができない状態のバックアップである。この方式では、バックアップされたデータが不正アクセスやウイルス攻撃から保護されるため、信頼性の高いデータ保存が実現される。例えば、ランサムウェア攻撃が行われた場合でも、イミュータブルバックアップに保存されたデータは影響を受けず、安全に復旧が可能である。このようなバックアップは、金融機関や医療機関など、重要なデータを扱う組織において特に重視されており、データ保護の最新の手法として広く採用されている。",
-          "vi": "Đây là phương pháp sao lưu mà dữ liệu sau khi đã lưu thì không thể thay đổi hoặc xóa. Đặc tính này giúp bảo vệ dữ liệu khỏi các hành vi như ransomware hoặc thao tác sai. Vì dữ liệu sao lưu không thể bị sửa đổi nên ngay cả khi hệ thống bị tấn công, vẫn có thể giữ lại dữ liệu ở trạng thái an toàn. Phương pháp này đặc biệt hữu ích khi cần lưu giữ dữ liệu quan trọng trong thời gian dài và giúp nâng cao độ tin cậy của bản sao lưu."
+          "ja": "オブジェクトロックやWORM機能などでバックアップを固定し、本番環境とは異なる権限・資格情報で管理する。復旧時には保存時点、整合性、マルウェア混入の有無を確認してから利用する。",
+          "vi": "Có thể dùng khóa đối tượng hoặc WORM để cố định bản sao và quản lý bằng quyền, thông tin xác thực khác môi trường sản xuất. Trước khi phục hồi phải kiểm tra thời điểm, tính toàn vẹn và mã độc."
         },
         {
           "type": "point",
-          "ja": "試験では「イミュータブルバックアップ」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Sao lưu bất biến”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、変更不能性はバックアップの保護特性であり、オフラインバックアップや遠隔保管とは別の軸であると整理する。",
+          "vi": "Trong FE, tính bất biến là thuộc tính bảo vệ bản sao; nó khác với việc bản sao ngoại tuyến hoặc được lưu ở xa."
+        },
+        {
+          "type": "example",
+          "ja": "30日間削除不能に設定した日次バックアップを別アカウントで保管し、毎月復元テストを行う。",
+          "vi": "Lưu bản sao hằng ngày bằng tài khoản riêng, khóa xóa trong 30 ngày và thử phục hồi mỗi tháng."
+        },
+        {
+          "type": "warning",
+          "ja": "保持設定が短すぎたり、攻撃者がロック設定を変更できたりすれば保護にならない。変更不能でも、感染後に取得したバックアップまで安全になるわけではない。",
+          "vi": "Nếu thời hạn quá ngắn hoặc kẻ tấn công có thể đổi thiết lập khóa thì không được bảo vệ. Tính bất biến cũng không làm bản sao tạo sau khi nhiễm trở nên sạch."
         }
       ],
       "terms": [
         {
           "term": "イミュータブルバックアップ",
-          "reading": "",
+          "reading": "いみゅーたぶるばっくあっぷ",
           "english": "Immutable Backup",
           "vi": "Sao lưu bất biến",
-          "definitionJa": "データが変更されず、書き込みや削除ができない状態のバックアップである。",
-          "definitionVi": "Đây là phương pháp sao lưu mà dữ liệu sau khi đã lưu thì không thể thay đổi hoặc xóa."
+          "definitionJa": "保持期間中の変更・上書き・削除を禁止し、バックアップを攻撃や誤操作から保護する仕組み。",
+          "definitionVi": "Cơ chế cấm sửa, ghi đè và xóa trong thời hạn giữ để bảo vệ bản sao khỏi tấn công hoặc thao tác nhầm."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "immutable-backup"
-      ]
+      "tags": ["information-security-countermeasures", "immutable-backup"]
     },
     {
       "id": "pattern-matching-method",
@@ -731,23 +759,33 @@
       "titleJa": "アクセス制御",
       "titleVi": "Kiểm soát truy cập",
       "importance": "high",
-      "summaryJa": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。",
-      "summaryVi": "Đây là cơ chế giới hạn người hoặc hệ thống có thể truy cập tài nguyên.",
+      "summaryJa": "アクセス制御は、主体が対象資源に対して実行しようとする操作を、認証済みの属性や権限とポリシーに基づいて許可または拒否する仕組みである。",
+      "summaryVi": "Kiểm soát truy cập là cơ chế cho phép hoặc từ chối thao tác của chủ thể lên tài nguyên dựa trên danh tính đã xác thực, quyền và chính sách.",
       "content": [
         {
           "type": "heading",
-          "ja": "アクセス制御とは",
-          "vi": "Kiểm soát truy cập là gì?"
+          "ja": "主体・対象・操作を制御する",
+          "vi": "Kiểm soát chủ thể, đối tượng và thao tác"
         },
         {
           "type": "paragraph",
-          "ja": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。この制御は、ユーザーの認証や権限管理によって実施され、誰がどの情報にアクセスできるかを明確に定義する。例えば、企業のデータベースにおいて、管理者はそのデータベースへのフルアクセス権を持つ一方で、一般社員は閲覧のみを許可されることがある。機密情報の保護やコンプライアンスの遵守に不可欠であり、役割ベースのアクセス制御（RBAC）や属性ベースのアクセス制御（ABAC）など、さまざまなモデルが利用されている。これにより、セキュリティの強化とインシデントの防止が図られる。",
-          "vi": "Đây là cơ chế giới hạn người hoặc hệ thống có thể truy cập tài nguyên. Dựa trên quyền hạn đã được thiết lập, hệ thống quyết định cho phép hay từ chối các thao tác như xem, thay đổi hoặc xóa dữ liệu. Bằng cách chỉ cấp quyền cần thiết cho người dùng cần thiết, có thể ngăn truy cập trái phép và lạm dụng quyền. Quản lý quyền truy cập thích hợp là biện pháp cơ bản để bảo vệ tính bí mật và tính toàn vẹn của thông tin."
+          "ja": "利用者やプロセスを主体、ファイルやデータベースを対象とし、読取・更新・削除などの操作ごとに権限を判定する。RBACは職務上の役割へ権限を割り当て、ABACは利用者・資源・環境の属性を条件に判定する。",
+          "vi": "Chủ thể có thể là người dùng hoặc tiến trình; đối tượng là tệp hay cơ sở dữ liệu. Quyền được xét riêng cho đọc, cập nhật, xóa… RBAC gán quyền theo vai trò công việc, còn ABAC xét thuộc tính người dùng, tài nguyên và môi trường."
         },
         {
           "type": "point",
-          "ja": "試験では「アクセス制御」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Kiểm soát truy cập”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "最小権限、職務分離、必要時だけの権限付与を適用し、誰が何をできるかを記録・定期見直しする。",
+          "vi": "Cần áp dụng đặc quyền tối thiểu, phân tách nhiệm vụ, chỉ cấp quyền khi cần và định kỳ rà soát ai được làm gì."
+        },
+        {
+          "type": "example",
+          "ja": "経理担当ロールには請求書の登録・閲覧を許可し、承認操作は別の管理者ロールだけに許可する。",
+          "vi": "Vai trò kế toán được nhập và xem hóa đơn, còn thao tác phê duyệt chỉ dành cho một vai trò quản lý khác."
+        },
+        {
+          "type": "warning",
+          "ja": "認証は利用者が誰かを確認する処理であり、認可はその利用者に操作を許すかの判断である。ログイン成功だけで全資源へのアクセスを許してはならない。",
+          "vi": "Xác thực trả lời người dùng là ai, còn cấp phép quyết định họ được làm gì. Đăng nhập thành công không có nghĩa được truy cập mọi tài nguyên."
         }
       ],
       "terms": [
@@ -756,14 +794,11 @@
           "reading": "あくせすせいぎょ",
           "english": "Access Control",
           "vi": "Kiểm soát truy cập",
-          "definitionJa": "情報資源へのアクセスを制限し、許可されたユーザーのみが特定の情報やシステムにアクセスできるようにするセキュリティ対策である。",
-          "definitionVi": "Đây là cơ chế giới hạn người hoặc hệ thống có thể truy cập tài nguyên."
+          "definitionJa": "主体による対象資源への操作を、権限とポリシーに基づいて許可または拒否する仕組み。",
+          "definitionVi": "Cơ chế cho phép hoặc từ chối thao tác của chủ thể lên tài nguyên theo quyền và chính sách."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "access-control"
-      ]
+      "tags": ["information-security-countermeasures", "access-control"]
     },
     {
       "id": "vulnerability-management",
@@ -771,23 +806,33 @@
       "titleJa": "脆弱性管理",
       "titleVi": "Quản lý lỗ hổng",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。",
-      "summaryVi": "Chỉ quá trình xác định, đánh giá và xử lý các lỗ hổng tồn tại trong hệ thống hoặc phần mềm.",
+      "summaryJa": "脆弱性管理は、資産を把握し、脆弱性情報を収集・検出し、リスクに応じて優先順位を付け、修正または緩和して結果を確認する継続的なプロセスである。",
+      "summaryVi": "Quản lý lỗ hổng là quy trình liên tục: nắm tài sản, thu thập và phát hiện lỗ hổng, ưu tiên theo rủi ro, khắc phục hoặc giảm nhẹ rồi xác minh kết quả.",
       "content": [
         {
           "type": "heading",
-          "ja": "脆弱性管理とは",
-          "vi": "Quản lý lỗ hổng là gì?"
+          "ja": "発見から再確認までの循環",
+          "vi": "Chu trình từ phát hiện đến xác minh"
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。これにより、セキュリティリスクを最小限に抑えることが目指される。具体的には、OSアップデートや脆弱性修正プログラム（セキュリティパッチ）の適用が含まれ、これにより最新の状態を保つことが重要になる。特に、外部からの攻撃者が利用する可能性のある脆弱性を早期に修正することで、情報漏洩やデータ損失などのリスクを減少させることができる。この管理プロセスは、定期的な点検や監視を行い、安全なシステム運用を支えるために欠かせないものである。",
-          "vi": "Chỉ quá trình xác định, đánh giá và xử lý các lỗ hổng tồn tại trong hệ thống hoặc phần mềm. Nếu để lỗ hổng không được xử lý, chúng có thể bị kẻ tấn công lợi dụng và dẫn đến truy cập trái phép hoặc rò rỉ thông tin. Vì vậy, cần thu thập thông tin lỗ hổng, đánh giá mức độ ảnh hưởng và áp dụng bản vá hoặc biện pháp giảm nhẹ theo mức độ ưu tiên. Việc thực hiện liên tục các hoạt động này giúp duy trì an toàn hệ thống."
+          "ja": "資産台帳とソフトウェアの版を把握し、ベンダ情報やスキャン結果を対応付ける。深刻度だけでなく、外部公開、悪用実績、資産の重要度、代替策を考慮して対応期限を決め、パッチ適用後に再スキャンする。",
+          "vi": "Cần đối chiếu danh mục tài sản và phiên bản phần mềm với thông tin nhà cung cấp cùng kết quả quét. Thứ tự xử lý phải xét mức phơi nhiễm, việc đã bị khai thác, tầm quan trọng tài sản và biện pháp thay thế; sau vá phải quét lại."
         },
         {
           "type": "point",
-          "ja": "試験では「脆弱性管理」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Quản lý lỗ hổng”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、脆弱性の検出だけで終わらず、評価、優先付け、修正・緩和、確認を継続する管理活動として理解する。",
+          "vi": "Trong FE, đây không chỉ là quét phát hiện mà là hoạt động liên tục gồm đánh giá, ưu tiên, khắc phục/giảm nhẹ và xác minh."
+        },
+        {
+          "type": "example",
+          "ja": "インターネット公開サーバで悪用中の脆弱性が見つかったため最優先でパッチを適用し、再スキャンとログ確認で対処を検証する。",
+          "vi": "Phát hiện lỗ hổng đang bị khai thác trên máy chủ công khai Internet, tổ chức vá ưu tiên cao nhất rồi quét lại và kiểm tra nhật ký."
+        },
+        {
+          "type": "warning",
+          "ja": "CVSS値やスキャナの警告だけで実際の業務リスクは決まらない。パッチが適用できない場合も、隔離や機能停止などの緩和策と残存リスクの管理が必要である。",
+          "vi": "Điểm CVSS hay cảnh báo máy quét không tự quyết định rủi ro nghiệp vụ. Khi chưa thể vá, vẫn cần cô lập, tắt chức năng hoặc giảm nhẹ và quản lý rủi ro còn lại."
         }
       ],
       "terms": [
@@ -796,14 +841,11 @@
           "reading": "ぜいじゃくせいかんり",
           "english": "Vulnerability Management",
           "vi": "Quản lý lỗ hổng",
-          "definitionJa": "システムやソフトウェアに存在する脆弱性を特定、評価、修正するプロセスである。",
-          "definitionVi": "Chỉ quá trình xác định, đánh giá và xử lý các lỗ hổng tồn tại trong hệ thống hoặc phần mềm."
+          "definitionJa": "脆弱性を継続的に特定・評価・優先付けし、修正または緩和した後に結果を確認する管理プロセス。",
+          "definitionVi": "Quy trình liên tục xác định, đánh giá, ưu tiên, khắc phục hoặc giảm nhẹ lỗ hổng rồi xác minh kết quả."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "vulnerability-management"
-      ]
+      "tags": ["information-security-countermeasures", "vulnerability-management"]
     },
     {
       "id": "network-monitoring",
@@ -891,23 +933,33 @@
       "titleJa": "侵入検知",
       "titleVi": "Phát hiện xâm nhập",
       "importance": "high",
-      "summaryJa": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。",
-      "summaryVi": "Đây là việc phát hiện các hành vi xâm nhập hoặc truy cập trái phép vào hệ thống và mạng.",
+      "summaryJa": "侵入検知は、ネットワーク通信、ホストのログや挙動を監視し、既知の攻撃パターンまたは通常状態からの逸脱を見つけて警告する活動である。",
+      "summaryVi": "Phát hiện xâm nhập là hoạt động giám sát lưu lượng mạng, nhật ký và hành vi máy để tìm mẫu tấn công đã biết hoặc độ lệch khỏi trạng thái bình thường rồi cảnh báo.",
       "content": [
         {
           "type": "heading",
-          "ja": "侵入検知とは",
-          "vi": "Phát hiện xâm nhập là gì?"
+          "ja": "シグネチャ検知と異常検知",
+          "vi": "Phát hiện chữ ký và bất thường"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。これは、コンピュータやネットワークのセキュリティを強化し、未然に問題を防ぐことを目的としている。例えば、侵入検知システム（IDS）は、ネットワークトラフィックを分析し、異常な動きや既知の攻撃パターンを検出する。これにより、攻撃が発生する前に警告を発したり、迅速な対応が可能となる。また、企業の重要なデータを守るために欠かせない要素であり、セキュリティインシデントの発生を減少させる役割を果たす。",
-          "vi": "Đây là việc phát hiện các hành vi xâm nhập hoặc truy cập trái phép vào hệ thống và mạng. Hệ thống giám sát lưu lượng và nhật ký, đồng thời phát hiện các mẫu tấn công hoặc hành vi bất thường. Khi phát hiện dấu hiệu xâm nhập, hệ thống thông báo cho quản trị viên để có thể phản ứng nhanh. Mục đích chính là phát hiện sớm cuộc tấn công và hạn chế thiệt hại."
+          "ja": "シグネチャ型は既知の攻撃特徴と照合し、異常検知型は学習・設定した通常状態との差を調べる。ネットワーク型は通信を、ホスト型は端末内のログやファイル変更などを監視する。",
+          "vi": "Loại chữ ký so với đặc trưng tấn công đã biết; loại bất thường tìm sai lệch so với trạng thái chuẩn đã học hoặc thiết lập. Loại mạng giám sát lưu lượng, loại máy chủ giám sát nhật ký và thay đổi tệp."
         },
         {
           "type": "point",
-          "ja": "試験では「侵入検知」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Phát hiện xâm nhập”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、侵入検知の主目的は検出と通知であり、通信を自動遮断する侵入防止とは区別する。",
+          "vi": "Trong FE, mục tiêu chính của phát hiện xâm nhập là phát hiện và thông báo; cần phân biệt với ngăn chặn xâm nhập có thể tự động chặn."
+        },
+        {
+          "type": "example",
+          "ja": "短時間に多数のログイン失敗と管理者権限取得が続いたことを検知し、SOCへ高優先度アラートを送る。",
+          "vi": "Hệ thống thấy nhiều lần đăng nhập thất bại rồi chiếm quyền quản trị trong thời gian ngắn và gửi cảnh báo ưu tiên cao tới SOC."
+        },
+        {
+          "type": "warning",
+          "ja": "シグネチャ型は未知攻撃を見逃すことがあり、異常検知型は正常な変化を誤検知することがある。検知結果には調査とルール調整が必要である。",
+          "vi": "Loại chữ ký có thể bỏ sót tấn công mới, còn loại bất thường có thể báo nhầm thay đổi hợp lệ; kết quả cần điều tra và tinh chỉnh quy tắc."
         }
       ],
       "terms": [
@@ -916,14 +968,11 @@
           "reading": "しんにゅうけんち",
           "english": "Intrusion Detection",
           "vi": "Phát hiện xâm nhập",
-          "definitionJa": "ネットワークやシステムに対する不正アクセスや攻撃を監視し、検出するための技術や手法である。",
-          "definitionVi": "Đây là việc phát hiện các hành vi xâm nhập hoặc truy cập trái phép vào hệ thống và mạng."
+          "definitionJa": "通信やホストの挙動を監視し、攻撃パターンまたは異常を検出して通知する活動。",
+          "definitionVi": "Hoạt động giám sát lưu lượng và hành vi máy để phát hiện, cảnh báo mẫu tấn công hoặc bất thường."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "intrusion-detection"
-      ]
+      "tags": ["information-security-countermeasures", "intrusion-detection"]
     },
     {
       "id": "intrusion-prevention",
@@ -931,23 +980,33 @@
       "titleJa": "侵入防止",
       "titleVi": "Ngăn chặn xâm nhập",
       "importance": "high",
-      "summaryJa": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。",
-      "summaryVi": "Đây là việc không chỉ phát hiện xâm nhập mà còn tự động ngăn chặn hoặc chặn hoạt động tấn công.",
+      "summaryJa": "侵入防止は、攻撃の兆候を検出すると、通信の破棄や接続の遮断などを自動実行して被害を未然に抑える活動である。",
+      "summaryVi": "Ngăn chặn xâm nhập phát hiện dấu hiệu tấn công rồi tự động bỏ gói, ngắt kết nối hoặc thực hiện hành động khác để hạn chế thiệt hại.",
       "content": [
         {
           "type": "heading",
-          "ja": "侵入防止とは",
-          "vi": "Ngăn chặn xâm nhập là gì?"
+          "ja": "検知後に自動遮断する",
+          "vi": "Tự động chặn sau khi phát hiện"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。この対策は、サイバー攻撃やウイルス感染から情報を守るために非常に重要である。具体的には、侵入防止システム（IPS）がリアルタイムでトラフィックを監視し、異常な動きや知られている攻撃のパターンを検出することで、即座に攻撃を遮断する。たとえば、外部からの不正なログイン試行を察知した場合、その接続を自動的に切断することで、システムを守ることができる。これにより、企業や個人のデータの安全性が高まり、セキュリティリスクを軽減することが可能となる。",
-          "vi": "Đây là việc không chỉ phát hiện xâm nhập mà còn tự động ngăn chặn hoặc chặn hoạt động tấn công. Hệ thống giám sát lưu lượng mạng và khi phát hiện giao tiếp nguy hiểm có thể chặn kết nối hoặc gói tin. Nhờ đó có thể ngăn thiệt hại trước khi cuộc tấn công lan rộng. Tuy nhiên, cần thiết lập thích hợp để tránh chặn nhầm giao tiếp hợp lệ."
+          "ja": "IPSは一般に通信経路上へインライン配置され、パケットやセッションを検査する。危険と判定した通信を破棄し、接続をリセットし、送信元を一時遮断するなどの処置を行う。",
+          "vi": "IPS thường đặt inline trên đường truyền để kiểm tra gói và phiên. Khi đánh giá nguy hiểm, nó có thể bỏ gói, reset kết nối hoặc tạm chặn nguồn gửi."
         },
         {
           "type": "point",
-          "ja": "試験では「侵入防止」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Ngăn chặn xâm nhập”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、IDSは主に検知・通知、IPSは検知に加えて遮断を行うという違いを問われやすい。",
+          "vi": "Trong FE, điểm thường được hỏi là IDS chủ yếu phát hiện/cảnh báo, còn IPS phát hiện và thực hiện chặn."
+        },
+        {
+          "type": "example",
+          "ja": "既知の脆弱性を狙う要求を検出したIPSが、そのパケットを破棄してサーバへ到達させず、管理者へ通知する。",
+          "vi": "IPS phát hiện yêu cầu khai thác lỗ hổng đã biết, bỏ gói trước khi tới máy chủ và đồng thời báo quản trị viên."
+        },
+        {
+          "type": "warning",
+          "ja": "誤検知で正当な通信を遮断すると業務停止につながる。IPSを導入しても脆弱性修正は不要にならず、監視モードでの評価や例外管理が必要である。",
+          "vi": "Nếu báo nhầm và chặn lưu lượng hợp lệ, hoạt động có thể gián đoạn. IPS không thay thế việc vá lỗ hổng; cần đánh giá chế độ giám sát và quản lý ngoại lệ."
         }
       ],
       "terms": [
@@ -956,14 +1015,11 @@
           "reading": "しんにゅうぼうし",
           "english": "Intrusion Prevention",
           "vi": "Ngăn chặn xâm nhập",
-          "definitionJa": "ネットワークやシステムへの不正アクセスを検知し、それを阻止するための技術や手法である。",
-          "definitionVi": "Đây là việc không chỉ phát hiện xâm nhập mà còn tự động ngăn chặn hoặc chặn hoạt động tấn công."
+          "definitionJa": "攻撃を検出した際に通信破棄や接続遮断などを自動実行し、侵入による被害を抑える活動。",
+          "definitionVi": "Hoạt động tự động bỏ lưu lượng hoặc ngắt kết nối sau khi phát hiện tấn công để hạn chế xâm nhập."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "intrusion-prevention"
-      ]
+      "tags": ["information-security-countermeasures", "intrusion-prevention"]
     },
     {
       "id": "dmz",
@@ -971,23 +1027,33 @@
       "titleJa": "DMZ",
       "titleVi": "DMZ (vùng phi quân sự)",
       "importance": "high",
-      "summaryJa": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。",
-      "summaryVi": "DMZ là vùng mạng được bố trí giữa mạng bên ngoài như Internet và mạng nội bộ.",
+      "summaryJa": "DMZは、インターネットへ公開するサーバを内部ネットワークから分離して配置し、各領域間の通信をファイアウォールで制限するネットワーク区域である。",
+      "summaryVi": "DMZ là vùng mạng đặt máy chủ công khai tách khỏi mạng nội bộ và dùng tường lửa hạn chế lưu lượng giữa Internet, DMZ và mạng trong.",
       "content": [
         {
           "type": "heading",
-          "ja": "DMZとは",
-          "vi": "DMZ (vùng phi quân sự) là gì?"
+          "ja": "公開区域と内部区域の分離",
+          "vi": "Tách vùng công khai khỏi mạng nội bộ"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。この領域には、Webサーバやメールサーバなど、外部からアクセスされる必要のあるサービスが設置されることが一般的である。外部からの侵入を防ぎつつ、内部ネットワークへのアクセスを制限するための重要なセキュリティ対策である。たとえば、企業が自社のWebサイトを運営する際、DMZにWebサーバを置くことで、外部からの攻撃が内部ネットワークに直接影響を及ぼすリスクを減少させることができる。このように、DMZは情報セキュリティの層を一つ追加する役割を果たしている。",
-          "vi": "DMZ là vùng mạng được bố trí giữa mạng bên ngoài như Internet và mạng nội bộ. Các máy chủ cần công khai ra bên ngoài như Web server hoặc mail server được đặt tại đây để tách khỏi mạng nội bộ. Nhờ đó, ngay cả khi máy chủ công khai bị tấn công, có thể giảm nguy cơ kẻ tấn công trực tiếp xâm nhập mạng nội bộ. Đây là cấu hình mạng nhằm tăng cường an toàn bằng cách phân tách các vùng có mức độ tin cậy khác nhau."
+          "ja": "Webサーバやメール中継サーバなどをDMZに置き、外部からDMZへの必要な通信だけを許可する。DMZから内部ネットワークへの通信はさらに厳しく限定し、公開サーバ侵害時の横展開を抑える。",
+          "vi": "Đặt máy chủ Web hoặc mail relay trong DMZ và chỉ cho phép lưu lượng cần thiết từ ngoài vào. Lưu lượng từ DMZ vào mạng nội bộ bị hạn chế chặt hơn để giảm lan truyền nếu máy chủ công khai bị chiếm."
         },
         {
           "type": "point",
-          "ja": "試験では「DMZ」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “DMZ (vùng phi quân sự)”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、DMZは外部にも内部にも無制限に接続できる中立地帯ではなく、信頼度の異なる領域を分離する区域と理解する。",
+          "vi": "Trong FE, DMZ không phải vùng trung lập được tự do truy cập cả ngoài lẫn trong; đây là vùng phân tách các mức tin cậy."
+        },
+        {
+          "type": "example",
+          "ja": "InternetからDMZのWebサーバへHTTPSだけを許可し、Webサーバから内部DBへは必要な宛先・ポートだけを許可する。",
+          "vi": "Chỉ cho phép HTTPS từ Internet tới máy chủ Web trong DMZ; từ máy chủ Web tới cơ sở dữ liệu nội bộ chỉ mở đúng đích và cổng cần thiết."
+        },
+        {
+          "type": "warning",
+          "ja": "DMZに置くだけで公開サーバが安全になるわけではない。サーバの要塞化、パッチ、監視と、内部向け通信の最小化が必要である。",
+          "vi": "Chỉ đặt trong DMZ không làm máy chủ tự an toàn; vẫn cần gia cố, vá, giám sát và giảm tối đa lưu lượng vào mạng nội bộ."
         }
       ],
       "terms": [
@@ -996,14 +1062,11 @@
           "reading": "でぃーえむぜっと",
           "english": "Demilitarized Zone",
           "vi": "DMZ (vùng phi quân sự)",
-          "definitionJa": "ネットワークセキュリティにおいて、内部ネットワークと外部ネットワーク（通常はインターネット）の間に配置される中立的な領域である。",
-          "definitionVi": "DMZ là vùng mạng được bố trí giữa mạng bên ngoài như Internet và mạng nội bộ."
+          "definitionJa": "公開サーバを内部ネットワークから分離し、領域間通信を制限するためのネットワーク区域。",
+          "definitionVi": "Vùng mạng tách máy chủ công khai khỏi mạng nội bộ và kiểm soát lưu lượng giữa các vùng."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "dmz"
-      ]
+      "tags": ["information-security-countermeasures", "dmz"]
     },
     {
       "id": "quarantine-network",
@@ -1171,39 +1234,46 @@
       "titleJa": "データマスキング",
       "titleVi": "Che dữ liệu",
       "importance": "high",
-      "summaryJa": "機密情報を保護するために、その内容を変換して見えなくする技術である。",
-      "summaryVi": "Đây là kỹ thuật che giấu hoặc thay đổi một phần dữ liệu để không thể nhận biết trực tiếp thông tin gốc.",
+      "summaryJa": "データマスキングは、機密データの一部または全部を置換・隠蔽し、利用目的に必要な形式を保ちながら元の値を直接見せないようにする技術である。",
+      "summaryVi": "Che dữ liệu thay thế hoặc ẩn một phần/toàn bộ dữ liệu nhạy cảm, giữ định dạng cần dùng nhưng không để lộ trực tiếp giá trị gốc.",
       "content": [
         {
           "type": "heading",
-          "ja": "データマスキングとは",
-          "vi": "Che dữ liệu là gì?"
+          "ja": "利用可能性を保ちながら秘匿",
+          "vi": "Ẩn dữ liệu nhưng giữ khả năng sử dụng"
         },
         {
           "type": "paragraph",
-          "ja": "機密情報を保護するために、その内容を変換して見えなくする技術である。これにより、情報が漏洩した場合でも、実際のデータが悪用されるリスクを減少させる。具体例としては、顧客の名前や住所などの個人情報を、無関係な文字列や数字に置き換えることが挙げられる。例えば、「山田太郎」を「XXXXXX」に変換することで、元の情報が分からなくなる。この技術は、テスト環境や研修用データで実際のデータを使用する際に特に有用であり、データのプライバシーを確保し、法規制にも対応するために広く利用されている。情報セキュリティの重要な手段の一つである。",
-          "vi": "Đây là kỹ thuật che giấu hoặc thay đổi một phần dữ liệu để không thể nhận biết trực tiếp thông tin gốc. Ví dụ, có thể thay một phần số thẻ tín dụng hoặc thông tin cá nhân bằng ký hiệu khác. Kỹ thuật này được sử dụng khi cần dùng dữ liệu cho kiểm thử hoặc phân tích nhưng không cần hiển thị thông tin thật. Nhờ đó có thể giảm nguy cơ rò rỉ thông tin nhạy cảm trong khi vẫn duy trì khả năng sử dụng dữ liệu."
+          "ja": "静的マスキングは複製データを事前変換してテスト環境などへ渡し、動的マスキングは利用者の権限に応じて表示時だけ値を隠す。置換、シャッフル、部分伏字などの方法がある。",
+          "vi": "Che tĩnh biến đổi bản sao trước khi đưa sang môi trường kiểm thử; che động chỉ ẩn khi hiển thị tùy quyền người dùng. Có thể thay thế, xáo trộn hoặc che một phần."
         },
         {
           "type": "point",
-          "ja": "試験では「データマスキング」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Che dữ liệu”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、データそのものを暗号鍵で復号可能にする暗号化と、表示・利用用の値へ変換するマスキングを区別する。",
+          "vi": "Trong FE, cần phân biệt mã hóa — có thể giải mã bằng khóa — với masking biến đổi giá trị dùng để hiển thị hoặc khai thác."
+        },
+        {
+          "type": "example",
+          "ja": "サポート画面ではカード番号1234 5678 9012 3456を**** **** **** 3456と表示し、担当者に必要な末尾だけを見せる。",
+          "vi": "Màn hình hỗ trợ hiển thị số thẻ 1234 5678 9012 3456 thành **** **** **** 3456, chỉ cho nhân viên thấy bốn số cuối cần thiết."
+        },
+        {
+          "type": "warning",
+          "ja": "形式を保っていても、他の属性との組合せから個人を再識別できる場合がある。マスキング後もアクセス制御と持出し制限が必要である。",
+          "vi": "Dù giữ định dạng, dữ liệu vẫn có thể tái nhận dạng khi kết hợp thuộc tính khác; sau masking vẫn cần kiểm soát truy cập và xuất dữ liệu."
         }
       ],
       "terms": [
         {
           "term": "データマスキング",
-          "reading": "",
+          "reading": "でーたますきんぐ",
           "english": "Data Masking",
           "vi": "Che dữ liệu",
-          "definitionJa": "機密情報を保護するために、その内容を変換して見えなくする技術である。",
-          "definitionVi": "Đây là kỹ thuật che giấu hoặc thay đổi một phần dữ liệu để không thể nhận biết trực tiếp thông tin gốc."
+          "definitionJa": "機密値を置換・隠蔽し、必要な形式や利用可能性を保ちながら元の値を直接見せない技術。",
+          "definitionVi": "Kỹ thuật thay thế hoặc ẩn giá trị nhạy cảm, vẫn giữ định dạng và khả năng sử dụng cần thiết mà không lộ giá trị gốc."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "data-masking"
-      ]
+      "tags": ["information-security-countermeasures", "data-masking"]
     },
     {
       "id": "cloud-service-security",
@@ -1371,39 +1441,46 @@
       "titleJa": "デジタルフォレンジックス",
       "titleVi": "Điều tra số",
       "importance": "high",
-      "summaryJa": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。",
-      "summaryVi": "Đây là kỹ thuật thu thập, bảo quản, phân tích và điều tra dữ liệu số để làm rõ sự cố hoặc hành vi phạm pháp.",
+      "summaryJa": "デジタルフォレンジックスは、情報の完全性と取扱履歴を保ちながらデジタル証拠を識別・収集・保全・分析・報告し、事故や不正の事実関係を明らかにする活動である。",
+      "summaryVi": "Điều tra số là hoạt động xác định, thu thập, bảo quản, phân tích và báo cáo chứng cứ số trong khi duy trì tính toàn vẹn và lịch sử xử lý.",
       "content": [
         {
           "type": "heading",
-          "ja": "デジタルフォレンジックスとは",
-          "vi": "Điều tra số là gì?"
+          "ja": "証拠の完全性と再現性",
+          "vi": "Tính toàn vẹn và khả năng tái lập chứng cứ"
         },
         {
           "type": "paragraph",
-          "ja": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。この技術は主にサイバー犯罪や違法行為の調査に使用され、デジタル機器からの重要な情報を確保することを目的とする。例えば、コンピュータやスマートフォンから削除されたファイルを復元したり、過去の通信記録を解析したりすることで、真実を解明する手助けを行う。証拠の合法性や信頼性を保つために詳細な手順が求められ、適切に実施されることで法的な手続きにも利用される。この分野は、セキュリティ対策を強化する上で重要な役割を果たしており、高度な技術と専門知識が必要である。",
-          "vi": "Đây là kỹ thuật thu thập, bảo quản, phân tích và điều tra dữ liệu số để làm rõ sự cố hoặc hành vi phạm pháp. Đối tượng có thể là dữ liệu trên máy tính, thiết bị di động, máy chủ, mạng hoặc nhật ký. Điều quan trọng là phải xử lý dữ liệu theo phương pháp thích hợp để không làm thay đổi chứng cứ. Kết quả phân tích có thể được sử dụng để xác định nguyên nhân sự cố, phạm vi ảnh hưởng hoặc làm chứng cứ trong điều tra."
+          "ja": "原媒体を不用意に変更せず、フォレンジックイメージを取得して解析する。取得時と解析後のハッシュ値、担当者、日時、受渡し目的を記録し、誰が証拠を扱ったかというチェーンオブカストディを維持する。",
+          "vi": "Không tùy tiện thay đổi vật mang gốc; tạo ảnh pháp chứng để phân tích. Ghi hash khi thu nhận và sau phân tích, người xử lý, thời gian và mục đích chuyển giao để duy trì chain of custody."
         },
         {
           "type": "point",
-          "ja": "試験では「デジタルフォレンジックス」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Điều tra số”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、証拠保全、完全性確認、収集から報告までの手順が、単なるログ閲覧や障害解析との違いになる。",
+          "vi": "Trong FE, điểm khác với xem log hoặc phân tích lỗi thông thường là bảo quản chứng cứ, xác minh toàn vẹn và quy trình từ thu thập tới báo cáo."
+        },
+        {
+          "type": "example",
+          "ja": "ディスクをライトブロッカ経由で複製し、複製前後のハッシュ一致を確認して、複製側だけを解析する。",
+          "vi": "Sao chép đĩa qua bộ chặn ghi, xác nhận hash trùng trước/sau rồi chỉ phân tích bản sao."
+        },
+        {
+          "type": "warning",
+          "ja": "調査のためでも原本を直接起動・編集すると証拠を変えるおそれがある。一方、メモリなど揮発性データは電源断で失われるため、収集順序を事前に決める。",
+          "vi": "Khởi động hoặc sửa trực tiếp bản gốc có thể làm đổi chứng cứ. Ngược lại, dữ liệu khả biến như RAM mất khi tắt nguồn, nên phải xác định thứ tự thu thập trước."
         }
       ],
       "terms": [
         {
           "term": "デジタルフォレンジックス",
-          "reading": "",
+          "reading": "でじたるふぉれんじっくす",
           "english": "Digital Forensics",
           "vi": "Điều tra số",
-          "definitionJa": "デジタルデータに関する証拠を収集、保存、分析するプロセスである。",
-          "definitionVi": "Đây là kỹ thuật thu thập, bảo quản, phân tích và điều tra dữ liệu số để làm rõ sự cố hoặc hành vi phạm pháp."
+          "definitionJa": "完全性と取扱履歴を維持しながらデジタル証拠を収集・保全・分析・報告する活動。",
+          "definitionVi": "Hoạt động thu thập, bảo quản, phân tích và báo cáo chứng cứ số trong khi duy trì tính toàn vẹn và lịch sử xử lý."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "digital-forensics"
-      ]
+      "tags": ["information-security-countermeasures", "digital-forensics"]
     },
     {
       "id": "ai-for-security",
@@ -1531,23 +1608,33 @@
       "titleJa": "SIEM",
       "titleVi": "SIEM",
       "importance": "high",
-      "summaryJa": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。",
-      "summaryVi": "SIEM là cơ chế thu thập tập trung nhật ký và thông tin sự kiện từ nhiều thiết bị, hệ thống rồi phân tích chúng.",
+      "summaryJa": "SIEMは、機器やシステムからセキュリティログとイベントを集中収集・正規化し、相関分析によって脅威の兆候を検出して監視・調査を支援する仕組みである。",
+      "summaryVi": "SIEM tập trung thu thập và chuẩn hóa nhật ký, sự kiện bảo mật từ nhiều hệ thống, rồi tương quan chúng để phát hiện dấu hiệu đe dọa và hỗ trợ điều tra.",
       "content": [
         {
           "type": "heading",
-          "ja": "SIEMとは",
-          "vi": "SIEM là gì?"
+          "ja": "複数ログの相関分析",
+          "vi": "Tương quan nhật ký từ nhiều nguồn"
         },
         {
           "type": "paragraph",
-          "ja": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。異なるデータソースからのログ情報を集約し、リアルタイムでの脅威の検出や、不正アクセスの監視を行う。例えば、社内のサーバやアプリケーションのログを一元的に解析することで、不審なアクティビティを迅速に発見できる。これにより、サイバー攻撃からの防御を強化し、インシデント発生時には迅速な対応が可能となる。組織のセキュリティポリシーに基づいた運用が求められ、リスクマネジメントの一環として広く利用されている。",
-          "vi": "SIEM là cơ chế thu thập tập trung nhật ký và thông tin sự kiện từ nhiều thiết bị, hệ thống rồi phân tích chúng. Bằng cách kết hợp thông tin từ máy chủ, thiết bị mạng và sản phẩm an toàn, có thể phát hiện những dấu hiệu bất thường khó nhận biết nếu chỉ xem từng nhật ký riêng lẻ. SIEM hỗ trợ phát hiện sớm sự cố an toàn, điều tra nguyên nhân và phản ứng với sự cố. Việc lưu trữ và phân tích tập trung cũng giúp nâng cao hiệu quả giám sát."
+          "ja": "ファイアウォール、認証サーバ、端末、クラウドなどのログ形式をそろえ、時系列・利用者・IPアドレスなどを関連付ける。ルールや分析モデルに一致した事象をアラート化し、検索・可視化・証跡保存にも利用する。",
+          "vi": "SIEM chuẩn hóa log từ tường lửa, máy chủ xác thực, endpoint và đám mây; liên kết theo thời gian, người dùng, địa chỉ IP… Sự kiện khớp quy tắc hoặc mô hình được cảnh báo; dữ liệu còn dùng tìm kiếm, trực quan và lưu dấu vết."
         },
         {
           "type": "point",
-          "ja": "試験では「SIEM」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “SIEM”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、単一装置の防御機能ではなく、異種ログを集約して相関分析する点を押さえる。",
+          "vi": "Trong FE, trọng tâm là SIEM tập hợp và tương quan log khác loại, không phải một thiết bị phòng thủ đơn lẻ."
+        },
+        {
+          "type": "example",
+          "ja": "VPNの海外ログイン直後に同じIDで大量ファイル取得が記録され、二つのログを相関してアカウント侵害の疑いを通知する。",
+          "vi": "Ngay sau đăng nhập VPN từ nước ngoài, cùng tài khoản tải hàng loạt tệp; SIEM tương quan hai log và cảnh báo nghi ngờ chiếm tài khoản."
+        },
+        {
+          "type": "warning",
+          "ja": "SIEMは入力ログにない事象を自動的に把握できない。時刻同期、ログ欠損、検知ルール、誤検知の調整を継続しなければ有効な監視にならない。",
+          "vi": "SIEM không thể tự thấy sự kiện không có trong log đầu vào. Cần liên tục xử lý đồng bộ thời gian, log thiếu, quy tắc và cảnh báo nhầm."
         }
       ],
       "terms": [
@@ -1556,14 +1643,11 @@
           "reading": "しーむ",
           "english": "Security Information and Event Management",
           "vi": "SIEM",
-          "definitionJa": "セキュリティ情報およびイベント管理の略称であり、企業や組織の情報システムにおけるセキュリティイベントを収集・分析・管理するためのソリューションである。",
-          "definitionVi": "SIEM là cơ chế thu thập tập trung nhật ký và thông tin sự kiện từ nhiều thiết bị, hệ thống rồi phân tích chúng."
+          "definitionJa": "異種システムのログを集中収集・正規化し、相関分析で脅威検知と調査を支援する仕組み。",
+          "definitionVi": "Cơ chế tập trung, chuẩn hóa log từ nhiều hệ thống và tương quan chúng để hỗ trợ phát hiện, điều tra đe dọa."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "siem"
-      ]
+      "tags": ["information-security-countermeasures", "siem"]
     },
     {
       "id": "firewall",
@@ -1571,39 +1655,46 @@
       "titleJa": "ファイアウォール",
       "titleVi": "Tường lửa",
       "importance": "high",
-      "summaryJa": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。",
-      "summaryVi": "Tường lửa là cơ chế kiểm soát giao tiếp giữa các mạng dựa trên các quy tắc đã thiết lập.",
+      "summaryJa": "ファイアウォールは、異なる信頼領域間の通信をセキュリティポリシーに基づいて検査し、許可または遮断する装置・ソフトウェアである。",
+      "summaryVi": "Tường lửa là thiết bị hoặc phần mềm kiểm tra lưu lượng giữa các vùng tin cậy khác nhau và cho phép hay chặn theo chính sách bảo mật.",
       "content": [
         {
           "type": "heading",
-          "ja": "ファイアウォールとは",
-          "vi": "Tường lửa là gì?"
+          "ja": "境界で通信を制御する",
+          "vi": "Kiểm soát lưu lượng tại ranh giới"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。特定の通信を監視し、許可されたトラフィックのみを通過させ、悪意のあるデータや攻撃からシステムを保護する役割を果たす。企業や個人のネットワークでよく使用され、内部と外部のネットワーク間のバリアを形成する。例えば、インターネットからの不正アクセスを防ぐために、特定のポートを閉じる設定を行うことができる。また、ファイアウォールには、パケットフィルタリング型、ステートフル型、次世代型など様々な種類があり、それぞれを用いることで異なる運用ニーズに応じたセキュリティを実現することが可能である。",
-          "vi": "Tường lửa là cơ chế kiểm soát giao tiếp giữa các mạng dựa trên các quy tắc đã thiết lập. Nó kiểm tra địa chỉ IP, số cổng, giao thức và các thông tin khác để cho phép hoặc chặn giao tiếp. Bằng cách ngăn giao tiếp không cần thiết hoặc không được phép, có thể giảm nguy cơ truy cập trái phép từ bên ngoài. Tường lửa là một biện pháp cơ bản để bảo vệ ranh giới mạng."
+          "ja": "パケットフィルタ型は送信元・宛先IP、ポート、プロトコルなどを調べ、ステートフル型は接続状態も追跡する。必要な通信だけを許可し、その他を拒否する方針を基本に、規則とログを継続管理する。",
+          "vi": "Loại lọc gói xét IP nguồn/đích, cổng và giao thức; loại stateful còn theo dõi trạng thái kết nối. Chính sách cơ bản là chỉ cho phép lưu lượng cần thiết và từ chối phần còn lại, đồng thời quản lý quy tắc cùng log."
         },
         {
           "type": "point",
-          "ja": "試験では「ファイアウォール」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Tường lửa”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、ファイアウォールは主にネットワーク境界の通信制御、WAFはHTTP/HTTPSのアプリケーション内容検査と区別する。",
+          "vi": "Trong FE, cần phân biệt firewall chủ yếu kiểm soát lưu lượng tại ranh giới mạng với WAF kiểm tra nội dung ứng dụng HTTP/HTTPS."
+        },
+        {
+          "type": "example",
+          "ja": "外部から社内WebサーバへのTCP 443だけを許可し、管理用ポートへの接続を拒否して記録する。",
+          "vi": "Chỉ cho phép TCP 443 từ ngoài tới máy chủ Web nội bộ, từ chối và ghi log kết nối vào cổng quản trị."
+        },
+        {
+          "type": "warning",
+          "ja": "許可済み通信の中に含まれる攻撃や、内部端末上の不正動作まで全て防げるわけではない。不要な許可規則を残すと境界防御が弱くなる。",
+          "vi": "Firewall không ngăn được mọi tấn công nằm trong lưu lượng đã cho phép hoặc hành vi độc hại ngay trên endpoint. Quy tắc cho phép dư thừa làm yếu phòng thủ."
         }
       ],
       "terms": [
         {
           "term": "ファイアウォール",
-          "reading": "",
+          "reading": "ふぁいあうぉーる",
           "english": "Firewall",
           "vi": "Tường lửa",
-          "definitionJa": "ネットワークを外部の脅威から守るためのセキュリティ機器またはソフトウェアである。",
-          "definitionVi": "Tường lửa là cơ chế kiểm soát giao tiếp giữa các mạng dựa trên các quy tắc đã thiết lập."
+          "definitionJa": "異なる信頼領域間の通信をポリシーに基づいて検査し、許可または遮断する装置・ソフトウェア。",
+          "definitionVi": "Thiết bị hoặc phần mềm kiểm tra lưu lượng giữa các vùng tin cậy và cho phép hoặc chặn theo chính sách."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "firewall"
-      ]
+      "tags": ["information-security-countermeasures", "firewall"]
     },
     {
       "id": "waf",
@@ -1611,23 +1702,33 @@
       "titleJa": "WAF",
       "titleVi": "Tường lửa ứng dụng Web",
       "importance": "high",
-      "summaryJa": "Webアプリケーションを保護するためのセキュリティ製品である。",
-      "summaryVi": "WAF là cơ chế bảo vệ ứng dụng Web khỏi các cuộc tấn công thông qua giao tiếp HTTP/HTTPS.",
+      "summaryJa": "WAFは、Webアプリケーションへ送受信されるHTTP/HTTPS通信の内容を検査し、SQLインジェクションやXSSなどの攻撃要求を検出・遮断する仕組みである。",
+      "summaryVi": "WAF kiểm tra nội dung HTTP/HTTPS đi tới và từ ứng dụng Web để phát hiện, chặn yêu cầu tấn công như SQL injection hoặc XSS.",
       "content": [
         {
           "type": "heading",
-          "ja": "WAFとは",
-          "vi": "Tường lửa ứng dụng Web là gì?"
+          "ja": "Webアプリケーション層を防御",
+          "vi": "Bảo vệ lớp ứng dụng Web"
         },
         {
           "type": "paragraph",
-          "ja": "Webアプリケーションを保護するためのセキュリティ製品である。主に、悪意のある攻撃からWebサイトやアプリケーションを守る役割を果たす。例えば、SQLインジェクションやクロスサイトスクリプティングといった攻撃を防ぐために、トラフィックを監視し、不正なリクエストをブロックすることができる。ユーザーがWebアプリケーションに接続する際、データの送受信を詳細に分析することで、特定のパターンや異常を検出し、セキュリティを強化する。また、企業の機密情報やユーザーのプライバシーを保護するために重要な役割を果たしており、データ漏えいや侵害からの防御に欠かせない存在である。",
-          "vi": "WAF là cơ chế bảo vệ ứng dụng Web khỏi các cuộc tấn công thông qua giao tiếp HTTP/HTTPS. Nó kiểm tra nội dung yêu cầu gửi tới ứng dụng Web và chặn các yêu cầu được đánh giá là nguy hiểm. WAF được sử dụng để đối phó với các cuộc tấn công nhắm vào lỗ hổng của ứng dụng Web. Khác với tường lửa thông thường chủ yếu kiểm soát ở mức mạng, WAF kiểm tra nội dung giao tiếp của ứng dụng Web."
+          "ja": "URL、ヘッダ、Cookie、パラメータ、本文などを解析し、シグネチャ、許可リスト、異常検知などで危険な要求を判定する。リバースプロキシ型、クラウドサービス型、ホスト組込み型などがある。",
+          "vi": "WAF phân tích URL, header, cookie, tham số và body; dùng chữ ký, danh sách cho phép hoặc phát hiện bất thường để đánh giá yêu cầu. Có dạng reverse proxy, dịch vụ đám mây hoặc tích hợp máy chủ."
         },
         {
           "type": "point",
-          "ja": "試験では「WAF」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Tường lửa ứng dụng Web”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、IPアドレスやポート中心の通常のファイアウォールと、Web要求内容を検査するWAFの守備範囲を区別する。",
+          "vi": "Trong FE, cần phân biệt firewall thông thường chủ yếu xét IP/cổng với WAF kiểm tra nội dung yêu cầu Web."
+        },
+        {
+          "type": "example",
+          "ja": "検索欄へSQL構文を埋め込んだ要求をWAFが検出し、アプリケーションへ届く前に403応答で遮断する。",
+          "vi": "WAF phát hiện yêu cầu chèn cú pháp SQL vào ô tìm kiếm và chặn bằng phản hồi 403 trước khi tới ứng dụng."
+        },
+        {
+          "type": "warning",
+          "ja": "WAFは安全な設計・実装や脆弱性修正の代替ではない。HTTPSを検査するには復号可能な配置が必要で、厳しすぎる規則は正当な要求を遮断する。",
+          "vi": "WAF không thay thế thiết kế, lập trình an toàn và vá lỗi. Muốn kiểm tra HTTPS cần vị trí có thể giải mã; quy tắc quá chặt có thể chặn yêu cầu hợp lệ."
         }
       ],
       "terms": [
@@ -1636,14 +1737,11 @@
           "reading": "わふ",
           "english": "Web Application Firewall",
           "vi": "Tường lửa ứng dụng Web",
-          "definitionJa": "Webアプリケーションを保護するためのセキュリティ製品である。",
-          "definitionVi": "WAF là cơ chế bảo vệ ứng dụng Web khỏi các cuộc tấn công thông qua giao tiếp HTTP/HTTPS."
+          "definitionJa": "HTTP/HTTPS通信の内容を検査し、Webアプリケーションを狙う攻撃要求を検出・遮断する仕組み。",
+          "definitionVi": "Cơ chế kiểm tra nội dung HTTP/HTTPS để phát hiện và chặn yêu cầu tấn công ứng dụng Web."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "waf"
-      ]
+      "tags": ["information-security-countermeasures", "waf"]
     },
     {
       "id": "ids",
@@ -1651,23 +1749,33 @@
       "titleJa": "IDS",
       "titleVi": "Hệ thống phát hiện xâm nhập",
       "importance": "high",
-      "summaryJa": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。",
-      "summaryVi": "IDS là hệ thống phát hiện xâm nhập.",
+      "summaryJa": "IDSは、ネットワーク通信またはホストの活動を監視し、攻撃・不正アクセスの兆候を検出して管理者へ通知する侵入検知システムである。",
+      "summaryVi": "IDS là hệ thống giám sát lưu lượng mạng hoặc hoạt động máy chủ, phát hiện dấu hiệu tấn công hay truy cập trái phép và cảnh báo quản trị viên.",
       "content": [
         {
           "type": "heading",
-          "ja": "IDSとは",
-          "vi": "Hệ thống phát hiện xâm nhập là gì?"
+          "ja": "NIDSとHIDS",
+          "vi": "NIDS và HIDS"
         },
         {
           "type": "paragraph",
-          "ja": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。これにより、システム管理者は潜在的な脅威を早期に発見し、迅速な対応が可能になる。IDSは大きく分けて、ネットワークベースとホストベースに分類され、前者はネットワークトラフィック全体を監視し、後者は特定のデバイス内の動作を監視する。例えば、IDSが不正ログインの試行を検知した場合、アラートを発生させて管理者に通知することができる。このように、IDSはサイバー攻撃からシステムを守るための重要な役割を果たしている。",
-          "vi": "IDS là hệ thống phát hiện xâm nhập. Nó giám sát giao tiếp mạng hoặc hoạt động trên máy chủ và phát hiện dấu hiệu tấn công hoặc hành vi bất thường. Khi phát hiện xâm nhập, IDS chủ yếu đưa ra cảnh báo cho quản trị viên. Nhờ đó, quản trị viên có thể điều tra tình trạng và thực hiện biện pháp ứng phó."
+          "ja": "NIDSはネットワーク上のパケットやセッションを監視し、HIDSは個々のホストでログ、プロセス、ファイル変更などを監視する。シグネチャ型と異常検知型を単独または組み合わせて用いる。",
+          "vi": "NIDS giám sát gói và phiên trên mạng; HIDS theo dõi log, tiến trình và thay đổi tệp trên từng máy. Có thể dùng riêng hoặc kết hợp phát hiện chữ ký và bất thường."
         },
         {
           "type": "point",
-          "ja": "試験では「IDS」の目的・役割と、関連する対策との違いを押さえる。",
-          "vi": "Trong kỳ thi, cần nắm mục đích và vai trò của “Hệ thống phát hiện xâm nhập”, đồng thời phân biệt với các biện pháp liên quan."
+          "ja": "FEでは、IDSは検知・警告が中心、IPSは通信経路上で攻撃を自動遮断できる点を区別する。",
+          "vi": "Trong FE, IDS tập trung phát hiện/cảnh báo, còn IPS có thể tự động chặn tấn công trên đường truyền."
+        },
+        {
+          "type": "example",
+          "ja": "NIDSがポートスキャンを検出して送信元、宛先、時刻を記録し、管理者へアラートを送る。",
+          "vi": "NIDS phát hiện quét cổng, ghi nguồn, đích, thời gian và gửi cảnh báo cho quản trị viên."
+        },
+        {
+          "type": "warning",
+          "ja": "IDSのアラートだけでは攻撃が成功したかを断定できず、自動遮断もしない構成が一般的である。ログや端末情報と突き合わせて調査する。",
+          "vi": "Chỉ cảnh báo IDS chưa đủ kết luận tấn công đã thành công, và cấu hình IDS thường không tự chặn. Cần đối chiếu log cùng thông tin endpoint."
         }
       ],
       "terms": [
@@ -1676,14 +1784,11 @@
           "reading": "あいでぃーえす",
           "english": "Intrusion Detection System",
           "vi": "Hệ thống phát hiện xâm nhập",
-          "definitionJa": "ネットワークやコンピュータシステムへの不正アクセスや攻撃を監視し、検知するためのシステムである。",
-          "definitionVi": "IDS là hệ thống phát hiện xâm nhập."
+          "definitionJa": "通信やホスト活動を監視し、侵入・攻撃の兆候を検出して通知するシステム。",
+          "definitionVi": "Hệ thống giám sát lưu lượng hoặc hoạt động máy để phát hiện và cảnh báo dấu hiệu xâm nhập, tấn công."
         }
       ],
-      "tags": [
-        "information-security-countermeasures",
-        "ids"
-      ]
+      "tags": ["information-security-countermeasures", "ids"]
     },
     {
       "id": "ips",

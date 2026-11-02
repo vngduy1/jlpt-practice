@@ -59,7 +59,12 @@
           "definitionVi": "Máy tính đa dụng được thiết kế chủ yếu để một cá nhân sử dụng."
         }
       ],
-      "tags": ["computer-components", "processor", "personal-computer", "pc"]
+      "tags": [
+        "computer-components",
+        "processor",
+        "personal-computer",
+        "pc"
+      ]
     },
     {
       "id": "workstation",
@@ -805,7 +810,12 @@
           "definitionVi": "Bộ xử lý dùng để thực hiện nhanh xử lý đồ họa và lượng lớn phép tính song song."
         }
       ],
-      "tags": ["computer-components", "processor", "gpu", "parallel-processing"]
+      "tags": [
+        "computer-components",
+        "processor",
+        "gpu",
+        "parallel-processing"
+      ]
     },
     {
       "id": "risc",
@@ -1999,28 +2009,33 @@
       "titleJa": "論理演算命令",
       "titleVi": "Lệnh phép toán logic",
       "importance": "high",
-      "summaryJa": "AND、OR、NOTなどの論理演算を実行する論理演算命令について理解する。",
-      "summaryVi": "Tìm hiểu các lệnh logic dùng để thực hiện AND, OR, NOT và các phép toán logic khác.",
+      "summaryJa": "論理演算命令は、レジスタなどのビット列にAND、OR、XOR、NOTを適用し、ビットの抽出・設定・反転や条件判定に利用する命令である。",
+      "summaryVi": "Lệnh logic áp dụng AND, OR, XOR, NOT lên chuỗi bit trong thanh ghi để trích xuất, đặt, đảo bit hoặc kiểm tra điều kiện.",
       "content": [
         {
           "type": "heading",
-          "ja": "論理演算命令とは",
-          "vi": "Lệnh logic là gì?"
+          "ja": "ビット単位の論理演算",
+          "vi": "Phép logic theo từng bit"
         },
         {
           "type": "paragraph",
-          "ja": "論理演算命令（Logical Operation Instruction）は、AND、OR、NOTなどの論理演算を実行するための命令である。",
-          "vi": "Logical Operation Instruction là các lệnh dùng để thực hiện các phép toán logic như AND, OR và NOT."
-        },
-        {
-          "type": "paragraph",
-          "ja": "ビット単位の処理や条件判定など、プログラムやプロセッサ内部のさまざまな処理に利用される。",
-          "vi": "Chúng được sử dụng trong xử lý theo bit, kiểm tra điều kiện và nhiều xử lý khác bên trong chương trình và bộ xử lý."
+          "ja": "論理演算命令は、同じ桁位置のビットごとに演算する。ANDはマスクで必要なビットだけを残し、ORは特定ビットを1にし、XORは指定ビットを反転し、NOTは全ビットを反転する。フラグ、権限、デバイス状態などを一語のビット列で管理する処理に適している。",
+          "vi": "Lệnh logic xử lý độc lập các bit cùng vị trí. AND dùng mặt nạ để giữ bit cần thiết; OR đặt bit thành 1; XOR đảo bit được chọn; NOT đảo toàn bộ bit. Chúng phù hợp khi cờ, quyền hoặc trạng thái thiết bị được lưu trong một từ bit."
         },
         {
           "type": "point",
-          "ja": "論理演算命令は真偽値やビットパターンを扱う。",
-          "vi": "Lệnh logic xử lý giá trị Boolean hoặc mẫu bit."
+          "ja": "AND＝抽出・クリア、OR＝セット、XOR＝反転という典型用途を、マスク値と対応付けて覚える。",
+          "vi": "Cần nhớ ứng dụng điển hình cùng mặt nạ: AND = trích xuất/xóa, OR = đặt bit, XOR = đảo bit."
+        },
+        {
+          "type": "example",
+          "ja": "例：8ビット値10110110とマスク00001111をANDすると00000110となり、下位4ビットだけを取り出せる。",
+          "vi": "Ví dụ: AND giá trị 8 bit 10110110 với mặt nạ 00001111 được 00000110, tức chỉ lấy 4 bit thấp."
+        },
+        {
+          "type": "warning",
+          "ja": "論理演算はビットごとの処理で、論理ANDと加算は別物である。NOTの結果はレジスタ幅に依存するため、先頭の0も反転対象になる。",
+          "vi": "Phép logic xử lý theo bit, không phải phép cộng. Kết quả NOT phụ thuộc độ rộng thanh ghi vì cả các bit 0 ở đầu cũng bị đảo."
         }
       ],
       "terms": [
@@ -2029,8 +2044,8 @@
           "reading": "ろんりえんざんめいれい",
           "english": "Logical Operation Instruction",
           "vi": "lệnh phép toán logic",
-          "definitionJa": "AND、OR、NOTなどの論理演算を行う命令。",
-          "definitionVi": "Lệnh thực hiện các phép toán logic như AND, OR và NOT."
+          "definitionJa": "ビット列にAND、OR、XOR、NOTなどを適用する機械語命令。",
+          "definitionVi": "Lệnh máy áp dụng AND, OR, XOR, NOT và các phép logic khác lên chuỗi bit."
         }
       ],
       "tags": ["processor", "instruction", "logical-operation"]
@@ -2041,23 +2056,33 @@
       "titleJa": "転送命令",
       "titleVi": "Lệnh truyền dữ liệu",
       "importance": "high",
-      "summaryJa": "レジスタやメモリなどの間でデータを移動する転送命令について理解する。",
-      "summaryVi": "Tìm hiểu lệnh truyền dữ liệu dùng để di chuyển dữ liệu giữa thanh ghi, bộ nhớ và thiết bị.",
+      "summaryJa": "転送命令は、レジスタ、主記憶、即値などの間でデータを読み出し・格納する命令で、演算に必要なデータ配置を行う。",
+      "summaryVi": "Lệnh truyền dữ liệu đọc hoặc ghi dữ liệu giữa thanh ghi, bộ nhớ chính và giá trị tức thời để bố trí toán hạng cho xử lý.",
       "content": [
         {
           "type": "heading",
-          "ja": "転送命令とは",
-          "vi": "Lệnh truyền dữ liệu là gì?"
+          "ja": "データを演算可能な場所へ移す",
+          "vi": "Đưa dữ liệu tới nơi có thể xử lý"
         },
         {
           "type": "paragraph",
-          "ja": "転送命令（Transfer Instruction）は、データをメモリ、レジスタ、入出力装置などの間で移動するための命令である。",
-          "vi": "Transfer Instruction là lệnh di chuyển dữ liệu giữa bộ nhớ, thanh ghi và thiết bị vào/ra."
+          "ja": "代表例は、メモリからレジスタへ読み込むロード、レジスタからメモリへ書き込むストア、レジスタ間のムーブである。多くのCPUでは演算命令が主にレジスタを対象とするため、転送命令でオペランドを用意し、演算後の結果を必要な場所へ保存する。",
+          "vi": "Ví dụ điển hình là load từ bộ nhớ vào thanh ghi, store từ thanh ghi ra bộ nhớ và move giữa các thanh ghi. Vì nhiều CPU chủ yếu tính toán trên thanh ghi, lệnh truyền chuẩn bị toán hạng rồi lưu kết quả sau tính toán vào nơi cần thiết."
         },
         {
           "type": "point",
-          "ja": "転送命令はデータそのものを計算するのではなく、保存場所を移動する。",
-          "vi": "Lệnh truyền không tính toán dữ liệu mà chuyển dữ liệu từ vị trí này sang vị trí khác."
+          "ja": "ロードは主記憶→レジスタ、ストアはレジスタ→主記憶である。転送と呼んでも、通常は元データを消す「移動」ではなく値の複写である。",
+          "vi": "Load: bộ nhớ → thanh ghi; store: thanh ghi → bộ nhớ. Dù gọi là truyền/chuyển, thông thường giá trị nguồn không bị xóa mà được sao chép."
+        },
+        {
+          "type": "example",
+          "ja": "例：LOAD R1,[1000]で番地1000の値をR1に読み込み、加算後にSTORE R1,[2000]で結果を番地2000へ書き込む。",
+          "vi": "Ví dụ: LOAD R1,[1000] đọc giá trị tại địa chỉ 1000 vào R1; sau phép cộng, STORE R1,[2000] ghi kết quả tới địa chỉ 2000."
+        },
+        {
+          "type": "warning",
+          "ja": "メモリ間を直接転送できるか、入出力を同じ命令で扱うかは命令セットによって異なる。一般概念と特定CPUの命令形式を混同しない。",
+          "vi": "Khả năng truyền trực tiếp bộ nhớ–bộ nhớ và việc I/O dùng cùng lệnh hay không phụ thuộc tập lệnh. Không nhầm khái niệm chung với cú pháp của một CPU cụ thể."
         }
       ],
       "terms": [
@@ -2066,8 +2091,8 @@
           "reading": "てんそうめいれい",
           "english": "Transfer Instruction",
           "vi": "lệnh truyền dữ liệu",
-          "definitionJa": "レジスタやメモリなどの間でデータを移動する命令。",
-          "definitionVi": "Lệnh dùng để di chuyển dữ liệu giữa thanh ghi, bộ nhớ và các vị trí khác."
+          "definitionJa": "レジスタ、主記憶、即値などの間でデータを読み出し又は格納する命令。",
+          "definitionVi": "Lệnh đọc hoặc ghi dữ liệu giữa thanh ghi, bộ nhớ chính, giá trị tức thời và các vị trí liên quan."
         }
       ],
       "tags": ["processor", "instruction", "data-transfer"]
@@ -2078,28 +2103,33 @@
       "titleJa": "比較命令",
       "titleVi": "Lệnh so sánh",
       "importance": "high",
-      "summaryJa": "二つの値を比較し、その結果を条件分岐などに利用する比較命令について理解する。",
-      "summaryVi": "Tìm hiểu lệnh so sánh dùng để so sánh hai giá trị và sử dụng kết quả cho các xử lý như rẽ nhánh.",
+      "summaryJa": "比較命令は、二つのオペランドの大小、等値、不等値を判定し、条件フラグ又は真偽値として後続の分岐などに渡す命令である。",
+      "summaryVi": "Lệnh so sánh xác định quan hệ lớn, nhỏ, bằng hoặc khác giữa hai toán hạng và cung cấp cờ điều kiện hay giá trị Boolean cho xử lý tiếp theo.",
       "content": [
         {
           "type": "heading",
-          "ja": "比較命令とは",
-          "vi": "Lệnh so sánh là gì?"
+          "ja": "比較結果を制御に利用する",
+          "vi": "Dùng kết quả so sánh để điều khiển"
         },
         {
           "type": "paragraph",
-          "ja": "比較命令（Comparison Instruction）は、二つの値の大小や一致・不一致などを比較するための命令である。",
-          "vi": "Comparison Instruction là lệnh dùng để so sánh hai giá trị về lớn nhỏ, bằng nhau hoặc khác nhau."
-        },
-        {
-          "type": "paragraph",
-          "ja": "比較結果は条件分岐の判断などに利用され、プログラムの処理の流れを制御する。",
-          "vi": "Kết quả so sánh thường được dùng để quyết định rẽ nhánh và điều khiển luồng chương trình."
+          "ja": "比較命令は、内部的に減算と同様の判定を行ってゼロ、符号、キャリー、オーバフローなどの条件コードを更新する方式や、比較結果をレジスタに書く方式がある。後続の条件分岐や条件付き演算が、その結果を参照して処理の流れを選ぶ。",
+          "vi": "Có kiến trúc so sánh giống phép trừ và cập nhật cờ zero, sign, carry, overflow; kiến trúc khác ghi kết quả so sánh vào thanh ghi. Lệnh rẽ nhánh hoặc phép toán có điều kiện phía sau đọc kết quả để chọn luồng xử lý."
         },
         {
           "type": "point",
-          "ja": "比較命令の結果は、分岐命令と組み合わせて利用されることが多い。",
-          "vi": "Kết quả của lệnh so sánh thường được sử dụng cùng lệnh rẽ nhánh."
+          "ja": "比較命令は通常、比較対象そのものを変更せず、条件コード又は判定値を生成する。比較と分岐が一命令に統合されるISAもある。",
+          "vi": "Lệnh so sánh thường không sửa hai giá trị gốc mà tạo cờ hoặc kết quả Boolean. Một số ISA gộp so sánh và rẽ nhánh trong cùng lệnh."
+        },
+        {
+          "type": "example",
+          "ja": "例：R1＝7、R2＝10を比較して「R1＜R2」を真とし、その結果を用いた条件分岐で小さい値を処理する経路へ進む。",
+          "vi": "Ví dụ: so sánh R1 = 7 với R2 = 10 cho kết quả R1 < R2 là đúng; rẽ nhánh có điều kiện chuyển tới đường xử lý giá trị nhỏ hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "同じビット列でも符号付き比較と符号なし比較では大小関係が異なることがある。設問ではデータ型と参照するフラグを確認する。",
+          "vi": "Cùng một mẫu bit có thể cho quan hệ khác nhau khi so sánh có dấu và không dấu. Cần kiểm tra kiểu dữ liệu và cờ điều kiện được dùng."
         }
       ],
       "terms": [
@@ -2108,8 +2138,8 @@
           "reading": "ひかくめいれい",
           "english": "Comparison Instruction",
           "vi": "lệnh so sánh",
-          "definitionJa": "二つの値を比較して、その結果を後続の処理に利用する命令。",
-          "definitionVi": "Lệnh so sánh hai giá trị và sử dụng kết quả cho xử lý tiếp theo."
+          "definitionJa": "二つの値の関係を判定し、条件フラグ又は判定値を生成する命令。",
+          "definitionVi": "Lệnh xác định quan hệ giữa hai giá trị và tạo cờ điều kiện hoặc kết quả Boolean."
         }
       ],
       "tags": ["processor", "instruction", "comparison"]
@@ -2120,23 +2150,33 @@
       "titleJa": "分岐命令",
       "titleVi": "Lệnh rẽ nhánh",
       "importance": "high",
-      "summaryJa": "条件に応じて次に実行する命令の位置を変更する分岐命令について理解する。",
-      "summaryVi": "Tìm hiểu lệnh rẽ nhánh, dùng để thay đổi vị trí lệnh tiếp theo tùy theo điều kiện.",
+      "summaryJa": "分岐命令は、プログラムカウンタを分岐先アドレスへ変更し、無条件又は条件に応じて次の実行位置を切り替える命令である。",
+      "summaryVi": "Lệnh rẽ nhánh thay đổi bộ đếm chương trình sang địa chỉ đích, chuyển vị trí thực thi tiếp theo vô điều kiện hoặc theo điều kiện.",
       "content": [
         {
           "type": "heading",
-          "ja": "分岐命令とは",
-          "vi": "Lệnh rẽ nhánh là gì?"
+          "ja": "プログラムカウンタを変更する",
+          "vi": "Thay đổi bộ đếm chương trình"
         },
         {
           "type": "paragraph",
-          "ja": "分岐命令（Branch Instruction）は、条件などに応じて通常の順次実行を変更し、別の位置にある命令へ処理を移すための命令である。",
-          "vi": "Branch Instruction là lệnh thay đổi luồng thực thi tuần tự và chuyển sang một lệnh ở vị trí khác dựa trên điều kiện."
+          "ja": "通常は次番地へ進むプログラムカウンタ（PC）に分岐先を設定することで、if、switch、ループなどを実現する。無条件分岐は常に移動し、条件分岐は比較結果や条件フラグに従う。呼出し・復帰命令も実行位置を変える制御転送の一種である。",
+          "vi": "Bằng cách đặt địa chỉ đích vào program counter (PC), thay vì luôn sang địa chỉ kế tiếp, CPU thực hiện if, switch và vòng lặp. Rẽ nhánh vô điều kiện luôn chuyển; rẽ nhánh có điều kiện dựa trên kết quả so sánh hoặc cờ. Gọi và trở về hàm cũng là dạng chuyển điều khiển."
         },
         {
           "type": "point",
-          "ja": "条件分岐はif文やループなどを実現する基礎となる。",
-          "vi": "Rẽ nhánh có điều kiện là cơ sở để thực hiện if và vòng lặp."
+          "ja": "条件が成立すればtaken、成立しなければnot takenとなる。パイプラインCPUでは分岐予測の成否が性能に影響する。",
+          "vi": "Điều kiện đúng thì nhánh được taken; sai thì not taken. Trên CPU pipeline, độ chính xác dự đoán nhánh ảnh hưởng hiệu năng."
+        },
+        {
+          "type": "example",
+          "ja": "例：カウンタが10未満ならループ先へ分岐し、10以上なら次の命令へ進むことで、処理を10回繰り返す。",
+          "vi": "Ví dụ: nếu bộ đếm nhỏ hơn 10 thì rẽ về đầu vòng lặp; từ 10 trở lên thì đi tiếp, nhờ đó xử lý lặp 10 lần."
+        },
+        {
+          "type": "warning",
+          "ja": "条件分岐と比較命令は別命令の場合も、一体化される場合もある。また分岐予測に失敗すると、先読みした命令を破棄してパイプラインをやり直す。",
+          "vi": "So sánh và rẽ nhánh có thể là hai lệnh riêng hoặc được gộp tùy ISA. Khi dự đoán nhánh sai, CPU phải hủy lệnh đã nạp trước và nạp lại pipeline."
         }
       ],
       "terms": [
@@ -2145,8 +2185,8 @@
           "reading": "ぶんきめいれい",
           "english": "Branch Instruction",
           "vi": "lệnh rẽ nhánh",
-          "definitionJa": "条件などに応じて、次に実行する命令の位置を変更する命令。",
-          "definitionVi": "Lệnh thay đổi vị trí lệnh sẽ được thực thi tiếp theo dựa trên điều kiện."
+          "definitionJa": "プログラムカウンタを変更し、次に実行する命令位置を切り替える命令。",
+          "definitionVi": "Lệnh thay đổi program counter để chuyển vị trí lệnh được thực thi tiếp theo."
         }
       ],
       "tags": ["processor", "instruction", "branch"]
@@ -2157,28 +2197,33 @@
       "titleJa": "シフト命令",
       "titleVi": "Lệnh dịch bit",
       "importance": "high",
-      "summaryJa": "ビット列を左または右に移動させるシフト命令について理解する。",
-      "summaryVi": "Tìm hiểu lệnh dịch bit dùng để dịch chuỗi bit sang trái hoặc sang phải.",
+      "summaryJa": "シフト命令はビット列を左右へ移動し、論理シフトでは空きを0で、算術右シフトでは符号ビットで埋める命令である。",
+      "summaryVi": "Lệnh dịch chuyển chuỗi bit sang trái hoặc phải; dịch logic điền 0, còn dịch phải số học giữ dấu bằng cách điền bit dấu.",
       "content": [
         {
           "type": "heading",
-          "ja": "シフト命令とは",
-          "vi": "Lệnh dịch bit là gì?"
+          "ja": "論理シフトと算術シフト",
+          "vi": "Dịch logic và dịch số học"
         },
         {
           "type": "paragraph",
-          "ja": "シフト命令（Shift Instruction）は、2進数のビット列を左または右へ移動させる命令である。",
-          "vi": "Shift Instruction là lệnh dịch chuỗi bit nhị phân sang trái hoặc sang phải."
-        },
-        {
-          "type": "paragraph",
-          "ja": "一般に、1ビット左へシフトすると2倍、右へシフトすると2分の1に相当する処理として利用できる場合がある。",
-          "vi": "Trong nhiều trường hợp, dịch trái một bit tương ứng với nhân 2, còn dịch phải một bit tương ứng với chia 2."
+          "ja": "論理シフトは符号を考えず、空いたビットを0で埋める。算術右シフトは符号付き整数の符号を保つため最上位の符号ビットを複製する。左シフトは下位に0を入れ、範囲内なら1ビットごとに2倍に相当する。シフトアウトしたビットは失われるか、キャリーフラグへ入る場合がある。",
+          "vi": "Dịch logic không xét dấu và điền 0 vào chỗ trống. Dịch phải số học sao chép bit dấu cao nhất để giữ dấu số nguyên có dấu. Dịch trái điền 0 phía thấp và, nếu không vượt phạm vi, mỗi bit tương đương nhân 2. Bit bị đẩy ra có thể mất hoặc vào cờ carry tùy kiến trúc."
         },
         {
           "type": "point",
-          "ja": "左シフトは2倍、右シフトは1/2という関係を基本として覚える。",
-          "vi": "Cần nhớ cơ bản: dịch trái ×2, dịch phải ÷2."
+          "ja": "論理右シフトは0埋め、算術右シフトは符号拡張である。符号付きデータの右シフトでは両者を区別する。",
+          "vi": "Dịch phải logic điền 0; dịch phải số học mở rộng dấu. Với dữ liệu có dấu phải phân biệt hai loại."
+        },
+        {
+          "type": "example",
+          "ja": "例：8ビット11110000を論理右シフトすると01111000、算術右シフトすると11111000となる。",
+          "vi": "Ví dụ: dịch phải 8 bit 11110000 theo logic được 01111000; theo số học được 11111000."
+        },
+        {
+          "type": "warning",
+          "ja": "「左シフト＝常に2倍、右シフト＝常に2分の1」ではない。オーバフロー、失われる余り、負数の丸め、固定ビット幅を考慮する。",
+          "vi": "Không phải lúc nào dịch trái cũng đúng bằng nhân 2 hay dịch phải bằng chia 2. Phải xét tràn, phần dư bị mất, làm tròn số âm và độ rộng bit cố định."
         }
       ],
       "terms": [
@@ -2187,8 +2232,8 @@
           "reading": "しふとめいれい",
           "english": "Shift Instruction",
           "vi": "lệnh dịch bit",
-          "definitionJa": "ビット列を左または右方向へ移動させる命令。",
-          "definitionVi": "Lệnh dịch chuỗi bit sang trái hoặc phải."
+          "definitionJa": "ビット列を左右へ移動し、0埋め又は符号拡張を行う命令。",
+          "definitionVi": "Lệnh dịch chuỗi bit sang trái hoặc phải, điền 0 hoặc mở rộng dấu tùy loại."
         }
       ],
       "tags": ["processor", "instruction", "shift"]
@@ -2199,23 +2244,33 @@
       "titleJa": "入出力命令",
       "titleVi": "Lệnh vào/ra",
       "importance": "high",
-      "summaryJa": "CPUと外部の入出力装置との間でデータをやり取りする入出力命令について理解する。",
-      "summaryVi": "Tìm hiểu lệnh vào/ra dùng để trao đổi dữ liệu giữa CPU và các thiết bị ngoại vi.",
+      "summaryJa": "入出力命令は、CPUが入出力ポート又はメモリに割り当てられた装置レジスタを介して、外部装置のデータや状態を読み書きする命令である。",
+      "summaryVi": "Lệnh vào/ra cho CPU đọc hoặc ghi dữ liệu và trạng thái thiết bị qua cổng I/O hoặc thanh ghi thiết bị được ánh xạ bộ nhớ.",
       "content": [
         {
           "type": "heading",
-          "ja": "入出力命令とは",
-          "vi": "Lệnh vào/ra là gì?"
+          "ja": "装置レジスタとのデータ交換",
+          "vi": "Trao đổi với thanh ghi thiết bị"
         },
         {
           "type": "paragraph",
-          "ja": "入出力命令（Input/Output Instruction）は、CPUがキーボード、ディスプレイなどの外部装置とデータをやり取りするための命令である。",
-          "vi": "Input/Output Instruction là lệnh CPU dùng để trao đổi dữ liệu với các thiết bị bên ngoài như bàn phím và màn hình."
+          "ja": "CPUは通常、装置そのものではなく、コントローラのデータ、状態、制御レジスタへアクセスする。独立したI/Oアドレス空間と専用命令を使うポートマップドI/Oと、装置レジスタをメモリアドレスへ割り当てロード・ストアで扱うメモリマップドI/Oがある。",
+          "vi": "CPU thường truy cập các thanh ghi dữ liệu, trạng thái và điều khiển của bộ điều khiển, không trực tiếp thiết bị vật lý. Port-mapped I/O dùng không gian địa chỉ và lệnh riêng; memory-mapped I/O ánh xạ thanh ghi thiết bị vào địa chỉ bộ nhớ và dùng load/store."
         },
         {
           "type": "point",
-          "ja": "入力は外部からCPU側へ、出力はCPU側から外部装置へデータを送る。",
-          "vi": "Input đưa dữ liệu từ bên ngoài vào hệ thống; output đưa dữ liệu từ hệ thống ra thiết bị bên ngoài."
+          "ja": "入力は装置レジスタからCPU側へ読み、出力はCPU側から装置レジスタへ書く。方式は命令セットとシステム設計に依存する。",
+          "vi": "Input đọc từ thanh ghi thiết bị về CPU; output ghi từ CPU tới thanh ghi thiết bị. Cách thực hiện phụ thuộc ISA và thiết kế hệ thống."
+        },
+        {
+          "type": "example",
+          "ja": "例：CPUが状態レジスタで送信可能を確認し、データレジスタへ1文字を書き込むと、通信コントローラが外部へ送信する。",
+          "vi": "Ví dụ: CPU kiểm tra thanh ghi trạng thái cho phép gửi rồi ghi một ký tự vào thanh ghi dữ liệu; bộ điều khiển truyền thông gửi ký tự ra ngoài."
+        },
+        {
+          "type": "warning",
+          "ja": "すべてのCPUに専用の入出力命令があるわけではない。メモリマップドI/Oでは通常のロード・ストア形式でも、対象は主記憶ではなく装置レジスタである。",
+          "vi": "Không phải CPU nào cũng có lệnh I/O riêng. Với memory-mapped I/O, dù dùng dạng load/store thông thường, đích là thanh ghi thiết bị chứ không phải RAM."
         }
       ],
       "terms": [
@@ -2224,8 +2279,8 @@
           "reading": "にゅうしゅつりょくめいれい",
           "english": "Input/Output Instruction",
           "vi": "lệnh vào/ra",
-          "definitionJa": "CPUと外部の入出力装置との間でデータをやり取りするための命令。",
-          "definitionVi": "Lệnh trao đổi dữ liệu giữa CPU và thiết bị vào/ra."
+          "definitionJa": "入出力ポート又は装置レジスタを介してCPUと外部装置のデータ・状態を読み書きする命令。",
+          "definitionVi": "Lệnh đọc/ghi dữ liệu và trạng thái giữa CPU với thiết bị ngoài qua cổng hoặc thanh ghi thiết bị."
         }
       ],
       "tags": ["processor", "instruction", "io"]
@@ -2236,28 +2291,33 @@
       "titleJa": "内部割込み",
       "titleVi": "Ngắt nội bộ",
       "importance": "high",
-      "summaryJa": "プログラム実行中にCPU内部の要因によって発生する内部割込みについて理解する。",
-      "summaryVi": "Tìm hiểu ngắt nội bộ, loại ngắt phát sinh do nguyên nhân bên trong CPU trong quá trình thực thi chương trình.",
+      "summaryJa": "内部割込みは、実行中の命令に同期して、例外、保護違反、ページフォールト、SVCなどCPU内部又はプログラム実行に起因して発生する制御移行である。",
+      "summaryVi": "Ngắt nội bộ phát sinh đồng bộ với lệnh đang thực thi do ngoại lệ, vi phạm bảo vệ, page fault, SVC hoặc nguyên nhân bên trong CPU/chương trình.",
       "content": [
         {
           "type": "heading",
-          "ja": "内部割込みとは",
-          "vi": "Ngắt nội bộ là gì?"
+          "ja": "命令実行に同期する例外",
+          "vi": "Ngoại lệ đồng bộ với lệnh thực thi"
         },
         {
           "type": "paragraph",
-          "ja": "内部割込み（Internal Interrupt）は、プログラムの実行に伴ってCPU内部で発生する割込みである。",
-          "vi": "Internal Interrupt là ngắt phát sinh bên trong CPU trong quá trình thực thi chương trình."
-        },
-        {
-          "type": "paragraph",
-          "ja": "演算例外やプログラム例外などが発生した場合、現在の処理を一時中断して例外処理などへ移行する。",
-          "vi": "Khi xảy ra ngoại lệ tính toán hoặc ngoại lệ chương trình, CPU tạm dừng xử lý hiện tại và chuyển sang xử lý ngoại lệ."
+          "ja": "ゼロ除算、不正命令、オーバフロー、アドレス・保護違反などを検出すると、CPUは実行状態を保存して対応する例外ハンドラへ移る。SVCのようにプログラムが意図的にOS機能を要求して発生させるものも内部割込みに含まれる。原因となった命令との対応を特定できる点が外部割込みとの大きな違いである。",
+          "vi": "Khi phát hiện chia 0, lệnh không hợp lệ, tràn hoặc vi phạm địa chỉ/quyền, CPU lưu trạng thái và chuyển tới trình xử lý ngoại lệ. SVC do chương trình chủ động yêu cầu dịch vụ hệ điều hành cũng thuộc nhóm nội bộ. Khác biệt lớn với ngắt ngoài là có thể gắn nguyên nhân với lệnh cụ thể."
         },
         {
           "type": "point",
-          "ja": "内部割込みはCPU内部・プログラム実行に起因する。",
-          "vi": "Ngắt nội bộ bắt nguồn từ bên trong CPU hoặc quá trình thực thi chương trình."
+          "ja": "内部割込みは一般に同期的で、原因は実行中の命令又はプログラム要求にある。SVCは異常ではなく、意図的な割込みである。",
+          "vi": "Ngắt nội bộ thường đồng bộ và nguyên nhân nằm ở lệnh đang chạy hoặc yêu cầu chương trình. SVC là ngắt chủ động, không phải lỗi."
+        },
+        {
+          "type": "example",
+          "ja": "例：プログラムが0で除算しようとすると、CPUは通常の次命令へ進まず、状態を保存してゼロ除算例外ハンドラを実行する。",
+          "vi": "Ví dụ: khi chương trình định chia cho 0, CPU không đi tới lệnh kế tiếp mà lưu trạng thái rồi chạy trình xử lý ngoại lệ chia 0."
+        },
+        {
+          "type": "warning",
+          "ja": "「割込み」「例外」「トラップ」の呼称と分類はアーキテクチャで異なる。FEでは内部要因・同期、外部要因・非同期という基本区分を優先する。",
+          "vi": "Tên gọi và phân loại interrupt, exception, trap khác nhau theo kiến trúc. Trong FE ưu tiên phân biệt cơ bản: nội bộ/đồng bộ và bên ngoài/bất đồng bộ."
         }
       ],
       "terms": [
@@ -2266,8 +2326,8 @@
           "reading": "ないぶわりこみ",
           "english": "Internal Interrupt",
           "vi": "ngắt nội bộ",
-          "definitionJa": "CPU内部やプログラム実行上の要因によって発生する割込み。",
-          "definitionVi": "Ngắt phát sinh do nguyên nhân nội bộ CPU hoặc quá trình thực thi chương trình."
+          "definitionJa": "命令実行又はプログラム要求に同期してCPU内部で発生する割込み・例外。",
+          "definitionVi": "Ngắt hoặc ngoại lệ phát sinh bên trong CPU, đồng bộ với lệnh thực thi hay yêu cầu chương trình."
         }
       ],
       "tags": ["processor", "interrupt", "internal-interrupt"]
@@ -2278,23 +2338,33 @@
       "titleJa": "外部割込み",
       "titleVi": "Ngắt bên ngoài",
       "importance": "high",
-      "summaryJa": "外部装置などからの信号によって発生する外部割込みについて理解する。",
-      "summaryVi": "Tìm hiểu ngắt ngoài, phát sinh từ tín hiệu của thiết bị hoặc sự kiện bên ngoài CPU.",
+      "summaryJa": "外部割込みは、入出力装置、タイマ、電源異常などCPU外部の事象から非同期に要求され、実行中処理を一時中断してハンドラへ移す仕組みである。",
+      "summaryVi": "Ngắt ngoài là yêu cầu bất đồng bộ từ sự kiện ngoài CPU như thiết bị I/O, timer hay lỗi nguồn, tạm dừng xử lý hiện tại để chạy handler.",
       "content": [
         {
           "type": "heading",
-          "ja": "外部割込みとは",
-          "vi": "Ngắt bên ngoài là gì?"
+          "ja": "外部事象を非同期に通知する",
+          "vi": "Thông báo bất đồng bộ sự kiện bên ngoài"
         },
         {
           "type": "paragraph",
-          "ja": "外部割込み（External Interrupt）は、キーボードやマウス、タイマなど、CPU外部からの信号によって発生する割込みである。",
-          "vi": "External Interrupt là ngắt phát sinh bởi tín hiệu từ bên ngoài CPU, chẳng hạn bàn phím, chuột hoặc timer."
+          "ja": "装置や割込みコントローラが割込み要求を出すと、CPUは許可状態と優先度を確認し、通常は命令境界で現在の状態を保存して割込みハンドラへ制御を移す。処理後は保存状態を復元して中断した処理へ戻る。マスク可能割込みと、緊急度が高く通常は無視できないNMIがある。",
+          "vi": "Khi thiết bị hoặc bộ điều khiển ngắt phát yêu cầu, CPU kiểm tra trạng thái cho phép và ưu tiên, thường lưu trạng thái tại ranh giới lệnh rồi chuyển tới handler. Sau xử lý, CPU khôi phục trạng thái và quay lại công việc bị ngắt. Có ngắt maskable và NMI khẩn cấp thường không thể bỏ qua."
         },
         {
           "type": "point",
-          "ja": "内部割込みは内部要因、外部割込みは外部装置などの要因で発生する。",
-          "vi": "Ngắt nội bộ do nguyên nhân bên trong; ngắt ngoài do thiết bị hoặc tín hiệu bên ngoài."
+          "ja": "外部割込みは現在の命令内容とは独立して発生する非同期事象である。代表例は入出力完了、タイマ、ハードウェア異常である。",
+          "vi": "Ngắt ngoài là sự kiện bất đồng bộ, độc lập nội dung lệnh hiện tại. Ví dụ: hoàn tất I/O, timer và lỗi phần cứng."
+        },
+        {
+          "type": "example",
+          "ja": "例：一定時間ごとにタイマが割込みを発生させ、OSが実行中プロセスの状態を保存して別プロセスへCPU時間を割り当てる。",
+          "vi": "Ví dụ: timer phát ngắt định kỳ; hệ điều hành lưu trạng thái tiến trình hiện tại và phân CPU cho tiến trình khác."
+        },
+        {
+          "type": "warning",
+          "ja": "外部割込みが発生しても必ず直ちに受理されるとは限らない。マスク状態、優先度、より高い例外の処理中などで保留される場合がある。",
+          "vi": "Yêu cầu ngắt ngoài không nhất thiết được nhận ngay; nó có thể chờ do bị mask, ưu tiên thấp hoặc CPU đang xử lý ngoại lệ ưu tiên cao hơn."
         }
       ],
       "terms": [
@@ -2303,8 +2373,8 @@
           "reading": "がいぶわりこみ",
           "english": "External Interrupt",
           "vi": "ngắt bên ngoài",
-          "definitionJa": "外部装置などからの信号によって発生する割込み。",
-          "definitionVi": "Ngắt phát sinh do tín hiệu từ thiết bị hoặc sự kiện bên ngoài CPU."
+          "definitionJa": "CPU外部の装置や事象から非同期に要求される割込み。",
+          "definitionVi": "Ngắt được yêu cầu bất đồng bộ bởi thiết bị hoặc sự kiện bên ngoài CPU."
         }
       ],
       "tags": ["processor", "interrupt", "external-interrupt"]
@@ -2357,28 +2427,33 @@
       "titleJa": "入出力割込み",
       "titleVi": "Ngắt vào/ra",
       "importance": "high",
-      "summaryJa": "入出力装置からの通知によってCPUの処理を一時中断する入出力割込みについて理解する。",
-      "summaryVi": "Tìm hiểu ngắt vào/ra, trong đó thiết bị I/O gửi thông báo khiến CPU tạm dừng xử lý hiện tại.",
+      "summaryJa": "入出力割込みは、入出力装置が処理完了、データ到着、エラーなどをCPUへ通知する外部割込みで、CPUの待ち時間を減らす。",
+      "summaryVi": "Ngắt I/O là ngắt ngoài để thiết bị báo CPU về hoàn tất, dữ liệu đến hoặc lỗi, giúp CPU không phải chờ hay thăm dò liên tục.",
       "content": [
         {
           "type": "heading",
-          "ja": "入出力割込みとは",
-          "vi": "Ngắt vào/ra là gì?"
+          "ja": "ポーリングせずにI/O事象を受け取る",
+          "vi": "Nhận sự kiện I/O không cần polling liên tục"
         },
         {
           "type": "paragraph",
-          "ja": "入出力割込み（Input/Output Interrupt）は、入出力装置から処理完了などの通知を受けた際にCPUへ発生する割込みである。",
-          "vi": "Input/Output Interrupt là ngắt gửi tới CPU khi thiết bị I/O thông báo hoàn thành xử lý hoặc có sự kiện cần xử lý."
-        },
-        {
-          "type": "paragraph",
-          "ja": "CPUが入出力処理の完了を常に監視する必要がなくなり、他の処理を実行できるため効率が向上する。",
-          "vi": "CPU không cần liên tục kiểm tra trạng thái thiết bị và có thể xử lý công việc khác trong thời gian chờ, giúp tăng hiệu quả."
+          "ja": "CPUが入出力を開始した後、装置が動作している間は別の命令を実行する。完了又はデータ到着時に装置が割込み要求を出し、ハンドラが状態確認、データ処理、待機タスクの再開などを行う。CPUが状態レジスタを繰り返し読むポーリングより、待ち時間を他の処理へ利用できる。",
+          "vi": "Sau khi CPU khởi động I/O, nó chạy lệnh khác trong khi thiết bị hoạt động. Khi hoàn tất hoặc dữ liệu đến, thiết bị yêu cầu ngắt; handler kiểm tra trạng thái, xử lý dữ liệu và đánh thức tác vụ chờ. So với polling liên tục thanh ghi trạng thái, thời gian chờ được dùng cho công việc khác."
         },
         {
           "type": "point",
-          "ja": "入出力割込みを利用すると、CPUはI/O完了を待ち続ける必要がない。",
-          "vi": "Nhờ ngắt I/O, CPU không phải liên tục chờ thiết bị vào/ra hoàn tất."
+          "ja": "入出力割込みは外部割込みの一種である。「I/O開始」と「I/O完了通知」を分け、CPUと装置を並行動作させる。",
+          "vi": "Ngắt I/O là một loại ngắt ngoài. Tách việc khởi động I/O với thông báo hoàn tất giúp CPU và thiết bị hoạt động song song."
+        },
+        {
+          "type": "example",
+          "ja": "例：ディスク読込みを開始したCPUは別タスクを実行し、転送完了割込みを受けるとハンドラで結果を確認して読込み待ちタスクを実行可能にする。",
+          "vi": "Ví dụ: CPU khởi động đọc đĩa rồi chạy tác vụ khác; khi nhận ngắt hoàn tất truyền, handler kiểm tra kết quả và đưa tác vụ chờ đọc về trạng thái sẵn sàng."
+        },
+        {
+          "type": "warning",
+          "ja": "割込みにも状態保存・復元のオーバヘッドがある。非常に高頻度のI/Oでは、割込み抑制、バッチ処理、DMAなどを組み合わせることがある。",
+          "vi": "Ngắt cũng có chi phí lưu/khôi phục trạng thái. Với I/O tần suất rất cao có thể kết hợp giảm ngắt, xử lý theo lô hoặc DMA."
         }
       ],
       "terms": [
@@ -2387,8 +2462,8 @@
           "reading": "にゅうしゅつりょくわりこみ",
           "english": "Input/Output Interrupt",
           "vi": "ngắt vào/ra",
-          "definitionJa": "入出力装置からの通知によって発生する割込み。",
-          "definitionVi": "Ngắt phát sinh từ thông báo của thiết bị vào/ra."
+          "definitionJa": "入出力装置が完了、データ到着、エラーなどをCPUへ通知する外部割込み。",
+          "definitionVi": "Ngắt ngoài do thiết bị I/O dùng để báo hoàn tất, dữ liệu đến, lỗi hoặc sự kiện khác cho CPU."
         }
       ],
       "tags": ["processor", "interrupt", "io-interrupt"]
@@ -2441,23 +2516,33 @@
       "titleJa": "CPI",
       "titleVi": "Số chu kỳ trên mỗi lệnh",
       "importance": "high",
-      "summaryJa": "1命令を実行するために平均何クロックサイクル必要かを表すCPIについて理解する。",
-      "summaryVi": "Tìm hiểu CPI, số chu kỳ clock trung bình cần để thực hiện một lệnh.",
+      "summaryJa": "CPIは、実行に要した総クロックサイクル数を実行命令数で割った平均サイクル数で、命令数・クロック周波数とともにCPU実行時間を決める。",
+      "summaryVi": "CPI là số chu kỳ trung bình trên mỗi lệnh, bằng tổng chu kỳ chia số lệnh thực thi; cùng số lệnh và tần số clock, nó quyết định thời gian CPU.",
       "content": [
         {
           "type": "heading",
-          "ja": "CPIとは",
-          "vi": "CPI là gì?"
+          "ja": "CPIとCPU実行時間",
+          "vi": "CPI và thời gian thực thi CPU"
         },
         {
           "type": "paragraph",
-          "ja": "CPI（Cycles Per Instruction）は、1命令を実行するために平均して必要となるクロックサイクル数を表す指標である。",
-          "vi": "CPI (Cycles Per Instruction) là số chu kỳ clock trung bình cần thiết để thực thi một lệnh."
+          "ja": "平均CPI＝総クロックサイクル数÷実行命令数である。CPU実行時間は「命令数×平均CPI÷クロック周波数」、又は「命令数×平均CPI×クロックサイクル時間」で求める。キャッシュミス、分岐予測失敗、命令依存などによる待ちも実測CPIへ影響する。",
+          "vi": "CPI trung bình = tổng chu kỳ clock ÷ số lệnh thực thi. Thời gian CPU = số lệnh × CPI trung bình ÷ tần số clock, hoặc số lệnh × CPI × thời gian một chu kỳ. Cache miss, dự đoán nhánh sai và phụ thuộc lệnh làm CPI đo được tăng."
         },
         {
           "type": "point",
-          "ja": "同じ条件なら、CPIが小さいほど1命令当たりの処理効率が高い。",
-          "vi": "Trong cùng điều kiện, CPI càng thấp thì hiệu quả xử lý trên mỗi lệnh càng cao."
+          "ja": "実行時間＝命令数×CPI÷クロック周波数。スーパースカラでは1サイクルに複数命令を完了できるため、平均CPIが1未満になることもある。",
+          "vi": "Thời gian = số lệnh × CPI ÷ tần số clock. CPU superscalar có thể hoàn tất nhiều lệnh mỗi chu kỳ nên CPI trung bình có thể nhỏ hơn 1."
+        },
+        {
+          "type": "example",
+          "ja": "例：命令数6×10^8、平均CPI＝1.5、クロック3GHzなら、実行時間は6×10^8×1.5÷3×10^9＝0.3秒である。",
+          "vi": "Ví dụ: 6×10^8 lệnh, CPI = 1,5, clock 3 GHz thì thời gian = 6×10^8 × 1,5 ÷ 3×10^9 = 0,3 giây."
+        },
+        {
+          "type": "warning",
+          "ja": "CPIが小さいだけでプログラムが必ず速いとは限らない。実行命令数やクロック周波数も異なるため、同じ仕事量と条件で比較する。",
+          "vi": "CPI thấp không tự động nghĩa chương trình nhanh hơn. Phải so sánh cùng khối lượng công việc và xét cả số lệnh cùng tần số clock."
         }
       ],
       "terms": [
@@ -2466,8 +2551,8 @@
           "reading": "しーぴーあい",
           "english": "Cycles Per Instruction",
           "vi": "số chu kỳ trên mỗi lệnh",
-          "definitionJa": "1命令を実行するために必要な平均クロックサイクル数。",
-          "definitionVi": "Số chu kỳ clock trung bình cần để thực hiện một lệnh."
+          "definitionJa": "総クロックサイクル数を実行命令数で割った、1命令当たりの平均サイクル数。",
+          "definitionVi": "Số chu kỳ clock trung bình trên mỗi lệnh, bằng tổng chu kỳ chia cho số lệnh thực thi."
         }
       ],
       "tags": ["processor", "performance", "cpi"]
@@ -2478,23 +2563,33 @@
       "titleJa": "MIPS",
       "titleVi": "Triệu lệnh mỗi giây",
       "importance": "high",
-      "summaryJa": "1秒間に何百万命令を実行できるかを表すMIPSについて理解する。",
-      "summaryVi": "Tìm hiểu MIPS, chỉ số biểu thị số triệu lệnh bộ xử lý có thể thực hiện trong một giây.",
+      "summaryJa": "MIPSは1秒当たりの実行命令数を100万命令単位で表す指標で、命令数÷実行時間÷10^6、又はクロック周波数÷CPIから求める。",
+      "summaryVi": "MIPS biểu thị số triệu lệnh thực thi mỗi giây, tính bằng số lệnh ÷ thời gian ÷ 10^6 hoặc tần số clock ÷ CPI.",
       "content": [
         {
           "type": "heading",
-          "ja": "MIPSとは",
-          "vi": "MIPS là gì?"
+          "ja": "百万命令毎秒の計算",
+          "vi": "Tính triệu lệnh mỗi giây"
         },
         {
           "type": "paragraph",
-          "ja": "MIPS（Million Instructions Per Second）は、プロセッサが1秒間に実行できる命令数を100万命令単位で表した性能指標である。",
-          "vi": "MIPS (Million Instructions Per Second) là chỉ số hiệu năng biểu thị số triệu lệnh CPU có thể thực thi trong một giây."
+          "ja": "MIPS＝実行命令数÷実行時間（秒）÷10^6である。クロック周波数をMHzで表すと、平均CPIを用いて「MIPS＝クロック周波数（MHz）÷CPI」と計算できる。同一命令セット・同一処理の概算には使えるが、一命令が行う仕事量はISAやコンパイラで異なる。",
+          "vi": "MIPS = số lệnh thực thi ÷ thời gian giây ÷ 10^6. Nếu tần số tính bằng MHz thì MIPS = MHz ÷ CPI trung bình. Chỉ số hữu ích để ước lượng với cùng ISA và công việc, nhưng lượng công việc của một lệnh khác nhau theo ISA và trình biên dịch."
         },
         {
           "type": "point",
-          "ja": "MIPSは高いほど多くの命令を処理できるが、異なる命令セット間では単純比較できない。",
-          "vi": "MIPS cao nghĩa là xử lý được nhiều lệnh hơn, nhưng không nên dùng đơn độc để so sánh các kiến trúc có tập lệnh khác nhau."
+          "ja": "MIPS＝クロック周波数（MHz）÷平均CPI。数値が高くても、命令数が増えれば同じプログラムの実行時間が短いとは限らない。",
+          "vi": "MIPS = tần số clock (MHz) ÷ CPI trung bình. MIPS cao nhưng số lệnh tăng thì cùng chương trình chưa chắc chạy nhanh hơn."
+        },
+        {
+          "type": "example",
+          "ja": "例：クロック2GHz＝2,000MHz、平均CPI＝2なら、2,000÷2＝1,000MIPSである。",
+          "vi": "Ví dụ: clock 2 GHz = 2.000 MHz và CPI trung bình = 2 thì hiệu năng là 2.000 ÷ 2 = 1.000 MIPS."
+        },
+        {
+          "type": "warning",
+          "ja": "異なる命令セットのCPUをMIPSだけで比較しない。複雑な一命令と単純な一命令を同じ「1命令」と数えるため、実際の処理性能を逆に評価することがある。",
+          "vi": "Không so sánh CPU khác ISA chỉ bằng MIPS. Một lệnh phức tạp và một lệnh đơn giản đều được đếm là một, nên có thể đánh giá ngược hiệu năng công việc thực."
         }
       ],
       "terms": [
@@ -2503,8 +2598,8 @@
           "reading": "みっぷす",
           "english": "Million Instructions Per Second",
           "vi": "triệu lệnh mỗi giây",
-          "definitionJa": "1秒間に実行できる命令数を100万命令単位で表した性能指標。",
-          "definitionVi": "Chỉ số biểu thị số triệu lệnh được thực thi mỗi giây."
+          "definitionJa": "1秒当たりの実行命令数を100万命令単位で表す性能指標。",
+          "definitionVi": "Chỉ số hiệu năng biểu thị số triệu lệnh được thực thi trong một giây."
         }
       ],
       "tags": ["processor", "performance", "mips"]
@@ -2515,28 +2610,33 @@
       "titleJa": "FLOPS",
       "titleVi": "Số phép toán dấu phẩy động mỗi giây",
       "importance": "high",
-      "summaryJa": "1秒間に実行できる浮動小数点演算の回数を表すFLOPSについて理解する。",
-      "summaryVi": "Tìm hiểu FLOPS, chỉ số biểu thị số phép toán dấu phẩy động có thể thực hiện trong một giây.",
+      "summaryJa": "FLOPSは1秒当たりに実行する浮動小数点演算数を表し、科学技術計算やAIなど数値計算中心の処理性能を評価する指標である。",
+      "summaryVi": "FLOPS là số phép toán dấu phẩy động mỗi giây, dùng đánh giá hiệu năng các công việc tính số như khoa học kỹ thuật và AI.",
       "content": [
         {
           "type": "heading",
-          "ja": "FLOPSとは",
-          "vi": "FLOPS là gì?"
+          "ja": "浮動小数点演算性能",
+          "vi": "Hiệu năng phép toán dấu phẩy động"
         },
         {
           "type": "paragraph",
-          "ja": "FLOPS（Floating Point Operations Per Second）は、1秒間に実行できる浮動小数点演算の回数を表す性能指標である。",
-          "vi": "FLOPS (Floating Point Operations Per Second) là chỉ số hiệu năng thể hiện số phép toán dấu phẩy động có thể thực hiện mỗi giây."
-        },
-        {
-          "type": "paragraph",
-          "ja": "科学技術計算、シミュレーション、AIなど、数値計算性能が重要な分野で広く利用される。",
-          "vi": "FLOPS được dùng rộng rãi khi đánh giá tính toán khoa học, mô phỏng, AI và các lĩnh vực cần năng lực tính toán số cao."
+          "ja": "FLOPS＝浮動小数点演算回数÷実行時間（秒）で、k、M、G、T、Pなどの接頭語を付ける。理論ピーク値は演算器数、1クロック当たり演算数、クロック周波数などから求め、実効値は対象プログラムの実測から求める。精度、ベクトル幅、メモリ帯域も性能に影響する。",
+          "vi": "FLOPS = số phép toán dấu phẩy động ÷ thời gian giây, thường dùng tiền tố k, M, G, T, P. Giá trị đỉnh lý thuyết dựa trên số đơn vị tính, phép mỗi chu kỳ và tần số; giá trị thực đo từ chương trình. Độ chính xác, độ rộng vector và băng thông bộ nhớ cũng ảnh hưởng."
         },
         {
           "type": "point",
-          "ja": "MIPSは命令数、FLOPSは浮動小数点演算数を基準とする。",
-          "vi": "MIPS đo số lệnh; FLOPS đo số phép toán dấu phẩy động."
+          "ja": "MIPSは命令数、FLOPSは浮動小数点演算数を数える。FLOPSは数値計算向けで、文字列処理やI/O中心の性能を直接表さない。",
+          "vi": "MIPS đếm lệnh; FLOPS đếm phép toán dấu phẩy động. FLOPS phù hợp tính số, không trực tiếp biểu thị hiệu năng xử lý chuỗi hay I/O."
+        },
+        {
+          "type": "example",
+          "ja": "例：5×10^9回の浮動小数点演算を2秒で実行した場合、性能は2.5×10^9 FLOPS＝2.5GFLOPSである。",
+          "vi": "Ví dụ: thực hiện 5×10^9 phép dấu phẩy động trong 2 giây thì hiệu năng là 2,5×10^9 FLOPS = 2,5 GFLOPS."
+        },
+        {
+          "type": "warning",
+          "ja": "理論ピークFLOPSと実効FLOPSを混同しない。演算の数え方や単精度・倍精度、対象ワークロードが違う値も単純比較できない。",
+          "vi": "Không nhầm FLOPS đỉnh lý thuyết với FLOPS thực. Các giá trị khác cách đếm phép, độ chính xác đơn/kép hoặc workload cũng không thể so trực tiếp."
         }
       ],
       "terms": [
@@ -2545,8 +2645,8 @@
           "reading": "ふろっぷす",
           "english": "Floating Point Operations Per Second",
           "vi": "số phép toán dấu phẩy động mỗi giây",
-          "definitionJa": "1秒間に処理できる浮動小数点演算の回数を表す性能指標。",
-          "definitionVi": "Chỉ số biểu thị số phép toán dấu phẩy động xử lý được trong một giây."
+          "definitionJa": "1秒当たりに実行できる浮動小数点演算回数を表す性能指標。",
+          "definitionVi": "Chỉ số hiệu năng biểu thị số phép toán dấu phẩy động thực hiện trong một giây."
         }
       ],
       "tags": ["processor", "performance", "flops"]
@@ -2557,28 +2657,33 @@
       "titleJa": "命令ミックス",
       "titleVi": "Hỗn hợp lệnh",
       "importance": "high",
-      "summaryJa": "プログラム中で実行される命令の種類とその出現割合を示す命令ミックスについて理解する。",
-      "summaryVi": "Tìm hiểu instruction mix, biểu thị các loại lệnh được thực hiện trong chương trình và tỷ lệ xuất hiện của chúng.",
+      "summaryJa": "命令ミックスは、実行された命令を種類別に分けた構成比で、各種類のCPIを重み付けして平均CPIと実行時間を評価するために用いる。",
+      "summaryVi": "Instruction mix là tỷ trọng động của từng loại lệnh đã thực thi, dùng làm trọng số cho CPI từng loại để tính CPI trung bình và thời gian chạy.",
       "content": [
         {
           "type": "heading",
-          "ja": "命令ミックスとは",
-          "vi": "Instruction Mix là gì?"
+          "ja": "命令構成比と平均CPI",
+          "vi": "Tỷ trọng lệnh và CPI trung bình"
         },
         {
           "type": "paragraph",
-          "ja": "命令ミックス（Instruction Mix）は、プログラムで実行される算術演算、論理演算、転送などの各種命令が、どの程度の割合で出現するかを表したものである。",
-          "vi": "Instruction Mix biểu thị tỷ lệ xuất hiện của từng loại lệnh như số học, logic và truyền dữ liệu trong chương trình."
-        },
-        {
-          "type": "paragraph",
-          "ja": "CPUの平均CPIや実行時間などを評価する際には、各命令のCPIだけでなく命令ミックスも考慮する必要がある。",
-          "vi": "Khi đánh giá CPI trung bình hoặc thời gian thực thi, cần xét cả CPI của từng loại lệnh và tỷ lệ của chúng trong instruction mix."
+          "ja": "算術、ロード・ストア、分岐などの実行回数を総命令数に対する割合で表す。種類iの構成比をri、CPIをCPIiとすると、平均CPI＝Σ（ri×CPIi）である。命令セットやコンパイラが同じでも、プログラムや入力データが変われば動的な命令ミックスは変化する。",
+          "vi": "Tỷ lệ số lệnh số học, load/store, rẽ nhánh... trên tổng lệnh. Nếu tỷ trọng loại i là ri và CPI là CPIi thì CPI trung bình = Σ(ri × CPIi). Ngay cả cùng ISA và trình biên dịch, instruction mix động có thể đổi theo chương trình và dữ liệu đầu vào."
         },
         {
           "type": "point",
-          "ja": "性能評価では「どの命令をどれだけ実行するか」も重要である。",
-          "vi": "Khi đánh giá hiệu năng, không chỉ tốc độ từng lệnh mà tỷ lệ các loại lệnh cũng quan trọng."
+          "ja": "平均CPIは単純平均ではなく、命令ミックスで重み付けする。各構成比の合計は1（又は100％）になる。",
+          "vi": "CPI trung bình là trung bình có trọng số theo instruction mix, không phải trung bình đơn. Tổng tỷ trọng phải bằng 1 hoặc 100%."
+        },
+        {
+          "type": "example",
+          "ja": "例：CPI 1の算術命令50％、CPI 2の転送命令30％、CPI 3の分岐命令20％なら、平均CPI＝1×0.5＋2×0.3＋3×0.2＝1.7である。",
+          "vi": "Ví dụ: lệnh số học CPI 1 chiếm 50%, truyền CPI 2 chiếm 30%, rẽ nhánh CPI 3 chiếm 20% thì CPI trung bình = 1×0,5 + 2×0,3 + 3×0,2 = 1,7."
+        },
+        {
+          "type": "warning",
+          "ja": "ソースコードに書かれた命令の種類数ではなく、実際に実行された回数の割合で評価する。ループ回数や分岐結果で構成比は変わる。",
+          "vi": "Cần dùng tỷ lệ số lần thực thi thực tế, không phải số loại lệnh viết trong mã nguồn. Số vòng lặp và kết quả nhánh làm tỷ trọng thay đổi."
         }
       ],
       "terms": [
@@ -2587,8 +2692,8 @@
           "reading": "めいれいみっくす",
           "english": "Instruction Mix",
           "vi": "hỗn hợp lệnh",
-          "definitionJa": "プログラムで実行される各種類の命令の出現割合。",
-          "definitionVi": "Tỷ lệ xuất hiện của các loại lệnh khác nhau trong chương trình."
+          "definitionJa": "実行された各種類の命令が総命令数に占める割合。",
+          "definitionVi": "Tỷ lệ số lệnh đã thực thi của từng loại trên tổng số lệnh thực thi."
         }
       ],
       "tags": ["processor", "performance", "instruction-mix"]
@@ -2641,33 +2746,33 @@
       "titleJa": "スーパーパイプライン",
       "titleVi": "Siêu đường ống",
       "importance": "high",
-      "summaryJa": "パイプラインの各処理段階をさらに細分化し、高いクロック周波数で命令処理を行うスーパーパイプラインについて理解する。",
-      "summaryVi": "Tìm hiểu super pipeline, kỹ thuật chia các giai đoạn pipeline thành nhiều bước nhỏ hơn để nâng cao khả năng xử lý.",
+      "summaryJa": "スーパーパイプラインは、命令処理の各段階をさらに細分化してクロック周期を短くし、単位時間当たりの命令投入数を増やす高速化方式である。",
+      "summaryVi": "Super pipeline chia nhỏ thêm các giai đoạn xử lý lệnh để rút ngắn chu kỳ clock và tăng số lệnh đưa vào pipeline trong một đơn vị thời gian.",
       "content": [
         {
           "type": "heading",
-          "ja": "スーパーパイプラインとは",
-          "vi": "Super pipeline là gì?"
+          "ja": "パイプラインを深くする",
+          "vi": "Làm pipeline sâu hơn"
         },
         {
           "type": "paragraph",
-          "ja": "スーパーパイプライン（Super Pipeline）は、通常のパイプラインの各処理段階をさらに細かく分割し、より短いクロック周期で処理を進める方式である。",
-          "vi": "Super Pipeline là kỹ thuật chia nhỏ hơn nữa các giai đoạn của pipeline thông thường để có thể xử lý với chu kỳ clock ngắn hơn."
-        },
-        {
-          "type": "heading",
-          "ja": "パイプラインとの違い",
-          "vi": "Khác biệt với pipeline"
-        },
-        {
-          "type": "paragraph",
-          "ja": "段数を増やして各段階の処理を単純化することで、クロック周波数を高め、単位時間当たりに処理できる命令数の向上を図る。",
-          "vi": "Bằng cách tăng số tầng và giảm lượng xử lý trong từng tầng, có thể tăng tần số clock và cải thiện số lệnh xử lý được trong một đơn vị thời gian."
+          "ja": "命令フェッチ、解読、実行などの段階をより小さな処理へ分割すると、各段の組合せ回路の遅延を短くでき、高いクロック周波数で次々に命令を投入できる。定常状態のスループット向上を狙う方式であり、一命令が全段を通過するレイテンシが必ず短くなるわけではない。",
+          "vi": "Khi chia fetch, decode, execute thành bước nhỏ hơn, độ trễ mạch tổ hợp mỗi tầng giảm và có thể đưa lệnh liên tục ở tần số cao hơn. Mục tiêu là tăng throughput trạng thái ổn định; latency để một lệnh đi qua toàn bộ tầng không nhất thiết giảm."
         },
         {
           "type": "point",
-          "ja": "スーパーパイプラインは、パイプラインをさらに細分化して高速化する方式である。",
-          "vi": "Super pipeline là pipeline được chia thành nhiều tầng nhỏ hơn để tăng tốc xử lý."
+          "ja": "スーパーパイプラインは「段数を増やして高クロック化」、スーパースカラは「複数実行器で同一サイクルに複数命令」である。",
+          "vi": "Super pipeline = tăng số tầng để tăng tần số; superscalar = nhiều đơn vị thực thi nhiều lệnh trong cùng chu kỳ."
+        },
+        {
+          "type": "example",
+          "ja": "例：5段の各処理を二分して10段にし、各段の遅延をほぼ半分にできれば、より短いクロック周期で命令を投入できる。",
+          "vi": "Ví dụ: chia đôi từng công đoạn của pipeline 5 tầng thành 10 tầng; nếu độ trễ mỗi tầng gần giảm nửa, có thể đưa lệnh vào với chu kỳ ngắn hơn."
+        },
+        {
+          "type": "warning",
+          "ja": "段数を増やすほど常に高速になるわけではない。段間レジスタのオーバヘッド、データハザード、分岐予測失敗時に破棄する段数が増える。",
+          "vi": "Tăng tầng không luôn làm nhanh hơn. Có chi phí thanh ghi giữa tầng, data hazard và nhiều công việc bị hủy hơn khi dự đoán nhánh sai."
         }
       ],
       "terms": [
@@ -2676,8 +2781,8 @@
           "reading": "すーぱーぱいぷらいん",
           "english": "Super Pipeline",
           "vi": "siêu đường ống",
-          "definitionJa": "パイプラインの各段階をさらに細分化して、より高速な処理を実現する方式。",
-          "definitionVi": "Kỹ thuật chia nhỏ hơn các giai đoạn pipeline để đạt tốc độ xử lý cao hơn."
+          "definitionJa": "パイプライン段を細分化し、短いクロック周期で高スループットを狙う方式。",
+          "definitionVi": "Kỹ thuật chia pipeline thành nhiều tầng nhỏ hơn để tăng throughput bằng chu kỳ clock ngắn."
         }
       ],
       "tags": ["processor", "pipeline", "super-pipeline"]
@@ -2688,28 +2793,33 @@
       "titleJa": "スーパースカラ",
       "titleVi": "Kiến trúc superscalar",
       "importance": "high",
-      "summaryJa": "複数の命令を同一クロックサイクル内で並列に実行するスーパースカラ方式について理解する。",
-      "summaryVi": "Tìm hiểu kiến trúc superscalar, cho phép thực thi song song nhiều lệnh trong cùng một chu kỳ xử lý.",
+      "summaryJa": "スーパースカラは、複数の命令発行・実行資源を備え、依存関係のない複数命令を同一クロックサイクルに並列実行するプロセッサ方式である。",
+      "summaryVi": "Superscalar là kiến trúc có nhiều tài nguyên phát hành và thực thi, cho phép nhiều lệnh độc lập chạy song song trong cùng chu kỳ clock.",
       "content": [
         {
           "type": "heading",
-          "ja": "スーパースカラとは",
-          "vi": "Superscalar là gì?"
+          "ja": "命令レベル並列性を利用する",
+          "vi": "Khai thác song song mức lệnh"
         },
         {
           "type": "paragraph",
-          "ja": "スーパースカラ（Superscalar）は、複数の命令実行ユニットを利用し、同一のクロックサイクル内で複数の命令を並列に実行するプロセッサ方式である。",
-          "vi": "Superscalar là kiến trúc bộ xử lý sử dụng nhiều đơn vị thực thi để xử lý đồng thời nhiều lệnh trong cùng một chu kỳ clock."
-        },
-        {
-          "type": "paragraph",
-          "ja": "命令の依存関係を確認しながら、同時実行可能な命令を複数の実行ユニットへ割り当てることで、処理能力を高める。",
-          "vi": "Bộ xử lý kiểm tra quan hệ phụ thuộc giữa các lệnh và phân phối những lệnh có thể thực thi đồng thời cho nhiều đơn vị xử lý để tăng hiệu năng."
+          "ja": "フェッチ・解読した複数命令から、データ依存、制御依存、実行資源の競合がないものを選び、複数のALUやロード・ストアユニットへ同時に発行する。アウトオブオーダ実行やレジスタリネーミングと組み合わせ、プログラムの意味を保ちながら命令レベル並列性を引き出す実装が多い。",
+          "vi": "Từ nhiều lệnh đã fetch/decode, CPU chọn các lệnh không vướng phụ thuộc dữ liệu, điều khiển hoặc tranh chấp tài nguyên rồi phát đồng thời tới nhiều ALU và đơn vị load/store. Nhiều thiết kế kết hợp thực thi ngoài thứ tự và đổi tên thanh ghi để khai thác ILP mà vẫn giữ đúng nghĩa chương trình."
         },
         {
           "type": "point",
-          "ja": "スーパースカラは、一つのクロックで複数の命令を実行することを目指す。",
-          "vi": "Superscalar hướng tới việc thực thi nhiều lệnh trong một chu kỳ clock."
+          "ja": "1サイクルに複数命令を完了できるためCPI＜1も可能である。ただし発行幅が4でも、毎サイクル必ず4命令を実行できるとは限らない。",
+          "vi": "Vì có thể hoàn tất nhiều lệnh mỗi chu kỳ nên CPI < 1 là khả thi. Nhưng bề rộng phát hành 4 không có nghĩa luôn thực thi đủ 4 lệnh mỗi chu kỳ."
+        },
+        {
+          "type": "example",
+          "ja": "例：互いに独立した整数加算とロードを別の実行ユニットへ同時発行できるが、後の加算がロード結果を使う場合は結果が準備できるまで待つ。",
+          "vi": "Ví dụ: phép cộng số nguyên độc lập và lệnh load có thể phát đồng thời tới hai đơn vị; nhưng nếu phép cộng sau dùng kết quả load thì phải chờ dữ liệu sẵn sàng."
+        },
+        {
+          "type": "warning",
+          "ja": "スーパースカラはマルチコアやSIMDと同義ではない。通常は一つのコア内で、単一命令列に含まれる独立した複数命令を並列化する。",
+          "vi": "Superscalar không đồng nghĩa multicore hay SIMD. Nó thường song song hóa nhiều lệnh độc lập trong một luồng lệnh bên trong một lõi."
         }
       ],
       "terms": [
@@ -2718,8 +2828,8 @@
           "reading": "すーぱーすから",
           "english": "Superscalar",
           "vi": "kiến trúc superscalar",
-          "definitionJa": "複数の実行ユニットを用いて、複数命令を同時に実行するプロセッサ方式。",
-          "definitionVi": "Kiến trúc bộ xử lý dùng nhiều đơn vị thực thi để xử lý đồng thời nhiều lệnh."
+          "definitionJa": "一つのコアで複数の独立命令を同一サイクルに発行・実行するプロセッサ方式。",
+          "definitionVi": "Kiến trúc xử lý phát hành và thực thi nhiều lệnh độc lập trong cùng chu kỳ bên trong một lõi."
         }
       ],
       "tags": ["processor", "parallel-processing", "superscalar"]

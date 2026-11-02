@@ -52,28 +52,33 @@
       "titleJa": "マウス",
       "titleVi": "Chuột",
       "importance": "high",
-      "summaryJa": "手で動かして画面上のカーソルを操作する代表的な入力装置であるマウスについて理解する。",
-      "summaryVi": "Tìm hiểu chuột, thiết bị nhập phổ biến dùng để điều khiển con trỏ trên màn hình.",
+      "summaryJa": "マウスは、机上での移動量をセンサで検出し、画面上のポインタ移動やボタン操作をコンピュータへ伝える代表的なポインティングデバイスである。",
+      "summaryVi": "Chuột là thiết bị trỏ tiêu biểu: cảm biến phát hiện độ dịch chuyển trên bề mặt, còn nút và bánh xe gửi thao tác điều khiển con trỏ tới máy tính.",
       "content": [
         {
           "type": "heading",
-          "ja": "マウスとは",
-          "vi": "Chuột là gì?"
+          "ja": "移動とクリックの入力",
+          "vi": "Nhập chuyển động và thao tác nhấp"
         },
         {
           "type": "paragraph",
-          "ja": "マウス（Mouse）は、手のひらで持って動かすことで画面上のカーソルを移動させる入力装置である。",
-          "vi": "Mouse là thiết bị nhập được cầm và di chuyển bằng tay để điều khiển con trỏ trên màn hình."
-        },
-        {
-          "type": "paragraph",
-          "ja": "一般的には左右のボタンを備え、クリックによる選択やファイルを開く操作などを行う。スクロールホイールを備えた製品も多い。",
-          "vi": "Chuột thường có nút trái, nút phải để chọn hoặc mở tệp và thường có bánh xe cuộn."
+          "ja": "現在位置からの相対的な移動量を検出し、OSがその量に応じてポインタを動かす。左右ボタン、ホイール、追加ボタンには、選択、ドラッグ、スクロールなどの機能を割り当てられる。",
+          "vi": "Chuột phát hiện độ dịch chuyển tương đối so với vị trí hiện tại; hệ điều hành dùng dữ liệu đó để di chuyển con trỏ. Nút trái/phải, bánh xe và nút phụ có thể đảm nhiệm chọn, kéo thả hoặc cuộn."
         },
         {
           "type": "point",
-          "ja": "マウスは最も一般的なポインティングデバイスの一つである。",
-          "vi": "Chuột là một trong những thiết bị trỏ phổ biến nhất."
+          "ja": "FEでは、マウスを座標入力に用いるポインティングデバイスとして、キーボードなどの文字入力装置と区別する。",
+          "vi": "Trong FE, cần phân biệt chuột — thiết bị trỏ dùng cho nhập vị trí — với thiết bị nhập ký tự như bàn phím."
+        },
+        {
+          "type": "example",
+          "ja": "アイコンを押したままマウスを動かして離すと、押下・移動・解放の組合せとしてドラッグ＆ドロップが認識される。",
+          "vi": "Khi giữ nút trên một biểu tượng, di chuyển rồi thả, hệ thống nhận chuỗi nhấn–di chuyển–nhả thành thao tác kéo thả."
+        },
+        {
+          "type": "warning",
+          "ja": "マウスが検出するのは通常、画面の絶対座標そのものではなく移動量である。感度や加速度の設定によって、同じ手の移動でもポインタの移動量は変わる。",
+          "vi": "Chuột thường phát hiện độ dịch chuyển chứ không trực tiếp cho biết tọa độ tuyệt đối. Cùng một chuyển động tay có thể tạo quãng đường con trỏ khác nhau tùy độ nhạy và gia tốc."
         }
       ],
       "terms": [
@@ -82,8 +87,8 @@
           "reading": "まうす",
           "english": "Mouse",
           "vi": "chuột",
-          "definitionJa": "手で動かして画面上のカーソルを操作する入力装置。",
-          "definitionVi": "Thiết bị nhập dùng tay để di chuyển và điều khiển con trỏ."
+          "definitionJa": "机上での移動量とボタン操作を検出し、ポインタ操作としてコンピュータへ入力する装置。",
+          "definitionVi": "Thiết bị phát hiện chuyển động trên bề mặt và thao tác nút để nhập lệnh điều khiển con trỏ."
         }
       ],
       "tags": ["input-output", "input-device", "mouse"]
@@ -94,28 +99,33 @@
       "titleJa": "タッチパネル・タッチスクリーン",
       "titleVi": "Màn hình cảm ứng",
       "importance": "high",
-      "summaryJa": "画面に直接触れることで入力操作を行うタッチパネル・タッチスクリーンについて理解する。",
-      "summaryVi": "Tìm hiểu màn hình cảm ứng, cho phép thao tác trực tiếp bằng cách chạm vào màn hình.",
+      "summaryJa": "タッチパネルは、表示位置に対応する接触位置を検出する入力装置であり、ディスプレイと組み合わせることで画面上の対象を直接操作できる。",
+      "summaryVi": "Tấm cảm ứng là thiết bị nhập phát hiện vị trí chạm tương ứng với vị trí hiển thị; khi kết hợp với màn hình, người dùng có thể thao tác trực tiếp lên đối tượng.",
       "content": [
         {
           "type": "heading",
-          "ja": "タッチパネル・タッチスクリーンとは",
-          "vi": "Màn hình cảm ứng là gì?"
+          "ja": "画面と位置入力の一体化",
+          "vi": "Kết hợp hiển thị với nhập vị trí"
         },
         {
           "type": "paragraph",
-          "ja": "タッチパネル・タッチスクリーン（Touch Panel / Touch Screen）は、ユーザーが画面に直接触れることで操作を行うことができる装置である。",
-          "vi": "Touch Panel / Touch Screen là thiết bị cho phép người dùng thao tác bằng cách chạm trực tiếp vào màn hình."
-        },
-        {
-          "type": "paragraph",
-          "ja": "スマートフォン、タブレット、ATMなどに広く採用されており、ボタンやスイッチなどの物理的な入力装置を減らすことができる。",
-          "vi": "Công nghệ này được sử dụng rộng rãi trên smartphone, tablet và ATM, giúp giảm nhu cầu sử dụng nút bấm vật lý."
+          "ja": "抵抗膜方式は押圧による電極の接触を、静電容量方式は指などによる電界の変化を利用して位置を求める。静電容量方式では複数点を同時検出するマルチタッチも広く使われる。",
+          "vi": "Loại điện trở xác định vị trí nhờ áp lực làm các lớp điện cực tiếp xúc; loại điện dung phát hiện thay đổi điện trường do ngón tay. Màn hình điện dung thường hỗ trợ nhiều điểm chạm cùng lúc."
         },
         {
           "type": "point",
-          "ja": "表示装置と入力装置の機能を一体化できる。",
-          "vi": "Có thể kết hợp chức năng hiển thị và nhập liệu trong cùng một thiết bị."
+          "ja": "FEでは、表示装置に位置入力機能を重ねた装置として理解し、方式ごとの検出原理と利用場面を整理する。",
+          "vi": "Trong FE, cần hiểu đây là chức năng nhập vị trí đặt lên thiết bị hiển thị và phân biệt nguyên lý phát hiện của từng loại."
+        },
+        {
+          "type": "example",
+          "ja": "地図上で2本の指の間隔を広げる操作を検出し、アプリケーションがピンチアウトとして地図を拡大する。",
+          "vi": "Ứng dụng phát hiện hai điểm chạm tách xa nhau trên bản đồ và diễn giải thành thao tác pinch-out để phóng to."
+        },
+        {
+          "type": "warning",
+          "ja": "「タッチスクリーン」は表示部を含む装置全体を指すことが多く、「タッチパネル」は位置を検出する入力層を指す。両者を常に同一部品とみなさない。",
+          "vi": "“Touchscreen” thường chỉ toàn bộ cụm có màn hình, còn “touch panel” có thể chỉ lớp nhập phát hiện vị trí; không nên luôn coi hai từ là cùng một linh kiện."
         }
       ],
       "terms": [
@@ -124,8 +134,8 @@
           "reading": "たっちぱねる・たっちすくりーん",
           "english": "Touch Panel / Touch Screen",
           "vi": "màn hình cảm ứng",
-          "definitionJa": "画面へ直接触れることで入力や操作を行う装置。",
-          "definitionVi": "Thiết bị cho phép nhập và thao tác bằng cách chạm trực tiếp vào màn hình."
+          "definitionJa": "画面上の接触位置を検出し、表示対象を直接選択・操作できるようにする位置入力装置。",
+          "definitionVi": "Thiết bị nhập vị trí phát hiện điểm chạm trên màn hình để người dùng trực tiếp chọn và điều khiển đối tượng hiển thị."
         }
       ],
       "tags": ["input-output", "input-device", "touch-screen"]
@@ -304,28 +314,33 @@
       "titleJa": "キーボード",
       "titleVi": "Bàn phím",
       "importance": "high",
-      "summaryJa": "文字、数字、記号などを入力する代表的な入力装置であるキーボードについて理解する。",
-      "summaryVi": "Tìm hiểu bàn phím, thiết bị nhập tiêu biểu dùng để nhập chữ, số và ký hiệu.",
+      "summaryJa": "キーボードは、キーの押下・解放を電気信号として入力し、文字、数値、制御指示などをコンピュータへ伝える入力装置である。",
+      "summaryVi": "Bàn phím là thiết bị nhập chuyển trạng thái nhấn/nhả phím thành tín hiệu để truyền ký tự, số và lệnh điều khiển tới máy tính.",
       "content": [
         {
           "type": "heading",
-          "ja": "キーボードとは",
-          "vi": "Bàn phím là gì?"
+          "ja": "キー入力から文字入力まで",
+          "vi": "Từ sự kiện phím đến ký tự"
         },
         {
           "type": "paragraph",
-          "ja": "キーボード（Keyboard）は、文字、数字、記号などをコンピュータへ入力するための代表的な入力装置である。",
-          "vi": "Keyboard là thiết bị nhập phổ biến dùng để nhập chữ, số và ký hiệu vào máy tính."
-        },
-        {
-          "type": "paragraph",
-          "ja": "文字キーのほか、数値入力用のキーやファンクションキーなどを備え、文書作成やプログラミングなど幅広い用途で利用される。",
-          "vi": "Ngoài phím ký tự còn có phím số và phím chức năng, được dùng rộng rãi trong soạn thảo văn bản, lập trình và nhiều công việc khác."
+          "ja": "装置は押されたキーを識別するコードを送り、OSや入力方式がキーボード配列、Shiftなどの修飾キー、IMEの状態を考慮して文字や操作へ変換する。ファンクションキーはアプリケーション固有の命令にも使われる。",
+          "vi": "Thiết bị gửi mã nhận biết phím; hệ điều hành hoặc bộ gõ chuyển mã đó thành ký tự hay thao tác dựa trên bố cục bàn phím, phím bổ trợ như Shift và trạng thái IME. Phím chức năng còn có thể gọi lệnh riêng của ứng dụng."
         },
         {
           "type": "point",
-          "ja": "文字入力の基本的な入力装置である。",
-          "vi": "Đây là thiết bị nhập cơ bản dùng cho nhập văn bản."
+          "ja": "FEでは、キーボードを文字・数値・命令を入力する装置として分類し、ポインティングデバイスや画像入力装置と区別する。",
+          "vi": "Trong FE, bàn phím được phân loại là thiết bị nhập ký tự, số và lệnh; cần phân biệt với thiết bị trỏ và thiết bị nhập ảnh."
+        },
+        {
+          "type": "example",
+          "ja": "日本語入力で「か」を得る場合、ローマ字入力ではKとAのキーイベントをIMEが解釈し、一つの日本語文字へ変換する。",
+          "vi": "Khi nhập “か” theo kiểu romaji, IME diễn giải các sự kiện phím K và A rồi chuyển chúng thành một ký tự tiếng Nhật."
+        },
+        {
+          "type": "warning",
+          "ja": "物理キーと入力文字は一対一とは限らない。配列、言語設定、修飾キー、IMEによって、同じキーでも得られる文字や機能が変わる。",
+          "vi": "Phím vật lý không luôn tương ứng một-một với ký tự. Bố cục, ngôn ngữ, phím bổ trợ và IME có thể làm cùng một phím tạo ra ký tự hoặc chức năng khác."
         }
       ],
       "terms": [
@@ -334,8 +349,8 @@
           "reading": "きーぼーど",
           "english": "Keyboard",
           "vi": "bàn phím",
-          "definitionJa": "キーを押すことで文字、数字、記号などを入力する装置。",
-          "definitionVi": "Thiết bị nhập chữ, số và ký hiệu bằng cách nhấn phím."
+          "definitionJa": "キーの押下・解放を検出し、文字、数値、記号、制御指示などを入力する装置。",
+          "definitionVi": "Thiết bị phát hiện thao tác nhấn/nhả phím để nhập chữ, số, ký hiệu và lệnh điều khiển."
         }
       ],
       "tags": ["input-output", "input-device", "keyboard"]
@@ -388,28 +403,33 @@
       "titleJa": "スキャナー",
       "titleVi": "Máy quét",
       "importance": "high",
-      "summaryJa": "紙の文書や画像を読み取り、デジタルデータへ変換するスキャナーについて理解する。",
-      "summaryVi": "Tìm hiểu máy quét, thiết bị đọc tài liệu hoặc hình ảnh trên giấy và chuyển thành dữ liệu số.",
+      "summaryJa": "スキャナーは、原稿に光を当てて反射光などを画素ごとの信号として読み取り、紙の文書や写真をデジタル画像へ変換する入力装置である。",
+      "summaryVi": "Máy quét chiếu sáng bản gốc, đọc ánh sáng phản xạ thành tín hiệu theo từng điểm ảnh và chuyển tài liệu hoặc ảnh giấy thành ảnh số.",
       "content": [
         {
           "type": "heading",
-          "ja": "スキャナーとは",
-          "vi": "Máy quét là gì?"
+          "ja": "光学読取りと画像化",
+          "vi": "Đọc quang học và số hóa ảnh"
         },
         {
           "type": "paragraph",
-          "ja": "スキャナー（Scanner）は、紙に印刷された文書や画像を光学的に読み取り、デジタルデータへ変換する入力装置である。",
-          "vi": "Scanner là thiết bị nhập dùng phương pháp quang học để đọc tài liệu hoặc hình ảnh trên giấy rồi chuyển thành dữ liệu số."
-        },
-        {
-          "type": "paragraph",
-          "ja": "文書をPDFとして保存したり、写真をデジタル画像として取り込んだりする場合に利用される。",
-          "vi": "Có thể dùng để lưu tài liệu thành PDF hoặc số hóa ảnh giấy."
+          "ja": "読取ヘッドを原稿に沿って移動させ、光センサの出力をA/D変換して画像データを作る。解像度は一般にdpiで表され、値が大きいほど単位長さ当たりに細かく標本化できるが、データ量も増える。",
+          "vi": "Đầu đọc di chuyển dọc bản gốc, rồi tín hiệu cảm biến ánh sáng được chuyển đổi A/D để tạo dữ liệu ảnh. Độ phân giải thường tính bằng dpi; dpi cao lấy mẫu chi tiết hơn nhưng làm tăng dung lượng."
         },
         {
           "type": "point",
-          "ja": "紙媒体をデジタルデータへ変換する代表的な入力装置である。",
-          "vi": "Là thiết bị nhập tiêu biểu để chuyển tài liệu giấy thành dữ liệu số."
+          "ja": "FEでは、スキャナーの出力はまず画像データであり、文字データを得るにはOCR処理が必要である点を押さえる。",
+          "vi": "Điểm quan trọng trong FE: đầu ra trực tiếp của máy quét là dữ liệu ảnh; muốn có văn bản có thể tìm kiếm hoặc chỉnh sửa phải dùng OCR."
+        },
+        {
+          "type": "example",
+          "ja": "300 dpiでA4文書を読み取ってPDF画像として保存し、必要なページだけOCRにかけて検索可能な文字列を付加する。",
+          "vi": "Quét tài liệu A4 ở 300 dpi để lưu thành PDF dạng ảnh, sau đó áp dụng OCR cho các trang cần thiết để bổ sung văn bản có thể tìm kiếm."
+        },
+        {
+          "type": "warning",
+          "ja": "高いdpiを指定しても、原稿や光学系にない細部が復元されるわけではない。また、解像度を上げると処理時間と保存容量が増える。",
+          "vi": "Tăng dpi không thể khôi phục chi tiết vốn không có trong bản gốc hoặc hệ quang học; nó còn làm tăng thời gian xử lý và dung lượng lưu."
         }
       ],
       "terms": [
@@ -418,8 +438,8 @@
           "reading": "すきゃなー",
           "english": "Scanner",
           "vi": "máy quét",
-          "definitionJa": "文書や画像を光学的に読み取り、デジタル化する入力装置。",
-          "definitionVi": "Thiết bị đọc quang học tài liệu hoặc hình ảnh và chuyển thành dữ liệu số."
+          "definitionJa": "原稿を光学的に走査し、画素から成るデジタル画像として取り込む入力装置。",
+          "definitionVi": "Thiết bị nhập quét bản gốc bằng phương pháp quang học và thu nhận thành ảnh số gồm các điểm ảnh."
         }
       ],
       "tags": ["input-output", "input-device", "scanner"]
@@ -430,28 +450,33 @@
       "titleJa": "OCR",
       "titleVi": "Nhận dạng ký tự quang học",
       "importance": "high",
-      "summaryJa": "画像やスキャン文書に含まれる文字を認識し、文字データに変換するOCRについて理解する。",
-      "summaryVi": "Tìm hiểu OCR, công nghệ nhận dạng chữ trong ảnh hoặc tài liệu quét và chuyển thành dữ liệu văn bản.",
+      "summaryJa": "OCRは、画像中の文字領域と字形を解析し、対応する文字コードを推定して編集・検索可能な文字データへ変換する技術である。",
+      "summaryVi": "OCR phân tích vùng chữ và hình dạng ký tự trong ảnh, suy đoán mã ký tự tương ứng rồi chuyển thành dữ liệu văn bản có thể chỉnh sửa và tìm kiếm.",
       "content": [
         {
           "type": "heading",
-          "ja": "OCRとは",
-          "vi": "OCR là gì?"
+          "ja": "画像から文字コードへの変換",
+          "vi": "Chuyển ảnh thành mã ký tự"
         },
         {
           "type": "paragraph",
-          "ja": "OCR（Optical Character Recognition）は、画像やスキャンした文書に含まれる文字を認識し、コンピュータで扱える文字データへ変換する技術である。",
-          "vi": "OCR (Optical Character Recognition) là công nghệ nhận dạng chữ trong ảnh hoặc tài liệu quét và chuyển thành dữ liệu văn bản mà máy tính có thể xử lý."
-        },
-        {
-          "type": "paragraph",
-          "ja": "印刷された文書や手書き文字などを編集可能なテキストへ変換することで、文書管理や検索を効率化できる。",
-          "vi": "OCR giúp chuyển tài liệu in hoặc chữ viết tay thành văn bản có thể chỉnh sửa, hỗ trợ quản lý và tìm kiếm tài liệu."
+          "ja": "前処理で傾きやノイズを補正し、行・文字を切り出して認識する。辞書や言語モデルを併用する場合もあるが、原稿の解像度、字体、汚れ、レイアウトによって認識精度は変化する。",
+          "vi": "Hệ thống thường chỉnh nghiêng và nhiễu, tách dòng/ký tự rồi nhận dạng; có thể kết hợp từ điển hoặc mô hình ngôn ngữ. Độ phân giải, phông chữ, vết bẩn và bố cục đều ảnh hưởng độ chính xác."
         },
         {
           "type": "point",
-          "ja": "OCRは「文字」を読み取る。",
-          "vi": "OCR dùng để nhận dạng chữ."
+          "ja": "OCRはスキャナーそのものではなく、スキャン画像などから文字データを生成する認識処理である。",
+          "vi": "OCR không phải bản thân máy quét mà là quá trình nhận dạng tạo dữ liệu ký tự từ ảnh quét hoặc ảnh chụp."
+        },
+        {
+          "type": "example",
+          "ja": "請求書画像から日付と金額をOCRで抽出し、担当者が原画像と照合した後に会計システムへ登録する。",
+          "vi": "OCR trích ngày và số tiền từ ảnh hóa đơn; người phụ trách đối chiếu với ảnh gốc trước khi ghi vào hệ thống kế toán."
+        },
+        {
+          "type": "warning",
+          "ja": "認識結果は必ず正しいとは限らない。「0」と「O」、「1」と「l」のような類似字形を誤ることがあるため、重要データには照合や入力検査が必要である。",
+          "vi": "Kết quả không luôn chính xác; các hình dạng giống nhau như “0/O” hoặc “1/l” dễ bị nhầm, nên dữ liệu quan trọng cần đối chiếu và kiểm tra."
         }
       ],
       "terms": [
@@ -460,8 +485,8 @@
           "reading": "おーしーあーる",
           "english": "Optical Character Recognition",
           "vi": "nhận dạng ký tự quang học",
-          "definitionJa": "画像中の文字を認識して文字データへ変換する技術。",
-          "definitionVi": "Công nghệ nhận dạng chữ trong hình ảnh và chuyển thành dữ liệu văn bản."
+          "definitionJa": "画像に含まれる字形を認識し、対応する文字コードから成る文字データへ変換する技術。",
+          "definitionVi": "Công nghệ nhận dạng hình dạng ký tự trong ảnh và chuyển thành dữ liệu văn bản gồm các mã ký tự tương ứng."
         }
       ],
       "tags": ["input-output", "ocr", "recognition"]
@@ -472,28 +497,33 @@
       "titleJa": "OMR",
       "titleVi": "Nhận dạng dấu quang học",
       "importance": "high",
-      "summaryJa": "答案用紙などに記入されたマークを光学的に読み取るOMRについて理解する。",
-      "summaryVi": "Tìm hiểu OMR, công nghệ đọc các dấu được tô trên phiếu trả lời hoặc biểu mẫu.",
+      "summaryJa": "OMRは、所定位置に塗られたマークの有無を光学的に判定し、答案やアンケートの選択結果を効率よく入力する技術である。",
+      "summaryVi": "OMR xác định bằng quang học việc có hay không có dấu tô tại vị trí quy định, giúp nhập hiệu quả đáp án hoặc lựa chọn trên phiếu khảo sát.",
       "content": [
         {
           "type": "heading",
-          "ja": "OMRとは",
-          "vi": "OMR là gì?"
+          "ja": "定位置のマークを読む",
+          "vi": "Đọc dấu tại vị trí cố định"
         },
         {
           "type": "paragraph",
-          "ja": "OMR（Optical Mark Recognition）は、試験の答案用紙やアンケート用紙などに記入された特定のマークを光学的に読み取る技術である。",
-          "vi": "OMR (Optical Mark Recognition) là công nghệ đọc quang học các dấu được tô trên phiếu thi hoặc phiếu khảo sát."
-        },
-        {
-          "type": "paragraph",
-          "ja": "大量の回答を自動的に集計できるため、教育機関や調査機関などで利用される。",
-          "vi": "Do có thể tự động tổng hợp lượng lớn câu trả lời, OMR được sử dụng trong trường học và tổ chức khảo sát."
+          "ja": "用紙の位置合わせ用マークなどを基準に読取位置を特定し、各欄の反射量の差から塗りつぶしを判定する。文字の形を解釈する必要がないため、定型用紙を大量処理する用途に適する。",
+          "vi": "Hệ thống dùng dấu căn chỉnh để xác định vị trí đọc rồi dựa vào chênh lệch phản xạ để nhận biết ô đã tô. Vì không phải hiểu hình dạng ký tự, OMR phù hợp xử lý hàng loạt biểu mẫu cố định."
         },
         {
           "type": "point",
-          "ja": "OCRは文字、OMRはマークを認識する。",
-          "vi": "OCR nhận dạng chữ; OMR nhận dạng dấu."
+          "ja": "FEでは「OCRは文字、OMRは所定欄のマーク」という対象の違いを確実に区別する。",
+          "vi": "Trong FE phải phân biệt rõ: OCR nhận dạng ký tự, còn OMR phát hiện dấu ở các ô được quy định."
+        },
+        {
+          "type": "example",
+          "ja": "四択100問の答案用紙では、各問題のA～D欄の濃さを読み、最も濃い一欄を選択結果として集計する。",
+          "vi": "Với phiếu 100 câu bốn lựa chọn, hệ thống đọc độ đậm của các ô A–D và tổng hợp ô được tô làm câu trả lời."
+        },
+        {
+          "type": "warning",
+          "ja": "薄い記入、消し残し、複数欄の塗りつぶし、用紙のずれは誤読や無効判定の原因になる。自由記述の文章を読む用途ではない。",
+          "vi": "Tô quá nhạt, tẩy chưa sạch, tô nhiều ô hoặc lệch giấy có thể gây đọc sai hay vô hiệu; OMR không dùng để đọc câu trả lời tự do."
         }
       ],
       "terms": [
@@ -502,8 +532,8 @@
           "reading": "おーえむあーる",
           "english": "Optical Mark Recognition",
           "vi": "nhận dạng dấu quang học",
-          "definitionJa": "用紙に記入されたマークを光学的に読み取る技術。",
-          "definitionVi": "Công nghệ đọc quang học các dấu được đánh trên giấy."
+          "definitionJa": "定型用紙の所定位置に記入されたマークの有無を光学的に読み取る技術。",
+          "definitionVi": "Công nghệ dùng phương pháp quang học để phát hiện dấu được tô tại vị trí quy định trên biểu mẫu cố định."
         }
       ],
       "tags": ["input-output", "omr", "recognition"]
@@ -556,28 +586,33 @@
       "titleJa": "生体認証装置",
       "titleVi": "Thiết bị xác thực sinh trắc học",
       "importance": "high",
-      "summaryJa": "指紋や顔などの身体的特徴を利用して本人確認を行う生体認証装置について理解する。",
-      "summaryVi": "Tìm hiểu thiết bị xác thực sinh trắc học, sử dụng đặc điểm cơ thể như vân tay hoặc khuôn mặt để xác minh danh tính.",
+      "summaryJa": "生体認証装置は、指紋、顔、虹彩、静脈などから特徴量を取得し、登録テンプレートとの類似度に基づいて本人かどうかを判定する装置である。",
+      "summaryVi": "Thiết bị xác thực sinh trắc học lấy đặc trưng từ vân tay, khuôn mặt, mống mắt hoặc tĩnh mạch và quyết định danh tính dựa trên độ giống với mẫu đã đăng ký.",
       "content": [
         {
           "type": "heading",
-          "ja": "生体認証装置とは",
-          "vi": "Thiết bị xác thực sinh trắc học là gì?"
+          "ja": "生体特徴の照合",
+          "vi": "Đối sánh đặc trưng sinh trắc"
         },
         {
           "type": "paragraph",
-          "ja": "生体認証装置（Biometric Authentication Device）は、指紋、顔、虹彩、声など、人間の身体的・生体的特徴を利用して個人を認証する装置である。",
-          "vi": "Biometric Authentication Device là thiết bị dùng các đặc điểm sinh trắc học như vân tay, khuôn mặt, mống mắt hoặc giọng nói để xác thực cá nhân."
-        },
-        {
-          "type": "paragraph",
-          "ja": "スマートフォンの指紋認証や顔認証、建物の入退室管理などに利用される。",
-          "vi": "Được sử dụng trong xác thực vân tay hoặc khuôn mặt trên smartphone và hệ thống kiểm soát ra vào."
+          "ja": "認証時の測定値は毎回完全には同じにならないため、照合得点としきい値を用いて一致を判定する。本人が主張したIDと一つのテンプレートを比べる1対1照合と、登録者全体から探す1対多照合がある。",
+          "vi": "Mẫu đo mỗi lần không hoàn toàn giống nhau nên hệ thống so điểm tương đồng với ngưỡng. Đối sánh 1:1 kiểm tra mẫu với danh tính đã khai báo; đối sánh 1:N tìm trong toàn bộ người đã đăng ký."
         },
         {
           "type": "point",
-          "ja": "パスワードではなく、人間固有の身体的特徴を認証に利用する。",
-          "vi": "Sử dụng đặc điểm sinh trắc học riêng của con người thay vì chỉ sử dụng mật khẩu."
+          "ja": "FEでは、本人拒否率（FRR）と他人受入率（FAR）の意味、およびしきい値変更によるトレードオフを理解する。",
+          "vi": "Trong FE cần hiểu tỷ lệ từ chối nhầm người thật (FRR), tỷ lệ chấp nhận nhầm kẻ giả mạo (FAR) và quan hệ đánh đổi khi đổi ngưỡng."
+        },
+        {
+          "type": "example",
+          "ja": "入退室時に社員番号と指紋を入力し、社員番号に対応する登録指紋との1対1照合で本人確認する。",
+          "vi": "Khi vào phòng, nhân viên nhập mã và vân tay; hệ thống xác minh 1:1 với mẫu vân tay gắn với mã đó."
+        },
+        {
+          "type": "warning",
+          "ja": "生体情報にも測定誤差があり、漏えいしてもパスワードのように容易には変更できない。単独で万能と考えず、用途に応じて他要素やなりすまし対策を組み合わせる。",
+          "vi": "Sinh trắc học vẫn có sai số và khó thay đổi nếu dữ liệu bị lộ. Không nên coi là giải pháp tuyệt đối; cần kết hợp yếu tố khác và biện pháp chống giả mạo tùy mục đích."
         }
       ],
       "terms": [
@@ -586,8 +621,8 @@
           "reading": "せいたいにんしょうそうち",
           "english": "Biometric Authentication Device",
           "vi": "thiết bị xác thực sinh trắc học",
-          "definitionJa": "身体的・生体的特徴を利用して本人確認を行う装置。",
-          "definitionVi": "Thiết bị dùng đặc điểm sinh trắc học để xác minh danh tính."
+          "definitionJa": "生体特徴から得た特徴量を登録テンプレートと照合し、本人性を判定する認証装置。",
+          "definitionVi": "Thiết bị xác thực đối sánh đặc trưng sinh trắc với mẫu đăng ký để đánh giá người dùng có đúng danh tính hay không."
         }
       ],
       "tags": ["input-output", "authentication", "biometric"]
@@ -598,28 +633,33 @@
       "titleJa": "バーコード読取装置",
       "titleVi": "Máy đọc mã vạch",
       "importance": "high",
-      "summaryJa": "商品などに印刷されたバーコードを読み取り、デジタルデータへ変換するバーコード読取装置について理解する。",
-      "summaryVi": "Tìm hiểu máy đọc mã vạch, thiết bị đọc barcode và chuyển thông tin thành dữ liệu số.",
+      "summaryJa": "バーコード読取装置は、バーと空白または二次元パターンを光学的に読み、その符号を識別番号などのデータへ復号する入力装置である。",
+      "summaryVi": "Máy đọc mã vạch quét quang học các vạch–khoảng trắng hoặc mẫu hai chiều rồi giải mã chúng thành mã định danh và dữ liệu liên quan.",
       "content": [
         {
           "type": "heading",
-          "ja": "バーコード読取装置とは",
-          "vi": "Máy đọc mã vạch là gì?"
+          "ja": "機械可読コードの復号",
+          "vi": "Giải mã mã máy đọc được"
         },
         {
           "type": "paragraph",
-          "ja": "バーコード読取装置（Barcode Reader）は、商品などに印刷されたバーコードを光学的に読み取り、その情報をデジタルデータとしてコンピュータへ送信する装置である。",
-          "vi": "Barcode Reader là thiết bị đọc mã vạch bằng phương pháp quang học và gửi thông tin dưới dạng dữ liệu số tới máy tính."
-        },
-        {
-          "type": "paragraph",
-          "ja": "スーパーマーケットのPOSレジや物流、在庫管理などで利用され、商品の識別や管理を効率化する。",
-          "vi": "Được sử dụng tại POS, logistics và quản lý tồn kho để nhận diện và quản lý hàng hóa hiệu quả."
+          "ja": "一次元バーコードは幅の異なるバーと空白、二次元コードはセルの配置で情報を表す。レーザ走査式やイメージセンサ式の読取装置がパターンを取得し、規格に従って文字列へ変換する。",
+          "vi": "Mã một chiều biểu diễn dữ liệu bằng vạch và khoảng trắng có độ rộng khác nhau; mã hai chiều dùng cách bố trí các ô. Đầu đọc laser hoặc cảm biến ảnh thu mẫu rồi chuyển thành chuỗi theo quy cách mã."
         },
         {
           "type": "point",
-          "ja": "バーコードは商品識別や在庫管理に広く利用される。",
-          "vi": "Barcode được dùng rộng rãi để nhận diện sản phẩm và quản lý tồn kho."
+          "ja": "FEでは、バーコード読取装置を自動認識・データ取得の入力装置として捉え、チェックディジットによる読取誤り検出も関連付ける。",
+          "vi": "Trong FE, cần xem máy đọc mã vạch là thiết bị nhập cho nhận dạng và thu thập dữ liệu tự động, đồng thời liên hệ chữ số kiểm tra dùng phát hiện lỗi đọc."
+        },
+        {
+          "type": "example",
+          "ja": "POSでJANコードを読むと商品コードが送られ、レジシステムが商品マスタを検索して名称と価格を表示する。",
+          "vi": "Tại POS, đầu đọc gửi mã JAN; hệ thống tra cứu danh mục sản phẩm để hiển thị tên và giá."
+        },
+        {
+          "type": "warning",
+          "ja": "一般にバーコードが直接「価格」を表すとは限らない。多くの場合は識別子を保持し、価格などの属性は別のデータベースから取得する。",
+          "vi": "Mã vạch không nhất thiết trực tiếp chứa “giá”; thường nó mang mã định danh, còn giá và thuộc tính khác được lấy từ cơ sở dữ liệu."
         }
       ],
       "terms": [
@@ -628,8 +668,8 @@
           "reading": "ばーこーどよみとりそうち",
           "english": "Barcode Reader",
           "vi": "máy đọc mã vạch",
-          "definitionJa": "バーコードを読み取り、情報をデジタルデータへ変換する装置。",
-          "definitionVi": "Thiết bị đọc mã vạch và chuyển thông tin thành dữ liệu số."
+          "definitionJa": "バーコードの光学パターンを読み取り、規格に従って識別番号などのデータへ復号する装置。",
+          "definitionVi": "Thiết bị đọc mẫu quang học của mã vạch và giải mã theo tiêu chuẩn thành mã định danh hoặc dữ liệu khác."
         }
       ],
       "tags": ["input-output", "input-device", "barcode"]
@@ -682,28 +722,33 @@
       "titleJa": "ICカード読取装置",
       "titleVi": "Máy đọc thẻ IC",
       "importance": "high",
-      "summaryJa": "ICカードに記録された情報を接触または非接触で読み取るICカード読取装置について理解する。",
-      "summaryVi": "Tìm hiểu máy đọc thẻ IC, thiết bị đọc thông tin từ thẻ IC bằng tiếp xúc hoặc không tiếp xúc.",
+      "summaryJa": "ICカード読取装置は、カード内のICと接触端子または無線で通信し、記録データの読出しや認証処理を行う装置である。",
+      "summaryVi": "Đầu đọc thẻ IC giao tiếp với vi mạch trong thẻ qua tiếp điểm hoặc vô tuyến để đọc dữ liệu và thực hiện xử lý xác thực.",
       "content": [
         {
           "type": "heading",
-          "ja": "ICカード読取装置とは",
-          "vi": "Máy đọc thẻ IC là gì?"
+          "ja": "接触式と非接触式",
+          "vi": "Loại tiếp xúc và không tiếp xúc"
         },
         {
           "type": "paragraph",
-          "ja": "ICカード読取装置（IC Card Reader）は、ICカードに記録された情報を読み取るための装置である。",
-          "vi": "IC Card Reader là thiết bị đọc thông tin được lưu trong thẻ IC."
-        },
-        {
-          "type": "paragraph",
-          "ja": "接触式または非接触式で情報を取得し、交通系ICカード、電子マネー、身分証明書など幅広い用途で利用される。",
-          "vi": "Thông tin có thể được đọc bằng tiếp xúc hoặc không tiếp xúc, và được dùng trong thẻ giao thông IC, tiền điện tử hoặc thẻ nhận dạng."
+          "ja": "接触式は端子を介して電力供給と通信を行い、非接触式は電磁界を利用して近距離通信する。ICカードにはメモリだけを持つものと、プロセッサを備えて暗号処理などを行えるものがある。",
+          "vi": "Loại tiếp xúc cấp điện và truyền dữ liệu qua chân tiếp điểm; loại không tiếp xúc dùng trường điện từ để liên lạc tầm gần. Có thẻ chỉ chứa bộ nhớ và thẻ có bộ xử lý để thực hiện mật mã."
         },
         {
           "type": "point",
-          "ja": "ICカードは磁気カードより多くの情報を扱え、セキュリティ機能を持つものも多い。",
-          "vi": "Thẻ IC có thể xử lý nhiều thông tin hơn thẻ từ và thường có chức năng bảo mật."
+          "ja": "FEでは、ICカードは磁気カードより多くのデータや処理機能を持ち得る点と、接触・非接触の両方式を押さえる。",
+          "vi": "Trong FE, cần nhớ thẻ IC có thể chứa nhiều dữ liệu và khả năng xử lý hơn thẻ từ, đồng thời có cả dạng tiếp xúc và không tiếp xúc."
+        },
+        {
+          "type": "example",
+          "ja": "交通系ICカードを改札機にかざすと、読取装置がカードと通信し、認証と残額更新を短時間で行う。",
+          "vi": "Khi đưa thẻ giao thông IC gần cổng soát vé, đầu đọc giao tiếp với thẻ để xác thực và cập nhật số dư trong thời gian ngắn."
+        },
+        {
+          "type": "warning",
+          "ja": "名称に「読取」とあっても、システムによってはカードへの書込みも行う。非接触式であること自体がデータの安全性を保証するわけではない。",
+          "vi": "Dù tên gọi là “đầu đọc”, một số hệ thống còn ghi dữ liệu lên thẻ. Việc không tiếp xúc tự nó không đảm bảo dữ liệu an toàn."
         }
       ],
       "terms": [
@@ -712,8 +757,8 @@
           "reading": "あいしーかーどよみとりそうち",
           "english": "IC Card Reader",
           "vi": "máy đọc thẻ IC",
-          "definitionJa": "ICカード内の情報を読み取る装置。",
-          "definitionVi": "Thiết bị đọc thông tin được lưu trong thẻ IC."
+          "definitionJa": "ICカード内のICと接触または非接触で通信し、データの読出しや認証などを行う装置。",
+          "definitionVi": "Thiết bị giao tiếp tiếp xúc hoặc không tiếp xúc với vi mạch trong thẻ để đọc dữ liệu và thực hiện xác thực."
         }
       ],
       "tags": ["input-output", "input-device", "ic-card"]
@@ -724,28 +769,33 @@
       "titleJa": "A/Dコンバータ",
       "titleVi": "Bộ chuyển đổi A/D",
       "importance": "high",
-      "summaryJa": "連続的なアナログ信号をコンピュータが扱えるデジタル信号へ変換するA/Dコンバータについて理解する。",
-      "summaryVi": "Tìm hiểu bộ chuyển đổi A/D, thiết bị chuyển tín hiệu analog liên tục thành tín hiệu số mà máy tính có thể xử lý.",
+      "summaryJa": "A/Dコンバータは、連続的なアナログ信号を一定間隔で標本化し、有限段階に量子化して、コンピュータが扱えるディジタル符号へ変換する回路である。",
+      "summaryVi": "Bộ chuyển đổi A/D lấy mẫu tín hiệu analog liên tục theo khoảng thời gian, lượng tử hóa thành các mức hữu hạn rồi mã hóa thành dữ liệu số mà máy tính xử lý được.",
       "content": [
         {
           "type": "heading",
-          "ja": "A/Dコンバータとは",
-          "vi": "Bộ chuyển đổi A/D là gì?"
+          "ja": "標本化・量子化・符号化",
+          "vi": "Lấy mẫu, lượng tử hóa và mã hóa"
         },
         {
           "type": "paragraph",
-          "ja": "A/Dコンバータ（A/D Converter）は、音声や温度などの連続的なアナログ信号を、0と1で表現されるデジタル信号へ変換する装置である。",
-          "vi": "A/D Converter là thiết bị chuyển các tín hiệu analog liên tục như âm thanh hoặc nhiệt độ thành tín hiệu số biểu diễn bằng 0 và 1."
-        },
-        {
-          "type": "paragraph",
-          "ja": "マイクロフォンから入力した音声や各種センサから得られた信号をコンピュータで処理する際などに利用される。",
-          "vi": "Được sử dụng khi cần xử lý trên máy tính các tín hiệu từ microphone hoặc cảm biến."
+          "ja": "標本化では時間軸を離散化し、量子化では各標本の振幅を最も近い段階へ対応付ける。NビットのADCは理想的には2のN乗個の符号を表せ、ビット数が大きいほど振幅方向の分解能が細かい。",
+          "vi": "Lấy mẫu rời rạc hóa trục thời gian; lượng tử hóa ánh xạ biên độ mỗi mẫu vào một mức gần nhất. ADC N bit có thể biểu diễn lý tưởng 2^N mã; số bit lớn cho độ phân giải biên độ mịn hơn."
         },
         {
           "type": "point",
-          "ja": "A/D変換はアナログからデジタルへの変換である。",
-          "vi": "A/D là chuyển từ analog sang digital."
+          "ja": "FEでは、標本化周波数、量子化ビット数、量子化誤差を関連付け、A/DとD/Aの変換方向を取り違えない。",
+          "vi": "Trong FE, cần liên hệ tần số lấy mẫu, số bit lượng tử hóa và sai số lượng tử; đồng thời không nhầm chiều chuyển đổi A/D với D/A."
+        },
+        {
+          "type": "example",
+          "ja": "0～5 Vを8ビットで均等に量子化する理想ADCでは256段階となり、1段階は約5÷256＝19.5 mVである。",
+          "vi": "Với ADC lý tưởng 8 bit lượng tử đều dải 0–5 V, có 256 mức và mỗi bước xấp xỉ 5÷256 = 19,5 mV."
+        },
+        {
+          "type": "warning",
+          "ja": "入力の最高周波数に対して標本化周波数が不足するとエイリアシングが生じる。理想的な帯域制限信号の再現には、最高周波数の2倍を超える標本化周波数が必要である。",
+          "vi": "Nếu tần số lấy mẫu không đủ so với tần số cao nhất của tín hiệu, sẽ xảy ra aliasing. Với tín hiệu giới hạn băng lý tưởng, cần tần số lấy mẫu lớn hơn hai lần tần số cao nhất."
         }
       ],
       "terms": [
@@ -754,8 +804,8 @@
           "reading": "えーでぃーこんばーた",
           "english": "A/D Converter",
           "vi": "bộ chuyển đổi analog sang digital",
-          "definitionJa": "アナログ信号をデジタル信号へ変換する装置。",
-          "definitionVi": "Thiết bị chuyển tín hiệu analog thành tín hiệu digital."
+          "definitionJa": "アナログ信号を標本化・量子化・符号化し、有限精度のディジタル値へ変換する回路。",
+          "definitionVi": "Mạch lấy mẫu, lượng tử hóa và mã hóa tín hiệu analog thành giá trị số có độ chính xác hữu hạn."
         }
       ],
       "tags": ["input-output", "converter", "analog-digital"]
@@ -766,28 +816,33 @@
       "titleJa": "液晶ディスプレイ",
       "titleVi": "Màn hình tinh thể lỏng",
       "importance": "high",
-      "summaryJa": "液晶を利用して画像や文字を表示する液晶ディスプレイについて理解する。",
-      "summaryVi": "Tìm hiểu LCD, màn hình sử dụng tinh thể lỏng để hiển thị hình ảnh và văn bản.",
+      "summaryJa": "液晶ディスプレイは、液晶層の光の通し方を電圧で制御し、通常はバックライトの光を画素ごとに変調して画像を表示する装置である。",
+      "summaryVi": "LCD điều khiển bằng điện áp cách lớp tinh thể lỏng truyền ánh sáng, thường điều biến ánh sáng từ đèn nền theo từng điểm ảnh để tạo hình.",
       "content": [
         {
           "type": "heading",
-          "ja": "液晶ディスプレイとは",
-          "vi": "Màn hình tinh thể lỏng là gì?"
+          "ja": "液晶は光を制御する",
+          "vi": "Tinh thể lỏng điều khiển ánh sáng"
         },
         {
           "type": "paragraph",
-          "ja": "液晶ディスプレイ（Liquid Crystal Display）は、液晶の光学的性質を利用して画像や文字を表示する表示装置である。",
-          "vi": "Liquid Crystal Display là thiết bị hiển thị sử dụng đặc tính quang học của tinh thể lỏng để hiển thị hình ảnh và văn bản."
-        },
-        {
-          "type": "paragraph",
-          "ja": "薄型・軽量で消費電力が比較的少ないため、テレビやコンピュータモニタなどで広く利用されている。",
-          "vi": "Do mỏng, nhẹ và tiêu thụ điện tương đối thấp, LCD được sử dụng rộng rãi trong TV và màn hình máy tính."
+          "ja": "各画素は液晶層、偏光板、カラーフィルタなどで構成され、赤・緑・青の副画素の透過量を変えて色を表す。薄型化しやすく、CRTに比べて軽量・低消費電力という特徴がある。",
+          "vi": "Mỗi điểm ảnh gồm lớp tinh thể lỏng, tấm phân cực, bộ lọc màu…; mức truyền sáng của các điểm ảnh con đỏ, lục, lam tạo màu. LCD dễ làm mỏng, nhẹ và thường tiết kiệm điện hơn CRT."
         },
         {
           "type": "point",
-          "ja": "液晶ディスプレイは薄型・軽量・省電力という特徴を持つ。",
-          "vi": "LCD có các đặc điểm nổi bật là mỏng, nhẹ và tiết kiệm điện."
+          "ja": "FEでは、液晶は自ら光る材料ではなく光の透過を制御すること、TFTは液晶画素の駆動方式であることを整理する。",
+          "vi": "Trong FE, cần nhớ tinh thể lỏng không tự phát sáng mà điều khiển ánh sáng; TFT là phương thức điều khiển các điểm ảnh LCD."
+        },
+        {
+          "type": "example",
+          "ja": "白を表示する画素ではRGB各副画素の透過量を上げ、黒に近づけるときはバックライトを遮る方向へ液晶を制御する。",
+          "vi": "Để hiển thị trắng, màn hình tăng mức truyền sáng của các điểm ảnh con RGB; để gần đen, tinh thể lỏng được điều khiển theo hướng chặn ánh sáng nền."
+        },
+        {
+          "type": "warning",
+          "ja": "LCDと有機ELを混同しない。一般的なLCDはバックライトを必要とし、画素を黒にしても光漏れが生じ得る。",
+          "vi": "Không nhầm LCD với OLED. LCD thông thường cần đèn nền và vẫn có thể rò ánh sáng ngay cả khi điểm ảnh hiển thị màu đen."
         }
       ],
       "terms": [
@@ -796,8 +851,8 @@
           "reading": "えきしょうでぃすぷれい",
           "english": "Liquid Crystal Display",
           "vi": "màn hình tinh thể lỏng",
-          "definitionJa": "液晶を利用して画像や文字を表示する表示装置。",
-          "definitionVi": "Thiết bị hiển thị sử dụng tinh thể lỏng."
+          "definitionJa": "液晶の光学特性を電圧で変化させ、バックライトなどの光を画素ごとに制御して表示する装置。",
+          "definitionVi": "Thiết bị hiển thị thay đổi đặc tính quang học của tinh thể lỏng bằng điện áp để điều khiển ánh sáng theo từng điểm ảnh."
         }
       ],
       "tags": ["input-output", "output-device", "display", "lcd"]
@@ -808,28 +863,33 @@
       "titleJa": "TFT液晶",
       "titleVi": "Màn hình LCD TFT",
       "importance": "high",
-      "summaryJa": "各画素を薄膜トランジスタで制御する方式の液晶ディスプレイであるTFT液晶について理解する。",
-      "summaryVi": "Tìm hiểu TFT LCD, loại màn hình LCD sử dụng transistor màng mỏng để điều khiển từng pixel.",
+      "summaryJa": "TFT液晶は、各画素に対応する薄膜トランジスタで電圧を保持・制御するアクティブマトリクス方式の液晶ディスプレイである。",
+      "summaryVi": "TFT LCD là màn hình tinh thể lỏng ma trận chủ động, dùng transistor màng mỏng tương ứng với từng điểm ảnh để giữ và điều khiển điện áp.",
       "content": [
         {
           "type": "heading",
-          "ja": "TFT液晶とは",
-          "vi": "TFT LCD là gì?"
+          "ja": "画素ごとのアクティブ駆動",
+          "vi": "Điều khiển chủ động từng điểm ảnh"
         },
         {
           "type": "paragraph",
-          "ja": "TFT液晶（Thin-Film Transistor Liquid Crystal Display）は、各画素を制御するために薄膜トランジスタを利用した液晶ディスプレイである。",
-          "vi": "TFT LCD (Thin-Film Transistor Liquid Crystal Display) là loại màn hình tinh thể lỏng sử dụng transistor màng mỏng để điều khiển từng pixel."
-        },
-        {
-          "type": "paragraph",
-          "ja": "個々の画素を細かく制御できるため、高解像度で鮮明な画像表示が可能であり、テレビ、コンピュータモニタ、スマートフォンなどで利用されている。",
-          "vi": "Vì có thể điều khiển từng pixel riêng biệt, TFT LCD có thể hiển thị hình ảnh rõ nét, độ phân giải cao và được dùng trong TV, màn hình máy tính, smartphone."
+          "ja": "行と列を選択してTFTをオンにし、画素電極へ所定の電圧を書き込む。選択後も容量に電荷を保持できるため、画素間の干渉を抑え、応答性やコントラストの高い表示を実現しやすい。",
+          "vi": "Hệ thống chọn hàng và cột để bật TFT rồi ghi điện áp vào điện cực điểm ảnh. Điện tích được giữ sau khi bỏ chọn, giúp giảm ảnh hưởng giữa các điểm ảnh và cải thiện tốc độ đáp ứng, độ tương phản."
         },
         {
           "type": "point",
-          "ja": "TFTは各画素を薄膜トランジスタで制御する液晶方式である。",
-          "vi": "TFT là công nghệ LCD trong đó từng pixel được điều khiển bằng transistor màng mỏng."
+          "ja": "FEでは、TFTを表示材料の名称ではなく、液晶画素を個別に制御するアクティブマトリクスの駆動素子として理解する。",
+          "vi": "Trong FE, TFT không phải tên vật liệu hiển thị mà là phần tử điều khiển trong ma trận chủ động, dùng để điều khiển riêng từng điểm ảnh LCD."
+        },
+        {
+          "type": "example",
+          "ja": "動画で一画素の明るさを変えるとき、対応するTFTを選択して新しい電圧を書き込み、次の更新までその状態を保持する。",
+          "vi": "Khi đổi độ sáng một điểm ảnh trong video, hệ thống chọn TFT tương ứng, ghi điện áp mới và giữ trạng thái đến lần cập nhật tiếp theo."
+        },
+        {
+          "type": "warning",
+          "ja": "TFT液晶も液晶ディスプレイの一種であり、一般にはバックライトが必要である。「TFT＝自発光方式」ではない。",
+          "vi": "TFT LCD vẫn là một loại LCD và thông thường cần đèn nền; TFT không có nghĩa là công nghệ tự phát sáng."
         }
       ],
       "terms": [
@@ -838,8 +898,8 @@
           "reading": "てぃーえふてぃーえきしょう",
           "english": "Thin-Film Transistor Liquid Crystal Display",
           "vi": "màn hình tinh thể lỏng TFT",
-          "definitionJa": "薄膜トランジスタを利用して各画素を制御する液晶ディスプレイ。",
-          "definitionVi": "Màn hình LCD sử dụng transistor màng mỏng để điều khiển từng pixel."
+          "definitionJa": "薄膜トランジスタを画素ごとのスイッチとして用いるアクティブマトリクス方式の液晶ディスプレイ。",
+          "definitionVi": "Màn hình LCD ma trận chủ động sử dụng transistor màng mỏng làm công tắc cho từng điểm ảnh."
         }
       ],
       "tags": ["input-output", "output-device", "display", "tft"]
@@ -892,28 +952,33 @@
       "titleJa": "有機ELディスプレイ",
       "titleVi": "Màn hình OLED",
       "importance": "high",
-      "summaryJa": "有機物が自ら発光する性質を利用した有機ELディスプレイについて理解する。",
-      "summaryVi": "Tìm hiểu màn hình OLED, công nghệ hiển thị sử dụng vật liệu hữu cơ tự phát sáng.",
+      "summaryJa": "有機ELディスプレイは、有機発光材料へ電流を流して各画素を自発光させる表示装置であり、OLEDディスプレイとも呼ばれる。",
+      "summaryVi": "Màn hình hữu cơ điện phát quang, còn gọi là OLED, cho dòng điện chạy qua vật liệu hữu cơ để từng điểm ảnh tự phát sáng.",
       "content": [
         {
           "type": "heading",
-          "ja": "有機ELディスプレイとは",
-          "vi": "Màn hình OLED là gì?"
+          "ja": "画素そのものが発光する",
+          "vi": "Từng điểm ảnh tự phát sáng"
         },
         {
           "type": "paragraph",
-          "ja": "有機ELディスプレイ（Organic Light Emitting Diode Display）は、有機物を利用して各画素自体を発光させる表示装置である。",
-          "vi": "OLED là công nghệ màn hình sử dụng vật liệu hữu cơ để từng pixel tự phát sáng."
-        },
-        {
-          "type": "paragraph",
-          "ja": "バックライトが不要なため薄型化しやすく、高いコントラスト比や鮮やかな色再現性、広い視野角を実現できる。",
-          "vi": "Do không cần đèn nền, OLED có thể thiết kế mỏng, đồng thời có độ tương phản cao, màu sắc sống động và góc nhìn rộng."
+          "ja": "画素ごとに発光量を制御でき、黒を表示する画素は発光を止められる。このため高いコントラストを得やすく、バックライトが不要なので薄型化や曲面化にも適する。",
+          "vi": "Có thể điều khiển lượng sáng theo từng điểm ảnh và tắt phát sáng ở điểm ảnh màu đen, nên dễ đạt tương phản cao. Không cần đèn nền nên thuận lợi cho thiết kế mỏng hoặc cong."
         },
         {
           "type": "point",
-          "ja": "有機ELは各画素が自発光するため、バックライトを必要としない。",
-          "vi": "OLED không cần đèn nền vì từng pixel tự phát sáng."
+          "ja": "FEでは、バックライトで液晶を照らすLCDと、画素が自発光する有機ELとの発光原理の違いを押さえる。",
+          "vi": "Trong FE, trọng tâm là phân biệt LCD dùng đèn nền và tinh thể lỏng điều tiết ánh sáng với OLED có điểm ảnh tự phát sáng."
+        },
+        {
+          "type": "example",
+          "ja": "黒い背景に白文字を表示すると、背景画素は消灯し、文字部分の画素だけが発光する。",
+          "vi": "Khi hiển thị chữ trắng trên nền đen, các điểm ảnh nền tắt còn điểm ảnh tạo chữ mới phát sáng."
+        },
+        {
+          "type": "warning",
+          "ja": "同じ静止画像を長時間表示すると、材料の劣化差による焼付きが問題になる場合がある。自発光だから常に消費電力が低いとは限らず、表示内容にも左右される。",
+          "vi": "Hiển thị lâu một ảnh tĩnh có thể gây lưu ảnh do mức lão hóa vật liệu khác nhau. Tự phát sáng không đồng nghĩa luôn tiêu thụ ít điện; mức điện còn phụ thuộc nội dung."
         }
       ],
       "terms": [
@@ -922,8 +987,8 @@
           "reading": "ゆうきいーえるでぃすぷれい",
           "english": "Organic Light Emitting Diode Display",
           "vi": "màn hình OLED",
-          "definitionJa": "有機物を利用して各画素を自発光させるディスプレイ。",
-          "definitionVi": "Màn hình sử dụng vật liệu hữu cơ để từng pixel tự phát sáng."
+          "definitionJa": "有機発光材料を用いて各画素を自発光させ、バックライトなしで画像を表示する装置。",
+          "definitionVi": "Thiết bị dùng vật liệu hữu cơ để từng điểm ảnh tự phát sáng và hiển thị hình ảnh không cần đèn nền."
         }
       ],
       "tags": ["input-output", "output-device", "display", "oled"]
@@ -934,28 +999,33 @@
       "titleJa": "ヘッドマウントディスプレイ",
       "titleVi": "Màn hình gắn trên đầu",
       "importance": "high",
-      "summaryJa": "頭部に装着してVRやARなどの映像を表示するヘッドマウントディスプレイについて理解する。",
-      "summaryVi": "Tìm hiểu Head-Mounted Display, thiết bị hiển thị đeo trên đầu thường dùng cho VR và AR.",
+      "summaryJa": "ヘッドマウントディスプレイ（HMD）は、頭部に装着し、利用者の眼前へ映像を提示する表示装置で、姿勢追跡と組み合わせてVRやARに利用される。",
+      "summaryVi": "Màn hình gắn trên đầu (HMD) là thiết bị đeo trên đầu để đưa hình ảnh tới trước mắt; thường kết hợp theo dõi tư thế trong ứng dụng VR hoặc AR.",
       "content": [
         {
           "type": "heading",
-          "ja": "ヘッドマウントディスプレイとは",
-          "vi": "Head-Mounted Display là gì?"
+          "ja": "眼前表示と姿勢追跡",
+          "vi": "Hiển thị trước mắt và theo dõi tư thế"
         },
         {
           "type": "paragraph",
-          "ja": "ヘッドマウントディスプレイ（Head-Mounted Display）は、頭部に装着して使用するディスプレイ装置であり、主にVRやARの分野で利用される。",
-          "vi": "Head-Mounted Display là thiết bị hiển thị được đeo trên đầu, chủ yếu được sử dụng trong VR và AR."
-        },
-        {
-          "type": "paragraph",
-          "ja": "センサなどを利用してユーザーの動きを追跡し、視点に合わせて映像を更新することで、高い没入感を実現する。",
-          "vi": "Thiết bị có thể dùng cảm biến để theo dõi chuyển động của người dùng và cập nhật hình ảnh theo hướng nhìn, tạo cảm giác nhập vai cao."
+          "ja": "左右の眼へ視差のある映像を提示すると立体感を作れる。ジャイロセンサやカメラなどで頭の向き・位置を測定し、その変化に合わせて表示視点を更新することで没入感を高める。",
+          "vi": "Hiển thị hình có thị sai cho hai mắt tạo cảm giác chiều sâu. Con quay hồi chuyển hoặc camera đo hướng/vị trí đầu, rồi hệ thống cập nhật góc nhìn theo chuyển động để tăng tính nhập vai."
         },
         {
           "type": "point",
-          "ja": "HMDはVR・ARなどの没入型コンテンツで利用される。",
-          "vi": "HMD thường được sử dụng trong nội dung VR và AR có tính nhập vai."
+          "ja": "FEでは、HMDを表示装置として分類し、VRは仮想空間を提示し、ARは現実視野へ情報を重ねるという用途の違いを整理する。",
+          "vi": "Trong FE, HMD thuộc thiết bị hiển thị; cần phân biệt VR trình bày không gian ảo với AR chồng thông tin lên tầm nhìn thực."
+        },
+        {
+          "type": "example",
+          "ja": "利用者が右を向くと姿勢センサの値が変化し、描画装置が仮想空間の右側を低遅延で表示する。",
+          "vi": "Khi người dùng quay sang phải, cảm biến tư thế thay đổi và bộ dựng hình hiển thị phía bên phải của không gian ảo với độ trễ thấp."
+        },
+        {
+          "type": "warning",
+          "ja": "頭の動きと映像更新の遅延が大きいと違和感や映像酔いの原因になる。HMDを装着するだけでARやVRになるのではなく、表示内容と追跡方式で用途が決まる。",
+          "vi": "Độ trễ lớn giữa chuyển động đầu và cập nhật hình có thể gây khó chịu hoặc say hình. Chỉ đeo HMD chưa tự động thành AR/VR; mục đích còn do nội dung và cơ chế theo dõi."
         }
       ],
       "terms": [
@@ -964,11 +1034,17 @@
           "reading": "へっどまうんとでぃすぷれい",
           "english": "Head-Mounted Display",
           "vi": "màn hình gắn trên đầu",
-          "definitionJa": "頭部に装着し、利用者の視界に映像を表示する装置。",
-          "definitionVi": "Thiết bị đeo trên đầu để hiển thị hình ảnh trước mắt người dùng."
+          "definitionJa": "頭部に装着して眼前に映像を表示し、必要に応じて姿勢追跡と連動する表示装置。",
+          "definitionVi": "Thiết bị hiển thị đeo trên đầu, đưa hình ảnh tới trước mắt và có thể phối hợp với theo dõi tư thế."
         }
       ],
-      "tags": ["input-output", "output-device", "display", "vr", "ar"]
+      "tags": [
+        "input-output",
+        "output-device",
+        "display",
+        "vr",
+        "ar"
+      ]
     },
     {
       "id": "eye-tracking-device",
@@ -1060,28 +1136,33 @@
       "titleJa": "インタレースモード",
       "titleVi": "Chế độ quét xen kẽ",
       "importance": "high",
-      "summaryJa": "画面を奇数行と偶数行に分けて交互に描画するインタレースモードについて理解する。",
-      "summaryVi": "Tìm hiểu chế độ interlace, trong đó các dòng lẻ và dòng chẵn được hiển thị xen kẽ.",
+      "summaryJa": "インタレースモードは、1フレームの走査線を奇数行と偶数行の二つのフィールドに分け、時間をずらして交互に表示する走査方式である。",
+      "summaryVi": "Quét xen kẽ chia các dòng của một khung hình thành hai field dòng lẻ và dòng chẵn, rồi hiển thị chúng luân phiên ở các thời điểm khác nhau.",
       "content": [
         {
           "type": "heading",
-          "ja": "インタレースモードとは",
-          "vi": "Chế độ quét xen kẽ là gì?"
+          "ja": "二つのフィールドで一画面",
+          "vi": "Hai field tạo một khung hình"
         },
         {
           "type": "paragraph",
-          "ja": "インタレースモード（Interlace Mode）は、画像を二つのフィールドに分け、奇数行と偶数行を交互に描画して一つの画面を構成する方式である。",
-          "vi": "Interlace Mode chia hình ảnh thành hai field và lần lượt vẽ các dòng lẻ và dòng chẵn để tạo thành một khung hình."
-        },
-        {
-          "type": "paragraph",
-          "ja": "少ない伝送量で映像を表示できるため、従来のテレビ放送などで広く利用された。",
-          "vi": "Phương thức này giúp hiển thị hình ảnh với lượng dữ liệu truyền nhỏ hơn nên từng được sử dụng phổ biến trong truyền hình."
+          "ja": "一回目の走査で奇数行、次の走査で偶数行を描き、二つのフィールドを合わせて一フレームとする。限られた伝送帯域で見かけの更新頻度を高められるため、従来のテレビ方式で利用された。",
+          "vi": "Lần quét thứ nhất vẽ dòng lẻ, lần tiếp theo vẽ dòng chẵn; hai field hợp thành một frame. Cách này tăng tần suất cập nhật cảm nhận trong băng thông hạn chế nên từng dùng phổ biến trong truyền hình."
         },
         {
           "type": "point",
-          "ja": "奇数行と偶数行を交互に描画する。",
-          "vi": "Các dòng lẻ và dòng chẵn được vẽ xen kẽ."
+          "ja": "FEでは、インタレースは奇数・偶数ラインを交互に走査し、プログレッシブは各フレームの全走査線を順に描くと区別する。",
+          "vi": "Trong FE, cần phân biệt interlace quét luân phiên dòng lẻ/chẵn với progressive quét tuần tự toàn bộ dòng của mỗi frame."
+        },
+        {
+          "type": "example",
+          "ja": "50フィールド/秒の方式では、二つのフィールドで一フレームを構成するため、完全なフレームは毎秒25枚となる。",
+          "vi": "Ở hệ thống 50 field/giây, hai field tạo một frame nên có 25 frame hoàn chỉnh mỗi giây."
+        },
+        {
+          "type": "warning",
+          "ja": "二つのフィールドは異なる時刻の映像なので、動く物体の輪郭にくし状のずれが現れることがある。フィールド周波数とフレーム周波数を混同しない。",
+          "vi": "Hai field ghi ở thời điểm khác nhau nên vật chuyển động có thể xuất hiện viền răng lược. Không nhầm tần số field với tần số frame."
         }
       ],
       "terms": [
@@ -1090,8 +1171,8 @@
           "reading": "いんたれーすもーど",
           "english": "Interlace Mode",
           "vi": "chế độ quét xen kẽ",
-          "definitionJa": "奇数行と偶数行を交互に描画する画面表示方式。",
-          "definitionVi": "Phương thức hiển thị bằng cách quét xen kẽ các dòng lẻ và dòng chẵn."
+          "definitionJa": "一フレームを奇数行と偶数行の二フィールドに分け、時間をずらして交互に走査する表示方式。",
+          "definitionVi": "Phương thức hiển thị chia một frame thành hai field dòng lẻ và chẵn rồi quét luân phiên theo thời gian."
         }
       ],
       "tags": ["input-output", "display", "interlace"]

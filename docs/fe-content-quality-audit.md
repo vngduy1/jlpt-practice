@@ -5,11 +5,11 @@
 ## Kết luận chính
 
 - Tổng số bài học logic: **2596** trong **96** chapter và **23** nhóm.
-- Phân loại cấu trúc: **A 311**, **B 2285**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
-- Thiếu block: point **36**, example **2363**, warning **2353**, terms **0**.
-- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **431** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
-- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **4** bài; có phần Việt lặp nguyên văn trong cùng bài: **1535** bài.
-- Có dấu hiệu nội dung khuôn mẫu/chung chung: **1987** bài; có trùng chính xác với bài khác: **203** bài.
+- Phân loại cấu trúc: **A 401**, **B 2195**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
+- Thiếu block: point **36**, example **2273**, warning **2263**, terms **0**.
+- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **418** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
+- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **3** bài; có phần Việt lặp nguyên văn trong cùng bài: **1476** bài.
+- Có dấu hiệu nội dung khuôn mẫu/chung chung: **1921** bài; có trùng chính xác với bài khác: **203** bài.
 - Phát hiện **0** lỗi cấu trúc file; đáng chú ý có **0** bài nằm trong mảng `lessons` bị lồng và không tương thích loader hiện tại.
 
 ## Bước 1 — Cấu trúc được hỗ trợ
@@ -36,7 +36,7 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 基礎理論 / Lý thuyết cơ bản | 47 | 37 | 10 | 0 | 0 | 7 | 4 | 0 | 0 | 0 |
 | アルゴリズムとプログラミング / Thuật toán và lập trình | 102 | 49 | 53 | 0 | 0 | 86 | 99 | 0 | 0 | 0 |
-| コンピュータ構成要素 / Các thành phần cấu tạo máy tính | 191 | 66 | 125 | 0 | 0 | 157 | 161 | 0 | 0 | 0 |
+| コンピュータ構成要素 / Các thành phần cấu tạo máy tính | 191 | 96 | 95 | 0 | 0 | 127 | 131 | 0 | 0 | 0 |
 | システム構成要素 / Các thành phần cấu thành hệ thống | 87 | 16 | 71 | 0 | 0 | 87 | 87 | 0 | 0 | 0 |
 | ソフトウェア / Phần mềm | 38 | 0 | 38 | 0 | 1 | 38 | 32 | 0 | 0 | 0 |
 | ハードウェア / Phần cứng | 4 | 0 | 4 | 0 | 0 | 4 | 2 | 0 | 0 | 0 |
@@ -44,7 +44,7 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 | 情報メディア / Phương tiện thông tin | 11 | 0 | 11 | 0 | 0 | 11 | 4 | 0 | 0 | 0 |
 | データベース / Cơ sở dữ liệu | 18 | 7 | 11 | 0 | 3 | 11 | 5 | 0 | 0 | 0 |
 | ネットワーク / Mạng máy tính | 38 | 6 | 32 | 0 | 32 | 32 | 32 | 0 | 0 | 0 |
-| セキュリティ / Bảo mật | 149 | 0 | 149 | 0 | 0 | 149 | 149 | 0 | 0 | 0 |
+| セキュリティ / Bảo mật | 149 | 30 | 119 | 0 | 0 | 119 | 119 | 0 | 0 | 0 |
 | システム開発技術 / Công nghệ phát triển hệ thống | 402 | 0 | 402 | 0 | 0 | 402 | 402 | 0 | 0 | 0 |
 | ソフトウェア開発管理技術 / Công nghệ quản lý phát triển phần mềm | 90 | 15 | 75 | 0 | 0 | 75 | 75 | 0 | 0 | 0 |
 | プロジェクトマネジメント / Quản lý dự án | 167 | 0 | 167 | 0 | 0 | 167 | 167 | 0 | 0 | 0 |
@@ -52,11 +52,11 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 | システム監査 / Kiểm toán hệ thống | 67 | 0 | 67 | 0 | 0 | 67 | 67 | 0 | 0 | 0 |
 | システム戦略 / Chiến lược hệ thống | 97 | 0 | 97 | 0 | 0 | 97 | 97 | 0 | 0 | 0 |
 | システム企画 / Hoạch định hệ thống | 45 | 0 | 45 | 0 | 0 | 45 | 45 | 0 | 0 | 0 |
-| 経営戦略マネジメント / Quản lý chiến lược kinh doanh | 116 | 10 | 106 | 0 | 0 | 106 | 106 | 0 | 0 | 2 |
+| 経営戦略マネジメント / Quản lý chiến lược kinh doanh | 116 | 25 | 91 | 0 | 0 | 91 | 91 | 0 | 0 | 1 |
 | 技術戦略マネジメント / Quản lý chiến lược công nghệ | 41 | 0 | 41 | 0 | 0 | 41 | 41 | 0 | 0 | 0 |
 | ビジネスインダストリ / Công nghiệp kinh doanh | 180 | 15 | 165 | 0 | 0 | 165 | 165 | 0 | 0 | 0 |
 | 企業活動 / Hoạt động doanh nghiệp | 247 | 15 | 232 | 0 | 0 | 232 | 232 | 0 | 0 | 0 |
-| 法務 / Pháp vụ | 268 | 30 | 238 | 0 | 0 | 238 | 238 | 0 | 0 | 2 |
+| 法務 / Pháp vụ | 268 | 45 | 223 | 0 | 0 | 223 | 223 | 0 | 0 | 2 |
 
 ## Trường hợp không nên thêm block chỉ để đủ cấu trúc
 
@@ -64,15 +64,15 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 - Không bắt buộc tách `example` thành block riêng nếu paragraph/point đã có ví dụ cụ thể, đúng và đủ nổi bật; script đánh dấu `embeddedExample` để biên tập viên quyết định.
 - Không nhân bản summary vào point hay definition chỉ để có đủ field. Point phải chốt mẹo làm bài/quan hệ phân biệt; term definition phải định nghĩa thuật ngữ độc lập.
 - Không thêm heading vào bài rất ngắn chỉ để tăng block; trước tiên cần xác định bài có nên gộp với bài liên quan hay cần mở rộng nội dung.
-- Hiện có **1872** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
-- Hiện có **1556** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
+- Hiện có **1792** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
+- Hiện có **1515** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
 
 ## Kế hoạch nâng cấp ưu tiên
 
 1. **P0 — Khôi phục khả năng dùng dữ liệu (0 bài):** xử lý bài C, trường bắt buộc trống, nội dung Việt trống và lỗi mảng lessons bị lồng. Đây là lỗi dữ liệu/runtime, không chỉ là biên tập.
-2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (1063 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
+2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (973 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
 3. **P2 — Nâng chiều sâu (1222 bài):** bổ sung ví dụ thực sự có giá trị, thay point chung chung, tách nội dung lặp và cân nhắc warning theo ngữ cảnh.
-4. **P3 — Review chuyên môn cho A (311 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
+4. **P3 — Review chuyên môn cho A (401 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
 
 ## Lỗi cấu trúc file
 
@@ -155,24 +155,9 @@ Cần nâng cấp: **53** (B 53, C 0).
 
 ### 03-computer-components — コンピュータ構成要素 / Các thành phần cấu tạo máy tính
 
-Cần nâng cấp: **125** (B 125, C 0).
+Cần nâng cấp: **95** (B 95, C 0).
 
 - **B/P2** デスクトップPC / Máy tính để bàn — `processor/desktop-pc` — thiếu ví dụ
-- **B/P1** 論理演算命令 / Lệnh phép toán logic — `processor/logical-operation-instruction` — thiếu ví dụ
-- **B/P1** 転送命令 / Lệnh truyền dữ liệu — `processor/transfer-instruction` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 比較命令 / Lệnh so sánh — `processor/comparison-instruction` — thiếu ví dụ
-- **B/P1** 分岐命令 / Lệnh rẽ nhánh — `processor/branch-instruction` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** シフト命令 / Lệnh dịch bit — `processor/shift-instruction` — thiếu ví dụ
-- **B/P1** 入出力命令 / Lệnh vào/ra — `processor/input-output-instruction` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 内部割込み / Ngắt nội bộ — `processor/internal-interrupt` — thiếu ví dụ, cần cân nhắc warning
-- **B/P1** 外部割込み / Ngắt bên ngoài — `processor/external-interrupt` — khuôn mẫu/lặp
-- **B/P1** 入出力割込み / Ngắt vào/ra — `processor/io-interrupt` — thiếu ví dụ
-- **B/P1** CPI / Số chu kỳ trên mỗi lệnh — `processor/cpi` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** MIPS / Triệu lệnh mỗi giây — `processor/mips` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** FLOPS / Số phép toán dấu phẩy động mỗi giây — `processor/flops` — thiếu ví dụ
-- **B/P1** 命令ミックス / Hỗn hợp lệnh — `processor/instruction-mix` — thiếu ví dụ
-- **B/P1** スーパーパイプライン / Siêu đường ống — `processor/super-pipeline` — thiếu ví dụ
-- **B/P1** スーパースカラ / Kiến trúc superscalar — `processor/superscalar` — thiếu ví dụ
 - **B/P1** VLIW / Kiến trúc VLIW — `processor/vliw` — thiếu ví dụ
 - **B/P2** シングルコアプロセッサ / Bộ xử lý đơn lõi — `processor/single-core-processor` — thiếu ví dụ
 - **B/P1** マルチコアプロセッサ / Bộ xử lý đa lõi — `processor/multi-core-processor` — thiếu ví dụ
@@ -243,28 +228,13 @@ Cần nâng cấp: **125** (B 125, C 0).
 - **B/P1** プログラム制御方式 / Phương thức điều khiển bằng chương trình — `input-output-devices/program-control-method` — thiếu ví dụ
 - **B/P1** DMA方式 / Phương thức DMA — `input-output-devices/dma-method` — thiếu ví dụ
 - **B/P1** チャネル制御方式 / Phương thức điều khiển kênh — `input-output-devices/channel-control-method` — thiếu ví dụ
-- **B/P1** マウス / Chuột — `input-output-equipment/mouse` — thiếu ví dụ
-- **B/P1** タッチパネル・タッチスクリーン / Màn hình cảm ứng — `input-output-equipment/touch-panel-touch-screen` — thiếu ví dụ
 - **B/P2** トラックボール / Trackball — `input-output-equipment/trackball` — thiếu ví dụ
 - **B/P2** ペンタブレット / Bảng vẽ điện tử — `input-output-equipment/pen-tablet` — thiếu ví dụ
-- **B/P1** キーボード / Bàn phím — `input-output-equipment/keyboard` — thiếu ví dụ, ngắn
 - **B/P2** 音声入力装置 / Thiết bị nhập bằng giọng nói — `input-output-equipment/voice-input-device` — thiếu ví dụ, ngắn
-- **B/P1** スキャナー / Máy quét — `input-output-equipment/scanner` — thiếu ví dụ
-- **B/P1** OCR / Nhận dạng ký tự quang học — `input-output-equipment/ocr` — thiếu ví dụ, ngắn
-- **B/P1** OMR / Nhận dạng dấu quang học — `input-output-equipment/omr` — thiếu ví dụ
 - **B/P2** デジタルカメラ / Máy ảnh kỹ thuật số — `input-output-equipment/digital-camera` — thiếu ví dụ
-- **B/P1** 生体認証装置 / Thiết bị xác thực sinh trắc học — `input-output-equipment/biometric-authentication-device` — thiếu ví dụ
-- **B/P1** バーコード読取装置 / Máy đọc mã vạch — `input-output-equipment/barcode-reader` — thiếu ví dụ
 - **B/P2** 磁気カード読取装置 / Máy đọc thẻ từ — `input-output-equipment/magnetic-card-reader` — thiếu ví dụ, ngắn
-- **B/P1** ICカード読取装置 / Máy đọc thẻ IC — `input-output-equipment/ic-card-reader` — thiếu ví dụ
-- **B/P1** A/Dコンバータ / Bộ chuyển đổi A/D — `input-output-equipment/ad-converter` — thiếu ví dụ
-- **B/P1** 液晶ディスプレイ / Màn hình tinh thể lỏng — `input-output-equipment/liquid-crystal-display` — thiếu ví dụ
-- **B/P1** TFT液晶 / Màn hình LCD TFT — `input-output-equipment/tft-liquid-crystal-display` — thiếu ví dụ
 - **B/P2** STN液晶 / Màn hình LCD STN — `input-output-equipment/stn-liquid-crystal-display` — thiếu ví dụ
-- **B/P1** 有機ELディスプレイ / Màn hình OLED — `input-output-equipment/organic-el-display` — thiếu ví dụ
-- **B/P1** ヘッドマウントディスプレイ / Màn hình gắn trên đầu — `input-output-equipment/head-mounted-display` — thiếu ví dụ
 - **B/P2** アイトラッキングデバイス / Thiết bị theo dõi ánh mắt — `input-output-equipment/eye-tracking-device` — thiếu ví dụ
-- **B/P1** インタレースモード / Chế độ quét xen kẽ — `input-output-equipment/interlace-mode` — thiếu ví dụ, ngắn
 - **B/P1** ノンインタレースモード / Chế độ quét không xen kẽ — `input-output-equipment/non-interlaced-mode` — thiếu ví dụ
 - **B/P1** VGA / Chuẩn VGA — `input-output-equipment/vga` — thiếu ví dụ
 - **B/P2** SVGA / Chuẩn SVGA — `input-output-equipment/svga` — thiếu ví dụ
@@ -499,7 +469,7 @@ Cần nâng cấp: **32** (B 32, C 0).
 
 ### 11-security — セキュリティ / Bảo mật
 
-Cần nâng cấp: **149** (B 149, C 0).
+Cần nâng cấp: **119** (B 119, C 0).
 
 - **B/P1** 情報セキュリティの特性 / Các thuộc tính của an toàn thông tin — `information-security/security-properties` — thiếu heading, thiếu ví dụ, ngắn, khuôn mẫu/lặp
 - **B/P1** セキュリティ設計と情報資産 / Thiết kế bảo mật và tài sản thông tin — `information-security/security-design-and-assets` — schema, thiếu heading, thiếu ví dụ, ngắn, khuôn mẫu/lặp
@@ -537,39 +507,24 @@ Cần nâng cấp: **149** (B 149, C 0).
 - **B/P2** 不正アクセス対策 / Biện pháp chống truy cập trái phép — `information-security-measures/unauthorized-access-prevention` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 情報漏えい対策 / Biện pháp chống rò rỉ thông tin — `information-security-measures/information-leakage-countermeasures` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** マルウェア対策 / Biện pháp chống mã độc — `information-security-measures/malware-protection` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** ランサムウェア対策 / Biện pháp chống ransomware — `information-security-measures/ransomware-countermeasures` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 3-2-1ルール / Quy tắc sao lưu 3-2-1 — `information-security-measures/backup-3-2-1-rule` — khuôn mẫu/lặp
-- **B/P1** WORM / WORM (ghi một lần, đọc nhiều lần) — `information-security-measures/worm` — khuôn mẫu/lặp
-- **B/P1** イミュータブルバックアップ / Sao lưu bất biến — `information-security-measures/immutable-backup` — schema, khuôn mẫu/lặp
 - **B/P2** パターンマッチング法 / Phương pháp so khớp mẫu — `information-security-measures/pattern-matching-method` — khuôn mẫu/lặp
 - **B/P2** ビヘイビア法 / Phương pháp phát hiện theo hành vi — `information-security-measures/behavioral-detection-method` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ヒューリスティック法 / Phương pháp heuristic — `information-security-measures/heuristic-method` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 未知マルウェア検出手法 / Kỹ thuật phát hiện mã độc chưa biết — `information-security-measures/unknown-malware-detection-technique` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 秘匿化 / Che giấu thông tin — `information-security-measures/obfuscation` — khuôn mẫu/lặp
-- **B/P1** アクセス制御 / Kiểm soát truy cập — `information-security-measures/access-control` — khuôn mẫu/lặp
-- **B/P1** 脆弱性管理 / Quản lý lỗ hổng — `information-security-measures/vulnerability-management` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ネットワーク監視 / Giám sát mạng — `information-security-measures/network-monitoring` — khuôn mẫu/lặp
 - **B/P2** アクセス権の設定 / Thiết lập quyền truy cập — `information-security-measures/access-rights-configuration` — khuôn mẫu/lặp
-- **B/P1** 侵入検知 / Phát hiện xâm nhập — `information-security-measures/intrusion-detection` — khuôn mẫu/lặp
-- **B/P1** 侵入防止 / Ngăn chặn xâm nhập — `information-security-measures/intrusion-prevention` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** DMZ / DMZ (vùng phi quân sự) — `information-security-measures/dmz` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 検疫ネットワーク / Mạng cách ly — `information-security-measures/quarantine-network` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** URLフィルタリング / Lọc URL — `information-security-measures/url-filtering` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** コンテンツフィルタリング / Lọc nội dung — `information-security-measures/content-filtering` — schema, khuôn mẫu/lặp
 - **B/P2** 携帯端末のセキュリティ / Bảo mật thiết bị di động — `information-security-measures/mobile-device-security` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** データマスキング / Che dữ liệu — `information-security-measures/data-masking` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** クラウドサービスのセキュリティ / Bảo mật dịch vụ đám mây — `information-security-measures/cloud-service-security` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** IoTのセキュリティ / Bảo mật IoT — `information-security-measures/iot-security` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 制御システムのセキュリティ / Bảo mật hệ thống điều khiển — `information-security-measures/control-system-security` — khuôn mẫu/lặp
 - **B/P2** 電子透かし / Thủy vân số — `information-security-measures/digital-watermarking` — khuôn mẫu/lặp
-- **B/P1** デジタルフォレンジックス / Điều tra số — `information-security-measures/digital-forensics` — schema, khuôn mẫu/lặp
 - **B/P2** AIを使ったセキュリティ技術 / Công nghệ bảo mật sử dụng AI — `information-security-measures/ai-for-security` — khuôn mẫu/lặp
 - **B/P2** AIそのものを守るセキュリティ技術 / Công nghệ bảo vệ chính hệ thống AI — `information-security-measures/security-for-ai` — khuôn mẫu/lặp
 - **B/P2** マルウェア対策ソフト / Phần mềm chống mã độc — `information-security-measures/malware-protection-software` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** SIEM / SIEM — `information-security-measures/siem` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** ファイアウォール / Tường lửa — `information-security-measures/firewall` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** WAF / Tường lửa ứng dụng Web — `information-security-measures/waf` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** IDS / Hệ thống phát hiện xâm nhập — `information-security-measures/ids` — ngắn, khuôn mẫu/lặp
 - **B/P1** IPS / Hệ thống ngăn chặn xâm nhập — `information-security-measures/ips` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P1** UTM / Quản lý mối đe dọa hợp nhất — `information-security-measures/utm` — khuôn mẫu/lặp
 - **B/P1** 許可リスト / Danh sách cho phép — `information-security-measures/allow-list` — cần cân nhắc warning, khuôn mẫu/lặp
@@ -594,31 +549,16 @@ Cần nâng cấp: **149** (B 149, C 0).
 - **B/P2** セキュリティケーブル / Cáp chống trộm — `information-security-measures/security-cable` — schema, khuôn mẫu/lặp
 - **B/P2** 記憶媒体の管理 / Quản lý phương tiện lưu trữ — `information-security-measures/memory-media-management` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 装置のセキュリティを保った処分又は再利用 / Xử lý hoặc tái sử dụng thiết bị an toàn — `information-security-measures/security-disposal-or-reuse-of-devices` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** IPsec / IPsec — `security-implementation-technology/internet-protocol-security` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** SSL/TLS / SSL/TLS — `security-implementation-technology/secure-sockets-layer-transport-layer-security` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** SSH / SSH — `security-implementation-technology/secure-shell` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** HTTPS / HTTPS — `security-implementation-technology/http-over-tls` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** WPA2 / WPA2 — `security-implementation-technology/wi-fi-protected-access-2` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** WPA3 / WPA3 — `security-implementation-technology/wi-fi-protected-access-3` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** ベイジアンフィルタリング / Lọc Bayesian — `security-implementation-technology/bayesian-filtering` — schema, thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** SPF / SPF — `security-implementation-technology/sender-policy-framework` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** DKIM / DKIM — `security-implementation-technology/domainkeys-identified-mail` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** DMARC / DMARC — `security-implementation-technology/domain-based-message-authentication-reporting-and-conformance` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** SMTP-AUTH / Xác thực SMTP — `security-implementation-technology/smtp-authentication` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** OP25B / Chặn cổng 25 chiều đi — `security-implementation-technology/outbound-port-25-blocking` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
 - **B/P2** PGP / PGP — `security-implementation-technology/pretty-good-privacy` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** S/MIME / S/MIME — `security-implementation-technology/secure-multipurpose-internet-mail-extensions` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** OAuth / OAuth — `security-implementation-technology/oauth` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** DNSSEC / DNSSEC — `security-implementation-technology/dns-security-extensions` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** EAP / EAP — `security-implementation-technology/extensible-authentication-protocol` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** EAP-TLS / EAP-TLS — `security-implementation-technology/extensible-authentication-protocol-transport-layer-security` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** PEAP / PEAP — `security-implementation-technology/protected-extensible-authentication-protocol` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** RADIUS / RADIUS — `security-implementation-technology/remote-authentication-dial-in-user-service` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** パケットフィルタリング / Lọc gói tin — `security-implementation-technology/packet-filtering` — schema, thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** MACアドレスフィルタリング / Lọc địa chỉ MAC — `security-implementation-technology/mac-address-filtering` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 認証サーバ / Máy chủ xác thực — `security-implementation-technology/authentication-server` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** NAT / NAT — `security-implementation-technology/network-address-translation` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** NAPT / NAPT — `security-implementation-technology/network-address-port-translation` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 認証VLAN / VLAN xác thực — `security-implementation-technology/authentication-vlan` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P1** VPN / VPN — `security-implementation-technology/virtual-private-network` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** ハニーポット / Honeypot — `security-implementation-technology/honeypot` — schema, thiếu ví dụ, ngắn, khuôn mẫu/lặp
@@ -1675,7 +1615,7 @@ Cần nâng cấp: **45** (B 45, C 0).
 
 ### 19-business-strategy-management — 経営戦略マネジメント / Quản lý chiến lược kinh doanh
 
-Cần nâng cấp: **106** (B 106, C 0).
+Cần nâng cấp: **91** (B 91, C 0).
 
 - **B/P2** SDGs / Các mục tiêu phát triển bền vững — `business-strategy-methods/sdgs` — ngắn, khuôn mẫu/lặp
 - **B/P2** サーキュラーエコノミー / Kinh tế tuần hoàn — `business-strategy-methods/circular-economy` — schema, khuôn mẫu/lặp
@@ -1703,40 +1643,25 @@ Cần nâng cấp: **106** (B 106, C 0).
 - **B/P1** VRIO分析 / Phân tích VRIO — `business-strategy-methods/vrio-analysis` — khuôn mẫu/lặp
 - **B/P1** バリューチェーン分析 / Phân tích chuỗi giá trị — `business-strategy-methods/value-chain-analysis` — khuôn mẫu/lặp
 - **B/P1** 成長マトリクス / Ma trận tăng trưởng — `business-strategy-methods/growth-matrix` — khuôn mẫu/lặp
-- **B/P1** 3C分析 / Phân tích 3C — `marketing/3c-analysis` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 市場調査 / Nghiên cứu thị trường — `marketing/marketing-research` — khuôn mẫu/lặp
-- **B/P1** STP分析 / Phân tích STP — `marketing/stp-analysis` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** コンジョイント分析 / Phân tích kết hợp thuộc tính — `marketing/conjoint-analysis` — khuôn mẫu/lặp
 - **B/P2** サンプリング / Lấy mẫu — `marketing/sampling` — schema, khuôn mẫu/lặp
 - **B/P2** 質問法 / Phương pháp đặt câu hỏi — `marketing/questioning-method` — khuôn mẫu/lặp
 - **B/P2** 観察法 / Phương pháp quan sát — `marketing/observation-method` — ngắn, khuôn mẫu/lặp
 - **B/P2** 実験法 / Phương pháp thực nghiệm — `marketing/experimental-method` — khuôn mẫu/lặp
-- **B/P1** デザイン思考 / Tư duy thiết kế — `marketing/design-thinking` — ngắn, khuôn mẫu/lặp
 - **B/P2** アサンプションマップ / Bản đồ giả định — `marketing/assumption-map` — schema, thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** バリュープロポジション / Đề xuất giá trị — `marketing/value-proposition` — schema, khuôn mẫu/lặp
 - **B/P2** ブランドプロポジション / Đề xuất giá trị thương hiệu — `marketing/brand-proposition` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ブランドアイデンティティ / Bản sắc thương hiệu — `marketing/brand-identity` — schema, khuôn mẫu/lặp
-- **B/P1** マーケティングミックス / Marketing mix (4P) — `marketing/marketing-mix` — schema, khuôn mẫu/lặp
 - **B/P2** マーチャンダイジング / Quản lý trưng bày và kinh doanh hàng hóa — `marketing/merchandising` — schema, ngắn, khuôn mẫu/lặp
-- **B/P1** UX / Trải nghiệm người dùng — `marketing/user-experience` — khuôn mẫu/lặp
 - **B/P2** 顧客ロイヤルティ / Lòng trung thành của khách hàng — `marketing/customer-loyalty` — khuôn mẫu/lặp
 - **B/P2** ブランド戦略 / Chiến lược thương hiệu — `marketing/brand-strategy` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コンバージョン率 / Tỷ lệ chuyển đổi — `marketing/conversion-rate` — khuôn mẫu/lặp
-- **B/P1** リテンション率 / Tỷ lệ duy trì khách hàng — `marketing/retention-rate` — khuôn mẫu/lặp
-- **B/P1** カスタマージャーニーマップ / Bản đồ hành trình khách hàng — `marketing/customer-journey-map` — schema, khuôn mẫu/lặp
-- **B/P1** ペルソナ / Chân dung khách hàng điển hình — `marketing/persona` — schema, khuôn mẫu/lặp
 - **B/P2** 参加型デザイン / Thiết kế có sự tham gia — `marketing/participatory-design` — khuôn mẫu/lặp
-- **B/P1** サービスブループリント / Sơ đồ quy trình cung cấp dịch vụ — `marketing/service-blueprint` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** プロダクトビジョン / Tầm nhìn sản phẩm — `marketing/product-vision` — schema, khuôn mẫu/lặp
-- **B/P1** プロダクトライフサイクル / Vòng đời sản phẩm — `marketing/product-life-cycle` — schema, VI nghi còn tiếng Nhật, thiếu ví dụ, ngắn, khuôn mẫu/lặp
 - **B/P2** ライフサイクルエクステンション / Kéo dài vòng đời sản phẩm — `marketing/life-cycle-extension` — schema, khuôn mẫu/lặp
 - **B/P2** 製品ライン / Dòng sản phẩm — `marketing/product-line` — khuôn mẫu/lặp
 - **B/P2** 製品ポートフォリオ / Danh mục sản phẩm — `marketing/product-portfolio` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ブランド戦略 / Chiến lược thương hiệu — `marketing/brand-strategy-30` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** コモディティ化 / Hàng hóa bị phổ thông hóa — `marketing/commoditization` — khuôn mẫu/lặp
-- **B/P1** カニバリゼーション / Tự cạnh tranh giữa sản phẩm cùng công ty — `marketing/cannibalization` — schema, khuôn mẫu/lặp
 - **B/P2** バリュープライシング / Định giá dựa trên giá trị — `marketing/value-pricing` — schema, khuôn mẫu/lặp
-- **B/P1** スキミングプライシング / Định giá hớt váng — `marketing/skimming-pricing` — schema, khuôn mẫu/lặp
 - **B/P1** ペネトレーションプライシング / Định giá thâm nhập — `marketing/penetration-pricing` — schema, thiếu ví dụ, ngắn, khuôn mẫu/lặp
 - **B/P1** ダイナミックプライシング / Định giá linh hoạt — `marketing/dynamic-pricing` — schema, khuôn mẫu/lặp
 - **B/P1** コストプラス法 / Phương pháp cộng lãi vào chi phí — `marketing/cost-plus-pricing` — ngắn, khuôn mẫu/lặp
@@ -2239,7 +2164,7 @@ Cần nâng cấp: **232** (B 232, C 0).
 
 ### 23-legal-affairs — 法務 / Pháp vụ
 
-Cần nâng cấp: **238** (B 238, C 0).
+Cần nâng cấp: **223** (B 223, C 0).
 
 - **B/P2** 企業理念 / Triết lý doanh nghiệp — `intellectual-property-rights/corporate-philosophy` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** グリーンIT / CNTT xanh (Green IT) — `intellectual-property-rights/green-it` — khuôn mẫu/lặp, trùng bài khác
@@ -2442,27 +2367,12 @@ Cần nâng cấp: **238** (B 238, C 0).
 - **B/P2** 省エネ法 / Luật Tiết kiệm năng lượng — `other-laws-guidelines-engineer-ethics/energy-conservation-law` — khuôn mẫu/lặp
 - **B/P1** 外国為替及び外国貿易法 / Luật Ngoại hối và Ngoại thương — `other-laws-guidelines-engineer-ethics/foreign-exchange-and-foreign-trade-act` — khuôn mẫu/lặp
 - **B/P2** 米国輸出関連法 / Các luật kiểm soát xuất khẩu của Hoa Kỳ — `other-laws-guidelines-engineer-ethics/u-s-export-control-laws` — khuôn mẫu/lặp
-- **B/P1** JIS / Tiêu chuẩn công nghiệp Nhật Bản — `standardization/jis` — ngắn, khuôn mẫu/lặp
-- **B/P1** JIS X部門 / Nhóm JIS X — `standardization/jis-x-sector` — khuôn mẫu/lặp
-- **B/P1** JIS Q部門 / Nhóm JIS Q — `standardization/jis-q-sector` — khuôn mẫu/lặp
 - **B/P2** JISC / Hội đồng tiêu chuẩn công nghiệp Nhật Bản — `standardization/jisc` — khuôn mẫu/lặp
 - **B/P2** JSA / Hiệp hội Tiêu chuẩn Nhật Bản — `standardization/jsa` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
-- **B/P1** IS / Tiêu chuẩn quốc tế — `standardization/international-standard` — ngắn, khuôn mẫu/lặp
-- **B/P1** ISO / Tổ chức Tiêu chuẩn hóa Quốc tế — `standardization/iso` — ngắn, khuôn mẫu/lặp
 - **B/P2** 国際認証 / Chứng nhận quốc tế — `standardization/international-certification` — khuôn mẫu/lặp
-- **B/P1** ITU / Liên minh Viễn thông Quốc tế — `standardization/itu` — khuôn mẫu/lặp
-- **B/P1** IEC / Ủy ban Kỹ thuật Điện Quốc tế — `standardization/iec` — khuôn mẫu/lặp
-- **B/P1** IETF / Nhóm đặc trách kỹ thuật Internet — `standardization/ietf` — khuôn mẫu/lặp
 - **B/P2** ANSI / Viện Tiêu chuẩn Quốc gia Hoa Kỳ — `standardization/ansi` — khuôn mẫu/lặp
-- **B/P1** IEEE / Hiệp hội Kỹ sư Điện và Điện tử — `standardization/ieee` — khuôn mẫu/lặp
-- **B/P1** W3C / Liên minh World Wide Web — `standardization/w3c` — khuôn mẫu/lặp
 - **B/P2** フォーラム標準 / Tiêu chuẩn diễn đàn — `standardization/forum-standard` — khuôn mẫu/lặp
-- **B/P1** デジュレスタンダード / Tiêu chuẩn chính thức — `standardization/de-jure-standard` — schema, ngắn, khuôn mẫu/lặp
 - **B/P2** SLCP-JCF / Khung chung vòng đời phần mềm Nhật Bản — `standardization/slcp-jcf` — khuôn mẫu/lặp
-- **B/P1** JIS X 0160 / JIS X 0160 — `standardization/jis-x-0160` — ngắn, khuôn mẫu/lặp
-- **B/P1** JIS X 0170 / JIS X 0170 — `standardization/jis-x-0170` — khuôn mẫu/lặp
-- **B/P1** ISO 14000 / Bộ tiêu chuẩn ISO 14000 — `standardization/iso-14000` — khuôn mẫu/lặp
-- **B/P1** JIS Q 14001 / JIS Q 14001 — `standardization/jis-q-14001` — ngắn, khuôn mẫu/lặp
 - **B/P1** ISO/IEC15408 / ISO/IEC 15408 — `standardization/iso-iec-15408` — khuôn mẫu/lặp
 - **B/P2** CORBA / Kiến trúc môi giới yêu cầu đối tượng chung — `standardization/corba` — khuôn mẫu/lặp
 - **B/P2** OMG / Nhóm Quản lý Đối tượng — `standardization/omg` — khuôn mẫu/lặp
