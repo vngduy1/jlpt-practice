@@ -296,8 +296,8 @@
       "titleJa": "レスポンスタイム",
       "titleVi": "Thời gian đáp ứng",
       "importance": "high",
-      "summaryJa": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。",
-      "summaryVi": "Là khoảng thời gian từ khi người dùng đưa ra yêu cầu đến khi hệ thống trả lại phản hồi.",
+      "summaryJa": "要求を送ってから、利用者が結果を受け取るまでに経過する時間である。",
+      "summaryVi": "Là thời gian trôi qua từ lúc gửi yêu cầu đến khi người dùng nhận được kết quả.",
       "content": [
         {
           "type": "heading",
@@ -306,13 +306,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。この時間は、システムの性能や使いやすさを測る重要な指標となり、特にWebサービスやアプリケーションの利用時にその影響が顕著に現れる。例えば、Webページを開く際やアプリ内で操作を行った際に、どれだけ早く結果が表示されるかがレスポンスタイムであり、この時間が短ければ短いほどユーザー体験は向上する。レスポンスタイムが長くなると、ユーザーは待たされている感覚を持ち、利用意欲が低下するため、システム設計においては常に改善が求められる。また、ネットワークの速度やサーバの処理能力など、さまざまな要因がレスポンスタイムに影響を与える。",
-          "vi": "Là khoảng thời gian từ khi người dùng đưa ra yêu cầu đến khi hệ thống trả lại phản hồi. Đây là chỉ số quan trọng để đo hiệu năng và tính dễ sử dụng của hệ thống, và ảnh hưởng của nó đặc biệt rõ khi sử dụng dịch vụ Web hoặc ứng dụng. Ví dụ, khi mở một trang Web hoặc thực hiện thao tác trong ứng dụng, thời gian cho đến khi kết quả được hiển thị chính là thời gian đáp ứng; thời gian càng ngắn thì trải nghiệm người dùng càng tốt. Nếu thời gian đáp ứng dài, người dùng sẽ cảm thấy phải chờ và giảm ý muốn sử dụng, vì vậy trong thiết kế hệ thống luôn cần cải thiện chỉ số này. Nhiều yếu tố như tốc độ mạng và năng lực xử lý của máy chủ cũng ảnh hưởng đến thời gian đáp ứng."
+          "ja": "レスポンスタイムは、要求の送信開始から、画面表示や応答メッセージなどの結果を利用者が受け取るまでの経過時間である。通信時間、待ち行列での待ち時間、サーバやデータベースの処理時間などが含まれるため、測定区間と負荷条件を要件に明記する必要がある。平均値だけでなく、95パーセンタイルなどを用いると、遅い応答が一部に集中する状態も把握できる。",
+          "vi": "Thời gian đáp ứng là thời gian trôi qua từ lúc bắt đầu gửi yêu cầu đến khi người dùng nhận được kết quả như màn hình hiển thị hoặc thông điệp phản hồi. Chỉ số này gồm thời gian truyền, thời gian chờ trong hàng đợi và thời gian xử lý của máy chủ hay cơ sở dữ liệu; vì vậy yêu cầu phải nêu rõ đoạn đo và điều kiện tải. Ngoài giá trị trung bình, có thể dùng phân vị thứ 95 để nhận biết trường hợp một số yêu cầu bị chậm bất thường."
         },
         {
           "type": "point",
-          "ja": "レスポンスタイムの意味・目的・利用場面を押さえる。",
-          "vi": "Nắm vững ý nghĩa, mục đích và tình huống sử dụng của Thời gian đáp ứng."
+          "ja": "FEでは、レスポンスタイムが個々の要求への応答の速さを表す指標であること、スループットが単位時間当たりの処理量を表すことを区別する。",
+          "vi": "Trong FE, cần phân biệt thời gian đáp ứng đo độ nhanh của từng phản hồi, còn thông lượng đo lượng xử lý trong một đơn vị thời gian."
+        },
+        {
+          "type": "example",
+          "ja": "検索機能について「同時利用者500人の試験条件で、検索要求の95％を2秒以内に表示する」と定める。測定開始点、終了点、負荷、達成割合が明確なので、受入れ試験で判定できる。",
+          "vi": "Với chức năng tìm kiếm, quy định: “Trong điều kiện thử nghiệm có 500 người dùng đồng thời, 95% yêu cầu tìm kiếm phải hiển thị trong 2 giây”. Vì điểm bắt đầu, điểm kết thúc, tải và tỷ lệ đạt đều rõ nên có thể đánh giá bằng kiểm thử nghiệm thu."
+        },
+        {
+          "type": "warning",
+          "ja": "平均レスポンスタイムだけでは、少数の極端に遅い要求が隠れることがある。また、投入から処理完了までの全時間を表すターンアラウンドタイムと混同しない。",
+          "vi": "Chỉ dùng thời gian đáp ứng trung bình có thể che khuất một số yêu cầu cực chậm. Cũng không nhầm với turnaround time, vốn biểu thị toàn bộ thời gian từ khi đưa công việc vào đến khi xử lý hoàn tất."
         }
       ],
       "terms": [
@@ -320,8 +330,9 @@
           "term": "レスポンスタイム",
           "english": "Response Time",
           "vi": "Thời gian đáp ứng",
-          "definitionJa": "システムがユーザーの要求に応じて反応を返すまでの時間を指すことである。この時間は、システムの性能や使いやすさを測る重要な指標となり、特にWebサービスやアプリケーションの利用時にその影響が顕著に現れる。例えば、Webページを開く際やアプリ内で操作を行った際に、どれだけ早く結果が表示されるかがレスポンスタイムであり、この時間が短ければ短いほどユーザー体験は向上する。レスポンスタイムが長くなると、ユーザーは待たされている感覚を持ち、利用意欲が低下するため、システム設計においては常に改善が求められる。また、ネットワークの速度やサーバの処理能力など、さまざまな要因がレスポンスタイムに影響を与える。",
-          "definitionVi": "Là khoảng thời gian từ khi người dùng đưa ra yêu cầu đến khi hệ thống trả lại phản hồi. Đây là chỉ số quan trọng để đo hiệu năng và tính dễ sử dụng của hệ thống, và ảnh hưởng của nó đặc biệt rõ khi sử dụng dịch vụ Web hoặc ứng dụng. Ví dụ, khi mở một trang Web hoặc thực hiện thao tác trong ứng dụng, thời gian cho đến khi kết quả được hiển thị chính là thời gian đáp ứng; thời gian càng ngắn thì trải nghiệm người dùng càng tốt. Nếu thời gian đáp ứng dài, người dùng sẽ cảm thấy phải chờ và giảm ý muốn sử dụng, vì vậy trong thiết kế hệ thống luôn cần cải thiện chỉ số này. Nhiều yếu tố như tốc độ mạng và năng lực xử lý của máy chủ cũng ảnh hưởng đến thời gian đáp ứng."
+            "definitionJa": "要求を送信してから、利用者が応答結果を受け取るまでの経過時間。測定区間と負荷条件を定めて評価する。",
+            "definitionVi": "Thời gian trôi qua từ lúc gửi yêu cầu đến khi người dùng nhận được kết quả phản hồi; cần đánh giá với đoạn đo và điều kiện tải xác định.",
+            "reading": "れすぽんすたいむ"
         }
       ],
       "tags": [
@@ -336,8 +347,8 @@
       "titleJa": "スループット",
       "titleVi": "Thông lượng",
       "importance": "high",
-      "summaryJa": "特定の時間内に処理できるデータの量を指す指標である。",
-      "summaryVi": "Là chỉ số biểu thị lượng dữ liệu có thể xử lý trong một khoảng thời gian nhất định.",
+      "summaryJa": "システムが単位時間当たりに完了できる処理量を表す性能指標である。",
+      "summaryVi": "Là chỉ số hiệu năng biểu thị lượng công việc hệ thống hoàn thành trong một đơn vị thời gian.",
       "content": [
         {
           "type": "heading",
@@ -346,13 +357,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定の時間内に処理できるデータの量を指す指標である。通常は、秒間のデータ量で表現され、ネットワークやコンピュータシステムの性能を評価する上で重要な要素となる。例えば、あるネットワーク接続が1秒間に100メガビットのデータを送信する場合、スループットは100メガビットとなる。この指標は、システムの効率や使いやすさを評価する際に用いられ、スループットが高いほど、より多くのデータを迅速に処理できるため、ユーザにとって利便性が向上する。また、スループットの向上には、ネットワークの帯域幅やシステムの処理能力、効率的なデータ管理が重要となる。",
-          "vi": "Là chỉ số biểu thị lượng dữ liệu có thể xử lý trong một khoảng thời gian nhất định. Thông thường được biểu diễn bằng lượng dữ liệu mỗi giây và là yếu tố quan trọng khi đánh giá hiệu năng mạng hoặc hệ thống máy tính. Ví dụ, nếu một kết nối mạng truyền được 100 megabit dữ liệu trong một giây thì thông lượng là 100 megabit. Chỉ số này được dùng khi đánh giá hiệu quả và tính dễ sử dụng của hệ thống; thông lượng càng cao thì càng có thể xử lý nhiều dữ liệu nhanh chóng, từ đó tăng sự thuận tiện cho người dùng. Để nâng cao thông lượng, băng thông mạng, năng lực xử lý của hệ thống và quản lý dữ liệu hiệu quả là những yếu tố quan trọng."
+          "ja": "スループットは、一定時間に正常完了したトランザクション数、処理件数、転送データ量などで表す。単位には件／秒、トランザクション／秒、bit／秒などを用いる。CPU、メモリ、入出力装置、ネットワーク、データベースのうち最も処理能力が低い部分がボトルネックになりやすく、同じシステムでも処理内容や負荷によって値は変化する。",
+          "vi": "Thông lượng được biểu thị bằng số giao dịch hoàn tất bình thường, số bản ghi xử lý hoặc lượng dữ liệu truyền trong một khoảng thời gian. Đơn vị có thể là bản ghi/giây, giao dịch/giây hoặc bit/giây. Trong CPU, bộ nhớ, thiết bị vào ra, mạng và cơ sở dữ liệu, bộ phận có năng lực thấp nhất thường trở thành nút thắt; ngay cả cùng một hệ thống, giá trị cũng thay đổi theo loại xử lý và tải."
         },
         {
           "type": "point",
-          "ja": "スループットの意味・目的・利用場面を押さえる。",
-          "vi": "Nắm vững ý nghĩa, mục đích và tình huống sử dụng của Thông lượng."
+          "ja": "FEでは、スループット＝処理量÷時間という関係を押さえ、レスポンスタイムとは別の性能指標として扱う。",
+          "vi": "Trong FE, cần nắm quan hệ thông lượng = lượng xử lý ÷ thời gian và coi đây là chỉ số hiệu năng khác với thời gian đáp ứng."
+        },
+        {
+          "type": "example",
+          "ja": "バッチ処理で10分間に12,000件を正常完了した場合、平均スループットは12,000÷600＝20件／秒である。失敗して再処理が必要な件数は、正常完了件数には含めない。",
+          "vi": "Nếu một xử lý lô hoàn tất bình thường 12.000 bản ghi trong 10 phút thì thông lượng trung bình là 12.000 ÷ 600 = 20 bản ghi/giây. Các bản ghi thất bại và phải xử lý lại không tính vào số hoàn tất bình thường."
+        },
+        {
+          "type": "warning",
+          "ja": "通信回線の理論上の帯域幅は、プロトコルのオーバヘッドや混雑を含む実効スループットと一致しない。また、待ち行列が長ければ、スループットが高くても個々のレスポンスタイムは悪化し得る。",
+          "vi": "Băng thông lý thuyết của đường truyền không đồng nhất với thông lượng thực tế vì còn overhead giao thức và tắc nghẽn. Khi hàng đợi dài, thông lượng có thể cao nhưng thời gian đáp ứng của từng yêu cầu vẫn xấu đi."
         }
       ],
       "terms": [
@@ -360,8 +381,9 @@
           "term": "スループット",
           "english": "Throughput",
           "vi": "Thông lượng",
-          "definitionJa": "特定の時間内に処理できるデータの量を指す指標である。通常は、秒間のデータ量で表現され、ネットワークやコンピュータシステムの性能を評価する上で重要な要素となる。例えば、あるネットワーク接続が1秒間に100メガビットのデータを送信する場合、スループットは100メガビットとなる。この指標は、システムの効率や使いやすさを評価する際に用いられ、スループットが高いほど、より多くのデータを迅速に処理できるため、ユーザにとって利便性が向上する。また、スループットの向上には、ネットワークの帯域幅やシステムの処理能力、効率的なデータ管理が重要となる。",
-          "definitionVi": "Là chỉ số biểu thị lượng dữ liệu có thể xử lý trong một khoảng thời gian nhất định. Thông thường được biểu diễn bằng lượng dữ liệu mỗi giây và là yếu tố quan trọng khi đánh giá hiệu năng mạng hoặc hệ thống máy tính. Ví dụ, nếu một kết nối mạng truyền được 100 megabit dữ liệu trong một giây thì thông lượng là 100 megabit. Chỉ số này được dùng khi đánh giá hiệu quả và tính dễ sử dụng của hệ thống; thông lượng càng cao thì càng có thể xử lý nhiều dữ liệu nhanh chóng, từ đó tăng sự thuận tiện cho người dùng. Để nâng cao thông lượng, băng thông mạng, năng lực xử lý của hệ thống và quản lý dữ liệu hiệu quả là những yếu tố quan trọng."
+            "definitionJa": "システムが単位時間当たりに正常完了できる処理量。件／秒、トランザクション／秒、bit／秒などで表す。",
+            "definitionVi": "Lượng xử lý mà hệ thống hoàn tất bình thường trong một đơn vị thời gian, biểu thị bằng bản ghi/giây, giao dịch/giây, bit/giây, v.v.",
+            "reading": "するーぷっと"
         }
       ],
       "tags": [
@@ -458,8 +480,8 @@
       "titleJa": "セキュリティ要件",
       "titleVi": "Yêu cầu bảo mật",
       "importance": "high",
-      "summaryJa": "システムや情報を保護するために必要な条件や基準を指すものである。",
-      "summaryVi": "Chỉ các điều kiện và tiêu chuẩn cần thiết để bảo vệ hệ thống và thông tin.",
+      "summaryJa": "情報資産を脅威から守るために、システムが満たすべき保護条件を定めた要件である。",
+      "summaryVi": "Là các yêu cầu quy định điều kiện bảo vệ mà hệ thống phải đáp ứng để bảo vệ tài sản thông tin trước các mối đe dọa.",
       "content": [
         {
           "type": "heading",
@@ -468,13 +490,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムや情報を保護するために必要な条件や基準を指すものである。これらは、データの機密性や完全性、可用性を維持するために設定される。例えば、ユーザー認証やアクセス制限は、セキュリティ要件の一部である。これにより、不正アクセスを防ぎ、許可された人だけが情報にアクセスできるようにする。また、システムの設計や運用において、リスクを管理し、情報漏洩やデータ損失を防ぐための指針となる。さらに、これらの要件は法律や規制とも関連しており、業務を行う上で遵守が求められることが多い。",
-          "vi": "Chỉ các điều kiện và tiêu chuẩn cần thiết để bảo vệ hệ thống và thông tin. Các yêu cầu này được thiết lập nhằm duy trì tính bí mật, tính toàn vẹn và tính sẵn sàng của dữ liệu. Ví dụ, xác thực người dùng và hạn chế truy cập là một phần của yêu cầu bảo mật. Nhờ đó có thể ngăn truy cập trái phép và chỉ cho phép người được cấp quyền truy cập thông tin. Trong thiết kế và vận hành hệ thống, các yêu cầu này cũng trở thành chỉ dẫn để quản lý rủi ro và ngăn rò rỉ thông tin hoặc mất dữ liệu. Ngoài ra, chúng còn liên quan đến pháp luật và quy định, nên trong nhiều trường hợp phải được tuân thủ khi thực hiện nghiệp vụ."
+          "ja": "セキュリティ要件は、対象となる情報資産、想定する脅威とリスクを基に、機密性・完全性・可用性を確保するための条件を具体化する。認証、認可、暗号化、ログ記録、バックアップ、インシデント対応などを、設計・実装・運用・廃棄までのライフサイクル全体で検討する。法令、契約、組織の規程も制約となるが、適用範囲を確認して要件へ反映する。",
+          "vi": "Yêu cầu bảo mật cụ thể hóa các điều kiện để bảo đảm tính bí mật, toàn vẹn và sẵn sàng dựa trên tài sản thông tin cần bảo vệ, mối đe dọa và rủi ro dự kiến. Cần xem xét xác thực, phân quyền, mã hóa, ghi nhật ký, sao lưu và ứng phó sự cố trong toàn bộ vòng đời từ thiết kế, triển khai, vận hành đến hủy bỏ. Pháp luật, hợp đồng và quy định nội bộ cũng có thể là ràng buộc, nhưng phải xác định phạm vi áp dụng trước khi đưa vào yêu cầu."
         },
         {
           "type": "point",
-          "ja": "セキュリティ要件の意味・目的・利用場面を押さえる。",
-          "vi": "Nắm vững ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu bảo mật."
+          "ja": "FEでは、機密性・完全性・可用性のどれを守る要件かを判断し、対策を検証可能な受入れ条件まで具体化する。",
+          "vi": "Trong FE, cần xác định yêu cầu bảo vệ thuộc tính nào trong bí mật, toàn vẹn và sẵn sàng, rồi cụ thể hóa biện pháp thành điều kiện nghiệm thu có thể kiểm chứng."
+        },
+        {
+          "type": "example",
+          "ja": "管理者操作について「多要素認証を必須とし、権限変更では操作者、日時、対象、結果を監査ログに記録する」と定める。認証試験とログ確認によって、要件を満たすか検証できる。",
+          "vi": "Với thao tác quản trị, quy định: “Bắt buộc xác thực đa yếu tố; khi thay đổi quyền phải ghi người thao tác, thời điểm, đối tượng và kết quả vào nhật ký kiểm toán”. Có thể kiểm chứng yêu cầu bằng thử nghiệm xác thực và kiểm tra nhật ký."
+        },
+        {
+          "type": "warning",
+          "ja": "「十分に安全にする」のような表現は、達成基準がなく検証できない。認証だけをセキュリティ全体と考えず、リスクに応じて認可、記録、復旧なども検討する。",
+          "vi": "Cách viết như “bảo mật đầy đủ” không có tiêu chí đạt và không thể kiểm chứng. Không nên xem xác thực là toàn bộ bảo mật; cần xét cả phân quyền, ghi nhận, khôi phục và các biện pháp khác theo rủi ro."
         }
       ],
       "terms": [
@@ -482,8 +514,8 @@
           "term": "セキュリティ要件",
           "english": "Security Requirement",
           "vi": "Yêu cầu bảo mật",
-          "definitionJa": "システムや情報を保護するために必要な条件や基準を指すものである。これらは、データの機密性や完全性、可用性を維持するために設定される。例えば、ユーザー認証やアクセス制限は、セキュリティ要件の一部である。これにより、不正アクセスを防ぎ、許可された人だけが情報にアクセスできるようにする。また、システムの設計や運用において、リスクを管理し、情報漏洩やデータ損失を防ぐための指針となる。さらに、これらの要件は法律や規制とも関連しており、業務を行う上で遵守が求められることが多い。",
-          "definitionVi": "Chỉ các điều kiện và tiêu chuẩn cần thiết để bảo vệ hệ thống và thông tin. Các yêu cầu này được thiết lập nhằm duy trì tính bí mật, tính toàn vẹn và tính sẵn sàng của dữ liệu. Ví dụ, xác thực người dùng và hạn chế truy cập là một phần của yêu cầu bảo mật. Nhờ đó có thể ngăn truy cập trái phép và chỉ cho phép người được cấp quyền truy cập thông tin. Trong thiết kế và vận hành hệ thống, các yêu cầu này cũng trở thành chỉ dẫn để quản lý rủi ro và ngăn rò rỉ thông tin hoặc mất dữ liệu. Ngoài ra, chúng còn liên quan đến pháp luật và quy định, nên trong nhiều trường hợp phải được tuân thủ khi thực hiện nghiệp vụ.",
+            "definitionJa": "情報資産に対するリスクを基に、機密性・完全性・可用性などを確保するためにシステムが満たすべき保護条件。",
+            "definitionVi": "Các điều kiện bảo vệ mà hệ thống phải đáp ứng để bảo đảm tính bí mật, toàn vẹn, sẵn sàng và các thuộc tính khác dựa trên rủi ro đối với tài sản thông tin.",
           "reading": "せきゅりてぃようけん"
         }
       ],
@@ -909,8 +941,8 @@
       "titleJa": "機能要件",
       "titleVi": "Yêu cầu chức năng",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。",
-      "summaryVi": "Định nghĩa các chức năng hoặc năng lực cụ thể mà hệ thống hay phần mềm phải có.",
+      "summaryJa": "システムが利用者や外部システムに提供すべき振る舞い・サービスを定義した要件である。",
+      "summaryVi": "Là yêu cầu định nghĩa hành vi và dịch vụ mà hệ thống phải cung cấp cho người dùng hoặc hệ thống bên ngoài.",
       "content": [
         {
           "type": "heading",
@@ -919,13 +951,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。これは、ユーザーがシステムを使う上での期待やニーズを明確に示すものであり、具体的な動作や操作の方法を含む。例えば、オンラインショッピングサイトであれば、商品を検索する機能、カートに商品を追加する機能、決済を行う機能などが機能要件に該当する。開発プロセスの初期段階で明確に定義されることが重要であり、これにより開発チームは必要な機能を構築し、テストを行う際の基準として活用される。適切な機能要件を設定することで、ユーザーの満足度を高め、システムの品質を向上させることが可能となる。",
-          "vi": "Định nghĩa các chức năng hoặc năng lực cụ thể mà hệ thống hay phần mềm phải có. Đây là nội dung chỉ rõ kỳ vọng và nhu cầu của người dùng khi sử dụng hệ thống, bao gồm các hành vi và cách thao tác cụ thể. Ví dụ, với một trang mua sắm trực tuyến, chức năng tìm kiếm sản phẩm, thêm sản phẩm vào giỏ hàng và thực hiện thanh toán đều thuộc yêu cầu chức năng. Điều quan trọng là phải định nghĩa rõ ở giai đoạn đầu của quá trình phát triển; nhờ đó đội phát triển có thể xây dựng các chức năng cần thiết và dùng chúng làm tiêu chuẩn khi kiểm thử. Thiết lập yêu cầu chức năng phù hợp có thể nâng cao sự hài lòng của người dùng và chất lượng hệ thống."
+          "ja": "機能要件は、入力に対してシステムが何を処理し、どの結果を出力するかを定める。業務規則、データの登録・検索・更新、外部システムとの連携、状態遷移、例外時の振る舞いなどを含む。要求元と対応する受入れ条件を追跡できるようにし、正常系だけでなく代替経路やエラー処理も明確にすると、設計とテストの基準になる。",
+          "vi": "Yêu cầu chức năng quy định hệ thống xử lý gì đối với đầu vào và xuất ra kết quả nào. Nội dung có thể gồm quy tắc nghiệp vụ, đăng ký, tìm kiếm và cập nhật dữ liệu, liên kết với hệ thống ngoài, chuyển trạng thái và hành vi khi có ngoại lệ. Cần truy vết được từ nguồn yêu cầu đến điều kiện nghiệm thu; làm rõ cả luồng bình thường, luồng thay thế và xử lý lỗi để dùng làm căn cứ thiết kế và kiểm thử."
         },
         {
           "type": "point",
-          "ja": "機能要件の意味・目的・利用場面を押さえる。",
-          "vi": "Nắm vững ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu chức năng."
+          "ja": "FEでは「システムが何をするか」を機能要件として捉え、入力、処理、出力、業務規則を具体的かつ検証可能に記述する。",
+          "vi": "Trong FE, hãy hiểu yêu cầu chức năng là “hệ thống làm gì” và mô tả đầu vào, xử lý, đầu ra cùng quy tắc nghiệp vụ một cách cụ thể, có thể kiểm chứng."
+        },
+        {
+          "type": "example",
+          "ja": "注文確定要求を受けると、システムは在庫を確認し、合計金額を計算して在庫を引き当て、注文番号を返す。在庫不足なら注文を確定せず、不足商品を示す。このように成功時と失敗時の振る舞いを対にして定義する。",
+          "vi": "Khi nhận yêu cầu xác nhận đơn hàng, hệ thống kiểm tra tồn kho, tính tổng tiền, giữ hàng và trả về mã đơn. Nếu thiếu hàng, hệ thống không xác nhận đơn và chỉ rõ sản phẩm bị thiếu. Như vậy, hành vi khi thành công và thất bại được định nghĩa thành một cặp."
+        },
+        {
+          "type": "warning",
+          "ja": "応答時間や可用性などの品質水準は通常、非機能要件である。「高速に検索する」のように機能と性能を一文に混在させず、それぞれに検証可能な条件を設定する。",
+          "vi": "Mức chất lượng như thời gian đáp ứng hay tính sẵn sàng thường thuộc yêu cầu phi chức năng. Không trộn chức năng và hiệu năng trong câu như “tìm kiếm nhanh”; hãy đặt điều kiện có thể kiểm chứng riêng cho từng loại."
         }
       ],
       "terms": [
@@ -933,8 +975,8 @@
           "term": "機能要件",
           "english": "Functional Requirements",
           "vi": "Yêu cầu chức năng",
-          "definitionJa": "システムやソフトウェアが持つべき特定の機能や性能を定義したものである。これは、ユーザーがシステムを使う上での期待やニーズを明確に示すものであり、具体的な動作や操作の方法を含む。例えば、オンラインショッピングサイトであれば、商品を検索する機能、カートに商品を追加する機能、決済を行う機能などが機能要件に該当する。開発プロセスの初期段階で明確に定義されることが重要であり、これにより開発チームは必要な機能を構築し、テストを行う際の基準として活用される。適切な機能要件を設定することで、ユーザーの満足度を高め、システムの品質を向上させることが可能となる。",
-          "definitionVi": "Định nghĩa các chức năng hoặc năng lực cụ thể mà hệ thống hay phần mềm phải có. Đây là nội dung chỉ rõ kỳ vọng và nhu cầu của người dùng khi sử dụng hệ thống, bao gồm các hành vi và cách thao tác cụ thể. Ví dụ, với một trang mua sắm trực tuyến, chức năng tìm kiếm sản phẩm, thêm sản phẩm vào giỏ hàng và thực hiện thanh toán đều thuộc yêu cầu chức năng. Điều quan trọng là phải định nghĩa rõ ở giai đoạn đầu của quá trình phát triển; nhờ đó đội phát triển có thể xây dựng các chức năng cần thiết và dùng chúng làm tiêu chuẩn khi kiểm thử. Thiết lập yêu cầu chức năng phù hợp có thể nâng cao sự hài lòng của người dùng và chất lượng hệ thống.",
+            "definitionJa": "システムが提供すべき機能や振る舞いを、入力、処理、出力、業務規則などの観点から定めた要件。",
+            "definitionVi": "Yêu cầu quy định chức năng và hành vi hệ thống phải cung cấp xét theo đầu vào, xử lý, đầu ra và quy tắc nghiệp vụ.",
           "reading": "きのうようけん"
         }
       ],
@@ -950,8 +992,8 @@
       "titleJa": "非機能要件",
       "titleVi": "Yêu cầu phi chức năng",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。",
-      "summaryVi": "Chỉ các yêu cầu ngoài bản thân chức năng của hệ thống hoặc phần mềm, như hiệu năng, độ tin cậy và tính dễ sử dụng.",
+      "summaryJa": "システムが機能をどの程度の品質で、どのような制約下で提供するかを定めた要件である。",
+      "summaryVi": "Là yêu cầu quy định hệ thống cung cấp chức năng với mức chất lượng nào và dưới những ràng buộc nào.",
       "content": [
         {
           "type": "heading",
@@ -960,13 +1002,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。これらは、システムがどのように動作するかを決定づける重要な要素であり、ユーザーにとっての満足度や体験に大きな影響を与える。例えば、システムの応答時間や同時接続数、セキュリティの強度、可用性などが該当する。これらの要件を明確に定義することで、開発プロセスにおいて優れた製品を作り上げる手助けとなり、結果としてユーザーからの信頼を得ることにもつながる。非機能要件を適切に管理することは、システム全体の成功にとって不可欠な要素である。",
-          "vi": "Chỉ các yêu cầu ngoài bản thân chức năng của hệ thống hoặc phần mềm, như hiệu năng, độ tin cậy và tính dễ sử dụng. Đây là các yếu tố quan trọng quyết định hệ thống hoạt động như thế nào và ảnh hưởng lớn đến mức độ hài lòng cũng như trải nghiệm của người dùng. Ví dụ gồm thời gian đáp ứng của hệ thống, số lượng kết nối đồng thời, mức độ bảo mật và tính sẵn sàng. Việc định nghĩa rõ các yêu cầu này giúp tạo ra sản phẩm tốt trong quá trình phát triển và từ đó cũng dẫn đến việc giành được sự tin cậy của người dùng. Quản lý thích hợp các yêu cầu phi chức năng là yếu tố không thể thiếu đối với thành công của toàn bộ hệ thống."
+          "ja": "非機能要件は、性能、可用性、信頼性、セキュリティ、使用性、保守性、互換性など、機能を実現する際の品質特性や制約を定める。単に「速い」「使いやすい」とせず、対象機能、利用条件、測定方法、目標値を組み合わせて受入れ可能か判定できる形にする。複数の機能に横断的に影響するため、優先度や相互のトレードオフも確認する。",
+          "vi": "Yêu cầu phi chức năng quy định thuộc tính chất lượng và ràng buộc khi thực hiện chức năng, như hiệu năng, tính sẵn sàng, độ tin cậy, bảo mật, khả dụng, khả năng bảo trì và tương thích. Không chỉ viết “nhanh” hay “dễ dùng”, mà phải kết hợp chức năng áp dụng, điều kiện sử dụng, phương pháp đo và mục tiêu để có thể đánh giá nghiệm thu. Vì các yêu cầu này thường ảnh hưởng xuyên suốt nhiều chức năng, cũng cần xem xét ưu tiên và đánh đổi giữa chúng."
         },
         {
           "type": "point",
-          "ja": "非機能要件の意味・目的・利用場面を押さえる。",
-          "vi": "Nắm vững ý nghĩa, mục đích và tình huống sử dụng của Yêu cầu phi chức năng."
+          "ja": "FEでは「どの程度よく、どの条件で動くか」を非機能要件として捉え、数値だけでなく測定条件と判定基準を対応付ける。",
+          "vi": "Trong FE, hãy hiểu yêu cầu phi chức năng là “hoạt động tốt đến mức nào và trong điều kiện nào”, đồng thời gắn chỉ tiêu số với điều kiện đo và tiêu chí đánh giá."
+        },
+        {
+          "type": "example",
+          "ja": "架空の受入れ条件として「同時利用者500人の通常負荷で、決済要求の95％を2秒以内に応答し、月間可用性を99.9％以上とする」と定める。数値は法的基準ではなく、事業上の必要性から合意する目標値である。",
+          "vi": "Một điều kiện nghiệm thu giả định có thể là: “Ở tải thông thường với 500 người dùng đồng thời, 95% yêu cầu thanh toán phản hồi trong 2 giây và độ sẵn sàng hằng tháng đạt ít nhất 99,9%”. Đây là mục tiêu được thống nhất theo nhu cầu kinh doanh, không phải chuẩn pháp lý."
+        },
+        {
+          "type": "warning",
+          "ja": "「高性能」「高可用性」「使いやすい」だけでは試験で合否を判定できない。また、機能要件と非機能要件の境界は文脈により変わる場合があるため、分類名より一貫した定義と追跡可能性を優先する。",
+          "vi": "Chỉ viết “hiệu năng cao”, “sẵn sàng cao” hay “dễ dùng” thì không thể đánh giá đạt hay không trong kiểm thử. Ranh giới giữa yêu cầu chức năng và phi chức năng đôi khi phụ thuộc ngữ cảnh, nên cần ưu tiên định nghĩa nhất quán và khả năng truy vết hơn tên phân loại."
         }
       ],
       "terms": [
@@ -974,8 +1026,8 @@
           "term": "非機能要件",
           "english": "Non-Functional Requirements",
           "vi": "Yêu cầu phi chức năng",
-          "definitionJa": "システムやソフトウェアにおける性能や信頼性、使いやすさなど、機能そのもの以外の要件を指すことである。これらは、システムがどのように動作するかを決定づける重要な要素であり、ユーザーにとっての満足度や体験に大きな影響を与える。例えば、システムの応答時間や同時接続数、セキュリティの強度、可用性などが該当する。これらの要件を明確に定義することで、開発プロセスにおいて優れた製品を作り上げる手助けとなり、結果としてユーザーからの信頼を得ることにもつながる。非機能要件を適切に管理することは、システム全体の成功にとって不可欠な要素である。",
-          "definitionVi": "Chỉ các yêu cầu ngoài bản thân chức năng của hệ thống hoặc phần mềm, như hiệu năng, độ tin cậy và tính dễ sử dụng. Đây là các yếu tố quan trọng quyết định hệ thống hoạt động như thế nào và ảnh hưởng lớn đến mức độ hài lòng cũng như trải nghiệm của người dùng. Ví dụ gồm thời gian đáp ứng của hệ thống, số lượng kết nối đồng thời, mức độ bảo mật và tính sẵn sàng. Việc định nghĩa rõ các yêu cầu này giúp tạo ra sản phẩm tốt trong quá trình phát triển và từ đó cũng dẫn đến việc giành được sự tin cậy của người dùng. Quản lý thích hợp các yêu cầu phi chức năng là yếu tố không thể thiếu đối với thành công của toàn bộ hệ thống.",
+            "definitionJa": "システムの性能、可用性、セキュリティなどの品質特性や、機能を提供する際の制約を定めた要件。",
+            "definitionVi": "Yêu cầu quy định các thuộc tính chất lượng như hiệu năng, tính sẵn sàng, bảo mật và các ràng buộc khi cung cấp chức năng.",
           "reading": "ひきのうようけん"
         }
       ],

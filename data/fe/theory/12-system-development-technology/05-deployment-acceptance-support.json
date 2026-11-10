@@ -11,8 +11,8 @@
       "titleJa": "納品",
       "titleVi": "Bàn giao sản phẩm",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。",
-      "summaryVi": "Bàn giao các sản phẩm đã hoàn thành cho khách hàng theo hợp đồng.",
+      "summaryJa": "契約や計画で定めた成果物を、供給者から利用者側へ正式に引き渡す活動である。",
+      "summaryVi": "Là hoạt động chính thức chuyển giao từ bên cung cấp sang phía sử dụng các sản phẩm được quy định trong hợp đồng hoặc kế hoạch.",
       "content": [
         {
           "type": "heading",
@@ -21,13 +21,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。一般的に、納品は契約に基づいて行われ、納品物は品質基準を満たしている必要がある。例えば、ソフトウェアの制作が完了した際には、そのソフトウェアをテストし、問題がないことを確認後、顧客に納品する。納品後は、受入れテストと呼ばれるプロセスが行われることが多く、顧客が実際にシステムを使用し、期待通りの機能が提供されているかを確認する。このようにプロジェクトの最終段階であり、顧客の満足度を高める重要な要素となっている。",
-          "vi": "納品 là bước chuyển giao phần mềm, tài liệu và các sản phẩm bàn giao đã thỏa thuận cho khách hàng. Trước khi bàn giao, bên phát triển cần kiểm tra chất lượng và tính đầy đủ. Sau đó khách hàng thường thực hiện kiểm thử tiếp nhận để xác nhận hệ thống đáp ứng yêu cầu."
+          "ja": "納品では、実行プログラムだけでなく、ソースコード、設計書、試験結果、操作手順書、ライセンスなど、合意した成果物一式を構成管理された版で引き渡す。供給者は納品物の種類、版、数量、媒体、引渡し日時を納品書などで明確にし、受領側が欠落や破損を確認できるようにする。納品は引渡しの行為であり、その内容が受入れ基準を満たすかを発注者が判定する検収とは区別する。",
+          "vi": "Khi bàn giao, không chỉ chuyển chương trình thực thi mà còn phải chuyển toàn bộ sản phẩm đã thỏa thuận như mã nguồn, tài liệu thiết kế, kết quả kiểm thử, hướng dẫn vận hành và giấy phép ở đúng phiên bản được quản lý cấu hình. Bên cung cấp cần làm rõ loại, phiên bản, số lượng, phương tiện và thời điểm bàn giao để bên nhận kiểm tra thiếu sót hoặc hư hỏng. Bàn giao là hành vi chuyển giao; khác với nghiệm thu, là việc bên đặt hàng đánh giá sản phẩm có đạt tiêu chí tiếp nhận hay không."
         },
         {
           "type": "point",
-          "ja": "納品の目的・特徴・利用場面を押さえる。",
-          "vi": "Phân biệt 納品 (bàn giao) với 検収 (kiểm tra và chấp nhận sản phẩm)."
+          "ja": "FEでは、納品は成果物の引渡し、検収は発注者による確認・合否判定であることを区別する。成果物の版と構成を識別できることも重要である。",
+          "vi": "Trong FE, cần phân biệt 納品 là chuyển giao sản phẩm, còn 検収 là bên đặt hàng kiểm tra và quyết định đạt hay không. Việc nhận diện được phiên bản và cấu phần sản phẩm cũng rất quan trọng."
+        },
+        {
+          "type": "example",
+          "ja": "販売管理システムの納品時に、リリース番号を付けたプログラム、ソースコード、設計書、試験成績書、運用手順書を一覧表と照合して引き渡し、双方が受領記録を残す。",
+          "vi": "Khi bàn giao hệ thống quản lý bán hàng, hai bên đối chiếu danh mục gồm chương trình có số phát hành, mã nguồn, tài liệu thiết kế, biên bản kiểm thử và hướng dẫn vận hành, rồi lưu lại biên bản tiếp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "納品された時点で自動的に検収合格になるとは限らない。契約で定めた受入れテストや検収期間を経て、発注者が合否を判定する。",
+          "vi": "Sản phẩm được bàn giao không có nghĩa là tự động được nghiệm thu. Bên đặt hàng còn thực hiện kiểm thử tiếp nhận trong thời hạn quy định và quyết định đạt hay không."
         }
       ],
       "terms": [
@@ -35,8 +45,8 @@
           "term": "納品",
           "english": "Delivery",
           "vi": "Bàn giao sản phẩm",
-          "definitionJa": "システムやソフトウェアの開発プロジェクトにおいて、完成した成果物を顧客やクライアントに引き渡すことを指す。一般的に、納品は契約に基づいて行われ、納品物は品質基準を満たしている必要がある。例えば、ソフトウェアの制作が完了した際には、そのソフトウェアをテストし、問題がないことを確認後、顧客に納品する。納品後は、受入れテストと呼ばれるプロセスが行われることが多く、顧客が実際にシステムを使用し、期待通りの機能が提供されているかを確認する。このようにプロジェクトの最終段階であり、顧客の満足度を高める重要な要素となっている。",
-          "definitionVi": "Việc chuyển giao sản phẩm hoàn thành từ bên cung cấp sang khách hàng.",
+            "definitionJa": "契約や計画で定めたプログラム、文書などの成果物を、識別可能な版で供給者から利用者側へ引き渡すこと。",
+            "definitionVi": "Việc bên cung cấp chuyển giao cho phía sử dụng các chương trình, tài liệu và sản phẩm khác theo hợp đồng hoặc kế hoạch, ở phiên bản có thể nhận diện.",
           "reading": "のうひん"
         }
       ],
@@ -52,8 +62,8 @@
       "titleJa": "導入要件",
       "titleVi": "Yêu cầu triển khai",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。",
-      "summaryVi": "Xác định điều kiện cần đáp ứng trước khi đưa hệ thống vào sử dụng.",
+      "summaryJa": "システムを対象環境へ設置し、利用開始するために満たすべき条件を定めた要件である。",
+      "summaryVi": "Là yêu cầu quy định các điều kiện phải đáp ứng để cài đặt hệ thống vào môi trường đích và bắt đầu sử dụng.",
       "content": [
         {
           "type": "heading",
@@ -62,13 +72,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。この要件には、ハードウェアの性能、ソフトウェアの互換性、ネットワーク環境、セキュリティ対策などが含まれる。例えば、新しい業務システムを導入する場合、必要なサーバのスペックや、既存のシステムとの連携方法も考慮する必要がある。また、ユーザーのトレーニングやサポート体制の整備も重要な要素であり、これにより導入後の円滑な運用が期待できる。導入要件を明確にすることで、プロジェクトの目標達成に向けた具体的な計画が立てやすくなる。",
-          "vi": "Yêu cầu triển khai bao gồm môi trường phần cứng, phần mềm, mạng, bảo mật, tài khoản, nhân sự và thời gian triển khai. Các yêu cầu này phải được làm rõ để tránh tình trạng hệ thống đã phát triển xong nhưng không thể cài đặt hoặc vận hành tại nơi sử dụng."
+          "ja": "導入要件には、対象拠点、ハードウェア・OS・ミドルウェア、ネットワーク、アカウントと権限、セキュリティ設定、作業可能時間、教育、運用・保守体制などを含める。既存システムや外部サービスとの接続条件、利用開始前に準備すべき設備と担当者も明確にする。要件を早期に確認することで、完成したシステムが本番環境に設置できない事態を防ぐ。",
+          "vi": "Yêu cầu triển khai gồm địa điểm áp dụng, phần cứng, hệ điều hành, middleware, mạng, tài khoản và quyền, cấu hình bảo mật, thời gian được phép thao tác, đào tạo và cơ cấu vận hành, bảo trì. Cũng phải làm rõ điều kiện kết nối với hệ thống hiện có hoặc dịch vụ ngoài, thiết bị và người phụ trách cần chuẩn bị trước khi sử dụng. Xác định sớm các yêu cầu này giúp tránh tình trạng hệ thống hoàn thành nhưng không thể cài vào môi trường thật."
         },
         {
           "type": "point",
-          "ja": "導入要件の目的・特徴・利用場面を押さえる。",
-          "vi": "Xem xét môi trường, nguồn lực và ràng buộc trước khi triển khai."
+          "ja": "導入要件は「何を作るか」だけでなく、「どこへ、どの条件で設置し、誰が利用・運用できる状態にするか」を具体化する。",
+          "vi": "Yêu cầu triển khai không chỉ nói “xây dựng cái gì” mà còn cụ thể hóa “cài ở đâu, trong điều kiện nào, và làm thế nào để ai có thể sử dụng, vận hành”."
+        },
+        {
+          "type": "example",
+          "ja": "支店への業務システム導入で、対応OS、必要メモリ、閉域網への接続、利用者アカウントの発行期限、操作教育の受講、平日夜間の作業枠を導入要件として定める。",
+          "vi": "Khi triển khai hệ thống nghiệp vụ tại chi nhánh, quy định hệ điều hành hỗ trợ, bộ nhớ cần thiết, kết nối mạng kín, hạn cấp tài khoản người dùng, đào tạo thao tác và khung thời gian triển khai vào buổi tối ngày làm việc."
+        },
+        {
+          "type": "warning",
+          "ja": "機器仕様だけを導入要件と考えない。教育、運用引継ぎ、権限付与、作業時間などの人的・運用上の条件が未確定でも、本番開始の障害になる。",
+          "vi": "Không nên coi yêu cầu triển khai chỉ là cấu hình thiết bị. Điều kiện về con người và vận hành như đào tạo, bàn giao vận hành, cấp quyền và thời gian thao tác chưa rõ cũng có thể cản trở đưa hệ thống vào hoạt động."
         }
       ],
       "terms": [
@@ -76,8 +96,8 @@
           "term": "導入要件",
           "english": "Deployment Requirements",
           "vi": "Yêu cầu triển khai",
-          "definitionJa": "システムやソフトウェアを新たに導入する際に必要とされる条件や仕様のことを指す。この要件には、ハードウェアの性能、ソフトウェアの互換性、ネットワーク環境、セキュリティ対策などが含まれる。例えば、新しい業務システムを導入する場合、必要なサーバのスペックや、既存のシステムとの連携方法も考慮する必要がある。また、ユーザーのトレーニングやサポート体制の整備も重要な要素であり、これにより導入後の円滑な運用が期待できる。導入要件を明確にすることで、プロジェクトの目標達成に向けた具体的な計画が立てやすくなる。",
-          "definitionVi": "Các điều kiện và đặc tả cần thiết để triển khai một hệ thống hoặc phần mềm mới.",
+            "definitionJa": "システムを対象環境へ設置して利用・運用を開始するために必要な、環境、設備、人員、時間、教育などの条件。",
+            "definitionVi": "Các điều kiện về môi trường, thiết bị, nhân lực, thời gian và đào tạo cần thiết để cài đặt hệ thống và bắt đầu sử dụng, vận hành.",
           "reading": "どうにゅうようけん"
         }
       ],
@@ -93,8 +113,8 @@
       "titleJa": "移行要件",
       "titleVi": "Yêu cầu chuyển đổi",
       "importance": "high",
-      "summaryJa": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。",
-      "summaryVi": "Làm rõ điều kiện chuyển dữ liệu và chức năng sang hệ thống mới.",
+      "summaryJa": "旧環境から新環境へ業務、データ、システムを安全に切り替えるための条件を定めた要件である。",
+      "summaryVi": "Là yêu cầu quy định các điều kiện để chuyển nghiệp vụ, dữ liệu và hệ thống từ môi trường cũ sang môi trường mới một cách an toàn.",
       "content": [
         {
           "type": "heading",
@@ -103,13 +123,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。具体的には、移行先のシステムが旧システムのデータを適切に受け入れられることや、移行中のデータ損失を防ぐための計画が含まれる。また、業務プロセスの変更に対する影響や、新旧システム間の互換性も考慮する必要がある。たとえば、企業が新しい顧客管理システムに移行する際には、既存の顧客データをどのように整理し、移行するかを明確に定義して、スムーズな導入を実現することが求められる。システムの成功的な導入において非常に重要な要素である。",
-          "vi": "Yêu cầu chuyển đổi quy định dữ liệu nào cần chuyển, cách ánh xạ định dạng, độ chính xác, thời gian dừng dịch vụ và phương án khôi phục nếu thất bại. Ví dụ, khi thay hệ thống quản lý khách hàng, cần chuyển đầy đủ hồ sơ cũ và đối chiếu số lượng bản ghi sau chuyển đổi."
+          "ja": "移行要件では、対象となる業務・データ・ソフトウェア、データ変換規則、移行方式、停止可能時間、実施体制、完了判定、旧環境への切戻し条件を定める。データ移行では件数だけでなく、必須項目、合計値、参照関係なども照合する。事前にリハーサルを行い、所要時間と手順を実測して改善することで、本番移行のリスクを下げる。",
+          "vi": "Yêu cầu chuyển đổi quy định nghiệp vụ, dữ liệu và phần mềm thuộc phạm vi, quy tắc biến đổi dữ liệu, phương thức chuyển, thời gian được phép dừng, cơ cấu thực hiện, tiêu chí hoàn tất và điều kiện quay về môi trường cũ. Khi chuyển dữ liệu, không chỉ đối chiếu số bản ghi mà còn kiểm tra trường bắt buộc, tổng giá trị và quan hệ tham chiếu. Diễn tập trước để đo thời gian và cải tiến quy trình giúp giảm rủi ro khi chuyển thật."
         },
         {
           "type": "point",
-          "ja": "移行要件の目的・特徴・利用場面を押さえる。",
-          "vi": "Phân biệt 移行 (chuyển đổi) với 導入 (triển khai)."
+          "ja": "FEでは、移行対象、変換・照合方法、停止時間、完了判定、切戻しを一体で考える。導入は利用環境を整える活動、移行は旧環境から資産や業務を移す活動である。",
+          "vi": "Trong FE, cần xem xét đồng thời phạm vi chuyển đổi, cách biến đổi và đối chiếu, thời gian dừng, tiêu chí hoàn tất và quay lui. 導入 chuẩn bị môi trường sử dụng, còn 移行 chuyển tài sản và nghiệp vụ từ môi trường cũ."
+        },
+        {
+          "type": "example",
+          "ja": "顧客管理システムの移行で、20万件の顧客データを変換し、移行前後の件数、重複数、必須項目の欠損数、売上合計を照合する。不一致が基準を超えた場合は旧システムへ切り戻す。",
+          "vi": "Khi chuyển hệ thống quản lý khách hàng, biến đổi 200.000 bản ghi rồi đối chiếu số lượng trước và sau, số bản ghi trùng, số trường bắt buộc bị thiếu và tổng doanh thu. Nếu sai lệch vượt tiêu chí thì quay về hệ thống cũ."
+        },
+        {
+          "type": "warning",
+          "ja": "レコード件数の一致だけで移行成功と判断しない。値の変換誤りや参照関係の破損は件数照合では検出できないため、内容と整合性も検証する。",
+          "vi": "Không kết luận chuyển đổi thành công chỉ vì số bản ghi bằng nhau. Sai biến đổi giá trị hoặc hỏng quan hệ tham chiếu không thể phát hiện bằng đếm bản ghi, nên phải kiểm tra cả nội dung và tính nhất quán."
         }
       ],
       "terms": [
@@ -117,8 +147,8 @@
           "term": "移行要件",
           "english": "Migration Requirements",
           "vi": "Yêu cầu chuyển đổi",
-          "definitionJa": "あるシステムやソフトウェアから別のシステムやソフトウェアにデータや機能を移行する際に必要となる条件や仕様を指す。具体的には、移行先のシステムが旧システムのデータを適切に受け入れられることや、移行中のデータ損失を防ぐための計画が含まれる。また、業務プロセスの変更に対する影響や、新旧システム間の互換性も考慮する必要がある。たとえば、企業が新しい顧客管理システムに移行する際には、既存の顧客データをどのように整理し、移行するかを明確に定義して、スムーズな導入を実現することが求められる。システムの成功的な導入において非常に重要な要素である。",
-          "definitionVi": "Các điều kiện phải đáp ứng khi di chuyển dữ liệu hoặc chức năng giữa các hệ thống.",
+            "definitionJa": "旧環境から新環境へ業務、データ、システムを切り替える際の対象、方式、時間、検証、切戻しなどの条件。",
+            "definitionVi": "Các điều kiện về phạm vi, phương thức, thời gian, kiểm chứng và quay lui khi chuyển nghiệp vụ, dữ liệu và hệ thống từ môi trường cũ sang môi trường mới.",
           "reading": "いこうようけん"
         }
       ],
@@ -134,8 +164,8 @@
       "titleJa": "導入可否判断基準",
       "titleVi": "Tiêu chí đánh giá khả năng triển khai",
       "importance": "high",
-      "summaryJa": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。",
-      "summaryVi": "Đặt ra tiêu chí quyết định có thể triển khai hệ thống hay không.",
+      "summaryJa": "本番導入へ進むか、延期・中止するかを客観的に判定するための基準である。",
+      "summaryVi": "Là tiêu chí dùng để quyết định khách quan có tiếp tục triển khai vào môi trường thật hay phải hoãn hoặc dừng.",
       "content": [
         {
           "type": "heading",
@@ -144,13 +174,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。この基準には、技術的な適合性、経済的な利益、組織内での受け入れやすさ、運用上の影響などが含まれる。例えば、技術的な適合性では、既存のシステムとの互換性が求められ、経済的な利益では導入にかかる費用対効果が重要な要素となる。また、導入後の教育や変更に対する従業員の反応も考慮され、これらの基準に基づいて最終的な導入決定がなされる。効果的なシステム導入のための重要なツールである。",
-          "vi": "Trước khi đưa hệ thống vào hoạt động, cần đánh giá mức đáp ứng chức năng, hiệu năng, an toàn, chi phí, nhân lực và rủi ro. Chỉ khi đạt các điều kiện đã thống nhất mới quyết định triển khai; nếu không, cần sửa lỗi hoặc điều chỉnh kế hoạch."
+          "ja": "導入可否判断基準は、本番切替え前のレビューで用いるGo／No-Goの判定条件である。受入れテストの結果、重大障害の残件、性能・セキュリティ、移行リハーサル、バックアップと切戻し、運用要員・利用者教育、関係部門の承認などを確認する。各条件について測定方法、許容値、判定者を事前に合意し、未達の場合の延期、条件付き承認、中止の扱いも決めておく。",
+          "vi": "Tiêu chí đánh giá khả năng triển khai là điều kiện Go/No-Go dùng trong buổi rà soát trước khi chuyển sang vận hành thật. Cần kiểm tra kết quả nghiệm thu, lỗi nghiêm trọng còn tồn, hiệu năng và bảo mật, diễn tập chuyển đổi, sao lưu và quay lui, nhân sự vận hành, đào tạo người dùng và phê duyệt của các bộ phận liên quan. Phải thống nhất trước cách đo, ngưỡng chấp nhận, người quyết định và cách xử lý khi chưa đạt như hoãn, chấp thuận có điều kiện hoặc dừng."
         },
         {
           "type": "point",
-          "ja": "導入可否判断基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Tiêu chí quyết định cần đo lường và kiểm chứng được."
+          "ja": "判定基準は導入当日に作るのではなく、事前に測定可能な形で合意する。技術面だけでなく、業務継続と運用準備も判定対象に含める。",
+          "vi": "Không xây dựng tiêu chí ngay trong ngày triển khai mà phải thống nhất trước dưới dạng đo được. Ngoài kỹ thuật, cần đánh giá cả tính liên tục nghiệp vụ và mức sẵn sàng vận hành."
+        },
+        {
+          "type": "example",
+          "ja": "本番移行の条件を「重大度Aの障害が0件、移行リハーサルが予定時間内に完了、バックアップからの復元確認済み、運用責任者が承認」と定め、会議で証跡を確認してGo／No-Goを決定する。",
+          "vi": "Quy định điều kiện chuyển thật gồm: không còn lỗi mức A, diễn tập hoàn tất trong thời gian dự kiến, đã xác nhận khôi phục từ bản sao lưu và người phụ trách vận hành phê duyệt. Cuộc họp kiểm tra bằng chứng rồi quyết định Go/No-Go."
+        },
+        {
+          "type": "warning",
+          "ja": "「大きな問題がないこと」のような曖昧な基準では、利害関係者ごとに判断が変わる。重大度、件数、測定値、承認者を明示する。",
+          "vi": "Tiêu chí mơ hồ như “không có vấn đề lớn” khiến mỗi bên đánh giá khác nhau. Cần nêu rõ mức độ nghiêm trọng, số lượng, giá trị đo và người phê duyệt."
         }
       ],
       "terms": [
@@ -158,8 +198,8 @@
           "term": "導入可否判断基準",
           "english": "Implementation Feasibility Criteria",
           "vi": "Tiêu chí đánh giá khả năng triển khai",
-          "definitionJa": "新しいシステムやソフトウェアの導入を検討する際に、それが実際に導入可能かどうかを評価するための基準である。この基準には、技術的な適合性、経済的な利益、組織内での受け入れやすさ、運用上の影響などが含まれる。例えば、技術的な適合性では、既存のシステムとの互換性が求められ、経済的な利益では導入にかかる費用対効果が重要な要素となる。また、導入後の教育や変更に対する従業員の反応も考慮され、これらの基準に基づいて最終的な導入決定がなされる。効果的なシステム導入のための重要なツールである。",
-          "definitionVi": "Bộ tiêu chí dùng để đánh giá và quyết định khả năng đưa hệ thống vào sử dụng.",
+            "definitionJa": "テスト、移行、運用準備、リスクなどの証跡を基に、本番導入の実施、延期、中止を判定するための基準。",
+            "definitionVi": "Bộ tiêu chí quyết định triển khai thật, hoãn hoặc dừng dựa trên bằng chứng về kiểm thử, chuyển đổi, sẵn sàng vận hành và rủi ro.",
           "reading": "どうにゅうかひはんだんきじゅん"
         }
       ],
@@ -257,8 +297,8 @@
       "titleJa": "導入手順",
       "titleVi": "Quy trình triển khai",
       "importance": "high",
-      "summaryJa": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。",
-      "summaryVi": "Quy định trình tự từng bước khi triển khai hệ thống.",
+      "summaryJa": "システムを対象環境へ安全かつ再現可能に導入するための作業順序と確認方法を定めた手順である。",
+      "summaryVi": "Là quy trình quy định thứ tự thao tác và cách xác nhận để triển khai hệ thống vào môi trường đích an toàn, có thể lặp lại.",
       "content": [
         {
           "type": "heading",
@@ -267,13 +307,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。これには、システムの選定、設計、テスト、展開、運用開始などの各フェーズが含まれる。例えば、企業が業務用のソフトウェアを導入する際、まずはそのソフトウェアが自社のニーズに適しているかを評価し、次にその導入に向けた計画を策定する。続いて、必要なハードウェアやネットワークの準備を行い、インストール後には機能が正しく動作するかを確認するためのテストを実施する。その結果に基づき、最終的にシステムを本稼働させる。このように、導入手順は新しい技術を円滑に利用できるようにするための大切なガイドラインを提供している。",
-          "vi": "Quy trình triển khai mô tả cụ thể ai thực hiện thao tác nào, theo thứ tự nào và cách xác nhận thành công. Ví dụ: sao lưu cơ sở dữ liệu, dừng dịch vụ, cập nhật ứng dụng, khởi động lại rồi kiểm tra. Quy trình chuẩn giúp hạn chế lỗi thao tác."
+          "ja": "導入手順には、前提条件、担当者、開始・終了条件、作業順序、使用するコマンドや設定値、各段階の確認、連絡先を記載する。事前バックアップ、サービス停止、配置・設定、データ移行、起動、動作確認、監視開始までを時系列に並べ、失敗時の中止条件と切戻し手順も対応付ける。リハーサルの実測結果を反映すると、属人化と操作ミスを減らせる。",
+          "vi": "Quy trình triển khai phải ghi điều kiện tiên quyết, người phụ trách, điều kiện bắt đầu và kết thúc, thứ tự thao tác, lệnh hoặc giá trị cấu hình, cách xác nhận từng bước và đầu mối liên lạc. Sắp xếp theo thời gian từ sao lưu, dừng dịch vụ, cài đặt và cấu hình, chuyển dữ liệu, khởi động, kiểm tra hoạt động đến bắt đầu giám sát; đồng thời gắn điều kiện dừng và quy trình quay lui khi thất bại. Phản ánh kết quả đo từ diễn tập giúp giảm phụ thuộc cá nhân và lỗi thao tác."
         },
         {
           "type": "point",
-          "ja": "導入手順の目的・特徴・利用場面を押さえる。",
-          "vi": "Thủ tục phải đủ rõ để người khác có thể thực hiện lại."
+          "ja": "良い導入手順は、別の担当者でも同じ順序で実行し、各段階の成否を客観的に確認できる。正常手順と切戻し手順を対にして準備する。",
+          "vi": "Quy trình tốt cho phép người phụ trách khác thực hiện cùng thứ tự và kiểm tra khách quan thành công hay thất bại ở từng bước. Phải chuẩn bị song song quy trình bình thường và quy trình quay lui."
+        },
+        {
+          "type": "example",
+          "ja": "「バックアップ完了を確認→サービス停止→新プログラム配置→設定差分を反映→サービス起動→ヘルスチェックと主要取引を確認→監視を有効化」とし、各工程に担当者、予定時刻、確認結果欄を設ける。",
+          "vi": "Quy trình ghi: “Xác nhận sao lưu hoàn tất → dừng dịch vụ → cài chương trình mới → áp dụng chênh lệch cấu hình → khởi động dịch vụ → kiểm tra sức khỏe và giao dịch chính → bật giám sát”, kèm người phụ trách, thời gian dự kiến và ô kết quả cho từng bước."
+        },
+        {
+          "type": "warning",
+          "ja": "作業コマンドだけでは不十分である。実行前提、期待結果、失敗時の停止・連絡・切戻しがなければ、異常時に誤ったまま次工程へ進むおそれがある。",
+          "vi": "Chỉ liệt kê lệnh thao tác là chưa đủ. Nếu thiếu điều kiện thực hiện, kết quả mong đợi và cách dừng, liên lạc, quay lui khi thất bại, nhóm có thể tiếp tục bước sau trong trạng thái sai."
         }
       ],
       "terms": [
@@ -281,8 +331,8 @@
           "term": "導入手順",
           "english": "Implementation Procedure",
           "vi": "Quy trình triển khai",
-          "definitionJa": "新しいシステムやソフトウェアを既存の環境に組み込むための具体的なステップを示すものである。これには、システムの選定、設計、テスト、展開、運用開始などの各フェーズが含まれる。例えば、企業が業務用のソフトウェアを導入する際、まずはそのソフトウェアが自社のニーズに適しているかを評価し、次にその導入に向けた計画を策定する。続いて、必要なハードウェアやネットワークの準備を行い、インストール後には機能が正しく動作するかを確認するためのテストを実施する。その結果に基づき、最終的にシステムを本稼働させる。このように、導入手順は新しい技術を円滑に利用できるようにするための大切なガイドラインを提供している。",
-          "definitionVi": "Tài liệu hoặc trình tự hướng dẫn các bước triển khai hệ thống.",
+            "definitionJa": "システム導入の前提条件、作業順序、担当、確認方法、異常時の中止・切戻しを定めた再現可能な手順。",
+            "definitionVi": "Quy trình có thể lặp lại, quy định điều kiện tiên quyết, thứ tự thao tác, người phụ trách, cách xác nhận và cách dừng hoặc quay lui khi triển khai bất thường.",
           "reading": "どうにゅうてじゅん"
         }
       ],
@@ -503,8 +553,8 @@
       "titleJa": "受入れ手順",
       "titleVi": "Quy trình nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。",
-      "summaryVi": "Xác định các bước đánh giá trước khi chính thức tiếp nhận hệ thống.",
+      "summaryJa": "取得者が成果物を受け入れるために行う準備、確認、判定、記録の順序を定めた手順である。",
+      "summaryVi": "Là quy trình quy định thứ tự chuẩn bị, kiểm tra, đánh giá và ghi nhận để bên mua tiếp nhận sản phẩm.",
       "content": [
         {
           "type": "heading",
@@ -513,13 +563,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。この手順は、製品が期待される機能や性能を満たしているかどうかを確認するために行われる。具体的には、開発者が作成した成果物に対してテストを実施したり、ユーザーからのフィードバックを受けて検証を行ったりする。仕様書に基づいて行われることが多く、これをクリアすることで正式な運用が許可される。また、受入れの結果は、問題がないか、必要な改善が行われているかといった点で評価されるため、プロジェクトの成功にとって非常に重要なプロセスである。",
-          "vi": "Quy trình nghiệm thu nêu thứ tự chuẩn bị môi trường, chạy kịch bản kiểm thử, ghi kết quả, xử lý lỗi và xác nhận hoàn tất. Bên tiếp nhận thực hiện theo tiêu chí đã thống nhất để tránh đánh giá chủ quan."
+          "ja": "受入れ手順では、受入れ体制と役割、対象成果物、環境・データの準備、受入れレビューと受入れテスト、結果の記録、不具合の修正確認、最終承認までを定める。取得者が主体となり、供給者は環境説明、データ準備、不具合調査などを支援する。各結果を要求や受入れ基準へ追跡できるようにすると、合否判定の根拠が明確になる。",
+          "vi": "Quy trình tiếp nhận quy định cơ cấu và vai trò, sản phẩm cần kiểm tra, chuẩn bị môi trường và dữ liệu, rà soát và kiểm thử tiếp nhận, ghi kết quả, xác nhận sửa lỗi và phê duyệt cuối cùng. Bên mua giữ vai trò chính; bên cung cấp hỗ trợ giải thích môi trường, chuẩn bị dữ liệu và điều tra lỗi. Liên kết từng kết quả với yêu cầu và tiêu chí tiếp nhận giúp làm rõ căn cứ quyết định đạt hay không."
         },
         {
           "type": "point",
-          "ja": "受入れ手順の目的・特徴・利用場面を押さえる。",
-          "vi": "Quy trình là cách tiến hành; tiêu chí là điều kiện đạt."
+          "ja": "FEでは、取得者が受入れを実施し、供給者がそれを支援する役割分担を押さえる。手順は実施方法、基準は合否条件である。",
+          "vi": "Trong FE, cần nắm bên mua thực hiện tiếp nhận còn bên cung cấp hỗ trợ. Quy trình mô tả cách thực hiện; tiêu chí mô tả điều kiện đạt hay không."
+        },
+        {
+          "type": "example",
+          "ja": "業務担当者がテストデータを準備し、承認済みシナリオを実行して結果と証跡を記録する。不具合は管理票に登録し、供給者の修正後に再テストし、受入れ責任者が最終判定する。",
+          "vi": "Bộ phận nghiệp vụ chuẩn bị dữ liệu, chạy kịch bản đã duyệt và ghi kết quả cùng bằng chứng. Lỗi được đăng ký vào phiếu quản lý; sau khi nhà cung cấp sửa, bên mua kiểm thử lại và người phụ trách tiếp nhận ra quyết định cuối cùng."
+        },
+        {
+          "type": "warning",
+          "ja": "供給者のテスト結果を確認するだけでは、取得者による受入れにならない。実際の業務、利用者、運用環境の観点から取得者が判定する。",
+          "vi": "Chỉ xem kết quả kiểm thử của nhà cung cấp chưa phải là tiếp nhận của bên mua. Bên mua phải đánh giá theo nghiệp vụ thực tế, người dùng và môi trường vận hành."
         }
       ],
       "terms": [
@@ -527,8 +587,8 @@
           "term": "受入れ手順",
           "english": "Acceptance Procedure",
           "vi": "Quy trình nghiệm thu",
-          "definitionJa": "システムやソフトウェアの導入・運用を開始する前に実施される一連の評価プロセスを指す。この手順は、製品が期待される機能や性能を満たしているかどうかを確認するために行われる。具体的には、開発者が作成した成果物に対してテストを実施したり、ユーザーからのフィードバックを受けて検証を行ったりする。仕様書に基づいて行われることが多く、これをクリアすることで正式な運用が許可される。また、受入れの結果は、問題がないか、必要な改善が行われているかといった点で評価されるため、プロジェクトの成功にとって非常に重要なプロセスである。",
-          "definitionVi": "Trình tự các bước dùng để kiểm tra và chấp nhận hệ thống được bàn giao.",
+            "definitionJa": "取得者が成果物を受け入れるために行う、準備、レビュー、テスト、修正確認、判定、記録の順序。",
+            "definitionVi": "Thứ tự chuẩn bị, rà soát, kiểm thử, xác nhận sửa lỗi, đánh giá và ghi nhận mà bên mua thực hiện để tiếp nhận sản phẩm.",
           "reading": "うけいれてじゅん"
         }
       ],
@@ -544,8 +604,8 @@
       "titleJa": "受入れ基準",
       "titleVi": "Tiêu chí nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。",
-      "summaryVi": "Xác định điều kiện để khách hàng chấp nhận sản phẩm.",
+      "summaryJa": "成果物を受け入れ可能と判定するために、取得者と供給者が合意する検証可能な条件である。",
+      "summaryVi": "Là các điều kiện có thể kiểm chứng do bên mua và bên cung cấp thống nhất để quyết định sản phẩm có thể được tiếp nhận.",
       "content": [
         {
           "type": "heading",
@@ -554,13 +614,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。これにより、開発チームは完成した製品がどのような状態であれば受け入れられるかを明確に理解できる。たとえば、ユーザーが期待する機能が正常に作動し、性能やセキュリティの基準を満たすことが受入れ基準に含まれることが一般的である。また、受入れ基準はテスト計画を立てる際にも活用され、実際のテスト結果と比べることで、最終的に品質を保証する手助けを行う。この基準がきちんと設定されていることで、開発チームと顧客との認識のズレを防ぎ、円滑なプロジェクト運営が実現できる。",
-          "vi": "Tiêu chí nghiệm thu phải cụ thể và kiểm chứng được, như chức năng chạy đúng, tốc độ đáp ứng trong giới hạn hoặc không còn lỗi nghiêm trọng. Kết quả kiểm thử được so sánh với các tiêu chí này để quyết định chấp nhận hay yêu cầu sửa chữa."
+          "ja": "受入れ基準は、機能、業務規則、性能、セキュリティ、データ移行、文書などについて、期待結果と許容範囲を示す。要求定義の段階で合意し、各基準を要求とテストケースへ対応付ける。測定条件、合格値、重大な未解決不具合の扱いを明記すれば、実測結果に基づいて受入れ可能かを客観的に判断できる。",
+          "vi": "Tiêu chí tiếp nhận nêu kết quả mong đợi và phạm vi chấp nhận đối với chức năng, quy tắc nghiệp vụ, hiệu năng, bảo mật, chuyển đổi dữ liệu và tài liệu. Cần thống nhất từ giai đoạn định nghĩa yêu cầu và liên kết từng tiêu chí với yêu cầu, ca kiểm thử. Khi ghi rõ điều kiện đo, ngưỡng đạt và cách xử lý lỗi nghiêm trọng chưa khắc phục, quyết định tiếp nhận có thể dựa trên kết quả khách quan."
         },
         {
           "type": "point",
-          "ja": "受入れ基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Tránh dùng tiêu chí mơ hồ như “hoạt động tốt”."
+          "ja": "受入れ基準には、対象、条件、入力、期待結果、許容範囲を含め、要求との双方向の追跡可能性を確保する。",
+          "vi": "Tiêu chí tiếp nhận nên gồm đối tượng, điều kiện, đầu vào, kết quả mong đợi và phạm vi cho phép, đồng thời bảo đảm truy vết hai chiều với yêu cầu."
+        },
+        {
+          "type": "example",
+          "ja": "「通常負荷で注文登録の95％が2秒以内に完了し、在庫不足時は注文を確定せず不足商品を表示する」と定める。負荷条件、数値、業務上の期待結果をテストできる。",
+          "vi": "Quy định: “Ở tải thông thường, 95% thao tác đăng ký đơn hoàn tất trong 2 giây; khi thiếu hàng, không xác nhận đơn và hiển thị sản phẩm thiếu”. Có thể kiểm thử điều kiện tải, chỉ tiêu số và kết quả nghiệp vụ mong đợi."
+        },
+        {
+          "type": "warning",
+          "ja": "「正常に動く」「使いやすい」のような表現だけでは合否を再現できない。また、開発完了後に初めて基準を決めると、契約・要求との認識差が表面化しやすい。",
+          "vi": "Chỉ viết “hoạt động bình thường” hay “dễ dùng” thì không thể tái lập quyết định đạt hay không. Nếu đợi đến khi phát triển xong mới đặt tiêu chí, chênh lệch nhận thức về hợp đồng và yêu cầu dễ phát sinh."
         }
       ],
       "terms": [
@@ -568,8 +638,8 @@
           "term": "受入れ基準",
           "english": "Acceptance Criteria",
           "vi": "Tiêu chí nghiệm thu",
-          "definitionJa": "システムやソフトウェアが顧客の要求を満たしているかどうかを評価するための具体的な条件や要件のことを指す。これにより、開発チームは完成した製品がどのような状態であれば受け入れられるかを明確に理解できる。たとえば、ユーザーが期待する機能が正常に作動し、性能やセキュリティの基準を満たすことが受入れ基準に含まれることが一般的である。また、受入れ基準はテスト計画を立てる際にも活用され、実際のテスト結果と比べることで、最終的に品質を保証する手助けを行う。この基準がきちんと設定されていることで、開発チームと顧客との認識のズレを防ぎ、円滑なプロジェクト運営が実現できる。",
-          "definitionVi": "Các điều kiện được thỏa thuận để đánh giá sản phẩm có đủ điều kiện tiếp nhận.",
+            "definitionJa": "成果物が要求を満たし受入れ可能かを判定するために、取得者と供給者が合意した検証可能な条件。",
+            "definitionVi": "Các điều kiện có thể kiểm chứng được bên mua và bên cung cấp thống nhất để đánh giá sản phẩm đáp ứng yêu cầu và đủ điều kiện tiếp nhận.",
           "reading": "うけいれきじゅん"
         }
       ],
@@ -585,8 +655,8 @@
       "titleJa": "受入れテスト",
       "titleVi": "Kiểm thử nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。",
-      "summaryVi": "Khách hàng kiểm tra hệ thống có đáp ứng nhu cầu đã thỏa thuận hay không.",
+      "summaryJa": "取得者が、システムが利用者ニーズ、要求、業務プロセスと受入れ基準を満たすか確認するテストである。",
+      "summaryVi": "Là kiểm thử do bên mua thực hiện để xác nhận hệ thống đáp ứng nhu cầu người dùng, yêu cầu, quy trình nghiệp vụ và tiêu chí tiếp nhận.",
       "content": [
         {
           "type": "heading",
@@ -595,13 +665,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "vi": "Kiểm thử nghiệm thu thường do khách hàng hoặc đại diện người dùng thực hiện trên các tình huống nghiệp vụ thực tế. Mục tiêu là xác nhận sản phẩm đáp ứng yêu cầu trước khi chấp nhận đưa vào sử dụng, không chỉ kiểm tra từng hàm kỹ thuật."
+          "ja": "受入れテストは、取得者や利用部門が主体となり、実際の業務シナリオに沿ってシステムを評価する。機能だけでなく、性能、セキュリティ、運用、帳票、外部連携、移行データなど、合意した受入れ基準を確認する。供給者は環境構築や不具合調査を支援するが、受け入れるかどうかの判断は取得者が行い、テスト結果と証跡を記録する。",
+          "vi": "Kiểm thử tiếp nhận do bên mua hoặc bộ phận sử dụng chủ trì, đánh giá hệ thống theo kịch bản nghiệp vụ thực tế. Không chỉ chức năng, còn kiểm tra hiệu năng, bảo mật, vận hành, báo cáo, liên kết ngoài và dữ liệu chuyển đổi theo tiêu chí đã thống nhất. Nhà cung cấp hỗ trợ thiết lập môi trường và điều tra lỗi, nhưng bên mua quyết định có tiếp nhận hay không và lưu kết quả cùng bằng chứng."
         },
         {
           "type": "point",
-          "ja": "受入れテストの目的・特徴・利用場面を押さえる。",
-          "vi": "受入れテスト tập trung vào yêu cầu và nghiệp vụ người dùng."
+          "ja": "FEでは、受入れテストが利用者ニーズと業務要件に対する妥当性確認であり、開発者中心の単体・結合テストとは目的と主体が異なることを押さえる。",
+          "vi": "Trong FE, cần hiểu kiểm thử tiếp nhận xác nhận tính phù hợp với nhu cầu người dùng và yêu cầu nghiệp vụ; mục tiêu và chủ thể khác kiểm thử đơn vị, tích hợp do phía phát triển thực hiện."
+        },
+        {
+          "type": "example",
+          "ja": "経理担当者が、受注から請求、入金消込み、月次締めまでの一連の業務を本番相当データで実行し、仕訳と帳票が受入れ基準どおりになることを確認する。",
+          "vi": "Nhân viên kế toán chạy toàn bộ nghiệp vụ từ nhận đơn, lập hóa đơn, đối trừ thanh toán đến khóa sổ tháng bằng dữ liệu tương đương thực tế, rồi xác nhận bút toán và báo cáo đúng tiêu chí tiếp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "受入れテストは「納品後に一度動かす」だけの作業ではない。要求と対応しない場当たり的な操作では、重要な業務や例外処理の漏れを判断できない。",
+          "vi": "Kiểm thử tiếp nhận không chỉ là “chạy thử một lần sau bàn giao”. Thao tác tùy hứng không liên kết với yêu cầu sẽ bỏ sót nghiệp vụ quan trọng và xử lý ngoại lệ."
         }
       ],
       "terms": [
@@ -609,8 +689,8 @@
           "term": "受入れテスト",
           "english": "Acceptance Test",
           "vi": "Kiểm thử nghiệm thu",
-          "definitionJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "definitionVi": "Hoạt động kiểm thử để xác nhận hệ thống đáp ứng yêu cầu chấp nhận của khách hàng.",
+            "definitionJa": "取得者や利用者が、利用者ニーズ、要求、業務プロセスに基づき、システムが受入れ基準を満たすか確認するテスト。",
+            "definitionVi": "Kiểm thử do bên mua hoặc người dùng thực hiện dựa trên nhu cầu, yêu cầu và quy trình nghiệp vụ để xác nhận hệ thống đáp ứng tiêu chí tiếp nhận.",
           "reading": "うけいれてすと"
         }
       ],
@@ -626,8 +706,8 @@
       "titleJa": "検収",
       "titleVi": "Nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。",
-      "summaryVi": "Kiểm tra sản phẩm bàn giao rồi quyết định có chấp nhận hay không.",
+      "summaryJa": "取得者が納品物を契約、要件、品質、納品方法と照合し、正式に受領するか判定する行為である。",
+      "summaryVi": "Là việc bên mua đối chiếu sản phẩm bàn giao với hợp đồng, yêu cầu, chất lượng và phương thức giao để quyết định có chính thức nhận hay không.",
       "content": [
         {
           "type": "heading",
@@ -636,13 +716,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。通常、検収は開発者ではなく、ユーザーやクライアントが行う。具体的には、開発者が提出したシステムを受け入れる前に、実際の運用環境で動作をテストし、機能が正しく働くか、期待通りの結果を出すかを確認する。この段階では、問題が見つかれば修正を求めることができ、最終的に顧客の満足度を高めるためには欠かせない手続きを含んでいる。検収においては、ユーザーの視点からの評価が特に重要であり、導入後のトラブル防止にも寄与する。",
-          "vi": "検収 là quá trình bên nhận đối chiếu sản phẩm với hợp đồng, đặc tả và tiêu chí nghiệm thu, kiểm tra số lượng và chất lượng, sau đó xác nhận kết quả. Đây là hoạt động chấp nhận bàn giao, không đồng nhất với riêng việc chạy kiểm thử."
+          "ja": "検収では、取得者が納品物の種類、数量、版、納品方法を確認し、要件と品質を満たす証跡、受入れテスト結果、未解決事項を検収基準と照合する。適合すれば受領を確定し、不適合なら契約上の手続に従って修補や再提出を求める。検収は成果物を受け取る手続上の行為であり、実運用できることを確認する受入れテストだけでは代替できない。",
+          "vi": "Trong nghiệm thu, bên mua kiểm tra loại, số lượng, phiên bản, phương thức giao và đối chiếu bằng chứng đáp ứng yêu cầu, chất lượng, kết quả kiểm thử tiếp nhận, vấn đề còn tồn với tiêu chí nghiệm thu. Nếu phù hợp thì xác nhận nhận sản phẩm; nếu không thì yêu cầu sửa hoặc nộp lại theo hợp đồng. Nghiệm thu là hành vi thủ tục để nhận sản phẩm, không thể thay thế chỉ bằng kiểm thử tiếp nhận xác nhận khả năng dùng trong vận hành."
         },
         {
           "type": "point",
-          "ja": "検収の目的・特徴・利用場面を押さえる。",
-          "vi": "納品 là giao; 検収 là kiểm tra để chấp nhận."
+          "ja": "FEでは、納品は供給者による引渡し、検収は取得者による確認と受領であること、受入れテストは検収判断の重要な証拠の一つであることを区別する。",
+          "vi": "Trong FE, phân biệt 納品 là nhà cung cấp giao sản phẩm, 検収 là bên mua kiểm tra và nhận; kiểm thử tiếp nhận là một bằng chứng quan trọng cho quyết định nghiệm thu."
+        },
+        {
+          "type": "example",
+          "ja": "取得者は、プログラム、設計書、操作手順書の版と数量を納品一覧で確認し、受入れテスト合格記録と未解決不具合を検収基準に照らして、検収書へ結果を記録する。",
+          "vi": "Bên mua dùng danh mục bàn giao kiểm tra phiên bản, số lượng chương trình, tài liệu thiết kế và hướng dẫn; sau đó đối chiếu biên bản kiểm thử đạt và lỗi chưa xử lý với tiêu chí nghiệm thu, ghi kết quả vào biên bản nghiệm thu."
+        },
+        {
+          "type": "warning",
+          "ja": "受入れテスト合格と検収完了は同義ではない。文書やライセンスなど、テスト対象外の納品物と契約条件も検収で確認する。",
+          "vi": "Kiểm thử tiếp nhận đạt không đồng nghĩa nghiệm thu hoàn tất. Nghiệm thu còn kiểm tra tài liệu, giấy phép và các sản phẩm ngoài phạm vi kiểm thử cùng điều kiện hợp đồng."
         }
       ],
       "terms": [
@@ -650,8 +740,8 @@
           "term": "検収",
           "english": "Acceptance Testing",
           "vi": "Nghiệm thu",
-          "definitionJa": "システムやソフトウェアの開発が完了した後に、その成果物が要求された仕様や要件を満たしているかを確認するプロセスである。通常、検収は開発者ではなく、ユーザーやクライアントが行う。具体的には、開発者が提出したシステムを受け入れる前に、実際の運用環境で動作をテストし、機能が正しく働くか、期待通りの結果を出すかを確認する。この段階では、問題が見つかれば修正を求めることができ、最終的に顧客の満足度を高めるためには欠かせない手続きを含んでいる。検収においては、ユーザーの視点からの評価が特に重要であり、導入後のトラブル防止にも寄与する。",
-          "definitionVi": "Việc bên nhận kiểm tra sản phẩm bàn giao và xác nhận có đáp ứng điều kiện hợp đồng.",
+            "definitionJa": "取得者が納品物を契約、要件、品質、納品方法と照合し、適合する成果物を正式に受領する行為。",
+            "definitionVi": "Việc bên mua đối chiếu sản phẩm bàn giao với hợp đồng, yêu cầu, chất lượng và phương thức giao rồi chính thức nhận sản phẩm phù hợp.",
           "reading": "けんしゅう"
         }
       ],
@@ -667,8 +757,8 @@
       "titleJa": "検収基準",
       "titleVi": "Tiêu chí nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。",
-      "summaryVi": "Đặt điều kiện để xác nhận kết quả kiểm tra sản phẩm bàn giao.",
+      "summaryJa": "納品物を正式に受領できるか、契約上の検収で判定するための具体的な基準である。",
+      "summaryVi": "Là tiêu chí cụ thể dùng trong nghiệm thu theo hợp đồng để quyết định sản phẩm bàn giao có thể được chính thức nhận hay không.",
       "content": [
         {
           "type": "heading",
@@ -677,13 +767,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。これらの基準は、受入れテストの際に重要な役割を果たし、プロダクトが完成した状態でどのような機能や性能を持つべきかを明示する。例えば、新しいソフトウェアの機能が実際に期待通りに動作するかどうかを確認するための手順や条件が示される。このように、検収基準が設定されることで、開発チームと顧客との間に明確な合意が形成され、プロジェクトの成功に向けた重要なステップとなる。",
-          "vi": "Tiêu chí 検収 được dùng khi bên nhận quyết định chấp nhận sản phẩm, có thể bao gồm tài liệu, chức năng, chất lượng và các hạng mục bàn giao. Nên được thống nhất trước để tránh tranh chấp sau khi giao."
+          "ja": "検収基準は、契約で指定した納品物の種類、数量、版、形式、納期に加え、要件・品質の達成、受入れテスト結果、許容する未解決事項などを定める。成果物ごとに確認方法と必要な証跡を明確にし、合格、不合格、条件付き受領の扱いも合意する。受入れ基準がシステムの利用可能性に重点を置くのに対し、検収基準は文書やライセンスを含む納品物全体と契約条件を対象にできる。",
+          "vi": "Tiêu chí nghiệm thu quy định loại, số lượng, phiên bản, định dạng, thời hạn giao theo hợp đồng, cùng mức đáp ứng yêu cầu, chất lượng, kết quả kiểm thử tiếp nhận và vấn đề chưa giải quyết được phép tồn tại. Với từng sản phẩm cần nêu cách kiểm tra, bằng chứng cần thiết và cách xử lý đạt, không đạt hoặc nhận có điều kiện. Tiêu chí tiếp nhận tập trung vào khả năng sử dụng hệ thống, còn tiêu chí nghiệm thu có thể bao quát toàn bộ sản phẩm như tài liệu, giấy phép và điều kiện hợp đồng."
         },
         {
           "type": "point",
-          "ja": "検収基準の目的・特徴・利用場面を押さえる。",
-          "vi": "検収基準 liên quan quyết định chấp nhận sản phẩm bàn giao."
+          "ja": "検収基準は、受入れテストの合否だけでなく、納品物の完全性、版、証跡、契約条件を含めて正式受領を判定する。",
+          "vi": "Tiêu chí nghiệm thu không chỉ xét kiểm thử tiếp nhận đạt hay không, mà còn xét tính đầy đủ, phiên bản, bằng chứng và điều kiện hợp đồng để quyết định chính thức nhận sản phẩm."
+        },
+        {
+          "type": "example",
+          "ja": "「指定版のプログラム、ソースコード、設計書、操作手順書が一覧どおりそろい、受入れテストが合格し、重大度Aの未解決不具合がないこと」を検収基準とする。",
+          "vi": "Quy định tiêu chí nghiệm thu: “Đủ chương trình đúng phiên bản, mã nguồn, tài liệu thiết kế và hướng dẫn thao tác theo danh mục; kiểm thử tiếp nhận đạt; không còn lỗi chưa xử lý mức A”."
+        },
+        {
+          "type": "warning",
+          "ja": "検収基準を納品後に変更すると、合意していない条件で供給者を評価することになり、紛争の原因になる。変更が必要なら契約上の手続で双方が合意する。",
+          "vi": "Thay đổi tiêu chí nghiệm thu sau bàn giao có thể khiến nhà cung cấp bị đánh giá bằng điều kiện chưa thỏa thuận và gây tranh chấp. Nếu cần thay đổi, hai bên phải thống nhất theo thủ tục hợp đồng."
         }
       ],
       "terms": [
@@ -691,8 +791,8 @@
           "term": "検収基準",
           "english": "Acceptance Criteria",
           "vi": "Tiêu chí nghiệm thu",
-          "definitionJa": "システムやソフトウェアが顧客の要求を満たしているかを判定するための具体的な基準のことである。これらの基準は、受入れテストの際に重要な役割を果たし、プロダクトが完成した状態でどのような機能や性能を持つべきかを明示する。例えば、新しいソフトウェアの機能が実際に期待通りに動作するかどうかを確認するための手順や条件が示される。このように、検収基準が設定されることで、開発チームと顧客との間に明確な合意が形成され、プロジェクトの成功に向けた重要なステップとなる。",
-          "definitionVi": "Các tiêu chuẩn đánh giá sản phẩm có đủ điều kiện được bên nhận chấp nhận.",
+            "definitionJa": "納品物の完全性、版、要件・品質、証跡、契約条件を確認し、取得者が正式に受領できるか判定する基準。",
+            "definitionVi": "Tiêu chí kiểm tra tính đầy đủ, phiên bản, yêu cầu, chất lượng, bằng chứng và điều kiện hợp đồng để bên mua quyết định chính thức nhận sản phẩm.",
           "reading": "けんしゅうきじゅん"
         }
       ],
@@ -749,8 +849,8 @@
       "titleJa": "双方向の追跡可能性",
       "titleVi": "Khả năng truy vết hai chiều",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。",
-      "summaryVi": "Theo dõi mối liên hệ giữa yêu cầu và sản phẩm thực hiện theo cả hai chiều.",
+      "summaryJa": "要求から成果物・テスト結果へ、また成果物から要求へ、関係を両方向にたどれる性質である。",
+      "summaryVi": "Là khả năng lần theo quan hệ hai chiều từ yêu cầu đến sản phẩm, kết quả kiểm thử và ngược lại.",
       "content": [
         {
           "type": "heading",
@@ -759,13 +859,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "vi": "Truy vết hai chiều cho phép đi từ yêu cầu đến thiết kế, mã nguồn, ca kiểm thử và ngược lại. Nhờ đó có thể phát hiện yêu cầu chưa được thực hiện hoặc chức năng được tạo ra nhưng không có yêu cầu tương ứng."
+          "ja": "双方向の追跡可能性では、各要求に一意な識別子を付け、設計、実装、テストケース、実行結果、変更記録との対応を維持する。要求から下流へたどれば実装・検証漏れを確認でき、成果物から上流へたどれば作成理由と根拠要求を確認できる。変更時には影響を受ける設計やテストを抽出でき、不要な機能や未承認の変更も発見しやすくなる。",
+          "vi": "Trong truy vết hai chiều, mỗi yêu cầu có mã duy nhất và duy trì liên kết với thiết kế, triển khai, ca kiểm thử, kết quả chạy và lịch sử thay đổi. Truy từ yêu cầu xuống giúp phát hiện thiếu triển khai hoặc kiểm chứng; truy từ sản phẩm lên giúp xác định lý do tạo và yêu cầu gốc. Khi thay đổi, có thể tìm thiết kế, kiểm thử bị ảnh hưởng, đồng thời phát hiện chức năng không cần thiết hoặc thay đổi chưa phê duyệt."
         },
         {
           "type": "point",
-          "ja": "双方向の追跡可能性の目的・特徴・利用場面を押さえる。",
-          "vi": "Yêu cầu → kiểm thử và kiểm thử → yêu cầu đều phải truy được."
+          "ja": "前方追跡は要求がどの成果物で実現・検証されたか、後方追跡は成果物がどの要求に由来するかを確認する。両方そろって双方向となる。",
+          "vi": "Truy vết xuôi xác định yêu cầu được thực hiện, kiểm chứng trong sản phẩm nào; truy vết ngược xác định sản phẩm bắt nguồn từ yêu cầu nào. Có cả hai mới là truy vết hai chiều."
+        },
+        {
+          "type": "example",
+          "ja": "要求REQ-021を設計DES-014、モジュールMOD-008、テストTC-105、結果TR-105へリンクする。REQ-021変更時はリンク先を影響分析し、TC-105を再実行する。",
+          "vi": "Liên kết yêu cầu REQ-021 với thiết kế DES-014, mô-đun MOD-008, ca kiểm thử TC-105 và kết quả TR-105. Khi REQ-021 thay đổi, phân tích các liên kết bị ảnh hưởng và chạy lại TC-105."
+        },
+        {
+          "type": "warning",
+          "ja": "リンクが存在するだけでは十分でない。要求変更後に対応関係を更新しなければ、古いトレーサビリティ情報に基づいて誤った影響判断をする。",
+          "vi": "Chỉ có liên kết là chưa đủ. Nếu không cập nhật sau khi yêu cầu thay đổi, nhóm có thể đánh giá tác động sai dựa trên thông tin truy vết đã lỗi thời."
         }
       ],
       "terms": [
@@ -773,8 +883,8 @@
           "term": "双方向の追跡可能性",
           "english": "Bidirectional Traceability",
           "vi": "Khả năng truy vết hai chiều",
-          "definitionJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "definitionVi": "Khả năng lần theo quan hệ giữa yêu cầu và các sản phẩm phát triển theo cả hai hướng.",
+            "definitionJa": "要求から設計・実装・テスト結果へ、及び各成果物から根拠となる要求へ、対応関係を両方向にたどれる性質。",
+            "definitionVi": "Khả năng truy theo cả hai hướng từ yêu cầu đến thiết kế, triển khai, kết quả kiểm thử và từ mỗi sản phẩm về yêu cầu làm căn cứ.",
           "reading": "そうほうこうのついせきかのうせい"
         }
       ],
@@ -995,8 +1105,8 @@
       "titleJa": "妥当性確認テストの目的",
       "titleVi": "Mục đích kiểm thử xác nhận tính hợp lệ",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。",
-      "summaryVi": "Xác nhận sản phẩm đáp ứng nhu cầu thực tế của người dùng.",
+      "summaryJa": "システムが意図した利用目的を、想定利用者と利用環境で達成できることを確認するのが目的である。",
+      "summaryVi": "Mục đích là xác nhận hệ thống đạt được mục đích sử dụng dự kiến với người dùng và trong môi trường dự kiến.",
       "content": [
         {
           "type": "heading",
@@ -1005,13 +1115,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。このテストは、製品が所定の要件や規格に適合しているかどうかを評価するために実施される。具体的には、テストケースを通じて実際の使用状況に近い環境を再現し、ソフトウェアの動作や出力が期待通りであることを確認する。これにより、開発の初期段階で問題を特定し、修正することができ、最終的に高品質な製品を提供することが可能となる。このプロセスは、ユーザー満足度を高め、リリース後のトラブルを減少させる効果もある。",
-          "vi": "Kiểm thử xác nhận tính phù hợp (validation) đánh giá liệu hệ thống có giải quyết đúng vấn đề và đáp ứng mục đích sử dụng dự kiến hay không. Cần phân biệt với verification, vốn kiểm tra sản phẩm có được xây dựng đúng theo đặc tả hay không."
+          "ja": "妥当性確認テストは、完成したシステムやシステム要素が、想定した業務、利用者、運用環境で有効かつ適切に使えることを客観的証拠で示す。実運用に近いシナリオ、環境条件、データ、利用者を用い、定めた成功基準と比較する。仕様どおりに作られたかを確認する検証（verification）に対し、妥当性確認（validation）は意図した用途に適したシステムかを確認する。",
+          "vi": "Kiểm thử validation dùng bằng chứng khách quan để chỉ ra hệ thống hoặc thành phần hoàn thiện có thể được sử dụng hiệu quả, phù hợp trong nghiệp vụ, với người dùng và môi trường vận hành dự kiến. Kiểm thử dùng kịch bản, điều kiện môi trường, dữ liệu và người dùng gần thực tế rồi so với tiêu chí thành công. Verification kiểm tra sản phẩm được xây đúng đặc tả; validation kiểm tra sản phẩm có phù hợp mục đích dự kiến hay không."
         },
         {
           "type": "point",
-          "ja": "妥当性確認テストの目的の目的・特徴・利用場面を押さえる。",
-          "vi": "Validation: xây đúng sản phẩm cần thiết; verification: xây sản phẩm đúng đặc tả."
+          "ja": "FEでは、検証は「正しく作ったか」、妥当性確認は「正しいものを作ったか」という観点の違いを、仕様適合と意図した用途への適合で理解する。",
+          "vi": "Trong FE, hiểu verification là “đã xây sản phẩm đúng chưa”, còn validation là “đã xây đúng sản phẩm cần thiết chưa”, tương ứng với phù hợp đặc tả và phù hợp mục đích sử dụng."
+        },
+        {
+          "type": "example",
+          "ja": "倉庫システムを実際の作業者が携帯端末で使用し、騒音や手袋着用を含む現場条件で入出庫業務を完了できるか確認する。画面仕様への適合だけでなく、用途への適切性を評価する。",
+          "vi": "Cho nhân viên kho dùng thiết bị cầm tay để hoàn tất nhập, xuất kho trong điều kiện thực tế có tiếng ồn và đeo găng. Không chỉ kiểm tra đúng đặc tả màn hình mà còn đánh giá tính phù hợp với mục đích sử dụng."
+        },
+        {
+          "type": "warning",
+          "ja": "設計書どおりに動くことだけで妥当性確認済みとはいえない。設計そのものが利用者ニーズを誤解していれば、検証に合格しても用途には適さない。",
+          "vi": "Chỉ hoạt động đúng tài liệu thiết kế chưa đủ để kết luận validation đạt. Nếu bản thiết kế hiểu sai nhu cầu người dùng, sản phẩm có thể vượt verification nhưng vẫn không phù hợp mục đích."
         }
       ],
       "terms": [
@@ -1019,8 +1139,8 @@
           "term": "妥当性確認テストの目的",
           "english": "Validation Testing Objective",
           "vi": "Mục đích kiểm thử xác nhận tính hợp lệ",
-          "definitionJa": "システムやソフトウェアが設計通りに機能し、ユーザーのニーズを満たしているかを確認することである。このテストは、製品が所定の要件や規格に適合しているかどうかを評価するために実施される。具体的には、テストケースを通じて実際の使用状況に近い環境を再現し、ソフトウェアの動作や出力が期待通りであることを確認する。これにより、開発の初期段階で問題を特定し、修正することができ、最終的に高品質な製品を提供することが可能となる。このプロセスは、ユーザー満足度を高め、リリース後のトラブルを減少させる効果もある。",
-          "definitionVi": "Mục tiêu kiểm tra hệ thống phù hợp với nhu cầu và mục đích sử dụng dự kiến.",
+            "definitionJa": "想定利用者と利用環境において、システムが意図した利用目的とニーズを達成できることを確認する目的。",
+            "definitionVi": "Mục tiêu xác nhận hệ thống đạt được mục đích sử dụng và nhu cầu dự kiến với người dùng, trong môi trường dự kiến.",
           "reading": "だとうせいかくにんてすとのもくてき"
         }
       ],
@@ -1036,8 +1156,8 @@
       "titleJa": "成功基準",
       "titleVi": "Tiêu chí thành công",
       "importance": "high",
-      "summaryJa": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。",
-      "summaryVi": "Xác định điều kiện đo lường một dự án hoặc hoạt động đã thành công.",
+      "summaryJa": "妥当性確認の結果が期待どおりかを客観的に判定するため、事前に定める期待結果である。",
+      "summaryVi": "Là kết quả mong đợi được xác lập trước để đánh giá khách quan kết quả validation có thành công hay không.",
       "content": [
         {
           "type": "heading",
@@ -1046,13 +1166,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。プロジェクトにおいて、成功基準を明確に定義することで、結果の測定や評価が容易となる。例えば、ソフトウェア開発において、成功基準には、システムが指定された機能を正確に果たすことや、ユーザーからの満足度が一定の水準を超えることが含まれることが多い。また、妥当性確認テストにおいては、期待される結果が基準を満たしているかどうかを確認するために、成功基準が不可欠である。このように、成功基準はプロジェクトの成否を判断するための重要な要素となる。",
-          "vi": "Tiêu chí thành công nên được xác lập từ đầu, có thể gồm mức đáp ứng yêu cầu, thời hạn, chi phí, độ ổn định và mức hài lòng của người dùng. Khi kết thúc dự án, so sánh kết quả thực tế với tiêu chí để đánh giá khách quan."
+          "ja": "妥当性確認テストの成功基準は、対象、利用シナリオ、環境条件、測定方法、期待値、許容範囲を組み合わせて定義する。テスト実施前に利害関係者と合意し、実測結果と比較して合否を判定する。単なる技術指標だけでなく、利用者が意図した業務を完了できることなど、利用目的に結び付いた結果を含める。",
+          "vi": "Tiêu chí thành công của validation kết hợp đối tượng, kịch bản sử dụng, điều kiện môi trường, cách đo, giá trị mong đợi và phạm vi cho phép. Các bên thống nhất trước khi kiểm thử rồi so sánh kết quả thực đo để quyết định đạt hay không. Ngoài chỉ số kỹ thuật, cần có kết quả gắn với mục đích sử dụng, chẳng hạn người dùng hoàn tất được nghiệp vụ dự kiến."
         },
         {
           "type": "point",
-          "ja": "成功基準の目的・特徴・利用場面を押さえる。",
-          "vi": "Ưu tiên tiêu chí cụ thể, có thể đo được."
+          "ja": "成功基準はテスト後に結果へ合わせて決めず、事前に測定可能な期待結果として定義する。受入れ基準と同様、曖昧語を避ける。",
+          "vi": "Không đặt tiêu chí thành công sau kiểm thử để khớp kết quả; phải định nghĩa trước thành kết quả mong đợi có thể đo. Tương tự tiêu chí tiếp nhận, tránh từ ngữ mơ hồ."
+        },
+        {
+          "type": "example",
+          "ja": "災害時の安否確認システムについて「通信が制限された想定環境で、訓練参加者の90％以上が10分以内に回答を登録できる」を成功基準とする。",
+          "vi": "Với hệ thống xác nhận an toàn khi thiên tai, đặt tiêu chí: “Trong môi trường giả định hạn chế liên lạc, ít nhất 90% người tham gia diễn tập đăng ký phản hồi trong 10 phút”."
+        },
+        {
+          "type": "warning",
+          "ja": "「利用者が満足する」のように測定方法のない基準では判定できない。誰を対象に、何を、どの条件・尺度で測るかを明記する。",
+          "vi": "Không thể đánh giá bằng tiêu chí không có cách đo như “người dùng hài lòng”. Cần nêu rõ đo ai, nội dung gì, trong điều kiện nào và theo thang nào."
         }
       ],
       "terms": [
@@ -1060,8 +1190,8 @@
           "term": "成功基準",
           "english": "Success Criteria",
           "vi": "Tiêu chí thành công",
-          "definitionJa": "特定のプロジェクトやタスクが期待通りに達成されたかを評価するための基準を示すものである。プロジェクトにおいて、成功基準を明確に定義することで、結果の測定や評価が容易となる。例えば、ソフトウェア開発において、成功基準には、システムが指定された機能を正確に果たすことや、ユーザーからの満足度が一定の水準を超えることが含まれることが多い。また、妥当性確認テストにおいては、期待される結果が基準を満たしているかどうかを確認するために、成功基準が不可欠である。このように、成功基準はプロジェクトの成否を判断するための重要な要素となる。",
-          "definitionVi": "Những điều kiện dùng để xác định một mục tiêu hoặc dự án đã đạt kết quả mong đợi.",
+            "definitionJa": "妥当性確認テストの結果が期待どおりであるか判定するため、対象、条件、測定方法、期待値を事前に定めた基準。",
+            "definitionVi": "Tiêu chí xác lập trước đối tượng, điều kiện, cách đo và giá trị mong đợi để đánh giá kết quả validation có đúng kỳ vọng hay không.",
           "reading": "せいこうきじゅん"
         }
       ],
@@ -1159,8 +1289,8 @@
       "titleJa": "不具合の根本原因",
       "titleVi": "Nguyên nhân gốc của lỗi",
       "importance": "high",
-      "summaryJa": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。",
-      "summaryVi": "Tìm nguyên nhân sâu xa khiến lỗi xuất hiện, không chỉ xử lý triệu chứng.",
+      "summaryJa": "不具合という結果を生じさせた、再発防止のために除去・管理すべき根本的な要因である。",
+      "summaryVi": "Là yếu tố căn bản gây ra lỗi, cần được loại bỏ hoặc kiểm soát để ngăn tái diễn.",
       "content": [
         {
           "type": "heading",
@@ -1169,13 +1299,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。妥当性確認テストを通じて、システムの機能や性能が期待通りであるかを確認する中で、不具合が見つかることがある。その際、ただ単に症状を修正するのではなく、根本的な原因を特定し解決することが非常に重要である。これにより、同様の問題が再発することを防ぎ、システム全体の品質を向上させることができる。たとえば、特定の機能が正常に動作しない場合、その原因がコードの誤りなのか、設計の不備なのか、あるいは外部の要因によるものなのかを洗い出すことで、適切な対応策を講じることが可能となる。",
-          "vi": "Phân tích nguyên nhân gốc xem lỗi bắt nguồn từ yêu cầu, thiết kế, lập trình, cấu hình hay quy trình. Ví dụ, sửa một giá trị sai có thể giải quyết lỗi tạm thời, nhưng nếu nguyên nhân là thiếu kiểm tra đầu vào thì cần sửa quy tắc kiểm tra."
+          "ja": "根本原因分析では、障害の現象と直接原因だけでなく、なぜ欠陥が作り込まれ、なぜレビューやテストで流出したかまで調べる。要求、設計、実装、設定、データ、手順、教育、レビュー体制などを証拠に基づいて分析する。根本原因は一つとは限らず、再発や類似箇所への波及を防ぐため、原因と対策の因果関係を確認する。",
+          "vi": "Phân tích nguyên nhân gốc không dừng ở hiện tượng và nguyên nhân trực tiếp, mà tìm vì sao khiếm khuyết được tạo ra và vì sao lọt qua rà soát, kiểm thử. Cần phân tích dựa trên bằng chứng ở yêu cầu, thiết kế, triển khai, cấu hình, dữ liệu, quy trình, đào tạo và cơ chế review. Có thể có nhiều nguyên nhân gốc; phải xác nhận quan hệ nhân quả giữa nguyên nhân và biện pháp để ngăn tái diễn, lan sang vị trí tương tự."
         },
         {
           "type": "point",
-          "ja": "不具合の根本原因の目的・特徴・利用場面を押さえる。",
-          "vi": "Phân biệt nguyên nhân gốc với biểu hiện bên ngoài của lỗi."
+          "ja": "症状を消す修正と、原因を除去して再発を防ぐ是正処置を区別する。なぜなぜ分析や特性要因図は手段であり、推測ではなく証拠で原因を裏付ける。",
+          "vi": "Phân biệt sửa hiện tượng với hành động khắc phục loại bỏ nguyên nhân để ngăn tái diễn. 5 Whys hay biểu đồ nhân quả chỉ là phương tiện; nguyên nhân phải được chứng minh bằng bằng chứng, không phải phỏng đoán."
+        },
+        {
+          "type": "example",
+          "ja": "請求額が誤った直接原因は税率の固定値だった。調査すると、税率変更の要求を設計へ反映する手順とレビュー項目がなく、テストデータも旧税率だけだった。これらが再発に関わる根本原因である。",
+          "vi": "Nguyên nhân trực tiếp của số tiền hóa đơn sai là thuế suất được ghi cứng. Điều tra cho thấy không có quy trình phản ánh yêu cầu đổi thuế suất vào thiết kế, thiếu mục review và dữ liệu kiểm thử chỉ có thuế suất cũ. Đây là các nguyên nhân gốc liên quan tái diễn."
+        },
+        {
+          "type": "warning",
+          "ja": "最初に見つかった原因や担当者のミスを根本原因と断定しない。ミスを許した仕組みと、検出できなかった統制まで確認する。",
+          "vi": "Không vội coi nguyên nhân đầu tiên tìm thấy hoặc sai sót cá nhân là nguyên nhân gốc. Cần xem cả cơ chế cho phép sai sót xảy ra và kiểm soát đã không phát hiện nó."
         }
       ],
       "terms": [
@@ -1183,8 +1323,8 @@
           "term": "不具合の根本原因",
           "english": "Root Cause of Defect",
           "vi": "Nguyên nhân gốc của lỗi",
-          "definitionJa": "ソフトウェアやシステムにおいて発生した不具合やエラーの最も主要な原因を指す。妥当性確認テストを通じて、システムの機能や性能が期待通りであるかを確認する中で、不具合が見つかることがある。その際、ただ単に症状を修正するのではなく、根本的な原因を特定し解決することが非常に重要である。これにより、同様の問題が再発することを防ぎ、システム全体の品質を向上させることができる。たとえば、特定の機能が正常に動作しない場合、その原因がコードの誤りなのか、設計の不備なのか、あるいは外部の要因によるものなのかを洗い出すことで、適切な対応策を講じることが可能となる。",
-          "definitionVi": "Nguyên nhân cơ bản dẫn đến một sự cố hoặc khiếm khuyết.",
+            "definitionJa": "不具合を発生・流出させた要因のうち、再発防止のために除去又は管理すべき根本的な原因。",
+            "definitionVi": "Nguyên nhân căn bản làm phát sinh hoặc để lọt lỗi, cần được loại bỏ hoặc kiểm soát để ngăn tái diễn.",
           "reading": "ふぐあいのこんぽんげんいん"
         }
       ],
@@ -1200,8 +1340,8 @@
       "titleJa": "是正処置",
       "titleVi": "Hành động khắc phục",
       "importance": "high",
-      "summaryJa": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。",
-      "summaryVi": "Thực hiện biện pháp loại bỏ nguyên nhân của vấn đề đã phát hiện.",
+      "summaryJa": "発生した不適合の原因を除去し、同じ問題の再発を防ぐために行う処置である。",
+      "summaryVi": "Là hành động loại bỏ nguyên nhân của sự không phù hợp đã xảy ra nhằm ngăn cùng vấn đề tái diễn.",
       "content": [
         {
           "type": "heading",
@@ -1210,13 +1350,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。テストの結果、意図した機能や性能が満たされていない場合、是正処置が必要となる。例えば、ソフトウェアのバグが発見された際には、そのバグを修正するためのプログラムの変更を行ったり、テスト環境の改善を図ったりすることが含まれる。したがって、是正処置を講じることで、製品やサービスの品質を向上させることが可能になる。このプロセスは、継続的な改善の一環としても重要であり、組織全体のパフォーマンス向上に寄与する。",
-          "vi": "Hành động khắc phục không chỉ sửa lỗi hiện tại mà còn hướng tới ngăn lỗi tương tự tái diễn. Có thể gồm sửa quy trình, bổ sung kiểm tra hoặc thay đổi cách quản lý; sau đó phải xác nhận biện pháp có hiệu quả."
+          "ja": "是正処置では、不適合を記録して影響を抑え、根本原因を分析し、その原因を除去する対策を計画・実施する。さらに、類似箇所への水平展開、回帰テスト、一定期間の監視などで有効性を確認し、必要なら手順や教育を更新する。検出した不具合そのものを直す修正とは異なり、是正処置の中心は原因を除去して再発を防ぐことである。",
+          "vi": "Hành động khắc phục ghi nhận sự không phù hợp, hạn chế ảnh hưởng, phân tích nguyên nhân gốc rồi lập kế hoạch và thực hiện biện pháp loại bỏ nguyên nhân. Sau đó kiểm tra hiệu lực bằng áp dụng sang vị trí tương tự, kiểm thử hồi quy, theo dõi trong một thời gian và cập nhật quy trình, đào tạo nếu cần. Khác với sửa chính lỗi được phát hiện, trọng tâm của hành động khắc phục là loại bỏ nguyên nhân để ngăn tái diễn."
         },
         {
           "type": "point",
-          "ja": "是正処置の目的・特徴・利用場面を押さえる。",
-          "vi": "是正処置 khác với sửa nhanh một lỗi đơn lẻ."
+          "ja": "FEでは、修正は検出した不適合を除く行為、是正処置は原因を除去して再発を防ぐ行為と区別し、実施後の有効性確認まで含めて理解する。",
+          "vi": "Trong FE, phân biệt sửa chữa là loại bỏ sự không phù hợp được phát hiện, còn hành động khắc phục loại bỏ nguyên nhân để ngăn tái diễn và bao gồm cả xác nhận hiệu lực sau thực hiện."
+        },
+        {
+          "type": "example",
+          "ja": "入力検査漏れで障害が発生した場合、データを直すだけでなく、共通入力検査を実装し、レビューのチェック項目を追加し、類似画面を調査して回帰テストする。効果を確認して是正処置を完了する。",
+          "vi": "Nếu sự cố do thiếu kiểm tra đầu vào, không chỉ sửa dữ liệu mà còn triển khai kiểm tra đầu vào dùng chung, thêm mục vào checklist review, khảo sát màn hình tương tự và kiểm thử hồi quy. Chỉ đóng hành động khắc phục sau khi xác nhận hiệu lực."
+        },
+        {
+          "type": "warning",
+          "ja": "バグを修正しただけで是正処置完了としない。原因が残れば同種の不具合が再発するため、対策が原因に作用した証拠を確認する。",
+          "vi": "Không coi việc sửa bug là hoàn tất hành động khắc phục. Nếu nguyên nhân còn tồn tại, lỗi tương tự sẽ tái diễn; cần có bằng chứng biện pháp đã tác động đúng nguyên nhân."
         }
       ],
       "terms": [
@@ -1224,8 +1374,8 @@
           "term": "是正処置",
           "english": "Corrective Action",
           "vi": "Hành động khắc phục",
-          "definitionJa": "妥当性確認テストの結果に基づき、問題や欠陥を修正するために実施される具体的な対応策のことを指す。テストの結果、意図した機能や性能が満たされていない場合、是正処置が必要となる。例えば、ソフトウェアのバグが発見された際には、そのバグを修正するためのプログラムの変更を行ったり、テスト環境の改善を図ったりすることが含まれる。したがって、是正処置を講じることで、製品やサービスの品質を向上させることが可能になる。このプロセスは、継続的な改善の一環としても重要であり、組織全体のパフォーマンス向上に寄与する。",
-          "definitionVi": "Biện pháp xử lý nhằm loại bỏ nguyên nhân của sự không phù hợp đã xảy ra.",
+            "definitionJa": "発生した不適合の原因を除去して再発を防ぎ、実施後に有効性を確認する処置。",
+            "definitionVi": "Hành động loại bỏ nguyên nhân của sự không phù hợp đã xảy ra để ngăn tái diễn và xác nhận hiệu lực sau khi thực hiện.",
           "reading": "ぜせいしょち"
         }
       ],
@@ -1241,8 +1391,8 @@
       "titleJa": "欠陥修正",
       "titleVi": "Sửa lỗi",
       "importance": "high",
-      "summaryJa": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。",
-      "summaryVi": "Sửa các khiếm khuyết đã phát hiện trong hệ thống.",
+      "summaryJa": "発見した欠陥を変更管理の下で修正し、再テストによって解消を確認する活動である。",
+      "summaryVi": "Là hoạt động sửa khiếm khuyết đã phát hiện dưới kiểm soát thay đổi và xác nhận đã khắc phục bằng kiểm thử lại.",
       "content": [
         {
           "type": "heading",
@@ -1251,13 +1401,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。このプロセスは、妥当性確認テストの結果に基づいて行われ、開発した製品が仕様通りに機能するかを確認する一環である。例えば、テスト中に特定の機能が正常に動作しないといった問題が発見された場合、その原因を特定し、修正を行い再度テストする流れとなる。品質向上や納品後のトラブルを避けるためにも重要なステップであり、ソフトウェア開発のライフサイクルにおいて繰り返し行われる活動である。こうした取り組みにより、最終的な製品の信頼性とユーザーの満足度が高まる。",
-          "vi": "Sửa lỗi thường bao gồm tái hiện lỗi, xác định vị trí, sửa mã hoặc cấu hình, rồi kiểm thử lại để bảo đảm lỗi biến mất và không gây lỗi mới. Cần lưu lại lịch sử thay đổi để có thể truy vết."
+          "ja": "欠陥修正では、現象と再現条件を記録し、原因と影響範囲を分析して、承認された変更としてコード、設定、データ又は文書を修正する。修正対象のテストを再実行して欠陥が解消したことを確認し、影響を受ける既存機能には回帰テストを行う。欠陥票、変更内容、構成品目の版、テスト結果を関連付け、修正の状態を完了まで追跡する。",
+          "vi": "Khi sửa khiếm khuyết, ghi hiện tượng và điều kiện tái hiện, phân tích nguyên nhân, phạm vi ảnh hưởng rồi sửa mã, cấu hình, dữ liệu hoặc tài liệu dưới dạng thay đổi được phê duyệt. Chạy lại kiểm thử liên quan để xác nhận lỗi hết và kiểm thử hồi quy các chức năng cũ bị ảnh hưởng. Liên kết phiếu lỗi, nội dung thay đổi, phiên bản cấu hình và kết quả kiểm thử, theo dõi đến khi đóng."
         },
         {
           "type": "point",
-          "ja": "欠陥修正の目的・特徴・利用場面を押さえる。",
-          "vi": "Sửa lỗi xong cần kiểm thử lại và kiểm thử hồi quy khi cần."
+          "ja": "再テストは修正した欠陥が解消したか、回帰テストは修正が既存機能を壊していないかを確認する。両者の目的を区別する。",
+          "vi": "Kiểm thử lại xác nhận lỗi đã sửa biến mất; kiểm thử hồi quy xác nhận thay đổi không làm hỏng chức năng hiện có. Cần phân biệt hai mục đích."
+        },
+        {
+          "type": "example",
+          "ja": "割引計算の端数誤りを修正した後、問題を再現した境界値ケースを再実行し、さらに通常価格、複数税率、返品処理の回帰テストを行って関連機能への影響を確認する。",
+          "vi": "Sau khi sửa lỗi làm tròn khi tính giảm giá, chạy lại ca giá trị biên đã tái hiện lỗi, đồng thời hồi quy giá thường, nhiều mức thuế và xử lý trả hàng để xác nhận không ảnh hưởng chức năng liên quan."
+        },
+        {
+          "type": "warning",
+          "ja": "修正箇所だけを確認して完了にしない。共通部品やデータ形式を変更した場合は影響範囲が広いため、リスクに応じて回帰テスト範囲を決める。",
+          "vi": "Không chỉ kiểm tra vị trí sửa rồi đóng lỗi. Khi thay đổi thành phần dùng chung hoặc định dạng dữ liệu, phạm vi ảnh hưởng rộng nên phải chọn phạm vi hồi quy theo rủi ro."
         }
       ],
       "terms": [
@@ -1265,8 +1425,8 @@
           "term": "欠陥修正",
           "english": "Defect Correction",
           "vi": "Sửa lỗi",
-          "definitionJa": "ソフトウェアやシステムにおいて、発見された不具合やエラーを修正するプロセスを指す。このプロセスは、妥当性確認テストの結果に基づいて行われ、開発した製品が仕様通りに機能するかを確認する一環である。例えば、テスト中に特定の機能が正常に動作しないといった問題が発見された場合、その原因を特定し、修正を行い再度テストする流れとなる。品質向上や納品後のトラブルを避けるためにも重要なステップであり、ソフトウェア開発のライフサイクルにおいて繰り返し行われる活動である。こうした取り組みにより、最終的な製品の信頼性とユーザーの満足度が高まる。",
-          "definitionVi": "Hoạt động chỉnh sửa những lỗi hoặc khiếm khuyết được phát hiện trong phần mềm.",
+            "definitionJa": "発見した欠陥を変更管理の下で修正し、再テストと必要な回帰テストによって解消と影響を確認する活動。",
+            "definitionVi": "Hoạt động sửa khiếm khuyết dưới kiểm soát thay đổi, rồi dùng kiểm thử lại và hồi quy cần thiết để xác nhận đã khắc phục và kiểm tra ảnh hưởng.",
           "reading": "けっかんしゅうせい"
         }
       ],
@@ -1364,8 +1524,8 @@
       "titleJa": "双方向の追跡可能性",
       "titleVi": "Khả năng truy vết hai chiều",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。",
-      "summaryVi": "Liên kết yêu cầu với thiết kế, triển khai và kiểm thử theo hai hướng.",
+      "summaryJa": "妥当性確認の対象要求とテスト手順・結果・問題解決を、両方向にたどれる状態である。",
+      "summaryVi": "Là trạng thái có thể truy hai chiều giữa yêu cầu cần validation với thủ tục, kết quả kiểm thử và việc giải quyết vấn đề.",
       "content": [
         {
           "type": "heading",
@@ -1374,13 +1534,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "vi": "Từ một yêu cầu có thể truy ra chức năng và ca kiểm thử chứng minh nó được đáp ứng; ngược lại, từ một ca kiểm thử có thể tìm về yêu cầu gốc. Ma trận truy vết giúp kiểm soát thay đổi và phát hiện phần bị bỏ sót."
+          "ja": "妥当性確認では、対象要求からテスト目的、成功基準、手順、実行結果へ追跡し、全ての要求が確認されたかを調べる。逆に、各結果や問題記録から根拠要求へ追跡し、なぜそのテストや修正が必要かを確認する。不合格結果は欠陥票、修正、再テスト結果まで結び、未確認要求や未解決問題を残さない。",
+          "vi": "Trong validation, truy từ yêu cầu đến mục tiêu kiểm thử, tiêu chí thành công, thủ tục và kết quả để biết mọi yêu cầu đã được xác nhận chưa. Theo chiều ngược, truy từ từng kết quả hoặc vấn đề về yêu cầu gốc để biết vì sao cần kiểm thử hay sửa. Kết quả không đạt phải nối với phiếu lỗi, bản sửa và kết quả kiểm thử lại để không bỏ sót yêu cầu chưa xác nhận hoặc vấn đề chưa giải quyết."
         },
         {
           "type": "point",
-          "ja": "双方向の追跡可能性の目的・特徴・利用場面を押さえる。",
-          "vi": "Hai chiều là xuôi từ yêu cầu và ngược về yêu cầu."
+          "ja": "妥当性確認の完了判定では、要求→結果の網羅性と、結果・問題→要求の正当性を両方確認する。単なる文書間リンクではなく状態も最新に保つ。",
+          "vi": "Khi quyết định validation hoàn tất, kiểm tra cả độ bao phủ từ yêu cầu đến kết quả và căn cứ từ kết quả, vấn đề về yêu cầu. Không chỉ tạo liên kết tài liệu mà phải giữ trạng thái luôn mới."
+        },
+        {
+          "type": "example",
+          "ja": "要求VAL-07を成功基準SC-07、手順VP-07、結果VR-07へ関連付ける。VR-07が不合格なら問題PR-12、修正版、再テストVR-07Rまでリンクし、解決済みを確認する。",
+          "vi": "Liên kết yêu cầu VAL-07 với tiêu chí SC-07, thủ tục VP-07 và kết quả VR-07. Nếu VR-07 không đạt, nối tiếp với vấn đề PR-12, phiên bản sửa và kết quả chạy lại VR-07R để xác nhận đã giải quyết."
+        },
+        {
+          "type": "warning",
+          "ja": "合格したテストだけを追跡対象にすると、不合格結果や未解決問題が完了判定から漏れる。問題の処置と再テストまで追跡する。",
+          "vi": "Nếu chỉ truy vết kiểm thử đạt, kết quả không đạt và vấn đề chưa xử lý có thể bị bỏ khỏi quyết định hoàn tất. Phải truy đến biện pháp xử lý và kiểm thử lại."
         }
       ],
       "terms": [
@@ -1388,8 +1558,8 @@
           "term": "双方向の追跡可能性",
           "english": "Bidirectional Traceability",
           "vi": "Khả năng truy vết hai chiều",
-          "definitionJa": "システムやソフトウェアの開発において、要件とその実装の相互関係を明確に示すことを指す。これは、要件が適切に実装されているかどうか、また、実装が要件を満たしているかを確認できる仕組みを提供する。例えば、特定の要件に対するテストケースを作成し、そのテストが実施されることで要件の確認が行える。一方で、実装の変更が要件に与える影響を把握することも重要であり、そのために文書やツールを使って要件と実装をリンクさせる。この双方向の追跡可能性により、プロジェクト全体の品質向上やリスク管理が支援され、納入物の受入れがスムーズになる。",
-          "definitionVi": "Khả năng truy ngược và truy xuôi giữa yêu cầu và các kết quả phát triển.",
+            "definitionJa": "妥当性確認対象の要求からテスト手順・結果・問題解決へ、及び各記録から根拠要求へ両方向にたどれる性質。",
+            "definitionVi": "Khả năng truy hai chiều từ yêu cầu cần validation đến thủ tục, kết quả, giải quyết vấn đề và từ từng bản ghi về yêu cầu gốc.",
           "reading": "そうほうこうのついせきかのうせい"
         }
       ],
@@ -1405,8 +1575,8 @@
       "titleJa": "使用性テスト",
       "titleVi": "Kiểm thử tính dễ sử dụng",
       "importance": "high",
-      "summaryJa": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。",
-      "summaryVi": "Đánh giá mức độ dễ hiểu và dễ thao tác của sản phẩm đối với người dùng.",
+      "summaryJa": "代表的な利用者が課題を遂行する様子から、有効さ、効率、満足度などの使用性を評価するテストである。",
+      "summaryVi": "Là kiểm thử đánh giá tính hiệu quả, hiệu suất, mức hài lòng và các khía cạnh khả dụng qua việc người dùng đại diện thực hiện tác vụ.",
       "content": [
         {
           "type": "heading",
@@ -1415,13 +1585,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。このテストは、ユーザーが実際に製品を使用している姿を観察し、その際に出てくる問題点や改善点を明らかにすることが目的である。例えば、Webサイトやアプリケーションのデザインが直感的であるかどうか、操作にかかる時間、誤操作の頻度などが評価の対象となる。使用性テストの結果に基づいて、ユーザーエクスペリエンスを向上させるための改良が提案される。このように、使用性テストはユーザー中心のデザインプロセスを推進するための重要なステップであり、実際の利用者の意見を反映した製品づくりに寄与する。",
-          "vi": "Kiểm thử tính dễ sử dụng quan sát người dùng thực hiện tác vụ, ghi nhận thời gian, lỗi thao tác, mức độ hoàn thành và phản hồi. Mục tiêu là phát hiện điểm gây nhầm lẫn trong giao diện và cải thiện trải nghiệm."
+          "ja": "使用性テストでは、対象利用者を代表する参加者に、説明を与え過ぎず実際的な課題を実行してもらう。課題完了率、所要時間、誤操作、支援要求、満足度を記録し、観察や発話から迷いの原因を分析する。機能が正しいかだけでなく、指定した利用状況で利用者が目的を達成できるかを評価し、設計改善後は同じ指標で再確認する。",
+          "vi": "Trong kiểm thử khả dụng, người tham gia đại diện nhóm người dùng thực hiện tác vụ thực tế mà không được hướng dẫn quá mức. Ghi tỷ lệ hoàn thành, thời gian, thao tác sai, nhu cầu hỗ trợ và mức hài lòng; dùng quan sát, phát ngôn để tìm nguyên nhân gây bối rối. Không chỉ kiểm tra chức năng đúng mà đánh giá người dùng có đạt mục tiêu trong bối cảnh sử dụng xác định hay không, rồi đo lại bằng cùng chỉ số sau cải tiến."
         },
         {
           "type": "point",
-          "ja": "使用性テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Đánh giá khả năng sử dụng, không chỉ kiểm tra chức năng chạy đúng."
+          "ja": "使用性は利用者、目的、利用状況に依存する。開発者だけで評価せず、代表利用者と現実的な課題、測定指標を用いる。",
+          "vi": "Khả dụng phụ thuộc người dùng, mục tiêu và bối cảnh sử dụng. Không chỉ để nhà phát triển tự đánh giá; cần người dùng đại diện, tác vụ thực tế và chỉ số đo."
+        },
+        {
+          "type": "example",
+          "ja": "初めて使う窓口担当者8人に「顧客を検索して住所を変更する」課題を行ってもらい、完了率、所要時間、入力誤り、支援回数を測り、迷った画面遷移を観察する。",
+          "vi": "Cho 8 nhân viên quầy lần đầu sử dụng thực hiện tác vụ “tìm khách hàng và đổi địa chỉ”, đo tỷ lệ hoàn thành, thời gian, lỗi nhập, số lần cần trợ giúp và quan sát luồng màn hình gây bối rối."
+        },
+        {
+          "type": "warning",
+          "ja": "利用者に操作方法を逐一教えると、本来の分かりにくさが隠れる。また、参加者が対象利用者を代表しなければ、結果を実利用者へ一般化しにくい。",
+          "vi": "Nếu hướng dẫn từng thao tác, điểm khó hiểu thật sự sẽ bị che khuất. Nếu người tham gia không đại diện nhóm mục tiêu, khó khái quát kết quả cho người dùng thực tế."
         }
       ],
       "terms": [
@@ -1429,8 +1609,8 @@
           "term": "使用性テスト",
           "english": "Usability Testing",
           "vi": "Kiểm thử tính dễ sử dụng",
-          "definitionJa": "製品やシステムがユーザーにとってどれだけ使いやすいかを評価するための手法である。このテストは、ユーザーが実際に製品を使用している姿を観察し、その際に出てくる問題点や改善点を明らかにすることが目的である。例えば、Webサイトやアプリケーションのデザインが直感的であるかどうか、操作にかかる時間、誤操作の頻度などが評価の対象となる。使用性テストの結果に基づいて、ユーザーエクスペリエンスを向上させるための改良が提案される。このように、使用性テストはユーザー中心のデザインプロセスを推進するための重要なステップであり、実際の利用者の意見を反映した製品づくりに寄与する。",
-          "definitionVi": "Phương pháp đánh giá mức độ dễ sử dụng của sản phẩm hoặc hệ thống.",
+            "definitionJa": "代表利用者が現実的な課題を遂行する様子と測定値から、指定した利用状況における使用性を評価するテスト。",
+            "definitionVi": "Kiểm thử đánh giá khả dụng trong bối cảnh xác định qua quan sát và chỉ số khi người dùng đại diện thực hiện tác vụ thực tế.",
           "reading": "しようせいてすと"
         }
       ],
@@ -1446,8 +1626,8 @@
       "titleJa": "ベータテスト",
       "titleVi": "Kiểm thử Beta",
       "importance": "high",
-      "summaryJa": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。",
-      "summaryVi": "Cho nhóm người dùng thử phiên bản gần hoàn thiện trước phát hành chính thức.",
+      "summaryJa": "正式リリース前の製品を外部の代表利用者に実環境で試用してもらい、フィードバックを得るテストである。",
+      "summaryVi": "Là kiểm thử cho người dùng đại diện bên ngoài dùng thử sản phẩm trước phát hành chính thức trong môi trường thực để thu phản hồi.",
       "content": [
         {
           "type": "heading",
@@ -1456,13 +1636,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。一般的に、ベータテストは製品をリリースする前に特定のユーザーや顧客に対して行われ、実際の使用場面での問題点や改善点を明らかにすることを目的としている。例えば、新しいアプリのユーザーに試用してもらい、バグや使い勝手についてのフィードバックを受け取ることが挙げられる。このプロセスを通じて得られた情報は、製品の品質を向上させたり、ユーザーのニーズにより合致したものにするために非常に重要である。ベータテストの結果を踏まえて、開発チームは必要に応じて修正を行い、正式に製品をリリースすることが一般的である。",
-          "vi": "Beta test đưa sản phẩm cho người dùng thực tế hoặc nhóm thử nghiệm bên ngoài sử dụng nhằm thu thập phản hồi và phát hiện lỗi chưa thấy trong nội bộ. Kết quả giúp quyết định các điều chỉnh trước khi phát hành rộng rãi."
+          "ja": "ベータテストは、開発組織外の限定した利用者に、リリース候補版を利用者側の実環境で試用してもらうフィールドテストである。多様な端末、ネットワーク、利用方法で発生する欠陥、互換性、使用性の問題を収集し、正式リリースの判断と改善に用いる。対象者、期間、フィードバック方法、既知の制約、データ取扱い、サポート範囲を事前に定める。",
+          "vi": "Beta test là kiểm thử thực địa, cung cấp bản ứng viên phát hành cho nhóm người dùng hạn chế ngoài tổ chức phát triển dùng trong môi trường của họ. Thu thập lỗi, vấn đề tương thích và khả dụng phát sinh trên nhiều thiết bị, mạng, cách dùng để cải tiến và quyết định phát hành chính thức. Cần xác định trước đối tượng, thời gian, cách phản hồi, hạn chế đã biết, xử lý dữ liệu và phạm vi hỗ trợ."
         },
         {
           "type": "point",
-          "ja": "ベータテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Beta test không đồng nghĩa với vận hành chính thức."
+          "ja": "一般にアルファテストは開発組織側の管理環境、ベータテストは外部利用者の実環境で行う。ベータ版は正式版ではない。",
+          "vi": "Thông thường alpha test diễn ra trong môi trường do tổ chức phát triển kiểm soát, còn beta test ở môi trường thực của người dùng bên ngoài. Bản beta không phải bản chính thức."
+        },
+        {
+          "type": "example",
+          "ja": "新しいモバイルアプリを登録した500人へ4週間配布し、端末・OS版とともにクラッシュログ、不具合報告、操作上の意見を収集してリリース可否を判断する。",
+          "vi": "Phân phối ứng dụng di động mới cho 500 người đăng ký trong 4 tuần, thu crash log, báo lỗi và ý kiến thao tác kèm thiết bị, phiên bản hệ điều hành để quyết định phát hành."
+        },
+        {
+          "type": "warning",
+          "ja": "ベータ利用者に正式サービスと同じ品質を暗黙に期待させない。未完成であること、既知のリスク、問い合わせ先、データの扱いを明示する。",
+          "vi": "Không để người dùng beta ngầm kỳ vọng chất lượng như dịch vụ chính thức. Phải nêu rõ sản phẩm chưa hoàn thiện, rủi ro đã biết, đầu mối hỗ trợ và cách xử lý dữ liệu."
         }
       ],
       "terms": [
@@ -1470,8 +1660,9 @@
           "term": "ベータテスト",
           "english": "Beta Test",
           "vi": "Kiểm thử Beta",
-          "definitionJa": "ソフトウェアや製品の開発プロセスにおいて、本番環境でユーザーが実際に使用するための最終チェック段階を指す。一般的に、ベータテストは製品をリリースする前に特定のユーザーや顧客に対して行われ、実際の使用場面での問題点や改善点を明らかにすることを目的としている。例えば、新しいアプリのユーザーに試用してもらい、バグや使い勝手についてのフィードバックを受け取ることが挙げられる。このプロセスを通じて得られた情報は、製品の品質を向上させたり、ユーザーのニーズにより合致したものにするために非常に重要である。ベータテストの結果を踏まえて、開発チームは必要に応じて修正を行い、正式に製品をリリースすることが一般的である。",
-          "definitionVi": "Giai đoạn thử nghiệm phiên bản gần hoàn thiện với nhóm người dùng trước khi phát hành."
+            "definitionJa": "正式リリース前の製品を限定した外部利用者に実環境で試用してもらい、欠陥や改善情報を収集するテスト。",
+            "definitionVi": "Kiểm thử cho nhóm người dùng bên ngoài hạn chế dùng sản phẩm trước phát hành trong môi trường thực để thu thập lỗi và thông tin cải tiến.",
+            "reading": "べーたてすと"
         }
       ],
       "tags": [
@@ -1486,8 +1677,8 @@
       "titleJa": "運用操作テスト",
       "titleVi": "Kiểm thử vận hành",
       "importance": "high",
-      "summaryJa": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。",
-      "summaryVi": "Kiểm tra hệ thống có thể được vận hành đúng trong điều kiện thực tế.",
+      "summaryJa": "運用部門が、本番相当環境で日常運用と障害時の操作を安全に実行できるか確認するテストである。",
+      "summaryVi": "Là kiểm thử do bộ phận vận hành thực hiện để xác nhận có thể thao tác vận hành thường ngày và khi sự cố an toàn trong môi trường tương đương thực tế.",
       "content": [
         {
           "type": "heading",
@@ -1496,13 +1687,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。このテストは、ソフトウェアがユーザーのニーズに応えられるかどうかを評価し、運用開始前に問題を発見することを目的とする。具体的には、システムの使用状況やデータ処理能力、ユーザーインターフェースの使いやすさなどを確認し、実際の業務プロセスにおける挙動を模擬する。運用操作テストを行うことで、システムの信頼性や安定性が保証され、導入後のトラブルを未然に防ぐことが可能になる。これは、特に重要な業務を支えるシステムにおいて、改善点を見つけるために欠かせないステップである。",
-          "vi": "Kiểm thử vận hành đánh giá thao tác khởi động, dừng, sao lưu, phục hồi, giám sát và xử lý sự cố theo quy trình. Mục đích là xác nhận đội vận hành có thể quản lý hệ thống an toàn, không chỉ xác nhận chức năng nghiệp vụ."
+          "ja": "運用操作テストでは、運用担当者が運用手順書に従い、起動・停止、監視、ジョブ実行、バックアップ・リストア、アカウント管理、障害検知、切替え、連絡・エスカレーションを実施する。権限、設備、監視通知、所要時間、記録様式を本番相当にし、手順と体制が実行可能かを確認する。結果に基づいて運用手順書や教育内容も更新する。",
+          "vi": "Trong kiểm thử thao tác vận hành, nhân viên vận hành theo hướng dẫn để khởi động, dừng, giám sát, chạy job, sao lưu, khôi phục, quản lý tài khoản, phát hiện sự cố, chuyển đổi và liên lạc, escalation. Dùng quyền, thiết bị, cảnh báo giám sát, thời gian và biểu mẫu ghi nhận tương đương thực tế để xác nhận quy trình và cơ cấu có thể thực hiện. Kết quả còn dùng cập nhật tài liệu vận hành và đào tạo."
         },
         {
           "type": "point",
-          "ja": "運用操作テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Chú ý các thao tác bảo trì, phục hồi và xử lý sự cố."
+          "ja": "業務機能を使えるかではなく、運用部門がシステムを維持・復旧できるかを確認する。特にバックアップ取得だけでなくリストアまで試す。",
+          "vi": "Không chỉ kiểm tra dùng được chức năng nghiệp vụ mà xác nhận bộ phận vận hành có thể duy trì và khôi phục hệ thống. Đặc biệt phải thử cả restore, không chỉ tạo backup."
+        },
+        {
+          "type": "example",
+          "ja": "データベース障害を模擬し、監視通知の受信、一次切分け、待機系への切替え、関係者連絡、バックアップからの復元、業務再開判定までを当番者が手順書で実施する。",
+          "vi": "Mô phỏng lỗi cơ sở dữ liệu; nhân viên trực theo tài liệu thực hiện nhận cảnh báo, phân loại ban đầu, chuyển sang hệ dự phòng, liên lạc, khôi phục từ backup và quyết định mở lại nghiệp vụ."
+        },
+        {
+          "type": "warning",
+          "ja": "正常時の起動・停止だけでは運用可能性を十分に確認できない。異常時の権限、連絡、切戻し、復旧時間もテストする。",
+          "vi": "Chỉ thử khởi động, dừng bình thường chưa đủ xác nhận khả năng vận hành. Cần thử cả quyền, liên lạc, quay lui và thời gian phục hồi khi bất thường."
         }
       ],
       "terms": [
@@ -1510,8 +1711,8 @@
           "term": "運用操作テスト",
           "english": "Operational Testing",
           "vi": "Kiểm thử vận hành",
-          "definitionJa": "システムやアプリケーションが実際の運用環境で期待通りに機能するかを確認するための手法である。このテストは、ソフトウェアがユーザーのニーズに応えられるかどうかを評価し、運用開始前に問題を発見することを目的とする。具体的には、システムの使用状況やデータ処理能力、ユーザーインターフェースの使いやすさなどを確認し、実際の業務プロセスにおける挙動を模擬する。運用操作テストを行うことで、システムの信頼性や安定性が保証され、導入後のトラブルを未然に防ぐことが可能になる。これは、特に重要な業務を支えるシステムにおいて、改善点を見つけるために欠かせないステップである。",
-          "definitionVi": "Kiểm thử các thao tác và điều kiện phục vụ vận hành hệ thống.",
+            "definitionJa": "運用部門が本番相当環境で、通常運用、監視、保守、バックアップ・復旧、障害対応を手順どおり実行できるか確認するテスト。",
+            "definitionVi": "Kiểm thử xác nhận bộ phận vận hành có thể thực hiện đúng quy trình vận hành thường ngày, giám sát, bảo trì, sao lưu, khôi phục và ứng phó sự cố trong môi trường tương đương thực tế.",
           "reading": "うんようそうさてすと"
         }
       ],
@@ -1527,8 +1728,8 @@
       "titleJa": "利用者テスト",
       "titleVi": "Kiểm thử người dùng",
       "importance": "high",
-      "summaryJa": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。",
-      "summaryVi": "Để người dùng thực tế kiểm tra sản phẩm theo nhu cầu sử dụng.",
+      "summaryJa": "代表的な実利用者が業務課題を実行し、機能と運用が利用者ニーズに適合するか確認するテストである。",
+      "summaryVi": "Là kiểm thử trong đó người dùng thực tế đại diện thực hiện tác vụ nghiệp vụ để xác nhận chức năng và vận hành phù hợp nhu cầu.",
       "content": [
         {
           "type": "heading",
@@ -1537,13 +1738,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。このテストは、ユーザビリティの向上を目指し、実際のユーザーが行動や反応を示すことによって製品の使いやすさや機能の妥当性を評価する。例えば、Webサイトやアプリケーションの利用者テストを通じて、ナビゲーションや情報の見つけやすさに関する問題点を特定し、改善点を見出すことができる。利用者テストは製品開発の初期段階から実施することができ、テスト結果を基に設計や機能の調整を行うことで、より使いやすい製品を提供することが可能となる。",
-          "vi": "Kiểm thử người dùng thu thập kết quả khi người dùng thực hiện những tác vụ tiêu biểu. Qua đó có thể phát hiện sai lệch với quy trình nghiệp vụ, khó khăn trong thao tác và yêu cầu chưa được đáp ứng."
+          "ja": "利用者テストでは、職種、経験、利用環境を代表する利用者が、実際の業務シナリオとデータに近い条件で操作する。期待した業務結果、例外処理、帳票、用語、操作手順がニーズに合うかを確認し、観察結果と利用者の意見を記録する。使用性だけに限定せず、業務機能の妥当性や運用上の問題も対象にできる。",
+          "vi": "Trong kiểm thử người dùng, người đại diện theo nghề nghiệp, kinh nghiệm và môi trường sử dụng thao tác với kịch bản, dữ liệu gần nghiệp vụ thật. Xác nhận kết quả nghiệp vụ, xử lý ngoại lệ, báo cáo, thuật ngữ và quy trình thao tác phù hợp nhu cầu, ghi cả quan sát và ý kiến. Phạm vi không chỉ khả dụng mà có thể gồm tính phù hợp chức năng nghiệp vụ và vấn đề vận hành."
         },
         {
           "type": "point",
-          "ja": "利用者テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Người dùng thực tế có thể phát hiện vấn đề mà nhóm phát triển bỏ sót."
+          "ja": "利用者テストは参加者の代表性が重要である。開発者が利用者役を代行すると、業務知識や操作習慣の違いによる問題を見落としやすい。",
+          "vi": "Tính đại diện của người tham gia rất quan trọng. Nếu nhà phát triển đóng vai người dùng, dễ bỏ sót vấn đề do khác biệt kiến thức nghiệp vụ và thói quen thao tác."
+        },
+        {
+          "type": "example",
+          "ja": "新人と熟練者を含む受注担当者が、見積作成、承認、受注登録、取消しまでを実行し、業務規則、権限、帳票、例外時の案内が実務に合うか確認する。",
+          "vi": "Nhân viên xử lý đơn gồm cả người mới và người có kinh nghiệm thực hiện lập báo giá, phê duyệt, đăng ký và hủy đơn, xác nhận quy tắc, quyền, báo cáo và hướng dẫn khi ngoại lệ phù hợp thực tế."
+        },
+        {
+          "type": "warning",
+          "ja": "一部門の熟練者だけで実施すると、新人、低頻度利用者、別拠点の要件を見落とすことがある。対象利用者群を分析して参加者を選ぶ。",
+          "vi": "Nếu chỉ thử với chuyên gia của một bộ phận, có thể bỏ sót nhu cầu của người mới, người ít dùng hoặc chi nhánh khác. Phải phân tích nhóm người dùng mục tiêu để chọn người tham gia."
         }
       ],
       "terms": [
@@ -1551,8 +1762,8 @@
           "term": "利用者テスト",
           "english": "User Testing",
           "vi": "Kiểm thử người dùng",
-          "definitionJa": "製品やサービスが実際の利用者によってどのように使用されるかを確認するための手法である。このテストは、ユーザビリティの向上を目指し、実際のユーザーが行動や反応を示すことによって製品の使いやすさや機能の妥当性を評価する。例えば、Webサイトやアプリケーションの利用者テストを通じて、ナビゲーションや情報の見つけやすさに関する問題点を特定し、改善点を見出すことができる。利用者テストは製品開発の初期段階から実施することができ、テスト結果を基に設計や機能の調整を行うことで、より使いやすい製品を提供することが可能となる。",
-          "definitionVi": "Hoạt động kiểm thử có sự tham gia của người sử dụng thực tế.",
+            "definitionJa": "代表的な実利用者が現実的な業務課題を実行し、機能、使用性、運用が利用者ニーズに適合するか確認するテスト。",
+            "definitionVi": "Kiểm thử để người dùng thực tế đại diện thực hiện nghiệp vụ gần thực tế nhằm xác nhận chức năng, khả dụng và vận hành phù hợp nhu cầu.",
           "reading": "りようしゃてすと"
         }
       ],
@@ -1568,8 +1779,8 @@
       "titleJa": "受入れテスト",
       "titleVi": "Kiểm thử nghiệm thu",
       "importance": "high",
-      "summaryJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。",
-      "summaryVi": "Xác nhận hệ thống đáp ứng điều kiện tiếp nhận trước khi chấp thuận.",
+      "summaryJa": "取得者が業務ニーズと受入れ基準に照らしてシステムを評価し、受入れ可否を判断するテストである。",
+      "summaryVi": "Là kiểm thử trong đó bên mua đánh giá hệ thống theo nhu cầu nghiệp vụ và tiêu chí tiếp nhận để quyết định có chấp nhận hay không.",
       "content": [
         {
           "type": "heading",
@@ -1578,13 +1789,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "vi": "Trong kiểm thử nghiệm thu, đại diện khách hàng chạy các kịch bản đã thống nhất và so sánh kết quả với tiêu chí nghiệm thu. Các lỗi không đạt cần được ghi nhận, xử lý và kiểm tra lại trước khi đưa ra quyết định chấp nhận."
+          "ja": "受入れテストは、取得者又は権限を与えられた利用者が、利用者ニーズ、要求、業務プロセスに基づいて正式に行う。合意済みの受入れ基準とテストケースを用い、実行結果、証跡、不具合、未解決リスクを記録して受入れ判断へ提供する。供給者は環境や調査を支援するが、合否と受入れ可否の責任は取得者側にある。",
+          "vi": "Kiểm thử tiếp nhận do bên mua hoặc người dùng được ủy quyền thực hiện chính thức dựa trên nhu cầu, yêu cầu và quy trình nghiệp vụ. Dùng tiêu chí, ca kiểm thử đã thống nhất; ghi kết quả, bằng chứng, lỗi và rủi ro chưa giải quyết để phục vụ quyết định tiếp nhận. Nhà cung cấp hỗ trợ môi trường và điều tra, nhưng trách nhiệm quyết định đạt và tiếp nhận thuộc phía bên mua."
         },
         {
           "type": "point",
-          "ja": "受入れテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Kiểm thử nghiệm thu là cơ sở cho quyết định chấp nhận sản phẩm."
+          "ja": "受入れテストは受入れ判断の証拠を提供するが、契約上の納品物全体を確認する検収そのものではない。主体と目的を開発テストから区別する。",
+          "vi": "Kiểm thử tiếp nhận cung cấp bằng chứng cho quyết định nhận nhưng không đồng nhất với nghiệm thu toàn bộ sản phẩm theo hợp đồng. Cần phân biệt chủ thể, mục tiêu với kiểm thử phát triển."
+        },
+        {
+          "type": "example",
+          "ja": "利用部門が、受注から請求までの業務シナリオ、権限制御、月末帳票、応答時間を承認済み基準でテストし、不合格項目の修正・再テスト後に受入れ責任者へ結果を報告する。",
+          "vi": "Bộ phận sử dụng kiểm thử kịch bản từ nhận đơn đến lập hóa đơn, kiểm soát quyền, báo cáo cuối tháng và thời gian đáp ứng theo tiêu chí đã duyệt; sau khi sửa, chạy lại mục không đạt rồi báo cáo người chịu trách nhiệm tiếp nhận."
+        },
+        {
+          "type": "warning",
+          "ja": "全テスト合格を必ず要求するとは限らないが、未解決不具合を黙って受け入れてはならない。影響、回避策、期限、責任者を評価し、承認を記録する。",
+          "vi": "Không nhất thiết mọi dự án đều yêu cầu tất cả ca đạt, nhưng không được âm thầm chấp nhận lỗi còn tồn. Phải đánh giá ảnh hưởng, cách né, thời hạn, người chịu trách nhiệm và ghi phê duyệt."
         }
       ],
       "terms": [
@@ -1592,8 +1813,8 @@
           "term": "受入れテスト",
           "english": "Acceptance Test",
           "vi": "Kiểm thử nghiệm thu",
-          "definitionJa": "システムやソフトウェアの納品後に行われる、最終的な確認作業である。このテストは、製品が要求された仕様や機能を満たしているかどうかを評価するもので、開発プロセスの重要な一部を占める。プロジェクトの関係者やユーザーが実施し、期待通りの動作を確認することを目的とする。具体的には、ユーザーがシステムを実際に使用してみて、取引条件や業務要件に合致しているかをチェックする。受入れテストに合格することで、開発側は納品が完了したと判断され、ユーザーは新しいシステムを安心して導入できる基盤が整う。これにより、後のトラブルや不具合を未然に防ぐことが可能となる。",
-          "definitionVi": "Kiểm thử xác nhận sản phẩm đáp ứng yêu cầu tiếp nhận của khách hàng.",
+            "definitionJa": "取得者又は権限を与えられた利用者が、ニーズ、要求、業務プロセスと受入れ基準に基づき、受入れ可否を判断するために行うテスト。",
+            "definitionVi": "Kiểm thử do bên mua hoặc người dùng được ủy quyền thực hiện theo nhu cầu, yêu cầu, quy trình nghiệp vụ và tiêu chí để quyết định có tiếp nhận hay không.",
           "reading": "うけいれてすと"
         }
       ],

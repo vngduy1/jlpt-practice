@@ -12,7 +12,7 @@
       "titleVi": "Xử lý hàng loạt",
       "importance": "high",
       "summaryJa": "データを一定の単位（バッチ）でまとめて処理する方式を指す。",
-      "summaryVi": "Xử lý hàng loạt là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Xử lý hàng loạt gom nhiều dữ liệu hoặc công việc để thực hiện theo lịch hay khi đủ điều kiện, phù hợp khi ưu tiên thông lượng và hiệu quả tài nguyên hơn phản hồi tức thời cho từng yêu cầu.",
       "content": [
         {
           "type": "heading",
@@ -22,12 +22,22 @@
         {
           "type": "paragraph",
           "ja": "データを一定の単位（バッチ）でまとめて処理する方式を指す。これは、単一のデータを即座に処理するのではなく、集めたデータを一定の時間間隔でまとめて実行するため、効率的にリソースを使用できる。例えば、銀行の給与計算や帳簿の更新など、多数のデータが発生する場合に効果的である。また、バッチ処理では、夜間や業務が少ない時間帯に処理を行うことが多く、システムの負荷を抑えつつ大量のデータ処理を実施できるメリットがある。この手法は、情報システムの運用において広く利用されている。",
-          "vi": "Xử lý hàng loạt (Batch Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Batch processing xử lý một tập dữ liệu hoặc chuỗi job đã định nghĩa trước với ít hoặc không cần tương tác của người dùng trong lúc chạy. Job có thể được đưa vào hàng đợi và thực hiện theo lịch, độ ưu tiên, tài nguyên khả dụng hoặc quan hệ phụ thuộc. Cách này phù hợp với khối lượng lớn và tối ưu thông lượng, nhưng kết quả của từng bản ghi thường không được trả ngay khi dữ liệu phát sinh."
         },
         {
           "type": "point",
           "ja": "リアルタイム処理との違いを押さえる。バッチ処理はデータをまとめて一括処理する。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Batch processing gom dữ liệu/job để xử lý tập trung; khác real-time processing ở chỗ phản hồi tức thời cho từng sự kiện thường không phải yêu cầu chính, dù toàn bộ batch vẫn có thể phải hoàn tất trong một batch window."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、1か月分の利用記録を締め日にまとめ、請求額計算、請求書生成、会計データ更新の順に夜間ジョブとして実行する。各ジョブは前段の正常終了を確認してから開始する。",
+        "vi": "Ví dụ, đến ngày chốt hệ thống gom dữ liệu sử dụng của cả tháng rồi chạy các job ban đêm theo thứ tự: tính tiền, tạo hóa đơn và cập nhật kế toán. Mỗi job chỉ bắt đầu sau khi bước trước hoàn tất thành công."
+      },
+      {
+        "type": "warning",
+        "ja": "バッチ処理は「期限がない処理」ではない。夜間のバッチウィンドウや翌営業開始までなどの完了期限があり、途中失敗に備えて再実行、再開地点、二重更新防止を設計する必要がある。",
+        "vi": "Xử lý batch không có nghĩa là “không có hạn chót”. Job vẫn có thể phải xong trong cửa sổ ban đêm hoặc trước ngày làm việc tiếp theo; cần thiết kế chạy lại, điểm khôi phục và chống cập nhật trùng khi thất bại giữa chừng."
         }
       ],
       "terms": [
@@ -37,7 +47,7 @@
           "english": "Batch Processing",
           "vi": "Xử lý hàng loạt",
           "definitionJa": "データを一定の単位（バッチ）でまとめて処理する方式を指す。",
-          "definitionVi": "Xử lý hàng loạt: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Phương thức gom nhiều dữ liệu hoặc job để xử lý theo lịch hay điều kiện định trước với ít tương tác trong lúc thực hiện."
         }
       ],
       "tags": ["system-configuration", "batch-processing"]
@@ -49,7 +59,7 @@
       "titleVi": "Xử lý thời gian thực",
       "importance": "high",
       "summaryJa": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。",
-      "summaryVi": "Xử lý thời gian thực là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Xử lý thời gian thực phải tạo kết quả đúng trong thời hạn quy định cho từng sự kiện; tính đúng thời điểm là một phần của tính đúng đắn, không đơn thuần là xử lý có tốc độ trung bình cao.",
       "content": [
         {
           "type": "heading",
@@ -59,12 +69,22 @@
         {
           "type": "paragraph",
           "ja": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。これにより、例えば航空機の飛行データ、医療機器のモニタリング、ゲームなど、タイムリーな反応が求められる状況において、迅速かつ正確な情報処理が可能となる。通常、システムにおいて処理遅延を許容しない要件があり、特定の時間内に処理を完了することが求められるため、高い信頼性と応答性が求められる。これにより、ユーザーはストレスなくサービスを利用できるようになる。",
-          "vi": "Xử lý thời gian thực (Real-Time Processing) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Real-time processing xử lý đầu vào và tạo đầu ra trong deadline được xác định bởi yêu cầu của hệ thống. Với hard real-time, trễ deadline có thể được coi là lỗi hệ thống hoặc gây hậu quả nghiêm trọng; với soft real-time, trễ thỉnh thoảng làm giảm chất lượng nhưng có thể vẫn chấp nhận được. Vì vậy cần quan tâm độ trễ tệ nhất và khả năng dự đoán, không chỉ tốc độ trung bình."
         },
         {
           "type": "point",
           "ja": "入力に対して必要な時間内に結果を返す点が重要であり、バッチ処理との違いを理解する。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Điểm cốt lõi của real-time là hoàn tất trong thời hạn yêu cầu. Hệ thống chạy rất nhanh nhưng đôi khi trễ deadline không đáp ứng real-time; ngược lại deadline có thể dài nếu vẫn phù hợp đối tượng điều khiển."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、制御装置がセンサ値を10ミリ秒ごとに読み、異常検出から5ミリ秒以内にアクチュエータへ停止指令を出す必要がある場合、結果の正しさに加えて5ミリ秒の期限を守ることが要求される。",
+        "vi": "Ví dụ, bộ điều khiển đọc cảm biến mỗi 10 ms và phải gửi lệnh dừng tới actuator trong vòng 5 ms sau khi phát hiện bất thường. Ngoài kết quả đúng, hệ thống còn phải tuân thủ deadline 5 ms."
+      },
+      {
+        "type": "warning",
+        "ja": "平均応答時間が短いだけではリアルタイム性を保証できない。優先度逆転、GC、割込み、I/O待ちなどによる最悪時遅延を含め、定めた期限内に処理できるかを評価する。",
+        "vi": "Thời gian phản hồi trung bình ngắn chưa bảo đảm real-time. Cần đánh giá khả năng hoàn tất trong deadline kể cả độ trễ tệ nhất do đảo ưu tiên, garbage collection, ngắt hoặc chờ I/O."
         }
       ],
       "terms": [
@@ -74,7 +94,7 @@
           "english": "Real-Time Processing",
           "vi": "Xử lý thời gian thực",
           "definitionJa": "データや情報を入力してから処理結果を出力するまでの時間が非常に短く、ほぼ即座に行われる処理形態を指す。",
-          "definitionVi": "Xử lý thời gian thực: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Phương thức xử lý phải tạo kết quả đúng trong thời hạn xác định cho sự kiện hoặc đầu vào tương ứng."
         }
       ],
       "tags": ["system-configuration", "real-time-processing"]
@@ -234,7 +254,7 @@
       "titleVi": "Hệ thống dual",
       "importance": "high",
       "summaryJa": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。",
-      "summaryVi": "Hệ thống dual là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Hệ thống dual cho hai hệ thống độc lập thực hiện cùng một xử lý và đối chiếu kết quả nhằm phát hiện sai lệch, khác với duplex dùng một hệ thống chính và một hệ thống dự phòng.",
       "content": [
         {
           "type": "heading",
@@ -244,22 +264,32 @@
         {
           "type": "paragraph",
           "ja": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。この方法は、システムの信頼性を高めるために用いられ、どちらか一方でエラーが発生した場合でも、もう一方の結果を基に正確性を保つことができる。例えば、金融機関でのトランザクション処理や、航空機の制御システムなど、高い信頼性が求められる場面で広く採用されている。また、デュアルシステムを利用することで、障害発生時の迅速な復旧が可能になり、システム全体の安全性向上に寄与する。",
-          "vi": "Hệ thống dual (Dual System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Trong dual system, hai hệ thống độc lập đồng thời thực hiện cùng một tác vụ và kết quả được so sánh. Nếu kết quả khác nhau, hệ thống có thể phát hiện có bất thường; tuy nhiên chỉ hai kết quả khác nhau chưa đủ để tự xác định bên nào đúng nếu không có cơ chế phán định hoặc nguồn tham chiếu bổ sung."
         },
         {
           "type": "point",
           "ja": "同じ処理を2系統で実行して結果を照合する。デュプレックスシステムとの違いに注意する。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Dual system chạy cùng một xử lý trên hai hệ thống và đối chiếu kết quả. Cần phân biệt với duplex system, nơi hệ dự phòng tiếp quản khi hệ đang hoạt động gặp lỗi."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、同じ取引データを独立した2系統で同時に計算し、残高更新結果が一致するかを照合する。結果が異なれば処理を確定せず、異常として検出して調査する。",
+        "vi": "Ví dụ, cùng dữ liệu giao dịch được tính đồng thời trên hai hệ thống độc lập rồi đối chiếu kết quả cập nhật số dư. Nếu kết quả khác nhau, giao dịch chưa được xác nhận và được phát hiện như một bất thường để điều tra."
+      },
+      {
+        "type": "warning",
+        "ja": "2系統が同じ設計や同じ入力に依存すると、共通原因故障によって両方が同じ誤結果を出す可能性がある。また、2系統だけの不一致では、どちらが正しいかを多数決で決められない。",
+        "vi": "Nếu hai hệ thống phụ thuộc cùng thiết kế hoặc cùng đầu vào, lỗi nguyên nhân chung có thể làm cả hai cho cùng kết quả sai. Khi chỉ có hai hệ thống bất đồng, cũng không thể dùng biểu quyết đa số để xác định bên đúng."
         }
       ],
       "terms": [
         {
           "term": "デュアルシステム",
-          "reading": "",
+        "reading": "でゅあるしすてむ",
           "english": "Dual System",
           "vi": "Hệ thống dual",
           "definitionJa": "同一の処理を二つの独立したシステムで行い、結果を照合する仕組みである。",
-          "definitionVi": "Hệ thống dual: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Cấu hình cho hai hệ thống độc lập thực hiện cùng một xử lý và đối chiếu kết quả để phát hiện sai lệch."
         }
       ],
       "tags": ["system-configuration", "dual-system"]
@@ -271,7 +301,7 @@
       "titleVi": "Hệ thống duplex",
       "importance": "high",
       "summaryJa": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。",
-      "summaryVi": "Hệ thống duplex là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Hệ thống duplex chuẩn bị một hệ đang hoạt động và một hệ dự phòng để chuyển đổi khi có lỗi, nhằm tiếp tục dịch vụ thay vì đối chiếu hai kết quả đồng thời.",
       "content": [
         {
           "type": "heading",
@@ -281,22 +311,32 @@
         {
           "type": "paragraph",
           "ja": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。このシステムは、主系に障害が発生した時に迅速に従系が引き継ぐことで、運用の継続性を確保するために使用される。例えば、金融機関や公共サービスなど、システムの信頼性が求められる場面で利用されることが多い。このように冗長性を持たせることで、システムダウンのリスクを低減し、安定したサービス提供を目指す仕組みである。",
-          "vi": "Hệ thống duplex (Duplex System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Duplex system gồm hệ chính đang xử lý nghiệp vụ và hệ dự phòng sẵn sàng tiếp quản khi hệ chính hỏng. Tùy cách chuẩn bị, hệ dự phòng có thể luôn đồng bộ và sẵn sàng nhanh hoặc cần khởi động, nạp dữ liệu trước khi chuyển đổi. Mục tiêu chính là rút ngắn gián đoạn dịch vụ bằng failover."
         },
         {
           "type": "point",
           "ja": "現用系と待機系を用意し、障害時に待機系へ切り替える。デュアルシステムとは目的と動作が異なる。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Duplex system chuẩn bị hệ đang hoạt động và hệ dự phòng để failover khi có lỗi; mục tiêu và cách hoạt động khác dual system chạy cùng tác vụ để đối chiếu kết quả."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、現用サーバがデータベース処理を担当し、待機サーバが状態を同期して監視する。現用系の故障を検出すると、待機系へ仮想IPアドレスや処理を切り替えてサービスを再開する。",
+        "vi": "Ví dụ, máy chủ chính xử lý cơ sở dữ liệu còn máy dự phòng đồng bộ trạng thái và giám sát. Khi phát hiện máy chính hỏng, địa chỉ IP ảo và xử lý được chuyển sang máy dự phòng để khôi phục dịch vụ."
+      },
+      {
+        "type": "warning",
+        "ja": "待機系が存在しても切替時間やデータ同期遅延がゼロになるとは限らない。共有ストレージ、電源、ネットワークなどが単一障害点なら、2系統を用意しても同時に利用不能になる。",
+        "vi": "Có hệ dự phòng không có nghĩa thời gian chuyển đổi hoặc độ trễ đồng bộ dữ liệu bằng 0. Nếu storage dùng chung, nguồn điện hay mạng vẫn là điểm lỗi đơn, cả hai hệ có thể đồng thời không sử dụng được."
         }
       ],
       "terms": [
         {
           "term": "デュプレックスシステム",
-          "reading": "",
+        "reading": "でゅぷれっくすしすてむ",
           "english": "Duplex System",
           "vi": "Hệ thống duplex",
           "definitionJa": "主系と従系の2つのコンピュータシステムを用意し、主系がメインの処理を行い、従系は普段は別の低優先度の処理をしながら待機している構成のことを指す。",
-          "definitionVi": "Hệ thống duplex: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Cấu hình gồm hệ đang hoạt động và hệ dự phòng, chuyển xử lý sang hệ dự phòng khi hệ chính gặp lỗi."
         }
       ],
       "tags": ["system-configuration", "duplex-system"]
@@ -789,7 +829,7 @@
       "titleVi": "Ảo hóa",
       "importance": "high",
       "summaryJa": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。",
-      "summaryVi": "Ảo hóa là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Ảo hóa trừu tượng hóa tài nguyên vật lý thành các môi trường logic; máy ảo chạy hệ điều hành khách qua hypervisor, còn container chia sẻ kernel của hệ điều hành host.",
       "content": [
         {
           "type": "heading",
@@ -799,12 +839,22 @@
         {
           "type": "paragraph",
           "ja": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。仮想マシンでは、ハイパーバイザーがCPU、メモリ、ストレージなどの物理資源を管理し、複数のOSを独立して動作させる。コンテナ型ではホストOSのカーネルを共有しながらアプリケーションの実行環境を分離するため、仮想マシンより軽量に動作する。仮想化はサーバ統合やクラウドコンピューティングの基盤として広く利用されている。",
-          "vi": "Ảo hóa (Virtualization) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Ảo hóa tạo một lớp trừu tượng trên tài nguyên vật lý như CPU, bộ nhớ, storage và mạng. Trong ảo hóa máy chủ, hypervisor phân bổ tài nguyên và cô lập nhiều máy ảo; mỗi VM có hệ điều hành khách cùng ứng dụng riêng. Container là ảo hóa ở mức hệ điều hành: các ứng dụng được cô lập nhưng chia sẻ kernel host, nên thường khởi động nhanh và nhẹ hơn VM."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "仮想マシンはハイパーバイザー上でゲストOSごと分離し、コンテナはホストOSのカーネルを共有してアプリケーション実行環境を分離する。分離単位と資源消費の違いを押さえる。",
+        "vi": "VM tách cả hệ điều hành khách trên hypervisor, còn container chia sẻ kernel host và tách môi trường chạy ứng dụng. Cần ghi nhớ khác biệt về đơn vị cô lập và mức tiêu thụ tài nguyên."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、1台の物理サーバ上にLinuxのVMとWindowsのVMを動作させ、それぞれへ仮想CPUとメモリを割り当てられる。一方、Linuxコンテナを複数起動する場合、各コンテナは分離されたプロセスやファイルシステムを持つが、Linuxカーネルを共有する。",
+        "vi": "Ví dụ, một máy chủ vật lý có thể chạy một VM Linux và một VM Windows, mỗi VM được cấp CPU và bộ nhớ ảo riêng. Nếu chạy nhiều container Linux, mỗi container có tiến trình và filesystem được cô lập nhưng cùng chia sẻ kernel Linux."
+      },
+      {
+        "type": "warning",
+        "ja": "仮想化は物理資源を増やす技術ではない。多数のVMへ資源を過剰割当てすると競合や性能低下が起こり、ハイパーバイザーや物理ホストの障害は複数VMへ同時に影響する。また、スナップショットだけを独立したバックアップとみなさない。",
+        "vi": "Ảo hóa không tạo thêm tài nguyên vật lý. Cấp phát quá mức cho nhiều VM có thể gây tranh chấp và giảm hiệu năng; lỗi hypervisor hoặc host vật lý có thể ảnh hưởng đồng thời nhiều VM. Snapshot cũng không nên được coi là bản backup độc lập."
         }
       ],
       "terms": [
@@ -814,7 +864,7 @@
           "english": "Virtualization",
           "vi": "Ảo hóa",
           "definitionJa": "物理的なハードウェア資源を抽象化し、複数の仮想的な実行環境として利用する技術である。",
-          "definitionVi": "Ảo hóa: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Kỹ thuật trừu tượng hóa tài nguyên phần cứng hoặc phần mềm để nhiều môi trường thực thi logic dùng chung hạ tầng vật lý."
         }
       ],
       "tags": ["system-configuration", "virtualization"]
@@ -974,7 +1024,7 @@
       "titleVi": "Phần mềm dưới dạng dịch vụ",
       "importance": "high",
       "summaryJa": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。",
-      "summaryVi": "Phần mềm dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "SaaS cung cấp ứng dụng hoàn chỉnh qua mạng; người dùng chủ yếu sử dụng và cấu hình ứng dụng thay vì quản lý hệ điều hành, máy chủ hay hạ tầng bên dưới.",
       "content": [
         {
           "type": "heading",
@@ -984,12 +1034,22 @@
         {
           "type": "paragraph",
           "ja": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。ユーザーは、特定のアプリケーションを自分のコンピュータにインストールすることなく、Webブラウザを介してサービスを利用することができる。この方式では、ソフトウェアのアップデートやメンテナンスなどは提供者側が行うため、ユーザーは手間をかけることなく最新の機能を利用できる。例えば、Google WorkspaceやSalesforceなどがこの形態に該当し、ビジネスや個人用の様々なアプリケーションが提供されている。インフラやプラットフォームを自分で管理する必要がないため、特に中小企業にとってコスト削減や業務効率化に寄与する利点がある。",
-          "vi": "Phần mềm dưới dạng dịch vụ (Software as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "SaaS (Software as a Service) cho phép người dùng sử dụng ứng dụng của nhà cung cấp chạy trên hạ tầng cloud, thường qua trình duyệt hoặc API. Nhà cung cấp vận hành ứng dụng và các lớp hạ tầng bên dưới; người dùng chủ yếu quản lý tài khoản, quyền truy cập, dữ liệu và các thiết lập ứng dụng được cho phép."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "SaaSでは、利用者は提供者のアプリケーションを利用し、基盤となるネットワーク、サーバ、OS、ストレージを管理しない。利用者が制御できる範囲は、ユーザー設定やアクセス権などに限定される。",
+        "vi": "Trong SaaS, người dùng sử dụng ứng dụng của nhà cung cấp và không quản lý mạng, máy chủ, hệ điều hành hay storage bên dưới. Phạm vi kiểm soát thường giới hạn ở thiết lập người dùng và quyền truy cập."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、WebメールのSaaSでは、利用者はメールボックス、ユーザー、共有設定を管理するが、メールサーバのOS更新、アプリケーション配備、物理サーバの保守は提供者が担当する。",
+        "vi": "Ví dụ, với dịch vụ webmail SaaS, khách hàng quản lý hộp thư, người dùng và thiết lập chia sẻ; nhà cung cấp phụ trách cập nhật hệ điều hành máy chủ mail, triển khai ứng dụng và bảo trì máy chủ vật lý."
+      },
+      {
+        "type": "warning",
+        "ja": "SaaSでも利用者の責任がなくなるわけではない。アカウント管理、認証設定、アクセス権、データ分類、誤設定や利用者端末の保護は、契約と責任分界に従って利用者が管理する。",
+        "vi": "Dùng SaaS không làm trách nhiệm của khách hàng biến mất. Theo hợp đồng và ranh giới trách nhiệm, khách hàng vẫn phải quản lý tài khoản, xác thực, quyền truy cập, phân loại dữ liệu, cấu hình sai và bảo vệ thiết bị người dùng."
         }
       ],
       "terms": [
@@ -999,7 +1059,7 @@
           "english": "Software as a Service",
           "vi": "Phần mềm dưới dạng dịch vụ",
           "definitionJa": "ソフトウェア・アズ・ア・サービスの略で、インターネットを通じてソフトウェアを提供する形態の一つである。",
-          "definitionVi": "Phần mềm dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mô hình cloud cung cấp ứng dụng hoàn chỉnh để người dùng sử dụng qua mạng mà không quản lý hạ tầng và hệ điều hành bên dưới."
         }
       ],
       "tags": ["system-configuration", "saas"]
@@ -1011,7 +1071,7 @@
       "titleVi": "Nền tảng dưới dạng dịch vụ",
       "importance": "high",
       "summaryJa": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。",
-      "summaryVi": "Nền tảng dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "PaaS cung cấp môi trường phát triển và thực thi ứng dụng được quản lý sẵn, giúp người dùng triển khai mã nguồn mà không trực tiếp vận hành máy chủ và hệ điều hành.",
       "content": [
         {
           "type": "heading",
@@ -1021,12 +1081,22 @@
         {
           "type": "paragraph",
           "ja": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。ユーザーは、インフラストラクチャの管理を気にせず、アプリケーションの開発やデプロイ、実行などに集中できるため、開発作業が効率的に行える。具体的な例としては、Google App EngineやMicrosoft Azureが挙げられ、これらは開発者にプログラミング言語やデータベースの選択肢を提供し、高度なスケーラビリティもサポートする。自動的にリソースをスケールしたり、アプリケーションのパフォーマンスを監視したりする機能を持つため、開発の迅速化やコスト削減に寄与する。",
-          "vi": "Nền tảng dưới dạng dịch vụ (Platform as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "PaaS (Platform as a Service) cung cấp nền tảng để phát triển, triển khai và chạy ứng dụng bằng ngôn ngữ, thư viện, dịch vụ và công cụ do nhà cung cấp hỗ trợ. Nhà cung cấp quản lý hạ tầng, hệ điều hành và môi trường thực thi; người dùng quản lý ứng dụng đã triển khai, dữ liệu và một số cấu hình môi trường."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "PaaSでは、利用者はアプリケーションとデータを管理し、提供者がサーバ、OS、ミドルウェアや実行環境を管理する。IaaSより運用範囲が狭く、SaaSよりアプリケーション開発の自由度が高い。",
+        "vi": "Trong PaaS, người dùng quản lý ứng dụng và dữ liệu, còn nhà cung cấp quản lý máy chủ, hệ điều hành, middleware và runtime. Phạm vi vận hành hẹp hơn IaaS nhưng quyền phát triển ứng dụng cao hơn SaaS."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、開発者がWebアプリケーションのコードと依存関係をPaaSへ配備すると、PaaSが実行環境の準備、プロセス起動、監視やスケーリング機能を提供する。開発者は業務ロジックとデータ管理に集中できる。",
+        "vi": "Ví dụ, lập trình viên triển khai mã và dependency của ứng dụng web lên PaaS; PaaS chuẩn bị runtime, khởi động tiến trình, cung cấp giám sát và khả năng scale. Lập trình viên tập trung vào logic nghiệp vụ và dữ liệu."
+      },
+      {
+        "type": "warning",
+        "ja": "PaaSを利用しても、アプリケーションの脆弱性、秘密情報、データ保護、アクセス制御は利用者側の責任として残る。また、対応言語や実行環境、独自APIへの依存は移行性を制約することがある。",
+        "vi": "Dùng PaaS vẫn để lại trách nhiệm cho khách hàng về lỗ hổng ứng dụng, bí mật, bảo vệ dữ liệu và kiểm soát truy cập. Phụ thuộc vào ngôn ngữ, runtime hoặc API riêng được hỗ trợ cũng có thể hạn chế khả năng chuyển đổi nhà cung cấp."
         }
       ],
       "terms": [
@@ -1036,7 +1106,7 @@
           "english": "Platform as a Service",
           "vi": "Nền tảng dưới dạng dịch vụ",
           "definitionJa": "プラットフォーム・アズ・ア・サービスの略で、アプリケーション開発に必要な基盤を提供するクラウドサービスの一形態である。",
-          "definitionVi": "Nền tảng dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mô hình cloud cung cấp nền tảng phát triển và thực thi để người dùng triển khai ứng dụng mà không quản lý máy chủ và hệ điều hành bên dưới."
         }
       ],
       "tags": ["system-configuration", "paas"]
@@ -1048,7 +1118,7 @@
       "titleVi": "Hạ tầng dưới dạng dịch vụ",
       "importance": "high",
       "summaryJa": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。",
-      "summaryVi": "Hạ tầng dưới dạng dịch vụ là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "IaaS cung cấp tài nguyên xử lý, storage và mạng theo nhu cầu; người dùng có quyền kiểm soát hệ điều hành và ứng dụng nhưng phải tự vận hành, vá lỗi và bảo vệ các lớp đó.",
       "content": [
         {
           "type": "heading",
@@ -1058,12 +1128,22 @@
         {
           "type": "paragraph",
           "ja": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。このモデルでは、ユーザーは物理的なハードウェアを所有することなく、仮想サーバやストレージ、ネットワークリソースを利用できる。例えば、企業が自社サーバを購入・管理する代わりに、IaaSプロバイダーから必要なリソースをオンデマンドで借りることができる。これにより、初期投資を抑えつつ、必要に応じてリソースを柔軟にスケールアップ・ダウンできるため、効率的な運用が可能となる。また、物理的なメンテナンスやハードウェアの管理はサービス提供者が行うため、企業はより重要な業務に集中できる利点もある。",
-          "vi": "Hạ tầng dưới dạng dịch vụ (Infrastructure as a Service) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "IaaS (Infrastructure as a Service) cho phép người dùng cấp phát tài nguyên tính toán, storage, mạng và các tài nguyên hạ tầng cơ bản để triển khai phần mềm tùy ý, bao gồm hệ điều hành và ứng dụng. Nhà cung cấp quản lý datacenter, phần cứng và lớp hạ tầng cloud; người dùng quản lý hệ điều hành khách, ứng dụng, dữ liệu và nhiều cấu hình mạng/bảo mật."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "IaaSでは、提供者が物理設備と仮想化基盤を管理し、利用者が仮想マシンのOS、ミドルウェア、アプリケーション、データを管理する。三つのサービスモデルの中で利用者の制御範囲と運用責任が最も広い。",
+        "vi": "Trong IaaS, nhà cung cấp quản lý cơ sở vật lý và nền tảng ảo hóa; người dùng quản lý hệ điều hành VM, middleware, ứng dụng và dữ liệu. Trong ba mô hình, đây là loại cho khách hàng phạm vi kiểm soát và trách nhiệm vận hành rộng nhất."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、利用者がIaaSで仮想マシンを作成し、Linux、Webサーバ、業務アプリケーションを導入する。物理ホストの交換は提供者が行うが、Linuxのセキュリティ更新やWebサーバの設定は利用者が行う。",
+        "vi": "Ví dụ, khách hàng tạo VM trên IaaS rồi cài Linux, web server và ứng dụng nghiệp vụ. Nhà cung cấp thay thế host vật lý khi cần, nhưng khách hàng phải cập nhật bảo mật Linux và cấu hình web server."
+      },
+      {
+        "type": "warning",
+        "ja": "IaaSはオンプレミスより物理管理を減らせるが、仮想マシンを作成しただけで安全・高可用になるわけではない。OSのパッチ、ファイアウォール、認証、バックアップ、複数障害領域への配置は利用者が設計・設定する。",
+        "vi": "IaaS giảm quản lý vật lý so với on-premises nhưng tạo VM không tự động làm hệ thống an toàn hay sẵn sàng cao. Khách hàng phải thiết kế và cấu hình bản vá OS, firewall, xác thực, backup và phân bố qua nhiều miền lỗi."
         }
       ],
       "terms": [
@@ -1073,7 +1153,7 @@
           "english": "Infrastructure as a Service",
           "vi": "Hạ tầng dưới dạng dịch vụ",
           "definitionJa": "クラウドコンピューティングの一形態であり、インフラストラクチャ（基盤設備）をサービスとして提供するものである。",
-          "definitionVi": "Hạ tầng dưới dạng dịch vụ: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mô hình cloud cung cấp tài nguyên xử lý, storage và mạng để người dùng triển khai, quản lý hệ điều hành cùng ứng dụng của mình."
         }
       ],
       "tags": ["system-configuration", "iaas"]
@@ -1603,7 +1683,7 @@
       "titleVi": "RAID 0",
       "importance": "high",
       "summaryJa": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。",
-      "summaryVi": "RAID 0 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "RAID 0 phân dải dữ liệu trên nhiều ổ đĩa để tăng hiệu năng và dung lượng sử dụng, nhưng không có dữ liệu dư thừa nên chỉ một ổ hỏng cũng làm hỏng toàn bộ mảng.",
       "content": [
         {
           "type": "heading",
@@ -1613,12 +1693,22 @@
         {
           "type": "paragraph",
           "ja": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。データを複数のディスクに分散して書き込むため、読み書きの速度が向上する特性がある。例えば、二つのハードディスクをRAID0で構成すると、データは半分ずつ二つのディスクに保存され、同時にアクセスすることができるため、性能が大幅に向上する。だが、RAID0は冗長性がないため、一つのディスクが故障すると、全てのデータが失われるリスクがある。したがって、高速なデータ転送が求められる場合には有用であるが、重要なデータの保護には他のRAIDレベルを選択することが推奨される。",
-          "vi": "RAID 0 (Redundant Array of Independent Disks Level 0) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "RAID 0 kết hợp nhiều thiết bị lưu trữ thành một ổ logic và chia dữ liệu thành các stripe để ghi phân tán lên các ổ. Việc truy cập song song có thể tăng thông lượng; với N ổ cùng dung lượng S, dung lượng sử dụng theo lý thuyết là N × S. Tuy nhiên RAID 0 không lưu parity hay bản sao, nên không thể tái tạo dữ liệu nếu một ổ trong mảng bị hỏng."
         },
         {
           "type": "point",
           "ja": "ストライピングで高速化するが冗長性はなく、1台の故障で全体のデータを失う可能性がある。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "RAID 0 dùng striping để tăng hiệu năng và sử dụng toàn bộ dung lượng, nhưng không có tính dư thừa; một ổ hỏng có thể làm mất dữ liệu của toàn mảng."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、同容量の2 TBディスク4台をRAID0にすると、理論上の実効容量は2 TB×4＝8 TBとなる。各データは4台に分散されるが、そのうち1台が故障するとストライプを構成できず、アレイ全体のデータを利用できなくなる。",
+        "vi": "Ví dụ, bốn ổ 2 TB cùng dung lượng tạo RAID 0 cho dung lượng sử dụng lý thuyết 2 TB × 4 = 8 TB. Dữ liệu được phân tán trên cả bốn ổ, nhưng nếu một ổ hỏng thì không thể tái tạo stripe và dữ liệu toàn mảng trở nên không sử dụng được."
+      },
+      {
+        "type": "warning",
+        "ja": "RAID0の名称にRAIDが含まれていても冗長性はない。高速化とバックアップを混同せず、重要なデータはアレイとは別の媒体やシステムへバックアップする。",
+        "vi": "Dù tên có chữ RAID, RAID 0 không có dư thừa. Không được nhầm tăng tốc với sao lưu; dữ liệu quan trọng vẫn phải được backup sang phương tiện hoặc hệ thống tách biệt khỏi mảng."
         }
       ],
       "terms": [
@@ -1628,7 +1718,7 @@
           "english": "Redundant Array of Independent Disks Level 0",
           "vi": "RAID 0",
           "definitionJa": "複数のストレージデバイスを組み合わせて、一つの論理ドライブとして扱う方法の一つである。",
-          "definitionVi": "RAID 0: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mức RAID phân dải dữ liệu trên nhiều ổ để tăng hiệu năng và dung lượng sử dụng nhưng không có khả năng chịu lỗi ổ đĩa."
         }
       ],
       "tags": ["system-configuration", "raid0"]
@@ -1640,7 +1730,7 @@
       "titleVi": "RAID 1",
       "importance": "high",
       "summaryJa": "データの冗長性を確保するためのストレージ技術の一つである。",
-      "summaryVi": "RAID 1 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "RAID 1 ghi cùng dữ liệu lên các ổ đĩa được mirror để duy trì truy cập khi một bản sao bị hỏng, đổi lại dung lượng sử dụng giảm.",
       "content": [
         {
           "type": "heading",
@@ -1650,12 +1740,22 @@
         {
           "type": "paragraph",
           "ja": "データの冗長性を確保するためのストレージ技術の一つである。主に二つのハードディスクを使用し、同じデータを両方のディスクに同時に書き込むことで、データの安全性を高める仕組みである。もし片方のディスクが故障した場合でも、もう一方のディスクからデータを復元することが可能なため、信頼性が高い。このため、特に重要なデータを扱うシステムにおいて採用されることが多く、運用コストはかかるものの、安心してデータを保管できる利点がある。RAID1の構成は、読み出し性能の向上にも寄与し、データのアクセスが迅速に行える点も特徴の一つである。",
-          "vi": "RAID 1 (Redundant Array of Independent Disks Level 1) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "RAID 1 sử dụng mirroring: cùng dữ liệu được ghi lên hai hoặc nhiều ổ trong một nhóm mirror. Nếu một ổ hỏng, dữ liệu vẫn có thể được đọc từ bản sao còn lại và ổ thay thế có thể được rebuild. Với cặp hai ổ cùng dung lượng S, dung lượng sử dụng theo lý thuyết là S, tức một nửa tổng dung lượng vật lý."
         },
         {
           "type": "point",
           "ja": "同じデータを複数ディスクに記録するミラーリングで耐障害性を高める。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "RAID 1 tăng khả năng chịu lỗi bằng mirroring; với hai ổ cùng dung lượng, dung lượng sử dụng chỉ bằng một ổ."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2 TBディスク2台をRAID1にすると、同じデータを両方へ記録するため実効容量は2 TBとなる。片方が故障しても残る1台から運用を続け、交換後にミラーを再構築できる。",
+        "vi": "Ví dụ, hai ổ 2 TB tạo RAID 1 có dung lượng sử dụng 2 TB vì cùng dữ liệu được ghi trên cả hai. Khi một ổ hỏng, hệ thống có thể tiếp tục từ ổ còn lại rồi rebuild mirror sau khi thay ổ."
+      },
+      {
+        "type": "warning",
+        "ja": "ミラーは誤削除、ランサムウェア、ファイル破損なども同時に複製するため、バックアップの代わりにはならない。また、故障した状態で運用を続ける時間が長いほど、残るディスクの故障リスクに注意が必要である。",
+        "vi": "Mirror cũng sao chép thao tác xóa nhầm, ransomware hoặc dữ liệu hỏng, nên không thay thế backup. Càng vận hành lâu trong trạng thái degraded thì càng phải lưu ý nguy cơ ổ còn lại tiếp tục hỏng."
         }
       ],
       "terms": [
@@ -1665,7 +1765,7 @@
           "english": "Redundant Array of Independent Disks Level 1",
           "vi": "RAID 1",
           "definitionJa": "データの冗長性を確保するためのストレージ技術の一つである。",
-          "definitionVi": "RAID 1: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mức RAID ghi cùng dữ liệu lên nhiều ổ bằng mirroring để duy trì dữ liệu khi một bản sao ổ đĩa bị hỏng."
         }
       ],
       "tags": ["system-configuration", "raid1"]
@@ -1677,7 +1777,7 @@
       "titleVi": "RAID 10",
       "importance": "high",
       "summaryJa": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。",
-      "summaryVi": "RAID 10 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "RAID 10 kết hợp mirroring của RAID 1 với striping của RAID 0 nhằm cân bằng hiệu năng và khả năng chịu lỗi, thường cần ít nhất bốn ổ.",
       "content": [
         {
           "type": "heading",
@@ -1687,12 +1787,22 @@
         {
           "type": "paragraph",
           "ja": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。ミラーリング（RAID1）とストライピング（RAID0）を組み合わせる形式で、データを二つに分けて二重に保存することで、ディスク障害からのデータ保護を実現する。それに加えて、複数のディスクへの分散保存により、データの読み書き速度も向上する。これにより、高い可用性とパフォーマンスを求めるビジネス環境において非常に人気があり、データの安全性を重視する場合に特に推奨される構成である。",
-          "vi": "RAID 10 (Redundant Array of Independent Disks Level 10) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "RAID 10 (RAID 1+0) tạo các cặp ổ mirror rồi stripe dữ liệu qua các cặp đó. Nhờ vậy, thao tác đọc/ghi có thể được phân tán trong khi mỗi dữ liệu vẫn có bản sao. Với N ổ cùng dung lượng S và N là số chẵn, dung lượng sử dụng theo lý thuyết là N × S ÷ 2."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "RAID10はミラーの組をストライピングするRAID1+0であり、一般に4台以上の偶数台で構成する。同じミラー組の両方が故障すると、その組のデータを失う。",
+        "vi": "RAID 10 là RAID 1+0, tức stripe qua các cặp mirror, và thường dùng ít nhất bốn ổ với số lượng chẵn. Nếu cả hai ổ trong cùng một cặp mirror hỏng thì dữ liệu của cặp đó bị mất."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、1 TBディスク4台を2組のミラーにし、その2組をストライピングすると実効容量は2 TBとなる。異なるミラー組から各1台が故障しても動作できるが、同じ組の2台が故障すると復旧できない。",
+        "vi": "Ví dụ, bốn ổ 1 TB được chia thành hai cặp mirror rồi stripe qua hai cặp sẽ cho dung lượng sử dụng 2 TB. Mảng vẫn chạy nếu mỗi cặp hỏng một ổ, nhưng không phục hồi được nếu cả hai ổ trong cùng một cặp hỏng."
+      },
+      {
+        "type": "warning",
+        "ja": "RAID10とRAID0+1は同じではない。どちらもミラーリングとストライピングを組み合わせるが、構成単位と複数故障時の耐障害性が異なるため、名称を入れ替えて覚えない。",
+        "vi": "RAID 10 không giống RAID 0+1. Cả hai đều kết hợp mirroring và striping nhưng đơn vị cấu hình và khả năng chịu nhiều lỗi khác nhau, vì vậy không được ghi nhớ hai tên như có thể thay thế cho nhau."
         }
       ],
       "terms": [
@@ -1702,7 +1812,7 @@
           "english": "Redundant Array of Independent Disks Level 10",
           "vi": "RAID 10",
           "definitionJa": "データの冗長性とパフォーマンスを両立させるためのストレージ構成である。",
-          "definitionVi": "RAID 10: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mức RAID 1+0 tạo các cặp mirror rồi stripe dữ liệu qua các cặp để kết hợp hiệu năng với khả năng chịu lỗi."
         }
       ],
       "tags": ["system-configuration", "raid10"]
@@ -1825,7 +1935,7 @@
       "titleVi": "RAID 5",
       "importance": "high",
       "summaryJa": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。",
-      "summaryVi": "RAID 5 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "RAID 5 phân tán dữ liệu và một phần parity trên ít nhất ba ổ, cho phép khôi phục khi một ổ hỏng với hiệu suất dung lượng tương đối cao.",
       "content": [
         {
           "type": "heading",
@@ -1835,12 +1945,22 @@
         {
           "type": "paragraph",
           "ja": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。1台のディスクが故障しても、残りのデータとパリティ情報から失われたデータを復元できる。RAID4のような専用パリティディスクを持たず、パリティを各ディスクに分散するため、特定のディスクにアクセスが集中しにくい。一般に3台以上のディスクが必要で、実効容量はディスク1台分をパリティに使用した容量となる。",
-          "vi": "RAID 5 (Redundant Array of Independent Disks Level 5) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "RAID 5 phân dải dữ liệu ở mức block và phân tán parity trên các ổ thay vì dành riêng một ổ parity. Khi một ổ hỏng, dữ liệu bị thiếu được tính lại từ dữ liệu và parity trên các ổ còn lại. Mảng thường cần ít nhất ba ổ; với N ổ cùng dung lượng S, dung lượng sử dụng lý thuyết là (N − 1) × S."
         },
         {
           "type": "point",
           "ja": "分散パリティを用い、1台のディスク故障まで復旧できる。一般に3台以上必要。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "RAID 5 dùng parity phân tán, chịu được lỗi đồng thời của một ổ và thường cần ít nhất ba ổ."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2 TBディスク4台をRAID5にすると、理論上の実効容量は（4－1）×2 TB＝6 TBとなる。1台が故障した状態では残るデータとパリティから読み出せるが、再構築完了前にもう1台が故障すると復旧できない。",
+        "vi": "Ví dụ, bốn ổ 2 TB tạo RAID 5 có dung lượng sử dụng lý thuyết (4 − 1) × 2 TB = 6 TB. Khi một ổ hỏng, dữ liệu vẫn được đọc bằng dữ liệu và parity còn lại; nếu thêm một ổ hỏng trước khi rebuild xong thì không thể phục hồi."
+      },
+      {
+        "type": "warning",
+        "ja": "RAID5のパリティはバックアップではない。書込みではデータに加えてパリティの更新が必要であり、故障中の再構築は性能を低下させ、残存ディスクへ負荷をかける。",
+        "vi": "Parity của RAID 5 không phải backup. Ghi dữ liệu còn phải cập nhật parity; quá trình rebuild khi có lỗi làm giảm hiệu năng và tăng tải lên các ổ còn lại."
         }
       ],
       "terms": [
@@ -1850,7 +1970,7 @@
           "english": "Redundant Array of Independent Disks Level 5",
           "vi": "RAID 5",
           "definitionJa": "データとパリティ情報を複数のディスクに分散して記録するRAID方式である。",
-          "definitionVi": "RAID 5: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mức RAID phân tán dữ liệu và một parity trên nhiều ổ, cho phép phục hồi khi một ổ trong mảng bị hỏng."
         }
       ],
       "tags": ["system-configuration", "raid5"]
@@ -1862,7 +1982,7 @@
       "titleVi": "RAID 6",
       "importance": "high",
       "summaryJa": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。",
-      "summaryVi": "RAID 6 là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "RAID 6 mở rộng RAID 5 bằng hai parity phân tán, cần ít nhất bốn ổ và có thể chịu lỗi đồng thời của hai ổ.",
       "content": [
         {
           "type": "heading",
@@ -1872,12 +1992,22 @@
         {
           "type": "paragraph",
           "ja": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。これにより、2台のディスクが障害を起こしてもデータを復元できるため、非常に高い耐障害性を持つ。具体的には、データが各ディスクに分散される際、パリティ情報が生成され、別のディスクに格納されることで、データの冗長性が保たれる。このため、大切なデータを守るためのソリューションとしてよく利用され、多くの企業や組織のサーバ環境において採用されている。特にデータの安全性が重要なストレージシステムにおいて非常に効果的である。",
-          "vi": "RAID 6 (Redundant Array of Independent Disks Level 6) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "RAID 6 phân dải dữ liệu và duy trì hai thông tin parity độc lập được phân tán trên các ổ. Nhờ đó dữ liệu vẫn có thể được tái tạo khi tối đa hai ổ hỏng. Mảng cần ít nhất bốn ổ; với N ổ cùng dung lượng S, dung lượng sử dụng lý thuyết là (N − 2) × S. Việc tính và ghi hai parity thường tạo chi phí ghi lớn hơn RAID 5."
         },
         {
           "type": "point",
           "ja": "二重の分散パリティを用い、同時に2台のディスクが故障しても復旧できる。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "RAID 6 dùng hai parity phân tán, chịu được lỗi đồng thời của hai ổ và cần ít nhất bốn ổ."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2 TBディスク6台をRAID6にすると、理論上の実効容量は（6－2）×2 TB＝8 TBとなる。2台まで同時に故障してもデータを再構築できるが、3台目が故障すると保証されない。",
+        "vi": "Ví dụ, sáu ổ 2 TB tạo RAID 6 có dung lượng sử dụng lý thuyết (6 − 2) × 2 TB = 8 TB. Dữ liệu có thể được tái tạo khi tối đa hai ổ hỏng đồng thời, nhưng không được bảo đảm nếu ổ thứ ba hỏng."
+      },
+      {
+        "type": "warning",
+        "ja": "RAID6でも、装置全体の故障、誤操作、災害、マルウェアからは保護できない。2台故障への耐性を「データを失わない保証」やバックアップと解釈しない。",
+        "vi": "RAID 6 vẫn không bảo vệ khỏi hỏng toàn bộ thiết bị, thao tác nhầm, thiên tai hoặc malware. Không được hiểu khả năng chịu hai ổ hỏng là bảo đảm không mất dữ liệu hay là bản sao lưu."
         }
       ],
       "terms": [
@@ -1887,7 +2017,7 @@
           "english": "Redundant Array of Independent Disks Level 6",
           "vi": "RAID 6",
           "definitionJa": "独立した複数のハードディスクにデータを分散して保存し、同時にパリティ情報を2箇所に保持するストレージ技術である。",
-          "definitionVi": "RAID 6: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Mức RAID phân tán dữ liệu và hai parity trên nhiều ổ, cho phép phục hồi khi tối đa hai ổ trong mảng bị hỏng."
         }
       ],
       "tags": ["system-configuration", "raid6"]
@@ -2084,7 +2214,7 @@
       "titleVi": "Hệ thống chịu lỗi",
       "importance": "high",
       "summaryJa": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。",
-      "summaryVi": "Hệ thống chịu lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Hệ thống chịu lỗi được thiết kế để tiếp tục cung cấp chức năng đúng hoặc chức năng thiết yếu khi một số thành phần gặp lỗi, thường nhờ dư thừa, phát hiện và cô lập lỗi.",
       "content": [
         {
           "type": "heading",
@@ -2094,22 +2224,32 @@
         {
           "type": "paragraph",
           "ja": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。この設計理念は、信頼性を重視したもので、たとえばコンピュータやネットワークの運用において重要である。具体的には、ハードウェアの冗長化やソフトウェアのエラーチェックを用いて、万が一の故障からシステム全体が影響を受けないようにする。例えば、サーバが一台故障しても、別のサーバがその役割を引き継ぐことで、サービスの提供を続けられる。この技術は特に金融機関や医療機関で求められ、高い可用性と信頼性を実現するために重要な役割を果たしている。",
-          "vi": "Hệ thống chịu lỗi (Fault-Tolerant System) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Fault-tolerant system duy trì hoạt động khi xảy ra những lỗi thành phần nằm trong phạm vi thiết kế. Các biện pháp thường gồm dư thừa phần cứng hoặc phần mềm, phát hiện lỗi, cô lập thành phần lỗi và chuyển xử lý sang tài nguyên còn tốt. Mức chịu lỗi phải được nêu rõ; không có hệ thống nào chịu được mọi loại và mọi số lượng lỗi."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "フォールトトレランスは、想定した故障が発生した後も、冗長化、故障検出、切替えなどによって処理を継続する考え方である。故障の発生確率を下げるフォールトアボイダンスと区別する。",
+        "vi": "Fault tolerance dùng dư thừa, phát hiện lỗi và chuyển đổi để tiếp tục xử lý sau khi lỗi đã xảy ra. Cần phân biệt với fault avoidance nhằm giảm xác suất lỗi phát sinh."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2台のサーバをクラスタ化し、一方の障害を監視機構が検出すると、正常なサーバが処理とサービス用アドレスを引き継ぐ構成は、冗長性を用いたフォールトトレランスの例である。",
+        "vi": "Ví dụ, hai máy chủ được tạo thành cluster; khi cơ chế giám sát phát hiện một máy hỏng, máy còn tốt tiếp quản xử lý và địa chỉ dịch vụ. Đây là fault tolerance sử dụng tính dư thừa."
+      },
+      {
+        "type": "warning",
+        "ja": "冗長な部品を追加するだけではフォールトトレラントにならない。故障を正しく検出・隔離し、状態やデータの整合性を保って切り替える仕組みまで必要である。",
+        "vi": "Chỉ thêm linh kiện dư thừa chưa đủ tạo thành hệ chịu lỗi. Hệ thống còn phải phát hiện và cô lập lỗi chính xác, duy trì nhất quán trạng thái/dữ liệu và chuyển đổi an toàn."
         }
       ],
       "terms": [
         {
           "term": "フォールトトレラントシステム",
-          "reading": "",
+        "reading": "ふぉーるととれらんとしすてむ",
           "english": "Fault-Tolerant System",
           "vi": "Hệ thống chịu lỗi",
           "definitionJa": "システム内で障害が発生しても継続的に動作するように設計されたシステムである。",
-          "definitionVi": "Hệ thống chịu lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Hệ thống có thể tiếp tục hoạt động đúng hoặc duy trì chức năng thiết yếu khi một hay nhiều thành phần trong phạm vi thiết kế bị lỗi."
         }
       ],
       "tags": ["system-configuration", "fault-tolerant-system"]
@@ -2121,7 +2261,7 @@
       "titleVi": "Phòng tránh lỗi",
       "importance": "high",
       "summaryJa": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。",
-      "summaryVi": "Phòng tránh lỗi là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Fault avoidance giảm khả năng lỗi phát sinh bằng linh kiện tin cậy, thiết kế cẩn thận, kiểm thử và kiểm soát chất lượng; khác với fault tolerance xử lý sau khi lỗi xảy ra.",
       "content": [
         {
           "type": "heading",
@@ -2131,22 +2271,32 @@
         {
           "type": "paragraph",
           "ja": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。故障が発生した後も処理を継続するフォールトトレランスとは異なり、故障原因をできるだけ排除して発生確率を低くすることを重視する。",
-          "vi": "Phòng tránh lỗi (Fault Avoidance) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Fault avoidance tập trung loại bỏ nguyên nhân lỗi hoặc làm lỗi khó xảy ra ngay từ thiết kế, chế tạo và vận hành. Biện pháp gồm chọn linh kiện độ tin cậy cao, thiết kế có biên an toàn, kiểm thử/xác minh đầy đủ, kiểm soát nhiệt độ và chất lượng. Nó giảm xác suất lỗi nhưng không loại bỏ hoàn toàn nhu cầu phát hiện, phục hồi hay backup."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "フォールトアボイダンスは、高信頼部品、設計レビュー、検証・試験、環境対策などによって故障の発生確率を下げる。故障後の継続動作を目的とするフォールトトレランスとは対策する時点が異なる。",
+        "vi": "Fault avoidance dùng linh kiện tin cậy, review thiết kế, xác minh/kiểm thử và kiểm soát môi trường để giảm xác suất lỗi. Nó tác động trước khi lỗi xảy ra, khác fault tolerance nhằm tiếp tục hoạt động sau lỗi."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、想定温度より十分に余裕のある部品を採用し、製造時の検査とソフトウェアのレビュー・試験を徹底して、潜在的な故障原因を出荷前に除去する。",
+        "vi": "Ví dụ, chọn linh kiện có biên nhiệt độ đủ lớn, kiểm tra kỹ trong sản xuất và thực hiện review/kiểm thử phần mềm để loại bỏ nguyên nhân lỗi tiềm ẩn trước khi đưa hệ thống vào sử dụng."
+      },
+      {
+        "type": "warning",
+        "ja": "高品質な部品や十分な試験を用いても、経年劣化、未知の欠陥、外部要因による故障をゼロにはできない。フォールトアボイダンスだけで可用性が保証されると考えない。",
+        "vi": "Linh kiện chất lượng cao và kiểm thử đầy đủ vẫn không thể đưa lỗi do lão hóa, khiếm khuyết chưa biết hoặc yếu tố bên ngoài về 0. Không được coi fault avoidance đơn lẻ là bảo đảm tính sẵn sàng."
         }
       ],
       "terms": [
         {
           "term": "フォールトアボイダンス",
-          "reading": "",
+        "reading": "ふぉーるとあぼいだんす",
           "english": "Fault Avoidance",
           "vi": "Phòng tránh lỗi",
           "definitionJa": "故障そのものが発生しにくいように、信頼性の高い部品の採用や十分な品質管理、設計・製造上の対策を行う考え方である。",
-          "definitionVi": "Phòng tránh lỗi: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Cách tiếp cận giảm xác suất lỗi bằng linh kiện tin cậy, thiết kế, kiểm thử, kiểm soát chất lượng và môi trường."
         }
       ],
       "tags": ["system-configuration", "fault-avoidance"]
@@ -2158,7 +2308,7 @@
       "titleVi": "Fail-safe",
       "importance": "high",
       "summaryJa": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。",
-      "summaryVi": "Fail-safe là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Fail-safe ưu tiên đưa thiết bị hoặc hệ thống về trạng thái đã xác định là an toàn khi xảy ra lỗi, ngay cả khi phải dừng dịch vụ.",
       "content": [
         {
           "type": "heading",
@@ -2168,22 +2318,32 @@
         {
           "type": "paragraph",
           "ja": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。例えば、鉄道信号で故障時に停止を示す、機械の異常時に自動停止するなどが該当する。処理の継続よりも人命や設備の安全を優先する点が重要である。",
-          "vi": "Fail-safe (Fail-Safe) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Fail-safe là tư tưởng thiết kế chuyển hệ thống sang trạng thái an toàn định trước khi phát hiện hỏng hóc hoặc hoạt động bất thường. Mục tiêu hàng đầu là hạn chế thương tích và thiệt hại cho con người, thiết bị hoặc môi trường; vì vậy hệ thống có thể phải dừng thay vì tiếp tục cung cấp đầy đủ chức năng."
         },
         {
           "type": "point",
           "ja": "故障時に安全側へ移行する。サービス継続を優先するフェールソフトと区別する。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Fail-safe chuyển sang phía an toàn khi có lỗi; cần phân biệt với fail-soft ưu tiên duy trì chức năng thiết yếu ở mức suy giảm."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、鉄道信号の制御回路が断線や電源断を検出したとき、進行を表示し続けず停止信号へ移行する設計は、人命を優先するフェールセーフである。",
+        "vi": "Ví dụ, khi mạch điều khiển tín hiệu đường sắt phát hiện đứt dây hoặc mất nguồn, hệ thống chuyển sang tín hiệu dừng thay vì tiếp tục báo cho đi; đây là fail-safe ưu tiên tính mạng."
+      },
+      {
+        "type": "warning",
+        "ja": "何が「安全側」かは対象システムごとの危険分析で決める。単に電源を切ることが常に安全とは限らず、医療装置や航空制御などでは安全な停止手順や最低限の継続機能が必要になる。",
+        "vi": "Trạng thái nào là “phía an toàn” phải được xác định bằng phân tích nguy cơ cho từng hệ thống. Tắt nguồn không phải lúc nào cũng an toàn; thiết bị y tế hay điều khiển hàng không có thể cần quy trình dừng an toàn hoặc duy trì chức năng tối thiểu."
         }
       ],
       "terms": [
         {
           "term": "フェールセーフ",
-          "reading": "",
+        "reading": "ふぇーるせーふ",
           "english": "Fail-Safe",
           "vi": "Fail-safe",
           "definitionJa": "システムや装置に故障や誤動作が発生した場合、被害が拡大しないよう安全側の状態へ移行させる設計思想である。",
-          "definitionVi": "Fail-safe: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Tư tưởng thiết kế đưa hệ thống về trạng thái an toàn định trước khi xảy ra lỗi hoặc hoạt động bất thường."
         }
       ],
       "tags": ["system-configuration", "fail-safe"]
@@ -2195,7 +2355,7 @@
       "titleVi": "Fail-soft",
       "importance": "high",
       "summaryJa": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。",
-      "summaryVi": "Fail-soft là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Fail-soft cho hệ thống tiếp tục vận hành ở mức chức năng hoặc hiệu năng suy giảm khi một phần bị lỗi, nhằm duy trì dịch vụ thiết yếu.",
       "content": [
         {
           "type": "heading",
@@ -2205,22 +2365,32 @@
         {
           "type": "paragraph",
           "ja": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。全機能を停止するのではなく、重要度の低い機能を停止したり処理能力を制限したりして、必要なサービスを維持する。安全側へ停止させるフェールセーフとは目的が異なる。",
-          "vi": "Fail-soft (Fail-Soft) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Fail-soft, còn gọi là graceful degradation, không dừng toàn bộ hệ thống ngay khi một phần bị lỗi. Hệ thống cô lập phần hỏng, tắt chức năng ưu tiên thấp hoặc giảm công suất để duy trì các dịch vụ quan trọng trong phạm vi tài nguyên còn lại. Mục tiêu khác fail-safe, vốn ưu tiên trạng thái an toàn."
         },
         {
           "type": "point",
           "ja": "故障時に機能や性能を縮退させながら運転を継続する。フェールセーフとの違いが頻出ポイントである。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Fail-soft tiếp tục vận hành bằng cách giảm chức năng hoặc hiệu năng; điểm FE quan trọng là phân biệt với fail-safe, nơi an toàn được ưu tiên hơn duy trì dịch vụ."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、4台のサーバで処理を分担するサービスで1台が故障したとき、そのサーバを切り離し、残る3台で受付量を制限しながら重要な要求を処理し続ける構成はフェールソフトの例である。",
+        "vi": "Ví dụ, dịch vụ phân tải trên bốn máy chủ cô lập một máy bị hỏng rồi dùng ba máy còn lại tiếp tục xử lý yêu cầu quan trọng với lưu lượng bị giới hạn; đây là fail-soft."
+      },
+      {
+        "type": "warning",
+        "ja": "縮退運転では性能低下だけでなく、冗長性の減少や残存部品への負荷増加が起こる。継続できているから正常と判断せず、監視、利用制限、修復手順をあらかじめ定める。",
+        "vi": "Vận hành suy giảm không chỉ giảm hiệu năng mà còn giảm dư thừa và tăng tải lên thành phần còn lại. Không được coi hệ thống là bình thường chỉ vì vẫn chạy; cần định trước giám sát, giới hạn sử dụng và quy trình sửa chữa."
         }
       ],
       "terms": [
         {
           "term": "フェールソフト",
-          "reading": "",
+        "reading": "ふぇーるそふと",
           "english": "Fail-Soft",
           "vi": "Fail-soft",
           "definitionJa": "システムの一部に故障が発生した場合、機能や性能を段階的に低下させながら、可能な範囲でシステム全体の運転を継続する設計思想である。",
-          "definitionVi": "Fail-soft: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Tư tưởng thiết kế duy trì chức năng thiết yếu bằng cách giảm dần chức năng hoặc hiệu năng khi một phần hệ thống bị lỗi."
         }
       ],
       "tags": ["system-configuration", "fail-soft"]
@@ -2232,7 +2402,7 @@
       "titleVi": "Foolproof",
       "importance": "high",
       "summaryJa": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。",
-      "summaryVi": "Foolproof là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Foolproof là thiết kế ngăn thao tác sai hoặc làm giảm hậu quả của lỗi con người bằng hình dạng, ràng buộc, xác nhận và giao diện phù hợp ngay từ đầu.",
       "content": [
         {
           "type": "heading",
@@ -2242,22 +2412,32 @@
         {
           "type": "paragraph",
           "ja": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。具体的には、意図しない操作や間違った使い方をしても、事故や損害が発生しにくいように設計されていることを意味する。この考え方は、特に安全が重要視される工業製品やソフトウェアにおいて広く採用されている。例えば、特定のボタンを押すためには、特定の手順を踏む必要がある設計や、誤って操作できないように物理的に形状を工夫することなどが挙げられる。フールプルーフ設計は、多くのユーザーが安心して使用できる環境を提供し、トラブルを未然に防ぐことを目的としている。",
-          "vi": "Foolproof (Foolproof) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Foolproof thiết kế sản phẩm hoặc hệ thống để người dùng khó thực hiện thao tác sai, và nếu vẫn thao tác nhầm thì khó dẫn đến tai nạn hay thiệt hại nghiêm trọng. Biện pháp có thể là đầu nối chỉ cắm đúng một chiều, khóa liên động, giới hạn giá trị nhập, vô hiệu hóa lựa chọn không hợp lệ hoặc yêu cầu xác nhận bổ sung cho thao tác nguy hiểm."
         },
         {
           "type": "point",
           "ja": "利用者が誤操作しても危険や重大な障害が起きにくいように設計する考え方である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "vi": "Foolproof chủ động giảm khả năng và hậu quả của thao tác nhầm bằng thiết kế. Nó tập trung vào lỗi sử dụng, khác fail-safe là đưa hệ thống về trạng thái an toàn sau khi phát hiện hỏng hóc hoặc bất thường."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、管理画面で稼働中のデータを削除するとき、対象名の再入力、影響範囲の表示、権限確認を要求し、通常の操作ボタンから離して配置する。単なる注意文よりも誤削除を実行しにくい設計である。",
+        "vi": "Ví dụ, khi xóa dữ liệu đang sử dụng trong màn hình quản trị, hệ thống yêu cầu nhập lại tên đối tượng, hiển thị phạm vi ảnh hưởng, kiểm tra quyền và đặt nút xóa cách xa thao tác thông thường. Thiết kế này làm việc xóa nhầm khó xảy ra hơn chỉ hiển thị cảnh báo."
+      },
+      {
+        "type": "warning",
+        "ja": "フールプルーフは利用者を責めたり、警告を増やすだけの考え方ではない。予見可能な誤操作をリスク分析で特定し、操作そのものを不可能又は回復可能にする設計を優先する。ただし、全ての誤使用を防げるとは限らない。",
+        "vi": "Foolproof không phải là đổ lỗi cho người dùng hoặc chỉ tăng số cảnh báo. Cần xác định thao tác sai có thể dự đoán qua phân tích rủi ro và ưu tiên thiết kế khiến thao tác đó không thể thực hiện hoặc có thể phục hồi; tuy nhiên không thể ngăn mọi cách dùng sai."
         }
       ],
       "terms": [
         {
           "term": "フールプルーフ",
-          "reading": "",
+        "reading": "ふーるぷるーふ",
           "english": "Foolproof",
           "vi": "Foolproof",
           "definitionJa": "システムや製品が誤操作や誤使用に対して保護されるよう設計された状態を指す。",
-          "definitionVi": "Foolproof: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Tư tưởng thiết kế ngăn thao tác sai hoặc hạn chế hậu quả của lỗi sử dụng bằng ràng buộc vật lý, logic và giao diện."
         }
       ],
       "tags": ["system-configuration", "foolproof"]
@@ -2269,7 +2449,7 @@
       "titleVi": "Cấu hình Active-Standby",
       "importance": "high",
       "summaryJa": "システムの信頼性を高めるための設計構成の一つである。",
-      "summaryVi": "Cấu hình Active-Standby là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Cấu hình Active-Standby cho một hệ thống xử lý dịch vụ còn hệ kia chờ tiếp quản khi có lỗi, ưu tiên failover đơn giản và dự đoán được hơn việc sử dụng đồng thời mọi tài nguyên.",
       "content": [
         {
           "type": "heading",
@@ -2279,12 +2459,22 @@
         {
           "type": "paragraph",
           "ja": "システムの信頼性を高めるための設計構成の一つである。この構成では、主に二つのシステムが用意され、一方は通常稼働している「アクティブ」な状態で、もう一方は待機している「スタンバイ」状態にある。アクティブなシステムに障害が発生した場合、スタンバイのシステムが即座に稼働を開始し、サービスの継続性を確保する。これにより、ダウンタイムを最小限に抑え、データ損失のリスクを減少させることが可能となる。また、定期的にスタンバイシステムをテストすることで、常に信頼性を保つことが求められるため、業務の運営において非常に重要な役割を果たしている。",
-          "vi": "Cấu hình Active-Standby (Active-Standby Configuration) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Trong cấu hình Active-Standby, node active xử lý tải trong khi node standby không phục vụ tải chính và theo dõi trạng thái để tiếp quản khi active hỏng. Failover gồm phát hiện lỗi, chuyển quyền sở hữu tài nguyên hoặc địa chỉ dịch vụ và khôi phục xử lý trên standby. Dữ liệu, cấu hình và năng lực của standby phải được chuẩn bị đủ để quá trình này thành công."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "アクティブ-スタンバイ構成では、通常時はアクティブ系だけがサービスを処理し、障害検出後にスタンバイ系へフェイルオーバする。構成は比較的単純だが、待機資源を通常時に十分活用できない。",
+        "vi": "Trong Active-Standby, bình thường chỉ hệ active xử lý dịch vụ và failover sang standby sau khi phát hiện lỗi. Cấu hình tương đối đơn giản nhưng tài nguyên standby không được tận dụng đầy đủ trong vận hành bình thường."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2台のデータベースサーバのうち1台だけが更新要求を処理し、もう1台がログを同期して待機する。監視機構が主系の停止を検出すると、待機系を昇格させ、仮想IPアドレスを切り替える。",
+        "vi": "Ví dụ, trong hai máy chủ cơ sở dữ liệu chỉ một máy xử lý yêu cầu cập nhật, máy còn lại đồng bộ log và chờ. Khi cơ chế giám sát phát hiện máy chính dừng, máy standby được nâng vai trò và địa chỉ IP ảo được chuyển sang nó."
+      },
+      {
+        "type": "warning",
+        "ja": "スタンバイ系があっても、切替えは必ず無停止・無損失になるとは限らない。障害検出時間、データ同期方式、昇格処理、共有部品の単一障害点によってRTOとRPOが決まる。",
+        "vi": "Có standby không bảo đảm chuyển đổi luôn không gián đoạn và không mất dữ liệu. Thời gian phát hiện lỗi, cách đồng bộ dữ liệu, quá trình nâng vai trò và điểm lỗi đơn ở thành phần dùng chung quyết định RTO và RPO."
         }
       ],
       "terms": [
@@ -2294,7 +2484,7 @@
           "english": "Active-Standby Configuration",
           "vi": "Cấu hình Active-Standby",
           "definitionJa": "システムの信頼性を高めるための設計構成の一つである。",
-          "definitionVi": "Cấu hình Active-Standby: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Cấu hình trong đó một hệ xử lý dịch vụ còn hệ dự phòng chờ để tiếp quản bằng failover khi hệ active bị lỗi."
         }
       ],
       "tags": ["system-configuration", "active-standby-configuration"]
@@ -2306,7 +2496,7 @@
       "titleVi": "Cấu hình Active-Active",
       "importance": "high",
       "summaryJa": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。",
-      "summaryVi": "Cấu hình Active-Active là nội dung cần nắm trong phần cấu hình hệ thống của kỳ thi FE.",
+    "summaryVi": "Cấu hình Active-Active cho nhiều node đồng thời xử lý tải, giúp tận dụng tài nguyên và mở rộng hiệu năng nhưng yêu cầu phân tải, đồng bộ và xử lý lỗi phức tạp hơn.",
       "content": [
         {
           "type": "heading",
@@ -2316,12 +2506,22 @@
         {
           "type": "paragraph",
           "ja": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。具体的には、二つ以上のサーバが同時にリクエストを処理するため、もし一つのサーバが故障した場合でも、他のサーバがその役割を引き継ぎ、サービスが途切れない。その結果、システム全体のダウンタイムを最小限に抑えることが可能である。この方式は、データセンターやクラウドサービスなど、重要なインフラストラクチャに特に効果的で、ビジネスの継続性を保つために広く用いられている。",
-          "vi": "Cấu hình Active-Active (Active-Active Configuration) là khái niệm thuộc cấu hình/hệ thống máy tính. Cần nắm định nghĩa, đặc điểm hoạt động và điểm khác biệt với các khái niệm liên quan để làm bài FE."
+        "vi": "Trong cấu hình Active-Active, nhiều node đồng thời nhận và xử lý một phần tải. Bộ cân bằng tải hoặc cơ chế định tuyến phân phối yêu cầu; khi một node hỏng, lưu lượng được chuyển sang các node còn lại. Cấu hình này tận dụng tài nguyên tốt và có thể tăng thông lượng, nhưng ứng dụng và dữ liệu phải hỗ trợ xử lý đồng thời, đồng bộ trạng thái và tránh xung đột."
         },
         {
           "type": "point",
-          "ja": "用語の定義だけでなく、目的・特徴・関連する方式との違いを理解することが重要である。",
-          "vi": "Khi ôn FE, cần ghi nhớ định nghĩa, mục đích và cách phân biệt khái niệm này với các thuật ngữ gần nghĩa hoặc cùng nhóm."
+        "ja": "アクティブ-アクティブ構成では、複数系が通常時から処理を分担する。1系の障害後も残る系で継続できるが、残存系が全負荷を処理できるよう容量を設計し、状態やデータの整合性を保つ必要がある。",
+        "vi": "Trong Active-Active, nhiều hệ chia tải ngay từ bình thường. Khi một hệ hỏng, các hệ còn lại có thể tiếp tục nhưng phải được thiết kế đủ năng lực gánh toàn bộ tải cần thiết và duy trì nhất quán trạng thái/dữ liệu."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2台のWebサーバがロードバランサ配下で同時に要求を処理する。1台がヘルスチェックに失敗すると振分け対象から外し、残る1台へ要求を送る。ただし、残る1台にはピーク時の必要処理能力が必要である。",
+        "vi": "Ví dụ, hai máy chủ web đồng thời xử lý yêu cầu phía sau load balancer. Khi một máy không đạt health check, nó bị loại khỏi danh sách phân phối và yêu cầu được gửi tới máy còn lại; máy này phải có đủ năng lực cho tải cần thiết lúc cao điểm."
+      },
+      {
+        "type": "warning",
+        "ja": "複数系が稼働しているだけで安全なアクティブ-アクティブになるわけではない。共有データへの同時更新、セッション状態、スプリットブレイン、障害後の過負荷を制御できなければ、重複処理やデータ不整合が生じる。",
+        "vi": "Chỉ để nhiều hệ cùng chạy chưa tạo thành Active-Active an toàn. Nếu không kiểm soát cập nhật đồng thời dữ liệu chung, trạng thái phiên, split-brain và quá tải sau lỗi, hệ thống có thể xử lý trùng hoặc làm dữ liệu không nhất quán."
         }
       ],
       "terms": [
@@ -2331,7 +2531,7 @@
           "english": "Active-Active Configuration",
           "vi": "Cấu hình Active-Active",
           "definitionJa": "複数のシステムやコンポーネントが同時に稼働し、負荷を分散させることで、全体の信頼性と可用性を向上させる設計方式である。",
-          "definitionVi": "Cấu hình Active-Active: khái niệm cần ghi nhớ trong phần cấu hình hệ thống."
+        "definitionVi": "Cấu hình trong đó nhiều hệ đồng thời xử lý tải và các hệ còn lại tiếp tục phục vụ khi một hệ bị lỗi."
         }
       ],
       "tags": ["system-configuration", "active-active-configuration"]

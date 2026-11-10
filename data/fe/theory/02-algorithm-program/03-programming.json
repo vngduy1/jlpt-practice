@@ -58,6 +58,16 @@
           "type": "point",
           "ja": "「プログラム」はコンピュータに実行させる命令の集まり、「プログラミング」はそのプログラムを作成するための活動である。",
           "vi": "Cần phân biệt: 'program' là tập hợp các lệnh để máy tính thực hiện, còn 'programming' là hoạt động tạo ra chương trình đó."
+        },
+        {
+          "type": "example",
+          "ja": "商品の単価と数量を入力し、合計金額を計算して表示する場合、入力、計算、出力という処理手順を設計し、プログラミング言語で記述してテストする。",
+          "vi": "Ví dụ chương trình nhận đơn giá và số lượng, tính rồi hiển thị tổng tiền: cần thiết kế các bước nhập, tính toán, xuất kết quả, sau đó viết bằng ngôn ngữ lập trình và kiểm thử."
+        },
+        {
+          "type": "warning",
+          "ja": "文法的に正しく実行できるコードでも、要求を満たすとは限らない。期待結果、境界値、異常入力を含むテストで処理の正しさを確認する。",
+          "vi": "Code đúng cú pháp và chạy được chưa chắc đáp ứng yêu cầu. Cần kiểm thử kết quả mong đợi, giá trị biên và đầu vào bất thường."
         }
       ],
       "terms": [
@@ -139,6 +149,16 @@
           "type": "point",
           "ja": "命名規則は、名前そのものを統一するのではなく、「名前の付け方」を統一するためのルールである。",
           "vi": "Quy tắc đặt tên không phải là thống nhất chính các tên được sử dụng, mà là thống nhất cách đặt tên."
+        },
+        {
+          "type": "example",
+          "ja": "変数をcamelCaseの`totalPrice`、クラスをPascalCaseの`OrderService`、定数を大文字とアンダースコアの`MAX_RETRY_COUNT`とするよう、対象ごとの規則をチームで定める。",
+          "vi": "Nhóm có thể quy định biến dùng camelCase như `totalPrice`, lớp dùng PascalCase như `OrderService`, hằng số dùng chữ hoa và gạch dưới như `MAX_RETRY_COUNT`."
+        },
+        {
+          "type": "warning",
+          "ja": "命名スタイルを統一しても、`data1`や`temp`のように役割が分からない名前では可読性は上がらない。言語の予約語や有効範囲内での重複にも注意する。",
+          "vi": "Thống nhất kiểu viết vẫn không giúp dễ đọc nếu dùng tên mơ hồ như `data1` hoặc `temp`. Cũng phải tránh từ khóa dành riêng và tên trùng trong cùng phạm vi."
         }
       ],
       "terms": [
@@ -283,6 +303,16 @@
           "type": "point",
           "ja": "機能適合性＝要求された機能、性能効率性＝性能と資源、使用性＝使いやすさ、保守性＝修正・変更のしやすさ、と整理する。",
           "vi": "Có thể ghi nhớ: tính phù hợp chức năng = chức năng được yêu cầu; hiệu quả hiệu năng = hiệu năng và tài nguyên; khả năng sử dụng = dễ sử dụng; khả năng bảo trì = dễ sửa đổi và thay đổi."
+        },
+        {
+          "type": "example",
+          "ja": "検索機能で、条件どおりの結果を返すことは機能適合性、2秒以内の応答は性能効率性、迷わず条件を指定できる画面は使用性、検索条件を容易に追加できる構造は保守性の改善に当たる。",
+          "vi": "Với chức năng tìm kiếm: trả đúng kết quả là phù hợp chức năng; phản hồi trong 2 giây là hiệu quả hiệu năng; màn hình dễ nhập điều kiện là khả năng sử dụng; cấu trúc dễ thêm điều kiện là khả năng bảo trì."
+        },
+        {
+          "type": "warning",
+          "ja": "一つの改善が他の品質特性を低下させる場合がある。例えばキャッシュで性能を上げても、更新処理が複雑になれば保守性や正確性に影響するため、要求に基づいてトレードオフを評価する。",
+          "vi": "Cải thiện một đặc tính có thể làm giảm đặc tính khác. Ví dụ cache tăng tốc nhưng làm cập nhật phức tạp, ảnh hưởng bảo trì hoặc tính đúng; cần đánh giá đánh đổi theo yêu cầu."
         }
       ],
       "terms": [
@@ -371,6 +401,16 @@
           "type": "point",
           "ja": "モジュール分割の主な利点は、可読性、保守性、再利用性、テストのしやすさを向上させることである。",
           "vi": "Lợi ích chính của phân chia mô-đun là nâng cao tính dễ đọc, khả năng bảo trì, khả năng tái sử dụng và khả năng kiểm thử."
+        },
+        {
+          "type": "example",
+          "ja": "受注処理を、入力検証、在庫確認、金額計算、支払、通知の各モジュールに分ける。金額計算を独立してテストでき、税率変更時の修正範囲も限定しやすい。",
+          "vi": "Có thể chia xử lý đơn hàng thành các mô-đun kiểm tra đầu vào, tồn kho, tính tiền, thanh toán và thông báo. Khi đó dễ kiểm thử riêng phần tính tiền và giới hạn phạm vi sửa khi thuế suất đổi."
+        },
+        {
+          "type": "warning",
+          "ja": "細かく分割しすぎると呼出し関係やインタフェースが増え、かえって理解しにくくなる。役割のまとまりと変更理由を基準に、適切な粒度で分割する。",
+          "vi": "Chia quá nhỏ làm tăng quan hệ gọi và giao diện, khiến hệ thống khó hiểu hơn. Nên chọn mức phân chia theo trách nhiệm thống nhất và lý do thay đổi."
         }
       ],
       "terms": [
@@ -450,6 +490,16 @@
           "type": "point",
           "ja": "モジュール独立性を高める基本は、モジュール間の依存関係を小さくし、それぞれのモジュールの役割を明確にすることである。",
           "vi": "Điểm quan trọng: để tăng tính độc lập của mô-đun, cần giảm sự phụ thuộc giữa các mô-đun và làm rõ trách nhiệm của từng mô-đun."
+        },
+        {
+          "type": "example",
+          "ja": "料金計算モジュールが画面やデータベースを直接操作せず、単価・数量を引数で受けて金額を返すようにすると、結合度を下げ、計算という役割への凝集度を高められる。",
+          "vi": "Nếu mô-đun tính phí không trực tiếp thao tác giao diện hay cơ sở dữ liệu mà nhận đơn giá, số lượng và trả số tiền, coupling giảm còn cohesion cho nhiệm vụ tính toán tăng."
+        },
+        {
+          "type": "warning",
+          "ja": "独立性は単にモジュール数を増やすことではない。一般に、モジュール間の結合度を低くし、モジュール内部の凝集度を高くする設計を目指す。",
+          "vi": "Tính độc lập không đồng nghĩa tăng số mô-đun. Thông thường cần hướng tới coupling giữa mô-đun thấp và cohesion bên trong mô-đun cao."
         }
       ],
       "terms": [
@@ -594,6 +644,16 @@
           "type": "point",
           "ja": "サブルーチンを利用すると、処理の重複を減らし、プログラムの保守性と再利用性を高めることができる。",
           "vi": "Sử dụng subroutine giúp giảm xử lý trùng lặp và nâng cao khả năng bảo trì cũng như tái sử dụng của chương trình."
+        },
+        {
+          "type": "example",
+          "ja": "`calculateTax(amount, rate)`というサブルーチンに金額と税率を渡し、計算結果を戻り値で受け取る。複数画面で同じ計算を複製せずに利用できる。",
+          "vi": "Truyền số tiền và thuế suất vào subroutine `calculateTax(amount, rate)`, nhận kết quả qua giá trị trả về; nhiều màn hình dùng chung mà không sao chép công thức."
+        },
+        {
+          "type": "warning",
+          "ja": "サブルーチンがグローバル変数を暗黙に変更すると、副作用によって呼出し元との依存が強くなる。必要な値は引数と戻り値で明確に受け渡す。",
+          "vi": "Nếu subroutine âm thầm sửa biến toàn cục, tác dụng phụ làm tăng phụ thuộc với nơi gọi. Nên truyền dữ liệu rõ ràng qua tham số và giá trị trả về."
         }
       ],
       "terms": [
@@ -651,6 +711,16 @@
           "type": "point",
           "ja": "整数型は小数部を持たない値を扱う。表現できる範囲はビット数や符号の有無によって決まる。",
           "vi": "Kiểu số nguyên dùng cho giá trị không có phần thập phân. Phạm vi biểu diễn phụ thuộc vào số bit và việc kiểu dữ liệu có dấu hay không."
+        },
+        {
+          "type": "example",
+          "ja": "8ビット符号なし整数は0～255を表せるため、画素の一つの色成分などに使える。一方、負数を扱う在庫差分には符号付き型が必要である。",
+          "vi": "Số nguyên không dấu 8 bit biểu diễn 0–255 nên có thể dùng cho một thành phần màu của điểm ảnh; còn chênh lệch tồn kho có giá trị âm cần kiểu có dấu."
+        },
+        {
+          "type": "warning",
+          "ja": "型の範囲を超える演算ではオーバフローが起こり得る。また整数同士の除算では、言語によって小数部が切り捨てられるため、仕様を確認する。",
+          "vi": "Phép tính vượt phạm vi kiểu có thể gây tràn số. Phép chia hai số nguyên có thể bỏ phần thập phân tùy ngôn ngữ, vì vậy phải kiểm tra đặc tả."
         }
       ],
       "terms": [
@@ -716,6 +786,16 @@
           "type": "point",
           "ja": "実数型は小数を含む数値を扱える。多くの場合は浮動小数点数として表現され、計算時に誤差が生じる場合がある。",
           "vi": "Kiểu số thực có thể xử lý giá trị có phần thập phân. Thông thường nó được biểu diễn bằng số dấu phẩy động và có thể phát sinh sai số khi tính toán."
+        },
+        {
+          "type": "example",
+          "ja": "センサの測定値23.75や平均値を浮動小数点型で扱う。一方、金額を正確に扱う処理では、最小通貨単位の整数や十進型を用途に応じて選ぶ。",
+          "vi": "Có thể dùng số dấu phẩy động cho giá trị cảm biến 23,75 hoặc giá trị trung bình. Với tiền tệ cần chính xác, tùy mục đích nên dùng số nguyên theo đơn vị tiền nhỏ nhất hoặc kiểu thập phân."
+        },
+        {
+          "type": "warning",
+          "ja": "2進浮動小数点では0.1などを正確に表せない場合があるため、計算結果を`==`で直接比較すると誤判定し得る。許容誤差を用いるなど目的に合う比較を行う。",
+          "vi": "Dấu phẩy động nhị phân có thể không biểu diễn chính xác 0,1; so sánh trực tiếp kết quả bằng `==` có thể sai. Hãy so sánh với sai số cho phép phù hợp mục đích."
         }
       ],
       "terms": [
@@ -846,6 +926,16 @@
           "type": "point",
           "ja": "文字型は基本的に一文字を扱う。複数の文字の集まりを扱うものは文字列型である。",
           "vi": "Kiểu ký tự về cơ bản xử lý một ký tự; tập hợp nhiều ký tự được xử lý bằng kiểu chuỗi."
+        },
+        {
+          "type": "example",
+          "ja": "回答欄の選択肢`'A'`や改行文字を一つの文字として扱い、氏名`\"Sato\"`は複数文字からなる文字列として扱う。",
+          "vi": "Lựa chọn `'A'` hoặc ký tự xuống dòng có thể được xử lý như một ký tự; tên `\"Sato\"` là chuỗi gồm nhiều ký tự."
+        },
+        {
+          "type": "warning",
+          "ja": "「一文字」が常に1バイトとは限らない。文字コードや言語の内部表現によって必要なバイト数やコード単位数が異なるため、バイト長と文字数を混同しない。",
+          "vi": "Một ký tự không phải lúc nào cũng dài 1 byte. Số byte hoặc code unit phụ thuộc mã hóa và biểu diễn của ngôn ngữ; không được nhầm độ dài byte với số ký tự."
         }
       ],
       "terms": [
@@ -911,6 +1001,16 @@
           "type": "point",
           "ja": "文字列型は複数の文字の集まりを扱うデータ型であり、結合、検索、部分文字列の取得などの操作が行われる。",
           "vi": "Kiểu chuỗi xử lý một tập hợp nhiều ký tự và hỗ trợ các thao tác như nối, tìm kiếm và lấy chuỗi con."
+        },
+        {
+          "type": "example",
+          "ja": "姓`\"Yamada\"`と名`\"Taro\"`を空白で結合して表示名を作り、文字列検索で特定語を含むか確認し、部分文字列として先頭数文字を取り出す。",
+          "vi": "Nối họ `\"Yamada\"` và tên `\"Taro\"` bằng khoảng trắng để tạo tên hiển thị, tìm từ khóa trong chuỗi và lấy vài ký tự đầu làm chuỗi con."
+        },
+        {
+          "type": "warning",
+          "ja": "文字列の添字、長さ、比較方法は言語や文字コードで異なる。大文字小文字、正規化、マルチバイト文字を考慮せずに切り出すと、検索や表示が誤ることがある。",
+          "vi": "Chỉ số, độ dài và cách so sánh chuỗi khác nhau theo ngôn ngữ, mã hóa. Cắt chuỗi mà bỏ qua hoa/thường, chuẩn hóa hoặc ký tự đa byte có thể làm tìm kiếm hay hiển thị sai."
         }
       ],
       "terms": [
@@ -1155,6 +1255,16 @@
           "type": "point",
           "ja": "算術演算の基本は加算・減算・乗算・除算である。プログラムでは演算子の優先順位にも注意する。",
           "vi": "Các phép toán số học cơ bản là cộng, trừ, nhân và chia. Trong chương trình cũng cần chú ý đến thứ tự ưu tiên của toán tử."
+        },
+        {
+          "type": "example",
+          "ja": "`2 + 3 * 4`は乗算が先なので14となり、`(2 + 3) * 4`は括弧内を先に計算して20となる。剰余演算`17 % 5`の結果は2である。",
+          "vi": "`2 + 3 * 4` bằng 14 vì nhân trước; `(2 + 3) * 4` bằng 20 vì tính trong ngoặc trước. Phép lấy dư `17 % 5` cho kết quả 2."
+        },
+        {
+          "type": "warning",
+          "ja": "ゼロ除算、整数除算の切捨て、オーバフロー、浮動小数点誤差は代表的な注意点である。演算子の意味と結果型は言語仕様で確認する。",
+          "vi": "Các bẫy điển hình gồm chia cho 0, cắt phần lẻ khi chia số nguyên, tràn số và sai số dấu phẩy động. Phải kiểm tra ý nghĩa toán tử và kiểu kết quả theo ngôn ngữ."
         }
       ],
       "terms": [
@@ -1285,6 +1395,16 @@
           "type": "point",
           "ja": "ANDは「両方が真」、ORは「少なくとも一方が真」、NOTは「真偽を反転」と覚える。",
           "vi": "Hãy nhớ: AND = cả hai đều đúng, OR = ít nhất một bên đúng, NOT = đảo ngược đúng/sai."
+        },
+        {
+          "type": "example",
+          "ja": "「会員である AND 残高が十分」で購入を許可し、「管理者である OR 所有者である」で編集を許可する。`NOT locked`はロックされていない状態を表す。",
+          "vi": "Cho phép mua khi “là hội viên AND số dư đủ”; cho phép sửa khi “là quản trị viên OR là chủ sở hữu”. `NOT locked` biểu diễn trạng thái không bị khóa."
+        },
+        {
+          "type": "warning",
+          "ja": "多くの言語のAND・ORは短絡評価を行い、結果が確定すると後続式を評価しない。後続式の副作用に依存せず、括弧で条件のまとまりを明確にする。",
+          "vi": "AND/OR trong nhiều ngôn ngữ dùng đánh giá ngắn mạch và không đánh giá vế sau khi đã xác định kết quả. Không nên phụ thuộc tác dụng phụ ở vế sau; dùng ngoặc làm rõ nhóm điều kiện."
         }
       ],
       "terms": [
@@ -1350,6 +1470,16 @@
           "type": "point",
           "ja": "ビット演算は0と1の各ビットを直接操作する。論理演算と似たAND・OR・NOTなどがあるが、真偽値ではなくビット単位で処理する点が重要である。",
           "vi": "Phép toán bit thao tác trực tiếp trên từng bit 0 và 1. Tuy có AND, OR, NOT giống phép toán logic, điểm quan trọng là chúng xử lý từng bit chứ không phải toàn bộ giá trị đúng/sai."
+        },
+        {
+          "type": "example",
+          "ja": "権限値`1011₂`から読取り権限を表すマスク`0010₂`をANDすると`0010₂`となり、その権限が設定済みと判定できる。XORは対応ビットが異なる位置を1にする。",
+          "vi": "AND giá trị quyền `1011₂` với mask quyền đọc `0010₂` cho `0010₂`, nên biết quyền đó đang bật. XOR đặt 1 tại các vị trí có hai bit khác nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "右シフトでは符号を維持する算術シフトと0を補う論理シフトを区別する。ビット幅を超えた値、符号付き値、シフト量の扱いは言語仕様に依存する。",
+          "vi": "Khi dịch phải, phân biệt dịch số học giữ dấu với dịch logic chèn 0. Cách xử lý độ rộng bit, số có dấu và lượng dịch phụ thuộc ngôn ngữ."
         }
       ],
       "terms": [
@@ -2066,6 +2196,16 @@
           "type": "point",
           "ja": "フロントエンドは主にユーザー側の表示・操作、バックエンドは主にサーバ側の処理・データ管理を担当する。",
           "vi": "Frontend chủ yếu phụ trách hiển thị và thao tác phía người dùng; backend chủ yếu phụ trách xử lý phía máy chủ và quản lý dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "商品検索では、ブラウザのJavaScriptが検索条件をHTTPリクエストで送信し、サーバが入力を検証してデータベースを検索し、JSONの応答を返し、フロントエンドが結果一覧を描画する。",
+          "vi": "Khi tìm sản phẩm, JavaScript trên trình duyệt gửi điều kiện qua HTTP; máy chủ kiểm tra đầu vào, truy vấn cơ sở dữ liệu và trả JSON; frontend dựng danh sách kết quả."
+        },
+        {
+          "type": "warning",
+          "ja": "ブラウザ側の入力検証だけを信頼しない。リクエストは改変できるため、認証・認可・入力検証はバックエンドでも必ず実施し、出力時にはコンテキストに応じてエスケープする。",
+          "vi": "Không tin cậy chỉ kiểm tra ở trình duyệt vì request có thể bị sửa. Backend phải thực hiện xác thực, phân quyền, kiểm tra đầu vào; dữ liệu đầu ra phải escape theo đúng ngữ cảnh."
         }
       ],
       "terms": [

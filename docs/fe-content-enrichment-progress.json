@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "identity": "file + lessonId",
-  "updatedAt": "2026-11-02T07:18:27.623Z",
+  "updatedAt": "2026-11-10T08:15:58.024Z",
   "sourceAudit": {
     "file": "docs/fe-content-quality-audit.json",
-    "generatedAt": "2026-11-02T07:17:19.173Z",
+    "generatedAt": "2026-11-10T08:14:48.000Z",
     "scriptVersion": "1.0.0"
   },
   "totals": {
     "totalLessons": 2596,
-    "completedLessons": 253,
-    "unfinishedLessons": 2343,
+    "completedLessons": 426,
+    "unfinishedLessons": 2170,
     "byStatus": {
-      "pending": 2343,
+      "pending": 2170,
       "in_progress": 0,
-      "completed": 253,
+      "completed": 426,
       "needs_review": 0
     }
   },
@@ -516,6 +516,491 @@
       "status": "completed",
       "updatedAt": "2026-11-02T07:18:27.620Z",
       "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-019.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "file": "data/fe/theory/11-security/05-security-implementation-technology.json",
+      "lessonIds": [
+        "internet-protocol-security",
+        "secure-sockets-layer-transport-layer-security",
+        "http-over-tls",
+        "wi-fi-protected-access-2",
+        "wi-fi-protected-access-3",
+        "sender-policy-framework",
+        "domainkeys-identified-mail",
+        "domain-based-message-authentication-reporting-and-conformance",
+        "oauth",
+        "dns-security-extensions",
+        "extensible-authentication-protocol-transport-layer-security",
+        "remote-authentication-dial-in-user-service",
+        "packet-filtering",
+        "network-address-translation",
+        "network-address-port-translation"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "file": "data/fe/theory/16-system-audit/01-system-audit.json",
+      "lessonIds": [
+        "information-security-audit",
+        "system-audit",
+        "internal-audit",
+        "external-audit",
+        "auditor-ethics",
+        "integrity-source-ambiguity",
+        "independence-objectivity",
+        "risk-based-approach",
+        "audit-evidence-collection",
+        "audit-working-papers",
+        "audit-conclusions",
+        "audit-reporting",
+        "risk",
+        "control",
+        "system-audit-plan"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "file": "data/fe/theory/16-system-audit/01-system-audit.json",
+      "lessonIds": [
+        "audit-findings",
+        "assurance-audit",
+        "advisory-audit",
+        "information-security-audit-standards",
+        "information-security-management-standards",
+        "jis-q-15001",
+        "privacy-mark",
+        "jis-q-19011"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "file": "data/fe/theory/02-algorithm-program/03-programming.json",
+      "lessonIds": [
+        "programming-basics",
+        "naming-convention",
+        "program-quality-improvement",
+        "module-decomposition",
+        "module-independence",
+        "subroutine",
+        "integer-type",
+        "real-number-type",
+        "character-type",
+        "string-type",
+        "arithmetic-operation",
+        "logical-operation",
+        "bitwise-operation",
+        "web-programming"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "file": "data/fe/theory/02-algorithm-program/04-programming-languages.json",
+      "lessonIds": [
+        "procedural-language",
+        "c-language",
+        "r",
+        "java",
+        "cpp",
+        "go",
+        "php"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "file": "data/fe/theory/02-algorithm-program/05-other-languages.json",
+      "lessonIds": [
+        "html",
+        "dom",
+        "soap",
+        "sax",
+        "css",
+        "xsl",
+        "class-diagram",
+        "component-diagram",
+        "deployment-diagram"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "file": "data/fe/theory/03-computer-components/01-processor.json",
+      "lessonIds": [
+        "vliw",
+        "multi-core-processor",
+        "sisd",
+        "simd",
+        "mimd",
+        "loosely-coupled-multiprocessor-system",
+        "tightly-coupled-multiprocessor-system",
+        "amdahls-law",
+        "synchronization",
+        "cluster"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "file": "data/fe/theory/03-computer-components/02-memory.json",
+      "lessonIds": [
+        "ram",
+        "dram",
+        "sram",
+        "dimm",
+        "so-dimm",
+        "memory-unit",
+        "address-selection-mechanism",
+        "read-write-mechanism",
+        "cache-memory",
+        "main-memory",
+        "secondary-storage",
+        "disk-cache",
+        "write-through",
+        "write-back",
+        "memory-interleaving"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "file": "data/fe/theory/03-computer-components/02-memory.json",
+      "lessonIds": [
+        "write-once-read-many",
+        "hard-disk-drive",
+        "ssd",
+        "flash-memory",
+        "wear-leveling"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "file": "data/fe/theory/03-computer-components/04-input-output-devices.json",
+      "lessonIds": [
+        "usb",
+        "rs-232c",
+        "hdmi",
+        "displayport",
+        "serial-ata"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-030",
+      "file": "data/fe/theory/03-computer-components/04-input-output-devices.json",
+      "lessonIds": [
+        "bluetooth",
+        "ble",
+        "zigbee",
+        "nfc"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T01:25:28.442Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-030.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "file": "data/fe/theory/03-computer-components/04-input-output-devices.json",
+      "lessonIds": [
+        "parallel-data-transfer-method",
+        "analog",
+        "digital",
+        "program-control-method",
+        "dma-method",
+        "channel-control-method"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-032",
+      "file": "data/fe/theory/03-computer-components/04-input-output-devices.json",
+      "lessonIds": [
+        "star-connection",
+        "hub",
+        "terminator"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T02:11:52.258Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-032.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "raid0",
+        "raid1",
+        "raid10",
+        "raid5",
+        "raid6"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "dual-system",
+        "duplex-system",
+        "fault-tolerant-system",
+        "fault-avoidance",
+        "fail-safe",
+        "fail-soft"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-09-035",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "active-standby-configuration",
+        "active-active-configuration"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-09T02:26:48.979Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-035.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-036",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "saas",
+        "paas",
+        "iaas"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T00:17:38.625Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-036.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-037",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "batch-processing",
+        "real-time-processing"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T00:20:23.568Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-037.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-038",
+      "file": "data/fe/theory/04-system-components/01-system-configuration.json",
+      "lessonIds": [
+        "virtualization",
+        "foolproof"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T00:23:19.365Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-038.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "file": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json",
+      "lessonIds": [
+        "response-time",
+        "throughput",
+        "security-requirement",
+        "functional-requirements",
+        "non-functional-requirements"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "file": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json",
+      "lessonIds": [
+        "delivery",
+        "deployment-requirements",
+        "migration-requirements",
+        "implementation-feasibility-criteria",
+        "implementation-procedure"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "file": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json",
+      "lessonIds": [
+        "acceptance-procedure",
+        "acceptance-criteria",
+        "acceptance-test",
+        "acceptance-testing",
+        "acceptance-criteria-2"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "file": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json",
+      "lessonIds": [
+        "bidirectional-traceability",
+        "validation-testing-objective",
+        "success-criteria",
+        "root-cause-of-defect",
+        "corrective-action"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "file": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json",
+      "lessonIds": [
+        "defect-correction",
+        "bidirectional-traceability-2",
+        "usability-testing",
+        "beta-test",
+        "operational-testing",
+        "user-testing",
+        "acceptance-test-2"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "file": "data/fe/theory/12-system-development-technology/03-implementation-build.json",
+      "lessonIds": [
+        "test-coverage",
+        "code-inspection",
+        "cyclomatic-complexity",
+        "static-analysis",
+        "dynamic-testing"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "file": "data/fe/theory/12-system-development-technology/03-implementation-build.json",
+      "lessonIds": [
+        "unit-test",
+        "driver",
+        "stub",
+        "test-case",
+        "instruction-coverage"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md",
       "validation": {
         "status": "passed"
       }
@@ -1336,12 +1821,15 @@
       "lessonId": "programming-basics",
       "titleJa": "プログラミング",
       "titleVi": "Lập trình",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#naming-convention",
@@ -1349,12 +1837,15 @@
       "lessonId": "naming-convention",
       "titleJa": "命名規則",
       "titleVi": "Quy tắc đặt tên",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#disallow-directive",
@@ -1375,12 +1866,15 @@
       "lessonId": "program-quality-improvement",
       "titleJa": "プログラムの機能適合性・性能効率性・使用性・保守性の向上",
       "titleVi": "Nâng cao tính phù hợp chức năng, hiệu quả hiệu năng, khả năng sử dụng và khả năng bảo trì",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#module-decomposition",
@@ -1388,12 +1882,15 @@
       "lessonId": "module-decomposition",
       "titleJa": "モジュール分割",
       "titleVi": "Phân chia mô-đun",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#module-independence",
@@ -1401,12 +1898,15 @@
       "lessonId": "module-independence",
       "titleJa": "モジュール独立性",
       "titleVi": "Tính độc lập của mô-đun",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#main-routine",
@@ -1427,12 +1927,15 @@
       "lessonId": "subroutine",
       "titleJa": "サブルーチン",
       "titleVi": "Chương trình con",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#integer-type",
@@ -1440,12 +1943,15 @@
       "lessonId": "integer-type",
       "titleJa": "整数型",
       "titleVi": "Kiểu số nguyên",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#real-number-type",
@@ -1453,12 +1959,15 @@
       "lessonId": "real-number-type",
       "titleJa": "実数型",
       "titleVi": "Kiểu số thực",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#logical-type",
@@ -1479,12 +1988,15 @@
       "lessonId": "character-type",
       "titleJa": "文字型",
       "titleVi": "Kiểu ký tự",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#string-type",
@@ -1492,12 +2004,15 @@
       "lessonId": "string-type",
       "titleJa": "文字列型",
       "titleVi": "Kiểu chuỗi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#abstract-data-type",
@@ -1544,12 +2059,15 @@
       "lessonId": "arithmetic-operation",
       "titleJa": "算術演算",
       "titleVi": "Phép toán số học",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#comparison-operation",
@@ -1570,12 +2088,15 @@
       "lessonId": "logical-operation",
       "titleJa": "論理演算",
       "titleVi": "Phép toán logic",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#bitwise-operation",
@@ -1583,12 +2104,15 @@
       "lessonId": "bitwise-operation",
       "titleJa": "ビット演算",
       "titleVi": "Phép toán bit",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#selection-processing",
@@ -1726,12 +2250,15 @@
       "lessonId": "web-programming",
       "titleJa": "Webプログラミング",
       "titleVi": "Lập trình Web",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-023",
+      "updatedAt": "2026-11-05T05:34:17.368Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-023.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/03-programming.json#server-side-programming",
@@ -1804,12 +2331,15 @@
       "lessonId": "procedural-language",
       "titleJa": "手続型言語",
       "titleVi": "Ngôn ngữ lập trình thủ tục",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#object-oriented-language",
@@ -1895,12 +2425,15 @@
       "lessonId": "c-language",
       "titleJa": "C",
       "titleVi": "Ngôn ngữ C",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#r",
@@ -1908,12 +2441,15 @@
       "lessonId": "r",
       "titleJa": "R",
       "titleVi": "R",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#java",
@@ -1921,12 +2457,15 @@
       "lessonId": "java",
       "titleJa": "Java",
       "titleVi": "Java",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#cpp",
@@ -1934,12 +2473,15 @@
       "lessonId": "cpp",
       "titleJa": "C++",
       "titleVi": "C++",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#julia",
@@ -1960,12 +2502,15 @@
       "lessonId": "go",
       "titleJa": "Go",
       "titleVi": "Go",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#ecmascript",
@@ -1999,12 +2544,15 @@
       "lessonId": "php",
       "titleJa": "PHP",
       "titleVi": "PHP",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-024",
+      "updatedAt": "2026-11-06T01:12:03.001Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-024.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/04-programming-languages.json#python",
@@ -2064,12 +2612,15 @@
       "lessonId": "html",
       "titleJa": "HTML",
       "titleVi": "HTML",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#opening-tag",
@@ -2142,12 +2693,15 @@
       "lessonId": "dom",
       "titleJa": "DOM",
       "titleVi": "Mô hình đối tượng tài liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#soap",
@@ -2155,12 +2709,15 @@
       "lessonId": "soap",
       "titleJa": "SOAP",
       "titleVi": "SOAP",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#svg",
@@ -2181,12 +2738,15 @@
       "lessonId": "sax",
       "titleJa": "SAX",
       "titleVi": "SAX",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#xml-schema",
@@ -2233,12 +2793,15 @@
       "lessonId": "css",
       "titleJa": "CSS",
       "titleVi": "CSS",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#xsl",
@@ -2246,12 +2809,15 @@
       "lessonId": "xsl",
       "titleJa": "XSL",
       "titleVi": "XSL",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#class-diagram",
@@ -2259,12 +2825,15 @@
       "lessonId": "class-diagram",
       "titleJa": "クラス図",
       "titleVi": "Biểu đồ lớp",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#object-diagram",
@@ -2285,12 +2854,15 @@
       "lessonId": "component-diagram",
       "titleJa": "コンポーネント図",
       "titleVi": "Biểu đồ thành phần",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#package-diagram",
@@ -2311,12 +2883,15 @@
       "lessonId": "deployment-diagram",
       "titleJa": "配置図",
       "titleVi": "Biểu đồ triển khai",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-025",
+      "updatedAt": "2026-11-06T01:15:14.358Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-025.md"
+      }
     },
     {
       "key": "data/fe/theory/02-algorithm-program/05-other-languages.json#composite-structure-diagram",
@@ -3330,12 +3905,15 @@
       "lessonId": "vliw",
       "titleJa": "VLIW",
       "titleVi": "Kiến trúc VLIW",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#single-core-processor",
@@ -3356,12 +3934,15 @@
       "lessonId": "multi-core-processor",
       "titleJa": "マルチコアプロセッサ",
       "titleVi": "Bộ xử lý đa lõi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#sisd",
@@ -3369,12 +3950,15 @@
       "lessonId": "sisd",
       "titleJa": "SISD",
       "titleVi": "Một lệnh - một dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#simd",
@@ -3382,12 +3966,15 @@
       "lessonId": "simd",
       "titleJa": "SIMD",
       "titleVi": "Một lệnh - nhiều dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#misd",
@@ -3408,12 +3995,15 @@
       "lessonId": "mimd",
       "titleJa": "MIMD",
       "titleVi": "Nhiều lệnh - nhiều dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#loosely-coupled-multiprocessor-system",
@@ -3421,12 +4011,15 @@
       "lessonId": "loosely-coupled-multiprocessor-system",
       "titleJa": "疎結合マルチプロセッサシステム",
       "titleVi": "Hệ thống đa xử lý liên kết lỏng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#tightly-coupled-multiprocessor-system",
@@ -3434,12 +4027,15 @@
       "lessonId": "tightly-coupled-multiprocessor-system",
       "titleJa": "密結合マルチプロセッサシステム",
       "titleVi": "Hệ thống đa xử lý liên kết chặt",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#amdahls-law",
@@ -3447,12 +4043,15 @@
       "lessonId": "amdahls-law",
       "titleJa": "アムダールの法則",
       "titleVi": "Định luật Amdahl",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#synchronization",
@@ -3460,12 +4059,15 @@
       "lessonId": "synchronization",
       "titleJa": "同期",
       "titleVi": "Đồng bộ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/01-processor.json#cluster",
@@ -3473,12 +4075,15 @@
       "lessonId": "cluster",
       "titleJa": "クラスタ",
       "titleVi": "Cụm máy tính",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-026",
+      "updatedAt": "2026-11-06T01:18:32.443Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-026.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#ram",
@@ -3486,12 +4091,15 @@
       "lessonId": "ram",
       "titleJa": "RAM",
       "titleVi": "Bộ nhớ RAM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#rom",
@@ -3512,12 +4120,15 @@
       "lessonId": "dram",
       "titleJa": "DRAM",
       "titleVi": "Bộ nhớ DRAM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#sram",
@@ -3525,12 +4136,15 @@
       "lessonId": "sram",
       "titleJa": "SRAM",
       "titleVi": "Bộ nhớ SRAM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#dimm",
@@ -3538,12 +4152,15 @@
       "lessonId": "dimm",
       "titleJa": "DIMM",
       "titleVi": "Mô-đun bộ nhớ DIMM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#so-dimm",
@@ -3551,12 +4168,15 @@
       "lessonId": "so-dimm",
       "titleJa": "SO-DIMM",
       "titleVi": "Mô-đun bộ nhớ SO-DIMM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#memory-unit",
@@ -3564,12 +4184,15 @@
       "lessonId": "memory-unit",
       "titleJa": "記憶部",
       "titleVi": "Bộ phận nhớ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#address-selection-mechanism",
@@ -3577,12 +4200,15 @@
       "lessonId": "address-selection-mechanism",
       "titleJa": "アドレス選択機構",
       "titleVi": "Cơ chế chọn địa chỉ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#read-write-mechanism",
@@ -3590,12 +4216,15 @@
       "lessonId": "read-write-mechanism",
       "titleJa": "読取り書込み機構",
       "titleVi": "Cơ chế đọc/ghi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#cache-memory",
@@ -3603,12 +4232,15 @@
       "lessonId": "cache-memory",
       "titleJa": "キャッシュメモリ",
       "titleVi": "Bộ nhớ cache",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#main-memory",
@@ -3616,12 +4248,15 @@
       "lessonId": "main-memory",
       "titleJa": "主記憶",
       "titleVi": "Bộ nhớ chính",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#secondary-storage",
@@ -3629,12 +4264,15 @@
       "lessonId": "secondary-storage",
       "titleJa": "補助記憶",
       "titleVi": "Bộ nhớ phụ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#disk-cache",
@@ -3642,12 +4280,15 @@
       "lessonId": "disk-cache",
       "titleJa": "ディスクキャッシュ",
       "titleVi": "Bộ nhớ đệm đĩa",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#write-through",
@@ -3655,12 +4296,15 @@
       "lessonId": "write-through",
       "titleJa": "ライトスルー",
       "titleVi": "Ghi xuyên",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#write-back",
@@ -3668,12 +4312,15 @@
       "lessonId": "write-back",
       "titleJa": "ライトバック",
       "titleVi": "Ghi trả",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#memory-interleaving",
@@ -3681,12 +4328,15 @@
       "lessonId": "memory-interleaving",
       "titleJa": "メモリインターリーブ",
       "titleVi": "Xen kẽ bộ nhớ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-027",
+      "updatedAt": "2026-11-06T01:42:20.335Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-027.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#read-only-type",
@@ -3707,12 +4357,15 @@
       "lessonId": "write-once-read-many",
       "titleJa": "追記型",
       "titleVi": "Loại ghi một lần",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#rewritable",
@@ -3733,12 +4386,15 @@
       "lessonId": "hard-disk-drive",
       "titleJa": "ハードディスク",
       "titleVi": "Ổ đĩa cứng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#ssd",
@@ -3746,12 +4402,15 @@
       "lessonId": "ssd",
       "titleJa": "SSD",
       "titleVi": "Ổ SSD",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#cd",
@@ -3798,12 +4457,15 @@
       "lessonId": "flash-memory",
       "titleJa": "フラッシュメモリ",
       "titleVi": "Bộ nhớ flash",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/02-memory.json#streamer",
@@ -3837,12 +4499,15 @@
       "lessonId": "wear-leveling",
       "titleJa": "ウェアレベリング",
       "titleVi": "Cân bằng hao mòn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-06-028",
+      "updatedAt": "2026-11-06T01:47:39.711Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-06-028.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/03-bus.json#bus",
@@ -4032,12 +4697,15 @@
       "lessonId": "usb",
       "titleJa": "USB",
       "titleVi": "USB",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#thunderbolt",
@@ -4058,12 +4726,15 @@
       "lessonId": "rs-232c",
       "titleJa": "RS-232C",
       "titleVi": "RS-232C",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#hdmi",
@@ -4071,12 +4742,15 @@
       "lessonId": "hdmi",
       "titleJa": "HDMI",
       "titleVi": "HDMI",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#displayport",
@@ -4084,12 +4758,15 @@
       "lessonId": "displayport",
       "titleJa": "DisplayPort",
       "titleVi": "DisplayPort",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#serial-ata",
@@ -4097,12 +4774,15 @@
       "lessonId": "serial-ata",
       "titleJa": "シリアルATA",
       "titleVi": "Serial ATA",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-029",
+      "updatedAt": "2026-11-09T01:22:47.038Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-029.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#bluetooth",
@@ -4110,12 +4790,15 @@
       "lessonId": "bluetooth",
       "titleJa": "Bluetooth",
       "titleVi": "Bluetooth",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-030",
+      "updatedAt": "2026-11-09T01:25:28.442Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-030.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#ble",
@@ -4123,12 +4806,15 @@
       "lessonId": "ble",
       "titleJa": "BLE",
       "titleVi": "Bluetooth năng lượng thấp",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-030",
+      "updatedAt": "2026-11-09T01:25:28.442Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-030.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#zigbee",
@@ -4136,12 +4822,15 @@
       "lessonId": "zigbee",
       "titleJa": "ZigBee",
       "titleVi": "ZigBee",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-030",
+      "updatedAt": "2026-11-09T01:25:28.442Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-030.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#irda",
@@ -4162,12 +4851,15 @@
       "lessonId": "nfc",
       "titleJa": "NFC",
       "titleVi": "Giao tiếp trường gần",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-030",
+      "updatedAt": "2026-11-09T01:25:28.442Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-030.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#serial-data-transmission-method",
@@ -4188,12 +4880,15 @@
       "lessonId": "parallel-data-transfer-method",
       "titleJa": "パラレルデータ転送方式",
       "titleVi": "Phương thức truyền dữ liệu song song",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#analog",
@@ -4201,12 +4896,15 @@
       "lessonId": "analog",
       "titleJa": "アナログ",
       "titleVi": "Analog",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#digital",
@@ -4214,12 +4912,15 @@
       "lessonId": "digital",
       "titleJa": "デジタル",
       "titleVi": "Digital",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#star-connection",
@@ -4227,12 +4928,15 @@
       "lessonId": "star-connection",
       "titleJa": "スター接続",
       "titleVi": "Kết nối hình sao",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-032",
+      "updatedAt": "2026-11-09T02:11:52.258Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-032.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#cascade-connection",
@@ -4253,12 +4957,15 @@
       "lessonId": "hub",
       "titleJa": "ハブ",
       "titleVi": "Hub",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-032",
+      "updatedAt": "2026-11-09T02:11:52.258Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-032.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#daisy-chain-connection",
@@ -4279,12 +4986,15 @@
       "lessonId": "terminator",
       "titleJa": "ターミネーター",
       "titleVi": "Bộ kết cuối",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-032",
+      "updatedAt": "2026-11-09T02:11:52.258Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-032.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#tree-connection",
@@ -4305,12 +5015,15 @@
       "lessonId": "program-control-method",
       "titleJa": "プログラム制御方式",
       "titleVi": "Phương thức điều khiển bằng chương trình",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#dma-method",
@@ -4318,12 +5031,15 @@
       "lessonId": "dma-method",
       "titleJa": "DMA方式",
       "titleVi": "Phương thức DMA",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/04-input-output-devices.json#channel-control-method",
@@ -4331,12 +5047,15 @@
       "lessonId": "channel-control-method",
       "titleJa": "チャネル制御方式",
       "titleVi": "Phương thức điều khiển kênh",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-031",
+      "updatedAt": "2026-11-09T01:58:08.634Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-031.md"
+      }
     },
     {
       "key": "data/fe/theory/03-computer-components/05-input-output-equipment.json#pointing-device",
@@ -5143,12 +5862,15 @@
       "lessonId": "batch-processing",
       "titleJa": "バッチ処理",
       "titleVi": "Xử lý hàng loạt",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-037",
+      "updatedAt": "2026-11-10T00:20:23.568Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-037.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#real-time-processing",
@@ -5156,12 +5878,15 @@
       "lessonId": "real-time-processing",
       "titleJa": "リアルタイム処理",
       "titleVi": "Xử lý thời gian thực",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-037",
+      "updatedAt": "2026-11-10T00:20:23.568Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-037.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#parallel-processing",
@@ -5221,12 +5946,15 @@
       "lessonId": "dual-system",
       "titleJa": "デュアルシステム",
       "titleVi": "Hệ thống dual",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#duplex-system",
@@ -5234,12 +5962,15 @@
       "lessonId": "duplex-system",
       "titleJa": "デュプレックスシステム",
       "titleVi": "Hệ thống duplex",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#cluster",
@@ -5416,12 +6147,15 @@
       "lessonId": "virtualization",
       "titleJa": "仮想化",
       "titleVi": "Ảo hóa",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-038",
+      "updatedAt": "2026-11-10T00:23:19.365Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-038.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#vm",
@@ -5481,12 +6215,15 @@
       "lessonId": "saas",
       "titleJa": "SaaS",
       "titleVi": "Phần mềm dưới dạng dịch vụ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-036",
+      "updatedAt": "2026-11-10T00:17:38.625Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-036.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#paas",
@@ -5494,12 +6231,15 @@
       "lessonId": "paas",
       "titleJa": "PaaS",
       "titleVi": "Nền tảng dưới dạng dịch vụ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-036",
+      "updatedAt": "2026-11-10T00:17:38.625Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-036.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#iaas",
@@ -5507,12 +6247,15 @@
       "lessonId": "iaas",
       "titleJa": "IaaS",
       "titleVi": "Hạ tầng dưới dạng dịch vụ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-036",
+      "updatedAt": "2026-11-10T00:17:38.625Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-036.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#serverless",
@@ -5702,12 +6445,15 @@
       "lessonId": "raid0",
       "titleJa": "RAID0",
       "titleVi": "RAID 0",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#raid1",
@@ -5715,12 +6461,15 @@
       "lessonId": "raid1",
       "titleJa": "RAID1",
       "titleVi": "RAID 1",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#raid10",
@@ -5728,12 +6477,15 @@
       "lessonId": "raid10",
       "titleJa": "RAID10",
       "titleVi": "RAID 10",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#raid2",
@@ -5780,12 +6532,15 @@
       "lessonId": "raid5",
       "titleJa": "RAID5",
       "titleVi": "RAID 5",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#raid6",
@@ -5793,12 +6548,15 @@
       "lessonId": "raid6",
       "titleJa": "RAID6",
       "titleVi": "RAID 6",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-033",
+      "updatedAt": "2026-11-09T02:15:26.882Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-033.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#striping",
@@ -5871,12 +6629,15 @@
       "lessonId": "fault-tolerant-system",
       "titleJa": "フォールトトレラントシステム",
       "titleVi": "Hệ thống chịu lỗi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#fault-avoidance",
@@ -5884,12 +6645,15 @@
       "lessonId": "fault-avoidance",
       "titleJa": "フォールトアボイダンス",
       "titleVi": "Phòng tránh lỗi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#fail-safe",
@@ -5897,12 +6661,15 @@
       "lessonId": "fail-safe",
       "titleJa": "フェールセーフ",
       "titleVi": "Fail-safe",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#fail-soft",
@@ -5910,12 +6677,15 @@
       "lessonId": "fail-soft",
       "titleJa": "フェールソフト",
       "titleVi": "Fail-soft",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-034",
+      "updatedAt": "2026-11-09T02:20:57.630Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-034.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#foolproof",
@@ -5923,12 +6693,15 @@
       "lessonId": "foolproof",
       "titleJa": "フールプルーフ",
       "titleVi": "Foolproof",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-038",
+      "updatedAt": "2026-11-10T00:23:19.365Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-038.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#active-standby-configuration",
@@ -5936,12 +6709,15 @@
       "lessonId": "active-standby-configuration",
       "titleJa": "アクティブ-スタンバイ構成",
       "titleVi": "Cấu hình Active-Standby",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-035",
+      "updatedAt": "2026-11-09T02:26:48.979Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-035.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/01-system-configuration.json#active-active-configuration",
@@ -5949,12 +6725,15 @@
       "lessonId": "active-active-configuration",
       "titleJa": "アクティブ-アクティブ構成",
       "titleVi": "Cấu hình Active-Active",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-09-035",
+      "updatedAt": "2026-11-09T02:26:48.979Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-09-035.md"
+      }
     },
     {
       "key": "data/fe/theory/04-system-components/02-system-evaluation-metrics.json#response-time",
@@ -9140,12 +9919,15 @@
       "lessonId": "internet-protocol-security",
       "titleJa": "IPsec",
       "titleVi": "IPsec",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#secure-sockets-layer-transport-layer-security",
@@ -9153,12 +9935,15 @@
       "lessonId": "secure-sockets-layer-transport-layer-security",
       "titleJa": "SSL/TLS",
       "titleVi": "SSL/TLS",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#secure-shell",
@@ -9179,12 +9964,15 @@
       "lessonId": "http-over-tls",
       "titleJa": "HTTPS",
       "titleVi": "HTTPS",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#wi-fi-protected-access-2",
@@ -9192,12 +9980,15 @@
       "lessonId": "wi-fi-protected-access-2",
       "titleJa": "WPA2",
       "titleVi": "WPA2",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#wi-fi-protected-access-3",
@@ -9205,12 +9996,15 @@
       "lessonId": "wi-fi-protected-access-3",
       "titleJa": "WPA3",
       "titleVi": "WPA3",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#bayesian-filtering",
@@ -9231,12 +10025,15 @@
       "lessonId": "sender-policy-framework",
       "titleJa": "SPF",
       "titleVi": "SPF",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#domainkeys-identified-mail",
@@ -9244,12 +10041,15 @@
       "lessonId": "domainkeys-identified-mail",
       "titleJa": "DKIM",
       "titleVi": "DKIM",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#domain-based-message-authentication-reporting-and-conformance",
@@ -9257,12 +10057,15 @@
       "lessonId": "domain-based-message-authentication-reporting-and-conformance",
       "titleJa": "DMARC",
       "titleVi": "DMARC",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#smtp-authentication",
@@ -9322,12 +10125,15 @@
       "lessonId": "oauth",
       "titleJa": "OAuth",
       "titleVi": "OAuth",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#dns-security-extensions",
@@ -9335,12 +10141,15 @@
       "lessonId": "dns-security-extensions",
       "titleJa": "DNSSEC",
       "titleVi": "DNSSEC",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#extensible-authentication-protocol",
@@ -9361,12 +10170,15 @@
       "lessonId": "extensible-authentication-protocol-transport-layer-security",
       "titleJa": "EAP-TLS",
       "titleVi": "EAP-TLS",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#protected-extensible-authentication-protocol",
@@ -9387,12 +10199,15 @@
       "lessonId": "remote-authentication-dial-in-user-service",
       "titleJa": "RADIUS",
       "titleVi": "RADIUS",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#packet-filtering",
@@ -9400,12 +10215,15 @@
       "lessonId": "packet-filtering",
       "titleJa": "パケットフィルタリング",
       "titleVi": "Lọc gói tin",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#mac-address-filtering",
@@ -9439,12 +10257,15 @@
       "lessonId": "network-address-translation",
       "titleJa": "NAT",
       "titleVi": "NAT",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#network-address-port-translation",
@@ -9452,12 +10273,15 @@
       "lessonId": "network-address-port-translation",
       "titleJa": "NAPT",
       "titleVi": "NAPT",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-02-020",
+      "updatedAt": "2026-11-05T05:06:14.621Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-02-020.md"
+      }
     },
     {
       "key": "data/fe/theory/11-security/05-security-implementation-technology.json#authentication-vlan",
@@ -9959,12 +10783,15 @@
       "lessonId": "response-time",
       "titleJa": "レスポンスタイム",
       "titleVi": "Thời gian đáp ứng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json#throughput",
@@ -9972,12 +10799,15 @@
       "lessonId": "throughput",
       "titleJa": "スループット",
       "titleVi": "Thông lượng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json#database-requirements",
@@ -10011,12 +10841,15 @@
       "lessonId": "security-requirement",
       "titleJa": "セキュリティ要件",
       "titleVi": "Yêu cầu bảo mật",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json#migration-requirements",
@@ -10154,12 +10987,15 @@
       "lessonId": "functional-requirements",
       "titleJa": "機能要件",
       "titleVi": "Yêu cầu chức năng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json#non-functional-requirements",
@@ -10167,12 +11003,15 @@
       "lessonId": "non-functional-requirements",
       "titleJa": "非機能要件",
       "titleVi": "Yêu cầu phi chức năng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-039",
+      "updatedAt": "2026-11-10T00:28:22.056Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-039.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/01-system-software-requirements.json#user-experience-design",
@@ -13001,12 +13840,15 @@
       "lessonId": "test-coverage",
       "titleJa": "テスト網羅性",
       "titleVi": "Độ bao phủ kiểm thử",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#suitability-of-coding-methods-and-work-standards",
@@ -13183,12 +14025,15 @@
       "lessonId": "code-inspection",
       "titleJa": "コードインスペクション",
       "titleVi": "Kiểm tra mã nguồn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#peer-code-review",
@@ -13222,12 +14067,15 @@
       "lessonId": "cyclomatic-complexity",
       "titleJa": "サイクロマティック複雑度",
       "titleVi": "Độ phức tạp Cyclomatic",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#debugging-environment",
@@ -13248,12 +14096,15 @@
       "lessonId": "static-analysis",
       "titleJa": "静的解析",
       "titleVi": "Phân tích tĩnh",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#dynamic-testing",
@@ -13261,12 +14112,15 @@
       "lessonId": "dynamic-testing",
       "titleJa": "動的テスト",
       "titleVi": "Kiểm thử động",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-044",
+      "updatedAt": "2026-11-10T08:08:54.362Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-044.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#assertion",
@@ -13417,12 +14271,15 @@
       "lessonId": "unit-test",
       "titleJa": "ユニットテスト",
       "titleVi": "Kiểm thử đơn vị",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#driver",
@@ -13430,12 +14287,15 @@
       "lessonId": "driver",
       "titleJa": "ドライバ",
       "titleVi": "Driver",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#stub",
@@ -13443,12 +14303,15 @@
       "lessonId": "stub",
       "titleJa": "スタブ",
       "titleVi": "Stub",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#test-data-generator",
@@ -13495,12 +14358,15 @@
       "lessonId": "test-case",
       "titleJa": "テストケース",
       "titleVi": "Ca kiểm thử",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#instruction-coverage",
@@ -13508,12 +14374,15 @@
       "lessonId": "instruction-coverage",
       "titleJa": "命令網羅",
       "titleVi": "Bao phủ câu lệnh",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-045",
+      "updatedAt": "2026-11-10T08:15:58.022Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#condition-coverage",
@@ -14015,12 +14884,15 @@
       "lessonId": "delivery",
       "titleJa": "納品",
       "titleVi": "Bàn giao sản phẩm",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#deployment-requirements",
@@ -14028,12 +14900,15 @@
       "lessonId": "deployment-requirements",
       "titleJa": "導入要件",
       "titleVi": "Yêu cầu triển khai",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#migration-requirements",
@@ -14041,12 +14916,15 @@
       "lessonId": "migration-requirements",
       "titleJa": "移行要件",
       "titleVi": "Yêu cầu chuyển đổi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#implementation-feasibility-criteria",
@@ -14054,12 +14932,15 @@
       "lessonId": "implementation-feasibility-criteria",
       "titleJa": "導入可否判断基準",
       "titleVi": "Tiêu chí đánh giá khả năng triển khai",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#installation-plan-creation",
@@ -14093,12 +14974,15 @@
       "lessonId": "implementation-procedure",
       "titleJa": "導入手順",
       "titleVi": "Quy trình triển khai",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-040",
+      "updatedAt": "2026-11-10T00:32:44.587Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-040.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#implementation-system",
@@ -14171,12 +15055,15 @@
       "lessonId": "acceptance-procedure",
       "titleJa": "受入れ手順",
       "titleVi": "Quy trình nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-criteria",
@@ -14184,12 +15071,15 @@
       "lessonId": "acceptance-criteria",
       "titleJa": "受入れ基準",
       "titleVi": "Tiêu chí nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-test",
@@ -14197,12 +15087,15 @@
       "lessonId": "acceptance-test",
       "titleJa": "受入れテスト",
       "titleVi": "Kiểm thử nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-testing",
@@ -14210,12 +15103,15 @@
       "lessonId": "acceptance-testing",
       "titleJa": "検収",
       "titleVi": "Nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-criteria-2",
@@ -14223,12 +15119,15 @@
       "lessonId": "acceptance-criteria-2",
       "titleJa": "検収基準",
       "titleVi": "Tiêu chí nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-041",
+      "updatedAt": "2026-11-10T06:16:36.043Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-041.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-system",
@@ -14249,12 +15148,15 @@
       "lessonId": "bidirectional-traceability",
       "titleJa": "双方向の追跡可能性",
       "titleVi": "Khả năng truy vết hai chiều",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#education-and-training-system",
@@ -14327,12 +15229,15 @@
       "lessonId": "validation-testing-objective",
       "titleJa": "妥当性確認テストの目的",
       "titleVi": "Mục đích kiểm thử xác nhận tính hợp lệ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#success-criteria",
@@ -14340,12 +15245,15 @@
       "lessonId": "success-criteria",
       "titleJa": "成功基準",
       "titleVi": "Tiêu chí thành công",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#validation-testing-techniques",
@@ -14379,12 +15287,15 @@
       "lessonId": "root-cause-of-defect",
       "titleJa": "不具合の根本原因",
       "titleVi": "Nguyên nhân gốc của lỗi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#corrective-action",
@@ -14392,12 +15303,15 @@
       "lessonId": "corrective-action",
       "titleJa": "是正処置",
       "titleVi": "Hành động khắc phục",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-042",
+      "updatedAt": "2026-11-10T06:46:09.360Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-042.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#defect-correction",
@@ -14405,12 +15319,15 @@
       "lessonId": "defect-correction",
       "titleJa": "欠陥修正",
       "titleVi": "Sửa lỗi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#improvement-work",
@@ -14444,12 +15361,15 @@
       "lessonId": "bidirectional-traceability-2",
       "titleJa": "双方向の追跡可能性",
       "titleVi": "Khả năng truy vết hai chiều",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#usability-testing",
@@ -14457,12 +15377,15 @@
       "lessonId": "usability-testing",
       "titleJa": "使用性テスト",
       "titleVi": "Kiểm thử tính dễ sử dụng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#beta-test",
@@ -14470,12 +15393,15 @@
       "lessonId": "beta-test",
       "titleJa": "ベータテスト",
       "titleVi": "Kiểm thử Beta",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#operational-testing",
@@ -14483,12 +15409,15 @@
       "lessonId": "operational-testing",
       "titleJa": "運用操作テスト",
       "titleVi": "Kiểm thử vận hành",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#user-testing",
@@ -14496,12 +15425,15 @@
       "lessonId": "user-testing",
       "titleJa": "利用者テスト",
       "titleVi": "Kiểm thử người dùng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/05-deployment-acceptance-support.json#acceptance-test-2",
@@ -14509,12 +15441,15 @@
       "lessonId": "acceptance-test-2",
       "titleJa": "受入れテスト",
       "titleVi": "Kiểm thử nghiệm thu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-10-043",
+      "updatedAt": "2026-11-10T08:05:34.260Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-043.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/06-maintenance-disposal.json#maintenance-procedures",
@@ -20955,12 +21890,15 @@
       "lessonId": "information-security-audit",
       "titleJa": "情報セキュリティ監査",
       "titleVi": "Kiểm toán an toàn thông tin",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#system-audit",
@@ -20968,12 +21906,15 @@
       "lessonId": "system-audit",
       "titleJa": "システム監査",
       "titleVi": "Kiểm toán hệ thống",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#accounting-audit",
@@ -21020,12 +21961,15 @@
       "lessonId": "internal-audit",
       "titleJa": "内部監査",
       "titleVi": "Kiểm toán nội bộ",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#external-audit",
@@ -21033,12 +21977,15 @@
       "lessonId": "external-audit",
       "titleJa": "外部監査",
       "titleVi": "Kiểm toán bên ngoài",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#auditor-authority-responsibility",
@@ -21059,12 +22006,15 @@
       "lessonId": "auditor-ethics",
       "titleJa": "監査人の倫理",
       "titleVi": "Đạo đức nghề nghiệp của kiểm toán viên",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#integrity-source-ambiguity",
@@ -21072,12 +22022,15 @@
       "lessonId": "integrity-source-ambiguity",
       "titleJa": "誠実性",
       "titleVi": "Tính toàn vẹn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#professional-competence",
@@ -21124,12 +22077,15 @@
       "lessonId": "independence-objectivity",
       "titleJa": "監査の独立性と客観性の保持",
       "titleVi": "Duy trì tính độc lập và khách quan của kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-criteria",
@@ -21163,12 +22119,15 @@
       "lessonId": "risk-based-approach",
       "titleJa": "リスクアプローチ",
       "titleVi": "Phương pháp tiếp cận dựa trên rủi ro",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-evidence-collection",
@@ -21176,12 +22135,15 @@
       "lessonId": "audit-evidence-collection",
       "titleJa": "監査証拠の入手と評価",
       "titleVi": "Thu thập và đánh giá bằng chứng kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-working-papers",
@@ -21189,12 +22151,15 @@
       "lessonId": "audit-working-papers",
       "titleJa": "監査調書の作成と保管",
       "titleVi": "Lập và lưu trữ hồ sơ làm việc kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-conclusions",
@@ -21202,12 +22167,15 @@
       "lessonId": "audit-conclusions",
       "titleJa": "監査の結論の形成",
       "titleVi": "Hình thành kết luận kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-reporting",
@@ -21215,12 +22183,15 @@
       "lessonId": "audit-reporting",
       "titleJa": "監査報告書の作成と報告",
       "titleVi": "Lập báo cáo và báo cáo kết quả kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#improvement-follow-up",
@@ -21241,12 +22212,15 @@
       "lessonId": "risk",
       "titleJa": "リスク",
       "titleVi": "Rủi ro",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#control",
@@ -21254,12 +22228,15 @@
       "lessonId": "control",
       "titleJa": "コントロール",
       "titleVi": "Biện pháp kiểm soát",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#internal-audit-regulations",
@@ -21293,12 +22270,15 @@
       "lessonId": "system-audit-plan",
       "titleJa": "システム監査計画",
       "titleVi": "Kế hoạch kiểm toán hệ thống",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-021",
+      "updatedAt": "2026-11-05T05:11:45.182Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-021.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#audit-procedures",
@@ -21371,12 +22351,15 @@
       "lessonId": "audit-findings",
       "titleJa": "指摘事項",
       "titleVi": "Các vấn đề được chỉ ra qua kiểm toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#assurance-audit",
@@ -21384,12 +22367,15 @@
       "lessonId": "assurance-audit",
       "titleJa": "保証を目的としたシステム監査",
       "titleVi": "Kiểm toán hệ thống nhằm mục đích bảo đảm",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#advisory-audit",
@@ -21397,12 +22383,15 @@
       "lessonId": "advisory-audit",
       "titleJa": "助言を目的としたシステム監査",
       "titleVi": "Kiểm toán hệ thống nhằm mục đích tư vấn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#improvement-proposal",
@@ -21462,12 +22451,15 @@
       "lessonId": "information-security-audit-standards",
       "titleJa": "情報セキュリティ監査基準",
       "titleVi": "Chuẩn mực kiểm toán an toàn thông tin",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#information-security-management-standards",
@@ -21475,12 +22467,15 @@
       "lessonId": "information-security-management-standards",
       "titleJa": "情報セキュリティ管理基準",
       "titleVi": "Chuẩn quản lý an toàn thông tin",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#cloud-security-management-standards",
@@ -21501,12 +22496,15 @@
       "lessonId": "jis-q-15001",
       "titleJa": "JIS Q 15001",
       "titleVi": "Tiêu chuẩn JIS Q 15001",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#privacy-mark",
@@ -21514,12 +22512,15 @@
       "lessonId": "privacy-mark",
       "titleJa": "プライバシーマーク制度",
       "titleVi": "Chế độ Privacy Mark",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#jis-q-19011",
@@ -21527,12 +22528,15 @@
       "lessonId": "jis-q-19011",
       "titleJa": "JIS Q 19011",
       "titleVi": "Tiêu chuẩn JIS Q 19011",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-05-022",
+      "updatedAt": "2026-11-05T05:19:12.404Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-05-022.md"
+      }
     },
     {
       "key": "data/fe/theory/16-system-audit/01-system-audit.json#copyright-law",

@@ -2862,6 +2862,16 @@
           "type": "point",
           "ja": "スーパースカラは主にCPUが並列実行を判断するのに対し、VLIWではコンパイラが並列実行可能な命令をまとめる。",
           "vi": "Superscalar chủ yếu để CPU quyết định thực thi song song; VLIW chủ yếu để compiler sắp xếp các lệnh song song trước."
+        },
+        {
+          "type": "example",
+          "ja": "互いに依存しない整数加算、乗算、ロードをコンパイラが同じ長い命令語の各スロットへ配置し、対応する複数の実行ユニットが同一サイクルで処理する。",
+          "vi": "Compiler đặt phép cộng số nguyên, phép nhân và lệnh load không phụ thuộc nhau vào các slot của cùng một từ lệnh dài để nhiều đơn vị thực thi xử lý trong một chu kỳ."
+        },
+        {
+          "type": "warning",
+          "ja": "依存関係や分岐が多いコードでは同時実行できる命令が不足し、空きスロットが生じる。VLIWの性能はコンパイラのスケジューリング能力とプログラムの命令レベル並列性に左右される。",
+          "vi": "Code có nhiều phụ thuộc hoặc rẽ nhánh có thể thiếu lệnh chạy đồng thời và tạo slot trống. Hiệu năng VLIW phụ thuộc khả năng lập lịch của compiler và mức song song cấp lệnh."
         }
       ],
       "terms": [
@@ -2946,6 +2956,16 @@
           "type": "point",
           "ja": "コア数を増やしても、並列化できない処理はそのまま高速化できるわけではない。",
           "vi": "Tăng số lõi không có nghĩa mọi chương trình đều tăng tốc nếu phần xử lý không thể song song hóa."
+        },
+        {
+          "type": "example",
+          "ja": "画像100枚を独立に変換する処理を複数コアへ分配すれば同時に進められる。一方、全画像の結果を順番に一つのファイルへ書く部分は逐次処理になりやすい。",
+          "vi": "Có thể phân phối việc chuyển đổi 100 ảnh độc lập cho nhiều lõi; nhưng phần ghi kết quả tuần tự vào một tệp thường vẫn là xử lý nối tiếp."
+        },
+        {
+          "type": "warning",
+          "ja": "コア数だけで性能を判断しない。逐次部分、スレッド生成・同期のオーバヘッド、メモリ帯域、キャッシュ競合によって、追加したコアの効果は小さくなることがある。",
+          "vi": "Không đánh giá hiệu năng chỉ bằng số lõi. Phần tuần tự, chi phí tạo/đồng bộ luồng, băng thông bộ nhớ và tranh chấp cache có thể làm lợi ích của lõi bổ sung giảm mạnh."
         }
       ],
       "terms": [
@@ -2988,6 +3008,16 @@
           "type": "point",
           "ja": "SISD = Single Instruction + Single Data。",
           "vi": "SISD = một luồng lệnh + một luồng dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "一つの命令ストリームが、配列の要素を一つずつ読み、加算して合計を更新する逐次処理はSISDとして説明できる。",
+          "vi": "Một luồng lệnh lần lượt đọc từng phần tử mảng và cộng vào tổng là ví dụ xử lý tuần tự theo SISD."
+        },
+        {
+          "type": "warning",
+          "ja": "Flynnの分類は命令ストリームとデータストリームの関係を表す。パイプラインや投機実行を内部で使うCPUでも、プログラムから見た流れが一命令・一データならSISDに分類され得る。",
+          "vi": "Phân loại Flynn nói về quan hệ luồng lệnh và luồng dữ liệu. CPU có pipeline hay speculative execution nội bộ vẫn có thể thuộc SISD nếu nhìn ở mức chương trình là một luồng lệnh–một luồng dữ liệu."
         }
       ],
       "terms": [
@@ -3030,6 +3060,16 @@
           "type": "point",
           "ja": "SIMDは「同じ命令を多数のデータへ同時適用」する方式である。",
           "vi": "SIMD = cùng một lệnh được áp dụng đồng thời lên nhiều dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "8個の画素の輝度値をベクトルレジスタへ読み込み、一つの加算命令で全画素に補正値を加える。画像、音声、行列など同じ演算を大量データへ行う処理に適する。",
+          "vi": "Nạp độ sáng của 8 pixel vào thanh ghi vector rồi dùng một lệnh cộng để thêm giá trị hiệu chỉnh cho tất cả; phù hợp ảnh, âm thanh, ma trận có cùng phép toán trên nhiều dữ liệu."
+        },
+        {
+          "type": "warning",
+          "ja": "データごとに異なる分岐や依存関係が多い処理はSIMD化しにくい。ベクトル幅、データ配置、アラインメント、端数要素の処理も性能に影響する。",
+          "vi": "Xử lý có nhiều nhánh khác nhau hoặc phụ thuộc giữa dữ liệu khó vector hóa SIMD. Độ rộng vector, cách bố trí, căn chỉnh và phần tử dư cũng ảnh hưởng hiệu năng."
         }
       ],
       "terms": [
@@ -3114,6 +3154,16 @@
           "type": "point",
           "ja": "MIMD = Multiple Instruction + Multiple Data。",
           "vi": "MIMD = nhiều luồng lệnh + nhiều luồng dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "複数コアで、一方がネットワーク要求を処理し、別のコアがデータ分析を行い、さらに別のコアがログを圧縮するように、異なる命令列を異なるデータへ同時に実行する。",
+          "vi": "Trên nhiều lõi, một lõi xử lý request mạng, lõi khác phân tích dữ liệu và lõi khác nén log: các luồng lệnh khác nhau chạy đồng thời trên dữ liệu khác nhau."
+        },
+        {
+          "type": "warning",
+          "ja": "MIMDだから自動的に正しく高速になるわけではない。共有データには同期が必要であり、負荷不均衡、通信、ロック競合が並列性能を制限する。",
+          "vi": "MIMD không tự động bảo đảm đúng hay nhanh. Dữ liệu chung cần đồng bộ; mất cân bằng tải, giao tiếp và tranh chấp khóa giới hạn hiệu năng song song."
         }
       ],
       "terms": [
@@ -3156,6 +3206,16 @@
           "type": "point",
           "ja": "疎結合は独立性が高く、拡張しやすいが、プロセッサ間通信の遅延が大きくなりやすい。",
           "vi": "Liên kết lỏng có tính độc lập và khả năng mở rộng cao, nhưng giao tiếp giữa các processor thường chậm hơn."
+        },
+        {
+          "type": "example",
+          "ja": "各計算ノードが自分のCPUと主記憶を持ち、ネットワークを介してメッセージを交換しながら、大規模計算の異なる領域を分担するクラスタは疎結合の例である。",
+          "vi": "Cluster trong đó mỗi node có CPU và bộ nhớ riêng, trao đổi thông điệp qua mạng để phụ trách các vùng khác nhau của bài toán lớn là ví dụ liên kết lỏng."
+        },
+        {
+          "type": "warning",
+          "ja": "共有メモリのように他ノードのデータへ直接アクセスできるとは限らない。データ分割、通信回数、ネットワーク遅延、部分故障を考慮した設計が必要である。",
+          "vi": "Không thể mặc nhiên truy cập dữ liệu node khác như bộ nhớ chia sẻ. Thiết kế phải xét phân vùng dữ liệu, số lần truyền, độ trễ mạng và lỗi cục bộ."
         }
       ],
       "terms": [
@@ -3198,6 +3258,16 @@
           "type": "point",
           "ja": "密結合は資源共有と高速連携が特徴で、疎結合よりプロセッサ同士の依存度が高い。",
           "vi": "Liên kết chặt đặc trưng bởi chia sẻ tài nguyên và giao tiếp nhanh, nhưng mức phụ thuộc giữa các processor cao hơn liên kết lỏng."
+        },
+        {
+          "type": "example",
+          "ja": "SMP構成で複数プロセッサが同じ主記憶とOSを共有し、共通の作業キューから処理を取り出す。共有メモリを介してデータを高速に受け渡せる。",
+          "vi": "Trong cấu hình SMP, nhiều processor dùng chung bộ nhớ chính và OS, lấy công việc từ hàng đợi chung; dữ liệu được trao đổi nhanh qua bộ nhớ chia sẻ."
+        },
+        {
+          "type": "warning",
+          "ja": "共有メモリへの競合、キャッシュコヒーレンシ制御、ロック待ちが増えると拡張性が低下する。密結合は通信が速いことと無制限に性能が伸びることを意味しない。",
+          "vi": "Tranh chấp bộ nhớ chung, duy trì nhất quán cache và chờ khóa làm giảm khả năng mở rộng. Liên kết chặt giao tiếp nhanh không có nghĩa hiệu năng tăng vô hạn."
         }
       ],
       "terms": [
@@ -3240,6 +3310,16 @@
           "type": "point",
           "ja": "並列化できない部分が残る限り、プロセッサを無限に増やしても性能向上には上限がある。",
           "vi": "Chừng nào còn phần không thể song song hóa, việc tăng vô hạn số processor vẫn có giới hạn về tăng tốc."
+        },
+        {
+          "type": "example",
+          "ja": "処理時間の80%を並列化でき、4プロセッサを使う理想条件では、性能向上比は`1 / ((1 - 0.8) + 0.8 / 4) = 2.5`となる。プロセッサを無限に増やしても上限は5倍である。",
+          "vi": "Nếu 80% thời gian có thể song song và dùng 4 processor trong điều kiện lý tưởng, speedup là `1 / ((1 - 0,8) + 0,8 / 4) = 2,5`; dù tăng vô hạn processor, giới hạn vẫn là 5 lần."
+        },
+        {
+          "type": "warning",
+          "ja": "基本式は問題規模を固定し、通信・同期・分割のオーバヘッドを無視した理想モデルである。実測性能は通常これより低く、並列化率も処理内容で変わる。",
+          "vi": "Công thức cơ bản là mô hình lý tưởng với kích thước bài toán cố định và bỏ qua chi phí giao tiếp, đồng bộ, chia việc. Hiệu năng thực thường thấp hơn và tỷ lệ song song hóa thay đổi theo xử lý."
         }
       ],
       "terms": [
@@ -3282,6 +3362,16 @@
           "type": "point",
           "ja": "同期の主な目的は、複数処理の整合性を保ち、競合による誤りを防ぐことである。",
           "vi": "Mục tiêu chính của đồng bộ là giữ tính nhất quán giữa nhiều xử lý và tránh lỗi do tranh chấp."
+        },
+        {
+          "type": "example",
+          "ja": "二つのスレッドが同じ残高を更新するとき、読取り・計算・書込みを一つのクリティカルセクションとして排他制御し、片方の更新が失われる競合状態を防ぐ。",
+          "vi": "Khi hai thread cập nhật cùng số dư, bảo vệ chuỗi đọc–tính–ghi thành một critical section để tránh race condition làm mất một lần cập nhật."
+        },
+        {
+          "type": "warning",
+          "ja": "ロックの取得順序が不統一だとデッドロックが起こり得る。同期範囲が広すぎると待ち時間が増えて並列性が下がるため、正しさと粒度の両方を設計する。",
+          "vi": "Thứ tự lấy khóa không thống nhất có thể gây deadlock. Phạm vi đồng bộ quá rộng làm tăng chờ và giảm song song; phải thiết kế cả tính đúng lẫn độ hạt."
         }
       ],
       "terms": [
@@ -3329,6 +3419,16 @@
           "type": "point",
           "ja": "クラスタは性能向上だけでなく、可用性や耐障害性の向上にも利用される。",
           "vi": "Cluster không chỉ tăng hiệu năng mà còn cải thiện tính sẵn sàng và khả năng chịu lỗi."
+        },
+        {
+          "type": "example",
+          "ja": "Webサービスを複数ノードで動かし、ロードバランサで要求を分散する。あるノードが故障したら正常なノードへ振り替えることで、処理能力と可用性を高める。",
+          "vi": "Chạy dịch vụ web trên nhiều node và phân phối request bằng load balancer; khi một node lỗi, chuyển sang node khỏe để tăng năng lực và tính sẵn sàng."
+        },
+        {
+          "type": "warning",
+          "ja": "ノードを複数にするだけでは高可用にならない。ロードバランサや共有ストレージなどの単一障害点、状態同期、障害検出、フェイルオーバ時間を含めて設計する。",
+          "vi": "Chỉ nhân nhiều node không tự tạo tính sẵn sàng cao. Phải xét điểm lỗi đơn như load balancer/storage chung, đồng bộ trạng thái, phát hiện lỗi và thời gian failover."
         }
       ],
       "terms": [

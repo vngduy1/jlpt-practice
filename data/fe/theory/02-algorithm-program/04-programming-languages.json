@@ -48,6 +48,16 @@
           "type": "point",
           "ja": "手続型言語では、「何をどの順番で実行するか」という処理手順を記述することが基本となる。",
           "vi": "Điểm cơ bản của ngôn ngữ thủ tục là mô tả \"thực hiện việc gì và theo thứ tự nào\"."
+        },
+        {
+          "type": "example",
+          "ja": "売上合計を求める処理では、合計を0に初期化し、各明細の単価×数量を順に加算し、最後に合計を出力する。反復、代入、手続呼出しによって処理手順を明示する。",
+          "vi": "Để tính tổng doanh thu, chương trình khởi tạo tổng bằng 0, lần lượt cộng đơn giá × số lượng của từng dòng rồi xuất tổng. Trình tự được mô tả bằng lặp, gán và gọi thủ tục."
+        },
+        {
+          "type": "warning",
+          "ja": "手続を細かく書くだけでは構造が良いとは限らない。共有する大域変数や長大な手続が増えると依存関係が複雑になるため、役割ごとに分割し、入出力を明確にする。",
+          "vi": "Mô tả từng bước không tự động tạo cấu trúc tốt. Biến toàn cục dùng chung và thủ tục quá dài làm phụ thuộc phức tạp; cần chia theo trách nhiệm và làm rõ đầu vào–đầu ra."
         }
       ],
       "terms": [
@@ -447,6 +457,16 @@
           "type": "point",
           "ja": "C言語は、高速性と柔軟性を持ち、OSや組込みシステムなどでも利用される汎用プログラミング言語である。",
           "vi": "C là ngôn ngữ lập trình đa dụng có tốc độ cao và tính linh hoạt, được sử dụng cả trong hệ điều hành và hệ thống nhúng."
+        },
+        {
+          "type": "example",
+          "ja": "組込み機器で、メモリマップドI/Oのレジスタをポインタ経由で読み書きし、センサ入力に応じて装置を制御する。限られたメモリ上で配列や構造体を用いてデータを管理する。",
+          "vi": "Trong thiết bị nhúng, chương trình có thể đọc/ghi thanh ghi I/O ánh xạ bộ nhớ qua con trỏ để điều khiển thiết bị theo cảm biến, đồng thời quản lý dữ liệu bằng mảng và cấu trúc trong bộ nhớ hạn chế."
+        },
+        {
+          "type": "warning",
+          "ja": "Cでは配列境界やポインタ、動的メモリをプログラマが適切に管理する必要がある。範囲外アクセス、解放後使用、未初期化値などは未定義動作や脆弱性につながる。",
+          "vi": "Trong C, lập trình viên phải quản lý đúng biên mảng, con trỏ và bộ nhớ động. Truy cập ngoài biên, dùng sau khi giải phóng hoặc giá trị chưa khởi tạo có thể gây hành vi không xác định và lỗ hổng."
         }
       ],
       "terms": [
@@ -504,6 +524,16 @@
           "type": "point",
           "ja": "Rは、統計解析やデータ分析、データの可視化に適したプログラミング言語である。",
           "vi": "R là ngôn ngữ lập trình phù hợp với phân tích thống kê, phân tích dữ liệu và trực quan hóa dữ liệu."
+        },
+        {
+          "type": "example",
+          "ja": "売上データをデータフレームとして読み込み、地域別の平均を集計し、箱ひげ図で分布と外れ値を比較する。分析コードをスクリプトに保存すれば同じ手順を再実行できる。",
+          "vi": "Đọc dữ liệu doanh thu thành data frame, tính trung bình theo khu vực và dùng biểu đồ hộp để so sánh phân bố, ngoại lệ. Lưu mã phân tích thành script giúp chạy lại cùng quy trình."
+        },
+        {
+          "type": "warning",
+          "ja": "欠損値`NA`を含む計算では、関数の既定動作によって結果が`NA`になることがある。欠損値の除外・補完方針、データ型、乱数シードを明示して再現性を確保する。",
+          "vi": "Khi tính toán có `NA`, kết quả có thể thành `NA` theo mặc định của hàm. Cần nêu rõ cách loại/bù dữ liệu thiếu, kiểu dữ liệu và seed ngẫu nhiên để bảo đảm khả năng tái lập."
         }
       ],
       "terms": [
@@ -561,6 +591,16 @@
           "type": "point",
           "ja": "Javaはオブジェクト指向言語であり、異なるプラットフォーム上でも動作させやすいことが大きな特徴である。",
           "vi": "Java là ngôn ngữ hướng đối tượng với đặc điểm quan trọng là chương trình có thể dễ dàng hoạt động trên nhiều nền tảng khác nhau."
+        },
+        {
+          "type": "example",
+          "ja": "Javaソースをコンパイルしてクラスファイルのバイトコードを生成し、WindowsやLinux上の対応するJVMで実行する。プラットフォームごとの差をJVMと標準APIが吸収する。",
+          "vi": "Mã nguồn Java được biên dịch thành bytecode trong class file, rồi chạy trên JVM tương ứng ở Windows hoặc Linux. JVM và API chuẩn hấp thụ khác biệt nền tảng."
+        },
+        {
+          "type": "warning",
+          "ja": "「一度書けばどこでも動く」は無条件ではない。実行環境に対応するJVMが必要であり、Javaのバージョン、外部ライブラリ、OS固有機能への依存も互換性に影響する。",
+          "vi": "“Viết một lần, chạy mọi nơi” không phải vô điều kiện. Cần JVM phù hợp; phiên bản Java, thư viện ngoài và phụ thuộc chức năng riêng của hệ điều hành vẫn ảnh hưởng tương thích."
         }
       ],
       "terms": [
@@ -623,6 +663,16 @@
           "type": "point",
           "ja": "C++はC言語を基に発展し、オブジェクト指向などの機能を備えた高速なプログラミング言語である。",
           "vi": "C++ phát triển từ C, có hiệu năng cao và hỗ trợ các chức năng như lập trình hướng đối tượng."
+        },
+        {
+          "type": "example",
+          "ja": "ゲームでは、共通の振る舞いを持つオブジェクトをクラスで表し、コンテナやアルゴリズムには標準ライブラリを使う。資源をオブジェクトの寿命に結び付ければ、終了時に自動的に解放できる。",
+          "vi": "Trong game, có thể biểu diễn đối tượng có hành vi chung bằng class, dùng thư viện chuẩn cho container và thuật toán; gắn tài nguyên với vòng đời object giúp tự giải phóng khi object kết thúc."
+        },
+        {
+          "type": "warning",
+          "ja": "C++はCの単純な上位互換ではなく、言語規則や型システムに相違がある。生ポインタの所有権が不明確だと漏えい・二重解放が起こるため、所有権を明示しRAIIなどを用いる。",
+          "vi": "C++ không chỉ là bản mở rộng tương thích hoàn toàn của C; quy tắc và hệ kiểu có khác biệt. Quyền sở hữu con trỏ thô không rõ có thể gây rò rỉ hoặc giải phóng hai lần; cần thể hiện sở hữu và dùng RAII."
         }
       ],
       "terms": [
@@ -742,6 +792,16 @@
           "type": "point",
           "ja": "Goは、シンプルな構文、高速な実行性能、並行処理のしやすさを特徴とする。",
           "vi": "Go nổi bật với cú pháp đơn giản, tốc độ thực thi cao và khả năng xử lý đồng thời."
+        },
+        {
+          "type": "example",
+          "ja": "Webサーバで各リクエストの処理をgoroutineとして実行し、ワーカ数を制限するチャネルを使ってデータベース接続などの資源消費を抑える。",
+          "vi": "Trong web server, xử lý mỗi request bằng goroutine và dùng channel giới hạn số worker để khống chế tài nguyên như kết nối cơ sở dữ liệu."
+        },
+        {
+          "type": "warning",
+          "ja": "並行処理は必ずしも複数CPUで同時実行する並列処理ではない。goroutine間で共有データを同期せず更新するとデータ競合が起こり、無制限に生成すると資源を枯渇させる。",
+          "vi": "Concurrency không nhất thiết là parallelism chạy đồng thời trên nhiều CPU. Cập nhật dữ liệu chung không đồng bộ gây data race; tạo goroutine không giới hạn có thể làm cạn tài nguyên."
         }
       ],
       "terms": [
@@ -918,6 +978,16 @@
           "type": "point",
           "ja": "PHPは、Webサーバ上で実行され、動的なWebページを生成するために広く利用されるサーバサイドスクリプト言語である。",
           "vi": "PHP là ngôn ngữ script phía server, được thực thi trên Web server và sử dụng rộng rãi để tạo các trang Web động."
+        },
+        {
+          "type": "example",
+          "ja": "検索フォームから受け取った語を検証し、PDOのプリペアドステートメントにパラメータとして結合してデータベースを検索し、結果をHTMLエスケープして表示する。",
+          "vi": "Kiểm tra từ khóa từ form, bind nó làm tham số trong prepared statement của PDO để truy vấn cơ sở dữ liệu, rồi escape kết quả khi xuất ra HTML."
+        },
+        {
+          "type": "warning",
+          "ja": "利用者入力をSQL文字列へ直接連結するとSQLインジェクションの原因になる。プリペアドステートメントを用い、HTML出力では文脈に応じたエスケープも別途行う。",
+          "vi": "Nối trực tiếp đầu vào người dùng vào SQL gây SQL injection. Phải dùng prepared statement; khi xuất HTML vẫn cần escape riêng theo ngữ cảnh."
         }
       ],
       "terms": [

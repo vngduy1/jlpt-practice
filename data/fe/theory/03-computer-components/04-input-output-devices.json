@@ -30,8 +30,18 @@
         },
         {
           "type": "point",
-          "ja": "USBはデータ転送と電力供給の両方に利用できる。",
-          "vi": "USB có thể dùng cho cả truyền dữ liệu và cấp nguồn."
+        "ja": "FEでは、USBがシリアル方式の汎用インタフェースであり、データ転送、給電、ホットプラグに対応する点を押さえる。規格の世代とコネクタ形状は別の概念である。",
+        "vi": "Trong FE, cần ghi nhớ USB là giao diện nối tiếp đa dụng, hỗ trợ truyền dữ liệu, cấp nguồn và cắm nóng. Phiên bản giao thức và hình dạng đầu nối là hai khái niệm khác nhau."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、USB Type-C端子を備えた2台の機器でも、一方がUSB 2.0、他方がUSB4に対応する場合、実際の通信はケーブルを含む構成全体で共通して利用できる方式と性能に制限される。",
+        "vi": "Ví dụ, dù hai thiết bị đều có cổng USB Type-C, nếu một thiết bị chỉ hỗ trợ USB 2.0 còn thiết bị kia hỗ trợ USB4, kết nối thực tế vẫn bị giới hạn bởi giao thức và hiệu năng chung của toàn bộ cấu hình, bao gồm cả cáp."
+      },
+      {
+        "type": "warning",
+        "ja": "USB Type-Cはコネクタの形状を表す。Type-C端子だからといって、必ずUSB4、高速転送、映像出力、USB Power Deliveryの全機能に対応するとは限らない。",
+        "vi": "USB Type-C chỉ mô tả hình dạng đầu nối. Có cổng Type-C không đồng nghĩa thiết bị chắc chắn hỗ trợ USB4, truyền tốc độ cao, xuất hình ảnh hoặc đầy đủ chức năng USB Power Delivery."
         }
       ],
       "terms": [
@@ -114,8 +124,18 @@
         },
         {
           "type": "point",
-          "ja": "RS-232Cは代表的なシリアル通信規格である。",
-          "vi": "RS-232C là một chuẩn truyền thông nối tiếp tiêu biểu."
+        "ja": "RS-232Cは、送信側と受信側を1対1で接続する代表的なシリアル通信規格であり、信号を接地電位に対する電圧として扱うシングルエンド方式を用いる。",
+        "vi": "RS-232C là chuẩn truyền thông nối tiếp tiêu biểu dùng cho kết nối điểm-điểm giữa một bên phát và một bên nhận, sử dụng tín hiệu single-ended biểu diễn điện áp so với mức đất."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、PC（DTE）をモデム（DCE）へ接続する場合は送信線と受信線が対応する。一方、PC同士など同種のDTEを直接接続する場合は、送信線と受信線を交差させるヌルモデム接続が必要になることがある。",
+        "vi": "Ví dụ, khi nối PC (DTE) với modem (DCE), đường phát và đường nhận tương ứng với nhau. Khi nối trực tiếp hai thiết bị cùng loại DTE như hai PC, có thể cần kết nối null modem để bắt chéo đường phát và đường nhận."
+      },
+      {
+        "type": "warning",
+        "ja": "RS-232Cはコネクタ形状だけを意味しない。また、UARTで用いるTTL/CMOSレベルのシリアル信号とは電圧レベルが異なるため、変換回路なしで直結してはならない。",
+        "vi": "RS-232C không chỉ là tên của hình dạng đầu nối. Mức điện áp của nó khác tín hiệu nối tiếp TTL/CMOS dùng với UART, vì vậy không được nối trực tiếp nếu không có mạch chuyển mức."
         }
       ],
       "terms": [
@@ -156,8 +176,18 @@
         },
         {
           "type": "point",
-          "ja": "HDMIは映像と音声をデジタルで同時に伝送できる。",
-          "vi": "HDMI có thể truyền đồng thời hình ảnh và âm thanh kỹ thuật số."
+        "ja": "HDMIは映像と音声をデジタルで同時に伝送するAV向けインタフェースである。利用できる解像度、リフレッシュレート、HDRなどは、送信機器、受信機器、ケーブルが共通して対応する範囲で決まる。",
+        "vi": "HDMI là giao diện AV truyền đồng thời hình ảnh và âm thanh kỹ thuật số. Độ phân giải, tần số quét, HDR và các tính năng dùng được phụ thuộc vào phần khả năng chung của thiết bị phát, thiết bị nhận và cáp."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、ゲーム機とディスプレイが4K・120 Hzに対応していても、途中のケーブルやAVアンプが必要な帯域幅に対応しなければ、その映像形式では表示できない。",
+        "vi": "Ví dụ, ngay cả khi máy chơi game và màn hình đều hỗ trợ 4K ở 120 Hz, định dạng này vẫn không hiển thị được nếu cáp hoặc ampli AV ở giữa không đáp ứng băng thông cần thiết."
+      },
+      {
+        "type": "warning",
+        "ja": "端子がHDMIであるだけでは、全てのHDMI機能を利用できるとは限らない。ケーブル区分や各機器の対応機能を確認し、単に「HDMI対応」という表示だけで性能を判断しない。",
+        "vi": "Chỉ có cổng HDMI không bảo đảm sử dụng được mọi tính năng HDMI. Cần kiểm tra loại cáp và khả năng của từng thiết bị, không suy đoán hiệu năng chỉ từ nhãn “hỗ trợ HDMI”."
         }
       ],
       "terms": [
@@ -198,8 +228,18 @@
         },
         {
           "type": "point",
-          "ja": "DisplayPortはPCとディスプレイの接続で広く利用されるデジタルインタフェースである。",
-          "vi": "DisplayPort là giao diện kỹ thuật số được sử dụng rộng rãi để kết nối PC với màn hình."
+        "ja": "DisplayPortはPCとディスプレイの接続で広く利用されるデジタルインタフェースであり、映像と音声を伝送できる。MSTに対応する構成では、1つの出力から複数ディスプレイへ映像ストリームを分配できる。",
+        "vi": "DisplayPort là giao diện kỹ thuật số phổ biến để nối PC với màn hình và có thể truyền cả hình ảnh lẫn âm thanh. Trong cấu hình hỗ trợ MST, một đầu ra có thể phân phối các luồng hình ảnh tới nhiều màn hình."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、MST対応のPCからMSTハブ又はデイジーチェーン対応ディスプレイを介して2台のディスプレイへ接続できる。ただし、各画面の解像度とリフレッシュレートの合計は利用可能な帯域幅に収まる必要がある。",
+        "vi": "Ví dụ, một PC hỗ trợ MST có thể nối tới hai màn hình qua hub MST hoặc màn hình hỗ trợ daisy chain. Tuy nhiên, tổng băng thông cho độ phân giải và tần số quét của các màn hình phải nằm trong khả năng của liên kết."
+      },
+      {
+        "type": "warning",
+        "ja": "DisplayPort形状の端子や変換アダプタがあっても、MSTや全ての映像形式を必ず利用できるわけではない。送信元、変換器、ディスプレイの対応規格を確認する。",
+        "vi": "Có cổng hình dạng DisplayPort hoặc bộ chuyển đổi không có nghĩa chắc chắn dùng được MST hay mọi định dạng hình ảnh. Cần kiểm tra chuẩn mà nguồn phát, bộ chuyển đổi và màn hình cùng hỗ trợ."
         }
       ],
       "terms": [
@@ -240,8 +280,18 @@
         },
         {
           "type": "point",
-          "ja": "シリアルATAは主にHDDやSSDの接続に利用される。",
-          "vi": "Serial ATA chủ yếu dùng để kết nối HDD và SSD."
+        "ja": "シリアルATAは主にHDDやSSDをホストへ接続するポイントツーポイント方式のインタフェースである。データ用ケーブルと電源用ケーブルは役割が異なる。",
+        "vi": "Serial ATA là giao diện điểm-điểm chủ yếu dùng để nối HDD hoặc SSD với máy chủ. Cáp dữ liệu và cáp nguồn SATA đảm nhiệm các vai trò khác nhau."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、2.5インチSATA SSDをデスクトップPCへ増設する場合、マザーボードとの間にSATAデータケーブルを接続し、さらに電源ユニットからSATA電源ケーブルを接続する。",
+        "vi": "Ví dụ, khi lắp thêm SSD SATA 2,5 inch vào máy tính để bàn, cần nối cáp dữ liệu SATA tới bo mạch chủ và nối thêm cáp nguồn SATA từ bộ nguồn."
+      },
+      {
+        "type": "warning",
+        "ja": "SSDという名称だけでは接続方式を特定できない。SATA接続のSSDとPCI Express/NVMe接続のSSDは、外観やフォームファクタが似ていてもインタフェースと性能特性が異なる。",
+        "vi": "Tên gọi SSD không đủ để xác định kiểu kết nối. SSD dùng SATA và SSD dùng PCI Express/NVMe có giao diện và đặc tính hiệu năng khác nhau, dù hình dáng hoặc form factor có thể giống nhau."
         }
       ],
       "terms": [
@@ -282,8 +332,18 @@
         },
         {
           "type": "point",
-          "ja": "Bluetoothは近距離無線通信であり、周辺機器の接続に広く利用される。",
-          "vi": "Bluetooth là công nghệ không dây tầm ngắn, được dùng rộng rãi cho thiết bị ngoại vi."
+        "ja": "Bluetoothは2.4 GHz帯を利用する近距離無線通信である。Bluetooth Classicは、ヘッドセットなどで連続的に音声を伝送する用途に広く利用され、機器の機能はプロファイルによって定められる。",
+        "vi": "Bluetooth là công nghệ không dây tầm ngắn sử dụng băng tần 2,4 GHz. Bluetooth Classic được dùng rộng rãi cho truyền âm thanh liên tục như tai nghe, còn chức năng giữa các thiết bị được quy định bằng profile."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、スマートフォンとワイヤレスヘッドセットをペアリングし、両方が対応する音声用プロファイルを利用すると、音楽の再生や通話音声の送受信ができる。",
+        "vi": "Ví dụ, sau khi ghép đôi điện thoại với tai nghe không dây, nếu cả hai hỗ trợ profile âm thanh phù hợp thì có thể phát nhạc hoặc truyền nhận âm thanh cuộc gọi."
+      },
+      {
+        "type": "warning",
+        "ja": "ペアリングできることと、目的の機能を利用できることは同じではない。双方が同じプロファイルに対応する必要があり、ペアリング方式や認証強度によって安全性も異なる。",
+        "vi": "Ghép đôi thành công không đồng nghĩa mọi chức năng mong muốn đều dùng được. Hai thiết bị phải hỗ trợ cùng profile, và mức an toàn còn phụ thuộc phương thức ghép đôi cũng như mức xác thực."
         }
       ],
       "terms": [
@@ -324,8 +384,18 @@
         },
         {
           "type": "point",
-          "ja": "BLEの重要な特徴は低消費電力である。",
-          "vi": "Đặc điểm quan trọng nhất của BLE là tiêu thụ điện năng thấp."
+        "ja": "BLEは、短いパケットを必要なときに送信し、通信しない時間を長くすることで低消費電力化しやすい。アドバタイジングは、機器の発見だけでなく、接続を確立しない情報配信にも利用できる。",
+        "vi": "BLE dễ đạt mức tiêu thụ thấp bằng cách gửi gói tin ngắn khi cần và duy trì thời gian không truyền dài. Advertising có thể dùng để phát hiện thiết bị hoặc phát thông tin mà không cần thiết lập kết nối."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、温度センサが一定間隔で測定値をアドバタイジングし、スマートフォンがスキャンして受信する構成では、常時接続を維持せずに情報を通知できる。",
+        "vi": "Ví dụ, cảm biến nhiệt độ có thể quảng bá giá trị đo theo chu kỳ để điện thoại quét và nhận, nhờ đó truyền thông tin mà không phải duy trì kết nối liên tục."
+      },
+      {
+        "type": "warning",
+        "ja": "BLEは常にBluetooth Classicより通信距離が短い、又は全ての用途で消費電力が小さいとは限らない。送信出力、通信間隔、データ量、スキャン時間などの設計条件が消費電力を左右する。",
+        "vi": "BLE không phải lúc nào cũng có tầm ngắn hơn Bluetooth Classic hoặc tiêu thụ ít hơn trong mọi tình huống. Công suất phát, chu kỳ truyền, lượng dữ liệu và thời gian quét đều ảnh hưởng đến điện năng thực tế."
         }
       ],
       "terms": [
@@ -366,8 +436,18 @@
         },
         {
           "type": "point",
-          "ja": "ZigBeeは低消費電力で、多数のIoT機器によるネットワーク構築に適している。",
-          "vi": "ZigBee tiêu thụ ít điện và phù hợp để xây dựng mạng có nhiều thiết bị IoT."
+        "ja": "ZigBeeは低消費電力のIoTネットワークに適し、スター型とメッシュ型のトポロジを構成できる。メッシュ型では、コーディネータがネットワークを開始し、ルータが通信範囲を拡張する。",
+        "vi": "ZigBee phù hợp với mạng IoT tiêu thụ thấp và có thể tạo topology hình sao hoặc mesh. Trong mạng mesh, coordinator khởi tạo mạng còn router giúp mở rộng phạm vi truyền thông."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、スマートホームでは、コーディネータを備えたハブがネットワークを開始し、常時給電される照明がルータとして中継し、電池駆動の温度センサがエンドデバイスとして間欠的に通信する構成が考えられる。",
+        "vi": "Ví dụ, trong nhà thông minh, hub có coordinator khởi tạo mạng, đèn được cấp điện liên tục có thể làm router chuyển tiếp, còn cảm biến nhiệt độ chạy pin hoạt động như end device và chỉ liên lạc theo chu kỳ."
+      },
+      {
+        "type": "warning",
+        "ja": "メッシュネットワークであっても、全ての機器が中継するわけではない。省電力のエンドデバイスは通常ルータとして動作しないため、ルータの配置や障害によって到達性が変わる。",
+        "vi": "Ngay cả trong mạng mesh, không phải mọi thiết bị đều chuyển tiếp dữ liệu. End device tiết kiệm điện thường không làm router, nên khả năng kết nối thay đổi theo vị trí và tình trạng của các router."
         }
       ],
       "terms": [
@@ -450,8 +530,18 @@
         },
         {
           "type": "point",
-          "ja": "NFCは数センチ程度の非常に短い距離で利用する無線通信である。",
-          "vi": "NFC hoạt động ở khoảng cách rất ngắn, chỉ vài centimet."
+        "ja": "NFCは13.56 MHzを利用する近距離通信であり、代表的な動作には、タグを読み書きするリーダ／ライタモードと、端末を非接触カードのように扱うカードエミュレーションモードがある。",
+        "vi": "NFC là công nghệ giao tiếp trường gần dùng tần số 13,56 MHz. Các chế độ tiêu biểu gồm reader/writer để đọc ghi thẻ và card emulation để thiết bị hoạt động như thẻ không tiếp xúc."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、スマートフォンでNFCタグを読み取ってWebページを開く処理はリーダ／ライタモードの利用例であり、スマートフォンを決済端末にかざして非接触決済を行う処理はカードエミュレーションの利用例である。",
+        "vi": "Ví dụ, dùng điện thoại đọc thẻ NFC để mở trang web là ứng dụng của chế độ reader/writer; đưa điện thoại gần máy thanh toán để trả tiền không tiếp xúc là ứng dụng của card emulation."
+      },
+      {
+        "type": "warning",
+        "ja": "通信距離が短いことだけで、安全性や本人確認が保証されるわけではない。決済や入退室管理では、NFC通信に加えて暗号化、認証、利用者確認などの仕組みが必要である。",
+        "vi": "Khoảng cách truyền ngắn không tự động bảo đảm an toàn hay xác minh đúng người dùng. Thanh toán và kiểm soát ra vào còn cần mã hóa, xác thực và các cơ chế kiểm tra người sử dụng ngoài liên kết NFC."
         }
       ],
       "terms": [
@@ -534,8 +624,18 @@
         },
         {
           "type": "point",
-          "ja": "シリアルは順番、パラレルは同時に複数ビットを転送する。",
-          "vi": "Serial truyền lần lượt; parallel truyền nhiều bit cùng lúc."
+        "ja": "パラレル転送では、複数の信号線に対応するビットを同じ転送単位として扱う。線数を増やせば一度に運べるビット数は増えるが、各信号の到着時刻をそろえる必要がある。",
+        "vi": "Trong truyền song song, các bit trên nhiều đường tín hiệu được xử lý như cùng một đơn vị truyền. Tăng số đường giúp mang nhiều bit mỗi lần, nhưng thời điểm đến của các tín hiệu phải được căn chỉnh."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、8本のデータ線を用いるバスでは、1回の転送動作で8ビットを送れる。受信側はクロックや制御信号に合わせ、8本の値を一つのデータとして取り込む。",
+        "vi": "Ví dụ, bus có 8 đường dữ liệu có thể gửi 8 bit trong một thao tác truyền. Bên nhận lấy giá trị trên cả 8 đường làm một dữ liệu theo tín hiệu clock hoặc tín hiệu điều khiển."
+      },
+      {
+        "type": "warning",
+        "ja": "パラレル方式がシリアル方式より常に高速とは限らない。配線間のスキュー、クロストーク、コネクタの大型化が高速化や長距離化の制約となり、高速インタフェースではシリアル方式が採用されることも多い。",
+        "vi": "Truyền song song không phải lúc nào cũng nhanh hơn truyền nối tiếp. Skew giữa các đường, nhiễu xuyên âm và đầu nối lớn gây hạn chế ở tốc độ cao hoặc khoảng cách xa, nên nhiều giao diện tốc độ cao sử dụng truyền nối tiếp."
         }
       ],
       "terms": [
@@ -576,8 +676,18 @@
         },
         {
           "type": "point",
-          "ja": "アナログは連続値、デジタルは離散値で情報を表現する。",
-          "vi": "Analog biểu diễn bằng giá trị liên tục; digital bằng giá trị rời rạc."
+        "ja": "アナログ信号は時間や振幅が連続的に変化する。コンピュータで処理するには、一般にA/D変換器で一定間隔に標本化し、有限個の値に量子化してデジタルデータへ変換する。",
+        "vi": "Tín hiệu analog biến đổi liên tục theo thời gian và biên độ. Để máy tính xử lý, tín hiệu thường được bộ chuyển đổi A/D lấy mẫu theo chu kỳ và lượng tử hóa thành một số hữu hạn mức để tạo dữ liệu số."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、マイクロフォンは音圧の変化を連続的な電圧へ変換する。サウンド入力装置はその電圧を標本化・量子化し、音声をデジタルデータとして記録する。",
+        "vi": "Ví dụ, micro chuyển biến đổi áp suất âm thanh thành điện áp liên tục. Thiết bị thu âm lấy mẫu và lượng tử hóa điện áp đó để ghi âm thanh dưới dạng dữ liệu số."
+      },
+      {
+        "type": "warning",
+        "ja": "アナログは連続値を扱うが、常に実物を完全に再現できるわけではない。伝送や増幅の過程で混入したノイズやひずみも信号とともに変化し、単純な複製で元に戻せないことがある。",
+        "vi": "Analog xử lý giá trị liên tục nhưng không có nghĩa luôn tái tạo hoàn hảo hiện tượng gốc. Nhiễu và méo phát sinh khi truyền hoặc khuếch đại cũng đi cùng tín hiệu và có thể không khôi phục được chỉ bằng sao chép."
         }
       ],
       "terms": [
@@ -618,8 +728,18 @@
         },
         {
           "type": "point",
-          "ja": "デジタル信号はアナログ信号と比較してノイズの影響を受けにくく、複製や処理を行いやすい。",
-          "vi": "Tín hiệu số ít bị ảnh hưởng bởi nhiễu hơn analog và thuận tiện cho sao chép, xử lý."
+        "ja": "デジタル信号は定められたしきい値で離散値を判定できるため、許容範囲内の波形の乱れなら元の値を再生しやすい。また、誤り検出・訂正や同一データの複製を行いやすい。",
+        "vi": "Tín hiệu số được quyết định thành các giá trị rời rạc theo ngưỡng, nên có thể tái tạo giá trị ban đầu khi biến dạng sóng còn trong giới hạn cho phép. Nó cũng thuận tiện cho phát hiện/sửa lỗi và sao chép dữ liệu giống nhau."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、アナログ音声を16ビットで量子化すると、各標本の振幅を2の16乗個の段階のいずれかで表す。その標本列を保存・処理して、D/A変換で再び電圧波形へ変換できる。",
+        "vi": "Ví dụ, khi lượng tử hóa âm thanh analog bằng 16 bit, biên độ mỗi mẫu được biểu diễn bằng một trong 2^16 mức. Chuỗi mẫu có thể được lưu trữ, xử lý rồi chuyển lại thành dạng điện áp qua bộ D/A."
+      },
+      {
+        "type": "warning",
+        "ja": "デジタル化してもノイズや誤りがなくなるわけではない。標本化周波数や量子化ビット数が不足すると、元の信号にない折返し雑音や量子化誤差が生じ、しきい値を越える大きな乱れではビット誤りも起こる。",
+        "vi": "Số hóa không làm nhiễu hay lỗi biến mất. Tần số lấy mẫu hoặc số bit lượng tử không đủ có thể gây aliasing và sai số lượng tử; nhiễu lớn vượt ngưỡng vẫn có thể làm sai bit."
         }
       ],
       "terms": [
@@ -660,8 +780,18 @@
         },
         {
           "type": "point",
-          "ja": "スター接続では、中央のハブやスイッチが重要な役割を持つ。",
-          "vi": "Trong kết nối hình sao, hub hoặc switch trung tâm đóng vai trò quan trọng."
+        "ja": "スター接続では各端末が中央装置と専用のリンクで接続される。そのため、端末側のリンク障害は通常その端末だけに影響するが、中央装置は単一障害点になり得る。",
+        "vi": "Trong kết nối hình sao, mỗi thiết bị đầu cuối có liên kết riêng tới thiết bị trung tâm. Vì vậy lỗi trên một liên kết thường chỉ ảnh hưởng thiết bị đó, nhưng thiết bị trung tâm có thể trở thành điểm lỗi đơn."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、5台のPCを1台のスイッチへ個別のケーブルで接続したLANはスター型である。1台のPCのケーブルが抜けても残りは通信できるが、スイッチの電源が切れると5台全ての通信が停止する。",
+        "vi": "Ví dụ, LAN nối riêng 5 PC vào một switch là topology hình sao. Nếu cáp của một PC bị rút, các máy còn lại vẫn liên lạc; nếu switch mất nguồn thì cả 5 máy đều ngừng liên lạc."
+      },
+      {
+        "type": "warning",
+        "ja": "スター型という物理的な配線形態だけで、通信方式や障害耐性の全ては決まらない。中央装置がリピータハブかスイッチか、冗長化されているかによって、衝突の扱いや可用性が異なる。",
+        "vi": "Chỉ hình dạng đấu dây vật lý kiểu sao không quyết định toàn bộ phương thức truyền hay khả năng chịu lỗi. Cách xử lý xung đột và tính sẵn sàng còn tùy thiết bị trung tâm là repeater hub hay switch và có dự phòng hay không."
         }
       ],
       "terms": [
@@ -744,8 +874,18 @@
         },
         {
           "type": "point",
-          "ja": "一般的なハブは受信データを他のポートへ転送するため、スイッチより効率が低い場合がある。",
-          "vi": "Hub thông thường chuyển dữ liệu tới các cổng khác nên có thể kém hiệu quả hơn switch."
+        "ja": "イーサネットのリピータハブは物理層で信号を再生し、受信した信号を他のポートへ中継する。宛先MACアドレスを学習して必要なポートだけへフレームを転送するスイッチングハブとは動作が異なる。",
+        "vi": "Repeater hub Ethernet tái tạo tín hiệu ở tầng vật lý và chuyển tín hiệu nhận được tới các cổng khác. Nó hoạt động khác switching hub, thiết bị học địa chỉ MAC và chỉ chuyển frame tới cổng cần thiết."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、端末Aから端末Bへデータを送ると、リピータハブは信号をB以外の接続ポートにも中継する。一方、宛先を学習済みのスイッチは、原則としてBが接続されたポートへだけフレームを転送する。",
+        "vi": "Ví dụ, khi máy A gửi dữ liệu cho máy B, repeater hub còn chuyển tín hiệu tới các cổng khác ngoài B. Ngược lại, switch đã học địa chỉ đích về nguyên tắc chỉ chuyển frame tới cổng nối với B."
+      },
+      {
+        "type": "warning",
+        "ja": "日本語ではスイッチも「スイッチングハブ」と呼ばれるため、単にハブという語だけで動作を判断しない。リピータハブは同一の衝突ドメインを共有するが、スイッチはポートごとに通信を分離できる。",
+        "vi": "Trong tiếng Nhật, switch cũng thường được gọi là “switching hub”, nên không thể suy ra cách hoạt động chỉ từ từ hub. Repeater hub dùng chung một collision domain, còn switch có thể tách lưu lượng theo từng cổng."
         }
       ],
       "terms": [
@@ -828,8 +968,18 @@
         },
         {
           "type": "point",
-          "ja": "ターミネーターの主な目的は、伝送路の終端で起こる信号の反射を防ぐことである。",
-          "vi": "Mục đích chính của terminator là ngăn phản xạ tín hiệu ở cuối đường truyền."
+        "ja": "ターミネーターは、伝送路の特性インピーダンスに合う負荷を終端へ接続し、インピーダンス不整合による反射を抑える。適切な抵抗値と配置は対象のバス規格に従う。",
+        "vi": "Terminator nối tải phù hợp với trở kháng đặc tính ở cuối đường truyền để giảm phản xạ do không khớp trở kháng. Giá trị điện trở và vị trí lắp đúng phải tuân theo chuẩn bus tương ứng."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、両端終端を必要とするバスでは、ケーブルの物理的な両端に規定値の終端抵抗を接続する。途中の端末へ終端抵抗を付けると、その先に未終端区間が残り、信号品質を損なうことがある。",
+        "vi": "Ví dụ, với bus yêu cầu kết cuối hai đầu, điện trở đúng trị số phải được đặt tại hai đầu vật lý của cáp. Nếu đặt terminator ở một thiết bị giữa đường, đoạn cáp phía sau có thể bị bỏ kết cuối và làm giảm chất lượng tín hiệu."
+      },
+      {
+        "type": "warning",
+        "ja": "ターミネーターは全ての接続方式や全ての端末に付けるものではない。不要な場所への追加や抵抗値の誤りは負荷を増やし、かえって信号を弱めるため、バスの終端位置と規格を確認する。",
+        "vi": "Không phải mọi kiểu kết nối hoặc mọi thiết bị đều cần terminator. Lắp thêm sai vị trí hoặc dùng sai trị số làm tăng tải và có thể khiến tín hiệu yếu hơn, vì vậy phải xác định đúng đầu cuối và chuẩn của bus."
         }
       ],
       "terms": [
@@ -912,8 +1062,18 @@
         },
         {
           "type": "point",
-          "ja": "プログラム制御方式では、CPU自身が入出力処理を直接管理する。",
-          "vi": "Trong phương thức điều khiển bằng chương trình, chính CPU trực tiếp quản lý I/O."
+        "ja": "プログラム制御方式では、CPUが入出力装置の状態レジスタをポーリングし、準備完了を確認してデータレジスタを読み書きする。構成は単純だが、待ち時間にもCPUが命令を実行する。",
+        "vi": "Trong programmed I/O, CPU thăm dò thanh ghi trạng thái của thiết bị, xác nhận thiết bị sẵn sàng rồi đọc hoặc ghi thanh ghi dữ liệu. Cơ chế đơn giản nhưng CPU vẫn phải thực thi lệnh trong thời gian chờ."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、CPUがプリンタの状態レジスタを繰り返し読み、受信可能を示すビットが1になったときに1文字をデータレジスタへ書き込む処理は、ポーリングによるプログラム制御の例である。",
+        "vi": "Ví dụ, CPU liên tục đọc thanh ghi trạng thái của máy in và chỉ ghi một ký tự vào thanh ghi dữ liệu khi bit sẵn sàng nhận chuyển thành 1; đây là programmed I/O dùng polling."
+      },
+      {
+        "type": "warning",
+        "ja": "ポーリング間隔を短くすると応答は早くなるが、CPU時間を多く消費する。割込み方式やDMA方式と混同せず、誰が準備完了を検出し、誰がデータ転送を行うかで区別する。",
+        "vi": "Rút ngắn chu kỳ polling giúp phản hồi nhanh nhưng tiêu tốn nhiều thời gian CPU. Cần phân biệt với ngắt và DMA bằng cách xác định thành phần nào phát hiện trạng thái sẵn sàng và thành phần nào thực hiện truyền dữ liệu."
         }
       ],
       "terms": [
@@ -954,8 +1114,18 @@
         },
         {
           "type": "point",
-          "ja": "DMA方式のポイントは「CPUを介さず、入出力装置と主記憶の間で直接転送する」ことである。",
-          "vi": "Điểm quan trọng của DMA là dữ liệu được truyền trực tiếp giữa thiết bị I/O và bộ nhớ chính mà không qua CPU."
+        "ja": "DMA方式では、CPUが転送元・転送先・転送量などをDMAコントローラへ設定し、DMAコントローラがバスを使用して主記憶との転送を実行する。完了時は割込みなどでCPUへ通知する。",
+        "vi": "Trong DMA, CPU thiết lập nguồn, đích và lượng dữ liệu cho bộ điều khiển DMA; bộ điều khiển DMA sử dụng bus để truyền với bộ nhớ chính và thường báo hoàn tất cho CPU bằng ngắt."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、ストレージから主記憶へ4 KiBのブロックを読み込むとき、CPUはDMA転送を開始した後に別の処理を進め、転送完了割込みを受けて読み込まれたデータを利用する。",
+        "vi": "Ví dụ, khi đọc một khối 4 KiB từ thiết bị lưu trữ vào bộ nhớ chính, CPU khởi động DMA rồi tiếp tục việc khác; khi nhận ngắt hoàn tất, CPU mới sử dụng dữ liệu đã được chuyển."
+      },
+      {
+        "type": "warning",
+        "ja": "「CPUを介さない」とは、CPUが一切関与しないという意味ではない。CPUは設定や完了処理を担当し、DMAとCPUが同じバスやメモリを利用するため、競合やキャッシュ整合性への配慮も必要になる。",
+        "vi": "“Không qua CPU” không có nghĩa CPU hoàn toàn không tham gia. CPU vẫn thiết lập và xử lý hoàn tất; vì DMA và CPU dùng chung bus hoặc bộ nhớ nên còn phải xét tranh chấp tài nguyên và tính nhất quán cache."
         }
       ],
       "terms": [
@@ -996,8 +1166,18 @@
         },
         {
           "type": "point",
-          "ja": "DMAは主にデータ転送をCPUから切り離し、チャネル制御方式は入出力処理全体をより独立して制御する。",
-          "vi": "DMA chủ yếu tách việc truyền dữ liệu khỏi CPU; channel control có thể đảm nhiệm việc điều khiển I/O ở mức độc lập hơn."
+        "ja": "チャネル制御方式では、CPUがチャネルプログラムを起動し、チャネルがコマンド列に従って装置制御と主記憶へのデータ転送を進める。CPUは入出力完了を待たずに別の処理を実行できる。",
+        "vi": "Trong điều khiển kênh, CPU khởi động channel program; channel thực hiện chuỗi lệnh để điều khiển thiết bị và truyền dữ liệu với bộ nhớ chính. CPU có thể xử lý việc khác mà không phải chờ I/O hoàn tất."
+      },
+      {
+        "type": "example",
+        "ja": "例えば、チャネルプログラムに「磁気ディスクの位置を指定し、データを読み、主記憶へ格納する」という一連のコマンドを記述し、CPUが一度起動すれば、チャネルがその手順を実行して完了を通知する。",
+        "vi": "Ví dụ, channel program có thể mô tả chuỗi lệnh “chọn vị trí trên đĩa từ, đọc dữ liệu và lưu vào bộ nhớ chính”. Sau khi CPU khởi động một lần, channel thực hiện chuỗi đó rồi báo hoàn tất."
+      },
+      {
+        "type": "warning",
+        "ja": "チャネル制御方式の「チャネル」は通信路一般を指す語ではなく、入出力処理を独立して実行する仕組みを指す。DMAが主にデータ転送を代行するのに対し、チャネルはコマンド列による装置制御まで担当できる。",
+        "vi": "“Channel” trong phương thức này không chỉ có nghĩa chung là đường truyền, mà là cơ chế thực thi I/O độc lập. DMA chủ yếu thay CPU truyền dữ liệu, còn channel có thể thực hiện cả chuỗi lệnh điều khiển thiết bị."
         }
       ],
       "terms": [

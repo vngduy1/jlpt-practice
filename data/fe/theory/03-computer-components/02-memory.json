@@ -32,6 +32,16 @@
           "type": "point",
           "ja": "RAMは揮発性メモリであり、電源を切ると通常は内容が失われる。",
           "vi": "RAM là bộ nhớ khả biến; khi mất nguồn, dữ liệu thường bị mất."
+        },
+        {
+          "type": "example",
+          "ja": "OSがSSDからアプリケーションの命令と作業データをRAMへ読み込み、CPUが実行中に高速に参照・更新する。未保存の編集内容はRAM上にだけあると電源断で失われる。",
+          "vi": "OS nạp lệnh và dữ liệu làm việc của ứng dụng từ SSD vào RAM để CPU truy cập, cập nhật nhanh. Nội dung chỉnh sửa chưa lưu chỉ nằm trong RAM sẽ mất khi mất điện."
+        },
+        {
+          "type": "warning",
+          "ja": "Random Accessは、任意の番地へほぼ直接アクセスできるという意味で、ランダムなデータを保存するという意味ではない。またRAMをDRAMだけと考えず、SRAMなども含む総称として整理する。",
+          "vi": "Random Access nghĩa là có thể truy cập gần như trực tiếp địa chỉ bất kỳ, không phải lưu dữ liệu ngẫu nhiên. RAM là tên chung gồm DRAM, SRAM và loại khác, không chỉ riêng DRAM."
         }
       ],
       "terms": [
@@ -116,6 +126,16 @@
           "type": "point",
           "ja": "DRAMはリフレッシュが必要だが、大容量化しやすく主記憶に広く使われる。",
           "vi": "DRAM cần refresh nhưng dễ đạt dung lượng lớn nên thường được dùng làm bộ nhớ chính."
+        },
+        {
+          "type": "example",
+          "ja": "DRAMセルはコンデンサの電荷でビットを保持し、時間とともに電荷が減るため、メモリコントローラが行を定期的にリフレッシュする。高密度に実装できるので主記憶に適する。",
+          "vi": "Ô DRAM giữ bit bằng điện tích tụ điện; điện tích giảm theo thời gian nên bộ điều khiển phải refresh các hàng định kỳ. Mật độ cao khiến DRAM phù hợp bộ nhớ chính."
+        },
+        {
+          "type": "warning",
+          "ja": "リフレッシュは電源が供給されている間に情報を維持する動作であり、不揮発化する処理ではない。電源が失われれば通常のDRAMの内容は保持されない。",
+          "vi": "Refresh chỉ duy trì dữ liệu khi còn cấp điện, không biến DRAM thành bộ nhớ không khả biến. DRAM thông thường vẫn mất nội dung khi mất nguồn."
         }
       ],
       "terms": [
@@ -158,6 +178,16 @@
           "type": "point",
           "ja": "SRAMは高速・高価・小容量で、主にキャッシュメモリに使われる。",
           "vi": "SRAM nhanh, đắt và dung lượng nhỏ; chủ yếu dùng cho cache."
+        },
+        {
+          "type": "example",
+          "ja": "CPUのL1キャッシュでは、頻繁に使う命令やデータをSRAMセルに保持し、主記憶のDRAMへ毎回アクセスするより短い時間で供給する。",
+          "vi": "Cache L1 của CPU giữ lệnh và dữ liệu thường dùng trong ô SRAM để cung cấp nhanh hơn việc mỗi lần đều truy cập DRAM của bộ nhớ chính."
+        },
+        {
+          "type": "warning",
+          "ja": "Staticはリフレッシュ不要という意味で、不揮発性という意味ではない。SRAMも通常は電源断で内容を失い、セル面積とコストのため主記憶全体には使いにくい。",
+          "vi": "Static nghĩa là không cần refresh, không phải không khả biến. SRAM thông thường vẫn mất dữ liệu khi mất điện và khó dùng cho toàn bộ bộ nhớ chính do diện tích, chi phí."
         }
       ],
       "terms": [
@@ -200,6 +230,16 @@
           "type": "point",
           "ja": "DIMMは主にデスクトップPCやサーバ、SO-DIMMは主にノートPCで使われる。",
           "vi": "DIMM chủ yếu dùng cho desktop/server; SO-DIMM chủ yếu dùng cho laptop."
+        },
+        {
+          "type": "example",
+          "ja": "デスクトップPCのメモリスロットへ対応するDDR世代のDIMMを装着し、メモリコントローラがモジュール上の複数DRAMチップをまとめて主記憶として利用する。",
+          "vi": "Lắp DIMM đúng thế hệ DDR vào khe máy desktop; bộ điều khiển dùng nhiều chip DRAM trên mô-đun như một phần của bộ nhớ chính."
+        },
+        {
+          "type": "warning",
+          "ja": "DIMMという形状名だけでは互換性は決まらない。DDR世代、ピン・キー位置、電圧、容量上限、ECCやregistered対応をマザーボードとCPUの仕様で確認する。",
+          "vi": "Chỉ cùng tên DIMM không bảo đảm tương thích. Phải kiểm tra thế hệ DDR, chân/rãnh khóa, điện áp, giới hạn dung lượng, ECC hoặc registered theo bo mạch và CPU."
         }
       ],
       "terms": [
@@ -242,6 +282,16 @@
           "type": "point",
           "ja": "SO-DIMMはDIMMより小型で、ノートPC向けに多く使われる。",
           "vi": "SO-DIMM nhỏ hơn DIMM và thường dùng cho laptop."
+        },
+        {
+          "type": "example",
+          "ja": "省スペースのノートPCでは、同世代のデスクトップ向けDIMMより基板が短いSO-DIMMを専用スロットへ装着して主記憶を増設する。",
+          "vi": "Laptop tiết kiệm không gian dùng SO-DIMM có bo ngắn hơn DIMM desktop cùng thế hệ, lắp vào khe riêng để mở rộng bộ nhớ chính."
+        },
+        {
+          "type": "warning",
+          "ja": "SO-DIMMは単にDIMMを短くしただけの交換可能部品ではない。フォームファクタとスロットが異なり、同じSO-DIMMでもDDR世代や電気仕様が違えば使用できない。",
+          "vi": "SO-DIMM không chỉ là DIMM rút ngắn có thể thay trực tiếp. Form factor và khe khác nhau; ngay cả SO-DIMM cũng không dùng được nếu khác thế hệ DDR hoặc đặc tính điện."
         }
       ],
       "terms": [
@@ -284,6 +334,16 @@
           "type": "point",
           "ja": "記憶装置は速度、容量、用途によって階層的に使い分けられる。",
           "vi": "Các thiết bị nhớ được sử dụng theo phân cấp dựa trên tốc độ, dung lượng và mục đích."
+        },
+        {
+          "type": "example",
+          "ja": "レジスタ、キャッシュ、主記憶、SSDの順に、一般にCPUから遠くなるほどアクセスは遅くなる一方、容量を大きく安価にしやすい。必要なデータを上位階層へ移して利用する。",
+          "vi": "Theo thứ tự thanh ghi, cache, bộ nhớ chính, SSD, càng xa CPU thì thường chậm hơn nhưng dễ có dung lượng lớn, giá thấp hơn. Dữ liệu cần dùng được đưa lên tầng trên."
+        },
+        {
+          "type": "warning",
+          "ja": "速度だけで記憶装置を選ばない。容量、単価、揮発性、耐久性、アクセス単位を含むトレードオフがあり、同じ「メモリ」でも役割が異なる。",
+          "vi": "Không chọn thiết bị nhớ chỉ theo tốc độ. Có đánh đổi về dung lượng, giá, tính khả biến, độ bền và đơn vị truy cập; các tầng “memory” có vai trò khác nhau."
         }
       ],
       "terms": [
@@ -326,6 +386,16 @@
           "type": "point",
           "ja": "アドレスは「どの記憶場所へアクセスするか」を指定する。",
           "vi": "Địa chỉ xác định vị trí bộ nhớ cần truy cập."
+        },
+        {
+          "type": "example",
+          "ja": "CPUがアドレスをアドレスバスへ出すと、デコーダが上位・下位ビットから対象のメモリチップ、行、列などを選択し、指定された記憶位置へアクセスする。",
+          "vi": "CPU đưa địa chỉ lên bus; bộ giải mã dùng các bit để chọn chip nhớ, hàng, cột tương ứng rồi truy cập vị trí được chỉ định."
+        },
+        {
+          "type": "warning",
+          "ja": "プログラムが扱う論理・仮想アドレスと、メモリ装置を選ぶ物理アドレスを混同しない。実システムではMMUなどがアドレス変換を行う場合がある。",
+          "vi": "Không nhầm địa chỉ logic/ảo mà chương trình dùng với địa chỉ vật lý chọn phần cứng nhớ. Hệ thống thực có thể dùng MMU để chuyển đổi địa chỉ."
         }
       ],
       "terms": [
@@ -368,6 +438,16 @@
           "type": "point",
           "ja": "記憶装置では、アドレス選択と読取り・書込みの両方が重要となる。",
           "vi": "Trong bộ nhớ, cả việc chọn địa chỉ và thực hiện đọc/ghi đều quan trọng."
+        },
+        {
+          "type": "example",
+          "ja": "読取りではアドレスと読取り制御信号を与え、選択されたセルの値をデータバスへ出す。書込みではアドレス、データ、書込み制御信号を与えて対象セルを更新する。",
+          "vi": "Khi đọc, cung cấp địa chỉ và tín hiệu đọc để đưa giá trị ô đã chọn lên bus dữ liệu. Khi ghi, cung cấp địa chỉ, dữ liệu và tín hiệu ghi để cập nhật ô đích."
+        },
+        {
+          "type": "warning",
+          "ja": "読取りと書込みは単なる方向の違いだけではなく、制御信号とタイミング条件が異なる。同じ資源への同時アクセスには競合制御や順序保証が必要になる。",
+          "vi": "Đọc và ghi không chỉ khác hướng; tín hiệu điều khiển và điều kiện thời gian khác nhau. Truy cập đồng thời cùng tài nguyên cần kiểm soát tranh chấp và bảo đảm thứ tự."
         }
       ],
       "terms": [
@@ -410,6 +490,16 @@
           "type": "point",
           "ja": "一般にL1は小容量・高速、L2、L3と進むほど容量は増えるが速度は遅くなる。",
           "vi": "Thông thường L1 nhỏ và nhanh nhất; lên L2, L3 thì dung lượng tăng nhưng tốc độ giảm."
+        },
+        {
+          "type": "example",
+          "ja": "ループで同じ配列要素を繰り返し参照すると、一度読み込んだキャッシュラインが再利用され、主記憶へのアクセス回数を減らせる。隣接要素の利用は空間的局所性にも合う。",
+          "vi": "Vòng lặp truy cập lặp lại phần tử mảng có thể tái sử dụng cache line đã nạp, giảm lần truy cập bộ nhớ chính; dùng phần tử liền kề cũng tận dụng tính cục bộ không gian."
+        },
+        {
+          "type": "warning",
+          "ja": "キャッシュがあっても常に高速になるとは限らない。作業集合が大きい、アクセスが不規則、同じセットへ集中する場合はミスや競合が増え、主記憶アクセスのペナルティが発生する。",
+          "vi": "Có cache không bảo đảm luôn nhanh. Tập làm việc lớn, truy cập thất thường hoặc dồn vào cùng set làm tăng miss/tranh chấp và chịu chi phí truy cập bộ nhớ chính."
         }
       ],
       "terms": [
@@ -452,6 +542,16 @@
           "type": "point",
           "ja": "主記憶は高速だが、一般に補助記憶より容量が小さく、RAMの場合は揮発性である。",
           "vi": "Bộ nhớ chính nhanh nhưng thường nhỏ hơn bộ nhớ phụ; nếu là RAM thì dữ liệu sẽ mất khi mất nguồn."
+        },
+        {
+          "type": "example",
+          "ja": "実行ファイルはSSDに保存されているが、起動時に必要な命令とデータが主記憶へ読み込まれ、CPUは主記憶上の内容をアドレス指定して実行する。",
+          "vi": "Tệp thực thi lưu trên SSD, nhưng khi khởi động, lệnh và dữ liệu cần thiết được nạp vào bộ nhớ chính để CPU định địa chỉ và thực thi."
+        },
+        {
+          "type": "warning",
+          "ja": "主記憶と補助記憶を容量だけで区別しない。主記憶はCPUの実行に直接関与するアドレス空間であり、補助記憶上のプログラムは通常そのままCPU命令として実行されない。",
+          "vi": "Không phân biệt bộ nhớ chính và phụ chỉ theo dung lượng. Bộ nhớ chính trực tiếp tham gia không gian địa chỉ thực thi; chương trình trên bộ nhớ phụ thường phải được nạp trước."
         }
       ],
       "terms": [
@@ -494,6 +594,16 @@
           "type": "point",
           "ja": "主記憶はCPUが直接利用する高速な記憶、補助記憶は大容量・不揮発性の長期保存用記憶である。",
           "vi": "Bộ nhớ chính nhanh và dùng trực tiếp khi xử lý; bộ nhớ phụ có dung lượng lớn, không khả biến và dùng để lưu lâu dài."
+        },
+        {
+          "type": "example",
+          "ja": "SSDやHDDにOS、アプリケーション、文書を電源断後も保存し、利用時に必要なブロックを主記憶へ読み込む。CPUからはI/O制御を介してアクセスする。",
+          "vi": "SSD/HDD lưu OS, ứng dụng và tài liệu qua cả lúc mất điện; khi dùng, các block cần thiết được đọc vào bộ nhớ chính và CPU truy cập thiết bị qua cơ chế I/O."
+        },
+        {
+          "type": "warning",
+          "ja": "不揮発性であっても故障、誤操作、劣化からデータが守られるとは限らない。補助記憶への保存と、別媒体・別場所へのバックアップは別の対策である。",
+          "vi": "Không khả biến không có nghĩa dữ liệu an toàn trước hỏng hóc, thao tác sai hay hao mòn. Lưu trên bộ nhớ phụ và sao lưu sang phương tiện/vị trí khác là hai biện pháp khác nhau."
         }
       ],
       "terms": [
@@ -536,6 +646,16 @@
           "type": "point",
           "ja": "ディスクキャッシュの目的は、低速なディスクアクセスの回数を減らすことである。",
           "vi": "Mục tiêu của disk cache là giảm số lần phải truy cập thiết bị lưu trữ chậm."
+        },
+        {
+          "type": "example",
+          "ja": "一度読み込んだファイルブロックを主記憶上のディスクキャッシュに保持し、直後の再読込みではディスクへアクセスせずキャッシュから返す。",
+          "vi": "Giữ block tệp đã đọc trong disk cache ở bộ nhớ chính; lần đọc lại ngay sau đó trả từ cache mà không truy cập thiết bị lưu trữ."
+        },
+        {
+          "type": "warning",
+          "ja": "ディスクキャッシュとCPUキャッシュは対象と階層が異なる。また書込みを一時保持する場合、完了通知と永続化の時点が一致しないことがあるため、電源断対策やフラッシュ制御が必要になる。",
+          "vi": "Disk cache khác CPU cache về đối tượng và tầng. Nếu tạm giữ dữ liệu ghi, thời điểm báo hoàn tất có thể chưa phải lúc dữ liệu bền vững; cần flush và bảo vệ mất điện."
         }
       ],
       "terms": [
@@ -583,6 +703,16 @@
           "type": "point",
           "ja": "ライトスルーは「キャッシュと主記憶へ同時に書く」。ライトバックとの違いが重要である。",
           "vi": "Write-through = ghi đồng thời vào cache và bộ nhớ chính. Cần phân biệt với write-back."
+        },
+        {
+          "type": "example",
+          "ja": "CPUがキャッシュラインの値を更新するたびに、その書込みを主記憶側にも送る。主記憶との内容差を小さく保ち、キャッシュラインの追出し時に改めて書き戻す必要を減らす。",
+          "vi": "Mỗi lần CPU cập nhật cache line, phép ghi cũng được chuyển tới bộ nhớ chính, giữ chênh lệch nhỏ và giảm nhu cầu ghi lại khi line bị đẩy ra."
+        },
+        {
+          "type": "warning",
+          "ja": "整合を保ちやすい一方、主記憶への書込み回数と帯域消費が増える。書込みバッファを使う実装では、命令完了時点と主記憶への反映時点が完全に同じとは限らない。",
+          "vi": "Dễ giữ nhất quán nhưng tăng số lần ghi và băng thông bộ nhớ. Với write buffer, lúc lệnh hoàn tất chưa chắc trùng hoàn toàn lúc dữ liệu đã phản ánh xuống bộ nhớ chính."
         }
       ],
       "terms": [
@@ -625,6 +755,16 @@
           "type": "point",
           "ja": "ライトスルーは毎回主記憶へ書込み、ライトバックは後でまとめて書き戻す。",
           "vi": "Write-through ghi xuống bộ nhớ chính mỗi lần; write-back ghi lại sau."
+        },
+        {
+          "type": "example",
+          "ja": "キャッシュラインを更新したときdirtyビットを立て、同じラインへの後続書込みはキャッシュ内で処理する。ラインを追い出す時点で、変更済みなら主記憶へ書き戻す。",
+          "vi": "Khi sửa cache line, đặt dirty bit; các lần ghi tiếp theo xử lý trong cache. Khi line bị thay thế, nếu đã bẩn thì mới ghi trả xuống bộ nhớ chính."
+        },
+        {
+          "type": "warning",
+          "ja": "主記憶への書込みを減らせるが、キャッシュと主記憶の内容が一時的に異なる。dirtyデータの喪失防止、キャッシュコヒーレンシ、追出し時の書戻し負荷を考慮する。",
+          "vi": "Giảm số lần ghi bộ nhớ chính nhưng cache và bộ nhớ có thể tạm khác nhau. Phải xét mất dữ liệu bẩn, nhất quán cache và tải ghi trả khi thay thế line."
         }
       ],
       "terms": [
@@ -667,6 +807,16 @@
           "type": "point",
           "ja": "メモリインターリーブは、主記憶を複数バンクに分けてアクセスを高速化する。",
           "vi": "Memory interleaving chia bộ nhớ thành nhiều bank để tăng tốc truy cập."
+        },
+        {
+          "type": "example",
+          "ja": "4バンク構成で連続アドレスをバンク0、1、2、3へ順に割り当てると、あるバンクのアクセス完了を待つ間に別バンクへの要求を開始し、連続読出しのスループットを高められる。",
+          "vi": "Với 4 bank, ánh xạ địa chỉ liên tiếp lần lượt vào bank 0–3 cho phép bắt đầu truy cập bank khác khi đang chờ bank trước, tăng throughput đọc tuần tự."
+        },
+        {
+          "type": "warning",
+          "ja": "全てのアクセスが並列になるわけではない。同じバンクへ集中するストライドではバンク競合が起こり、各アクセスの遅延そのものが短くなるとも限らない。",
+          "vi": "Không phải mọi truy cập đều song song. Mẫu stride dồn vào cùng bank gây bank conflict; interleaving cũng không nhất thiết giảm độ trễ của từng lần truy cập."
         }
       ],
       "terms": [
@@ -751,6 +901,16 @@
           "type": "point",
           "ja": "追記型は、一度書いた場所は変更できないが、空き領域には追加できる。",
           "vi": "Loại ghi một lần không sửa được vùng đã ghi, nhưng có thể ghi thêm vào vùng trống."
+        },
+        {
+          "type": "example",
+          "ja": "監査ログをWORM領域へ日付順に追記し、記録済みのログを後から上書きできないようにする。CD-Rも未使用領域へ追加記録できる追記型媒体の例である。",
+          "vi": "Ghi nối tiếp log kiểm toán vào vùng WORM để bản ghi đã lưu không bị ghi đè về sau. CD-R cũng là ví dụ phương tiện ghi một lần có thể ghi thêm vào vùng chưa dùng."
+        },
+        {
+          "type": "warning",
+          "ja": "追記型は既存データの改変防止に役立つが、媒体故障、紛失、容量枯渇から守るものではない。保存期間、アクセス制御、別媒体へのバックアップも必要である。",
+          "vi": "WORM giúp chống sửa dữ liệu đã ghi nhưng không bảo vệ khỏi hỏng, thất lạc hay hết dung lượng. Vẫn cần thời hạn lưu, kiểm soát truy cập và backup sang phương tiện khác."
         }
       ],
       "terms": [
@@ -835,6 +995,16 @@
           "type": "point",
           "ja": "HDDは磁気・機械式、SSDは半導体・可動部なし。",
           "vi": "HDD dùng từ tính và cơ khí; SSD dùng bán dẫn và không có bộ phận chuyển động."
+        },
+        {
+          "type": "example",
+          "ja": "連続した大容量ファイルを読むときはヘッド移動が少なく高い転送速度を得やすい。一方、離れた多数の小ブロックをランダムに読むと、シーク時間と回転待ちが繰り返し発生する。",
+          "vi": "Đọc tệp lớn liên tục cần ít di chuyển đầu từ nên dễ đạt throughput cao; đọc ngẫu nhiên nhiều block nhỏ ở vị trí xa nhau lặp lại seek và chờ quay."
+        },
+        {
+          "type": "warning",
+          "ja": "回転数やインタフェース速度だけで実効性能は決まらない。シーク、回転待ち、アクセスパターン、キャッシュが影響し、可動部があるため衝撃にも注意する。",
+          "vi": "Hiệu năng thực không chỉ do RPM hay tốc độ giao tiếp; seek, độ trễ quay, mẫu truy cập và cache đều ảnh hưởng. HDD có bộ phận chuyển động nên cần tránh va đập."
         }
       ],
       "terms": [
@@ -877,6 +1047,16 @@
           "type": "point",
           "ja": "SSDは高速・耐衝撃性が高いが、一般に容量当たりの価格はHDDより高い。",
           "vi": "SSD nhanh và chịu sốc tốt, nhưng thường có giá trên mỗi GB cao hơn HDD."
+        },
+        {
+          "type": "example",
+          "ja": "OSやアプリケーションをSSDへ置くと、機械的なシークを伴わず多数のブロックへアクセスできるため、起動や小さなファイルの読込みを高速化しやすい。",
+          "vi": "Đặt OS và ứng dụng trên SSD giúp truy cập nhiều block không cần seek cơ khí, nên thường tăng tốc khởi động và đọc nhiều tệp nhỏ."
+        },
+        {
+          "type": "warning",
+          "ja": "SSDにも書換え寿命と故障リスクがあり、可動部がないことはデータ保全を保証しない。NAND種別、コントローラ、接続方式、ワークロードで性能と耐久性が変わるためバックアップが必要である。",
+          "vi": "SSD vẫn có giới hạn ghi và nguy cơ hỏng; không có bộ phận chuyển động không bảo đảm dữ liệu. Loại NAND, controller, giao tiếp và workload ảnh hưởng hiệu năng, độ bền nên vẫn cần backup."
         }
       ],
       "terms": [
@@ -1045,6 +1225,16 @@
           "type": "point",
           "ja": "フラッシュメモリは不揮発性で書換え可能だが、書換え回数には限界がある。",
           "vi": "Flash memory không mất dữ liệu và có thể ghi lại, nhưng số lần ghi/xóa có giới hạn."
+        },
+        {
+          "type": "example",
+          "ja": "NANDフラッシュではページ単位でデータを書き、更新前の消去はより大きなブロック単位で行う。SSDコントローラは論理アドレスを物理ページへ割り当て、ECCや不良ブロック管理も行う。",
+          "vi": "NAND flash ghi theo page nhưng xóa theo block lớn hơn trước khi cập nhật. Controller SSD ánh xạ địa chỉ logic sang page vật lý, đồng thời quản lý ECC và bad block."
+        },
+        {
+          "type": "warning",
+          "ja": "RAMのように同じ場所を自由に直接上書きできるとは限らない。消去単位、書換え寿命、コントローラによる再配置があるため、性能とデータ消去方法を用途に応じて考える。",
+          "vi": "Không thể mặc nhiên ghi đè trực tiếp cùng vị trí như RAM. Đơn vị xóa, giới hạn ghi và tái ánh xạ của controller ảnh hưởng hiệu năng và phương pháp xóa dữ liệu."
         }
       ],
       "terms": [
@@ -1171,6 +1361,16 @@
           "type": "point",
           "ja": "ウェアレベリングの目的は、フラッシュメモリの書換え回数を均等化して寿命を延ばすことである。",
           "vi": "Mục đích của wear leveling là phân bố đều số lần ghi/xóa để kéo dài tuổi thọ flash memory."
+        },
+        {
+          "type": "example",
+          "ja": "同じ論理ブロックへ繰り返し書く要求を、コントローラが異なる物理ブロックへ順次割り当てる。特定ブロックだけが早く消耗するのを避け、媒体全体の寿命を延ばす。",
+          "vi": "Controller lần lượt ánh xạ các lần ghi lặp vào cùng block logic sang nhiều block vật lý khác nhau, tránh một block mòn sớm và kéo dài tuổi thọ toàn thiết bị."
+        },
+        {
+          "type": "warning",
+          "ja": "ウェアレベリングは書換え回数の上限をなくす技術ではない。また論理アドレスと物理位置が変わるため、通常の上書きだけでは旧データ領域を確実に消去できない場合がある。",
+          "vi": "Wear leveling không loại bỏ giới hạn ghi/xóa. Vì địa chỉ logic được chuyển sang vị trí vật lý khác, ghi đè thông thường có thể không xóa chắc chắn vùng chứa dữ liệu cũ."
         }
       ],
       "terms": [

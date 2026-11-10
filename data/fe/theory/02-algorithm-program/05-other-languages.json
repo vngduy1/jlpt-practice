@@ -100,6 +100,16 @@
           "type": "point",
           "ja": "HTMLはWebページの構造を記述するマークアップ言語であり、CSSは見た目、JavaScriptは動的な処理を主に担当する。",
           "vi": "HTML chủ yếu mô tả cấu trúc trang Web, CSS phụ trách giao diện và JavaScript phụ trách các xử lý động."
+        },
+        {
+          "type": "example",
+          "ja": "ニュースページを`header`、`nav`、`main`、`article`、見出し、段落、リンクなどの意味を持つ要素で構造化する。ブラウザはマークアップを解析してDOMツリーを構築する。",
+          "vi": "Trang tin được cấu trúc bằng các phần tử có ngữ nghĩa như `header`, `nav`, `main`, `article`, tiêu đề, đoạn văn và liên kết. Trình duyệt phân tích markup để tạo cây DOM."
+        },
+        {
+          "type": "warning",
+          "ja": "見た目だけを目的に不適切な要素を使うと、検索エンジンや支援技術が文書構造を正しく解釈しにくい。構造と意味はHTML、表示はCSSで表現する。",
+          "vi": "Dùng phần tử sai chỉ để tạo hình thức khiến công cụ tìm kiếm và công nghệ hỗ trợ khó hiểu cấu trúc. HTML biểu diễn cấu trúc, ngữ nghĩa; CSS biểu diễn cách hiển thị."
         }
       ],
       "terms": [
@@ -437,6 +447,16 @@
           "type": "point",
           "ja": "DOMはHTMLやXMLそのものではなく、それらの文書をプログラムから操作するためのオブジェクトモデルである。",
           "vi": "DOM không phải là HTML hay XML, mà là mô hình đối tượng dùng để chương trình thao tác với các tài liệu đó."
+        },
+        {
+          "type": "example",
+          "ja": "JavaScriptで`document.getElementById`により要素ノードを取得し、テキストを変更したり、新しい`li`ノードを作成して親ノードへ追加したりすると、表示中の文書にも反映される。",
+          "vi": "JavaScript có thể lấy node bằng `document.getElementById`, đổi văn bản hoặc tạo node `li` rồi thêm vào node cha; thay đổi được phản ánh lên tài liệu đang hiển thị."
+        },
+        {
+          "type": "warning",
+          "ja": "DOM操作で未検証の文字列を`innerHTML`などへ挿入するとXSSの原因になり得る。単なる文字列なら`textContent`を使い、必要な場合だけ安全に解析・無害化する。",
+          "vi": "Chèn chuỗi chưa kiểm tra vào `innerHTML` có thể gây XSS. Với văn bản thuần nên dùng `textContent`; chỉ phân tích và làm sạch khi thực sự cần markup."
         }
       ],
       "terms": [
@@ -494,6 +514,16 @@
           "type": "point",
           "ja": "SOAPではXML形式のメッセージを交換する。SOAPとXML、HTTPの関係を区別して覚えることが重要である。",
           "vi": "SOAP trao đổi thông điệp ở dạng XML. Cần phân biệt rõ vai trò của SOAP, XML và HTTP."
+        },
+        {
+          "type": "example",
+          "ja": "受注サービスへの要求をSOAP Envelopeで包み、Headerに認証などの付加情報、Bodyに注文番号や操作内容をXMLで記述し、HTTPなどの転送手段で送信する。",
+          "vi": "Yêu cầu tới dịch vụ đơn hàng được bọc trong SOAP Envelope: Header chứa thông tin bổ sung như xác thực, Body chứa mã đơn và thao tác dưới dạng XML, rồi truyền bằng HTTP hoặc cơ chế khác."
+        },
+        {
+          "type": "warning",
+          "ja": "SOAPはメッセージ交換の枠組みでありHTTPそのものではない。またXML文書が全てSOAPメッセージになるわけではなく、SOAPで定めたEnvelopeなどの構造に従う必要がある。",
+          "vi": "SOAP là khuôn khổ thông điệp, không phải chính HTTP. Không phải mọi tài liệu XML đều là SOAP; thông điệp phải tuân theo cấu trúc như Envelope của SOAP."
         }
       ],
       "terms": [
@@ -608,6 +638,16 @@
           "type": "point",
           "ja": "SAXはXMLを先頭から逐次的に読み込むイベント駆動方式である。文書全体を木構造として保持するDOMとの違いが重要である。",
           "vi": "SAX đọc XML tuần tự từ đầu theo cơ chế hướng sự kiện. Điểm rất quan trọng là phân biệt với DOM, vốn giữ tài liệu dưới dạng cấu trúc cây."
+        },
+        {
+          "type": "example",
+          "ja": "大容量の売上XMLを読みながら、要素開始イベントで明細を準備し、文字データイベントで値を受け取り、要素終了イベントで合計へ加算する。文書全体をメモリに保持しない。",
+          "vi": "Khi đọc XML doanh thu lớn, sự kiện bắt đầu phần tử khởi tạo dòng, sự kiện ký tự nhận giá trị, sự kiện kết thúc cộng vào tổng; không cần giữ toàn bộ tài liệu trong bộ nhớ."
+        },
+        {
+          "type": "warning",
+          "ja": "SAXは基本的に前から一度だけ読むため、任意ノードへの再アクセスや親子関係を使う複雑な編集には不向きである。必要な状態はイベント処理側で管理する。",
+          "vi": "SAX cơ bản đọc tiến một lượt nên không phù hợp truy cập lại node tùy ý hoặc chỉnh sửa cây phức tạp. Trạng thái cần thiết phải được bộ xử lý sự kiện tự quản lý."
         }
       ],
       "terms": [
@@ -836,6 +876,16 @@
           "type": "point",
           "ja": "HTMLは構造、CSSは見た目を担当する。この役割の違いを明確にする。",
           "vi": "Cần nhớ rõ: HTML phụ trách cấu trúc, còn CSS phụ trách giao diện."
+        },
+        {
+          "type": "example",
+          "ja": "`.warning { color: red; font-weight: bold; }`のようにクラスセレクタへ宣言を設定し、同じHTML構造でも画面幅に応じたメディアクエリで配置を変更する。",
+          "vi": "Đặt khai báo cho selector lớp như `.warning { color: red; font-weight: bold; }`, rồi dùng media query để đổi bố cục theo chiều rộng màn hình dù cấu trúc HTML giữ nguyên."
+        },
+        {
+          "type": "warning",
+          "ja": "複数の規則が同じ要素に適用されると、出所、重要度、詳細度、記述順などのカスケードで値が決まる。`!important`の多用は上書き関係を複雑にする。",
+          "vi": "Khi nhiều quy tắc áp dụng cùng phần tử, cascade quyết định giá trị theo nguồn, mức quan trọng, specificity và thứ tự. Lạm dụng `!important` làm quan hệ ghi đè khó quản lý."
         }
       ],
       "terms": [
@@ -893,6 +943,16 @@
           "type": "point",
           "ja": "XSLでは、XSLTがXMLの変換、XPathがXML文書内の要素選択に利用される。",
           "vi": "Trong XSL, XSLT dùng để chuyển đổi XML, còn XPath dùng để chọn phần tử trong tài liệu XML."
+        },
+        {
+          "type": "example",
+          "ja": "商品XMLにXSLTを適用し、XPathで`/catalog/item`を選択して、各商品の名称と価格をHTMLの表へ変換する。元データと表示用文書を分離できる。",
+          "vi": "Áp dụng XSLT cho XML sản phẩm, dùng XPath `/catalog/item` chọn từng mặt hàng rồi chuyển tên và giá thành bảng HTML, nhờ đó tách dữ liệu gốc khỏi tài liệu hiển thị."
+        },
+        {
+          "type": "warning",
+          "ja": "XSLTによる文書変換とCSSによる見た目の指定を混同しない。名前空間を持つXMLでは、XPath側でも対応する接頭辞を正しく宣言しないと要素を選択できない。",
+          "vi": "Không nhầm chuyển đổi tài liệu bằng XSLT với định kiểu bằng CSS. Với XML có namespace, XPath cũng phải khai báo prefix tương ứng; nếu không sẽ không chọn được phần tử."
         }
       ],
       "terms": [
@@ -950,6 +1010,16 @@
           "type": "point",
           "ja": "クラス図はクラスの属性・操作と、クラス間の関連や継承などを表す。",
           "vi": "Biểu đồ lớp thể hiện thuộc tính, phương thức của lớp và các quan hệ như liên kết, kế thừa giữa các lớp."
+        },
+        {
+          "type": "example",
+          "ja": "`Customer`と`Order`を関連で結び、顧客側を1、注文側を0..*とすれば、一人の顧客が0件以上の注文を持つ多重度を表せる。`Order`には注文日などの属性と合計計算の操作を示す。",
+          "vi": "Liên kết `Customer` với `Order`, đặt bội số 1 phía khách hàng và 0..* phía đơn hàng để biểu diễn một khách có từ 0 đơn trở lên; `Order` thể hiện thuộc tính ngày đặt và thao tác tính tổng."
+        },
+        {
+          "type": "warning",
+          "ja": "クラス図は型としての静的構造を表し、特定時点の実体を表すオブジェクト図や、時間順のメッセージを表すシーケンス図とは目的が異なる。",
+          "vi": "Biểu đồ lớp mô tả cấu trúc tĩnh ở mức kiểu; khác biểu đồ đối tượng mô tả instance tại một thời điểm và biểu đồ tuần tự mô tả thông điệp theo thời gian."
         }
       ],
       "terms": [
@@ -1064,6 +1134,16 @@
           "type": "point",
           "ja": "コンポーネント図は、ソフトウェアの部品と、それらの依存関係やインタフェースを表す。",
           "vi": "Biểu đồ thành phần thể hiện các thành phần phần mềm cùng quan hệ phụ thuộc và interface giữa chúng."
+        },
+        {
+          "type": "example",
+          "ja": "注文UI、注文サービス、決済アダプタをコンポーネントとして描き、注文サービスが提供する注文APIと、決済アダプタに要求する決済インタフェースを接続して依存関係を示す。",
+          "vi": "Vẽ UI đơn hàng, dịch vụ đơn hàng và adapter thanh toán thành các component; nối API đơn hàng được cung cấp với interface thanh toán được yêu cầu để thể hiện phụ thuộc."
+        },
+        {
+          "type": "warning",
+          "ja": "コンポーネント図は主にソフトウェア部品の論理的な構成を表す。どのサーバや端末へ配置するかという物理構成は配置図で表す。",
+          "vi": "Biểu đồ thành phần chủ yếu mô tả cấu trúc logic của các bộ phận phần mềm. Việc chúng được triển khai trên server hay thiết bị nào thuộc biểu đồ triển khai."
         }
       ],
       "terms": [
@@ -1178,6 +1258,16 @@
           "type": "point",
           "ja": "配置図は、システムの物理的な配置や構成を表すUMLの図である。",
           "vi": "Biểu đồ triển khai là biểu đồ UML thể hiện cách bố trí và cấu hình vật lý của hệ thống."
+        },
+        {
+          "type": "example",
+          "ja": "利用者端末、Webサーバ、アプリケーションサーバ、DBサーバをノードとして描き、通信経路を結ぶ。各ノードにWebアプリケーションやDBスキーマなどの成果物を配置して実行環境を示す。",
+          "vi": "Vẽ thiết bị người dùng, web server, application server và DB server thành các node, nối đường truyền; đặt artifact như ứng dụng web hoặc schema DB lên node để thể hiện môi trường chạy."
+        },
+        {
+          "type": "warning",
+          "ja": "配置図はクラス間の関係や処理順を表す図ではない。また論理的なコンポーネントと、実行環境であるノード、配置される成果物を区別する。",
+          "vi": "Biểu đồ triển khai không mô tả quan hệ lớp hay trình tự xử lý. Cần phân biệt component logic, node là môi trường thực thi và artifact được triển khai."
         }
       ],
       "terms": [

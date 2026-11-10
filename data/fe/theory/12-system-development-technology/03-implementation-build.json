@@ -418,8 +418,8 @@
       "titleJa": "テスト網羅性",
       "titleVi": "Độ bao phủ kiểm thử",
       "importance": "high",
-      "summaryJa": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。",
-      "summaryVi": "Là chỉ số cho biết phạm vi mã hoặc chức năng đã được các bài test thực thi.",
+      "summaryJa": "定めた網羅基準に対して、テストで実行又は確認できた要素の割合を表す指標である。",
+      "summaryVi": "Là chỉ số biểu thị tỷ lệ phần tử đã được thực thi hoặc kiểm tra so với tiêu chí bao phủ xác định.",
       "content": [
         {
           "type": "heading",
@@ -428,13 +428,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。具体的には、テストで実行されたコードの行数や条件の割合を測定することで、未テストの部分を特定し、潜在的なバグを早期に発見する手助けとなる。例えば、80%のテスト網羅性を誇るソフトウェアであれば、全体のコードの80%がテストされていることを意味する。しかし、網羅性が高いからといって必ずしも高品質なソフトウェアであるとは限らず、テストの質やテストケースの選定も重要である。これにより、テストの効率性や有効性を向上させることが可能になる。",
-          "vi": "Là chỉ số cho biết phạm vi mã hoặc chức năng đã được các bài test thực thi. Coverage cao không bảo đảm không còn lỗi nhưng giúp phát hiện phần chưa được kiểm thử."
+          "ja": "テスト網羅性は、命令、分岐、条件、要求、リスクなど、何を母数とするかを定めて測定する。一般に「網羅率＝テストで確認した要素数÷対象要素総数×100％」で求め、未実行のコードや未確認要求を識別して追加テストの判断に使う。命令網羅と分岐網羅では同じテストでも値が異なるため、数値には網羅基準、対象版、除外理由を併記する。",
+          "vi": "Độ bao phủ kiểm thử được đo sau khi xác định mẫu số là câu lệnh, nhánh, điều kiện, yêu cầu hay rủi ro. Công thức chung: tỷ lệ bao phủ = số phần tử đã kiểm tra ÷ tổng phần tử mục tiêu × 100%; dùng để tìm mã chưa chạy hoặc yêu cầu chưa kiểm tra và quyết định bổ sung test. Cùng một bộ test cho kết quả khác giữa bao phủ câu lệnh và nhánh, nên số liệu phải kèm tiêu chí, phiên bản và lý do loại trừ."
         },
         {
           "type": "point",
-          "ja": "テスト網羅性の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Độ bao phủ kiểm thử."
+          "ja": "FEでは、網羅率の分母と分子を確認して計算する。100％網羅は選んだ基準を全て通ったことを示すだけで、結果の正しさや欠陥ゼロを保証しない。",
+          "vi": "Trong FE, xác định đúng tử số và mẫu số khi tính coverage. Bao phủ 100% chỉ cho biết đã đi qua mọi phần tử theo tiêu chí chọn, không bảo đảm kết quả đúng hay không còn lỗi."
+        },
+        {
+          "type": "example",
+          "ja": "分岐が10個あり、各分岐の真・偽で合計20個の結果を対象とする。テストで16個を実行した場合、分岐網羅率は16÷20×100＝80％である。",
+          "vi": "Có 10 nhánh, xét cả kết quả đúng và sai thành 20 kết quả mục tiêu. Nếu test thực thi 16 kết quả thì bao phủ nhánh là 16 ÷ 20 × 100 = 80%."
+        },
+        {
+          "type": "warning",
+          "ja": "異なる網羅基準の数値を直接比較しない。また、到達不能コードを根拠なく分母から除外すると、見かけの網羅率だけが高くなる。",
+          "vi": "Không so sánh trực tiếp số liệu từ tiêu chí coverage khác nhau. Nếu tự ý loại mã không thể đạt khỏi mẫu số, tỷ lệ chỉ cao trên hình thức."
         }
       ],
       "terms": [
@@ -442,8 +452,8 @@
           "term": "テスト網羅性",
           "english": "Test Coverage",
           "vi": "Độ bao phủ kiểm thử",
-          "definitionJa": "ソフトウェアのテストにおいて、どれだけのコードや機能がテストされたかを示す指標である。",
-          "definitionVi": "Độ bao phủ kiểm thử là chỉ số cho biết phạm vi mã hoặc chức năng đã được các bài test thực thi.",
+            "definitionJa": "命令、分岐、要求などの定めた対象総数に対し、テストで実行又は確認した要素の割合。",
+            "definitionVi": "Tỷ lệ phần tử được thực thi hoặc kiểm tra so với tổng đối tượng xác định như câu lệnh, nhánh hay yêu cầu.",
           "reading": "てすともうらせい"
         }
       ],
@@ -986,8 +996,8 @@
       "titleJa": "コードインスペクション",
       "titleVi": "Kiểm tra mã nguồn",
       "importance": "high",
-      "summaryJa": "ソフトウェア開発におけるコードレビューの一手法である。",
-      "summaryVi": "Là phương pháp code review có hệ thống.",
+      "summaryJa": "役割、手順、開始・終了基準を定め、コードを実行せずに欠陥を検出する正式なレビュー手法である。",
+      "summaryVi": "Là kỹ thuật review chính thức có vai trò, quy trình, tiêu chí bắt đầu và kết thúc, dùng để phát hiện lỗi mà không chạy mã.",
       "content": [
         {
           "type": "heading",
@@ -996,13 +1006,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェア開発におけるコードレビューの一手法である。具体的には、開発者が書いたコードを他の開発者がチェックして、誤りや改善点を見つけるプロセスを指す。この手法では、コードの品質を向上させるために、特定の基準に基づいて、構文の正確さや設計の適切さ、パフォーマンスの最適化などが評価される。単なるバグ検出だけでなく、開発チーム全体の知識共有やベストプラクティスの確認にも寄与するため、プロジェクトの成功に非常に重要な役割を果たす。これにより、最終的なソフトウェアの信頼性とメンテナンス性が向上する。",
-          "vi": "Là phương pháp code review có hệ thống, trong đó người khác kiểm tra mã để tìm lỗi và điểm cải thiện theo các tiêu chuẩn về cú pháp, thiết kế và hiệu năng."
+          "ja": "コードインスペクションでは、作成者、モデレータ、レビューア、記録係などの役割を決め、事前準備、レビュー会議、修正、フォローアップを体系的に行う。要求・設計との不一致、境界条件、例外処理、規約違反、保守性などをチェックリストで確認し、欠陥と処置を記録する。主目的は欠陥検出であり、会議中に設計論争や修正作業へ脱線しない。",
+          "vi": "Code inspection quy định vai trò như tác giả, điều phối, reviewer, thư ký và thực hiện có hệ thống các bước chuẩn bị, họp review, sửa, theo dõi. Checklist kiểm tra sai lệch với yêu cầu, thiết kế, điều kiện biên, ngoại lệ, vi phạm quy tắc và khả năng bảo trì; lỗi cùng xử lý được ghi lại. Mục tiêu chính là phát hiện lỗi, tránh biến cuộc họp thành tranh luận thiết kế hoặc sửa trực tiếp."
         },
         {
           "type": "point",
-          "ja": "コードインスペクションの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm tra mã nguồn."
+          "ja": "インスペクションは実行を伴わない静的技法で、非公式な読み合わせより形式的である。作成者本人だけでなく複数の視点で確認する。",
+          "vi": "Inspection là kỹ thuật tĩnh không chạy mã và chính thức hơn review không chính thức. Cần nhiều góc nhìn, không chỉ tác giả tự kiểm tra."
+        },
+        {
+          "type": "example",
+          "ja": "決済モジュールについて、レビューアが事前に境界値、例外処理、権限確認のチェックリストで確認し、会議で欠陥を分類・記録する。作成者が修正し、モデレータが完了を確認する。",
+          "vi": "Với mô-đun thanh toán, reviewer chuẩn bị bằng checklist giá trị biên, ngoại lệ, kiểm tra quyền; cuộc họp phân loại và ghi lỗi. Tác giả sửa, điều phối viên xác nhận hoàn tất."
+        },
+        {
+          "type": "warning",
+          "ja": "作成者を非難する場にすると欠陥情報が出にくくなる。評価対象は人ではなく作業成果物であり、検出と学習に集中する。",
+          "vi": "Nếu biến inspection thành nơi chỉ trích tác giả, thông tin lỗi khó được chia sẻ. Đối tượng đánh giá là sản phẩm công việc, không phải con người; tập trung phát hiện và học hỏi."
         }
       ],
       "terms": [
@@ -1010,8 +1030,9 @@
           "term": "コードインスペクション",
           "english": "Code Inspection",
           "vi": "Kiểm tra mã nguồn",
-          "definitionJa": "ソフトウェア開発におけるコードレビューの一手法である。具体的には、開発者が書いたコードを他の開発者がチェックして、誤りや改善点を見つけるプロセスを指す。",
-          "definitionVi": "Kiểm tra mã nguồn là phương pháp code review có hệ thống, trong đó người khác kiểm tra mã để tìm lỗi và điểm cải thiện theo các tiêu chuẩn về cú pháp, thiết kế và hiệu năng."
+            "definitionJa": "役割、手順、基準を定め、複数の参加者がコードを実行せず体系的に欠陥を検出・記録する正式なレビュー。",
+            "definitionVi": "Review chính thức trong đó nhiều người theo vai trò, quy trình và tiêu chí xác định để phát hiện, ghi lỗi có hệ thống mà không chạy mã.",
+            "reading": "こーどいんすぺくしょん"
         }
       ],
       "tags": [
@@ -1106,8 +1127,8 @@
       "titleJa": "サイクロマティック複雑度",
       "titleVi": "Độ phức tạp Cyclomatic",
       "importance": "high",
-      "summaryJa": "プログラムのコードの複雑さを測定する指標である。",
-      "summaryVi": "Là chỉ số đo độ phức tạp của mã dựa trên số đường thực thi độc lập trong luồng điều khiển.",
+      "summaryJa": "制御フローグラフにおける線形独立な経路数を表し、分岐構造の複雑さを測る指標である。",
+      "summaryVi": "Là chỉ số biểu thị số đường độc lập tuyến tính trong đồ thị luồng điều khiển, dùng đo độ phức tạp của cấu trúc rẽ nhánh.",
       "content": [
         {
           "type": "heading",
@@ -1116,13 +1137,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プログラムのコードの複雑さを測定する指標である。主に制御フローグラフを用いて、プログラム内の独立した実行パスの数を数えることで算出される。この値が高いほど、コードの理解やテストが難しくなることを意味し、保守性にも影響を与える。具体的には、条件分岐やループの多さが関連するため、テストケースの数やエラーの発生率にも関与する。サイクロマティック複雑度を利用することで、開発者はコードの可読性や安定性を向上させるための手助けを得られ、より質の高いソフトウェアの開発が実現できる。",
-          "vi": "Là chỉ số đo độ phức tạp của mã dựa trên số đường thực thi độc lập trong luồng điều khiển. Giá trị cao thường làm mã khó hiểu, khó test và khó bảo trì."
+          "ja": "サイクロマティック複雑度V(G)は、制御フローグラフの辺数E、節点数N、連結成分数Pを用いてV(G)=E−N＋2Pで求める。入口と出口をもつ単一構造では、判定節点数＋1として求められる場合が多い。値は基底経路テストで必要となる独立経路数の目安になり、高いモジュールは理解、レビュー、テスト、保守の負担が増えるため分割候補となる。",
+          "vi": "Độ phức tạp Cyclomatic V(G) được tính từ số cạnh E, số nút N và số thành phần liên thông P của đồ thị điều khiển: V(G)=E−N+2P. Với cấu trúc đơn có một lối vào, ra, thường có thể tính bằng số nút quyết định + 1. Giá trị là gợi ý số đường cơ sở độc lập cần cho kiểm thử; mô-đun cao sẽ tăng gánh nặng hiểu, review, test và bảo trì nên có thể cần tách."
         },
         {
           "type": "point",
-          "ja": "サイクロマティック複雑度の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Độ phức tạp Cyclomatic."
+          "ja": "FEでは、単純な制御構造なら「分岐・判定の数＋1」で計算する。複雑度は制御構造の指標であり、処理時間やコード行数そのものではない。",
+          "vi": "Trong FE, với luồng đơn giản có thể tính “số điểm quyết định + 1”. Đây là chỉ số cấu trúc điều khiển, không phải thời gian xử lý hay số dòng mã."
+        },
+        {
+          "type": "example",
+          "ja": "一つの連結した関数にif文が2個、while文が1個あり、それぞれが一つの判定を持つ場合、複雑度は3＋1＝4で、独立な基底経路は4本である。",
+          "vi": "Một hàm liên thông có 2 câu if và 1 vòng while, mỗi cấu trúc có một điều kiện, thì độ phức tạp là 3+1=4 và có 4 đường cơ sở độc lập."
+        },
+        {
+          "type": "warning",
+          "ja": "複雑度4は全ての入力組合せを4ケースで網羅できるという意味ではない。独立経路の目安であり、境界値や条件組合せのテストは別に必要である。",
+          "vi": "Độ phức tạp 4 không có nghĩa 4 ca test bao phủ mọi tổ hợp đầu vào. Đây chỉ là gợi ý đường độc lập; vẫn cần test giá trị biên và tổ hợp điều kiện."
         }
       ],
       "terms": [
@@ -1130,8 +1161,8 @@
           "term": "サイクロマティック複雑度",
           "english": "Cyclomatic Complexity",
           "vi": "Độ phức tạp Cyclomatic",
-          "definitionJa": "プログラムのコードの複雑さを測定する指標である。主に制御フローグラフを用いて、プログラム内の独立した実行パスの数を数えることで算出される。",
-          "definitionVi": "Độ phức tạp Cyclomatic là chỉ số đo độ phức tạp của mã dựa trên số đường thực thi độc lập trong luồng điều khiển.",
+            "definitionJa": "制御フローグラフの線形独立な経路数を表す指標で、V(G)=E−N＋2Pなどで算出する。",
+            "definitionVi": "Chỉ số biểu thị số đường độc lập tuyến tính trong đồ thị luồng điều khiển, tính bằng V(G)=E−N+2P, v.v.",
           "reading": "さいくろまてぃっくふくざつど"
         }
       ],
@@ -1188,8 +1219,8 @@
       "titleJa": "静的解析",
       "titleVi": "Phân tích tĩnh",
       "importance": "high",
-      "summaryJa": "プログラムのコードを実行せずに分析する手法である。",
-      "summaryVi": "Là phương pháp phân tích mã mà không chạy chương trình.",
+      "summaryJa": "プログラムを実行せず、ソースコードや中間表現などを解析して欠陥候補や品質特性を検出する手法である。",
+      "summaryVi": "Là kỹ thuật không chạy chương trình mà phân tích mã nguồn hoặc biểu diễn trung gian để phát hiện lỗi tiềm năng và thuộc tính chất lượng.",
       "content": [
         {
           "type": "heading",
@@ -1198,13 +1229,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プログラムのコードを実行せずに分析する手法である。この技術は、ソフトウェアのバグやセキュリティの脆弱性を事前に検出するために利用される。例えば、コードの構文や論理の誤りをチェックすることができるため、開発段階で問題を早期に発見し、修正することが可能になる。単体テストや統合テストといった動的解析の前に行われることが多く、開発者にとって重要なツールである。また、一般に静的解析ツールが用いられ、自動化された手法で効率的にコードの品質を向上させることが期待される。",
-          "vi": "Là phương pháp phân tích mã mà không chạy chương trình, dùng để phát hiện sớm lỗi cú pháp, logic hoặc lỗ hổng bảo mật bằng công cụ tự động."
+          "ja": "静的解析は、構文、制御フロー、データフロー、型、呼出し関係を実行前に調べる。未初期化変数、到達不能コード、null参照の可能性、資源リーク、規約違反、脆弱性候補、重複や複雑度などを検出・測定できる。IDEやCIへ組み込めば早期に反復実行できるが、ツールの警告は文脈を確認して真陽性か偽陽性か判断する必要がある。",
+          "vi": "Phân tích tĩnh xem cú pháp, luồng điều khiển, luồng dữ liệu, kiểu và quan hệ gọi trước khi chạy. Có thể tìm biến chưa khởi tạo, mã không thể đạt, khả năng null, rò rỉ tài nguyên, vi phạm quy tắc, điểm yếu tiềm năng, trùng lặp và đo complexity. Tích hợp IDE/CI giúp chạy sớm, lặp lại, nhưng cảnh báo phải được xem theo ngữ cảnh để phân biệt đúng và báo giả."
         },
         {
           "type": "point",
-          "ja": "静的解析の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân tích tĩnh."
+          "ja": "静的解析は実行経路を実際に動かさず広く調べられる一方、実行時の環境依存動作を全て確認できない。動的テストと補完関係にある。",
+          "vi": "Phân tích tĩnh có thể khảo sát rộng mà không chạy đường thực thi, nhưng không xác nhận được mọi hành vi phụ thuộc môi trường runtime. Nó bổ sung cho kiểm thử động."
+        },
+        {
+          "type": "example",
+          "ja": "CIで静的解析を行い、外部入力が検査されずSQL文字列へ連結されるデータフローを警告する。担当者が実際の経路を確認し、パラメータ化クエリへ修正する。",
+          "vi": "CI chạy phân tích tĩnh và cảnh báo luồng dữ liệu đầu vào ngoài chưa kiểm tra được nối vào chuỗi SQL. Người phụ trách xác nhận đường thực tế rồi sửa sang truy vấn tham số hóa."
+        },
+        {
+          "type": "warning",
+          "ja": "警告ゼロは欠陥ゼロを意味しない。解析規則、対象言語、設定によって偽陰性があり、警告を一括抑制すると真の欠陥も隠れる。",
+          "vi": "Không có cảnh báo không có nghĩa không có lỗi. Quy tắc, ngôn ngữ, cấu hình có thể gây bỏ sót; tắt hàng loạt cảnh báo còn che cả lỗi thật."
         }
       ],
       "terms": [
@@ -1212,8 +1253,8 @@
           "term": "静的解析",
           "english": "Static Analysis",
           "vi": "Phân tích tĩnh",
-          "definitionJa": "プログラムのコードを実行せずに分析する手法である。この技術は、ソフトウェアのバグやセキュリティの脆弱性を事前に検出するために利用される。例えば、コードの構文や論理の誤りをチェックすることができるため、開発段階で問題を早期に発見し、修正することが可能になる。単体テストや統合テストといった動的解析の前に行われることが多く、開発者にとって重要なツールである。また、一般に静的解析ツールが用いられ、自動化された手法で効率的にコードの品質を向上させることが期待される。",
-          "definitionVi": "Phân tích tĩnh là phương pháp phân tích mã mà không chạy chương trình, dùng để phát hiện sớm lỗi cú pháp, logic hoặc lỗ hổng bảo mật bằng công cụ tự động.",
+            "definitionJa": "プログラムを実行せずにコードや中間表現を解析し、欠陥候補、規約違反、品質指標などを検出する手法。",
+            "definitionVi": "Kỹ thuật phân tích mã hoặc biểu diễn trung gian mà không chạy chương trình để tìm lỗi tiềm năng, vi phạm quy tắc và chỉ số chất lượng.",
           "reading": "せいてきかいせき"
         }
       ],
@@ -1229,8 +1270,8 @@
       "titleJa": "動的テスト",
       "titleVi": "Kiểm thử động",
       "importance": "high",
-      "summaryJa": "ソフトウェアの動作を実際に実行して検証するテスト手法である。",
-      "summaryVi": "Khái niệm về Kiểm thử động: phương pháp kiểm thử bằng cách thực sự chạy phần mềm để xác minh hành vi và phát hiện lỗi xảy ra trong quá trình thực thi.",
+      "summaryJa": "プログラムを実行し、入力に対する実際の出力や状態を期待結果と比較するテスト手法である。",
+      "summaryVi": "Là kỹ thuật chạy chương trình và so sánh đầu ra, trạng thái thực tế đối với đầu vào với kết quả mong đợi.",
       "content": [
         {
           "type": "heading",
@@ -1239,13 +1280,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアの動作を実際に実行して検証するテスト手法である。この方法は、プログラムの実行中に発生するエラーや不具合を特定するために用いられ、コードが想定通りに動作するかどうかを確認する。たとえば、ユーザーが入力したデータに対する処理が正しく行われるかをテストすることが含まれる。主に実行環境での振る舞いを確認するために使用され、さまざまなテストケースを実行することで、異常な動作やエラーを発見する。これに対して、動的テストは静的コード解析などと組み合わせて行われることが多く、全体的なソフトウェアの品質向上に寄与する。特にユーザーの視点で確認する必要がある場面で、有効な手段となる。",
-          "vi": "Là phương pháp kiểm thử bằng cách thực sự chạy phần mềm để xác minh hành vi và phát hiện lỗi xảy ra trong quá trình thực thi."
+          "ja": "動的テストでは、前提条件、入力、操作、期待結果を定めたテストケースを実行し、出力、状態変化、ログ、資源使用量などをテストオラクルと比較する。単体、結合、システム、受入れなど各レベルで用いられ、実行時例外、タイミング、性能、環境との相互作用を確認できる。実行した経路しか観測できないため、同値分割や境界値分析、構造的技法でケースを選ぶ。",
+          "vi": "Trong kiểm thử động, thực thi ca có điều kiện trước, đầu vào, thao tác, kết quả mong đợi rồi so đầu ra, thay đổi trạng thái, log, mức dùng tài nguyên với test oracle. Dùng ở cấp đơn vị, tích hợp, hệ thống, tiếp nhận và phát hiện ngoại lệ runtime, timing, hiệu năng, tương tác môi trường. Vì chỉ quan sát đường đã chạy, cần chọn ca bằng phân lớp tương đương, giá trị biên và kỹ thuật cấu trúc."
         },
         {
           "type": "point",
-          "ja": "動的テストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử động."
+          "ja": "動的テストは実行結果を確認し、静的解析は実行せず成果物を調べる。どちらか一方で全ての欠陥を検出できないため併用する。",
+          "vi": "Kiểm thử động kiểm tra kết quả thực thi; phân tích tĩnh xem sản phẩm mà không chạy. Không phương pháp nào tìm được mọi lỗi nên cần kết hợp."
+        },
+        {
+          "type": "example",
+          "ja": "年齢入力の許容範囲が0～120なら、−1、0、120、121を実行し、エラー表示又は登録結果を期待値と比較する。境界付近で実際の振る舞いを確認する。",
+          "vi": "Nếu tuổi hợp lệ từ 0 đến 120, chạy các giá trị −1, 0, 120, 121 rồi so thông báo lỗi hoặc kết quả đăng ký với giá trị mong đợi để kiểm tra hành vi tại biên."
+        },
+        {
+          "type": "warning",
+          "ja": "期待結果が曖昧なら、実行できても合否を判定できない。また、テストで通らなかった経路の正しさを推測してはならない。",
+          "vi": "Nếu kết quả mong đợi mơ hồ thì dù chạy được cũng không đánh giá đạt hay không. Không được suy đoán đường chưa chạy là đúng."
         }
       ],
       "terms": [
@@ -1253,8 +1304,8 @@
           "term": "動的テスト",
           "english": "Dynamic Testing",
           "vi": "Kiểm thử động",
-          "definitionJa": "ソフトウェアの動作を実際に実行して検証するテスト手法である。この方法は、プログラムの実行中に発生するエラーや不具合を特定するために用いられ、コードが想定通りに動作するかどうかを確認する。たとえば、ユーザーが入力したデータに対する処理が正しく行われるかをテストすることが含まれる。主に実行環境での振る舞いを確認するために使用され、さまざまなテストケースを実行することで、異常な動作やエラーを発見する。これに対して、動的テストは静的コード解析などと組み合わせて行われることが多く、全体的なソフトウェアの品質向上に寄与する。特にユーザーの視点で確認する必要がある場面で、有効な手段となる。",
-          "definitionVi": "Kiểm thử động là phương pháp kiểm thử bằng cách thực sự chạy phần mềm để xác minh hành vi và phát hiện lỗi xảy ra trong quá trình thực thi.",
+            "definitionJa": "プログラムを実行し、入力に対する出力や状態などの実際の振る舞いを期待結果と比較するテスト手法。",
+            "definitionVi": "Kỹ thuật chạy chương trình và so sánh hành vi thực tế như đầu ra, trạng thái đối với đầu vào với kết quả mong đợi.",
           "reading": "どうてきてすと"
         }
       ],
@@ -1717,8 +1768,8 @@
       "titleJa": "ユニットテスト",
       "titleVi": "Kiểm thử đơn vị",
       "importance": "high",
-      "summaryJa": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。",
-      "summaryVi": "Là phương pháp kiểm thử từng đơn vị nhỏ như hàm.",
+      "summaryJa": "関数、クラス、モジュールなどの最小テスト単位を、依存先から分離して検証するテストである。",
+      "summaryVi": "Là kiểm thử xác minh đơn vị nhỏ như hàm, lớp hoặc mô-đun trong trạng thái tách khỏi các phần phụ thuộc.",
       "content": [
         {
           "type": "heading",
@@ -1727,13 +1778,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。プログラムの機能を小さなブロックで確認することで、バグやエラーを早期に発見しやすくなる。このテストは、各ユニットが期待通りに動作するかどうかを確認するために自動化されることが多い。たとえば、特定の計算を行う関数が正しい結果を返すかどうかをテストすることがこの手法の一例である。また、ユニットテストを行うことで、コードの変更が他の部分に影響を与えていないかも確認することができ、品質を保つために非常に重要な工程となる。",
-          "vi": "Là phương pháp kiểm thử từng đơn vị nhỏ như hàm, phương thức hoặc mô-đun một cách độc lập để xác nhận chúng hoạt động đúng. Unit test giúp phát hiện lỗi sớm, dễ xác định nguyên nhân và thường được tự động hóa."
+          "ja": "ユニットテストでは、単位ごとの要求や設計を基に、正常値、境界値、異常値、例外処理、状態遷移を確認する。呼出し元や呼出し先が未完成又は外部資源に依存する場合は、ドライバやスタブなどのテスト用部品で分離する。入力、期待結果、実際結果、対象版を記録し、自動化したテストを変更後の回帰テストとして繰り返すと、欠陥を早期に局所化できる。",
+          "vi": "Unit test dựa trên yêu cầu, thiết kế của từng đơn vị để kiểm tra giá trị bình thường, biên, bất thường, xử lý ngoại lệ và chuyển trạng thái. Khi phần gọi hoặc được gọi chưa hoàn thiện hay phụ thuộc tài nguyên ngoài, dùng driver, stub để cô lập. Ghi đầu vào, kết quả mong đợi, thực tế, phiên bản; lặp test tự động sau thay đổi để hồi quy và định vị lỗi sớm."
         },
         {
           "type": "point",
-          "ja": "ユニットテストの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Kiểm thử đơn vị."
+          "ja": "ユニットテストは個々の単位の内部ロジックを早期に確認する。単位間のインタフェースや連携全体は、後続の結合テストで別に確認する。",
+          "vi": "Unit test kiểm tra sớm logic bên trong từng đơn vị. Giao diện và phối hợp giữa các đơn vị phải được kiểm tra riêng ở integration test."
+        },
+        {
+          "type": "example",
+          "ja": "送料計算関数について、金額0円、送料無料境界の4,999円と5,000円、負数、地域コード不正を与え、戻り値又は例外を期待結果と比較する。外部料金APIはスタブに置き換える。",
+          "vi": "Với hàm tính phí vận chuyển, thử 0, hai giá trị biên miễn phí 4.999 và 5.000, số âm, mã vùng sai; so giá trị trả về hoặc ngoại lệ với mong đợi. Thay API giá ngoài bằng stub."
+        },
+        {
+          "type": "warning",
+          "ja": "モックやスタブを使ったユニットテスト合格だけでは、実際のデータベースや外部サービスとの接続を保証できない。結合テストも必要である。",
+          "vi": "Unit test đạt với mock, stub không bảo đảm kết nối thật với cơ sở dữ liệu hoặc dịch vụ ngoài. Vẫn cần kiểm thử tích hợp."
         }
       ],
       "terms": [
@@ -1741,8 +1802,9 @@
           "term": "ユニットテスト",
           "english": "Unit Test",
           "vi": "Kiểm thử đơn vị",
-          "definitionJa": "ソフトウェアの各個別の部分（ユニット）を独立して検証するテスト手法である。プログラムの機能を小さなブロックで確認することで、バグやエラーを早期に発見しやすくなる。このテストは、各ユニットが期待通りに動作するかどうかを確認するために自動化されることが多い。たとえば、特定の計算を行う関数が正しい結果を返すかどうかをテストすることがこの手法の一例である。また、ユニットテストを行うことで、コードの変更が他の部分に影響を与えていないかも確認することができ、品質を保つために非常に重要な工程となる。",
-          "definitionVi": "Kiểm thử đơn vị là phương pháp kiểm thử từng đơn vị nhỏ như hàm, phương thức hoặc mô-đun một cách độc lập để xác nhận chúng hoạt động đúng."
+            "definitionJa": "関数、クラス、モジュールなどの最小テスト単位を依存先から分離し、その要求と内部ロジックを検証するテスト。",
+            "definitionVi": "Kiểm thử cô lập đơn vị nhỏ như hàm, lớp, mô-đun khỏi phần phụ thuộc để xác minh yêu cầu và logic nội bộ.",
+            "reading": "ゆにっとてすと"
         }
       ],
       "tags": [
@@ -1757,7 +1819,7 @@
       "titleJa": "ドライバ",
       "titleVi": "Driver",
       "importance": "high",
-      "summaryJa": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。",
+      "summaryJa": "テスト対象ユニットを呼び出し、入力を与えて結果を受け取る呼出し元の代替プログラムである。",
       "summaryVi": "Là chương trình phụ dùng để gọi một mô-đun cần kiểm thử và cung cấp dữ liệu đầu vào khi mô-đun gọi thực tế chưa sẵn sàng.",
       "content": [
         {
@@ -1767,13 +1829,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。具体的には、プリンタやマウス、キーボードなどのハードウェアが正常に機能するために必要な命令や設定を提供する役割を果たす。たとえば、プリンタドライバでは、印刷する際にどのようにデータを送信し、どのような設定（用紙のサイズや印刷品質など）を行うかを指定する。また、ドライバが適切に動作することで、ハードウェアとアプリケーションソフトウエアの間の円滑な通信が実現される。このため、ドライバが正しくインストールされていない場合、ハードウェアは正常に機能しないことがあるため、定期的な更新や確認が重要である。",
-          "vi": "Là chương trình phụ dùng để gọi một mô-đun cần kiểm thử và cung cấp dữ liệu đầu vào khi mô-đun gọi thực tế chưa sẵn sàng. Driver nhận kết quả trả về để hỗ trợ xác nhận hoạt động của mô-đun. Nó đặc biệt hữu ích trong kiểm thử tích hợp bottom-up."
+          "ja": "テストドライバは、本来テスト対象を呼び出す上位モジュールが未完成の場合に、その代わりとして引数やテストデータを渡し、対象を起動し、戻り値や状態を記録する擬似ソフトウェアである。単体テストやボトムアップ結合テストで下位モジュールを先に確認するために使う。必要な呼出し順序とインタフェースだけを再現し、テスト対象のロジックを含め過ぎない。",
+          "vi": "Test driver là phần mềm giả thay mô-đun cấp trên chưa hoàn thiện, truyền tham số hoặc dữ liệu, gọi đối tượng kiểm thử và ghi giá trị trả về, trạng thái. Dùng trong unit test và tích hợp bottom-up để kiểm tra mô-đun dưới trước. Chỉ mô phỏng thứ tự gọi, giao diện cần thiết và không chứa quá nhiều logic của đối tượng test."
         },
         {
           "type": "point",
-          "ja": "ドライバの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Driver."
+          "ja": "テスト用ドライバはテスト対象を呼び出す側、スタブはテスト対象から呼び出される側の代替である。デバイスドライバと混同しない。",
+          "vi": "Test driver thay phía gọi đối tượng kiểm thử; stub thay phía được đối tượng gọi. Không nhầm với device driver điều khiển thiết bị."
+        },
+        {
+          "type": "example",
+          "ja": "集計モジュールを呼ぶ画面が未完成のため、ドライバが売上明細の配列と期間を引数で渡し、返された合計値とエラーコードを表示して期待値と比較する。",
+          "vi": "Màn hình gọi mô-đun tổng hợp chưa xong, driver truyền mảng chi tiết bán hàng và thời gian, hiển thị tổng cùng mã lỗi trả về để so với mong đợi."
+        },
+        {
+          "type": "warning",
+          "ja": "ドライバ自身の入力生成や判定に誤りがあると、テスト対象を誤評価する。テスト用部品も仕様を簡潔にし、確認・版管理する。",
+          "vi": "Nếu driver tạo đầu vào hoặc đánh giá sai, đối tượng sẽ bị kết luận sai. Thành phần test cũng cần đặc tả đơn giản, được kiểm tra và quản lý phiên bản."
         }
       ],
       "terms": [
@@ -1781,8 +1853,9 @@
           "term": "ドライバ",
           "english": "Driver",
           "vi": "Driver",
-          "definitionJa": "コンピュータのハードウェアや周辺機器を制御するためのソフトウェアである。具体的には、プリンタやマウス、キーボードなどのハードウェアが正常に機能するために必要な命令や設定を提供する役割を果たす。たとえば、プリンタドライバでは、印刷する際にどのようにデータを送信し、どのような設定（用紙のサイズや印刷品質など）を行うかを指定する。また、ドライバが適切に動作することで、ハードウェアとアプリケーションソフトウエアの間の円滑な通信が実現される。このため、ドライバが正しくインストールされていない場合、ハードウェアは正常に機能しないことがあるため、定期的な更新や確認が重要である。",
-          "definitionVi": "Driver là chương trình phụ dùng để gọi một mô-đun cần kiểm thử và cung cấp dữ liệu đầu vào khi mô-đun gọi thực tế chưa sẵn sàng."
+            "definitionJa": "未完成の呼出し元モジュールに代わり、テスト対象へ入力を渡して呼び出し、結果を受け取る擬似プログラム。",
+            "definitionVi": "Chương trình giả thay mô-đun gọi chưa hoàn thiện để truyền đầu vào, gọi đối tượng kiểm thử và nhận kết quả.",
+            "reading": "どらいば"
         }
       ],
       "tags": [
@@ -1797,8 +1870,8 @@
       "titleJa": "スタブ",
       "titleVi": "Stub",
       "importance": "high",
-      "summaryJa": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。",
-      "summaryVi": "Là mô-đun giả thay thế tạm thời cho mô-đun được gọi nhưng chưa hoàn thiện.",
+      "summaryJa": "テスト対象から呼び出される下位モジュールの代わりに、あらかじめ定めた応答を返す擬似プログラムである。",
+      "summaryVi": "Là chương trình giả thay mô-đun cấp dưới được đối tượng kiểm thử gọi và trả phản hồi đã định trước.",
       "content": [
         {
           "type": "heading",
@@ -1807,13 +1880,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。具体的には、スタブは呼び出される側の機能を模倣するための簡単なプログラムであり、テスト対象のプログラムが期待する動作を簡略化して提供する。たとえば、ある機能Aが他の機能Bに依存している場合、機能Bが未実装であっても、スタブを使用することで機能Aのテストを行うことができる。これにより、開発中のソフトウェアの各部分を独立して評価でき、問題の早期発見や修正が可能となるため、全体の開発効率を向上させる助けとなる。",
-          "vi": "Là mô-đun giả thay thế tạm thời cho mô-đun được gọi nhưng chưa hoàn thiện. Stub thường được dùng trong tích hợp top-down để mô phỏng kết quả trả về."
+          "ja": "スタブは、テスト対象が依存する下位モジュール、外部API、データベースなどが未完成又は利用困難な場合に、同じインタフェースで固定値やテスト条件に応じた応答を返す。正常応答だけでなく、タイムアウト、エラー、空データなども再現でき、単体テストやトップダウン結合テストで上位モジュールを先に確認する。実物の処理を完全に再現するものではない。",
+          "vi": "Stub dùng cùng giao diện để trả giá trị cố định hoặc phản hồi theo điều kiện test khi mô-đun dưới, API ngoài hay cơ sở dữ liệu mà đối tượng phụ thuộc chưa hoàn thiện hoặc khó dùng. Có thể mô phỏng phản hồi bình thường, timeout, lỗi, dữ liệu rỗng; dùng trong unit test và tích hợp top-down để kiểm tra mô-đun trên trước. Stub không tái hiện hoàn toàn hệ thống thật."
         },
         {
           "type": "point",
-          "ja": "スタブの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Stub."
+          "ja": "スタブは呼び出される側を代替し、ドライバは呼び出す側を代替する。トップダウンではスタブ、ボトムアップではドライバが必要になりやすい。",
+          "vi": "Stub thay phía được gọi, driver thay phía gọi. Tích hợp top-down thường cần stub, bottom-up thường cần driver."
+        },
+        {
+          "type": "example",
+          "ja": "注文処理が在庫APIを呼ぶ場合、スタブに商品Aは在庫あり、商品Bは在庫なし、商品Cはタイムアウトを返させ、注文処理の各分岐を確認する。",
+          "vi": "Khi xử lý đơn gọi API tồn kho, cho stub trả sản phẩm A còn hàng, B hết hàng, C timeout để kiểm tra từng nhánh của xử lý đơn."
+        },
+        {
+          "type": "warning",
+          "ja": "スタブとのテストが合格しても、実サービスの通信、性能、データ形式との互換性は未確認である。後で実物との結合テストを行う。",
+          "vi": "Test đạt với stub chưa xác nhận giao tiếp, hiệu năng, định dạng dữ liệu với dịch vụ thật. Sau đó phải tích hợp với hệ thống thật."
         }
       ],
       "terms": [
@@ -1821,8 +1904,9 @@
           "term": "スタブ",
           "english": "Stub",
           "vi": "Stub",
-          "definitionJa": "ソフトウェアのテストにおいて、特定の機能やモジュールが完全に実装されていない場合に利用される仮の部品である。具体的には、スタブは呼び出される側の機能を模倣するための簡単なプログラムであり、テスト対象のプログラムが期待する動作を簡略化して提供する。たとえば、ある機能Aが他の機能Bに依存している場合、機能Bが未実装であっても、スタブを使用することで機能Aのテストを行うことができる。これにより、開発中のソフトウェアの各部分を独立して評価でき、問題の早期発見や修正が可能となるため、全体の開発効率を向上させる助けとなる。",
-          "definitionVi": "Stub là mô-đun giả thay thế tạm thời cho mô-đun được gọi nhưng chưa hoàn thiện."
+            "definitionJa": "テスト対象から呼び出される未完成又は利用困難な下位モジュールに代わり、所定の応答を返す擬似プログラム。",
+            "definitionVi": "Chương trình giả thay mô-đun cấp dưới chưa hoàn thiện hoặc khó dùng mà đối tượng kiểm thử gọi, trả phản hồi định trước.",
+            "reading": "すたぶ"
         }
       ],
       "tags": [
@@ -1959,8 +2043,8 @@
       "titleJa": "テストケース",
       "titleVi": "Ca kiểm thử",
       "importance": "high",
-      "summaryJa": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。",
-      "summaryVi": "Là tập hợp điều kiện, dữ liệu đầu vào, bước thực hiện và kết quả mong đợi để kiểm tra một chức năng hoặc yêu cầu cụ thể.",
+      "summaryJa": "特定のテスト目的を確認するための前提条件、入力、操作、期待結果を定めた一組の仕様である。",
+      "summaryVi": "Là một bộ đặc tả gồm điều kiện trước, đầu vào, thao tác và kết quả mong đợi để kiểm tra mục tiêu cụ thể.",
       "content": [
         {
           "type": "heading",
@@ -1969,13 +2053,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。特定の機能や要求に対して、期待される結果を明示することで、ソフトウェアが正しく動作しているかを検証するのに役立つ。例えば、ユーザーがログインする際のテストケースでは、「正しいユーザー名とパスワードを入力した場合、ログインに成功すること」といった具体的な手順が記される。このように、各異なるシナリオや条件を考慮して設計され、ソフトウェアの品質向上を目的とした重要な要素である。テストケースによって、開発チームはエラーや不具合を早期に発見し、修正することが可能になる。",
-          "vi": "Là tập hợp điều kiện, dữ liệu đầu vào, bước thực hiện và kết quả mong đợi để kiểm tra một chức năng hoặc yêu cầu cụ thể. Test case giúp kiểm thử nhất quán và tránh bỏ sót."
+          "ja": "テストケースには、一意な識別子、対応する要求・テスト目的、前提条件、環境、入力データ、操作手順、期待結果、合否判定条件を記載する。実行時には実際結果、証跡、合否、発見した欠陥を記録する。正常系だけでなく、同値クラス、境界値、異常系、状態遷移を考慮し、要求との追跡可能性と再現性を確保する。",
+          "vi": "Test case ghi mã duy nhất, yêu cầu và mục tiêu liên quan, điều kiện trước, môi trường, dữ liệu vào, bước thao tác, kết quả mong đợi và tiêu chí đạt. Khi chạy, ghi kết quả thực tế, bằng chứng, đạt/không đạt và lỗi phát hiện. Cần xét luồng bình thường, lớp tương đương, giá trị biên, bất thường, chuyển trạng thái để bảo đảm truy vết và lặp lại được."
         },
         {
           "type": "point",
-          "ja": "テストケースの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ca kiểm thử."
+          "ja": "期待結果は実行前に定める。実際結果を見てから期待値を合わせると欠陥を見逃す。各ケースを要求へ追跡できるようにする。",
+          "vi": "Kết quả mong đợi phải xác định trước khi chạy. Điều chỉnh kỳ vọng theo kết quả thực tế sẽ bỏ sót lỗi. Mỗi ca phải truy được về yêu cầu."
+        },
+        {
+          "type": "example",
+          "ja": "TC-LOGIN-03：前提は有効な利用者、入力は正しいIDと誤ったパスワード、操作はログイン実行、期待結果は認証失敗表示、セッション未作成、失敗回数が1増加すること。",
+          "vi": "TC-LOGIN-03: điều kiện trước là người dùng hợp lệ; nhập ID đúng, mật khẩu sai; thực hiện đăng nhập; mong đợi báo xác thực thất bại, không tạo session và số lần sai tăng 1."
+        },
+        {
+          "type": "warning",
+          "ja": "「正しく動作すること」だけでは期待結果にならない。画面、データ、状態、ログなど観測可能な結果を具体的に書く。",
+          "vi": "Chỉ viết “hoạt động đúng” chưa phải kết quả mong đợi. Cần ghi cụ thể kết quả quan sát được ở màn hình, dữ liệu, trạng thái, log."
         }
       ],
       "terms": [
@@ -1983,8 +2077,9 @@
           "term": "テストケース",
           "english": "Test Case",
           "vi": "Ca kiểm thử",
-          "definitionJa": "ソフトウェアの動作を確認するために作成される具体的なテストの指示や条件のことである。特定の機能や要求に対して、期待される結果を明示することで、ソフトウェアが正しく動作しているかを検証するのに役立つ。例えば、ユーザーがログインする際のテストケースでは、「正しいユーザー名とパスワードを入力した場合、ログインに成功すること」といった具体的な手順が記される。このように、各異なるシナリオや条件を考慮して設計され、ソフトウェアの品質向上を目的とした重要な要素である。テストケースによって、開発チームはエラーや不具合を早期に発見し、修正することが可能になる。",
-          "definitionVi": "Ca kiểm thử là tập hợp điều kiện, dữ liệu đầu vào, bước thực hiện và kết quả mong đợi để kiểm tra một chức năng hoặc yêu cầu cụ thể."
+            "definitionJa": "特定のテスト目的に対する前提条件、入力、環境、操作、期待結果、判定条件を定めた一組の仕様。",
+            "definitionVi": "Bộ đặc tả điều kiện trước, đầu vào, môi trường, thao tác, kết quả mong đợi và tiêu chí đánh giá cho một mục tiêu kiểm thử.",
+            "reading": "てすとけーす"
         }
       ],
       "tags": [
@@ -1999,8 +2094,8 @@
       "titleJa": "命令網羅",
       "titleVi": "Bao phủ câu lệnh",
       "importance": "high",
-      "summaryJa": "ソフトウェアのテスト手法の一つである。",
-      "summaryVi": "Là tiêu chí kiểm thử white-box nhằm xác nhận các lệnh hoặc câu lệnh của chương trình đã được thực thi bởi test.",
+      "summaryJa": "対象となる実行可能な命令を、テストで少なくとも一度実行した割合を測るホワイトボックス基準である。",
+      "summaryVi": "Là tiêu chí hộp trắng đo tỷ lệ câu lệnh thực thi được test chạy ít nhất một lần.",
       "content": [
         {
           "type": "heading",
@@ -2009,13 +2104,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアのテスト手法の一つである。これは、プログラム内の全ての命令が少なくとも一度は実行されるようにテストを行うことを目的としている。命令網羅を達成することで、プログラムの各部分が正しく動作しているかを確認することができる。例えば、条件分岐やループなど、異なる経路を通る場合を考慮し、各部分が正常に機能しているかをチェックする。この手法はバグやエラーの発見に役立ち、ソフトウェアの品質を向上させるための重要なプロセスとして位置づけられている。",
-          "vi": "Là tiêu chí kiểm thử white-box nhằm xác nhận các lệnh hoặc câu lệnh của chương trình đã được thực thi bởi test. Mục tiêu là thực thi ít nhất một lần từng phần mã thuộc phạm vi đo. Tỷ lệ bao phủ càng cao cho thấy nhiều lệnh đã được kiểm tra, nhưng vẫn cần kết hợp với các tiêu chí khác để đánh giá logic đầy đủ."
+          "ja": "命令網羅（statement coverage）は、実行された命令数を実行可能な全命令数で割って求める。100％では全命令が少なくとも一度実行されるが、if文の一方だけで後続命令へ到達できる場合、反対側の分岐結果は未確認でも達成できる。したがって、分岐網羅や条件網羅、境界値テストと組み合わせて論理を確認する。",
+          "vi": "Bao phủ câu lệnh được tính bằng số câu lệnh đã chạy chia tổng câu lệnh có thể chạy. 100% nghĩa mọi câu lệnh chạy ít nhất một lần, nhưng nếu đi một phía của if vẫn tới được lệnh sau thì có thể đạt dù chưa thử kết quả nhánh còn lại. Vì vậy cần kết hợp bao phủ nhánh, điều kiện và kiểm thử biên."
         },
         {
           "type": "point",
-          "ja": "命令網羅の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ câu lệnh."
+          "ja": "命令網羅はC0とも呼ばれる。分岐網羅（C1）より弱い基準であり、C0が100％でも全分岐を通ったとは限らない。",
+          "vi": "Bao phủ câu lệnh còn gọi C0, yếu hơn bao phủ nhánh C1. C0 đạt 100% không có nghĩa mọi kết quả nhánh đã chạy."
+        },
+        {
+          "type": "example",
+          "ja": "実行可能な命令が50個あり、テストで45個を一度以上実行したなら、命令網羅率は45÷50×100＝90％である。未実行の5個を確認してケース追加を検討する。",
+          "vi": "Nếu có 50 câu lệnh thực thi được và test đã chạy 45 câu ít nhất một lần thì coverage là 45 ÷ 50 × 100 = 90%. Xem 5 câu chưa chạy để cân nhắc thêm ca."
+        },
+        {
+          "type": "warning",
+          "ja": "命令を通過しただけでは、その計算結果を正しく検証したとは限らない。期待結果とアサーションが不十分なら、高い網羅率でも欠陥を見逃す。",
+          "vi": "Chỉ đi qua câu lệnh không có nghĩa đã kiểm chứng kết quả tính đúng. Nếu kỳ vọng và assertion yếu, coverage cao vẫn bỏ sót lỗi."
         }
       ],
       "terms": [
@@ -2023,8 +2128,8 @@
           "term": "命令網羅",
           "english": "Instruction Coverage",
           "vi": "Bao phủ câu lệnh",
-          "definitionJa": "ソフトウェアのテスト手法の一つである。これは、プログラム内の全ての命令が少なくとも一度は実行されるようにテストを行うことを目的としている。命令網羅を達成することで、プログラムの各部分が正しく動作しているかを確認することができる。例えば、条件分岐やループなど、異なる経路を通る場合を考慮し、各部分が正常に機能しているかをチェックする。この手法はバグやエラーの発見に役立ち、ソフトウェアの品質を向上させるための重要なプロセスとして位置づけられている。",
-          "definitionVi": "Bao phủ câu lệnh là tiêu chí kiểm thử white-box nhằm xác nhận các lệnh hoặc câu lệnh của chương trình đã được thực thi bởi test.",
+            "definitionJa": "対象となる実行可能な命令のうち、テストで少なくとも一度実行した命令の割合を測るホワイトボックス基準。",
+            "definitionVi": "Tiêu chí hộp trắng đo tỷ lệ câu lệnh thực thi được đã được test chạy ít nhất một lần.",
           "reading": "めいれいもうら"
         }
       ],
