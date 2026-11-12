@@ -11,8 +11,8 @@
       "titleJa": "コーディング",
       "titleVi": "Lập trình mã nguồn",
       "importance": "high",
-      "summaryJa": "プログラムを書く作業のことである。",
-      "summaryVi": "Là công việc viết chương trình.",
+      "summaryJa": "設計をプログラム言語のソースコードへ変換し、規約に従って実行可能なソフトウェアを作る活動である。",
+      "summaryVi": "Là hoạt động chuyển thiết kế thành mã nguồn bằng ngôn ngữ lập trình và tạo phần mềm chạy được theo quy chuẩn.",
       "content": [
         {
           "type": "heading",
@@ -21,13 +21,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プログラムを書く作業のことである。プログラミング言語を用いて、コンピュータが理解できる形で指示を記述するプロセスを指す。例えば、Webサイトを作成する際には、HTMLやCSS、JavaScriptといった言語を用いて、看板のような表示内容やその動きを指示することが必要である。コーディングによって、ソフトウェアが実際に動作する機能を具現化することができ、問題解決や情報処理を行う基盤が形成される。このため、コーディングはソフトウェア開発の重要なステップであり、技術者にとって欠かせないスキルである。",
-          "vi": "Là công việc viết chương trình. Đây là quá trình sử dụng ngôn ngữ lập trình để mô tả các chỉ thị dưới dạng mà máy tính có thể hiểu được. Ví dụ, khi tạo một trang web, cần dùng các ngôn ngữ như HTML, CSS và JavaScript để chỉ định nội dung hiển thị và cách nội dung đó hoạt động. Thông qua coding, các chức năng giúp phần mềm thực sự hoạt động được hiện thực hóa, tạo nền tảng cho việc giải quyết vấn đề và xử lý thông tin. Vì vậy, coding là một bước quan trọng trong phát triển phần mềm và là kỹ năng không thể thiếu đối với kỹ sư."
+          "ja": "コーディングでは、詳細設計、インタフェース仕様、データ定義を基に、アルゴリズムと処理をソースコードとして実装する。命名、書式、例外処理、入力検査、ログ、セキュアコーディングなどの標準を守り、コンパイル、静的解析、コードレビュー、ユニットテストで設計との一致を確認する。設計要素とコードの対応、変更理由、版を記録すると、保守と追跡が容易になる。",
+          "vi": "Coding dựa trên thiết kế chi tiết, đặc tả giao diện, định nghĩa dữ liệu để triển khai thuật toán và xử lý thành mã nguồn. Phải tuân chuẩn đặt tên, định dạng, ngoại lệ, kiểm tra đầu vào, log và secure coding; dùng biên dịch, phân tích tĩnh, review, unit test để xác nhận phù hợp thiết kế. Ghi quan hệ giữa phần tử thiết kế và mã, lý do thay đổi, phiên bản giúp bảo trì và truy vết."
         },
         {
           "type": "point",
-          "ja": "コーディングの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lập trình mã nguồn."
+          "ja": "コーディングは単に動くコードを書くことではなく、設計を正確に実装し、規約、可読性、保守性、テスト可能性を満たす活動である。",
+          "vi": "Coding không chỉ viết mã chạy được mà phải triển khai đúng thiết kế và đáp ứng quy chuẩn, khả năng đọc, bảo trì, kiểm thử."
+        },
+        {
+          "type": "example",
+          "ja": "注文合計の詳細設計から計算関数を実装し、金額型、丸め規則、例外、ログを標準に従って記述する。静的解析とレビュー後、境界値を含むユニットテストを実行する。",
+          "vi": "Từ thiết kế chi tiết tổng đơn hàng, triển khai hàm tính với kiểu tiền, quy tắc làm tròn, ngoại lệ, log theo chuẩn; sau phân tích tĩnh và review, chạy unit test có giá trị biên."
+        },
+        {
+          "type": "warning",
+          "ja": "要求や設計にない機能を善意で追加するゴールドプレーティングは、テスト・保守範囲とリスクを増やす。変更は承認と追跡を経て実装する。",
+          "vi": "Tự thêm chức năng ngoài yêu cầu, thiết kế dù có ý tốt làm tăng phạm vi test, bảo trì và rủi ro. Thay đổi phải được phê duyệt, truy vết trước khi triển khai."
         }
       ],
       "terms": [
@@ -35,8 +45,9 @@
           "term": "コーディング",
           "english": "Coding",
           "vi": "Lập trình mã nguồn",
-          "definitionJa": "プログラムを書く作業のことである。プログラミング言語を用いて、コンピュータが理解できる形で指示を記述するプロセスを指す。例えば、Webサイトを作成する際には、HTMLやCSS、JavaScriptといった言語を用いて、看板のような表示内容やその動きを指示することが必要である。コーディングによって、ソフトウェアが実際に動作する機能を具現化することができ、問題解決や情報処理を行う基盤が形成される。このため、コーディングはソフトウェア開発の重要なステップであり、技術者にとって欠かせないスキルである。",
-          "definitionVi": "Lập trình mã nguồn là công việc viết chương trình."
+            "definitionJa": "詳細設計をプログラム言語のソースコードへ変換し、コーディング標準に従って実装・確認する活動。",
+            "definitionVi": "Hoạt động chuyển thiết kế chi tiết thành mã nguồn bằng ngôn ngữ lập trình, triển khai và kiểm tra theo chuẩn coding.",
+            "reading": "こーでぃんぐ"
         }
       ],
       "tags": [
@@ -51,8 +62,8 @@
       "titleJa": "プログラム言語",
       "titleVi": "Ngôn ngữ lập trình",
       "importance": "high",
-      "summaryJa": "コンピュータに指示を与えるための手段である。",
-      "summaryVi": "Là phương tiện dùng để đưa chỉ thị cho máy tính.",
+      "summaryJa": "アルゴリズムやデータ構造を、定められた構文と意味規則で記述するための形式言語である。",
+      "summaryVi": "Là ngôn ngữ hình thức dùng cú pháp và quy tắc ngữ nghĩa xác định để mô tả thuật toán, cấu trúc dữ liệu.",
       "content": [
         {
           "type": "heading",
@@ -61,13 +72,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "コンピュータに指示を与えるための手段である。これにより、開発者はソフトウェアを作成したり、問題を解決したりするための命令を記述することができる。具体的に言えば、PythonやJava、C++などが一般的なプログラム言語の例である。それぞれの言語には特有の構文やルールがあり、異なる用途や開発環境に適したものが選ばれる。コンピュータの動作を理解しやすい形で表現する手法であるため、プログラマーはこれを使って効率良くソフトウェアを構築することが可能である。これにより、創造的なアプローチでさまざまなタスクを自動化することもできる。",
-          "vi": "Là phương tiện dùng để đưa chỉ thị cho máy tính. Nhờ đó, nhà phát triển có thể viết các lệnh để tạo phần mềm hoặc giải quyết vấn đề. Python, Java và C++ là những ví dụ phổ biến. Mỗi ngôn ngữ có cú pháp và quy tắc riêng, vì vậy ngôn ngữ phù hợp sẽ được lựa chọn tùy theo mục đích và môi trường phát triển."
+          "ja": "プログラム言語は、字句、構文、型、演算、制御構造などの規則をもち、人が記述したソースコードを処理系が翻訳又は解釈して実行する。コンパイラ方式、インタプリタ方式、その組合せがあり、手続型、オブジェクト指向、関数型、論理型など表現モデルも異なる。選定時は用途、実行環境、性能、安全性、移植性、ライブラリ、開発・保守体制を評価する。",
+          "vi": "Ngôn ngữ lập trình có quy tắc từ vựng, cú pháp, kiểu, phép toán, cấu trúc điều khiển; bộ xử lý dịch hoặc thông dịch mã nguồn để chạy. Có compiler, interpreter hoặc kết hợp; mô hình biểu đạt như thủ tục, hướng đối tượng, hàm, logic. Khi chọn cần xét mục đích, môi trường, hiệu năng, an toàn, tính di động, thư viện và năng lực phát triển, bảo trì."
         },
         {
           "type": "point",
-          "ja": "プログラム言語の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Ngôn ngữ lập trình."
+          "ja": "高級言語で書いたソースコードは、そのままCPUが直接実行する機械語とは異なる。処理系による翻訳・解釈の役割を押さえる。",
+          "vi": "Mã nguồn ngôn ngữ bậc cao khác mã máy CPU chạy trực tiếp. Cần nắm vai trò dịch, thông dịch của bộ xử lý ngôn ngữ."
+        },
+        {
+          "type": "example",
+          "ja": "組込み制御では資源制約と実行時間、Webサービスではライブラリ、実行基盤、保守要員を比較して言語を選ぶ。同じアルゴリズムでも言語と処理系で実装特性が変わる。",
+          "vi": "Hệ nhúng so ràng buộc tài nguyên, thời gian; dịch vụ web so thư viện, nền tảng chạy, nhân lực bảo trì để chọn ngôn ngữ. Cùng thuật toán nhưng đặc tính triển khai thay đổi theo ngôn ngữ, bộ xử lý."
+        },
+        {
+          "type": "warning",
+          "ja": "言語名だけで性能や安全性を断定しない。実装、処理系、ライブラリ、設定、アルゴリズム、実行環境も結果へ影響する。",
+          "vi": "Không kết luận hiệu năng hoặc an toàn chỉ từ tên ngôn ngữ. Cách triển khai, compiler/interpreter, thư viện, cấu hình, thuật toán và môi trường đều ảnh hưởng."
         }
       ],
       "terms": [
@@ -75,8 +96,8 @@
           "term": "プログラム言語",
           "english": "Programming Language",
           "vi": "Ngôn ngữ lập trình",
-          "definitionJa": "コンピュータに指示を与えるための手段である。",
-          "definitionVi": "Ngôn ngữ lập trình là phương tiện dùng để đưa chỉ thị cho máy tính.",
+            "definitionJa": "アルゴリズムやデータ構造を、処理系が翻訳又は解釈できる構文・意味規則で記述する形式言語。",
+            "definitionVi": "Ngôn ngữ hình thức mô tả thuật toán, cấu trúc dữ liệu bằng cú pháp, ngữ nghĩa mà bộ xử lý có thể dịch hoặc thông dịch.",
           "reading": "ぷろぐらむげんご"
         }
       ],
@@ -92,8 +113,8 @@
       "titleJa": "アルゴリズム",
       "titleVi": "Thuật toán",
       "importance": "high",
-      "summaryJa": "特定の問題を解決するための手順やルールの集まりである。",
-      "summaryVi": "Là tập hợp các bước hoặc quy tắc để giải quyết một vấn đề cụ thể.",
+      "summaryJa": "入力から所定の出力を得て問題を解決するための、明確で有限な処理手順である。",
+      "summaryVi": "Là trình tự xử lý rõ ràng, hữu hạn để nhận đầu vào, tạo đầu ra xác định và giải quyết vấn đề.",
       "content": [
         {
           "type": "heading",
@@ -102,13 +123,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定の問題を解決するための手順やルールの集まりである。これは、目標を達成するために実行する一連の計算や操作を明確に示したもので、コンピュータプログラムやソフトウェア開発において非常に重要な要素である。たとえば、ネット検索の際に検索結果を表示するための方法や、データの整理と分析を行う手法がアルゴリズムに該当する。適切なアルゴリズムを選定することにより、効率的な処理が可能となり、結果的にプログラムの性能を向上させることができる。アルゴリズムは明確かつ再現可能であるため、誰が実行しても同じ結果が得られる点も重要である。",
-          "vi": "Là tập hợp các bước hoặc quy tắc để giải quyết một vấn đề cụ thể. Thuật toán chỉ rõ chuỗi phép tính hoặc thao tác cần thực hiện để đạt mục tiêu. Việc chọn thuật toán phù hợp giúp xử lý hiệu quả hơn và cải thiện hiệu năng chương trình; thuật toán cũng cần rõ ràng và có khả năng tái hiện."
+          "ja": "アルゴリズムは、入力、各処理の順序と条件、終了条件、出力を曖昧なく定義する。正当性だけでなく、入力規模nに対する時間計算量と領域計算量、最悪・平均条件、データ特性を比較して選択する。フローチャートや擬似言語で言語非依存に表現し、境界条件や空データでも有限回で停止して正しい結果を返すか確認する。",
+          "vi": "Thuật toán định nghĩa không mơ hồ đầu vào, thứ tự, điều kiện xử lý, điều kiện kết thúc và đầu ra. Ngoài tính đúng, chọn theo độ phức tạp thời gian, bộ nhớ theo kích thước n, trường hợp xấu/trung bình và đặc tính dữ liệu. Có thể biểu diễn độc lập ngôn ngữ bằng lưu đồ, giả mã; kiểm tra biên, dữ liệu rỗng, dừng sau số bước hữu hạn và trả đúng kết quả."
         },
         {
           "type": "point",
-          "ja": "アルゴリズムの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Thuật toán."
+          "ja": "FEでは、アルゴリズムの正しさと効率を分けて評価する。同じ結果でも、線形探索O(n)と二分探索O(log n)では前提条件と計算量が異なる。",
+          "vi": "Trong FE, đánh giá riêng tính đúng và hiệu quả. Cùng kết quả nhưng tìm tuyến tính O(n), nhị phân O(log n) khác điều kiện trước và độ phức tạp."
+        },
+        {
+          "type": "example",
+          "ja": "昇順に整列済みの100万件から値を探す場合、先頭から比較する線形探索より、探索範囲を半分ずつ減らす二分探索が適する。ただし未整列データにはそのまま使えない。",
+          "vi": "Tìm trong một triệu phần tử đã sắp tăng: tìm nhị phân giảm nửa phạm vi phù hợp hơn tìm tuyến tính từ đầu. Nhưng không dùng trực tiếp nếu dữ liệu chưa sắp."
+        },
+        {
+          "type": "warning",
+          "ja": "高速なアルゴリズムでも前提条件を満たさなければ誤答になる。計算量の次数だけでなく、データ量、準備コスト、メモリ、保守性も考慮する。",
+          "vi": "Thuật toán nhanh vẫn sai nếu không đạt điều kiện trước. Không chỉ xét bậc complexity mà cả lượng dữ liệu, chi phí chuẩn bị, bộ nhớ, bảo trì."
         }
       ],
       "terms": [
@@ -116,8 +147,9 @@
           "term": "アルゴリズム",
           "english": "Algorithm",
           "vi": "Thuật toán",
-          "definitionJa": "特定の問題を解決するための手順やルールの集まりである。",
-          "definitionVi": "Thuật toán là tập hợp các bước hoặc quy tắc để giải quyết một vấn đề cụ thể."
+            "definitionJa": "入力を受け取り、明確な有限手順によって所定の出力を生成し、問題を解決する処理方法。",
+            "definitionVi": "Phương pháp nhận đầu vào và tạo đầu ra xác định qua trình tự rõ ràng, hữu hạn để giải quyết vấn đề.",
+            "reading": "あるごりずむ"
         }
       ],
       "tags": [
@@ -213,8 +245,8 @@
       "titleJa": "構造化プログラミング",
       "titleVi": "Lập trình có cấu trúc",
       "importance": "high",
-      "summaryJa": "プログラムを作成する際の手法の一つである。",
-      "summaryVi": "Là phương pháp lập trình chia vấn đề thành các phần nhỏ và tổ chức chúng bằng các cấu trúc cơ bản như tuần tự.",
+      "summaryJa": "処理を順次・選択・反復の基本構造と階層的な部品で組み立てるプログラミング手法である。",
+      "summaryVi": "Là phương pháp xây chương trình bằng cấu trúc tuần tự, lựa chọn, lặp và các thành phần phân cấp.",
       "content": [
         {
           "type": "heading",
@@ -223,13 +255,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プログラムを作成する際の手法の一つである。この手法では、問題を小さな部分に分割し、それぞれの部分を順序立てて整理することで、より理解しやすく、保守性の高いコードを作成することを目的とする。例えば、「順次処理」「条件分岐」「繰り返し処理」といった基本的な構造を利用することで、プログラムの流れを明確にし、ミスを減らすことができる。これにより、プログラムのデバッグや再利用がしやすくなり、効率良くソフトウェアを開発することが可能である。また、構造化プログラミングは多くのプログラミング言語において採用されており、特にC言語やPascalなどが有名である。",
-          "vi": "Là phương pháp lập trình chia vấn đề thành các phần nhỏ và tổ chức chúng bằng các cấu trúc cơ bản như tuần tự, rẽ nhánh và lặp. Mục tiêu là tạo mã dễ hiểu, dễ gỡ lỗi, tái sử dụng và bảo trì hơn."
+          "ja": "構造化プログラミングは、一入口一出口の順次、選択、反復を組み合わせ、処理をサブルーチンやモジュールへ段階的に分割する。無制限なgotoによる複雑な飛越しを避け、制御フローを上から追える形にすることで、正しさの確認、テスト、変更影響の把握を容易にする。トップダウンで機能を詳細化し、各部品の責務とインタフェースを明確にする。",
+          "vi": "Lập trình cấu trúc kết hợp tuần tự, lựa chọn, lặp có một lối vào, ra và phân rã xử lý thành thủ tục, mô-đun theo từng bước. Tránh nhảy goto không hạn chế, giữ luồng có thể đọc từ trên xuống để dễ chứng minh đúng, test và xác định ảnh hưởng thay đổi. Phân rã top-down, làm rõ trách nhiệm, giao diện từng phần."
         },
         {
           "type": "point",
-          "ja": "構造化プログラミングの目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Lập trình có cấu trúc."
+          "ja": "基本制御構造は順次、選択、反復である。単に関数へ分割するだけでなく、制御の入口・出口と責務を明確にする。",
+          "vi": "Ba cấu trúc cơ bản là tuần tự, lựa chọn, lặp. Không chỉ chia hàm mà phải rõ lối vào, ra và trách nhiệm."
+        },
+        {
+          "type": "example",
+          "ja": "注文処理を「入力検査→在庫確認→金額計算→登録」の順次構造とし、在庫有無を選択、明細処理を反復で表す。各処理を一入口一出口の関数へ分割する。",
+          "vi": "Tổ chức đơn hàng thành tuần tự “kiểm tra đầu vào → tồn kho → tính tiền → đăng ký”, dùng lựa chọn cho có hàng, lặp cho từng chi tiết; tách thành hàm một lối vào, ra."
+        },
+        {
+          "type": "warning",
+          "ja": "深い入れ子を基本構造で書けば自動的に読みやすくなるわけではない。複雑な条件は分割し、関数名と責務を明確にする。",
+          "vi": "Viết lồng sâu bằng cấu trúc cơ bản không tự động dễ đọc. Hãy tách điều kiện phức tạp, làm rõ tên hàm và trách nhiệm."
         }
       ],
       "terms": [
@@ -237,8 +279,8 @@
           "term": "構造化プログラミング",
           "english": "Structured Programming",
           "vi": "Lập trình có cấu trúc",
-          "definitionJa": "プログラムを作成する際の手法の一つである。",
-          "definitionVi": "Lập trình có cấu trúc là phương pháp lập trình chia vấn đề thành các phần nhỏ và tổ chức chúng bằng các cấu trúc cơ bản như tuần tự, rẽ nhánh và lặp.",
+            "definitionJa": "順次、選択、反復の基本制御構造と階層的分割を用い、制御フローを明確にするプログラミング手法。",
+            "definitionVi": "Phương pháp dùng tuần tự, lựa chọn, lặp và phân rã phân cấp để làm rõ luồng điều khiển.",
           "reading": "こうぞうかぷろぐらみんぐ"
         }
       ],
@@ -295,8 +337,8 @@
       "titleJa": "追跡可能性",
       "titleVi": "Khả năng truy vết",
       "importance": "high",
-      "summaryJa": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。",
-      "summaryVi": "Là khả năng theo dõi mối liên hệ giữa các yêu cầu.",
+      "summaryJa": "要求、設計、コード、テストなどの成果物間の関係を、根拠とともに前後へたどれる性質である。",
+      "summaryVi": "Là khả năng truy xuôi và ngược quan hệ có căn cứ giữa yêu cầu, thiết kế, mã và kiểm thử.",
       "content": [
         {
           "type": "heading",
@@ -305,13 +347,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。具体的には、特定の要件がどのようにテストケースに反映されているのかを追跡し、変更があった場合にその影響を評価できることを指す。例えば、新機能の追加が必要になった場合、その要件が既存のテストケースにどのように関連しているかを把握することで、開発やテストの効率を高めることが可能である。また、品質保証やプロジェクト管理においても重要で、最終的な製品が仕様を満たしているかを確認するための有力な手段となる。",
-          "vi": "Là khả năng theo dõi mối liên hệ giữa các yêu cầu, thiết kế, mã nguồn và kết quả kiểm thử trong suốt quá trình phát triển phần mềm. Nhờ duy trì traceability, có thể xác nhận một yêu cầu đã được triển khai ở đâu, được kiểm thử bằng test case nào và thay đổi ở một phần sẽ ảnh hưởng đến những phần nào. Điều này giúp tránh bỏ sót yêu cầu và hỗ trợ quản lý thay đổi cũng như bảo đảm chất lượng."
+          "ja": "追跡可能性では、各成果物へ一意な識別子を付け、要求→設計→コード→テストと、その逆方向のリンクを記録・維持する。前方追跡で要求の実装・検証漏れを、後方追跡で根拠のないコードやテストを検出できる。要求変更時にはリンクから影響する設計、コード、文書、テストを抽出し、承認された変更を反映した後に対応関係も更新する。",
+          "vi": "Traceability gán mã duy nhất cho từng sản phẩm, ghi và duy trì liên kết yêu cầu → thiết kế → mã → test và chiều ngược. Truy xuôi phát hiện thiếu triển khai, kiểm chứng; truy ngược phát hiện mã, test không có căn cứ. Khi yêu cầu đổi, dùng liên kết tìm thiết kế, mã, tài liệu, test bị ảnh hưởng; sau thay đổi được duyệt phải cập nhật quan hệ."
         },
         {
           "type": "point",
-          "ja": "追跡可能性の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Khả năng truy vết."
+          "ja": "リンクは作成時だけでなく変更のたびに維持する。空白は未実装・未テスト、親を持たない成果物はスコープ外追加の兆候になり得る。",
+          "vi": "Liên kết phải duy trì mỗi lần thay đổi, không chỉ tạo ban đầu. Khoảng trống có thể là chưa triển khai/test; sản phẩm không có cha có thể là thêm ngoài phạm vi."
+        },
+        {
+          "type": "example",
+          "ja": "REQ-104をDES-22、関数calculateTax、テストTC-81へリンクする。税率要件の変更時、三つの成果物と利用者文書を影響対象として更新・再テストする。",
+          "vi": "Liên kết REQ-104 với DES-22, hàm calculateTax và TC-81. Khi yêu cầu thuế đổi, xác định ba sản phẩm cùng tài liệu người dùng để cập nhật, test lại."
+        },
+        {
+          "type": "warning",
+          "ja": "古いリンクはリンクがない場合より危険なことがある。誤った影響分析を避けるため、版と状態を管理し、レビューで欠落・孤立を確認する。",
+          "vi": "Liên kết cũ đôi khi nguy hiểm hơn không có liên kết vì gây phân tích tác động sai. Quản lý phiên bản, trạng thái và review khoảng trống, phần cô lập."
         }
       ],
       "terms": [
@@ -319,8 +371,8 @@
           "term": "追跡可能性",
           "english": "Traceability",
           "vi": "Khả năng truy vết",
-          "definitionJa": "ソフトウェア開発プロセスにおける要件、設計、実装、テストの各段階がどのように関連しているかを確認できる能力である。",
-          "definitionVi": "Khả năng truy vết là khả năng theo dõi mối liên hệ giữa các yêu cầu, thiết kế, mã nguồn và kết quả kiểm thử trong suốt quá trình phát triển phần mềm.",
+            "definitionJa": "要求、設計、コード、テストなどの成果物間の対応を、根拠とともに前方・後方へ追跡できる性質。",
+            "definitionVi": "Khả năng truy xuôi, ngược quan hệ có căn cứ giữa yêu cầu, thiết kế, mã và kiểm thử.",
           "reading": "ついせきかのうせい"
         }
       ],
@@ -2145,8 +2197,8 @@
       "titleJa": "条件網羅",
       "titleVi": "Bao phủ điều kiện",
       "importance": "high",
-      "summaryJa": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。",
-      "summaryVi": "Khái niệm về Bao phủ điều kiện: tiêu chí yêu cầu từng điều kiện đơn trong biểu thức nhận cả giá trị true và false ít nhất một lần.",
+      "summaryJa": "判定式を構成する各基本条件が、真と偽を少なくとも一度ずつ取ることを確認する網羅基準である。",
+      "summaryVi": "Là tiêu chí xác nhận mỗi điều kiện nguyên tử cấu thành biểu thức quyết định nhận cả true và false ít nhất một lần.",
       "content": [
         {
           "type": "heading",
@@ -2155,13 +2207,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。この手法では、特定の条件が「真」または「偽」となる場合に、各パスをテストすることで、プログラムの動作が期待通りであるかを確認する。例えば、if文や論理演算子の使われている場所で、すべての条件の組み合わせを考慮し、その実行をモニタリングすることで、潜在的なバグを早期に発見できる。これにより、テストの品質が向上し、より信頼性の高いソフトウェアを提供する助けとなる。",
-          "vi": "Là tiêu chí yêu cầu từng điều kiện đơn trong biểu thức nhận cả giá trị true và false ít nhất một lần."
+          "ja": "条件網羅は、A AND Bのような判定式に含まれるA、Bそれぞれの真・偽をテストする。全ての組合せを要求するのではなく、各基本条件の結果を個別に網羅する基準である。選んだ組合せによっては判定式全体が真又は偽の一方にしかならないことがあり、判定結果の両方を必ず網羅するとは限らない。",
+          "vi": "Bao phủ điều kiện kiểm tra true, false của từng điều kiện A, B trong quyết định như A AND B. Tiêu chí này không yêu cầu mọi tổ hợp mà bao phủ kết quả từng điều kiện riêng. Tùy tổ hợp chọn, toàn bộ quyết định có thể chỉ cho một kết quả, nên không nhất thiết bao phủ cả true và false của quyết định."
         },
         {
           "type": "point",
-          "ja": "条件網羅の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ điều kiện."
+          "ja": "FEでは、基本条件ごとの真偽と、判定式全体の真偽を分けて考える。条件網羅は前者を対象とし、複数条件網羅とは異なる。",
+          "vi": "Trong FE, tách true/false của từng điều kiện nguyên tử khỏi true/false của toàn quyết định. Bao phủ điều kiện xét loại đầu và khác bao phủ đa điều kiện."
+        },
+        {
+          "type": "example",
+          "ja": "判定がA OR Bの場合、(A=true, B=false)と(A=false, B=true)でAとBはそれぞれ真・偽を取るため条件網羅を満たす。しかし判定結果は両方ともtrueで、falseは未確認である。",
+          "vi": "Với quyết định A OR B, hai ca (A=true, B=false) và (A=false, B=true) cho mỗi điều kiện cả true, false nên đạt condition coverage. Nhưng quyết định đều true, chưa kiểm tra false."
+        },
+        {
+          "type": "warning",
+          "ja": "短絡評価がある言語では、後続条件が実際には評価されない組合せがある。ツールの測定結果を確認し、値を与えただけで網羅したと判断しない。",
+          "vi": "Trong ngôn ngữ có short-circuit, điều kiện sau có thể không được đánh giá ở một số tổ hợp. Phải xem kết quả công cụ, không kết luận đã bao phủ chỉ vì đã gán giá trị."
         }
       ],
       "terms": [
@@ -2169,8 +2231,8 @@
           "term": "条件網羅",
           "english": "Condition Coverage",
           "vi": "Bao phủ điều kiện",
-          "definitionJa": "ソフトウェアのテスト手法の一つであり、プログラム内の条件がすべての真偽値を正確に実行されることを目指すものである。この手法では、特定の条件が「真」または「偽」となる場合に、各パスをテストすることで、プログラムの動作が期待通りであるかを確認する。例えば、if文や論理演算子の使われている場所で、すべての条件の組み合わせを考慮し、その実行をモニタリングすることで、潜在的なバグを早期に発見できる。これにより、テストの品質が向上し、より信頼性の高いソフトウェアを提供する助けとなる。",
-          "definitionVi": "Bao phủ điều kiện là tiêu chí yêu cầu từng điều kiện đơn trong biểu thức nhận cả giá trị true và false ít nhất một lần.",
+            "definitionJa": "判定式を構成する各基本条件について、真と偽の結果を少なくとも一度ずつ実行する網羅基準。",
+            "definitionVi": "Tiêu chí bao phủ thực thi kết quả true và false ít nhất một lần cho từng điều kiện nguyên tử trong quyết định.",
           "reading": "じょうけんもうら"
         }
       ],
@@ -2186,8 +2248,8 @@
       "titleJa": "判定条件網羅",
       "titleVi": "Bao phủ quyết định",
       "importance": "high",
-      "summaryJa": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。",
-      "summaryVi": "Là tiêu chí kiểm tra tất cả kết quả có thể của các quyết định.",
+      "summaryJa": "各判定式全体が、真と偽の両方の結果を少なくとも一度ずつ取ることを確認する網羅基準である。",
+      "summaryVi": "Là tiêu chí xác nhận toàn bộ mỗi quyết định nhận cả kết quả true và false ít nhất một lần.",
       "content": [
         {
           "type": "heading",
@@ -2196,13 +2258,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。この手法では、条件分岐がある箇所に注目し、その条件を満たすためのテストケースを作成することが求められる。例えば、if文やswitch文などの分岐点に対して、それぞれのパスを通るようにテストを実施する。これにより、バグを早期に発見し、プログラムの品質を向上させることが可能となる。単なるコードの網羅性を超え、論理的な誤りを見つけるための効果的な手法となる。",
-          "vi": "Là tiêu chí kiểm tra tất cả kết quả có thể của các quyết định, ví dụ biểu thức if phải được kiểm tra ở cả true và false."
+          "ja": "判定条件網羅（decision coverage、分岐網羅）は、ifやループなどの判定結果ごとに分岐を通す。A AND Bという式なら、式全体がtrueになるケースとfalseになるケースが必要であるが、AとBそれぞれが真・偽を取ることまでは要求しない。命令網羅より強い一方、複合判定内部の条件誤りを全て検出できるわけではない。",
+          "vi": "Bao phủ quyết định/nhánh đi qua từng kết quả của if, vòng lặp. Với A AND B cần một ca toàn biểu thức true và một ca false, nhưng không yêu cầu từng A, B đều nhận true và false. Mạnh hơn statement coverage nhưng không tìm được mọi lỗi bên trong quyết định ghép."
         },
         {
           "type": "point",
-          "ja": "判定条件網羅の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ quyết định."
+          "ja": "判定全体のtrue／falseを対象とする。条件網羅は基本条件、判定条件網羅は分岐結果という違いを例で判断できるようにする。",
+          "vi": "Tiêu chí xét true/false của toàn quyết định. Hãy phân biệt bằng ví dụ: condition coverage xét điều kiện nguyên tử, decision coverage xét kết quả nhánh."
+        },
+        {
+          "type": "example",
+          "ja": "判定A AND Bに対し、(true,true)で判定true、(false,true)で判定falseとなるため判定条件網羅を満たす。ただしBはtrueだけで、条件網羅は満たさない。",
+          "vi": "Với A AND B, (true,true) làm quyết định true và (false,true) làm false nên đạt decision coverage. Nhưng B chỉ true nên chưa đạt condition coverage."
+        },
+        {
+          "type": "warning",
+          "ja": "判定条件網羅100％を、全ての条件組合せ又は全経路の網羅と誤解しない。ループ回数や後続分岐の組合せは別途設計する。",
+          "vi": "Không nhầm decision coverage 100% với bao phủ mọi tổ hợp điều kiện hoặc mọi đường đi. Số vòng lặp và tổ hợp nhánh sau cần thiết kế riêng."
         }
       ],
       "terms": [
@@ -2210,8 +2282,8 @@
           "term": "判定条件網羅",
           "english": "Decision Coverage",
           "vi": "Bao phủ quyết định",
-          "definitionJa": "ソフトウェアテストにおいて、プログラム内の各条件式が真または偽の両方の結果を取ることを確認する手法である。この手法では、条件分岐がある箇所に注目し、その条件を満たすためのテストケースを作成することが求められる。例えば、if文やswitch文などの分岐点に対して、それぞれのパスを通るようにテストを実施する。これにより、バグを早期に発見し、プログラムの品質を向上させることが可能となる。単なるコードの網羅性を超え、論理的な誤りを見つけるための効果的な手法となる。",
-          "definitionVi": "Bao phủ quyết định là tiêu chí kiểm tra tất cả kết quả có thể của các quyết định, ví dụ biểu thức if phải được kiểm tra ở cả true và false.",
+            "definitionJa": "各判定式全体について、真と偽の結果を少なくとも一度ずつ実行する網羅基準。分岐網羅ともいう。",
+            "definitionVi": "Tiêu chí thực thi kết quả true và false ít nhất một lần cho toàn bộ mỗi quyết định, còn gọi bao phủ nhánh.",
           "reading": "はんていじょうけんもうら"
         }
       ],
@@ -2227,8 +2299,8 @@
       "titleJa": "複数条件網羅",
       "titleVi": "Bao phủ đa điều kiện",
       "importance": "high",
-      "summaryJa": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。",
-      "summaryVi": "Là tiêu chí kiểm tra tất cả tổ hợp true/false có thể của các điều kiện trong một biểu thức.",
+      "summaryJa": "複合判定を構成する基本条件の、実現可能な真偽の組合せを全て確認する網羅基準である。",
+      "summaryVi": "Là tiêu chí kiểm tra mọi tổ hợp true/false khả thi của các điều kiện nguyên tử trong một quyết định ghép.",
       "content": [
         {
           "type": "heading",
@@ -2237,13 +2309,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。この手法では、各条件の真偽値がどのように影響を与えるかを細かく分析することが求められ、条件ごとに異なる結果が得られるようにテストが行われる。例えば、ある条件が「AかつB」といった場合、AとBの両方が真の場合や、一方が偽の場合など、全ての組み合わせを網羅的にチェックする。こうすることで、見落としのないテストが可能となり、バグの早期発見や品質向上が期待できる。この手法は、特に複雑なロジックを含むシステムの検証において有効である。",
-          "vi": "Là tiêu chí kiểm tra tất cả tổ hợp true/false có thể của các điều kiện trong một biểu thức, hữu ích với logic phức tạp."
+          "ja": "複数条件網羅では、n個の独立した基本条件があれば原則として2のn乗個の真偽組合せを対象とする。A AND BならTT、TF、FT、FFの4組合せを確認するため、個々の条件結果と判定結果を詳細に調べられる。ただし、条件間の制約で成立しない組合せや、短絡評価で後続条件が評価されない場合は、その扱いを明示する。",
+          "vi": "Với n điều kiện nguyên tử độc lập, multiple condition coverage về nguyên tắc xét 2^n tổ hợp. A AND B có TT, TF, FT, FF nên kiểm tra chi tiết kết quả từng điều kiện và quyết định. Tuy nhiên cần nêu cách xử lý tổ hợp không thể xảy ra do ràng buộc hoặc điều kiện sau không được đánh giá do short-circuit."
         },
         {
           "type": "point",
-          "ja": "複数条件網羅の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Bao phủ đa điều kiện."
+          "ja": "条件数が増えるとケース数が指数的に増える。重要度とリスクに応じ、必要ならMC/DCなど組合せを削減する別基準も検討する。",
+          "vi": "Số ca tăng theo hàm mũ khi điều kiện tăng. Theo mức quan trọng và rủi ro, có thể cân nhắc tiêu chí giảm tổ hợp như MC/DC."
+        },
+        {
+          "type": "example",
+          "ja": "「会員である AND 購入額が5,000円以上」の2条件なら、(会員,5,000円以上)、(会員,未満)、(非会員,以上)、(非会員,未満)の4組合せを実行する。",
+          "vi": "Với hai điều kiện “là thành viên AND mua từ 5.000 yên”, chạy bốn tổ hợp: thành viên/đủ tiền, thành viên/chưa đủ, không thành viên/đủ, không thành viên/chưa đủ."
+        },
+        {
+          "type": "warning",
+          "ja": "複数条件網羅は一つの判定内の組合せを扱うもので、プログラム全体の全経路を保証しない。また、到達不能な組合せを無理に作らない。",
+          "vi": "Bao phủ đa điều kiện xét tổ hợp trong một quyết định, không bảo đảm mọi đường của toàn chương trình. Không cố tạo tổ hợp bất khả thi."
         }
       ],
       "terms": [
@@ -2251,8 +2333,8 @@
           "term": "複数条件網羅",
           "english": "Multiple Condition Coverage",
           "vi": "Bao phủ đa điều kiện",
-          "definitionJa": "テスト手法の一つであり、プログラムの条件式における全ての可能な条件の組み合わせを検証する方法である。この手法では、各条件の真偽値がどのように影響を与えるかを細かく分析することが求められ、条件ごとに異なる結果が得られるようにテストが行われる。例えば、ある条件が「AかつB」といった場合、AとBの両方が真の場合や、一方が偽の場合など、全ての組み合わせを網羅的にチェックする。こうすることで、見落としのないテストが可能となり、バグの早期発見や品質向上が期待できる。この手法は、特に複雑なロジックを含むシステムの検証において有効である。",
-          "definitionVi": "Bao phủ đa điều kiện là tiêu chí kiểm tra tất cả tổ hợp true/false có thể của các điều kiện trong một biểu thức, hữu ích với logic phức tạp.",
+            "definitionJa": "複合判定を構成する基本条件について、実現可能な真偽の組合せを全て実行する網羅基準。",
+            "definitionVi": "Tiêu chí thực thi mọi tổ hợp true/false khả thi của các điều kiện nguyên tử cấu thành quyết định ghép.",
           "reading": "ふくすうじょうけんもうら"
         }
       ],
@@ -2268,8 +2350,8 @@
       "titleJa": "限界値分析法",
       "titleVi": "Phân tích giá trị biên",
       "importance": "high",
-      "summaryJa": "ソフトウェアテストにおける手法の一つである。",
-      "summaryVi": "Là kỹ thuật tập trung kiểm thử các giá trị tại và quanh ranh giới miền đầu vào.",
+      "summaryJa": "順序をもつ同値クラスの境界上と、その直前・直後の値を選ぶブラックボックス技法である。",
+      "summaryVi": "Là kỹ thuật hộp đen chọn giá trị trên biên và ngay trước, sau biên của các lớp tương đương có thứ tự.",
       "content": [
         {
           "type": "heading",
@@ -2278,13 +2360,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアテストにおける手法の一つである。この手法は、入力データの最小値や最大値、その周辺の値を使ってテストケースを設計することに重点を置く。たとえば、数値が1から10の範囲で受け付けられる場合、1、10、その直前の値や直後の値（0や11）をテストする。特に境界条件での不具合を見つけるのに効果的で、ソフトウェアの信頼性を高めるために広く用いられている。これにより、プログラムが期待通りに動作するかどうかを効率よく確認することができる。",
-          "vi": "Là kỹ thuật tập trung kiểm thử các giá trị tại và quanh ranh giới miền đầu vào, ví dụ phạm vi 1–10 thì kiểm tra 0, 1, 10, 11."
+          "ja": "限界値分析法は、比較演算子の誤りや境界のずれが起きやすいという経験に基づき、最小値・最大値、境界の内側、境界上、外側を選ぶ。整数だけでなく、文字列長、件数、日時、容量、反復回数にも適用できる。二値法では境界上と隣接する外側、三値法では境界の直前・境界上・直後を用い、リスクに応じて選択する。",
+          "vi": "Phân tích giá trị biên dựa trên việc lỗi toán tử so sánh và lệch biên thường xảy ra, nên chọn giá trị nhỏ nhất, lớn nhất, phía trong, trên và ngoài biên. Áp dụng không chỉ số nguyên mà cả độ dài chuỗi, số lượng, ngày giờ, dung lượng, số vòng lặp. Phương pháp hai giá trị dùng trên biên và phía ngoài liền kề; ba giá trị dùng ngay trước, trên, ngay sau biên theo rủi ro."
         },
         {
           "type": "point",
-          "ja": "限界値分析法の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân tích giá trị biên."
+          "ja": "境界値は仕様の精度に応じた最小単位で選ぶ。整数の隣接値と、小数・日時の隣接値を同じ感覚で決めない。",
+          "vi": "Giá trị sát biên phải chọn theo đơn vị nhỏ nhất của đặc tả. Không áp dụng cách chọn số nguyên y hệt cho số thập phân hay thời gian."
+        },
+        {
+          "type": "example",
+          "ja": "年齢の有効範囲が18～65歳（整数）なら、三値法で下限17・18・19、上限64・65・66を選び、受理・拒否を確認する。",
+          "vi": "Nếu tuổi hợp lệ là số nguyên 18–65, phương pháp ba giá trị chọn 17, 18, 19 ở biên dưới và 64, 65, 66 ở biên trên để kiểm tra chấp nhận, từ chối."
+        },
+        {
+          "type": "warning",
+          "ja": "1～10の範囲で1と10だけを試すと、境界外の拒否処理を確認できない。逆に、順序関係のないカテゴリへ限界値分析を無理に適用しない。",
+          "vi": "Với khoảng 1–10, chỉ thử 1 và 10 không kiểm tra được từ chối ngoài biên. Ngược lại, không ép boundary analysis cho danh mục không có thứ tự."
         }
       ],
       "terms": [
@@ -2292,8 +2384,8 @@
           "term": "限界値分析法",
           "english": "Boundary Value Analysis",
           "vi": "Phân tích giá trị biên",
-          "definitionJa": "ソフトウェアテストにおける手法の一つである。この手法は、入力データの最小値や最大値、その周辺の値を使ってテストケースを設計することに重点を置く。たとえば、数値が1から10の範囲で受け付けられる場合、1、10、その直前の値や直後の値（0や11）をテストする。特に境界条件での不具合を見つけるのに効果的で、ソフトウェアの信頼性を高めるために広く用いられている。これにより、プログラムが期待通りに動作するかどうかを効率よく確認することができる。",
-          "definitionVi": "Phân tích giá trị biên là kỹ thuật tập trung kiểm thử các giá trị tại và quanh ranh giới miền đầu vào, ví dụ phạm vi 1–10 thì kiểm tra 0, 1, 10, 11.",
+            "definitionJa": "順序をもつ同値クラスについて、境界上とその直前・直後の値からテストケースを設計するブラックボックス技法。",
+            "definitionVi": "Kỹ thuật hộp đen thiết kế ca từ giá trị trên biên, ngay trước và sau biên của lớp tương đương có thứ tự.",
           "reading": "げんかいちぶんせきほう"
         }
       ],
@@ -2309,8 +2401,8 @@
       "titleJa": "同値分析法",
       "titleVi": "Phân hoạch tương đương",
       "importance": "high",
-      "summaryJa": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。",
-      "summaryVi": "Khái niệm về Phân hoạch tương đương: kỹ thuật chia dữ liệu đầu vào thành các lớp được xử lý tương đương rồi chọn giá trị đại diện từ mỗi lớp để giảm số test case.",
+      "summaryJa": "仕様上同じ処理を受けると期待できる同値クラスに値域を分割し、各クラスから代表値を選ぶ技法である。",
+      "summaryVi": "Là kỹ thuật chia miền giá trị thành các lớp dự kiến được xử lý giống nhau theo đặc tả rồi chọn đại diện từ mỗi lớp.",
       "content": [
         {
           "type": "heading",
@@ -2319,13 +2411,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。具体的には、入力値の範囲をいくつかのグループに分け、それぞれのグループから代表的な値を選び出してテストを行うことで、効果的に欠陥を見つけることができる。たとえば、数値入力において「0未満」「0以上5以下」「5超」の3つの範囲に分け、それぞれの範囲から一つずつテストデータを選ぶことで、効率的なテストを実施することが可能である。このアプローチにより、必要なテストケースが削減され、テストの効率が向上する。",
-          "vi": "Là kỹ thuật chia dữ liệu đầu vào thành các lớp được xử lý tương đương rồi chọn giá trị đại diện từ mỗi lớp để giảm số test case."
+          "ja": "同値分析法（同値分割法）では、入力、出力、設定、内部値などを、有効同値クラスと無効同値クラスに分ける。クラスは空でなく、互いに重ならず、対象値域を覆うようにする。同一クラス内では同じ処理になるという仮定に基づき、各クラスから少なくとも一つの代表値を選ぶことで、全値を試さず効率的にテストする。",
+          "vi": "Phân hoạch tương đương chia đầu vào, đầu ra, cấu hình, giá trị nội bộ thành lớp hợp lệ và không hợp lệ. Các lớp phải không rỗng, không chồng lấp và bao phủ miền mục tiêu. Dựa trên giả định mọi giá trị trong cùng lớp được xử lý giống nhau, chọn ít nhất một đại diện mỗi lớp để kiểm thử hiệu quả mà không thử mọi giá trị."
         },
         {
           "type": "point",
-          "ja": "同値分析法の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phân hoạch tương đương."
+          "ja": "代表値はクラス内部の一般的な値を選び、境界付近は限界値分析で補う。同値クラスの分け方が誤れば、代表値だけでは欠陥を見逃す。",
+          "vi": "Chọn đại diện điển hình trong lớp và bổ sung vùng biên bằng boundary analysis. Nếu phân lớp sai, chỉ thử đại diện sẽ bỏ sót lỗi."
+        },
+        {
+          "type": "example",
+          "ja": "申込人数が1～10人なら、無効クラス「0以下」、有効クラス「1～10」、無効クラス「11以上」に分け、まず−1、5、11を代表値として選ぶ。境界値は別に0、1、10、11を確認する。",
+          "vi": "Nếu số người đăng ký hợp lệ 1–10, chia lớp không hợp lệ ≤0, hợp lệ 1–10, không hợp lệ ≥11; chọn đại diện −1, 5, 11. Sau đó kiểm tra riêng biên 0, 1, 10, 11."
+        },
+        {
+          "type": "warning",
+          "ja": "有効クラスだけをテストしない。無効入力の拒否、エラー表示、データ未更新も要求の一部であり、無効クラスからも代表値を選ぶ。",
+          "vi": "Không chỉ test lớp hợp lệ. Từ chối đầu vào sai, báo lỗi, không cập nhật dữ liệu cũng là yêu cầu; phải chọn đại diện lớp không hợp lệ."
         }
       ],
       "terms": [
@@ -2333,8 +2435,8 @@
           "term": "同値分析法",
           "english": "Equivalence Partitioning",
           "vi": "Phân hoạch tương đương",
-          "definitionJa": "ソフトウェアテストにおける手法の一つであり、入力データを同じ処理が行われる範囲（同値クラス）に分割することで、テストケースの数を効率的に減らし、網羅性を高めることを目的としている。具体的には、入力値の範囲をいくつかのグループに分け、それぞれのグループから代表的な値を選び出してテストを行うことで、効果的に欠陥を見つけることができる。たとえば、数値入力において「0未満」「0以上5以下」「5超」の3つの範囲に分け、それぞれの範囲から一つずつテストデータを選ぶことで、効率的なテストを実施することが可能である。このアプローチにより、必要なテストケースが削減され、テストの効率が向上する。",
-          "definitionVi": "Phân hoạch tương đương là kỹ thuật chia dữ liệu đầu vào thành các lớp được xử lý tương đương rồi chọn giá trị đại diện từ mỗi lớp để giảm số test case.",
+            "definitionJa": "値域を仕様上同じ処理になる同値クラスへ分割し、各有効・無効クラスから代表値を選ぶブラックボックス技法。",
+            "definitionVi": "Kỹ thuật hộp đen chia miền giá trị thành các lớp được xử lý tương đương và chọn đại diện từ mỗi lớp hợp lệ, không hợp lệ.",
           "reading": "どうちぶんせきほう"
         }
       ],
@@ -2350,8 +2452,8 @@
       "titleJa": "原因結果グラフ法",
       "titleVi": "Phương pháp đồ thị nhân quả",
       "importance": "high",
-      "summaryJa": "テスト設計において用いられる手法である。",
-      "summaryVi": "Khái niệm về Phương pháp đồ thị nhân quả: kỹ thuật biểu diễn quan hệ giữa điều kiện đầu vào (nguyên nhân) và đầu ra mong đợi (kết quả) bằng đồ thị để thiết kế test case có hệ thống.",
+      "summaryJa": "入力条件を原因、出力や動作を結果として論理関係をグラフ化し、テストケースを体系的に導出する技法である。",
+      "summaryVi": "Là kỹ thuật biểu diễn điều kiện đầu vào thành nguyên nhân, đầu ra hoặc hành vi thành kết quả và nối bằng quan hệ logic để suy ra test case có hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -2360,13 +2462,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "テスト設計において用いられる手法である。この方法は、システムやソフトウェアの入力条件（原因）とそれに対する期待される出力（結果）を視覚的に整理することで、テストケースの効率的な作成を支援する。具体的には、原因をノードとして、結果をエッジとして結びつけたグラフを描くことで、複雑なロジックや条件を明確にすることができる。例えば、ユーザーの入力に対して異なる処理を行うシステムでは、それぞれの入力条件に対する結果を整理することで、すべての条件を網羅したテストケースを洗い出すことが可能となる。これにより、不具合を早期に発見でき、品質保証の向上に寄与する。",
-          "vi": "Là kỹ thuật biểu diễn quan hệ giữa điều kiện đầu vào (nguyên nhân) và đầu ra mong đợi (kết quả) bằng đồ thị để thiết kế test case có hệ thống."
+          "ja": "原因結果グラフ法では、仕様から原因ノードと結果ノードを抽出し、AND、OR、NOTなどの論理関係で結ぶ。さらに排他、包含、必須など、同時に成立できない又は成立すべき制約を加える。完成したグラフをデシジョンテーブルへ変換し、意味のある条件組合せと期待結果からテストケースを作るため、複雑な業務規則の抜けや矛盾を発見しやすい。",
+          "vi": "Phương pháp đồ thị nhân quả trích nút nguyên nhân, kết quả từ đặc tả và nối bằng AND, OR, NOT. Bổ sung ràng buộc loại trừ, bao hàm, bắt buộc cho các trạng thái không thể hoặc phải đồng thời. Chuyển đồ thị sang bảng quyết định rồi tạo ca từ tổ hợp có ý nghĩa và kết quả mong đợi, giúp tìm thiếu, mâu thuẫn trong quy tắc nghiệp vụ phức tạp."
         },
         {
           "type": "point",
-          "ja": "原因結果グラフ法の目的・特徴・利用場面を押さえる。",
-          "vi": "Ghi nhớ mục đích, đặc điểm và tình huống sử dụng của Phương pháp đồ thị nhân quả."
+          "ja": "原因と結果はどちらもノードであり、エッジは論理関係を表す。グラフ化だけで終わらず、デシジョンテーブルを経てケースへ落とし込む。",
+          "vi": "Cả nguyên nhân và kết quả đều là nút; cạnh biểu thị quan hệ logic. Không dừng ở vẽ đồ thị mà chuyển qua bảng quyết định để tạo ca."
+        },
+        {
+          "type": "example",
+          "ja": "原因C1「会員」、C2「購入額5,000円以上」、C3「クーポン有効」と、結果E1「送料無料」、E2「割引適用」を整理し、E1=C1 AND C2、E2=C3として表とケースを作る。",
+          "vi": "Xác định C1 “thành viên”, C2 “mua từ 5.000 yên”, C3 “coupon hợp lệ” và E1 “miễn phí giao”, E2 “áp dụng giảm”; biểu diễn E1=C1 AND C2, E2=C3 rồi tạo bảng, ca."
+        },
+        {
+          "type": "warning",
+          "ja": "仕様にない因果関係を推測で追加すると誤ったテストになる。曖昧又は矛盾した関係は、利害関係者へ確認して仕様を明確化する。",
+          "vi": "Tự suy đoán quan hệ nhân quả không có trong đặc tả sẽ tạo test sai. Quan hệ mơ hồ hoặc mâu thuẫn phải được xác nhận với bên liên quan để làm rõ đặc tả."
         }
       ],
       "terms": [
@@ -2374,8 +2486,8 @@
           "term": "原因結果グラフ法",
           "english": "Cause-Effect Graphing",
           "vi": "Phương pháp đồ thị nhân quả",
-          "definitionJa": "テスト設計において用いられる手法である。この方法は、システムやソフトウェアの入力条件（原因）とそれに対する期待される出力（結果）を視覚的に整理することで、テストケースの効率的な作成を支援する。具体的には、原因をノードとして、結果をエッジとして結びつけたグラフを描くことで、複雑なロジックや条件を明確にすることができる。例えば、ユーザーの入力に対して異なる処理を行うシステムでは、それぞれの入力条件に対する結果を整理することで、すべての条件を網羅したテストケースを洗い出すことが可能となる。これにより、不具合を早期に発見でき、品質保証の向上に寄与する。",
-          "definitionVi": "Phương pháp đồ thị nhân quả là kỹ thuật biểu diễn quan hệ giữa điều kiện đầu vào (nguyên nhân) và đầu ra mong đợi (kết quả) bằng đồ thị để thiết kế test case có hệ thống.",
+            "definitionJa": "入力条件を原因、出力・動作を結果とし、論理関係と制約をグラフ化してテストケースを導出するブラックボックス技法。",
+            "definitionVi": "Kỹ thuật hộp đen đồ thị hóa nguyên nhân đầu vào, kết quả đầu ra, quan hệ logic và ràng buộc để suy ra test case.",
           "reading": "げんいんけっかぐらふほう"
         }
       ],

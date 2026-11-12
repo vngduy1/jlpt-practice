@@ -11,8 +11,8 @@
       "titleJa": "線形計画法",
       "titleVi": "Quy hoạch tuyến tính",
       "importance": "high",
-      "summaryJa": "最適化の手法の一つであり、与えられた制約条件の下で、目的関数を最大化または最小化する手法である。",
-      "summaryVi": "Quy hoạch tuyến tính là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "意思決定変数、目的関数、制約条件をすべて一次式で表し、実行可能な範囲内で目的関数を最大化又は最小化する最適化手法である。",
+      "summaryVi": "Quy hoạch tuyến tính biểu diễn biến quyết định, hàm mục tiêu và các ràng buộc bằng biểu thức tuyến tính, rồi tìm giá trị lớn nhất hoặc nhỏ nhất trong miền khả thi.",
       "content": [
         {
           "type": "heading",
@@ -21,13 +21,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "最適化の手法の一つであり、与えられた制約条件の下で、目的関数を最大化または最小化する手法である。主に、リソースの配分や生産計画など、限られた条件の中で最適な解を見つけるために使用される。例えば、工場で製品を製造する際、原材料の量や生産能力などの制約の中で、利益を最大化することを目指す場合に、この手法が適用される。線形計画法では、関数が線形で表現されるため、解決が比較的簡単であり、特に大規模な問題に対しても効率的にアプローチできる。また、さまざまなアルゴリズムが開発されており、特に単体法が広く利用されている。ビジネスや経済学、工学などの分野で幅広く応用され、問題解決の強力なツールとなっている。",
-          "vi": "Quy hoạch tuyến tính là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "製品数量などを意思決定変数とし、利益や費用を目的関数、原材料・作業時間・予算などの上限又は下限を制約条件としてモデル化する。全ての関係が一次式で、通常は変数の非負条件も加える。制約を全て満たす解を実行可能解、その集合を実行可能領域と呼び、その中から目的関数が最良となる解を求める。二変数ならグラフの頂点を調べ、多変数ならシンプレックス法などを用いる。",
+          "vi": "Ta chọn các đại lượng như số sản phẩm làm biến quyết định, lợi nhuận hoặc chi phí làm hàm mục tiêu, còn giới hạn nguyên liệu, giờ công và ngân sách làm ràng buộc. Mọi quan hệ đều là bậc nhất và thường có thêm điều kiện biến không âm. Nghiệm thỏa tất cả ràng buộc là nghiệm khả thi; tập các nghiệm đó là miền khả thi, trong đó ta tìm nghiệm làm hàm mục tiêu tốt nhất. Bài hai biến có thể xét các đỉnh trên đồ thị; bài nhiều biến dùng phương pháp đơn hình hoặc thuật toán khác."
         },
         {
           "type": "point",
-          "ja": "試験対策：「線形計画法」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Quy hoạch tuyến tính”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは、目的関数、制約条件、非負条件を式にし、各交点が実行可能か確認して目的関数値を比較する。整数個しか作れない条件は通常のLPだけでは表せない。",
+          "vi": "Trong FE, cần lập hàm mục tiêu, ràng buộc và điều kiện không âm; sau đó kiểm tra giao điểm có khả thi rồi so sánh giá trị mục tiêu. Yêu cầu biến phải nguyên không được mô hình hóa đầy đủ bằng LP liên tục thông thường."
+        },
+        {
+          "type": "example",
+          "ja": "利益を z=3x+2y とし、x+y≦4、2x+y≦6、x≧0、y≧0 とする。実行可能領域の頂点(0,0)、(3,0)、(2,2)、(0,4)でzを計算すると0、9、10、8なので、最大値はx=2、y=2のとき10である。",
+          "vi": "Cho lợi nhuận z=3x+2y với x+y≤4, 2x+y≤6, x≥0, y≥0. Tính z tại các đỉnh khả thi (0,0), (3,0), (2,2), (0,4) được 0, 9, 10, 8; do đó giá trị lớn nhất là 10 tại x=2, y=2."
+        },
+        {
+          "type": "warning",
+          "ja": "係数比例や加法性が成り立たない非線形関係、数量の整数制約、需要の不確実性を無視してLPを適用すると、数学的最適解でも現実には実行できないことがある。",
+          "vi": "Nếu áp dụng LP khi quan hệ không tuyến tính, số lượng bắt buộc nguyên hoặc nhu cầu bất định nhưng bị bỏ qua, nghiệm tối ưu toán học có thể không thực hiện được trong thực tế."
         }
       ],
       "terms": [
@@ -35,8 +45,8 @@
           "term": "線形計画法",
           "english": "Linear Programming",
           "vi": "Quy hoạch tuyến tính",
-          "definitionJa": "最適化の手法の一つであり、与えられた制約条件の下で、目的関数を最大化または最小化する手法である。",
-          "definitionVi": "Quy hoạch tuyến tính là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "一次式の目的関数を、一次式の制約条件の下で最大化又は最小化する最適化手法。",
+          "definitionVi": "Phương pháp tối ưu hóa một hàm mục tiêu tuyến tính dưới các ràng buộc tuyến tính.",
           "reading": "せんけいけいかくほう"
         }
       ],
@@ -52,8 +62,8 @@
       "titleJa": "シンプレックス法",
       "titleVi": "Phương pháp đơn hình",
       "importance": "high",
-      "summaryJa": "線形計画法において最適解を求めるためのアルゴリズムである。",
-      "summaryVi": "Phương pháp đơn hình là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "線形計画問題の実行可能領域の頂点に対応する基底解を、目的関数が改善する方向へ順次移りながら最適解を求めるアルゴリズムである。",
+      "summaryVi": "Phương pháp đơn hình giải bài toán quy hoạch tuyến tính bằng cách lần lượt chuyển giữa các nghiệm cơ sở tương ứng với các đỉnh của miền khả thi theo hướng cải thiện hàm mục tiêu.",
       "content": [
         {
           "type": "heading",
@@ -62,13 +72,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "線形計画法において最適解を求めるためのアルゴリズムである。これは、目標関数と制約条件を基に、解の候補を順次評価していく方法であり、特に多くの変数や制約がある問題に対して効果的である。例えば、工場の生産量を最大化する場合に、資源の制約を踏まえながら最も効率的に生産計画を立てることが可能となる。この手法は、問題の解を「頂点」として捉え、その頂点間を移動することで最適な解に到達するという考え方に基づいており、運用の効率性を大幅に向上させるため、経済学や工学分野などで広く利用されている。",
-          "vi": "Phương pháp đơn hình là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "不等式制約にスラック変数などを加えて等式化し、初期の実行可能基底解を作る。次に、目的関数を改善できる変数を基底へ入れ、実行可能性を保つよう別の変数を基底から出すピボット操作を繰り返す。改善できる候補がなくなれば最適と判定する。実行可能解が存在しない場合、目的値が際限なく改善する場合、複数の最適解がある場合もあり、単に数値が得られればよいわけではない。",
+          "vi": "Các ràng buộc bất đẳng thức được chuyển thành đẳng thức bằng biến dư để tạo một nghiệm cơ sở khả thi ban đầu. Sau đó, thuật toán đưa vào cơ sở một biến có thể cải thiện hàm mục tiêu và đưa một biến khác ra khỏi cơ sở để vẫn giữ tính khả thi; thao tác pivot này lặp lại đến khi không còn hướng cải thiện. Bài toán cũng có thể vô nghiệm, không bị chặn hoặc có nhiều nghiệm tối ưu, nên không phải lúc nào cũng thu được một nghiệm duy nhất."
         },
         {
           "type": "point",
-          "ja": "試験対策：「シンプレックス法」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Phương pháp đơn hình”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "線形計画法は問題のモデル、シンプレックス法はそのモデルを解く代表的アルゴリズムである。両者を同じ概念として扱わない。",
+          "vi": "Quy hoạch tuyến tính là mô hình bài toán; phương pháp đơn hình là một thuật toán tiêu biểu để giải mô hình đó. Không được coi hai khái niệm là một."
+        },
+        {
+          "type": "example",
+          "ja": "最大化問題 x+y≦4、2x+y≦6 にスラック変数s1、s2を加え、x+y+s1=4、2x+y+s2=6とする。初期基底をs1、s2とし、ピボットを行うと、頂点を移動して最終的に改善不能な基底解へ到達する。",
+          "vi": "Với bài toán cực đại có x+y≤4 và 2x+y≤6, thêm biến dư s1, s2 để được x+y+s1=4 và 2x+y+s2=6. Bắt đầu với cơ sở s1, s2 rồi thực hiện pivot, thuật toán di chuyển qua các đỉnh đến nghiệm cơ sở không còn khả năng cải thiện."
+        },
+        {
+          "type": "warning",
+          "ja": "シンプレックス法は一般の非線形問題を解く方法ではない。また、整数条件がある問題ではLP緩和の解が小数となることがあり、そのまま丸めても最適性や実行可能性は保証されない。",
+          "vi": "Phương pháp đơn hình không phải thuật toán cho bài toán phi tuyến tổng quát. Với ràng buộc nguyên, nghiệm thư giãn LP có thể là số lẻ; làm tròn trực tiếp không bảo đảm tối ưu hoặc thậm chí khả thi."
         }
       ],
       "terms": [
@@ -76,8 +96,8 @@
           "term": "シンプレックス法",
           "english": "Simplex Method",
           "vi": "Phương pháp đơn hình",
-          "definitionJa": "線形計画法において最適解を求めるためのアルゴリズムである。",
-          "definitionVi": "Phương pháp đơn hình là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "線形計画問題の基底解をピボット操作で更新し、目的関数を改善しながら最適解を求める方法。",
+          "definitionVi": "Phương pháp cập nhật các nghiệm cơ sở của bài toán tuyến tính bằng thao tác pivot để cải thiện hàm mục tiêu và tìm nghiệm tối ưu.",
           "reading": "しんぷれっくすほう"
         }
       ],
@@ -216,8 +236,8 @@
       "titleJa": "EOQ",
       "titleVi": "Lượng đặt hàng kinh tế (EOQ)",
       "importance": "high",
-      "summaryJa": "在庫管理において、発注コストを最小限に抑える最適な発注量を示す指標である。",
-      "summaryVi": "Lượng đặt hàng kinh tế (EOQ) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "需要が一定などの前提の下で、年間の発注費用と在庫保管費用の合計を最小にする1回当たりの発注量（経済的発注量）である。",
+      "summaryVi": "EOQ là lượng đặt mỗi lần làm nhỏ nhất tổng chi phí đặt hàng và lưu kho trong các giả định như nhu cầu ổn định.",
       "content": [
         {
           "type": "heading",
@@ -226,13 +246,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "在庫管理において、発注コストを最小限に抑える最適な発注量を示す指標である。この概念は、在庫を持つことによるコスト（保管コストなど）と、定期的に発注することによるコスト（発注コストなど）のバランスを考慮しており、最も効率的な在庫運用を実現するために利用される。たとえば、企業が商品を発注する際、頻繁に小さな数量を発注すると毎回の発注コストが累積してしまう。一方、過剰に在庫を持つと保管コストがかさむ。このため、EOQを算出することで、コストの最適化を図り、効率的な在庫管理が可能になる。また、需給の変動にも対応できる柔軟な在庫戦略を採用するための基本的な理論となっている。",
-          "vi": "Lượng đặt hàng kinh tế (EOQ) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "年間需要量をD、1回の発注費用をS、1個を1年間保管する費用をH、発注量をQとする基本モデルでは、年間発注費用はDS/Q、平均在庫Q/2に対する保管費用はHQ/2である。両者の和が最小となる経済的発注量は Q*=√(2DS/H) となる。Qを小さくすると発注回数と発注費用が増え、Qを大きくすると平均在庫と保管費用が増えるというトレードオフを表す。",
+          "vi": "Trong mô hình cơ bản, gọi D là nhu cầu năm, S là chi phí mỗi lần đặt, H là chi phí lưu một đơn vị trong một năm và Q là lượng đặt. Chi phí đặt hàng năm là DS/Q; tồn kho trung bình là Q/2 nên chi phí lưu kho là HQ/2. Tổng hai khoản nhỏ nhất tại Q*=√(2DS/H). Q nhỏ làm tăng số lần đặt và chi phí đặt; Q lớn làm tăng tồn kho trung bình và chi phí lưu kho."
         },
         {
           "type": "point",
-          "ja": "試験対策：「EOQ」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Lượng đặt hàng kinh tế (EOQ)”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "EOQは「何個発注するか」を決める量であり、発注点は「いつ発注するか」を決める在庫水準である。式のD、S、Hの単位をそろえる。",
+          "vi": "EOQ quyết định “đặt bao nhiêu”, còn điểm đặt hàng lại quyết định “khi nào đặt”. Phải thống nhất đơn vị thời gian của D, S và H."
+        },
+        {
+          "type": "example",
+          "ja": "年間需要D=10,000個、1回の発注費用S=500円、年間1個当たり保管費用H=100円なら、EOQ=√(2×10,000×500/100)=√100,000≒316個である。",
+          "vi": "Nếu D=10.000 đơn vị/năm, S=500 yên/lần đặt và H=100 yên/đơn vị/năm thì EOQ=√(2×10.000×500/100)=√100.000≈316 đơn vị."
+        },
+        {
+          "type": "warning",
+          "ja": "基本EOQは需要とリードタイムが一定、欠品なし、一括入荷、数量割引なしなどを仮定する。需要変動へ柔軟に対応できることをEOQ式自体が保証するわけではない。",
+          "vi": "EOQ cơ bản giả định nhu cầu và lead time ổn định, không thiếu hàng, hàng về một lần và không có chiết khấu số lượng. Bản thân công thức không bảo đảm thích ứng với nhu cầu biến động."
         }
       ],
       "terms": [
@@ -240,8 +270,8 @@
           "term": "EOQ",
           "english": "Economic Ordering Quantity",
           "vi": "Lượng đặt hàng kinh tế (EOQ)",
-          "definitionJa": "在庫管理において、発注コストを最小限に抑える最適な発注量を示す指標である。",
-          "definitionVi": "Lượng đặt hàng kinh tế (EOQ) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "発注費用と在庫保管費用の合計を最小にする1回当たりの発注量。",
+          "definitionVi": "Lượng đặt mỗi lần làm nhỏ nhất tổng chi phí đặt hàng và chi phí lưu kho.",
           "reading": "いーおーきゅー"
         }
       ],
@@ -257,8 +287,8 @@
       "titleJa": "発注点",
       "titleVi": "Điểm đặt hàng lại",
       "importance": "high",
-      "summaryJa": "在庫管理において新たに商品を発注するタイミングを示す指標である。",
-      "summaryVi": "Điểm đặt hàng lại là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "補充品が到着するまでの需要を賄えるよう、在庫ポジションが一定水準まで低下したときに発注する基準である。",
+      "summaryVi": "Điểm đặt hàng lại là mức tồn kho dùng làm tín hiệu đặt bổ sung để đáp ứng nhu cầu trong thời gian chờ hàng về.",
       "content": [
         {
           "type": "heading",
@@ -267,13 +297,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "在庫管理において新たに商品を発注するタイミングを示す指標である。具体的には、在庫がこの発注点に達した際に、次の商品の発注を行うことで、在庫切れを防ぐことができる。この商品の消費量や納期、リードタイムなどを考慮して設定される。たとえば、ある商品が一日当たり10個消費され、納期が3日であれば、発注点は30個になる。この場合、在庫が30個になった時点で注文を出すことで、配送にかかる時間を考慮しつつ、在庫を維持することができる。発注点を適切に管理することで、コストを抑えつつ、安定した供給を確保することが可能になる。",
-          "vi": "Điểm đặt hàng lại là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "需要とリードタイムが一定なら、発注点は単位期間当たり需要量×調達リードタイムで求める。変動がある場合は、欠品リスクに備える安全在庫を加え、発注点=リードタイム中の期待需要+安全在庫とする。在庫管理では、手元在庫だけでなく発注残を加え、引当済み数量を差し引いた在庫ポジションで発注判断するのが基本である。",
+          "vi": "Khi nhu cầu và lead time cố định, điểm đặt hàng lại bằng nhu cầu mỗi đơn vị thời gian nhân lead time cung ứng. Nếu có biến động, cộng tồn kho an toàn để được: điểm đặt hàng lại = nhu cầu kỳ vọng trong lead time + tồn kho an toàn. Quyết định thường dựa trên vị thế tồn kho: tồn thực có cộng lượng đã đặt nhưng chưa nhận, trừ lượng đã được phân bổ."
         },
         {
           "type": "point",
-          "ja": "試験対策：「発注点」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Điểm đặt hàng lại”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは、一定需要なら「需要量×リードタイム」、変動を考慮するなら安全在庫を加える。発注点は発注量ではなく発注のタイミングを示す。",
+          "vi": "Trong FE: nhu cầu cố định thì dùng “nhu cầu × lead time”; nếu xét biến động thì cộng tồn kho an toàn. Điểm đặt hàng lại là ngưỡng thời điểm, không phải lượng đặt."
+        },
+        {
+          "type": "example",
+          "ja": "1日平均20個を消費し、リードタイムが4日、安全在庫が30個なら、発注点は20×4+30=110個である。在庫ポジションが110個まで下がった時点で発注する。",
+          "vi": "Nếu tiêu thụ trung bình 20 đơn vị/ngày, lead time 4 ngày và tồn kho an toàn 30 đơn vị, điểm đặt hàng lại là 20×4+30=110. Đặt hàng khi vị thế tồn kho giảm còn 110."
+        },
+        {
+          "type": "warning",
+          "ja": "手元在庫だけを見ると、既に発注済みの数量や引当分を無視して二重発注又は欠品を招く。需要やリードタイムが変われば発注点も見直す必要がある。",
+          "vi": "Nếu chỉ nhìn tồn kho thực có mà bỏ qua hàng đã đặt hoặc đã phân bổ, có thể đặt trùng hoặc thiếu hàng. Khi nhu cầu hay lead time thay đổi, điểm đặt hàng lại cũng phải được điều chỉnh."
         }
       ],
       "terms": [
@@ -281,8 +321,8 @@
           "term": "発注点",
           "english": "Reorder Point",
           "vi": "Điểm đặt hàng lại",
-          "definitionJa": "在庫管理において新たに商品を発注するタイミングを示す指標である。",
-          "definitionVi": "Điểm đặt hàng lại là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "補充までの需要を賄うため、新たな発注を行う基準となる在庫水準。",
+          "definitionVi": "Mức tồn kho làm ngưỡng phát lệnh đặt bổ sung để đáp ứng nhu cầu trong thời gian chờ hàng về.",
           "reading": "はっちゅうてん"
         }
       ],
@@ -380,8 +420,8 @@
       "titleJa": "クリティカルパス",
       "titleVi": "Đường găng",
       "importance": "high",
-      "summaryJa": "プロジェクト管理における重要な概念であり、全体の作業工程の中で最も長い期間を要する一連の作業を指す。",
-      "summaryVi": "Đường găng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "作業の依存関係を表すネットワーク上で所要時間の合計が最長となり、プロジェクトの最短完了期間を決める一連の経路である。",
+      "summaryVi": "Đường găng là chuỗi công việc có tổng thời lượng dài nhất trên mạng phụ thuộc, qua đó quyết định thời gian hoàn thành ngắn nhất của dự án.",
       "content": [
         {
           "type": "heading",
@@ -390,13 +430,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクト管理における重要な概念であり、全体の作業工程の中で最も長い期間を要する一連の作業を指す。これにより、プロジェクトの完了までの最短時間が決まる。例えば、建設プロジェクトにおいて、基礎工事や構造体の組み立てなど、依存関係がある作業を特定し、その順序を決める際にクリティカルパスを明確にすることで、遅れを防ぐことができる。このパス上の作業が遅れると、全体のプロジェクトが遅延するため、プロジェクトマネージャーはここに特に注意を払う必要がある。また、クリティカルパスの理解はリソースの最適化や効率的なスケジューリングにも重要な役割を果たす。",
-          "vi": "Đường găng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "各作業の所要時間と先行・後続関係から、順方向計算で最早開始・最早終了、逆方向計算で最遅開始・最遅終了を求める。総余裕時間（トータルフロート）が0の作業を結ぶ経路が通常のクリティカルパスであり、その作業が遅れると、他の短縮や余裕がない限り完了日も遅れる。非クリティカル作業にも余裕の上限があり、進捗や依存関係が変わればクリティカルパスは変化し得る。",
+          "vi": "Từ thời lượng và quan hệ trước–sau, ta tính thời điểm bắt đầu/kết thúc sớm bằng lượt tiến và thời điểm bắt đầu/kết thúc muộn bằng lượt lùi. Trong trường hợp thông thường, đường nối các công việc có total float bằng 0 là đường găng; nếu một việc trên đó trễ thì ngày hoàn thành cũng trễ, trừ khi có phần khác được rút ngắn hoặc còn dư địa. Công việc ngoài đường găng cũng chỉ có mức dự trữ hữu hạn, và đường găng có thể thay đổi khi tiến độ hoặc quan hệ phụ thuộc thay đổi."
         },
         {
           "type": "point",
-          "ja": "試験対策：「クリティカルパス」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Đường găng”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは、各経路の所要時間を合計して最長経路を選ぶ。クリティカルパスは「最も長い一つの作業」ではなく、開始から終了まで連続する経路であり、複数存在することもある。",
+          "vi": "Trong FE, cộng thời lượng của từng tuyến và chọn tuyến dài nhất. Đường găng không phải “một công việc dài nhất” mà là cả chuỗi liên tục từ đầu đến cuối; có thể tồn tại nhiều đường găng."
+        },
+        {
+          "type": "example",
+          "ja": "開始後、経路A(3日)→C(4日)と経路B(4日)→D(2日)が並行し、両方の完了後にE(2日)を行う。A-C-Eは9日、B-D-Eは8日なのでクリティカルパスはA-C-E、最短完了期間は9日である。",
+          "vi": "Sau khi bắt đầu, hai tuyến A(3 ngày)→C(4 ngày) và B(4 ngày)→D(2 ngày) chạy song song; E(2 ngày) chỉ bắt đầu khi cả hai xong. A-C-E mất 9 ngày, B-D-E mất 8 ngày, nên đường găng là A-C-E và thời gian hoàn thành ngắn nhất là 9 ngày."
+        },
+        {
+          "type": "warning",
+          "ja": "作業時間を足すだけでなく依存関係を守って経路を作る。資源制約を通常のネットワーク計算に含めていない場合、計算上のクリティカルパスだけでは実行可能な日程を保証しない。",
+          "vi": "Không chỉ cộng thời lượng; phải lập tuyến đúng quan hệ phụ thuộc. Nếu hạn chế nguồn lực chưa được đưa vào mạng tính toán, riêng đường găng lý thuyết không bảo đảm lịch thực hiện khả thi."
         }
       ],
       "terms": [
@@ -404,9 +454,9 @@
           "term": "クリティカルパス",
           "english": "Critical Path",
           "vi": "Đường găng",
-          "definitionJa": "プロジェクト管理における重要な概念であり、全体の作業工程の中で最も長い期間を要する一連の作業を指す。",
-          "definitionVi": "Đường găng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "作業ネットワークで所要時間の合計が最長となり、プロジェクトの最短完了期間を決める経路。",
+          "definitionVi": "Tuyến có tổng thời lượng dài nhất trong mạng công việc và quyết định thời gian hoàn thành ngắn nhất của dự án.",
+          "reading": "くりてぃかるぱす"
         }
       ],
       "tags": [
@@ -667,8 +717,8 @@
       "titleJa": "サーブリック",
       "titleVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác",
       "importance": "high",
-      "summaryJa": "サーブリッグ（Therblig）は、作業を構成する基本動作を分類して分析するための概念である。",
-      "summaryVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Đã điều chỉnh phần tiếng Nhật theo cách hiểu chuyên môn chuẩn vì tài liệu nguồn có chỗ không khớp.",
+      "summaryJa": "サーブリッグ（Therblig）は、人の手作業を探す・つかむ・運ぶ・位置決めするなどの基本動作へ分解し、無駄な動作を発見・改善する動作研究の分析単位である。",
+      "summaryVi": "Therblig là đơn vị phân tích trong nghiên cứu thao tác, phân rã công việc tay chân thành các động tác cơ bản như tìm, nắm, vận chuyển và định vị để phát hiện, loại bỏ lãng phí.",
       "content": [
         {
           "type": "heading",
@@ -677,23 +727,33 @@
         },
         {
           "type": "paragraph",
-          "ja": "サーブリッグ（Therblig）は、作業を構成する基本動作を分類して分析するための概念である。資料の「Servitization（サービス化）」という説明は別概念であり、用語と一致しない。",
-          "vi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Đã điều chỉnh phần tiếng Nhật theo cách hiểu chuyên môn chuẩn vì tài liệu nguồn có chỗ không khớp."
+          "ja": "ギルブレス夫妻の動作研究で、人の作業を17種類の基本動作に分け、記号などで記録して微細動作を分析するために用いる。動作の順序、両手の待ち、作業台や工具の配置を観察し、不要な探す・保持する・待つ動作を減らして、安全で疲労の少ない作業方法を設計する。TherbligはGilbrethの綴りをほぼ逆にした名称であり、製品をサービス化するservitizationとは無関係である。",
+          "vi": "Trong nghiên cứu thao tác của Frank và Lillian Gilbreth, công việc được chia thành 17 loại động tác cơ bản và ghi lại bằng ký hiệu để phân tích vi động tác. Quan sát trình tự, thời gian một tay phải chờ, vị trí bàn và dụng cụ giúp giảm các động tác tìm kiếm, giữ hoặc chờ không cần thiết, từ đó thiết kế cách làm an toàn và ít mệt hơn. Tên Therblig gần như đảo chữ Gilbreth; hoàn toàn khác servitization (chuyển sản phẩm thành dịch vụ)."
         },
         {
           "type": "point",
-          "ja": "注意：元資料の英語表記・説明に不整合があるため、標準的な意味に修正した。",
-          "vi": "Lưu ý: mục này có thuật ngữ hoặc giải thích tiếng Anh không khớp trong nguồn; đã hiệu chỉnh theo nghĩa chuyên môn chuẩn."
+          "ja": "FEでは、サーブリッグはIEの動作研究で用いる基本動作の分類と押さえる。工程全体の時間を測る時間研究や、サービス化とは区別する。",
+          "vi": "Trong FE, Therblig là hệ thống phân loại động tác cơ bản của motion study trong IE. Cần phân biệt với time study đo thời gian cả công đoạn và với servitization."
+        },
+        {
+          "type": "example",
+          "ja": "箱からねじを取り、治具へ置く作業を「探す→見いだす→選ぶ→つかむ→荷重移動→位置決め→放す」に分解する。ねじを向きをそろえた供給皿へ置けば、探す・選ぶ・位置決めの時間を減らせる。",
+          "vi": "Tách thao tác lấy vít khỏi hộp và đặt vào đồ gá thành: tìm → thấy → chọn → nắm → vận chuyển có tải → định vị → thả. Nếu đặt vít cùng hướng trong khay cấp liệu, có thể giảm thời gian tìm, chọn và định vị."
+        },
+        {
+          "type": "warning",
+          "ja": "動作数だけを機械的に減らすと、安全性、品質、人間工学を損なうことがある。改善では疲労や姿勢、誤操作リスクも併せて評価する。",
+          "vi": "Giảm số động tác một cách máy móc có thể làm hại an toàn, chất lượng và công thái học. Khi cải tiến phải đánh giá cả mệt mỏi, tư thế và nguy cơ thao tác sai."
         }
       ],
       "terms": [
         {
-          "term": "サーブリック",
+          "term": "サーブリッグ",
           "english": "Therblig",
           "vi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác",
-          "definitionJa": "サーブリッグ（Therblig）は、作業を構成する基本動作を分類して分析するための概念である。",
-          "definitionVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Đã điều chỉnh phần tiếng Nhật theo cách hiểu chuyên môn chuẩn vì tài liệu nguồn có chỗ không khớp.",
-          "reading": ""
+          "definitionJa": "手作業を基本動作へ分解し、無駄な動作の発見と作業方法の改善に用いる動作研究の分析単位。",
+          "definitionVi": "Đơn vị phân tích của motion study, dùng để phân rã thao tác tay thành động tác cơ bản và cải thiện phương pháp làm việc.",
+          "reading": "さーぶりっぐ"
         }
       ],
       "tags": [
@@ -1118,8 +1178,8 @@
       "titleJa": "ヒストグラム",
       "titleVi": "Biểu đồ tần suất",
       "importance": "high",
-      "summaryJa": "データの分布を視覚的に表現したグラフのことである。",
-      "summaryVi": "Biểu đồ tần suất là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "連続的な数値データを階級に分け、各階級の度数を隣接する柱で表して、分布の中心・広がり・形状を把握するグラフである。",
+      "summaryVi": "Histogram chia dữ liệu số liên tục thành các khoảng lớp và biểu diễn tần số bằng các cột liền nhau, giúp quan sát tâm, độ phân tán và hình dạng của phân bố.",
       "content": [
         {
           "type": "heading",
@@ -1128,13 +1188,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "データの分布を視覚的に表現したグラフのことである。具体的には、一定の範囲で区切られたデータを棒グラフの形で表示することで、データがどのように分布しているかを一目で理解できるようにする。各棒は特定の範囲のデータの頻度を示し、高さがその頻度を表すため、視覚的にわかりやすい。品質管理においては、製品や工程のばらつきを分析するツールとして広く活用されており、製品の品質を向上させるための洞察を得る手助けをする。ヒストグラムを用いることで、問題点の特定や改善策の立案がスムーズに行えるため、効果的な品質管理の要素となる。",
-          "vi": "Biểu đồ tần suất là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "測定値の範囲を階級に区切り、横軸に階級、縦軸に度数又は相対度数をとる。連続量では柱を接して描くため、カテゴリごとの大きさを比較する棒グラフとは目的も見た目も異なる。山の位置や幅、左右の偏り、複数の山、外れた値などから工程のばらつきを検討できる。ただし、階級幅や境界の選び方によって見え方が変わるので、元データや標本数も併せて確認する。",
+          "vi": "Ta chia miền giá trị đo thành các khoảng lớp, đặt khoảng lớp trên trục ngang và tần số hoặc tần suất tương đối trên trục dọc. Với đại lượng liên tục, các cột liền nhau; vì vậy mục đích và hình thức khác biểu đồ cột dùng để so sánh các hạng mục. Vị trí đỉnh, độ rộng, độ lệch, nhiều đỉnh hoặc giá trị tách biệt giúp xem xét biến động của quy trình. Tuy nhiên, hình dạng phụ thuộc cách chọn độ rộng và ranh giới lớp, nên phải xem cả dữ liệu gốc và cỡ mẫu."
         },
         {
           "type": "point",
-          "ja": "試験対策：「ヒストグラム」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Biểu đồ tần suất”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは、ヒストグラムは分布を、パレート図は項目別の重要度を、管理図は時間順の工程状態を示すという違いを押さえる。",
+          "vi": "Trong FE, cần phân biệt: histogram biểu diễn phân bố; biểu đồ Pareto biểu diễn mức độ quan trọng theo hạng mục; biểu đồ kiểm soát biểu diễn trạng thái quy trình theo thời gian."
+        },
+        {
+          "type": "example",
+          "ja": "部品100個の直径を0.1 mm幅の階級に分けて度数を数える。中心付近に一つの山があり幅が狭ければばらつきは小さいと読めるが、二つの山があれば、異なる機械や作業条件のデータが混在していないかを調べる。",
+          "vi": "Chia đường kính của 100 chi tiết thành các khoảng rộng 0,1 mm rồi đếm tần số. Một đỉnh hẹp quanh tâm cho thấy độ phân tán nhỏ; nếu có hai đỉnh, cần kiểm tra dữ liệu có bị trộn từ hai máy hoặc hai điều kiện vận hành hay không."
+        },
+        {
+          "type": "warning",
+          "ja": "柱が高いだけで異常とは判断できない。階級幅を変えると形が変わり、規格内かどうかもヒストグラムだけでは工程が統計的に安定していることを保証しない。",
+          "vi": "Không thể kết luận bất thường chỉ vì một cột cao. Hình dạng thay đổi theo độ rộng lớp; ngay cả khi giá trị nằm trong giới hạn kỹ thuật, riêng histogram cũng không chứng minh quy trình ổn định về mặt thống kê."
         }
       ],
       "terms": [
@@ -1142,9 +1212,9 @@
           "term": "ヒストグラム",
           "english": "Histogram",
           "vi": "Biểu đồ tần suất",
-          "definitionJa": "データの分布を視覚的に表現したグラフのことである。",
-          "definitionVi": "Biểu đồ tần suất là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "数値データを階級に分け、各階級の度数又は相対度数を柱の高さで表した度数分布図。",
+          "definitionVi": "Biểu đồ phân bố tần số, chia dữ liệu số thành các khoảng lớp và dùng chiều cao cột để biểu diễn tần số hoặc tần suất tương đối.",
+          "reading": "ひすとぐらむ"
         }
       ],
       "tags": [
@@ -1159,8 +1229,8 @@
       "titleJa": "パレート図",
       "titleVi": "Biểu đồ Pareto",
       "importance": "high",
-      "summaryJa": "品質管理や問題解決のために用いるグラフである。",
-      "summaryVi": "Biểu đồ Pareto là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "問題項目を件数や損失額の大きい順に並べた棒と累積比率の折れ線を組み合わせ、優先的に改善すべき項目を見つける図である。",
+      "summaryVi": "Biểu đồ Pareto kết hợp các cột xếp giảm dần theo số lần hoặc mức tổn thất với đường tỷ lệ lũy kế, nhằm xác định hạng mục cần ưu tiên cải tiến.",
       "content": [
         {
           "type": "heading",
@@ -1169,13 +1239,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "品質管理や問題解決のために用いるグラフである。この図は、特定の問題の発生頻度やその影響を視覚的に示し、重要な要因を特定するのに役立つ。パレート図では、横軸に問題や要因を、縦軸にその発生頻度や影響の大きさを示す。データは降順に並べられ、通常は棒状グラフと線グラフの組み合わせで表示される。80対20の法則とも呼ばれるパレートの法則に基づき、全体の影響のうち、少数の要因が大部分を占めていることを示す。このようにして、最も重要な問題や改善点に焦点を当てることで、効率的な対策が可能となる。",
-          "vi": "Biểu đồ Pareto là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "横軸に不良種類などのカテゴリを値の大きい順に並べ、左縦軸の棒で件数・金額・時間などを、右縦軸の折れ線で累積比率を示す。少数の重要項目に改善資源を集中し、対策前後の図を比較して効果を確認するために用いる。何を優先するかは目的によって変わるため、件数だけでなく損失額や重大度を尺度にする場合もある。",
+          "vi": "Trục ngang sắp các loại lỗi theo giá trị giảm dần; cột theo trục dọc trái thể hiện số vụ, chi phí hoặc thời gian, còn đường theo trục dọc phải thể hiện tỷ lệ lũy kế. Công cụ này giúp tập trung nguồn lực vào một số hạng mục quan trọng và so sánh trước–sau để đánh giá cải tiến. Tiêu chí ưu tiên phụ thuộc mục tiêu, nên đôi khi phải dùng tổn thất hoặc mức nghiêm trọng thay vì chỉ số lần."
         },
         {
           "type": "point",
-          "ja": "試験対策：「パレート図」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Biểu đồ Pareto”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "棒を大きい順に並べ、累積比率の折れ線を重ねる構成と、「重要な少数」を選んで改善順位を付ける目的がFEの識別点である。",
+          "vi": "Dấu hiệu nhận biết trong FE là các cột xếp giảm dần, có đường tỷ lệ lũy kế và mục tiêu chọn “số ít quan trọng” để đặt thứ tự cải tiến."
+        },
+        {
+          "type": "example",
+          "ja": "月間の問合せ200件を原因別に集計すると、操作ミス90件、設定不備60件、通信障害30件、その他20件であった。上位2項目で75%を占めるため、操作案内と初期設定の改善を先に検討する。",
+          "vi": "Trong 200 yêu cầu hỗ trợ tháng này có 90 lỗi thao tác, 60 lỗi cấu hình, 30 lỗi truyền thông và 20 lỗi khác. Hai nhóm đầu chiếm 75%, vì vậy ưu tiên cải thiện hướng dẫn thao tác và cấu hình ban đầu."
+        },
+        {
+          "type": "warning",
+          "ja": "80対20は必ず成立する法則ではなく、優先付けの考え方である。カテゴリの定義や集計期間、評価尺度が不適切なら、見かけの順位に基づく誤った対策になる。",
+          "vi": "Tỷ lệ 80/20 không phải quy luật luôn đúng mà là cách tư duy ưu tiên. Nếu định nghĩa nhóm, kỳ thống kê hoặc thước đo không phù hợp, thứ hạng bề ngoài có thể dẫn tới biện pháp sai."
         }
       ],
       "terms": [
@@ -1183,8 +1263,8 @@
           "term": "パレート図",
           "english": "Pareto Chart",
           "vi": "Biểu đồ Pareto",
-          "definitionJa": "品質管理や問題解決のために用いるグラフである。",
-          "definitionVi": "Biểu đồ Pareto là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "項目別の値を大きい順に並べた棒グラフと累積比率の折れ線を組み合わせ、改善の優先順位を明らかにする図。",
+          "definitionVi": "Biểu đồ kết hợp các cột theo hạng mục xếp giảm dần với đường tỷ lệ lũy kế để xác định thứ tự ưu tiên cải tiến.",
           "reading": "ぱれーとず"
         }
       ],
@@ -1200,8 +1280,8 @@
       "titleJa": "散布図",
       "titleVi": "Biểu đồ phân tán",
       "importance": "high",
-      "summaryJa": "2つの変数の関係を視覚的に表現するグラフである。",
-      "summaryVi": "Biểu đồ phân tán là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "対応する二つの数値データを座標上の点として表し、関係の方向・強さ・形や外れ値を視覚的に調べるグラフである。",
+      "summaryVi": "Biểu đồ phân tán biểu diễn từng cặp dữ liệu số bằng một điểm tọa độ để quan sát chiều, độ mạnh, dạng quan hệ và các điểm ngoại lệ.",
       "content": [
         {
           "type": "heading",
@@ -1210,13 +1290,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "2つの変数の関係を視覚的に表現するグラフである。横軸と縦軸にそれぞれの変数を設定し、データポイントをプロットすることで、相関関係やパターンを確認できる。例えば、製品の測定値と不良品率を散布図に表すことで、どの測定値の範囲で不良品が多いかを視覚的に判断できる。この手法は、品質管理において、問題の因果関係を探るためや、改善活動の効果を評価する際に特に有用である。散布図を用いることで、データの傾向を把握しやすく、意思決定を支援する役割を果たす。",
-          "vi": "Biểu đồ phân tán là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "同じ対象から得た変数XとYの組を、横軸と縦軸に一組ずつプロットする。右上がりなら正の相関、右下がりなら負の相関、方向性が見えなければ相関が弱い可能性がある。直線だけでなく曲線的な関係、群の分離、外れ値にも注目する。層別して記号や色を変えると、装置や担当者など第三の要因による違いを発見しやすい。",
+          "vi": "Mỗi cặp X và Y đo trên cùng một đối tượng được đặt thành một điểm trên hai trục. Đám mây điểm đi lên gợi ý tương quan dương, đi xuống gợi ý tương quan âm, còn không có hướng rõ ràng gợi ý tương quan yếu. Cần quan sát cả quan hệ cong, các cụm tách biệt và ngoại lệ. Phân tầng bằng ký hiệu hoặc màu giúp phát hiện khác biệt do máy móc, người vận hành hay yếu tố thứ ba."
         },
         {
           "type": "point",
-          "ja": "試験対策：「散布図」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Biểu đồ phân tán”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "散布図は二変数の対応関係を見る図であり、一変数の分布を見るヒストグラムや、時系列の安定性を見る管理図とは目的が異なる。",
+          "vi": "Biểu đồ phân tán dùng để xem quan hệ giữa hai biến; khác histogram xem phân bố của một biến và biểu đồ kiểm soát xem tính ổn định theo thời gian."
+        },
+        {
+          "type": "example",
+          "ja": "20日分の広告費Xと売上高Yを対にして描いたところ右上がりの点群になった。正の相関は示唆されるが、季節や販促イベントが両方を増やした可能性もあるため、広告費が売上増の原因だとは直ちに断定しない。",
+          "vi": "Vẽ cặp chi phí quảng cáo X và doanh thu Y trong 20 ngày thu được đám mây điểm đi lên. Điều này gợi ý tương quan dương, nhưng mùa vụ hoặc sự kiện khuyến mãi có thể đồng thời làm tăng cả hai, nên chưa thể kết luận quảng cáo là nguyên nhân."
+        },
+        {
+          "type": "warning",
+          "ja": "相関は因果関係を証明しない。また、外れ値一つで見かけの傾向が強くなることや、全体では無相関でも層別すると関係が現れることがある。",
+          "vi": "Tương quan không chứng minh quan hệ nhân quả. Một ngoại lệ có thể làm xu hướng có vẻ mạnh hơn; ngược lại, dữ liệu tổng thể có thể không tương quan nhưng quan hệ xuất hiện sau khi phân tầng."
         }
       ],
       "terms": [
@@ -1224,8 +1314,8 @@
           "term": "散布図",
           "english": "Scatter Diagram",
           "vi": "Biểu đồ phân tán",
-          "definitionJa": "2つの変数の関係を視覚的に表現するグラフである。",
-          "definitionVi": "Biểu đồ phân tán là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "二つの数値変数の対応する値を座標上に点で示し、その関係を調べる図。",
+          "definitionVi": "Biểu đồ đặt các cặp giá trị của hai biến số thành các điểm tọa độ để khảo sát mối quan hệ giữa chúng.",
           "reading": "さんぷず"
         }
       ],
@@ -1241,8 +1331,8 @@
       "titleJa": "特性要因図",
       "titleVi": "Biểu đồ nhân quả (xương cá)",
       "importance": "high",
-      "summaryJa": "品質管理の手法の一つである。",
-      "summaryVi": "Biểu đồ nhân quả (xương cá) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "解決したい特性（結果）に影響し得る要因を大分類から小分類へ体系的に展開し、魚の骨状に整理する原因分析の図である。",
+      "summaryVi": "Biểu đồ nhân quả sắp xếp có hệ thống các yếu tố có thể ảnh hưởng đến một đặc tính hay kết quả, từ nhóm lớn đến nguyên nhân chi tiết, theo hình xương cá.",
       "content": [
         {
           "type": "heading",
@@ -1251,13 +1341,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "品質管理の手法の一つである。これは、特定の問題や結果に対して、その原因を整理し視覚化するためのツールであり、魚の骨のような形状で表現されることから「フィッシュボーンダイアグラム」とも呼ばれる。問題の本質を明らかにし、さまざまな要因がどのように影響を与えているかを整理するのに役立つ。たとえば、製品の不良品率を下げたい場合、その要因として材料、機器、プロセス、人などを分類し、それぞれの関係性を示すことで、問題解決に向けた具体的なアクションを考える手助けをする。これにより、チーム全体で原因分析を行い、効果的な対策を講じることが可能となる。",
-          "vi": "Biểu đồ nhân quả (xương cá) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "魚の頭に品質特性や問題を置き、太い骨に人・機械・方法・材料などの大分類、枝に具体的な要因を記す。関係者が可能性を漏れなく洗い出し、原因候補を構造化して、測定や調査の対象を決めるために使う。名称に「因果」とあるが、図に書いただけで真因が確定するわけではなく、データによる検証が次に必要である。",
+          "vi": "Đặt đặc tính chất lượng hoặc vấn đề ở đầu cá; các xương lớn là nhóm như con người, máy móc, phương pháp, vật liệu, còn nhánh nhỏ là yếu tố cụ thể. Nhóm thực hiện dùng sơ đồ để liệt kê tương đối đầy đủ các khả năng, cấu trúc hóa ứng viên nguyên nhân và chọn đối tượng cần đo hay điều tra. Dù tên gọi có chữ “nhân quả”, việc ghi một yếu tố lên sơ đồ chưa chứng minh đó là nguyên nhân gốc; bước tiếp theo phải kiểm chứng bằng dữ liệu."
         },
         {
           "type": "point",
-          "ja": "試験対策：「特性要因図」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Biểu đồ nhân quả (xương cá)”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "特性要因図は原因候補を分類して広く洗い出す道具であり、項目の優先順位を数値で示すパレート図とは役割が異なる。",
+          "vi": "Biểu đồ nhân quả dùng để phân nhóm và liệt kê rộng các nguyên nhân tiềm năng; khác biểu đồ Pareto dùng số liệu để xác định thứ tự ưu tiên giữa các hạng mục."
+        },
+        {
+          "type": "example",
+          "ja": "「Web画面の応答が遅い」を特性とし、人（運用手順）、機械（サーバ資源）、方法（SQLやキャッシュ）、材料（入力データ量）、環境（通信）に分けて候補を挙げる。その後、監視値やログで各候補を検証する。",
+          "vi": "Với đặc tính “màn hình web phản hồi chậm”, phân nguyên nhân tiềm năng thành con người (quy trình vận hành), máy móc (tài nguyên máy chủ), phương pháp (SQL, bộ nhớ đệm), vật liệu (khối lượng dữ liệu đầu vào) và môi trường (mạng), rồi kiểm chứng từng ứng viên bằng số liệu giám sát và log."
+        },
+        {
+          "type": "warning",
+          "ja": "大分類を埋めること自体が目的ではない。思い込みで真因を決めたり、同じ要因を言い換えて増やしたりせず、観測可能な仮説に落として検証する。",
+          "vi": "Mục tiêu không phải lấp đầy mọi nhánh. Không được chọn nguyên nhân gốc theo cảm tính hoặc tăng số lượng bằng cách diễn đạt lại cùng một yếu tố; cần chuyển ứng viên thành giả thuyết có thể quan sát và kiểm chứng."
         }
       ],
       "terms": [
@@ -1265,8 +1365,8 @@
           "term": "特性要因図",
           "english": "Cause and Effect Diagram",
           "vi": "Biểu đồ nhân quả (xương cá)",
-          "definitionJa": "品質管理の手法の一つである。",
-          "definitionVi": "Biểu đồ nhân quả (xương cá) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "特性に影響する可能性のある要因を大分類から細分化し、魚の骨状に体系化した図。",
+          "definitionVi": "Sơ đồ hình xương cá phân rã và hệ thống hóa các yếu tố có thể ảnh hưởng đến một đặc tính, từ nhóm lớn đến nguyên nhân chi tiết.",
           "reading": "とくせいよういんず"
         }
       ],
@@ -1323,8 +1423,8 @@
       "titleJa": "管理図",
       "titleVi": "Biểu đồ kiểm soát",
       "importance": "high",
-      "summaryJa": "品質管理において製品やプロセスの特性を監視するためのツールである。",
-      "summaryVi": "Biểu đồ kiểm soát là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "工程データを時間順にプロットし、中心線と上方・下方管理限界によって偶然原因による変動と異常原因の兆候を見分ける図である。",
+      "summaryVi": "Biểu đồ kiểm soát đặt dữ liệu quy trình theo thứ tự thời gian và dùng đường trung tâm cùng giới hạn kiểm soát trên/dưới để phân biệt biến động ngẫu nhiên với dấu hiệu nguyên nhân bất thường.",
       "content": [
         {
           "type": "heading",
@@ -1333,13 +1433,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "品質管理において製品やプロセスの特性を監視するためのツールである。これは、時間の経過に伴うデータの変動を視覚的に表現することで、プロセスの安定性や異常を把握する役割を果たす。たとえば、製造ラインでの不良品率のデータを集めて管理図にプロットすることで、特定の期間に異常な変動が見られた場合、その原因を迅速に調査し改善策を講じることが可能である。また、統計的プロセス制御の一環として用いられ、継続的な品質向上を図るための重要な手段とされている。これにより、企業は製品の品質を保ちながら、生産効率を高めることができる。",
-          "vi": "Biểu đồ kiểm soát là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "一定間隔で得た統計量を時間順に描き、工程が統計的に安定しているかを監視する。中心線は工程の基準、管理限界は安定時の自然な変動幅を統計的に求めた境界である。点が限界を越えるほか、片側への連続、上昇・下降など非ランダムな並びも異常原因の手掛かりになる。異常信号があれば原因を調査し、除去後に工程を再評価する。",
+          "vi": "Các thống kê lấy theo khoảng thời gian cố định được vẽ theo thời gian để theo dõi quy trình có ổn định về mặt thống kê hay không. Đường trung tâm là mức chuẩn của quy trình; giới hạn kiểm soát là biên độ biến động tự nhiên được tính từ dữ liệu khi quy trình ổn định. Ngoài điểm vượt giới hạn, chuỗi điểm liên tiếp ở một phía hoặc xu hướng tăng/giảm không ngẫu nhiên cũng là dấu hiệu nguyên nhân bất thường. Khi có tín hiệu, phải điều tra nguyên nhân và đánh giá lại quy trình sau xử lý."
         },
         {
           "type": "point",
-          "ja": "試験対策：「管理図」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Biểu đồ kiểm soát”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "管理限界は工程の安定性を判定する境界で、顧客要求などから定める規格限界とは別物である。この区別はFEで重要である。",
+          "vi": "Giới hạn kiểm soát dùng để đánh giá tính ổn định của quy trình, khác giới hạn kỹ thuật được đặt theo yêu cầu sản phẩm hoặc khách hàng. Đây là điểm phân biệt quan trọng trong FE."
+        },
+        {
+          "type": "example",
+          "ja": "1時間ごとの応答時間平均を管理図に記録する。ある点が上方管理限界を超えたため、同時刻のログを調べるとバッチ処理の重複実行が判明した。原因を除去し、その後の点が安定範囲に戻るか確認する。",
+          "vi": "Ghi thời gian phản hồi trung bình mỗi giờ lên biểu đồ. Một điểm vượt giới hạn kiểm soát trên; kiểm tra log cùng thời điểm phát hiện tác vụ batch chạy trùng. Sau khi loại bỏ nguyên nhân, tiếp tục xác nhận các điểm trở lại vùng ổn định."
+        },
+        {
+          "type": "warning",
+          "ja": "限界内の点を一つずつ調整すると、かえって変動を増やすことがある。一方、限界内でも連や傾向などの異常パターンを無視してはならない。",
+          "vi": "Điều chỉnh từng điểm vẫn nằm trong giới hạn có thể làm biến động tăng thêm. Ngược lại, không được bỏ qua chuỗi hoặc xu hướng bất thường chỉ vì mọi điểm còn nằm trong giới hạn."
         }
       ],
       "terms": [
@@ -1347,8 +1457,8 @@
           "term": "管理図",
           "english": "Control Chart",
           "vi": "Biểu đồ kiểm soát",
-          "definitionJa": "品質管理において製品やプロセスの特性を監視するためのツールである。",
-          "definitionVi": "Biểu đồ kiểm soát là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "工程データを時間順に示し、中心線と管理限界によって工程の安定状態と異常の兆候を監視する図。",
+          "definitionVi": "Biểu đồ theo dõi dữ liệu quy trình theo thời gian, dùng đường trung tâm và giới hạn kiểm soát để nhận biết trạng thái ổn định và dấu hiệu bất thường.",
           "reading": "かんりず"
         }
       ],
@@ -1651,8 +1761,8 @@
       "titleJa": "最小二乗法",
       "titleVi": "Phương pháp bình phương tối thiểu",
       "importance": "high",
-      "summaryJa": "データの関係をモデル化するために用いられる統計手法の一つである。",
-      "summaryVi": "Phương pháp bình phương tối thiểu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "観測値とモデルによる予測値との差（残差）の二乗和が最小になるように、回帰式などのパラメータを推定する方法である。",
+      "summaryVi": "Phương pháp bình phương tối thiểu ước lượng tham số của mô hình, chẳng hạn đường hồi quy, sao cho tổng bình phương phần dư giữa giá trị quan sát và dự đoán là nhỏ nhất.",
       "content": [
         {
           "type": "heading",
@@ -1661,13 +1771,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "データの関係をモデル化するために用いられる統計手法の一つである。この方法では、観測データとモデルが予測した値との間の誤差を最小化することを目指す。そのため、誤差の二乗和を計算し、この値を最小にするようにモデルのパラメータを調整する。需要予測においては、過去の販売データを基に将来の需要を予測する際に広く用いられ、リニアなトレンドラインを引くことで、将来的な売上の動向を把握するために非常に有効である。これにより、在庫管理や生産計画をより効率的に行うことが可能になる。",
-          "vi": "Phương pháp bình phương tối thiểu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "単回帰 y=a+bx では、各データ点の観測値yiと予測値a+bxiとの差 ei=yi-(a+bxi) を残差とし、Σei²が最小になるaとbを求める。残差を二乗するため正負が相殺されず、大きなずれには大きな重みが付く。得られた直線は需要の傾向把握や予測に使えるが、残差のパターンや外れ値、適用範囲も確認する必要がある。",
+          "vi": "Trong hồi quy đơn y=a+bx, phần dư của điểm i là ei=yi-(a+bxi), tức giá trị quan sát trừ giá trị dự đoán; ta tìm a và b làm nhỏ nhất Σei². Bình phương khiến sai lệch dương và âm không triệt tiêu, đồng thời phạt mạnh sai lệch lớn. Đường thu được có thể dùng xem xu hướng và dự báo nhu cầu, nhưng phải kiểm tra mẫu phần dư, ngoại lệ và phạm vi áp dụng."
         },
         {
           "type": "point",
-          "ja": "試験対策：「最小二乗法」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Phương pháp bình phương tối thiểu”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは「観測値と予測値の残差の二乗和を最小化する」が識別点である。相関係数は関係の強さを表す指標であり、回帰式そのものではない。",
+          "vi": "Dấu hiệu nhận biết trong FE là “tối thiểu hóa tổng bình phương phần dư giữa quan sát và dự đoán”. Hệ số tương quan đo mức độ quan hệ, không phải chính phương trình hồi quy."
+        },
+        {
+          "type": "example",
+          "ja": "月番号xと販売数yのデータ(1,2)、(2,3)、(3,5)に直線を当てはめると、最小二乗直線は y=1/3+1.5x となる。各点の縦方向の残差を二乗して合計した値が、他の直線より小さくなる。",
+          "vi": "Với dữ liệu tháng x và doanh số y: (1,2), (2,3), (3,5), đường bình phương tối thiểu là y=1/3+1,5x. Tổng bình phương khoảng cách theo phương dọc từ các điểm đến đường này nhỏ hơn so với các đường thẳng khác."
+        },
+        {
+          "type": "warning",
+          "ja": "二乗により外れ値の影響が大きい。過去データに良く適合しても因果関係や将来精度は保証されず、観測範囲を大きく外れた外挿は特に危険である。",
+          "vi": "Do dùng bình phương, phương pháp nhạy với ngoại lệ. Khớp tốt dữ liệu quá khứ không chứng minh nhân quả hay bảo đảm dự báo tương lai; ngoại suy xa ngoài miền quan sát đặc biệt rủi ro."
         }
       ],
       "terms": [
@@ -1675,8 +1795,8 @@
           "term": "最小二乗法",
           "english": "Least Squares Method",
           "vi": "Phương pháp bình phương tối thiểu",
-          "definitionJa": "データの関係をモデル化するために用いられる統計手法の一つである。",
-          "definitionVi": "Phương pháp bình phương tối thiểu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "観測値と予測値の残差の二乗和を最小にするようにモデルのパラメータを推定する方法。",
+          "definitionVi": "Phương pháp ước lượng tham số mô hình bằng cách tối thiểu hóa tổng bình phương phần dư giữa quan sát và dự đoán.",
           "reading": "さいしょうにじょうほう"
         }
       ],
@@ -1692,8 +1812,8 @@
       "titleJa": "相関係数",
       "titleVi": "Hệ số tương quan",
       "importance": "high",
-      "summaryJa": "二つの変数間の関係の強さと方向を表す数値である。",
-      "summaryVi": "Hệ số tương quan là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "二つの量的変数の線形関係の方向と強さを、-1から1までの値で表す標準化された指標である。",
+      "summaryVi": "Hệ số tương quan là chỉ số chuẩn hóa từ -1 đến 1, biểu thị chiều và độ mạnh của quan hệ tuyến tính giữa hai biến định lượng.",
       "content": [
         {
           "type": "heading",
@@ -1702,13 +1822,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "二つの変数間の関係の強さと方向を表す数値である。この値は-1から1の範囲を取り、1であれば完全な正の相関、-1であれば完全な負の相関を示し、0は相関がないことを意味する。需要予測においては、商品やサービスの需要が他の要因（例えば、価格や季節）によってどの程度影響を受けるかを示すために利用される。例えば、過去の販売データと広告支出の相関係数が高い場合、広告効果が需要に強く影響を与えていることが示唆される。これにより、今後の需要予測に役立てることができる。",
-          "vi": "Hệ số tương quan là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "ピアソンの相関係数rは共分散を両変数の標準偏差で割った値で、単位を持たない。rが1に近いほど強い正の線形関係、-1に近いほど強い負の線形関係を示す。r=0は線形関係が見られないことを示すだけで、曲線的な関係まで否定しない。判断時は散布図も確認し、外れ値、群の混在、第三の変数の影響を検討する。",
+          "vi": "Hệ số tương quan Pearson r bằng hiệp phương sai chia cho tích độ lệch chuẩn của hai biến nên không có đơn vị. r gần 1 chỉ quan hệ tuyến tính dương mạnh, gần -1 chỉ quan hệ tuyến tính âm mạnh. r=0 chỉ có nghĩa không thấy quan hệ tuyến tính, không loại trừ quan hệ cong. Khi diễn giải phải xem cả biểu đồ phân tán và xét ngoại lệ, nhóm dữ liệu trộn lẫn, cùng biến thứ ba."
         },
         {
           "type": "point",
-          "ja": "試験対策：「相関係数」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Hệ số tương quan”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "符号は方向、絶対値は線形関係の強さを示す。r=0を「一切関係なし」、|r|が大きいことを「因果関係あり」と解釈しない。",
+          "vi": "Dấu của r cho biết chiều, trị tuyệt đối cho biết độ mạnh của quan hệ tuyến tính. Không diễn giải r=0 là “hoàn toàn không liên hệ”, hoặc |r| lớn là “có quan hệ nhân quả”."
+        },
+        {
+          "type": "example",
+          "ja": "気温と冷飲料売上のr=0.85なら強い正の線形関係が示唆される。一方、広告費と売上のr=0.85でも、季節が両方を増やした可能性があるため、広告の効果が証明されたとはいえない。",
+          "vi": "Nếu r giữa nhiệt độ và doanh số đồ uống lạnh là 0,85, dữ liệu gợi ý quan hệ tuyến tính dương mạnh. Nhưng r=0,85 giữa chi phí quảng cáo và doanh số vẫn không chứng minh hiệu quả quảng cáo vì mùa vụ có thể làm cả hai cùng tăng."
+        },
+        {
+          "type": "warning",
+          "ja": "相関係数は外れ値に敏感で、異なる集団をまとめると見かけの相関が生じることもある。標本数が少ない場合は値が大きくても不安定である。",
+          "vi": "Hệ số tương quan nhạy với ngoại lệ; gộp các quần thể khác nhau cũng có thể tạo tương quan giả. Khi mẫu nhỏ, ngay cả giá trị lớn cũng có thể không ổn định."
         }
       ],
       "terms": [
@@ -1716,8 +1846,8 @@
           "term": "相関係数",
           "english": "Correlation Coefficient",
           "vi": "Hệ số tương quan",
-          "definitionJa": "二つの変数間の関係の強さと方向を表す数値である。",
-          "definitionVi": "Hệ số tương quan là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "二つの量的変数の線形関係の方向と強さを-1から1の範囲で表す指標。",
+          "definitionVi": "Chỉ số từ -1 đến 1 biểu thị chiều và độ mạnh của quan hệ tuyến tính giữa hai biến định lượng.",
           "reading": "そうかんけいすう"
         }
       ],
@@ -1856,8 +1986,8 @@
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
       "importance": "high",
-      "summaryJa": "膨大なデータの中から有用な情報やパターンを抽出する技術である。",
-      "summaryVi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "大量のデータに統計・機械学習などを適用し、単純な検索や集計では見つけにくい規則性、関連、分類構造を発見する分析技術である。",
+      "summaryVi": "Khai phá dữ liệu áp dụng thống kê và học máy lên lượng dữ liệu lớn để phát hiện quy luật, liên kết hoặc cấu trúc phân nhóm khó thấy bằng truy vấn và tổng hợp thông thường.",
       "content": [
         {
           "type": "heading",
@@ -1866,13 +1996,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "膨大なデータの中から有用な情報やパターンを抽出する技術である。このプロセスでは、統計学や機械学習の手法を活用し、データを分析して傾向や相関関係を見つけ出すことが目的である。例えば、企業が顧客データを解析することで、購買傾向や潜在的なニーズを把握し、マーケティング戦略を改善することができる。業務分析や計画において非常に重要な役割を果たしており、データからの洞察を基に意思決定を行うための強力なツールとして利用されている。この技術により、データを単なる数値の集まりから、ビジネスや研究に役立つ情報資源へと変えることが可能となる。",
-          "vi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "目的を定めてデータを収集・前処理し、分類、クラスタリング、回帰、アソシエーション分析、異常検知などを適用する。得られたパターンは未知データで評価し、業務上の意味を確認してから利用する。データベース検索が指定条件に合う既知の事実を取り出すのに対し、データマイニングは事前に明示されていない規則性や予測モデルを探索する点が異なる。",
+          "vi": "Quy trình bắt đầu từ xác định mục tiêu, thu thập và tiền xử lý dữ liệu, rồi áp dụng phân loại, phân cụm, hồi quy, luật kết hợp hoặc phát hiện bất thường. Mẫu tìm được phải được đánh giá trên dữ liệu chưa dùng và kiểm tra ý nghĩa nghiệp vụ trước khi áp dụng. Truy vấn cơ sở dữ liệu lấy các sự kiện đã biết theo điều kiện chỉ định; khai phá dữ liệu tìm quy luật hoặc mô hình dự đoán chưa được nêu sẵn."
         },
         {
           "type": "point",
-          "ja": "試験対策：「データマイニング」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Khai phá dữ liệu”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは、分類は既知ラベルの予測、クラスタリングは類似データの群分け、アソシエーション分析は同時に現れやすい項目の規則発見、と区別する。",
+          "vi": "Trong FE: phân loại dự đoán nhãn đã biết; phân cụm nhóm các dữ liệu tương tự; phân tích kết hợp tìm quy luật các mục thường xuất hiện cùng nhau."
+        },
+        {
+          "type": "example",
+          "ja": "購買履歴から「商品Aを買う顧客は商品Bも買いやすい」という候補規則を抽出する。支持度で出現頻度、確信度でA購入時のB購入割合、リフト値で偶然以上の関連かを評価し、売場提案に用いる。",
+          "vi": "Từ lịch sử mua hàng, tìm luật ứng viên “khách mua A thường mua cả B”. Dùng support đo tần suất xuất hiện, confidence đo tỷ lệ mua B khi đã mua A và lift đánh giá liên hệ có vượt mức ngẫu nhiên hay không, rồi mới dùng cho gợi ý bố trí hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "大量の候補を試すと偶然のパターンも見つかる。学習データだけへの過適合、欠損や偏り、相関を因果とみなす誤り、個人情報の不適切利用に注意する。",
+          "vi": "Thử quá nhiều ứng viên sẽ tìm thấy cả mẫu ngẫu nhiên. Cần tránh quá khớp dữ liệu huấn luyện, dữ liệu thiếu hoặc lệch, nhầm tương quan với nhân quả và sử dụng dữ liệu cá nhân không phù hợp."
         }
       ],
       "terms": [
@@ -1880,9 +2020,9 @@
           "term": "データマイニング",
           "english": "Data Mining",
           "vi": "Khai phá dữ liệu",
-          "definitionJa": "膨大なデータの中から有用な情報やパターンを抽出する技術である。",
-          "definitionVi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "大量データから統計・機械学習などを用いて有用な規則性やパターンを発見する技術。",
+          "definitionVi": "Kỹ thuật dùng thống kê và học máy để phát hiện quy luật hoặc mẫu hữu ích trong lượng dữ liệu lớn.",
+          "reading": "でーたまいにんぐ"
         }
       ],
       "tags": [
@@ -2922,8 +3062,8 @@
       "titleJa": "データレイク",
       "titleVi": "Hồ dữ liệu (data lake)",
       "importance": "high",
-      "summaryJa": "大量のデータをそのままの形式で保存するためのシステムである。",
-      "summaryVi": "Hồ dữ liệu (data lake) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "構造化・半構造化・非構造化を含む多様な大量データを、将来の用途に備えて元の形式や構造のまま蓄積するデータ基盤である。",
+      "summaryVi": "Data lake là nền tảng lưu trữ khối lượng lớn dữ liệu có cấu trúc, bán cấu trúc và phi cấu trúc ở dạng hoặc cấu trúc gốc để phục vụ nhiều mục đích sau này.",
       "content": [
         {
           "type": "heading",
@@ -2932,13 +3072,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "大量のデータをそのままの形式で保存するためのシステムである。構造化データや非構造化データを問わず、さまざまなデータを一元管理できる特徴を持つ。例えば、企業では、顧客情報、センサーデータ、ログファイルなどの異なるデータを、必要な時に簡単に取り出して分析することができる。この技術は、ビッグデータの時代において、データを迅速に活用するために重要であり、分析や機械学習の基盤として利用されることが増えている。データレイクを使うことで、従来のデータベースよりも柔軟性が高く、多様な分析が可能になる。",
-          "vi": "Hồ dữ liệu (data lake) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "表形式データ、JSON、ログ、画像、音声などを取り込み時に用途別スキーマへ変換せず保存し、利用時に必要な構造を解釈する（schema-on-read）。後から異なる分析や機械学習に再利用しやすい。一方、データウェアハウスは分析目的に合わせて統合・整形した構造化データを蓄積し、定型的なBI集計に適する。データレイクでもメタデータ、カタログ、アクセス制御、品質管理は不可欠である。",
+          "vi": "Dữ liệu bảng, JSON, log, ảnh và âm thanh được giữ lại mà không buộc chuyển sang schema theo mục đích ngay khi nạp; cấu trúc cần thiết được diễn giải lúc sử dụng (schema-on-read), nên dễ tái dùng cho phân tích và học máy khác nhau. Ngược lại, data warehouse tích hợp và định hình dữ liệu có cấu trúc theo mục tiêu phân tích, phù hợp tổng hợp BI định kỳ. Data lake vẫn bắt buộc có metadata, danh mục, kiểm soát truy cập và quản lý chất lượng."
         },
         {
           "type": "point",
-          "ja": "試験対策：「データレイク」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Hồ dữ liệu (data lake)”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEの識別点は「あらゆるデータを元の形式・構造で格納する」である。ただし、無管理でよいという意味ではなく、データウェアハウスとの用途差を押さえる。",
+          "vi": "Dấu hiệu FE là “lưu nhiều loại dữ liệu ở dạng và cấu trúc gốc”. Điều đó không có nghĩa được phép thiếu quản trị; cần phân biệt mục đích với data warehouse."
+        },
+        {
+          "type": "example",
+          "ja": "EC企業が注文表、WebクリックのJSONログ、商品画像、問合せ音声を同じデータレイクへ元形式で保存する。需要分析では注文とログを整形して使い、画像認識では商品画像を別の処理で利用する。",
+          "vi": "Doanh nghiệp thương mại điện tử lưu bảng đơn hàng, log click JSON, ảnh sản phẩm và âm thanh hỗ trợ vào cùng data lake ở dạng gốc. Phân tích nhu cầu sẽ định hình đơn hàng và log; nhận dạng ảnh lại dùng ảnh bằng quy trình khác."
+        },
+        {
+          "type": "warning",
+          "ja": "出所、意味、品質、権限を管理せずデータだけを投入すると、必要なデータを発見・信頼できない「データスワンプ」になる。元形式保存と無秩序な保存を混同しない。",
+          "vi": "Nếu chỉ đổ dữ liệu vào mà không quản lý nguồn gốc, ý nghĩa, chất lượng và quyền truy cập, data lake sẽ thành “data swamp” khó tìm và khó tin cậy. Lưu dạng gốc không đồng nghĩa lưu vô tổ chức."
         }
       ],
       "terms": [
@@ -2946,9 +3096,9 @@
           "term": "データレイク",
           "english": "Data Lake",
           "vi": "Hồ dữ liệu (data lake)",
-          "definitionJa": "大量のデータをそのままの形式で保存するためのシステムである。",
-          "definitionVi": "Hồ dữ liệu (data lake) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "多様な大量データを元の形式・構造のまま蓄積し、利用時に必要な構造を適用するデータ基盤。",
+          "definitionVi": "Nền tảng lưu lượng lớn dữ liệu đa dạng ở dạng gốc và áp dụng cấu trúc cần thiết khi sử dụng.",
+          "reading": "でーたれいく"
         }
       ],
       "tags": [
@@ -3127,8 +3277,8 @@
       "titleJa": "標準化",
       "titleVi": "Chuẩn hóa dữ liệu",
       "importance": "high",
-      "summaryJa": "データの形式や手法を統一するプロセスである。",
-      "summaryVi": "Chuẩn hóa dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "データ分析における標準化は、各値から平均を引き標準偏差で割って、平均0・標準偏差1の尺度へ変換する処理である。",
+      "summaryVi": "Trong phân tích dữ liệu, chuẩn hóa biến đổi mỗi giá trị bằng cách trừ trung bình rồi chia độ lệch chuẩn, đưa đặc trưng về thang có trung bình 0 và độ lệch chuẩn 1.",
       "content": [
         {
           "type": "heading",
@@ -3137,13 +3287,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "データの形式や手法を統一するプロセスである。このプロセスにより、異なるデータセット間での一貫性が保たれ、比較や分析が容易になる。例えば、異なるフォーマットの数値データを共通の単位に変換することで、分析の精度が向上する。特にデータが多様化している分野において重要で、正確な結論を導くための基本となる。このようにして、企業や研究機関ではデータの収集・分析を効率的に行うことが可能になる。",
-          "vi": "Chuẩn hóa dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "変数xの平均をμ、標準偏差をσとすると、標準化得点は z=(x-μ)/σ である。単位やばらつきが異なる身長、売上、回数などを比較可能な尺度にし、距離や内積を使う分析で一つの変数だけが支配するのを防ぐ。これは値を一定範囲へ写す正規化（min-max scaling）や、関係データベースの表の冗長性を減らす正規化とは別の意味である。",
+          "vi": "Với trung bình μ và độ lệch chuẩn σ của biến x, điểm chuẩn hóa là z=(x-μ)/σ. Phép này đưa các đại lượng khác đơn vị hoặc độ phân tán như chiều cao, doanh số, số lần về thang so sánh được và tránh một biến chi phối các phương pháp dựa trên khoảng cách hay tích vô hướng. Nó khác chuẩn hóa min-max đưa giá trị về một khoảng cố định và khác normalization trong cơ sở dữ liệu nhằm giảm dư thừa bảng."
         },
         {
           "type": "point",
-          "ja": "試験対策：「標準化」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Chuẩn hóa dữ liệu”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "FEでは z=(x-平均)/標準偏差 と、標準化後の平均0・標準偏差1を押さえる。標準化しても分布が正規分布になるとは限らない。",
+          "vi": "Trong FE, cần nhớ z=(x-trung bình)/độ lệch chuẩn và sau chuẩn hóa có trung bình 0, độ lệch chuẩn 1. Chuẩn hóa không khiến phân bố tự động trở thành phân bố chuẩn."
+        },
+        {
+          "type": "example",
+          "ja": "平均70点、標準偏差10点の試験で85点ならz=(85-70)/10=1.5で、平均より1.5標準偏差高い。平均600点、標準偏差100点の別試験で750点もz=1.5なので相対的位置を比較できる。",
+          "vi": "Bài thi có trung bình 70 và độ lệch chuẩn 10: điểm 85 cho z=(85-70)/10=1,5, tức cao hơn trung bình 1,5 độ lệch chuẩn. Bài khác có trung bình 600, độ lệch chuẩn 100: điểm 750 cũng cho z=1,5 nên có thể so vị trí tương đối."
+        },
+        {
+          "type": "warning",
+          "ja": "平均と標準偏差は外れ値の影響を受ける。学習データと評価データをまとめて平均・標準偏差を計算すると情報漏えいになるため、学習データで求めた値を評価データへ適用する。",
+          "vi": "Trung bình và độ lệch chuẩn nhạy với ngoại lệ. Tính chúng trên cả dữ liệu huấn luyện lẫn đánh giá gây rò rỉ dữ liệu; phải tính từ tập huấn luyện rồi áp dụng cùng tham số cho tập đánh giá."
         }
       ],
       "terms": [
@@ -3151,8 +3311,8 @@
           "term": "標準化",
           "english": "Standardization",
           "vi": "Chuẩn hóa dữ liệu",
-          "definitionJa": "データの形式や手法を統一するプロセスである。",
-          "definitionVi": "Chuẩn hóa dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "各値から平均を引き標準偏差で割り、平均0・標準偏差1の尺度へ変換する処理。",
+          "definitionVi": "Phép biến đổi trừ trung bình và chia độ lệch chuẩn để đưa dữ liệu về thang có trung bình 0 và độ lệch chuẩn 1.",
           "reading": "ひょうじゅんか"
         }
       ],
@@ -3332,8 +3492,8 @@
       "titleJa": "BI",
       "titleVi": "Trí tuệ kinh doanh (BI)",
       "importance": "high",
-      "summaryJa": "ビジネスにおけるデータの収集、分析、報告を行う手法や技術のことを指す。",
-      "summaryVi": "Trí tuệ kinh doanh (BI) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "組織内外のデータを集約・分析・可視化し、経営や業務の状況把握と意思決定を支援する仕組み及び活動である。",
+      "summaryVi": "BI là hệ thống và hoạt động tích hợp, phân tích, trực quan hóa dữ liệu trong và ngoài tổ chức để theo dõi hoạt động và hỗ trợ quyết định kinh doanh.",
       "content": [
         {
           "type": "heading",
@@ -3342,13 +3502,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "ビジネスにおけるデータの収集、分析、報告を行う手法や技術のことを指す。企業は膨大なデータを日々生成しており、BIを活用することで、そのデータを有効に活用し、意思決定を支援することができる。たとえば、売上データを分析して市場トレンドを把握し、戦略を立てる際に役立つ。BIツールは、データの視覚化やダッシュボード作成を通じて、ユーザーが簡単に情報を理解できるようにする。これにより、企業は競争力を高め、迅速な意思決定を行うことが可能となる。",
-          "vi": "Trí tuệ kinh doanh (BI) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "販売、在庫、顧客、財務などのデータをデータウェアハウス等へ統合し、KPI、定型レポート、ダッシュボード、OLAP、ドリルダウンなどで多角的に分析する。現状と過去の傾向を共通の指標で把握し、例外の発見や施策判断を速めることが目的である。BIは意思決定の材料を提供するが、データの定義、更新時刻、粒度、品質が一致していなければ表示が整っていても判断を誤る。",
+          "vi": "Dữ liệu bán hàng, tồn kho, khách hàng và tài chính được tích hợp vào data warehouse hoặc nền tảng tương tự, rồi phân tích qua KPI, báo cáo định kỳ, dashboard, OLAP và drill-down. Mục tiêu là hiểu hiện trạng và xu hướng quá khứ bằng chỉ số thống nhất, phát hiện ngoại lệ và ra quyết định nhanh hơn. BI cung cấp căn cứ chứ không tự quyết định; nếu định nghĩa, thời điểm cập nhật, mức chi tiết hoặc chất lượng dữ liệu không nhất quán, dashboard đẹp vẫn có thể gây quyết định sai."
         },
         {
           "type": "point",
-          "ja": "試験対策：「BI」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Trí tuệ kinh doanh (BI)”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "BIは既存データの集計・可視化を通じた意思決定支援が中心で、データマイニングはデータから未知のパターンを探索する。両者は連携するが同義ではない。",
+          "vi": "BI chủ yếu hỗ trợ quyết định bằng tổng hợp và trực quan hóa dữ liệu hiện có; data mining khám phá mẫu chưa biết. Hai lĩnh vực phối hợp nhưng không đồng nghĩa."
+        },
+        {
+          "type": "example",
+          "ja": "経営ダッシュボードで月次売上、粗利率、在庫回転率を地域別に表示する。売上低下した地域を選択して店舗、商品へドリルダウンし、値引き増加と欠品のどちらが主因かを調べる。",
+          "vi": "Dashboard quản trị hiển thị doanh thu tháng, biên lợi nhuận gộp và vòng quay tồn kho theo vùng. Chọn vùng doanh thu giảm rồi drill-down đến cửa hàng và sản phẩm để xem nguyên nhân chính là tăng giảm giá hay thiếu hàng."
+        },
+        {
+          "type": "warning",
+          "ja": "指標名が同じでも部門ごとに計算式が違えば比較できない。グラフの起点、二軸表示、集計期間、更新遅延による見かけの差にも注意する。",
+          "vi": "Không thể so sánh nếu cùng tên KPI nhưng mỗi bộ phận dùng công thức khác. Cũng phải cảnh giác với trục không bắt đầu từ 0, biểu đồ hai trục, kỳ tổng hợp và độ trễ cập nhật tạo khác biệt bề ngoài."
         }
       ],
       "terms": [
@@ -3356,8 +3526,8 @@
           "term": "BI",
           "english": "Business Intelligence",
           "vi": "Trí tuệ kinh doanh (BI)",
-          "definitionJa": "ビジネスにおけるデータの収集、分析、報告を行う手法や技術のことを指す。",
-          "definitionVi": "Trí tuệ kinh doanh (BI) là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "組織のデータを集約・分析・可視化し、経営及び業務の意思決定を支援する仕組みと活動。",
+          "definitionVi": "Hệ thống và hoạt động tích hợp, phân tích, trực quan hóa dữ liệu tổ chức để hỗ trợ quyết định quản trị và nghiệp vụ.",
           "reading": "びーあい"
         }
       ],
@@ -3373,8 +3543,8 @@
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
       "importance": "high",
-      "summaryJa": "膨大なデータの中から有用な情報やパターンを抽出する技術である。",
-      "summaryVi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "業務データを分析して未知の規則や予測に役立つパターンを発見し、施策へつなげる知識発見プロセスの中核技術である。",
+      "summaryVi": "Trong khai thác dữ liệu phục vụ kinh doanh, data mining là kỹ thuật cốt lõi của quá trình khám phá tri thức: tìm mẫu hoặc quy luật dự đoán chưa biết rồi chuyển thành hành động.",
       "content": [
         {
           "type": "heading",
@@ -3383,13 +3553,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "膨大なデータの中から有用な情報やパターンを抽出する技術である。このプロセスでは、統計学や機械学習の手法を活用し、データを分析して傾向や相関関係を見つけ出すことが目的である。例えば、企業が顧客データを解析することで、購買傾向や潜在的なニーズを把握し、マーケティング戦略を改善することができる。業務分析や計画において非常に重要な役割を果たしており、データからの洞察を基に意思決定を行うための強力なツールとして利用されている。この技術により、データを単なる数値の集まりから、ビジネスや研究に役立つ情報資源へと変えることが可能となる。",
-          "vi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "業務課題を定義し、対象データを選択・前処理して分析モデルを作り、精度と業務価値を評価し、施策へ展開する。例えば離反予測では、過去顧客から作ったモデルを未知データで評価し、高リスク顧客への施策が利益や継続率を改善するか確認する。パターン発見自体が目的ではなく、再現性、説明可能性、実施コストを含めて意思決定へ結び付ける。",
+          "vi": "Quy trình xác định vấn đề nghiệp vụ, chọn và tiền xử lý dữ liệu, xây mô hình, đánh giá cả độ chính xác lẫn giá trị kinh doanh, rồi triển khai hành động. Ví dụ dự đoán rời bỏ phải đánh giá mô hình trên dữ liệu chưa biết và kiểm tra việc tiếp cận khách hàng rủi ro có cải thiện lợi nhuận hay tỷ lệ duy trì hay không. Mục tiêu không chỉ là tìm mẫu, mà là gắn kết quả có khả năng lặp lại, giải thích được và có chi phí phù hợp với quyết định."
         },
         {
           "type": "point",
-          "ja": "試験対策：「データマイニング」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Khai phá dữ liệu”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "BIが定義済みKPIで「何が起きたか」を可視化する場面が多いのに対し、データマイニングは「どのような隠れた規則があるか」「何が起きそうか」を探索する。",
+          "vi": "BI thường trực quan hóa “đã xảy ra gì” bằng KPI định nghĩa trước; data mining khám phá “quy luật ẩn nào tồn tại” hoặc “điều gì có khả năng xảy ra”."
+        },
+        {
+          "type": "example",
+          "ja": "解約済み・継続中の顧客履歴から分類モデルを学習し、翌月の解約確率を予測する。正解率だけでなく、解約者をどれだけ拾えるか、施策対象数、誤判定コストを評価して利用閾値を決める。",
+          "vi": "Huấn luyện mô hình phân loại từ lịch sử khách đã rời và còn duy trì để dự đoán xác suất rời tháng sau. Không chỉ xem accuracy mà còn đánh giá bắt được bao nhiêu khách sắp rời, số người phải can thiệp và chi phí dự đoán sai để chọn ngưỡng sử dụng."
+        },
+        {
+          "type": "warning",
+          "ja": "将来を示す情報を誤って学習データへ入れるデータ漏えいや、過去の偏りをモデルが再現する問題に注意する。精度が高くても施策効果や公平性が保証されるわけではない。",
+          "vi": "Cần tránh rò rỉ dữ liệu khi vô tình đưa thông tin tương lai vào huấn luyện và tránh mô hình tái tạo thiên lệch quá khứ. Độ chính xác cao không bảo đảm hiệu quả hành động hoặc tính công bằng."
         }
       ],
       "terms": [
@@ -3397,9 +3577,9 @@
           "term": "データマイニング",
           "english": "Data Mining",
           "vi": "Khai phá dữ liệu",
-          "definitionJa": "膨大なデータの中から有用な情報やパターンを抽出する技術である。",
-          "definitionVi": "Khai phá dữ liệu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "業務データから未知の規則性や予測に有用なパターンを発見し、意思決定へ活用する技術。",
+          "definitionVi": "Kỹ thuật phát hiện quy luật chưa biết hoặc mẫu có ích cho dự đoán từ dữ liệu nghiệp vụ và vận dụng vào quyết định.",
+          "reading": "でーたまいにんぐ"
         }
       ],
       "tags": [
@@ -3496,8 +3676,8 @@
       "titleJa": "ビッグデータ",
       "titleVi": "Dữ liệu lớn",
       "importance": "high",
-      "summaryJa": "通常のデータ処理ソフトウェアでは処理が難しいほど、大量かつ多様なデータの集合を指す。",
-      "summaryVi": "Dữ liệu lớn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "従来のデータ処理基盤では効率的に扱いにくく、量・速度・多様性などに応じた拡張可能な蓄積・処理方式を必要とするデータである。",
+      "summaryVi": "Big data là dữ liệu mà nền tảng truyền thống khó xử lý hiệu quả, đòi hỏi kiến trúc lưu trữ và xử lý có khả năng mở rộng do khối lượng, tốc độ, tính đa dạng hoặc biến động.",
       "content": [
         {
           "type": "heading",
@@ -3506,13 +3686,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "通常のデータ処理ソフトウェアでは処理が難しいほど、大量かつ多様なデータの集合を指す。これらのデータは、テキスト、画像、動画、音声などの形式を含み、リアルタイムで生成されることも多い。たとえば、SNSの投稿やオンラインショッピングの履歴などがビッグデータの一部となり、それらを分析することで、人々の行動やトレンドを理解する手助けになる。このように、ビッグデータはデータ分析の重要なリソースであり、特にビジネスやマーケティングにおいて、意思決定を支援するために活用されている。",
-          "vi": "Dữ liệu lớn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "代表的特徴はVolume（量）、Velocity（生成・流入速度）、Variety（形式や意味の多様性）で、NISTではVariability（変動）も基本要因に含める。大量ログの分散バッチ処理、高速なセンサーストリームのリアルタイム処理、文章・画像・表の統合など、支配的な特徴によって必要な構成は異なる。単にファイルサイズが大きいことではなく、性能・費用・時間の要件からスケーラブルな方式が必要かで判断する。",
+          "vi": "Các đặc trưng điển hình là Volume (khối lượng), Velocity (tốc độ sinh/đổ vào), Variety (đa dạng định dạng và ngữ nghĩa); NIST còn xem Variability (tính biến động) là yếu tố cơ bản. Xử lý batch phân tán cho log lớn, xử lý thời gian thực cho luồng cảm biến nhanh, hay tích hợp văn bản–ảnh–bảng cần kiến trúc khác nhau tùy đặc trưng chi phối. Không chỉ vì tệp lớn; phải xét yêu cầu hiệu năng, chi phí và thời gian có buộc dùng cách mở rộng hay không."
         },
         {
           "type": "point",
-          "ja": "試験対策：「ビッグデータ」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Dữ liệu lớn”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "ビッグデータはデータの特性と処理課題、データレイクは多様なデータを元形式で蓄積する基盤、データマイニングはパターン発見の技術であり、役割を区別する。",
+          "vi": "Big data nói về đặc tính dữ liệu và thách thức xử lý; data lake là nền tảng lưu dữ liệu đa dạng ở dạng gốc; data mining là kỹ thuật tìm mẫu. Cần phân biệt ba vai trò."
+        },
+        {
+          "type": "example",
+          "ja": "数百万台のIoT機器から毎秒届く時刻付き測定値は、量と速度が大きく、形式変更による変動もあり得る。ストリーム処理で異常を即時検知し、詳細データは分散ストレージへ保存して後から分析する。",
+          "vi": "Dữ liệu có dấu thời gian gửi mỗi giây từ hàng triệu thiết bị IoT có khối lượng và tốc độ lớn, đồng thời định dạng có thể thay đổi. Hệ thống dùng xử lý luồng để phát hiện bất thường tức thời và lưu chi tiết vào kho phân tán để phân tích sau."
+        },
+        {
+          "type": "warning",
+          "ja": "データ量が多くても、品質が低い、取得目的が不明、偏りが大きい場合は有用な結論にならない。収集可能だから保存するのではなく、目的、費用、権限、個人情報保護を設計する。",
+          "vi": "Dữ liệu nhiều nhưng chất lượng thấp, mục đích thu thập không rõ hoặc thiên lệch lớn vẫn không tạo kết luận hữu ích. Không lưu chỉ vì có thể thu thập; phải thiết kế mục tiêu, chi phí, quyền truy cập và bảo vệ dữ liệu cá nhân."
         }
       ],
       "terms": [
@@ -3520,9 +3710,9 @@
           "term": "ビッグデータ",
           "english": "Big Data",
           "vi": "Dữ liệu lớn",
-          "definitionJa": "通常のデータ処理ソフトウェアでは処理が難しいほど、大量かつ多様なデータの集合を指す。",
-          "definitionVi": "Dữ liệu lớn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
-          "reading": ""
+          "definitionJa": "量・速度・多様性・変動などのため、効率的な処理に拡張可能なアーキテクチャを要するデータ。",
+          "definitionVi": "Dữ liệu cần kiến trúc mở rộng để xử lý hiệu quả do khối lượng, tốc độ, tính đa dạng hoặc biến động.",
+          "reading": "びっぐでーた"
         }
       ],
       "tags": [
@@ -4029,8 +4219,8 @@
       "titleJa": "単純無作為抽出",
       "titleVi": "Lấy mẫu ngẫu nhiên đơn",
       "importance": "high",
-      "summaryJa": "調査対象からランダムにサンプルを選ぶ手法である。",
-      "summaryVi": "Lấy mẫu ngẫu nhiên đơn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "母集団から同じ大きさの標本を選ぶ全ての組合せが等しい確率になるよう、乱数などで抽出する確率標本抽出法である。",
+      "summaryVi": "Lấy mẫu ngẫu nhiên đơn là phương pháp xác suất trong đó mọi mẫu có cùng kích thước từ tổng thể đều có xác suất được chọn như nhau, thường thực hiện bằng số ngẫu nhiên.",
       "content": [
         {
           "type": "heading",
@@ -4039,13 +4229,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "調査対象からランダムにサンプルを選ぶ手法である。具体的には、全ての対象が同じ確率で選ばれるようにすることで、バイアスを排除し、公平な調査結果を得ることを目的とする。例えば、学校の生徒全体から無作為に10人を選ぶ際には、くじ引きや乱数表などを使用することが一般的である。この手法は統計学において基礎的な方法の一つであり、多くの調査研究に応用されている。また、単純無作為抽出によって得られたサンプルは、全体の特性を把握するための信頼性の高いデータとされ、データ分析や予測においても有用である。",
-          "vi": "Lấy mẫu ngẫu nhiên đơn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "母集団の全要素を漏れなく一度ずつ載せた標本抽出枠を用意し、各要素に番号を付け、乱数で所定数を選ぶ。無作為化により選択者の恣意を避け、標本誤差を確率的に評価できる。ただし、得られる標本は毎回異なり、偶然による標本誤差は残る。母集団が大きく分散している場合は、名簿整備や調査コストが高くなることもある。",
+          "vi": "Cần có khung chọn mẫu liệt kê đầy đủ mỗi phần tử tổng thể đúng một lần, gán số rồi dùng số ngẫu nhiên chọn đủ số lượng. Ngẫu nhiên hóa tránh sự tùy ý của người chọn và cho phép đánh giá sai số lấy mẫu theo xác suất. Tuy nhiên, mẫu thay đổi qua mỗi lần rút và vẫn có sai số ngẫu nhiên. Với tổng thể lớn, phân tán, việc lập danh sách và khảo sát có thể tốn kém."
         },
         {
           "type": "point",
-          "ja": "試験対策：「単純無作為抽出」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Lấy mẫu ngẫu nhiên đơn”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "「手近な人を選ぶ」のは無作為抽出ではない。母集団全体の抽出枠から、くじ又は乱数で機会を等しくすることが識別点である。",
+          "vi": "Chọn người thuận tiện không phải lấy mẫu ngẫu nhiên. Điểm nhận biết là chọn bằng thăm hoặc số ngẫu nhiên từ khung bao phủ toàn tổng thể để cơ hội được chọn ngang nhau."
+        },
+        {
+          "type": "example",
+          "ja": "社員1,000人の名簿に1～1,000の番号を付け、乱数生成器で重複しない100個の番号を選ぶ。特定部署や回答しやすい人だけを先に選ばない。",
+          "vi": "Đánh số 1–1.000 cho danh sách 1.000 nhân viên rồi dùng bộ sinh số ngẫu nhiên chọn 100 số không trùng. Không ưu tiên một phòng ban hoặc người dễ trả lời."
+        },
+        {
+          "type": "warning",
+          "ja": "抽出が無作為でも、名簿から一部の人が欠けている、選ばれた人が回答しない、標本数が小さいといった問題は別に残る。無作為抽出だけで偏りが完全に消えるとは限らない。",
+          "vi": "Dù rút ngẫu nhiên, vẫn có thể sai lệch nếu khung thiếu một số người, người được chọn không phản hồi hoặc mẫu quá nhỏ. Ngẫu nhiên hóa không tự động loại bỏ mọi thiên lệch."
         }
       ],
       "terms": [
@@ -4053,8 +4253,8 @@
           "term": "単純無作為抽出",
           "english": "Simple Random Sampling",
           "vi": "Lấy mẫu ngẫu nhiên đơn",
-          "definitionJa": "調査対象からランダムにサンプルを選ぶ手法である。",
-          "definitionVi": "Lấy mẫu ngẫu nhiên đơn là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "母集団から同じ大きさの標本を選ぶ各組合せが等確率となるように抽出する方法。",
+          "definitionVi": "Phương pháp chọn sao cho mọi mẫu cùng kích thước từ tổng thể đều có xác suất được chọn như nhau.",
           "reading": "たんじゅんむさくいちゅうしゅつ"
         }
       ],
@@ -4070,8 +4270,8 @@
       "titleJa": "層別抽出",
       "titleVi": "Lấy mẫu phân tầng",
       "importance": "high",
-      "summaryJa": "統計調査において母集団をいくつかの層に分け、その各層からサンプルを選ぶ手法である。",
-      "summaryVi": "Lấy mẫu phân tầng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "母集団を互いに重ならない層に分け、全ての層から無作為に標本を抽出して、層の確実な代表と推定精度の向上を図る方法である。",
+      "summaryVi": "Lấy mẫu phân tầng chia tổng thể thành các tầng không chồng lấn rồi rút ngẫu nhiên từ mọi tầng, nhằm bảo đảm đại diện và nâng độ chính xác ước lượng.",
       "content": [
         {
           "type": "heading",
@@ -4080,13 +4280,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "統計調査において母集団をいくつかの層に分け、その各層からサンプルを選ぶ手法である。この方法は、各層の特性に基づいて調査を行うため、より正確で信頼性の高い結果を得ることが可能になる。例えば、音楽の好みを調査する際に、年齢や性別ごとに層を作り、各層からランダムにサンプルを抽出することで、偏りの少ないデータが得られる。また、層別抽出により、特定の層における分析が容易になり、情報の精度向上にも寄与する。これは、データ分析において非常に効果的な手法である。",
-          "vi": "Lấy mẫu phân tầng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "年齢層や地域など、調査項目に関係する基準で母集団を層に分け、各層内で無作為抽出する。層内を比較的均質にし、層間の違いを明確にすると、単純無作為抽出より精度が上がることがある。各層の母集団比率に合わせる比例配分と、小さい重要層を多めに選ぶ不比例配分があり、不比例配分では全体推定時に抽出確率に応じた重み付けが必要になる。",
+          "vi": "Tổng thể được chia theo tiêu chí liên quan như nhóm tuổi hoặc khu vực, rồi rút ngẫu nhiên trong từng tầng. Nếu mỗi tầng tương đối đồng nhất và khác biệt giữa các tầng rõ, độ chính xác có thể cao hơn lấy mẫu ngẫu nhiên đơn. Có phân bổ tỷ lệ theo quy mô tầng và phân bổ không tỷ lệ để lấy nhiều hơn ở tầng nhỏ nhưng quan trọng; trường hợp sau cần dùng trọng số theo xác suất chọn khi ước lượng toàn tổng thể."
         },
         {
           "type": "point",
-          "ja": "試験対策：「層別抽出」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Lấy mẫu phân tầng”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "層別抽出は「全ての層から」抽出する。母集団を集団に分け、一部の集団だけを選んでその中を調べる集落抽出とは異なる。",
+          "vi": "Lấy mẫu phân tầng rút từ mọi tầng. Nó khác lấy mẫu cụm, vốn chia thành các cụm rồi chỉ chọn một số cụm để khảo sát bên trong."
+        },
+        {
+          "type": "example",
+          "ja": "社員が営業600人、開発300人、管理100人なら、100人の比例標本として各層から60人、30人、10人を無作為抽出する。管理部門を30人抽出した場合は、全社推定で層ごとの抽出率を補正する。",
+          "vi": "Nếu công ty có 600 nhân viên kinh doanh, 300 phát triển và 100 quản trị, mẫu tỷ lệ 100 người sẽ rút ngẫu nhiên lần lượt 60, 30 và 10 người. Nếu cố ý lấy 30 người quản trị, khi ước lượng toàn công ty phải hiệu chỉnh theo tỷ lệ chọn của từng tầng."
+        },
+        {
+          "type": "warning",
+          "ja": "層の定義が重複又は欠落していたり、各層内で便宜抽出したりすると、層別しただけでは偏りを防げない。不比例配分の重みを無視すると全体推定が歪む。",
+          "vi": "Nếu định nghĩa tầng chồng lấn, bỏ sót hoặc chọn thuận tiện trong tầng, việc phân tầng không ngăn được sai lệch. Bỏ qua trọng số trong phân bổ không tỷ lệ sẽ làm méo ước lượng chung."
         }
       ],
       "terms": [
@@ -4094,8 +4304,8 @@
           "term": "層別抽出",
           "english": "Stratified Sampling",
           "vi": "Lấy mẫu phân tầng",
-          "definitionJa": "統計調査において母集団をいくつかの層に分け、その各層からサンプルを選ぶ手法である。",
-          "definitionVi": "Lấy mẫu phân tầng là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "母集団を互いに重ならない層に分け、各層から無作為に標本を抽出する方法。",
+          "definitionVi": "Phương pháp chia tổng thể thành các tầng không chồng lấn và rút mẫu ngẫu nhiên từ từng tầng.",
           "reading": "そうべつちゅうしゅつ"
         }
       ],
@@ -4193,8 +4403,8 @@
       "titleJa": "選択バイアス",
       "titleVi": "Sai lệch chọn mẫu",
       "importance": "high",
-      "summaryJa": "データ分析において、サンプルが特定の方法で選ばれることにより、結果が歪む現象を指す。",
-      "summaryVi": "Sai lệch chọn mẫu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "標本に入る仕組みが調査対象の特性と関係するため、標本が元の母集団を適切に代表せず、推定や結論が系統的に歪む現象である。",
+      "summaryVi": "Sai lệch chọn mẫu xảy ra khi cơ chế được đưa vào mẫu liên quan đến đặc tính nghiên cứu, khiến mẫu không đại diện đúng tổng thể nguồn và kết luận bị lệch có hệ thống.",
       "content": [
         {
           "type": "heading",
@@ -4203,13 +4413,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "データ分析において、サンプルが特定の方法で選ばれることにより、結果が歪む現象を指す。例えば、サンプルの選択方法が偏っている場合、実際の集団を代表しない結果を導き出してしまうことがある。例えば、健康に関する調査で、ジムに通う人だけをサンプリングすると、一般的な健康状態を正確に反映できない。そのため、選択バイアスを回避するためには、無作為抽出や統計的手法を用いてサンプルを選定することが重要である。正しい分析を行うためには、こうしたバイアスを意識してデータを扱う必要がある。",
-          "vi": "Sai lệch chọn mẫu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "対象者を選ぶ段階の不完全な抽出枠や便宜抽出だけでなく、参加意思による自己選択、属性によって異なる無回答、追跡途中の脱落でも生じる。標本数を増やすと偶然誤差は小さくなるが、同じ偏った仕組みで集め続けても系統的な偏りは消えない。対象母集団、抽出枠、選択確率、回答率を記録し、層別抽出、追跡、重み付けなどを設計・分析の両面で検討する。",
+          "vi": "Sai lệch có thể phát sinh từ khung chọn mẫu thiếu hoặc chọn thuận tiện, nhưng cũng từ tự nguyện tham gia, không phản hồi khác nhau theo đặc tính và mất theo dõi. Tăng cỡ mẫu giảm sai số ngẫu nhiên, song không xóa thiên lệch hệ thống nếu tiếp tục thu thập bằng cùng cơ chế lệch. Cần ghi rõ tổng thể đích, khung mẫu, xác suất chọn, tỷ lệ phản hồi và cân nhắc phân tầng, theo dõi lại hoặc trọng số trong thiết kế lẫn phân tích."
         },
         {
           "type": "point",
-          "ja": "試験対策：「選択バイアス」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Sai lệch chọn mẫu”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "選択バイアスは「誰がデータに入ったか」による系統誤差である。測定方法の誤りによる情報バイアスや、偶然の標本誤差とは区別する。",
+          "vi": "Sai lệch chọn mẫu là sai số hệ thống do “ai được đưa vào dữ liệu”. Cần phân biệt với sai lệch thông tin do đo lường và sai số lấy mẫu ngẫu nhiên."
+        },
+        {
+          "type": "example",
+          "ja": "全社員の在宅勤務満足度を社内SNSの任意アンケートだけで調べると、強い意見を持つ人やSNS利用者が回答しやすい。回答が1万人あっても、非利用者や無回答者と満足度が異なれば全社員の推定は偏る。",
+          "vi": "Nếu đo mức hài lòng làm việc tại nhà của toàn công ty chỉ bằng khảo sát tự nguyện trên mạng xã hội nội bộ, người có ý kiến mạnh và người thường dùng mạng dễ trả lời hơn. Dù có 10.000 phản hồi, ước lượng vẫn lệch nếu người không dùng hoặc không phản hồi có mức hài lòng khác."
+        },
+        {
+          "type": "warning",
+          "ja": "無作為に選んだ後でも無回答が属性と関係すれば選択バイアスは起こる。後から重み付けしても、選択機構に関する情報が不足すれば完全には補正できない。",
+          "vi": "Ngay cả sau khi rút ngẫu nhiên, không phản hồi có liên quan đến đặc tính vẫn gây sai lệch chọn mẫu. Trọng số hậu kỳ cũng không thể sửa hoàn toàn nếu thiếu thông tin về cơ chế được chọn hoặc phản hồi."
         }
       ],
       "terms": [
@@ -4217,8 +4437,8 @@
           "term": "選択バイアス",
           "english": "Selection Bias",
           "vi": "Sai lệch chọn mẫu",
-          "definitionJa": "データ分析において、サンプルが特定の方法で選ばれることにより、結果が歪む現象を指す。",
-          "definitionVi": "Sai lệch chọn mẫu là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "標本に入る仕組みによって標本が母集団を適切に代表せず、推定が系統的に歪むこと。",
+          "definitionVi": "Sai lệch hệ thống khi cơ chế đưa đối tượng vào mẫu khiến mẫu không đại diện thích hợp cho tổng thể nguồn.",
           "reading": "せんたくばいあす"
         }
       ],
@@ -4439,8 +4659,8 @@
       "titleJa": "確証バイアス",
       "titleVi": "Thiên kiến xác nhận",
       "importance": "high",
-      "summaryJa": "自分の信じていることや仮説に合った情報を優先的に選び、それに反する情報を無視または過小評価する心理的傾向である。",
-      "summaryVi": "Thiên kiến xác nhận là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+      "summaryJa": "既に持つ信念や仮説を支持する情報を探し、重く評価する一方、反証する情報を避けたり軽視したりする認知バイアスである。",
+      "summaryVi": "Thiên kiến xác nhận là xu hướng nhận thức tìm kiếm và đánh giá cao thông tin ủng hộ niềm tin hoặc giả thuyết sẵn có, đồng thời né tránh hay xem nhẹ bằng chứng phản bác.",
       "content": [
         {
           "type": "heading",
@@ -4449,13 +4669,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "自分の信じていることや仮説に合った情報を優先的に選び、それに反する情報を無視または過小評価する心理的傾向である。このバイアスは、データ分析や意思決定の過程において特に重要で、例えば、特定の結果を裏付けるデータばかりを重視することで、全体の状況を誤解するリスクが増大する。研究や調査においても影響を及ぼし、専門家や学者が自らの仮説を支持する証拠にのみ着目することによって、客観的な結論を導く妨げとなる。これを克服するためには、批判的思考を促進し、多様な視点からの評価が重要である。",
-          "vi": "Thiên kiến xác nhận là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự."
+          "ja": "情報を集める段階では賛成例だけを検索し、解釈段階では曖昧な結果を自説に有利に読み、記憶段階では支持例を思い出しやすくなる。その結果、データ分析、障害原因調査、投資判断などで代替仮説や反例を検討できず、誤った結論を強化する。対策として、分析前に仮説と評価指標・棄却条件を定め、反証例を積極的に探し、第三者レビューやブラインド評価を用いる。",
+          "vi": "Ở khâu thu thập, người ta chỉ tìm ví dụ đồng tình; ở khâu diễn giải, kết quả mơ hồ bị đọc theo hướng có lợi cho giả thuyết; ở khâu ghi nhớ, bằng chứng ủng hộ dễ được nhớ hơn. Vì vậy trong phân tích dữ liệu, điều tra sự cố hay quyết định đầu tư, giả thuyết thay thế và phản ví dụ có thể bị bỏ qua, khiến kết luận sai ngày càng được củng cố. Biện pháp gồm xác định trước giả thuyết, chỉ số và điều kiện bác bỏ; chủ động tìm bằng chứng phản chứng; dùng review độc lập hoặc đánh giá mù."
         },
         {
           "type": "point",
-          "ja": "試験対策：「確証バイアス」の目的・適用場面と類似用語との違いを押さえる。",
-          "vi": "Ôn FE: nhận biết khái niệm “Thiên kiến xác nhận”, mục đích sử dụng và phân biệt với thuật ngữ gần nghĩa."
+          "ja": "確証バイアスは分析対象の抽出方法による選択バイアスではなく、信念に合う証拠を選択的に集め・解釈する認知上の偏りである。",
+          "vi": "Thiên kiến xác nhận không phải selection bias do cách đưa đối tượng vào mẫu, mà là thiên lệch nhận thức khi chọn lọc và diễn giải bằng chứng phù hợp niềm tin."
+        },
+        {
+          "type": "example",
+          "ja": "「新画面は必ず使いやすい」と考える担当者が、満足した利用者の声だけを集め、離脱率の上昇や否定的意見を例外として無視すると、仮説を誤って維持する。成功基準を事前に決め、全利用者の指標と反対意見も調べる。",
+          "vi": "Người phụ trách tin “giao diện mới chắc chắn dễ dùng” chỉ thu thập ý kiến hài lòng, coi tỷ lệ bỏ dở tăng và phản hồi tiêu cực là ngoại lệ, nên duy trì giả thuyết sai. Cần định trước tiêu chí thành công và xem chỉ số của toàn bộ người dùng cùng ý kiến phản đối."
+        },
+        {
+          "type": "warning",
+          "ja": "単に多くのデータを集めても、検索条件や評価基準を仮説に合わせて変えれば偏りは残る。結論を見た後で都合のよい指標を選ぶことも避ける。",
+          "vi": "Thu thập nhiều dữ liệu vẫn không loại bỏ thiên lệch nếu điều kiện tìm kiếm hoặc tiêu chí đánh giá được đổi cho hợp giả thuyết. Cũng phải tránh chọn chỉ số thuận lợi sau khi đã thấy kết quả."
         }
       ],
       "terms": [
@@ -4463,8 +4693,8 @@
           "term": "確証バイアス",
           "english": "Confirmation Bias",
           "vi": "Thiên kiến xác nhận",
-          "definitionJa": "自分の信じていることや仮説に合った情報を優先的に選び、それに反する情報を無視または過小評価する心理的傾向である。",
-          "definitionVi": "Thiên kiến xác nhận là khái niệm trong phân tích nghiệp vụ và khai thác dữ liệu. Trong đề FE, cần nhận biết đặc điểm và tình huống áp dụng được nêu ở phần tiếng Nhật; tránh nhầm với các kỹ thuật có mục tiêu tương tự.",
+          "definitionJa": "既存の信念や仮説を支持する証拠を重視し、反証する証拠を探さない又は軽視する認知傾向。",
+          "definitionVi": "Xu hướng nhận thức coi trọng bằng chứng ủng hộ niềm tin sẵn có và không tìm kiếm hoặc xem nhẹ bằng chứng phản bác.",
           "reading": "かくしょうばいあす"
         }
       ],

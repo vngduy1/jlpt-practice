@@ -5,11 +5,11 @@
 ## Kết luận chính
 
 - Tổng số bài học logic: **2596** trong **96** chapter và **23** nhóm.
-- Phân loại cấu trúc: **A 559**, **B 2037**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
-- Thiếu block: point **36**, example **2115**, warning **2105**, terms **0**.
-- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **400** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
-- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **3** bài; có phần Việt lặp nguyên văn trong cùng bài: **1448** bài.
-- Có dấu hiệu nội dung khuôn mẫu/chung chung: **1841** bài; có trùng chính xác với bài khác: **195** bài.
+- Phân loại cấu trúc: **A 603**, **B 1993**, **C 0**. A chỉ có nghĩa là vượt qua heuristic cấu trúc; không phải xác nhận kiến thức đúng hoặc chất lượng cao.
+- Thiếu block: point **36**, example **2071**, warning **2061**, terms **0**.
+- Terms: **0** bài thiếu nhãn/định nghĩa Nhật–Việt; **391** bài thiếu ít nhất một field metadata bắt buộc (chủ yếu là `reading`).
+- Có ít nhất một trường tiếng Việt trống: **0** bài; có trường Việt nghi vẫn là tiếng Nhật: **3** bài; có phần Việt lặp nguyên văn trong cùng bài: **1425** bài.
+- Có dấu hiệu nội dung khuôn mẫu/chung chung: **1797** bài; có trùng chính xác với bài khác: **191** bài.
 - Phát hiện **0** lỗi cấu trúc file; đáng chú ý có **0** bài nằm trong mảng `lessons` bị lồng và không tương thích loader hiện tại.
 
 ## Bước 1 — Cấu trúc được hỗ trợ
@@ -45,9 +45,9 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 | データベース / Cơ sở dữ liệu | 18 | 7 | 11 | 0 | 3 | 11 | 5 | 0 | 0 | 0 |
 | ネットワーク / Mạng máy tính | 38 | 6 | 32 | 0 | 32 | 32 | 32 | 0 | 0 | 0 |
 | セキュリティ / Bảo mật | 149 | 30 | 119 | 0 | 0 | 119 | 119 | 0 | 0 | 0 |
-| システム開発技術 / Công nghệ phát triển hệ thống | 402 | 37 | 365 | 0 | 0 | 365 | 365 | 0 | 0 | 0 |
+| システム開発技術 / Công nghệ phát triển hệ thống | 402 | 48 | 354 | 0 | 0 | 354 | 354 | 0 | 0 | 0 |
 | ソフトウェア開発管理技術 / Công nghệ quản lý phát triển phần mềm | 90 | 15 | 75 | 0 | 0 | 75 | 75 | 0 | 0 | 0 |
-| プロジェクトマネジメント / Quản lý dự án | 167 | 0 | 167 | 0 | 0 | 167 | 167 | 0 | 0 | 0 |
+| プロジェクトマネジメント / Quản lý dự án | 167 | 10 | 157 | 0 | 0 | 157 | 157 | 0 | 0 | 0 |
 | サービスマネジメント / Quản lý dịch vụ | 179 | 45 | 134 | 0 | 0 | 134 | 134 | 0 | 0 | 0 |
 | システム監査 / Kiểm toán hệ thống | 67 | 23 | 44 | 0 | 0 | 44 | 44 | 0 | 0 | 0 |
 | システム戦略 / Chiến lược hệ thống | 97 | 0 | 97 | 0 | 0 | 97 | 97 | 0 | 0 | 0 |
@@ -55,7 +55,7 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 | 経営戦略マネジメント / Quản lý chiến lược kinh doanh | 116 | 25 | 91 | 0 | 0 | 91 | 91 | 0 | 0 | 1 |
 | 技術戦略マネジメント / Quản lý chiến lược công nghệ | 41 | 0 | 41 | 0 | 0 | 41 | 41 | 0 | 0 | 0 |
 | ビジネスインダストリ / Công nghiệp kinh doanh | 180 | 15 | 165 | 0 | 0 | 165 | 165 | 0 | 0 | 0 |
-| 企業活動 / Hoạt động doanh nghiệp | 247 | 15 | 232 | 0 | 0 | 232 | 232 | 0 | 0 | 0 |
+| 企業活動 / Hoạt động doanh nghiệp | 247 | 38 | 209 | 0 | 0 | 209 | 209 | 0 | 0 | 0 |
 | 法務 / Pháp vụ | 268 | 45 | 223 | 0 | 0 | 223 | 223 | 0 | 0 | 2 |
 
 ## Trường hợp không nên thêm block chỉ để đủ cấu trúc
@@ -64,15 +64,15 @@ Script kiểm tra schema, độ hiện diện của block, trường rỗng/ng�
 - Không bắt buộc tách `example` thành block riêng nếu paragraph/point đã có ví dụ cụ thể, đúng và đủ nổi bật; script đánh dấu `embeddedExample` để biên tập viên quyết định.
 - Không nhân bản summary vào point hay definition chỉ để có đủ field. Point phải chốt mẹo làm bài/quan hệ phân biệt; term definition phải định nghĩa thuật ngữ độc lập.
 - Không thêm heading vào bài rất ngắn chỉ để tăng block; trước tiên cần xác định bài có nên gộp với bài liên quan hay cần mở rộng nội dung.
-- Hiện có **1664** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
-- Hiện có **1451** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
+- Hiện có **1649** bài thiếu warning nhưng không có tín hiệu tự động cho thấy warning phù hợp; đây là các trường hợp không nên thêm hàng loạt.
+- Hiện có **1414** bài không có block example nhưng có ví dụ cụ thể trong prose; cần review khả năng đọc, không chuyển block máy móc.
 
 ## Kế hoạch nâng cấp ưu tiên
 
 1. **P0 — Khôi phục khả năng dùng dữ liệu (0 bài):** xử lý bài C, trường bắt buộc trống, nội dung Việt trống và lỗi mảng lessons bị lồng. Đây là lỗi dữ liệu/runtime, không chỉ là biên tập.
-2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (815 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
+2. **P1 — Bài quan trọng và thiếu thành phần cốt lõi (771 bài):** ưu tiên importance=high, thiếu point/terms, bản Việt có vấn đề, nội dung ngắn hoặc khuôn mẫu rõ.
 3. **P2 — Nâng chiều sâu (1222 bài):** bổ sung ví dụ thực sự có giá trị, thay point chung chung, tách nội dung lặp và cân nhắc warning theo ngữ cảnh.
-4. **P3 — Review chuyên môn cho A (559 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
+4. **P3 — Review chuyên môn cho A (603 bài):** lấy mẫu theo từng nhóm, đối chiếu syllabus/đề FE, kiểm tra thuật ngữ Nhật–Việt và độ chính xác; không mặc định A là “đạt chất lượng cao”.
 
 ## Lỗi cấu trúc file
 
@@ -495,7 +495,7 @@ Cần nâng cấp: **119** (B 119, C 0).
 
 ### 12-system-development-technology — システム開発技術 / Công nghệ phát triển hệ thống
 
-Cần nâng cấp: **365** (B 365, C 0).
+Cần nâng cấp: **354** (B 354, C 0).
 
 - **B/P2** 利用の状況 / Tình huống sử dụng — `system-software-requirements/usage-scenario` — khuôn mẫu/lặp
 - **B/P2** 運用シナリオ / Kịch bản vận hành — `system-software-requirements/operational-scenario` — cần cân nhắc warning, khuôn mẫu/lặp
@@ -723,14 +723,9 @@ Cần nâng cấp: **365** (B 365, C 0).
 - **B/P2** 文書化手法 / Phương pháp lập tài liệu — `design/documentation-technique` — khuôn mẫu/lặp
 - **B/P2** ウォークスルー / Walkthrough — `design/walkthrough` — schema, khuôn mẫu/lặp
 - **B/P2** 共同レビュー / Đánh giá chung — `design/peer-review-2` — khuôn mẫu/lặp
-- **B/P1** コーディング / Lập trình mã nguồn — `implementation-build/coding` — schema, ngắn, khuôn mẫu/lặp
-- **B/P1** プログラム言語 / Ngôn ngữ lập trình — `implementation-build/programming-language` — ngắn, khuôn mẫu/lặp
-- **B/P1** アルゴリズム / Thuật toán — `implementation-build/algorithm` — schema, khuôn mẫu/lặp
 - **B/P2** データ処理 / Xử lý dữ liệu — `implementation-build/data-processing` — khuôn mẫu/lặp
 - **B/P2** データベース / Cơ sở dữ liệu — `implementation-build/database` — schema, thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** 構造化プログラミング / Lập trình có cấu trúc — `implementation-build/structured-programming` — ngắn, khuôn mẫu/lặp
 - **B/P2** モジュール仕様 / Đặc tả mô-đun — `implementation-build/module-specification` — khuôn mẫu/lặp
-- **B/P1** 追跡可能性 / Khả năng truy vết — `implementation-build/traceability` — khuôn mẫu/lặp
 - **B/P2** 外部一貫性 / Tính nhất quán bên ngoài — `implementation-build/external-consistency` — khuôn mẫu/lặp
 - **B/P2** 内部一貫性 / Tính nhất quán nội bộ — `implementation-build/internal-consistency` — khuôn mẫu/lặp
 - **B/P2** コーディング方法及び作業標準の適切性 / Suitability of Coding Methods and Work Standards — `implementation-build/suitability-of-coding-methods-and-work-standards` — khuôn mẫu/lặp
@@ -763,12 +758,6 @@ Cần nâng cấp: **365** (B 365, C 0).
 - **B/P2** テストデータジェネレーター / Trình tạo dữ liệu kiểm thử — `implementation-build/test-data-generator` — schema, khuôn mẫu/lặp
 - **B/P2** テスト設計と管理手法 / Kỹ thuật thiết kế và quản lý kiểm thử — `implementation-build/test-design-and-management-techniques` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** メトリクス計測 / Đo lường chỉ số — `implementation-build/measurement-metrics-2` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 条件網羅 / Bao phủ điều kiện — `implementation-build/condition-coverage` — khuôn mẫu/lặp
-- **B/P1** 判定条件網羅 / Bao phủ quyết định — `implementation-build/decision-coverage` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 複数条件網羅 / Bao phủ đa điều kiện — `implementation-build/multiple-condition-coverage` — khuôn mẫu/lặp
-- **B/P1** 限界値分析法 / Phân tích giá trị biên — `implementation-build/boundary-value-analysis` — ngắn, khuôn mẫu/lặp
-- **B/P1** 同値分析法 / Phân hoạch tương đương — `implementation-build/equivalence-partitioning` — khuôn mẫu/lặp
-- **B/P1** 原因結果グラフ法 / Phương pháp đồ thị nhân quả — `implementation-build/cause-effect-graphing` — ngắn, khuôn mẫu/lặp
 - **B/P2** エラー埋込法 / Phương pháp cài lỗi — `implementation-build/error-embedding-method` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
 - **B/P2** 実験計画法 / Thiết kế thực nghiệm — `implementation-build/design-of-experiments` — khuôn mẫu/lặp
 - **B/P1** テスト要件 / Yêu cầu kiểm thử — `integration-testing/test-requirements` — khuôn mẫu/lặp
@@ -945,22 +934,12 @@ Cần nâng cấp: **75** (B 75, C 0).
 
 ### 14-project-management — プロジェクトマネジメント / Quản lý dự án
 
-Cần nâng cấp: **167** (B 167, C 0).
+Cần nâng cấp: **157** (B 157, C 0).
 
-- **B/P1** プロジェクト / Dự án — `project-management/project` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** プロジェクトマネジメント / Quản lý dự án — `project-management/project-management` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** プロジェクトの環境 / Môi trường dự án — `project-management/project-environment` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** プロジェクトライフサイクル / Vòng đời dự án — `project-management/project-life-cycle` — thiếu ví dụ, khuôn mẫu/lặp
-- **B/P1** プロジェクトの制約 / Các ràng buộc của dự án — `project-management/project-constraints` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** テーラリング / Tailoring — `project-management/tailoring` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P1** JIS Q 21500 / JIS Q 21500 — `project-management/jis-q-21500` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P1** PMBOK / PMBOK — `project-management/project-management-body-of-knowledge` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** コンピテンシー / Năng lực (Competency) — `project-management/competency` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 立ち上げのプロセス群 / Nhóm quy trình khởi động — `project-management/initiating-process-group` — khuôn mẫu/lặp
-- **B/P1** 計画のプロセス群 / Nhóm quy trình lập kế hoạch — `project-management/planning-process-group` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 実行のプロセス群 / Nhóm quy trình thực thi — `project-management/execution-process-group` — khuôn mẫu/lặp
-- **B/P1** 管理のプロセス群 / Các nhóm quy trình quản lý dự án — `project-management/project-management-process-groups` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 終結のプロセス群 / Nhóm quy trình kết thúc — `project-management/closing-process-group` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 統合の対象群 / Nhóm đối tượng tích hợp — `project-management/integration-management` — thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** ステークホルダの対象群 / Nhóm đối tượng các bên liên quan — `project-management/stakeholder-group` — khuôn mẫu/lặp
 - **B/P2** スコープの対象群 / Nhóm đối tượng phạm vi — `project-management/scope-of-project-management-knowledge-areas` — khuôn mẫu/lặp
@@ -972,7 +951,7 @@ Cần nâng cấp: **167** (B 167, C 0).
 - **B/P2** 調達の対象群 / Nhóm đối tượng mua sắm — `project-management/procurement-target-group` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** コミュニケーションの対象群 / Nhóm đối tượng truyền thông — `project-management/communication-target-group` — khuôn mẫu/lặp
 - **B/P1** プロジェクトスポンサー / Nhà tài trợ dự án — `project-management/project-sponsor` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** プロジェクトマネージャ / Quản lý dự án — `project-management/project-manager` — cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
+- **B/P1** プロジェクトマネージャ / Quản lý dự án — `project-management/project-manager` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** プロジェクトマネジメントチーム / Nhóm quản lý dự án — `project-management/project-management-team` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P1** プロジェクトチーム / Nhóm dự án — `project-management/project-team` — khuôn mẫu/lặp
 - **B/P1** PMO / PMO — `project-management/project-management-office` — khuôn mẫu/lặp
@@ -1769,7 +1748,7 @@ Cần nâng cấp: **165** (B 165, C 0).
 
 ### 22-corporate-activities — 企業活動 / Hoạt động doanh nghiệp
 
-Cần nâng cấp: **232** (B 232, C 0).
+Cần nâng cấp: **209** (B 209, C 0).
 
 - **B/P2** 企業理念 / Triết lý doanh nghiệp — `management-organization-theory/corporate-philosophy` — ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P1** 企業の社会的責任 / Trách nhiệm xã hội của doanh nghiệp (CSR) — `management-organization-theory/csr` — ngắn, khuôn mẫu/lặp
@@ -1837,23 +1816,17 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** カーボントレーシング / Theo dõi phát thải carbon — `management-organization-theory/carbon-tracking` — schema, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 国家戦略特別区域法 / Luật khu vực đặc biệt chiến lược quốc gia — `management-organization-theory/national-strategic-special-zones-act` — khuôn mẫu/lặp, trùng bài khác
 - **B/P2** スーパーシティ構想 / Đề án siêu đô thị (Super City) — `management-organization-theory/super-city-concept` — khuôn mẫu/lặp, trùng bài khác
-- **B/P1** 線形計画法 / Quy hoạch tuyến tính — `business-analysis-data-utilization/linear-programming` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** シンプレックス法 / Phương pháp đơn hình — `business-analysis-data-utilization/simplex-method` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 配分問題 / Bài toán phân bổ nguồn lực — `business-analysis-data-utilization/allocation-problem` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 輸送問題 / Bài toán vận tải — `business-analysis-data-utilization/transportation-problem` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** 安全在庫 / Tồn kho an toàn — `business-analysis-data-utilization/safety-stock` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** EOQ / Lượng đặt hàng kinh tế (EOQ) — `business-analysis-data-utilization/economic-ordering-quantity` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 発注点 / Điểm đặt hàng lại — `business-analysis-data-utilization/reorder-point` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 日程計画 / Lập lịch công việc — `business-analysis-data-utilization/scheduling` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** アローダイアグラム / Sơ đồ mũi tên — `business-analysis-data-utilization/arrow-diagram` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** クリティカルパス / Đường găng — `business-analysis-data-utilization/critical-path` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ゼロ和2人ゲーム / Trò chơi hai người tổng bằng không — `business-analysis-data-utilization/zero-sum-two-person-game` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** マクシミン原理 / Nguyên lý maximin — `business-analysis-data-utilization/maximin-principle` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** デシジョンツリー / Cây quyết định — `business-analysis-data-utilization/decision-tree` — schema, cần cân nhắc warning, ngắn, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** 作業時間分析法 / Phương pháp phân tích thời gian thao tác — `business-analysis-data-utilization/work-measurement-techniques` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** PTS法 / Phương pháp thời gian định trước (PTS) — `business-analysis-data-utilization/predetermined-time-standard` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ワークサンプリング法 / Phương pháp lấy mẫu công việc — `business-analysis-data-utilization/work-sampling` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** サーブリック / Therblig – các động tác cơ bản trong nghiên cứu thao tác — `business-analysis-data-utilization/servitization` — schema, thiếu ví dụ, khuôn mẫu/lặp
 - **B/P2** 作業分析 / Phân tích thao tác công việc — `business-analysis-data-utilization/work-analysis` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 稼働分析 / Phân tích mức độ hoạt động — `business-analysis-data-utilization/operational-analysis` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** OC曲線 / Đường cong đặc tính hoạt động (OC) — `business-analysis-data-utilization/operating-characteristic` — thiếu ví dụ, ngắn, khuôn mẫu/lặp
@@ -1864,12 +1837,7 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** 不良率推定 / Ước lượng tỷ lệ sản phẩm lỗi — `business-analysis-data-utilization/defective-rate-estimation` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 時系列分析 / Phân tích chuỗi thời gian — `business-analysis-data-utilization/time-series-analysis` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 層別管理 / Phân tầng dữ liệu để phân tích — `business-analysis-data-utilization/stratified-management` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** ヒストグラム / Biểu đồ tần suất — `business-analysis-data-utilization/histogram` — schema, thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** パレート図 / Biểu đồ Pareto — `business-analysis-data-utilization/pareto-chart` — thiếu ví dụ, cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** 散布図 / Biểu đồ phân tán — `business-analysis-data-utilization/scatter-diagram` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** 特性要因図 / Biểu đồ nhân quả (xương cá) — `business-analysis-data-utilization/cause-and-effect-diagram` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** チェックシート / Phiếu kiểm tra — `business-analysis-data-utilization/check-sheet` — schema, cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** 管理図 / Biểu đồ kiểm soát — `business-analysis-data-utilization/control-chart` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 親和図法 / Phương pháp biểu đồ tương đồng — `business-analysis-data-utilization/affinity-diagram` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 連関図法 / Phương pháp biểu đồ quan hệ — `business-analysis-data-utilization/relationship-diagram-method` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 系統図法 / Phương pháp sơ đồ cây hệ thống — `business-analysis-data-utilization/cause-and-effect-diagram-2` — thiếu ví dụ, khuôn mẫu/lặp
@@ -1877,12 +1845,9 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** マトリックスデータ解析法 / Phương pháp phân tích dữ liệu ma trận — `business-analysis-data-utilization/matrix-data-analysis-method` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** PDPC / Biểu đồ chương trình quyết định quá trình (PDPC) — `business-analysis-data-utilization/process-decision-program-chart` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** アローダイアグラム法 / Phương pháp sơ đồ mũi tên — `business-analysis-data-utilization/arrow-diagram-method-40` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 最小二乗法 / Phương pháp bình phương tối thiểu — `business-analysis-data-utilization/least-squares-method` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 相関係数 / Hệ số tương quan — `business-analysis-data-utilization/correlation-coefficient` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** 移動平均法 / Phương pháp trung bình trượt — `business-analysis-data-utilization/moving-average-method` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** パレート分析 / Phân tích Pareto — `business-analysis-data-utilization/pareto-analysis` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** フォーカスグループ / Nhóm thảo luận tập trung — `business-analysis-data-utilization/focus-group` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** データマイニング / Khai phá dữ liệu — `business-analysis-data-utilization/data-mining-46` — schema, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** ブレーンストーミング / Động não tập thể — `business-analysis-data-utilization/brainstorming` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ブレーンライティング / Viết ý tưởng tập thể — `business-analysis-data-utilization/brainwriting` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** レーダーチャート / Biểu đồ radar — `business-analysis-data-utilization/radar-chart-49` — schema, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
@@ -1908,21 +1873,16 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** クロスセクションデータ / Dữ liệu cắt ngang — `business-analysis-data-utilization/cross-sectional-data` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** Webクローリング / Thu thập dữ liệu web tự động (crawling) — `business-analysis-data-utilization/web-crawling` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** スクレイピング / Trích xuất dữ liệu từ trang web (scraping) — `business-analysis-data-utilization/web-scraping` — schema, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** データレイク / Hồ dữ liệu (data lake) — `business-analysis-data-utilization/data-lake` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** データのサイロ化 / Tình trạng dữ liệu bị cô lập — `business-analysis-data-utilization/data-silos` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** データ結合 / Kết hợp dữ liệu — `business-analysis-data-utilization/data-join` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 名寄せ / Đối soát và hợp nhất bản ghi — `business-analysis-data-utilization/deduplication` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 外れ値・異常値・欠損値の処理 / Xử lý ngoại lệ, bất thường và giá trị thiếu — `business-analysis-data-utilization/handling-of-outliers-anomalies-and-missing-values` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 標準化 / Chuẩn hóa dữ liệu — `business-analysis-data-utilization/standardization` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
 - **B/P2** アノテーション / Gán nhãn dữ liệu — `business-analysis-data-utilization/annotation` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 季節調整 / Điều chỉnh yếu tố mùa vụ — `business-analysis-data-utilization/seasonal-adjustment` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 移動平均 / Trung bình trượt — `business-analysis-data-utilization/moving-average` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 周期性 / Tính chu kỳ — `business-analysis-data-utilization/periodicity` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** BI / Trí tuệ kinh doanh (BI) — `business-analysis-data-utilization/business-intelligence` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** データマイニング / Khai phá dữ liệu — `business-analysis-data-utilization/data-mining-2-83` — schema, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác
 - **B/P2** テキストマイニング / Khai phá văn bản — `business-analysis-data-utilization/text-mining` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** アソシエーション分析 / Phân tích luật kết hợp — `business-analysis-data-utilization/association-analysis` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** ビッグデータ / Dữ liệu lớn — `business-analysis-data-utilization/big-data` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** オープンデータ / Dữ liệu mở — `business-analysis-data-utilization/open-data` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** パーソナルデータ / Dữ liệu cá nhân — `business-analysis-data-utilization/personal-data` — schema, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** データサイエンスのサイクル / Chu trình khoa học dữ liệu — `business-analysis-data-utilization/data-science-cycle` — schema, thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
@@ -1935,17 +1895,13 @@ Cần nâng cấp: **232** (B 232, C 0).
 - **B/P2** 国勢調査 / Điều tra dân số — `business-analysis-data-utilization/census` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** アンケート調査 / Khảo sát bằng bảng hỏi — `business-analysis-data-utilization/survey-research` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 全数調査 / Điều tra toàn bộ — `business-analysis-data-utilization/census-survey` — thiếu ví dụ, cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** 単純無作為抽出 / Lấy mẫu ngẫu nhiên đơn — `business-analysis-data-utilization/simple-random-sampling` — cần cân nhắc warning, ngắn, khuôn mẫu/lặp
-- **B/P1** 層別抽出 / Lấy mẫu phân tầng — `business-analysis-data-utilization/stratified-sampling` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 多段抽出 / Lấy mẫu nhiều giai đoạn — `business-analysis-data-utilization/multistage-sampling` — thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 精度と偏り / Độ chính xác và độ chệch — `business-analysis-data-utilization/precision-and-bias` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 選択バイアス / Sai lệch chọn mẫu — `business-analysis-data-utilization/selection-bias` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 情報バイアス / Sai lệch thông tin — `business-analysis-data-utilization/information-bias` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 交絡バイアス / Sai lệch do yếu tố gây nhiễu — `business-analysis-data-utilization/confounding-bias` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** ハロー効果 / Hiệu ứng hào quang — `business-analysis-data-utilization/halo-effect` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** バンドワゴン効果 / Hiệu ứng đám đông — `business-analysis-data-utilization/bandwagon-effect` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 正常性バイアス / Thiên kiến bình thường hóa — `business-analysis-data-utilization/normalcy-bias` — cần cân nhắc warning, khuôn mẫu/lặp
-- **B/P1** 確証バイアス / Thiên kiến xác nhận — `business-analysis-data-utilization/confirmation-bias` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 棒グラフ / Biểu đồ cột — `business-analysis-data-utilization/bar-graph` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 折れ線グラフ / Biểu đồ đường — `business-analysis-data-utilization/line-graph` — cần cân nhắc warning, khuôn mẫu/lặp
 - **B/P2** 箱ひげ図 / Biểu đồ hộp và râu — `business-analysis-data-utilization/box-plot` — cần cân nhắc warning, khuôn mẫu/lặp

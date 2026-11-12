@@ -11,8 +11,8 @@
       "titleJa": "プロジェクト",
       "titleVi": "Dự án",
       "importance": "high",
-      "summaryJa": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。",
-      "summaryVi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "独自の製品、サービス又は成果を生み出すために実施される、明確な開始と終了を持つ一時的な取組である。",
+      "summaryVi": "Dự án là nỗ lực tạm thời có điểm bắt đầu và kết thúc rõ ràng, được thực hiện để tạo ra sản phẩm, dịch vụ hoặc kết quả mang tính độc nhất.",
       "content": [
         {
           "type": "heading",
@@ -21,13 +21,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。一時的なものであり、完了すると通常は終了する。たとえば、新製品の開発やイベントの企画などがプロジェクトの例である。プロジェクトマネジメントは、これらのプロジェクトを計画、実行、監視、制御する手法や知識の体系であり、目標達成のために必要なスケジュール管理やリソース配分を行う。効果的なプロジェクトマネジメントにより、課題解決やリスク管理が適切に行われ、チームの協力を最大化することができる。これにより、質の高い成果物をタイムリーに提供することが可能となる。",
-          "vi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Dự án có mục tiêu riêng, ngày bắt đầu và kết thúc, đồng thời tạo ra sản phẩm, dịch vụ hoặc kết quả mang tính độc nhất."
+          "ja": "一時的とは期間が短いという意味ではなく、目的達成、打切りなどによって終了条件があることを意味する。成果物は完全に新規でなくても、既存システムの特定顧客向け改修のように固有の条件を持てば独自性がある。定型手順を反復して同じサービスを継続提供する運用業務とは区別されるが、プロジェクト成果が運用へ引き渡され、長期間利用されることはある。",
+          "vi": "“Tạm thời” không có nghĩa là thời gian ngắn, mà là có điều kiện kết thúc khi đạt mục tiêu hoặc bị chấm dứt. Sản phẩm không cần hoàn toàn mới; một lần cải tiến hệ thống cho khách hàng cụ thể vẫn độc nhất do điều kiện riêng. Dự án khác hoạt động vận hành lặp lại để cung cấp liên tục cùng dịch vụ, dù sản phẩm dự án có thể được bàn giao cho vận hành và sử dụng lâu dài."
         },
         {
           "type": "point",
-          "ja": "FEでは「プロジェクト」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Dự án và vai trò của thuật ngữ này trong quản lý dự án."
+          "ja": "FEでは「一時的」と「独自の成果」が識別点である。日常的な保守受付の反復は運用だが、受付システムを刷新する期限付き活動はプロジェクトになり得る。",
+          "vi": "Trong FE, hai dấu hiệu là “tạm thời” và “kết quả độc nhất”. Tiếp nhận bảo trì lặp lại là vận hành; hoạt động có thời hạn để thay mới hệ thống tiếp nhận có thể là dự án."
+        },
+        {
+          "type": "example",
+          "ja": "会社が6か月で新しい勤怠システムを導入し、全拠点へ移行して旧システムを停止する取組はプロジェクトである。導入後に毎月行うアカウント登録や問合せ対応は継続的な運用である。",
+          "vi": "Việc triển khai hệ thống chấm công mới trong 6 tháng, chuyển toàn bộ cơ sở và ngừng hệ thống cũ là dự án. Đăng ký tài khoản và hỗ trợ hằng tháng sau triển khai là vận hành liên tục."
+        },
+        {
+          "type": "warning",
+          "ja": "成果物が長く使われることと、プロジェクト自体が恒久的であることを混同しない。また、同種の案件を繰り返しても、各案件に固有の目的と終了があれば個別プロジェクトである。",
+          "vi": "Không nhầm việc sản phẩm được dùng lâu với dự án tồn tại vĩnh viễn. Dù lặp nhiều dự án cùng loại, mỗi dự án vẫn riêng nếu có mục tiêu và điểm kết thúc riêng."
         }
       ],
       "terms": [
@@ -36,8 +46,8 @@
           "reading": "ぷろじぇくと",
           "english": "Project",
           "vi": "Dự án",
-          "definitionJa": "特定の目的を達成するために、期限、予算、リソースが定められた一連の作業や活動を指す。",
-          "definitionVi": "Dự án: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "独自の製品、サービス又は成果を生み出すための一時的な取組。",
+        "definitionVi": "Nỗ lực tạm thời nhằm tạo ra một sản phẩm, dịch vụ hoặc kết quả độc nhất."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Project"]
@@ -48,8 +58,8 @@
       "titleJa": "プロジェクトマネジメント",
       "titleVi": "Quản lý dự án",
       "importance": "high",
-      "summaryJa": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。",
-      "summaryVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "プロジェクトの目的を達成するため、知識、技能、方法、資源を統合して計画・実行・監視・統制・終結する活動である。",
+      "summaryVi": "Quản lý dự án là việc tích hợp kiến thức, kỹ năng, phương pháp và nguồn lực để lập kế hoạch, thực hiện, giám sát–kiểm soát và kết thúc dự án nhằm đạt mục tiêu.",
       "content": [
         {
           "type": "heading",
@@ -58,13 +68,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。プロジェクトは、一時的な活動であり、明確な開始と終了が存在し、特定の成果物を生み出すことを目指す。プロジェクトマネジメントでは、リソースの管理やスケジュールの調整、リスクの評価が重要であり、これにより効率的にプロジェクトを進行させることが可能となる。例えば、ソフトウェア開発や建設プロジェクトなど、さまざまな分野で応用されており、成功するプロジェクトを実現するために必須のスキルが求められる。このように、プロジェクトマネジメントは限られた時間と資源を最適に活用し、プロジェクトの成功を確保する役割を果たしている。",
-          "vi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Quản lý dự án áp dụng phương pháp, công cụ, kỹ thuật và năng lực để cân bằng phạm vi, thời gian, chi phí, chất lượng và các ràng buộc khác."
+          "ja": "目的と成功基準を明確にし、スコープ、スケジュール、コスト、品質、資源、リスク、調達、コミュニケーション、ステークホルダなどを相互に整合させる。計画どおりに進めるだけでなく、実績を測定して差異と予測を確認し、必要な変更を正式に評価・承認して計画を更新する。採用するデリバリーアプローチは、予測型、反復型、適応型、ハイブリッドなどプロジェクトに応じて選ぶ。",
+          "vi": "Cần làm rõ mục tiêu và tiêu chí thành công, đồng thời đồng bộ phạm vi, lịch, chi phí, chất lượng, nguồn lực, rủi ro, mua sắm, truyền thông và bên liên quan. Không chỉ làm theo kế hoạch: phải đo thực tế, xem sai lệch và dự báo, đánh giá–phê duyệt thay đổi chính thức rồi cập nhật kế hoạch. Cách triển khai có thể dự đoán, lặp, thích ứng hoặc kết hợp tùy dự án."
         },
         {
           "type": "point",
-          "ja": "FEでは「プロジェクトマネジメント」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
+          "ja": "個別領域を別々に最適化せず、変更が他の制約やステークホルダへ与える影響を統合的に管理することが重要である。",
+          "vi": "Điểm quan trọng là quản lý tích hợp tác động của thay đổi lên các ràng buộc và bên liên quan, không tối ưu riêng lẻ từng lĩnh vực."
+        },
+        {
+          "type": "example",
+          "ja": "納期短縮要求に対し、追加要員の費用、品質リスク、対象機能の削減、調達期間を比較し、スポンサー承認後にスケジュールと予算のベースラインを更新する。",
+          "vi": "Khi có yêu cầu rút ngắn thời hạn, nhóm so sánh chi phí thêm người, rủi ro chất lượng, giảm chức năng và thời gian mua sắm; sau phê duyệt của sponsor mới cập nhật đường cơ sở lịch và ngân sách."
+        },
+        {
+          "type": "warning",
+          "ja": "文書を作ること自体が目的ではない。統制を省略した場当たり的運営も、価値を生まない過剰な手続も避け、必要な管理をテーラリングする。",
+          "vi": "Tạo tài liệu không phải mục tiêu tự thân. Cần tránh cả điều hành tùy tiện thiếu kiểm soát lẫn thủ tục quá mức không tạo giá trị, và tailoring mức quản lý cần thiết."
         }
       ],
       "terms": [
@@ -73,8 +93,8 @@
           "reading": "ぷろじぇくとまねじめんと",
           "english": "Project Management",
           "vi": "Quản lý dự án",
-          "definitionJa": "特定の目的を達成するために、一連の活動を計画、実行、監視するプロセスである。",
-          "definitionVi": "Quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクト目標の達成に向け、知識、技能、方法及び資源を統合して適用する活動。",
+        "definitionVi": "Hoạt động tích hợp và áp dụng kiến thức, kỹ năng, phương pháp cùng nguồn lực để đạt mục tiêu dự án."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Project Management"]
@@ -122,8 +142,8 @@
       "titleJa": "プロジェクトライフサイクル",
       "titleVi": "Vòng đời dự án",
       "importance": "high",
-      "summaryJa": "プロジェクトが開始されてから終了するまでの一連の過程を指す。",
-      "summaryVi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "プロジェクトの開始から終了までを、成果物や意思決定点に応じて論理的なフェーズへ分けた枠組みである。",
+      "summaryVi": "Vòng đời dự án là khung chia khoảng thời gian từ khởi đầu đến kết thúc dự án thành các pha logic theo sản phẩm bàn giao hoặc điểm ra quyết định.",
       "content": [
         {
           "type": "heading",
@@ -132,13 +152,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトが開始されてから終了するまでの一連の過程を指す。一般的に、計画、実行、監視、完了の4つの主要なフェーズから成り立っている。初めに、プロジェクトの目標や範囲を定義し、必要なリソースを計画する。次に、その計画に基づいて実行し、進捗状況を監視することで問題を早期に発見し修正する。そして、プロジェクトの成果を確認し、正式に完了させる。このライフサイクルによって、プロジェクトの進行状況が把握しやすくなり、より効率的なマネジメントが可能となる。プロジェクトマネジメントの手法を活用することで、成功する可能性がさらに高まる。",
-          "vi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Vòng đời chia dự án thành các pha từ khởi đầu đến kết thúc; khác với vòng đời sản phẩm có thể tiếp tục sau khi dự án hoàn tất."
+          "ja": "各フェーズは関連する活動をまとめ、成果物の完成、レビュー、継続可否の判断などで区切られる。フェーズ名と数は、建設、製品開発、ソフトウェアなど成果物と採用アプローチによって異なり、順次型だけでなく反復・増分型もある。立ち上げ、計画、実行、監視・コントロール、終結というプロセス群は管理活動の分類であり、プロジェクトフェーズと同じものではない。",
+          "vi": "Mỗi pha nhóm các hoạt động liên quan và được phân cách bằng việc hoàn thành sản phẩm bàn giao, review hoặc quyết định tiếp tục. Tên và số pha tùy sản phẩm và cách triển khai như xây dựng, phát triển sản phẩm, phần mềm; có thể tuần tự, lặp hoặc tăng dần. Các nhóm quy trình khởi động, lập kế hoạch, thực hiện, giám sát–kiểm soát và kết thúc là cách phân loại hoạt động quản lý, không đồng nhất với pha dự án."
         },
         {
           "type": "point",
-          "ja": "FEでは「プロジェクトライフサイクル」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Vòng đời dự án và vai trò của thuật ngữ này trong quản lý dự án."
+          "ja": "プロジェクトライフサイクル、プロセス群、製品ライフサイクルを区別する。製品はプロジェクト終了後も運用、成長、廃止まで続くことがある。",
+          "vi": "Cần phân biệt vòng đời dự án, nhóm quy trình và vòng đời sản phẩm. Sản phẩm có thể tiếp tục vận hành, tăng trưởng rồi ngừng sử dụng sau khi dự án đã kết thúc."
+        },
+        {
+          "type": "example",
+          "ja": "システム導入を「構想・要件」「設計・構築」「移行・受入」「終結」に分け、各フェーズ末で成果物と次段階への移行条件を確認する。各フェーズ内でも計画や監視は行う。",
+          "vi": "Chia dự án triển khai hệ thống thành “ý tưởng–yêu cầu”, “thiết kế–xây dựng”, “chuyển đổi–nghiệm thu”, “kết thúc”; cuối mỗi pha kiểm tra sản phẩm và điều kiện sang pha sau. Trong từng pha vẫn có lập kế hoạch và giám sát."
+        },
+        {
+          "type": "warning",
+          "ja": "全プロジェクトが固定の4フェーズを順番に一度だけ通るとは限らない。また、プロセス群をそのままライフサイクルのフェーズ名として暗記しない。",
+          "vi": "Không phải mọi dự án đều đi đúng bốn pha cố định một lần theo thứ tự. Không học thuộc nhóm quy trình như thể đó chính là tên các pha vòng đời."
         }
       ],
       "terms": [
@@ -147,8 +177,8 @@
           "reading": "ぷろじぇくとらいふさいくる",
           "english": "Project Life Cycle",
           "vi": "Vòng đời dự án",
-          "definitionJa": "プロジェクトが開始されてから終了するまでの一連の過程を指す。",
-          "definitionVi": "Vòng đời dự án: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクトの開始から終了までを論理的なフェーズへ分けた枠組み。",
+        "definitionVi": "Khung chia dự án từ khởi đầu đến kết thúc thành các pha logic."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Project Life Cycle"]
@@ -159,8 +189,8 @@
       "titleJa": "プロジェクトの制約",
       "titleVi": "Các ràng buộc của dự án",
       "importance": "high",
-      "summaryJa": "プロジェクトを遂行する上での制限や条件のことを指す。",
-      "summaryVi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "プロジェクトチームが選べる計画や解決策を制限する条件であり、スコープ、期間、コスト、品質、資源、リスクなどが相互に影響する。",
+      "summaryVi": "Ràng buộc dự án là các điều kiện giới hạn phương án của nhóm; phạm vi, thời gian, chi phí, chất lượng, nguồn lực và rủi ro tác động lẫn nhau.",
       "content": [
         {
           "type": "heading",
@@ -169,13 +199,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトを遂行する上での制限や条件のことを指す。一般的に、コスト、時間、品質の3つの要素が主要な制約とされており、これを「プロジェクトの三角形」と呼ぶこともある。例えば、納期が厳しい場合は、コストを増やすことで質を維持することが求められることもある。このように、これらの制約は互いに影響し合い、一つを変更すると他の要素にもその影響が及ぶため、プロジェクトマネジメントではこれらをバランスよく管理することが重要である。成功するプロジェクトを実現するためには、これらの制約を理解し、適切に対処することが求められる。",
-          "vi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Các ràng buộc liên hệ lẫn nhau, nên thay đổi phạm vi hoặc chất lượng thường tác động đến lịch trình, chi phí, nguồn lực và rủi ro."
+          "ja": "代表的な三角形はスコープ、時間、コストで、品質はそのバランスの影響を受けると説明されることが多い。実務では利用可能な人員、法令、技術、契約、リスク許容度なども制約になる。制約には「予算上限」のように守るべき境界と、相互調整できる要素がある。変更要求を受けたら、一要素だけでなく成果、便益、他の制約への影響を分析して意思決定する。",
+          "vi": "Tam giác điển hình gồm phạm vi, thời gian và chi phí; chất lượng thường được giải thích là chịu tác động từ cách cân bằng ba yếu tố. Trong thực tế, nhân lực sẵn có, pháp luật, công nghệ, hợp đồng và mức chấp nhận rủi ro cũng là ràng buộc. Có ranh giới bắt buộc như trần ngân sách và có yếu tố có thể thương lượng. Khi nhận thay đổi, phải phân tích tác động lên kết quả, lợi ích và mọi ràng buộc liên quan."
         },
         {
           "type": "point",
-          "ja": "FEでは「プロジェクトの制約」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Các ràng buộc của dự án và vai trò của thuật ngữ này trong quản lý dự án."
+          "ja": "納期短縮は、スコープ削減、追加コスト、資源変更、品質・リスクへの影響を伴い得る。「時間だけを変えて他は不変」とは限らない。",
+          "vi": "Rút ngắn thời hạn có thể đòi giảm phạm vi, tăng chi phí, đổi nguồn lực hoặc ảnh hưởng chất lượng và rủi ro; không thể mặc định chỉ thời gian thay đổi."
+        },
+        {
+          "type": "example",
+          "ja": "リリースを2週間早める場合、低優先機能を次版へ送る、追加要員を投入する、テスト範囲を変えず自動化するなどを比較し、費用とリスクを含めて承認を得る。",
+          "vi": "Nếu phát hành sớm hai tuần, so sánh chuyển chức năng ưu tiên thấp sang bản sau, bổ sung nhân lực hoặc tự động hóa mà không giảm phạm vi kiểm thử; xin phê duyệt cùng chi phí và rủi ro."
+        },
+        {
+          "type": "warning",
+          "ja": "「安く・早く・高品質」を根拠なく同時要求すると、隠れた残業、技術的負債、未報告のスコープ削減が生じる。優先順位と許容範囲を明示する。",
+          "vi": "Đòi đồng thời rẻ, nhanh và chất lượng cao mà không có cơ sở dễ tạo làm thêm ẩn, nợ kỹ thuật hoặc cắt phạm vi không báo cáo. Phải công khai ưu tiên và biên độ chấp nhận."
         }
       ],
       "terms": [
@@ -184,8 +224,8 @@
           "reading": "ぷろじぇくとのせいやく",
           "english": "Project Constraints",
           "vi": "Các ràng buộc của dự án",
-          "definitionJa": "プロジェクトを遂行する上での制限や条件のことを指す。",
-          "definitionVi": "Các ràng buộc của dự án: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクトの計画又は解決策の選択肢を制限する条件。",
+        "definitionVi": "Điều kiện giới hạn các lựa chọn trong kế hoạch hoặc giải pháp của dự án."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Project Constraints"]
@@ -196,8 +236,8 @@
       "titleJa": "テーラリング",
       "titleVi": "Tailoring",
       "importance": "high",
-      "summaryJa": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。",
-      "summaryVi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "組織の基準や方法を、プロジェクトの目的、規模、複雑性、リスク、デリバリーアプローチに合わせて意図的に選択・調整することである。",
+      "summaryVi": "Tailoring là việc có chủ đích lựa chọn và điều chỉnh tiêu chuẩn, phương pháp của tổ chức theo mục tiêu, quy mô, độ phức tạp, rủi ro và cách triển khai dự án.",
       "content": [
         {
           "type": "heading",
@@ -206,13 +246,23 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。具体的には、特定のプロジェクトに最適な方法を選び出し、適切な手続きをカスタマイズすることで、効率的かつ効果的にプロジェクトを進めることが可能となる。たとえば、スモールビジネスのプロジェクトでは、大規模なプロジェクトに必要な複雑な手法を省略して簡略化したアプローチを取ることが多い。このように、テーラリングを行うことにより、プロジェクトが持つ独自の要件に応じた柔軟なマネジメントが実現され、リソースの無駄を減らし、成功する確率を高めることができる。",
-          "vi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Tailoring lựa chọn và điều chỉnh quy trình, tài liệu cùng mức kiểm soát theo quy mô, độ phức tạp, rủi ro và cách thức triển khai của dự án."
+          "ja": "適用するライフサイクル、プロセス、役割、成果物、レビュー、文書の詳細度、ツールを選び、追加・修正・簡素化する。判断材料には法令・契約、ステークホルダ、チーム経験、技術の新規性、変更頻度、失敗時の影響がある。調整理由と残す統制を合意・記録し、実行中も有効性を見直す。テーラリングは基準を無視することではなく、価値とリスクに見合う管理を設計することである。",
+          "vi": "Nhóm chọn vòng đời, quy trình, vai trò, sản phẩm quản lý, review, mức chi tiết tài liệu và công cụ; có thể thêm, sửa hoặc giản lược. Căn cứ gồm pháp luật–hợp đồng, bên liên quan, kinh nghiệm nhóm, độ mới công nghệ, tần suất thay đổi và hậu quả thất bại. Lý do điều chỉnh cùng các kiểm soát giữ lại phải được thống nhất, ghi nhận và xem xét lại trong khi thực hiện. Tailoring không phải bỏ qua tiêu chuẩn mà là thiết kế mức quản lý tương xứng giá trị và rủi ro."
         },
         {
           "type": "point",
-          "ja": "FEでは「テーラリング」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Tailoring và vai trò của thuật ngữ này trong quản lý dự án."
+          "ja": "規模が小さいから全て簡略化するのではない。小規模でも安全・法令リスクが高ければ厳格なレビューや証跡が必要になる。",
+          "vi": "Không phải dự án nhỏ thì giản lược mọi thứ. Dự án nhỏ nhưng rủi ro an toàn hoặc pháp lý cao vẫn cần review nghiêm ngặt và bằng chứng đầy đủ."
+        },
+        {
+          "type": "example",
+          "ja": "社内向け低リスクツールでは週次報告を短いダッシュボードにし、変更承認をチーム内で行う。一方、決済機能では規模が同じでも職務分離、セキュリティレビュー、承認記録を残す。",
+          "vi": "Với công cụ nội bộ rủi ro thấp, báo cáo tuần có thể là dashboard ngắn và thay đổi được duyệt trong nhóm. Với chức năng thanh toán cùng quy mô, vẫn giữ phân tách nhiệm vụ, review bảo mật và hồ sơ phê duyệt."
+        },
+        {
+          "type": "warning",
+          "ja": "納期を理由にテスト、変更管理、法令上必要な承認を無断で省くことはテーラリングではない。必須条件とリスク受容権限を確認する。",
+          "vi": "Tự ý bỏ kiểm thử, quản lý thay đổi hoặc phê duyệt bắt buộc vì gấp tiến độ không phải tailoring. Phải xác định yêu cầu bắt buộc và thẩm quyền chấp nhận rủi ro."
         }
       ],
       "terms": [
@@ -221,8 +271,8 @@
           "reading": "てーらりんぐ",
           "english": "Tailoring",
           "vi": "Tailoring",
-          "definitionJa": "プロジェクトの特性や目的に応じて、プロジェクトマネジメントの手法やプロセスを調整することを指す。",
-          "definitionVi": "Tailoring: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクトの状況に合わせ、管理方法、プロセス、成果物及び統制を意図的に選択・調整すること。",
+        "definitionVi": "Việc có chủ đích lựa chọn và điều chỉnh phương pháp, quy trình, sản phẩm quản lý cùng kiểm soát theo bối cảnh dự án."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Tailoring"]
@@ -348,8 +398,8 @@
       "titleJa": "立ち上げのプロセス群",
       "titleVi": "Nhóm quy trình khởi động",
       "importance": "high",
-      "summaryJa": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。",
-      "summaryVi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "新しいプロジェクト又はフェーズを定義し、開始する正式な承認を得るためのプロセス群である。",
+      "summaryVi": "Nhóm quy trình khởi động xác định dự án hoặc pha mới và đạt được sự phê duyệt chính thức để bắt đầu.",
       "content": [
         {
           "type": "heading",
@@ -358,14 +408,16 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。このプロセス群は、プロジェクトの目的や範囲を明確にし、ステークホルダーの特定やプロジェクト憲章の作成を含む。例えば、新しい製品の開発を始める際に、どのようなニーズがあるのか、誰がその利益を享受するのかを判断することが重要である。この段階でのしっかりとした計画が、その後のプロジェクトの進行に大きく影響を与えるため、非常に重要とされている。立ち上げのプロセス群が適切に実行されることで、プロジェクト全体の成功率が高まる。",
-          "vi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Nhóm này xác lập lý do, mục tiêu cấp cao, thẩm quyền và các bên liên quan chính để chính thức bắt đầu dự án hoặc pha."
+          "ja": "ビジネス上の必要性、期待する便益、目的、高位レベルのスコープと制約を確認し、主要ステークホルダを特定する。プロジェクト憲章などによってスポンサーがプロジェクトを承認し、プロジェクトマネージャに組織資源を使用する権限を与える。詳細な作業方法や日程を作る計画プロセス群とは異なり、まず「なぜ行うか」「誰が承認するか」を明確にする。",
+          "vi": "Nhóm xác nhận nhu cầu kinh doanh, lợi ích mong đợi, mục tiêu, phạm vi cấp cao và ràng buộc, đồng thời nhận diện các bên liên quan chính. Sponsor phê duyệt dự án và trao quyền dùng nguồn lực tổ chức cho project manager qua project charter hoặc tài liệu tương đương. Khác nhóm lập kế hoạch chi tiết công việc và lịch, khởi động trước hết làm rõ “vì sao làm” và “ai phê duyệt”."
         },
         {
           "type": "point",
-          "ja": "FEでは「立ち上げのプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình khởi động và vai trò của thuật ngữ này trong quản lý dự án."
-        }
+          "ja": "FEでは、プロジェクト又はフェーズの正式な承認、憲章、主要ステークホルダの特定を結び付ける。",
+          "vi": "Trong FE, gắn nhóm khởi động với phê duyệt chính thức dự án/pha, project charter và nhận diện bên liên quan chính."
+        },
+        {"type":"example","ja":"顧客ポータル刷新では、スポンサーが目的、予算上限、完了目標、PMの権限を憲章で承認し、顧客部門、運用部門、セキュリティ部門を主要ステークホルダとして特定する。","vi":"Với dự án đổi mới cổng khách hàng, sponsor phê duyệt trong charter mục tiêu, trần ngân sách, mốc hoàn thành và quyền của PM; đồng thời xác định bộ phận khách hàng, vận hành và bảo mật là bên liên quan chính."},
+        {"type":"warning","ja":"立ち上げは詳細計画の作成ではない。承認や目的が曖昧なまま作業を始めると、権限、資金、成功基準を巡る問題が後から顕在化する。","vi":"Khởi động không phải lập kế hoạch chi tiết. Bắt tay làm khi phê duyệt hoặc mục tiêu còn mơ hồ sẽ làm phát sinh vấn đề về thẩm quyền, tài chính và tiêu chí thành công."}
       ],
       "terms": [
         {
@@ -373,8 +425,8 @@
           "reading": "たちあげのぷろせすぐん",
           "english": "Initiating Process Group",
           "vi": "Nhóm quy trình khởi động",
-          "definitionJa": "プロジェクトマネジメントにおける五つのプロセス群の一つであり、プロジェクトの開始を計画するための一連の手続きである。",
-          "definitionVi": "Nhóm quy trình khởi động: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクト又はフェーズを定義し、開始の正式な承認を得るプロセス群。",
+        "definitionVi": "Nhóm quy trình xác định dự án hoặc pha và đạt phê duyệt chính thức để bắt đầu."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Initiating Process Group"]
@@ -385,8 +437,8 @@
       "titleJa": "計画のプロセス群",
       "titleVi": "Nhóm quy trình lập kế hoạch",
       "importance": "high",
-      "summaryJa": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。",
-      "summaryVi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "目標達成のためのスコープを具体化し、実行・監視・統制の基準となる統合的な計画を作成するプロセス群である。",
+      "summaryVi": "Nhóm lập kế hoạch cụ thể hóa phạm vi và xây dựng kế hoạch tích hợp làm cơ sở thực hiện, giám sát và kiểm soát dự án.",
       "content": [
         {
           "type": "heading",
@@ -395,14 +447,16 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。このプロセス群は、プロジェクトの目標を設定し、必要なリソースや期間、コスト、リスクなどを評価することで、成功に向けた道筋を描く役割を果たす。具体的には、スコープの定義やスケジュール作成、予算の計画、リスク管理計画などが含まれる。これにより、プロジェクトチームが効果的に仕事を進められるようになり、成果物の品質を確保するための基盤が築かれる。プロジェクトが進行する過程においても重要であり、必要に応じて計画の見直しや変更が行われることが求められる。",
-          "vi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Nhóm lập kế hoạch xác định cách đạt mục tiêu, bao gồm phạm vi, lịch trình, chi phí, nguồn lực, rủi ro, chất lượng và truyền thông."
+          "ja": "要求と成果物を明確にし、WBS、アクティビティ、依存関係、所要期間、資源、予算、品質基準、リスク対応、調達、コミュニケーションなどを相互に整合させる。承認されたスコープ・スケジュール・コストのベースラインは実績比較の基準になる。計画は一度作って固定するものではなく、情報の具体化や承認済み変更に応じて段階的に詳細化・更新する。",
+          "vi": "Nhóm làm rõ yêu cầu và sản phẩm bàn giao, đồng bộ WBS, hoạt động, phụ thuộc, thời lượng, nguồn lực, ngân sách, tiêu chí chất lượng, ứng phó rủi ro, mua sắm và truyền thông. Đường cơ sở phạm vi–lịch–chi phí đã duyệt dùng để so sánh thực tế. Kế hoạch không đóng băng sau một lần lập mà được chi tiết hóa dần và cập nhật theo thông tin mới hoặc thay đổi đã phê duyệt."
         },
         {
           "type": "point",
-          "ja": "FEでは「計画のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình lập kế hoạch và vai trò của thuật ngữ này trong quản lý dự án."
-        }
+          "ja": "FEではWBS、スケジュール、予算、リスク対応及び各種マネジメント計画を関連付け、ベースラインと単なる見込みを区別する。",
+          "vi": "Trong FE, liên hệ nhóm này với WBS, lịch, ngân sách, ứng phó rủi ro và các kế hoạch quản lý; phân biệt đường cơ sở đã duyệt với dự báo thông thường."
+        },
+        {"type":"example","ja":"要件をWBSへ分解し、作業順序と期間から日程を作り、担当者と費用を割り当て、主要リスクの回避・軽減策と受入基準を計画へ統合する。","vi":"Phân rã yêu cầu thành WBS, lập lịch từ thứ tự và thời lượng công việc, phân công người và chi phí, rồi tích hợp biện pháp tránh/giảm rủi ro cùng tiêu chí nghiệm thu vào kế hoạch."},
+        {"type":"warning","ja":"各担当が別々に作った計画の合計は統合計画にならない。資源競合、依存関係、前提条件の不整合を確認し、承認なしにベースラインを書き換えない。","vi":"Cộng các kế hoạch riêng lẻ chưa tạo thành kế hoạch tích hợp. Phải kiểm tra xung đột nguồn lực, quan hệ phụ thuộc và giả định không nhất quán; không sửa đường cơ sở khi chưa phê duyệt."}
       ],
       "terms": [
         {
@@ -410,8 +464,8 @@
           "reading": "けいかくのぷろせすぐん",
           "english": "Planning Process Group",
           "vi": "Nhóm quy trình lập kế hoạch",
-          "definitionJa": "プロジェクトマネジメントにおいてプロジェクトの計画を立てるための一連の活動や手順を指す。",
-          "definitionVi": "Nhóm quy trình lập kế hoạch: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "目標達成方法を具体化し、実行と統制の基準となる統合計画を作成するプロセス群。",
+        "definitionVi": "Nhóm quy trình cụ thể hóa cách đạt mục tiêu và tạo kế hoạch tích hợp làm cơ sở thực hiện, kiểm soát."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Planning Process Group"]
@@ -422,8 +476,8 @@
       "titleJa": "実行のプロセス群",
       "titleVi": "Nhóm quy trình thực thi",
       "importance": "high",
-      "summaryJa": "プロジェクトマネジメントにおける五つのプロセス群の一つである。",
-      "summaryVi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "承認されたプロジェクトマネジメント計画に従って人と資源を統合し、計画した作業を実施して成果物を作るプロセス群である。",
+      "summaryVi": "Nhóm thực thi tích hợp con người và nguồn lực để thực hiện công việc trong kế hoạch đã duyệt và tạo ra sản phẩm bàn giao.",
       "content": [
         {
           "type": "heading",
@@ -432,23 +486,25 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトマネジメントにおける五つのプロセス群の一つである。このプロセス群は、プロジェクトの計画や準備段階で設定した目標を達成するために実際の活動を行うことに集中している。プロジェクトチームは、タスクを遂行し、成果物を生み出すことを目的としており、資源の管理や進捗の確認も重要な役割を果たす。例えば、システムの開発プロジェクトでは、コーディングやテストを実行し、完成品を市場に出すまでのプロセスが含まれる。また、プロジェクトの進行状況を評価し、必要に応じて計画の修正を行うフィードバックの役割も担っている。",
-          "vi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Nhóm thực hiện huy động con người và nguồn lực để tiến hành công việc đã lập kế hoạch và tạo ra các sản phẩm bàn giao."
+          "ja": "チームを編成・育成し、作業を指揮し、品質を作り込み、コミュニケーション、調達、ステークホルダとの協働、承認済み変更の実装を進める。作業実績データ、課題、変更要求などを生み、管理のプロセス群へ渡す。進捗を計画と比較して是正の要否を判断することは主に管理側の役割であり、実行と管理は並行して相互作用する。",
+          "vi": "Nhóm hình thành và phát triển đội, chỉ đạo công việc, tạo chất lượng trong sản phẩm, thực hiện truyền thông, mua sắm, phối hợp bên liên quan và triển khai thay đổi đã duyệt. Nó tạo dữ liệu thực hiện, vấn đề và yêu cầu thay đổi để chuyển cho nhóm kiểm soát. Việc so sánh tiến độ với kế hoạch và quyết định khắc phục chủ yếu thuộc nhóm quản lý; thực thi và kiểm soát diễn ra song song, tương tác liên tục."
         },
         {
           "type": "point",
-          "ja": "FEでは「実行のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình thực thi và vai trò của thuật ngữ này trong quản lý dự án."
-        }
+          "ja": "計画した作業を行い成果物を作るのが実行、実績を測定して差異を扱うのが管理、という役割差を押さえる。",
+          "vi": "Cần phân biệt: thực thi làm công việc và tạo sản phẩm; kiểm soát đo kết quả và xử lý sai lệch."
+        },
+        {"type":"example","ja":"開発チームが設計、実装、テストを行い、品質保証活動を実施し、承認済み仕様変更を反映する。実績工数と完成状況は管理プロセスへ報告する。","vi":"Nhóm phát triển thiết kế, lập trình, kiểm thử, thực hiện bảo đảm chất lượng và áp dụng thay đổi đặc tả đã duyệt. Giờ công thực tế và mức hoàn thành được báo cáo cho nhóm kiểm soát."},
+        {"type":"warning","ja":"現場で必要に見えた変更でも、承認前に勝手に実装するとスコープ、費用、品質の統制が崩れる。定めた変更管理を通す。","vi":"Dù thay đổi có vẻ cần thiết tại hiện trường, tự ý triển khai trước phê duyệt sẽ phá kiểm soát phạm vi, chi phí và chất lượng. Phải đi qua quy trình thay đổi."}
       ],
       "terms": [
         {
           "term": "実行のプロセス群",
           "reading": "じっこうのぷろせすぐん",
-          "english": "Implementing Process Group",
+        "english": "Executing Process Group",
           "vi": "Nhóm quy trình thực thi",
-          "definitionJa": "プロジェクトマネジメントにおける五つのプロセス群の一つである。",
-          "definitionVi": "Nhóm quy trình thực thi: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "計画に従って人と資源を統合し、作業を実施して成果物を作るプロセス群。",
+        "definitionVi": "Nhóm quy trình tích hợp con người và nguồn lực, thực hiện kế hoạch và tạo sản phẩm bàn giao."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Execution Process Group"]
@@ -459,8 +515,8 @@
       "titleJa": "管理のプロセス群",
       "titleVi": "Các nhóm quy trình quản lý dự án",
       "importance": "high",
-      "summaryJa": "プロジェクトマネジメントにおいて実施される基本的なプロセスの集合を指す。",
-      "summaryVi": "Các nhóm quy trình quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "プロジェクトの実績を計画と比較して進捗・性能を監視し、差異、リスク、変更を統制する管理のプロセス群である。",
+      "summaryVi": "Đây là nhóm quy trình giám sát và kiểm soát: so sánh kết quả với kế hoạch, theo dõi tiến độ–hiệu suất và kiểm soát sai lệch, rủi ro, thay đổi.",
       "content": [
         {
           "type": "heading",
@@ -469,14 +525,16 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトマネジメントにおいて実施される基本的なプロセスの集合を指す。主に「立ち上げ」「計画」「実行」「監視・コントロール」「終結」の五つのプロセス群から構成されている。これらは、プロジェクトを効果的に推進するためのフレームワークとして機能し、各プロセスは相互に関連している。例えば、立ち上げフェーズではプロジェクトの目的を定義し、その後の計画フェーズで具体的な活動を計画する。実行フェーズでは計画に基づいて作業を進め、監視・コントロールフェーズで進捗をチェックし、必要に応じて調整を行う。最後に、終結フェーズでプロジェクトの成果を整理し、完了させる。これにより、プロジェクトの成功を確実にすることができる。",
-          "vi": "Các nhóm quy trình quản lý dự án: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Nhóm quản lý đo lường kết quả so với kế hoạch, xử lý sai lệch, rủi ro và yêu cầu thay đổi để duy trì kiểm soát."
+          "ja": "スコープ、スケジュール、コスト、品質などの実績をベースラインや許容範囲と比較し、原因と完了予測を分析する。リスクを監視し、成果物を検証し、変更要求の全体影響を評価して承認・却下を行い、必要な是正処置・予防処置を指示する。単に状況を報告するだけでなく、承認済み計画を維持しつつ目標達成へ戻すフィードバック機能を持つ。",
+          "vi": "Nhóm so sánh thực tế phạm vi, lịch, chi phí và chất lượng với đường cơ sở cùng ngưỡng cho phép, phân tích nguyên nhân và dự báo hoàn thành. Nó theo dõi rủi ro, xác minh sản phẩm, đánh giá tác động tổng thể của yêu cầu thay đổi để duyệt hoặc từ chối, rồi chỉ đạo hành động khắc phục/phòng ngừa. Không chỉ báo cáo trạng thái, nhóm tạo vòng phản hồi để đưa dự án về mục tiêu và giữ tính toàn vẹn kế hoạch đã duyệt."
         },
         {
           "type": "point",
-          "ja": "FEでは「管理のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Các nhóm quy trình quản lý dự án và vai trò của thuật ngữ này trong quản lý dự án."
-        }
+          "ja": "このlessonの「管理」は五群全体ではなくControlling Process Groupを指す。実績測定、差異分析、変更管理、是正処置を結び付ける。",
+          "vi": "Trong lesson này, “quản lý” chỉ Controlling Process Group, không phải toàn bộ năm nhóm. Hãy liên hệ với đo thực tế, phân tích sai lệch, kiểm soát thay đổi và hành động khắc phục."
+        },
+        {"type":"example","ja":"予定50%に対し完成35%、費用60%なら、遅延と超過の原因、完了予測を分析する。機能削減案は影響評価と承認を経てからベースラインへ反映する。","vi":"Nếu kế hoạch đạt 50% nhưng thực tế hoàn thành 35% và đã dùng 60% chi phí, cần phân tích nguyên nhân, dự báo hoàn thành. Đề xuất giảm chức năng chỉ được phản ánh vào baseline sau đánh giá tác động và phê duyệt."},
+        {"type":"warning","ja":"差異を隠すために実績値やベースラインを無断で変更してはならない。承認済み変更と単なる計画未達を区別する。","vi":"Không được tự sửa số thực tế hoặc baseline để che sai lệch. Phải phân biệt thay đổi đã duyệt với việc không đạt kế hoạch."}
       ],
       "terms": [
         {
@@ -500,8 +558,8 @@
       "titleJa": "終結のプロセス群",
       "titleVi": "Nhóm quy trình kết thúc",
       "importance": "high",
-      "summaryJa": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。",
-      "summaryVi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án.",
+      "summaryJa": "プロジェクト又はフェーズを正式に完了し、成果物の受入れ、引渡し、契約・記録・資源の終結を行うプロセス群である。",
+      "summaryVi": "Nhóm kết thúc chính thức hoàn tất dự án hoặc pha, xác nhận nghiệm thu–bàn giao và đóng hợp đồng, hồ sơ cùng nguồn lực.",
       "content": [
         {
           "type": "heading",
@@ -510,14 +568,16 @@
         },
         {
           "type": "paragraph",
-          "ja": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。このプロセス群は、プロジェクトの成果が期待通りであるかを確認し、関係者に報告を行い、必要な文書を整理することが重要である。具体的には、プロジェクトの閉鎖作業、契約の完了、最終報告書の作成などが含まれ、これによりプロジェクトが円滑に終了する。経験の蓄積や教訓の整理にも寄与し、今後のプロジェクトに活かすための貴重な資料となる。",
-          "vi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án; nội dung nguồn mô tả vai trò, đặc điểm hoặc hoạt động liên quan trong việc lập kế hoạch, thực hiện và kiểm soát dự án. Nhóm kết thúc xác nhận chấp nhận, hoàn tất hợp đồng và hồ sơ, bàn giao kết quả, giải phóng nguồn lực và ghi nhận bài học."
+          "ja": "受入基準を満たした成果物について顧客又はスポンサーの正式な受入れを得て、運用組織へ引き渡す。未解決事項を処理し、調達契約を閉じ、最終実績を報告し、記録と教訓を組織の資産として保管し、チームと資源を解放する。正常完了だけでなく中止されたプロジェクトでも、中止理由、途中成果、契約、記録を整理して正式に終結する必要がある。",
+          "vi": "Với sản phẩm đạt tiêu chí nghiệm thu, cần có chấp nhận chính thức của khách hàng hoặc sponsor rồi bàn giao cho vận hành. Nhóm xử lý việc còn lại, đóng hợp đồng mua sắm, báo cáo kết quả cuối, lưu hồ sơ và bài học thành tài sản tổ chức, giải phóng đội cùng nguồn lực. Dự án bị hủy cũng cần kết thúc chính thức, ghi lý do, xử lý sản phẩm dở dang, hợp đồng và hồ sơ."
         },
         {
           "type": "point",
-          "ja": "FEでは「終結のプロセス群」の意味と、プロジェクトマネジメントにおける役割を整理して覚える。",
-          "vi": "Khi ôn FE, cần nắm ý nghĩa của Nhóm quy trình kết thúc và vai trò của thuật ngữ này trong quản lý dự án."
-        }
+          "ja": "成果物を作り終えただけでは終結ではない。正式受入れ、引渡し、契約終結、教訓・記録、資源解放までを押さえる。",
+          "vi": "Làm xong sản phẩm chưa phải kết thúc. Cần nhớ nghiệm thu chính thức, bàn giao, đóng hợp đồng, lưu bài học–hồ sơ và giải phóng nguồn lực."
+        },
+        {"type":"example","ja":"新システムの受入署名を得て運用部門へ移管し、供給者への最終支払と契約終了を確認する。実績、障害、改善点を記録し、メンバーを次の業務へ解放する。","vi":"Nhận chữ ký nghiệm thu hệ thống mới, chuyển cho bộ phận vận hành, xác nhận thanh toán cuối và đóng hợp đồng nhà cung cấp. Lưu kết quả, sự cố, điểm cải tiến rồi giải phóng thành viên sang công việc khác."},
+        {"type":"warning","ja":"教訓を終結時に初めて思い出そうとすると情報が失われる。プロジェクト中から収集し、終結で整理・共有する。また、未受入れのまま一方的に完了扱いしない。","vi":"Nếu đến lúc kết thúc mới cố nhớ bài học, nhiều thông tin đã mất. Hãy thu thập trong suốt dự án rồi hệ thống hóa, chia sẻ khi kết thúc; không đơn phương coi là hoàn thành khi chưa nghiệm thu."}
       ],
       "terms": [
         {
@@ -525,8 +585,8 @@
           "reading": "しゅうけつのぷろせすぐん",
           "english": "Closing Process Group",
           "vi": "Nhóm quy trình kết thúc",
-          "definitionJa": "プロジェクトマネジメントにおいて、プロジェクトやプロジェクトの成果物を正式に完了させるための一連の活動を指す。",
-          "definitionVi": "Nhóm quy trình kết thúc: thuật ngữ thuộc lĩnh vực quản lý dự án."
+        "definitionJa": "プロジェクト又はフェーズを正式に完了し、受入れ、引渡し及び管理上の終結を行うプロセス群。",
+        "definitionVi": "Nhóm quy trình chính thức hoàn tất dự án hoặc pha, thực hiện nghiệm thu, bàn giao và đóng quản trị."
         }
       ],
       "tags": ["14-1", "プロジェクトマネジメント", "Closing Process Group"]

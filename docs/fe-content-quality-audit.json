@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T08:14:48.000Z",
+  "generatedAt": "2026-11-12T07:06:11.243Z",
   "scope": {
     "requestedRoot": "exams/fe/theory/",
     "sourceRoot": "data/fe/theory",
@@ -59,32 +59,32 @@
     "chapterFiles": 96,
     "categories": 23,
     "grades": {
-      "A": 559,
-      "B": 2037,
+      "A": 603,
+      "B": 1993,
       "C": 0
     },
     "priorities": {
       "P0": 0,
-      "P1": 815,
+      "P1": 771,
       "P2": 1222,
-      "P3": 559
+      "P3": 603
     },
     "missing": {
       "point": 36,
-      "example": 2115,
-      "warning": 2105,
+      "example": 2071,
+      "warning": 2061,
       "terms": 0
     },
     "lessonsWithEmptyVietnamese": 0,
     "lessonsWithVietnameseLanguageMismatch": 3,
-    "lessonsWithRepeatedVietnamese": 1448,
+    "lessonsWithRepeatedVietnamese": 1425,
     "lessonsWithIncompleteBilingualTermDefinitions": 0,
-    "lessonsWithIncompleteTermMetadata": 400,
-    "lessonsWithGenericSignals": 1841,
-    "lessonsWithCrossLessonDuplicates": 195,
+    "lessonsWithIncompleteTermMetadata": 391,
+    "lessonsWithGenericSignals": 1797,
+    "lessonsWithCrossLessonDuplicates": 191,
     "nestedLessons": 0,
-    "lessonsWithoutWarningAndNoReviewSignal": 1664,
-    "lessonsWithEmbeddedExampleButNoExampleBlock": 1451
+    "lessonsWithoutWarningAndNoReviewSignal": 1649,
+    "lessonsWithEmbeddedExampleButNoExampleBlock": 1414
   },
   "structuralIssues": [],
   "doNotForceBlocks": [
@@ -5551,23 +5551,6 @@
             "indexPath": "lessons[80]"
           }
         ]
-      },
-      {
-        "count": 2,
-        "lessons": [
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[45]"
-          },
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[82]"
-          }
-        ]
       }
     ],
     "duplicateSummaryVi": [
@@ -5829,23 +5812,6 @@
             "titleJa": "テスト準備",
             "sourcePath": "data/fe/theory/12-system-development-technology/04-integration-testing.json",
             "indexPath": "lessons[29]"
-          }
-        ]
-      },
-      {
-        "count": 2,
-        "lessons": [
-          {
-            "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[1]",
-            "titleJa": "プロジェクトマネジメント",
-            "sourcePath": "data/fe/theory/14-project-management/01-project-management.json",
-            "indexPath": "lessons[1]"
-          },
-          {
-            "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[25]",
-            "titleJa": "プロジェクトマネージャ",
-            "sourcePath": "data/fe/theory/14-project-management/01-project-management.json",
-            "indexPath": "lessons[25]"
           }
         ]
       },
@@ -6747,23 +6713,6 @@
             "titleJa": "決定木",
             "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
             "indexPath": "lessons[52]"
-          }
-        ]
-      },
-      {
-        "count": 2,
-        "lessons": [
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[45]"
-          },
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[82]"
           }
         ]
       },
@@ -8371,23 +8320,6 @@
         "count": 2,
         "lessons": [
           {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[45]"
-          },
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[82]"
-          }
-        ]
-      },
-      {
-        "count": 2,
-        "lessons": [
-          {
             "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[48]",
             "titleJa": "レーダーチャート",
             "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
@@ -8978,23 +8910,6 @@
             "titleJa": "決定木",
             "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
             "indexPath": "lessons[52]"
-          }
-        ]
-      },
-      {
-        "count": 2,
-        "lessons": [
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[45]"
-          },
-          {
-            "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]",
-            "titleJa": "データマイニング",
-            "sourcePath": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
-            "indexPath": "lessons[82]"
           }
         ]
       },
@@ -13003,28 +12918,28 @@
       "statistics": {
         "total": 402,
         "grades": {
-          "A": 37,
-          "B": 365,
+          "A": 48,
+          "B": 354,
           "C": 0
         },
         "priorities": {
           "P0": 0,
-          "P1": 79,
+          "P1": 68,
           "P2": 286,
-          "P3": 37
+          "P3": 48
         },
         "missing": {
           "point": 0,
-          "example": 365,
-          "warning": 365,
+          "example": 354,
+          "warning": 354,
           "terms": 0
         },
         "lessonsWithEmptyVietnamese": 0,
         "lessonsWithVietnameseLanguageMismatch": 0,
         "lessonsWithRepeatedVietnamese": 270,
         "lessonsWithIncompleteBilingualTermDefinitions": 0,
-        "lessonsWithIncompleteTermMetadata": 77,
-        "lessonsWithGenericSignals": 365,
+        "lessonsWithIncompleteTermMetadata": 75,
+        "lessonsWithGenericSignals": 354,
         "lessonsWithCrossLessonDuplicates": 51
       },
       "upgradeLessons": [
@@ -15289,36 +15204,6 @@
           "summaryReasons": "khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[0]",
-          "id": "coding",
-          "chapterId": "implementation-build",
-          "titleJa": "コーディング",
-          "titleVi": "Lập trình mã nguồn",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[1]",
-          "id": "programming-language",
-          "chapterId": "implementation-build",
-          "titleJa": "プログラム言語",
-          "titleVi": "Ngôn ngữ lập trình",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[2]",
-          "id": "algorithm",
-          "chapterId": "implementation-build",
-          "titleJa": "アルゴリズム",
-          "titleVi": "Thuật toán",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[3]",
           "id": "data-processing",
           "chapterId": "implementation-build",
@@ -15339,16 +15224,6 @@
           "summaryReasons": "schema, thiếu ví dụ, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[5]",
-          "id": "structured-programming",
-          "chapterId": "implementation-build",
-          "titleJa": "構造化プログラミング",
-          "titleVi": "Lập trình có cấu trúc",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "ngắn, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[6]",
           "id": "module-specification",
           "chapterId": "implementation-build",
@@ -15356,16 +15231,6 @@
           "titleVi": "Đặc tả mô-đun",
           "grade": "B",
           "priority": "P2",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[7]",
-          "id": "traceability",
-          "chapterId": "implementation-build",
-          "titleJa": "追跡可能性",
-          "titleVi": "Khả năng truy vết",
-          "grade": "B",
-          "priority": "P1",
           "summaryReasons": "khuôn mẫu/lặp"
         },
         {
@@ -15687,66 +15552,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "khuôn mẫu/lặp, trùng bài khác"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[50]",
-          "id": "condition-coverage",
-          "chapterId": "implementation-build",
-          "titleJa": "条件網羅",
-          "titleVi": "Bao phủ điều kiện",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[51]",
-          "id": "decision-coverage",
-          "chapterId": "implementation-build",
-          "titleJa": "判定条件網羅",
-          "titleVi": "Bao phủ quyết định",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[52]",
-          "id": "multiple-condition-coverage",
-          "chapterId": "implementation-build",
-          "titleJa": "複数条件網羅",
-          "titleVi": "Bao phủ đa điều kiện",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[53]",
-          "id": "boundary-value-analysis",
-          "chapterId": "implementation-build",
-          "titleJa": "限界値分析法",
-          "titleVi": "Phân tích giá trị biên",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[54]",
-          "id": "equivalence-partitioning",
-          "chapterId": "implementation-build",
-          "titleJa": "同値分析法",
-          "titleVi": "Phân hoạch tương đương",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[55]",
-          "id": "cause-effect-graphing",
-          "chapterId": "implementation-build",
-          "titleJa": "原因結果グラフ法",
-          "titleVi": "Phương pháp đồ thị nhân quả",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "ngắn, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[56]",
@@ -17475,20 +17280,20 @@
       "statistics": {
         "total": 167,
         "grades": {
-          "A": 0,
-          "B": 167,
+          "A": 10,
+          "B": 157,
           "C": 0
         },
         "priorities": {
           "P0": 0,
-          "P1": 115,
+          "P1": 105,
           "P2": 52,
-          "P3": 0
+          "P3": 10
         },
         "missing": {
           "point": 0,
-          "example": 167,
-          "warning": 167,
+          "example": 157,
+          "warning": 157,
           "terms": 0
         },
         "lessonsWithEmptyVietnamese": 0,
@@ -17496,30 +17301,10 @@
         "lessonsWithRepeatedVietnamese": 0,
         "lessonsWithIncompleteBilingualTermDefinitions": 0,
         "lessonsWithIncompleteTermMetadata": 0,
-        "lessonsWithGenericSignals": 167,
-        "lessonsWithCrossLessonDuplicates": 14
+        "lessonsWithGenericSignals": 157,
+        "lessonsWithCrossLessonDuplicates": 12
       },
       "upgradeLessons": [
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[0]",
-          "id": "project",
-          "chapterId": "project-management",
-          "titleJa": "プロジェクト",
-          "titleVi": "Dự án",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[1]",
-          "id": "project-management",
-          "chapterId": "project-management",
-          "titleJa": "プロジェクトマネジメント",
-          "titleVi": "Quản lý dự án",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác"
-        },
         {
           "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[2]",
           "id": "project-environment",
@@ -17528,36 +17313,6 @@
           "titleVi": "Môi trường dự án",
           "grade": "B",
           "priority": "P2",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[3]",
-          "id": "project-life-cycle",
-          "chapterId": "project-management",
-          "titleJa": "プロジェクトライフサイクル",
-          "titleVi": "Vòng đời dự án",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "thiếu ví dụ, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[4]",
-          "id": "project-constraints",
-          "chapterId": "project-management",
-          "titleJa": "プロジェクトの制約",
-          "titleVi": "Các ràng buộc của dự án",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[5]",
-          "id": "tailoring",
-          "chapterId": "project-management",
-          "titleJa": "テーラリング",
-          "titleVi": "Tailoring",
-          "grade": "B",
-          "priority": "P1",
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
@@ -17589,56 +17344,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[9]",
-          "id": "initiating-process-group",
-          "chapterId": "project-management",
-          "titleJa": "立ち上げのプロセス群",
-          "titleVi": "Nhóm quy trình khởi động",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[10]",
-          "id": "planning-process-group",
-          "chapterId": "project-management",
-          "titleJa": "計画のプロセス群",
-          "titleVi": "Nhóm quy trình lập kế hoạch",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[11]",
-          "id": "execution-process-group",
-          "chapterId": "project-management",
-          "titleJa": "実行のプロセス群",
-          "titleVi": "Nhóm quy trình thực thi",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[12]",
-          "id": "project-management-process-groups",
-          "chapterId": "project-management",
-          "titleJa": "管理のプロセス群",
-          "titleVi": "Các nhóm quy trình quản lý dự án",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[13]",
-          "id": "closing-process-group",
-          "chapterId": "project-management",
-          "titleJa": "終結のプロセス群",
-          "titleVi": "Nhóm quy trình kết thúc",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "thiếu ví dụ, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[14]",
@@ -17758,7 +17463,7 @@
           "titleVi": "Quản lý dự án",
           "grade": "B",
           "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác"
+          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[26]",
@@ -25603,29 +25308,29 @@
       "statistics": {
         "total": 247,
         "grades": {
-          "A": 15,
-          "B": 232,
+          "A": 38,
+          "B": 209,
           "C": 0
         },
         "priorities": {
           "P0": 0,
-          "P1": 57,
+          "P1": 34,
           "P2": 175,
-          "P3": 15
+          "P3": 38
         },
         "missing": {
           "point": 0,
-          "example": 232,
-          "warning": 232,
+          "example": 209,
+          "warning": 209,
           "terms": 0
         },
         "lessonsWithEmptyVietnamese": 0,
         "lessonsWithVietnameseLanguageMismatch": 0,
-        "lessonsWithRepeatedVietnamese": 232,
+        "lessonsWithRepeatedVietnamese": 209,
         "lessonsWithIncompleteBilingualTermDefinitions": 0,
-        "lessonsWithIncompleteTermMetadata": 63,
-        "lessonsWithGenericSignals": 232,
-        "lessonsWithCrossLessonDuplicates": 58
+        "lessonsWithIncompleteTermMetadata": 56,
+        "lessonsWithGenericSignals": 209,
+        "lessonsWithCrossLessonDuplicates": 56
       },
       "upgradeLessons": [
         {
@@ -26289,26 +25994,6 @@
           "summaryReasons": "khuôn mẫu/lặp, trùng bài khác"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[0]",
-          "id": "linear-programming",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "線形計画法",
-          "titleVi": "Quy hoạch tuyến tính",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[1]",
-          "id": "simplex-method",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "シンプレックス法",
-          "titleVi": "Phương pháp đơn hình",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[2]",
           "id": "allocation-problem",
           "chapterId": "business-analysis-data-utilization",
@@ -26339,26 +26024,6 @@
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[5]",
-          "id": "economic-ordering-quantity",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "EOQ",
-          "titleVi": "Lượng đặt hàng kinh tế (EOQ)",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[6]",
-          "id": "reorder-point",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "発注点",
-          "titleVi": "Điểm đặt hàng lại",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[7]",
           "id": "scheduling",
           "chapterId": "business-analysis-data-utilization",
@@ -26376,16 +26041,6 @@
           "titleVi": "Sơ đồ mũi tên",
           "grade": "B",
           "priority": "P2",
-          "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[9]",
-          "id": "critical-path",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "クリティカルパス",
-          "titleVi": "Đường găng",
-          "grade": "B",
-          "priority": "P1",
           "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
@@ -26447,16 +26102,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[16]",
-          "id": "servitization",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "サーブリック",
-          "titleVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, thiếu ví dụ, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[17]",
@@ -26559,46 +26204,6 @@
           "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[27]",
-          "id": "histogram",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "ヒストグラム",
-          "titleVi": "Biểu đồ tần suất",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[28]",
-          "id": "pareto-chart",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "パレート図",
-          "titleVi": "Biểu đồ Pareto",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[29]",
-          "id": "scatter-diagram",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "散布図",
-          "titleVi": "Biểu đồ phân tán",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[30]",
-          "id": "cause-and-effect-diagram",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "特性要因図",
-          "titleVi": "Biểu đồ nhân quả (xương cá)",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[31]",
           "id": "check-sheet",
           "chapterId": "business-analysis-data-utilization",
@@ -26607,16 +26212,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "schema, cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[32]",
-          "id": "control-chart",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "管理図",
-          "titleVi": "Biểu đồ kiểm soát",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[33]",
@@ -26689,26 +26284,6 @@
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[40]",
-          "id": "least-squares-method",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "最小二乗法",
-          "titleVi": "Phương pháp bình phương tối thiểu",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[41]",
-          "id": "correlation-coefficient",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "相関係数",
-          "titleVi": "Hệ số tương quan",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[42]",
           "id": "moving-average-method",
           "chapterId": "business-analysis-data-utilization",
@@ -26737,16 +26312,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]",
-          "id": "data-mining-46",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "データマイニング",
-          "titleVi": "Khai phá dữ liệu",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác"
         },
         {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[46]",
@@ -26999,16 +26564,6 @@
           "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[71]",
-          "id": "data-lake",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "データレイク",
-          "titleVi": "Hồ dữ liệu (data lake)",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[72]",
           "id": "data-silos",
           "chapterId": "business-analysis-data-utilization",
@@ -27047,16 +26602,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[76]",
-          "id": "standardization",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "標準化",
-          "titleVi": "Chuẩn hóa dữ liệu",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[77]",
@@ -27099,26 +26644,6 @@
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[81]",
-          "id": "business-intelligence",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "BI",
-          "titleVi": "Trí tuệ kinh doanh (BI)",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]",
-          "id": "data-mining-2-83",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "データマイニング",
-          "titleVi": "Khai phá dữ liệu",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp, trùng bài khác"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[83]",
           "id": "text-mining",
           "chapterId": "business-analysis-data-utilization",
@@ -27137,16 +26662,6 @@
           "grade": "B",
           "priority": "P2",
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[85]",
-          "id": "big-data",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "ビッグデータ",
-          "titleVi": "Dữ liệu lớn",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "schema, cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[86]",
@@ -27269,26 +26784,6 @@
           "summaryReasons": "thiếu ví dụ, cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
         },
         {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[98]",
-          "id": "simple-random-sampling",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "単純無作為抽出",
-          "titleVi": "Lấy mẫu ngẫu nhiên đơn",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, ngắn, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[99]",
-          "id": "stratified-sampling",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "層別抽出",
-          "titleVi": "Lấy mẫu phân tầng",
-          "grade": "B",
-          "priority": "P1",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
           "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[100]",
           "id": "multistage-sampling",
           "chapterId": "business-analysis-data-utilization",
@@ -27306,16 +26801,6 @@
           "titleVi": "Độ chính xác và độ chệch",
           "grade": "B",
           "priority": "P2",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[102]",
-          "id": "selection-bias",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "選択バイアス",
-          "titleVi": "Sai lệch chọn mẫu",
-          "grade": "B",
-          "priority": "P1",
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
@@ -27366,16 +26851,6 @@
           "titleVi": "Thiên kiến bình thường hóa",
           "grade": "B",
           "priority": "P2",
-          "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
-        },
-        {
-          "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[108]",
-          "id": "confirmation-bias",
-          "chapterId": "business-analysis-data-utilization",
-          "titleJa": "確証バイアス",
-          "titleVi": "Thiên kiến xác nhận",
-          "grade": "B",
-          "priority": "P1",
           "summaryReasons": "cần cân nhắc warning, khuôn mẫu/lặp"
         },
         {
@@ -83347,47 +82822,34 @@
       "titleJa": "コーディング",
       "titleVi": "Lập trình mã nguồn",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa",
-        "summaryVi"
-      ],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "shortFields": [],
+      "schemaIssues": [],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 17,
-        "summaryViLength": 31,
-        "bodyJaLength": 272,
-        "bodyViLength": 602,
+        "summaryJaLength": 48,
+        "summaryViLength": 109,
+        "bodyJaLength": 372,
+        "bodyViLength": 834,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Nội dung ngắn: summaryJa, summaryVi.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[0]"
@@ -83410,43 +82872,34 @@
       "titleJa": "プログラム言語",
       "titleVi": "Ngôn ngữ lập trình",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 22,
-        "summaryViLength": 48,
-        "bodyJaLength": 287,
-        "bodyViLength": 376,
+        "summaryJaLength": 42,
+        "summaryViLength": 103,
+        "bodyJaLength": 355,
+        "bodyViLength": 811,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[1]"
@@ -83469,43 +82922,34 @@
       "titleJa": "アルゴリズム",
       "titleVi": "Thuật toán",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 27,
-        "summaryViLength": 65,
-        "bodyJaLength": 282,
-        "bodyViLength": 351,
+        "summaryJaLength": 37,
+        "summaryViLength": 93,
+        "bodyJaLength": 360,
+        "bodyViLength": 786,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[2]"
@@ -83643,43 +83087,34 @@
       "titleJa": "構造化プログラミング",
       "titleVi": "Lập trình có cấu trúc",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 21,
-        "summaryViLength": 110,
-        "bodyJaLength": 302,
-        "bodyViLength": 269,
+        "summaryJaLength": 42,
+        "summaryViLength": 96,
+        "bodyJaLength": 338,
+        "bodyViLength": 691,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[5]"
@@ -83758,40 +83193,34 @@
       "titleJa": "追跡可能性",
       "titleVi": "Khả năng truy vết",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 57,
-        "summaryViLength": 50,
-        "bodyJaLength": 279,
-        "bodyViLength": 462,
+        "summaryJaLength": 44,
+        "summaryViLength": 88,
+        "bodyJaLength": 364,
+        "bodyViLength": 794,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[7]"
@@ -86175,40 +85604,34 @@
       "titleJa": "条件網羅",
       "titleVi": "Bao phủ điều kiện",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 57,
-        "summaryViLength": 130,
-        "bodyJaLength": 259,
-        "bodyViLength": 172,
+        "summaryJaLength": 45,
+        "summaryViLength": 114,
+        "bodyJaLength": 368,
+        "bodyViLength": 791,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[50]"
@@ -86231,41 +85654,34 @@
       "titleJa": "判定条件網羅",
       "titleVi": "Bao phủ quyết định",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 53,
-        "summaryViLength": 62,
-        "bodyJaLength": 253,
-        "bodyViLength": 192,
+        "summaryJaLength": 44,
+        "summaryViLength": 90,
+        "bodyJaLength": 375,
+        "bodyViLength": 695,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[51]"
@@ -86288,40 +85704,34 @@
       "titleJa": "複数条件網羅",
       "titleVi": "Bao phủ đa điều kiện",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 50,
-        "summaryViLength": 91,
-        "bodyJaLength": 287,
-        "bodyViLength": 193,
+        "summaryJaLength": 41,
+        "summaryViLength": 105,
+        "bodyJaLength": 356,
+        "bodyViLength": 714,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[52]"
@@ -86344,43 +85754,34 @@
       "titleJa": "限界値分析法",
       "titleVi": "Phân tích giá trị biên",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 22,
-        "summaryViLength": 79,
-        "bodyJaLength": 242,
-        "bodyViLength": 201,
+        "summaryJaLength": 42,
+        "summaryViLength": 101,
+        "bodyJaLength": 320,
+        "bodyViLength": 784,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[53]"
@@ -86403,40 +85804,34 @@
       "titleJa": "同値分析法",
       "titleVi": "Phân hoạch tương đương",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 90,
-        "summaryViLength": 162,
-        "bodyJaLength": 313,
-        "bodyViLength": 204,
+        "summaryJaLength": 48,
+        "summaryViLength": 115,
+        "bodyJaLength": 358,
+        "bodyViLength": 736,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[54]"
@@ -86459,43 +85854,34 @@
       "titleJa": "原因結果グラフ法",
       "titleVi": "Phương pháp đồ thị nhân quả",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 20,
-        "summaryViLength": 181,
-        "bodyJaLength": 300,
-        "bodyViLength": 223,
+        "summaryJaLength": 51,
+        "summaryViLength": 151,
+        "bodyJaLength": 374,
+        "bodyViLength": 776,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#lessons[55]"
@@ -98191,41 +97577,34 @@
       "titleJa": "プロジェクト",
       "titleVi": "Dự án",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 42,
-        "summaryViLength": 165,
-        "bodyJaLength": 313,
-        "bodyViLength": 370,
+        "summaryJaLength": 49,
+        "summaryViLength": 137,
+        "bodyJaLength": 404,
+        "bodyViLength": 873,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[0]"
@@ -98248,44 +97627,34 @@
       "titleJa": "プロジェクトマネジメント",
       "titleVi": "Quản lý dự án",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
-      "crossLessonDuplicateSignals": [
-        "duplicateSummaryVi:2"
-      ],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "crossLessonDuplicateSignals": [],
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 38,
-        "summaryViLength": 173,
-        "bodyJaLength": 344,
-        "bodyViLength": 407,
+        "summaryJaLength": 55,
+        "summaryViLength": 159,
+        "bodyJaLength": 365,
+        "bodyViLength": 845,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape.",
-        "Nội dung trùng chính xác giữa nhiều bài: duplicateSummaryVi:2."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[1]"
@@ -98365,40 +97734,34 @@
       "titleJa": "プロジェクトライフサイクル",
       "titleVi": "Vòng đời dự án",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 30,
-        "summaryViLength": 174,
-        "bodyJaLength": 314,
-        "bodyViLength": 396,
+        "summaryJaLength": 49,
+        "summaryViLength": 144,
+        "bodyJaLength": 383,
+        "bodyViLength": 926,
         "termCount": 1
       },
       "reasons": [
-        "Thiếu ví dụ cụ thể.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[3]"
@@ -98421,41 +97784,34 @@
       "titleJa": "プロジェクトの制約",
       "titleVi": "Các ràng buộc của dự án",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 26,
-        "summaryViLength": 183,
-        "bodyJaLength": 304,
-        "bodyViLength": 418,
+        "summaryJaLength": 62,
+        "summaryViLength": 141,
+        "bodyJaLength": 364,
+        "bodyViLength": 906,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[4]"
@@ -98478,41 +97834,34 @@
       "titleJa": "テーラリング",
       "titleVi": "Tailoring",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 48,
-        "summaryViLength": 169,
-        "bodyJaLength": 315,
-        "bodyViLength": 399,
+        "summaryJaLength": 63,
+        "summaryViLength": 157,
+        "bodyJaLength": 376,
+        "bodyViLength": 963,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[5]"
@@ -98706,40 +98055,34 @@
       "titleJa": "立ち上げのプロセス群",
       "titleVi": "Nhóm quy trình khởi động",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 58,
-        "summaryViLength": 184,
-        "bodyJaLength": 315,
-        "bodyViLength": 407,
+        "summaryJaLength": 44,
+        "summaryViLength": 100,
+        "bodyJaLength": 349,
+        "bodyViLength": 861,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[9]"
@@ -98762,41 +98105,34 @@
       "titleJa": "計画のプロセス群",
       "titleVi": "Nhóm quy trình lập kế hoạch",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 44,
-        "summaryViLength": 187,
-        "bodyJaLength": 313,
-        "bodyViLength": 426,
+        "summaryJaLength": 52,
+        "summaryViLength": 116,
+        "bodyJaLength": 355,
+        "bodyViLength": 873,
         "termCount": 1
       },
       "reasons": [
-        "Thiếu ví dụ cụ thể.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[10]"
@@ -98819,40 +98155,34 @@
       "titleJa": "実行のプロセス群",
       "titleVi": "Nhóm quy trình thực thi",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
+      "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 31,
-        "summaryViLength": 183,
-        "bodyJaLength": 300,
-        "bodyViLength": 406,
+        "summaryJaLength": 58,
+        "summaryViLength": 121,
+        "bodyJaLength": 320,
+        "bodyViLength": 834,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[11]"
@@ -98875,41 +98205,34 @@
       "titleJa": "管理のプロセス群",
       "titleVi": "Các nhóm quy trình quản lý dự án",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 36,
-        "summaryViLength": 192,
-        "bodyJaLength": 351,
-        "bodyViLength": 417,
+        "summaryJaLength": 53,
+        "summaryViLength": 142,
+        "bodyJaLength": 357,
+        "bodyViLength": 919,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[12]"
@@ -98932,40 +98255,34 @@
       "titleJa": "終結のプロセス群",
       "titleVi": "Nhóm quy trình kết thúc",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape"
-      ],
+      "genericSignals": [],
       "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
         "summaryJaLength": 55,
-        "summaryViLength": 183,
-        "bodyJaLength": 263,
-        "bodyViLength": 409,
+        "summaryViLength": 118,
+        "bodyJaLength": 356,
+        "bodyViLength": 890,
         "termCount": 1
       },
       "reasons": [
-        "Thiếu ví dụ cụ thể.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[13]"
@@ -99628,9 +98945,7 @@
         "minimal-batch-shape"
       ],
       "repeatedVietnamese": [],
-      "crossLessonDuplicateSignals": [
-        "duplicateSummaryVi:2"
-      ],
+      "crossLessonDuplicateSignals": [],
       "embeddedExample": true,
       "warningReviewRecommended": true,
       "measurements": {
@@ -99643,8 +98958,7 @@
       "reasons": [
         "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
         "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape.",
-        "Nội dung trùng chính xác giữa nhiều bài: duplicateSummaryVi:2."
+        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/14-project-management/01-project-management.json#lessons[25]"
@@ -158090,49 +157404,34 @@
       "titleJa": "線形計画法",
       "titleVi": "Quy hoạch tuyến tính",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 48,
-        "summaryViLength": 217,
-        "bodyJaLength": 334,
-        "bodyViLength": 322,
+        "summaryJaLength": 60,
+        "summaryViLength": 163,
+        "bodyJaLength": 435,
+        "bodyViLength": 1032,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[0]"
@@ -158155,49 +157454,34 @@
       "titleJa": "シンプレックス法",
       "titleVi": "Phương pháp đơn hình",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 29,
-        "summaryViLength": 217,
-        "bodyJaLength": 280,
-        "bodyViLength": 322,
+        "summaryJaLength": 62,
+        "summaryViLength": 178,
+        "bodyJaLength": 422,
+        "bodyViLength": 998,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[1]"
@@ -158418,49 +157702,34 @@
       "titleJa": "EOQ",
       "titleVi": "Lượng đặt hàng kinh tế (EOQ)",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 37,
-        "summaryViLength": 225,
-        "bodyJaLength": 318,
-        "bodyViLength": 338,
+        "summaryJaLength": 58,
+        "summaryViLength": 110,
+        "bodyJaLength": 403,
+        "bodyViLength": 776,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[5]"
@@ -158483,49 +157752,34 @@
       "titleJa": "発注点",
       "titleVi": "Điểm đặt hàng lại",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 32,
-        "summaryViLength": 214,
-        "bodyJaLength": 289,
-        "bodyViLength": 316,
+        "summaryJaLength": 51,
+        "summaryViLength": 110,
+        "bodyJaLength": 363,
+        "bodyViLength": 852,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[6]"
@@ -158681,52 +157935,34 @@
       "titleJa": "クリティカルパス",
       "titleVi": "Đường găng",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 50,
-        "summaryViLength": 207,
-        "bodyJaLength": 310,
-        "bodyViLength": 302,
+        "summaryJaLength": 58,
+        "summaryViLength": 138,
+        "bodyJaLength": 436,
+        "bodyViLength": 1072,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[9]"
@@ -159152,50 +158388,34 @@
       "titleJa": "サーブリック",
       "titleVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
       "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 47,
-        "summaryViLength": 216,
-        "bodyJaLength": 130,
-        "bodyViLength": 336,
+        "summaryJaLength": 78,
+        "summaryViLength": 176,
+        "bodyJaLength": 402,
+        "bodyViLength": 956,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Thiếu ví dụ cụ thể.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[16]"
@@ -159872,52 +159092,34 @@
       "titleJa": "ヒストグラム",
       "titleVi": "Biểu đồ tần suất",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 25,
-        "summaryViLength": 213,
-        "bodyJaLength": 292,
-        "bodyViLength": 314,
+        "summaryJaLength": 57,
+        "summaryViLength": 156,
+        "bodyJaLength": 396,
+        "bodyViLength": 1062,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Thiếu ví dụ cụ thể.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[27]"
@@ -159940,52 +159142,34 @@
       "titleJa": "パレート図",
       "titleVi": "Biểu đồ Pareto",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 23,
-        "summaryViLength": 211,
-        "bodyJaLength": 277,
-        "bodyViLength": 310,
+        "summaryJaLength": 58,
+        "summaryViLength": 142,
+        "bodyJaLength": 371,
+        "bodyViLength": 894,
         "termCount": 1
       },
       "reasons": [
-        "Thiếu ví dụ cụ thể.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[28]"
@@ -160008,52 +159192,34 @@
       "titleJa": "散布図",
       "titleVi": "Biểu đồ phân tán",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 24,
-        "summaryViLength": 213,
-        "bodyJaLength": 254,
-        "bodyViLength": 314,
+        "summaryJaLength": 53,
+        "summaryViLength": 130,
+        "bodyJaLength": 367,
+        "bodyViLength": 938,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[29]"
@@ -160076,52 +159242,34 @@
       "titleJa": "特性要因図",
       "titleVi": "Biểu đồ nhân quả (xương cá)",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 14,
-        "summaryViLength": 224,
-        "bodyJaLength": 304,
-        "bodyViLength": 336,
+        "summaryJaLength": 56,
+        "summaryViLength": 152,
+        "bodyJaLength": 365,
+        "bodyViLength": 1085,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[30]"
@@ -160215,49 +159363,34 @@
       "titleJa": "管理図",
       "titleVi": "Biểu đồ kiểm soát",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 33,
-        "summaryViLength": 214,
-        "bodyJaLength": 289,
-        "bodyViLength": 316,
+        "summaryJaLength": 60,
+        "summaryViLength": 190,
+        "bodyJaLength": 365,
+        "bodyViLength": 1072,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[32]"
@@ -160736,49 +159869,34 @@
       "titleJa": "最小二乗法",
       "titleVi": "Phương pháp bình phương tối thiểu",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": false,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 32,
-        "summaryViLength": 230,
-        "bodyJaLength": 268,
-        "bodyViLength": 348,
+        "summaryJaLength": 56,
+        "summaryViLength": 168,
+        "bodyJaLength": 389,
+        "bodyViLength": 909,
         "termCount": 1
       },
       "reasons": [
-        "Thiếu ví dụ cụ thể.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[40]"
@@ -160801,52 +159919,34 @@
       "titleJa": "相関係数",
       "titleVi": "Hệ số tương quan",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 24,
-        "summaryViLength": 213,
-        "bodyJaLength": 262,
-        "bodyViLength": 314,
+        "summaryJaLength": 44,
+        "summaryViLength": 124,
+        "bodyJaLength": 357,
+        "bodyViLength": 917,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[41]"
@@ -161067,58 +160167,34 @@
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
-      "crossLessonDuplicateSignals": [
-        "duplicateSummaryJa:2",
-        "duplicateSummaryVi:2",
-        "duplicatePrimaryParagraphJa:2",
-        "duplicatePrimaryParagraphVi:2"
-      ],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
+      "crossLessonDuplicateSignals": [],
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 31,
-        "summaryViLength": 213,
-        "bodyJaLength": 301,
-        "bodyViLength": 314,
+        "summaryJaLength": 61,
+        "summaryViLength": 171,
+        "bodyJaLength": 390,
+        "bodyViLength": 970,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson.",
-        "Nội dung trùng chính xác giữa nhiều bài: duplicateSummaryJa:2, duplicateSummaryVi:2, duplicatePrimaryParagraphJa:2, duplicatePrimaryParagraphVi:2."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[45]"
@@ -162805,52 +161881,34 @@
       "titleJa": "データレイク",
       "titleVi": "Hồ dữ liệu (data lake)",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 30,
-        "summaryViLength": 219,
-        "bodyJaLength": 281,
-        "bodyViLength": 326,
+        "summaryJaLength": 58,
+        "summaryViLength": 154,
+        "bodyJaLength": 431,
+        "bodyViLength": 1011,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[71]"
@@ -163133,52 +162191,34 @@
       "titleJa": "標準化",
       "titleVi": "Chuẩn hóa dữ liệu",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 22,
-        "summaryViLength": 214,
-        "bodyJaLength": 224,
-        "bodyViLength": 316,
+        "summaryJaLength": 55,
+        "summaryViLength": 163,
+        "bodyJaLength": 410,
+        "bodyViLength": 964,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[76]"
@@ -163464,49 +162504,34 @@
       "titleJa": "BI",
       "titleVi": "Trí tuệ kinh doanh (BI)",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 35,
-        "summaryViLength": 220,
-        "bodyJaLength": 250,
-        "bodyViLength": 328,
+        "summaryJaLength": 51,
+        "summaryViLength": 148,
+        "bodyJaLength": 393,
+        "bodyViLength": 1047,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[81]"
@@ -163529,58 +162554,34 @@
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
-      "crossLessonDuplicateSignals": [
-        "duplicateSummaryJa:2",
-        "duplicateSummaryVi:2",
-        "duplicatePrimaryParagraphJa:2",
-        "duplicatePrimaryParagraphVi:2"
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
+      "crossLessonDuplicateSignals": [],
       "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 31,
-        "summaryViLength": 213,
-        "bodyJaLength": 301,
-        "bodyViLength": 314,
+        "summaryJaLength": 55,
+        "summaryViLength": 176,
+        "bodyJaLength": 398,
+        "bodyViLength": 1021,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson.",
-        "Nội dung trùng chính xác giữa nhiều bài: duplicateSummaryJa:2, duplicateSummaryVi:2, duplicatePrimaryParagraphJa:2, duplicatePrimaryParagraphVi:2."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[82]"
@@ -163736,52 +162737,34 @@
       "titleJa": "ビッグデータ",
       "titleVi": "Dữ liệu lớn",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
-      "schemaIssues": [
-        "terms[0].reading-empty"
-      ],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "schemaIssues": [],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 42,
-        "summaryViLength": 208,
-        "bodyJaLength": 272,
-        "bodyViLength": 304,
+        "summaryJaLength": 61,
+        "summaryViLength": 171,
+        "bodyJaLength": 453,
+        "bodyViLength": 1077,
         "termCount": 1
       },
       "reasons": [
-        "Lỗi schema/dữ liệu: terms[0].reading-empty.",
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[85]"
@@ -164608,52 +163591,34 @@
       "titleJa": "単純無作為抽出",
       "titleVi": "Lấy mẫu ngẫu nhiên đơn",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
-      "shortFields": [
-        "summaryJa"
-      ],
+      "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 24,
-        "summaryViLength": 219,
-        "bodyJaLength": 281,
-        "bodyViLength": 326,
+        "summaryJaLength": 54,
+        "summaryViLength": 167,
+        "bodyJaLength": 356,
+        "bodyViLength": 848,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Nội dung ngắn: summaryJa.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[98]"
@@ -164676,49 +163641,34 @@
       "titleJa": "層別抽出",
       "titleVi": "Lấy mẫu phân tầng",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 41,
-        "summaryViLength": 214,
-        "bodyJaLength": 259,
-        "bodyViLength": 316,
+        "summaryJaLength": 59,
+        "summaryViLength": 148,
+        "bodyJaLength": 381,
+        "bodyViLength": 957,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[99]"
@@ -164871,49 +163821,34 @@
       "titleJa": "選択バイアス",
       "titleVi": "Sai lệch chọn mẫu",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
-      "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "embeddedExample": false,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 42,
-        "summaryViLength": 214,
-        "bodyJaLength": 272,
-        "bodyViLength": 316,
+        "summaryJaLength": 59,
+        "summaryViLength": 165,
+        "bodyJaLength": 392,
+        "bodyViLength": 1042,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[102]"
@@ -165261,49 +164196,34 @@
       "titleJa": "確証バイアス",
       "titleVi": "Thiên kiến xác nhận",
       "importance": "high",
-      "grade": "B",
-      "priority": "P1",
+      "grade": "A",
+      "priority": "P3",
       "blockCounts": {
         "heading": 1,
         "paragraph": 1,
         "point": 1,
-        "example": 0,
-        "warning": 0
+        "example": 1,
+        "warning": 1
       },
-      "missing": [
-        "example",
-        "warning"
-      ],
+      "missing": [],
       "emptyVietnamese": [],
       "vietnameseLanguageMismatch": [],
       "shortFields": [],
       "schemaIssues": [],
-      "genericSignals": [
-        "minimal-batch-shape",
-        "generic-exam-point-template",
-        "repeated-vietnamese-within-lesson"
-      ],
-      "repeatedVietnamese": [
-        [
-          "summaryVi",
-          "content[1].vi",
-          "terms[0].definitionVi"
-        ]
-      ],
+      "genericSignals": [],
+      "repeatedVietnamese": [],
       "crossLessonDuplicateSignals": [],
       "embeddedExample": true,
-      "warningReviewRecommended": true,
+      "warningReviewRecommended": false,
       "measurements": {
-        "summaryJaLength": 56,
-        "summaryViLength": 216,
-        "bodyJaLength": 275,
-        "bodyViLength": 320,
+        "summaryJaLength": 57,
+        "summaryViLength": 168,
+        "bodyJaLength": 392,
+        "bodyViLength": 1089,
         "termCount": 1
       },
       "reasons": [
-        "Không có block example riêng, nhưng ví dụ đã nằm trong paragraph/point.",
-        "Có tín hiệu dễ nhầm/ngoại lệ/rủi ro nhưng chưa có warning hoặc point cảnh báo rõ.",
-        "Dấu hiệu khuôn mẫu/lặp: minimal-batch-shape, generic-exam-point-template, repeated-vietnamese-within-lesson."
+        "Đạt ngưỡng cấu trúc tự động; vẫn bắt buộc review độ chính xác và chiều sâu kiến thức."
       ],
       "manualKnowledgeReviewRequired": true,
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#lessons[108]"

@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "identity": "file + lessonId",
-  "updatedAt": "2026-11-10T08:15:58.024Z",
+  "updatedAt": "2026-11-12T07:07:07.144Z",
   "sourceAudit": {
     "file": "docs/fe-content-quality-audit.json",
-    "generatedAt": "2026-11-10T08:14:48.000Z",
+    "generatedAt": "2026-11-12T07:06:11.243Z",
     "scriptVersion": "1.0.0"
   },
   "totals": {
     "totalLessons": 2596,
-    "completedLessons": 426,
-    "unfinishedLessons": 2170,
+    "completedLessons": 470,
+    "unfinishedLessons": 2126,
     "byStatus": {
-      "pending": 2170,
+      "pending": 2126,
       "in_progress": 0,
-      "completed": 426,
+      "completed": 470,
       "needs_review": 0
     }
   },
@@ -1001,6 +1001,158 @@
       "status": "completed",
       "updatedAt": "2026-11-10T08:15:58.022Z",
       "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-10-045.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "file": "data/fe/theory/12-system-development-technology/03-implementation-build.json",
+      "lessonIds": [
+        "condition-coverage",
+        "decision-coverage",
+        "multiple-condition-coverage",
+        "boundary-value-analysis",
+        "equivalence-partitioning",
+        "cause-effect-graphing"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "file": "data/fe/theory/12-system-development-technology/03-implementation-build.json",
+      "lessonIds": [
+        "coding",
+        "programming-language",
+        "algorithm",
+        "structured-programming",
+        "traceability"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "file": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
+      "lessonIds": [
+        "histogram",
+        "pareto-chart",
+        "scatter-diagram",
+        "cause-and-effect-diagram",
+        "control-chart"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-11-049",
+      "file": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
+      "lessonIds": [
+        "linear-programming",
+        "simplex-method",
+        "economic-ordering-quantity",
+        "reorder-point"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-11T06:32:01.819Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-049.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "file": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
+      "lessonIds": [
+        "least-squares-method",
+        "correlation-coefficient",
+        "simple-random-sampling",
+        "stratified-sampling",
+        "selection-bias"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "file": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
+      "lessonIds": [
+        "data-mining-46",
+        "data-lake",
+        "standardization",
+        "business-intelligence",
+        "data-mining-2-83",
+        "big-data"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-12-052",
+      "file": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json",
+      "lessonIds": [
+        "critical-path",
+        "servitization",
+        "confirmation-bias"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-12T06:53:13.580Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-052.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "file": "data/fe/theory/14-project-management/01-project-management.json",
+      "lessonIds": [
+        "project",
+        "project-management",
+        "project-life-cycle",
+        "project-constraints",
+        "tailoring"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md",
+      "validation": {
+        "status": "passed"
+      }
+    },
+    {
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "file": "data/fe/theory/14-project-management/01-project-management.json",
+      "lessonIds": [
+        "initiating-process-group",
+        "planning-process-group",
+        "execution-process-group",
+        "project-management-process-groups",
+        "closing-process-group"
+      ],
+      "status": "completed",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md",
       "validation": {
         "status": "passed"
       }
@@ -13710,12 +13862,15 @@
       "lessonId": "coding",
       "titleJa": "コーディング",
       "titleVi": "Lập trình mã nguồn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#programming-language",
@@ -13723,12 +13878,15 @@
       "lessonId": "programming-language",
       "titleJa": "プログラム言語",
       "titleVi": "Ngôn ngữ lập trình",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#algorithm",
@@ -13736,12 +13894,15 @@
       "lessonId": "algorithm",
       "titleJa": "アルゴリズム",
       "titleVi": "Thuật toán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#data-processing",
@@ -13775,12 +13936,15 @@
       "lessonId": "structured-programming",
       "titleJa": "構造化プログラミング",
       "titleVi": "Lập trình có cấu trúc",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#module-specification",
@@ -13801,12 +13965,15 @@
       "lessonId": "traceability",
       "titleJa": "追跡可能性",
       "titleVi": "Khả năng truy vết",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-047",
+      "updatedAt": "2026-11-11T06:17:15.777Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-047.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#external-consistency",
@@ -14390,12 +14557,15 @@
       "lessonId": "condition-coverage",
       "titleJa": "条件網羅",
       "titleVi": "Bao phủ điều kiện",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#decision-coverage",
@@ -14403,12 +14573,15 @@
       "lessonId": "decision-coverage",
       "titleJa": "判定条件網羅",
       "titleVi": "Bao phủ quyết định",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#multiple-condition-coverage",
@@ -14416,12 +14589,15 @@
       "lessonId": "multiple-condition-coverage",
       "titleJa": "複数条件網羅",
       "titleVi": "Bao phủ đa điều kiện",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#boundary-value-analysis",
@@ -14429,12 +14605,15 @@
       "lessonId": "boundary-value-analysis",
       "titleJa": "限界値分析法",
       "titleVi": "Phân tích giá trị biên",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#equivalence-partitioning",
@@ -14442,12 +14621,15 @@
       "lessonId": "equivalence-partitioning",
       "titleJa": "同値分析法",
       "titleVi": "Phân hoạch tương đương",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#cause-effect-graphing",
@@ -14455,12 +14637,15 @@
       "lessonId": "cause-effect-graphing",
       "titleJa": "原因結果グラフ法",
       "titleVi": "Phương pháp đồ thị nhân quả",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-046",
+      "updatedAt": "2026-11-11T06:11:42.348Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-046.md"
+      }
     },
     {
       "key": "data/fe/theory/12-system-development-technology/03-implementation-build.json#error-embedding-method",
@@ -17244,12 +17429,15 @@
       "lessonId": "project",
       "titleJa": "プロジェクト",
       "titleVi": "Dự án",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#project-management",
@@ -17257,12 +17445,15 @@
       "lessonId": "project-management",
       "titleJa": "プロジェクトマネジメント",
       "titleVi": "Quản lý dự án",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#project-environment",
@@ -17283,12 +17474,15 @@
       "lessonId": "project-life-cycle",
       "titleJa": "プロジェクトライフサイクル",
       "titleVi": "Vòng đời dự án",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#project-constraints",
@@ -17296,12 +17490,15 @@
       "lessonId": "project-constraints",
       "titleJa": "プロジェクトの制約",
       "titleVi": "Các ràng buộc của dự án",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#tailoring",
@@ -17309,12 +17506,15 @@
       "lessonId": "tailoring",
       "titleJa": "テーラリング",
       "titleVi": "Tailoring",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-053",
+      "updatedAt": "2026-11-12T07:02:20.749Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-053.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#jis-q-21500",
@@ -17361,12 +17561,15 @@
       "lessonId": "initiating-process-group",
       "titleJa": "立ち上げのプロセス群",
       "titleVi": "Nhóm quy trình khởi động",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#planning-process-group",
@@ -17374,12 +17577,15 @@
       "lessonId": "planning-process-group",
       "titleJa": "計画のプロセス群",
       "titleVi": "Nhóm quy trình lập kế hoạch",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#execution-process-group",
@@ -17387,12 +17593,15 @@
       "lessonId": "execution-process-group",
       "titleJa": "実行のプロセス群",
       "titleVi": "Nhóm quy trình thực thi",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#project-management-process-groups",
@@ -17400,12 +17609,15 @@
       "lessonId": "project-management-process-groups",
       "titleJa": "管理のプロセス群",
       "titleVi": "Các nhóm quy trình quản lý dự án",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#closing-process-group",
@@ -17413,12 +17625,15 @@
       "lessonId": "closing-process-group",
       "titleJa": "終結のプロセス群",
       "titleVi": "Nhóm quy trình kết thúc",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-054",
+      "updatedAt": "2026-11-12T07:07:07.142Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-054.md"
+      }
     },
     {
       "key": "data/fe/theory/14-project-management/01-project-management.json#integration-management",
@@ -30262,12 +30477,15 @@
       "lessonId": "linear-programming",
       "titleJa": "線形計画法",
       "titleVi": "Quy hoạch tuyến tính",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-049",
+      "updatedAt": "2026-11-11T06:32:01.819Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-049.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#simplex-method",
@@ -30275,12 +30493,15 @@
       "lessonId": "simplex-method",
       "titleJa": "シンプレックス法",
       "titleVi": "Phương pháp đơn hình",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-049",
+      "updatedAt": "2026-11-11T06:32:01.819Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-049.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#allocation-problem",
@@ -30327,12 +30548,15 @@
       "lessonId": "economic-ordering-quantity",
       "titleJa": "EOQ",
       "titleVi": "Lượng đặt hàng kinh tế (EOQ)",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-049",
+      "updatedAt": "2026-11-11T06:32:01.819Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-049.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#reorder-point",
@@ -30340,12 +30564,15 @@
       "lessonId": "reorder-point",
       "titleJa": "発注点",
       "titleVi": "Điểm đặt hàng lại",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-049",
+      "updatedAt": "2026-11-11T06:32:01.819Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-049.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#scheduling",
@@ -30379,12 +30606,15 @@
       "lessonId": "critical-path",
       "titleJa": "クリティカルパス",
       "titleVi": "Đường găng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-052",
+      "updatedAt": "2026-11-12T06:53:13.580Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-052.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#zero-sum-two-person-game",
@@ -30470,12 +30700,15 @@
       "lessonId": "servitization",
       "titleJa": "サーブリック",
       "titleVi": "Therblig – các động tác cơ bản trong nghiên cứu thao tác",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-052",
+      "updatedAt": "2026-11-12T06:53:13.580Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-052.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#work-analysis",
@@ -30613,12 +30846,15 @@
       "lessonId": "histogram",
       "titleJa": "ヒストグラム",
       "titleVi": "Biểu đồ tần suất",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#pareto-chart",
@@ -30626,12 +30862,15 @@
       "lessonId": "pareto-chart",
       "titleJa": "パレート図",
       "titleVi": "Biểu đồ Pareto",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#scatter-diagram",
@@ -30639,12 +30878,15 @@
       "lessonId": "scatter-diagram",
       "titleJa": "散布図",
       "titleVi": "Biểu đồ phân tán",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#cause-and-effect-diagram",
@@ -30652,12 +30894,15 @@
       "lessonId": "cause-and-effect-diagram",
       "titleJa": "特性要因図",
       "titleVi": "Biểu đồ nhân quả (xương cá)",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#check-sheet",
@@ -30678,12 +30923,15 @@
       "lessonId": "control-chart",
       "titleJa": "管理図",
       "titleVi": "Biểu đồ kiểm soát",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-048",
+      "updatedAt": "2026-11-11T06:26:18.171Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-048.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#affinity-diagram",
@@ -30782,12 +31030,15 @@
       "lessonId": "least-squares-method",
       "titleJa": "最小二乗法",
       "titleVi": "Phương pháp bình phương tối thiểu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#correlation-coefficient",
@@ -30795,12 +31046,15 @@
       "lessonId": "correlation-coefficient",
       "titleJa": "相関係数",
       "titleVi": "Hệ số tương quan",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#moving-average-method",
@@ -30847,12 +31101,15 @@
       "lessonId": "data-mining-46",
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#brainstorming",
@@ -31185,12 +31442,15 @@
       "lessonId": "data-lake",
       "titleJa": "データレイク",
       "titleVi": "Hồ dữ liệu (data lake)",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#data-silos",
@@ -31250,12 +31510,15 @@
       "lessonId": "standardization",
       "titleJa": "標準化",
       "titleVi": "Chuẩn hóa dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#annotation",
@@ -31315,12 +31578,15 @@
       "lessonId": "business-intelligence",
       "titleJa": "BI",
       "titleVi": "Trí tuệ kinh doanh (BI)",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#data-mining-2-83",
@@ -31328,12 +31594,15 @@
       "lessonId": "data-mining-2-83",
       "titleJa": "データマイニング",
       "titleVi": "Khai phá dữ liệu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#text-mining",
@@ -31367,12 +31636,15 @@
       "lessonId": "big-data",
       "titleJa": "ビッグデータ",
       "titleVi": "Dữ liệu lớn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-051",
+      "updatedAt": "2026-11-12T06:49:38.940Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-051.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#open-data",
@@ -31536,12 +31808,15 @@
       "lessonId": "simple-random-sampling",
       "titleJa": "単純無作為抽出",
       "titleVi": "Lấy mẫu ngẫu nhiên đơn",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#stratified-sampling",
@@ -31549,12 +31824,15 @@
       "lessonId": "stratified-sampling",
       "titleJa": "層別抽出",
       "titleVi": "Lấy mẫu phân tầng",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#multistage-sampling",
@@ -31588,12 +31866,15 @@
       "lessonId": "selection-bias",
       "titleJa": "選択バイアス",
       "titleVi": "Sai lệch chọn mẫu",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-11-050",
+      "updatedAt": "2026-11-11T06:35:46.751Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-11-050.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#information-bias",
@@ -31666,12 +31947,15 @@
       "lessonId": "confirmation-bias",
       "titleJa": "確証バイアス",
       "titleVi": "Thiên kiến xác nhận",
-      "auditGrade": "B",
-      "auditPriority": "P1",
-      "status": "pending",
-      "batchId": null,
-      "updatedAt": null,
-      "validation": null
+      "auditGrade": "A",
+      "auditPriority": "P3",
+      "status": "completed",
+      "batchId": "FE-ENRICH-2026-11-12-052",
+      "updatedAt": "2026-11-12T06:53:13.580Z",
+      "validation": {
+        "status": "passed",
+        "report": "docs/fe-enrichment-batches/FE-ENRICH-2026-11-12-052.md"
+      }
     },
     {
       "key": "data/fe/theory/22-corporate-activities/02-business-analysis-data-utilization.json#bar-graph",
